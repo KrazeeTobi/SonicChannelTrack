@@ -44,5 +44,5 @@ wget -r --no-parent http://sonic.sega.jp/SonicWorldAdventure/
 wget -r --no-parent http://sonic.sega.jp/TeamSonicRacing/
 wget -r --no-parent http://sonic.sega.jp/wpack/
 git add *.*
-git commit -m "files from %HR%%date:~-4,4%-%date:~3,2%-%date:~-10,2% %time:~0,2%:%time:~3,2%:%time:~6,2%"
+git commit -m "files from %date:~-4,4%-%date:~3,2%-%date:~-10,2% %time:~0,2%:%time:~3,2%:%time:~6,2%"
 git push
