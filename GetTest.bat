@@ -1,4 +1,4 @@
 git pull
 git add *.*
-git commit -m "generated files on `date +'%Y-%m-%d %H:%M:%S'`";
+git commit -m 'date'
 git push origin
