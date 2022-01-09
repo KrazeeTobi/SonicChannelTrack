@@ -43,6 +43,75 @@ wget -r --no-parent http://sonic.sega.jp/SonicToon/
 wget -r --no-parent http://sonic.sega.jp/SonicWorldAdventure/
 wget -r --no-parent http://sonic.sega.jp/TeamSonicRacing/
 wget -r --no-parent http://sonic.sega.jp/wpack/
+cd sonic.sega.jp
+cd SonicChannel
+del character.1
+del character.2
+del character.3
+del fanart.1
+del fanart.2
+del special.1
+del special.2
+del topics.1
+del topics.2
+cd special
+del coverstory.1
+del coverstory.2
+del ohgiri.1
+del ohgiri.2
+del sonic2020.1
+del sonic2020.2
+del sonicforces.1
+del sonicforces.2
+del sonicmania.1
+del sonicmania.2
+del sonicstationlive.1
+del sonicstationlive.2
+del sonicstationlive.3
+cd comic
+del 25th.1
+del 25th.2
+cd ..
+cd soniccolors
+del comics.1
+del comics.2
+del comics.3
+cd ..
+cd sonicforces
+del column.1
+del column.2
+del comics.1
+del comics.2
+cd ..
+cd soundcolumn
+del ohtani.1
+del ohtani.2
+del senoue.1
+del senoue.2
+cd ..
+cd ..
+cd topics
+del collaboration.1
+del collaboration.2
+del collaboration.3
+del event.1
+del event.2
+del event.3
+del goods.1
+del goods.2
+del goods.3
+del information.1
+del information.2
+del information.3
+del sound.1
+del sound.2
+del sound.3
+cd goods
+del 20190607_001917.1
+cd .. ::root/sonic.sega.jp/SonicChannel/topics
+cd .. ::root/sonic.sega.jp/SonicChannel
+cd .. ::root/sonic.sega.jp
+cd .. ::/root/
 git add *.*
 git commit -m "files from %date:~-4,4%-%date:~3,2%-%date:~-10,2% %time:~0,2%:%time:~3,2%:%time:~6,2%"
 git push
