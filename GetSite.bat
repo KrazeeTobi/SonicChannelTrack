@@ -43,6 +43,7 @@ wget -r --no-parent http://sonic.sega.jp/SonicToon/
 wget -r --no-parent http://sonic.sega.jp/SonicWorldAdventure/
 wget -r --no-parent http://sonic.sega.jp/TeamSonicRacing/
 wget -r --no-parent http://sonic.sega.jp/wpack/
+wget -r --no-parent http://blog.sonic-channel.jp/
 cd sonic.sega.jp
 cd SonicChannel
 del character.1
