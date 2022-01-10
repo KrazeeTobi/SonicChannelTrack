@@ -109,10 +109,10 @@ del sound.2
 del sound.3
 cd goods
 del 20190607_001917.1
-cd .. ::root/sonic.sega.jp/SonicChannel/topics
-cd .. ::root/sonic.sega.jp/SonicChannel
-cd .. ::root/sonic.sega.jp
-cd .. ::/root/
+cd ..
+cd .. 
+cd .. 
+cd .. 
 git add *.*
 git commit -m "files from %date:~-4,4%-%date:~3,2%-%date:~-10,2% %time:~0,2%:%time:~3,2%:%time:~6,2%"
 git push
