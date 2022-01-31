@@ -1,3 +1,13 @@
+::-------------------------------------------------------------change comments begin
+::Changelog - last updated 2022-01-31
+::Alpha - 2022-01-07: Initial version. Can download files, commit, and push them.
+::Beta - 2022-01-07: Replaced copy-pasted code. Commits now actually work (somewhat).
+::v1.0 - 2022-01-07: Version ready to download files.
+::v1.0.1 - 2022-01-09: Added deletion script. Not elegant, but it will do (it takes two hours to download anyway).
+::v1.0.2 - 2022-01-09: Added blog.sonic-channel.jp.
+::v1.0.3 - 2022-01-10: Removed unnecessary comments.
+::v1.0.4 - 2022-01-31: sanpo.1 and sanpo.2 deletions added.
+::--------------------------------------------------------------change comments end
 git pull
 wget -r --no-parent http://sonic.sega.jp/
 wget -r --no-parent http://sonic.sega.jp/20th/
@@ -60,6 +70,8 @@ del coverstory.1
 del coverstory.2
 del ohgiri.1
 del ohgiri.2
+del sanpo.1
+del sanpo.2
 del sonic2020.1
 del sonic2020.2
 del sonicforces.1
