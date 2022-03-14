@@ -7,6 +7,7 @@
 ::v1.0.2 - 2022-01-09: Added blog.sonic-channel.jp.
 ::v1.0.3 - 2022-01-10: Removed unnecessary comments.
 ::v1.0.4 - 2022-01-31: sanpo.1 and sanpo.2 deletions added.
+::v1.1.0 - 2022-03-14: Added sonicteam.com.
 ::--------------------------------------------------------------change comments end
 git pull
 wget -r --no-parent http://sonic.sega.jp/
@@ -54,6 +55,7 @@ wget -r --no-parent http://sonic.sega.jp/SonicWorldAdventure/
 wget -r --no-parent http://sonic.sega.jp/TeamSonicRacing/
 wget -r --no-parent http://sonic.sega.jp/wpack/
 wget -r --no-parent http://blog.sonic-channel.jp/
+wget -r --no-parent http://sonicteam.com/
 cd sonic.sega.jp
 cd SonicChannel
 del character.1
