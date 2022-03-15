@@ -1,0 +1,392 @@
+<HTML>
+<HEAD>
+<title>ソニックアドベンチャー２ バトル - 製品概要</title>
+<style type="text/css">
+<!--
+body{background-image:url('../img/savs_back.jpg');
+background-repeat:repeat-y;
+background-attachment:fixed;
+{scrollbar-base-color:black;scrollbar-arrow-color:gray;}
+-->
+</style>
+<!-------マウスと共に移動するhead---------->
+<SCRIPT LANGUAGE="Javascript">
+<!--
+
+
+
+var Ex = 0,Ey = 0 
+function move(e) { 
+Ex = e.pageX; 
+Ey = e.pageY;} 
+function init() { 
+NC4 = IE4 = 0; 
+if (navigator.appName == "Netscape" && navigator.appVersion.charAt(0) >=4) { 
+NC4 = true; 
+document.captureEvents(Event.MOUSEMOVE); 
+document.onMouseMove=move; 
+IMGx = document.layers['mim'].clip.width; 
+IMGy = document.layers['mim'].clip.height;} 
+if (navigator.appName == "Microsoft Internet Explorer" 
+&& navigator.appVersion.charAt(0) >=4) { 
+IE4 = true; 
+IMGx = mim.offsetWidth; 
+IMGy = mim.offsetHeight;}} 
+function getCursor() { 
+if (IE4) {Ex = event.clientX; 
+Ey = event.clientY; 
+event.returnValue=false;}} 
+function openMassage() { 
+if (IE4) { 
+Sx = document.body.scrollLeft; 
+Sy = document.body.scrollTop; 
+mim.style.posLeft += (Ex+Sx+10 - mim.style.posLeft)/15; 
+mim.style.posTop += (Ey+Sy+10 - mim.style.posTop)/15;} 
+if (NC4) { 
+document.layers['mim'].left += (Ex+10 - document.layers['mim'].left)/15; 
+document.layers['mim'].top += (Ey+10 - document.layers['mim'].top)/15;}}
+//-->
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+//-->
+</SCRIPT>
+<!-------マウスと共に移動するheadここまで---------->
+<!-------子ウィンドウhead--------->
+<SCRIPT language="JavaScript">
+<!--
+
+var window_location
+function OpenWindow() {
+window.open('../../3title/mt02_dl.html','window2','resizable=0,scrollbars=0,menubar=0,directories=0,status=0,location=0,width=100,height=130');
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</SCRIPT>
+<!------子ウィンドウheadここまで-------->
+<script language="JavaScript">
+<!--
+<!--
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+// -->
+
+function MM_timelineGoto(tmLnName, fNew, numGotos) { //v2.0
+  //Copyright 1997 Macromedia, Inc. All rights reserved.
+  var i,j,tmLn,props,keyFrm,sprite,numKeyFr,firstKeyFr,lastKeyFr,propNum,theObj;
+  if (document.MM_Time == null) MM_initTimelines(); //if *very* 1st time
+  tmLn = document.MM_Time[tmLnName];
+  if (numGotos != null)
+    if (tmLn.gotoCount == null) tmLn.gotoCount = 1;
+    else if (tmLn.gotoCount++ >= numGotos) {tmLn.gotoCount=0; return}
+  jmpFwd = (fNew > tmLn.curFrame);
+  for (i = 0; i < tmLn.length; i++) {
+    sprite = (jmpFwd)? tmLn[i] : tmLn[(tmLn.length-1)-i]; //count bkwds if jumping back
+    if (sprite.charAt(0) == "s") {
+      numKeyFr = sprite.keyFrames.length;
+      firstKeyFr = sprite.keyFrames[0];
+      lastKeyFr = sprite.keyFrames[numKeyFr - 1];
+      if ((jmpFwd && fNew<firstKeyFr) || (!jmpFwd && lastKeyFr<fNew)) continue; //skip if untouchd
+      for (keyFrm=1; keyFrm<numKeyFr && fNew>=sprite.keyFrames[keyFrm]; keyFrm++);
+      for (j=0; j<sprite.values.length; j++) {
+        props = sprite.values[j];
+        if (numKeyFr == props.length) propNum = keyFrm-1 //keyframes only
+        else propNum = Math.min(Math.max(0,fNew-firstKeyFr),props.length-1); //or keep in legal range
+        if (sprite.obj != null) {
+          if (props.prop2 == null) sprite.obj[props.prop] = props[propNum];
+          else        sprite.obj[props.prop2][props.prop] = props[propNum];
+      } }
+    } else if (sprite.charAt(0)=='b' && fNew == sprite.frame) eval(sprite.value);
+  }
+  tmLn.curFrame = fNew;
+  if (tmLn.ID == 0) eval('MM_timelinePlay(tmLnName)');
+}
+
+function MM_timelinePlay(tmLnName, myID) { //v1.2
+  //Copyright 1997 Macromedia, Inc. All rights reserved.
+  var i,j,tmLn,props,keyFrm,sprite,numKeyFr,firstKeyFr,propNum,theObj,firstTime=false;
+  if (document.MM_Time == null) MM_initTimelines(); //if *very* 1st time
+  tmLn = document.MM_Time[tmLnName];
+  if (myID == null) { myID = ++tmLn.ID; firstTime=true;}//if new call, incr ID
+  if (myID == tmLn.ID) { //if Im newest
+    setTimeout('MM_timelinePlay("'+tmLnName+'",'+myID+')',tmLn.delay);
+    fNew = ++tmLn.curFrame;
+    for (i=0; i<tmLn.length; i++) {
+      sprite = tmLn[i];
+      if (sprite.charAt(0) == 's') {
+        if (sprite.obj) {
+          numKeyFr = sprite.keyFrames.length; firstKeyFr = sprite.keyFrames[0];
+          if (fNew >= firstKeyFr && fNew <= sprite.keyFrames[numKeyFr-1]) {//in range
+            keyFrm=1;
+            for (j=0; j<sprite.values.length; j++) {
+              props = sprite.values[j]; 
+              if (numKeyFr != props.length) {
+                if (props.prop2 == null) sprite.obj[props.prop] = props[fNew-firstKeyFr];
+                else        sprite.obj[props.prop2][props.prop] = props[fNew-firstKeyFr];
+              } else {
+                while (keyFrm<numKeyFr && fNew>=sprite.keyFrames[keyFrm]) keyFrm++;
+                if (firstTime || fNew==sprite.keyFrames[keyFrm-1]) {
+                  if (props.prop2 == null) sprite.obj[props.prop] = props[keyFrm-1];
+                  else        sprite.obj[props.prop2][props.prop] = props[keyFrm-1];
+        } } } } }
+      } else if (sprite.charAt(0)=='b' && fNew == sprite.frame) eval(sprite.value);
+      if (fNew > tmLn.lastFrame) tmLn.ID = 0;
+  } }
+}
+
+function MM_timelineStop(tmLnName) { //v1.2
+  //Copyright 1997 Macromedia, Inc. All rights reserved.
+  if (document.MM_Time == null) MM_initTimelines(); //if *very* 1st time
+  if (tmLnName == null)  //stop all
+    for (var i=0; i<document.MM_Time.length; i++) document.MM_Time[i].ID = null;
+  else document.MM_Time[tmLnName].ID = null; //stop one
+}
+
+function MM_changeProp(objName,x,theProp,theValue) { //v3.0
+  var obj = MM_findObj(objName);
+  if (obj && (theProp.indexOf("style.")==-1 || obj.style)) eval("obj."+theProp+"='"+theValue+"'");
+}
+
+function MM_initTimelines() { //v4.0
+    //MM_initTimelines() Copyright 1997 Macromedia, Inc. All rights reserved.
+    var ns = navigator.appName == "Netscape";
+    var ns4 = (ns && parseInt(navigator.appVersion) == 4);
+    var ns5 = (ns && parseInt(navigator.appVersion) > 4);
+    document.MM_Time = new Array(1);
+    document.MM_Time[0] = new Array(5);
+    document.MM_Time["Timeline1"] = document.MM_Time[0];
+    document.MM_Time[0].MM_Name = "Timeline1";
+    document.MM_Time[0].fps = 20;
+    document.MM_Time[0][0] = new String("sprite");
+    document.MM_Time[0][0].slot = 1;
+    if (ns4)
+        document.MM_Time[0][0].obj = document["Layer2"];
+    else if (ns5)
+        document.MM_Time[0][0].obj = document.getElementById("Layer2");
+    else
+        document.MM_Time[0][0].obj = document.all ? document.all["Layer2"] : null;
+    document.MM_Time[0][0].keyFrames = new Array(1, 60, 110, 200);
+    document.MM_Time[0][0].values = new Array(2);
+    if (ns5)
+        document.MM_Time[0][0].values[0] = new Array("100px", "103px", "107px", "110px", "113px", "116px", "119px", "122px", "126px", "129px", "132px", "135px", "138px", "141px", "144px", "148px", "151px", "154px", "157px", "160px", "163px", "167px", "170px", "173px", "176px", "179px", "182px", "186px", "189px", "192px", "195px", "198px", "201px", "205px", "208px", "211px", "214px", "217px", "220px", "223px", "226px", "229px", "232px", "235px", "238px", "240px", "243px", "246px", "249px", "252px", "255px", "258px", "261px", "263px", "266px", "269px", "272px", "275px", "278px", "281px", "283px", "286px", "288px", "290px", "292px", "294px", "295px", "297px", "299px", "300px", "302px", "303px", "305px", "306px", "307px", "309px", "310px", "311px", "312px", "313px", "314px", "315px", "317px", "318px", "319px", "320px", "321px", "322px", "323px", "325px", "326px", "328px", "330px", "332px", "335px", "337px", "341px", "345px", "349px", "353px", "358px", "362px", "367px", "372px", "376px", "381px", "386px", "390px", "395px", "400px", "404px", "408px", "412px", "416px", "420px", "424px", "428px", "432px", "436px", "439px", "443px", "447px", "451px", "455px", "459px", "463px", "467px", "471px", "475px", "479px", "483px", "487px", "491px", "495px", "499px", "503px", "507px", "511px", "516px", "520px", "524px", "528px", "533px", "537px", "541px", "546px", "550px", "554px", "559px", "563px", "568px", "573px", "577px", "582px", "586px", "591px", "596px", "601px", "605px", "610px", "615px", "620px", "624px", "629px", "634px", "639px", "643px", "648px", "653px", "658px", "662px", "667px", "672px", "677px", "681px", "686px", "691px", "695px", "700px", "705px", "710px", "714px", "719px", "724px", "728px", "733px", "738px", "743px", "747px", "752px", "757px", "762px", "766px", "771px", "776px", "781px", "785px", "790px", "795px", "800px");
+    else
+        document.MM_Time[0][0].values[0] = new Array(100,103,107,110,113,116,119,122,126,129,132,135,138,141,144,148,151,154,157,160,163,167,170,173,176,179,182,186,189,192,195,198,201,205,208,211,214,217,220,223,226,229,232,235,238,240,243,246,249,252,255,258,261,263,266,269,272,275,278,281,283,286,288,290,292,294,295,297,299,300,302,303,305,306,307,309,310,311,312,313,314,315,317,318,319,320,321,322,323,325,326,328,330,332,335,337,341,345,349,353,358,362,367,372,376,381,386,390,395,400,404,408,412,416,420,424,428,432,436,439,443,447,451,455,459,463,467,471,475,479,483,487,491,495,499,503,507,511,516,520,524,528,533,537,541,546,550,554,559,563,568,573,577,582,586,591,596,601,605,610,615,620,624,629,634,639,643,648,653,658,662,667,672,677,681,686,691,695,700,705,710,714,719,724,728,733,738,743,747,752,757,762,766,771,776,781,785,790,795,800);
+    document.MM_Time[0][0].values[0].prop = "left";
+    if (ns5)
+        document.MM_Time[0][0].values[1] = new Array("-100px", "-93px", "-85px", "-78px", "-71px", "-63px", "-56px", "-48px", "-41px", "-34px", "-26px", "-19px", "-11px", "-4px", "4px", "11px", "18px", "26px", "33px", "41px", "48px", "55px", "63px", "70px", "77px", "85px", "92px", "100px", "107px", "114px", "122px", "129px", "136px", "143px", "150px", "157px", "163px", "170px", "177px", "183px", "190px", "196px", "203px", "209px", "215px", "221px", "228px", "234px", "239px", "245px", "251px", "257px", "263px", "268px", "274px", "279px", "284px", "290px", "295px", "300px", "304px", "308px", "312px", "316px", "320px", "324px", "328px", "331px", "335px", "339px", "343px", "346px", "350px", "353px", "357px", "360px", "363px", "367px", "370px", "373px", "376px", "379px", "382px", "385px", "388px", "391px", "394px", "397px", "399px", "402px", "405px", "408px", "411px", "414px", "417px", "420px", "422px", "423px", "424px", "424px", "423px", "422px", "421px", "419px", "416px", "413px", "410px", "407px", "404px", "400px", "397px", "393px", "390px", "386px", "382px", "379px", "375px", "371px", "367px", "363px", "358px", "354px", "350px", "346px", "341px", "337px", "332px", "328px", "323px", "318px", "314px", "309px", "304px", "299px", "294px", "289px", "284px", "279px", "274px", "269px", "263px", "258px", "253px", "247px", "242px", "236px", "231px", "225px", "219px", "213px", "208px", "202px", "196px", "190px", "184px", "178px", "172px", "165px", "159px", "153px", "146px", "140px", "134px", "128px", "121px", "115px", "109px", "102px", "96px", "90px", "83px", "77px", "71px", "64px", "58px", "52px", "45px", "39px", "33px", "26px", "20px", "14px", "7px", "1px", "-5px", "-12px", "-18px", "-24px", "-31px", "-37px", "-43px", "-50px", "-56px", "-62px", "-69px", "-75px", "-81px", "-88px", "-94px", "-100px");
+    else
+        document.MM_Time[0][0].values[1] = new Array(-100,-93,-85,-78,-71,-63,-56,-48,-41,-34,-26,-19,-11,-4,4,11,18,26,33,41,48,55,63,70,77,85,92,100,107,114,122,129,136,143,150,157,163,170,177,183,190,196,203,209,215,221,228,234,239,245,251,257,263,268,274,279,284,290,295,300,304,308,312,316,320,324,328,331,335,339,343,346,350,353,357,360,363,367,370,373,376,379,382,385,388,391,394,397,399,402,405,408,411,414,417,420,422,423,424,424,423,422,421,419,416,413,410,407,404,400,397,393,390,386,382,379,375,371,367,363,358,354,350,346,341,337,332,328,323,318,314,309,304,299,294,289,284,279,274,269,263,258,253,247,242,236,231,225,219,213,208,202,196,190,184,178,172,165,159,153,146,140,134,128,121,115,109,102,96,90,83,77,71,64,58,52,45,39,33,26,20,14,7,1,-5,-12,-18,-24,-31,-37,-43,-50,-56,-62,-69,-75,-81,-88,-94,-100);
+    document.MM_Time[0][0].values[1].prop = "top";
+    if (!ns4) {
+        document.MM_Time[0][0].values[0].prop2 = "style";
+        document.MM_Time[0][0].values[1].prop2 = "style";
+    }
+    document.MM_Time[0][1] = new String("behavior");
+    document.MM_Time[0][1].frame = 201;
+    document.MM_Time[0][1].value = "MM_timelineGoto('Timeline1','1')";
+    document.MM_Time[0][2] = new String("behavior");
+    document.MM_Time[0][2].frame = 1;
+    document.MM_Time[0][2].value = "MM_timelinePlay('Timeline1')";
+    document.MM_Time[0][3] = new String("sprite");
+    document.MM_Time[0][3].slot = 2;
+    if (ns4)
+        document.MM_Time[0][3].obj = document["Layer1"];
+    else if (ns5)
+        document.MM_Time[0][3].obj = document.getElementById("Layer1");
+    else
+        document.MM_Time[0][3].obj = document.all ? document.all["Layer1"] : null;
+    document.MM_Time[0][3].keyFrames = new Array(202, 216);
+    document.MM_Time[0][3].values = new Array(2);
+    if (ns5)
+        document.MM_Time[0][3].values[0] = new Array("590px", "551px", "513px", "474px", "436px", "397px", "359px", "320px", "281px", "243px", "204px", "166px", "127px", "89px", "50px");
+    else
+        document.MM_Time[0][3].values[0] = new Array(590,551,513,474,436,397,359,320,281,243,204,166,127,89,50);
+    document.MM_Time[0][3].values[0].prop = "left";
+    if (ns5)
+        document.MM_Time[0][3].values[1] = new Array("-100px", "-71px", "-43px", "-14px", "14px", "43px", "71px", "100px", "129px", "157px", "186px", "214px", "243px", "271px", "300px");
+    else
+        document.MM_Time[0][3].values[1] = new Array(-100,-71,-43,-14,14,43,71,100,129,157,186,214,243,271,300);
+    document.MM_Time[0][3].values[1].prop = "top";
+    if (!ns4) {
+        document.MM_Time[0][3].values[0].prop2 = "style";
+        document.MM_Time[0][3].values[1].prop2 = "style";
+    }
+    document.MM_Time[0][4] = new String("behavior");
+    document.MM_Time[0][4].frame = 217;
+    document.MM_Time[0][4].value = "MM_timelineStop('Timeline1')";
+    document.MM_Time[0].lastFrame = 217;
+    for (i=0; i<document.MM_Time.length; i++) {
+        document.MM_Time[i].ID = null;
+        document.MM_Time[i].curFrame = 0;
+        document.MM_Time[i].delay = 1000/document.MM_Time[i].fps;
+    }
+}
+//-->
+</script>
+</HEAD>
+<BODY bgcolor="#000000" text="#FFFFFF" link="#dd0022" vlink="#dd0022" alink="#FF0000" TOPMARGIN=0 onmousemove="getCursor();" 
+onmousedown="click()" onLoad="MM_timelinePlay('Timeline1')">
+<!-------マウスと共に移動するbody---------->
+<DIV ID="mim" style="position:absolute; left:700; 
+width:34;; height: 34; top: 34; z-index: 1" > <A><img src="../../3title/knucles_walk.gif" width="34" height="34" name="kw"></A> 
+</DIV>
+<div id="Layer1" style="position:absolute; left:590px; top:-100px; width:80px; height:30px; z-index:2"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=5,0,0,0" width="290" height="100">
+    <param name=movie value="../../3title/q5.swf">
+    <param name=quality value=high>
+	<param name=wmode value=transparent>
+	<param name=menu value=false>
+    <embed src="../../3title/q5.swf" quality=high pluginspage="http://www.macromedia.com/jp/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" width="290" height="100">
+    </embed> 
+  </object></div>
+<div id="Layer2" style="position:absolute; left:100px; top:-100; width:29; height:37; z-index:3"><a href="javascript:;" OnClick="MM_timelineGoto('Timeline1','202')"><img src="../../3title/chao.gif" width="29" height="37" border="0"></a></div>
+<BR> 
+<SCRIPT LANGUAGE="Javascript"> 
+init(); 
+interOM = setInterval('openMassage()',1) 
+</SCRIPT>
+
+<!-------マウスと共に移動するbodyここまで---------->
+<DIV align="center">
+<TABLE BORDER=0 CELLPADDING=4 CELLSPACING=0 WIDTH=554>
+<TR><TD width=484 align="right"><font size=1>ソニックアドベンチャー２ バトル</font></TD>
+<TD align="right" height=30><img src="../img/logomini.jpg" width=50 height=30></TD></TR>
+
+<TR><TD bgcolor="#000000" colspan=2 width=534><font size=4><b>&nbsp;製品概要</b></font></TD></TR>
+<TR><TD colspan=2 width=534><img src="../img/hrbar_red.jpg"></TD></TR>
+<TR><TD bgcolor="#000000" colspan=2><font size=1 color="#888888">
+&nbsp;|<a href="index.html#contents">&laquo;&nbsp;戻る</a> | <a href="summary.html">ページ１</a> | <font color="#ffffff">ページ２</font> | <a href="summary3.html">ページ３</a> |
+</font></TD></TR>
+<TR><TD bgcolor="#000000" colspan=2></TD></TR>
+
+<TR><TD colspan=2 height=8></TD></TR>
+</TABLE>
+
+<!-- ここから -->
+
+<TABLE BORDER=0 CELLPADDING=2 CELLSPACING=0 WIDTH=550>
+
+<TR><TD bgcolor="#000000"><font size=3>新テーマ【バトル】によって、リニューアルされた白熱の2P対戦！</font></TD></TR>
+<TR><TD colspan=2 height=8></TD></TR>
+<TR><TD><font size=2>
+ゲームキューブ版に掲げられた新テーマは【バトル】！
+</font></TD></TR>
+<TR><TD><font size=2>
+HEROサイドとDARKサイドの"世紀のバトル"が、さらに楽しく、さらに熱くそして子供から大人まで誰でも楽しめるようにリニューアルされました！
+</font></TD></TR>
+<TR><TD colspan=2 height=4></TD></TR>
+
+<TR><TD>
+
+<table border=0 cellpadding=0 cellspacing=0>
+<TR><TD height=40 colspan=2><font size=2><b>対戦用キャラクターが追加され【バトル】が更に熱く！</b></font></TD></TR>
+<TR>
+            <TD valign="middle"><font size=2> <img src="../img/battle_allstars.jpg" width=160 height=120 align="left" hspace=4>今回2P対戦でプレイできるキャラクターは、HERO/DARKの６キャラクターに加え、エミー、メタルソニック、カオス０など、歴代ソニックシリーズで人気を博した６キャラクターが追加！ 
+              <p> 総勢12人のキャラクターが、それぞれに特徴を持ち、より個性豊かな奥の深い対戦が楽しめます！<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=5,0,0,0" width="25" height="20" align="top">
+                  <param name=movie value="../../3title/break.swf">
+                  <param name=quality value=high>
+                  <param name=menu value=false>
+                  <param name=wmode value=transparent>
+                  <embed src="../../3title/break.swf" quality=high pluginspage="http://www.macromedia.com/jp/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" width="25" height="20" align="top">
+                  </embed> 
+                </object> 
+              </font></TD>
+</TR>
+</table>
+
+<table border=0 cellpadding=0 cellspacing=0>
+
+<TR><TD colspan=2 height=8></TD></TR>
+
+<TR><TD height=40><font size=2><b>全部で６種類もの【バトル】がラインナップ！</b></font></TD></TR>
+<TR><TD height=40><font size=2>
+ソニックのハイスピード３Ｄアクションレースだけでなく、バラエティ豊かな６種類の「バトル」が用意されています。 
+</font></TD></TR>
+<TR><TD><font size=2>
+・洞察力と推理力を競うナックルズのトレジャーハンティング競争！<br>
+・格闘ゲームさながらの攻防が楽しめるテイルスのシューティング対戦！<br>
+・誰でも手軽に本格的なドリフト走行が体験できるカートレース対戦！<br>
+・手塩にかけて育てた自慢のチャオを友達同士で競いあうチャオレース対決！<br>
+・かわいいチャオ同士が繰り広げるコミカル格闘"チャオカラテ"
+</font></TD></TR>
+<TR><TD height=24><font size=2>
+などなど、充実のラインナップが２Ｐ対戦を盛り上げます！
+</font></TD></TR>
+<TR><TD colspan=2 height=8></TD></TR>
+
+<TR>
+            <TD height=40><font size=2><b>さらに新ステージ、新システムも加わり、みんなで楽しく【バトル】！<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=5,0,0,0" width="25" height="20" align="absmiddle">
+                <param name=movie value="../../3title/break.swf">
+                <param name=quality value=high>
+                <param name=menu value=false>
+                <param name=wmode value=transparent>
+                <embed src="../../3title/break.swf" quality=high pluginspage="http://www.macromedia.com/jp/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" width="25" height="20" align="absmiddle">
+                </embed> 
+              </object></b></font></TD>
+          </TR>
+<TR><TD><font size=2>
+新バトルステージも加わって、２Ｐ対戦ステージが大幅にボリュームＵＰ！それぞれの対戦ステージは、小さな子供同士でも遊べる"レベル１"対戦から、テクニック重視の"レベル３"対戦、さらに高難易度なシークレットステージ"レベル４"まで、プレイするユーザーに合わせたレベル設定がされています。さらに、オートハンデシステムによって、技術レベルや年齢の離れたユーザー同士でも、白熱したバトルが楽しめます！
+</font></TD></TR>
+<TR><TD colspan=2 height=8></TD></TR>
+</table>
+
+</TD><TR>
+</TABLE>
+
+<TABLE BORDER=0 CELLPADDING=2 CELLSPACING=0 WIDTH=550>
+<TR><TD colspan=2 align="right"><font size=2><b>&nbsp;<a href="summary3.html">次のページへ&nbsp;&raquo;</a></b></font></TD></TR>
+<TR><TD height=8></TD></TR>
+<TR><TD colspan=2 width=534><img src="../img/hrbar_red.jpg"></TD></TR>
+<TR><TD height=8></TD></TR>
+<TR><TD bgcolor="#000000"><font size=1 color="#CC6666">
+本ホームページに掲載する一切の文書･図版･写真等を、手段や形態を問わず複製、転載することを禁じます。
+</font></TD></TR>
+<TR><TD bgcolor="#000000"><font size=1 face="Helvetica, Arial">&copy; Copyright SONIC TEAM, LTD. 2001 All Rights Reserved.</font></TD></TR>
+<TR>
+      <TD height=8>　</TD>
+    </TR>
+</TABLE>
+
+</DIV>
+<div align="left">
+<a href="javascript:;" onMouseOver="MM_changeProp('kw','','src','../../3title/alpha.gif','IMG')">
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=5,0,0,0" width="70" height="38">
+    <param name=movie value="../../3title/gstonemt02.swf">
+    <param name=quality value=high>
+	<param name=menu value=false>
+                <param name=wmode value=transparent>
+    <embed src="../../3title/gstonemt02.swf" quality=high pluginspage="http://www.macromedia.com/jp/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" width="70" height="38">
+    </embed> 
+  </object></a></div>
+</BODY>
+</HTML>
