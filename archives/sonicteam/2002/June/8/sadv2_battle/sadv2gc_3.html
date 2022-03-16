@@ -1,0 +1,288 @@
+<HTML>
+<HEAD>
+<TMTLE> 
+<title>ソニックアドベンチャー２ バトル</title>
+<style type="text/css">
+<!--
+body{background-image:   url(savs_back.gif);
+background-repeat:repeat-y;
+{scrollbar-base-color:black;scrollbar-arrow-color:gray;}
+-->
+</style>
+<!-------マウスと共に移動するhead---------->
+<META name="GENERATOR" HTTP-EQUIV="content-type" CONTENT="text/html;charset=x-sjis">
+<SCRIPT LANGUAGE="Javascript">
+<!--
+var Ex = 0,Ey = 0 
+function move(e) { 
+Ex = e.pageX; 
+Ey = e.pageY;} 
+function init() { 
+NC4 = IE4 = 0; 
+if (navigator.appName == "Netscape" && navigator.appVersion.charAt(0) >=4) { 
+NC4 = true; 
+document.captureEvents(Event.MOUSEMOVE); 
+document.onMouseMove=move; 
+IMGx = document.layers['mim'].clip.width; 
+IMGy = document.layers['mim'].clip.height;} 
+if (navigator.appName == "Microsoft Internet Explorer" 
+&& navigator.appVersion.charAt(0) >=4) { 
+IE4 = true; 
+IMGx = mim.offsetWidth; 
+IMGy = mim.offsetHeight;}} 
+function getCursor() { 
+if (IE4) {Ex = event.clientX; 
+Ey = event.clientY; 
+event.returnValue=false;}} 
+function openMassage() { 
+if (IE4) { 
+Sx = document.body.scrollLeft; 
+Sy = document.body.scrollTop; 
+mim.style.posLeft += (Ex+Sx - mim.style.posLeft)/10; 
+mim.style.posTop += (Ey+Sy - mim.style.posTop)/10;} 
+if (NC4) { 
+document.layers['mim'].left += (Ex - document.layers['mim'].left)/10; 
+document.layers['mim'].top += (Ey - document.layers['mim'].top)/10;}}
+//-->
+</SCRIPT>
+<!-------マウスと共に移動するheadここまで---------->
+<script language="JavaScript">
+<!--
+
+<!--
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+// -->
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+//-->
+</script>
+
+<!-------子ウィンドウhead--------->
+<SCRIPT language="JavaScript">
+<!--
+var window_location
+function OpenWindow() {
+window.open('../3title/mt02_dl.html','window2','resizable=0,scrollbars=0,menubar=0,directories=0,status=0,location=0,width=100,height=130');
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_changeProp(objName,x,theProp,theValue) { //v3.0
+  var obj = MM_findObj(objName);
+  if (obj && (theProp.indexOf("style.")==-1 || obj.style)) eval("obj."+theProp+"='"+theValue+"'");
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</SCRIPT>
+<!------子ウィンドウheadここまで-------->
+
+</HEAD>
+<BODY bgcolor="#000000" text="#FFFFFF" vlink="#FF9900" alink="#FFFF00" link="#0099FF" ONLOAD="preloadImages();" onmousemove="getCursor();" 
+onmousedown="click()">
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=x-sjis">
+<!-------マウスと共に移動するbody---------->
+
+<DIV ID="mim" style="position:absolute; left:700; 
+width:1;" > <img src="../3title/knucles_walk.gif" width="34" height="34" name="knucles"></DIV>
+<BR> 
+<SCRIPT LANGUAGE="Javascript"> 
+init(); 
+interOM = setInterval('openMassage()',1) 
+</SCRIPT>
+
+<!-------マウスと共に移動するbodyここまで---------->
+<div align="center">
+<center>
+    <center>
+      <table width="530" border="0" cellspacing="1" cellpadding="1" bgcolor="#000000" height="9">
+        <tr>
+          <td bgcolor="#003366" bordercolor="0">　</td>
+        </tr>
+      </table>
+      <br><table width="530" border="0" cellspacing="1" cellpadding="1" height="86">
+        <tr> 
+          <td height="58"> 
+            <div align="center"><font size="5"><b> </b></font><font size="5"><b> 
+              </b></font></div>
+            <font size="5"><b> </b></font> 
+            <table width="530" border="0" cellspacing="1" cellpadding="1">
+              <tr> 
+                <td height="29" bgcolor="#FF9900"> 
+                  <div align="center"><font size="5"><b><font size="2">ニンテンドーゲームキューブとゲームボーイアドバンス 
+                    初の連動を実現</font></b></font></div>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr> 
+          <td><font size="2"><img src="gc_chao02.gif" width="210" height="158" align="right" alt="sonic2">12月20日に同時発売予定のニンテンドーゲームキューブ用ソフト『ソニックアドベンチャー2バトル』とゲームボーイアドバンス用ソフト『ソニック 
+            アドバンス』が、別フォーマット用のソフト同士で世界初の連動！<br>
+            </font><font size="2"><br>
+            単体で遊べるそれぞれのソフト間でのデータのやり取りが可能です。データ通信の核となるのはゲーム中で育成が可能な人工生命体「チャオ」の移動です。</font> 
+            <p><font size="2">これによりキャラクターを戸外へ持ち出して育てたり、友人と育成を競ったりといった遊びの幅が大きく拡がります。</font></p>
+          </td>
+        </tr>
+      </table>
+      <br>
+      <table width="530" border="0" cellspacing="1" cellpadding="1" height="86">
+        <tr>
+          <td height="58"> 
+            <div align="center"><font size="5"><b> </b></font><font size="5"><b> 
+              </b></font></div>
+            <font size="5"><b> </b></font>
+            <table width="530" border="0" cellspacing="1" cellpadding="1">
+              <tr>
+                <td height="29" bgcolor="#0033FF"> 
+                  <div align="center"><font size="5"><b><font size="2">『ソニックアドベンチャー2バトル』内 
+                    「チャオガーデン」</font></b></font></div>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td> 
+            <p><font size="2"> <img src="gc_chao03.gif" width="210" height="157" align="left" alt="sonic3"><br>
+              <br>
+              ･ メインゲームで得た小動物やカオスドライブを与える／可愛がる／チャオレースに出場させる　などメインの育成が可能です。<a href="javascript:;" onMouseOver="MM_swapImage('f_stone','','../3title/f_stone_b.gif',0)"><img src="../3title/f_stone.gif" width="25" height="20" align="top" name="f_stone" border="0"></a></font></p>
+            <p><font size="2"> <br>
+              <br>
+              <img src="gc_chao05.gif" width="210" height="158" align="right" alt="sonic4"><br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              ･ おでかけマシーンにチャオを入れると、ゲームボーイアドバンス側の「チャオのプチガーデン」に転送できます。 <br>
+              <br>
+              ･ 「チャオのプチガーデン」で育てたチャオや買った木の実を「チャオガーデン」内に転送できます。<a href="../3title/mt02_dl.html" onMouseOver="MM_swapImage('stone','','../3title/get_stone.gif',0);MM_changeProp('knucles','','src','../3title/alpha.gif','IMG')" onClick="OpenWindow();return false"><img src="../3title/stone_alpha.gif" width="70" height="38" align="top" name="stone" border="0"></a></font></p>
+            </td>
+        </tr>
+      </table>
+      <br>
+	  <table width="530" border="0" cellspacing="1" cellpadding="1" height="86">
+        <tr> 
+          <td height="58"> 
+            <div align="center"><font size="5"><b> </b></font><font size="5"><b> 
+              </b></font></div>
+            <font size="5"><b> </b></font> 
+            <table width="530" border="0" cellspacing="1" cellpadding="1">
+              <tr> 
+                <td height="29" bgcolor="#0033FF"> 
+                  <div align="center"><font size="5"><font size="2"><b>『ソニック アドバンス』内 
+                    「チャオのプチガーデン」</b></font></font></div>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr> 
+          <td> <font size="2">･ メインゲームでのリング獲得数により木の実を買うことができる他、ミニゲーム「おかしめくっチャオ」「ジャンケンシュート」でリングが増やせます。 
+            <br>
+            ･ 「プチガーデン」でしか手に入らないチャオの卵も存在します。 <br>
+            ･ 「チャオガーデン」にチャオや木の実を転送できます。 <br>
+            ･ カートリッジにセーブすることで持ち運んでチャオを育成することが可能です。 </font></td>
+        </tr>
+      </table>
+      　<br>
+      <table border="0" cellspacing="0" cellpadding="0" width="530">
+        <tr>
+          <td> 
+            <div align="right"><a href="../sonicadvance/index.html" target="_top"><b><font size="2" color="#00FFFF"><img src="../sonicadvance/sgba_link.gif" width="100" height="45" align="right" border="0"><br>
+              ゲームボーイアドバンス版<br>
+              『ソニック アドバンス』 の詳細はこちら！</font></b></a> </div>
+          </td>
+        </tr>
+      </table>
+      <br>
+      <br>
+      <table width="530" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td height="8" width="130"> 
+            <div align="center"> 
+              <center>
+                <center>
+                  <b><font size="3"><a href="../games/f_games.html" target="_top"><font color="#FFCC00">【ゲーム】に戻る</font></a></font> 
+                  </b> 
+                </center>
+              </center>
+            </div>
+          </td>
+          <td height="8" width="130"> 
+            <div align="center"><b><font size="3"><font color="#FFCC00"><a href="index.html" target="_top">Page 
+              1</a></font></font></b></div>
+          </td>
+          <td height="8" width="130"> 
+            <div align="center"><b><font size="3"><a href="sadv2gc_2.html" target="_top">Page 
+              2</a></font></b></div>
+          </td>
+          <td height="8" width="130"> 
+            <div align="center"><b><font size="3" color="#999999">Page 3</font></b></div>
+          </td>
+        </tr>
+      </table>
+      <br>
+      <table width="530" border="0" cellspacing="1" cellpadding="1" bgcolor="#000000" height="9">
+        <tr> 
+          <td bgcolor="#003366" bordercolor="0">　</td>
+        </tr>
+      </table>
+      <table width="530" border="0" cellspacing="1" cellpadding="1">
+        <tr> 
+          <td> 
+            <div align="right"><font size="1" color="#66CCCC">＊画像はゲームキューブ版のものです</font></div>
+          </td>
+        </tr>
+      </table>
+      <p><font size="3"><b><font size="2">Original Game &copy; SEGA　&copy; SONICTEAM／SEGA, 
+        2001</font></b></font></p>
+      <div align="center"> <BR>
+        <font size="2"><br>
+        </font><font size="2"></font><font size="2"></font><br>
+      </div>
+    </center>
+  </center>
+  <tr>
+    <td align="center">　</td>
+</tr>
+
+<tr>
+    <td><font size="2"> </font><font size="2"><br>
+      </font> </td>
+</tr>
+
+</div>
+</BODY>
+</HTML>
