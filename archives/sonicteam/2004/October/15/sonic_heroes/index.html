@@ -1,0 +1,204 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=shift_jis">
+<META http-equiv="Content-Language" content="ja">
+<META http-equiv="content-style-type" content="text/css">
+<META http-equiv="content-script-type" content="text/javascript">
+<link rel="stylesheet" href="style_top.css" type="text/css">
+
+<title>SONIC HEROES</title>
+
+<SCRIPT language="JavaScript">
+<!--
+function WinOpen(){ 
+Wina02=window.open('info.html','WinNamea02','resizable=0,scrollbars=1,menubar=1,directories=0,status=0,location=0,width=390,height=510') 
+Wina02.opener=self
+if(navigator.appVersion.charAt(0)>=3){Wina02.focus()} 
+} 
+WinOpen()
+// -->
+</SCRIPT>
+
+<SCRIPT language="JavaScript">
+<!-- 	
+//Original Program
+//http://finito-web.com/myhome/tagu/finout.htm
+//Thank you!
+
+var img = new Array();
+img[0] = new Image(); img[0].src = "img/top_main.png";  // img[?]の数字は０始まる連番。
+img[1] = new Image(); img[1].src = "img/top_main.png";  // 必要な数だけ用意する。
+
+imgMaxSizeW = 468;      // １番大きい画像の横幅
+imgMaxSizeH = 480;      // １番大きい画像の縦幅
+alphaTimer = 10;        // フェードの変わるSpeed。１秒=1000
+stopTimer = 3000;       // １番濃い色になってる時間。１秒=1000
+nextImgTimer = 500;    // 次の画像に移るまでの時間。１秒=1000
+
+_dom=(document.all?3:(document.getElementById?1:(document.layers?2:0)));
+
+function getWindowSize() {
+    if(_dom == 1 || _dom == 2) {
+        win_width = self.innerWidth;
+        win_height = self.innerHeight;
+    }
+    if (_dom == 3) {
+        win_width = document.body.clientWidth;
+        win_height = document.body.clientHeight;
+    }
+}
+
+function showLayer(layerName){
+    if (_dom == 1) document.getElementById(layerName).style.visibility = "visible";
+    if (_dom == 2) document.layers[layerName].visibility = "show";
+    if (_dom == 3) document.all(layerName).style.visibility = "visible";
+}
+
+function hideLayer(layerName){
+    if (_dom == 1) document.getElementById(layerName).style.visibility = "hidden";
+    if (_dom == 2) document.layers[layerName].visibility = "hide";
+    if (_dom == 3) document.all(layerName).style.visibility = "hidden";
+}
+
+function writeHTML(layerName,html) {
+    if (_dom == 1) {
+        var div = document.getElementById(layerName);
+        while(div.hasChildNodes()) div.removeChild(div.lastChild);
+        var range=document.createRange();
+        range.selectNodeContents(div);
+        range.collapse(true);
+        var cf=range.createContextualFragment(html);
+        div.appendChild(cf);
+    }
+    if (_dom == 2) {
+        var div = document.layers[layerName];
+        div.document.open();
+        div.document.write(html);
+        div.document.close();
+    }
+    if (_dom == 3) document.all(layerName).innerHTML = html;
+}
+
+function moveLayerTo(layerName, x, y){
+    if (_dom == 1) {
+        document.getElementById(layerName).style.left = x + scrollX;
+        document.getElementById(layerName).style.top = y + scrollY;
+    }
+    if (_dom == 2) {
+        document.layers[layerName].left = x + pageXOffset;
+        document.layers[layerName].top = y + pageYOffset;
+    }
+    if (_dom == 3) {
+        document.all(layerName).style.pixelLeft = x + document.body.scrollLeft
+        document.all(layerName).style.pixelTop = y + document.body.scrollTop;
+    }
+}
+
+function changeAlpha(layerName) {
+    if (_dom == 3) {
+        if (alphaCount < 200) {
+            alphaCount += 2;  op = alphaCount > 100 ? 100 - (alphaCount-100) : alphaCount;
+            document.all(layerName).filters["alpha"].opacity = op;
+            if (op == 100) {
+                tim = setTimeout("changeAlpha('"+layerName+"')", stopTimer);
+            } else {
+                tim = setTimeout("changeAlpha('"+layerName+"')", alphaTimer);
+            }
+        } else {
+            hideLayer(layerName);
+            clearTimeout(tim);
+            tim = setTimeout("setAlphaImgPos()",nextImgTimer);
+        }
+    } else {
+        setTimeout("setAlphaImgPos()",nextImgTimer*2);
+    }
+}
+
+var imgCount = 0;
+function setAlphaImgPos() {
+    writeHTML("imgLay",'<IMG src="' + img[imgCount].src + '" border="0">');
+    imgCount++; if (imgCount >= img.length) imgCount = 0;
+    getWindowSize();
+    sX = Math.floor(Math.random()*(win_width-imgMaxSizeW-10));
+    sY = Math.floor(Math.random()*(win_height-imgMaxSizeH-10));
+    moveLayerTo("imgLay",sX,sY);
+    showLayer("imgLay");
+    alphaCount = 0;
+    changeAlpha("imgLay");
+}
+
+window.onload = setAlphaImgPos;
+
+// -->
+</SCRIPT>
+
+<STYLE type="text/css">
+<!--
+
+#imgLay {
+   filter: alpha(style=0);
+}
+
+-->
+</STYLE>
+
+</HEAD>
+
+<body>
+
+<DIV ID="imgLay" STYLE="position:absolute; width:1; height:1; top:0; left:0;">
+</DIV>
+
+<DIV align="center">
+
+<table border=0 cellpadding=0 cellspacing=0 width=640>
+<tr><td align="left" height=24 valign="top"><img src="img/official.png" width=210 height=20></td><td align="right" valign="top"><img src="img/teamlogo.png" width="65" height="20"></td></tr>
+<tr><td colspan=2 height=1 bgcolor="#ff0000"></td></tr>
+<tr><td colspan=2 height=4></td></tr>
+</table>
+<!-- *************************************************************** -->
+<table border=0 cellpadding=0 cellspacing=0 width=640 height=20 bgcolor="#ff4400">
+<tr><td><a href="index.html"><img src="img/top.png" width=80 height=20 border=0 alt="Top"></a><a href="summary.html"><img src="img/sum.png" width=80 height=20 border=0 alt="SUMMARY"></a><a href="fchg.html"><img src="img/fchg.png" width=80 height=20 border=0 alt="FUN"></a><a href="character.html"><img src="img/chr.png" width=80 height=20 border=0 alt="CHARACTER"></a><a href="stage.html"><img src="img/stg.png" width=80 height=20 border=0 alt="STAGE"></a><a href="enemies.html"><img src="img/ene.png" width=80 height=20 border=0 alt="ENEMY"></a><a href="boss.html"><img src="img/boss.png" width=80 height=20 border=0 alt="BOSS"></a><a href="http://tails03.sonicteam.com/bbs/heroes_ja/"><img src="img/bbs.png" width=80 height=20 border=0 alt="BBS"></a></td></tr>
+</table>
+<!-- *************************************************************** -->
+
+<table width=640 cellpadding=0 cellspacing=0 border=0>
+<tr><td align="center" width=640 height=50></td></tr>
+<tr><td align="center" width=640 height=400><img src="img/top_ttl.png" width=350 height=276></td></tr>
+</table>
+
+
+<table width=640 cellpadding=0 cellspacing=0 border=0>
+<tr><td align="center" valign="top" height=60 colspan=2><img src="img/top_official.png" width=330 height=50></td></tr>
+<tr>
+<td align="left" height=30 valign="middle">
+<a href="http://www.wave-master.com/sonicheroes/" target="_blank"><img src="img/icn_music.jpg" width=150 height=35 border=0 alt="Music site"></a>
+</td>
+<td align="right" height=30 valign="middle">
+<a href="http://score.sega.com/games/heroes/content.html" target="_blank"><img src="img/icn_en.png" width=100 height=30 border=0 alt="English site"><img src="img/icn_go.png" width=30 height=30 border=0></a>
+</td>
+</tr>
+</table>
+
+<table width=640 cellpadding=0 cellspacing=0 border=0>
+<tr><td align="center">&nbsp;</td>
+</tr>
+<tr><td height=1 bgcolor="#ff0000"></td></tr>
+<tr><td height=8></td></tr>
+<tr><td colspan=2 height=8></td></tr>
+<tr><td bgcolor="#ffaa00" align="center" height=40><span id ="red">
+本ホームページに掲載する一切の文書･図版･写真等を、手段や形態を問わず複製、転載することを禁じます。<br>
+The copyrighted works contained in this information service shall not be copied,
+reproduced, varied, altered, modified, adapted, distributed, performed and displayed
+in any form without the written permission of the copyright owner. 
+</span></td></tr>
+<tr>
+  <td bgcolor="#ff0000" align="center" height=20><span id ="white">&copy; SEGA</span></td>
+</tr>
+
+</table>
+
+</DIV>
+</body>
+</html>
