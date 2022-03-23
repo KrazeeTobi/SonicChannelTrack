@@ -1,0 +1,34 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*-----------------------------------------------------
+#common-contents h2
+-----------------------------------------------------*/
+#common-contents h2{
+	background:url(common-contents/h2.png) no-repeat;
+}
+/*-----------------------------------------------------
+#common-contents h4
+-----------------------------------------------------*/
+#common-contents h4{
+	border-radius:5px;         /* CSS3 */
+	-webkit-border-radius: 5px; /* Webkit */
+	-moz-border-radius:5px;    /* Mozilla */
+
+	background:#103ab9;
+	color:#fff;
+	padding:0.5em;
+	margin:0 0 5px;
+}
+/*-----------------------------------------------------
+#common-contents .contensSubstance
+-----------------------------------------------------*/
+#common-contents .contensSubstance .downloadList  li{
+	font-size:120%;
+	font-weight:normal;
+	float:left;
+	margin-right:30px;
+}
+#common-contents .contensSubstance .downloadList  li:before{
+	content:"●";
+}

@@ -8,6 +8,7 @@
 ::v1.0.3 - 2022-01-10: Removed unnecessary comments.
 ::v1.0.4 - 2022-01-31: sanpo.1 and sanpo.2 deletions added.
 ::v1.1.0 - 2022-03-14: Added sonicteam.com.
+::v1.1.1 - 2022-03-22: Added a shit ton more links, thanks Sonic Channel for still having these links lmao
 ::--------------------------------------------------------------change comments end
 git pull
 wget -r --no-parent http://sonic.sega.jp/
@@ -56,6 +57,17 @@ wget -r --no-parent http://sonic.sega.jp/TeamSonicRacing/
 wget -r --no-parent http://sonic.sega.jp/wpack/
 wget -r --no-parent http://blog.sonic-channel.jp/
 wget -r --no-parent http://sonicteam.com/
+wget -r --no-parent http://www.olympicvideogames.com/marioandsonic/
+wget -r --no-parent http://www.nintendo.co.jp/mario_and_sonic2010/
+wget -r --no-parent http://www.nintendo.co.jp/ds/ay9j/
+wget -r --no-parent http://www.nintendo.co.jp/wii/siij/
+wget -r --no-parent http://www.nintendo.co.jp/wii/rwsj/
+wget -r --no-parent http://www.olympicvideogames.com/sonic/
+wget -r --no-parent http://sonicrunners.sega-net.com/
+wget -r --no-parent http://www.nintendo.co.jp/3ds/bgxj/
+wget -r --no-parent http://www.nintendo.co.jp/3ds/acmj/
+wget -r --no-parent http://www.nintendo.co.jp/wiiu/abjj/
+wget -r --no-parent http://www.nintendo.co.jp/wiiu/aurj/
 cd sonic.sega.jp
 cd SonicChannel
 del character.1

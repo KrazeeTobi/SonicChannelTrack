@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+/* block layout setting ===================================================== */
+#contents-navl{
+	float:left;
+	width:140px;
+	line-height:0em;
+	padding-bottom:30px;
+}
+
+#contents-navl ul{
+	display:block;
+	background:url("../../../common/css/contents-navl/ul_bg.gif") no-repeat bottom center;
+	margin:0 7px 13px 5px;
+	padding:0 0 10px 6px;
+}
+
+#contents-navl ul li{
+	display:inline;
+	height:22px;
+	_height:20px;
+	margin:0;
+	padding:0;
+}
+
+#contents-navl ul li a{
+	display:block;
+	width:118px;
+	height:19px;
+}
+
+#contents-navl h2,
+#contents-navl h3 span,
+#contents-navl ul li a em{
+	margin:0px;
+	padding:0px;
+	width:1px;
+	height:1px;
+	position:absolute;
+	top:0px;
+	left: -999px;
+	display:run-in;
+	border-style:none;
+	overflow:hidden;
+}
+
+#contents-navl ul li a{
+	font-size: 0;
+	font-family: sans-serif;
+	line-height: 0;
+	text-decoration: none;
+	text-indent: -3000px;
+}
+
+
+/* only mac ie 5 */
+/*\*//*/
+#contents-navl h3 span,
+#contents-navl ul li a em{
+	display:none;
+}
+/**/
