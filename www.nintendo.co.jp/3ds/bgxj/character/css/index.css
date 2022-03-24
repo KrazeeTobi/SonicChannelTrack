@@ -1,0 +1,127 @@
+@charset 'utf-8';
+
+/*-------------------------------------
+Background
+---------------------------------------*/
+div.header {
+	background: none;
+}
+body {
+	background: url('../images/chara_bg02.png') center top repeat-y;
+}
+#Container {
+	height: 4815px;
+	position: relative;
+	background: url('../images/chara_bg01.jpg') center top no-repeat;
+}
+
+
+/*-------------------------------------
+Main
+---------------------------------------*/
+#Content {
+	line-height: 1;
+	text-align: center;
+}
+
+#Content ul.chara li {position: absolute;}
+
+/*-------------------------------------
+Intro
+---------------------------------------*/
+div.intro h2 {
+	margin: 0 0 25px;
+	padding: 130px 0 0;
+	text-align: center;
+}
+div.intro p.lead {
+	margin: 0 0 378px;
+	text-align: center;
+}
+div.intro ul.chara li.chara01 {top: 350px;left: 62px;}
+div.intro ul.chara li.chara02 {top: 335px;left: 527px;}
+div.intro ul.chara li.chara03 {top: 835px;left: -3px;}
+div.intro ul.chara li.chara04 {top: 825px;left: 226px;}
+div.intro ul.chara li.chara05 {top: 827px;left: 527px;}
+div.intro ul.chara li.chara06 {top: 889px;left: 756px;}
+div.intro ul.chara li.chara07 {top: 1127px;left: 21px;}
+div.intro ul.chara li.chara08 {top: 1117px;left: 254px;}
+div.intro ul.chara li.chara09 {top: 1118px;left: 522px;}
+div.intro ul.chara li.chara10 {top: 1172px;left: 753px;}
+div.intro ul.chara li.chara11 {top: 1436px;left: -2px;}
+div.intro ul.chara li.chara12 {top: 1413px;left: 219px;}
+div.intro ul.chara li.chara13 {top: 1460px;left: 509px;}
+div.intro ul.chara li.chara14 {top: 1412px;left: 772px;}
+div.intro ul.chara li.chara15 {top: 1739px;left: 1px;}
+div.intro ul.chara li.chara16 {top: 1747px;left: 279px;}
+div.intro ul.chara li.chara17 {top: 1750px;left: 529px;}
+div.intro ul.chara li.chara18 {top: 1673px;left: 736px;}
+div.intro ul.chara li.chara19 {top: 2073px;left: -37px;}
+div.intro ul.chara li.chara20 {top: 2057px;left: 216px;}
+div.intro ul.chara li.chara21 {top: 2064px;left: 534px;}
+div.intro ul.chara li.chara22 {top: 1985px;left: 785px;}
+div.intro ul.chara li.chara23 {top: 2376px;left: 0px;}
+div.intro ul.chara li.chara24 {top: 2407px;left: 271px;}
+div.intro ul.chara li.chara25 {top: 2367px;left: 516px;}
+div.intro ul.chara li.chara26 {top: 2340px;left: 747px;}
+div.intro ul.chara li.chara27 {top: 2708px;left: -45px;}
+div.intro ul.chara li.chara28 {top: 2687px;left: 267px;}
+div.intro ul.chara li.chara29 {top: 2681px;left: 529px;}
+div.intro ul.chara li.chara30 {top: 2713px;left: 794px;}
+div.intro ul.chara li.chara31 {top: 2948px;left: 1px;}
+div.intro ul.chara li.chara32 {top: 3025px;left: 234px;}
+div.intro ul.chara li.chara33 {top: 3033px;left: 529px;}
+div.intro ul.chara li.chara34 {top: 3037px;left: 787px;}
+div.intro ul.chara li.chara35 {top: 3312px;left: -4px;}
+div.intro ul.chara li.chara36 {top: 3396px;left: 250px;}
+div.intro ul.chara li.chara37 {top: 3362px;left: 503px;}
+div.intro ul.chara li.chara38 {top: 3351px;left: 790px;}
+div.intro ul.chara li.chara39 {top: 3559px;left: 22px;}
+div.intro ul.chara li.chara40 {top: 3537px;left: 716px;}
+
+
+/*-------------------------------------
+mii
+---------------------------------------*/
+div.mii {
+	width: 924px;
+	position: absolute;
+	top: 4085px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	padding: 0 8px 8px 8px;
+	border-radius: 8px;
+	background: #7f368d;
+	-webkit-box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+	        box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+}
+div.mii h3 {
+	padding: 30px 0;
+}
+div.mii ul.chara li { z-index: 1; }
+div.mii ul.chara li.chara01 {top: -55px;left: 170px;}
+div.mii ul.chara li.chara02 {top: -20px;left: 612px;}
+div.mii div.box {
+	height: 338px;
+	position: relative;
+	background: url('../images/mii_box_bg.png') center center;
+}
+div.mii div.box p.txt {
+	margin: 0 0 45px;
+	padding: 45px 0 0 38px;
+	text-align: left;
+}
+div.mii div.box p.btn {
+	position: absolute;
+	top: 40px;
+	right: 40px;
+}
+div.mii div.box p.btn a {
+	display: inline-block;
+}
+div.mii div.box ul li {
+	display: inline-block;
+	margin: 0 19px;
+	vertical-align: top;
+}
