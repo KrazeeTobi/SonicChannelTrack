@@ -9,6 +9,7 @@
 ::v1.0.4 - 2022-01-31: sanpo.1 and sanpo.2 deletions added.
 ::v1.1.0 - 2022-03-14: Added sonicteam.com.
 ::v1.1.1 - 2022-03-22: Added a shit ton more links, thanks Sonic Channel for still having these links lmao
+::v1.1.2 - 2022-03-25: Told .wget-hsts to fuck off.
 ::--------------------------------------------------------------change comments end
 git pull
 wget -r --no-parent http://sonic.sega.jp/
@@ -240,6 +241,7 @@ cd ..
 cd .. 
 cd .. 
 cd .. 
+del .wget-hsts
 git add *.*
 git commit -m "files from %date:~-4,4%-%date:~3,2%-%date:~-10,2% %time:~0,2%:%time:~3,2%:%time:~6,2%"
 git push
