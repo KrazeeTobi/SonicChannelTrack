@@ -10,6 +10,7 @@
 ::v1.1.0 - 2022-03-14: Added sonicteam.com.
 ::v1.1.1 - 2022-03-22: Added a shit ton more links, thanks Sonic Channel for still having these links lmao
 ::v1.1.2 - 2022-03-25: Told .wget-hsts to fuck off.
+::v1.1.3 - 2022-03-26: Forgot the marioandsonicac folder! Added it.
 ::--------------------------------------------------------------change comments end
 git pull
 wget -r --no-parent http://sonic.sega.jp/
@@ -69,6 +70,7 @@ wget -r --no-parent http://www.nintendo.co.jp/3ds/bgxj/
 wget -r --no-parent http://www.nintendo.co.jp/3ds/acmj/
 wget -r --no-parent http://www.nintendo.co.jp/wiiu/abjj/
 wget -r --no-parent http://www.nintendo.co.jp/wiiu/aurj/
+wget -r --no-parent http://www.olympicvideogames.com/marioandsonicac/
 cd sonic.sega.jp
 cd SonicChannel
 del character.1
