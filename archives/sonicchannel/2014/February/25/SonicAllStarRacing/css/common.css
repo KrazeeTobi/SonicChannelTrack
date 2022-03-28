@@ -1,0 +1,164 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	font-size: 12px;
+	text-align: center;
+	background: url(../img/back.png) left top repeat-x;
+	background-color: #ffffff;
+}
+
+div {
+	height: auto;
+	overflow: hidden:
+}
+
+#container {
+	margin: 0px auto 0px auto;
+	width: 1100px;
+	height: 1030px;
+	background: url(../img/main_back.gif) left top repeat-y;
+}
+
+#contents {
+	width:1100px;
+	min-height: 926px;
+	background: url(../img/main_back01.jpg) left top no-repeat;
+	position: relative;
+}
+
+h1 {
+	z-index: 1;
+	width: 688px;
+	height: 405px;
+	background: url(../img/logo.png) left top no-repeat;
+	text-indent: -9999px;
+	position: absolute;
+	left: 58px;
+	top: 36px;
+}
+
+a.sega {
+	z-index: 3;
+	display: block;
+	width: 105px;
+	height: 39px;
+	background: url(../img/sega_logo.png) left top no-repeat;
+	text-indent: -9999px;
+	position: absolute;
+	left: 705px;
+	top: 10px;
+}
+a.ps3 {
+	z-index: 3;
+	display: block;
+	width: 155px;
+	height: 39px;
+	background: url(../img/ps3_logo.png) left top no-repeat;
+	text-indent: -9999px;
+	position: absolute;
+	left: 0px;
+	top: 10px;
+}
+a.wii {
+	z-index: 3;
+	display: block;
+	width: 128px;
+	height: 39px;
+	background: url(../img/wii_logo.png) left top no-repeat;
+	text-indent: -9999px;
+	position: absolute;
+	left: 172px;
+	top: 10px;
+}
+
+.catch {
+	width: 299px;
+	height: 85px;
+	background: url(../img/catch.png) left top no-repeat;
+	text-indent: -9999px;
+	position: absolute;
+	right: 0px;
+	top: 14px;
+}
+
+.title01 {
+	width: 255px;
+	height: 450px;
+	background: url(../img/title01.png) left top no-repeat;
+	text-indent: -9999px;
+	position: absolute;
+	right: 20px;
+	top: 111px;
+}
+.title02 {
+	width: 255px;
+	height: 72px;
+	background: url(../img/title02.png) left top no-repeat;
+	text-indent: -9999px;
+	position: absolute;
+	right: 20px;
+	top: 575px;
+}
+
+.movie_area {
+	padding: 8px;
+	width: 400px;
+	height: 244px;
+	background: url(../img/movie_frame.png) left top no-repeat;
+	position: absolute;
+	right: 0px;
+	top: 654px;
+}
+
+.spec {
+	width: 632px;
+	height: 120px;
+	background: url(../img/spec.png) left top no-repeat;
+	text-indent: -9999px;
+	position: absolute;
+	left: 0px;
+	top: 894px;
+}
+
+.visual {
+	z-index: 2;
+	width: 706px;
+	height: 506px;
+	background: url(../img/main_back02.png) left top no-repeat;
+	text-indent: -9999px;
+	position: absolute;
+	left: 94px;
+	top: 403px;
+}
+
+a.btn_yoyaku {
+	z-index: 5;
+	display: block;
+	width: 205px;
+	height: 219px;
+	background: url(../img/btn_yoyaku.png) 0px 0px no-repeat;
+	text-indent: -9999px;
+	position: absolute;
+	left: 0px;
+	bottom: 50px;
+}
+
+a.btn_yoyaku:hover {
+	background-position: 0px -219px;
+}
+
+#footer {
+	width: 238px;
+	height: 89px;
+	background: url(../img/copy.png) left top no-repeat;
+	text-indent: -9999px;
+	position: absolute;
+	left: 833px;
+	top: 926px;
+}
+
+

@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+/* substance-info   =============================================================== */
+#substance-info h2{
+	margin: 0 0 5px 0;
+}
+
+#substance-info ul#info-present {
+    margin: 0;
+    padding: 0;
+}
+
+#substance-info ul#info-present:after {
+    content: ".";
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+    font-size: 0;
+}
+
+#substance-info ul#info-present li {
+    float: left;
+    display: inline;
+    margin: 0;
+    padding: 0;
+	list-style: none;
+}
+
+#substance-info ul#info-present li.even {
+    padding-left: 5px;
+}
+
+div.adjustment {
+    margin-left: -15px;
+}
+
+div.adjustment a.btnApp{
+    display: block;
+    font-size: 0;
+    height: 70px;
+    line-height: 0;
+    overflow: hidden;
+    text-decoration: none;
+    text-indent: -9999px;
+    width: 180px;
+		margin: 0 auto;
+    background: url("../image/btnApp.png") no-repeat 0 0;
+}
+
+div.adjustment a.btnApp:hover{
+    background: url("../image/btnApp.png") no-repeat scroll 0 -70px;
+}
