@@ -1,0 +1,371 @@
+@charset "utf-8";
+
+/* ----------------------------------------------------
+作成日: 2015.01.22
+最終更新日: 2015.02.02
+
+common.css： 共通設定(PC版 IE)
+---------------------------------------------------- */
+
+html {
+	height:100%;
+	background:#0093ff;
+}
+
+body {
+	height:100%; 
+	font-size:14px;
+	font-family:"メイリオ", "ＭＳ Ｐゴシック", sans-serif;
+	-webkit-text-size-adjust: 100%;
+	line-height:1.6;
+	color:#ffffff;
+}
+
+header{
+	background:#003399;
+	width:100%;
+	min-width:1024px;
+	height:54px;
+	border-bottom:4px solid #0093ff;
+}
+
+#header_inner{
+	width:1024px;
+	width:960px;
+	margin:0 auto;
+
+}
+#header_inner p{
+	padding:22px 0 0 16px;
+	font-size: 18px;
+	line-height: 1;
+}
+
+article{
+	width:100%;
+	background:url(../images/common/bg.jpg) top center no-repeat;
+	background-size:100%;
+	background-attachment: fixed;
+}
+
+.wrapper{
+	background:rgba(255,255,255,0.5);
+	width:1024px;
+	width:960px;
+	margin:0 auto;
+	padding-bottom:50px;
+}
+
+h1{
+	line-height: 0;
+}
+
+h1,h2,h3{
+	text-indent:-9999px;
+}
+
+.top_vid{
+	position: relative;
+	background:url(../images/jp/img_video.jpg) no-repeat;
+	background-size:960px;
+	width:1024px;
+	width:960px;
+	height:519px;
+	height:486px;
+	margin-bottom:12px;
+}
+
+.en .top_vid{
+	background:url(../images/en/img_video.jpg) no-repeat;
+	background-size:960px;
+}
+
+.btn_re{
+	position: absolute;
+	top:444px;
+	top:416px;
+	left:794px;
+	left:744px;
+}
+
+.btn_re img{
+	width:209px;
+	width:196px;
+	height:61px;
+	height:57px;
+}
+
+.en .btn_re{
+	left:765px;
+	left:717px;
+}
+
+.en .btn_re img{
+	width:242px;
+	width:226px;
+	height:61px;
+	height:57px;
+}
+
+.btn_vol{
+	position: absolute;
+	top:9px;
+	top:8px;
+	left:20px;
+	left:19px;
+}
+
+.btn_vol img{
+	width:155px;
+	width:145px;
+	height:30px;
+	height:28px;
+}
+}
+
+.en .btn_vol img{
+	width:206px;
+	width:193px;
+}
+
+.catch span{
+	text-indent:-9999px;
+	background:url(../images/jp/txt_catch.png) no-repeat;
+	background-size:855px;
+	display:block;
+	width:912px;
+	width:855px;
+	height:188px;
+	height:176px;
+	margin:0 auto 12px;
+}
+
+.en .catch span{
+	background:url(../images/en/txt_catch.png) no-repeat;
+	background-size:928px;
+	width:990px;
+	width:928px;
+	height:106px;
+	height:99px;
+}
+
+.social{
+	width:360px;
+	margin:0 auto 14px;
+}
+
+.social.n02{
+	margin-bottom: 6px;
+}
+
+.social li{
+	display:block;
+	float:left;
+	height:30px;
+}
+
+.social li.facebook,.social li.twitter,.social li.line{
+	width:120px;
+}
+
+
+.pre_register{
+	background:url(../images/common/bg_pre_register.png) no-repeat;
+	background-size:900px;
+	width:960px;
+	width:900px;
+	height:490px;
+	height:459px;
+	margin:0 auto 46px;
+	margin:0 auto 20px;
+	position: relative;
+}
+
+.pre_register h2{
+	background:url(../images/jp/title_pre_register_01.png) no-repeat;
+	background-size: 525px;
+	width:560px;
+	width:525px;
+	height:176px;
+	height:165px;
+	margin:4px auto 0px;
+
+}
+
+.pre_register .item_pre_register{
+	position: absolute;
+	width:172px;
+	width:161px;
+	height:172px;
+	height:161px;
+	top:70px;
+	top:66px;
+	left:716px;
+	left:671px;
+}
+
+.pre_register .contents{
+	margin-top:75px;
+	margin-top:70px;
+}
+
+.pre_register .txt,.pre_register .btn_pre{
+	float:left;
+}
+
+.pre_register .txt{
+	margin-left:20px;
+}
+.pre_register .txt h3{
+	background:url(../images/jp/title_pre_register_02.png) no-repeat;
+	background-size:338px;
+	width:361px;
+	width:338px;
+	height:76px;
+	height:71px;
+	margin-bottom:14px;
+}
+.pre_register .txt .caution{
+	background:url(../images/jp/txt_pre_register.png) no-repeat;
+	background-size: 284px;
+	text-indent: -9999px;
+	width:303px;
+	width:284px;
+	height:44px;
+	height:41px;
+}
+}
+
+.pre_register .btn_pre{
+	margin-top:10px;
+	margin-left:251px;
+	margin-left:235px;
+}
+
+.pre_register .btn_pre li{
+	margin-bottom: 13px;
+}
+
+.pre_register .btn_pre li img{
+	display:block;
+	width:308px;
+	width:289px;
+	height:94px;
+	height:88px;
+}
+
+.app_info{
+	background: #fff;
+	border-radius: 10px;
+	width:928px;
+	width:872px;
+	margin:0 auto;
+	padding:10px 0 14px 33px;
+}
+
+.app_info h2{
+	color:#0033cc;
+	line-height: 1.5;
+	text-indent:0;
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+	margin:0 auto 21px;
+}
+
+
+.app_info .info{
+	margin-bottom:20px;
+}
+.app_info .info a{
+	text-decoration: none;
+	color:#0033cc;
+}
+.app_info .info a:hover{
+	text-decoration: underline;
+}
+
+.app_info dl{
+	margin-left:100px;
+	font-weight: bold;
+	font-size: 24px;
+	color:#000000;
+}
+
+.app_info dt{
+	float:left;
+	width:125px;
+	display:block;
+}
+
+.en .app_info dt{
+	width:220px;
+}
+
+.app_info dd{
+	float:left;
+	width:600px;
+	width:544px;
+	display:block;
+}
+
+
+footer{
+	background:url(../images/common/bg_foot.gif) repeat-x top center;
+	margin-top:-30px;
+	padding-top:30px;
+}
+
+.footer_wrapper{
+	background-color:#000099;
+}
+
+.footer_inner{
+	width:960px;
+	width:900px;
+	margin:0 auto;
+	padding:32px 32px 24px;
+	padding:32px 30px 24px;
+	font-size:11px;
+}
+
+.footer_inner .logo{
+	margin-bottom: 12px;
+}
+
+.footer_inner .logo li{
+	display:inline-block;
+	margin-right:20px;
+}
+
+.footer_inner .logo_sonic{
+	vertical-align: bottom;
+}
+
+.footer_inner .logo_sega{
+	margin-right:14px;
+	vertical-align: bottom;
+}
+
+.footer_inner .txt{
+	line-height: 1.5;
+	margin-bottom:24px;
+}
+
+.footer_inner .alink{
+	line-height:1.5;
+	margin-bottom:20px;
+}
+.footer_inner .alink li{
+	display:inline-block;
+	margin-right:2px;
+}
+
+.footer_inner a{
+	color:#00ffff;
+	text-decoration: none;
+}
+
+.footer_inner a:hover{
+	text-decoration: underline;
+}

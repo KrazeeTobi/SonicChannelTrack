@@ -1,0 +1,371 @@
+@charset "utf-8";
+
+/* ----------------------------------------------------
+作成日: 2015.01.22
+最終更新日: 2015.01.30
+
+common.css： 共通設定(tablet版)
+---------------------------------------------------- */
+
+html {
+	height:100%;
+	background:#0093ff;
+}
+
+body {
+	height:100%; 
+	font-size:14px;
+	font-family:"メイリオ", "ＭＳ Ｐゴシック", sans-serif;
+	-webkit-text-size-adjust: 100%;
+	line-height:1.6;
+	color:#ffffff;
+}
+
+header{
+	background:#003399;
+	width:100%;
+	min-width:788px;
+	min-width:800px;
+	height:54px;
+	border-bottom:4px solid #0093ff;
+}
+
+#header_inner{
+	width:768px;
+	margin:0 auto;
+
+}
+#header_inner p{
+	padding:22px 0 0 16px;
+	font-size: 18px;
+	line-height: 1;
+}
+
+article{
+	width:100%;
+	background:url(../images/common/bg.jpg) top center no-repeat;
+	background-attachment: fixed;
+	background-size:100%;
+	min-width:800px;
+}
+
+.wrapper{
+	background:rgba(255,255,255,0.5);
+	width:768px;
+	margin:0 auto;
+	padding-bottom:50px;
+}
+
+h1{
+	line-height: 0;
+}
+
+h1,h2,h3{
+	text-indent:-9999px;
+}
+
+.top_vid{
+	position: relative;
+	background:url(../images/jp/img_video.jpg) no-repeat;
+	background-size:contain;
+	width:768px;
+	height:389px;
+	margin-bottom:12px;
+}
+
+.en .top_vid{
+	background:url(../images/en/img_video.jpg) no-repeat;
+	background-size:contain;
+
+}
+
+.btn_re{
+	position: absolute;
+	top:333px;
+	left:595px;
+}
+
+.btn_re img{
+	width:157px;
+	height:46px;
+}
+
+.en .btn_re{
+	left:534px;
+}
+
+.en .btn_re img{
+	width:181px;
+}
+
+.btn_vol{
+	position: absolute;
+	top:7px;
+	left:15px;
+}
+
+.btn_vol img{
+	width:116px;
+	height:22px;
+}
+
+.en .btn_vol img{
+	width:154px;
+}
+
+.catch span{
+	text-indent:-9999px;
+	background:url(../images/jp/txt_catch.png);
+	background-size: 684px;
+	display:block;
+	width:684px;
+	height:141px;
+	margin:0 auto 12px;
+}
+
+.en .catch span{
+	background:url(../images/en/txt_catch.png);
+	background-size: 738px;
+	width:738px;
+	height:79px;
+}
+
+.social{
+	width:360px;
+	margin:0 auto 14px;
+}
+
+.social.n02{
+	margin-bottom: 6px;
+}
+
+.social li{
+	display:block;
+	float:left;
+	height:30px;
+}
+
+.social li.facebook,.social li.twitter,.social li.line{
+	width:120px;
+}
+
+
+.pre_register{
+	background:url(../images/common/bg_pre_register.png) no-repeat;
+	background-size:720px;
+	width:720px;
+	height:367px;
+	margin:0 auto 34px;
+	margin:0 auto 15px;
+	position: relative;
+}
+
+.pre_register h2{
+	background:url(../images/jp/title_pre_register_01.png) no-repeat;
+	background-size:420px;
+	width:420px;
+	height:132px;
+	margin:3px auto 0;
+
+}
+
+.pre_register .item_pre_register{
+	position: absolute;
+	width:129px;
+	height:129px;
+	top:52px;
+	left:537px;
+}
+
+.pre_register .contents{
+	margin-top:56px;
+}
+
+.pre_register .txt,.pre_register .btn_pre{
+	float:left;
+}
+
+.pre_register .txt{
+	margin-left:15px;
+}
+.pre_register .txt h3{
+	background:url(../images/jp/title_pre_register_02.png) no-repeat;
+	background-size:270px;
+	width:270px;
+	height:57px;
+	margin-bottom:10px;
+}
+.pre_register .txt .caution{
+	background:url(../images/jp/txt_pre_register.png) no-repeat;
+	background-size: 227px;
+	text-indent: -9999px;
+	width:227px;
+	height:33px;
+}
+
+.pre_register .btn_pre{
+	margin-top:7px;
+	margin-left:188px;
+}
+
+.pre_register .btn_pre li{
+	margin-bottom: 10px;
+}
+
+.pre_register .btn_pre li img{
+	display:block;
+	width:231px;
+	height:70px;
+}
+
+.app_info{
+	background: #fff;
+	border-radius: 10px;
+	width:696px;
+	margin:0 auto;
+	padding:10px 0 14px 33px;
+}
+
+.app_info h2{
+	color:#0033cc;
+	line-height: 1.5;
+	text-indent:0;
+	text-align: center;
+	font-size: 23px;
+	font-weight: bold;
+	margin:0 auto 16px;
+}
+
+.app_info .info{
+	margin-bottom:15px;
+}
+.app_info .info a{
+	text-decoration: none;
+	color:#0033cc;
+}
+.app_info .info a:hover{
+	text-decoration: underline;
+}
+
+.app_info dl{
+	margin-left:80px;
+	font-weight: bold;
+	font-size: 18px;
+	color:#000000;
+}
+
+.app_info dt{
+	float:left;
+	width:94px;
+	display:block;
+}
+
+.en .app_info dt{
+	width:150px;
+}
+
+.app_info dd{
+	float:left;
+	width:455px;
+	display:block;
+}
+
+footer{
+	background:url(../images/common/bg_foot.gif) repeat-x top center;
+	background-size:45px;
+	margin-top:-22px;
+	padding-top:22px;
+	min-width:800px;
+}
+
+.footer_wrapper{
+	background-color:#000099;
+}
+
+.footer_inner{
+	width:720px;
+	margin:0 auto;
+	padding:32px 32px 24px;
+	font-size:11px;
+}
+
+.footer_inner .logo{
+	margin-bottom: 12px;
+}
+
+.footer_inner .logo li{
+	display:inline-block;
+	margin-right:20px;
+}
+
+.footer_inner .logo_sega{
+	margin-right:14px;
+	vertical-align: bottom;
+}
+
+.footer_inner .logo_sonic{
+	vertical-align: bottom;
+}
+
+.footer_inner .txt{
+	line-height: 1.5;
+	margin-bottom:24px;
+}
+
+.footer_inner .alink{
+	line-height:1.5;
+	margin-bottom:20px;
+}
+.footer_inner .alink li{
+	display:inline-block;
+	margin-right:2px;
+}
+
+.footer_inner a{
+	color:#00ffff;
+	text-decoration: none;
+}
+
+.footer_inner a:hover{
+	text-decoration: underline;
+}
+
+.others .top_vid{
+	background-size:contain;
+	width:768px;
+	height:389px;
+	margin-bottom:30px;
+
+}
+
+.others .message{
+	margin:0 auto;
+	padding:10px 0;
+	color:#000;
+	text-align: center;
+}
+
+.others .message h2{
+	color:#000;
+	text-indent: 0;
+	font-size:30px;
+}
+
+.others .message a{
+	color:#000099;
+}
+
+.others .message ul{
+	margin-top:15px;
+	line-height: 2;
+}
+
+.others .logo_sega{
+	width:116px;
+	height:40px;
+}
+
+.others .logo_sonic{
+	width:104px;
+	height:36px;
+}

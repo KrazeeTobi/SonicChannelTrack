@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Content-type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Language" content="en">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<title>SONIC RUNNERS[SEGA]</title>
+<meta name="Author" content="(c)SEGA">
+<meta name="format-detection" content="telephone=no" />
+<meta name="keywords" content="SONIC,SONIC RUNNERS,SEGA,SEGA Networks">
+<meta name="description" content="SONIC RUNNERS[SEGA] Run, jump and aim for the top!">
+<meta property="og:image" content="http://sonicrunners.sega-net.com/facebook.png">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Cache-Control" content="no-cache">
+<meta http-equiv="Expires" content="0">
+
+<link rel="canonical" href="http://sonicrunners.sega-net.com/">
+
+<script src="../js/jquery-1.11.1.min.js"></script>
+<script language="javascript" type="text/javascript">
+<!--
+function getParam(key) {
+    var url = location.href;
+    var value = "";
+    if(url.indexOf("?") != -1){
+        parameters = url.split("?");
+        params = parameters[1].split("&");
+        var paramsArray = [];
+        for ( i = 0; i < params.length; i++ ) {
+            neet = params[i].split("=");
+            paramsArray.push(neet[0]);
+            paramsArray[neet[0]] = neet[1];
+            }
+        var value = paramsArray[key];
+    }
+    return value;
+    }
+
+
+$( function(){
+    var para = getParam("ap_ref");
+    var paraStr = "";
+    var sepStr = "?";
+    var lang = "";
+    
+    if (navigator.browserLanguage) { 
+        lang = navigator.browserLanguage; 
+    } else if (navigator.language) { 
+        lang = navigator.language;
+    }
+
+    if (lang.length > 2) { 
+        lang = lang.substr(0, 2); 
+    } 
+
+    if(para != null && para !="" && para != undefined)
+    {
+        paraStr = "ap_ref="+para;
+        $("#ja").attr("href","jp/index.html"+sepStr+paraStr);
+        $("#en").attr("href","en/index.html"+sepStr+paraStr);
+    }
+    if (lang == 'ja') { 
+            location.href = 'jp/index.html'+sepStr+paraStr; 
+        } else {
+        location.href = 'en/index.html'+sepStr+paraStr; 
+    }
+
+});
+ 		-->
+		</script>
+	</head>
+	<body>
+    <a href="jp/index.html" id="ja">日本語</a><br>
+    <a href="en/index.html" id="en">English</a>
+	</body>
+</html>
