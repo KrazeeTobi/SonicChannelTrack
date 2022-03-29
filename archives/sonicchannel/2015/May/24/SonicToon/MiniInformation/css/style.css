@@ -1,0 +1,880 @@
+@charset "UTF-8";
+/*よく使うmixin*/
+/* アニメーション設定 */
+@-webkit-keyframes animationScale01 {
+  0% {
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    /* ###################################################
+    テスト
+    opacity:1;
+    ################################################### */
+  }
+
+  100% {
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+    /* ###################################################
+    テスト
+    opacity:0;
+    ################################################### */
+  }
+}
+@-moz-keyframes animationScale01 {
+  0% {
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    /* ###################################################
+    テスト
+    opacity:1;
+    ################################################### */
+  }
+
+  100% {
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+    /* ###################################################
+    テスト
+    opacity:0;
+    ################################################### */
+  }
+}
+@keyframes animationScale01 {
+  0% {
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    /* ###################################################
+    テスト
+    opacity:1;
+    ################################################### */
+  }
+
+  100% {
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+    /* ###################################################
+    テスト
+    opacity:0;
+    ################################################### */
+  }
+}
+@-webkit-keyframes animationScale02 {
+  0% {
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+
+  100% {
+    /*		@include transform(scale(1.05));*/
+  }
+}
+@-moz-keyframes animationScale02 {
+  0% {
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+
+  100% {
+    /*		@include transform(scale(1.05));*/
+  }
+}
+@keyframes animationScale02 {
+  0% {
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+
+  100% {
+    /*		@include transform(scale(1.05));*/
+  }
+}
+/*
+
+@mixin headline01{
+	color:#fff;
+	padding:4px 0.5em 4px 38px;
+	margin:0 0 5px;
+	line-hight:0;
+	@include border-radius(5px);
+}
+
+@mixin sp-margin{
+	@include mq{
+		@if $mq-sp{
+			margin-left:5px;
+			margin-right:5px;
+		}
+	}
+}
+
+@mixin textRed{
+	color:$color-02 !important;
+}
+
+@mixin buttonOver{
+	&:hover{
+		color:$link-color-03;
+		background-position:-500px;
+
+	}
+}
+*/
+/* 基本テキスト色 */
+/* 配色・オレンジ */
+/* 配色 グレー */
+/* 配色 黄色 */
+/* 配色 赤*/
+/* 基本リンクテキスト色 */
+/* 背景色グラデーション */
+/* screenサイズ */
+/*-------------------------------------------------------
+アニメーション設定
+-------------------------------------------------------*/
+/*-------------------------------------------------------
+コンテンツ設定
+-------------------------------------------------------*/
+@media only screen and (min-width: 2px) and (max-width: 768px) {
+  header {
+    position: fixed;
+    width: 100%;
+  }
+  header Ul {
+    /*				padding-right:40px;*/
+    padding-right: 0;
+  }
+}
+
+/*よく使うmixin*/
+/* アニメーション設定 */
+@-webkit-keyframes animationScale01 {
+  0% {
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    /* ###################################################
+    テスト
+    opacity:1;
+    ################################################### */
+  }
+
+  100% {
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+    /* ###################################################
+    テスト
+    opacity:0;
+    ################################################### */
+  }
+}
+@-moz-keyframes animationScale01 {
+  0% {
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    /* ###################################################
+    テスト
+    opacity:1;
+    ################################################### */
+  }
+
+  100% {
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+    /* ###################################################
+    テスト
+    opacity:0;
+    ################################################### */
+  }
+}
+@keyframes animationScale01 {
+  0% {
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    /* ###################################################
+    テスト
+    opacity:1;
+    ################################################### */
+  }
+
+  100% {
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+    /* ###################################################
+    テスト
+    opacity:0;
+    ################################################### */
+  }
+}
+@-webkit-keyframes animationScale02 {
+  0% {
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+
+  100% {
+    /*		@include transform(scale(1.05));*/
+  }
+}
+@-moz-keyframes animationScale02 {
+  0% {
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+
+  100% {
+    /*		@include transform(scale(1.05));*/
+  }
+}
+@keyframes animationScale02 {
+  0% {
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+
+  100% {
+    /*		@include transform(scale(1.05));*/
+  }
+}
+/*
+
+@mixin headline01{
+	color:#fff;
+	padding:4px 0.5em 4px 38px;
+	margin:0 0 5px;
+	line-hight:0;
+	@include border-radius(5px);
+}
+
+@mixin sp-margin{
+	@include mq{
+		@if $mq-sp{
+			margin-left:5px;
+			margin-right:5px;
+		}
+	}
+}
+
+@mixin textRed{
+	color:$color-02 !important;
+}
+
+@mixin buttonOver{
+	&:hover{
+		color:$link-color-03;
+		background-position:-500px;
+
+	}
+}
+*/
+/* 基本テキスト色 */
+/* 配色・オレンジ */
+/* 配色 グレー */
+/* 配色 黄色 */
+/* 配色 赤*/
+/* 基本リンクテキスト色 */
+/* 背景色グラデーション */
+/* screenサイズ */
+/*-------------------------------------------------------
+アニメーション設定
+-------------------------------------------------------*/
+/*-------------------------------------------------------
+コンテンツ設定
+-------------------------------------------------------*/
+#common-contents {
+  position: relative;
+  background: url(../../common/css/common-contents/common-contents.gif) repeat-y white;
+  padding-bottom: 0;
+  /* end div */
+  /*
+  		805   150   メインカラム655     640 豆知識画像 15px 
+  	★？★？★？★？h1 bottom19pxの空きができてしまう。★？★？★？★？
+  */
+  /*---END--article--*/
+}
+#common-contents > div {
+  background: url(common-contents/div.png);
+  /* end h1 */
+}
+#common-contents > div h1 img {
+  max-width: 100%;
+  height: auto;
+}
+@media only screen and (min-width: 2px) and (max-width: 768px) {
+  #common-contents > div h1 {
+    padding-top: 30px;
+  }
+}
+#common-contents article {
+  padding: 15px 255px 20px 5px;
+  width: 640px;
+  /* end h2 */
+}
+@media only screen and (min-width: 2px) and (max-width: 768px) {
+  #common-contents article {
+    /*margin:10px 0 20px 0; articleに背景div.pngをひいてるのでmarginは× */
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+#common-contents article h2 {
+  background: url("common-contents/h3_01.png") left top no-repeat;
+  border: 1px dotted #fff;
+  padding: 7px 0 7px 20px;
+  margin-bottom: 15px;
+  height: 24px;
+  position: relative;
+  text-shadow: 0px 0px 5px black;
+  display: block;
+  color: #fef100;
+  font-weight: bold;
+  z-index: 1;
+  /*20141107*/
+  /* @include mq */
+}
+#common-contents article h2:after {
+  /* h2アイコン */
+  position: absolute;
+  top: -10px;
+  left: 0px;
+  z-index: -1;
+  content: url("common-contents/h3_after.png");
+}
+@media only screen and (min-width: 2px) and (max-width: 768px) {
+  #common-contents article h2 {
+    background: url("common-contents/h3_01_smart.png") left top no-repeat;
+    width: 96%;
+    height: 39px;
+    margin: 10px 2% 15px;
+    display: block;
+    padding-left: 25px;
+    width: auto;
+    font-size: 88%;
+    line-height: 1.3em;
+  }
+  #common-contents article h2 + p img {
+    margin-left: 2.0%;
+    margin-right: 2.0%;
+    width: 96%;
+    height: auto;
+  }
+}
+#common-contents article .ds3 {
+  max-width: 426px;
+  height: auto;
+  margin: 0 auto;
+}
+#common-contents:after {
+  overflow: hidden;
+  *zoom: 1;
+}
+
+.contentsKnowledge > img {
+  max-width: 100%;
+  height: auto;
+}
+@media only screen and (min-width: 2px) and (max-width: 768px) {
+  .contentsKnowledge > img {
+    width: 98%;
+    height: auto;
+    margin: 0 1%;
+  }
+}
+.contentsKnowledge section p {
+  font-size: 85%;
+  padding: 1em 1em 0;
+  color: white;
+}
+
+/*よく使うmixin*/
+/* アニメーション設定 */
+@-webkit-keyframes animationScale01 {
+  0% {
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    /* ###################################################
+    テスト
+    opacity:1;
+    ################################################### */
+  }
+
+  100% {
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+    /* ###################################################
+    テスト
+    opacity:0;
+    ################################################### */
+  }
+}
+@-moz-keyframes animationScale01 {
+  0% {
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    /* ###################################################
+    テスト
+    opacity:1;
+    ################################################### */
+  }
+
+  100% {
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+    /* ###################################################
+    テスト
+    opacity:0;
+    ################################################### */
+  }
+}
+@keyframes animationScale01 {
+  0% {
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    /* ###################################################
+    テスト
+    opacity:1;
+    ################################################### */
+  }
+
+  100% {
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+    /* ###################################################
+    テスト
+    opacity:0;
+    ################################################### */
+  }
+}
+@-webkit-keyframes animationScale02 {
+  0% {
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+
+  100% {
+    /*		@include transform(scale(1.05));*/
+  }
+}
+@-moz-keyframes animationScale02 {
+  0% {
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+
+  100% {
+    /*		@include transform(scale(1.05));*/
+  }
+}
+@keyframes animationScale02 {
+  0% {
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+
+  100% {
+    /*		@include transform(scale(1.05));*/
+  }
+}
+/*
+
+@mixin headline01{
+	color:#fff;
+	padding:4px 0.5em 4px 38px;
+	margin:0 0 5px;
+	line-hight:0;
+	@include border-radius(5px);
+}
+
+@mixin sp-margin{
+	@include mq{
+		@if $mq-sp{
+			margin-left:5px;
+			margin-right:5px;
+		}
+	}
+}
+
+@mixin textRed{
+	color:$color-02 !important;
+}
+
+@mixin buttonOver{
+	&:hover{
+		color:$link-color-03;
+		background-position:-500px;
+
+	}
+}
+*/
+/* 基本テキスト色 */
+/* 配色・オレンジ */
+/* 配色 グレー */
+/* 配色 黄色 */
+/* 配色 赤*/
+/* 基本リンクテキスト色 */
+/* 背景色グラデーション */
+/* screenサイズ */
+/*-------------------------------------------------------
+アニメーション設定
+-------------------------------------------------------*/
+/*-------------------------------------------------------
+コンテンツ設定
+-------------------------------------------------------*/
+nav#common-navigation {
+  /*	display:block;  li img 115*/
+  /*	display: table-cell;*/
+  /*	background: url(common-contents/div.png);*/
+  position: absolute;
+  top: 319px;
+  right: 10px;
+  padding: 30px 5px 20px 0;
+  width: 240px;
+  /*---END ul ---*/
+  /* mq */
+  /*
+  #navigation-pagetop{
+  	display:none;
+  	width:45px;
+  	height:55px;
+  	display:block;
+  	position:fixed;
+  	bottom:0px;
+  	right:10px;
+  	z-index:1500;
+  	a{
+  		background:url(common-navigation/navigation-pagetop.png) no-repeat;
+  		display:block;
+  		width:45px;
+  		height:45px;
+  		padding-bottom:10px;
+  		@include text-overflow;
+  	}
+  }	
+  */
+}
+nav#common-navigation h2 {
+  width: 240px;
+  height: 40px;
+  background: url(common-navigation/h2_01.gif) left top no-repeat;
+  margin: 0 auto 15px;
+}
+nav#common-navigation h2 img {
+  display: block;
+  width: 55px;
+  height: 27px;
+  padding-top: 10px;
+  margin: 0 auto;
+}
+nav#common-navigation ul {
+  width: 240px;
+  height: 296px;
+  overflow: hidden;
+}
+nav#common-navigation ul li {
+  width: 114px;
+  height: 64px;
+  float: left;
+  position: relative;
+}
+nav#common-navigation ul li:nth-child(odd) {
+  margin: 0 5px 10px 0;
+}
+nav#common-navigation ul li:nth-child(even) {
+  margin: 0 0 10px 7px;
+}
+nav#common-navigation ul li:not(.disp) {
+  display: none;
+}
+nav#common-navigation ul li.disp {
+  display: block;
+}
+nav#common-navigation ul li a {
+  display: block;
+}
+nav#common-navigation ul li .newInfo2 {
+  top: 0;
+  left: 0;
+}
+nav#common-navigation a.paging {
+  cursor: pointer;
+  display: block;
+}
+nav#common-navigation a.paging:not(.disp) {
+  display: none;
+}
+nav#common-navigation a#prev {
+  /* 前へボタン */
+  float: left;
+  /*
+  &:not(.disp){
+  	display:none;
+  }
+  &.disp{
+  	display:inline;
+  }
+  */
+}
+nav#common-navigation a#next {
+  /* 次へボタン */
+  float: right;
+  /*
+  &:not(.disp){
+  	display:none;
+  }
+  &.disp{
+  	display:inline;
+  }
+  */
+}
+@media only screen and (min-width: 2px) and (max-width: 768px) {
+  nav#common-navigation {
+    position: static;
+    width: 100%;
+    padding: 30px 0 20px;
+    /*h2*/
+    /* end ul */
+  }
+  nav#common-navigation h2 {
+    background: url(common-navigation/h2_01_smart.gif) left top no-repeat;
+    width: 96%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  nav#common-navigation ul {
+    display: block;
+    width: 248px;
+    margin: 0 auto;
+    /* end li */
+  }
+  nav#common-navigation ul li {
+    min-width: 114px;
+    height: auto;
+    /* odd */
+    /* even */
+  }
+  nav#common-navigation ul li:nth-child(odd) {
+    margin: 0 3% 3% 0;
+  }
+  nav#common-navigation ul li:nth-child(even) {
+    margin: 0 0 3% 3%;
+  }
+  nav#common-navigation ul li img {
+    width: 100%;
+    height: auto;
+  }
+  nav#common-navigation ul li .newInfo2 {
+    top: 0;
+    left: 0;
+  }
+  nav#common-navigation:after {
+    /*liをfloatしてるのでここでcleafix(背景) or 高さ設定*/
+    display: block;
+    visibility: hidden;
+    clear: both;
+    height: 0;
+    content: " ";
+    font-size: 0;
+  }
+}
+
+/*よく使うmixin*/
+/* アニメーション設定 */
+@-webkit-keyframes animationScale01 {
+  0% {
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    /* ###################################################
+    テスト
+    opacity:1;
+    ################################################### */
+  }
+
+  100% {
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+    /* ###################################################
+    テスト
+    opacity:0;
+    ################################################### */
+  }
+}
+@-moz-keyframes animationScale01 {
+  0% {
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    /* ###################################################
+    テスト
+    opacity:1;
+    ################################################### */
+  }
+
+  100% {
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+    /* ###################################################
+    テスト
+    opacity:0;
+    ################################################### */
+  }
+}
+@keyframes animationScale01 {
+  0% {
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    /* ###################################################
+    テスト
+    opacity:1;
+    ################################################### */
+  }
+
+  100% {
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+    /* ###################################################
+    テスト
+    opacity:0;
+    ################################################### */
+  }
+}
+@-webkit-keyframes animationScale02 {
+  0% {
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+
+  100% {
+    /*		@include transform(scale(1.05));*/
+  }
+}
+@-moz-keyframes animationScale02 {
+  0% {
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+
+  100% {
+    /*		@include transform(scale(1.05));*/
+  }
+}
+@keyframes animationScale02 {
+  0% {
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+
+  100% {
+    /*		@include transform(scale(1.05));*/
+  }
+}
+/*
+
+@mixin headline01{
+	color:#fff;
+	padding:4px 0.5em 4px 38px;
+	margin:0 0 5px;
+	line-hight:0;
+	@include border-radius(5px);
+}
+
+@mixin sp-margin{
+	@include mq{
+		@if $mq-sp{
+			margin-left:5px;
+			margin-right:5px;
+		}
+	}
+}
+
+@mixin textRed{
+	color:$color-02 !important;
+}
+
+@mixin buttonOver{
+	&:hover{
+		color:$link-color-03;
+		background-position:-500px;
+
+	}
+}
+*/
+/* 基本テキスト色 */
+/* 配色・オレンジ */
+/* 配色 グレー */
+/* 配色 黄色 */
+/* 配色 赤*/
+/* 基本リンクテキスト色 */
+/* 背景色グラデーション */
+/* screenサイズ */
+/*-------------------------------------------------------
+コンテンツ設定
+-------------------------------------------------------*/
