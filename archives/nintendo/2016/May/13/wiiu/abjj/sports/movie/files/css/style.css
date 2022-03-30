@@ -1,0 +1,54 @@
+@charset "utf-8";
+
+@import "../../../../files/css/layout.css";
+
+
+@media screen and (max-width: 480px) {
+}
+
+html, body {height: 100%;} 
+body {
+    background: url(../img/bg.png) center center / cover no-repeat fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+    position: relative;
+    min-width: 760px; 
+    min-height: 718px; 
+}
+
+
+/*-------------------------------------------------------------------------
+	Movie
+/*-----------------------------------------------------------------------*/
+
+#box {
+    margin: -309px 0 0 -380px;
+    height: 618px;
+    width: 760px;
+    position: absolute;
+    top: 50%;
+    left:  50%;
+}
+
+#ttl {
+    margin: 0 auto;
+    text-align: center;
+}
+
+#movie {
+    margin: 22px auto 40px auto;
+    width: 720px;
+    height: 405px;
+	position: relative;
+    border: solid 20px #fff;
+    border-radius: 10px; 
+}
+#movie iframe {
+	width: 100%;
+	height: 100%;
+    background-color: #fff;
+}
+#back {
+    width: 260px;
+    margin: 0 auto;
+}

@@ -1,0 +1,264 @@
+@charset "utf-8";
+
+@import "base.css";
+@import "lightbox.css";
+
+
+.noscript .js {
+	display:none !important;
+}
+	.wii .moviePlayer,
+	.noscript .moviePlayer,
+	.ds .moviePlayer,
+	.nonFP .moviePlayer,
+	.iphone .moviePlayer,
+	.android .moviePlayer {
+		display:none;
+	}
+	.poster {
+		display:none;
+	}
+		.noscript .poster,
+		.wii .poster,
+		.ds .poster,
+		.iphone .poster,
+		.android .poster,
+		.nonFP .poster {
+			display:block !important;
+		}
+
+
+/*-------------------------------------------------------------------------
+	All
+/*-----------------------------------------------------------------------*/
+
+.wrap {
+	width: 960px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.cover {
+	width: 100%;
+	height: 100%;
+	background: url(../img/movie/dots.png) center;
+	position: fixed;
+	top: 0;
+	left: 0; 
+	z-index: -1;
+}
+video.bg {
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	background-size: cover;
+	position: fixed;
+    top: 0;
+	right: 0;
+	bottom: 0;
+    left: 0;
+	z-index: -100;
+}
+
+
+div,ul,dl {
+	zoom:1;
+}
+
+	div:after,
+	ul:after,
+	dl:after{
+		content: "";
+		display: block;
+		clear: both;
+		visibility: hidden;
+	}
+
+/*-------------------------------------------------------------------------
+    Flex
+/*-----------------------------------------------------------------------*/
+
+.flex {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    -ms-flex-direction: row;
+    -o-flex-direction: row;
+    flex-direction: row;
+
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    -o-flex-wrap: wrap;
+    flex-wrap: wrap;
+
+}
+
+    .flex .fbox {
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: flex;
+
+        -webkit-flex: 1;
+        -moz-flex: 1;
+        -ms-flex: 1;
+        -o-flex: 1;
+        flex: 1;
+        flex-grow: 1;
+
+        -webkit-justify-content: center;
+        -moz-justify-content: center;
+        -ms-justify-content: center;
+        -o-justify-content: center;
+        justify-content: center;
+
+    }
+    .flex .fbox.w15 {
+        -webkit-flex: 1.5;
+        -moz-flex: 1.5;
+        -ms-flex: 1.5;
+        -o-flex: 1.5;
+        flex: 1.5;
+    }
+    .flex .fbox.w2 {
+        -webkit-flex: 2.1;
+        -moz-flex: 2.1;
+        -ms-flex: 2.1;
+        -o-flex: 2.1;
+        flex: 2.1;
+    }
+
+
+/*-------------------------------------------------------------------------
+    Contents
+/*-----------------------------------------------------------------------*/
+
+
+/*-------------------------------------------------------------------------
+	Navi
+/*-----------------------------------------------------------------------*/
+#navi {
+    width: 100%;
+}
+	#navi #pagetop {
+		position: absolute;
+		top: -31px;
+		right: 20px;
+        z-index: 209;
+	}
+        #navi ul {
+            padding: 0 30px;
+        }
+    		#navi ul li {
+                padding-left: 0px;
+                float: left;
+    		}
+            #navi ul li:first-child {
+                padding-top: 14px;
+            }
+                #navi ul li a {
+                    margin: 0 20px;
+                    display: block;
+                }
+
+.fixed-bottom {
+    position: fixed;
+    left:0;
+    bottom:0;
+    width:100%; 
+    z-index: 200;
+}
+
+/*-------------------------------------------------------------------------
+	Footer
+/*-----------------------------------------------------------------------*/
+#footer {
+	background-color: #fff;
+}
+	#footer #upper {
+	}
+	#footer #upper ul {
+		padding: 36px 0 17px 0;
+	}
+
+		#footer #upper ul li {
+			margin-right: 25px;
+			padding: 4px 0;
+			float:left;
+		}
+		#footer #upper ul #olympic {
+			padding-left: 25px;
+			border-left: 1px solid #8c8c8c;
+		}
+		#footer #upper ul #twitter {
+			margin-right: 0;
+			position: absolute;
+			top: 183px;
+			right: 60px;
+		}
+		#footer #upper ul #facebook {
+			margin-right: 0;
+			position: absolute;
+			top: 183px;
+			right: 0;
+		}
+		#footer #lower .flex .fbox {
+			width: 100%;
+			-webkit-justify-content: space-between;
+			-moz-justify-content: space-between;
+			-ms-justify-content: space-between;
+			-o-justify-content: space-between;
+			justify-content: space-between;
+		}
+
+	#footer #lower {
+		padding: 12px 0 20px 0;
+		border-top: 2px solid #8c8c8c;
+	}
+		#footer #lower .flex .fbox li {
+			position: relative;
+		}
+		#footer #lower .flex .fbox #copyright {
+			text-align: center;
+			position: relative;
+			left: 44px;
+		}
+		#footer #lower .flex .fbox #wiiu_logo {
+			position: relative;
+			left: 88px;
+		}
+		#footer #upper ul li a,
+		#footer #lower ul li a {
+			display: block;
+		}
+		#footer #upper ul li a:hover,
+		#footer #lower ul li a:hover {
+			opacity: 0.6;
+		}
+
+
+/* Wii U */
+
+.wiiu #navi ul li {
+    float: left;
+}
+    .wiiu #navi ul li a:last-child {
+        margin: 0 0 0 20px;
+        display: block;
+    }
+
+.wiiu #footer #lower .flex .fbox li {
+    float: left
+}
+    .wiiu #footer #lower .flex .fbox #wiiu_logo {
+        float: right;
+        left: 0;
+    }
