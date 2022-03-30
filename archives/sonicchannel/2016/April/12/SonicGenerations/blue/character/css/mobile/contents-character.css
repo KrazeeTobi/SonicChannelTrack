@@ -1,0 +1,34 @@
+@charset "UTF-8";
+/* contents-movie  ===================================================== */
+#contents-character{
+
+}
+
+#contents-character #slideLink{
+	display:none;
+}
+
+#contents-character #slideTarget{
+	margin:0 auto;
+	padding:0;
+	width:310px;
+}
+
+
+#contents-character #slideTarget li{
+	margin:0 0 10px;
+	padding:5px;
+	background:url(../../../../common/css/mobile/common-contents/bgP.gif);
+	border-radius: 10px;		/* CSS3草案 */
+	-webkit-border-radius: 10px;	/* Safari,Google Chrome用 */
+	-moz-border-radius: 10px;	/* Firefox用 */
+}
+
+#contents-character #slideTarget li h2{
+	margin:0;
+	padding:0;
+}
+
+#contents-character #slideTarget li p{
+	padding:5px	;
+}
