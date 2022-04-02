@@ -1,0 +1,56 @@
+.Product {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: 300ms;
+  width: 950px;
+  margin: 40px auto 80px;
+  background: #fff;
+  border: #000 solid 6px;
+  border-radius: 20px;
+  text-align: center;
+  padding-bottom: 20px;
+  font-weight: bold; }
+  .Product.show {
+    opacity: 1;
+    transform: translateY(0); }
+  @media screen and (max-width: 400px) {
+    .Product {
+      width: 100%;
+      border-radius: 0px;
+      border: none;
+      margin: 0px auto 0px;
+      padding-bottom: 0px; } }
+  .Product h3 {
+    font-size: 26px;
+    padding: 10px 0px;
+    background: #000;
+    color: #fff;
+    margin-bottom: 20px; }
+    @media screen and (max-width: 400px) {
+      .Product h3 {
+        background: #b11c33; } }
+  .Product > div dl {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-size: 18px;
+    width: 670px;
+    margin: 0 auto; }
+    @media screen and (max-width: 400px) {
+      .Product > div dl {
+        width: 100%;
+        padding-bottom: 10px;
+        font-size: 16px; } }
+    .Product > div dl dt {
+      width: 18%;
+      text-align: right;
+      margin-right: 10px; }
+      @media screen and (max-width: 400px) {
+        .Product > div dl dt {
+          width: 30%; } }
+    .Product > div dl dd {
+      width: 82%;
+      text-align: left; }
+      @media screen and (max-width: 400px) {
+        .Product > div dl dd {
+          width: 70%; } }

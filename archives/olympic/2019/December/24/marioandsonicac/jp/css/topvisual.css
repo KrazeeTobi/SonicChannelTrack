@@ -1,0 +1,171 @@
+@keyframes sizeScale20 {
+  0% {
+    opacity: 0;
+    transform: scale(2); }
+  100% {
+    opacity: 1;
+    transform: scale(1); } }
+
+@keyframes translate {
+  0% {
+    opacity: 0;
+    transform: translateX(100px); }
+  100% {
+    opacity: 1;
+    transform: translateX(0px); } }
+
+@keyframes translate02 {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px); }
+  100% {
+    opacity: 1;
+    transform: translateX(0px); } }
+
+@keyframes sizeScale0 {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+.Topvisual {
+  height: 894px; }
+  @media screen and (max-width: 400px) {
+    .Topvisual {
+      height: 1220px; } }
+  .Topvisual .OlympicLogo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 74px; }
+    @media screen and (max-width: 400px) {
+      .Topvisual .OlympicLogo {
+        width: 60px; } }
+  .Topvisual-inner {
+    position: relative;
+    width: 1000px;
+    height: 100%;
+    margin: 0px auto;
+    padding: 0px 0px; }
+    @media screen and (max-width: 400px) {
+      .Topvisual-inner {
+        width: 100%;
+        height: 1100px; } }
+    .Topvisual-inner .MarisoniLogo {
+      width: 460px;
+      margin: 0 auto;
+      display: block;
+      padding-top: 48px;
+      position: relative;
+      z-index: 3;
+      opacity: 0;
+      animation: sizeScale20 500ms cubic-bezier(0.05, 1.1, 0.67, 1.17) forwards;
+      animation-delay: 0.5s; }
+      @media screen and (max-width: 400px) {
+        .Topvisual-inner .MarisoniLogo {
+          width: 260px;
+          padding-top: 30px; } }
+    .Topvisual-inner .Chara {
+      position: absolute;
+      opacity: 0; }
+      .Topvisual-inner .Chara.Mario {
+        background: url("../images/mario.png") center center no-repeat;
+        background-size: contain;
+        width: 320px;
+        height: 620px;
+        top: 190px;
+        left: 22px;
+        animation: translate 500ms forwards;
+        animation-delay: 1s; }
+        @media screen and (max-width: 400px) {
+          .Topvisual-inner .Chara.Mario {
+            top: 360px;
+            left: 10px;
+            width: 180px;
+            height: 380px; } }
+      .Topvisual-inner .Chara.Sonic {
+        background: url("../images/sonic.png") center center no-repeat;
+        background-size: contain;
+        width: 340px;
+        height: 630px;
+        top: 190px;
+        right: 8px;
+        animation: translate02 500ms forwards;
+        animation-delay: 1s; }
+        @media screen and (max-width: 400px) {
+          .Topvisual-inner .Chara.Sonic {
+            top: 360px;
+            right: 10px;
+            width: 190px;
+            height: 370px; } }
+    .Topvisual-inner .Movie {
+      position: absolute;
+      bottom: -10px;
+      left: -80px;
+      z-index: 2;
+      border-radius: 20px;
+      overflow: hidden;
+      width: 188px;
+      height: 324px;
+      opacity: 0;
+      animation: sizeScale0 800ms forwards;
+      animation-delay: 1.2s;
+      box-shadow: inset 0 0 0 3px #000, inset 0 0 0 6px #213fe4, 0 0 10px 2px rgba(0, 0, 0, 0.6); }
+      @media screen and (max-width: 400px) {
+        .Topvisual-inner .Movie {
+          left: 20px;
+          bottom: -16px;
+          height: 360px;
+          background: #213fe4; } }
+      .Topvisual-inner .Movie iframe,
+      .Topvisual-inner .Movie video {
+        width: 188px;
+        height: 324px;
+        padding: 6px;
+        border-radius: 20px; }
+        @media screen and (max-width: 400px) {
+          .Topvisual-inner .Movie iframe,
+          .Topvisual-inner .Movie video {
+            border-radius: 0px;
+            position: absolute;
+            top: 20px; } }
+    .Topvisual-inner .Cab {
+      position: absolute;
+      bottom: -40px;
+      right: -70px;
+      margin: 0 auto;
+      z-index: 2;
+      background: url("../images/cab.png") center center no-repeat;
+      background-size: contain;
+      width: 270px;
+      height: 450px;
+      opacity: 0;
+      animation: sizeScale0 800ms forwards;
+      animation-delay: 1.2s; }
+      @media screen and (max-width: 400px) {
+        .Topvisual-inner .Cab {
+          width: 282px;
+          height: 470px;
+          left: 0;
+          right: 0;
+          bottom: -100px; } }
+    .Topvisual-inner .Catch {
+      position: absolute;
+      bottom: 85px;
+      left: 50%;
+      margin-left: -349.5px;
+      background: url("../images/catch.png") center center no-repeat;
+      width: 699px;
+      height: 180px;
+      font-size: 0px;
+      opacity: 0;
+      animation: sizeScale20 400ms cubic-bezier(0.05, 1.1, 0.67, 1.17) forwards;
+      animation-delay: 1.8s; }
+      @media screen and (max-width: 400px) {
+        .Topvisual-inner .Catch {
+          position: initial;
+          background: url("../images/catch_sp.png") center center no-repeat;
+          background-size: contain;
+          width: 360px;
+          height: 80px;
+          margin: 270px auto 0px; } }

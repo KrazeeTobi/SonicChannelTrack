@@ -1,0 +1,82 @@
+@charset "UTF-8";
+@import url("./topvisual.css");
+@import url("./locate.css");
+@import url("./product.css");
+@import url("./links.css");
+@import url("./footer.css");
+@media screen and (max-width: 400px) {
+  .is-pc {
+    display: none; } }
+
+@media screen and (min-width: 401px) {
+  .is-sp {
+    display: none; } }
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+  list-style-type: none; }
+
+@media screen and (max-width: 400px) {
+  img {
+    width: 100%; } }
+
+body {
+  min-width: 1100px; }
+  @media screen and (max-width: 400px) {
+    body {
+      min-width: 100%; } }
+
+a:hover {
+  filter: brightness(120%); }
+
+#app {
+  background: url("../images/topvisual_bg.jpg") top center no-repeat;
+  background-size: 2100px;
+  background-attachment: fixed; }
+  @media screen and (max-width: 400px) {
+    #app {
+      overflow: hidden;
+      background: none; }
+      #app::before {
+        content: "";
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        width: 100%;
+        height: 100vh;
+        background: url("../images/topvisual_bg.jpg") center center no-repeat;
+        background-size: cover; } }
+
+#topPage {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  z-index: 9999;
+  opacity: 0;
+  transform: translateY(100px);
+  transition: 600ms; }
+  @media screen and (max-width: 400px) {
+    #topPage {
+      width: 45px;
+      height: 45px; } }
+  #topPage.topBtn {
+    opacity: 1;
+    transform: translateY(0px); }
+  #topPage > span {
+    display: block;
+    transition: 0.4s; }
+    #topPage > span > a {
+      transition: 300ms; }
+      #topPage > span > a:hover {
+        filter: brightness(120%); }
+    #topPage > span img {
+      vertical-align: bottom;
+      max-width: 100%; }
