@@ -1,0 +1,73 @@
+@charset "utf-8";
+
+@import "../../../files/css/layout.css";
+
+
+@media screen and (max-width: 480px) {
+}
+
+body {
+    background: url(../img/bg.png) no-repeat center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+    position: relative;
+}
+
+
+/*-------------------------------------------------------------------------
+	Movie
+/*-----------------------------------------------------------------------*/
+
+#box {
+    margin: 40px auto 0;
+    min-height: 100%;
+    width: 760px;
+}
+
+#ttl {
+    margin: 0 auto;
+    text-align: center;
+}
+
+#movie {
+    margin: 22px auto 40px auto;
+    width: 720px;
+    height: 405px;
+	position: relative;
+    border: solid 20px #fff;
+    border-radius: 10px; 
+}
+#movie iframe {
+	width: 100%;
+	height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+}
+#navi {
+    margin-bottom: 38px;
+}
+    #navi li {
+        width: 240px;
+        float: left;
+        margin-right: 20px;
+        position: relative;
+    }
+    #navi li:last-child {
+        margin-right: 0;
+    }
+        #navi li span {
+            width: 52px;
+            position: absolute;
+            top: -11px;
+            right: 9px;
+        }
+        #navi li a {
+            display: block;
+        }
+#back {
+    width: 260px;
+    margin: 0 auto 38px auto;
+}
