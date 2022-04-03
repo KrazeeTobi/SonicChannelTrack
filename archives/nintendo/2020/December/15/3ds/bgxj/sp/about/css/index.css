@@ -1,0 +1,154 @@
+@charset 'utf-8';
+
+/*-----------------------------------------------------
+Common
+-------------------------------------------------------*/
+#Content {
+	width: 100%;
+	line-height: 1;
+}
+div.official h2,
+div.extra h2 {
+	height: 120px;
+	position: relative;
+}
+div.official div.inside,
+div.extra div.inside {
+	padding: 0 20px;
+	text-align: center;
+}
+div.official h2 img ,
+div.extra h2 img { position: absolute; }
+div.frame {
+	width: 260px;
+	height: 207px;
+	display: inline-block;
+	position: relative;
+	margin: 19px;
+	border-radius: 12px;
+	background: #fff;
+}
+div.frame.large {
+	width: 560px;
+	height: 396px;
+	margin: 0;
+}
+div.frame div.movie_area,
+div.frame noscript {
+	position: absolute;
+	top: 8px;
+	left: 8px;
+}
+div.frame noscript { z-index: 1; }
+div.frame h3 {
+	width: 100%;
+	position: absolute;
+	bottom: 16px;
+	text-align: center;
+}
+div.official p.desc,
+div.extra p.desc {
+	margin: 17px 0 30px;
+}
+
+/*-----------------------------------------------------
+Intro
+-------------------------------------------------------*/
+div.intro {
+	height: 725px;
+	position: relative;
+	background: url('../images/intro_bg.jpg') center top no-repeat;
+}
+div.intro h1 {
+	margin: 0 0 46px;
+	padding: 78px 0 0 31px;
+}
+div.intro p.txt {
+	position: relative;
+	z-index: 1;
+	padding: 0 0 0 34px;
+}
+div.intro p.chara {
+	position: absolute;
+	top: 60px;
+	right: 0;
+}
+
+/*-----------------------------------------------------
+Official
+-------------------------------------------------------*/
+div.official h2 img.main_ttl {
+	top: 31px;
+	left: 39px;
+}
+div.official h2 img.sub_ttl {
+	top: -10px;
+	right: 10px;
+}
+div.official div.inside {
+	height: 2738px;
+	padding: 60px 20px 30px;
+	background-image: url('../images/official_bg01.jpg'),url('../images/official_bg02.jpg'),url('../images/official_bg03.jpg');
+	background-repeat: no-repeat, no-repeat, no-repeat;
+	background-position: center top, center 932px, center bottom;
+}
+div.official div.frame02 + p.desc {
+	margin-bottom: 18px;
+}
+div.official p.balloon {
+	margin: 0 0 21px;
+	text-align: center;
+}
+
+/*-----------------------------------------------------
+Extra
+-------------------------------------------------------*/
+div.extra { position: relative; }
+div.extra h2 img.main_ttl {
+	top: 36px;
+	left: 39px;
+}
+div.extra h2 img.sub_ttl {
+	top: -8px;
+	right: 34px;
+}
+div.extra div.inside {
+	height: 1786px;
+	padding: 40px 20px 40px;
+	text-align: left;
+	background-image: url('../images/extra_bg01.jpg'),url('../images/extra_bg02.jpg'),url('../images/extra_bg03.jpg');
+	background-repeat: no-repeat, no-repeat, no-repeat;
+	background-position: center top, center 742px, center bottom;
+}
+div.extra div.frame_wrap { text-align: center; }
+div.extra div.frame.large {
+	height: 340px;
+	position: relative;
+	z-index: 1;
+	margin-top: 21px;
+}
+div.extra p.desc {
+	margin: 28px 0 77px;
+	text-align: center;
+}
+div.extra p.chara {
+	position: absolute;
+	top: 412px;
+	right: 2px;
+}
+div.extra div.play {
+	padding: 0 8px 8px 8px;
+	text-align: center;
+	border-radius: 12px;
+	background: #008ed3;
+}
+div.extra div.play h3 {
+	padding: 30px 0;
+}
+div.extra div.play div.box {
+	padding: 35px 0 40px;
+	background: url('../images/play_box_bg.png') center top no-repeat;
+}
+div.extra div.play div.box p.txt { margin: 0 0 40px; }
+div.extra div.play div.box ul li { margin: 40px 0 0; }
+div.extra div.play div.box ul li:first-child { margin: 0;}

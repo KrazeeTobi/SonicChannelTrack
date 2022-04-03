@@ -1,0 +1,35 @@
+@charset 'utf-8';
+
+/*-----------------------------------------------------
+Movie
+-------------------------------------------------------*/
+#Content {
+	line-height: 1;
+	text-align: center;
+}
+div.movie {
+	height: 622px;
+	background: url('../images/movie_bg.jpg');
+}
+div.movie h1 {
+	margin: 0 0 70px;
+	padding: 70px 0 0;
+}
+div.movie div.box {
+	width: 560px;
+	height: 338px;
+	position: relative;
+	margin: 0 auto 20px;
+	border-radius: 12px;
+	background: #fff;
+}
+div.movie div.box div.movie_area,
+div.movie div.box noscript {
+	position: absolute;
+	top: 8px;
+	left: 8px;
+}
+div.movie div.box noscript { z-index: 1; }
+div.movie p.caption {
+	margin: 0 0 60px;
+}
