@@ -1,0 +1,182 @@
+/* all-substance   ===================================================== */
+#all-substance{
+	width:490px;
+	padding:9px 30px 26px;
+}
+
+/* div  --------------------------------------------------------------*/
+#all-substance div{
+	margin:0 0 15px;
+	padding:0;
+}
+
+
+/* director-archive   ------------------------------------------------*/
+#all-substance #director-archive .entry-header{
+	margin:0;
+	padding:9px;
+	background:url(all-substance/entry-header_h2_bg.jpg) no-repeat center center #000;
+}
+
+#all-substance #director-archive .entry-header h2{
+	font-size:medium;
+	_font-size:small;
+	font-weight:bold;
+	line-height:1.1em;
+	text-decoration:none;
+	border-bottom:#b20000 solid 1px;
+}
+
+#all-substance #director-archive dl{
+	width:470px;
+	padding:10px;
+	background:url(all-substance/div_bg.png) repeat;
+	border-bottom:#b20000 solid 1px; 
+}
+* html #all-substance #director-archive dl{ /* IE6 PNG ALPHA */
+	behavior: expression(IEPNGFIX.fix(this));
+}
+/* clear fix */
+#all-substance director-archive dl{
+	zoom:1;/*for IE 5.5-7*/
+}
+
+#all-substance #director-archive dl:after{/*for modern browser*/
+	content:".";
+	display: block;
+	height:0px;
+	clear:both;
+	line-height:0; 
+	visibility:hidden;
+}
+
+#all-substance #director-archive dt{
+	line-height:1.2em;
+	display:block; 
+	width:100px;
+	float:left; 
+	margin:0 0 0.7em 0;
+	clear:both;
+}
+
+#all-substance #director-archive dd{
+	display:block;
+	width:370px;
+	float:left;
+	margin:0 0 0.7em 0;
+}
+
+#all-substance #director-archive dd,
+#all-substance #director-archive dd a{
+	line-height:1.2em;
+}
+
+
+/* hamidashi-archive   ------------------------------------------------*/
+#all-substance #hamidashi-archive .entry-header{
+	margin:0;
+	padding:9px;
+	background:url(all-substance/hamidashi_h2_bg.jpg) no-repeat center center #000;
+}
+
+#all-substance #hamidashi-archive .entry-header h2{
+	padding-left:20px;
+	color:#926939;
+	font-size:medium;
+	_font-size:small;
+	font-weight:bold;
+	line-height:1.1em;
+	text-decoration:none;
+	border-bottom:#bb9458 solid 1px;
+}
+
+#all-substance #hamidashi-archive dl{
+	width:470px;
+	padding:10px;
+	background:url(all-substance/hamidashi_div_bg.png) repeat;
+	border-bottom:#bb9458 solid 1px; 
+}
+* html #all-substance #hamidashi-archive dl{ /* IE6 PNG ALPHA */
+	behavior: expression(IEPNGFIX.fix(this));
+}
+/* clear fix */
+#all-substance hamidashi-archive dl{
+	zoom:1;/*for IE 5.5-7*/
+}
+
+#all-substance #hamidashi-archive dl:after{/*for modern browser*/
+	content:".";
+	display: block;
+	height:0px;
+	clear:both;
+	line-height:0; 
+	visibility:hidden;
+}
+
+#all-substance #hamidashi-archive dt{
+	line-height:1.2em;
+	display:block; 
+	width:100px;
+	float:left; 
+	margin:0 0 0.7em 0;
+	clear:both;
+	color:#963;
+}
+
+#all-substance #hamidashi-archive dd{
+	display:block;
+	width:370px;
+	float:left;
+	margin:0 0 0.7em 0;
+	color:#963;
+}
+
+#all-substance #hamidashi-archive dd,
+#all-substance #hamidashi-archive dd a,
+#all-substance #hamidashi-archive dd a:visited{
+	line-height:1.2em;
+	color:#c63;
+}
+
+#all-substance #hamidashi-archive dd a:hover,
+#all-substance #hamidashi-archive dd a:active{
+	line-height:1.2em;
+	color:#ffdecc;
+}
+
+
+/* entry header ----------------------------------------- search.html —p*/
+#all-substance .entry .entry-header{
+	padding:9px;
+	margin:0;
+	background:url(all-substance/entry-header_h2_bg.jpg) no-repeat center center #000;
+}
+
+#all-substance .entry .entry-header h2{
+	font-size:medium;
+	_font-size:small;
+	font-weight:bold;
+	line-height:1.1em;
+	text-decoration:none;
+	border-bottom:#b20000 solid 1px;
+}
+
+/* entry body  ------------------------------------------ search.html —p*/
+#all-substance .entry .entry-body{
+	width:470px;
+	padding:10px 10px 0;
+	background:url(all-substance/div_bg.png) repeat;
+	border-bottom:#b20000 solid 1px; 
+}
+
+* html #all-substance .entry .entry-body{ /* IE6 PNG ALPHA */
+	behavior: expression(IEPNGFIX.fix(this));
+}
+
+#all-substance .entry .entry-body h3{
+	padding:0 0 0 0.5em;
+}
+
+#all-substance .entry .entry-body p{
+	padding:0 0 1.5em 0.5em;
+}

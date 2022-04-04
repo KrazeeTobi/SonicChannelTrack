@@ -1,0 +1,31 @@
+/* all-footer     ===================================================== */
+
+#all-footer{
+	clear:both;
+	width:100%;
+	min-width:800px;
+	height:156px;
+	padding:35px 0 0;
+
+	overflow:hidden;
+	background:url(all-footer/all-footer_bg.jpg) repeat-x center top;
+}
+
+
+* html #all-footer{ /* IE6 min-width or max-width */
+	width:expression(document.body.clientWidth < 800? "800px":"auto");
+}
+
+
+#all-footer p{
+	margin:0 auto;
+	display:block;
+	width:800px;
+	padding:0 0 15px;
+	line-height:1.4em;
+}
+
+#all-footer p a{
+	line-height:1.4em;
+}
+
