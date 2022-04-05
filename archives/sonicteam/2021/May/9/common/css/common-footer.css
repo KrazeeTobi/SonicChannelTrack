@@ -1,0 +1,43 @@
+@charset "UTF-8";
+/* common-footer   ===================================================== */
+#common-footer{
+	width:100%;
+	min-width:800px;
+	margin:0 auto;
+	padding:30px 0 1em;
+	overflow:hidden;
+	text-align:center;
+	position:relative;
+	z-index:6;
+	background:url(common-footer/common-footer.gif) top left repeat-x #003cb4;
+}
+
+* html #common-footer{ /* IE6 min-width or max-width */
+	width:expression(document.body.clientWidth < 900? "900px":"auto");
+}
+
+
+/* p */
+#common-footer p{
+	padding:0 0 0.5em;
+	color:#FFF;
+	line-height:1.3;
+}
+
+
+/* a */
+#common-footer a{
+	color: #ffd505;
+}
+#common-footer a:visited {
+	font-weight: bold;
+	color: #ffd505;
+}
+#common-footer a:hover {
+	font-weight: bold;
+	color: #ffd505;
+}
+#common-footer a:active {
+	font-weight: bold;
+	color: #ffd505;
+}

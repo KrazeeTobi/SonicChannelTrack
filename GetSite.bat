@@ -12,6 +12,7 @@
 ::v1.1.2 - 2022-03-25: Told .wget-hsts to fuck off.
 ::v1.1.3 - 2022-03-26: Forgot the marioandsonicac folder! Added it.
 ::v1.2.0 - 2022-04-03: Delete more temp files.
+::v1.2.1 - 2022-04-05: Oops, forgot about sonicnews! Deleting 1-3...
 ::--------------------------------------------------------------change comments end
 git pull
 wget -r --no-parent http://sonic.sega.jp/
@@ -253,6 +254,11 @@ del senoue.8
 del senoue.9
 del senoue.10
 cd ..
+cd ..
+cd special
+del sonicnews.1
+del sonicnews.2
+del sonicnews.3
 cd ..
 cd topics
 del collaboration.1
