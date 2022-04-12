@@ -2,7 +2,7 @@
 ::Changelog - last updated 2022-01-31
 ::Alpha - 2022-01-07: Initial version. Can download files, commit, and push them.
 ::Beta - 2022-01-07: Replaced copy-pasted code. Commits now actually work (somewhat).
-::v1.0 - 2022-01-07: Version ready to download files.
+::v1.0.0 - 2022-01-07: Version ready to download files.
 ::v1.0.1 - 2022-01-09: Added deletion script. Not elegant, but it will do (it takes two hours to download anyway).
 ::v1.0.2 - 2022-01-09: Added blog.sonic-channel.jp.
 ::v1.0.3 - 2022-01-10: Removed unnecessary comments.
@@ -13,6 +13,7 @@
 ::v1.1.3 - 2022-03-26: Forgot the marioandsonicac folder! Added it.
 ::v1.2.0 - 2022-04-03: Delete more temp files.
 ::v1.2.1 - 2022-04-05: Oops, forgot about sonicnews! Deleting 1-3...
+::v1.2.2 - 2022-04-12: aaand the Sonic Channel staff created a new folder in special... ffs, removing temp files there now too
 ::--------------------------------------------------------------change comments end
 git pull
 wget -r --no-parent http://sonic.sega.jp/
@@ -259,6 +260,24 @@ cd special
 del sonicnews.1
 del sonicnews.2
 del sonicnews.3
+cd sns
+del akachochin.1
+del akachochin.2
+del akachochin.3
+del onsokugamers.1
+del onsokugamers.2
+del onsokugamers.3
+del sanpo.1
+del sanpo.2
+del sanpo.3
+del sonicnews.1
+del sonicnews.2
+del sonicnews.3
+del sonicstationlive.1
+del sonicstationlive.2
+del sonicstationlive.3
+del sonicstationlive.4
+cd ..
 cd ..
 cd topics
 del collaboration.1
