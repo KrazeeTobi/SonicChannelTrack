@@ -1,0 +1,1 @@
+GetSite.bat > E:\GitHub\SonicChannelTrack\"LOG-%date:~-4,4%-%date:~3,2%-%date:~-10,2%.log"

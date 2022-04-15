@@ -1,0 +1,279 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	padding-bottom: 10px;
+	_padding-top: 10px;
+	background-color: #ea5504;
+	font-size: 100%;
+	line-height: 150%;
+	text-align: center;
+}
+
+div {
+	height: auto;
+	overflow: hidden;
+}
+
+a {
+	text-decoration: none;
+	font-size: 90%;
+	color: #ea5504;
+}
+a:hover {
+	text-decoration: underline;
+}
+
+ul,
+li {
+	list-style-type: none;
+}
+
+li a.span {
+	display: none;
+}
+
+
+/*---------- layout config. ----------*/
+div#contents_area {
+	margin: 10px auto 0px auto;
+	padding-bottom: 50px;
+	width: 800px;
+	background-color: #ffffff;
+}
+
+/*----- with position -----*/
+body#page-index div#HomeTop_area
+/*body#page-about div#HomeTop_area,
+body#page-intro div#HomeTop_area*/ {
+	width: 800px;
+	height: 681px;
+	position: relative;
+}
+body#page-about div#HomeTop_area,
+body#page-intro div#HomeTop_area {
+	width: 800px;
+	height: 215px;
+	position: relative;
+}/***/
+
+div#HomeTop_area div.navi_area {
+	z-index: 2;
+	width: 800px;
+	height: 121px;
+	background: url(../img/back_header.gif) left top no-repeat;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+div#HomeTop_area img.DC_logo {
+	z-index: 4;
+	width: 157px;
+	height: 157px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+
+body#page-index div#top_contents,
+body#page-about div#top_contents,
+body#page-intro div#top_contents {
+	z-index: 3;
+	width: 800px;
+	height: auto;
+	overflow: hidden;
+	background: url(../img/back_body.gif) left top no-repeat;
+	position: absolute;
+	left: 0px;
+	top: 121px;
+}
+
+/*body#page-index div#top_contents div.banner_area {
+	margin: 0px 15px 0px 15px;
+	width: 770px;
+	height: 421px;
+	background: url(../img/top_bannerBack.png) left top no-repeat;
+}
+body#page-about div#top_contents div.banner_area,
+body#page-intro div#top_contents div.banner_area {
+	display: none;
+}*/
+body#page-index div#top_contents div.banner_area {
+	margin: 0px 15px 0px 15px;
+	width: 770px;
+	height: 421px;
+	background: url(../img/top_bannerBack.png) left top no-repeat;
+}
+body#page-about div#top_contents div.banner_area,
+body#page-intro div#top_contents div.banner_area {
+	display: none;
+}
+body#page-index div#top_contents div.banner_area div.banner {
+	float: left;
+	margin: 0px 0px 0px 15px;
+	width: 555px;
+	height: 421px;
+}
+/*-- thumb --*/
+.nav-thumb {
+	border: 1px solid black;
+	margin-right: 5px;
+}
+.movers-row {
+	margin: 79px 7px 0px 0px;
+	float: right;
+	width: 186px;
+	xheight: 240px;
+	height: 272px;
+}
+.movers-row ul li,
+.movers-row ul li a {
+	display: block;
+	width: 186px;
+	height: 68px;
+}
+.cross-link {
+	display: block;
+	width: 186px;
+	xmargin-top: -14px;
+	position: relative;
+	xpadding-top: 15px;
+	z-index: 9999;
+}
+.active-thumb {
+	xbackground: transparent url(images/icon-uparrowsmallwhite.png) top center no-repeat;
+}
+body#page-index div#top_contents div.banner_area div.banner a.bnr_JSR,
+body#page-index div#top_contents div.banner_area div.banner a.bnr_sonic2,
+body#page-index div#top_contents div.banner_area div.banner a.bnr_GB,
+body#page-index div#top_contents div.banner_area div.banner a.bnr_SC5-p2,
+body#page-index div#top_contents div.banner_area div.banner a.bnr_taxi,
+body#page-index div#top_contents div.banner_area div.banner a.bnr_sonic {
+	display: block;
+	margin-top: -5px;
+	width: 555px;
+	height: 421px;
+	background-color: #339;
+}
+body#page-index div#top_contents div.banner_area div.banner a.bnr_JSR {
+	background: url(../img/lBanner_JSR.jpg) left top no-repeat;
+}
+body#page-index div#top_contents div.banner_area div.banner a.bnr_sonic2 {
+	background: url(../img/lBanner_sonic2.jpg) left top no-repeat;
+}
+body#page-index div#top_contents div.banner_area div.banner a.bnr_GB {
+	background: url(../img/lBanner_GB.jpg) left top no-repeat;
+}
+body#page-index div#top_contents div.banner_area div.banner a.bnr_SC5-p2 {
+	background: url(../img/lBanner_SC5-p2.jpg) left top no-repeat;
+}
+body#page-index div#top_contents div.banner_area div.banner a.bnr_taxi {
+	background: url(../img/lBanner_taxi.jpg) left top no-repeat;
+}
+body#page-index div#top_contents div.banner_area div.banner a.bnr_sonic {
+	background: url(../img/lBanner_sonic.jpg) left top no-repeat;
+}
+
+
+body#page-about div#top_contents div.contents_title,
+body#page-intro div#top_contents div.contents_title {
+	margin-top: 30px;
+	width: 800px;
+}
+body#page-index div#top_contents div.contents_title {
+	display: none;
+}
+
+/*----- with position -----*/
+body#page-index div#main_box {
+	clear: both;
+	margin: -140px auto 0px auto;
+	xmargin: 0px auto 0px auto;
+	width: 800px;
+}
+body#page-about div#main_box,
+body#page-intro div#main_box {
+	clear: both;
+	xmargin: -467px auto 0px auto;
+	margin: 0px auto 0px auto;
+	x_margin-bottom: -170px;
+	width: 800px;
+}/***/
+
+
+/*---------- footer ----------*/
+div#footer_area {
+	margin: 0px auto 0px auto;
+	width: 800px;
+	background: url(../img/back_footer.gif) left bottom no-repeat;
+}
+div#footer_area div.logo_area1 {
+	clear: both;
+	padding: 15px 15px 10px 15px;
+}
+div#footer_area div.logo_area2 {
+	clear: both;
+	margin-top: 5px;
+	_margin-top: 15px;
+	padding: 10px 0px 0px 15px;
+	border-top: solid 1px #ea5504;
+}
+div#footer_area div.logo_area1 img.logo1,
+div#footer_area div.logo_area2 img.logo1 {
+	float: left;
+}
+div#footer_area div.logo_area1 img.logo2,
+div#footer_area div.logo_area2 img.logo2 {
+	float: left;
+	margin-left: 30px;
+}
+div#footer_area div.logo_area1 img.logo3,
+div#footer_area div.logo_area2 img.logo3 {
+	float: right;
+}
+
+
+/*---------- gototop ----------*/
+div#gototop {
+	margin: 40px 30px 0px 30px;
+	height: 25px;
+	text-align: right;
+	border-top: dotted 1px #ea5504;
+	border-bottom: dotted 1px #ea5504;
+}
+div#gototop div.btn_box {
+	margin: 0px 0px 0px auto;
+	width: 153px;
+}
+body#page-index div#gototop,
+body#page-about div#gototop {
+	display: none;
+}
+
+
+/*---------- link area bottom ----------*/
+div#link_bottom {
+	margin: 25px auto 0px auto;
+	text-align: center;
+	font-size: 80%;
+}
+body#page-index div#link_bottom,
+body#page-about div#link_bottom {
+	display: none;
+}
+
+
+/*---------- banner area ----------*/
+div#banner_area {
+	margin: 10px auto 0px auto;
+	width: 800px;
+	height: 77px;
+	text-align: left;
+}
+
+

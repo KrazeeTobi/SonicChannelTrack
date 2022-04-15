@@ -14,66 +14,96 @@
 ::v1.2.0 - 2022-04-03: Delete more temp files.
 ::v1.2.1 - 2022-04-05: Oops, forgot about sonicnews! Deleting 1-3...
 ::v1.2.2 - 2022-04-12: aaand the Sonic Channel staff created a new folder in special... ffs, removing temp files there now too
+::v1.2.3 - 2022-04-15: Massive ass update. Made sure that downloads continue if the SSL cert is invalid, added a shit ton of links to get, and track logging has been added.
 ::--------------------------------------------------------------change comments end
 git pull
-wget -r --no-parent http://sonic.sega.jp/
-wget -r --no-parent http://sonic.sega.jp/20th/
-wget -r --no-parent http://sonic.sega.jp/25th/
-wget -r --no-parent http://sonic.sega.jp/30th/
-wget -r --no-parent http://sonic.sega.jp/advance/
-wget -r --no-parent http://sonic.sega.jp/advance2/
-wget -r --no-parent http://sonic.sega.jp/advance3/
-wget -r --no-parent http://sonic.sega.jp/ankokunokishi/
-wget -r --no-parent http://sonic.sega.jp/batlte/
-wget -r --no-parent http://sonic.sega.jp/gems/
-wget -r --no-parent http://sonic.sega.jp/images/
-wget -r --no-parent http://sonic.sega.jp/megacolle/
-wget -r --no-parent http://sonic.sega.jp/megacolleplus/
-wget -r --no-parent http://sonic.sega.jp/NightOfTheWerehog/
-wget -r --no-parent http://sonic.sega.jp/pinball/
-wget -r --no-parent http://sonic.sega.jp/riders/
-wget -r --no-parent http://sonic.sega.jp/rush/
-wget -r --no-parent http://sonic.sega.jp/rushadventure/
-wget -r --no-parent http://sonic.sega.jp/secretrings/
-wget -r --no-parent http://sonic.sega.jp/shadow/
-wget -r --no-parent http://sonic.sega.jp/sonic/
-wget -r --no-parent http://sonic.sega.jp/sonic_heroes/
-wget -r --no-parent http://sonic.sega.jp/sonic3d/
-wget -r --no-parent http://sonic.sega.jp/sonicadv/
-wget -r --no-parent http://sonic.sega.jp/sonicadv_int/
-wget -r --no-parent http://sonic.sega.jp/sonicadv2/
-wget -r --no-parent http://sonic.sega.jp/SonicAllStarRacing/
-wget -r --no-parent http://sonic.sega.jp/SonicChannel/
-wget -r --no-parent http://sonic.sega.jp/SonicChannelOld/
-wget -r --no-parent http://sonic.sega.jp/SonicChronicles/
-wget -r --no-parent http://sonic.sega.jp/SonicColors/
-wget -r --no-parent http://sonic.sega.jp/SonicForces/
-wget -r --no-parent http://sonic.sega.jp/SonicFreeRiders/
-wget -r --no-parent http://sonic.sega.jp/SonicFrontiers/
-wget -r --no-parent http://sonic.sega.jp/SonicGenerations/
-wget -r --no-parent http://sonic.sega.jp/sonicjam/
-wget -r --no-parent http://sonic.sega.jp/SonicLostWorld/
-wget -r --no-parent http://sonic.sega.jp/SonicMania/
-wget -r --no-parent http://sonic.sega.jp/sonicr/
-wget -r --no-parent http://sonic.sega.jp/SonicTheHedgehog4/
-wget -r --no-parent http://sonic.sega.jp/SonicToon/
-wget -r --no-parent http://sonic.sega.jp/SonicWorldAdventure/
-wget -r --no-parent http://sonic.sega.jp/TeamSonicRacing/
-wget -r --no-parent http://sonic.sega.jp/wpack/
-wget -r --no-parent http://blog.sonic-channel.jp/
-wget -r --no-parent http://sonicteam.com/
-wget -r --no-parent http://www.olympicvideogames.com/marioandsonic/
-wget -r --no-parent http://www.nintendo.co.jp/mario_and_sonic2010/
-wget -r --no-parent http://www.nintendo.co.jp/ds/ay9j/
-wget -r --no-parent http://www.nintendo.co.jp/wii/siij/
-wget -r --no-parent http://www.nintendo.co.jp/wii/rwsj/
-wget -r --no-parent http://www.olympicvideogames.com/sonic/
-wget -r --no-parent http://sonicrunners.sega-net.com/
-wget -r --no-parent http://www.nintendo.co.jp/3ds/bgxj/
-wget -r --no-parent http://www.nintendo.co.jp/3ds/acmj/
-wget -r --no-parent http://www.nintendo.co.jp/wiiu/abjj/
-wget -r --no-parent http://www.nintendo.co.jp/wiiu/aurj/
-wget -r --no-parent http://www.olympicvideogames.com/marioandsonicac/
+wget -r --no-parent --no-check-cerificate http://sonic.sega.jp/
+wget -r --no-parent --no-check-cerificate http://sonic.sega.jp/20th/
+wget -r --no-parent --no-check-cerificate http://sonic.sega.jp/25th/
+wget -r --no-parent --no-check-cerificate http://sonic.sega.jp/30th/
+wget -r --no-parent --no-check-cerificate http://sonic.sega.jp/advance/
+wget -r --no-parent --no-check-cerificate http://sonic.sega.jp/advance2/
+wget -r --no-parent --no-check-cerificate http://sonic.sega.jp/advance3/
+wget -r --no-parent --no-check-cerificate http://sonic.sega.jp/ankokunokishi/
+wget -r --no-parent --no-check-cerificate http://sonic.sega.jp/batlte/
+wget -r --no-parent --no-check-cerificate http://sonic.sega.jp/gems/
+wget -r --no-parent --no-check-cerificate http://sonic.sega.jp/images/
+wget -r --no-parent --no-check-cerificate http://sonic.sega.jp/megacolle/
+wget -r --no-parent --no-check-cerificate http://sonic.sega.jp/megacolleplus/
+wget -r --no-parent --no-check-cerificate http://sonic.sega.jp/NightOfTheWerehog/
+wget -r --no-parent --no-check-cerificate http://sonic.sega.jp/pinball/
+wget -r --no-parent --no-check-cerificate http://sonic.sega.jp/riders/
+wget -r --no-parent --no-check-cerificate http://sonic.sega.jp/rush/
+wget -r --no-parent --no-check-cerificate http://sonic.sega.jp/rushadventure/
+wget -r --no-parent --no-check-cerificate http://sonic.sega.jp/secretrings/
+wget -r --no-parent --no-check-cerificate http://sonic.sega.jp/shadow/
+wget -r --no-parent --no-check-cerificate http://sonic.sega.jp/sonic/
+wget -r --no-parent --no-check-cerificate http://sonic.sega.jp/sonic_heroes/
+wget -r --no-parent --no-check-cerificate http://sonic.sega.jp/sonic3d/
+wget -r --no-parent --no-check-cerificate http://sonic.sega.jp/sonicadv/
+wget -r --no-parent --no-check-cerificate http://sonic.sega.jp/sonicadv_int/
+wget -r --no-parent --no-check-cerificate http://sonic.sega.jp/sonicadv2/
+wget -r --no-parent --no-check-cerificate http://sonic.sega.jp/SonicAllStarRacing/
+wget -r --no-parent --no-check-cerificate http://sonic.sega.jp/SonicChannel/
+wget -r --no-parent --no-check-cerificate http://sonic.sega.jp/SonicChannelOld/
+wget -r --no-parent --no-check-cerificate http://sonic.sega.jp/SonicChronicles/
+wget -r --no-parent --no-check-cerificate http://sonic.sega.jp/SonicColors/
+wget -r --no-parent --no-check-cerificate http://sonic.sega.jp/SonicForces/
+wget -r --no-parent --no-check-cerificate http://sonic.sega.jp/SonicFreeRiders/
+wget -r --no-parent --no-check-cerificate http://sonic.sega.jp/SonicFrontiers/
+wget -r --no-parent --no-check-cerificate http://sonic.sega.jp/SonicGenerations/
+wget -r --no-parent --no-check-cerificate http://sonic.sega.jp/sonicjam/
+wget -r --no-parent --no-check-cerificate http://sonic.sega.jp/SonicLostWorld/
+wget -r --no-parent --no-check-cerificate http://sonic.sega.jp/SonicMania/
+wget -r --no-parent --no-check-cerificate http://sonic.sega.jp/sonicr/
+wget -r --no-parent --no-check-cerificate http://sonic.sega.jp/SonicTheHedgehog4/
+wget -r --no-parent --no-check-cerificate http://sonic.sega.jp/SonicToon/
+wget -r --no-parent --no-check-cerificate http://sonic.sega.jp/SonicWorldAdventure/
+wget -r --no-parent --no-check-cerificate http://sonic.sega.jp/TeamSonicRacing/
+wget -r --no-parent --no-check-cerificate http://sonic.sega.jp/wpack/
+wget -r --no-parent --no-check-cerificate http://blog.sonic-channel.jp/
+wget -r --no-parent --no-check-cerificate http://sonicteam.com/
+wget -r --no-parent --no-check-cerificate http://www.olympicvideogames.com/marioandsonic/
+wget -r --no-parent --no-check-cerificate http://www.nintendo.co.jp/mario_and_sonic2010/
+wget -r --no-parent --no-check-cerificate http://www.nintendo.co.jp/ds/ay9j/
+wget -r --no-parent --no-check-cerificate http://www.nintendo.co.jp/wii/siij/
+wget -r --no-parent --no-check-cerificate http://www.nintendo.co.jp/wii/rwsj/
+wget -r --no-parent --no-check-cerificate http://www.olympicvideogames.com/sonic/
+wget -r --no-parent --no-check-cerificate http://sonicrunners.sega-net.com/
+wget -r --no-parent --no-check-cerificate http://www.nintendo.co.jp/3ds/bgxj/
+wget -r --no-parent --no-check-cerificate http://www.nintendo.co.jp/3ds/acmj/
+wget -r --no-parent --no-check-cerificate http://www.nintendo.co.jp/wiiu/abjj/
+wget -r --no-parent --no-check-cerificate http://www.nintendo.co.jp/wiiu/aurj/
+wget -r --no-parent --no-check-cerificate http://www.olympicvideogames.com/marioandsonicac/
+wget -r --no-parent --no-check-cerificate http://sonic-movie.jp/
+wget -r --no-parent --no-check-cerificate http://paramount.jp/sonic-movie/
+http://sega-gamehompo.jp/game/MD_SONIE/index.html
+http://vc.sega.jp/vc_ms_sonic/
+http://vc.sega.jp/3ds/sonic1/
+http://www.nintendo.co.jp/wii/vc/software/
+http://vc.sega.jp/vc_sonic2ms/
+http://sega.jp/history/arcade/product/8256/
+http://vc.sega.jp/vc_chaos/
+http://sega.jp/dc/001219/
+http://sega.jp/gba/wpksacr/
+http://sega.jp/gba/wpksbsa/
+http://sega.jp/gba/wpkspsb/
+http://dc.sega.jp/
+http://www.jp.playstation.com/software/title/jp0177npjd00060_000000000000000000.html
+http://www.amazon.co.jp/gp/product/B00DIJQAI6/
+http://itunes.apple.com/jp/app/sonic-jump/id567533074
+http://www.amazon.co.jp/gp/product/B00BFBSV72/
+http://itunes.apple.com/jp/app/id481543093
+http://www.amazon.co.jp/gp/product/B008K9UZY4/
+http://itunes.apple.com/jp/app/id370162548
+http://itunes.apple.com/jp/app/id316050001
+http://itunes.apple.com/jp/app/sonikku-za-hejjihoggu4-episodoii/id518641272
+http://www.amazon.co.jp/gp/product/B0096DZKZC/
+http://itunes.apple.com/jp/app/id393995839
+http://www.amazon.co.jp/gp/product/B008K8U13K/
+http://sega.jp/pc/sonicr/
+http://sega.jp/pc/sonicknu/
+http://sega.jp/pc/soniccd/
 cd sonic.sega.jp
 cd SonicChannel
 del character.1
@@ -351,6 +381,9 @@ del nl.1
 del ru.1
 del zh.1
 cd ..
+cd ..
+cd sonic-movie.jp
+del news.1
 cd ..
 del .wget-hsts
 git add *.*

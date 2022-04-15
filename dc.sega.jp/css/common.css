@@ -1,0 +1,371 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*---------- common config. ----------*/
+/*----- margin -----*/
+/*-- top --*/
+.top_mar138u {
+	margin-top: -138px!important;
+}
+.top_mar03 {
+	margin-top: 3px!important;
+}
+.top_mar05 {
+	margin-top: 5px!important;
+}
+.top_mar10 {
+	margin-top: 10px!important;
+}
+.top_mar15 {
+	margin-top: 15px!important;
+}
+.top_mar20 {
+	margin-top: 20px!important;
+}
+.top_mar25 {
+	margin-top: 25px!important;
+}
+.top_mar30 {
+	margin-top: 30px!important;
+}
+.top_mar35 {
+	margin-top: 35px!important;
+}
+/*-- right --*/
+.right_mar02 {
+	margin-right: 2px!important;
+}
+.right_mar12 {
+	margin-right: 12px!important;
+}
+.right_mar15 {
+	margin-right: 15px!important;
+}
+.right_mar40 {
+	margin-right: 40px!important;
+}
+.right_mar55 {
+	margin-right: 55px!important;
+}
+/*-- bottom --*/
+.bottom_mar05 {
+	margin-bottom: 5px!important;
+}
+/*-- left --*/
+.left_mar10 {
+	margin-left: 10px!important;
+}
+.left_mar15 {
+	margin-left: 15px!important;
+}
+.left_mar25 {
+	margin-left: 25px!important;
+}
+.left_mar40 {
+	margin-left: 40px!important;
+}
+.left_mar55 {
+	margin-left: 55px!important;
+}
+
+/*----- justify -----*/
+.just_left {
+	text-align: left;
+}
+.just_right {
+	text-align: right;
+}
+
+/*----- float -----*/
+.float_left {
+	float: left!important;
+}
+.float_right {
+	float: right!important;
+}
+
+/*----- itemzation -----*/
+ul li.itemize01 {
+	list-style-type: none;
+	text-indent: -1em;
+	padding-left: 1em;
+	line-height: 100%;
+}
+
+/*----- font -----*/
+/*size*/
+.font12 {
+	font-size: 12px;
+}
+
+
+
+/*---------- index page ----------*/
+div#main_box div.frame_box01 {
+	margin: 0px auto 0px auto;
+	padding-bottom: 20px;
+	width: 770px;
+	background: url(../img/top_introBack.gif) left bottom no-repeat;
+	position: relative;
+}
+div#main_box div.frame_box01 img.intro_title {
+	z-index: 1;
+	width: 770px;
+	height: 58px;
+	position: inherit;
+}
+div#main_box div.frame_box01 img.intro_img {
+	z-index: 2;
+	width: 173px;
+	height: 211px;
+	position: absolute;
+	right: 30px;
+	top: 5px;
+}
+div#main_box div.frame_box01 img.intro_text {
+	z-index: 1;
+	width: 739px;
+	height: 136px;
+	position: inherit;
+}
+
+
+/*---------- about page ----------*/
+div#main_box div.about_area {
+	padding: 0px 330px 30px 55px;
+	width: 415px;
+	background: url(../img/about_back.gif) left top no-repeat;
+	text-align: left;
+}
+
+
+/*---------- game page ----------*/
+div#main_box div.game_lineup {
+	margin: 0px 55px 0px 55px;
+	padding-bottom: 5px;
+	_padding-bottom: 10px;
+	_height: 1%;
+	background: url(../img/game_lineupBack.jpg) left bottom no-repeat;
+}
+body#page-index div#main_box div.game_lineup,
+body#page-about div#main_box div.game_lineup {
+	display: none;
+}
+
+div#main_box table {
+	margin: 0px 10px 0px 10px;
+	_margin: 0px 0px 0px 5px;
+}
+div#main_box tr.product {
+	background: url(../img/dott_line.gif) left bottom no-repeat;
+}
+div#main_box tr.product td {
+	vertical-align: top;
+	padding: 5px 0px 5px 0px;
+}
+/*----- wraparoun -----*/
+.wraparound {
+	margin: 15px 55px 0px 55px;
+	clear: both;
+	_height: 1%;
+	text-align: left;
+}
+.wraparound .wrap_left {
+	float: left;
+	margin: 0px 15px 0px 0px;
+}
+.wraparound .wrap_right1,
+.wraparound .wrap_right2 {
+	float: right;
+	margin: 0px 0px 0px 15px;
+	width: 375px;
+}
+.wraparound .wrap_right1 {
+	height: 304px;
+}
+.wraparound .wrap_right2 {
+	height: 233px;
+}
+/*----- for teaser -----*/
+div.teaser_area1,
+div.teaser_area2 {
+	margin: 1px 40px 0px 40px;
+	padding-left: 215px;
+	width: 505px;
+	font-size: 95%;
+	line-height: 120%;
+	text-align: left;
+}
+div.teaser_area1 {
+	padding-bottom: 20px;
+	background: url(../img/game_backC.gif) left top no-repeat;
+}
+div.teaser_area2 {
+	padding-bottom: 20px;
+	background: url(../img/game_backD.jpg) left top no-repeat;
+}
+div.img_area1 {
+	margin: 0px 40px 0px 40px;
+	padding-bottom: 20px;
+	border-bottom: dotted 1px #ea5504;
+}
+div.img_area2 {
+	margin: 0px 40px 0px 40px;
+}
+
+div.banner_area {
+	clear: both;
+	padding-top: 5px;
+	text-align: right;
+}
+
+div.banner_box {
+	float: right;
+	margin-top: 10px;
+	padding-top: 138px;
+	width: 355px;
+	height: 62px;
+	text-align: right;
+	xbackground-color: #390;
+}
+
+
+/*---------- other config. ----------*/
+div.Tshirt01 {
+	margin: 20px auto 0px auto;
+	padding: 39px 0px 0px 338px;
+	width: 382px;
+	height: 51px;
+	background: url(../img/other/back_Tshirt01.jpg) left top no-repeat;
+}
+li.Tshirt01,
+li.Tshirt01 a {
+	display: block;
+	width: 220px;
+	height: 45px;
+	background: url(../img/other/btn_Tshirt01.jpg) 0px 0px no-repeat;
+	text-indent: -9999px;
+}
+li.Tshirt01 a:hover {
+	background-position: 0px -45px;
+}
+div.sound {
+	margin: 20px auto 0px auto;
+	width: 720px;
+	height: 190px;
+	background: url(../img/other/back_sound.jpg) left top no-repeat;
+}
+div.sound p.title {
+	margin: 15px auto 15px auto;
+	width: 687px;
+	height: 24px;
+	background: url(../img/other/sound_title.gif) left top no-repeat;
+	text-indent: -9999px;
+}
+div.sound div.tracks {
+	float: left;
+	margin-left: 15px;
+	padding: 1px 0px 0px 0px;
+	width: 220px;
+	height: 103px;
+	position: relative;
+}
+div.sound div.tracks .text1 {
+	width: 92px;
+	height: 47px;
+	background: url(../img/other/sound_text1.gif) left top no-repeat;
+	position: absolute;
+	left: 110px;
+	top: 0px;
+	text-indent: -9999px;
+}
+div.sound div.tracks .text2 {
+	width: 104px;
+	height: 49px;
+	background: url(../img/other/sound_text2.gif) left top no-repeat;
+	position: absolute;
+	left: 110px;
+	top: 0px;
+	text-indent: -9999px;
+}
+div.sound div.tracks .text3 {
+	width: 82px;
+	height: 47px;
+	background: url(../img/other/sound_text3.gif) left top no-repeat;
+	position: absolute;
+	left: 110px;
+	top: 0px;
+	text-indent: -9999px;
+}
+div.sound div.tracks .btn {
+	width: 110px;
+	position: absolute;
+	left: 110px;
+	bottom: 3px;
+}
+div.sound div.tracks div.btn li.iTunes,
+div.sound div.tracks div.btn li.iTunes a,
+div.sound div.tracks div.btn li.amazon,
+div.sound div.tracks div.btn li.amazon a {
+	display: block;
+	width: 110px;
+	height: 20px;
+	text-indent: -9999px;
+}
+/*div.sound div.tracks div.btn li.amazon {
+	display: none;
+}*/
+div.sound div.tracks div.btn li.iTunes,
+div.sound div.tracks div.btn li.iTunes a {
+	background: url(../img/other/btn_iTume.gif) 0px 0px no-repeat;
+}
+div.sound div.tracks div.btn li.amazon,
+div.sound div.tracks div.btn li.amazon a {
+	background: url(../img/other/btn_amazon.gif) 0px 0px no-repeat;
+}
+div.sound div.tracks div.btn li.iTunes a:hover,
+div.sound div.tracks div.btn li.amazon a:hover {
+	background-position: 0px -20px;
+}
+
+div.nights {
+	margin: 20px auto 0px auto;
+	width: 720px;
+	height: 100px;
+	background: url(../img/other/back_nights.jpg) left top no-repeat;
+}
+li.nights,
+li.nights a {
+	display: block;
+	float: left;
+	width: 300px;
+	height: 50px;
+	background: url(../img/other/btn_nights.jpg) 0px 0px no-repeat;
+	text-indent: -9999px;
+}
+li.nights a:hover {
+	background-position: 0px -50px;
+}
+li.nights {
+	margin: 44px 0px 0px 138px;
+}
+li.intro,
+li.intro a {
+	display: block;
+	float: left;
+	width: 245px;
+	height: 58px;
+	background: url(../img/other/btn_sonic-nights.jpg) 0px 0px no-repeat;
+	text-indent: -9999px;
+}
+li.intro a:hover {
+	background-position: 0px -58px;
+}
+li.intro {
+	margin: 6px 0px 0px 26px;
+}
+
+
+
+
