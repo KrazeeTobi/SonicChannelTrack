@@ -77,33 +77,6 @@ wget -r --no-parent --no-check-cerificate http://www.nintendo.co.jp/wiiu/aurj/
 wget -r --no-parent --no-check-cerificate http://www.olympicvideogames.com/marioandsonicac/
 wget -r --no-parent --no-check-cerificate http://sonic-movie.jp/
 wget -r --no-parent --no-check-cerificate http://paramount.jp/sonic-movie/
-http://sega-gamehompo.jp/game/MD_SONIE/index.html
-http://vc.sega.jp/vc_ms_sonic/
-http://vc.sega.jp/3ds/sonic1/
-http://www.nintendo.co.jp/wii/vc/software/
-http://vc.sega.jp/vc_sonic2ms/
-http://sega.jp/history/arcade/product/8256/
-http://vc.sega.jp/vc_chaos/
-http://sega.jp/dc/001219/
-http://sega.jp/gba/wpksacr/
-http://sega.jp/gba/wpksbsa/
-http://sega.jp/gba/wpkspsb/
-http://dc.sega.jp/
-http://www.jp.playstation.com/software/title/jp0177npjd00060_000000000000000000.html
-http://www.amazon.co.jp/gp/product/B00DIJQAI6/
-http://itunes.apple.com/jp/app/sonic-jump/id567533074
-http://www.amazon.co.jp/gp/product/B00BFBSV72/
-http://itunes.apple.com/jp/app/id481543093
-http://www.amazon.co.jp/gp/product/B008K9UZY4/
-http://itunes.apple.com/jp/app/id370162548
-http://itunes.apple.com/jp/app/id316050001
-http://itunes.apple.com/jp/app/sonikku-za-hejjihoggu4-episodoii/id518641272
-http://www.amazon.co.jp/gp/product/B0096DZKZC/
-http://itunes.apple.com/jp/app/id393995839
-http://www.amazon.co.jp/gp/product/B008K8U13K/
-http://sega.jp/pc/sonicr/
-http://sega.jp/pc/sonicknu/
-http://sega.jp/pc/soniccd/
 cd sonic.sega.jp
 cd SonicChannel
 del character.1
