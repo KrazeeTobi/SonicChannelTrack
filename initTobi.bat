@@ -1,1 +1,1 @@
-GetSite-FUCK.bat > "KrazeeTobi-%date:~-4,4%-%date:~3,2%-%date:~-10,2%.log"
+GetSite-FUCK.bat > log/"KrazeeTobi-%date:~-4,4%-%date:~3,2%-%date:~-10,2%.log"
