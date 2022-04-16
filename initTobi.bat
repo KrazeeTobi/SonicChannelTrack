@@ -1,1 +1,1 @@
-GetSite.bat > E:\GitHub\SonicChannelTrack\"KrazeeTobi-%date:~-4,4%-%date:~3,2%-%date:~-10,2%.log"
+GetSite-FUCK.bat > "KrazeeTobi-%date:~-4,4%-%date:~3,2%-%date:~-10,2%.log"
