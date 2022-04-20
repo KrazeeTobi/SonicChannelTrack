@@ -16,6 +16,7 @@
 ::v1.2.2 - 2022-04-12: aaand the Sonic Channel staff created a new folder in special... ffs, removing temp files there now too
 ::v1.2.3 - 2022-04-15: Massive ass update. Made sure that downloads continue if the SSL cert is invalid, added a shit ton of links to get, and track logging has been added.
 ::v1.2.4 - 2022-04-16: FUCK! Broke a parameter with previous version. It's fixed now.
+::v1.2.5 - 2022-04-20: SONIC ORIGINS LIVE BABAAYYYYYY
 ::--------------------------------------------------------------change comments end
 git pull
 wget -r --no-parent --no-check-certificate http://sonic.sega.jp/
@@ -62,6 +63,7 @@ wget -r --no-parent --no-check-certificate http://sonic.sega.jp/SonicToon/
 wget -r --no-parent --no-check-certificate http://sonic.sega.jp/SonicWorldAdventure/
 wget -r --no-parent --no-check-certificate http://sonic.sega.jp/TeamSonicRacing/
 wget -r --no-parent --no-check-certificate http://sonic.sega.jp/wpack/
+wget -r --no-parent --no-check-certificate http://sonic.sega.jp/SonicOrigins/
 wget -r --no-parent --no-check-certificate http://blog.sonic-channel.jp/
 wget -r --no-parent --no-check-certificate http://sonicteam.com/
 wget -r --no-parent --no-check-certificate http://www.olympicvideogames.com/marioandsonic/

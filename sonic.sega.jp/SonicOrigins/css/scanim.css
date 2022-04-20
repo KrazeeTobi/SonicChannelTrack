@@ -1,0 +1,79 @@
+.scAnim {
+  opacity: 0;
+}
+.aDel00 {
+  animation-delay: 0.4s !important;
+}
+.aDel01 {
+  animation-delay: 0.8s !important;
+}
+.aDel02 {
+  animation-delay: 1s !important;
+}
+.aDel03 {
+  animation-delay: 1.5s !important;
+}
+.aDel04 {
+  animation-delay: 2s !important;
+}
+.aDel05 {
+  animation-delay: 2.5s !important;
+}
+.aDel06 {
+  animation-delay: 3s !important;
+}
+
+
+.baseimg.scAnim.fadeIn {
+  animation-duration: 2.5s;
+}
+.fadeinup.scAnim {
+  animation-duration: 1.5s;
+}
+.spec.scAnim {
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes kvbounceIn {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+  }
+50% {
+  -webkit-transform: scale3d(1.5, 1.5, 1.5);
+  -webkit-transform: scale3d(1.5, 1.5, 1.5);
+}
+  to {
+    opacity: 1;
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+@keyframes kvbounceIn {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+  }
+  50% {
+    -webkit-transform: scale3d(1.5, 1.5, 1.5);
+    -webkit-transform: scale3d(1.5, 1.5, 1.5);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+.kvbounceIn {
+  -webkit-animation-name: kvbounceIn;
+  animation-name: kvbounceIn;
+}
+
+.sonicimg scAnim kvbounceIn {
+  animation-duration: 1s;
+}
+
