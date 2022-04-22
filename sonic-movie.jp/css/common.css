@@ -338,6 +338,15 @@ movie
 	box-sizing: border-box;
 }
 
+.mvtk-widgets {
+	display:-ms-flexbox;
+	display:flex;
+	-ms-flex-pack:center;
+	justify-content:center;
+	text-align:center;
+	padding:10px 0;
+}
+
 .active{
 	background-color:#e71a1e;
 }
@@ -354,14 +363,52 @@ movie
 	color:#e71a1e;
 }
 
-#news{
-	width:272px;
-	height:74px;
-	margin:0 auto;
+#news ul{
+	width:480px;
+	height:50px;
+	margin:10px auto 0;
+	position:relative;
+  justify-content: space-between;
+  align-items: center;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+
+#news ul li{
+	width:234px;
+	height:50px;
 	position:relative;
 }
 
 #news a{
+	width:234px;
+	height:50px;
+	display:block;
+	position:relative;
+}
+
+#news a img{
+	width:120px;
+	padding-left:55px;
+	z-index: 10;
+	position:relative;
+}
+
+#news a::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color:#0101e5;
+	transform: skewX(-18deg);
+}
+
+#news a{
+	opacity:1.0;
 	transition: 0.4s ;
 }
 
@@ -531,15 +578,13 @@ scroll
 #footer{
 	width:100%;
 	min-width:1200px;
-	height:210px;
+	height:260px;
 	background-color:#fff;
 }
 
 /*--------------------------------------
 bnr
 ----------------------------------------*/
-
-
 .navi_block{
 	position:relative;
   width: 272px;
@@ -616,6 +661,15 @@ bnr
   opacity: 0.7;
 }
 
+#bnr p{
+	width:150px;
+	margin:10px auto 0;
+}
+
+#bnr p a{
+	width:150px;
+	height:40px;
+}
 
 #copyright{
 	width:130px;
@@ -949,7 +1003,8 @@ animation
   }
 }
 
-#bnr ul li {
+#bnr ul li,
+#bnr p {
   opacity: 0;
 }
 
@@ -973,6 +1028,19 @@ animation
           animation-duration: 0.4s;
   -webkit-animation-delay: 1.2s;
           animation-delay: 1.2s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+
+#bnr.is-loaded p{
+  -webkit-animation-name: fadeInUp;
+          animation-name: fadeInUp;
+  -webkit-animation-duration: 0.4s;
+          animation-duration: 0.4s;
+  -webkit-animation-delay: 1.4s;
+          animation-delay: 1.4s;
   -webkit-animation-iteration-count: 1;
           animation-iteration-count: 1;
   -webkit-animation-fill-mode: both;
