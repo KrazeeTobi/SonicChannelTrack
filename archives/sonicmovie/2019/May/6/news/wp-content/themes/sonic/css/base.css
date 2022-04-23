@@ -1,0 +1,657 @@
+@charset "UTF-8";
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: bottom;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+  font-family: 'メイリオ', 'Meiryo', 'Noto Sans JP','ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', 'ヒラギノ角ゴシック', 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+img {
+  vertical-align: bottom;
+  border: none;
+}
+
+aside {
+  display: block;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+
+/* --------------------------------------------------
+Base
+-------------------------------------------------- */
+html,body {
+  height: 100%;
+}
+
+body {
+  background: #fff;
+  color: #666;
+  line-height: 1.6;
+  font-size: 14px;
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+a {
+  -webkit-transition: opacity .3s;
+  -o-transition: opacity .3s;
+  transition: opacity .3s;
+  color: #666;
+}
+
+a:link {
+  text-decoration: underline;
+}
+a:visited {
+  text-decoration: underline;
+}
+a:hover {
+  text-decoration: none;
+  opacity: 0.5;
+}
+a:active {
+  text-decoration: underline;
+}
+
+/* 旧CSSの名残 */
+.img {
+  display: block;
+  margin-top: 20px !important;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/* --------------------------------------------------
+only
+-------------------------------------------------- */
+.is-onlyPC {
+  display: block;
+}
+@media screen and (max-width: 767px) {
+  .is-onlyPC {
+    display: none;
+  }
+}
+
+.is-onlySP {
+  display: none;
+}
+@media screen and (max-width: 767px) {
+  .is-onlySP {
+    display: block;
+  }
+}
+
+
+/* --------------------------------------------------
+layout
+-------------------------------------------------- */
+#container {
+  position: relative;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+#content {
+  margin-top: 60px;
+  padding: 0 3%;
+  position: relative;
+  min-height: 500px;
+}
+@media screen and (max-width: 767px) {
+  #content {
+    margin-top: 0;
+    padding: 0 20px;
+  }
+}
+
+
+/* --------------------------------------------------
+header
+-------------------------------------------------- */
+.header {
+  background: #000;
+}
+.header a {
+  display: block;
+  width: 100%;
+  height: 350px;
+  text-indent: -9999px;
+  font-size: 0;
+  background: url('../img/header02.jpg') center top no-repeat;
+  background-size: auto 100%;
+
+  -webkit-transition: opacity .3s;
+  -o-transition: opacity .3s;
+  transition: opacity .3s;
+}
+.header a:hover {
+  opacity: 0.7;
+}
+@media screen and (max-width: 767px) {
+  .header a {
+    height: 150px;
+  }
+}
+
+
+/* --------------------------------------------------
+menu
+-------------------------------------------------- */
+.sidebar {
+  width: 240px;
+  float: left;
+  font-size: 12px;
+}
+@media screen and (max-width: 1000px) {
+  .sidebar {
+    width: 25%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .sidebar {
+    width: 100%;
+    float: initial;
+    position: static !important;
+    font-size: 11px;
+  }
+}
+
+.sidebar__box {
+  padding-bottom: 40px;
+}
+@media screen and (max-width: 767px) {
+  .sidebar__box {
+    padding-bottom: 0;
+  }
+  .sidebar__box:not(.sidebar__box--category) {
+    display: none;
+  }
+}
+
+.sidebar__hdg {
+  font-size: 12px;
+  font-weight: bold;
+  color: #000;
+  line-height: 1.2;
+  margin-bottom: 16px;
+}
+@media screen and (max-width: 767px) {
+  .sidebar__hdg {
+    display: none;
+  }
+}
+
+.sidebar__list {
+  overflow: hidden;
+}
+@media screen and (max-width: 767px) {
+  .sidebar__list {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    margin: 0 -20px;
+    border-bottom: 1px solid #dcdcdc;
+  }
+}
+
+.sidebar__list li {
+  padding-bottom: 5px;
+  line-height: 1.2;
+  min-height: 1px;
+  text-align: left;
+  margin-bottom: 7px;
+}
+.sidebar__list li.cat-item-0 {
+  display: none;
+}
+@media screen and (max-width: 767px) {
+  .sidebar__list li {
+    width: 33.3%;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    text-align: center;
+    border-bottom: solid 2px transparent;
+  }
+  .sidebar__list li.cat-item-0 {
+    display: block;
+  }
+}
+
+.sidebar__list li a {
+  text-decoration: none;
+  display: inline-block;
+}
+@media screen and (max-width: 767px) {
+  .sidebar__list li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 20px 5px 18px;
+  }
+}
+
+/* is-active */
+@media screen and (max-width: 767px) {
+  .sidebar__list li.is-active {
+    border-color: #000;
+  }
+  .sidebar__list li.is-active a {
+    color: #000;
+    font-weight: bold;
+  }
+}
+
+
+/* --------------------------------------------------
+main
+-------------------------------------------------- */
+#main {
+  width: 68.75%;
+  margin-left: 31.25%;
+  overflow: hidden;
+}
+@media screen and (max-width: 767px) {
+  #main {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+
+/* --------------------------------------------------
+article
+-------------------------------------------------- */
+.article:nth-of-type(n+2) {
+  padding-top: 80px;
+  margin-top: 80px;
+  border-top: solid 1px #dcdcdc;
+}
+@media screen and (max-width: 767px) {
+  .article {
+    padding-top: 30px;
+  }
+  .article:nth-of-type(n+2) {
+    padding-top: 30px;
+    margin-top: 30px;
+  }
+}
+
+.article__header {
+  margin-bottom: 30px;
+}
+@media screen and (max-width: 767px) {
+  .article__header {
+    margin-bottom: 10px;
+  }
+}
+
+.article__ttl {
+  margin-bottom: 16px;
+  letter-spacing: -0.01em;
+  font-size: 26px;
+  font-weight: bold;
+  line-height: 1.4;
+}
+@media screen and (max-width: 767px) {
+  .article__ttl {
+    margin-bottom: 5px;
+    font-size: 18px;
+  }
+}
+.article__ttl a {
+  color: #000;
+  text-decoration: none;
+  -webkit-transition: opacity .5s;
+  -o-transition: opacity .5s;
+  transition: opacity .5s;
+}
+.article__ttl a:hover {
+  opacity: 0.5;
+}
+
+.article__date {
+  display: inline-block;
+  color: #afafaf;
+  font-size: 11px;
+}
+@media screen and (max-width: 767px) {
+  .article__date {
+    font-size: 10px;
+  }
+}
+
+.article__body {
+  color: #666;
+  font-size: 14px;
+  line-height: 1.6;
+  word-wrap: break-word;
+}
+.article__body a {
+  transition: none;
+  opacity: 1;
+}
+
+.article__footer {
+  text-align: right;
+  margin-top: 30px;
+}
+
+.article__sns {
+  display: inline-block;
+  font-size: 0;
+}
+.article__sns li {
+  display: inline-block;
+  vertical-align: middle;
+}
+.article__sns__fb>iframe {
+  width: 100px !important;
+}
+
+
+
+/* --------------------------------------------------
+newsText
+-------------------------------------------------- */
+.newsText p {
+  margin: 1.5em 0;
+  text-align: justify;
+  word-break: break-all;
+}
+.newsText h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+}
+.newsText h1 {
+  font-size: 2em;
+}
+.newsText h2 {
+  font-size: 1.8em;
+}
+.newsText h3 {
+  font-size: 1.6em;
+}
+.newsText h4 {
+  font-size: 1.4em;
+}
+.newsText h5 {
+  font-size: 1.3em;
+}
+.newsText h6 {
+  font-size: 1.2em;
+}
+@media screen and (max-width: 767px) {
+  .newsText h1 {
+    font-size: 1.5em;
+  }
+  .newsText h2 {
+    font-size: 1.4em;
+  }
+  .newsText h3 {
+    font-size: 1.3em;
+  }
+  .newsText h4 {
+    font-size: 1.2em;
+  }
+  .newsText h5 {
+    font-size: 1.1em;
+  }
+  .newsText h6 {
+    font-size: 1.0em;
+  }
+}
+.newsText strong {
+  font-weight: bold;
+  font-size: 1.1em;
+}
+.newsText ul {
+  list-style-type: disc;
+  margin: 1em 1.5em 0;
+}
+.newsText ol {
+  list-style-type: decimal;
+  margin: 1em 1.5em 0;
+}
+.newsText blockquote {
+  border-left: 2px solid #ccc;
+  padding-left: 1em;
+  opacity: 0.8;
+}
+
+
+/* --------------------------------------------------
+Youtube
+-------------------------------------------------- */
+.js-youtube {
+  width: 100%;
+  height: 0px;
+  padding-bottom: 56.25%;
+  position: relative;
+}
+.js-youtube>iframe {
+  width: 100% !important;
+  height: 100% !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+
+/* --------------------------------------------------
+footer
+-------------------------------------------------- */
+#footer {
+  border-top: solid 1px #dcdcdc;
+  padding: 30px 0;
+  margin-top: 60px;
+}
+
+.footer__back {
+  width: 280px;
+  height: 50px;
+  margin: 0 auto;
+}
+
+.footer__back a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  color: #fff;
+  line-height: 50px;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 5px;
+}
+@media screen and (max-width: 767px) {
+  .footer__back {
+    width: 100%;
+    height: 40px;
+    padding: 0 80px;
+  }
+  .footer__back a {
+    line-height: 40px;
+    font-size: 12px;
+  }
+}
+
+
+/* --------------------------------------------------
+pager
+-------------------------------------------------- */
+.pager {
+  text-align:center;
+  margin-top: 80px;
+}
+@media screen and (max-width: 767px) {
+  .pager {
+   margin-top: 40px;
+  }
+}
+.pager > * {
+  display: inline-block;
+}
+.pager a {
+  text-decoration: none !important;
+}
+a.page-numbers,
+.pager .current {
+  background: #fff;
+  border: solid 1px #dcdcdc;
+  border-radius: 5px;
+  padding: 4px 12px 5px;
+  margin: 2px;
+}
+.pager .current {
+  background: #000;
+  border: solid 1px #000;
+  color: #fff;
+}
+
+
+/* --------------------------------------------------
+pagetop
+-------------------------------------------------- */
+#pagetop {
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  width: 50px;
+  height: 50px;
+  background: #000;
+  border-radius: 5px;
+  cursor: pointer;
+  -webkit-transition: opacity .5s;
+  -o-transition: opacity .5s;
+  transition: opacity .5s;
+  opacity: 0;
+}
+#pagetop.is-active {
+  opacity: 1;
+}
+@media screen and (min-width: 768px) {
+  #pagetop:hover {
+    opacity: .5;
+  }
+}
+@media screen and (max-width: 767px) {
+  #pagetop {
+    width: 40px;
+    height: 40px;
+    right: 20px;
+    bottom: 30px;
+  }
+}
+#pagetop::before,
+#pagetop::after {
+  content: '';
+  display: block;
+  width: 8px;
+  height: 1px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background: #fff;
+}
+#pagetop::before {
+  -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+#pagetop::after {
+  -webkit-transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  margin-left: -6px;
+}
+
+
+/* --------------------------------------------------
+Not Found
+-------------------------------------------------- */
+.nf {
+  text-align: center;
+  margin: 20px 0;
+}
+.nf__ttl {
+}
+.nf__lead {
+  font-weight: bold;
+}
+.nf__txt {
+  margin: 30px 0 40px;
+}
+.nf__btn {
+}
+.nf__btn a {
+}
+@media screen and (max-width: 767px) {
+  .nf__btn {
+    padding: 0;
+    margin: 0;
+  }
+}
+
+
+/* --------------------------------------------------
+clearfix（旧CSS）
+-------------------------------------------------- */
+.clearfix:after {
+  display: block;
+  clear: both;
+  height: 0px;
+  visibility: hidden;
+  content: ".";
+}
+
+.clearfix {
+  min-height: 1px;
+}
+
+* html .clearfix {
+  height: 1px;
+  height: auto;
+  overflow: hidden;
+}

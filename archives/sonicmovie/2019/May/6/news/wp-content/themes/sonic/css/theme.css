@@ -1,0 +1,107 @@
+@charset "UTF-8";
+
+/* 効かない場合は「!important」をつける */
+
+
+/* --------------------------------------------------
+color : 個別指定
+-------------------------------------------------- */
+
+/* 基本の文字色 */
+body {
+  color: #666;
+}
+
+/* リンク */
+a {
+  color: #666;
+}
+
+/* ==============================
+ hover時に透過させず、別色を指定する場合
+
+a {
+  transition-property: color;
+}
+a:hover {
+  opacity: 1;
+}
+a:visited,
+a:hover,
+a:active {
+  color: #000;
+}
+============================== */
+
+/* サイドバー：見出し */
+.sidebar__hdg {
+  color: #000;
+}
+
+/* サイドバー：文字色 */
+.sidebar__list li a:link,
+.sidebar__list li a:visited {
+  color: #666;
+}
+
+/* 記事：見出し */
+.article__ttl a {
+  color: #000;
+}
+
+/* 記事：日付 */
+.article__date {
+  color: #afafaf;
+}
+
+/* 記事：テキスト */
+.article__body {
+  color: #666;
+}
+
+/* ページャー */
+a.page-numbers,
+.pager .current {
+  background: #fff;
+  border-color: #dcdcdc;
+  border-radius: 5px;
+}
+.pager .current {
+  background: #000;
+  border-color: #000;
+  color: #fff;
+}
+
+
+/* --------------------------------------------------
+color : 一括指定
+-------------------------------------------------- */
+
+/* 背景色 */
+body {
+  background: #fff;
+}
+
+/* ヘッダーの背景色 */
+.header {
+  background: #000;
+}
+
+/* アクセントカラー */
+.article__ttl a, .sidebar__hdg {
+  color:            #0068e9;
+}
+#pagetop, .pager .current, .footer__back a {
+  background-color: #0068e9;
+}
+.pager .current, .sidebar__list li.is-active {
+  border-color:     #0068e9;
+}
+
+/* ボーダー */
+.article:nth-of-type(n+2),
+a.page-numbers,
+.pager .current,
+#footer {
+  border-color: #dcdcdc;
+}
