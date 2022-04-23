@@ -1,0 +1,54 @@
+'use strict'
+
+//--------------------------------------------------
+// jQuery
+//--------------------------------------------------
+$(function(){
+
+
+  //--------------------------------------------------
+  // イベント処理
+  //--------------------------------------------------
+  var bindEvent = {
+
+    modalOpen: function() {
+      if ($('.modal').length) {
+        $('.js-modal-open').on('click', function(event){
+          event.preventDefault();
+          $('body').css('overflow', 'hidden');
+          var id = $(this).data('modal');
+          //青が走るように処理する
+          $('.yt-cover').addClass('is-active');
+          setTimeout(function() {
+            $('.modal.'+id).addClass('is-active').css('display', 'block');
+          }, 60);
+        });
+      }
+    },
+
+    modalClose: function() {
+      if ($('.modal').length) {
+        $('.js-modal-close').on('click', function(){
+          $('body').css('overflow', 'visible');
+          var $modal = $(this).parents('.modal.is-active');
+          $modal.fadeOut().queue(function () {
+              $modal.removeClass('is-active').dequeue();
+          });
+          $('.yt-cover').removeClass('is-active');
+       });
+      }
+    }
+  };
+
+  //--------------------------------------------------
+  // windowイベント処理
+  //--------------------------------------------------
+  // 画面ロード完了時の処理
+  $(window).bind("load", function(){
+
+    bindEvent.modalOpen();
+    bindEvent.modalClose();
+
+  });
+
+});

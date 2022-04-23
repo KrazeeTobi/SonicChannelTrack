@@ -1,0 +1,121 @@
+"use strict";
+
+$(function(){
+
+
+
+  //--------------------------------------------------
+  // addLoadedClass
+  //--------------------------------------------------
+
+  function addLoadedClass() {
+    $('body').addClass('is-loaded');
+    $('.loader').fadeOut(300);
+  }
+
+
+
+  //--------------------------------------------------
+  // gnav
+  //--------------------------------------------------
+
+  function gnav() {
+    $('.js-gnav-open').on('click', function(){
+      $('body').css('overflow', 'hidden');
+      $('.gnav').addClass('is-active');
+    });
+
+    $('.js-gnav-close').on('click', function(){
+      $('body').css('overflow', 'visible');
+      $('.gnav').removeClass('is-active');
+    });
+  }
+
+
+
+  //--------------------------------------------------
+  // inviewItem
+  //--------------------------------------------------
+
+  function inviewItem() {
+    $('.js-inviewOnce').on('inview', function() {
+      $(this).addClass('is-inview');
+    });
+
+    $('.js-inview, .rulesList__item').on('inview', function(event, isInView){
+      if (isInView) {
+        $(this).addClass('is-inview');
+      } else {
+        $(this).removeClass('is-inview');
+      }
+    });
+
+    $('.c-inviewPos').on('inview', function(event, isInView){
+      var $prent = $(this).parent('.c-inviewPosWrap');
+      $prent.addClass('is-inview');
+    });
+  }
+
+
+
+  //--------------------------------------------------
+  // youtube
+  //--------------------------------------------------
+
+  function youtubeOpen() {
+    $("#youtube, .js-trailer").on('click', function(event) {
+      event.preventDefault();
+      $('body').css('overflow', 'hidden');
+      var index = $(this).data('index');
+      if (!index) { index = 0 }
+      $(this).youtube(null,'open', index);
+      // $('#yt-overlay').addClass('is-active');
+
+      // タブのカレント切り替え
+      $('.yt-tabs .yt-tab').removeClass('active');
+      $(".yt-tabs .yt-tab").eq(index).addClass('active');
+    });
+  }
+
+  function youtubeClose() {
+    $("#yt-close, .yt-bg").on('click', function() {
+      $(this).youtube(null,'close', 0);
+      $('body').css('overflow', 'visible');
+      $('#yt-overlay').removeClass('is-active');
+    });
+  }
+
+  function videoTabClick() {
+    $(".yt-tabs .yt-tab").on('click', function() {
+      if ($(this).hasClass('active')) { return false; }
+      var index = $('.yt-tabs .yt-tab').index(this);
+
+      $('.yt-tabs .yt-tab').removeClass('active');
+      $(this).addClass('active');
+      $(this).youtube(null, 'open', index);
+    });
+  }
+
+
+  //--------------------------------------------------
+  // DOM読み込み後
+  //--------------------------------------------------
+
+  // startGIF();
+  gnav();
+
+
+  //--------------------------------------------------
+  // 画面ロード完了時
+  //--------------------------------------------------
+
+  $(window).on('load', function(){
+    if($('.tt-plugin-event').length) ttplugin.load();
+    addLoadedClass();
+    inviewItem();
+    youtubeOpen();
+    youtubeClose();
+    videoTabClick();
+  });
+
+});
