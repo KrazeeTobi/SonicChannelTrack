@@ -1,0 +1,171 @@
+@charset "UTF-8";
+
+/* ===================================
+	File Name   : report.css
+	Description : Contact Page Layout CSS
+	Editors     : NS Sakamoto
+	Create Date : 2012/02/15
+
+	Update Description :
+		2012/02/14 Append - Basic Styles [Sakurai]
+		2012/02/14 File Create
+====================================== */
+
+/*========== Style Contents ==========
+
+	1. Individual Redefinition
+	2. Report
+	3. Report Profile
+	4. 
+	5. 
+	6. Download Button
+	7.  
+	*. Clear Release
+	
+====================================== */
+
+
+
+
+
+/*===== ■1. Individual Redefinition =====*/
+/* Global Navigation */
+#GlobalNavi li#BtnExhibit a,
+#GlobalNavi li#BtnExhibit a:hover {background-position: -300px -51px;}
+
+
+/* Title Setting */
+h1 em {
+	background: url(img/report/ttl_report.jpg) no-repeat;
+	width: 851px;
+	height: 30px;
+}
+
+
+
+
+
+
+/*===== ■2. Report =====*/
+#Report h2 {
+	width: 800px;
+	height: 29px;
+	/*float: left;*/
+	padding-bottom: 0px;
+	font-size: 2.4em;
+	color: #F60;
+}
+#Report h3 {
+	width: 306px;
+	height: 78px;
+	float: right;
+}
+#Report p {
+	margin: 20px 0px 20px 0px;
+}
+
+#Report p span {
+	margin: 0;
+	color: #E95B8C;
+	font-weight: bold;
+}
+#Report .line {
+	clear: both;
+	margin: 30px 0px;
+}
+
+
+
+
+/*===== ■3. Report Profile =====*/
+#ReportProfile p {
+	margin: 0px 0px 20px 0px;
+}
+
+#ReportProfile p span {
+	margin: 0;
+	color: #6186E4;
+	font-weight: bold;
+}
+#ReportProfile .line {
+	clear: both;
+	margin: 30px 0px;
+}
+#ReportProfile ul {
+	margin: 0px 20px 10px 0px;
+	width: 880px;
+}
+#ReportProfile li {
+	margin: 5px 0px;
+}
+#ReportProfile li img {
+	margin: 5px 0px;
+}
+#ReportProfile li span {
+	margin: 0;
+	color: #6186E4;
+	font-weight: bold;
+	padding: 0;
+}
+#ReportProfile li#left {
+	margin: 0 10px 0 0;
+	float: left;
+}
+#ReportProfile li.left02 {
+	margin: 0 10px 0 0;
+	float: left;
+}
+#ReportProfile li#left span {
+	margin: 0 0 0 0;
+	color: #6186E4;
+	font-weight: bold;
+	padding: 0 0 10px 0;
+	font-size: 1.2em;
+}
+#ReportProfile li.left02 span {
+	margin: 0 0 0 0;
+	color: #6186E4;
+	font-weight: bold;
+	padding: 0 0 10px 0;
+	font-size: 1.2em;
+}
+#ReportProfile .btn {
+	padding: 30px 0px 30px 0;
+	clear: both;
+}
+#ReportProfile .btn li {
+	float: left;
+	margin-right: 5px;
+}
+
+/*===== ■6. Download Button =====*/
+#BtnDownload {
+	padding: 0px 0px 0px 40px;
+}
+#DownloadKikaku2 dl {
+	margin: 10px 0px 0 0;
+	padding: 10px 14px;
+	width: 880px;
+	font-size: 108%;
+	background-color: #F3F3F3;
+}
+
+
+
+
+/*===== ■7.  =====*/
+
+
+
+
+
+/*===== ■*.Clear Release  =====*/
+#********************** {
+	/zoom: 1;
+}
+
+#**********************:after {
+	content: '';
+	display: block;
+	clear: both;
+}

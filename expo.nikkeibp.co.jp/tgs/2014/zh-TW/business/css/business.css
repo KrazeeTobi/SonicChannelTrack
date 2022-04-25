@@ -1,0 +1,444 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*
+===========================================================================
+
+	Title : business.css
+
+===========================================================================
+*/
+
+
+/* *************************************************************
+*
+*	PC view
+*	
+************************************************************ */
+
+
+/* PC .mainCont .subArea
+---------------------------------------------------------------- */
+#wrapper .mainCont .subArea #submenu h1 {
+	background: url(../images/subnav_ttl_business.png) no-repeat top center;	
+}
+
+
+/* -------------------------------------------------------------
+
+	business/index.html
+
+------------------------------------------------------------- */
+
+
+#wrapper .mainCont .cntBox .boxInner .dtl {
+	padding: 13px;
+	background-color:#eeeeee;
+	margin: 0px 0 20px 0;
+}
+#wrapper .mainCont .cntBox .boxInner .txt12{
+	font-size:12px;	
+	}
+#wrapper .mainCont .cntBox .boxInner ul{
+	margin-bottom:20px;
+	}
+#wrapper .mainCont .cntBox .boxInner ul li{
+	padding-left: 1em;
+	text-indent: -1em;
+	}
+#wrapper .mainCont .cntBox .boxInner .rd_frame{
+	color:#e71a19;
+	border:1px solid #e71a19;
+	padding:10px;
+	}
+#wrapper .mainCont .cntBox .boxInner #btn_rd , #btn_nvy{
+	width:320px;
+	float:left;
+	margin:0 20px 20px;
+	font-size:12px;
+	}
+#wrapper .mainCont .cntBox .boxInner #btn_rd a, #btn_nvy a{
+	color:#fff;
+	text-align:center;
+	display:block;
+	padding:5px;
+	cursor:pointer;
+	line-height:1.4;
+	margin-bottom:-20px;
+	}
+#wrapper .mainCont .cntBox .boxInner #btn_rd a:hover, #btn_nvy a:hover{
+	text-decoration:none;
+	filter: alpha(opacity=70);
+	-moz-opacity:0.7;
+	opacity:0.7;
+	zoom:1;
+}
+#wrapper .mainCont .cntBox .boxInner #btn_rd a{
+	background:#e71a19;
+	}
+#wrapper .mainCont .cntBox .boxInner #btn_nvy span{
+	background:#777;
+	color:#aaa;
+	text-align:center;
+	display:block;
+	line-height:1.4;
+	padding:5px;
+	margin-bottom:3px;
+}
+#wrapper .mainCont .cntBox .boxInner .clear{
+	clear:both;
+	}
+#wrapper .mainCont .cntBox .boxInner #btn_rd ul li , #btn_nvy ul li{
+	line-height:1;
+	padding-top:10px;
+	}
+
+/* -------------------------------------------------------------
+
+	business/forum.html
+
+------------------------------------------------------------- */
+a:focus {
+	outline: none;
+}
+/*****アンカーボタン*****/
+#wrapper .cntBox .boxInner ul.ancMenu {
+	width: 730px;
+	margin: 0 auto 0px;
+	text-align: center;
+}
+#wrapper .cntBox .boxInner ul.ancMenu li {
+	margin: 2px 2px 0 0;
+	padding: 0px 0 0px 0;
+	float: left;
+	font-weight: bold;
+	text-indent: 0;
+}
+#wrapper .cntBox .boxInner ul.ancMenu li span {
+	padding-left: 10px;
+}
+#wrapper .cntBox .boxInner ul.ancMenu li strong {
+	font-size: 10px;
+}
+#wrapper .cntBox .boxInner li.pt a {
+	padding-top: 0px;
+	display: block;
+	line-height: 1.4;
+}
+#wrapper .cntBox .boxInner li.pt a span {
+	display: block;
+	position: relative;
+	top: -10px;
+}
+#wrapper .cntBox .boxInner ul.ancMenu li a {
+	width: 237px;
+	height: 36px;
+	background : #FFFFFF;
+	background : rgba(255, 255, 255, 1);
+	background : url(../images/btn_arrow.png) no-repeat 10px 20px;
+	border-radius : 3px;
+	-moz-border-radius : 3px;
+	-webkit-border-radius : 3px;
+	border-style : Solid;
+	border-color : #CCCCCC;
+	border-color : rgba(204, 204, 204, 1);
+	border-width : 2px;
+	color: #999;
+	text-decoration: none;
+	cursor: pointer;
+	display: block;
+	text-align: center;
+	padding-top: 20px;
+	padding-left: 0px;
+	font-size: 14px;
+}
+#wrapper .cntBox .boxInner ul.ancMenu li.all a {
+	width: 723px;
+	height: 20px;
+	background-position: 10px 12px;
+}
+#wrapper .cntBox .boxInner ul.ancMenu li.all a span {
+	position: relative;
+	top: -10px;
+}
+#wrapper .cntBox .boxInner ul.ancMenu li a:hover {
+	background-color: #e1f2f0;
+	background-image: url(../images/btn_arrow.png) no-repeat 10px 20px;
+}
+#wrapper .cntBox .boxInner ul.ancMenu li.act a {
+	background-color: #e1f2f0;
+	background-image: url(../images/btn_arrow.png) no-repeat 10px 20px;
+}
+/*****コンテンツ*****/
+#wrapper .mainCont #forum strong {
+	color: #e71a19;
+}
+#wrapper .mainCont #forum .pt20 {
+	padding-top: 20px;
+}
+#wrapper .mainCont #forum .rd {
+	color: #e71a19;
+	padding-top: 20px;
+}
+#wrapper .mainCont #forum h3 {
+	position: relative;
+}
+#wrapper .mainCont #forum h3 span {
+	text-align: right;
+	display: block;
+	position: relative;
+	top: -19px;
+}
+#wrapper .cntBox .boxInner .spBlc img {
+	display: none;
+}
+/*#wrapper .mainCont #forum .pcBlc{
+	display:inline-block;
+	}*/
+#wrapper .mainCont #forum .icon {
+	text-align: right;
+	padding: 0px 0 0px;
+	margin: -10px 0 10px;
+	display: inline-block;
+}
+#wrapper .mainCont #forum .icon img {
+	padding: 0;
+	margin: 0px;
+	text-align: right;
+}
+#wrapper .mainCont #forum .frame_blk {
+	background: #777;
+	color: #fff;
+	padding: 0 5px;
+	display: inline-block;
+	margin-bottom: 5px;
+}
+#wrapper .mainCont #forum table {
+	width: 100%;
+	margin-top: 10px;
+}
+#wrapper .mainCont #forum td h4 {
+	font-size: 18px;
+}
+#wrapper .mainCont #forum th {
+	width: 100px;
+	text-align: center;
+}
+#wrapper .mainCont #forum td {
+	font-size: 12px;
+	position: relative;
+}
+#wrapper .mainCont #forum td h5 {
+	background: #5ab7ac;
+	color: #fff;
+	font-size: 14px;
+	margin-bottom: 10px;
+	padding: 3px 5px;
+	display: inline-block;
+}
+#wrapper .mainCont #forum dl dt {
+	font-weight: bold;
+}
+#wrapper .mainCont #forum dl dd {
+	padding: 5px 0 5px 0;
+	line-height: 1.4;
+}
+#wrapper .mainCont #forum span.btn {
+	width: 69px;
+	text-align: right;
+	display: block;
+	position: relative;
+	top: 0px;
+	float: right;
+	padding-right: 15px;
+	margin-bottom: 0px;
+}
+#wrapper .mainCont #forum #sponsor span.btn {
+	width: 69px;
+	text-align: right;
+	display: block;
+	position: relative;
+	top: 0px;
+	float: right;
+	padding-right: 15px;
+	margin-bottom: 0px;
+}
+#wrapper .mainCont #forum span.btn img {
+	margin-top: 2px;
+}
+#wrapper .mainCont #forum td span a {
+	background: none;
+}
+#wrapper .mainCont #forum td span a {
+	background: none;
+}
+#wrapper .mainCont #forum td a:hover {
+	filter: alpha(opacity=70);
+	-moz-opacity: 0.7;
+	opacity: 0.7;
+	zoom: 1;
+}
+#wrapper .mainCont #forum .btn_l a:hover {
+	filter: alpha(opacity=70);
+	-moz-opacity: 0.7;
+	opacity: 0.7;
+	zoom: 1;
+}
+#wrapper .mainCont .att ul li {
+	line-height: 1.4;
+	margin: 10px 0;
+}
+#wrapper .mainCont #forum .place {
+	font-weight: bold;
+	font-size: 16px;
+}
+#wrapper .mainCont #forum .summary {
+	padding: 10px 0 20px;
+	display: block;
+	font-size: 14px;
+}
+	
+/* -------------------------------------------------------------
+
+	business/forum_agbs.html
+
+------------------------------------------------------------- */
+
+#wrapper .mainCont #forum #agbs{
+	margin-bottom:20px;
+	}
+/* -------------------------------------------------------------
+
+	business/forum_special.html
+
+------------------------------------------------------------- */
+#wrapper .mainCont #forum .btn_l{
+	margin:20px auto 10px;
+	text-align:center;
+	display:block;
+	}
+/* -------------------------------------------------------------
+
+	business/bms.html
+
+------------------------------------------------------------- */
+#wrapper .mainCont .cntBox .boxInner .btn_abg {
+	text-align: center;
+	padding-bottom: 20px;
+}
+#wrapper .mainCont .cntBox .boxInner .btn_abg img:hover {
+	filter: alpha(opacity=70);
+	-moz-opacity: 0.7;
+	opacity: 0.7;
+	zoom: 1;
+}
+#wrapper .mainCont .cntBox .boxInner .mt20 {
+	margin-top: 20px;
+}
+
+/* *********************************************
+*
+*	SP view
+*	
+********************************************* */
+
+@media screen and (max-width:769px){
+#wrapper .cntBox .boxInner .pcBlc img{
+	display:none;
+}
+#wrapper .cntBox .boxInner .spBlc img{
+	display:inline-block;
+}
+#wrapper .mainCont .subArea #submenu h1 {
+	background: url(../images/subnav_ttl_press.png) no-repeat top center;
+	height: auto;	
+}
+/* -------------------------------------------------------------
+
+	business/index.html
+
+------------------------------------------------------------- */
+
+#wrapper .mainCont .cntBox .boxInner #btn_rd , #btn_nvy{
+	width:100%;
+	float:none;
+	margin:0 0px 20px;
+	}
+#wrapper .mainCont .cntBox .boxInner #btn_rd a, #btn_nvy a{
+	margin-bottom:-10px;
+	}
+#wrapper .mainCont .cntBox .boxInner #btn_nvy span{
+		margin-bottom:10px;
+}
+
+/* -------------------------------------------------------------
+
+	business/forum.html
+
+------------------------------------------------------------- */
+
+/*****アンカーボタン*****/
+#wrapper .cntBox .boxInner ul.ancMenu {
+	width: 100%;
+	margin: 0px;
+}
+#wrapper .cntBox .boxInner ul.ancMenu li {
+	margin: 0 0 1% 0;
+	padding: 0;
+	float: none;
+}
+#wrapper .cntBox .boxInner ul.ancMenu li a {
+	width: 100%;
+}
+#wrapper .cntBox .boxInner ul.ancMenu li.all a {
+	width:100%;
+	height: 36px;
+	background-position:10px 20px;
+}
+#wrapper .cntBox .boxInner ul.ancMenu li.all a span{
+	position:relative;
+	top:0px;
+}
+/*****コンテンツ*****/
+#wrapper .mainCont #forum th{
+	width:auto;
+}
+#wrapper .mainCont #forum h3 span{
+	text-align:right;
+	display:block;
+	position:relative;
+	top:5px;
+}
+#wrapper .mainCont #forum h3 span img{
+	wiedh:auto;
+	height:auto;
+}
+#wrapper .mainCont #forum h5{
+	/*width:95%;*/
+	display:block;
+	}
+#wrapper .mainCont #forum td strong{
+	display:block;
+	}
+#wrapper .mainCont #forum .icon{
+		width:100%;
+		height:100%;
+		margin-bottom:20px;
+}
+/*#wrapper .mainCont #forum span.icon img{
+		width:auto!important;
+		height:auto!important;
+		}*/
+#wrapper .mainCont #forum span.btn{
+	width:100%;
+	top:0px;
+	margin-bottom:20px;
+	padding:0;
+}
+#wrapper .mainCont #forum #sponsor span.btn{
+	width:100%;
+	top:0px;
+	margin-bottom:20px;
+	padding:0;
+}
+}

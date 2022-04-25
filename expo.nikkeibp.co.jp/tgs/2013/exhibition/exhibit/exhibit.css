@@ -1,0 +1,575 @@
+@charset "UTF-8";
+
+/* ===================================
+	File Name   : exhibit.css
+	Description : Exhibit Page Layout CSS
+	Editors     : NS Sakurai
+	Create Date : 2012/02/14
+
+	Update Description :
+		2012/02/14 Append - Basic Styles [Sakurai]
+		2012/02/14 File Create
+====================================== */
+
+/*========== Style Contents ==========
+
+	1. Individual Redefinition
+	2. Outline
+	3. Area
+	   - Title Setting
+	   - Area Area Common Setting
+	   - Area Introduction
+	   - Area Booth Individual Setting
+	4. Sponcer
+	   - Title Setting
+	   - Sponcer
+	   - Sponcer Limitation
+	   - Sponcer Limitation Light
+	   - Sponcer General
+	5. 
+	6. 
+	7. Download Button
+	*. Clear Release
+	
+====================================== */
+
+
+
+
+
+/*===== ■1. Individual Redefinition =====*/
+/* Global Navigation */
+#GlobalNavi li#BtnExhibit a,
+#GlobalNavi li#BtnExhibit a:hover {background-position: -300px -51px;}
+
+
+
+
+
+
+
+/*===== ■2. Outline =====*/
+
+
+
+
+
+/*===== ■3. Area =====*/
+/* Title Setting */
+.ExhibitArea h1 em {
+	background: url(img/ttl_exhibit-area.jpg) no-repeat;
+	width: 862px;
+	height: 30px;
+}
+
+/* Area Common Setting */
+.ExhibitArea .Section {
+	position: relative;
+	margin: 0;
+	padding: 0 0 20px 0;
+}
+
+.ExhibitArea .Section h2 {
+	position: relative;
+	width: 879px;
+	height: 71px;
+}
+.ExhibitArea .Section h2 a {
+	position: absolute;
+	display: block;
+	top: 45px;
+	right: 150px;
+	background: url(img/btn_area.jpg) no-repeat 0px -262px;
+	width: 108px;
+	height: 25px;
+}
+
+.ExhibitArea .Section h2 a:hover {
+	opacity: 0.7;
+	filter: alpha(opacity=70);
+}
+
+.ExhibitArea .Section p {
+	background: #F0F0F0;
+	margin: 0px 0px 20px;
+	padding: 10px 15px;
+	width: 849px;
+}
+
+.ExhibitArea .Section p strong {
+	display: block;
+	color: #E53351;
+	padding: 0px 0px 5px;
+	line-height: 1.4;
+	font-size: 108%;
+}
+
+.ExhibitArea .Section p span {
+	display: block;
+	float: left;
+	width: 95px;
+}
+.ExhibitArea .Section p span.three {
+	display: block;
+	float: left;
+	width: 95px;
+	padding: 2px 0 0 0;
+}
+.ExhibitArea .Section p em {
+	display: block;
+	float: left;
+	width: 730px;
+	line-height: 1.3;
+}
+.ExhibitArea .Section p em.one {
+	display: block;
+	float: left;
+	width: 730px;
+	line-height: 1.3;
+	padding: 3px 0 0 0;
+}
+.ExhibitArea .Section p em.two {
+	display: block;
+	float: left;
+	width: 730px;
+	line-height: 1.3;
+	padding: 1px 0 0 0;
+}
+.ExhibitArea .Section dl dt {
+	float: left;
+	padding: 0px 0px 5px;
+	width: 425px;
+}
+
+.ExhibitArea .Section dl dt strong {
+	display: block;
+	float: left;
+	width: 170px;
+	font-size: 108%;
+}
+
+.ExhibitArea .Section dl dt strong em {
+	display: block;
+	color: #E53351;
+}
+
+.ExhibitArea .Section dl dt ol {
+	float: left;
+}
+
+.ExhibitArea .Section dl dt ol li {
+	width: 250px;
+}
+
+.ExhibitArea .Section dl dt ol li img {
+	float: left;
+	padding: 0px 10px 10px 0px;
+}
+
+.ExhibitArea .Section dl dt span {
+	display: block;
+	margin: 0px 0px 10px;
+	padding: 0px 0px 10px 5px;
+	font-size: 93%;
+	background: url(../common/img/line_dotted-gray.jpg) repeat-x bottom;
+}
+
+.ExhibitArea .Section dl dt ol li span {
+	background: none;
+	margin: 0px;
+	padding: 5px 0px 0px;
+	font-size: 116.6%;
+	font-weight: bold;
+}
+
+.ExhibitArea .Section dl dt ol li.PriceMember span {
+	color: #E53351;
+}
+
+.ExhibitArea .Section dl dd {
+	float: right;
+	width: 434px;
+	padding: 0 0 0 10px;
+}
+
+.ExhibitArea .Section dl dd img {
+	display: inline;
+	padding: 0px 0px;
+}
+
+.ExhibitArea .Section dl dd.CaptionTxt {
+	clear: both;
+	float: none;
+	width: auto;
+}
+
+.ExhibitArea .Section dl dd.CaptionTxt p {
+	background: none;
+	margin: 0px 0px 0px;
+	padding: 10px 0px;
+	width: auto;
+	line-height: 1.3;
+	font-size: 93%;
+}
+
+
+/* Area Introduction */
+#AreaIntro p {
+	background: none;
+	padding: 0px;
+	width: auto;
+}
+
+#AreaIntro ul {
+	/*background: url(../common/img/line_dotted-gray.jpg) repeat-x bottom;*/
+	margin: 0px 0px 20px;
+	padding: 5px 0px 20px;
+}
+
+#AreaIntro ul#DocuNavi li {
+	float: left;
+	padding: 0px 6px 0px 0px;
+}
+
+#AreaIntro ul#DocuNavi li a {
+	display: block;
+	background: url(img/btn_area.jpg) no-repeat;
+	width: 211px;
+	height: 60px;
+}
+
+#AreaIntro ul#DocuNavi li a#BtnDocu02 {background-position: -223px 0px;}
+#AreaIntro ul#DocuNavi li a#BtnDocu03 {background-position: -444px 0px;}
+#AreaIntro ul#DocuNavi li a#BtnDocu04 {background-position: -667px 0px;}
+
+#AreaIntro ul#SubNavi {
+	background: none;
+	margin: 0px 0px 20px;
+	padding: 5px 0px 20px;
+}
+
+#AreaIntro ul#SubNavi li {
+	float: left;
+	padding: 0px 4px 10px 0px;
+}
+
+#AreaIntro ul#SubNavi li a {
+	display: block;
+	background: url(img/btn_area.jpg) no-repeat 0px -121px;
+	width: 212px;
+	height: 51px;
+}
+
+#AreaIntro ul#SubNavi li a#SubBtn02 {background-position: -223px -121px;}
+#AreaIntro ul#SubNavi li a#SubBtn03 {background-position: -445px -121px;}
+#AreaIntro ul#SubNavi li a#SubBtn04 {background-position: -668px -121px;}
+#AreaIntro ul#SubNavi li a#SubBtn05 {background-position: 0px -182px;}
+#AreaIntro ul#SubNavi li a#SubBtn06 {background-position: -223px -182px;}
+#AreaIntro ul#SubNavi li a#SubBtn07 {background-position: -445px -182px;}
+#AreaIntro ul#SubNavi li a#SubBtn08 {background-position: -668px -182px;}
+#AreaIntro ul#SubNavi li a#SubBtn09 {background-position: 0px -245px;}
+#AreaIntro ul#SubNavi li a#SubBtn10 {background-position: -223px -245px;}
+#AreaIntro ul#SubNavi li a#SubBtn11 {background-position: 0px -307px;}
+#AreaIntro ul#SubNavi li a#SubBtn12 {background-position: -223px -307px;}
+#AreaIntro ul#SubNavi li a#SubBtn13 {background-position: -668px -307px;}
+#AreaIntro ul#SubNavi li a#SubBtn14 {background-position: -445px -307px;}
+#AreaIntro ul#SubNavi li a#SubBtn15 {background-position: -446px -245px;}
+
+#AreaIntro ul#DocuNavi li a:hover,
+#AreaIntro ul#SubNavi li a:hover {
+	opacity: 0.7;
+	filter: alpha(opacity=70);
+}
+
+/* Area Booth Individual Setting */
+#AreaGoods p strong {color: #EE7A00;}
+#AreaGoods dl dt strong em {display: block;color: #EE7A00;}
+#AreaGoods dl dt ol li.PriceMember span {color: #EE7A00;}
+#AreaGoods dl dt span {background: none;margin: 0px;color: #EE7A00;}
+#AreaGoods dl dt ol li.PriceGeneral span {color: #333333;}
+#AreaGoods dl dd.CaptionTxt {clear: none;float: left;}
+#AreaGoods dl dd.CaptionTxt p {padding: 0px;}
+	
+#AreaSchool p strong {color: #63B73E;}
+#AreaSchool dl dt strong em {display: block;color: #63B73E;}
+#AreaSchool dl dt ol li.PriceMember span {color: #63B73E;}
+
+#AreaFamily h2 a {right: 370px;}
+#AreaFamily p strong {color: #006DAE;}
+#AreaFamily p strong span {float: none; padding: 0px 0px 0px;width: auto; font-size: 85%; line-height: 1.3; color: #333;}
+#AreaFamily dl dt strong em {display: block;color: #006DAE;}
+#AreaFamily dl dt.OtherCorner ol {border: 1px dashed #CCCCCC;background: #F1FCFC;padding: 5px 5px 0px;}
+#AreaFamily dl dt.OtherCorner ol li {width: 230px;}
+#AreaFamily dl dt.OtherCorner ol li img {padding: 0px 10px 7px 0px;}
+#AreaFamily dl dt.OtherCorner ol li span {padding: 8px 0px 0px;}
+#AreaFamily dl dt ol li.PriceMember span,
+#AreaFamily dl dt.OtherCorner ol li.PriceMember span {color: #006DAE;}
+#AreaFamily dl dt.OtherCorner span.four {display: block;
+	float:left;
+	background: url(../common/img/line_dotted-gray.jpg) repeat-x bottom;
+	margin: 10px 0px 10px;
+	padding: 0px 0px 10px 5px;
+	font-size: 93%;
+}
+
+#AreaDevice p strong {color: #009679;}
+#AreaDevice dl dt strong em {display: block;color: #009679;}
+#AreaDevice dl dt ol li.PriceMember span {color: #009679;}
+#AreaDevice p strong span {float: none; padding: 0px 0px 10px;width: auto; font-size: 85%; line-height: 1.3; color: #333;}
+
+
+#AreaAsia p strong {color: #68539F;}
+#AreaAsia dl dt em {display: block; padding: 0px 0px 5px;font-size: 93%;color: #E31E31;}
+#AreaAsia dl dt strong em {display: block; padding: 0px;font-size: 100%;color: #68539F;}
+#AreaAsia dl dt ol li.PriceMember span {color: #68539F;}
+#AreaAsia dl dt ol li p {clear: both; background:none; width: auto; padding: 0px;}
+#AreaAsia dl dt span {background: none;}
+
+
+#AreaBusiness h2 a {right: 270px;}
+#AreaBusiness p strong {color: #68539F;}
+#AreaBusiness dl dt strong em {display: block;color: #68539F;}
+#AreaBusiness dl dt ol li.PriceMember span {color: #68539F;}
+#AreaBusiness dl dt {border: 1px solid #EDEAF4;padding: 10px 10px 0px;width: 398px;}
+#AreaBusiness dl dt.BusinessOther {display: inline;margin: 0px 0px 0px 30px;background: #EDEAF4;}
+#AreaBusiness dl dt ol li {width: 220px;}
+#AreaBusiness dl dt span {background: none;}
+
+#AreaCloud h2 a {right: 270px;}
+#AreaCloud p {
+	border: 2px solid #7FC8E8;
+	background: none;
+	margin: 10px 0px 20px;
+	padding: 20px;
+	width: 830px;
+}
+
+#AreaCloud p span{
+	float: right;
+	width: 371px;
+}
+
+#AreaCloud p em {
+	float: left;
+	padding: 30px 0px 0px;
+	width: 400px;
+}
+
+#AreaSmart p strong {color: #000;}
+#AreaSmart dl dt strong em {display: block;color: #747170;}
+#AreaSmart dl dt ol li.PriceMember span {color: #747170;}
+#AreaSmart p strong span {float: none; padding: 0px 0px 10px;width: auto; font-size: 85%; line-height: 1.3; color: #333;}
+
+#AreaCyber p strong {color: #BA9A1D;}
+#AreaCyber dl dt strong em {display: block;color: #BA9A1D;}
+#AreaCyber dl dt ol li.PriceMember span {color: #BA9A1D;}
+#AreaCyber p strong span {float: none; padding: 0px 0px 10px;width: auto; font-size: 85%; line-height: 1.3; color: #333;}
+
+
+#AreaCloudgame p strong {color: #4BC1F1;}
+#AreaCloudgame dl dt strong em {display: block; color: #4BC1F1;}
+#AreaCloudgame dl dt ol li.PriceMember span {color: #4BC1F1;}
+
+#AreaOtome p strong {color: #E95B95;}
+#AreaOtome dl dt strong em {display: block; color: #E95B95;}
+#AreaOtome dl dt ol li.PriceMember span {color: #E95B95;}
+
+#AreaSmart p strong {color: #9B9794;}
+#AreaSmart dl dt strong em {display: block;color: #9B9794;}
+#AreaSmart dl dt ol li.PriceMember span {color: #9B9794;}
+
+#AreaCosplay p strong {color: #A75B1D;}
+
+#AreaCosplay dl dt em {display: block; padding: 0px 0px 5px;font-size: 93%;color: #A75B1D;}
+#AreaCosplay dl dt strong em {display: block; padding: 0px;font-size: 100%;color: #A75B1D;}
+#AreaCosplay dl dt ol li.PriceMember span {color: #A75B1D;}
+#AreaCosplay dl dt ol li p {clear: both; background:none; width: auto; padding: 0px;}
+#AreaCosplay dl dt span {background: none;}
+
+#AreaMeeting p strong {color: #68539F;}
+#AreaMeeting dl dt strong em {display: block;color: #68539F;}
+#AreaMeeting dl dt ol li.PriceMember span {color: #68539F;}
+
+
+#AreaMeeting dl dt.Border {
+	border: 1px solid #E1DCED;
+	width: 418px;
+	padding: 10px 5px 10px 5px;
+	margin: 0px 3px 0px 3px;
+}
+
+#AreaMeeting dl dt.TitleDT {
+	border: none;
+	padding: 10px 0px 10px;
+	width: 862px;
+}
+
+#AreaMeeting dl dt.TitleDT strong {
+	float: left;
+	display: inline;
+	color: #68539F;
+}
+
+#AreaMeeting dl dt ol li {width: 220px; font-size: 85%;}
+
+
+#AreaMeeting dl dt ol.OtherBooth {
+	background: url(img/bg_other-booth.jpg) no-repeat center top;
+	width: 220px;
+	padding: 10px 0px 0px 10px;
+	margin: 0px 0px 0px -10px;
+	border: 1px dotted #CCC;
+}
+
+#AreaMeeting dl span.TxtCaption {
+	float: left;
+	background: none;
+	margin: 0px;
+	padding: 20px 0px 0px;
+}
+
+#AreaMeeting dl dd {
+	float: right;
+	clear: both;
+	width: 450px;
+	padding-right: 8px;
+}
+
+#AreaMeeting dl span.TxtCaption {
+	float: left;
+	background: none;
+	margin: 0px;
+	padding: 10px 0px 0px;
+}
+#AreaMeeting dl#BasicTableBooth02 {
+	margin: 20px 0 0 0;
+	width: 880px;
+	display: block;
+}
+
+#AreaMeeting dl#BasicTableBooth02 dt.TitleDT strong {
+	width: 300px;
+}
+
+#AreaMeeting dl#BasicTableBooth02 dt.TitleDT {
+	padding: 10px 0px 10px;
+	width: 430px;
+	float: left;
+	display: block;
+}
+#AreaMeeting dl#BasicTableBooth02 dd.ImgDD {
+	padding: 0px 0px 10px;
+	width: 450px;
+	float: right;
+}
+#AreaMeeting dl#BasicTableBooth02 dt.PriceDT {
+	padding: 0;
+	width: 400px;
+	float: left;
+	display: block;
+}
+
+#AreaStart p strong {color: #68539F;}
+#AreaStart dl dt em {display: block; padding: 0px 0px 5px;font-size: 93%;color: #E31E31;}
+#AreaStart dl dt strong em {display: block; padding: 0px;font-size: 100%;color: #68539F;}
+#AreaStart dl dt ol li.PriceMember span {color: #68539F;}
+#AreaStart dl dt ol li p {clear: both; background:none; width: auto; padding: 0px;}
+#AreaStart dl dt span {background: none;}
+
+
+
+
+#AreaCESA {
+	margin: 0 auto 0;
+	width: 816px;
+	padding: 30px 0;
+}
+
+
+
+
+
+
+
+
+/*===== ■5. =====*/
+
+
+
+
+
+/*===== ■6.  =====*/
+
+
+
+
+
+/*===== ■7.  =====*/
+#DownloadKikaku2 {
+	width: 880px;
+	margin: 0 0 0 5px;
+}
+
+#DownloadKikaku2 .btn {
+	padding: 0px 0px 30px 0;
+}
+
+#DownloadKikaku2 .btn li {
+	margin-right: 5px;
+}
+
+#DownloadKikaku2 .btn a {
+	display: block;
+	background: url(img/download/download_zip_btn.jpg) no-repeat ;
+	width: 271px;
+	height: 59px;
+}
+
+#DownloadKikaku2 dl {
+	margin: 10px 0px 0 0;
+	padding: 10px 14px;
+	width: 848px;
+	font-size: 108%;
+	background-color: #F3F3F3;
+}
+
+
+
+
+
+/*===== ■8.  =====*/
+#BtnDownload {
+	padding: 0px 0px 0px 40px;
+}
+
+/*===== ■8.  =====*/
+.MR10 {
+	margin: 0 10px 0 0;
+}
+.FR {
+	float: right;
+}
+
+.UNLine {
+	background: url(../common/img/line_dotted-gray.jpg) repeat-x bottom ;
+	margin: 0 0 20px 0;
+}
+
+
+
+
+
+/*===== ■*.Clear Release  =====*/
+#AreaIntro ul#DocuNavi,
+.ExhibitArea .Section p,
+.ExhibitArea .Section dl dt ol li {
+	/zoom: 1;
+}
+
+#AreaIntro ul#DocuNavi:after,
+.ExhibitArea .Section p:after,
+.ExhibitArea .Section dl dt ol li:after {
+	content: '';
+	display: block;
+	clear: both;
+}

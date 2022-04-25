@@ -1,0 +1,391 @@
+@charset "UTF-8";
+
+
+
+/*===== ■1. Individual Redefinition =====*/
+/* Global Navigation */
+#GlobalNavi li#BtnExhibit a,
+#GlobalNavi li#BtnExhibit a:hover {background-position: -300px -51px;}
+
+
+
+
+
+/*===== ■2. Sense =====*/
+#Sense_main {
+	padding: 0;
+	width:900px;
+	margin:-40px 0 0 0;
+	overflow: hidden;
+
+}
+#Sense {
+	padding: 0;
+	width:900px;
+	margin:0;
+
+}
+#Sense .btn {
+	padding: 10px 0px 60px 0;
+	clear: both;
+	margin-left:20px;
+}
+#Sense .btn li {
+	float: left;
+	margin-right: 5px;
+}
+#Sense .btn .small {
+	padding-top: 10px;
+}
+
+
+
+
+
+/*===== ■3. SenseSideBox =====*/
+
+#SenseSideBox {
+	width: 185px;
+	height:1230px;
+	float: left;
+	background: url(img/sense/sown_btn_bg.jpg);
+	background-repeat:repeat-y;
+}
+
+#SenseContents {
+	width: 703px;
+	float: right;
+	margin: 46px 0 0 0;
+	color: #333;
+}
+
+#SenseSideBox dl dt {
+	margin-bottom:10px;
+}
+#SenseSideBox dl dd {
+	padding:0 0 0 10px;
+}
+#SenseSideBox dl dd ul li{
+	margin:0;
+	width: 132px;
+	height:132px;
+	display: block;
+}
+#SenseSideBox dl dd ul li.list01{
+	margin:0 0 10px 0;
+	width: 132px;
+	height:132px;
+	display: block;
+	background: url(img/sense/sub_img01.jpg) no-repeat;
+}
+#SenseSideBox dl dd ul li.list02{
+	margin:0 0 10px 0;
+	width: 132px;
+	height:132px;
+	display: block;
+	background: url(img/sense/sub_img02.jpg) no-repeat;
+}
+#SenseSideBox dl dd ul li span{
+	display: none;
+}
+#SenseSideBox ol li {
+	padding:0 0 0 5px;
+}
+#SenseSideBox ol li a:hover img {
+	opacity: 0.7;
+	filter: alpha(opacity=70);
+}
+
+/*===== ■4. SenseNavi =====*/
+#Sense ul#SenseNavi{
+	margin:17px 0 10px -10px;
+	width: 185px;
+	display: block;
+}
+
+#Sense ul#SenseNavi li {
+	margin: 0 0 0 -10px;
+	padding: 0 0 0 10px;
+	display: block;
+	width: 175px;
+	height: 80px;
+}
+
+#Sense ul#SenseNavi li a {
+	display: block;
+	background: url(img/sense/sown_btn.png) no-repeat;
+	width: 185px;
+	height: 80px;
+}
+
+#Sense ul#SenseNavi li a#BtnSense01 {background-position: 0 0px;}
+#Sense ul#SenseNavi li a#BtnSense02 {background-position: -185px -80px;}
+#Sense ul#SenseNavi li a#BtnSense03 {background-position: 0 -160px;}
+#Sense ul#SenseNavi li a#BtnSense04 {background-position: 0 -240px;}
+
+#Sense ul#SenseNavi li a#BtnSense01:hover {background-position: -185px 0px;}
+#Sense ul#SenseNavi li a#BtnSense02:hover {background-position: -185px -80px;}
+#Sense ul#SenseNavi li a#BtnSense03:hover {background-position: -185px -160px;}
+#Sense ul#SenseNavi li a#BtnSense04:hover {background-position: -185px -240px;}
+
+
+
+/*===== ■5. SenseContents =====*/
+#Sense h2{
+	width: 703px;
+	height: 46px;
+	margin:0;
+}
+#Sense h2 span{
+	display: none;	
+}
+#Sense .Handbook h2 {
+	background: url(img/sense/ttl_senseform_01.jpg) no-repeat;
+}
+#Sense .Points h2 {
+	background: url(img/sense/ttl_senseform_02.jpg) no-repeat;
+}
+#Sense .Intended h2 {
+	background: url(img/sense/ttl_senseform_03.jpg) no-repeat;
+}
+#Sense .NotIntended h2 {
+	background: url(img/sense/ttl_senseform_04.jpg) no-repeat;
+}
+
+
+/* Handbook */
+#Sense .Handbook {
+	margin: 0 0 40px 0;
+}
+#Sense .Handbook table {
+	margin: 20px auto;
+	width: 680px;
+	display:block;
+	font-weight: bold;
+	border:none;
+}
+#Sense .Handbook table th {
+	margin: 0 0 10px 0;
+	width: 130px;
+	display: block;
+	font-weight: bold;
+	text-align: right;
+	float: left;
+	color: #E16950;
+	padding: 0 15px 0 0;
+	background-image: url(img/sense/icon_senseform01.png);
+	background-repeat: no-repeat;
+	background-position: right 2px;
+	vertical-align: top;
+}
+#Sense .Handbook table td {
+	margin: 0 0 10px 0;
+	padding: 0 0 0 5px;
+	width: 530px;
+	display: block;
+	font-weight: bold;
+	float: right;
+	vertical-align: top;
+}
+
+/* Points */
+#Sense .Points {
+	margin: 0 0 40px 0;
+}
+#Sense .Points p {
+	margin: 20px 0 0 20px;
+	line-height:160%;
+}
+#Sense .Points div.oubo {
+	margin: 20px auto 30px auto;
+	background-image: url(img/sense/sub_ttl_senseform.jpg);
+	background-repeat: no-repeat;
+	width: 240px;
+	height: 40px;
+	display: block;
+}
+#Sense .Points div.oubo span{
+	display: none;	
+}
+#Sense .Points div#oubo_list {
+	margin: 20px auto;
+	background-image: url(img/sense/bg_senseform01.jpg);
+	background-repeat: no-repeat;
+	width: 706px;
+	height: 450px;
+	display: block;
+	padding: 5px 0 30px 20px;
+}
+#Sense .Points div#oubo_list ul {
+	margin: 0;
+	width: 706px;
+	display: block;
+}
+#Sense .Points div#oubo_list ul li {
+	margin: 0 0 0 10px;
+	width: 220px;
+	height: 130px;
+	display: block;
+	float: left;
+}
+#Sense .Points div#oubo_list ul li strong {
+	margin: 0 5px 0 0;
+	font-weight: bold;
+	font-size: 116%;
+	color: #008C21;
+}
+#Sense .Points div#oubo_list ul li span {
+	margin: 0 3px 0 0;
+	color: #E06850;
+}
+#Sense .Points div#oubo_list ul li p {
+	margin: 3px 0 0 0;
+	line-height: 140%;
+}
+#Sense .Points div#oubo_list ol {
+	margin: 0;
+	display: block;
+	float: left;
+	width: 706px;
+}
+#Sense .Points div#oubo_list ol li {
+	margin: 20px 0 0 10px;
+	width: 325px;
+	height: 180px;
+	display: block;
+	float: left;
+}
+#Sense .Points div#oubo_list ol li strong {
+	margin: 0 5px 0 0;
+	font-weight: bold;
+	font-size: 116%;
+	color: #008C21;
+}
+#Sense .Points div#oubo_list ol li span {
+	margin: 0 3px 0 0;
+	color: #E06850;
+}
+#Sense .Points div#oubo_list ol li p {
+	margin: 3px 0 0 0;
+	line-height: 140%;
+}
+#Sense .Points div#oubo_list ol li.ml {
+	margin: 20px 0 0 20px;
+}
+
+/* Intended */
+#Sense .Intended {
+	margin: 0 0 40px 0;
+}
+#Sense .Intended ul {
+	background-image: url(img/sense/bg_senseform02.jpg);
+	background-repeat: no-repeat;
+	width: 706px;
+	height: 430px;
+	display: block;
+	padding: 15px 0 20px 10px;
+	margin: 20px 0 0 0;
+}
+#Sense .Intended ul li {
+	margin: 0 0 25px 10px;
+	width: 220px;
+	height: 220px;
+	display: block;
+	float: left;
+}
+#Sense .Intended ul li strong {
+	margin: 0 5px 0 0;
+	font-weight: bold;
+	font-size: 116%;
+}
+#Sense .Intended ul li span {
+	font-weight: bold;
+	font-size: 116%;
+	color: #E06850;
+}
+#Sense .Intended ul li span img {
+	display: block;
+	margin: 0 0 5px 0;
+}
+#Sense .Intended ul li p {
+	margin: 3px 0 0 0;
+	line-height: 140%;
+}
+#Sense div.btn_Intended {
+	display: block;
+	width: 418px;
+	height: 61px;
+	margin: 0 auto 40px auto;
+	padding: 0 0 0 0;
+	clear: both;
+}
+#Sense div.btn_Intended img:hover {
+	opacity: 0.7;
+	filter: alpha(opacity=70);
+}
+#Sense div.btn_Entry {
+	display: block;
+	width: 418px;
+	height: 61px;
+	margin: 30px auto 0 auto;
+	padding: 0 0 10px 0;
+	clear: both;
+}
+#Sense div.btn_Entry img:hover {
+	opacity: 0.7;
+	filter: alpha(opacity=70);
+}
+
+/* NotIntended */
+#Sense .NotIntended {
+	margin: 0 0 40px 0;
+}
+#Sense .NotIntended p {
+	margin: 20px 0 0 40px;
+	line-height:160%;
+}
+#Sense .NotIntended p span {
+	color:#FF3F00;
+}
+
+#Sense .NotIntended ul {
+	background-image: url(img/sense/bg_senseform03.jpg);
+	background-repeat: no-repeat;
+	width: 740px;
+	height: 330px;
+	display: block;
+	padding: 15px 0 20px 70px;
+	margin: 20px 0 0 -37px;
+}
+#Sense .NotIntended ul li {
+	margin: 7px 0 0 10px;
+	width: 320px;
+	height: 170px;
+	display: block;
+	float: left;
+}
+#Sense .NotIntended ul li span {
+	font-weight: bold;
+	font-size: 116%;
+	color: #0099CC;
+}
+#Sense .NotIntended ul li p {
+	margin: 3px 0 0 0;
+	line-height: 140%;
+}
+
+
+
+/*===== ■*.Clear Release  =====*/
+/*===== ■*.Clear Release  =====*/
+#Sense,
+#Sense ul#SenseNavi{
+	/zoom: 1;
+}
+
+#Sense:after,
+#Sense ul#SenseNavi:after{
+	content: '';
+	display: block;
+	clear: both;
+}

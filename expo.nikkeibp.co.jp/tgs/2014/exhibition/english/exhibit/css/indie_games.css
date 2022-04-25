@@ -1,0 +1,392 @@
+@charset "UTF-8";
+
+
+
+/* ===================================
+
+	File Name   : rule.css
+
+	Description : Contact Page Layout CSS
+
+	Editors     : NS Sakamoto
+
+	Create Date : 2012/02/15
+
+
+
+	Update Description :
+
+		2012/02/14 Append - Basic Styles [Sakurai]
+
+		2012/02/14 File Create
+
+====================================== */
+
+
+
+/*========== Style Contents ==========
+
+
+
+	1. Individual Redefinition
+
+	2. Rule
+
+	3. Rule Schedule
+
+	4. Rule Guide
+
+	5. Rule Regulation
+
+	6. Download Button
+
+	7.  
+
+	*. Clear Release
+
+	
+
+====================================== */
+
+
+
+
+
+
+
+
+
+
+
+/*===== ■1. Individual Redefinition =====*/
+
+/* Global Navigation */
+
+#GlobalNavi li#BtnExhibit a,
+
+#GlobalNavi li#BtnExhibit a:hover {background-position: -300px -51px;}
+
+
+
+
+
+/* Title Setting */
+
+h1 em {
+
+	background: url(../img/rule/ttl_rule.jpg) no-repeat;
+
+	width: 851px;
+
+	height: 30px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*===== ■2. Rule =====*/
+
+h2 {
+
+	width: 879px;
+
+	height: 38px;
+
+	background-color: #6b57a3;
+
+}
+
+h2 strong {
+
+	font-size: 123.1%;
+
+	color: #FFFFFF;
+
+	padding: 10px 0 0 15px;
+
+	display: block;
+
+}
+
+#Rule p {
+
+	margin: 10px 0px 10px 0px;
+
+}
+
+
+
+#Rule ul#pdf_list {
+
+	background: none;
+
+	margin: 0px 0px 0 20px;
+
+	padding: 5px 0px 20px;
+
+	display: block;
+
+	height: 70px;
+
+}
+
+
+
+#Rule ul#pdf_list li {
+
+	float: left;
+
+	padding: 0px 4px 0px 25px;
+
+	display: block;
+
+	background: url(../img/rule/pdf_icon.jpg) no-repeat 0px 0px;
+
+	width: 810px;
+
+	border-bottom: 1px dotted #eeeeee;
+
+	height: 25px;
+
+	margin: 0 0 10px 0;
+
+}
+
+
+
+
+
+/*===== ■3. indie_games =====*/
+
+#indie_games {
+
+	margin: 0 auto 30px auto;
+
+	width: 880px;
+
+}
+
+#indie_games p {
+
+	margin: 10px 0px 20px 0px;
+
+}
+
+#indie_games p span{
+
+	color: #005898;
+
+	font-weight: bold;
+
+}
+
+#indie_games p strong{
+
+	color: #fff;
+
+	font-weight: bold;
+
+	background-color: #000000;
+
+	padding: 3px 10px;
+
+	margin: 5px 0 0 0;
+
+}
+
+#indie_games p img {
+
+	margin: 10px 0 0 0;
+
+}
+
+#indie_games dl{
+
+	margin: 0;
+
+	padding: 20px;
+
+	width: 860px;
+
+	background-color: #F3F3F3;
+	color:#333333;
+
+}
+
+#indie_games dt.list01 {
+
+	float: left;
+
+	width: 12em;
+
+	line-height: 150%;
+
+}
+
+#indie_games dt.list02 {
+
+	float: left;
+
+	width: 9em;
+
+	line-height: 150%;
+
+}
+
+#indie_games dd {
+
+	margin-left: 12em;
+
+	margin-bottom: 10px;
+
+	line-height: 150%;
+
+}
+
+#indie_games dd ul {
+
+	margin-top: 10px;
+
+}
+
+#indie_games dd .contains {
+
+	margin: 10px 5px 0 0;
+
+	padding: 2px;
+
+	color: #000000;
+
+	background: #d4d4d4;	
+
+	line-height: 200%;
+
+}
+
+#indie_games dd .contains_general {
+
+	color: #B96DA9;
+
+}
+
+#indie_games dd .contains_4days {
+
+	color: #F08200;
+
+}
+
+#indie_games dd a {
+
+	color: #3F87E7;
+
+}
+
+#indie_games dd a:hover {
+
+	text-decoration: underline;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/*===== ■5. Rule Regulation =====*/
+
+
+
+#indie_games_display p {
+
+	margin: 10px 0px 20px 0px;
+
+}
+
+#indie_games_display p span{
+
+	color: #005898;
+
+	font-weight: bold;
+
+}
+
+
+/*===== ■6. Download Button =====*/
+
+#BtnDownload {
+
+	padding: 0px 0px 0px 40px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/*===== ■7.  =====*/
+
+#RuleKikaku dl {
+
+	margin: 10px 0px 0 0;
+
+	padding: 10px 14px;
+
+	width: 852px;
+
+	background-color: #F3F3F3;
+
+}
+
+
+
+
+
+
+
+
+
+/*===== ■*.Clear Release  =====*/
+
+#********************** {
+
+	/zoom: 1;
+
+}
+
+
+
+#**********************:after {
+
+	content: '';
+
+	display: block;
+
+	clear: both;
+
+}
+
+#indie_games dl dd strong {
+	color: #D90404;
+	font-weight: bold;
+}

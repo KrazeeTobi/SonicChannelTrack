@@ -1,0 +1,204 @@
+@charset "UTF-8";
+
+
+
+/* ===================================
+
+	File Name   : preview.css
+
+	Description : Preview Page Layout CSS
+
+	Editors     : NS Sakamoto
+
+	Create Date : 2012/02/14
+
+
+
+	Update Description :
+
+		2012/02/14 Append - Basic Styles [Sakurai]
+
+		2012/02/14 File Create
+
+====================================== */
+
+
+
+/*========== Style Contents ==========
+
+
+
+	1. Individual Redefinition
+
+	2. Press Preview
+
+	3. 
+
+	4. Download Button
+
+	5. 
+
+	6. 
+
+	7. 
+
+	*. Clear Release
+
+	
+
+====================================== */
+
+
+
+
+
+
+
+
+
+
+
+/*===== ■1. Individual Redefinition =====*/
+
+/* Global Navigation */
+
+#GlobalNavi li#Btn2011 a,
+
+#GlobalNavi li#Btn2011 a:hover {background-position: -300px -151px;}
+
+
+
+
+
+/* Title Setting */
+
+h1 em {
+
+	background: url(../img/ttl_press-preview.jpg) no-repeat;
+
+	width: 850px;
+
+	height: 30px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*===== ■2. Press Preview =====*/
+
+#PressPreview h2 {
+	clear:both;
+	margin: 0;
+	height:30px;
+	line-height:30px;
+	font-weight:bold;
+	padding:5px 10px;
+	border:1px solid #0f53a6;
+	background:#ffffff;
+	color:#0f53a6;
+}
+
+#PressPreview ul {
+
+	padding: 20px 0px 30px 0;
+
+	clear: both;
+
+}
+
+
+
+#PressPreview ul li {
+
+	margin: 0px 10px 10px 0;
+
+	padding: 0;
+
+	float: left;
+
+}
+
+
+
+#PressPreview ul li.title {
+	width:260px;
+	height:35px;
+	line-height:35px;
+	font-weight:bold;
+	padding:5px 10px;
+	border:1px solid #0f53a6;
+	background:#ffffff;
+	color:#0f53a6;
+	margin: 20px 10px 20px 0;
+	float: left;
+}
+
+#PressPreview ul li.social {
+	line-height:17px;
+}
+
+#PressPreview ul li.end {
+	clear:left;
+}
+
+/*===== ■3. 2011 WEB =====*/
+
+#Btn2011_web {
+
+}
+
+
+
+
+
+
+
+
+
+/*===== ■4. Download Button =====*/
+
+#BtnDownload {
+
+	padding: 0px 0px 0px 40px;
+
+}
+
+
+
+
+
+
+
+
+
+
+/*===== ■*.Clear Release  =====*/
+
+#********************** {
+
+	/zoom: 1;
+
+}
+
+
+
+#**********************:after {
+
+	content: '';
+
+	display: block;
+
+	clear: both;
+
+}
+

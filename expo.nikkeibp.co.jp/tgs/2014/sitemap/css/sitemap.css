@@ -1,0 +1,115 @@
+@charset "utf-8";
+/*
+===========================================================================
+
+	Title : sitemap.css
+
+===========================================================================
+*/
+
+
+/* *********************************************
+*
+*	PC view
+*	
+********************************************* */
+
+/* サイトマップ用
+---------------------------------------------------------------- */
+
+/*幅設定*/
+#wrapper .cntBox {
+	width: 980px !important;
+}
+
+#wrapper .cntBox .boxInner .cnt-wrap {
+	margin: 0 auto;
+	padding:0 0 0 30px;
+	overflow: hidden;
+}
+#wrapper .mainCont .subArea {
+	display: none;
+}
+/*フロート*/
+#wrapper .cntBox .boxInner .box_fl {
+	width: 280px;
+	float: left;
+	padding: 10px;
+	margin-right:0px;
+}
+/*見出し*/
+#wrapper .cntBox .boxInner h4 {
+	font-size: 16px;
+	padding-left: 10px;
+}
+/*リスト設定*/
+#wrapper .cntBox .boxInner ul {
+	margin: 0 0 20px 0;
+	padding: 5px 0 3px;
+	border-left: 6px solid #93d1ca;
+}
+#wrapper .cntBox .boxInner ul li {
+	margin: 5px 0 5px 0;
+	padding-left: 24px;
+	list-style: url(../images/list_icon.gif);
+	list-style-position: inside;
+	font-size: 14px;
+	font-weight: bold;
+	text-indent:-1em;
+}
+/*リンク設定*/
+#wrapper .cntBox .boxInner a {
+	color: #555;
+}
+/*リンクアイコン設定*/
+.lnk_icon {
+	padding: 1px 2px;
+}
+
+/* *********************************************
+*
+*	SP view
+*	
+********************************************* */
+
+@media screen and (max-width:769px) {
+/*幅設定*/
+#wrapper .cntBox {
+	width: 100% !important;
+}
+#wrapper .cntBox .boxInner .cnt-wrap {
+	width: 100%;
+	margin: 0;
+	padding:0 0%;
+}
+/*フロート*/
+#wrapper .cntBox .boxInner .box_fl {
+	width: 100%;
+	margin: 0 auto;
+	float: none;
+	padding: 0px;
+}
+/*見出し*/
+#wrapper .cntBox .boxInner h4 {
+	padding:10px 0 0 10px;
+}
+/*リスト設定*/
+#wrapper .cntBox .boxInner ul li {
+	padding-left: 7px;
+	text-indent: -15px;
+	margin: 15px 0 15px 20px;
+}
+#wrapper .cntBox .boxInner ul li a{
+	width:auto;
+	height:20px;
+	display:block;
+}
+/*リンクアイコン設定*/
+.lnk_icon {
+	padding: 0px 2px;
+}
+#wrapper .cntBox .boxInner ul li {
+	font-size: 12px;	
+}
+
+}

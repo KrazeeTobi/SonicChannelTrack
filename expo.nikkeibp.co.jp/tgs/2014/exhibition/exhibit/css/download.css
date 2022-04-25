@@ -1,0 +1,332 @@
+@charset "UTF-8";
+
+
+
+/* ===================================
+
+	File Name   : download.css
+
+	Description : Contact Page Layout CSS
+
+	Editors     : NS Sakamoto
+
+	Create Date : 2012/02/15
+
+
+
+	Update Description :
+
+		2012/02/14 Append - Basic Styles [Sakurai]
+
+		2012/02/14 File Create
+
+====================================== */
+
+
+
+/*========== Style Contents ==========
+
+
+
+	1. Individual Redefinition
+
+	2. Download
+
+	3. Download Kikaku
+
+	6. Download Button
+
+	7.  
+
+	*. Clear Release
+
+	
+
+====================================== */
+
+
+
+
+
+
+
+
+
+
+
+/*===== ■1. Individual Redefinition =====*/
+
+/* Global Navigation */
+
+#GlobalNavi li#BtnExhibit a,
+
+#GlobalNavi li#BtnExhibit a:hover {background-position: -300px -51px;}
+
+
+
+
+
+/* Title Setting */
+
+h1 em {
+
+	background: url(../img/download/ttl_download.jpg) no-repeat;
+
+	width: 851px;
+
+	height: 30px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*===== ■2. Download =====*/
+
+h2 {
+
+	width: 879px;
+
+	height: 38px;
+
+	background-color: #6b57a3;
+
+}
+
+h2 strong {
+
+	font-size: 123.1%;
+
+	color: #FFFFFF;
+
+	padding: 10px 0 0 15px;
+
+	display: block;
+
+}
+
+#Download {
+
+	margin: 0 auto 30px auto;
+
+	width: 880px;
+
+}
+
+
+
+#Download p {
+
+	margin: 10px 0px 20px 0px;
+
+}
+
+
+
+#Download ul#pdf_list {
+
+	background: none;
+
+	margin: 10px 0px 20px 20px;
+
+	padding: 5px 0px 20px;
+
+}
+
+
+
+#Download ul#pdf_list li {
+
+	float: left;
+
+	padding: 0px 4px 0px 25px;
+
+	display: block;
+
+	background: url(../img/rule/pdf_icon.png) no-repeat 0px 0px;
+
+	width: 810px;
+
+	border-bottom: 1px dotted #eeeeee;
+
+	height: 25px;
+
+	margin: 0 0 10px 0;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*===== ■3. Download Kikaku =====*/
+
+#DownloadKikaku {
+
+	margin: 0 auto 10px auto;
+
+	width: 880px;
+
+}
+
+#DownloadKikaku p {
+
+	clear: both;
+
+	margin: 10px 0px 20px 0px;
+
+}
+
+
+
+#DownloadKikaku ul#pdf_list {
+	background: none;
+	margin: 10px 0px 20px 20px;
+	padding: 5px 0px 20px;
+}
+
+
+
+#DownloadKikaku ul#pdf_list li {
+
+	float: left;
+
+	padding: 0px 4px 0px 25px;
+
+	display: block;
+
+	background: url(../img/rule/pdf_icon.png) no-repeat 0px 0px;
+
+	width: 810px;
+
+	border-bottom: 1px dotted #eeeeee;
+
+	height: 25px;
+
+	margin: 0 0 10px 0;
+
+}
+
+#DownloadKikaku2 a {
+	color:#0453af;
+}
+
+#DownloadKikaku2 .btn {
+
+	padding: 0px 0px 30px 0;
+
+}
+
+#DownloadKikaku2 .btn li {
+
+	margin-right: 5px;
+
+}
+
+#DownloadKikaku2 .btn a {
+
+	display: block;
+
+	background: url(../img/download/download_zip_btn.gif) no-repeat ;
+
+	width: 211px;
+
+	height: 60px;
+
+}
+
+#DownloadKikaku dl {
+
+	margin: 10px 0px 0 0;
+
+	padding: 10px 14px;
+
+	width: 880px;
+
+	font-size: 108%;
+
+	background-color: #F3F3F3;
+
+}
+
+#DownloadKikaku2 dl {
+
+	margin: 10px 0px 0 0;
+
+	padding: 10px 14px;
+
+	width: 880px;
+
+	background-color: #F3F3F3;
+	color:#333333;
+}
+
+
+
+/*===== ■6. Download Button =====*/
+
+#BtnDownload {
+
+	padding: 0px 0px 0px 40px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/*===== ■7.  =====*/
+
+
+
+
+
+
+
+
+
+
+
+/*===== ■*.Clear Release  =====*/
+
+#********************** {
+
+	/zoom: 1;
+
+}
+
+
+
+#**********************:after {
+
+	content: '';
+
+	display: block;
+
+	clear: both;
+
+}
+

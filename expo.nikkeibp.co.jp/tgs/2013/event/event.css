@@ -1,0 +1,155 @@
+@charset "utf-8";
+
+/*event*/
+
+
+.cont-event .title-primary .inner {
+	font-size: 1.5em;
+	
+	padding: 20px 20px 10px 20px;
+	border: solid 1px #005BBF;
+	
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(1.00, #046BE2), color-stop(0.00, #40a9db));
+	background: -webkit-linear-gradient(#40a9db, #046BE2);
+	background: -moz-linear-gradient(#40a9db, #046BE2);
+	background: -o-linear-gradient(#40a9db, #046BE2);
+	background: -ms-linear-gradient(#40a9db, #046BE2);
+	background: linear-gradient(#40a9db, #046BE2);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#E94C3D", endColorstr="#C2382B", GradientType=0); /* IE7,8,9 */
+}
+.cont-event .title-primary .sub-inner {
+	font-size: 1.5em;
+	
+	padding: 20px 20px 10px 20px;
+	border: solid 1px #BF0D62;
+	
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(1.00, #BF0D62), color-stop(0.00, #F24196));
+	background: -webkit-linear-gradient(#F24196, #BF0D62);
+	background: -moz-linear-gradient(#F24196, #BF0D62);
+	background: -o-linear-gradient(#F24196, #BF0D62);
+	background: -ms-linear-gradient(#F24196, #BF0D62);
+	background: linear-gradient(#F24196, #BF0D62);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#BF0D62", endColorstr="#F24196", GradientType=0); /* IE7,8,9 */
+}
+.no-cssgradients .cont-event .title-primary .inner { background-color: #C2382B; }
+
+.cont-event .title-secondary{
+	background-color: #F3D7D3;
+	border-left: solid 10px #E94C3D;
+}
+
+.title-primily{
+	border-left: solid 5px #000066;
+}
+
+.cont-event .title-secondary{
+	background-color: #BFEEFF;
+	border-left: solid 10px #046BE2;
+}
+.cont-event .title-secondary .head-badge { background-color: #E67F23; }
+
+.event_box span {
+	float: left;
+	margin: 0 5px 0 0;
+}
+
+.event_box table tr td {
+	padding: 5px;
+	line-height: 1.5em;
+}
+.event_box table tr td ul.caption  {
+	font-size: 0.8em;
+	line-height: 1.0em;
+}
+.event_box table tr td em {
+	display: inline-block;
+	width: 90px;
+}
+
+@media (max-width:769px)  {
+	.event_box span {
+		width: 100%;
+		margin: 0 0 5px 0;
+		text-align: center;
+	}
+	.event_box table tr td {
+		border: none;
+	}
+}
+
+/* Cosplay Collection Night@TGS */
+
+.ccnmainArea{
+	margin:0 0 25px 0;
+	width:100%;
+	min-height:170px;
+	background:url(../src/img/event/ccn_mainimage.gif) 0 0 no-repeat;
+	}
+
+.ccnmainArea p{
+	padding:20px 25px 0 240px;
+	font-size:12px;
+	color:#0b7bd6;
+	line-height:1.75em;
+	}
+	
+.ccnplyaerArea{
+	margin:0 0 15px 0;
+	display:block;
+	text-align:center;
+	}
+		
+.sessionArea .ccntxtSub{
+	margin:0 0 15px 0;
+	padding:0 15px;
+}
+
+
+
+/* event  2013.09.03 hisa */
+/*.cont-event .title-primary .inner {
+	border: solid 1px #14A288;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(1.00, #14A288), color-stop(0.00, #1BBC9B));
+	background: -webkit-linear-gradient(#1BBC9B, #14A288);
+	background: -moz-linear-gradient(#1BBC9B, #14A288);
+	background: -o-linear-gradient(#1BBC9B, #14A288);
+	background: -ms-linear-gradient(#1BBC9B, #14A288);
+	background: linear-gradient(#1BBC9B, #14A288);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1BBC9B", endColorstr="#14A288", GradientType=0); 
+}*/
+.cont-event .title-primary .inner .sown_abc {
+	font-size: 0.7em;
+}
+.no-cssgradients .cont-event .title-primary .inner { background-color: #14A288; }
+
+/*.cont-event .title-secondary{
+	background-color: #C6EEE6;
+	border-left: solid 10px #1BBC9B;
+}*/
+
+#ccn_about img {
+	padding: 0 0 10px 0;
+}
+
+.list1 table {
+	margin:0 0 10px 0;
+	padding:1px;
+	border-collapse: collapse;
+}
+
+.list1 table#gaiyo th {
+	width:100px;
+	padding:15px;
+	text-align: left;
+	font-size:12px;
+	font-weight:normal;
+	background:#C7E181;
+	border-bottom:1px solid #CCCCCC;
+}
+
+.list1 table#gaiyo td {
+	padding:15px;
+	font-size:12px;
+	background:#fff;
+	border-bottom:1px solid #CCCCCC;
+}

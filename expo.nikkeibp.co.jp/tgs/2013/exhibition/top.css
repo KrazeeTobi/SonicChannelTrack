@@ -1,0 +1,153 @@
+@charset "UTF-8";
+
+/* ===================================
+	File Name   : top.css
+	Description : Top Page Layout CSS
+	Editors     : NS Sakurai
+	Create Date : 2012/02/09
+
+	Update Description :
+		2012/03/09 Append - Banner Box Styles [Sakurai]
+		2012/02/10 Append - Value Styles [Sakurai]
+		2012/02/09 File Create
+====================================== */
+
+/*========== Style Contents ==========
+
+	1. Contents
+	2. Title
+	3. keylogo
+	4. blkR
+	5. BtnDownload_top
+	6. Top Information
+	7. blkImg 
+	
+====================================== */
+
+/*===== ■1. Contents =====*/
+#Contents {
+	margin:20px auto 0 auto;
+	width:900px;
+	clear:both;
+}
+
+/*===== ■2. Title =====*/
+h3 {
+	background: url(img/ttl_whats-new.jpg) no-repeat;
+	margin: 0 0px 10px 0;
+	width: 480px;
+	height: 25px;
+	text-indent: -9999px;
+	border-bottom:1px dotted #ACACAC;
+	padding-bottom:10px;
+}
+
+/*===== ■3. keylogo =====*/
+#keylogo {
+	float:left;
+	width:400px;
+	margin-right:20px;
+}
+
+/*===== ■4. blkR =====*/
+#blkR {
+	float:left;
+	width:480px;
+}
+
+/*===== ■5. BtnDownload_top =====*/
+#BtnDownload_top {
+	width: 480px;
+	margin: 30px auto;
+}
+
+#BtnDownload_top li a {
+	background-image: url(common/img/img_btn.jpg);
+	height: 138px;
+	width: 480px;
+	display: block;
+	background-position: 0px -350px;
+}
+
+#BtnDownload_top li a:hover {
+	background-position: 0px -495px;
+}
+
+/*===== ■6. Top Information =====*/
+#TopInfo {
+	width: 480px;
+	margin-bottom:30px;
+}
+#TopInfo ul li {
+	/zoom: 1;
+}
+#TopInfo ul li:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+#TopInfo ul li {
+	padding: 0px 0px 5px 12px;
+	border-bottom:1px dotted #ACACAC;
+	margin-bottom:10px;
+}
+#TopInfo ul li span {
+	display: block;
+	float: left;
+	width: 70px;
+	font-size: 95%;
+	color:#333333;
+	line-height:1.4;
+	margin-right: 10px;
+}
+#TopInfo ul li p {
+	float: left;
+	font-size: 93%;
+	width: 350px;
+	line-height: 1.4;
+}
+#TopInfo ul li p a {
+	color:#03A1C3;
+}
+
+/*===== ■7. blkImg  =====*/
+#blkImg {
+	clear:both;
+	padding-top:20px;
+}
+#ttlImg {
+	margin-bottom:4px;
+}
+#idWrap{
+	margin-bottom:14px;
+}
+div.scrollWrapper {
+	position:relative;
+	overflow:hidden;
+	width:100%;
+	height:100%;
+}
+div.scrollableArea {
+	position:relative;
+	width:auto; height:100%;
+}
+.clSum {
+	width:100%;
+	height:143px;
+	position:relative;
+}
+.clSum * {
+	position:relative;
+	float:left;
+	margin:0; padding:0;
+}
+div.scrollableArea img{
+	padding:6px !important;
+}
+
+
+
+
+
+
+
