@@ -1,0 +1,176 @@
+@charset "UTF-8";
+
+/* ===================================
+
+	File Name   : support.css
+
+====================================== */
+
+
+/*========== Style Contents ==========
+
+	1. Individual Redefinition
+	2. support
+	3. Meeting
+	*. Clear Release
+	
+====================================== */
+
+
+
+
+
+
+/*===== ■1. Individual Redefinition =====*/
+
+/*----- Global Navigation -----*/
+
+#GlobalNavi li#BtnExhibit a,
+#GlobalNavi li#BtnExhibit a:hover {background-position: -320px -51px;}
+
+
+
+/*----- Title Setting -----*/
+
+.Section_ttl {
+	margin-top: 10px;
+	margin-bottom: 20px;
+	padding-right: 0px;
+}
+.Section_ttl span.text {
+	float: left;
+}
+.Section_ttl span.lang {
+	display: block;
+	float: right;
+	margin: -1px 10px 0px 0px;
+	padding: 3px 7px 3px 6px;
+	font-size: 88%;
+	font-weight: normal;
+	color: #fff;
+	background-color: #939393;
+}
+.Section_ttl span.price {
+	display: block;
+	float: right;
+	margin: 4px 0px 0px;
+	width: 88px;
+	height: 43px;
+	overflow: hidden;
+	text-indent: 100%;
+	white-space: nowrap;
+	background-image: url(../img/support/icon_free.png);
+	background-repeat: no-repeat;
+}
+
+
+
+
+
+
+/*===== ■2. Support =====*/
+
+#Support {
+	margin-bottom: 50px;
+}
+#Support .supportLeft {
+	float: left;
+	width: 600px;
+}
+#Support .supportRight {
+	float: right;
+}
+
+#Support .supportLeft p {
+	line-height:1.7em;
+}
+
+
+#Support .supportLeft .systemflow {
+	float: left;
+	margin-top: 20px;
+}
+#Support .supportLeft .systemflow dt{
+	font-size:110%;
+	color: #2b2b2b;
+	font-weight: bold;
+}
+#Support .supportLeft .system {
+	float: left;
+	margin-top: 20px;
+	border: solid 1px #CCCCCC;
+	padding: 20px 30px 20px 30px;
+}
+#Support .supportLeft .system dt {
+	display: block;
+	/*width: 440px;*/
+	color: #2b2b2b;
+	font-weight: bold;
+}
+#Support .supportLeft dd{
+	margin: 10px 0 0 0;
+	clear: both;
+}
+#Support .supportLeft .system dd img{
+	float: left;
+	margin-top: 0px;
+}
+
+
+
+
+
+
+/*===== ■3. Meeting =====*/
+
+#Meeting {
+}
+
+#Meeting .MeetingLeft {
+	float: left;
+	margin: 0px 20px 0 0;
+	width: 404px;
+}
+
+#Meeting .MeetingRight {
+	float: right;
+	width: 400px;
+	padding-left: 24px;
+}
+
+#Meeting .MeetingRight p {
+	margin: 0px 0px 10px 0px;
+}
+
+#Meeting .MeetingRight .system {
+	margin: 0px 0px 30px 0px;
+	border: solid 1px #CCCCCC;
+	padding: 15px;
+	float: left; 
+}
+#Meeting .MeetingRight .system dt {
+	color: #2b2b2b;
+	font-weight: bold;
+	line-height:1.7em;
+	margin-bottom:5px;
+}
+#Meeting .MeetingRight .system dd {
+	font-size: 86%;
+}
+
+
+
+
+
+
+/*===== ■*.Clear Release  =====*/
+
+/*#********************** {
+	/zoom: 1;
+}
+
+#**********************:after {
+	content: '';
+	display: block;
+	clear: both;
+}*/

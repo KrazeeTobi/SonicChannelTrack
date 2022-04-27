@@ -1,0 +1,330 @@
+@charset "UTF-8";
+
+/* ===================================
+
+	File Name   : sponsor.css
+
+====================================== */
+
+
+/*========== Style Contents ==========
+
+	1. Individual Redefinition
+	2. Sponcer
+	3. SponcerLimitation
+	4. SponcerLimitationLight
+	5. SponcerGeneral
+	
+====================================== */
+
+
+
+
+
+
+/*===== ■1. Individual Redefinition =====*/
+
+/*----- Global Navigation -----*/
+
+#GlobalNavi li#BtnExhibit a,
+#GlobalNavi li#BtnExhibit a:hover {background-position: -320px -51px;}
+
+
+
+/*----- Title Setting -----*/
+
+.Section_ttl {
+	margin-bottom: 20px;
+}
+
+
+
+/*----- Page Common Parts -----*/
+
+.SponcerText {
+	line-height: 1.5;
+}
+
+#SponcerLimitation .days,
+#SponcerLimitationLight .days,
+#SponcerGeneral .days {
+	padding-top: 10px;
+	width: 860px;
+}
+#SponcerLimitation .days dt,
+#SponcerLimitationLight .days dt,
+#SponcerGeneral .days dt {
+	float: left;
+	margin-right: 10px;
+	padding: 16px 8px 16px 12px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 110%;
+	color: #fff;
+	background: #474747;
+}
+#SponcerLimitation .days dd,
+#SponcerLimitationLight .days dd,
+#SponcerGeneral .days dd {
+	font-size: 98%;
+}
+#SponcerGeneral .days {
+	margin-bottom: 30px;
+}
+
+
+
+
+
+
+/*===== ■2. Sponcer =====*/
+
+#Sponcer p {
+	margin: 10px 0px 10px 0px;
+}
+
+#Sponcer .btn {
+	padding: 20px 0px 30px 0;
+}
+#Sponcer .btn li {
+	float: none;
+	width: 284px;
+	height: 82px;
+}
+
+#Sponcer .photo {
+	padding: 0;
+	clear: both;
+	margin: 0 0 20px 0;
+	display: block;
+	width: 860px;
+	height: 404px;
+}
+#Sponcer .photo li {
+	margin: 0px 4px 4px 0;
+	padding: 0;
+	float: left;
+	height: 186px;
+	width: 284px;
+	display: block;
+}
+
+#Sponcer .photo li.lineEnd {
+	margin-right:0;
+}
+
+
+
+
+
+
+/*===== ■3. SponcerLimitation =====*/
+
+#SponcerLimitation {
+	margin-bottom: 40px;
+}
+#SponcerLimitation p {
+	margin: 10px 0px 20px 0px;
+}
+#SponcerLimitation h3 {
+	margin: 10px 0px;
+	font-size:180%;
+	font-weight:bold;
+	color:#333333;
+}
+#SponcerLimitation h3 img {
+	margin-left:10px;
+	display:inline-block;
+}
+
+#SponcerLimitation .price {
+	float: left;
+	width: 533px;
+}
+#SponcerLimitation .price dt span {
+	float: left;
+	margin-right: 10px;
+}
+#SponcerLimitation .price dt em {
+	display: block;
+	width: 300px;
+	padding-top: 4px;
+	color: #474747;
+	font-weight: bold;
+}
+#SponcerLimitation .price dd{
+	margin: 20px 10px;
+	clear: both;
+}
+#SponcerLimitation .box {
+	width: 798px;
+	color:#333333;
+	padding: 20px 30px 10px;
+	margin: 10px 0px 20px 0px;
+	border: 1px solid #CCC;
+}
+#SponcerLimitation .box ul {
+	float: left;
+	margin: 10px 20px 10px 0px;
+}
+#SponcerLimitation .box li {
+	margin: 5px 0px;
+}
+#SponcerLimitation .box p {
+	clear: both;
+	margin: 0px 0px 10px 0px;
+}
+#SponcerLimitation .line {
+	clear: both;
+	margin: 30px 0px;
+}
+
+
+
+
+
+
+/*===== ■4. SponcerLimitationLight =====*/
+
+#SponcerLimitationLight {
+	margin-bottom: 50px;
+	background: url(../img/sponcer/ttl_sponcer_02_bg.png) no-repeat top right;
+	margin-top:20px;
+	border-top:dotted 1px #4f4f4f;
+}
+#SponcerLimitationLight p {
+	margin: 10px 0px 20px 0px;
+}
+#SponcerLimitationLight h3 {
+	margin: 10px 0px;
+	font-size:180%;
+	font-weight:bold;
+	color:#333333;
+}
+#SponcerLimitationLight h3 img {
+	margin-left:10px;
+	display:inline-block;
+}
+
+#SponcerLimitationLight h3 span{
+	font-size:1%;
+	width:91px;
+	height:31px;
+	background-image: url(../img/sponcer/sponcer_30min.png);
+}
+
+#SponcerLimitationLight .price {
+	float: left;
+	width: 533px;
+}
+#SponcerLimitationLight .price dt span {
+	float: left;
+	margin-right: 10px;
+}
+#SponcerLimitationLight .price dt em {
+	display: block;
+	width: 300px;
+	padding-top: 4px;
+	color: #333333;
+	font-weight: bold;
+}
+#SponcerLimitationLight .price dd{
+	margin: 20px 10px;
+	clear: both;
+}
+#SponcerLimitationLight .box {
+	width: 798px;
+	color:#333333;
+	padding: 20px 30px 10px;
+	margin: 10px 0px 20px 0px;
+	border: 1px solid #CCC;
+}
+#SponcerLimitationLight .box ul {
+	float: left;
+	margin: 10px 20px 10px 0px;
+}
+#SponcerLimitationLight .box li {
+	margin: 5px 0px;
+}
+#SponcerLimitationLight .box p {
+	clear: both;
+	margin: 0px 0px 10px 0px;
+}
+#SponcerLimitationLight .line {
+	clear: both;
+	margin: 30px 0px;
+}
+#SponcerLimitationLight .btn {
+	padding: 30px 0px 30px 0;
+	clear: both;
+}
+#SponcerLimitationLight .btn li {
+	float: left;
+	margin-right: 5px;
+}
+#SponcerLimitationLight .btn .small {
+	padding-top: 10px;
+}
+
+
+
+
+
+
+/*===== ■5. SponcerGeneral =====*/
+
+#SponcerGeneral p {
+	margin: 10px 0px 20px 0px;
+}
+#SponcerGeneral h3 {
+	margin: 10px 0px;
+	font-size:180%;
+	font-weight:bold;
+	color:#333333;
+}
+#SponcerGeneral .btn li {
+	float: left;
+	margin-right: 5px;
+}
+#SponcerGeneral .btn .small {
+	padding-top: 10px;
+}
+#SponcerGeneral .photo {
+	padding: 30px 0px 30px 0;
+	clear: both;
+}
+#SponcerGeneral .photo li {
+	margin: 0px 4px 10px 0;
+	padding: 0;
+	float: left;
+}
+
+#SponcerGeneral .photo .lineEnd{
+	margin-right:0px;
+}
+
+
+
+
+
+
+/*===== ■6.  =====*/
+
+/*#BtnDownload_top {
+	height: 138px;
+	width: 480px;
+	margin: 30px auto;
+	display: block;
+}
+
+#BtnDownload_top li a {
+	background-image: url(../../common/img/img_btn.jpg);
+	height: 130px;
+	width: 440px;
+	display: block;
+	background-position: 0px -360px;
+}
+
+#BtnDownload_top li a:hover {
+	background-position: 0px -505px;
+}*/
