@@ -1,0 +1,300 @@
+@charset "utf-8";
+/* CSS Document */
+.sub_titles{
+color: 	#100055;
+}
+/*物販*/
+.photo_main{
+	width:96%;
+	margin-left:auto;
+	margin-right:auto;
+
+	
+	
+
+	}
+.photo_main figure{
+	width:47.1% !important;
+	margin-bottom:10%;
+	display:inline-block;
+	vertical-align:top;
+}
+.photo_main figure:nth-child(2n){
+	margin-right:0px;
+}
+
+.photo_main figure{
+		margin-right:1.9% !important;
+}
+.photo_main figure img{
+	border:2px solid #D4D4D4;}
+/*ショップ*/
+#store{
+	width:100%;
+	margin-left:auto;
+	margin-right:auto;
+}
+#store nav{
+	display:block;
+	margin-top:2%;
+	margin-bottom:4%;
+
+	}
+
+#store figure{
+
+	width:30%;
+	display:inline-block;
+	margin-left:2%;
+	vertical-align:top;
+	align-content:center;
+	}
+		.sc{
+	height:50px;
+	}
+
+#category{
+	width:100%;
+	margin-left:auto;
+	margin-right:auto;
+	}
+#category li {
+		display:inline-block;
+		margin:1%;
+		padding:1.5% !important;
+			border:1px solid #CCCCCC;
+			padding-right:8% !important;
+	background: #fff;
+	background-image:url(../img/triangle_ic2.jpg);
+			background-repeat:no-repeat;
+			background-position:center right;
+
+			
+border-radius: 4px;        /* CSS3草案 */  
+    -webkit-border-radius: 4px;    /* Safari,Google Chrome用 */  
+    -moz-border-radius: 4px;   /* Firefox用 */  
+	}	
+#category li a{
+	color:#56A6F0;
+	text-decoration: none;
+
+
+		background: #fff;
+
+
+	}	
+#category li a:hover{
+	color:#56A6F0;
+	text-decoration: none;
+	opacity:0.6;
+		background: #fff;
+	
+
+
+
+	}	
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px ) {
+	/*物販*/
+.photo_main{
+	width:96%;
+	margin-left:auto;
+	margin-right:auto;
+	
+	
+
+	}
+.photo_main figure{
+	width:23.7%;
+	margin-bottom:1%;
+	display:inline-block;
+	vertical-align:top;
+}
+.photo_main figure:nth-child(4n){
+	margin-right:0px;
+}
+
+.photo_main figure{
+		margin-right:1.2%;
+}
+.photo_main figure img{
+	border:2px solid #D4D4D4;}
+	
+}
+
+#pre{
+		margin-left:auto;
+	margin-right:auto;
+	width:95%;
+
+	}				
+.pre_photo{
+	width:70%;
+	display:inline-block;
+	border:1px #cccccc solid;
+	margin-left:auto;
+	margin-right:auto;
+
+	
+	}
+.pre_photo2{
+	width:70%;
+	display:inline-block;
+	xxxxborder:1px #cccccc solid;
+	margin-left:auto;
+	margin-right:auto;
+
+	
+	}
+.pre_text{
+	width:100%;
+	display:inline-block;
+	font-size:1.3em;
+	vertical-align:top;
+	
+}
+.red{
+	color:#ff0000;
+	font-weight:bold;
+	}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px ) {
+	/*物販*/
+.photo_main{
+	width:96%;
+	margin-left:auto;
+	margin-right:auto;
+	
+
+	}
+.photo_main figure{
+	width:18.7%;
+	margin-bottom:1%;
+	display:inline-block;
+	vertical-align:top;
+}
+.photo_main figure:nth-child(5n){
+	margin-right:0px;
+}
+
+.photo_main figure{
+		margin-right:1.2%;
+}
+.photo_main figure img{
+	border:2px solid #D4D4D4;}
+#pre{
+		margin-left:auto;
+	margin-right:auto;
+	width:95%;
+
+	}				
+.pre_photo{
+	width:70%;
+	display:inline-block;
+	border:1px #cccccc solid;
+	margin-left:auto;
+	margin-right:auto;
+
+	
+	}
+.pre_text{
+	width:100%;
+	display:inline-block;
+	font-size:1.3em;
+	vertical-align:top;
+	
+}
+
+}
+
+/* Large devices (large desktops, 1300px and up) */
+@media (min-width: 1300px ) {
+	/*物販*/
+.photo_main{
+	width:1200px !important;
+	margin-left:auto;
+	margin-right:auto;
+	
+
+	}
+.photo_main figure{
+	width:18.7% !important;
+	margin-bottom:1%;
+	display:inline-block;
+	vertical-align:top;
+}
+.photo_main figure:nth-child(5n){
+	margin-right:0px !important;
+}
+
+.photo_main figure{
+		margin-right:15px !important;
+}
+.photo_main figure img{
+	border:2px solid #D4D4D4;}
+
+.sotowaku {
+  
+padding: 40px;
+ background: #FFF;
+margin: 0 auto;
+position: relative;
+max-width: 520px;	
+
+}
+	#pre{
+		margin-left:auto;
+	margin-right:auto;
+	width:1200px;
+
+	}				
+.pre_photo{
+	width:49%;
+	display:inline-block;
+	border:1px #cccccc solid;
+
+	
+	}
+	.pre_photo2{
+	width:49%;
+	display:inline-block;
+	xxxxborder:1px #cccccc solid;
+
+	
+	}
+.pre_text{
+	width:48%;
+	display:inline-block;
+	font-size:1.5em;
+	vertical-align:top;
+	
+}
+.red{
+	color:#ff0000;
+	font-weight:bold;
+	}
+	/*ショップ*/
+#store{
+	width:100%;
+	margin-left:auto;
+	margin-right:auto;
+}
+#store nav{
+	display:block;
+	margin-top:2%;
+	margin-bottom:4%;
+
+	}
+
+#store figure{
+
+	width:17%;
+	display:inline-block;
+	margin-left:2%;
+	vertical-align:top;
+	align-content:center;
+	}
+	
+}
