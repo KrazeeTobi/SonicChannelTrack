@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>參展公司新聞稿 | 東京電玩展 2016</title>
+<meta name="Description" content="TOKYO GAME SHOW 2016" />
+<meta name="Keywords" content="TOKYO GAME SHOW 2016,video games,conference,shows,companies,convention,sales,Indie Game,Cloud Gaming,Game Device,Cosplay" />
+
+<!-- default style -->
+<link rel="stylesheet" type="text/css" href="/tgs/2016/business/en/common/css/reset.css" media="all">
+<link rel="stylesheet" type="text/css" href="/tgs/2016/business/en/common/css/base.css" media="all">
+<!-- /default style -->
+
+
+<link rel="stylesheet" type="text/css" href="../css/press.css" media="all">
+<link rel="stylesheet" type="text/css" href="/tgs/2016/business/press/detail/popup.css" media="all">
+<script type="text/javascript" src="/tgs/2016/business/common/js/ga.js"></script>
+</head>
+
+<body id="bodyTop">
+<!--[if lte IE 8.0]>
+<div id="ie">
+    <p>The browser you're using is not updated.  Contents may not be displayed properly.<br /><a href="http://windows.microsoft.com/en-us/internet-explorer/download-ie?ocid=GA8_O_WOL_Hero_Home_IE_Pos4_03" target="_blank">Please download the latest version here.</a></p>
+</div>
+<![endif]--> 
+
+<!-- wrapper -->
+<div id="wrapper">
+  <div id="popup">
+    <h1><img src="../../../../images/logo.png" width="95%" alt="TOKYO GAME SHOW"></h1>
+    <h2><span>參展公司新聞稿</span></h2>
+  </div>
+  <!--footer-->
+  <div class="footer"> 
+    
+    <!-- fb -->
+    <div class="fbox"> 
+      <!-- fi -->
+      <div class="fi clear">
+        <ul>
+          <li><a href="http://www.cesa.or.jp/" target="_blank"><img src="/tgs/2016/business/common/images/footer_bnr_01.png" alt="CESA" width="43" height="20"></a></li>
+          <li><a href="http://corporate.nikkeibp.co.jp/" target="_blank"><img src="/tgs/2016/business/common/images/footer_bnr_02.png" alt="日経BP" width="65" height="20"></a></li>
+        </ul>
+        <p class="clsBtn"><a href="javascript:this.window.close();"><img src="/tgs/2016/business/common/images/cls_btn.gif" width="22" height="22" alt="close"></a></p>
+      </div>
+      <!-- fi --> 
+    </div>
+    <!-- /fb --> 
+  </div>
+  <!--/footer --> 
+  
+</div>
+<!-- /wrapper --> 
+
+<!-- default script --> 
+<script src="/js/bpcommon/jquery.min.js"></script> 
+<!-- /default script --> 
+
+<!-- news load --> 
+<script type="text/javascript" src="/tgs/2016/business/common/js/jsrender.js"></script> 
+<script type="text/javascript" src="/tgs/2016/business/common/js/load_server.js"></script> 
+<script type="text/javascript" src="/tgs/2016/business/common/js/load_news_detail_en.js"></script> 
+<script id="tpl" type="text/x-jsrender">
+            <div class="dbox clear">
+                <h3>{{:name}}</h3>
+                <h4>{{:title}}<br>
+                    {{if url}}
+                        <p><a href="{{:url}}">{{:url}}</a></p>
+                    {{/if}}
+                </h4>
+                <p>
+                    {{if imagePath}}
+                        <img style="max-width: 200px;" src="{{:imagePath}}">
+                    {{/if}}
+                    {{h_br:body}}
+                </p>
+            </div>
+</script> 
+<!-- /news load -->
+
+</body>
+</html>
