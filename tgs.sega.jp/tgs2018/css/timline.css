@@ -1,0 +1,647 @@
+@charset "utf-8";
+/* CSS Document */
+.timlin_title1{
+	display: block;
+	color: #FFF500;
+	margin: 40px 0 20px 0;
+	font-size: 1.5em;
+}
+.h_url img{
+	border: 1px #000 solid;
+}
+.cyu{
+	width:90%;
+	margin-left:auto;
+	margin-right:auto;
+	letter-spacing: 0em;
+	}
+	
+#pre{
+		margin-left:auto;
+	margin-right:auto;
+	width:95%;
+
+	}				
+.pre_photo{
+	width:70%;
+	display:inline-block;
+	border:1px #cccccc solid;
+	margin-left:auto;
+	margin-right:auto;
+
+	
+	}
+.pre_text{
+	width:100%;
+	display:inline-block;
+	font-size:1.3em;
+	vertical-align:top;
+	
+}
+.cyu img{
+width: 30px !important;	
+}
+	.slide {
+  
+padding: 4% !important;
+  background: #FFF !important;
+  margin: 0 auto;
+  position: relative;
+  max-width: 100%;
+  font-size:1.1em;
+
+}
+	.slide h4{
+		margin-top:2%;
+		font-weight:bold;
+		font-size:1.2em;
+		}
+	.slide p{
+		font-size:1.1em;
+		}	
+	
+/*出演者ほか*/
+.time{
+	font-size:0.8em;
+}
+.niconico_nama a:hover{
+	opacity: 0.6;
+}
+
+.discription{
+	display:block;
+	margin-top:2%;
+	text-indent:0px !important;
+	margin-left:0px !important;
+
+}
+	
+.peple{
+	font-size:0.9em !important;
+	font-weight:bold;
+	margin-top:2%;
+	margin-bottom:2%;
+	text-indent:0px !important;
+	margin-left:0px !important;
+
+	
+}
+.guest{
+		font-size:0.9em !important;
+	font-weight:bold;
+
+		text-indent:0px !important;
+		margin-left:0px !important;
+}	
+
+/*生放送*/	
+.h_url{
+	display: none;
+}
+
+.time_url{
+	width: 100%;
+	letter-spacing: -0.4em;
+}
+
+.container_title a:hover{
+opacity: 0.6;
+}
+
+		.niconico_nama {
+				width:49%;
+				margin-left:auto;
+	margin-right:auto;
+			display: inline-block;
+			vertical-align:middle;
+}		
+.niconico_nama ul{
+list-style:none;
+	width:100%;
+	padding:0 !important;
+	border:1px #666666 solid;
+	text-align:right;
+	margin-left:2%;
+			background-color: #FFFFff !important;
+			margin-right:2%;
+line-height: 10px;}	
+	
+.niconico_nama li{
+	display:inline-block;
+	margin:0.8%;
+		width:100%;
+		padding:0.5%;
+	}		
+
+#timelin{
+	width: 100%;
+	line-height: 99%;
+	letter-spacing: -0.4em;
+
+}
+
+#timelin img{
+width: 100%;
+	border: 0px !important;
+	margin: 0px !important;
+	padding: 0px !important;
+		line-height: 150%;
+}
+
+#t1,#t2,#t3,#t4{
+
+}
+#day1,#day2,#day3,#day4{
+	width: 72.97% !important;	
+display: inline-block;
+vertical-align: top;
+	margin: 0px;
+	padding: 0px;
+}
+
+.time_img{
+	display: inline-block;
+	width: 27.03%;
+				vertical-align: bottom;
+}
+#time1,#time2,#time3,#time4{
+width: 	100%;	
+display: inline-block;
+vertical-align: top;
+	margin: 0px;
+	padding: 0px;
+}
+#time1,#time3{
+background: #ffffff;
+background-size:contain !important;
+}
+
+#time2,#time4{
+background: #ffffff;
+	background-size:contain !important;
+}
+
+#time1 ul,#time2 ul,#time3 ul,#time4 ul{
+	    list-style-type: none;  
+margin: 0px;
+	padding: 0px;
+	
+}
+#time1 ul li,#time2 ul li,#time3 ul li,#time4 ul li{
+	    list-style-type: none;  
+margin: 0px !important;
+	padding: 0px !important;
+	line-height: 60% !important;
+	
+}
+
+#timelin a:hover{
+	opacity: 0.6;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px ) {
+	.h_url{
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+		display: inline-block;
+	
+	}
+	
+
+	
+		.h_url img{
+		display: inline-block;
+			border: 0px solid #ff0 !important;
+	
+	}	
+	.h_url li{
+				display: inline-block;
+	}	
+	
+		#t2,#t4{
+		display: inline-block;
+	width: 42.18% !important;
+			
+	
+	}
+		#t1,#t3{
+		display: inline-block;
+		width: 57.81% !important;
+			vertical-align: top;
+
+			
+	}
+	
+	#t2 .time_img,#t4 .time_img{
+		
+	display: none;
+		
+		
+	}
+	
+	#t1 .time_img,#t3 .time_img{
+width: 27.03%;
+	display: inline-block;
+}
+
+	#day1,#day3{
+		width: 72.97%;
+		display: inline-block;
+			vertical-align: top;
+
+	}
+	
+	#time1,#time3{
+width: 100%;
+			background-size:contain !important;
+		background:#fff;
+		display: inline-block;
+			vertical-align: top;
+		letter-spacing: -0.4em;
+	}
+		#day2,#day4{
+		width: 100% !important;
+		display: inline-block;
+			vertical-align: top;
+
+				letter-spacing: -0.4em;
+	}
+	#time2,#time4{
+	width: 100%!important;
+			background-size:contain !important;
+	
+				letter-spacing: -0.4em;
+display: inline-block;
+background: #fff;
+
+	margin: 0px;
+	padding: 0px;
+		vertical-align: top;
+}
+	/*生放送*/	
+		.niconico_nama {
+				width:100%;
+				margin-left:auto;
+	margin-right:auto;
+}		
+.niconico_nama ul{
+
+	width:100%;
+	padding:0 !important;
+	border:1px #666666 solid;
+	text-align:right;
+	margin-left:0px;
+	background-color: #FFFFFF;}	
+	
+.niconico_nama li{
+	display:inline-block;
+	margin-right:0.6%;
+		width:18.6%;
+	padding:0% !important;
+	letter-spacing: 0em;
+	vertical-align:middle !important;
+}
+		.left_th{width: 20.9% !important;
+	background: #3f3f3f;
+	margin-right: 0.2%;
+		letter-spacing: 0em;
+	padding: 0.2%;
+	text-align: center;
+	margin-bottom: 0.5%;}
+	.right_th{width:78.8%;
+	background: #57575b !important;
+	vertical-align: top;
+		letter-spacing: 0em;
+	padding: 0.2%;
+		text-align: center;
+		margin-bottom: 0.5%;}	
+
+}
+
+	/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px ) {
+	/*生放送*/	
+		.niconico_nama {
+				width:96%;
+				margin-left:auto;
+	margin-right:auto;
+}		
+.niconico_nama ul{
+
+	width:100%!important;
+	padding:0.1% !important;
+	border:1px #666666 solid;
+	text-align:right;
+	margin-left:2%;
+	background-color: #FFFFFF;}	
+	
+.niconico_nama li{
+	display:inline-block;
+	margin-left:0.6%;
+		width:18%;
+	padding:0% !important;
+}
+	.h_url{
+		width: 100%;
+		
+		display: inline-block;
+	
+	}
+	
+
+	
+		.h_url img{
+		display: inline-block;
+			border: 0px solid #ff0 !important;
+	
+	}	
+	.h_url li{
+				display: inline-block;
+	}	
+	
+		.left_th{width: 20.9%;
+	background: #3f3f3f;
+	margin-right: 0.2%;}
+	.right_th{width:78.9%;
+	background: #57575b !important;
+	vertical-align: top;}	
+			.niconico_nama {
+				width:100%;
+				margin-left:auto;
+	margin-right:auto;
+}		
+	#timelin{
+	width: 100% !important;
+		letter-spacing: -0.4em;
+}
+	#t2,#t3,#t4{
+		display: inline-block;
+		width: 22.888% !important;
+		vertical-align: top;
+	
+	}
+		#t1{
+		display: inline-block;
+		width:31.35% !important;
+		vertical-align: top;
+			text-align: left !important;
+		}
+	
+	#t2 .time_img,#t3 .time_img,#t4 .time_img{
+		
+	display: none;
+		
+		
+	}
+	
+	#t1 .time_img{
+width: 27% !important;
+	display: inline-block;
+		margin: 0px;
+		padding: 0px !important;
+		letter-spacing: -0.4em;
+}
+	#day1{
+	width: 72.97% !important;
+display: inline-block;
+		vertical-align: top;
+	}
+	#time1{
+width: 100% !important;
+display: inline-block;
+background:#fff;
+vertical-align: top;
+	margin: 0px;
+	padding: 0px;
+		background-size:contain !important;
+	}
+	
+	#day2,#day4{
+		width: 100% !important;	
+		display: inline-block;
+		vertical-align: top;
+	}	
+	#time2,#time4{
+	width: 100% !important;
+display: inline-block;
+background: #fff;
+vertical-align: top;
+	margin: 0px;
+	padding: 0px;
+		background-size:contain !important;
+}
+	#day3{
+		width: 100% !important;	
+		display: inline-block;
+		vertical-align: top;
+	}
+	#time3{
+	width: 100% !important;
+display: inline-block;
+background: #fff;
+vertical-align: top;
+			background-size:contain !important;
+	margin: 0px;
+	padding: 0px;
+			
+}
+	
+	
+	/*生放送*/	
+		.niconico_nama {
+				width:100%;
+				margin-left:auto;
+	margin-right:auto;
+}		
+.niconico_nama ul{
+
+	width:100%;
+	padding:0 !important;
+	border:1px #666666 solid;
+	text-align:right;
+	margin-left:0px;
+	background-color: #FFFFFF;}	
+	
+.niconico_nama li{
+	display:inline-block;
+	margin-right:0.6%;
+		width:18.6%;
+	padding:0% !important;
+	letter-spacing: 0em;
+	vertical-align:middle !important;
+}
+		.left_th{width: 20.9% !important;
+	background: #3f3f3f;
+	margin-right: 0.2%;
+		letter-spacing: 0em;
+	padding: 0.2%;
+	text-align: center;
+	margin-bottom: 0.5%;}
+	.right_th{width:78.8%;
+	background: #57575b !important;
+	vertical-align: top;
+		letter-spacing: 0em;
+	padding: 0.2%;
+		text-align: center;
+		margin-bottom: 0.5%;}	
+
+
+}
+
+/* Large devices (large desktops, 1300px and up) */
+@media (min-width: 1300px ) {
+
+		#t2,#t3,#t4{
+		display: inline-block;
+		width: 22.88% !important;
+		vertical-align: top;
+	
+	}
+	
+	
+	#t1 .time_img{
+width: 27% !important;
+	display: inline-block;
+		margin: 0px;
+		padding: 0px !important;
+		letter-spacing: -0.9em;
+			vertical-align: bottom;
+}
+	#day1{
+	width: 73% !important;
+display: inline-block;
+		vertical-align: top;
+		letter-spacing: -0.9em;
+	}
+	
+	
+	#day1 img.dd01{
+		width: 94% !important;
+	}
+	
+
+		#time1{
+width: 100% !important;
+display: inline-block;
+background: #fff;
+vertical-align: top;
+	margin: 0px;
+	padding: 0px;
+		
+	}
+	#time2,#time4{
+	width:100% !important;
+display: inline-block;
+background: #fff;
+vertical-align: top;
+	margin: 0px;
+	padding: 0px;
+}
+		#time3{
+	width: 100% !important;
+display: inline-block;
+background: #fff;
+vertical-align: top;
+	margin: 0px;
+	padding: 0px;
+}
+	
+/*生放送*/
+	
+	.h_url{
+		display: inline-block;
+		width: 1200px;
+	
+	}
+	
+		.h_url img{
+		display: inline-block;
+			border: 0px solid #ff0 !important;
+	
+	}	
+	.h_url li{
+				display: inline-block;
+	}	
+	.left_th{width: 20.9%;
+	background: #3f3f3f;
+	margin-right: 0.2%;}
+	.right_th{width:78.9%;
+	background: #57575b !important;
+	vertical-align: top;}	
+	
+	
+		.niconico_nama {
+	width:1200px;
+	margin-left:auto;
+	margin-right:auto;
+
+}		
+.niconico_nama ul{
+
+	width:100%;
+	padding:0.5%;
+	border:1px #666666 solid;
+	text-align:right;
+	margin-left:0px;
+	background-color: #FFFFFF;}	
+	
+.niconico_nama li{
+	display:inline-block;
+	margin-left:0px;
+		width:19%;
+			padding:0.1% 0.1% 0 0.1%;
+	}		
+
+
+
+	
+	.slide{
+width:600px !important; margin: 30px auto; position:relative;
+
+	}
+.slide h4{
+	font-weight:bold;
+	
+	}
+.slide p{
+	text-indent:-1em;
+	}
+	
+/*出演者ほか*/
+.time{
+	font-size:0.8em;
+}
+.discription{
+	display:block;
+	margin-top:2%;
+	text-indent:0px !important;
+	margin-left:0px !important;
+
+}
+	
+.peple{
+	font-size:0.9em !important;
+	font-weight:bold;
+	margin-top:2%;
+	margin-bottom:2%;
+	text-indent:0px !important;
+	margin-left:0px !important;
+
+	
+}
+.guest{
+		font-size:0.9em !important;
+	font-weight:bold;
+
+		text-indent:0px !important;
+		margin-left:0px !important;
+}	
+#timelin > a:hover{
+opacity: 0.6 !important;
+	width: 1300px;
+}
+	
+	
+}
