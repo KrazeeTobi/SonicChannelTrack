@@ -1,0 +1,285 @@
+<HTML>
+<HEAD>
+
+<TITLE>
+TOKYO GAME SHOW Information
+</TITLE>
+
+<STYLE TYPE="text/css">
+<!--
+    BODY {font-size: 12px Helvetica}
+    TD {font-size: 12px Helvetica}
+    .size1 {font-size: 9px Helvetica}
+    .size2 {font-size: 10px Helvetica}
+    .size3 {font-size: 12px Helvetica}
+    .size4 {font-size: 14px Helvetica}
+    .size5 {font-size: 18px Helvetica}
+    .size6 {font-size: 24px Helvetica}
+    .size7 {font-size: 34px Helvetica}
+// -->
+</STYLE>
+
+</HEAD>
+
+<SCRIPT LANGUAGE=javascript>
+
+IMAGES = 6;
+imgCache1 = new Array (IMAGES);
+imgCache2 = new Array (IMAGES);
+
+for (ii = 0; ii <= IMAGES; ii++) {
+	imgCache1[ii] = new Image;
+	imgCache1[ii].src = "images/t" + ii + "_2.gif";
+
+	imgCache2[ii] = new Image;
+	imgCache2[ii].src = "images/t" + ii + "_1.gif";
+
+}
+
+function chgbtn (n, m) {
+	if (m == 0) {
+		document.images["T"+n].src = imgCache1[n].src;
+	}
+	if (m == 1) {
+		document.images["T"+n].src = imgCache2[n].src;
+	}
+	
+}
+</SCRIPT>
+
+<BODY BACKGROUND="images/bg.gif" TEXT=#001818 LINK=#FF4D00 VLINK=#B2562E ALINK=#FF0000>
+
+<TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0 WIDTH=625>
+<TR><TD>
+<IMG SRC="images/s.gif" WIDTH=35 HEIGHT=20>
+</TD>
+<TD WIDTH=590>
+
+<TABLE BORDER=0 WIDTH=100% BORDER=0 CELLSPACING=0 CELLPADDING=0>
+<TR>
+<TD ROWSPAN=2>
+<IMG SRC="images/tgspostr.jpg" ALT="TOKYO GAME SHOW '99 AUTUMN" WIDTH=258 HEIGHT=307 BORDER=0><BR>
+</TD>
+<TD VALIGN=top>
+<IMG SRC="images/tgstitle.gif" ALT="TOKYO GAME SHOW Information" WIDTH=320 HEIGHT=81 BORDER=0><BR>
+<IMG SRC="images/s.gif" WIDTH=6 HEIGHT=6><BR>
+
+<TABLE CELLPADDING=5><TR><TD>
+<FONT SIZE=2 CLASS="size2">
+Presented by Tokyo Game Show Event Office<BR>
+Last update:Sep. 30. 1999<BR>
+</FONT>
+<A HREF="../../99autumn/index.html"><IMG SRC="images/japanese.gif" VSPACE=5 BORDER=0 WIDTH=82 HEIGHT=21 ALT="Japanese"></A>
+</TD></TR></TABLE>
+
+</TD></TR>
+<TR>
+<TD VALIGN=bottom>
+<TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0 WIDTH=320>
+
+<TR>
+<TD BGCOLOR=#a5e6de BACKGROUND="images/dot.gif">
+<A HREF=info/index.html ONMOUSEOVER="chgbtn(0,1)" ONMOUSEOUT="chgbtn(0,0)">
+<IMG SRC="images/t0_2.gif" ALT="Information" WIDTH=129 HEIGHT=22 BORDER=0 HSPACE=8 NAME="T0"></TD>
+<TD><IMG SRC="images/gurade.gif" WIDTH=105 HEIGHT=25 BORDER=0><BR>
+</A>
+</TD>
+</TR>
+
+<TR><TD COLSPAN=2 HEIGHT=3><IMG SRC="images/s.gif" WIDTH=3 HEIGHT=3></TD></TR>
+<TR>
+<TD BGCOLOR=#a5e6de BACKGROUND="images/dot.gif">
+<A HREF=shutten/index.html ONMOUSEOVER="chgbtn(2,1)" ONMOUSEOUT="chgbtn(2,0)">
+<IMG SRC="images/t2_2.gif" ALT="Exhibitors" WIDTH=114 HEIGHT=22 BORDER=0 HSPACE=8 NAME="T2"></TD><TD><IMG SRC="images/gurade.gif" WIDTH=105 HEIGHT=25 BORDER=0><BR>
+</A>
+</TD>
+</TR>
+
+<TR><TD COLSPAN=2 HEIGHT=3><IMG SRC="images/s.gif" WIDTH=3 HEIGHT=3></TD></TR>
+<TR>
+<TD BGCOLOR=#a5e6de BACKGROUND="images/dot.gif">
+<A HREF=ticket/index.html ONMOUSEOVER="chgbtn(5,1)" ONMOUSEOUT="chgbtn(5,0)">
+<IMG SRC="images/t5_2.gif" ALT="Tickets" WIDTH=89 HEIGHT=22 BORDER=0 HSPACE=8 NAME="T5"></TD><TD><IMG SRC="images/gurade.gif" WIDTH=105 HEIGHT=25 BORDER=0><BR>
+</A>
+</TD>
+</TR>
+
+<TR><TD COLSPAN=2 HEIGHT=3><IMG SRC="images/s.gif" WIDTH=3 HEIGHT=3></TD></TR>
+<TR>
+<TD BGCOLOR=#a5e6de BACKGROUND="images/dot.gif">
+<A HREF=profile/index.html ONMOUSEOVER="chgbtn(1,1)" ONMOUSEOUT="chgbtn(1,0)">
+<IMG SRC="images/t1_2.gif" ALT="Event Profile" WIDTH=140 HEIGHT=22 BORDER=0 HSPACE=8 NAME="T1"></TD><TD><IMG SRC="images/gurade.gif" WIDTH=129 HEIGHT=22 BORDER=0><BR>
+</A>
+</TD>
+</TR>
+
+<TR><TD COLSPAN=2 HEIGHT=3><IMG SRC="images/s.gif" WIDTH=3 HEIGHT=3></TD></TR>
+<TR>
+<TD BGCOLOR=#a5e6de BACKGROUND="images/dot.gif">
+<A HREF=map/index.html ONMOUSEOVER="chgbtn(6,1)" ONMOUSEOUT="chgbtn(6,0)">
+<IMG SRC="images/t6_2.gif" ALT="Hall Map" WIDTH=97 HEIGHT=26 BORDER=0 HSPACE=8 NAME="T6"></TD><TD><IMG SRC="images/gurade.gif" WIDTH=105 HEIGHT=25 BORDER=0><BR>
+</A>
+</TD>
+</TR>
+
+<TR><TD COLSPAN=2 HEIGHT=3><IMG SRC="images/s.gif" WIDTH=3 HEIGHT=3></TD></TR>
+<TR>
+<TD BGCOLOR=#a5e6de BACKGROUND="images/dot.gif">
+<A HREF=access/index.html ONMOUSEOVER="chgbtn(3,1)" ONMOUSEOUT="chgbtn(3,0)">
+<IMG SRC="images/t3_2.gif" ALT="Access to Event Site" WIDTH=204 HEIGHT=22 BORDER=0 HSPACE=8 NAME="T3"></TD><TD><IMG SRC="images/gurade.gif" WIDTH=105 HEIGHT=25 BORDER=0><BR></A>
+</TD>
+</TR>
+
+</TABLE>
+
+</TD>
+</TR>
+</TABLE>
+
+</TD>
+</TR> </TABLE> 
+<table border=0 cellspacing=0 cellpadding=0 width=625>
+  <tr>
+    <td> <img src="images/s.gif" width=35 height=20> </td>
+    <td width=590> <img src="images/s.gif" width=4 height=12><br>
+      <img src="images/hr.gif" width=585 height=2 hspace=1 vspace=1><br>
+      <center>
+        <table cellpadding="2">
+          <tr>
+            <td valign="top"> <b>Daily Report</b> </td>
+            <td> <a href="info/info07.html">September 17 (Business Day)</a><br>
+              <a href="info/info08.html">September 18 (General Admission Day)</a><br>
+              <a href="info/info09.html">September 19 (General Admission Day)</a><br>
+            </td>
+          </tr>
+        </table>
+        <!-- 
+<TABLE><TR><TD>
+<B>FOR PRESS</B>
+</TD>
+<TD>
+<A HREF="99autumn/info/info03.html">*The <I>pre-registration</I> for the Tokyo Game Show '99 Autumn (CLOSED)</A><BR>
+<A HREF="99autumn/info/info05.html">*About The Press Center</A>
+</TD>
+</TR>
+</TABLE>
+ --> 
+      </center>
+      <img src="images/hr.gif" width=585 height=2 hspace=1 vspace=1><br>
+      <img src="images/s.gif" width=4 height=6><br>
+      <table border=0 width=95% cellspacing=0 cellpadding=0>
+        <tr> 
+          <td valign=top> &quot;Tokyo Game Show '99 Autumn&quot; was held for 
+            3 days from September 17th (FRI) through 19th (SUN) at Makuhari Messe 
+            (Nippon Convention Center, Chiba-city Chiba Pref.), with the ownership 
+            of Computer Entertainment Software Association (CESA). The show was 
+            participated by 74 exhibitors, drawing 163,866 visitors. For the final 
+            day of the show, 81,933 people visited the site, making a record turnout 
+            for one day. People enjoyed trying the latest titles, joined the stage 
+            event held at each booth, and were impressed with new computer entertainment 
+            platforms during these three days. 
+            <p> 
+            <center>
+              <b>The Number of Visitors</b> 
+              <table BORDER cellpadding="2">
+                <tr align="center"> 
+                  <td bgcolor="#a5efe6"><img src="images/s.gif" width=35 height=20></td>
+                  <td bgcolor="#a5efe6"><nobr><font size="2" class="size2"><b>Tokyo 
+                    Game Show '99 Autumn</b></font></nobr></td>
+                  <td><font size="1" class="size1"><nobr>Tokyo Game Show '99 Spring</nobr><br>
+                    (Mar. 19-21, 1999)</font></td>
+                  <td><font size="1" class="size1"><nobr>Tokyo Game Show '98 Autumn</nobr><br>
+                    (Oct. 9-11, 1998)</font></td>
+                </tr>
+                <tr align="center"> 
+                  <td bgcolor="#427b73"><font size="1" class="size1" color="#FFFFFF">Business 
+                    Day</font></td>
+                  <td bgcolor="#427b73"><img src="../images/s.gif" width=2 height=2></td>
+                  <td bgcolor="#427b73"><img src="../images/s.gif" width=2 height=2></td>
+                  <td bgcolor="#427b73"><img src="../images/s.gif" width=2 height=2></td>
+                </tr>
+                <tr> 
+                  <td bgcolor="#a5efe6" align="center"><font size="2" class="size2">Sept.17 
+                    (Fri)</font></td>
+                  <td bgcolor="#a5efe6" align="right"><font size="2" class="size2"><b>21,434</b></font></td>
+                  <td align="right"><font size="2" class="size2">18,931</font></td>
+                  <td align="right"><font size="2" class="size2">21,723</font></td>
+                </tr>
+                <tr align="center"> 
+                  <td bgcolor="#427b73"><font size="1" class="size1" color="#FFFFFF">General 
+                    Admission Day</font></td>
+                  <td bgcolor="#427b73"><img src="../images/s.gif" width=2 height=2></td>
+                  <td bgcolor="#427b73"><img src="../images/s.gif" width=2 height=2></td>
+                  <td bgcolor="#427b73"><img src="../images/s.gif" width=2 height=2></td>
+                </tr>
+                <tr> 
+                  <td bgcolor="#a5efe6" align="center"><font size="2" class="size2">Sept.18 
+                    (Sat)</font></td>
+                  <td bgcolor="#a5efe6" align="right"><font size="2" class="size2"><b>60,499<br>
+                    (4,252 for kids)</b></font></td>
+                  <td align="right"><font size="2" class="size2">65,982<br>
+                    (4,780 for kids)</font></td>
+                  <td align="right"><font size="2" class="size2">79,282<br>
+                    (16,401 for kids)</font></td>
+                </tr>
+                <tr> 
+                  <td bgcolor="#a5efe6" align="center"><font size="2" class="size2">Sept.19 
+                    (Sun)</font></td>
+                  <td bgcolor="#a5efe6" align="right"><font size="2" class="size2"><b>81,933<br>
+                    (15,112 for kids)</b></font> </td>
+                  <td align="right"> <font size="2" class="size2">78,535<br>
+                    (16,967 for kids)</font> </td>
+                  <td align="right"> <font size="2" class="size2">55,450<br>
+                    (12,238 for kids)</font> </td>
+                </tr>
+                <tr> 
+                  <td bgcolor="#a5efe6" align="center"><font size="2" class="size2">TOTAL</font></td>
+                  <td bgcolor="#a5efe6" align="right"><font size="2" class="size2"><b>163,866<br>
+                    (19,364 for kids)</b></font> </td>
+                  <td align="right"> <font size="2" class="size2">163,448<br>
+                    (21,747 for kids)</font> </td>
+                  <td align="right"> <font size="2" class="size2">156,455<br>
+                    (28,639 for kids)</font> </td>
+                </tr>
+              </table>
+            </center>
+            <p> For farther information, please contact:<br>
+              Computer Entertainment Software Association<br>
+              Tokyo Game Show Event Office<br>
+              TEL (+81) 3-3591-1421<br>
+              FAX (+81) 3-3591-1422<br>
+              E-mail: <a href="mailto:info@cesa.or.jp">info@cesa.or.jp</a> <br>
+              <a href="../english.html">&gt;&gt; TOKYO GAME SHOW 99 AUTUMN Information</a> 
+          </td>
+        </tr>
+      </table>
+</table>
+</TD> </TR> </TABLE> 
+<P>
+
+<TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0 WIDTH=625>
+<TR><TD>
+<IMG SRC="images/s.gif" WIDTH=35 HEIGHT=20>
+</TD>
+<TD WIDTH=590>
+
+<IMG SRC="images/hr.gif" WIDTH=585 HEIGHT=2 HSPACE=1 VSPACE=1><BR>
+<TABLE BORDER=0 WIDTH=100% BORDER=0 CELLSPACING=0 CELLPADDING=5>
+<TR>
+<TD>
+<A HREF="http://www.cesa.or.jp/" TARGET="_top"><IMG SRC="images/cesa.gif" WIDTH=48 HEIGHT=30 HSPACE=1 ALT="CESA" BORDER=0></A>
+</TD>
+<TD>
+<FONT SIZE=2 CLASS="size2">
+Presented by Computer Entertainment Software Association Tokyo Game Show Event Office
+</FONT>
+</TD>
+</TR>
+</TABLE>
+
+</TD>
+</TR>
+</TABLE>
+
+</BODY>
+</HTML>
