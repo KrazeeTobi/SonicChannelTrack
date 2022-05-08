@@ -1,0 +1,316 @@
+@charset "shift_jis";
+
+
+
+
+/* default
+-------------------------------------------------*/
+body{
+	margin:0;
+	padding:0;
+	background:#fff;
+}
+
+h1,h2,h3{
+	margin:0;
+	padding:0;
+}
+img {
+	border:0;
+}
+object {
+	outline:none
+}
+
+
+/* 外枠
+-------------------------------------------------*/
+#sega_studio{
+	background-image: url(../img/top_bg.jpg);
+	background-repeat: repeat-x;
+	background-position: center top;
+}
+
+#container_outer{
+	background-image: url(../img/bottom_bg.jpg);
+	background-repeat: repeat-x;
+	background-position: center bottom;
+	text-align:center;
+}
+
+#container{
+	width:1000px;
+	margin:0 auto;	
+	text-align:left;
+	position:relative;
+}
+
+
+/* ヘッダ
+-------------------------------------------------*/
+#header{
+	width:980px;
+	height:93px;
+	position:relative;
+	margin:0 10px 0 10px;
+	padding:15px 0 0 0;
+}
+
+#header h1{
+	width:789px;
+	height:72px;
+	float:left;	
+}
+
+#header h2{
+	width:103px;
+	float:right;	
+}
+
+#header #socialLink{
+	position:absolute;
+	width:470px;
+	height:40px;
+	left:650px;
+	top:77px;
+	z-index:0;
+}
+
+#header #socialLink li{
+	float:left;	
+	overflow:hidden;
+}
+
+#header #socialLink li.s1{
+	width:120px;
+}
+#header #socialLink li.s2{
+	width:110px;
+}
+#header #socialLink li.s3{
+	width:110px;
+}
+
+#head_navi{
+	margin:0 0 0 10px;
+}
+
+#head_navi li{
+	float:left;	
+}
+
+.non_navi{
+	margin-top:20px;	
+}
+
+
+/* ニコニコ生放送
+-------------------------------------------------*/
+#niconico{
+	margin-top:22px;
+	padding:0px 0px 5px 0px;
+	background-image: url(../img/stream_base.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+
+#niconico h2{
+
+}
+
+#niconico #niconicoAdArea{
+	height: 210px;
+	width: 987px;
+	margin-top: 10px;
+	margin-left: 10px;
+	position:relative;
+}
+
+#niconico #movieStatus{
+	position:absolute;
+	z-index:0;
+	height: 195px;
+	width: 328px;
+	top:14px;
+	left:659px;
+	overflow:hidden;
+}
+
+
+
+/* USTREAM
+-------------------------------------------------*/
+#ust{
+	padding:0px 0px 5px 0px;
+	background-image: url(../img/stream_base.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-color: #FFF;
+}
+
+#ust h2{
+
+}
+
+#ust #title_display{
+	margin-top:10px;	
+}
+
+#ust #title_display li{
+	float:left;	
+}
+
+#ust #ust_area{
+	margin-top:9px;
+	padding:0 10px 0 10px;
+}
+
+* html #ust #ust_area{
+	padding:0 10px 0 0px;	
+}
+
+#ust #ust_area #ust_movie{
+	float:left;
+	width:609px;
+	height:370px;
+	overflow:hidden;
+}
+
+#ust #ust_area #ust_stream{
+	float:left;
+	width:356px;
+	height:370px;
+	overflow:hidden;
+	margin-left:15px;	
+}
+
+
+/* タイムテーブル
+-------------------------------------------------*/
+#ust_archive_title{
+	margin-top:30px;
+	padding:0;
+	background-color:#fff;
+}
+
+#time_table_container{
+	margin-top:0px;
+	padding:0 0 0 10px;
+	background-color:#fff;
+}
+
+
+#time_table_container #time_table{
+	padding:20px;	
+}
+
+#time_table_container #time_table li.time_table_date{
+	float:left;	
+}
+
+#time_table_container #time_table div.time_table_list_data{
+	min-height:1700px;
+	background-image: url(../img/list_data_bg.gif);
+	background-repeat: repeat-y;
+}
+
+#time_table_container #time_table div.time_table_list_data2{
+	min-height:1700px;
+	background-image: url(../img/list_data_bg2.gif);
+	background-repeat: repeat-y;
+}
+
+
+/* アーカイブ：全体ブース紹介
+-------------------------------------------------*/
+
+#archives_container{
+	margin-top:30px;
+	padding:0 0 0 10px;
+	font-size:75%;
+}
+
+#archives_container #archives_table{
+	padding:20px;	
+}
+
+#archives_container #archives_list li{
+	background-color:#ececec;
+	padding:15px 24px 15px 24px;
+	width:890px;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #FFF;
+}
+#archives_list a{
+	font-weight:bold;	
+}
+
+#archives_list a:link {
+	color:#000;
+	text-decoration:none;
+}
+#archives_list a:visited {
+	color:#000;
+	text-decoration:none;
+}
+#archives_list a:active {
+	color:#F60;
+	text-decoration:none;
+}
+#archives_list a:hover {
+	color:#F60;
+	text-decoration:none;
+}
+
+
+#append_info_area{
+	padding:10px 0 20px 20px;
+}
+
+
+/* フッタ
+-------------------------------------------------*/
+
+#footer {
+	padding-top:20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+	width:1000px;
+	margin:0 auto;	
+	text-align:left;
+}
+
+#colophon {
+    border-top: 4px solid #000000;
+    margin-top: -4px;
+    overflow: hidden;
+    padding: 18px 0 0;
+}
+#footer #text {
+    border-bottom: 1px solid #CCCCCC;
+    color: #666666;
+    font-size: 0.75em;
+    margin: 0 0 5px;
+    padding: 0 0 15px;
+}
+
+#footer #text li {
+    line-height: 12px;
+    list-style-position: inside;
+    list-style-type: square;
+}
+
+#footer #text a {
+    color: #666666;
+    text-decoration: underline;
+}
+#footer #text {
+    color: #666666;
+    font-size: 10px;
+}
+
+#footer p{
+    font-size: 10px;
+	text-align:center;	
+}

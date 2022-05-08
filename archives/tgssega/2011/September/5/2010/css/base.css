@@ -1,0 +1,202 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	text-decoration: none;
+	list-style-type: none;
+}
+
+html{
+	height: 100%;
+}
+
+body{
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	font-size: 12px;
+	font-family:  "メイリオ","ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
+img{
+	border: 0;
+	vertical-align: top;
+	vertical-align: bottom;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+}
+
+a{ color: #333; }
+a:visited{ color: #999; }
+a:hover{ color: #03C; }
+
+.ht{
+	display: none;
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  height: 0;
+  visibility: hidden;
+}
+
+.clearfix {
+  min-height: 1px;
+}
+
+* html .clearfix {
+  height: 1px;
+  /*¥*//*/
+  height: auto;
+  overflow: hidden;
+  /**/
+}
+
+.sf{
+	font-size: 0.8em;
+}
+
+/***************************************
+Global Navi Area
+***************************************/
+
+#gNavi{
+	width: auto;
+	height: 50px;
+	background-image: url(../images/common/gn_bg.jpg);
+	background-repeat: repeat-x;
+}
+
+#btnCont{
+	margin: 0 auto;
+	width: 980px;
+	height: 50px;
+}
+
+
+#btnCont ul{
+	margin: 0;
+	padding: 0;
+}
+
+#btnCont li{
+	display: inline;
+}
+
+
+#btnCont li a{
+	display: block;
+	margin: 0;
+	height: 0;
+	padding-top: 50px;
+	float: left;
+	overflow:hidden;
+}
+
+#gn_001 a{ width: 140px; background-image: url(../images/common/gn_btn_001.jpg); background-position: top; background-repeat: no-repeat;}
+#gn_002 a{ width: 140px; background-image: url(../images/common/gn_btn_002.jpg); background-position: top; background-repeat: no-repeat;}
+#gn_003 a{ width: 140px; background-image: url(../images/common/gn_btn_003.jpg); background-position: top; background-repeat: no-repeat;}
+#gn_004 a{ width: 140px; background-image: url(../images/common/gn_btn_004.jpg); background-position: top; background-repeat: no-repeat;}
+#gn_005 a{ width: 140px; background-image: url(../images/common/gn_btn_005.jpg); background-position: top; background-repeat: no-repeat;}
+#gn_006 a{ width: 140px; background-image: url(../images/common/gn_btn_006.jpg); background-position: top; background-repeat: no-repeat;}
+#gn_007 a{ width: 140px; background-image: url(../images/common/gn2_btn_007.jpg); background-position: top; background-repeat: no-repeat;}
+
+
+#gn_001 a:hover,
+#gn_002 a:hover,
+#gn_003 a:hover,
+#gn_004 a:hover,
+#gn_005 a:hover,
+#gn_006 a:hover,
+#gn_007 a:hover{ background-position: 0 -50px;}
+
+#gn_001 a.on,
+#gn_002 a.on,
+#gn_003 a.on,
+#gn_004 a.on,
+#gn_005 a.on,
+#gn_006 a.on,
+#gn_007 a.on{ background-position: 0 -100px;}
+
+
+
+#gn_last_line{
+	display: inline-block;
+	width: 4px;
+	height: 50px;
+	text-indent:-9999px;
+	background-image:url(../images/common/gn_line.jpg);
+	background-repeat: no-repeat;
+}
+
+/***************************************
+Footer Area
+***************************************/
+
+#footer{
+	margin: 10px auto;
+	padding: 0;
+	width: 980px;
+}
+
+#footer #border{
+	margin: 20px 0 0 0;
+	height: 25px;
+	background-color: #333;
+}
+
+#footer #text ul{
+	margin: 0;
+	padding: 0;
+}
+
+#footer #text li{
+	line-height: 10px;
+	list-style-type: square;
+	list-style-position: inside;
+	line-height: 12px;
+}
+
+#footer #text{
+	margin: 5px 0;
+	padding: 5px 0 15px 0;
+	font-size: 0.75em;
+	color: #666;
+	border-bottom: 1px solid #CCC;
+}
+
+#footer #text a{ text-decoration: underline; color: #666;}
+#footer #text a:visited{ color: #666;}
+#footer #text a:hover{ color: #03C;}
+
+#footer p{
+	font-size: 0.9em;
+	text-align: center;
+}
+
+.ptBtn{
+	margin: 50px 0;
+	text-align: center;
+}
+
+.sf2{
+	font-size: 0.8em;
+	color:#666;
+}
+
+
+.redb{
+	font-size: 1em;
+	color: #C00;
+	font-weight: bold;
+}
+#mainWrap #LCWrap2 #eventContents table tr .left_top table tr td {
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #666;
+}

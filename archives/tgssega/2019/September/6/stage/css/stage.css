@@ -1,0 +1,302 @@
+@charset "UTF-8";
+
+.base-b {
+    width: 100%;
+    max-width: 980px;
+    margin: 0 auto 3% auto;
+    background: rgba(0,0,0,0.8);
+    color:#fff;
+}
+
+.stage-icon {
+    display: table;
+    margin: 0 auto;
+    font-size: 2.2rem;
+}
+
+    .stage-icon img {
+        margin-right: 10px;
+        width: 100%;
+        max-width: 24px;
+    }
+
+    .stage-icon p {
+        width: 14em;
+        text-align: center;
+        vertical-align: middle;
+        display: table-cell;
+        padding: 5% 0 3% 0;
+    }
+
+
+        .stage-icon p span {
+            font-size: 18px;
+            vertical-align: middle;
+        }
+
+.text-note {
+    font-size: 14px;
+    padding: 1%;
+}
+
+
+/*==================================
+stage
+===================================*/
+
+.stage {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;    
+}
+
+.second-nav {
+    display: none;
+}
+
+.stage-box {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    margin: 0 auto;
+}
+
+
+.stage-details {
+    width: 30%;
+    max-width: 360px;
+    background: rgba(0,0,0,0.7);
+    box-sizing: border-box;
+    margin-bottom: 3%;
+    padding-bottom: 3%;
+}
+
+.stage-details:nth-child(odd) {
+    background: rgba(0,0,0,0.8);
+}
+
+.stage-details h4 {
+    background: #303030;
+    font-weight: bold;
+    color: #fff;
+    font-size: 2.2rem;
+    text-align: center;
+    padding: 3% 0;
+}
+
+ .stage-details:nth-child(odd) h4{
+     
+     background: #000;
+}
+
+.live-box h5, .stage-list h5 {
+    background: rgba(225,225,225,0.1);
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 2%;
+    padding: 1% 0;
+}
+
+.live-list {
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+.live-btn {
+    width: 74.44%;
+    max-width: 268px;
+    display: inline-block;
+    border:1px solid #fff;
+    color: #fff;
+    font-size: 2.0rem;
+    padding: 2% 0;
+    margin-bottom: 2%;
+}
+
+@media screen and (max-width:750px){
+    .live-list {
+    display:flex;
+    }
+    
+    .live-btn:nth-child(2n) {
+    border-right:none;
+    border-left:none;
+}
+}
+
+.live-btn a {
+    display: block;
+}
+
+    .live-btn.nico {
+        background: #000;
+    }
+
+    .live-btn.youtube {
+        background: #940000;
+    }
+
+    .live-btn.peri {
+        background: #3E9FBF;
+    }
+
+
+.stage-list ul {
+    list-style: none;
+}
+.stage-list ul li {
+    width: 90%;
+    text-align: center;
+    margin:0 auto 3% auto;
+    background-image: url(../images/stage-bg.gif);
+    background-repeat: repeat-x;
+    background-size: auto 100%;
+}
+
+.stage-list ul li:first-child, .stage-list ul li:last-child {
+    background-image: url(../images/stage-bg02.gif);
+}
+
+.stage-list ul li a {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.stage-list ul li.no-stage {
+    background-image:none;
+    background-color:none;
+}
+
+.stage-list ul li.stage-sp {
+    background-image:none;
+    background-color:#94e833; 
+}
+
+.stage-schedule-box {
+    width: 90%;
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 3%;
+    background: rgba(0,0,0,0.8);
+    color: #fff;
+}
+
+    .stage-schedule-box .stage-date {
+        font-size: 22px;
+    }
+
+    .stage-schedule-box h3 {
+        font-size: 30px;
+        border-bottom: 1px solid #707070;
+        margin: 3% 0 2% 0;
+    }
+
+    .stage-schedule-box .stage-text {
+        font-size: 22px;
+    }
+
+    .stage-schedule-box h4 {
+        font-size: 22px;
+        font-weight: bold;
+        border-bottom: 1px solid #707070;
+        margin: 3% 0 2% 0;
+    }
+
+/*==================================
+colorbox
+===================================*/
+
+#cboxContent {
+ margin-top: 42px;
+}
+
+#cboxClose{
+    top: -41px;
+    right: 2%;
+    width: 43px;
+	height: 42px;
+	background-image: url(../images/stage-close.png) !important;
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+
+
+@media screen and (max-width:750px) {
+div.second-nav {
+    display: block;
+    background-color: #202020;
+    margin-bottom: 3%;
+}
+    
+    .second-nav.-fixed{
+        position: fixed;
+        z-index: 999;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+    
+.text-note {
+    font-size: 3.0rem;
+}
+    
+div.second-nav .nav li {
+    padding: 0 6%;
+}
+    
+.stage-box {
+    display: block;
+}
+ 
+    
+.stage-details {
+    width: 100%;
+    max-width: 750px;
+    background: rgba(0,0,0,0.7);
+    box-sizing: border-box;
+    }
+    
+    .stage-details h4 {
+        font-size: 5.5rem;
+    }
+    
+    .live-box h5, .stage-list h5 {
+        font-size: 5.0rem;
+    }
+    
+.live-btn {
+    width: 48.44%;
+    font-size: 4.0rem;
+    padding: 4% 0;
+    }
+    
+.stage-list ul li {
+    width: 90%;
+    text-align: center;
+    margin:0 auto 3% auto;
+}
+    
+.stage-list ul li.no-stage {
+    display: none;
+ }
+    
+.stage-schedule-box h3 {
+    font-size: 5.5rem;
+}
+    
+.stage-schedule-box .stage-date, 
+.stage-schedule-box .stage-text, 
+.stage-schedule-box h4 {
+        font-size: 4.5rem;
+    }
+    
+    .stage-icon p span {
+            font-size: 4.5rem;
+        }
+
+}
+
+
