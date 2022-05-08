@@ -1,0 +1,248 @@
+@charset "utf-8";
+
+
+div.cosplay_result-box{
+    width: 100%;  
+	max-width: 1200px;  
+	margin: 1em auto;  
+	text-align: center;
+	background: rgba(255,104,154,0.70);
+	/*border: 3px #fff solid;*/
+	padding: 1em;
+	color: #000;
+	font-size: 18px;
+	line-height: 1.5em;
+}
+div.cosplay_result-box.blue-bg{
+	background: rgba(119,149,239,0.60);
+	margin: 2em auto 0 !important;  
+}
+
+
+div.cosplay_result-box{
+    width: 100%;  
+	max-width: 1200px;  
+	margin: 1em auto;  
+	text-align: center;
+	background: rgba(255,104,154,0.70);
+	/*border: 3px #fff solid;*/
+	padding: 1em;
+	color: #000;
+	font-size: 18px;
+	line-height: 1.5em;
+}
+
+div.cosplay_result-box.pc-only{
+	display: block;
+}
+div.cosplay_result-box.sp-only{
+	display: none;
+}
+
+div.cosplay_result-box_space{
+	line-height: 1.5em;
+	text-align: center;
+	margin: 0 0 1em;
+}
+
+div.cosplay_result-box_space p {
+
+	font-size: 22px;
+	font-weight:bold;
+	line-height: 1.5em;
+	text-align: center;
+
+}
+
+
+
+
+/*** 賞品プレゼント説明 ***/
+div.cosplay_result-box div.result-txt-box01{
+    width: 100%;  
+	margin: 2em auto 0.5em;  
+	background: #ffbfe3;
+	padding: 1em;
+	text-align: center;
+	font-weight:bold;
+	color: #860000;
+}
+
+div.cosplay_result-box div.result-txt-box02{
+    width: 100%;  
+	margin: 2em auto 0.5em;  
+	background: #7795ef;
+	padding: 1em;
+	text-align: center;
+	font-weight:bold;
+	color: #421647;
+}
+
+div.cosplay_result-box div.result-txt-box01 p,
+div.cosplay_result-box div.result-txt-box02 p {
+
+	font-weight:bold;
+	font-size: 115%;
+}
+
+
+
+/*** hr ***/
+div.cosplay_result-box hr.topics-hr {
+	margin: 5em 0;
+}
+
+
+/*** 画像配置 ***/
+div.cosplay_result-box div.image1-box,div.cosplay_result-box div.image2-box,div.cosplay_result-box div.image4-box {
+	margin: 1em 0 0 0;
+	overflow: hidden;
+    text-align: center;
+	line-height: 1.6;
+}
+/*div.topicsBox div.image1-box {
+	margin: 1em 0 0 0;
+	line-height: 1.6;
+}*/
+
+div.cosplay_result-box div.image1-box figure,div.cosplay_result-box div.image2-box figure,div.cosplay_result-box div.image4-box figure {
+	margin: 1em 0 0 0;
+}
+
+div.cosplay_result-box figure img {
+	max-width: 100% !important;
+}
+
+div.cosplay_result-box div.image2-box, div.cosplay_result-box div.image4-box {
+	margin: 1em 0 0 0;
+	line-height: 1.6;
+	
+	display:-webkit-box;
+	display:-moz-box;
+	display:-ms-box;
+	display:-webkit-flexbox;
+	display:-moz-flexbox;
+	display:-ms-flexbox;
+	display:-webkit-flex;
+	display:-moz-flex;
+	display:-ms-flex;
+	display:flex;
+	-webkit-box-lines:multiple;
+	-moz-box-lines:multiple;
+	-webkit-flex-wrap:wrap;
+	-moz-flex-wrap:wrap;
+	-ms-flex-wrap:wrap;
+	flex-wrap:wrap;	
+}
+
+
+
+div.cosplay_result-box figcaption {
+	margin: 0.1em 0.5em;
+	font-size: 0.8em;
+}
+
+div.cosplay_result-box div.image1-box figure,div.cosplay_result-box div.image2-box figure, div.cosplay_result-box div.image4-box figure {
+	margin: 1em 0 0 0;
+}
+
+div.cosplay_result-box div.image1-box figure, div.cosplay_result-box div.image2-box figure, div.cosplay_result-box div.image4-box figure {
+	margin: 0.5em 0 0 0 ;
+}
+
+
+
+
+div.cosplay_result-box div.image2-box figure {
+	padding: 0;
+	margin-left: 1%;
+	width: 48.5%;
+	float: left !important;
+}
+
+/*div.cosplay_result-box div.image2-box figure:nth-child(2n), div.cosplay_result-box div.image4-box figure:nth-child(4n) {
+	margin-right: 0;
+}*/
+
+
+div.cosplay_result-box div.image4-box figure {
+	padding: 0;
+	margin-right: 1%;
+	width: 24.0%;
+	float: left !important;
+}
+
+
+div.cosplay_result-box div.image2-box figure img, div.cosplay_result-box div.image4-box figure img {
+	margin: 0;
+}
+
+
+
+
+
+
+
+/* 750px以下 
+================================================= */
+@media screen and (max-width:750px){
+
+	
+div.cosplay_result-box img {
+	width: inherit;
+}
+
+/*div.cosplay_result-box {
+	margin: 0 auto 20px;
+}	*/
+	
+
+
+/*** 画像配置 ***/
+
+div.cosplay_result-box div.image2-box figure, div.cosplay_result-box div.image4-box figure {
+	margin: 0.5em 0 0 0;
+}
+
+div.cosplay_result-box div.image1-box figure img, div.cosplay_result-box div.image2-box figure img, div.cosplay_result-box div.image4-box figure img {
+	width: auto;
+	max-width: 100% !important;
+}
+
+	
+div.cosplay_result-box div.image4-box figure {
+	padding: 0;
+	width: 48%;
+}
+	
+
+div.cosplay_result-box div.image2-box figure {
+padding: 0;
+width: 100%;
+}
+
+div.cosplay_result-box div.image4-box figure/*:nth-child(4n)*/ {
+	margin-right: 2%;
+}
+
+div.cosplay_result-box div.image2-box figure, div.cosplay_result-box div.image4-box figure:nth-child(2n) {
+	margin-right: 0;
+}
+
+
+
+div.topicsBox div.image1-box figure figcaption {
+    font-size: 0.6875rem;
+    padding: 0;
+}
+	
+	
+	
+	
+
+	
+	
+}
+/* 750px以下ここまで 
+
+
