@@ -1,0 +1,381 @@
+@charset "UTF-8";
+
+/* ===================================
+	File Name   : project.css
+	Description : Contact Page Layout CSS
+	Editors     : NS Sakamoto
+	Create Date : 2012/02/15
+
+	Update Description :
+		2012/02/14 Append - Basic Styles [Sakurai]
+		2012/02/14 File Create
+====================================== */
+
+/*========== Style Contents ==========
+
+	1. Individual Redefinition
+	2. Sense
+	3. SenseSideBox
+	4. SenseNavi
+	5. SenseContents
+	6. 
+	7. Download Button 
+	8.  
+	*. Clear Release
+	
+====================================== */
+
+
+
+
+
+/*===== ■1. Individual Redefinition =====*/
+/* Global Navigation */
+#GlobalNavi li#BtnExhibit a,
+#GlobalNavi li#BtnExhibit a:hover {background-position: -600px -51px;}
+
+
+/* Title Setting */
+h1 em {
+	background: url(img/sense/ttl_sense.jpg) no-repeat;
+	width: 851px;
+	height: 30px;
+}
+
+
+
+/*===== ■2. Sense =====*/
+#Sense {
+	padding: 0;
+	width:870px;
+	margin-left:40px;
+	overflow: hidden;
+
+}
+#Sense .btn {
+	padding: 10px 0px 60px 0;
+	clear: both;
+	margin-left:20px;
+}
+#Sense .btn li {
+	float: left;
+	margin-right: 5px;
+}
+#Sense .btn .small {
+	padding-top: 10px;
+}
+
+
+
+
+
+/*===== ■3. SenseSideBox =====*/
+
+#SenseSideBox {
+	width:177px;
+	float:left;
+}
+
+#SenseContents {
+	width:660px;
+	float:right;
+	margin-right:
+}
+
+#SenseSideBox dl dt {
+	margin-bottom:10px;
+}
+#SenseSideBox dl dd {
+	background-color:#FFFFCC;
+	padding:10px;;
+	color:#000000;
+}
+#SenseSideBox dl dd:first-child{
+	padding-bottom:0px;
+}
+#SenseSideBox dl dd span{
+	font-weight:bold;
+	color:#E06C47;
+}
+#SenseSideBox ol li{
+	padding-top:10px;
+	margin-top:10px;
+	border-top:dotted 1px #CCCCCC;
+}
+
+
+/*===== ■4. SenseNavi =====*/
+#Sense ul#SenseNavi{
+	margin-bottom:35px;
+}
+
+#Sense ul#SenseNavi li {
+	float: left;
+	padding: 0px 3px 0px 0px;
+}
+
+#Sense ul#SenseNavi li a {
+	display: block;
+	background: url(img/sense/sense_navi_img.jpg) no-repeat;
+	width: 120px;
+	height: 35px;
+}
+
+#Sense ul#SenseNavi li a#BtnSense01 {background-position: 0px 0px;}
+#Sense ul#SenseNavi li a#BtnSense02 {background-position: -123px 0px;}
+#Sense ul#SenseNavi li a#BtnSense03 {background-position: -246px 0px;}
+#Sense ul#SenseNavi li a#BtnSense04 {background-position: -369px 0px; width: 150px;}
+#Sense ul#SenseNavi li a#BtnSense05 {background-position: -522px 0px; width: 130px;}
+
+#Sense ul#SenseNavi li a#BtnSense01.current,
+#Sense ul#SenseNavi li a#BtnSense01:hover {background-position: 0px -44px;}
+#Sense ul#SenseNavi li a#BtnSense02.current,
+#Sense ul#SenseNavi li a#BtnSense02:hover {background-position: -123px -44px;}
+#Sense ul#SenseNavi li a#BtnSense03.current,
+#Sense ul#SenseNavi li a#BtnSense03:hover {background-position: -246px -44px;}
+#Sense ul#SenseNavi li a#BtnSense04.current,
+#Sense ul#SenseNavi li a#BtnSense04:hover {background-position: -369px -44px; width: 150px;}
+#Sense ul#SenseNavi li a#BtnSense05.current,
+#Sense ul#SenseNavi li a#BtnSense05:hover {background-position: -522px -44px; width: 130px;}
+
+#Sense ul#SenseNavi li a.current{background-position: -44px;}
+
+
+/*===== ■5. SenseContents =====*/
+#SenseContents div{
+	margin-bottom:60px;
+}
+#Sense h2{
+	width: 660px;
+	height: 38px;
+	margin-bottom:20px;
+}
+#Sense .WhatsNew h2 {
+	background: url(img/sense/ttl_sense_01.jpg) no-repeat;
+}
+#Sense .WhatsNew dl{
+	margin-left:10px;
+}
+#Sense .WhatsNew dl dt{
+	float:left;
+	color:#333333;
+}
+#Sense .WhatsNew dl dd{
+	margin-left:90px;
+}
+#Sense .WhatsNew dl dd a{
+	color:#003399;
+	text-decoration:underline;
+}
+
+#Sense .WhatsNew dl dd a:hover{
+	color:#0958FF;
+	text-decoration:none;
+}
+
+#Sense .About h2 {
+	background: url(img/sense/ttl_sense_02.jpg) no-repeat;
+}
+#Sense .Purpose h2 {
+	background: url(img/sense/ttl_sense_03.jpg) no-repeat;
+}
+#Sense .collect h2 {
+	background: url(img/sense/ttl_senseform_01.jpg) no-repeat;
+}
+#Sense .apply h2 {
+	background: url(img/sense/ttl_senseform_02.jpg) no-repeat;
+}
+#Sense .game01 h2 {
+	background: url(img/sense/ttl_senseform_03.jpg) no-repeat;
+}
+#Sense .game02 h2 {
+	background: url(img/sense/ttl_senseform_04.jpg) no-repeat;
+}
+#Sense .selection h2 {
+	background: url(img/sense/ttl_selection_01.jpg) no-repeat;
+}
+#Sense .sown h2 {
+	background: url(img/sense/ttl_sown_01.jpg) no-repeat;
+}
+
+#Sense .collect dl{
+	margin-left:10px;
+}
+#Sense .collect dl dt{
+	float:left;
+	color:#333333;
+	text-align:right;
+	width:9em;
+}
+#Sense .collect dl dd{
+	margin-left:9em;
+}
+
+#Sense .apply p.deadline{
+	font-weight:bold;
+	color:#E06C47;
+	font-size:138.5%;
+}
+#Sense .apply dl{
+	border:2px solid #E16C48;
+	padding:15px 20px;
+	margin:0 0 20px 10px;
+}
+
+#Sense .apply dl dt{
+	font-weight:bold;
+	float:left;
+}
+#Sense .apply dl dd{
+	margin-left:2em;
+}
+
+#Sense .game01 dl{
+	margin-left:10px;
+	padding:0 0 20px 35px;
+	background: url(img/sense/game01.jpg) no-repeat;
+}
+
+#Sense .game01 dl dt{
+	font-weight:bold;
+	color:#E06C47;
+}
+#Sense .game01 dl dd{
+	color:#333333;
+	
+}
+
+#Sense .game02 dl{
+	margin-left:10px;
+	padding:0 0 20px 35px;
+	background: url(img/sense/game02.jpg) no-repeat;
+}
+
+#Sense .game02 dl dt{
+	font-weight:bold;
+	color:#0099CC;
+}
+#Sense .game02 dl dd{
+	color:#333333;
+	
+}
+
+#Sense .selection dl{
+	margin-bottom:40px;
+}
+
+#Sense .selection dl dt{
+	float:left;
+}
+
+#Sense .selection dl dd.name{
+	border-bottom:dashed 1px #999999;
+	padding-bottom:10px;
+	margin-bottom:10px;
+	font-weight:bold;
+}
+#Sense .selection dl dd.name span{	
+	color:#E06C47;
+}
+#Sense .selection dl dd{
+	color:#333333;
+	width:495px;
+	margin-left:150px;
+}
+
+#Sense .sown h3{
+	margin:0 0 10px 10px;
+	padding:0;
+	font-size:93%;
+	color:#E06C47;
+}
+#Sense .sown dl{
+	background-color:#EEEEEE;
+	padding:10px 30px;
+}
+
+#Sense .sown dl dt{
+	font-weight:bold;
+	margin-bottom:5px;
+	color:#E06C47;
+}
+#Sense .sown dl dd{
+	margin-bottom:5px;
+}
+
+#Sense .sown dl dd a{
+	color:#0066CC;
+	text-decoration:underline;
+}
+
+#Sense .sown dl dd a:hover{
+	color:#0958FF;
+	text-decoration:none;
+}
+
+#Sense .sown .photo {
+	margin-left:10px;
+	padding: 0px 0px 30px 0;
+	clear: both;
+}
+#Sense .sown .photo li {
+	margin: 0px 5px 5px 0;
+	padding: 0;
+	float: left;
+}
+
+#Sense .sown .btn{
+	margin:0 0 30px 175px;
+}
+
+#SenseContents p{
+	margin:0 0 15px 10px;
+	color:#333333;
+}
+
+#Sense .Purpose ul.PurposeBox {
+	background-color:#EEEEEE;
+	padding:15px 20px;
+	margin-bottom:20px;
+	color:#333333;
+}
+
+
+#SenseContents p.Thanks{
+	margin-bottom:120px;
+}
+
+
+
+
+
+
+
+/*===== ■7. Download Button =====*/
+#BtnDownload {
+	padding: 0px 0px 0px 40px;
+}
+
+
+
+
+
+/*===== ■8.  =====*/
+
+
+
+
+
+/*===== ■*.Clear Release  =====*/
+/*===== ■*.Clear Release  =====*/
+#Sense,
+#Sense ul#SenseNavi{
+	/zoom: 1;
+}
+
+#Sense:after,
+#Sense ul#SenseNavi:after{
+	content: '';
+	display: block;
+	clear: both;
+}

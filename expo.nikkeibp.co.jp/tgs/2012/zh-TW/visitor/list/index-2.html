@@ -1,0 +1,4852 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh-tw" lang="zh-tw">
+
+<!-- Mirrored from expo.nikkeibp.co.jp/tgs/2012/zh-TW/visitor/list/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 09 May 2022 16:33:45 GMT -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<title>參展公司一覽 | 致參觀來賓 | 東京電玩展2012</title>
+<link href="../../common/css/import.css" rel="stylesheet" type="text/css" />
+<link href="style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="../../common/js/rollover.js"></script>
+<script src="../../../../../js/bpcommon/jquery.min.js"></script>
+<script type="text/javascript" src="../../common/js/jquery.tooltip03.js"></script>
+<script type="text/javascript" src="../../common/js/jquery.droppy.js"></script>
+<script type="text/javascript" src="../../common/js/jquery-contained-sticky-scroll.js"></script>
+<script type="text/javascript">
+jQuery(document).ready(function(){
+	jQuery('#side').containedStickyScroll({
+		unstick: false,
+	});
+});
+</script>
+<!-- ここから -->
+<script type="text/javascript" src="js/window.js"></script>
+<script type="text/javascript" src="js/jsrender.js"></script>
+<script type="text/javascript" src="js/exhibitor_search.js"></script>
+<script type="text/javascript">
+function callback(ret) {
+    var buf =  [];
+    for ( var i = 0; i < order.length; i++) {
+        var list = ret[order[i].cate_id];
+        list.title = order[i].title;
+        list.id = order[i].id;
+        buf.push(list);
+    }
+
+    $("#CompanyList").html($( "#tpl" ).render(buf));
+}
+
+// データの取得
+$(function() {
+    BpexpoUtils.enableSearch();
+    BpexpoUtils.getCategoryEn();
+});
+</script>
+
+
+</head>
+<body id="bodyTop">
+<div id="headCont">
+  <div id="headArea">
+    <h1><span class="alt">TOKYO GAME SHOW 2012</span></h1>
+    <div id="superBnr">
+      <!-- tgs2012e_rotation -->
+
+      <!-- end of tgs2012e_rotation -->
+    </div>
+    <div id="lngMenu">
+      <ul>
+        <li class="jp"><a href="../../../index-2.html" class="on"><span class="alt">日本語</span></a></li>
+        <li class="en"><a href="../../../en/index.html" class="on"><span class="alt">English</span></a></li>
+        <li class="ko"><a href="../../../ko/index.html" class="on"><span class="alt">한국어</span></a></li>
+        <li class="cn"><a href="../../../zh-CN/index.html" class="on"><span class="alt">簡体中文</span></a></li>
+        <li class="tw"><a href="../../index.html" class="focus"><span class="alt">繁體中文</span></a></li>
+      </ul>
+    </div>
+    <div id="snsMenu">
+      <ul>
+        <li class="t"><a href="http://twitter.com/#!/tokyo_game_show" target="_blank"><span class="alt">Twitter</span></a></li>
+        <li class="fb"><a href="http://www.facebook.com/tokyogameshow" target="_blank"><span class="alt">facebook</span></a></li>
+        <li class="in"><a href="http://www.linkedin.com/groups/TOKYO-GAME-SHOW-Business-Connections-4301474?trk=myg_ugrp_ovr" target="_blank"><span class="alt">Linked In</span></a></li>
+        <li class="rss"><a href="http://twitter.com/statuses/user_timeline/94486399.rss" target="_blank"><span class="alt">RSS</span></a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div id="mainCont">
+  <div id="mainArea">
+    <!--メインメニュー-->
+    <div id="gNavi">
+      <ul id="nav">
+        <li class="home"><a href="../../index.html"><img src="../../common/img/gn/gn_home.gif" width="62" height="39" alt="首頁" class="imgover" /></a></li>
+        <li class="visitor"> <a href="../index.html"><img src="../../common/img/gn/gn_visitor.gif" width="119" height="39" alt="致參觀來賓" class="imgover" /></a>
+          <ul>
+            <li><a href="../index.html">展覽概要</a></li>
+            <li><a href="../ticket.html">門票</a></li>
+            <!--<li><a href="visitor/numbered_ticket.html">Priority Ticket Distributions</a></li>-->
+            <li><a href="index.html">參展公司一覽</a></li>
+            <li><a href="../map.html">展位／展場平面圖<br />
+              （樓層平面圖）</a></li>
+            <li><a href="../attention.html">注意事項</a></li>
+            <li><a href="../cosplayers.html">致COSPLAY表演者們</a></li>
+            <li><a href="../officialtours.html">TGS Official Tours</a></li>
+            <li><a href="../access.html">交通資訊／官方旅遊</a></li>
+          </ul>
+        </li>
+        <li class="event"><a href="../../event/cosplay.html"><img src="../../common/img/gn/gn_event.gif" width="117" height="39" alt="重點活動"  class="imgover"/></a>
+          <ul>
+            <li><a href="../../event/cosplay.html">Cosplay Collection Night @TGS</a></li>
+            <li><a href="../../event/cga.html">e-Sports Competition　『Cyber Games Asia』（CGA）</a></li>
+          </ul>
+        </li>
+        <li class="business"> <a href="../../business/index.html"><img src="../../common/img/gn/gn_business.gif" width="161" height="39" alt="致商務目的的參觀來賓" class="imgover" /></a>
+         <ul>
+            <li><a href="../../business/index.html">門票（商務洽談日請事先登錄）</a></li>
+            <li><a href="../../business/forum.html">TGS Forum 2012</a></li>
+            <li><a href="../../business/agbs.html">Asia Game Business Summit</a></li>
+            <li><a href="../../business/matchup.html">Business Matching System<br />『Asia Business Gateway』</a></li>            <li><a href="../../business/intl.html">International Business Consultation Area</a></li>
+            <li><a href="../../business/sown/index.html">SENSE OF WONDER NIGHT 2012</a></li>
+          </ul>
+        </li>
+        <li class="media"> <a href="../../media/index.html"><img src="../../common/img/gn/gn_media.gif" width="120" height="39" alt="致各位媒體" class="imgover" /></a>
+          <ul>
+            <li><a href="../../media/index.html">新聞稿</a></li>
+            <li><a href="../../media/news.html">參展公司新聞稿</a></li>
+            <li><a href="https://www.filey.jp/tgs/" target="_blank">下載中心</a></li>
+            <li><a href="../../media/registration.html">關於媒體登錄</a></li>
+            <li><a href="../../media/acc.html">住宿</a></li>
+          </ul>
+        </li>
+        <li class="contact"> <a href="../../contact/index.html"><img src="../../common/img/gn/gn_contact.gif" width="90" height="39" alt="洽詢" class="imgover" /></a>
+          <ul>
+            <li><a href="../../contact/index.html">洽詢</a></li>
+            <li><a href="../../contact/faq.html">常見問題（FAQ）</a></li>
+          </ul>
+        </li>
+        <li class="exhibition"><a href="../../../exhibition/english/index.html" target="_blank"><img src="../../common/img/gn/gn_exhibition.gif" width="96" height="39" alt="參展指南" class="imgover" /></a></li>
+        <li class="past"><a href="../../../../2011/zh-TW/index-2.html" target="_blank"><img src="../../common/img/gn/gn_past.gif" width="113" height="39" alt="前屆概況" class="imgover" /></a></li>
+      </ul>
+      <script type='text/javascript'>
+  $(function() {
+    $('#nav').droppy();
+  });
+</script>
+    </div>
+    <!--/メインメニュー-->
+    <div id="mainCts" class="catVisitor">
+      <div id="mainL">
+        <h2 class="pageTitle"><img src="../img/title/title_list.gif" alt="Exhibitors" width="720" height="20" /></h2>
+
+
+ 		<div id="CompanyList">
+			<dl id="ListGeneral">
+				<dt> A </dt>
+				<dd>
+					<table>
+						<thead>
+							<tr>
+								<th>Booth Number</th>
+								<th>Corner</th>
+								<th>Exhibitor Name</th>
+								<th>Summary</th>
+								<th>HP</th>
+							</tr>
+						</thead>
+						<tbody>
+
+							<tr>
+
+								<td class="CellNumber"> 3-N6
+								</td><td class="CellGroup">Asia New Stars Area
+
+
+								</td><td class="CellCompany">Agate Studio &lt;Indonesia&gt;
+
+
+								</td><td class="CellTitle">
+
+
+								</td><td class="CellHP">
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="ChangeColor CellNumber"> 5-C8
+								</td><td class="ChangeColor CellGroup">Smartphone Game Area / Social Game Area
+
+
+								</td><td class="ChangeColor CellCompany">AGENDA Co., Ltd.
+
+
+								</td><td class="ChangeColor CellTitle">little pie2 blues
+
+
+								</td><td class="ChangeColor CellHP"><a href="http://agenda-game.com/en" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="CellNumber"> 8-N1
+								</td><td class="CellGroup">Family Corner
+
+
+								</td><td class="CellCompany">Alchemist, Inc.
+
+
+								</td><td class="CellTitle">
+
+
+								</td><td class="CellHP"><a href="http://alchemist-net.co.jp/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="ChangeColor CellNumber"> 3-N6
+								</td><td class="ChangeColor CellGroup">Asia New Stars Area
+
+
+								</td><td class="ChangeColor CellCompany">Altermyth &lt;Indonesia&gt;
+
+
+								</td><td class="ChangeColor CellTitle">
+
+
+								</td><td class="ChangeColor CellHP">
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="CellNumber"> 5-N13
+								</td><td class="CellGroup">Smartphone Game Area / Social Game Area
+
+
+								</td><td class="CellCompany">AmnesiaGames Ltda. &lt;Chile&gt;
+
+
+								</td><td class="CellTitle">
+
+
+								</td><td class="CellHP">
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="ChangeColor CellNumber"> 6-N21
+								</td><td class="ChangeColor CellGroup">Game School Area
+
+
+								</td><td class="ChangeColor CellCompany">Anabuki College Group
+
+
+								</td><td class="ChangeColor CellTitle">
+
+
+								</td><td class="ChangeColor CellHP"><a href="http://www.anabuki.ac.jp/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="CellNumber"> 1-N1
+								</td><td class="CellGroup">Gaming Device Area
+
+
+								</td><td class="CellCompany">Answer Co.,Ltd
+
+
+								</td><td class="CellTitle">
+
+
+								</td><td class="CellHP"><a href="http://www.a-answer.co.jp/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="ChangeColor CellNumber"> 4-N5
+								</td><td class="ChangeColor CellGroup">Business Solution Area
+
+
+								</td><td class="ChangeColor CellCompany">Appirits Inc.
+
+
+								</td><td class="ChangeColor CellTitle">Please drop in and see our original online games 100% made in Japan!
+
+
+								</td><td class="ChangeColor CellHP"><a href="http://www.appirits.com/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="CellNumber"> 2-C9
+								</td><td class="CellGroup">General Exhibition Area
+
+
+								</td><td class="CellCompany">ARC SYSTEM WORKS CO.,LTD.
+
+
+								</td><td class="CellTitle">www.arcsystemworks.jp
+
+
+								</td><td class="CellHP"><a href="http://www.arcsystemworks.jp/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="ChangeColor CellNumber"> 4-N25
+								</td><td class="ChangeColor CellGroup">Business Solution Area
+
+
+								</td><td class="ChangeColor CellCompany">Architect Co., Ltd.
+
+
+								</td><td class="ChangeColor CellTitle">
+
+
+								</td><td class="ChangeColor CellHP"><a href="http://www.architect.co.jp/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="CellNumber"> 3-N2
+								</td><td class="CellGroup">General Exhibition Area
+
+
+								</td><td class="CellCompany">ArcSoft Hangzhou Co., Ltd. &lt;China&gt;
+
+
+								</td><td class="CellTitle">
+
+
+								</td><td class="CellHP">
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="ChangeColor CellNumber"> 4-N9
+								</td><td class="ChangeColor CellGroup">Business Solution Area
+
+
+								</td><td class="ChangeColor CellCompany">Arriba Entertainment, Inc.
+
+
+								</td><td class="ChangeColor CellTitle">Video-game soundtrack production, and worldwide recording services.
+
+
+								</td><td class="ChangeColor CellHP"><a href="http://www.arribaentertainment.com/english.html" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="CellNumber"> 3-N7
+								</td><td class="CellGroup">General Exhibition Area
+
+
+								</td><td class="CellCompany">Art and Mobile Entertainment Co., Ltd. &lt;Taiwan&gt;
+
+
+								</td><td class="CellTitle">AAME believes firmly in gaming together &amp; sharing games with others.
+
+
+								</td><td class="CellHP"><a href="http://www.aame.mobi/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="ChangeColor CellNumber"> 6-N25
+								</td><td class="ChangeColor CellGroup">Game School Area
+
+
+								</td><td class="ChangeColor CellCompany">Arts College YOKOHAMA
+
+
+								</td><td class="ChangeColor CellTitle">
+
+
+								</td><td class="ChangeColor CellHP"><a href="http://www.kccollege.ac.jp/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="CellNumber"> 5-N21
+								</td><td class="CellGroup">Smartphone Game Area / Social Game Area
+
+
+								</td><td class="CellCompany">Artworks Games &lt;France&gt;
+
+
+								</td><td class="CellTitle">
+
+
+								</td><td class="CellHP">
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="ChangeColor CellNumber"> 4-N28
+								</td><td class="ChangeColor CellGroup">Business Solution Area
+
+
+								</td><td class="ChangeColor CellCompany">Arxan Technologies, Inc.
+
+
+								</td><td class="ChangeColor CellTitle">Let's guard Games against cracking !
+
+
+								</td><td class="ChangeColor CellHP"><a href="http://www.arxan.com/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="CellNumber"> BT-2
+								</td><td class="CellGroup">Business Meeting Area
+
+
+								</td><td class="CellCompany">Arxan Technologies, Inc.
+
+
+								</td><td class="CellTitle">
+
+
+								</td><td class="CellHP">
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="ChangeColor CellNumber"> 2-C11
+								</td><td class="ChangeColor CellGroup">General Exhibition Area
+
+
+								</td><td class="ChangeColor CellCompany">ASCII MEDIA WORKS INC.
+
+
+								</td><td class="ChangeColor CellTitle">
+
+
+								</td><td class="ChangeColor CellHP"><a href="http://www.asciimw.jp/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="CellNumber"> 6-N17
+								</td><td class="CellGroup">Game School Area
+
+
+								</td><td class="CellCompany">Aso Business Computer Fukuoka College
+
+
+								</td><td class="CellTitle">It is filled with advanced game developing curriculums.
+
+
+								</td><td class="CellHP"><a href="http://www.asojuku.ac.jp/international/eng/subject/index.html" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="ChangeColor CellNumber"> 3-N1
+								</td><td class="ChangeColor CellGroup">General Exhibition Area
+
+
+								</td><td class="ChangeColor CellCompany">Aurora Culture Communication Co., Ltd. Harbin &lt;China&gt;
+
+
+								</td><td class="ChangeColor CellTitle">
+
+
+								</td><td class="ChangeColor CellHP">
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="CellNumber"> 2-C5
+								</td><td class="CellGroup">General Exhibition Area
+
+
+								</td><td class="CellCompany">AVATRIP　&lt;Russia&gt;
+
+
+								</td><td class="CellTitle">Remote interactive video travel and guiding system
+
+
+								</td><td class="CellHP">
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="ChangeColor CellNumber"> 1-N5
+								</td><td class="ChangeColor CellGroup">Gaming Device Area
+
+
+								</td><td class="ChangeColor CellCompany">AVerMedia Technologies, Inc.
+
+
+								</td><td class="ChangeColor CellTitle">
+
+
+								</td><td class="ChangeColor CellHP"><a href="http://www.avermedia.co.jp/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="CellNumber"> 7-N15
+								</td><td class="CellGroup">Merchandise Sales Area
+
+
+								</td><td class="CellCompany">AVerMedia Technologies, Inc.
+
+
+								</td><td class="CellTitle">
+
+
+								</td><td class="CellHP"><a href="http://www.avermedia.co.jp/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+						</tbody>
+					</table>
+				</dd>
+			</dl>
+
+			<dl id="ListGeneral">
+				<dt> B </dt>
+				<dd>
+					<table>
+						<thead>
+							<tr>
+								<th>Booth Number</th>
+								<th>Corner</th>
+								<th>Exhibitor Name</th>
+								<th>Summary</th>
+								<th>HP</th>
+							</tr>
+						</thead>
+						<tbody>
+
+							<tr>
+
+								<td class="CellNumber"> 5-C2
+								</td><td class="CellGroup">Smartphone Game Area / Social Game Area
+
+
+								</td><td class="CellCompany">B-WOODS,Inc.
+
+
+								</td><td class="CellTitle">
+
+
+								</td><td class="CellHP"><a href="http://b-woods.net/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="ChangeColor CellNumber"> 6-N2
+								</td><td class="ChangeColor CellGroup">Game School Area
+
+
+								</td><td class="ChangeColor CellCompany">Be-MAX
+
+
+								</td><td class="ChangeColor CellTitle">Exhibition of student works
+
+
+								</td><td class="ChangeColor CellHP"><a href="http://www.be-max.ac.jp/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="CellNumber"> 3-N1
+								</td><td class="CellGroup">General Exhibition Area
+
+
+								</td><td class="CellCompany">Beijing Gamease Age Digital Technology Co., Ltd. &lt;China&gt;
+
+
+								</td><td class="CellTitle">
+
+
+								</td><td class="CellHP">
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="ChangeColor CellNumber"> 4-N10
+								</td><td class="ChangeColor CellGroup">Business Solution Area
+
+
+								</td><td class="ChangeColor CellCompany">Binari Sonori Asia K.K.
+
+
+								</td><td class="ChangeColor CellTitle">
+
+
+								</td><td class="ChangeColor CellHP"><a href="http://www.binarisonori.com/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="CellNumber"> 4-Ｎ27
+								</td><td class="CellGroup">Business Solution Area
+
+
+								</td><td class="CellCompany">boxPAY, Ltd. &lt;Ireland&gt;
+
+
+								</td><td class="CellTitle">
+
+
+								</td><td class="CellHP"><a href="http://www.boxpay.com/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="ChangeColor CellNumber"> 4-N13
+								</td><td class="ChangeColor CellGroup">Business Solution Area
+
+
+								</td><td class="ChangeColor CellCompany">BRAINSTORM CO., LTD.
+
+
+								</td><td class="ChangeColor CellTitle">Presentation of sound effect production tool "SOUNDICONS"
+
+
+								</td><td class="ChangeColor CellHP"><a href="http://www.nakataka.net/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="CellNumber"> 4-N2
+								</td><td class="CellGroup">General Exhibition Area
+
+
+								</td><td class="CellCompany">Broadmedia Corporation
+
+
+								</td><td class="CellTitle">
+
+
+								</td><td class="CellHP"><a href="http://www.broadmedia.co.jp/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="ChangeColor CellNumber"> 5-N21
+								</td><td class="ChangeColor CellGroup">Smartphone Game Area / Social Game Area
+
+
+								</td><td class="ChangeColor CellCompany">Bulkypix &lt;France&gt;
+
+
+								</td><td class="ChangeColor CellTitle">
+
+
+								</td><td class="ChangeColor CellHP">
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="CellNumber"> 6-S1
+								</td><td class="CellGroup">General Exhibition Area
+
+
+								</td><td class="CellCompany">Bushiroad Inc.
+
+
+								</td><td class="CellTitle">Bushimo. Cardfight!! Vanguard. King of Pro Wrestling.
+
+
+								</td><td class="CellHP"><a href="http://bushiroad.fm/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="ChangeColor CellNumber"> 7-C1
+								</td><td class="ChangeColor CellGroup">Merchandise Sales Area
+
+
+								</td><td class="ChangeColor CellCompany">Bushiroad Inc.
+
+
+								</td><td class="ChangeColor CellTitle">
+
+
+								</td><td class="ChangeColor CellHP">
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="CellNumber"> 8-N2
+								</td><td class="CellGroup">Family Corner
+
+
+								</td><td class="CellCompany">Bushiroad Inc.
+
+
+								</td><td class="CellTitle">
+
+
+								</td><td class="CellHP">
+
+
+							</td></tr>
+
+						</tbody>
+					</table>
+				</dd>
+			</dl>
+
+			<dl id="ListGeneral">
+				<dt> C </dt>
+				<dd>
+					<table>
+						<thead>
+							<tr>
+								<th>Booth Number</th>
+								<th>Corner</th>
+								<th>Exhibitor Name</th>
+								<th>Summary</th>
+								<th>HP</th>
+							</tr>
+						</thead>
+						<tbody>
+
+							<tr>
+
+								<td class="CellNumber"> 4-C1
+								</td><td class="CellGroup">General Exhibition Area
+
+
+								</td><td class="CellCompany">Capcom Co.,Ltd.
+
+
+								</td><td class="CellTitle">
+
+
+								</td><td class="CellHP">
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="ChangeColor CellNumber"> 8-C5
+								</td><td class="ChangeColor CellGroup">Family Corner
+
+
+								</td><td class="ChangeColor CellCompany">Capcom Co.,Ltd.
+
+
+								</td><td class="ChangeColor CellTitle">
+
+
+								</td><td class="ChangeColor CellHP">
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="CellNumber"> BM-6
+								</td><td class="CellGroup">Business Meeting Area
+
+
+								</td><td class="CellCompany">Capcom Co.,Ltd.
+
+
+								</td><td class="CellTitle">
+
+
+								</td><td class="CellHP">
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="ChangeColor CellNumber"> 7-N16
+								</td><td class="ChangeColor CellGroup">Merchandise Sales Area
+
+
+								</td><td class="ChangeColor CellCompany">Capcom Co.,Ltd.
+
+
+								</td><td class="ChangeColor CellTitle">
+
+
+								</td><td class="ChangeColor CellHP"><a href="http://www.capcom.co.jp/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="CellNumber"> 7-N8
+								</td><td class="CellGroup">Merchandise Sales Area
+
+
+								</td><td class="CellCompany">Capcom Co.Ltd.
+
+
+								</td><td class="CellTitle">
+
+
+								</td><td class="CellHP"><a href="http://www.capcom.co.jp/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="ChangeColor CellNumber"> 6-N10
+								</td><td class="ChangeColor CellGroup">Game School Area
+
+
+								</td><td class="ChangeColor CellCompany">Carnegie Mellon University Entertainment Technology Center
+
+
+								</td><td class="ChangeColor CellTitle">
+
+
+								</td><td class="ChangeColor CellHP"><a href="http://www.etc.cmu.edu/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="CellNumber"> 4-Ｎ26
+								</td><td class="CellGroup">Business Solution Area
+
+
+								</td><td class="CellCompany">CENTILI &lt;Malaysia&gt;
+
+
+								</td><td class="CellTitle">
+
+
+								</td><td class="CellHP"><a href="http://www.infobip.com/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="ChangeColor CellNumber"> 3-N7
+								</td><td class="ChangeColor CellGroup">General Exhibition Area
+
+
+								</td><td class="ChangeColor CellCompany">Chif International Corporation, LTD. &lt;Taiwan&gt;
+
+
+								</td><td class="ChangeColor CellTitle">
+
+
+								</td><td class="ChangeColor CellHP"><a href="http://www.chif.co.jp/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="CellNumber"> 3-N1
+								</td><td class="CellGroup">General Exhibition Area
+
+
+								</td><td class="CellCompany">China Pavilion &lt;China&gt;
+
+
+								</td><td class="CellTitle">Exhibition manager
+
+
+								</td><td class="CellHP"><a href="http://www.generexpo.com/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="ChangeColor CellNumber"> 5-C8
+								</td><td class="ChangeColor CellGroup">Smartphone Game Area / Social Game Area
+
+
+								</td><td class="ChangeColor CellCompany">City of Sapporo
+
+
+								</td><td class="ChangeColor CellTitle">
+
+
+								</td><td class="ChangeColor CellHP"><a href="http://www.city.sapporo.jp/keizai/biz_info/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="CellNumber"> 5-N14
+								</td><td class="CellGroup">Smartphone Game Area / Social Game Area
+
+
+								</td><td class="CellCompany">COLOPL, Inc.
+
+
+								</td><td class="CellTitle">
+
+
+								</td><td class="CellHP"><a href="http://colopl.co.jp/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="ChangeColor CellNumber"> 7-N10
+								</td><td class="ChangeColor CellGroup">Merchandise Sales Area
+
+
+								</td><td class="ChangeColor CellCompany">COSPA inc.
+
+
+								</td><td class="ChangeColor CellTitle">New goods featuring various video games
+
+
+								</td><td class="ChangeColor CellHP"><a href="http://www.cospa.com/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="CellNumber"> 3-N7
+								</td><td class="CellGroup">General Exhibition Area
+
+
+								</td><td class="CellCompany">Creativity In The Making, Ltd. &lt;Taiwan&gt;
+
+
+								</td><td class="CellTitle">unique music game + Android library for interactive design
+
+
+								</td><td class="CellHP"><a href="http://www.citm.com.tw/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="ChangeColor CellNumber"> 4-N19
+								</td><td class="ChangeColor CellGroup">Business Solution Area
+
+
+								</td><td class="ChangeColor CellCompany">CRI Middleware Co.,Ltd.
+
+
+								</td><td class="ChangeColor CellTitle">
+
+
+								</td><td class="ChangeColor CellHP"><a href="http://www.cri-mw.com/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="CellNumber"> 5-C8
+								</td><td class="CellGroup">Smartphone Game Area / Social Game Area
+
+
+								</td><td class="CellCompany">CRYPTON FUTURE MEDIA,INC.
+
+
+								</td><td class="CellTitle">
+
+
+								</td><td class="CellHP"><a href="http://www.crypton.co.jp/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="ChangeColor CellNumber"> 4-N4
+								</td><td class="ChangeColor CellGroup">PC Game Area
+
+
+								</td><td class="ChangeColor CellCompany">CyAC
+
+
+								</td><td class="ChangeColor CellTitle">
+
+
+								</td><td class="ChangeColor CellHP"><a href="http://cyac.jp/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+						</tbody>
+					</table>
+				</dd>
+			</dl>
+
+			<dl id="ListGeneral">
+				<dt> D </dt>
+				<dd>
+					<table>
+						<thead>
+							<tr>
+								<th>Booth Number</th>
+								<th>Corner</th>
+								<th>Exhibitor Name</th>
+								<th>Summary</th>
+								<th>HP</th>
+							</tr>
+						</thead>
+						<tbody>
+
+							<tr>
+
+								<td class="CellNumber"> 2-C1
+								</td><td class="CellGroup">General Exhibition Area
+
+
+								</td><td class="CellCompany">D3 PUBLISHER INC.
+
+
+								</td><td class="CellTitle">
+
+
+								</td><td class="CellHP"><a href="http://www.d3p.co.jp/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="ChangeColor CellNumber"> 7-N13
+								</td><td class="ChangeColor CellGroup">Merchandise Sales Area
+
+
+								</td><td class="ChangeColor CellCompany">D3 PUBLISHER INC.
+
+
+								</td><td class="ChangeColor CellTitle">
+
+
+								</td><td class="ChangeColor CellHP"><a href="http://www.d3p.co.jp/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="CellNumber"> 4-N20
+								</td><td class="CellGroup">Business Solution Area
+
+
+								</td><td class="CellCompany">DAGMUSIC LTD.
+
+
+								</td><td class="CellTitle">Specialist in coordinating foreign artists
+
+
+								</td><td class="CellHP"><a href="http://www.dagmusic.com/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="ChangeColor CellNumber"> BT-1
+								</td><td class="ChangeColor CellGroup">Business Meeting Area
+
+
+								</td><td class="ChangeColor CellCompany">Danal Games &lt;South Korea&gt;
+
+
+								</td><td class="ChangeColor CellTitle">Land of Chaos Online
+
+
+								</td><td class="ChangeColor CellHP"><a href="http://www.danal.co.kr/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="CellNumber"> 5-C8
+								</td><td class="CellGroup">Smartphone Game Area / Social Game Area
+
+
+								</td><td class="CellCompany">DataHouse Beagle,a division of Tokugawa system Inc.
+
+
+								</td><td class="CellTitle">
+
+
+								</td><td class="CellHP"><a href="http://www.beagle.co.jp/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="ChangeColor CellNumber"> 5-N1
+								</td><td class="ChangeColor CellGroup">Smartphone Game Area / Social Game Area
+
+
+								</td><td class="ChangeColor CellCompany">DENGEKI G's COMIC
+
+
+								</td><td class="ChangeColor CellTitle">
+
+
+								</td><td class="ChangeColor CellHP"><a href="http://gscomic.dengeki.com/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="CellNumber"> 3-N20
+								</td><td class="CellGroup">General Exhibition Area
+
+
+								</td><td class="CellCompany">DENGEKI ONLINE
+
+
+								</td><td class="CellTitle">
+
+
+								</td><td class="CellHP"><a href="http://news.dengeki.com/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="ChangeColor CellNumber"> 4-S2
+								</td><td class="ChangeColor CellGroup">General Exhibition Area
+
+
+								</td><td class="ChangeColor CellCompany">DENGEKI PlayStation
+
+
+								</td><td class="ChangeColor CellTitle">
+
+
+								</td><td class="ChangeColor CellHP"><a href="http://news.dengeki.com/dps/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="CellNumber"> 3-N7
+								</td><td class="CellGroup">General Exhibition Area
+
+
+								</td><td class="CellCompany">Dept. of Multimedia and Game Science, Lunghwa University of Science and Technology &lt;Taiwan&gt;
+
+
+								</td><td class="CellTitle">Angel's Relief, Cloud and Boy, Captain Water
+
+
+								</td><td class="CellHP"><a href="http://www.lhu.edu.tw/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="ChangeColor CellNumber"> 5-N21
+								</td><td class="ChangeColor CellGroup">Smartphone Game Area / Social Game Area
+
+
+								</td><td class="ChangeColor CellCompany">DotEmu &lt;France&gt;
+
+
+								</td><td class="ChangeColor CellTitle">
+
+
+								</td><td class="ChangeColor CellHP">
+
+
+							</td></tr>
+
+						</tbody>
+					</table>
+				</dd>
+			</dl>
+
+			<dl id="ListGeneral">
+				<dt> E </dt>
+				<dd>
+					<table>
+						<thead>
+							<tr>
+								<th>Booth Number</th>
+								<th>Corner</th>
+								<th>Exhibitor Name</th>
+								<th>Summary</th>
+								<th>HP</th>
+							</tr>
+						</thead>
+						<tbody>
+
+							<tr>
+
+								<td class="CellNumber"> 6-N7
+								</td><td class="CellGroup">Game School Area
+
+
+								</td><td class="CellCompany">ECC COLLEGE OF COMPUTER AND MULTIMEDIA
+
+
+								</td><td class="CellTitle">
+
+
+								</td><td class="CellHP"><a href="http://comp.ecc.ac.jp/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="ChangeColor CellNumber"> 5-N4
+								</td><td class="ChangeColor CellGroup">Smartphone Game Area / Social Game Area
+
+
+								</td><td class="ChangeColor CellCompany">eitarosoft,inc.
+
+
+								</td><td class="ChangeColor CellTitle">
+
+
+								</td><td class="ChangeColor CellHP"><a href="http://www.eitarosoft.co.jp/jp" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="CellNumber"> BM-5
+								</td><td class="CellGroup">Business Meeting Area
+
+
+								</td><td class="CellCompany">eitarosoft,inc.
+
+
+								</td><td class="CellTitle">
+
+
+								</td><td class="CellHP"><a href="http://www.eitarosoft.co.jp/jp/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="ChangeColor CellNumber"> 1-S1
+								</td><td class="ChangeColor CellGroup">General Exhibition Area
+
+
+								</td><td class="ChangeColor CellCompany">ENTERBRAIN, INC.
+
+
+								</td><td class="ChangeColor CellTitle">"SHINA-House" will be  back!
+
+
+								</td><td class="ChangeColor CellHP"><a href="http://www.enterbrain.co.jp/corporate/profile_e.html" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="CellNumber"> 4-N10
+								</td><td class="CellGroup">Business Solution Area
+
+
+								</td><td class="CellCompany">Enzyme Labs
+
+
+								</td><td class="CellTitle">
+
+
+								</td><td class="CellHP"><a href="http://www.enzyme.org/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="ChangeColor CellNumber"> 5-C3
+								</td><td class="ChangeColor CellGroup">Smartphone Game Area / Social Game Area
+
+
+								</td><td class="ChangeColor CellCompany">EverdreamSoft &lt;Switzerland&gt;
+
+
+								</td><td class="ChangeColor CellTitle">Moonga Trading Card Game
+
+
+								</td><td class="ChangeColor CellHP"><a href="http://www.everdreamsoft.com/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+						</tbody>
+					</table>
+				</dd>
+			</dl>
+
+			<dl id="ListGeneral">
+				<dt> F </dt>
+				<dd>
+					<table>
+						<thead>
+							<tr>
+								<th>Booth Number</th>
+								<th>Corner</th>
+								<th>Exhibitor Name</th>
+								<th>Summary</th>
+								<th>HP</th>
+							</tr>
+						</thead>
+						<tbody>
+
+							<tr>
+
+								<td class="CellNumber"> 4-N21
+								</td><td class="CellGroup">Business Solution Area
+
+
+								</td><td class="CellCompany">Fontworks Inc.
+
+
+								</td><td class="CellTitle">
+
+
+								</td><td class="CellHP"><a href="http://fontworks.co.jp/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="ChangeColor CellNumber"> 4-N15
+								</td><td class="ChangeColor CellGroup">Cloud/Data Center Pavilion
+
+
+								</td><td class="ChangeColor CellCompany">FORUM8 Co., Ltd.
+
+
+								</td><td class="ChangeColor CellTitle">Try driving/using our simulators and 3DVR cloud on Android!
+
+
+								</td><td class="ChangeColor CellHP"><a href="http://www.forum8.co.jp/english/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="CellNumber"> 5-N21
+								</td><td class="CellGroup">Smartphone Game Area / Social Game Area
+
+
+								</td><td class="CellCompany">French Trade Commission-UBIFRANCE &lt;France&gt;
+
+
+								</td><td class="CellTitle">
+
+
+								</td><td class="CellHP">
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="ChangeColor CellNumber"> 5-N12
+								</td><td class="ChangeColor CellGroup">Smartphone Game Area / Social Game Area
+
+
+								</td><td class="ChangeColor CellCompany">Fuji Television Network, Inc.
+
+
+								</td><td class="ChangeColor CellTitle">
+
+
+								</td><td class="ChangeColor CellHP"><a href="http://www.fujitv.co.jp/en/index.html" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="CellNumber"> 3-N4
+								</td><td class="CellGroup">Asia New Stars Area
+
+
+								</td><td class="CellCompany">Fun &amp; Cool Ventures &lt;Malaysia&gt;
+
+
+								</td><td class="CellTitle">
+
+
+								</td><td class="CellHP"><a href="http://www.topfuncoolgames.net/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+						</tbody>
+					</table>
+				</dd>
+			</dl>
+
+			<dl id="ListGeneral">
+				<dt> G </dt>
+				<dd>
+					<table>
+						<thead>
+							<tr>
+								<th>Booth Number</th>
+								<th>Corner</th>
+								<th>Exhibitor Name</th>
+								<th>Summary</th>
+								<th>HP</th>
+							</tr>
+						</thead>
+						<tbody>
+
+							<tr>
+
+								<td class="CellNumber"> 4-N2
+								</td><td class="CellGroup">General Exhibition Area
+
+
+								</td><td class="CellCompany">G-cluster Global Corporation
+
+
+								</td><td class="CellTitle">G-cluster
+
+
+								</td><td class="CellHP"><a href="http://www.gcluster.com/eng/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="ChangeColor CellNumber"> 5-C8
+								</td><td class="ChangeColor CellGroup">Smartphone Game Area / Social Game Area
+
+
+								</td><td class="ChangeColor CellCompany">G-STYLE Co.,Ltd
+
+
+								</td><td class="ChangeColor CellTitle">
+
+
+								</td><td class="ChangeColor CellHP"><a href="http://www.gstyle.co.jp/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="CellNumber"> 7-N17
+								</td><td class="CellGroup">Merchandise Sales Area
+
+
+								</td><td class="CellCompany">Game Center CX
+
+
+								</td><td class="CellTitle">
+
+
+								</td><td class="CellHP"><a href="http://www.gascoin.co.jp/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="ChangeColor CellNumber"> 2-C7
+								</td><td class="ChangeColor CellGroup">General Exhibition Area
+
+
+								</td><td class="ChangeColor CellCompany">GameSalad
+
+
+								</td><td class="ChangeColor CellTitle">
+
+
+								</td><td class="ChangeColor CellHP"><a href="http://www.ad-gaming.co.jp/gamesalad" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="CellNumber"> 7-N4
+								</td><td class="CellGroup">Merchandise Sales Area
+
+
+								</td><td class="CellCompany">GAMETECH CO.,LTD.
+
+
+								</td><td class="CellTitle">New releases from Japanese styled brand WaSaBi
+
+
+								</td><td class="CellHP"><a href="http://www.gametech.co.jp/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="ChangeColor CellNumber"> 3-N1
+								</td><td class="ChangeColor CellGroup">General Exhibition Area
+
+
+								</td><td class="ChangeColor CellCompany">Ganzhou Foraise Culture Communication Co., Ltd. &lt;China&gt;
+
+
+								</td><td class="ChangeColor CellTitle">
+
+
+								</td><td class="ChangeColor CellHP">
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="CellNumber"> 5-N8
+								</td><td class="CellGroup">Smartphone Game Area / Social Game Area
+
+
+								</td><td class="CellCompany">Geisha Tokyo Entertainment Inc.
+
+
+								</td><td class="CellTitle">
+
+
+								</td><td class="CellHP"><a href="http://www.geishatokyo.com/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="ChangeColor CellNumber"> 5-N21
+								</td><td class="ChangeColor CellGroup">Smartphone Game Area / Social Game Area
+
+
+								</td><td class="ChangeColor CellCompany">Gemalto &lt;France&gt;
+
+
+								</td><td class="ChangeColor CellTitle">
+
+
+								</td><td class="ChangeColor CellHP">
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="CellNumber"> 5-N22
+								</td><td class="CellGroup">General Exhibition Area
+
+
+								</td><td class="CellCompany">Genius Sonority Inc.
+
+
+								</td><td class="CellTitle">
+
+
+								</td><td class="CellHP"><a href="http://www.geniussonority.jp/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="ChangeColor CellNumber"> 3-N1
+								</td><td class="ChangeColor CellGroup">General Exhibition Area
+
+
+								</td><td class="ChangeColor CellCompany">Giant Interactive Group Inc. &lt;China&gt;
+
+
+								</td><td class="ChangeColor CellTitle">
+
+
+								</td><td class="ChangeColor CellHP">
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="CellNumber"> 1-N2
+								</td><td class="CellGroup">Gaming Device Area
+
+
+								</td><td class="CellCompany">gioteck &lt;United Kingdom&gt;
+
+
+								</td><td class="CellTitle">
+
+
+								</td><td class="CellHP">
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="ChangeColor CellNumber"> 3-N3
+								</td><td class="ChangeColor CellGroup">Asia New Stars Area
+
+
+								</td><td class="ChangeColor CellCompany">GLASS EGG DIGITAL MEDIA &lt;Vietnam&gt;
+
+
+								</td><td class="ChangeColor CellTitle">
+
+
+								</td><td class="ChangeColor CellHP"><a href="http://www.glassegg.com/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="CellNumber"> 6-C1
+								</td><td class="CellGroup">General Exhibition Area
+
+
+								</td><td class="CellCompany">gloops, Inc.
+
+
+								</td><td class="CellTitle">Let's party down at gloops booth!
+
+
+								</td><td class="CellHP"><a href="http://gloops.com/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="ChangeColor CellNumber"> 5-C5
+								</td><td class="ChangeColor CellGroup">Smartphone Game Area / Social Game Area
+
+
+								</td><td class="ChangeColor CellCompany">GMO Internet, Inc.
+
+
+								</td><td class="ChangeColor CellTitle">
+
+
+								</td><td class="ChangeColor CellHP"><a href="http://cloud.gmo.jp/en/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="CellNumber"> 3-N7
+								</td><td class="CellGroup">General Exhibition Area
+
+
+								</td><td class="CellCompany">Goldrock Inc. &lt;Taiwan&gt;
+
+
+								</td><td class="CellTitle">iPhone App: Puzzel Game "Finding Hidden"
+
+
+								</td><td class="CellHP"><a href="http://www.goldrock.com.tw/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="ChangeColor CellNumber"> 5-S1
+								</td><td class="ChangeColor CellGroup">General Exhibition Area
+
+
+								</td><td class="ChangeColor CellCompany">GREE, Inc.
+
+
+								</td><td class="ChangeColor CellTitle">GREE to showcase the evolution of social gaming
+
+
+								</td><td class="ChangeColor CellHP"><a href="http://www.gree.co.jp/en/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="CellNumber"> BM-1
+								</td><td class="CellGroup">Business Meeting Area
+
+
+								</td><td class="CellCompany">GunHo Online Entertainment, Inc./GRAVITY Co., Ltd./NEOCYON INC.
+
+
+								</td><td class="CellTitle">
+
+
+								</td><td class="CellHP"><a href="http://www.gravity.co.kr/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+						</tbody>
+					</table>
+				</dd>
+			</dl>
+
+			<dl id="ListGeneral">
+				<dt> H </dt>
+				<dd>
+					<table>
+						<thead>
+							<tr>
+								<th>Booth Number</th>
+								<th>Corner</th>
+								<th>Exhibitor Name</th>
+								<th>Summary</th>
+								<th>HP</th>
+							</tr>
+						</thead>
+						<tbody>
+
+							<tr>
+
+								<td class="CellNumber"> 5-C8
+								</td><td class="CellGroup">Smartphone Game Area / Social Game Area
+
+
+								</td><td class="CellCompany">h.a.n.d. Inc.
+
+
+								</td><td class="CellTitle">
+
+
+								</td><td class="CellHP"><a href="http://www.hand.co.jp/en/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="ChangeColor CellNumber"> 3-N2
+								</td><td class="ChangeColor CellGroup">General Exhibition Area
+
+
+								</td><td class="ChangeColor CellCompany">Hangzhou Fanfan Cartoon And Art Limited Company &lt;China&gt;
+
+
+								</td><td class="ChangeColor CellTitle">
+
+
+								</td><td class="ChangeColor CellHP">
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="CellNumber"> 3-N1
+								</td><td class="CellGroup">General Exhibition Area
+
+
+								</td><td class="CellCompany">Hangzhou FanFan Comic Culture &amp; Art Co., Ltd. &lt;China&gt;
+
+
+								</td><td class="CellTitle">
+
+
+								</td><td class="CellHP">
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="ChangeColor CellNumber"> 3-N2
+								</td><td class="ChangeColor CellGroup">General Exhibition Area
+
+
+								</td><td class="ChangeColor CellCompany">Hangzhou Joyport Technology Co.,Ltd. &lt;China&gt;
+
+
+								</td><td class="ChangeColor CellTitle">Overseas Business Development Manager
+
+
+								</td><td class="ChangeColor CellHP"><a href="http://www.joyport.com/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="CellNumber"> 3-N2
+								</td><td class="CellGroup">General Exhibition Area
+
+
+								</td><td class="CellCompany">Hangzhou Wooduan Entertainment Co., Ltd. &lt;China&gt;
+
+
+								</td><td class="CellTitle">Brief intro of wooduan
+
+
+								</td><td class="CellHP"><a href="http://www.wooduan.com/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="ChangeColor CellNumber"> 3-N2
+								</td><td class="ChangeColor CellGroup">General Exhibition Area
+
+
+								</td><td class="ChangeColor CellCompany">Hangzhou XuanJi Science &amp; Technology Information Co., Ltd. &lt;China&gt;
+
+
+								</td><td class="ChangeColor CellTitle">The Legend of Qin
+
+
+								</td><td class="ChangeColor CellHP"><a href="http://www.qinsmoon.com/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="CellNumber"> 1-N7
+								</td><td class="CellGroup">General Exhibition Area
+
+
+								</td><td class="CellCompany">HAPPINET CORPORATION
+
+
+								</td><td class="CellTitle">
+
+
+								</td><td class="CellHP"><a href="http://www.hap-net.com/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="ChangeColor CellNumber"> 5-N7
+								</td><td class="ChangeColor CellGroup">Smartphone Game Area / Social Game Area
+
+
+								</td><td class="ChangeColor CellCompany">Happymeal Inc./1upgames Inc.
+
+
+								</td><td class="ChangeColor CellTitle">Let's enjoy games on the smartphone with your child!
+
+
+								</td><td class="ChangeColor CellHP"><a href="http://bonusstage.net/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="CellNumber"> 8-C4
+								</td><td class="CellGroup">Family Corner
+
+
+								</td><td class="CellCompany">Happymeal Inc./1upgames Inc.
+
+
+								</td><td class="CellTitle">Let's enjoy games on the smartphone with your child!
+
+
+								</td><td class="CellHP"><a href="http://bonusstage.net/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="ChangeColor CellNumber"> 3-N1
+								</td><td class="ChangeColor CellGroup">General Exhibition Area
+
+
+								</td><td class="ChangeColor CellCompany">Harbin Haixin Technology Co., Ltd &lt;China&gt;
+
+
+								</td><td class="ChangeColor CellTitle">
+
+
+								</td><td class="ChangeColor CellHP">
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="CellNumber"> 3-N1
+								</td><td class="CellGroup">General Exhibition Area
+
+
+								</td><td class="CellCompany">Harbin PingGo Digital Arts Co., Ltd. &lt;China&gt;
+
+
+								</td><td class="CellTitle">
+
+
+								</td><td class="CellHP">
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="ChangeColor CellNumber"> 3-N1
+								</td><td class="ChangeColor CellGroup">General Exhibition Area
+
+
+								</td><td class="ChangeColor CellCompany">Harbin Yingli Technology Development Co., Ltd. &lt;China&gt;
+
+
+								</td><td class="ChangeColor CellTitle">
+
+
+								</td><td class="ChangeColor CellHP">
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="CellNumber"> 5-N11
+								</td><td class="CellGroup">Smartphone Game Area / Social Game Area
+
+
+								</td><td class="CellCompany">HAYABUSA, Inc.
+
+
+								</td><td class="CellTitle">
+
+
+								</td><td class="CellHP">
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="ChangeColor CellNumber"> 5-C7
+								</td><td class="ChangeColor CellGroup">Smartphone Game Area / Social Game Area
+
+
+								</td><td class="ChangeColor CellCompany">HEART BIT Inc.
+
+
+								</td><td class="ChangeColor CellTitle">
+
+
+								</td><td class="ChangeColor CellHP"><a href="http://www.heart-bit.com/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="CellNumber"> 5-C8
+								</td><td class="CellGroup">Smartphone Game Area / Social Game Area
+
+
+								</td><td class="CellCompany">HEART BIT Inc.
+
+
+								</td><td class="CellTitle">
+
+
+								</td><td class="CellHP"><a href="http://www.heart-bit.com/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="ChangeColor CellNumber"> 6-N28
+								</td><td class="ChangeColor CellGroup">Game School Area
+
+
+								</td><td class="ChangeColor CellCompany">Higashi-Nihon Design &amp; Computer College
+
+
+								</td><td class="ChangeColor CellTitle">
+
+
+								</td><td class="ChangeColor CellHP"><a href="http://www.yamasaki.ac.jp/design-com/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="CellNumber"> 1-N2
+								</td><td class="CellGroup">Gaming Device Area
+
+
+								</td><td class="CellCompany">hitBOX &lt;USA&gt;
+
+
+								</td><td class="CellTitle">
+
+
+								</td><td class="CellHP">
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="ChangeColor CellNumber"> 5-C8
+								</td><td class="ChangeColor CellGroup">Smartphone Game Area / Social Game Area
+
+
+								</td><td class="ChangeColor CellCompany">HOKKAIDO GOVERNMENT
+
+
+								</td><td class="ChangeColor CellTitle">
+
+
+								</td><td class="ChangeColor CellHP">
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="CellNumber"> 5-C8
+								</td><td class="CellGroup">Smartphone Game Area / Social Game Area
+
+
+								</td><td class="CellCompany">Hokkaido Information and Communication Technology Association
+
+
+								</td><td class="CellTitle">
+
+
+								</td><td class="CellHP"><a href="http://www.hicta.or.jp/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="ChangeColor CellNumber"> 5-C8
+								</td><td class="ChangeColor CellGroup">Smartphone Game Area / Social Game Area
+
+
+								</td><td class="ChangeColor CellCompany">Hokkaido Information University
+
+
+								</td><td class="ChangeColor CellTitle">Hokkaido Information University
+
+
+								</td><td class="ChangeColor CellHP"><a href="http://www.do-johodai.ac.jp/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="CellNumber"> 5-C8
+								</td><td class="CellGroup">Smartphone Game Area / Social Game Area
+
+
+								</td><td class="CellCompany">Hokkaido Mobile Content promotion Council
+
+
+								</td><td class="CellTitle">
+
+
+								</td><td class="CellHP"><a href="http://hmcc.jp/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="ChangeColor CellNumber"> 5-C8
+								</td><td class="ChangeColor CellGroup">Smartphone Game Area / Social Game Area
+
+
+								</td><td class="ChangeColor CellCompany">Hokkaido Pavilion
+
+
+								</td><td class="ChangeColor CellTitle">
+
+
+								</td><td class="ChangeColor CellHP"><a href="http://www.hicta.or.jp/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="CellNumber"> 4-N8
+								</td><td class="CellGroup">Business Solution Area
+
+
+								</td><td class="CellCompany">Honyaku Center Inc.
+
+
+								</td><td class="CellTitle">Game translation by Honyaku Center
+
+
+								</td><td class="CellHP"><a href="http://www.honyakuctr.com/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="ChangeColor CellNumber"> 1-N2
+								</td><td class="ChangeColor CellGroup">Gaming Device Area
+
+
+								</td><td class="ChangeColor CellCompany">HYPERKIN &lt;USA&gt;
+
+
+								</td><td class="ChangeColor CellTitle">
+
+
+								</td><td class="ChangeColor CellHP">
+
+
+							</td></tr>
+
+						</tbody>
+					</table>
+				</dd>
+			</dl>
+
+			<dl id="ListGeneral">
+				<dt> I </dt>
+				<dd>
+					<table>
+						<thead>
+							<tr>
+								<th>Booth Number</th>
+								<th>Corner</th>
+								<th>Exhibitor Name</th>
+								<th>Summary</th>
+								<th>HP</th>
+							</tr>
+						</thead>
+						<tbody>
+
+							<tr>
+
+								<td class="CellNumber"> 5-N13
+								</td><td class="CellGroup">Smartphone Game Area / Social Game Area
+
+
+								</td><td class="CellCompany">IguanaBee SpA. &lt;Chile&gt;
+
+
+								</td><td class="CellTitle">
+
+
+								</td><td class="CellHP">
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="ChangeColor CellNumber"> 3-N6
+								</td><td class="ChangeColor CellGroup">Asia New Stars Area
+
+
+								</td><td class="ChangeColor CellCompany">Indonesian Game Studios &lt;Indonesia&gt;
+
+
+								</td><td class="ChangeColor CellTitle">
+
+
+								</td><td class="ChangeColor CellHP">
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="CellNumber"> 3-N7
+								</td><td class="CellGroup">General Exhibition Area
+
+
+								</td><td class="CellCompany">International Games System Co., Ltd. &lt;Taiwan&gt;
+
+
+								</td><td class="CellTitle">MMO Action-Shooting:Planet Legend Online MMORPG:Oriental Legend Online
+
+
+								</td><td class="CellHP"><a href="http://www.igs.com.tw/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="ChangeColor CellNumber"> 4-N18
+								</td><td class="ChangeColor CellGroup">Cloud/Data Center Pavilion
+
+
+								</td><td class="ChangeColor CellCompany">Internet Initiative Japan Inc.
+
+
+								</td><td class="ChangeColor CellTitle">
+
+
+								</td><td class="ChangeColor CellHP"><a href="http://www.iij.ad.jp/en/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="CellNumber"> 3-N5
+								</td><td class="CellGroup">Asia New Stars Area
+
+
+								</td><td class="CellCompany">Iran National Foundation of Computer Games &lt;Iran&gt;
+
+
+								</td><td class="CellTitle">
+
+
+								</td><td class="CellHP">
+
+
+							</td></tr>
+
+						</tbody>
+					</table>
+				</dd>
+			</dl>
+
+			<dl id="ListGeneral">
+				<dt> J </dt>
+				<dd>
+					<table>
+						<thead>
+							<tr>
+								<th>Booth Number</th>
+								<th>Corner</th>
+								<th>Exhibitor Name</th>
+								<th>Summary</th>
+								<th>HP</th>
+							</tr>
+						</thead>
+						<tbody>
+
+							<tr>
+
+								<td class="CellNumber"> 6-N23
+								</td><td class="CellGroup">Game School Area
+
+
+								</td><td class="CellCompany">JAPAN ELECTRONICS COLLEGE
+
+
+								</td><td class="CellTitle">
+
+
+								</td><td class="CellHP"><a href="http://www.jec.ac.jp/en/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="ChangeColor CellNumber"> 3-N1
+								</td><td class="ChangeColor CellGroup">General Exhibition Area
+
+
+								</td><td class="ChangeColor CellCompany">Joyboat 6 Studios &lt;China&gt;
+
+
+								</td><td class="ChangeColor CellTitle">
+
+
+								</td><td class="ChangeColor CellHP">
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="CellNumber"> 5-N5
+								</td><td class="CellGroup">Smartphone Game Area / Social Game Area
+
+
+								</td><td class="CellCompany">JSC GAMES Co., Ltd. &lt;South Korea&gt;
+
+
+								</td><td class="CellTitle">JSC GAMES Co.,Ltd.
+
+
+								</td><td class="CellHP"><a href="http://www.jscgames.com/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+						</tbody>
+					</table>
+				</dd>
+			</dl>
+
+			<dl id="ListGeneral">
+				<dt> K </dt>
+				<dd>
+					<table>
+						<thead>
+							<tr>
+								<th>Booth Number</th>
+								<th>Corner</th>
+								<th>Exhibitor Name</th>
+								<th>Summary</th>
+								<th>HP</th>
+							</tr>
+						</thead>
+						<tbody>
+
+							<tr>
+
+								<td class="CellNumber"> 6-N14
+								</td><td class="CellGroup">Game School Area
+
+
+								</td><td class="CellCompany">Kanagawa Institute of Technology
+
+
+								</td><td class="CellTitle">FPS(Food Practice System)Game
+
+
+								</td><td class="CellHP"><a href="http://www.kait.jp/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="ChangeColor CellNumber"> 4-N16
+								</td><td class="ChangeColor CellGroup">Cloud/Data Center Pavilion
+
+
+								</td><td class="ChangeColor CellCompany">KANEMATSU ELECTRONICS LTD.
+
+
+								</td><td class="ChangeColor CellTitle">
+
+
+								</td><td class="ChangeColor CellHP"><a href="http://www.kel.co.jp/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="CellNumber"> 4-N23
+								</td><td class="CellGroup">Business Solution Area
+
+
+								</td><td class="CellCompany">Keywords International Co., Ltd. &lt;Ireland&gt;
+
+
+								</td><td class="CellTitle">
+
+
+								</td><td class="CellHP">
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="ChangeColor CellNumber"> 6-N26
+								</td><td class="ChangeColor CellGroup">Game School Area
+
+
+								</td><td class="ChangeColor CellCompany">Kobe Institute of Computing - College of Computing
+
+
+								</td><td class="ChangeColor CellTitle">
+
+
+								</td><td class="ChangeColor CellHP"><a href="http://www.kobedenshi.ac.jp/e/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="CellNumber"> 3-S1
+								</td><td class="CellGroup">General Exhibition Area
+
+
+								</td><td class="CellCompany">KONAMI
+
+
+								</td><td class="CellTitle">
+
+
+								</td><td class="CellHP"><a href="http://www.konami.jp/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="ChangeColor CellNumber"> 7-C3
+								</td><td class="ChangeColor CellGroup">Merchandise Sales Area
+
+
+								</td><td class="ChangeColor CellCompany">KONAMI
+
+
+								</td><td class="ChangeColor CellTitle">
+
+
+								</td><td class="ChangeColor CellHP"><a href="http://www.konami.jp/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="CellNumber"> 8-C3
+								</td><td class="CellGroup">Family Corner
+
+
+								</td><td class="CellCompany">KONAMI
+
+
+								</td><td class="CellTitle">
+
+
+								</td><td class="CellHP"><a href="http://www.konami.jp/products/am_orecabattle/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="ChangeColor CellNumber"> 2-C8
+								</td><td class="ChangeColor CellGroup">General Exhibition Area
+
+
+								</td><td class="ChangeColor CellCompany">KOZIN-MON/KGS/SOGOGAKUEN HUMANACADEMY
+
+
+								</td><td class="ChangeColor CellTitle">
+
+
+								</td><td class="ChangeColor CellHP"><a href="http://www.kgs-inc.co.jp/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="CellNumber"> 4-N17
+								</td><td class="CellGroup">Cloud/Data Center Pavilion
+
+
+								</td><td class="CellCompany">KVH Co.,Ltd.
+
+
+								</td><td class="CellTitle">
+
+
+								</td><td class="CellHP"><a href="http://kvh.co.jp/en" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="ChangeColor CellNumber"> 6-N22
+								</td><td class="ChangeColor CellGroup">Game School Area
+
+
+								</td><td class="ChangeColor CellCompany">Kyushu Designers Gakuin College
+
+
+								</td><td class="ChangeColor CellTitle">
+
+
+								</td><td class="ChangeColor CellHP"><a href="http://www.eggnet.ac.jp/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+						</tbody>
+					</table>
+				</dd>
+			</dl>
+
+			<dl id="ListGeneral">
+				<dt> L </dt>
+				<dd>
+					<table>
+						<thead>
+							<tr>
+								<th>Booth Number</th>
+								<th>Corner</th>
+								<th>Exhibitor Name</th>
+								<th>Summary</th>
+								<th>HP</th>
+							</tr>
+						</thead>
+						<tbody>
+
+							<tr>
+
+								<td class="CellNumber"> 5-N21
+								</td><td class="CellGroup">Smartphone Game Area / Social Game Area
+
+
+								</td><td class="CellCompany">Le Cortex &lt;France&gt;
+
+
+								</td><td class="CellTitle">
+
+
+								</td><td class="CellHP">
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="ChangeColor CellNumber"> 3-N4
+								</td><td class="ChangeColor CellGroup">Asia New Stars Area
+
+
+								</td><td class="ChangeColor CellCompany">Lemon Sky Animation Sdn Bhd &lt;Malaysia&gt;
+
+
+								</td><td class="ChangeColor CellTitle">
+
+
+								</td><td class="ChangeColor CellHP"><a href="http://www.lemonsky.tv/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="CellNumber"> 2-S1
+								</td><td class="CellGroup">General Exhibition Area
+
+
+								</td><td class="CellCompany">LEVEL-5 Inc.
+
+
+								</td><td class="CellTitle">
+
+
+								</td><td class="CellHP"><a href="http://www.level5.co.jp/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="ChangeColor CellNumber"> 8-C1
+								</td><td class="ChangeColor CellGroup">Family Corner
+
+
+								</td><td class="ChangeColor CellCompany">LEVEL-5 Inc.
+
+
+								</td><td class="ChangeColor CellTitle">
+
+
+								</td><td class="ChangeColor CellHP"><a href="http://www.level5.co.jp/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="CellNumber"> 3-N1
+								</td><td class="CellGroup">General Exhibition Area
+
+
+								</td><td class="CellCompany">Live Chain Technologies Co.,Ltd &lt;China&gt;
+
+
+								</td><td class="CellTitle">
+
+
+								</td><td class="CellHP">
+
+
+							</td></tr>
+
+						</tbody>
+					</table>
+				</dd>
+			</dl>
+
+			<dl id="ListGeneral">
+				<dt> M </dt>
+				<dd>
+					<table>
+						<thead>
+							<tr>
+								<th>Booth Number</th>
+								<th>Corner</th>
+								<th>Exhibitor Name</th>
+								<th>Summary</th>
+								<th>HP</th>
+							</tr>
+						</thead>
+						<tbody>
+
+							<tr>
+
+								<td class="CellNumber"> 1-N9
+								</td><td class="CellGroup">Gaming Device Area
+
+
+								</td><td class="CellCompany">MAD CATZ Co., Ltd.
+
+
+								</td><td class="CellTitle">
+
+
+								</td><td class="CellHP">
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="ChangeColor CellNumber"> 3-N4
+								</td><td class="ChangeColor CellGroup">Asia New Stars Area
+
+
+								</td><td class="ChangeColor CellCompany">Malaysian Game Studios &lt;Malaysia&gt;
+
+
+								</td><td class="ChangeColor CellTitle">
+
+
+								</td><td class="ChangeColor CellHP">
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="CellNumber"> 2-C3
+								</td><td class="CellGroup">General Exhibition Area
+
+
+								</td><td class="CellCompany">MEDAROT INC
+
+
+								</td><td class="CellTitle">
+
+
+								</td><td class="CellHP"><a href="http://www.rocketcompany.co.jp/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="ChangeColor CellNumber"> 5-C8
+								</td><td class="ChangeColor CellGroup">Smartphone Game Area / Social Game Area
+
+
+								</td><td class="ChangeColor CellCompany">MediaMagic Co.,Ltd.
+
+
+								</td><td class="ChangeColor CellTitle">Smartphone x Mediamagic
+
+
+								</td><td class="ChangeColor CellHP"><a href="http://www.mediamagic.co.jp/e.html" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="CellNumber"> 3-N2
+								</td><td class="CellGroup">General Exhibition Area
+
+
+								</td><td class="CellCompany">Meisheng Cultural &amp; Creative Corp., Ltd. &lt;China&gt;
+
+
+								</td><td class="CellTitle">Business Manager
+
+
+								</td><td class="CellHP">
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="ChangeColor CellNumber"> 4-N30
+								</td><td class="ChangeColor CellGroup">Business Solution Area
+
+
+								</td><td class="ChangeColor CellCompany">Metaps Inc.
+
+
+								</td><td class="ChangeColor CellTitle">Monetization Platform for Android Apps
+
+
+								</td><td class="ChangeColor CellHP"><a href="http://www.metaps.com/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="CellNumber"> 5-N3
+								</td><td class="CellGroup">Smartphone Game Area / Social Game Area
+
+
+								</td><td class="CellCompany">moak-1 Co., Ltd.
+
+
+								</td><td class="CellTitle">New release! Try VECTROS, the Evolutionary 3D Shooting Game!
+
+
+								</td><td class="CellHP"><a href="http://ne-net.jp/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="ChangeColor CellNumber"> 3-N7
+								</td><td class="ChangeColor CellGroup">General Exhibition Area
+
+
+								</td><td class="ChangeColor CellCompany">MOBAGEL INC. &lt;Taiwan&gt;
+
+
+								</td><td class="ChangeColor CellTitle">MOBAGEL x Mimir - AppMaker in the Cloud
+
+
+								</td><td class="ChangeColor CellHP"><a href="http://www.mobagel.com/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="CellNumber"> 1-N8
+								</td><td class="CellGroup">General Exhibition Area
+
+
+								</td><td class="CellCompany">MORI GAMES CO.,LTD.
+
+
+								</td><td class="CellTitle">
+
+
+								</td><td class="CellHP"><a href="http://xn--8i7caa.morigames.co.jp/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="ChangeColor CellNumber"> 4-N11
+								</td><td class="ChangeColor CellGroup">Business Solution Area
+
+
+								</td><td class="ChangeColor CellCompany">Morisawa Inc.
+
+
+								</td><td class="ChangeColor CellTitle">A very attractive font license plan especially for game titles
+
+
+								</td><td class="ChangeColor CellHP"><a href="http://www.morisawa.co.jp/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="CellNumber"> 5-N18
+								</td><td class="CellGroup">General Exhibition Area
+
+
+								</td><td class="CellCompany">MUNAZO INC.
+
+
+								</td><td class="CellTitle">Personal Flyer
+
+
+								</td><td class="CellHP"><a href="http://en.munazo.us/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+						</tbody>
+					</table>
+				</dd>
+			</dl>
+
+			<dl id="ListGeneral">
+				<dt> N </dt>
+				<dd>
+					<table>
+						<thead>
+							<tr>
+								<th>Booth Number</th>
+								<th>Corner</th>
+								<th>Exhibitor Name</th>
+								<th>Summary</th>
+								<th>HP</th>
+							</tr>
+						</thead>
+						<tbody>
+
+							<tr>
+
+								<td class="CellNumber"> 6-N3
+								</td><td class="CellGroup">Game School Area
+
+
+								</td><td class="CellCompany">NAGOYA KOUGAKUIN COLLEGE
+
+
+								</td><td class="CellTitle">
+
+
+								</td><td class="CellHP"><a href="http://www.denpa.ac.jp/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="ChangeColor CellNumber"> 1-C1
+								</td><td class="ChangeColor CellGroup">General Exhibition Area
+
+
+								</td><td class="ChangeColor CellCompany">NAMCO BANDAI Games Inc.
+
+
+								</td><td class="ChangeColor CellTitle">
+
+
+								</td><td class="ChangeColor CellHP"><a href="http://tgs2012.channel.or.jp/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="CellNumber"> 8-N4
+								</td><td class="CellGroup">Family Corner
+
+
+								</td><td class="CellCompany">NAMCO BANDAI Games Inc.
+
+
+								</td><td class="CellTitle">
+
+
+								</td><td class="CellHP"><a href="http://tgs2012.channel.or.jp/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="ChangeColor CellNumber"> 7-C2
+								</td><td class="ChangeColor CellGroup">Merchandise Sales Area
+
+
+								</td><td class="ChangeColor CellCompany">NAMCO BANDAI Games Inc.
+
+
+								</td><td class="ChangeColor CellTitle">Featured products! The newest series of 'THE iDOLEM@STER' and 'TALES OF'
+
+
+								</td><td class="ChangeColor CellHP"><a href="http://lalabitmarket.channel.or.jp/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="CellNumber"> 3-N1
+								</td><td class="CellGroup">General Exhibition Area
+
+
+								</td><td class="CellCompany">Nanjing Magic Cube Technology Co., Ltd. &lt;China&gt;
+
+
+								</td><td class="CellTitle">
+
+
+								</td><td class="CellHP">
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="ChangeColor CellNumber"> 3-N1
+								</td><td class="ChangeColor CellGroup">General Exhibition Area
+
+
+								</td><td class="ChangeColor CellCompany">NetSdar(Taiyuan)Software Co.,Ltd &lt;China&gt;
+
+
+								</td><td class="ChangeColor CellTitle">
+
+
+								</td><td class="ChangeColor CellHP">
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="CellNumber"> 6-N8
+								</td><td class="CellGroup">Game School Area
+
+
+								</td><td class="CellCompany">NIHON KOGAKUIN COLLEGE/TOKYO UNIVERSITY OF TECHNOLOGY
+
+
+								</td><td class="CellTitle">
+
+
+								</td><td class="CellHP"><a href="http://www.neec.ac.jp/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="ChangeColor CellNumber"> 6-N16
+								</td><td class="ChangeColor CellGroup">Game School Area
+
+
+								</td><td class="ChangeColor CellCompany">Niigata Computer College
+
+
+								</td><td class="ChangeColor CellTitle">
+
+
+								</td><td class="ChangeColor CellHP"><a href="http://www.ncc-net.ac.jp/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="CellNumber"> 6-N5
+								</td><td class="CellGroup">Game School Area
+
+
+								</td><td class="CellCompany">Niigata High Technology College
+
+
+								</td><td class="CellTitle">
+
+
+								</td><td class="CellHP"><a href="http://www/nht.ac.jp" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="ChangeColor CellNumber"> 7-N12
+								</td><td class="ChangeColor CellGroup">Merchandise Sales Area
+
+
+								</td><td class="ChangeColor CellCompany">Nikkei Business Publications, Inc.
+
+
+								</td><td class="ChangeColor CellTitle">
+
+
+								</td><td class="ChangeColor CellHP"><a href="http://www.nikkeibp.co.jp/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="CellNumber"> 2-C2
+								</td><td class="CellGroup">General Exhibition Area
+
+
+								</td><td class="CellCompany">Nikkei Entertainment!
+
+
+								</td><td class="CellTitle">
+
+
+								</td><td class="CellHP">
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="ChangeColor CellNumber"> 1-N2
+								</td><td class="ChangeColor CellGroup">Gaming Device Area
+
+
+								</td><td class="ChangeColor CellCompany">NK TRADING
+
+
+								</td><td class="ChangeColor CellTitle">
+
+
+								</td><td class="ChangeColor CellHP"><a href="http://www.nk-t.com/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="CellNumber"> 6-N18
+								</td><td class="CellGroup">Game School Area
+
+
+								</td><td class="CellCompany">Numazu Professional Training College of Business and Information Technology
+
+
+								</td><td class="CellTitle">
+
+
+								</td><td class="CellHP"><a href="http://www.numasen.ac.jp/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="ChangeColor CellNumber"> 1-N2
+								</td><td class="ChangeColor CellGroup">Gaming Device Area
+
+
+								</td><td class="ChangeColor CellCompany">NYKO Technologies,Inc. &lt;USA&gt;
+
+
+								</td><td class="ChangeColor CellTitle">
+
+
+								</td><td class="ChangeColor CellHP">
+
+
+							</td></tr>
+
+						</tbody>
+					</table>
+				</dd>
+			</dl>
+
+			<dl id="ListGeneral">
+				<dt> O </dt>
+				<dd>
+					<table>
+						<thead>
+							<tr>
+								<th>Booth Number</th>
+								<th>Corner</th>
+								<th>Exhibitor Name</th>
+								<th>Summary</th>
+								<th>HP</th>
+							</tr>
+						</thead>
+						<tbody>
+
+							<tr>
+
+								<td class="CellNumber"> 6-N19
+								</td><td class="CellGroup">Game School Area
+
+
+								</td><td class="CellCompany">Osaka Electro-Communication Univ. Department of Digital Games
+
+
+								</td><td class="CellTitle">Educate and Reseach the Playing Digital Contents
+
+
+								</td><td class="CellHP"><a href="http://www.osakac.ac.jp/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="ChangeColor CellNumber"> 6-N1
+								</td><td class="ChangeColor CellGroup">Game School Area
+
+
+								</td><td class="ChangeColor CellCompany">Osaka Sogo College of Design Contents Lab
+
+
+								</td><td class="ChangeColor CellTitle">GAME/APPLI Character Showcase
+
+
+								</td><td class="ChangeColor CellHP"><a href="http://od2.sakura.ne.jp/contentslab/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="CellNumber"> 6-N20
+								</td><td class="CellGroup">Game School Area
+
+
+								</td><td class="CellCompany">OTA INFORMATION &amp; BUSINESS COLLEGE
+
+
+								</td><td class="CellTitle">
+
+
+								</td><td class="CellHP"><a href="http://www.ojs.ac.jp/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+						</tbody>
+					</table>
+				</dd>
+			</dl>
+
+			<dl id="ListGeneral">
+				<dt> P </dt>
+				<dd>
+					<table>
+						<thead>
+							<tr>
+								<th>Booth Number</th>
+								<th>Corner</th>
+								<th>Exhibitor Name</th>
+								<th>Summary</th>
+								<th>HP</th>
+							</tr>
+						</thead>
+						<tbody>
+
+							<tr>
+
+								<td class="CellNumber"> 7-N14
+								</td><td class="CellGroup">Merchandise Sales Area
+
+
+								</td><td class="CellCompany">PikattoAnime
+
+
+								</td><td class="CellTitle">LED Shaininng Panels : Regend of Heroos etc...
+
+
+								</td><td class="CellHP"><a href="http://pikatto.jp/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="ChangeColor CellNumber"> 3-N1
+								</td><td class="ChangeColor CellGroup">General Exhibition Area
+
+
+								</td><td class="ChangeColor CellCompany">Pingxiang KaiTian Network Co., Ltd. &lt;China&gt;
+
+
+								</td><td class="ChangeColor CellTitle">
+
+
+								</td><td class="ChangeColor CellHP">
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="CellNumber"> 5-N13
+								</td><td class="CellGroup">Smartphone Game Area / Social Game Area
+
+
+								</td><td class="CellCompany">PowerUp Music / Ronny Antares Gomez Espejo. &lt;Chile&gt;
+
+
+								</td><td class="CellTitle">
+
+
+								</td><td class="CellHP">
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="ChangeColor CellNumber"> 6-N27
+								</td><td class="ChangeColor CellGroup">Game School Area
+
+
+								</td><td class="ChangeColor CellCompany">Professional Training College Tokyo Net Wave
+
+
+								</td><td class="ChangeColor CellTitle">
+
+
+								</td><td class="ChangeColor CellHP"><a href="http://www.tnw.ac.jp/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="CellNumber"> 4-N1
+								</td><td class="CellGroup">General Exhibition Area
+
+
+								</td><td class="CellCompany">PROTOTYPE CO.,LTD.
+
+
+								</td><td class="CellTitle">
+
+
+								</td><td class="CellHP"><a href="http://www.prot.co.jp/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="ChangeColor CellNumber"> 4-N6
+								</td><td class="ChangeColor CellGroup">Business Solution Area
+
+
+								</td><td class="ChangeColor CellCompany">Puresound Inc.
+
+
+								</td><td class="ChangeColor CellTitle">Exhibition of compact sound driver for smartphone.
+
+
+								</td><td class="ChangeColor CellHP"><a href="http://www.puresound-net.co.jp/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+						</tbody>
+					</table>
+				</dd>
+			</dl>
+
+			<dl id="ListGeneral">
+				<dt> Q </dt>
+				<dd>
+					<table>
+						<thead>
+							<tr>
+								<th>Booth Number</th>
+								<th>Corner</th>
+								<th>Exhibitor Name</th>
+								<th>Summary</th>
+								<th>HP</th>
+							</tr>
+						</thead>
+						<tbody>
+
+							<tr>
+
+								<td class="CellNumber"> 4-N22
+								</td><td class="CellGroup">Business Solution Area
+
+
+								</td><td class="CellCompany">QLOC S.A. &lt;Poland&gt;
+
+
+								</td><td class="CellTitle">Expanding Your Game to a New Market!
+
+
+								</td><td class="CellHP"><a href="http://q-loc.com/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="ChangeColor CellNumber"> 5-N9
+								</td><td class="ChangeColor CellGroup">Smartphone Game Area / Social Game Area
+
+
+								</td><td class="ChangeColor CellCompany">QueryEye Inc.
+
+
+								</td><td class="ChangeColor CellTitle">Marketing System for Smart Phone Apps
+
+
+								</td><td class="ChangeColor CellHP"><a href="http://queryeye.com/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+						</tbody>
+					</table>
+				</dd>
+			</dl>
+
+			<dl id="ListGeneral">
+				<dt> R </dt>
+				<dd>
+					<table>
+						<thead>
+							<tr>
+								<th>Booth Number</th>
+								<th>Corner</th>
+								<th>Exhibitor Name</th>
+								<th>Summary</th>
+								<th>HP</th>
+							</tr>
+						</thead>
+						<tbody>
+
+							<tr>
+
+								<td class="CellNumber"> 1-N4
+								</td><td class="CellGroup">Gaming Device Area
+
+
+								</td><td class="CellCompany">RAZER USA LTD. &lt;USA&gt;
+
+
+								</td><td class="CellTitle">
+
+
+								</td><td class="CellHP"><a href="http://www.razerzone.com/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="ChangeColor CellNumber"> 4-N14
+								</td><td class="ChangeColor CellGroup">Cloud/Data Center Pavilion
+
+
+								</td><td class="ChangeColor CellCompany">RIGHTSCALE &lt;USA&gt;
+
+
+								</td><td class="ChangeColor CellTitle">
+
+
+								</td><td class="ChangeColor CellHP"><a href="http://www.rightscale.com/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="CellNumber"> 4-N29
+								</td><td class="CellGroup">Business Solution Area
+
+
+								</td><td class="CellCompany">Rimage Japan Co., Ltd.
+
+
+								</td><td class="CellTitle">On-Demand Optical Disc Publishing
+
+
+								</td><td class="CellHP"><a href="http://www.rimage.com/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="ChangeColor CellNumber"> 1-N3
+								</td><td class="ChangeColor CellGroup">Gaming Device Area
+
+
+								</td><td class="ChangeColor CellCompany">rossomodello
+
+
+								</td><td class="ChangeColor CellTitle">rossomodello GTD-Simulator
+
+
+								</td><td class="ChangeColor CellHP"><a href="http://www.rossomodello.com/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+						</tbody>
+					</table>
+				</dd>
+			</dl>
+
+			<dl id="ListGeneral">
+				<dt> S </dt>
+				<dd>
+					<table>
+						<thead>
+							<tr>
+								<th>Booth Number</th>
+								<th>Corner</th>
+								<th>Exhibitor Name</th>
+								<th>Summary</th>
+								<th>HP</th>
+							</tr>
+						</thead>
+						<tbody>
+
+							<tr>
+
+								<td class="CellNumber"> 7-N5
+								</td><td class="CellGroup">Merchandise Sales Area
+
+
+								</td><td class="CellCompany">SAN-EI CO.,LTD
+
+
+								</td><td class="CellTitle">
+
+
+								</td><td class="CellHP"><a href="http://www.san-ei-boeki.co.jp/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="ChangeColor CellNumber"> 7-N6
+								</td><td class="ChangeColor CellGroup">Merchandise Sales Area
+
+
+								</td><td class="ChangeColor CellCompany">SANWA DENSHI Co., Ltd.
+
+
+								</td><td class="ChangeColor CellTitle">Arcade &amp; Consumer
+
+
+								</td><td class="ChangeColor CellHP"><a href="http://www.sanwa-d.co.jp/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="CellNumber"> 2-C4
+								</td><td class="CellGroup">General Exhibition Area
+
+
+								</td><td class="CellCompany">Scanavo Manufacturing Hong Kong Ltd. &lt;Hong Kong&gt;
+
+
+								</td><td class="CellTitle">
+
+
+								</td><td class="CellHP"><a href="http://www.scanavo.com/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="ChangeColor CellNumber"> 5-N10
+								</td><td class="ChangeColor CellGroup">Smartphone Game Area / Social Game Area
+
+
+								</td><td class="ChangeColor CellCompany">SEARCH FIELD
+
+
+								</td><td class="ChangeColor CellTitle">
+
+
+								</td><td class="ChangeColor CellHP"><a href="http://www.searchfield.jp/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="CellNumber"> 5-N16
+								</td><td class="CellGroup">General Exhibition Area
+
+
+								</td><td class="CellCompany">SECT INTERNATIONAL CORPORATION
+
+
+								</td><td class="CellTitle">http://www.playseats.co.jp/
+
+
+								</td><td class="CellHP"><a href="http://www.playseats.co.jp/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="ChangeColor CellNumber"> 3-C1
+								</td><td class="ChangeColor CellGroup">General Exhibition Area
+
+
+								</td><td class="ChangeColor CellCompany">SEGA CORPORATION
+
+
+								</td><td class="ChangeColor CellTitle">
+
+
+								</td><td class="ChangeColor CellHP"><a href="http://www.sega.jp/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="CellNumber"> 8-C2
+								</td><td class="CellGroup">Family Corner
+
+
+								</td><td class="CellCompany">SEGA CORPORATION
+
+
+								</td><td class="CellTitle">
+
+
+								</td><td class="CellHP">
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="ChangeColor CellNumber"> 7-N1
+								</td><td class="ChangeColor CellGroup">Merchandise Sales Area
+
+
+								</td><td class="ChangeColor CellCompany">SEGA CORPORATION
+
+
+								</td><td class="ChangeColor CellTitle">
+
+
+								</td><td class="ChangeColor CellHP"><a href="http://sega.jp/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="CellNumber"> 3-N1
+								</td><td class="CellGroup">General Exhibition Area
+
+
+								</td><td class="CellCompany">Shanda Games Limited &lt;China&gt;
+
+
+								</td><td class="CellTitle">
+
+
+								</td><td class="CellHP">
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="ChangeColor CellNumber"> 3-N1
+								</td><td class="ChangeColor CellGroup">General Exhibition Area
+
+
+								</td><td class="ChangeColor CellCompany">Shandong Miaodian Internet Culture Co.,Ltd. &lt;China&gt;
+
+
+								</td><td class="ChangeColor CellTitle">
+
+
+								</td><td class="ChangeColor CellHP">
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="CellNumber"> 3-N4
+								</td><td class="CellGroup">Asia New Stars Area
+
+
+								</td><td class="CellCompany">Sherman3D Sdn Bhd &lt;Malaysia&gt;
+
+
+								</td><td class="CellTitle">Sherman3D
+
+
+								</td><td class="CellHP"><a href="http://www.sherman3d.com/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="ChangeColor CellNumber"> 5-N6
+								</td><td class="ChangeColor CellGroup">Smartphone Game Area / Social Game Area
+
+
+								</td><td class="ChangeColor CellCompany">SHINTEC COMPANY LIMITED
+
+
+								</td><td class="ChangeColor CellTitle">THE GAME CONTROLLER FOR ANDROID  SMACON
+
+
+								</td><td class="ChangeColor CellHP"><a href="http://sma-con.com/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="CellNumber"> 5-N20
+								</td><td class="CellGroup">General Exhibition Area
+
+
+								</td><td class="CellCompany">Shirokuma Co.,Ltd
+
+
+								</td><td class="CellTitle">New type Cade Game
+
+
+								</td><td class="CellHP"><a href="http://www.shirokuma-net.co.jp/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="ChangeColor CellNumber"> 6-N4
+								</td><td class="ChangeColor CellGroup">Game School Area
+
+
+								</td><td class="ChangeColor CellCompany">SHOBI UNIVERSITY
+
+
+								</td><td class="ChangeColor CellTitle">"Multi-field system" is obtained extensive knowledge
+
+
+								</td><td class="ChangeColor CellHP"><a href="http://www.shobi-u.ac.jp/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="CellNumber"> 3-N1
+								</td><td class="CellGroup">General Exhibition Area
+
+
+								</td><td class="CellCompany">Shxi Bough Animation Company &lt;China&gt;
+
+
+								</td><td class="CellTitle">
+
+
+								</td><td class="CellHP">
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="ChangeColor CellNumber"> BM-2
+								</td><td class="ChangeColor CellGroup">Business Meeting Area
+
+
+								</td><td class="ChangeColor CellCompany">SK planet Co., Ltd. [Business Meeting Area] &lt;South Korea&gt;
+
+
+								</td><td class="ChangeColor CellTitle">
+
+
+								</td><td class="ChangeColor CellHP">
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="CellNumber"> 5-N15
+								</td><td class="CellGroup">Smartphone Game Area / Social Game Area
+
+
+								</td><td class="CellCompany">SK planet Co., Ltd. [Smartphone Game / Social Game] &lt;South Korea&gt;
+
+
+								</td><td class="CellTitle">
+
+
+								</td><td class="CellHP">
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="ChangeColor CellNumber"> 5-N17
+								</td><td class="ChangeColor CellGroup">General Exhibition Area
+
+
+								</td><td class="ChangeColor CellCompany">SMKT co.,ltd.
+
+
+								</td><td class="ChangeColor CellTitle">Product/Character .Mask Costume Accessories - Wigs
+
+
+								</td><td class="ChangeColor CellHP"><a href="http://www.smkt.jp/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="CellNumber"> 6-N12
+								</td><td class="CellGroup">Game School Area
+
+
+								</td><td class="CellCompany">SOGOGAKUEN HUMAN ACADEMY
+
+
+								</td><td class="CellTitle">
+
+
+								</td><td class="CellHP"><a href="http://ha.athuman.com/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="ChangeColor CellNumber"> 4-S1
+								</td><td class="ChangeColor CellGroup">General Exhibition Area
+
+
+								</td><td class="ChangeColor CellCompany">Sony Computer Entertainment Inc.
+
+
+								</td><td class="ChangeColor CellTitle">
+
+
+								</td><td class="ChangeColor CellHP">
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="CellNumber"> BT-3
+								</td><td class="CellGroup">Business Meeting Area
+
+
+								</td><td class="CellCompany">Sony Mobile Communications Japan, Inc.
+
+
+								</td><td class="CellTitle">
+
+
+								</td><td class="CellHP">
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="ChangeColor CellNumber"> 3-N7
+								</td><td class="ChangeColor CellGroup">General Exhibition Area
+
+
+								</td><td class="ChangeColor CellCompany">Splendor Game Technology Co., Ltd. &lt;Taiwan&gt;
+
+
+								</td><td class="ChangeColor CellTitle">Puzzle Game: NakedMan Funny Scary Man APP
+
+
+								</td><td class="ChangeColor CellHP"><a href="http://www.nakedhero.com.tw/team.html" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="CellNumber"> 5-N19
+								</td><td class="CellGroup">General Exhibition Area
+
+
+								</td><td class="CellCompany">SQUARE ENIX CO., LTD.
+
+
+								</td><td class="CellTitle">
+
+
+								</td><td class="CellHP"><a href="http://www.square-enix.co.jp/tgs12/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="ChangeColor CellNumber"> 8-N3
+								</td><td class="ChangeColor CellGroup">Family Corner
+
+
+								</td><td class="ChangeColor CellCompany">SQUARE ENIX CO., LTD.
+
+
+								</td><td class="ChangeColor CellTitle">
+
+
+								</td><td class="ChangeColor CellHP"><a href="http://www.square-enix.co.jp/tgs12/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="CellNumber"> 7-N9
+								</td><td class="CellGroup">Merchandise Sales Area
+
+
+								</td><td class="CellCompany">SQUARE ENIX CO., LTD.
+
+
+								</td><td class="CellTitle">
+
+
+								</td><td class="CellHP">
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="ChangeColor CellNumber"> 7-N3
+								</td><td class="ChangeColor CellGroup">Merchandise Sales Area
+
+
+								</td><td class="ChangeColor CellCompany">SQUARE ENIX MUSIC
+
+
+								</td><td class="ChangeColor CellTitle">
+
+
+								</td><td class="ChangeColor CellHP"><a href="http://soundtrack.jp.square-enix.com/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="CellNumber"> 2-C10
+								</td><td class="CellGroup">General Exhibition Area
+
+
+								</td><td class="CellCompany">SteelSeries &lt;Denmark&gt;
+
+
+								</td><td class="CellTitle">
+
+
+								</td><td class="CellHP"><a href="http://steelseries.com/jp/home" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="ChangeColor CellNumber"> 4-N12
+								</td><td class="ChangeColor CellGroup">Business Solution Area
+
+
+								</td><td class="ChangeColor CellCompany">Sungura, Inc.
+
+
+								</td><td class="ChangeColor CellTitle">{{ NEWS!! }} SOCIAL GAME DEVELOPMENT ENVIRONMENT, FOR FREE!!
+
+
+								</td><td class="ChangeColor CellHP"><a href="http://sungura.jp/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+						</tbody>
+					</table>
+				</dd>
+			</dl>
+
+			<dl id="ListGeneral">
+				<dt> T </dt>
+				<dd>
+					<table>
+						<thead>
+							<tr>
+								<th>Booth Number</th>
+								<th>Corner</th>
+								<th>Exhibitor Name</th>
+								<th>Summary</th>
+								<th>HP</th>
+							</tr>
+						</thead>
+						<tbody>
+
+							<tr>
+
+								<td class="CellNumber"> 3-N7
+								</td><td class="CellGroup">General Exhibition Area
+
+
+								</td><td class="CellCompany">Taiwan External Trade Development Council &lt;Taiwan&gt;
+
+
+								</td><td class="CellTitle">
+
+
+								</td><td class="CellHP"><a href="http://www.taitra.org.tw/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="ChangeColor CellNumber"> 3-N7
+								</td><td class="ChangeColor CellGroup">General Exhibition Area
+
+
+								</td><td class="ChangeColor CellCompany">Taiwan Game Pavilion &lt;Taiwan&gt;
+
+
+								</td><td class="ChangeColor CellTitle">
+
+
+								</td><td class="ChangeColor CellHP">
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="CellNumber"> 3-N1
+								</td><td class="CellGroup">General Exhibition Area
+
+
+								</td><td class="CellCompany">TaiYuan Temaru Electronics Technology Co., Ltd &lt;China&gt;
+
+
+								</td><td class="CellTitle">
+
+
+								</td><td class="CellHP">
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="ChangeColor CellNumber"> 6-N11
+								</td><td class="ChangeColor CellGroup">Game School Area
+
+
+								</td><td class="ChangeColor CellCompany">TAKARAZUKA UNIVERSITY
+
+
+								</td><td class="ChangeColor CellTitle">
+
+
+								</td><td class="ChangeColor CellHP"><a href="http://www.takara-univ.ac.jp/tokyo/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="CellNumber"> 5-C6
+								</td><td class="CellGroup">Smartphone Game Area / Social Game Area
+
+
+								</td><td class="CellCompany">TEAM ACTION ZONE &lt;Finland&gt;
+
+
+								</td><td class="CellTitle">Moomin Party by Team Action Zone
+
+
+								</td><td class="CellHP"><a href="http://www.taz.fi/index_en.html" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="ChangeColor CellNumber"> 2-N1
+								</td><td class="ChangeColor CellGroup">General Exhibition Area
+
+
+								</td><td class="ChangeColor CellCompany">TECMO KOEI GAMES CO., LTD.
+
+
+								</td><td class="ChangeColor CellTitle">
+
+
+								</td><td class="ChangeColor CellHP">
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="CellNumber"> BM-3
+								</td><td class="CellGroup">Business Meeting Area
+
+
+								</td><td class="CellCompany">TECMO KOEI GAMES CO., LTD.
+
+
+								</td><td class="CellTitle">
+
+
+								</td><td class="CellHP">
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="ChangeColor CellNumber"> 3-N1
+								</td><td class="ChangeColor CellGroup">General Exhibition Area
+
+
+								</td><td class="ChangeColor CellCompany">Tenone Technology Co., Ltd. &lt;China&gt;
+
+
+								</td><td class="ChangeColor CellTitle">
+
+
+								</td><td class="ChangeColor CellHP">
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="CellNumber"> 3-N4
+								</td><td class="CellGroup">Asia New Stars Area
+
+
+								</td><td class="CellCompany">Terato Tech Sdn Bhd &lt;Malaysia&gt;
+
+
+								</td><td class="CellTitle">Terato Games
+
+
+								</td><td class="CellHP"><a href="http://www.teratotech.com/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="ChangeColor CellNumber"> 6-N15
+								</td><td class="ChangeColor CellGroup">Game School Area
+
+
+								</td><td class="ChangeColor CellCompany">Tohoku Computer College
+
+
+								</td><td class="ChangeColor CellTitle">
+
+
+								</td><td class="ChangeColor CellHP"><a href="http://www.jc-21.ac.jp/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="CellNumber"> 6-N29
+								</td><td class="CellGroup">Game School Area
+
+
+								</td><td class="CellCompany">TOKYO COMMUNICATION ARTS (Jikei Gakuen COM Group)
+
+
+								</td><td class="CellTitle">
+
+
+								</td><td class="CellHP"><a href="http://www.tca.ac.jp/creative/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="ChangeColor CellNumber"> 6-N13
+								</td><td class="ChangeColor CellGroup">Game School Area
+
+
+								</td><td class="ChangeColor CellCompany">TOKYO DESIGN TECHNOLOGY CENTER (Jikei Gakuen COM Group)
+
+
+								</td><td class="ChangeColor CellTitle">Changes the future of the game in TECH.C.
+
+
+								</td><td class="ChangeColor CellHP"><a href="http://www.tech.ac.jp/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="CellNumber"> 6-N30
+								</td><td class="CellGroup">Game School Area
+
+
+								</td><td class="CellCompany">TOKYO DESIGNER GAKUIN COLLEGE
+
+
+								</td><td class="CellTitle">Must see CG works and original games
+
+
+								</td><td class="CellHP"><a href="http://www.tdg.ac.jp/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="ChangeColor CellNumber"> 6-N6
+								</td><td class="ChangeColor CellGroup">Game School Area
+
+
+								</td><td class="ChangeColor CellCompany">Tokyo Jitsugyo High School
+
+
+								</td><td class="ChangeColor CellTitle">
+
+
+								</td><td class="ChangeColor CellHP"><a href="http://www.tojitsu.ed.jp/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="CellNumber"> 3-N1
+								</td><td class="CellGroup">General Exhibition Area
+
+
+								</td><td class="CellCompany">TopGame 3 Co., Ltd &lt;China&gt;
+
+
+								</td><td class="CellTitle">
+
+
+								</td><td class="CellHP">
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="ChangeColor CellNumber"> 7-N7
+								</td><td class="ChangeColor CellGroup">Merchandise Sales Area
+
+
+								</td><td class="ChangeColor CellCompany">TOYPLA
+
+
+								</td><td class="ChangeColor CellTitle">
+
+
+								</td><td class="ChangeColor CellHP"><a href="http://www.toypla.com/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="CellNumber"> 6-N9
+								</td><td class="CellGroup">Game School Area
+
+
+								</td><td class="CellCompany">TRIDENT COLLEGE OF INFORMATION TECHNOＬOGY
+
+
+								</td><td class="CellTitle">Award Winning and New Works Display
+
+
+								</td><td class="CellHP"><a href="http://computer.trident.ac.jp/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="ChangeColor CellNumber"> 5-C4
+								</td><td class="ChangeColor CellGroup">Smartphone Game Area / Social Game Area
+
+
+								</td><td class="ChangeColor CellCompany">TRISTAR
+
+
+								</td><td class="ChangeColor CellTitle">
+
+
+								</td><td class="ChangeColor CellHP"><a href="http://www.tristar-corp.jp/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="CellNumber"> 5-N13
+								</td><td class="CellGroup">Smartphone Game Area / Social Game Area
+
+
+								</td><td class="CellCompany">TRUTRUKA Ltda. / Desarrollo y Venta de Software Rodriguez Lazo y Cia. Ltda. &lt;Chile&gt;
+
+
+								</td><td class="CellTitle">
+
+
+								</td><td class="CellHP">
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="ChangeColor CellNumber"> 1-N6
+								</td><td class="ChangeColor CellGroup">Gaming Device Area
+
+
+								</td><td class="ChangeColor CellCompany">Turtle Beach &lt;USA&gt;
+
+
+								</td><td class="ChangeColor CellTitle">marketing
+
+
+								</td><td class="ChangeColor CellHP"><a href="http://www.tekwind.co.jp/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+						</tbody>
+					</table>
+				</dd>
+			</dl>
+
+			<dl id="ListGeneral">
+				<dt> U </dt>
+				<dd>
+					<table>
+						<thead>
+							<tr>
+								<th>Booth Number</th>
+								<th>Corner</th>
+								<th>Exhibitor Name</th>
+								<th>Summary</th>
+								<th>HP</th>
+							</tr>
+						</thead>
+						<tbody>
+
+						</tbody>
+					</table>
+				</dd>
+			</dl>
+
+			<dl id="ListGeneral">
+				<dt> V </dt>
+				<dd>
+					<table>
+						<thead>
+							<tr>
+								<th>Booth Number</th>
+								<th>Corner</th>
+								<th>Exhibitor Name</th>
+								<th>Summary</th>
+								<th>HP</th>
+							</tr>
+						</thead>
+						<tbody>
+
+							<tr>
+
+								<td class="CellNumber"> 5-N13
+								</td><td class="CellGroup">Smartphone Game Area / Social Game Area
+
+
+								</td><td class="CellCompany">Video Games Chile &lt;Chile&gt;
+
+
+								</td><td class="CellTitle">
+
+
+								</td><td class="CellHP">
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="ChangeColor CellNumber"> BM-4
+								</td><td class="ChangeColor CellGroup">Business Meeting Area
+
+
+								</td><td class="ChangeColor CellCompany">VIRTUOS &lt;China&gt;
+
+
+								</td><td class="ChangeColor CellTitle">Unlimited Digital Production
+
+
+								</td><td class="ChangeColor CellHP"><a href="http://www.virtuosgames.com/j" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="CellNumber"> 2-C10
+								</td><td class="CellGroup">General Exhibition Area
+
+
+								</td><td class="CellCompany">VUZIX Corporation &lt;USA&gt;
+
+
+								</td><td class="CellTitle">
+
+
+								</td><td class="CellHP"><a href="http://www.vuzix.jp/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+						</tbody>
+					</table>
+				</dd>
+			</dl>
+
+			<dl id="ListGeneral">
+				<dt> W </dt>
+				<dd>
+					<table>
+						<thead>
+							<tr>
+								<th>Booth Number</th>
+								<th>Corner</th>
+								<th>Exhibitor Name</th>
+								<th>Summary</th>
+								<th>HP</th>
+							</tr>
+						</thead>
+						<tbody>
+
+							<tr>
+
+								<td class="CellNumber"> 4-N12
+								</td><td class="CellGroup">Business Solution Area
+
+
+								</td><td class="CellCompany">Walrus design Inc.
+
+
+								</td><td class="CellTitle">
+
+
+								</td><td class="CellHP"><a href="http://www.walrus-design.com/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="ChangeColor CellNumber"> 5-N11
+								</td><td class="ChangeColor CellGroup">Smartphone Game Area / Social Game Area
+
+
+								</td><td class="ChangeColor CellCompany">WE ARE ENGINEERING, INC.
+
+
+								</td><td class="ChangeColor CellTitle">
+
+
+								</td><td class="ChangeColor CellHP"><a href="http://www.wae.jp/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="CellNumber"> 5-C1
+								</td><td class="CellGroup">Smartphone Game Area / Social Game Area
+
+
+								</td><td class="CellCompany">WeMade Entertainment Co.,Ltd. &lt;South Korea&gt;
+
+
+								</td><td class="CellTitle">Appeared the next generation mobile games.
+
+
+								</td><td class="CellHP"><a href="http://www.wemadeonline.co.jp/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="ChangeColor CellNumber"> 2-C6
+								</td><td class="ChangeColor CellGroup">General Exhibition Area
+
+
+								</td><td class="ChangeColor CellCompany">Wizards of the Coast LLC　&lt;USA&gt;
+
+
+								</td><td class="ChangeColor CellTitle">
+
+
+								</td><td class="ChangeColor CellHP">
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="CellNumber"> 6-N16
+								</td><td class="CellGroup">Game School Area
+
+
+								</td><td class="CellCompany">World Institute of Zeal artists for digital and technology
+
+
+								</td><td class="CellTitle">
+
+
+								</td><td class="CellHP">
+
+
+							</td></tr>
+
+						</tbody>
+					</table>
+				</dd>
+			</dl>
+
+			<dl id="ListGeneral">
+				<dt> X </dt>
+				<dd>
+					<table>
+						<thead>
+							<tr>
+								<th>Booth Number</th>
+								<th>Corner</th>
+								<th>Exhibitor Name</th>
+								<th>Summary</th>
+								<th>HP</th>
+							</tr>
+						</thead>
+						<tbody>
+
+							<tr>
+
+								<td class="CellNumber"> 3-N7
+								</td><td class="CellGroup">General Exhibition Area
+
+
+								</td><td class="CellCompany">X-LEGEND Entertainment Co., Ltd. &lt;Taiwan&gt;
+
+
+								</td><td class="CellTitle">MMORPG: Legendary Heroes Online-
+
+
+								</td><td class="CellHP"><a href="https://xdb2.x-legend.com.tw/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="ChangeColor CellNumber"> 4-Ｎ3
+								</td><td class="ChangeColor CellGroup">PC Game Area
+
+
+								</td><td class="ChangeColor CellCompany">XNT LIMITED &lt;Hong Kong&gt;
+
+
+								</td><td class="ChangeColor CellTitle">3D game studio with special interests in Green, Cultural Heritage and Education
+
+
+								</td><td class="ChangeColor CellHP"><a href="http://www.xntlimited.com/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="CellNumber"> 3-N7
+								</td><td class="CellGroup">General Exhibition Area
+
+
+								</td><td class="CellCompany">XPEC Entertainment Inc.  &lt;Taiwan&gt;
+
+
+								</td><td class="CellTitle">MMORPG: Weapons of Mythology 3D // Browser Game: Maze Myth
+
+
+								</td><td class="CellHP"><a href="http://www.xpec.com/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+						</tbody>
+					</table>
+				</dd>
+			</dl>
+
+			<dl id="ListGeneral">
+				<dt> Y </dt>
+				<dd>
+					<table>
+						<thead>
+							<tr>
+								<th>Booth Number</th>
+								<th>Corner</th>
+								<th>Exhibitor Name</th>
+								<th>Summary</th>
+								<th>HP</th>
+							</tr>
+						</thead>
+						<tbody>
+
+							<tr>
+
+								<td class="CellNumber"> 6-N24
+								</td><td class="CellGroup">Game School Area
+
+
+								</td><td class="CellCompany">Yokohama Digital Arts College
+
+
+								</td><td class="CellTitle">
+
+
+								</td><td class="CellHP"><a href="http://yda.iwasaki.ac.jp/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="ChangeColor CellNumber"> 5-N2
+								</td><td class="ChangeColor CellGroup">Smartphone Game Area / Social Game Area
+
+
+								</td><td class="ChangeColor CellCompany">YouMind Co.,Ltd.
+
+
+								</td><td class="ChangeColor CellTitle">hitomebo
+
+
+								</td><td class="ChangeColor CellHP"><a href="http://youmind.jp/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+						</tbody>
+					</table>
+				</dd>
+			</dl>
+
+			<dl id="ListGeneral">
+				<dt> Z </dt>
+				<dd>
+					<table>
+						<thead>
+							<tr>
+								<th>Booth Number</th>
+								<th>Corner</th>
+								<th>Exhibitor Name</th>
+								<th>Summary</th>
+								<th>HP</th>
+							</tr>
+						</thead>
+						<tbody>
+
+							<tr>
+
+								<td class="CellNumber"> 3-N1
+								</td><td class="CellGroup">General Exhibition Area
+
+
+								</td><td class="CellCompany">Zhejiang Dishun Tech,Co., Ltd. &lt;China&gt;
+
+
+								</td><td class="CellTitle">
+
+
+								</td><td class="CellHP">
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="ChangeColor CellNumber"> 3-N2
+								</td><td class="ChangeColor CellGroup">General Exhibition Area
+
+
+								</td><td class="ChangeColor CellCompany">Zhejiang Fan Tianyou Cultural and Creative Co.,Ltd. &lt;China&gt;
+
+
+								</td><td class="ChangeColor CellTitle">
+
+
+								</td><td class="ChangeColor CellHP">
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="CellNumber"> 3-N2
+								</td><td class="CellGroup">General Exhibition Area
+
+
+								</td><td class="CellCompany">Zhejiang Pavilion &lt;China&gt;
+
+
+								</td><td class="CellTitle">
+
+
+								</td><td class="CellHP">
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="ChangeColor CellNumber"> 3-N2
+								</td><td class="ChangeColor CellGroup">General Exhibition Area
+
+
+								</td><td class="ChangeColor CellCompany">ZHEJIANG TIME'S INTERNATIONAL EXHIBITION &amp; SERVICE &lt;China&gt;
+
+
+								</td><td class="ChangeColor CellTitle">
+
+
+								</td><td class="ChangeColor CellHP">
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="CellNumber"> 5-C8
+								</td><td class="CellGroup">Smartphone Game Area / Social Game Area
+
+
+								</td><td class="CellCompany">ZZYZX.Inc
+
+
+								</td><td class="CellTitle">Interesting! game from Development office in sapporo.
+
+
+								</td><td class="CellHP"><a href="http://www.zzyzx.co.jp/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+						</tbody>
+					</table>
+				</dd>
+			</dl>
+
+			<dl id="ListGeneral">
+				<dt> other </dt>
+				<dd>
+					<table>
+						<thead>
+							<tr>
+								<th>Booth Number</th>
+								<th>Corner</th>
+								<th>Exhibitor Name</th>
+								<th>Summary</th>
+								<th>HP</th>
+							</tr>
+						</thead>
+						<tbody>
+
+							<tr>
+
+								<td class="CellNumber"> 7-N2
+								</td><td class="CellGroup">Merchandise Sales Area
+
+
+								</td><td class="CellCompany">5pb./SCIENCE ADVENTURE TEAM
+
+
+								</td><td class="CellTitle">
+
+
+								</td><td class="CellHP"><a href="http://5pb.jp/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+							<tr>
+
+								<td class="ChangeColor CellNumber"> 4-N7
+								</td><td class="ChangeColor CellGroup">Business Solution Area
+
+
+								</td><td class="ChangeColor CellCompany">6waves &lt;Hong Kong&gt;
+
+
+								</td><td class="ChangeColor CellTitle">General Manager, Ken Takano
+
+
+								</td><td class="ChangeColor CellHP"><a href="http://www.6waves.com/" target="_blank">HP</a>
+
+
+							</td></tr>
+
+						</tbody>
+					</table>
+				</dd>
+			</dl>
+			</div><!-- Company List -->
+			        <p class="btPageTop"><a href="#bodyTop">Top</a></p>
+
+      </div>
+      <div id="side">
+        <div id="sideNavi">
+          <div id="sideTitle"><span class="alt">致參觀來賓</span></div>
+          <ul>
+            <li><a href="../index.html">展覽概要</a></li>
+            <li><a href="../ticket.html">門票</a></li>
+            <!--<li><a href="visitor/numbered_ticket.html">Priority Ticket Distributions</a></li>-->
+            <li><a href="index.html">參展公司一覽</a></li>
+            <li><a href="../map.html">展位／展場平面圖<br />
+              （樓層平面圖）</a></li>
+            <li><a href="../attention.html">注意事項</a></li>
+            <li><a href="../cosplayers.html">致COSPLAY表演者們</a></li>
+            <li><a href="../officialtours.html">TGS Official Tours</a></li>
+            <li><a href="../access.html">交通資訊／官方旅遊</a></li>
+          </ul>
+        </div>
+      </div>
+      <!--/side-->
+    </div>
+    <div id="footerArea">
+      <div id="footMenu"><span><a href="../../sitemap.html">Site Map</a></span>|<span><a href="../../contact/index.html">洽詢</a></span></div>
+      <ul id="fotBn">
+        <li><a href="http://www.cesa.or.jp/index.php/en/" target="_blank"><img src="../../common/img/f_cesa.gif" alt="CESA" width="58" height="25" /></a></li>
+        <li><a href="http://corporate.nikkeibp.co.jp/" target="_blank"><img src="../../common/img/f_nikkei.gif" alt="日経BP社" width="69" height="25" /></a></li>
+        <li><a href="http://www.cofesta.jp/" target="_blank"><img src="../../common/img/f_CoFesta.gif" alt="An 0fficial event of CoFesta" width="290" height="25" /></a></li>
+      </ul>
+      <p id="copyright">2002-2012 CESA / Nikkei Business Publications, Inc. All rights reserved.</p>
+    </div>
+  </div>
+</div>
+</body>
+
+<!-- Mirrored from expo.nikkeibp.co.jp/tgs/2012/zh-TW/visitor/list/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 09 May 2022 16:33:45 GMT -->
+</html>

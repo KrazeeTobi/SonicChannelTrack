@@ -1,0 +1,354 @@
+
+
+/*  reset css
+-------------------------*/
+* {
+	margin: 0;
+}
+body{
+	margin:0px auto;
+	padding:0px;
+	font-size:84%;
+	line-height:1.5em;
+	text-align:center;
+	background:#f2f2f2;
+	font-family: "メイリオ","Meiryo",verdana,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",Osaka,"ＭＳ Ｐゴシック","MS PGothic",Sans-Serif;
+	color:#000000;
+}
+html, body {
+	height: 100%;
+}
+h1,h2,h3,h4 {
+font-size:100%;
+}
+a { color: #000000; text-decoration:underline;}
+a:link { color: #000000; text-decoration:underline;}
+a:visited { color: #000000; text-decoration:underline;}
+a:hover { color: #999; text-decoration: none;}
+a:active { color: #000000; text-decoration:underline;}
+form{
+margin:0;
+padding:0;
+}
+h1,h2,h3,ul,li {
+margin:0;
+padding:0;
+}
+img{
+border:none;
+margin:0;
+padding:0;
+vertical-align:bottom;
+}
+p{
+margin:0;
+line-height:150%;
+}
+table {
+margin:0px;
+padding:0px;
+font-size:100%;
+line-height:1.6em;
+}
+ul,li {
+list-style:none;
+margin:0;
+padding:0;
+text-align:left;
+}
+
+/******  clearfix  ******/
+
+.clearfix:after {
+  content: ".";  /* 新しい要素を作る */
+  display: block;  /* ブロックレベル要素に */
+  clear: both;
+  height: 0;
+  visibility: hidden;
+}
+
+.clearfix {
+  min-height: 1px;
+}
+
+* html .clearfix {
+  height: 1px;
+  /*¥*//*/
+  height: auto;
+  overflow: hidden;
+  /**/
+}
+
+/******  clearfix end  ******/
+
+.clear{
+clear:both;
+line-height:0px;
+font-size:0px;
+}
+
+
+/*   共通
+------------------------*/
+.wrap {
+width:950px;
+margin:0px auto;
+}
+.txt10 {
+font-size:10px;
+}
+.pagetop {
+text-align:right;
+padding:0px;
+margin:10px 0px;
+}
+
+
+/*   header
+------------------------*/
+#header {
+background: url(../img/head_back.gif) no-repeat;
+width:950px;
+height:80px;
+margin:35px auto 0px;
+}
+h1{
+float:left;
+padding:20px 0px 20px 19px;
+}
+.date {
+float:right;
+padding:0px;
+margin:0px;
+}
+ul#lng_menu{
+float:right;
+}
+ul#lng_menu li{
+float:left;
+text-align:right;
+padding:15px 10px 0px 0px;
+}
+
+
+/*   gloval menu
+------------------------*/
+#glovalNavi{
+width:950px;
+margin:0 auto ;
+background:#000000;
+}
+ul#topnav{
+padding:0px 0px 0px 9px;
+position: relative;
+}
+ul#topnav li {
+float:left;
+margin-right:4px;
+margin-bottom:4px;
+
+}
+/*---------------------*/
+ul#topnav li span {
+width:228px;
+padding:5px 0px;
+position: absolute;
+left:10px;
+top:47px;
+display: none;
+background: #FFFFFF;
+opacity:0.9;
+filter: alpha(opacity=90);
+-ms-filter: "alpha( opacity=90 )";
+color: #333;
+border:1px solid #000;
+line-height:130%;
+}
+ul#topnav li:hover span{ 
+display: block;
+color: #FFF;
+text-decoration:none;
+ }
+ul#topnav li span a { 
+display: block;
+color: #333;
+text-decoration:none;
+}
+ul#topnav li span a:hover { 
+display: block;
+color: #FFF;
+text-decoration:none;
+}
+
+ul#topnav li ul#dtNavi li{
+background:url(../img/menu_icon.gif) no-repeat 10px 6px;
+margin:0px 5px;
+padding:5px 5px 5px 25px;
+border-bottom:1px solid #666666;
+width:188px;
+_width:178px;
+}
+
+ul#topnav li ul#dtNavi li:hover{
+background:url(../img/menu_icon_on.gif) no-repeat 10px 6px #333333;
+border-bottom:1px solid #666666;
+margin:0px 5px;
+padding:5px 5px 5px 25px;
+width:188px;
+_width:178px;
+color:#FFFFFF;
+}
+
+ul#topnav li ul#dtNavi li ul li.in{
+margin:0;
+padding:5px 0 0 0;
+background:none;
+border:none;
+}
+
+/*---------------------*/
+
+/*   mainCnt
+------------------------*/
+#mainWrap {
+width:950px;
+margin:0 auto;
+background:#000000;
+padding-bottom:5px;
+
+}
+
+
+/*   footer
+------------------------*/
+#footer {
+width:950px;
+margin:0 auto;
+padding-bottom:15px;
+text-align:left;
+}
+#footer p{
+float:left;
+}
+p.btmcopy {
+padding:24px 20px 6px 0px;
+}
+p.btmlogo {
+padding:17px 10px 0px 0px;
+}
+.banner{
+text-align:right;
+float:right;
+}
+.banner p{
+margin-left:10px;
+}
+
+/*  下層ページ共通
+------------------------*/
+.section {
+text-align:left;
+padding:25px 0px 5px 20px;
+margin:0 auto;
+margin-bottom:5px;
+background:#FFFFFF;
+width:912px;
+}
+.section p.lead {
+padding-bottom:10px;
+font-size:14px;
+font-weight:bold;
+line-height:150%;
+}
+.section p {
+font-size:12px;
+padding-bottom:10px;
+}
+.section p#wakuin {
+font-size:12px;
+}
+.section p img{
+display:inline;
+padding-right:8px;
+}
+.section h2{
+padding:20px 0px 25px 0px;
+margin:0px;
+}
+.section h3{
+padding:0px 0px 15px 0px;
+margin:0px;
+}
+.section h3.pup{
+padding:15px;
+margin-bottom:15px;
+margin-right:20px;
+background:#000000;
+font-size:18px;
+font-weight:bold;
+color:#FFFFFF;
+}
+p.mainLTxt{
+font-size:14px;
+padding:0px 10px 10px 0px;
+}
+p.mainTxt{
+font-size:12px;
+padding:0px 10px 10px 0px;
+}
+
+
+
+/*PDF[詳細はこちらボタン]*/
+.pdfDtlLink{
+padding:0px 10px 10px 0px;
+text-align:left;
+}
+.pdfDtlLink a:hover img {
+-moz-opacity:0.7;
+opacity:0.7;
+filter: alpha(opacity=70);
+}
+.pdfDtlLink span {
+padding-right:5px;
+padding-top:5px;
+font-size:14px;
+}
+
+.noteBox{
+background:#eeeeee;
+padding:10px;
+margin-top:20px;
+font-size:10px;
+}
+
+p.note{
+font-size:10px;
+}
+
+/* パンくず */
+ul#topicPath{
+margin:0px;
+padding:0px;
+}
+ul#topicPath li{
+display:inline;
+padding:0px 0px 0px 0px;
+font-size:12px;
+}
+ul#topicPath li.selectPage{
+font-weight:bold;
+}
+
+/* 下層ページ用フッタ*/
+#dateBox{
+text-align:center;
+width:958px;
+margin:0 auto;
+}
+
+#dateBox img{
+float:left;
+padding:20px 4px 10px;
+}
+
