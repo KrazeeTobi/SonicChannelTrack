@@ -1,0 +1,368 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+	font-size: 100%;
+	font-weight: normal;
+}
+
+
+
+/*////////////////////mail///////////////////*/
+
+/*
+/////////////////////////////////////
+mobile/
+/////////////////////////////////////
+*/
+
+body {
+	margin:0px;
+	padding:0px;
+	background-color:#333333;
+	text-align:center;
+}
+
+/* �����N */
+a:link {
+	color:#000000;
+	text-decoration:underline;
+}
+
+a:visited {
+	color:#333333;
+	text-decoration:underline;
+}
+
+a:hover {
+	color:#999999;
+	text-decoration:underline;
+}
+
+a:active {
+	color:#666666;
+	text-decoration:none;
+}
+
+/* �摜 */
+img {
+	border:none;
+	margin:0px;
+	padding:0px;
+}
+
+/* float��� */
+.Clear {
+	margin:0px;
+	padding:0px;
+	font-size:1px;
+	text-indent:-9999px;
+	clear:both;
+}
+/* MacIE����B�� \*/
+.Clear {
+	font-size:0px;
+	
+}
+/* */
+
+/* DOT LINE */
+p.DotLine {
+	display:block;
+	height:1px;
+	margin:0px 0px 10px;
+	_margin:0px;
+	padding:0px;
+	background:url(../../common/images/dotline.html) repeat-x;
+	clear:both;
+}
+
+/* +++++++++++CONTENTS+++++++++++ */
+
+#Wrapper {
+	width:500px;
+	height: 550px;
+	background:url(../images/back_main.gif) repeat-y;
+	text-align:center;
+}
+
+/* HEADER */
+#Header {
+	width:450px;
+	margin:0px auto;
+	padding:0px;
+	text-align:left;
+}
+
+#Header h1 {
+	margin:0px 0px 15px 20px;
+	padding:15px 0px 0px;
+}
+
+#Header p.DotLine {
+	margin:0px 10px 10px;
+	_margin:0px 10px;
+}
+
+/* FOOTER */
+#Footer {
+	width:500px;
+	height:34px;
+	margin:0px auto;
+	padding:0px;
+	background:url(back_footer.html) left bottom no-repeat;
+	text-align:center;
+	clear:both;
+}
+
+/* COPY */
+#Footer p{
+	margin: 30px 0 0 10px;
+	font-size: 10px;
+	text-align:center;
+	color: #333333;
+
+}
+
+/* MAIN_CONTENTS */
+#Contents {
+	width:430px;
+	margin:0px auto;
+	padding:0px;
+	text-align:center;
+}
+
+/* �o�W�Ж� */
+#Contents #CoName {
+	margin:0px auto;
+	padding:3px;
+	_padding:5px 3px 3px 3px;
+	background:#666666;
+	border-top:1px solid #D0CFC4;
+	border-right:1px solid #D0CFC4;
+	border-left:1px solid #D0CFC4;
+}
+
+#CoName p {
+	margin:0px;
+	padding:0px;
+	color:#FFFFFF;
+	font-size:12px;
+	font-weight:bold;
+	text-align:center;
+}
+
+/* �ڍ� */
+#Details {
+	margin:0px;
+	padding:10px;
+	border:1px solid #D0CFC4;
+}
+
+#Details p {
+	margin:0px 0px 10px;
+	padding:0px;
+	color:#333333;
+	font-size:12px;
+	line-height:140%;
+	text-align:left;
+}
+
+#Details img {
+	margin:0px auto;
+	padding:0px;
+	text-align:center;
+}
+
+#Details p.Event {
+	margin:30px 0px 0px;
+	font-weight:bold;
+}
+
+#Details p.EventTitle {
+	margin:0px 0px 10px;
+	padding:2px 2px 2px 5px;
+	color:#FFFFFF;
+	background:#666666;
+	border:1px solid #D0CFC4;
+}
+
+#Details p.Title {
+	margin:0px 0px 5px;
+	font-weight:bold;
+}
+
+#Details .Attention {
+	margin:3px 0px 0px;
+	color:#736357;
+	font-size:10px;
+	font-weight:normal;
+	text-align:left;
+}
+
+/* CLOSE */
+p.Close {
+	margin:15px 0px 0px;
+	padding:0px;
+	text-align:right;
+}
+
+
+/*////////////blog//////////////*/
+
+
+.clear{
+    clear:both;
+}
+
+
+#Wrapper_bparts {
+	width:500px;
+	height: auto;
+	background:url(../images/back_main2.gif) repeat-y;
+	margin:0 auto;
+	text-align:center;
+	
+}
+
+#Contents_bparts {
+	width:482px;
+	margin:0px auto;
+	padding:0px 0px;
+	text-align:center;
+}
+
+#Contents_bparts #CoName_bparts {
+	margin:0px 0px;
+	padding:3px;
+	_padding:5px 3px 3px 3px;
+	background:#666666;
+	border-top:1px solid #D0CFC4;
+	border-right:1px solid #D0CFC4;
+	border-left:1px solid #D0CFC4;
+}
+
+#CoName_bparts p {
+	margin:0px;
+	padding:0px;
+	color:#FFFFFF;
+	font-size:12px;
+	font-weight:bold;
+	text-align:center;
+}
+
+#Details_bparts{
+	margin:0px;
+	padding:10px;
+	border:1px solid #D0CFC4;
+	text-align:center;
+}
+
+#Details_bparts p {
+	padding:0px;
+	color:#333333;
+	font-size:12px;
+	line-height:140%;
+	text-align:left;
+	margin: 10px 0 0 0;
+}
+
+#bparts_sample{
+    width:440px;
+	padding:10px 10px 0px 10px;
+	text-align:center;
+}
+
+#sample_L{
+    width:200px;
+	float:left;
+}
+
+#bparts_sample p.text10px{
+    text-align:right;
+	font-size:10px;
+	padding-top:5px;
+}
+
+#sample_S{
+    width:150px;
+	float:left;
+	padding:30px 0px 0px 50px;
+}
+
+#copy_box{
+    width:420px;
+    margin:0px 8px 30px 8px;
+	padding:10px;
+	/*border:2px solid #000000;*/
+	text-align:center;
+}
+
+#copy_box textarea{
+	width: 400px;
+	height: 66px;
+	padding: 5px 0 0 0;
+	font-size: 12px;
+}
+
+#present{
+	font-size: 12px;
+	padding: 0 10px 10px 25px;
+}
+
+#bparts_text{
+    width:460px;
+	padding:25px 0px; 
+}
+
+#bparts_text p{
+	margin: 10px 0 0 0;
+}
+
+#bparts_text span{
+	margin: 0 0 0 10px;
+	font-weight: bold;
+}
+
+ul{
+    width:400px;
+    text-align:left;
+	padding:0px;
+	margin:0px auto;
+	list-style:none;
+	/*list-style:square;*/
+}
+
+li{
+    font-size:10px;
+	background:url(../images/list.gif) no-repeat 2px 7px ;
+	_background:url(../images/list.gif) no-repeat 2px 12px ;
+	text-align:left;
+	padding:5px 0px 0px 15px;
+	margin:0px auto;
+}
+
+
+#Details_bparts p{
+text-align :left;
+}
+
+
+#Details #apology h3{
+	border-bottom: #CCCCCC 1px dotted;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: left;
+	color: #333333;
+	background: url(../images/cap.gif) no-repeat 0px 3px;
+	padding: 0 0 0 12px;
+	
+}
+
+#Details #apology p{
+	font-size: 12px;
+	color: #333333;
+	margin: 10px 0 10px 0;
+}
