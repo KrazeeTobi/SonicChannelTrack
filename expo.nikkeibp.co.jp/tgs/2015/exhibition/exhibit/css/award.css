@@ -1,0 +1,228 @@
+@charset "UTF-8";
+
+/* ===================================
+
+	File Name   : award.css
+
+====================================== */
+
+
+/*========== Style Contents ==========
+
+	1. Individual Redefinition
+	2. award
+	3. Meeting
+	*. Clear Release
+	
+====================================== */
+
+
+
+
+
+
+/*===== ■1. Individual Redefinition =====*/
+
+/*----- Global Navigation -----*/
+
+#GlobalNavi li#BtnExhibit a,
+#GlobalNavi li#BtnExhibit a:hover {background-position: -320px -51px;}
+
+
+
+/*----- Title Setting -----*/
+
+.Section_ttl {
+	margin-top: 10px;
+	margin-bottom: 20px;
+	padding-right: 0px;
+}
+.Section_ttl span.text {
+	float: left;
+}
+.Section_ttl span.lang {
+	display: block;
+	float: right;
+	margin: -1px 10px 0px 0px;
+	padding: 3px 7px 3px 6px;
+	font-size: 88%;
+	font-weight: normal;
+	color: #fff;
+	background-color: #939393;
+}
+.Section_ttl span.price {
+	display: block;
+	float: right;
+	margin: 4px 0px 0px;
+	width: 88px;
+	height: 43px;
+	overflow: hidden;
+	text-indent: 100%;
+	white-space: nowrap;
+	background-image: url(../img/support/icon_free.png);
+	background-repeat: no-repeat;
+}
+
+
+
+
+
+
+/*===== ■2. AwardArea =====*/
+.AwardArea h2.Contents_ttl {
+  	padding: 0;
+  	min-height: 24px;
+  	line-height: 1;
+  	background-image: none;
+}
+.AwardArea .AwardWrap {
+	width: 900px;
+	overflow: hidden;
+	margin-top: 30px;
+}
+.AwardArea .AwardWrap .Awardbox{
+	width: 900px;
+	overflow: hidden;
+	border-bottom: 1px dotted #828282;
+	padding: 0 0 20px;
+	margin-bottom: 20px;
+}
+.AwardArea .AwardWrap .Awardbox.last{
+	border-bottom: none;
+}
+.AwardArea .AwardWrap .Awardbox .AwardImg{
+	width: 130px;
+	float: left;
+	margin-right: 20px;
+}
+.AwardArea .AwardWrap .Awardbox .AwardTxt{
+	width: 750px;
+	float: left;
+}
+.AwardArea .AwardWrap .Awardbox .AwardTxt dl dt{
+	font-size: 20px;
+	color: #006ee3;
+	font-weight: bold;
+	line-height: 1.1;
+	letter-spacing: 0.8px;
+}
+.AwardArea .AwardWrap .Awardbox .AwardTxt dl dd{
+	font-size: 16px;
+	padding: 8px 0 10px;
+}
+.AwardArea .AwardWrap .Awardbox .AwardTxt dl dd span{
+	padding: 0 15px;
+}
+.AwardArea .AwardWrap .Awardbox .AwardTxt p{
+	line-height: 1.8;
+	font-size: 14px;
+}
+.AwardArea .AwardWrap a img:hover {
+	opacity: 0.60;
+	-moz-opacity: 0.60;
+	-khtml-opacity: 0.60;
+	filter: alpha(opacity=60);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=60)";
+}
+
+/*===== ■3. AwardDetail =====*/
+.AwardDetail{
+	margin-bottom: 50px;
+}
+.AwardDetail .AdDetailTitl{
+  	width: 900px;
+  	overflow: hidden;
+  	padding: 6px 0;
+  	border-top: 1px dotted #828282;
+  	border-bottom: 1px dotted #828282;
+  	display: table;
+  	margin-bottom: 20px;
+}
+.AwardDetail .AdDetailTitl .AdDetailTitlImg{
+	width: 114px;
+  	display: table-cell;
+  	padding-right: 30px;
+  	vertical-align: middle;
+}
+.AwardDetail .AdDetailTitl .AdDetailTitlNm{
+	width: 755px;
+  	display: table-cell;
+  	vertical-align: middle;
+}
+.AwardDetail .AdDetailTitl .AdDetailTitlNm h2{
+  	font-size: 40px;
+  	color: #0068b4;
+  	font-weight: bold;
+  	padding-bottom: 3px;
+}
+.AwardDetail .AdDetailTitl .AdDetailTitlNm .Detail{
+  	width: 755px;
+  	overflow: hidden;
+}
+.AwardDetail .AdDetailTitl .AdDetailTitlNm .Detail p.Nm{
+  	font-size: 20px;
+  	color: #0068b4;
+  	font-weight: bold;
+  	display: table-cell;
+  	vertical-align: middle;
+}
+.AwardDetail .AdDetailTitl .AdDetailTitlNm .Detail p.Prize{
+	display: table-cell;
+  	vertical-align: middle;
+}
+.AwardDetail .AdDetailTitl .AdDetailTitlNm .Detail p.Prize span{
+	padding: 0 25px;
+}
+.AwardDetail .Move{
+	width: 730px;
+	margin: 0 auto 35px;
+}
+.AwardDetail .InterviewArea{
+	width: 840px;
+	margin: 0 auto;
+}
+.AwardDetail .InterviewArea .InterviewAreaIn h3{
+	font-size: 18px;
+  	color: #e16c48;
+  	font-weight: bold;
+  	margin-bottom: 18px;
+  	text-indent: -1.8em;
+  	line-height: 1.7;
+  	padding-left: 33px;
+}
+.AwardDetail .InterviewArea .InterviewAreaIn h3 span{
+	padding-right: 20px;
+}
+.AwardDetail .InterviewArea .InterviewAreaIn p{
+	line-height: 1.8;
+	margin-bottom: 42px;
+}
+.AwardDetail .InterviewArea .InterviewAreaIn p a{
+	display: block;
+  	margin-top: 10px;
+}
+.AwardDetail .InterviewArea .InterviewAreaIn .Img{
+	width: 845px;
+	margin: 0 auto;
+	text-align: center;
+	overflow: hidden;
+}
+.AwardDetail .InterviewArea .InterviewAreaIn .Img img{
+	margin-bottom: 42px;
+	display: inline-block;
+}
+.AwardDetail .InterviewArea .InterviewAreaIn .Img img.last{
+	padding-right: 0;
+}
+
+/*===== ■*.Clear Release  =====*/
+
+/*#********************** {
+	/zoom: 1;
+}
+
+#**********************:after {
+	content: '';
+	display: block;
+	clear: both;
+}*/

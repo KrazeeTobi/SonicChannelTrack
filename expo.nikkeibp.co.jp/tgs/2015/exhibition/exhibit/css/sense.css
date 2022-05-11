@@ -1,0 +1,599 @@
+@charset "UTF-8";
+
+/* ===================================
+
+	File Name   : sense.css
+
+====================================== */
+
+
+/*========== Style Contents ==========
+
+	1. Individual Redefinition
+	2. Top
+	3. SponcerLimitation
+	4. SponcerLimitationLight
+	5. SponcerGeneral
+	
+====================================== */
+
+
+
+
+
+
+/*===== ■1. Individual Redefinition =====*/
+
+/*----- Global Navigation -----*/
+
+#GlobalNavi li#BtnExhibit a,
+#GlobalNavi li#BtnExhibit a:hover {background-position: -320px -51px;}
+
+
+
+/*----- Title Setting -----*/
+
+.Section_ttl {
+	margin-bottom: 20px;
+}
+
+
+
+/*----- Page Common Parts -----*/
+
+.SenseHead {
+	margin-top: -10px;
+	margin-bottom: 30px;
+	background: url(../img/sense/head_bg.jpg) center top no-repeat;
+}
+.SenseHead h1 {
+	width: 900px;
+	padding: 20px 0px 15px;
+	margin: 0px auto;
+	text-align: center;
+}
+.SenseHead .SenseNav {
+	width: 900px;
+	margin: 0px auto;
+}
+.SenseHead .SenseNav ul {
+	overflow: hidden;
+}
+.SenseHead .SenseNav ul li a {
+	display: block;
+	float: left;
+	width: 131px;
+	height: 93px;
+	margin-left: 1px;
+	overflow: hidden;
+	text-indent: 151px;
+	white-space: nowrap;
+	background: url(../img/sense/lnav.png) left top no-repeat;
+}
+.SenseHead .SenseNav ul li.nav01 a {
+	width: 108px;
+	margin-left: 0px;
+}
+.SenseHead .SenseNav ul li.nav02 a { background-position: -109px top;}
+.SenseHead .SenseNav ul li.nav03 a { background-position: -241px top;}
+.SenseHead .SenseNav ul li.nav04 a { background-position: -373px top;}
+.SenseHead .SenseNav ul li.nav05 a { background-position: -505px top;}
+.SenseHead .SenseNav ul li.nav06 a { background-position: -637px top;}
+.SenseHead .SenseNav ul li.nav07 a { background-position: -769px top;}
+
+.SenseHead .SenseNav ul li.nav01 a:hover { background-position:  left  -93px;}
+.SenseHead .SenseNav ul li.nav02 a:hover { background-position: -109px -93px;}
+.SenseHead .SenseNav ul li.nav03 a:hover { background-position: -241px -93px;}
+.SenseHead .SenseNav ul li.nav04 a:hover { background-position: -373px -93px;}
+.SenseHead .SenseNav ul li.nav05 a:hover { background-position: -505px -93px;}
+.SenseHead .SenseNav ul li.nav06 a:hover { background-position: -637px -93px;}
+.SenseHead .SenseNav ul li.nav07 a:hover { background-position: -769px -93px;}
+
+.SenseHead .SenseNav ul li.nav01 a.active { background-position:  left  -186px;}
+.SenseHead .SenseNav ul li.nav02 a.active { background-position: -109px -186px;}
+.SenseHead .SenseNav ul li.nav03 a.active { background-position: -241px -186px;}
+.SenseHead .SenseNav ul li.nav04 a.active { background-position: -373px -186px;}
+.SenseHead .SenseNav ul li.nav05 a.active { background-position: -505px -186px;}
+.SenseHead .SenseNav ul li.nav06 a.active { background-position: -637px -186px;}
+.SenseHead .SenseNav ul li.nav07 a.active { background-position: -769px -186px;}
+
+.SenseHead .SenseNav ul li.nav01 a.active:hover { background-position:  left  -93px;}
+.SenseHead .SenseNav ul li.nav02 a.active:hover { background-position: -109px -93px;}
+.SenseHead .SenseNav ul li.nav03 a.active:hover { background-position: -241px -93px;}
+.SenseHead .SenseNav ul li.nav04 a.active:hover { background-position: -373px -93px;}
+.SenseHead .SenseNav ul li.nav05 a.active:hover { background-position: -505px -93px;}
+.SenseHead .SenseNav ul li.nav06 a.active:hover { background-position: -637px -93px;}
+.SenseHead .SenseNav ul li.nav07 a.active:hover { background-position: -769px -93px;}
+
+
+
+
+
+/*===== ■2. Top =====*/
+
+/*----- common -----*/
+
+.TopNews,
+.TopAbout,
+.TopPurpose {
+	margin-bottom: 50px;
+}
+
+
+/*----- News -----*/
+
+.TopNews {
+}
+.TopNews dl {
+	clear: left;
+	margin-bottom: 20px;
+	overflow: hidden;
+	font-size: 115%;
+}
+.TopNews dl dt {
+	float: left;
+	width: 120px;
+	padding-right: 10px;
+	font-weight: bold;
+}
+.TopNews dl dd {
+	margin-left: 130px;
+}
+
+
+/*----- About -----*/
+
+.TopAbout {
+	line-height: 2.2;
+}
+
+
+/*----- Purpose -----*/
+
+.TopPurpose {
+	line-height: 1.8;
+}
+.TopPurpose ul {
+	/height: 174px;
+	min-height: 174px;
+	padding-left: 130px;
+	margin-top: 30px;
+	list-style: disc;
+	font-size: 115%;
+	font-weight: bold;
+	color: #e16c48;
+	background: url(../img/sense/top_img02.png) left top no-repeat;
+}
+.TopPurpose ul li {
+	margin: 12px;
+}
+.TopPurpose dd {
+	line-height: 2.0;
+}
+
+
+
+
+
+/*===== ■3. Form =====*/
+
+.FormArea {
+	margin-bottom: 50px;
+}
+
+.FormArea .Section dl {
+	clear: left;
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+.FormArea .Section dl dt {
+	float: left;
+	width: 120px;
+	padding-right: 10px;
+	font-weight: bold;
+}
+.FormArea .Section dl dd {
+	margin-left: 130px;
+}
+.FormArea .Section dl dt,
+.FormArea .Section dl dd {
+	margin-bottom: 30px;
+	line-height: 1.8;
+}
+
+.FormArea .Section ul li {
+	margin-left: 18px;
+	margin-bottom: 8px;
+	list-style: disc;
+	line-height: 1.7;
+}
+
+.FormArea .Section .btn_entry a {
+	display: block;
+	width: 455px;
+	height: 82px;
+	margin: 40px auto 20px;
+	background: url(../img/sense/btn_entry.png) left top no-repeat;
+}
+.FormArea .Section .btn_entry a:hover {
+	opacity: 0.60;
+	-moz-opacity: 0.60;
+	-khtml-opacity: 0.60;
+	filter: alpha(opacity=60);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=60)";
+}
+
+.FormArea .Section .deadline {
+	font-size: 172%;
+	font-weight: bold;
+	text-align: center;
+}
+
+.FormArea .Section ol li {
+	margin-left: 25px;
+	margin-top: 25px;
+	list-style: decimal;
+	font-size: 129%;
+	font-weight: bold;
+	line-height: 2.0;
+	color: #e16c48;
+}
+.FormArea .Section ol li p {
+	font-size: 77%;
+	font-weight: normal;
+	line-height: 1.7;
+	color: #2b2b2b;
+}
+
+
+
+
+
+/*===== ■4. Selection =====*/
+
+.SelectionArea {
+	margin-bottom: 50px;
+	line-height: 1.8;
+}
+
+.SelectionArea .Section .box {
+	clear: both;
+	overflow: hidden;
+	padding: 40px 0px;
+	border-bottom: 1px dashed #929292;
+}
+.SelectionArea .Section .box .pic {
+	float: left;
+	width: 190px;
+	margin-top: 5px;
+}
+.SelectionArea .Section .box dl {
+	float: right;
+	width: 640px;
+	padding-left: 30px;
+}
+.SelectionArea .Section .box dl dt {
+	padding-bottom: 20px;
+	font-weight: bold;
+	line-height: 1.4;
+}
+.SelectionArea .Section .box dl dt span {
+	display: block;
+	padding-bottom: 8px;
+	font-size: 143%;
+	font-weight: bold;
+	line-height: 1.2;
+	color: #e16c48;
+}
+.SelectionArea .Section .box dl dt {
+}
+.SelectionArea .Section .box dl dd {
+	line-height: 1.7;
+}
+
+
+
+
+
+/*===== ■5. Presen =====*/
+
+.PresenArea .AboutSec,
+.PresenArea .SelectedWorksSec,
+.PresenArea .OtherWorksSec {
+	margin-bottom: 50px;
+	line-height: 1.8;
+}
+
+
+/*----- About -----*/
+
+.PresenArea .AboutSec {
+}
+
+.PresenArea .AboutSec dl {
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+.PresenArea .AboutSec dl dt {
+	clear: left;
+	float: left;
+	width: 140px;
+	padding-right: 10px;
+}
+.PresenArea .AboutSec dl dd {
+	margin-left: 150px;
+}
+.PresenArea .AboutSec dt,
+.PresenArea .AboutSec dd {
+	margin-bottom: 10px;
+	line-height: 1.8;
+}
+.PresenArea .AboutSec dd span {
+	padding-right: 10px;
+}
+
+.PresenArea .AboutSec ul {
+	margin-top: 10px;
+	color: #737373;
+}
+
+.PresenArea .AboutSec div.movie {
+	width: 640px;
+	margin: 30px auto 0px;
+}
+.PresenArea .AboutSec div.movie h3 {
+	font-size: 115%;
+	font-weight: bold;
+	text-align: center;
+}
+
+
+/*----- Selected Works -----*/
+
+.PresenArea .SelectedWorksSec {
+}
+
+.PresenArea .SelectedWorksSec h3 {
+	font-size: 152%;
+	font-weight: bold;
+	line-height: 1.4;
+	color: #e16c48;
+}
+
+.PresenArea .SelectedWorksSec ul {
+	margin-top: 10px;
+}
+
+.PresenArea .SelectedWorksSec .box {
+	clear: both;
+	overflow: hidden;
+	padding: 30px 0px;
+	border-bottom: 1px dashed #929292;
+}
+.PresenArea .SelectedWorksSec .box .pic {
+	float: left;
+	width: 300px;
+	margin-top: 4px;
+}
+.PresenArea .SelectedWorksSec .box .pic p {
+	margin-top: 8px;
+}
+.PresenArea .SelectedWorksSec .box .txt {
+	float: right;
+	width: 520px;
+	padding-left: 40px;
+}
+.PresenArea .SelectedWorksSec .box .txt h4 {
+	display: block;
+	font-size: 143%;
+	font-weight: bold;
+	line-height: 1.2;
+	color: #e16c48;
+}
+.PresenArea .SelectedWorksSec .box .txt p {
+	margin-top: 15px;
+	line-height: 1.4;
+}
+.PresenArea .SelectedWorksSec .box dl {
+	margin-top: 15px;
+}
+.PresenArea .SelectedWorksSec .box dd {
+	line-height: 1.7;
+}
+
+
+/*----- Other Works -----*/
+
+.PresenArea .OtherWorksSec {
+}
+
+.PresenArea .OtherWorksSec .boxwrap {
+	clear: both;
+	overflow: hidden;
+	min-height: 136px;
+	padding: 30px 0px;
+	border-bottom: 1px dashed #929292;
+	/height: 136px;
+}
+.PresenArea .OtherWorksSec .boxwrap .box {
+	float: left;
+	width: 400px;
+}
+.PresenArea .OtherWorksSec .boxwrap .box.box02 {
+	padding-left: 30px;
+}
+.PresenArea .OtherWorksSec .boxwrap .box .pic {
+	float: right;
+	width: 180px;
+	margin-top: 6px;
+}
+.PresenArea .OtherWorksSec .boxwrap .box dl {
+	float: left;
+	width: 210px;
+	padding-right: 10px;
+}
+.PresenArea .OtherWorksSec .boxwrap .box dl dt {
+	display: block;
+	font-size: 143%;
+	font-weight: bold;
+	line-height: 1.1;
+	color: #e16c48;
+}
+.PresenArea .OtherWorksSec .boxwrap .box dl dd {
+	margin-top: 15px;
+	line-height: 1.3;
+}
+
+
+
+
+
+/*===== ■6. Sown =====*/
+
+.SownArea {
+	margin-bottom: 50px;
+}
+
+.SownArea dl {
+	width: 860px;
+	margin: 30px auto 0px;
+	overflow: hidden;
+	font-size: 115%;
+}
+.SownArea dl dt {
+	float: left;
+	width: 120px;
+	padding-right: 10px;
+	font-weight: bold;
+	color: #0068b4;
+}
+.SownArea dl dd {
+	margin-left: 130px;
+}
+.SownArea dl dt,
+.SownArea dl dd {
+	line-height: 1.8;
+}
+
+.SownArea .pics {
+	margin-top: 40px;
+	overflow: hidden;
+}
+.SownArea .pics li {
+	float: left;
+}
+
+.SownArea .links {
+	width: 860px;
+	margin: 40px auto 0px;
+	font-size: 172%;
+	font-weight: bold;
+}
+.SownArea .links li{
+	margin: 10px 0px;
+}
+
+.SownArea .btn_presenmovie a {
+	display: block;
+	width: 435px;
+	height: 82px;
+	margin: 40px auto 0px;
+	background: url(../img/sense/btn_presenmovie.png) left top no-repeat;
+}
+.SownArea .btn_presenmovie a:hover {
+	opacity: 0.60;
+	-moz-opacity: 0.60;
+	-khtml-opacity: 0.60;
+	filter: alpha(opacity=60);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=60)";
+}
+
+
+
+
+
+/*===== ■7. Game =====*/
+
+.GameArea {
+	margin-bottom: 50px;
+}
+
+.GameArea .Contents_ttl span {
+	border-bottom: 2px solid;
+	color: #ba2554;
+}
+
+.GameArea .Section {
+	margin-bottom: 50px;
+}
+
+.GameArea .Section ol li {
+	margin-left: 25px;
+	list-style: decimal;
+	font-size: 129%;
+	font-weight: bold;
+	line-height: 1.4;
+	color: #e16c48;
+}
+.GameArea .Section ol li p {
+	margin-top: 10px;
+	margin-bottom: 30px;
+	font-size: 77%;
+	font-weight: normal;
+	line-height: 1.7;
+	color: #2b2b2b;
+}
+
+.GameArea .Section ul li {
+	font-size: 129%;
+	font-weight: bold;
+	line-height: 1.4;
+	color: #e16c48;
+}
+.GameArea .Section ul li p {
+	margin-top: 10px;
+	margin-left: 25px;
+	margin-bottom: 30px;
+	font-size: 77%;
+	font-weight: normal;
+	line-height: 1.7;
+	color: #2b2b2b;
+}
+
+.GameArea .Section div.summary {
+	margin: 50px 25px;
+}
+.GameArea .Section div.summary p {
+	margin-top: 25px;
+	line-height: 1.7;
+}
+.GameArea .Section div.summary p .point {
+	font-weight: bold;
+	border-bottom: 1px solid;
+}
+
+
+
+
+
+
+/*===== ■xx.  =====*/
+
+/*#BtnDownload_top {
+	height: 138px;
+	width: 480px;
+	margin: 30px auto;
+	display: block;
+}
+
+#BtnDownload_top li a {
+	background-image: url(../../common/img/img_btn.jpg);
+	height: 130px;
+	width: 440px;
+	display: block;
+	background-position: 0px -360px;
+}
+
+#BtnDownload_top li a:hover {
+	background-position: 0px -505px;
+}*/
