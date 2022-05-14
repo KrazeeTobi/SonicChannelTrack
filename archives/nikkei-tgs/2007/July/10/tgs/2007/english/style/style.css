@@ -1,0 +1,162 @@
+@charset "UTF-8";
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#main{
+	background-image: url(../images/main_bg.gif);
+	width: 900px;
+	height: 355px;
+
+}
+#contents{
+	background-image: url(../images/contents_bg.gif);
+	width: 900px;
+	height: 503px;
+	
+}
+.topic{
+	background-image: url(../images/line.gif);
+	width: 543px;
+	height: 1px;
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+
+/********************************Column**********************************/
+
+
+#left{
+	float: left;
+	width: 475px;
+	height: 260px;
+	margin: 40px 0px 0px 70px;
+	_margin: 40px 0px 0px 35px;
+
+}
+
+#main_image{
+	position: absolute;
+	top: 700px;
+	left: 100px;	
+}
+
+/***news***/
+
+#news_area{ 
+	width: 532px;
+	height: 340px;
+	float: left;
+	padding: 50px 0px 0px 60px;
+	font-size: 12px;
+	overflow: hidden;
+}
+
+
+.date{
+
+	 vertical-align: text-top;
+	 padding: 15px 0px 0px 0px;
+}
+
+.p{
+	padding: 14px 0px 0px 20px;
+	width: 390px;
+
+}
+
+.cap{
+	margin:5px 10px 0px 0px;
+	float: left;
+
+}
+.line{
+	margin-bottom: 10px;
+
+}
+
+/***bunner***/
+
+#bunner_area{
+
+	float: right;
+	width: 210px;
+	margin: 37px 50px 0px 0px;
+	_margin: 37px 20px 0px 0px; /**IE**/
+
+}
+
+.bunners,#info{
+	margin: 1px 0px;
+	
+}
+
+
+
+#bunner_s{
+	float: right;
+	width: 200px;
+	height: 200px;
+	margin: 18px 77px 0px 0px;
+	_margin: 18px 38px 0px 0px;/**IE**/
+}
+	
+
+/********************************Extra**********************************/
+
+.no_image{
+
+	border: #000000 1px solid;
+
+}
+
+
+/******************************** Mail **********************************/
+
+
+.mail_title{
+	font-size:16px;
+	font-weight: bold;
+	color:#FFFFFF;
+}
+
+.mail{
+	font-size: 12px;
+	color: #FFFFFF;
+	margin: 0px 0px 0px 5px;
+
+}
+
+.mail a:link{
+	font-size: 12px;
+	color: #fff;
+
+}
+
+.mail a:visited{
+	font-size: 12px;
+	color: #fff;
+
+}
+
+.mail a:hover{
+	font-size: 12px;
+	color: #ccc;
+
+}
+
+.mail_p{
+
+color: #00CCFF;
+}
+
+
+/******************************** 5/9kousin **********************************/
+
+
+ 
+ #left_navi_bottom{
+
+}
