@@ -11,16 +11,27 @@
 		}
 		var distance = window_w - w;  // 横の移動距離
 		var h = $("#footer").height();  // フッターの高さ
+		h = 1000;
 
 		if($(window).scrollTop() > position){
 			var slideX = (distance / h) * 0.92;  //1pxスライドした時の移動距離
 			var nowY = $(window).scrollTop() - position;  //ターゲットが表示されてからどれだけ動いたか
 			var x = nowY * slideX;
+
+			var positionX = $("#scroll #scroll_img").offset().left;
+
+			var end = h + position;//スライド可能な距離
+			if(h<= nowY){
+				x = positionX;
+			}else{
+			}
+
 			$("#scroll #scroll_img").css("-webkit-transform","translate("+x+"px,"+"0px)");
 			$("#scroll #scroll_img").css("-moz-transform","translate("+x+"px,"+"0px)");
 			$("#scroll #scroll_img").css("-ms-transform","translate("+x+"px,"+"0px)");
 			$("#scroll #scroll_img").css("-o-transform","translate("+x+"px,"+"0px)");
 			$("#scroll #scroll_img").css("transform","translate("+x+"px,"+"0px)");
+
 
 
 		}

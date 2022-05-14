@@ -233,6 +233,21 @@ contents
   display: block;
 }
 
+#mainvisual_inner #bnr_ticket{
+	width:200px;
+	position:absolute;
+	left:10px;
+	top:10px;
+}
+
+#mainvisual_inner #bnr_ticket a{
+	transition: 0.4s ;
+}
+
+#mainvisual_inner #bnr_ticket a:hover{
+  opacity: 0.7;
+}
+
 #mainvisual #logo{
 	width:440px;
 	margin:0 auto;
@@ -365,8 +380,9 @@ movie
 
 #news ul{
 	width:480px;
-	height:50px;
+	height:55px;
 	margin:10px auto 0;
+	padding-bottom:10px;
 	position:relative;
   justify-content: space-between;
   align-items: center;
@@ -378,20 +394,20 @@ movie
 
 #news ul li{
 	width:234px;
-	height:50px;
+	height:55px;
 	position:relative;
 }
 
 #news a{
 	width:234px;
-	height:50px;
+	height:55px;
 	display:block;
 	position:relative;
 }
 
 #news a img{
-	width:120px;
-	padding-left:55px;
+	width:200px;
+	padding-left:17px;
 	z-index: 10;
 	position:relative;
 }
@@ -572,14 +588,97 @@ scroll
 }
 
 #scroll_img{
-	width:2900px;
+	width:2850px;
 }
 
 #footer{
 	width:100%;
 	min-width:1200px;
-	height:260px;
+	height:220px;
 	background-color:#fff;
+}
+
+/*--------------------------------------
+mvtk
+----------------------------------------*/
+#mvtk{
+	width:100%;
+	min-width: 1200px;
+	position:relative;
+	height:890px;
+	overflow:hidden;
+	margin:0 auto;
+	background: url(../images/mvtk_bg.jpg) no-repeat center 50%;
+	background-size:cover;
+}
+
+#mvtk_inner{
+	width: 1200px;
+	position:relative;
+	height:890px;
+	margin:0 auto;
+}
+
+#mvtk_inner h2{
+	width: 1060px;
+	padding-top:30px;
+	margin:0 auto;
+}
+
+#mvtk_inner #mvtk_img ul{
+	width:100%;
+	height:350px;
+	position:relative;
+  justify-content: space-between;
+  align-items: center;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+
+#mvtk_inner #mvtk_img ul li:nth-child(1){
+	width:360px;
+	position:relative;
+}
+
+#mvtk_inner #mvtk_img ul li:nth-child(2){
+	width:840px;
+	position:relative;
+}
+
+#mvtk_inner #mvtk_img #arrow{
+	width:92px;
+	position:absolute;
+	left:320px;
+	top:347px;
+}
+
+#mvtk_inner #mvtk_btn ul{
+	width:440px;
+	margin:15px auto 0;
+	position:relative;
+  justify-content: space-between;
+  align-items: center;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+
+#mvtk_inner #mvtk_btn ul li{
+	width:210px;
+}
+
+#mvtk_inner #mvtk_btn ul li a{
+	display:block;
+	width:200px;
+	margin:0 auto;
+}
+
+#mvtk_inner #online{
+	width:260px;
+	margin:20px auto 0;
 }
 
 /*--------------------------------------
@@ -629,7 +728,7 @@ bnr
 	width:452px;
 	position:relative;
 	margin:0 auto;
-	padding-top:10px;
+	padding-top:20px;
 }
 
 #bnr ul{
@@ -950,6 +1049,29 @@ animation
 }
 
 
+#bnr_ticket img{
+	position:absolute;
+	transition: 0.4s ;
+	top:0;
+	opacity:0;
+	transform: translateX(-250px);
+}
+
+.is-loaded #bnr_ticket img{
+  animation: slideX 0.5s ease 4.0s forwards;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 #name img{
 	position:absolute;
 	transition: 0.4s ;
@@ -1002,6 +1124,125 @@ animation
     transform: translateY(0);
   }
 }
+
+#mvtk h2,
+#mvtk #mvtk_img ul li,
+#mvtk #arrow,
+#mvtk #mvtk_btn ul li,
+#mvtk #online,
+#mvtk .mvtk-widgets{
+  opacity: 0;
+}
+
+@keyframes  fadeIn {
+	0% { opacity: 0;}
+	100% { opacity: 1;}
+}
+
+#mvtk.is-loaded h2{
+  -webkit-animation-name: fadeInUp;
+          animation-name: fadeInUp;
+  -webkit-animation-duration: 0.4s;
+          animation-duration: 0.4s;
+  -webkit-animation-delay: 1.0s;
+          animation-delay: 1.0s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+
+#mvtk.is-loaded #mvtk_img ul li:nth-child(1){
+  -webkit-animation-name: fadeIn;
+          animation-name: fadeIn;
+  -webkit-animation-duration: 0.6s;
+          animation-duration: 0.6s;
+  -webkit-animation-delay: 1.2s;
+          animation-delay: 1.2s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+
+#mvtk.is-loaded #mvtk_img ul li:nth-child(2){
+  -webkit-animation-name: fadeIn;
+          animation-name: fadeIn;
+  -webkit-animation-duration: 0.6s;
+          animation-duration: 0.6s;
+  -webkit-animation-delay: 1.4s;
+          animation-delay: 1.4s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+
+#mvtk.is-loaded #arrow{
+  -webkit-animation-name: fadeIn;
+          animation-name: fadeIn;
+  -webkit-animation-duration: 0.6s;
+          animation-duration: 0.6s;
+  -webkit-animation-delay: 1.6s;
+          animation-delay: 1.6s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+
+#mvtk.is-loaded #mvtk_btn ul li:nth-child(1){
+  -webkit-animation-name: fadeInUp;
+          animation-name: fadeInUp;
+  -webkit-animation-duration: 0.4s;
+          animation-duration: 0.4s;
+  -webkit-animation-delay: 2.0s;
+          animation-delay: 2.0s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+
+#mvtk.is-loaded #mvtk_btn ul li:nth-child(2){
+  -webkit-animation-name: fadeInUp;
+          animation-name: fadeInUp;
+  -webkit-animation-duration: 0.4s;
+          animation-duration: 0.4s;
+  -webkit-animation-delay: 2.2s;
+          animation-delay: 2.2s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+
+#mvtk.is-loaded #online{
+  -webkit-animation-name: fadeInUp;
+          animation-name: fadeInUp;
+  -webkit-animation-duration: 0.4s;
+          animation-duration: 0.4s;
+  -webkit-animation-delay: 2.4s;
+          animation-delay: 2.4s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+
+#mvtk.is-loaded .mvtk-widgets{
+  -webkit-animation-name: fadeInUp;
+          animation-name: fadeInUp;
+  -webkit-animation-duration: 0.4s;
+          animation-duration: 0.4s;
+  -webkit-animation-delay: 2.6s;
+          animation-delay: 2.6s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+
 
 #bnr ul li,
 #bnr p {
