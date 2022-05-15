@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<title>出展社一覧｜来場者の方へ｜東京ゲームショウ2012</title>
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="../common/js/jquery-1.8.0.js" ></script>
+<script type="text/javascript" src="../js/jsrender.js"></script>
+<script type="text/javascript" src="../js/exhibitor_search.js"></script>
+<script type="text/javascript">
+function callback(ret) {
+    var boby_id = {
+        11:  {id: 'DetailGeneral'},
+        15:  {id: 'DetailSales'},
+        12:  {id: 'DetailSchool'},
+        13:  {id: 'DetailFamily'},
+        18:  {id: 'DetailSmartSocial'},
+        19:  {id: 'DetailPC'},
+        103: {id: 'DetailAsia'},
+        16:  {id: 'DetailSolution'},
+        17:  {id: 'DetailCloud'},
+        38:  {id: 'DetailMeeting'},
+        25:  {id: 'DetailDevice'},
+        77:  {id: 'DetailGeneral'},
+    };
+    $("body").attr("id", boby_id[ret.category_id].id);
+    $("#mainArea").prepend($( "#tpl" ).render(ret));
+}
+
+$(function() {
+    var param = BpexpoUtils.getUrlVars();
+    $.ajax({
+        url: BpexpoUtils.exponet_hostname +  '/tgs2012/exhibitor/ja/company/' + param["id"] + '.json', dataType: 'jsonp'
+    });
+});
+</script>
+
+<!-- #展開するテンプレート -->
+<script id="tpl" type="text/x-jsrender">
+<h1>
+    {{category_name:category_id}}
+	<span>小間番号：<em>{{:booth_number}}</em></span>
+</h1>
+<h2>{{:company_name}}</h2>
+<h3>{{:title}}</h3>
+<p>
+    {{h_br:highlight}}
+</p>
+<ul>
+	<li><a href="{{>url}}" target="_blank">{{>url}}</a></li>
+</ul>
+<table>
+	<tr>
+		<th>担当部署名</th>
+		<td>{{:division}}</td>
+	</tr>
+	<tr>
+		<th>住所</th>
+		<td>{{:zip}} {{:address}}</td>
+	</tr>
+	<tr>
+		<th>電話番号</th>
+		<td>{{:tel}}<td>
+	</tr>
+	<tr>
+		<th>FAX番号</th>
+		<td>{{:fax}}<td>
+	</tr>
+	<tr>
+		<th>E-mail</th>
+		<td>{{:email}}</td>
+	</tr>
+</table>
+</script>
+</head>
+<body id="DetailGeneral">
+
+<div id="container">
+  <div id="header"><img src="img/ttl_list-popup.jpg" alt="TOKYO GAME SHOW 2011 出展社ニュース" width="510" height="50" /></div>
+  <div id="mainArea">
+
+    <div id="footer">
+      <div id="copy">&copy;2002-2012 <a href="http://www.cesa.or.jp/" target="_blank">CESA</a> / <a href="http://corporate.nikkeibp.co.jp/" target="_blank">Nikkei Business Publications, Inc.</a><br />
+All rights reserved.</div>
+      <div id="link"><a href="http://www.cesa.or.jp/" target="_blank"><img src="img/logo_cesa.gif" alt="CESA" width="59" height="34" /></a><a href="http://corporate.nikkeibp.co.jp/" target="_blank"><img src="img/logo_bp.gif" alt="" width="72" height="34" /></a></div>
+    </div> <!-- /footer -->
+
+
+  </div> <!-- /mainArea -->
+  <div id="navi"><a href="javascript:window.close();"><span class="alt">close</span></a></div>
+</div> <!-- /container -->
+</body>
+</html>
