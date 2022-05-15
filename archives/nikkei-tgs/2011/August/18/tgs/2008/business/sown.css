@@ -1,0 +1,384 @@
+@charset "utf-8";
+
+/* -----------------------------------------------------------
+CSS Information
+File name:      style.css
+----------------------------------------------------------- */
+
+.clear{
+   clear: both;
+}
+
+/* -----------------------------------------------------------
+センス・オブ・ワンダー・ナイトページ　トップ 
+business/index.html
+----------------------------------------------------------- */
+
+h2{
+   text-align: center; 
+}
+
+#Eng{
+   text-align: center;
+   margin: 15px 0px 20px 0px; 
+}
+
+#company{
+   text-align: center;
+   margin-top: 10px; 
+}
+
+#Text{
+     margin: 20px 0px;
+		 clear: both;
+}
+
+#sown{
+	_width: 900px;
+	_padding: 0 0 0 10px;
+}
+
+#sown h3{
+	 font-size: 14px;	
+	 border-bottom:1px solid #ccc;
+	 border-top:1px solid #ccc;
+	 padding: 3px 0 3px 5px;
+	 color: #666;
+	 margin: 15px 0px 10px 0px;
+}
+
+
+#details .box h3{
+	 font-size: 14px;	
+	 border-bottom:1px solid #ccc;
+	 border-top:1px solid #ccc;
+	 padding: 3px 0 3px 5px;
+	 color: #666;
+	 margin: 15px 0px 10px 0px;
+}
+
+#sown h4{
+	 font-size: 14px;
+	 background: #eee;
+	 padding: 20px 0 5px 10px;
+	 margin: 0px 0px;
+}
+#sown .box{
+     margin: 20px 0px;
+	 border-bottom: #ccc dotted 1px;
+}
+#sown .box dl{
+	 padding: 0px 5px;
+}
+
+#sown .box dt{
+    
+font-weight: bold;
+margin: 10px 0;
+color:#666;
+border-bottom: #ccc dotted 1px;
+width: 800px;
+}
+
+#sown .box dd{
+    
+color: #666;
+padding: 0 0 0 5px;
+
+}
+
+#sown .box p.presen{
+	 padding: 15px 5px 10px;
+	 line-height: 130%;
+}
+
+#sown #gameList{
+     width: 918px;
+}
+
+#sown #gameList .games{
+     width: 445px;
+	 float: left;
+	 margin: 10px 14px 10px 0px;
+	 background: #eee;
+}
+
+#sown #gameList .games dl{
+	 padding: 10px 20px;
+
+}
+
+#sown #gameList .games dt{
+	 color: #CE7742;
+	 font-weight: bold;
+}
+
+#sown #gameList .games dd{
+     line-height: 150%;
+	 margin-bottom: 10px;   
+}
+
+.extra{
+     padding: 10px;
+}
+
+#profileBox{
+     width: 918px;
+}
+#profileBox .profile{
+     width: 229px;
+	 float: left;
+}
+#profileBox .profile p{
+     padding: 10px;
+	 line-height: 150%;
+}
+
+#details td ul span,
+#details td ol span,
+.note{
+	background: url(../common/note_cap.gif) no-repeat 0 0px;
+	padding: 0 0 0 12px;
+	font-size: 10px;
+	color: #666666;
+}
+
+#details td ul span,
+#details td ol span,
+.note2{
+	background: url(../common/note_cap.gif) no-repeat 0 5px;
+	padding: 0 0 0 12px;
+	font-size: 10px;
+	color: #666666;
+}
+
+.extra .note{
+	background: url(../common/note_cap.gif) no-repeat 0 6px;
+	padding: 0 0 0 12px;
+	font-size: 10px;
+	color: #666666;
+}
+
+#details #sown table{
+margin: 30px 0 0 0;
+width: 920px;
+
+}
+
+#details #sown .tLeft{
+
+	text-align: left;
+  background :#F1F1F1;
+}
+
+#details #sown td{
+	padding: 5px;
+	color: #333333;
+	border-right: #ccc 1px dotted;
+	border-left: #ccc 1px dotted;
+	border-top: none;
+	border-bottom: none;	
+	vertical-align: top;
+	width: 225px;
+	text-align: center;
+}
+
+#details td ul span,
+#details td ol span,
+.note{
+	background: url(../common/note_cap.gif) no-repeat 0 0px;
+	padding: 0 0 0 12px;
+	font-size: 10px;
+	color: #666666;
+}
+
+#details td ul span,
+#details td ol span,
+.note2{
+	background: url(../common/note_cap.gif) no-repeat 0 5px;
+	padding: 0 0 0 12px;
+	font-size: 10px;
+	color: #666666;
+}
+
+.extra .note{
+	background: url(../common/note_cap.gif) no-repeat 0 6px;
+	padding: 0 0 0 12px;
+	font-size: 10px;
+	color: #666666;
+}
+
+
+#sown ol li ul .note{
+	background: url(../common/note_cap.gif) no-repeat 0 6px;
+}
+
+.box dl{
+	margin: 10px 0 10px 10px;
+
+}
+
+.box dt{
+	font-weight: bold;
+	margin: 5px 0;
+	border-bottom: #CCCCCC 1px solid;
+	color: #666;
+	padding: 0 0 0 0;
+}
+
+.box dd{
+	color:#666666;
+
+	margin: 10px 0;
+	display: block;
+}
+
+.box div{
+padding: 0 0 10px 10px;
+color: #333333;
+border-bottom: #eee 1px solid;
+}
+
+/* -----------------------------------------------------------
+Release
+business/release.html
+----------------------------------------------------------- */
+
+#details #Release h2{
+text-align: left;
+font-size: 20px;
+font-weight: bold;
+color: #333333;
+}
+
+#details #Release table{
+	 margin-top: 30px;
+	 width: 910px;
+}
+
+#details #Release th{
+	text-align: center;
+	height: 30px;
+	vertical-align: middle;
+	background: #FFFFFF;
+}
+
+#details #Release th,
+#details #Release td{
+	
+	padding: 0 0 0 8px;
+
+}
+
+
+/* -----------------------------------------------------------
+Release
+business/call.html
+----------------------------------------------------------- */
+
+
+#details table {
+	width: 735px;
+	text-align: left;
+	border-top: #ccc 1px solid;
+	border-bottom: #ccc 1px solid;
+	margin: 5px 0 20px 0;
+}
+
+
+/* -----------------------------------------------------------
+VerticalSlide
+business/sown.html
+----------------------------------------------------------- */
+
+#logoBox{
+margin: 20px 0 0px 200px;
+height: 160px;
+width: 918x;
+}
+
+#news{
+	clear: both;
+	margin: 20px 0;
+	border-bottom: #CCCCCC solid 1px;
+	border-top: #CCCCCC solid 1px;
+	padding: 0px 0 10px 5px;
+}
+
+#news h5{
+display: block;
+margin: 10px 0 10px 0;
+}
+
+#news p{
+	color:#666;
+	border-bottom: 1px #eee dotted;
+}
+
+#logoBox p{
+
+float:left;
+width: 160px;
+background: #CCCCCC;
+margin: 0 0 0 10px;
+width: 160px;
+
+}
+
+#logoBox div h5{
+
+display: block;
+margin: 10px 0 10px -195px;
+_margin: 10px 0 10px -153px;
+
+
+}
+
+#logoBox div h5{
+	text-align: center;
+
+}
+
+
+
+
+#presentaion{
+	width: 910px;
+	margin: 20px 0 0 0;
+
+}
+
+#presentaion h5{
+	margin: 0 0 25px 0;
+}
+
+#presentaion .entry1{
+	margin: 0 0 15px 0;
+	padding: 0 0 15px 0;
+	border-bottom:1px dotted #ccc;
+}
+
+#presentaion .entry1 .entryLeft{
+	width:440px;
+	float:left;
+}
+#presentaion .entry1 .entryRight{
+	width:460px;
+	float:left;
+}
+#presentaion .entry1 .entryRight p{
+	font-size:12px;
+	color: #333333;
+	margin:10px;
+}
+
+#review{
+	width: 910px;
+	margin: 20px 0 0 0;
+
+}
+#review h5{
+	margin: 0 0 25px 0;
+}
+#review .mov{
+}

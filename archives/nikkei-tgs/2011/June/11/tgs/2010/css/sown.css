@@ -1,0 +1,247 @@
+@charset "euc-jp";
+/* CSS Document */
+
+
+body { 
+	font-family: 'Century Gothic', Futura, 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', Osaka, 'MS PGothic', sans-serif;
+	margin: 0; padding: 0;
+	overflow-y: scroll;
+	}
+body h1,h2,h3,h4,div,p,ul,li { margin:0; padding:0; }
+
+em  {
+	font-weight:normal;
+	font-style:normal;
+	color:#666;
+	font-weight:bold;
+}
+
+/* -------------------------------- clearfix */
+.clearfix:after {
+  content: ".";  /* 新しい要素を作る */
+  display: block;  /* ブロックレベル要素に */
+  clear: both;
+  height: 0;
+  visibility: hidden;
+}
+
+.clearfix {
+  min-height: 1px;
+}
+
+* html .clearfix {
+  height: 1px;
+  /*\*//*/
+  height: auto;
+  overflow: hidden;
+  /**/
+}
+
+a:link { color: #e16c48; text-decoration:none; }
+a:visited { color: #e16c48; text-decoration:none; }
+a:hover { color: #e16c48; text-decoration: underline; }
+a:active { color: #e16c48; text-decoration:none; }
+
+hr { margin:30px auto; width:610px; height:1px; }
+
+div.tw {
+	margin:15px 20px;
+	text-align:left;
+	font-size:12px;
+}
+div.tw img { float:left; margin-right:10px; }
+
+#cmSide div.bn {
+	z-index:1;
+	width:190px;
+	margin:0px auto 20px;
+}
+#cmSide div.sown {
+	width:190px;
+	margin:20px auto 20px;
+	clear:both;
+}
+
+p.backTop { font-size:12px; background:url(../sown/img/arrow_s.gif) no-repeat left; padding-left:15px; }
+
+
+/* -------------------------------- contents(index) */
+#container920 { width:930px; margin:0 40px 0 20px; background:url(../sown/img/main_bg.gif) repeat-y left; }
+
+#cmSide { width:230px; border-right:2px solid #e16c48; text-align: left; float:left; }
+#cmSide h1 { background: url(../sown/img/sown_logo.gif) no-repeat; width:230px; height:232px; text-indent:-1000em; } 
+#cmSide p { font-size:14px; font-weight:bold; margin:10px 20px; color:#e16c48; }
+#cmSide div.mov { width:190px; margin:20px auto; }
+#cmSide h2 { clear:both; font-size:11px; color:#000; background: #ffeae3; margin:20px 0px; padding:15px; line-height:1.3em; font-weight:normal; }
+#cmSide h2 span { font-weight:bold; color:#333; }
+
+#mainContents { background:url(../sown/img/navi_bg.gif) repeat-x; margin:0 0 20px; float:left; text-align: left; width:680px; }
+#mainContents p { font-size:14px; line-height:1.6em; margin:10px 25px; }
+#mainContents p a { text-decoration: underline; }
+#mainContents p a:hover { color: #f7931e; }
+#mainContents p.notice { font-size:12px; line-height:1.4em; margin:10px 25px; }
+
+#mainContents ul#navi { list-style:none; height:60px; margin:0 0 10px; padding:0; }
+#mainContents ul#navi li { background:url(../sown/img/arrow.gif) no-repeat left; padding-left:20px; font-size:14px; font-weight:bold; float:left; margin:10px 8px 0 8px; }
+#mainContents ul#navi li a:link { color:#704e3a; text-decoration:none; }
+#mainContents ul#navi li a:visited { color:#704e3a; text-decoration:none; }
+#mainContents ul#navi li a:hover { color:#704e3a; text-decoration: underline; }
+#mainContents ul#navi li a:active { color:#704e3a; text-decoration:none; }
+
+#mainContents div.news { margin:10px 20px; border-bottom:1px dotted #999;/* border-top:1px dotted #999;*/ padding:0px 10px 10px; }
+#mainContents div.news p { font-size:12px; color:#000; margin:5px 0; }
+#mainContents div.news p span { font-size:11px; color:#fff; background:#333; padding:3px; }
+
+#mainContents div.sponsored { margin:20px 0; }
+#mainContents div.sponsored ul { margin:0 auto 20px; padding:0; list-style:none; }
+#mainContents div.sponsored ul li { margin:10px 15px; float:left; }
+
+#mainContents h3 { color:#e16c48; margin:20px 20px 10px; font-size:16px; }
+#mainContents h3 a { text-decoration: underline; }
+#mainContents h3 a:hover { color: #f7931e; }
+#mainContents h4 { color:#000; margin:10px 20px; font-size:16px; }
+#mainContents p.lead { font-size:14px; line-height:1.6em; margin:30px 20px 20px; color:#000; }
+
+
+/* -------------------------------- contents(purpose) */
+#mainContents ul.purpose {
+	list-style:outside;
+	margin:20px 15px;
+	padding:20px;
+	background: #E1E1E1;
+	color:#000;
+}
+#mainContents ul.purpose li {
+	font-size:14px;
+	line-height:1.6em;
+	margin:10px;
+}
+
+
+/* -------------------------------- contents(games) */
+#mainContents div.game {
+	margin:20px 15px;
+	padding:20px;
+	background: #eeeeee;
+	color:#000;
+	font-size:14px;
+}
+#mainContents div.game h4.posi {
+	background: url(../sown/img/ok.gif) no-repeat left center;
+	padding-left:40px;
+	padding-top:10px;
+	font-weight:bold;
+	height:35px;
+}
+#mainContents div.game h4.nega {
+	background: url(../sown/img/ng.gif) no-repeat left center;
+	padding-left:40px;
+	padding-top:10px;
+	font-weight:bold;
+	height:35px;
+}
+#mainContents div.game ul {
+	list-style:outside;
+	margin:10px 20px;
+}
+#mainContents div.game ul li {
+	margin:10px 0;
+	color:#e16c48;
+}
+#mainContents div.game ul li span {
+	color:#000;
+}
+
+
+/* -------------------------------- contents(outline) */
+#mainContents ol {
+	margin:10px 20px;
+}
+#mainContents ol li {
+	margin:10px 20px;
+}
+#mainContents div.outline span {
+	font-weight:bold; color:#333;
+}
+
+#mainContents h4.out { margin:30px 20px 10px; color:#e16c48; }
+
+#mainContents div.outline p.names {
+	margin:10px 40px;
+}
+
+#mainContents div.selector {
+	margin:0 10px;
+	font-size:12px;
+	line-height:1.6em;
+}
+#mainContents div.selector table {
+	width:650px;
+	padding-bottom:10px;
+}
+
+#mainContents div.selector table th {
+	width:136px;
+	padding-bottom:10px;
+	background: none;
+}
+#mainContents div.selector table td {
+	padding:10px;
+	background: none;
+}
+
+
+
+/* -------------------------------- contents(presentation) */
+
+#mainContents .entry {
+	z-index: 10;
+	margin:0 20px;
+	padding-bottom: 10px;
+	font-size:12px;
+	line-height:1.6em;
+	background: url(../common/img/dot.gif) repeat-x bottom;
+	clear: both;
+}
+
+#mainContents .entry dl {
+	margin: 0 0 10px 0;
+	height: 120px;
+	clear: both;
+	background: url(../common/img/dot.gif) repeat-x top;
+	
+}
+
+#mainContents .entry dl dd {
+	margin: 0 0 0 10px;
+
+}
+#mainContents .entry dl dd.thumb {
+	width: 160px;
+	float: left;
+	margin: 10px 0 10px 10px;
+}
+
+#mainContents .entry dl dd.ttl {
+	width: 300px;
+	margin: 10px 0 0 0;
+	padding: 0 0 0 20px;
+	float: left;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+#mainContents .entry dl dd.name {
+	width: 300px;
+	margin: 10px 0 0 0;
+	padding: 0 0 0 20px;
+	float: left;
+	clear: right;
+}
+
+
+
+	
+	
+	
+	
