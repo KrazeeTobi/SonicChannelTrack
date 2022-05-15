@@ -1,0 +1,174 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en" xml:lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Language" content="en" />
+<meta http-equiv="content-script-type" content="text/javascript" />
+<meta name="description" content="TOKYO GAME SHOW 2008 10/9(Thu)-12(Sun), 2008 MAKUHARI MESSE." />
+<meta name="keywords" content="Game" />
+<meta http-equiv="imagetoolbar" content="no" />
+<link rel="stylesheet" href="../style/import.css" media="all" type="text/css" />
+<link rel="stylesheet" href="style.css" media="all" type="text/css" />
+<link rel="stylesheet" href="../style/print.css" media="print" type="text/css" />
+<link rel="alternate" type="application/rss+xml" title="RSS" href="http://expo.nikkeibp.co.jp/tgs/2008/topics.xml" />
+<script src="../js/swfobject.js" type="text/javascript"></script>
+<script src="../js/minmax.js" type="text/javascript"></script>
+<script src="../js/m_navi.js" type="text/javascript"></script>
+<script src="../js/smoothscroll.js" type="text/javascript"></script>
+<script src="sideMenu.js" type="text/javascript"></script>
+
+<!--RSS Load,Parse start-->
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="jquery.jfeed.pack.js"></script>
+
+<script type="text/javascript">
+<!--
+function initRSSFeed(){
+    jQuery.getFeed({url:'news_en.xml',success:onComplete});
+    function onComplete(feed) {
+        var temp = '<table>';
+        for(var i = 0; i < feed.items.length; i++) {
+            var item = feed.items[i];
+            temp += '<tr><td class="feedDate day">'+changeDate(item.updated)+'</td>';
+            temp += '<td align="left" class="feedTitle title">';
+            temp += '<a href="' + item.link + '">' + item.title + '</a>';
+            temp += '</td>';
+            temp += '</tr>';
+        }
+        temp += '</table>';
+        jQuery('#news').append(temp);
+    }
+}
+//日付表記を変換
+function changeDate(str){
+    var myDate=new Date(str);
+    var YYYY=myDate.getFullYear();
+    var MM=myDate.getMonth()+1;
+    if(MM<10){MM="0"+MM;}
+    var DD=myDate.getDate();
+    if(DD<10){DD="0"+DD;}
+    var date=MM+"/"+DD+"/"+YYYY;
+    return date;
+}
+
+//-->
+</script>
+
+<!--RSS Load,Parse end-->
+
+
+<title>TOKYO GAME SHOW</title>
+</head>
+<body onload="initRSSFeed();">
+
+<a name="top" id="top"></a>
+<div id="site">
+  <div id="header">
+    <h1><a href="../index.html" target="_self"><img src="../common/logo.gif" alt="TOKYO GAME SHOW 2008" /></a></h1>
+    <script type="text/javascript">menuWriteL2();</script>
+    <noscript>
+    <ul>
+      <li><a href="../../index.html">Japanese</a></li>
+      <li><a href="../../korean/index.html">Korean</a></li>
+      <li><a href="../../chinese/index.html">Chinese</a></li>
+    </ul>
+    </noscript>
+    <p>
+      <script type="text/JavaScript">bunnerH();</script>
+      <noscript>
+      <iframe width="728" height="90" marginwidth="0" marginheight="0"
+hspace="0" vspace="0" frameborder="0" scrolling="no"
+bordercolor="#000000"
+src="http://bizad.nikkeibp.co.jp/html.ng/tocode=utf8&spacedesc=tgs_rotation&site=bpspecial"><a
+href="http://bizad.nikkeibp.co.jp/click.ng/params.richmedia=yes&tocode=utf8&spacedesc=tgs_rotation&site=bpspecial"
+target="_blank"><img
+src="http://bizad.nikkeibp.co.jp/image.ng/params.richmedia=yes&tocode=utf8&spacedesc=tgs_rotation&site=bpspecial"
+border="0"></a></iframe>
+      </noscript>
+    </p>
+  </div>
+   <div id="globalNavi">
+   <script type="text/javascript">showMainNavi();</script>
+    <noscript>
+    <ul class="navmenu">
+      <li><a href="/tgs/2008/english/visitor/index.html">Attendee Info</a>
+          <ul>
+            <li><a href="/tgs/2008/english/attendee_info/index.html">Overview</a></li>
+            <li><a href="/tgs/2008/english/attendee_info/map.html">Floor Plans</a></li>
+            <li><a href="/tgs/2008/english/attendee_info/list.html">Exhibitors</a></li>
+            <li><a href="/tgs/2008/english/attendee_info/events.html">Events</a></li>
+            <li><a href="/tgs/2008/english/attendee_info/forum.html">TGS Forum</a></li>
+            <li><a href="/tgs/2008/english/attendee_info/admission.html">Admission</a></li>
+            <li><a href="/tgs/2008/english/attendee_info/travel.html">Travel</a></li>
+          </ul>
+      </li>
+      <li><a href="/tgs/2008/english/media/registration.html">Media Info</a>
+          <ul>
+            <li><a href="/tgs/2008/english/media/index.html">News Release</a></li>
+            <li><a href="/tgs/2008/english/media/registration.html">Registration</a></li>
+          </ul>
+      </li>
+      <li><a href="/tgs/2008/english/exhibition/index.html">Exhibitor Info</a> </li>
+      <li><a href="/tgs/2008/english/contact/index.html">Contact</a></li>
+    </ul>
+    </noscript>
+  </div>
+  <script type="text/JavaScript">
+								var so = new SWFObject("../main_navi.swf", "video", "932", "50","8", "#ffffff");
+								so.addParam("menu", "false");
+								so.addParam("scale", "noscale");
+								so.addParam("quality", "best");
+								so.addParam("wmode", "transparent");
+								so.addVariable("rootID", getQueryParamValue("id"));
+								so.addVariable("pageID", "1");
+								so.write("globalNavi");
+		</script>
+  <div id="main">
+    <div id="contents">
+      <div id="sideNavi">
+        <script type="text/JavaScript">sideMenuWrite();</script>
+      </div>
+      <div id="rightContents">
+        <h2><img src="images/title.gif" alt="News Release" /></h2>
+        
+        <p id="backToTop"><a href="../index.html"><img src="../common/totop.gif" alt="Home" onmouseover="this.src='../common/totop_on.gif'" onmouseout="this.src='../common/totop.gif'" /></a></p>
+        <div id="details">
+          <div id="news">
+          
+          <noscript>
+          	<p><strong>If you see this message. It seems Javascript turned off. Please turn the javascript on and reload this page. </strong></p>
+          </noscript>
+          <!--<table>
+              <tr>
+                <td class="day">2008/07/24</td>
+                <td align="left" class="title"><a href="./0724.html">『TGSフォーラム2008』プログラム決定 7月24日（木）より申込受付開始 </a></td>
+              </tr>
+              <tr>
+                <td class="day">2008/07/11</td>
+                <td align="left" class="title"><a href="./0711.html">東京ゲームショウ 展示規模は過去最多の1742小間に</a></td>
+              </tr>
+              <tr>
+                <td class="day">2008/06/23</td>
+                <td align="left" class="title"><a href="./0623.html">新企画「SENSE OF WONDER NIGHT 2008」参加募集</a></td>
+              </tr>
+              <tr>
+                <td class="day">2008/05/28</td>
+                <td class="title"><a href="./0528.html">「東京ゲームショウ2008」メインビジュアル決定／世界中の人々の期待感と、熱気、興奮を表現</a></td>
+              </tr>
+              <tr>
+                <td class="day">2008/02/15 </td>
+                <td class="title"><a href="./0215.html">「東京ゲームショウ2008」開催について／テーマは『さあ、行こう！ GAMEの時間です。』に決定</a></td>
+              </tr>
+            </table>  -->
+          </div>
+          <p class="toTop"><a href="#top"><img src="../common/top.gif" alt="Page top" onmouseover="this.src='../common/top_on.gif'" onmouseout="this.src='../common/top.gif'" border="0" /></a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="footer">
+    <p>Copyright(c) 2002-2008 CESA/Nikkei Business Publications, Inc.All rights reserved.</p>
+  </div>
+</div>
+</body>
+</html>
