@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>東京ゲームショウ2015 | TOKYO GAME SHOW 2015</title>
+
+<!-- default style -->
+<link rel="stylesheet" type="text/css" href="../../common/css/reset.css" media="all">
+<link rel="stylesheet" type="text/css" href="../../common/css/base.css" media="all">
+<!-- /default style -->
+<!--[if lt IE 9 ]> <html class="ie8"> <![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../css/charity.css" media="all">
+<link rel="stylesheet" type="text/css" href="popup.css" media="all">
+<script type="text/javascript" src="/tgs/2015/common/js/ga.js"></script>
+
+
+<script type="text/javascript" src="../../common/js/jquery.min.js"></script>
+<script type="text/javascript" src="../../common/js/jsrender.js"></script>
+<script type="text/javascript" src="../../common/js/auction_server.js"></script>
+<script type="text/javascript" src="../../common/js/auction_detail.js"></script>
+<script id="tpl" type="text/x-jsrender">
+			<div class="dbox clear">
+				<h3>{{:company_name}}</h3>
+				<h4>{{:item_name}}</h4>
+				<p>{{:description}}</p>
+    		</div>
+</script>
+
+</head>
+
+<body>
+<!--[if lte IE 8.0]>
+<div id="ie">
+    <p>このブラウザは最新バージョンではありません。画面が正しく表示されないことがあります。<br /><a href="http://windows.microsoft.com/ja-jp/internet-explorer/download-ie?ocid=GA8_O_WOL_Hero_Home_IE_Pos4_03" target="_blank">最新版はこちらからダウンロードいただけます。</a></p>
+</div>
+<![endif]--> 
+
+<!-- wrapper -->
+<div id="wrapper">
+	<div id="popup">
+			<h1><img src="../../common/images/heder-pop-logo.gif" alt="TOKYO GAME SHOW"></h1>
+			<h2>チャリティーオークション出品物</h2>	
+			
+			<!--/.dbox-->
+
+		</div>
+	<!--footer-->
+	<div class="footer"> 
+		
+		<!-- fb -->
+		<div class="fbox"> 
+			<!-- fi -->
+			<div class="fi clear">
+				<ul>
+					<li><a href="http://www.cesa.or.jp/" target="_blank"><img src="/tgs/2015/common/images/footer_bnr_01.png" alt="CESA" width="43" height="20"></a></li>
+					<li><a href="http://corporate.nikkeibp.co.jp/" target="_blank"><img src="/tgs/2015/common/images/footer_bnr_02.png" alt="日経BP" width="65" height="20"></a></li>
+				</ul>
+				<p class="clsBtn"><a href="javascript:window.close();"><img src="../../common/images/cls_btn.gif" alt="閉じる" width="22" height="22"></a></p>
+			</div>
+			<!-- fi --> 
+		</div>
+		<!-- /fb --> 
+	</div>
+	<!--/footer --> 
+	
+</div>
+<!-- /wrapper --> 
+
+<!-- default script --> 
+<!--<script type="text/javascript" src="/tgs/2015/common/js/jquery.min.js"></script>-->
+<!-- /default script -->
+
+</body>
+</html>
