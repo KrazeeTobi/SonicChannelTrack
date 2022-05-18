@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+#sense div.senseform dt {
+	width: 15%;
+	float: left;
+	text-align: right;
+	clear: both;
+}
+
+#sense div.senseform dt:after {
+	content: ":";
+	padding-left: 0.5em;
+}
+
+#sense div.senseform dd {
+	width: 65%;
+	float: left;
+	margin-bottom: 1.5em;
+	margin-left: 10px;
+}
+#sense div.senseform dd ul {
+	list-style-type: disc;
+	padding-left: 1.65em;
+}
+p.deadline {
+	font-size: 140%;
+	font-weight: bold;
+	color: #ffffff;
+	text-align: center;
+}

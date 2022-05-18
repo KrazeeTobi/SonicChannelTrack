@@ -1,0 +1,40 @@
+<h2 class="top">メディアパートナー</h2>
+<ul class="contentBox">
+  <li><a href="http://www.gameweekly.net/" target="_blank"><img src="/tgs/2017/common/images/logo/media_a.jpg" alt=""></a></li>
+  <li><a href="http://www.g-cores.com/" target="_blank"><img src="/tgs/2017/common/images/logo/media_b.jpg" alt=""></a></li>
+  <li><a href="http://games.sina.com.cn/" target="_blank"><img src="/tgs/2017/common/images/logo/media_c.jpg" alt=""></a></li>
+  <li><a href="http://www.kotakgame.com/" target="_blank"><img src="/tgs/2017/common/images/logo/media_d.jpg" alt=""></a></li>
+  <li><a href="http://jp.ign.com/" target="_blank"><img src="/tgs/2017/common/images/logo/media_e.jpg" alt=""></a></li>
+  <li><a href="http://game.watch.impress.co.jp/" target="_blank"><img src="/tgs/2017/common/images/logo/media_f.jpg" alt=""></a></li>
+  <li><a href="https://www.17173.com/" target="_blank"><img src="/tgs/2017/common/images/logo/media_g.jpg" alt=""></a></li>
+  <li><a href="https://www.famitsu.com/" target="_blank"><img src="/tgs/2017/common/images/logo/media_h.jpg" alt=""></a></li>
+  <li><a href="https://www.gamer.com.tw/" target="_blank"><img src="/tgs/2017/common/images/logo/media_i.jpg" alt=""></a></li>
+  <li><a href="http://cafe.naver.com/gamerzfan" target="_blank"><img src="/tgs/2017/common/images/logo/media_j.jpg" alt=""></a></li>
+  <li><a href="http://www.ruliweb.com/" target="_blank"><img src="/tgs/2017/common/images/logo/media_k.jpg" alt=""></a></li>
+  <li><a href="https://www.duniaku.net/" target="_blank"><img src="/tgs/2017/common/images/logo/media_l.jpg" alt=""></a></li>
+  <li><a href="http://games.qq.com/tvgame/" target="_blank"><img src="/tgs/2017/common/images/logo/media_m.jpg" alt=""></a></li>
+
+
+  <li><a href="https://otakumode.com/" target="_blank"><img src="/tgs/2017/common/images/logo/media_n.jpg" alt=""></a></li>
+  <li><a href="http://www.nicovideo.jp/" target="_blank"><img src="/tgs/2017/common/images/logo/media_o.jpg" alt=""></a></li>
+  <li><a href="https://www.twitch.tv/" target="_blank"><img src="/tgs/2017/common/images/logo/media_p.jpg" alt=""></a></li>
+  <li><a href="https://www.douyu.com/" target="_blank"><img src="/tgs/2017/common/images/logo/media_r.jpg" alt=""></a></li>
+</ul>
+
+
+<script type="text/javascript">
+
+$(function(){
+var arr = [];
+$('.contentBox li').each(function() {
+  arr.push($(this).html());
+});
+arr.sort(function() {
+  return Math.random() - Math.random();
+});
+$('.contentBox').empty();
+for(i=0; i < arr.length; i++) {
+  $('.contentBox').append('<li>' + arr[i] + '</li>');
+}
+});
+</script>
