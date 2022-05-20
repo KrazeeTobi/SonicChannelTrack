@@ -1,0 +1,248 @@
+@charset "utf-8";
+
+
+/* ****************************************************************** 
+
+	@This stylesheet Information{
+		ファイル：release-layout.css
+		最終更新：2009年02月25日
+		主な内容：出展のご案内用レイアウト
+	}
+
+****************************************************************** */
+
+#cmain {
+	float: none;
+	margin: 20px auto;
+	display: block;
+	width: 950px;
+}
+
+div.cmcontent {
+	font-size: 14px; line-height: 1.8;
+	width: 900px;
+	margin: 0 auto;
+}
+
+div.cmcontent p {
+	text-indent: 1em;
+	margin-bottom: 0.5em;
+}
+
+div.cmcontent h1 {
+	font-size: 24px;
+	margin-bottom: 1em;
+}
+div.cmcontent h2 {
+	font-size: 16px;
+}
+div.cmcontent h3,
+div.cmcontent h4 {
+	font-size: 14px;
+/*	margin-top: 2em; */
+/*	margin-bottom: 1em;*/
+}
+
+div.cmcontent h2 {
+	margin-top:2em;
+}
+
+div.box {
+	border: 1px solid #333;
+	margin: 2em 0;
+	padding: 0.75em 1em;
+}
+
+div.box p {
+	margin: 0;
+}
+
+div.cmcontent h4 {
+	margin: 2em 0 1em 0;
+}
+
+div.cmcontent table {
+	width: 100%;
+	border-top: dotted 1px #999;
+}
+
+div.cmcontent th {
+	text-align: center;
+	vertical-align: middle;
+	padding: 5px 0;
+	background-color: #f9f9f6;
+}
+
+div.cmcontent th,
+div.cmcontent td {
+	border-bottom: dotted 1px #999;
+	padding: 10px;
+	vertical-align: text-top;
+}
+
+div.cmcontent th {
+	border-right: dotted 1px #999;
+	color:#666 !important;
+	white-space: nowrap;
+	vertical-align: text-top;
+}
+
+div.cmcontent .note{
+	text-indent: 0;
+	font-size: 12px;
+	color: #666;
+}
+
+div.cmcontent table td strong {
+	color: #666;
+	margin: 5px 0 0 0;
+	display: block;
+}
+
+div.pic_right,
+img.pic_right {
+	float: right;
+	margin: 0 0 2em 2em;
+}
+
+div.pic_center {
+	margin: 2em 0;
+}
+
+/* 1段組み */
+.col1 {
+	width: 900px;
+}
+
+/* 2段組み */
+.col2 {
+	width: 440px;
+	float: left;
+	display: inline; /* IE6 */
+	padding-bottom: 200px;
+}
+.col2.l {
+	margin-right: 20px;
+}
+
+/* 3段組み */
+.col3 {
+	width: 290px;
+	float: left;
+	display: inline; /* IE6 */
+}
+
+.col1 h2,
+.col2 h2,
+.col3 h2 {
+	margin: 0 !important;
+	padding: 20px 20px 15px 20px;
+	background: #271D1A;
+	color: #D0863F;
+	font-size: 21px !important;
+}
+
+.col3 h2 {
+	font-size: 18px !important;
+	padding-top: 10px;
+	padding-bottom:5px;
+}
+
+.col1 h2 span,
+.col2 h2 span {
+	color: #fff;
+	font-size: 14px;
+}
+
+/* 出展説明 */
+dl.target * {
+	float: left;
+	margin: 5px 0;
+	font-size: 12px;
+}
+dl.target dt {
+	background: #271D1A;
+	color: #fff;
+	width: 80px;
+	margin-right: 10px;
+	padding-top: 4px;
+	text-align: center;
+}
+dl.target dd {
+	width: 340px;
+}
+.col1 dl.target dd {
+	width: 780px;
+}
+
+.col2 p.note {
+	margin: 5px 0 10px 0;
+}
+
+.col2 th {
+	width: 180px;
+}
+
+.col1 p,
+.col2 p,
+.col3 p {
+	text-indent: 0 !important;
+}
+
+/* テキストベースのご案内 */
+div.cmcontent.textbase {
+	width: 800px;
+}
+
+div.cmcontent.textbase h1 {
+	font-size: 24px;
+	margin-bottom: 1em;
+	margin-left: -50px;
+	_margin-left: 0;
+}
+div.cmcontent.textbase h2 {
+	font-size: 18px;
+	margin-top: 1.5em;
+}
+div.cmcontent.textbase h3,
+div.cmcontent.textbase h4 {
+	font-size: 14px;
+	margin-top: 1em;
+/*	margin-top: 2em; */
+/*	margin-bottom: 1em;*/
+}
+
+div.cmcontent.textbase p {
+	margin-left: 20px;
+	text-indent: 0;
+}
+
+div.cmcontent.textbase .note {
+	margin-left: 40px;
+}
+
+div.cmcontent.textbase ol,
+div.cmcontent.textbase ul {
+	margin-left: 40px;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+div.cmcontent.textbase table {
+	margin: 0.5em 0;
+}
+
+
+#tbtgs td {
+	text-align: center;
+}
+
+#tbtgs th.lg {
+	background-color: #fcfcfc;
+	font-weight: normal;
+}
+
+#tbtgs td i {
+	font-family: 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', Osaka, 'MS PGothic', sans-serif;
+	font-style: normal;
+}

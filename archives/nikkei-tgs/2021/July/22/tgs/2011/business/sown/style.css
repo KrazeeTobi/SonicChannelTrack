@@ -1,0 +1,301 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+#sownside{
+width:200px;
+float:left;
+}
+
+#sownside h3{
+margin-bottom:20px;
+}
+
+dl{
+background:#FFEAE3;
+padding:10px;
+font-size:10px;
+}
+dt{
+margin-top:10px;
+}
+
+
+#sowncont{
+width:504px;
+float:right;
+}
+
+.date{
+margin-bottom:15px;
+}
+
+.dateBox{
+background-color:#000000;
+color:#FFFFFF;
+padding:2px 5px;
+margin-right:10px;
+float:left;
+}
+
+.date h4{
+	float:left;
+	font-size:12px;
+	font-weight:normal;
+}
+
+.grayarea{
+background-color:#EEEEEE;
+padding:10px;
+}
+
+.indent{
+text-indent: -1em;
+padding-left: 1em;
+}
+
+.purposeimg{
+margin:0 0 20px 0px;
+float:right;
+}
+.purposeimg img{
+margin:0 0 10px 10px;
+}
+
+#purposeleft{
+width:280px;
+margin-bottom:20px
+}
+#purpose{
+background-color:#EEEEEE;
+padding:10px;
+margin-bottom:10px;
+}
+
+.purpose_taisyo{
+background-color:#EEEEEE;
+padding:10px;
+margin-bottom:20px;
+}
+.purpose_taisyo h6{
+font-size:16px;
+font-weight:bold;
+margin-top:5px;
+}
+.purpose_taisyo dl{
+background-color:#EEEEEE;
+font-size:12px;
+}
+.purpose_taisyo dl dt{
+color:#e16c48;
+font-weight:bold;
+margin-top:5px;
+}
+.purpose_taisyo dl dd{
+margin-bottom:5px;
+}
+
+ol.sown{
+padding-left:20px;
+font-size:12px;
+}
+ol.sown li{
+list-style-type:decimal;
+}
+p.comment{
+font-size:10px;
+line-height:1.5em;
+}
+
+dl#boshu{
+background:none;
+padding:0;
+font-size:12px;
+}
+dl#boshu dt{
+font-weight:bold;
+}
+
+.kome{
+font-size:10px;
+color:#000000;
+}
+
+#comittee td{
+padding:10px 10px 20px;
+vertical-align:top;
+line-height:1.4;
+}
+
+.name{
+font-weight:bold;
+border-bottom:1px solid #000000;
+display:block;
+margin-bottom:5px;
+}
+
+.nameNon{
+font-weight:bold;
+display:block;
+margin-bottom:5px;
+}
+
+#mainL .section{
+	margin:0 15px 25px 15px;
+	width:474px;
+}
+
+a.sownprev:hover {
+background:url(img/sownprev.gif) 0 -33px no-repeat;
+}
+a.sownprev {
+display: block;
+margin-left:0px;
+width: 363px;
+height: 33px;
+background: url(img/sownprev.gif)  0 0 no-repeat;
+}
+.sownprev{
+text-indent:-3000px;
+}
+
+.supportBnr{
+	margin:0 0 3px 0;
+	font-size:14px;
+	font-weight:bold;
+	}
+
+.supportArea ul{
+	overflow:hidden;
+	_zoom:1;
+	padding:8px 0 8px 0;
+	border-top:1px solid #e1e1e1;
+	border-bottom:1px solid #e1e1e1;
+}
+
+.supportArea ul li{
+	display:block;
+	float:left;
+	margin:0 8px 0 0;
+}
+
+.supportArea ul li a{
+	display:block;
+}
+
+.sownList{
+	background:none;
+	font-size:12px;
+	padding:0;
+}
+
+.sownList dt{
+	float:left;
+	margin:0;
+	width:60px;
+	clear:both;
+	font-weight:bold;
+}
+.sownList dd{
+	margin-left:70px;
+	width:390px;
+	padding:0 0 5px 0;
+}
+
+
+.presenters .pTitle{
+	padding:0 0 5px 0;
+	font-weight:bold;
+	font-size:14px;
+	color:#E16C48;
+}
+.presenters .pGroup{
+}
+
+
+
+/* 追加スポンサー */
+
+.supportArea{
+	margin:0 0 20px 0;
+	}
+
+.supportArea02{
+	margin:0 0 35px 0;
+	}
+
+.supportBnr{
+	margin:0 0 3px 0;
+	font-size:14px;
+	font-weight:bold;
+	}
+
+.supportArea02 ul{
+	overflow:hidden;
+	_zoom:1;
+	padding:8px 0 8px 0;
+	border-top:1px solid #e1e1e1;
+	border-bottom:1px solid #e1e1e1;
+}
+
+.supportArea02 ul li{
+	display:block;
+	float:left;
+	margin:0 8px 0 0;
+}
+
+.supportArea02 ul li a{
+	display:block;
+}
+
+
+/* プレゼン追加 */
+.presenters{
+	margin:0 0 10px 0;
+	padding:0 0 10px 0;
+	overflow:hidden;
+	_zoom:1;
+	border-bottom:1px solid #ccc;
+}
+
+.presentersImg{
+	margin:0 5px 0 0;
+	float:left;
+	}
+	
+.ustAnnounce{
+	margin:5px 0 0 0;
+	padding:3px 5px 3px 5px;
+	border:solid 1px #F00;
+	color:#F00;
+	}
+	
+/* UST追加 */
+.tgsUstarea{
+	margin:0 auto
+	}
+
+.ustTtl{
+	margin:10px 0 5px 0;
+	font-size:16px;
+	font-weight:bold;
+	}
+	
+.ustAnnounceBk{
+	margin:10px 0 0 0;
+	padding:3px 5px 3px 5px;
+	}	
+
+/* 終了後 */
+.prezenfinTtl{
+	margin:5px 0 0 0;
+	font-size:16px;
+	font-weight:bold;
+	color:#cc086b;
+	}
+	
+.iconArea{
+	display:block;
+	float:left;
+	margin:10px 4px 0 0
+	}	
