@@ -23,7 +23,7 @@
   <link rel="apple-touch-icon-precomposed" href="/SonicOrigins/apple-touch-icon.png" />
   <link rel="stylesheet" href="css/sanitize-custom.css">
   <link rel="stylesheet" href="css/colorbox.css" />
-  <link rel="stylesheet" href="css/common.css?02" />
+  <link rel="stylesheet" href="css/common.css?03" />
   <link rel="stylesheet" href="css/scanim.css" />
   <script src="js/jquery-x.x.js"></script>
   <script src="js/jquery.easing.min.js"></script>
@@ -74,6 +74,14 @@ location.href = '/SonicOrigins/unsupported.html';
             <h2><img src="images/news-title.png" alt="NEWS"></h2>
             <ul>
               <!--<li><a href=""><span class="newDay"></span><p class="newTitle"></p></a></li>-->
+              <li><span class="newDay">2022.06.23</span><p class="newTitle">
+                本日発売！<br>
+                <span class="notscroll">
+                  <a href="#popupNews01" class="popupNewsLink note">アップデートパッチver.1.01配信のお知らせ</a>
+                </span>
+                </p>
+              </li>
+
               <li><span class="newDay">2022.06.17</span><p class="newTitle"><a href="https://sonic.sega.jp/SonicChannel/topics/event/20220617_002921/" target="_blank">6/25（土）配信決定！「『ソニックオリジンズ』6時間23分で全クリする生放送【RTA】」</a></p></li>
 
               <li><span class="newDay">2022.04.20</span><p class="newTitle">公式サイトオープン</p></li>
@@ -98,7 +106,7 @@ location.href = '/SonicOrigins/unsupported.html';
                 </tr>
                 <tr>
                   <th>対応機種</th>
-                  <td>Nintendo Switch™ / PlayStation<sup>&reg;</sup>5 / PlayStation<sup>&reg;</sup>4 / Xbox One / Xbox Series X / Steam / EPIC GAMES<br>（ダウンロード専用ソフトウェア）</td>
+                  <td>Nintendo Switch™ / PlayStation<sup>&reg;</sup>5 / PlayStation<sup>&reg;</sup>4 / Xbox One / Xbox Series X|S / Steam / EPIC GAMES<br>（ダウンロード専用ソフトウェア）</td>
                 </tr>
                 <tr>
                   <th>発売日</th>
@@ -138,6 +146,18 @@ location.href = '/SonicOrigins/unsupported.html';
     </div>
   </div>
 
+  <div style="display: none;">
+    <section id="popupNews01" class="popupNews">
+      <p>Nintendo Switch™ / PlayStation<sup>&reg;</sup>5 / PlayStation<sup>&reg;</sup>4 / Xbox One / Xbox Series X|S / Steam / EPIC GAMES 対応ソフトウェア『ソニックオリジンズ』におきまして
+      アップデートパッチver.1.01（PlayStation<sup>&reg;</sup>5 / PlayStation<sup>&reg;</sup>4 版はVer1.02）の配信を開始いたしました。<br>
+      より快適に本作をお楽しみいただくために、アップデートの適用をお願い致します。
+      <br><br>
+      ■アップデート内容<br>
+      ・ゲーム安定性に関わる不具合を修正<br>
+      ・その他軽微な不具合を修正</p>
+    </section>
+  </div>
+
   <script>
     var unsupportedUrl = '/SonicOrigins/unsupported.html';
   </script>
@@ -147,5 +167,24 @@ location.href = '/SonicOrigins/unsupported.html';
   <script type="text/javascript" src="js/jquery.colorbox.js"></script>
   <script type="text/javascript" src="js/anime.js"></script>
   <script type="text/javascript" src="js/common.js"></script>
+  <script>
+    $(".popupNewsLink").colorbox({
+      inline:true,
+      maxWidth:"90%",
+      maxHeight:"90%",
+      opacity: 0.7,
+      fixed: true,
+      onOpen: function() {
+        var ycoord = $(window).scrollTop();
+        $('#colorbox').data('ycoord',ycoord);
+        ycoord = ycoord * -1;
+        $('body').css('position','fixed').css('left','0px').css('right','0px').css('top',ycoord + 'px');
+      },
+      onClosed: function() {
+        $('body').css('position','').css('left','auto').css('right','auto').css('top','auto');
+        $(window).scrollTop($('#colorbox').data('ycoord'));
+      }
+  });
+  </script>
 </body>
 </html>
