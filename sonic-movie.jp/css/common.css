@@ -733,14 +733,14 @@ bnr
 }
 
 #bnr{
-	width:452px;
+	width:683px;
 	position:relative;
 	margin:0 auto;
 	padding-top:20px;
 }
 
 #bnr ul{
-	width:452px;
+	width:683px;
   justify-content: space-between;
   align-items: center;
 	display: -webkit-flex;
@@ -1277,6 +1277,19 @@ animation
           animation-duration: 0.4s;
   -webkit-animation-delay: 1.2s;
           animation-delay: 1.2s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+
+#bnr.is-loaded ul li:nth-child(3){
+  -webkit-animation-name: fadeInUp;
+          animation-name: fadeInUp;
+  -webkit-animation-duration: 0.4s;
+          animation-duration: 0.4s;
+  -webkit-animation-delay: 1.4s;
+          animation-delay: 1.4s;
   -webkit-animation-iteration-count: 1;
           animation-iteration-count: 1;
   -webkit-animation-fill-mode: both;

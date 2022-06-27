@@ -1,0 +1,369 @@
+// JavaScript Document
+
+
+
+
+/*g-nav*/
+
+
+$(".openbtn").click(function () {
+	$(this).toggleClass('active');
+	$("#menuIcon").toggleClass('nc-int-icon-state-b');
+	
+    $("#g-nav").toggleClass('panelactive');
+});
+
+$("#g-nav a").click(function () {
+    $(".openbtn").removeClass('active');
+    $("#g-nav").removeClass('panelactive');
+	$("#menuIcon").removeClass('nc-int-icon-state-b');
+});
+
+
+/*bt underline*/
+
+document.querySelectorAll(".list_item a").forEach((element) => {
+  const underLineElement = element.querySelector(".underline");
+
+  // ホバー開始
+  const enterAnimation = Tween24.tween(
+    underLineElement,
+    0.2,
+    Ease24._2_QuadOut
+  ).width("100%");
+
+  // ホバー終了
+  const leaveAnimation = Tween24.tween(
+    underLineElement,
+    0.5,
+    Ease24._2_QuadOut
+  ).width("0%");
+
+  // イベントをaタグに
+  Event24.add(
+    element,
+    Event24.MOUSE_ENTER,
+    Tween24.func(() => {
+      leaveAnimation.skip();
+      enterAnimation.play();
+    })
+  );
+  Event24.add(
+    element,
+    Event24.MOUSE_LEAVE,
+    Tween24.func(() => {
+      enterAnimation.skip();
+      leaveAnimation.play();
+    })
+  );
+});
+
+
+
+
+/*card animation*/
+
+/**
+ * 交差時
+ */
+const intersectionCallback = (entries) => {
+  entries.forEach((entry, index) => {
+    if (entry.isIntersecting) {
+      // 交差した要素のdata属性からtweenIdを取得
+      const tweenId = entry.target.dataset.tweenId;
+      // 200ミリ秒ずつ遅延
+      setTimeout(() => {
+        Tween24.playById(tweenId);
+      }, 200 * index);
+    }
+  });
+};
+
+/**
+ * Intersection Observerを作成
+ */
+const observer = new IntersectionObserver(intersectionCallback, {
+  // 画面下よりも少し上に範囲を設定
+  rootMargin: "0px 0px -15%",
+});
+
+// カードコンポーネント
+const cardElements = document.querySelectorAll(".cardList__item");
+
+
+// アニメーションを作成
+cardElements.forEach((cardElement, index) => {
+  const children = cardElement.querySelectorAll("*");
+  Tween24.prop(Array.from(children)).opacity(0).y(20).play();
+
+  //
+  const fadeTween = Tween24.tween(Array.from(children), 0.75, Ease24._4_QuartOut)
+    .opacity(1)
+    .y(0);
+
+  // 個々のフェード
+  const cardTween = Tween24.lag(0.1, fadeTween);
+
+  // Tweenアニメーションにidを付与
+  cardTween.id(`${index}`);
+
+  // Intersection Observer側から読み出せるようにdata属性にセット
+  cardElement.dataset.tweenId = `${index}`;
+
+  // オブザーバーで監視
+  observer.observe(cardElement);
+	
+});
+
+
+
+
+
+
+/*class animation*/
+
+//交差を監視する要素
+const boxes = document.querySelectorAll(".anime_a");
+
+const options = {
+  root: null, // 今回はビューポートをルート要素とする
+  //rootMargin: "-50% 0px", // ビューポートの中心を判定基準にする
+	 rootMargin: "0px 0px -10%",
+  threshold: 0 // 閾値は0
+};
+const observer2 = new IntersectionObserver(doWhenIntersect, options);
+// それぞれのboxを監視する
+boxes.forEach(box => {
+  observer2.observe(box);
+	
+});
+
+/**
+ * 交差したときに呼び出す関数
+ */
+function doWhenIntersect(entries) {
+  // 交差検知をしたもののなかで、isIntersectingがtrueのDOMを色を変える関数に渡す
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      animation_a(entry.target);
+		observer2.unobserve(entry.target);　//以降の監視を停止
+    }
+  });
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*animation function*/
+
+
+function animation_a (element) {
+	
+	
+	Tween24.prop(element).opacity(0).y(40).play();
+	
+	const anime_a = Tween24.lag(0,
+
+  Tween24.tween(element, 1.5, Ease24._4_QuartOut).y(0).opacity(1)
+);
+ 
+Tween24.serial(anime_a).play();
+	
+	
+}
+
+
+
+
+
+/*スクロール*/
+
+$(document).ready(function() {
+
+//ページ内リンク
+$('.pageScroll').bind('click',function(event){
+	
+	event.preventDefault();
+	event.stopPropagation();
+	
+	val = $(this).attr("href");　// valueの取得
+	
+	contentsScroll(val,-0);
+    
+  //  closeModal();
+	
+
+	//return false;  //delegateもstop
+}); 
+    
+    
+    
+
+//ページ内リンク
+$('.pageScroll2').bind('click',function(event){
+	
+	event.preventDefault();
+	event.stopPropagation();
+	
+	val = $(this).attr("href");　// valueの取得
+	
+	contentsScroll(val,-0);
+    
+     // アコーディオンopen  
+    
+   
+    
+    var tempp2 = val+" .ac-trigger";
+     
+    
+    $(tempp2).next().slideDown(300, function () {
+               });
+ // $(val).addClass(_ACTIVE);
+    
+    
+    
+//    closeModal();
+	
+
+	//return false;  //delegateもstop
+}); 
+    
+    
+    
+    
+    
+    
+    
+    
+$('.linkTop').bind('click',function(event){
+	
+linkTop();
+	
+
+	//return false;  //delegateもstop
+}); 
+    
+    
+    
+
+
+//スクロール処理
+
+var ifscroll = false; //スクロールチェック
+
+function contentsScroll(scTarget,scNum) {
+	
+	//alert (scTarget);	
+	if( ifscroll == false) {
+		
+		ifscroll = true;
+      $('html, body').stop().animate({
+               scrollTop: $(''+scTarget).offset().top+scNum
+					
+                    }, 1000,'easeInOutQuart',function() {ifscroll = false;}); //jswing,easeOutQuad,easeInOutQuart
+	}
+}
+
+
+	
+	function linkTop(){
+	
+$.when(	
+
+	
+).done(function() {
+	
+	$(document.body).animate({scrollTop: 0}, 600,'easeInOutQuart');
+	
+});
+		
+		
+	}
+	
+	
+	
+	
+	/*hover*/
+    
+$('.img-hover').hover(
+    function() {
+ 
+Tween24.tween(this, 0.25, Ease24._4_QuartOut).opacity(1).scaleXY(1.025, 1.025).play();
+  
+ 
+    },
+    function() {
+ //off
+Tween24.tween(this, 0.5, Ease24._4_QuartOut).opacity(1).scaleXY(1, 1).play();
+ 
+    }
+);
+	
+
+	
+/*	moddall内の外部リンク*/
+	
+	$(".link").on('click',function() {
+		
+  window.open($(this).attr('href'), '_blank'); 
+    return false; 
+});
+
+
+});//ready(function() END	
+
+
+
+
+$(".about").modaal({
+    content_source: '#about',
+	close_text:"",
+	background:"hsla(0,0%,0%,0.80)",
+	overlay_opacity:0.95
+	//hide_close:true
+});
+
+
+$('.modaal-video').modaal({type: 'video',close_text:"",background:"#F7F6EB",overlay_opacity:0.95});
+
+
+
+
+
+
+/*billing area*/
+
+
+$(".footer__billing-bt").click(function () {//ボタンがクリックされたら
+	event.preventDefault();
+  //$(this).toggleClass('active');//ボタン自身に activeクラスを付与し
+    $("#billing").toggleClass('panelactive');//ナビゲーションにpanelactiveクラスを付与
+	
+});
+
+$(".billing__set").click(function () {//ナビゲーションのリンクがクリックされたら
+	event.preventDefault();
+   // $(".openbtn1").removeClass('active');//ボタンの activeクラスを除去し
+    $("#billing").removeClass('panelactive');//ナビゲーションのpanelactiveクラスも除去
+});
+	
+	
+/*var app = new Vue({
+  el: '#app',
+  data: {
+    message: 'Hello Vue!'
+  },
+  mounted: function() {
+     $('#btn').click(function() {
+         $("#hogehoge").text("テキスト挿入");
+     });
+  }
+})*/
