@@ -255,6 +255,28 @@ contents
   opacity: 0.7;
 }
 
+#mainvisual_inner #bnr_right{
+	width:200px;
+	position:absolute;
+	right:10px;
+	top:65px;
+}
+
+#mainvisual_inner #bnr_right p{
+	width:200px;
+	height:190px;
+	position:relative;
+}
+
+#mainvisual_inner #bnr_right a{
+	transition: 0.4s ;
+	display:block;
+}
+
+#mainvisual_inner #bnr_right a:hover{
+  opacity: 0.7;
+}
+
 #mainvisual #logo{
 	width:440px;
 	margin:0 auto;
@@ -346,6 +368,7 @@ movie
 
 #movie_nav ul li{
 	width:325px;
+	margin-bottom:10px;
 }
 
 #movie_nav ul li a{
@@ -1069,7 +1092,17 @@ animation
   animation: slideX 0.5s ease 4.0s forwards;
 }
 
+#bnr_right img{
+	position:absolute;
+	transition: 0.4s ;
+	top:0;
+	opacity:0;
+	transform: translateX(120%);
+}
 
+.is-loaded #bnr_right img{
+  animation: slideX3 0.5s ease 4.2s forwards;
+}
 
 
 
@@ -1104,6 +1137,11 @@ animation
 
 @keyframes slideX2 {
 	0% { transform: translateX(300px) ; opacity:0;}
+	100% { transform: translateX(0) ; opacity:1;}
+}
+
+@keyframes slideX3 {
+	0% { transform: translateX(calc(100% + 250px)) ; opacity:0;}
 	100% { transform: translateX(0) ; opacity:1;}
 }
 
