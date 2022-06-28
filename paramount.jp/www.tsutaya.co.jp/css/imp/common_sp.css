@@ -1,0 +1,285 @@
+﻿@charset "Shift-JIS";
+@charset "Shift-JIS";
+
+/****************** 特集ページ共通CSS *****************/
+
+#page {
+	width: 100%;
+}
+#wrapper {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+#main_content {
+	margin: 0 auto;
+	padding: 0;
+	text-align: center;
+}
+/* ---------- iphone safari対応 ---------- */
+
+html {-webkit-text-size-adjust:none}
+
+/* ---------- header（ヘッダー） ---------- */
+#header {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	background: url(../../images/sp/linkline.html) left bottom repeat-x #ffffff;
+	width: 100%;
+	min-height: 30px;
+	_height: 28px; /* IEハック */
+}
+#header:after {
+	height: 0;
+	content: ".";
+	display: block;
+	visibility: hidden;
+	clear: both;
+}
+#header #head_link {
+	margin: 0 auto;
+	padding: 5px 0 7px 0;
+	text-align: right;
+	width: 100%;
+	position: relative;
+}
+#header #head_link2 {
+	margin: 0 auto;
+	padding: 8px 0 5px 0;
+	text-align: right;
+	width: 995px;
+	position: relative;
+}
+#header #head_link h1,
+#header #head_link2 h1 {
+	margin: 0 0 0 148px;
+	padding: 0 0.5em 0 0;
+	font-size: small;
+	line-height: 1.1;
+	background: url(../../images/sp/line.html) right top repeat-y;
+	display: inline;
+}
+#header #head_link h1.nolink,
+#header #head_link2 h1.nolink {
+	background: none;
+	padding-right: 20px;
+}
+#header #head_link2 h1 {
+	margin: 0 0 0 165px;
+}
+#header #head_link p:first-of-type,
+#header #head_link2 p:first-of-type {
+	margin: 0 0 0 0;
+	padding: 0 0 0 20px;
+	text-align: left;
+	width: 140px;
+	position: absolute;
+	left: 0px;
+	top: 7px;
+}
+
+#header #head_link2 p#logo_tol {
+	margin: 3px 0 0 0;
+	width: 62px;
+}
+#header #head_link2 p#logo_discas {
+	margin: 8px 0 0 0;
+	width: 70px;
+	left: 70px;
+}
+#header #head_link p#category_link,
+#header #head_link2 p#category_link {
+	margin: 0;
+	padding: 0 20px 0 0.5em;
+	font-size: small;
+	line-height: 1.1;
+	display: inline;
+	width: auto;
+	position: static;
+}
+
+/* ---------- footer（フッター） ---------- */
+#wrapper #footer {
+	margin: 0;
+	padding: 10px 0 5px 0;
+	text-align: center;
+	background: url(../../images/sp/linkline_btm.html) left top repeat-x #ffffff;
+	clear: both;
+	width: 100%;
+}
+#wrapper #footer ul {
+	margin: 0 auto;
+	padding: 3px 0 13px 0;
+	_padding: 3px 0 16px 0; /* IEハック */
+	text-align: center;
+	width: 390px;
+	position: relative;
+}
+#wrapper #footer ul li {
+	margin: 0;
+	padding: 0;
+	font-size: 10px;
+	text-indent: -9999px;
+	text-align: left;
+	line-height: 1.0;
+	width: 49px;
+	height: 12px;
+	display: block;
+	position: absolute;
+	left: 0;
+}
+#wrapper #footer ul li.menu_vd {
+	width: 83px;
+	left: 59px;
+}
+#wrapper #footer ul li.menu_music {
+	width: 52px;
+	left: 152px;
+}
+#wrapper #footer ul li.menu_game {
+	width: 47px;
+	left: 214px;
+}
+#wrapper #footer ul li.menu_book {
+	width: 49px;
+	left: 271px;
+}
+#wrapper #footer ul li.menu_cinema {
+	width: 60px;
+	left: 330px;
+}
+#wrapper #footer ul li a {
+	text-decoration: none;
+	background: url(../../images/sp/menu_home.html) left top no-repeat;
+	width: 49px;
+	height: 12px;
+	display: block;
+	overflow: hidden;
+}
+#wrapper #footer ul li.menu_vd a {
+	background-image: url(../../images/sp/menu_vd.html);
+	width: 83px;
+}
+#wrapper #footer ul li.menu_music a {
+	background-image: url(../../images/sp/menu_music.html);
+	width: 52px;
+}
+#wrapper #footer ul li.menu_game a {
+	background-image: url(../../images/sp/menu_game.html);
+	width: 47px;
+}
+#wrapper #footer ul li.menu_book a {
+	background-image: url(../../images/sp/menu_book.html);
+	width: 49px;
+}
+#wrapper #footer ul li.menu_cinema a {
+	background-image: url(../../images/sp/menu_cinema.html);
+	width: 60px;
+}
+#wrapper #footer ul li a:visited {
+	background-position: 0px -36px;
+}
+#wrapper #footer ul li a:hover {
+	background-position: 0px -12px;
+}
+#wrapper #footer ul li a:active {
+	background-position: 0px -24px;
+}
+#wrapper #footer p {
+	margin: 8px 0;
+	padding: 9px 0 0 0;
+	color: #666666;
+	line-height: 1.2;
+	border-top: 1px solid #dfdfdf;
+	display: block;
+	width: 100%;
+}
+
+/* ---------- footer（フッター）101101修正版 ---------- */
+#wrapper #footerSp2,
+#footerArea #footerSp2 {
+	margin: 0;
+	padding: 10px 0 5px 0;
+	text-align: center;
+	background: url(../../images/sp/linkline_btm.html) left top repeat-x #ffffff;
+	clear: both;
+	width: 100%;
+}
+#wrapper #footerSp2 ul,
+#footerArea #footerSp2 ul {
+	margin: 0 auto;
+	padding: 3px 0 0 0;
+	text-align: center;
+	position: relative;
+}
+#wrapper #footerSp2 ul li,
+#footerArea #footerSp2 ul li {
+	margin: 0 5px 0 0;
+	padding: 0 5px 0 0;
+	font-size: small;
+	line-height: 1.1;
+	display: inline;
+	border-right: 1px solid #cccccc;
+}
+#wrapper #footerSp2 ul li.lastList,
+#footerArea #footerSp2 ul li.lastList {
+	margin: 0;
+	padding: 0;
+	border-right: none;
+}
+#wrapper #footerSp2 p,
+#footerArea #footerSp2 p {
+	margin: 0;
+	padding: 15px 0 8px 0;
+	color: #666666;
+	line-height: 1.2;
+	display: block;
+	width: 100%;
+}
+
+/***************************************************/
+
+/* ---------- CMS対応 101101修正版 ---------- */
+#page #header #head_link,
+#page #header #head_link2{
+width: 100%;
+}
+
+#page #header #head_link p,
+#page #header #head_link2 p {padding-left: 20px;}
+#page #header #head_link p#category_link,
+#page #header #head_link2 p#category_link {padding-left: 4px; *padding-left: 10px; padding-right: 20px;}
+#page #mainArea {width: 100%;}
+
+
+/* ---------- SNS対応 120710修正版　特集 ---------- */
+/* ヘッダ */
+#header #head_link p.sns,#header #head_link2 p.sns {margin: 5px 0 0 0;padding: 0;text-align: left;width: 140px;position: absolute;left: 0px;top: 14px;}
+#header #head_link p.sns,#header #head_link2 p.snslogo {margin: 5px 0 0 0;padding: 0;text-align: left;width: 140px;position: absolute;left: 0px;top: 7px;}
+/* SNSボタン追加時 */
+.bookmarks li {display: block;float: left;width: auto;padding-right: 5px;zoom: 1;vertical-align: top;}
+.bookmarks li.share {position: relative;}
+.bookmarks li.shareBox a {display: block;height: 12px;_width:50px; /* IE6 */}
+.bookmarks li.shareBox li.bmkHatena a,.bookmarks li.shareBox li.bmkYahoo a,.bookmarks li.shareBox li.bmkGoogle a,.bookmarks li.shareBox li.bmkDelicious a,.bookmarks li.shareBox li.bmkMail a  {_width:5px; /* IE6 */}
+ul.bookmarks {text-align: right;float: right;width: auto;z-index: 10;height: 27px;margin-left: auto;display: inline;margin-right: 10px;_margin-bottom: -7px;/* IE6 */}
+ul.bookmarks2 {float: none !important;}
+div.snsBox {padding-left: 20px;height: 27px;}
+li.shareBox {position: relative;}
+.snsShare{display:none;width:125px;padding:3px 3px 10px 11px;position:absolute;right:5px;top:-4px;border:1px solid #c9c9c9;-moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px;background:#fff;height: 40px;z-index: 10;text-align: right;}
+.snsShare li{width:20px;height:24px;float:left;margin-bottom:5px;text-align:center;}
+iframe.twitter-share-button {width: 90px!important;}
+#___plusone_0{ width:65px !important; }
+/* div.fb_iframe_widget{ width:90px !important; } */
+div.fb_iframe_widget{ width:100px !important; }
+/* IE7 */
+*:first-child+html div.fb_iframe_widget {
+	width:150px !important;
+} /* //IE7 */
+.fb_edge_widget_with_comment span.fb_edge_comment_widget {display: none !important;}
+
+/* ---------- 20130424_Fbいいね！ボタンずれ修正_yoneda ---------- */
+.fb_iframe_widget iframe.fb_ltr{
+	position:static;
+}
+/* ---------- //20130424_Fbいいね！ボタンずれ修正_yoneda ---------- */
