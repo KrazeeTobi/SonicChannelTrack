@@ -73,13 +73,19 @@ $(function(){
 		}
 	});
 
+  $('#character').on('inview', function(event, isInView, visiblePartX, visiblePartY) {
+		if (isInView) {
+			$(this).addClass('is-loaded');
+		}
+	});
+
   $('#catch').on('inview', function(event, isInView, visiblePartX, visiblePartY) {
 		if (isInView) {
 			$(this).addClass('is-loaded');
 		}
 	});
 
-  $('#character').on('inview', function(event, isInView, visiblePartX, visiblePartY) {
+  $('#cast').on('inview', function(event, isInView, visiblePartX, visiblePartY) {
 		if (isInView) {
 			$(this).addClass('is-loaded');
 		}
@@ -125,7 +131,75 @@ $(function(){
   });
 
 
+	var target = '.cast';
+	var active = 1;
+	var num = 8;
+	var right_flg = 0;
+	var left_flg = 0;
+	var fadeSpeed = 200;
 
+	function activeChange(){
+		$("#thum ul li").removeClass('on');
+		$("#thum ul li:nth-child(" + active + ")").addClass('on');
+
+		for (var i=1; i<=num; i++) {
+			if(i == active){
+				$(target + i).stop().animate({opacity:'1'},fadeSpeed);
+			}else{
+				$(target + i).stop().animate({opacity:'0'},fadeSpeed);
+			}
+		}
+
+		if(active == 1){
+			left_flg = 1;
+			$('#btn_left').css('cursor', 'default');
+			$('#btn_left').stop().animate({opacity:'0'},fadeSpeed);
+		}else{
+			left_flg = 0;
+			$('#btn_left').css('cursor', 'pointer');
+			$('#btn_left').stop().animate({opacity:'1'},fadeSpeed);
+		}
+
+		if(active == 8){
+			right_flg = 1;
+			$('#btn_right').css('cursor', 'default');
+			$('#btn_right').stop().animate({opacity:'0'},fadeSpeed);
+		}else{
+			right_flg = 0;
+			$('#btn_right').css('cursor', 'pointer');
+			$('#btn_right').stop().animate({opacity:'1'},fadeSpeed);
+		}
+
+	}
+	activeChange();
+
+	$('#thum li').click(function(){
+		var index = $(this).index() + 1;
+		active = index;
+		activeChange();
+	});
+
+	$('#btn_right').click(function(){
+		if(right_flg == 0){
+			if(active == 8){
+				active = 1;
+			}else{
+				active += 1;
+			}
+			activeChange();
+		}
+	});
+
+	$('#btn_left').click(function(){
+		if(left_flg == 0){
+			if(active == 1){
+				active = 8;
+			}else{
+				active -= 1;
+			}
+			activeChange();
+		}
+	});
 
 
 });
