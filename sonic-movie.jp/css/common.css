@@ -736,7 +736,7 @@ scroll
 #footer{
 	width:100%;
 	min-width:1200px;
-	height:220px;
+	height:360px;
 	background-color:#fff;
 }
 
@@ -867,14 +867,16 @@ bnr
 }
 
 #bnr{
-	width:911px;
+	/*width:911px;*/
+	width:680px;
 	position:relative;
 	margin:0 auto;
 	padding-top:20px;
 }
 
 #bnr ul{
-	width:911px;
+	/*width:911px;*/
+	width:680px;
   justify-content: space-between;
   align-items: center;
 	display: -webkit-flex;
@@ -885,6 +887,7 @@ bnr
 
 #bnr ul li{
 	width:221px;
+	margin-bottom:5px;
 }
 
 #bnr a{
@@ -1476,6 +1479,32 @@ animation
           animation-duration: 0.4s;
   -webkit-animation-delay: 1.6s;
           animation-delay: 1.6s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+
+#bnr.is-loaded ul li:nth-child(5){
+  -webkit-animation-name: fadeInUp;
+          animation-name: fadeInUp;
+  -webkit-animation-duration: 0.4s;
+          animation-duration: 0.4s;
+  -webkit-animation-delay: 1.8s;
+          animation-delay: 1.8s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+
+#bnr.is-loaded ul li:nth-child(6){
+  -webkit-animation-name: fadeInUp;
+          animation-name: fadeInUp;
+  -webkit-animation-duration: 0.4s;
+          animation-duration: 0.4s;
+  -webkit-animation-delay: 2.0s;
+          animation-delay: 2.0s;
   -webkit-animation-iteration-count: 1;
           animation-iteration-count: 1;
   -webkit-animation-fill-mode: both;
