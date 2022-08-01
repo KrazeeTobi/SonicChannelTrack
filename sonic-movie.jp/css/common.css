@@ -867,17 +867,15 @@ bnr
 }
 
 #bnr{
-	/*width:911px;*/
-	width:680px;
+	width:1141px;
 	position:relative;
 	margin:0 auto;
 	padding-top:20px;
 }
 
 #bnr ul{
-	/*width:911px;*/
-	width:680px;
-  justify-content: space-between;
+	width:1141px;
+  justify-content: center;
   align-items: center;
 	display: -webkit-flex;
 	display: flex;
@@ -888,6 +886,12 @@ bnr
 #bnr ul li{
 	width:221px;
 	margin-bottom:5px;
+	margin-right:9px;
+}
+
+#bnr ul li:nth-child(5),
+#bnr ul li:nth-child(9){
+	margin-right:0;
 }
 
 #bnr a{
@@ -1505,6 +1509,45 @@ animation
           animation-duration: 0.4s;
   -webkit-animation-delay: 2.0s;
           animation-delay: 2.0s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+
+#bnr.is-loaded ul li:nth-child(7){
+  -webkit-animation-name: fadeInUp;
+          animation-name: fadeInUp;
+  -webkit-animation-duration: 0.4s;
+          animation-duration: 0.4s;
+  -webkit-animation-delay: 2.2s;
+          animation-delay: 2.2s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+
+#bnr.is-loaded ul li:nth-child(8){
+  -webkit-animation-name: fadeInUp;
+          animation-name: fadeInUp;
+  -webkit-animation-duration: 0.4s;
+          animation-duration: 0.4s;
+  -webkit-animation-delay: 2.4s;
+          animation-delay: 2.4s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+
+#bnr.is-loaded ul li:nth-child(9){
+  -webkit-animation-name: fadeInUp;
+          animation-name: fadeInUp;
+  -webkit-animation-duration: 0.4s;
+          animation-duration: 0.4s;
+  -webkit-animation-delay: 2.6s;
+          animation-delay: 2.6s;
   -webkit-animation-iteration-count: 1;
           animation-iteration-count: 1;
   -webkit-animation-fill-mode: both;
