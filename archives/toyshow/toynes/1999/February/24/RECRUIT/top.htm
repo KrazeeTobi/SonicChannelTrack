@@ -1,0 +1,105 @@
+<!DOCTYPE HTML PUBLIC "HTML 3.2">
+<!-- IBM HomePage Builder for Windows  version 2.0 -->
+<!-- Tue Jul 14 15:09:06 1998 -->
+
+<HTML>
+<HEAD>
+<TITLE>玩具業界リクルート情報</TITLE>
+<SCRIPT language="JavaScript">
+
+<!--
+function scrollit_r2l(seed)
+{
+        var m1 = "企業はどんどん増えていきます。　　";
+        var m2 = "要チェック！";
+ 
+        var msg = m1 + m2;
+        var out = " ";
+        var c = 1;
+
+        if (seed > 100) {
+                seed--;
+                var cmd="scrollit_r2l(" + seed + ")";
+                timerTwo=window.setTimeout(cmd,100);
+        } else if (seed <= 100 && seed > 0) {
+                for (c=0 ; c < seed ; c++) {
+                        out+=" ";
+                }
+                out+=msg;
+                seed--;
+                var cmd="scrollit_r2l(" + seed + ")";
+                window.status=out;
+                timerTwo=window.setTimeout(cmd,100);
+        } else if (seed <= 0) {
+                if (-seed < msg.length) {
+                        out+=msg.substring(-seed,msg.length);
+                        seed--;
+                        var cmd="scrollit_r2l(" + seed + ")";
+                        window.status=out;
+                        timerTwo=window.setTimeout(cmd,100);
+                } else {
+                        window.status=" ";
+                        timerTwo=window.setTimeout("scrollit_r2l(100)",75);
+                }
+        }
+}
+<!-- -->
+
+</SCRIPT>
+</HEAD>
+
+<BODY background="back2222.gif" onLoad="timerONE=window.setTimeout('scrollit_r2l(0)',50);">
+
+<CENTER>
+<IMG src="top-ani.gif" height="125" width="339" border="0"><BR>
+<BR>
+<BR>
+<TABLE border="5" cellspacing="3" cellpadding="10" bgcolor="#ffffff">
+  <TR>
+    <TD align="center">　<A href="toynes/toynes.htm"><FONT size="+1"><B>（社）日本玩具協会　ＳＥ・プログラマー募集!!</B></FONT></A>　<BR>
+＜中途採用のみ＞</TD></TR>
+</TABLE>
+
+<BR>
+<BR>
+<BR>
+<HR size="5" width="65%">
+<FONT size="5" color="#000000"><B>希望する業態のボタンをクリックしてください。</B></FONT>
+<HR size="5" width="65%">
+<BR>
+<BR>
+<TABLE cellpadding="3">
+  <TR>
+    <TD bgcolor="#ffffff">　　<FONT color="tomato">●</FONT> <B>作る仕事に興味がある！</B></TD>
+    <TD></TD>
+    <TD bgcolor="#ffffff">　<FONT color="tomato">●</FONT><B> おもちゃを広く扱いたい！</B></TD>
+    <TD></TD>
+    <TD bgcolor="#ffffff">　<FONT color="tomato">●</FONT><B> この手でおもちゃを広めたい！</B></TD></TR>
+  <TR>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD></TR>
+  <TR>
+    <TD align="center"><A href="maker.htm" border="0"><IMG src="t-maker.gif" height="50" width="195" border="0"></A></TD>
+    <TD></TD>
+    <TD align="center"><A href="shosha.htm" border="0"><IMG src="t-sho.gif" height="50" width="185" border="0"></A></TD>
+    <TD></TD>
+    <TD align="center"><IMG src="t-kouri.gif" height="50" width="194" border="0"></TD></TR>
+  <TR>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD align="center"><B>工事中です</B></TD></TR>
+</TABLE>
+
+<BR>
+<BR>
+</CENTER>
+<HR>
+<P>
+<IMG src="modoru1.gif" align="MIDDLE" height="29" width="27"><A href="../index.html"><FONT size="5" align="middle"><B><I>ＨＯＭＥ</I></B></FONT></A>
+</BODY>
+</HTML>

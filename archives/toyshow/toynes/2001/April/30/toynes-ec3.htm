@@ -1,0 +1,73 @@
+<html><head>
+<title>放映／雑誌情報</title>
+<script language="javascript">
+	function jump(){
+		document.jyouken.houei_kind.value="mag";
+		document.jyouken.submit();
+	}
+	function KindSet()
+	{
+	document.jyouken.houei_kind.value="tv";
+	}
+</script>
+</head>
+<body bgcolor="#7093db" text="#ffff00" link="#ffff00"  vlink="#ff0000" alink="#cccc33" onLoad="KindSet()">
+<h1 align="center">放映／雑誌情報</h1>
+<center>
+<table border="0" cellspacing="0" cellpadding="1">
+	<form name="jyouken" method="post">
+    <input type="hidden" value="tv" name="houei_kind" >
+    <tr>
+        <td nowrap><font  size="+1">参照年月</font></td>
+        <td ><font size="+1">
+        <input type="text" size="4" maxlength="4" name="syear" value="1999">年
+        <input type="text" size="2" maxlength="2" name="smonth" value="06">月
+        </font></td>
+    </tr>
+    <tr>
+		<td>　</td>
+    </tr>
+    <tr>
+        <td><font  size="+1">
+        <input type="submit" value="テレビ">
+        </td>
+        <td><font  size="+1">
+         <input type="radio" value="cm" name="type"  checked>ＣＭ一覧</font>
+        </td>
+	</tr>
+    <tr>
+		<td></td>
+        <td><font  size="+1">
+         <input type="radio" value="teikyou" name="type" >提供番組
+          <select name="teikyou_syousai" size="1">
+<option>（株）エポック社</option>
+<option>（株）セガ・トイズ　　</option>
+<option>（株）タカラ</option>
+<option>（株）トミー</option>
+<option>（株）バンダイ</option>
+<option>　　　　　:</option>
+<option>　　　　　:</option>
+</font>
+</select>
+</td>
+</tr>
+<tr>
+<td>　</td>
+</tr>
+<tr>
+<td><font  size="+1">
+<input type="button" value="雑　誌">
+</font></td>
+<td><font  size="+1">
+（一覧のみ）
+</font></td>
+</tr>
+</form>
+</table>
+</center>
+<hr width="80%" color="#ffff00">
+<br>
+<center>
+<a href="toynes-ec.htm"><img src="toynes-ec4.gif" border="0" width="67" height="35"></a>
+</center>
+</body></html>
