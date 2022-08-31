@@ -104,7 +104,7 @@ $(function(){
       let $this = $(e.currentTarget);
 
       var nav02randMin   = 1;
-      var nav02randMax   = 6;
+      var nav02randMax   = 9;
       var nav02Imagerand = Math.floor( Math.random() * (nav02randMax + 1 - nav02randMin) ) + nav02randMin ;
 
       if (!($this.hasClass('-on'))) {
