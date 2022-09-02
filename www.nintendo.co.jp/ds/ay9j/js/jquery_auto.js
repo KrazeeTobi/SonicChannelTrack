@@ -1,36 +1,241 @@
-<!DOCTYPE html>
-<html lang="ja" class="no-js is-noresp">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, user-scalable=yes">
-<meta name="format-detection" content="telephone=no">
-<title>Sorry, ただいまシステムメンテナンス中です。｜Nintendo</title>
-<link rel="stylesheet" href="/css/sorry.css">
-<link rel="stylesheet" href="/css/ncommon_shared.css">
-<script src="/js/lib.js"></script>
 
-<script src="/js/ncommon_main.js"></script>
 
-<!--[if lt IE 9]>
-<script src="/js/vendor/html5shiv.js"></script>
-<![endif]-->
+// jQuery_Auto 0.9
 
-</head>
-<body>
-<!-- Google Tag Manager -->
-<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-NVPD62" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<script src="https://www.nintendo.co.jp/common/js/gap/gtm_guest.js"></script>
-<!-- End Google Tag Manager -->
-<header class="sorry_head">
-	<div class="logo"><img src="/img/logo.png" width="78" height="19" alt="Nintendo"></div>
-</header>
-<article class="sorry_contents">
-	<section class="sorry_contents_body">
-		<div class="sorry_img"><img src="/img/img_mario.gif" width="60" height="80" alt=""></div>
-		<h1 class="sorry_title is-axis-b">ただいま<br class="is--sp-only">システムメンテナンス中です。</h1>
-		<p class="sorry_text is-axis-b">誠に恐れ入りますが、時間帯を変えて<br class="is--sp-only">ご利用いただきますようお願いいたします。</p>
-	</section>
-</article>
+// Automatic functions for webpages (using the wonderful jQuery library)
 
-</body>
-</html>
+
+
+// Copyright: (c) 2006, Michal Tatarynowicz (tatarynowicz@gmail.com)
+
+// Licenced as Public Domain (http://creativecommons.org/licenses/publicdomain/)
+
+// $Id: jquery_auto.js 426 2006-05-06 19:54:39Z Michał $
+
+
+
+
+
+// Initialization
+
+
+
+$.auto = {
+
+	init: function() {
+
+		for (module in $.auto) {
+
+			if ($.auto[module].init)
+
+				$.auto[module].init();
+
+		}
+
+	}
+
+};
+
+
+
+$(document).ready($.auto.init);
+
+
+
+
+
+// Auto-hidden elements
+
+
+
+$.auto.hide = {
+
+	init: function() {
+
+		$('.Hide').hide();
+
+	}
+
+};
+
+
+
+
+
+// Mouse hover
+
+
+
+$.auto.hover = {
+
+
+
+	init: function() {
+
+		$('IMG.hover')
+
+			.bind('mouseover', this.enter)
+
+			.bind('mouseout', this.exit)
+
+			.each(this.preload);
+
+	},
+
+
+
+	preload: function() {
+
+		this.preloaded = new Image;
+
+		this.preloaded.src = this.src.replace(/^(.+)(\.[a-z]+)$/, "$1_ov$2");
+
+	},
+
+
+
+	enter: function() {
+
+		this.src = this.src.replace(/^(.+)(\.[a-z]+)$/, "$1_ov$2");
+
+	},
+
+
+
+	exit: function() {
+
+		this.src = this.src.replace(/^(.+)_ov(\.[a-z]+)$/, "$1$2");
+
+	}
+
+};
+
+
+
+
+
+// Auto-submitting SELECTs
+
+
+
+$.auto.submit = {
+
+	init: function() {
+
+		$('SELECT.Submit').bind('change', this.on_change);
+
+	},
+
+
+
+	on_change: function() {
+
+		if (this.value) this.form.submit();
+
+	}
+
+};
+
+
+
+
+
+// Auto-selected text in text fields after a label click
+
+
+
+$.auto.select = {
+
+	init: function() {
+
+		$('LABEL.Select').each(this.label_action);
+
+		$('INPUT.Select').bind('click', function(){ this.select(); });
+
+	},
+
+
+
+	label_action: function() {
+
+		var field = $('#'+this.htmlFor).get(0);
+
+		if (field && field.focus && field.select) {
+
+			$(this).bind('click', function(){ field.focus(); field.select(); });
+
+		}
+
+	}
+
+};
+
+
+
+
+
+// Switches tabs on click
+
+
+
+$.auto.tabs = {
+
+
+
+	init: function() {
+
+
+
+		$('.Tabs').each(function(){
+
+			var f = $.auto.tabs.click;
+
+			var group = this;
+
+			$('.Tab', group).each(function(){
+
+				this.group = group;
+
+				$(this).click(f);
+
+				$('#'+this.id+'_body').hide();
+
+			}).filter(':first').trigger('click');
+
+		});
+
+
+
+	},
+
+
+
+	click: function() {
+
+		var tab = $('#'+this.id+'_body').get(0);
+
+		$('.Tab', this.group).each(function(){
+
+			$(this).removeClass('Active');
+
+			$('#'+this.id+'_body').hide();
+
+		});
+
+
+
+		$(this).addClass('Active');
+
+		$(tab).show();
+
+		this.blur();
+
+
+
+		return false;
+
+	}
+
+
+
+};
