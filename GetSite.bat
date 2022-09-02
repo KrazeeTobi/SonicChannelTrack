@@ -68,6 +68,8 @@ wget -r --no-parent --no-check-certificate -p http://sonic.sega.jp/wpack/
 wget -r --no-parent --no-check-certificate -p http://sonic.sega.jp/SonicOrigins/
 wget -r --no-parent --no-check-certificate -p http://blog.sonic-channel.jp/
 wget -r --no-parent --no-check-certificate -p http://sonicteam.com/
+wget -r --no-parent --no-check-certificate -p http://sonicteam.com/sonicx/
+wget -r --no-parent --no-check-certificate -p http://sonicteam.com/SonicWorldAdventure/
 wget -r --no-parent --no-check-certificate -p http://www.olympicvideogames.com/marioandsonic/
 wget -r --no-parent --no-check-certificate -p http://www.nintendo.co.jp/mario_and_sonic2010/
 wget -r --no-parent --no-check-certificate -p http://www.nintendo.co.jp/ds/ay9j/
