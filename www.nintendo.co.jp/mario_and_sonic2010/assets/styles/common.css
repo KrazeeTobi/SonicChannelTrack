@@ -1,36 +1,421 @@
-<!DOCTYPE html>
-<html lang="ja" class="no-js is-noresp">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, user-scalable=yes">
-<meta name="format-detection" content="telephone=no">
-<title>Sorry, „Åü„Å†„ÅÑ„Åæ„Ç∑„Çπ„ÉÜ„É†„É°„É≥„ÉÜ„Éä„É≥„Çπ‰∏≠„Åß„Åô„ÄÇÔΩúNintendo</title>
-<link rel="stylesheet" href="/css/sorry.css">
-<link rel="stylesheet" href="/css/ncommon_shared.css">
-<script src="/js/lib.js"></script>
+@charset "shift_jis";
 
-<script src="/js/ncommon_main.js"></script>
 
-<!--[if lt IE 9]>
-<script src="/js/vendor/html5shiv.js"></script>
-<![endif]-->
 
-</head>
-<body>
-<!-- Google Tag Manager -->
-<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-NVPD62" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<script src="https://www.nintendo.co.jp/common/js/gap/gtm_guest.js"></script>
-<!-- End Google Tag Manager -->
-<header class="sorry_head">
-	<div class="logo"><img src="/img/logo.png" width="78" height="19" alt="Nintendo"></div>
-</header>
-<article class="sorry_contents">
-	<section class="sorry_contents_body">
-		<div class="sorry_img"><img src="/img/img_mario.gif" width="60" height="80" alt=""></div>
-		<h1 class="sorry_title is-axis-b">„Åü„Å†„ÅÑ„Åæ<br class="is--sp-only">„Ç∑„Çπ„ÉÜ„É†„É°„É≥„ÉÜ„Éä„É≥„Çπ‰∏≠„Åß„Åô„ÄÇ</h1>
-		<p class="sorry_text is-axis-b">Ë™†„Å´ÊÅê„ÇåÂÖ•„Çä„Åæ„Åô„Åå„ÄÅÊôÇÈñìÂ∏Ø„ÇíÂ§â„Åà„Å¶<br class="is--sp-only">„ÅîÂà©Áî®„ÅÑ„Åü„Å†„Åç„Åæ„Åô„Çà„ÅÜ„ÅäÈ°ò„ÅÑ„ÅÑ„Åü„Åó„Åæ„Åô„ÄÇ</p>
-	</section>
-</article>
+/* ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-</body>
-</html>
+
+
+	name : common.css
+
+
+
+ : :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+
+
+
+/* ********************************************************************************
+
+ * ÉuÉâÉEÉUÉXÉ^ÉCÉãÇÃèâä˙âª
+
+ * ******************************************************************************** */
+
+ 
+
+html, body, div, span, applet, object, iframe,
+
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+
+a, abbr, acronym, address, big, cite, code,
+
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+
+small, strike, strong, sub, sup, tt, var,
+
+dl, dt, dd, ol, ul, li,
+
+fieldset, form, label, legend,
+
+table, caption, tbody, tfoot, thead, tr, th, td {
+
+	margin: 0;
+
+	padding: 0;
+
+}
+
+img {
+
+	border: none;
+
+}
+
+a img {
+
+	border:none;
+
+	text-decoration:none;
+
+	outline:0;
+
+}
+
+h1,h2,h3,h4,h5,h6 {
+
+	font-size:100%;
+
+	font-weight:normal;
+
+}
+
+ul {
+
+	list-style-type:none;
+
+}
+
+
+
+/* ********************************************************************************
+
+ * ÉfÉtÉHÉãÉgÉXÉ^ÉCÉã
+
+ * ******************************************************************************** */
+
+
+hr {
+
+	display: none;
+
+}
+
+table {
+
+	border-collapse: collapse;
+
+	border-spacing: 0;
+
+}
+
+caption, th, td {
+
+	text-align: left;
+
+	font-weight: normal;
+
+	white-space: nowrap;
+
+}
+
+object,
+
+param {
+
+	border: 0;
+
+	vertical-align: bottom;
+
+}
+
+input{
+
+	vertical-align: middle;
+
+}
+
+address,caption,cite,code,dfn,em,strong,th,var {
+
+	font-style:normal;
+
+	font-weight:normal;
+
+}
+
+strong {
+
+	font-weight: bold;
+
+	text-decoration: none;
+
+}	
+
+	
+
+/* ********************************************************************************
+
+ * ÉäÉìÉN
+
+ * ******************************************************************************** */
+
+
+
+a {
+
+	overflow: hidden;
+
+	outline: 0;
+
+	text-decoration: none;
+
+	color: #666666;
+
+}
+
+a:visited {
+
+	text-decoration: none;
+
+	color: #666666;
+
+}
+
+a:hover {
+
+	text-decoration: underline;
+
+	color: #000063;
+
+}
+
+/* ********************************************************************************
+
+ * ñ}ófÉNÉâÉXÉXÉ^ÉCÉã
+
+ * ******************************************************************************** */
+
+/* âEÇ÷float */
+
+.alignRight {
+
+	float: right;
+
+}
+
+	
+
+/* ç∂Ç÷float */
+
+.alignLeft {
+
+	float: left;
+
+}
+
+/* floatÇÉNÉäÉAÅ@Ç±Ç±Ç©ÇÁ */
+
+.clearfix:after {
+
+	content:".";
+
+	display: block;
+
+	height: 0;
+
+	clear: both;
+
+	visibility: hidden;
+
+}
+
+.clearfix { display: inline-block; }
+
+/* Hides from IE-mac \*/
+
+* html .clearfix { height: 1%; }
+
+.clearfix { display: block; }
+
+/* End Hides from IE-mac */
+
+/* floatÇÉNÉäÉAÅ@Ç±Ç±Ç‹Ç≈ */
+
+
+
+
+
+/* ********************************************************************************
+
+ * ÉtÉHÉìÉgÉTÉCÉY
+
+ * ******************************************************************************** */
+
+
+
+body {
+
+	font-size: 13px;
+
+	*font-size: small;
+
+	*font: x-small;
+
+}
+
+table {
+
+	font-size: inherit;
+
+	font: 100%;
+
+}
+
+select,
+
+input,
+
+textarea {
+
+	font-size: 99%;
+
+}
+
+
+
+/* ********************************************************************************
+
+ * äÓñ{ÉåÉCÉAÉEÉg
+
+ * ******************************************************************************** */
+
+ 
+
+body {
+
+	font-family:"Hiragino Kaku Gothic Pro","HiraKakuPro-W3","MS UI Gothic","Lucida Grande","MS Gothic";
+
+	text-align: center; /* for IE6 */
+
+	color: #666666;
+
+}
+
+div#contents {
+
+	width: 768px;
+
+	text-align: left;
+
+	margin: 0 auto;
+
+}
+
+
+
+/* ********************************************************************************
+
+ * #footer
+
+ * ******************************************************************************** */
+
+
+
+div#footer2 {
+	margin: 0 auto;
+
+	min-width: 768px;
+
+	max-width: 1280px;
+
+	position: relative;
+
+	padding: 20px 0;
+
+}
+
+* html div#footer2 {
+
+	width: 100%;
+
+}
+
+div#footer2 p#copyright {
+
+	margin: 0 auto;
+
+}
+
+div#footer2 p#logoNintendo {
+
+	position: absolute;
+
+	top: 20px;
+
+	left: 16px;
+
+	width: 76px;
+
+	height: 35px;
+
+}
+
+div#footer2 p#logoWiiDs {
+
+	position: absolute;
+
+	top: 20px;
+
+	right: 16px;
+
+	width: 153px;
+
+	height: 22px;
+
+}
+
+div#footer2 p#logoWii {
+
+	position: absolute;
+
+	top: 20px;
+
+	right: 16px;
+
+	width: 66px;
+
+	height: 33px;
+
+}
+
+div#footer2 p#logoDs {
+
+	position: absolute;
+
+	top: 20px;
+
+	right: 16px;
+
+	width: 124px;
+
+	height: 19px;
+
+}
+
+
+
+
+/*=================================================
+add header
+=================================================*/
+#add_header{
+	width: 100%;
+	height: 54px;
+	background-image: url(../images/bg_add_header.png);
+	background-repeat: repeat-x;
+	text-align: center;
+}
+
+#add_header #wrap{
+	width: 768px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#add_header #wrap .add_btn{
+	width: 580px;
+	margin: 0 auto;
+	padding-top: 10px;
+}
+
+#add_header #wrap .add_btn a img{
+	border: none;
+}
