@@ -36,7 +36,7 @@
   <link rel="stylesheet" href="../css/common.css?02" />
   <link rel="stylesheet" href="../css/component.css?02" />
 
-  <link rel="stylesheet" href="css/prologue.css?02" />
+  <link rel="stylesheet" href="css/prologue.css?03" />
 
 
   <!-- adobe font -->
@@ -166,7 +166,7 @@
   <script src="../js/jquery.colorbox-min.js"></script>
   <script src="../js/slick.min.js"></script>
 
-  <script id="componentJs" src="../js/component.js"></script>
+  <script id="componentJs" src="../js/component.js?02"></script>
   <script src="../js/main.js"></script>
 
   <script>
@@ -189,9 +189,11 @@
       function setSlider() {
         // リサイズ時の対策
         $('.sliderWrap').html(`
-      <div class="slide"><a href="images/ss7-large.jpg" class="popupImage"><img src="images/ss7-thumb.jpg"><img class="commonNew -show" src="../images/new.png" alt="NEW"></a></div>
-      <div class="slide"><a href="images/ss8-large.jpg" class="popupImage"><img src="images/ss8-thumb.jpg"><img class="commonNew -show" src="../images/new.png" alt="NEW"></a></div>
-      <div class="slide"><a href="images/ss9-large.jpg" class="popupImage"><img src="images/ss9-thumb.jpg"><img class="commonNew -show" src="../images/new.png" alt="NEW"></a></div>
+      <div class="slide"><a href="images/ss10-large.jpg" class="popupImage"><img src="images/ss10-thumb.jpg"><img class="commonNew" src="../images/new.png" title="2022年9月15日 10時00分00秒" alt="NEW"></a></div>
+      <div class="slide"><a href="images/ss11-large.jpg" class="popupImage"><img src="images/ss11-thumb.jpg"><img class="commonNew" src="../images/new.png" title="2022年9月15日 10時00分00秒" alt="NEW"></a></div>
+      <div class="slide"><a href="images/ss7-large.jpg" class="popupImage"><img src="images/ss7-thumb.jpg"><img class="commonNew" src="../images/new.png" title="2022年8月31日 10時00分00秒" alt="NEW"></a></div>
+      <div class="slide"><a href="images/ss8-large.jpg" class="popupImage"><img src="images/ss8-thumb.jpg"><img class="commonNew" src="../images/new.png" title="2022年8月31日 10時00分00秒" alt="NEW"></a></div>
+      <div class="slide"><a href="images/ss9-large.jpg" class="popupImage"><img src="images/ss9-thumb.jpg"><img class="commonNew" src="../images/new.png" title="2022年8月31日 10時00分00秒" alt="NEW"></a></div>
       <div class="slide"><a href="images/ss1-large.jpg" class="popupImage"><img src="images/ss1-thumb.jpg"></a></div>
       <div class="slide"><a href="images/ss2-large.jpg" class="popupImage"><img src="images/ss2-thumb.jpg"></a></div>
       <div class="slide"><a href="images/ss3-large.jpg" class="popupImage"><img src="images/ss3-thumb.jpg"></a></div>
@@ -199,6 +201,29 @@
       <div class="slide"><a href="images/ss5-large.jpg" class="popupImage"><img src="images/ss5-thumb.jpg"></a></div>
       <div class="slide"><a href="images/ss6-large.jpg" class="popupImage"><img src="images/ss6-thumb.jpg"></a></div>
         `);
+
+
+
+        // commonNew ////////////////////
+        if (0 < document.getElementsByClassName('commonNew').length) {
+          let currentDate = new Date();
+
+          $('.commonNew').each(function(){
+            let pass = 168;
+            let newmarkAttr = $(this).attr('title') || '2022年8月24日 11時00分00秒';
+            newmarkAttr = newmarkAttr.replace(/年|月|日|時|分/g,':');
+            newmarkAttr = newmarkAttr.replace(/\s|秒.*/g,'');
+            let time = newmarkAttr.split(":");
+            let entryDate = new Date(time[0], time[1]-1, time[2], time[3], time[4], time[5]);
+            let now = (currentDate.getTime() - entryDate.getTime())/(60*60*1000);
+            now = Math.ceil(now);
+            if(now <= pass){
+              $(this).addClass('-show');
+            }
+          });
+        }
+        // /commonNew ////////////////////
+
 
         let slidesToShowValue = 5;
         if (window.innerWidth < 1500 ) { slidesToShowValue = 4; }
