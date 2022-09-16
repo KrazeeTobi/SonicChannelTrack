@@ -19,6 +19,8 @@
 ::v1.2.5 - 2022-04-20: SONIC ORIGINS LIVE BABAAYYYYYY
 ::v1.2.6 - 2022-04-25: Removed GetSite and GetTest, they've been consolidated into initUSER.
 ::v1.2.7 - 2022-04-27: Nevermind, that breaks the logging process. Should be working now.
+::v1.3.0 - summer 2022: added new sonicteam link
+::v1.4.0 - THESE TEMP FILES MAAAN
 ::--------------------------------------------------------------change comments end
 git pull
 wget -r --no-parent --no-check-certificate -p http://sonic.sega.jp/
@@ -400,6 +402,12 @@ cd ..
 cd ..
 cd sonic-movie.jp
 del news.1
+cd ..
+cd sonicteam.com
+cd SonicWorldAdventure
+del director.1
+del hamidashi.1
+cd ..
 cd ..
 del .wget-hsts
 git add *.*
