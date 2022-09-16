@@ -1,0 +1,456 @@
+@charset "Shift_JIS";
+
+/* ----------------------------------------
+	index
+---------------------------------------- */
+
+#index {
+	display: block;
+	margin: 15px 0 10px 15px;
+}
+
+#fin {
+	margin-top: 10px;
+}
+
+/* ----------------------------------------
+	outline
+---------------------------------------- */
+
+#outline_list td {
+	padding: 0.5em 0;
+	vertical-align: top;
+}
+
+#outline_list .left {
+	width: 8em;
+	text-align: right;
+	padding: 0.5em;
+}
+
+#outline_list .right {
+	padding: 0.5em 1em;
+}
+
+
+
+/* ----------------------------------------
+	hallmap
+---------------------------------------- */
+
+.hallmap {
+	padding: 10px 0 0 25px;
+}
+
+.hallmap a {
+	margin: 0 25px;
+}
+
+
+
+/* ----------------------------------------
+	public_attention
+---------------------------------------- */
+
+.public_attention {
+	padding: 0 0.5em 0.5em;
+}
+
+.public_attention img {
+	display: block;
+	margin-bottom: 0.5em;
+}
+
+
+
+/* ----------------------------------------
+	public_stageshow
+---------------------------------------- */
+
+#stageshow_attention {
+	color: #FF5546;
+}
+
+#stageshow_photo{
+	padding: 10px 0 5px 20px;
+}
+
+#stageshow_photo img{
+	float: left;
+	margin-right: 20px;
+}
+
+#stageshow_photo span{
+	display: block;
+	width: 600px;
+	clear: both;
+}
+
+
+
+/* ----------------------------------------
+	public_event
+---------------------------------------- */
+
+#public_event {
+	padding: 0 6px 6px;
+}
+
+#public_event img {
+	margin-bottom: 6px;
+}
+
+#public_event span {
+	color: #FF5546;
+}
+
+.public_event_list{
+	margin:0 18px 0 18px
+}
+.public_event_list .middle_line{
+	margin:0 0 0 0;
+}
+
+.public_event_bg {
+	width: 585px;
+	height: 33px;
+	background:url(../img/contents/public_event_bg.gif);
+	color: #FFFFFF;
+}
+
+.public_event_company {
+	display: block;
+	float: left;
+	margin-left: 10px;
+	color: #FFFFFF;
+	line-height: 33px;
+}
+
+.public_event_booth {
+	display: block;
+	float: right;
+	margin-right: 10px;
+	line-height: 33px;
+}
+
+
+.public_event_list .p_e_sub{
+	margin:12px 0 5px;
+	color:#FF5546;
+	font-weight:bold;
+	line-height: 1.4em;
+}
+
+.public_event_list table{
+	width:584px;
+}
+
+.public_event_list table th{
+	width:45px;
+	text-align:left;
+	vertical-align: top;
+	padding-top: 5px;
+}
+
+.public_event_list table td{
+	width:450px;
+	text-align:left;
+	vertical-align: top;
+	padding-top: 5px;
+}
+
+/* ----------------------------------------
+	public_kidspark
+---------------------------------------- */
+
+.kidspark_cts {
+	padding: 0 0.5em 0.5em;
+}
+
+.sttl_kidspark {
+	display: block;
+	margin-bottom: 0.5em;
+}
+
+#supporter {
+	text-align:right;
+	vertical-align:bottom;
+	padding-top:10px;
+}
+
+.attention_kidspark {
+	font-size:10px;
+	color:#ff0000;
+}
+
+#scene_kidspark {
+	padding:20px 0 10px 0;
+}
+
+#scene_kidspark img {
+	margin:0 24px 5px 0;
+}
+
+#scene_kidspark img.lastphoto {
+	margin-right:0px;
+}
+
+#scene_kidspark .caption {
+	text-align:right;
+}
+
+.group_info1 {
+	padding:5px 0 20px 8px;
+}
+
+.group_info2 {
+	padding:5px 0 0 8px;
+}
+
+/* ----------------------------------------
+	buyer_attention
+---------------------------------------- */
+
+.buyer_attention {
+	padding: 0 0.5em 0.5em;
+}
+
+.buyer_attention img {
+	display: block;
+	margin-bottom: 0.5em;
+}
+
+
+
+/* ----------------------------------------
+	buyer_campaign
+---------------------------------------- */
+
+.buyer_campaign {
+	color:#A01E82;	
+	margin-bottom: 5px;
+}
+
+.campaign_logo img{
+	float:left;
+}
+
+.campaign_logo p{
+	float:left;
+	width: 555px;
+	padding:12px 0 0 5px;
+}
+
+
+#campaign_list td {
+	padding: 0;
+	vertical-align: top;
+}
+
+#campaign_list .id {
+	width: 10%;
+	font-weight: bold;
+	padding:5px 10px;
+}
+
+#campaign_list .name {
+	width: 50%;
+	padding:5px 10px;
+}
+
+#campaign_list a{
+	color:#A01E82;	
+}
+
+#campaign_list .name a{
+	color: #FF5546;
+
+}
+
+.campaign_info {
+	width:610px;
+	background:url(../img/contents/campaign_body.png) repeat-y left top;
+	color:#645A5A;
+	padding-left:10px;
+}
+
+.campaign_info td {
+	padding: 5px;
+}
+
+.line_short {
+	margin-bottom: 8px;
+}
+
+.info_1 tr{
+	vertical-align:top;
+	text-align:left;
+}
+
+.info_1 tr th{
+	width:25%;
+	padding-right:5px;
+	text-align:left;
+}
+
+
+
+/* ----------------------------------------
+	buyer_entrysheet
+---------------------------------------- */
+
+#entrysheet_attention {
+	color: #A01E82;
+}
+
+#entrysheet_btn {
+	text-align: center;
+}
+
+
+
+/* ----------------------------------------
+	company_html
+---------------------------------------- */
+
+#list_type {
+	position: absolute;
+	right: 13px;
+	top: 67px;
+}
+
+#list_type a {
+	padding-left: 10px;
+	background: url(../img/common/arrow_skyblue.gif) no-repeat left top;
+	margin-left: 10px;
+}
+
+#company_link li{
+	float: left;
+	padding: 0 0.5em;
+	margin-bottom: 0.5em;
+	border-right: 1px solid #14A0BE;
+}
+
+#company_link .start{
+	border-left: 1px solid #14A0BE;
+	clear: left;
+}
+
+#company_link a{
+	color: #14A0BE;
+}
+
+#company_link a:hover{
+	color: #72C6D8;
+}
+
+#company_link span{
+	color: #14A0BE;
+	font-weight: bold;
+}
+
+#company_list td {
+	padding: 10px 0;
+	vertical-align: top;
+}
+
+#company_list .id {
+	width: 10%;
+	font-weight: bold;
+	padding: 10px;
+}
+
+#company_list .name {
+	width: 30%;
+	color: #FF5546;
+	padding: 10px;
+}
+
+
+/* ----------------------------------------
+	sitemap
+---------------------------------------- */
+
+#sitemap {
+	width: 100%;
+}
+
+#sitemap td {
+	padding: 0.25em;
+}
+
+.line {
+	text-align: right;
+}
+
+
+
+/* ----------------------------------------
+	underconstruction
+---------------------------------------- */
+
+#underconstruction {
+	height: 170px;
+	padding-top: 125px;
+	text-align: center;
+}
+
+
+
+/* ----------------------------------------
+	report
+---------------------------------------- */
+
+#report_subtitle {
+	margin-bottom: 15px;
+}
+
+.report_photo {
+	padding: 10px 0 5px 6px;
+}
+
+.report_photo img {
+	margin: 0 8px 8px 0;
+}
+
+#report_result {
+	width: 600px;
+	margin: 15px 0 15px 10px;
+	text-align: center;
+}
+
+#report_result td{
+	background: #FFFFFF;
+}
+
+#report_result .buyer_head {
+	background: #A01E82 !important;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+
+#report_result .public_head {
+	background: #E11E5A !important;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+
+#report_result .buyer_body {
+	color: #A01E82;
+}
+
+#report_result .public_body {
+	color: #E11E5A;
+}
+
+#report_result .result_body {
+	color: #14A0BE;
+	font-weight: bold;
+}
+
+#report_footer_link {
+	text-align: right;
+}
+
+

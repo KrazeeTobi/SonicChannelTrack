@@ -1,0 +1,339 @@
+
+/* ----------------------------------------
+	layout
+---------------------------------------- */
+
+#container {
+	width: 100%;
+	min-width: 950px;
+	width: expression(document.body.clientWidth < 950? "950px" : "auto");
+	background: url(../img/common/main_bg.png) no-repeat center 0px;
+
+}
+
+#side_bar {
+	margin-top: 210px;
+}
+
+#content {
+	width: 644px !important;
+	padding-right: 15px !important;
+}
+
+
+
+/* ----------------------------------------
+	countdown
+---------------------------------------- */
+
+#countdown {
+	height: 30px;
+	float: right;
+	margin-right: 10px;
+}
+
+#countdown * {
+	float: left;
+}
+
+#countdown_schedule {
+	display: block;
+	width: 465px;
+	height: 30px;
+	margin-right: 5px;
+	background: url(../img/common/countdown_schedule.png) no-repeat;
+	text-indent: -9999px;
+}
+
+#countdown_place1 {
+	margin-right: 5px;
+}
+
+#pages_logo {
+	float: right;
+	margin: 20px 10px 21px 0;
+}
+
+
+
+/* ----------------------------------------
+	nav
+---------------------------------------- */
+
+#nav {
+	clear: both;
+}
+
+#nav_01 {
+	margin-left: 180px;
+}
+
+#nav_02 {
+	margin-top: 3px;
+}
+
+#nav li {
+	float: left;
+}
+
+#nav li a,
+#nav li p {
+	display: block;
+	text-indent: -9999px;
+}
+
+#nav_outline {
+	width: 95px;
+	height: 25px;
+	background: url(../img/common/nav_outline.gif) no-repeat;
+}
+
+#nav_access {
+	width: 123px;
+	height: 25px;
+	background: url(../img/common/nav_access.gif) no-repeat;
+}
+
+#nav_hallmap {
+	width: 124px;
+	height: 25px;
+	background: url(../img/common/nav_hallmap.gif) no-repeat;
+}
+
+#nav_company {
+	width: 108px;
+	height: 25px;
+	background: url(../img/common/nav_company.gif) no-repeat;
+}
+
+#nav_buyer {
+	width: 218px;
+	height: 62px;
+	background: url(../img/common/nav_buyer.png) no-repeat;
+}
+
+#nav_public {
+	width: 208px;
+	height: 62px;
+	background: url(../img/common/nav_public.png) no-repeat;
+}
+
+#nav_press {
+	width: 218px;
+	height: 62px;
+	background: url(../img/common/nav_press.png) no-repeat;
+}
+
+#nav_outline:hover {
+	background: url(../img/common/nav_outline_hover.gif) no-repeat;
+}
+
+#nav_access:hover {
+	background: url(../img/common/nav_access_hover.gif) no-repeat;
+}
+
+#nav_hallmap:hover {
+	background: url(../img/common/nav_hallmap_hover.gif) no-repeat;
+}
+
+#nav_company:hover {
+	background: url(../img/common/nav_company_hover.gif) no-repeat;
+}
+
+#nav_buyer:hover {
+	background: url(../img/common/nav_buyer_hover.png) no-repeat;
+}
+
+#nav_public:hover {
+	background: url(../img/common/nav_public_hover.png) no-repeat;
+}
+
+#nav_press:hover {
+	background: url(../img/common/nav_press_hover.png) no-repeat;
+}
+
+.current #nav_outline:hover {
+	background: url(../img/common/nav_outline.gif) no-repeat;
+}
+
+.current #nav_access:hover {
+	background: url(../img/common/nav_access.gif) no-repeat;
+}
+
+.current #nav_hallmap:hover {
+	background: url(../img/common/nav_hallmap.gif) no-repeat;
+}
+
+.current #nav_company:hover {
+	background: url(../img/common/nav_company.gif) no-repeat;
+}
+
+.current #nav_buyer:hover {
+	background: url(../img/common/nav_buyer.png) no-repeat;
+}
+
+.current #nav_public:hover {
+	background: url(../img/common/nav_public.png) no-repeat;
+}
+
+.current #nav_press:hover {
+	background: url(../img/common/nav_press.png) no-repeat;
+}
+
+
+
+/* ----------------------------------------
+	pages
+---------------------------------------- */
+
+#pankuzu {
+	display: block;
+	font-size: 10px;
+	padding-bottom: 0.5em;
+	border-bottom: 1px dotted;
+	clear:both;
+}
+
+#pages {
+	background: url(../img/common/pages_bg.png) repeat-y;
+	padding: 30px 45px 0;
+	font-size: 12px;
+}
+
+#pages_header {
+	width: 644px;
+	height: 7px;
+}
+
+.section {
+	padding: 2em 0;
+	line-height: 2em;
+	border-bottom: 1px dotted;
+}
+
+#pages_footer {
+	width: 644px;
+	height: 50px;
+	padding-bottom: 10px;
+	background: url(../img/common/pages_footer_bg.png) no-repeat;
+}
+
+#pages_footer ul {
+	float: right;
+	padding-right: 45px;
+}
+
+#pages_footer li {
+	float: left;
+	height: 50px;
+	font-size: 10px;
+	line-height: 50px;
+	vertical-align: middle;
+}
+
+
+/* ###----------------------------------------
+	ENGLISH page starts from this
+----------------------------------------### */
+
+
+/* ----------------------------------------
+	nav
+---------------------------------------- */
+
+#countdown_schedule_en {
+	display: block;
+	width: 140px;
+	height: 30px;
+	margin-right: 5px;
+	background: url(../img/common/countdown_schedule_en.png) no-repeat;
+	text-indent: -9999px;
+}
+
+#countdown_place1_en {
+	margin-right: 5px;
+}
+
+#event_outline {
+	height:124px;
+	text-align:right;
+	margin:0 12px 15px 0;
+}
+
+#nav_eventoutline_en {
+	width: 188px;
+	height: 62px;
+	background: url(../img/common/nav_eventoutline_en.png) no-repeat;
+}
+
+#nav_access_en {
+	width: 125px;
+	height: 62px;
+	background: url(../img/common/nav_access_en.png) no-repeat;
+}
+
+#nav_hallmap_en {
+	width: 140px;
+	height: 62px;
+	background: url(../img/common/nav_hallmap_en.png) no-repeat;
+}
+
+#nav_list_en {
+	width: 191px;
+	height: 62px;
+	background: url(../img/common/nav_list_en.png) no-repeat;
+}
+
+.current #nav_eventoutline_en:hover {
+	background: url(../img/common/nav_eventoutline_en.png) no-repeat;
+}
+
+.current #nav_access_en:hover {
+	background: url(../img/common/nav_access_en.png) no-repeat;
+}
+
+.current #nav_hallmap_en:hover {
+	background: url(../img/common/nav_hallmap_en.png) no-repeat;
+}
+
+.current #nav_list_en:hover {
+	background: url(../img/common/nav_list_en.png) no-repeat;
+}
+
+#nav_eventoutline_en:hover {
+	background: url(../img/common/nav_eventoutline_en_ov.png) no-repeat;
+}
+
+#nav_access_en:hover {
+	background: url(../img/common/nav_access_en_ov.png) no-repeat;
+}
+
+#nav_hallmap_en:hover {
+	background: url(../img/common/nav_hallmap_en_ov.png) no-repeat;
+}
+
+#nav_list_en:hover {
+	background: url(../img/common/nav_list_en_ov.png) no-repeat;
+}
+
+.section_en {
+	padding: 1em 0;
+	line-height: 2em;
+}
+
+.section_en_outline {
+	padding: 1em 0;
+	line-height: 2em;
+}
+
+.event_detail_space {
+	padding-left:85px;	
+}
+
+.font_red {
+	color:#ff0000;	
+}
+
+
+
+

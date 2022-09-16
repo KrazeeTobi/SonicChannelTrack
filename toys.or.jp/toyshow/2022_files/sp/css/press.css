@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* ----------------------------------------
+    press
+---------------------------------------- */
+
+section a,
+section a:hover {
+	color: #5AB400;
+}
+section p {
+	margin-bottom: 0;
+}
+
+section div {
+    margin-bottom: 3%;
+    padding-bottom: 3%;
+    border-bottom: 1px solid #5AB400;
+}
+section>div:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+	border-bottom: none;
+}
+.title {
+    border-left: 7.5px solid #5AB400;
+    min-height: 25px;
+    padding-left: 10px;
+    margin-bottom: 3%;
+}
+
+.apply {
+    display: none;
+}

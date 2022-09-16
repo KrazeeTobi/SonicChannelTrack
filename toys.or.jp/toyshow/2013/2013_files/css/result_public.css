@@ -1,0 +1,66 @@
+@charset "utf-8";
+
+/* ----------------------------------------
+	access.html
+---------------------------------------- */
+
+.result {
+	position: relative;
+}
+
+.result h2 img {
+	margin-bottom: 14px;
+}
+
+#result_detail {
+	position: absolute;
+	right: 40px;
+	top: 20px;
+}
+
+#result_detail a {
+	text-decoration: none;
+}
+
+#result_detail a:hover {
+	text-decoration: underline;
+}
+
+#result_detail .purple {
+	color: #64288C;
+}
+
+#result_detail .red {
+	color: #E61E5A;
+}
+
+#result_detail .blue {
+	color: #2864C8;
+}
+
+.result div {
+	border-top: #B4B4B4 solid 1px;
+	padding: 30px 0;
+	width: 640px;
+}
+.result div span {
+	color: #E61E5A;
+}
+
+.result div ul#gallery {
+	width: 660px;
+	margin-top: 25px;
+}
+
+.result div ul#gallery li {
+	float: left;
+	margin: 0 14px 14px 0;
+}
+
+.result div ul#gallery li a {
+	display: block;
+}
+.result div span.caution{
+	font-weight: bold;
+	color: #4B4B4B;
+}

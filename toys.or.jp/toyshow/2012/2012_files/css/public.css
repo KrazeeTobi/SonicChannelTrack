@@ -1,0 +1,104 @@
+@charset "utf-8";
+
+/* ----------------------------------------
+	タイトル部分（カテゴリ毎で指定する）
+---------------------------------------- */
+
+#pankuzu {
+	width: 236px;
+	background: url(../img/public/pankuzu_bg.png);
+}
+
+#tab ul li {
+	width: 134px;
+	background: url(../img/public/tab_bg.png);
+}
+
+h2 {
+	background: url(../img/public/title_bg.png);
+}
+
+.section {
+	border-bottom: 1px solid #e6295e !important;
+}
+
+#contents_inner a {
+	color: #E11E5A;
+}
+
+#contents_inner h3 {
+	color: #E11E5A;
+}
+
+.colored {
+	color: #E11E5A;
+}
+
+
+/* ----------------------------------------
+	ステージショー
+---------------------------------------- */
+
+#pastPhoto img {
+	display:inline;
+	margin:20px 15px 5px 0;
+}
+
+#ssSchedule {
+	margin-top:20px;
+}
+
+
+/* ----------------------------------------
+	出展社イベント
+---------------------------------------- */
+
+#contents_inner .evCompany {
+	background: #E11E5A;
+	margin-top:20px;
+	padding:5px 10px;
+	color:#FFF;
+	text-align:left;
+}
+#contents_inner .evCompany * {
+	color:#FFF;
+}
+#contents_inner .evCompany span{
+	margin-right:10px;
+}
+
+#contents_inner .event {
+	margin:20px 10px 0;
+}
+
+#contents_inner .event .subtitle {
+	color: #E11E5A;
+}
+
+#contents_inner .event table {
+	margin:0 10px;
+}
+#contents_inner .event table th {
+	width:4em;
+	padding-top:10px;
+	text-align:left;
+	vertical-align:top;
+	font-weight:bold;
+}
+#contents_inner .event table td {
+	padding-top:10px;
+}
+
+
+/* ----------------------------------------
+	キッズパーク
+---------------------------------------- */
+
+.right_link {
+	float: right;
+	margin-top: 15px;
+}
+.right_link img {
+	display: inline !important;
+	margin-bottom: 0 !important;
+}

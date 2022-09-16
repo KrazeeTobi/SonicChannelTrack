@@ -1,0 +1,129 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* ----------------------------------------
+	contents
+---------------------------------------- */
+
+a {
+	color: #ff9600;
+}
+
+#gnav {
+    background: url(../img/company/gnav_bg.png) repeat-x;
+}
+
+#bnr {
+	background: #ff9600;
+}
+
+#container {
+    background: url(../img/company/container_bg_body.gif) repeat;
+}
+
+#company section {
+	padding-bottom: 0;
+	border-bottom: none;
+	margin-bottom: 0;
+}
+
+section h3 {
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 1.5;
+	color: #ff5064;
+}
+section p {
+	text-indent: -1em;
+	padding-left: 1em;
+}
+section .content-image {
+	margin: 20px 0;
+	text-align: center;
+}
+
+span.colorBlue {
+	color: #00b4dc;
+	font-weight: bold;
+}
+span.colorPink {
+	display: block;
+	color: #ff5064;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.example {
+	margin-top: 10px;
+}
+
+#category_list {
+    margin-bottom: 30px;
+}
+#category {
+    margin: 35px 0 30px;
+}
+#category ul {
+    margin-top: 0;
+}
+#category li {
+    margin: 0;
+    padding: 0;
+    border: none;
+    height: 45px;
+}
+
+section ul {
+	width: 640px;
+}
+section li {
+    margin-top: 0;
+    margin-right: 0;
+}
+#name_list {
+	margin-top: 46px;
+	padding: 20px 67px;
+	border-top: 1px solid #ff9600;
+	border-bottom: 1px solid #ff9600;
+}
+#name_list ul {
+	width: auto;
+}
+#name_list li {
+    padding: 0 10px;
+    line-height: 21px;
+    border-right: 1px solid #969696;
+    border-top: none;
+    display: inline-block;
+    float: left;
+    font-size: 12px;
+}
+#name_list li.edge {
+    padding: 0 10px;
+    line-height: 21px;
+    border-right: none;
+}
+
+#company section > ul {
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.id, .name, .category {
+	padding: 30px 0 25px;
+}
+
+.id {
+    font-weight: bold;
+    width: 70px;
+}
+.name {
+    width: 255px;
+    padding-right: 35px;
+}
+.name a {
+    color: #ff9600;
+    text-decoration: none;
+}
+.category {
+    width: 271px;
+}

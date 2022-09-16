@@ -1,0 +1,118 @@
+@charset "utf-8";
+
+/* ----------------------------------------
+	access.html
+---------------------------------------- */
+
+.result {
+	position: relative;
+	font-size: 14px;
+}
+
+#result_detail {
+	position: absolute;
+	right: 40px;
+	top: 20px;
+	font-size: 14px;
+	line-height: 21px;
+}
+
+#result_detail a {
+	text-decoration: none;
+}
+
+#result_detail a:hover {
+	text-decoration: underline;
+}
+
+#result_detail .purple {
+	color: #64288C;
+}
+
+#result_detail .red {
+	color: #E61E5A;
+}
+
+.result img {
+	margin: 0 0 14px 0;
+}
+
+.result div {
+	border-top: #B4B4B4 solid 1px;
+	padding: 30px 0;
+	width: 640px;
+}
+
+.result div img {
+	display: block;
+	margin: 0 0 0 44px;
+}
+
+.result div span {
+	color: #2864C8;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 25px;
+}
+
+.result div.notes {
+	border-top: #B4B4B4 solid 1px;
+	padding: 30px 0 20px 0;
+	color: #2864C8;
+}
+
+.result table {
+	width: 100%;
+	font-size: 14px;
+	}
+	
+.result table th {
+	text-align: right;
+	background-color: #E6E6E6;
+	color: #646464;
+	padding: 5px 10px 5px;
+	
+}
+
+.result table td {
+	text-align: center;
+	padding: 5px 0px  
+}
+
+.result table td.black {
+	background-color: #646464;
+	color: #FFFFFF;
+	font-weight: bold;
+	
+}
+
+.result table td.purple {
+	background-color: #64288C;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.result table td.red {
+	background-color: #E61E5A;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.result table td.violet {
+	background-color: #d9d2e8;
+	color: #64288C;
+	width: 105px;
+}
+
+.result table td.pink {
+	background-color: #f3d0de;
+	color: #E61E5A;
+	width: 105px;
+}
+
+.result table td.sky {
+	background-color: #cddef4;
+	color: #2864C8;
+}

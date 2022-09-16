@@ -1,0 +1,93 @@
+@charset "utf-8";
+
+/* ----------------------------------------
+	company.html
+---------------------------------------- */
+
+
+/*--- category ---*/
+
+.company #category_list {
+	border-top: #B4B4B4 solid 1px;
+	padding: 30px 0;
+	width: 640px;
+}
+.company #category_list li a {
+	color: #918282;
+}
+
+.company #list_part li {
+	border-top: none;
+	border-right: #4B4B4B solid 1px;
+	float:left;
+	padding: 0 11px;
+	line-height: 14px;
+	margin-bottom: 10px;
+	color: #918282;
+}
+.company #list_part li.start {
+	border-right: #4B4B4B solid 1px;
+	float:left;
+	padding: 0 11px 0 0;
+}
+.company #list_part li.end {
+	border-right: none;
+	float:left;
+	padding: 0 0 0 11px;
+}
+.company #list_part li span {
+	font-weight: bold;
+}
+
+
+.company #other_category li {
+	padding: 0 14px 0 0;
+	margin: 14px 0 0 0;
+	border-top: none;
+}
+
+
+/*--- main list ---*/
+
+.company img {
+	display: block;
+	margin: 0 0 14px 0;
+}
+
+.company ul {
+	width: 640px;
+}
+
+.company li {
+	border-top: #B4B4B4 solid 1px;
+	padding: 15px 0;
+	line-height: 21px;
+	float: left;
+}
+
+.company .id {
+	font-weight: bold;
+	width: 82px;
+	padding: 15px 0 15px 10px;
+}
+
+.company .name {
+	width: 198px;
+}
+.company .name a {
+	color: #918282;
+	text-decoration: none;
+}
+.company .name a:hover {
+	text-decoration: underline;
+}
+
+.company .category {
+	width: 335px;
+	padding-left: 15px;
+}
+
+.company li.edge {
+	border-bottom: #B4B4B4 solid 1px;
+	margin: 0 0 20px 0;
+}

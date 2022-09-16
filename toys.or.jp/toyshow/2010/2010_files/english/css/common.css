@@ -1,0 +1,402 @@
+
+/* ----------------------------------------
+	settings
+---------------------------------------- */
+
+body {
+	margin: 0;
+	border: 0;
+	padding: 0;
+	background: url(../img/common/body_bg.gif) repeat -15px 10px;
+	text-align: center;
+}
+
+body * {
+	margin: 0;
+	border: 0;
+	padding: 0;
+	outline: none;
+	color: #000;
+}
+
+li { list-style-type: none;}
+
+a { text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+.clearfix { display: inline-block; }
+
+/* Hides from IE-mac \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* End hide from IE-mac */
+
+
+
+/* ----------------------------------------
+	header
+---------------------------------------- */
+
+#header {
+	width: 100%;
+	height: 25px;
+	background: url(../img/common/header_bg.gif) repeat-x;
+	text-align: center;
+}
+
+#header_inner {
+	width: 900px;
+	height: 25px;
+	background: url(../img/common/header_bg.gif) repeat-x;
+	margin: auto;
+	padding: 0 25px;
+	text-align: left;
+}
+
+#header * {
+	font-size: 12px;
+	line-height: 25px;
+	vertical-align: middle;
+	color: #999;
+}
+
+h1 {
+	color: #FFF !important;
+	font-weight:normal;
+}
+
+#header a { text-decoration: none; }
+
+#header a:hover { color: #FFF; text-decoration: underline;}
+
+#slogan { float: left; }
+
+
+#language {
+	float: right;
+	margin-left: 4em;
+}
+
+#en {
+	color: #FFF;
+}
+
+#fontsize {
+	float: right;
+}
+
+#fontsize_s {
+	color: #FFF;
+}
+
+#fontsize span {
+	color: #999;
+}
+
+
+
+/* ----------------------------------------
+	main
+---------------------------------------- */
+
+#main {
+	width: 950px;
+	margin: auto;
+	padding: 20px 0 30px;
+	text-align: left;
+}
+
+#side_bar {
+	width: 264px;
+	float: left;
+	padding-left: 13px;
+}
+
+#content {
+	width: 620px;
+	padding-right: 25px;
+	float: right;	
+}
+
+
+
+/* ----------------------------------------
+	topics
+---------------------------------------- */
+
+#topics {
+	margin-top: -12px;
+	font-size: 10px;
+	width: 264px;
+}
+
+#topics_header {
+	display: block;
+	height: 36px;
+	background: url(../img/common/topics_header.png) no-repeat;
+	text-indent: -9999px;
+}
+
+#topics dl {
+	background: url(../img/common/topics_bg.png) repeat-y;
+	padding: 10px 34px 4px;
+}
+
+#topics dt{
+	padding: 8px 0 0;
+	letter-spacing: 0.1em;
+	line-height: 1.5em;
+}
+
+#topics dd {
+	padding: 0 0 8px;
+	border-bottom: 1px dotted;
+	line-height: 1.5em;
+}
+
+#topics_bottom {
+	border-bottom: none !important;
+}
+
+#topics_footer {
+	display: block;
+	height: 16px;
+	background: url(../img/common/topics_footer.png) no-repeat;
+	text-indent: -9999px;
+}
+
+
+
+/* ----------------------------------------
+	banners
+---------------------------------------- */
+
+#banners {
+	width: 264px;
+	text-align: left;
+	margin-top:181px;
+}
+
+#banners li {
+	background: url(../img/common/banner_bg.png) no-repeat;
+	height: 100px;
+	float:left;
+	display:inline;
+	padding:12px;
+	margin:-4px 0;
+}
+
+#banners li img {
+	vertical-align:bottom
+}
+
+#banner_download {
+	display: block;
+	width: 240px;
+	margin-left: 12px;
+	font-size: 10px;
+	line-height: 1.5em;
+	color: #D20000;
+	text-decoration: underline;
+}
+
+#banner_download:hover {
+	color: #F66;
+}
+
+
+
+/* ----------------------------------------
+	footer
+---------------------------------------- */
+
+#footer_fix { height: 210px; }
+
+#footer_fix * { display: none; }
+
+#footer_top {
+	width: 900px;
+	height: 30px;
+	padding: 0 25px;
+	margin: auto;
+	text-align: left;
+	position: relative;
+}
+
+#footer_main {
+	height: 180px;
+	background: #000;
+}
+
+#footer_main_inner {
+	width: 900px;
+	height: 160px;
+	background: #000;
+	margin: auto;
+	padding: 20px 25px 0;
+	text-align: left;
+	position: relative;
+}
+
+#footer_main * {
+	font-size: 10px;
+	line-height: 1.75em;
+	color: #999;
+}
+
+#footer_main a { text-decoration: none; }
+
+#footer_main .chapter { color: #FFF; }
+
+#footer_main a:hover { color: #FFF; text-decoration: underline;}
+
+#footer_link { float: right; }
+
+#footer_link ul {
+	float: left;
+	margin-right: 27px;
+	display:inline;
+}
+
+#footer_link li {
+	margin:3px 0;
+}
+
+#link_jta {
+	display: block;
+	width: 135px;
+	height: 21px;
+	background: url(../img/common/link_jta.gif) no-repeat;
+	text-indent: -9999px;
+	position: absolute;
+	top: 0;
+	left: 25px;
+}
+
+#link_2009 {
+	display: block;
+	width: 222px;
+	height: 21px;
+	background: url(../img/common/link_2009.gif) no-repeat;
+	text-indent: -9999px;
+	position: absolute;
+	top: 0;
+	left: 185px;
+}
+
+#link_jta:hover {
+	background: url(../img/common/link_jta_hover.gif) no-repeat;
+}
+
+#link_2009:hover {
+	background: url(../img/common/link_2009_hover.gif) no-repeat;
+}
+
+#pagetop {
+	display: block;
+	width: 120px;
+	height: 20px;
+	background: url(../img/common/pagetop.png) no-repeat;
+	text-indent: -9999px;
+	position: absolute;
+	bottom: 0px;
+	right: 25px;
+}
+
+#footer_mark { float: left; }
+
+#copyright {
+	display: block;
+	width: 311px;
+	height: 11px;
+	background: url(../img/common/copyright.gif) no-repeat;
+	text-indent: -9999px;
+	position: absolute;
+	bottom: 10px;
+	right: 25px;
+}
+
+/* ----------------------------------------
+	Coming Soon
+---------------------------------------- */
+
+#coming_soon {
+	margin:100px 0;
+	text-align:center;
+}
+
+
+
+
+
+/* ###----------------------------------------
+	ENGLISH page starts from this
+----------------------------------------### */
+
+
+/* ----------------------------------------
+	footer
+---------------------------------------- */
+
+#link_jta_en {
+	display: block;
+	width: 157px;
+	height: 14px;
+	background: url(../img/common/link_jta_en.gif) no-repeat;
+	text-indent: -9999px;
+	position: absolute;
+	top: 6px;
+	left: 25px;
+}
+
+#link_2009_en {
+	display: block;
+	width: 233px;
+	height: 14px;
+	background: url(../img/common/link_2009_en.gif) no-repeat;
+	text-indent: -9999px;
+	position: absolute;
+	top: 6px;
+	left: 205px;
+}
+
+#link_jta_en:hover {
+	background: url(../img/common/link_jta_en_ov.gif) no-repeat;
+}
+
+#link_2009_en:hover {
+	background: url(../img/common/link_2009_en_ov.gif) no-repeat;
+}
+
+#pagetop_en {
+	display: block;
+	width: 120px;
+	height: 20px;
+	background: url(../img/common/pagetop_en.png) no-repeat;
+	text-indent: -9999px;
+	position: absolute;
+	bottom: 0px;
+	right: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

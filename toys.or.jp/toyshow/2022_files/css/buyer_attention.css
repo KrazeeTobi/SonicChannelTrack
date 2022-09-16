@@ -1,0 +1,386 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* ----------------------------------------
+    buyer attention
+---------------------------------------- */
+
+.download {
+    display: block;
+    margin: 30px auto 0;
+    text-align: center;
+    width: 530px;
+}
+
+section .aomi {
+    background: none;
+}
+section .frame3 {
+    color: #00b4dc;
+    border: solid 1px #00b4dc;
+}
+
+section a {
+	color: #00b4dc;
+}
+section h3 {
+    color: #00b4dc;
+    font-size: 18px;
+}
+section h3 img {
+	height: 30px;
+}
+
+section .text_buyer {
+    color: #00b4dc;
+}
+
+section div.free,
+section div.entrance,
+section div.ban,
+section div.parking,
+section div.other {
+    padding-top: 30px;
+    margin-top: 30px;
+    border-top: 1px solid #00b4dc;
+}
+section div.other p {
+    margin-bottom: 0;
+    padding-left: 1em;
+    text-indent: -1em;
+}
+#btndownload {
+    margin:0 auto 30px;
+}
+#btndownload img {
+    height: 30px;
+}
+
+section tr div {
+	padding-bottom: 0;
+	margin-bottom: 0;
+	border-bottom: none;
+}
+
+section tr .company {
+	width: 360px;
+}
+
+section tr .more_info {
+    position: absolute;
+    top: 25px;
+    right: 0px;
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+section tr .more_info a img {
+	height: 30px;
+}
+
+section span {
+	color: #00b4dc;
+	font-size: 0.9em;
+}
+
+.img_center {
+	margin: 20px 15px 0;
+}
+
+.colorPink {
+    color: #ff5064;
+}
+
+#noborder {
+	border-bottom: none;
+}
+.bordergraybottom {
+	padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.noborder {
+	border-bottom: none;
+	margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+#buyer_menu {
+    position: relative;
+    float: left;
+    padding: 15px 30px;
+    margin-bottom: 30px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 7px rgba(0,0,0,0.4);
+    -moz-box-shadow: 0px 0px 7px rgba(0,0,0,0.4);
+    -webkit-box-shadow: 0px 0px 7px rgba(0,0,0,0.4);
+}
+#buyer_menu ul {
+	overflow: hidden;
+}
+#buyer_menu li {
+    margin: 0;
+    margin-right: 5px;
+    padding: 0;
+    list-style-type: none;
+    float: left;
+}
+#buyer_menu li:last-child {
+	margin-right: 0;
+}
+#buyer_menu li img {
+	width: 312.5px;
+	vertical-align:bottom;
+}
+
+
+
+/* ----------------------------------------
+    buyer download
+---------------------------------------- */
+
+#buyer {
+   line-height: 1.8em;
+}
+
+.downloadInfo {
+    color: #00b4dc;
+    padding: 15px 0;
+	margin-bottom: 30px;
+    font-weight: bold;
+    text-align: center;
+    border-top: solid 1px #00b4dc;
+    border-bottom: solid 1px #00b4dc;
+}
+.title_contents {
+	margin-bottom: 30px;
+}
+.title_contents img {
+	width: 67px;
+}
+
+.entry_image {
+	margin: 0 auto 30px;
+}
+.entry_image li {
+	margin-right: 15px;
+	float: left;
+}
+.entry_image li:last-child {
+	margin-right: 0;
+}
+.entry_image li img {
+	width: 200px;
+}
+
+
+/* ----------------------------------------
+    campaign
+---------------------------------------- */
+#campaign {
+    margin-top: 0;
+    padding-top: 0;
+}
+#campaign_info p {
+	color: #00b4dc;
+	margin: 0;
+}
+.campaign-icon {
+    margin: 20px 0 0;
+}
+.campaign-icon dt {
+    float: left;
+}
+.campaign-icon dd {
+    padding-left: 10px;
+    float: left;
+}
+
+.campaignContent {
+    margin: 30px auto 0;
+	padding-bottom: 0;
+	border-bottom: none;
+}
+.campaignContent h3 {
+	padding: 30px 0 0;
+    border-top: 1px solid #00b4dc;
+}
+.campaignContent h3 img {
+	/* width: 235px; */
+}
+.campaignContent h3.tit_campaign {
+	margin-bottom: 30px;
+}
+.campaignContent h3.tit_campaign img {
+	/* width: 260px; */
+}
+.campaignContent tr {
+    border-bottom: 1px solid #e6e6e6;
+}
+.campaignContent tr:last-child {
+    border-bottom: none;
+}
+.campaignContent th {
+    padding: 30px 20px;
+    width: 5%;
+    vertical-align: top;
+    text-align: left;
+    font-size: 12px;
+    font-weight: bold;
+}
+.campaignContent td {
+    position: relative;
+    padding: 30px 10px;
+    vertical-align: top;
+    width: 44.44%;
+    color: #0eb1fc;
+}
+.campaignContent td:nth-of-type(2) {
+	width: 20%;
+}
+
+.page_link {
+	position: absolute;
+	top: -130px;
+}
+
+/* ----------------------------------------
+    campaignInfo 
+---------------------------------------- */
+
+.campaignInfo {
+    margin-bottom: 30px;
+    padding: 6px;
+    background: #e6e6e6;
+    border-radius: 10px;
+	border-bottom: 0px solid #00b4dc;
+}
+.campaignInfo:last-child {
+    margin-bottom: 0;
+}
+.campaignInfo div {
+	border-bottom: 0px solid #00b4dc;
+}
+.campaignInfo span {
+	color: #969696;
+	padding: 150px 20px 15px 0;
+    margin: -150px 0 20px;
+}
+
+.info {
+    margin-bottom: 0;
+    padding: 20px;
+    background: #fff;
+    color: #000;
+}
+.info dt {
+    float: left;
+    width: 130px;
+    font-weight: bold;
+}
+.info dd {
+    float: left;
+    width: 445px;
+}
+
+.company-name {
+	padding: 5px 15px 14px;
+    margin: 0;
+    font-weight: normal;
+    font-size: 1em;
+}
+.company-name span {
+	font-weight: bold;
+	color: #3c3c3c;
+}
+
+article .comingsoon {
+    width: 342px;
+    margin: auto;
+    padding: 50px 0;
+    text-align: center;
+    border-bottom: none;
+}
+article .comingsoon p {
+	padding: 10px;
+	color: #00b4dc;
+	font-weight: bold;
+}
+
+/* 2021/04/13 add css by ryu  */
+
+.corona h3 img {
+    height: fit-content;
+}
+
+.consern_corona li {
+    margin-left: 35px;
+}
+
+.li_indent {
+    margin-left: 15px;
+}
+
+.big_word {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.mgn0 {
+    margin: 0;
+} 
+
+@media screen and (max-width: 767px) {
+    .corona h3 img {
+        height: auto;
+    }
+
+    .free h3 img {
+        height: auto;
+    }
+
+    section div.free,
+    section div.entrance,
+    section div.ban,
+    section div.parking,
+    section div.other {
+        padding-top: 0px;
+        margin-top: 0px;
+        border-top: none;
+    }
+
+    .ul_indent {
+        padding-left: 1em;
+    }
+
+    .li_indent {
+        padding-left: 1em;
+        text-indent: -1em;
+        margin: 0 0 0 15px;
+    }
+
+    .pre_registration {
+        display: block;
+        margin: 5% auto 0;
+    }
+
+    .entry_image li {
+        margin-right: 0;
+        float: left;
+    }
+
+    .entry_image li img {
+        width: 100%;
+    }
+    
+    section tr .company {
+        width: auto;
+    }
+
+    section tr .more_info {
+        position: initial;
+    }
+
+}

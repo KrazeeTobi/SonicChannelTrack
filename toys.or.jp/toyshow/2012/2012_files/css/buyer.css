@@ -1,0 +1,101 @@
+@charset "utf-8";
+
+/* ----------------------------------------
+	タイトル部分（カテゴリ毎で指定する）
+---------------------------------------- */
+
+#pankuzu {
+	width: 302px;
+	background: url(../img/buyer/pankuzu_bg.png);
+}
+
+#tab ul li {
+	width: 170px;
+	background: url(../img/buyer/tab_bg.png);
+}
+
+h2 {
+	background: url(../img/buyer/title_bg.png);
+}
+
+#contents_inner .section {
+	border-bottom-color:#641E82 !important;
+}
+
+#contents_inner a {
+	color: #641E82;
+}
+
+#contents_inner h3 {
+	color: #641E82;
+}
+
+.colored {
+	color: #641E82;
+}
+
+
+/* ----------------------------------------
+	buyer_entrysheet.html
+---------------------------------------- */
+
+#entrysheet_attention {
+	border: 1px solid #641E82;
+	padding: 20px;
+	text-align: center;
+}
+
+#esBtn {
+	text-align:center;
+	margin-top:20px;
+}
+
+/* ----------------------------------------
+	受注キャンペーン
+---------------------------------------- */
+
+#contents_inner #campLogo {
+	margin-top:10px;
+}
+#contents_inner #campLogo img {
+	margin:0 6px 0 0;
+}
+
+table#list {
+	width:100%;
+}
+table#list td {
+	padding:10px 10px 0;
+}
+
+table#list td.booth {
+	width:4em;
+}
+
+table#list td.link {
+	width:12em;
+}
+
+
+#contents_inner .campInfo {
+	background:#D0D9D4;
+	margin:20px 10px 0;
+	padding-bottom:20px;
+}
+
+#contents_inner .campInfo .title {
+	background: #641E82;
+	padding:5px 10px;
+	color:#FFF;
+	text-align:left;
+}
+#contents_inner .campInfo .title span {
+	margin-right:10px;
+}
+
+#contents_inner .campInfo .inner {
+	padding:0 10px;
+}
+#contents_inner .campInfo .inner p {
+	margin-top:20px;
+}

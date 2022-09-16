@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* ----------------------------------------
+    Sitemap
+---------------------------------------- */
+
+#sitemap dl.outline {
+	border-top: solid 1px #e6e6e6;
+}
+#sitemap dl,
+#sitemap .dl{
+    border-bottom: solid 1px #e6e6e6;
+}
+#sitemap .dl {
+	padding-left: 10px;
+	line-height: 3;
+}
+#sitemap dt {
+    position: absolute;
+    margin-left: 10px;
+	line-height: 3;
+}
+#sitemap dd {
+	margin-left: 180px;
+}
+#sitemap dd li {
+    border-bottom: solid 1px #e6e6e6;
+    padding-left: 10px;
+    line-height: 3;
+}
+#sitemap dd li:last-child {
+	border-bottom: none;
+}
+a {
+    color: #ff9600;
+}
+#sitemap .public a {
+    color: #ff5064;
+}
+#sitemap .buyer a {
+    color: #00b4dc;
+}
+#sitemap .press a {
+    color: #5ab400;
+}
