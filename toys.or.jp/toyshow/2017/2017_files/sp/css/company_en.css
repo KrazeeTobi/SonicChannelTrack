@@ -1,0 +1,156 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* ----------------------------------------
+    Index
+---------------------------------------- */
+
+body {
+	background: url(../img/common/bg.jpg) center top no-repeat #f0f0f0;
+	background-position: 5% auto;
+	background-size: 100%;
+}
+
+a{
+	color: #ffa000;
+}
+
+#container {
+	padding-top: 58%;
+}
+
+#sekai-kodomohaku {
+    position: absolute;
+    top: -12%;
+    right: -2%;
+    width: 25%;
+}
+
+section p.notice {
+	border: 1px solid #ffa000;
+	margin: 3% 0 0;
+	padding: 3%;
+	color: #ffa000;
+	text-align: center;
+	font-weight: bold;
+}
+
+.coming_soon{
+	display: block;
+	width: 70%;
+	margin: auto;
+	padding: 28% 0;
+	text-align: center;
+	border: none;
+}
+
+#container nav ul.language li a{
+	color:#000;
+	margin-right: 0%;
+}
+
+#container nav li.english {
+	background: #ffa000;
+}
+
+#category_list {
+    margin-bottom: 0;
+}
+#category {
+    margin: 3.2% 0;
+}
+#category ul {
+    margin-top: 0;
+}
+#category li {
+    float: left;
+    padding: 5px 0;
+    border: none;
+    width: 31%;
+	background: #E6E6E6;
+	border-radius: 5px 5px 0 0;
+	text-align: center;
+	font-weight: bold;
+    margin-right: 3.3%;
+}
+#category li.on {
+	padding: 5px 0;
+	background: #FF9600;
+	color: #fff;
+	font-size: 13px;
+}
+#category li:last-child {
+	margin-right: 0;
+}
+#category li img {
+	display: block;
+	margin: 0;
+	width: 100%;
+}
+#category li a {
+	font-size: 13px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#name_list {
+    margin-top: -6.58%;
+    padding: 4% 0 0;
+    background: #fff;
+}
+#name_list ul {
+	padding: 4% 0;
+	border-top: 1px solid #ff9600;
+	border-bottom: 1px solid #ff9600;
+	text-align: center;
+}
+#name_list li {
+    padding: 0 8px;
+    margin: 2% 0;
+    line-height: 1;
+    border-right: 1px solid #969696;
+    border-top: none;
+    display: inline-block;
+    font-size: 12px;
+}
+#name_list li.edge {
+    padding: 0 10px;
+    line-height: 21px;
+    border-right: none;
+}
+
+.company-list > ul {
+	padding: 2% 0 0;
+	background: #fff;
+}
+
+.id, .name, .category {
+	float: left;
+}
+
+.id {
+    width: 16%;
+    font-weight: bold;
+}
+.name {
+    width: 84%;
+}
+.name a {
+    color: #ff9600;
+    text-decoration: none;
+}
+.category {
+	padding-bottom: 2%;
+    clear: left;
+    width: 100%;
+	color: #969696;
+	border-bottom: 1px solid #e6e6e6;
+}
+
+.list-footer {
+	padding: 3% 0;
+	width: 100%;
+	background: #fff;
+	border-radius: 0 0 7px 7px;
+	border-bottom: none;
+}
