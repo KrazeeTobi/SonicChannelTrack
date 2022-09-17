@@ -1,0 +1,64 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* ----------------------------------------
+    Sitemap
+---------------------------------------- */
+
+section p.notice {
+	border: 1px solid #ffa000;
+	margin: 3% 0 0;
+	padding: 3%;
+	color: #ffa000;
+	text-align: center;
+	font-weight: bold;
+}
+
+section dd {
+    border-bottom: 1px solid #e6e6e6;
+    padding-bottom: 2%;
+    margin-bottom: 2%;
+}
+section dd a {
+	color: #ffa000;
+}
+
+span.public {
+	color: #ff5064;
+	font-weight: bold;
+}
+span.buyer {
+	color: #00b4dc;
+	font-weight: bold;
+}
+
+
+/*------------- Sitemap -------------*/ 
+
+#sitemap table {
+    line-height: 1.5;
+    width: 100%;
+}
+#sitemap td {
+    padding-top: 5px;
+    padding-bottom: 6px;
+    border-bottom: #B4B4B4 solid 1px;
+    padding-right: 5%;
+    vertical-align: top;
+}
+#sitemap td.no-border {
+    border: none;
+}
+a {
+    color: #ff9600;
+	text-decoration: none;
+}
+#sitemap .public a {
+    color: #ff5064;
+}
+#sitemap .buyer a {
+    color: #00b4dc;
+}
+#sitemap .press a {
+    color: #5ab400;
+}

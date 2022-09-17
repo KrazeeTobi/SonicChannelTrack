@@ -1,0 +1,97 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* ----------------------------------------
+    Index
+---------------------------------------- */
+
+#main {
+	padding-top: 58%;
+	margin: auto;
+	position: relative;
+	width: 93.75%;
+}
+#main h2 {
+	display: block;
+    position: absolute;
+    bottom: 7%;
+    left: 0;
+    width: 39%;
+}
+#main .kodomohaku {
+    position: absolute;
+    bottom: 5%;
+    right: 0;
+    width: 17%;
+}
+
+.resultSp p {
+	text-align: center;
+    margin-bottom: 0;
+}
+.resultSp img {
+    margin-top: 2%;
+}
+
+/*------------- Outline -------------*/ 
+
+span.public {
+	color: #ff5064;
+	font-weight: bold;
+}
+span.buyer {
+	color: #00b4dc;
+	font-weight: bold;
+}
+
+section.outline dd {
+    border-bottom: 1px solid #e6e6e6;
+    padding-bottom: 2%;
+    margin-bottom: 2%;
+}
+
+section li img {
+	margin-bottom: 10px;
+	display: block;
+}
+
+/*------------- Hallmap -------------*/ 
+
+.hallmap_buyer,
+.hallmap_public {
+	border-bottom: none;
+    margin-bottom: 3%;
+    padding-top: 16.5%;
+    padding-bottom: 16.5%;
+    text-align: center;
+}
+.hallmap_buyer img,
+.hallmap_public img {
+	width: 95%;
+}
+
+
+/*------------- sp_sidebar -------------*/ 
+
+
+.sp_sidebar {
+	background: #fff;
+}
+.sp_sidebar li {
+	width: 37.5%;
+	float: left;
+	margin-top: 3.125%;
+}
+.sp_sidebar li img {
+	display: block;
+}
+.sp_sidebar li:nth-child(odd) {
+	margin-right: 6.25%;
+	margin-left: 9.375%;
+}
+.sp_sidebar li:nth-child(even) {
+	margin-right: 9.375%;
+}
+.sp_sidebar li:last-child {
+	padding-bottom: 3.125%;
+}
