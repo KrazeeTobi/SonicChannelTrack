@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/* ----------------------------------------
+    press
+---------------------------------------- */
+
+section h3 {
+    position: relative;
+    display: inline-block;
+    margin-top: 0;
+    margin-bottom: 15px;
+    width: 100%;
+    padding-top: 4px;
+    padding-left: 25px;
+    color: #5AB400;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1;
+}
+section h3:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '';
+    width: 10px;
+    height: 100%;
+    background: #5ab400;
+}
+
+section a,
+section a:hover {
+	color: #5AB400;
+}
+
+section p {
+	padding: 0;
+	margin-top: 0;
+}
+
+section div {
+    border-bottom: 1px solid #5AB400;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+}
+
+section h2.press img {
+	width: 207px;
+}
+section div:last-child {
+	border-bottom: none;
+}

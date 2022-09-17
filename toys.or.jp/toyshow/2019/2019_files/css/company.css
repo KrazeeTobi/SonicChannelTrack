@@ -1,0 +1,148 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* ----------------------------------------
+    Index
+---------------------------------------- */
+
+a {
+	color: #FF9600;
+}
+
+section h2 {
+	margin-bottom: 35px;
+}
+.en section h2 {
+	margin-bottom: 0;
+	border-bottom: none;
+}
+section h2>img {
+    width: 127px;
+}
+.en section h2>img {
+    width: 273px;
+}
+section div {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.company-list .frame {
+	margin-top: 30px;
+}
+
+#category {
+    margin-top: -50px;
+    margin-left: -30px;
+    width: 700px;
+}
+#category ul {
+    margin-top: 0;
+}
+#category li {
+    margin: 0 8px 0 0;
+    border: none;
+    width: 228px;
+    height: 50px;
+    background: rgba(255,255,255,.7);
+    border-radius: 10px 10px 0 0;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+}
+#category li:last-child {
+	margin-right: 0;
+}
+#category li.on {
+    padding-top: 12px;
+    height: 38px;
+    background: #fff;
+    color: #ff9600;
+}
+#category li a {
+    padding: 12px 0;
+    display: block;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+section li {
+    margin-top: 0;
+    margin-right: 0;
+}
+#name_list {
+    padding: 20px 67px;
+    border-top: none;
+    border-bottom: 1px solid #ff9600;
+}
+.en #name_list {
+	margin-top: 30px;
+    padding: 20px 67px;
+    border-top: 1px solid #ff9600;
+    border-bottom: 1px solid #ff9600;
+}
+#name_list ul {
+	width: auto;
+}
+#name_list li {
+    padding: 0 10px;
+    line-height: 21px;
+    border-right: 1px solid #969696;
+    border-top: none;
+    display: inline-block;
+    float: left;
+    font-size: 12px;
+}
+#name_list li.edge {
+    padding: 0 10px;
+    line-height: 21px;
+    border-right: none;
+}
+
+section > ul {
+    border-bottom: 1px solid #e6e6e6;
+}
+section li {
+    float: left;
+}
+
+.id, .name, .category {
+	padding: 22px 0 20px;
+}
+
+.id {
+	margin-top: -120px;
+	padding-top: 142px;
+    font-weight: bold;
+    width: 70px;
+}
+.name {
+    width: 170px;
+    padding-right: 35px;
+}
+.name a {
+    color: #ff9600;
+    text-decoration: none;
+}
+.category {
+    width: 355px;
+}
+.category img {
+	margin-right: 10px;
+    width: 140px;
+}
+.list-area {
+    position: relative;
+    margin-top: 50px;
+    padding-top: 75px;
+    border-radius: 0 0 10px 10px;
+}
+#category_list {
+    position: absolute;
+    top: 0;
+}
+.en #category_list {
+    position: inherit;
+    top: auto;
+}
