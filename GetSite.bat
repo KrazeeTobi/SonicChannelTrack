@@ -325,6 +325,16 @@ del toyoda.7
 del toyoda.8
 del toyoda.9
 del toyoda.10
+del ryu.1
+del ryu.2
+del ryu.3
+del ryu.4
+del ryu.5
+del ryu.6
+del ryu.7
+del ryu.8
+del ryu.9
+del ryu.10
 cd ..
 cd ..
 cd topics

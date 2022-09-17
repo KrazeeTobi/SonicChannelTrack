@@ -1,0 +1,184 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* ----------------------------------------
+    Index
+---------------------------------------- */
+
+body {
+	background: url(../img/common/bg.jpg) center top no-repeat #f0f0f0;
+	background-size: 100%;
+}
+
+#container {
+    padding-top: 51%;
+}
+
+#sekai-kodomohaku {
+	position: absolute;
+    top: -160px;
+    right: 50%;
+    margin-right: -526px;
+}
+
+#result {
+	position: absolute;
+    bottom: 45px;
+    left: 50%;
+    margin-left: -502px;
+    width: 340px;
+    height: 180px;
+	background: url(../img/index/result.png) left bottom no-repeat;
+}
+#result #result_buyer {
+	margin: 20px 0 0 20px;
+}
+#result #result_all {
+	float: right;
+	margin-right: 20px;
+}
+
+#result1 {
+	position: absolute;
+    bottom: 45px;
+    left: 50%;
+    margin-left: -502px;
+    width: 340px;
+    height: 321px;
+	background: url(../img/index/result1.png) left bottom no-repeat;
+}
+
+#result1 #result_all {
+	margin: 20px 0 0 88px;
+}
+#result1 #result_buyer {
+	float: left;
+	margin-left: 20px;
+}
+#result1 #result_public {
+	margin-left: 175px;
+}
+
+
+#result2 {
+	position: absolute;
+    bottom: 45px;
+    left: 50%;
+    margin-left: -502px;
+    width: 340px;
+    height: 415px;
+	background: url(../img/index/result2.png) left bottom no-repeat;
+}
+
+#result2 #result_all {
+	margin: 20px 0 0 88px;
+}
+#result2 #result_buyer {
+	float: left;
+	margin-left: 20px;
+}
+#result2 #result_public {
+	margin-left: 175px;
+}
+
+#result li a,
+#result2 li a,
+#result1 li a {
+    display: block;
+    width: 145px;
+    height: 140px;
+}
+
+#result-sp {
+	display: none;
+}
+
+section p.notice {
+	border: 1px solid #ffa000;
+	padding: 10px;
+	text-align: center;
+}
+
+/*------------- Outline -------------*/ 
+section dl {
+	position: relative;
+}
+section dt {
+	position: absolute;
+	left: 0;
+}
+section dd {
+    display: block;
+    border-bottom: 1px solid #e6e6e6;
+    padding-left: 7em;
+    padding-bottom: 10px;
+    margin-bottom: 13px;
+}
+
+span.public {
+	color: #ff5064;
+	font-weight: bold;
+}
+span.buyer {
+	color: #00b4dc;
+	font-weight: bold;
+}
+
+section dd a {
+	color: #ffa000;
+}
+
+
+/*------------- index_menu -------------*/ 
+
+#index_menu {
+    padding: 10px 0 10px 10px;
+    width: 710px;
+}
+
+#index_menu li {
+    margin: 0;
+    margin-right: 10px;
+	padding: 0;
+	list-style-type: none;
+    float: left;
+}
+
+#index_menu li img{
+	width: 345px;
+	vertical-align:bottom;
+}
+
+
+/* ----------------------------------------
+    page link
+---------------------------------------- */
+
+#outline,
+#hallmap {
+	padding: 125px 0 15px;
+    margin: -125px 0 20px;
+	border: none;
+}
+
+
+/*------------- Hallmap -------------*/ 
+
+.hallmap_buyer,
+.hallmap_public {
+	border-bottom: none;
+    margin-bottom: 30px;
+    padding-top: 88px;
+    padding-bottom: 0;
+    width: 660px;
+    height: 152px;
+    text-align: center;
+}
+.hallmap_buyer {
+	background: url(../img/index/hallmap_bg.gif);
+	background-size: 100%;
+}
+.hallmap_public {
+	background: url(../img/index/hallmap_bg.gif);
+	background-size: 100%;
+}

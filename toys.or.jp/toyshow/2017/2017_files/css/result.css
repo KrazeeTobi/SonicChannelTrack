@@ -1,0 +1,172 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* ----------------------------------------
+    Index
+---------------------------------------- */
+
+body {
+	background: url(../img/common/bg2.jpg) center top no-repeat #f0f0f0;
+	background-size: 100%;
+	font-size: 12px;
+}
+
+#container {
+    padding-top: 27%;
+}
+
+#sekai-kodomohaku {
+	position: absolute;
+    top: -160px;
+    right: 50%;
+    margin-right: -526px;
+}
+
+
+/*------------- Result_Buyer -------------*/ 
+
+section {
+	border-bottom: none;
+	margin-bottom: 0;
+}
+section h2 {
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+}
+section h2.buyer_title {
+    border-bottom: 1px solid #00b4dc;
+}
+section h2.public_title {
+    border-bottom: 1px solid #FF5064;
+}
+section h2.result_title {
+    border-bottom: 1px solid #FF9600;
+}
+
+img.result {
+	margin-top: 20px;
+}
+
+.result_btn {
+	margin-right: 15px;
+}
+
+.pics {
+	width: 665px;
+	margin: 20px 0;
+	border-bottom: none;
+}
+.pics img {
+	margin: 0 5px 2px 0;
+}
+
+.colorBlue {
+	margin: 15px 0;
+	color: #00B4DC;
+	font-weight: bold;
+}
+
+.colorRed {
+	margin: 15px 0;
+	color: #FF5064;
+	font-weight: bold;
+}
+
+.caution{
+	margin-bottom: 20px;
+}
+
+
+/* public_total
+---------------------------------------- */
+
+#result .pub {
+	background: #ffe6e6;
+	width: 109px;
+	color: #ff5064;
+}
+
+#result .headline_pub {
+	background: #ff5064;
+	text-align: center;
+	color: #fff;
+}
+
+.sort,.headline {
+	background: #646464;
+	color: #fff;
+	text-align: center;	
+	font-weight: bold;
+}
+.sort {
+	width: 158px;
+}
+
+.result table {
+    width: auto;
+    margin-top: 20px;	
+}
+.result th,
+.result td {
+	border: solid #fff 2px;
+}
+.result th {
+    background: #E6E6E6;
+    border-left: none;
+    padding: 7px 10px;
+    color: #646464;
+	font-weight: bold;
+    text-align: left;
+}
+.result td {
+	text-align: center;
+}
+
+.result .sort,
+.result .headline {
+	background: #3c3c3c;
+	color: #fff;
+	text-align: center;	
+	font-weight: bold;
+}
+.result .sort {
+	width: 158px;	
+}
+.result .hidden {
+	visibility: hidden;
+}
+
+/* buyer_total
+---------------------------------------- */
+
+#result td {	
+	background: #d2f0f0;
+	width: 123px;
+	color: #00b4dc;
+}
+
+#result .headline {
+	background: #00b4dc;	
+}
+
+/* total
+---------------------------------------- */
+
+#total {
+	clear: left;
+    width: 657px;
+	margin: 0;
+}
+#total th,
+#total td {
+	border-top-style: none;	
+}
+#total th {
+	width: 166px;
+}
+#total td{
+	background: #ff9600;
+	color: #fff;
+}
+
+

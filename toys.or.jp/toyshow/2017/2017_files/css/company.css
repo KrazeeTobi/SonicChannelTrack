@@ -1,0 +1,123 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* ----------------------------------------
+    Index
+---------------------------------------- */
+
+body {
+	background: url(../img/common/bg2.jpg) center top no-repeat #f0f0f0;
+	background-size: 100%;
+}
+
+a {
+	color: #FF9600;
+}
+
+#container {
+    padding-top: 27%;
+}
+
+section h2 {
+	margin-bottom: 35px;
+}
+
+#sekai-kodomohaku {
+	position: absolute;
+    top: -160px;
+    right: 50%;
+    margin-right: -526px;
+}
+
+section div {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+#category_list {
+}
+#category {
+    margin: 35px 0 0;
+}
+#category ul {
+    margin-top: 0;
+}
+#category li {
+    margin: 0 7px 0 0;
+    padding: 0;
+    border: none;
+	width: 215px;
+    padding-top: 12px;
+    height: 38px;
+	background: #E6E6E6;
+	border-radius: 5px 5px 0 0;
+	text-align: center;
+	font-weight: bold;
+	font-size: 16px;
+}
+#category li:last-child {
+	margin-right: 0;
+}
+#category li.on {
+	background: #FF9600;
+	color: #fff;
+}
+#category li a {
+	font-weight: bold;
+	text-decoration: none;
+}
+
+section li {
+    margin-top: 0;
+    margin-right: 0;
+}
+#name_list {
+	padding: 20px 67px;
+	border-top: 1px solid #ff9600;
+	border-bottom: 1px solid #ff9600;
+}
+#name_list ul {
+	width: auto;
+}
+#name_list li {
+    padding: 0 10px;
+    line-height: 21px;
+    border-right: 1px solid #969696;
+    border-top: none;
+    display: inline-block;
+    float: left;
+    font-size: 12px;
+}
+#name_list li.edge {
+    padding: 0 10px;
+    line-height: 21px;
+    border-right: none;
+}
+
+section > ul {
+    border-bottom: 1px solid #e6e6e6;
+}
+section li {
+    float: left;
+}
+
+.id, .name, .category {
+	padding: 22px 0 20px;
+}
+
+.id {
+    font-weight: bold;
+    width: 70px;
+}
+.name {
+    width: 255px;
+    padding-right: 35px;
+}
+.name a {
+    color: #ff9600;
+    text-decoration: none;
+}
+.category {
+    width: 271px;
+}

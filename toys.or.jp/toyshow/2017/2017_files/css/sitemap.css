@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* ----------------------------------------
+    Index
+---------------------------------------- */
+
+body {
+	background: url(../img/common/bg2.jpg) center top no-repeat #f0f0f0;
+	background-size: 100%;
+	font-size: 12px;
+}
+
+#container {
+    padding-top: 27%;
+}
+
+#sekai-kodomohaku {
+	position: absolute;
+    top: -160px;
+    right: 50%;
+    margin-right: -526px;
+}
+
+/*------------- Sitemap -------------*/ 
+
+#sitemap table {
+    line-height: 43px;
+    width: 660px;
+}
+#sitemap td {
+    border-bottom: #B4B4B4 solid 1px;
+    min-height: 43px;
+    padding-left: 10px;
+    vertical-align: top;
+}
+#sitemap td.no-border {
+    border: none;
+}
+a {
+    color: #ff9600;
+}
+#sitemap .public a {
+    color: #ff5064;
+}
+#sitemap .buyer a {
+    color: #00b4dc;
+}
+#sitemap .press a {
+    color: #5ab400;
+}

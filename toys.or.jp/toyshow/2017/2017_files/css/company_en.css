@@ -1,0 +1,278 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* ----------------------------------------
+    Index
+---------------------------------------- */
+
+body {
+	background: url(../img/common/bg2.jpg) center top no-repeat #f0f0f0;
+	background-size: 100%;
+}
+
+a{
+	color: #FF9600;
+}
+
+#container {
+    padding-top: 51%;
+}
+
+#sekai-kodomohaku {
+	position: absolute;
+    top: -160px;
+    right: 50%;
+    margin-right: -526px;
+}
+
+section p.notice {
+	border: 1px solid #ffa000;
+	padding: 10px;
+	color: #ffa000;
+	text-align: center;
+	font-weight: bold;
+}
+
+.coming_soon{
+	display: block;
+	padding: 150px 0;
+	text-align: center;
+}
+
+
+/* header
+---------------------------------------- */
+
+li.english{
+	background-color: #ffa000;
+}
+
+#container {
+	position: relative;
+    margin-bottom: 40px;
+}
+
+
+/*------------- Nav -------------*/ 
+#logo {
+	position: fixed;
+	top: 9px;
+	left: 50%;
+	margin-left: -500px;
+	opacity: 0;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+#container nav #logo img {
+	display: block;
+	width: 79px;
+}
+
+#container nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+	padding-top: 12px;
+    background: rgba(0,0,0,0.8);
+    width: 100%;
+    height: 60px;
+    color: #fff;
+	box-shadow:0px 0px 12px 3px rgba(2,3,2,0.5);
+	-moz-box-shadow:0px 0px 12px 3px rgba(2,3,2,0.5);
+	-webkit-box-shadow:0px 0px 12px 3px rgba(2,3,2,0.5);
+}
+#container nav.fixed {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 9;
+    padding-top: 25px;
+    height: 80px;
+}
+
+#container nav.fixed ul {
+	width: 910px;
+    padding-left: 100px;
+}
+
+#container nav.fixed #logo {
+	opacity: 1;
+}
+
+#container nav ul {
+	margin: auto;
+	display: table;
+	width: 1000px;
+    border-collapse: separate;
+	border-spacing: 6px 3px;
+	transition: 0.2s;
+}
+
+#container nav li {
+	display: table-cell;
+	width: 250px;
+	text-align: center;
+    border-radius: 4px;
+	line-height: 1;
+	font-size: 12px;
+}
+
+#container nav li a,
+#container nav li a:hover {
+	display: block;
+	padding: 14px 0;
+	color: #fff;
+	text-decoration: none;
+}
+
+#container nav li a:before {
+	content: '▶ ';
+}
+
+#container nav li.english {
+	background: #ffa000;
+}
+
+#content_wrap {
+	position: relative;
+	margin: auto;
+	width: 1000px;
+}
+
+
+/* #category_list
+---------------------------------------- */
+
+#container {
+    padding-top: 27%;
+}
+
+section .outline{
+	margin-bottom: 20px;
+	padding-bottom: 0;
+	border-bottom: none;
+}
+
+#sekai-kodomohaku {
+	position: absolute;
+    top: -160px;
+    right: 50%;
+    margin-right: -526px;
+}
+
+section div {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+#category_list {
+}
+#category {
+    margin: 35px 0 0;
+}
+#category ul {
+    margin-top: 0;
+}
+#category li {
+    margin: 0 7px 0 0;
+    padding: 0;
+    border: none;
+	width: 215px;
+    padding-top: 12px;
+    height: 38px;
+	background: #E6E6E6;
+	border-radius: 5px 5px 0 0;
+	text-align: center;
+	font-weight: bold;
+	font-size: 16px;
+}
+#category li:last-child {
+	margin-right: 0;
+}
+#category li.on {
+	background: #FF9600;
+	color: #fff;
+}
+#category li a {
+	font-weight: bold;
+	text-decoration: none;
+}
+
+section li {
+    margin-top: 0;
+    margin-right: 0;
+}
+#name_list {
+	padding: 20px 67px;
+	border-top: 1px solid #ff9600;
+	border-bottom: 1px solid #ff9600;
+}
+#name_list ul {
+	width: auto;
+}
+#name_list li {
+    padding: 0 10px;
+    line-height: 21px;
+    border-right: 1px solid #969696;
+    border-top: none;
+    display: inline-block;
+    float: left;
+    font-size: 12px;
+}
+#name_list li.edge {
+    padding: 0 10px;
+    line-height: 21px;
+    border-right: none;
+}
+
+section > ul {
+    border-bottom: 1px solid #e6e6e6;
+}
+section li {
+    float: left;
+}
+
+.id, .name, .category {
+	padding: 22px 0 20px;
+}
+
+.id {
+    font-weight: bold;
+    width: 70px;
+}
+.name {
+    width: 255px;
+    padding-right: 35px;
+}
+.name a {
+    color: #ff9600;
+    text-decoration: none;
+}
+.category {
+    width: 271px;
+}
+
+
+
+
+/* footer
+---------------------------------------- */
+
+#archive .btn{
+	width: 250px;
+	margin-left: 600px;
+}
+
+
+
+
+
+
+
+
+
