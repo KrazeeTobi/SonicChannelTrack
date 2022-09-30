@@ -21,6 +21,7 @@
 ::v1.2.7 - 2022-04-27: Nevermind, that breaks the logging process. Should be working now.
 ::v1.3.0 - summer 2022: added new sonicteam link
 ::v1.4.0 - THESE TEMP FILES MAAAN
+::v1.5.0 - These MOTHERFUCKING FILES, said Krazeenem.
 ::--------------------------------------------------------------change comments end
 git pull
 wget -r --no-parent --no-check-certificate -p http://sonic.sega.jp/
@@ -303,6 +304,9 @@ del sonicstationlive.1
 del sonicstationlive.2
 del sonicstationlive.3
 del sonicstationlive.4
+del sonicstationlive.5
+del oekaki.1
+del oekaki.2
 cd ..
 cd staffcolumn
 del fujiki.1
