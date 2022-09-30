@@ -1,24 +1,36 @@
-function smartRollover() {
-	if(document.getElementsByTagName) {
-		var images = document.getElementsByTagName("img");
+<!DOCTYPE html>
+<html lang="ja" class="no-js is-noresp">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, user-scalable=yes">
+<meta name="format-detection" content="telephone=no">
+<title>Sorry, ただいまシステムメンテナンス中です。｜Nintendo</title>
+<link rel="stylesheet" href="/css/sorry.css">
+<link rel="stylesheet" href="/css/ncommon_shared.css">
+<script src="/js/lib.js"></script>
 
-		for(var i=0; i < images.length; i++) {
-			if(images[i].getAttribute("src").match("_off."))
-			{
-				images[i].onmouseover = function() {
-					this.setAttribute("src", this.getAttribute("src").replace("_off.", "_ov."));
-				}
-				images[i].onmouseout = function() {
-					this.setAttribute("src", this.getAttribute("src").replace("_ov.", "_off."));
-				}
-			}
-		}
-	}
-}
+<script src="/js/ncommon_main.js"></script>
 
-if(window.addEventListener) {
-	window.addEventListener("load", smartRollover, false);
-}
-else if(window.attachEvent) {
-	window.attachEvent("onload", smartRollover);
-}
+<!--[if lt IE 9]>
+<script src="/js/vendor/html5shiv.js"></script>
+<![endif]-->
+
+</head>
+<body>
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-NVPD62" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script src="https://www.nintendo.co.jp/common/js/gap/gtm_guest.js"></script>
+<!-- End Google Tag Manager -->
+<header class="sorry_head">
+	<div class="logo"><img src="/img/logo.png" width="78" height="19" alt="Nintendo"></div>
+</header>
+<article class="sorry_contents">
+	<section class="sorry_contents_body">
+		<div class="sorry_img"><img src="/img/img_mario.gif" width="60" height="80" alt=""></div>
+		<h1 class="sorry_title is-axis-b">ただいま<br class="is--sp-only">システムメンテナンス中です。</h1>
+		<p class="sorry_text is-axis-b">誠に恐れ入りますが、時間帯を変えて<br class="is--sp-only">ご利用いただきますようお願いいたします。</p>
+	</section>
+</article>
+
+</body>
+</html>
