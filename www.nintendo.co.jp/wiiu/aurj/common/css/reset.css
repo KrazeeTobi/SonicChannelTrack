@@ -1,36 +1,76 @@
-<!DOCTYPE html>
-<html lang="ja" class="no-js is-noresp">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, user-scalable=yes">
-<meta name="format-detection" content="telephone=no">
-<title>Sorry, ãŸã ã„ã¾ã‚·ã‚¹ãƒ†ãƒ ãƒ¡ãƒ³ãƒ†ãƒŠãƒ³ã‚¹ä¸­ã§ã™ã€‚ï½œNintendo</title>
-<link rel="stylesheet" href="/css/sorry.css">
-<link rel="stylesheet" href="/css/ncommon_shared.css">
-<script src="/js/lib.js"></script>
+@charset "shift_jis";
 
-<script src="/js/ncommon_main.js"></script>
+/***********************************************/
+/* FileName: reset.css                         */
+/* data:2012/04/17                             */
+/***********************************************/
 
-<!--[if lt IE 9]>
-<script src="/js/vendor/html5shiv.js"></script>
-<![endif]-->
+* {
+margin: 0;
+padding: 0;
+}
 
-</head>
-<body>
-<!-- Google Tag Manager -->
-<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-NVPD62" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<script src="https://www.nintendo.co.jp/common/js/gap/gtm_guest.js"></script>
-<!-- End Google Tag Manager -->
-<header class="sorry_head">
-	<div class="logo"><img src="/img/logo.png" width="78" height="19" alt="Nintendo"></div>
-</header>
-<article class="sorry_contents">
-	<section class="sorry_contents_body">
-		<div class="sorry_img"><img src="/img/img_mario.gif" width="60" height="80" alt=""></div>
-		<h1 class="sorry_title is-axis-b">ãŸã ã„ã¾<br class="is--sp-only">ã‚·ã‚¹ãƒ†ãƒ ãƒ¡ãƒ³ãƒ†ãƒŠãƒ³ã‚¹ä¸­ã§ã™ã€‚</h1>
-		<p class="sorry_text is-axis-b">èª ã«æã‚Œå…¥ã‚Šã¾ã™ãŒã€æ™‚é–“å¸¯ã‚’å¤‰ãˆã¦<br class="is--sp-only">ã”åˆ©ç”¨ã„ãŸã ãã¾ã™ã‚ˆã†ãŠé¡˜ã„ã„ãŸã—ã¾ã™ã€‚</p>
-	</section>
-</article>
+body {
+	color:#000;
+	text-align:center;
+	margin:0 auto;
+	padding:0;
+	font-size: 82%;
+	font-family:'ƒƒCƒŠƒI',Meiryo, 'ƒqƒ‰ƒMƒmŠpƒS Pro W3','Hiragino Kaku Gothic Pro','‚l‚r ‚oƒSƒVƒbƒN';
+	line-height:1.4;
+}	
 
-</body>
-</html>
+h1, h2, h3, h4, h5, h6, address{
+	font-size: 1em;
+	font-weight: normal;
+	font-style: normal;
+	font-family:'ƒƒCƒŠƒI',Meiryo, 'ƒqƒ‰ƒMƒmŠpƒS Pro W3','Hiragino Kaku Gothic Pro','‚l‚r ‚oƒSƒVƒbƒN';
+	margin: 0;
+	padding: 0;
+	line-height:1;
+}
+textarea{
+	font-size: 1em;
+	font-weight: normal;
+	font-style: normal;
+	font-family:'ƒƒCƒŠƒI',Meiryo, 'ƒqƒ‰ƒMƒmŠpƒS Pro W3','Hiragino Kaku Gothic Pro','‚l‚r ‚oƒSƒVƒbƒN';
+	margin: 0;
+	padding: 0;
+	line-height:1.3;
+}
+  
+li {
+	list-style-type: none;
+}
+
+a {
+	color: #333;
+}
+
+a img {
+	border:none;
+}
+
+a:hover {
+	border-style: none;
+}
+
+a:link {
+	border-style: none;
+}
+
+a:link img {
+	border-style: none;
+}
+
+p,dl,dt,dd,ul,ol,li,table{
+	margin: 0;
+	padding: 0;
+	}
+table{
+	border-collapse: collapse;
+	}
+img{
+	border:0;
+	vertical-align:bottom;
+	}
