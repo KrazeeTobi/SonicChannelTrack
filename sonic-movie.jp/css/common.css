@@ -249,14 +249,13 @@ contents
 }
 
 #mainvisual_inner #bnr_right{
-	width:345px;
+	width:325px;
 	position:absolute;
 	right:10px;
-	bottom:180px;
+	bottom:170px;
 }
 
-#mainvisual_inner #bnr_left ul,
-#mainvisual_inner #bnr_right ul{
+#mainvisual_inner #bnr_left ul{
 	width:345px;
 	margin:0 auto;
   justify-content: space-between;
@@ -267,16 +266,31 @@ contents
 	flex-wrap: wrap;
 }
 
-#mainvisual_inner #bnr_left ul li,
-#mainvisual_inner #bnr_right ul li{
+#mainvisual_inner #bnr_left ul li{
 	width:170px;
+	position:relative;
+}
+
+#mainvisual_inner #bnr_right ul{
+	width:325px;
+	margin:0 auto;
+  justify-content: space-between;
+  align-items: start;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+
+#mainvisual_inner #bnr_right ul li{
+	width:325px;
 	position:relative;
 }
 
 #mainvisual #logo{
 	width:21%;
 	margin:0 auto;
-	padding-top:37.2%;
+	padding-top:37%;
 	position:relative;
 }
 
@@ -294,7 +308,7 @@ contents
 }
 
 #mainvisual #date{
-	width:14%;
+	width:26%;
 	margin:0 auto;
 	padding-top:0%;
 	position:relative;
@@ -736,8 +750,9 @@ scroll
 #footer{
 	width:100%;
 	min-width:1200px;
-	height:360px;
+	height:220px;
 	background-color:#fff;
+	padding-top:30px;
 }
 
 /*--------------------------------------
@@ -747,7 +762,7 @@ mvtk
 	width:100%;
 	min-width: 1200px;
 	position:relative;
-	height:300px;
+	height:50px;
 	overflow:hidden;
 	margin:0 auto;
 	background: url(../images/mvtk_bg.jpg) no-repeat center top;

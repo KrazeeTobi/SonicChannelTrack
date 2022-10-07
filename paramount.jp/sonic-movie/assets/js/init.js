@@ -38,34 +38,25 @@ jQuery(function(){
 });
 
 jQuery(function(){
-	jQuery(".digi li  img")
-		.css({
-			opacity: "0.5"
-		});
-	jQuery(".digi li a img")
-		.css({
-			opacity: "1"
-		});
+  jQuery(".digi li  img")
+    .css({
+      opacity: "0.5"
+    });
+  jQuery(".digi li a img")
+    .css({
+      opacity: "1"
+    });
 });
 
 
+
+
 jQuery(function(){
-	jQuery("p.btn_details1 img")
-		.css({
-			opacity: "0.5"
-		});
-	jQuery("p.btn_details1 a img")
+	jQuery(".konyu  img")
 		.css({
 			opacity: "1"
 		});
-});
-
-jQuery(function(){
-	jQuery("p.btn_details2 img")
-		.css({
-			opacity: "0.5"
-		});
-	jQuery("p.btn_details2 a img")
+	jQuery(".konyu a img")
 		.css({
 			opacity: "1"
 		});
