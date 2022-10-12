@@ -1,9 +1,0 @@
-setTimeout(function(){
-  Ts.loadFont()
-},1000);
-setTimeout(function(){
-  Ts.loadFont()
-},5000);
-setTimeout(function(){
-  Ts.loadFont()
-},10000);
