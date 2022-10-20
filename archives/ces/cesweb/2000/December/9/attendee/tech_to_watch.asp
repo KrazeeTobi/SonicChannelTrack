@@ -1,0 +1,302 @@
+<html>
+
+<head>
+<title>2001 International CES: Attendee Registration</title>
+<script language="javascript1.2">
+	var ns=(document.layers);var ie=(document.all);
+	var temp='';
+	var thePath=location.pathname;
+</script>
+<script language="javascript1.2" src="/global_include/js/nav_menu.js"></script>
+<script language="javascript1.2" src="/global_include/js/global.js"></script>
+<link rel="stylesheet" href="/global_include/css/nav_menu.css" type="text/css">
+<link rel="stylesheet" href="/global_include/css/global_style.css" type="text/css">
+</head>
+
+<BODY marginheight="0" marginwidth="0" leftmargin="0" topmargin="0" onLoad="setBannerAd('A'); init();">
+
+<!--Table Starts Here-->
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td valign="top" class="yellowback"><img src="/global_images/header_images/logo0.gif" width="141" height="69" alt="CES Logo" border="0"><img src="/global_images/header_images/source.gif" width="470" height="29" alt="Your Source for Workstyle and Lifestyle Technology" border="0"></td>
+</tr>
+<tr>
+<td valign="top" class="bluerule"><img src="/global_images/header_images/logomid.gif" width="128" height="3" alt="logo" border="0"></td>
+</tr>
+<tr>
+<td valign="top" class="greenback" background="/global_images/header_images/greenlines.gif"><img src="/global_images/header_images/logobottom.gif" width="126" height="13" alt="logo" border="0"><br>
+
+<table border="0" cellpadding="0" cellspacing="0" width="760"><tr><td valign="top">
+
+<img src="/global_images/header_images/venue.gif" width="270" height="53" alt="" border="0">
+
+</td><td valign="center"><a href="bannerAd"><img name="bannerAdGif" src="/global_images/banner_ads/ad_blank.gif" width="468" height="60" alt="Banner Ad" border="0" align=right></a></td></tr></table>
+
+</td>
+</tr>
+<tr>
+<td valign="top" class="blackrule"><script>s1(2,1)</script></td>
+</tr>
+<tr>
+<td align="left" valign="top">
+
+<table cellpadding="0" cellspacing="0" border="0">
+<tr>
+<td width="213" rowspan="5">
+<table width="213" cellpadding="0" cellspacing="0" border="0"><tr><td class="sp">
+<script>s1(1,213)</script>
+</td></tr></table>
+</td>
+<td>
+
+<table width="320" cellpadding="0" cellspacing="0" border="0"><tr><td class="sp">
+<script>s1(1,320)</script>
+</td></tr></table>
+</td>
+<td rowspan="2" width="100%" class="blueback">
+ 
+<table width="230" height="100%" class="blueback" cellpadding="0" cellspacing="1" border="0">
+<tr>
+<td class="homenav" align="middle"><a href="/default.asp"><font class="homenav">Home</font></a></td>
+<td class="homenav" align="middle"><a href="/contact.asp"><font class="homenav">Contact Us</font></a></td>
+<td class="homenav" align="middle"><a href="/about.asp"><font class="homenav">About CES</font></a></td>
+<td align="middle">&nbsp;</td>
+</tr>
+</table>
+ 
+</td>
+</tr>
+<tr>
+
+<!--Area goes below here-->
+<td valign="bottom" width="320"><font class="attendee">ATTENDEE AREA</font></td>
+</tr>
+<tr>
+<!--Colored bar goes below here-->
+<td colspan="2" class="attendee"><script>s1(2,1)</script></td>
+</tr>
+<tr>
+<!--Head goes below here-->
+<td valign="bottom" colspan="2"><br>
+<font class="head">Technologies to Watch at CES</font>
+<hr noshade size="1"></td>
+</tr>
+<tr>
+<td colspan="2">
+
+<table width="540" cellpadding="0" cellspacing="0" border="0">
+<tr><td>
+
+<!-- content starts here --> 
+<font class="body">
+<br>
+<font class="subhead"><a href="#digitalradio">Digital Radio</a></font><br>
+Get ready for the radio revolution.  
+Digital radio hits the U.S. market in 2001 and will radically change the current radio 
+landscape.  See the launch of this new technology only at CES.	<p>
+
+<font class="subhead"><a href="#bluetooth">Bluetooth</a></font><br>
+Leading global powerhouses are betting on Bluetooth as an alternative to other 
+wireless technologies. Don't miss the Bluetooth Pavilion at CES. 
+<p>
+<font class="subhead"><a href="#digitalImaging">Digital Imaging</a></font><br>
+Digital video and photography are rapidly changing the way consumers can capture memories and create video statements.   Don't miss the latest digital imaging tools to be unveiled at CES.
+<p>
+<font class="subhead"><a href="#homeNetworking">Home Networking</a></font><br>
+More than 73 million Americans know about home networkings.  Don't miss the latest home networking developments to be unveiled at CES.  Click here for more information on home networking trends.
+<p>
+<font class="subhead"><a href="#mp3">MP3 and Internet Audio</a></font><br>
+See how Internet technology is changing the music industry forever.  Don't miss the latest MP3 and Internet audio products to be unveiled at CES.  Click here for more information on MP3 research and trends.<p>
+
+
+<a name="digitalradio"></a>
+<br>
+<font class="subhead2">Digital Radio</a></font><p>
+
+With the introduction of two new digital technologies in 2001, American consumers soon will 
+have a multitude of digital audio choices available in their cars. Expect receivers for digital 
+satellite radio and digital terrestrial radio to start trickling into the U.S. marketplace in 2001. 
+And if the business plans of three companies come true, the analog radio sound that has been with 
+us since Pittsburgh's KDKA was licensed in the 1920s will be just a fading, fizzing, popping dream.<p>
+
+But consumers cannot hear the crystal clear reception of local AM and FM radio and the varied 
+content of national satellite radio with today's radios. Get set for the radio receiver market to 
+heat up.  The first generation of these receivers will debut at CES.<p>
+
+In the satellite arena, two companies obtained spectrum from the Federal Communications 
+Commission (FCC) in 1997 to provide satellite digital audio radio service (SDARS). Sirius Satellite 
+Radio and XM Satellite Radio expect to each beam 100 channels of digital music and talk formats 
+from the stars by mid-year 2001 for coast-to coast coverage.<p>
+
+Meanwhile, iBiquity Digital is finalizing development on a technology that will allow earthbound 
+stations the opportunity to go digital. The in-band, on-channel digital audio broadcasting (iDAB) 
+technology allows radio stations to simulcast digital and analog signals on the same frequency. 
+Stations are expected to begin adding digital to their signals in 2001 pending the resolution of 
+certain technological and regulatory hurdles. <p>
+
+For further information on digital radio technology, check out the upcoming 
+<a href="http://www.ce.org/vision_magazine">November/December 
+issue of Consumer Electronics Vision</a> with an article by Lynn 
+Meadows (Due out by November 1).<p>
+
+Check out the latest consumer research on digital radio at <a href="http://www.eBrain.org">eBrain.org</a>.  
+The Consumer Electronics Association just released a new survey on consumer expectations 
+for digital radio.<p>
+
+Most of the digital radio exhibitors at CES are located in the North Hall of the Las Vegas 
+Convention Center.  For a current list of exhibitors, including the three biggest players: 
+iBiquity Digital, Sirius Radio and XM Satellite Radio, 
+visit the <a href="http://www.cesweb.org/exhibitor_dir/exhibitor_name.asp?menuItem=3&subMenuItem=0&tabName=Attendee">
+CESweb online exhibitor directory</a>. 
+<p>
+Look for more information on relevant digital radio conference sessions at CES later this fall.
+<p>
+
+
+<a name="bluetooth"></a>
+<br>
+<font class="subhead2">Bluetooth</font><p>
+
+With immense support across disparate industries, Bluetooth is becoming one of the favored 
+global wireless technology standards. While other wireless technology groups such as IrDa and Home RF have fewer than 100 members each, the Bluetooth Special Interest Group (SIG) is comprised of close to 1,400 companies. Seldom does one see such cooperation among competitors and across disparate industries.<p>
+
+Today its leadership Promoter Group has expanded beyond its initial founders; Ericsson, IBM, Intel, Nokia and Toshiba to include 3Com, Lucent Technologies, Microsoft and Motorola. The SIG has become the leading force driving the rapid widespread acceptance of Bluetooth across the wide spectrum of telecommunications, computer hardware/software, automotive, military, medical and consumer electronics industries.<p>
+
+The actual applications of Bluetooth-enabled wireless technology signal a revolutionary global change in workstyles and lifestyles. It's at the core of the promise of a robust wireless Internet, wireless electronic commerce devices, and 'gee whiz' devices yet to come.<p>
+
+For further information on Bluetooth technology and its possible applications, <a href="http://www.ce.org/vision_magazine/editions/2000/mayjune/p13_15.asp">check out Consumer Electronics Vision magazine's article by Susan Schreiner</a>.<p>
+
+For information on the Bluetooth. Check out the <a href="http://www.cesweb.org/fac_pav/attendee_pavilions.asp?menuItem=9&subMenuItem=-1&tabName=Attendee#bluetooth">CES Bluetooth Pavilion</a> within the North Hall of the Las Vegas Convention Center at CES.<p>
+
+Look for more information on relevant wireless communications conference sessions at CES later this fall.<p>
+<center><font class="foot"><a href="#top">Return to Top</a></font></center>
+<br>
+<a name="digitalImaging"></a>
+<br>
+<font class="subhead2">Digital Imaging</font><p>
+If the old adage suggests a picture paints a thousand words, then the words evoked by the digital images being transmitted across computers today must number in the multi-billions, each personalized to the exact tenor and taste of their originator. <p>
+
+A new and powerful army of product suites are making their way into consumers' hands that empower users to capture, view, edit, save and send images in ways that were quite simply out of reach only a year or two ago. These digital cameras and camcorders, expanded editing software packages and other facilitating technologies are melding in a rainbow of applications, ranging from e-mailing photos of the kids to grandma to breathing new life into old home movies to creating and editing digital movies that can "screen" on a variety of formats. <p>
+
+According to the results of the Consumer Electronics Association's (CEA) "Digital Camera Owners Profile" survey, nearly 48 percent of owners claim the main reason for purchasing a digital camera was to post pictures to a website. <p>
+
+In addition to posting photos, digital camera owners also engage in a variety of other activities that enhance the sharing of experiences. Eighty percent of owners declared having e-mailed a photo taken with a digital camera, 82 percent have printed a photo, and 26 percent viewed a photo on their TV. <p>
+
+Ownership of a digital camera also correlates to an increase in photography. Fifty-eight percent of owners reported an increase in the total number of photos taken after the purchase of their digital camera. The typical owner takes approximately 37 pictures per month with their digital camera. Little difference was found to exist among gender, age or income segments when considering usage.<p>
+
+CEA estimates that 2.7 million digital cameras will be sold in the United States this year, a 30 percent increase from 1999 sales.<p>
+
+For further information on digital imaging applications and developments, <a href="http://www.ce.org/vision_magazine/editions/2000/julyaug/p14.asp">check out Consumer Electronics Vision magazine's article by Catherine Applefeld Olson</a>.<p>
+
+For the latest CEA consumer market research and sales statistics on digital imaging, log on to <a href="http://www.eBrain.org">www.eBrain.org</a>.
+<p>
+For information on the Digital Imaging, check out the <a href="http://www.cesweb.org/fac_pav/attendee_pavilions.asp?menuItem=9&subMenuItem=-1&tabName=Attendee#digitalimg">CES Digital Imaging Pavilion</a> within the North Hall of the Las Vegas Convention Center at CES.<p>
+
+Look for more information on relevant digital imaging conference sessions at CES later this fall.<p>
+<center><font class="foot"><a href="#top">Return to Top</a></font></center>
+<br>
+<a name="homeNetworking"></a>
+<br>
+<font class="subhead">Home Networking</font><p>
+
+More people are equipping their houses with a full range of networked systems that can control everything ranging from programming their alarm systems to setting up their heating and lighting to distributing television and Internet connections. <p>
+
+The home networking industry has come a long way since the first remote controls and timers came onto the market about twenty years ago, and the industry has grown in scope to reflect this coming of age. <p>
+
+Early home automation systems aimed to simplify our lives by automatically taking care of the mundane aspects of running a home, like turning lights on and off or putting appliances on a schedule. Integrated home systems (IHS) sought to link independent systems and appliances so they could work together and be controlled from other sources, so arming the security system could set back the thermostat for example. <p>
+
+Home networking brings the power of distributed content to the home's automated and integrated systems. And the proliferation of digital technology in a multitude of devices promises to change the market even more dramatically.  Just as the personal computer revolutionized the way we communicate, the home networking market could be the next phase of technology that changes how we live. <p>
+ 
+The Consumer Electronics Association (CEA) defines a home network as follows: a home network facilitates communication among the appliances, home systems, entertainment products and information devices in a home, so they can work cooperatively and share information. This allows users to get information about the home's condition and remotely control home systems and appliances, as well as provide access to information and entertainment resources outside the home. <p>
+
+According to a CEA survey of 1000 consumers in April of this year, consumers share the industry's excitement about the future of networking digital products, as long as the information is immediately applicable to them. Entertainment content such as music and video are among the most popular types of content consumers would like distributed around the house earning 59 and 47 percent respectively.<p>
+
+For further information on home networking, check out <a href="http://www.ce.org/vision_magazine/editions/2000/julyaug/p24.asp">Consumer Electronics Vision magazine's article by Tobi Elkin</a>.<p>
+
+For the latest CEA consumer market research and sales statistics on hone networking and home systems, log on to <a href="http://www.eBrain.org">www.eBrain.org</a>.<p>
+
+CES will features the top companies in home networking and home systems in the North Hall of the Las Vegas Convention Center and the Las Vegas Hilton.  <a href="http://www.cesweb.org/exhibitor_dir/?menuItem=3&subMenuItem=-1&tabName=Attendee">View a complete list of CES exhibitors</a>.<p>
+
+Beyond the exhibits, CES will feature several conference sessions on home networking.  Check back here later this fall for further conference information.<p>
+<center><font class="foot"><a href="#top">Return to Top</a></font></center>
+<br>
+<a name="mp3"></a>
+<br>
+<font class="subhead2">MP3 and Internet Audio</font><p>
+Last year MP3 took the country by storm. At the 2000 International CES, more than a dozen new MP3 players debuted.  MP3 technology offers consumers a new way to carry and receive free music off the Internet. MP3 technology is going to change the way music is sold and listened to forever. <p>
+
+According to a Consumer Electronics Association (CEA) survey, 65 percent of multimedia PC households with Internet access have listened to a sound file from an Internet Web page and that number is growing daily. <p>
+
+MP3 is an acronym for MPEG 3, which is itself an acronym for Motion Picture Expert Group-1, Audio Layer-3. MPEG defines digital video and audio data compression standards. Because they are open standards, nobody owns them, and they are available free or for a small fee. <p>
+
+MP3 has become the commonly accepted term for one of the many compression algorithms, also known as codecs, available for downloading digital music files from the Internet. For example, MP3 can compress the size of a five-minute CD track from about 50 megabytes to five megabytes and the download time to your computer's hard drive from about two hours to ten minutes.<p>
+
+CEA's Generation Y: Home Entertainment Market Overview found among the online segment of Gen Y (approximately 60 percent), 57 percent have played an MP3 music file. Although sound quality expectations vary, the data suggests that the majority of Gen Y listening to the MP3 format rate its sound quality as comparable to a typical stereo. <p>
+
+In addition, the study shows that Gen Y is moving away from the traditional stereo system for listening to music. Approximately 14 percent of respondents claimed to use their PC more than a traditional stereo for listening to music. Another one in four claimed to use both with approximately the same frequency; meaning that nearly 40 percent of Generation Y is using the PC as much as or more than a stereo for listening to music. <p>
+ 
+For further information on MP3, <a href="http://www.ce.org/vision_magazine/categories/mp3.asp">check out Consumer Electronics Vision magazine's recent articles on the subject</a>.<p>
+
+For the latest CEA consumer market research and sales statistics on MP3 and Internet audio, log on to <a href="http://www.eBrain.org">www.eBrain.org</a>.<p>
+
+For information on MP3 and Internet Audio, check out the <a href="http://www.cesweb.org/fac_pav/attendee_pavilions.asp?menuItem=9&subMenuItem=-1&tabName=Attendee#mp3 ">CES MP3 and Internet Audio Pavilion</a> within the North Hall of the Las Vegas Convention Center at CES.<p>
+
+Look for more information on relevant MP3 and Internet audio conference sessions at CES later this fall.<p>
+</font>
+<td>&nbsp;</td>
+<td width=170 valign=top class="generalRightNav">
+<table width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr><td valign=center class="headerRightNav"><font class="headerRightNav">Technologies to Watch</font></td></tr>
+<tr><td>&nbsp;<a href="#digitalradio" class="generalRightNav">Digital Radio</a></td></tr>
+
+<tr><td>&nbsp;<a href="#bluetooth" class="generalRightNav">Bluetooth</a></td></tr>
+
+<tr><td>&nbsp;<a href="#digitalimaging" class="generalRightNav">Digital Imaging</a></td></tr>
+
+<tr><td>&nbsp;<a href="#homeNetworking" class="generalRightNav">Home Networking</a></td></tr>
+
+<tr><td>&nbsp;<a href="#mp3" class="generalRightNav">MP3 and Internet Audio</a></td></tr>
+
+</table>
+</td>
+</tr>
+<td colspan="3">
+<!-- content ends here --> 
+
+<!--Footer Starts Here-->
+<br>
+<br>
+<hr noshade size="1">
+<font class="homenav"><a href="#top">Back to the top</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="/default.asp">Home</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="/contact.asp">Contact Us</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="/about.asp">About CES</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="/privacy.asp">Privacy Policy</a></font><br>
+<hr noshade size="1">
+<table cellpadding="0" cellspacing="0" border="0" width="100%">
+<tr>
+<td align=left><font class="foot">Consumer Electronics Association (CEA)<br>
+2500 Wilson Boulevard, Arlington, VA 22201-3834 USA<br>
+703 907 7605 tel<br>
+703 907 7675 fax<br>
+<a href="mailto:CESinfo@CE.org">CESinfo@CE.org</a>
+</font></td>
+<td align=right> <a href="http://www.fcgdoghouse.com"><img src="/global_images/doghouse_logo.gif" width=120 height=51 border=0 alt="FCG Doghouse"></a> </td>
+</tr>
+</table>
+<hr noshade size="1">
+<font class="foot">Questions or comments about our site? Contact the <a href="mailto:webmaster@cesweb.org">Webmaster</a>.<br>
+©2000 <a href="http://www.ce.org">Consumer Electronics Association</a>. All Rights Reserved.</font>
+</td>
+</tr>
+</table>
+
+</td>
+</tr>
+</table>
+
+</td>
+</tr>
+</table>
+<div id="navDiv"></div>
+<div id="barDiv"></div>
+
+</BODY>
+</HTML>

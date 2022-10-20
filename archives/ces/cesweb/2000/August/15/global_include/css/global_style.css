@@ -1,0 +1,443 @@
+/* THIS STYLE SHEET IS FOR USE WITH THE CES WEBSITE. PLEASE NOTE THE COMMENTS AVAILABLE NEXT TO EACH RULE. IF YOU ADD A CLASS, PLEASE COMMENT YOUR CLASS EXPLAINING USAGE. */
+
+/* ********************************************************************************** */
+/* GENERAL CLASSES */
+/* ********************************************************************************** */
+
+.ExhibitorHeader
+{
+    BACKGROUND-COLOR: #003377;
+    COLOR: #ffffff;
+    FONT-FAMILY: sans-serif;
+    FONT-SIZE: 11pt;
+    FONT-WEIGHT: bold
+} /* Used to create separator bar for exhibitor forms */
+
+.PressHeader
+{
+    BACKGROUND-COLOR: #663399;
+    COLOR: #ffffff;
+    FONT-FAMILY: sans-serif;
+    FONT-SIZE: 11pt;
+    FONT-WEIGHT: bold
+} /* Used to create separator bar for press forms */
+
+.HeaderLabel
+{
+    COLOR: #ffffff;
+    FONT-FAMILY: sans-serif;
+    FONT-SIZE: 11pt;
+    FONT-WEIGHT: bold
+} /* Formats font to be used with .ExhibitorHeader above */
+
+.radioblue 
+{
+	background:#d2defc; 
+	color:#ffffff;
+} /* used to force the radio buttons in the survey on the main page to have the same bgcolor as the td cell that they are housed in -- NN problem */
+
+/* ******************************************************************************* */
+/* BODY DEFENITIONS */
+/* ******************************************************************************* */
+BODY  {
+	background-color : #FFFFFF;
+	margin-left : 0;
+	margin-right : 0;
+	margin-top : 0;
+	margin-bottom : 0;
+	font-size : 10pt;
+	font-family : sans-serif;
+	color : #000000;
+} /* PARENT CLASS */
+
+
+/* ******************************************************************************* */
+/* LINK DEFINITIONS */
+/* ******************************************************************************* */
+A  {
+	color : #2f58b9;
+	/* text-decoration: none; */
+} /* PARENT CLASS */
+
+A:Visited  {
+	color : #800080; 
+	/* text-decoration: none; */
+} /* PARENT CLASS */
+
+A:Link  {
+	color : #2f58b9;
+	/* text-decoration: none; */
+} /* PARENT CLASS */
+
+A.generalRightNav {
+	font-size: 8pt; 
+	font-family: sans-serif; 
+	/* text-decoration: none; */
+	color:#475b59;
+} /* USED TO FORMAT THE LINKS IN THE RIGHT NAVIGATION USED IN GENERAL PAGES */
+
+A.generalRightNav:Visited {
+	font-size: 8pt; 
+	font-family: sans-serif; 
+	/* text-decoration: none; */
+	color:#475b59;
+} /* USED TO FORMAT THE LINKS IN THE RIGHT NAVIGATION USED IN GENERAL PAGES */
+
+A.generalRightNav:Link {
+	font-size: 8pt; 
+	font-family: sans-serif; 
+	/* text-decoration: none; */
+	color:#475b59;
+} /* USED TO FORMAT THE LINKS IN THE RIGHT NAVIGATION USED IN GENERAL PAGES */
+
+A.PromoOpsDateContact {
+	font-size: 8pt; 
+	font-family: sans-serif; 
+	color:#999999;
+} /* USED TO FORMAT THE CONTACT INFO LINKS IN THE PROMO OPS SECTION */
+
+A.PromoOpsDateContact:Visited {
+	font-size: 8pt; 
+	font-family: sans-serif; 
+	color:#999999;
+} /* USED TO FORMAT THE CONTACT INFO LINKS IN THE PROMO OPS SECTION */
+
+A.PromoOpsDateContact:Link {
+	font-size: 8pt; 
+	font-family: sans-serif; 
+	color:#999999;
+} /*  USED TO FORMAT THE CONTACT INFO LINKS IN THE PROMO OPS SECTION  */
+
+/* ******************************************************************************* */
+/* FONT DEFENITIONS */
+/* ******************************************************************************* */
+
+font.venue	{
+	font-size: 8pt; 
+	font-family: sans-serif; 
+	font-weight: bold;
+} /* USED FOR THE DATE AND VENUE INFO */
+	
+font.homenav	{
+	font-size: 8pt; 
+	font-family: sans-serif; 
+	font-weight: bold; 
+	text-decoration: none;
+} /* USED FOR THE HOME, CONTACT US, ABOUT CES NAVIGATION */
+
+font.homenavhl	{
+	font-size: 8pt; 
+	font-family: sans-serif; 
+	font-weight: bold; 
+	text-decoration: none;
+	color: #000000;
+} /* USED FOR THE HOME, CONTACT US, ABOUT CES NAVIGATION */
+	
+font.attendee	{
+	font-size: 11pt; 
+	font-family: sans-serif;
+	font-weight: bold;
+	color: #ae4f02;
+} /* USED FOR THE EXHIBITOR AREA HEAD */
+
+font.exhibit	{
+	font-size: 11pt; 
+	font-family: sans-serif;
+	font-weight: bold;
+	color: #003377;
+} /* USED FOR THE EXHIBITOR AREA HEAD */
+
+font.speaker	{
+	font-size: 11pt; 
+	font-family: sans-serif;
+	font-weight: bold;
+	color: #006633;
+} /* USED FOR THE SPEAKER AREA HEAD */
+
+font.press	{
+	font-size: 11pt; 
+	font-family: sans-serif;
+	font-weight: bold;
+	color: #663399;
+} /* USED FOR THE PRESS AREA HEAD */
+
+font.head		{
+	font-size: 11pt; 
+	font-family: sans-serif;
+	font-weight: bold;
+} /* USED FOR THE HEAD IN EACH PAGE */
+	
+font.subhead	{
+	font-size: 10pt; 
+	font-family: sans-serif; 
+	font-weight: bold; 
+	color:#0033cc;
+} /* USED FOR ANY SUBHEADS IN EACH PAGE */
+
+font.subhead2	{
+	font-size: 9pt; 
+	font-family: sans-serif; 
+	font-weight: normal;
+	font-style: italic; 
+	color:#0033cc;
+} /* USED FOR ANY SECOND LEVEL SUBHEADS IN EACH PAGE */
+	
+font.body		{
+	font-size: 10pt; 
+	font-family: sans-serif;
+} /* USED FOR THE BODY TEXT */
+
+font.regname	{
+	font-size: 8pt; 
+	font-family: sans-serif; 
+	color:#000000;
+} /* USED FOR NAME TEXT ON REGISTRATION PAGE */
+
+font.regtext	{
+	font-size: 8pt; 
+	font-family: sans-serif; 
+	color:#008080;
+} /* USED FOR NAME TEXT ON REGISTRATION PAGE */
+
+font.foot	{
+	font-size: 8pt; 
+	font-family: sans-serif; 
+	color:#000000;
+} /* USED FOR FOOTER */
+
+font.generalRightNav {
+	font-size: 8pt;
+	font-family: sans-serif;
+	text-decoration: none;
+	color:#475b59;
+} /* USED TO FORMAT THE TEXT IN THE RIGHT NAVIGATION USED IN GENERAL PAGES */
+
+font.activeRightNav {
+	font-size: 8pt;
+	font-family: sans-serif;
+	color:#475b59;
+	font-weight: bold;
+} /* USED TO FORMAT THE TEXT INDICATING ACTIVE (CONTEXT) NAVIGATIONAL ELEMENT IN THE RIGHT NAVIGATION USED IN GENERAL PAGES */
+
+font.headerRightNav {
+	font-size: 10pt;
+	font-family: sans-serif;
+	color:#FFFFFF;
+	font-weight: bold;
+} /* USED TO FORMAT THE TEXT FOR THE HEADER IN THE RIGHT NAVIGATION USED IN GENERAL PAGES */
+
+font.required {
+	font-size: 8pt; 
+	font-family: sans-serif; 
+	text-decoration: none;
+	color:#FF0000;
+} /* USED TO FORMAT ASTERISK INDICATING REQUIRED FIELDS IN FORMS OR TO FORMAT REQUIRED FEILDS FOLLOWING AN ERROR GENERATED DUE TO LACK OF A REQUIRED FIELD */
+
+font.formIdentifier {
+	font-size: 9pt;
+	font-family: sans-serif;
+	text-decoration: none;
+} /* USED TO FORMAT LABELS ON FORMS */
+
+font.formQuestion {
+	font-size: 10pt;
+	font-family: sans-serif;
+	text-decoration: none;
+} /* USED TO FORMAT QUESTIONS ON FORMS */
+
+font.formInstruction {
+	font-size: 8pt;
+	font-family: sans-serif;
+	text-decoration: none;
+	font-style : italic;
+} /* USED TO FORMAT INSTRUCTIONS GIVEN ON FORMS */
+
+font.pressReleaseTitle {
+ 	font-family: sans-serif;
+	font-size: 12pt;
+	color: #000000; /* #a86565 */
+} /* USED FOR FORMATTING THE TITLE OF THE PRESS RELEASE ON THE PAGE THAT IT IS DISPLAYED */
+
+font.pressReleaseSubTitle {
+ 	font-family: sans-serif;
+	font-style: italic;
+	font-size: 10pt;
+	color: #888888;
+} /* USED FOR FORMATTING THE SUB-TITLE OF THE PRESS RELEASE ON THE PAGE THAT IT IS DISPLAYED */
+
+font.pressReleaseLocation {
+ 	font-family: sans-serif;
+	font-size: 8pt;
+} /* USED FOR FORMATTING THE LOCATION OF THE PRESS RELEASE ON THE PAGE THAT IT IS DISPLAYED */
+
+font.pressReleaseDate {
+ 	font-family: sans-serif;
+	font-size: 8pt;
+	color: #999999;
+} /* USED FOR FORMATTING THE DATE OF THE PRESS RELEASE ON THE PAGE THAT IT IS DISPLAYED */
+
+font.pressReleaseBody {
+ 	font-family: sans-serif;
+	font-size: 9pt;
+} /* USED FOR FORMATTING THE BODY OF THE PRESS RELEASE ON THE PAGE THAT IT IS DISPLAYED */
+
+FONT.formPreFilled
+{
+    COLOR: #003377;
+    FONT-FAMILY: sans-serif;
+    FONT-SIZE: 9pt;
+    FONT-WEIGHT: normal
+} /* Used to format text that will be pre-filled and uneditable on exhibitor forms */
+
+FONT.formError
+{
+    COLOR: #ff0000;
+    FONT-FAMILY: sans-serif;
+    FONT-SIZE: 9pt;
+    TEXT-DECORATION: none
+} /* USED FOR FORMATTING ERRORS ASSOCIATED WITH THE EXHIBITOR SYSTEM */
+
+font.promoOpsDateContact {
+	font-family: sans-serif;
+	font-size: 8pt;
+	color: #999999;
+} /* USED FOR FORMATTING DATE AND CONTACT INFORMATION FONTS IN THE PROMO OPS SECTION */
+
+font.echoQuery {
+	font-family: sans-serif;
+	font-size: 8pt;
+	color: #999999;
+} /* USED FOR FORMATTING THE ECHOED QUERY ASSOCIATED WITH THE EXHIBITOR SYSTEM */
+
+font.resultPageNumbers {
+	font-family: sans-serif;
+	font-size: 8pt;
+} /* USED FOR FORMATTING THE PAGE NUMBERS ASSOCIATED WITH THE EXHIBITOR SYSTEM */
+
+/* ******************************************************************************* */
+/* TABLE DEFINITIONS */
+/* ******************************************************************************* */
+
+td.yellowback	{
+	background-color : #FFC236;
+	} /* USED TO CREATE THE (ORIGINALLY YELLOW --  #ffe54a) BACKGROUND OF THE TOP OF THE HEADER ON SUBSEQUENT PAGES */
+
+td.bluerule	{
+	background-color : #02a3fe;
+	} /* USED TO CREATE THE BLUE BAR */
+
+td.greenback	{
+	background-color : #88d565;
+	} /* USED TO CREATE THE GREEN BACKGROUND */
+	
+td.blackrule	{
+	font-size: 1px;
+	line-height : 1px;
+	background-color : #000000;
+	} /* USED TO CREATE THE BLACK BAR */
+	
+td.blueback	{
+	background-color : #a5bef9;
+	} /* USED TO CREATE THE BLUE BACKGROUND BEHIND AND TO THE RIGHT OF THE HOME NAVIGATION */
+	
+td.homenav	{
+	background-color : #d2defc;
+	} /* USED TO CREATE THE LIGHT BLUE BACKGROUND FOR THE HOME NAVIGATION */
+
+td.homenavActive {
+	background-color : #ffe54a;
+	} /* USED TO CREATE THE YELLOW BACKGROUND FOR THE ACTIVE HOME NAVIGATION */
+	
+td.generalRightNav	{
+	background-color : #cbe1de;
+	} /* USED TO FORMAT THE RIGHT NAVIGATION USED ON GENERAL PAGES */
+
+td.activeRightLevel1Nav {
+	background-color : #bdcce0;
+	font-weight: bold;
+	} /* USED TO FORMAT CONTENXT OF LEVEL 1 NAVIGATION ITEMS IN THE RIGHT NAVIGATION USED ON GENERAL PAGES */
+	
+td.activeRightLevel2Nav	{
+	background-color : #ffdab9;
+	font-weight: bold;
+	} /* USED TO FORMAT CONTENXT OF LEVEL 2 NAVIGATION ITEMS IN THE RIGHT NAVIGATION USED ON GENERAL PAGES */
+	
+td.headerRightNav	{
+	background-color : #8aa9a4;
+	text-align: center;
+	font-weight: bold;
+	} /* USED TO FORMAT THE HEADER OF THE RIGHT NAVIGATION USED ON GENERAL PAGES*/
+	
+td.attendee {
+	font-size: 1px;
+	line-height : 1px;
+	background-color : #ae4f02;
+	} /* USED TO FORMAT TD HOUSING THE ATTENDEE AREA BAR */
+
+td.exhibit {
+	font-size: 1px;
+	line-height : 1px;
+	background-color : #003377;
+	} /* USED TO FORMAT TD HOUSING THE EXHIBITOR AREA BAR */
+
+td.exhibitorTableHeader {
+	font-size: 10pt; 
+	font-family: sans-serif;
+	font-weight: bold;
+	color: #FFFFFF;
+	background-color : #003377;
+} /* USED TO FORMAT TD HOUSING HEADERS OF TABLES IN THE EXHIBITOR AREA */
+
+td.exhibitorTableContent {
+	font-size: 10pt; 
+	font-family: sans-serif;
+} /* USED TO FORMAT TD HOUSING CONTENT OF TABLES IN THE EXHIBITOR AREA */
+
+td.speaker {
+	font-size: 1px;
+	line-height : 1px;
+	background-color : #006633;
+	} /* USED TO FORMAT TD HOUSING THE SPEAKER AREA BAR */
+
+td.press {
+	font-size: 1px;
+	line-height : 1px;
+	background-color : #663399;
+	} /* USED TO FORMAT TD HOUSING THE PRESS AREA BAR */
+	
+td.pressTableHeader {
+	font-size: 10pt; 
+	font-family: sans-serif;
+	font-weight: bold;
+	background-color : #ebd9e9;
+} /* USED TO FORMAT TD HOUSING HEADERS OF TABLES IN THE PRESS AREA */
+
+td.pressTableContent {
+	font-size: 10pt; 
+	font-family: sans-serif;
+} /* USED TO FORMAT TD HOUSING CONTENT OF TABLES IN THE PRESS AREA */
+
+tr.shadow {
+	background-color : #999999;
+} /* USED TO FORMAT TD'S THAT ARE USED TO CREATE THE LEDGER IN THE EXHIBITOR SYSTEM */
+
+/* ****************************************************************************** */
+/* FORM DEFENITIONS */
+/* ****************************************************************************** */
+input.formData{
+	font-size : 9pt;
+	font-weight : normal;
+	font-style : normal;
+}
+
+select.formData{
+	font-size: 9pt;
+	font-weight: normal;
+	font-style: normal;
+}
+
+textarea.formData{
+	font-size : 9pt;
+	font-weight : normal;
+	font-style : normal;
+}
