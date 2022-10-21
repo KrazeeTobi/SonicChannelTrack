@@ -1,0 +1,36 @@
+<html>
+<head>
+<title>2001 International CES</title>
+<script language="javascript1.2">
+var dateObject = new Date();
+var timestamp = dateObject.getTime();
+var urlString = "http://ad.doubleclick.net/activity;src=496123;type=view1;cat=p;ord=" + timestamp + ";num=[random]?";
+
+function loadLanding() {
+	var landingPage = "";
+	var randSelect = -1;
+	
+	randSelect = Math.round(Math.random() * 1);
+	
+	switch(randSelect) {
+		case 0:
+			landingPage = "/landing/mesmorized.asp";
+			break
+		case 1:
+			landingPage = "/landing/jump.asp";
+			break
+		default:
+			landingPage = "/landing/mesmorized.asp";
+			break
+	}
+		
+	document.location.href = landingPage;
+}
+</script>
+</head>
+<body onLoad="loadLanding();">
+<script language="javascript1.2">
+document.write("<img src='" + urlString + "' height=1 width=1 border=0>");
+</script>
+</body>
+</html>

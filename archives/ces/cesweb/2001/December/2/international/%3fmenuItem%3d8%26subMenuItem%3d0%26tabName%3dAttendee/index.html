@@ -1,0 +1,586 @@
+
+<html>
+<head>
+<title>2002 International CES: International Visitors</title>
+<script language="javascript1.2">
+	var ns=(document.layers);var ie=(document.all);
+	var temp='';
+	var thePath=location.pathname;
+</script>
+<script language="javascript1.2" src="/global_include/js/nav_menu.js"></script>
+<script language="javascript1.2" src="/global_include/js/global.js"></script>
+<link rel="stylesheet" href="/global_include/css/nav_menu.css" type="text/css">
+<link rel="stylesheet" href="/global_include/css/global_style.css" type="text/css">
+
+<script language="javascript">
+	function newWindow(){
+			winWindow = window.open("interpreter_request_mail.asp","IntReq","width=330,height=350,scrollbars=yes,resizable=yes")
+	}
+	function newWindow2(){
+		winWindow = window.open("international_travel_agent_mail.asp","IntTA","width=330,height=500,scrollbars=yes,resizable=yes")
+	}
+
+	function newWindow3(){
+		winWindow = window.open("international_address_change.asp","ChngAdd","width=330,height=500,scrollbars=yes,resizable=yes")
+	}
+</script>
+
+<META NAME="searchZone" CONTENT="generalCESweb">
+</head>
+
+<BODY marginheight="0" marginwidth="0" leftmargin="0" topmargin="0" onLoad="setBannerAd('B'); init();">
+
+<!-- header starts here -->
+<a name="top"></a>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+	<tr bgcolor="#CCE20A"> 
+		<td align="center"><font size="1" face="verdana" color="#003366"><b>International CES<IMG SRC="/global_images/header_images/dot.gif" WIDTH="17" HEIGHT="13" valign="bottom">January 8-11, 2002<IMG SRC="/global_images/header_images/dot.gif" WIDTH="17" HEIGHT="13" valign="bottom">Las Vegas, Nevada<IMG SRC="/global_images/header_images/dot.gif" WIDTH="17" HEIGHT="13" valign="bottom">Las Vegas Convention Center<IMG SRC="/global_images/header_images/dot.gif" WIDTH="17" HEIGHT="13" valign="bottom">Alexis Park<IMG SRC="/global_images/header_images/dot.gif" WIDTH="17" HEIGHT="13" valign="bottom">Las Vegas Hilton</b></font></td> 
+	</tr>
+	<tr bgcolor="#CCE20A">
+		<td align="center" nowrap><IMG SRC="/global_images/trans.gif" WIDTH=750 HEIGHT=3></td> 
+	</tr>
+	<tr>
+		<td>
+			<table border="0" cellpadding="0" cellspacing="0" width="100%"> 
+				<tr> 
+					<td valign="top" bgcolor="#003366"><IMG SRC="/global_images/ceslogo_top.gif"></td> 
+					<td valign="center" align="right" bgcolor="#003366"><a href="bannerAd"><img name="bannerAdGif" src="/global_images/banner_ads/ad_blank.gif" width="468" height="60" alt="Banner Ad" border="0"></a>&nbsp;</td>
+				</tr> 
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td align="left" valign="top">
+			<table cellpadding="0" cellspacing="0" border="0" width="100%">
+				<colgroup cols=3>
+					<col width=200>
+					<col width=*>
+					<col width=5>
+					<col width=185>
+					<col width=5>
+				</colgroup>
+				<tbody>
+				<tr>
+					<td valign="right" rowspan="2"><IMG SRC="/global_images/ceslogo_bottom.gif"></td> 
+					<td valign="bottom" align="right" colspan="2"><IMG SRC="/global_images/header_images/icestext.gif" WIDTH=311 HEIGHT=18>&nbsp;</td>
+					<td bgcolor="#5670B1" valign="center" align="center" nowrap colspan="2">
+						<table cellpadding="0" cellspacing="0" border="0">
+						<tr>
+						<td><a href="/default.asp"><font class="homenav">home</font></a></td>
+						<td><font class="homenav">&nbsp;|&nbsp;</font></td>
+						<td><a href="/about_ces/default.asp"><font class="homenav">about ces</font></a></td>
+						<td><font class="homenav">&nbsp;|&nbsp;</font></td>
+ 						<td><a href="/contact_ces/default.asp"><font class="homenav">contact ces</font></a></td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+ 					<td colspan="4">
+						<table cellpadding="0" cellspacing="0" border="0">
+							<tr>
+								<td class="sp"><script>s1(10,1)</script>
+								</td>
+							</tr>
+						</table>
+					</td> 
+				</tr>
+				<tr>
+					<td rowspan="5" valign="top">
+						<table cellpadding="0" cellspacing="0" border="0">
+							<tr>
+								<td class="sp"><script>s1(1,213)</script></td>
+							</tr>
+						</table>
+						<table cellspacing="0" cellpadding="0" border="0">
+<tr><td rowspan=3>&nbsp;</td><td>
+
+<script language="javascript1.2">
+	function checkSearch() {
+			var searchForm = document.searchCESWeb;
+			
+			if(searchForm.SEARCH_STRING.value.search(/\S/) == -1) {
+				alert("Please enter text to search for.");
+				return;
+			}
+			
+			searchForm.submit();
+	}
+	
+</script>
+<table cellspacing="0" cellpadding="0" border="0">
+	<tr><td colspan=2><img src="/global_images/nav_menu/searchCESWeb.gif"></td></tr>
+	<form name="searchCESWeb" method="POST" action="/search/searchResult.asp?">
+	<tr><td align="left" valign="bottom"><input type="text" name="SEARCH_STRING" size="20" class="formData" value=""></td><td align="left" valign="bottom"><a href="javascript:checkSearch();"><img border=0 src="/global_images/nav_menu/searchButton.gif"></a></td></tr>
+	<!--<tr><td align="left" colspan=2><a href="/search/advanced.asp">advanced search</a></td></tr>-->
+	<!-- Component Fields -->
+	<input type="hidden" name="ExhibitorSearchField" value="on">
+	<input type="hidden" name="EventSearchField" value="on">
+	<input type="hidden" name="PressSearchField" value="on">
+	<input type="hidden" name="ConferenceSearchField" value="on">
+	<input type="hidden" name="GeneralCESwebSearchField" value="on">
+	</form>
+</table>
+</td></tr>
+<!-- <tr><td><img src="/global_images/nav_menu/navigateCESWeb.gif"></tr> -->
+<tr><td valign="top"><div id="navDiv"></div></td></tr>
+<!-- <tr><td><img src="/global_images/nav_menu/textonlyNavigation.gif"></td></tr> -->
+</table>
+					</td>
+					<td valign="top">
+						<table cellpadding="0" cellspacing="0" border="0">
+							<tr>
+								<td>
+									<table cellpadding="0" cellspacing="0" border="0">
+									<tr>
+										<td class="sp"><script>s1(1,355)</script></td>
+									</tr>
+									</table>
+								</td>
+							</tr>
+						</table>
+					</td>
+					<td valign="top">
+						<table cellpadding="0" cellspacing="0" border="0">
+							<tr>
+								<td>
+									<table cellpadding="0" cellspacing="0" border="0">
+									<tr>
+										<td class="sp"><script>s1(1,5)</script></td>
+									</tr>
+									</table>
+								</td>
+							</tr>
+						</table>
+					</td>
+					<td valign="top">
+						<table cellpadding="0" cellspacing="0" border="0">
+							<tr>
+								<td>
+									<table cellpadding="0" cellspacing="0" border="0">
+									<tr>
+										<td class="sp"><script>s1(1,185)</script></td>
+									</tr>
+									</table>
+								</td>
+							</tr>
+						</table>
+					</td>
+					<td valign="top">
+						<table cellpadding="0" cellspacing="0" border="0">
+							<tr>
+								<td>
+									<table cellpadding="0" cellspacing="0" border="0">
+									<tr>
+										<td class="sp"><script>s1(1,5)</script></td>
+									</tr>
+									</table>
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td valign="top">
+						<table cellpadding="0" cellspacing="0" border="0">
+							<tr>
+								<td><br><font class="breadcrumb">
+								<!-- breadcrumb starts here -->
+								<a href="/default.asp" class="breadcrumb">home</a> > international visitors
+								<!-- breadcrumb ends here -->
+								</font></td>
+							</tr>
+							<tr>
+								<td><br></td>
+							</tr>
+							<tr>
+								<td valign="top">
+<!-- header ends here -->
+<font class="pagehead">International Visitors</font><br>&nbsp;<br>
+<!-- content starts here -->
+
+<font class="body">
+
+<!--intro copy-->
+
+<font class="head">Every year you get one chance to meet the people who make deals happen!</font><p>
+<font color="#003366"><i>2002 International CES - January 8-11, Las Vegas, Nevada, USA</i></font><p>
+ 
+You're invited to visit a consumer technology show unlike any other in the world&#151;an international trade fair with more excitement, more innovative products and more business opportunities than any other. <p>
+
+The 2002 International CES is the largest trade fair of consumer technology products worldwide. Two thousand exhibitors showcase an amazing array of consumer electronics. Come to see and touch the most amazing communication, entertainment, computer and networking products the digital world has to offer. Learn about incredible advances in technology that will lead to the next generation of products. Meet industry leaders and innovators&#151;and perhaps your next global business partners. <p>
+
+Join more than 110,000 professionals, including 12,000 international visitors from more than 110 countries outside the U.S. CES is a trade fair, a business forum, a conference with more than 100 sessions and a place to meet the people who can make a difference in your company's future. <p>
+
+Whether you wish to shop for product, arrange a joint venture or licensing agreement or become a foreign agent or distributor, CES is where you'll see all the products and meet all the right people. Connect with the most influential decision-makers in the consumer technology industry&#151;plan to attend today! <p>
+
+<i>Don't miss the most essential technology event of the year.</i> <p>
+
+<a href="#top"><font size="1">Back to Top</font></a> <p>
+ 
+<a name="reg"></a><font class="subhead">Choose from Two Registration Options</font><p>
+
+<font class="subhead2">Option One</font>: The <b>Exhibits-Plus Pass</b> is free when you register by December 7, 2001. Gain admission to all exhibits plus selected conference sessions, keynotes and SuperSessions, plus access to the <a href="#commerce">International Commerce Center</a>.<!--((jump down to ICC))--> And, you'll be invited to the <a href="#reception">International Reception</a>. <!--((jump down to info on Int'l Reception))--><p>
+
+<b>Register before December 7, 2001</b>, and you'll receive your badge in the mail. Be sure to provide us with your e-mail address so we can send you updates on keynote speakers, conference sessions, technologies to watch, SuperSessions and more! <p>
+
+<font class="subhead2">Option Two</font>: The <b>International Premier Package</b> gives you exclusive benefits and savings. In addition to all the services available through the International Commerce Center, your International Premier package includes: <p>
+
+<ul type"square" compact>
+<li>Admission to all exhibits, keynotes and SuperSessions.</li>
+<li>Admission to more than 70 additional CES conference sessions</li> <!--((Susan, this should link to conference session tracks when conf. registration database is up))--> (a $396 U.S. value). Already your registration more than pays for itself!
+<li>One ticket to each of the VIP luncheons for Tuesday, Wednesday and Thursday during the show (a $90 U.S. value).</li>
+<li>Admission to the International Reception--a unique networking opportunity for international buyers, distributors and exporting exhibitors.</li>
+<li>A special International Premier Registration check-in area in the main Registration Pavilion.</li>
+<li>A commemorative CES conference bag filled with maps and information to help you navigate the show floor and Las Vegas.</li></ul>
+
+<b>Register by December 7, 2001,</b> to receive your conference badge via airmail. Then bring your badge to the International Premier Registration Check-in area in the main registration pavilion to receive your commemorative CES conference bag and materials.<p>
+
+<ul>
+<li>International Premier Package cost before December 28, 2001: $299 (U.S.)</li>
+
+<li>Total package value is more than $500 (U.S.).</li>
+
+<li>Enjoy great savings and super benefits!</li><p>
+</ul>
+
+On-site cost for the International Premier Package is $399 (U.S.), please note that the commemorative CES conference bag and materials will be available in limited supply while they last.<p>
+
+<font class="head">Two easy ways to register:</font><br><br>
+Register now to receive your badge in the mail, and to get pre-show planning materials to help make your experience at CES a
+success!
+
+<ol>
+<li><a href="http://register.rcsreg.com/regos-1.0/ces2002/adv/ga/">Register online</a> using our secure server. Simply follow the instructions,
+print your confirmation and you’re done.</li><p>
+<li><font class="subhead">Register by mail or fax.</font> 
+Download the proper registration form here and return it to us by fax or mail.
+ <p>
+<a href="/registration/international.pdf">International Attendee Registration Form</a><p>
+<p>&nbsp;<br>
+
+<table>
+<tr><td valign=top><a href="http://www.adobe.com/products/acrobat/readstep.html"><img src="/global_images/getacro.gif" width=88 height=31 border=0 alt="Get the Adobe Acrobat Reader"></a></td><td><font class="body">This form is in Adobe PDF format. You will need the Adobe Acrobat reader in order to view the file.</font></td></tr>
+</table><br>
+
+</ol>
+<a href="#top"><font size="1">Back to Top</font></a> <p>
+
+<a name="visa"></a>
+<font class="head">Visas and Invitation Letters</font> <p>
+<font class="subhead">Previous CES Attendee?</font><br>
+Did you attend the 2001 International CES? International visitors who requested a letter of invitation for the 2001 International CES will automatically receive a letter of invitation for the 2002 International CES by August 31, 2001. If any of your address information has changed since last year, please <a href="javascript:newWindow3()">e-mail us</a> at and give us your new information before August 1, 2001.<p>
+<font class="subhead">New to International CES?</font><br>
+We want to assist you with the visa application process and give you sufficient time to obtain a temporary visa to enter the United States. Please complete the <a href="javascript:parseAndGo('attendee_visa_form.asp');">Online Letter of Invitation Request</a> and receive your letter of invitation via airmail within three weeks.<p>
+<b>To ensure that you have sufficient time for the visa application process, we will not be able to process any requests for visa letters of invitation after Monday, November 5, 2001.</b><p>
+<a href="http://travel.state.gov/visa_services.html">Find out more about how to apply for a visitor visa to the U.S</a><p> 
+<a href="http://travel.state.gov/visa_services.html#of156">Get a U.S. visa application form (Form OF-156)</a> from the U.S. State Department. <p>
+For more information on the U.S. Embassy or Consulate General near you, visit: <a href="http://travel.state.gov/links.html">travel.state.gov/links.html</a><p>
+
+<font class="subhead">U.S. State Department Visa Waiver Program</font><br>
+Visitors from qualified countries, coming to the United States for business or tourism for 90 days or less, may be eligible to enter the United States without a visa. Currently, 29 countries participate in the Visa Waiver Program: Andorra, Argentina, Australia, Austria, Belgium, Brunei, Denmark, Finland, France, Germany, Iceland, Ireland, Italy, Japan, Liechtenstein, Luxembourg, Monaco, The Netherlands, New Zealand, Norway, Portugal, San Marino, Singapore, Slovenia, Spain, Sweden, Switzerland, the United Kingdom and Uruguay. <p>
+ <a href="http://travel.state.gov/vwp.html">Find out more about the U.S. State Department's Visa Waiver Program.</a><p> 
+<a href="#top"><font size="1">Back to Top</font></a> <p>
+
+<a name="visitor"></a>
+<font class="head">Services for International Visitors</font><p> 
+CES welcomes visitors from around the world. We appreciate that you travel a great distance to attend CES, and your time is extremely valuable. We provide many services at CES to make your experience as profitable as possible. <p>
+<p><font size="1"><a href="#top">back to the top</a></font><p>
+
+<a name="commerce"></a>
+<font class="subhead">International Commerce Center (ICC)</font><br>
+To ensure your CES experience is productive, the International Commerce Center, located in the Las Vegas Convention Center, provides you with a multilingual staff available to assist you with translation and interpretation.<p> 
+ICC Hours:<p>
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr><td class="datetime" width="30%">Monday</td><td class="datetime">12:00 p.m.-6:00 p.m.</td></tr>
+<tr><td class="datetime">Tuesday-Thursday </td><td class="datetime">8:00 a.m.-6:00 p.m.</td></tr>
+<tr><td class="datetime">Friday </td><td class="datetime">8:00 a.m.-4:00 p.m.</td></tr>
+</table>
+
+<ul>
+<li>Use your telephone calling card for access to <b>non-pay telephones</b> conveniently located in the International Commerce Center. Fax and copy machines are also available.</li>
+<li>Start your morning with <b>complimentary coffee, tea and pastries</b> available every morning from 8:00-9:30 a.m. <b>Complimentary afternoon refreshments</b> will be available from 2:00 - 4:00 p.m.</li>
+<li>Internet stations are available to check e-mail or stay in touch with your office.</li>
+<li><b>Reserve a private meeting room</b> by signing up with any of our multilingual staff.</li></ul>
+<a href="#top"><font size="1">Back to Top</font></a> <p>
+
+<a name="interpret"></a>
+<font class="subhead">Interpreters at CES</font><br> 
+Language interpreters are available in the International Commerce Center for anyone needing assistance in Chinese, French, German, Japanese or Spanish. If you wish to hire a full-time interpreter in any language to assist you during the show, please <a href="javascript:newWindow()">contact CES</a><!--((Susan, please set this up so the subject line is pre-populated with INTERPRETER REQUEST))--> before December 15, 2001, and we will be glad to help you make arrangements.<p>
+<p><font size="1"><a href="#top">back to the top</a></font><p>
+
+<a name="export"></a>
+<font class="subhead">Find Exporting Exhibitors </font><br>
+CES identifies exhibitors, along with the products they manufacture, who are interested in exporting to specific countries and regions. Beginning in August, you will be able to search our exhibitor directory and locate exporting exhibitors who are looking to reach your market. Check the Exhibitor Section often; exhibitors will continually update their listings until the 2002 show. The Global Business Matchmaking service also will be available on-site through CESweb terminals at the show in January.<p>
+<p><font size="1"><a href="#top">back to the top</a></font><p>
+
+<a name="reception"></a>
+<font class="subhead">International Reception</font><br>
+You are cordially invited to attend the CES International Reception on <b>Tuesday, January 8, 2002</b>. The reception is your best opportunity to meet and network with exporting exhibitors and other international visitors. Invitations will be available on-site in the International Registration area or in the International Commerce Center in the Las Vegas Convention Center.<p>
+<a href="#top"><font size="1">Back to Top</font></a> <p>
+
+<a name="transport"></a>
+<font class="subhead">Transportation at CES</font> <br>
+<font class="subhead2">From the airport</font>: Las Vegas offers many methods of transportation to and from the airport such as shuttles, rental cars, taxis and limousines. Las Vegas also has convenient and accessible Strip/Downtown shuttles and a public transportation system, which runs scheduled routes each day.<p> 
+For additional Las Vegas maps and transportation information you can visit the <a href="/show_locations/maps.asp?menuItem=3&subMenuItem=1&tabName=Attendee"> maps section</a> of CESweb or the <a href="http://www.vegasfreedom.com/play-12.asp">Las Vegas Convention & Visitor's Authority</a> website. <p>
+<font class="subhead2">From official hotels</font>: Complimentary shuttle bus service takes you from the official CES hotels to the Las Vegas Convention Center all four days of the show. Service is also available from the Convention Center to the Alexis Park Hotel.<p>
+<a href="#top"><font size="1">Back to Top</font></a> <p>
+
+<font class="subhead">Visiting Las Vegas for the first time?</font><br>
+Las Vegas is one of the top tourist attractions worldwide. Whether it's fine dining, top quality entertainment, casinos, Hoover Dam or the Grand Canyon, the <a href="http://www.lasvegas24hours.com/">Las Vegas Convention & Visitor's Authority</a>  has information that will help make your trip to the 2002 International CES memorable and complete.<p>
+<a name="travel"></a>
+<font class="subhead">International Travel Agents</font> <br>
+
+International travel consultants can assist you in making travel arrangements to visit the 2002 International CES. 
+You also may contact Housing Online, the official CES hotel reservation company:<br>
+  Phone: +1 (702) 798-6380<br>
+  Fax: +1(702) 798-6380<br>
+  E-mail: <a href="mailto:HOL@pgi.com">HOL@pgi.com</a><p>
+  
+ <font class="righttext"> <font color="#000000">
+<b>ARGENTINA</b><br>
+BTI Argentina<br>
+Contact: Guillermo B. Dolan<br>
+Florida 890 - 4th Floor<br>
+Buenos Aires 1005<br>
+Argentina<br>
+Phone: 54-1-312-8416<br>
+Fax: 54-1-313-7927<br>
+E-mail: <a href="mailto:cityserv@starnet.net.ar">cityserv@starnet.net.ar</a><p> 
+
+<b>AUSTRALIA</b><br>
+AXIS Conference Planners<br>
+Contact: Vicki Hartman<br>
+AXIS House, 81-83 Campbell Street<br>
+Surry Hills NSW 2010<br>
+Australia<br>
+Phone: 61-2-9211-3111<br>
+Fax: 61-2-9211-3131<br>
+E-mail: <a href="mailto:group@axisconferences.com.au">group@axisconferences.com.au</a> <p>
+
+<b>BRAZIL</b><br>
+IT Viagens de Incentivo<br>
+Contact: Ibrahim G. Tahtouh<br>
+Al Rio Negro, 911 - 9 Andar<br>
+Alphaville Barueri - SP 06454-000<br>
+Brazil<br>
+Phone: 5511-7295-1660<br>
+Fax: 5511-421-5300<br>
+E-mail: <a href="mailto:it.incentivo@alphanet.com.br">it.incentivo@alphanet.com.br</a><p>
+
+<b>BRAZIL</b><br>
+Season Event Management<br>
+Contact: Jairo Klapp<br>
+R. Anhaid  513  SL3<br>
+Sao Paulo - 5P  01130-000<br>
+Brazil<br>
+Phone: 5511-3361-7377<br>
+Fax: 5511-3362-1169<br>
+E-mail: <a href="mailto:season@macbbs.com.br">mailto:season@macbbs.com.br</a><br> 
+<a href="http://www.travel.to/season">www.travel.to/season</a><p> 
+
+<b>CHINA</b><br>
+Pan Asia American International Economy & Culture Exchange Co., Ltd.<br>
+Contact: Mr. Yang Yuxiong<br>
+20F, International Culture Building<br>
+3039 Shennan Road Central<br>
+Shenzhen 518033<br>
+P.R. China<br>
+Phone: 86-755-3663122 or 3663519<br>
+Fax: 86-755-3663499<br>
+E-mail: <a href="mailto:paa@china.com">paa@china.com</a> or <a href="mailto:yorsung@yahoo.com">yorsung@yahoo.com</a><p>
+
+<b>GERMANY</b><br>
+EURO LLOYD Travel Agency<br>
+Contact: Barbel Hensen<br>
+Martinstrasse 16-20<br>
+Koeln 50667<br>
+Germany<br>
+Phone: 49-221-2020-759<br>
+Fax: 49-221-2020-750<br>
+E-mail: <a href="mailto:b.hensen@eurolloyd.de">b.hensen@eurolloyd.de</a> <p>
+
+<b>INDONESIA</b><br>
+Pt. Hana Aero Nusantara Agent (Hana Tour)<br>
+Contact: Jina A. Seung<br>
+Korea Center Building, Jl. Gatot Subroto Kav. 58<br>
+Jakarta Selatan 12950<br>
+Indonesia<br>
+Phone: 62-21-520-2450<br>
+Fax: 62-21-520-5299<br>
+E-mail: <a href="mailto:hanagrp@dent.net.id">hanagrp@dent.net.id</a> <p>
+
+<b>JAPAN</b><br>
+Japan Travel Bureau<br>
+Contact: Tamiko Nakamoto<br>
+777 S. Figueroa Street, Suite 4100<br>
+Los Angeles CA 90017<br>
+USA<br>
+Phone: +1 (213) 553-7258<br>
+Fax: +1 (213) 553-7247<br>
+E-mail: <a href="mailto:mholden@jtbi.com">mholden@jtbi.com</a> <p>
+
+<b>JAPAN</b><br>
+Hokubei Tours<br>
+Contact: John Oliver<br>
+624 S. Grand Avenue, Suite 1805<br>
+Los Angeles CA 90017<br>
+USA<br>
+Phone: +1 (213) 622-8248<br>
+Fax: +1 (213) 628-1179<br>
+E-mail: <a href="mailto:johnolvr@ix.netcom.com">johnolvr@ix.netcom.com"</a> <p>
+
+<b>JAPAN</b><br>
+RYUSA Travel Agency<br>
+Contact: Atsushi Tanioka<br>
+#401 Yamaichi Bldg.<br>
+Sakae Nagoya 3-23-14<br>
+Japan<br>
+Phone: 81-(0)52-241-6299<br>
+Fax: 81-(0)52-241-6172<br>
+E-mail: <a href="mailto:tanioka@infosite.ne.jp">tanioka@infosite.ne.jp</a><br> 
+<a href="http://www.infosite.ne.jp/ryusa-travel">www.infosite.ne.jp/ryusa-travel</a> <p>
+
+<b>KOREA</b><br> 
+ONSE AIR TRAVEL SERVICE<br> 
+Contact: Estela Koh<br> 
+3F Shinjin Bldg/1463-10 Seocho-Dong, Seocho-Ku<br> 
+Seoul 137-070<br> 
+Korea<br> 
+Phone: 82-2-3487-3008<br> 
+Fax: 82-2-3487-2008<br> 
+E-mail: <a href="mailto:estela@unitel.co.kr">estela@unitel.co.kr</a><p></font></font>
+ 
+If you are an international travel consultant and would like to be listed here, please <a href="javascript:newWindow2()">contact us</a>. <!--((Susan, can you set this up so the subject line is pre-populated with INT'L TRAVEL AGENGY?))--><p>
+
+<a href="#top"><font size="1">Back to Top</font></a> <p>
+ 
+</font>
+
+<!-- content ends here --> 
+
+<!-- footer begins here -->
+
+<br><br>
+<a href="javascript:openEmailPage();"><img src="/global_images/emailPage.gif" border=0 alt="Email This Page to a Colleague"></a><br>
+<hr noshade size="1" color="#78A5AB">
+<font class="foot"><a href="#top" class="footer">Back to the top</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="/default.asp" class="footer">Home</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="/contact_ces/default.asp" class="footer">Contact Us</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="/about.asp" class="footer">About CES</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="/help/" class="footer">Help</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="/privacy.asp" class="footer">Privacy Policy</a></font><br>
+<hr noshade size="1" color="#78A5AB">
+<table cellpadding="0" cellspacing="0" border="0" width="100%">
+<tr>
+<td align=left><a href="http://www.ce.org"><img src="/global_images/cealogo.gif" border=0 alt="Consumer Electronics Association"></a><br><font class="foot">Consumer Electronics Association (CEA)<br>
+2500 Wilson Boulevard, Arlington, VA 22201-3834 USA<br>
+703 907 7605 tel&nbsp;&nbsp;|&nbsp;&nbsp;703 907 7675 fax<br>
+<a href="mailto:CESinfo@CE.org" class="footer">CESinfo@CE.org</a>
+</font></td>
+<td align=left> <a href="http://www.ce.org"><img src="/global_images/celogo.gif" border=0 alt="CE.org"></a> </td>
+</tr>
+</table>
+<hr noshade size="1" color="#78A5AB">
+<font class="foot">Questions or comments about our site? Contact the <a href="mailto:webmaster@cesweb.org" class="footer">Webmaster</a>.<br>
+©2000 <a href="http://www.ce.org" class="footer">Consumer Electronics Association</a>. All Rights Reserved.</font>
+<br><br>
+
+</td>
+</tr>
+</tbody>
+</table>
+
+</td>
+<td></td>
+<td valign='top' width='185'>
+
+<!-- footer ends here -->
+
+
+
+<!-- right based navigation starts here -->
+
+
+<p>&nbsp;
+<table cellpadding="0" cellspacing="0" border="0" valign="top">
+
+<tr><td class="headerRightNav" width="100%"><img src="/global_images/nav_menu/right_nav/on.gif">&nbsp;<br></td></tr>
+
+<tr><td class="generalRightNav" width="100%"><img src="/global_images/nav_menu/right_nav/spacerLine.gif"></td></tr>
+
+<tr><td class="generalRightNav">&nbsp;<a href="#reg" class="generalRightNav">Registration Options</a></td></tr>
+
+<tr><td class="generalRightNav"><img src="/global_images/nav_menu/right_nav/spacerLine.gif"></td></tr>
+
+<tr><td class="generalRightNav">&nbsp;<a href="#visa" class="generalRightNav">Visas &amp; Invitation Letters</a></td></tr>
+
+<tr><td class="generalRightNav"><img src="/global_images/nav_menu/right_nav/spacerLine.gif"></td></tr>
+
+<tr><td class="generalRightNav">&nbsp;<a href="#visitor" class="generalRightNav">International Visitor Services</a></td></tr>
+
+<tr><td class="generalRightSubNav">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#commerce" class="generalrightnav">Commerce Center
+
+<tr><td class="generalRightSubNav">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#interpret" class="generalRightNav">Interpreters </a></td></tr>
+
+<tr><td class="generalRightSubNav">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#export" class="generalRightNav">Exporting Exhibitors</a></td></tr>
+
+<tr><td class="generalRightSubNav">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#reception" class="generalRightNav">International Reception</a></td></tr>
+
+<tr><td class="generalRightSubNav">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#transport" class="generalRightNav">Transportation</a></td></tr>
+
+<tr><td class="generalRightSubNav">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#travel" class="generalRightNav">Travel Agencies</a></td></tr>
+
+<tr><td class="generalRightNav"><img src="/global_images/nav_menu/right_nav/spacerLine.gif"></td></tr><tr>
+
+</table>
+<p>
+
+<table cellpadding="0" cellspacing="0" border="0" valign="top">
+
+<tr><td class="headerRightNav" width="100%"><img src="/global_images/nav_menu/right_nav/see_also.gif">&nbsp;<br></td></tr>
+
+<tr><td class="generalRightNav"><img src="/global_images/nav_menu/right_nav/spacerLine.gif"></td></tr>
+
+<tr><td class="generalRightNav">&nbsp;<a href="/contact_ces/default.asp?menuItem=6&subMenuItem=0&tabName=Attendee" class="generalRightNav">Contact Us</a></td></tr>
+
+<tr><td class="generalRightNav"><img src="/global_images/nav_menu/right_nav/spacerLine.gif"></td></tr>
+
+<tr><td class="generalRightNav">&nbsp;<a href="/about_ces/default.asp?menuItem=6&subMenuItem=0&tabName=Attendee" class="generalRightNav">About CES</a></td></tr>
+
+<tr><td class="generalRightNav"><img src="/global_images/nav_menu/right_nav/spacerLine.gif"></td></tr>
+
+</table>
+
+<p>
+
+<font class="righttext">
+<hr noshade size="1" width="100%" color="#78a5ab">
+
+<font class="righthead">Meet industry leaders and innovators&#151;and perhaps your next global business partners<p></font>
+
+
+<hr noshade size="1" width="100%" color="#78a5ab">
+
+<img src="/global_images/cealogo120.gif" border="0" align="left">&nbsp;<br>&nbsp;<p>
+
+CES is sponsored, produced and managed by the Consumer Electronics Association (CEA). To find out more about CEA, <a href="#">visit <a href="http://www.ce.org">www.ce.org</a>.<p>
+
+
+<hr noshade size="1" width="100%" color="#78a5ab">
+
+
+
+<!-- right based navigation ends here -->
+
+<!-- if there is added value content on this page, place it here -->
+<!-- none -->
+
+<!-- footer_endCap begins here -->
+</td><td></td>
+</tr>
+</table>
+
+</td>
+</tr>
+</table>
+<!-- footer_endCap ends here -->
+
+</body>
+</html>
