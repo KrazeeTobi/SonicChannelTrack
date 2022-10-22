@@ -1,0 +1,2535 @@
+
+<html>
+
+<head>
+<title>2002 International CES: Press Services</title>
+<script language="javascript1.2">
+	var ns=(document.layers);var ie=(document.all);
+	var temp='';
+	var thePath=location.pathname;
+</script>
+<script language="javascript1.2">
+		/* This variable must be set correctly and manually for each page on the site for various aspects of the site (including the navigation) to function properly. Please note that this variable is a STRING, not an INTEGER. A listing of Page IDs can be referenced in the CESWeb Information Architecture Specification document (Section 9: Page Inventory and Content Mapping Matrix). */
+		var pageID = "1.9"; //INSERT PAGE ID HERE
+	</script>
+
+
+<script language="javascript1.2" src="/global_include/js/nav_menu.js"></script>
+<script language="javascript1.2" src="/global_include/js/global.js"></script>
+<link rel="stylesheet" href="/global_include/css/nav_menu.css" type="text/css">
+<link rel="stylesheet" href="/global_include/css/global_style.css" type="text/css">
+<META NAME="searchZone" CONTENT="generalCESweb">
+</head>
+
+<BODY marginheight="0" marginwidth="0" leftmargin="0" topmargin="0" onLoad="setBannerAd('B'); init();">
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+	<tr bgcolor="#CCE20A"> 
+		<td align="center"><font size="1" face="verdana" color="#003366"><b>International CES<IMG SRC="/global_images/header_images/dot.gif" WIDTH="17" HEIGHT="13" valign="bottom">January 9-12, 2003<IMG SRC="/global_images/header_images/dot.gif" WIDTH="17" HEIGHT="13" valign="bottom">Las Vegas, Nevada<IMG SRC="/global_images/header_images/dot.gif" WIDTH="17" HEIGHT="13" valign="bottom">Las Vegas Convention Center<IMG SRC="/global_images/header_images/dot.gif" WIDTH="17" HEIGHT="13" valign="bottom">Alexis Park<IMG SRC="/global_images/header_images/dot.gif" WIDTH="17" HEIGHT="13" valign="bottom">Las Vegas Hilton</b></font></td> 
+	</tr>
+	<tr bgcolor="#CCE20A">
+		<td align="center" nowrap><IMG SRC="/global_images/trans.gif" WIDTH=750 HEIGHT=3></td> 
+	</tr>
+	<tr>
+		<td>
+			<table border="0" cellpadding="0" cellspacing="0" width="100%"> 
+				<tr> 
+					<td valign="top" bgcolor="#003366"><a href="../default.asp"><IMG SRC="/global_images/ceslogo_top.gif" border="none" alt="home"></a></td> 
+					<td valign="center" align="right" bgcolor="#003366"><a href="bannerAd"><img name="bannerAdGif" src="/global_images/banner_ads/ad_blank.gif" width="468" height="60" alt="Banner Ad" border="0"></a>&nbsp;</td>
+				</tr> 
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td align="left" valign="top">
+			<table cellpadding="0" cellspacing="0" border="0" width="100%">
+				<colgroup cols=3>
+					<col width=200>
+					<col width=*>
+					<col width=5>
+					<col width=185>
+					<col width=5>
+				</colgroup>
+				<tbody>
+				<tr>
+					<td valign="right" rowspan="2"><IMG SRC="/global_images/ceslogo_bottom.gif"></td> 
+					<td valign="bottom" align="right" colspan="2"><IMG SRC="/global_images/header_images/icestext.gif" WIDTH=311 HEIGHT=18>&nbsp;</td>
+					<td bgcolor="#5670B1" valign="center" align="center" nowrap colspan="2">
+						<table cellpadding="0" cellspacing="0" border="0">
+						<tr>
+						<td><script language="JavaScript">
+						var headerNavItem = headerNavConstant();
+						if (headerNavItem == "home") {
+							document.write("<font class='homenavhl'>home</font>");
+						} else {
+							document.write("<a href='/default.asp'><font class='homenav'>home</font></a>");
+						}
+						</script></td>
+						<td><font class="homenav">&nbsp;|&nbsp;</font></td>
+						<td><script language="JavaScript">
+						if (headerNavItem == "about") {
+							document.write("<font class='homenavhl'>about ces</font>");
+						} else {
+							document.write("<a href='/about_ces/default.asp'><font class='homenav'>about ces</font></a>");
+						}
+						</script></td>
+						<td><font class="homenav">&nbsp;|&nbsp;</font></td>
+						<td><script language="JavaScript">
+						if (headerNavItem == "help") {
+							document.write("<font class='homenavhl'>help</font>");
+						} else {
+							document.write("<a href='/help/'><font class='homenav'>help</font></a>");
+						}
+						</script></td>
+						<td><font class="homenav">&nbsp;|&nbsp;</font></td>
+ 						<td><script language="JavaScript">
+						if (headerNavItem == "contact") {
+							document.write("<font class='homenavhl'>contact ces</font>");
+						} else {
+							document.write("<a href='/contact_ces/default.asp'><font class='homenav'>contact ces</font></a>");
+						}
+						</script></td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+ 					<td colspan="4">
+						<table cellpadding="0" cellspacing="0" border="0">
+							<tr>
+								<td class="sp"><script>s1(10,1)</script>
+								</td>
+							</tr>
+						</table>
+					</td> 
+				</tr>
+				<tr>
+					<td rowspan="5" valign="top">
+						<table cellpadding="0" cellspacing="0" border="0">
+							<tr>
+								<td class="sp"><script>s1(1,213)</script></td>
+							</tr>
+						</table>
+						<table cellspacing="0" cellpadding="0" border="0">
+<tr><td rowspan=3>&nbsp;</td><td>
+
+<script language="javascript1.2">
+	function checkSearch() {
+			var searchForm = document.searchCESWeb;
+			
+			if(searchForm.SEARCH_STRING.value.search(/\S/) == -1) {
+				alert("Please enter text to search for.");
+				return;
+			}
+			
+			searchForm.submit();
+	}
+	
+</script>
+<table cellspacing="0" cellpadding="0" border="0">
+	<tr><td colspan=2><img src="/global_images/nav_menu/searchCESWeb.gif"></td></tr>
+	<form name="searchCESWeb" method="POST" action="/search/searchResult.asp?">
+	<tr><td align="left" valign="bottom"><input type="text" name="SEARCH_STRING" size="20" class="formData" value=""></td><td align="left" valign="bottom"><a href="javascript:checkSearch();"><img border=0 src="/global_images/nav_menu/searchButton.gif"></a></td></tr>
+	<!--<tr><td align="left" colspan=2><a href="/search/advanced.asp">advanced search</a></td></tr>-->
+	<!-- Component Fields -->
+	<input type="hidden" name="ExhibitorSearchField" value="on">
+	<input type="hidden" name="EventSearchField" value="on">
+	<input type="hidden" name="PressSearchField" value="on">
+	<input type="hidden" name="ConferenceSearchField" value="on">
+	<input type="hidden" name="GeneralCESwebSearchField" value="on">
+	</form>
+</table>
+</td></tr>
+<!-- <tr><td><img src="/global_images/nav_menu/navigateCESWeb.gif"></tr> -->
+<tr><td valign="top"><div id="navDiv"></div></td></tr>
+<!-- <tr><td><img src="/global_images/nav_menu/textonlyNavigation.gif"></td></tr> -->
+</table>
+					</td>
+					<td valign="top">
+						<table cellpadding="0" cellspacing="0" border="0">
+							<tr>
+								<td>
+									<table cellpadding="0" cellspacing="0" border="0">
+									<tr>
+										<td class="sp"><script>s1(1,355)</script></td>
+									</tr>
+									</table>
+								</td>
+							</tr>
+						</table>
+					</td>
+					<td valign="top">
+						<table cellpadding="0" cellspacing="0" border="0">
+							<tr>
+								<td>
+									<table cellpadding="0" cellspacing="0" border="0">
+									<tr>
+										<td class="sp"><script>s1(1,5)</script></td>
+									</tr>
+									</table>
+								</td>
+							</tr>
+						</table>
+					</td>
+					<td valign="top">
+						<table cellpadding="0" cellspacing="0" border="0">
+							<tr>
+								<td>
+									<table cellpadding="0" cellspacing="0" border="0">
+									<tr>
+										<td class="sp"><script>s1(1,185)</script></td>
+									</tr>
+									</table>
+								</td>
+							</tr>
+						</table>
+					</td>
+					<td valign="top">
+						<table cellpadding="0" cellspacing="0" border="0">
+							<tr>
+								<td>
+									<table cellpadding="0" cellspacing="0" border="0">
+									<tr>
+										<td class="sp"><script>s1(1,5)</script></td>
+									</tr>
+									</table>
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<script language="JavaScript">
+					if (addedValue == true) {
+						document.write("<td valign=top>");
+					} else {
+						document.write("<td valign=top colspan=4>");
+					}
+					</script>
+						<table cellpadding="0" cellspacing="0" border="0" width="100%">
+							<tr>
+								<td><br><font class="breadcrumb">
+								<!-- breadcrumb starts here -->
+								<script language="JavaScript">
+
+	var breadcrumb = "";
+	var pageTitle = "";
+	var breadcrumbURLs = new Array();
+	var breadcrumbTitles = new Array();
+
+	switch (pageID) {
+		case "0.1":
+			pageTitle = "about ces";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "0.1.1": case "0.1.2":
+			if (pageID == "0.1.1") {
+				pageTitle = "ces logos";
+			} else if (pageID == "0.1.2") {
+				pageTitle = "partners &amp; sponsors";
+			}
+
+			breadcrumbTitles = new Array("about ces");
+			breadcrumbURLs = new Array("/about.asp");
+			
+			break
+		
+		case "0.2":
+			pageTitle = "contact ces";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "0.2.1":
+			pageTitle = "thanks for contacting us";
+			breadcrumbTitles = new Array("contact ces");
+			breadcrumbURLs = new Array("/contact.asp");
+			break
+		
+		case "0.3":
+			pageTitle = "cesweb help";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "0.3.1": case "0.3.2": case "0.3.3": case "0.3.4":
+			if (pageID == "0.3.1") {
+				pageTitle = "keyword details";
+			} else if (pageID == "0.3.2") {
+				pageTitle = "cesweb faq";
+			} else if (pageID == "0.3.3") {
+				pageTitle = "show glossary";
+			} else if (pageID == "0.3.4") {
+				pageTitle = "help by audience";
+			}
+
+			breadcrumbTitles = new Array("cesweb help");
+			breadcrumbURLs = new Array("/help/");
+			
+			break
+
+		case "0.4":
+			pageTitle = "privacy policy";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+		
+		case "0.5.1":
+			pageTitle = "advanced search of cesweb";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "0.5.1.1":
+			pageTitle = "search results";
+			breadcrumbTitles = new Array("advanced search of cesweb");
+			breadcrumbURLs = new Array("/search/");
+			break
+
+		case "1.1":
+			pageTitle = "registration";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+
+		case "1.2":
+			pageTitle = "conferences &amp; keynotes";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "1.2.1":
+			pageTitle = "conference overview";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "1.2.2":
+			pageTitle = "keynotes";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "1.2.3":
+			pageTitle = "supersessions";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "1.2.4.A": case "1.2.4.B": case "1.2.4.C": case "1.2.4.D": case "1.2.4.E": case "1.2.4.F": case "1.2.4.G":
+			if (pageID == "1.2.4.A") {
+				pageTitle = "search for session";
+			} else if (pageID == "1.2.4.B") {
+				pageTitle = "search for session";
+			} else if (pageID == "1.2.4.C") {
+				pageTitle = "search for session";
+			} else if (pageID == "1.2.4.D") {
+				pageTitle = "search for session";
+			} else if (pageID == "1.2.4.E") {
+				pageTitle = "search for session";
+			} else if (pageID == "1.2.4.F") {
+				pageTitle = "search for session";
+			} else if (pageID == "1.2.4.G") {
+				pageTitle = "search for session";
+			}
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "1.2.4.1":
+			pageTitle = "search results";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "1.2.4.1.1":
+			pageTitle = "session details";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "1.3.1.A": case "1.3.1.B": case "1.3.1.C": case "1.3.1.D": case "1.3.1.E": case "1.3.1.F": case "1.3.1.G":
+			if (pageID == "1.3.1.A") {
+				pageTitle = "search for exhibitor by name";
+			} else if (pageID == "1.3.1.B") {
+				pageTitle = "search for exhibitor by brand name";
+			} else if (pageID == "1.3.1.C") {
+				pageTitle = "search for public traded exhibitors";
+			} else if (pageID == "1.3.1.D") {
+				pageTitle = "search for exhibitor by product category";
+			} else if (pageID == "1.3.1.E") {
+				pageTitle = "search for exporting exhibitors";
+			} else if (pageID == "1.3.1.F") {
+				pageTitle = "search for exhibitor by geographic location";
+			} else if (pageID == "1.3.1.G") {
+				pageTitle = "search for exhibitor";
+			}
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "1.3.1.1":
+			pageTitle = "search results";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "1.3.1.1.1":
+			pageTitle = "exhibitor details";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "1.3.1.1.1.1":
+			pageTitle = "booth details";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "1.3.2":
+			pageTitle = "exhibitor new products";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "1.4.1": case "1.4.2": case "1.4.3": case "1.4.3.1": case "1.4.3.1.1": case "1.4.4":
+			if (pageID == "1.4.1") {
+				pageTitle = "show floor locations";
+			} else if (pageID == "1.4.2") {
+				pageTitle = "maps";
+			} else if (pageID == "1.4.3") {
+				pageTitle = "las vegas convention center expansion";
+			} else if (pageID == "1.4.3.1") {
+				pageTitle = "lvcc expansion photos";
+			} else if (pageID == "1.4.3.1.1") {
+				pageTitle = "photo details";
+			} else if (pageID == "1.4.4") {
+				pageTitle = "las vegas information";
+			}
+
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+
+			break
+
+
+		case "1.5":
+			pageTitle = "news highlights";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "1.5.1":
+			pageTitle = "ces news ";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "1.5.2":
+			pageTitle = "cea news";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "1.5.3":
+			pageTitle = "media reports on ces";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "1.6.1 a-g":
+			pageTitle = "international visitor information";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "1.7.1":
+			pageTitle = "innovations awards";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "1.7.1.3":
+			pageTitle = "past innovations";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "1.7.1.3.2 a-c":
+			pageTitle = "judges";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "1.7.1.3.1 a-c":
+			pageTitle = "honorees";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "1.7.1.3.1.1 a-c":
+			pageTitle = "detailed honoree information";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "1.7.1.2":
+			pageTitle = "judges";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "1.7.1.1":
+			pageTitle = "honorees";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "1.7.1.1.1":
+			pageTitle = "detailed honoree information";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "1.7.2":
+			pageTitle = "hall of fame";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "1.7.3":
+			pageTitle = "best of ces";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "1.7.3.2":
+			pageTitle = "past best of ces";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "1.7.3.2.1 a-c":
+			pageTitle = "best of ces overview";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "1.8.1":
+			pageTitle = "hotel reservations";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "1.8.2":
+			pageTitle = "airlines &amp; rental cars";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "1.8.3":
+			pageTitle = "ces shuttle";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "1.8.4":
+			pageTitle = "taxi &amp; parking";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "1.9":
+			pageTitle = "ces photos";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "1.10.1.A": case "1.10.1.B": case "1.10.1.C": case "1.10.1.D": case "1.10.1.E": case "1.10.1.F": case "1.10.1.G": case "1.10.1.H": case "1.10.1.I": case "1.10.1.J": case "1.10.1.K": case "1.10.1.L": case "1.10.1.M": case "1.10.1.N": case "1.10.1.O": 
+			if (pageID == "1.10.1.A") {
+				pageTitle = "technologies to watch at ces: accessories & blank media";
+			} else if (pageID == "1.10.1.B") {
+				pageTitle = "technologies to watch at ces: audio hardware & software";
+			} else if (pageID == "1.10.1.C") {
+				pageTitle = "technologies to watch at ces: business management";
+			} else if (pageID == "1.10.1.D") {
+				pageTitle = "technologies to watch at ces: digital hollywood & content";
+			} else if (pageID == "1.10.1.E") {
+				pageTitle = "technologies to watch at ces: digital imaging";
+			} else if (pageID == "1.10.1.F") {
+				pageTitle = "technologies to watch at ces: electronic gaming";
+			} else if (pageID == "1.10.1.G") {
+				pageTitle = "technologies to watch at ces: home networking";
+			} else if (pageID == "1.10.1.H") {
+				pageTitle = "technologies to watch at ces: home theater";
+			} else if (pageID == "1.10.1.I") {
+				pageTitle = "technologies to watch at ces: mobile & in-car electronics";
+			} else if (pageID == "1.10.1.J") {
+				pageTitle = "technologies to watch at ces: personal electronics";
+			} else if (pageID == "1.10.1.K") {
+				pageTitle = "technologies to watch at ces: satellite systems";
+			} else if (pageID == "1.10.1.L") {
+				pageTitle = "technologies to watch at ces: small office & home office";
+			} else if (pageID == "1.10.1.M") {
+				pageTitle = "technologies to watch at ces: telecommunications";
+			} else if (pageID == "1.10.1.N") {
+				pageTitle = "technologies to watch at ces: video hardware & software";
+			} else if (pageID == "1.10.1.O") {
+				pageTitle = "technologies to watch at ces: wireless communications";
+			}
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "1.10.2":
+			pageTitle = "ces product categories";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "1.10.3":
+			pageTitle = "consumer electronics products";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "1.10.4":
+			pageTitle = "technology pavilions";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "1.11":
+			pageTitle = "other ce events";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "1.12":
+			pageTitle = "special events @ ces";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "1.12.1 a-z":
+			pageTitle = "booth &amp; celebrity event details";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "1.13":
+			pageTitle = "interested in exhibiting";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "2.1":
+			pageTitle = "general information for exhibitors";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "2.2":
+			pageTitle = "reserving exhibitor space";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "2.2.1":
+			pageTitle = "general information &amp; deadlines";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "2.2.2":
+			pageTitle = "ces sales representatives";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "2.2.3":
+			pageTitle = "contact a sales rep";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "2.2.3.1":
+			pageTitle = "thanks for contacting us";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "2.3":
+			pageTitle = "exhibitor advantage newsletter";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "2.4":
+			pageTitle = "exhibitor deadline checklist";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "2.5":
+			pageTitle = "reserving a meeting room";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "2.6":
+			pageTitle = "promotional opportunities";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "2.6.1":
+			pageTitle = "key contacts";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "2.6.2":
+			pageTitle = "deadline checklist";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "2.6.3 a-x":
+			pageTitle = "detailed opportunity information";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "2.7":
+			pageTitle = "technology pavilions";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "2.8":
+			pageTitle = "exhibitor registration";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "2.9":
+			pageTitle = "attendee statistics";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "2.10":
+			pageTitle = "exhibitor manual";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "2.11":
+			pageTitle = "hotel information for exhibitors";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "2.12":
+			pageTitle = "ces press &amp; analyst list";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "3.1":
+			pageTitle = "press services";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "3.1.1":
+			pageTitle = "on-site press room";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "3.2":
+			pageTitle = "news highlights";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "3.3":
+			pageTitle = "ces press releases";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "3.3.1 a-z":
+			pageTitle = "individual press release";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "3.4":
+			pageTitle = "contacts for press";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "3.5":
+			pageTitle = "ces logos";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "3.6":
+			pageTitle = "new products at ces";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "3.6.1 a-z":
+			pageTitle = "product details";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "3.7":
+			pageTitle = "exhibitor press releases";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "3.7.1 a-z":
+			pageTitle = "individual press release";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "3.8":
+			pageTitle = "press registration";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "3.9":
+			pageTitle = "press events";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "3.9.1.1 a-z":
+			pageTitle = "press conference details";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "3.10":
+			pageTitle = "exhibitor PR contacts";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "3.11":
+			pageTitle = "housing information for press";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "4.1":
+			pageTitle = "call for ces speakers";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "4.2":
+			pageTitle = "ces speaker submission";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "4.2.1":
+			pageTitle = "thanks for answering our call for speakers";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "4.3":
+			pageTitle = "speaker services";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "4.4":
+			pageTitle = "speak @ other cea events";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+		
+
+		default:
+			pageTitle = "none";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+	}
+
+
+	if (pageID != "0") {
+
+		breadcrumb = "<a href='/default.asp' class='breadcrumb'>home</a> > ";
+		
+		for (var i=0; i < breadcrumbURLs.length; i++) {
+			breadcrumb += "<a href='";
+			breadcrumb += breadcrumbURLs[i];
+			breadcrumb += "' class='breadcrumb'>";
+			breadcrumb += breadcrumbTitles[i];
+			breadcrumb += "</a> > ";
+		}
+		
+		breadcrumb += pageTitle;
+
+		if (pageTitle != "none") {
+			document.write(breadcrumb);
+		}
+
+	} else {
+		;
+	}
+
+</script>
+								<!-- breadcrumb ends here -->
+								</font></td>
+							</tr>
+							<tr>
+								<td><br></td>
+							</tr>
+							<tr>
+								<td valign="top">
+
+
+
+<font class="pagehead">CES Photos</font>
+<font class="body"><p>&nbsp;<br>
+
+<font class="head">2002 International CES</font><p>
+<!-- 2002 Content starts here-->
+
+
+<table cellpadding="0" cellspacing="0" border="0" align=center width=95%>
+
+<tr>
+<td colspan=2 class="pressTableHeader">Description</td>
+<td colspan=2 class="pressTableHeader" align=center>Preview</td>
+</tr>
+<tr>
+<td colspan=3><br></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td class="pressTableContent">Gary Shapiro, president and CEO of the Consumer Electronics Association (CEA) offers brief remarks at the Pre-Opening Keynote
+</td>
+<td>&nbsp;</td>
+<td class="pressTableContent" align=right><a href="/ces_photos/2002_images/C-1A.jpg"><img src="/ces_photos/2002_images/C-1A_thumb.jpg" alt="Click to Enlarge!" border="0"></a><br>
+<font class="bodylink"><a href="/ces_photos/2002_images/C-1A_hr.jpg" class="bodylink">download hi-res</a></font></td>
+</tr>
+<tr>
+<td colspan=3></td>
+</tr>
+<tr>
+	<td colspan="100%">
+		<br>
+	</td>
+</tr>
+
+<tr>
+<td colspan=2 class="pressTableHeader">Description</td>
+<td colspan=2 class="pressTableHeader" align=center>Preview</td>
+</tr>
+<tr>
+<td colspan=3><br></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td class="pressTableContent">Bill Gates receives a warm welcome from Gary Shapiro
+</td>
+<td>&nbsp;</td>
+<td class="pressTableContent" align=right><a href="/ces_photos/2002_images/D-31A.jpg"><img src="/ces_photos/2002_images/D-31A_thumb.jpg" alt="Click to Enlarge!" border="0"></a><br>
+<font class="bodylink"><a href="/ces_photos/2002_images/D-31A_hr.jpg" class="bodylink">download hi-res</a></font></td>
+</tr>
+<tr>
+<td colspan=3></td>
+</tr>
+<tr>
+	<td colspan="100%">
+		<br>
+	</td>
+</tr>
+
+<tr>
+<td colspan=2 class="pressTableHeader">Description</td>
+<td colspan=2 class="pressTableHeader" align=center>Preview</td>
+</tr>
+<tr>
+<td colspan=3><br></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td class="pressTableContent">Pre-Opening Keynoter Bill Gates describes the next ten years as “the Digital Decade"
+</td>
+<td>&nbsp;</td>
+<td class="pressTableContent" align=right><a href="/ces_photos/2002_images/D-17A.jpg"><img src="/ces_photos/2002_images/D-17A_thumb.jpg" alt="Click to Enlarge!" border="0"></a><br>
+<font class="bodylink"><a href="/ces_photos/2002_images/D-17A_hr.jpg" class="bodylink">download hi-res</a></font></td>
+</tr>
+<tr>
+<td colspan=3></td>
+</tr>
+<tr>
+	<td colspan="100%">
+		<br>
+	</td>
+</tr>
+
+<!--
+
+<tr>
+<td colspan=2 class="pressTableHeader">Description</td>
+<td colspan=2 class="pressTableHeader" align=center>Preview</td>
+</tr>
+<tr>
+<td colspan=3><br></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td class="pressTableContent">Bill Gates delivering the Pre-Opening Keynote for the 2002 CES 
+</td>
+<td>&nbsp;</td>
+<td class="pressTableContent" align=right><a href="/ces_photos/2002_images/c-17a.jpg"><img src="/ces_photos/2002_images/c-17a_thumb.jpg" alt="Click to Enlarge!" border="0"></a><br>
+<font class="bodylink"><a href="/ces_photos/2002_images/c-17a._hr.jpg" class="bodylink">download hi-res</a></font></td>
+</tr>
+<tr>
+<td colspan=3></td>
+</tr>
+<tr>
+	<td colspan="100%">
+		<br>
+	</td>
+</tr>
+-->
+
+<tr>
+<td colspan=2 class="pressTableHeader">Description</td>
+<td colspan=2 class="pressTableHeader" align=center>Preview</td>
+</tr>
+<tr>
+<td colspan=3><br></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td class="pressTableContent">Bill Gates and Richard Dennison with new flat-screen MIRA monitor
+</td>
+<td>&nbsp;</td>
+<td class="pressTableContent" align=right><a href="/ces_photos/2002_images/d-6a.jpg"><img src="/ces_photos/2002_images/d-6a_thumb.jpg" alt="Click to Enlarge!" border="0"></a><br>
+<font class="bodylink"><a href="/ces_photos/2002_images/d-6a_hr.jpg" class="bodylink">download hi-res</a></font></td>
+</tr>
+<tr>
+<td colspan=3></td>
+</tr>
+<tr>
+	<td colspan="100%">
+		<br>
+	</td>
+</tr>
+
+
+
+<tr>
+<td colspan=2 class="pressTableHeader">Description</td>
+<td colspan=2 class="pressTableHeader" align=center>Preview</td>
+</tr>
+<tr>
+<td colspan=3><br></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td class="pressTableContent">Dr. Daeje Chin of Samsung delivers the 2002 CES Opening Keynote
+</td>
+<td>&nbsp;</td>
+<td class="pressTableContent" align=right><a href="/ces_photos/2002_images/p29a.jpg"><img src="/ces_photos/2002_images/p29a_thumb.jpg" alt="Click to Enlarge!" border="0"></a><br>
+<font class="bodylink"><a href="/ces_photos/2002_images/p29a_hr.jpg" class="bodylink">download hi-res</a></font></td>
+</tr>
+<tr>
+<td colspan=3></td>
+</tr>
+<tr>
+	<td colspan="100%">
+		<br>
+	</td>
+</tr>
+
+
+<tr>
+<td colspan=2 class="pressTableHeader">Description</td>
+<td colspan=2 class="pressTableHeader" align=center>Preview</td>
+</tr>
+<tr>
+<td colspan=3><br></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td class="pressTableContent">Dr. Daeje Chin, president and CEO of Digital Media Business for Samsung, demonstrates the capabilities of Nexio during his Kick-Off Keynote, with the help of Richard Karn from television’s Home Improvement
+</td>
+<td>&nbsp;</td>
+<td class="pressTableContent" align=right><a href="/ces_photos/2002_images/O_19.jpg"><img src="/ces_photos/2002_images/O_19_thumb.jpg" alt="Click to Enlarge!" border="0"></a><br>
+<font class="bodylink"><a href="/ces_photos/2002_images/O_19_hr.jpg" class="bodylink">download hi-res</a></font></td>
+</tr>
+<tr>
+<td colspan=3></td>
+</tr>
+<tr>
+	<td colspan="100%">
+		<br>
+	</td>
+</tr>
+
+
+<tr>
+<td colspan=2 class="pressTableHeader">Description</td>
+<td colspan=2 class="pressTableHeader" align=center>Preview</td>
+</tr>
+<tr>
+<td colspan=3><br></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td class="pressTableContent">The Grand Lobby of the Las Vegas Convention Center packed with attendees
+</td>
+<td>&nbsp;</td>
+<td class="pressTableContent" align=right><a href="/ces_photos/2002_images/S_9.jpg"><img src="/ces_photos/2002_images/S_9_thumb.jpg" alt="Click to Enlarge!" border="0"></a><br>
+<font class="bodylink"><a href="/ces_photos/2002_images/S_9_hr.jpg" class="bodylink">download hi-res</a></font></td>
+</tr>
+<tr>
+<td colspan=3></td>
+</tr>
+<tr>
+	<td colspan="100%">
+		<br>
+	</td>
+</tr>
+
+<tr>
+<td colspan=2 class="pressTableHeader">Description</td>
+<td colspan=2 class="pressTableHeader" align=center>Preview</td>
+</tr>
+<tr>
+<td colspan=3><br></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td class="pressTableContent">A close-up look at one of the recipients of the 2002 Innovations Awards - the 12 Channel Component Distribution Amplifier from Key Digital Systems
+</td>
+<td>&nbsp;</td>
+<td class="pressTableContent" align=right><a href="/ces_photos/2002_images/H-14A.jpg"><img src="/ces_photos/2002_images/H-14A_thumb.jpg" alt="Click to Enlarge!" border="0"></a><br>
+<font class="bodylink"><a href="/ces_photos/2002_images/H-14A_hr.jpg" class="bodylink">download hi-res</a></font></td>
+</tr>
+<tr>
+<td colspan=3></td>
+</tr>
+<tr>
+	<td colspan="100%">
+		<br>
+	</td>
+</tr>
+
+<tr>
+<td colspan=2 class="pressTableHeader">Description</td>
+<td colspan=2 class="pressTableHeader" align=center>Preview</td>
+</tr>
+<tr>
+<td colspan=3><br></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td class="pressTableContent">BeAtHome’s Energy Management System – 2002 Best of Innovations Award winner for the Integrated Home Systems category
+</td>
+<td>&nbsp;</td>
+<td class="pressTableContent" align=right><a href="/ces_photos/2002_images/K-4A.jpg"><img src="/ces_photos/2002_images/K-4A_thumb.jpg" alt="Click to Enlarge!" border="0"></a><br>
+<font class="bodylink"><a href="/ces_photos/2002_images/K-4A_hr.jpg" class="bodylink">download hi-res</a></font></td>
+</tr>
+<tr>
+<td colspan=3></td>
+</tr>
+<tr>
+	<td colspan="100%">
+		<br>
+	</td>
+</tr>
+
+<tr>
+<td colspan=2 class="pressTableHeader">Description</td>
+<td colspan=2 class="pressTableHeader" align=center>Preview</td>
+</tr>
+<tr>
+<td colspan=3><br></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td class="pressTableContent">A close-up look at Samsung’s Portable DVD player
+</td>
+<td>&nbsp;</td>
+<td class="pressTableContent" align=right><a href="/ces_photos/2002_images/G-34A.jpg"><img src="/ces_photos/2002_images/G-34A_thumb.jpg" alt="Click to Enlarge!" border="0"></a><br>
+<font class="bodylink"><a href="/ces_photos/2002_images/G-34A_hr.jpg" class="bodylink">download hi-res</a></font></td>
+</tr>
+<tr>
+<td colspan=3></td>
+</tr>
+<tr>
+	<td colspan="100%">
+		<br>
+	</td>
+</tr>
+
+<tr>
+<td colspan=2 class="pressTableHeader">Description</td>
+<td colspan=2 class="pressTableHeader" align=center>Preview</td>
+</tr>
+<tr>
+<td colspan=3><br></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td class="pressTableContent">Sanyo’s SCP-5150 is one of the first mobile phones in the U.S. with a 256-color screen
+</td>
+<td>&nbsp;</td>
+<td class="pressTableContent" align=right><a href="/ces_photos/2002_images/G-20A.jpg"><img src="/ces_photos/2002_images/G-20A_thumb.jpg" alt="Click to Enlarge!" border="0"></a><br>
+<font class="bodylink"><a href="/ces_photos/2002_images/G-20A_hr.jpg" class="bodylink">download hi-res</a></font></td>
+</tr>
+<tr>
+<td colspan=3></td>
+</tr>
+<tr>
+	<td colspan="100%">
+		<br>
+	</td>
+</tr>
+
+<tr>
+<td colspan=2 class="pressTableHeader">Description</td>
+<td colspan=2 class="pressTableHeader" align=center>Preview</td>
+</tr>
+<tr>
+<td colspan=3><br></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td class="pressTableContent">2002 Best of Innovations Award winner – Digital Cookware
+</td>
+<td>&nbsp;</td>
+<td class="pressTableContent" align=right><a href="/ces_photos/2002_images/G-9A.jpg"><img src="/ces_photos/2002_images/G-9A_thumb.jpg" alt="Click to Enlarge!" border="0"></a><br>
+<font class="bodylink"><a href="/ces_photos/2002_images/G-9A_hr.jpg" class="bodylink">download hi-res</a></font></td>
+</tr>
+<tr>
+<td colspan=3></td>
+</tr>
+<tr>
+	<td colspan="100%">
+		<br>
+	</td>
+</tr>
+
+<tr>
+<td colspan=2 class="pressTableHeader">Description</td>
+<td colspan=2 class="pressTableHeader" align=center>Preview</td>
+</tr>
+<tr>
+<td colspan=3><br></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td class="pressTableContent">Panasonic’s Mini DVD Digital Camcorder, winner of 2002 Best of Innovations for the Digital Imaging category
+</td>
+<td>&nbsp;</td>
+<td class="pressTableContent" align=right><a href="/ces_photos/2002_images/G-6A.jpg"><img src="/ces_photos/2002_images/G-6A_thumb.jpg" alt="Click to Enlarge!" border="0"></a><br>
+<font class="bodylink"><a href="/ces_photos/2002_images/G-6A_hr.jpg" class="bodylink">download hi-res</a></font></td>
+</tr>
+<tr>
+<td colspan=3></td>
+</tr>
+<tr>
+	<td colspan="100%">
+		<br>
+	</td>
+</tr>
+
+<tr>
+<td colspan=2 class="pressTableHeader">Description</td>
+<td colspan=2 class="pressTableHeader" align=center>Preview</td>
+</tr>
+<tr>
+<td colspan=3><br></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td class="pressTableContent">The Sony CLIE is the first Palm OS-based handheld with an integrated digital audio player
+</td>
+<td>&nbsp;</td>
+<td class="pressTableContent" align=right><a href="/ces_photos/2002_images/H-23A.jpg"><img src="/ces_photos/2002_images/H-23A_thumb.jpg" alt="Click to Enlarge!" border="0"></a><br>
+<font class="bodylink"><a href="/ces_photos/2002_images/H-23A_hr.jpg" class="bodylink">download hi-res</a></font></td>
+</tr>
+<tr>
+<td colspan=3></td>
+</tr>
+<tr>
+	<td colspan="100%">
+		<br>
+	</td>
+</tr>
+
+<tr>
+<td colspan=2 class="pressTableHeader">Description</td>
+<td colspan=2 class="pressTableHeader" align=center>Preview</td>
+</tr>
+<tr>
+<td colspan=3><br></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td class="pressTableContent">2002 Best of Innovations winner in the Mobile Electronics category – the Glass Mount Satellite Radio Antennae from Terk
+</td>
+<td>&nbsp;</td>
+<td class="pressTableContent" align=right><a href="/ces_photos/2002_images/Q-17.jpg"><img src="/ces_photos/2002_images/Q-17_thumb.jpg" alt="Click to Enlarge!" border="0"></a><br>
+<font class="bodylink"><a href="/ces_photos/2002_images/Q-17_hr.jpg" class="bodylink">download hi-res</a></font></td>
+</tr>
+<tr>
+<td colspan=3></td>
+</tr>
+<tr>
+	<td colspan="100%">
+		<br>
+	</td>
+</tr>
+
+<tr>
+<td colspan=2 class="pressTableHeader">Description</td>
+<td colspan=2 class="pressTableHeader" align=center>Preview</td>
+</tr>
+<tr>
+<td colspan=3><br></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td class="pressTableContent">Totally X-Citing: the XBOX
+</td>
+<td>&nbsp;</td>
+<td class="pressTableContent" align=right><a href="/ces_photos/2002_images/Q_6.jpg"><img src="/ces_photos/2002_images/Q_6_thumb.jpg" alt="Click to Enlarge!" border="0"></a><br>
+<font class="bodylink"><a href="/ces_photos/2002_images/Q_6_hr.jpg" class="bodylink">download hi-res</a></font></td>
+</tr>
+<tr>
+<td colspan=3></td>
+</tr>
+<tr>
+	<td colspan="100%">
+		<br>
+	</td>
+</tr>
+
+<!--
+
+<tr>
+<td colspan=2 class="pressTableHeader">Description</td>
+<td colspan=2 class="pressTableHeader" align=center>Preview</td>
+</tr>
+<tr>
+<td colspan=3><br></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td class="pressTableContent">A close-up look at Samsung’s SyncMaster 171MP
+</td>
+<td>&nbsp;</td>
+<td class="pressTableContent" align=right><a href="/ces_photos/2002_images/Q-26.jpg"><img src="/ces_photos/2002_images/Q-26_thumb.jpg" alt="Click to Enlarge!" border="0"></a><br>
+<font class="bodylink"><a href="/ces_photos/2002_images/Q-26_hr.jpg" class="bodylink">download hi-res</a></font></td>
+</tr>
+<tr>
+<td colspan=3></td>
+</tr>
+<tr>
+	<td colspan="100%">
+		<br>
+	</td>
+</tr>
+
+-->
+
+<tr>
+<td colspan=2 class="pressTableHeader">Description</td>
+<td colspan=2 class="pressTableHeader" align=center>Preview</td>
+</tr>
+<tr>
+<td colspan=3><br></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td class="pressTableContent">Sony’s VIAO Slimtop Pen Tablet lets offers a new way for PC users to interact with a computer
+</td>
+<td>&nbsp;</td>
+<td class="pressTableContent" align=right><a href="/ces_photos/2002_images/30A.jpg"><img src="/ces_photos/2002_images/30A_thumb.jpg" alt="Click to Enlarge!" border="0"></a><br>
+<font class="bodylink"><a href="/ces_photos/2002_images/30A_hr.jpg" class="bodylink">download hi-res</a></font></td>
+</tr>
+<tr>
+<td colspan=3></td>
+</tr>
+<tr>
+	<td colspan="100%">
+		<br>
+	</td>
+</tr>
+
+<tr>
+<td colspan=2 class="pressTableHeader">Description</td>
+<td colspan=2 class="pressTableHeader" align=center>Preview</td>
+</tr>
+<tr>
+<td colspan=3><br></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td class="pressTableContent">Shapiro shares the stage at the Ribbon Cutting with (l-r) Rob Powers, Mary Kincaid-Chauncey and Manny Cortez.
+</td>
+<td>&nbsp;</td>
+<td class="pressTableContent" align=right><a href="/ces_photos/2002_images/a-11a.jpg"><img src="/ces_photos/2002_images/a-11a_thumb.jpg" alt="Click to Enlarge!" border="0"></a><br>
+<font class="bodylink"><a href="/ces_photos/2002_images/a-11a_hr.jpg" class="bodylink">download hi-res</a></font></td>
+</tr>
+<tr>
+<td colspan=3></td>
+</tr>
+<tr>
+	<td colspan="100%">
+		<br>
+	</td>
+</tr>
+
+<tr>
+<td colspan=2 class="pressTableHeader">Description</td>
+<td colspan=2 class="pressTableHeader" align=center>Preview</td>
+</tr>
+<tr>
+<td colspan=3><br></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td class="pressTableContent">John Shalam of Audiovox, Gary Shapiro of CEA, Las Vegas Mayor Michael Montandon, Las Vegas Councilwoman Mary Kincaid-Chauncey, Robert Forbuss, Jerry Kalov of Kay and Associates, and Manny Cortez of the LVCA at the Grand Opening ribbon cutting ceremony for the new LVCC South Hall Expansion.
+</td>
+<td>&nbsp;</td>
+<td class="pressTableContent" align=right><a href="/ces_photos/2002_images/A-19A.jpg"><img src="/ces_photos/2002_images/A-19A_thumb.jpg" alt="Click to Enlarge!" border="0"></a><br>
+<font class="bodylink"><a href="/ces_photos/2002_images/A-19A_hr.jpg" class="bodylink">download hi-res</a></font></td>
+</tr>
+<tr>
+<td colspan=3></td>
+</tr>
+<tr>
+	<td colspan="100%">
+		<br>
+	</td>
+</tr>
+
+<tr>
+<td colspan=2 class="pressTableHeader">Description</td>
+<td colspan=2 class="pressTableHeader" align=center>Preview</td>
+</tr>
+<tr>
+<td colspan=3><br></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td class="pressTableContent">Using RF technology, I-SPOT finds up to 12 household items such as PDAs, keys, handheld games and remote controls missing in action.
+</td>
+<td>&nbsp;</td>
+<td class="pressTableContent" align=right><a href="/ces_photos/2002_images/JJ-16.jpg"><img src="/ces_photos/2002_images/JJ-16_thumb.jpg" alt="Click to Enlarge!" border="0"></a><br>
+<font class="bodylink"><a href="/ces_photos/2002_images/JJ-16_hr.jpg" class="bodylink">download hi-res</a></font></td>
+</tr>
+<tr>
+<td colspan=3></td>
+</tr>
+<tr>
+	<td colspan="100%">
+		<br>
+	</td>
+</tr>
+
+<tr>
+<td colspan=2 class="pressTableHeader">Description</td>
+<td colspan=2 class="pressTableHeader" align=center>Preview</td>
+</tr>
+<tr>
+<td colspan=3><br></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td class="pressTableContent">Toshiba’s MEA220 is a Digital Audio Player that uses SD memory card technology to record up to two hours of MP3 or AAC-encoded digital music.
+</td>
+<td>&nbsp;</td>
+<td class="pressTableContent" align=right><a href="/ces_photos/2002_images/JJ-11.jpg"><img src="/ces_photos/2002_images/JJ-11_thumb.jpg" alt="Click to Enlarge!" border="0"></a><br>
+<font class="bodylink"><a href="/ces_photos/2002_images/JJ-11_hr.jpg" class="bodylink">download hi-res</a></font></td>
+</tr>
+<tr>
+<td colspan=3></td>
+</tr>
+<tr>
+	<td colspan="100%">
+		<br>
+	</td>
+</tr>
+
+<tr>
+<td colspan=2 class="pressTableHeader">Description</td>
+<td colspan=2 class="pressTableHeader" align=center>Preview</td>
+</tr>
+<tr>
+<td colspan=3><br></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td class="pressTableContent">Phonex Broadband’s NeverWire 14 – 2002 Best of Innovations Award winner for Home Data Networking
+</td>
+<td>&nbsp;</td>
+<td class="pressTableContent" align=right><a href="/ces_photos/2002_images/R-16.jpg"><img src="/ces_photos/2002_images/R-16_thumb.jpg" alt="Click to Enlarge!" border="0"></a><br>
+<font class="bodylink"><a href="/ces_photos/2002_images/R-16_hr.jpg" class="bodylink">download hi-res</a></font></td>
+</tr>
+<tr>
+<td colspan=3></td>
+</tr>
+<tr>
+	<td colspan="100%">
+		<br>
+	</td>
+</tr>
+
+<tr>
+<td colspan=2 class="pressTableHeader">Description</td>
+<td colspan=2 class="pressTableHeader" align=center>Preview</td>
+</tr>
+<tr>
+<td colspan=3><br></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td class="pressTableContent">Carly Fiorina of HP addresses the 2002 CES during her keynote
+</td>
+<td>&nbsp;</td>
+<td class="pressTableContent" align=right><a href="/ces_photos/2002_images/CC-21.jpg"><img src="/ces_photos/2002_images/CC-21_thumb.jpg" alt="Click to Enlarge!" border="0"></a><br>
+<font class="bodylink"><a href="/ces_photos/2002_images/CC-21_hr.jpg" class="bodylink">download hi-res</a></font></td>
+</tr>
+<tr>
+<td colspan=3></td>
+</tr>
+<tr>
+	<td colspan="100%">
+		<br>
+	</td>
+</tr>
+
+<tr>
+<td colspan=2 class="pressTableHeader">Description</td>
+<td colspan=2 class="pressTableHeader" align=center>Preview</td>
+</tr>
+<tr>
+<td colspan=3><br></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td class="pressTableContent">Gary Shapiro welcomes Hewlett-Packard Chairman and CEO Carly Fiorina to the Hilton Stage
+</td>
+<td>&nbsp;</td>
+<td class="pressTableContent" align=right><a href="/ces_photos/2002_images/DD-7.jpg"><img src="/ces_photos/2002_images/DD-7_thumb.jpg" alt="Click to Enlarge!" border="0"></a><br>
+<font class="bodylink"><a href="/ces_photos/2002_images/DD-7_hr.jpg" class="bodylink">download hi-res</a></font></td>
+</tr>
+<tr>
+<td colspan=3></td>
+</tr>
+<tr>
+	<td colspan="100%">
+		<br>
+	</td>
+</tr>
+
+<tr>
+<td colspan=2 class="pressTableHeader">Description</td>
+<td colspan=2 class="pressTableHeader" align=center>Preview</td>
+</tr>
+<tr>
+<td colspan=3><br></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td class="pressTableContent">Attendees at the 2002 International CES
+</td>
+<td>&nbsp;</td>
+<td class="pressTableContent" align=right><a href="/ces_photos/2002_images/FF-7A.jpg"><img src="/ces_photos/2002_images/FF-7A_thumb.jpg" alt="Click to Enlarge!" border="0"></a><br>
+<font class="bodylink"><a href="/ces_photos/2002_images/FF-7A_hr.jpg" class="bodylink">download hi-res</a></font></td>
+</tr>
+<tr>
+<td colspan=3></td>
+</tr>
+<tr>
+	<td colspan="100%">
+		<br>
+	</td>
+</tr>
+
+<tr>
+<td colspan=2 class="pressTableHeader">Description</td>
+<td colspan=2 class="pressTableHeader" align=center>Preview</td>
+</tr>
+<tr>
+<td colspan=3><br></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td class="pressTableContent">Congressman Darrell Issa (R-CA) and Congressman John Ensign (R-NV) chat with Gates after his Pre-Opening CES Keynote
+</td>
+<td>&nbsp;</td>
+<td class="pressTableContent" align=right><a href="/ces_photos/2002_images/J-12.jpg"><img src="/ces_photos/2002_images/J-12_thumb.jpg" alt="Click to Enlarge!" border="0"></a><br>
+<font class="bodylink"><a href="/ces_photos/2002_images/J-12_hr.jpg" class="bodylink">download hi-res</a></font></td>
+</tr>
+<tr>
+<td colspan=3></td>
+</tr>
+<tr>
+	<td colspan="100%">
+		<br>
+	</td>
+</tr>
+
+<tr>
+<td colspan=2 class="pressTableHeader">Description</td>
+<td colspan=2 class="pressTableHeader" align=center>Preview</td>
+</tr>
+<tr>
+<td colspan=3><br></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td class="pressTableContent">Sen. and Mrs. Conrad Burns (R-MT) with Gates
+</td>
+<td>&nbsp;</td>
+<td class="pressTableContent" align=right><a href="/ces_photos/2002_images/J-26.jpg"><img src="/ces_photos/2002_images/J-26_thumb.jpg" alt="Click to Enlarge!" border="0"></a><br>
+<font class="bodylink"><a href="/ces_photos/2002_images/J-26_hr.jpg" class="bodylink">download hi-res</a></font></td>
+</tr>
+<tr>
+<td colspan=3></td>
+</tr>
+<tr>
+	<td colspan="100%">
+		<br>
+	</td>
+</tr>
+
+<tr>
+<td colspan=2 class="pressTableHeader">Description</td>
+<td colspan=2 class="pressTableHeader" align=center>Preview</td>
+</tr>
+<tr>
+<td colspan=3><br></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td class="pressTableContent">Blaupunkt's Compact Drive MP3 in-car audio player uses a removable micro hard disc to store and play 18 hours of MP3 files from the internet and CDs
+</td>
+<td>&nbsp;</td>
+<td class="pressTableContent" align=right><a href="/ces_photos/2002_images/HH-35.jpg"><img src="/ces_photos/2002_images/HH-35_thumb.jpg" alt="Click to Enlarge!" border="0"></a><br>
+<font class="bodylink"><a href="/ces_photos/2002_images/HH-35_hr.jpg" class="bodylink">download hi-res</a></font></td>
+</tr>
+<tr>
+<td colspan=3></td>
+</tr>
+<tr>
+	<td colspan="100%">
+		<br>
+	</td>
+</tr>
+
+<tr>
+<td colspan=2 class="pressTableHeader">Description</td>
+<td colspan=2 class="pressTableHeader" align=center>Preview</td>
+</tr>
+<tr>
+<td colspan=3><br></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td class="pressTableContent">More attendees captured on the show floor
+</td>
+<td>&nbsp;</td>
+<td class="pressTableContent" align=right><a href="/ces_photos/2002_images/V-23a.jpg"><img src="/ces_photos/2002_images/V-23a_thumb.jpg" alt="Click to Enlarge!" border="0"></a><br>
+<font class="bodylink"><a href="/ces_photos/2002_images/V-23a_hr.jpg" class="bodylink">download hi-res</a></font></td>
+</tr>
+<tr>
+<td colspan=3></td>
+</tr>
+<tr>
+	<td colspan="100%">
+		<br>
+	</td>
+</tr>
+<!--H-10-->
+<!--
+<tr>
+<td colspan=2 class="pressTableHeader">Description</td>
+<td colspan=2 class="pressTableHeader" align=center>Preview</td>
+</tr>
+<tr>
+<td colspan=3><br></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td class="pressTableContent">The G24 Internet Communicator System G001 for the Handspring Visor PDA (from ARKON Networks) is a fully integrated wireless modem and a multi-handset digital 2.4Ghz FHSS cordless phone
+</td>
+<td>&nbsp;</td>
+<td class="pressTableContent" align=right><a href="/ces_photos/2002_images/H-10.jpg"><img src="/ces_photos/2002_images/H-10_thumb.jpg" alt="Click to Enlarge!" border="0"></a><br>
+<font class="bodylink"><a href="/ces_photos/2002_images/H-10_hr.jpg" class="bodylink">download hi-res</a></font></td>
+</tr>
+<tr>
+<td colspan=3></td>
+</tr>
+<tr>
+	<td colspan="100%">
+		<br>
+	</td>
+</tr>
+-->
+
+<!--HH-29-->
+<!--
+<tr>
+<td colspan=2 class="pressTableHeader">Description</td>
+<td colspan=2 class="pressTableHeader" align=center>Preview</td>
+</tr>
+<tr>
+<td colspan=3><br></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td class="pressTableContent">The Delphi Infotainment Radio System combines information, navigation and entertainment services in a single unit
+</td>
+<td>&nbsp;</td>
+<td class="pressTableContent" align=right><a href="/ces_photos/2002_images/HH-29.jpg"><img src="/ces_photos/2002_images/HH-29_thumb.jpg" alt="Click to Enlarge!" border="0"></a><br>
+<font class="bodylink"><a href="/ces_photos/2002_images/HH-29_hr.jpg" class="bodylink">download hi-res</a></font></td>
+</tr>
+<tr>
+<td colspan=3></td>
+</tr>
+<tr>
+	<td colspan="100%">
+		<br>
+	</td>
+</tr>
+-->
+<!--HH-14-->
+<!--
+<tr>
+<td colspan=2 class="pressTableHeader">Description</td>
+<td colspan=2 class="pressTableHeader" align=center>Preview</td>
+</tr>
+<tr>
+<td colspan=3><br></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td class="pressTableContent">The Sharp Zarus includes mobile multimedia capabilities with MP3 and Mpeg video standard.
+</td>
+<td>&nbsp;</td>
+<td class="pressTableContent" align=right><a href="/ces_photos/2002_images/HH-14.jpg"><img src="/ces_photos/2002_images/HH-14_thumb.jpg" alt="Click to Enlarge!" border="0"></a><br>
+<font class="bodylink"><a href="/ces_photos/2002_images/HH-14_hr.jpg" class="bodylink">download hi-res</a></font></td>
+</tr>
+<tr>
+<td colspan=3></td>
+</tr>
+<tr>
+	<td colspan="100%">
+		<br>
+	</td>
+</tr>
+-->
+<!--HH-17-->
+<!--
+<tr>
+<td colspan=2 class="pressTableHeader">Description</td>
+<td colspan=2 class="pressTableHeader" align=center>Preview</td>
+</tr>
+<tr>
+<td colspan=3><br></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td class="pressTableContent">Wherify’s GPS Personal Locator is a wrist-worn locator that allows parents to obtain location information about their children, including mapping, direction of their child's travel, location history, emergency response and other features.
+</td>
+<td>&nbsp;</td>
+<td class="pressTableContent" align=right><a href="/ces_photos/2002_images/HH-17.jpg"><img src="/ces_photos/2002_images/HH-17_thumb.jpg" alt="Click to Enlarge!" border="0"></a><br>
+<font class="bodylink"><a href="/ces_photos/2002_images/HH-17_hr.jpg" class="bodylink">download hi-res</a></font></td>
+</tr>
+<tr>
+<td colspan=3></td>
+</tr>
+<tr>
+	<td colspan="100%">
+		<br>
+	</td>
+</tr>
+-->
+<!--GG-18A-->
+<!--
+<tr>
+<td colspan=2 class="pressTableHeader">Description</td>
+<td colspan=2 class="pressTableHeader" align=center>Preview</td>
+</tr>
+<tr>
+<td colspan=3><br></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td class="pressTableContent">Gary Shapiro, president and CEO of the Consumer Electronics Association (CEA) and Edward O. Fritts, president and CEO of the National Association of Broadcasters (NAB) announced plans for their joint education campaign to promote digital television (DTV).
+</td>
+<td>&nbsp;</td>
+<td class="pressTableContent" align=right><a href="/ces_photos/2002_images/GG-18A.jpg"><img src="/ces_photos/2002_images/GG-18A_thumb.jpg" alt="Click to Enlarge!" border="0"></a><br>
+<font class="bodylink"><a href="/ces_photos/2002_images/GG-18A_hr.jpg" class="bodylink">download hi-res</a></font></td>
+</tr>
+<tr>
+<td colspan=3></td>
+</tr>
+<tr>
+	<td colspan="100%">
+		<br>
+	</td>
+</tr>
+-->
+<!--GG-23-->
+<!--
+<tr>
+<td colspan=2 class="pressTableHeader">Description</td>
+<td colspan=2 class="pressTableHeader" align=center>Preview</td>
+</tr>
+<tr>
+<td colspan=3><br></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td class="pressTableContent">Shapiro and Fritts look at a map identifying the current 80 U.S. markets with one or more local TV station that has converted to broadcasting a digital signal.
+</td>
+<td>&nbsp;</td>
+<td class="pressTableContent" align=right><a href="/ces_photos/2002_images/GG-23.jpg"><img src="/ces_photos/2002_images/GG-23_thumb.jpg" alt="Click to Enlarge!" border="0"></a><br>
+<font class="bodylink"><a href="/ces_photos/2002_images/GG-23_hr.jpg" class="bodylink">download hi-res</a></font></td>
+</tr>
+<tr>
+<td colspan=3></td>
+</tr>
+<tr>
+	<td colspan="100%">
+		<br>
+	</td>
+</tr>
+-->
+<!--OO-6a-->
+
+<tr>
+<td colspan=2 class="pressTableHeader">Description</td>
+<td colspan=2 class="pressTableHeader" align=center>Preview</td>
+</tr>
+<tr>
+<td colspan=3><br></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td class="pressTableContent">A view from the show floor
+</td>
+<td>&nbsp;</td>
+<td class="pressTableContent" align=right><a href="/ces_photos/2002_images/00-6a.jpg"><img src="/ces_photos/2002_images/00-6a_thumb.jpg" alt="Click to Enlarge!" border="0"></a><br>
+<font class="bodylink"><a href="/ces_photos/2002_images/00-6a_hr.jpg" class="bodylink">download hi-res</a></font></td>
+</tr>
+<tr>
+<td colspan=3></td>
+</tr>
+<tr>
+	<td colspan="100%">
+		<br>
+	</td>
+</tr>
+
+<!--W-28-->
+
+<tr>
+<td colspan=2 class="pressTableHeader">Description</td>
+<td colspan=2 class="pressTableHeader" align=center>Preview</td>
+</tr>
+<tr>
+<td colspan=3><br></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td class="pressTableContent">Sprint PCS demos 3G wireless technology
+</td>
+<td>&nbsp;</td>
+<td class="pressTableContent" align=right><a href="/ces_photos/2002_images/W-28.jpg"><img src="/ces_photos/2002_images/W-28_thumb.jpg" alt="Click to Enlarge!" border="0"></a><br>
+<font class="bodylink"><a href="/ces_photos/2002_images/W-28_hr.jpg" class="bodylink">download hi-res</a></font></td>
+</tr>
+<tr>
+<td colspan=3></td>
+</tr>
+<tr>
+	<td colspan="100%">
+		<br>
+	</td>
+</tr>
+
+<!--PP-28-->
+
+<tr>
+<td colspan=2 class="pressTableHeader">Description</td>
+<td colspan=2 class="pressTableHeader" align=center>Preview</td>
+</tr>
+<tr>
+<td colspan=3><br></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td class="pressTableContent">More of the show floor
+</td>
+<td>&nbsp;</td>
+<td class="pressTableContent" align=right><a href="/ces_photos/2002_images/PP-28.jpg"><img src="/ces_photos/2002_images/PP-28_thumb.jpg" alt="Click to Enlarge!" border="0"></a><br>
+<font class="bodylink"><a href="/ces_photos/2002_images/PP-28_hr.jpg" class="bodylink">download hi-res</a></font></td>
+</tr>
+<tr>
+<td colspan=3></td>
+</tr>
+<tr>
+	<td colspan="100%">
+		<br>
+	</td>
+</tr>
+
+<!--OO-26-->
+<!--
+<tr>
+<td colspan=2 class="pressTableHeader">Description</td>
+<td colspan=2 class="pressTableHeader" align=center>Preview</td>
+</tr>
+<tr>
+<td colspan=3><br></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td class="pressTableContent">Again, more views of the show floor
+</td>
+<td>&nbsp;</td>
+<td class="pressTableContent" align=right><a href="/ces_photos/2002_images/OO-26.jpg"><img src="/ces_photos/2002_images/OO-26_thumb.jpg" alt="Click to Enlarge!" border="0"></a><br>
+<font class="bodylink"><a href="/ces_photos/2002_images/OO-26_hr.jpg" class="bodylink">download hi-res</a></font></td>
+</tr>
+<tr>
+<td colspan=3></td>
+</tr>
+<tr>
+	<td colspan="100%">
+		<br>
+	</td>
+</tr>
+-->
+<!--PP-14-->
+
+<tr>
+<td colspan=2 class="pressTableHeader">Description</td>
+<td colspan=2 class="pressTableHeader" align=center>Preview</td>
+</tr>
+<tr>
+<td colspan=3><br></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td class="pressTableContent">Panasonic’s booth draws a crowd
+</td>
+<td>&nbsp;</td>
+<td class="pressTableContent" align=right><a href="/ces_photos/2002_images/PP-14.jpg"><img src="/ces_photos/2002_images/PP-14_thumb.jpg" alt="Click to Enlarge!" border="0"></a><br>
+<font class="bodylink"><a href="/ces_photos/2002_images/PP-14_hr.jpg" class="bodylink">download hi-res</a></font></td>
+</tr>
+<tr>
+<td colspan=3></td>
+</tr>
+<tr>
+	<td colspan="100%">
+		<br>
+	</td>
+</tr>
+
+<!--V-351-->
+
+<tr>
+<td colspan=2 class="pressTableHeader">Description</td>
+<td colspan=2 class="pressTableHeader" align=center>Preview</td>
+</tr>
+<tr>
+<td colspan=3><br></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td class="pressTableContent">More attendees peruse the exhibits
+</td>
+<td>&nbsp;</td>
+<td class="pressTableContent" align=right><a href="/ces_photos/2002_images/V-351.jpg"><img src="/ces_photos/2002_images/V-351_thumb.jpg" alt="Click to Enlarge!" border="0"></a><br>
+<font class="bodylink"><a href="/ces_photos/2002_images/V-351_hr.jpg" class="bodylink">download hi-res</a></font></td>
+</tr>
+<tr>
+<td colspan=3></td>
+</tr>
+<tr>
+	<td colspan="100%">
+		<br>
+	</td>
+</tr>
+
+<!--V-20a-->
+
+<tr>
+<td colspan=2 class="pressTableHeader">Description</td>
+<td colspan=2 class="pressTableHeader" align=center>Preview</td>
+</tr>
+<tr>
+<td colspan=3><br></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td class="pressTableContent">The show floor is alive with excitement
+</td>
+<td>&nbsp;</td>
+<td class="pressTableContent" align=right><a href="/ces_photos/2002_images/V-20a.jpg"><img src="/ces_photos/2002_images/V-20a_thumb.jpg" alt="Click to Enlarge!" border="0"></a><br>
+<font class="bodylink"><a href="/ces_photos/2002_images/V-20a_hr.jpg" class="bodylink">download hi-res</a></font></td>
+</tr>
+<tr>
+<td colspan=3></td>
+</tr>
+<tr>
+	<td colspan="100%">
+		<br>
+	</td>
+</tr>
+
+<!--T-13-->
+
+<tr>
+<td colspan=2 class="pressTableHeader">Description</td>
+<td colspan=2 class="pressTableHeader" align=center>Preview</td>
+</tr>
+<tr>
+<td colspan=3><br></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td class="pressTableContent">The Panasonic Network Security Camera allows users to view its images remotely via the Internet or from a networked-connected computer
+</td>
+<td>&nbsp;</td>
+<td class="pressTableContent" align=right><a href="/ces_photos/2002_images/T-13.jpg"><img src="/ces_photos/2002_images/T-13_thumb.jpg" alt="Click to Enlarge!" border="0"></a><br>
+<font class="bodylink"><a href="/ces_photos/2002_images/T-13_hr.jpg" class="bodylink">download hi-res</a></font></td>
+</tr>
+<tr>
+<td colspan=3></td>
+</tr>
+<tr>
+	<td colspan="100%">
+		<br>
+	</td>
+</tr>
+
+<!--T-17-->
+
+<tr>
+<td colspan=2 class="pressTableHeader">Description</td>
+<td colspan=2 class="pressTableHeader" align=center>Preview</td>
+</tr>
+<tr>
+<td colspan=3><br></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td class="pressTableContent">The Pioneer DEH-P90HDD is the first in-dash AM/FM/CD Receiver with 10GB Hard Disc Drive, MagicGate™ Memory Stick® player and Gracenote CDDB™ Music Recognition Service
+</td>
+<td>&nbsp;</td>
+<td class="pressTableContent" align=right><a href="/ces_photos/2002_images/T-17.jpg"><img src="/ces_photos/2002_images/T-17_thumb.jpg" alt="Click to Enlarge!" border="0"></a><br>
+<font class="bodylink"><a href="/ces_photos/2002_images/T-17_hr.jpg" class="bodylink">download hi-res</a></font></td>
+</tr>
+<tr>
+<td colspan=3></td>
+</tr>
+<tr>
+	<td colspan="100%">
+		<br>
+	</td>
+</tr>
+
+<!--JJ-24-->
+
+<tr>
+<td colspan=2 class="pressTableHeader">Description</td>
+<td colspan=2 class="pressTableHeader" align=center>Preview</td>
+</tr>
+<tr>
+<td colspan=3><br></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td class="pressTableContent">The I300 Palm Powered Phone is a fully-integrated Palm and wireless phone with internet access
+</td>
+<td>&nbsp;</td>
+<td class="pressTableContent" align=right><a href="/ces_photos/2002_images/JJ-24.jpg"><img src="/ces_photos/2002_images/JJ-24_thumb.jpg" alt="Click to Enlarge!" border="0"></a><br>
+<font class="bodylink"><a href="/ces_photos/2002_images/JJ-24_hr.jpg" class="bodylink">download hi-res</a></font></td>
+</tr>
+<tr>
+<td colspan=3></td>
+</tr>
+<tr>
+	<td colspan="100%">
+		<br>
+	</td>
+</tr>
+
+<!--JJ-34-->
+
+<tr>
+<td colspan=2 class="pressTableHeader">Description</td>
+<td colspan=2 class="pressTableHeader" align=center>Preview</td>
+</tr>
+<tr>
+<td colspan=3><br></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td class="pressTableContent">The Plantronics M1000 Cordless headset for Bluetooth phones and other devices
+</td>
+<td>&nbsp;</td>
+<td class="pressTableContent" align=right><a href="/ces_photos/2002_images/JJ-34.jpg"><img src="/ces_photos/2002_images/JJ-34_thumb.jpg" alt="Click to Enlarge!" border="0"></a><br>
+<font class="bodylink"><a href="/ces_photos/2002_images/JJ-34_hr.jpg" class="bodylink">download hi-res</a></font></td>
+</tr>
+<tr>
+<td colspan=3></td>
+</tr>
+<tr>
+	<td colspan="100%">
+		<br>
+	</td>
+</tr>
+
+<!--114-4 
+
+<tr>
+<td colspan=2 class="pressTableHeader">Description</td>
+<td colspan=2 class="pressTableHeader" align=center>Preview</td>
+</tr>
+<tr>
+<td colspan=3><br></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td class="pressTableContent">A view from the show floor
+</td>
+<td>&nbsp;</td>
+<td class="pressTableContent" align=right><a href="/ces_photos/2002_images/00-6a.jpg"><img src="/ces_photos/2002_images/00-6a_thumb.jpg" alt="Click to Enlarge!" border="0"></a><br>
+<font class="bodylink"><a href="/ces_photos/2002_images/00-6a_hr.jpg" class="bodylink">download hi-res</a></font></td>
+</tr>
+<tr>
+<td colspan=3></td>
+</tr>
+<tr>
+	<td colspan="100%">
+		<br>
+	</td>
+</tr>
+
+<!--3F-26 -->
+
+<tr>
+<td colspan=2 class="pressTableHeader">Description</td>
+<td colspan=2 class="pressTableHeader" align=center>Preview</td>
+</tr>
+<tr>
+<td colspan=3><br></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td class="pressTableContent">The iSUN from ICP Global Technologies  is a lightweight portable solar charger for cell phones and other small electronics
+</td>
+<td>&nbsp;</td>
+<td class="pressTableContent" align=right><a href="/ces_photos/2002_images/3F-26.jpg"><img src="/ces_photos/2002_images/3F-26_thumb.jpg" alt="Click to Enlarge!" border="0"></a><br>
+<font class="bodylink"><a href="/ces_photos/2002_images/3F-26.jpg" class="bodylink">download hi-res</a></font></td>
+</tr>
+<tr>
+<td colspan=3></td>
+</tr>
+<tr>
+	<td colspan="100%">
+		<br>
+	</td>
+</tr>
+
+<!-- 3F-7 -->
+
+<tr>
+<td colspan=2 class="pressTableHeader">Description</td>
+<td colspan=2 class="pressTableHeader" align=center>Preview</td>
+</tr>
+<tr>
+<td colspan=3><br></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td class="pressTableContent">A close-up look at Panasonic’s Desktop LCD TV/DVD Combo
+</td>
+<td>&nbsp;</td>
+<td class="pressTableContent" align=right><a href="/ces_photos/2002_images/3F-7.jpg"><img src="/ces_photos/2002_images/3F-7_thumb.jpg" alt="Click to Enlarge!" border="0"></a><br>
+<font class="bodylink"><a href="/ces_photos/2002_images/3F-26.jpg" class="bodylink">download hi-res</a></font></td>
+</tr>
+<tr>
+<td colspan=3></td>
+</tr>
+<tr>
+	<td colspan="100%">
+		<br>
+	</td>
+</tr>
+
+
+<!-- 3H-6 -->
+
+<tr>
+<td colspan=2 class="pressTableHeader">Description</td>
+<td colspan=2 class="pressTableHeader" align=center>Preview</td>
+</tr>
+<tr>
+<td colspan=3><br></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td class="pressTableContent">M-Systems’ Disk On Key is a portable USB Storage device that fits in your pocket and holds up to 128 Megabytes, works with any device that has a USB port and when plugged in, is automatically recognized as a separate hard drive by a computer
+</td>
+<td>&nbsp;</td>
+<td class="pressTableContent" align=right><a href="/ces_photos/2002_images/3H-6.jpg"><img src="/ces_photos/2002_images/3H-6_thumb.jpg" alt="Click to Enlarge!" border="0"></a><br>
+<font class="bodylink"><a href="/ces_photos/2002_images/3H-6.jpg" class="bodylink">download hi-res</a></font></td>
+</tr>
+<tr>
+<td colspan=3></td>
+</tr>
+<tr>
+	<td colspan="100%">
+		<br>
+	</td>
+</tr>
+
+<!-- 3H-7 -->
+
+<tr>
+<td colspan=2 class="pressTableHeader">Description</td>
+<td colspan=2 class="pressTableHeader" align=center>Preview</td>
+</tr>
+<tr>
+<td colspan=3><br></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td class="pressTableContent">The His-n-Her Motion-Activated Toilet Light from Arkon Resources illuminates the area around the toilet when someone enters the bathroom at night.  Red when seat is up and Green when positioned down.
+</td>
+<td>&nbsp;</td>
+<td class="pressTableContent" align=right><a href="/ces_photos/2002_images/3H-7.jpg"><img src="/ces_photos/2002_images/3H-7_thumb.jpg" alt="Click to Enlarge!" border="0"></a><br>
+<font class="bodylink"><a href="/ces_photos/2002_images/3H-7.jpg" class="bodylink">download hi-res</a></font></td>
+</tr>
+<tr>
+<td colspan=3></td>
+</tr>
+<tr>
+	<td colspan="100%">
+		<br>
+	</td>
+</tr>
+
+<!-- 3Q-36 -->
+
+<tr>
+<td colspan=2 class="pressTableHeader">Description</td>
+<td colspan=2 class="pressTableHeader" align=center>Preview</td>
+</tr>
+<tr>
+<td colspan=3><br></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td class="pressTableContent">Sirius Satellite Radio booth draws a crowd during a live performance from Soluna
+</td>
+<td>&nbsp;</td>
+<td class="pressTableContent" align=right><a href="/ces_photos/2002_images/3Q-36.jpg"><img src="/ces_photos/2002_images/3Q-36_thumb.jpg" alt="Click to Enlarge!" border="0"></a><br>
+<font class="bodylink"><a href="/ces_photos/2002_images/3Q-36.jpg" class="bodylink">download hi-res</a></font></td>
+</tr>
+<tr>
+<td colspan=3></td>
+</tr>
+<tr>
+	<td colspan="100%">
+		<br>
+	</td>
+</tr>
+
+<!-- 3K-23A -->
+
+<tr>
+<td colspan=2 class="pressTableHeader">Description</td>
+<td colspan=2 class="pressTableHeader" align=center>Preview</td>
+</tr>
+<tr>
+<td colspan=3><br></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td class="pressTableContent">More crowd shots from the 2002 CES.
+</td>
+<td>&nbsp;</td>
+<td class="pressTableContent" align=right><a href="/ces_photos/2002_images/3K-23A.jpg"><img src="/ces_photos/2002_images/3K-23A_thumb.jpg" alt="Click to Enlarge!" border="0"></a><br>
+<font class="bodylink"><a href="/ces_photos/2002_images/3K-23A.jpg" class="bodylink">download hi-res</a></font></td>
+</tr>
+<tr>
+<td colspan=3></td>
+</tr>
+<tr>
+	<td colspan="100%">
+		<br>
+	</td>
+</tr>
+
+<!-- 3Q-4
+
+<tr>
+<td colspan=2 class="pressTableHeader">Description</td>
+<td colspan=2 class="pressTableHeader" align=center>Preview</td>
+</tr>
+<tr>
+<td colspan=3><br></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td class="pressTableContent">MC Hammer draws a big crowd during an appearance at the XM Satellite Radio booth. 
+
+</td>
+<td>&nbsp;</td>
+<td class="pressTableContent" align=right><a href="/ces_photos/2002_images/3Q-4.jpg"><img src="/ces_photos/2002_images/3Q-4_thumb.jpg" alt="Click to Enlarge!" border="0"></a><br>
+<font class="bodylink"><a href="/ces_photos/2002_images/3Q-4.jpg" class="bodylink">download hi-res</a></font></td>
+</tr>
+<tr>
+<td colspan=3></td>
+</tr>
+<tr>
+	<td colspan="100%">
+		<br>
+	</td>
+</tr>
+
+ -->
+
+<!-- 3U-27A 
+
+<tr>
+<td colspan=2 class="pressTableHeader">Description</td>
+<td colspan=2 class="pressTableHeader" align=center>Preview</td>
+</tr>
+<tr>
+<td colspan=3><br></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td class="pressTableContent">2002 Consumer Electronic Hall of Fame Inductees at the International CES. 
+
+</td>
+<td>&nbsp;</td>
+<td class="pressTableContent" align=right><a href="/ces_photos/2002_images/3U-27A.jpg"><img src="/ces_photos/2002_images/3U-27A_thumb.jpg" alt="Click to Enlarge!" border="0"></a><br>
+<font class="bodylink"><a href="/ces_photos/2002_images/3U-27A.jpg" class="bodylink">download hi-res</a></font></td>
+</tr>
+<tr>
+<td colspan=3></td>
+</tr>
+<tr>
+	<td colspan="100%">
+		<br>
+	</td>
+</tr>
+
+-->
+
+<!-- 3K-26A 
+
+<tr>
+<td colspan=2 class="pressTableHeader">Description</td>
+<td colspan=2 class="pressTableHeader" align=center>Preview</td>
+</tr>
+<tr>
+<td colspan=3><br></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td class="pressTableContent">More crowd shots from the 2002 CES.
+</td>
+<td>&nbsp;</td>
+<td class="pressTableContent" align=right><a href="/ces_photos/2002_images/3K-26.jpg"><img src="/ces_photos/2002_images/3K-26_thumb.jpg" alt="Click to Enlarge!" border="0"></a><br>
+<font class="bodylink"><a href="/ces_photos/2002_images/3K-26.jpg" class="bodylink">download hi-res</a></font></td>
+</tr>
+<tr>
+<td colspan=3></td>
+</tr>
+<tr>
+	<td colspan="100%">
+		<br>
+	</td>
+</tr>
+
+-->
+
+<!-- X-9 
+
+<tr>
+<td colspan=2 class="pressTableHeader">Description</td>
+<td colspan=2 class="pressTableHeader" align=center>Preview</td>
+</tr>
+<tr>
+<td colspan=3><br></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td class="pressTableContent">U.S. Secretary of Energy Spencer Abraham and Don Iwatani, COO of Matsushita Electronics Corp. of America
+</td>
+<td>&nbsp;</td>
+<td class="pressTableContent" align=right><a href="/ces_photos/2002_images/X-9.jpg"><img src="/ces_photos/2002_images/X-9_thumb.jpg" alt="Click to Enlarge!" border="0"></a><br>
+<font class="bodylink"><a href="/ces_photos/2002_images/X-9.jpg" class="bodylink">download hi-res</a></font></td>
+</tr>
+<tr>
+<td colspan=3></td>
+</tr>
+<tr>
+	<td colspan="100%">
+		<br>
+	</td>
+</tr>
+
+-->
+
+<!-- 3X-5 
+
+<tr>
+<td colspan=2 class="pressTableHeader">Description</td>
+<td colspan=2 class="pressTableHeader" align=center>Preview</td>
+</tr>
+<tr>
+<td colspan=3><br></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td class="pressTableContent">HALdeluxe controls the home by voice activation from anywhere in the house or in the world. 
+</td>
+<td>&nbsp;</td>
+<td class="pressTableContent" align=right><a href="/ces_photos/2002_images/3X-5.jpg"><img src="/ces_photos/2002_images/3X-5_thumb.jpg" alt="Click to Enlarge!" border="0"></a><br>
+<font class="bodylink"><a href="/ces_photos/2002_images/3X-5.jpg" class="bodylink">download hi-res</a></font></td>
+</tr>
+<tr>
+<td colspan=3></td>
+</tr>
+<tr>
+	<td colspan="100%">
+		<br>
+	</td>
+</tr>
+
+-->
+</font>
+</table>
+
+<!-- content ends here --> 
+
+<br><br>
+<a href="javascript:openEmailPage();"><img src="/global_images/emailPage.gif" border=0 alt="Email This Page to a Colleague"></a><p>
+<hr noshade size="1" color="#78A5AB">
+<font class="foot"><a href="#top" class="footer">Back to the top</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="/default.asp" class="footer">Home</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="/contact_ces/default.asp" class="footer">Contact Us</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="/about_ces/default.asp" class="footer">About CES</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="/help/" class="footer">Help</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="/privacy/default.asp" class="footer">Privacy Policy</a></font><br>
+<!--<hr noshade size="1" color="#78A5AB">--><br>
+<table cellpadding="0" cellspacing="0" border="0" width="100%">
+<tr>
+<td align=left><br><a href="http://www.ce.org" class="generalrightnav">Consumer Electronics Association (CEA)</a><font class="foot"><br>
+2500 Wilson Boulevard, Arlington, VA 22201-3834 USA<br>
+703 907 7605 tel&nbsp;&nbsp;|&nbsp;&nbsp;703 907 7675 fax<br>
+<a href="mailto:CESinfo@CE.org" class="footer">CESinfo@CE.org</a>
+</font></td>
+<td align=left><a href="javascript:setTextNavOption()" class="bodylink">Can't see the
+<br>left-hand navigation?
+<br>Click here.</a></td>
+</tr>
+</table><br>
+<!--<hr noshade size="1" color="#78A5AB">-->
+<font class="foot">Questions or comments about our site? Contact the <a href="mailto:webmaster@cesweb.org" class="footer">Webmaster</a>.<br>
+©2000 <a href="http://www.ce.org" class="footer">Consumer Electronics Association</a>. All Rights Reserved.</font>
+<br><br>
+
+</td>
+</tr>
+</tbody>
+</table>
+
+</td>
+<script language="JavaScript">
+	if (addedValue == true) {
+		document.write("<td></td><td valign='top' width='185'><font class='date'>");
+		document.write("February 8, 2002");
+		document.write("</font>");
+	}
+</script>
+
+<p>
+<!-- added value main page - /default.asp -->
+<script language="javascript">
+	function newWindow(){
+		winWindow = window.open('/idea_box_mail.asp','IdeaWin','width=330,height=350')
+	}
+</script>
+
+<font class="righttext">
+
+<hr noshade size="1" width="100%" color="#78a5ab">
+
+<font class="righthead">IdeaBox</font> <br>
+Got a great idea about how we can improve the CES experience?
+<a href="javascript:newWindow()">Let us know!</a><br>
+
+<hr noshade size="1" width="100%" color="#78a5ab">
+
+<font class="righthead">Virtual Tours</font> <br>
+Take a <a href="http://www.irealitypix.com/ces/ces-exhibitor.htm">Virtual Photographic Tour</a> of the 2001 CES.<br>
+
+
+<hr noshade size="1" width="100%" color="#78a5ab">
+
+<img src="/global_images/cealogo120.gif" border="0" align="left">&nbsp;<br>&nbsp;<p>
+
+CES is sponsored, produced and managed by the Consumer Electronics Association (CEA). To find out more about CEA, visit <a href="http://www.ce.org">www.ce.org</a>.<br>
+
+<hr noshade size="1" width="100%" color="#78a5ab">
+
+
+
+
+
+
+<!-- REPLACE INCLUDE ABOVE WITH SPECIFIC RIGHT BASED CONTENT IF APPLICABLE - DO NOT INSERT IF addedValue VARIABLE IS SET TO FALSE (i.e. the content of the page is meant to span across the right column) -->
+
+<script language="JavaScript">
+	if (addedValue == true) {
+		document.write("</td><td></td>");
+	}
+</script>
+
+</tr>
+</table>
+
+</td>
+</tr>
+</table>
+
+
+
+</BODY>
+</HTML>
