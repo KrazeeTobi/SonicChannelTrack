@@ -1,0 +1,756 @@
+
+
+<SCRIPT language="javascript1.2">
+function newWin(urlString,pgNum)
+  {
+    var popupWindow;
+	urlString += "?pageID=" + pgNum;
+	
+    popupWindow = window.open(urlString,"","toolbar=yes,menubar=no,resizable=no,status=no,scrollbars=yes,location=no,directories=no,copyhistory=no,height=550,width=610,left=50,top=50");
+  }//  function for opening a new pop-up window for printing a page
+  
+ 
+function openNewWindow(strURL) {
+	window.name = "main";
+	
+	var newWindow = window.open(strURL,"newWindow", "toolbar=no,menubar=no,resizable=no,status=no,scrollbars=yes,location=no,directories=no,copyhistory=no,height=400,width=450,left=50,top=50");
+} //  function for opening a new pop-up window
+
+// javascript for e-mail this page tool - gets the url of the page the user is on before the e-mail page tool button is clicked
+	
+	function loadReferrer() {
+		referrerString = opener.document.location.href;
+		document.emailForm.page.value = referrerString;
+	}
+
+</SCRIPT>
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!-- 
+INSERT PAGE VARIABLES
+pgNum = the page ID
+template = 1 for full content space, 2 for added value, 3 for a 150px white column on the right side (for images)
+bodyTitle = the page header (or the alt text if we go the image route in the future)
+-->
+
+
+<html>
+<head>
+	<!-- INSERT PAGE TITLE HERE (immediately following gblPAGE_TITLE) -->
+	<title>2004 International CES:&nbsp;Special Events</title>
+	
+	<!-- INSERT SEARCH ZONE HERE -->
+	<META NAME="searchZone" CONTENT="generalCESweb">
+
+	<!-- INSERT ANY SCRIPT TAGS FOR THIS PAGE HERE (header.asp closes the <head> tag!) -->
+	
+	
+	<link rel="StyleSheet" href="/global_include/css/main.css" type="text/css">
+	<LINK REL="SHORTCUT ICON" HREF="http://www.easymovement.com/ces/favicon.ico">
+
+<!-- Browser detection script -->
+	<script src="/global_include/js/browser_detection.js" type="text/javascript"></script>
+
+<!-- Rollover script -->	
+		
+		<script language="javascript1.2">	
+		/* for graphical rollovers*/
+			function rollOver(which,name) 
+				{
+				var on="/global_images/1.0/1.0_" + which + "_r.gif";
+				if(document.images) {document.images[which].src=on;}
+				else if (document.GetElementById){document.GetElementById(name).src=on;}
+				}
+			function rollOff(which) 
+				{
+				var on="/global_images/1.0/1.0_" + which + ".gif";
+				if(document.images){document.images[which].src=on;}
+				else if (document.GetElementById){document.GetElementById(which).src=on;}
+				}
+			function introllOver(which,name) 
+				{
+				var on="/global_images/1.0/1.0_" + which + "_r.gif";
+				if(document.images) {document.images[which].src=on;}
+				else if (document.GetElementById){document.GetElementById(name).src=on;}
+				}
+			function introllOff(which) 
+				{
+				var on="/global_images/1.0/1.0_" + which + ".gif";
+				if(document.images){document.images[which].src=on;}
+				else if (document.GetElementById){document.GetElementById(which).src=on;}
+				}
+			function snrollOver(which,name) 
+				{
+				var on="/global_images/1.0/1.0" + which + "_r.gif";
+				if(document.images) {document.images[which].src=on;}
+				else if (document.GetElementById){document.GetElementById(name).src=on;}
+				}
+			function snrollOff(which) 
+				{
+				var on="/global_images/1.0/1.0" + which + ".gif";
+				if(document.images){document.images[which].src=on;}
+				else if (document.GetElementById){document.GetElementById(which).src=on;}
+				}
+				
+			function onLoadHandler() {
+			    if( typeof(bodyOnLoadFunction) != 'undefined' ) {
+			        return eval(bodyOnLoadFunction);
+			    }
+			}
+		</script>
+		
+
+		<style>
+			.text_colored, .intro_copy, .section_title, .subhead, .body_title, .intro_dates
+				{ 	color:#194286}
+		</style>
+</head>
+
+<!-- script to determine the different browser and put in the correct body tag to align the background image properly -->
+<body  leftmargin='0' topmargin='0' rightmargin='0' bottommargin='0' marginwidth='0' onLoad="onLoadHandler();self.focus();"> 
+
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tr>
+
+<td width="50%" valign="top" background="/global_images/attendees_bg.gif">&nbsp;</td>
+<td width="1%" valign="top" background="/global_images/attendees_bg.gif">
+<!-- main table for site -->
+	<table width="770" cellspacing="0" cellpadding="0" border="0">
+<!-- Commented out dummy row to add another tr to the main table 
+	<tr>
+	    <td width="10"></td>
+	    <td width="140"></td>
+	    <td width="10"></td>
+	    <td width="10"></td>
+	    <td width="380"></td>
+	    <td width="10"></td>
+	    <td width="10"></td>
+	    <td width="190></td>
+	    <td width="10"></td>
+	</tr>
+   /Commented out dummy row to add another tr to the main table	-->
+<!-- blank 1 pixel row at top of page -->
+	<tr>
+	    <td width="10"><img src="/global_images/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+	    <td width="140"><img src="/global_images/spacer.gif" alt="" width="140" height="1" hspace="0" vspace="0" border="0"></td>
+	    <td width="10"><img src="/global_images/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+	    <td width="10"><img src="/global_images/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+	    <td width="380"><img src="/global_images/spacer.gif" alt="" width="380" height="1" hspace="0" vspace="0" border="0"></td>
+	    <td width="10"><img src="/global_images/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+	    <td width="10"><img src="/global_images/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+	    <td width="190"><img src="/global_images/spacer.gif" alt="" width="190" height="1" hspace="0" vspace="0" border="0"></td>
+	    <td width="10"><img src="/global_images/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+	</tr>
+<!-- /blank 1 pixel row at top of page -->
+<!-- global navigation row - register, about, faqs, contact, and site map -->
+	<tr>
+	    <td width="10"></td>
+	    <td width="140"></td>
+	    <td width="10"></td>
+	    <td width="10"></td>
+	    <td width="600" colspan="5" class="nav_global"><span class="intro_dates">January 8-11, 2004</span><img src="/global_images/spacer.gif" width="4" height="20" hspace="0" vspace="0" border="0" align="absmiddle">| Las Vegas<img src="/global_images/spacer.gif" alt="" width="225" height="1" border="0">	<a href="/about_ces/">About CES</a> | <a href="/faqs/">FAQs</a> | <a href="/contact_us/">Contact Us</a> | <a href="/site_map.asp">Site Map</a></td>
+	    <!--<td width="600" colspan="5" class="nav_global"><img src="/global_images/test_logo.jpg" width="385" height="20" hspace="0" vspace="0" border="0" align="absmiddle"><a href="/about_ces/">About CES</a> | <a href="/faqs/">FAQs</a> | <a href="/contact_us/">Contact Us</a> | <a href="site_map.asp">Site Map</a></td>-->
+	</tr>
+<!-- /global navigation row - register, about, faqs, contact, and site map -->	
+<!-- logo and banner image row -->	
+	<tr>
+	    <td width="10"></td>
+	    <td width="140"><a href="/default.asp"><img src="/global_images/logo.gif" alt="International CES" width="140" height="74" hspace="0" vspace="0" border="0"></a></td>
+	    <td width="10"></td>
+	    <td width="610" colspan="6"><img src="/global_images/1.0/random2/1.0.banner.gif" alt="" width="610" height="74" border="0"></td>
+	</tr>
+<!-- /logo and banner image row -->		
+<!-- primary navigation row -->
+	<tr>
+	    <td width="10"></td>
+	    <td width="140"></td>
+	    <td width="10"></td>
+		<td width="610" colspan="6"  background="/global_images/spacer.gif"><a href="/attendees/"  onmouseover=rollOver('tab_attendees'); onmouseout=rollOff('tab_attendees');><img name='tab_attendees' src="/global_images/1.0/1.0_tab_attendees.gif" alt="Attendees" width="70" height="27" hspace="0" vspace="0" border="0" ></a><a href="/exhibitors/" onmouseover=rollOver('tab_exhibitor'); onmouseout=rollOff('tab_exhibitor');><img name='tab_exhibitor' src="/global_images/1.0/1.0_tab_exhibitor.gif" alt="Exhibitor Services" width="118" height="27" hspace="0" vspace="0" border="0"></a><a href="/press/" onmouseover=rollOver('tab_press'); onmouseout=rollOff('tab_press');><img name='tab_press' src="/global_images/1.0/1.0_tab_press.gif" width="78" height="27" alt="Press" border="0"></a><a href="/international/" onmouseover=introllOver('tab_international'); onmouseout=introllOff('tab_international');><img src="/global_images/1.0/1.0_tab_international.gif" width="134" height="27" alt="" border="0" name="tab_international"></a><img src="/global_images/1.0/random2/1.0_tab_right.gif" alt="" width="210" height="27" hspace="0" vspace="0" border="0"></td>
+	</tr>
+<!-- /primary navigation row -->
+<!-- secondary navigation row -->		
+	<tr>
+	    <td width="10"></td>
+			<form name="searchCESWeb" method="POST" action="/search/searchResult.asp">
+        	    <td width="760" colspan="8"  background="/global_images/spacer.gif"  class="attendees3">
+<!-- table for secondary navigation and form -->
+				<table cellspacing="0" cellpadding="0" border="0" width="760"  background="/global_images/spacer.gif" >
+				<tr>
+				<td class="attendees_second_nav" width="560"><a href='/attendees/conferences'>Conferences</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href='/attendees/exhibit_floor'>Exhibit Floor</a>&nbsp;&nbsp;|&nbsp;&nbsp;<span class="att_sec_nav_active"><a href='/attendees/special_events'>Special Events</a></span>&nbsp;&nbsp;|&nbsp;&nbsp;<a href='/attendees/awards'>Awards</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href='/attendees/travel'>Hotel/Travel</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href='/attendees/markets/default.asp'>Markets</a>
+<!--<a href='/attendees/conferences'>Conferences</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href='/attendees/exhibit_floor'>Exhibit Floor</a>&nbsp;&nbsp;|&nbsp;&nbsp;Special Events&nbsp;&nbsp;|&nbsp;&nbsp;<a href='/attendees/awards'>Awards</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href='/attendees/travel'>Hotel/Travel</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href='/attendees/markets/default.asp'>Markets</a>-->
+
+
+</td>
+				<td width="173" align="right">
+<!-- Script for setting correct search box size -->
+				<script LANGUAGE="JavaScript">
+				<!--
+					if (is_nav4) {
+						document.write("<input  size=20 ");
+					} 
+					else if (is_mac) {
+						document.write("<input  size=30 ");
+					}
+					else if (is_safari) {
+						document.write("<input  size=25 ");
+					}
+					else {
+					    document.write("<input  size=34 ");
+					}
+                    function checkSearch() {
+                        var searchForm = document.searchCESWeb;
+                            
+                        if(searchForm.SEARCH_STRING.value.search(/\S/) == -1) {
+                            alert("Please enter text to search for.");
+                            return;
+                        }
+                        searchForm.submit();
+                    }
+				//-->
+				</script>
+				type="text" name="SEARCH_STRING" value=" Search CESweb.org" class="attendeesform"  ONFOCUS="if(this.value==' Search CESweb.org')this.value=''; snrollOver('.button_search');" ONBLUR="if(this.value=='')this.value=' Search CESweb.org'; snrollOff('.button_search');" >&nbsp;&nbsp;</td>
+				<td width="27"><img name=".button_search"  src="/global_images/1.0/1.0.button_search.gif" alt="go" width="27" height="33" hspace="0" vspace="0" border="0" onmouseover=snrollOver('.button_search'); onmouseout=snrollOff('.button_search'); onClick="checkSearch();"></td>
+				</tr>
+				</table>
+<!-- /table for secondary navigation and form -->			
+		</td>
+			<input type="hidden" name="ExhibitorSearchField" value="on">
+			<input type="hidden" name="EventSearchField" value="on">
+			<input type="hidden" name="PressSearchField" value="on">
+			<input type="hidden" name="ConferenceSearchField" value="on">
+			<input type="hidden" name="GeneralCESwebSearchField" value="on">
+		</form>
+	 </tr>
+<!-- /secondary navigation row -->	
+<!-- colored row with section color 4 - 5 pixels high --> 
+	<tr>
+	    <td width="10"></td>
+	    <td width="140"></td>
+	    <td width="10"></td>
+	    <td width="610" colspan="6"  background="/global_images/spacer.gif" class="attendees4"><img src="/global_images/spacer.gif" alt="" width="610" height="5" hspace="0" vspace="0" border="0"></td>
+	 </tr>
+<!-- /colored row with section color 4 - 5 pixels high --> 	 
+<!-- breadcrumb row -->
+	<tr>
+	    <td width="10"></td>
+	    
+			<td width="140"><a href="http://ww4.expocard.com/ces041/default.asp" onmouseover=snrollOver('.register'); onmouseout=snrollOff('.register');><img src="/global_images/1.0/1.0.register.gif" alt="Register" name=".register" id=".register" width="140" height="40" hspace="0" vspace="0" border="0"></a></td>
+		
+			<!--<td width="140"><a href="/exhibitors/resource_center/badges/default.asp" onmouseover=snrollOver('.register'); onmouseout=snrollOff('.register');><img src="/global_images//0.0_files/.register.gif" alt="Register" name=".register" id=".register" width="140" height="40" hspace="0" vspace="0" border="0"></a></td>-->
+		
+			<!--<td width="140"><a href="/registration_temp.asp" onmouseover=snrollOver('.register'); onmouseout=snrollOff('.register');><img src="/global_images//0.0_files/.register.gif" alt="Register" name=".register" id=".register" width="140" height="40" hspace="0" vspace="0" border="0"></a></td>-->
+		
+		<td width="10"></td>		
+
+		
+		    <td width="10" background="/global_images/spacer.gif" class="attendees5"><img src="/global_images/spacer.gif" alt="" width="10" height="40" hspace="0" vspace="0" border="0"></td>
+		    <td width="390" colspan="2" background="/global_images/spacer.gif" class="attendees5" valign="bottom"><span class="attendees_nav_breadcrumb">
+			<a href="/default.asp">Home</a>&nbsp;>&nbsp;<a href="/attendees/">Attendees</a>&nbsp;>&nbsp;Special Events
+			</span><br><img src="/global_images/spacer.gif" height="8" width="1"></td>
+		    <td width="200" background="/global_images/spacer.gif" colspan="2" class="attendees6"><img src="/global_images/1.0/1.0_print_mail.gif" width="115" height="40" alt="print - email" border="0"><a href=javascript:newWin("/global_include/asp/page_tools/print.asp","1.3") onmouseover=snrollOver('_button_print'); onmouseout=snrollOff('_button_print');><img src="/global_images/1.0/1.0_button_print.gif" alt="Print" name="_button_print" id="_button_print" width="43" height="40" hspace="0" vspace="0" border="0"></a><A HREF=javascript:openNewWindow("/global_include/asp/page_tools/email.asp") onmouseover=snrollOver('_button_mail'); onmouseout=snrollOff('_button_mail');><img src="/global_images/1.0/1.0_button_mail.gif" alt="Email" name="_button_mail" id="_button_mail" width="42" height="40" hspace="0" vspace="0" border="0"></a></td>
+		    <td width="10" background="/global_images/spacer.gif" class="attendees5">&nbsp;</td>
+    			
+	</tr>
+<!-- /breadcrumb row -->	
+<!-- main body row -->
+	<tr>
+	    <td width="10" background="/global_images/spacer.gif"></td>
+	    <td width="140" background="/global_images/spacer.gif" valign="top"><img src="/global_images/spacer.gif" width="140" height="20" alt="" border="0"><br>
+		<span class="nav_third">
+
+	
+<!-- SPECIAL EVENTS -->
+	<img src="/global_images/navigation/3nav_bar_gray.gif" alt="--------" width="140" height="1" hspace="0" vspace="0" border="0"><br>
+	<img src="/global_images/spacer.gif" width="140" height="4" alt="" border="0"><br>
+	<a href="/attendees/special_events/celebs.asp">Celebrity Appearances</a><br>
+	<img src="/global_images/spacer.gif" width="140" height="6" alt="" border="0"><br>
+	<img src="/global_images/navigation/3nav_bar_gray.gif" alt="--------" width="140" height="1" hspace="0" vspace="0" border="0"><br>
+	<img src="/global_images/spacer.gif" width="140" height="24" alt="" border="0"><br>
+	<!--
+	<a href="/attendees/special_events/broadcasts.asp">Media Broadcasts</a><br>
+	<img src="/global_images/spacer.gif" width="140" height="6" alt="" border="0"><br>
+	<img src="/global_images/navigation/3nav_bar_gray.gif" alt="--------" width="140" height="1" hspace="0" vspace="0" border="0"><br>
+	<img src="/global_images/spacer.gif" width="140" height="24" alt="" border="0"><br>
+	-->
+<!-- /SPECIAL EVENTS -->
+
+
+
+
+<a href="http://www.ce.org" target="new" onmouseover=snrollOver('_logo_cea'); onmouseout=snrollOff('_logo_cea');><img src="/global_images/1.0/1.0_logo_cea.gif" name="_logo_cea" width="140" height="116" alt="Produced by Consumer Electronics Association" border="0"></a>
+<br>
+</span>
+
+				
+		</td>
+	    <td width="10"></td>
+		<!-- checking to see if the page is a main section page or not -->
+		
+			<td width="10" background="/global_images/spacer.gif" class="attendees7">&nbsp;</td>
+		    <td width="590" colspan="4"  background="/global_images/spacer.gif" class="attendees7" valign="top">
+				
+					<table width="590" cellspacing="0" cellpadding="0" border="0">
+					<tr>
+						<td valign="top" class="text" width="375"><img src="/global_images/spacer.gif" height="10" width="1"><br><div class="body_title">Special Events<br><img src="/global_images/spacer.gif" height="16 width="1"></div></td>
+				
+
+<!-- text for main page -->
+<div id="1.3">
+
+<!-- end white header row in header.asp -->
+	    <td width="15"><img src="/global_images/spacer.gif" alt="" width="15" height="1" hspace="0" vspace="0" border="0"></td>
+		<td width="200" align="center" valign="middle" bgcolor="#FFFFFF"><img src="/global_images/spacer.gif" alt="" width="1" height="8" hspace="0" vspace="0" border="0">
+			<img src="/global_images/spacer.gif" alt="" width="1" height="50" hspace="0" vspace="0" border="0"><br></td>
+		</tr>
+	</table>							
+
+<!-- 2 column table, containing 150px white column for images -->
+<table width="590" cellspacing="0" cellpadding="0" border="0">
+	<tr>
+	    <td valign="top">
+			From cocktail receptions to a little lively competition, the 2004 International CES special events offer something for everyone. Plus, kick back and relax in the HDTV  Sports Bar or browse other <a href="/attendees/exhibit_floor/displays/">2004 International CES special displays</a>. 
+			<br><br>
+Big-name musicians, athletes, actors and other celebrities enjoy the high-tech spotlight. Buddy Guy, Johnny Lang, Ziggy Marley, LeAnn Rimes and more. <a href="celebs.asp">See the stars.</a>
+			<br><br><br>
+		</td>
+		<td width="15"><img src="/global_images/spacer.gif" alt="" width="15" height="1" hspace="0" vspace="0" border="0"></td>
+		<td width="200" align="center" valign="middle" bgcolor="#FFFFFF"><img src="/global_images/spacer.gif" alt="" width="1" height="8" hspace="0" vspace="0" border="0"></td>
+	</tr>
+
+<!--
+	<tr>
+	    <td valign="top" class="text" width="375"><img src="/global_images/spacer.gif" alt="" width="375" height="8" hspace="0" vspace="0" border="0"><br>
+			<span class="subhead">2004 IEEE Consumer Communications and Networking Conference<br></span>
+			<span class="text_colored">Monday, January 5-Thursday, January 8, 2004, Caesar's Palace</span><br>
+			Sponsored by the IEEE Communications Society, <strong>CCNC 2004</strong> is a unique event focused on communication and networking for consumer applications and services held in conjunction with the 2004 International CES. The conference will include a peer-reviewed program of technical sessions, business application sessions, tutorials and poster sessions.  Visit <a href="http://www.ccnc2004.org" target="new">www.ccnc2004.org</a> for more information.
+			<br><br><br>
+		</td>
+		<td width="15"><img src="/global_images/spacer.gif" alt="" width="15" height="1" hspace="0" vspace="0" border="0"></td>
+		<td width="200" align="center" valign="middle" bgcolor="#FFFFFF"><img src="/global_images/spacer.gif" alt="" width="1" height="8" hspace="0" vspace="0" border="0"><br>
+			<img src="/attendees/special_events/images/CCNC2004.gif" alt="CCNC 2004" hspace="0" vspace="0" border="0"><br>
+			<img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"><br>
+		</td>
+	</tr>
+-->
+	<tr>
+	    <td colspan="3" bgcolor="#ECECEC" valign="top">
+			<span class="section_title">Wednesday, January 7, 2004</span>
+		</td>
+	</tr>
+	<tr>
+	    <td valign="top" class="text" width="375"><img src="/global_images/spacer.gif" alt="" width="375" height="8" hspace="0" vspace="0" border="0"><br>
+			<span class="subhead"><a href="/attendees/conferences/search/session_by_track_list.asp?ID_track=DGS03&ref=DGS03">Digital Games Summit</a><br></span>
+			<span class="text_colored">9:00 a.m. January 7, Riviera Hotel and Casino</span><br>
+			Focus on business issues for the electronic games industry. Here you'll learn about market trends, opportunities, marketing and distribution, publishing, licensing, sports, music, tech advancements, retail sales, and more.
+			<br><br><br>
+		</td>
+		<td width="15"><img src="/global_images/spacer.gif" alt="" width="15" height="1" hspace="0" vspace="0" border="0"></td>
+		<td width="200" align="center" valign="middle" bgcolor="#FFFFFF"><img src="/global_images/spacer.gif" alt="" width="1" height="8" hspace="0" vspace="0" border="0"><br>
+			<!--<img src="/attendees/special_events/images/.jpg" alt="Digital Games Summit" hspace="0" vspace="0" border="0"><br>-->
+			<img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"><br>
+		</td>
+	</tr>
+	<tr>
+	    <td valign="top" colspan="3"><img src="/global_images/1.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"></td>
+	</tr>
+	<tr>
+	    <td valign="top" class="text" width="375"><img src="/global_images/spacer.gif" alt="" width="375" height="8" hspace="0" vspace="0" border="0"><br>
+			<span class="subhead">2004 Government IT Showcase<br></span>
+			<span class="text_colored">January 7-9, Riviera Hotel and Casino</span><br>
+			While you're at the International CES, make time to attend the event designed to educate you about homeland security strategy and technology implementation. Held at the Riviera Hotel, the <a href="http://www.federalevents.com" target="new">2004 Government IT Showcase</a> coincides with the 2004 International CES (separate registration fee applies).
+			<br><br>
+			For more information and to register, visit <a href="http://www.federalevents.com" target="new">www.federalevents.com</a>. 
+			<br><br><br>
+		</td>
+		<td width="15"><img src="/global_images/spacer.gif" alt="" width="15" height="1" hspace="0" vspace="0" border="0"></td>
+		<td width="200" align="center" valign="middle" bgcolor="#FFFFFF"><img src="/global_images/spacer.gif" alt="" width="1" height="8" hspace="0" vspace="0" border="0"><br>
+			<a href="http://www.federalevents.com" target="new"><img src="/attendees/special_events/images/govIT.jpg" alt="2004 Government IT Showcase" hspace="0" vspace="0" border="0"></a><br>
+			<img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"><br>
+		</td>
+	</tr>
+	<tr>
+	    <td valign="top" colspan="3"><img src="/global_images/1.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"></td>
+	</tr>
+	<tr>
+	    <td valign="top" class="text" width="375"><img src="/global_images/spacer.gif" alt="" width="375" height="8" hspace="0" vspace="0" border="0"><br>
+			<span class="subhead"><a href="/attendees/conferences/keynotes.asp#gates">Pre-Show Keynote by Microsoft's Bill Gates</a><br></span>
+			<span class="text_colored">6:30 p.m. January 7, Las Vegas Hilton Theater</span><br>
+			Once again, Bill Gates opens the show with his vision of the year ahead in consumer electronics. In past years, Gates chose the International CES as the place to preview the Tablet PC and advanced devices such as Smart Personal Object Technology (SPOT) watches.
+			<br><br><br>
+		</td>
+		<td width="15"><img src="/global_images/spacer.gif" alt="" width="15" height="1" hspace="0" vspace="0" border="0"></td>
+		<td width="200" align="center" valign="middle" bgcolor="#FFFFFF"><img src="/global_images/spacer.gif" alt="" width="1" height="8" hspace="0" vspace="0" border="0"><br>
+			<img src="/attendees/special_events/images/gates.jpg" alt="Bill Gates" hspace="0" vspace="0" border="0"><br>
+			<img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"><br>
+		</td>
+	</tr>
+	<tr>
+	    <td colspan="3" bgcolor="#ECECEC" valign="top">
+			<span class="section_title">Thursday, January 8, 2004</span>
+		</td>
+	</tr>
+	<tr>
+	    <td valign="top" class="text" width="375"><img src="/global_images/spacer.gif" alt="" width="375" height="8" hspace="0" vspace="0" border="0"><br>
+			<span class="subhead">ATI/AMD Cyber X Gaming Tournament<br></span>
+			<span class="text_colored">January 8-11, Stardust Hotel, Tournament Finals at the Riviera</span><br>
+			Don't miss the biggest computer and video festival in the country, showcasing the hottest computer and video gaming hardware from top manufacturers. The world's best players will compete to win $600,000 in cash and prizes and the $100,000 Counter Strike first prize, the single largest purse in gaming history. Get ready to relax, play in the Cyber X Lounge&mdash;and test drive the newest games.
+			Visit <a target="new" href="http://www.cyberxgaming.com">http://www.cyberxgaming.com</a>.
+			<br><br><br>
+		</td>
+		<td width="15"><img src="/global_images/spacer.gif" alt="" width="15" height="1" hspace="0" vspace="0" border="0"></td>
+		<td width="200" align="center" valign="middle" bgcolor="#FFFFFF"><img src="/global_images/spacer.gif" alt="" width="1" height="8" hspace="0" vspace="0" border="0"><br>
+			<img src="/attendees/special_events/images/cyberx.gif" alt="ATI/AMD Cyber X Gaming Tournament" hspace="0" vspace="0" border="0"><br>
+			<img src="/global_images/spacer.gif" alt="" width="1" height="11" hspace="0" vspace="0" border="0"><br>
+		</td>
+	</tr>
+	<tr>
+	    <td valign="top" colspan="3"><img src="/global_images/1.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"></td>
+	</tr>
+	<tr>
+	    <td valign="top" class="text" width="375"><img src="/global_images/spacer.gif" alt="" width="375" height="8" hspace="0" vspace="0" border="0"><br>
+			<span class="subhead"><a href="/attendees/conferences/keynotes.asp#ohtsubo">Keynote by Panasonic's Fumio Ohtsubo</a><br></span>
+			<span class="text_colored">8:30 a.m. January 8, Las Vegas Hilton Theater</span><br>
+			Focus in on the coming year's opportunities through the insight of Fumio Ohtsubo, an executive with global authority who has led Panasonic and Matsushita Electric to the forefront of the consumer electronics industry. 
+			<br><br>
+			Consumer Electronics Associaton President Gary Shapiro and Board of Directors Chairman Kathy Gornik will jointly deliver an insightful state-of-the-industry address and introduction to Fumio Ohtsubo's keynote. 
+			<br><br><br>
+		</td>
+		<td width="15"><img src="/global_images/spacer.gif" alt="" width="15" height="1" hspace="0" vspace="0" border="0"></td>
+		<td width="200" align="center" valign="middle" bgcolor="#FFFFFF"><img src="/global_images/spacer.gif" alt="" width="1" height="8" hspace="0" vspace="0" border="0"><br>
+			<img src="/attendees/special_events/images/ohtsubo2.jpg" alt="Fumio Ohtsubo" hspace="0" vspace="0" border="0"><br>
+			<img src="/global_images/spacer.gif" alt="" width="1" height="11" hspace="0" vspace="0" border="0"><br>
+		</td>
+	</tr>
+	<tr>
+	    <td valign="top" colspan="3"><img src="/global_images/1.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"></td>
+	</tr>
+	<tr>
+	    <td valign="top" class="text" width="375"><img src="/global_images/spacer.gif" alt="" width="375" height="8" hspace="0" vspace="0" border="0"><br>
+			<span class="subhead"><a href="/attendees/conferences/insider_series.asp#otellini">Industry Insider Session with Intel's Paul S. Otellini</a><br></span>
+			<span class="text_colored">10:30 a.m. January 8, LVCC North Hall, Room N250</span><br>
+			Intel's president has successfully guided the world's largest chipmaker in developing technology that enhances how consumers live, work and access information. Learn how the next stage of Intel's growth in developing new computer, networking and communications products will spur computing and Internet innovation.
+			<br><br><br>
+		</td>
+		<td width="15"><img src="/global_images/spacer.gif" alt="" width="15" height="1" hspace="0" vspace="0" border="0"></td>
+		<td width="200" align="center" valign="middle" bgcolor="#FFFFFF"><img src="/global_images/spacer.gif" alt="" width="1" height="8" hspace="0" vspace="0" border="0"><br>
+			<img src="/attendees/special_events/images/otellini.jpg" alt="Paul S. Otellini" hspace="0" vspace="0" border="0"><br>
+			<img src="/global_images/spacer.gif" alt="" width="1" height="11" hspace="0" vspace="0" border="0"><br>
+		</td>
+	</tr>
+	<tr>
+	    <td valign="top" colspan="3"><img src="/global_images/1.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"></td>
+	</tr>
+	<tr>
+	    <td valign="top" class="text" width="375"><img src="/global_images/spacer.gif" alt="" width="375" height="8" hspace="0" vspace="0" border="0"><br>
+			<span class="subhead"><a href="/attendees/conferences/insider_series.asp#dell">Industry Insider Session with Dell's Michael Dell</a><br></span>
+			<span class="text_colored">12:30 p.m. January 8, LVCC North Hall, Room N250</span><br>
+			Join Michael Dell, CEO and chairman, as he shares his vision for the digital world. The largest online commercial seller of computer systems, Dell has established itself as an information technology and Internet infrastructure leader. Dell’s latest focus entails redefining the role of the Web to deliver faster, better and more convenient service to customers. 
+			<br><br><br>
+		</td>
+		<td width="15"><img src="/global_images/spacer.gif" alt="" width="15" height="1" hspace="0" vspace="0" border="0"></td>
+		<td width="200" align="center" valign="middle" bgcolor="#FFFFFF"><img src="/global_images/spacer.gif" alt="" width="1" height="8" hspace="0" vspace="0" border="0"><br>
+			<img src="/attendees/special_events/images/dell.jpg" alt="Michael Dell" hspace="0" vspace="0" border="0"><br>
+			<img src="/global_images/spacer.gif" alt="" width="1" height="11" hspace="0" vspace="0" border="0"><br>
+		</td>
+	</tr>
+	<tr>
+	    <td valign="top" colspan="3"><img src="/global_images/1.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"></td>
+	</tr>
+	<tr>
+	    <td valign="top" class="text" width="375"><img src="/global_images/spacer.gif" alt="" width="375" height="8" hspace="0" vspace="0" border="0"><br>
+			<span class="subhead"><a href="/attendees/conferences/insider_series.asp#seidenberg">Industry Insider Session with Verizon's Ivan Seidenberg</a><br></span>
+			<span class="text_colored">2:30 p.m. January 8, LVCC North Hall, Room N250</span><br>
+			A true pioneer, Ivan Seidenberg brings unique insight into the explosive growth and dynamic direction of telecommunications—and how it will impact your business in the near future. He was instrumental in reshaping the communications industry through Bell Atlantic mergers with NYNEX and GTE to form Verizon Communication, now the largest provider of wired and wireless communications in the U.S.  
+			<br><br><br>
+		</td>
+		<td width="15"><img src="/global_images/spacer.gif" alt="" width="15" height="1" hspace="0" vspace="0" border="0"></td>
+		<td width="200" align="center" valign="middle" bgcolor="#FFFFFF"><img src="/global_images/spacer.gif" alt="" width="1" height="8" hspace="0" vspace="0" border="0"><br>
+			<img src="/attendees/special_events/images/seidenberg.jpg" alt="Ivan Seidenberg" hspace="0" vspace="0" border="0"><br>
+			<img src="/global_images/spacer.gif" alt="" width="1" height="11" hspace="0" vspace="0" border="0"><br>
+		</td>
+	</tr>
+	<tr>
+	    <td valign="top" colspan="3"><img src="/global_images/1.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"></td>
+	</tr>
+	<tr>
+	    <td valign="top" class="text" width="375"><img src="/global_images/spacer.gif" alt="" width="375" height="8" hspace="0" vspace="0" border="0"><br>
+			<span class="subhead"><a href="/attendees/conferences/keynotes.asp#fiorina">Keynote by HP's Carly Fiorina</a><br></span>
+			<span class="text_colored">4:30 p.m. January 8, Las Vegas Hilton Theater</span><br>
+			Discover how the world's leading technology company is using its breadth of understanding, innovation and engineering prowess—in imaging and printing, in mobility, in networking, in management, in storage, in systems, in computing, and in personal devices—to create simple, rewarding experiences that put you at the very center of the digital revolution.
+			<br><br><br>
+		</td>
+		<td width="15"><img src="/global_images/spacer.gif" alt="" width="15" height="1" hspace="0" vspace="0" border="0"></td>
+		<td width="200" align="center" valign="middle" bgcolor="#FFFFFF"><img src="/global_images/spacer.gif" alt="" width="1" height="8" hspace="0" vspace="0" border="0"><br>
+			<img src="/attendees/special_events/images/fiorina.jpg" alt="Carly Fiorina" hspace="0" vspace="0" border="0"><br>
+			<img src="/global_images/spacer.gif" alt="" width="1" height="11" hspace="0" vspace="0" border="0"><br>
+		</td>
+	</tr>
+	<tr>
+	    <td valign="top" colspan="3"><img src="/global_images/1.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"></td>
+	</tr>
+	<tr>
+	    <td valign="top" class="text" width="375"><img src="/global_images/spacer.gif" alt="" width="375" height="8" hspace="0" vspace="0" border="0"><br>
+			<span class="subhead">International Reception<br></span>
+			<span class="text_colored">6-7:30 p.m. January 8, LVCC, Room S222</span><br>
+			An exclusive reception for CES international visitors, this is the best opportunity to meet and network with exporting exhibitors and other international visitors.
+			<br><br><br>
+		</td>
+		<td width="15"><img src="/global_images/spacer.gif" alt="" width="15" height="1" hspace="0" vspace="0" border="0"></td>
+		<td width="200" align="center" valign="middle" bgcolor="#FFFFFF"><img src="/global_images/spacer.gif" alt="" width="1" height="8" hspace="0" vspace="0" border="0"><br>
+			<!--<img src="" alt="none?" hspace="0" vspace="0" border="0"><br>-->
+			<img src="/global_images/spacer.gif" alt="" width="1" height="11" hspace="0" vspace="0" border="0"><br>
+		</td>
+	</tr>
+	<tr>
+	    <td valign="top" colspan="3"><img src="/global_images/1.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"></td>
+	</tr>
+	<tr>
+	    <td valign="top" class="text" width="375"><img src="/global_images/spacer.gif" alt="" width="375" height="8" hspace="0" vspace="0" border="0"><br>
+			<span class="subhead">CEA Product Division Receptions &mdash; by invitation only<br></span>
+			<ul>
+				<li><span class="subhead">Wireless Communications Reception</span><br>
+					<span class="text_colored">5:30-7:30 p.m. January 8, LVCC South Hall, Room S233</span>
+					<br><img src="/global_images/spacer.gif" alt="" width="1" height="12" hspace="0" vspace="0" border="0">Sponsored by <img src="/attendees/special_events/images/porterNovelli.gif" alt="Porter Novelli" align="top" hspace="0" vspace="0" border="0">
+				<br><br><li><span class="subhead">Home Networking Reception</span><br>
+					<span class="text_colored">6-8 p.m. January 8, LVCC South Hall 1-2, TechHome Pavilion</span><br>
+					Sponsored by the HNIT and TechHome Divisions
+				<br><br><li><span class="subhead">High Performance Audio Subdivision Welcome Party</span><br>
+					<span class="text_colored">7-10 p.m. January 8, Alexis Park Resort, Apollo Ballroom</span><br>
+					Featuring an acoustic evening with Al Stewart
+			</ul>
+			<br><br>
+		</td>
+		<td width="15"><img src="/global_images/spacer.gif" alt="" width="15" height="1" hspace="0" vspace="0" border="0"></td>
+		<td width="200" align="center" valign="middle" bgcolor="#FFFFFF"><img src="/global_images/spacer.gif" alt="" width="1" height="8" hspace="0" vspace="0" border="0"><br>
+			<img src="/attendees/special_events/images/CEA.jpg" alt="Consumer Electronics Association" hspace="0" vspace="0" border="0"><br>
+			<img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"><br>
+		</td>
+	</tr>
+	<tr>
+	    <td colspan="3" bgcolor="#ECECEC" valign="top">
+			<span class="section_title">Friday, January 9, 2004</span>
+		</td>
+	</tr>
+	<tr>
+	    <td valign="top" class="text" width="375"><img src="/global_images/spacer.gif" alt="" width="375" height="8" hspace="0" vspace="0" border="0"><br>
+			<span class="subhead"><a href="/attendees/conferences/keynotes.asp#forsee">Keynote by Sprint's Gary Forsee</a><br></span>
+			<span class="text_colored">9 a.m. January 9, Las Vegas Hilton Theater</span><br>
+			As Sprint's chairman and CEO, no one better understands today's desire for mobile communications and wireless connectivity than Gary Forsee. With more than 26 million customers worldwide, nearly $27 billion in revenue and the country's largest all-digital wireless network, Sprint is a powerhouse in wireless communications.  
+			<br><br><br>
+		</td>
+		<td width="15"><img src="/global_images/spacer.gif" alt="" width="15" height="1" hspace="0" vspace="0" border="0"></td>
+		<td width="200" align="center" valign="middle" bgcolor="#FFFFFF"><img src="/global_images/spacer.gif" alt="" width="1" height="8" hspace="0" vspace="0" border="0"><br>
+			<img src="/attendees/special_events/images/forsee.jpg" alt="Bill Gates" hspace="0" vspace="0" border="0"><br>
+			<img src="/global_images/spacer.gif" alt="" width="1" height="11" hspace="0" vspace="0" border="0"><br>
+		</td>
+	</tr>
+	<tr>
+	    <td valign="top" colspan="3"><img src="/global_images/1.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"></td>
+	</tr>
+	<tr>
+	    <td valign="top" class="text" width="375"><img src="/global_images/spacer.gif" alt="" width="375" height="8" hspace="0" vspace="0" border="0"><br>
+			<span class="subhead"><a href="/attendees/conferences/insider_series.asp#glaser">Industry Insider Session with RealNetworks' Rob Glaser</a><br></span>
+			<span class="text_colored">10:30 a.m. January 9, LVCC North Hall, Room N250</span><br>
+			Rob Glaser leads one of the most widely recognized digital media services and software businesses. Real One technologies and services have played important roles in the transformation of the Internet into the next great mass medium and have helped shape the market for consumer-paid digital media services on the Internet and mobile networks. Take advantage of this opportunity to get real answers from this no-nonsense high-tech pioneer.
+			<br><br><br>
+		</td>
+		<td width="15"><img src="/global_images/spacer.gif" alt="" width="15" height="1" hspace="0" vspace="0" border="0"></td>
+		<td width="200" align="center" valign="middle" bgcolor="#FFFFFF"><img src="/global_images/spacer.gif" alt="" width="1" height="8" hspace="0" vspace="0" border="0"><br>
+			<img src="/attendees/special_events/images/glaser.jpg" alt="Rob Glaser" hspace="0" vspace="0" border="0"><br>
+			<img src="/global_images/spacer.gif" alt="" width="1" height="11" hspace="0" vspace="0" border="0"><br>
+		</td>
+	</tr>
+	<tr>
+	    <td valign="top" colspan="3"><img src="/global_images/1.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"></td>
+	</tr>
+	<tr>
+	    <td valign="top" class="text" width="375"><img src="/global_images/spacer.gif" alt="" width="375" height="8" hspace="0" vspace="0" border="0"><br>
+			<span class="subhead"><a href="/attendees/conferences/insider_series.asp#content">Industry Insider Session: Content and Delivery Roundtable</a><br></span>
+			<span class="text_colored">1 p.m. January 9, LVCC North Hall, Room N250</span><br>
+			This impressive lineup of cable and satellite execs will engage you in a frank discussion about the state of HD content and how it is&mdash;or isn't&mdash;reaching American homes. Talk to this panel of newsmakers about business opportunities, satellite, plug and play, content on all fronts and other issues that stem from high definition television.
+			<br><br><br>
+		</td>
+		<td width="15"><img src="/global_images/spacer.gif" alt="" width="15" height="1" hspace="0" vspace="0" border="0"></td>
+		<td width="200" align="center" valign="middle" bgcolor="#FFFFFF"><img src="/global_images/spacer.gif" alt="" width="1" height="8" hspace="0" vspace="0" border="0"><br>
+			<br>
+			<img src="/global_images/spacer.gif" alt="" width="1" height="11" hspace="0" vspace="0" border="0"><br>
+		</td>
+	</tr>
+	<tr>
+	    <td valign="top" colspan="3"><img src="/global_images/1.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"></td>
+	</tr>
+	<tr>
+	    <td valign="top" class="text" width="375"><img src="/global_images/spacer.gif" alt="" width="375" height="8" hspace="0" vspace="0" border="0"><br>
+			<span class="subhead">International Gateway Happy Hour<br></span>
+			<span class="text_colored">4-6 p.m. January 9 and 10, Las Vegas Hilton</span><br>
+			Extend your network beyond your current boundaries.  Check out the International Gateway Happy Hours, catering to international exhibitors and media.
+			<br><br><br>
+		</td>
+		<td width="15"><img src="/global_images/spacer.gif" alt="" width="15" height="1" hspace="0" vspace="0" border="0"></td>
+		<td width="200" align="center" valign="middle" bgcolor="#FFFFFF"><img src="/global_images/spacer.gif" alt="" width="1" height="8" hspace="0" vspace="0" border="0"><br>
+			<img src="/attendees/special_events/images/IntGateway.gif" alt="International Gateway" hspace="0" vspace="0" border="0"><br>
+			<img src="/global_images/spacer.gif" alt="" width="1" height="11" hspace="0" vspace="0" border="0"><br>
+		</td>
+	</tr>
+	<tr>
+	    <td valign="top" colspan="3"><img src="/global_images/1.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"></td>
+	</tr>
+	<tr>	
+		<td valign="top" class="text" width="375"><img src="/global_images/spacer.gif" alt="" width="375" height="8" hspace="0" vspace="0" border="0"><br>
+			<span class="subhead">Leaders in Technology Dinner<br></span>
+			<span class="text_colored">Reception 7-8 p.m., Dinner 8-10 p.m. January 9, Bellagio Hotel, Ballrooms 1-4</span><br>
+			This invitation-only dinner brings together CEA's government guests and senior executives from CEA member companies to discuss issues important to the CE industry.
+			<br><br><br>
+		</td>
+		<td width="15"><img src="/global_images/spacer.gif" alt="" width="15" height="1" hspace="0" vspace="0" border="0"></td>
+		<td width="200" align="center" valign="middle" bgcolor="#FFFFFF"><img src="/global_images/spacer.gif" alt="" width="1" height="8" hspace="0" vspace="0" border="0"><br>
+			<img src="/attendees/special_events/images/LIT.gif" alt="Leaders in Technology" hspace="0" vspace="0" border="0"><br>
+			<img src="/global_images/spacer.gif" alt="" width="1" height="11" hspace="0" vspace="0" border="0"><br>
+		</td>
+	</tr>
+	<tr>
+	    <td valign="top" colspan="3"><img src="/global_images/1.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"></td>
+	</tr>
+	<tr>
+	    <td valign="top" class="text" width="375"><img src="/global_images/spacer.gif" alt="" width="375" height="8" hspace="0" vspace="0" border="0"><br>
+			<span class="subhead">CEA Product Division Receptions &mdash; by invitation only <br></span>
+			<ul>
+				<li><span class="subhead">Mobile Electronics Division and MECP Reception</span><br>
+					<span class="text_colored">5:30-7:30 p.m. January 9, LVCC South Hall, Room S226</span><br>
+					<img src="/global_images/spacer.gif" alt="" width="1" height="14" hspace="0" vspace="0" border="0">Sponsored by <img src="/attendees/special_events/images/dual.gif" alt="Dual" align="top" hspace="0" vspace="0" border="0">
+					</ul>
+			<br><br>
+		</td>
+		<td width="15"><img src="/global_images/spacer.gif" alt="" width="15" height="1" hspace="0" vspace="0" border="0"></td>
+		<td width="200" align="center" valign="middle" bgcolor="#FFFFFF"><img src="/global_images/spacer.gif" alt="" width="1" height="10" hspace="0" vspace="0" border="0"><br>
+			<img src="/attendees/special_events/images/CEA.jpg" alt="Consumer Electronics Association" hspace="0" vspace="0" border="0"><br>
+			<img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"><br>
+		</td>
+	</tr>
+	<tr>
+	    <td colspan="3" bgcolor="#ECECEC" valign="top">
+			<span class="section_title">Saturday, January 10, 2004</span>
+		</td>
+	</tr>
+	<tr>    
+		<td valign="top" class="text" width="375"><img src="/global_images/spacer.gif" alt="" width="375" height="8" hspace="0" vspace="0" border="0"><br>
+			<span class="subhead"><a href="5K/">2nd Annual International CES 5k Run/Walk benefiting NSTEP</a><br></span>
+			<span class="text_colored">8 a.m. January 10, behind the Forum Shop at Caesars Palace</span><br>
+			CEA is proud to host the 2nd annual CES 5K Run/Walk to benefit NSTEP.  Proceeds from the event help support both the National Science & Technology Education Partnership and the CEA community.  NSTEP is dedicated to developing tomorrow's technology leaders through a variety of programs and services for students, the educational community and corporations interested in advancing science and technology education.
+			<br>
+			<a href="5K/">View the event details and registration information.</a>
+			<br><br><br>
+		</td>
+		<td width="15"><img src="/global_images/spacer.gif" alt="" width="15" height="1" hspace="0" vspace="0" border="0"></td>
+		<td width="200" align="center" valign="middle" bgcolor="#FFFFFF"><img src="/global_images/spacer.gif" alt="" width="1" height="8" hspace="0" vspace="0" border="0"><br>
+			<a href="5K/"><img border="0" src="/attendees/special_events/images/5Klogo.gif" alt="CES 5K Run/Walk" hspace="0" vspace="0" border="0"></a><br>
+			<img src="/global_images/spacer.gif" alt="" width="1" height="11" hspace="0" vspace="0" border="0"><br>
+		</td>
+	</tr>
+	<tr>
+	    <td valign="top" colspan="3"><img src="/global_images/1.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"></td>
+	</tr>
+	<!--
+	<tr>    
+		<td valign="top" class="text" width="375"><img src="/global_images/spacer.gif" alt="" width="375" height="8" hspace="0" vspace="0" border="0"><br>
+			<span class="subhead">International Leaders in Technology Forum<br></span>
+			<span class="text_colored">10-11 a.m. January 10, location TBD</span><br>
+			New for 2004, the Forum will bring high-level international government officials together for a panel discussion addressing key topics impacting the global consumer technology industry.  Participating countries to date include Australia, France, Germany and Korea.
+			<br><br><br>
+		</td>
+		<td width="15"><img src="/global_images/spacer.gif" alt="" width="15" height="1" hspace="0" vspace="0" border="0"></td>
+		<td width="200" align="center" valign="middle" bgcolor="#FFFFFF"><img src="/global_images/spacer.gif" alt="" width="1" height="8" hspace="0" vspace="0" border="0"><br>
+			<img src="/attendees/special_events/images/LIT.gif" alt="Leaders in Technology" hspace="0" vspace="0" border="0"><br>
+			<img src="/global_images/spacer.gif" alt="" width="1" height="11" hspace="0" vspace="0" border="0"><br>
+		</td>
+	</tr>
+	<tr>
+	    <td valign="top" colspan="3"><img src="/global_images/1.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"></td>
+	</tr>
+	-->
+	<tr>	
+		<td valign="top" class="text" width="375"><img src="/global_images/spacer.gif" alt="" width="375" height="8" hspace="0" vspace="0" border="0"><br>
+			<span class="subhead">Green Saturday at CES <br></span>
+			<span class="text_colored">Conference session: 11:30-12:30 p.m. January 10, LVCC Room N253
+			<br>Luncheon: 12:30-1:30 p.m. January 10, LVCC Room TBD</span><br>
+			Green Saturday focuses on the dynamics of electronics recycling and energy efficiency and how the CE industry is working to protect our environment.
+			Activities include a special luncheon to unveil the winner of the Enviro Design Innovations award and the <a href="/attendees/conferences/search/session_detail.asp?ID_session=BN7">Success in Electronic Recycling</a> conference session.
+			<br><br><br>
+		</td>
+		<td width="15"><img src="/global_images/spacer.gif" alt="" width="15" height="1" hspace="0" vspace="0" border="0"></td>
+		<td width="200" align="center" valign="middle" bgcolor="#FFFFFF"><img src="/global_images/spacer.gif" alt="" width="1" height="8" hspace="0" vspace="0" border="0"><br>
+			<img src="/attendees/special_events/images/GreenDay.gif" alt="Green Saturday" hspace="0" vspace="0" border="0"><br>
+			<img src="/global_images/spacer.gif" alt="" width="1" height="11" hspace="0" vspace="0" border="0"><br>
+		</td>
+	</tr>
+	<tr>
+	    <td valign="top" colspan="3"><img src="/global_images/1.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"></td>
+	</tr>
+	<tr>
+	    <td valign="top" class="text" width="375"><img src="/global_images/spacer.gif" alt="" width="375" height="8" hspace="0" vspace="0" border="0"><br>
+			<span class="subhead">International Gateway Happy Hour<br></span>
+			<span class="text_colored">4-6 p.m. January 9 and 10, Las Vegas Hilton</span><br>
+			Extend your network beyond your current boundaries.  Check out the International Gateway Happy Hours, catering to international exhibitors and media.
+			<br><br><br>
+		</td>
+		<td width="15"><img src="/global_images/spacer.gif" alt="" width="15" height="1" hspace="0" vspace="0" border="0"></td>
+		<td width="200" align="center" valign="middle" bgcolor="#FFFFFF"><img src="/global_images/spacer.gif" alt="" width="1" height="8" hspace="0" vspace="0" border="0"><br>
+			<img src="/attendees/special_events/images/IntGateway.gif" alt="International Gateway" hspace="0" vspace="0" border="0"><br>
+			<img src="/global_images/spacer.gif" alt="" width="1" height="11" hspace="0" vspace="0" border="0"><br>
+		</td>
+	</tr>
+	<tr>
+	    <td valign="top" colspan="3"><img src="/global_images/1.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"></td>
+	</tr>
+</table>
+<!-- /2 column table, containing 150px white column for images -->
+<!-- /text for main page -->
+	
+
+					  <table width="590" cellspacing="0" cellpadding="0" border="0">
+						<tr>
+						    <td valign="top" class="text" width="375">&nbsp;</td>
+							<td width="15"><img src="/global_images/spacer.gif" alt="" width="15" height="1" hspace="0" vspace="0" border="0"></td>
+							<td width="200" align="center" valign="middle" bgcolor="#FFFFFF"><br>
+								<br>
+								<br>
+							</td>
+							</tr>
+						</table>	
+		</span>
+		</td>
+	    <td width="10" background="/global_images/spacer.gif" class="attendees7">&nbsp;</td>
+		  	
+			
+		</tr>
+<!-- /main body row -->	
+<!-- footer row -->
+	<tr>
+	    <td width="10"></td>
+	    <td width="140"></td>
+	    <td width="10"></td>
+	    <td width="610" colspan=6><img src="/global_images/1.0/1.0.page_bottom.gif" alt="" width="610" hspace="0" vspace="0" border="0"></td>
+	</tr>
+	<tr>
+	    <td width="10"></td>
+	    <td width="140"></td>
+	    <td width="10"></td>
+	    <td width="10" class="footer"><img src="/global_images/footer_left.gif" alt="(" width="10" height="30" hspace="0" vspace="0" border="0"></td>
+	    <td width="380" background="/global_images/footer_bg.gif" class="footer"><span class="nav_footer"><a href="/about_ces/">About CES</a> | <a href="/faqs/">FAQs</a> | <a href="/contact_us/">Contact Us</a> | <a href="/site_map.asp">Site Map</a> | <a href="/privacy_policy.asp">Privacy Policy</a></span></td>
+	    <td width="210" colspan="3" align="right" background="/global_images/footer_bg.gif" class="footer"><span class="nav_footer"> &#169; 2004 CEA, All rights reserved</span></td>
+	    <td width="10" class="footer"><img src="/global_images/footer_right.gif" alt=")" width="10" height="30" hspace="0" vspace="0" border="0"></td>
+	</tr>
+<!-- /footer row -->			 		 	 	 
+	</table>
+	<img src="/global_images/spacer.gif" alt="" width="1" height="20" hspace="0" vspace="0" border="0"">
+<!-- /main table for site -->	
+
+
+</td>
+<td width="49%" valign="top" background="/global_images/attendees_bg.gif">&nbsp;</td>
+</tr>
+</table>
+
+
+</body>
+</html>
