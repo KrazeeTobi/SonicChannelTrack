@@ -1,0 +1,66 @@
+
+
+<SCRIPT language="javascript1.2">
+function newWin(urlString,pgNum)
+  {
+    var popupWindow;
+	urlString += "?pageID=" + pgNum;
+	
+    popupWindow = window.open(urlString,"","toolbar=yes,menubar=no,resizable=no,status=no,scrollbars=yes,location=no,directories=no,copyhistory=no,height=550,width=610,left=50,top=50");
+  }//  function for opening a new pop-up window for printing a page
+  
+ 
+function openNewWindow(strURL) {
+	window.name = "main";
+	
+	var newWindow = window.open(strURL,"newWindow", "toolbar=no,menubar=no,resizable=no,status=no,scrollbars=yes,location=no,directories=no,copyhistory=no,height=400,width=450,left=50,top=50");
+} //  function for opening a new pop-up window
+
+// javascript for e-mail this page tool - gets the url of the page the user is on before the e-mail page tool button is clicked
+	
+	function loadReferrer() {
+		referrerString = opener.document.location.href;
+		document.emailForm.page.value = referrerString;
+	}
+
+</SCRIPT>
+<html>
+<head>
+	<link rel="StyleSheet" href="/global_include/css/main.css" type="text/css">
+	<!-- INSERT PAGE TITLE HERE (immediately following gblPAGE_TITLE) -->
+	<!-- INSERT SEARCH ZONE HERE -->
+	<!-- INSERT ANY SCRIPT TAGS FOR THIS PAGE HERE (header.asp closes the <head> tag!) -->
+</head>
+<body>
+<!-- text for main page -->
+<table width="100%" border=0 cellpadding=0 cellborder=0 cellspacing=0>
+	<tr>
+		<td valign="top" width="5%"><img src="images/question_button.gif"></td>
+		<td valign="top" align="left"><span class="section_title">Submission Help</span></td>
+		<!--
+		<td align="right" class="helpHeader" valign="middle"><a href="javascript:loadMainHelp()" class="helpHeaderNav">More Help</a></td>
+		-->
+		<td  valign="top" align="right"><a href="javascript:self.close()" class="helpheader">Close window</a></td>
+	</tr>
+</table>
+<br>
+<table width="100%" border=0 cellpadding=2 cellspacing=0>
+	<tr>
+		<td><img src="/global_images/1.0/line.gif" alt="-----------------------------------------------" width="100%" height="1" hspace="0" vspace="0" border="0"><br></td>
+	</tr>
+	<tr>
+		<td class="subhead" nowrap>Manufacturer</td>
+	</tr>
+	<tr>
+		<td height=4></td>
+	</tr>
+	<tr>
+		<td></td>
+	</tr>
+	
+</table>
+<!-- /text for main page -->
+</div>
+</body>
+</html>
+

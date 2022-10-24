@@ -1,0 +1,1187 @@
+
+
+<SCRIPT language="javascript1.2">
+function newWin(urlString,pgNum)
+  {
+    var popupWindow;
+	urlString += "?pageID=" + pgNum;
+	
+    popupWindow = window.open(urlString,"","toolbar=yes,menubar=no,resizable=no,status=no,scrollbars=yes,location=no,directories=no,copyhistory=no,height=550,width=610,left=50,top=50");
+  }//  function for opening a new pop-up window for printing a page
+  
+ 
+function openNewWindow(strURL) {
+	window.name = "main";
+	
+	var newWindow = window.open(strURL,"newWindow", "toolbar=no,menubar=no,resizable=no,status=no,scrollbars=yes,location=no,directories=no,copyhistory=no,height=400,width=450,left=50,top=50");
+} //  function for opening a new pop-up window
+
+// javascript for e-mail this page tool - gets the url of the page the user is on before the e-mail page tool button is clicked
+	
+	function loadReferrer() {
+		referrerString = opener.document.location.href;
+		document.emailForm.page.value = referrerString;
+	}
+
+</SCRIPT>
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!-- 
+INSERT PAGE VARIABLES
+pgNum = the page ID
+template = 1 for full content space, 2 for added value, 3 for a 150px white column on the right side (for images)
+bodyTitle = the page header (or the alt text if we go the image route in the future)
+-->
+
+
+<html>
+<head>
+	<!-- INSERT PAGE TITLE HERE (immediately following gblPAGE_TITLE) -->
+	<title>2004 International CES:&nbsp;Exhibitor Manual - Rules & Regulations</title>
+	
+	<!-- INSERT SEARCH ZONE HERE -->
+	<META NAME="searchZone" CONTENT="exhibitor">
+
+	<!-- INSERT ANY SCRIPT TAGS FOR THIS PAGE HERE (header.asp closes the <head> tag!) -->
+	
+	
+	<link rel="StyleSheet" href="/global_include/css/main.css" type="text/css">
+	<LINK REL="SHORTCUT ICON" HREF="http://www.easymovement.com/ces/favicon.ico">
+
+<!-- Browser detection script -->
+	<script src="/global_include/js/browser_detection.js" type="text/javascript"></script>
+
+<!-- Rollover script -->	
+		
+		<script language="javascript1.2">	
+		/* for graphical rollovers*/
+			function rollOver(which,name) 
+				{
+				var on="/global_images/2.0/2.0_" + which + "_r.gif";
+				if(document.images) {document.images[which].src=on;}
+				else if (document.GetElementById){document.GetElementById(name).src=on;}
+				}
+			function rollOff(which) 
+				{
+				var on="/global_images/2.0/2.0_" + which + ".gif";
+				if(document.images){document.images[which].src=on;}
+				else if (document.GetElementById){document.GetElementById(which).src=on;}
+				}
+			function introllOver(which,name) 
+				{
+				var on="/global_images/2.0/2.0_" + which + "_r.gif";
+				if(document.images) {document.images[which].src=on;}
+				else if (document.GetElementById){document.GetElementById(name).src=on;}
+				}
+			function introllOff(which) 
+				{
+				var on="/global_images/2.0/2.0_" + which + ".gif";
+				if(document.images){document.images[which].src=on;}
+				else if (document.GetElementById){document.GetElementById(which).src=on;}
+				}
+			function snrollOver(which,name) 
+				{
+				var on="/global_images/2.0/2.0" + which + "_r.gif";
+				if(document.images) {document.images[which].src=on;}
+				else if (document.GetElementById){document.GetElementById(name).src=on;}
+				}
+			function snrollOff(which) 
+				{
+				var on="/global_images/2.0/2.0" + which + ".gif";
+				if(document.images){document.images[which].src=on;}
+				else if (document.GetElementById){document.GetElementById(which).src=on;}
+				}
+				
+			function onLoadHandler() {
+			    if( typeof(bodyOnLoadFunction) != 'undefined' ) {
+			        return eval(bodyOnLoadFunction);
+			    }
+			}
+		</script>
+		
+
+		<style>
+			.text_colored, .intro_copy, .section_title, .subhead, .body_title, .intro_dates
+				{ 	color:#3D6E2C}
+		</style>
+</head>
+
+<!-- script to determine the different browser and put in the correct body tag to align the background image properly -->
+<body  leftmargin='0' topmargin='0' rightmargin='0' bottommargin='0' marginwidth='0' onLoad="onLoadHandler();self.focus();"> 
+
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tr>
+
+<td width="50%" valign="top" background="/global_images/exhibitor_bg.gif">&nbsp;</td>
+<td width="1%" valign="top" background="/global_images/exhibitor_bg.gif">
+<!-- main table for site -->
+	<table width="770" cellspacing="0" cellpadding="0" border="0">
+<!-- Commented out dummy row to add another tr to the main table 
+	<tr>
+	    <td width="10"></td>
+	    <td width="140"></td>
+	    <td width="10"></td>
+	    <td width="10"></td>
+	    <td width="380"></td>
+	    <td width="10"></td>
+	    <td width="10"></td>
+	    <td width="190></td>
+	    <td width="10"></td>
+	</tr>
+   /Commented out dummy row to add another tr to the main table	-->
+<!-- blank 1 pixel row at top of page -->
+	<tr>
+	    <td width="10"><img src="/global_images/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+	    <td width="140"><img src="/global_images/spacer.gif" alt="" width="140" height="1" hspace="0" vspace="0" border="0"></td>
+	    <td width="10"><img src="/global_images/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+	    <td width="10"><img src="/global_images/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+	    <td width="380"><img src="/global_images/spacer.gif" alt="" width="380" height="1" hspace="0" vspace="0" border="0"></td>
+	    <td width="10"><img src="/global_images/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+	    <td width="10"><img src="/global_images/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+	    <td width="190"><img src="/global_images/spacer.gif" alt="" width="190" height="1" hspace="0" vspace="0" border="0"></td>
+	    <td width="10"><img src="/global_images/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+	</tr>
+<!-- /blank 1 pixel row at top of page -->
+<!-- global navigation row - register, about, faqs, contact, and site map -->
+	<tr>
+	    <td width="10"></td>
+	    <td width="140"></td>
+	    <td width="10"></td>
+	    <td width="10"></td>
+	    <td width="600" colspan="5" class="nav_global"><span class="intro_dates">January 8-11, 2004</span><img src="/global_images/spacer.gif" width="4" height="20" hspace="0" vspace="0" border="0" align="absmiddle">| Las Vegas<img src="/global_images/spacer.gif" alt="" width="225" height="1" border="0">	<a href="/about_ces/">About CES</a> | <a href="/faqs/">FAQs</a> | <a href="/contact_us/">Contact Us</a> | <a href="/site_map.asp">Site Map</a></td>
+	    <!--<td width="600" colspan="5" class="nav_global"><img src="/global_images/test_logo.jpg" width="385" height="20" hspace="0" vspace="0" border="0" align="absmiddle"><a href="/about_ces/">About CES</a> | <a href="/faqs/">FAQs</a> | <a href="/contact_us/">Contact Us</a> | <a href="site_map.asp">Site Map</a></td>-->
+	</tr>
+<!-- /global navigation row - register, about, faqs, contact, and site map -->	
+<!-- logo and banner image row -->	
+	<tr>
+	    <td width="10"></td>
+	    <td width="140"><a href="/default.asp"><img src="/global_images/logo.gif" alt="International CES" width="140" height="74" hspace="0" vspace="0" border="0"></a></td>
+	    <td width="10"></td>
+	    <td width="610" colspan="6"><img src="/global_images/2.0/random0/2.0.banner.gif" alt="" width="610" height="74" border="0"></td>
+	</tr>
+<!-- /logo and banner image row -->		
+<!-- primary navigation row -->
+	<tr>
+	    <td width="10"></td>
+	    <td width="140"></td>
+	    <td width="10"></td>
+		<td width="610" colspan="6"  background="/global_images/spacer.gif"><a href="/attendees/"  onmouseover=rollOver('tab_attendees'); onmouseout=rollOff('tab_attendees');><img name='tab_attendees' src="/global_images/2.0/2.0_tab_attendees.gif" alt="Attendees" width="70" height="27" hspace="0" vspace="0" border="0" ></a><a href="/exhibitors/" onmouseover=rollOver('tab_exhibitor'); onmouseout=rollOff('tab_exhibitor');><img name='tab_exhibitor' src="/global_images/2.0/2.0_tab_exhibitor.gif" alt="Exhibitor Services" width="118" height="27" hspace="0" vspace="0" border="0"></a><a href="/press/" onmouseover=rollOver('tab_press'); onmouseout=rollOff('tab_press');><img name='tab_press' src="/global_images/2.0/2.0_tab_press.gif" width="78" height="27" alt="Press" border="0"></a><a href="/international/" onmouseover=introllOver('tab_international'); onmouseout=introllOff('tab_international');><img src="/global_images/2.0/2.0_tab_international.gif" width="134" height="27" alt="" border="0" name="tab_international"></a><img src="/global_images/2.0/random0/2.0_tab_right.gif" alt="" width="210" height="27" hspace="0" vspace="0" border="0"></td>
+	</tr>
+<!-- /primary navigation row -->
+<!-- secondary navigation row -->		
+	<tr>
+	    <td width="10"></td>
+			<form name="searchCESWeb" method="POST" action="/search/searchResult.asp">
+        	    <td width="760" colspan="8"  background="/global_images/spacer.gif"  class="exhibitor3">
+<!-- table for secondary navigation and form -->
+				<table cellspacing="0" cellpadding="0" border="0" width="760"  background="/global_images/spacer.gif" >
+				<tr>
+				<td class="exhibitor_second_nav" width="560"><a href='/exhibitors/space/'>Exhibit Space</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href='/exhibitors/promotions/'>Promotions</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href='/exhibitors/resource_center/'>Resource Center</a>&nbsp;&nbsp;|&nbsp;&nbsp;<span class="exh_sec_nav_active"><a href='/exhibitors/manual/'>Exhibitor Manual</a></span>&nbsp;&nbsp;|&nbsp;&nbsp;<a href='/exhibitors/newsletter/'>Newsletter</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href='/exhibitors/downloads/'>Downloads</a></td>
+				<td width="173" align="right">
+<!-- Script for setting correct search box size -->
+				<script LANGUAGE="JavaScript">
+				<!--
+					if (is_nav4) {
+						document.write("<input  size=20 ");
+					} 
+					else if (is_mac) {
+						document.write("<input  size=30 ");
+					}
+					else if (is_safari) {
+						document.write("<input  size=25 ");
+					}
+					else {
+					    document.write("<input  size=34 ");
+					}
+                    function checkSearch() {
+                        var searchForm = document.searchCESWeb;
+                            
+                        if(searchForm.SEARCH_STRING.value.search(/\S/) == -1) {
+                            alert("Please enter text to search for.");
+                            return;
+                        }
+                        searchForm.submit();
+                    }
+				//-->
+				</script>
+				type="text" name="SEARCH_STRING" value=" Search CESweb.org" class="exhibitorform"  ONFOCUS="if(this.value==' Search CESweb.org')this.value=''; snrollOver('.button_search');" ONBLUR="if(this.value=='')this.value=' Search CESweb.org'; snrollOff('.button_search');" >&nbsp;&nbsp;</td>
+				<td width="27"><img name=".button_search"  src="/global_images/2.0/2.0.button_search.gif" alt="go" width="27" height="33" hspace="0" vspace="0" border="0" onmouseover=snrollOver('.button_search'); onmouseout=snrollOff('.button_search'); onClick="checkSearch();"></td>
+				</tr>
+				</table>
+<!-- /table for secondary navigation and form -->			
+		</td>
+			<input type="hidden" name="ExhibitorSearchField" value="on">
+			<input type="hidden" name="EventSearchField" value="on">
+			<input type="hidden" name="PressSearchField" value="on">
+			<input type="hidden" name="ConferenceSearchField" value="on">
+			<input type="hidden" name="GeneralCESwebSearchField" value="on">
+		</form>
+	 </tr>
+<!-- /secondary navigation row -->	
+<!-- colored row with section color 4 - 5 pixels high --> 
+	<tr>
+	    <td width="10"></td>
+	    <td width="140"></td>
+	    <td width="10"></td>
+	    <td width="610" colspan="6"  background="/global_images/spacer.gif" class="exhibitor4"><img src="/global_images/spacer.gif" alt="" width="610" height="5" hspace="0" vspace="0" border="0"></td>
+	 </tr>
+<!-- /colored row with section color 4 - 5 pixels high --> 	 
+<!-- breadcrumb row -->
+	<tr>
+	    <td width="10"></td>
+	    
+			<td width="140"><a href="/exhibitors/resource_center/badges/default.asp" onmouseover=snrollOver('.register'); onmouseout=snrollOff('.register');><img src="/global_images/2.0/2.0.register.gif" alt="Register" name=".register" id=".register" width="140" height="40" hspace="0" vspace="0" border="0"></a></td>
+		
+		<td width="10"></td>		
+
+		
+		    <td width="10" background="/global_images/spacer.gif" class="exhibitor6"><img src="/global_images/spacer.gif" alt="" width="10" height="40" hspace="0" vspace="0" border="0"></td>
+		    <td width="390" colspan="2" background="/global_images/spacer.gif" class="exhibitor6" valign="bottom"><span class="exhibitor_nav_breadcrumb">
+			<a href="/default.asp">Home</a>&nbsp;>&nbsp;<a href="/exhibitors/">Exhibitor Services</a>&nbsp;>&nbsp;<a href="/exhibitors/manual/">Exhibitor Manual</a>&nbsp;>&nbsp;Rules & Regulations
+			</span><br><img src="/global_images/spacer.gif" height="8" width="1"></td>
+		    <td width="200" background="/global_images/spacer.gif" colspan="2" class="exhibitor6"><img src="/global_images/2.0/2.0_print_mail.gif" width="115" height="40" alt="print - email" border="0"><a href=javascript:newWin("/global_include/asp/page_tools/print.asp","2.4.2") onmouseover=snrollOver('_button_print'); onmouseout=snrollOff('_button_print');><img src="/global_images/2.0/2.0_button_print.gif" alt="Print" name="_button_print" id="_button_print" width="43" height="40" hspace="0" vspace="0" border="0"></a><A HREF=javascript:openNewWindow("/global_include/asp/page_tools/email.asp") onmouseover=snrollOver('_button_mail'); onmouseout=snrollOff('_button_mail');><img src="/global_images/2.0/2.0_button_mail.gif" alt="Email" name="_button_mail" id="_button_mail" width="42" height="40" hspace="0" vspace="0" border="0"></a></td>
+		    <td width="10" background="/global_images/spacer.gif" class="exhibitor6">&nbsp;</td>
+    			
+	</tr>
+<!-- /breadcrumb row -->	
+<!-- main body row -->
+	<tr>
+	    <td width="10" background="/global_images/spacer.gif"></td>
+	    <td width="140" background="/global_images/spacer.gif" valign="top"><img src="/global_images/spacer.gif" width="140" height="20" alt="" border="0"><br>
+		<span class="nav_third">
+
+	
+<!-- EXHIBITOR MANUAL -->	
+		<img src="/global_images/navigation/3nav_bar_gray.gif" alt="--------" width="140" height="1" hspace="0" vspace="0" border="0"><br>
+		<img src="/global_images/spacer.gif" width="140" height="4" alt="" border="0"><br>
+		<a href="/exhibitors/manual/show_info/default.asp">General Show Information</a><br>
+		<img src="/global_images/spacer.gif" width="140" height="6" alt="" border="0"><br>
+		<img src="/global_images/navigation/3nav_bar_gray.gif" alt="--------" width="140" height="1" hspace="0" vspace="0" border="0"><br>
+		<img src="/global_images/spacer.gif" width="140" height="4" alt="" border="0"><br>
+		Rules & Regulations</a><br>
+		<img src="/global_images/spacer.gif" width="140" height="6" alt="" border="0"><br>
+		<img src="/global_images/navigation/3nav_bar_gray.gif" alt="--------" width="140" height="1" hspace="0" vspace="0" border="0"><br>
+		<img src="/global_images/spacer.gif" width="140" height="4" alt="" border="0"><br>
+		<a href="/exhibitors/manual/meeting_rooms/default.asp">Meeting & Demonstration Rooms</a><br>
+		<img src="/global_images/spacer.gif" width="140" height="6" alt="" border="0"><br>
+		<img src="/global_images/navigation/3nav_bar_gray.gif" alt="--------" width="140" height="1" hspace="0" vspace="0" border="0"><br>		
+		<img src="/global_images/spacer.gif" width="140" height="4" alt="" border="0"><br>
+		<a href="/exhibitors/manual/contractors/default.asp">Exhibitor Appointed Contractors</a><br>
+		<img src="/global_images/spacer.gif" width="140" height="6" alt="" border="0"><br>
+		<img src="/global_images/navigation/3nav_bar_gray.gif" alt="--------" width="140" height="1" hspace="0" vspace="0" border="0"><br>
+		<img src="/global_images/spacer.gif" width="140" height="4" alt="" border="0"><br>
+		<a href="http://www.gesinterkit.com" target="new">GES Info & Order Forms</a><br>
+		<img src="/global_images/spacer.gif" width="140" height="6" alt="" border="0"><br>
+		<img src="/global_images/navigation/3nav_bar_gray.gif" alt="--------" width="140" height="1" hspace="0" vspace="0" border="0"><br>
+		<img src="/global_images/spacer.gif" width="140" height="4" alt="" border="0"><br>
+		<a href="/exhibitors/manual/shipping/default.asp">Shipping & Material Handling</a><br>
+		<img src="/global_images/spacer.gif" width="140" height="6" alt="" border="0"><br>
+		<img src="/global_images/navigation/3nav_bar_gray.gif" alt="--------" width="140" height="1" hspace="0" vspace="0" border="0"><br>
+		<img src="/global_images/spacer.gif" width="140" height="4" alt="" border="0"><br>
+		<a href="/exhibitors/manual/installation_dismantling/default.asp">Installation & Dismantling</a><br>
+		<img src="/global_images/spacer.gif" width="140" height="6" alt="" border="0"><br>
+		<img src="/global_images/navigation/3nav_bar_gray.gif" alt="--------" width="140" height="1" hspace="0" vspace="0" border="0"><br>
+		<img src="/global_images/spacer.gif" width="140" height="4" alt="" border="0"><br>
+		<a href="/exhibitors/manual/show_utilities/default.asp">Show Utilities</a><br>
+		<img src="/global_images/spacer.gif" width="140" height="6" alt="" border="0"><br>
+		<img src="/global_images/navigation/3nav_bar_gray.gif" alt="--------" width="140" height="1" hspace="0" vspace="0" border="0"><br>
+		<img src="/global_images/spacer.gif" width="140" height="4" alt="" border="0"><br> 
+		<a href="/exhibitors/manual/supplemental_services/default.asp">Supplemental Services</a><br>
+		<img src="/global_images/spacer.gif" width="140" height="6" alt="" border="0"><br>
+		<img src="/global_images/navigation/3nav_bar_gray.gif" alt="--------" width="140" height="1" hspace="0" vspace="0" border="0"><br>
+		<img src="/global_images/spacer.gif" width="140" height="4" alt="" border="0"><br> 
+		<a href="/exhibitors/manual/booth_security/default.asp">Booth Security</a><br>
+		<img src="/global_images/spacer.gif" width="140" height="6" alt="" border="0"><br>
+		<img src="/global_images/navigation/3nav_bar_gray.gif" alt="--------" width="140" height="1" hspace="0" vspace="0" border="0"><br>
+		<img src="/global_images/spacer.gif" width="140" height="4" alt="" border="0"><br> 
+		<a href="/exhibitors/manual/contact_info/default.asp">Key Contact Info</a><br>
+		<img src="/global_images/spacer.gif" width="140" height="6" alt="" border="0"><br>
+		<img src="/global_images/navigation/3nav_bar_gray.gif" alt="--------" width="140" height="1" hspace="0" vspace="0" border="0"><br>
+		<img src="/global_images/spacer.gif" width="140" height="4" alt="" border="0"><br> 
+		<a href="/exhibitors/manual/deadlines/default.asp">Deadline Checklist</a><br>
+		<img src="/global_images/spacer.gif" width="140" height="6" alt="" border="0"><br>
+		<img src="/global_images/navigation/3nav_bar_gray.gif" alt="--------" width="140" height="1" hspace="0" vspace="0" border="0"><br>
+		<img src="/global_images/spacer.gif" width="140" height="24" alt="" border="0"><br> 
+<!-- /EXHIBITOR MANUAL -->	
+
+
+
+
+<a href="http://www.ce.org" target="new" onmouseover=snrollOver('_logo_cea'); onmouseout=snrollOff('_logo_cea');><img src="/global_images/2.0/2.0_logo_cea.gif" name="_logo_cea" width="140" height="116" alt="Produced by Consumer Electronics Association" border="0"></a>
+<br>
+</span>
+
+				
+		</td>
+	    <td width="10"></td>
+		<!-- checking to see if the page is a main section page or not -->
+		
+	    <td width="10" background="/global_images/spacer.gif" class="exhibitor7">&nbsp;</td>
+	    <td width="590" colspan="4"  background="/global_images/spacer.gif" class="exhibitor7" valign="top">
+			<img src="/global_images/spacer.gif" height="10" width="1"><br><div class="body_title">Rules & Regulations<br><img src="/global_images/spacer.gif" height="16" width="1"></div>
+			
+
+<div id="2.4.2">	
+<!-- text for main page -->
+<table class="exhibitor8" width="590" cellspacing="0" cellpadding="0" border="0">
+	<tr>
+	    <td width="10"><img src="/global_images/exhibitor_in_page_up_left.gif" alt="" width="10" height="10" hspace="0" vspace="0" border="0"></td>
+	    <td width="280"><img src="/global_images/spacer.gif" alt="" width="280" height="10" hspace="0" vspace="0" border="0"></td>
+	    <td width="10"><img src="/global_images/spacer.gif" alt="" width="10" height="10" hspace="0" vspace="0" border="0"></td>
+	    <td width="280"><img src="/global_images/spacer.gif" alt="" width="280" height="10" hspace="0" vspace="0" border="0"></td>
+	    <td width="10"><img src="/global_images/exhibitor_in_page_up_right.gif" alt="" width="10" height="10" hspace="0" vspace="0" border="0"></td>	
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><span class="subhead">On this page:</span></td>
+		<td></td><td><span class="subhead"></span></td>
+	</tr>
+	<tr>
+	    <td>&nbsp;</td>
+		<td valign="top" class="text">
+			<span class="nav_fourth_arrow"><b>>&nbsp;&nbsp;</b></span><a href="?id=1#1" class="inpagenav">International CES Exhibit Space Package</a><BR>
+			<span class="nav_fourth_arrow"><b>>&nbsp;&nbsp;</b></span><a href="?id=5#5" class="inpagenav">Booth Number Locations & Contacts</a><BR>
+			<span class="nav_fourth_arrow"><b>>&nbsp;&nbsp;</b></span><a href="?id=6#6" class="inpagenav">Booth Display Types</a><BR>		
+			<span class="nav_fourth_arrow"><b>>&nbsp;&nbsp;</b></span><a href="?id=8#8" class="inpagenav">Exhibit Booth Display Regulations</a><BR>
+			<span class="nav_fourth_arrow"><b>>&nbsp;&nbsp;</b></span><a href="?id=9#9" class="inpagenav">Hanging Sign Regulations, Approval & Deadlines</a><BR>
+			<span class="nav_fourth_arrow"><b>>&nbsp;&nbsp;</b></span><a href="?id=10#10" class="inpagenav">Tower Guidelines</a><BR>	
+			<span class="nav_fourth_arrow"><b>>&nbsp;&nbsp;</b></span><a href="?id=11#11" class="inpagenav">Multi-Level or Covered Booths Safety Requirements</a><BR>
+			<span class="nav_fourth_arrow"><b>>&nbsp;&nbsp;</b></span><a href="?id=12#12" class="inpagenav">Union Jurisdictions/Exhibitor Rights</a><BR>	
+			<span class="nav_fourth_arrow"><b>>&nbsp;&nbsp;</b></span><a href="?id=14#14" class="inpagenav">Fire and Safety Regulations</a><BR>	
+			<!--<span class="nav_fourth_arrow"><b>>&nbsp;&nbsp;</b></span><a href="?id=15#15" class="inpagenav">Display Regulations</a><BR>
+			<span class="nav_fourth_arrow"><b>>&nbsp;&nbsp;</b></span><a href="?id=16#16" class="inpagenav">Vehicles On Display</a><BR>	
+			<span class="nav_fourth_arrow"><b>>&nbsp;&nbsp;</b></span><a href="?id=17#17" class="inpagenav">Electrical Regulations</a><BR>-->
+			<span class="nav_fourth_arrow"><b>>&nbsp;&nbsp;</b></span><a href="?id=18#18" class="inpagenav">Booth Security and Fire Suppression</a><BR>	
+			<span class="nav_fourth_arrow"><b>>&nbsp;&nbsp;</b></span><a href="?id=19#19" class="inpagenav">Outdoor Exhibit Regulations</a><BR>			
+			<span class="nav_fourth_arrow"><b>>&nbsp;&nbsp;</b></span><a href="?id=20#20" class="inpagenav">LV Hilton Suites Rules and Regulations</a><BR>
+			<span class="nav_fourth_arrow"><b>>&nbsp;&nbsp;</b></span><a href="?id=21#21" class="inpagenav">Cash and Carry Prohibited</a><BR>	
+			<span class="nav_fourth_arrow"><b>>&nbsp;&nbsp;</b></span><a href="?id=22#22" class="inpagenav">Good Neighbor Policy</a><BR>	
+
+		</td>
+		<td>&nbsp;</td>
+		<td valign="top" class="text">
+			<span class="nav_fourth_arrow"><b>>&nbsp;&nbsp;</b></span><a href="?id=23#23" class="inpagenav">Product Demonstrations</a><BR>
+			<span class="nav_fourth_arrow"><b>>&nbsp;&nbsp;</b></span><a href="?id=24#24" class="inpagenav">Booth Activity/Crowd Control</a><BR>	
+			<span class="nav_fourth_arrow"><b>>&nbsp;&nbsp;</b></span><a href="?id=25#25" class="inpagenav">Performance of Music</a><BR>
+			<span class="nav_fourth_arrow"><b>>&nbsp;&nbsp;</b></span><a href="?id=26#26" class="inpagenav">FCC Requirements</a><BR>
+			<span class="nav_fourth_arrow"><b>>&nbsp;&nbsp;</b></span><a href="?id=27#27" class="inpagenav">Sound Restrictions</a><BR>
+			<span class="nav_fourth_arrow"><b>>&nbsp;&nbsp;</b></span><a href="?id=28#28" class="inpagenav">Lighting Restrictions (Halogen)</a><BR>
+			<span class="nav_fourth_arrow"><b>>&nbsp;&nbsp;</b></span><a href="?id=29#29" class="inpagenav">Photography Regulations</a><BR>
+			<span class="nav_fourth_arrow"><b>>&nbsp;&nbsp;</b></span><a href="?id=30#30" class="inpagenav">Age Restrictions to Exhibit Hall</a><BR>
+			<span class="nav_fourth_arrow"><b>>&nbsp;&nbsp;</b></span><a href="?id=31#31" class="inpagenav">Equipment/Product Removal Pass</a><BR>	
+			<span class="nav_fourth_arrow"><b>>&nbsp;&nbsp;</b></span><a href="?id=32#32" class="inpagenav">Late Work Permits</a><BR>
+			<span class="nav_fourth_arrow"><b>>&nbsp;&nbsp;</b></span><a href="?id=33#33" class="inpagenav">Food & Beverages</a><BR>
+			<span class="nav_fourth_arrow"><b>>&nbsp;&nbsp;</b></span><a href="?id=34#34" class="inpagenav">Raffles/Games of Chance</a><BR>
+			<span class="nav_fourth_arrow"><b>>&nbsp;&nbsp;</b></span><a href="?id=35#35" class="inpagenav">Literature Disbursements, Giveaways, Surveys</a><BR>	
+			<span class="nav_fourth_arrow"><b>>&nbsp;&nbsp;</b></span><a href="?id=36#36" class="inpagenav">Americans With Disabilities Act</a><BR>
+		</td>
+	    <td>&nbsp;</td>
+	</tr>
+	<tr>
+	    <td width="10"><img src="/global_images/exhibitor_in_page_down_left.gif" alt="" width="10" height="10" hspace="0" vspace="0" border="0"></td>
+	    <td width="280"><img src="/global_images/spacer.gif" alt="" width="280" height="10" hspace="0" vspace="0" border="0"></td>
+	    <td width="10"><img src="/global_images/spacer.gif" alt="" width="10" height="10" hspace="0" vspace="0" border="0"></td>
+	    <td width="280"><img src="/global_images/spacer.gif" alt="" width="280" height="10" hspace="0" vspace="0" border="0"></td>
+	    <td width="10"><img src="/global_images/exhibitor_in_page_down_right.gif" alt="" width="10" height="10" hspace="0" vspace="0" border="0"></td>
+	</tr>
+</table>
+<table width="590" cellspacing=0 cellpadding=0 border=0 ID="Table1">
+
+<tr><a name="1"></a></tr>
+<tr><td><img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td><img src="/global_images/2.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td><img src="/global_images/spacer.gif" alt="" width="1" height="3" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td width="590"><span class="subhead">International CES Exhibit Space Package</span></td></tr>
+<tr><td><img src="/global_images/spacer.gif" alt="" width="1" height="3" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td width="590">The following are included in your exhibit space:
+<ul>
+	<li><b>Security:  </b>Perimeter exhibit hall security provided.
+	<li><b>Cleaning:  </b>Your exhibit carpet vacuumed and wastebaskets emptied (if placed by the aisles) each night of the show.
+	<li><b>Floor Managers & Exhibitor Hotline:  </b>On-site floor managers for your assistance.
+	<li><b>Registration:  </b>Advance and on-site exhibitor registration.  Each exhibiting company is eligible to receive 5 complimentary badges per 100 square feet of exhibit space (minimum of 10 badges).
+	<li><b>Buyer Invitations:  </b>Upon request, International CES will send you Buyer Invitations imprinted with your company name.
+	<li><b>Website:  </b>Link from the official website of the International CES, www.CESweb.org.
+	<li><b>Press Room:  </b>International CES provides staffed press rooms for the distribution of your company's press kits to more than 4,350 press.
+	<li><b>Shuttle Buses:  </b>On show days, shuttle bus service will be provided to/from the Las Vegas Convention Center and all official International CES hotels.  Express bus service will also be provided to/from the LVCC and the Alexis Park Resort.
+	<li><b>Updates:  </b>The <a href="/exhibitors/newsletter/">Exhibitor Advantage</a>, the International CES online newsletter, is available monthly 
+	<li><b>Directory:  </b>Listing in the International CES Directory and Exporting Exhibitor Program upon receipt of the appropriate forms.
+</ul>
+</td></tr>
+<tr><td><img src="/global_images/spacer.gif" alt="" width="1" height="12" hspace="0" vspace="0" border="0"></td></tr>
+
+<tr><td width="590"><span class="subhead">Exhibitors with booths under 400 square feet receive:</span></td></tr>
+<tr><td><img src="/global_images/spacer.gif" alt="" width="1" height="3" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td width="590">
+<ul>
+	<li> 8' back drape, 3' side drape and 7" x 44" identification sign including name and booth number as printed on your contract (applies only to exhibitors 10' or less in depth).   If you would like to add your company logo or custom-made identification sign, please contact GES Exposition Services directly at (800) 475-2098.
+	<li><b>Electrical Labor:</b> For a maximum of one (1) hour at no charge, exhibitors must complete and submit the TSE electrical service and electrical labor order forms by advance deadline.  Electrical service and electrical labor forms not completed and received in advance will not receive complimentary service.  Both forms can be found in the <a href="/exhibitors/manual/show_utilities/default.asp">Show Utilities</a> section.
+</ul>
+</td></tr>
+<tr><td><img src="/global_images/spacer.gif" alt="" width="1" height="12" hspace="0" vspace="0" border="0"></td></tr>
+
+<tr><td width="590"><span class="subhead">LVCC Exhibitors with booths over 401 square feet receive:</span></td></tr>
+<tr><td><img src="/global_images/spacer.gif" alt="" width="1" height="3" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td width="590">
+<ul>
+	<li><strong>Hanging Sign Service:</strong> Provided for one (1) hour of labor to hang the exhibitor's sign from the ceiling. GES will coordinate the installation of all hanging signs.
+	The GES Hanging Sign Order Form <strong>must be received by GES no later than December 18, 2003</strong> to receive this complimentary service.  See the  <a href="default.asp?id=9#9">Hanging Sign Regulations, Approval & Deadlines</a> section for more information.
+</ul>
+</td></tr>
+<tr><td><img src="/global_images/spacer.gif" alt="" width="1" height="12" hspace="0" vspace="0" border="0"></td></tr>
+
+<tr><td width="590"><span class="subhead">CES TechZone Exhibitors</span></td></tr>
+<tr><td><img src="/global_images/spacer.gif" alt="" width="1" height="3" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td width="590">Exhibitors contracted for one of the CES TechZones should contact Jayne Dalton, CES Exhibitor Services, at (703) 907-7607 or <a href="mailto:jdalton@ce.org">jdalton@ce.org</a> for specific questions about what is included in your booth space.   
+</td></tr>
+<tr><td><img src="/global_images/spacer.gif" width="590" height="10" border="0"><br><a href="#">[back to top]</a></td></tr>
+
+<tr><a name="5"></a></tr>
+<tr><td><img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td><img src="/global_images/2.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td><img src="/global_images/spacer.gif" alt="" width="1" height="3" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td width="590"><span class="subhead">Booth Number Locations & Contacts</span></td></tr>
+<tr><td><img src="/global_images/spacer.gif" alt="" width="1" height="3" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td width="590">Questions?  Please contact International CES Operations as follows: <br><br>	
+	<table width="100%" cellpadding="0" cellspacing="0" border=0>
+	<tr><td width="30%"><b>Show Location</b></td><td width="20%"><b>Booth Series</b></td><td width="50%"><b>Contact</b></td></tr>	
+	<tr class="exhibitor11"><td>LVCC North Hall</td><td>100-6799</td><td>Gail Sparks-Riegel (703) 907-7786 <a href="mailto:gsparks@CE.org">gsparks@CE.org</a></td></tr>	
+	<tr><td>LVCC Central Hall</td><td>7000-15799</td><td>Gail Sparks-Riegel (703) 907-7786 <a href="mailto:gsparks@CE.org">gsparks@CE.org</a></td></tr>	
+	<tr class="exhibitor11"><td>Las Vegas Hilton</td><td>50000-62000</td><td>Gail Sparks-Riegel (703) 907-7786 <a href="mailto:gsparks@CE.org">gsparks@CE.org</a></td></tr>			
+	<tr><td>LVCC South Hall Ground Level</td><td>15800-19999</td><td>Nadia Kader (703) 907-7685 <a href="mailto:nkader@CE.org">nkader@CE.org</a></td></tr>
+	<tr class="exhibitor11"><td>LVCC South Hall Upper Level</td><td>20000-23999</td><td>Nadia Kader (703) 907-7685 <a href="mailto:nkader@CE.org">nkader@CE.org</a></td></tr>	
+	<tr><td>LVCC Silver Exhibits</td><td>70000-71900</td><td>Nadia Kader (703) 907-7685 <a href="mailto:nkader@CE.org">nkader@CE.org</a></td></tr>			
+	</table>
+</td></tr>
+<tr><td><img src="/global_images/spacer.gif" width="590" height="10" border="0"><br><a href="#">[back to top]</a></td></tr>
+
+<tr><a name="6"></a></tr>
+<tr><td><img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td><img src="/global_images/2.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td><img src="/global_images/spacer.gif" alt="" width="1" height="3" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td width="590"><span class="subhead">Booth Display Types</span></td></tr>
+<tr><td><img src="/global_images/spacer.gif" alt="" width="1" height="3" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td width="590">
+<ul>
+<li><b>A standard/linear booth (10' depth)</b> is any booth that shares a common back wall and abuts other exhibits on one or two sides.  
+The maximum height is 8'.  This 8' height may be maintained on the sidewall of your booth up to a distance of 5' from the front aisle.  The remaining length of the sidewall may be no higher than 4'.  
+<strong>Hanging signs are not permitted over standard/linear booths.</strong>
+<br><br>
+<li><b>A perimeter wall booth (10' depth)</b> is a standard/linear booth found on the perimeter walls of the exhibit floor.
+The maximum height is 12'.  This 12' height may be maintained on the sidewalls of your booth up to a distance of 5' from the front aisle.  The remaining length of the sidewall may be no higher than 4'.  
+<strong>Hanging signs are not permitted over perimeter wall booths.</strong>
+<br><br>
+<li><b>A peninsula booth</b> is any exhibit 20' x 20' or larger with a depth from the common back wall to the aisle of at least 20' and with aisles on three sides.
+<br><br>For a peninsula booth backed by a row of standard/linear booths, the back wall may be no higher than 4' for a distance of 5' from either side aisle and 20' high in the center of the back wall. These height restrictions must be maintained for a distance of 10' from the back wall.  
+<br><br>Where two (2) peninsula booths share a common back wall with no standard booths in between (also referred to as a "Split Island"), the maximum height may be 20' in all areas of the booth, including the back wall (same as Island Booth rules, below).
+<br><br>For all peninsula booths, the exterior of the back wall must be plainly finished and may not contain booth identification, logos or advertisements.
+<br><br>
+<li><b>An island booth</b> is any exhibit 20' x 20' or larger and is surrounded by aisles on four sides.
+<br><br>A maximum height of 30' in all areas of your booth is allowed in North Halls 1-4 and Central Halls 3-5.  A maximum height of 20' in all areas of your booth is allowed in Central Halls 1-2.  A maximum of 22' in all areas of your booth is allowed in South Halls. There are no limitations on the number of solid walls for your island booth.
+</ul>
+</td></tr>
+<tr><td><img src="/global_images/spacer.gif" width="590" height="10" border="0"><br><a href="#">[back to top]</a></td></tr>
+
+<tr><a name="8"></a></tr>
+<tr><td><img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td><img src="/global_images/2.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td><img src="/global_images/spacer.gif" alt="" width="1" height="3" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td width="590"><span class="subhead">Exhibit Booth Display Regulations</span></td></tr>
+<tr><td><img src="/global_images/spacer.gif" alt="" width="1" height="3" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td width="590">
+<ul>
+<li class="exhibitor11">Smoking is prohibited in all International CES Show Locations.  The fire & safety regulations listed below are very important.  You must comply with the rules that apply to your exhibit.
+<li>Any portion of a display that extends above or beyond that of the booth adjoining to the rear or side must be finished with paint or drapes at the expense of the exhibitor.  Any portion of your booth facing an aisle must be finished.
+<li class="exhibitor11">No signs or decorating materials may protrude into the aisles or encroach upon neighboring exhibits.  All materials must be contained within the booth and may not be posted or distributed anywhere in the show facilities.					
+<li>Show management reserves the right to remove any exhibit, at the expense of the exhibitor, if the display does not meet the specifications set forth in this manual.
+<li class="exhibitor11">If an exhibit interferes with the rights of other exhibitors or does not conform to prevailing standards of good taste, Show Management may require immediate changes.
+<li>Except where noted, all exhibits must be completely installed by 3:00 p.m. on January 7, 2004.  
+<li class="exhibitor11">No live animals are permitted under any circumstances.
+<li>No balloons of any type (including helium or motor operated)are permitted.
+<li class="exhibitor11">No stickers of any type are allowed on property.
+<li>Any exhibitor who begins to dismantle or pack part of the exhibit before the close of the show may lose priority points or be denied participation in future shows.
+<li class="exhibitor11">All exhibits must be freestanding and self-supporting.  Booth configurations cannot be designed to obstruct the view of nearby exhibits, exits or doorways.
+<li>Booths at the LVCC must be fully carpeted or have other professional floor covering installed.  Booths lacking carpet by 3:00 p.m. on January 7 will have carpet installed at the exhibitor's expense.
+</ul>
+<br>
+These regulations are an integral part of the <a href="/exhibitors/manual/show_info/include/2k4SpaceContract.pdf" target="new">Exhibit Space Contract</a>.  Adherence is essential to having an orderly, fair and safe show.  <strong>Please read this information carefully</strong> as it is important that exhibitors are aware of these regulations and comply with them.
+</td></tr>
+<tr><td><img src="/global_images/spacer.gif" width="590" height="10" border="0"><br><a href="#">[back to top]</a></td></tr>
+
+<tr><a name="9"></a></tr>
+<tr><td><img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td><img src="/global_images/2.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td><img src="/global_images/spacer.gif" alt="" width="1" height="3" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td width="590"><span class="subhead">Hanging Sign Regulations, Approval & Deadlines</span></td></tr>
+<tr><td><img src="/global_images/spacer.gif" alt="" width="1" height="3" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td width="590"><strong>There is no limit as to the quantity or size of hanging signs allowed in island or peninsula booths.</strong>   Island and peninsula exhibitors may utilize their space as they wish, as long as the height restriction and other hanging sign rules are maintained.
+<br><br><b>Hanging signs are <u>not</u> permitted in the following areas:</b>
+<ul>
+<li>in booths 10' or less in depth or those under 400 square feet
+<li>in any meeting rooms at the LVCC or Hilton
+<li>in the Hilton Ballroom
+<li>Due to weight restrictions and limited hanging points (noted below), hanging signs are limited in some areas of the LVCC Central 2 Hall, Silver Exhibits, and the Hilton Center. 
+</ul></li>
+
+<br><b>All hanging signs must adhere to the following regulations:</b>
+<ul>
+<li>The height of the hanging sign from the floor to the top of the sign may not exceed the following height limits.  Due to the fixed height of ceilings, the following height restrictions are not subject to variances: 
+<br><br>
+	<table align="center" width="60%" cellpadding="0" cellspacing="0">
+	<tr class="exhibitor11"><td>LVCC North Halls 1, 2, 3, 4</td><td>30'</td></tr>
+	<tr class="exhibitor11"><td>LVCC Central 1,2 (booths 7000-9506)</td><td>20'</td></tr>
+	<tr class="exhibitor11"><td>LVCC Central 3,4,5 (booths 9808-15799)</td><td>30'</td></tr>
+	<tr class="exhibitor11"><td>LVCC South Halls 1, 2, 3, 4)</td><td>22'</td></tr>
+	<tr class="exhibitor11"><td>LVCC Silver Exhibits</td><td>20' (Subject to GES approval) </td></tr>
+	<tr class="exhibitor11"><td>Hilton Pavilion and Center</td><td>20'</td></tr>
+	</table>
+<br><li>Use the following table for maximum hanging sign weight in relation to booth size (all are subject to GES approval):
+<br><br>
+	<table width="25%" align="center" cellspacing="0" cellpadding="0">
+	<tr class="exhibitor11"><td>LVCC</td><td>1,500 lbs.</td></tr>
+	<tr class="exhibitor11"><td>Hilton</td><td>1,500 lbs.</td></tr>
+	<tr class="exhibitor11"><td>Silver Exhibits</td><td>500 lbs.</td></tr>
+	</table>
+<br><li>All LVCC hanging sign requests are subject to approval by GES; All Hilton sign requests are subject to approval by Encore Productions.</li>
+<li>Show management, GES, Encore Productions and show location management reserves the right to reject hanging signs where there is excess of weight or if construction/design is deemed to be unsafe.</li>
+<li>Flashing chaser lights are not permitted on hanging signs.</li>
+<li>Laser logos may not be projected outside of an exhibiting booth.</li> 
+</ul>
+<br><span class="black">Hanging Sign Approval & Deadlines</span>
+<br>Hanging signs displayed in the <strong>LVCC and Silver Exhibits</strong> must be approved in advance by GES Exposition Services and submitted with the Hanging Sign order form located in section titled "GES Order Forms".  
+<br><br>Hanging signs displayed in the <strong>Hilton Pavilion or Center</strong> must be approved by Encore Productions in advance and submitted with the hanging sign order form located in the section titled "Supplemental Services Order Forms".
+<br><br><b>DEADLINES</b>
+<ul><li>All hanging sign requests must be submitted to GES Exposition Services by <strong>DECEMBER 18, 2003</strong>.
+<li>Two blueprints or drawings with detailed dimensions and a certified weight bill (if sign exceeds 100 lbs.) must be submitted to GES by <strong>DECEMBER 18, 2003</strong>.
+</ul>	
+<br>HANGING SIGNS MUST BE SHIPPED IN ADVANCE AND RECEIVED AT THE GES EXPOSITION SERVICES WAREHOUSE NO LATER THAN DECEMBER 18, 2003.
+<br><br>Any hanging sign requests received after December 18, 2003 will only be accepted subject to availability of labor.  Signs received after show move-in begins will be hung based on availability of labor and accessibility of exhibitor's booth.  If assistance is available for late orders, an extra charge will be assessed.  Contact the exhibitor service desk on-site for assistance.
+<br><br><b>Have Hanging Sign Questions?</b>
+<br>LVCC contact: Rich Iniguez, GES - phone: (800) 475-2098; e-mail: <a href="mailto:riniguez@gesexpo.com">riniguez@gesexpo.com</a>
+<br>Hilton contact: Encore Productions - phone: (702) 732-5644
+</td></tr>
+<tr><td><img src="/global_images/spacer.gif" width="590" height="10" border="0"><br><a href="#">[back to top]</a></td></tr>
+
+<tr><a name="10"></a></tr>
+<tr><td><img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td><img src="/global_images/2.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td><img src="/global_images/spacer.gif" alt="" width="1" height="3" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td width="590"><span class="subhead">Tower Guidelines</span></td></tr>
+<tr><td><img src="/global_images/spacer.gif" alt="" width="1" height="3" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td width="590"><strong>Did you know?</strong>  There is no limit as to the quantity or size of towers allowed in island booths.   Island exhibitors may utilize their space as they wish, as long as the tower guidelines and height restrictions are maintained.   
+<br><br><strong>What is a tower?</strong>  A Tower is a freestanding exhibit component separate from the main exhibit frame.  
+<br><br><strong>How can I use it?</strong>  Towers can be an integral part of your booth or a structure on which to place a sign.  
+<br><br><b>Please Note:</b><ul>
+<li>Towers are only permitted in peninsula and island booths!
+<li>Towers are NOT permitted to rise above booth height limit. 
+<li>Towers in excess of 8' must have blue prints or drawings available for inspection.
+</ul>
+<br><strong>All towers must adhere to the following guidelines:</strong>
+<ul>
+<li>The maximum tower height allowed is as follows:<br><br>
+	<table align="center" width="40%" cellpadding="0" cellspacing="0">
+	<tr class="exhibitor11"><td>North 1, 2, 3, 4	 (booths 100-6799)</td><td>30'</td></tr>
+	<tr class="exhibitor11"><td>Central 1, 2 (booths 7000-9506)</td><td>20'</td></tr>
+	<tr class="exhibitor11"><td>Central 3, 4, 5 (booths 9808-15799)</td><td>30'</td></tr>
+	<tr class="exhibitor11"><td>South 1, 2 (booths15800-19999)</td><td> 22'</td></tr>
+	<tr class="exhibitor11"><td>South 3,4 (booths 20000-23999)</td><td> 22'</td></tr>
+	<tr class="exhibitor11"><td>Silver Exhibits* (booths 70000-71900)</td><td> 20' </td></tr>
+	<tr class="exhibitor11"><td>Hilton (booths 50000-62000)</td><td> 20' </td></tr>	
+	</table>
+	(*Ceiling heights vary.  A separate mailing will be sent to Silver Exhibitors with exact heights.)<br>
+<li>Towers exceeding maximum booth heights are not permitted in exhibits under 400 square feet.
+<li>The base may be solid from the floor to the maximum booth height.  The remaining structure must be modular and constructed out of material that is 2' or less in width to maintain "see-through" visibility.
+<li>The maximum width of a tower base is 4', and may not extend the 4' over the maximum booth height limit (see above table). 
+<li>If a tower is used as a sign base, the sign must conform to the following specifications:
+	<table cellpadding=1 cellspacing=0 width="100%">
+	<tr>
+		<td valign="top">&nbsp;&nbsp;1.&nbsp;&nbsp;</td><td>The bottom of a sign attached to the tower must be 2' above all booth construction.  Dimensions with sign must meet those indicated under "Hanging Signs".</td>
+	</tr>
+	<tr>
+		<td valign="top">&nbsp;&nbsp;2.&nbsp;&nbsp;</td><td>Signs in booths over 400 square feet cannot exceed 4', top to bottom in height.</td>
+	</tr>
+	<tr>
+		<td valign="top">&nbsp;&nbsp;3.&nbsp;&nbsp;</td><td>Rotation of sign is acceptable, however, flashing chaser lights are not permitted on signs.</td>
+	</tr>
+	<tr>
+		<td valign="top">&nbsp;&nbsp;4.&nbsp;&nbsp;</td><td>The top of the tower cannot extend beyond the point where set back begins.</td>
+	</tr>
+	</table>
+<li>Tower set back must be in accordance with the following formula:<br><br>
+	<table align="center" width="40%" cellpadding="0" cellspacing="0">
+	<tr class="exhibitor11"><td><strong>Size of Booth</strong></td><td><strong>Set Back Into Booth</strong></td></tr>
+	<tr class="exhibitor11"><td>400-900 sq. ft.</td><td>4'</td></tr>
+	<tr class="exhibitor11"><td>901-1600 sq. ft.</td><td>5'</td></tr>
+	<tr class="exhibitor11"><td>1601-2500 sq. ft.</td><td>6'</td></tr>
+	<tr class="exhibitor11"><td>2501-3600 sq. ft.</td><td>7'</td></tr>	
+	<tr class="exhibitor11"><td>3601 sq. ft and over</td><td>8'</td></tr>	
+	</table>	
+</ul>
+</td></tr>
+<tr><td><img src="/global_images/spacer.gif" width="590" height="10" border="0"><br><a href="#">[back to top]</a></td></tr>
+
+<tr><a name="11"></a></tr>
+<tr><td><img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td><img src="/global_images/2.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td><img src="/global_images/spacer.gif" alt="" width="1" height="3" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td width="590"><span class="subhead">Multi-Level and Covered Booths Safety Requirements</span></td></tr>
+<tr><td><img src="/global_images/spacer.gif" alt="" width="1" height="3" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td width="590"><br><b>Glossary of Terms</b>
+<ul>
+<li><b>Upper decks:</b>  any occupied second story or greater area, which is accessible by an approved means of egress.
+<li><b>Covered area:</b>  any area that covers the exhibit space and prevents the building fire sprinkler system from discharging water unobstructed to the floor.  This will include single story exhibits with ceilings, upper deck exhibits, roofs, overhead lighting installations, and any material hanging or installed overhead that is not recognized as acceptable for use under fire sprinkler systems by fire code.
+<li><b>Contiguous:</b>  any area or combination of areas that are not separated by a clear ten foot fire break.  This measurement is made horizontally.
+<li><b>Fire break:</b>  a clear non-combustible space at least (10) feet in width surrounding the exhibit or exhibit space on all sides.
+<li><b>Means of egress:</b>  an approved stairway or ramp constructed to the specifications of the code used for access and exiting.
+</ul>
+<br>All multi-level (double-decker) booths and single level booths with enclosed rooms or ceilings MUST submit floor plans by November 1, 2003 for Fire Marshal approval as specified below.  A copy of the plans and structural integrity must be available on-site.  For questions regarding what is acceptable in the design of your upper deck or covered areas, please contact the Office of Fire and Safety as follows:
+<br><br><table cellpadding="0" cellspacing="0" width="100%">
+<tr align="center"><td width="30%" class="exhibitor11"><strong>Brad Stasik</strong></td><td width="5%"></td><td width="30%" class="exhibitor11"><strong>Joel Whiteley</strong></td><td width="5%"></td><td width="30%" class="exhibitor11"><strong>Gabe Jimenez</strong> (Las Vegas Hilton)</td></tr>
+<tr align="center"><td class="exhibitor11">Fire & Safety Coordinator</td><td></td><td class="exhibitor11">Fire & Safety Coordinator</td><td></td><td class="exhibitor11">Clark County Fire Department</td></tr>
+<tr align="center"><td class="exhibitor11">Las Vegas Convention Center</td><td></td><td class="exhibitor11">Las Vegas Convention Center</td><td></td><td class="exhibitor11">Fire Prevention Bureau</td></tr>
+<tr align="center"><td class="exhibitor11">3150 Paradise Road</td><td></td><td class="exhibitor11">3150 Paradise Road</td><td></td><td class="exhibitor11">575 E. Flamingo Road</td></tr>
+<tr align="center"><td class="exhibitor11">Las Vegas, NV  89109</td><td></td><td class="exhibitor11">Las Vegas, NV  89109</td><td></td><td class="exhibitor11">Las Vegas, NV  89119</td></tr>
+<tr align="center"><td class="exhibitor11">phone: (702) 892-2928</td><td></td><td class="exhibitor11">(702) 892-2928 phone</td><td></td><td class="exhibitor11">phone: (702) 455-7316</td></tr>
+<tr align="center"><td class="exhibitor11">fax: (702) 892-7671</td><td></td><td class="exhibitor11">(702) 892-7671 fax</td><td></td><td class="exhibitor11">fax: (702) 455-7347</td></tr>
+<tr align="center"><td class="exhibitor11">e-mail: <a href="mailto:bstasik@lvcva.com">bstasik@lvcva.com</a></td><td></td><td class="exhibitor11">e-mail: <a href="mailto:jwhiteley@lvcva.com">jwhiteley@lvcva.com</a></td><td></td><td class="exhibitor11">e-mail: <a href="mailto:GJJ@co.clark.nv.us">GJJ@co.clark.nv.us</a></td></tr>
+</table>
+<br><span class="black">Multi-Level and Covered Booth Safety Requirements</span>
+<br>All multi-level and covered booths must meet the following safety requirements:
+<ul>
+<li class="exhibitor11">Upper Decks or Covered areas are required to be limited to dimensions, which do not exceed 1000 sq. ft. in contiguous area.  
+<li>If additional Upper Deck or Covered contiguous area is required in excess of 1000 sq. ft., a fire sprinkler system shall be installed under the entire area and every level of a multi-level exhibit.  Fire sprinkler systems must be installed by one of the following Nevada State licensed fire sprinkler contractors:  
+<br><br><table width="45%" align="center" cellpadding="0" cellspacing="0" >
+<tr class="exhibitor11"><td>Simplex Grinnell Fire Protection</td><td>(702) 739-1921</td></tr>	
+<tr class="exhibitor11"><td>State Wide Fire Protection</td><td>(702) 737-1055</td></tr>	
+<tr class="exhibitor11"><td>Sunrise Fire Protection </td><td>(702) 228-0893</td></tr>		
+<tr class="exhibitor11"><td>Desert Fire</td><td>(702) 388-1926</td></tr>	
+</table><br>
+<li>Upper Deck or Covered areas shall not have any additional deck, ceiling, or covering installed above for any purpose unless a fire sprinkler system is installed in each level of the exhibit.  
+<li class="exhibitor11">If additional Upper Deck or Covered area is required in excess of 1000 sq. ft. without the use of a fire sprinkler system, contiguous areas limited to 1000 sq. ft. may be separated by a minimum (10) fire break on all sides.
+<table cellpadding=1 cellspacing=0 width="100%">
+<tr>
+	<td valign="top">&nbsp;&nbsp;1.&nbsp;&nbsp;</td><td>The fire break shall be void of any combustible displays, furniture or other material, which could abet transfer of fire from one area to the other.</td>
+</tr>
+<tr>
+	<td valign="top">&nbsp;&nbsp;2.&nbsp;&nbsp;</td><td>Exception:  The fire break may be spanned by a single bridge, catwalk or structure that shall not exceed 48 inches in width and shall be constructed of fire resistant or non-combustible materials.</td>
+</tr>
+</table>
+<li>Upper Deck areas that are greater than 300 sq. ft. or which will occupy more than 10 persons shall have at least two remote means of egress.  Remote is defined such that the means of egress shall be placed at a distance from one another not less than one half the length of the maximum overall diagonal dimension of the area to be served.
+<li class="exhibitor11">Means of egress shall be of an approved type and constructed to the requirement of the code.   Spiral stairs are not allowed.  Spiral stairways are not an approved means of egress for areas occupied by the public, visitors or the clientele. 
+<li>Exhibits with Upper Decks, Covered or Roofed areas exceeding 300 sq. ft. in size will require the installation of battery-operated smoke detectors.  Any covered area that is also enclosed will require the installation of battery-operated smoke detectors regardless of the size of the area. All smoke detectors will emit an audible alarm that can be heard outside of the area and must be installed in accordance with NFPA 72.
+<li class="exhibitor11">Any single level exhibit exceeding 300 square feet of contiguous covered area and all multi-level exhibits must submit a booth plan to the LVCC Fire & Safety Department (see above for contact info) for approval, prior installing the exhibit.
+<li>After hours fire watch must be provided for covered areas exceeding 300 square feet.  The fire watch must have the capability to contact the LVCC Security Dispatch by radio or other acceptable audible means.  
+<table cellpadding=1 cellspacing=0 width="100%">
+<tr>
+	<td valign="top">&nbsp;&nbsp;1.&nbsp;&nbsp;</td><td>Fire watch coverage is to commence with installation of upper deck, or ceiling and continues during non-show hours until the upper level or ceiling is removed.</td>
+</tr>
+<tr>
+	<td valign="top">&nbsp;&nbsp;2.&nbsp;&nbsp;</td><td>Assigned fire watch staff must be trained and qualified in the use of fire extinguishers.  Contract security or fire watch contractor is responsible for the verification of qualification of fire watch personnel.</td>
+</tr>
+<tr>
+	<td valign="top">&nbsp;&nbsp;3.&nbsp;&nbsp;</td><td>Fire watch personnel will be responsible for immediate notification, by radio, to LVCC Security Dispatch giving the exact location and description of the problem.</td>
+</tr>
+<tr>
+	<td valign="top">&nbsp;&nbsp;4.&nbsp;&nbsp;</td><td>Fire watch personnel may be assigned to multiple contiguous exhibits, based upon not more than one-minute response to any location involved. </td>
+</tr>
+<tr>
+	<td valign="top">&nbsp;&nbsp;5.&nbsp;&nbsp;</td><td>Fire watch personnel, prior to start of assignment, shall inspect locations and conditions of fire appliances and become familiar with the building, including location of available exits.</td>
+</tr>
+<tr>
+	<td valign="top">&nbsp;&nbsp;6.&nbsp;&nbsp;</td><td>Cost and method of payment for fire watch personnel is to be negotiated between the contractor supplying the service and exhibitor requiring such service.</td>
+</tr>
+</table>
+</ul>
+</td></tr>
+<tr><td><img src="/global_images/spacer.gif" width="590" height="10" border="0"><br><a href="#">[back to top]</a></td></tr>
+
+<tr><a name="12"></a></tr>
+<tr><td><img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td><img src="/global_images/2.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td><img src="/global_images/spacer.gif" alt="" width="1" height="3" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td width="590"><span class="subhead">Union Jurisdictions/Exhibitor Rights</span></td></tr>
+<tr><td><img src="/global_images/spacer.gif" alt="" width="1" height="3" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td width="590">
+Full-time personnel of an exhibiting company may perform booth construction activities and set-up of product with the following exceptions: 
+<br><br><b>Teamsters</b>
+<ul>
+<li class="exhibitor11">GES is the sole provider and operator of all motorized vehicles and equipment.
+<li>Teamsters control GES-consigned freight, banners and decorating. 
+<li class="exhibitor11">Teamsters assemble and hang non-electrical signs.
+</ul>
+<br><b>Electricians</b>
+<ul>
+<li class="exhibitor11">Electricians do electrical work, electrical sign hanging, and lighting without dimmers.
+<li>Electricians always hang electrical hanging signs including rotating and header.
+<li class="exhibitor11">Electricians distribute power from the source to the booth floor.  Exhibitors may plug-in their equipment into the one (1) 20A/120VAC receptacle provided per booth.  An electrician must be called for any increase in electrical service.  Exhibitors may hang up to four (4) small clip-on lights per booth.  
+<li>Electricians must be called for distribution of power in excess of 20A/120VAC per booth, all power above 208 VAC, and all concealed and under carpet wiring.
+<li class="exhibitor11">Electricians hoist teamster-assembled signs weighting 300 lbs. or greater at LVCC.
+</ul>
+<br><b>Stagehands</b>
+<ul>
+<li class="exhibitor11">Stagehands handle theatrical lighting, production, related rigging, and audio-visual equipment.
+</ul>
+<br><b>Exhibitors</b>
+<ul>
+<li class="exhibitor11">Exhibitors may hand carry if contained to one (1) trip.  Use of dollies are not permitted other than small, two-wheel luggage type.
+<li>Exhibitor's full-time personnel may place their own product.
+<li class="exhibitor11">Exhibitors choosing to use full-time company personnel must notify International CES in writing in accordance with Show Management policy and must furnish proof of insurance, both general liability and worker's compensation insurance. 
+<li>Exhibitors may use small power tools such as drills and electric screwdrivers.
+</ul>
+<br><b>Truss Guidelines</b>
+<ul>
+<li class="exhibitor11">Ground-supported, stand alone, whose sole purpose is overhead electrical is to be installed and removed by the electricians.
+<li>Suspended trusses with motorized hoists and non-dimmable and non-programmable lights are electrician's work.
+<li class="exhibitor11">Ground-supported in meeting rooms and the show floor when there are no electrical devices attached and when trusses are mixed purposes are teamster's work.
+<li>Suspended trusses with or without legs, that contains dimmable or programmable lighting, studio or motion picture lighting, sound system projectors, video wall, special effects equipment, and laser lighting is to be installed and removed by the stagehands.  If the above list of equipment is not present on the truss, then it is either teamster or electrician's work as stated above.
+<li class="exhibitor11">Meeting room ground-supported truss with stagehand's equipment is stagehand's responsibility.
+</ul>
+<br>This is a brief guide to common labor situations.  Contact the GES Exhibitor Service Center at (800) 475-2098 or via e-mail at <a href="mailto:servicenter@gesexpo.com">servicenter@gesexpo.com</a>, or TSE at (702) 450-4300 for additional guidance in unusual situations.
+
+</td></tr>
+<tr><td><img src="/global_images/spacer.gif" width="590" height="10" border="0"><br><a href="#">[back to top]</a></td></tr>
+
+<tr><a name="14"></a></tr>
+<tr><td><img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td><img src="/global_images/2.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td><img src="/global_images/spacer.gif" alt="" width="1" height="3" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td width="590"><span class="subhead">Fire and Safety Regulations</span></td></tr>
+<tr><td><img src="/global_images/spacer.gif" alt="" width="1" height="3" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td width="590">
+<ul>
+<li class="exhibitor11">Smoking is strictly <u>NOT</u> permitted in International CES show locations at any time. 
+<li>The Las Vegas Convention Center Security Staff is trained to handle emergency situations.  Their security office is operational 24 hours a day and becomes the communications center and command post in the event of an emergency.  All emergencies must be reported to the Las Vegas Convention Center first.  The 24-hour security number is (702) 892-7400.  A nurse is on standby during busy move-in, show and move out hours.  Security officers with EMT training are on duty during periods of heavy activity in the Las Vegas Convention Center.  Dialing 911 will delay the response by medical personnel who may not be able to find or get to the location of the emergency.  
+<li class="exhibitor11">Designated "NO FREIGHT" aisles must be maintained clear of crates and exhibit materials during move-in and move-out.  These aisles are required for emergency access throughout the hall and to expedite freight and empty crate moving.
+<li>All materials used in construction and decoration of an exhibit must be certified as flame retardant or a sample must be available for testing.  Materials that cannot be treated to meet the requirements may not be used.  
+<li class="exhibitor11">Flammable or combustible liquids are prohibited inside of buildings, except as approved by the LVCC Office of Fire and Safety.  Flammable thinners, solvents and paints, including aerosol cans, are strictly prohibited within the building.   Touch up spray painting is not permitted within any Las Vegas Convention Center exhibit hall.
+<li>Except for equipment that uses LVP (Liquid Propane Gas) or natural gas as fuel, compressed gas cylinders, including LFG and all flammable or combustible liquids are prohibited inside the building.   Questions or additional detail can be directed to LVCC Customer Account Manager, Barbara Alcaraz, at (702) 892-2924 phone or via email at <a href="mailto:balcaraz@lvcva.com">balcaraz@lvcva.com</a>.  
+<li class="exhibitor11">All hazardous materials brought into the facility must be accompanied by the applicable MSDS (Materials Safety Data Sheet) and must be produced upon request.  The exhibitor is responsible for the handling and removal of hazardous materials used in the operation of the show in accordance with the latest Environmental Protection Agency regulations in effect at the time of the event.  Arrangements must be made in advance for disposal.  Disposal of hazardous waste is prohibited in the sewer lines or drains of the facility.
+<li>Pyrotechnics within the general exhibit space by exhibiting companies is strictly prohibited by the Clark County Fire Department and the Las Vegas Convention Center.  According to the Clark County Fire Department, the 1997 Uniform Fire Code states that all procedures must be in accordance with Section 2505 when pertaining to general liquid-fueled and gas-fueled vehicles and equipment for display, competition and/or demonstration.
+</ul>
+</td></tr>
+<!--<tr><td><img src="/global_images/spacer.gif" width="590" height="10" border="0"><br><a href="#">[back to top]</a></td></tr>
+
+<tr><a name="15"></a></tr>
+<tr><td><img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td><img src="/global_images/2.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td><img src="/global_images/spacer.gif" alt="" width="1" height="3" hspace="0" vspace="0" border="0"></td></tr>
+--><tr><td width="590"><br><span class="black">Displays</span></td></tr>
+<tr><td><img src="/global_images/spacer.gif" alt="" width="1" height="3" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td width="590"><ul>
+<li class="exhibitor11">The use of the quartz halogen, stem-type, double-ended bulbs are not permitted at the Las Vegas Convention Center (LVCC).  The facility will permit the round halogen, sealed, screw-in type bulbs that are 75 watts or less.  If you need further information, call the LVCC Office of Fire-Safety at (702) 892-7400.  Additional information can also be found on page 24 of this manual. 
+<li>All exits and aisles must be kept clear and unobstructed.  No furniture, signs, easels or displays may protrude into aisles.
+<li class="exhibitor11">All fire hose racks, fire extinguishers and emergency exits must be visible and accessible at all times. This includes fire protection equipment located within exhibits.  
+<li>All exits and exit aisles/signs must be kept clear of crates and exhibitor material during move in and move out.  
+<li class="exhibitor11">Areas enclosed by solid walls and ceilings must be provided with approved smoke detectors which are audible outside of the area.
+<li>Hard walls must be a minimum of (9) inches from the booth line for access to electrical.
+<li class="exhibitor11">No storage of any kind is allowed behind booths or near electrical service.  Materials which are necessary to the exhibit (i.e.: hand outs) are limited to a one-day supply and must be stored neatly within the booth.  If not removed by show opening, GES will remove and store at the exhibitors expense.  
+<li>Areas enclosed by solid walls and ceilings must be provided with approved smoke detectors that are audible outside the area of the booth.  A fire watch may be required (See "Multi-Level or Covered Booths" on Page 8 for more detail).
+<li class="exhibitor11">All empty cartons or crates must be labeled and removed for storage or they will be removed as trash.  Crates or raw flammable materials are not to be used as exhibit supports.
+<li>Materials for handouts must be limited to a one-day supply and must be stored neatly within the booth.  All storage must be kept clear of electric cables or junction boxes.
+<li class="exhibitor11">Helium balloons are not allowed, unless approved by the LVCC Customer Account Manager, Barbara Alcaraz, at (702) 892-2924 phone or via email at <a href="mailto:balcaraz@lvcva.com">balcaraz@lvcva.com</a>.
+<li>Projection booths must be ventilated at the ceiling and provided with an approved smoke detector.  No storage is allowed in these areas.  
+<li class="exhibitor11">Model or Modular home displays must be reviewed in advance of move in with the Barbara Alcaraz, LVCC Customer Account Manager, who can be reached at (702) 892-2924 phone or via email at <a href="mailto:balcaraz@lvcva.com">balcaraz@lvcva.com</a>. 
+</ul>
+</td></tr>
+<!--<tr><td><img src="/global_images/spacer.gif" width="590" height="10" border="0"><br><a href="#">[back to top]</a></td></tr>
+
+<tr><a name="16"></a></tr>
+<tr><td><img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td><img src="/global_images/2.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td><img src="/global_images/spacer.gif" alt="" width="1" height="3" hspace="0" vspace="0" border="0"></td></tr>
+--><tr><td width="590"><br><span class="black">Vehicles On Display</span></td></tr>
+<tr><td><img src="/global_images/spacer.gif" alt="" width="1" height="3" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td width="590"><ul>
+<li class="exhibitor11">Fuel tank openings shall be locked or sealed to prevent escape of vapors and to avoid tampering.  
+<li>Fuel in fuel tanks shall not exceed 5 gallons or ¼ of tank capacity, whichever is less.  
+<li class="exhibitor11">Batteries must be disconnected.  Auxiliary batteries not connected to engine starting systems may be left connected.  
+<li>External charges or batteries are recommended for demonstration purposes.  
+<li class="exhibitor11">No battery charging is permitted inside the building.
+<li>Combustible materials must not be stored beneath display vehicles. 
+<li class="exhibitor11">A fire extinguisher must be present, visible and accessible at all times.
+<li>Vehicles in the building for unloading must not be left with engines idling.
+</ul>
+</td></tr>
+<!--<tr><td><img src="/global_images/spacer.gif" width="590" height="10" border="0"><br><a href="#">[back to top]</a></td></tr>
+
+<tr><a name="17"></a></tr>
+<tr><td><img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td><img src="/global_images/2.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td><img src="/global_images/spacer.gif" alt="" width="1" height="3" hspace="0" vspace="0" border="0"></td></tr>
+--><tr><td width="590"><br><span class="black">Electrical</span></td></tr>
+<tr><td><img src="/global_images/spacer.gif" alt="" width="1" height="3" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td width="590"><ul>
+<li class="exhibitor11">All 110-volt extension cords shall be grounded three-wire, #14 or larger AWG, copper wire.  Connectors must not be supported by cords.  
+<li>Cube tap adapters are prohibited.  Multi-plug adapters must be UL approved and have built-in overload protection.  
+<li class="exhibitor11">Electrical work under carpets must be done or supervised by GES Exposition Services electricians.  Round cords are not authorized under carpet.  All temporary wiring must be accessible and free from debris and storage materials.  
+</ul>
+</td></tr>
+<tr><td><img src="/global_images/spacer.gif" width="590" height="10" border="0"><br><a href="#">[back to top]</a></td></tr>
+
+<tr><a name="18"></a></tr>
+<tr><td><img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td><img src="/global_images/2.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td><img src="/global_images/spacer.gif" alt="" width="1" height="3" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td width="590"><span class="subhead">Booth Security and Fire Suppression</span></td></tr>
+<tr><td><img src="/global_images/spacer.gif" alt="" width="1" height="3" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td width="590"><ul>
+<li class="exhibitor11">Individual booth security must be provided for covered areas which exceed 300 sq. ft. in area.  Booth security is to have the capability to contact fire suppression personnel by radio or other acceptable audible means.
+<li>Booth security and fire suppression coverage is to commence with installation of upper deck or ceiling and continue during non-show hours, until the upper level or ceiling is removed.
+<li class="exhibitor11">Assigned fire suppression people must be trained and qualified in the use of fire extinguishers.  Security or fire watch contractor is responsible for verification or qualifications for fire suppression personnel. 
+<li>Fire suppression will be responsible for immediate notification by radio to in-house security of any problem giving them exact location and description of problem.  
+<li class="exhibitor11">Fire suppression may be assigned to multiple contiguous exhibits, based upon not more than one-minute response to any location involved.
+<li>Fire suppression personnel, prior to start of assignment, shall inspect location and condition of fire appliances and become familiar with the building, including locations of available exits.  
+<li class="exhibitor11">Cost and method of payment for fire suppression service is to be negotiated between the contractor supplying the service and the Exhibitor requiring such service.  
+</ul>
+<br>For questions or further information, contact the Security Department, Office of Fire Protection and Safety at (702) 892-7400.  
+<br><br>These regulations are based on the 1997 Uniform Building Code, Uniform Fire Code and the 1997 NFPA, National Fire Codes. The LVCVA will not be held responsible for any interpretation of for subsequent code changes.
+</td></tr>
+<tr><td><img src="/global_images/spacer.gif" width="590" height="10" border="0"><br><a href="#">[back to top]</a></td></tr>
+
+<tr><a name="19"></a></tr>
+<tr><td><img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td><img src="/global_images/2.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td><img src="/global_images/spacer.gif" alt="" width="1" height="3" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td width="590"><span class="subhead">Outdoor Individual Exhibit Regulations</span></td></tr>
+<tr><td><img src="/global_images/spacer.gif" alt="" width="1" height="3" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td width="590"><ul>
+<li class="exhibitor11">A permit is required from the Clark Country Fire Department (CCFD) in order to erect or operate an air supported temporary membrane structure or tent having an area in excess of 200 sq. ft. or a canopy in excess of 400 sq. ft.  A canopy is defined as a temporary structure, fabric or pliable material supported by any means except air of the contents it protects and is open without sidewalls on 75% or more of it's perimeter.  The current fee for a permit is $60, payable to CCFD.  
+<li>Temporary structures must meet County and State codes as they apply to temporary structures.
+<li class="exhibitor11">Move in for outdoor Gold and/or Silver Exhibits is targeted for 8:00 a.m. on Monday, January 5, 2004.
+<li>Upon arrival to the Gold and/or Silver Exhibits, your space will be marked out with cones or chalk according to the dimensions contracted.  
+<li class="exhibitor11">Booths that will have tents, pavilions, trailers or sprung structures must be on a 30' wide aisle.
+<li>Fire apparatus access points must have a minimum unobstructed vertical clearance of 13'6".
+<li class="exhibitor11">Installation and dismantling of tower cranes require a 300-foot clear zone.  It is recommend that tower cranes not be installed within 300' of Desert Inn Road and Paradise Road.
+<li>All vehicles must remain in place until the close of show.  No in or out privileges apply.
+<li class="exhibitor11">Any events taking place at your display before or after official show hours must be approved by the CES Operations Department.  If you are interested in holding an event in your booth before or after official show hours, please send your request to the CES Operations Department at <a href="mailto:CESops@ce.org">CESops@ce.org</a>. Official paperwork and details will be sent to you.    
+<li>Outdoor security is limited.  CES strongly recommends making your own arrangements for supplemental or overnight needs.  
+<li class="exhibitor11">A maximum noise level of 85 dB will be maintained in outdoor exhibits, a standard which is endorsed by the International Association of Exposition Mangers (IAEM).  For more detail on this rule, please refer to the <a href="default.asp?id=27#27">Sound Restrictions</a> section.
+<li>Any floating inflatable decorations must be lowered and secured every night due to strong wind conditions that frequently occur in Las Vegas.  
+<li class="exhibitor11">Dismantling of your display should follow the same schedule as noted in the <a href="/exhibitors/manual/installation_dismantling/default.asp">Installation & Dismantling</a> section.  
+<li>All rules and regulations found within this section and throughout the manual will also apply to outdoor exhibits. 
+</ul>
+</td></tr>
+<tr><td><img src="/global_images/spacer.gif" width="590" height="10" border="0"><br><a href="#">[back to top]</a></td></tr>
+
+<tr><a name="20"></a></tr>
+<tr><td><img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td><img src="/global_images/2.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td><img src="/global_images/spacer.gif" alt="" width="1" height="3" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td width="590"><span class="subhead">Las Vegas Hilton Suites Rules and Regulations</span></td></tr>
+<tr><td><img src="/global_images/spacer.gif" alt="" width="1" height="3" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td width="590">Exhibitors in suites at the Las Vegas Hilton should adhere to all rules and regulations included as an addendum to your exhibit contract.  
+<br><br>It is understood that exhibit suites are to be used for small meetings or as hospitality suites.  <strong>Absolutely no exhibits may be constructed or installed.</strong>  Any exhibits found by Las Vegas Hilton staff will be immediately shut down.  The suite holder shall assume full responsibility for any damages incurred.  
+<br><br>Please note the following policies and information:
+<ul>
+<li class="exhibitor11"><b>Food and Beverage:</b> All Food & Beverage requirements must be arranged through the Las Vegas Hilton Room Service Department.  Contact the Room Service Manager at (702) 732-5246 to assist you with all your hospitality arrangements, menu planning and provide any additional information.
+<li><b>Suite Furnishings:</b>  The hotel is unable to remove or dismantle any furniture in guest rooms or suites.  Exhibits/displays are not permitted in guest rooms or suites.
+<li class="exhibitor11"><b>Check-In:</b>  Hospitality Suites can be registered with the Front Desk Clerk upon check-in.  Although CES will have collected payment for your suite ahead of time, a credit card will be needed upon check-in to cover incidentals such as food service, movies, telephone, valet, etc.  While space is limited, the hotel will gladly post your hospitality information on channel 25 of each guest room television.  Please note that suites utilized for hospitality functions will not be listed on the Convention Function Monitor.  The hospitality suite will be listed with the Mail & Information Desk and the Hotel Operator.  Additionally, your suite/function will be listed on show signage in the Hilton exhibit area and in the CES Directory/Guide.
+<li><b>Electrical Usage:</b>  For your safety, electrical usage over and above the standard guest room outlets is not available.  Each guest room has two standard 110 volt 20 amp outlets.
+<li class="exhibitor11"><b>Shipments:</b>  Freight, boxes or crates of equipment will not be allowed on the guest room floors.  Suites/guest rooms are not to be utilized for exhibiting machinery or products. The Las Vegas Hilton does not have freight elevators accessible to suites or guest rooms.
+IMPORTANT:  Should you need to send small boxes of materials directly to the hotel, they will be delivered to the Business Center and additional material handling charges will apply.  Questions regarding rates, material handling charges and delivery procedures can be directed to the Business Center at (702) 732-5052.
+<li><b>Audio Visual Equipment:</b>  The in-house Audio Visual Department can provide you with VCR/monitors, LCD projectors, flip charts, etc.  Call (702) 732-5644 for all your audio visual needs.  A rental price list is available upon request.  Please note that outside audio visual companies are strictly prohibited.  If you require additional equipment or items in your suite, please contact the Guest Services Representative, at (702) 732-5701 or fax (702) 732-5167.  The Guest Services in-house extension is #88.  Requests for additional equipment are subject to labor and rental fees.
+<li class="exhibitor11"><b>Signage:</b>  Due to local fire codes and hotel policy, easels/signage are not permitted in the casino, hotel lobby or sleeping room hallways.  Any easels or signage found in these restricted areas will be removed immediately by hotel security.
+Unless otherwise requested, CES will be promoting your suite with signage at both the North and Central elevator banks (lobby level), as well as on the Hilton show floor. 
+<li><b>Telephone:</b>  The hotel can assist you with telecommunication requests (i.e. speaker phones, fax or modem lines).  Contact the Telecommunication Department at (702) 732-5328 to coordinate and handle all your requirements.  All telecommunication requests will be subject to additional charges.
+<li class="exhibitor11"><b>Room Deliveries:</b> The Front Services Department can coordinate all requested room deliveries. Prior written approval from your Association/Show Management is required. Please contact Renee Dodson at (702) 732-5075 to answer any questions and provide additional information for room deliveries.  The current per item delivery charges are:  $2.00/Inside the room; $1.25/Outside the room	
+<li><b>Billing:</b>  The Las Vegas Hilton will help you coordinate and establish all your billing arrangements for hotel services. Although CES will have collected payment for your suite ahead of time, a credit card will be needed upon check-in to cover incidentals. All requests for direct billing or Master Account must be submitted to the Credit Department 30 days prior to your function.  Please call the Accounting Department at (702) 732-5016 or fax (702) 732-5329, your request for direct billing or any related questions.
+</ul>
+<br>Please note that all requests for signage, advertising and distributions on property must be submitted in advance to the Las Vegas Hilton for approval. Unauthorized signage, advertising and distributions will be promptly removed and discarded.
+<br><br>If you have any additional questions or concerns on the information listed above, contact the Las Vegas Hilton Meetings and Conventions Department at (702) 732-5391.  
+
+</td></tr>
+<tr><td><img src="/global_images/spacer.gif" width="590" height="10" border="0"><br><a href="#">[back to top]</a></td></tr>
+
+<tr><a name="21"></a></tr>
+<tr><td><img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td><img src="/global_images/2.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td><img src="/global_images/spacer.gif" alt="" width="1" height="3" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td width="590"><span class="subhead">Cash and Carry Prohibited</span></td></tr>
+<tr><td><img src="/global_images/spacer.gif" alt="" width="1" height="3" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td width="590">
+<ul><strong>
+<li>International CES policy prohibits over-the-counter sales (i.e.: cash, check, or credit card).
+<li>Only bona fide business orders for future delivery are permitted.
+<li>International CES reserves the right to close down booths in violation of this regulation.
+</strong></ul> 
+<br>International CES Staff and Floor Managers, representatives from the Clark County Business License office will be walking the show floors on show days looking for exhibitors violating this policy.   Should any exhibitors be found in violation of this policy, International CES will take the following actions:
+<br><br><b>FIRST WARNING:</b>    	
+<ul><li>Violating exhibitor will be given a written notification of the warning. 
+<li>Booth power may be turned off for one hour.
+</ul><br><b>SECOND WARNING:</b> <ul> 		
+<li>Booth power may be turned off for one day.
+</ul><br>
+<b>THIRD WARNING (FINAL):</b>  	
+<ul><li>Booth power may be turned off for remainder of show.  
+<li>Up to five (5) priority points will be deducted from the exhibitor. 
+</ul>
+<br>Please be sure to share this information with those staffing your booth on-site.  We appreciate your attention to the serious nature of this policy, and ask all exhibitors to adhere to this important regulation.   
+</td></tr>
+<tr><td><img src="/global_images/spacer.gif" width="590" height="10" border="0"><br><a href="#">[back to top]</a></td></tr>
+
+<tr><a name="22"></a></tr>
+<tr><td><img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td><img src="/global_images/2.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td><img src="/global_images/spacer.gif" alt="" width="1" height="3" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td width="590"><span class="subhead">Good Neighbor Policy</span></td></tr>
+<tr><td><img src="/global_images/spacer.gif" alt="" width="1" height="3" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td width="590">Any exhibitor using audio or video content in their booth for the purpose of demonstrating equipment or otherwise hereby agrees that such content shall be appropriate for a general audience, and agrees to refrain from using content that may be considered offensive to such an audience.  
+<br><br>In the event of a complaint from any person regarding the content used by an exhibitor, CEA will investigate and if, in the sole discretion of CEA, such content is determined to be offensive, exhibitor agrees to cease using such content.  In the event the exhibitor refuses CEA's request, or a subsequent complaint is filed against the same exhibitor, CEA reserves the right to shut off the power to exhibitor's booth until the exhibitor complies with CEA's request.  Repeated violations of this policy can, at CEA's discretion, result in expulsion from the Show.</td></tr>
+<tr><td><img src="/global_images/spacer.gif" width="590" height="10" border="0"><br><a href="#">[back to top]</a></td></tr>
+
+<tr><a name="23"></a></tr>
+<tr><td><img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td><img src="/global_images/2.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td><img src="/global_images/spacer.gif" alt="" width="1" height="3" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td width="590"><span class="subhead">Product Demonstrations</span></td></tr>
+<tr><td><img src="/global_images/spacer.gif" alt="" width="1" height="3" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td width="590">Product demonstrations are permitted.   Please abide by the following regulations: 
+<ul><li class="exhibitor11"><b>New This Year!</b> A maximum noise level of 85 dB will be maintained on the exhibit floor, a standard which is endorsed by the International Association of Exposition Managers (IAEM).
+<li>In booths 10' deep, the demonstration must be set back a minimum of 3' into the booth.  For booths greater than 10' in depth, the demonstration must be set back a minimum of 10'.  This allows room for the viewing attendees to be contained within the booth limits.
+<li class="exhibitor11">International CES has instituted a "No Tolerance" policy.  Demonstrations found to be objectionable due to noise level or vibration level (dB or SPL) or blocking traffic flow may be closed down at the discretion of Show Management.
+<li>Exhibitors shall be responsible for supervising the actions of all visitors and employees operating display equipment in their area.
+<li class="exhibitor11">All product demonstrations must be contained wholly within the purchased exhibit space.
+</ul>
+</td></tr>
+<tr><td><img src="/global_images/spacer.gif" width="590" height="10" border="0"><br><a href="#">[back to top]</a></td></tr>
+
+<tr><a name="24"></a></tr>
+<tr><td><img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td><img src="/global_images/2.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td><img src="/global_images/spacer.gif" alt="" width="1" height="3" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td width="590"><span class="subhead">Booth Activity / Crowd Control</span></td></tr>
+<tr><td><img src="/global_images/spacer.gif" alt="" width="1" height="3" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td width="590">As a matter of safety and courtesy to others, booth demonstrations must be confined within the exhibit space so as not to interfere with traffic flow in the show aisles or encroach into neighboring exhibits.  Booth activity includes sales presentations, product demonstrations, entertainment, celebrity appearances, etc.  Exhibitors must contract sufficient space in order to comply with this rule.
+<br><br>If you are planning any type of booth activity for which you anticipate the gathering of a large crowd, you are responsible to assign booth personnel and/or hire security guards to manage crowd control and keep the aisles and neighboring exhibits clear.  Show management reserves the right to determine whether excessive crowds are in violation of this rule, and if so, will hire security to manage crowd control at the exhibitor's expense.
+</td></tr>
+<tr><td><img src="/global_images/spacer.gif" width="590" height="10" border="0"><br><a href="#">[back to top]</a></td></tr>
+
+<tr><a name="25"></a></tr>
+<tr><td><img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td><img src="/global_images/2.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td><img src="/global_images/spacer.gif" alt="" width="1" height="3" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td width="590"><span class="subhead">Performance of Music</span></td></tr>
+<tr><td><img src="/global_images/spacer.gif" alt="" width="1" height="3" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td width="590">If any copyrighted music is to be played at your display, you must obtain the necessary licenses from the copyright owner or licensing agency representing the copyright owner.  
+<br><br>The licensing requirements include the playing of all live as well as recorded music (compact disks, records, tapes, etc) and also include music, whether it is the essence of the presentation or is only used as background, on a video tape or presentation.  
+<br><br>The proper license must be posted in your booth and available for inspection at the request of Show Management or properly authorized agents of the American Society of Composers, Authors and Publishers (ASCAP) or Broadcast Music, Inc. (BMI).  
+<br><br>We advise you contact these agencies as listed below to acquire proper licenses:<br><br>
+<table width="70% cellpadding="0" cellspacing="0" align="center">
+<tr align="center"><td  class="exhibitor11" width="40%"><strong>ASCAP General Licensing</strong></td><td width="5"></td><td class="exhibitor11" width="55%"><strong>BMI General Licensing</strong></td></tr>                                                                                
+<tr align="center"><td class="exhibitor11">phone: (800) 505-4052</td><td></td><td class="exhibitor11">phone: (800) 925-8451 or (615) 401-2000</td></tr>
+<tr align="center"><td class="exhibitor11">Or visit: <a href="http://www.ascap.com" target="new">www.ascap.com</a></td><td></td><td class="exhibitor11">Or visit: <a href="http://www.bmi.com" target="new">www.bmi.com</a></td></tr>
+</table>
+<br>Adherence to these federally mandated copyright licensing laws is of critical importance.  Please take a few minutes to ensure a hassle-free event by acquiring the proper licenses.  If you encounter any difficulty with either ASCAP or BMI in your attempt to obtain a license, please contact us immediately. 
+</td></tr>
+<tr><td><img src="/global_images/spacer.gif" width="590" height="10" border="0"><br><a href="#">[back to top]</a></td></tr>
+
+<tr><a name="26"></a></tr>
+<tr><td><img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td><img src="/global_images/2.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td><img src="/global_images/spacer.gif" alt="" width="1" height="3" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td width="590"><span class="subhead">FCC Requirements</span></td></tr>
+<tr><td><img src="/global_images/spacer.gif" alt="" width="1" height="3" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td width="590">Most electronic equipment that uses radio frequency energy, must meet Federal Communications Commission (FCC) regulations limiting such emissions and must receive a grant of the appropriate equipment authorization from the FCC prior to being manufactured, imported or marketed.  Equipment requiring such an authorization, which is displayed at the 2004 International CES, must either have already received the necessary FCC authorization or must be accompanied by the following notice conspicuously displayed: 
+<br><br>
+<table width="90% cellpadding="0" cellspacing="0" align="center">
+<tr><td class="exhibitor11">"This device has not been approved by the Federal Communications Commission.  This device is not, and may not be, offered for sale or lease, or sold or leased until the approval of the FCC has been obtained."</td></tr>                                                                                
+</table>
+<br>Radio frequency devices that could not be granted an equipment authorization or operated legally, may not be advertised, displayed or sold.  Failure to follow these guidelines, as well as other appropriate FCC rules, is a violation of federal law (47 U.S.C. Section 302(b)).  It is anticipated that FCC investigators will attend the 2004 International CES looking for such violations.	
+<br><br>For further information regarding the types of equipment that require FCC authorization, see the FCC Rules at 47CFR Section 2.803, or contact the FCC Laboratory headquarters at (301) 362-3041. 
+</td></tr>
+<tr><td><img src="/global_images/spacer.gif" width="590" height="10" border="0"><br><a href="#">[back to top]</a></td></tr>
+
+<tr><a name="27"></a></tr>
+<tr><td><img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td><img src="/global_images/2.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td><img src="/global_images/spacer.gif" alt="" width="1" height="3" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td width="590"><span class="subhead">Sound Restrictions</span></td></tr>
+<tr><td><img src="/global_images/spacer.gif" alt="" width="1" height="3" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td width="590"><b>New This Year!</b>  A maximum noise level of 85 dB will be maintained on the exhibit floor, a standard which is endorsed by the International Association of Exposition Managers (IAEM). 
+<br><br>The International CES noise abatement policy is as follows:<ul>
+<li class="exhibitor11">Exhibitors demonstrating audio equipment in an open display should use a sound chamber or acoustically contained area to keep the sound level from intruding on any adjacent exhibits.  Loudspeakers of any kind must be directed toward the interior of the demonstrator's exhibit space. Speakers may not face aisles or other exhibitors' booths.
+<li>When demonstrating audio equipment within an enclosed demonstration room, position subwoofers away from walls that abut neighboring exhibitors.  Sonic vibration and SPL nuisance complaints will be acted upon by Show Management; if situations are not rectified by the offending party, Show Management reserves the right to shut down exhibits.
+<li class="exhibitor11">While demonstrating audio equipment contained in a vehicle on display in the exhibit area, the vehicle's doors and windows must be closed.
+<li>Demonstrations found to be objectionable due to noise or sound pressure/vibration level will be closed down.  
+<li class="exhibitor11">Exhibitors shall be responsible for supervising the actions of employees, visitors or spectators testing display equipment located in their exhibit area.  Exhibitors must make every effort to respond to neighboring exhibitors' complaints concerning noise, sound and/or vibration nuisances.  
+</ul>
+<br>Show Management will intervene if necessary, and reserves the right to shut down exhibits deemed objectionable.  Floor managers in each show location will rove through the exhibit areas monitoring the decibel level during show hours.  Measurements will be taken at a distance no greater than 10' from the offending display.  
+<br><br>These procedures will be strictly enforced as follows:
+<br><br><b>FIRST WARNING:</b>  
+<ul><li>After measuring the continuous emission of a decibel level of greater than 85 dB, following a complaint being registered by either a spectator, a neighboring exhibitor or personal observation by a roving designate, the exhibitor shall be issued a written warning indicating a violation has occurred and instructing the exhibitor to immediately turn down the volume.</ul>
+<br><b>SECOND WARNING: </b> 
+<ul><li>After measuring the continuous emission of a decibel level of greater than 85 dB, following a second complaint being registered by either a spectator, a neighboring exhibitor or personal observation by a roving designate, the exhibit's power source shall be shut off for a maximum of one (1) hour.  This shall be from both the electrical receptacle and the vehicle(s) power supply/battery, if applicable.</ul>
+<br><b>THIRD WARNING (FINAL):</b>  
+<ul><li>After measuring the continuous emission of a decibel level of greater than 85 dB following notification of a third complaint being registered by either a spectator, a neighboring exhibitor or personal observation by a roving designate, the exhibit's power source shall be shut off for the remainder of the show.  There will be no refund, in whole or in part, of any exhibit fees.</ul>
+</ul>
+</td></tr>
+<tr><td><img src="/global_images/spacer.gif" width="590" height="10" border="0"><br><a href="#">[back to top]</a></td></tr>
+
+<tr><a name="28"></a></tr>
+<tr><td><img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td><img src="/global_images/2.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td><img src="/global_images/spacer.gif" alt="" width="1" height="3" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td width="590"><span class="subhead">Lighting Restrictions</span></td></tr>
+<tr><td><img src="/global_images/spacer.gif" alt="" width="1" height="3" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td width="590">
+<ul><li class="exhibitor11">Due to weight and power restrictions, truss lighting is limited in some exhibit areas.
+<li>Neon is acceptable so long as it is in accordance with local neon regulations.
+<li class="exhibitor11">Small flashing-chaser lights are permitted in a booth to a maximum height of 8'.
+<li>Strobe, rotating and garish neon lighting are not permitted.
+<li class="exhibitor11">Lighting should be directed to the inner confines of the booth space and not project onto other exhibits or show aisles.
+</ul>
+<br><b>LVCC Halogen Lighting Policy</b>
+<br>In a move to ensure the safety of building customers at the Las Vegas Convention Center, the building has placed a ban on certain halogen lamps. Halogen lamps are limited to 75 watts and must be of the sealed variety, which prevents direct handling of the bulb. The ban became effective January 1, 2003. 
+<br><br>The following statement was issued jointly by the LVCC and the Exhibit Designers and Producers Association in order to clarify all prior communications concerning the use of halogen lighting at LVCC facilities. This revision replaces the halogen lighting policy statement issued by the LVCC on August 1, 2002. 
+<br><br><b>Why is the LVCC Restricting the Use of Halogen Lighting?</b> 
+<br>The LVCC has experienced several fire safety incidents arising from the use of stem mounted halogen light fixtures attached to exhibit booths that utilize linear quartz bulbs. Typically these hazards arise from misuse and poor maintenance practices, rather than from any deficiency in the design of the fixture or the halogen bulb it contains. 
+<br><br>Misuse encountered by the LVCC has included failure to correctly install the fixtures in a secure fashion and failure to ensure that fixtures are not in close proximity to drapes, displayed items, or similar flammable material. 
+<br><br>Poor maintenance includes replacing bulbs with higher wattages than the permitted maximum marked on the fixture, failure to replace lenses or shields after re-lamping, failure to follow manufacturers handling procedures, i.e., no direct bodily contact with bulbs or cleaning of bulb with a recommended agent if incidental contact has occurred, and replacement of broken lenses and other components with sub-standard, non- approved, parts. These practices are not within the ability of LVCC or the equipment manufacturer/distributor to supervise, and may result in safety risks. 
+<br><br><b>What Halogen Lighting is Covered by this Policy? </b>
+<br>This policy covers only certain restrictions on stem mounted halogen lighting installed by display contractors and exhibitors for the temporary lighting of exhibit booths. Stem mounted fixtures employ an arm that extends outward from the mounting mechanism, and which is typically terminated in a light head that pivots, swivels, or is otherwise movable. The use of any stem mounted halogen or other fixtures employing either a linear quartz bulb or a non-shielded halogen bulb is not allowed. 
+<br><b>What Halogen Lighting is NOT Covered by this Policy? </b>
+<br>Halogen bulbs, or lighting fixtures containing halogen bulbs, that are being displayed or demonstrated as part of an exhibiting company's product line or business in its booth, and any theater, stage, or studio lighting equipment utilizing halogen bulbs, are not covered by this policy.  In addition, conventional track lighting systems that use any of the approved types of halogen bulbs and that are securely mounted to stable exhibit structures will continue to be allowed. 
+<br><br><b>How do the Restrictions Affect Stem Mounted Halogen Light Fixtures?</b> 
+<br>Unless otherwise stated in this policy, stem mounted halogen light fixtures installed in LVCC facilities must: 
+<ul>
+<li>Utilize a halogen bulb that has an additional glass shield and requires no other shield as part of the light fixture. 
+<li>Utilize a bulb not exceeding the listed wattage permitted for use by the fixture manufacturer, up to a maximum of 75 watts. 
+</ul>
+<br><b>Alternative Lighting Designs</b> 
+<br>The LVCC will periodically review this policy, and take into consideration any improvements in products and practices that provide appropriate levels of operational safety. 
+<br><br><b>Important:</b>  The use of the quartz halogen, stem-type, double ended bulbs are no longer permitted at the Las Vegas Convention Center (LVCC).  The facility will permit the round halogen, sealed, screw-in type bulbs that are 75 watts or less.  
+<br><br>If you need further information, please contact the LVCC Office of Fire-Safety at (702) 892-7400.
+</td></tr>
+<tr><td><img src="/global_images/spacer.gif" width="590" height="10" border="0"><br><a href="#">[back to top]</a></td></tr>
+
+<tr><a name="29"></a></tr>
+<tr><td><img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td><img src="/global_images/2.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td><img src="/global_images/spacer.gif" alt="" width="1" height="3" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td width="590"><span class="subhead">Photography Regulations</span></td></tr>
+<tr><td><img src="/global_images/spacer.gif" alt="" width="1" height="3" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td width="590">The International CES will allow cameras on the show floor. However, media are required to obtain passes/stickers for their camera equipment.  Exhibitors and attendees may take pictures within the show for purposes of company or annual reports, company media pieces, marketing materials, etc.  Under no circumstances will anyone be permitted to take pictures of an exhibitor's product without permission of the exhibitor.  Many products on display at CES are innovative, one-of-a-kind or prototype items.  Exhibitors have the right to report to security any instance of inappropriate photographing of company products or displays.
+</td></tr>
+<tr><td><img src="/global_images/spacer.gif" width="590" height="10" border="0"><br><a href="#">[back to top]</a></td></tr>
+
+<tr><a name="30"></a></tr>
+<tr><td><img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td><img src="/global_images/2.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td><img src="/global_images/spacer.gif" alt="" width="1" height="3" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td width="590"><span class="subhead">Age Restrictions To Exhibit Hall</span></td></tr>
+<tr><td><img src="/global_images/spacer.gif" alt="" width="1" height="3" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td width="590">No one under the age of 16 is permitted in the exhibit hall at any time without signing a liability waiver and obtaining a child wristband for $25.00 per day, from the registration area.
+</td></tr>
+<tr><td><img src="/global_images/spacer.gif" width="590" height="10" border="0"><br><a href="#">[back to top]</a></td></tr>
+
+<tr><a name="31"></a></tr>
+<tr><td><img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td><img src="/global_images/2.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td><img src="/global_images/spacer.gif" alt="" width="1" height="3" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td width="590"><span class="subhead">Equipment/Product Removal Pass</span></td></tr>
+<tr><td><img src="/global_images/spacer.gif" alt="" width="1" height="3" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td width="590"><strong>Product may be removed from the exhibit floor with a merchandise pass beginning one hour before show closing.</strong>  A maximum of five merchandise passes are available only to exhibitors who present the proper exhibitor credentials and personal identification.  Merchandise passes are available at International CES Floor Manager counters located throughout the exhibit halls.
+<br><br>Only exhibitors, manufacturers and manufacturers' representatives will be permitted to remove merchandise from the show location with the proper pass.
+<br><br>If you are leaving your display with a local retailer, it should be shipped out as freight or hand carried after the close of the show on Sunday, January 11 at 4:00 p.m.
+</td></tr>
+<tr><td><img src="/global_images/spacer.gif" width="590" height="10" border="0"><br><a href="#">[back to top]</a></td></tr>
+
+<tr><a name="32"></a></tr>
+<tr><td><img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td><img src="/global_images/2.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td><img src="/global_images/spacer.gif" alt="" width="1" height="3" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td width="590"><span class="subhead">Late Work Permits</span></td></tr>
+<tr><td><img src="/global_images/spacer.gif" alt="" width="1" height="3" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td width="590">Installation and dismantle hours are from 7:30 a.m. - 7:00 p.m.  Should you require access to the exhibit hall outside these hours, you must obtain prior approval and Late Work Permits from the Floor Manager in the appropriate show location by 2:30 p.m. the day the late work is to occur, and every late-work day thereafter.
+<br><br>
+<strong>NOTE: Except for late move-in (January 7) exhibitors, exhibit set-up must be complete by 3:00 p.m. on January 6.  No exceptions will be allowed.</strong>
+</td></tr>
+<tr><td><img src="/global_images/spacer.gif" width="590" height="10" border="0"><br><a href="#">[back to top]</a></td></tr>
+
+<tr><a name="33"></a></tr>
+<tr><td><img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td><img src="/global_images/2.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td><img src="/global_images/spacer.gif" alt="" width="1" height="3" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td width="590"><span class="subhead">Food & Beverages</span></td></tr>
+<tr><td><img src="/global_images/spacer.gif" alt="" width="1" height="3" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td width="590">The Las Vegas Convention Center and Las Vegas Hilton have catering services that must be used for all in-house food and beverage; this includes water bottles and food items with your company name or other logo.  <strong>Exclusive contracts prohibit food and beverage from being supplied by an outside vendor.</strong>
+<br><br>Exhibitors planning to distribute food items from their booth (other than candy, fortune cookies, etc.) must have prior approval from both Show Management and the catering service at their show location.  Please contact the appropriate show location via the Official Contractor Listing found in the <a href="/exhibitors/manual/show_info/default.asp?id=3#3">General Show Information</a> section. 
+</td></tr>
+<tr><td><img src="/global_images/spacer.gif" width="590" height="10" border="0"><br><a href="#">[back to top]</a></td></tr>
+
+<tr><a name="34"></a></tr>
+<tr><td><img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td><img src="/global_images/2.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td><img src="/global_images/spacer.gif" alt="" width="1" height="3" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td width="590"><span class="subhead">Raffles / Games Of Chance</span></td></tr>
+<tr><td><img src="/global_images/spacer.gif" alt="" width="1" height="3" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td width="590"><strong>Raffles ARE allowed within your booth.</strong>  However, Nevada state law prohibits them if money is involved. Exhibitors considering a raffle, game of chance or the use of a slot machine in their booth should contact the Nevada Gaming Control Board at (702) 486-2000.
+</td></tr>
+<tr><td><img src="/global_images/spacer.gif" width="590" height="10" border="0"><br><a href="#">[back to top]</a></td></tr>
+
+<tr><a name="35"></a></tr>
+<tr><td><img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td><img src="/global_images/2.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td><img src="/global_images/spacer.gif" alt="" width="1" height="3" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td width="590"><span class="subhead">Literature Disbursements, Giveaways, Surveys</span></td></tr>
+<tr><td><img src="/global_images/spacer.gif" alt="" width="1" height="3" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td width="590">Literature, samples and giveaways must be disbursed from within your booth.  Surveys may not be conducted outside of your booth.  Corporate greeter sponsorships are available; call Liz Tardif with International CES Sponsorship Opportunities at (610) 461-1200.  
+<br><br><strong>No "stick-on" decals</strong> or other similar adhesive backed promotional items may be distributed or used in the exhibit facilities.
+<br><br><strong>No balloons of any kind may be used for giveaway.</strong>  Any damage to the show locations caused by such unauthorized giveaways will be paid for by the party responsible.
+</td></tr>
+<tr><td><img src="/global_images/spacer.gif" width="590" height="10" border="0"><br><a href="#">[back to top]</a></td></tr>
+
+<tr><a name="36"></a></tr>
+<tr><td><img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td><img src="/global_images/2.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td><img src="/global_images/spacer.gif" alt="" width="1" height="3" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td width="590"><span class="subhead">Americans With Disabilities Act</span></td></tr>
+<tr><td><img src="/global_images/spacer.gif" alt="" width="1" height="3" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td width="590">Exhibitors acknowledge their responsibility under the "Americans With Disabilities Act" (ADA) to make their booth accessible to handicapped persons.  Exhibitors shall indemnify and hold harmless CEA, International CES, and the show locations against cost, expense, liability or damage which may be incident to, arise out of or be caused by Exhibitor's failure to have their booth comply with requirements under the ADA.
+<br><br>Information and arrangements for transportation can be made by contacting International CES at (703) 907-7600 or on-site by contacting any one of the information/message centers.
+</td></tr>
+<tr><td><img src="/global_images/spacer.gif" width="590" height="10" border="0"><br><a href="#">[back to top]</a></td></tr>
+
+</table>
+<!-- /text for main page -->
+</div>
+	
+
+			<br>
+			<br>
+			<br>
+		</span>
+		</td>
+	    <td width="10" background="/global_images/spacer.gif" class="exhibitor7">&nbsp;</td>
+			
+		</tr>
+<!-- /main body row -->	
+<!-- footer row -->
+	<tr>
+	    <td width="10"></td>
+	    <td width="140"></td>
+	    <td width="10"></td>
+	    <td width="610" colspan=6><img src="/global_images/2.0/2.0.page_bottom1.gif" alt="" width="610" hspace="0" vspace="0" border="0"></td>
+	</tr>
+	<tr>
+	    <td width="10"></td>
+	    <td width="140"></td>
+	    <td width="10"></td>
+	    <td width="10" class="footer"><img src="/global_images/footer_left.gif" alt="(" width="10" height="30" hspace="0" vspace="0" border="0"></td>
+	    <td width="380" background="/global_images/footer_bg.gif" class="footer"><span class="nav_footer"><a href="/about_ces/">About CES</a> | <a href="/faqs/">FAQs</a> | <a href="/contact_us/">Contact Us</a> | <a href="/site_map.asp">Site Map</a> | <a href="/privacy_policy.asp">Privacy Policy</a></span></td>
+	    <td width="210" colspan="3" align="right" background="/global_images/footer_bg.gif" class="footer"><span class="nav_footer"> &#169; 2004 CEA, All rights reserved</span></td>
+	    <td width="10" class="footer"><img src="/global_images/footer_right.gif" alt=")" width="10" height="30" hspace="0" vspace="0" border="0"></td>
+	</tr>
+<!-- /footer row -->			 		 	 	 
+	</table>
+	<img src="/global_images/spacer.gif" alt="" width="1" height="20" hspace="0" vspace="0" border="0"">
+<!-- /main table for site -->	
+
+
+</td>
+<td width="49%" valign="top" background="/global_images/exhibitor_bg.gif">&nbsp;</td>
+</tr>
+</table>
+
+
+</body>
+</html>
