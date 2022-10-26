@@ -1,0 +1,59 @@
+
+
+<SCRIPT language="javascript1.2">
+function newWin(urlString,pgNum)
+  {
+    var popupWindow;
+	urlString += "?pageID=" + pgNum;
+	
+    popupWindow = window.open(urlString,"","toolbar=yes,menubar=no,resizable=no,status=no,scrollbars=yes,location=no,directories=no,copyhistory=no,height=550,width=610,left=50,top=50");
+  }//  function for opening a new pop-up window for printing a page
+  
+ 
+function openNewWindow(strURL) {
+	window.name = "main";
+	
+	var newWindow = window.open(strURL,"newWindow", "toolbar=no,menubar=no,resizable=no,status=no,scrollbars=yes,location=no,directories=no,copyhistory=no,height=400,width=450,left=50,top=50");
+} //  function for opening a new pop-up window
+
+// javascript for e-mail this page tool - gets the url of the page the user is on before the e-mail page tool button is clicked
+	
+	function loadReferrer() {
+		referrerString = opener.document.location.href;
+		document.emailForm.page.value = referrerString;
+	}
+
+</SCRIPT>
+
+
+<div>	
+<!-- text for main page -->
+<table width='100%' border='0' cellspacing='2' cellpadding='2'>
+<tr><td width='25%'><img src='/shared_files/logos/rad2CF46.jpg' alt='Belkin Corp.' align='left' width='100'></td>
+<td width='75%'><img src='/shared_files/prod_images/radBFF11.gif' alt='802.11g Wireless 2-Port Print Server' align='center' width='100'></td></tr>
+<tr><td colspan='2' height='20'></td></tr>
+<tr><td class='rowlabel'>Product Name:&nbsp;</td>
+<td><strong>802.11g Wireless 2-Port Print Server</strong></td></tr>
+<tr><td class='rowlabel'>Exhibitor:&nbsp;</td>
+<td><a href="?exhibid=4918&">Belkin Corp.</a></td></tr>
+<tr><td class='rowlabel'>Product Contact:&nbsp;</td>
+<td>Melody Chalaban</td></tr>
+<tr><td class='rowlabel'>Contact E-mail:&nbsp;</td>
+<td><a href='mailto:melodych@belkin.com'>melodych@belkin.com</a></td></tr>
+<tr><td class='rowlabel'>On-Site Contact:&nbsp;</td>
+<td>Melody Chalaban</td></tr>
+<tr><td class='rowlabel'>Product Category:&nbsp;</td>
+<td>WiFi - Other WiFi</td></tr>
+<tr><td class='rowlabel'>Product Description:&nbsp;</td>
+<td>The Belkin 802.11g Wireless 2-Port Print Server lets you easily add two USB printers to your wireless, or wired network. Easy to install, it includes a memory buffer that handles your graphics jobs effortlessly. Simply place your printers anywhere within your 10/100Base-T Ethernet network and within a 1500-foot maximum range of your wireless devices, install your drivers, and you are now free to print wirelessly from around the home or office.
+
+Compatible with virtually all USB, network-ready printers, and major operating systems, the Belkin 802.11g Wireless 2-Port Print Server delivers even your most data-intensive print jobs with maximum speed and reliability.
+</td></tr>
+<tr><td colspan=6><img src='/global_images2005/spacer.gif' width='1' height='10'><br>
+<img src='/global_images2005//.line.gif' alt='-----------------------------------------------' width='580' height='2'></td></tr>
+<tr><td class='rowlabel'>Company Booth(s):&nbsp;</td>
+<td><table cellspacing='0' cellpadding='0' width='100%' border='0'><tr><td><b>Booth Number</b></td><td><b>Show Location</b></td><td>&nbsp;</td></tr><tr><td height='20'><font class='formPreFilled'>&nbsp;30847</font></td><td><font class='formPreFilled'>LVCC SO 3</font></td></tr><tr><td height='20'><font class='formPreFilled'>&nbsp;7821</font></td><td><font class='formPreFilled'>LVCC CEN</font></td></tr><tr><td height='20'><font class='formPreFilled'>&nbsp;H2903</font></td><td><font class='formPreFilled'>Hilton Suites</font></td></tr><tr><td height='20'><font class='formPreFilled'>&nbsp;H2906</font></td><td><font class='formPreFilled'>Hilton Suites</font></td></tr><tr><td height='20'><font class='formPreFilled'>&nbsp;H2962</font></td><td><font class='formPreFilled'>Hilton Suites</font></td></tr></table></td></tr>
+</table><br>[<a href="">perform another search</a>]
+<!-- /text for main page -->
+</div>
+

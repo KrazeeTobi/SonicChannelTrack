@@ -1,0 +1,60 @@
+
+
+<SCRIPT language="javascript1.2">
+function newWin(urlString,pgNum)
+  {
+    var popupWindow;
+	urlString += "?pageID=" + pgNum;
+	
+    popupWindow = window.open(urlString,"","toolbar=yes,menubar=no,resizable=no,status=no,scrollbars=yes,location=no,directories=no,copyhistory=no,height=550,width=610,left=50,top=50");
+  }//  function for opening a new pop-up window for printing a page
+  
+ 
+function openNewWindow(strURL) {
+	window.name = "main";
+	
+	var newWindow = window.open(strURL,"newWindow", "toolbar=no,menubar=no,resizable=no,status=no,scrollbars=yes,location=no,directories=no,copyhistory=no,height=400,width=450,left=50,top=50");
+} //  function for opening a new pop-up window
+
+// javascript for e-mail this page tool - gets the url of the page the user is on before the e-mail page tool button is clicked
+	
+	function loadReferrer() {
+		referrerString = opener.document.location.href;
+		document.emailForm.page.value = referrerString;
+	}
+
+</SCRIPT>
+
+
+<div>	
+<!-- text for main page -->
+<table width='100%' border='0' cellspacing='2' cellpadding='2'>
+<tr><td width='25%'></td>
+<td width='75%'></td></tr>
+<tr><td colspan='2' height='20'></td></tr>
+<tr><td class='rowlabel'>Product Name:&nbsp;</td>
+<td><strong>LFDR9917 - Recordable DVD with HDD</strong></td></tr>
+<tr><td class='rowlabel'>Exhibitor:&nbsp;</td>
+<td><a href="?exhibid=6282&">Lafayette Electronics/Winbase</a></td></tr>
+<tr><td class='rowlabel'>Product Contact:&nbsp;</td>
+<td>Stephen Cavayero</td></tr>
+<tr><td class='rowlabel'>Contact E-mail:&nbsp;</td>
+<td><a href='mailto:stevec@idvdbox.com'>stevec@idvdbox.com</a></td></tr>
+<tr><td class='rowlabel'>On-Site Contact:&nbsp;</td>
+<td>Stephen Cavayero</td></tr>
+<tr><td class='rowlabel'>Product Category:&nbsp;</td>
+<td>Video - Video Hardware - DVD Recordables</td></tr>
+<tr><td class='rowlabel'>Product Description:&nbsp;</td>
+<td>DVD Recordable with HDD
+Record extranal signal on CD-R, CD-RW, DVD+R, DVD+RW, HDD
+Recording Format:CD-DA, VCD(MPEG-1), SVCD(MPEG-2),         DVD(MPEG-2)
+Play DVD video, CD, SVCD, VCD, JPEG, MP3, CD-R, CD-RW, DVD+R, DVD+RW
+Built-in 40G HDD supports long duration recording</td></tr>
+<tr><td colspan=6><img src='/global_images2005/spacer.gif' width='1' height='10'><br>
+<img src='/global_images2005//.line.gif' alt='-----------------------------------------------' width='580' height='2'></td></tr>
+<tr><td class='rowlabel'>Company Booth(s):&nbsp;</td>
+<td><table cellspacing='0' cellpadding='0' width='100%' border='0'><tr><td><b>Booth Number</b></td><td><b>Show Location</b></td><td>&nbsp;</td></tr><tr><td height='20'><font class='formPreFilled'>&nbsp;20343</font></td><td><font class='formPreFilled'>LVCC SO 1</font></td></tr></table></td></tr>
+</table><br>[<a href="">perform another search</a>]
+<!-- /text for main page -->
+</div>
+

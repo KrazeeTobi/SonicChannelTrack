@@ -1,0 +1,148 @@
+
+
+<SCRIPT language="javascript1.2">
+function newWin(urlString,pgNum)
+  {
+    var popupWindow;
+	urlString += "?pageID=" + pgNum;
+	
+    popupWindow = window.open(urlString,"","toolbar=yes,menubar=no,resizable=no,status=no,scrollbars=yes,location=no,directories=no,copyhistory=no,height=550,width=610,left=50,top=50");
+  }//  function for opening a new pop-up window for printing a page
+  
+ 
+function openNewWindow(strURL) {
+	window.name = "main";
+	
+	var newWindow = window.open(strURL,"newWindow", "toolbar=no,menubar=no,resizable=no,status=no,scrollbars=yes,location=no,directories=no,copyhistory=no,height=400,width=450,left=50,top=50");
+} //  function for opening a new pop-up window
+
+// javascript for e-mail this page tool - gets the url of the page the user is on before the e-mail page tool button is clicked
+	
+	function loadReferrer() {
+		referrerString = opener.document.location.href;
+		document.emailForm.page.value = referrerString;
+	}
+
+</SCRIPT>
+
+	<!-- INSERT ANY SCRIPT TAGS FOR THIS PAGE HERE (header.asp closes the <head> tag!) -->
+    <script language="Javascript">
+    <!--
+    	function getBoothDetail(strBoothQueryString)
+    	{
+    		var xPoint = window.screen.width / 3;
+    		var yPoint = window.screen.height / 2;
+    		var height = window.screen.height / 3;
+    		var width = window.screen.width / 4;
+    		var boothURL = "/attendees/exhibitor_floor/directory/eims_view_booth_detail.asp?" + strBoothQueryString;
+    		var strFeatures = "scrollbars=yes,height=" + height + ",width=" + 
+    			width + ",screenX=" + xPoint + ",screenY=" + yPoint + 
+    			",left=" + xPoint + ",top=" + yPoint;
+    			
+    		window.open(boothURL, "BoothDescription", strFeatures);
+    	}
+    //-->
+    </script>
+
+
+<div>	
+<!-- text for main page -->
+
+<table border='0' cellspacing='0' cellpadding='0' width='100%'>
+<tr><td align='left' valign='middle'><img src='/shared_files/logos/rad8B548.jpg' width='100' alt='Sima Products Corp.'></td></tr><tr height='8'><td colspan='2'></td></tr><tr><td valign='top' colspan='2'>
+<div class='subhead'>Sima Products Corp.</td></tr><tr><td width='440'>140 Pennsylvania Ave., Bldg. 5<BR>Oakmont, PA 15139<BR>USA</div>
+<font class='formInstruction'>Telephone:&nbsp;</font><font class='formPreFilled'>412-828-3700</font><br><font class='formInstruction'>Fax:&nbsp;</font><font class='formPreFilled'>412-828-3775</font><br><font class='formInstruction'>E-mail:&nbsp;</font><font class='formPreFilled'><a href='mailto:info@simacorp.com'>info@simacorp.com</a></font><br>
+URL: <a href='http://www.simacorp.com' target='new'>www.simacorp.com</a></td><td align='right' valign='top'><img src='/global_images2005/ceamemlogo.gif' alt='CEA Member'></td></tr><tr><td colspan='2' height='20'>&nbsp;</td></tr><tr><td colspan='2'><font class='formPreFilled'>Sima Products Corporation is one of today's leading innovators of consumer electronic accessories in the photo, video, public alert, 12V power, and home theater markets. Sima, First Alert, and Cherokee brand products are sold through an extensive network of distributors and retailers in more than 20 countries worldwide.</div></td></tr><tr><td colspan='2' height='20'>&nbsp;</td></tr></table><table border='0' cellspacing='0' cellpadding='0' width='100%'>
+<tr><td valign='top' colspan='2'><img src='/global_images2005/1.0/1.0.line.gif' alt='-----------------------------------------------' width='100%' height='2' border='0'><br></td>
+<tr><td valign='top'><img src='/global_images2005/spacer.gif' width='1' height='3' border='0'><br></td>
+<tr><td valign='top' width='142'><span class=exhibdir>Company Booth(s):</span></td>
+<td valign='top'><table cellspacing='0' cellpadding='0' width='100%' border='0'><tr><td><b>Booth Number</b></td><td><b>Show Location</b></td><td>&nbsp;</td></tr><tr><td height='20'><font class='formPreFilled'>&nbsp;21416</font></td><td><font class='formPreFilled'>LVCC SO 1</font></td></tr></table>
+</td></tr><tr><td valign='top'><img src='/global_images2005/spacer.gif' width='1' height='25' border='0'><br></td>
+<tr><td valign='top' colspan='2'><img src='/global_images2005/1.0/1.0.line.gif' alt='-----------------------------------------------' width='100%' height='2' border='0'><br></td>
+<tr><td valign='top'><img src='/global_images2005/spacer.gif' width='1' height='3' border='0'><br></td>
+<tr><td valign='top'><div class='exhibdir'>Company Contact(s):</div></td><td><div class='text'><a href='mailto:ilanad@simacorp.com'>Ilana Diamond</a>, President</div><div class='text'><a href='mailto:dougm@simacorp.com'>Doug Marrison</a>, Director of Sales</div><div class='text'><a href='mailto:daveh@simacorp.com'>Dave Hochendoner</a>, Director of Product Development</div><div class='text'><a href='mailto:kathyr@simacorp.com'>Kathy Ruane</a>, Marketing Manager</div><div class='text'><a href='mailto:philt@simacorp.com'>Phil Tomasello</a>, Sales Manager</div><div class='text'><a href='mailto:dwightb@simacorp.com'>Dwight Boston</a>, Sales Manager</div><a href='mailto:dougm@simacorp.com'>Doug Marrison</a>&nbsp;(International Sales)</td></tr><tr><td valign='top'><img src='/global_images2005/spacer.gif' width='1' height='25' border='0'><br></td>
+<tr><td valign='top' colspan='2'><img src='/global_images2005/1.0/1.0.line.gif' alt='-----------------------------------------------' width='100%' height='2' border='0'><br></td>
+<tr><td valign='top'><img src='/global_images2005/spacer.gif' width='1' height='3' border='0'><br></td>
+<tr><td valign='top'><div class='exhibdir'>Brand Name(s):</div></td><td><div class='text'>Sima<br>First Alert<br>Cherokee<br></td></tr><tr><td valign='top'><img src='/global_images2005/spacer.gif' width='1' height='25' border='0'><br></td>
+<tr><td valign='top' colspan='2'><img src='/global_images2005/1.0/1.0.line.gif' alt='-----------------------------------------------' width='100%' height='2' border='0'><br></td>
+<tr><td valign='top'><img src='/global_images2005/spacer.gif' width='1' height='3' border='0'><br></td>
+<tr><td valign='top'><div class='exhibdir'>Product Categories: </div></td><td><table border='0' cellspacing='0' cellpadding='0' width='100%'><tr><td width='55%'>Digital Imaging/Video Editing<br>
+Digital Imaging/Video Editing - Digital Imaging / Video Editing Accessories<br>
+Digital Imaging/Video Editing - Digital Imaging / Video Editing Accessories - Lens Cleaners<br>
+Digital Imaging/Video Editing - Digital Imaging / Video Editing Accessories - Lights<br>
+Digital Imaging/Video Editing - Digital Imaging / Video Editing Accessories - Other Digital Imaging / Video Editing Accessories<br>
+Digital Imaging/Video Editing - Digital Imaging / Video Editing Accessories - Tripods<br>
+Digital Imaging/Video Editing - Digital Imaging / Video Editing Peripherals<br>
+Digital Imaging/Video Editing - Other Digital Imaging / Video Editing<br>
+Home Theater<br>
+Home Theater - Accessories<br>
+Home Theater - Accessories - Other Accessories<br>
+Home Theater - Accessories - Remote Controls<br>
+Personal Safety and Security Products<br>
+Photographic Equipment<br>
+Photographic Equipment - Accessories<br>
+Photographic Equipment - Accessories - Other Accessories<br>
+Photographic Equipment - Digital Camera Accessories<br>
+Photographic Equipment - Digital Camera Accessories - Other Digital Camera Accessories<br>
+Video<br>
+Video - Accessories<br>
+Video - Accessories - Camcorder Accessories<br>
+Video - Accessories - Other Video Accessories<br>
+Video - Accessories - Rewinders<br>
+</td></tr></table></td><tr><td valign='top'><img src='/global_images2005/spacer.gif' width='1' height='25' border='0'><br></td>
+<tr><td valign='top' colspan='2'><img src='/global_images2005/1.0/1.0.line.gif' alt='-----------------------------------------------' width='100%' height='2' border='0'><br></td>
+<tr><td valign='top'><img src='/global_images2005/spacer.gif' width='1' height='3' border='0'><br></td>
+<tr><td valign='top' class='exhibdir'>New Product(s):</td>
+<td valign='top' colspan='2'><a href='/attendees/show_floor/product_locator/product_details.asp?prodid=3990'>GoDVD! Video Enhancer</a><br><a href='/attendees/show_floor/product_locator/product_details.asp?prodid=3992'>WX-167 First Alert Brand Public Alert Radio</a><br></td></tr><tr><td valign='top'><img src='/global_images2005/spacer.gif' width='1' height='25' border='0'><br></td>
+<tr><td valign='top' colspan='2'><img src='/global_images2005/1.0/1.0.line.gif' alt='-----------------------------------------------' width='100%' height='2' border='0'><br></td>
+<tr><td valign='top'><img src='/global_images2005/spacer.gif' width='1' height='3' border='0'><br></td>
+<tr><td valign='top'><span class='exhibdir'>Export Market(s):</span></td><td colspan='2' valign='top'>Australia<br>CANADA<br>CENTRAL AMERICA<br>EASTERN EUROPE<br>MEXICO<br>SOUTH AMERICA<br>WESTERN EUROPE</td></tr><tr><td valign='top'><img src='/global_images2005/spacer.gif' width='1' height='25' border='0'><br></td>
+<tr><td valign='top' colspan='2'><img src='/global_images2005/1.0/1.0.line.gif' alt='-----------------------------------------------' width='100%' height='2' border='0'><br></td>
+<tr><td valign='top'><img src='/global_images2005/spacer.gif' width='1' height='3' border='0'><br></td>
+<tr><td valign='top'><span class='exhibdir'>Financial Exchange(s):</span></td><td colspan='2' height='20'>None listed.</td></tr>
+	<table border="0" width="100%" cellpadding="0" cellspacing="0">
+	    <tr><td valign='top'><img src='/global_images2005/spacer.gif' width='1' height='25' border='0'><br></td>
+	    <tr><td valign='top' colspan='3'><img src='/global_images2005/1.0/1.0.line.gif' alt='-----------------------------------------------' width='100%' height='2' border='0'><br></td>
+	    <tr><td valign='top'><img src='/global_images2005/spacer.gif' width='1' height='3' border='0'><br></td>
+	
+		<tr>
+			<td width="142" valign="top"><span class="exhibdir">Public<br>Relations Contact(s):</span></td>
+			
+			<td valign="top" width="242"><span class="black">Year-round</span><br>
+		
+			<span class="formPreFilled"><a href="mailto:kathyr@simacorp.com">Kathy&nbsp;Ruane</a></span><BR>
+			<span class="formInstruction">Ph:&nbsp;</span><span class="formPreFilled">412-828-3700</span><BR><BR>
+			
+			</td>	
+			
+			<td valign="top" width="206"><span class="black">On-site (at the show)</span><br>
+		
+			<span class="formPreFilled"><a href="mailto:kathyr@simacorp.com">Kathy&nbsp;Ruane</a></span><BR>
+			<span class="formInstruction">Ph:&nbsp;</span><span class="formPreFilled">412-828-3700</span><BR><BR>
+			
+		</td>
+	</tr>
+	
+	
+    <tr><td valign='top'><img src='/global_images2005/spacer.gif' width='1' height='25' border='0'><br></td>
+    <tr><td valign='top' colspan='3'><img src='/global_images2005/1.0/1.0.line.gif' alt='-----------------------------------------------' width='100%' height='2' border='0'><br></td>
+    <tr><td valign='top'><img src='/global_images2005/spacer.gif' width='1' height='3' border='0'><br></td>
+	<tr>
+		<td width="142" valign="top"><span class="exhibdir">Investor<br>Relations Contact:</span></td>
+		
+		<td valign="top">
+
+		
+			<span class="formPreFilled"><br><a href="mailto:kathyr@simacorp.com">Kathy&nbsp;Ruane</a></span><BR>
+			<span class="formInstruction">Ph:&nbsp;</span><span class="formPreFilled">412-828-3700</span><BR>
+		
+		</td>		
+	</tr>
+    <tr><td valign='top'><img src='/global_images2005/spacer.gif' width='1' height='25' border='0'><br></td>
+    <tr><td valign='top' colspan='3'><img src='/global_images2005/1.0/1.0.line.gif' alt='-----------------------------------------------' width='100%' height='2' border='0'><br></td>
+    <tr><td valign='top'><img src='/global_images2005/spacer.gif' width='1' height='3' border='0'><br></td>
+	
+<tr><td valign='top'><span class='exhibdir'>Press Event(s):</span></td><td colspan='2' height='20'>None listed.</td></tr><tr><td colspan='2' height='10'>&nbsp;</td></tr></table><br>
+<a href="">[perform another search]</a>
+<!-- /text for main page -->
+</div>
