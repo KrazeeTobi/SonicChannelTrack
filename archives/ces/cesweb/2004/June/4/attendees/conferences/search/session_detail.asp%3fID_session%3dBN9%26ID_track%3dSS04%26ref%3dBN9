@@ -1,0 +1,457 @@
+
+
+<SCRIPT language="javascript1.2">
+function newWin(urlString,pgNum)
+  {
+    var popupWindow;
+	urlString += "?pageID=" + pgNum;
+	
+    popupWindow = window.open(urlString,"","toolbar=yes,menubar=no,resizable=no,status=no,scrollbars=yes,location=no,directories=no,copyhistory=no,height=550,width=610,left=50,top=50");
+  }//  function for opening a new pop-up window for printing a page
+  
+ 
+function openNewWindow(strURL) {
+	window.name = "main";
+	
+	var newWindow = window.open(strURL,"newWindow", "toolbar=no,menubar=no,resizable=no,status=no,scrollbars=yes,location=no,directories=no,copyhistory=no,height=400,width=450,left=50,top=50");
+} //  function for opening a new pop-up window
+
+// javascript for e-mail this page tool - gets the url of the page the user is on before the e-mail page tool button is clicked
+	
+	function loadReferrer() {
+		referrerString = opener.document.location.href;
+		document.emailForm.page.value = referrerString;
+	}
+
+</SCRIPT>
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!-- 
+INSERT PAGE VARIABLES
+pgNum = the page ID
+template = 1 for full content space, 2 for added value, 3 for a 150px white column on the right side (for images)
+bodyTitle = the page header (or the alt text if we go the image route in the future)
+-->
+
+
+<html>
+<head>
+	<!-- INSERT PAGE TITLE HERE (immediately following gblPAGE_TITLE) -->
+	<title>2004 International CES:&nbsp;Conference Session Detail</title>
+	
+	<!-- INSERT SEARCH ZONE HERE -->
+
+	<!-- INSERT ANY SCRIPT TAGS FOR THIS PAGE HERE (header.asp closes the <head> tag!) -->
+	<script>
+		// function for opening a new pop-up window
+		function openNewWindow(strURL) {
+			window.name = "main";
+			
+			var newWindow = window.open(strURL,"newWindow", "toolbar=no,menubar=no,resizable=no,status=no,scrollbars=yes,location=no,directories=no,copyhistory=no,height=400,width=450,left=50,top=50");
+		} 
+	</script>
+
+	
+	<link rel="StyleSheet" href="/global_include/css/main.css" type="text/css">
+	<LINK REL="SHORTCUT ICON" HREF="http://www.easymovement.com/ces/favicon.ico">
+
+<!-- Browser detection script -->
+	<script src="/global_include/js/browser_detection.js" type="text/javascript"></script>
+
+<!-- Rollover script -->	
+		
+		<script language="javascript1.2">	
+		/* for graphical rollovers*/
+			function rollOver(which,name) 
+				{
+				var on="/global_images/1.0/1.0_" + which + "_r.gif";
+				if(document.images) {document.images[which].src=on;}
+				else if (document.GetElementById){document.GetElementById(name).src=on;}
+				}
+			function rollOff(which) 
+				{
+				var on="/global_images/1.0/1.0_" + which + ".gif";
+				if(document.images){document.images[which].src=on;}
+				else if (document.GetElementById){document.GetElementById(which).src=on;}
+				}
+			function introllOver(which,name) 
+				{
+				var on="/global_images/1.0/1.0_" + which + "_r.gif";
+				//var on="/global_images/1.0/1.0_" + which + "_r.gif";
+				if(document.images) {document.images[which].src=on;}
+				else if (document.GetElementById){document.GetElementById(name).src=on;}
+				}
+			function introllOff(which) 
+				{
+				var on="/global_images/1.0/1.0_" + which + ".gif";
+				//var on="/global_images/1.0/1.0_" + which + ".gif";
+				if(document.images){document.images[which].src=on;}
+				else if (document.GetElementById){document.GetElementById(which).src=on;}
+				}
+			//******** JANAE ADDED THESE TO APPLY TO ONLY THE CENTER HOMEPAGE IMAGE********
+			function introllOverNEW(which,name) 
+				{
+				var on="/global_images/1.0/1.0_" + which + "_r.gif";
+				if(document.images) {document.images[which].src=on;}
+				else if (document.GetElementById){document.GetElementById(name).src=on;}
+				}
+			function introllOffNEW(which) 
+				{
+				var on="/global_images/1.0/1.0_" + which + ".gif";
+				if(document.images){document.images[which].src=on;}
+				else if (document.GetElementById){document.GetElementById(which).src=on;}
+				}
+			function snrollOver(which,name) 
+				{
+				var on="/global_images/1.0/1.0" + which + "_r.gif";
+				if(document.images) {document.images[which].src=on;}
+				else if (document.GetElementById){document.GetElementById(name).src=on;}
+				}
+			function snrollOff(which) 
+				{
+				var on="/global_images/1.0/1.0" + which + ".gif";
+				if(document.images){document.images[which].src=on;}
+				else if (document.GetElementById){document.GetElementById(which).src=on;}
+				}
+				
+			function onLoadHandler() {
+			    if( typeof(bodyOnLoadFunction) != 'undefined' ) {
+			        return eval(bodyOnLoadFunction);
+			    }
+			}
+		</script>
+		
+
+		<style>
+			.text_colored, .intro_copy, .section_title, .subhead, .body_title, .intro_dates
+				{ 	color:#194286}
+		</style>
+</head>
+
+<!-- script to determine the different browser and put in the correct body tag to align the background image properly -->
+<body  leftmargin='0' topmargin='0' rightmargin='0' bottommargin='0' marginwidth='0' onLoad="onLoadHandler();self.focus();"> 
+
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tr>
+
+<td width="50%" valign="top" background="/global_images/attendees_bg.gif">&nbsp;</td>
+<td width="1%" valign="top" background="/global_images/attendees_bg.gif">
+<!-- main table for site -->
+	<table width="770" cellspacing="0" cellpadding="0" border="0">
+<!-- Commented out dummy row to add another tr to the main table 
+	<tr>
+	    <td width="10"></td>
+	    <td width="140"></td>
+	    <td width="10"></td>
+	    <td width="10"></td>
+	    <td width="380"></td>
+	    <td width="10"></td>
+	    <td width="10"></td>
+	    <td width="190></td>
+	    <td width="10"></td>
+	</tr>
+   /Commented out dummy row to add another tr to the main table	-->
+<!-- blank 1 pixel row at top of page -->
+	<tr>
+	    <td width="10"><img src="/global_images/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+	    <td width="140"><img src="/global_images/spacer.gif" alt="" width="140" height="1" hspace="0" vspace="0" border="0"></td>
+	    <td width="10"><img src="/global_images/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+	    <td width="10"><img src="/global_images/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+	    <td width="380"><img src="/global_images/spacer.gif" alt="" width="380" height="1" hspace="0" vspace="0" border="0"></td>
+	    <td width="10"><img src="/global_images/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+	    <td width="10"><img src="/global_images/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+	    <td width="190"><img src="/global_images/spacer.gif" alt="" width="190" height="1" hspace="0" vspace="0" border="0"></td>
+	    <td width="10"><img src="/global_images/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+	</tr>
+<!-- /blank 1 pixel row at top of page -->
+<!-- global navigation row - register, about, faqs, contact, and site map -->
+	<tr>
+	    <td width="10"></td>
+	    <td width="140"></td>
+	    <td width="10"></td>
+	    <td width="10"></td>
+	    <td width="600" colspan="5" class="nav_global"><span class="intro_dates">January 8-11, 2004</span><img src="/global_images/spacer.gif" width="4" height="20" hspace="0" vspace="0" border="0" align="absmiddle">| Las Vegas<img src="/global_images/spacer.gif" alt="" width="225" height="1" border="0">	<a href="/about_ces/">About CES</a> | <a href="/faqs/">FAQs</a> | <a href="/contact_us/">Contact Us</a><!-- | <a href="/site_map.asp">Site Map</a>--></td>
+	    <!--<td width="600" colspan="5" class="nav_global"><img src="/global_images/test_logo.jpg" width="385" height="20" hspace="0" vspace="0" border="0" align="absmiddle"><a href="/about_ces/">About CES</a> | <a href="/faqs/">FAQs</a> | <a href="/contact_us/">Contact Us</a> | <a href="site_map.asp">Site Map</a></td>-->
+	</tr>
+<!-- /global navigation row - register, about, faqs, contact, and site map -->	
+<!-- logo and banner image row -->	
+	<tr>
+	    <td width="10"></td>
+	    <td width="140"><a href="/default.asp"><img src="/global_images/logo.gif" alt="International CES" width="140" height="74" hspace="0" vspace="0" border="0"></a></td>
+	    <td width="10"></td>
+	    <td width="610" colspan="6"><img src="/global_images/1.0/random2/1.0.banner.gif" alt="" width="610" height="74" border="0"></td>
+	</tr>
+<!-- /logo and banner image row -->		
+<!-- primary navigation row -->
+	<tr>
+	    <td width="10"></td>
+	    <td width="140"></td>
+	    <td width="10"></td>
+		<td width="610" colspan="6"  background="/global_images/spacer.gif"><a href="/attendees/"  onmouseover=rollOver('tab_attendees'); onmouseout=rollOff('tab_attendees');><img name='tab_attendees' src="/global_images/1.0/1.0_tab_attendees.gif" alt="Attendees" width="70" height="27" hspace="0" vspace="0" border="0" ></a><a href="/exhibitors/" onmouseover=rollOver('tab_exhibitor'); onmouseout=rollOff('tab_exhibitor');><img name='tab_exhibitor' src="/global_images/1.0/1.0_tab_exhibitor.gif" alt="Exhibitor Services" width="118" height="27" hspace="0" vspace="0" border="0"></a><a href="/press/" onmouseover=rollOver('tab_press'); onmouseout=rollOff('tab_press');><img name='tab_press' src="/global_images/1.0/1.0_tab_press.gif" width="78" height="27" alt="Press" border="0"></a><a href="/international/" onmouseover=introllOver('tab_international'); onmouseout=introllOff('tab_international');><img src="/global_images/1.0/1.0_tab_international.gif" width="134" height="27" alt="" border="0" name="tab_international"></a><img src="/global_images/1.0/random2/1.0_tab_right.gif" alt="" width="210" height="27" hspace="0" vspace="0" border="0"></td>
+	</tr>
+<!-- /primary navigation row -->
+<!-- secondary navigation row -->		
+	<tr>
+	    <td width="10"></td>
+			<form name="searchCESWeb" method="POST" action="/search/searchResult.asp">
+        	    <td width="760" colspan="8"  background="/global_images/spacer.gif"  class="attendees3">
+<!-- table for secondary navigation and form -->
+				<table cellspacing="0" cellpadding="0" border="0" width="760"  background="/global_images/spacer.gif" >
+				<tr>
+				<td class="attendees_second_nav" width="560"><span class="att_sec_nav_active"><a href='/attendees/conferences'>Conferences</a></span>&nbsp;&nbsp;|&nbsp;&nbsp;<a href='/attendees/exhibit_floor'>Exhibit Floor</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href='/attendees/special_events'>Special Events</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href='/attendees/awards'>Awards</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href='/attendees/travel'>Hotel/Travel</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href='/attendees/markets/default.asp'>Markets</a>
+<!--<a href='/attendees/conferences'>Conferences</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href='/attendees/exhibit_floor'>Exhibit Floor</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href='/attendees/special_events'>Special Events</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href='/attendees/awards'>Awards</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href='/attendees/travel'>Hotel/Travel</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href='/attendees/markets/default.asp'>Markets</a>-->
+
+
+</td>
+				<td width="173" align="right">
+<!-- Script for setting correct search box size -->
+				<script LANGUAGE="JavaScript">
+				<!--
+					if (is_nav4) {
+						document.write("<input  size=20 ");
+					} 
+					else if (is_mac) {
+						document.write("<input  size=30 ");
+					}
+					else if (is_safari) {
+						document.write("<input  size=25 ");
+					}
+					else {
+					    document.write("<input  size=34 ");
+					}
+                    function checkSearch() {
+                        var searchForm = document.searchCESWeb;
+                            
+                        if(searchForm.SEARCH_STRING.value.search(/\S/) == -1) {
+                            alert("Please enter text to search for.");
+                            return;
+                        }
+                        searchForm.submit();
+                    }
+				//-->
+				</script>
+				type="text" name="SEARCH_STRING" value=" Search CESweb.org" class="attendeesform"  ONFOCUS="if(this.value==' Search CESweb.org')this.value=''; snrollOver('.button_search');" ONBLUR="if(this.value=='')this.value=' Search CESweb.org'; snrollOff('.button_search');" >&nbsp;&nbsp;</td>
+				<td width="27"><img name=".button_search"  src="/global_images/1.0/1.0.button_search.gif" alt="go" width="27" height="33" hspace="0" vspace="0" border="0" onmouseover=snrollOver('.button_search'); onmouseout=snrollOff('.button_search'); onClick="checkSearch();"></td>
+				</tr>
+				</table>
+<!-- /table for secondary navigation and form -->			
+		</td>
+			<input type="hidden" name="ExhibitorSearchField" value="on">
+			<input type="hidden" name="EventSearchField" value="on">
+			<input type="hidden" name="PressSearchField" value="on">
+			<input type="hidden" name="ConferenceSearchField" value="on">
+			<input type="hidden" name="GeneralCESwebSearchField" value="on">
+		</form>
+	 </tr>
+<!-- /secondary navigation row -->	
+<!-- colored row with section color 4 - 5 pixels high --> 
+	<tr>
+	    <td width="10"></td>
+	    <td width="140"></td>
+	    <td width="10"></td>
+	    <td width="610" colspan="6"  background="/global_images/spacer.gif" class="attendees4"><img src="/global_images/spacer.gif" alt="" width="610" height="5" hspace="0" vspace="0" border="0"></td>
+	 </tr>
+<!-- /colored row with section color 4 - 5 pixels high --> 	 
+<!-- breadcrumb row -->
+	<tr>
+	    <td width="10"></td>
+	    
+			<td width="140"><a href="/register/" onmouseover=snrollOver('.register'); onmouseout=snrollOff('.register');><img src="/global_images/1.0/1.0.register.gif" alt="Register" name=".register" id=".register" width="140" height="40" hspace="0" vspace="0" border="0"></a></td>
+		
+			<!--<td width="140"><a href="/exhibitors/resource_center/badges/default.asp" onmouseover=snrollOver('.register'); onmouseout=snrollOff('.register');><img src="/global_images//0.0_files/.register.gif" alt="Register" name=".register" id=".register" width="140" height="40" hspace="0" vspace="0" border="0"></a></td>-->
+		
+			<!--<td width="140"><a href="/registration_temp.asp" onmouseover=snrollOver('.register'); onmouseout=snrollOff('.register');><img src="/global_images//0.0_files/.register.gif" alt="Register" name=".register" id=".register" width="140" height="40" hspace="0" vspace="0" border="0"></a></td>-->
+		
+		<td width="10"></td>		
+
+		
+		    <td width="10" background="/global_images/spacer.gif" class="attendees6"><img src="/global_images/spacer.gif" alt="" width="10" height="40" hspace="0" vspace="0" border="0"></td>
+		    <td width="390" colspan="2" background="/global_images/spacer.gif" class="attendees6" valign="bottom"><span class="attendees_nav_breadcrumb">
+			<a href="/default.asp">Home</a>&nbsp;>&nbsp;<a href="/attendees/">Attendees</a>&nbsp;>&nbsp;<a href="/attendees/conferences/">Conferences</a>&nbsp;>&nbsp;<a href="/attendees/conferences/supersessions.asp">SuperSessions</a>&nbsp;>&nbsp;
+			</span><br><img src="/global_images/spacer.gif" height="8" width="1"></td>
+		    <td width="200" background="/global_images/spacer.gif" colspan="2" class="attendees6"><img src="/global_images/1.0/1.0_print_mail.gif" width="115" height="40" alt="print - email" border="0"><a href=javascript:newWin("/global_include/asp/page_tools/print.asp","1.1.4.9") onmouseover=snrollOver('_button_print'); onmouseout=snrollOff('_button_print');><img src="/global_images/1.0/1.0_button_print.gif" alt="Print" name="_button_print" id="_button_print" width="43" height="40" hspace="0" vspace="0" border="0"></a><A HREF=javascript:openNewWindow("/global_include/asp/page_tools/email.asp") onmouseover=snrollOver('_button_mail'); onmouseout=snrollOff('_button_mail');><img src="/global_images/1.0/1.0_button_mail.gif" alt="Email" name="_button_mail" id="_button_mail" width="42" height="40" hspace="0" vspace="0" border="0"></a></td>
+		    <td width="10" background="/global_images/spacer.gif" class="attendees6">&nbsp;</td>
+    			
+	</tr>
+<!-- /breadcrumb row -->	
+<!-- main body row -->
+	<tr>
+	    <td width="10" background="/global_images/spacer.gif"></td>
+	    <td width="140" background="/global_images/spacer.gif" valign="top"><img src="/global_images/spacer.gif" width="140" height="20" alt="" border="0"><br>
+		<span class="nav_third">
+
+
+<!-- CONFERENCES -->
+	<img src="/global_images/navigation/3nav_bar_gray.gif" alt="--------" width="140" height="1" hspace="0" vspace="0" border="0"><br>
+	<img src="/global_images/spacer.gif" width="140" height="4" alt="" border="0"><br>
+	<a href="/attendees/conferences/keynotes.asp">Keynotes</a><br>
+	<img src="/global_images/spacer.gif" width="140" height="6" alt="" border="0"><br>
+	<img src="/global_images/navigation/3nav_bar_gray.gif" alt="--------" width="140" height="1" hspace="0" vspace="0" border="0"><br>
+	<img src="/global_images/spacer.gif" width="140" height="4" alt="" border="0"><br>
+	<a href="/attendees/conferences/insider_series.asp">Industry Insider Series</a><br>
+			
+			<img src="/global_images/spacer.gif" width="140" height="6" alt="" border="0"><br>
+		
+	<img src="/global_images/navigation/3nav_bar_gray.gif" alt="--------" width="140" height="1" hspace="0" vspace="0" border="0"><br>		
+	<img src="/global_images/spacer.gif" width="140" height="4" alt="" border="0"><br>
+	<a href="/attendees/conferences/supersessions.asp">SuperSessions</a><br>
+		
+			<span class="nav_fourth">
+			<span class="nav_fourth_arrow"><b>></b> &nbsp;</span><a href="/attendees/conferences/search/session_detail.asp?ID_session=SS1&ID_track=SS04&ref=SS1">The Next Big Thing in CE</a><br>
+			<!--<span class="nav_fourth_arrow"><b>></b> &nbsp;</span><a href="/attendees/conferences/search/session_detail.asp?ID_session=SS2&ID_track=SS04&ref=SS2">Next-Gen Gaming Console</a><br>-->
+			<span class="nav_fourth_arrow"><b>></b> &nbsp;</span><a href="/attendees/conferences/search/session_detail.asp?ID_session=SS3&ID_track=SS04&ref=SS3">Digging Into the New</a><br>
+			<span class="nav_fourth_arrow"><b>></b> &nbsp;</span><a href="/attendees/conferences/search/session_detail.asp?ID_session=SS8&ID_track=SS04&ref=SS8">Shopping CE</a><br>
+			<span class="nav_fourth_arrow"><b>></b> &nbsp;</span><a href="/attendees/conferences/search/session_detail.asp?ID_session=SS4&ID_track=SS04&ref=SS4">Wireless</a><br>			
+			<span class="nav_fourth_arrow"><b>></b> &nbsp;</span><a href="/attendees/conferences/search/session_detail.asp?ID_session=SS5&ID_track=SS04&ref=SS5">Digital Imaging</a><br>
+			<span class="nav_fourth_arrow"><b>></b> &nbsp;</span><a href="/attendees/conferences/search/session_detail.asp?ID_session=SS6&ID_track=SS04&ref=SS6">Retail Power Panel</a><br>			
+			<span class="nav_fourth_arrow"><b>></b> &nbsp;</span>International Tech Policy</a><br>
+			<span class="nav_fourth_arrow"><b>></b> &nbsp;</span><a href="/attendees/conferences/search/session_detail.asp?ID_session=SS7&ID_track=SS04&ref=SS7">Last Gadget Standing</a><br>			
+			
+			</span>
+			<img src="/global_images/spacer.gif" width="140" height="10" alt="" border="0"><br>
+		
+	<img src="/global_images/navigation/3nav_bar_gray.gif" alt="--------" width="140" height="1" hspace="0" vspace="0" border="0"><br>
+    <img src="/global_images/spacer.gif" width="140" height="4" alt="" border="0"><br>	
+	<a href="/attendees/conferences/knowledge_tracks.asp">CES Knowledge Tracks</a><br>
+			
+			<img src="/global_images/spacer.gif" width="140" height="6" alt="" border="0"><br>
+		
+	<img src="/global_images/navigation/3nav_bar_gray.gif" alt="--------" width="140" height="1" hspace="0" vspace="0" border="0"><br>
+    <img src="/global_images/spacer.gif" width="140" height="4" alt="" border="0"><br>	
+	<!--
+	<a href="/attendees/conferences/partners.asp">CES Partner Programs</a><br>
+			
+			<img src="/global_images/spacer.gif" width="140" height="6" alt="" border="0"><br>
+		
+	<img src="/global_images/navigation/3nav_bar_gray.gif" alt="--------" width="140" height="1" hspace="0" vspace="0" border="0"><br>
+    <img src="/global_images/spacer.gif" width="140" height="4" alt="" border="0"><br>	
+	-->
+	<a href="/attendees/conferences/search/search_by_name.asp">Search for Sessions</a><br>
+			
+			<img src="/global_images/spacer.gif" width="140" height="6" alt="" border="0"><br>
+		
+	<img src="/global_images/navigation/3nav_bar_gray.gif" alt="--------" width="140" height="1" hspace="0" vspace="0" border="0"><br>
+    <img src="/global_images/spacer.gif" width="140" height="4" alt="" border="0"><br>	
+	<a href="/attendees/conferences/speakers/">Speaking Opportunities</a><br>
+			
+			<img src="/global_images/spacer.gif" width="140" height="6" alt="" border="0"><br>
+		
+	<img src="/global_images/navigation/3nav_bar_gray.gif" alt="--------" width="140" height="1" hspace="0" vspace="0" border="0"><br>
+    <img src="/global_images/spacer.gif" width="140" height="4" alt="" border="0"><br>	
+	<span class="nav_fourth">
+	<a href="/attendees/conferences/search/session_by_track_list.asp?ID_track=CEDIA04&ref=CEDIA04">CEDIA</a><br>
+	<img src="/global_images/spacer.gif" width="140" height="6" alt="" border="0"><br>
+	<img src="/global_images/navigation/3nav_bar_gray.gif" alt="--------" width="140" height="1" hspace="0" vspace="0" border="0"><br>		
+	<img src="/global_images/spacer.gif" width="140" height="4" alt="" border="0"><br>
+	<a href="/attendees/conferences/search/session_by_track_list.asp?ID_track=CON04&ref=CON04">CONNECTIONS</a><br>
+	<img src="/global_images/spacer.gif" width="140" height="6" alt="" border="0"><br>
+	<img src="/global_images/navigation/3nav_bar_gray.gif" alt="--------" width="140" height="1" hspace="0" vspace="0" border="0"><br>		
+	<img src="/global_images/spacer.gif" width="140" height="4" alt="" border="0"><br>
+	<a href="/attendees/conferences/search/session_by_track_list.asp?ID_track=DGS03&ref=DGS03">Digital Games Summit</a><br>
+	<img src="/global_images/spacer.gif" width="140" height="6" alt="" border="0"><br>
+	<img src="/global_images/navigation/3nav_bar_gray.gif" alt="--------" width="140" height="1" hspace="0" vspace="0" border="0"><br>		
+	<img src="/global_images/spacer.gif" width="140" height="4" alt="" border="0"><br>
+	<a href="/attendees/conferences/search/session_by_track_list.asp?ID_track=DH04&ref=DH04">Digital Hollywood</a><br>
+	<img src="/global_images/spacer.gif" width="140" height="6" alt="" border="0"><br>
+	<img src="/global_images/navigation/3nav_bar_gray.gif" alt="--------" width="140" height="1" hspace="0" vspace="0" border="0"><br>		
+	<img src="/global_images/spacer.gif" width="140" height="4" alt="" border="0"><br>
+	<a href="/attendees/conferences/search/session_by_track_list.asp?ID_track=N04&ref=N04">Global Inventures</a><br>
+	<img src="/global_images/spacer.gif" width="140" height="6" alt="" border="0"><br>
+	<img src="/global_images/navigation/3nav_bar_gray.gif" alt="--------" width="140" height="1" hspace="0" vspace="0" border="0"><br>		
+	<img src="/global_images/spacer.gif" width="140" height="4" alt="" border="0"><br>
+	<a href="/attendees/conferences/search/session_by_track_list.asp?ID_track=IP04&ref=IP04"">IPv6 Forum</a><br>
+	<img src="/global_images/spacer.gif" width="140" height="6" alt="" border="0"><br>
+	<img src="/global_images/navigation/3nav_bar_gray.gif" alt="--------" width="140" height="1" hspace="0" vspace="0" border="0"><br>		
+	<img src="/global_images/spacer.gif" width="140" height="4" alt="" border="0"><br>
+	<a href="/attendees/conferences/search/session_by_track_list.asp?ID_track=MECP04&ref=MECP04">MECP</a><br>
+	<img src="/global_images/spacer.gif" width="140" height="6" alt="" border="0"><br>
+	<img src="/global_images/navigation/3nav_bar_gray.gif" alt="--------" width="140" height="1" hspace="0" vspace="0" border="0"><br>		
+	<img src="/global_images/spacer.gif" width="140" height="4" alt="" border="0"><br>
+	<a href="/attendees/conferences/search/session_by_track_list.asp?ID_track=SBCA04&ref=SBCA04">SBCA</a><br>
+	<img src="/global_images/spacer.gif" width="140" height="6" alt="" border="0"><br>
+	<img src="/global_images/navigation/3nav_bar_gray.gif" alt="--------" width="140" height="1" hspace="0" vspace="0" border="0"><br>		
+	<img src="/global_images/spacer.gif" width="140" height="4" alt="" border="0"><br>
+	<a href="/attendees/conferences/search/session_by_track_list.asp?ID_track=SV04&ref=SV04">Storage Visions</a><br>
+	<img src="/global_images/spacer.gif" width="140" height="6" alt="" border="0"><br>
+	<img src="/global_images/navigation/3nav_bar_gray.gif" alt="--------" width="140" height="1" hspace="0" vspace="0" border="0"><br>		
+	<img src="/global_images/spacer.gif" width="140" height="24" alt="" border="0"><br>
+	</span>
+<!-- /CONFERENCES -->
+
+
+
+<a href="http://www.ce.org" target="new" onmouseover=snrollOver('_logo_cea'); onmouseout=snrollOff('_logo_cea');><img src="/global_images/1.0/1.0_logo_cea.gif" name="_logo_cea" width="140" height="116" alt="Produced by Consumer Electronics Association" border="0"></a>
+<br>
+</span>
+
+				
+		</td>
+	    <td width="10"></td>
+		<!-- checking to see if the page is a main section page or not -->
+		
+			<td width="10" background="/global_images/spacer.gif" class="attendees7">&nbsp;</td>
+		    <td width="590" colspan="4"  background="/global_images/spacer.gif" class="attendees7" valign="top">
+				
+					<img src="/global_images/spacer.gif" height="10" width="1"><br><div class="body_title">Session Detail<br><img src="/global_images/spacer.gif" height="16" width="1"></div>
+				
+
+<!-- text for main page -->
+<div id="1.1.4.9">
+
+<!--
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+	<td nowrap><img src="/global_images/spacer.gif" height="1" width="420" border="0"></td>
+	
+		<td>&nbsp;</td>
+	
+		<td align="right"><a href="http://ww4.expocard.com/ces041/addcourse.asp?course=&ref="><img src="../images/shopping_cart.gif" border="0"></td>
+		<td nowrap>&nbsp;&nbsp;<a href="http://ww4.expocard.com/ces041/addcourse.asp?course=&ref=" class="subhead">Add Session to Cart</a></td>
+	
+</tr>
+</table>
+-->
+<table cellpadding=3 cellspacing=1 border=0 width='590'><tr><td class=confrowlabel width='80'><img src='/global_images/spacer.gif' width='80' height='1' border='0'></td><td class=rowdata width='480'><img src='/global_images/spacer.gif' width='480' height='1' border='0'></td></tr><tr><td colspan=2><font style='color:D75533'><strong>Missed this session?</font><br>Purchase the audio recording from <a href='http://www.mobiltape.com/shop/products.asp?strCategory=Technology&strShowName=Consumer+Electronics+Show+%2A+Las+Vegas+2004' target='new'>Mobiltape</a>.</strong></td></tr><tr><td height=16></td></tr><tr><td class=confrowlabel>Track:</td><td class=rowdata><a href=session_by_track_list.asp?ID_track=BN04>Business Networking</a></td></tr><tr><td class=confrowlabel>Session Title:</td><td class=rowdata><b>International Tech Policy and Its Impact on Your Global Sales</b></td></tr><tr><td class=confrowlabel>Session ID:</td><td class=rowdata>BN9</td></tr><tr><td class=confrowlabel>Session Type:</td><td class=rowdata>Free</td></tr><tr><td class=confrowlabel>Date:</td><td class=rowdata><a href=session_by_date_list.asp?session_date=1/10/2004>Saturday, January 10</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href='session_calendar_add.asp?event=CES04&session=BN9' target=new>[Add to Outlook Calendar]</a></td></tr><tr><td class=confrowlabel>Time:</td><td class=rowdata><a href=session_by_time_list.asp?session_time=10:00 AM>10:00 AM</a>&nbsp;-&nbsp;<a href=session_by_time_list.asp?session_time=11:00 AM>11:00 AM</a></td></tr><tr><td class=confrowlabel>Facility:</td><td class=rowdata><a href=session_by_facility_list.asp?facility=North>North Hall</a></td></tr><tr><td class=confrowlabel nowrap>Room Number:</td><td class=rowdata>N253</td></tr><tr><td class=confrowlabel nowrap valign=top>Description:&nbsp;</td><td class=rowdata><input type=hidden value=18> For the first time at CES, top officials from Germany, Japan and Korea present their challenges, opportunities and successes in creating the best market environment for CE products to flourish. If your products are being sold globally, this session will help you understand the regulatory climate and answer questions like: Are countries in competition to create the most tech-friendly environment? Is there an international consensus on broadband and wireless policy that is best for the CE industry? Do different regulatory approaches on intellectual property inhibit a global market for technology products and services? How involved are consumers, retailers and small businesses in the regulatory process around the world? Come hear the answers from the world’s most important tech policy makers.</td></tr><tr><td class=confrowlabel>Moderator:</td><td class=rowdata><A HREF=javascript:openNewWindow('speaker_bio.asp?speakerID=G148708&eventID=CES04')>Gary Shapiro</a>, President and CEO, Consumer Electronics Association (CEA)</td></tr><tr><td class=confrowlabel>Panelist:</td><td class=rowdata><A HREF=javascript:openNewWindow('speaker_bio.asp?speakerID=M269359&eventID=CES04')>Matthias Kurth</a>, President, Regulatory Authority for Telecommunications and Posts (RegTP) - GERMANY</td></tr><tr><td class=confrowlabel>Panelist:</td><td class=rowdata><A HREF=javascript:openNewWindow('speaker_bio.asp?speakerID=M769008&eventID=CES04')>Masahiro Tabata</a>, Senior Vice Minister, Ministry of Public Management, Home Affairs, Posts and Telecommunications (MPHPT) - JAPAN</td></tr><tr><td class=confrowlabel>Panelist:</td><td class=rowdata><A HREF=javascript:openNewWindow('speaker_bio.asp?speakerID=T682155&eventID=CES04')>Phillip J. Bond</a>, Undersecretary of Commerce for Technology, U.S. Department of Commerce - USA</td></tr><tr><td class=confrowlabel>Panelist:</td><td class=rowdata><A HREF=javascript:openNewWindow('speaker_bio.asp?speakerID=T944515&eventID=CES04')>Daeje Chin, Ph.D.</a>, , Minister of Information and Communication - REPUBLIC OF KOREA</td></tr><tr height=7><td colspan=2></td></tr><tr><td align=center colspan=2><a href=session_by_track_list.asp?ID_track=BN04>[Show all sessions in this track/partner program]</a></td></tr></table>
+<!-- /text for main page -->
+		
+
+			<br>
+			<br>
+			<br>
+		</span>
+		</td>
+	    <td width="10" background="/global_images/spacer.gif" class="attendees7">&nbsp;</td>
+			
+		</tr>
+<!-- /main body row -->	
+<!-- footer row -->
+	<tr>
+	    <td width="10"></td>
+	    <td width="140"></td>
+	    <td width="10"></td>
+	    <!--<td width="610" colspan=6><img src="/global_images//_files/.page_bottom1.jpggif" alt="" width="610" hspace="0" vspace="0" border="0"></td>-->
+		<td width="610" colspan=6><img src="/global_images/1.0/1.0.page_bottom1.gif" alt="" width="610" hspace="0" vspace="0" border="0"></td>
+	</tr>
+	<tr>
+	    <td width="10"></td>
+	    <td width="140"></td>
+	    <td width="10"></td>
+	    <td width="10" class="footer"><img src="/global_images/footer_left.gif" alt="(" width="10" height="30" hspace="0" vspace="0" border="0"></td>
+	    <td width="380" background="/global_images/footer_bg.gif" class="footer"><span class="nav_footer"><a href="/about_ces/">About CES</a> | <a href="/faqs/">FAQs</a> | <a href="/contact_us/">Contact Us</a> | <a href="/site_map.asp">Site Map</a> | <a href="/privacy_policy.asp">Privacy Policy</a> | <a href="/vendors.asp">Vendors</a></span></td>
+	    <td width="210" colspan="3" align="right" background="/global_images/footer_bg.gif" class="footer"><span class="nav_footer"> &#169; 2004 CEA, All rights reserved</span></td>
+	    <td width="10" class="footer"><img src="/global_images/footer_right.gif" alt=")" width="10" height="30" hspace="0" vspace="0" border="0"></td>
+	</tr>
+<!-- /footer row -->			 		 	 	 
+	</table>
+	<img src="/global_images/spacer.gif" alt="" width="1" height="20" hspace="0" vspace="0" border="0"">
+<!-- /main table for site -->	
+
+
+</td>
+<td width="49%" valign="top" background="/global_images/attendees_bg.gif">&nbsp;</td>
+</tr>
+</table>
+
+
+</body>
+</html>

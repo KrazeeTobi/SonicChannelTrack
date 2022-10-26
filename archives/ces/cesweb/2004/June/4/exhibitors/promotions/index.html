@@ -1,0 +1,1009 @@
+
+
+<SCRIPT language="javascript1.2">
+function newWin(urlString,pgNum)
+  {
+    var popupWindow;
+	urlString += "?pageID=" + pgNum;
+	
+    popupWindow = window.open(urlString,"","toolbar=yes,menubar=no,resizable=no,status=no,scrollbars=yes,location=no,directories=no,copyhistory=no,height=550,width=610,left=50,top=50");
+  }//  function for opening a new pop-up window for printing a page
+  
+ 
+function openNewWindow(strURL) {
+	window.name = "main";
+	
+	var newWindow = window.open(strURL,"newWindow", "toolbar=no,menubar=no,resizable=no,status=no,scrollbars=yes,location=no,directories=no,copyhistory=no,height=400,width=450,left=50,top=50");
+} //  function for opening a new pop-up window
+
+// javascript for e-mail this page tool - gets the url of the page the user is on before the e-mail page tool button is clicked
+	
+	function loadReferrer() {
+		referrerString = opener.document.location.href;
+		document.emailForm.page.value = referrerString;
+	}
+
+</SCRIPT>
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!-- 
+INSERT PAGE VARIABLES
+pgNum = the page ID
+template = 1 for full content space, 2 for added value, 3 for a 150px white column on the right side (for images)
+bodyTitle = the page header (or the alt text if we go the image route in the future)
+-->
+
+
+<html>
+<head>
+	<!-- INSERT PAGE TITLE HERE (immediately following gblPAGE_TITLE) -->
+	<title>2004 International CES:&nbsp;byb+ Sponsorship Opportunities</title>
+	
+	<!-- INSERT SEARCH ZONE HERE -->
+	<META NAME="searchZone" CONTENT="generalCESweb">
+
+	<!-- INSERT ANY SCRIPT TAGS FOR THIS PAGE HERE (header.asp closes the <head> tag!) -->
+	
+	
+	<link rel="StyleSheet" href="/global_include/css/main.css" type="text/css">
+	<LINK REL="SHORTCUT ICON" HREF="http://www.easymovement.com/ces/favicon.ico">
+
+<!-- Browser detection script -->
+	<script src="/global_include/js/browser_detection.js" type="text/javascript"></script>
+
+<!-- Rollover script -->	
+		
+		<script language="javascript1.2">	
+		/* for graphical rollovers*/
+			function rollOver(which,name) 
+				{
+				var on="/global_images/2.0/2.0_" + which + "_r.gif";
+				if(document.images) {document.images[which].src=on;}
+				else if (document.GetElementById){document.GetElementById(name).src=on;}
+				}
+			function rollOff(which) 
+				{
+				var on="/global_images/2.0/2.0_" + which + ".gif";
+				if(document.images){document.images[which].src=on;}
+				else if (document.GetElementById){document.GetElementById(which).src=on;}
+				}
+			function introllOver(which,name) 
+				{
+				var on="/global_images/2.0/2.0_" + which + "_r.gif";
+				//var on="/global_images/2.0/2.0_" + which + "_r.gif";
+				if(document.images) {document.images[which].src=on;}
+				else if (document.GetElementById){document.GetElementById(name).src=on;}
+				}
+			function introllOff(which) 
+				{
+				var on="/global_images/2.0/2.0_" + which + ".gif";
+				//var on="/global_images/2.0/2.0_" + which + ".gif";
+				if(document.images){document.images[which].src=on;}
+				else if (document.GetElementById){document.GetElementById(which).src=on;}
+				}
+			//******** JANAE ADDED THESE TO APPLY TO ONLY THE CENTER HOMEPAGE IMAGE********
+			function introllOverNEW(which,name) 
+				{
+				var on="/global_images/2.0/2.0_" + which + "_r.gif";
+				if(document.images) {document.images[which].src=on;}
+				else if (document.GetElementById){document.GetElementById(name).src=on;}
+				}
+			function introllOffNEW(which) 
+				{
+				var on="/global_images/2.0/2.0_" + which + ".gif";
+				if(document.images){document.images[which].src=on;}
+				else if (document.GetElementById){document.GetElementById(which).src=on;}
+				}
+			function snrollOver(which,name) 
+				{
+				var on="/global_images/2.0/2.0" + which + "_r.gif";
+				if(document.images) {document.images[which].src=on;}
+				else if (document.GetElementById){document.GetElementById(name).src=on;}
+				}
+			function snrollOff(which) 
+				{
+				var on="/global_images/2.0/2.0" + which + ".gif";
+				if(document.images){document.images[which].src=on;}
+				else if (document.GetElementById){document.GetElementById(which).src=on;}
+				}
+				
+			function onLoadHandler() {
+			    if( typeof(bodyOnLoadFunction) != 'undefined' ) {
+			        return eval(bodyOnLoadFunction);
+			    }
+			}
+		</script>
+		
+
+		<style>
+			.text_colored, .intro_copy, .section_title, .subhead, .body_title, .intro_dates
+				{ 	color:#3D6E2C}
+		</style>
+</head>
+
+<!-- script to determine the different browser and put in the correct body tag to align the background image properly -->
+<body  leftmargin='0' topmargin='0' rightmargin='0' bottommargin='0' marginwidth='0' onLoad="onLoadHandler();self.focus();"> 
+
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tr>
+
+<td width="50%" valign="top" background="/global_images/exhibitor_bg.gif">&nbsp;</td>
+<td width="1%" valign="top" background="/global_images/exhibitor_bg.gif">
+<!-- main table for site -->
+	<table width="770" cellspacing="0" cellpadding="0" border="0">
+<!-- Commented out dummy row to add another tr to the main table 
+	<tr>
+	    <td width="10"></td>
+	    <td width="140"></td>
+	    <td width="10"></td>
+	    <td width="10"></td>
+	    <td width="380"></td>
+	    <td width="10"></td>
+	    <td width="10"></td>
+	    <td width="190></td>
+	    <td width="10"></td>
+	</tr>
+   /Commented out dummy row to add another tr to the main table	-->
+<!-- blank 1 pixel row at top of page -->
+	<tr>
+	    <td width="10"><img src="/global_images/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+	    <td width="140"><img src="/global_images/spacer.gif" alt="" width="140" height="1" hspace="0" vspace="0" border="0"></td>
+	    <td width="10"><img src="/global_images/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+	    <td width="10"><img src="/global_images/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+	    <td width="380"><img src="/global_images/spacer.gif" alt="" width="380" height="1" hspace="0" vspace="0" border="0"></td>
+	    <td width="10"><img src="/global_images/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+	    <td width="10"><img src="/global_images/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+	    <td width="190"><img src="/global_images/spacer.gif" alt="" width="190" height="1" hspace="0" vspace="0" border="0"></td>
+	    <td width="10"><img src="/global_images/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+	</tr>
+<!-- /blank 1 pixel row at top of page -->
+<!-- global navigation row - register, about, faqs, contact, and site map -->
+	<tr>
+	    <td width="10"></td>
+	    <td width="140"></td>
+	    <td width="10"></td>
+	    <td width="10"></td>
+	    <td width="600" colspan="5" class="nav_global"><span class="intro_dates">January 8-11, 2004</span><img src="/global_images/spacer.gif" width="4" height="20" hspace="0" vspace="0" border="0" align="absmiddle">| Las Vegas<img src="/global_images/spacer.gif" alt="" width="225" height="1" border="0">	<a href="/about_ces/">About CES</a> | <a href="/faqs/">FAQs</a> | <a href="/contact_us/">Contact Us</a><!-- | <a href="/site_map.asp">Site Map</a>--></td>
+	    <!--<td width="600" colspan="5" class="nav_global"><img src="/global_images/test_logo.jpg" width="385" height="20" hspace="0" vspace="0" border="0" align="absmiddle"><a href="/about_ces/">About CES</a> | <a href="/faqs/">FAQs</a> | <a href="/contact_us/">Contact Us</a> | <a href="site_map.asp">Site Map</a></td>-->
+	</tr>
+<!-- /global navigation row - register, about, faqs, contact, and site map -->	
+<!-- logo and banner image row -->	
+	<tr>
+	    <td width="10"></td>
+	    <td width="140"><a href="/default.asp"><img src="/global_images/logo.gif" alt="International CES" width="140" height="74" hspace="0" vspace="0" border="0"></a></td>
+	    <td width="10"></td>
+	    <td width="610" colspan="6"><img src="/global_images/2.0/random2/2.0.banner.gif" alt="" width="610" height="74" border="0"></td>
+	</tr>
+<!-- /logo and banner image row -->		
+<!-- primary navigation row -->
+	<tr>
+	    <td width="10"></td>
+	    <td width="140"></td>
+	    <td width="10"></td>
+		<td width="610" colspan="6"  background="/global_images/spacer.gif"><a href="/attendees/"  onmouseover=rollOver('tab_attendees'); onmouseout=rollOff('tab_attendees');><img name='tab_attendees' src="/global_images/2.0/2.0_tab_attendees.gif" alt="Attendees" width="70" height="27" hspace="0" vspace="0" border="0" ></a><a href="/exhibitors/" onmouseover=rollOver('tab_exhibitor'); onmouseout=rollOff('tab_exhibitor');><img name='tab_exhibitor' src="/global_images/2.0/2.0_tab_exhibitor.gif" alt="Exhibitor Services" width="118" height="27" hspace="0" vspace="0" border="0"></a><a href="/press/" onmouseover=rollOver('tab_press'); onmouseout=rollOff('tab_press');><img name='tab_press' src="/global_images/2.0/2.0_tab_press.gif" width="78" height="27" alt="Press" border="0"></a><a href="/international/" onmouseover=introllOver('tab_international'); onmouseout=introllOff('tab_international');><img src="/global_images/2.0/2.0_tab_international.gif" width="134" height="27" alt="" border="0" name="tab_international"></a><img src="/global_images/2.0/random2/2.0_tab_right.gif" alt="" width="210" height="27" hspace="0" vspace="0" border="0"></td>
+	</tr>
+<!-- /primary navigation row -->
+<!-- secondary navigation row -->		
+	<tr>
+	    <td width="10"></td>
+			<form name="searchCESWeb" method="POST" action="/search/searchResult.asp">
+        	    <td width="760" colspan="8"  background="/global_images/spacer.gif"  class="exhibitor3">
+<!-- table for secondary navigation and form -->
+				<table cellspacing="0" cellpadding="0" border="0" width="760"  background="/global_images/spacer.gif" >
+				<tr>
+				<td class="exhibitor_second_nav" width="560"><a href='/exhibitors/space/'>Exhibit Space</a>&nbsp;&nbsp;|&nbsp;&nbsp;<span class="exh_sec_nav_active"><a href='/exhibitors/promotions/'>Promotions</a></span>&nbsp;&nbsp;|&nbsp;&nbsp;<a href='/exhibitors/resource_center/'>Resource Center</a>&nbsp;&nbsp;|&nbsp;&nbsp;<!--<span class="exh_sec_nav_active"><a href='/exhibitors/manual/'>Exhibitor Manual</a></span>&nbsp;&nbsp;|&nbsp;&nbsp;--><a href='/exhibitors/newsletter/'>Newsletter</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href='/exhibitors/downloads/'>Downloads</a></td>
+				<td width="173" align="right">
+<!-- Script for setting correct search box size -->
+				<script LANGUAGE="JavaScript">
+				<!--
+					if (is_nav4) {
+						document.write("<input  size=20 ");
+					} 
+					else if (is_mac) {
+						document.write("<input  size=30 ");
+					}
+					else if (is_safari) {
+						document.write("<input  size=25 ");
+					}
+					else {
+					    document.write("<input  size=34 ");
+					}
+                    function checkSearch() {
+                        var searchForm = document.searchCESWeb;
+                            
+                        if(searchForm.SEARCH_STRING.value.search(/\S/) == -1) {
+                            alert("Please enter text to search for.");
+                            return;
+                        }
+                        searchForm.submit();
+                    }
+				//-->
+				</script>
+				type="text" name="SEARCH_STRING" value=" Search CESweb.org" class="exhibitorform"  ONFOCUS="if(this.value==' Search CESweb.org')this.value=''; snrollOver('.button_search');" ONBLUR="if(this.value=='')this.value=' Search CESweb.org'; snrollOff('.button_search');" >&nbsp;&nbsp;</td>
+				<td width="27"><img name=".button_search"  src="/global_images/2.0/2.0.button_search.gif" alt="go" width="27" height="33" hspace="0" vspace="0" border="0" onmouseover=snrollOver('.button_search'); onmouseout=snrollOff('.button_search'); onClick="checkSearch();"></td>
+				</tr>
+				</table>
+<!-- /table for secondary navigation and form -->			
+		</td>
+			<input type="hidden" name="ExhibitorSearchField" value="on">
+			<input type="hidden" name="EventSearchField" value="on">
+			<input type="hidden" name="PressSearchField" value="on">
+			<input type="hidden" name="ConferenceSearchField" value="on">
+			<input type="hidden" name="GeneralCESwebSearchField" value="on">
+		</form>
+	 </tr>
+<!-- /secondary navigation row -->	
+<!-- colored row with section color 4 - 5 pixels high --> 
+	<tr>
+	    <td width="10"></td>
+	    <td width="140"></td>
+	    <td width="10"></td>
+	    <td width="610" colspan="6"  background="/global_images/spacer.gif" class="exhibitor4"><img src="/global_images/spacer.gif" alt="" width="610" height="5" hspace="0" vspace="0" border="0"></td>
+	 </tr>
+<!-- /colored row with section color 4 - 5 pixels high --> 	 
+<!-- breadcrumb row -->
+	<tr>
+	    <td width="10"></td>
+	    
+			<td width="140"><a href="/register/" onmouseover=snrollOver('.register'); onmouseout=snrollOff('.register');><img src="/global_images/2.0/2.0.register.gif" alt="Register" name=".register" id=".register" width="140" height="40" hspace="0" vspace="0" border="0"></a></td>
+		
+			<!--<td width="140"><a href="/exhibitors/resource_center/badges/default.asp" onmouseover=snrollOver('.register'); onmouseout=snrollOff('.register');><img src="/global_images//0.0_files/.register.gif" alt="Register" name=".register" id=".register" width="140" height="40" hspace="0" vspace="0" border="0"></a></td>-->
+		
+			<!--<td width="140"><a href="/registration_temp.asp" onmouseover=snrollOver('.register'); onmouseout=snrollOff('.register');><img src="/global_images//0.0_files/.register.gif" alt="Register" name=".register" id=".register" width="140" height="40" hspace="0" vspace="0" border="0"></a></td>-->
+		
+		<td width="10"></td>		
+
+		
+		    <td width="10" background="/global_images/spacer.gif" class="exhibitor6"><img src="/global_images/spacer.gif" alt="" width="10" height="40" hspace="0" vspace="0" border="0"></td>
+		    <td width="390" colspan="2" background="/global_images/spacer.gif" class="exhibitor6" valign="bottom"><span class="exhibitor_nav_breadcrumb">
+			<a href="/default.asp">Home</a>&nbsp;>&nbsp;<a href="/exhibitors/">Exhibitor Services</a>&nbsp;>&nbsp;Promotions
+			</span><br><img src="/global_images/spacer.gif" height="8" width="1"></td>
+		    <td width="200" background="/global_images/spacer.gif" colspan="2" class="exhibitor6"><img src="/global_images/2.0/2.0_print_mail.gif" width="115" height="40" alt="print - email" border="0"><a href=javascript:newWin("/global_include/asp/page_tools/print.asp","2.2") onmouseover=snrollOver('_button_print'); onmouseout=snrollOff('_button_print');><img src="/global_images/2.0/2.0_button_print.gif" alt="Print" name="_button_print" id="_button_print" width="43" height="40" hspace="0" vspace="0" border="0"></a><A HREF=javascript:openNewWindow("/global_include/asp/page_tools/email.asp") onmouseover=snrollOver('_button_mail'); onmouseout=snrollOff('_button_mail');><img src="/global_images/2.0/2.0_button_mail.gif" alt="Email" name="_button_mail" id="_button_mail" width="42" height="40" hspace="0" vspace="0" border="0"></a></td>
+		    <td width="10" background="/global_images/spacer.gif" class="exhibitor6">&nbsp;</td>
+    			
+	</tr>
+<!-- /breadcrumb row -->	
+<!-- main body row -->
+	<tr>
+	    <td width="10" background="/global_images/spacer.gif"></td>
+	    <td width="140" background="/global_images/spacer.gif" valign="top"><img src="/global_images/spacer.gif" width="140" height="20" alt="" border="0"><br>
+		<span class="nav_third">
+
+
+<!-- PROMOTIONS -->	
+<!--
+		<img src="/global_images/navigation/3nav_bar_gray.gif" alt="--------" width="140" height="1" hspace="0" vspace="0" border="0"><br>
+		<img src="/global_images/spacer.gif" width="140" height="4" alt="" border="0"><br>
+		<a href="/exhibitors/promotions/sponsorships.asp">Sponsorships</a><br>
+		<img src="/global_images/spacer.gif" width="140" height="6" alt="" border="0"><br>
+		<img src="/global_images/navigation/3nav_bar_gray.gif" alt="--------" width="140" height="1" hspace="0" vspace="0" border="0"><br>
+		<img src="/global_images/spacer.gif" width="140" height="4" alt="" border="0"><br>
+		<a href="/exhibitors/promotions/onsite.asp">On-site Advertising</a><br>
+		<img src="/global_images/spacer.gif" width="140" height="6" alt="" border="0"><br>
+		<img src="/global_images/navigation/3nav_bar_gray.gif" alt="--------" width="140" height="1" hspace="0" vspace="0" border="0"><br>
+		<img src="/global_images/spacer.gif" width="140" height="4" alt="" border="0"><br>
+		<a href="/exhibitors/promotions/print.asp">Print Advertising</a><br>
+		<img src="/global_images/spacer.gif" width="140" height="6" alt="" border="0"><br>
+		<img src="/global_images/navigation/3nav_bar_gray.gif" alt="--------" width="140" height="1" hspace="0" vspace="0" border="0"><br>		
+		<img src="/global_images/spacer.gif" width="140" height="4" alt="" border="0"><br>
+		<a href="/exhibitors/promotions/press.asp">Targeted Press Oportunities</a><br>
+		<img src="/global_images/spacer.gif" width="140" height="6" alt="" border="0"><br>
+		<img src="/global_images/navigation/3nav_bar_gray.gif" alt="--------" width="140" height="1" hspace="0" vspace="0" border="0"><br>
+		<img src="/global_images/spacer.gif" width="140" height="4" alt="" border="0"><br>
+		<a href="/exhibitors/promotions/mail.asp">Direct Mail</a><br>
+		<img src="/global_images/spacer.gif" width="140" height="6" alt="" border="0"><br>
+		<img src="/global_images/navigation/3nav_bar_gray.gif" alt="--------" width="140" height="1" hspace="0" vspace="0" border="0"><br>
+		<img src="/global_images/spacer.gif" width="140" height="4" alt="" border="0"><br>
+		<a href="/exhibitors/promotions/speaking.asp">Speaking Opportunities</a><br>
+		<img src="/global_images/spacer.gif" width="140" height="6" alt="" border="0"><br>
+		<img src="/global_images/navigation/3nav_bar_gray.gif" alt="--------" width="140" height="1" hspace="0" vspace="0" border="0"><br>
+		<img src="/global_images/spacer.gif" width="140" height="4" alt="" border="0"><br>
+		<a href="/exhibitors/promotions/events.asp">Industry Events</a><br>
+		<img src="/global_images/spacer.gif" width="140" height="6" alt="" border="0"><br>
+		<img src="/global_images/navigation/3nav_bar_gray.gif" alt="--------" width="140" height="1" hspace="0" vspace="0" border="0"><br>
+		<img src="/global_images/spacer.gif" width="140" height="4" alt="" border="0"><br>
+		<a href="/exhibitors/promotions/free.asp">Free Opportunities</a><br>
+		<img src="/global_images/spacer.gif" width="140" height="6" alt="" border="0"><br>
+		<img src="/global_images/navigation/3nav_bar_gray.gif" alt="--------" width="140" height="1" hspace="0" vspace="0" border="0"><br>
+		<img src="/global_images/spacer.gif" width="140" height="24" alt="" border="0"><br> 
+-->
+<!-- /PROMOTIONS -->	
+
+
+
+<a href="http://www.ce.org" target="new" onmouseover=snrollOver('_logo_cea'); onmouseout=snrollOff('_logo_cea');><img src="/global_images/2.0/2.0_logo_cea.gif" name="_logo_cea" width="140" height="116" alt="Produced by Consumer Electronics Association" border="0"></a>
+<br>
+</span>
+
+				
+		</td>
+	    <td width="10"></td>
+		<!-- checking to see if the page is a main section page or not -->
+		
+			<td width="10" background="/global_images/spacer.gif" class="exhibitor7">&nbsp;</td>
+		    <td width="590" colspan="4"  background="/global_images/spacer.gif" class="exhibitor7" valign="top">
+				
+					<img src="/global_images/spacer.gif" height="10" width="1"><br><div class="body_title">International CES byb+ Sponsorship Opportunities<br><img src="/global_images/spacer.gif" height="16" width="1"></div>
+				
+
+	
+<!-- text for main page -->
+<span class="section_title">BUILD YOUR BRAND</span><br><br>
+The largest consumer technology tradeshow starts in January, but your chance to tap its strength and industry reach starts in June.
+<br><br> 
+Get familiar with the general marketing options the International CES offers from the list below, and think about which promotional ideas match your message and your brand. We will notify you when 2005 International CES promotional opportunities become available. Remember, most are first-come, first-served&mdash;so get your list ready.
+<br><br>
+Let us help you identify what sponsorship opportunities are right for you. Call (703) 907-7688 or complete the <a href="promo_ops_contact_form.asp">online form</a> to contact a CES promotions representative.
+<br>
+<!--
+<table width="565" cellspacing="0" cellpadding="1" border="0">
+	<tr>
+		<td colspan="5">
+		<img src="/global_images/spacer.gif" alt="" width="1" height="10" hspace="0" vspace="0" border="0"><br>
+		<img src="/global_images/2.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"><br>
+		<img src="/global_images/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+		<span class="section_title"><a href="sponsorships.asp">Sponsorships</a></span>
+		</td>
+	</tr>
+	<tr><td colspan="5" height="5"><img src="/global_images/spacer.gif" height="5" border="0"></td></tr>
+	<tr>
+		<td width="220"><b>Marketing Opportunity</b></td>
+		<td width="5"><img src="/global_images/spacer.gif" alt="" width="5" height="1" border="0"></td>
+		<td width="150"><b>Marketing Investment</b></td>
+		<td width="5"><img src="/global_images/spacer.gif" alt="" width="5" height="1" border="0"></td>
+		<td width="185"><b>Deadline*</b></td>
+	</tr>
+	<tr class="exhibitor11">
+		<td><a href="sponsorships.asp?id=1#badgeMailer">Attendee Badge Mailer</A></td>
+		<td>&nbsp;</td><td>$15,000</td>
+		<td>&nbsp;</td><td></td>
+	</tr>
+	<tr>
+		<td><a href="sponsorships.asp?id=2#badgeHolders">Badge Holder Inserts</A></td>
+		<td>&nbsp;</td><td>$30,000</td>
+		<td>&nbsp;</td><td></td>
+	</tr>
+	<tr class="exhibitor11">
+		<td><a href="sponsorships.asp?id=3#lanyards">Badge Lanyards</A></td>
+		<td>&nbsp;</td><td>$35,000</td>
+		<td>&nbsp;</td><td></td>
+	</tr>
+	<tr>
+		<td><a href="sponsorships.asp?id=4#beaming">Beaming Stations</A></td>
+		<td>&nbsp;</td><td>$20,000</td>
+		<td>&nbsp;</td><td></td>
+	</tr>
+	<tr class="exhibitor11">
+		<td><a href="sponsorships.asp?id=5#cesStore">CES Store</A></td>
+		<td>&nbsp;</td><td>$20,000+</td>
+		<td>&nbsp;</td><td></td>
+	</tr>
+	<tr>
+		<td><a href="sponsorships.asp?id=6#conferenceGifts">Conference Program Gifts/Inserts</A></td>
+		<td>&nbsp;</td><td>$5,000+</td>
+		<td>&nbsp;</td><td></td>
+	</tr>
+	<tr class="exhibitor11">
+		<td><a href="sponsorships.asp?id=7#conferenceScreens">Conference Room Display Screens</A></td>
+		<td>&nbsp;</td><td>$5,000</td>
+		<td>&nbsp;</td><td></td>
+	</tr>
+	<tr>
+		<td><a href="sponsorships.asp?id=8#emailStations">E-mail Stations</A></td>
+		<td>&nbsp;</td><td>$35,000</td>
+		<td>&nbsp;</td><td></td>
+	</tr>
+	<tr class="exhibitor11">
+		<td><a href="sponsorships.asp?id=9#concessions">Food Concession Cups &amp; Napkins</A></td>
+		<td>&nbsp;</td><td>$25,000+</td>
+		<td>&nbsp;</td><td></td>
+	</tr>
+	
+	<tr>
+		<td><a href="sponsorships.asp?id=18#hdtvShowcase">HDTV Sports Bar</A></td>
+		<td>&nbsp;</td><td>$2,500+</td>
+		<td>&nbsp;</td><td></td>
+	</tr>
+	<tr class="exhibitor11">
+		<td><a href="sponsorships.asp?id=10#homeNetworking">Home Networking Reception</A></td>
+		<td>&nbsp;</td><td>$5,000+</td>
+		<td>&nbsp;</td><td></td>
+	</tr>
+	<tr>
+		<td><a href="sponsorships.asp?id=11#internationalCommerce">International Commerce Center & Reception</A></td>
+		<td>&nbsp;</td><td>$30,000</td>
+		<td>&nbsp;</td><td></td>
+	</tr>
+	<tr class="exhibitor11">
+		<td><a href="sponsorships.asp?id=12#bags">Official Show Bags</A></td>
+		<td>&nbsp;</td><td>$35,000+</td>
+		<td>&nbsp;</td><td></td>
+	</tr>
+	<tr>
+		<td><a href="sponsorships.asp?id=13#greeters">Registration Greeters</A></td>
+		<td>&nbsp;</td><td>$6,000</td>
+		<td>&nbsp;</td><td></td>
+	</tr>
+	<tr  class="exhibitor11">
+		<td><a href="sponsorships.asp?id=14#robots">Robots</A></td>
+		<td>&nbsp;</td><td>$5,000+</td>
+		<td>&nbsp;</td><td></td>
+	</tr>
+	<tr>
+		<td><a href="sponsorships.asp?id=15#techpav">TechZone Pavilions</A></td>
+		<td>&nbsp;</td><td>$15,000+</td>
+		<td>&nbsp;</td><td></td>
+	</tr>
+	<tr  class="exhibitor11">
+		<td><a href="sponsorships.asp?id=16#VIPbuyers">VIP Buyers Sponsorship</A></td>
+		<td>&nbsp;</td><td>Call for details!</td>
+		<td>&nbsp;</td><td></td>
+	</tr>
+	<tr>
+		<td><a href="sponsorships.asp?id=17#WirelessReception">Wireless Reception</A></td>
+		<td>&nbsp;</td><td>$20,000</td>
+		<td>&nbsp;</td><td></td>
+	</tr>
+
+	<tr>
+		<td colspan="5">
+		<img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"><br>
+		<img src="/global_images/2.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"><br>
+		<img src="/global_images/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+		<span class="section_title"><a href="onsite.asp">On-site Advertising</a></span>
+		</td>
+	</tr>
+	<tr><td colspan="5" height="5"><img src="/global_images/spacer.gif" height="5"></td></tr>
+	<tr>
+		<td><b>Marketing Opportunity</b></td>
+		<td>&nbsp;</td>
+		<td><b>Marketing Investment</b></td>
+		<td>&nbsp;</td>
+		<td><b>Deadline*</b></td>
+	</tr>	
+	<tr class="exhibitor11">
+		<td><a href="onsite.asp?id=1#banners">Interior &amp; Exterior Banners</A></td>
+		<td>&nbsp;</td><td>$4,000+</td>
+		<td>&nbsp;</td><td></td>
+	</tr>
+	<tr>
+		<td><a href="onsite.asp?id=2#inflatables">Inflatable, Custom Promotions</A></td>
+		<td>&nbsp;</td><td>$10,000</td>
+		<td>&nbsp;</td><td>December 2</td>
+	</tr>
+	<tr class="exhibitor11">
+		<td><a href="onsite.asp?id=3#cesTV">International CES-TV</A></td>
+		<td>&nbsp;</td><td>$3,500+</td>
+		<td>&nbsp;</td><td>December 12</td>
+	</tr>
+	<tr>
+		<td><a href="onsite.asp?id=4#kiosks">Literature Kiosks</A></td>
+		<td>&nbsp;</td><td>$5,000</td>
+		<td>&nbsp;</td><td></td>
+	</tr>
+	<tr class="exhibitor11">
+		<td><a href="onsite.asp?id=5#shuttleBus">Shuttle Advertising Programs</A></td>
+		<td>&nbsp;</td><td>$5,000+</td>
+		<td>&nbsp;</td><td>November 18</td>
+	</tr>
+
+	<tr>
+		<td colspan="5">
+		<img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"><br>
+		<img src="/global_images/2.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"><br>
+		<img src="/global_images/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+		<span class="section_title"><a href="print.asp">Print Advertising</a></span>
+		</td>
+	</tr>
+	<tr><td colspan="5" height="5"><img src="/global_images/spacer.gif" height="5"></td></tr>
+	<tr>
+		<td><b>Marketing Opportunity</b></td>
+		<td>&nbsp;</td>
+		<td><b>Marketing Investment</b></td>
+		<td>&nbsp;</td>
+		<td><b>Deadline*</b></td>
+	</tr>
+	<tr class="exhibitor11">
+		<td><a href="print.asp?id=1#directory"><I>International CES Directory</I></A></td>
+		<td>&nbsp;</td><td>Call for details!</td>
+		<td>&nbsp;</td><td>November 11</td>
+	</tr>
+	<tr>
+		<td><a href="print.asp?id=2#showPlanner"><I>International CES Pre-Show Planner</I></A></td>
+		<td>&nbsp;</td><td>Call for details!</td>
+		<td>&nbsp;</td><td>October 24</td>
+	</tr>
+	<tr class="exhibitor11">
+		<td><a href="print.asp?id=3#showDaily"><I>International CES Show Daily</I> from <i>TWICE</i></A></td>
+		<td>&nbsp;</td><td>Call for details!</td>
+		<td>&nbsp;</td><td>November 28</td>
+	</tr>
+	<tr>
+		<td><a href="print.asp?id=4#showGuide"><I>International CES Show Guide</I></A></td>
+		<td>&nbsp;</td><td>Call for details!</td>
+		<td>&nbsp;</td><td>November 21</td>
+	</tr>
+
+	<tr>
+		<td colspan="5">
+		<img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"><br>
+		<img src="/global_images/2.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"><br>
+		<img src="/global_images/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+		<span class="section_title"><a href="press.asp">Targeted Press Opportunities</a></span>
+		</td>
+	</tr>
+	<tr><td colspan="5" height="5"><img src="/global_images/spacer.gif" height="5"></td></tr>
+	<tr>
+		<td><b>Marketing Opportunity</b></td>
+		<td>&nbsp;</td>
+		<td><b>Marketing Investment</b></td>
+		<td>&nbsp;</td>
+		<td><b>Deadline*</b></td>
+	</tr>	
+	<tr>
+		<td><a href="press.asp?id=12#onlinemedia">Online Media Center</A></td>
+		<td>&nbsp;</td><td>$500+</td>
+		<td>&nbsp;</td><td>January 6, 2004</td>
+	</tr>
+	<tr class="exhibitor11">
+		<td><a href="press.asp?id=1#preCESReception">Pre-CES Media Receptions</A></td>
+		<td>&nbsp;</td><td>$15,000+</td>
+		<td>&nbsp;</td><td></td>
+	</tr>
+	<tr>
+		<td><a href="press.asp?id=2#badgeHolders">Press/Analysts Badge Holders</A></td>
+		<td>&nbsp;</td><td>$15,000</td>
+		<td>&nbsp;</td><td></td>
+	</tr>
+	<tr class="exhibitor11">
+		<td><a href="press.asp?id=3#bags">Press/Analysts Bags</A></td>
+		<td>&nbsp;</td><td>$75,000+</td>
+		<td>&nbsp;</td><td></td>
+	</tr>
+	
+		<td><a href="press.asp?id=3#waterBottles">Press/Analysts Bottled Water</A></td>
+		<td>&nbsp;</td><td>$20,000</td>
+		<td>&nbsp;</td><td></td>
+	</tr>
+	<tr class="exhibitor11">
+		<td><a href="press.asp?id=4#breakfasts">Press/Analysts Breakfasts</A></td>
+		<td>&nbsp;</td><td>$15,000+</td>
+		<td>&nbsp;</td><td></td>
+	</tr>
+	
+		<td><a href="press.asp?id=5#giveaways">Press/Analysts Gifts</A></td>
+		<td>&nbsp;</td><td>$7,500+</td>
+		<td>&nbsp;</td><td></td>
+	</tr>
+	<tr class="exhibitor11">
+		<td><a href="press.asp?id=6#lunch">Press/Analysts Lunch</A></td>
+		<td>&nbsp;</td><td>$30,000+</td>
+		<td>&nbsp;</td><td></td>
+	</tr>
+	
+		<td><a href="press.asp?id=7#notebooks">Press/Analysts Notebooks</A></td>
+		<td>&nbsp;</td><td>$30,000 + production</td>
+		<td>&nbsp;</td><td></td>
+	</tr>
+	<tr class="exhibitor11">
+		<td><a href="press.asp?id=11#food">Press Room Food</A></td>
+		<td>&nbsp;</td><td>$15,000+</td>
+		<td>&nbsp;</td><td></td>
+	</tr>
+	<tr>
+		<td><a href="press.asp?id=10#equipment">Press Room Technology Equipment</A></td>
+		<td>&nbsp;</td><td>$35,000</td>
+		<td>&nbsp;</td><td></td>
+	</tr>
+	<tr class="exhibitor11">
+		<td><a href="press.asp?id=10#kiosks">Press Room Wireless Device Kiosk</A></td>
+		<td>&nbsp;</td><td>$15,000</td>
+		<td>&nbsp;</td><td></td>
+	</tr>
+
+	<tr>
+		<td colspan="5">
+		<img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"><br>
+		<img src="/global_images/2.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"><br>
+		<img src="/global_images/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+		<span class="section_title"><a href="mail.asp">Direct Mail</a></span>
+		</td>
+	</tr>
+	<tr><td colspan="5" height="5"><img src="/global_images/spacer.gif" height="5"></td></tr>
+	<tr>
+		<td><b>Marketing Opportunity</b></td>
+		<td>&nbsp;</td>
+		<td><b>Marketing Investment</b></td>
+		<td>&nbsp;</td>
+		<td><b>Deadline*</b></td>
+	</tr>	
+	<tr class="exhibitor11">
+		<td><a href="mail.asp#email">E-mail Campaign</A></td>
+		<td>&nbsp;</td><td>$5,000+</td>
+		<td>&nbsp;</td><td></td>
+	</tr>
+	<tr>
+		<td><a href="mail.asp#preRegList">Pre-Registered Attendee Mailing Lists</A></td>
+		<td>&nbsp;</td><td>$625+</td>
+		<td>&nbsp;</td><td></td>
+	</tr>
+	<tr class="exhibitor11">
+		<td><a href="mail.asp#postShowList">Post Show Attendee Mailing Lists</A></td>
+		<td>&nbsp;</td><td>$625+</td>
+		<td>&nbsp;</td><td></td>
+	</tr>
+
+	<tr>
+		<td colspan="5">
+		<img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"><br>
+		<img src="/global_images/2.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"><br>
+		<img src="/global_images/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+		<span class="section_title"><a href="speaking.asp">Speaker Opportunities</a></span>
+		</td>
+	</tr>
+	<tr><td colspan="5" height="5"><img src="/global_images/spacer.gif" height="5"></td></tr>
+	<tr>
+		<td colspan="5">Share your knowledge, and build your reputation as a leader in the consumer electronics industry. <A HREF="/attendees/conferences/speakers/">Visit the speaker's section</A> for information on speaking opportunities at the 2003 International CES.</td>
+	</tr>
+
+	<tr>
+		<td colspan="5">
+		<img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"><br>
+		<img src="/global_images/2.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"><br>
+		<img src="/global_images/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+		<span class="section_title"><a href="events.asp">Industry Events</a></span>
+		</td>
+	</tr>
+	<tr><td colspan="5" height="5"><img src="/global_images/spacer.gif" height="5"></td></tr>
+	<tr>
+		<td><b>Marketing Opportunity</b></td>
+		<td>&nbsp;</td>
+		<td><b>Marketing Investment</b></td>
+		<td>&nbsp;</td>
+		<td><b>Deadline*</b></td>
+	</tr>	
+	<tr>
+		<td><a href="events.asp?id=1#ceaEvents">CEA Events</A></td>
+		<td>&nbsp;</td><td>Call for Details!</td>
+		<td>&nbsp;</td><td>&nbsp;</td>
+	</tr>
+
+	<tr>
+		<td colspan="5">
+		<img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"><br>
+		<img src="/global_images/2.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"><br>
+		<img src="/global_images/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+		<span class="section_title"><a href="free.asp">Free Opportunities</a></span>
+		</td>
+	</tr>
+	<tr><td colspan="5" height="5"><img src="/global_images/spacer.gif" height="5" border="0"></td></tr>
+	<tr>
+		<td colspan="5">Make sure you take advantage of these FREE International CES Exhibitor benefits, and maximize your exhibit exposure at the 2004 International CES!</td>
+	</tr>
+	<tr><td colspan="5" height="5"><img src="/global_images/spacer.gif" height="5" border="0"></td></tr>	
+	<tr>
+		<td><b>Marketing Opportunity</b></td>
+		<td>&nbsp;</td>
+		<td><b>Marketing Investment</b></td>
+		<td>&nbsp;</td>
+		<td><b>Deadline*</b></td>
+	</tr>	
+	<tr class="exhibitor11">
+		<td><a href="free.asp?id=1#awards">Awards</A></td>
+		<td>&nbsp;</td><td>Entry fee may be required.</td>
+		<td>&nbsp;</td><td>October 12</td>
+	</tr>
+	<tr>
+		<td><a href="free.asp?id=2#directory">CES Directory Updates</A></td>
+		<td>&nbsp;</td><td>FREE</td>
+		<td>&nbsp;</td><td>November 3 (print) - None (online)</td>
+	</tr>
+	<tr class="exhibitor11">
+		<td><a href="free.asp?id=3#regLink">CES Registration Link on Your Site</A></td>
+		<td>&nbsp;</td><td>FREE</td>
+		<td>&nbsp;</td><td>December 26</td>
+	</tr>
+	<tr>
+		<td><a href="free.asp?id=4#celebrity">Celebrity Announcements</A></td>
+		<td>&nbsp;</td><td>FREE</td>
+		<td>&nbsp;</td><td>Online service (no deadline)</td>
+	</tr>
+	<tr class="exhibitor11">
+		<td><a href="free.asp?id=5#invitations">Exhibitor Invitations</A></td>
+		<td>&nbsp;</td><td>FREE</td>
+		<td>&nbsp;</td><td>November 28</td>
+	</tr>
+	<tr>
+		<td><a href="free.asp?id=6#relations">Exhibitor Public Relations/Investor Relations Kit</A></td>
+		<td>&nbsp;</td><td>FREE</td>
+		<td>&nbsp;</td><td>Available June 2</td>
+	</tr>
+	<tr class="exhibitor11">
+		<td><a href="free.asp?id=7#newProducts">New Products Listing</A></td>
+		<td>&nbsp;</td><td>FREE</td>
+		<td>&nbsp;</td><td>Online service (no deadline)</td>
+	</tr>
+	<tr>
+		<td><a href="free.asp?id=8#preRegList">Pre-Registered Media List</A></td>
+		<td>&nbsp;</td><td>FREE</td>
+		<td>&nbsp;</td><td>Available November 3</td>
+	</tr>
+	<tr class="exhibitor11">
+		<td><a href="free.asp?id=9#pressConference">Press Conference Rooms</A></td>
+		<td>&nbsp;</td><td>FREE</td>
+		<td>&nbsp;</td><td>First Come, First Served</td>
+	</tr>
+	<tr>
+		<td><a href="free.asp?id=105#pressKit">Press Kit Distribution in Press Room</A></td>
+		<td>&nbsp;</td><td>FREE</td>
+		<td>&nbsp;</td><td>January 5, 2004</td>
+	</tr>
+	<tr class="exhibitor11">
+		<td><a href="free.asp?id=11#profile">Exhibitor Profile Distributed via Business Wire</A></td>
+		<td>&nbsp;</td><td valign="top">FREE</td>
+		<td>&nbsp;</td><td valign="top">December 29</td>
+	</tr>
+</table>
+<br>
+*<b>Most opportunities are available on a first-come, first-served basis.</b> Secure your sponsorship now, and maximize your company's exposure in print, online and on-site&mdash;at the world's leading technology event.
+-->
+<table width="590" cellspacing="0" cellpadding="1" border="0">
+	<tr>
+		<td colspan="5">
+		<img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"><br>
+		<img src="/global_images/2.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"><br>
+		<img src="/global_images/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+		<span class="section_title">Industry Events</span>
+		</td>
+	</tr>
+	<tr><td colspan="5" height="5"><img src="/global_images/spacer.gif" height="5"></td></tr>
+	<tr>
+		<td colspan="2">
+		<strong>CEA Events</strong><br>
+		The Consumer Electronics Association hosts many other events for the sake of industry growth, education, and advancement. Learn more about other CEA speaking opportunities and sponsorships. Visit <a href="http://www.ce.org/events/" target="new">www.CE.org/events</a>.
+ 		<br><br>
+		<strong>CEA Media Tour</strong><br>
+		The CEA national media tour lands in 75 cities throughout the year to highlight hundreds of consumer technology products on national and local TV, radio news broadcasts, network morning shows, specialized programs and daily newspapers. CEA members can add products to the tour at no charge. <a href="http://www.ce.org/press_room/national_media_tour/schedule.asp" target="new">Get more information about the media tour</a>, including schedule information.
+		</td>
+	</tr>
+</table>
+
+<table width="590" cellspacing="0" cellpadding="1" border="0">	
+	<tr>
+		<td colspan="5">
+		<img src="/global_images/spacer.gif" alt="" width="1" height="25" hspace="0" vspace="0" border="0"><br>
+		<img src="/global_images/2.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"><br>
+		<img src="/global_images/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+		<span class="section_title">Sponsorships</span>
+		</td>
+	</tr>
+	<tr><td><img src="/global_images/spacer.gif" height="5" width="300" border="0"></td><td><img src="/global_images/spacer.gif" height="5" width="290" border="0"></td></tr>
+	<tr>
+		<td valign="top">
+		<ul>
+			<li>Attendee Badge Mailer
+			<li>Badge Holder Inserts
+			<li>Badge Lanyards
+			<li>Beaming Stations
+			<li>CES Store
+			<li>Conference Program Gifts/Inserts
+			<li>Conference Room Display Screens
+			<li>E-mail Stations
+			<li>Food Concession Cups & Napkins
+			<li>HDTV Sports Bar
+			<li>Home Networking Reception
+			<li>International Commerce Center & Reception
+			<li>Official Show Bags
+			<li>Registration Greeters
+			<li>Robots
+			<li>TechZone Pavilions
+			<li>VIP Buyers Sponsorship
+			<li>Wireless Reception
+		</ul>
+		</td>
+		<td>
+		<img src="/exhibitors/promotions/images/2005/spons-email.jpg"><br><span class="text_colored">E-mail Stations</span><br><br>
+		<img src="/exhibitors/promotions/images/2005/spons-car.jpg"><br><span class="text_colored">VIP Buyers Sponsorship</span>
+		</td>
+	</tr>
+</table>
+
+<table width="590" cellspacing="0" cellpadding="1" border="0">	
+	<tr>
+		<td colspan="5">
+		<img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"><br>
+		<img src="/global_images/2.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"><br>
+		<img src="/global_images/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+		<span class="section_title">On-site Advertising</span>
+		</td>
+	</tr>
+	<tr><td><img src="/global_images/spacer.gif" height="5" width="200" border="0"></td><td><img src="/global_images/spacer.gif" height="5" width="390" border="0"></td></tr>
+	<tr>
+		<td valign="top">
+		<ul>
+			<li>Interior & Exterior Banners
+			<li>Inflatable, Custom Promotions
+			<li>International CES-TV
+			<li>Literature Kiosks
+			<li>Shuttle Advertising Programs
+		</ul>
+		</td>
+		<td>
+			<table cellpadding="0" cellspacing="0"><tr><td><img src="/exhibitors/promotions/images/2005/onsite-banner.jpg"></td><td>&nbsp;&nbsp;&nbsp;</td><td><img src="/exhibitors/promotions/images/2005/onsite-dog.jpg"></td></tr>
+			<tr><td><span class="text_colored">Exterior Banner</span></td><td>&nbsp;</td><td><span class="text_colored">Inflatable, Custom Promotions</span></td></tr>
+			</table>
+		</td>
+	</tr>
+</table>
+
+<table width="590" cellspacing="0" cellpadding="1" border="0">	
+	<tr>
+		<td colspan="5">
+		<img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"><br>
+		<img src="/global_images/2.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"><br>
+		<img src="/global_images/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+		<span class="section_title">Print Advertising</span>
+		</td>
+	</tr>
+	<tr><td><img src="/global_images/spacer.gif" height="5" width="245" border="0"></td><td><img src="/global_images/spacer.gif" height="5" width="345" border="0"></td></tr>
+	<tr>
+		<td valign="top">
+		<ul>
+			<li><em>International CES Directory</em>
+			<li><em>International CES Pre-Show Planner</em>
+			<li><em>International CES Show Daily</em> from <em>TWICE</em>
+			<li><em>International CES Show Guide</em>
+		</ul>
+		</td>
+		<td>
+		<img src="/exhibitors/promotions/images/2005/print-book.jpg"><br><span class="text_colored"><em>International CES Directory</em></span>
+		</td>
+	</tr>
+</table>
+
+<table width="590" cellspacing="0" cellpadding="1" border="0">	
+	<tr>
+		<td colspan="5">
+		<img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"><br>
+		<img src="/global_images/2.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"><br>
+		<img src="/global_images/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+		<span class="section_title">Targeted Press Opportunities</span>
+		</td>
+	</tr>
+	<tr><td><img src="/global_images/spacer.gif" height="5" width="245" border="0"></td><td><img src="/global_images/spacer.gif" height="5" width="345" border="0"></td></tr>
+	<tr>
+		<td valign="top">
+		<ul>
+			<li>Online Media Center
+			<li>Pre-CES Media Receptions
+			<li>Press/Analysts Badge Holders
+			<li>Press/Analysts Bags
+			<li>Press/Analysts Bottled Water
+			<li>Press/Analysts Breakfasts
+			<li>Press/Analysts Gifts
+			<li>Press/Analysts Lunch
+			<li>Press/Analysts Notebooks
+			<li>Press Room Food
+			<li>Press Room Technology Equipment
+			<li>Press Room Wireless Device Kiosk
+		</ul>
+		</td>
+		<td>
+			<table cellpadding="0" cellspacing="0"><tr><td><img src="/exhibitors/promotions/images/2005/press-bag.jpg"></td><td>&nbsp;&nbsp;&nbsp;</td><td valign="bottom"><img src="/exhibitors/promotions/images/2005/press-sign.jpg"></td></tr>
+			<tr><td><span class="text_colored">Press/Analysts Bags</span></td><td>&nbsp;</td><td><span class="text_colored">Press Room Sponsorship</span></td></tr>
+			</table>
+		</td>
+	</tr>
+</table>
+
+<table width="590" cellspacing="0" cellpadding="1" border="0">	
+	<tr>
+		<td colspan="5">
+		<img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"><br>
+		<img src="/global_images/2.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"><br>
+		<img src="/global_images/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+		<span class="section_title">Direct Mail</span>
+		</td>
+	</tr>
+	<tr><td><img src="/global_images/spacer.gif" height="5" width="245" border="0"></td><td><img src="/global_images/spacer.gif" height="5" width="345" border="0"></td></tr>
+	<tr>
+		<td valign="top">
+		<ul>	
+			<li>E-mail Campaign
+			<li>Pre-Registered Attendee Mailing Lists
+			<li>Post Show Attendee Mailing Lists
+		</ul>
+		</td>
+		<td><img src="/exhibitors/promotions/images/2005/mail-edm.jpg"><br><span class="text_colored">E-mail Campaign</span><br><br></td>
+	</tr>
+</table>
+
+<table width="590" cellspacing="0" cellpadding="1" border="0">	
+	<tr>
+		<td colspan="5">
+		<img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"><br>
+		<img src="/global_images/2.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"><br>
+		<img src="/global_images/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+		<span class="section_title">Speaker Opportunities</span>
+		</td>
+	</tr>
+	<tr><td colspan="5" height="5"><img src="/global_images/spacer.gif" height="5"></td></tr>
+	<tr>
+		<td colspan="5">Share your knowledge, and build your reputation as a leader in the consumer electronics industry. <A HREF="/attendees/conferences/speakers/">Visit the speaker's section</A> for information on speaking opportunities at the 2005 International CES.</td>
+	</tr>
+
+	<tr>
+		<td colspan="5">
+		<img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"><br>
+		<img src="/global_images/2.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"><br>
+		<img src="/global_images/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+		<span class="section_title">Free Opportunities</span>
+		</td>
+	</tr>
+	<tr><td colspan="5" height="5"><img src="/global_images/spacer.gif" height="5" border="0"></td></tr>
+	<tr>
+		<td colspan="5">Make sure you take advantage of these FREE International CES Exhibitor benefits, and maximize your exhibit exposure at the 2004 International CES!</td>
+	</tr>
+	<tr><td colspan="5" height="5"><img src="/global_images/spacer.gif" height="5" border="0"></td></tr>	
+	<tr>
+		<td>
+		<ul>
+			<li>Awards
+			<li>CES Directory Updates
+			<li>CES Registration Link on Your Site
+			<li>Celebrity Announcements
+			<li>Exhibitor Invitations
+			<li>Exhibitor Public Relations/Investor Relations Kit
+			<li>New Products Listing
+			<li>Pre-Registered Media List
+			<li>Press Conference Rooms
+			<li>Press Kit Distribution in Press Room
+			<li>Exhibitor Profile Distributed via Business Wire
+		</ul>
+		</td>
+	</tr>
+</table>
+<!-- /text for main page -->
+</div>
+	
+
+			<br>
+			<br>
+			<br>
+		</span>
+		</td>
+	    <td width="10" background="/global_images/spacer.gif" class="exhibitor7">&nbsp;</td>
+			
+		</tr>
+<!-- /main body row -->	
+<!-- footer row -->
+	<tr>
+	    <td width="10"></td>
+	    <td width="140"></td>
+	    <td width="10"></td>
+	    <!--<td width="610" colspan=6><img src="/global_images//_files/.page_bottom1.jpggif" alt="" width="610" hspace="0" vspace="0" border="0"></td>-->
+		<td width="610" colspan=6><img src="/global_images/2.0/2.0.page_bottom1.gif" alt="" width="610" hspace="0" vspace="0" border="0"></td>
+	</tr>
+	<tr>
+	    <td width="10"></td>
+	    <td width="140"></td>
+	    <td width="10"></td>
+	    <td width="10" class="footer"><img src="/global_images/footer_left.gif" alt="(" width="10" height="30" hspace="0" vspace="0" border="0"></td>
+	    <td width="380" background="/global_images/footer_bg.gif" class="footer"><span class="nav_footer"><a href="/about_ces/">About CES</a> | <a href="/faqs/">FAQs</a> | <a href="/contact_us/">Contact Us</a> | <a href="/site_map.asp">Site Map</a> | <a href="/privacy_policy.asp">Privacy Policy</a> | <a href="/vendors.asp">Vendors</a></span></td>
+	    <td width="210" colspan="3" align="right" background="/global_images/footer_bg.gif" class="footer"><span class="nav_footer"> &#169; 2004 CEA, All rights reserved</span></td>
+	    <td width="10" class="footer"><img src="/global_images/footer_right.gif" alt=")" width="10" height="30" hspace="0" vspace="0" border="0"></td>
+	</tr>
+<!-- /footer row -->			 		 	 	 
+	</table>
+	<img src="/global_images/spacer.gif" alt="" width="1" height="20" hspace="0" vspace="0" border="0"">
+<!-- /main table for site -->	
+
+
+</td>
+<td width="49%" valign="top" background="/global_images/exhibitor_bg.gif">&nbsp;</td>
+</tr>
+</table>
+
+
+</body>
+</html>

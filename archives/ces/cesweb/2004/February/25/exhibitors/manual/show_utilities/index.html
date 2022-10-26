@@ -1,0 +1,497 @@
+
+
+<SCRIPT language="javascript1.2">
+function newWin(urlString,pgNum)
+  {
+    var popupWindow;
+	urlString += "?pageID=" + pgNum;
+	
+    popupWindow = window.open(urlString,"","toolbar=yes,menubar=no,resizable=no,status=no,scrollbars=yes,location=no,directories=no,copyhistory=no,height=550,width=610,left=50,top=50");
+  }//  function for opening a new pop-up window for printing a page
+  
+ 
+function openNewWindow(strURL) {
+	window.name = "main";
+	
+	var newWindow = window.open(strURL,"newWindow", "toolbar=no,menubar=no,resizable=no,status=no,scrollbars=yes,location=no,directories=no,copyhistory=no,height=400,width=450,left=50,top=50");
+} //  function for opening a new pop-up window
+
+// javascript for e-mail this page tool - gets the url of the page the user is on before the e-mail page tool button is clicked
+	
+	function loadReferrer() {
+		referrerString = opener.document.location.href;
+		document.emailForm.page.value = referrerString;
+	}
+
+</SCRIPT>
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!-- 
+INSERT PAGE VARIABLES
+pgNum = the page ID
+template = 1 for full content space, 2 for added value, 3 for a 150px white column on the right side (for images)
+bodyTitle = the page header (or the alt text if we go the image route in the future)
+-->
+
+
+<html>
+<head>
+	<!-- INSERT PAGE TITLE HERE (immediately following gblPAGE_TITLE) -->
+	<title>2004 International CES:&nbsp;Exhibitor Manual - Show Utilities</title>
+	
+	<!-- INSERT SEARCH ZONE HERE -->
+	<META NAME="searchZone" CONTENT="exhibitor">
+
+	<!-- INSERT ANY SCRIPT TAGS FOR THIS PAGE HERE (header.asp closes the <head> tag!) -->
+	
+	
+	<link rel="StyleSheet" href="/global_include/css/main.css" type="text/css">
+	<LINK REL="SHORTCUT ICON" HREF="http://www.easymovement.com/ces/favicon.ico">
+
+<!-- Browser detection script -->
+	<script src="/global_include/js/browser_detection.js" type="text/javascript"></script>
+
+<!-- Rollover script -->	
+		
+		<script language="javascript1.2">	
+		/* for graphical rollovers*/
+			function rollOver(which,name) 
+				{
+				var on="/global_images/2.0/2.0_" + which + "_r.gif";
+				if(document.images) {document.images[which].src=on;}
+				else if (document.GetElementById){document.GetElementById(name).src=on;}
+				}
+			function rollOff(which) 
+				{
+				var on="/global_images/2.0/2.0_" + which + ".gif";
+				if(document.images){document.images[which].src=on;}
+				else if (document.GetElementById){document.GetElementById(which).src=on;}
+				}
+			function introllOver(which,name) 
+				{
+				var on="/global_images/2.0/2.0_" + which + "_r.gif";
+				//var on="/global_images/2.0/2.0_" + which + "_r.gif";
+				if(document.images) {document.images[which].src=on;}
+				else if (document.GetElementById){document.GetElementById(name).src=on;}
+				}
+			function introllOff(which) 
+				{
+				var on="/global_images/2.0/2.0_" + which + ".gif";
+				//var on="/global_images/2.0/2.0_" + which + ".gif";
+				if(document.images){document.images[which].src=on;}
+				else if (document.GetElementById){document.GetElementById(which).src=on;}
+				}
+			//******** JANAE ADDED THESE TO APPLY TO ONLY THE CENTER HOMEPAGE IMAGE********
+			function introllOverNEW(which,name) 
+				{
+				var on="/global_images/2.0/2.0_" + which + "_r.gif";
+				if(document.images) {document.images[which].src=on;}
+				else if (document.GetElementById){document.GetElementById(name).src=on;}
+				}
+			function introllOffNEW(which) 
+				{
+				var on="/global_images/2.0/2.0_" + which + ".gif";
+				if(document.images){document.images[which].src=on;}
+				else if (document.GetElementById){document.GetElementById(which).src=on;}
+				}
+			function snrollOver(which,name) 
+				{
+				var on="/global_images/2.0/2.0" + which + "_r.gif";
+				if(document.images) {document.images[which].src=on;}
+				else if (document.GetElementById){document.GetElementById(name).src=on;}
+				}
+			function snrollOff(which) 
+				{
+				var on="/global_images/2.0/2.0" + which + ".gif";
+				if(document.images){document.images[which].src=on;}
+				else if (document.GetElementById){document.GetElementById(which).src=on;}
+				}
+				
+			function onLoadHandler() {
+			    if( typeof(bodyOnLoadFunction) != 'undefined' ) {
+			        return eval(bodyOnLoadFunction);
+			    }
+			}
+		</script>
+		
+
+		<style>
+			.text_colored, .intro_copy, .section_title, .subhead, .body_title, .intro_dates
+				{ 	color:#3D6E2C}
+		</style>
+</head>
+
+<!-- script to determine the different browser and put in the correct body tag to align the background image properly -->
+<body  leftmargin='0' topmargin='0' rightmargin='0' bottommargin='0' marginwidth='0' onLoad="onLoadHandler();self.focus();"> 
+
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tr>
+
+<td width="50%" valign="top" background="/global_images/exhibitor_bg.gif">&nbsp;</td>
+<td width="1%" valign="top" background="/global_images/exhibitor_bg.gif">
+<!-- main table for site -->
+	<table width="770" cellspacing="0" cellpadding="0" border="0">
+<!-- Commented out dummy row to add another tr to the main table 
+	<tr>
+	    <td width="10"></td>
+	    <td width="140"></td>
+	    <td width="10"></td>
+	    <td width="10"></td>
+	    <td width="380"></td>
+	    <td width="10"></td>
+	    <td width="10"></td>
+	    <td width="190></td>
+	    <td width="10"></td>
+	</tr>
+   /Commented out dummy row to add another tr to the main table	-->
+<!-- blank 1 pixel row at top of page -->
+	<tr>
+	    <td width="10"><img src="/global_images/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+	    <td width="140"><img src="/global_images/spacer.gif" alt="" width="140" height="1" hspace="0" vspace="0" border="0"></td>
+	    <td width="10"><img src="/global_images/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+	    <td width="10"><img src="/global_images/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+	    <td width="380"><img src="/global_images/spacer.gif" alt="" width="380" height="1" hspace="0" vspace="0" border="0"></td>
+	    <td width="10"><img src="/global_images/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+	    <td width="10"><img src="/global_images/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+	    <td width="190"><img src="/global_images/spacer.gif" alt="" width="190" height="1" hspace="0" vspace="0" border="0"></td>
+	    <td width="10"><img src="/global_images/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+	</tr>
+<!-- /blank 1 pixel row at top of page -->
+<!-- global navigation row - register, about, faqs, contact, and site map -->
+	<tr>
+	    <td width="10"></td>
+	    <td width="140"></td>
+	    <td width="10"></td>
+	    <td width="10"></td>
+	    <td width="600" colspan="5" class="nav_global"><span class="intro_dates">January 8-11, 2004</span><img src="/global_images/spacer.gif" width="4" height="20" hspace="0" vspace="0" border="0" align="absmiddle">| Las Vegas<img src="/global_images/spacer.gif" alt="" width="225" height="1" border="0">	<a href="/about_ces/">About CES</a> | <a href="/faqs/">FAQs</a> | <a href="/contact_us/">Contact Us</a> | <a href="/site_map.asp">Site Map</a></td>
+	    <!--<td width="600" colspan="5" class="nav_global"><img src="/global_images/test_logo.jpg" width="385" height="20" hspace="0" vspace="0" border="0" align="absmiddle"><a href="/about_ces/">About CES</a> | <a href="/faqs/">FAQs</a> | <a href="/contact_us/">Contact Us</a> | <a href="site_map.asp">Site Map</a></td>-->
+	</tr>
+<!-- /global navigation row - register, about, faqs, contact, and site map -->	
+<!-- logo and banner image row -->	
+	<tr>
+	    <td width="10"></td>
+	    <td width="140"><a href="/default.asp"><img src="/global_images/logo.gif" alt="International CES" width="140" height="74" hspace="0" vspace="0" border="0"></a></td>
+	    <td width="10"></td>
+	    <td width="610" colspan="6"><img src="/global_images/2.0/random0/2.0.banner.gif" alt="" width="610" height="74" border="0"></td>
+	</tr>
+<!-- /logo and banner image row -->		
+<!-- primary navigation row -->
+	<tr>
+	    <td width="10"></td>
+	    <td width="140"></td>
+	    <td width="10"></td>
+		<td width="610" colspan="6"  background="/global_images/spacer.gif"><a href="/attendees/"  onmouseover=rollOver('tab_attendees'); onmouseout=rollOff('tab_attendees');><img name='tab_attendees' src="/global_images/2.0/2.0_tab_attendees.gif" alt="Attendees" width="70" height="27" hspace="0" vspace="0" border="0" ></a><a href="/exhibitors/" onmouseover=rollOver('tab_exhibitor'); onmouseout=rollOff('tab_exhibitor');><img name='tab_exhibitor' src="/global_images/2.0/2.0_tab_exhibitor.gif" alt="Exhibitor Services" width="118" height="27" hspace="0" vspace="0" border="0"></a><a href="/press/" onmouseover=rollOver('tab_press'); onmouseout=rollOff('tab_press');><img name='tab_press' src="/global_images/2.0/2.0_tab_press.gif" width="78" height="27" alt="Press" border="0"></a><a href="/international/" onmouseover=introllOver('tab_international'); onmouseout=introllOff('tab_international');><img src="/global_images/2.0/2.0_tab_international.gif" width="134" height="27" alt="" border="0" name="tab_international"></a><img src="/global_images/2.0/random0/2.0_tab_right.gif" alt="" width="210" height="27" hspace="0" vspace="0" border="0"></td>
+	</tr>
+<!-- /primary navigation row -->
+<!-- secondary navigation row -->		
+	<tr>
+	    <td width="10"></td>
+			<form name="searchCESWeb" method="POST" action="/search/searchResult.asp">
+        	    <td width="760" colspan="8"  background="/global_images/spacer.gif"  class="exhibitor3">
+<!-- table for secondary navigation and form -->
+				<table cellspacing="0" cellpadding="0" border="0" width="760"  background="/global_images/spacer.gif" >
+				<tr>
+				<td class="exhibitor_second_nav" width="560"><a href='/exhibitors/space/'>Exhibit Space</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href='/exhibitors/promotions/'>Promotions</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href='/exhibitors/resource_center/'>Resource Center</a>&nbsp;&nbsp;|&nbsp;&nbsp;<!--<span class="exh_sec_nav_active"><a href='/exhibitors/manual/'>Exhibitor Manual</a></span>&nbsp;&nbsp;|&nbsp;&nbsp;--><a href='/exhibitors/newsletter/'>Newsletter</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href='/exhibitors/downloads/'>Downloads</a></td>
+				<td width="173" align="right">
+<!-- Script for setting correct search box size -->
+				<script LANGUAGE="JavaScript">
+				<!--
+					if (is_nav4) {
+						document.write("<input  size=20 ");
+					} 
+					else if (is_mac) {
+						document.write("<input  size=30 ");
+					}
+					else if (is_safari) {
+						document.write("<input  size=25 ");
+					}
+					else {
+					    document.write("<input  size=34 ");
+					}
+                    function checkSearch() {
+                        var searchForm = document.searchCESWeb;
+                            
+                        if(searchForm.SEARCH_STRING.value.search(/\S/) == -1) {
+                            alert("Please enter text to search for.");
+                            return;
+                        }
+                        searchForm.submit();
+                    }
+				//-->
+				</script>
+				type="text" name="SEARCH_STRING" value=" Search CESweb.org" class="exhibitorform"  ONFOCUS="if(this.value==' Search CESweb.org')this.value=''; snrollOver('.button_search');" ONBLUR="if(this.value=='')this.value=' Search CESweb.org'; snrollOff('.button_search');" >&nbsp;&nbsp;</td>
+				<td width="27"><img name=".button_search"  src="/global_images/2.0/2.0.button_search.gif" alt="go" width="27" height="33" hspace="0" vspace="0" border="0" onmouseover=snrollOver('.button_search'); onmouseout=snrollOff('.button_search'); onClick="checkSearch();"></td>
+				</tr>
+				</table>
+<!-- /table for secondary navigation and form -->			
+		</td>
+			<input type="hidden" name="ExhibitorSearchField" value="on">
+			<input type="hidden" name="EventSearchField" value="on">
+			<input type="hidden" name="PressSearchField" value="on">
+			<input type="hidden" name="ConferenceSearchField" value="on">
+			<input type="hidden" name="GeneralCESwebSearchField" value="on">
+		</form>
+	 </tr>
+<!-- /secondary navigation row -->	
+<!-- colored row with section color 4 - 5 pixels high --> 
+	<tr>
+	    <td width="10"></td>
+	    <td width="140"></td>
+	    <td width="10"></td>
+	    <td width="610" colspan="6"  background="/global_images/spacer.gif" class="exhibitor4"><img src="/global_images/spacer.gif" alt="" width="610" height="5" hspace="0" vspace="0" border="0"></td>
+	 </tr>
+<!-- /colored row with section color 4 - 5 pixels high --> 	 
+<!-- breadcrumb row -->
+	<tr>
+	    <td width="10"></td>
+	    
+			<td width="140"><a href="/register/" onmouseover=snrollOver('.register'); onmouseout=snrollOff('.register');><img src="/global_images/2.0/2.0.register.gif" alt="Register" name=".register" id=".register" width="140" height="40" hspace="0" vspace="0" border="0"></a></td>
+		
+			<!--<td width="140"><a href="/exhibitors/resource_center/badges/default.asp" onmouseover=snrollOver('.register'); onmouseout=snrollOff('.register');><img src="/global_images//0.0_files/.register.gif" alt="Register" name=".register" id=".register" width="140" height="40" hspace="0" vspace="0" border="0"></a></td>-->
+		
+			<!--<td width="140"><a href="/registration_temp.asp" onmouseover=snrollOver('.register'); onmouseout=snrollOff('.register');><img src="/global_images//0.0_files/.register.gif" alt="Register" name=".register" id=".register" width="140" height="40" hspace="0" vspace="0" border="0"></a></td>-->
+		
+		<td width="10"></td>		
+
+		
+		    <td width="10" background="/global_images/spacer.gif" class="exhibitor6"><img src="/global_images/spacer.gif" alt="" width="10" height="40" hspace="0" vspace="0" border="0"></td>
+		    <td width="390" colspan="2" background="/global_images/spacer.gif" class="exhibitor6" valign="bottom"><span class="exhibitor_nav_breadcrumb">
+			<a href="/default.asp">Home</a>&nbsp;>&nbsp;<a href="/exhibitors/">Exhibitor Services</a>&nbsp;>&nbsp;<a href="/exhibitors/manual/">Exhibitor Manual</a>&nbsp;>&nbsp;Show Utilities
+			</span><br><img src="/global_images/spacer.gif" height="8" width="1"></td>
+		    <td width="200" background="/global_images/spacer.gif" colspan="2" class="exhibitor6"><img src="/global_images/2.0/2.0_print_mail.gif" width="115" height="40" alt="print - email" border="0"><a href=javascript:newWin("/global_include/asp/page_tools/print.asp","2.4.8") onmouseover=snrollOver('_button_print'); onmouseout=snrollOff('_button_print');><img src="/global_images/2.0/2.0_button_print.gif" alt="Print" name="_button_print" id="_button_print" width="43" height="40" hspace="0" vspace="0" border="0"></a><A HREF=javascript:openNewWindow("/global_include/asp/page_tools/email.asp") onmouseover=snrollOver('_button_mail'); onmouseout=snrollOff('_button_mail');><img src="/global_images/2.0/2.0_button_mail.gif" alt="Email" name="_button_mail" id="_button_mail" width="42" height="40" hspace="0" vspace="0" border="0"></a></td>
+		    <td width="10" background="/global_images/spacer.gif" class="exhibitor6">&nbsp;</td>
+    			
+	</tr>
+<!-- /breadcrumb row -->	
+<!-- main body row -->
+	<tr>
+	    <td width="10" background="/global_images/spacer.gif"></td>
+	    <td width="140" background="/global_images/spacer.gif" valign="top"><img src="/global_images/spacer.gif" width="140" height="20" alt="" border="0"><br>
+		<span class="nav_third">
+
+
+<!-- EXHIBITOR MANUAL -->	
+		<img src="/global_images/navigation/3nav_bar_gray.gif" alt="--------" width="140" height="1" hspace="0" vspace="0" border="0"><br>
+		<img src="/global_images/spacer.gif" width="140" height="4" alt="" border="0"><br>
+		<a href="/exhibitors/manual/show_info/default.asp">General Show Information</a><br>
+		<img src="/global_images/spacer.gif" width="140" height="6" alt="" border="0"><br>
+		<img src="/global_images/navigation/3nav_bar_gray.gif" alt="--------" width="140" height="1" hspace="0" vspace="0" border="0"><br>
+		<img src="/global_images/spacer.gif" width="140" height="4" alt="" border="0"><br>
+		<a href="/exhibitors/manual/rules_regulations/default.asp">Rules & Regulations</a><br>
+		<img src="/global_images/spacer.gif" width="140" height="6" alt="" border="0"><br>
+		<img src="/global_images/navigation/3nav_bar_gray.gif" alt="--------" width="140" height="1" hspace="0" vspace="0" border="0"><br>
+		<img src="/global_images/spacer.gif" width="140" height="4" alt="" border="0"><br>
+		<a href="/exhibitors/manual/meeting_rooms/default.asp">Meeting & Demonstration Rooms</a><br>
+		<img src="/global_images/spacer.gif" width="140" height="6" alt="" border="0"><br>
+		<img src="/global_images/navigation/3nav_bar_gray.gif" alt="--------" width="140" height="1" hspace="0" vspace="0" border="0"><br>		
+		<img src="/global_images/spacer.gif" width="140" height="4" alt="" border="0"><br>
+		<a href="/exhibitors/manual/contractors/default.asp">Exhibitor Appointed Contractors</a><br>
+		<img src="/global_images/spacer.gif" width="140" height="6" alt="" border="0"><br>
+		<img src="/global_images/navigation/3nav_bar_gray.gif" alt="--------" width="140" height="1" hspace="0" vspace="0" border="0"><br>
+		<img src="/global_images/spacer.gif" width="140" height="4" alt="" border="0"><br>
+		<a href="http://www.gesinterkit.com" target="new">GES Info & Order Forms</a><br>
+		<img src="/global_images/spacer.gif" width="140" height="6" alt="" border="0"><br>
+		<img src="/global_images/navigation/3nav_bar_gray.gif" alt="--------" width="140" height="1" hspace="0" vspace="0" border="0"><br>
+		<img src="/global_images/spacer.gif" width="140" height="4" alt="" border="0"><br>
+		<a href="/exhibitors/manual/shipping/default.asp">Shipping & Material Handling</a><br>
+		<img src="/global_images/spacer.gif" width="140" height="6" alt="" border="0"><br>
+		<img src="/global_images/navigation/3nav_bar_gray.gif" alt="--------" width="140" height="1" hspace="0" vspace="0" border="0"><br>
+		<img src="/global_images/spacer.gif" width="140" height="4" alt="" border="0"><br>
+		<a href="/exhibitors/manual/installation_dismantling/default.asp">Installation & Dismantling</a><br>
+		<img src="/global_images/spacer.gif" width="140" height="6" alt="" border="0"><br>
+		<img src="/global_images/navigation/3nav_bar_gray.gif" alt="--------" width="140" height="1" hspace="0" vspace="0" border="0"><br>
+		<img src="/global_images/spacer.gif" width="140" height="4" alt="" border="0"><br>
+		Show Utilities</a><br>
+		<img src="/global_images/spacer.gif" width="140" height="6" alt="" border="0"><br>
+		<img src="/global_images/navigation/3nav_bar_gray.gif" alt="--------" width="140" height="1" hspace="0" vspace="0" border="0"><br>
+		<img src="/global_images/spacer.gif" width="140" height="4" alt="" border="0"><br> 
+		<a href="/exhibitors/manual/supplemental_services/default.asp">Supplemental Services</a><br>
+		<img src="/global_images/spacer.gif" width="140" height="6" alt="" border="0"><br>
+		<img src="/global_images/navigation/3nav_bar_gray.gif" alt="--------" width="140" height="1" hspace="0" vspace="0" border="0"><br>
+		<img src="/global_images/spacer.gif" width="140" height="4" alt="" border="0"><br> 
+		<a href="/exhibitors/manual/booth_security/default.asp">Booth Security</a><br>
+		<img src="/global_images/spacer.gif" width="140" height="6" alt="" border="0"><br>
+		<img src="/global_images/navigation/3nav_bar_gray.gif" alt="--------" width="140" height="1" hspace="0" vspace="0" border="0"><br>
+		<img src="/global_images/spacer.gif" width="140" height="4" alt="" border="0"><br> 
+		<a href="/exhibitors/manual/contact_info/default.asp">Key Contact Info</a><br>
+		<img src="/global_images/spacer.gif" width="140" height="6" alt="" border="0"><br>
+		<img src="/global_images/navigation/3nav_bar_gray.gif" alt="--------" width="140" height="1" hspace="0" vspace="0" border="0"><br>
+		<img src="/global_images/spacer.gif" width="140" height="4" alt="" border="0"><br> 
+		<a href="/exhibitors/manual/deadlines/default.asp">Deadline Checklist</a><br>
+		<img src="/global_images/spacer.gif" width="140" height="6" alt="" border="0"><br>
+		<img src="/global_images/navigation/3nav_bar_gray.gif" alt="--------" width="140" height="1" hspace="0" vspace="0" border="0"><br>
+		<img src="/global_images/spacer.gif" width="140" height="24" alt="" border="0"><br> 
+<!-- /EXHIBITOR MANUAL -->	
+
+
+
+<a href="http://www.ce.org" target="new" onmouseover=snrollOver('_logo_cea'); onmouseout=snrollOff('_logo_cea');><img src="/global_images/2.0/2.0_logo_cea.gif" name="_logo_cea" width="140" height="116" alt="Produced by Consumer Electronics Association" border="0"></a>
+<br>
+</span>
+
+				
+		</td>
+	    <td width="10"></td>
+		<!-- checking to see if the page is a main section page or not -->
+		
+			<td width="10" background="/global_images/spacer.gif" class="exhibitor7">&nbsp;</td>
+		    <td width="590" colspan="4"  background="/global_images/spacer.gif" class="exhibitor7" valign="top">
+				
+					<img src="/global_images/spacer.gif" height="10" width="1"><br><div class="body_title">Show Utilities<br><img src="/global_images/spacer.gif" height="16" width="1"></div>
+				
+
+<div id="2.4.8">		
+<!-- text for main page -->
+<table class="exhibitor8" width="590" cellspacing="0" cellpadding="0" border="0">
+	<tr>
+	    <td width="10"><img src="/global_images/exhibitor_in_page_up_left.gif" alt="" width="10" height="10" hspace="0" vspace="0" border="0"></td>
+	    <td width="260"><img src="/global_images/spacer.gif" alt="" width="260" height="10" hspace="0" vspace="0" border="0"></td>
+	    <td width="20"><img src="/global_images/spacer.gif" alt="" width="20" height="10" hspace="0" vspace="0" border="0"></td>
+	    <td width="290"><img src="/global_images/spacer.gif" alt="" width="290" height="10" hspace="0" vspace="0" border="0"></td>
+	    <td width="10"><img src="/global_images/exhibitor_in_page_up_right.gif" alt="" width="10" height="10" hspace="0" vspace="0" border="0"></td>	
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><span class="subhead">On this page:</span></td>
+		<td>&nbsp;</td>
+		<td><span class="subhead">Downloads:</span></td>
+	</tr>
+<tr>
+	    <td>&nbsp;</td>
+		<td valign="top" class="text">
+			<span class="nav_fourth_arrow"><b>>&nbsp;&nbsp;</b></span><a href="?id=37#37" class="inpagenav">Electrical, Internet & Telecommunications Overview</a><br>		
+			<span class="nav_fourth_arrow"><b>>&nbsp;&nbsp;</b></span><a href="?id=38#38" class="inpagenav">Electrical Service Information</a><br>
+			<span class="nav_fourth_arrow"><b>>&nbsp;&nbsp;</b></span><a href="?id=40#40" class="inpagenav">Telephone, Internet / Network Service (LVCC)</a><br>
+			<span class="nav_fourth_arrow"><b>>&nbsp;&nbsp;</b></span><a href="?id=41#41" class="inpagenav">Telephone, Internet / Network Service (LV Hilton)</a>				
+		</td>
+	    <td>&nbsp;</td>
+		<td valign="top" class="text">
+			<span class="nav_fourth_arrow"><b>>&nbsp;&nbsp;</b></span><a href="include/SmartCityGlossaryofTerms.pdf" target="new" class="inpagenav">Smart City Glossary of Terms (LVCC)</a><br>
+			<span class="nav_fourth_arrow"><b>>&nbsp;&nbsp;</b></span><a href="include/SmartCityTipsTricks.pdf" target="new" class="inpagenav">Smart City Helpful Hints (LVCC)</a><br>		
+			<span class="nav_fourth_arrow"><b>>&nbsp;&nbsp;</b></span><a href="include/SmartCityPhoneOrderForm.pdf" target="new" class="inpagenav">Smart City Phone Service Contract (LVCC)</a><br>		
+			<span class="nav_fourth_arrow"><b>>&nbsp;&nbsp;</b></span><a href="include/SmartCityInternetOrderForm.pdf" target="new" class="inpagenav">Smart City Internet Service Contract (LVCC)</a><br>
+			<span class="nav_fourth_arrow"><b>>&nbsp;&nbsp;</b></span><a href="include/LVCCVirusProtection.pdf" target="new" class="inpagenav">Smart City Network Security Protection Affidavit (LVCC)</a><br>
+			<span class="nav_fourth_arrow"><b>>&nbsp;&nbsp;</b></span><a href="include/WirelessInfo.pdf" target="new" class="inpagenav">Smart City Wireless Internet Information (LVCC)</a><br>
+			<span class="nav_fourth_arrow"><b>>&nbsp;&nbsp;</b></span><a href="include/SmartCityFloorWorkLetter.pdf" target="new" class="inpagenav">Smart City Labor Worksheet (LVCC)</a><br>
+			<span class="nav_fourth_arrow"><b>>&nbsp;&nbsp;</b></span><a href="include/LVCVACableDropRequestForm.pdf" target="new" class="inpagenav">LVCVA Cable Service Request Form (LVCC)</a><br>
+			<span class="nav_fourth_arrow"><b>>&nbsp;&nbsp;</b></span><a href="include/LVHPriorityPhoneForm.pdf" target="new" class="inpagenav">Priority Networks Phone/Internet Service Contract (Hilton)</a><br>		
+		</td>
+	    <td>&nbsp;</td>
+	</tr>
+	<tr>
+	    <td width="10"><img src="/global_images/exhibitor_in_page_down_left.gif" alt="" width="10" height="10" hspace="0" vspace="0" border="0"></td>
+	    <td width="260"><img src="/global_images/spacer.gif" alt="" width="260" height="10" hspace="0" vspace="0" border="0"></td>
+	    <td width="20"><img src="/global_images/spacer.gif" alt="" width="20" height="10" hspace="0" vspace="0" border="0"></td>
+	    <td width="290"><img src="/global_images/spacer.gif" alt="" width="290" height="10" hspace="0" vspace="0" border="0"></td>
+	    <td width="10"><img src="/global_images/exhibitor_in_page_down_right.gif" alt="" width="10" height="10" hspace="0" vspace="0" border="0"></td>
+	</tr>
+</table>
+<table width="100%" border=0 cellpadding="0" cellspacing="0">
+
+<tr><a name="37"></a>
+<tr><td><img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td><img src="/global_images/2.0/line.gif" alt="-----------------------------------------------" height="1" width="100%"hspace="0" vspace="0" border="0"></td></tr>
+<tr><td><img src="/global_images/spacer.gif" alt="" width="1" height="3" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td><span class="subhead">Electrical, Internet & Telecommunications Overview</span></td></tr>
+<tr><td><img src="/global_images/spacer.gif" alt="" width="1" height="3" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td>Forms for electrical service and labor can be found in the <a href="/exhibitors/manual/supplemental_services/default.asp">Supplemental Services</a> section.  Telephone and internet/network service for the LVCC and LV Hilton can be arranged using the downloadable forms located above.  <br><br>Cable service is also available at the Las Vegas Convention Center and can be ordered using the downloadable form located above.  Antenna requests should be directed to James Gregory with TSE at (573) 345-0475 or via e-mail at <a href="mailto:jgregory@gesexpo.com">jgregory@gesexpo.com</a>.</td></tr>
+<tr><td><img src="/global_images/spacer.gif" height="5" border="0"><br><a href="#">[back to top]</a></td></tr>
+
+<tr><a name="38"></a>
+<tr><td><img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td><img src="/global_images/2.0/line.gif" alt="-----------------------------------------------" height="1" width="100%"hspace="0" vspace="0" border="0"></td></tr>
+<tr><td><img src="/global_images/spacer.gif" alt="" width="1" height="3" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td><span class="subhead">Electrical Service Information</span></td></tr>
+<tr><td><img src="/global_images/spacer.gif" alt="" width="1" height="3" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td><strong>Trade Show Electric (TSE)</strong> is the exclusive provider of electrical service in the Las Vegas Convention Center (LVCC) exhibit halls and meeting rooms, as well as the Las Vegas Hilton. </td></tr>
+<tr><td><br>General overhead hall lighting is provided to exhibitors without charge.  Where electrical services for special lighting, outlets, spotlights and the operation of exhibitor’s products are required, please complete the electrical order form included in this section.   Forms should be completed and returned as soon as possible. If 24- hour electrical service is required in your booth,  please be sure to order such service.  <strong>A discount applies to advance orders.</strong>  See individual order forms for prices.</td></tr>
+<tr><td><br><b>Meeting Room Exhibitors:</b>  Existing electrical service is limited to installed outlets in each room.  To utilize these outlets, exhibitors should order service and labor from TSE Electrical.  </td></tr>
+<tr><td><br><b>TSE ELECTRICIAN LABOR RATES (LVCC, Hilton)</b></td></tr>		
+<tr><td>Straight Time - $79.40 per hour<br>Overtime* - $150.45 per hour</td></tr>	
+<tr><td>*Before 8:00 a.m. and after 5:00 p.m. weekdays and all hours Saturday, Sunday, and Holidays.</td></tr>
+<tr><td><br><strong>The TSE electrical information brochure and order forms are located online at <a href="http://www.gesinterkit.com/SecureLogin/IK2_Login_new.cfm" target="new">www.GESinterkit.com</a>.</strong></td></tr>
+<tr><td><img src="/global_images/spacer.gif" height="5" border="0"><br><a href="#">[back to top]</a></td></tr>
+
+<tr><a name="40"></a>
+<tr><td><img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td><img src="/global_images/2.0/line.gif" alt="-----------------------------------------------" height="1" width="100%"hspace="0" vspace="0" border="0"></td></tr>
+<tr><td><img src="/global_images/spacer.gif" alt="" width="1" height="3" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td><span class="subhead">Telephone, Internet / Network Service (LVCC Exhibitors)</span></td></tr>
+<tr><td><img src="/global_images/spacer.gif" alt="" width="1" height="10" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td>
+	<font style="color:#CC0000"><strong>NEW THIS YEAR:</strong>
+	<ul>
+		<li>Anyone showing up at CES with devices/computers that do not have the latest virus definitions, operating system patches, etc. and cause network problems will be disconnected from the network until their devices/computers are free of problems.  SmartCity will have automatic port monitoring that will close down ports when it detects a problem.  SmartCity should also have CDs with the latest fixes that they can give to customers to fix their devices.<br><br>
+		<li><strong>Planning on showcasing wireless products or services in your booth this year?</strong>
+			<br>
+			As the exclusive provider of wireless services at the Las Vegas Convention Center, Smart City requires all exhibitors showcasing wireless products and services to contact them three weeks in advance of the show in order for Smart City to engineer a cohesive operating network.  Due to the extensive coverage Smart City provides for the facility and the high number of exhibitors that showcase wireless at CES, this a necessary step to ensure that everything runs smoothly.
+			<br><br>
+			<strong>Exhibitors are not permitted to</strong> set up their own access points and/or run their own wireless network if they are not specifically showcasing or demonstrating wireless as part of their exhibit.  This is also a necessary step in order eliminate interference with Smart City’s network and other wireless exhibitors.
+			<br><br>
+			<strong>Questions?</strong> Download the <a href="include/WirelessInfo.pdf" target="new" class="inpagenav">Wireless Internet Information Sheet</a>(pdf) or contact Smart City at (888) 446-6911, (702) 943-6000 or <a href="mailto:snewcomb@smartcity.com">snewcomb@smartcity.com</a>.</font>
+	</ul>
+	<br>
+	<strong>Smart City</strong> is the exclusive provider of Telephone, Internet and Data Network service in the Las Vegas Convention Center.  Contact Smart City at (800) 446-6911, (702) 943-6000 or e-mail <a href="mailto:snewcomb@smartcity.com">snewcomb@smartcity.com</a></td></tr>
+<tr><td><br><b>Orders placed and paid for after December 9, 2003 are not guaranteed by the opening of the Show.</b>  You may pick up your telephone instrument(s) at the Exhibitor Service Center in your exhibit hall.    Telephone service will be disconnected at the close of the show on Sunday, January 11, unless you notify the appropriate telephone supplier otherwise.  Telecommunications, network service and antenna drops may be ordered using the Smart City forms in this section.</td></tr>
+<tr><td><br>A $75 per line late charge for Telephone service and a $250 per line late charge for Internet/Network service will be applied by Smart City for lines ordered and paid for later than December 9, 2003.   There is an additional late charge if you order on-site or after move-in has started (see order form for details).</td></tr>
+<tr><td><br>Each phone line ordered comes with an actual instrument (telephone) that is yours to keep.  If you would like to use your own instrument in order to reduce costs, note this on your telephone service order form by ordering the line only.   This applies to single phone line only, not multi-line orders. </td></tr>
+<tr><td><br><b>IMPORTANT:</b> Exhibitors are prohibited from personally distributing hard wire phone service to other exhibiting companies/booths.  The work must be done by Smart City.</td></tr>
+<tr><td><br><strong>Downloadable order forms for telephone and internet service are located above.</strong></td></tr>
+<tr><td><img src="/global_images/spacer.gif" height="5" border="0"><br><a href="#">[back to top]</a></td></tr>
+
+<tr><a name="41"></a>
+<tr><td><img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td><img src="/global_images/2.0/line.gif" alt="-----------------------------------------------" height="1" width="100%"hspace="0" vspace="0" border="0"></td></tr>
+<tr><td><img src="/global_images/spacer.gif" alt="" width="1" height="3" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td><span class="subhead">Telephone, Internet / Network Service (LVCC Hilton Exhibitors)</span></td></tr>
+<tr><td><img src="/global_images/spacer.gif" alt="" width="1" height="3" hspace="0" vspace="0" border="0"></td></tr>
+<tr><td><strong>Priority Networks</strong> is the exclusive provider of Telephone, Internet and Data Network service in the Las Vegas Hilton.  <br><br>Questions regarding services or orders can be directed to Patti West with Priority Networks at (702) 967-9300 phone or via e-mail at <a href="mailto:patti.west@prioritynetworks.net">patti.west@prioritynetworks.net</a>.  Orders and payment must be received by December 24, 2003 in order to qualify for discounted, advance rates.  </td></tr>
+<tr><td><br>A $50 per line late charge for Telephone service and a $150 per line late charge for Internet/Network service will be applied by Priority Networks for lines ordered and paid for later than December 24, 2003.</td></tr>
+<tr><td><br><strong>Downloadable order forms for telephone and internet service are located above.</strong></td></tr>
+<tr><td><img src="/global_images/spacer.gif" height="5" border="0"><br><a href="#">[back to top]</a></td></tr>
+</table>
+
+<!-- /text for main page -->		
+</div>
+		
+
+			<br>
+			<br>
+			<br>
+		</span>
+		</td>
+	    <td width="10" background="/global_images/spacer.gif" class="exhibitor7">&nbsp;</td>
+			
+		</tr>
+<!-- /main body row -->	
+<!-- footer row -->
+	<tr>
+	    <td width="10"></td>
+	    <td width="140"></td>
+	    <td width="10"></td>
+	    <!--<td width="610" colspan=6><img src="/global_images//_files/.page_bottom1.jpggif" alt="" width="610" hspace="0" vspace="0" border="0"></td>-->
+		<td width="610" colspan=6><img src="/global_images/2.0/2.0.page_bottom1.gif" alt="" width="610" hspace="0" vspace="0" border="0"></td>
+	</tr>
+	<tr>
+	    <td width="10"></td>
+	    <td width="140"></td>
+	    <td width="10"></td>
+	    <td width="10" class="footer"><img src="/global_images/footer_left.gif" alt="(" width="10" height="30" hspace="0" vspace="0" border="0"></td>
+	    <td width="380" background="/global_images/footer_bg.gif" class="footer"><span class="nav_footer"><a href="/about_ces/">About CES</a> | <a href="/faqs/">FAQs</a> | <a href="/contact_us/">Contact Us</a> | <a href="/site_map.asp">Site Map</a> | <a href="/privacy_policy.asp">Privacy Policy</a></span></td>
+	    <td width="210" colspan="3" align="right" background="/global_images/footer_bg.gif" class="footer"><span class="nav_footer"> &#169; 2004 CEA, All rights reserved</span></td>
+	    <td width="10" class="footer"><img src="/global_images/footer_right.gif" alt=")" width="10" height="30" hspace="0" vspace="0" border="0"></td>
+	</tr>
+<!-- /footer row -->			 		 	 	 
+	</table>
+	<img src="/global_images/spacer.gif" alt="" width="1" height="20" hspace="0" vspace="0" border="0"">
+<!-- /main table for site -->	
+
+
+</td>
+<td width="49%" valign="top" background="/global_images/exhibitor_bg.gif">&nbsp;</td>
+</tr>
+</table>
+
+
+</body>
+</html>
