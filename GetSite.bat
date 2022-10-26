@@ -307,6 +307,7 @@ del sonicstationlive.4
 del sonicstationlive.5
 del oekaki.1
 del oekaki.2
+del oekaki.3
 cd ..
 cd staffcolumn
 del fujiki.1
