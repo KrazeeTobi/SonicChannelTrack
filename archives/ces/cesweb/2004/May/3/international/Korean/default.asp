@@ -1,0 +1,437 @@
+
+
+<SCRIPT language="javascript1.2">
+function newWin(urlString,pgNum)
+  {
+    var popupWindow;
+	urlString += "?pageID=" + pgNum;
+	
+    popupWindow = window.open(urlString,"","toolbar=yes,menubar=no,resizable=no,status=no,scrollbars=yes,location=no,directories=no,copyhistory=no,height=550,width=610,left=50,top=50");
+  }//  function for opening a new pop-up window for printing a page
+  
+ 
+function openNewWindow(strURL) {
+	window.name = "main";
+	
+	var newWindow = window.open(strURL,"newWindow", "toolbar=no,menubar=no,resizable=no,status=no,scrollbars=yes,location=no,directories=no,copyhistory=no,height=400,width=450,left=50,top=50");
+} //  function for opening a new pop-up window
+
+// javascript for e-mail this page tool - gets the url of the page the user is on before the e-mail page tool button is clicked
+	
+	function loadReferrer() {
+		referrerString = opener.document.location.href;
+		document.emailForm.page.value = referrerString;
+	}
+
+</SCRIPT>
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!-- 
+INSERT PAGE VARIABLES
+pgNum = the page ID
+template = 1 for full content space, 2 for added value, 3 for a 150px white column on the right side (for images)
+bodyTitle = the page header (or the alt text if we go the image route in the future)
+-->
+
+
+<html>
+<head>
+	<!-- INSERT PAGE TITLE HERE (immediately following gblPAGE_TITLE) -->
+	<title>2004 International CES:&nbsp;International Visitors</title>
+	
+	<!-- INSERT SEARCH ZONE HERE -->
+
+	<!-- INSERT ANY SCRIPT TAGS FOR THIS PAGE HERE (header.asp closes the <head> tag!) -->
+	
+	
+	<link rel="StyleSheet" href="/global_include/css/main.css" type="text/css">
+	<LINK REL="SHORTCUT ICON" HREF="http://www.easymovement.com/ces/favicon.ico">
+
+<!-- Browser detection script -->
+	<script src="/global_include/js/browser_detection.js" type="text/javascript"></script>
+
+<!-- Rollover script -->	
+		
+		<script language="javascript1.2">	
+		/* for graphical rollovers*/
+			function rollOver(which,name) 
+				{
+				var on="/global_images/4.0/4.0_" + which + "_r.gif";
+				if(document.images) {document.images[which].src=on;}
+				else if (document.GetElementById){document.GetElementById(name).src=on;}
+				}
+			function rollOff(which) 
+				{
+				var on="/global_images/4.0/4.0_" + which + ".gif";
+				if(document.images){document.images[which].src=on;}
+				else if (document.GetElementById){document.GetElementById(which).src=on;}
+				}
+			function introllOver(which,name) 
+				{
+				var on="/global_images/4.0/4.0_" + which + "_r.gif";
+				//var on="/global_images/4.0/4.0_" + which + "_r.gif";
+				if(document.images) {document.images[which].src=on;}
+				else if (document.GetElementById){document.GetElementById(name).src=on;}
+				}
+			function introllOff(which) 
+				{
+				var on="/global_images/4.0/4.0_" + which + ".gif";
+				//var on="/global_images/4.0/4.0_" + which + ".gif";
+				if(document.images){document.images[which].src=on;}
+				else if (document.GetElementById){document.GetElementById(which).src=on;}
+				}
+			//******** JANAE ADDED THESE TO APPLY TO ONLY THE CENTER HOMEPAGE IMAGE********
+			function introllOverNEW(which,name) 
+				{
+				var on="/global_images/4.0/4.0_" + which + "_r.gif";
+				if(document.images) {document.images[which].src=on;}
+				else if (document.GetElementById){document.GetElementById(name).src=on;}
+				}
+			function introllOffNEW(which) 
+				{
+				var on="/global_images/4.0/4.0_" + which + ".gif";
+				if(document.images){document.images[which].src=on;}
+				else if (document.GetElementById){document.GetElementById(which).src=on;}
+				}
+			function snrollOver(which,name) 
+				{
+				var on="/global_images/4.0/4.0" + which + "_r.gif";
+				if(document.images) {document.images[which].src=on;}
+				else if (document.GetElementById){document.GetElementById(name).src=on;}
+				}
+			function snrollOff(which) 
+				{
+				var on="/global_images/4.0/4.0" + which + ".gif";
+				if(document.images){document.images[which].src=on;}
+				else if (document.GetElementById){document.GetElementById(which).src=on;}
+				}
+				
+			function onLoadHandler() {
+			    if( typeof(bodyOnLoadFunction) != 'undefined' ) {
+			        return eval(bodyOnLoadFunction);
+			    }
+			}
+		</script>
+		
+			<script>	
+			/* for graphical rollovers for the languages in the second navigation row*/
+			function rol(which,name) 
+				{
+				var on="/global_images/navigation/" + which + "_r.gif";
+				if(document.images) {document.images[which].src=on;}
+				else if (document.GetElementById){document.GetElementById(name).src=on;}
+				}
+			function rolOff(which) 
+				{
+				var on="/global_images/navigation/" + which + ".gif";
+				if(document.images){document.images[which].src=on;}
+				else if (document.GetElementById){document.GetElementById(which).src=on;}
+				}
+			</script>
+		<!-- the following sets the style for the section you are currently in sectionColor is set in master_pages.asp -->
+			
+
+		<style>
+			.text_colored, .intro_copy, .section_title, .subhead, .body_title, .intro_dates
+				{ 	color:#CF676C}
+		</style>
+</head>
+
+<!-- script to determine the different browser and put in the correct body tag to align the background image properly -->
+<body  leftmargin='0' topmargin='0' rightmargin='0' bottommargin='0' marginwidth='0' onLoad="onLoadHandler();self.focus();"> 
+
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tr>
+
+<td width="50%" valign="top" background="/global_images/international_bg.gif">&nbsp;</td>
+<td width="1%" valign="top" background="/global_images/international_bg.gif">
+<!-- main table for site -->
+	<table width="770" cellspacing="0" cellpadding="0" border="0">
+<!-- Commented out dummy row to add another tr to the main table 
+	<tr>
+	    <td width="10"></td>
+	    <td width="140"></td>
+	    <td width="10"></td>
+	    <td width="10"></td>
+	    <td width="380"></td>
+	    <td width="10"></td>
+	    <td width="10"></td>
+	    <td width="190></td>
+	    <td width="10"></td>
+	</tr>
+   /Commented out dummy row to add another tr to the main table	-->
+<!-- blank 1 pixel row at top of page -->
+	<tr>
+	    <td width="10"><img src="/global_images/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+	    <td width="140"><img src="/global_images/spacer.gif" alt="" width="140" height="1" hspace="0" vspace="0" border="0"></td>
+	    <td width="10"><img src="/global_images/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+	    <td width="10"><img src="/global_images/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+	    <td width="380"><img src="/global_images/spacer.gif" alt="" width="380" height="1" hspace="0" vspace="0" border="0"></td>
+	    <td width="10"><img src="/global_images/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+	    <td width="10"><img src="/global_images/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+	    <td width="190"><img src="/global_images/spacer.gif" alt="" width="190" height="1" hspace="0" vspace="0" border="0"></td>
+	    <td width="10"><img src="/global_images/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+	</tr>
+<!-- /blank 1 pixel row at top of page -->
+<!-- global navigation row - register, about, faqs, contact, and site map -->
+	<tr>
+	    <td width="10"></td>
+	    <td width="140"></td>
+	    <td width="10"></td>
+	    <td width="10"></td>
+	    <td width="600" colspan="5" class="nav_global"><span class="intro_dates">January 8-11, 2004</span><img src="/global_images/spacer.gif" width="4" height="20" hspace="0" vspace="0" border="0" align="absmiddle">| Las Vegas<img src="/global_images/spacer.gif" alt="" width="225" height="1" border="0">	<a href="/about_ces/">About CES</a> | <a href="/faqs/">FAQs</a> | <a href="/contact_us/">Contact Us</a> | <a href="/site_map.asp">Site Map</a></td>
+	    <!--<td width="600" colspan="5" class="nav_global"><img src="/global_images/test_logo.jpg" width="385" height="20" hspace="0" vspace="0" border="0" align="absmiddle"><a href="/about_ces/">About CES</a> | <a href="/faqs/">FAQs</a> | <a href="/contact_us/">Contact Us</a> | <a href="site_map.asp">Site Map</a></td>-->
+	</tr>
+<!-- /global navigation row - register, about, faqs, contact, and site map -->	
+<!-- logo and banner image row -->	
+	<tr>
+	    <td width="10"></td>
+	    <td width="140"><a href="/default.asp"><img src="/global_images/logo.gif" alt="International CES" width="140" height="74" hspace="0" vspace="0" border="0"></a></td>
+	    <td width="10"></td>
+	    <td width="610" colspan="6"><img src="/global_images/4.0/random1/4.0.banner.gif" alt="" width="610" height="74" border="0"></td>
+	</tr>
+<!-- /logo and banner image row -->		
+<!-- primary navigation row -->
+	<tr>
+	    <td width="10"></td>
+	    <td width="140"></td>
+	    <td width="10"></td>
+		<td width="610" colspan="6"  background="/global_images/spacer.gif"><a href="/attendees/"  onmouseover=rollOver('tab_attendees'); onmouseout=rollOff('tab_attendees');><img name='tab_attendees' src="/global_images/4.0/4.0_tab_attendees.gif" alt="Attendees" width="70" height="27" hspace="0" vspace="0" border="0" ></a><a href="/exhibitors/" onmouseover=rollOver('tab_exhibitor'); onmouseout=rollOff('tab_exhibitor');><img name='tab_exhibitor' src="/global_images/4.0/4.0_tab_exhibitor.gif" alt="Exhibitor Services" width="118" height="27" hspace="0" vspace="0" border="0"></a><a href="/press/" onmouseover=rollOver('tab_press'); onmouseout=rollOff('tab_press');><img name='tab_press' src="/global_images/4.0/4.0_tab_press.gif" width="78" height="27" alt="Press" border="0"></a><a href="/international/" onmouseover=introllOver('tab_international'); onmouseout=introllOff('tab_international');><img src="/global_images/4.0/4.0_tab_international.gif" width="134" height="27" alt="" border="0" name="tab_international"></a><img src="/global_images/4.0/random1/4.0_tab_right.gif" alt="" width="210" height="27" hspace="0" vspace="0" border="0"></td>
+	</tr>
+<!-- /primary navigation row -->
+<!-- secondary navigation row -->		
+	<tr>
+	    <td width="10"></td>
+			<form name="searchCESWeb" method="POST" action="/search/searchResult.asp">
+        	    <td width="760" colspan="8"  background="/global_images/spacer.gif"  class="international3">
+<!-- table for secondary navigation and form -->
+				<table cellspacing="0" cellpadding="0" border="0" width="760"  background="/global_images/spacer.gif" >
+				<tr>
+				<td class="international_second_nav" width="560"><a href='/international/english/'>English</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href='/international/spanish/'>Espa&#241;ol</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href='/international/french/'>Fran&ccedil;ais</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href='/international/german/'>Deutsch</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<img src="/global_images/navigation/korean_sel.gif" alt="Korean" name="korean" id="korean" width="27" height="16" hspace="0" vspace="0" border="0" align="middle">&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href='/international/japanese/' onmouseover=rol('japanese'); onmouseout=rolOff('japanese');><img src="/global_images/navigation/japanese.gif" alt="Japanese" name="japanese" id="japanese" width="41" height="16" hspace="0" vspace="0" border="0" align="middle"></a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href='/international/chinese/' onmouseover=rol('chinese'); onmouseout=rolOff('chinese');><img src="/global_images/navigation/chinese.gif" alt="Chinese" name="chinese" id="chinese" width="29" height="16" hspace="0" vspace="0" border="0" align="middle"></a></td>
+				<td width="173" align="right">
+<!-- Script for setting correct search box size -->
+				<script LANGUAGE="JavaScript">
+				<!--
+					if (is_nav4) {
+						document.write("<input  size=20 ");
+					} 
+					else if (is_mac) {
+						document.write("<input  size=30 ");
+					}
+					else if (is_safari) {
+						document.write("<input  size=25 ");
+					}
+					else {
+					    document.write("<input  size=34 ");
+					}
+                    function checkSearch() {
+                        var searchForm = document.searchCESWeb;
+                            
+                        if(searchForm.SEARCH_STRING.value.search(/\S/) == -1) {
+                            alert("Please enter text to search for.");
+                            return;
+                        }
+                        searchForm.submit();
+                    }
+				//-->
+				</script>
+				type="text" name="SEARCH_STRING" value=" Search CESweb.org" class="internationalform"  ONFOCUS="if(this.value==' Search CESweb.org')this.value=''; snrollOver('.button_search');" ONBLUR="if(this.value=='')this.value=' Search CESweb.org'; snrollOff('.button_search');" >&nbsp;&nbsp;</td>
+				<td width="27"><img name=".button_search"  src="/global_images/4.0/4.0.button_search.gif" alt="go" width="27" height="33" hspace="0" vspace="0" border="0" onmouseover=snrollOver('.button_search'); onmouseout=snrollOff('.button_search'); onClick="checkSearch();"></td>
+				</tr>
+				</table>
+<!-- /table for secondary navigation and form -->			
+		</td>
+			<input type="hidden" name="ExhibitorSearchField" value="on">
+			<input type="hidden" name="EventSearchField" value="on">
+			<input type="hidden" name="PressSearchField" value="on">
+			<input type="hidden" name="ConferenceSearchField" value="on">
+			<input type="hidden" name="GeneralCESwebSearchField" value="on">
+		</form>
+	 </tr>
+<!-- /secondary navigation row -->	
+<!-- colored row with section color 4 - 5 pixels high --> 
+	<tr>
+	    <td width="10"></td>
+	    <td width="140"></td>
+	    <td width="10"></td>
+	    <td width="610" colspan="6"  background="/global_images/spacer.gif" class="international4"><img src="/global_images/spacer.gif" alt="" width="610" height="5" hspace="0" vspace="0" border="0"></td>
+	 </tr>
+<!-- /colored row with section color 4 - 5 pixels high --> 	 
+<!-- breadcrumb row -->
+	<tr>
+	    <td width="10"></td>
+	    
+			<td width="140"><a href="/register/" onmouseover=snrollOver('.register'); onmouseout=snrollOff('.register');><img src="/global_images/4.0/4.0.register.gif" alt="Register" name=".register" id=".register" width="140" height="40" hspace="0" vspace="0" border="0"></a></td>
+		
+			<!--<td width="140"><a href="/exhibitors/resource_center/badges/default.asp" onmouseover=snrollOver('.register'); onmouseout=snrollOff('.register');><img src="/global_images//0.0_files/.register.gif" alt="Register" name=".register" id=".register" width="140" height="40" hspace="0" vspace="0" border="0"></a></td>-->
+		
+			<!--<td width="140"><a href="/registration_temp.asp" onmouseover=snrollOver('.register'); onmouseout=snrollOff('.register');><img src="/global_images//0.0_files/.register.gif" alt="Register" name=".register" id=".register" width="140" height="40" hspace="0" vspace="0" border="0"></a></td>-->
+		
+		<td width="10"></td>		
+
+		
+		    <td width="10" background="/global_images/spacer.gif" class="international6"><img src="/global_images/spacer.gif" alt="" width="10" height="40" hspace="0" vspace="0" border="0"></td>
+		    <td width="390" colspan="2" background="/global_images/spacer.gif" class="international6" valign="bottom"><span class="international_nav_breadcrumb">
+			<a href="/default.asp">Home</a>&nbsp;>&nbsp;<a href="/international/">International Visitors</a>&nbsp;>&nbsp;Korean
+			</span><br><img src="/global_images/spacer.gif" height="8" width="1"></td>
+		    <td width="200" background="/global_images/spacer.gif" colspan="2" class="international6"><img src="/global_images/4.0/4.0_print_mail.gif" width="115" height="40" alt="print - email" border="0"><a href=javascript:newWin("/global_include/asp/page_tools/print.asp","4.5") onmouseover=snrollOver('_button_print'); onmouseout=snrollOff('_button_print');><img src="/global_images/4.0/4.0_button_print.gif" alt="Print" name="_button_print" id="_button_print" width="43" height="40" hspace="0" vspace="0" border="0"></a><A HREF=javascript:openNewWindow("/global_include/asp/page_tools/email.asp") onmouseover=snrollOver('_button_mail'); onmouseout=snrollOff('_button_mail');><img src="/global_images/4.0/4.0_button_mail.gif" alt="Email" name="_button_mail" id="_button_mail" width="42" height="40" hspace="0" vspace="0" border="0"></a></td>
+		    <td width="10" background="/global_images/spacer.gif" class="international6">&nbsp;</td>
+    			
+	</tr>
+<!-- /breadcrumb row -->	
+<!-- main body row -->
+	<tr>
+	    <td width="10" background="/global_images/spacer.gif"></td>
+	    <td width="140" background="/global_images/spacer.gif" valign="top"><img src="/global_images/spacer.gif" width="140" height="20" alt="" border="0"><br>
+		<span class="nav_third">
+
+
+
+<a href="http://www.ce.org" target="new" onmouseover=snrollOver('_logo_cea'); onmouseout=snrollOff('_logo_cea');><img src="/global_images/4.0/4.0_logo_cea.gif" name="_logo_cea" width="140" height="116" alt="Produced by Consumer Electronics Association" border="0"></a>
+<br>
+</span>
+
+				
+		</td>
+	    <td width="10"></td>
+		<!-- checking to see if the page is a main section page or not -->
+		
+			<td width="10" background="/global_images/spacer.gif" class="international7">&nbsp;</td>
+		    <td width="590" colspan="4"  background="/global_images/spacer.gif" class="international7" valign="top">
+				
+					<img src="/global_images/spacer.gif" height="10" width="1"><br><div class="body_title">해외 참관인<br><img src="/global_images/spacer.gif" height="16" width="1"></div>
+				
+
+<meta http-equiv="Content-Type" content="text/html; charset=euc-kr"><div id="4.5">	
+<!-- text for main page -->
+참관인 수를 집계한 결과, 2004 International CES가 가전 기술업계의 구동력으로서의 위상을 지속적으로 지키고 있음이 밝혀졌습니다. 
+
+<br>
+<img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"><br>
+<img src="/global_images/4.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"><br>
+<div class="section_title">2004 International CES 하이라이트</div>
+
+<table border="0">
+<tr>
+	<td valign="top">
+	<ul>
+		<li>2004년도 기조연설을 통해, Panasonic사의 Fumio Ohtsubo는 컨텐츠와 통신에 대해 <strong>시간과
+		    장소의 제약이 없는 사용 및 편집</strong>이 가능한 단순화된 제품과 연결성을 기대하라고 말했습니다. [<a href="/attendees/conferences/keynotes.asp">본문 참조.</a> 영어] 
+		<li><img src="/global_images/spacer.gif" width="0" height="18" border="0">CEA의 Shapiro 사장은 올해 미국에서의 가전 기술 제품 판매가 <strong>$1,000억</strong>을 초과할 것이라고 말합니다. [<a href="/press/news/">CES 뉴스 계속.</a> 영어]
+		<li><img src="/global_images/spacer.gif" width="0" height="18" border="0">컨텐츠 및 가정용 관리 기능에 대한 시간과 장소의 제약이 없는 사용을 원하는 가정이 증가함에 따라 <strong>홈
+		    네트워킹</strong> 기술이 중심을 차지하고 있습니다. 
+		<li><img src="/global_images/spacer.gif" width="0" height="18" border="0">삼성은 완벽한 1920 x 1080 프로그레시브 스캔 해상도를 갖춘 <strong>세계
+		    최대의 LCD HDTV</strong>에 대해 크게 선전하고 있습니다. [<a href="/press/exhibitor_news/">제품 소개 계속.</a> 영어]
+		<li><img src="/global_images/spacer.gif" width="0" height="18" border="0"><strong>Industry
+		    Insiders Series</strong>는 Dell과 같은 대기업들의 관심을 끌고 있으며 어려운 사안에 대한 주의를 환기시키고 있습니다. [<a href="/attendees/conferences/insider_series.asp">본문 참조.</a> 영어] 
+		<li><img src="/global_images/spacer.gif" width="0" height="18" border="0">FCC(미연방통신위원회)의 Michael Powell 의장은 라이센스가 없는 스펙트럼 및 VoIP와 관련 있는 <strong>규제
+		    사안</strong>들에 대하여, "정부는 기술 개발업체에 규제의 불필요성에 대한 입증을 요구하는 대신 그 필요성을 입증해야 할 것입니다."라고 말합니다. 
+		<li><img src="/global_images/spacer.gif" width="0" height="18" border="0">디스플레이 기술의 최근 유행어: <strong>얇은,
+		    편평한, 대형 및 플라즈마</strong>. Dell, Epson과 같은 IT 기업들이 제조업체들을 이끌어가고 있습니다. 
+		<li><img src="/global_images/spacer.gif" width="0" height="18" border="0"><strong>디지털
+		    이미징</strong> 시장은 Flash Forward TechZone을 비롯하여 전시 측면에서 전례없는 위상과 비중을 차지하고 있습니다. [<a href="/attendees/exhibit_floor">기타 박람회장 세부사항 참조.</a> 영어]
+		<li><img src="/global_images/spacer.gif" width="0" height="18" border="0">공통된 CES 논지2가지: <strong>휴대성
+		    및 무선 기술</strong>. 주요 관건은 이음매 없는 연결성. 
+		<li><img src="/global_images/spacer.gif" width="0" height="18" border="0">TechTV의
+		  <strong>Best of CES 1위</strong>는 Denon사의 NS-S100 네트워크 멀티미디어 서버가 차지했습니다. [<a href="/attendees/awards">수상 소식 참조.</a> 영어]
+	</ul>
+	</td>
+	<td><img src="/global_images/spacer.gif" alt="" width="8" height="1" hspace="0" vspace="0" border="0"></td>
+	<td>
+		<img src="/international/images/ohtsubo.jpg" style="border: 1px #999999 solid"><br>
+		<img src="/global_images/spacer.gif" alt="" width="1" height="18" hspace="0" vspace=z"0" border="0"><br>
+		<img src="/international/images/floor.jpg" style="border: 1px #999999 solid"><br>
+		<img src="/global_images/spacer.gif" alt="" width="1" height="18" hspace="0" vspace="0" border="0"><br>
+		<img src="/international/images/productviewing.jpg" style="border: 1px #999999 solid"><br>
+	</td>
+</tr>
+</table>
+
+<img src="/global_images/spacer.gif" alt="" width="1" height="26" hspace="0" vspace="0" border="0"><br>
+<img src="/global_images/4.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"><br>
+<div class="section_title">집중조명: 전시업체</div>
+400여 해외 전시업체를 수용하고 있는 <strong>International Gateway</strong>는 그 대상 지역을 더욱 확대하여 가전 기술의 전반적 성장에 지속적으로 기여하고 있는 싱가폴, 영국, 한국, 중국 등 기타 국가의 기업들을 환영하였습니다. 
+<br>
+
+<img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"><br>
+<img src="/global_images/4.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"><br>
+<div class="section_title">대표단의 역할이 중요합니다</div>
+많은 해외 참관인들에게 2004 International CES참관이 보다 가치 있는 체험이 되도록 협조해 주신 18개 대표단의 노력에 감사드립니다.  올해의 해외 대표단 국가 목록은 다음과 같습니다. 
+<table>
+<tr>
+	<td>
+	<ul>
+		<li>중국 (2) 
+		<li>코스타리카 
+		<li>에쿠아도르
+		<li>프랑스 (3) 
+		<li>한국 (4) 
+		<li>일본 (2) 
+	</ul>
+	</td>
+	<td>&nbsp;&nbsp;</td>
+	<td valign="top">
+	<ul>
+	<li>멕시코
+	<li>필리핀
+	<li>대만
+	<li>우크라이나
+	<li>영국 
+	</ul>
+	</td>
+</tr>
+</table>
+<br>
+2005년 1월 6-9일에 개최될 2005 International CES의 <strong>대표단 조직 또는 참가</strong>에 관한 사항은 <a href="mailto:evasquez@ce.org">Elena Vasquez</a>에게 문의하십시오.
+
+<br>
+<img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"><br>
+<img src="/global_images/4.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"><br>
+<img src="/global_images/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+<span class="subhead">보다 자세한 정보가 필요하십니까?</span><br><br>
+<a href="mailto:cesinfo@ce.org">CESinfo@CE.org</a>로 연락하십시오.
+
+<!-- /text for main page -->
+</div>
+	
+
+			<br>
+			<br>
+			<br>
+		</span>
+		</td>
+	    <td width="10" background="/global_images/spacer.gif" class="international7">&nbsp;</td>
+			
+		</tr>
+<!-- /main body row -->	
+<!-- footer row -->
+	<tr>
+	    <td width="10"></td>
+	    <td width="140"></td>
+	    <td width="10"></td>
+	    <!--<td width="610" colspan=6><img src="/global_images//_files/.page_bottom1.jpggif" alt="" width="610" hspace="0" vspace="0" border="0"></td>-->
+		<td width="610" colspan=6><img src="/global_images/4.0/4.0.page_bottom1.gif" alt="" width="610" hspace="0" vspace="0" border="0"></td>
+	</tr>
+	<tr>
+	    <td width="10"></td>
+	    <td width="140"></td>
+	    <td width="10"></td>
+	    <td width="10" class="footer"><img src="/global_images/footer_left.gif" alt="(" width="10" height="30" hspace="0" vspace="0" border="0"></td>
+	    <td width="380" background="/global_images/footer_bg.gif" class="footer"><span class="nav_footer"><a href="/about_ces/">About CES</a> | <a href="/faqs/">FAQs</a> | <a href="/contact_us/">Contact Us</a> | <a href="/site_map.asp">Site Map</a> | <a href="/privacy_policy.asp">Privacy Policy</a> | <a href="/vendors.asp">Vendors</a></span></td>
+	    <td width="210" colspan="3" align="right" background="/global_images/footer_bg.gif" class="footer"><span class="nav_footer"> &#169; 2004 CEA, All rights reserved</span></td>
+	    <td width="10" class="footer"><img src="/global_images/footer_right.gif" alt=")" width="10" height="30" hspace="0" vspace="0" border="0"></td>
+	</tr>
+<!-- /footer row -->			 		 	 	 
+	</table>
+	<img src="/global_images/spacer.gif" alt="" width="1" height="20" hspace="0" vspace="0" border="0"">
+<!-- /main table for site -->	
+
+
+</td>
+<td width="49%" valign="top" background="/global_images/international_bg.gif">&nbsp;</td>
+</tr>
+</table>
+
+
+</body>
+</html>

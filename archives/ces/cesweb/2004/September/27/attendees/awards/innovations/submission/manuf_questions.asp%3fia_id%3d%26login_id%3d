@@ -1,0 +1,117 @@
+
+
+<SCRIPT language="javascript1.2">
+function newWin(urlString,pgNum)
+  {
+    var popupWindow;
+	urlString += "?pageID=" + pgNum;
+	
+    popupWindow = window.open(urlString,"","toolbar=yes,menubar=no,resizable=no,status=no,scrollbars=yes,location=no,directories=no,copyhistory=no,height=550,width=610,left=50,top=50");
+  }//  function for opening a new pop-up window for printing a page
+  
+ 
+function openNewWindow(strURL) {
+	window.name = "main";
+	
+	var newWindow = window.open(strURL,"newWindow", "toolbar=no,menubar=no,resizable=no,status=no,scrollbars=yes,location=no,directories=no,copyhistory=no,height=400,width=450,left=50,top=50");
+} //  function for opening a new pop-up window
+
+// javascript for e-mail this page tool - gets the url of the page the user is on before the e-mail page tool button is clicked
+	
+	function loadReferrer() {
+		referrerString = opener.document.location.href;
+		document.emailForm.page.value = referrerString;
+	}
+
+</SCRIPT>
+<HTML>
+<HEAD>
+<!-- **INSERT PAGE TITLE HERE (immediately following &nbsp;)** -->
+<TITLE>2005 International CES:&nbsp;Innovations 2005 Awards Product Submission</TITLE>
+
+<LINK REL="stylesheet" HREF="/global_includes/css/mainMethod.css" TYPE="text/css">
+
+<script language="JavaScript">
+function CheckFields(){
+
+	if(document.frm_member.member.value == ""){
+		alert("Please tell us if the manufacturer is a member of CEA.")
+		return false
+	}
+	if(document.frm_member.isexhibitor.value == ""){
+		alert("Please tell us if the manufacturer is a 2004 International CES Exhibitor.")
+		return false
+	}
+	if(document.frm_member.diffManuf.value == ""){
+		alert("Please tell us if the manufacturer is the same as the submitter.")
+		return false
+	}
+}
+</script>
+<style>
+	.text_colored, .intro_copy, .section_title, .subhead, .body_title
+		{color:#2B5492}
+</style>
+</HEAD>
+
+<BODY>
+
+<div>	
+<!-- text for main page -->
+<table width="600" cellspacing="0" cellpadding="6" align="center" style="border: 1px #999999 solid">
+<tr bgcolor="#E2F0F5">
+	<td align="left" width="130"><img src="/global_images2005/spacer.gif" width="130" height="1"></td>
+	<td align="left" width="340"><img src="/global_images2005/spacer.gif" width="340" height="1"></td>
+	<td align="left" width="130"><img src="/global_images2005/spacer.gif" width="130" height="1"></td>
+</tr>
+<tr bgcolor="#E2F0F5">
+	<td align="center"><img src="/attendees/awards/innovations/submission/images/CES.gif" hspace="10"></td>
+	<td align="center" valign="top"><br><span class="section_title">INNOVATIONS 2005 AWARDS Product Submission</span></td>
+	<td align="center"><img src="/attendees/awards/innovations/submission/images/innovations.gif" hspace="10"></td>
+</tr>
+<tr><td colspan="3">
+
+<div class="body_title">Manufacturer Information</div><br>
+
+
+<!--<span class="subhead">2004 International CES Retailer Status</span><br><br>
+
+<span class="subhead">2004 International CES Manufacturer Status</span><br><br>-->
+
+<table border="0" width="100%">
+<form name="frm_member" action="manuf_questions_submit.asp?ia_id=&login_id=" method="post">
+
+
+	<tr>
+		<td>Is the Manufacturer an Exhibitor at the International CES?&nbsp;&nbsp;
+		<input type="radio" name=isexhibitor value="1">Yes&nbsp;&nbsp;<input type="radio" name=isexhibitor value="0" checked>No</td>
+	</tr>
+	
+	<tr>
+		<td>Is the Manufacturer a Member of CEA?&nbsp;&nbsp;
+		<input type="radio" name=member value="1">Yes&nbsp;&nbsp;<input type="radio" name=member value="0" checked>No</td>
+	</tr>
+	
+	<tr>
+		<td>Is the Manufacturer information different from the Submitter information?&nbsp;&nbsp;
+		<input type="radio" name=diffManuf value="1">Yes&nbsp;&nbsp;<input type="radio" name=diffManuf value="0" checked>No</td>
+	</tr>
+	
+	</table><br>
+	
+	<table width="100%">
+		<tr>
+			<td align="center">
+			<input type="submit" name="btn_submit" value="Submit" class="formData" onClick="return CheckFields()">
+			&nbsp;&nbsp;
+			<input type="button" name="btn_cancel" value="Cancel" class="formData" onClick="window.location='/attendees/awards/innovations/submission/entry_sections.asp?ia_id=&login_id=';">			
+			</td>
+		</tr>
+	</table>
+<!-- /text for main page -->
+<br><br>
+</div>
+</td></tr>
+</table>
+</BODY>
+</HTML>

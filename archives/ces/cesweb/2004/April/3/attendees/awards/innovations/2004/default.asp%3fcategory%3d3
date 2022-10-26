@@ -1,0 +1,3538 @@
+
+
+<SCRIPT language="javascript1.2">
+function newWin(urlString,pgNum)
+  {
+    var popupWindow;
+	urlString += "?pageID=" + pgNum;
+	
+    popupWindow = window.open(urlString,"","toolbar=yes,menubar=no,resizable=no,status=no,scrollbars=yes,location=no,directories=no,copyhistory=no,height=550,width=610,left=50,top=50");
+  }//  function for opening a new pop-up window for printing a page
+  
+ 
+function openNewWindow(strURL) {
+	window.name = "main";
+	
+	var newWindow = window.open(strURL,"newWindow", "toolbar=no,menubar=no,resizable=no,status=no,scrollbars=yes,location=no,directories=no,copyhistory=no,height=400,width=450,left=50,top=50");
+} //  function for opening a new pop-up window
+
+// javascript for e-mail this page tool - gets the url of the page the user is on before the e-mail page tool button is clicked
+	
+	function loadReferrer() {
+		referrerString = opener.document.location.href;
+		document.emailForm.page.value = referrerString;
+	}
+
+</SCRIPT>
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!-- 
+INSERT PAGE VARIABLES
+pgNum = the page ID
+template = 1 for full content space, 2 for added value, 3 for a 150px white column on the right side (for images)
+bodyTitle = the page header (or the alt text if we go the image route in the future)
+-->
+
+
+<html>
+<head>
+	<!-- INSERT PAGE TITLE HERE (immediately following gblPAGE_TITLE) -->
+	<title>2004 International CES:&nbsp;2004 CES Innovations Awards Honorees</title>
+	
+	<!-- INSERT SEARCH ZONE HERE -->
+	<META NAME="searchZone" CONTENT="generalCESweb">
+
+	<!-- INSERT ANY SCRIPT TAGS FOR THIS PAGE HERE (header.asp closes the <head> tag!) -->
+	
+	<script language="javascript1.2">
+		function Image_OnMouseDown(){ 
+		alert ("This image is protected.");}
+	</script>
+	
+	
+	<link rel="StyleSheet" href="/global_include/css/main.css" type="text/css">
+	<LINK REL="SHORTCUT ICON" HREF="http://www.easymovement.com/ces/favicon.ico">
+
+<!-- Browser detection script -->
+	<script src="/global_include/js/browser_detection.js" type="text/javascript"></script>
+
+<!-- Rollover script -->	
+		
+		<script language="javascript1.2">	
+		/* for graphical rollovers*/
+			function rollOver(which,name) 
+				{
+				var on="/global_images/1.0/1.0_" + which + "_r.gif";
+				if(document.images) {document.images[which].src=on;}
+				else if (document.GetElementById){document.GetElementById(name).src=on;}
+				}
+			function rollOff(which) 
+				{
+				var on="/global_images/1.0/1.0_" + which + ".gif";
+				if(document.images){document.images[which].src=on;}
+				else if (document.GetElementById){document.GetElementById(which).src=on;}
+				}
+			function introllOver(which,name) 
+				{
+				var on="/global_images/1.0/1.0_" + which + "_r.gif";
+				//var on="/global_images/1.0/1.0_" + which + "_r.gif";
+				if(document.images) {document.images[which].src=on;}
+				else if (document.GetElementById){document.GetElementById(name).src=on;}
+				}
+			function introllOff(which) 
+				{
+				var on="/global_images/1.0/1.0_" + which + ".gif";
+				//var on="/global_images/1.0/1.0_" + which + ".gif";
+				if(document.images){document.images[which].src=on;}
+				else if (document.GetElementById){document.GetElementById(which).src=on;}
+				}
+			//******** JANAE ADDED THESE TO APPLY TO ONLY THE CENTER HOMEPAGE IMAGE********
+			function introllOverNEW(which,name) 
+				{
+				var on="/global_images/1.0/1.0_" + which + "_r.gif";
+				if(document.images) {document.images[which].src=on;}
+				else if (document.GetElementById){document.GetElementById(name).src=on;}
+				}
+			function introllOffNEW(which) 
+				{
+				var on="/global_images/1.0/1.0_" + which + ".gif";
+				if(document.images){document.images[which].src=on;}
+				else if (document.GetElementById){document.GetElementById(which).src=on;}
+				}
+			function snrollOver(which,name) 
+				{
+				var on="/global_images/1.0/1.0" + which + "_r.gif";
+				if(document.images) {document.images[which].src=on;}
+				else if (document.GetElementById){document.GetElementById(name).src=on;}
+				}
+			function snrollOff(which) 
+				{
+				var on="/global_images/1.0/1.0" + which + ".gif";
+				if(document.images){document.images[which].src=on;}
+				else if (document.GetElementById){document.GetElementById(which).src=on;}
+				}
+				
+			function onLoadHandler() {
+			    if( typeof(bodyOnLoadFunction) != 'undefined' ) {
+			        return eval(bodyOnLoadFunction);
+			    }
+			}
+		</script>
+		
+
+		<style>
+			.text_colored, .intro_copy, .section_title, .subhead, .body_title, .intro_dates
+				{ 	color:#194286}
+		</style>
+</head>
+
+<!-- script to determine the different browser and put in the correct body tag to align the background image properly -->
+<body  leftmargin='0' topmargin='0' rightmargin='0' bottommargin='0' marginwidth='0' onLoad="onLoadHandler();self.focus();"> 
+
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tr>
+
+<td width="50%" valign="top" background="/global_images/attendees_bg.gif">&nbsp;</td>
+<td width="1%" valign="top" background="/global_images/attendees_bg.gif">
+<!-- main table for site -->
+	<table width="770" cellspacing="0" cellpadding="0" border="0">
+<!-- Commented out dummy row to add another tr to the main table 
+	<tr>
+	    <td width="10"></td>
+	    <td width="140"></td>
+	    <td width="10"></td>
+	    <td width="10"></td>
+	    <td width="380"></td>
+	    <td width="10"></td>
+	    <td width="10"></td>
+	    <td width="190></td>
+	    <td width="10"></td>
+	</tr>
+   /Commented out dummy row to add another tr to the main table	-->
+<!-- blank 1 pixel row at top of page -->
+	<tr>
+	    <td width="10"><img src="/global_images/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+	    <td width="140"><img src="/global_images/spacer.gif" alt="" width="140" height="1" hspace="0" vspace="0" border="0"></td>
+	    <td width="10"><img src="/global_images/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+	    <td width="10"><img src="/global_images/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+	    <td width="380"><img src="/global_images/spacer.gif" alt="" width="380" height="1" hspace="0" vspace="0" border="0"></td>
+	    <td width="10"><img src="/global_images/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+	    <td width="10"><img src="/global_images/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+	    <td width="190"><img src="/global_images/spacer.gif" alt="" width="190" height="1" hspace="0" vspace="0" border="0"></td>
+	    <td width="10"><img src="/global_images/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+	</tr>
+<!-- /blank 1 pixel row at top of page -->
+<!-- global navigation row - register, about, faqs, contact, and site map -->
+	<tr>
+	    <td width="10"></td>
+	    <td width="140"></td>
+	    <td width="10"></td>
+	    <td width="10"></td>
+	    <td width="600" colspan="5" class="nav_global"><span class="intro_dates">January 8-11, 2004</span><img src="/global_images/spacer.gif" width="4" height="20" hspace="0" vspace="0" border="0" align="absmiddle">| Las Vegas<img src="/global_images/spacer.gif" alt="" width="225" height="1" border="0">	<a href="/about_ces/">About CES</a> | <a href="/faqs/">FAQs</a> | <a href="/contact_us/">Contact Us</a> | <a href="/site_map.asp">Site Map</a></td>
+	    <!--<td width="600" colspan="5" class="nav_global"><img src="/global_images/test_logo.jpg" width="385" height="20" hspace="0" vspace="0" border="0" align="absmiddle"><a href="/about_ces/">About CES</a> | <a href="/faqs/">FAQs</a> | <a href="/contact_us/">Contact Us</a> | <a href="site_map.asp">Site Map</a></td>-->
+	</tr>
+<!-- /global navigation row - register, about, faqs, contact, and site map -->	
+<!-- logo and banner image row -->	
+	<tr>
+	    <td width="10"></td>
+	    <td width="140"><a href="/default.asp"><img src="/global_images/logo.gif" alt="International CES" width="140" height="74" hspace="0" vspace="0" border="0"></a></td>
+	    <td width="10"></td>
+	    <td width="610" colspan="6"><img src="/global_images/1.0/random2/1.0.banner.gif" alt="" width="610" height="74" border="0"></td>
+	</tr>
+<!-- /logo and banner image row -->		
+<!-- primary navigation row -->
+	<tr>
+	    <td width="10"></td>
+	    <td width="140"></td>
+	    <td width="10"></td>
+		<td width="610" colspan="6"  background="/global_images/spacer.gif"><a href="/attendees/"  onmouseover=rollOver('tab_attendees'); onmouseout=rollOff('tab_attendees');><img name='tab_attendees' src="/global_images/1.0/1.0_tab_attendees.gif" alt="Attendees" width="70" height="27" hspace="0" vspace="0" border="0" ></a><a href="/exhibitors/" onmouseover=rollOver('tab_exhibitor'); onmouseout=rollOff('tab_exhibitor');><img name='tab_exhibitor' src="/global_images/1.0/1.0_tab_exhibitor.gif" alt="Exhibitor Services" width="118" height="27" hspace="0" vspace="0" border="0"></a><a href="/press/" onmouseover=rollOver('tab_press'); onmouseout=rollOff('tab_press');><img name='tab_press' src="/global_images/1.0/1.0_tab_press.gif" width="78" height="27" alt="Press" border="0"></a><a href="/international/" onmouseover=introllOver('tab_international'); onmouseout=introllOff('tab_international');><img src="/global_images/1.0/1.0_tab_international.gif" width="134" height="27" alt="" border="0" name="tab_international"></a><img src="/global_images/1.0/random2/1.0_tab_right.gif" alt="" width="210" height="27" hspace="0" vspace="0" border="0"></td>
+	</tr>
+<!-- /primary navigation row -->
+<!-- secondary navigation row -->		
+	<tr>
+	    <td width="10"></td>
+			<form name="searchCESWeb" method="POST" action="/search/searchResult.asp">
+        	    <td width="760" colspan="8"  background="/global_images/spacer.gif"  class="attendees3">
+<!-- table for secondary navigation and form -->
+				<table cellspacing="0" cellpadding="0" border="0" width="760"  background="/global_images/spacer.gif" >
+				<tr>
+				<td class="attendees_second_nav" width="560"><a href='/attendees/conferences'>Conferences</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href='/attendees/exhibit_floor'>Exhibit Floor</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href='/attendees/special_events'>Special Events</a>&nbsp;&nbsp;|&nbsp;&nbsp;<span class="att_sec_nav_active"><a href='/attendees/awards'>Awards</a></span>&nbsp;&nbsp;|&nbsp;&nbsp;<a href='/attendees/travel'>Hotel/Travel</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href='/attendees/markets/default.asp'>Markets</a>
+<!--<a href='/attendees/conferences'>Conferences</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href='/attendees/exhibit_floor'>Exhibit Floor</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href='/attendees/special_events'>Special Events</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href='/attendees/awards'>Awards</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href='/attendees/travel'>Hotel/Travel</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href='/attendees/markets/default.asp'>Markets</a>-->
+
+
+</td>
+				<td width="173" align="right">
+<!-- Script for setting correct search box size -->
+				<script LANGUAGE="JavaScript">
+				<!--
+					if (is_nav4) {
+						document.write("<input  size=20 ");
+					} 
+					else if (is_mac) {
+						document.write("<input  size=30 ");
+					}
+					else if (is_safari) {
+						document.write("<input  size=25 ");
+					}
+					else {
+					    document.write("<input  size=34 ");
+					}
+                    function checkSearch() {
+                        var searchForm = document.searchCESWeb;
+                            
+                        if(searchForm.SEARCH_STRING.value.search(/\S/) == -1) {
+                            alert("Please enter text to search for.");
+                            return;
+                        }
+                        searchForm.submit();
+                    }
+				//-->
+				</script>
+				type="text" name="SEARCH_STRING" value=" Search CESweb.org" class="attendeesform"  ONFOCUS="if(this.value==' Search CESweb.org')this.value=''; snrollOver('.button_search');" ONBLUR="if(this.value=='')this.value=' Search CESweb.org'; snrollOff('.button_search');" >&nbsp;&nbsp;</td>
+				<td width="27"><img name=".button_search"  src="/global_images/1.0/1.0.button_search.gif" alt="go" width="27" height="33" hspace="0" vspace="0" border="0" onmouseover=snrollOver('.button_search'); onmouseout=snrollOff('.button_search'); onClick="checkSearch();"></td>
+				</tr>
+				</table>
+<!-- /table for secondary navigation and form -->			
+		</td>
+			<input type="hidden" name="ExhibitorSearchField" value="on">
+			<input type="hidden" name="EventSearchField" value="on">
+			<input type="hidden" name="PressSearchField" value="on">
+			<input type="hidden" name="ConferenceSearchField" value="on">
+			<input type="hidden" name="GeneralCESwebSearchField" value="on">
+		</form>
+	 </tr>
+<!-- /secondary navigation row -->	
+<!-- colored row with section color 4 - 5 pixels high --> 
+	<tr>
+	    <td width="10"></td>
+	    <td width="140"></td>
+	    <td width="10"></td>
+	    <td width="610" colspan="6"  background="/global_images/spacer.gif" class="attendees4"><img src="/global_images/spacer.gif" alt="" width="610" height="5" hspace="0" vspace="0" border="0"></td>
+	 </tr>
+<!-- /colored row with section color 4 - 5 pixels high --> 	 
+<!-- breadcrumb row -->
+	<tr>
+	    <td width="10"></td>
+	    
+			<td width="140"><a href="/register/" onmouseover=snrollOver('.register'); onmouseout=snrollOff('.register');><img src="/global_images/1.0/1.0.register.gif" alt="Register" name=".register" id=".register" width="140" height="40" hspace="0" vspace="0" border="0"></a></td>
+		
+			<!--<td width="140"><a href="/exhibitors/resource_center/badges/default.asp" onmouseover=snrollOver('.register'); onmouseout=snrollOff('.register');><img src="/global_images//0.0_files/.register.gif" alt="Register" name=".register" id=".register" width="140" height="40" hspace="0" vspace="0" border="0"></a></td>-->
+		
+			<!--<td width="140"><a href="/registration_temp.asp" onmouseover=snrollOver('.register'); onmouseout=snrollOff('.register');><img src="/global_images//0.0_files/.register.gif" alt="Register" name=".register" id=".register" width="140" height="40" hspace="0" vspace="0" border="0"></a></td>-->
+		
+		<td width="10"></td>		
+
+		
+		    <td width="10" background="/global_images/spacer.gif" class="attendees6"><img src="/global_images/spacer.gif" alt="" width="10" height="40" hspace="0" vspace="0" border="0"></td>
+		    <td width="390" colspan="2" background="/global_images/spacer.gif" class="attendees6" valign="bottom"><span class="attendees_nav_breadcrumb">
+			<a href="/default.asp">Home</a>&nbsp;>&nbsp;<a href="/attendees/">Attendees</a>&nbsp;>&nbsp;<a href="/attendees/awards/">Awards</a>&nbsp;>&nbsp;<a href="/attendees/awards/innovations/">CES Innovations</a>&nbsp;>&nbsp;2004 Honorees
+			</span><br><img src="/global_images/spacer.gif" height="8" width="1"></td>
+		    <td width="200" background="/global_images/spacer.gif" colspan="2" class="attendees6"><img src="/global_images/1.0/1.0_print_mail.gif" width="115" height="40" alt="print - email" border="0"><a href=javascript:newWin("/global_include/asp/page_tools/print.asp","1.4.1.5") onmouseover=snrollOver('_button_print'); onmouseout=snrollOff('_button_print');><img src="/global_images/1.0/1.0_button_print.gif" alt="Print" name="_button_print" id="_button_print" width="43" height="40" hspace="0" vspace="0" border="0"></a><A HREF=javascript:openNewWindow("/global_include/asp/page_tools/email.asp") onmouseover=snrollOver('_button_mail'); onmouseout=snrollOff('_button_mail');><img src="/global_images/1.0/1.0_button_mail.gif" alt="Email" name="_button_mail" id="_button_mail" width="42" height="40" hspace="0" vspace="0" border="0"></a></td>
+		    <td width="10" background="/global_images/spacer.gif" class="attendees6">&nbsp;</td>
+    			
+	</tr>
+<!-- /breadcrumb row -->	
+<!-- main body row -->
+	<tr>
+	    <td width="10" background="/global_images/spacer.gif"></td>
+	    <td width="140" background="/global_images/spacer.gif" valign="top"><img src="/global_images/spacer.gif" width="140" height="20" alt="" border="0"><br>
+		<span class="nav_third">
+
+
+<!-- AWARDS -->
+	<img src="/global_images/navigation/3nav_bar_gray.gif" alt="--------" width="140" height="1" hspace="0" vspace="0" border="0"><br>
+	<img src="/global_images/spacer.gif" width="140" height="4" alt="" border="0"><br>
+	<a href="/attendees/awards/innovations/">CES Innovations</a><br>
+		
+			<span class="nav_fourth">
+			<span class="nav_fourth_arrow"><b>></b> &nbsp;</span><a href="/attendees/awards/innovations/about.asp">About the Program</a><br>
+			<!--<span class="nav_fourth_arrow"><b>></b> &nbsp;</span><a href="/attendees/awards/innovations/entry_details/details.asp">Entry Details</a><br>
+			<span class="nav_fourth_arrow"><b>></b> &nbsp;</span><a href="/attendees/awards/innovations/submission/temp.asp">2004 Call for Entries</a><br>-->
+			<span class="nav_fourth_arrow"><b>></b> &nbsp;</span>2004 Honorees (New!)</a><br>
+			<!--<span class="nav_fourth_arrow"><b>></b> &nbsp;</span><a href="/attendees/awards/innovations/2003/default.asp?boi=1">2003 Honorees</a><br>-->
+			</span>
+			<img src="/global_images/spacer.gif" width="140" height="10" alt="" border="0"><br>
+		
+	<img src="/global_images/navigation/3nav_bar_gray.gif" alt="--------" width="140" height="1" hspace="0" vspace="0" border="0"><br>
+	<img src="/global_images/spacer.gif" width="140" height="4" alt="" border="0"><br>
+	<a href="/attendees/awards/best_of_ces/">TechTV's Best of CES</a><br>
+			
+			<img src="/global_images/spacer.gif" width="140" height="6" alt="" border="0"><br>
+		
+	<img src="/global_images/navigation/3nav_bar_gray.gif" alt="--------" width="140" height="1" hspace="0" vspace="0" border="0"><br>
+	<img src="/global_images/spacer.gif" width="140" height="4" alt="" border="0"><br>
+	<a href="/attendees/awards/next_big_thing/">The Next Big Thing</a><br>
+	<img src="/global_images/spacer.gif" width="140" height="6" alt="" border="0"><br>
+	<img src="/global_images/navigation/3nav_bar_gray.gif" alt="--------" width="140" height="1" hspace="0" vspace="0" border="0"><br>
+	<img src="/global_images/spacer.gif" width="140" height="4" alt="" border="0"><br>
+	<a href="/attendees/awards/hall_of_fame/">CE Hall of Fame</a><br>
+	<img src="/global_images/spacer.gif" width="140" height="6" alt="" border="0"><br>
+	<img src="/global_images/navigation/3nav_bar_gray.gif" alt="--------" width="140" height="1" hspace="0" vspace="0" border="0"><br>
+	<img src="/global_images/spacer.gif" width="140" height="24" alt="" border="0"><br>
+<!-- /AWARDS -->
+
+
+
+
+<a href="http://www.ce.org" target="new" onmouseover=snrollOver('_logo_cea'); onmouseout=snrollOff('_logo_cea');><img src="/global_images/1.0/1.0_logo_cea.gif" name="_logo_cea" width="140" height="116" alt="Produced by Consumer Electronics Association" border="0"></a>
+<br>
+</span>
+
+				
+		</td>
+	    <td width="10"></td>
+		<!-- checking to see if the page is a main section page or not -->
+		
+			<td width="10" background="/global_images/spacer.gif" class="attendees7">&nbsp;</td>
+		    <td width="590" colspan="4"  background="/global_images/spacer.gif" class="attendees7" valign="top">
+				
+					<img src="/global_images/spacer.gif" height="10" width="1"><br><div class="body_title">2004 CES Innovations Awards Honorees<br><img src="/global_images/spacer.gif" height="16" width="1"></div>
+				
+	
+<div id="1.4.1.5">	
+<!-- text for main page -->
+<table bgcolor="#E5F5FD" width="590" cellspacing="0" cellpadding="0" border="0">
+	<tr>
+	    <td width="10"><img src="/global_images/in_page_up_left.gif" alt="" width="10" height="10" hspace="0" vspace="0" border="0"></td>
+	    <td width="184"><img src="/global_images/spacer.gif" alt="" width="184" height="10" hspace="0" vspace="0" border="0"></td>
+	    <td width="10"><img src="/global_images/spacer.gif" alt="" width="10" height="10" hspace="0" vspace="0" border="0"></td>
+	    <td width="183"><img src="/global_images/spacer.gif" alt="" width="183" height="10" hspace="0" vspace="0" border="0"></td>
+	    <td width="10"><img src="/global_images/spacer.gif" alt="" width="10" height="10" hspace="0" vspace="0" border="0"></td>
+	    <td width="183"><img src="/global_images/spacer.gif" alt="" width="183" height="10" hspace="0" vspace="0" border="0"></td>
+	    <td width="10"><img src="/global_images/in_page_up_right.gif" alt="" width="10" height="10" hspace="0" vspace="0" border="0"></td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><span class="subhead">Honoree Categories:</span></td>
+	</tr>
+	<tr>
+	    <td>&nbsp;</td>
+		<td valign="top" class="text">
+			<span class="nav_fourth_arrow"><b>>&nbsp;&nbsp;</b></span><a href="default.asp?boi=1" class="inpagenav">Best of Innovations</a><BR>
+			<span class="nav_fourth_arrow"><b>>&nbsp;&nbsp;</b></span><a href="default.asp?alpha=1" class="inpagenav">Alphabetical List</a><BR>
+			
+				<span class="nav_fourth_arrow"><b>>&nbsp;&nbsp;</b></span><a href="default.asp?category=1" class="inpagenav">Accessibility</a><br>
+				
+				<span class="nav_fourth_arrow"><b>>&nbsp;&nbsp;</b></span><a href="default.asp?category=2" class="inpagenav">Accessories</a><br>
+				
+				<span class="nav_fourth_arrow"><b>>&nbsp;&nbsp;</b></span><a href="default.asp?category=3" class="inpagenav">Audio</a><br>
+				
+				<span class="nav_fourth_arrow"><b>>&nbsp;&nbsp;</b></span><a href="default.asp?category=4" class="inpagenav">Computer Hardware</a><br>
+				
+				<span class="nav_fourth_arrow"><b>>&nbsp;&nbsp;</b></span><a href="default.asp?category=5" class="inpagenav">Digital Imaging</a><br>
+				
+				<span class="nav_fourth_arrow"><b>>&nbsp;&nbsp;</b></span><a href="default.asp?category=7" class="inpagenav">Eco Design</a><br>
+				
+		</td>
+	    <td>&nbsp;</td>
+		<td valign="top" class="text">
+			
+				<span class="nav_fourth_arrow"><b>>&nbsp;&nbsp;</b></span><a href="default.asp?category=6" class="inpagenav">Electronic Gaming</a><br>
+				
+				<span class="nav_fourth_arrow"><b>>&nbsp;&nbsp;</b></span><a href="default.asp?category=8" class="inpagenav">Home Appliances</a><br>
+				
+				<span class="nav_fourth_arrow"><b>>&nbsp;&nbsp;</b></span><a href="default.asp?category=9" class="inpagenav">Home Data Networking</a><br>
+				
+				<span class="nav_fourth_arrow"><b>>&nbsp;&nbsp;</b></span><a href="default.asp?category=10" class="inpagenav">Integrated Home Systems</a><br>
+				
+				<span class="nav_fourth_arrow"><b>>&nbsp;&nbsp;</b></span><a href="default.asp?category=11" class="inpagenav">Mobile Electronics</a><br>
+				
+				<span class="nav_fourth_arrow"><b>>&nbsp;&nbsp;</b></span><a href="default.asp?category=12" class="inpagenav">Online/Internet</a><br>
+				
+				<span class="nav_fourth_arrow"><b>>&nbsp;&nbsp;</b></span><a href="default.asp?category=13" class="inpagenav">Personal Electronics</a><br>
+				
+				<span class="nav_fourth_arrow"><b>>&nbsp;&nbsp;</b></span><a href="default.asp?category=15" class="inpagenav">Retail Resources</a><br>
+						
+		</td>
+	    <td>&nbsp;</td>
+		<td valign="top" class="text">
+			
+				<span class="nav_fourth_arrow"><b>>&nbsp;&nbsp;</b></span><a href="default.asp?category=14" class="inpagenav">Retailing Accessories</a><br>
+				
+				<span class="nav_fourth_arrow"><b>>&nbsp;&nbsp;</b></span><a href="default.asp?category=16" class="inpagenav">Satellite Systems</a><br>
+				
+				<span class="nav_fourth_arrow"><b>>&nbsp;&nbsp;</b></span><a href="default.asp?category=17" class="inpagenav">Small Office/Home Office</a><br>
+				
+				<span class="nav_fourth_arrow"><b>>&nbsp;&nbsp;</b></span><a href="default.asp?category=18" class="inpagenav">Software/Embedded Technologies</a><br>
+				
+				<span class="nav_fourth_arrow"><b>>&nbsp;&nbsp;</b></span><a href="default.asp?category=19" class="inpagenav">Telephones</a><br>
+				
+				<span class="nav_fourth_arrow"><b>>&nbsp;&nbsp;</b></span><a href="default.asp?category=20" class="inpagenav">Video</a><br>
+				
+				<span class="nav_fourth_arrow"><b>>&nbsp;&nbsp;</b></span><a href="default.asp?category=21" class="inpagenav">Wireless Communications</a><br>
+				
+			<!--<br><span class="nav_fourth_arrow"><b>>&nbsp;&nbsp;</b></span><a href="judges.asp">Judges Panel</a>-->
+		</td>
+	    <td>&nbsp;</td>
+	</tr>
+	<tr>
+	    <td width="10"><img src="/global_images/in_page_down_left.gif" alt="" width="10" height="10" hspace="0" vspace="0" border="0"></td>
+	    <td width="184"><img src="/global_images/spacer.gif" alt="" width="184" height="10" hspace="0" vspace="0" border="0"></td>
+	    <td width="10"><img src="/global_images/spacer.gif" alt="" width="10" height="10" hspace="0" vspace="0" border="0"></td>
+	    <td width="183"><img src="/global_images/spacer.gif" alt="" width="183" height="10" hspace="0" vspace="0" border="0"></td>
+	    <td width="10"><img src="/global_images/spacer.gif" alt="" width="10" height="10" hspace="0" vspace="0" border="0"></td>
+	    <td width="183"><img src="/global_images/spacer.gif" alt="" width="183" height="10" hspace="0" vspace="0" border="0"></td>
+	    <td width="10"><img src="/global_images/in_page_down_right.gif" alt="" width="10" height="10" hspace="0" vspace="0" border="0"></td>
+	</tr>
+</table><br>
+Honorees for the Innovations Design and Engineering Awards Showcase are selected by a <A href="judges.asp">preeminent panel of judges</A> consisting of independent industry designers, engineers and journalists. <BR>
+<br>
+
+		<a name="2806"></a>
+
+		<span class="section_title">Audio</span><br><br><br>
+			
+		
+		<table width="590" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img src="/global_images/1.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"></td>
+		</tr>
+		<tr><a name="2806"></a>
+		    <td valign="top" class="text" width="590"><img src="/global_images/spacer.gif" alt="" width="440" height="4" hspace="0" vspace="0" border="0"><br>
+				<table border="0" width="590" cellpadding="0" cellspacing="0">
+				<tr>
+					<td valign="top">
+					
+						<!--<span class="subhead"></span><br>-->
+					
+							<span class="subhead"> Audio Design Associates</span><br><br>
+						
+					
+					<b>Tune Suite by ADA</b><br>
+					
+					
+						<span class="text_colored">Design by:  Audio Design Associates</span><br>
+						
+						<a target="new" href="http://www.ada-usa.com">www.ada-usa.com</a>
+					<br><br>		
+					</td>
+
+					
+					<td valign="top" width="107" "nowrap">[<a target="new" href="/shared_files/innovations/innovations_2004/2806/mainphoto2806.jpg">view product image</a>]</td>
+					
+				</tr>
+				</table>
+
+				Tune Suite features both standard radio (including WXBand) as well as XMSatellite Radio and can house up to 4 tuner modules for simultaneous playback, specifically engineered forthe custom installation market.  
+					<!--<br><br>Location(s): 
+					<br><br>Location(s): This honoree is not exhibiting at the 2004 International CES.
+				
+					<br><br>Location(s): There are no booths listed for this exhibitor.-->
+				
+				<br><img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0">
+			</td>
+		</tr>
+			
+		<table width="590" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img src="/global_images/1.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"></td>
+		</tr>
+		<tr><a name="2539"></a>
+		    <td valign="top" class="text" width="590"><img src="/global_images/spacer.gif" alt="" width="440" height="4" hspace="0" vspace="0" border="0"><br>
+				<table border="0" width="590" cellpadding="0" cellspacing="0">
+				<tr>
+					<td valign="top">
+					
+						<!--<span class="subhead"></span><br>-->
+					
+							<span class="subhead">Altec Lansing Technologies</span>&nbsp;&nbsp;[<a href="/attendees/exhibit_floor/directory/eims_exhibitor_details.asp?exhibid=4830">view exhibitor details</a>]<br><br>
+						
+					
+					<b>inMotion™</b><br>
+					
+					
+						<span class="text_colored">Design by: ION</span><br>
+						
+						<a target="new" href="http://www.alteclansing.com">www.alteclansing.com</a>
+					<br><br>		
+					</td>
+
+					
+					<td valign="top" width="107" "nowrap">[<a target="new" href="/shared_files/innovations/innovations_2004/2539/mainphoto2539.jpg">view product image</a>]</td>
+					
+				</tr>
+				</table>
+
+				Altec Lansing® inMotion™ with MaxxBaxx® Technology is the first powered audio system designed exclusively for the iPod.  Tiny, ultra-portable, and battery-operated, inMotion™ delivers great sound in a small, cool, package.
+					<!--<br><br>Location(s): 
+					<br><br>Location(s): This honoree is not exhibiting at the 2004 International CES.
+				
+					<br><br>Location(s): There are no booths listed for this exhibitor.-->
+				
+				<br><img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0">
+			</td>
+		</tr>
+			
+		<table width="590" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img src="/global_images/1.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"></td>
+		</tr>
+		<tr><a name="2550"></a>
+		    <td valign="top" class="text" width="590"><img src="/global_images/spacer.gif" alt="" width="440" height="4" hspace="0" vspace="0" border="0"><br>
+				<table border="0" width="590" cellpadding="0" cellspacing="0">
+				<tr>
+					<td valign="top">
+					
+						<!--<span class="subhead"></span><br>-->
+					
+							<span class="subhead">Archos Technology</span>&nbsp;&nbsp;[<a href="/attendees/exhibit_floor/directory/eims_exhibitor_details.asp?exhibid=4863">view exhibitor details</a>]<br><br>
+						
+					
+					<b>AV380, Cinema To Go</b><br>
+					
+					
+						<span class="text_colored">Design by: Archos Technology</span><br>
+						
+						<a target="new" href="http://www.archos.com">www.archos.com</a>
+					<br><br>		
+					</td>
+
+					
+					<td valign="top" width="107" "nowrap">[<a target="new" href="/shared_files/innovations/innovations_2004/2550/mainphoto2550.jpg">view product image</a>]</td>
+					
+				</tr>
+				</table>
+
+				  
+					<!--<br><br>Location(s): 
+					<br><br>Location(s): This honoree is not exhibiting at the 2004 International CES.
+				
+					<br><br>Location(s): There are no booths listed for this exhibitor.-->
+				
+				<br><img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0">
+			</td>
+		</tr>
+			
+		<table width="590" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img src="/global_images/1.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"></td>
+		</tr>
+		<tr><a name="1890"></a>
+		    <td valign="top" class="text" width="590"><img src="/global_images/spacer.gif" alt="" width="440" height="4" hspace="0" vspace="0" border="0"><br>
+				<table border="0" width="590" cellpadding="0" cellspacing="0">
+				<tr>
+					<td valign="top">
+					
+						<!--<span class="subhead"></span><br>-->
+					
+							<span class="subhead">Artistic Audio</span>&nbsp;&nbsp;[<a href="/attendees/exhibit_floor/directory/eims_exhibitor_details.asp?exhibid=6103">view exhibitor details</a>]<br><br>
+						
+					
+					<b>Möbius</b><br>
+					
+					
+						<span class="text_colored">Design by: Artistic Audio Inc.</span><br>
+						
+						<a target="new" href="http://wwwartisticaudio.com">wwwartisticaudio.com</a>
+					<br><br>		
+					</td>
+
+					
+					<td valign="top" width="107" "nowrap">[<a target="new" href="/shared_files/innovations/innovations_2004/1890/mainphoto1890.jpg">view product image</a>]</td>
+					
+				</tr>
+				</table>
+
+				Artistic Audio’s Möbius loudspeaker incorporates a design philosophy that matches art and science in pursuit of the perfect point source.
+					<!--<br><br>Location(s): 
+					<br><br>Location(s): This honoree is not exhibiting at the 2004 International CES.
+				
+					<br><br>Location(s): There are no booths listed for this exhibitor.-->
+				
+				<br><img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0">
+			</td>
+		</tr>
+			
+		<table width="590" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img src="/global_images/1.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"></td>
+		</tr>
+		<tr><a name="1982"></a>
+		    <td valign="top" class="text" width="590"><img src="/global_images/spacer.gif" alt="" width="440" height="4" hspace="0" vspace="0" border="0"><br>
+				<table border="0" width="590" cellpadding="0" cellspacing="0">
+				<tr>
+					<td valign="top">
+					
+						<!--<span class="subhead"></span><br>-->
+					
+							<span class="subhead">Atlantic Technology Int</span>&nbsp;&nbsp;[<a href="/attendees/exhibit_floor/directory/eims_exhibitor_details.asp?exhibid=4877">view exhibitor details</a>]<br><br>
+						
+					
+					<b>System 8200</b><br>
+					
+					
+						<span class="text_colored">Design by: Cambridge Product Design, Ltd.</span><br>
+						
+						<a target="new" href="http://www.atlantictechnology.com">www.atlantictechnology.com</a>
+					<br><br>		
+					</td>
+
+					
+					<td valign="top" width="107" "nowrap">[<a target="new" href="/shared_files/innovations/innovations_2004/1982/mainphoto1982.jpeg">view product image</a>]</td>
+					
+				</tr>
+				</table>
+
+				Atlantic Technology System 8200 with C.O.R.E. Technology--complete THX Ultra2 5.1/7.1 HT speaker system. 3-way LR/C with acoustic controls, 350-watt PedSubs, optional side panels in six finishes, and bipole/dipole surrounds.
+					<!--<br><br>Location(s): 
+					<br><br>Location(s): This honoree is not exhibiting at the 2004 International CES.
+				
+					<br><br>Location(s): There are no booths listed for this exhibitor.-->
+				
+				<br><img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0">
+			</td>
+		</tr>
+			
+		<table width="590" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img src="/global_images/1.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"></td>
+		</tr>
+		<tr><a name="2667"></a>
+		    <td valign="top" class="text" width="590"><img src="/global_images/spacer.gif" alt="" width="440" height="4" hspace="0" vspace="0" border="0"><br>
+				<table border="0" width="590" cellpadding="0" cellspacing="0">
+				<tr>
+					<td valign="top">
+					
+						<!--<span class="subhead"></span><br>-->
+					
+							<span class="subhead">Auvi Technologies</span><br><br>
+						
+					
+					<b>Auvi Technologies SA1500</b><br>
+					
+					
+						<span class="text_colored">Design by: Auvi Technologies</span><br>
+						
+						<a target="new" href="http://www.auviworld.com">www.auviworld.com</a>
+					<br><br>		
+					</td>
+
+					
+					<td valign="top" width="107" "nowrap">[<a target="new" href="/shared_files/innovations/innovations_2004/2667/mainphoto2667.jpg">view product image</a>]</td>
+					
+				</tr>
+				</table>
+
+				Auvi’s SA1500 is the industry’s smallest and lightest MP3 / WMA™ hard drive player offering USB 2.0 technology within a sleek, titanium steel design at an affordable price point.
+					<!--<br><br>Location(s): 
+					<br><br>Location(s): This honoree is not exhibiting at the 2004 International CES.
+				
+					<br><br>Location(s): There are no booths listed for this exhibitor.-->
+				
+				<br><img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0">
+			</td>
+		</tr>
+			
+		<table width="590" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img src="/global_images/1.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"></td>
+		</tr>
+		<tr><a name="1970"></a>
+		    <td valign="top" class="text" width="590"><img src="/global_images/spacer.gif" alt="" width="440" height="4" hspace="0" vspace="0" border="0"><br>
+				<table border="0" width="590" cellpadding="0" cellspacing="0">
+				<tr>
+					<td valign="top">
+					
+						<!--<span class="subhead"></span><br>-->
+					
+							<span class="subhead">Auvi Technologies</span><br><br>
+						
+					
+					<b>Auvi Technologies SA250</b><br>
+					
+					
+						<span class="text_colored">Design by: Auvi Technologies</span><br>
+						
+						<a target="new" href="http://www.auviworld.com">www.auviworld.com</a>
+					<br><br>		
+					</td>
+
+					
+					<td valign="top" width="107" "nowrap">[<a target="new" href="/shared_files/innovations/innovations_2004/1970/mainphoto1970.jpg">view product image</a>]</td>
+					
+				</tr>
+				</table>
+
+				Auvi’s SA250 is the first USB 2.0 MP3 / WMA player within a USB drive design, including FM radio, voice recorder, MP3 and radio encoder, and mass storage capabilities.
+					<!--<br><br>Location(s): 
+					<br><br>Location(s): This honoree is not exhibiting at the 2004 International CES.
+				
+					<br><br>Location(s): There are no booths listed for this exhibitor.-->
+				
+				<br><img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0">
+			</td>
+		</tr>
+			
+		<table width="590" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img src="/global_images/1.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"></td>
+		</tr>
+		<tr><a name="2925"></a>
+		    <td valign="top" class="text" width="590"><img src="/global_images/spacer.gif" alt="" width="440" height="4" hspace="0" vspace="0" border="0"><br>
+				<table border="0" width="590" cellpadding="0" cellspacing="0">
+				<tr>
+					<td valign="top">
+					
+						<!--<span class="subhead"></span><br>-->
+					
+							<span class="subhead">Cerwin-Vega Inc. A Florida Corporation</span>&nbsp;&nbsp;[<a href="/attendees/exhibit_floor/directory/eims_exhibitor_details.asp?exhibid=4964">view exhibitor details</a>]<br><br>
+						
+					
+					<b>V-MAG 693</b><br>
+					
+					
+						<span class="text_colored">Design by: Cerwin-Vega Inc. A Florida Corporation</span><br>
+						
+						<a target="new" href="http://www.cerwin-vega.com">www.cerwin-vega.com</a>
+					<br><br>		
+					</td>
+
+					
+					<td valign="top" width="107" "nowrap">[<a target="new" href="/shared_files/innovations/innovations_2004/2925/mainphoto2925.jpg">view product image</a>]</td>
+					
+				</tr>
+				</table>
+
+				The V-Mag 693 is the ultimate 3-way componet system. Featuring a magnesium aluminum cone, titanium midrange and a titanium dome tweeter, the V-MAG 693 is the ideal aftermarket premium upgarde.
+					<!--<br><br>Location(s): 
+					<br><br>Location(s): This honoree is not exhibiting at the 2004 International CES.
+				
+					<br><br>Location(s): There are no booths listed for this exhibitor.-->
+				
+				<br><img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0">
+			</td>
+		</tr>
+			
+		<table width="590" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img src="/global_images/1.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"></td>
+		</tr>
+		<tr><a name="1958"></a>
+		    <td valign="top" class="text" width="590"><img src="/global_images/spacer.gif" alt="" width="440" height="4" hspace="0" vspace="0" border="0"><br>
+				<table border="0" width="590" cellpadding="0" cellspacing="0">
+				<tr>
+					<td valign="top">
+					
+						<!--<span class="subhead"></span><br>-->
+					
+							<span class="subhead">Clark Synthesis Inc.</span>&nbsp;&nbsp;[<a href="/attendees/exhibit_floor/directory/eims_exhibitor_details.asp?exhibid=4979">view exhibitor details</a>]<br><br>
+						
+					
+					<b>Aquasonic Portable Pool Speaker</b><br>
+					
+					
+						<span class="text_colored">Design by: Clark Synthesis Inc.</span><br>
+						
+						<a target="new" href="http://www.clarksynthesis.com">www.clarksynthesis.com</a>
+					<br><br>		
+					</td>
+
+					
+					<td valign="top" width="107" "nowrap">[<a target="new" href="/shared_files/innovations/innovations_2004/1958/mainphoto1958.jpg">view product image</a>]</td>
+					
+				</tr>
+				</table>
+
+				Clark Synthesis announces a new portable underwater pool speaker which floats on the water transmiting sound below and above the waterline.  Now everyone around the
+pool can enjoy the sound!
+					<!--<br><br>Location(s): 
+					<br><br>Location(s): This honoree is not exhibiting at the 2004 International CES.
+				
+					<br><br>Location(s): There are no booths listed for this exhibitor.-->
+				
+				<br><img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0">
+			</td>
+		</tr>
+			
+		<table width="590" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img src="/global_images/1.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"></td>
+		</tr>
+		<tr><a name="2763"></a>
+		    <td valign="top" class="text" width="590"><img src="/global_images/spacer.gif" alt="" width="440" height="4" hspace="0" vspace="0" border="0"><br>
+				<table border="0" width="590" cellpadding="0" cellspacing="0">
+				<tr>
+					<td valign="top">
+					
+						<!--<span class="subhead"></span><br>-->
+					
+							<span class="subhead">Definitive Technology LLP</span>&nbsp;&nbsp;[<a href="/attendees/exhibit_floor/directory/eims_exhibitor_details.asp?exhibid=5024">view exhibitor details</a>]<br><br>
+						
+					
+					<b>Definitive Technology Mythos Two On-Wall Home Theater Speaker System</b><br>
+					
+					
+						<span class="text_colored">Design by: Definitive Technology</span><br>
+						
+						<a target="new" href="http://www.definitivetech.com">www.definitivetech.com</a>
+					<br><br>		
+					</td>
+
+					
+					<td valign="top" width="107" "nowrap">[<a target="new" href="/shared_files/innovations/innovations_2004/2763/mainphoto2763.jpg">view product image</a>]</td>
+					
+				</tr>
+				</table>
+
+				The Mythos Two On-Wall Home Theater Speaker System combines ultra-high performance and cutting-edge lifestyle design, targeting flat-display customers.  New technology achieves lifelike sound and impact from compact esthetically appealing enclosures.
+					<!--<br><br>Location(s): 
+					<br><br>Location(s): This honoree is not exhibiting at the 2004 International CES.
+				
+					<br><br>Location(s): There are no booths listed for this exhibitor.-->
+				
+				<br><img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0">
+			</td>
+		</tr>
+			
+		<table width="590" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img src="/global_images/1.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"></td>
+		</tr>
+		<tr><a name="2152"></a>
+		    <td valign="top" class="text" width="590"><img src="/global_images/spacer.gif" alt="" width="440" height="4" hspace="0" vspace="0" border="0"><br>
+				<table border="0" width="590" cellpadding="0" cellspacing="0">
+				<tr>
+					<td valign="top">
+					
+						<!--<span class="subhead"></span><br>-->
+					
+							<span class="subhead">ELAC</span>&nbsp;&nbsp;[<a href="/attendees/exhibit_floor/directory/eims_exhibitor_details.asp?exhibid=6116">view exhibitor details</a>]<br><br>
+						
+					
+					<b>FS 207.2 </b><br>
+					
+					
+						<span class="text_colored">Design by: ELAC ELECTROACUSTIC GMBH</span><br>
+						
+						<a target="new" href="http://www.elac.com">www.elac.com</a>
+					<br><br>		
+					</td>
+
+					
+					<td valign="top" width="107" "nowrap">[<a target="new" href="/shared_files/innovations/innovations_2004/2152/mainphoto2152.jpg">view product image</a>]</td>
+					
+				</tr>
+				</table>
+
+				ELAC'S FS 207.2:  2 1/2-way floorstander for stereo and home cinema, magnetically shielded, offers multiple technical features and perfect design! 
+					<!--<br><br>Location(s): 
+					<br><br>Location(s): This honoree is not exhibiting at the 2004 International CES.
+				
+					<br><br>Location(s): There are no booths listed for this exhibitor.-->
+				
+				<br><img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0">
+			</td>
+		</tr>
+			
+		<table width="590" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img src="/global_images/1.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"></td>
+		</tr>
+		<tr><a name="2514"></a>
+		    <td valign="top" class="text" width="590"><img src="/global_images/spacer.gif" alt="" width="440" height="4" hspace="0" vspace="0" border="0"><br>
+				<table border="0" width="590" cellpadding="0" cellspacing="0">
+				<tr>
+					<td valign="top">
+					
+						<!--<span class="subhead"></span><br>-->
+					
+							<span class="subhead">Eton Corporation</span>&nbsp;&nbsp;[<a href="/attendees/exhibit_floor/directory/eims_exhibitor_details.asp?exhibid=5154">view exhibitor details</a>]<br><br>
+						
+					
+					<b>Etón E1 XM</b><br>
+					
+					
+						<span class="text_colored">Design by: Eton Corporation</span><br>
+						
+						<a target="new" href="http://www.etoncorp.com">www.etoncorp.com</a>
+					<br><br>		
+					</td>
+
+					
+					<td valign="top" width="107" "nowrap">[<a target="new" href="/shared_files/innovations/innovations_2004/2514/mainphoto2514.gif">view product image</a>]</td>
+					
+				</tr>
+				</table>
+
+				The Etón E1 XM is the first receiver ever to combine XM Satellit Radio with AM/FM/Shortwave – making it the finest full-sized high-performance portable in the world.
+					<!--<br><br>Location(s): 
+					<br><br>Location(s): This honoree is not exhibiting at the 2004 International CES.
+				
+					<br><br>Location(s): There are no booths listed for this exhibitor.-->
+				
+				<br><img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0">
+			</td>
+		</tr>
+			
+		<table width="590" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img src="/global_images/1.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"></td>
+		</tr>
+		<tr><a name="2521"></a>
+		    <td valign="top" class="text" width="590"><img src="/global_images/spacer.gif" alt="" width="440" height="4" hspace="0" vspace="0" border="0"><br>
+				<table border="0" width="590" cellpadding="0" cellspacing="0">
+				<tr>
+					<td valign="top">
+					
+						<!--<span class="subhead"></span><br>-->
+					
+							<span class="subhead">Eton Corporation</span>&nbsp;&nbsp;[<a href="/attendees/exhibit_floor/directory/eims_exhibitor_details.asp?exhibid=5154">view exhibitor details</a>]<br><br>
+						
+					
+					<b>Grundig Ovation</b><br>
+					
+					
+						<span class="text_colored">Design by: Eton Corporation</span><br>
+						
+						<a target="new" href="http://www.etoncorp.com">www.etoncorp.com</a>
+					<br><br>		
+					</td>
+
+					
+					<td valign="top" width="107" "nowrap">[<a target="new" href="/shared_files/innovations/innovations_2004/2521/mainphoto2521.gif">view product image</a>]</td>
+					
+				</tr>
+				</table>
+
+				The Grundig’s Ovation, with its patented “Magic Fidelity” sound system with built-in subwoofer and 80 Watts (PMPO), produces astonishing sound to rival any music system in the world.
+					<!--<br><br>Location(s): 
+					<br><br>Location(s): This honoree is not exhibiting at the 2004 International CES.
+				
+					<br><br>Location(s): There are no booths listed for this exhibitor.-->
+				
+				<br><img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0">
+			</td>
+		</tr>
+			
+		<table width="590" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img src="/global_images/1.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"></td>
+		</tr>
+		<tr><a name="2354"></a>
+		    <td valign="top" class="text" width="590"><img src="/global_images/spacer.gif" alt="" width="440" height="4" hspace="0" vspace="0" border="0"><br>
+				<table border="0" width="590" cellpadding="0" cellspacing="0">
+				<tr>
+					<td valign="top">
+					
+						<!--<span class="subhead"></span><br>-->
+					
+							<span class="subhead">Flying Mole Corporation</span>&nbsp;&nbsp;[<a href="/attendees/exhibit_floor/directory/eims_exhibitor_details.asp?exhibid=6007">view exhibitor details</a>]<br><br>
+						
+					
+					<b>Multi-Ch.Digital Power Amplifier</b><br>
+					
+					
+						<span class="text_colored">Design by: GK Industrial Design Incorporated</span><br>
+						
+						<a target="new" href="http://www.flyingmole.co.jp">www.flyingmole.co.jp</a>
+					<br><br>		
+					</td>
+
+					
+					<td valign="top" width="107" "nowrap">[<a target="new" href="/shared_files/innovations/innovations_2004/2354/mainphoto2354.jpg">view product image</a>]</td>
+					
+				</tr>
+				</table>
+
+				1 Bit D-Class Digital Power Amplifier - DPA-M1616Cascade: For Multi-Channel Appplications in the Home and Professional Market. Easily Stackable Design,
+ Super Compact, Environment-friendly through Super Low Power Consumption
+
+					<!--<br><br>Location(s): 
+					<br><br>Location(s): This honoree is not exhibiting at the 2004 International CES.
+				
+					<br><br>Location(s): There are no booths listed for this exhibitor.-->
+				
+				<br><img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0">
+			</td>
+		</tr>
+			
+		<table width="590" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img src="/global_images/1.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"></td>
+		</tr>
+		<tr><a name="2896"></a>
+		    <td valign="top" class="text" width="590"><img src="/global_images/spacer.gif" alt="" width="440" height="4" hspace="0" vspace="0" border="0"><br>
+				<table border="0" width="590" cellpadding="0" cellspacing="0">
+				<tr>
+					<td valign="top">
+					
+						<!--<span class="subhead"></span><br>-->
+					
+							<span class="subhead">Fosgate Audionics</span>&nbsp;&nbsp;[<a href="/attendees/exhibit_floor/directory/eims_exhibitor_details.asp?exhibid=5122">view exhibitor details</a>]<br><br>
+						
+					
+					<b>FAP V1 Tube PLII Processor</b><br>
+					
+					
+						<span class="text_colored">Design by: Fosgate Audionics</span><br>
+						
+						<a target="new" href="http://www.fosgateaudionics">www.fosgateaudionics</a>
+					<br><br>		
+					</td>
+
+					
+					<td valign="top" width="107" "nowrap">[<a target="new" href="/shared_files/innovations/innovations_2004/2896/mainphoto2896.jpg">view product image</a>]</td>
+					
+				</tr>
+				</table>
+
+				Fosgate Audionics’ limited edition, signature series FAP V1 vacuum-tube surround processor with 7.1 “loopthrough” and Dolby Pro Logic II.
+					<!--<br><br>Location(s): 
+					<br><br>Location(s): This honoree is not exhibiting at the 2004 International CES.
+				
+					<br><br>Location(s): There are no booths listed for this exhibitor.-->
+				
+				<br><img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0">
+			</td>
+		</tr>
+			
+		<table width="590" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img src="/global_images/1.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"></td>
+		</tr>
+		<tr><a name="1913"></a>
+		    <td valign="top" class="text" width="590"><img src="/global_images/spacer.gif" alt="" width="440" height="4" hspace="0" vspace="0" border="0"><br>
+				<table border="0" width="590" cellpadding="0" cellspacing="0">
+				<tr>
+					<td valign="top">
+					
+						<!--<span class="subhead"></span><br>-->
+					
+							<span class="subhead">Genesis Advanced Technologies</span>&nbsp;&nbsp;[<a href="/attendees/exhibit_floor/directory/eims_exhibitor_details.asp?exhibid=5923">view exhibitor details</a>]<br><br>
+						
+					
+					<b>G6.1 System</b><br>
+					
+					
+						<span class="text_colored">Design by: Genesis Advanced Technologies</span><br>
+						
+						<a target="new" href="http://www.genesisloudspeakers.com">www.genesisloudspeakers.com</a>
+					<br><br>		
+					</td>
+
+					
+					<td valign="top" width="107" "nowrap">[<a target="new" href="/shared_files/innovations/innovations_2004/1913/mainphoto1913.jpg">view product image</a>]</td>
+					
+				</tr>
+				</table>
+
+				The Genesis 6.1 Loudspeaker is a breakthrough design that will reproduce concert-level listening detail and volume and holographic imaging, yet bring subtle elegance and understated beauty to the home.
+					<!--<br><br>Location(s): 
+					<br><br>Location(s): This honoree is not exhibiting at the 2004 International CES.
+				
+					<br><br>Location(s): There are no booths listed for this exhibitor.-->
+				
+				<br><img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0">
+			</td>
+		</tr>
+			
+		<table width="590" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img src="/global_images/1.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"></td>
+		</tr>
+		<tr><a name="2968"></a>
+		    <td valign="top" class="text" width="590"><img src="/global_images/spacer.gif" alt="" width="440" height="4" hspace="0" vspace="0" border="0"><br>
+				<table border="0" width="590" cellpadding="0" cellspacing="0">
+				<tr>
+					<td valign="top">
+					
+						<!--<span class="subhead"></span><br>-->
+					
+							<span class="subhead">Gibson Audio</span>&nbsp;&nbsp;[<a href="/attendees/exhibit_floor/directory/eims_exhibitor_details.asp?exhibid=6239">view exhibitor details</a>]<br><br>
+						
+					
+					<b>Wurlitzer Digital Jukebox</b><br>
+					
+					
+						<span class="text_colored">Design by: Gibson</span><br>
+						
+						<a target="new" href="http://www.gibsonaudio.com">www.gibsonaudio.com</a>
+					<br><br>		
+					</td>
+
+					
+					<td valign="top" width="107" "nowrap">[<a target="new" href="/shared_files/innovations/innovations_2004/2968/mainphoto2968.jpg">view product image</a>]</td>
+					
+						<!--<td width="85"><img src=attendees/awards/innovations/2004/images/best_of_2004.gif align=right border=0 alt="Best of Innovations Honoree" onMouseDown="javascript:Image_OnMouseDown()"></td>-->
+						<td width="85"><img src="images/best_of_2004.gif" width="70" height="95" align=right border=0 alt="Best of Innovations" onMouseDown="javascript:Image_OnMouseDown()"></td>
+					
+				</tr>
+				</table>
+
+				Wurlitzer Digital Jukebox is a true masterpiece, delivering the most comprehensive set of digital music features available with sound by Klipsch and design worthy of your living room. 
+					<!--<br><br>Location(s): 
+					<br><br>Location(s): This honoree is not exhibiting at the 2004 International CES.
+				
+					<br><br>Location(s): There are no booths listed for this exhibitor.-->
+				
+				<br><img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0">
+			</td>
+		</tr>
+			
+		<table width="590" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img src="/global_images/1.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"></td>
+		</tr>
+		<tr><a name="2890"></a>
+		    <td valign="top" class="text" width="590"><img src="/global_images/spacer.gif" alt="" width="440" height="4" hspace="0" vspace="0" border="0"><br>
+				<table border="0" width="590" cellpadding="0" cellspacing="0">
+				<tr>
+					<td valign="top">
+					
+						<!--<span class="subhead"></span><br>-->
+					
+							<span class="subhead">Gibson Audio</span>&nbsp;&nbsp;[<a href="/attendees/exhibit_floor/directory/eims_exhibitor_details.asp?exhibid=6239">view exhibitor details</a>]<br><br>
+						
+					
+					<b>Wurlitzer Digital Jukebox TT</b><br>
+					
+					
+						<span class="text_colored">Design by: Gibson</span><br>
+						
+						<a target="new" href="http://www.gibsonaudio.com">www.gibsonaudio.com</a>
+					<br><br>		
+					</td>
+
+					
+					<td valign="top" width="107" "nowrap">[<a target="new" href="/shared_files/innovations/innovations_2004/2890/mainphoto2890.jpg">view product image</a>]</td>
+					
+				</tr>
+				</table>
+
+				Wurlitzer Digital Jukebox TT delivers the most comprehensive set of digital music features with unmatched ease-of-use in a beautiful and compact package. Sound by Klipsch.
+
+					<!--<br><br>Location(s): 
+					<br><br>Location(s): This honoree is not exhibiting at the 2004 International CES.
+				
+					<br><br>Location(s): There are no booths listed for this exhibitor.-->
+				
+				<br><img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0">
+			</td>
+		</tr>
+			
+		<table width="590" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img src="/global_images/1.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"></td>
+		</tr>
+		<tr><a name="2764"></a>
+		    <td valign="top" class="text" width="590"><img src="/global_images/spacer.gif" alt="" width="440" height="4" hspace="0" vspace="0" border="0"><br>
+				<table border="0" width="590" cellpadding="0" cellspacing="0">
+				<tr>
+					<td valign="top">
+					
+						<!--<span class="subhead"></span><br>-->
+					
+							<span class="subhead">GPX Inc.</span>&nbsp;&nbsp;[<a href="/attendees/exhibit_floor/directory/eims_exhibitor_details.asp?exhibid=5153">view exhibitor details</a>]<br><br>
+						
+					
+					<b>Bantam Digital Audio Headphones</b><br>
+					
+					
+						<span class="text_colored">Design by: GPX, Inc.</span><br>
+						
+						<a target="new" href="http://www.gpx.com">www.gpx.com</a>
+					<br><br>		
+					</td>
+
+					
+					<td valign="top" width="107" "nowrap">[<a target="new" href="/shared_files/innovations/innovations_2004/2764/mainphoto2764.jpg">view product image</a>]</td>
+					
+				</tr>
+				</table>
+
+				The Bantam HMR3004 is a true “ultralight” digital audio headphone player with advanced codec support, a rechargeable battery and an FM scan radio, all in a 40 gram package.
+					<!--<br><br>Location(s): 
+					<br><br>Location(s): This honoree is not exhibiting at the 2004 International CES.
+				
+					<br><br>Location(s): There are no booths listed for this exhibitor.-->
+				
+				<br><img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0">
+			</td>
+		</tr>
+			
+		<table width="590" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img src="/global_images/1.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"></td>
+		</tr>
+		<tr><a name="2100"></a>
+		    <td valign="top" class="text" width="590"><img src="/global_images/spacer.gif" alt="" width="440" height="4" hspace="0" vspace="0" border="0"><br>
+				<table border="0" width="590" cellpadding="0" cellspacing="0">
+				<tr>
+					<td valign="top">
+					
+						<!--<span class="subhead"></span><br>-->
+					
+							<span class="subhead">Harman Consumer Group</span>&nbsp;&nbsp;[<a href="/attendees/exhibit_floor/directory/eims_exhibitor_details.asp?exhibid=5164">view exhibitor details</a>]<br><br>
+						
+					
+					<b>Harman Kardon AVR 630 Audio/Video Receiver</b><br>
+					
+					
+						<span class="text_colored">Design by: Ashcraft Design, Inc.</span><br>
+						
+						<a target="new" href="http://www.harmankardon.com">www.harmankardon.com</a>
+					<br><br>		
+					</td>
+
+					
+					<td valign="top" width="107" "nowrap">[<a target="new" href="/shared_files/innovations/innovations_2004/2100/mainphoto2100.jpg">view product image</a>]</td>
+					
+				</tr>
+				</table>
+
+				The Harman Kardon AVR 630 is an ultimate-performance, 7.1-channel multiroom audio/video receiver that combines the most advanced technologies and features with a striking and distinctive industrial design.
+					<!--<br><br>Location(s): 
+					<br><br>Location(s): This honoree is not exhibiting at the 2004 International CES.
+				
+					<br><br>Location(s): There are no booths listed for this exhibitor.-->
+				
+				<br><img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0">
+			</td>
+		</tr>
+			
+		<table width="590" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img src="/global_images/1.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"></td>
+		</tr>
+		<tr><a name="2119"></a>
+		    <td valign="top" class="text" width="590"><img src="/global_images/spacer.gif" alt="" width="440" height="4" hspace="0" vspace="0" border="0"><br>
+				<table border="0" width="590" cellpadding="0" cellspacing="0">
+				<tr>
+					<td valign="top">
+					
+						<!--<span class="subhead"></span><br>-->
+					
+							<span class="subhead">Harman Consumer Group</span>&nbsp;&nbsp;[<a href="/attendees/exhibit_floor/directory/eims_exhibitor_details.asp?exhibid=5164">view exhibitor details</a>]<br><br>
+						
+					
+					<b>JBL Synthesis® S4A Configurable-Array Flush-Mount Surround Loudspeaker</b><br>
+					
+					
+						<span class="text_colored">Design by: Harman Consumer Group</span><br>
+						
+						<a target="new" href="http://www.jbl.com">www.jbl.com</a>
+					<br><br>		
+					</td>
+
+					
+					<td valign="top" width="107" "nowrap">[<a target="new" href="/shared_files/innovations/innovations_2004/2119/mainphoto2119.jpg">view product image</a>]</td>
+					
+				</tr>
+				</table>
+
+				The JBL Synthesis S4A flush-mount, surround loudspeaker offers a choice of dipole, bipole or direct-radiating dispersion patterns, providing optimum surround sound performance for a JBL Synthesis home theater installation.
+					<!--<br><br>Location(s): 
+					<br><br>Location(s): This honoree is not exhibiting at the 2004 International CES.
+				
+					<br><br>Location(s): There are no booths listed for this exhibitor.-->
+				
+				<br><img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0">
+			</td>
+		</tr>
+			
+		<table width="590" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img src="/global_images/1.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"></td>
+		</tr>
+		<tr><a name="2035"></a>
+		    <td valign="top" class="text" width="590"><img src="/global_images/spacer.gif" alt="" width="440" height="4" hspace="0" vspace="0" border="0"><br>
+				<table border="0" width="590" cellpadding="0" cellspacing="0">
+				<tr>
+					<td valign="top">
+					
+						<!--<span class="subhead"></span><br>-->
+					
+							<span class="subhead">IntelliNet Controls</span>&nbsp;&nbsp;[<a href="/attendees/exhibit_floor/directory/eims_exhibitor_details.asp?exhibid=5208">view exhibitor details</a>]<br><br>
+						
+					
+					<b>IntelliNet Controls RS3000</b><br>
+					
+					
+						<span class="text_colored">Design by: IntelliNet Controls</span><br>
+						
+						<a target="new" href="http://www.intellinetcontrols.com">www.intellinetcontrols.com</a>
+					<br><br>		
+					</td>
+
+					
+					<td valign="top" width="107" "nowrap">[<a target="new" href="/shared_files/innovations/innovations_2004/2035/mainphoto2035.jpg">view product image</a>]</td>
+					
+				</tr>
+				</table>
+
+				The IntelliNet Controls RS3000 is a unique, modular web-based distributed audio system. It delivers six independent sources throughout six zones and is then fully expandable up to thirty zones. 
+					<!--<br><br>Location(s): 
+					<br><br>Location(s): This honoree is not exhibiting at the 2004 International CES.
+				
+					<br><br>Location(s): There are no booths listed for this exhibitor.-->
+				
+				<br><img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0">
+			</td>
+		</tr>
+			
+		<table width="590" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img src="/global_images/1.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"></td>
+		</tr>
+		<tr><a name="2809"></a>
+		    <td valign="top" class="text" width="590"><img src="/global_images/spacer.gif" alt="" width="440" height="4" hspace="0" vspace="0" border="0"><br>
+				<table border="0" width="590" cellpadding="0" cellspacing="0">
+				<tr>
+					<td valign="top">
+					
+						<!--<span class="subhead"></span><br>-->
+					
+							<span class="subhead">Jamo US, Inc.</span>&nbsp;&nbsp;[<a href="/attendees/exhibit_floor/directory/eims_exhibitor_details.asp?exhibid=5221">view exhibitor details</a>]<br><br>
+						
+					
+					<b>Jamo DVR 50/A 355PDD</b><br>
+					
+					
+						<span class="text_colored">Design by: Smedegaard & Weiss</span><br>
+						
+						<a target="new" href="http://www.jamo.com">www.jamo.com</a>
+					<br><br>		
+					</td>
+
+					
+					<td valign="top" width="107" "nowrap">[<a target="new" href="/shared_files/innovations/innovations_2004/2809/mainphoto2809.jpg">view product image</a>]</td>
+					
+				</tr>
+				</table>
+
+				This Home-Theater-Package is amongst other things Jamo's entry into the electronics arena, supporting a yet unseen number of optical formats, state-of-the-art userfriendliness and a stunning scandinavian design.
+					<!--<br><br>Location(s): 
+					<br><br>Location(s): This honoree is not exhibiting at the 2004 International CES.
+				
+					<br><br>Location(s): There are no booths listed for this exhibitor.-->
+				
+				<br><img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0">
+			</td>
+		</tr>
+			
+		<table width="590" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img src="/global_images/1.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"></td>
+		</tr>
+		<tr><a name="1962"></a>
+		    <td valign="top" class="text" width="590"><img src="/global_images/spacer.gif" alt="" width="440" height="4" hspace="0" vspace="0" border="0"><br>
+				<table border="0" width="590" cellpadding="0" cellspacing="0">
+				<tr>
+					<td valign="top">
+					
+						<!--<span class="subhead"></span><br>-->
+					
+							<span class="subhead">Jazz Hipster Corp.</span>&nbsp;&nbsp;[<a href="/attendees/exhibit_floor/directory/eims_exhibitor_details.asp?exhibid=6040">view exhibitor details</a>]<br><br>
+						
+					
+					<b>2.4 GHz Wireless Home Theater</b><br>
+					
+					
+						<span class="text_colored">Design by: Jazz Hipster Corp</span><br>
+						
+						<a target="new" href="http://www.jazzspeakers.com">www.jazzspeakers.com</a>
+					<br><br>		
+					</td>
+
+					
+					<td valign="top" width="107" "nowrap">[<a target="new" href="/shared_files/innovations/innovations_2004/1962/mainphoto1962.jpg">view product image</a>]</td>
+					
+				</tr>
+				</table>
+
+				The 2.4 GHz wireless tower home theater is built-in digital 2.4 GHz RF module to avoid messy cables.It also designed with sleek and aircraft-grade aluminum cabinets and state-of-the-art drivers. 
+					<!--<br><br>Location(s): 
+					<br><br>Location(s): This honoree is not exhibiting at the 2004 International CES.
+				
+					<br><br>Location(s): There are no booths listed for this exhibitor.-->
+				
+				<br><img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0">
+			</td>
+		</tr>
+			
+		<table width="590" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img src="/global_images/1.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"></td>
+		</tr>
+		<tr><a name="1941"></a>
+		    <td valign="top" class="text" width="590"><img src="/global_images/spacer.gif" alt="" width="440" height="4" hspace="0" vspace="0" border="0"><br>
+				<table border="0" width="590" cellpadding="0" cellspacing="0">
+				<tr>
+					<td valign="top">
+					
+						<!--<span class="subhead"></span><br>-->
+					
+							<span class="subhead">KEF Audio</span><br><br>
+						
+					
+					<b>Kef Instant Theatre</b><br>
+					
+					
+						<span class="text_colored">Design by: KEF Audio</span><br>
+						
+						<a target="new" href="http://www.kef.com">www.kef.com</a>
+					<br><br>		
+					</td>
+
+					
+					<td valign="top" width="107" "nowrap">[<a target="new" href="/shared_files/innovations/innovations_2004/1941/mainphoto1941.jpg">view product image</a>]</td>
+					
+				</tr>
+				</table>
+
+				KEF Instant Theatre gives surround sound from two speakers plus subwoofer. Uni-Q technology gives the same sound anywhere in the room, a development of NXT technology creates virtual rear speakers.
+					<!--<br><br>Location(s): 
+					<br><br>Location(s): This honoree is not exhibiting at the 2004 International CES.
+				
+					<br><br>Location(s): There are no booths listed for this exhibitor.-->
+				
+				<br><img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0">
+			</td>
+		</tr>
+			
+		<table width="590" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img src="/global_images/1.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"></td>
+		</tr>
+		<tr><a name="1956"></a>
+		    <td valign="top" class="text" width="590"><img src="/global_images/spacer.gif" alt="" width="440" height="4" hspace="0" vspace="0" border="0"><br>
+				<table border="0" width="590" cellpadding="0" cellspacing="0">
+				<tr>
+					<td valign="top">
+					
+						<!--<span class="subhead"></span><br>-->
+					
+							<span class="subhead">Klipsch Audio Technologies</span>&nbsp;&nbsp;[<a href="/attendees/exhibit_floor/directory/eims_exhibitor_details.asp?exhibid=5253">view exhibitor details</a>]<br><br>
+						
+					
+					<b>Klipsch Entertainment Solutions KES-6100-THX</b><br>
+					
+					
+						<span class="text_colored">Design by: Klipsch Audio Technologies</span><br>
+						
+						<a target="new" href="http://www.klipsch.com">www.klipsch.com</a>
+					<br><br>		
+					</td>
+
+					
+					<td valign="top" width="107" "nowrap">[<a target="new" href="/shared_files/innovations/innovations_2004/1956/mainphoto1956.jpg">view product image</a>]</td>
+					
+				</tr>
+				</table>
+
+				Klipsch designed the new KES-6100-THX using the very  latest in technology to create a complete, high-performance, easy-to-use audio/video solution that comes with everything but a video display.
+					<!--<br><br>Location(s): 
+					<br><br>Location(s): This honoree is not exhibiting at the 2004 International CES.
+				
+					<br><br>Location(s): There are no booths listed for this exhibitor.-->
+				
+				<br><img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0">
+			</td>
+		</tr>
+			
+		<table width="590" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img src="/global_images/1.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"></td>
+		</tr>
+		<tr><a name="1951"></a>
+		    <td valign="top" class="text" width="590"><img src="/global_images/spacer.gif" alt="" width="440" height="4" hspace="0" vspace="0" border="0"><br>
+				<table border="0" width="590" cellpadding="0" cellspacing="0">
+				<tr>
+					<td valign="top">
+					
+						<!--<span class="subhead"></span><br>-->
+					
+							<span class="subhead">Klipsch Audio Technologies</span>&nbsp;&nbsp;[<a href="/attendees/exhibit_floor/directory/eims_exhibitor_details.asp?exhibid=5253">view exhibitor details</a>]<br><br>
+						
+					
+					<b>Klipsch ProMedia GMX A-2.1 Personal Audio System</b><br>
+					
+					
+						<span class="text_colored">Design by: Klipsch Audio Technologies</span><br>
+						
+						<a target="new" href="http://www.klipsch.com">www.klipsch.com</a>
+					<br><br>		
+					</td>
+
+					
+					<td valign="top" width="107" "nowrap">[<a target="new" href="/shared_files/innovations/innovations_2004/1951/mainphoto1951.jpg">view product image</a>]</td>
+					
+				</tr>
+				</table>
+
+				The stylized Klipsch GMX A-2.1 multimedia speaker system delivers dynamic sound from any audio source, including PCs, CD, DVD and MP3 players, game consoles, laptops, television sets and VCRs.
+					<!--<br><br>Location(s): 
+					<br><br>Location(s): This honoree is not exhibiting at the 2004 International CES.
+				
+					<br><br>Location(s): There are no booths listed for this exhibitor.-->
+				
+				<br><img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0">
+			</td>
+		</tr>
+			
+		<table width="590" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img src="/global_images/1.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"></td>
+		</tr>
+		<tr><a name="1952"></a>
+		    <td valign="top" class="text" width="590"><img src="/global_images/spacer.gif" alt="" width="440" height="4" hspace="0" vspace="0" border="0"><br>
+				<table border="0" width="590" cellpadding="0" cellspacing="0">
+				<tr>
+					<td valign="top">
+					
+						<!--<span class="subhead"></span><br>-->
+					
+							<span class="subhead">Klipsch Audio Technologies</span>&nbsp;&nbsp;[<a href="/attendees/exhibit_floor/directory/eims_exhibitor_details.asp?exhibid=5253">view exhibitor details</a>]<br><br>
+						
+					
+					<b>Klipsch ProMedia Ultra 5.1 Personal Audio System</b><br>
+					
+					
+						<span class="text_colored">Design by: Klipsch Audio Technologies</span><br>
+						
+						<a target="new" href="http://www.klipsch.com">www.klipsch.com</a>
+					<br><br>		
+					</td>
+
+					
+					<td valign="top" width="107" "nowrap">[<a target="new" href="/shared_files/innovations/innovations_2004/1952/mainphoto1952.jpg">view product image</a>]</td>
+					
+				</tr>
+				</table>
+
+				Klipsch's new ProMedia Ultra 5.1 is more powerful than any other personal computer audio system in the world, providing the most satisfying ultradynamic surround sound experience available for multimedia applications.
+					<!--<br><br>Location(s): 
+					<br><br>Location(s): This honoree is not exhibiting at the 2004 International CES.
+				
+					<br><br>Location(s): There are no booths listed for this exhibitor.-->
+				
+				<br><img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0">
+			</td>
+		</tr>
+			
+		<table width="590" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img src="/global_images/1.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"></td>
+		</tr>
+		<tr><a name="1926"></a>
+		    <td valign="top" class="text" width="590"><img src="/global_images/spacer.gif" alt="" width="440" height="4" hspace="0" vspace="0" border="0"><br>
+				<table border="0" width="590" cellpadding="0" cellspacing="0">
+				<tr>
+					<td valign="top">
+					
+						<!--<span class="subhead"></span><br>-->
+					
+							<span class="subhead">Klipsch Audio Technologies</span>&nbsp;&nbsp;[<a href="/attendees/exhibit_floor/directory/eims_exhibitor_details.asp?exhibid=5253">view exhibitor details</a>]<br><br>
+						
+					
+					<b>Klipsch Reference Series Cinema 8 System</b><br>
+					
+					
+						<span class="text_colored">Design by: Klipsch Audio Technologies</span><br>
+						
+						<a target="new" href="http://www.klipsch.com">www.klipsch.com</a>
+					<br><br>		
+					</td>
+
+					
+					<td valign="top" width="107" "nowrap">[<a target="new" href="/shared_files/innovations/innovations_2004/1926/mainphoto1926.jpg">view product image</a>]</td>
+					
+				</tr>
+				</table>
+
+				Compact, stylish and versatile, the Klipsch Reference Series Cinema 8 fits almost anywhere. So no matter where or how you live, this miniature system will be right at home. 
+
+
+					<!--<br><br>Location(s): 
+					<br><br>Location(s): This honoree is not exhibiting at the 2004 International CES.
+				
+					<br><br>Location(s): There are no booths listed for this exhibitor.-->
+				
+				<br><img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0">
+			</td>
+		</tr>
+			
+		<table width="590" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img src="/global_images/1.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"></td>
+		</tr>
+		<tr><a name="1857"></a>
+		    <td valign="top" class="text" width="590"><img src="/global_images/spacer.gif" alt="" width="440" height="4" hspace="0" vspace="0" border="0"><br>
+				<table border="0" width="590" cellpadding="0" cellspacing="0">
+				<tr>
+					<td valign="top">
+					
+						<!--<span class="subhead"></span><br>-->
+					
+							<span class="subhead">Klipsch Audio Technologies</span>&nbsp;&nbsp;[<a href="/attendees/exhibit_floor/directory/eims_exhibitor_details.asp?exhibid=5253">view exhibitor details</a>]<br><br>
+						
+					
+					<b>Klipsch Referene Series RW Subwoofers</b><br>
+					
+					
+						<span class="text_colored">Design by: Klipsch Audio Technologies</span><br>
+						
+						<a target="new" href="http://www.klipsch.com">www.klipsch.com</a>
+					<br><br>		
+					</td>
+
+					
+					<td valign="top" width="107" "nowrap">[<a target="new" href="/shared_files/innovations/innovations_2004/1857/mainphoto1857.jpg">view product image</a>]</td>
+					
+				</tr>
+				</table>
+
+				Based on an exciting new approach to enclosure venting, these Klipsch RW Subwoofers offer broader features and produce deeper, cleaner bass at lower price points and smaller enclosure footprints.
+					<!--<br><br>Location(s): 
+					<br><br>Location(s): This honoree is not exhibiting at the 2004 International CES.
+				
+					<br><br>Location(s): There are no booths listed for this exhibitor.-->
+				
+				<br><img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0">
+			</td>
+		</tr>
+			
+		<table width="590" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img src="/global_images/1.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"></td>
+		</tr>
+		<tr><a name="1933"></a>
+		    <td valign="top" class="text" width="590"><img src="/global_images/spacer.gif" alt="" width="440" height="4" hspace="0" vspace="0" border="0"><br>
+				<table border="0" width="590" cellpadding="0" cellspacing="0">
+				<tr>
+					<td valign="top">
+					
+						<!--<span class="subhead"></span><br>-->
+					
+							<span class="subhead">Klipsch Audio Technologies</span>&nbsp;&nbsp;[<a href="/attendees/exhibit_floor/directory/eims_exhibitor_details.asp?exhibid=5253">view exhibitor details</a>]<br><br>
+						
+					
+					<b>Klipsch THX Ultra2  Home Theater System</b><br>
+					
+					
+						<span class="text_colored">Design by: Klipsch Audio Technologies</span><br>
+						
+						<a target="new" href="http://www.klipsch.com">www.klipsch.com</a>
+					<br><br>		
+					</td>
+
+					
+					<td valign="top" width="107" "nowrap">[<a target="new" href="/shared_files/innovations/innovations_2004/1933/mainphoto1933.jpg">view product image</a>]</td>
+					
+				</tr>
+				</table>
+
+				The Klipsch THX Ultra2 home theater system brings real cinema sound to the comforts of home by using the same high-performance technology as its renowned professional cinema systems.
+					<!--<br><br>Location(s): 
+					<br><br>Location(s): This honoree is not exhibiting at the 2004 International CES.
+				
+					<br><br>Location(s): There are no booths listed for this exhibitor.-->
+				
+				<br><img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0">
+			</td>
+		</tr>
+			
+		<table width="590" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img src="/global_images/1.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"></td>
+		</tr>
+		<tr><a name="2916"></a>
+		    <td valign="top" class="text" width="590"><img src="/global_images/spacer.gif" alt="" width="440" height="4" hspace="0" vspace="0" border="0"><br>
+				<table border="0" width="590" cellpadding="0" cellspacing="0">
+				<tr>
+					<td valign="top">
+					
+						<!--<span class="subhead"></span><br>-->
+					
+							<span class="subhead">Legacy Audio, Inc.</span>&nbsp;&nbsp;[<a href="/attendees/exhibit_floor/directory/eims_exhibitor_details.asp?exhibid=5273">view exhibitor details</a>]<br><br>
+						
+					
+					<b>Victoria</b><br>
+					
+					
+						<span class="text_colored">Design by: Legacy Audio, Inc.</span><br>
+						
+						<a target="new" href="http://www.LegacyAudio.com">www.LegacyAudio.com</a>
+					<br><br>		
+					</td>
+
+					
+					<td valign="top" width="107" "nowrap">[<a target="new" href="/shared_files/innovations/innovations_2004/2916/mainphoto2916.jpg">view product image</a>]</td>
+					
+				</tr>
+				</table>
+
+				Victoria -  an ultra-performance compact speaker system by Legacy Audio that utilizes state-of-the-art speaker technolgy as well as "old-world" beauty, build quality and craftsmanship. 
+					<!--<br><br>Location(s): 
+					<br><br>Location(s): This honoree is not exhibiting at the 2004 International CES.
+				
+					<br><br>Location(s): There are no booths listed for this exhibitor.-->
+				
+				<br><img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0">
+			</td>
+		</tr>
+			
+		<table width="590" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img src="/global_images/1.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"></td>
+		</tr>
+		<tr><a name="2861"></a>
+		    <td valign="top" class="text" width="590"><img src="/global_images/spacer.gif" alt="" width="440" height="4" hspace="0" vspace="0" border="0"><br>
+				<table border="0" width="590" cellpadding="0" cellspacing="0">
+				<tr>
+					<td valign="top">
+					
+						<!--<span class="subhead"></span><br>-->
+					
+							<span class="subhead">LG Electronics</span>&nbsp;&nbsp;[<a href="/attendees/exhibit_floor/directory/eims_exhibitor_details.asp?exhibid=6119">view exhibitor details</a>]<br><br>
+						
+					
+					<b>2.4GHz Wireless 5.1ch Speaker System</b><br>
+					
+					
+						<span class="text_colored">Design by: LG Electronics</span><br>
+						
+						<a target="new" href="http://www.lgusa.com">www.lgusa.com</a>
+					<br><br>		
+					</td>
+
+					
+					<td valign="top" width="107" "nowrap">[<a target="new" href="/shared_files/innovations/innovations_2004/2861/mainphoto2861.jpg">view product image</a>]</td>
+					
+				</tr>
+				</table>
+
+				LGHTW316
+350W 5.1ch Surround Sound Wireless Speaker System
+•	350 Total Watts, 50W x 5 + 100W Sub Woofer
+•	Wireless Rear Speakers at 2.4GHz
+					<!--<br><br>Location(s): 
+					<br><br>Location(s): This honoree is not exhibiting at the 2004 International CES.
+				
+					<br><br>Location(s): There are no booths listed for this exhibitor.-->
+				
+				<br><img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0">
+			</td>
+		</tr>
+			
+		<table width="590" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img src="/global_images/1.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"></td>
+		</tr>
+		<tr><a name="2308"></a>
+		    <td valign="top" class="text" width="590"><img src="/global_images/spacer.gif" alt="" width="440" height="4" hspace="0" vspace="0" border="0"><br>
+				<table border="0" width="590" cellpadding="0" cellspacing="0">
+				<tr>
+					<td valign="top">
+					
+						<!--<span class="subhead"></span><br>-->
+					
+							<span class="subhead">Marantz America, Inc.</span>&nbsp;&nbsp;[<a href="/attendees/exhibit_floor/directory/eims_exhibitor_details.asp?exhibid=5301">view exhibitor details</a>]<br><br>
+						
+					
+					<b>Marantz SR7400 Digital Surround Receiver</b><br>
+					
+					
+						<span class="text_colored">Design by: Marantz America, Inc.</span><br>
+						
+						<a target="new" href="http://www.marantz.com">www.marantz.com</a>
+					<br><br>		
+					</td>
+
+					
+					<td valign="top" width="107" "nowrap">[<a target="new" href="/shared_files/innovations/innovations_2004/2308/mainphoto2308.jpg">view product image</a>]</td>
+					
+				</tr>
+				</table>
+
+				The Marantz SR7400 Digital Surround Receiver is a state-of-the-art receiver that includes Dolby Pro Logic IIx decoding plus numerous advanced features, and is designed for ultimate performance and versatility.
+					<!--<br><br>Location(s): 
+					<br><br>Location(s): This honoree is not exhibiting at the 2004 International CES.
+				
+					<br><br>Location(s): There are no booths listed for this exhibitor.-->
+				
+				<br><img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0">
+			</td>
+		</tr>
+			
+		<table width="590" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img src="/global_images/1.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"></td>
+		</tr>
+		<tr><a name="1989"></a>
+		    <td valign="top" class="text" width="590"><img src="/global_images/spacer.gif" alt="" width="440" height="4" hspace="0" vspace="0" border="0"><br>
+				<table border="0" width="590" cellpadding="0" cellspacing="0">
+				<tr>
+					<td valign="top">
+					
+						<!--<span class="subhead"></span><br>-->
+					
+							<span class="subhead">Martin-Logan Ltd.</span>&nbsp;&nbsp;[<a href="/attendees/exhibit_floor/directory/eims_exhibitor_details.asp?exhibid=5304">view exhibitor details</a>]<br><br>
+						
+					
+					<b>Mosaic</b><br>
+					
+					
+						<span class="text_colored">Design by: MartinLogan, Ltd.</span><br>
+						
+						<a target="new" href="http://www.martinlogan.com">www.martinlogan.com</a>
+					<br><br>		
+					</td>
+
+					
+					<td valign="top" width="107" "nowrap">[<a target="new" href="/shared_files/innovations/innovations_2004/1989/mainphoto1989.jpg">view product image</a>]</td>
+					
+				</tr>
+				</table>
+
+				MOSAIC—An ATF™ (Advanced Thin Film) hybrid loudspeaker for use in the accurate recreation of recorded audio in stereo and multi-channel home environments.
+					<!--<br><br>Location(s): 
+					<br><br>Location(s): This honoree is not exhibiting at the 2004 International CES.
+				
+					<br><br>Location(s): There are no booths listed for this exhibitor.-->
+				
+				<br><img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0">
+			</td>
+		</tr>
+			
+		<table width="590" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img src="/global_images/1.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"></td>
+		</tr>
+		<tr><a name="1988"></a>
+		    <td valign="top" class="text" width="590"><img src="/global_images/spacer.gif" alt="" width="440" height="4" hspace="0" vspace="0" border="0"><br>
+				<table border="0" width="590" cellpadding="0" cellspacing="0">
+				<tr>
+					<td valign="top">
+					
+						<!--<span class="subhead"></span><br>-->
+					
+							<span class="subhead">MartinLogan, Ltd.</span>&nbsp;&nbsp;[<a href="/attendees/exhibit_floor/directory/eims_exhibitor_details.asp?exhibid=5304">view exhibitor details</a>]<br><br>
+						
+					
+					<b>Fresco</b><br>
+					
+					
+						<span class="text_colored">Design by: MartinLogan, Ltd.</span><br>
+						
+						<a target="new" href="http://www.martinlogan.com">www.martinlogan.com</a>
+					<br><br>		
+					</td>
+
+					
+					<td valign="top" width="107" "nowrap">[<a target="new" href="/shared_files/innovations/innovations_2004/1988/mainphoto1988.jpg">view product image</a>]</td>
+					
+				</tr>
+				</table>
+
+				FRESCO—A versatile ATF™ (Advanced Thin Film) on-wall/off-wall LCR/Surround hybrid loudspeaker for use in the accurate recreation of recorded audio in stereo and multi-channel home environments.
+					<!--<br><br>Location(s): 
+					<br><br>Location(s): This honoree is not exhibiting at the 2004 International CES.
+				
+					<br><br>Location(s): There are no booths listed for this exhibitor.-->
+				
+				<br><img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0">
+			</td>
+		</tr>
+			
+		<table width="590" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img src="/global_images/1.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"></td>
+		</tr>
+		<tr><a name="2899"></a>
+		    <td valign="top" class="text" width="590"><img src="/global_images/spacer.gif" alt="" width="440" height="4" hspace="0" vspace="0" border="0"><br>
+				<table border="0" width="590" cellpadding="0" cellspacing="0">
+				<tr>
+					<td valign="top">
+					
+						<!--<span class="subhead"></span><br>-->
+					
+							<span class="subhead">MB Quart (Home Theater Audio)</span>&nbsp;&nbsp;[<a href="/attendees/exhibit_floor/directory/eims_exhibitor_details.asp?exhibid=5928">view exhibitor details</a>]<br><br>
+						
+					
+					<b>Vera Active/Passive Radiator Sealed Powered Subwoofer </b><br>
+					
+					
+						<span class="text_colored">Design by: MB Quart (Home Theater Audio)</span><br>
+						
+						<a target="new" href="http://www.mbquart.com">www.mbquart.com</a>
+					<br><br>		
+					</td>
+
+					
+					<td valign="top" width="107" "nowrap">[<a target="new" href="/shared_files/innovations/innovations_2004/2899/mainphoto2899.jpg">view product image</a>]</td>
+					
+				</tr>
+				</table>
+
+				MB Quart’s Vera VS 1SW is an active/passive radiator sealed powered subwoofer.
+					<!--<br><br>Location(s): 
+					<br><br>Location(s): This honoree is not exhibiting at the 2004 International CES.
+				
+					<br><br>Location(s): There are no booths listed for this exhibitor.-->
+				
+				<br><img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0">
+			</td>
+		</tr>
+			
+		<table width="590" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img src="/global_images/1.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"></td>
+		</tr>
+		<tr><a name="2488"></a>
+		    <td valign="top" class="text" width="590"><img src="/global_images/spacer.gif" alt="" width="440" height="4" hspace="0" vspace="0" border="0"><br>
+				<table border="0" width="590" cellpadding="0" cellspacing="0">
+				<tr>
+					<td valign="top">
+					
+						<!--<span class="subhead"></span><br>-->
+					
+							<span class="subhead">Meridian Audio Limited</span>&nbsp;&nbsp;[<a href="/attendees/exhibit_floor/directory/eims_exhibitor_details.asp?exhibid=5320">view exhibitor details</a>]<br><br>
+						
+					
+					<b>G68 Surround Controller</b><br>
+					
+					
+						<span class="text_colored">Design by: Meridian America Inc.</span><br>
+						
+						<a target="new" href="http://meridian-audio.com">meridian-audio.com</a>
+					<br><br>		
+					</td>
+
+					
+					<td valign="top" width="107" "nowrap">[<a target="new" href="/shared_files/innovations/innovations_2004/2488/mainphoto2488.gif">view product image</a>]</td>
+					
+				</tr>
+				</table>
+
+				Meridian's G68 surround controller is a unique modular and upgradable component serving as digital and analog A/V surround pre-amp processor with built in tuner and features such as Room Correction.
+					<!--<br><br>Location(s): 
+					<br><br>Location(s): This honoree is not exhibiting at the 2004 International CES.
+				
+					<br><br>Location(s): There are no booths listed for this exhibitor.-->
+				
+				<br><img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0">
+			</td>
+		</tr>
+			
+		<table width="590" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img src="/global_images/1.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"></td>
+		</tr>
+		<tr><a name="2255"></a>
+		    <td valign="top" class="text" width="590"><img src="/global_images/spacer.gif" alt="" width="440" height="4" hspace="0" vspace="0" border="0"><br>
+				<table border="0" width="590" cellpadding="0" cellspacing="0">
+				<tr>
+					<td valign="top">
+					
+						<!--<span class="subhead"></span><br>-->
+					
+							<span class="subhead">Mission</span>&nbsp;&nbsp;[<a href="/attendees/exhibit_floor/directory/eims_exhibitor_details.asp?exhibid=6249">view exhibitor details</a>]<br><br>
+						
+					
+					<b>Mission TecSonic Portable PA System</b><br>
+					
+					
+						<span class="text_colored">Design by: Mission USA, Inc.</span><br>
+						
+						<a target="new" href="http://www.mission.co.uk">www.mission.co.uk</a>
+					<br><br>		
+					</td>
+
+					
+					<td valign="top" width="107" "nowrap">[<a target="new" href="/shared_files/innovations/innovations_2004/2255/mainphoto2255.jpg">view product image</a>]</td>
+					
+				</tr>
+				</table>
+
+				Mission TecSonic is a light, briefcase-sized, fully portable self-contained PA system that incorporates patented NXT® SurfaceSound® technology to provide outstanding sound quality with full-room audio coverage.
+					<!--<br><br>Location(s): 
+					<br><br>Location(s): This honoree is not exhibiting at the 2004 International CES.
+				
+					<br><br>Location(s): There are no booths listed for this exhibitor.-->
+				
+				<br><img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0">
+			</td>
+		</tr>
+			
+		<table width="590" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img src="/global_images/1.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"></td>
+		</tr>
+		<tr><a name="2824"></a>
+		    <td valign="top" class="text" width="590"><img src="/global_images/spacer.gif" alt="" width="440" height="4" hspace="0" vspace="0" border="0"><br>
+				<table border="0" width="590" cellpadding="0" cellspacing="0">
+				<tr>
+					<td valign="top">
+					
+						<!--<span class="subhead"></span><br>-->
+					
+							<span class="subhead">Monster Cable Products</span>&nbsp;&nbsp;[<a href="/attendees/exhibit_floor/directory/eims_exhibitor_details.asp?exhibid=5340">view exhibitor details</a>]<br><br>
+						
+					
+					<b>M*Design Eleganza InvisiSound Plasma Frame 6300™</b><br>
+					
+					
+						<span class="text_colored">Design by: Monster Cable Products</span><br>
+						
+						<a target="new" href="http://www.monstercable.com">www.monstercable.com</a>
+					<br><br>		
+					</td>
+
+					
+					<td valign="top" width="107" "nowrap">[<a target="new" href="/shared_files/innovations/innovations_2004/2824/mainphoto2824.jpg">view product image</a>]</td>
+					
+				</tr>
+				</table>
+
+				The M*Design InvisiSound Plasma Frame makes speakers disappear into the room, offering a left-center-right audio solution with superb quality, overcoming “styling” objections previously voiced by some home theater decision makers.
+					<!--<br><br>Location(s): 
+					<br><br>Location(s): This honoree is not exhibiting at the 2004 International CES.
+				
+					<br><br>Location(s): There are no booths listed for this exhibitor.-->
+				
+				<br><img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0">
+			</td>
+		</tr>
+			
+		<table width="590" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img src="/global_images/1.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"></td>
+		</tr>
+		<tr><a name="2795"></a>
+		    <td valign="top" class="text" width="590"><img src="/global_images/spacer.gif" alt="" width="440" height="4" hspace="0" vspace="0" border="0"><br>
+				<table border="0" width="590" cellpadding="0" cellspacing="0">
+				<tr>
+					<td valign="top">
+					
+						<!--<span class="subhead"></span><br>-->
+					
+							<span class="subhead">Monster Cable Products</span>&nbsp;&nbsp;[<a href="/attendees/exhibit_floor/directory/eims_exhibitor_details.asp?exhibid=5340">view exhibitor details</a>]<br><br>
+						
+					
+					<b>Monster Home Theater Music Reference Power Amplifier</b><br>
+					
+					
+						<span class="text_colored">Design by: Monster Cable Products</span><br>
+						
+						<a target="new" href="http://www.monstercable.com">www.monstercable.com</a>
+					<br><br>		
+					</td>
+
+					
+					<td valign="top" width="107" "nowrap">[<a target="new" href="/shared_files/innovations/innovations_2004/2795/mainphoto2795.jpg">view product image</a>]</td>
+					
+				</tr>
+				</table>
+
+				The Monster Home Theater Music Reference Power Amplifier MPA 3250 combines Monster Mirrored Amplifier Technology with three independent power supplies, as part of the Monster Power Backbone™ for home theater.
+
+
+
+
+
+					<!--<br><br>Location(s): 
+					<br><br>Location(s): This honoree is not exhibiting at the 2004 International CES.
+				
+					<br><br>Location(s): There are no booths listed for this exhibitor.-->
+				
+				<br><img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0">
+			</td>
+		</tr>
+			
+		<table width="590" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img src="/global_images/1.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"></td>
+		</tr>
+		<tr><a name="2826"></a>
+		    <td valign="top" class="text" width="590"><img src="/global_images/spacer.gif" alt="" width="440" height="4" hspace="0" vspace="0" border="0"><br>
+				<table border="0" width="590" cellpadding="0" cellspacing="0">
+				<tr>
+					<td valign="top">
+					
+						<!--<span class="subhead"></span><br>-->
+					
+							<span class="subhead">Monster Cable Products Inc.</span>&nbsp;&nbsp;[<a href="/attendees/exhibit_floor/directory/eims_exhibitor_details.asp?exhibid=5340">view exhibitor details</a>]<br><br>
+						
+					
+					<b>M*Design Eleganza "Godfather" Powered Subwoofer 1500 </b><br>
+					
+					
+						<span class="text_colored">Design by: Monster Cable Products</span><br>
+						
+						<a target="new" href="http://www.monstercable.com">www.monstercable.com</a>
+					<br><br>		
+					</td>
+
+					
+					<td valign="top" width="107" "nowrap">[<a target="new" href="/shared_files/innovations/innovations_2004/2826/mainphoto2826.jpg">view product image</a>]</td>
+					
+				</tr>
+				</table>
+
+				M*Design Eleganza "Godfather" Subwoofer 1500 is trimmed in high-gloss cherry wood, beautifully fits into any room decor, features state of the art aluminum driver (15”) and built-in amplifier (1000 watts).
+					<!--<br><br>Location(s): 
+					<br><br>Location(s): This honoree is not exhibiting at the 2004 International CES.
+				
+					<br><br>Location(s): There are no booths listed for this exhibitor.-->
+				
+				<br><img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0">
+			</td>
+		</tr>
+			
+		<table width="590" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img src="/global_images/1.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"></td>
+		</tr>
+		<tr><a name="2909"></a>
+		    <td valign="top" class="text" width="590"><img src="/global_images/spacer.gif" alt="" width="440" height="4" hspace="0" vspace="0" border="0"><br>
+				<table border="0" width="590" cellpadding="0" cellspacing="0">
+				<tr>
+					<td valign="top">
+					
+						<!--<span class="subhead"></span><br>-->
+					
+							<span class="subhead">NHT</span>&nbsp;&nbsp;[<a href="/attendees/exhibit_floor/directory/eims_exhibitor_details.asp?exhibid=5940">view exhibitor details</a>]<br><br>
+						
+					
+					<b>iWS in-wall subwoofer</b><br>
+					
+					
+						<span class="text_colored">Design by: NHT</span><br>
+						
+						<a target="new" href="http://www.nhthifi.com">www.nhthifi.com</a>
+					<br><br>		
+					</td>
+
+					
+					<td valign="top" width="107" "nowrap">[<a target="new" href="/shared_files/innovations/innovations_2004/2909/mainphoto2909.jpg">view product image</a>]</td>
+					
+				</tr>
+				</table>
+
+				NHT’s iWS in-wall subwoofer system with 12” flat aluminum cone, plus A1 250 Watt monaural amplifier and X1 crossover.
+					<!--<br><br>Location(s): 
+					<br><br>Location(s): This honoree is not exhibiting at the 2004 International CES.
+				
+					<br><br>Location(s): There are no booths listed for this exhibitor.-->
+				
+				<br><img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0">
+			</td>
+		</tr>
+			
+		<table width="590" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img src="/global_images/1.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"></td>
+		</tr>
+		<tr><a name="2307"></a>
+		    <td valign="top" class="text" width="590"><img src="/global_images/spacer.gif" alt="" width="440" height="4" hspace="0" vspace="0" border="0"><br>
+				<table border="0" width="590" cellpadding="0" cellspacing="0">
+				<tr>
+					<td valign="top">
+					
+						<!--<span class="subhead"></span><br>-->
+					
+							<span class="subhead">Panasonic</span>&nbsp;&nbsp;[<a href="/attendees/exhibit_floor/directory/eims_exhibitor_details.asp?exhibid=5418">view exhibitor details</a>]<br><br>
+						
+					
+					<b>Panasonic e-wear SD Audio Player  </b><br>
+					
+					
+						<span class="text_colored">Design by: Panasonic</span><br>
+						
+						<a target="new" href="http://www.panasonic.com">www.panasonic.com</a>
+					<br><br>		
+					</td>
+
+					
+					<td valign="top" width="107" "nowrap">[<a target="new" href="/shared_files/innovations/innovations_2004/2307/mainphoto2307.jpg">view product image</a>]</td>
+					
+				</tr>
+				</table>
+
+				The new Panasonic e-wear  SV-SD85 SD Audio player 
+					<!--<br><br>Location(s): 
+					<br><br>Location(s): This honoree is not exhibiting at the 2004 International CES.
+				
+					<br><br>Location(s): There are no booths listed for this exhibitor.-->
+				
+				<br><img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0">
+			</td>
+		</tr>
+			
+		<table width="590" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img src="/global_images/1.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"></td>
+		</tr>
+		<tr><a name="2291"></a>
+		    <td valign="top" class="text" width="590"><img src="/global_images/spacer.gif" alt="" width="440" height="4" hspace="0" vspace="0" border="0"><br>
+				<table border="0" width="590" cellpadding="0" cellspacing="0">
+				<tr>
+					<td valign="top">
+					
+						<!--<span class="subhead"></span><br>-->
+					
+							<span class="subhead">Panasonic</span>&nbsp;&nbsp;[<a href="/attendees/exhibit_floor/directory/eims_exhibitor_details.asp?exhibid=5418">view exhibitor details</a>]<br><br>
+						
+					
+					<b>Panasonic Home Theater in a Box System with built-in DVD Recorder </b><br>
+					
+					
+						<span class="text_colored">Design by: Panasonic</span><br>
+						
+						<a target="new" href="http://www.panasonic.com">www.panasonic.com</a>
+					<br><br>		
+					</td>
+
+					
+					<td valign="top" width="107" "nowrap">[<a target="new" href="/shared_files/innovations/innovations_2004/2291/mainphoto2291.jpg">view product image</a>]</td>
+					
+				</tr>
+				</table>
+
+				Panasonic’s SC-HT1000 Recordable DVD Home Theater Sound System   
+					<!--<br><br>Location(s): 
+					<br><br>Location(s): This honoree is not exhibiting at the 2004 International CES.
+				
+					<br><br>Location(s): There are no booths listed for this exhibitor.-->
+				
+				<br><img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0">
+			</td>
+		</tr>
+			
+		<table width="590" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img src="/global_images/1.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"></td>
+		</tr>
+		<tr><a name="2243"></a>
+		    <td valign="top" class="text" width="590"><img src="/global_images/spacer.gif" alt="" width="440" height="4" hspace="0" vspace="0" border="0"><br>
+				<table border="0" width="590" cellpadding="0" cellspacing="0">
+				<tr>
+					<td valign="top">
+					
+						<!--<span class="subhead"></span><br>-->
+					
+							<span class="subhead">Panasonic</span>&nbsp;&nbsp;[<a href="/attendees/exhibit_floor/directory/eims_exhibitor_details.asp?exhibid=5418">view exhibitor details</a>]<br><br>
+						
+					
+					<b>Panasonic Portable CD Player  </b><br>
+					
+					
+						<span class="text_colored">Design by: Panasonic</span><br>
+						
+						<a target="new" href="http://www.panasonic.com">www.panasonic.com</a>
+					<br><br>		
+					</td>
+
+					
+					<td valign="top" width="107" "nowrap">[<a target="new" href="/shared_files/innovations/innovations_2004/2243/mainphoto2243.jpg">view product image</a>]</td>
+					
+				</tr>
+				</table>
+
+				The stylish Panasonic SL-J900 portable CD player with recharging, docking station and two flat panel speakers
+					<!--<br><br>Location(s): 
+					<br><br>Location(s): This honoree is not exhibiting at the 2004 International CES.
+				
+					<br><br>Location(s): There are no booths listed for this exhibitor.-->
+				
+				<br><img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0">
+			</td>
+		</tr>
+			
+		<table width="590" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img src="/global_images/1.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"></td>
+		</tr>
+		<tr><a name="2446"></a>
+		    <td valign="top" class="text" width="590"><img src="/global_images/spacer.gif" alt="" width="440" height="4" hspace="0" vspace="0" border="0"><br>
+				<table border="0" width="590" cellpadding="0" cellspacing="0">
+				<tr>
+					<td valign="top">
+					
+						<!--<span class="subhead"></span><br>-->
+					
+							<span class="subhead">Pathos Acoustics SRL</span>&nbsp;&nbsp;[<a href="/attendees/exhibit_floor/directory/eims_exhibitor_details.asp?exhibid=5426">view exhibitor details</a>]<br><br>
+						
+					
+					<b>INPOL2</b><br>
+					
+					
+						<span class="text_colored">Design by: Pathos Acoustics SRL</span><br>
+						
+						<a target="new" href="http://www.pathosacoustics.com">www.pathosacoustics.com</a>
+					<br><br>		
+					</td>
+
+					
+					<td valign="top" width="107" "nowrap">[<a target="new" href="/shared_files/innovations/innovations_2004/2446/mainphoto2446.jpg">view product image</a>]</td>
+					
+				</tr>
+				</table>
+
+				The INPOL2 is the ultimate evolution of Pathos’ proprietary technology, which in its former applications has been acclaimed by the most influential audio critics worldwide. 
+					<!--<br><br>Location(s): 
+					<br><br>Location(s): This honoree is not exhibiting at the 2004 International CES.
+				
+					<br><br>Location(s): There are no booths listed for this exhibitor.-->
+				
+				<br><img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0">
+			</td>
+		</tr>
+			
+		<table width="590" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img src="/global_images/1.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"></td>
+		</tr>
+		<tr><a name="2149"></a>
+		    <td valign="top" class="text" width="590"><img src="/global_images/spacer.gif" alt="" width="440" height="4" hspace="0" vspace="0" border="0"><br>
+				<table border="0" width="590" cellpadding="0" cellspacing="0">
+				<tr>
+					<td valign="top">
+					
+						<!--<span class="subhead"></span><br>-->
+					
+							<span class="subhead">Philips Consumer Electronics</span>&nbsp;&nbsp;[<a href="/attendees/exhibit_floor/directory/eims_exhibitor_details.asp?exhibid=5436">view exhibitor details</a>]<br><br>
+						
+					
+					<b>Nike-Philips MP3 max</b><br>
+					
+					
+						<span class="text_colored">Design by: Philips Consumer Electronics</span><br>
+						
+						<a target="new" href="http://www.philips.com">www.philips.com</a>
+					<br><br>		
+					</td>
+
+					
+					<td valign="top" width="107" "nowrap">[<a target="new" href="/shared_files/innovations/innovations_2004/2149/mainphoto2149.gif">view product image</a>]</td>
+					
+				</tr>
+				</table>
+
+				The Nike-Philips MP3 max (512MB) portable sport audio player is designed for running and fitness – the perfect audio solution inspiring active people to achieve their best through music motivation! 
+					<!--<br><br>Location(s): 
+					<br><br>Location(s): This honoree is not exhibiting at the 2004 International CES.
+				
+					<br><br>Location(s): There are no booths listed for this exhibitor.-->
+				
+				<br><img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0">
+			</td>
+		</tr>
+			
+		<table width="590" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img src="/global_images/1.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"></td>
+		</tr>
+		<tr><a name="2120"></a>
+		    <td valign="top" class="text" width="590"><img src="/global_images/spacer.gif" alt="" width="440" height="4" hspace="0" vspace="0" border="0"><br>
+				<table border="0" width="590" cellpadding="0" cellspacing="0">
+				<tr>
+					<td valign="top">
+					
+						<!--<span class="subhead"></span><br>-->
+					
+							<span class="subhead">Philips Consumer Electronics</span>&nbsp;&nbsp;[<a href="/attendees/exhibit_floor/directory/eims_exhibitor_details.asp?exhibid=5436">view exhibitor details</a>]<br><br>
+						
+					
+					<b>Philips Digital Wireless Headphone System</b><br>
+					
+					
+						<span class="text_colored">Design by: Philips Consumer Electronics</span><br>
+						
+						<a target="new" href="http://www.philips.com">www.philips.com</a>
+					<br><br>		
+					</td>
+
+					
+					<td valign="top" width="107" "nowrap">[<a target="new" href="/shared_files/innovations/innovations_2004/2120/mainphoto2120.jpg">view product image</a>]</td>
+					
+				</tr>
+				</table>
+
+				Philips’ new Dolby Digital Wireless headphone, the SBC HD1500, enables the listener to experience surround sound movies or music without running the risk of disturbing the neighbors or the family.
+					<!--<br><br>Location(s): 
+					<br><br>Location(s): This honoree is not exhibiting at the 2004 International CES.
+				
+					<br><br>Location(s): There are no booths listed for this exhibitor.-->
+				
+				<br><img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0">
+			</td>
+		</tr>
+			
+		<table width="590" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img src="/global_images/1.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"></td>
+		</tr>
+		<tr><a name="2109"></a>
+		    <td valign="top" class="text" width="590"><img src="/global_images/spacer.gif" alt="" width="440" height="4" hspace="0" vspace="0" border="0"><br>
+				<table border="0" width="590" cellpadding="0" cellspacing="0">
+				<tr>
+					<td valign="top">
+					
+						<!--<span class="subhead"></span><br>-->
+					
+							<span class="subhead">Philips Consumer Electronics</span>&nbsp;&nbsp;[<a href="/attendees/exhibit_floor/directory/eims_exhibitor_details.asp?exhibid=5436">view exhibitor details</a>]<br><br>
+						
+					
+					<b>Philips Key019 Wearable Digital Camcorder</b><br>
+					
+					
+						<span class="text_colored">Design by: Philips Consumer Electronics</span><br>
+						
+						<a target="new" href="http://www.philips.com">www.philips.com</a>
+					<br><br>		
+					</td>
+
+					
+					<td valign="top" width="107" "nowrap">[<a target="new" href="/shared_files/innovations/innovations_2004/2109/mainphoto2109.jpg">view product image</a>]</td>
+					
+				</tr>
+				</table>
+
+				Philips Key019 wearable digital camcorder ingeniously combines MPEG 4 video, camera and MP3 playback in the smallest format so you can capture, share and relive life’s exciting moments! 
+					<!--<br><br>Location(s): 
+					<br><br>Location(s): This honoree is not exhibiting at the 2004 International CES.
+				
+					<br><br>Location(s): There are no booths listed for this exhibitor.-->
+				
+				<br><img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0">
+			</td>
+		</tr>
+			
+		<table width="590" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img src="/global_images/1.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"></td>
+		</tr>
+		<tr><a name="2111"></a>
+		    <td valign="top" class="text" width="590"><img src="/global_images/spacer.gif" alt="" width="440" height="4" hspace="0" vspace="0" border="0"><br>
+				<table border="0" width="590" cellpadding="0" cellspacing="0">
+				<tr>
+					<td valign="top">
+					
+						<!--<span class="subhead"></span><br>-->
+					
+							<span class="subhead">Philips Consumer Electronics</span>&nbsp;&nbsp;[<a href="/attendees/exhibit_floor/directory/eims_exhibitor_details.asp?exhibid=5436">view exhibitor details</a>]<br><br>
+						
+					
+					<b>Philips MCW770 Wireless PC Link Micro System</b><br>
+					
+					
+						<span class="text_colored">Design by: Philips Consumer Electronics</span><br>
+						
+						<a target="new" href="http://www.philips.com">www.philips.com</a>
+					<br><br>		
+					</td>
+
+					
+					<td valign="top" width="107" "nowrap">[<a target="new" href="/shared_files/innovations/innovations_2004/2111/mainphoto2111.jpg">view product image</a>]</td>
+					
+				</tr>
+				</table>
+
+				Philips MCW770 Wireless PC link Micro System allows you to wirelessly access all your favorite music from your PC and enjoy unsurpassed sound … anywhere in your home! 
+					<!--<br><br>Location(s): 
+					<br><br>Location(s): This honoree is not exhibiting at the 2004 International CES.
+				
+					<br><br>Location(s): There are no booths listed for this exhibitor.-->
+				
+				<br><img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0">
+			</td>
+		</tr>
+			
+		<table width="590" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img src="/global_images/1.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"></td>
+		</tr>
+		<tr><a name="2123"></a>
+		    <td valign="top" class="text" width="590"><img src="/global_images/spacer.gif" alt="" width="440" height="4" hspace="0" vspace="0" border="0"><br>
+				<table border="0" width="590" cellpadding="0" cellspacing="0">
+				<tr>
+					<td valign="top">
+					
+						<!--<span class="subhead"></span><br>-->
+					
+							<span class="subhead">Philips Consumer Electronics</span>&nbsp;&nbsp;[<a href="/attendees/exhibit_floor/directory/eims_exhibitor_details.asp?exhibid=5436">view exhibitor details</a>]<br><br>
+						
+					
+					<b>Philips PSS010 CD Portable Sound System</b><br>
+					
+					
+						<span class="text_colored">Design by: Philips Consumer Electronics</span><br>
+						
+						<a target="new" href="http://www.philips.com">www.philips.com</a>
+					<br><br>		
+					</td>
+
+					
+					<td valign="top" width="107" "nowrap">[<a target="new" href="/shared_files/innovations/innovations_2004/2123/mainphoto2123.jpg">view product image</a>]</td>
+					
+				</tr>
+				</table>
+
+				Philips PSS010 CD Portable Sound System harmoniously combines high-tech Advance Sound Technology and intuitive touch screen with a uniquely ‘soft’ design for a whole new audio experience.  
+					<!--<br><br>Location(s): 
+					<br><br>Location(s): This honoree is not exhibiting at the 2004 International CES.
+				
+					<br><br>Location(s): There are no booths listed for this exhibitor.-->
+				
+				<br><img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0">
+			</td>
+		</tr>
+			
+		<table width="590" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img src="/global_images/1.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"></td>
+		</tr>
+		<tr><a name="2113"></a>
+		    <td valign="top" class="text" width="590"><img src="/global_images/spacer.gif" alt="" width="440" height="4" hspace="0" vspace="0" border="0"><br>
+				<table border="0" width="590" cellpadding="0" cellspacing="0">
+				<tr>
+					<td valign="top">
+					
+						<!--<span class="subhead"></span><br>-->
+					
+							<span class="subhead">Philips Consumer Electronics</span>&nbsp;&nbsp;[<a href="/attendees/exhibit_floor/directory/eims_exhibitor_details.asp?exhibid=5436">view exhibitor details</a>]<br><br>
+						
+					
+					<b>Philips Super Slim and Ultra Light Personal MP3-CD Player with Digital Tune</b><br>
+					
+					
+						<span class="text_colored">Design by: Philips Consumer Electronics</span><br>
+						
+						<a target="new" href="http://www.philips.com">www.philips.com</a>
+					<br><br>		
+					</td>
+
+					
+					<td valign="top" width="107" "nowrap">[<a target="new" href="/shared_files/innovations/innovations_2004/2113/mainphoto2113.jpg">view product image</a>]</td>
+					
+				</tr>
+				</table>
+
+				Philips EXP7361 presents a world of high quality MP3, WMA and FM music encased in a stunning, super slim and ultra light MP3-CD player. 
+					<!--<br><br>Location(s): 
+					<br><br>Location(s): This honoree is not exhibiting at the 2004 International CES.
+				
+					<br><br>Location(s): There are no booths listed for this exhibitor.-->
+				
+				<br><img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0">
+			</td>
+		</tr>
+			
+		<table width="590" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img src="/global_images/1.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"></td>
+		</tr>
+		<tr><a name="2750"></a>
+		    <td valign="top" class="text" width="590"><img src="/global_images/spacer.gif" alt="" width="440" height="4" hspace="0" vspace="0" border="0"><br>
+				<table border="0" width="590" cellpadding="0" cellspacing="0">
+				<tr>
+					<td valign="top">
+					
+						<!--<span class="subhead"></span><br>-->
+					
+							<span class="subhead">Philips Consumer Electronics</span>&nbsp;&nbsp;[<a href="/attendees/exhibit_floor/directory/eims_exhibitor_details.asp?exhibid=5436">view exhibitor details</a>]<br><br>
+						
+					
+					<b>WiFi Wireless Multimedia Link</b><br>
+					
+						
+						<a target="new" href="http://www.philips.com">www.philips.com</a>
+					<br><br>		
+					</td>
+
+					
+					<td valign="top" width="107" "nowrap">[<a target="new" href="/shared_files/innovations/innovations_2004/2750/mainphoto2750.jpg">view product image</a>]</td>
+					
+				</tr>
+				</table>
+
+				Enrich your home entertainment system with multimedia from your PC and the Internet with your SL400i WiFi Wireless Multimedia Link.
+					<!--<br><br>Location(s): 
+					<br><br>Location(s): This honoree is not exhibiting at the 2004 International CES.
+				
+					<br><br>Location(s): There are no booths listed for this exhibitor.-->
+				
+				<br><img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0">
+			</td>
+		</tr>
+			
+		<table width="590" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img src="/global_images/1.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"></td>
+		</tr>
+		<tr><a name="2796"></a>
+		    <td valign="top" class="text" width="590"><img src="/global_images/spacer.gif" alt="" width="440" height="4" hspace="0" vspace="0" border="0"><br>
+				<table border="0" width="590" cellpadding="0" cellspacing="0">
+				<tr>
+					<td valign="top">
+					
+						<!--<span class="subhead"></span><br>-->
+					
+							<span class="subhead">Pioneer Electronics</span>&nbsp;&nbsp;[<a href="/attendees/exhibit_floor/directory/eims_exhibitor_details.asp?exhibid=5443">view exhibitor details</a>]<br><br>
+						
+					
+					<b>Pioneer Elite VSX-59TXi A/V Receiver</b><br>
+					
+					
+						<span class="text_colored">Design by: Pioneer Electronics</span><br>
+						
+						<a target="new" href="http://www.pioneerelectronics.com">www.pioneerelectronics.com</a>
+					<br><br>		
+					</td>
+
+					
+					<td valign="top" width="107" "nowrap">[<a target="new" href="/shared_files/innovations/innovations_2004/2796/mainphoto2796.JPG">view product image</a>]</td>
+					
+				</tr>
+				</table>
+
+				The Pioneer Elite VSX-59TXi is a reference receiver offering the latest in audio technology.  The VSX-59TXi excels in processing power, multi-channel room equalization, and sonic performance.
+					<!--<br><br>Location(s): 
+					<br><br>Location(s): This honoree is not exhibiting at the 2004 International CES.
+				
+					<br><br>Location(s): There are no booths listed for this exhibitor.-->
+				
+				<br><img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0">
+			</td>
+		</tr>
+			
+		<table width="590" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img src="/global_images/1.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"></td>
+		</tr>
+		<tr><a name="2459"></a>
+		    <td valign="top" class="text" width="590"><img src="/global_images/spacer.gif" alt="" width="440" height="4" hspace="0" vspace="0" border="0"><br>
+				<table border="0" width="590" cellpadding="0" cellspacing="0">
+				<tr>
+					<td valign="top">
+					
+						<!--<span class="subhead"></span><br>-->
+					
+							<span class="subhead">Polk Audio, Inc.</span>&nbsp;&nbsp;[<a href="/attendees/exhibit_floor/directory/eims_exhibitor_details.asp?exhibid=5451">view exhibitor details</a>]<br><br>
+						
+					
+					<b>RTi10</b><br>
+					
+					
+						<span class="text_colored">Design by: Polk Audio, Inc.</span><br>
+						
+						<a target="new" href="http://www.polkaudio.com">www.polkaudio.com</a>
+					<br><br>		
+					</td>
+
+					
+					<td valign="top" width="107" "nowrap">[<a target="new" href="/shared_files/innovations/innovations_2004/2459/mainphoto2459.jpg">view product image</a>]</td>
+					
+				</tr>
+				</table>
+
+				The Polk Audio RTi10 loudspeaker combines advanced loudspeaker technology with bold industrial design: real wood, radiant with metallic highlights and racing car lines. True performance art.
+
+
+					<!--<br><br>Location(s): 
+					<br><br>Location(s): This honoree is not exhibiting at the 2004 International CES.
+				
+					<br><br>Location(s): There are no booths listed for this exhibitor.-->
+				
+				<br><img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0">
+			</td>
+		</tr>
+			
+		<table width="590" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img src="/global_images/1.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"></td>
+		</tr>
+		<tr><a name="2709"></a>
+		    <td valign="top" class="text" width="590"><img src="/global_images/spacer.gif" alt="" width="440" height="4" hspace="0" vspace="0" border="0"><br>
+				<table border="0" width="590" cellpadding="0" cellspacing="0">
+				<tr>
+					<td valign="top">
+					
+						<!--<span class="subhead"></span><br>-->
+					
+							<span class="subhead">Rio (DNNA Corp)</span>&nbsp;&nbsp;[<a href="/attendees/exhibit_floor/directory/eims_exhibitor_details.asp?exhibid=7016">view exhibitor details</a>]<br><br>
+						
+					
+					<b>Rio MP3 Players: Karma, Fuse, Nitrus</b><br>
+					
+					
+						<span class="text_colored">Design by: Whipsaw, Inc</span><br>
+						
+						<a target="new" href="http://www.rioaudio.com">www.rioaudio.com</a>
+					<br><br>		
+					</td>
+
+					
+					<td valign="top" width="107" "nowrap">[<a target="new" href="/shared_files/innovations/innovations_2004/2709/mainphoto2709.JPG">view product image</a>]</td>
+					
+				</tr>
+				</table>
+
+				KARMA 90260461-001: Sets a new standard for high capacity players. FUSE 90260467-001: A tiny player w/a huge sound. NITRUS 90260465-001: Nitrus packs 1.5GB into a stealthy, razor-thin design.
+					<!--<br><br>Location(s): 
+					<br><br>Location(s): This honoree is not exhibiting at the 2004 International CES.
+				
+					<br><br>Location(s): There are no booths listed for this exhibitor.-->
+				
+				<br><img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0">
+			</td>
+		</tr>
+			
+		<table width="590" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img src="/global_images/1.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"></td>
+		</tr>
+		<tr><a name="2415"></a>
+		    <td valign="top" class="text" width="590"><img src="/global_images/spacer.gif" alt="" width="440" height="4" hspace="0" vspace="0" border="0"><br>
+				<table border="0" width="590" cellpadding="0" cellspacing="0">
+				<tr>
+					<td valign="top">
+					
+						<!--<span class="subhead"></span><br>-->
+					
+							<span class="subhead">Rockford / Omnifi</span>&nbsp;&nbsp;[<a href="/attendees/exhibit_floor/directory/eims_exhibitor_details.asp?exhibid=6354">view exhibitor details</a>]<br><br>
+						
+					
+					<b>Omnifi Headphone Media Player</b><br>
+					
+					
+						<span class="text_colored">Design by: Scott Summit / Caroline Flagiello</span><br>
+						
+						<a target="new" href="http://www.omnifimedia.com">www.omnifimedia.com</a>
+					<br><br>		
+					</td>
+
+					
+					<td valign="top" width="107" "nowrap">[<a target="new" href="/shared_files/innovations/innovations_2004/2415/mainphoto2415.jpg">view product image</a>]</td>
+					
+				</tr>
+				</table>
+
+				The Omnifi Portable Media Player Headphone includes a media decoding processor, flash memory, battery, and user controls all integrated into a light, high quality audio headphone.
+					<!--<br><br>Location(s): 
+					<br><br>Location(s): This honoree is not exhibiting at the 2004 International CES.
+				
+					<br><br>Location(s): There are no booths listed for this exhibitor.-->
+				
+				<br><img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0">
+			</td>
+		</tr>
+			
+		<table width="590" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img src="/global_images/1.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"></td>
+		</tr>
+		<tr><a name="2600"></a>
+		    <td valign="top" class="text" width="590"><img src="/global_images/spacer.gif" alt="" width="440" height="4" hspace="0" vspace="0" border="0"><br>
+				<table border="0" width="590" cellpadding="0" cellspacing="0">
+				<tr>
+					<td valign="top">
+					
+						<!--<span class="subhead"></span><br>-->
+					
+							<span class="subhead">Roku</span>&nbsp;&nbsp;[<a href="/attendees/exhibit_floor/directory/eims_exhibitor_details.asp?exhibid=5475">view exhibitor details</a>]<br><br>
+						
+					
+					<b>SoundBridge </b><br>
+					
+					
+						<span class="text_colored">Design by: Roku LLC</span><br>
+						
+						<a target="new" href="http://www.rokulabs.com">www.rokulabs.com</a>
+					<br><br>		
+					</td>
+
+					
+					<td valign="top" width="107" "nowrap">[<a target="new" href="/shared_files/innovations/innovations_2004/2600/mainphoto2600.jpg">view product image</a>]</td>
+					
+				</tr>
+				</table>
+
+				A masterpiece of design, the Roku SoundBridge is an MP3 network music player that stands out from the rest with it's beautiful structure and bright Noritake graphic display.
+					<!--<br><br>Location(s): 
+					<br><br>Location(s): This honoree is not exhibiting at the 2004 International CES.
+				
+					<br><br>Location(s): There are no booths listed for this exhibitor.-->
+				
+				<br><img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0">
+			</td>
+		</tr>
+			
+		<table width="590" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img src="/global_images/1.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"></td>
+		</tr>
+		<tr><a name="2192"></a>
+		    <td valign="top" class="text" width="590"><img src="/global_images/spacer.gif" alt="" width="440" height="4" hspace="0" vspace="0" border="0"><br>
+				<table border="0" width="590" cellpadding="0" cellspacing="0">
+				<tr>
+					<td valign="top">
+					
+						<!--<span class="subhead"></span><br>-->
+					
+							<span class="subhead">Roku</span>&nbsp;&nbsp;[<a href="/attendees/exhibit_floor/directory/eims_exhibitor_details.asp?exhibid=5475">view exhibitor details</a>]<br><br>
+						
+					
+					<b>SoundBridge</b><br>
+					
+					
+						<span class="text_colored">Design by: Roku LLC</span><br>
+						
+						<a target="new" href="http://www.rokulabs.com">www.rokulabs.com</a>
+					<br><br>		
+					</td>
+
+					
+					<td valign="top" width="107" "nowrap">[<a target="new" href="/shared_files/innovations/innovations_2004/2192/mainphoto2192.jpg">view product image</a>]</td>
+					
+				</tr>
+				</table>
+
+				A masterpiece of design, the Roku SoundBridge is an MP3 network music player that stands out from the rest with it's beautiful structure and well-proportioned Noritake 512x32 vacuum fluorescent display.
+					<!--<br><br>Location(s): 
+					<br><br>Location(s): This honoree is not exhibiting at the 2004 International CES.
+				
+					<br><br>Location(s): There are no booths listed for this exhibitor.-->
+				
+				<br><img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0">
+			</td>
+		</tr>
+			
+		<table width="590" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img src="/global_images/1.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"></td>
+		</tr>
+		<tr><a name="2052"></a>
+		    <td valign="top" class="text" width="590"><img src="/global_images/spacer.gif" alt="" width="440" height="4" hspace="0" vspace="0" border="0"><br>
+				<table border="0" width="590" cellpadding="0" cellspacing="0">
+				<tr>
+					<td valign="top">
+					
+						<!--<span class="subhead"></span><br>-->
+					
+							<span class="subhead">S3i Sound</span>&nbsp;&nbsp;[<a href="/attendees/exhibit_floor/directory/eims_exhibitor_details.asp?exhibid=7016">view exhibitor details</a>]<br><br>
+						
+					
+					<b>Sound Without Speakers™</b><br>
+					
+					
+						<span class="text_colored">Design by: S3i Sound</span><br>
+						
+						<a target="new" href="http://www.s3isound.com">www.s3isound.com</a>
+					<br><br>		
+					</td>
+
+					
+					<td valign="top" width="107" "nowrap">[<a target="new" href="/shared_files/innovations/innovations_2004/2052/mainphoto2052.jpg">view product image</a>]</td>
+					
+				</tr>
+				</table>
+
+				Sound Without Speakers™ is a revolutionary solid state acoustic driver technology that transforms ordinary wall, ceiling, floors, etc into speakers. 
+
+www.s3isound.com
+
+					<!--<br><br>Location(s): 
+					<br><br>Location(s): This honoree is not exhibiting at the 2004 International CES.
+				
+					<br><br>Location(s): There are no booths listed for this exhibitor.-->
+				
+				<br><img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0">
+			</td>
+		</tr>
+			
+		<table width="590" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img src="/global_images/1.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"></td>
+		</tr>
+		<tr><a name="2588"></a>
+		    <td valign="top" class="text" width="590"><img src="/global_images/spacer.gif" alt="" width="440" height="4" hspace="0" vspace="0" border="0"><br>
+				<table border="0" width="590" cellpadding="0" cellspacing="0">
+				<tr>
+					<td valign="top">
+					
+						<!--<span class="subhead"></span><br>-->
+					
+							<span class="subhead">Samsung Electronics America</span>&nbsp;&nbsp;[<a href="/attendees/exhibit_floor/directory/eims_exhibitor_details.asp?exhibid=5517">view exhibitor details</a>]<br><br>
+						
+					
+					<b>Samsung's Napster Digital Audio Player (HDD) (YP-910GS)</b><br>
+					
+					
+						<span class="text_colored">Design by: Samsung Electronics America</span><br>
+						
+						<a target="new" href="http://www.samsungusa.com">www.samsungusa.com</a>
+					<br><br>		
+					</td>
+
+					
+					<td valign="top" width="107" "nowrap">[<a target="new" href="/shared_files/innovations/innovations_2004/2588/mainphoto2588.jpg">view product image</a>]</td>
+					
+				</tr>
+				</table>
+
+				Samsung's YP-910GS 20GB audio player is the first to be co-branded by Samsung and Napster. Integrated with Napster 2.0, it is also unique for its FM transmitter and audio encoding. 
+					<!--<br><br>Location(s): 
+					<br><br>Location(s): This honoree is not exhibiting at the 2004 International CES.
+				
+					<br><br>Location(s): There are no booths listed for this exhibitor.-->
+				
+				<br><img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0">
+			</td>
+		</tr>
+			
+		<table width="590" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img src="/global_images/1.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"></td>
+		</tr>
+		<tr><a name="2575"></a>
+		    <td valign="top" class="text" width="590"><img src="/global_images/spacer.gif" alt="" width="440" height="4" hspace="0" vspace="0" border="0"><br>
+				<table border="0" width="590" cellpadding="0" cellspacing="0">
+				<tr>
+					<td valign="top">
+					
+						<!--<span class="subhead"></span><br>-->
+					
+							<span class="subhead">Samsung Electronics America</span>&nbsp;&nbsp;[<a href="/attendees/exhibit_floor/directory/eims_exhibitor_details.asp?exhibid=5517">view exhibitor details</a>]<br><br>
+						
+					
+					<b>Samsung's Sport YEPP Hard Disc Drive (YH-920)  </b><br>
+					
+					
+						<span class="text_colored">Design by: Samsung Electronics America</span><br>
+						
+						<a target="new" href="http://www.samsungusa.com">www.samsungusa.com</a>
+					<br><br>		
+					</td>
+
+					
+					<td valign="top" width="107" "nowrap">[<a target="new" href="/shared_files/innovations/innovations_2004/2575/mainphoto2575.jpg">view product image</a>]</td>
+					
+				</tr>
+				</table>
+
+				The Samsung YH-920 Sport Hard Disc Drive with 30G hard drive and features for sports minded individual makes this unit a big value for with a complete musical experience. www.SamsungUSA.com
+					<!--<br><br>Location(s): 
+					<br><br>Location(s): This honoree is not exhibiting at the 2004 International CES.
+				
+					<br><br>Location(s): There are no booths listed for this exhibitor.-->
+				
+				<br><img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0">
+			</td>
+		</tr>
+			
+		<table width="590" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img src="/global_images/1.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"></td>
+		</tr>
+		<tr><a name="2570"></a>
+		    <td valign="top" class="text" width="590"><img src="/global_images/spacer.gif" alt="" width="440" height="4" hspace="0" vspace="0" border="0"><br>
+				<table border="0" width="590" cellpadding="0" cellspacing="0">
+				<tr>
+					<td valign="top">
+					
+						<!--<span class="subhead"></span><br>-->
+					
+							<span class="subhead">Samsung Electronics America</span>&nbsp;&nbsp;[<a href="/attendees/exhibit_floor/directory/eims_exhibitor_details.asp?exhibid=5517">view exhibitor details</a>]<br><br>
+						
+					
+					<b>Samsung's Wireless Home Theater System (HT-DB390)</b><br>
+					
+					
+						<span class="text_colored">Design by: Samsung Electronics America</span><br>
+						
+						<a target="new" href="http://www.samsungusa.com">www.samsungusa.com</a>
+					<br><br>		
+					</td>
+
+					
+					<td valign="top" width="107" "nowrap">[<a target="new" href="/shared_files/innovations/innovations_2004/2570/mainphoto2570.jpg">view product image</a>]</td>
+					
+				</tr>
+				</table>
+
+				The Samsung HT-DB390 home theater in a box system with Wireless Rear Block for a complete space-saving home theater experience. www.SamsungUSA.com
+
+					<!--<br><br>Location(s): 
+					<br><br>Location(s): This honoree is not exhibiting at the 2004 International CES.
+				
+					<br><br>Location(s): There are no booths listed for this exhibitor.-->
+				
+				<br><img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0">
+			</td>
+		</tr>
+			
+		<table width="590" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img src="/global_images/1.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"></td>
+		</tr>
+		<tr><a name="2574"></a>
+		    <td valign="top" class="text" width="590"><img src="/global_images/spacer.gif" alt="" width="440" height="4" hspace="0" vspace="0" border="0"><br>
+				<table border="0" width="590" cellpadding="0" cellspacing="0">
+				<tr>
+					<td valign="top">
+					
+						<!--<span class="subhead"></span><br>-->
+					
+							<span class="subhead">Samsung Electronics America</span>&nbsp;&nbsp;[<a href="/attendees/exhibit_floor/directory/eims_exhibitor_details.asp?exhibid=5517">view exhibitor details</a>]<br><br>
+						
+					
+					<b>Samsung's YEPP Hard Disc Drive ( YH-800)</b><br>
+					
+					
+						<span class="text_colored">Design by: Samsung Electronics America</span><br>
+						
+						<a target="new" href="http://www.samsungusa.com">www.samsungusa.com</a>
+					<br><br>		
+					</td>
+
+					
+					<td valign="top" width="107" "nowrap">[<a target="new" href="/shared_files/innovations/innovations_2004/2574/mainphoto2574.jpg">view product image</a>]</td>
+					
+				</tr>
+				</table>
+
+				The Samsung YH-800 Yepp Hard Disc Drive with 1.5G hard drive and features like MP3, WMA and Napster Compliance makes this unit a big value for complete musical experience. www.SamsungUSA.com
+					<!--<br><br>Location(s): 
+					<br><br>Location(s): This honoree is not exhibiting at the 2004 International CES.
+				
+					<br><br>Location(s): There are no booths listed for this exhibitor.-->
+				
+				<br><img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0">
+			</td>
+		</tr>
+			
+		<table width="590" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img src="/global_images/1.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"></td>
+		</tr>
+		<tr><a name="2510"></a>
+		    <td valign="top" class="text" width="590"><img src="/global_images/spacer.gif" alt="" width="440" height="4" hspace="0" vspace="0" border="0"><br>
+				<table border="0" width="590" cellpadding="0" cellspacing="0">
+				<tr>
+					<td valign="top">
+					
+						<!--<span class="subhead"></span><br>-->
+					
+							<span class="subhead">Sirius Satellite Radio / Antex Electronics</span>&nbsp;&nbsp;[<a href="/attendees/exhibit_floor/directory/eims_exhibitor_details.asp?exhibid=5562">view exhibitor details</a>]<br><br>
+						
+					
+					<b>Triple Play Multizone Satellite Radio Receiver</b><br>
+					
+					
+						<span class="text_colored">Design by: Sirius Satellite Radio / Antex Electronics</span><br>
+						
+						<a target="new" href="http://www.sirius.com">www.sirius.com</a>
+					<br><br>		
+					</td>
+
+					
+					<td valign="top" width="107" "nowrap">[<a target="new" href="/shared_files/innovations/innovations_2004/2510/mainphoto2510.jpg">view product image</a>]</td>
+					
+				</tr>
+				</table>
+
+				The Antex SRX-3 Triple Play is the world’s first and only Multizone Satellite Radio Receiver and features SIRIUS Satellite Radio's 100 streams of music, news and entertainment.
+					<!--<br><br>Location(s): 
+					<br><br>Location(s): This honoree is not exhibiting at the 2004 International CES.
+				
+					<br><br>Location(s): There are no booths listed for this exhibitor.-->
+				
+				<br><img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0">
+			</td>
+		</tr>
+			
+		<table width="590" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img src="/global_images/1.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"></td>
+		</tr>
+		<tr><a name="2436"></a>
+		    <td valign="top" class="text" width="590"><img src="/global_images/spacer.gif" alt="" width="440" height="4" hspace="0" vspace="0" border="0"><br>
+				<table border="0" width="590" cellpadding="0" cellspacing="0">
+				<tr>
+					<td valign="top">
+					
+						<!--<span class="subhead"></span><br>-->
+					
+							<span class="subhead">Sonance</span>&nbsp;&nbsp;[<a href="/attendees/exhibit_floor/directory/eims_exhibitor_details.asp?exhibid=5568">view exhibitor details</a>]<br><br>
+						
+					
+					<b>Sonance Trio Triple Tuner </b><br>
+					
+					
+						<span class="text_colored">Design by: Sonance</span><br>
+						
+						<a target="new" href="http://www.sonance.com">www.sonance.com</a>
+					<br><br>		
+					</td>
+
+					
+					<td valign="top" width="107" "nowrap">[<a target="new" href="/shared_files/innovations/innovations_2004/2436/mainphoto2436.jpg">view product image</a>]</td>
+					
+				</tr>
+				</table>
+
+				Sonance Trio Triple Tuner, features three AM/FM tuners for homes and commercial multi-zone audio entertainment systems.  Plays three different stations simultaneously over the same audio system.
+
+
+					<!--<br><br>Location(s): 
+					<br><br>Location(s): This honoree is not exhibiting at the 2004 International CES.
+				
+					<br><br>Location(s): There are no booths listed for this exhibitor.-->
+				
+				<br><img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0">
+			</td>
+		</tr>
+			
+		<table width="590" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img src="/global_images/1.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"></td>
+		</tr>
+		<tr><a name="2656"></a>
+		    <td valign="top" class="text" width="590"><img src="/global_images/spacer.gif" alt="" width="440" height="4" hspace="0" vspace="0" border="0"><br>
+				<table border="0" width="590" cellpadding="0" cellspacing="0">
+				<tr>
+					<td valign="top">
+					
+						<!--<span class="subhead"></span><br>-->
+					
+							<span class="subhead">Soundmatters</span><br><br>
+						
+					
+					<b>MAINstage™  All-in-One Surround Sound System</b><br>
+					
+					
+						<span class="text_colored">Design by: montgomerypfeifer</span><br>
+						
+						<a target="new" href="http://www.soundmatters.com">www.soundmatters.com</a>
+					<br><br>		
+					</td>
+
+					
+					<td valign="top" width="107" "nowrap">[<a target="new" href="/shared_files/innovations/innovations_2004/2656/mainphoto2656.jpg">view product image</a>]</td>
+					
+				</tr>
+				</table>
+
+				Legendary audio designer Dr. Godehard Guenther introduces Soundmatters and it's remarkable new MAINstage, a slim one-box room-filling theater sound solution that's musical and  affordable...for the bedroom, den, dorm, boat,almost anywhere.
+					<!--<br><br>Location(s): 
+					<br><br>Location(s): This honoree is not exhibiting at the 2004 International CES.
+				
+					<br><br>Location(s): There are no booths listed for this exhibitor.-->
+				
+				<br><img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0">
+			</td>
+		</tr>
+			
+		<table width="590" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img src="/global_images/1.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"></td>
+		</tr>
+		<tr><a name="2554"></a>
+		    <td valign="top" class="text" width="590"><img src="/global_images/spacer.gif" alt="" width="440" height="4" hspace="0" vspace="0" border="0"><br>
+				<table border="0" width="590" cellpadding="0" cellspacing="0">
+				<tr>
+					<td valign="top">
+					
+						<!--<span class="subhead"></span><br>-->
+					
+							<span class="subhead">Speakercraft, Inc.</span>&nbsp;&nbsp;[<a href="/attendees/exhibit_floor/directory/eims_exhibitor_details.asp?exhibid=5580">view exhibitor details</a>]<br><br>
+						
+					
+					<b>Starlet 9</b><br>
+					
+					
+						<span class="text_colored">Design by: Speakercraft, Inc.</span><br>
+						
+						<a target="new" href="http://www.speakercraft.com">www.speakercraft.com</a>
+					<br><br>		
+					</td>
+
+					
+					<td valign="top" width="107" "nowrap">[<a target="new" href="/shared_files/innovations/innovations_2004/2554/mainphoto2554.jpg">view product image</a>]</td>
+					
+				</tr>
+				</table>
+
+				Starlet, SpeakerCraft’s new line source in-wall series of speakers offers unequivocal acoustical performance and aesthetics at a premium price point.  Its design provides exceptional imaging and accuracy.
+					<!--<br><br>Location(s): 
+					<br><br>Location(s): This honoree is not exhibiting at the 2004 International CES.
+				
+					<br><br>Location(s): There are no booths listed for this exhibitor.-->
+				
+				<br><img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0">
+			</td>
+		</tr>
+			
+		<table width="590" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img src="/global_images/1.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"></td>
+		</tr>
+		<tr><a name="2057"></a>
+		    <td valign="top" class="text" width="590"><img src="/global_images/spacer.gif" alt="" width="440" height="4" hspace="0" vspace="0" border="0"><br>
+				<table border="0" width="590" cellpadding="0" cellspacing="0">
+				<tr>
+					<td valign="top">
+					
+						<!--<span class="subhead"></span><br>-->
+					
+							<span class="subhead">TDK Electronics Corp.</span>&nbsp;&nbsp;[<a href="/attendees/exhibit_floor/directory/eims_exhibitor_details.asp?exhibid=5619">view exhibitor details</a>]<br><br>
+						
+					
+					<b>I'MASPEAKER</b><br>
+					
+					
+						<span class="text_colored">Design by: Gingko Design, Inc</span><br>
+						
+						<a target="new" href="http://www.tdk.com">www.tdk.com</a>
+					<br><br>		
+					</td>
+
+					
+					<td valign="top" width="107" "nowrap">[<a target="new" href="/shared_files/innovations/innovations_2004/2057/mainphoto2057.jpg">view product image</a>]</td>
+					
+				</tr>
+				</table>
+
+				I'MASPEAKER looks like a conventional CD storage case, but integrated NXT® flat panel speaker(s) make it an innovative anywhere, anytime sound system that connects to portable players and notebook computers.
+					<!--<br><br>Location(s): 
+					<br><br>Location(s): This honoree is not exhibiting at the 2004 International CES.
+				
+					<br><br>Location(s): There are no booths listed for this exhibitor.-->
+				
+				<br><img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0">
+			</td>
+		</tr>
+			
+		<table width="590" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img src="/global_images/1.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"></td>
+		</tr>
+		<tr><a name="2094"></a>
+		    <td valign="top" class="text" width="590"><img src="/global_images/spacer.gif" alt="" width="440" height="4" hspace="0" vspace="0" border="0"><br>
+				<table border="0" width="590" cellpadding="0" cellspacing="0">
+				<tr>
+					<td valign="top">
+					
+						<!--<span class="subhead"></span><br>-->
+					
+							<span class="subhead">TDK Electronics Corp.</span>&nbsp;&nbsp;[<a href="/attendees/exhibit_floor/directory/eims_exhibitor_details.asp?exhibid=5619">view exhibitor details</a>]<br><br>
+						
+					
+					<b>Mojo 1</b><br>
+					
+					
+						<span class="text_colored">Design by: Gingko Design, Inc.</span><br>
+						
+						<a target="new" href="http://www.tdk.com">www.tdk.com</a>
+					<br><br>		
+					</td>
+
+					
+					<td valign="top" width="107" "nowrap">[<a target="new" href="/shared_files/innovations/innovations_2004/2094/mainphoto2094.jpg">view product image</a>]</td>
+					
+				</tr>
+				</table>
+
+				Lightweight and highly comfortable, MOJO 1 is a full-featured MP3/FM player built into a set of attractive neckband-style headphones. It’s a fresh solution for today’s mobile lifestyles.
+					<!--<br><br>Location(s): 
+					<br><br>Location(s): This honoree is not exhibiting at the 2004 International CES.
+				
+					<br><br>Location(s): There are no booths listed for this exhibitor.-->
+				
+				<br><img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0">
+			</td>
+		</tr>
+			
+		<table width="590" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img src="/global_images/1.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"></td>
+		</tr>
+		<tr><a name="2309"></a>
+		    <td valign="top" class="text" width="590"><img src="/global_images/spacer.gif" alt="" width="440" height="4" hspace="0" vspace="0" border="0"><br>
+				<table border="0" width="590" cellpadding="0" cellspacing="0">
+				<tr>
+					<td valign="top">
+					
+						<!--<span class="subhead"></span><br>-->
+					
+							<span class="subhead">Thiel Audio Products Company</span>&nbsp;&nbsp;[<a href="/attendees/exhibit_floor/directory/eims_exhibitor_details.asp?exhibid=5642">view exhibitor details</a>]<br><br>
+						
+					
+					<b>THIEL CS2.4 Loudspeaker</b><br>
+					
+					
+						<span class="text_colored">Design by: Thiel Audio Products Company</span><br>
+						
+						<a target="new" href="http://www.thielaudio.com">www.thielaudio.com</a>
+					<br><br>		
+					</td>
+
+					
+					<td valign="top" width="107" "nowrap">[<a target="new" href="/shared_files/innovations/innovations_2004/2309/mainphoto2309.jpg">view product image</a>]</td>
+					
+				</tr>
+				</table>
+
+				The THIEL CS2.4 is a high performance, three-way loudspeaker incorporating several driver, crossover, and cabinet design innovations to provide exceptionally realistic sound reproduction in home music and video sound systems.
+					<!--<br><br>Location(s): 
+					<br><br>Location(s): This honoree is not exhibiting at the 2004 International CES.
+				
+					<br><br>Location(s): There are no booths listed for this exhibitor.-->
+				
+				<br><img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0">
+			</td>
+		</tr>
+			
+		<table width="590" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img src="/global_images/1.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"></td>
+		</tr>
+		<tr><a name="2007"></a>
+		    <td valign="top" class="text" width="590"><img src="/global_images/spacer.gif" alt="" width="440" height="4" hspace="0" vspace="0" border="0"><br>
+				<table border="0" width="590" cellpadding="0" cellspacing="0">
+				<tr>
+					<td valign="top">
+					
+						<!--<span class="subhead"></span><br>-->
+					
+							<span class="subhead">Xhifi, Inc.</span>&nbsp;&nbsp;[<a href="/attendees/exhibit_floor/directory/eims_exhibitor_details.asp?exhibid=6159">view exhibitor details</a>]<br><br>
+						
+					
+					<b>Xducer 2.1 Multimedia Loudspeaker System</b><br>
+					
+					
+						<span class="text_colored">Design by: Xhifi, Inc.</span><br>
+						
+						<a target="new" href="http://www.xhifi.com">www.xhifi.com</a>
+					<br><br>		
+					</td>
+
+					
+					<td valign="top" width="107" "nowrap">[<a target="new" href="/shared_files/innovations/innovations_2004/2007/mainphoto2007.JPG">view product image</a>]</td>
+					
+				</tr>
+				</table>
+
+				Designed for the 21st century electronics consumer, the Xducer 2.1 Multimedia Loudspeaker System delivers the compatibility and credibility required to excel across audio, video, home theater, computer, and gaming applications.
+					<!--<br><br>Location(s): 
+					<br><br>Location(s): This honoree is not exhibiting at the 2004 International CES.
+				
+					<br><br>Location(s): There are no booths listed for this exhibitor.-->
+				
+				<br><img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0">
+			</td>
+		</tr>
+			
+		<table width="590" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img src="/global_images/1.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"></td>
+		</tr>
+		<tr><a name="2760"></a>
+		    <td valign="top" class="text" width="590"><img src="/global_images/spacer.gif" alt="" width="440" height="4" hspace="0" vspace="0" border="0"><br>
+				<table border="0" width="590" cellpadding="0" cellspacing="0">
+				<tr>
+					<td valign="top">
+					
+						<!--<span class="subhead"></span><br>-->
+					
+							<span class="subhead">XM Satellite Radio</span>&nbsp;&nbsp;[<a href="/attendees/exhibit_floor/directory/eims_exhibitor_details.asp?exhibid=5770">view exhibitor details</a>]<br><br>
+						
+					
+					<b>XM Integrated Boombox (XM/AM/FM/CD )</b><br>
+					
+					
+						<span class="text_colored">Design by: XM Satellite Radio</span><br>
+						
+						<a target="new" href="http://www.xmradio.com">www.xmradio.com</a>
+					<br><br>		
+					</td>
+
+					
+					<td valign="top" width="107" "nowrap"><span class="text_colored">No image</span></td>
+					
+				</tr>
+				</table>
+
+				XM All-in-One XM/CD/AM/FM Portable Boombox
+2 Line x 16 Character display Water Resistant, Integrated Antenna, Multifunction Remote
+
+					<!--<br><br>Location(s): 
+					<br><br>Location(s): This honoree is not exhibiting at the 2004 International CES.
+				
+					<br><br>Location(s): There are no booths listed for this exhibitor.-->
+				
+				<br><img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0">
+			</td>
+		</tr>
+			
+		<table width="590" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img src="/global_images/1.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"></td>
+		</tr>
+		<tr><a name="2604"></a>
+		    <td valign="top" class="text" width="590"><img src="/global_images/spacer.gif" alt="" width="440" height="4" hspace="0" vspace="0" border="0"><br>
+				<table border="0" width="590" cellpadding="0" cellspacing="0">
+				<tr>
+					<td valign="top">
+					
+						<!--<span class="subhead"></span><br>-->
+					
+							<span class="subhead">Yamaha Electronics Corp</span>&nbsp;&nbsp;[<a href="/attendees/exhibit_floor/directory/eims_exhibitor_details.asp?exhibid=5773">view exhibitor details</a>]<br><br>
+						
+					
+					<b>MusicCAST</b><br>
+					
+					
+						<span class="text_colored">Design by: Yamaha Electronics Corp</span><br>
+						
+						<a target="new" href="http://www.yamaha.com">www.yamaha.com</a>
+					<br><br>		
+					</td>
+
+					
+					<td valign="top" width="107" "nowrap">[<a target="new" href="/shared_files/innovations/innovations_2004/2604/mainphoto2604.jpg">view product image</a>]</td>
+					
+				</tr>
+				</table>
+
+				MusicCAST: MCX-1000 Server, 1000 hour music jukebox , WiFi wireless music distribution, and CD Recorder for music compilations. MCX-A10 Clients selects the music to enjoy anywhere within you home wirelessly...
+
+					<!--<br><br>Location(s): 
+					<br><br>Location(s): This honoree is not exhibiting at the 2004 International CES.
+				
+					<br><br>Location(s): There are no booths listed for this exhibitor.-->
+				
+				<br><img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0">
+			</td>
+		</tr>
+			
+		<table width="590" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img src="/global_images/1.0/line.gif" alt="-----------------------------------------------" width="590" height="1" hspace="0" vspace="0" border="0"></td>
+		</tr>
+		<tr><a name="2655"></a>
+		    <td valign="top" class="text" width="590"><img src="/global_images/spacer.gif" alt="" width="440" height="4" hspace="0" vspace="0" border="0"><br>
+				<table border="0" width="590" cellpadding="0" cellspacing="0">
+				<tr>
+					<td valign="top">
+					
+						<!--<span class="subhead"></span><br>-->
+					
+							<span class="subhead">Yamaha Electronics Corp. USA</span>&nbsp;&nbsp;[<a href="/attendees/exhibit_floor/directory/eims_exhibitor_details.asp?exhibid=5773">view exhibitor details</a>]<br><br>
+						
+					
+					<b>RX-Z9</b><br>
+					
+					
+						<span class="text_colored">Design by: Yamaha Electronics Corp. USA</span><br>
+						
+						<a target="new" href="http://www.yamaha.com/yec">www.yamaha.com/yec</a>
+					<br><br>		
+					</td>
+
+					
+					<td valign="top" width="107" "nowrap">[<a target="new" href="/shared_files/innovations/innovations_2004/2655/mainphoto2655.jpg">view product image</a>]</td>
+					
+				</tr>
+				</table>
+
+				The RX-Z9 is the world’s first 9.1 channel A/V receiver, offering the finest in Audio/Video processing, and precision design Yamaha is famous for.
+					<!--<br><br>Location(s): 
+					<br><br>Location(s): This honoree is not exhibiting at the 2004 International CES.
+				
+					<br><br>Location(s): There are no booths listed for this exhibitor.-->
+				
+				<br><img src="/global_images/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0">
+			</td>
+		</tr>
+			
+		</table>
+	
+
+<!-- /text for main page -->
+</div>
+	
+
+			<br>
+			<br>
+			<br>
+		</span>
+		</td>
+	    <td width="10" background="/global_images/spacer.gif" class="attendees7">&nbsp;</td>
+			
+		</tr>
+<!-- /main body row -->	
+<!-- footer row -->
+	<tr>
+	    <td width="10"></td>
+	    <td width="140"></td>
+	    <td width="10"></td>
+	    <!--<td width="610" colspan=6><img src="/global_images//_files/.page_bottom1.jpggif" alt="" width="610" hspace="0" vspace="0" border="0"></td>-->
+		<td width="610" colspan=6><img src="/global_images/1.0/1.0.page_bottom1.gif" alt="" width="610" hspace="0" vspace="0" border="0"></td>
+	</tr>
+	<tr>
+	    <td width="10"></td>
+	    <td width="140"></td>
+	    <td width="10"></td>
+	    <td width="10" class="footer"><img src="/global_images/footer_left.gif" alt="(" width="10" height="30" hspace="0" vspace="0" border="0"></td>
+	    <td width="380" background="/global_images/footer_bg.gif" class="footer"><span class="nav_footer"><a href="/about_ces/">About CES</a> | <a href="/faqs/">FAQs</a> | <a href="/contact_us/">Contact Us</a> | <a href="/site_map.asp">Site Map</a> | <a href="/privacy_policy.asp">Privacy Policy</a> | <a href="/vendors.asp">Vendors</a></span></td>
+	    <td width="210" colspan="3" align="right" background="/global_images/footer_bg.gif" class="footer"><span class="nav_footer"> &#169; 2004 CEA, All rights reserved</span></td>
+	    <td width="10" class="footer"><img src="/global_images/footer_right.gif" alt=")" width="10" height="30" hspace="0" vspace="0" border="0"></td>
+	</tr>
+<!-- /footer row -->			 		 	 	 
+	</table>
+	<img src="/global_images/spacer.gif" alt="" width="1" height="20" hspace="0" vspace="0" border="0"">
+<!-- /main table for site -->	
+
+
+</td>
+<td width="49%" valign="top" background="/global_images/attendees_bg.gif">&nbsp;</td>
+</tr>
+</table>
+
+
+</body>
+</html>
