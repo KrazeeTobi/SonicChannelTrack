@@ -177,6 +177,23 @@ padding: 4px 0;
 	width: 100%;
 	max-width: 1500px;
 	margin: 0 auto;
+	position: relative;
+}
+
+.header .inner .banner{
+	position: absolute;
+	width: 25vw;
+	max-width: 420px;
+	min-width: 320px;
+	bottom: 114px;
+	left: 30px;
+}
+.header .inner .banner img{
+	width: 100%;
+	transition: 0.4s;
+}
+.header .inner .banner img:hover {
+    opacity: 0.6;
 }
 
 .header .image{
