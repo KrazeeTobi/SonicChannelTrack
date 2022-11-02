@@ -340,6 +340,16 @@ del ryu.7
 del ryu.8
 del ryu.9
 del ryu.10
+del edo.1
+del edo.2
+del edo.3
+del edo.4
+del edo.5
+del edo.6
+del edo.7
+del edo.8
+del edo.9
+del edo.10
 cd ..
 cd ..
 cd topics
