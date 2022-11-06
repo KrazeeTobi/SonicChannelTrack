@@ -1,0 +1,382 @@
+@charset "euc-jp";
+
+/*---------------------------------------------------
+HTML-tag
+---------------------------------------------------*/
+html,body,
+div,span,
+ul,li,
+h1,h2,h3,h4,h5,h6,
+p,a,img{
+	margin:0;
+	padding:0;
+	border:0; 
+	line-height:1.3em;
+	
+	font-size:small;
+	font-weight:normal;
+	font-style:normal;
+}
+
+html,body {
+	background:#fff;
+	font-family:"¥Ò¥é¥®¥Î³Ñ¥´ Pro W3", "Hiragino Kaku Gothic Pro", "¥á¥¤¥ê¥ª", Meiryo, Osaka, "£Í£Ó £Ð¥´¥·¥Ã¥¯", "MS PGothic", sans-serif;
+	color:#535353;
+}
+
+ul,li{
+	list-style:none;
+}
+
+a:link {
+  color: #8eb2f4;
+  text-decoration:underline;
+}
+
+a:visited {
+  color: #8eb2f4;
+  text-decoration:underline;
+}
+
+a:link.normal {
+  color: #0000ff;
+  text-decoration: underline;
+}
+
+a:visited.normal {
+  color: #800080;
+  text-decoration: underline;
+}
+
+em{
+	font-weight:bold;
+}
+
+br{
+	line-height:1em;
+}
+
+strong{
+	font-style:normal;
+	font-weight:bold;
+}
+
+em{
+	font-style:normal;
+	font-weight:normal;
+	color:#f00;
+}
+
+hr{
+	margin:0;
+	width:0px;
+	height:0px;
+	clear:both;
+	position:absolute;
+	top:-999px;
+}
+
+/* for mac ie 5 */
+/*\*//*/
+hr{
+	display:inline-table;
+	clear:both;
+	visibility:hidden;
+}
+/**/
+
+
+/*---------------------------------------------------
+class
+---------------------------------------------------*/
+/*======float*/
+.floatLeft{
+	clear:both;
+	float:left;
+	padding:0 0.5em 0.5em 0;
+}
+.floatRight{
+	clear:both;
+	float:right;
+	padding:0 0 0.5em 0.5em;
+}
+.clearBoth{
+	clear:both;
+}
+.clearNone{
+	clear:none;
+}
+
+.textCenter{
+	clear:both;
+	text-align:center;
+}
+
+
+/*---------------------------------------------------
+Layout
+---------------------------------------------------*/
+/*======banner*/
+#banner{
+	margin:44px auto 30px;
+	width:720px;
+}
+
+/*======footer*/
+#footer{
+	background:#fff url(http://livedoor.blogimg.jp/sonic_channel/imgs/7/c/7c3e9808.gif) no-repeat top center;
+	padding:12px 0 0;
+	margin:20px auto;
+	width:720px;
+}
+
+#footer p{
+	color:#707070;
+	text-align:center;
+	line-height:1.5em;
+}
+
+/*======container*/
+#container{
+	margin:0 auto 10px;
+	width:720px;
+}
+
+/* clear fix */
+#container{
+	zoom:1;/*for IE 5.5-7*/
+}
+#container:after{/*for modern browser*/
+	content:".";
+	display: block;
+	height:0px;
+	clear:both;
+	visibility:hidden;
+}
+
+/*======content*/
+#content{
+	float:left;
+	padding:0 0 0 15px;
+	width:487px;
+}
+
+/*======links*/
+#links{
+	float:right;
+	padding:0 10px 0 0;
+	width:182px;
+}
+
+
+/*---------------------------------------------------
+Layout - content
+---------------------------------------------------*/
+.entry-header{
+	background:url(http://livedoor.blogimg.jp/sonic_channel/imgs/8/f/8f24efe5.gif) no-repeat center top #fff;
+
+	width:443px;
+	padding:20px 24px 6px 20px;
+}
+/* clear fix */
+.entry-header{
+	zoom:1;/*for IE 5.5-7*/
+}
+.entry-header:after{/*for modern browser*/
+	content:".";
+	display: block;
+	height:0px;
+	clear:both;
+	visibility:hidden;
+}
+
+.entry-header h2{
+	float:left;
+	width:343px;
+	text-align:left;
+
+	color:#000;
+	font-size:medium;
+	font-weight:bold;
+}
+.entry-header h3{
+	float:right;
+	
+	padding-top:0.3em;
+	width:100px;
+	text-align:right;
+}
+
+.entry{
+	background:url(http://livedoor.blogimg.jp/sonic_channel/imgs/3/5/35d1e389.gif) repeat-y center;
+	
+	width:487px;
+	margin:0 0 20px;
+}
+
+.entry-footer{
+	background:url(http://livedoor.blogimg.jp/sonic_channel/imgs/8/b/8b4eac46.gif) no-repeat center bottom;
+
+	padding:0.5em 14px 14px 20px;
+	
+	text-align:right;
+}
+/* clear fix */
+.entry-footer{
+	zoom:1;/*for IE 5.5-7*/
+}
+.entry-footer:after{/*for modern browser*/
+	content:".";
+	display: block;
+	height:0px;
+	clear:both;
+	visibility:hidden;
+}
+
+.entry-body{
+	padding:0 24px 0 23px;
+}
+
+.divhr{
+	background:url(http://livedoor.blogimg.jp/sonic_channel/imgs/d/b/dbe240ec.gif) no-repeat 12px top;
+	
+	width:487px;
+	height:26px;	
+}
+
+.main-continues{
+	display:block;
+	padding:1em 0 0 0;
+}
+.menu{
+	margin:0.5em 0 2em;
+	text-align:center;
+}
+
+.catmonth{
+	margin:0 0 0.5em 0;
+	padding-left:0.5em;
+	border-left:3px solid #000;
+
+	font-size:medium;
+	font-weight:bold;
+}
+
+
+/*---------------------------------------------------
+Layout - links
+---------------------------------------------------*/
+/*======plug-in*/
+.sidetitlebody{
+	background:url(http://livedoor.blogimg.jp/sonic_channel/imgs/c/5/c5ebb648.gif) no-repeat center top;
+	margin-top:1.5em;
+	padding-top:9px;
+	
+	width:182px;
+}
+
+.sidetitle{
+	background:url(http://livedoor.blogimg.jp/sonic_channel/imgs/d/6/d6ae14ec.gif) no-repeat center bottom;
+	padding:0 8px 9px 8px;
+	width:166px;
+	
+	font-size:98%;
+	font-weight:bold;
+}
+
+.side{
+	margin-bottom:1em;
+}
+
+.sidebody{
+	padding-left:0.3em;
+	font-size:85%;
+}
+
+.sidebody a,.sidebody a:link,.sidebody a:visited{
+	background:url(http://livedoor.blogimg.jp/sonic_channel/imgs/d/b/db530c86.gif) no-repeat 0 0.5em;
+	padding-left:0.4em;
+	text-decoration:none;
+	color:#535353;
+}
+
+.sidebody a:hover{
+	text-decoration:underline;
+	color:#8eb2f4;
+}
+
+.bnrsonicchannel{
+	margin-top:1em;
+	
+	width:182px;
+	text-align:center;
+}
+
+/*======calendar*/
+.calendarhead{
+	width:182px;
+	text-align:center;
+}
+
+.calendarhead a,.calendarhead a:link,.calendarhead a:visited{
+	text-decoration:underline;
+	color:#535353;
+}
+
+.calendarhead a:hover{
+	color:#8eb2f4;
+}
+
+.calendartable *{
+	font-size:98%;
+}
+
+.calendartable{
+	width:182px;
+}
+
+.caltblwk *{
+	font-weight:bold;
+}
+
+.sun,.sat{
+	color:#8eb2f4;
+}
+
+.caltblday tr td span a{
+	display:block;
+	padding:0.3em 0;
+	background:#f1f1f1;
+}
+
+
+/*---------------------------------------------------
+Layout - commenttrack
+---------------------------------------------------*/
+h3.title,.comments-head{
+	font-weight:bold;
+	margin:2em 0 1em 0;
+}
+
+.comments-post{
+color:#244fdd;
+}
+
+.comments-body{
+	border-bottom:1px dotted #000;
+	margin-bottom:0.5em;
+	padding-bottom:0.5em;
+}
+
+
+.trackback-url,.trackback-post,comments-post{
+	margin:0 0 1em 0;
+}
+
+.form{
+	margin:2em 0 1em 0;
+}
+
+#header2{
+ display:none;
+}
