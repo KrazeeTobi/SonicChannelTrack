@@ -1,0 +1,827 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=euc-jp">
+<title>L-Cruise - 日経トレンディネット</title>
+<meta http-equiv="X-UA-Compatible" content="IE=7">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<link rel="shortcut icon" href="/trendy.ico">
+<link rel="alternate" type="application/rss+xml" title="nikkei TRENDYnet L-Cruise RSS" href="http://trendy.nikkeibp.co.jp/rss/lcruise.rdf">
+<link href="/css/trendy/200810/top_index.css" rel="stylesheet" type="text/css">
+<script language='JavaScript'>
+(function(ca, fo, cu, ci, ex) {
+  if (navigator.userAgent.indexOf("iPhone") != -1) {
+    var d = location.hostname;
+    var n = new Date();
+    if (document.cookie.indexOf(cu+"=") == -1) {
+      var e = new Date(n.getTime()+1000*(604800 - (((((n.getDay()+6)%7)*24+n.getHours())*60+n.getMinutes())*60+n.getSeconds())));
+      document.cookie = cu+"=1"+";expires="+e.toGMTString()+";path=/;domain="+d;
+      document.write("<scri"+"pt language='JavaScript' src='http://web-jp.ad-v.jp/adam/detect?tag=scr&req=xo&cat="+ca+"&format=1x1'></scri"+"pt>");
+    }
+    if (document.cookie.indexOf(ci+"=") == -1) {
+      var e = new Date(n.getTime()+1000*ex);
+      document.cookie = ci+"=1"+";expires="+e.toGMTString()+";path=/;domain="+d;
+      document.write("<scri"+"pt language='JavaScript' src='http://web-jp.ad-v.jp/adam/detect?tag=scr&req=xo&cat="+ca+"&format="+fo+"'></scri"+"pt>");
+    }
+  }
+})("smp-net.nikkeibp.002", "int", "iphone_uniq", "iphone_freq", 28800);
+</script>
+
+<style>
+div.common_content { display: none; }
+</style>
+
+<!-- begin: welcome banner -->
+<script type="text/javascript" src="http://bizad.nikkeibp.co.jp/NBP_AD/trendynet/parts/trlc_wel_function.js" language="javascript"></script>
+
+<script type="text/javascript">
+<!--
+    var td = new Date();
+    var strDate = "" + td.getYear() + (td.getMonth() + 1) + td.getDate() + td.getHours() + td.getMinutes() + td.getSeconds();
+    document.write('<script type="text/javascript" src="http://bizad.nikkeibp.co.jp/NBP_AD/trendynet/parts/trlc_welcomedays.js?' + strDate + '" language="javascript"><\/scr'+'ipt>');
+-->
+</script>
+<script type="text/javascript">
+<!--
+if (navigator.userAgent.indexOf("iPhone") == -1 && welTrendyLcSD > 0) {
+    if (welTrendyLcED < 0) {
+        document.write('<script type="text/javascript" src="http://bizad.nikkeibp.co.jp/NBP_AD/trendynet/parts/trendylc_wel_cookies.js" language="javascript"><\/scr'+'ipt>');
+    }
+}
+-->
+</script>
+<!-- end: welcome banner -->
+
+<script type="text/javascript" src="/js/trendy/200904/lcruise-top_rotation.js"></script>
+</head>
+
+<body id="lc"><a name="page_top"></a>
+<!--googleoff:all-->
+<!-- Begin:Gobal Navi -->
+<div style="width: 1000px;">
+<div class="gnav-201004">
+<ul class="trendy">
+<li class="www"><a href="http://www.nikkeibp.co.jp/" title="nikkei BPnet :: 日経BPのビジネス情報ポータル">BPnet<span></span></a></li>
+<li class="business"><a href="http://business.nikkeibp.co.jp/" title="NBonline（日経ビジネスオンライン） :: ビジネスリーダーの羅針盤">ビジネス<span></span></a></li>
+<li class="pc"><a href="http://pc.nikkeibp.co.jp/" title="PConline（日経パソコン オンライン） :: 仕事に役立つパソコン総合情報">PC<span></span></a></li>
+<li class="itpro"><a href="http://itpro.nikkeibp.co.jp/" title="ITpro :: ITプロフェッショナルのための専門情報">IT<span></span></a></li>
+<li class="techon"><a href="http://techon.nikkeibp.co.jp/" title="Tech-On! :: 技術者を応援する総合情報サイト">テクノロジー<span></span></a></li>
+<li class="medical"><a href="http://medical.nikkeibp.co.jp/" title="日経メディカル オンライン :: 臨床医のための情報サイト">医療<span></span></a></li>
+<li class="kenplatz"><a href="http://kenplatz.nikkeibp.co.jp/" title="KEN-Platz（ケンプラッツ） :: 建設・不動産の総合情報サイト">建設・不動産<span></span></a></li>
+<li class="eco"><a href="http://eco.nikkeibp.co.jp/" title="ECO JAPAN（エコジャパン） :: 環境情報サイト">環境<span></span></a></li>
+<li class="trendy"><a href="http://trendy.nikkeibp.co.jp/" title="nikkei TRENDYnet :: トレンドウォッチ ポータル">TRENDYnet<span></span></a></li>
+<li class="wol"><a href="http://wol.nikkeibp.co.jp/" title="日経ウーマンオンライン :: はたらくわたし、きれいなわたし">働く女性<span></span></a></li>
+<li class="nng"><a href="http://nng.nikkeibp.co.jp/" title="NATIONAL GEOGRAPHIC :: 地球の素顔をビジュアルに伝える">自然と動物<span></span></a></li>
+<li class="career"><a href="http://career.nikkei.co.jp/" title="日経キャリアNET :: 質の高い転職・求人情報">転職<span></span></a></li>
+</ul>
+</div>
+</div>
+<!-- End:Grobal Navi -->
+
+<!-- Begin:Header -->
+<div id="header">
+<div id="h_logo">
+<div><a href="/lc/" title="L-Cruise トップに戻る"><img src="/images/trendy/200810/theme/lc/header_logo_lc_0810.gif" width="215" height="107"></a></div>
+</div>
+
+<!-- AD is undefined -->
+
+</div>
+<!-- End:Header -->
+
+<!-- Begin:New Local Navi -->
+<div class="lnavi" id="lc">
+<!-- Begin:New Local Navi 01 -->
+<ul class="ln_tabs">
+<li><a href="/">トップ</a></li>
+<li><a href="/life/">ライフ</a></li>
+<li><a href="/digital/">デジタル</a></li>
+<li><a href="/ent/">エンタ</a></li>
+<li><a href="/buyers/">バイヤーズ</a></li>
+<li><a href="http://trendy.nikkeibp.co.jp/lc/">L-Cruise</a></li>
+<li><a href="http://eco.nikkeibp.co.jp/ecolife/">ECO JAPAN</a></li>
+</ul>
+<!-- End:New Local Navi 01 -->
+
+<!-- Begin:New Local Navi 02 -->
+<ul class="ln_ch" id="lcch">
+<!-- li class="chtitle">L-Cruise CHANNELS</li -->
+<li id="lc"><a href="/lc/cover/">特集</a></li>
+<li id="lc"><a href="/lc/trend/">トレンド</a></li>
+<li id="lc"><a href="/lc/lg/">ガジェット</a></li>
+<li id="lc"><a href="/lc/fashion/">ファッション</a></li>
+<li id="lc"><a href="/lc/car/">クルマ</a></li>
+<li id="lc"><a href="/lc/gourmet/">グルメ</a></li>
+<li id="lc"><a href="/lc/life/">ライフ</a></li>
+<!-- li id="lc"><a href="/lc/trip/">トラベル</a></li -->
+<li><a href="http://shop.trendy.nikkeibp.co.jp/">価格情報</a></li>
+<li><a href="http://shop.nikkeibp.co.jp/">価格比較</a></li>
+</ul>
+<!-- End:New Local Navi 02 -->
+
+<!-- Begin:New Local Navi 03 -->
+<ul class="ln_links">
+<li class="links_title">SPECIAL CHANNEL</li>
+<li><a href="/off/online/">日経おとなのOFF</a></li>
+<li><a href="http://blog.nikkeibp.co.jp/arena/ipod/">iPod情報局</a></li>
+<li><a href="/digital/specialsite/iphone2008/">iPhone</a></li>
+<li><a href="http://trendy.zorg.com/group/trendy/" target="_blank">画像投稿</a></li>
+<li><a href="http://twitter.com/nikkei_trendy" target="_blank">日経TRENDY on twitter</a></li>
+<li><a href="/podcast/" target="_top">Podcast</a></li>
+
+<li class="right" id="ln_rss"><a href="/rss/trendy.rdf">RSS</a></li>
+<li class="right"><a href="/tools/rss/">配信中のRSS</a></li>
+<li class="right" id="ln_mail"><a href="/tools/">メルマガ登録</a></li>
+</ul>
+<!-- End:New Local Navi 03 -->
+</div>
+<!-- End:New Local Navi -->
+
+<div class="common_content">
+<!-- Begin:ヒットの芽 -->
+<div class="hit0903_hr">
+<div class="hit_org">
+<h2>ヒットの芽</h2>
+	<p><a href="/article/hit/20100617/1032130/">アニメの“聖地”を100カ所網羅したガイド本</a></p>
+</div><!-- /hit_org -->
+
+<div class="hit_plus">
+<iframe width="285" height="15" marginwidth="0" marginheight="0" hspace="0" vspace="0" frameborder="0" scrolling="no" bordercolor="#000000" src="http://bizad.nikkeibp.co.jp/NBP_AD/trendynet/ad_hitplus2.shtml"></iframe>
+</div>
+</div>
+<!-- End:ヒットの芽 -->
+
+
+<!-- Begin:検索 -->
+<div class="search">
+<h2>SEARCH</h2>
+<form method="post" action="http://bizboard.nikkeibp.co.jp/b_servlet/OnlineSearchServlet">
+<input type="hidden" name="j_encoding" value="EUC-JP">
+<input name="SEARCH_KEYWORD" type="text" class="search_txt" size="16"><input type="submit" value="検　索" class="search_btn">
+<input type="hidden" value="(@kind==13&@writemediaid==500)" name="ONLINE_MEDIANEW_2_1">
+</form>
+</div>
+<!-- End:検索 -->
+
+</div>
+<!--googleon:all-->
+
+
+<!-- Begin:Contents Area -->
+<div id="content">
+
+<!-- Begin:Top Area -->
+<div id="top_main">
+	<div id="flashcontent">
+	<script type="text/javascript">
+		var so = new SWFObject("/topflash/lctop/lc_cover.swf", "lc_cover", "1000", "300", "8", "#000000");
+		so.write("flashcontent");
+	</script>
+	</div>
+
+
+</div>
+<!-- End:Top Area -->
+
+<!-- Begin:Main Area -->
+<div id="main">
+
+<!-- begin:Content Top -->
+<div id="lctop" class="top_content">
+
+<!-- begin:feature -->
+<!-- interest_match_relevant_zone_start -->
+<div class="feature">
+<h2>feature</h2>
+<!-- Bigin:advertising1 -->
+
+
+<!---->
+<div class="adv_f"><img src="/trendyimgs/top/lcruise/2009/others/lc_100531.jpg" alt=""></div>
+
+
+<!--横2つならび
+<div class="adv_f"><a href="/article/lcc/20100311/1031216/"><img src="/trendyimgs/top/lcruise/2009/others/1031216_s.jpg" alt=""></a><a href="/article/lcc/20100421/1031570/"><img src="/trendyimgs/top/lcruise/2009/others/1031570_s.jpg" alt=""></a></div>
+-->
+
+
+
+
+<!-- End:advertising1 -->
+
+<ul>
+<li id="trend">
+<p class="bn"><a href="/lc/trend/">記事一覧へ</a></p>
+<!-- EXCLUDE_ID="1031875" -->
+<a href="/article/lcc/20100524/1031875/"><img src="/trendyimgs/top/lcruise/2009/feature/trend/1031875.jpg" alt=""></a>
+<p><a href="/article/lcc/20090327/1025013/">オフシネマ</a></p><p class="sub"><a href="/article/lcc/20100527/1031922/">告白</a>（05/27）</p>
+<p><a href="/article/lcc/20090327/1024999/">World Trend Watch</a></p><p class="sub"><a href="/article/lcc/20100524/1031897/">第134回 工場跡地からトレン…</a>（05/26）</p>
+</li>
+
+
+<li id="gadget">
+<p class="bn"><a href="/lc/lg/">記事一覧へ</a></p>
+
+<!-- EXCLUDE_ID="1031758" -->
+<a href="/article/lcc/20100512/1031758/"><img src="/trendyimgs/top/lcruise/2009/feature/lg/1031758.jpg" alt=""></a>
+
+<p><a href="/article/lcc/20100318/1031271/">Design Topics</a></p><p class="sub"><a href="/article/lcc/20100518/1031809/">進化するシャープ携帯電話の新ユーザー…</a>（05/25）</p>
+
+<p><a href="/article/lcc/20100318/1031271/">Design Topics</a></p><p class="sub"><a href="/article/lcc/20100412/1031485/">ダイソンの革新的モノ作り！</a>（04/28）</p>
+
+</li>
+
+<li id="fashion">
+<p class="bn"><a href="/lc/fashion/">記事一覧へ</a></p>
+
+<!-- EXCLUDE_ID="1031322" -->
+<a href="/article/lcc/20100521/1031850/"><img src="/trendyimgs/top/lcruise/2009/feature/fashion/1031850.jpg" alt=""></a>
+
+
+<p><a href="/article/lcc/20090327/1025035/">旬のファッショントレンド</a></p><p class="sub"><a href="/article/lcc/20090715/1027745/">夏のカジュアルは帽子で遊ぶ</a>（05/13）</p>
+
+<p><a href="/article/lcc/20090327/1025035/">旬のファッショントレンド</a></p><p class="sub"><a href="/article/lcc/20090611/1026912/">梅雨を快適に過ごせるアイテム</a>（06/11）</p>
+
+</li>
+
+<li id="car">
+<p class="bn"><a href="/lc/car/">記事一覧へ</a></p>
+<!-- EXCLUDE_ID="1031580" -->
+<a href="/article/lcc/20100422/1031580/"><img src="/trendyimgs/top/lcruise/2009/feature/car/1031580.jpg" alt=""></a>
+
+<p><a href="/article/lcc/20090327/1025006/">人とクルマの良い関係（清水和夫）</a></p><p class="sub"><a href="/article/lcc/20100415/1031522/">クリーンディーゼルかハイブリッドか！</a>（04/27）</p>
+
+<p><a href="/article/lcc/20090327/1025003/">小沢コージのビューティフルカー</a></p><p class="sub"><a href="/article/lcc/20100407/1031450/">BMW5シリーズ</a>（04/08）</p>
+
+</li>
+
+<li id="gourme">
+<p class="bn"><a href="/lc/gourmet/">記事一覧へ</a></p>
+<!-- EXCLUDE_ID="1031596" -->
+<a href="/article/lcc/20100513/1031766/"><img src="/trendyimgs/top/lcruise/2009/feature/gourmet/1031766.jpg" alt=""></a>
+<p><a href="/article/lcc/20090327/1025017/">記者が選んだこの１店</a></p><p class="sub"><a href="/article/lcc/20100506/1031696/">若者の来店を制限！ プチリッチ感が人気…</a>（05/10）</p>
+<p><a href="/article/lcc/20090327/1025017/">記者が選んだこの１店</a></p><p class="sub"><a href="/article/lcc/20100423/1031596/">イケメン接客係がお出迎え！…</a>（04/26）</p>
+</li>
+
+
+<li id="life">
+<p class="bn"><a href="/lc/life/">記事一覧へ</a></p>
+<!-- EXCLUDE_ID="1031948" -->
+<a href="/article/lcc/20100528/1031948/"><img src="/trendyimgs/top/lcruise/2009/feature/life/1031948.jpg" alt=""></a>
+<p><a href="/article/lcc/20090327/1025040/">富士丸探検隊</a></p><p class="sub"><a href="/article/lcc/20100526/1031917/">犬を飼う前に知ってもらいたいこ…</a>（05/28）</p>
+<p><a href="/article/lcc/20090327/1025008/">元プレジデント編集長の田舎暮らし奮闘記</a></p><p class="sub"><a href="/article/lcc/20100526/1031909/">第255回 田舎暮らしは素敵だ！</a>（05/27）</p>
+</li>
+
+</ul>
+</div>
+<!-- interest_match_relevant_zone_end -->
+<!-- end:feature -->
+
+<!-- Bigin:advertising2 -->
+
+
+<!--
+-->
+
+<div class="adv"><a href="/article/lcc/20091014/1029606/"><img src="/trendyimgs/top/lcruise/2009/others/1029606.jpg" alt=""></a></div>
+
+<div class="adv"><a href="/article/lcc/20100114/1030786/"><img src="/trendyimgs/top/lcruise/2009/others/1030786_2.jpg" alt=""></a></div>
+
+
+
+
+<!--
+<div class="adv"><a href="/article/lcc/20100114/1030786/"><img src="/trendyimgs/top/lcruise/2009/others/1030786_s.jpg" alt=""></a><a href="/article/lcc/20100218/1031040/"><img src="/trendyimgs/top/lcruise/2009/others/1031040_s.jpg" alt=""></a></div>
+-->
+
+
+<!-- End:advertising2 -->
+
+
+<script type="text/javascript">
+// Yahoo!インタレストマッチからの戻り値を整形して出力するための関数
+function generateYahooOverture(A, B, C) {
+    if (A.length < 7) return;
+    if (!B || isNaN(B)) B = 0;
+    if (!C || isNaN(C)) C = A.length;
+
+    var output = '';
+    var i = 6 + B;
+    while (i<A.length) {
+        var A1 = A[i++]; // 説明文
+        var A2 = A[i++]; // 未使用項目1
+        var A3 = A[i++]; // リンクURL
+        var A4 = A[i++]; // タイトル
+        var A5 = A[i++]; // 表示URL
+        var A6 = A[i++]; // 未使用項目2
+        if (!A1 || !A3 || !A4 || !A5) continue;
+
+        output = output +'<li><a href="' +A3 +'" target="_blank"><h4>';
+        output = output +A4 +'<span class="yim_url">' +A5 +'</span></h4>';
+        output = output +'<p>' +A1 +'</p></a></li>';
+        if (i > C) break;
+    }
+
+    if (output) {
+        document.write('<div class="yad_imatch"><h2>おすすめリンク</h2>');
+        if (B == 0) document.write('<div id="jsYahooHotSpotMain1"></div>');
+        document.write('<ul class="yim_links">' +output +'</ul>');
+        document.write('<p class="yim_footer">インタレストマッチ - <a href="http://listing.yahoo.co.jp/service/int/index.html?o=IM0028" target="_blank">広告について</a></p></div>');
+    }
+}
+
+// Yahoo!インタレストマッチに問い合わせ
+if (!zSr) {
+    var zSr     = new Array();
+    var ctxtId  = 'lc_cover';
+    var ctxtUrl = (location.href).replace(/(?:index[.]html?|[?][^P]).*$/, '');
+    var query   = 'http://im.ov.yahoo.co.jp/js_flat/?source=nikkeibp_jp_trendy_im&ctxtId=' +ctxtId +'&ctxtUrl=' +encodeURIComponent(ctxtUrl) +'&outputCharEnc=euc-jp&maxCount=6';
+    document.write('<script type="text/javascript" src="' +query +'"><\/script>');
+}
+</script>
+<script type="text/javascript">generateYahooOverture(zSr, 0, 18);</script>
+
+
+<!-- Bigin:RECOMMEND -->
+<div class="recommend">
+<h2>RECOMMEND</h2>
+<ul>
+<!-- 1 -->
+<li><a href="/article/lcc/20090327/1025043/"><img src="/trendyimgs/top/lcruise/2009/recommend/tsurumi.jpg" alt=""><p>鶴見辰吾の自転車道</p></a></li>
+<!-- 2 -->
+<li><a href="/article/lcc/20090327/1025044/"><img src="/trendyimgs/top/lcruise/2009/recommend/mako.jpg" alt=""><p>まこのカルチャークラブ</p></a></li>
+<!-- 3 -->
+<li><a href="/article/lcc/20090327/1025040/"><img src="/trendyimgs/top/lcruise/2009/recommend/fujimaru.jpg" alt=""><p>富士丸探検隊</p></a></li>
+<!-- 4 -->
+<li><a href="/article/lcc/20090327/1025018/"><img src="/trendyimgs/top/lcruise/2009/recommend/risa.jpg" alt=""><p>リサのワンダフルスポーツ</p></a></li>
+</ul>
+</div>
+<!-- end:RECOMMEND -->
+
+
+<!-- Bigin:Pick Up -->
+<div class="rn_pickup">
+<h2>PICK UP</h2>
+<ul>
+
+<!-- Begin:01 -->
+<li>
+<a href="/article/lcc/20100526/1031909/"><img alt="" src="/trendyimgs/top/smallicon/1031909.jpg" /></a>
+<p><a href="/article/lcc/20090327/1025008/">元編集長の田舎暮らし</a></p>
+<p class="sub"><a href="/article/lcc/20100526/1031909/">田舎暮らしは素敵だ！</a></p>
+</li>
+<!-- End:01 -->
+
+<!-- Begin:02 -->
+<li>
+<a href="/article/lcc/20100526/1031915/"><img alt="" src="/trendyimgs/top/smallicon/1031915.jpg" /></a>
+<p><a href="/article/lcc/20090327/1025018/">リサのワンダフルスポーツ</a></p>
+<p class="sub"><a href="/article/lcc/20100526/1031915/">環境の変化</a></p>
+</li>
+<!-- End:02 -->
+
+<!-- Begin:03 -->
+<li>
+<a href="/article/lcc/20100528/1031948/"><img alt="" src="/trendyimgs/top/smallicon/1031948.jpg" /></a>
+<p><a href="/article/lcc/20090327/1025040/">富士丸探検隊</a></p>
+<p class="sub"><a href="/article/lcc/20100528/1031948/">富士丸な日々</a></p>
+</li>
+<!-- End:03 -->
+
+<!-- Begin:04 -->
+<li>
+<a href="/article/lcc/20100415/1031522/"><img alt="" src="/trendyimgs/top/smallicon/1031522.jpg" /></a>
+<p><a href="/article/lcc/20090327/1025006/">人とクルマと地球の良い関係</a></p>
+<p class="sub"><a href="/article/lcc/20100415/1031522/">クリーンディーゼルかハイブリッドか！</a></p>
+</li>
+<!-- End:04 -->
+
+<!-- Begin:05 -->
+<li>
+<a href="/article/lcc/20100513/1031766/"><img alt="" src="/trendyimgs/top/smallicon/1031766.jpg" /></a>
+<p><a href="/article/lcc/20090327/1025017/">記者が選んだこの１店</a></p>
+<p class="sub"><a href="/article/lcc/20100513/1031766/">インターネットのみの受け付けで予約確実</a></p>
+</li>
+<!-- End:05 -->
+
+<!-- Begin:06 -->
+<li>
+<a href="/article/lcc/20100426/1031618/"><img alt="" src="/trendyimgs/top/smallicon/1025010.jpg" /></a>
+<p><a href="/article/lcc/20090327/1025010/">住宅マネープラン</a></p>
+<p class="sub"><a href="/article/lcc/20100426/1031618/">負担増やさず返済乗り切れるか 金融円滑化法で見直す...</a></p>
+</li>
+<!-- End:06 -->
+
+</ul>
+</div>
+<!-- End:Pick Up -->
+
+
+
+</div>
+<!-- end:Content Top -->
+
+</div>
+<!-- End:Main Area -->
+
+<!-- Begin:Right Area -->
+<div id="rightarea">
+<!-- begin: rectangle 1 : common -->
+<div class="ad_rectangle">
+<iframe width="300" height="300" marginwidth="0" marginheight="0" hspace="0" vspace="0" frameborder="0" scrolling="no" bordercolor="#000000" src="http://bizad.nikkeibp.co.jp/html.ng/tocode=eucJP&spacedesc=trendy_lc_large_rectangle01&site=TRENDYnet">
+<comment>
+<script language="javascript1.1" src="http://bizad.nikkeibp.co.jp/js.ng/params.richmedia=yes&tocode=eucJP&spacedesc=trendy_lc_large_rectangle01&site=TRENDYnet&">
+</script>
+</comment>
+<noscript>
+<a href="http://bizad.nikkeibp.co.jp/click.ng/params.richmedia=yes&tocode=eucJP&spacedesc=trendy_lc_large_rectangle01&site=TRENDYnet" target="_blank">
+<img src="http://bizad.nikkeibp.co.jp/image.ng/params.richmedia=yes&tocode=eucJP&spacedesc=trendy_lc_large_rectangle01&site=TRENDYnet" border="0"></a>
+</noscript>
+</iframe>
+</div>
+<!-- end: rectangle 1 : common -->
+
+
+
+
+<div id="jsYahooHotSpotSide1"></div>
+
+
+<!-- Begin:検索 -->
+<div class="lcsearch">
+<h2>検索</h2>
+<form method="post" action="http://bizboard.nikkeibp.co.jp/b_servlet/OnlineSearchServlet">
+<input type="hidden" name="j_encoding" value="EUC-JP">
+<input name="SEARCH_KEYWORD" type="text" class="search_txt" size="16"><input type="submit" value="検　索" class="search_btn">
+<input type="hidden" value="(@kind==13&@writemediaid==500)" name="ONLINE_MEDIANEW_2_1">
+</form>
+</div>
+<!-- End:検索 -->
+
+<!-- begin: rectangle 2 : common -->
+<div class="ad_rectangle">
+<iframe width="300" height="300" marginwidth="0" marginheight="0" hspace="0" vspace="0" frameborder="0" scrolling="no" bordercolor="#000000" src="http://bizad.nikkeibp.co.jp/html.ng/tocode=eucJP&spacedesc=trendy_lc_large_rectangle02&site=TRENDYnet">
+<comment>
+<script language="javascript1.1" src="http://bizad.nikkeibp.co.jp/js.ng/params.richmedia=yes&tocode=eucJP&spacedesc=trendy_lc_large_rectangle02&site=TRENDYnet&">
+</script>
+</comment>
+<noscript>
+<a href="http://bizad.nikkeibp.co.jp/click.ng/params.richmedia=yes&tocode=eucJP&spacedesc=trendy_lc_large_rectangle02&site=TRENDYnet" target="_blank">
+<img src="http://bizad.nikkeibp.co.jp/image.ng/params.richmedia=yes&tocode=eucJP&spacedesc=trendy_lc_large_rectangle02&site=TRENDYnet" border="0"></a>
+</noscript>
+</iframe>
+</div>
+<!-- end: rectangle 2 : common -->
+
+
+
+<!-- begin: Weekly Wallpaper -->
+<div class="wallpaper">
+
+<h2><a href="http://nng.nikkeibp.co.jp/nng/" target="_blank">Weekly Wallpaper by NATIONAL GEOGRAPHIC</a></h2>
+
+<p class="wwimg"><a href="http://nng.nikkeibp.co.jp/nng/wallpaper/2010.shtml" target="_blank"><img src="/trendyimgs/top/lcruise/2009/others/nng_wp_100323.jpg"></a></p>
+
+<div class="wwtitle"><p><a href="http://nng.nikkeibp.co.jp/nng/wallpaper/2010.shtml" target="_blank">活力に満ちた街</a></p>
+</div>
+
+<p class="footer">こちらより壁紙がダウンロードできます。</p>
+</div>
+<!-- end: Weekly Wallpaper -->
+
+
+<!-- START SiteCensus V5.3 -->
+<script type="text/javascript">
+    var _rsCI="nikkeibp";
+    var _rsCG="lc10-all";
+    var _rsDN="//secure-jp.imrworldwide.com/";
+    var _rsIP=1;
+</script>
+<script type="text/javascript" src="//secure-jp.imrworldwide.com/v53.js"></script>
+<noscript>
+<div><img src="//secure-jp.imrworldwide.com/cgi-bin/m?ci=nikkeibp&amp;cg=lc10-all&cc=1" style="display:none" alt=""></div>
+</noscript>
+<!-- END SiteCensus V5.3 -->
+
+
+</div>
+<!-- End:Right Area -->
+
+<!-- begin:Under Area -->
+<div id="under">
+<!-- Begin:INVITATION -->
+<div class="rn_invitation">
+<h2><a href="/lc/trend/#invitation">INVITATION 記事一覧へ</a></h2>
+
+<!-- Begin:INVITATION - Main Images -->
+<div class="ivt_main">
+<a href="http://trendy.nikkeibp.co.jp/lc/ts/comfort/"><img src="/trendyimgs/top/lcruise/2009/invitation/1031553.jpg" alt=""></a>
+</div>
+<!-- End:INVITATION - Main Images -->
+
+<!-- Begin:INVITATION - Main Links -->
+<div class="ivt_sub">
+<h5><a href="http://trendy.nikkeibp.co.jp/lc/ts/comfort/">快適空間　都心で憩う。</a></h5>
+<h4><a href="http://trendy.nikkeibp.co.jp/lc/ts/comfort/">女優　川原亜矢子</a></h4>
+
+<p class="inv_txt">女優、モデル、キャスターなど多彩な顔を持つ川原亜矢子さんは、ゴールデンレトリバーの「ソレイユ」たちと都心のマンションで仲良く暮らしている。その楽しい日々や住まいのこだわりについて、じっくりお話を伺った。<br>
+（インタビュー・文＝高島三幸　写真＝厚地健太郎）</p>
+<!-- End:INVITATION - Main Links -->
+
+
+<!-- Begin:INVITATION - Backnumber -->
+<h4 id="inv_bn">Backnumber</h4>
+<ul>
+
+<!-- Begin:INVITATION - BN01 -->
+<li>
+<a href="/article/lcc/20090916/1028827/"><img src="/trendyimgs/top/smallicon/1028827.jpg" alt="" border="0"></a>
+<p><a href="/article/lcc/20090916/1028827/">北大路欣也</a></p>
+</li>
+<!-- End:INVITATION - BN01 -->
+
+<!-- Begin:INVITATION - BN02 -->
+<li>
+<a href="/article/lcc/20090827/1028447/"><img src="/trendyimgs/top/smallicon/1028447.jpg" alt="" border="0"></a>
+<p><a href="/article/lcc/20090827/1028447/">西原理恵子</a></p>
+</li>
+<!-- End:INVITATION - BN02 -->
+
+<!-- Begin:INVITATION - BN03 -->
+<li>
+<a href="/article/lcc/20090630/1027457/"><img src="/trendyimgs/top/smallicon/1027457.jpg" alt="" border="0"></a>
+<p><a href="/article/lcc/20090630/1027457/">玉木宏</a></p>
+</li>
+<!-- End:INVITATION - BN03 -->
+
+<!-- Begin:INVITATION - BN04 -->
+<li>
+<a href="/article/lcc/20090428/1025829/"><img src="/trendyimgs/top/smallicon/1025829.jpg" alt="" border="0"></a>
+<p><a href="/article/lcc/20090428/1025829/">紀里谷和明</a></p>
+</li>
+<!-- End:INVITATION - BN04 -->
+
+<!-- Begin:INVITATION - BN05 -->
+<li>
+<a href="/lc/passion/090319_meisa/"><img src="/trendyimgs/top/smallicon/090319_meisa.jpg" alt="" border="0"></a>
+<p><a href="/lc/passion/090319_meisa/">黒木メイサ</a></p>
+</li>
+<!-- End:INVITATION - BN05 -->
+
+<!-- Begin:INVITATION - BN06 -->
+<li>
+<a href="/lc/passion/090302_binoche/"><img src="/trendyimgs/top/smallicon/090302_binoche.jpg" alt="" border="0"></a>
+<p><a href="/lc/passion/090302_binoche/">ジュリエット・ビノシュ</a></p>
+</li>
+<!-- End:INVITATION - BN06 -->
+
+</ul>
+</div>
+<!-- End:INVITATION - Backnumber -->
+
+</div>
+<!-- End:INVITATION -->
+
+
+<!-- Begin:World Trend -->
+<div class="rn_worldtrd">
+<h2><a href="/article/lcc/20090327/1024999/">WORLD TREND 〜世界を知る〜 記事一覧へ</a></h2>
+<ul>
+
+<!-- Begin:WT-London -->
+<li class="london">
+<a href="/article/lcc/20100510/1031736/"><img src="/trendyimgs/top/lcruise/2009/worldtrend/1031736.jpg" alt=""></a>
+<p><a href="/article/lcc/20100510/1031736/">ファン魅了するロンドン・マラソン</a></p>
+</li>
+<!-- End:WT-London -->
+
+<!-- Begin:WT-Washington DC -->
+<li class="washington">
+<a href="/article/lcc/20100420/1031554/"><img src="/trendyimgs/top/lcruise/2009/worldtrend/1031554.jpg" alt=""></a>
+<p><a href="/article/lcc/20100420/1031554/">トムズ・シューズ社「裸足で過ごす1日」</a></p>
+</li>
+<!-- End:WT-Washington DC -->
+
+<!-- Begin:WT-TOKYO -->
+<li class="tokyo">
+<a href="/article/lcc/20100406/1031434/"><img src="/trendyimgs/top/lcruise/2009/worldtrend/1031434.jpg" alt=""></a>
+<p><a href="/article/lcc/20100406/1031434/">東京の朝型ライフスタイルは千駄ヶ谷から変わるのか!?</a></p>
+</li>
+<!-- End:WT-TOKYO -->
+
+<!-- Begin:WT-Zurich -->
+<li class="zuruch">
+<a href="/article/lcc/20100524/1031897/"><img src="/trendyimgs/top/lcruise/2009/worldtrend/1031897.jpg" alt=""></a>
+<p><a href="/article/lcc/20100524/1031897/">工場跡地からトレンドエリアに！ 再開発が進む“クライス５”</a></p>
+</li>
+<!-- End:WT-Zurich -->
+
+</ul>
+</div>
+<!-- End:World Trend -->
+
+
+
+
+
+<!-- Begin:PHOTO REPORT 〜フォトレポート〜 -->
+<div class="photo">
+<h2><a href="/article/lcc/20090327/1024998/">PHOTO REPORT 〜フォトレポート〜 記事一覧へ</a></h2>
+<ul>
+
+<li><a href="/article/lcc/20100524/1031875/"><img src="/trendyimgs/top/lcruise/2009/photoreport/1031875.jpg" alt="" border="0"></a>
+<h4><a href="/article/lcc/20100524/1031875/">ケータイ夏モデル商戦は<br>新iPhone次第？</a></h4>
+<p>携帯電話各社から夏モデルがいっせいに発表。「スマートフォン」がキーワードに。（05/24）</p>
+</li>
+
+<li><a href="/article/lcc/20100510/1031733/"><img src="/trendyimgs/top/lcruise/2009/photoreport/1031733.jpg" alt="" border="0"></a>
+<h4><a href="/article/lcc/20100510/1031733/">iPad、ついに日本上陸！</a></h4>
+<p>5月10日、ウェブサイトや販売店で予約が開始されたiPadの使用感、お薦めモデルをレポート。（05/10）</p>
+</li>
+
+</ul>
+</div>
+<!-- End:PHOTO REPORT 〜フォトレポート〜 -->
+
+
+<!-- Begin:OFF CINEMA 〜オフシネマ〜 -->
+<div class="offcinema">
+<h2><a href="/article/lcc/20090327/1025013/">OFF CINEMA 〜オフシネマ〜 記事一覧へ</a></h2>
+<ul>
+
+<li><a href="/article/lcc/20100527/1031922/"><img src="/trendyimgs/top/lcruise/2009/offcinema/1031922.jpg" alt="" border="0"></a>
+<h4><a href="/article/lcc/20100527/1031922/">告白</a></h4>
+<p>2009年の本屋大賞に輝いたベストセラー小説「告白」。湊かなえ原作のこの衝撃作が、松たか子主演、中島哲也監督により映画化された。（05/27）</p>
+</li>
+
+<li><a href="/article/lcc/20100520/1031837/"><img src="/trendyimgs/top/lcruise/2009/offcinema/1031837.jpg" alt="" border="0"></a>
+<h4><a href="/article/lcc/20100520/1031837/">春との旅</a></h4>
+<p>名優・仲代達矢が「自分の長い役者人生のなかでも、5本の指に入る」と絶賛するほどに脚本に惚れ込み、9年ぶりに主演した映画が『春との旅』だ。（05/20）</p>
+</li>
+
+</ul>
+</div>
+<!-- End:OFF CINEMA 〜オフシネマ〜 -->
+
+
+
+<!-- Begin:Back Story -->
+<div class="rn_backstory">
+<h2><a href="/lc/cover/">BACK STORY 〜話題の特集〜</a></h2>
+<ul>
+
+<!-- Begin:BS01 -->
+<li>
+<a href="/lc/cover/090311_digicam/"><img src="/trendyimgs/top/lcruise/2009/cover/090311_digicam.jpg" alt="" border="0"></a>
+
+<div class="title">
+<h4><a href="/lc/cover/090311_digicam/">レンズを楽しむ「一眼デジカメ」<br>〜フルサイズで昔の味もいまよみがえる！</a></h4>
+<p>ニコンD3x、D700、EOS5D Mark II、ソニーα900などフルサイズデジタル一眼レフで多様なレンズを楽しむ。</p>
+</div>
+</li>
+<!-- End:BS01 -->
+
+<!-- Begin:BS02 -->
+<li>
+<a href="/lc/cover/090408_jitensha/"><img src="/trendyimgs/top/lcruise/2009/cover/090408_jitensha.jpg" alt="" border="0"></a>
+
+<div class="title">
+<h4><a href="/lc/cover/090408_jitensha/">街に！フィールドに！出かけよう<br>この春デビュー！自転車ライフ</a></h4>
+<p>鶴見辰吾さんの新連載「鶴見辰吾の自転車道」スタートと同時に初心者から本格派までにお薦めの自転車特集！</p>
+</div>
+</li>
+<!-- End:BS02 -->
+
+</ul>
+<ul>
+
+<!-- Begin:BS03 -->
+<li>
+<a href="/lc/cover/090218_pet/"><img src="/trendyimgs/top/lcruise/2009/cover/090218_pet.jpg" alt="" border="0"></a>
+
+<div class="title">
+<h4><a href="/lc/cover/090218_pet/">人気ブログに学ぶ<br>ペットと暮らす快適生活</a></h4>
+<p>ワルテル、ソーラ、富士丸、はっちゃん、まこ、アメショっす！、柴犬のチコ…人気ブロガー大集合。</p>
+</div>
+</li>
+<!-- End:BS03 -->
+
+<!-- Begin:BS04 -->
+<li>
+<a href="/lc/cover2/080507_record/"><img src="/trendyimgs/top/lcruise/2009/cover/080507_record.jpg" alt="" border="0"></a>
+
+<div class="title">
+<h4><a href="/lc/cover2/080507_record/">上質な時間を愉しむ<br>魅惑のレコード</a></h4>
+<p>伝説のロック・アルバムがLPで発売されるなど、アナログレコードの人気が高まっている。ピーター・バラカンさんによるアナログレコードの魅力をお届けする。</p>
+</div>
+</li>
+<!-- End:BS04 -->
+
+</ul>
+<ul>
+
+<!-- Begin:BS05 -->
+<li>
+<a href="/lc/cover2/070704_paradise/"><img src="/trendyimgs/top/lcruise/2009/cover/070704_paradise.jpg" alt="" border="0"></a>
+
+<div class="title">
+<h4><a href="/lc/cover2/070704_paradise/">ひとつ上のリゾートへ<br>至福の「楽園」ホテル</a></h4>
+<p>たまには優雅に旅をしたい。そこで世界中の美しい風景を撮り続けている「楽園」写真家・三好和義さんに、お薦めのリゾート地、リゾートホテルを聞いた。</p>
+</div>
+</li>
+<!-- End:BS05 -->
+
+<!-- Begin:BS06 -->
+<li>
+<a href="/lc/cover/070322_oasis/"><img src="/trendyimgs/top/lcruise/2009/cover/070322_oasis.jpg" alt="" border="0"></a>
+<div class="title">
+<h4><a href="/lc/cover/070322_oasis/">小山薫堂プロデュース<br>男の手料理スタジアム</a></h4>
+
+<p>自他共に認める、食通の小山薫堂さん。放送作家という多忙な仕事の傍ら、ご自身で料理を作ることも多いという。小山さんに理想のキッチンについて聞いた。</p>
+</div>
+</li>
+<!-- End:BS06 -->
+
+</ul>
+</div>
+<!-- End:Back Story -->
+
+
+<!-- begin:Column -->
+<div class="column">
+<div class="title"><img src="/images/trendy/200810/theme/lc/lc_top_header_column.jpg" alt="Column"></div>
+<div class="recent"><p>最 新 記 事</p></div>
+<ul>
+<li><a href="/article/lcc/20100528/1031948/"><img src="/trendyimgs/top/smallicon/1031948.jpg" border="0" alt=""></a><p class="series">ライフ<p><p><a href="/article/lcc/20100528/1031948/">富士丸な日々</a>(05/31)</p></li>
+<li><a href="/article/lcc/20100526/1031917/"><img src="/trendyimgs/top/smallicon/1031917.jpg" border="0" alt=""></a><p class="series">ライフ<p><p><a href="/article/lcc/20100526/1031917/">犬を飼う前に知ってもらいたいこと（後編） 〜純血種を守る人の気持ち〜</a>(05/28)</p></li>
+<li><a href="/article/lcc/20100526/1031909/"><img src="/trendyimgs/top/smallicon/1031909.jpg" border="0" alt=""></a><p class="series">ライフ<p><p><a href="/article/lcc/20100526/1031909/">第255回 田舎暮らしは素敵だ！</a>(05/27)</p></li>
+<li><a href="/article/lcc/20100527/1031922/"><img src="/trendyimgs/top/smallicon/1031922.jpg" border="0" alt=""></a><p class="series">トレンド<p><p><a href="/article/lcc/20100527/1031922/">告白</a>(05/27)</p></li>
+<li><a href="/article/lcc/20100526/1031915/"><img src="/trendyimgs/top/smallicon/1031915.jpg" border="0" alt=""></a><p class="series">ライフ<p><p><a href="/article/lcc/20100526/1031915/">第130回　環境の変化</a>(05/27)</p></li>
+<li><a href="/article/lcs/20100525/1031903/"><img src="/trendyimgs/top/smallicon/1031903.jpg" border="0" alt=""></a><p class="series">特集<p><p><a href="/article/lcs/20100525/1031903/">ドイツ車トレンドから読み解く クルマの未来</a>(05/26)</p></li>
+<li><a href="/article/lcc/20100524/1031897/"><img src="/trendyimgs/top/smallicon/1031897.jpg" border="0" alt=""></a><p class="series">トレンド<p><p><a href="/article/lcc/20100524/1031897/">第134回 工場跡地からトレンドエリアに！ 再開発が進む“クライス５”</a>(05/26)</p></li>
+<li><a href="/article/lcc/20100525/1031906/"><img src="/trendyimgs/top/smallicon/1031906.jpg" border="0" alt=""></a><p class="series">ライフ<p><p><a href="/article/lcc/20100525/1031906/">犬を飼う前に知ってもらいたいこと（前編） 〜純血種を守る人の気持ち〜</a>(05/26)</p></li>
+</ul>
+</div>
+<!-- end:Column -->
+
+</div>
+<!-- end:Under Area -->
+
+<div id="jsCpcAd"></div>
+
+<!--googleoff:all-->
+<!-- begin:footer -->
+<p id="bpstore"><a href="http://bpstore.nikkeibp.co.jp/" target="_blank">日経BP社の書籍購入や雑誌の定期購読は、便利な<strong>日経BP書店</strong>で。オンラインで24時間承っています。</a></p>
+
+<div id="footer">
+<a id="logo" href="http://corporate.nikkeibp.co.jp/" title="日経BP社のご案内" target="_blank">日経BP社（企業情報サイト）</a>
+<ul>
+<li class="h"><strong>サービス</strong></li>
+<li><a href="/tools/">メールマガジン＆RSS</a></li>
+<li><a href="http://bpstore.nikkeibp.co.jp/QA/" target="_blank">よくあるご質問</a></li>
+<li><a href="https://bpcgi.nikkeibp.co.jp/form-cgi/formhtml.cgi?form=ask_bizmail/index.html" target="_blank">お問い合わせ</a></li>
+<li><a href="/sitemap/">サイトマップ</a></li>
+</ul>
+
+<ul>
+<li class="h"><strong>企業情報</strong></li>
+<li><a href="http://corporate.nikkeibp.co.jp/information/privacy/" target="_blank">個人情報保護方針/ネットにおける情報収集/個人情報の共同利用</a></li>
+<li><a href="http://corporate.nikkeibp.co.jp/information/copyright/" target="_blank">著作権・リンクについて</a></li>
+</ul>
+
+<ul style="margin-left:218px;">
+<li class="h"><a href="http://trendy.nikkeibp.co.jp/sitepolicy/">アクセス履歴の利用について</a></li>
+<li><a href="http://adweb.nikkeibp.co.jp/adweb/wad/ntn.html" target="_blank">広告ガイド</a></li>
+</ul>
+<p>&copy;2010 Nikkei Business Publications, Inc. All rights reserved.</p>
+</div>
+<!-- end:footer -->
+
+<script src="http://img.ak.impact-ad.jp/bta/b/IT.NIKKEIBP.js"></script>
+
+<!-- add: 2009.03.13, update: 2009.12.16 -->
+<script src="http://img.ll.impact-ad.jp/dc/bta/d/RSITRENDYNET.js"></script>
+<!--googleon:all-->
+
+<script type="text/javascript" src="/js/trendy/200810/loader.js"></script>
+<script type="text/javascript">
+$(function () {
+    callJSONFunction('/js/trendy/200810/json/banner.lcruise.js');
+    callJSONFunction('/js/trendy/200810/json/yahoo.hotspot.lcruise.js');
+    if ($('#jsCpcAd').length > 0) callJSONFunction('http://bizad.nikkeibp.co.jp/NBP_AD/multi/submarine_cpc.js');
+});
+    if (navigator.userAgent.indexOf('iPhone') != -1) {
+        var A = 'http://bizad.nikkeibp.co.jp/html.ng/tocode=eucJP&spacedesc=x_iphone_trendynet_counter&site=x_counter';
+        var e = document.createElement('div');
+        e.innerHTML = '<iframe width="1" height="1" marginwidth="0" marginheight="0" hspace="0" vspace="0" frameborder="0" scrolling="no" bordercolor="#000000" src="' +A +'"></iframe>';
+        document.body.appendChild(e);
+    }
+</script>
+
+</div>
+<!--End:Contents Area -->
+
+</body>
+</html>
+

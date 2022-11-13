@@ -1,0 +1,69 @@
+$(function() {
+    let tabs = $(".tabArea .tab li");
+    $(".tabArea .tab > li").on("click", function() {
+      $(".onsw").removeClass("onsw");
+      $(this).addClass("onsw");
+      const index = tabs.index(this);
+      $(".tabArea .contents > li").removeClass("onsw"); 
+      $(".tabArea .contents > li").eq(index).addClass("onsw"); 
+      $("html,body").animate({scrollTop:$('#timetable').offset().top});
+    })
+  })
+
+
+
+  $(function(){
+
+    $('.programSliderA ul').slick({
+      autoplay: true, //自動でスクロール
+      autoplaySpeed: 0, //自動再生のスライド切り替えまでの時間を設定
+      speed: 2000, //スライドが流れる速度を設定
+      cssEase: "linear", //スライドの流れ方を等速に設定
+      slidesToShow: 4, //表示するスライドの数
+      swipe: false, // 操作による切り替えはさせない
+      arrows: false, //矢印非表示
+      pauseOnFocus: false, //スライダーをフォーカスした時にスライドを停止させるか
+      pauseOnHover: false, //スライダーにマウスホバーした時にスライドを停止させるか
+      responsive: [
+
+        {
+          breakpoint: 750,
+          settings: {
+            slidesToShow: 3, //画面幅750px以下でスライド3枚表示
+          }
+        }
+      ]
+    });
+    $(".programSliderB ul").slick({
+      autoplay: true, //自動でスクロール
+      autoplaySpeed: 0, //自動再生のスライド切り替えまでの時間を設定
+      speed: 2000, //スライドが流れる速度を設定
+      cssEase: "linear", //スライドの流れ方を等速に設定
+      slidesToShow: 6, //表示するスライドの数
+      swipe: false, // 操作による切り替えはさせない
+      arrows: false, //矢印非表示
+      pauseOnFocus: false, //スライダーをフォーカスした時にスライドを停止させるか
+      pauseOnHover: false, //スライダーにマウスホバーした時にスライドを停止させるか
+      rtl: true, //スライダーを左から右に流す（逆向き）
+      responsive: [
+        {
+          breakpoint: 750,
+          settings: {
+            slidesToShow: 3,
+          },
+        },
+      ],
+    });
+
+    function shuffleContent(container) {
+      var content = container.find("> li");
+      var total = content.length;
+      content.each(function() {
+        content.eq(Math.floor(Math.random() * total)).prependTo(container);
+      });
+    }
+    $(function() {
+      shuffleContent($(".mediaSliderA ul"));
+    });
+
+  });
