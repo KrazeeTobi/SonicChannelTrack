@@ -1,0 +1,220 @@
+@charset "UTF-8";
+
+#main{
+	background-image: url(../images/main_bg_fl.gif);
+	background-repeat: no-repeat;
+	width: 900px;
+	height: 355px;
+	margin-top: 2px;
+	*+html margin-top: 0;
+	_margin-top: 0px;
+
+}
+
+
+#contents{
+	background: url(../images/contents_bg.gif) repeat-y;
+	width: 900px;
+	 min-height: 543px;
+	
+}
+
+
+
+/********************************Column**********************************/
+
+
+
+#left{
+	float: left;
+	width: 475px;
+	height: 260px;
+	margin: 40px 0px 0px 75px;
+	_margin: 40px 0px 0px 35px;
+
+}
+#main #main_fla{
+	float: left;
+	width: 543px;
+	height: 336px;
+	margin: 0px 0px 0px 45px;
+	_margin: 0px 0px 0px 24px;
+	z-index: 1;!important
+}
+
+#main_image{
+	position: absolute;
+	top: 700px;
+	left: 100px;	
+}
+
+/***news***/
+
+#news_area{ 
+	width: 560px;
+	height: 500px;
+	float: left;
+	font-size: 12px;
+	overflow: hidden;
+	background: #FFFFFF;
+	display: block;
+	margin: 0 0 30px 40px;
+	_margin: 0 0 30px 20px;
+	}
+
+#news_area table{
+	margin: 10px 0 0 20px;
+	width: 560px;
+	text-align: left !important;
+}
+
+.topic{
+	background-image: url(../images/line.gif);
+	background-repeat: no-repeat;
+	background-position: bottom;
+	display: block;
+	padding: 0 14px 0 0;
+	height: 50px;
+}
+
+.date{
+
+	 width: 100px;
+	
+}
+
+#news_area .p{
+	
+}
+#news_area a{
+	
+	
+}
+
+
+.cap{
+	margin:5px 10px 0px 0px;
+	float: left;
+
+}
+.line{
+	margin-bottom: 10px;
+
+}
+
+/***bunner***/
+
+#bunner_area{
+
+	float: right;
+	width: 210px;
+	margin: 0px 50px 0px 0px;
+	_margin: 0px 20px 0px 0px; /**IE**/
+	font-size: 12px;
+
+}
+
+.bunners,#info{
+	margin: 8px 0px;
+	_margin: 1px 0px;
+	text-decoration: none;
+	border: none;
+	
+}
+
+
+
+#bunner_s{
+	float: right;
+	width: 200px;
+	height: 200px;
+	margin: 18px 77px 0px 0px;
+	_margin: 18px 38px 0px 0px;/**IE**/
+	color: #FFFFFF;
+}
+	
+
+/********************************Extra**********************************/
+
+.no_image{
+
+	border: #000000 1px solid;
+
+}
+
+/********************************5/9kousin**********************************/
+
+
+#bunner_area iframe{
+	border: none;
+	margin: 5px 0 0 0px;
+	_margin: 5px 20px 0 0px;
+}
+
+/********************************6/15kousin**********************************/
+
+
+#bunner_area #cofesta-logo{
+	margin: 5px 0 0 0;
+	}
+
+
+/******************************** MainFlash **********************************/
+
+#main_fla{
+	float: left;
+	width: 543px;
+	height: 336px;
+	margin: 0px 0px 0px 0px;
+	_margin: 0px 0px 0px 0px;
+	z-index: 1;!important
+}
+
+/******************************** atention **********************************/
+
+#atention_bg{
+
+	background: url(../images/at_bg.gif);
+	margin: 208px 0 0 0;
+	width: 560px;
+	 min-height: 280px;
+	 padding: 10px 0 0 0;
+
+}
+
+#atention{
+	background: url(../images/atention_bg.gif) no-repeat;
+	height: 29px;
+	width: 450px;
+	margin: 0px 0 0 45px;
+	padding: 5px 0 0 10px;
+	_padding: 7px 0 0 10px;
+	font-size: 12px;
+	color: #fed860;
+	font-weight: bold;
+	clear: both;
+}
+
+#atention img{
+	vertical-align: middle;
+	margin: 0 0 0 10px;
+}
+
+#atention p{
+	margin: 0 0 0 10px;
+	float: left;
+}
+
+#atention a{
+	color: #fed860;
+	text-decoration: none;
+}
+
+
+
+
+#contents #topicTitle{
+	background: url(../images/toipic.gif) no-repeat;
+	width: 900px;
+	height: 41px;
+}

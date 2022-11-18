@@ -1,0 +1,343 @@
+/*
+/////////////////////////////////////
+media/
+
+■会期中の取材について-------Line.191
+■ニュースリリース-----------Line.230
+/////////////////////////////////////
+*/
+
+table {
+	border-collapse:collapse;
+	font-size:12px;
+}
+
+/* 言語選択 */
+#Header .Language {
+	list-style:none;
+	height:10px;
+	margin:0px 9px 0px 0px;
+	padding:0px;
+}
+
+#Header .Language p {
+	display:block;
+	margin:0px 0px 10px 18px;
+	_margin:0px 0px 2px 18px;
+	padding:0px;
+	text-indent:-9999px;
+	float:right;
+}
+
+.Language p a {
+	display:block;
+	text-decoration:none;
+}
+
+.Language p.Japanese,
+.Language p.Japanese a {
+	width:41px;
+	height:10px;
+	background:url(../common/images/japanese.gif) no-repeat;
+}
+
+.Language p.English,
+.Language p.English a {
+	width:57px;
+	height:10px;
+	background:url(../common/images/english.gif) no-repeat;
+}
+
+/* ロゴエリア */
+#Header #LogoArea {
+	height:60px;
+	margin:0px 0px 9px;
+	padding:0px;
+	clear:both;
+}
+
+#LogoArea h1 {
+	width:243px;
+	height:52px;
+	margin:0px;
+	padding:4px 0px 0px 14px;
+	float:left;
+}
+
+#LogoArea .Banner {
+	width:468px;
+	height:60px;
+	margin:0px 7px 0px 0px;
+	_margin:0px 4px 0px 0px;
+	padding:0px;
+	float:right;
+}
+
+/* メインメニュー */
+#Header .MainMenu {
+	list-style:none;
+	height:41px;
+	margin:0px;
+	padding:0px;
+	clear:both;
+}
+
+.MainMenu p {
+	display:block;
+	width:150px;
+	height:41px;
+	margin:0px;
+	padding:0px;
+	text-indent:-9999px;
+	float:left;
+}
+
+.MainMenu p a {
+	display:block;
+	width:150px;
+	height:41px;
+	background-position:0px 0px;
+	text-decoration:none;
+}
+
+/* 01 */
+.MainMenu p.Menu01 {
+	background:url(../common/images/menu_01.gif) 0px -41px no-repeat;
+}
+
+.MainMenu p.Menu01 a {
+	background:url(../common/images/menu_01.gif) no-repeat;
+}
+
+/* 02 */
+.MainMenu p.Menu02 {
+	background:url(../common/images/menu_02.gif) 0px -41px no-repeat;
+}
+
+.MainMenu p.Menu02 a {
+	background:url(../common/images/menu_02.gif) no-repeat;
+}
+
+/* 03 */
+.MainMenu p.Menu03 {
+	background:url(../common/images/menu_03.gif) 0px -41px no-repeat;
+}
+
+.MainMenu p.Menu03 a {
+	background:url(../common/images/menu_03.gif) no-repeat;
+}
+
+/* 04 */
+.MainMenu p.Menu04 {
+	background:url(../common/images/menu_04.gif) 0px -41px no-repeat;
+}
+
+.MainMenu p.Menu04 a {
+	background:url(../common/images/menu_04.gif) no-repeat;
+}
+
+/* 05 */
+.MainMenu p.Menu05 {
+	background:url(../common/images/menu_05.gif) 0px -41px no-repeat;
+}
+
+.MainMenu p.Menu05 a {
+	background:url(../common/images/menu_05.gif) no-repeat;
+}
+
+.MainMenu p.Menu01 a:hover,
+.MainMenu p.Menu01 a:active,
+.MainMenu p.Menu02 a:hover,
+.MainMenu p.Menu02 a:active,
+.MainMenu p.Menu03 a:hover,
+.MainMenu p.Menu03 a:active,
+.MainMenu p.Menu04 a:hover,
+.MainMenu p.Menu04 a:active,
+.MainMenu p.Menu05 a:hover,
+.MainMenu p.Menu05 a:active {
+	background-position:0px -41px;
+}
+
+/* その他のメニュー */
+#Header .HeaderMenu {
+	list-style:none;
+	height:12px;
+	margin:0px 10px 0px 0px;
+	padding:0px;
+	clear:both;
+}
+
+#Header .HeaderMenu p {
+	display:block;
+	margin:5px 0px 7px 14px;
+	_margin:5px 0px 4px 14px;
+	padding:0px;
+	text-indent:-9999px;
+	float:right;
+}
+
+.HeaderMenu p a {
+	display:block;
+	text-decoration:none;
+}
+
+.HeaderMenu p.Previous,
+.HeaderMenu p.Previous a {
+	width:72px;
+	height:12px;
+	background:url(../common/images/submenu_01.gif) no-repeat;
+}
+
+.HeaderMenu p.Exhibition,
+.HeaderMenu p.Exhibition a {
+	width:82px;
+	height:12px;
+	background:url(../common/images/submenu_02.gif) no-repeat;
+}
+
+/* +++++++++++会期中の取材について+++++++++++ */
+
+h2.Cover {
+	background:url(images/h2_cover.gif) no-repeat;
+}
+
+p.Item {
+	margin:0px;
+}
+
+/* 条件 */
+p.Emphasis {
+	margin:20px 0px 15px;
+	padding:10px;
+	border:1px solid #999999;
+	color:#333333;
+	font-size:12px;
+	font-weight:bold;
+	line-height:140%;
+	text-align:center;
+}
+
+ol.Condition {
+	margin:0px 0px 20px 18px;
+	_margin:0px 0px 20px 23px;
+	padding:0px;
+}
+
+ol.Condition li {
+	color:#333333;
+	font-size:12px;
+	line-height:140%;
+}
+
+/* お問い合わせ */
+h4.Info {
+	margin:25px 0px 5px;
+}
+
+/* +++++++++++ニュースリリース+++++++++++ */
+
+h2.News {
+	background:url(images/h2_news.gif) no-repeat;
+}
+
+/* リスト */
+dl.NewsItem {
+	list-style:none;
+	list-style-type:none;
+	margin:0px;
+	padding:0px;
+	color:#333333;
+	font-size:12px;
+	line-height:140%;
+}
+
+dl.NewsItem dt.Day {
+	width:100px;
+	margin:0px;
+	padding:0px 0px 0px 12px;
+	background:url(../common/images/arrow.gif) no-repeat 0px 5px;
+	_background:url(../common/images/arrow.gif) no-repeat 0px 4px;
+	float:left;
+}
+/* MacIEから隠す \*/
+dl.NewsItem dt.Day {
+	width:90px;
+	_width:100px;
+}
+/* */
+
+dl.NewsItem dd.Title {
+	width:400px;
+	margin:0px 0px 10px;
+	padding:0px;
+	font-weight:bold;
+	float:left;
+}
+
+dl.NewsItem dd.Outline {
+	width:400px;
+	margin:0px 0px 10px 100px;
+	padding:0px;
+	clear:both;
+}
+
+/* +++++++++++details.html+++++++++++ */
+
+#Contents #DetailsContents {
+	width:527px;
+	margin:0px 0px 35px 10px;
+	padding:0px;
+	text-align:left;
+}
+
+#DetailsContents p {
+	margin:0px 0px 10px;
+	color:#333333;
+	font-size:12px;
+	line-height:140%;
+	text-align:left;
+}
+
+#DetailsContents p.Date {
+	margin:0px;
+	text-align:right;
+}
+
+#DetailsContents img {
+	margin:0px 0px 0px 10px;
+	float:right;
+}
+
+/* フォーラムテーブル */
+#DetailsContents table.Forum {
+	width:100%;
+	margin:0px 0px 10px;
+	border-collapse:collapse;
+	border:1px solid #D0CFC4;
+}
+
+table.Forum th {
+	width:120px;
+	padding:4px;
+	color:#FFFFFF;
+	background:#666666;
+	border:1px solid #D0CFC4;
+	font-size:12px;
+	line-height:140%;
+	text-align:left;
+	vertical-align:top;
+}
+
+table.Forum td {
+	color:#333333;
+	border:1px solid #D0CFC4;
+	font-size:12px;
+	line-height:140%;
+}
+
+table.NoBorder td {
+	border-collapse:collapse;
+	border:1px solid #FFFFFF;
+}
+
+
