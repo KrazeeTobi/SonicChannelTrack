@@ -1,0 +1,147 @@
+/*
+/////////////////////////////////////
+media/
+
+■会期中の取材について--------Line.10
+■ニュースリリース------------Line.43
+/////////////////////////////////////
+*/
+
+/* +++++++++++会期中の取材について+++++++++++ */
+
+h2.Cover {
+	background:url(images/h2_cover.gif) no-repeat;
+}
+
+p.Item {
+	margin:0px;
+}
+
+/* 条件 */
+p.Emphasis {
+	margin:20px 0px 15px;
+	padding:10px;
+	border:1px solid #999999;
+	color:#333333;
+	font-size:12px;
+	font-weight:bold;
+	line-height:140%;
+	text-align:center;
+}
+
+ol.Condition {
+	margin:0px 0px 20px 18px;
+	_margin:0px 0px 20px 23px;
+	padding:0px;
+}
+
+ol.Condition li {
+	color:#333333;
+	font-size:12px;
+	line-height:140%;
+}
+
+/* お問い合わせ */
+h4.Info {
+	margin:25px 0px 5px;
+}
+
+/* +++++++++++ニュースリリース+++++++++++ */
+
+h2.News {
+	background:url(images/h2_news.gif) no-repeat;
+}
+
+/* リスト */
+dl.NewsItem {
+	list-style:none;
+	list-style-type:none;
+	margin:0px;
+	padding:0px;
+	color:#333333;
+	font-size:12px;
+	line-height:140%;
+	clear:both;
+}
+
+dl.NewsItem dt.Day {
+	width:100px;
+	margin:0px;
+	padding:0px 0px 0px 12px;
+	background:url(../common/images/arrow.gif) no-repeat 0px 3px;
+	float:left;
+}
+
+dl.NewsItem dd.Title {
+	width:500px;
+	margin:0px 0px 10px;
+	padding:0px 0px 0px 12px;
+	float:left;
+}
+/* MacIEから隠す \*/
+dl.NewsItem dd.Title {
+	width:400px;
+	padding:0px;
+}
+/* */
+
+/* +++++++++++details.html+++++++++++ */
+
+#Contents #DetailsContents {
+	width:527px;
+	margin:0px 0px 35px 10px;
+	padding:0px;
+	text-align:left;
+}
+
+#DetailsContents p {
+	margin:0px 0px 10px;
+	color:#333333;
+	font-size:12px;
+	line-height:140%;
+	text-align:left;
+}
+
+#DetailsContents p.Date {
+	margin:0px;
+	text-align:right;
+}
+
+#DetailsContents img {
+	margin:0px 0px 0px 10px;
+	float:right;
+}
+
+/* フォーラムテーブル */
+#DetailsContents table.Forum {
+	width:100%;
+	margin:0px 0px 10px;
+	border-collapse:collapse;
+	border:1px solid #D0CFC4;
+}
+
+table.Forum th {
+	width:120px;
+	padding:4px;
+	color:#FFFFFF;
+	background:#666666;
+	border:1px solid #D0CFC4;
+	font-size:12px;
+	line-height:140%;
+	text-align:left;
+	vertical-align:top;
+}
+
+table.Forum td {
+	color:#333333;
+	border:1px solid #D0CFC4;
+	font-size:12px;
+	line-height:140%;
+}
+
+table.NoBorder td {
+	border-collapse:collapse;
+	border:1px solid #FFFFFF;
+}
+
+

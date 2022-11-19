@@ -1,0 +1,69 @@
+@charset "utf-8";
+/* Twitterウィジェット用スタイル */
+
+
+#twtArea {
+	width: 205px;
+	height: 360px; /*temporary*/
+	margin: 0 0 30px 0;
+	padding: 0;
+	text-align: left;
+	float: left;
+	/*background: url(../img/top/bg-twt.png) repeat-y ;*/
+}
+
+#twtArea .ttl {
+
+	height: 37px;
+	margin: 0;
+	padding: 2px 6px 0;
+	text-align: left;
+	color: #FFF;
+	font-size:12px;
+	font-weight: bold;
+	background: url(../img/top/bg-twt-ttl.png) no-repeat top ;
+	line-height:1.1;
+
+}
+
+#twtArea .static {
+	width:193px;
+	margin: 0 2px 5px 2px;
+	padding: 0 4px;
+	font-size:11px;
+	color: #666;
+	border-bottom: #EBEBEB solid 1px;
+}
+
+#twtArea .hsh {
+
+	height: 260px; /*temporary*/
+	margin: 0;
+	padding: 0 3px;
+	text-align: left;
+	overflow: auto;
+	/* border-left: #e62e87 solid 1px; */
+	/* border-right: #e62e87 solid 1px; */
+}
+#twtArea .btm {
+
+	height: 55px;
+	margin: 0;
+	padding: 3px;
+	/padding: 0;
+	text-align: left;
+	color: #FFF;
+	background: url(../img/top/bg-twt-btm.png) no-repeat top;
+	text-indent:-9999em;
+	
+}
+
+#twtArea .btm a {
+	height: 40px;
+	font-size: 0px;
+	display: block;
+	/text-indent: -9999px;
+	overflow: hidden;
+
+}
+

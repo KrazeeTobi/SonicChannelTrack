@@ -1,0 +1,165 @@
+@charset "utf-8";
+
+/* -----------------------------------------------------------
+CSS Information
+File name:      common.css
+Style Info:     サイト全体の共通の設定（ヘッダ、グローバルナビ）
+----------------------------------------------------------- */
+
+#site{
+	background: #fff;
+	font-size:12px;
+}
+
+#site #wrapper{
+	margin: 0 auto;
+	text-align: center;
+
+}
+
+/* -----------------------------------------------------------
+ヘッダエリア
+----------------------------------------------------------- */
+#header{ background: #FFFFFF;}
+
+#header h1{ 
+	float: left; 
+	margin: 20px 0 10px 0;
+	
+}
+
+#header ul{ 
+	margin: 33px 0 0 0;
+	float: right;
+	display: block;
+	/*visibility: hidden;*/
+	}
+
+#header ul li{ 
+	float: left; 
+	margin: 0 0 0 0;
+	width: 60px;
+}
+
+
+#header #h_wrapper{
+	width: 960px;
+	margin: 0 auto;
+	text-align: center;
+	
+}
+
+/* -----------------------------------------------------------
+グローバルナビエリア
+----------------------------------------------------------- */
+
+#globalNavi{background: #FFFFFF;}
+
+#globalNavi #innerGnavi{
+	width: 960px;
+	height: 66px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#globalNavi ul{
+	width: 100%;
+	height: 46px;
+	padding: 0 0 10px 0;
+	_padding: 0 0 5px 0;
+	margin-top: 5px;
+}
+
+html>/**/body #globalNavi ul{/* except IE6.7*/
+	width: 100%;
+	height: 46px;
+	padding: 0 0 10px 0;
+	_padding: 0 0 5px 0;
+	margin-top: 0;
+	
+}
+
+
+#globalNavi li{	
+	float: left;
+	margin: 0 0 0 0;
+}
+
+#globalNavi p{	
+	clear: both;
+	float: left;
+	margin: 0 0 0 5px;
+}
+
+/* -----------------------------------------------------------
+フッタエリア
+----------------------------------------------------------- */
+
+#site #footer{
+	clear: both;
+	background: #FFFFFF;
+	margin: 0 auto;
+	min-height: 100px;
+}
+
+#site #footer p{
+	width: 970px;
+	background: #FFFFFF;
+	text-align:right;
+	margin: 0 auto;
+	font-size:10px;
+	color: #F8B74A;
+}
+
+/* -----------------------------------------------------------
+ClearFix
+----------------------------------------------------------- */
+
+.clear:after {  
+	content: ".";  
+	display: block;  
+	visibility: hidden;  
+	height: 0.1px;  
+	font-size: 0.1em;  
+	line-height: 0;  
+	clear: both;  
+}
+
+.clear{  
+	display: inline-block;  
+} 
+
+.clear2{
+	clear: both;
+}
+
+/* -----------------------------------------------------------
+アシライ付きテキストの設定
+----------------------------------------------------------- */
+.note{
+	background: url(../common/note_cap.gif) no-repeat 0 6px;
+	padding: 0 0 0 12px;
+	font-size: 10px;
+	color: #666666;
+}
+
+.note2{
+	background: url(../common/note_cap2.gif) no-repeat 0 6px;
+	padding: 0 0 0 12px;
+	font-size: 10px;
+	color: #666666;
+}
+
+
+.toTop{
+	float: right;
+	margin: 20px 0 0 0;
+	clear: both;
+	display: block;
+}
+
+.spaceTopTen{
+	margin-top:10px!important;
+	display:block;
+}
+
