@@ -1,0 +1,271 @@
+@import url(exhibition-layout.css);
+
+.cmcontent a {
+	text-decoration: underline !important;
+}
+
+.alertbox {
+	border: 3px solid #eee;
+	background: url(../image/common/alert_icon_s.png) no-repeat 20px 20px;
+	padding: 28px 20px 20px 70px;
+	font-size: 16px;
+	color: #555;
+}
+
+.alertbox2 {
+	border: 2px solid #fc0;
+	background: url(../image/common/alert_icon_s.png) no-repeat 20px 8px;
+	padding: 18px 20px 10px 0px;
+	margin:  10px 50px 10px 80px;
+	font-size: 16px;
+	color: #555;
+}
+
+.alertbox2 h6,
+.alertbox2 p,
+.alertbox2 ul {
+	font-size: 87.5%;
+	margin-left: 70px;
+	text-indent: 0 !important;
+	line-height: 1.5;
+}
+.alertbox2 ul li {
+	margin-top: 0.3em;
+}
+
+.stopbox {
+	margin-left: 80px;
+	margin-right: 50px;
+	margin-bottom: 20px;
+	border: 1px solid #900;
+	color: #900;
+	padding: 10px 20px;
+}
+
+.stopbox ul {
+	margin-left: 20px;
+}
+
+.section h2 {
+	border-left: 8px solid #BD6DA9;
+	padding: 10px;
+	margin-top: 2em;
+	margin-bottom: 1em;
+}
+
+.section h2 span.new {
+	color: #BD6DA9;
+}
+
+.section h3 {
+	margin-left: 80px;
+	margin-right: 50px;
+	margin-bottom: 2em;
+}
+
+#sales.section h3,
+#costume.section h3,
+#examine.section h3 {
+	margin-top: 2em;
+	margin-bottom: 1em;
+	border-bottom: 1px solid #ccc;
+}
+
+#examine.section h3.em {
+	color: #900;
+	padding: 0.5em 1em;
+	border-top: 1px solid #900;
+	border-bottom: 1px solid #900;
+}
+
+.section h4 {
+	margin-left: 80px !important;
+	margin-right: 50px !important;
+	padding: 0.5em 1em;
+	background: #eee;
+}
+
+#costume.section h4 {
+	margin-top: 1em;
+}
+
+.section p {
+	margin-left: 80px;
+	margin-right: 50px;
+	text-indent: 0 !important;
+}
+
+.section p.note {
+	margin-top: 1em;
+	line-height: 1.5;
+}
+
+.section ul {
+	margin-left: 100px;
+	margin-right: 50px;
+}
+
+.section table {
+	margin-left: 80px;
+	width: 770px !important;
+}
+
+.section td ul {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+
+.section #flashcontent {
+	margin-left: 80px;
+	border: 4px solid #ddd;
+	width: 734px;
+}
+
+#exlist ul {
+	margin-left: 95px;
+}
+
+#exlist ul ul {
+	margin-left: 20px;
+}
+
+
+/* TGS Forum */
+
+div.cmcontent div.resume {
+	float: left;
+	width: 430px;
+	display: inline; /* IE */
+}
+
+div.cmcontent div.resume h2 {
+	color: #bd6da9;
+}
+
+div.cmcontent div.resume table {
+	border-top: 1px solid #999;
+}
+
+div.cmcontent div.resume table td {
+	line-height: 1.5;
+	margin: 0;
+	padding: 8px 20px;
+}
+
+div.cmcontent div.resume table th {
+	line-height: 1.5;
+	margin: 0;
+	padding: 8px 20px;
+	border-right: 0;
+	text-align: left;
+}
+
+div.cmcontent div.resume table td.last {
+	border-bottom: 1px solid #999;
+}
+
+div.cmcontent div.resume table td strong {
+	display: inline;
+	color: #444;
+}
+
+div.cmcontent div.resume table td p {
+	text-indent: 0;
+}
+
+div.cmcontent div.resume table td .box {
+	border: 0;
+	margin: 0.5em 0;
+	background: #eee;
+}
+
+/* バスツアー */
+
+div.cmcontent table#tour {
+	border-top: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	margin-bottom: 2em;
+}
+div.cmcontent table#tour th,
+div.cmcontent table#tour td {
+	padding: 4px 6px;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+
+div.cmcontent table#tour td {
+	text-align: center;
+	white-space: nowrap;
+}
+
+/* サポーターズ */
+/*
+div.cmcontent #supporters {
+	background: url(../image/visitor/limit.png) no-repeat right top;
+}
+*/
+
+div.center {
+	margin: 0 auto 20px auto;
+}
+
+div.right {
+	float: right;
+	margin: 20px 50px 30px 30px;
+}
+
+div.cmcontent #supporters div.subsection p,
+div.cmcontent #vgl div.subsection p  {
+	margin-left: 150px;
+}
+
+div.cmcontent #supporters p.note {
+	margin-top:0; margin-bottom:0;
+}
+
+
+div.cmcontent #supporters h3,
+div.cmcontent #vgl h3 {
+	margin-top: 1em;
+	margin-bottom: 0.5em;
+	color: #BD6DA9;
+}
+
+div.cmcontent #supporters h4 {
+	margin-top: 10px;
+}
+
+/* Bizmatchups */
+div.cmcontent dl#newslist {
+	zoom:normal;
+}
+div.cmcontent dl#newslist dt {
+	float: left;
+	width: 9em;
+	padding: 10px 0;
+	font-weight: normal;
+	text-indent: 1em;
+	line-height: 150%;
+	color: #666;
+}
+div.cmcontent dl#newslist dd {
+	padding: 10px 0 10px 7em;
+	line-height: 150%;
+	border-bottom: 1px #CCCCCC solid;
+}
+div.cmcontent dl#newslist dd p {
+	font-size: 107.14%;
+	letter-spacing: 1px;
+	text-indent: 0;
+	margin: 0;
+}
+div.cmcontent dl#newslist dd p a {
+	text-decoration: underline;
+}
+div.cmcontent dl#newslist dd div {
+	font-size: 92.85%;
+}
+div.cmcontent dl#newslist dd div span {
+	color: #666;
+}
