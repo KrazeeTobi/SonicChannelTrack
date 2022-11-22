@@ -1,0 +1,324 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh-tw" lang="zh-tw">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<title>參展公司一覽 | 致參觀來賓 | 東京電玩展2012</title>
+<link href="../../common/css/import.css" rel="stylesheet" type="text/css" />
+<link href="style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="../../common/js/rollover.js"></script>
+<script type="text/javascript" src="common/js/jquery-1.8.0.js" ></script>
+<script type="text/javascript" src="../../common/js/jquery.tooltip03.js"></script>
+<script type="text/javascript" src="../../common/js/jquery.droppy.js"></script>
+<script type="text/javascript" src="../../common/js/jquery-contained-sticky-scroll.js"></script>
+<script type="text/javascript">
+jQuery(document).ready(function(){
+	jQuery('#side').containedStickyScroll({
+		unstick: false,
+	});
+});
+</script>
+<!-- ここから -->
+<script type="text/javascript" src="js/window.js"></script>
+<script type="text/javascript" src="js/jsrender.js"></script>
+<script type="text/javascript" src="js/exhibitor_search.js"></script>
+<script type="text/javascript">
+function callback(ret) {
+    var order = [ 
+        { cate_id: 11,  title: 'General Exhibition Area', id: 'ListGeneral'},
+        { cate_id: 15,  title: 'Merchandise Sales Area', id: 'ListSales'},
+        { cate_id: 12,  title: 'Game School Area', id: 'ListSchool'},
+        { cate_id: 13,  title: 'Family Corner', id: 'ListFamily'},
+        { cate_id: 18,  title: 'Smartphone Game Area / Social Game Area', id: 'ListSmartSocial'},
+        { cate_id: 19,  title: 'PC Game Area', id: 'ListPC'},
+		{ cate_id: 25,  title: 'Gaming Device Area', id: 'ListDevice'},
+        { cate_id: 103, title: 'Asia New Stars Area', id: 'ListAsia'},
+        { cate_id: 16,  title: 'Business Solution Area', id: 'ListSolution'},
+        { cate_id: 17,  title: 'Cloud/Data Center Pavilion', id: 'ListCloud'},
+        { cate_id: 38,  title: 'Business Meeting Area', id: 'ListMeeting'}
+    ];
+
+    var buf =  [];
+    for ( var i = 0; i < order.length; i++) {
+        var list = ret[order[i].cate_id];
+        list.title = order[i].title;
+        list.id = order[i].id;
+        buf.push(list);
+    }
+
+    $("#CompanyList").html($( "#tpl" ).render(buf));
+}
+
+// データの取得
+$(function() {
+    BpexpoUtils.enableSearch();
+    BpexpoUtils.getCategoryEn();
+});
+</script>
+
+<!-- #展開するテンプレート -->
+<script id="tpl" type="text/x-jsrender">
+<dl id="{{>id}}">
+	<dt> {{>title}} </dt>
+	<dd>
+		<table>
+			<thead>
+				<tr>
+					<th>Booth Number</th>
+					<th>Corner</th>
+					<th>Exhibitor Name</th>
+					<th>Summary</th>
+					<th>HP</th>							
+				</tr>
+			</thead>
+			<tbody>
+            {{for list}}
+				<tr>
+                {{if #index % 2 == 0}}
+					<td class="CellNumber"> {{:booth_number}} </th>
+					<td class="CellGroup">{{category_name_en:category_id}}</th>
+
+                    {{if guidebook == true}}
+					<td class="CellCompany"><a href="detail/detail_en.html?id={{:id}}" onclick="setNewsWindow(this.href); return false;">{{:company_name}}</a></th>
+                    {{else}}
+					<td class="CellCompany">{{:company_name}}</th>
+                    {{/if}}
+
+					<td class="CellTitle">{{:title}}</th>
+
+                    {{if url}}
+					<td class="CellHP"><a href="{{:url}}" target="_blank">HP</a></th>
+                    {{else}}
+					<td class="CellHP"></th>
+                    {{/if}}
+                {{else}}
+					<td class="ChangeColor CellNumber"> {{:booth_number}} </th>
+					<td class="ChangeColor CellGroup">{{category_name_en:category_id}}</th>
+
+                    {{if guidebook == true}}
+					<td class="ChangeColor CellCompany"><a href="detail/detail_en.html?id={{:id}}" onclick="setNewsWindow(this.href); return false;">{{:company_name}}</a></th>
+                    {{else}}
+					<td class="ChangeColor CellCompany">{{:company_name}}</th>
+                    {{/if}}
+
+					<td class="ChangeColor CellTitle">{{:title}}</th>
+
+                    {{if url}}
+					<td class="ChangeColor CellHP"><a href="{{:url}}" target="_blank">HP</a></th>
+                    {{else}}
+					<td class="ChangeColor CellHP"></th>
+                    {{/if}}
+                {{/if}}
+				</tr>
+            {{/for}}
+			</tbody>
+		</table>
+	</dd>
+</dl>
+</script>
+<!-- ここまで -->
+
+</head>
+<body id="bodyTop">
+<div id="headCont">
+  <div id="headArea">
+    <h1><span class="alt">TOKYO GAME SHOW 2012</span></h1>
+    <div id="superBnr">
+      <!-- tgs2012e_rotation -->
+      
+      <!-- end of tgs2012e_rotation -->
+    </div>
+    <div id="lngMenu">
+      <ul>
+        <li class="jp"><a href="../../../index.html" class="on"><span class="alt">日本語</span></a></li>
+        <li class="en"><a href="../../../en/index.html" class="on"><span class="alt">English</span></a></li>
+        <li class="ko"><a href="../../../ko/index.html" class="on"><span class="alt">한국어</span></a></li>
+        <li class="cn"><a href="../../../zh-CN/index.html" class="on"><span class="alt">簡体中文</span></a></li>
+        <li class="tw"><a href="../../index.html" class="focus"><span class="alt">繁體中文</span></a></li>
+      </ul>
+    </div>
+    <div id="snsMenu">
+      <ul>
+        <li class="t"><a href="http://twitter.com/#!/tokyo_game_show" target="_blank"><span class="alt">Twitter</span></a></li>
+        <li class="fb"><a href="http://www.facebook.com/tokyogameshow" target="_blank"><span class="alt">facebook</span></a></li>
+        <li class="in"><a href="http://www.linkedin.com/groups/TOKYO-GAME-SHOW-Business-Connections-4301474?trk=myg_ugrp_ovr" target="_blank"><span class="alt">Linked In</span></a></li>
+        <li class="rss"><a href="http://twitter.com/statuses/user_timeline/94486399.rss" target="_blank"><span class="alt">RSS</span></a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div id="mainCont">
+  <div id="mainArea">
+    <!--メインメニュー-->
+    <div id="gNavi">
+      <ul id="nav">
+        <li class="home"><a href="../../index.html"><img src="../../common/img/gn/gn_home.gif" width="62" height="39" alt="首頁" class="imgover" /></a></li>
+        <li class="visitor"> <a href="../../visitor/index.html"><img src="../../common/img/gn/gn_visitor.gif" width="119" height="39" alt="致參觀來賓" class="imgover" /></a>
+          <ul>
+            <li><a href="../../visitor/index.html">展覽概要</a></li>
+            <li><a href="../../visitor/ticket.html">門票</a></li>
+            <!--<li><a href="visitor/numbered_ticket.html">Priority Ticket Distributions</a></li>-->
+            <li><a href="../../visitor/list/index.html">參展公司一覽</a></li>
+            <li><a href="../../visitor/map.html">展位／展場平面圖<br />
+              （樓層平面圖）</a></li>
+            <li><a href="../../visitor/attention.html">注意事項</a></li>
+            <li><a href="../../visitor/cosplayers.html">致COSPLAY表演者們</a></li>
+            <li><a href="../../visitor/officialtours.html">TGS Official Tours</a></li>
+            <li><a href="../../visitor/access.html">交通資訊／官方旅遊</a></li>
+          </ul>
+        </li>
+        <li class="event"><a href="../../event/cosplay.html"><img src="../../common/img/gn/gn_event.gif" width="117" height="39" alt="重點活動"  class="imgover"/></a>
+          <ul>
+            <li><a href="../../event/cosplay.html">Cosplay Collection Night @TGS</a></li>
+            <li><a href="../../event/cga.html">e-Sports Competition　『Cyber Games Asia』（CGA）</a></li>
+          </ul>
+        </li>
+        <li class="business"> <a href="../../business/index.html"><img src="../../common/img/gn/gn_business.gif" width="161" height="39" alt="致商務目的的參觀來賓" class="imgover" /></a>
+         <ul>
+            <li><a href="../../business/index.html">門票（商務洽談日請事先登錄）</a></li>
+            <li><a href="../../business/forum.html">TGS Forum 2012</a></li>
+            <li><a href="../../business/agbs.html">Asia Game Business Summit</a></li>
+            <li><a href="../../business/matchup.html">Business Matching System<br />『Asia Business Gateway』</a></li>            <li><a href="../../business/intl.html">International Business Consultation Area</a></li>
+            <li><a href="../../business/sown/index.html">SENSE OF WONDER NIGHT 2012</a></li>
+          </ul>
+        </li>
+        <li class="media"> <a href="../../media/index.html"><img src="../../common/img/gn/gn_media.gif" width="120" height="39" alt="致各位媒體" class="imgover" /></a>
+          <ul>
+            <li><a href="../../media/index.html">新聞稿</a></li>
+            <li><a href="../../media/news.html">參展公司新聞稿</a></li>
+            <li><a href="https://www.filey.jp/tgs/" target="_blank">下載中心</a></li>
+            <li><a href="../../media/registration.html">關於媒體登錄</a></li>
+            <li><a href="../../media/acc.html">住宿</a></li>
+          </ul>
+        </li>
+        <li class="contact"> <a href="../../contact/index.html"><img src="../../common/img/gn/gn_contact.gif" width="90" height="39" alt="洽詢" class="imgover" /></a>
+          <ul>
+            <li><a href="../../contact/index.html">洽詢</a></li>
+            <li><a href="../../contact/faq.html">常見問題（FAQ）</a></li>
+          </ul>
+        </li>
+        <li class="exhibition"><a href="http://expo.nikkeibp.co.jp/tgs/2012/exhibition/english/" target="_blank"><img src="../../common/img/gn/gn_exhibition.gif" width="96" height="39" alt="參展指南" class="imgover" /></a></li>
+        <li class="past"><a href="http://expo.nikkeibp.co.jp/tgs/2011/zh-TW/" target="_blank"><img src="../../common/img/gn/gn_past.gif" width="113" height="39" alt="前屆概況" class="imgover" /></a></li>
+      </ul>
+      <script type='text/javascript'>
+  $(function() {
+    $('#nav').droppy();
+  });
+</script>
+    </div>
+    <!--/メインメニュー-->
+    <div id="mainCts" class="catVisitor">
+      <div id="mainL">
+        <h2 class="pageTitle"><img src="../img/title/title_list.gif" alt="Exhibitors" width="720" height="20" /></h2>
+        
+		<div id="CompanySearch">
+			<dl id="CornerSearch">
+				<dt>
+					<strong>Area</strong>
+					<ul><li><a href="index.html">all</a></li></ul>
+				</dt>
+				<dd>
+					<ul>
+						<li><a href="category_en.html?id=11" id="BtnGeneral"><span>General Exhibition Area</span></a></li>
+						<li><a href="category_en.html?id=15" id="BtnSales"><span>Merchandise Sales Area</span></a></li>
+						<li><a href="category_en.html?id=12" id="BtnSchool"><span>Game School Area</span></a></li>
+                        <li><a href="category_en.html?id=13" id="BtnFamily"><span>Family Corner</span></a></li>
+						<li><a href="category_en.html?id=18" id="BtnSmart-Social"><span>Smartphone Game Area/Social Game Area</span></a></li>
+						<li><a href="category_en.html?id=19" id="BtnPC"><span>PC Game Area</span></a></li>
+                        <li><a href="category_en.html?id=25" id="BtnDevice"><span>Game Device Area</span></a></li>
+						<li><a href="category_en.html?id=103" id="BtnAsia"><span>Asia New Stars Area</span></a></li>
+						<li><a href="category_en.html?id=16" id="BtnSolution"><span>Business Solution Area</span></a></li>
+						<li><a href="category_en.html?id=17" id="BtnCloud"><span>Cloud/Data Pavilion</span></a></li>
+						<li><a href="category_en.html?id=38" id="BtnMeeting"><span>Business Meeting Area</span></a></li>
+					</ul>
+				</dd>
+			</dl>
+			<dl id="Sound50Search">
+				<dt>
+					<strong>Alpabetical Order</strong>
+					<ul><li><a href="alphabet_all_en.html">all</a></li></ul>
+				</dt>
+				<dd>
+					<ul>
+						<li><a href="alphabet_en.html?idx=0">A</a></li>
+						<li><a href="alphabet_en.html?idx=1">B</a></li>
+						<li><a href="alphabet_en.html?idx=2">C</a></li>
+						<li><a href="alphabet_en.html?idx=3">D</a></li>
+						<li><a href="alphabet_en.html?idx=4">E</a></li>
+						<li><a href="alphabet_en.html?idx=5">F</a></li>
+						<li><a href="alphabet_en.html?idx=6">G</a></li>
+						<li><a href="alphabet_en.html?idx=7">H</a></li>
+						<li><a href="alphabet_en.html?idx=8">I</a></li>
+						<li><a href="alphabet_en.html?idx=9">J</a></li>
+                        <li><a href="alphabet_en.html?idx=10">K</a></li>
+                        <li><a href="alphabet_en.html?idx=11">L</a></li>
+                        <li><a href="alphabet_en.html?idx=12">N</a></li>
+                        <li><a href="alphabet_en.html?idx=13">M</a></li>
+                        <li><a href="alphabet_en.html?idx=14">O</a></li>
+                        <li><a href="alphabet_en.html?idx=15">P</a></li>
+                        <li><a href="alphabet_en.html?idx=16">Q</a></li>
+                        <li><a href="alphabet_en.html?idx=17">R</a></li>
+                        <li><a href="alphabet_en.html?idx=18">S</a></li>
+                        <li><a href="alphabet_en.html?idx=19">T</a></li>
+                        <li><a href="alphabet_en.html?idx=20">U</a></li>
+                        <li><a href="alphabet_en.html?idx=21">V</a></li>
+                        <li><a href="alphabet_en.html?idx=22">W</a></li>
+                        <li><a href="alphabet_en.html?idx=23">X</a></li>
+                        <li><a href="alphabet_en.html?idx=24">Y</a></li>
+                        <li><a href="alphabet_en.html?idx=25">Z</a></li>
+					</ul>
+				</dd>
+			</dl>
+			<!--<dl id="KeywordSearch">
+				<dt>
+					<strong>Keywords</strong>
+				</dt>
+				<dd>
+					<form id="search_form">
+						<input type="text" name="keyword" maxlength="300" id="TxtSearch" value=""/>
+						<input type="hidden" name="lang" value="en" />
+						<input type="submit" value="" id="BtnSearch" />
+					</form>
+				</dd>
+			</dl>-->
+		</div><!-- Company Search -->
+
+ 		<div id="CompanyList">
+		</div><!-- Company List -->
+        <p class="btPageTop"><a href="#bodyTop">Top</a></p>
+
+      </div>
+      <div id="side">
+        <div id="sideNavi">
+          <div id="sideTitle"><span class="alt">致參觀來賓</span></div>
+          <ul>
+            <li><a href="../../visitor/index.html">展覽概要</a></li>
+            <li><a href="../../visitor/ticket.html">門票</a></li>
+            <!--<li><a href="visitor/numbered_ticket.html">Priority Ticket Distributions</a></li>-->
+            <li><a href="../../visitor/list/index.html">參展公司一覽</a></li>
+            <li><a href="../../visitor/map.html">展位／展場平面圖<br />
+              （樓層平面圖）</a></li>
+            <li><a href="../../visitor/attention.html">注意事項</a></li>
+            <li><a href="../../visitor/cosplayers.html">致COSPLAY表演者們</a></li>
+            <li><a href="../../visitor/officialtours.html">TGS Official Tours</a></li>
+            <li><a href="../../visitor/access.html">交通資訊／官方旅遊</a></li>
+          </ul>
+        </div>
+      </div>
+      <!--/side-->
+    </div>
+    <div id="footerArea">
+      <div id="footMenu"><span><a href="../../sitemap.html">Site Map</a></span>|<span><a href="../../contact/index.html">洽詢</a></span></div>
+      <ul id="fotBn">
+        <li><a href="http://www.cesa.or.jp/index.php/en/" target="_blank"><img src="../../common/img/f_cesa.gif" alt="CESA" width="58" height="25" /></a></li>
+        <li><a href="http://corporate.nikkeibp.co.jp/" target="_blank"><img src="../../common/img/f_nikkei.gif" alt="日経BP社" width="69" height="25" /></a></li>
+        <li><a href="http://www.cofesta.jp/" target="_blank"><img src="../../common/img/f_CoFesta.gif" alt="An 0fficial event of CoFesta" width="290" height="25" /></a></li>
+      </ul>
+      <p id="copyright">2002-2012 CESA / Nikkei Business Publications, Inc. All rights reserved.</p>
+    </div>
+  </div>
+</div>
+</body>
+</html>
