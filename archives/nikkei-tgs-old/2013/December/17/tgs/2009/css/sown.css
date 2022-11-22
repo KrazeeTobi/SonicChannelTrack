@@ -1,0 +1,323 @@
+@charset "utf-8";
+/* ****************************************************************** 
+
+	@This stylesheet Information{
+		ファイル：sown.css
+		最終更新：2009年05月19日
+		主な内容：SENSE OF WONDER NIGHT 公式サイト用
+	}
+
+****************************************************************** */
+#cmain {
+	width: 970px;
+	background: url(../image/sown/cmain_bg.png) repeat-y 258px 0;
+}
+
+/* cmside */
+div.cmside {
+	float: left;
+	width: 230px;
+	padding-left: 40px;
+}
+
+div.cmside h1 {
+	text-indent: -100em;
+	width: 190px; height: 200px;
+	background: url(../image/sown/logo.png) no-repeat;
+	overflow: hidden;
+}
+div.cmside h2 {
+	font-size: 12px;
+	color: #e26c47;
+	margin-top: 2em;
+}
+
+div.cmside div {
+	margin-top: 1em;
+}
+
+/* comcontent */
+
+div.cmcontent {
+	float: left;
+	width: 650px;
+	padding-left: 50px;
+}
+
+div.cmcontent h2 {
+	font-size: 18px;
+	color: #e16c47;
+	margin-top: 1em;
+	margin-bottom: 0.5em;
+}
+
+div.cmcontent h3 {
+	color: #e16c47;
+	font-size: 14px;
+}
+
+div.cmchr {
+	margin-top: 1em;
+	height: 10px;
+	background: url(../image/sown/hr.png) repeat-x;
+}
+
+/* c01 */
+#c01 {
+	background: url(../image/sown/lead_bg.jpg) no-repeat right top;
+	padding-right: 180px;
+}
+
+#c01 ul {
+	margin-top: 2em;
+	list-style: none;
+}
+
+#c01 ul li strong {
+	color: #777;
+}
+
+/* c02 - c08 */
+#c02, #c03, #c04, #c05, #c06, #c07, #c08 {
+	padding-right: 20px;
+}
+
+/* c02 */
+ul.maru {
+	list-style: none;
+	margin: 1em 0;
+}
+
+ul.maru li {
+	background: url(../image/sown/maru.png) no-repeat 0 0.4em;
+	padding-left: 1.25em;
+}
+
+#c02 div.box {
+	border:0;
+	margin: 10px 0;
+	background: #eee;
+	padding: 20px 20px 20px 60px;
+}
+
+#c02 div#c02b01.box {
+	background-image: url(../image/sown/ok.png);
+	background-repeat: no-repeat;
+	background-position: 20px 16px;
+}
+
+#c02 div#c02b02.box {
+	background-image: url(../image/sown/ng.png);
+	background-repeat: no-repeat;
+	background-position: 20px 16px;
+}
+
+#c02 div.box h3 {
+	margin: 0.4em 0 1em 0;
+	color: #333;
+}
+
+#c02 div.box ul {
+	list-style: none;
+}
+
+#c02 div.box ul li {
+	background: url(../image/sown/boxh3.png) no-repeat 0 0.7em;
+	padding-left: 0.8em;
+}
+
+#c02 div.box ul li strong {
+	font-weight: normal;
+	color: #e26c47;
+}
+
+/* c03, c04 */
+
+#c03 table,
+#c04 table,
+#presentations table {
+	border-collapse: collapse;
+	border-top: none;
+	margin: 1em 0;
+	width: 80%;
+}
+
+#c03 table th,
+#c04 table th,
+#presentations table th {
+	background:#fff;
+	border-bottom: none;
+	border-right: 1px solid #e26c47;
+	text-align: right;
+	color: #e26c47 !important;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+#c03 table td,
+#c04 table td,
+#presentations table td {
+	border-bottom: none;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+/* c03 */
+
+#c03 ul {
+	list-style: none;
+}
+
+#c03 ul li {
+	background: url(../image/sown/ten.png) no-repeat 0.5em 0.5em;
+	padding-left: 1em;
+}
+
+* html #c03 ul li {
+	background-position: 0.5em 0.7em;
+}
+
+/* c05 */
+#c05 table {
+	border-collapse: collapse;
+	border-top: none;
+	margin: 1em 0;
+}
+
+#c05 table tr {
+	vertical-align: top;
+}
+
+#c05 table th,
+#c05 table td {
+	background:#fff;
+	border-bottom: none;
+	border-right: none;
+	padding:0;
+	vertical-align: top;
+	padding-bottom:1em;
+}
+
+#c05 table td {
+	padding-left: 20px;
+	font-size:12px;
+	padding-top: 0.5em;
+}
+
+#c05 table td strong,
+#c05 table td em {
+	display: inline;
+	font-size:14px;
+	margin:0; padding:0;
+}
+
+#c05 table td strong {
+	color: #333;
+}
+
+#c05 table td em {
+	color: #666;
+}
+
+/* c06 */
+#c06 ol {
+	padding-left: 30px;
+	margin: 1em 0;
+}
+
+#c06 ol li span {
+	font-size:12px;
+}
+
+#c06 ol li ul {
+	list-style: none;
+}
+
+#c06 ol li ul li {
+	background: url(../image/sown/ten.png) no-repeat 0.5em 0.7em;
+	padding-left: 1em;
+}
+
+ul.kome {
+	list-style:none;
+	margin: 1em 0;
+}
+
+ul.kome li {
+	font-size:12px;
+	background: url(../image/sown/kome.png) no-repeat 0 0.25em;
+	padding-left: 1em;
+}
+
+* html ul.kome li {
+	background-position: 0 0.5em;
+}
+
+#c08 p {
+	text-indent: 0;
+}
+
+#c08 p span {
+	font-size: 12px;
+}
+
+#c01 a, #c02 a, #c03 a, #c04 a, #c05 a, #c06 a, #c07 a, #c08 a {
+	text-decoration: underline;
+}
+
+/* presentations */
+#presentations h3 {
+	font-size: 16px;
+	color: #6b4933;
+	margin-top: 2em;
+	border-bottom: 1px dotted #6b4933;
+	padding-bottom: 0.5em;
+	margin-bottom: 1em;
+}
+
+#presentations ul {
+}
+
+#presentations ul li {
+	/* height: 240px; */
+	/* padding: 10px 20px 0 20px;*/
+	padding: 10px 0;
+	/*border-bottom: 1px solid #e7e1de;*/
+        height: 380px;
+	list-style: none;
+}
+
+#presentations ul li p.movie {
+       float: left;
+       width: 400px;
+}
+
+#presentations ul li div {
+       float: right;
+       width: 220px;
+       margin-top: 5px;
+}
+
+#presentations ul li img {
+	/* float: right; */
+        width: 150px;
+}
+#presentations ul li h4 {
+	/* margin:0 0 15px 0; padding:0 0 5px 0; */
+	margin: 10px 0 0 0; padding:0;
+	font-size: 16px;
+	color:#6b4933;
+	/* border-bottom: 1px solid #ccc; */
+	line-height: 1.2;
+}
+
+div.cmcontent #presentations ul li p {
+	margin: 5px 0 0 0;
+	text-indent: 0;
+	line-height: 1.35;
+}
+
+#presentations ul li p.country,
+#presentations ul li span.country {
+	color: #666;
+}

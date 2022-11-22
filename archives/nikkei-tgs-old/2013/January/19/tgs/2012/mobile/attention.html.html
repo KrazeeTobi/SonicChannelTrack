@@ -1,0 +1,91 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta HTTP-EQUIV="Content-Type" CONTENT="text/html;CHARSET=Shift_JIS">
+<title>お願いとご注意│東京ｹﾞｰﾑｼｮｳ2012</title>
+<style type="text/css">
+<![CDATA[
+a:link{color: #0066ff;}
+a:visited{color: #ff6600;}
+body{background: #e8fcfb;}
+div {font-family: sans-serif;}
+body #header,
+body #header img,
+body #footer,
+body #footer img,
+body .wrapper {
+	width: 100% !important;
+}
+]]>
+</style>
+<meta name="viewport" content="width=480,maximum-scale=0.6667 user-scalable=no " />
+<link media="only screen and (max-device-width:480px)" href="iphone.css" type="text/css" rel="stylesheet" />
+</head>
+<?php
+  // Copyright 2009 Google Inc. All Rights Reserved.
+  $GA_ACCOUNT = "MO-18155629-1";
+  $GA_PIXEL = "/ga.php";
+
+  function googleAnalyticsGetImageUrl() {
+    global $GA_ACCOUNT, $GA_PIXEL;
+    $url = "";
+    $url .= $GA_PIXEL . "?";
+    $url .= "utmac=" . $GA_ACCOUNT;
+    $url .= "&utmn=" . rand(0, 0x7fffffff);
+    $referer = $_SERVER["HTTP_REFERER"];
+    $query = $_SERVER["QUERY_STRING"];
+    $path = $_SERVER["REQUEST_URI"];
+    if (empty($referer)) {
+      $referer = "-";
+    }
+    $url .= "&utmr=" . urlencode($referer);
+    if (!empty($path)) {
+      $url .= "&utmp=" . urlencode($path);
+    }
+    $url .= "&guid=ON";
+    return str_replace("&", "&amp;", $url);
+  }
+?>
+<body style="width: 100%; margin: 0; padding: 0">
+<div id="header" style="margin: 0 0 5px;"><img src="images/header.gif" alt="東京ゲームショウ2011" style="width: 100%;" /></div>
+<div class="wrapper" style="width:100%;">
+<div><img src="images/tit06.gif" width="100%" alt="お願いとご注意" /></div>
+<div style="margin: 0 0 5px;">
+<table bgcolor="#e8fcfb" width="100%">
+<tr bgcolor="#e8fcfb"><td valign="top">* 東京ｹﾞｰﾑｼｮｳでは、ご来場にあたり徹夜行為は固く禁じております。</td></tr>
+<tr bgcolor="#e8fcfb"><td valign="top">* 危険ですので、会場内では絶対に走らないでください。危険な行為、他の来場者に迷惑をかける行為、ｲﾍﾞﾝﾄの円滑な運営を妨げる行為等を行った来場者に対して、事務局が入場の拒否や施設からの退場を命じることがあります。<br /><br /></td></tr>
+</table>
+
+<div><img src="images/tit07.gif" width="100%" alt="一般公開日の手荷物検査について" /></div>
+<table bgcolor="#e8fcfb" width="100%">
+<tr bgcolor="#e8fcfb">
+  <td valign="top">東京ｹﾞｰﾑｼｮｳ2012では、ご来場者の安全の確保を目的に、一般公開日となる9月22日(土)と23日(日)の両日、来場者手荷物検査を実施いたします。幕張ﾒｯｾに入館する来場者導線に沿って、手荷物検査場を設置いたします。</td></tr>
+<tr bgcolor="#e8fcfb"><td valign="top">持込禁止物の会場内へのお持ち込みは固くお断りさせていただきます。荷物はなるべく少なめに、手荷物検査しやすい状態でご来場ください。また、荷物の多い方は入場に時間がかかることが予想されます。お時間に余裕を持ってご来場ください。なお、ﾍﾟｯﾄﾎﾞﾄﾙは、中身を確認させていただく場合があります。</td></tr>
+<tr bgcolor="#e8fcfb"><td valign="top">会場内の安全管理上、皆様のご理解･ご協力をお願いいたします。<br />
+※詳細は<a href="http://expo.nikkeibp.co.jp/tgs/2011/visitor/attention.html">PC向け公式ｻｲﾄ</a>などでご確認ください。<br /><br /></td></tr>
+</table>
+
+<div><img src="images/tit08.gif" width="100%" alt="コスプレイヤーの方へ" /></div>
+<table bgcolor="#e8fcfb" width="100%">
+<tr bgcolor="#e8fcfb"><td valign="top">東京ｹﾞｰﾑｼｮｳでｺｽﾌﾟﾚをされる方は、所定の規定を熟読し、必ず守ってください。ご不明な点がありましたら､更衣室常駐のｽﾀｯﾌまでお問い合わせください。<br />
+※詳細は<a href="http://expo.nikkeibp.co.jp/tgs/2011/visitor/cosplayers.html">PC向け公式ｻｲﾄ</a>などでご確認ください。<br /><br /></td></tr>
+</table>
+</div>
+<div><img src="images/annai.gif" width="100%" alt="" /></div>
+<div style="margin: 5px 0 0;">
+&nbsp;<font color="#2e2e2e">■</font> <a href="index.html">ﾄｯﾌﾟﾍﾟｰｼﾞ</a><br />
+&nbsp;<font color="#2e2e2e">■</font> <a href="ticket.html">前売券</a><br />
+&nbsp;<font color="#2e2e2e">■</font> <a href="access.html">ｱｸｾｽ</a><br />
+&nbsp;<font color="#2e2e2e">■</font> <a href="list.html">出展社一覧</a><br />
+&nbsp;<font color="#2e2e2e">■</font> <a href="attention.html.html">お願いとご注意</a><br />
+<!-- &nbsp;<font color="#2e2e2e">■</font> <a href="numbered_ticket.html">整理券について</a><br /> -->
+&nbsp;<font color="#2e2e2e">■</font> <a href="contact.html">お問い合わせ</a><br />
+&nbsp;<font color="#2e2e2e">■</font> <a href="faq.html">よくある質問(FAQ)</a><br />
+&nbsp;<font color="#2e2e2e">■</font> <a href="http://tgs.cesa.or.jp/index.html">PCサイトへ</a>
+</div>
+<div><img src="images/footer.gif" alt=""  style="width: 100%;" /></div>
+<div>
+<p align="center">&copy;2002-2012 CESA / Nikkei Business Publications, Inc. All rights reserved.</p>
+</div>
+</body>
+</html>
