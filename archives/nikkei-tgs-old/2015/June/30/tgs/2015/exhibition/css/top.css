@@ -1,0 +1,372 @@
+@charset "UTF-8";
+
+/* ===================================
+
+	File Name   : top.css
+
+====================================== */
+
+/*========== Style Contents ==========
+
+	1. Contents
+	2. Title
+	3. keylogo
+	4. blkR
+	5. BtnDownload_top
+	6. Top Information
+	7. blkImg 
+	
+====================================== */
+
+
+
+
+
+
+/*===== ■1. Contents =====*/
+
+#Contents {
+	margin:20px auto 0;
+	width:900px;
+	clear:both;
+}
+
+#Header {
+}
+
+
+
+
+
+
+/*===== ■3. keylogo =====*/
+
+.mainVisual {
+	z-index:-999;
+}
+.mainVisual img {
+	float:left;
+	height:300px;
+	width:595px;
+}
+
+.mainVisual a {
+	display:block;
+	float:right;
+	height:300px;
+	width:298px;
+	background:url('../img/bnr_main.jpg');
+}
+
+.mainVisual a:hover {
+	background-position:0 -300px;
+}
+
+
+
+
+
+
+/*===== ■4. blkR =====*/
+
+#blkR {
+	float:left;
+	width:480px;
+}
+
+
+
+
+
+
+/*===== ■5. BtnDownload_top =====*/
+
+#BtnDownload_top {
+	width: 480px;
+	margin: 30px auto;
+}
+
+#BtnDownload_top li a {
+	background-image: url(../common/img/img_btn.jpg);
+	height: 138px;
+	width: 480px;
+	display: block;
+	background-position: 0px -350px;
+}
+
+#BtnDownload_top li a:hover {
+	background-position: 0px -495px;
+}
+
+
+
+
+
+
+/*===== ■6. Top Information =====*/
+
+#TopInfo {
+	width: 900px;
+	padding-top:20px;
+	clear:both;
+	position:relative;
+}
+
+#TopInfo h3 {
+	background: url(../img/whatsnew.gif) no-repeat;
+	margin:0;
+	width: 900px;
+	height: 34px;
+	text-indent: -9999px;
+}
+
+#TopInfo a:link {
+	color:#006ee3;
+}
+#TopInfo a:visited {
+	color:#006ee3;
+}
+#TopInfo a:action {
+	color:#006ee3;
+}
+
+#TopInfo > a {
+	display:block;
+	background: url(../img/more.gif) no-repeat;
+	width: 118px;
+	height: 34px;
+	text-indent: -9999px;
+	position:absolute;
+	top:20px;right:0px;
+}
+
+#TopInfo > a:hover {
+	background-position:0 -34px;
+}
+
+#TopInfo > a.open {
+	background-position:0 -102px;
+}
+
+#TopInfo > a.open:hover {
+	background-position:0 -102px;
+}
+
+#TopInfo ul {
+	background:#e4edf7;
+	padding: 0px 20px 14px;
+	overflow: auto;
+}
+
+#TopInfo ul li {
+	padding: 12px 4px;
+	overflow: auto;
+	border-bottom: 1px dotted #bababa;
+}
+
+#TopInfo ul li span {
+	display: block;
+	float: left;
+	width: 12%;
+	color:#333333;
+	margin-right: 1%;
+	font-weight:bold;
+	line-height: 1.5em;
+}
+
+#TopInfo ul li p {
+	color:#333333;
+	width: 87%;
+	float: left;
+	line-height: 1.5em;
+}
+
+#TopInfo ul li p img {
+	display:inline-block;
+	margin:0 0 4px 5px;
+}
+
+#TopInfo ul li p:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.hyde { display:none;}
+
+.hyde li {
+	overflow: auto;
+	/* border-top:1px solid #dedede; */
+}
+
+
+
+
+
+
+/*===== ■7. blkImg  =====*/
+
+#blkImg {
+	clear:both;
+	padding-top:20px;
+}
+
+#ttlImg {
+	margin-bottom:4px;
+}
+
+#idWrap{
+	margin-bottom:14px;
+}
+
+div.scrollWrapper {
+	position:relative;
+	overflow:hidden;
+	width:100%;
+	height:100%;
+}
+
+div.scrollableArea {
+	position:relative;
+	width:auto; height:100%;
+}
+
+.clSum {
+	width:100%;
+	height:143px;
+	position:relative;
+}
+
+.clSum * {
+	position:relative;
+	float:left;
+	margin:0; padding:0;
+}
+
+div.scrollableArea img{
+	padding:6px !important;
+}
+
+.tilemenu {
+	max-width:920px;
+	margin:41px auto 0;
+	position:relative;
+	left:10px;
+}
+
+.tilemenu:after{
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+* html .tilemenu { zoom: 1; } /* IE6 */
+*:first-child+html .tilemenu { zoom: 1; } /* IE7 */
+
+.tilemenu > li {
+	float:left;
+	margin-right:4px;
+	margin-top:4px;
+	background:#ffffff;
+}
+
+.tilemenu > li.tile3 {
+	width:900px;
+	margin-right:0;
+}
+.tilemenu .tile3 a{
+	height:100px;
+}
+
+.tilemenu > li.tile2 {
+	width:448px;
+}
+
+.tilemenu > li.tile1 {
+	width:222px;
+}
+
+.tilemenu > li a {
+	display:block;
+	height:190px;
+	line-height:190px;
+	text-align:center;
+	text-decoration:none;
+	text-indent:-9999px;
+}
+
+.tilemenu > li.tile2 a {
+	width:448px;
+}
+
+.tilemenu > li.tile1 a {
+	width:222px;
+}
+
+.tilemenu > li a:hover {
+	opacity:0.5;
+}
+
+.tilemenu > li a.cate2 {
+}
+
+.tilemenu > .noRover a:hover {
+	opacity:1;
+}
+
+/* .tilemenu > li a.cate3 {
+	border:3px solid #993faf;
+} */
+
+.exhibit {
+	background:url('../img/menu_exhibit.jpg');
+}
+.area {
+	background:url('../img/menu_area.jpg');
+}
+.indie_games {
+	background:url('../img/menu_indie_games.jpg');
+}
+.sense_of {
+	background:url('../img/menu_sense.jpg');
+}
+
+.sponsor {
+	background:url('../img/menu_sponsor.jpg');
+}
+.rule {
+	background:url('../img/menu_rule.jpg');
+}
+.support {
+	background:url('../img/menu_support.jpg');
+}
+.download {
+	background:url('../img/menu_download.jpg');
+}
+.report {
+	background:url('../img/menu_report.jpg');
+}
+.press {
+	background:url('../img/menu_press_02.jpg');
+}
+.preview {
+	background:url('../img/menu_preview.jpg');
+}
+.contact {
+	background:url('../img/menu_contact.jpg');
+}
+.cate4 {
+	background:url('../img/menu_cesa.jpg');
+}
+.awardsA {
+	background:url('../img/menu_awardsA.jpg');
+}
+.awardsY {
+	background:url('../img/menu_awardsY.jpg');
+}
+
+
+
+

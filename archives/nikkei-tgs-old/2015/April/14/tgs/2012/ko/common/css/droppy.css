@@ -1,0 +1,124 @@
+/* Basic code - don't modify */
+
+/* gNavi */
+#gNavi {
+	z-index: 1000;
+	clear: both;
+	/*width:980px;
+	height:47px;*/
+	background: url(../img/gn/gn_bg.jpg) 0 0 no-repeat;
+	padding: 3px 0 0 9px;
+}
+ 
+#nav {
+	z-index: 1000;
+	display: block;
+	margin: 0;
+	width:980px;
+	height:47px;
+	position: relative;
+}
+
+#nav:after {
+    content: ".";
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+}
+#nav { zoom:1; }
+/* exlude MacIE5 \*/
+* html #nav { height: 1% }
+#nav {display:block;}
+/* end MacIE5 */
+
+#nav li {
+	display: inline;
+	list-style: none;
+	margin: 0 2px 0 0;
+	padding: 0;
+	float: left;
+	position: relative;
+}
+#nav a {
+	display: block;
+}
+#nav ul {
+	display: none;
+	position: absolute;
+	left: 0;
+	margin: 0;
+	padding: 0;
+	font-size: 12px;
+	line-height: 1.4;
+}
+* html #nav ul {
+	line-height: 0;
+} /* IE6 "fix" */
+#nav ul a {
+	zoom: 1;
+} /* IE6/7 fix */
+#nav ul li {
+	float: none;
+}
+/* Essentials - configure this */
+
+#nav ul {
+	width: 200px;
+}
+/* Everything else is theming */
+ 
+#nav {
+}
+#nav *:hover {
+	background-color: none;
+}
+#nav ul a {
+	color: #ffffff;
+	font-size: 12px;
+	line-height: 1.4;
+}
+#nav li.hover a {
+}
+#nav ul {
+	top: 39px;
+	left: 0;
+	margin: 0;
+	padding: 0;
+}
+#nav ul li a {
+	background: #000000 url(../img/ic_arrow.gif) 8px 50% no-repeat;
+	padding: 10px 10px 10px 15px;
+	border-top: solid 1px #ffffff;
+}
+#nav ul li a:hover {
+	background: #555555 url(../img/ic_arrow.gif) 8px 50% no-repeat;
+	text-decoration: none;
+}
+
+/* #nav ul a { border-bottom: none; } - I also needed this for IE6/7 */
+
+#nav li ul li { display: block;}
+
+#nav li ul li a { display: block;}
+
+#nav li.visitor ul li a { background: #379c00 url(../img/ic_arrow.gif) 8px 50% no-repeat; }
+#nav li.visitor ul li a:hover { background: #51b71a url(../img/ic_arrow.gif) 8px 50% no-repeat; }
+
+#nav li.event ul li a { background: #40a9db url(../img/ic_arrow.gif) 8px 50% no-repeat; }
+#nav li.event ul li a:hover { background: #60c2f0 url(../img/ic_arrow.gif) 8px 50% no-repeat; }
+
+#nav li.business ul li a { background: #8ab610 url(../img/ic_arrow.gif) 8px 50% no-repeat; }
+#nav li.business ul li a:hover { background: #9fcc21 url(../img/ic_arrow.gif) 8px 50% no-repeat; }
+#nav li.business ul { width: 240px; }
+
+#nav li.family ul li a { background: #ee312b url(../img/ic_arrow.gif) 8px 50% no-repeat; }
+#nav li.family ul li a:hover { background: #fa514b url(../img/ic_arrow.gif) 8px 50% no-repeat; }
+
+#nav li.media ul li a { background: #f13687 url(../img/ic_arrow.gif) 8px 50% no-repeat; }
+#nav li.media ul li a:hover { background: #fd5ea3 url(../img/ic_arrow.gif) 8px 50% no-repeat; }
+
+#nav li.contact ul li a { background: #7b06b7 url(../img/ic_arrow.gif) 8px 50% no-repeat; }
+#nav li.contact ul li a:hover { background: #9521d0 url(../img/ic_arrow.gif) 8px 50% no-repeat; }
+
+
