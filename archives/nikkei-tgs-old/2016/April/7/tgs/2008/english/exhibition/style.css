@@ -1,0 +1,1503 @@
+@charset "utf-8";
+
+/* -----------------------------------------------------------
+CSS Information
+File name: style.css
+----------------------------------------------------------- */
+
+/* -----------------------------------------------------------
+Outline
+exhibition/index.html
+----------------------------------------------------------- */
+#contents{
+	padding-bottom:10px !important;
+	
+}
+
+#contents h3{
+	font-weight: bold;
+	font-size: 14px;
+	margin: 0 0 10px 9px;
+	color: #666;
+}
+
+#contents h3 img {
+	margin: 0 0 20px 0;
+}
+
+html>/**/body #contents h3 img {/* except IE6.7*/
+	margin: 20px 0 20px 0;
+}
+
+html*#contents h3 img{
+	margin: 20px 0 20px 0;
+}
+
+#contents h4{
+	margin: 0 0 10px 0;
+}
+
+#overView {
+	padding-bottom: 0px;
+}
+
+#contents #overView .text{
+	width: 906px;
+	/*border-top: #ff9900 dotted 1px;
+	border-bottom: #FF9900 dotted 1px;*/
+	margin: 0 0 10px 0;
+	padding: 0 10px 0 10px;
+	color: #666;
+	min-height: 520px;
+	clear:both;
+}
+
+#contents #overView .text2{
+	width: 906px;
+	/*border-top: #ff9900 dotted 1px;
+	border-bottom: #FF9900 dotted 1px;*/
+	margin: 0 0 20px 0;
+	padding: 0 10px 10px 10px;
+	color: #666;
+	min-height: 280px;
+	clear:both;
+}
+
+
+#contents #overView .text3{
+	width: 906px;
+	/*border-top: #ff9900 dotted 1px;
+	border-bottom: #FF9900 dotted 1px;*/
+	margin: 0 0 20px 0;
+	padding:  0 10px 10px 10px;
+	color: #666;
+	min-height: 100px;
+	clear:both;
+}
+
+
+#contents #overView .text3 h5,
+#contents #overView .text2 h5{
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#contents #overView .text .p{
+	width: 420px;
+	_width: 410px;
+	/*height: 470px;
+	overflow: scroll;*/
+	display: block;
+	float: left;
+	margin-right: 10px;
+	
+}
+
+#contents #overView .text .p p{
+	margin-bottom: 5px;
+	line-height: 1.4;
+}
+
+#contents #overView .text3 p{
+
+}
+
+#contents #overView .text3 span{
+	display:block;
+	border: solid 1px #CCCCCC;
+	width: 200px;
+	margin: 0 5px 20px 0;
+	text-align: center;
+	font-weight: bold;
+	background:  #666666;
+	color: #fff;
+	float: left;
+
+}
+#contents #overView .text3 strong{ 
+	display: block;
+	margin: 10px 0 0 0;
+	padding-bottom: 0;	
+	vertical-align: bottom;
+	}
+
+#contents #overView .text2 #leftBox{
+	float: left;
+	margin: 0 20px 0 0;
+	width: 640px;
+}
+
+#contents #overView .text2 #rightBox{
+	float: right;
+	margin: 0 0 0 0;
+	width: 233px;
+}
+
+#contents #overView .text2 p{ margin-right: 10px;}
+
+#contents #overView .text2  #rightBox img{
+
+}
+
+#main #wrapper #contents #overView table{
+	clear: both;
+	width: 630px!important;
+	margin: 5px 40px 20px 0;
+	border-collapse: collapse;
+	height: 450px;
+	float: left;
+}
+
+#main #wrapper #contents #overView table a{
+	font-weight: normal;
+	color: #FF9900;
+	border-bottom: solid 1px #FF9900;
+}
+
+#main #wrapper #contents #overView table img{
+	vertical-align: middle;
+	margin: 0 0 0 5px;
+}
+
+#main #wrapper #contents #overView table a:hover{
+	font-weight: normal;
+	color: #FF9900;
+	border-bottom: none;
+	background: none;
+}
+
+#main #wrapper #contents #overView .photo{
+
+	margin: 0 0 0 0;
+}
+
+
+#main #wrapper #contents #overView th{
+	width: 120px;
+	color: #666;
+}
+
+#main #wrapper #contents td{
+	color: #666;
+}
+
+
+#main #wrapper #contents th span{
+	color: #666;
+	font-size: 10px;
+	font-weight:normal;
+}
+
+#overView dl{
+	color: #666;
+	}
+
+#overView dt{
+		font-weight: bold;
+	}
+	
+#overView dt:first-child{
+	background: #9999FF;
+	padding: 0 2px 2px 5px;
+	display: block;
+	text-align: left;
+	color: #FFFFFF;
+	height: 20px;
+}
+	
+#overView .dt dt:first-child{
+	padding: 0 2px 2px 5px;
+	text-align: left;
+	color: #666;
+	height: 20px;
+}
+	
+
+
+#overView dt{
+	background: #FF9900;
+	padding: 0 2px 2px 2px;
+	display: block;
+	text-align: left;
+	color: #FFFFFF;
+	width: 150px;
+	height: 20px;
+}
+
+#overView .dt dt{
+background: none;
+	padding: 0 2px 2px 2px;
+	display: block;
+	text-align: left;
+	color: #666;
+	width: 120px;
+	height: 20px;
+}
+
+
+#overView dd{
+		margin: 0 0 0 5px;
+	}
+
+#overView a{
+	color: #666;
+	font-weight: bold;
+
+}
+
+#overView a:hover{
+	background: #333;
+		color: #fff;
+	font-weight: bold;
+}
+
+/* -----------------------------------------------------------
+Booth areas and booth charges
+exhibition/area.html
+----------------------------------------------------------- */
+
+#main #wrapper #contents #area{
+	width: 920px;
+	margin: 10px 0 0 5px;
+	_padding-bottom: 20px;
+	clear:both;
+	line-height: 1.4;
+}
+
+html>/**/body #main #wrapper #contents #area{/* except IE6.7*/
+	margin: -5px 0 0 0;
+}
+
+
+#main #wrapper #contents #area .Box,
+#main #wrapper #contents #area .Box2{
+	min-height: 550px;
+	_min-height: 562px;
+	width: 450px;
+	padding: 0 0 0 0;
+	/*border-bottom: 1px dotted #F8B74A;*/
+}
+
+
+#main #wrapper #contents #area .Box{
+	margin: 0 0 0 0;
+	float: left;
+	
+}
+
+#main #wrapper #contents #area .Box2{
+	float: right;
+	margin: 0 -5px 0 0;
+}
+
+#main #wrapper #contents #area .Box .note,
+#main #wrapper #contents #area .Box2 .note{
+	background: url(../common/note_cap.gif) no-repeat 0 4px;
+	margin: 5px 0 5px 0px;
+	padding: 0 0 0 12px;
+	font-size: 10px;
+	color: #666666;
+}
+
+#main #wrapper #contents #area .Box_height{
+	margin-top: 35px;
+}
+
+#main #wrapper #contents #area .ex_height{
+	min-height: 668px;
+	margin-bottom: 10px;
+}
+
+html>/**/body #main #wrapper #contents #area .ex_height{
+	min-height: 654px;
+}
+
+#main #wrapper #contents #area h3 img{
+	margin: 0 0 0 -8px;
+}
+.noteR{
+background: url(../common/note_cap.gif) no-repeat 0 2px;
+	margin: 5px 0 5px 0px;
+	padding: 0 0 0 12px;
+	font-size: 10px;
+	color: #666666;
+
+}
+
+.noteR a{
+	margin: 5px 0 5px 0px;
+	padding: 0 0 0 0;
+	font-size: 10px;
+	color: #666666;
+
+}
+
+.toTop{
+	float: right;
+	margin: 0 0 20px 0;
+	clear: both;
+}
+
+
+/* ----------------------
+dl dt dd ul ol li
+-------------------------*/
+
+#main #wrapper #contents #area .Box dl,
+#main #wrapper #contents #area .Box2 dl{
+	margin: 10px 0 0 5px;
+	width: 450px;
+}
+
+#main #wrapper #contents #area .Box dl dt,
+#main #wrapper #contents #area .Box2 dl dt{
+	background: #8D8D8D;
+	color: #FFFFFF;
+	font-weight: bold;
+	width: 60px;
+	padding: 2px;
+	margin: 0 5px 0 0;
+	text-align: center;
+}
+
+#main #wrapper #contents #area .Box dl dd,
+#main #wrapper #contents #area .Box2 dl dd{
+	font-size: 10px;
+	margin:5px 0 0 5px;
+	padding: 0 0 0 0;
+	color:#666666;
+}
+
+#main #wrapper #contents #area .Box ol,
+#main #wrapper #contents #area .Box2 ol{
+	font-size: 12px;
+	color: #666666;
+	margin: 0 0 15px 5px;
+	padding: 10px 15px;
+	width: 410px;
+}
+
+#main #wrapper #contents #area ul ol{
+	margin: 0 0 0 10px;
+}
+
+/* ----------------------
+tabel tr td
+-------------------------*/
+
+
+#main #wrapper #contents #area .Box table,
+#main #wrapper #contents #area .Box2 table{
+	width: 443px!important;
+	border: #ccc solid 1px!important;
+	border-collapse: collapse;
+	margin: 10px 0 0 5px;
+	padding: 0 10px;
+	height: 50px;
+	color: #666666;
+}
+
+
+#main #wrapper #contents #area .Box tr{
+
+	border-right: #666 dotted 1px;
+}
+
+#main #wrapper #contents #area .Box th,
+#main #wrapper #contents #area .Box2 th{
+	width: 120px;
+	border-right: #666 dotted 1px;
+	border-bottom: #666 dotted 1px;
+	vertical-align: middle;
+	color: #666666;
+	font-size: 14px;
+	text-align: center;
+}
+
+#main #wrapper #contents #area .Box td,
+#main #wrapper #contents #area .Box2 td{
+	width: 200px;
+	border-top: #666 dotted 1px;
+	border-bottom: #666 dotted 1px;
+	border-left: #666 dotted 1px;
+	vertical-align: middle;
+}
+
+#main #wrapper #contents #area .Box .menber,
+#main #wrapper #contents #area .Box2 .menber{
+	background: #f1f1f1;
+	color: #666;
+	width: 65px;
+	font-weight: bold;
+}
+
+#main #wrapper #contents #area .Box .menberFill,
+#main #wrapper #contents #area .Box2 .menberFill{
+	background: #f1f1f1;
+	color: #666;
+}
+
+#main #wrapper #contents #area #kidsBox .normal{
+	color: #666;
+	font-weight: bold;
+
+}
+
+#main #wrapper #contents #area .Box .normal,
+#main #wrapper #contents #area .Box2 .normal{
+	color: #666;
+	font-weight: bold;
+	width: 65px;
+}
+
+/* ----------------------
+p,strong,span,em
+-------------------------*/
+#main #wrapper #contents #area .Box em,
+#main #wrapper #contents #area .Box2 em{
+	background: #f1f1f1;
+	display: block;
+	padding:5px 5px 5px 8px;
+	margin: 0 0 0 2.5px;
+	width: 432px;
+	min-height: 35px;
+}
+
+#main #wrapper #contents #area .Box em span,
+#main #wrapper #contents #area .Box2 em span{
+	font-weight: bold;
+	color: #666666;
+}
+
+#main #wrapper #contents #area .Box p,
+#main #wrapper #contents #area .Box2 p{
+	display: block;
+	margin: 0 0 0 10px;
+	color: #666666;
+}
+
+#main #wrapper #contents #area .Box a,
+#main #wrapper #contents #area .Box2 a{
+	color: #FF9900;
+	border-bottom: #FF9900 solid 1px;
+}
+
+#main #wrapper #contents #area .Box a:hover,
+#main #wrapper #contents #area .Box2 a:hover{
+	color: #FF9900;
+	border-bottom: none;
+}
+
+
+#main #wrapper #contents #area ol span,
+#main #wrapper #contents #area .Box td span,
+#main #wrapper #contents #area .Box2 td span,
+#main #wrapper #contents #area .Box th span,
+#main #wrapper #contents #area .Box2 th span{
+	 font-size: 10px;
+	 font-weight: normal;
+}
+
+#main #wrapper #contents #area ol span{
+	color: #999999;
+}
+
+#main #wrapper #contents #area strong{
+	color: #666;
+	width: 432px;
+	margin: 10px 0 5px 5px;
+	display: block;
+}
+
+#main #wrapper #contents #area .strong{
+	color: #666;
+	margin: 15px 0 5px 5px;
+	/*border-left: 5px #666 solid;*/
+	padding: 0 0 0 0;
+	display: block;
+	width: 432px;
+	font-weight: normal;
+}
+
+#main #wrapper #contents #area .text1{
+	margin: 10px 0 10px 0;
+	display:block;
+	width: 432px;
+	padding: 0 4px 0 10px;
+	color: #666666;
+	/*border-top: solid #f1f1f1 1px;
+	border-bottom: solid #f1f1f1 1px;*/
+	
+}
+
+/* ----------------------
+kids
+-------------------------*/
+
+#main #wrapper #contents #area #kidsBox{
+		min-height: 700px;
+		padding-bottom: 20px;
+		/*border-bottom: 1px dotted #F8B74A;*/
+}
+
+#main #wrapper #contents #area .Box_height_kids{
+	padding-bottom: 60px;
+	/*border-bottom: 1px dotted #F8B74A;*/
+}
+
+#main #wrapper #contents #area #kidsBox .Box,
+#main #wrapper #contents #area #kidsBox .Box2{
+	width: 450px;
+	padding: 0 0 10px 0;
+	/*border-bottom:none !important;*/
+}
+
+#main #wrapper #contents #area #kidsBox .Box{
+
+	margin: 0 0 0 0;
+	float: left;
+	
+}
+
+#main #wrapper #contents #area #kidsBox .Box2{
+	float: right;
+	margin: 0 0 0 0;
+	/*border-left: #f1f1f1 solid 1px;
+	border-right: #f1f1f1 solid 1px;*/
+	min-height: 500px;
+	padding: 0 0 0 5px;
+}
+
+#main #wrapper #contents #area #kidsBox .Box2 h4 {
+	font-size: 14px;
+	font-weight: bold;
+	margin: -10px 0 0 5px;
+	color: #FF7373;
+}
+
+#main #wrapper #contents #area #kidsBox .Box2 h4 span{
+	background: #FF7373;
+	font-size: 12px;
+	display: block;
+	margin: 10px 0 5px 0;
+	padding: 2px;
+	width: 65px;
+	color: #fff;
+	font-weight: bold;
+	
+}
+
+#main #wrapper #contents #area #kidsBox em{
+	background: #f1f1f1;
+	display: block;
+	padding:5px 5px 5px 8px;
+	margin: 0 0 10px 2.5px;
+	width: 908px;
+	min-height: 35px;
+}
+
+#main #wrapper #contents #area #kidsBox table{
+	width: 443px!important;
+	border: #ccc solid 1px;
+	margin: 10px 0 0 5px;
+	padding: 0 10px;
+	color: #666666;
+}
+
+#main #wrapper #contents #area #kidsBox .menberFill{
+	background: #f1f1f1;
+	color: #666;
+}
+
+#main #wrapper #contents #area #kidsBox tr{
+	border-top: #666 dotted 1px;
+	border-bottom: #666 dotted 1px;
+	border-left: #666 dotted 1px;
+}
+
+#main #wrapper #contents #area #kidsBox td{
+	border-top: #666 dotted 1px;
+	border-bottom: #666 dotted 1px;
+	border-left: #666 dotted 1px;
+}
+
+#kidsBox .menber{
+	background: #f1f1f1;
+	color: #666;
+	width: 65px;
+	font-weight: bold;
+
+}
+
+#main #wrapper #contents #area #kidsBox th{
+	width: 120px;
+	border-right: #666 dotted 1px;
+	vertical-align: middle;
+	color: #666666;
+	font-size: 14px;
+	text-align: center;
+}
+
+#kidsBox dl{
+	margin: 10px 0 10px 5px;
+	width: 450px;
+}
+
+#kidsBox dl dt{
+	background: #8D8D8D;
+	color: #FFFFFF;
+	font-weight: bold;
+	width: 60px;
+	padding: 2px;
+	margin: 0 5px 0 0;
+	text-align: center;
+}
+
+#kidsBox dt{
+	font-size: 10px;
+	padding: 0 0 0 0;
+	color:#666666;
+}
+
+#kidsBox ol{
+	font-size: 12px;
+	border-top: solid #f1f1f1 1px;
+	border-bottom: solid #f1f1f1 1px;
+	color: #666666;
+	margin: 0 0 15px 5px;
+	padding: 10px 15px;
+	width: 410px;
+}
+
+#kidsBox .note{
+	background: url(../common/note_cap.gif) no-repeat 0 4px;
+	margin: 2px 0 0 5px;
+	padding: 0 0 0 12px;
+	font-size: 10px;
+	color: #666666;
+}
+
+#main #wrapper #contents #area #kidsBox .Box2 strong{
+	color: #FF7373;
+	width: 432px;
+	margin: 10px 0 5px 5px;
+	display: block;
+}
+
+#main #wrapper #contents #area #kidsBox .Box2 .strong{
+	color: #FF7373;
+	margin: 15px 0 5px 5px;
+	/*border-left: 5px #FF7373 solid;*/
+	padding: 0 0 0 0;
+	display: block;
+	width: 432px;
+	font-weight: normal;
+}
+
+
+
+
+/* -----------------------------------------------------------
+Services provided in addition to display booths
+exhibition/support.html
+----------------------------------------------------------- */
+#support{
+	margin: 0 0 0 0;
+}
+
+html>/**/body #support{
+	margin-top: -20px !important;
+}
+
+#support .Box,
+#support .Box2{
+
+	width: 450px;
+	padding: 0 0 10px 0;
+	/*border-bottom: 1px dotted #F8B74A;*/
+}
+
+
+#support .Box{
+	margin: 0 0 0 -5px;
+	_margin: 0 0 0 -1px;
+	float: left;
+}
+
+#support .Box2{
+	float: right;
+	margin: 0 0 0 10px;
+	_margin: 0 0 0 2px;
+}
+
+#contents #support h3 img{
+	margin: 0 0 0 0;
+}
+
+html>/**/body #contents #support h3 img{
+	margin: 10px 0 0 0;
+}
+
+
+#support em{
+	background: #f1f1f1;
+	display: block;
+	padding:5px 5px 5px 8px;
+	margin: 0 0 0 11px;
+	_margin: 0 0 0 12px;
+	width: 430px;
+	min-height: 35px;
+}
+
+#support dl ul{
+	width: 200px;
+	padding: 5px 10px 5px 0;
+	font-size: 10px;
+}
+
+#support dl ul li{
+	list-style: none;	
+}
+
+ 
+#support .Box dl,
+#support .Box2 dl{
+	width: 215px;
+	margin: 10px 0 0 5px;
+	padding: 0 10px 0 0;
+	_padding: 0 0 0 0;
+	/*border-left: 1px solid #f1f1f1;
+	border-right: 1px solid #f1f1f1;*/
+	float: left;
+	
+}
+
+#support .Box dt,
+#support .Box2 dt{
+	width: 200px;
+	display: block;
+	background: #f1f1f1;
+	margin: 0 10px 5px 10px;
+	font-weight: bold;
+	padding: 0 0 0 5px;
+	color: #666;
+	text-align: left;
+}
+#support .Box dd,
+#support .Box2 dd{
+	width: 200px;
+	display: block;
+	margin: 0 0 5px 15px;
+	color: #666666;
+}
+
+
+#support .photo{
+	margin: 10px 10px 0 15px;
+	display: block;
+	float: right;
+}
+
+#support #dlRight{
+	width: 100px;
+	margin: 20px 108px 10px 0;
+	_margin: 20px -12px 0 0;
+	padding: 0;
+	border: none;
+	display: block;
+	float: right;
+}
+
+#support #dlRight dt{ 
+	margin: 0;
+	width: 200px;
+	_width: 190px;
+}
+
+#support #dlRight dd{ 
+	margin: 0 0 0 5px;
+}
+
+#support #dlRight ul{
+	margin:  0 0 10px 0; 
+}
+
+#support #dlRight li{
+	list-style-type: none;
+	background: url(../common/list_cap.gif) no-repeat 0 8px;
+	padding-left: 8px;
+		font-size: 12px;
+}
+
+#support .note{
+	background: url(../common/note_cap.gif) no-repeat 0 2px;
+	margin: 0 0 0 15px;
+	padding: 0 0 0 12px;
+	display: block;
+	width: 420px;
+	font-size: 10px;
+	line-height: 1.2;
+	color: #666666;
+}
+
+#support .note2{
+	background: url(../common/note_cap2.gif) no-repeat 0 2px;
+	margin: 10px 0 10px 15px;
+	padding: 0 0 0 6px;
+	display: block;
+	width: 140px;
+	font-size: 10px;
+	line-height: 1.2;
+	color: #666666;
+}
+
+
+#support .Box_height{
+	margin-top: 35px;
+	padding-top: 20px;
+	/*border-top: 1px dotted #F8B74A;*/
+}
+
+
+/* -----------------------------------------------------------
+Concerning display booth
+exhibition/rule.html
+----------------------------------------------------------- */
+
+#contents #rule h3 img{
+	margin: 0 0 0 -8px;
+}
+
+#contents #rule .boxHeight{
+	margin-top: 20px;
+}
+
+#contents #rule .text a{
+	color:#0033FF!important;
+}
+#contents #rule .pdf{
+	vertical-align: bottom;
+	_vertical-align: text-bottom ;
+	margin: 0 0 0 5px;
+}
+
+html>/**/body #contents #rule h3 img{/* except IE6.7*/
+	margin: 0 0 0 -8px;
+}
+
+#contents #rule h4{	
+	font-weight: bold; 
+	color:#666;
+	/*border-top: #CCCCCC dotted 1px;
+	border-bottom: #CCCCCC dotted 1px;*/
+	display: block;
+	margin: 10px 0;
+}
+
+
+#rule{
+	padding: 0 0 150px 0;
+}
+
+html:first-child #rule{/* Opera Safari*/
+	min-height: 2000px;
+}
+
+#rule ul{
+	margin: 0 0 0 20px;
+	
+}
+
+#rule ul li{
+list-style: disc;
+color:#666666;
+
+}	
+
+#rule ul ul li{
+	background: url(../common/note_cap.gif) no-repeat 0 2px;
+	margin: 0 0 0 -14px;
+	padding: 0 0 0 12px;
+	display: block;
+	width: 450px;
+	font-size: 10px;
+	line-height: 1.2;
+	list-style: none;
+	color: #666666;
+}
+
+#rule .box{
+
+	/*border-bottom: #F8B74A dotted 2px;*/
+	padding: 0 0 20px 0;
+	margin: 20px 0 20px 0;
+}
+
+html>/**/body #rule .box{/* except IE6.7*/
+	margin: 40px 0 0 0;
+}
+
+html:first-child #rule .box{/* Opera Safari*/
+	margin: 20px 0 0 0;
+}
+
+#rule .box .text{
+	width: 910px;
+	padding: 0 0 0 10px;
+	color:#666666;
+}
+
+#main #wrapper #contents #rule table{
+	width: 900px!important;
+	margin: 0;
+	border: solid #ddd 1px;
+	border-collapse: collapse;
+	margin: 10px 0 0 5px;
+}
+
+#main #wrapper #contents #rule th{
+	width: 200px;
+	background: #f1f1f1;
+}
+
+#main #wrapper #contents #rule td{
+	background: #f8f8f8;
+	
+}
+
+#main #wrapper #contents #rule td,
+#main #wrapper #contents #rule th{
+	border-top: solid #ddd 1px; 
+	border-right: solid #ddd 1px;
+	border-bottom: none;
+	border-left: solid #ddd 1px;
+	color: #666666;
+	vertical-align: top;
+	padding: 0 0 0 5px;
+}
+
+#main #wrapper #contents #rule .box p{
+	margin: 0 0 0 5px;
+	line-height: 1.6;
+}
+
+#main #wrapper #contents #rule .box a{
+
+	color: #990000;
+}
+
+#main #wrapper #contents #rule .box a img{
+	padding: 10px 0 0 0;
+}
+
+#main #wrapper #contents #rule .box a:hover{
+	/*border-bottom: #990000 solid 1px;*/
+	color: #990000;
+}
+
+
+#main #wrapper #contents #rule dl{
+	margin: 0 0 0 5px;
+	padding: 0 0 5px 0;
+}
+
+#main #wrapper #contents #rule dt{
+	background: #666;
+	color: #fff;
+	font-weight: bold;
+	display: block;
+	text-align: left;
+	padding: 0 0 0 5px;
+	margin: 10px 0 0 0;
+}
+
+#main #wrapper #contents #rule dd{
+	padding: 0 0 0 5px;
+	background: #f1f1f1;
+}
+
+#main #wrapper #contents #rule h5{
+	color: #666;
+	/*border-left: 5px #666 solid;*/
+	margin: 20px 0 5px 3px;
+	font-weight: bold;
+	padding: 0 0 0 5px;
+	display: block;
+}
+
+/* -----------------------------------------------------------
+2007 Report
+exhibition/2007_official.html
+----------------------------------------------------------- */
+
+#report .box{
+	padding: 0 0 20px 0;
+}
+
+#contents #report h3 img{
+	margin: 0 0 10px -8px;
+}
+
+#contents #report h4{	
+	font-weight: bold; 
+	color:#666;
+	/*border-top: #CCCCCC dotted 1px;
+	border-bottom: #CCCCCC dotted 1px;*/
+	font-size: 14px;
+	display: block;
+	margin: 10px 0 10px 10px;
+}
+
+
+html>/**/body #contents #reports h3 img{/* except IE6.7*/
+	margin: 0 0 0 0;
+}
+
+#report .boxLeft,
+#report .boxRight{
+	width: 455px;
+	margin: 20px 0 20px 0;
+	/*border-bottom: #333 dotted 1px;*/
+}
+
+#report .boxLeft{ 
+	float: left;
+	padding: 0 0 20px 0;
+	min-height: 380px;
+}
+
+html>/**/body #report .boxLeft{ /* except IE6.7*/
+	float: left;
+	padding: 0 0 20px 0;
+	min-height: 335px;
+}
+
+#report .boxRight{ 
+	float: right; 
+	margin: 20px -10px 0 0;
+}
+
+#report .boxLeft .text{
+	padding: 0 0 0 10px;
+	_padding: 0 0 0 20px;
+}
+
+#report .boxLeft .text p{
+	text-align: lefts;
+	display: block;
+}
+
+#report .boxLeft .text img{
+	margin-top: 10px;	
+}
+
+#main #wrapper #contents #report .box table{
+	width: 430px!important;
+	border: solid #ddd 1px;
+	border-collapse: collapse;
+	text-align: center;
+	margin: 0 30px 0 10px;
+	_margin: 0 20px 0 10px;
+	height: 288px;
+	float: left;
+}
+
+#report .boxLeft p{
+	float: left;
+	display: block;
+	margin: 0 0 0 5px;
+	_margin: 0px;
+}
+
+#main #wrapper #contents #report .box .img{
+	float: right;
+}
+
+#main #wrapper #contents #report .box th{
+	width: 180px;
+	background: #fff;
+	vertical-align: middle;
+	text-align: center;
+}
+
+#main #wrapper #contents #report .box td{
+	background: #fff;
+	vertical-align: middle;
+}
+
+#main #wrapper #contents #report td,
+#main #wrapper #contents #report th{
+	border-top: solid #ddd 1px; 
+	border-right: solid #ddd 1px;
+	border-bottom: none;
+	border-left: solid #ddd 1px; 
+	color: #666666;
+	vertical-align: top;
+	padding: 0 0 0 5px;
+}
+
+#main #wrapper #contents #report .goukei{
+	height: 50px;
+	text-align: center;
+	vertical-align: middle;
+	font-weight: bold;
+	font-size: 14px;
+	background: #333 !important;
+	color: #fff;
+}
+
+#main #wrapper #contents #report .goukei span{
+	font-size: 12px;
+	font-weight: normal;
+}
+
+#report a{
+	color: #666;
+	font-weight: bold;
+
+}
+
+#report a:hover{
+	background: #333;
+		color: #fff;
+	font-weight: bold;
+}
+
+#main #wrapper #contents #report .boxRight table{
+	margin: 0 0 20px 15px;
+	width:	420px!important;
+	border: 1px #333 solid;
+	height: 280px;
+	border-collapse: collapse;
+}
+
+#main #wrapper #contents #report .boxRight tr{
+	border: 1px #999999 solid;
+}
+
+#main #wrapper #contents #report .boxRight th{
+	border: 1px #999999 solid;
+	width: 50%;
+	background: #666;
+	color:#FFFFFF;
+	text-align: center;
+}
+
+#main #wrapper #contents #report .boxRight .td{
+	border: 1px #999999 solid;
+	width: 120px;
+	background: #f1f1f1;
+}
+
+
+#main #wrapper #contents #report .boxRight td{
+	border: 1px #999999 solid;
+}
+
+
+#main #wrapper #contents #report .toTop{
+	margin: 0 0 0 0;
+	border: none;
+}
+
+/* -----------------------------------------------------------
+News Release
+exhibition/news.html
+----------------------------------------------------------- */
+
+#news{
+	min-height: 500px;
+	padding: 10px 0 0 0;
+}
+
+html:first-child #news{ /*Opera Safari*/
+	min-height: 1000px;
+	padding: 10px 0 0 0;
+}
+
+
+#news #RSSItemsList{
+	margin: 0 0 0 0;
+	width: 910px;
+	_width: 890px;
+	text-align:left;
+	border-top: solid 1px #f1f1f1;
+	border-bottom: solid 1px #f1f1f1; 
+}
+
+#news #RSSItemsList{
+	color: #d36600;
+	font-weight: bold;
+	margin: 0 0 0 0;
+	padding: 0 0 20px 20px;
+	_padding: 20px 20px;
+	font-size:12px;
+}
+
+#news #RSSItemsList a{
+	color: #666666;
+	font-weight: normal;
+	background: url(../common/topics_cap.gif) no-repeat 0 1px;
+	margin: 0 0 0 5px;
+	padding: 0 0 0 8px;
+}
+
+#news #RSSItemsList a:hover{
+	color: #CCCCCC;
+	font-weight: normal;
+
+}
+
+#news #RSSItemsList #Text,#RSSItemsList #Text2{
+	border-bottom: #666666 dotted 1px;
+	width: 890px;
+	margin: 10px 0 0 0;
+}
+
+/*↓↓↓Loading↓↓↓*/
+
+.SpryHiddenRegion {
+   visibility: hidden;
+}
+
+td.RSSItemListLoading {
+    height: 32px;
+		text-align: centerl;
+		margin: 0 0 0 150px;
+		font-size: 14px;
+		font-weight: bold;
+	  background-repeat: no-repeat;
+    background-position: center;
+		color: #999999 !important;
+    padding-left: 30px;
+		width: 100%;
+}
+
+/*↑↑↑Loading↑↑↑*/
+
+
+
+/*//Releases//*/
+
+#Release{
+	font-family: Arial, Helvetica, sans-serif;
+	margin-bottom: 50px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#Release h2{
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 1.0 !important;
+	color: #666!important;
+	
+	
+}
+#Release h3,
+#Release h4{
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 1.0;
+	color: #666;
+	display: block;
+	margin: 20px 0 0 0;
+}
+
+#Release #company{
+	text-align: right;
+	font-weight: bold;
+	color: #666!important;
+}
+
+#Release #Text{
+	margin: 10px 0 0 0;
+	line-height: 1.2;
+}
+
+#main #wrapper #contents #Release table a{
+	font-weight: normal;
+	color: #FF9900;
+	border-bottom: solid 1px #FF9900;
+}
+
+
+#Release #Text p{
+
+	display: block;
+	margin: 10px 0 0 0;
+}
+
+#Release #Text strong{
+	color:#666666;
+}
+
+#Release #Text a{
+	border-bottom: solid 1px #FF9900;
+	color: #FF9900;
+	text-decoration: none;
+}
+
+#Release #Text a:hover{
+	border-bottom: none;
+	color: #FF9900;
+	text-decoration: none;
+}
+
+
+#Release #Text dl{
+	margin: 20px 0 20px 0;
+	border: solid #999999 1px;
+	padding: 10px;
+}
+
+
+#Release #Text dt{
+	font-weight: bold;
+	margin-bottom: 10px;
+	color:#666;
+}
+#Release #Text dd{
+	margin: 0 0 10px 0;
+}
+
+#Release #Text dd p{
+ margin-top: 5px!important;
+ margin-bottom: 5px!important;
+}
+
+#Release #Text table{
+	width: 410px!important;
+	border-top: dotted 1px #999999 !important;
+		border-bottom: dotted 1px #999999 !important;
+}
+#Release #Text th,
+#Release #Text td{
+	border-bottom: dotted 1px #999999 !important;
+	color:#000!important;
+}
+
+#Release #Text th{
+	border-right: dotted 1px #999999 !important;
+	color:#666666 !important;
+	white-space: nowrap;
+}
+
+#main #wrapper #contents #Release table .note{
+	background: url(../common/note_cap.gif) no-repeat 0 4px;
+	margin: 5px 0 5px 0;
+	padding: 0 0 0 10px;
+	text-indent: 0;
+	font-size: 10px;
+	color: #666666;
+}
+
+
+#Release #Text #Left{
+	float: left;
+	margin: 0 0 10px 10px;
+	width: 410px !important;
+	padding: 0 20px 0 0; 
+
+}
+
+#Release #Text #Right{
+	margin: 0 0 0 10px;
+	float: right; 
+}
+
+#main #wrapper #contents #Release table img{
+	vertical-align: middle;
+	margin: 0 0 0 5px;
+}
+
+
+
+/*2008/06/28*/
+
+#Release #Text #Seven #sOverView{
+	width: 900px!important;
+	margin-left: 10px;
+
+}
+
+sOverView{
+	vertical-align: top;
+}
+
+#Release #Text #Seven #sOverView td ol{
+
+	color: #666666;
+	font-weight: bold;
+	margin: 10px 0;
+	font-size: 12px;
+	margin-top: 0;
+}
+
+#Release #Text #Seven #sOverView td ol li{
+	list-style: decimal !important;
+	margin: 5px 0 5px 18px;
+}
+
+#Release #Text #Seven #sOverView td ol ul{
+
+	margin: 5px -20px;
+	font-weight: normal;
+	padding: 0 0 0 10px;
+	font-size: 12px;
+}
+
+#Release #Text #Seven #sOverView td ol ul li{
+	list-style:circle  !important;
+	
+}
+
+#Release #Text #Seven #sOverView td ol ul .note{
+	list-style: none !important;
+	background: url(../common/note_cap.gif) no-repeat 0 2px;
+	margin: 5px 0 5px 5px;
+	padding: 0 0 0 12px;
+	font-size: 10px;
+	color: #666666;
+}
+
+#Release #Text #Seven #sOverView a{
+	color: #0099CC;
+	text-decoration: underline;
+}
+
+
+/*2008/10/17*/
+#Release #Text #eventReport #outline{
+
+	width: 900px !important;
+	margin-left: 10px;
+	border: 0px !important;
+
+}
+#Release #Text #eventReport #outline th,
+#Release #Text #eventReport #outline td{
+
+	padding:5px;
+	
+}
+#Release #Text #eventReport #outline th{
+
+	color:#FFFFFF !important;
+	text-align:center;
+	background:#999999;
+	border-right: solid 1px #FFF !important;
+
+}
+#Release #Text #eventReport #outline td{
+	
+	border-bottom: dotted 1px #999999 !important;
+	border-right: dotted 1px #999999 !important;
+	
+}
+#Release #Text #eventReport #outline th.edge,
+#Release #Text #eventReport #outline td.edge{
+	
+	border-right: 0px !important;
+	
+}
+

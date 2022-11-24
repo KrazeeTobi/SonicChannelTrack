@@ -1,0 +1,233 @@
+@charset "utf-8";
+
+/* -----------------------------------------------------------
+CSS Information
+File name:      common.css
+Style Info:     サイト全体の共通の設定（ヘッダ、グローバルナビ）
+----------------------------------------------------------- */
+
+body{
+	background: #EA502F;		
+}
+
+#site{
+	width: 1032px;
+	font-size:12px;
+	background: url(../common/site_bg.jpg) repeat-y center;
+	margin: 0 auto;
+	text-align: center;
+	padding: 0 0 50px 0;
+}
+
+#site #main{
+	width: 918px;
+	margin: 0 auto;
+	
+}
+
+
+/* -----------------------------------------------------------
+ヘッダエリア
+----------------------------------------------------------- */
+
+#header{ 
+	
+	width:918px;
+	margin: 0 auto;
+	text-align: center;
+	height: 120px;
+
+}
+
+#header h1{ 
+
+	margin: 35px 0 0 0;
+	float: left; 
+}
+
+#header ul{ 
+	margin: 5px 0 5px 0;
+	float: right;
+	display: block;
+	
+	
+}
+
+
+#header ul li{ 
+	float: left; 
+	margin: 0 0 0 0;
+	width: 60px;
+}
+
+#header p img{
+	float: right;
+}
+
+#header p iframe{
+
+}
+
+
+
+/* -----------------------------------------------------------
+グローバルナビエリア
+----------------------------------------------------------- */
+
+#site #globalNavi{
+	margin: 20px auto 0 auto;
+	clear: both;
+	height: 52px;
+	width: 934px;
+	display: block;
+	}
+
+#globalNavi li{	
+	float: left;
+	margin: 0 0 0 0;
+}
+
+#globalNavi p{	
+	clear: both;
+	float: left;
+	margin: 0 0 0 5px;
+}
+#globalNavi,
+noscript p,
+#globalNavi noscript p{
+	color: #666666;
+	text-align: left;
+	display: block;
+	font-size: 10px;
+}
+
+#globalNavi noscript{
+clear: both;
+}
+
+#globalNavi noscript a{
+	color: #EA502F;
+}
+
+
+/*-----------------------------------------------------------
+ドロップダウン
+-----------------------------------------------------------*/
+
+@media all{
+.navmenu, 
+.navmenu ul,
+.navmenu li
+{
+    padding: 0px;
+    margin: 0px;
+		font-size: 12px !important;
+		
+}
+
+.navmenu > li
+{
+    float: left;
+}
+.navmenu li
+{
+    list-style-type: none;
+    border: 1px solid #EA502F;
+    color: #EA502F;
+    background-color: #fff;
+		padding: 2px 5px;
+		
+}
+.navmenu ul
+{
+    display: none;
+    position: absolute;
+    margin-left: -6px;
+    margin-top: 2px;
+}
+
+#globalNavi noscript li,
+.navmenu li:hover > ul
+{
+    display: block;
+}
+
+#globalNavi noscript li,
+.navmenu ul.parent_hover
+{
+    display: block;
+}
+
+#globalNavi noscript li a,
+.navmenu a
+{
+    color: #EA502F;
+    background: none;
+    display: block;
+    width: 100%;
+    text-decoration: none;
+}
+
+ .navmenu li:hover
+{
+    color: #EA502F;
+    background-color: #fff;
+}
+.navmenu li.hover,
+.navmenu a:hover
+{
+    color: #EA502F;
+   
+}
+.navmenu ul ul
+{
+    margin-top: 10px;
+    left: 99%;
+
+}
+.navmenu span
+{
+    display: block;
+}
+.navmenu
+{
+    float: left;
+    color: black;
+    background-color: #fff;
+		clear: both;
+		margin: 0 0 0 10px;
+		width: 500px;
+}
+.endmenu
+{
+    clear: left;
+}
+}
+
+
+
+
+/* -----------------------------------------------------------
+フッタエリア
+----------------------------------------------------------- */
+
+#site #footer{
+	clear: both;
+	height: 60px;
+	background:url(../common/footer.gif) no-repeat center;
+	font-family: Arial, Helvetica, sans-serif;
+	width: 920px;
+	margin: 20px auto 0 auto;
+	_margin: -10px auto 0 auto;
+	text-align: center;
+}
+
+#site #footer p{
+	
+	font-size:10px;
+	display: block;
+	margin: 0 0 0 0;
+	padding: 22px 5px 0 0;
+	color: #ffffff;
+	text-align: right;
+}
