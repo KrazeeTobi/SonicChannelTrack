@@ -1,0 +1,1060 @@
+@charset "utf-8";
+/*
+===========================================================================
+
+	Title : visitor.css
+
+===========================================================================
+*/
+
+
+/* *********************************************
+*
+*	PC view
+*	
+********************************************* */
+
+
+/* -------------------------------------------------------------
+
+	visitor/index.html
+
+------------------------------------------------------------- */
+
+/* 開催概要 table */
+#wrapper .cntBox .boxInner .about {
+	margin-bottom: 10px;
+}
+#wrapper .cntBox .boxInner .about th {
+	min-width: 85px;
+	text-align: center;
+}
+#wrapper .cntBox .boxInner .about td dl {
+	margin-bottom: 15px;
+}
+#wrapper .cntBox .boxInner .about td dl dt {
+	/*width: 105px;*/
+	text-align: center;
+	padding: 4px;
+	color: #FFF;
+	line-height: 1.0;
+	margin-bottom: 7px;
+}
+#wrapper .cntBox .boxInner .about td dl dd strong{
+	padding-bottom:10px;
+	line-height:1.2;
+	display:inline-block;
+	}
+#wrapper .cntBox .boxInner .about td dl .bd {
+	background-color: #6ab82c;
+	display: inline-block;
+}
+#wrapper .cntBox .boxInner .about td dl .cd {
+	background-color: #ea679d;
+	display: inline-block;
+}
+#wrapper .cntBox .boxInner .about td dl .note {
+	font-size: 11px;
+	font-weight: normal;
+	text-indent:-1em;
+	padding-left:1em;
+}
+/* -------------------------------------------------------------
+
+	visitor/ticket.html
+
+------------------------------------------------------------- */
+/*****共通*****/
+#wrapper .cntBox .boxInner .line {
+	clear: both;
+}
+#wrapper .cntBox .boxInner span.att {
+	font-size: 12px;
+	margin: 3px 0;
+	line-height: 1.4;
+	display: inline-block;
+}
+#wrapper .cntBox sub {
+	color: #333;
+	font-weight: bold;
+	margin-bottom: -7px;
+	display: block;
+}
+/*****アンカーボタン*****/
+#wrapper .cntBox .boxInner ul.ancMenu {
+	height: 56px;
+	margin: 0 auto 20px;
+	text-align: center;
+	line-height:1.2;
+	display:table;
+}
+#wrapper .cntBox .boxInner ul.ancMenu li {
+	margin-right: 20px;
+	padding: 0px 0 0px 0;
+	float: left;
+	font-weight: bold;
+	display:table-cell;
+	vertical-align: top;
+}
+#wrapper .cntBox .boxInner ul.ancMenu li a {
+	width: 320px;
+	padding:10px 0 10px;
+	background : #FFFFFF;
+	background : rgba(255, 255, 255, 1);
+	border-radius : 3px;
+	border-style : Solid;
+	border-color : #ddd;
+	border-width : 2px;
+	color: #777;
+	text-decoration: none;
+	cursor: pointer;
+	display: block;
+	box-shadow: 2px 2px 0px 0 rgba(221,221,221,1);
+	transition:all .5s ease;
+}
+#wrapper .cntBox .boxInner ul.ancMenu li a:hover {
+	filter: alpha(opacity=70);
+	-moz-opacity: 0.7;
+	opacity: 0.7;
+	zoom: 1;
+}
+#wrapper .cntBox .boxInner span.pt {
+	padding: 8px 0;
+	display: block;
+}
+/*****一般公開日入場料金のご案内*****/
+#wrapper .cntBox .boxInner #price .rdBox {
+	width: 224px;
+	text-align: left;
+	color: #fff;
+	background: rgba(231,26,25,0.8);
+	padding: 10px 0px 10px 10px!important;
+	position: relative;
+	top: 110px;
+	left: 110px;
+	margin: 0px 0;
+	display: inline-block!important;
+	transform: rotate(0deg);
+	z-index: 2;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 1.2;
+}
+#wrapper .cntBox .boxInner #price .rdBox span {
+	font-size: 26px;
+	text-align: center;
+	display: block;
+	margin-bottom: 5px;
+}
+#wrapper .cntBox .gry_out {
+	background: #bdbdbd;
+	margin-top: -60px;
+	margin-bottom: 20px;
+	position: relative;
+	z-index: 1;
+}
+#wrapper .cntBox .boxInner #price .sold {
+    background: #999 none repeat scroll 0 0;
+    border-color: #777;
+    border-style: solid;
+    border-width: 1px;
+    color: #888;
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    height: 28px;
+    margin: 15px 0 10px;
+    padding-top: 5px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    width: 240px;
+}
+#wrapper .cntBox .boxInner .sold img {
+    left: 250px;
+    position: absolute;
+    top: -20px;
+}
+/*TELリンクPC/SP*/
+#wrapper .cntBox .boxInner #price .pcBlc {
+	display: inline-block;
+}
+#wrapper .cntBox .boxInner #price .spBlc {
+	display: none;
+}
+#wrapper .cntBox .boxInner #price h3 {
+	margin-top: 20px;
+}
+#wrapper .cntBox .boxInner #price {
+	clear: both;
+}
+#wrapper .cntBox .boxInner #price table {
+	width: 100%;
+}
+#wrapper .cntBox .boxInner #price .linkBtn a{
+	margin:20px 20px 20px 0;
+	padding:10px 80px;
+	display:inline-block;
+	}
+
+/*****前売りチケット販売窓口*****/
+#wrapper .cntBox .boxInner #madoguchi table {
+	width: 100%;
+}
+#wrapper .cntBox .boxInner #madoguchi table th, #madoguchi table td {
+	word-break: break-all;
+}
+#wrapper .cntBox .boxInner #madoguchi table th {
+	font-weight: bold;
+	background: #e4f0f9;
+}
+#wrapper .cntBox .boxInner #madoguchi table th.pcBlc {
+	width: 243px;
+}
+#wrapper .cntBox .boxInner #madoguchi table td {
+	width: 243px;
+}
+#wrapper .cntBox .boxInner #madoguchi table td.shop {
+	width: 243px;
+	background: #eee;
+	font-weight: bold;
+}
+#wrapper .cntBox .boxInner #madoguchi table td.shop span {
+	margin-top: 10px;
+	display: inline-block;
+	font-weight: bold;
+}
+#wrapper .cntBox .boxInner #madoguchi table td.shop span:before{
+	width:5px;
+	height:5px;
+	contents:"*";
+	display: block;
+	}
+/*購入ボタン*/
+#wrapper .cntBox .boxInner #madoguchi td .btn a {
+	padding: 3px 0 0px;
+	text-align: center;
+	margin: 0px auto 5px;
+	border-radius : 3px;
+	-moz-border-radius : 3px;
+	-webkit-border-radius : 3px;
+	background: #1e51a2;
+	color: #fff;
+	text-decoration: none;
+	cursor: pointer;
+	display: block;
+	font-size: 16px;
+	font-weight: bold;
+	letter-spacing: 0.2em;
+	transition:all .3s ease;
+}
+#wrapper .cntBox .boxInner #madoguchi td .coming {
+	padding: 3px 0 0px;
+	text-align: center;
+	margin: 0px auto 5px;
+	border-radius : 3px;
+	-moz-border-radius : 3px;
+	-webkit-border-radius : 3px;
+	background: #777;
+	border: 1px solid #555;
+	color: #999;
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: bold;
+	letter-spacing: 0.2em;
+}
+#wrapper .cntBox .boxInner #madoguchi td .btn a:hover {
+	filter: alpha(opacity=80);
+	opacity: 0.8;
+}
+#wrapper .cntBox .boxInner #madoguchi table td span {
+	font-size: 12px;
+	line-height: 1.2;
+}
+/*****サポーターズクラブチケット*****/
+
+#wrapper .cntBox .boxInner #supporter h4{
+	border:none;
+	padding:0;
+	color:#1e51a2;
+	}
+#wrapper .cntBox .boxInner #supporter h4 span {
+	background: none!important;
+	border: 1px solid #1e51a2!important;
+	color: #1e51a2!important;
+	padding: 2px 5px 3px;
+	display: inline-block;
+}
+#wrapper .cntBox .boxInner #supporter .limited {
+	background: #e4f0f9;
+	height: 85px;
+	margin: 10px 0 10px 0;
+}
+#wrapper .cntBox .boxInner #supporter .limited p {
+	width: 590px;
+	padding: 10px;
+	position: absolute;
+}
+#wrapper .cntBox .boxInner #supporter .limited .icon {
+	position: relative;
+	left: 600px;
+	top: -10px;
+}
+#wrapper .cntBox .boxInner #supporter .limited p {
+	margin-bottom: -20px;
+}
+#wrapper .cntBox .boxInner h6 {
+	background: #1e51a2;
+	color: #fff;
+	font-size: 16px;
+	padding: 5px 15px 3px;
+	margin: 20px auto;
+}
+#wrapper .cntBox .boxInner .large{
+	font-weight: bold;
+	font-size: 16px;
+	} 
+#wrapper .cntBox .boxInner h6#2nd {
+	color: #fff;
+}
+#wrapper .cntBox .boxInner #supporter td ul {
+	width: 100%;
+	margin: 10px 0 0 0;
+	padding: 0px 0 0 0;
+}
+
+/*グレーアウト*/
+#wrapper .cntBox .gry_out2 {
+	background: #bdbdbd;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	position: relative;
+	z-index: 1;
+}
+/*#wrapper .cntBox .boxInner #gray_out2 h6{
+	background: #438981;
+	color:#fff;
+	font-size:16px;
+	padding:5px 5px;
+	margin:20px auto;
+	}*/
+/*#wrapper .cntBox .boxInner .tokuten3 h6 {
+	background: #438981;
+	color: #bdbdbd;
+	font-size: 16px;
+	padding: 5px 5px;
+	margin: 20px auto;
+}*/
+#wrapper .cntBox .gry_out2 th!important {
+ background:#bdbdbd;
+}
+#wrapper .cntBox .boxInner #supporter .rdBox {
+	width: 234px;
+	text-align: left;
+	color: #fff;
+	background: rgba(231,26,25,0.8);
+	padding: 10px 10px 10px 10px!important;
+	position: absolute;
+	margin: 200px 0 0 200px;
+	display: inline-block!important;
+	transform: rotate(0deg);
+	z-index: 2;
+	/*text-indent:-1em;*/
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 1.2;
+}
+#wrapper .cntBox .boxInner #supporter .rdBox span {
+	font-size: 26px;
+	text-align: center;
+	display: block;
+	margin-bottom: -15px;
+}
+#wrapper .cntBox .boxInner #supporter th.gray {
+	background: #bdbdbd;
+}
+#wrapper .cntBox .boxInner #supporter td.gray {
+	background: #bdbdbd;
+}
+#wrapper .cntBox .boxInner #supporter .gry_out2 table th.center {
+	text-align: center;
+	font-weight: bold;
+	background: #bdbdbd;
+}
+#wrapper .cntBox .boxInner #supporter .gry_out2 p.capt {
+	padding: 20px 0 0 10px;
+}
+#wrapper .cntBox .boxInner #supporter .gry_out2 table {
+	border: 1px solid #aaa;
+}
+#wrapper .cntBox .boxInner #supporter .gry_out2 table th {
+	width: 180px;
+	border-top: 3px solid #aaa;
+	border-bottom: 3px solid #aaa;
+	background: #bdbdbd;
+}
+#wrapper .cntBox .boxInner #supporter .gry_out2 table td {
+	width: 517px;
+	border-top: 3px solid #aaa;
+	border-bottom: 3px solid #aaa;
+	background: #bdbdbd;
+}
+/*特典1*/
+#wrapper .cntBox .boxInner #supporter .tokuten1 {
+	padding: 0px 0px 20px;
+	over-flow: hidden;
+	border-bottom: 1px solid #ddd;
+}
+#wrapper .cntBox .boxInner #supporter .tokuten1 p {
+	width: 310px;
+	padding: 0;
+	float: left;
+}
+#wrapper .cntBox .boxInner #supporter .tokuten1 img {
+	/*width: 422px;*/
+	float: right;
+}
+/*特典2*/
+#wrapper .cntBox .boxInner #supporter .tokuten2 {
+	padding: 20px 0px 0;
+	over-flow: hidden;
+	margin-bottom: -10px;
+	border-bottom: 1px solid #ddd;
+}
+#wrapper .cntBox .boxInner #supporter .tokuten2 p {
+	width: 500px;
+	padding: 0;
+	float: left;
+}
+#wrapper .cntBox .boxInner #supporter .tokuten2 img {
+	/*width: 90px;*/
+	float: right;
+	position: relative;
+	top: -80px;
+	margin-bottom:-40px;
+}
+/*特典3*/
+#wrapper .cntBox .boxInner #supporter .tokuten3 {
+	padding: 30px 0px;
+}
+/*ボタン*/
+#wrapper .cntBox .boxInner #supporter td .coming {
+	width: 240px;
+	height: 30px;
+	text-align: center;
+	border-radius : 3px;
+	-moz-border-radius : 3px;
+	-webkit-border-radius : 3px;
+	background: #777;
+	border: 1px solid #555;
+	color: #999;
+	text-decoration: none;
+	display: block;
+	font-weight: bold;
+	letter-spacing: 0.2em;
+}
+#wrapper .cntBox .boxInner #supporter td a {
+	height: 32px;
+	text-align: center;
+	text-decoration: none;
+	cursor: pointer;
+	display: block;
+	padding-top: 10px;
+	margin-bottom:5px;
+}
+#wrapper .cntBox .boxInner #supporter td .linkBtn{
+	width:240px;
+	margin:0px auto 0;
+	text-align: center;
+	}
+
+/*****ご注意*****/
+
+#wrapper .cntBox .boxInner #supporter .att h4 {
+	margin: 0 10px;
+}
+
+/* -------------------------------------------------------------
+
+	visitor/attention.html
+
+------------------------------------------------------------- */
+
+#wrapper .cntBox .boxInner .dtl {
+	margin: 0 0 15px 15px;
+}
+#wrapper .cntBox .boxInner .dtl dt {
+	font-weight: bold;
+}
+#wrapper .cntBox .boxInner .dtl dd {
+	margin-left: 13px;
+}
+/* 持ち込み禁止一覧 */
+#wrapper .cntBox .boxInner .atDtl {
+	padding: 15px;
+	background-color: #eeeeee;
+}
+#wrapper .cntBox .boxInner .atDtl dt {
+	font-weight: bold;
+}
+#wrapper .cntBox .boxInner .atDtl dd {
+	text-indent: -10px;
+	margin-left: 10px;
+	font-size: 12px;
+	line-height: 1.8;
+}
+#wrapper .cntBox .boxInner .atDtl dd span {
+	margin-top: 10px;
+	display: block;
+}
+
+/* -------------------------------------------------------------
+
+	visitor/cosplayers.html
+
+------------------------------------------------------------- */
+#wrapper .cntBox .boxInner h5 {
+	color:#1e51a2;
+	font-weight: bold;
+	margin-bottom: 10px;
+	font-size: 14px;
+}
+#wrapper .cntBox .boxInner .ntli {
+	margin-bottom: 20px;
+	margin-right: 1em;
+	margin-left: 1em;
+}
+#wrapper .cntBox .boxInner .ntli li {
+	font-size: 12px;
+	line-height: 1.2;
+	margin-bottom: 8px;
+	text-indent: -11px;
+	margin-left: 10px;
+}
+.visitor span.att {
+	padding-left: 1em;
+	text-indent: -1em;
+}
+.cosplayer .dtl{
+	margin-left:0!important;
+	padding:15px;
+	background: #eee;
+	}
+	
+/* -------------------------------------------------------------
+
+	visitor/access.html
+
+------------------------------------------------------------- */
+.access .linkBtn{
+	margin-top:30px;
+	}
+.access .linkBtn a{
+	padding:10px 100px;
+	}
+
+/* -------------------------------------------------------------
+
+	tour.html
+
+------------------------------------------------------------- */
+/*#wrapper .cntBox #tour.boxInner {
+	min-height: 330px;
+}*/
+#wrapper .cntBox #tour.boxInner .his {
+	width:100%;
+	overflow: hidden;
+	}
+#wrapper .cntBox #tour.boxInner .his dt{
+	width:80%;
+	padding-top: 5px;
+	float:left;
+	}
+#wrapper .cntBox #tour.boxInner .his dd{
+	width:20%;
+	float:right;
+	}
+#wrapper .cntBox #tour.boxInner table {
+	border: none!important;
+	padding: 20px 0 10px;
+}
+#wrapper .cntBox #tour.boxInner th {
+	width:340px;
+	border: none!important;
+	background: none!important;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 10px 0;
+	text-align: center;
+
+}
+#wrapper .cntBox #tour th span{
+	background: #fff;
+	color:#555;
+	display:inline-block;
+	font-size: 14px;
+	vertical-align: middle;
+	}
+#wrapper .cntBox #tour.boxInner td {
+	border: none!important;
+	padding: 0;
+	font-size:12px;
+	text-align: left;
+}
+#wrapper .cntBox #tour .linkBtn a{
+	width:260px;
+	margin:5px auto 10px;
+	padding:10px 10px;
+	display:inline-block;
+	text-align: center!important;
+	font-size:16px;
+	}
+#wrapper .cntBox #tour .coming{
+	width:260px;
+	margin:5px auto 10px;
+	padding:10px 10px;
+	display:inline-block;
+	text-align: center!important;
+	font-size:16px;
+	background: #777;
+	color:#aaa;
+	display:inline-block;
+	}
+#wrapper .cntBox #tour.boxInner hr{
+	height:1px;
+	background-image: none;
+	background-color: #ddd;
+	}
+
+/* -------------------------------------------------------------
+
+	visitor/charity.html
+
+------------------------------------------------------------- */
+#wrapper .cntBox .boxInner .cli li {
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 15px;
+	padding-bottom: 10px;
+}
+#wrapper .cntBox .boxInner .cli li dl {
+	overflow: hidden;
+}
+#wrapper .cntBox .boxInner .cli li dl dt {
+	float: left;
+	margin-right: 20px;
+	width: 25%;
+}
+#wrapper .cntBox .boxInner .cli li dl dd {
+	float: left;
+	width: 70%;
+}
+
+/* -------------------------------------------------------------
+
+	visitor/numbered_ticket.html
+
+------------------------------------------------------------- */
+.numbered .cntBox ul.att li {
+	padding-left: 1em;
+	text-indent: -1em;
+}
+.numbered .cntBox .mb20 {
+	margin-bottom: 20px;
+}
+.numbered .cntBox table {
+	width: 100%!important;
+}
+.numbered .cntBox .rdtxt {
+	color: #cc0613;
+}
+.numbered .cntBox .boxInner thead th {
+	background: #999!important;
+	color: #fff;
+	text-align: center!important;
+	letter-spacing: 0.5em;
+}
+.numbered .cntBox .boxInner table th {
+	width: 28%!important;
+}
+.numbered .cntBox .boxInner table td {
+	width: 72%!important;
+}
+
+/* -------------------------------------------------------------
+
+	visitor/sien.html
+
+------------------------------------------------------------- */
+#wrapper .boxInner .gbox {
+	background: #5ab7ac;
+	color: #fff;
+	font-size: 15px;
+	padding: 0 7px;
+	border-radius : 10px;
+	-moz-border-radius : 10px;
+	-webkit-border-radius : 10px;
+	position: relative;
+	top: -2px;
+	font-weight: bold;
+}
+#wrapper .boxInner .sien {
+	text-align: center;
+	width: 730px;
+	margin-bottom: 12px;
+}
+#wrapper .boxInner table.sien {
+	width: 100%;
+	border: none!important;
+	margin: 20px 0 10px;
+	padding: 0!important;
+}
+#wrapper .boxInner .sien td {
+	width: 50%;
+	padding: 0!important;
+	border: none!important;
+}
+.lnk_icon {
+	padding: 1px 2px;
+}
+
+/* -------------------------------------------------------------
+
+	visitor/goods.html
+
+------------------------------------------------------------- */
+#wrapper .goods .boxInner .left {
+	width: 70%;
+	float: left;
+}
+#wrapper .goods .boxInner .right {
+	width: 30%;
+	float: left;
+}
+#wrapper .goods .boxInner .right p {
+	padding: 0px 20px 0;
+	margin: 0;
+}
+#wrapper .goods .boxInner ul {
+	width: 100%;
+	height: auto;
+	margin: 20px 0 0px;
+	clear: both;
+}
+#wrapper .goods .boxInner ul li {
+	width: 50%;
+	padding: 0;
+	margin: 0 0;
+	float: left;
+}
+#wrapper .goods .boxInner .clear {
+	clear: both;
+}
+
+/* *********************************************
+*
+*	SP view
+*	
+********************************************* */
+
+
+@media screen and (max-width:769px) {
+/* -------------------------------------------------------------
+
+	visitor/ticket.html
+
+------------------------------------------------------------- */
+
+/*アンカーボタン*/
+#wrapper .cntBox .boxInner ul.ancMenu {
+	width: 100%;
+	padding: 0;
+	margin-bottom: 5%;
+}
+#wrapper .cntBox .boxInner ul.ancMenu li {
+	width: 100%;
+	margin-bottom:10px;
+}
+#wrapper .cntBox .boxInner ul.ancMenu li a {
+	width: 100%;
+}
+/*一般公開日入場料金のご案内*/
+
+#wrapper .cntBox .boxInner #price .rdBox {
+	width: 225px;
+	top: 120px;
+	left: 30px;
+}
+#wrapper .cntBox .boxInner #price .linkBtn a{
+	margin:20px 20px 20px 20px;
+	padding:10px 20px;
+	display:block;
+	}
+#wrapper .cntBox .boxInner #price .sold {
+    width:90%;
+	margin: 20px auto 50px;
+}
+#wrapper .cntBox .boxInner .sold img {
+    display: block;
+    left: 50%;
+    position: absolute;
+    top: 15px;
+}
+/*TELリンクPC/SP*/
+
+#wrapper .cntBox .boxInner #price .pcBlc {
+	display: none;
+}
+#wrapper .cntBox .boxInner #price .spBlc {
+	display: inline-block;
+}
+#wrapper .cntBox .boxInner #price .spBlc a {
+	background: none;
+	padding: 0 0 0 1em;
+	margin: 0;
+}
+#wrapper .cntBox .boxInner #price {
+	padding: 5% 0 0 0;
+}
+#wrapper .cntBox .boxInner #price th {
+	width: auto;
+}
+#wrapper .cntBox .boxInner #price td {
+	padding: 3% 1%;
+}
+#wrapper .cntBox .boxInner #price table {
+	width: 100%;
+}
+/*前売りチケット販売窓口*/
+
+#wrapper .cntBox .boxInner #madoguchi table tr th {
+	display: none;
+}
+#madoguchi h4 {
+	width: 100%;
+	margin: 5% auto -5%;
+}
+#wrapper .cntBox .boxInner #madoguchi table {
+	width: 100%;
+	padding: 0 0 7%;
+	margin: 0 auto;
+	text-align: left;
+}
+#wrapper .cntBox .boxInner #madoguchi table tr {
+	width: 100%;
+	text-align: left;
+}
+#wrapper .cntBox .boxInner #madoguchi table td {
+	width: 96%;
+	display: inline-block;
+	margin: 0 0 2% 0;
+	padding: 2% 2% 4% 2%;
+}
+#wrapper .cntBox .boxInner #madoguchi table td:nth-child(2) {
+	border-bottom: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+}
+#wrapper .cntBox .boxInner #madoguchi table td .gr_box {
+	padding: 0% 0% 0% 0%;
+	margin: 0 0 10px -5px;
+}
+#wrapper .cntBox .boxInner #madoguchi table td.shop {
+	width: 97%;
+	margin: 10px 0 3%;
+	padding: 3% 0% 3% 3%;
+	overflow: hidden
+}
+/*購入ボタン*/
+#wrapper .cntBox .boxInner #madoguchi td .btn a {
+	padding: 2% 0 1%;
+	text-align: center;
+	margin: 10px auto 10px;
+}
+#wrapper .cntBox .boxInner #madoguchi td .coming {
+	max-width: 200px;
+	padding: 3% 0 2%;
+	text-align: center;
+	margin: 0px auto 5px;
+}
+#wrapper .cntBox .boxInner #supporter td .linkBtn{
+	width:240px;
+	margin:20px auto 0;
+	text-align: center;
+	}
+/*サポーターズクラブチケット*/
+#wrapper .cntBox .boxInner #supporter .rdBox {
+	width: 225px;
+	margin-top: 200px;
+	margin-left: 30px;
+}
+#wrapper .cntBox .boxInner #supporter .spBlc img {
+	display: block;
+	margin: 0 auto;
+}
+#wrapper .cntBox .boxInner #supporter h4 span {
+	color: #fff;
+	background: #93d1ca;
+	padding: 0 5px;
+}
+/*特典1*/
+#wrapper .cntBox .boxInner #supporter .tokuten1 p {
+	width: 100%;
+	float: none;
+}
+#wrapper .cntBox .boxInner #supporter .tokuten1 img {
+	width: auto;
+	max-width: 265px;
+	padding-bottom: 2%;
+	float: none;
+	display: block;
+	margin: 0 auto;
+}
+/*特典2*/
+#wrapper .cntBox .boxInner #supporter .tokuten2 {
+	padding-bottom: 5%;
+}
+#wrapper .cntBox .boxInner #supporter .tokuten2 p {
+	width: 100%;
+	float: none;
+}
+#wrapper .cntBox .boxInner #supporter .tokuten2 img {
+	float: none;
+	position: relative;
+	top: 0px;
+	display: block;
+	margin: 0 auto;
+	max-width: 214px;
+}
+/*特典3*/
+#wrapper .cntBox .boxInner #supporter .tokuten3 {
+	margin: 2% 0 0;
+}
+#wrapper .cntBox .boxInner #supporter .gry_out2 table {
+	width: auto;
+	border: none;
+}
+#wrapper .cntBox .boxInner #supporter .gry_out2 table th {
+	width: auto;
+	border: none;
+}
+#wrapper .cntBox .boxInner #supporter .gry_out2 table td {
+	width: auto;
+	border: none;
+}
+/*#wrapper .cntBox .boxInner #supporter table.spBlc td:nth-child(even){
+	border-bottom: 1px solid #ddd;
+}*/
+
+
+/* -------------------------------------------------------------
+
+	tour.html
+
+------------------------------------------------------------- */
+#wrapper .cntBox #tour.boxInner .his dt{
+	padding-top: 0px;
+	}
+#wrapper .cntBox #tour.boxInner {
+	min-height: 0px;
+}
+#wrapper .cntBox #tour.boxInner table{
+	padding:15px;
+	}
+#wrapper .cntBox #tour.boxInner th {
+	width:100%;
+	padding: 10px 0px;
+}
+#wrapper .cntBox #tour.boxInner td{
+	width:100%;
+	}
+#wrapper .cntBox #tour.boxInner td a {
+	width:auto;
+	margin: 0 auto;
+	display: block;
+}
+#wrapper .cntBox #tour .linkBtn a{
+	width:auto;
+	margin-bottom:10px!important;
+	padding:10px 10px;
+	}
+#wrapper .cntBox #tour td .coming{
+	width:auto;
+	display:block;
+	}
+#wrapper .cntBox #tour.boxInner hr{
+	margin-bottom:0;
+	}
+
+/* -------------------------------------------------------------
+
+	visitor/numbered_ticket.html
+
+------------------------------------------------------------- */
+.numbered .cntBox .boxInner table {
+	width: auto!important;
+}
+.numbered .cntBox .boxInner thead th {
+	display: none!important;
+}
+.numbered .cntBox .boxInner table th {
+	width: auto!important;
+}
+.numbered .cntBox .boxInner table td {
+	width: auto!important;
+}
+/* -------------------------------------------------------------
+
+	visitor/sien.html
+
+------------------------------------------------------------- */
+
+#wrapper .boxInner .gbox {
+	display: inline-block;
+	padding: 3px 5px;
+	position: relative;
+	top: 3px;
+}
+#wrapper .boxInner table.sien {
+	margin: 20px 0 0px;
+}
+#wrapper .boxInner table.sien td {
+	width: 100%;
+}
+#wrapper .boxInner .sien td {
+	width: 100%;
+	padding: 0;
+	margin-bottom: 5%;
+}
+#wrapper .boxInner .sien td img {
+	width: 100%;
+	height: auto;
+}
+
+
+/* -------------------------------------------------------------
+
+	visitor/goods.html
+
+------------------------------------------------------------- */
+#wrapper .goods .boxInner .left {
+	width: 100%;
+}
+#wrapper .goods .boxInner .right {
+	width: 100%;
+	text-align:center;
+	margin-bottom:20px;
+}
+#wrapper .goods .boxInner ul {
+	width: 100%;
+	height: auto;
+	margin: 20px 0 20px;
+	clear: both;
+}
+#wrapper .goods .boxInner ul li {
+	width: 100%;
+	padding: 0;
+	margin: 0 0 0px;
+	float: none;
+}
+
+
+}

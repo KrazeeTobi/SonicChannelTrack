@@ -1,0 +1,984 @@
+@charset "utf-8";
+/*
+===========================================================================
+
+	Title : EN / base.css
+
+===========================================================================
+*/
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+/* *************************************************************
+*
+*	PC view
+*	
+************************************************************ */
+
+body {
+	background-image: url(/tgs/2015/common/images/pc_background.jpg);
+	background-repeat: no-repeat;
+	background-color: #e4f0f9;
+	background-position: center 30px;
+	background-attachment: fixed;
+}
+#wrapper{
+	background: url(/tgs/2015/common/images/pc_background-character.png) no-repeat center 20px;
+	}
+#ie {
+	background-color:#FFF; /* IE8 comment */
+	text-align: center;
+	padding: 10px 0;
+}
+.pcBlc {
+	display: block;
+}
+.spBlc {
+	display: none;
+}
+.clear {
+	overflow: hidden;
+	_zoom: 1;
+}
+/* 共通項目 */
+.txt10 {
+	font-size: 10px;
+}
+.txt11 {
+	font-size: 11px;
+}
+.txt12 {
+	font-size: 12px;
+}
+.cTxt {
+	text-align: center;
+}
+.rTxt {
+	color: #cf1f03;
+}
+.ulTxt {
+	text-decoration: underline;
+}
+.mt20 {
+	margin-top: 20px!important;
+}
+.mb0{
+	margin-bottom: 0px!important;
+	}
+.mb20 {
+	margin-bottom: 20px!important;
+}
+.pd0{
+	padding:0!important;
+	}
+.pcml20 {
+	margin-left: 20px;
+}
+.fixed {
+	position: fixed !important;
+	top: 0;
+}
+.taC{
+	text-align:center;
+	}
+.taL{
+	text-align:left;
+	}
+.indent{
+	text-indent:-1em;
+	margin-left:1em;
+	}
+#wrapper .cntBox .boxInner p {
+	margin-bottom: 20px;
+}
+/*リンク*/
+#wrapper .cntBox .boxInner .link a {
+	background: url(/tgs/2015/common/images/link_arrow.png) no-repeat 4px center;
+	background-size: 4px 8px;
+	padding-left: 10px;
+	font-weight: normal;
+}
+.ie8 #wrapper .cntBox .boxInner .link a{
+	background: url(/tgs/2015/common/images/link_arrow_ie8.png) no-repeat 4px center;
+	}
+#wrapper .cntBox .boxInner .link2 a {
+	background: url(/tgs/2015/common/images/link_arrow2.png) no-repeat 1px center;
+	background-size: 13px 11px;
+	padding-left: 15px;
+	font-weight: normal;
+}
+.ie8 #wrapper .cntBox .boxInner .link2 a{
+	background: url(/tgs/2015/common/images/link_arrow2_ie8.png) no-repeat 1px center;
+	}
+.linkBtn {
+	margin-top: 10px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+.linkBtn a{
+	padding:20px 10px 0px;
+	color:#fff;
+	background: #1e51a2;
+	box-shadow: 5px 5px 0px 0 rgba(221,221,221,1);
+	text-decoration:none;
+	transition:opacity .3s ease;
+	}
+.linkBtn  a:hover {
+	filter: alpha(opacity=80);
+	-moz-opacity: 0.8;
+	opacity: 0.8;
+	zoom: 1;
+}
+/*赤枠テキスト*/
+.attention {
+	border: 1px solid #cf1f03;
+	color: #cf1f03;
+	padding: 10px 15px 10px 10px;
+	margin-bottom: 10px;
+	display: inline-block;
+}
+/* リスト関係 */
+#wrapper .cntBox .boxInner .number li {
+	list-style-type: decimal;
+	margin-left: 50px;
+}
+#wrapper .cntBox .boxInner .dotli li {
+	text-indent: -1em;
+	padding-left: 1em;
+	margin-bottom: 10px;
+	line-height: 1.4;
+}
+
+/* PC_header
+---------------------------------------------------------------- */
+#header {
+	background-color: #011b43;
+	height: 40px;
+}
+#header .headerInner {
+	width: 1020px;
+	margin: 0 auto;
+}
+/* #headerInnerL #headerInnerR　共通
+--------------------------------------------------- */
+
+#header .headerInner #headerInnerL, #header .headerInner #headerInnerR {
+	display: block;
+}
+#header .headerInner #headerInnerL {
+	width: 439px;
+	float: left;
+}
+#header .headerInner #headerInnerR {
+	float: right;
+}
+/* .headerBtn設定
+--------------------------------------------------- */
+.headerBtn {
+	position: relative;
+	display: block;
+}
+.headerBtn {
+	display: block;
+}
+.headerBtn ul li {
+	display: block;
+	float: left;
+}
+.headerBtn ul li a, .headerBtn ul li span {
+	display: block;
+	overflow: hidden;
+	text-indent: -99999px;
+	font-size: 1.4em;
+	color: #FFF;
+	white-space: nowrap;
+}
+/* header_logo
+--------------------------------------------------- */
+#header .headerInner #headerInnerL #headLogo {
+	display: block;
+	float: left;
+	margin-top: 7px;
+}
+#header .headerInner #headerInnerL #headLogo a, #header .headerInner #headerInnerL #headLogo span {
+	display: block;
+	width: 170px;
+	height: 26px;
+	overflow: hidden;
+	text-indent: -99999px;
+	background: url(/tgs/2015/common/images/pc_logo.png) no-repeat center center;
+}
+/* 言語ボタン
+--------------------------------------------------- */
+.headerBtn ul li a, .headerBtn ul li span, .headerBtn ul li span.not {
+	overflow: hidden;
+	text-indent: -99999px;
+	font-size: 1.4em;
+	color: #FFF;
+	white-space: nowrap;
+}
+.headerBtn ul li span, .headerBtn ul li a:hover {
+	background-color: #FFF;
+	color: #000;
+}
+.head-toolbar-sp-btn {
+	display: none;
+	border-left: 1px solid #000;
+	width: 40px;
+	float: right;
+}
+.head-toolbar-sp-btn a {
+	display: block;
+	border-left: 1px solid #34495E;
+}
+.head-toolbar-sp-btn a:hover {
+	background: #2E3F51;
+}
+#header .headerInner #headerInnerR #lngBtn {
+	float: left;
+	margin-right: 45px;
+}
+#header .headerInner #headerInnerR #lngBtn ul {
+	width: 358px;
+	margin-top: 7px;
+	padding: 0px 0 0 0;
+}
+#header .headerInner #headerInnerR #lngBtn ul li {
+	margin: 0 0px 0 0;
+}
+#lngBtn ul li span, #lngBtn ul li a {
+	height: 26px;
+	background: url(/tgs/2015/common/images/lngBtn_bg.gif) no-repeat;
+	/*transition: all 0.2s linear;*/
+}
+#headerInnerR #lngBtn #lngBtn-jp {
+	width: 65px;
+}
+#headerInnerR #lngBtn #lngBtn-en {
+	width: 81px;
+}
+#headerInnerR #lngBtn #lngBtn-ko {
+	width: 66px;
+}
+#headerInnerR #lngBtn #lngBtn-cn {
+	width: 76px;
+}
+#headerInnerR #lngBtn #lngBtn-tw {
+	width: 70px;
+}
+#headerInnerR #lngBtn #lngBtn-jp a {
+	background-position: 0px -26px;
+}
+#headerInnerR #lngBtn #lngBtn-en a {
+	background-position: -65px -26px;
+}
+#headerInnerR #lngBtn #lngBtn-ko a {
+	background-position: -146px -26px;
+}
+#headerInnerR #lngBtn #lngBtn-cn a {
+	background-position: -212px -26px;
+}
+#headerInnerR #lngBtn #lngBtn-tw a {
+	background-position: -288px -26px;
+}
+#headerInnerR #lngBtn #lngBtn-jp span, #headerInnerR #lngBtn #lngBtn-jp a:hover {
+	background-position: 0px 0px;
+}
+#headerInnerR #lngBtn #lngBtn-en span, #headerInnerR #lngBtn #lngBtn-en a:hover {
+	background-position: -65px 0px;
+}
+#headerInnerR #lngBtn #lngBtn-ko span, #headerInnerR #lngBtn #lngBtn-ko a:hover {
+	background-position: -146px 0px;
+}
+#headerInnerR #lngBtn #lngBtn-cn span, #headerInnerR #lngBtn #lngBtn-cn a:hover {
+	background-position: -212px 0px;
+}
+#headerInnerR #lngBtn #lngBtn-tw span, #headerInnerR #lngBtn #lngBtn-tw a:hover {
+	background-position: -288px 0px;
+}
+/* SNSボタン
+--------------------------------------------------- */
+#headerInnerR #snsArea {
+	width: 96px;
+	float: right;
+	margin-top: 6px;
+}
+#headerInnerR #snsArea ul li a, #headerInnerR #snsArea ul #snsArea_tw a, #headerInnerR #snsArea ul #snsArea_fb a, #headerInnerR #snsArea ul #snsArea_li a {
+	width: 28px;
+	height: 28px;
+	background-color: transparent;
+	text-indent: -9999px;
+}
+#headerInnerR #snsArea ul li {
+	margin: 0 2px;
+}
+#headerInnerR #snsArea ul li a, #headerInnerR #snsArea ul #snsArea_tw a, #headerInnerR #snsArea ul #snsArea_fb a, #headerInnerR #snsArea ul #snsArea_li a {
+	background-image: url(/tgs/2015/common/images/sns_btn_bg.gif);
+	background-repeat: no-repeat;
+}
+#headerInnerR #snsArea ul #snsArea_tw a {
+	background-position: 0px 0px;
+}
+#headerInnerR #snsArea ul #snsArea_fb a {
+	background-position: -32px 0px;
+}
+#headerInnerR #snsArea ul #snsArea_li a {
+	background-position: -64px 0px;
+}
+#headerInnerR #snsArea ul #snsArea_tw a:hover {
+	background-position: 0px -28px;
+}
+#headerInnerR #snsArea ul #snsArea_fb a:hover {
+	background-position: -32px -28px;
+}
+#headerInnerR #snsArea ul #snsArea_li a:hover {
+	background-position: -64px -28px;
+}
+
+/* PC mainArea
+---------------------------------------------------------------- */
+#wrapper .mainArea {
+	width: 1020px;
+	margin: 0px auto;
+	padding-top: 22px;
+}
+#wrapper .mainArea .spBanner {
+	display: block;
+	height: 90px;
+	width: 728px;
+	margin-bottom: 20px;
+}
+#wrapper .mainArea h1 {
+	margin-bottom: 20px;
+}
+#wrapper .mainArea .date {
+	margin-bottom: 4px;
+}
+
+/* PC cont_base ベースシャドウ
+---------------------------------------------------------------- */
+.cntBase{
+	width: 1020px;
+	margin:0 auto;
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.15);
+	-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.15);
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.15);
+	}
+.ie8 .cntBase{
+	background:#fff;
+	}
+
+/* PC .mainCont　コンテンツエリア
+---------------------------------------------------------------- */
+
+#wrapper .mainCont {
+	width: 984px;
+	margin: 0 auto;
+	background: rgba(255, 255, 255, 0.9);
+	padding: 20px 18px 20px 18px;
+	position: relative;
+	z-index:99;
+}
+#wrapper .mainCont h2 {
+	font-family: 'Noto Sans Japanese', sans-serif;
+	font-weight: 700;
+	font-size: 22px;
+	margin: 20px 20px 0px;
+	padding: 8px 12px 8px 12px;
+	display: inline-block;
+	background: #fcee1c;
+	box-shadow: 5px 5px 0px 0 rgba(221,221,221,1);
+	/*word-break: break-all;*/
+	line-height:1.1;
+}
+/*IE11*/
+@media all and (-ms-high-contrast:none){
+  *::-ms-backdrop, #wrapper .mainCont h2 {
+   padding: 12px 15px 0px 15px;
+  }
+}
+/*IE10*/
+@media all and (-ms-high-contrast:none){
+  #wrapper .mainCont h2 {
+    padding: 12px 15px 0px 15px;
+  }
+}
+#wrapper .mainCont h3 {
+	font-weight: bold;
+	font-size: 19px;
+	margin-bottom: 20px;
+	padding: 5px 0 2px 40px;
+	line-height: 1.1;
+	color: #1e51a2;
+	background: url(/tgs/2015/common/images/ico_h3.gif) no-repeat -3px 6px;
+	border-bottom: solid 2px #1e51a2;
+	/*word-break: break-all;*/
+}
+#wrapper .mainCont h4 {
+	font-weight: bold;
+	font-size: 16px;
+	margin: 0 0px 15px;
+	padding: 7px 10px;
+	color: #555;
+	line-height: 1.1;
+	border-left: solid 4px #1e51a2;
+	/*word-break: break-all;*/
+}
+#wrapper .mainCont .cttl {
+	background: url(/tgs/2015/common/images/search.gif) no-repeat left 6px;
+	padding:5px 0 2px 22px;
+	position: relative;
+	border-bottom: solid 2px #1e51a2;
+	border-left: none;
+	color: #1e51a2;
+}
+#wrapper .mainCont .cttl span {
+	text-align: right;
+	font-size: 14px;
+	position: absolute;
+	right: 0;
+	bottom: 2px;
+}
+#wrapper .mainCont .cttl span a {
+	position: relative;
+	display: block;
+	text-decoration: none;
+	color: #1e51a2;
+}
+#wrapper .mainCont .cttl span a:before {
+	top: 7px;
+	right: 15px;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	border-color: rgba(12, 146, 226, 0);
+	border-left-color: #1e51a2;
+	border-width: 5px;
+	margin-top: -5px;
+}
+#wrapper .mainCont .cttl span a:hover {
+	filter: alpha(opacity=70);
+	opacity: 0.7;
+}
+
+/* PC .cntBox
+---------------------------------------------------------------- */
+#wrapper .cntBox {
+	width: 760px;
+	height:auto;
+	min-height:500px;
+	float: left;
+	margin-right: 0px;
+	margin-bottom: 20px;
+	background: #fff;
+}
+#wrapper .cntBox .boxInner {
+	padding: 20px 20px 20px 20px;
+}
+
+/* 区切り線 */
+#wrapper .cntBox .boxInner hr {
+	background: url(/tgs/2015/common/images/hr2.gif) no-repeat center top;
+	border: none;
+	height: 8px;
+	margin: 20px auto 20px;
+	background-size: cover;
+}
+
+/* PC .cntBox table
+---------------------------------------------------------------- */
+#wrapper .cntBox .boxInner table {
+	width: 700px;
+	margin: 0 auto 20px;
+}
+#wrapper .cntBox .boxInner table, #wrapper .cntBox .boxInner table th, #wrapper .cntBox .boxInner table td {
+	border: 1px solid #dddddd;
+}
+#wrapper .cntBox .boxInner table th {
+	padding: 16px;
+	background: #efefef;
+	text-align: left;
+	font-weight: normal;
+	width: 25%;
+}
+#wrapper .cntBox .boxInner table th span {
+	padding: 0px 5px;
+	background: #5ab7ac;
+	color: #FFF;
+	font-weight: normal;
+	display: block;
+	text-align: center;
+	margin-bottom: 6px;
+	display: table-cell;
+}
+#wrapper .cntBox .boxInner table td {
+	padding: 16px;
+}
+#wrapper .cntBox .boxInner table td a {
+	font-weight: bold;
+	margin-right: 3px;
+}
+
+/* PC .boxInner pagetop　コンテンツ内pagetop
+---------------------------------------------------------------- */
+
+#wrapper .cntBox .boxInner .pagetop {
+	text-align: right;
+}
+#wrapper .cntBox .boxInner .pagetop a {
+	position: relative;
+	display: inline-block;
+	width:85px;
+}
+#wrapper .cntBox .boxInner .pagetop a:before {
+	top: 5px;
+	right: 60px;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-color: rgba(12, 146, 226, 0);
+	border-bottom-color: #0c92e2;
+	border-width: 5px;
+	margin-left: -5px;
+}
+
+/* 各ページ共通pagetop
+---------------------------------------------------------------- */
+.common_pagetop {
+	width: 984px;
+	text-align: right;
+	margin: 10px auto 0;
+	clear: both;
+}
+.common_pagetop a:hover{
+	filter: alpha(opacity=50);
+	opacity:0.5;
+	}
+
+/* PC .mainCont .subMenu　サブナビ
+---------------------------------------------------------------- */
+#wrapper .mainCont .subArea {
+	width: 210px;
+	float: right;
+	display: block;
+}
+#wrapper .mainCont .subArea #submenu {
+	width: 206px;
+	text-align: left;
+	display: block;
+	position: relative;
+	box-shadow: 5px 5px 0px 0 rgba(221,221,221,1);
+}
+#wrapper .mainCont .subArea h1 {
+	margin: 0 0 0px 0;
+	padding: 8px 0 6px 25px;
+	display: block;
+	font-size: 16px;
+	font-weight: bold;
+	overflow: hidden;
+	color: #fff;
+	background: #022459;
+	background: url(/tgs/2015/common/images/submenu_h1.gif) repeat-y;
+	position: relative;
+	border-top: 5px solid #022459;
+	border-bottom: 5px solid #022459;
+	line-height:1.1;
+}
+#wrapper .mainCont .subArea #submenu ul {
+	padding: 0;
+}
+#wrapper .mainCont .subArea #submenu ul li {
+	padding: 10px 10px 10px 20px;
+	font-size: 13px;
+	font-weight: bold;
+	color: #022459;
+	line-height: 1.2;
+	border-right: 4px solid #022459;
+	border-bottom: 4px solid #022459;
+	border-left: 4px solid #022459;
+	background: #fff url(/tgs/2015/common/images/subnav_arrow.png) no-repeat 5px center;
+}
+#wrapper .mainCont .subArea #submenu ul li a {
+	font-weight: bold;
+	color: #022459;
+	text-decoration: none;
+	display: block;
+}
+#wrapper .mainCont .subArea #submenu ul li:hover {
+	background: #e4f0f9 url(/tgs/2015/common/images/subnav_arrow.png) no-repeat 5px center;
+}
+#wrapper .mainCont .subArea #submenu ul .act, #wrapper .mainCont .subArea #submenu ul .act:hover {
+	background: #e4f0f9;
+}
+
+/* PC .cntFooter
+---------------------------------------------------------------- */
+#wrapper .cntFooter {
+	font-family: 'Noto Sans Japanese', sans-serif;
+	width: 1020px;
+	margin: 0 auto;
+	padding-top: 16px;
+	padding-bottom: 13px;
+	background: #aaa;
+	margin-bottom: 30px;
+}
+#wrapper .cntFooter a {
+	text-decoration: none;
+}
+#wrapper .cntFooter ul {
+	margin: 0 auto;
+	text-align: center;
+}
+#wrapper .cntFooter ul li {
+	display: inline-block;
+	margin-right: 24px;
+	padding-right: 24px;
+	text-align: center;
+	color: #FFF;
+	border-right: 1px solid #FFF;
+	line-height: 1.1;
+}
+#wrapper .cntFooter ul li:last-child {
+	border-right: none;
+}
+#wrapper .cntFooter ul li a {
+	color: #FFF;
+}
+#wrapper .cntFooter ul li a:hover {
+	color: #ddd;
+}
+
+/* PC footer
+---------------------------------------------------------------- */
+
+.footer .fbox {
+	padding: 13px 0;
+	background: #01122d;
+	width: 100%;
+}
+.footer .fi {
+	width: 1020px;
+	margin: 0 auto;
+	color: #FFF;
+}
+.footer .fi p {
+	margin-top: 11px;
+}
+.footer .fi p {
+	float: left;
+}
+.footer .fi ul {
+	float: right;
+	background: #FFF;
+	padding: 7px 10px;
+	border-radius: 5px;
+	text-align: center;
+}
+.footer .fi ul li {
+	display: inline-block;
+	margin: 0 7px;
+}
+
+/* *************************************************************
+*
+*	SP view
+*	
+************************************************************ */
+
+@media screen and (max-width:769px) {
+body{
+	background-image: none;
+	background-color: #e4f0f9;
+	}
+.pcBlc {
+	display: none;
+}
+.spBlc {
+	display: block;
+}
+
+/* SP キャラクターの設置
+---------------------------------------------------------------- */
+#wrapper{
+	width: 100%;
+	background: url(/tgs/2015/common/images/sp_background.png) no-repeat;
+	background-size: 100% auto;
+	background-position: right 10px;
+	}
+
+/* SP cont_base ベースシャドウ
+---------------------------------------------------------------- */
+.cntBase{
+	width: 100%;
+	margin:0 auto;
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.15);
+	-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.15);
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.15);
+	}
+	
+/* 区切り線 */
+#wrapper .cntBox .boxInner hr {
+	background: url(/tgs/2015/common/images/sp_hr.gif) no-repeat center top;
+	background-size: contain;
+}
+.pcml20 {
+	margin-left: 0px;
+}
+/* リスト関係 */
+#wrapper .cntBox .boxInner .dotli li {
+	margin-left: 0;
+}
+#wrapper .cntBox .boxInner .number {
+	margin: 5px 0 0;
+	padding-top:10px;
+	font-size: 12px;
+}
+#wrapper .cntBox .boxInner .number li {
+	margin-left: 20px;
+	margin-bottom: 8px;
+}
+/*リンク*/
+#wrapper .cntBox .boxInner .link a {
+	background: url(/tgs/2015/common/images/link_arrow.png) no-repeat 4px center;
+	background-size: 4px 8px;
+	padding-left: 10px;
+	font-weight: normal;
+}
+.linkBtn {
+	width: auto;
+}
+
+/* SP #header
+--------------------------------------------------- */
+#header {
+	height: auto;
+}
+#header .headerInner {
+	width: 100%;
+}
+
+/* SP #headerInnerL #headerInnerR　共通
+--------------------------------------------------- */
+#header .headerInner #headerInnerL {
+	width: 124px;
+}
+#header .headerInner #headerInnerR {
+	width: 162px;
+}
+
+/* SP header_logo
+--------------------------------------------------- */
+#header .headerInner #headerInnerL #headLogo {
+	display: block;
+	padding: 6px 0 0 10px;
+}
+#header .headerInner #headerInnerL #headLogo a, #header .headerInner #headerInnerL #headLogo span {
+	width: 124px;
+}
+#header .headerInner #headerInnerL #headLogo a {
+	height: 18px;
+	background: url(/tgs/2015/common/images/sp_logo.gif) no-repeat center center;
+	background-size: 124px 22px;
+}
+
+/* SP用広告バナー　センタリング
+--------------------------------------------------- */
+#div-gpt-ad-smp_webpanel1_ad_container{
+	width:320px;
+	margin: 0 auto;
+	}
+
+/* spmenuBtn
+--------------------------------------------------- */
+#header .headerInner #headerInnerR .spmenuBtn {
+	width: 162px;
+}
+#header .headerInner #headerInnerR .spmenuBtn li {
+	padding: 7px 0px 7px 10px;
+	width: 43px;
+	float: right;
+	border-left: 1px solid #2d4974;
+}
+#header .headerInner #headerInnerR .spmenuBtn li img {
+	width: 32px;
+	height: 30px;
+	text-align: center;
+}
+
+/* SP .mainArea
+---------------------------------------------------------------- */
+#wrapper .mainArea {
+	width: 100%;
+	margin: 0 auto 2%;
+}
+#wrapper .mainArea .spBanner {
+	display: none;
+}
+#wrapper .mainArea h1 {
+	width: 55%;
+	margin: 2%;
+}
+#wrapper .mainArea .date {
+	margin-bottom: 0px;
+	padding: 5px 2%;
+}
+#wrapper .mainArea #nav ul li {
+	float: left;
+}
+
+/* SP .mainCont
+---------------------------------------------------------------- */
+#wrapper .mainCont {
+	width: 100%;
+	margin: 0 auto;
+	padding: 0;
+	background: #fff;
+}
+#wrapper .mainCont h2 {
+	font-size: 18px;
+	margin:20px 20px 5px;
+}
+#wrapper .mainCont h3 {
+	font-size: 16px;
+	background: url(/tgs/2015/common/images/sp_ico_h3.gif) no-repeat 0px 5px;
+	background-size: 34px 18px;
+}
+#wrapper .mainCont h4{
+	font-size: 15px;
+	}
+#wrapper .mainCont .cttl {
+	background: url(/tgs/2015/common/images/sp_search.gif) no-repeat left 5px;
+	background-size: 14px;
+	padding:5px 20px 2px 20px;
+	position: relative;
+}
+
+/* SP .cntBox
+---------------------------------------------------------------- */
+#wrapper .cntBox {
+	width: 100%;
+	min-height:100px;
+	float: none;
+	margin: 0px;
+	position: relative;
+}
+#wrapper .cntBox .boxInner {
+	padding: 20px 20px 10px 20px;
+}
+/* table */
+#wrapper .cntBox .boxInner table {
+	width: 100%;
+}
+#wrapper .cntBox .boxInner table, #wrapper .cntBox .boxInner table th, #wrapper .cntBox .boxInner table td {
+	border: none;
+}
+#wrapper .cntBox .boxInner table th {
+	display: block;
+	padding: 10px 0px 10px 10px;
+	font-size: 14px;
+	width: auto;
+}
+#wrapper .cntBox .boxInner table th span {
+	padding: 0px 5px;
+	color: #FFF;
+	font-weight: normal;
+	display: inline-block;
+	text-align: center;
+	margin: 0px 6px 0;
+}
+#wrapper .cntBox .boxInner table td {
+	padding: 10px 10px 15px;
+	font-size: 14px;
+	line-height: 20px;
+	display: block;
+}
+
+
+/* SP .mainCont .subArea　サブメニュー
+---------------------------------------------------------------- */
+#wrapper .mainCont .subArea {
+	width: 100%;
+	margin: 5% 0;
+	float: none;
+	display: block;
+	position: static !important;
+}
+#wrapper .mainCont .subArea #submenu {
+	width: 90%;
+	margin: 0 auto;
+	float: none;
+	display: block;
+	background-color: #022459;
+	top: 0px;
+	left: 0px;
+}
+#wrapper .mainCont .subArea #submenu ul li {
+	background: #fff url(/tgs/2015/common/images/subnav_arrow_sp.png) no-repeat 5px center;
+	background-size: 9px 13px;
+}
+#wrapper .mainCont .subArea #submenu ul li:hover {
+	background: #e1effb url(/tgs/2015/common/images/subnav_arrow_sp.png) no-repeat 5px center;
+	background-size: 9px 13px;
+}
+
+/* PC .boxInner pagetop　コンテンツ内pagetop
+---------------------------------------------------------------- */
+
+#wrapper .cntBox .boxInner .pagetop a:before {
+	right: 52px;
+}
+
+/* SP .cntFooter
+---------------------------------------------------------------- */
+#wrapper .cntFooter {
+	width: 97%;
+	padding: 3% 0% 3% 3%;
+	margin-bottom: 0px;
+}
+#wrapper .cntFooter ul {
+	margin: 0 auto;
+	text-align: center;
+}
+#wrapper .cntFooter ul li {
+	margin-right: 8px;
+	padding-right: 8px;
+	text-align: center;
+	color: #FFF;
+	border-right: 1px solid #FFF;
+	line-height: 1.1;
+}
+
+/* SP footer
+---------------------------------------------------------------- */
+.footer {
+	padding: 16px;
+	background: #01122d;
+}
+.footer .fbox {
+	padding: 0px;
+}
+.footer .fi {
+	width: 100%;
+}
+.footer .fi p {
+	float: none;
+	font-size: 8px;
+	text-align: center;
+}
+.footer .fi ul {
+	float: none;
+	background: #FFF;
+	padding: 10px 14px;
+}
+.footer .fi ul li {
+	display: inline-block;
+	text-align: center;
+	margin: 0 9px 5px;
+}
+.footer .fi ul li:last-child{
+	margin: 0 9px 0px;
+	}
+}
