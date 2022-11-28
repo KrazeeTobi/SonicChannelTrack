@@ -1,0 +1,991 @@
+@charset "utf-8";
+/*
+===========================================================================
+
+	Title : sown.css
+
+===========================================================================
+*/
+
+
+/* *********************************************
+*
+*	PC view
+*	
+********************************************* */
+
+img.fit{
+	width: 100%;
+	}
+#wrapper .cntBox{
+	/*width:980px;*/
+	padding:0 0px;
+	}
+#wrapper .cntBox h2{
+	margin:0 0 20px;
+	}
+#wrapper .cntBox .boxInner{
+	padding:30px;
+	}
+#wrapper .cntBox p.ttl {
+	height: 264px;
+	margin-bottom: 0px;
+	padding: 0;
+}
+#wrapper .cntBox p.ttl img{
+	width: 100%;	
+}
+#wrapper .cntBox p.support {
+	font-size: 10px;
+	text-align: right;
+	padding: 0;
+	margin: 0 10px 10px;
+}
+/*グロナビ*/
+#wrapper .cntBox #snavi li a span {
+	position: absolute;
+	height: 0;
+	width: 0;
+	overflow: hidden;
+}
+/*#wrapper .cntBox #snavi {
+	margin-bottom: 20px;
+}*/
+#wrapper .cntBox #snavi li a {
+	background: url(/tgs/2016/business/en/event/sown/images/navi.png) no-repeat;
+	float: left;
+	display: block;
+	height:46px;
+}
+#wrapper .cntBox #snavi li#snavi01 a {
+	width: 92px;
+	background-position: 0px 0px;
+	margin-right:1px;
+}
+#wrapper .cntBox #snavi li#snavi02 a {
+	width: 92px;
+	background-position: -93px 0px;
+	margin-right:1px;
+}
+#wrapper .cntBox #snavi li#snavi03 a {
+	width: 92px;
+	background-position: -186px 0px;
+	margin-right:1px;
+}
+#wrapper .cntBox #snavi li#snavi04 a {
+	width: 92px;
+	background-position: -279px 0px;
+	margin-right:1px;
+}
+#wrapper .cntBox #snavi li#snavi05 a {
+	width: 92px;
+	background-position: -372px 0px;
+	margin-right:1px;
+}
+#wrapper .cntBox #snavi li#snavi06 a {
+	width: 92px;
+	background-position: -465px 0px;
+	margin-right:1px;
+}
+#wrapper .cntBox #snavi li#snavi07 a {
+	width: 92px;
+	background-position: -558px 0px;
+}
+#wrapper .cntBox #snavi li#snavi01 a.active,
+#wrapper .cntBox #snavi li#snavi01 a:hover {
+	background-position: 0px -46px;
+}
+#wrapper .cntBox #snavi li#snavi02 a.active,
+#wrapper .cntBox #snavi li#snavi02 a:hover {
+	background-position: -93px -46px;
+}
+#wrapper .cntBox #snavi li#snavi03 a.active,
+#wrapper .cntBox #snavi li#snavi03 a:hover {
+	background-position: -186px -46px;
+}
+#wrapper .cntBox #snavi li#snavi04 a.active,
+#wrapper .cntBox #snavi li#snavi04 a:hover {
+	background-position: -279px -46px;
+}
+#wrapper .cntBox #snavi li#snavi05 a.active,
+#wrapper .cntBox #snavi li#snavi05 a:hover {
+	background-position: -372px -46px;
+}
+#wrapper .cntBox #snavi li#snavi06 a.active,
+#wrapper .cntBox #snavi li#snavi06 a:hover {
+	background-position: -465px -46px;
+}
+#wrapper .cntBox #snavi li#snavi07 a.active,
+#wrapper .cntBox #snavi li#snavi07 a:hover {
+	background-position: -558px -46px;
+}
+
+#wrapper .cntBox #snavi li a:hover{
+	opacity: 1;
+	height: 40px;
+}
+
+/* 共通設定
+---------------------------------------------------------------- */
+
+.mb15 {
+	margin-bottom: 15px;
+}
+.mb30 {
+	margin-bottom: 30px;
+}
+.boxInner .inner {
+	width: 100%;
+	/*padding: 0 10px;*/
+}
+
+/* TOP
+---------------------------------------------------------------- */
+
+/* スポンサー */
+#wrapper .cntBox .boxInner .logo_l{
+	width:30%;
+	float:left;
+	margin-bottom: 20px;
+	margin-right:3%;
+	}
+#wrapper .cntBox .boxInner .logo_c{
+	width:30%;
+	float:left;
+	margin-bottom: 20px;
+	margin-right:3%;
+	}
+#wrapper .cntBox .boxInner .logo_r{
+	width:30%;
+	float:left;
+	margin-bottom: 20px;
+	}
+h3.cl{
+	clear:both;
+	}
+#wrapper .cntBox .boxInner h5 {
+	color:#999;
+	margin-bottom: 5px;
+	border-bottom: 1px solid #999;
+}
+#wrapper .cntBox .boxInner .logo_c ul li{
+	display: inline;
+	padding-right: 30px;
+}
+/* What's new */
+.wn {
+	padding: 15px 15px 0px 15px;
+}
+/*.wn ul {
+	overflow: auto;
+	height: 280px;
+}*/
+.wn ul li {
+	margin-bottom: 15px;
+}
+.wn ul li dl {
+	overflow: hidden;
+}
+.wn ul li dl dt {
+	float: left;
+	margin-right: 20px;
+}
+.wn ul li dl dd {
+	width: 462px;
+	float: left;
+	/*width: 580px;*/
+}
+.porpose li{
+	padding:5px 30px;
+	background:url(/tgs/2016/business/event/sown/images/ico_check.jpg) no-repeat left 3px;
+	background-size:20px 20px;
+	font-size:14px;
+	font-weight: bold;
+	color:#e16950;
+	line-height:20px;
+	}
+.ie8 .porpose li{
+	background:url(/tgs/2016/business/event/sown/images/ico_check_ie8.jpg) no-repeat left center;
+	}
+	
+/* 謝辞 */
+#appreciate {
+	background-color: #bbbbbb;
+	padding: 5px 15px;
+	color: #FFF;
+	font-weight: bold;
+}
+
+/* 応募要項
+---------------------------------------------------------------- */
+
+.notice {
+	text-align: center;
+	margin-bottom: 15px;
+}
+.priod {
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 30px;
+	text-align: center;
+}
+.entry {
+	text-align: center;
+	/*	margin-bottom:30px;*/
+	padding-bottom: 40px;
+}
+#requirements table ul li {
+	text-indent: -1em;
+	padding-left: 1em;
+}
+#requirements table th {
+	width: 20%;
+}
+#requirements table td {
+	width: 80%;
+}
+#requirements dl dt {
+	color: #dc4f31;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+#requirements dl dd {
+	margin-bottom: 15px;
+}
+#requirements .linkBtn a{
+	padding:10px 40px 10px;
+	background: #dc4f31;
+	font-size:20px;
+	font-weight:bold;
+	}
+#requirements .coming{
+	width:260px;
+	margin:0 auto;
+	padding:10px;
+	background: #777;
+	color:#aaa;
+	text-align: center;
+	}
+	
+/* 選考委員
+---------------------------------------------------------------- */
+#committee .lead{
+	padding-bottom: 20px;
+	border-bottom: 1px solid #eeeeee;
+}
+#committee .boxWrap {
+	margin-bottom: 20px;
+}
+#committee .box {
+	padding: 20px 0 0;
+	float: left;
+	border-bottom: 1px solid #eeeeee;
+}
+#committee .box.last {
+	border-bottom: none;
+}
+#committee .box p.pic {
+	float: left;
+	width: 128px;
+	margin-right: 10px;
+}
+#committee .box dl {
+	float: left;
+	width: 452px;
+}
+#committee .box dl dt {
+	color: #dc4f31;
+	margin-bottom: 10px;
+	font-size: 16px;
+	font-weight: bold;
+}
+#committee .box dl dd span {
+	font-size: 11px;
+}
+#committee .box p.profile {
+	clear: both;
+	font-size: 12px;
+}
+
+/* プレゼンテーション
+---------------------------------------------------------------- */
+
+/*アンカー*/
+#anchor{
+	margin-bottom: 20px;
+	overflow: hidden;
+	}
+#anchor li{
+	margin-bottom: 1.5%;
+	padding: 1%;
+	/*width:49%;*/
+	width: 100%;
+	/*float:left;*/
+	border:2px solid #ddd;
+	border-radius: 3px;
+	font-size:20px;
+	line-height:1.4;
+	background: url(/tgs/2016/business/event/sown/images/arrow_next.gif) no-repeat right 10px center;
+	position:relative;
+	}
+/*#anchor li:nth-child(even){
+	float:right;
+	}*/
+#anchor li img{
+	width:100px;
+	padding-right:2%;
+	float:left;
+	}
+#anchor li span{
+	/*width: 128px;*/
+	height: 34px;
+	margin-top: 16px;
+	display:inline-block;
+	font-size: 14px;
+	position: relative;
+	}
+#anchor li img.ico{
+	width: 120px;
+	position: absolute;
+	top:14px;
+	right: 18px;
+}
+/*#anchor li span img {
+	width: auto !important;
+	position:absolute;
+	top: 16px;
+	right: 26px;
+}*/
+#anchor li span.tl{
+	margin-top: 8px;
+	}
+#anchor li a{
+	display:block;
+	color:#555;
+	text-decoration:none;
+	transition:opacity .3s ease;
+	}	
+#anchor li a:hover{
+	filter: alpha(opacity=70);
+	opacity: 0.7;
+	}
+/*****/
+
+#presesntation .inner {
+	margin: 0px 0 40px;
+}
+#presentation h4 {
+	/*color: #555!important;*/
+	font-size: 16px;
+}
+#presentation h5 {
+	color: #dc4f31!important;
+	font-size: 22px;
+	border-bottom:none!important;
+}
+#presentation .boxWrap {
+	border-top: 1px solid #ddd;
+	margin-bottom: 20px;
+	padding-top: 20px;
+}
+/*タイトル・受賞者*/
+#presentation .title{
+	margin-top:40px;
+	padding:25px 0;
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	position: relative;
+	}
+#presentation .title p{
+	font-size: 18px;
+	}
+#presentation .title .award{
+	position: absolute;
+	right:0;
+	top:20px;
+	}
+#presentation .title .award2{
+	position: absolute;
+	right:0;
+	top:3px;
+	}
+#pre6{
+	padding-bottom: 20px;	
+}
+/*作品概要*/
+#presentation .box {
+	width:100%;
+	margin-bottom: 20px;
+	padding-top: 20px;
+}
+/*#presentation .box .txt{
+	width:63%;
+	padding-right:2%;
+	float:left;
+	}*/	
+#presentation .box .txt dt{
+	font-size:16px;
+	}
+#presentation .box .pic{
+	/*width:35%;*/
+	margin:30px 10px 10px;
+	float:right;
+	display: inline-block;
+	}
+/*ボタン*/
+#presentation .linkBtn{
+	margin:40px auto 70px!important;
+	}
+#presentation .linkBtn a{
+	width:290px;
+	margin:0 auto;
+	padding:15px 15px 15px 20px;
+	font-size:16px;
+	font-weight: bold;
+	display: block;
+	line-height: 1.2;
+	}
+#presentation .boxWrap .box2 {
+	float: left;
+	width: 420px;
+	margin:0 20px;
+}
+#presentation .boxWrap .box2 dl {
+	width: 165px;
+	float: left;
+}
+#presentation .boxWrap .box2 dd span {
+	font-size: 10px;
+}
+#presentation .boxWrap .last {
+	margin-right: 0px;
+}
+
+/*一次選考通過作品*/
+#presentation .boxWrap .box2 dl dt {
+	color: #dc4f31;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+#wrapper .cntBox .boxInner table {
+	width: 100%;
+	border: none!important;
+}
+#presentation th {
+	width: 140px!important;
+	border-top: none!important;
+	border-right: none!important;
+	border-bottom: 3px solid #fff!important;
+	border-left: none!important;
+	background: #999 !important;
+	padding: 3px 0px 3px 0!important;
+	margin-top: -5px;
+	color: #fff;
+	text-align: center!important;
+	font-size: 13px;
+}
+#presentation td {
+	border: none!important;
+	padding: 8px 0px 0px 0px!important;
+	margin: 3px 0 0 15px;
+	font-size: 15px;
+	display: inline-table;
+	font-weight:bold;
+}
+#presentation td.txt_m{
+	font-size: 12px;
+	font-weight:normal;
+}
+#presentation #preMovie {
+	width: 600px;
+	height: 400px;
+	margin: 0 auto 30px;
+}
+
+/* プレゼンターメッセージ
+---------------------------------------------------------------- */
+
+#presentation.message .title{
+	margin-top:0;
+	padding:40px 0 10px;
+	border-bottom: none;
+	}
+#presentation.message .interview dt{
+	margin: 20px 0;
+	padding-top:30px;
+	padding-left: 1.5em;
+	text-indent: -1.5em;
+	font-size:18px;
+	font-weight: bold;
+	color: #1e51a2;
+	border-top:1px dotted #ddd;
+	}
+#presentation.message .interview dd{
+	margin-bottom: 30px;
+	}
+/*ボタン*/
+#presentation.message .linkBtn{
+	margin-top:80px!important;
+	}
+#presentation.message .linkBtn a{
+	width:250px;
+	margin:0 auto;
+	padding:15px;
+	}
+.linkBtn.back a{
+	background: #005697 url("/tgs/2016/business/common/images/arrow_wh_back.png") no-repeat scroll 20px center / 10px auto;
+}
+
+/* 過去のSOWN
+---------------------------------------------------------------- */
+
+#history ul.photo {
+	margin-bottom: 15px;
+}
+#history ul.photo li {
+	width: 33.3%;
+	float: left;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+#history ul.photo li.last {
+	margin-right: 0px;
+}
+#history ul.photo li img{
+	width: 100%;
+	height: auto;	
+}
+#history .historyLink {
+	width: 600px;
+	margin: 0 auto 30px;
+	font-size:15px;
+}
+#history .historyLink li {
+	float: left;
+	width: 300px;
+	margin:7px 0;
+}
+#history .linkBtn a{
+	padding:10px 20px 10px;
+	background: #dc4f31;
+	font-size:16px;
+	font-weight:bold;
+	}
+
+/* 過去のAWARD受賞者
+---------------------------------------------------------------- */
+#award a img{
+	transition:opacity .3s;
+	}
+#award a img:hover{
+	filter: alpha(opacity=70);
+	opacity: 0.7;
+	}	
+
+#award .box {
+	padding: 30px 0;
+	border-bottom: 1px solid #ddd;
+}
+#award .box:last-child{
+	border-bottom: none;
+	}
+#award .box .pic{
+	width:22%;
+	margin-right: 3%;
+	float:left;
+	}
+#award .box .pic p{
+	margin-bottom:0;
+	}
+#award .box .txt{
+	width:75%;
+	float:left;
+	}	
+#award dt{
+	color: #dc4f31;
+	font-size: 16px;
+	font-weight: bold;
+	}
+#award dd{
+	margin-bottom: 20px;
+	}
+#award dd:last-child{
+	margin-bottom: 0px;
+	}
+
+/* SOWNが対象とするゲーム
+---------------------------------------------------------------- */
+
+#game .box {
+	/*float: left;
+	width: 270px;*/
+	margin: 0 0 20px;
+}
+/*#game .height1 {
+	height: 40px;
+}
+#game .height2 {
+	height: 130px;
+}
+#game .height3 {
+	height: 60px;
+}*/
+#game .box dl dt {
+	color: #dc4f31;
+	margin-bottom: 15px;
+	font-weight: bold;
+	font-size: 14px;
+}
+#game .last {
+	margin-right: 0px;
+}
+#game .strong {
+	color: #dc4f31;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration:underline;
+	font-size:16px;
+}
+#game .inner:first-child{
+	border-bottom:1px solid #ddd;
+	}
+
+
+/* *********************************************
+*
+*	SP view
+*	
+********************************************* */
+
+@media screen and (max-width:769px) {
+	
+#wrapper .cntBox{
+	width:100%;
+	padding:0 0px;
+	}
+#wrapper .cntBox .boxInner{
+	padding:18px;
+	}
+#wrapper .cntBox .inner{
+	padding:0;
+	}
+#wrapper .cntBox p.ttl {
+	height: auto;
+}
+body:not(#index) #wrapper .mainCont h2{
+	font-size: 18px;	
+}
+	
+/* SOWNグロナビ
+---------------------------------------------------------------- */
+#wrapper #snavi {
+	width: auto;
+	margin:0 auto;
+}
+#wrapper .cntBox #snavi li{
+	float:none;
+	}
+#wrapper .cntBox #snavi li span {
+	margin-bottom: 1px;
+	display: block;
+	height: 100%;
+	width: 100%;
+	background-color: #14b1e1!important;
+	color:#fff;
+}
+#wrapper .cntBox #snavi li:last-child span {
+	margin-bottom: 0px;
+}
+#wrapper .cntBox #snavi li a {
+	background-image: none;
+	height: 100%;
+	color: #555;
+}
+#wrapper .cntBox #snavi li a.active span{
+	background: #005697!important;
+	/*color:#0068b4;*/
+	}
+#wrapper .cntBox #snavi li#snavi01 a {
+	width: 100%;
+}
+#wrapper .cntBox #snavi li#snavi02 a {
+	width: 100%;
+}
+#wrapper .cntBox #snavi li#snavi03 a {
+	width: 100%;
+	background: #FFF;
+}
+#wrapper .cntBox #snavi li#snavi04 a {
+	width: 100%;
+	background: #FFF;
+}
+#wrapper .cntBox #snavi li#snavi05 a {
+	width: 100%;
+	background: #FFF;
+}
+#wrapper .cntBox #snavi li#snavi06 a {
+	width: 100%;
+	background: #FFF;
+}
+#wrapper .cntBox #snavi li#snavi07 a {
+	width: 100%;
+	background: #FFF;
+}
+/*非アクティブ*/
+
+#wrapper .cntBox #snavi li a span {
+	position: static;
+	background: url(/tgs/2016/business/event/sown/images/sp_sown_nav.png) 10px center no-repeat;
+	background-size: 8px 11px;
+	padding: 12px 0px 12px 23px;
+	display: inline-table;
+	width: 100%;
+	height: auto;
+}	
+#wrapper .cntBox #snavi li a:hover{
+	height:auto;
+}
+	
+/* SOWNトップ
+---------------------------------------------------------------- */
+#wrapper .cntBox .boxInner .logo_l{
+	width:100%;
+	float:none;
+	}
+#wrapper .cntBox .boxInner .logo_c{
+	width:100%;
+	float:none;
+	}
+#wrapper .cntBox .boxInner .logo_r{
+	width:100%;
+	float:none;
+	}
+#wrapper .cntBox .boxInner .logo_c ul li{
+	display: inline;
+	padding:0 20px 10px 0;
+}
+.wn ul li dl dd {
+	float: left;
+	width: 100%;
+}
+.porpose li{
+	background:url(/tgs/2016/business/event/sown/images/ico_check.jpg) no-repeat left 5px;
+	background-size:20px 20px;
+	padding-right:0;
+	}
+
+/* 応募要項
+---------------------------------------------------------------- */
+
+#requirements table th {
+	width: auto;
+}
+#requirements table td {
+	width: auto;
+}
+
+/* 選考委員
+---------------------------------------------------------------- */
+
+#committee .box {
+	width: 100%;
+	float: none;
+	margin: 0 0 20px 0;
+	padding-bottom: 20px;
+}
+#committee .box p.pic {
+	float: left;
+	width: 39%;
+	margin-right: 1%;
+}
+#committee .box dl {
+	float: left;
+	width: 60%;
+}
+
+/* プレゼンテーション
+---------------------------------------------------------------- */
+
+#presentation h5{
+	font-size: 20px;	
+}
+/*アンカー*/
+#anchor li{
+	width:100%;
+	margin:0 auto 2%;
+	padding: 8px;
+	float:none;
+	background: url(/tgs/2016/business/event/sown/images/arrow_next.gif) no-repeat right 3% center;
+	font-size:16px;
+	overflow: hidden;
+	}
+#anchor li:nth-child(even){
+	float:none;
+	}
+#anchor li span{
+	height: auto;
+	margin-top: 12px;	
+	}
+#anchor li span.tl{
+	margin-top: 3px;
+	}
+#anchor li .spBlc{
+	display: inline-block;	
+}
+/*****/
+#presentation .title .award,
+#presentation .title .award2{
+	position: relative;
+	top: 0;
+}
+	
+#presentation th {
+	width: auto!important;
+	margin-top: 20px;
+}
+#presentation td {
+	width: auto!important;
+}
+#presentation .box .txt{
+	width:60%;
+	}
+#presentation .box .pic{
+	width:38%;
+	}
+#presentation p {
+	margin-bottom: 5px;
+}
+#presentation .boxWrap {
+	border-top: none;
+	margin-bottom: 0px;
+	padding: 0;
+}
+
+/*一次選考通過作品*/
+#presentation .boxWrap .box2 {
+	float: none;
+	width: 100%;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	margin-left:0;
+	padding-top: 20px;
+	border-top:1px solid #ddd;
+}
+#presentation .boxWrap .box2 dl {
+	width: 50%;
+}
+#presentation .boxWrap .box2 dd.img {
+	text-align: center;
+}
+#presentation .boxWrap .last {
+	margin-right: 0px;
+}
+#presentation .boxWrap .box2 dl dt {
+	color: #dc4f31;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+#presentation #preMovie {
+	width: 100%;
+	height: 250px;
+	margin: 0 auto 30px;
+}
+#presentation .linkBtn a{
+	width: 90%;
+	font-size:14px;
+}
+
+/* 過去の様子
+---------------------------------------------------------------- */
+
+#history ul.photo {
+	width:100%;
+	margin-bottom: 15px;
+}
+#history ul.photo li {
+	float: left;
+	width: 25%;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+#history ul.photo li.last {
+	margin-right: 0px;
+}
+#history .historyLink {
+	width: 100%;
+	text-align: center;
+}
+#history .linkBtn a{
+	font-size:14px;
+	}
+
+/* SOWNが対象とするゲーム
+---------------------------------------------------------------- */
+
+#game .box {
+	float: none;
+	width: 100%;
+	margin: 0 0 30px 0;
+}
+#game .box dl dt {
+	margin-bottom: 15px;
+	font-weight: bold;
+	font-size: 14px;
+	height: auto;
+}
+#game .box dl dd {
+	height: auto;
+}
+
+}
+
+@media screen and (max-width:414px) {
+
+/* プレゼンテーション
+---------------------------------------------------------------- */
+
+#anchor li{
+	font-size:12px;
+	letter-spacing: -0.3px;
+	}
+#anchor li img{
+	width:80px;
+	padding-right:2%;
+	float:left;
+	}
+#anchor li img.ico{
+	width: 80px;
+}
+#anchor li span img {
+	top: 6px;
+	right: 20px;
+}	
+#presentation .box .pic{
+	width:100%;
+	}
+#presentation .box .txt{
+	width:100%;
+	float:none;
+	}
+	
+/* 過去の様子
+---------------------------------------------------------------- */
+
+#history .historyLink li{
+	width:auto;
+	}
+
+/* 過去のAWARD受賞者
+---------------------------------------------------------------- */
+
+#award .box .pic{
+	width:130px;
+	margin-bottom: 10px;
+	}
+#award .box .txt{
+	width:100%;
+	}	
+	
+}
