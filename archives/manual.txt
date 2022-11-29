@@ -1,0 +1,78 @@
+MANUAL OF PRESERVING ARCHIVED SITE CONTENT VIA WEB.ARCHIVE.ORG
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+TABLE OF CONTENTS
+
+Section I: Installing the wayback_machine_downloader utility
+Section II: Using the batch files
+Section III: Large folders
+Section IV: Issues
+Section V: Q&A
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+SECTION I: INSTALLING THE WAYBACK_MACHINE_DOWNLOADER UTILITY
+
+For the batch scripts in the /archives/ directory to work, a utility
+known as wayback_machine_downloader is required. You can get it at:
+
+https://github.com/hartator/wayback-machine-downloader .
+
+The utility requires a version of Ruby that is 1.9.2 or newer.
+
+The installation instructions for the utility are on the page above.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+SECTION II: USING THE BATCH FILES
+
+Hooray! You've got the utility installed. Use any batch file from any
+directory and it should show a message like:
+
+"Downloading URL to YEAR/MONTH/DAY/ from Wayback Machine archives.
+
+Getting snapshot pages. found X snapshots to consider."
+
+If the batch script errors out, go to Section IV.
+
+Wait for the batch script to do it's thing. It will close itself when
+it's done downloading the files. It is recommended to run the batch
+script twice as it's bound to miss a few files.
+
+You can now go on to Section III.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+SECTION III: LARGE FOLDERS
+
+Generally, folders under ~280MB are safe to commit and push.
+
+If you find yourself with a folder larger than 280MB, delete as much as
+needed to get the output folder under 280MB. After you've committed and
+pushed it, restore the deleted files. If the deleted folders still add
+up to more than 280MB, repeat the process.
+
+Failure to do so will end up in you having a commit that can't be pushed.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+SECTION IV: ISSUES
+
+Error: A whole bunch of code explodes in my face related to URIErrors!
+
+Solution: Try again later. It's best to try again the day after. This
+happens because the CDX or the Wayback servers can't complete the
+utility's request.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+SECTION V: QUESTIONS AND ANSWERS
+
+Fill later. There really hasn't been any yet.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Version 1, 29-11-2022
+
+Authors: KrazeeTobi
