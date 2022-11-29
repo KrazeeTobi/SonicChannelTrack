@@ -1,0 +1,283 @@
+@charset "utf-8";
+/*
+===========================================================================
+
+	Title : JP 総合TOP / top.css
+
+===========================================================================
+*/
+
+/* *************************************************************
+*
+*	PC view
+*	
+************************************************************ */
+
+* {
+	box-sizing: border-box;
+}
+html, body {
+	height: 100%;
+}
+body {
+	background: url(../images/character.png) no-repeat;
+	background-position: center -20px;
+	background-size: 980px auto;
+	animation: bgMove ease-in-out 8s infinite alternate;
+}
+@keyframes bgMove{
+	0%{
+		background-position: center -30px;
+	}
+	50%{
+		background-position: center 0px;
+	}
+	100%{
+		background-position: center -40px;
+	}
+}
+@-webkit-keyframes bgMove{
+	0%{
+		background-position: center -30px;
+	}
+	50%{
+		background-position: center 0px;
+	}
+	100%{
+		background-position: center -40px;
+	}
+	
+}
+#wrapper {
+	min-height: 84.5%;
+	min-height: -webkit-calc(100% - 203px);
+	min-height: calc(100%-203px);
+	text-align: center;
+	position: relative;
+}
+.pcBlc {
+	display: block;
+}
+.spBlc {
+	display: none;
+}
+.clearfix:after {
+	content: "";
+	clear: both;
+	display: block;
+}
+
+/*リンク*/
+
+a {
+	transition: opacity .5s ease;
+}
+a:hover {
+	filter: alpha(opacity=70);
+	opacity: 0.7;
+}
+
+/* PC_header
+---------------------------------------------------------------- */
+#header {
+	padding: 18px 0 20px;
+	background-color: rgba(255, 255, 255, .8);
+	box-shadow: 3px 3px 8px rgba(7,0,2,.13);
+}
+#header h1 {
+	margin-bottom: 10px;
+}
+
+/* PC .mainCont　コンテンツエリア
+---------------------------------------------------------------- */
+
+.mainCont {
+	width: 980px;
+	margin: 440px auto 50px;
+	position: relative;
+	z-index: 99;
+}
+.mainCont > ul > li {
+	width: 450px;
+	height: 430px;
+	margin: 0 80px 0 0;
+	padding: 50px 0 0;
+	float: left;
+	text-align: center;
+	position: relative;
+	top: 50px;
+	box-shadow: 1px 1px 10px rgba(0,0,0,.15);
+	opacity: 0;
+}
+.mainCont ul li.business {
+	background: url(../business/common/images/motif_top.png) no-repeat left top, url(../business/common/images/motif_bottom.png) no-repeat right bottom;
+	background-size: 50px auto;
+	background-color: rgba( 255,255,255,.9);
+}
+.mainCont ul li.public {
+	margin-right: 0;
+	background: url(../public/common/images/motif_top.png) no-repeat left top, url(../public/common/images/motif_bottom.png) no-repeat right bottom;
+	background-size: 50px auto;
+	background-color: rgba( 255,255,255,.9);
+}
+.mainCont h2 {
+	margin-bottom: 22px;
+}
+.mainCont h3 {
+	margin-bottom: 15px;
+}
+.mainCont ul li p {
+	margin-bottom: 20px;
+	/*margin-bottom: 35px;*/
+}
+.mainCont ul li .lngBtn{
+	margin-bottom: 20px;	
+}
+.mainCont ul li .lngBtn li {
+	padding: 0 1em 0;
+	border-right: 1px solid #000;
+	display: inline-block;
+	line-height: 1;
+	text-align: center;
+}
+.mainCont .lngBtn li:first-child {
+	padding-left: 0;
+}
+.mainCont .lngBtn li:last-child {
+	padding-right: 0;
+	border: none;
+}
+.mainCont .pressBtn{
+	margin-top: 120px;
+	overflow:  hidden;
+	display:  inline-block;
+}
+.mainCont .pressBtn dt{
+	float: left;
+}
+.mainCont .pressBtn dd{
+	float: left;
+	margin-left: 20px
+}
+
+.mainCont .pressBtn a {
+	padding: 10px 40px 10px;
+	display: inline-block;
+	background: url(../images/arrow_wh.png) no-repeat 10px center;
+	background-size: 8px;
+	background-color: #dfab00;
+	color: #fff;
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 16px;
+}
+
+/* PC footer
+---------------------------------------------------------------- */
+
+#footer {
+	margin-top: 100px;
+	padding-top: 20px;
+	background: #e5e5e5;
+	text-align: center;
+}
+#footer ul.partner {
+	margin-bottom: 20px;
+}
+#footer ul.partner li {
+	display: inline-block;
+	margin: 0 15px;
+	vertical-align: middle;
+}
+.footerBtm {
+	padding: 10px;
+	background: #000;
+	color: #fff;
+}
+
+/* *************************************************************
+*
+*	SP view
+*	
+************************************************************ */
+
+@media screen and (max-width:769px) {
+
+body {
+	background: url(../images/character.png) no-repeat;
+	background-size: 100% auto;
+}
+.pcBlc {
+	display: none;
+}
+.spBlc{
+	display: block;	
+}
+
+/* SP #header
+--------------------------------------------------- */
+
+#header{
+	padding: 10px 0;	
+}
+#header h1{
+	width: 90%;
+	margin: auto;
+}
+#header h1 img{
+	vertical-align: middle;	
+}
+
+/* SP .mainCont　コンテンツエリア
+---------------------------------------------------------------- */
+
+.mainCont {
+	width: 90%;
+	margin-top: 160px;
+}
+.mainCont > ul > li {
+	width: 100%;
+	height: auto;
+	margin: 0 0 20px;
+	padding: 40px 5% ;
+	float: none;
+}
+.mainCont .business h2 {
+	width: 50%;
+	margin: 0 auto 15px;
+}
+.mainCont .public h2 {
+	width: 40%;
+	margin: 0 auto 15px;
+}
+.mainCont h3{
+	margin-bottom: 15px;
+	}
+.mainCont ul li p{
+	margin-bottom: 15px;
+}
+.mainCont ul li .lngBtn li {
+	padding: 0 .5em 0;
+	font-size: 10px;
+}
+.mainCont .pressBtn{
+	margin-top: 50px;
+}
+
+/* SP footer
+---------------------------------------------------------------- */
+#footer {
+	margin-top: 30px;
+}
+#footer .btmlogo {
+	width: 80%;
+	margin: 0 auto 20px;
+}
+#footer ul.partner li {
+	margin: 0 5px;
+}
+#footer .footerBtm p {
+	line-height: 1.2;
+}
+
+}

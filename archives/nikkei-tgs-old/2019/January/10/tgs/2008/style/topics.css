@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+
+/* RSS Reader Rules
+----------------------------------------------- */
+#RSSFeedsList{ 
+  width:600px;
+  overflow: hidden;
+}
+
+.note{
+	font-size: 10px;
+	color:#666;
+}
+
+#columnHeadings {
+	color: #000;
+	font-weight: bold;
+	font-size: 12px;
+	width: 700px;
+	margin: 0;
+	padding: 0;
+	cursor: pointer;
+}
+
+#SubjectTitle, .SubjectColumn { width: 300px; margin: 0; text-align: left;}
+
+#PubDateTitle, .PubDateColumn {	width: 100px; margin: 0; text-align: left;}
+
+.ListBoxItemGroup .ListBoxItem {}
+
+#SubjectTitle, #PubDateTitle, .SubjectColumn, .PubDateColumn { 
+ 	cursor: pointer;
+	white-space: nowrap;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+}
+
+#RSSItemsList {
+  width: 700px;
+  height: 195px;
+	border: #999999 solid 1px;
+  overflow: auto;
+  clear: both;
+}
+
+#RSSItemContent {
+	width: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.RSSItemListRow {
+
+	border-bottom: solid 1px #ccc;
+	background-color: #fff;
+	width: 100%;
+	white-space: nowrap; 
+	overflow: hidden; 
+}
+
+.ListBoxItemTitle {
+/*	background: url('../demos/images/bg_grad_gray1.gif') repeat-x;*/
+	border-bottom: solid 1px #3a3a3a;
+	color: #fff;	
+	font-weight: bold;
+	margin: 0;
+	cursor: pointer;
+}
+.ListBoxCategTitle {
+	border-bottom: solid 1px #3a3a3a;
+	color: #fff;	
+	font-weight: bold;
+	margin: 0;
+}
+
+.ListBoxItem {
+	border-bottom: solid 1px #202020;
+	cursor: pointer;
+	clear: both;
+	background-color: #fff;
+	white-space: nowrap;
+	overflow: hidden;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+}
+
+.EvenRow { background-color: #fff; }
+.ListBoxItemHover {	background-color: #fff; color: #000; }
+
+
+.RSSItemListFeedback {
+	background-color: #fff;
+	border: solid 1px #202020;
+}
+
+td.RSSItemListLoading {
+	background-image: url(../demos/images/throbber.gif);
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+

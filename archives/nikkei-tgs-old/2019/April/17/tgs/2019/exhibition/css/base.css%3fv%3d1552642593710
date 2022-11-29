@@ -1,0 +1,2434 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  height: 0;
+  visibility: hidden;
+}
+.clearfix {
+  min-height: 1px;
+  height: 1px;
+}
+input[type="submit"],
+input[type="button"] {
+  border-radius: 0;
+  -webkit-box-sizing: content-box;
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+  border: none;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+input[type="submit"]::-webkit-search-decoration,
+input[type="button"]::-webkit-search-decoration {
+  display: none;
+}
+input[type="submit"]::focus,
+input[type="button"]::focus {
+  outline-offset: -2px;
+}
+input,
+textarea {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -webkit-appearance: none;
+  max-width: 100%;
+}
+.cl:after {
+  width: 1px;
+  height: 0px;
+  content: "";
+  line-height: 0;
+  display: block;
+  clear: both;
+}
+.ov {
+  overflow: hidden;
+}
+.tel {
+  cursor: default;
+  pointer-events: none;
+}
+@media screen and (max-width: 767px) {
+  .tel {
+    pointer-events: auto;
+  }
+}
+@media screen and (max-width: 767px) {
+  .pc_only {
+    display: none;
+  }
+}
+.smp_only {
+  display: none;
+}
+@media screen and (max-width: 767px) {
+  .smp_only {
+    display: block;
+  }
+}
+html {
+  background: #fff;
+  font-family: "FOT-ロダンNTLG Pro M", "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS P Gothic", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", sans-serif;
+  -webkit-font-feature-settings: "palt";
+  font-feature-settings: "palt";
+  font-size: 20px;
+  -webkit-text-size-adjust: 100%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+@media screen and (max-width: 767px) {
+  html {
+    font-size: 15px;
+  }
+}
+@charset "UTF-8";
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  background: #fff;
+  min-width: 1024px;
+  width: 100%;
+}
+@media screen and (max-width: 767px) {
+  body {
+    min-width: 100%;
+    width: 100%;
+  }
+}
+body.on {
+  position: fixed;
+}
+a {
+  color: #222;
+}
+a:focus {
+  outline: none;
+}
+a:active {
+  color: #aaa;
+}
+a:hover {
+  -moz-opacity: 0.7;
+  -khtml-opacity: 0.7;
+  opacity: 0.7;
+}
+a:visited {
+  color: #333;
+}
+.u_line {
+  text-decoration: underline;
+}
+header {
+  width: 100%;
+}
+@media screen and (max-width: 767px) {
+  header {
+    width: 100%;
+  }
+}
+section,
+artcle {
+  width: 100%;
+  margin: 0 auto;
+}
+@media screen and (max-width: 767px) {
+  section,
+  artcle {
+    width: 100%;
+    min-width: 100%;
+  }
+}
+footer {
+  width: 100%;
+}
+@media screen and (max-width: 767px) {
+  footer {
+    width: 100%;
+  }
+}
+.gotop {
+  position: relative;
+  bottom: -300px;
+  right: 10px;
+  z-index: 100;
+  display: none;
+}
+.gotop.fixed {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  display: block;
+}
+.gotop dl {
+  overflow: hidden;
+  text-align: center;
+}
+.gotop dt {
+  float: left;
+}
+.gotop dt a {
+  background: url("/tgs/2019/exhibition/images/icon_home.svg") center top no-repeat;
+  background-size: 100% auto;
+  font-size: 0.65rem !important;
+  display: block;
+  width: 80px;
+  height: 110px;
+  padding-top: 86px;
+  text-decoration: none;
+}
+@media screen and (max-width: 767px) {
+  .gotop dt a {
+    font-size: 0.55rem !important;
+    text-align: center;
+    width: 50px;
+    height: 75px;
+    padding-top: 56px;
+  }
+}
+.gotop dd {
+  float: left;
+  margin-left: 35px;
+}
+@media screen and (max-width: 767px) {
+  .gotop dd {
+    margin-left: 20px;
+  }
+}
+.gotop dd a {
+  background: url("/tgs/2019/exhibition/images/icon_top.svg") center top no-repeat;
+  background-size: 100% auto;
+  font-size: 0.65rem !important;
+  display: block;
+  width: 80px;
+  height: 110px;
+  padding-top: 86px;
+  text-decoration: none;
+}
+@media screen and (max-width: 767px) {
+  .gotop dd a {
+    font-size: 0.55rem !important;
+    text-align: center;
+    width: 50px;
+    height: 75px;
+    padding-top: 56px;
+  }
+}
+.gotop p {
+  display: block;
+}
+.application_btn {
+  float: right;
+  padding: 8px 16px;
+  overflow: hidden;
+}
+.application_btn a {
+  background: #77cb28;
+  color: #fff;
+  text-decoration: none;
+  font-family: "FOT-ロダンNTLG Pro EB";
+  font-size: 1.55rem !important;
+  position: relative;
+  padding: 25px 165px 25px 55px;
+  overflow: hidden;
+  margin-left: 15px;
+  display: block;
+  border: 1px solid #77cb28;
+  margin: 0 auto;
+  width: 65%;
+}
+.application_btn a span {
+  z-index: 100;
+  position: relative;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+.application_btn a:after {
+  content: '';
+  position: absolute;
+  background: url("/tgs/2019/exhibition/images/link_bg.svg") no-repeat;
+  background-size: auto 85px;
+  width: 250px;
+  height: 85px;
+  top: 0;
+  right: -180px;
+  z-index: 0;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+.application_btn a:before {
+  content: '';
+  position: absolute;
+  background: url("/tgs/2019/exhibition/images/link_arrow_b.svg") no-repeat;
+  width: 7px;
+  height: 10px;
+  top: 50%;
+  right: 10px;
+  z-index: 1;
+  margin-top: -5px;
+}
+.application_btn a:hover {
+  -moz-opacity: 1;
+  -khtml-opacity: 1;
+  opacity: 1;
+}
+.application_btn a:hover:after {
+  right: 0px;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+.application_btn a:hover span {
+  color: #000;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+.boxlink {
+  background: #000 url("/tgs/2019/exhibition/images/link_arrow_y.svg") no-repeat right 8px center;
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 35px 8px 15px;
+  display: inline-block;
+  margin-right: 10px;
+  margin-top: 7px;
+  line-height: 1.5;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  font-family: "FOT-ロダンNTLG Pro B";
+}
+@media screen and (max-width: 767px) {
+  .boxlink {
+    line-height: 1.5;
+  }
+}
+.boxlink:active {
+  color: #fff;
+}
+.boxlink:visited {
+  color: #fff;
+}
+.text_link {
+  background: url("/tgs/2019/exhibition/images/link_arrow_b.svg") no-repeat right 8px center;
+  background-size: auto 30%;
+  color: #000;
+  padding-right: 20px;
+  padding-left: 0px;
+}
+.bg_wrap_no {
+  width: 100%;
+  margin: 0 auto;
+  background: url("/tgs/2019/exhibition/images/bg_w.svg") center top no-repeat;
+}
+.bg_wrap_gr {
+  width: 100%;
+  margin: 0 auto;
+  background: #e7e7e7 url("/tgs/2019/exhibition/images/bg_g.svg") center top no-repeat;
+}
+.wrap {
+  width: 100%;
+}
+@media screen and (max-width: 767px) {
+  .wrap {
+    width: 100%;
+    padding: 0 4%;
+  }
+}
+.glovalmenu {
+  background: #fff;
+  position: fixed;
+  z-index: 3000;
+  width: 100%;
+  height: 100%;
+  display: table;
+  vertical-align: middle;
+  top: -150vh;
+  -moz-opacity: 0;
+  -khtml-opacity: 0;
+  opacity: 0;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+.glovalmenu.on {
+  top: 0vh;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  -moz-opacity: 1;
+  -khtml-opacity: 1;
+  opacity: 1;
+}
+.glovalmenu .glovalmenu_wrap {
+  display: table-cell;
+  vertical-align: middle;
+}
+.glovalmenu .global_wrap_box {
+  overflow: scroll;
+  width: 100vw;
+  height: 100vh;
+}
+@media screen and (max-width: 767px) {
+  .glovalmenu .global_wrap_box a br {
+    display: none;
+  }
+}
+.glovalmenu .gray_column {
+  margin: 0 auto;
+  width: 1024px;
+  background: rgba(255,255,255,0);
+}
+@media screen and (max-width: 767px) {
+  .glovalmenu .gray_column {
+    width: 100%;
+  }
+}
+.glovalmenu .close {
+  position: absolute;
+  top: 0;
+  right: 34px;
+  width: 50px;
+  height: 50px;
+}
+@media screen and (max-width: 767px) {
+  .glovalmenu .close {
+    right: 20px;
+  }
+}
+.glovalmenu .close .three_line {
+  posidion: relative;
+  width: 26px;
+  margin-left: 26px;
+}
+.glovalmenu .close .three_line span {
+  width: 26px;
+  height: 4px;
+  background: #000;
+  display: block;
+  position: absolute;
+  top: 24px;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.glovalmenu .close .three_line:after {
+  width: 26px;
+  height: 4px;
+  background: #000;
+  display: block;
+  position: absolute;
+  top: 24px;
+  content: '';
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+h2.glo {
+  border-bottom: 11px solid #000;
+  display: inline-block;
+  padding: 0 54px 17px 0px;
+  display: inline-block;
+}
+@media screen and (max-width: 767px) {
+  h2.glo {
+    padding: 0 7% 17px 4%;
+  }
+}
+.table > ul {
+  overflow: hidden;
+  width: 100%;
+  border-top: 5px solid #000;
+  border-bottom: 5px solid #000;
+}
+.table > ul li {
+  width: 100%;
+  border-top: 1px dotted #000;
+  padding: 20px 0;
+}
+.table > ul li:nth-of-type(1) {
+  border-top: 0px dotted #000;
+}
+.table > ul dl {
+  overflow: hidden;
+}
+@media screen and (max-width: 767px) {
+  .table > ul dl {
+    width: 100%;
+    padding: 0 4%;
+  }
+}
+.table > ul dl dt {
+  float: left;
+  width: 170px;
+  display: table;
+  vertical-align: middle;
+}
+@media screen and (max-width: 767px) {
+  .table > ul dl dt {
+    width: 100%;
+  }
+}
+.table > ul dl dt > * {
+  display: table-cell;
+  vertical-align: middle;
+}
+.table > ul dl dd {
+  float: left;
+  margin-left: 30px;
+  width: 747px;
+}
+@media screen and (max-width: 767px) {
+  .table > ul dl dd {
+    width: 100%;
+    margin-top: 10px;
+  }
+}
+.table > ul dl .exhibit_session {
+  padding: 0 0 16px;
+}
+.table > ul dl .exhibit_session_sec {
+  border-top: 1px dotted #000;
+  padding: 16px 0 16px;
+}
+.table > ul .table_linkbox {
+  margin-top: -10px;
+}
+@media screen and (max-width: 767px) {
+  .table > ul .table_linkbox {
+    padding: 0 4%;
+  }
+}
+.gray_column {
+  padding-top: 38px;
+  padding-bottom: 38px;
+  background: rgba(230,230,230,0.5);
+  margin-top: 66px;
+}
+.gray_column.top_article {
+  margin-top: 0;
+}
+.gray_column.photo_e {
+  padding-bottom: 0;
+}
+@media screen and (max-width: 767px) {
+  .gray_column {
+    margin-top: 30px;
+  }
+}
+.gray_column .gray_wrap {
+  padding: 0 34px;
+}
+@media screen and (max-width: 767px) {
+  .gray_column .gray_wrap {
+    padding: 0 4%;
+  }
+}
+.gray_column h2 {
+  border-bottom: 11px solid #000;
+  display: inline-block;
+  padding: 0 54px 17px 34px;
+}
+@media screen and (max-width: 767px) {
+  .gray_column h2 {
+    padding: 0 7% 17px 4%;
+  }
+}
+.gray_column .imgbox_d dt {
+  width: 50%;
+  float: left;
+}
+.gray_column .imgbox_d dd {
+  width: 50%;
+  float: left;
+}
+.gray_column .imgbox_d figure img {
+  width: 100%;
+}
+.gray_column .attribute_box {
+  margin-left: -25px;
+}
+@media screen and (max-width: 767px) {
+  .gray_column .attribute_box {
+    margin-left: -5px;
+  }
+}
+.gray_column .attribute {
+  float: left;
+  font-size: 0.7rem !important;
+  font-family: "FOT-ロダンNTLG Pro B";
+  width: 165px;
+  padding: 20px 0;
+  text-align: center;
+  margin-left: 25px;
+  margin-top: 35px;
+  line-height: 1.5;
+}
+@media screen and (max-width: 767px) {
+  .gray_column .attribute {
+    width: auto;
+    display: inline-block;
+    margin-left: 5px;
+    padding: 10px 10px;
+    margin-top: 10px;
+    font-size: 0.6rem !important;
+  }
+}
+.gray_column .attribute.fdays {
+  background: #333;
+  color: #fff;
+}
+.gray_column .attribute.tdays {
+  background: #888;
+  color: #fff;
+}
+.gray_column .attribute.busipub {
+  background: #045a04;
+  color: #fff;
+}
+.gray_column .attribute.pub {
+  background: #ffa01e;
+  color: #fff;
+}
+.gray_column .attribute.busi {
+  background: #006282;
+  color: #fff;
+}
+.gray_column .attribute.hall {
+  background: #ccc;
+  color: #000;
+}
+.gray_column .attribute.etc {
+  background: #fff;
+  color: #000;
+}
+.leftbar {
+  border-left: 1px solid #000;
+  margin-left: 25px;
+  float: left;
+  margin-top: 35px;
+}
+@media screen and (max-width: 767px) {
+  .leftbar {
+    width: auto;
+    display: inline-block;
+    margin-left: 5px;
+    margin-top: 10px;
+  }
+}
+.leftbar .attribute {
+  margin-top: 0px;
+}
+.column_1 {
+  width: 100%;
+  padding: 0 4%;
+}
+.column_1 > ul {
+  overflow: hidden;
+}
+.column_1 > ul li {
+  width: 100%;
+  float: left;
+  margin-top: 70px;
+  text-align: center;
+}
+@media screen and (max-width: 767px) {
+  .column_1 > ul li {
+    width: 100%;
+  }
+}
+.column_1 > ul img {
+  width: 100%;
+}
+.column_1 > ul .boxlink {
+  width: 70%;
+  text-align: left;
+}
+@media screen and (max-width: 767px) {
+  .column_1 > ul .boxlink {
+    width: 100%;
+  }
+}
+.column_2 {
+  width: 100%;
+}
+.column_2 > ul {
+  overflow: hidden;
+}
+.column_2 > ul li {
+  width: 47.5%;
+  float: left;
+  margin-top: 70px;
+}
+.column_2 > ul li:nth-of-type(even) {
+  margin-left: 5%;
+}
+@media screen and (max-width: 767px) {
+  .column_2 > ul li:nth-of-type(even) {
+    margin-left: 0px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .column_2 > ul li {
+    width: 100%;
+    margin-top: 20px;
+  }
+}
+.column_2 > ul img {
+  width: 100%;
+}
+.column_2 > ul .boxlink {
+  width: 100%;
+}
+h1 {
+  font-size: 2.05rem !important;
+  font-family: "FOT-ロダンNTLG Pro L";
+  text-align: center;
+}
+@media screen and (max-width: 767px) {
+  h1 {
+    font-size: 1.6rem !important;
+    padding: 0 4%;
+  }
+}
+h1 br {
+  display: none;
+}
+@media screen and (max-width: 767px) {
+  .read {
+    width: 100%;
+    padding: 0 4%;
+  }
+}
+.f_exlar {
+  font-size: 1.9rem !important;
+  line-height: 1.6;
+}
+.f_exlar.noLine {
+  line-height: 1;
+}
+.f_toplar {
+  font-size: 1.6rem !important;
+  line-height: 1.6;
+}
+.f_toplar.noLine {
+  line-height: 1;
+}
+.f_topmid {
+  font-size: 1.25rem !important;
+  line-height: 1.6;
+}
+.f_topmid.noLine {
+  line-height: 1;
+}
+.f_lar {
+  font-size: 1.35rem !important;
+  line-height: 1.6;
+}
+.f_lar.noLine {
+  line-height: 1;
+}
+.f_larmid {
+  font-size: 1.15rem !important;
+  line-height: 1.6;
+}
+.f_larmid.noLine {
+  line-height: 1;
+}
+.f_mid {
+  font-size: 1rem !important;
+  line-height: 1.6;
+}
+.f_mid.noLine {
+  line-height: 1;
+}
+.f_midnor {
+  font-size: 0.9rem !important;
+  line-height: 1.6;
+}
+.f_midnor.noLine {
+  line-height: 1;
+}
+.f_nor {
+  font-size: 0.8rem !important;
+  line-height: 1.6;
+}
+.f_nor.noLine {
+  line-height: 1;
+}
+.f_sml {
+  font-size: 0.7rem !important;
+  line-height: 1.6;
+}
+.f_sml.noLine {
+  line-height: 1;
+}
+.asterisk {
+  font-size: 0.6rem !important;
+  line-height: 1.6;
+}
+.asterisk.noLine {
+  line-height: 1;
+}
+.font_eb {
+  font-family: "FOT-ロダンNTLG Pro EB";
+}
+.font_b {
+  font-family: "FOT-ロダンNTLG Pro B";
+}
+.font_db {
+  font-family: "FOT-ロダンNTLG Pro DB";
+}
+.font_m {
+  font-family: "FOT-ロダンNTLG Pro M";
+}
+.font_l {
+  font-family: "FOT-ロダンNTLG Pro L";
+}
+.red {
+  color: #f00;
+}
+.ore {
+  color: #05f;
+}
+.tc {
+  text-align: center;
+}
+.mar_h {
+  margin-top: 0.5em;
+}
+.mar_s {
+  margin-top: 1em;
+}
+.mar_d {
+  margin-top: 2em;
+}
+.mar_t {
+  margin-top: 3em;
+}
+.mar_q {
+  margin-top: 4em;
+}
+.indent {
+  padding-left: 1em;
+  text-indent: -1em;
+}
+.red {
+  color: #f00;
+}
+.dot_box {
+  border-top: 1px dotted #000;
+  border-bottom: 1px dotted #000;
+  padding: 20px 0;
+  margin: 20px 0;
+}
+.dot_box_t {
+  border-top: 1px dotted #000;
+  padding: 20px 0;
+  margin: 20px 0;
+}
+.dot_box_tt {
+  border-top: 1px dotted #000;
+  padding: 20px 0 0;
+  margin: 20px 0 0;
+}
+.dot_box_t_menu {
+  border-top: 1px dotted #000;
+  padding: 20px 0;
+  margin: 42px 0;
+}
+.white_box_important {
+  background: #fff;
+  border-top: 5px solid #f00;
+  padding: 45px;
+}
+.white_box_important dl {
+  overflow: hidden;
+}
+.white_box_important dt {
+  float: left;
+  display: table;
+  vertical-align: middle;
+  width: 58px;
+  height: 58px;
+  background: #000;
+}
+.white_box_important dt p {
+  display: table-cell;
+  vertical-align: middle;
+  color: #fff;
+  text-align: center;
+  font-size: 1.8rem !important;
+  font-family: "FOT-ロダンNTLG Pro B";
+}
+.white_box_important dd {
+  float: left;
+  display: table;
+  vertical-align: middle;
+  height: 58px;
+}
+.white_box_important dd p {
+  display: table-cell;
+  vertical-align: middle;
+  height: 58px;
+  font-size: 0.8rem !important;
+  line-height: 1.5;
+  padding: 0 30px 0 20px;
+}
+.white_box {
+  background: #fff;
+  border-top: 5px solid #d0d0d0;
+  padding: 45px;
+}
+.anker_menu_s {
+  overflow: hidden;
+  margin-top: 76px;
+}
+@media screen and (max-width: 767px) {
+  .anker_menu_s {
+    padding: 0 4%;
+    margin-top: 40px;
+  }
+}
+.anker_menu_s li {
+  float: left;
+  width: 100%;
+  margin-left: 18px;
+}
+.anker_menu_s li:nth-of-type(1) {
+  margin-left: 0px;
+}
+@media screen and (max-width: 767px) {
+  .anker_menu_s li:nth-of-type(1) {
+    margin-top: 0px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .anker_menu_s li {
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 15px;
+  }
+}
+.anker_menu_s li p {
+  display: table;
+  vertical-align: middle;
+  width: 100%;
+  height: 85px;
+}
+@media screen and (max-width: 767px) {
+  .anker_menu_s li p {
+    height: 60px;
+  }
+}
+.anker_menu_s li a.def {
+  color: #fff;
+  background: #85ce06 url("/tgs/2019/exhibition/images/link_arrow_b.svg") right 30px center no-repeat;
+  font-size: 1.05rem !important;
+  font-family: "FOT-ロダンNTLG Pro EB";
+  text-align: left;
+  line-height: 1.4;
+  text-decoration: none;
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  height: 85px;
+  padding-left: 35px;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+}
+@media screen and (max-width: 767px) {
+  .anker_menu_s li a.def {
+    height: 60px;
+  }
+}
+.anker_menu_d {
+  overflow: hidden;
+  margin-top: 76px;
+}
+@media screen and (max-width: 767px) {
+  .anker_menu_d {
+    padding: 0 4%;
+    margin-top: 40px;
+  }
+}
+.anker_menu_d li {
+  float: left;
+  width: 503px;
+  margin-left: 18px;
+}
+.anker_menu_d li:nth-of-type(odd) {
+  margin-left: 0px;
+}
+@media screen and (max-width: 767px) {
+  .anker_menu_d li:nth-of-type(odd) {
+    margin-top: 0px;
+  }
+}
+.anker_menu_d li:nth-of-type(3) {
+  margin-top: 18px;
+}
+.anker_menu_d li:nth-of-type(4) {
+  margin-top: 18px;
+}
+@media screen and (max-width: 767px) {
+  .anker_menu_d li {
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 15px;
+  }
+}
+.anker_menu_d li p {
+  display: table;
+  vertical-align: middle;
+  width: 100%;
+  height: 85px;
+}
+@media screen and (max-width: 767px) {
+  .anker_menu_d li p {
+    height: 60px;
+  }
+}
+.anker_menu_d li a {
+  color: #fff;
+  background: #85ce06 url("/tgs/2019/exhibition/images/link_arrow_b.svg") right 30px center no-repeat;
+  font-size: 1.05rem !important;
+  font-family: "FOT-ロダンNTLG Pro EB";
+  text-align: left;
+  line-height: 1.4;
+  text-decoration: none;
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  height: 85px;
+  padding-left: 35px;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+}
+@media screen and (max-width: 767px) {
+  .anker_menu_d li a {
+    height: 60px;
+  }
+}
+.anker_menu_t {
+  overflow: hidden;
+  margin-top: 76px;
+}
+@media screen and (max-width: 767px) {
+  .anker_menu_t {
+    padding: 0 4%;
+    margin-top: 40px;
+  }
+}
+.anker_menu_t li {
+  float: left;
+  width: 330px;
+  margin-left: 17px;
+}
+.anker_menu_t li:nth-of-type(1) {
+  margin-left: 0px;
+}
+@media screen and (max-width: 767px) {
+  .anker_menu_t li:nth-of-type(1) {
+    margin-top: 0px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .anker_menu_t li {
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 15px;
+  }
+}
+.anker_menu_t li p {
+  display: table;
+  vertical-align: middle;
+  width: 100%;
+  height: 85px;
+}
+@media screen and (max-width: 767px) {
+  .anker_menu_t li p {
+    height: 60px;
+  }
+}
+.anker_menu_t li a {
+  color: #fff;
+  background: #85ce06 url("/tgs/2019/exhibition/images/link_arrow_b.svg") right 30px center no-repeat;
+  font-size: 1.05rem !important;
+  font-family: "FOT-ロダンNTLG Pro EB";
+  text-align: left;
+  line-height: 1.4;
+  text-decoration: none;
+  display: table-cell;
+  vertical-align: middle;
+  padding-right: 60px;
+  width: 100%;
+  height: 85px;
+  padding-left: 35px;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+}
+@media screen and (max-width: 767px) {
+  .anker_menu_t li a {
+    height: 60px;
+  }
+}
+.imgbox img {
+  width: 100%;
+}
+.imgbox_s {
+  text-align: center;
+}
+@media screen and (max-width: 767px) {
+  .imgbox_s img {
+    width: 100%;
+  }
+}
+.right_imgbox {
+  float: right;
+  margin-left: 25px;
+  margin-bottom: 25px;
+  width: 350px;
+}
+@media screen and (max-width: 767px) {
+  .right_imgbox {
+    float: left;
+    width: 100%;
+    margin-left: 0;
+    margin-bottom: 2em;
+  }
+}
+.right_imgbox img {
+  width: 100%;
+}
+.right_imgbox_s {
+  float: right;
+  margin-left: 25px;
+  margin-bottom: 25px;
+  width: 250px;
+}
+@media screen and (max-width: 767px) {
+  .right_imgbox_s {
+    float: left;
+    width: 100%;
+    margin-left: 0;
+    margin-bottom: 2em;
+  }
+}
+.right_imgbox_s img {
+  width: 100%;
+}
+header {
+  width: 1024px;
+  margin: 0 auto;
+  padding: 88px 0 0;
+}
+@media screen and (max-width: 767px) {
+  header {
+    width: 100%;
+    padding: 65px 0 0;
+  }
+}
+section {
+  width: 1024px;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+@media screen and (max-width: 767px) {
+  section {
+    width: 100%;
+    padding: 38px 0 0;
+  }
+}
+#Breadcrumb {
+  width: 100%;
+  padding: 18px 0;
+  margin-top: 54px;
+  background: #eee url("/tgs/2019/exhibition/images/Breadcrumb.jpg") center top no-repeat;
+  background-attachment: fixed;
+  line-height: 0.5;
+  color: #fff;
+}
+@media screen and (max-width: 767px) {
+  #Breadcrumb {
+    padding: 18px 4%;
+    margin-top: 46px;
+    background-attachment: scroll;
+  }
+}
+#Breadcrumb ul {
+  overflow: hidden;
+  width: 1024px;
+  margin: 0 auto;
+}
+@media screen and (max-width: 767px) {
+  #Breadcrumb ul {
+    width: 100%;
+  }
+}
+#Breadcrumb ul li {
+  float: left;
+  margin-right: 10px;
+}
+#Breadcrumb ul a {
+  text-decoration: none;
+  color: #000;
+  line-height: 1;
+  font-size: 0.7rem !important;
+  font-family: "FOT-ロダンNTLG Pro B";
+  color: #fff;
+}
+.Tracking {
+  background: #000;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 2000;
+}
+@media screen and (max-width: 767px) {
+  .Tracking {
+    max-width: 100vw;
+  }
+}
+.Tracking .Tracking_box {
+  position: relative;
+  width: 100%;
+}
+@media screen and (max-width: 767px) {
+  .Tracking .Tracking_box {
+    padding: 0 0 0 4%;
+  }
+}
+.Tracking .logo {
+  padding: 15px;
+  float: left;
+}
+@media screen and (max-width: 767px) {
+  .Tracking .logo {
+    padding: 12px 0;
+  }
+}
+.Tracking .logo a {
+  display: block;
+}
+.Tracking .lang {
+  float: right;
+  padding: 16px;
+  font-size: 1rem !important;
+}
+@media screen and (max-width: 767px) {
+  .Tracking .lang {
+    display: none;
+  }
+}
+.Tracking .lang span {
+  color: #fff;
+}
+.Tracking .lang a {
+  color: #fff;
+  text-decoration: none;
+}
+.Tracking .btn {
+  float: right;
+  padding: 8px 16px;
+  overflow: hidden;
+}
+@media screen and (max-width: 767px) {
+  .Tracking .btn {
+    display: none;
+  }
+}
+.Tracking .btn a {
+  background: #77cb28;
+  color: #fff;
+  text-decoration: none;
+  font-family: "FOT-ロダンNTLG Pro EB";
+  font-size: 0.7rem !important;
+  position: relative;
+  padding: 12px 56px 12px 16px;
+  overflow: hidden;
+  margin-left: 15px;
+  display: block;
+  float: left;
+}
+.Tracking .btn a span {
+  z-index: 100;
+  position: relative;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+.Tracking .btn a:after {
+  content: '';
+  position: absolute;
+  background: url("/tgs/2019/exhibition/images/link_bg.svg") no-repeat;
+  background-size: auto 50px;
+  width: 250px;
+  height: 50px;
+  top: 0;
+  right: -205px;
+  z-index: 0;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+.Tracking .btn a:before {
+  content: '';
+  position: absolute;
+  background: url("/tgs/2019/exhibition/images/link_arrow_b.svg") no-repeat;
+  width: 7px;
+  height: 10px;
+  top: 50%;
+  right: 10px;
+  z-index: 1;
+  margin-top: -5px;
+}
+.Tracking .btn a:hover {
+  -moz-opacity: 1;
+  -khtml-opacity: 1;
+  opacity: 1;
+}
+.Tracking .btn a:hover:after {
+  right: 0px;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+.Tracking .btn a:hover span {
+  color: #000;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+.Tracking .menu {
+  float: right;
+  background: #dcff00;
+  padding: 16px 16px 16px 30px;
+  color: #000;
+  font-size: 1rem !important;
+  font-family: "FOT-ロダンNTLG Pro EB";
+  margin-left: 16px;
+  cursor: pointer;
+}
+.Tracking .menu p {
+  float: left;
+  display: inline-block;
+}
+.Tracking .menu p.three_line {
+  posidion: relative;
+  width: 26px;
+  margin-left: 26px;
+}
+.Tracking .menu p.three_line span {
+  width: 26px;
+  height: 4px;
+  background: #000;
+  display: block;
+  position: absolute;
+  top: 24px;
+}
+.Tracking .menu p.three_line:before {
+  width: 26px;
+  height: 4px;
+  background: #000;
+  display: block;
+  position: absolute;
+  top: 14px;
+  content: '';
+}
+.Tracking .menu p.three_line:after {
+  width: 26px;
+  height: 4px;
+  background: #000;
+  display: block;
+  position: absolute;
+  top: 34px;
+  content: '';
+}
+.Tracking .sns {
+  position: absolute;
+  right: 0;
+  top: 51px;
+  background: url("/tgs/2019/exhibition/images/sns_bg.svg") right bottom no-repeat;
+  background-size: 100% 100%;
+  width: 185px;
+  height: 141px;
+}
+@media screen and (max-width: 767px) {
+  .Tracking .sns {
+    top: 47px;
+    width: 118px;
+    height: 90px;
+  }
+}
+.Tracking .sns ul {
+  text-align: center;
+}
+@media screen and (max-width: 767px) {
+  .Tracking .sns ul {
+    padding-left: 15px;
+  }
+}
+.Tracking .sns li {
+  float: left;
+  margin-left: 10px;
+  margin-top: 15px;
+}
+.Tracking .sns li:nth-of-type(1) {
+  margin-left: 40px;
+}
+@media screen and (max-width: 767px) {
+  .Tracking .sns li:nth-of-type(1) {
+    margin-left: 20px;
+    padding-top: 2px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .Tracking .sns li {
+    display: inline-block;
+    margin-top: 10px;
+    width: 26px;
+  }
+  .Tracking .sns li:nth-of-type(3) {
+    margin-left: 33px;
+    margin-top: 5px;
+  }
+  .Tracking .sns li img {
+    width: 100%;
+  }
+}
+.footBnr > ul {
+  width: 1024px;
+  overflow: hidden;
+  margin: 0 auto;
+  padding: 45px 0;
+}
+@media screen and (max-width: 767px) {
+  .footBnr > ul {
+    width: 100%;
+    padding: 0px 4%;
+  }
+}
+.footBnr > ul li {
+  width: 300px;
+  float: left;
+  margin-left: 62px;
+}
+.footBnr > ul li:nth-of-type(1) {
+  margin-left: 0px;
+}
+@media screen and (max-width: 767px) {
+  .footBnr > ul li {
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 0px;
+  }
+}
+.footBnr > ul li img {
+  width: 100%;
+}
+footer {
+  position: relative;
+  padding: 42px 16px;
+  background: #f3f3f3;
+}
+@media screen and (max-width: 767px) {
+  footer {
+    width: 100%;
+  }
+}
+footer > p {
+  text-align: center;
+  font-size: 0.6rem !important;
+}
+@media screen and (max-width: 767px) {
+  footer > p {
+    margin-top: 30px;
+  }
+}
+footer dl {
+  overflow: hidden;
+  position: absolute;
+  right: 27px;
+  top: 27px;
+}
+@media screen and (max-width: 767px) {
+  footer dl {
+    position: static;
+    right: auto;
+    top: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+}
+footer dl a {
+  display: block;
+}
+footer dl dt {
+  width: 90px;
+  float: left;
+}
+@media screen and (max-width: 767px) {
+  footer dl dt {
+    width: 47.5%;
+    text-align: center;
+  }
+}
+footer dl dt figure {
+  vertical-align: middle;
+  width: 100%;
+}
+footer dl dt figure img {
+  width: 100%;
+}
+@media screen and (max-width: 767px) {
+  footer dl dt figure img {
+    width: 90px;
+  }
+}
+footer dl dd {
+  width: 148px;
+  float: left;
+  margin-left: 20px;
+}
+@media screen and (max-width: 767px) {
+  footer dl dd {
+    width: 47.5%;
+    margin-left: 5%;
+    text-align: center;
+  }
+}
+footer dl dd figure {
+  display: block;
+}
+footer dl dd figure img {
+  width: 100%;
+}
+@media screen and (max-width: 767px) {
+  footer dl dd figure img {
+    width: 140px;
+  }
+}
+html[lang="EN"] header.topimg dl a {
+  width: 400px;
+}
+@media screen and (max-width: 767px) {
+  html[lang="EN"] header.topimg dl a {
+    width: 100%;
+  }
+  html[lang="EN"] header.topimg dl a:after {
+    content: '';
+    position: absolute;
+    background: url("/tgs/2019/exhibition/images/link_bg.svg") no-repeat;
+    background-size: auto 75px;
+    width: 500px;
+    height: 75px;
+    top: 0;
+    right: -455px;
+    z-index: 0;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+  }
+}
+header.topimg {
+  width: 100%;
+  min-width: 1024px;
+  height: 100vh;
+  padding-top: 0;
+  min-height: 1024px;
+}
+@media screen and (max-width: 767px) {
+  header.topimg {
+    min-height: 100px;
+    min-width: 100%;
+  }
+}
+header.topimg .top_dot {
+  background: url("/tgs/2019/exhibition/images/dot.png");
+  width: 100%;
+  height: 100%;
+  min-height: 1024px;
+}
+@media screen and (max-width: 767px) {
+  header.topimg .top_dot {
+    min-height: 100px;
+  }
+}
+header.topimg .top_box_line_a {
+  background: url("/tgs/2019/exhibition/images/main_line_a.svg") right -500px top -200px no-repeat;
+  background-size: 100% auto;
+  width: 100%;
+  min-height: 1024px;
+}
+@media screen and (max-width: 767px) {
+  header.topimg .top_box_line_a {
+    min-height: 100px;
+    background: url("/tgs/2019/exhibition/images/main_line_a.svg") right 0px top -200px no-repeat;
+    background-size: 150% auto;
+  }
+}
+header.topimg .top_box_line_b {
+  background: url("/tgs/2019/exhibition/images/main_line_b.svg") left top -200px no-repeat;
+  background-size: 100% auto;
+  width: 100%;
+  min-height: 1024px;
+}
+@media screen and (max-width: 767px) {
+  header.topimg .top_box_line_b {
+    min-height: 100px;
+    background: url("/tgs/2019/exhibition/images/main_line_b.svg") left 0px top -200px no-repeat;
+    background-size: 150% auto;
+  }
+}
+header.topimg .top_box {
+  float: left;
+  margin: 0 auto;
+  vertical-align: middle;
+  display: table;
+  width: 1024px;
+  height: 100vh;
+  min-height: 1024px;
+}
+@media screen and (max-width: 767px) {
+  header.topimg .top_box {
+    min-height: 100px;
+    width: 100%;
+  }
+}
+header.topimg .top_box_wrap {
+  padding: 0 4%;
+  vertical-align: middle;
+  display: table-cell;
+  width: 100%;
+  min-height: 100vh;
+}
+@media screen and (max-width: 767px) {
+  header.topimg .top_box_wrap {
+    padding: 0 0%;
+  }
+}
+header.topimg .top_box_wrap h1 {
+  text-align: left;
+  margin-top: 38px;
+}
+@media screen and (max-width: 767px) {
+  header.topimg .top_box_wrap h1 {
+    margin-top: 65px;
+  }
+}
+header.topimg .top_box_wrap h1 img {
+  width: 100%;
+}
+header.topimg .top_box_wrap p {
+  padding: 0 4% 0 0;
+}
+@media screen and (max-width: 767px) {
+  header.topimg .top_box_wrap p {
+    padding: 0 4% 0 4%;
+  }
+}
+header.topimg dl {
+  float: left;
+  color: #fff;
+  overflow: hidden;
+}
+@media screen and (max-width: 767px) {
+  header.topimg dl {
+    width: 100%;
+  }
+}
+header.topimg dl dt {
+  margin-left: -15px;
+  float: left;
+}
+@media screen and (max-width: 767px) {
+  header.topimg dl dt {
+    width: 100%;
+    margin-left: 0px;
+  }
+}
+header.topimg dl dd {
+  float: left;
+}
+@media screen and (max-width: 767px) {
+  header.topimg dl dd {
+    width: 100%;
+    margin-top: 20px;
+  }
+}
+header.topimg dl a {
+  background: #77cb28;
+  color: #fff;
+  text-decoration: none;
+  font-family: "FOT-ロダンNTLG Pro EB";
+  font-size: 0.9rem !important;
+  position: relative;
+  padding: 12px 56px 12px 16px;
+  overflow: hidden;
+  margin-left: 15px;
+  display: block;
+  float: left;
+  width: 300px;
+}
+@media screen and (max-width: 767px) {
+  header.topimg dl a {
+    width: 100%;
+    margin-left: 0px;
+    font-size: 1.25rem !important;
+  }
+}
+header.topimg dl a span {
+  z-index: 100;
+  position: relative;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+header.topimg dl a:after {
+  content: '';
+  position: absolute;
+  background: url("/tgs/2019/exhibition/images/link_bg.svg") no-repeat;
+  background-size: auto 50px;
+  width: 500px;
+  height: 50px;
+  top: 0;
+  right: -455px;
+  z-index: 0;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+header.topimg dl a:before {
+  content: '';
+  position: absolute;
+  background: url("/tgs/2019/exhibition/images/link_arrow_b.svg") no-repeat;
+  width: 7px;
+  height: 10px;
+  top: 50%;
+  right: 10px;
+  z-index: 1;
+  margin-top: -5px;
+}
+header.topimg dl a:hover {
+  -moz-opacity: 1;
+  -khtml-opacity: 1;
+  opacity: 1;
+}
+header.topimg dl a:hover:after {
+  right: -175px;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+@media screen and (max-width: 767px) {
+  header.topimg dl a:hover:after {
+    right: -455px;
+  }
+}
+header.topimg dl a:hover span {
+  color: #000;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+header.topimg dl a:hover a {
+  color: #000;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+header.topimg p {
+  color: #fff;
+}
+.gmenu.menuwrap {
+  padding: 38px;
+}
+@media screen and (max-width: 767px) {
+  .gmenu.menuwrap {
+    padding: 25px 4%;
+  }
+}
+.gmenu.dot_box_t_menu li a {
+  background: #c9ea45 url("/tgs/2019/exhibition/images/link_arrow_b.svg") right 30px center no-repeat;
+  color: #18494b;
+}
+.gmenu ul {
+  overflow: hidden;
+  margin-top: -25px;
+}
+.gmenu ul li {
+  float: left;
+  width: 31%;
+  margin-left: 3.5%;
+  margin-top: 25px;
+}
+@media screen and (max-width: 767px) {
+  .gmenu ul li {
+    width: 100%;
+    margin-left: 0%;
+    margin-top: 15px;
+  }
+  .gmenu ul li:nth-of-type(1) {
+    margin-top: 35px;
+  }
+}
+.gmenu ul li:nth-of-type(3n+1) {
+  margin-left: 0;
+}
+.gmenu ul p {
+  display: table;
+  vertical-align: middle;
+  width: 100%;
+  height: 85px;
+}
+@media screen and (max-width: 767px) {
+  .gmenu ul p {
+    height: 60px;
+  }
+}
+.gmenu ul a {
+  color: #fff;
+  background: #77cb28 url("/tgs/2019/exhibition/images/link_arrow_b.svg") right 30px center no-repeat;
+  font-size: 1.05rem !important;
+  font-family: "FOT-ロダンNTLG Pro EB";
+  text-align: left;
+  line-height: 1.3;
+  text-decoration: none;
+  display: table-cell;
+  vertical-align: middle;
+  padding-right: 50px;
+  width: 100%;
+  height: 85px;
+  padding-left: 35px;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+}
+@media screen and (max-width: 767px) {
+  .gmenu ul a {
+    height: 60px;
+  }
+}
+.gmenuform {
+  overflow: hidden;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 38px;
+}
+@media screen and (max-width: 767px) {
+  .gmenuform {
+    padding: 0 4%;
+  }
+}
+.gmenuform dl {
+  float: left;
+  color: #fff;
+  overflow: hidden;
+  width: 100%;
+}
+@media screen and (max-width: 767px) {
+  .gmenuform dl {
+    width: 100%;
+  }
+}
+.gmenuform dl dt {
+  margin-left: -15px;
+  float: left;
+  width: 47.5%;
+}
+@media screen and (max-width: 767px) {
+  .gmenuform dl dt {
+    width: 100%;
+    margin-left: 0px;
+  }
+}
+.gmenuform dl dd {
+  margin-left: 5%;
+  float: left;
+  width: 47.5%;
+}
+@media screen and (max-width: 767px) {
+  .gmenuform dl dd {
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 0;
+  }
+}
+.gmenuform dl a {
+  background: #77cb28;
+  color: #fff;
+  text-decoration: none;
+  font-family: "FOT-ロダンNTLG Pro EB";
+  font-size: 0.9rem !important;
+  position: relative;
+  padding: 12px 56px 12px 16px;
+  overflow: hidden;
+  margin-left: 15px;
+  display: block;
+  float: left;
+  width: 100%;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+}
+@media screen and (max-width: 767px) {
+  .gmenuform dl a {
+    width: 100%;
+    margin-left: 0px;
+    font-size: 1.25rem !important;
+  }
+}
+.gmenuform dl a span {
+  z-index: 100;
+  position: relative;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+.gmenuform dl a:before {
+  content: '';
+  position: absolute;
+  background: url("/tgs/2019/exhibition/images/link_arrow_b.svg") no-repeat;
+  width: 7px;
+  height: 10px;
+  top: 50%;
+  right: 10px;
+  z-index: 1;
+  margin-top: -5px;
+}
+.gmenujpg.menuwrap {
+  padding: 38px;
+}
+@media screen and (max-width: 767px) {
+  .gmenujpg.menuwrap {
+    padding: 25px 4%;
+  }
+}
+.gmenujpg ul {
+  overflow: hidden;
+  margin-top: -25px;
+}
+.gmenujpg ul li {
+  float: left;
+  width: 31%;
+  margin-left: 3.5%;
+  margin-top: 25px;
+}
+@media screen and (max-width: 767px) {
+  .gmenujpg ul li {
+    width: 100%;
+    margin-left: 0%;
+    margin-top: 15px;
+  }
+  .gmenujpg ul li:nth-of-type(1) {
+    margin-top: 35px;
+  }
+}
+.gmenujpg ul li:nth-of-type(3n+1) {
+  margin-left: 0;
+}
+.gmenujpg ul p {
+  display: table;
+  vertical-align: middle;
+  width: 100%;
+  height: 85px;
+}
+@media screen and (max-width: 767px) {
+  .gmenujpg ul p {
+    height: 60px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .gmenujpg ul figure {
+    text-align: center;
+  }
+}
+.gmenujpg ul img {
+  width: 100%;
+}
+@media screen and (max-width: 767px) {
+  .gmenujpg ul img {
+    width: 70%;
+  }
+}
+.gmenujpg ul .sideA {
+  background: #3980a9 url("/tgs/2019/exhibition/images/img_jpg.png") no-repeat left 15px center;
+  background-size: 80px auto;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  padding-left: 70px;
+}
+.gmenujpg ul .sideT {
+  background: #28cb42 url("/tgs/2019/exhibition/images/img_jpg.png") no-repeat left 15px center;
+  background-size: 80px auto;
+  padding-left: 70px;
+  background-color: #c14d4d;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+}
+.gmenujpg ul .sideT.dead_link {
+  background-color: #aaa;
+}
+.gmenujpg ul .sideT.dead_link a {
+  color: rgba(255,255,255,0.5);
+}
+.gmenujpg ul a {
+  color: #fff;
+  background: url("/tgs/2019/exhibition/images/link_arrow_b.svg") right 30px center no-repeat;
+  font-size: 1.05rem !important;
+  font-family: "FOT-ロダンNTLG Pro EB";
+  text-align: left;
+  line-height: 1.4;
+  text-decoration: none;
+  display: table-cell;
+  vertical-align: middle;
+  padding-right: 50px;
+  width: 100%;
+  height: 85px;
+  padding-left: 35px;
+}
+@media screen and (max-width: 767px) {
+  .gmenujpg ul a {
+    height: 60px;
+  }
+}
+dl.sown_list {
+  overflow: hidden;
+  border-top: 1px dotted #000;
+  padding-top: 28px;
+}
+dl.sown_list:nth-of-type(1) {
+  border-top: 0px dotted #000;
+  padding-top: 28px;
+}
+dl.sown_list dt {
+  float: left;
+  display: table;
+  vertical-align: middle;
+  width: 58px;
+  height: 58px;
+  background: #000;
+}
+dl.sown_list dt p {
+  display: table-cell;
+  vertical-align: middle;
+  color: #fff;
+  text-align: center;
+  font-size: 1.8rem !important;
+  font-family: "FOT-ロダンNTLG Pro B";
+}
+dl.sown_list dd {
+  float: left;
+  display: table;
+  vertical-align: middle;
+  height: 58px;
+  width: 870px;
+  margin-left: 20px;
+}
+.sown_Selection_list {
+  overflow: hidden;
+  border-top: 1px dotted #000;
+  padding-top: 28px;
+}
+.sown_Selection_list:nth-of-type(1) {
+  border-top: 0px dotted #000;
+  padding-top: 28px;
+}
+.sown_Selection_list dt {
+  float: left;
+  width: 220px;
+}
+@media screen and (max-width: 767px) {
+  .sown_Selection_list dt {
+    width: 100%;
+    text-align: center;
+  }
+}
+.sown_Selection_list dt img {
+  width: 100%;
+}
+@media screen and (max-width: 767px) {
+  .sown_Selection_list dt img {
+    width: 50%;
+  }
+}
+.sown_Selection_list dd {
+  float: left;
+  display: table;
+  vertical-align: middle;
+  min-height: 58px;
+  width: 708px;
+  margin-left: 20px;
+}
+@media screen and (max-width: 767px) {
+  .sown_Selection_list dd {
+    margin-left: 0;
+    width: 100%;
+    margin-top: 20px;
+  }
+}
+html[lang=zh-CN] .previous_sponsor.cnmark dd {
+  display: none;
+}
+.previous_sponsor > ul {
+  overflow: hidden;
+  margin-top: 76px;
+  margin-top: 40px;
+  margin-left: -17px;
+}
+@media screen and (max-width: 767px) {
+  .previous_sponsor > ul {
+    padding: 0 4%;
+    margin-top: 40px;
+    margin-left: 0%;
+  }
+}
+.previous_sponsor > ul li {
+  float: left;
+  width: 191px;
+  margin-left: 17px;
+  margin-top: 17px;
+  display: block;
+}
+@media screen and (max-width: 767px) {
+  .previous_sponsor > ul li {
+    margin-top: 10px;
+    width: 47.5%;
+    float: left;
+    margin-left: 5%;
+  }
+  .previous_sponsor > ul li:nth-of-type(odd) {
+    margin-left: 0;
+  }
+}
+.previous_sponsor > ul li img {
+  width: 100%;
+}
+.previous_sponsor > ul li a {
+  text-decoration: none;
+}
+.previous_sponsor > ul li a p {
+  background: #000;
+  color: #fff;
+  text-align: center;
+  padding: 5px;
+}
+.exhibit_sponsor > ul {
+  overflow: hidden;
+  margin-top: 76px;
+  margin-top: 40px;
+  margin-left: -17px;
+}
+@media screen and (max-width: 767px) {
+  .exhibit_sponsor > ul {
+    padding: 0 4%;
+    margin-top: 40px;
+    margin-left: 0%;
+  }
+}
+.exhibit_sponsor > ul li {
+  float: left;
+  width: 330px;
+  margin-left: 17px;
+  margin-top: 17px;
+}
+@media screen and (max-width: 767px) {
+  .exhibit_sponsor > ul li {
+    margin-top: 10px;
+    width: 47.5%;
+    float: left;
+    margin-left: 5%;
+  }
+  .exhibit_sponsor > ul li:nth-of-type(odd) {
+    margin-left: 0;
+  }
+}
+.exhibit_sponsor > ul li img {
+  width: 100%;
+}
+.exhibit_support_ul {
+  overflow: hidden;
+}
+.exhibit_support_ul li {
+  float: left;
+}
+.exhibit_support_ul li dl {
+  overflow: hidden;
+}
+.exhibit_support_ul li dl dt {
+  float: left;
+  display: table;
+  vertical-align: middle;
+  width: 58px;
+  height: 58px;
+  background: #000;
+}
+.exhibit_support_ul li dl dt p {
+  display: table-cell;
+  vertical-align: middle;
+  color: #fff;
+  text-align: center;
+  font-size: 1.8rem !important;
+  font-family: "FOT-ロダンNTLG Pro B";
+}
+.exhibit_support_ul li dl dd {
+  float: left;
+  display: table;
+  vertical-align: middle;
+  height: 58px;
+}
+.exhibit_support_ul li dl dd p {
+  display: table-cell;
+  vertical-align: middle;
+  height: 58px;
+  font-size: 0.65rem !important;
+  line-height: 1.5;
+  padding: 0 30px 0 20px;
+}
+.press_num {
+  position: relative;
+  padding-left: 38px;
+  padding-bottom: 15px;
+  border-top: 1px dotted #000;
+  padding-top: 35px;
+}
+@media screen and (max-width: 767px) {
+  .press_num {
+    padding-left: 4%;
+  }
+}
+.press_num:nth-of-type(1) {
+  border-top: 0px dotted #000;
+  padding-top: 0px;
+}
+.press_num:after {
+  height: 6px;
+  width: 47px;
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: #77cb28;
+}
+@media screen and (max-width: 767px) {
+  .table_wrap {
+    width: 100%;
+    overflow: auto;
+    white-space: nowrap;
+  }
+}
+.table_wrap::-webkit-scrollbar　　/*tableにスクロールバーを追加*/ {
+  height: 5px;
+}
+.table_wrap::-webkit-scrollbar-track　　/*tableにスクロールバーを追加*/ {
+  background: #f1f1f1;
+}
+.table_wrap::-webkit-scrollbar-thumb 　　/*tableにスクロールバーを追加*/ {
+  background: #bcbcbc;
+}
+.area_table {
+  border-top: 2px solid #000;
+  border-bottom: 2px solid #000;
+  background: #fff;
+}
+@media screen and (max-width: 767px) {
+  .area_table {
+    width: 100%;
+  }
+}
+.area_table td {
+  vertical-align: middle;
+  padding: 10px 7px;
+  border-bottom: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+}
+.area_table th {
+  vertical-align: middle;
+  padding: 10px 7px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+}
+.area_table p {
+  font-size: 0.55rem !important;
+  line-height: 1.5;
+}
+.area_table .area_Propriety,
+.area_table .area_fo_day,
+.area_table .area_bus_day,
+.area_table .area_pub_day {
+  text-align: center;
+}
+.area_table .area_fo_day {
+  background: #83b6c4;
+}
+.area_table .area_bus_day {
+  background: #bfc493;
+}
+.area_table .area_pub_day {
+  background: #ccab85;
+}
+.area_table .area_fo_day,
+.area_table .area_bus_day,
+.area_table .area_pub_day {
+  width: 80px;
+}
+.Vertical {
+  -webkit-writing-mode: vertical-rl;
+  -ms-writing-mode: tb-rl;
+  writing-mode: vertical-rl;
+  border-right: 1px solid #ddd;
+  padding: 10px 10px;
+  text-align: center;
+}
+.dead_link {
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  color: rgba(255,255,255,0.3);
+  pointer-events: none;
+  cursor: default;
+}
+.dead_link a {
+  color: rgba(255,255,255,0.3);
+}

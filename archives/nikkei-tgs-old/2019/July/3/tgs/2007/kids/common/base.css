@@ -1,0 +1,305 @@
+/*
+/////////////////////////////////////
+BASE
+/////////////////////////////////////
+*/
+
+body {
+	margin:0px;
+	padding:0px;
+	background:#FFFFFF;
+	text-align:center;
+}
+
+h2 {
+	display:block;
+	width:680px;
+	height:28px;
+	margin:0px 0px 34px;
+	padding:0px;
+	text-indent:-9999px;
+}
+
+/* リンク */
+a:link {
+	color:#000000;
+	text-decoration:underline;
+}
+
+a:visited {
+	color:#333333;
+	text-decoration:underline;
+}
+
+a:hover {
+	color:#999999;
+	text-decoration:underline;
+}
+
+a:active {
+	color:#666666;
+	text-decoration:none;
+}
+
+/* 峨除 */
+img {
+	border:none;
+}
+
+/* float書+ */
+.Clear {
+	margin:0px;
+	padding:0px;
+	font-size:1px;
+	text-indent:-9999px;
+	clear:both;
+	/*background:#F7941D*/
+}
+/* MacIEｅ"・Bｌﾀ*/
+.Clear {
+	font-size:0px;
+	/*background:#F7941D;*/
+}
+/* */
+
+/* +++++++++++contents+++++++++++ */
+
+#Wrapper {
+	width:800px;
+	margin:0px auto;
+	padding:0px;
+	text-align:center;
+}
+
+/* HEADER */
+#Wrapper .LogoArea {
+	width:800px;
+	height:130px;
+	margin:0px;
+	padding:0px;
+	background:#F7941D url(main_back_logo.gif) center top no-repeat;
+}
+#Wrapper .LogoArea .banarback{
+	width:744px;
+	height:115px;
+	margin:0px 28px 0px 28px;
+	padding:16px 0px 0px 0px;
+	background:#F7941D url(bnr_back.gif) center bottom no-repeat;
+}
+
+
+#Wrapper .LogoArea .banarback .Banner {
+	width:728px;
+	height:91px;
+	padding:12px 8px 12px 8px;
+	margin:0px;
+}
+/* コンテンツ部腐*/
+#Wrapper #MainContents {
+	width:800px;
+	margin:-1px 0px 0px;
+	padding:0px;
+	background:#F7941D url(main_back_top.gif) left top no-repeat;
+}
+#Wrapper #MainContents h1 {
+	width:241px;
+	height:20px;
+	margin:0px;
+	padding:100px 0px 7px 30px;
+	float:left;
+} 
+/* MacIEｅ"・Bｌﾀ\*/
+#Wrapper #MainContents {
+	margin:-1px 0px 0px;
+}
+/* */
+
+#MainContents .Bottom {
+	display:block;
+	width:800px;
+	height:39px;
+	margin:0px;
+	padding:0px;
+	background:url(frame_bottom.gif) left bottom no-repeat;
+}
+
+/* サブメニュー */
+#MainContentsAA {
+	width:470px;
+	padding:89px 30px 0px 0px;
+	float:right;
+	display:inline;
+}
+
+#MainContentsAA ul.SubMenu {
+	list-style:none;
+	margin:0px;
+	display:inline;
+	padding-bottom:7px;
+}
+
+ul.SubMenu li {
+	display:block;
+	margin:0px;
+	padding:0px;
+	text-indent:-9999px;
+	float:left;
+}
+
+ul.SubMenu li a {
+	display:block;
+	text-decoration:none;
+}
+
+ul.SubMenu li.TgsTop,
+ul.SubMenu li.TgsTop a {
+	width:231px;
+	height:35px;
+	margin:0px 21px 5px 0px;
+	_margin:0px 15px 5px 0px;
+	background:url(submenu_01.gif) no-repeat;
+}
+
+ul.SubMenu li.KidsTop,
+ul.SubMenu li.KidsTop a {
+	width:218px;
+	height:35px;
+	margin:0px;
+	background:url(submenu_02.gif) no-repeat;
+}
+
+/* メインメニュー */
+.ContentsArea ol.MainMenu {
+	list-style:none;
+	margin:0px;
+	padding:0px;
+}
+
+ol.MainMenu li {
+	display:block;
+	margin:0px 0px 15px;
+	padding:0px;
+	text-indent:-9999px;
+	float:left;
+}
+
+ol.MainMenu li a {
+	display:block;
+	background-position:0px 0px;
+	text-decoration:none;
+}
+
+/* 01 */
+ol.MainMenu li.Menu01 {
+	width:230px;
+	height:119px;
+	background:url(menu_01.gif) 0px -119px no-repeat;
+}
+
+ol.MainMenu li.Menu01 a {
+	width:230px;
+	height:119px;
+	background:url(menu_01.gif) no-repeat;
+}
+
+/* 02 */
+ol.MainMenu li.Menu02 {
+	width:229px;
+	height:119px;
+	background:url(menu_02.gif) 0px -119px no-repeat;
+}
+
+ol.MainMenu li.Menu02 a {
+	width:229px;
+	height:119px;
+	background:url(menu_02.gif) no-repeat;
+}
+
+/* 03 */
+ol.MainMenu li.Menu03 {
+	width:221px;
+	height:119px;
+	background:url(menu_03.gif) 0px -119px no-repeat;
+}
+
+ol.MainMenu li.Menu03 a {
+	width:221px;
+	height:119px;
+	background:url(menu_03.gif) no-repeat;
+}
+
+ol.MainMenu li.Menu01 a:hover,
+ol.MainMenu li.Menu01 a:active,
+ol.MainMenu li.Menu02 a:hover,
+ol.MainMenu li.Menu02 a:active,
+ol.MainMenu li.Menu03 a:hover,
+ol.MainMenu li.Menu03 a:active {
+	background-position:0px -119px;
+}
+
+/* OTHER CONTENTS */
+#MainContents .OtherContents {
+	width:800px;
+	height:133px;
+	margin:0px;
+	padding:0px;
+	background:url(main_back_bottom.gif) left bottom no-repeat;
+}
+
+.OtherContents ul.OtherMenu {
+	list-style:none;
+	margin:0px 0px 0px 30px;
+	padding:0px;
+}
+
+ul.OtherMenu li {
+	display:block;
+	margin:13px 26px 0px 0px;
+	padding:0px;
+	text-indent:-9999px;
+	float:left;
+}
+
+ul.OtherMenu li a {
+	display:block;
+	text-decoration:none;
+}
+
+ul.OtherMenu li.Mail,
+ul.OtherMenu li.Mail a {
+	width:243px;
+	height:110px;
+	background:url(button_mail.gif) no-repeat;
+}
+
+ul.OtherMenu li.Coupon,
+ul.OtherMenu li.Coupon a {
+	width:236px;
+	height:109px;
+	background:url(button_coupon.gif) no-repeat;
+}
+
+/* FOOTER */
+#Wrapper .Footer {
+	display:block;
+	width:800px;
+	height:21px;
+	margin:16px 0px 10px;
+	padding:0px;
+	background:url(footer.gif) right top no-repeat;
+	text-indent:-9999px;
+}
+
+
+
+/* Safariｅ"・Bｌﾀ\*/
+#Wrapper #MainContents {
+	margin:0px 0px 0px;
+	_margin:-2px 0px 0px;#
+}
+/* */
+
+
+
+
+
