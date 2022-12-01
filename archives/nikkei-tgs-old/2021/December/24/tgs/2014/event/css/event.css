@@ -1,0 +1,271 @@
+@charset "utf-8";
+/*
+===========================================================================
+
+	Title : event.css
+
+===========================================================================
+
+/* *********************************************
+*
+*	PC view
+*	
+********************************************* */
+
+
+
+/* PC .mainCont .subArea
+---------------------------------------------------------------- */
+#wrapper .mainCont .subArea #submenu h1 {
+	background: url(../images/subnav_ttl_event.png) no-repeat top center;
+}
+#wrapper .mainCont .subArea #submenu ul li.act2 {
+	font-size: 11px;
+	padding-left: 8px!important;
+}
+/* -------------------------------------------------------------
+
+	cga.html
+
+------------------------------------------------------------- */
+
+#wrapper .cntBox .boxInner .main_img {
+	margin-bottom: 20px;
+}
+#wrapper .cntBox .boxInner .left, .right {
+	float: left;
+}
+#wrapper .cntBox .boxInner .left {
+	width: 280px;
+}
+#wrapper .cntBox .boxInner .right {
+	width: 450px;
+}
+#wrapper .cntBox .boxInner .small {
+	font-size: 12px;
+}
+#wrapper .mainCont .cntBox .boxInner ul.att li {
+	padding-left: 1em;
+	text-indent: -1em;
+}
+#wrapper .mainCont .cntBox .boxInner.lnk_icon {
+	padding: 1px 2px;
+}
+#wrapper .mainCont .cntBox .boxInner .bottom0 {
+	margin-bottom: 0;
+}
+#wrapper .mainCont .cntBox .boxInner dl dd {
+	margin-bottom: 20px;
+}
+#wrapper .mainCont .cntBox .boxInner dl dd.txt {
+	width: 565px;
+	float: left;
+}
+#wrapper .mainCont .cntBox .boxInner dl dd.logo {
+	width: 165px;
+	float: right;
+}
+#wrapper .mainCont .cntBox .boxInner .clear {
+	clear: both;
+}
+/* -------------------------------------------------------------
+
+	cosplay.html
+
+------------------------------------------------------------- */
+
+#wrapper .mainCont .cntBox .boxInner .lnk_icon {
+	padding: 1px 2px;
+}
+#wrapper .mainCont .cntBox .boxInner table {
+	width: auto;
+}
+#wrapper .mainCont .cntBox .boxInner table th {
+	width: 100px;
+	text-align: center;
+	letter-spacing: 1em;
+}
+#wrapper .mainCont .cntBox .boxInner .mt10 {
+	margin-top: 10px;
+}
+#wrapper .mainCont .cntBox .boxInner .mb20 {
+	margin-bottom: 20px;
+}
+/* -------------------------------------------------------------
+
+	project.html
+
+------------------------------------------------------------- */
+#wrapper .gr_box {
+	background: #777;
+	color: #fff;
+	padding: 0 5px;
+	display:inline-block;
+}
+#wrapper .rd_box{
+	background:#e71a19;
+	color:#fff;	
+	padding:0 5px;
+	display:inline-block;
+	margin:5px 0;
+}
+#wrapper hr {
+	margin: 20px 0;
+	clear: both;
+}
+#wrapper .line {
+	margin-bottom: 20px;
+}
+#wrapper .center {
+	text-align: center;
+}
+#wrapper .lnk_icon {
+	position: relative;
+	top: 2px;
+}
+#wrapper .ta_l{
+	text-align:left;
+	}
+#wrapper .att{
+	padding-left:1em;
+	text-indent:-1em;
+	display:inline-block;
+	}
+
+#wrapper .project .boxInner .left {
+	width: 50%;
+	float: left;
+}
+#wrapper .project .boxInner .right {
+	width: 50%;
+	float: left;
+	text-align: center;
+}
+#wrapper .project .boxInner .right .txt {
+	padding: 0px 0px 0;
+	margin: 0;
+}
+#wrapper .project .boxInner .logo {
+	text-align: right;
+	margin-top: -10px;
+	margin-bottom: -20px;
+}
+
+#wrapper .project .boxInner h3 span {
+	font-size:15px;
+	background: #5ab7ac;
+	color: #fff;
+	font-weight: bold;
+	margin-left: 5px;
+	padding: 3px 5px;
+	border-radius : 10px;
+	-moz-border-radius : 10px;
+	-webkit-border-radius : 10px;
+	display: inline-block;
+	position:relative;
+	top:-2px;
+}
+#wrapper .project .boxInner h4 {
+	margin-bottom:10px;
+}
+#wrapper .project .boxInner h4 img {
+	position: relative;
+	top: -10px;
+	left: 5px;
+}
+#wrapper .project .boxInner table {
+	width:100%;
+	border:1px solid #ccc!important;
+}
+#wrapper .project .boxInner th {
+	width:auto;
+	letter-spacing:0em!important;
+}
+#wrapper .project .boxInner td {
+	width:auto;
+}
+
+
+
+
+
+
+/* *********************************************
+*
+*	SP view
+*	
+********************************************* */
+
+
+@media screen and (max-width:769px) {
+/* -------------------------------------------------------------
+
+	cga.html
+
+------------------------------------------------------------- */
+
+#wrapper .cntBox .boxInner .left {
+	width: 100%;
+	float: none;
+}
+#wrapper .cntBox .boxInner .right {
+	width: 100%;
+	float: none;
+	margin-top: 2%;
+}
+#wrapper .cntBox .boxInner .left img {
+	padding-left: 5%;
+}
+#wrapper .cntBox .boxInner .right img {
+	padding-left: 5%;
+}
+#wrapper .mainCont .cntBox .boxInner dl dd.txt {
+	width: 100%;
+}
+#wrapper .mainCont .cntBox .boxInner dl dd.logo {
+	width: 100%;
+}
+/* -------------------------------------------------------------
+
+	cosplay.html
+
+------------------------------------------------------------- */
+#wrapper .mainCont .cntBox .boxInner table th {
+	width: auto;
+}
+/* -------------------------------------------------------------
+
+	project.html
+
+------------------------------------------------------------- */
+#wrapper .project .boxInner .left {
+	width: 100%;
+	float: none;
+}
+#wrapper .project .boxInner .left img{
+	padding:0;
+	}
+#wrapper .project .boxInner .right {
+	width: 100%;
+	float: none;
+}
+#wrapper .project .boxInner .right img{
+		padding:0;
+}
+#wrapper .project .boxInner .logo {
+	text-align: right;
+	margin-bottom: 5px;
+}
+#wrapper .project .boxInner h4 img {
+	position: relative;
+	top: 0px;
+	left: 5px;
+}
+.ta_l{
+	text-align:left;
+	padding-left:20px;
+	}
+
+
+
+}
