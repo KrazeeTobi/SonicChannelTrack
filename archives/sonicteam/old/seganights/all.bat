@@ -1,7 +1,3 @@
-call 1994.bat
-call 1995.bat
-call 1996.bat
-call 1997.bat
 call 1998.bat
 call 1999.bat
 call 2000.bat
