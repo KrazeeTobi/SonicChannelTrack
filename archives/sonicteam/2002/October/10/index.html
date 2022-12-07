@@ -1,0 +1,712 @@
+<html>
+<head>
+<title>SONICTEAM</title>
+<meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<style type="text/css">
+<!--
+a:hover{color:green}
+body{scrollbar-base-color:#47A5DC;scrollbar-arrow-color:white;}
+-->
+</style>
+
+<!-------子ウィンドウhead--------->
+<SCRIPT language="JavaScript">
+<!--
+var window_location
+function WinOpen4() {
+window.open('psocb.html','window4','resizable=0,scrollbars=0,menubar=0,directories=0,status=0,location=0,width=450,height=330');
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</SCRIPT>
+<!------子ウィンドウheadここまで-------->
+<!-------マウスと共に移動するhead---------->
+
+<SCRIPT LANGUAGE="Javascript">
+var Ex = 0,Ey = 0 
+function move(e) { 
+Ex = e.pageX; 
+Ey = e.pageY;} 
+function init() { 
+NC4 = IE4 = 0; 
+if (navigator.appName == "Netscape" && navigator.appVersion.charAt(0) >=4) { 
+NC4 = true; 
+document.captureEvents(Event.MOUSEMOVE); 
+document.onMouseMove=move; 
+IMGx = document.layers['mim'].clip.width; 
+IMGy = document.layers['mim'].clip.height;} 
+if (navigator.appName == "Microsoft Internet Explorer" 
+&& navigator.appVersion.charAt(0) >=4) { 
+IE4 = true; 
+IMGx = mim.offsetWidth; 
+IMGy = mim.offsetHeight;}} 
+function getCursor() { 
+if (IE4) {Ex = event.clientX; 
+Ey = event.clientY; 
+event.returnValue=false;}} 
+function openMassage() { 
+if (IE4) { 
+Sx = document.body.scrollLeft; 
+Sy = document.body.scrollTop; 
+mim.style.posLeft += (Ex+Sx+20 - mim.style.posLeft)/10; 
+mim.style.posTop += (Ey+Sy+20 - mim.style.posTop)/10;} 
+if (NC4) { 
+document.layers['mim'].left += (Ex+20 - document.layers['mim'].left)/10; 
+document.layers['mim'].top += (Ey+20 - document.layers['mim'].top)/10;}}
+//-->
+</SCRIPT>
+
+<!-------マウスと共に移動するheadここまで---------->
+</head>
+
+<body bgcolor="#010187" text="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" link="#0000FF" vlink="#0000FF" alink="#0000FF" onLoad="MM_preloadImages('images/top/index/btn_new1.gif','images/top/index/btn_games1.gif','images/top/index/btn_goods1.gif','images/top/index/btn_shop1.gif','images/top/index/btn_company1.gif','images/top/index/btn_recruit1.gif','images/top/index/btn_bbs1.gif','images/top/index/btn_mail1.gif','images/top/index/btn_fromtm1.gif','images/top/index/btn_links1.gif','images/top/index/btn_sitemap1.gif')" onmousemove="getCursor();" onmousedown="click()" >
+<!-------マウスと共に移動するbody---------->
+<div ID="mim" style="position:absolute; left:460; 
+width:33;; height: 34; top: 125" > <a><img src="images/top/index/sonic/sonicmov.gif" width="33" height="34"></a> 
+</div>
+<script language="Javascript"> 
+init(); 
+interOM = setInterval('openMassage()',1) 
+</script>
+<!-------マウスと共に移動するbodyここまで---------->
+
+<div align="center">
+  <table width="800" border="0" cellspacing="0" cellpadding="0" bgcolor="#0202DF">
+    <tr> 
+      <td> 
+        <div align="left"><img src="images/top/index/sonicteam.gif" width="420" height="56" vspace="1" hspace="9"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=5,0,0,0" width="354" height="56">
+            <param name=movie value="images/top/index/top_psogc.swf">
+            <param name=quality value=high>
+			<param name=menu value=false>
+            <embed src="images/top/index/top_psogc.swf" quality=high pluginspage="http://www.macromedia.com/jp/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" width="354" height="56">
+            </embed> 
+          </object></div>
+      </td>
+    </tr>
+  </table>
+  <table width="800" border="0" cellspacing="0" cellpadding="0" bgcolor="#0202DF">
+    <tr> 
+      <td> 
+        <div align="center"> 
+          <table border="0" cellspacing="0" cellpadding="0">
+            <tr valign="bottom"> 
+              <td height="57"> 
+                <div align="right">
+                  <table border="0" cellspacing="0" cellpadding="0">
+                    <tr> 
+                      <td><img src="images/top/index/btn_left_l.gif" width="51" height="57"></td>
+                      <td><img src="images/top/index/btn_left_r.gif" width="104" height="57"></td>
+                    </tr>
+                  </table>
+                </div>
+              </td>
+              <td> 
+                <table border="0" cellspacing="0" cellpadding="0" width="300">
+                  <tr> 
+                    <td><a href="new/f_new.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image1','','images/top/index/btn_new1.gif',1)" target="_top"><img src="images/top/index/btn_new0.gif" width="105" height="28" border="0" name="Image1"></a></td>
+                    <td><a href="games/f_games.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image2','','images/top/index/btn_games1.gif',1)" target="_top"><img src="images/top/index/btn_games0.gif" width="105" height="28" border="0" name="Image2"></a></td>
+                    <td><a href="goods/f_goods.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image3','','images/top/index/btn_goods1.gif',1)" target="_top"><img src="images/top/index/btn_goods0.gif" width="105" height="28" border="0" name="Image3"></a></td>
+                    <td><a href="shop/f_shop.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image4','','images/top/index/btn_shop1.gif',1)" target="_top"><img src="images/top/index/btn_shop0.gif" width="105" height="28" border="0" name="Image4"></a></td>
+                    <td><a href="fromteam/f_fsonic.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image5','','images/top/index/btn_fromtm1.gif',1)" target="_top"><img src="images/top/index/btn_fromtm0.gif" width="203" height="28" border="0" name="Image5"></a></td>
+                  </tr>
+                  <tr> 
+                    <td><a href="company/f_company.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image6','','images/top/index/btn_company1.gif',1)" target="_top"><img src="images/top/index/btn_company0.gif" width="105" height="29" border="0" name="Image6"></a></td>
+                    <td><a href="recruit/f_recruit.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image7','','images/top/index/btn_recruit1.gif',1)" target="_top"><img src="images/top/index/btn_recruit0.gif" width="105" height="29" border="0" name="Image7"></a></td>
+                    <td><a href="bbs/f_bbs.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image8','','images/top/index/btn_bbs1.gif',1)" target="_top"><img src="images/top/index/btn_bbs0.gif" width="105" height="29" border="0" name="Image8"></a></td>
+                    <td><a href="mail/f_mail.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image9','','images/top/index/btn_mail1.gif',1)" target="_top"><img src="images/top/index/btn_mail0.gif" width="105" height="29" border="0" name="Image9"></a></td>
+                    <td> 
+                      <table border="0" cellspacing="0" cellpadding="0">
+                        <tr> 
+                          <td><a href="links/f_links.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image10','','images/top/index/btn_links1.gif',1)" target="_top"><img src="images/top/index/btn_links0.gif" width="99" height="29" border="0" name="Image10"></a></td>
+                          <td><a href="sitemap/f_sitemap.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image11','','images/top/index/btn_sitemap1.gif',1)" target="_top"><img src="images/top/index/btn_sitemap0.gif" width="104" height="29" border="0" name="Image11"></a></td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+          <table width="800" border="0" cellspacing="0" cellpadding="0">
+            <tr> 
+              <td width="11"> 
+                <div align="left"></div>
+              </td>
+              <td valign="top" width="453"> 
+                <div align="left"> 
+                  <table border="0" cellspacing="0" cellpadding="0">
+                    <tr> 
+                      <td> 
+                        <div align="left"> 
+                          <table border="0" cellspacing="0" cellpadding="0">
+                            <tr> 
+                              <td width="155"> 
+                                <div align="right"><img src="images/top/index/btn_left_u.gif" width="160" height="34"></div>
+                              </td>
+                              <td width="307"> 
+                                <div align="left"><img src="images/top/index/topics.gif" width="307" height="34"></div>
+                              </td>
+                              <td width="4" background="images/top/index/blue_line.gif"><img src="images/top/index/news_l.gif" width="4" height="34"></td>
+                              <td width="307"><img src="images/top/index/news.gif" width="307" height="34"></td>
+                            </tr>
+                            <tr> 
+                              <td valign="top" background="images/top/index/ban_back.gif"> 
+                                <div align="center"><a href="shop/f_shop.html" target="_top"><img src="images/banner/s_factory_banner.gif" width="150" height="38" alt="SONIC FACTORY" border="0" vspace="1" hspace="1"></a><br>
+                                  <table border="0" cellspacing="2" cellpadding="0" width="150">
+                                    <tr> 
+                                      <td valign="top"> 
+                                        <div align="center"><font size="1"><font color="#FFFFFF"></font></font><font size="1" color="#FFFFFF"><b> 
+                                          ソニックファクトリー</b><br>
+                                          <font color="#FFFF00"><b><font size="1" color="#FFFFFF"></font></b> 
+                                          『PSO』ｽﾀﾁｭｰ「ﾌｫﾆｭｴｰﾙ」</font></font></div>
+                                      </td>
+                                    </tr>
+                                  </table>
+                                  <font size="1"> </font> <a href="pso/pc/index.html" target="_top"> 
+                                  </a> <font size="1"> </font> <font size="1"> 
+                                  </font><font size="1"> </font> <font size="1"> 
+                                  </font> <font size="1"> </font> <font size="1"> 
+                                  </font> <font size="1"><a href="minitoy/index.html" target="_self"> 
+                                  <br>
+                                  <img src="images/banner/s_minitoy_banner.gif" width="150" height="45" border="0" alt="minitoy"></a><br>
+                                  </font> 
+                                  <table width="150" border="0" cellspacing="2" cellpadding="0">
+                                    <tr> 
+                                      <td> 
+                                        <div align="center"><font size="1"><font color="#FFFFFF"><b><font size="1" color="#FFFFFF"></font></b></font></font> 
+                                          <font size="1" color="#FFFFFF"><b>ミニトイ</b><br>
+                                          デスクトップアクセサリー </font></div>
+                                      </td>
+                                    </tr>
+                                  </table>
+                                  <p>　</p>
+                                  <p><img src="/cgi-bin/tlcounter2/tlcounter2.cgi?page=/index.html&image=ichimura1" width="138" alt="カウンタ" height="45"></p>
+                                  
+                                  <p>
+                                    <img src="images/banner/st_banner_1.gif" width="100" height="40" alt="SONICTEAM"> 
+                                    <br>
+                                    <br>
+                                    <a href="http://www.macromedia.com/jp/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash&Lang=Japanese" target="_blank"><img src="images/banner/get_flashplayer.gif" width="88" height="31" border="0" align="baseline" alt="GET Flash Player"></a> 
+                                  </p>
+                                  </div>
+                              </td>
+                              <td bgcolor="#FF0000" valign="top" width="307"> 
+                                <div align="center"> 
+                                  <table width="305" border="0" cellspacing="0" cellpadding="0">
+                                    <tr> 
+                                      <td> 
+                                        <div align="center"> 
+                                          <table width="300" border="0" cellspacing="0" cellpadding="2">
+                                            <tr> 
+                                              <td> 
+                                                <div align="left"><font size="2" color="#FFFF00"><b>【ソニックチーム 
+                                                  TGS2002 情報】</b></font><font size="2"><font color="#FFFFFF" size="1"><b><font size="1" color="#FFFFFF"></font><font size="2"><font color="#FFFFFF" size="1"><b><font size="1" color="#FFFFFF"></font></b></font></font></b></font></font> 
+                                                  <font size="2" color="#FFFFFF"><a href="tgs2002/index.html" target="_top"><img src="tgs2002/btn_index.gif" width="198" height="55" border="0" alt="TGS2002"></a><br>
+                                                  9/20～22開催 [東京ｹﾞｰﾑｼｮｳ2002]出展情報を紹介!<br>
+                                                  ▼Xbox版</font><font size="2"><b><font size="2"><b><font size="2" color="#0000CC"><font color="#00FF00"> 
+                                                  <font color="#00FFFF">『ﾌｧﾝﾀｼｰｽﾀｰｵﾝﾗｲﾝ 
+                                                  ｴﾋﾟｿｰﾄﾞ 1&amp;2』<br>
+                                                  </font></font></font></b></font></b><font size="2"><font size="2" color="#0000CC"><font color="#00FF00"><font color="#FFFFFF">　正式ﾀｲﾄﾙ･ｻｰﾋﾞｽ開始日･ﾒｲﾝﾋﾞｼﾞｭｱﾙ他 
+                                                  </font></font><font size="2" color="#FFFFFF">詳細発表！</font></font></font><b><font size="2"><font size="2" color="#0000CC"><font size="2" color="#FFFFFF"><br>
+                                                  </font></font></font></b><font size="2"><font size="2" color="#0000CC"><font size="2"><font size="2"><font size="2" color="#0000CC"><font size="2"><font size="2"><font size="2" color="#0000CC"><font size="2"><font size="2"><font size="2" color="#0000CC"><font size="2" color="#FFFFFF">▼</font></font></font></font></font></font></font></font></font></font></font></font><b><font size="2"><font size="2" color="#0000CC"><font size="2"><font size="2"><font size="2" color="#0000CC"><font size="2"><font size="2"><font size="2" color="#0000CC"><font size="2"><font size="2"><font size="2" color="#0000CC"><font size="2" color="#FFFFFF"><font color="#00FFFF"><b>『ソニックアドバンス２』</b></font></font></font></font></font></font></font></font></font></font></font></font></font></b><font size="2"><font size="2" color="#0000CC"><font size="2"><font size="2"><font size="2" color="#0000CC"><font size="2"><font size="2"><font size="2" color="#0000CC"><font size="2"><font size="2"><font size="2" color="#0000CC"><font size="2" color="#FFFFFF"> 
+                                                  新ｷｬﾗ</font></font></font></font></font></font></font></font></font></font></font></font><b><font size="2"><font size="2" color="#0000CC"><font size="2"><font size="2"><font size="2" color="#0000CC"><font size="2"><font size="2"><font size="2" color="#0000CC"><font size="2"><font size="2"><font size="2" color="#0000CC"><font size="2" color="#FFFFFF"><b><font color="#00FFFF">「クリーム｣</font></b></font></font></font></font></font></font></font></font></font></font></font></font></b><font size="2"><font size="2" color="#0000CC"><font size="2"><font size="2"><font size="2" color="#0000CC"><font size="2"><font size="2"><font size="2" color="#0000CC"><font size="2"><font size="2"><font size="2" color="#0000CC"><font size="2" color="#FFFFFF"> 
+                                                  発表！</font></font></font></font></font></font></font></font></font></font></font></font><b><font size="2"><font size="2" color="#0000CC"><font size="2" color="#FFFFFF"><br>
+                                                  </font></font></font></b></font> 
+                                                  <font size="2"><font size="2"><font size="2" color="#0000CC"><font size="2" color="#FFFFFF"> 
+                                                  </font><font size="2"><font color="#FFFFFF">▼レポートは<a href="http://sega.jp/event/re_020920_1a.html" target="_top"><font color="#00FFFF">こちら</font></a>！&gt;&gt;　</font><font size="2"><font size="2"><font size="2" color="#0000CC"><font size="2"><font size="2"><font size="2" color="#0000CC"><font size="2"><font color="#FFFFFF" size="1"><b><font size="2"><font color="#FFFFFF" size="1"><b><font size="1" color="#FFFFFF"><font color="#00FF00"><img src="images/top/newmov_sb.gif" width="20" height="9"></font></font></b></font></font></b></font></font></font></font></font></font></font></font></font></font></font></font></div>
+                                              </td>
+                                            </tr>
+                                            <tr> 
+                                              <td> 
+                                                <div align="left"> </div>
+                                                <table>
+                                                  <tr> 
+                                                    <td bgcolor="#990000" height="5" width="300"></td>
+                                                  </tr>
+                                                </table>
+                                              </td>
+                                            </tr>
+                                          </table>
+                                          <table width="300" border="0" cellspacing="0" cellpadding="2" height="37">
+                                            <tr> 
+                                              <td height="13"> <font size="2" color="#FFFF00"> 
+                                                <b>【『ｱﾄﾞﾊﾞﾝｽ2』 『ﾒｶﾞｺﾚ』 発売日決定！】</b>(9/5) 
+                                                </font><font size="2"><font color="#FFFFFF" size="1"><b><font size="1" color="#FFFFFF"></font></b></font></font><font size="2" color="#FFFF00"> 
+                                                </font></td>
+                                            </tr>
+                                            <tr> 
+                                              <td> 
+                                                <table width="300" border="0" cellspacing="2" cellpadding="2">
+                                                  <tr> 
+                                                    <td> <font size="2"><font size="2"><font size="2" color="#0000CC"><font size="2" color="#FFFFFF"><a href="sonicadvance2/index.html" target="_top"><img src="images/banner/s_sonicgba2_banner.gif" width="150" height="45" border="0" alt="ソニックアドバンス２" align="left"></a></font><font size="2"><font size="2"><font size="2" color="#0000CC"><font size="2"><font size="2"><font size="2" color="#0000CC"><font size="2" color="#FFFFFF"><b><a href="sonicadvance2/index.html" target="_top"><font color="#00FFFF">『ソニックアドバンス2』</font></a></b><font size="2"><font size="2"><font size="2" color="#0000CC"><font size="2"><font size="2"><font size="2" color="#0000CC"><font size="2"><font size="2"><font size="2" color="#0000CC"><font color="#FFFFFF">(</font><font size="2" color="#FFFFFF">ｹﾞｰﾑﾎﾞｰｲｱﾄﾞﾊﾞﾝｽ用)</font></font></font></font></font></font></font></font></font></font><font color="#00FFFF"> 
+                                                      12/19 \5,800</font> 発売！</font></font></font></font></font></font></font></font></font></font></td>
+                                                  </tr>
+                                                </table>
+                                              </td>
+                                            </tr>
+                                            <tr> 
+                                              <td> 
+                                                <div align="center"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=5,0,0,0" width="300" height="90">
+                                                    <param name=movie value="images/top/index/top_megacole.swf">
+                                                    <param name=quality value=high>
+                                                    <param name=menu value=false>
+                                                    <embed src="images/top/index/top_megacole.swf" quality=high pluginspage="http://www.macromedia.com/jp/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" width="300" height="90">
+                                                    </embed> 
+                                                  </object> </div>
+                                              </td>
+                                            </tr>
+                                            <tr> 
+                                              <td> 
+                                                <table>
+                                                  <tr> 
+                                                    <td bgcolor="#990000" height="5" width="300"></td>
+                                                  </tr>
+                                                </table>
+                                              </td>
+                                            </tr>
+                                          </table>
+                                          <table width="300" border="0" cellspacing="0" cellpadding="2">
+                                            <tr> 
+                                              <td> 
+                                                <div align="left"><font size="2" color="#FFFF00"><b>【第2回『PSO』ｲﾗｽﾄｺﾝﾃｽﾄ結果発表】</b>(10/2)</font> 
+                                                  <font size="2"><font size="2"><font size="2"><font size="2" color="#0000CC"><font size="2"><font size="2"><font size="2"><font size="2" color="#0000CC"><font size="2"><font size="2"><font size="2" color="#0000CC"><font size="2"><font color="#FFFFFF" size="1"><b><font size="2"><font color="#FFFFFF" size="1"><b><font size="1" color="#FFFFFF"><font color="#00FF00"><img src="images/top/newmov_sb.gif" width="20" height="9"></font></font></b></font></font></b></font></font></font></font></font></font></font></font></font></font></font></font></font><font color="#FFFFFF" size="2"><br>
+                                                  応募数約200点！<a href="http://www.isao.net/games/pso/" target="_blank"><font color="#00FFFF">金賞･銀賞ｲﾗｽﾄ大公開！</font></a></font></div>
+                                              </td>
+                                            </tr>
+                                            <tr> 
+                                              <td> 
+                                                <div align="left"> </div>
+                                                <table>
+                                                  <tr> 
+                                                    <td bgcolor="#990000" height="5" width="300"></td>
+                                                  </tr>
+                                                </table>
+                                              </td>
+                                            </tr>
+                                          </table>
+                                          <table width="300" border="0" cellspacing="0" cellpadding="2">
+                                            <tr> 
+                                              <td> 
+                                                <div align="left"><font size="2" color="#FFFF00"><b>【『PSO』カプセルフィギュア登場！】</b>(9/2) 
+                                                  </font><font size="2"><font color="#FFFFFF" size="1"><b><font size="1" color="#FFFFFF"></font></b></font></font> 
+                                                  <font size="2" color="#FFFFFF"><a href="pso/index2.html" target="_blank"><img src="images/top/topic_new/psocpfig.gif" width="200" height="40" border="0" alt="『PSO』カプセルフィギュア"></a><br>
+                                                  『PSO ｴﾋﾟｿｰﾄﾞ1&amp;2』 全キャラクター12種の<a href="pso/index_goods.html" target="_blank"><font color="#00FFFF">カプセルフィギュア</font></a>が、ソニックチーム完全監修で10月に登場！</font></div>
+                                              </td>
+                                            </tr>
+                                            <tr> 
+                                              <td> 
+                                                <div align="left"> </div>
+                                                <table>
+                                                  <tr> 
+                                                    <td bgcolor="#990000" height="5" width="300"></td>
+                                                  </tr>
+                                                </table>
+                                              </td>
+                                            </tr>
+                                          </table>
+                                          <table width="300" border="0" cellspacing="0" cellpadding="2">
+                                            <tr> 
+                                              <td><font size="2" color="#FFFF00"><b>【『PSO』ｽﾀﾁｭｰ 
+                                                「ﾌｫﾆｭｴｰﾙ」発売】</b>(9/12)</font></td>
+                                            </tr>
+                                            <tr> 
+                                              <td><font size="2" color="#FFFFFF"><a href="shop/f_shop.html" target="_blank"><img src="images/top/topic_new/fonew.gif" width="49" height="75" align="left" border="0"></a> 
+                                                『PSO』スタチューシリーズ<a href="shop/f_shop.html"><font color="#00FFFF">[ソニックファクトリー]</font></a>にて好評発売中！<br>
+                                                <font color="#0000FF"><font color="#FFA4FF">No.3「フォニュエール」 
+                                                発売中</font></font><br>
+                                                No.1「ヒューマー」 発売中<br>
+                                                No.2「ハニュエール」 発売中</font></td>
+                                            </tr>
+                                            <tr> 
+                                              <td> 
+                                                <div align="center"> 
+                                                  <table>
+                                                    <tr> 
+                                                      <td bgcolor="#990000" height="5" width="300"></td>
+                                                    </tr>
+                                                  </table>
+                                                </div>
+                                              </td>
+                                            </tr>
+                                          </table>
+                                          <table width="300" border="0" cellspacing="0" cellpadding="2" height="37">
+                                            <tr> 
+                                              <td height="13"> <font size="2" color="#FFFF00"> 
+                                                <b>【ソニックチーム関連イベント情報】</b></font></td>
+                                            </tr>
+                                            <tr> 
+                                              <td> <font size="2" color="#FFFFFF"> 
+                                                </font> 
+                                                <div align="center"> 
+                                                  <div align="left"><font size="2"><font size="2" color="#FFFFFF">▼9月毎土日</font><font size="2"> 
+                                                    <a href="http://sega.jp/event/gameparty_0209.html" target="_blank"><font color="#00FFFF">セガ 
+                                                    ゲームパーティ</font></a></font>　<br>
+                                                    <font color="#FFFFFF">▼7/20～9/8</font> 
+                                                    <a href="gameparty/index.html"><font color="#00FFFF">わくわくゲームパーティ</font></a><br>
+                                                    <font size="2" color="#FFFFFF">▼7/13～14</font><font size="2"> 
+                                                    <a href="whf/index.html"><font color="#00FFFF">ﾜｰﾙﾄﾞﾎﾋﾞｰﾌｪｱ</font></a><font color="#FFFFFF">　レポートは<a href="http://sega.jp/event/re_020715.html" target="_blank"><font color="#00FFFF">こちら</font></a>！</font></font><font color="#FFFFFF"><br>
+                                                    </font><font size="2"><font color="#FFFFFF">▼8/4</font><font color="#00FFFF"> 
+                                                    </font><a href="sonicparty/index.html"><font color="#00FFFF">ソニックパーティー</font></a> 
+                                                    <font color="#FFFFFF">　レポートは<a href="http://sega.jp/event/re_020804_1.html" target="_blank"><font color="#00FFFF">こちら</font></a>！</font></font><font color="#FFFFFF"><br>
+                                                    ▼</font><font color="#FFFFFF" size="2">8/25</font> 
+                                                    <font size="2" color="#00FFFF">夏休みに、SEGAへ行こう。</font><font size="2"><font color="#FFFFFF"> 
+                                                    ﾚﾎﾟｰﾄは<a href="http://sega.jp/event/re_020825_1.html" target="_blank"><font color="#00FFFF">こちら</font></a>！</font></font></font></div>
+                                                </div>
+                                              </td>
+                                            </tr>
+                                            <tr> 
+                                              <td> 
+                                                <div align="center"> 
+                                                  <table>
+                                                    <tr> 
+                                                      <td bgcolor="#990000" height="5" width="300"></td>
+                                                    </tr>
+                                                  </table>
+                                                </div>
+                                              </td>
+                                            </tr>
+                                          </table>
+                                          <table width="300" border="0" cellspacing="0" cellpadding="2">
+                                            <tr> 
+                                              <td><font size="2" color="#FFFF00"><b>【ソニックの[ewatch]発売開始!】</b>(5/10)</font></td>
+                                            </tr>
+                                            <tr> 
+                                              <td> 
+                                                <div align="center"><font size="2" color="#FFFFFF"><a href="http://ewd6.ewatchfactory.com/ews_sega1_en" target="_blank"><img src="images/top/topic_new/ewatch.gif" width="280" height="68" border="0" alt="ewatch factory"></a> 
+                                                  </font></div>
+                                              </td>
+                                            </tr>
+                                            <tr> 
+                                              <td><font size="2" color="#FFFFFF">ｱﾒﾘｶの[ewatch 
+                                                factory]にて細部までｶｽﾀﾏｲｽﾞ可能な<b><a href="http://ewd6.ewatchfactory.com/ews_sega1_en" target="_blank"><font color="#00FFFF">SONIC 
+                                                watch</font></a></b>が発売されました！日本への配送もOK。自分だけのｵﾘｼﾞﾅﾙ腕時計を手に入れよう！</font></td>
+                                            </tr>
+                                          </table>
+                                          <table>
+                                            <tr> 
+                                              <td bgcolor="#990000" height="5" width="300"></td>
+                                            </tr>
+                                          </table>
+                                          <table width="300" border="0" cellspacing="0" cellpadding="2">
+                                            <tr> 
+                                              <td><font size="2" color="#FFFF00"><b>【ソニックチームからのお願い】</b>(5/30)</font> 
+                                                <table width="302" border="0" cellspacing="2" cellpadding="2" bgcolor="#FF00FF">
+                                                  <tr> 
+                                                    <td><font size="1"><a href="javascript:WinOpen4();"><font size="2"><font color="#00FFFF" size="1">『PSO 
+                                                      カードバトル(仮)』試作フィギュアについての 重要なお知らせ。</font></font></a></font></td>
+                                                  </tr>
+                                                </table>
+                                              </td>
+                                            </tr>
+                                            <tr> 
+                                              <td> 
+                                                <div align="left"> </div>
+                                                
+                                              </td>
+                                            </tr>
+                                          </table>
+                                        </div>
+                                      </td>
+                                    </tr>
+                                  </table>
+                                </div>
+                              </td>
+                              <td background="images/top/index/blue_line.gif" width="4"><img src="images/top/index/blue_line.gif" width="4" height="4"></td>
+                              <td valign="top" width="307"> 
+                                <div align="right">
+                                  <table width="300" border="0" cellspacing="0" cellpadding="0">
+                                    <tr> 
+                                      <td><img src="images/top/index/pso1.gif" width="300" height="12"><br>
+                                        <table width="300" border="0" cellspacing="0" cellpadding="0" bgcolor="#003399">
+                                          <tr> 
+                                            <td> 
+                                              <table width="298" border="0" cellspacing="2" cellpadding="2">
+                                                <tr> 
+                                                  <td bgcolor="#6600CC"><b><i><font size="1"><img src="images/banner/topicon_gc.gif" width="22" height="22" align="absmiddle"></font></i><font size="2" color="#0000CC"> 
+                                                    <font color="#00FF00">『PSO 
+                                                    エピソード 1&amp;2』 for GC</font></font></b></td>
+                                                </tr>
+                                                <tr> 
+                                                  <td bgcolor="#CCCCFF"> <font size="2"><font color="#FF0000"> 
+                                                    <a href="psogc/" target="_blank"><img src="images/banner/s_psogc_banner.gif" width="150" height="45" border="0" alt="PSO エピソード１＆２"></a> 
+                                                    【サポート HP】<br>
+                                                    ▼<a href="psogc/minhiro/" target="_blank">[みんなの広場]</a></font><font size="2"><font color="#FF0000"> 
+                                                    更新！</font></font><font color="#FF0000">「ｲﾗｽﾄ広場」他 
+                                                    (10/10)</font><font size="2"><font size="2"><font size="2" color="#0000CC"><font size="2"><font size="2"><font size="2"><font size="2" color="#0000CC"><font size="2"><font size="2"><font size="2" color="#0000CC"><font size="2"><font color="#FFFFFF" size="1"><b><font size="2"><font color="#FFFFFF" size="1"><b><font size="1" color="#FFFFFF"><font color="#00FF00"><img src="images/top/newmov_sb.gif" width="20" height="9"></font></font></b></font></font></b></font></font></font></font></font></font></font></font></font></font></font><font color="#FF0000"><br>
+                                                    ▼<b>「ﾌﾞﾛｰﾄﾞﾊﾞﾝﾄﾞｱﾀﾞﾌﾟﾀ」 10/3より 
+                                                    好評発売中！</b></font></font></font><font size="2" color="#FF0000"><br>
+                                                    </font><font size="2"> <font color="#FF0000">▼ﾊﾝﾀｰｽﾞﾗｲｾﾝｽ 
+                                                    30日間無料ｷｬﾝﾍﾟｰﾝ 実施中<br>
+                                                    </font></font><font size="2" color="#FF0000">▼ｻｳﾝﾄﾞﾄﾗｯｸ第2弾 
+                                                    2枚組 9/19より 発売中！</font><font color="#FFFFFF" size="2"><b><font size="1" color="#FFFFFF"><font color="#00FF00"><br>
+                                                    </font></font></b><font size="1" color="#FFFFFF"><font color="#00FF00">　　 
+                                                    </font><font size="2"><a href="pso/index2.html" target="_blank">PSO 
+                                                    web</a>　　</font><font color="#FFFFFF" size="2"><font size="1" color="#FFFFFF"><font size="2"><a href="psogc/" target="_blank">『エピソード1&amp;2』 
+                                                    サポート HP</a></font></font></font></font></font></td>
+                                                </tr>
+                                              </table>
+                                            </td>
+                                          </tr>
+                                        </table>
+                                        <table width="300" border="0" cellspacing="0" cellpadding="0" bgcolor="#003399">
+                                          <tr> 
+                                            <td> 
+                                              <table width="298" border="0" cellspacing="2" cellpadding="2">
+                                                <tr> 
+                                                  <td bgcolor="#6600CC"><font size="2"><b><font size="1" color="#FFFFFF"><b><img src="images/banner/topicon_xb.gif" width="22" height="22" align="absmiddle"></b></font><font size="2"><b><font color="#0000CC"> 
+                                                    </font><font size="2" color="#0000CC"><font color="#00FF00">『PSO 
+                                                    エピソード 1&amp;2』</font></font></b></font><font size="2"><b><font size="2"><b><font color="#0000CC"><font color="#00FF00"> 
+                                                    for Xbox</font></font></b></font></b></font><font size="1" color="#00FF00"></font></b></font></td>
+                                                </tr>
+                                                <tr> 
+                                                  <td bgcolor="#CCCCFF"><font size="1"><font size="2"> 
+                                                    </font></font> <font size="1"><font size="2"><font color="#FF0000"><a href="pso_xbox.html" target="_top"><img src="images/banner/s_psox_banner.gif" width="150" height="45" border="0" alt="PSO エピソード１＆２"></a><br>
+                                                    ▼</font><font size="1"><font size="2"><font color="#FF0000">2003/1/16 
+                                                    </font></font></font><font color="#FF0000">XboxLive 
+                                                    ｵﾝﾗｲﾝｻｰﾋﾞｽ開始(9/20)</font><font size="2"><font color="#FFFFFF" size="1"><font size="1" color="#FFFFFF"></font></font></font><br>
+                                                    　<a href="http://sega.jp/x/pso/" target="_blank">SEGA 
+                                                    web</a> 　<a href="pso/index2.html" target="_blank">PSO 
+                                                    web</a><br>
+                                                    <font color="#FF0000">▼ボイスチャット機能対応決定！</font> 
+                                                    <a href="http://sega.jp/release/nr020522_1.html" target="_blank">Click!</a></font></font> 
+                                                  </td>
+                                                </tr>
+                                              </table>
+                                            </td>
+                                          </tr>
+                                        </table>
+                                        <table width="300" border="0" cellspacing="0" cellpadding="0" bgcolor="#003399">
+                                          <tr> 
+                                            <td> 
+                                              <table width="298" border="0" cellspacing="2" cellpadding="2">
+                                                <tr> 
+                                                  <td bgcolor="#6600cc"><font color="#FFFF00"><font size="2" color="#0000CC"><b><font size="1" color="#FFFFFF"><img src="images/banner/topicon_pc.gif" width="22" height="22" align="absmiddle"></font> 
+                                                    <font color="#00FF00">『PSO』 
+                                                    </font><font color="#FFFF00"><font size="2" color="#0000CC"><b><font color="#00FF00">for 
+                                                    Windows</font></b></font></font></b></font></font></td>
+                                                </tr>
+                                                <tr> 
+                                                  <td bgcolor="#CCCCFF"><font size="2"><font color="#FF0000">▼<b>ｱｼﾞｱ共同ｷｬﾝﾍﾟｰﾝ終了 
+                                                    ﾚﾎﾟｰﾄ更新</b></font><font size="2"><font color="#FF0000"><b> 
+                                                    </b></font></font><a href="pso/pc/asia/index.htm" target="_blank">Click!</a></font><font size="2" color="#FF0000"> 
+                                                    <br>
+                                                    ▼バトルルール追加！</font><font size="2"><br>
+                                                    　バトル3： ワープ装置を駆使し背後を狙え！<br>
+                                                    　バトル4： MAP上に散らばるメセタを集めろ！<a href="pso/pc/index.html" target="_blank">Click!</a><br>
+                                                    <font color="#FF0000">▼SONY「VAIO 
+                                                    NOTE NV」にﾊﾞﾝﾄﾞﾙ決定！(5/13)</font><br>
+                                                    　<a href="pso/pc/index.html" target="_blank">PSO 
+                                                    PC web</a>　　<a href="http://sega.jp/release/nr020513_1.html" target="_blank">ニュースリリース</a><br>
+                                                    <font color="#FF0000">▼プレイアブルデモ 
+                                                    配信中</font> ⇒</font> <font size="2"><a href="pso/pc/index.html" target="_blank">Click!</a></font> 
+                                                  </td>
+                                                </tr>
+                                              </table>
+                                            </td>
+                                          </tr>
+                                        </table>
+                                        <img src="images/top/index/pso2.gif" width="300" height="8"></td>
+                                    </tr>
+                                  </table>
+                                  <table width="300" border="0" cellspacing="0" cellpadding="0">
+                                    <tr> 
+                                      <td><img src="images/top/index/puyo1.gif" width="300" height="12"><br>
+                                        <table width="300" border="0" cellspacing="0" cellpadding="0" bgcolor="#FF33CC">
+                                          <tr> 
+                                            <td> 
+                                              <table width="298" border="0" cellspacing="2" cellpadding="2">
+                                                <tr> 
+                                                  <td bgcolor="#F5B5FF">
+                                                    <p><font size="2"> PDAとして普及する「PocketPC」向けに、人気ﾊﾟｽﾞﾙｹﾞｰﾑ<a href="puyopuyo/pocketpc/index.html" target="_top">『ぷよぷよ 
+                                                      for PocketPC』</a>発売決定! (9/13)</font></p>
+                                                  </td>
+                                                </tr>
+                                              </table>
+                                            </td>
+                                          </tr>
+                                        </table>
+                                        <img src="images/top/index/puyo2.gif" width="300" height="8"></td>
+                                    </tr>
+                                  </table>
+                                  <table width="300" border="0" cellspacing="0" cellpadding="0">
+                                    <tr> 
+                                      <td> <img src="images/top/index/scafe1.gif" width="300" height="12"><br>
+                                        <table width="300" border="0" cellspacing="0" cellpadding="0" bgcolor="#BC04FF">
+                                          <tr> 
+                                            <td> 
+                                              <table width="298" border="0" cellspacing="2" cellpadding="2">
+                                                <tr> 
+                                                  <td bgcolor="#CC00FF"> <a href="cafe/index.html" target="_top"><img src="images/banner/s_cafe_banner.gif" width="150" height="45" border="0" alt="ソニックカフェ"></a><font size="2" color="#FFFFFF"> 
+                                                    i ｱﾌﾟﾘ総合ｹﾞｰﾑｻｲﾄ<img src="images/banner/topicon_mobile.gif" width="22" height="22"></font></td>
+                                                </tr>
+                                              </table>
+                                              <table width="298" border="0" cellspacing="2" cellpadding="2">
+                                                <tr> 
+                                                  <td bgcolor="#FFCCFF"><font size="2"> 
+                                                    <a href="cafe/index.html" target="_top"><img src="cafe/papercraft/i_sonic_ss.gif" width="70" height="70" align="right" border="0">【ｿﾆｯｸﾁｰﾑ 
+                                                    ペーパークラフトシリーズ】</a>ソニックチームの人気キャラクターのペーパークラフトを全国のローソンで購入できるサービスです。(9/26) 
+                                                    <font color="#FFFFFF" size="1"><b><font size="1" color="#FFFFFF"><font color="#00FF00"><img src="images/top/newmov_sb.gif" width="20" height="9"></font></font></b></font> 
+                                                    </font></td>
+                                                </tr>
+                                              </table>
+                                              <table width="298" border="0" cellspacing="2" cellpadding="2">
+                                                <tr> 
+                                                  <td bgcolor="#FFCCFF"> <font size="2"> 
+                                                    <a href="cafe/index.html" target="_top"><img src="cafe/kazuate/shot.gif" width="100" height="72" align="left" border="0"></a>ｉ 
+                                                    アプリ<a href="cafe/index.html" target="_top">【ソニックカフェ】</a>に新作<font color="#FF0000">『エッグマンのかずあてパニック!』</font>登場！更に、<font color="#FF0000">『ふたりでぷよぷよ』『ぷよぷよタスクモード』</font>も大幅リニューアル！(9/19)</font></td>
+                                                </tr>
+                                              </table>
+                                              <table width="298" border="0" cellspacing="2" cellpadding="2">
+                                                <tr> 
+                                                  <td bgcolor="#FFCCFF"><font size="2"> 
+                                                    <a href="cafe/index.html" target="_top"><img src="cafe/psotimer/haw_s.gif" width="70" height="70" align="left" border="0"></a><b><font size="2" color="#0000CC"><font color="#FF0000">『PSO 
+                                                    エピソード 1&amp;2』</font></font></b><font color="#FF0000"> 
+                                                    </font>発売記念！　<a href="cafe/index.html" target="_top">「キャラクタータイマー」 
+                                                    i アプリ</a><b> <font color="#FF0000">全12キャラクター 
+                                                    無料ダウンロードプレゼント</font></b>！ 
+                                                    新たに追加された3キャラクターも用意！(9/12)</font></td>
+                                                </tr>
+                                              </table>
+                                              
+                                            </td>
+                                          </tr>
+                                        </table>
+                                        <img src="images/top/index/scafe2.gif" width="300" height="8"></td>
+                                    </tr>
+                                  </table>
+                                  <table width="300" border="0" cellspacing="0" cellpadding="0">
+                                    <tr> 
+                                      <td><img src="images/top/index/sonic1.gif" width="300" height="12"><br>
+                                        <table width="300" border="0" cellspacing="0" cellpadding="0" bgcolor="#258FFF">
+                                          <tr> 
+                                            <td> 
+                                              <table width="298" border="0" cellspacing="2" cellpadding="2">
+                                                <tr> 
+                                                  <td bgcolor="#BCE7FE">
+                                                    <div align="left">
+                                                      <table width="290" border="0" cellspacing="2" cellpadding="2">
+                                                        <tr>
+                                                          <td><a href="chao_hp/index.htm" target="_blank"><img src="images/banner/s_chao_banner.gif" width="150" height="45" alt="チャオ研究所" border="0"></a><font size="2" color="#FF0000"> 
+                                                            【チャオ研究所】</font></td>
+                                                        </tr>
+                                                      </table>
+                                                      <font size="2" color="#FF0000"><a href="chao_hp/index.htm" target="_blank"><img src="images/top/topic_new/chaowp03.gif" align="left" border="0" width="60" height="40"></a></font><font size="2"> 
+                                                      [プレゼント] 第6弾！(10/1)<font color="#FFFFFF" size="1"><b><font size="1" color="#FFFFFF"><font color="#00FF00"><img src="images/top/newmov_sb.gif" width="20" height="9"></font></font></b></font><br>
+                                                      ・チャオ壁紙<br>
+                                                      ・ﾍﾟｰﾊﾟｰｸﾗﾌﾄ 「ﾁｬｵの小動物 ｺﾞﾘﾗ」</font></div>
+                                                  </td>
+                                                </tr>
+                                              </table>
+                                            </td>
+                                          </tr>
+                                        </table>
+                                        <table width="300" border="0" cellspacing="0" cellpadding="0" bgcolor="#258FFF">
+                                          <tr> 
+                                            <td> 
+                                              <table width="298" border="0" cellspacing="2" cellpadding="2">
+                                                <tr> 
+                                                  <td bgcolor="#BCE7FE"><font size="2"> 
+                                                    <font color="#000000"><img src="images/top/topic_new/011228manga.gif" width="100" height="55" align="right"></font>ソニックのコミックス<br>
+                                                    <font size="2"><font size="2"><font color="#000000">『ダッシュ＆スピン　超速ソニック』<br>
+                                                    </font></font></font><font color="#000000">［別冊ｺﾛｺﾛｺﾐｯｸ］にて好評連載中！</font></font></td>
+                                                </tr>
+                                              </table>
+                                            </td>
+                                          </tr>
+                                        </table>
+                                        <img src="images/top/index/sonic2.gif" width="300" height="8"></td>
+                                    </tr>
+                                  </table>
+                                  <table width="300" border="0" cellspacing="0" cellpadding="0">
+                                    <tr>
+                                      <td>
+                                        <div align="center">
+                                          <table width="300" border="0" cellspacing="0" cellpadding="0">
+                                            <tr> 
+                                              <td><img src="images/top/index/recruit1.gif" width="300" height="12"><br>
+                                                <table width="300" border="0" cellspacing="0" cellpadding="0" bgcolor="#338F28">
+                                                  <tr> 
+                                                    <td> 
+                                                      <table width="298" border="0" cellspacing="2" cellpadding="2">
+                                                        <tr> 
+                                                          <td bgcolor="#C0E4C4"><font size="2"> 
+                                                            <a href="recruit/f_recruit.html" target="_top">【Recruit】（採用情報）ページ更新</a><br>
+                                                            企画・ﾃﾞｻﾞｲﾝ・ｿﾌﾄの全職種で契約ｽﾀｯﾌ募集！(3/27)</font></td>
+                                                        </tr>
+                                                      </table>
+                                                    </td>
+                                                  </tr>
+                                                </table>
+                                                <img src="images/top/index/recruit2.gif" width="300" height="8"></td>
+                                            </tr>
+                                          </table>
+                                          <table width="300" border="0" cellspacing="0" cellpadding="0">
+                                            <tr> 
+                                              <td><img src="images/top/index/new_new1.gif" width="300" height="12"><br>
+                                                <table width="300" border="0" cellspacing="0" cellpadding="0" bgcolor="#de0000">
+                                                  <tr> 
+                                                    <td> 
+                                                      <table width="298" border="0" cellspacing="2" cellpadding="2">
+                                                        <tr> 
+                                                          <td bgcolor="#F9DEDD"><font size="1">2002.3/14</font><font size="1"></font><font size="2"><br>
+                                                            ｿﾆｯｸﾁｰﾑ代表 中 裕司、Game 
+                                                            Developers Conference 
+                                                            <a href="http://www.igda.org/awards/archive_2002.htm" target="_blank">“Lifetime 
+                                                            Achievement Award”</a> 
+                                                            受賞！</font></td>
+                                                        </tr>
+                                                      </table>
+                                                    </td>
+                                                  </tr>
+                                                </table>
+                                                <img src="images/top/index/new_new2.gif" width="300" height="8"></td>
+                                            </tr>
+                                          </table>
+                                          <img src="images/top/index/copy.gif" width="93" height="13" alt="(C)SONICTEAM, LTD." hspace="5" vspace="5"></div>
+                                      </td>
+                                    </tr>
+                                  </table>
+                                  
+                                </div>
+                              </td>
+                            </tr>
+                          </table>
+                          <img src="images/top/index/topics_u.gif" width="471" height="11"></div>
+                      </td>
+                    </tr>
+                  </table>
+                </div>
+              </td>
+            </tr>
+          </table>
+          <br>
+          　 </div>
+      </td>
+    </tr>
+  </table>
+  
+</div>
+</body>
+</html>
