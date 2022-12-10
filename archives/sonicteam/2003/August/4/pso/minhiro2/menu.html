@@ -1,0 +1,137 @@
+<HTML>
+<HEAD>
+<TITLE>menu</TITLE>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=Shift_JIS">
+<script language="JavaScript">
+<!--
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.0
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && document.getElementById) x=document.getElementById(n); return x;
+}
+
+function MM_nbGroup(event, grpName) { //v3.0
+  var i,img,nbArr,args=MM_nbGroup.arguments;
+  if (event == "init" && args.length > 2) {
+    if ((img = MM_findObj(args[2])) != null && !img.MM_init) {
+      img.MM_init = true; img.MM_up = args[3]; img.MM_dn = img.src;
+      if ((nbArr = document[grpName]) == null) nbArr = document[grpName] = new Array();
+      nbArr[nbArr.length] = img;
+      for (i=4; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+        if (!img.MM_up) img.MM_up = img.src;
+        img.src = img.MM_dn = args[i+1];
+        nbArr[nbArr.length] = img;
+    } }
+  } else if (event == "over") {
+    document.MM_nbOver = nbArr = new Array();
+    for (i=1; i < args.length-1; i+=3) if ((img = MM_findObj(args[i])) != null) {
+      if (!img.MM_up) img.MM_up = img.src;
+      img.src = (img.MM_dn && args[i+2]) ? args[i+2] : args[i+1];
+      nbArr[nbArr.length] = img;
+    }
+  } else if (event == "out" ) {
+    for (i=0; i < document.MM_nbOver.length; i++) {
+      img = document.MM_nbOver[i]; img.src = (img.MM_dn) ? img.MM_dn : img.MM_up; }
+  } else if (event == "down") {
+    if ((nbArr = document[grpName]) != null)
+      for (i=0; i < nbArr.length; i++) { img=nbArr[i]; img.src = img.MM_up; img.MM_dn = 0; }
+    document[grpName] = nbArr = new Array();
+    for (i=2; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+      if (!img.MM_up) img.MM_up = img.src;
+      img.src = img.MM_dn = args[i+1];
+      nbArr[nbArr.length] = img;
+  } }
+}
+
+function MM_displayStatusMsg(msgStr) { //v1.0
+  status=msgStr;
+  document.MM_returnValue = true;
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+</HEAD>
+
+<BODY BGCOLOR="#000044" TEXT="#FFFFFF" BACKGROUND="image/pso_bk5.png" LINK="#FFFF00" VLINK="#00FFFF" ALINK="#FFFFFF" LEFTMARGIN="0" TOPMARGIN="0" MARGINWIDTH="0" MARGINHEIGHT="0" onLoad="MM_preloadImages('image/bu_reading1.png','image/bu_info1.png','image/bu_illust1.png','image/bu_rule1.png','image/bu_top1.png','image/bu_minjpn1.png')">
+<TABLE WIDTH=150 BORDER=0 CELLPADDING=0 CELLSPACING=0>
+  <TR> 
+    <TD VALIGN="TOP"><FONT SIZE="-1"><IMG SRC="image/menu_00.gif" WIDTH=5 HEIGHT=220></FONT></TD>
+    <TD VALIGN="TOP" BGCOLOR="#000033"> 
+      <DIV ALIGN="CENTER"><FONT SIZE="-1"> <a href="shuyaku/s_032.html" target="main" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('reading','','image/bu_reading1.png',1)"> 
+        <img name="reading" src="image/bu_reading0.png" border=0 width="135" height="28"></a><BR>
+        <a target="main" href="lobby/lobby.html"> </a><a onClick="MM_nbGroup('down','group1','Infomation','image/bu_info1.png',1)" onMouseOut="MM_nbGroup('out')" onMouseOver="MM_nbGroup('over','Infomation','image/bu_info1.png','image/bu_info1.png',1)" target="main" href="lobby/lobby2.html"> 
+        <img name="Infomation" src="image/bu_info0.png" border=0 width="135" height="28"></a><br>
+        <a target="main" href="illust/i_171180.html"> </a> <a href="illust/i_231240.html" target="main" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Illust','','image/bu_illust1.png',1)"> 
+        <img name="Illust" src="image/bu_illust0.png" border=0 width="135" height="28"></a><br>
+        <a target="main" href="toukou/t_top.html"> </a><a onClick="MM_nbGroup('down','group1','Rule','image/bu_rule1.png',1)" onMouseOut="MM_nbGroup('out')" onMouseOver="MM_nbGroup('over','Rule','image/bu_rule1.png','image/bu_rule1.png',1)" target="main" href="toukou/t_top.html"> 
+        <img name="Rule" src="image/bu_rule0.png" border=0 width="135" height="28"></a><br>
+        <a href="http://www.sonicteam.com/psogc/minhiro/index.html" onClick="MM_nbGroup('down','group1','jpn','image/bu_minjpn1.png',1)" onMouseOver="MM_nbGroup('over','jpn','image/bu_minjpn1.png','',1)" onMouseOut="MM_nbGroup('out')" TARGET="_blank"> 
+        <img name="jpn" src="image/bu_minjpn0.png" border="0" width="135" height="28"></a><BR>
+        <A HREF="main.html" onClick="MM_nbGroup('down','group1','top','image/bu_top1.png',1)" onMouseOver="MM_nbGroup('over','top','image/bu_top1.png','image/bu_top1.png',1)" onMouseOut="MM_nbGroup('out')" TARGET="main"> 
+        <IMG NAME="top" SRC="image/bu_top0.png" BORDER="0" onLoad="" width="135" height="28"></A><br>
+        <A HREF="bbs.html" TARGET="main" onClick="MM_nbGroup('down','group1','bbs','image/mb_bbs2.png',1)" onMouseOut="MM_nbGroup('out')" onMouseOver="MM_nbGroup('over','bbs','image/mb_bbs1.png','image/mb_bbs2.png',1);MM_displayStatusMsg('掲示板はこちら！');return document.MM_returnValue"><BR>
+        </A>OPEN<BR>
+        2003.5.08</FONT></DIV>
+    </TD>
+    <TD VALIGN="TOP"><FONT SIZE="-1"><IMG SRC="image/menu_03.gif" WIDTH=10 HEIGHT=220></FONT></TD>
+  </TR>
+  <TR> 
+    <TD COLSPAN=3> <FONT SIZE="-1"><IMG SRC="image/menu_14.gif" WIDTH=150 HEIGHT=12></FONT></TD>
+  </TR>
+</TABLE>
+<FONT SIZE="-1"><BR>
+</FONT> 
+<TABLE WIDTH=150 BORDER=0 CELLPADDING=0 CELLSPACING=0>
+  <TR> 
+    <TD VALIGN="TOP" COLSPAN="3"><IMG SRC="image/menu_16.gif" WIDTH="150" HEIGHT="12"></TD>
+  </TR>
+  <TR> 
+    <TD VALIGN="TOP"><FONT SIZE="-1">
+    <IMG SRC="image/menu_00.gif" WIDTH=5 HEIGHT=260></FONT></TD>
+    <TD VALIGN="TOP" BGCOLOR="#000033" WIDTH="150"> 
+      <P ALIGN="CENTER"><SPAN STYLE="font-size: 8pt"><FONT SIZE="-2">
+      <a target="main" href="nb.html">-Notes about this HP-<BR>
+        (Please take a look.)<BR>
+        <BR>
+        </a>
+        <BR>
+        </FONT><FONT SIZE="-1">
+      <a target="_blank" href="http://www.sonicteam.com/pso/">
+      <IMG SRC="image/bn_pso_s.gif" WIDTH="130" HEIGHT="39" border="0"></a><SPAN STYLE="font-size: 9pt"><BR>
+        -PSO official web site-</SPAN><BR>
+        <BR>
+        <SPAN STYLE="font-size: 9pt">
+      <a target="_blank" href="http://www.sonicteam.com">
+      <IMG SRC="image/bn_sonic.png" WIDTH="100" HEIGHT="40" border="0"></a><BR>
+        </SPAN><SPAN STYLE="font-size: 8pt">SONICTEAM official<br>
+      <br>
+      <a target="_blank" href="http://www.xbox.com/pso2/">
+      <img border="0" src="image/bn_xbox.gif" width="60" height="60"></a><br>
+      XBOX Online - PSO</SPAN></FONT></SPAN></P>
+    </TD>
+    <TD VALIGN="TOP"><FONT SIZE="-1">
+    <IMG SRC="image/menu_17.gif" WIDTH=10 HEIGHT=260></FONT></TD>
+  </TR>
+  <TR> 
+    <TD COLSPAN=3> <FONT SIZE="-1"><IMG SRC="image/menu_14.gif" WIDTH=150 HEIGHT=12></FONT></TD>
+  </TR>
+</TABLE>
+<BR>
+</BODY>
+</HTML>
