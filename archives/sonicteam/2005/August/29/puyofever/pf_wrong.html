@@ -1,0 +1,93 @@
+<HTML>
+<HEAD>
+<meta http-equiv=Content-Type content="text/html; charset=shift_jis">
+<TITLE>ぷよぷよマチガイサガシ</TITLE>
+<link rel="stylesheet" href="puyomg.css" type="text/css">
+
+</HEAD>
+<BODY>
+<!-- URL's used in the movie-->
+<!-- text used in the movie-->
+<!--sound playersound playersound playersound playersound playersound playersound playersound playersound playersound playersound playerGAME OVERCLEARReady Go!sound playerGAME OVERCLEARReady Go!sound playerGAME OVERCLEARReady Go!sound playerGAME OVERCLEARReady Go!sound playerGAME OVERCLEARReady Go!-->
+<div align="left">
+  <table width="400" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td><div align="center">
+        <br>
+        <table width="320" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="322"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+ codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0"
+ width="320" height="240" align="">
+                <param name=movie value="pf_wrong.swf">
+                <param name=menu value=false>
+                <param name=quality value=high>
+                <param name=devicefont value=true>
+                <param name=bgcolor value=#FFFFFF>
+                <embed src="pf_wrong.swf" menu=false quality=high devicefont=true bgcolor=#FFFFFF  width="320" height="240" align=""
+ type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer"></embed>
+            </object></td>
+          </tr>
+        </table>
+        <img src="images/alpha.gif" width="8" height="8"><br>
+      </div></td>
+    </tr>
+  </table>
+    <table width="400" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td><img src="images/game_bar.gif" width="400" height="52" border="0" usemap="#Map"></td>
+    </tr>
+    <tr>
+      <td bgcolor="#FFFFFF"><div align="center">
+          <table width="320" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+            <tr>
+              <td> 『ぷよぷよマチガイサガシ』：<br>
+                  <br>
+              画面に表示される２枚の絵に、一箇所だけ異なる場所がありますので、そこをみつけてクリックしてください。ただし、絵は同時に表示されません。右下のFLIPボタンで切り替えることができます。<br>
+持ち時間は60秒です。ただし、FLIPボタンを使うと1秒、間違えると3秒のペナルティがあります。時間内に３ステージクリアをめざしてください。</td>
+            </tr>
+            <tr>
+              <td><table width="320" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td width="94"><a href="http://www.macromedia.com/jp/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash&Lang=Japanese" target="_blank"><img src="images/get_flash_player.gif" width="88" height="31" vspace="2" border="0"></a></td>
+                    <td>JavaScriptを有効にしてあそんでください。 <br>
+                    ＃要Flashプレイヤー6以降</td>
+                  </tr>
+              </table></td>
+            </tr>
+          </table>
+          <img src="images/alpha.gif" width="8" height="8"><br>
+      </div></td>
+    </tr>
+  </table>
+  <map name="Map">
+    <area shape="rect" coords="264,1,390,39" href="JavaScript:window.close()">
+  </map>    
+  <script language=JavaScript>
+<!--
+var InternetExplorer = navigator.appName.indexOf("Microsoft") != -1;
+// Handle all the the FSCommand messages in a Flash movie
+function pf_piko_DoFSCommand(command, args) {
+  var pf_wrongObj = InternetExplorer ? pf_wrong : document.pf_wrong;
+  //
+  // Place your code here...
+  //
+	if(command == "openNewWindow"){
+		window.open( args,"download","location=no,scrollbars=no,width=640,height=480" );
+	}
+}
+// Hook for Internet Explorer 
+if (navigator.appName && navigator.appName.indexOf("Microsoft") != -1 && 
+	  navigator.userAgent.indexOf("Windows") != -1 && navigator.userAgent.indexOf("Windows 3.1") == -1) {
+	document.write('<SCRIPT LANGUAGE=VBScript\> \n');
+	document.write('on error resume next \n');
+	document.write('Sub pf_wrong_FSCommand(ByVal command, ByVal args)\n');
+	document.write('  call pf_wrong_DoFSCommand(command, args)\n');
+	document.write('end sub\n');
+	document.write('</SCRIPT\> \n');
+}
+//-->
+  </script>
+</div>
+</BODY>
+</HTML>
