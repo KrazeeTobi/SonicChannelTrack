@@ -1,0 +1,151 @@
+<HTML>
+<HEAD>
+<TITLE>bottom</TITLE>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=Shift_JIS">
+<script language="JavaScript">
+<!--
+function MM_timelineGoto(tmLnName, fNew, numGotos) { //v2.0
+  //Copyright 1997 Macromedia, Inc. All rights reserved.
+  var i,j,tmLn,props,keyFrm,sprite,numKeyFr,firstKeyFr,lastKeyFr,propNum,theObj;
+  if (document.MM_Time == null) MM_initTimelines(); //if *very* 1st time
+  tmLn = document.MM_Time[tmLnName];
+  if (numGotos != null)
+    if (tmLn.gotoCount == null) tmLn.gotoCount = 1;
+    else if (tmLn.gotoCount++ >= numGotos) {tmLn.gotoCount=0; return}
+  jmpFwd = (fNew > tmLn.curFrame);
+  for (i = 0; i < tmLn.length; i++) {
+    sprite = (jmpFwd)? tmLn[i] : tmLn[(tmLn.length-1)-i]; //count bkwds if jumping back
+    if (sprite.charAt(0) == "s") {
+      numKeyFr = sprite.keyFrames.length;
+      firstKeyFr = sprite.keyFrames[0];
+      lastKeyFr = sprite.keyFrames[numKeyFr - 1];
+      if ((jmpFwd && fNew<firstKeyFr) || (!jmpFwd && lastKeyFr<fNew)) continue; //skip if untouchd
+      for (keyFrm=1; keyFrm<numKeyFr && fNew>=sprite.keyFrames[keyFrm]; keyFrm++);
+      for (j=0; j<sprite.values.length; j++) {
+        props = sprite.values[j];
+        if (numKeyFr == props.length) propNum = keyFrm-1 //keyframes only
+        else propNum = Math.min(Math.max(0,fNew-firstKeyFr),props.length-1); //or keep in legal range
+        if (sprite.obj != null) {
+          if (props.prop2 == null) sprite.obj[props.prop] = props[propNum];
+          else        sprite.obj[props.prop2][props.prop] = props[propNum];
+      } }
+    } else if (sprite.charAt(0)=='b' && fNew == sprite.frame) eval(sprite.value);
+  }
+  tmLn.curFrame = fNew;
+  if (tmLn.ID == 0) eval('MM_timelinePlay(tmLnName)');
+}
+
+function MM_timelinePlay(tmLnName, myID) { //v1.2
+  //Copyright 1997 Macromedia, Inc. All rights reserved.
+  var i,j,tmLn,props,keyFrm,sprite,numKeyFr,firstKeyFr,propNum,theObj,firstTime=false;
+  if (document.MM_Time == null) MM_initTimelines(); //if *very* 1st time
+  tmLn = document.MM_Time[tmLnName];
+  if (myID == null) { myID = ++tmLn.ID; firstTime=true;}//if new call, incr ID
+  if (myID == tmLn.ID) { //if Im newest
+    setTimeout('MM_timelinePlay("'+tmLnName+'",'+myID+')',tmLn.delay);
+    fNew = ++tmLn.curFrame;
+    for (i=0; i<tmLn.length; i++) {
+      sprite = tmLn[i];
+      if (sprite.charAt(0) == 's') {
+        if (sprite.obj) {
+          numKeyFr = sprite.keyFrames.length; firstKeyFr = sprite.keyFrames[0];
+          if (fNew >= firstKeyFr && fNew <= sprite.keyFrames[numKeyFr-1]) {//in range
+            keyFrm=1;
+            for (j=0; j<sprite.values.length; j++) {
+              props = sprite.values[j]; 
+              if (numKeyFr != props.length) {
+                if (props.prop2 == null) sprite.obj[props.prop] = props[fNew-firstKeyFr];
+                else        sprite.obj[props.prop2][props.prop] = props[fNew-firstKeyFr];
+              } else {
+                while (keyFrm<numKeyFr && fNew>=sprite.keyFrames[keyFrm]) keyFrm++;
+                if (firstTime || fNew==sprite.keyFrames[keyFrm-1]) {
+                  if (props.prop2 == null) sprite.obj[props.prop] = props[keyFrm-1];
+                  else        sprite.obj[props.prop2][props.prop] = props[keyFrm-1];
+        } } } } }
+      } else if (sprite.charAt(0)=='b' && fNew == sprite.frame) eval(sprite.value);
+      if (fNew > tmLn.lastFrame) tmLn.ID = 0;
+  } }
+}
+
+function MM_initTimelines() { //v4.0
+    //MM_initTimelines() Copyright 1997 Macromedia, Inc. All rights reserved.
+    var ns = navigator.appName == "Netscape";
+    var ns4 = (ns && parseInt(navigator.appVersion) == 4);
+    var ns5 = (ns && parseInt(navigator.appVersion) > 4);
+    document.MM_Time = new Array(1);
+    document.MM_Time[0] = new Array(2);
+    document.MM_Time["Timeline1"] = document.MM_Time[0];
+    document.MM_Time[0].MM_Name = "Timeline1";
+    document.MM_Time[0].fps = 15;
+    document.MM_Time[0][0] = new String("sprite");
+    document.MM_Time[0][0].slot = 1;
+    if (ns4)
+        document.MM_Time[0][0].obj = document["FootLayer"];
+    else if (ns5)
+        document.MM_Time[0][0].obj = document.getElementById("FootLayer");
+    else
+        document.MM_Time[0][0].obj = document.all ? document.all["FootLayer"] : null;
+    document.MM_Time[0][0].keyFrames = new Array(1, 205);
+    document.MM_Time[0][0].values = new Array(2);
+    if (ns5)
+        document.MM_Time[0][0].values[0] = new Array("600px", "593px", "586px", "579px", "572px", "565px", "558px", "551px", "544px", "536px", "529px", "522px", "515px", "508px", "501px", "494px", "487px", "480px", "473px", "466px", "459px", "452px", "445px", "438px", "431px", "424px", "416px", "409px", "402px", "395px", "388px", "381px", "374px", "367px", "360px", "353px", "346px", "339px", "332px", "325px", "318px", "311px", "304px", "296px", "289px", "282px", "275px", "268px", "261px", "254px", "247px", "240px", "233px", "226px", "219px", "212px", "205px", "198px", "191px", "184px", "176px", "169px", "162px", "155px", "148px", "141px", "134px", "127px", "120px", "113px", "106px", "99px", "92px", "85px", "78px", "71px", "64px", "56px", "49px", "42px", "35px", "28px", "21px", "14px", "7px", "0px", "-7px", "-14px", "-21px", "-28px", "-35px", "-42px", "-49px", "-56px", "-64px", "-71px", "-78px", "-85px", "-92px", "-99px", "-106px", "-113px", "-120px", "-127px", "-134px", "-141px", "-148px", "-155px", "-162px", "-169px", "-176px", "-184px", "-191px", "-198px", "-205px", "-212px", "-219px", "-226px", "-233px", "-240px", "-247px", "-254px", "-261px", "-268px", "-275px", "-282px", "-289px", "-296px", "-304px", "-311px", "-318px", "-325px", "-332px", "-339px", "-346px", "-353px", "-360px", "-367px", "-374px", "-381px", "-388px", "-395px", "-402px", "-409px", "-416px", "-424px", "-431px", "-438px", "-445px", "-452px", "-459px", "-466px", "-473px", "-480px", "-487px", "-494px", "-501px", "-508px", "-515px", "-522px", "-529px", "-536px", "-544px", "-551px", "-558px", "-565px", "-572px", "-579px", "-586px", "-593px", "-600px", "-607px", "-614px", "-621px", "-628px", "-635px", "-642px", "-649px", "-656px", "-664px", "-671px", "-678px", "-685px", "-692px", "-699px", "-706px", "-713px", "-720px", "-727px", "-734px", "-741px", "-748px", "-755px", "-762px", "-769px", "-776px", "-784px", "-791px", "-798px", "-805px", "-812px", "-819px", "-826px", "-833px", "-840px");
+    else
+        document.MM_Time[0][0].values[0] = new Array(600,593,586,579,572,565,558,551,544,536,529,522,515,508,501,494,487,480,473,466,459,452,445,438,431,424,416,409,402,395,388,381,374,367,360,353,346,339,332,325,318,311,304,296,289,282,275,268,261,254,247,240,233,226,219,212,205,198,191,184,176,169,162,155,148,141,134,127,120,113,106,99,92,85,78,71,64,56,49,42,35,28,21,14,7,0,-7,-14,-21,-28,-35,-42,-49,-56,-64,-71,-78,-85,-92,-99,-106,-113,-120,-127,-134,-141,-148,-155,-162,-169,-176,-184,-191,-198,-205,-212,-219,-226,-233,-240,-247,-254,-261,-268,-275,-282,-289,-296,-304,-311,-318,-325,-332,-339,-346,-353,-360,-367,-374,-381,-388,-395,-402,-409,-416,-424,-431,-438,-445,-452,-459,-466,-473,-480,-487,-494,-501,-508,-515,-522,-529,-536,-544,-551,-558,-565,-572,-579,-586,-593,-600,-607,-614,-621,-628,-635,-642,-649,-656,-664,-671,-678,-685,-692,-699,-706,-713,-720,-727,-734,-741,-748,-755,-762,-769,-776,-784,-791,-798,-805,-812,-819,-826,-833,-840);
+    document.MM_Time[0][0].values[0].prop = "left";
+    if (ns5)
+        document.MM_Time[0][0].values[1] = new Array("25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px", "25px");
+    else
+        document.MM_Time[0][0].values[1] = new Array(25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25);
+    document.MM_Time[0][0].values[1].prop = "top";
+    if (!ns4) {
+        document.MM_Time[0][0].values[0].prop2 = "style";
+        document.MM_Time[0][0].values[1].prop2 = "style";
+    }
+    document.MM_Time[0][1] = new String("behavior");
+    document.MM_Time[0][1].frame = 205;
+    document.MM_Time[0][1].value = "MM_timelineGoto('Timeline1','86')";
+    document.MM_Time[0].lastFrame = 205;
+    for (i=0; i<document.MM_Time.length; i++) {
+        document.MM_Time[i].ID = null;
+        document.MM_Time[i].curFrame = 0;
+        document.MM_Time[i].delay = 1000/document.MM_Time[i].fps;
+    }
+}
+//-->
+</script>
+<LINK REL="stylesheet" HREF="psostyle.css" TYPE="TEXT/CSS">
+</HEAD>
+<BODY BGCOLOR="#000044" TEXT="#FFFFFF" LEFTMARGIN="0" TOPMARGIN="0" MARGINWIDTH="0" MARGINHEIGHT="0" onLoad="MM_timelinePlay('Timeline1')" BACKGROUND="image/pso_bk1.gif" LINK="#00FFFF" VLINK="#FFFF00" ALINK="#FFFFFF">
+<DIV ID="FootLayer" STYLE="position:absolute; left:600px; top:25; width:423; height:39; z-index:1"> 
+  <TABLE WIDTH="100%" BORDER="0" CELLPADDING="0" CELLSPACING="0">
+    <TR> 
+      <TD WIDTH="99%"><IMG SRC="image/film.jpg" WIDTH="840" HEIGHT="35"></TD>
+      <TD WIDTH="1%"><IMG SRC="image/film.jpg" WIDTH="840" HEIGHT="35" NAME="Image1"></TD>
+    </TR>
+  </TABLE>
+</DIV>
+<!--
+<DIV ID="gradetion" STYLE="position:absolute; left:0; top:25; width:705px; height:39px; z-index:2; visibility: hidden"> 
+  <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+    <TR> 
+      <TD><IMG SRC="img/foot/fade.gif" WIDTH="600" HEIGHT="35"></TD>
+      <TD><IMG SRC="img/foot/fade.gif" WIDTH="600" HEIGHT="35"></TD>
+    </TR>
+  </TABLE>
+</DIV>
+-->
+<TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0" HEIGHT="100%">
+  <TR> 
+    <TD VALIGN="BOTTOM" ALIGN="RIGHT"> 
+      <TABLE BORDER="0" CELLPADDING="2" CELLSPACING="0" WIDTH="314">
+        <TR> 
+          <TD> 
+            <DIV ALIGN="RIGHT"><FONT SIZE="-1">(C) SEGA</FONT></DIV>
+          </TD>
+        </TR>
+      </TABLE>
+    </TD>
+  </TR>
+</TABLE>
+</BODY>
+</HTML>
