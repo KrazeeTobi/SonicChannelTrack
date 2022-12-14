@@ -76,6 +76,7 @@ wget -r --no-parent --no-check-certificate -p http://sonicteam.com/SonicWorldAdv
 wget -r --no-parent --no-check-certificate -p http://sonicteam.com/secretrings/en/
 wget -r --no-parent --no-check-certificate -p http://sonicteam.com/secretrings/jp/
 wget -r --no-parent --no-check-certificate -p http://sonicteam.com/HOD2and3RETURN/jp/
+wget -r --no-parent --no-check-certificate -p http://sonicteam.com/arthurpedia/
 wget -r --no-parent --no-check-certificate -p http://www.olympicvideogames.com/marioandsonic/
 wget -r --no-parent --no-check-certificate -p http://www.nintendo.co.jp/mario_and_sonic2010/
 wget -r --no-parent --no-check-certificate -p http://www.nintendo.co.jp/ds/ay9j/
