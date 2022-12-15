@@ -1,0 +1,19 @@
+/* all-contentsarea===================================================== */
+#all-contentsarea{
+	width:744px;
+	margin:0 auto;
+	padding:25px 30px 30px;
+	background:url(all-contentsarea/div-bg.gif) repeat-y #fff3ca;
+}
+
+/* clear fix */
+#all-contentsarea{
+    zoom:1;/*for IE 5.5-7*/
+}
+#all-contentsarea:after{/*for modern browser*/
+    content:".";
+    display: block;
+    height:0px;
+    clear:both;
+    visibility:hidden;
+}
