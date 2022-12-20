@@ -1,0 +1,158 @@
+@charset 'utf-8';
+
+/*-------------------------------------
+Main
+---------------------------------------*/
+#Content {
+	line-height: 1;
+	text-align: center;
+	background: #eee;
+}
+#Content div.frame {
+	display: inline-block;
+	position: relative;
+	z-index: 1;
+	vertical-align: top;
+}
+#Content div.frame_large_wrap div.frame {margin: 0 26px;}
+#Content div.frame_wrap div.frame {margin: 0 0 27px 27px;}
+#Content div.frame_wrap div.frame:nth-child(3n+1) {margin-left: 0;}
+#Content div.frame div.movie_area {
+	position: absolute;
+	top: 8px;
+	left: 8px;
+}
+#Content div.frame p.thumb span {
+	display: none;
+	position: absolute;
+	bottom: 58px;
+	right: 18px;
+}
+#Content div.extra div.frame p.thumb span {
+	bottom: 18px;
+}
+#Content div.frame p.desc {
+	position: absolute;
+	left: 50%;
+}
+#Content div.official h2,
+#Content div.extra h2 {
+	max-width: 2000px;
+	height: 100px;
+	position: relative;
+	margin: 0 auto;
+	background: #fff;
+}
+#Content div.official h2 img.sub_ttl,
+#Content div.extra h2 img.sub_ttl {position: absolute;}
+#Content ul.chara li {position: absolute;}
+
+/*-------------------------------------
+Intro
+---------------------------------------*/
+div.intro div.base_wrap {background: url('../images/intro_bg.jpg') center top no-repeat;}
+div.intro div.base_inside {height: 685px;}
+div.intro h2 {
+	margin: 0 0 33px;
+	padding: 190px 0 0 17px;
+	text-align: left;
+}
+div.intro p.lead {
+	padding: 0 0 0 23px;
+	text-align: left;
+}
+div.intro ul.chara li.chara01 {top: 116px;left: 501px;}
+div.intro ul.chara li.chara02 {top: 118px;left: -247px;}
+div.intro ul.chara li.chara03 {top: 74px;left: 977px;}
+
+/*-------------------------------------
+Official
+---------------------------------------*/
+div.official h2 img.main_ttl {padding: 24px 163px 0 0;}
+div.official h2 img.sub_ttl {
+	top: -10px;
+	left: 50%;
+	margin-left: 132px;
+}
+div.official div.base_wrap {background: url('../images/official_bg.jpg') center top no-repeat;}
+div.official div.base_inside {height: 1569px;}
+
+div.official div.frame_large_wrap {
+	margin: 0px 0 133px;
+	padding: 60px 0 0;
+}
+div.official div.frame_large_wrap div.frame01 p.desc {
+	bottom: -42px;
+	margin-left: -159px;
+}
+div.official div.frame_large_wrap div.frame02 p.desc {
+	bottom: -42px;
+	margin-left: -223px;
+}
+div.official div.frame_large_wrap div.frame02 p.btn {
+	position: absolute;
+	z-index: 2;
+	bottom: -93px;
+	left: 0;
+}
+div.official div.frame_large_wrap div.frame02 p.btn a { display: block; }
+div.official div.frame_large_wrap div.frame02 p.balloon {
+	display: none;
+	position: absolute;
+	z-index: 1;
+	bottom: -57px;
+	left: 50%;
+	margin-left: -144px;
+}
+
+div.official ul.chara li.chara01 {top: -232px;left: -238px;}
+div.official ul.chara li.chara02 {top: -244px;left: 829px;}
+div.official ul.chara li.chara03 {top: 1063px;left: -226px;}
+div.official ul.chara li.chara04 {top: 603px;left: 918px;}
+
+/*-------------------------------------
+Extra
+---------------------------------------*/
+div.extra h2 img.main_ttl {padding: 26px 169px 0 0;}
+div.extra h2 img.sub_ttl {
+	top: -10px;
+	left: 50%;
+	margin-left: 112px;
+}
+div.extra div.base_wrap {background: url('../images/extra_bg.jpg') center top no-repeat;}
+div.extra div.base_inside {height: 1376px;}
+div.extra ul.chara li.chara01 {top: 315px;left: -126px;}
+div.extra ul.chara li.chara02 {top: 288px;left: 560px;}
+div.extra ul.chara li.chara03 {top: 50px;left: 30px;}
+div.extra div.frame_wrap {
+	margin: 0 0 16px;
+	padding: 60px 0 0;
+}
+div.extra div.frame_large_wrap {margin: 0 0 127px;}
+div.extra div.frame_large_wrap div.frame p.desc {
+	bottom: -48px;
+	margin-left: -267px;
+}
+div.extra div.play {
+	width: 924px;
+	position: relative;
+	z-index: 1;
+	margin: 0 auto;
+	padding: 0 8px 8px 8px;
+	border-radius: 8px;
+	background: #008ed3;
+}
+div.extra div.play h3 {padding: 30px 0;}
+div.extra div.play div.box {
+	height: 264px;
+	background: url('../images/play_bg01.png') center top no-repeat;
+}
+div.extra div.play div.box p.txt {
+	margin: 0 0 39px;
+	padding: 37px 0 0;
+}
+div.extra div.play div.box p.icon {
+	display: inline-block;
+	margin: 0 20px;
+	vertical-align: top;
+}
