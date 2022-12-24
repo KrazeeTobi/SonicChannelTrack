@@ -1,0 +1,151 @@
+@charset 'utf-8';
+
+/*-----------------------------------------------------
+Common
+-------------------------------------------------------*/
+#Content {
+	width: 100%;
+	line-height: 1;
+	text-align: center;
+}
+
+/*-----------------------------------------------------
+Intro
+-------------------------------------------------------*/
+div.intro {
+	height: 757px;
+	position: relative;
+	background: url('../images/intro_bg.jpg') center top no-repeat;
+}
+div.intro h1 {
+	margin: 0 0 32px;
+	padding: 75px 0 0;
+}
+div.intro p.chara {
+	position: absolute;
+	bottom: -14px;
+	left: 50%;
+	margin-left: -273px;
+}
+
+/*-----------------------------------------------------
+Gym
+-------------------------------------------------------*/
+div.gym h2 {
+	height: 120px;
+	position: relative;
+	background: url('../images/twotone_bg.jpg') center center no-repeat;
+}
+div.gym h2 img {
+	position: absolute;
+	top: 0;bottom: 0;left: 0;right: 0;
+	margin: auto;
+}
+div.gym div.inside {
+	height: 610px;
+	background: url('../images/gym_bg.jpg') center top no-repeat;
+}
+div.gym p.lead {
+	margin: 0 0 40px;
+	padding: 60px 0 0;
+}
+div.gym ul li {
+	display: inline-block;
+	margin: 0 20px;
+}
+
+/*-----------------------------------------------------
+Choose
+-------------------------------------------------------*/
+div.choose {
+	height: 600px;
+	position: relative;
+	background: url('../images/twotone_bg.jpg') center top repeat-y;
+}
+div.choose h2 {padding: 422px 2px 0 0;}
+div.choose ul li { position: absolute;left: 50%; }
+div.choose ul li.img01 {top: 25px;margin-left: -285px;}
+div.choose ul li.img02 {top: 63px;margin-left: -24px;}
+div.choose ul li.img03 {top: 212px;margin-left: -297px;}
+div.choose ul li.img04 {top: 212px;margin-left: 3px;}
+
+/*-----------------------------------------------------
+Story
+-------------------------------------------------------*/
+div.story div.outline {
+	height: 369px;
+	background: url('../images/story_bg.jpg') center top no-repeat;
+}
+div.story div.outline h2 {
+	margin: 0 0 40px;
+	padding: 80px 0 0;
+}
+div.story div.multi {
+	height: 1500px;
+	background: url('../images/twotone_bg.jpg') center top repeat-y;
+}
+div.story div.multi div.wrap { overflow: hidden; }
+div.story div.multi div.mario,
+div.story div.multi div.sonic { width: 50%; }
+div.story div.multi div.mario {
+	float: left;
+	padding: 28px 0 0;
+	text-align: right;
+}
+div.story div.multi div.sonic {
+	float: right;
+	padding: 33px 0 0;
+	text-align: left;
+}
+div.story div.multi div.mario h3 {
+	margin: 0 0 10px;
+	padding-right: 42px;
+}
+div.story div.multi div.sonic h3 {
+	margin: 0px 0 6px;
+	padding-left: 44px;
+}
+div.story div.multi div.mario ul li.img01,
+div.story div.multi div.mario ul li.img02 {margin: 0 0 4px;}
+div.story div.multi div.sonic ul li.img01,
+div.story div.multi div.sonic ul li.img02 {margin: 0 0 4px;}
+div.story div.multi div.mario ul li.img01,
+div.story div.multi div.mario ul li.img02 {padding-right: 14px;}
+div.story div.multi div.sonic ul li.img01,
+div.story div.multi div.sonic ul li.img02 {padding-left: 14px;}
+div.story div.multi div.mario ul li.img03,
+div.story div.multi div.sonic ul li.img03 {margin: 0 0 7px;}
+div.story div.multi div.sonic ul li.img03 {padding-left: 2px;}
+div.story div.multi div.mario ul li.img04 {padding-right: 3px;}
+div.story div.multi div.sonic ul li.img04 { padding-left: 3px; }
+div.story div.multi p.txt {margin: -5px 0 0;}
+
+/*-----------------------------------------------------
+Clear
+-------------------------------------------------------*/
+div.clear {
+	height: 724px;
+	background-image: url('../images/clear_bg01.jpg'),url('../images/clear_bg02.jpg');
+	background-repeat: no-repeat, no-repeat;
+	background-position: center top, center bottom;
+}
+div.clear h2 {
+	margin: 0 0 26px;
+	padding: 56px 0 0;
+}
+div.clear p.text_wrap {
+	position: relative;
+	margin: 0 0 35px;
+}
+div.clear p.text_wrap a {
+	position: absolute;
+	top: 214px;
+	left: 50%;
+	margin-left: -283px;
+}
+div.clear ul li {
+	display: inline-block;
+	margin: 0 20px;
+}
+
+
