@@ -1,0 +1,105 @@
+@charset "utf-8";
+
+
+* {
+	margin:0;
+	padding:0;
+}
+
+html {
+	overflow-y:scroll;
+	word-break:break-all;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-size:100%;
+	font-weight:normal;
+}
+
+ol, ul {
+	list-style:none;
+}
+
+blockquote, q {
+	quotes:none;
+}
+
+:focus {
+	outline:0;
+}
+
+ins {
+	text-decoration:none;
+}
+
+del {
+	text-decoration:line-through;
+}
+
+table {
+	
+}
+
+img {
+	border:0;
+	vertical-align:bottom;
+}
+
+address {
+	font-style:normal;
+}
+
+/*-------------------------------------------------------------------------
+	Setup
+/*-----------------------------------------------------------------------*/
+body {
+	color:#000;
+	font-size:80%;
+	font-family: Verdana, Roboto, "Droid Sans", "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+	min-width: 960px;
+}
+body.tablet,
+body.wiiu {
+	width: 1024px;
+	overflow: hidden;
+}
+p, li, dt, dl {
+	line-height:1.6;
+	letter-spacing:0.5px;
+}
+
+strong {
+	font-weight:bold;
+}
+
+em {
+	font-style:normal;
+}
+
+/*-------------------------------------------------------------------------
+	Anchor
+/*-----------------------------------------------------------------------*/
+a:link {
+	color:#000;
+	text-decoration:none;
+}
+
+a:visited {
+	color:#000;
+	text-decoration:none;
+}
+
+a:hover {
+	color:#666;
+	text-decoration:none;
+}
+
+/*-------------------------------------------------------------------------
+	Clearfix
+/*-----------------------------------------------------------------------*/
+
+.cf:after {
+  content: "";
+  clear: both;
+  display: block;
+}
