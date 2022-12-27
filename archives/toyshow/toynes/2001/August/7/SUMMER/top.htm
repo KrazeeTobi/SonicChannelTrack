@@ -1,0 +1,282 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<script language="JavaScript1.2">
+// drag & drop 
+var curLayer = null;
+function mouseDown(e){
+ if(document.all){
+        e = window.event;
+        oX = e.clientX;
+        oY = e.clientY;
+        curLayer = e.srcElement.parentElement;
+        e.returnValue = false;
+ }
+ if(navigator.userAgent.match(/Gecko/i)!=null){
+    if(curLayer==null){
+        oX = e.pageX;
+        oY = e.pageY;
+        for(i=document.getElementsByTagName("DIV").length-1; i>=0; i--){
+            el = document.getElementsByTagName("DIV")[i];
+            if((oX > parseInt(el.style.left)) && (oX < parseInt(el.style.left)+parseInt(el.offsetWidth)) &&
+               (oY > parseInt(el.style.top)) && (oY < parseInt(el.style.top)+parseInt(el.offsetHeight))){
+                curLayer = el;
+                return false;
+            }
+        }
+    }
+    return true;
+ }
+ if(document.layers){
+    if(curLayer==null){
+        oX = e.pageX;
+        oY = e.pageY;
+        for(i=document.layers.length-1; i>=0; i--){
+            el = document.layers[i];
+            if((oX > el.left) && (oX < el.left+el.clip.width) &&
+               (oY > el.top) && (oY < el.top+el.clip.height)){
+                curLayer = el;
+                return false;
+            }
+        }
+    }
+    return true;
+ }
+}
+
+function mouseMove(e){
+ var difx,dify
+ if(document.all){
+    if(curLayer != null){
+       e = window.event;
+       difx=e.clientX - oX
+       if(curLayer.style.pixelLeft+difx>=0&&curLayer.style.pixelLeft+difx<=document.body.clientWidth-curLayer.clientWidth){
+       curLayer.style.pixelLeft += difx;
+       oX = e.clientX;
+       }
+       dify=e.clientY - oY
+       if(curLayer.style.pixelTop+dify>=0&&curLayer.style.pixelTop+dify<=document.body.clientHeight-curLayer.clientHeight){
+       curLayer.style.pixelTop += dify;
+       oY = e.clientY;
+       }
+       e.returnValue = false;
+    }
+ }
+ if(navigator.userAgent.match(/Gecko/i)!=null){
+    if(curLayer != null){
+       difx=e.pageX - oX
+       if(parseInt(curLayer.style.left)+difx>=0&&parseInt(curLayer.style.left)+difx<=window.innerWidth-curLayer.offsetWidth){
+       curLayer.style.left=parseInt(curLayer.style.left)+difx
+       oX = e.pageX;
+       }
+       dify=e.pageY - oY
+       if(parseInt(curLayer.style.top)+dify>=0&&parseInt(curLayer.style.top)+dify<=window.innerHeight-curLayer.offsetHeight){
+       curLayer.style.top=parseInt(curLayer.style.top)+dify
+       oY = e.pageY;
+       }
+    }
+ }
+ if(document.layers){
+    if(curLayer != null){
+       difx=e.pageX - oX
+       if(curLayer.left+difx>=0&&curLayer.left+difx<=window.innerWidth-curLayer.clip.width){
+       curLayer.left+=difx
+       oX = e.pageX;
+       }
+       dify=e.pageY - oY
+       if(curLayer.top+dify>=0&&curLayer.top+dify<=window.innerHeight-curLayer.clip.height){
+       curLayer.top+=dify
+       oY = e.pageY;
+       }
+    }
+ }
+}
+
+function mouseUp(e){
+ if(document.all){
+       curLayer = null;
+       event.returnValue = false;
+ }
+ if(document.layers||navigator.userAgent.match(/Gecko/i)!=null){
+    if(curLayer != null){
+       curLayer = null;
+       return false;
+    }
+    return true;
+ }
+}
+
+function dragLayer(){ // set this function like this; onLoad="dragLayer()"
+ if(document.layers){
+    document.captureEvents(Event.MOUSEDOWN | Event.MOUSEMOVE | Event.MOUSEUP);
+ }
+
+ document.onmousedown = mouseDown
+ document.onmousemove = mouseMove;
+ document.onmouseup = mouseUp;
+}
+
+</script>
+<META name="GENERATOR" content="IBM HomePage Builder 2001 V5.0.4 for Windows">
+<TITLE>サマーキャンペーン</TITLE>
+<BODY onload="dragLayer();" topmargin="4" leftmargin="4" marginwidth="4" marginheight="4" background="bk.gif" vlink="#0000ff">
+<DIV style="width : 75px;height : 87px;top : 709px;left : 384px;
+  position : absolute;
+  z-index : 19;
+  visibility : visible;
+" id="Layer19"><IMG src="sum7.gif" width="93" height="100" border="0" align="middle"></DIV>
+<DIV style="width : 88px;height : 100px;top : 679px;left : 298px;
+  position : absolute;
+  z-index : 18;
+  visibility : visible;
+" id="Layer6"><IMG src="sum1.gif" width="83" height="100" border="0"></DIV>
+<DIV style="width : 61px;height : 100px;top : 596px;left : 610px;
+  position : absolute;
+  z-index : 17;
+  visibility : visible;
+" id="Layer18"><IMG src="sum5.gif" width="54" height="100" border="0"></DIV>
+<DIV style="width : 61px;height : 47px;top : 786px;left : 577px;
+  position : absolute;
+  z-index : 16;
+  visibility : visible;
+" id="Layer17"><IMG src="sum13.gif" width="53" height="40" border="0"></DIV>
+<DIV style="width : 109px;height : 83px;top : 714px;left : 567px;
+  position : absolute;
+  z-index : 15;
+  visibility : visible;
+" id="Layer16"><IMG src="sum18.gif" width="119" height="95" border="0"></DIV>
+<DIV style="width : 78px;height : 106px;top : 636px;left : 452px;
+  position : absolute;
+  z-index : 14;
+  visibility : visible;
+" id="Layer7"><IMG src="sum14.gif" width="78" height="106" border="0"></DIV>
+<DIV style="width : 98px;height : 105px;top : 717px;left : 120px;
+  position : absolute;
+  z-index : 13;
+  visibility : visible;
+" id="Layer15"><IMG src="sum8.gif" width="100" height="110" border="0"></DIV>
+<DIV style="width : 119px;height : 91px;top : 588px;left : 117px;
+  position : absolute;
+  z-index : 12;
+  visibility : visible;
+" id="Layer14"><IMG src="sum-e.jpg" width="115" height="86" border="0"></DIV>
+<DIV style="width : 100px;height : 73px;top : 747px;left : 192px;
+  position : absolute;
+  z-index : 11;
+  visibility : visible;
+" id="Layer5"><IMG src="sum4.gif" width="100" height="76" border="0"></DIV>
+<DIV style="width : 77px;height : 43px;top : 604px;left : 423px;
+  position : absolute;
+  z-index : 10;
+  visibility : visible;
+" id="Layer13" align="center"><IMG src="sum12.gif" width="64" height="40" border="0" align="middle"></DIV>
+<DIV style="width : 75px;height : 87px;top : 751px;left : 279px;
+  position : absolute;
+  z-index : 9;
+  visibility : visible;
+" id="Layer12"><IMG src="sum9.gif" width="71" height="84" border="0"></DIV>
+<DIV style="width : 100px;height : 100px;top : 657px;left : 227px;
+  position : absolute;
+  z-index : 8;
+  visibility : visible;
+" id="Layer11"><IMG src="sum6.gif" width="100" height="100" border="0"></DIV>
+<DIV style="width : 124px;height : 69px;top : 756px;left : 356px;
+  position : absolute;
+  z-index : 7;
+  visibility : visible;
+" id="Layer10"><IMG src="sum-m.jpg" width="122" height="71" border="0"></DIV>
+<DIV style="width : 90px;height : 97px;top : 639px;left : 367px;
+  position : absolute;
+  z-index : 6;
+  visibility : visible;
+" id="Layer9"><IMG src="sum3.gif" width="88" height="97" border="0"></DIV>
+<DIV style="width : 187px;height : 78px;top : 597px;left : 184px;
+  position : absolute;
+  z-index : 5;
+  visibility : visible;
+  background-color : white;
+" id="Layer8"><IMG src="sum211.gif" width="187" height="78" border="0"></DIV>
+<DIV style="width : 107px;height : 87px;top : 741px;left : 470px;
+  position : absolute;
+  z-index : 4;
+  visibility : visible;
+" id="Layer4"><IMG src="sum-d.jpg" width="107" height="84" border="0"></DIV>
+<DIV style="width : 108px;height : 80px;top : 604px;left : 491px;
+  position : absolute;
+  z-index : 3;
+  visibility : visible;
+" id="Layer3"><IMG src="sum-i.jpg" width="104" height="80" border="0"></DIV>
+<DIV style="width : 72px;height : 69px;top : 583px;left : 371px;
+  position : absolute;
+  z-index : 2;
+  visibility : visible;
+" id="Layer2"><IMG src="sum15.gif" width="64" height="64" border="0"></DIV>
+<DIV style="width : 70px;height : 46px;top : 631px;left : 507px;
+  position : absolute;
+  z-index : 1;
+  visibility : visible;
+" id="Layer1" align="center"><IMG src="sum17.gif" width="133" height="115" border="0"></DIV>
+<CENTER><IMG src="sun.gif" width="79" height="74" border="0" alt="太陽"><FONT color="#8cdaff">・</FONT><IMG src="bar-g.gif" width="418" height="113" border="0" align="top" alt="くわがっタンの宝さがしクイズ！"><FONT color="#8cdaff">・・</FONT><BR>
+　　　　　　　　　<FONT size="+2" color="#ff0000"><U><B> 開催期間／2001年8月1日(水)～9月2日(日)</B></U></FONT><BR>
+<BR>
+<BR>
+<TABLE width="75%" cellpadding="10">
+  <TBODY>
+    <TR>
+      <TD align="center" bgcolor="#ffffff">
+      <TABLE>
+        <TBODY>
+          <TR>
+            <TD align="center"><IMG src="kuwa1.gif" width="241" height="241" border="0" alt="くわがっタン"><BR>
+            <BR>
+            <B>↑</B>ナビゲーターの 「くわがっタン」</TD>
+            <TD valign="middle" align="center"><IMG src="top-pr.gif" border="0" width="298" height="37" alt=""><BR>
+            <TABLE border="1" cellpadding="12" width="95%" cellspacing="4">
+              <TBODY>
+                <TR>
+                  <TD><FONT size="+1" color="#ff80d6"><B>21世紀初の暑い夏を、<BR>
+                  もっとホットに楽しめる<BR>
+                  ごきげんなおもちゃをご紹介！</B></FONT><BR>
+                  <BR>
+                  <BR>
+                  <FONT size="+1">下の<FONT color="#ff0000">▼</FONT>コーナーから、</FONT><FONT size="+1" color="#ff9f00"><B>この夏オススメおもちゃ</B></FONT><FONT size="+1">と</FONT><FONT size="+1" color="#ff9f00"><B>４問のクイズ</B></FONT><FONT size="+1">が入った</FONT><FONT size="+1" color="#00cc00"><B>宝箱</B></FONT><FONT size="+1">を探し出そう！<BR>
+                  クイズに全問正解すると、くわがっタンから</FONT><A href="iw-summer.html"><FONT size="+1"><B>プレゼント当選確率がアップするキーワード</B></FONT></A><FONT size="+1">がもらえるよ！</FONT></TD>
+                </TR>
+              </TBODY>
+            </TABLE>
+            </TD>
+          </TR>
+        </TBODY>
+      </TABLE>
+      <BR>
+      <IMG src="lin.gif" width="512" height="20" border="0"><BR>
+      <IMG src="sankaku.gif" width="22" height="21" border="0"><B><FONT size="+1" color="#ffa51e">イラスト（スイカやカニetc）を左右に動かして、</FONT><FONT size="+1" color="#00cc00">宝箱</FONT> <FONT size="+1" color="#ffa51e">を探そう！</FONT></B><IMG src="sankaku.gif" width="22" height="21" border="0"><BR><BR>
+      <BR>
+      <IMG src="sum-a2.gif" width="96" height="96" border="0"><IMG src="sum-a2.gif" width="96" height="96" border="0"><IMG src="sum-a2.gif" width="96" height="96" border="0"><BR>
+      <B><A href="iw-summer.html">宝箱<IMG src="takara-z.jpg" width="64" height="57" border="1">発見!!</A><FONT color="#ffffff">：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：</FONT></B><BR>
+      <B><FONT size="+1" color="#ff80c0">宝箱をクリックして、クイズ ＆ 商品紹介へジャンプ！</FONT></B><BR><BR><BR>
+      <BR>
+      <BR>
+      <TABLE border="1" width="75%" cellpadding="5">
+        <TBODY>
+          <TR>
+            <TD bgcolor="#3796ff" align="center"><FONT size="+2" color="#ffffff"><B>抽選で50名様におもちゃが当たる<BR>
+            </B></FONT><A href="enquete.htm"><IMG src="atari3.gif" width="244" height="35" border="0" alt="アンケート"></A></TD>
+          </TR>
+        </TBODY>
+      </TABLE><BR>
+      <FONT size="2">※このページは、エクスプローラー4.0～、ネットスケープ4.0～にてお楽しみください。<BR>
+      ※モニターの画面領域は、800×600ピクセルが最適です。<BR>
+      ※JavaScriptがうまく動作しない場合は、「<A href="iw-summer.html"><B>こちら</B></A>」からキーワードクイズをお楽しみください。</FONT><BR>
+      <BR>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<BR>
+<FONT size="+1"><B>【協賛】 　<A href="iw-summer2.html">イワヤ（株）</A>、<A href="Ep_index2.htm">（株）エポック社</A>、<A href="daiichi2.htm">（株）大一企画</A>、<A href="masudaya2.htm">（株）増田屋コーポレーション</A></B></FONT><BR>
+<DIV style="position:absolute;top : 674px;left : 149px;
+  width : 88px;
+  height : 80px;
+"><IMG src="sum10.gif" width="81" height="80" border="0"></DIV>
+<BR>
+<A href="../index.html"><IMG src="logo.gif" width="269" height="33" border="0" alt="日本のおもちゃ情報"></A></CENTER>
+</BODY>

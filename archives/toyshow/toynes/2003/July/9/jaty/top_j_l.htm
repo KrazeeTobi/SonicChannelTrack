@@ -1,0 +1,130 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<title>ＪＡＴＹ</title>
+<meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META name="GENERATOR" content="IBM HomePage Builder 2001 V5.0.4 for Windows">
+<STYLE TYPE="text/css">
+<!--
+A:hover { color: yellow ;}
+-->
+</STYLE>
+<SCRIPT language="JavaScript">
+<!--HPB_SCRIPT_ROV_50
+//
+// Licensed Materials - Property of IBM
+// 83H7391, 42L1820
+// (C) Copyright IBM Corp. 1995, 1999  All Rights Reserved.
+//
+// Version: 5.0.1
+//
+
+// HpbImgPreload: 画像のプリロードを行ないます
+//
+function HpbImgPreload()
+{
+  var appVer=parseInt(navigator.appVersion);
+  var isNC=(document.layers && (appVer >= 4)); // Netscape Navigator 4.0 or later
+  var isIE=(document.all    && (appVer >= 4)); // Internet Explorer  4.0 or later
+  if (isNC || isIE)
+  {
+    if (document.images)
+    {
+      var imgName = HpbImgPreload.arguments[0];
+      var cnt;
+      swImg[imgName] = new Array;
+      for (cnt = 1; cnt < HpbImgPreload.arguments.length; cnt++)
+      {
+        swImg[imgName][HpbImgPreload.arguments[cnt]] = new Image();
+        swImg[imgName][HpbImgPreload.arguments[cnt]].src = HpbImgPreload.arguments[cnt];
+      }
+    }
+  }
+}
+// HpbImgFind: Imageオブジェクトを探します
+//
+function HpbImgFind(doc, imgName)
+{
+  for (var i=0; i < doc.layers.length; i++)
+  {
+    var img = doc.layers[i].document.images[imgName];
+    if (!img) img = HpbImgFind(doc.layers[i], imgName);
+    if (img) return img;
+  }
+  return null;
+}
+// HpbImgSwap: 画像を入れ換えます
+//
+function HpbImgSwap(imgName, imgSrc)
+{
+  var appVer=parseInt(navigator.appVersion);
+  var isNC=(document.layers && (appVer >= 4)); // Netscape Navigator 4.0 or later
+  var isIE=(document.all    && (appVer >= 4)); // Internet Explorer  4.0 or later
+  if (isNC || isIE)
+  {
+    if (document.images)
+    {
+      var img = document.images[imgName];
+      if (!img) img = HpbImgFind(document, imgName);
+      if (img) img.src = imgSrc;
+    }
+  }
+}
+var swImg; swImg=new Array;
+//-->
+</SCRIPT><SCRIPT language="JavaScript">
+<!--HPB_SCRIPT_PLD_50
+HpbImgPreload('_HPB_ROLLOVER1', '../image/jaty/jaty_top_j_l1.gif', '../image/jaty/jaty_top_j_l12.gif');
+HpbImgPreload('_HPB_ROLLOVER2', '../image/jaty/jaty_top_j_l2.gif', '../image/jaty/jaty_top_j_l22.gif');
+HpbImgPreload('_HPB_ROLLOVER3', '../image/jaty/jaty_top_j_l3.gif', '../image/jaty/jaty_top_j_l32.gif');
+HpbImgPreload('_HPB_ROLLOVER4', '../image/jaty/jaty_top_j_l4.gif', '../image/jaty/jaty_top_j_l42.gif');
+//-->
+</SCRIPT></head>
+
+<BODY bgcolor="#FFFFFF" background="../image/jaty/jaty_bk.jpg" text="#000000" topmargin="0" marginwidth="0" leftmargin="0" rightmargin="0">
+<TABLE border="0" cellspacing="0" cellpadding="0">
+  
+    <tr> 
+    <TD valign="top" align="center"><IMG src="../image/jaty/jaty_top.jpg" width="237" height="123" border="0"><BR>
+      <IMG src="../image/jaty_omocha_s.gif" width="150" height="122" border="0"><BR>
+      <BR>
+      <TABLE width="85%" border="0">
+        <TBODY>
+          <TR>
+            <TD><FONT size="-1"><IMG src="../image/z.gif" width="10" height="10" border="0"></FONT></TD>
+            <TD><FONT size="-1"><A href="edi/f_edi.htm" id="_HPB_ROLLOVER1" onmouseout="HpbImgSwap('_HPB_ROLLOVER1','../image/jaty/jaty_top_j_l1.gif');" onmouseover="HpbImgSwap('_HPB_ROLLOVER1','../image/jaty/jaty_top_j_l12.gif');" target="_top"><IMG src="../image/jaty/jaty_top_j_l1.gif" border="0" width="217" height="17" alt="" name="_HPB_ROLLOVER1"></A><BR>
+            　・データベースシステム<BR>
+            　・電子データ交換システム(ＥＤＩ)<BR>
+            　・ＥＣ連携システム <BR>
+            <BR>
+            <B><A href="marketing/f_marketing.htm" id="_HPB_ROLLOVER2" onmouseout="HpbImgSwap('_HPB_ROLLOVER2','../image/jaty/jaty_top_j_l2.gif');" onmouseover="HpbImgSwap('_HPB_ROLLOVER2','../image/jaty/jaty_top_j_l22.gif');" target="_top"><IMG src="../image/jaty/jaty_top_j_l2.gif" border="0" width="91" height="17" alt="マーケティング" name="_HPB_ROLLOVER2"></A><BR>
+            </B>　・マーケティング情報分析サービス<BR>
+            <BR>
+            <B><A href="kobetsu/f_kobetsu.htm" id="_HPB_ROLLOVER3" onmouseout="HpbImgSwap('_HPB_ROLLOVER3','../image/jaty/jaty_top_j_l3.gif');" onmouseover="HpbImgSwap('_HPB_ROLLOVER3','../image/jaty/jaty_top_j_l32.gif');" target="_top"><IMG src="../image/jaty/jaty_top_j_l3.gif" border="0" width="193" height="17" alt="個別企業向けシステムサービス" name="_HPB_ROLLOVER3"></A><BR>
+            </B>　・小売店向け：店舗管理・POSシステム<BR>
+            　・問屋・メーカ向け：販売・会計・人事・<BR>
+            　　　　　　　　　　　　　給与システム<BR>
+            　・全業態向け：販売促進、宣伝サポート<BR>
+            <BR>
+            <B><A href="internet/f_net.htm" id="_HPB_ROLLOVER4" onmouseout="HpbImgSwap('_HPB_ROLLOVER4','../image/jaty/jaty_top_j_l4.gif');" onmouseover="HpbImgSwap('_HPB_ROLLOVER4','../image/jaty/jaty_top_j_l42.gif');" target="_top"><IMG src="../image/jaty/jaty_top_j_l4.gif" border="0" width="85" height="17" alt="インターネット" name="_HPB_ROLLOVER4"></A><BR>
+            </B>　・ホームページ企画製作<BR>
+            <BR>
+            </FONT></TD>
+          </TR>
+        </TBODY>
+      </TABLE>
+      </TD>
+    </tr>
+  </TABLE>
+<TABLE width="100%">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#008040" align="center"><IMG src="../image/z.gif" width="5" height="5" border="0"><BR>
+      <IMG src="../image/z.gif" width="2" height="2" border="0"><FONT color="#FFFFFF" face="HG創英角ﾎﾟｯﾌﾟ体">(株)日本玩具情報テクノロジー</FONT><BR>
+      <IMG src="../image/z.gif" width="5" height="5" border="0"><BR>
+      <IMG src="../image/z.gif" width="2" height="2" border="0"></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BODY>
+</html>
