@@ -1,0 +1,136 @@
+@charset "utf-8";
+
+/* ----------------------------------------
+	index
+---------------------------------------- */
+
+#indexBtn {
+	width: 360px;
+	padding: 10px 15px;
+	background: url(../img/report/index_btn_bg.png) no-repeat;
+	position:absolute;
+	left:20px;
+	bottom:-35px;
+	z-index:10;
+}
+
+#indexBtn a {
+	display: block;
+	padding: 5px 0;
+}
+
+#indexBanner {
+	position:absolute;
+	right:20px;
+	bottom:-35px;
+	z-index:10;
+}
+
+
+/* ----------------------------------------
+	sub common
+---------------------------------------- */
+
+#tab ul li.result {
+	width: 114px;
+	background: url(../img/report/tab_bg_result.png);
+}
+#tab ul li.public {
+	width: 134px;
+	background: url(../img/report/tab_bg_public.png);
+}
+#tab ul li.buyer {
+	width: 142px;
+	background: url(../img/report/tab_bg_buyer.png);
+}
+
+h2 {
+	padding:13px 10px 14px;
+}
+
+#contents_inner p {
+	margin:15px 0;
+}
+
+.report_photo img {
+	margin:5px;
+}
+
+
+/* ----------------------------------------
+	report_result
+---------------------------------------- */
+
+#contents_main.result #pankuzu {
+	width: 191px;
+	background: url(../img/report/pankuzu_bg_result.png);
+}
+
+#contents_main.result h2 {
+	background: url(../img/report/title_bg_result.png);
+}
+
+#report_result {
+	border:solid 1px #C9BCC2;
+	border-collapse:collapse;
+	width: 600px;
+	margin:0px; auto;
+	text-align: center;
+}
+#report_result td {
+	background: #FFF;
+	border:solid 1px #C9BCC2;
+	padding:2px 5px;
+}
+
+#report_result td.buyer_head {
+	background: #641E82;
+	color: #FFF;
+	font-weight: bold;
+}
+
+#report_result td.public_head {
+	background: #E11E5A;
+	color: #FFF;
+	font-weight: bold;
+}
+
+#report_result td.buyer_body {
+	color: #641E82;
+}
+
+#report_result td.public_body {
+	color: #E11E5A;
+}
+
+#report_result td.result_body {
+	color: #14A0BE;
+	font-weight: bold;
+}
+
+/* ----------------------------------------
+	report_public
+---------------------------------------- */
+
+#contents_main.public #pankuzu {
+	width: 191px;
+	background: url(../img/report/pankuzu_bg_public.png);
+}
+
+#contents_main.public h2 {
+	background: url(../img/report/title_bg_public.png);
+}
+
+
+/* ----------------------------------------
+	report_buyer
+---------------------------------------- */
+
+#contents_main.buyer #pankuzu {
+	width: 191px;
+	background: url(../img/report/pankuzu_bg_buyer.png);
+}
+
+#contents_main.buyer h2 {
+	background: url(../img/report/title_bg_buyer.png);
+}

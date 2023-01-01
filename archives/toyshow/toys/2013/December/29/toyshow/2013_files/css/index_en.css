@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+/* ----------------------------------------
+	index.html
+---------------------------------------- */
+
+body {
+	background: none;
+}
+
+#container.index {
+	background: url(../img/index/bg.jpg) center top no-repeat;
+}
+
+.index #contents {
+	background: none;
+	padding: 0;
+}
+
+.index #banner {
+	width: 280px;
+	float: left;
+	position: relative;
+	left: -10px;
+	min-height: 675px;
+}
+
+.index #banner #banner_area {
+	background: url(../img/common/bg_contents_right_middle.png);
+	padding: 0 0 0 20px;
+} 
+
+.index #banner #banner_area img {
+	margin: 0 0 5px 0;
+}
+.index #banner #banner_area img.edge {
+	margin: 0;
+}
+
+#kids_expo {
+	position: absolute;
+	right: 15px;
+	bottom: 220px;
+}
+
