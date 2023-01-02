@@ -1,0 +1,185 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+    	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta http-equiv="Content-Style-Type" content="text/css" />
+		<meta http-equiv="Content-Script-Type" content="text/javascript" />
+		<title>日本おもちゃ大賞</title>
+		<link type="text/css" rel="stylesheet" href="css/styles.css" />
+		<link type="text/css" rel="stylesheet" href="css/skitter.styles.css" />
+        
+        
+        
+        <LINK REL="SHORTCUT ICON" href="images/award.ico">
+
+<script type="text/javascript" src="js/pup/jquery-1.6.min.js"></script>
+<script type="text/javascript" src="js/pup/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="js/pup/script.js"></script>
+        
+        
+        
+		<style type="text/css">
+			.box_skitter_large{
+				width:740px;height:400px;
+				margin: 0 auto;
+				float: center
+			}
+			.container {
+			width: 960px;
+			background: #FFF;
+			margin: 0 auto; /* 幅に加え、両側を自動値とすることで、レイアウトが中央に揃います。 */
+			overflow: hidden; /* この宣言により .container は、含まれているフローティングカラムの範囲がどこまでかを認識してその範囲を含めるようになります。 */
+		}
+		
+		.content {
+
+		/*	padding: 10px 0; */
+			width: 960px;
+			float: left;
+			background: #FFF;
+		}
+		
+		
+		/* ~~ このセレクターグループは、.content 内のリストに領域間隔を指定します。~~ */
+		.content ul, .content ol { 
+			padding: 0 15px 15px 40px; /* この余白は、上述の見出しと段落ルールの右の余白を表します。下の余白はリスト内の他のエレメントとの間隔用に配置され、左の余白はインデント作成用に配置されています。これは必要に応じて調整できます。 */
+		}
+		
+		
+
+		/* ~~ フッター ~~ */
+.footer {
+	padding: 3px 0;
+	background: #CCC;
+	font-size: 12px;
+}
+
+body {
+	font: 100%/1.4 "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS P Gothic", sans-serif;
+	background: url(images/contents_bg.gif);
+/*	background:#FF9966; */
+	margin: 0;
+	padding: 0;
+	color: #000;
+}
+		
+		#style_bumon {
+	color: #FFF;
+	font-weight: bold;
+	text-align: center;
+	font-size: x-large;
+}
+
+        #style_yuusyuu {
+	font-size: 100%;
+	text-align: center;
+    font-weight: bold;
+}
+        #style_taishou {
+	color: #FFF;
+	text-align: center;
+	font-size: x-large;
+}
+        #style_taishou_h {
+	color: #000;
+	text-align: left;
+	font-size: large;
+	font-weight: bold;
+}
+
+        #style_company {
+	color: #000;
+	text-align: left;
+	font-size: 14px;
+	font-weight: bold;
+}
+        </style>
+		<script type="text/javascript" src="js/jquery-1.5.2.min.js"></script>
+		<script type="text/javascript" src="js/jquery.skitter.min.js"></script>
+		<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+		<script type="text/javascript" src="js/jquery.animate-colors-min.js"></script>
+		<script type="text/javascript">
+			$(function(){
+			    //$('.box_skitter_large').skitter();
+				//$('.box_skitter_large').skitter({thumbs: true, label: false});
+			    //$('.box_skitter_large').skitter({navigation: false});
+			    $('.box_skitter_large').skitter({dots: true, label: false,navigation: false});
+			});
+		</script>
+	
+	</head>
+	<body>
+    
+    <div class="container">
+<div id="kako_header1">
+
+    <!-- end .header --></div>
+    
+       <div class="content"><a href="index.html"><img src="images/return-bt-3-black.jpg" width="95" height="18" border="0" /></a><br />
+         <br />
+         <table width="953" border="0" cellspacing="0" cellpadding="0">
+         <tr>
+           <td>&nbsp;</td>
+           <td>「日本おもちゃ大賞」は良質で市場性のある玩具の開発促進と、メーカー各社の感性の切磋琢磨を目的に2008年に創設されました。</td>
+           <td>&nbsp;</td>
+         </tr>
+         <tr>
+           <td width="66">&nbsp;</td>
+           <td width="828"><p><br />
+             ■過去の受賞商品資料<br />
+             <br />
+           　・<a href="pdf/award2008.pdf" target="_blank">第1回（2008年）</a> (<img src="images/adobe_logo.gif" width="17" height="17" alt="PDF" />PDF: 1ページ)<br />
+           <br />
+           　・<a href="pdf/award2009.pdf" target="_blank">第2回（2009年）</a>（<img src="images/adobe_logo.gif" width="17" height="17" alt="PDF" />PDF：6ページ）<br />
+           <br />
+           　・<a href="pdf/award2010.pdf" target="_blank">第3回（2010年）</a>（<img src="images/adobe_logo.gif" width="17" height="17" alt="PDF" />PDF：15ページ）<br />
+             <br />
+　・<a href="pdf/award2011.pdf" target="_blank">第4回（2011年）</a>（<img src="images/adobe_logo.gif" width="17" height="17" alt="PDF" />PDF：16ページ）<br />
+             <br />
+             　・<a href="pdf/award2012.pdf" target="_blank">第5回（2012年）</a>（<img src="images/adobe_logo.gif" width="17" height="17" alt="PDF" />PDF：18ページ）<br />
+             <br />
+             　・<a href="pdf/award2013.pdf" target="_blank">第6回（2013年）</a>（<img src="images/adobe_logo.gif" width="17" height="17" alt="PDF" />PDF：17ページ）<br />
+             <br />
+  　・<a href="pdf/award2014.pdf" target="_blank">第7回（2014年）</a>（<img src="images/adobe_logo.gif" width="17" height="17" alt="PDF" />PDF：2ページ）<br />
+  <br />
+　・<a href="pdf/award2015.pdf" target="_blank">第8回（2015年）</a>（<img src="images/adobe_logo.gif" width="17" height="17" alt="PDF" />PDF：2ページ）<br />
+<br />
+<br />
+  <br />
+           </p></td>
+           <td width="59">&nbsp;</td>
+         </tr>
+         
+         <tr>
+           <td>&nbsp;</td>
+           <td>&nbsp;</td>
+           <td>&nbsp;</td>
+         </tr>
+         
+         
+         
+         
+         </table>
+       <p>&nbsp; </p>
+        
+        
+      <!-- end .content --></div>
+       <br />
+       <br />
+       <br />
+       <br />
+       
+<div id="wrapper">
+<p id="toPageTop"><a href="#wrapper"><img src="images/btn_to-page-top.gif" alt="Page Top" width="100" height="100" /></a></p>
+</div>
+       
+       
+  <div class="footer">
+    <p>Copyright(C) The Japan Toy Assosiation.  All Rights Reserved </p>
+    <!-- end .footer --></div>
+    
+  <!-- end .container --></div>
+        
+        
+</body>
+</html>

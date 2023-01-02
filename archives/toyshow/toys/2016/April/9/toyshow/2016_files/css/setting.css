@@ -1,0 +1,89 @@
+@charset "utf-8";
+
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+
+/* ++++++++++++++++++++++++++++++++++++++++
+
+	Reset and Clearfix
+
+++++++++++++++++++++++++++++++++++++++++ */
+
+/* ----------------------------------------
+	reset
+---------------------------------------- */
+
+html, body,
+div, p,
+table, tr, th, td,
+ul, ol, li,
+dl, dt, dd,
+h1, h2, h3, h4, h5, h6,
+img, a, address {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+html,body {
+	width: 100%;
+	min-width: 980px;	
+}
+
+li {
+	list-style: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* ----------------------------------------
+	setting
+---------------------------------------- */
+
+body {
+	font-size: 14px;
+	line-height: 2;
+	color: #000;
+	font-family: 'Noto Sans Japanese', "メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "ＭＳ Ｐゴシック", "MS PGothic", Osaka, sans-serif;
+}
+
+a {
+	color: #3076bc;
+	text-decoration: underline;
+	outline: none;
+	cursor: pointer;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+
+/* ----------------------------------------
+	clearfix
+---------------------------------------- */
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	visibility: hidden;
+	clear: both;
+	height: 0;
+	font-size: 0;
+	line-height: 0;
+}
+
+.clearfix {
+	min-height: 1px;
+}
+
+* html .clearfix {
+	height: 1px;
+	/*\*//*/
+	overflow: hidden;
+	height: auto;
+	/**/
+}
