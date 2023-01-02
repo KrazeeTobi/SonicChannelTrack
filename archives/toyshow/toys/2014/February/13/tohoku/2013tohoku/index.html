@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>2013東北こども博の様子</title>
+    
+    <script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+    
+    <link rel="Stylesheet" href="./css/jquery.slidescale.css" />
+    <link rel="Stylesheet" href="./css/main.css" />
+</head>
+<body>
+
+<div id="body">
+    <div id="main_header">
+        <div id="titles">
+            <h1>2013東北こども博の様子<br>
+            </h1>
+
+          <h1>&nbsp; </h1>
+            <h2>■来場者数　　＊（　）内は前回（2012年）のものです。<BR>
+　10月12日（土）　8,560  (8,400)<BR>
+　<U>10月13日（日）　9,620  (7,500)　</U><BR>
+    　    合計　　　  18,180  (15,900)　　14％増 <br>
+              <br>
+              下記画像は、下段のサムネイル画像をクリック、<br>
+            または左右にマウスを当てて　&quot;＜&quot;　&quot;＞&quot;　をクリックしてご覧下さい。
+            <br>
+            </h2>
+            <h3>※このコンテンツはActiveXの実行が許可されていないと見ることはできません。。</h3>
+        </div>
+        
+        <p><br class="clear" />
+        </p>
+      <p>&nbsp; </p>
+    </div>
+
+    <div id="gallery"></div>
+<div id="docs">
+</div>
+
+    <div id="changelog">
+    </div>
+    <h1><br>
+    </h1>            <table width="873" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="775">&nbsp;</td>
+                <td width="98"><a href="JavaScript:window.close()" class="migi" onMouseOver="MM_swapImage('Image4','','img/close_d.gif',1)" onMouseOut="MM_swapImgRestore()"><img src="img/close_u.gif" alt="とじる" name="Image4" width="69" height="20" border="0"></a></td>
+              </tr>
+            </table>
+    <p>&nbsp;</p>
+</div>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.13/jquery-ui.js"></script>
+<script src="./js/jquery.slidescale.js"></script><br>
+<script>
+    $('#gallery').slidescale({
+        images: [
+			{name: "a1.jpg",
+                text: "開会式"},
+			{name: "a2.jpg",
+                text: "開会式"},
+			{name: "a3.jpg",
+                caption_link: "",
+                photo_link: "",
+                text: "荒浜小学校の生徒たちによる和太鼓"},
+			{name: "a4.jpg",
+                caption_link: "",
+                photo_link: "",
+                text: ""},
+            {name: "a5.jpg",
+                photo_link: "",
+                text: ""},
+            {name: "a6.jpg",
+                text: ""},
+            {name: "a7.jpg",
+                text: ""},
+			{name: "a8.jpg",
+                text: ""},
+		    {name: "a9.jpg",
+                text: ""},
+			{name: "a10.jpg",
+                text: ""},
+			{name: "a11.jpg",
+                text: ""},
+			{name: "a12.jpg",
+                text: "陸上自衛隊によるロープワーク教室"},
+			{name: "a13.jpg",
+                text: ""},
+			{name: "a14.jpg",
+                text: ""},
+			{name: "a15.jpg",
+                text: ""},
+			{name: "a16.jpg",
+                text: "レゴブロックでみんなのまちを作ろう"}
+        ]
+    });
+
+    $('#docs').load('./README.html');
+
+</script>
+<link rel="Stylesheet" href="./css/docs.css" />
+
+
+
+</body>
+</html>
