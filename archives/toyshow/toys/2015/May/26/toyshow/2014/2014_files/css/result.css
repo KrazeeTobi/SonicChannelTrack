@@ -1,0 +1,136 @@
+/*---------------------------------------- 
+	result
+---------------------------------------- */
+
+/*---------------------------------------- 
+	result.html
+---------------------------------------- */
+
+.result table {
+	width: 400px;
+	margin-top: 20px;	
+}
+.result th,
+.result td {
+	border: solid #fff 2px;
+}
+.result th {
+	background: #E6E6E6;
+	border-left: none;
+	padding: 0px 10px;
+	color: #646464;
+	text-align: right;
+}
+.result td {
+	text-align: center;
+}
+
+.result .sort,
+.result .headline {
+	background: #646464;
+	color: #fff;
+	text-align: center;	
+	font-weight: bold;
+}
+.result .sort {
+	width: 158px;	
+}
+.result .hidden {
+	visibility: hidden;
+}
+
+/* buyer_total
+---------------------------------------- */
+
+#buyer_total {
+	position: relative;
+	z-index: 2;
+	float: left;
+}
+#buyer_total td {	
+	background: #d9d2e8;
+	width: 109px;
+	color: #64288C;
+}
+
+#buyer_total .headline {
+	background: #64288C;	
+}
+
+/* public_total
+---------------------------------------- */
+
+#public_total {
+	float: left;
+	margin-left: -180px;
+}
+#public_total td {
+	background: #f3d0de;
+	width: 109px;
+	color: #E61E5A;
+}
+
+#public_total .headline {
+	background: #E61E5A;	
+}
+
+/* total
+---------------------------------------- */
+
+#total {
+	clear: left;
+	width: 620px;
+	margin: 0;
+}
+#total th,
+#total td {
+	border-top-style: none;	
+}
+#total th {
+	width: 156px;
+}
+#total td{
+	background: #cddef4;
+	color: #2864C8;
+}
+
+
+/*---------------------------------------- 
+	result_*.html
+---------------------------------------- */
+
+.result p,
+.result div {
+	padding: 10px 0;
+}
+.result p {
+	font-size: 130%;
+}
+
+/* gallery
+---------------------------------------- */
+
+#contents_inner #gallery {
+	width: 640px;
+	margin-top: 25px;
+}
+#contents_inner #gallery li {
+	border: none;	
+	float: left;
+	margin: 0 8px 0 0;
+	padding: 4px 0;
+}
+.result div ul#gallery li a {
+	display: block;
+}
+
+/* each
+---------------------------------------- */
+
+.result .public_text {
+	color: #E61E5A;
+}
+
+.result .buyer_text {
+	color: #64288C;
+}

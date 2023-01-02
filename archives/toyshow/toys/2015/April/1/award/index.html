@@ -1,0 +1,647 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+    	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta http-equiv="Content-Style-Type" content="text/css" />
+		<meta http-equiv="Content-Script-Type" content="text/javascript" />
+		<title>日本おもちゃ大賞</title>
+		<link type="text/css" rel="stylesheet" href="css/styles.css" />
+		<link type="text/css" rel="stylesheet" href="css/skitter.styles.css" />
+        
+        
+        
+        <LINK REL="SHORTCUT ICON" href="images/award.ico">
+
+<script type="text/javascript" src="js/pup/jquery-1.6.min.js"></script>
+<script type="text/javascript" src="js/pup/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="js/pup/script.js"></script>
+        
+        
+        
+		<style type="text/css">
+			.box_skitter_large{
+				width:740px;height:400px;
+				margin: 0 auto;
+				background: #FFF;
+				float: center
+			}
+			.container {
+			width: 960px;
+			background: #FFF;
+			margin: 0 auto; /* 幅に加え、両側を自動値とすることで、レイアウトが中央に揃います。 */
+			overflow: hidden; /* この宣言により .container は、含まれているフローティングカラムの範囲がどこまでかを認識してその範囲を含めるようになります。 */
+		}
+		
+		.content {
+
+		/*	padding: 10px 0; */
+			width: 960px;
+			float: left;
+			background: #FFF;
+		}
+		
+		
+		/* ~~ このセレクターグループは、.content 内のリストに領域間隔を指定します。~~ */
+		.content ul, .content ol { 
+			padding: 0 15px 15px 0px; /* この余白は、上述の見出しと段落ルールの右の余白を表します。下の余白はリスト内の他のエレメントとの間隔用に配置され、左の余白はインデント作成用に配置されています。これは必要に応じて調整できます。 */
+		}
+		
+		
+
+		/* ~~ フッター ~~ */
+.footer {
+	padding: 3px 0;
+	background: #CCC;
+	font-size: 12px;
+}
+
+body {
+	font: 100%/1.4 "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS P Gothic", sans-serif;
+	background: url(images/contents_bg.gif);
+/*	background:#FF9966; */
+	margin: 0;
+	padding: 0;
+	color: #000;
+}
+		
+		#style_bumon {
+	color: #FFF;
+	font-weight: bold;
+	text-align: center;
+	font-size: x-large;
+}
+
+        #style_yuusyuu {
+	font-size: 100%;
+	text-align: center;
+    font-weight: bold;
+}
+        #style_taishou {
+	color: #FFF;
+	text-align: center;
+	font-size: x-large;
+}
+        #style_taishou_h {
+	color: #000;
+	text-align: left;
+	font-size: large;
+	font-weight: bold;
+}
+
+        #style_company {
+	color: #000;
+	text-align: left;
+	font-size: 14px;
+	font-weight: bold;
+}
+        red {
+	color: #F00;
+}
+        </style>
+		<script type="text/javascript" src="js/jquery-1.5.2.min.js"></script>
+		<script type="text/javascript" src="js/jquery.skitter.min.js"></script>
+		<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+		<script type="text/javascript" src="js/jquery.animate-colors-min.js"></script>
+
+ 	<script type="text/javascript">
+			$(function(){
+			    //$('.box_skitter_large').skitter();
+				//$('.box_skitter_large').skitter({thumbs: true, label: false});
+			    //$('.box_skitter_large').skitter({navigation: false});
+			    $('.box_skitter_large').skitter({dots: true, label: false,navigation: false });
+			});
+		</script>
+	
+	</head>
+	<body>
+    
+    <div class="container">
+<div id="header1">
+
+    <!-- end .header --></div>
+    
+    <!--   <div class="content"> -->
+         <blockquote>
+           <table width="862" border="0" cellspacing="0" cellpadding="0">
+             <tr>
+               <td width="862" align="center" bgcolor="#FF2626" valign="middle">＊＊＊＊＊「日本おもちゃ大賞2015」は、6月中旬に発表いたします。＊＊＊＊＊</td>
+             </tr>
+           </table>
+           <p>             「日本おもちゃ大賞」は良質で市場性のある玩具の開発促進と、メーカー各社の感性の切磋琢磨を目的に2008年に創設されました。2014年は、応募総数41社336商品の中から、7部門35商品に加え「ヒット・セールス賞」の１商品、また「特別賞」として選ばれた1商品をあわせて、全37商品が選出されました。<br />
+             <br />
+           </p>
+         </blockquote>
+         <table width="938" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td colspan="3">
+          
+          
+                   <div class="border_box">
+		 <div class="box_skitter box_skitter_large">
+			    <ul>
+                  <!--   共遊玩具部門      -->
+			        <li>
+			            <a href="#kyoyuu"><img src="images/01.jpg" class="block"  /></a>
+			            <div class="label_text">
+			                <p>image 01</p>
+			            </div>
+			        </li>
+                   <!--   エデュケーショナルトイ部門      -->
+			        <li>
+			            <a href="#edu"><img src="images/02.jpg" class="cube" /></a>
+			            <div class="label_text">
+			                <p>image 02</p>
+			            </div>
+			        </li>
+                    <!--   ボーイズトイ部門      -->
+			        <li>
+                       <a href="#boy"><img src="images/03.jpg" class="horizontal" /></a>
+			            <div class="label_text">
+			                <p>image 03</p>
+			            </div>
+			        </li>
+                    <!--   ガールズトイ部門      -->
+			        <li>
+			            <a href="#girl"><img src="images/04.jpg" class="showBars" /></a>
+			            <div class="label_text">
+			                <p>image 04</p>
+			            </div>
+			        </li>
+                    <!--   コミュニケーショントイ部門      -->
+			        <li>
+			            <a href="#char"><img src="images/05.jpg" class="blind" /></a>
+			            <div class="label_text">
+			                <p>image 05</p>
+			            </div>
+			        </li>
+                    <!--   イノベーティブトイ部門      -->
+			        <li>
+			            <a href="#inv"><img src="images/06.jpg" class="default" /></a>
+			            <div class="label_text">
+			                <p>image 06</p>
+			            </div>
+			        </li>
+                    <!--   ハイターゲットトイ部門      -->
+                    <li>
+			            <a href="#high"><img src="images/07.jpg" class="block" /></a>
+			            <div class="label_text">
+			                <p>image 01</p>
+			            </div>
+			        </li>
+                    <!--   ヒットセールス部門      -->
+			        <li>
+			            <a href="#hit"><img src="images/08.jpg" class="cube" /></a>
+			            <div class="label_text">
+			                <p>image 02</p>
+			            </div>
+			        </li>
+
+
+
+
+</ul></div>
+		</div>
+          
+          
+          
+ 
+          
+          
+          
+          
+          &nbsp;</td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td>　</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td><a href="kako_award.html"><img src="images/kako_award.jpg" alt="過去の受賞商品" width="150" height="30" border="0"align="right" /></a></td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td width="66">&nbsp;</td>
+          <td width="828"> 　　　　　　　　　　　　　　　■受賞作品の詳細は<a href="pdf/award2014.pdf" target="_blank">こちらのＰＤＦ資料</a>(4.9Mbyte 2ページ)をご覧ください。<br /></td>
+          <td width="44">&nbsp;</td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td><table width="791" border="1" cellspacing="0" cellpadding="0" bordercolor="#0066FF">
+            <tr>
+              <td colspan="3" bgcolor="#0066FF" id="style_bumon"><a name="kyoyuu" id="kyoyuu"></a>共遊玩具部門</td>
+            </tr>
+            <tr>
+              <td width="79" height="61" bgcolor="#FF6699" id="style_taishou">大賞</td>
+              <td width="464"id="style_taishou_h"><p> 　Hello！Zoomer （ハロー！ズーマー）
+</p></td>
+              <td width="240"id="style_company">　(株)タカラトミー</td>
+            </tr>
+             <tr>
+              <td height="50" bgcolor="#FFFF99"><span id="style_yuusyuu">　優秀賞</span></td>
+              <td><p><span id="style_yuusyuu">　アンパンマン　マジカルボンゴ
+</span></p></td>
+              <td><span id="style_company">　(株)アガツマ</span></td>
+            </tr>
+            
+            <tr>
+              <td height="47" bgcolor="#FFFF99"><span id="style_yuusyuu">　優秀賞</span></td>
+              <td><p><span id="style_yuusyuu">　フラッシュパッド
+</span></p></td>
+              <td><span id="style_company">　(株)セガトイズ</span></td>
+            </tr>
+            <tr>
+              <td height="45" bgcolor="#FFFF99"><span id="style_yuusyuu">　優秀賞</span></td>
+              <td><p><span id="style_yuusyuu">　ゲームロボット25
+</span></p></td>
+              <td><span id="style_company">　(株)ハナヤマ</span></td>
+            </tr>
+            <tr>
+              <td height="47" bgcolor="#FFFF99"><span id="style_yuusyuu"> 　優秀賞</span></td>
+              <td><p><span id="style_yuusyuu">　ぼくはしんかんせん
+</span></p></td>
+              <td><span id="style_company">　(株)バンダイ</span></td>
+            </tr>
+            
+           
+            
+          </table></td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td><table width="791" border="1" cellspacing="0" cellpadding="0" bordercolor="#0066FF">
+            <tr>
+              <td colspan="3" bgcolor="#0066FF" id="style_bumon"><a name="edu" id="edu"></a>エデュケーショナル・トイ部門</td>
+            </tr>
+            <tr>
+              <td width="79" height="61" bgcolor="#FF6699" id="style_taishou">大賞</td>
+              <td width="465"id="style_taishou_h"><p> 　ナノブロック+
+ベーシック・セット・スタンダード
+</p></td>
+              <td width="239"id="style_company">　(株)カワダ</td>
+            </tr>
+            <tr>
+              <td height="47" bgcolor="#FFFF99"><span id="style_yuusyuu">　優秀賞</span></td>
+              <td><p><span id="style_yuusyuu">　アンパンマン　
+カラーキッズタブレット
+</span></p></td>
+              <td><span id="style_company">　(株)アガツマ</span></td>
+            </tr>
+            
+            <tr>
+              <td height="45" bgcolor="#FFFF99"><span id="style_yuusyuu">　優秀賞</span></td>
+              <td><p><span id="style_yuusyuu">　アンパンマン　レッツゴー！育脳ドライブ
+</span></p></td>
+              <td><span id="style_company">　(株)ジョイパレット</span></td>
+            </tr>
+            
+            
+            <tr>
+              <td height="50" bgcolor="#FFFF99"><span id="style_yuusyuu">　優秀賞</span></td>
+              <td><p><span id="style_yuusyuu">　おしゃべりスマートハウス　ゆったりさん
+</span></p></td>
+              <td><span id="style_company">　(株)タカラトミー</span></td>
+            </tr>
+            <tr>
+              <td height="47" bgcolor="#FFFF99"><span id="style_yuusyuu">　優秀賞</span></td>
+              <td><p><span id="style_yuusyuu">　アンパンマン★カラーパソコンスマート
+</span></p></td>
+              <td><span id="style_company">　(株)バンダイ</span></td>
+            </tr>
+          </table></td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td><table width="791" border="1" cellspacing="0" cellpadding="0" bordercolor="#0066FF">
+            <tr>
+              <td colspan="3" bgcolor="#0066FF" id="style_bumon"><a name="boy" id="boy"></a>ボーイズ・トイ部門</td>
+            </tr>
+            <tr>
+              <td width="79" height="61" bgcolor="#FF6699" id="style_taishou">大賞</td>
+              <td width="467"id="style_taishou_h"><p> 　ポケモンメガリング</p></td>
+              <td width="237"id="style_company">　(株)タカラトミー</td>
+            </tr>
+            <tr>
+              <td height="47" bgcolor="#FFFF99"><span id="style_yuusyuu">　優秀賞</span></td>
+              <td align="left"><p><span id="style_yuusyuu">　スーパーサッカースタジアム<br />
+                　サッカー日本代表チームモデル
+                      
+                クロスファイアストライカー </span></p></td>
+              <td><span id="style_company">　(株)エポック社</span></td>
+            </tr>
+            <tr>
+              <td height="47" bgcolor="#FFFF99"><span id="style_yuusyuu">　優秀賞</span></td>
+              <td><p><span id="style_yuusyuu">　ワイルドキング　最強バトルずかん
+</span></p></td>
+              <td><span id="style_company">　(株)セガトイズ</span></td>
+            </tr>
+            
+            <tr>
+              <td height="45" bgcolor="#FFFF99"><span id="style_yuusyuu">　優秀賞</span></td>
+              <td><p><span id="style_yuusyuu">　テンカイナイト　フィギュアシリーズ
+</span></p></td>
+              <td><span id="style_company">　(株)ハピネット</span></td>
+            </tr>
+            <tr>
+              <td height="50" bgcolor="#FFFF99"><span id="style_yuusyuu">　優秀賞</span></td>
+              <td><p><span id="style_yuusyuu">　烈車合体シリーズ1～5　
+烈車合体DXトッキュウオー
+</span></p></td>
+              <td><span id="style_company">　(株)バンダイ</span></td>
+            </tr>
+            
+          </table></td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td><table width="791" border="1" cellspacing="0" cellpadding="0" bordercolor="#0066FF">
+            <tr>
+              <td colspan="3" bgcolor="#0066FF" id="style_bumon"><a name="girl" id="girl"></a>ガールズ・トイ部門</td>
+            </tr>
+            <tr>
+              <td width="79" height="61" bgcolor="#FF6699" id="style_taishou">大賞</td>
+              <td width="464"id="style_taishou_h"><p> 　プリパス アイドルリンク
+</p></td>
+              <td width="240"id="style_company">　(株)タカラトミー</td>
+            </tr>
+            
+             <tr>
+              <td height="45" bgcolor="#FFFF99"><span id="style_yuusyuu">　優秀賞</span></td>
+              <td><p><span id="style_yuusyuu">　HELLO KITTY りょうりも！おしゃれも！<br />
+                キッチン❤ドレッサー </span></p></td>
+              <td><span id="style_company">　(株)アガツマ</span></td>
+            </tr>
+            
+            
+            <tr>
+              <td height="47" bgcolor="#FFFF99"><span id="style_yuusyuu">　優秀賞</span></td>
+              <td><p><span id="style_yuusyuu">　アンパンマン　いっしょにトントン　
+だいすきお料理ショー
+</span></p></td>
+              <td><span id="style_company">　(株)ジョイパレット</span></td>
+            </tr>
+            
+            <tr>
+              <td height="47" bgcolor="#FFFF99"><span id="style_yuusyuu">　優秀賞</span></td>
+              <td><p><span id="style_yuusyuu">　マジカルレターペン
+</span></p></td>
+              <td><span id="style_company">　(株)セガトイズ</span></td>
+            </tr>
+            
+            <tr>
+              <td height="50" bgcolor="#FFFF99"><span id="style_yuusyuu">　優秀賞</span></td>
+              <td><p><span id="style_yuusyuu">　ハピネス変身！　プリチェンミラー
+</span></p></td>
+              <td><span id="style_company">　(株)バンダイ</span></td>
+            </tr>
+           
+          </table></td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td><table width="791" border="1" cellspacing="0" cellpadding="0" bordercolor="#0066FF">
+            <tr>
+              <td colspan="3" bgcolor="#0066FF" id="style_bumon"><a name="char" id="char"></a>コミュニケーション・トイ部門</td>
+            </tr>
+            <tr>
+              <td width="79" height="61" bgcolor="#FF6699" id="style_taishou">大賞</td>
+              <td width="466"id="style_taishou_h"><p> 　放課後の怪談シリーズ<br />
+                　
+恐怖！ドキドキクラッシュ人体模型 </p></td>
+              <td width="238"id="style_company">　(株)メガハウス</td>
+            </tr>
+            <tr>
+              <td height="45" bgcolor="#FFFF99"><span id="style_yuusyuu">　優秀賞</span></td>
+              <td><p><span id="style_yuusyuu">　ハートエナジープーチ
+</span></p></td>
+              <td><span id="style_company">　(株)セガトイズ</span></td>
+            </tr>
+            
+            <tr>
+              <td height="50" bgcolor="#FFFF99"><span id="style_yuusyuu">　優秀賞</span></td>
+              <td><p><span id="style_yuusyuu">　大車輪てつぼうくん！
+</span></p></td>
+              <td><span id="style_company">　(株)タカラトミー</span></td>
+            </tr>
+            
+            <tr>
+              <td height="47" bgcolor="#FFFF99"><span id="style_yuusyuu">　優秀賞</span></td>
+              <td><p><span id="style_yuusyuu">　Hicaluca(ヒカルカ)
+</span></p></td>
+              <td><span id="style_company">　(株)タカラトミーアーツ</span></td>
+            </tr>
+            <tr>
+              <td height="47" bgcolor="#FFFF99"><span id="style_yuusyuu">　優秀賞</span></td>
+              <td><p><span id="style_yuusyuu">　妖怪メダル
+</span></p></td>
+              <td><span id="style_company">　(株)バンダイ</span></td>
+            </tr>
+            
+          </table></td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td><table width="791" border="1" cellspacing="0" cellpadding="0" bordercolor="#0066FF">
+            <tr>
+              <td colspan="3" bgcolor="#0066FF" id="style_bumon"><a name="inv" id="inv"></a>イノベイティブ・トイ部門</td>
+            </tr>
+            <tr>
+              <td width="79" height="61" bgcolor="#FF6699" id="style_taishou">大賞</td>
+              <td width="467"id="style_taishou_h"><p> 　ハコビジョン
+</p></td>
+              <td width="237"id="style_company">　(株)バンダイ</td>
+            </tr>
+            
+            <tr>
+              <td height="50" bgcolor="#FFFF99"><span id="style_yuusyuu">　優秀賞</span></td>
+              <td><p><span id="style_yuusyuu">　ナノブロック・ナノゲージシリーズ
+
+</span></p></td>
+              <td><span id="style_company">　(株)カワダ</span></td>
+            </tr>
+            <tr>
+              <td height="45" bgcolor="#FFFF99"><span id="style_yuusyuu">　優秀賞</span></td>
+              <td><p><span id="style_yuusyuu">　自動走行チョロQ　Q-eyes
+</span></p></td>
+              <td><span id="style_company">　(株)タカラトミー</span></td>
+            </tr>
+            
+            <tr>
+              <td height="47" bgcolor="#FFFF99"><span id="style_yuusyuu">　優秀賞</span></td>
+              <td><p><span id="style_yuusyuu">　虹の夢であそぼう　ホームレインボー
+</span></p></td>
+              <td><span id="style_company">　(株)テンヨー</span></td>
+            </tr>
+            <tr>
+              <td height="47" bgcolor="#FFFF99"><span id="style_yuusyuu">　優秀賞</span></td>
+              <td><p><span id="style_yuusyuu">　Fairisia(フェアリシア)
+</span></p></td>
+              <td><span id="style_company">　(株)メガハウス</span></td>
+            </tr>
+            
+            
+          </table></td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td><table width="791" border="1" cellspacing="0" cellpadding="0" bordercolor="#0066FF">
+            <tr>
+              <td colspan="3" bgcolor="#0066FF" id="style_bumon"><a name="high" id="high"></a>ハイターゲット・トイ部門</td>
+            </tr>
+            <tr>
+              <td width="79" height="61" bgcolor="#FF6699" id="style_taishou">大賞</td>
+              <td width="468"id="style_taishou_h"><p> 　PROPLICA ムーンスティック
+                  <br />
+              （プロップリカ　ムーンスティック） </p></td>
+              <td width="236"id="style_company">　(株)バンダイ</td>
+            </tr>
+            <tr>
+              <td height="45" bgcolor="#FFFF99"><span id="style_yuusyuu">　優秀賞</span></td>
+              <td><p><span id="style_yuusyuu">　Hello! MiP （ハロー！ミップ）
+</span></p></td>
+              <td><span id="style_company">　(株)タカラトミー</span></td>
+            </tr>
+            
+            <tr>
+              <td height="50" bgcolor="#FFFF99"><span id="style_yuusyuu">　優秀賞</span></td>
+              <td><p><span id="style_yuusyuu">　nano block motion チョロQ
+</span></p></td>
+              <td><span id="style_company">　(株)タカラトミーマーケティング</span></td>
+            </tr>
+            
+            <tr>
+              <td height="47" bgcolor="#FFFF99"><span id="style_yuusyuu">　優秀賞</span></td>
+              <td><p><span id="style_yuusyuu">　技MIX航空機シリーズOP07<br />
+                　
+P-3Cプロペラ回転発光ユニット </span></p></td>
+              <td><span id="style_company">　(株)トミーテック</span></td>
+            </tr>
+            <tr>
+              <td height="47" bgcolor="#FFFF99"><span id="style_yuusyuu">　優秀賞</span></td>
+              <td><p><span id="style_yuusyuu">　カーパズル3D ミニクーパ
+</span></p></td>
+              <td><span id="style_company">　(株)ビバリー</span></td>
+            </tr>
+            
+            
+          </table></td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td><table width="791" border="1" cellspacing="0" cellpadding="0" bordercolor="#0066FF">
+            <tr>
+              <td colspan="3" bgcolor="#0066FF" id="style_bumon"><a name="hit" id="hit"></a>2013年ヒットセールス賞</td>
+            </tr>
+            <tr>
+              <td width="543"id="style_taishou_h"><p> 　変身ベルトDX戦極ドライバー　<br />
+              　仮面ライダー鎧武＆バロンセット</p></td>
+              <td width="242"id="style_company">　(株)バンダイ</td>
+            </tr>
+          </table></td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td><table width="791" border="1" cellspacing="0" cellpadding="0" bordercolor="#0066FF">
+            <tr>
+              <td colspan="3" bgcolor="#0066FF" id="style_bumon"><a name="toku" id="toku"></a>特別賞</td>
+            </tr>
+            <tr>
+              <td width="540"id="style_taishou_h"><p> 　トランスフォーマー</p></td>
+              <td width="245"id="style_company">　(株)タカラトミー</td>
+            </tr>
+          </table></td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td align="right">&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td align="right"><a href="http://www.toys.or.jp/"><img src="images/btn_jta.gif" width="252" height="21" border="0" /></a></td>
+          <td>&nbsp;</td>
+        </tr>
+      </table>
+      
+<div id="wrapper">
+  <p id="toPageTop"><a href="#wrapper"><img src="images/btn_to-page-top.gif" alt="Page Top" width="60" height="60" border="0" /></a></p>
+</div>
+       
+       
+  <div class="footer">
+    <p>Copyright(C) The Japan Toy Assosiation.  All Rights Reserved </p>
+    <!-- end .footer --></div>
+    
+  <!-- end .container --></div>
+        
+        
+</body>
+</html>

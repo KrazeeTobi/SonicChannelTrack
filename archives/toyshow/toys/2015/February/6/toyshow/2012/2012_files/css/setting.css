@@ -1,0 +1,73 @@
+@charset "utf-8";
+
+/* ----------------------------------------
+	reset
+---------------------------------------- */
+
+html, body,
+div, p,
+table, tr, th, td,
+ul, li,
+dl, dt, dd,
+h1, h2, h3, h4, h5, h6,
+img, a, address {
+	margin: 0;
+	border: 0;
+	padding:0;
+	font-weight: normal;
+	font-style: normal;
+	list-style: none;
+}
+
+
+
+/* ----------------------------------------
+	setting
+---------------------------------------- */
+
+body {
+	background: #E6F0EB;
+	font-size: 12px;
+	line-height: 1.75em;
+	color: #000000;
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	position: relative;
+}
+
+a {
+	text-decoration: underline;
+	outline: none;
+	cursor: pointer;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+
+
+/* ----------------------------------------
+	clearfix
+---------------------------------------- */
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  height: 0;
+  visibility: hidden;
+}
+
+.clearfix {
+  min-height: 1px;
+}
+
+* html .clearfix {
+  height: 1px;
+  /*\*//*/
+  height: auto;
+  overflow: hidden;
+  /**/
+}
+
+

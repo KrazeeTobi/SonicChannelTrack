@@ -1,0 +1,185 @@
+@charset "utf-8";
+
+/* ----------------------------------------
+	タイトル部分（カテゴリ毎で指定する）
+---------------------------------------- */
+
+#pankuzu {
+	width: 236px;
+	background: url(../img/outline/pankuzu_bg.png);
+}
+
+#tab ul li {
+	width: 134px;
+	background: url(../img/outline/tab_bg.png);
+}
+
+h2 {
+	background: url(../img/outline/title_bg.png);
+}
+
+#contents_inner a{
+	color: #14A0BE;
+}
+
+#contents_inner h3 {
+	color: #14A0BE;
+}
+
+
+/* ----------------------------------------
+	outline.html 
+---------------------------------------- */
+
+#outline_detail {
+}
+
+#outline_detail dl {
+	padding:0 10px;
+	border-top: 3px double #14A0BE;
+}
+#outline_detail dl dt,
+#outline_detail dl dd {
+	border-bottom: 1px solid #14A0BE;
+}
+#outline_detail dl dt {
+	width: 110px;
+	padding: 15px 20px 15px 0;
+	font-weight: bold;
+	color:#14A0BE;
+	text-align: right;
+	float:left;
+	clear:left;
+}
+#outline_detail dl dd {
+	padding: 15px 20px 15px 0;
+	margin-left: 130px;
+}
+
+#outline_detail dl dt.end,
+#outline_detail dl dd.end {
+	border-bottom-color: #FFF;
+}
+
+#outline_detail dl#inquiry {
+	margin-top:20px;
+}
+#outline_detail dl#inquiry dt,
+#outline_detail dl#inquiry dd {
+	border-bottom-color: #FFF;
+}
+
+#term_buyer {
+	color: #641E82;
+}
+
+#term_public {
+	color: #E11E5A;
+}
+
+/* ----------------------------------------
+	access.html 
+---------------------------------------- */
+
+#access {
+	width: 625px;
+	text-align: center;
+	margin: 30px auto 10px auto;
+}
+
+#accessmap {
+	margin: auto;
+}
+
+#access ul {
+	margin-top: 30px;
+}
+
+#access ul li {
+	padding: 10px 20px 10px 25px;
+	text-align: left;
+	vertical-align: top;
+	border-top: 1px solid #14A0BE;
+
+}
+
+#access ul li.end  {
+	color: #14A0BE;
+}
+
+#access ul li .name_trans  {
+	font-weight: bold;
+	margin-left: -20px;
+	color: #14A0BE;
+}
+
+
+/* ----------------------------------------
+	hallmap.html 
+---------------------------------------- */
+
+#hallmap_area {
+	margin: 30px 40px 10px 40px;
+}
+
+#hallmap_area h3 {
+	margin-bottom: 20px;
+}
+
+#forpublic, #forbusiness {
+	margin-bottom: 25px;
+}
+
+#forpublic p, #forbusiness p {
+	text-align: center;
+}
+
+#forpublic p a, #forbusiness p a {
+	margin: 10px 24px;
+}
+
+
+/* ----------------------------------------
+	company_html
+---------------------------------------- */
+
+#category_list {
+	margin: 20px 0 30px 0;
+	font-size: 14px;
+}
+
+#other_category {
+	float: right;
+}
+
+#other_category a {
+	margin-left: 15px;
+}
+
+#list_part {
+	float: left;
+}
+
+#list_part ul {
+	margin-bottom: 10px;
+}
+
+#list_part li {
+	float: left;
+	padding: 0 6px;
+	border-left: 1px solid #1a5397;
+}
+
+#list_part li span{
+	color: #14A0BE;
+	font-weight: bold;
+}
+
+#list_part ul li.end{
+	border-right: 1px solid #1a5397;
+}
+
+#other_category a img {
+	margin-right: 4px;
+}
+
