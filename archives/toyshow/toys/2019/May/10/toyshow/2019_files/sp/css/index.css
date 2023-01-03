@@ -1,0 +1,101 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* ----------------------------------------
+    Index
+---------------------------------------- */
+
+#main {
+    padding-top: 15.625%;
+    padding-bottom: 100%;
+    margin: auto;
+    position: relative;
+    width: 100%;
+    background: url(../img/index/kv.jpg) #c8e6f0 no-repeat center top;
+    background-size: 100% auto;
+    background-position: bottom center;
+}
+
+.resultSp p {
+	text-align: center;
+    margin-bottom: 0;
+}
+.resultSp img {
+    margin-top: 2%;
+}
+
+/*------------- Outline -------------*/ 
+
+span.public {
+	color: #ff5064;
+	font-weight: bold;
+}
+span.buyer {
+	color: #00b4dc;
+	font-weight: bold;
+}
+
+section.outline dt {
+    border-top: 1px solid #e6e6e6;
+    padding-top: 2%;
+    margin-top: 2%;
+}
+section.outline h2+dl dt:first-child {
+    border-top: none;
+    padding-top: 0;
+    margin-top: 0;
+}
+section.outline .frame3 {
+    margin: 2% 0;
+}
+section.outline .frame3+dl dd:last-child {
+    border-bottom: 1px solid #e6e6e6;
+    padding-bottom: 2%;
+    margin-bottom: 2%;
+}
+
+section li img {
+	margin-bottom: 10px;
+	display: block;
+}
+
+/*------------- Hallmap -------------*/ 
+
+.hallmap_buyer, .hallmap_public {
+    border-bottom: none;
+    margin-bottom: 3%;
+    padding-top: 0;
+    padding-bottom: 5%;
+    text-align: center;
+}
+.hallmap_buyer img, .hallmap_public img {
+    width: 95%;
+    margin: auto;
+}
+.hallmap_buyer dd {
+    text-align: center;
+    background: #fff;
+    margin: auto;
+    padding: 5% 0;
+}
+
+/*------------- sp_sidebar -------------*/ 
+
+
+.sp_sidebar {
+    display: block;
+    height: auto;
+    background: #fff;
+}
+.sp_sidebar li {
+    width: 93.5%;
+    float: left;
+    margin: 3.125% 3.25% 0;
+}
+.sp_sidebar li:last-child {
+	margin-bottom: 3.125%;
+}
+.sp_sidebar li img {
+	display: block;
+    width: 100%;
+}

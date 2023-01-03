@@ -1,0 +1,195 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* ----------------------------------------
+    Index
+---------------------------------------- */
+
+body {
+	background: url(../img/common/bg2.jpg) center top no-repeat #f0f0f0;
+	background-position: 5% auto;
+	background-size: 100%;
+}
+
+#container {
+	padding-top: 29%;
+}
+
+#sekai-kodomohaku {
+    position: absolute;
+    margin-top: -23%;
+    top: 0;
+    right: -2%;
+    width: 25%;
+}
+
+section p.notice {
+	border: 1px solid #ffa000;
+	margin: 3% 0 0;
+	padding: 3%;
+	color: #ffa000;
+	text-align: center;
+	font-weight: bold;
+}
+
+/*------------- Result_Buyer -------------*/ 
+
+.pc {
+	display: none;
+}
+
+section h2.buyer_title {
+	color: #00b4dc;
+    border-bottom: 1px solid #00b4dc;
+}
+section h2.public_title {
+	color: #FF5064;
+    border-bottom: 1px solid #FF5064;
+}
+section h2.result_title {
+	color: #FF9600;
+    border-bottom: 1px solid #FF9600;
+}
+.result_btn {
+	margin-right: 2%;
+}
+span.br:before {
+	content: "\a";
+	white-space: pre;
+}
+.colorBlue {
+	margin: 2% 0;
+	color: #00B4DC;
+	font-weight: bold;
+}
+.colorRed {
+	margin: 2% 0;
+	color: #FF5064;
+	font-weight: bold;
+}
+section a img {
+	width: 47%;
+}
+.pics {
+	margin: 3% 0;
+	border-bottom: none;
+}
+.pics a {
+	margin-right: 2.5%;
+}
+.pics a img {
+	margin-bottom: 2.5%;
+}
+.pics a:nth-child(2n) {
+	margin-right: 0;
+}
+
+
+/* public_total
+---------------------------------------- */
+
+#result {
+	width: 100%;
+}
+
+#public_total td {
+	background: #ffe6e6;
+	width: 25%;
+	color: #ff5064;
+}
+
+#result .headline_pub {
+	background: #ff5064;
+	color: #fff;
+	text-align: center;
+	font-weight: bold;
+}
+
+#result th.headline {
+	background: #00b4dc;	
+}
+
+.sort,.headline {
+	background: #646464;
+	color: #fff;
+	text-align: center;	
+	font-weight: bold;
+}
+.sort {
+	width: 25%;
+}
+
+.result {
+    font-size: 13px;
+}
+
+.result table {
+    margin-top: 20px;	
+}
+.result th,
+.result td {
+	border: solid #fff 2px;
+}
+.result th {
+    background: #E6E6E6;
+	padding: 2%;
+    border-left: none;
+    color: #646464;
+	font-size: 10px;
+    text-align: left;
+}
+.result th.pub {
+    background: #E6E6E6;
+	padding: 1%;
+    border-left: none;
+    color: #646464;
+    text-align: left;
+}
+
+.result td {
+	text-align: center;
+}
+
+.result .sort,
+.result .headline {
+	background: #3c3c3c;
+	color: #fff;
+	text-align: center;	
+	font-weight: bold;
+}
+.result .sort {
+	width: 25%;	
+}
+
+#result td {	
+	background: #d2f0f0;
+	color: #00b4dc;
+}
+
+#result td.pub {	
+	background: #ffe6e6;
+	width: 109px;
+	color: #ff5064;
+}
+
+#buyer_total .headline {
+	background: #00b4dc;	
+}
+
+/* total
+---------------------------------------- */
+
+#total {
+	clear: left;
+    width: 100%;
+	margin: 0;
+}
+#total th,
+#total td {
+	border-top-style: none;	
+}
+#total td{
+	background: #ff9600;
+	color: #fff;
+    width: 57%;
+}

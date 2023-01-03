@@ -1,0 +1,140 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* ----------------------------------------
+	contents
+---------------------------------------- */
+
+a {
+	color: #ff5064;
+}
+
+#gnav {
+    background: url(../img/public_attention/gnav_bg.png) repeat-x;
+}
+
+#bnr {
+	background: #ff5064;
+}
+
+#container {
+    background: url(../img/public_attention/container_bg_body.gif) repeat;
+}
+
+#anker {
+    padding: 0 100px 30px 0;
+    width: 530px;
+}
+#anker li {
+    padding: 0 10px;
+    margin: 2px 0;
+    line-height: 21px;
+    border-right: 1px solid #3c3c3c;
+    border-top: none;
+    display: inline-block;
+    float: left;
+}
+
+section {
+	margin-bottom: 0;
+	border-bottom: none;
+}
+section.first {
+    padding-top: 0;
+    margin-top: 0;
+}
+
+section .sp {
+	display: none;
+}
+section h3 {
+	margin-bottom: 20px;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 1.5;
+	color: #ff5064;
+}
+section h4 {
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.5;
+    color: #ff5064;
+}
+
+section.event {
+	margin-top: 0;
+    margin-bottom: 30px;
+	padding: 6px;
+	background: #ff5064;
+	border-radius: 10px;
+}
+section.event:last-child {
+	margin-bottom: 0;
+}
+section.event > .company-name {
+	margin: 0;
+	padding: 5px 15px 14px;
+	color: #fff;
+	font-weight: normal;
+	font-size: 1em;
+}
+section.event > .company-name span {
+	padding-right: 10px;
+	font-weight: bold;
+}
+section.event > .company-name a {
+	color: #fff;
+}
+section.event .info {
+	padding: 25px 35px 1px;
+	background: #fff;
+	color: #000;
+}
+section.event .info h4 {
+	margin: 0;
+	font-size: 1.2em;
+}
+section.event .info dl {
+	margin-bottom: 20px;
+	position: relative;
+}
+section.event .info dt {
+    padding-top: 15px;
+	position: absolute;
+	left: 0;
+	font-weight: bold;
+}
+section.event .info dd {
+	padding: 15px 0 15px 70px;
+    border-bottom: 1px solid #e6e6e6;
+}
+section.event .info dd:last-child {
+	border-bottom: none;
+}
+
+.imgcnt {
+	margin: 5px auto;
+	width: 650px;
+}
+.imgcnt img {
+	margin-right: 10px;
+}
+
+section p {
+	text-indent: -1em;
+	padding-left: 1em;
+}
+section .content-image {
+	margin: 20px 0;
+	text-align: center;
+}
+
+.colorBlue {
+	color: #00b4dc;
+}
+.colorPink {
+	display: block;
+	color: #ff5064;
+	font-weight: bold;
+}

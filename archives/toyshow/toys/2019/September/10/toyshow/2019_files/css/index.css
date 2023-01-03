@@ -1,0 +1,117 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/* ----------------------------------------
+    main
+---------------------------------------- */
+
+body {
+    background: url(../img/common/kv.jpg) #c8e6f0 no-repeat center top;
+    background-size: 1200px;
+    background-position-y: 80px;
+}
+
+#main {
+    margin: auto;
+    position: relative;
+    width: 980px;
+    height: 820px;
+}
+#main .kodomohaku {
+	position: absolute;
+    bottom: 65px;
+    right: 60px;
+}
+.frame3 {
+    margin: 0;
+}
+
+section.outline dl {
+	position: relative;
+}
+.outline dt {
+    position: absolute;
+    left: 0;
+    padding: 13px 0;
+}
+.outline dd {
+    display: block;
+    border-top: 1px solid #e6e6e6;
+    padding-left: 7em;
+    padding: 13px 0 13px 7em;
+}
+section.outline .frame3+dl dd:last-child {
+    border-bottom: 1px solid #e6e6e6;
+}
+.outline .frame3 {
+	margin-top: 0;
+}
+.outline span.buyer {
+	font-weight: bold;
+	color: #00b4dc;
+}
+.outline span.public {
+	font-weight: bold;
+	color: #ff5064;
+}
+
+section li {
+	float: left;
+	width: 203px;
+}
+section li img {
+	width: 100%;
+}
+
+section.buyer li:nth-child(2),
+section.public li:nth-child(2) {
+	margin: 0 15px;
+}
+
+
+.resultPc {
+	position: absolute;
+    bottom: 70px;
+    left: 0;
+    width: 495px;
+    height: 180px;
+}
+.end_buyer {
+	background: url(../img/index/btn_result_buyer.png) left bottom no-repeat;	
+}
+.end_all {
+	background: url(../img/index/btn_result.png) left bottom no-repeat;	
+}
+.resultPc li {
+	float: left;
+}
+.resultPc li a {
+    display: block;
+    width: 145px;
+    height: 140px;
+	margin: 20px 0;
+}
+.resultPc #result_buyer {
+	margin-left: 20px;
+}
+.resultPc #result_public,
+.resultPc #result_all {
+	margin-left: 10px;
+}
+#main #end {
+	position: absolute;
+	top: 60px;
+	right: 0;
+}
+
+.resultSp {
+	display: none;
+}
+
+section.buyer h3 img {
+	width: 615px;
+}
+section.public h3 img {
+	width: 530px;
+}
