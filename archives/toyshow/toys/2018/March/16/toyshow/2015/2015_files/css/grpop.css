@@ -1,0 +1,103 @@
+@charset "Shift_JIS";
+
+/* ----------------------------------------
+	grPop
+---------------------------------------- */
+
+#popWrap {
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: -1;
+	display: none;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+#popWrap.active {
+	z-index: 1000;
+}
+#popWrap a {
+	display: block;
+	opacity: 0.7;
+}
+
+#popWrap .overlay {
+	background: #000;
+	opacity: 0.6;
+	filter: alpha(opacity=60);
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
+
+#popContents {
+	position: relative;
+	width: 900px;
+	margin: 50px auto 0;
+	z-index: 1001;
+	overflow: visible !important;
+}
+
+.popImg {
+	display: none;
+}
+
+#popContents img {
+	position: absolute;
+	z-index: 1002;
+	display: none;
+}
+
+#popContents.frameW img {
+	max-width: 100%;
+}
+
+#popContents.frameH img {
+	max-height: 100%;
+}
+
+#popTitle,
+#popTitleH {
+	background: #fff;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	box-sizing: border-box;
+	width: 100%;
+	padding: 10px;
+	color: #666;
+	text-align: left;
+}
+
+#popPrev,
+#popNext {
+	position: absolute;
+	top: -32px;
+	z-index: 1003;
+	width: 63px;
+	height: 32px;
+	margin-top: 0;
+	text-indent: -20000px;
+}
+#popPrev {
+	background: url(../../img/slimbox/prevlabel.gif) no-repeat center;
+	left: 0;
+}
+#popNext {
+	background: url(../../img/slimbox/nextlabel.gif) no-repeat center;
+	right: 0;
+}
+
+#popClose {
+	background: url(../../img/slimbox/closelabel.gif) no-repeat center #fff;
+	position: absolute;
+	right: 0;
+	bottom: -32px;
+	z-index: 1002;
+	width: 66px;
+	height: 22px;
+	padding: 5px 10px;
+}
