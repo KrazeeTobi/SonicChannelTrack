@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* ----------------------------------------
+    Index
+---------------------------------------- */
+
+body {
+	background: url(../img/common/bg2.jpg) center top no-repeat #f0f0f0;
+	background-size: 100%;
+	font-size: 12px;
+}
+
+#container {
+    padding-top: 27%;
+}
+
+#sekai-kodomohaku {
+	position: absolute;
+    top: -160px;
+    right: 50%;
+    margin-right: -526px;
+}
+
+/*------------- Hallmap -------------*/ 
+
+.hallmap_buyer,
+.hallmap_public {
+	border-bottom: none;
+    margin-bottom: 30px;
+    padding-top: 88px;
+    padding-bottom: 0;
+    width: 660px;
+    height: 150px;
+    text-align: center;
+}
+.hallmap_buyer {
+	background: url(../img/hallmap/hallmap_bg.gif) no-repeat;
+	background-size: 100%;
+}
+.hallmap_public {
+	background: url(../img/hallmap/hallmap_bg.gif) no-repeat;
+	background-size: 100%;
+}

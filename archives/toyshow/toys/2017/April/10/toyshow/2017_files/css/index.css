@@ -1,0 +1,112 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* ----------------------------------------
+    Index
+---------------------------------------- */
+
+body {
+	background: url(../img/common/bg.jpg) center top no-repeat #f0f0f0;
+	background-size: 100%;
+}
+
+#container {
+    padding-top: 51%;
+}
+
+#sekai-kodomohaku {
+	position: absolute;
+    top: -160px;
+    right: 50%;
+    margin-right: -526px;
+}
+
+section p.notice {
+	border: 1px solid #ffa000;
+	padding: 10px;
+	text-align: center;
+}
+
+/*------------- Outline -------------*/ 
+section dl {
+	position: relative;
+}
+section dt {
+	position: absolute;
+	left: 0;
+}
+section dd {
+    display: block;
+    border-bottom: 1px solid #e6e6e6;
+    padding-left: 7em;
+    padding-bottom: 10px;
+    margin-bottom: 13px;
+}
+
+span.public {
+	color: #ff5064;
+	font-weight: bold;
+}
+span.buyer {
+	color: #00b4dc;
+	font-weight: bold;
+}
+
+section dd a {
+	color: #ffa000;
+}
+
+
+/*------------- index_menu -------------*/ 
+
+#index_menu {
+    padding: 10px 0 10px 10px;
+    width: 710px;
+}
+
+#index_menu li {
+    margin: 0;
+    margin-right: 10px;
+	padding: 0;
+	list-style-type: none;
+    float: left;
+}
+
+#index_menu li img{
+	width: 345px;
+	vertical-align:bottom;
+}
+
+
+/* ----------------------------------------
+    page link
+---------------------------------------- */
+
+div#outline,
+div#hallmap {
+	padding: 125px 0 0;
+    margin: -125px 0 0;
+	border: none;
+}
+
+
+/*------------- Hallmap -------------*/ 
+
+.hallmap_buyer,
+.hallmap_public {
+	border-bottom: none;
+    margin-bottom: 30px;
+    padding-top: 88px;
+    padding-bottom: 0;
+    width: 660px;
+    height: 152px;
+    text-align: center;
+}
+.hallmap_buyer {
+	background: url(../img/index/hallmap_bg.gif);
+	background-size: 100%;
+}
+.hallmap_public {
+	background: url(../img/index/hallmap_bg.gif);
+	background-size: 100%;
+}
