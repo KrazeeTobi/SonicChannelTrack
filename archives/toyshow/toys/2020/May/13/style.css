@@ -1,0 +1,925 @@
+body {
+	font: 100%/1.4 "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS P Gothic", sans-serif;
+	background: url(images/bg.gif);
+/*	background:#FF9966; */
+	margin: 0;
+	padding: 0;
+	color: #000;
+}
+
+/* ~~ エレメント / タグセレクター ~~ */
+ul, ol, dl { /* ブラウザー間の相違により、リストの余白とマージンをゼロにすることをお勧めします。一貫性を保つために、量をここで指定するか、リストに含まれるリスト項目 (LI、DT、DD) で指定できます。より詳細なセレクターを記述しない限り、ここで指定する内容が .nav リストにも適用されることに注意してください。 */
+	padding: 0;
+	margin: 0;
+}
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0;	 /* 上マージンを削除すると、マージンを含む div からマージンがはみ出す場合があるという問題を回避できます。残った下マージンにより、後続のエレメントからは離されます。 */
+	padding-right: 15px;
+	padding-left: 15px; /* div 自体ではなく div 内でエレメントの両側に余白を追加すると、ボックスモデル計算が不要になります。代わりに、両側に余白を指定した div をネストして使用することもできます。 */
+}
+a img { /* このセレクターは、一部のブラウザーでイメージをリンクで囲んだ場合にイメージの周囲に表示される初期設定の青いボーダーを削除します。 */
+	border: none;
+}
+
+/* ~~ サイトのリンクのスタイル付けは、ホバー効果を作成するセレクターグループも含め、この順序にする必要があります。~~ */
+a:link {
+	color:#414958;
+	text-decoration: underline; /* 非常に特殊な表示方法でリンクをスタイル付けする場合を除き、一目で見分けられるように下線を指定することをお勧めします。 */
+}
+a:visited {
+	color: #4E5869;
+	text-decoration: underline;
+}
+a:hover, a:active, a:focus { /* このセレクターグループは、キーボードを使用するユーザーに対し、マウスを使用するユーザーと同じホバー効果を提供します。 */
+	text-decoration: none;
+}
+
+/* ~~ このコンテナが他のすべての div を囲み、パーセンテージに基づいた幅を指定します。~~ */
+.container {
+	width: 80%;
+	max-width: 1000px;/* レイアウトが大型モニターで広がりすぎないように、最大幅を指定することをお勧めします。これにより、読みやすい行の長さを保つことができます。IE6 ではこの宣言は無視されます。 */
+	min-width: 1000px;/* レイアウトが狭くなりすぎないように、最小幅を指定することをお勧めします。これにより、サイドカラムで読みやすい行の長さを保つことができます。IE6 ではこの宣言は無視されます。 */
+	
+/* メインのバックグランド*/
+/*	background: #FFFFD2; */
+    background: #FFFFCC;
+	margin: 0 auto; /* 幅に加え、両側を自動値とすることで、レイアウトが中央に揃います。.container の幅を 100% に設定した場合、これは必要ありません。 */
+}
+
+/* ~~ ヘッダーには幅は指定されません。ヘッダーはレイアウトの幅全体まで広がります。ヘッダーには、ユーザー独自のリンクされたロゴに置き換えられるイメージプレースホルダーが含まれます。~~ */
+
+.header { 
+   background: url(images/header.gif); 
+	
+}
+
+
+.header_link{height:72px;}
+
+/* ~~ レイアウトに使用するカラムです。~~ 
+
+1) 余白は、div の上部または下部にのみ配置されます。これらの div 内のエレメントには、それ自体に余白があるので、ボックスモデル計算を行う必要がありません。ただし、div 自体に両側の余白やボーダーを指定した場合、その値が加算されたものが合計幅になることに注意してください。div 内のエレメントの余白を削除し、さらにその div 内に、全体のデザインに必要な幅や余白を指定していない 2 つ目の div を追加することもできます。
+
+2) カラムはすべてフロートしているため、マージンは指定されていません。マージンを追加する必要がある場合は、フロート方向には指定しないでください (例えば、右フロートに設定した div の右マージン)。多くの場合、代わりに余白を使用できます。このルールに従わない場合は、div のルールに「display:inline」宣言を追加し、一部のバージョンの Internet Explorer でマージンが 2 倍になるバグを回避する必要があります。
+
+3) クラスはドキュメント内で複数回使用できるので (またエレメントには複数のクラスを適用できます)、カラムには ID ではなくクラス名が割り当てられます。例えば、必要に応じて 2 つのサイドバー div をスタックできます。クラスを各ドキュメントで一度しか使用しないのであれば、ユーザーの好みに応じて、クラス名を ID に変更することができます。
+
+4) ナビゲーションを右ではなく左に配置したい場合、これらのカラムを反対方向にフロートさせると (すべて右方向にする代わりに、すべて左方向に設定)、反転してレンダリングされます。HTML ソース内で div を移動する必要はありません。
+
+*/
+.sidebar1 {
+	float: right;
+	width: 20%;
+	background: #FFFFCC; 
+	padding-bottom: 10px;
+}
+
+.sidebar2 {
+	float: left;
+	width: 15%;
+	background: #FFF; 
+	padding-bottom: 10px;
+}
+
+#sideBar {
+	float: left;
+	width: 15%;
+	background: #FFF; 
+	padding-bottom: 10px;
+	color: #fff;
+}
+
+#sideBar p {
+	padding: 10px;
+}
+
+
+.content {
+	padding: 10px 0;
+	width: 65%;
+	float: left;
+	text-align: left;
+}
+
+.content2 {
+	padding: 10px 0;
+	width: 85%;
+	float: left;
+	text-align: left;
+	 background: url(images/Texture0102.jpg);
+}
+
+.content3 {
+	padding: 10px 0;
+	width: 100%;
+	float: left;
+	text-align: left;
+	 background: url(images/Texture0102.jpg);
+}
+
+/* ~~ このセレクターグループは、.content 内のリストに領域間隔を指定します。~~ */
+.content ul, .content ol { 
+	padding: 0 15px 15px 100px; /* この余白は、上述の見出しと段落ルールの右の余白を表します。下の余白はリスト内の他のエレメントとの間隔用に配置され、左の余白はインデント作成用に配置されています。これは必要に応じて調整できます。 */
+}
+
+/*           　　　　　　　　　　　　　　　　*/
+/* 右のメニュのＳＰＲＹ　使っていない         */
+/*                         　　　　　　　　*/
+
+/* ~~ ナビゲーションリストのスタイル付け (Spry などの事前作成済みのフライアウトメニューを使用する場合は削除できます) ~~ */
+
+
+.content2 {
+	padding: 10px 0;
+	width: 84%;
+	float: left;
+}
+/* ~~ このセレクターグループは、.content 内のリストに領域間隔を指定します。~~ */
+.content2 ul, .content2 ol { 
+	padding: 0 15px 15px 40px; /* この余白は、上述の見出しと段落ルールの右の余白を表します。下の余白はリスト内の他のエレメントとの間隔用に配置され、左の余白はインデント作成用に配置されています。これは必要に応じて調整できます。 */
+}
+
+
+
+
+ul.nav {
+	list-style: none; /* リストのマーカーを削除します。 */
+	border-top: 0px solid #666; /* リンク用の上部のボーダーを作成します。他のすべてのものは LI 上で下部のボーダーを使用して配置されます。 */
+	margin-bottom: 15px; /* 下のコンテンツのナビゲーション間の間隔を作成します。 */
+}
+ul.nav li {
+	border-bottom: 1px none #666; /* ボタンの区切り線を作成します。 */
+}
+ul.nav a, ul.nav a:visited { /* これらのセレクターをグループ化することで、リンクのボタン表示が訪問後も確実に保持されます。 */
+	padding: 5px 5px 5px 15px;
+	display: block; /* リンクにブロックプロパティを指定し、リンクが含まれる LI 全体がリンクになるようにします。これにより、領域全体がマウスのクリックに反応するようになります。 */
+	text-decoration: none;
+	background: #FCC; 
+	color: #000;
+	font-size:11px
+}
+ul.nav a:hover, ul.nav a:active, ul.nav a:focus { /* マウスを使用する場合もキーボードを使用する場合も、背景色とテキストカラーを変更します。 */
+	background: #F66;  
+	color: #FFF;
+}
+
+
+
+/* ~~ フッター ~~ */
+.footer {
+	padding: 1px 0;
+	width:100%;
+	height:10%;
+	background: #FF99CC; 
+
+	position: relative;/* IE6 に、適切にクリアするための hasLayout を指定します。 */
+	clear: both; /* この clear プロパティにより .container は、カラムの範囲がどこまでかを認識してその範囲を含めるようになります。 */
+}
+
+/* ~~ その他の float/clear クラス ~~ */
+.fltrt {  /* このクラスを使用すると、ページ内でエレメントを右にフローティングさせることができます。フローティングさせるエレメントは、ページ内で横に並べて表示するエレメントの前に指定する必要があります。 */
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { /* このクラスを使用すると、ページ内でエレメントを左にフローティングさせることができます。フローティングさせるエレメントは、ページ内で横に並べて表示するエレメントの前に指定する必要があります。 */
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat { /* このクラスは、#footer が #container から削除されているか取り出されている場合に、<br /> または空の div で、フローティングさせる最後の div に続く最後のエレメントとして (#container 内に) 配置できます。 */
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}
+
+
+.kaichou {width:456px;margin-left:auto;margin-right:auto;txt-align:left}
+.kaichou_name{
+	txt-align:right;
+	text-align: right;
+}
+
+.rinen {
+	width:456px;
+	margin-left:auto;
+	margin-right:auto;
+	txt-align:center;
+	text-align: center;
+}
+
+/* font */
+.bd10	{
+	font-size:10px;
+	color:#333333;
+	line-height:16px;
+	text-align: right;
+}
+.bd		{	font-size:12px;	color:#333333; line-height:18px; }
+.bd12	{	font-size:12px;	color:#333333; line-height:16px; }
+.bd14	{	font-size:14px;	color:#333333; line-height:20px; }
+
+.bd15	{
+	font-size:10px;
+	color:#333333;
+	line-height:16px;
+	text-align: left;
+}
+
+.bdblk14 {font-size:14px;
+        color:#000;}
+.bdblk16 {font-size:16px;
+        color:#000;}
+.bdblk18 {font-size:18px;
+        color:#000;}
+				
+.bdred14 {font-size:14px;
+        color:#F00;}
+.bdred16 {font-size:16px;
+        color:#F00;}
+.bdred18 {font-size:18px;
+        color:#F00;}
+.bdred12 {font-size:12px;
+        color:#F00;}
+.bdblue12 {font-size:12px;
+        color:#0000FF;}
+.bdred {font-size:10px;
+        color:#F00;}
+.bdblue {font-size:9px;
+        color:#0000FF;}
+.bdblue16 {font-size:16px;
+        color:#0000FF;}
+
+.bd16 a{font-size:10px;color:#003366; text-decoration:none;}
+.bd16 a:hover{color:#003366; text-decoration:underline}
+.bd16 a:link{color:#003366;}
+
+.bdbl {font-size:16px;color:#0099FF;text-align:center;}
+
+/* お知らせ（左側) */
+.news_box{ width:380px; height:240px; overflow:auto; background-color:#FFFFFF;} /*white*/
+.news_line { border-bottom:1px solid #E3E3D9;}
+.news a{color:#003366; text-decoration:none;}
+.news a:hover{color:#003366; text-decoration:underline}
+.news a:link{color:#003366;}
+
+.news_under {color:#FF4500;}
+
+/* お知らせ（右側) */
+.news2_box{ width:380px; height:130px; overflow:auto;background-color:#FFFAFA; } /*snow*/
+.news2_line { border-bottom:1px solid #E3E3D9;}
+.news2 a{color:#003366; text-decoration:none;}
+.news2 a:hover{color:#003366; text-decoration:underline}
+.news2 a:link{color:#003366;}
+
+/* 東北震災画像 */
+.gazou_center{
+	text-align: center;
+}
+
+/* space */
+.mar_t20{ margin-top:20px;}
+.mar_tb20{ margin:20px 0;}
+.sp_menu{margin-bottom:7px;}
+.sp_navi{ margin:1px;}
+.pad_8{padding:8px;}
+.mar_t5{ margin-top:5px;}
+.mar_l16{ margin-left:16px;}
+.ftcolor {
+	color: #FFF;
+	font-size:9px;
+}
+f10 {
+	font-size: 10%;
+}
+
+/* 会員専用ページ　ボタン・ロールオーバー  */
+.rollover-image{
+ width:190px;
+ height:30px;
+ background-image:url(images/kaiin_bn.jpg);
+ border:none;
+ }
+ .rollover-image:hover{
+ width:190px;
+ height:30px;
+ background-position:bottom;
+ }
+ 
+ /* ＳＴ企業向けページ　ボタン・ロールオーバー  */
+.rollover-image2{
+ width:190px;
+ height:60px;
+ background-image:url(images/st_bn.jpg);
+ border:none;
+ }
+ .rollover-image2:hover{
+ width:190px;
+ height:60px;
+ background-position:bottom;
+ }
+ 
+  /* ＳＴ検索サイトページ　ボタン・ロールオーバー  */
+.rollover-image3{
+ width:190px;
+ height:60px;
+ background-image:url(images/st_kensaku_bn.jpg);
+ border:none;
+ }
+ .rollover-image3:hover{
+ width:190px;
+ height:60px;
+ background-position:bottom;
+ }
+
+  /* ヘッダリンク　個人情報保護方針　ボタン・ロールオーバー  */
+.h-link1{
+ width:100px;
+ height:13px;
+ background-image:url(images/hlink1.jpg);
+ border:none;
+ }
+ .h-link1:hover{
+ width:100px;
+ height:13px;
+ background-position:bottom;
+ }
+ 
+   /* ヘッダリンク　個人情報保護方針　ボタン・ロールオーバー  */
+.h-link2{
+ width:100px;
+ height:13px;
+ background-image:url(images/hlink2.jpg);
+ border:none;
+ }
+ .h-link2:hover{
+ width:100px;
+ height:13px;
+ background-position:bottom;
+ }
+ 
+   /* ヘッダリンク　個人情報保護方針　ボタン・ロールオーバー  */
+.h-link3{
+ width:100px;
+ height:13px;
+ background-image:url(images/hlink3.jpg);
+ border:none;
+ }
+ .h-link3:hover{
+ width:100px;
+ height:13px;
+ background-position:bottom;
+ }
+ 
+   /* ヘッダリンク　個人情報保護方針　ボタン・ロールオーバー  */
+.h-link4{
+ width:100px;
+ height:13px;
+ background-image:url(images/hlink4.jpg);
+ border:none;
+ }
+ .h-link4:hover{
+ width:100px;
+ height:13px;
+ background-position:bottom;
+ }
+ 
+   /* ヘッダリンク　個人情報保護方針　ボタン・ロールオーバー  */
+.h-link5{
+ width:100px;
+ height:13px;
+ background-image:url(images/hlink5.jpg);
+ border:none;
+ }
+ .h-link5:hover{
+ width:100px;
+ height:13px;
+ background-position:bottom;
+ }
+ 
+ 
+    /* 統計資料トップ　玩具市場規模　ボタン・ロールオーバー  */
+.tokei-toysijyou{
+ width:300px;
+ height:50px;
+ background-image:url(images/toy_sijyou_data.jpg);
+ border:none;
+ }
+ .tokei-toysijyou:hover{
+ width:300px;
+ height:50px;
+ background-position:bottom;
+ }
+ 
+     /* 統計資料トップ　こどもの成長とおもちゃ　ボタン・ロールオーバー  */
+.tokei-kodomo{
+ width:300px;
+ height:50px;
+ background-image:url(images/kodomo_seichou.jpg);
+ border:none;
+ }
+ .tokei-kodomo:hover{
+ width:300px;
+ height:50px;
+ background-position:bottom;
+ }
+ 
+      /* 統計資料トップ　玩具関連施設　ボタン・ロールオーバー  */
+.tokei-sisetsu{
+ width:300px;
+ height:50px;
+ background-image:url(images/gangu_sisetsu.jpg);
+ border:none;
+ }
+ .tokei-sisetsu:hover{
+ width:300px;
+ height:50px;
+ background-position:bottom;
+ }
+ 
+       /* 統計資料トップ　おもちゃの歴史　ボタン・ロールオーバー  */
+.tokei-history{
+ width:300px;
+ height:50px;
+ background-image:url(images/toy_history.jpg);
+ border:none;
+ }
+ .tokei-history:hover{
+ width:300px;
+ height:50px;
+ background-position:bottom;
+ }
+ 
+/* サイドメニュー左　ロールオーバー  */
+/* 協会概要　*/
+
+.sm-kg_01{
+ width:150px;
+ height:30px;
+ background-image:url(images/smenu_kyokaigaiyou_1.jpg);
+ border:none;
+ }
+ .sm-kg_01:hover{
+ width:150px;
+ height:30px;
+ background-position:bottom;
+ }
+ 
+ .sm-kg_02{
+ width:150px;
+ height:30px;
+ background-image:url(images/smenu_kaichou.jpg);
+ border:none;
+ }
+ .sm-kg_02:hover{
+ width:150px;
+ height:30px;
+ background-position:bottom;
+ }
+ 
+ .sm-kg_03{
+ width:150px;
+ height:30px;
+ background-image:url(images/smenu_rinen_teikan.jpg);
+ border:none;
+ }
+ .sm-kg_03:hover{
+ width:150px;
+ height:30px;
+ background-position:bottom;
+ }
+ 
+  .sm-kg_04{
+ width:150px;
+ height:30px;
+ background-image:url(images/smenu_soshiki.jpg);
+ border:none;
+ }
+ .sm-kg_04:hover{
+ width:150px;
+ height:30px;
+ background-position:bottom;
+ }
+ 
+  .sm-kg_05{
+ width:150px;
+ height:30px;
+ background-image:url(images/smenu_kaiji.jpg);
+ border:none;
+ }
+ .sm-kg_05:hover{
+ width:150px;
+ height:30px;
+ background-position:bottom;
+ }kaichou_name {
+	text-align: right;
+}
+
+/* 協会の主な事業　*/
+.sm-jg_01{
+ width:150px;
+ height:30px;
+ background-image:url(images/smenu_kyokaijigyou_1.jpg);
+ border:none;
+ }
+ .sm-jg_01:hover{
+ width:150px;
+ height:30px;
+ background-position:bottom;
+ }
+ 
+.sm-jg-ts_01{
+ width:150px;
+ height:30px;
+ background-image:url(images/smenu_kyokaijigyou_toyshow0.jpg);
+ border:none;
+ }
+ .sm-jg-ts_01:hover{
+ width:150px;
+ height:30px;
+ background-position:bottom;
+ }
+ 
+ .sm-jg-ts_02{
+ width:150px;
+ height:30px;
+ background-image:url(images/smenu_kyokaijigyou_toyshow1.jpg);
+ border:none;
+ }
+ .sm-jg-ts_02:hover{
+ width:150px;
+ height:30px;
+ background-position:bottom;
+ }
+
+  .sm-jg-ts_03{
+ width:150px;
+ height:30px;
+ background-image:url(images/smenu_kyokaijigyou_toyshow2.jpg);
+ border:none;
+ }
+ .sm-jg-ts_03:hover{
+ width:150px;
+ height:30px;
+ background-position:bottom;
+ }
+ .sm-jg_02{
+ width:150px;
+ height:30px;
+ background-image:url(images/smenu_kyokaijigyou_2.jpg);
+ border:none;
+ }
+ .sm-jg_02:hover{
+ width:150px;
+ height:30px;
+ background-position:bottom;
+ }
+ 
+.sm-jg-st_01{
+ width:150px;
+ height:30px;
+ background-image:url(images/smenu_kyokaijigyou_st1.jpg);
+ border:none;
+ }
+ .sm-jg-st_01:hover{
+ width:150px;
+ height:30px;
+ background-position:bottom;
+ }
+.sm-jg-st_02{
+ width:150px;
+ height:30px;
+ background-image:url(images/smenu_kyokaijigyou_st2.jpg);
+ border:none;
+ }
+ .sm-jg-st_02:hover{
+ width:150px;
+ height:30px;
+ background-position:bottom;
+ }
+
+.sm-jg-st_03{
+ width:150px;
+ height:30px;
+ background-image:url(images/smenu_kyokaijigyou_st3.jpg);
+ border:none;
+ }
+ .sm-jg-st_03:hover{
+ width:150px;
+ height:30px;
+ background-position:bottom;
+ }
+
+.sm-jg-st_04{
+ width:150px;
+ height:30px;
+ background-image:url(images/smenu_kyokaijigyou_st4.jpg);
+ border:none;
+ }
+ .sm-jg-st_04:hover{
+ width:150px;
+ height:30px;
+ background-position:bottom;
+ }
+
+.sm-jg-st_05{
+ width:150px;
+ height:30px;
+ background-image:url(images/smenu_kyokaijigyou_st5.jpg);
+ border:none;
+ }
+ .sm-jg-st_05:hover{
+ width:150px;
+ height:30px;
+ background-position:bottom;
+ }
+
+.sm-jg-st_06{
+ width:150px;
+ height:30px;
+ background-image:url(images/smenu_kyokaijigyou_st6.jpg);
+ border:none;
+ }
+ .sm-jg-st_06:hover{
+ width:150px;
+ height:30px;
+ background-position:bottom;
+ }
+
+.sm-jg-st_07{
+ width:150px;
+ height:30px;
+ background-image:url(images/smenu_kyokaijigyou_st7.jpg);
+ border:none;
+ }
+ .sm-jg-st_07:hover{
+ width:150px;
+ height:30px;
+ background-position:bottom;
+ }
+
+ 
+ .sm-jg_03{
+ width:150px;
+ height:30px;
+ background-image:url(images/smenu_kyokaijigyou_3.jpg);
+ border:none;
+ }
+ .sm-jg_03:hover{
+ width:150px;
+ height:30px;
+ background-position:bottom;
+ }
+ 
+ .sm-jg-kyoyuu_00{
+ width:150px;
+ height:30px;
+ background-image:url(images/smenu_kyokaijigyou_kyoyuu0.jpg);
+ border:none;
+ }
+ .sm-jg-kyoyuu_00:hover{
+ width:150px;
+ height:30px;
+ background-position:bottom;
+ }
+ 
+ .sm-jg-kyoyuu_01{
+ width:150px;
+ height:30px;
+ background-image:url(images/smenu_kyokaijigyou_kyoyuu1.jpg);
+ border:none;
+ }
+ .sm-jg-kyoyuu_01:hover{
+ width:150px;
+ height:30px;
+ background-position:bottom;
+ }
+ 
+  .sm-jg-kyoyuu_02{
+ width:150px;
+ height:40px;
+ background-image:url(images/smenu_kyokaijigyou_kyoyuu2.jpg);
+ border:none;
+ }
+ .sm-jg-kyoyuu_02:hover{
+ width:150px;
+ height:40px;
+ background-position:bottom;
+ }
+ 
+  .sm-jg-kyoyuu_03{
+ width:150px;
+ height:40px;
+ background-image:url(images/smenu_kyokaijigyou_kyoyuu3.jpg);
+ border:none;
+ }
+ .sm-jg-kyoyuu_03:hover{
+ width:150px;
+ height:40px;
+ background-position:bottom;
+ }
+ 
+  .sm-jg-kyoyuu_04{
+ width:150px;
+ height:40px;
+ background-image:url(images/smenu_kyokaijigyou_kyoyuu4.jpg);
+ border:none;
+ }
+ .sm-jg-kyoyuu_04:hover{
+ width:150px;
+ height:40px;
+ background-position:bottom;
+ }
+ 
+  .sm-jg-kyoyuu_05{
+ width:150px;
+ height:30px;
+ background-image:url(images/smenu_kyokaijigyou_kyoyuu5.jpg);
+ border:none;
+ }
+ .sm-jg-kyoyuu_05:hover{
+ width:150px;
+ height:30px;
+ background-position:bottom;
+ }
+ 
+   .sm-jg-kyoyuu_06{
+ width:150px;
+ height:40px;
+ background-image:url(images/smenu_kyokaijigyou_kyoyuu6.jpg);
+ border:none;
+ }
+ .sm-jg-kyoyuu_06:hover{
+ width:150px;
+ height:40px;
+ background-position:bottom;
+ }
+ 
+   .sm-jg-kyoyuu_07{
+ width:150px;
+ height:30px;
+ background-image:url(images/smenu_kyokaijigyou_kyoyuu7.jpg);
+ border:none;
+ }
+ .sm-jg-kyoyuu_07:hover{
+ width:150px;
+ height:30px;
+ background-position:bottom;
+ }
+ 
+ .sm-jg-kyoyuu_08{
+ width:150px;
+ height:40px;
+ background-image:url(images/smenu_kyokaijigyou_kyoyuu8.jpg);
+ border:none;
+ }
+ .sm-jg-kyoyuu_08:hover{
+ width:150px;
+ height:40px;
+ background-position:bottom;
+ }
+ 
+ .sm-jg_04{
+ width:150px;
+ height:30px;
+ background-image:url(images/smenu_kyokaijigyou_4.jpg);
+ border:none;
+ }
+ .sm-jg_04:hover{
+ width:150px;
+ height:30px;
+ background-position:bottom;
+ }
+ 
+  .sm-ts_01{
+ width:150px;
+ height:30px;
+ background-image:url(images/smenu_toukeisiryou_1.jpg);
+ border:none;
+ }
+ .sm-ts_01:hover{
+ width:150px;
+ height:30px;
+ background-position:bottom;
+ }
+ 
+   .sm-ts_02{
+ width:150px;
+ height:30px;
+ background-image:url(images/smenu_toukeisiryou_2.jpg);
+ border:none;
+ }
+ .sm-ts_02:hover{
+ width:150px;
+ height:30px;
+ background-position:bottom;
+ }
+ 
+   .sm-ts_03{
+ width:150px;
+ height:30px;
+ background-image:url(images/smenu_toukeisiryou_3.jpg);
+ border:none;
+ }
+ .sm-ts_03:hover{
+ width:150px;
+ height:30px;
+ background-position:bottom;
+ }
+ 
+   .sm-ts_04{
+ width:150px;
+ height:30px;
+ background-image:url(images/smenu_toukeisiryou_4.jpg);
+ border:none;
+ }
+ .sm-ts_04:hover{
+ width:150px;
+ height:30px;
+ background-position:bottom;
+ }
+
+/* ページの移動 */ 
+
+.pagination {
+    width: 550px;
+    padding-top: 10px;
+}
+.pagination ul {
+    margin: 1em 0;
+    padding: 0;
+    list-style: none;
+    font-size: 13px;
+    text-align: center;
+}
+.pagination ul li {
+    display: inline-block;
+    padding: 0 1px;
+    line-height: 2.4; /* 複数行になった時に重ならないように調整 */
+}
+.pagination ul li a {
+    border: 1px solid #ccc;
+    padding: 2px 8px;
+    color: #008ba9;
+    text-decoration: none;
+}
+.pagination ul li a:link,
+.pagination ul li a:visited {
+    color: #008ba9;
+}
+.pagination ul li a:hover {
+    background: #008ba9;
+    border-color: #008ba9;
+    color: #fff;
+}
+.pagination ul li.crnt a {
+    background: #999;
+    border: 1px solid #ccc;
+    padding: 2px 8px;
+    color: #fff;
+}
+.pagination ul li.back {
+    margin-right: 10px;
+}
+.pagination ul li.next {
+    margin-left: 10px;
+}
+.pagination p {
+    background: #eee;
+    padding: 3px 8px;
+    overflow: hidden;
+}
+.pagination p span {
+    float: left;
+    width: 95px;
+}
+
+/* 
+次の記事titleが入ります。次の〜〜 部分を1行で表示したい場合に使用
+※サンプルでは幅600pxで作成してますので、widthは適宜調整が必要になります。
+*/
+.pagination p a.oneLine {
+    display: block;
+    float: left;
+    width: 380px;
+    white-space:nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#wrapper {
+	margin: 0 auto;
+	width: 740px;
+}
+#wrapper #toPageTop {
+	position: fixed;
+	bottom: 30px;
+	right: 30px;
+}
+#wrapper #toPageTop a {
+	display: block;
+	width: 60px;
+	background: url(images/btn_to-page-top_ov.gif) no-repeat;
+}
+#wrapper #toPageTop a:hover img {
+	visibility: hidden;
+}
