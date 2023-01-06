@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="ko"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="ko"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="ko"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="ko"> <!--<![endif]-->
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no -->
+<title>매스컴 관계자 여러분께 | 출품사 릴리스 | 도쿄 게임쇼 2013</title>
+<!-- CSS -->
+<link href="../../../../../src/css/reset.css" rel="stylesheet" type="text/css">
+<link href="../../../../../src/css/common.css" rel="stylesheet" type="text/css">
+<link href="../../../../../src/css/contents.css" rel="stylesheet" type="text/css">
+<link href="../../../../../src/css/pop.css" rel="stylesheet" type="text/css">
+</head>
+
+<body id="pop">
+<div id="wrapper-pop" class="common-width-box">
+  <div id="header-pop" class="common-width-box">
+    
+    <p id="heder-logo-pop">
+      <span>
+        <img src="../../../../../src/img/common/header/heder-pop-logo.png" width="606" height="36" alt="TOKYO GAME SHOW 2013 『GAMEは進化し続ける。』">
+      </span>
+    </p><!-- / #heder-logo -->
+    <p id="heder-catch-pop">
+        출품사 릴리스
+    </p><!-- / #heder-logo -->
+  
+  </div><!-- / #header -->
+  
+  <div id="contents-pop" class="common-width-box">
+    <div id="contents-inner">
+    </div>
+  </div><!-- / #contents -->
+  
+  
+  <div id="footer" class="common-width-box">
+    <div id="footer-inner">
+      <div id="footer-ribbon">
+        <p class="cont-media">
+          <a href="javascript:window.close();" class="buttons center-buttons big-buttons">
+          <span aria-hidden="true" class="icon-ampersand"></span> CLOSE
+          </a>
+        </p>
+          
+      </div><!-- / #footer-ribbon -->
+    
+      <div id="footer-sponsor">
+        <ul>
+          <li><a href="http://www.cofesta.jp/2012/en/?request_locale=en" class="blank"><img src="../../../../../src/img/common/footer/footer-cesa.png" alt="CESA" width="46" height="30"></a></li>
+          <li><a href="http://www.nikkeibp.com/" class="blank"><img src="../../../../../src/img/common/footer/footer-nikkeibp.png" alt="日経BP社" width="65" height="30" /></a></li>
+        </ul>
+      </div>
+      <p id="copyright">2002-2013 CESA / Nikkei Business Publications, Inc. All rights reserved.</p>
+    </div><!-- / #footer-inner -->
+  </div><!-- / #footer .common-width-box ja -->
+  
+</div><!-- / #wrapper --> 
+<!-- Javascript --> 
+<script type="text/javascript" src="../../../../../src/js/modernizr.custom.46796.js"></script> 
+<script type="text/javascript" src="../../../../../src/js/respond.min.js"></script> 
+<script src="/js/bpcommon/jquery.min.js"></script> 
+<script type="text/javascript" src="../../../../../src/js/jRespond.min.js"></script> 
+<script type="text/javascript" src="../../../../../src/js/jquery.mmenu.min.js"></script>
+<script type="text/javascript" src="../../../../../src/js/jquery-contained-sticky-scroll.js"></script> <script type="text/javascript" src="../../../../../src/js/config.js"></script>
+<script type="text/javascript" src="../../../../../src/js/yuga.js"></script> 
+<!-- nextis 0729追加ここから -->
+<script type="text/javascript" src="../../../../../src/js/en/jsrender.js"></script>
+<script type="text/javascript" src="../../../../../src/js/en/exhibitor_news_detail.js"></script>
+<script id="tpl" type="text/x-jsrender">
+    <p class="cat-title">{{:name}}</p>
+    <p class="date">{{:data}}</p>
+
+    <div class="title">
+        <h1>{{:title}}</h1>
+        {{if url}}
+        <p><a href="{{:url}}" class="blank blank-icon">{{:url}}</a></p>
+        {{/if}}
+    </div>
+
+    <div class="cont">
+        {{if imagePath}}
+        <div class="news-photo">
+            <img style="max-width: 200px;" src="{{:imagePath}}">
+        </div>
+        {{/if}}
+        {{h_br:body}}
+    </div>
+</script>
+<!-- nextis 0729追加ここまで -->
+</body>
+</html>
