@@ -1,0 +1,210 @@
+@charset "utf-8";
+
+/* PC Global navi TW
+---------------------------------------------------------------- */
+#wrapper #globalmenu .gm {
+	width: 1020px;
+	height: 42px;
+	margin:0 auto;
+	clear: both;
+	display: block;
+}
+#wrapper #globalmenu .gm #gmHome .pr-btn, 
+#wrapper #globalmenu .gm #gmVisitor .pr-btn, 
+#wrapper #globalmenu .gm #gmBusiness .pr-btn,
+#wrapper #globalmenu .gm #gmMap .pr-btn,  
+#wrapper #globalmenu .gm #gmEvent .pr-btn, 
+#wrapper #globalmenu .gm #gmFamily .pr-btn, 
+#wrapper #globalmenu .gm #gmPress .pr-btn, 
+#wrapper #globalmenu .gm #gmBeginner .pr-btn, 
+#wrapper #globalmenu .gm #gmExhibition .pr-btn, 
+#wrapper #globalmenu .gm #gmPast .pr-btn {
+	background: url(../images/pc_nav_tw.png) no-repeat;
+}
+/* ボタン全体の指定 */
+#wrapper #globalmenu .gm li.pr {
+	float: left;
+	display: block;
+	position: relative;
+}
+
+/* HOME */
+#wrapper #globalmenu .gm #gmHome {
+	width: 109px;
+}
+#wrapper #globalmenu .gm #gmHome .pr-btn {
+	background-position: 0 0;
+	width: 109px;
+}
+#wrapper #globalmenu .gm #gmHome .pr-btn:hover, 
+#index #wrapper #globalmenu .gm #gmHome .pr-btn {
+	background-position: 0 -42px;
+}
+/* 一般公開日にご来場の方へ */
+#wrapper #globalmenu .gm #gmVisitor {
+	width: 146px;
+}
+#wrapper #globalmenu .gm #gmVisitor .pr-btn {
+	background-position: -109px 0px;
+	width: 146px;
+}
+#wrapper #globalmenu .gm #gmVisitor .pr-btn:hover, 
+#visitor #wrapper #globalmenu .gm #gmVisitor .pr-btn {
+	background-position: -109px -42px;
+}
+/* ビジネスデイにご来場の方へ */
+#wrapper #globalmenu .gm #gmBusiness {
+	width: 122px;
+}
+#wrapper #globalmenu .gm #gmBusiness .pr-btn {
+	background-position: -255px 0px;
+	width: 122px;
+}
+#wrapper #globalmenu .gm #gmBusiness .pr-btn:hover, 
+#business #wrapper #globalmenu .gm #gmBusiness .pr-btn {
+	background-position: -255px -42px;
+}
+/* 出展社一覧/会場MAP */
+#wrapper #globalmenu .gm #gmMap {
+	width: 237px;
+}
+#wrapper #globalmenu .gm #gmMap .pr-btn {
+	background-position: -377px 0px;
+	width: 237px;
+}
+#wrapper #globalmenu .gm #gmMap .pr-btn:hover, 
+#map #wrapper #globalmenu .gm #gmMap .pr-btn {
+	background-position: -377px -42px;
+}
+/* 注目イベント */
+#wrapper #globalmenu .gm #gmEvent {
+	width: 115px;
+}
+#wrapper #globalmenu .gm #gmEvent .pr-btn {
+	background-position: -614px 0px;
+	width: 115px;
+}
+#wrapper #globalmenu .gm #gmEvent .pr-btn:hover, 
+#event #wrapper #globalmenu .gm #gmEvent .pr-btn {
+	background-position: -614px -42px;
+}
+
+/* プレスの方へ */
+#wrapper .gm #gmPress {
+	width: 135px;
+}
+#wrapper #globalmenu .gm #gmPress .pr-btn {
+	background-position: -729px 0px;
+	width: 135px;
+}
+#wrapper #globalmenu .gm #gmPress .pr-btn:hover, 
+#press #wrapper #globalmenu .gm #gmPress .pr-btn {
+	background-position: -729px -42px;
+}
+/* 初めてのかたへ／お問い合わせ */
+#wrapper #globalmenu .gm #gmBeginner {
+	width: 156px;
+}
+#wrapper #globalmenu .gm #gmBeginner .pr-btn {
+	background-position: -864px 0px;
+	width: 156px;
+}
+#wrapper #globalmenu .gm #gmBeginner .pr-btn:hover, 
+#beginner #wrapper #globalmenu .gm #gmBeginner .pr-btn {
+	background-position: -864px -42px;
+}
+/* ボタン全体のa指定 */
+#wrapper #globalmenu .gm .pr .pr-btn {
+	display: block;
+	height: 42px;
+	overflow: hidden;
+	text-indent: -9999px;
+	margin: 0;
+}
+
+/* -------------------------
+	ドロップダウン
+ ------------------------- */
+#globalmenu ul.gm li.pr {
+	margin: 0px 0 0;
+	padding: 0px;
+	float: left;
+	display: block;
+	height: 42px;
+	position: relative;
+	z-index: 1100;
+}
+#globalmenu ul.gm li.pr .pr-btn {
+	margin: 0px;
+	display: block;
+	height: 42px;
+	overflow: hidden;
+	text-indent: -99999px;
+	z-index: 1200;
+}
+#globalmenu .pr ul a.current-link, 
+#globalmenu .pr ul a.current-link:hover, 
+#globalmenu .pr ul a.parents-link, 
+#globalmenu .pr ul a.parents-link:hover {
+	cursor: default;
+}
+#globalmenu ul.gm li.pr ul {
+	width: 210px;
+	margin: 0px 0 0;
+	padding: 6px 0 0;
+	display: block;
+	line-height: 1.03;
+	z-index: 1500;
+	position: relative;
+}
+#globalmenu ul.gm li ul:before {
+	top: 0px;
+	left: 50px;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-top-color: #022459;
+	border-width: 6px;
+	margin-left: -12px;
+}
+#globalmenu ul.gm li.pr ul li {
+	background-color: rgba(2,36,89,0.98);
+	display: block;
+	border-bottom: 1px solid #fff;
+}
+.ie8 #globalmenu ul.gm li.pr ul li {
+	background-color: #0d264c;
+}
+#globalmenu ul.gm li.pr ul li a {
+	color: #FFF;
+	padding: 7px 10px 7px 12px;
+	display: block;
+	font-size: 13px;
+	text-decoration: none;
+	/*transition: all .5s;*/
+}
+#globalmenu ul.gm li.pr ul li:last-child {
+	border-bottom: none;
+}
+#globalmenu ul.gm li.pr ul li a:hover {
+	opacity: 0.6;
+}
+#globalmenu ul.gm li.pr ul li a.current-link, #globalmenu ul.gm li.pr ul li a.current-link:hover, #globalmenu ul.gm li.pr ul li a.parents-link, #globalmenu ul.gm li.pr ul li a.parents-link:hover {
+	background-color: #7E8398
+}
+/*出展社一覧メニュー幅調整*/
+#globalmenu ul.gm li#gmMap.pr ul{
+	width:237px;
+	}
+/*初めての方へ位置調整*/
+#gmBeginner ul{
+	position:relative;
+	left:-55px;
+	}
+#gmBeginner ul:before{
+	left: 100px!important;
+	}
+
