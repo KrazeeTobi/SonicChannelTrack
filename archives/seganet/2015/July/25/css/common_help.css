@@ -1,0 +1,600 @@
+@charset "utf-8";
+
+/* ----------------------------------------------------
+作成日: 2015.1.22
+最終更新日: 2015.6.24
+
+help_common.css： help設定(PC版)
+---------------------------------------------------- */
+html {
+	height:100%;
+	background:#0093ff;
+}
+
+body {
+	height:100%; 
+	font-size:18px;
+	font-family:"メイリオ", "ＭＳ Ｐゴシック", sans-serif;
+	-webkit-text-size-adjust: 100%;
+	line-height:1.3;
+	color:#ffffff;
+}
+
+header{
+	width:100%;
+	background:url(../images/common/bg_help_header.gif) repeat-x;
+	height:58px;
+}
+
+#header_inner{
+	width:1024px;
+	width:960px;
+	margin:0 auto;
+	position: relative;
+}
+
+h1{
+	color:#333333;
+	font-size:24px;
+	font-weight: bold;
+	padding-top:15px;
+	margin-left:14px;
+}
+
+.btn_to_o,.btn_close{
+	position: absolute;
+	display:block;
+	background:url(../images/en/btn_to_official.png) no-repeat;
+	width:150px;
+	height:46px;
+	top:5px;
+	right:15px;
+	text-indent: -9999px;
+	overflow: hidden;
+}
+
+.btn_close{
+	width:132px;
+	height:40px;
+	top:8px;
+	right:15px;
+}
+
+.jp .btn_to_o{
+	background:url(../images/jp/btn_to_official.png) no-repeat;
+}
+
+.fr .btn_to_o{
+	background:url(../images/fr/btn_to_official.png) no-repeat;
+}
+
+.it .btn_to_o{
+	background:url(../images/it/btn_to_official.png) no-repeat;
+}
+
+.de .btn_to_o{
+	background:url(../images/de/btn_to_official.png) no-repeat;
+}
+
+.es .btn_to_o{
+	background:url(../images/es/btn_to_official.png) no-repeat;
+}
+
+.pt .btn_to_o{
+	background:url(../images/pt/btn_to_official.png) no-repeat;
+}
+
+.ru .btn_to_o{
+	background:url(../images/ru/btn_to_official.png) no-repeat;
+	width:235px;
+}
+
+/*FAQ追加*/
+.en #header_inner ul{
+	position: absolute;
+	top:5px;
+	right:15px;
+}
+
+.en #header_inner li{
+	display:inline-block;
+}
+
+.en #header_inner li a{
+	display:block;
+	background:url(../images/en/btn_to_official.png) no-repeat;
+	width:150px;
+	height:46px;
+	text-indent: -9999px;
+	overflow: hidden;
+}
+
+.en #header_inner li a.faq{
+	width:90px;
+	margin-right:16px;
+	background:url(../images/en/btn_to_faq.png) no-repeat;
+}
+
+article{
+	background:url(../images/common/bg_help.gif) top center repeat-y;
+	background-size:1312px;
+}
+
+.wrapper{
+	background:#000099;
+	width:1024px;
+	width:960px;
+	margin:0 auto;
+	padding-top:26px;
+}
+
+nav{
+	background:url(../images/common/bg_hr.gif) bottom center no-repeat;
+	background-size:900px;
+}
+
+.nav_inner {
+	/*margin:0 190px;*/
+	font-size:20px;
+	line-height:1.2;
+	/*display:table;*/
+	margin-left:32px;
+	padding-bottom: 38px;
+}
+
+nav div[class^="menu"]{
+	/*display:table-cell;
+	width:322px;*/
+	text-align: left;
+}
+
+.de .nav_inner{
+	margin:0 150px;
+}
+
+.de nav div[class^="menu"]{
+	width:362px;
+}
+
+nav h2{
+	font-weight: normal;
+}
+
+nav a{
+	color:#ffffff;
+	text-decoration: none;
+}
+
+nav a:hover{
+	text-decoration: underline;
+}
+
+nav h2:before{
+	content:"■";
+}
+
+nav li:before{
+	content:"┣";
+}
+
+nav li:last-child:before{
+	content:"┗";
+}
+
+.main{
+	padding:32px;
+}
+
+.main h2{
+	font-size:24px;
+	font-weight: bold;
+	text-align:center;
+	line-height:1;
+	margin-bottom:40px;
+}
+
+.main h2:before,
+.main h2:after{
+	content:"■";
+}
+
+.main h3{
+	font-size:20px;
+	width:306px;
+	height:35px;
+	font-weight: bold;
+	text-align: center;
+	line-height:35px;
+	border-radius: 10px;
+	background:#1851ff;
+	margin:0 auto 40px;
+}
+
+.fr .main #snf h3,.de .main #snf h3{
+	width:400px;
+}
+
+#game_detail{
+	margin-bottom:26px;
+}
+
+#contents h3{
+	margin-bottom:20px;
+}
+
+.main h4{
+	font-size:20px;
+	font-weight: bold;
+	margin-bottom:28px;
+	line-height: 1.2;
+}
+
+
+.main li:before{
+	content:"・";
+}
+
+
+.main a{
+	color:#00ffff;
+	text-decoration: underline;
+}
+
+.main a:hover{
+	text-decoration: none;
+}
+
+.main .cf img{
+	float:right;
+	margin:0 0 5px 5px;
+}
+
+.main .cf .pc{
+	float:right;
+	margin:0 0 5px 5px;
+	text-indent:-9999px;
+	overflow: hidden;
+}
+
+#pages01 .cf .pc{
+	width:284px;
+	height:160px;
+	background:url(../images/jp/img_help_pages01.jpg);
+}
+
+.en #pages01 .cf .pc{
+	background:url(../images/en/img_help_pages01.jpg);
+}
+
+#pages02 .cf .pc{
+	width:284px;
+	height:160px;
+	background:url(../images/jp/img_help_pages02.jpg);
+}
+
+.en #pages02 .cf .pc{
+	width:284px;
+	height:160px;
+	background:url(../images/en/img_help_pages02.jpg);
+}
+
+#pages03 .cf .pc{
+	width:284px;
+	height:160px;
+	background:url(../images/jp/img_help_pages03.jpg);
+}
+
+.en #pages03 .cf .pc{
+	width:284px;
+	height:160px;
+	background:url(../images/en/img_help_pages03.jpg);
+}
+
+#pages04 .cf .pc{
+	width:338px;
+	height:223px;
+	background:url(../images/jp/img_help_pages04.jpg);
+}
+
+.en #pages04 .cf .pc{
+	background:url(../images/en/img_help_pages04.jpg);
+}
+
+
+#pages05 .cf .pc{
+	width:284px;
+	height:160px;
+	background:url(../images/jp/img_help_pages05.jpg);
+}
+
+.en #pages05 .cf .pc{
+	background:url(../images/en/img_help_pages05.jpg);
+}
+
+#pages06 .cf .pc{
+	width:284px;
+	height:160px;
+	background:url(../images/jp/img_help_pages06.jpg);
+}
+
+.en #pages06 .cf .pc{
+	background:url(../images/en/img_help_pages06.jpg);
+}
+
+#pages07 .cf .pc{
+	width:284px;
+	height:160px;
+	background:url(../images/jp/img_help_pages07.jpg);
+}
+
+.en #pages07 .cf .pc{
+	background:url(../images/en/img_help_pages07.jpg);
+}
+
+#spec01 .cf .pc{
+	width:426px;
+	height:334px;
+	background:url(../images/common/img_help_spec01.png);
+}
+
+#spec02 .cf .pc{
+	width:384px;
+	height:230px;
+	background:url(../images/common/img_help_spec02.png);
+}
+
+#spec03 .cf .pc{
+	width:375px;
+	height:238px;
+	background:url(../images/common/img_help_spec03.png);
+}
+
+#spec05 .cf .pc{
+	width:124px;
+	height:153px;
+	background:url(../images/common/img_help_spec05.png);
+}
+
+#spec08 .cf .pc{
+	width:152px;
+	height:152px;
+	background:url(../images/common/img_help_spec08.png);
+}
+
+/*#spec13 .cf .pc{
+	width:160px;
+	height:160px;
+	background:url(../images/common/img_help_spec13.png);
+}*/
+
+#spec15 .cf .pc{
+	width:274px;
+	height:195px;
+	background:url(../images/common/img_help_spec15.png);
+}
+
+#spec16 .cf .pc{
+	width:264px;
+	height:334px;
+	background:url(../images/common/img_help_spec16.png);
+}
+
+#spec17 .cf .pc{
+	width:32px;
+	height:160px;
+	background:url(../images/common/img_help_spec17.png);
+	margin:0 65px 5px;
+}
+
+.main .cf .sp{
+	display:none;
+}
+
+#contents,
+#pages section[id^="pages"],
+#spec section[id^="spec"],
+#rank section[id^="rank"]/*,
+#snf section[id^="snf"]*/{
+	padding-bottom:26px;
+	background:url(../images/common/bg_hr.gif) bottom center no-repeat;
+	background-size:896px;
+	margin-bottom:14px;
+}
+
+
+/*
+#faq{
+	padding-top:13px;
+}
+
+#playing_env section[id^="playing_env"],
+#about_the_game section[id^="about_the_game"],
+#charges section[id^="charges"],
+#id section[id^="id"],
+#about_play_data section[id^="about_play_data"],
+#switch section[id^="switch"]{
+	margin-bottom:30px;
+}
+
+*/
+
+footer{
+	margin-top:-30px;
+	padding-top:30px;
+	background:url(../images/common/bg_foot_help.gif) top center repeat-x;
+}
+
+.footer_wrapper{
+	background:#99ccff;
+}
+
+.footer_inner{
+	width:924px;
+	margin:0 auto;
+	padding:36px;
+	color:#000099;
+	font-size:11px;
+	line-height:1.45;
+	position: relative;
+}
+
+.footer_inner .logo,.footer_inner .txt{
+	margin-bottom:16px;
+}
+
+.footer_inner .logo li{
+	display:inline-block;
+	margin-right:18px;
+}
+
+.footer_inner a{
+	color:#ffffff;
+	text-decoration:none;
+}
+
+.footer_inner a:hover{
+	text-decoration: underline;
+}
+
+.footer_inner .logo img{
+	width:110px;
+	height:36px;
+}
+
+.footer_inner .lang_select{
+	display:block;
+	position: absolute;
+	top:36px;
+	right:36px;
+	font:inherit;
+	font-size:14px;
+}
+
+.jp .footer_inner .alink{
+	margin-bottom: 20px;
+}
+
+.footer_inner .alink li{
+	line-height: 1.5;
+	list-style: none;
+	display: inline;
+}
+
+.footer_inner .alink li:after{
+	content:" / ";
+}
+.footer_inner .alink li:last-child:after{
+	content:none;
+}
+
+.footer_inner .alink i{
+	display:none;
+}
+
+
+/*Android推奨端末リスト*/
+.devices .wrapper{
+	padding-top:0;
+	padding-bottom:32px;
+
+}
+
+.devices table{
+	margin:0 auto;
+	width:80%;
+	padding:0.5em;
+	margin-bottom:15px;
+}
+
+.devices th{
+	padding:0.5em;
+	background:#99ccff;
+	color:#000099;
+	border:1px solid #cccccc;
+}
+
+.devices td{
+	border:1px solid #cccccc;
+	background:#ffffff;
+	color:#333333;
+	padding:0.5em;
+}
+
+.devices tr:nth-child(2n+1) td{
+background:#E9F4FD;
+}
+
+.devices .caution{
+	width:80%;
+	margin:0 auto;
+	font-size:16px;
+}
+
+/*利用規約*/
+
+.rule .main h2{
+}
+
+/*.rule .main h2:before,
+.rule .main h2:after{
+	content:none;
+}*/
+
+.rule .main h3{
+	font-size:20px;
+	width:auto;
+	height:35px;
+	font-weight: bold;
+	text-align: left;
+	line-height:35px;
+	border-radius: 0;
+	background:transparent;
+	margin:0 auto 40px;
+}
+
+.rule .main p,.rule .main ol,.rule .main ul{
+	margin-bottom:50px;
+}
+
+.rule .main li:before{
+	content: none;
+}
+
+.rule .main li{
+	list-style-position: inside;
+}
+
+.rule .main .second li{
+	padding-left:1em;
+}
+
+.rule .main .kanji{
+	margin-bottom: 0;
+}
+
+.rule .main .kanji li{
+	list-style-type: cjk-ideographic;
+}
+
+.rule .main .mb0{
+	margin-bottom:0;
+}
+
+.rule .main a{
+	color:#ffffff;
+	text-decoration: none;
+}
+
+.rule .main a:hover{
+	text-decoration: underline;
+}
+
+.info.jp .btn_close{
+	background:url(../images/jp/btn_to_close.png) no-repeat;
+	background-size: contain;
+}
+.info.en .btn_close{
+	background:url(../images/en/btn_to_close.png) no-repeat;
+	background-size: contain;
+
+}

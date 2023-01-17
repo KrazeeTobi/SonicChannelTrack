@@ -1,0 +1,597 @@
+@charset "utf-8";
+
+/* ----------------------------------------------------
+作成日: 2015.01.22
+最終更新日: 2015.03.06
+
+help_common.css： help設定(tablet版)
+---------------------------------------------------- */
+html {
+	height:100%;
+	background:#0093ff;
+}
+
+body {
+	height:100%; 
+	font-size:14px;
+	font-family:"メイリオ", "ＭＳ Ｐゴシック", sans-serif;
+	-webkit-text-size-adjust: 100%;
+	line-height:1.3;
+	color:#ffffff;
+}
+
+header{
+	width:100%;
+	background:url(../images/common/bg_help_header.gif) repeat-x;
+	background-size:contain;
+	height:43px;
+}
+
+#header_inner{
+	width:768px;
+	margin:0 auto;
+	position: relative;
+}
+
+h1{
+	color:#333333;
+	font-size:18px;
+	font-weight: bold;
+	padding-top:11px;
+	margin-left:10px;
+}
+
+.btn_to_o{
+	position: absolute;
+	display:block;
+	background:url(../images/en/btn_to_official.png) no-repeat;
+	background-size:112px;
+	width:112px;
+	height:34px;
+	top:4px;
+	right:11px;
+	text-indent: -9999px;
+	overflow: hidden;
+}
+
+.jp .btn_to_o{
+	background:url(../images/jp/btn_to_official.png) no-repeat;
+	background-size:112px;
+}
+
+.fr .btn_to_o{
+	background:url(../images/fr/btn_to_official.png) no-repeat;
+	background-size:112px;
+}
+
+.it .btn_to_o{
+	background:url(../images/it/btn_to_official.png) no-repeat;
+	background-size:112px;
+}
+
+.de .btn_to_o{
+	background:url(../images/de/btn_to_official.png) no-repeat;
+	background-size:112px;
+}
+
+.es .btn_to_o{
+	background:url(../images/es/btn_to_official.png) no-repeat;
+	background-size:112px;
+}
+
+.pt .btn_to_o{
+	background:url(../images/pt/btn_to_official.png) no-repeat;
+	background-size:112px;
+}
+
+.ru .btn_to_o{
+	background:url(../images/ru/btn_to_official.png) no-repeat;
+	background-size:176px;
+	width:176px;
+}
+
+/*FAQ追加*/
+.en #header_inner ul{
+	position: absolute;
+	top:4px;
+	right:11px;
+}
+
+.en #header_inner li{
+	display:inline-block;
+}
+
+.en #header_inner li a{
+	display:block;
+	background:url(../images/en/btn_to_official.png) no-repeat;
+	background-size:112px;
+	width:112px;
+	height:34px;
+	text-indent: -9999px;
+	overflow: hidden;
+}
+
+.en #header_inner li a.faq{
+	margin-right:12px;
+	background:url(../images/en/btn_to_faq.png) no-repeat;
+	background-size:67px;
+	width:67px;
+}
+
+
+article{
+	background:url(../images/common/bg_help.gif) top center repeat-y;
+	background-size:1050px;
+}
+
+.wrapper{
+	background:#000099;
+	width:768px;
+	margin:0 auto;
+	padding-top:20px;
+}
+
+nav{
+	background:url(../images/common/bg_hr.gif) bottom center no-repeat;
+	background-size:720px;
+
+}
+
+.nav_inner {
+	/*margin:0 142px;*/
+	font-size:15px;
+	line-height:1.2;
+	/*display:table;*/
+	margin-left:24px;
+	padding-bottom:28px;
+}
+
+nav div[class^="menu"]{
+	/*display:table-cell;
+	width:241px;*/
+	text-align: left;
+}
+
+.de .nav_inner{
+	margin:0 112px;
+}
+
+.de nav div[class^="menu"]{
+	width:271px;
+}
+
+nav h2{
+	font-weight: normal;
+}
+
+nav a{
+	color:#ffffff;
+	text-decoration: none;
+}
+
+nav a:hover{
+	text-decoration: underline;
+}
+
+nav h2:before{
+	content:"■";
+}
+
+nav li:before{
+	content:"┣";
+}
+
+nav li:last-child:before{
+	content:"┗";
+}
+
+.main{
+	padding:24px;
+}
+
+.main h2{
+	font-size:18px;
+	font-weight: bold;
+	text-align:center;
+	line-height:1;
+	margin-bottom:30px;
+}
+
+.main h2:before,
+.main h2:after{
+	content:"■";
+}
+
+.main h3{
+	font-size:15px;
+	width:229px;
+	height:26px;
+	font-weight: bold;
+	text-align: center;
+	line-height:26px;
+	border-radius: 10px;
+	background:#1851ff;
+	margin:0 auto 30px;
+}
+
+.fr .main #snf h3,.de .main #snf h3{
+	width:300px;
+}
+
+#game_detail{
+	margin-bottom:20px;
+}
+
+#contents h3{
+	margin-bottom:15px;
+}
+
+.main h4{
+	font-size:15px;
+	font-weight: bold;
+	margin-bottom:21px;
+	line-height: 1.2;
+}
+
+
+.main li:before{
+	content:"・";
+}
+
+.main a{
+	color:#00ffff;
+	text-decoration: underline;
+}
+
+.main a:hover{
+	text-decoration: none;
+}
+
+.main .cf img{
+	float:right;
+	margin:0 0 5px 5px;
+}
+
+.main .cf .pc{
+	float:right;
+	margin:0 0 5px 5px;
+	text-indent:-9999px;
+	overflow: hidden;
+}
+
+#pages01 .cf .pc{
+	width:213px;
+	height:120px;
+	background:url(../images/jp/img_help_pages01.jpg);
+	background-size:contain;
+}
+
+.en #pages01 .cf .pc{
+	background:url(../images/en/img_help_pages01.jpg);
+	background-size:contain;
+}
+
+#pages02 .cf .pc{
+	width:213px;
+	height:120px;
+	background:url(../images/jp/img_help_pages02.jpg);
+	background-size:contain;
+}
+
+.en #pages02 .cf .pc{
+	background:url(../images/en/img_help_pages02.jpg);
+	background-size:contain;
+}
+
+#pages03 .cf .pc{
+	width:213px;
+	height:120px;
+	background:url(../images/jp/img_help_pages03.jpg);
+	background-size:contain;
+}
+
+.en #pages03 .cf .pc{
+	background:url(../images/en/img_help_pages03.jpg);
+	background-size:contain;
+}
+
+#pages04 .cf .pc{
+	width:253px;
+	height:167px;
+	background:url(../images/jp/img_help_pages04.jpg);
+	background-size:contain;
+}
+
+.en #pages04 .cf .pc{
+	background:url(../images/en/img_help_pages04.jpg);
+	background-size:contain;
+}
+
+#pages05 .cf .pc{
+	width:213px;
+	height:120px;
+	background:url(../images/jp/img_help_pages05.jpg);
+	background-size:contain;
+}
+
+.en #pages05 .cf .pc{
+	background:url(../images/en/img_help_pages05.jpg);
+	background-size:contain;
+}
+
+#pages06 .cf .pc{
+	width:213px;
+	height:120px;
+	background:url(../images/jp/img_help_pages06.jpg);
+	background-size:contain;
+}
+.en #pages06 .cf .pc{
+	background:url(../images/en/img_help_pages06.jpg);
+	background-size:contain;
+}
+
+#pages07 .cf .pc{
+	width:213px;
+	height:120px;
+	background:url(../images/jp/img_help_pages07.jpg);
+	background-size:contain;
+}
+
+.en #pages07 .cf .pc{
+	background:url(../images/en/img_help_pages07.jpg);
+	background-size:contain;
+}
+
+ #spec01 .cf .pc{
+	width:319px;
+	height:250px;
+	background:url(../images/common/img_help_spec01.png);
+	background-size:contain;
+}
+
+#spec02 .cf .pc{
+	width:288px;
+	height:172px;
+	background:url(../images/common/img_help_spec02.png);
+	background-size:contain;
+}
+
+#spec03 .cf .pc{
+	width:281px;
+	height:178px;
+	background:url(../images/common/img_help_spec03.png);
+	background-size:contain;
+}
+
+#spec05 .cf .pc{
+	width:93px;
+	height:115px;
+	background:url(../images/common/img_help_spec05.png);
+	background-size:contain;
+}
+
+ #spec08 .cf .pc{
+	width:114px;
+	height:114px;
+	background:url(../images/common/img_help_spec08.png);
+	background-size:contain;
+}
+
+
+/*.en*/ /*#spec13 .cf .pc{
+	width:90px;
+	height:90px;
+	background:url(../images/common/img_help_spec13.png);
+	background-size:contain;
+}*/
+
+#spec15 .cf .pc{
+	width:205px;
+	height:146px;
+	background:url(../images/common/img_help_spec15.png);
+	background-size:contain;
+}
+
+#spec16 .cf .pc{
+	width:198px;
+	height:250px;
+	background:url(../images/common/img_help_spec16.png);
+	background-size:contain;
+}
+
+#spec17 .cf .pc{
+	width:24px;
+	height:120px;
+	background:url(../images/common/img_help_spec17.png);
+	background-size:contain;
+	margin:0 49px 5px;
+}
+
+.main .cf .sp{
+	display:none;
+}
+
+#contents,
+#pages section[id^="pages"],
+#spec section[id^="spec"],
+#rank section[id^="rank"],
+#snf section[id^="snf"]{
+	padding-bottom:20px;
+	background:url(../images/common/bg_hr.gif) bottom center no-repeat;
+	background-size:720px;
+	margin-bottom:10px;
+}
+
+#faq{
+	padding-top:10px;
+}
+
+#playing_env section[id^="playing_env"],
+#about_the_game section[id^="about_the_game"],
+#charges section[id^="charges"],
+#id section[id^="id"],
+#about_play_data section[id^="about_play_data"],
+#switch section[id^="switch"]{
+	margin-bottom:22px;
+}
+
+footer{
+	margin-top:-22px;
+	padding-top:22px;
+	background:url(../images/common/bg_foot_help.gif) top center repeat-x;
+	background-size:44px;
+}
+
+.footer_wrapper{
+	background:#99ccff;
+}
+
+.footer_inner{
+	width:720px;
+	margin:0 auto;
+	padding:24px;
+	color:#000099;
+	font-size:11px;
+	line-height:1.45;
+	position: relative;
+}
+
+.footer_inner .logo,.footer_inner .txt{
+	margin-bottom:12px;
+}
+
+.footer_inner .logo li{
+	display:inline-block;
+	margin-right:18px;
+}
+
+.footer_inner a{
+	color:#ffffff;
+	text-decoration:none;
+}
+
+.footer_inner a:hover{
+	text-decoration: underline;
+}
+
+.footer_inner .logo img{
+	width:110px;
+	height:36px;
+}
+
+.footer_inner .lang_select{
+	display:block;
+	position: absolute;
+	top:24px;
+	right:24px;
+}
+
+.jp .footer_inner .alink{
+	margin-bottom: 20px;
+}
+
+.footer_inner .alink li{
+	line-height: 1.5;
+	list-style: none;
+	display: inline;
+}
+
+.footer_inner .alink li:after{
+	content:" / ";
+}
+.footer_inner .alink li:last-child:after{
+	content:none;
+}
+
+.footer_inner .alink i{
+	display:none;
+}
+
+/*Android推奨端末リスト*/
+.devices .wrapper{
+	padding-top:0;
+	padding-bottom:32px;
+
+}
+
+.devices table{
+	margin:0 auto;
+	width:80%;
+	padding:0.5em;
+	margin-bottom:15px;
+}
+
+.devices th{
+	padding:0.5em;
+	background:#99ccff;
+	color:#000099;
+	border:1px solid #cccccc;
+}
+
+.devices td{
+	border:1px solid #cccccc;
+	background:#ffffff;
+	color:#333333;
+	padding:0.5em;
+}
+
+.devices tr:nth-child(2n+1) td{
+	background:#E9F4FD;
+}
+
+.devices .caution{
+	width:80%;
+	margin:0 auto;
+	font-size:12px;
+}
+
+/*利用規約*/
+
+.rule .main h3{
+	font-size:15px;
+	width:auto;
+	height:26px;
+	font-weight: bold;
+	text-align: left;
+	line-height:26px;
+	border-radius: 0;
+	background:transparent;
+	margin:0 auto 30px;
+}
+
+.rule .main p,.rule .main ol,.rule .main ul{
+	margin-bottom:40px;
+}
+
+.rule .main li:before{
+	content: none;
+}
+
+.rule .main li{
+	list-style-position: inside;
+}
+
+.rule .main .second li{
+	padding-left:1em;
+}
+
+.rule .main .kanji{
+	margin-bottom: 0;
+}
+
+.rule .main .kanji li{
+	list-style-type: cjk-ideographic;
+}
+
+.rule .main .mb0{
+	margin-bottom:0;
+}
+
+.rule .main a{
+	color:#ffffff;
+	text-decoration: none;
+}
+
+.rule .main a:hover{
+	text-decoration: underline;
+}
