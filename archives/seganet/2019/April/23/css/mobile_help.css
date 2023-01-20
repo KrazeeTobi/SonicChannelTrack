@@ -1,0 +1,682 @@
+@charset "utf-8";
+
+/* ----------------------------------------------------
+作成日: 2015.1.22
+最終更新日: 2015.6.24
+
+mobile_help.css： help設定(スマートフォン版)
+---------------------------------------------------- */
+
+html{
+	height:100%;
+	background:#0093ff;
+}
+
+body{
+	height:100%; 
+	font-size:10px!important;
+	font-family:"メイリオ", "ＭＳ Ｐゴシック", sans-serif;
+	-webkit-text-size-adjust: 100%;
+	line-height:1.2;
+	color:#ffffff;
+}
+
+body.info{
+	font-size:12px!important;
+}
+
+header{
+	width:100%;
+	height:23px;
+	background:url(../images/common/bg_help_header_sp.gif) repeat-x;
+	background-size: contain;
+}
+
+#header_inner{
+	width:320px;
+	margin:0 auto;
+	position: relative;
+}
+
+h1{
+	padding-top:5px;
+	margin-left:5px;
+	font-size:15px;
+	font-weight: bold;
+	color:#333333;
+	line-height: 15px;
+}
+
+
+.ru h1{
+	letter-spacing:-0.8px;
+}
+
+img{
+	max-width:100%;
+	height:auto;
+}
+
+.btn_to_o,.btn_close{
+	position: absolute;
+	display:block;
+	background:url(../images/en/btn_to_official.png) no-repeat;
+	background-size: contain;
+	width:66px;
+	height:20px;
+	top:1px;
+	right:3px;
+	text-indent: -9999px;
+	overflow: hidden;
+}
+
+.jp .btn_to_o{
+	background:url(../images/jp/btn_to_official.png) no-repeat;
+	background-size: contain;
+}
+
+.fr .btn_to_o{
+	background:url(../images/fr/btn_to_official.png) no-repeat;
+	background-size: contain;
+}
+
+.it .btn_to_o{
+	background:url(../images/it/btn_to_official.png) no-repeat;
+	background-size: contain;
+}
+
+.de .btn_to_o{
+	background:url(../images/de/btn_to_official.png) no-repeat;
+	background-size: contain;
+}
+
+.es .btn_to_o{
+	background:url(../images/es/btn_to_official.png) no-repeat;
+	background-size: contain;
+}
+
+.pt .btn_to_o{
+	background:url(../images/pt/btn_to_official.png) no-repeat;
+	background-size: contain;
+}
+
+.ru .btn_to_o{
+	background:url(../images/ru/btn_to_official.png) no-repeat;
+	background-size: contain;
+	width:103px;
+}
+
+/*FAQ追加*/
+.en #header_inner ul{
+	position: absolute;	
+	top:1px;
+	right:3px;
+}
+
+.en #header_inner li{
+	display:inline-block;
+}
+
+.en #header_inner li a{
+	display:block;
+	background:url(../images/en/btn_to_official.png) no-repeat;
+	background-size:contain;
+	width:66px;
+	height:20px;
+	text-indent: -9999px;
+	overflow: hidden;
+}
+
+.en #header_inner li a.faq{
+	margin-right:7px;
+	background:url(../images/en/btn_to_faq.png) no-repeat;
+	background-size:39px;
+	width:39px;
+}
+
+
+article{
+	background:url(../images/common/bg_help_sp.gif) top center repeat-y;
+	background-size:437px;
+}
+
+.wrapper{
+	background:#000099;
+	width:320px;
+	margin:0 auto;
+	padding-top:6px;
+}
+
+nav{
+	background:url(../images/common/bg_hr_sp.gif) bottom center no-repeat;
+	background-size:300px;
+}
+
+.nav_inner {
+	margin-left:46px;
+	/*margin-left:10px;*/
+	line-height:1.4;
+	padding-bottom: 10px;
+}
+
+nav h2{
+	font-weight: normal;
+}
+
+nav a{
+	color:#ffffff;
+	text-decoration: none;
+}
+
+nav a:hover{
+	text-decoration: underline;
+}
+
+nav h2:before{
+	content:"■";
+}
+
+nav li:before{
+	content:"┣";
+}
+
+nav li:last-child:before{
+	content:"┗";
+}
+
+.main{
+	padding:10px;
+}
+
+.main.info{
+	padding:10px 10px 100px 10px;
+	/*font-size:0.95em;*/}
+
+
+.main h2{
+	font-weight: bold;
+	text-align:center;
+	line-height:1;
+	margin-bottom:23px;
+}
+
+.main h2:before,
+.main h2:after{
+	content:"■";
+}
+
+h2.info{
+	text-align:left;
+	font-size:15px;
+	color:#fff;
+	margin-bottom:10px;
+}
+
+.main h2:before,
+.main h2:after{
+	content:"";
+}
+
+
+.main h3{
+	width:168px;
+	height:18px;
+	font-weight: bold;
+	text-align: center;
+	line-height:18px;
+	border-radius: 10px;
+	background:#1851ff;
+	margin:0 auto 23px;
+}
+
+.main h3.info{
+	width:100%;
+	height:auto;
+	font-size:14px;
+	text-align:left;
+	margin-bottom:10px;
+	border-radius:0;
+	background:none;
+}
+
+.main h3.info:before,
+.main h3.info:after{
+	content:"■";
+}
+
+
+.fr .main #snf h3{
+	width:180px;
+}
+
+.de .main #snf h3{
+	width:200px;
+}
+
+#contents h3{
+	margin-bottom:10px;
+}
+
+.main h4{
+	font-weight: bold;
+	margin-bottom:14px;
+}
+
+.main li:before{
+	content:"・";
+}
+
+.main a{
+	color:#00ffff;
+	text-decoration: underline;
+}
+
+.main a:hover{
+	text-decoration: none;
+}
+
+.main .cf .pc{
+	display:none;
+}
+
+.main .cf .sp{
+	text-align: center;
+	text-indent:-9999px;
+	overflow: hidden;
+	display:block;
+	margin:7px auto 0;
+}
+
+ #pages01 .cf .sp{
+	width:196px;
+	height:110px;
+	background:url(../images/jp/img_help_pages01_sp.jpg);
+	background-size:contain;
+}
+
+.en #pages01 .cf .sp{
+	background:url(../images/en/img_help_pages01_sp.jpg);
+	background-size:contain;
+}
+
+#pages02 .cf .sp{
+	width:196px;
+	height:110px;
+	background:url(../images/jp/img_help_pages02_sp.jpg);
+	background-size:contain;
+}
+
+.en #pages02 .cf .sp{
+	background:url(../images/en/img_help_pages02_sp.jpg);
+	background-size:contain;
+}
+
+#pages03 .cf .sp{
+	width:196px;
+	height:110px;
+	background:url(../images/jp/img_help_pages03_sp.jpg);
+	background-size:contain;
+}
+
+.en #pages03 .cf .sp{
+	background:url(../images/en/img_help_pages03_sp.jpg);
+	background-size:contain;
+}
+
+#pages04 .cf .sp{
+	width:232px;
+	height:103px;
+	background:url(../images/jp/img_help_pages04_sp.jpg);
+	background-size:contain;
+}
+
+.en #pages04 .cf .sp{
+	background:url(../images/en/img_help_pages04_sp.jpg);
+	background-size:contain;
+}
+
+#pages05 .cf .sp{
+	width:196px;
+	height:110px;
+	background:url(../images/jp/img_help_pages05_sp.jpg);
+	background-size:contain;
+}
+
+.en #pages05 .cf .sp{
+	background:url(../images/en/img_help_pages05_sp.jpg);
+	background-size:contain;
+}
+
+#pages06 .cf .sp{
+	width:196px;
+	height:110px;
+	background:url(../images/jp/img_help_pages06_sp.jpg);
+	background-size:contain;
+}
+
+.en #pages06 .cf .sp{
+	background:url(../images/en/img_help_pages06_sp.jpg);
+	background-size:contain;
+}
+
+ #pages07 .cf .sp{
+	width:196px;
+	height:110px;
+	background:url(../images/jp/img_help_pages07_sp.jpg);
+	background-size:contain;
+}
+
+.en #pages07 .cf .sp{
+	background:url(../images/en/img_help_pages07_sp.jpg);
+	background-size:contain;
+}
+
+#spec01 .cf .sp{
+	width:199px;
+	height:153px;
+	background:url(../images/common/img_help_spec01_sp.png);
+	background-size:contain;
+}
+
+#spec02 .cf .sp{
+	width:215px;
+	height:126px;
+	background:url(../images/common/img_help_spec02_sp.png);
+	background-size:contain;
+}
+
+#spec03 .cf .sp{
+	width:195px;
+	height:125px;
+	background:url(../images/common/img_help_spec03_sp.png);
+	background-size:contain;
+}
+
+#spec05 .cf .sp{
+	width:56px;
+	height:69px;
+	background:url(../images/common/img_help_spec05_sp.png);
+	background-size:contain;
+}
+
+#spec08 .cf .sp{
+	width:69px;
+	height:69px;
+	background:url(../images/common/img_help_spec08_sp.png);
+	background-size:contain;
+}
+
+/*#spec13 .cf .sp{
+	width:72px;
+	height:72px;
+	background:url(../images/common/img_help_spec13_sp.png);
+	background-size:contain;
+}*/
+
+#spec15 .cf .sp{
+	width:123px;
+	height:88px;
+	background:url(../images/common/img_help_spec15_sp.png);
+	background-size:contain;
+}
+
+#spec16 .cf .sp{
+	width:119px;
+	height:151px;
+	background:url(../images/common/img_help_spec16_sp.png);
+	background-size:contain;
+}
+
+#spec17 .cf .sp{
+	width:15px;
+	height:72px;
+	background:url(../images/common/img_help_spec17_sp.png);
+	background-size:contain;
+}
+
+#contents,
+#pages section[id^="pages"],
+#spec section[id^="spec"],
+#rank section[id^="rank"],
+#snf section[id^="snf"]{
+	padding-bottom:11px;
+	background:url(../images/common/bg_hr_sp.gif) bottom center no-repeat;
+	background-size:300px;
+	margin-bottom:9px;
+}
+
+#faq{
+	padding-top:9px;
+}
+
+#playing_env section[id^="playing_env"],
+#about_the_game section[id^="about_the_game"],
+#charges section[id^="charges"],
+#id section[id^="id"],
+#about_play_data section[id^="about_play_data"],
+#switch section[id^="switch"]{
+	margin-bottom:13px;
+}
+
+footer{
+	background:#99ccff;
+	min-width:320px;
+}
+
+.footer_inner{
+	width:300px;
+	margin:0 auto;
+	padding:12px 10px;
+	color:#000099;
+	font-size:10px;
+	line-height:1.45;
+	position: relative;
+}
+
+.footer_inner .logo,.footer_inner .txt{
+	margin-bottom:10px;
+}
+
+.footer_inner .logo li{
+	display:inline-block;
+	margin-right:18px;
+}
+
+.footer_inner a{
+	color:#ffffff;
+	text-decoration:none;
+}
+
+.footer_inner a:hover{
+	text-decoration: underline;
+}
+
+.footer_inner .logo img{
+	width:56px;
+	height:18px;
+}
+
+.footer_inner .lang_select{
+	display:block;
+	position: absolute;
+	top:16px;
+	right:10px;
+	font:inherit;
+	font-size:13px;
+}
+
+.jp .footer_inner .alink{
+	margin-bottom: 10px;
+}
+
+.footer_inner .alink li{
+	line-height: 1.5;
+	list-style: none;
+	display: inline;
+}
+
+.footer_inner .alink li:after{
+	content:" / ";
+}
+
+.footer_inner .alink li:last-child:after{
+	content:none;
+}
+
+
+/*Android推奨端末リスト*/
+.devices .wrapper{
+	padding-top:0;
+
+}
+
+.devices table{
+	margin:0 auto;
+	width:80%;
+	padding:0.5em;
+	margin-bottom:5px;
+}
+
+.devices th{
+	padding:0.5em;
+	background:#99ccff;
+	color:#000099;
+	border:1px solid #cccccc;
+}
+
+.devices td{
+	border:1px solid #cccccc;
+	background:#ffffff;
+	color:#333333;
+	padding:0.5em;
+}
+
+.devices tr:nth-child(2n+1) td{
+	background:#E9F4FD;
+}
+
+.devices .caution{
+	width:80%;
+	margin:0 auto;
+}
+
+/*利用規約*/
+
+.rule .main h2{
+}
+
+.rule .main h3{
+	width:auto;
+	font-weight: bold;
+	text-align: left;
+	line-height:18px;
+	border-radius: 0;
+	background:transparent;
+	margin:0 auto 23px;
+}
+
+.rule .main p,.rule .main ol,.rule .main ul{
+	margin-bottom:30px;
+}
+
+.rule .main li:before{
+	content: none;
+}
+
+.rule .main li{
+	list-style-position: inside;
+}
+
+.rule .main .second li{
+	padding-left:1em;
+}
+
+.rule .main .kanji{
+	margin-bottom: 0;
+}
+
+.rule .main .kanji li{
+	list-style-type: cjk-ideographic;
+}
+
+.rule .main .mb0{
+	margin-bottom:0;
+}
+
+.rule .main a{
+	color:#ffffff;
+	text-decoration: none;
+}
+
+.rule .main a:hover{
+	text-decoration: underline;
+}
+
+/*お知らせ詳細*/
+
+.info .info_header,.info .contents{
+	font-size:12px;
+}
+
+
+.info dl.info_header dt{
+	color:#cccccc;
+}
+.info dl.info_header{
+	padding-bottom:11px;
+	background:url(../images/common/bg_hr_sp.gif) bottom center no-repeat;
+	background-size:300px;
+	margin-bottom:9px;
+}
+
+.info .contents{
+	line-height:1.5;
+	min-height:300px;
+	word-wrap:break-word;
+}
+
+.info .contents img{
+	max-width: 100%!important;
+	height:auto!important;
+}
+
+/* 太字・斜体・下線 */
+
+.info .contents strong{
+	font-weight: bold;
+}
+.info .contents em{
+	font-style: italic;
+}
+
+.info .contents ins{
+	text-decoration: underline;
+	background-color: transparent;
+	color:inherit;
+}
+
+/*色付の場合*/
+.info .contents span{
+	font-weight: inherit;
+}
+
+.info.jp .btn_close{
+	background:url(../images/jp/btn_to_close.png) no-repeat;
+	background-size: contain;
+}
+.info.en .btn_close{
+	background:url(../images/en/btn_to_close.png) no-repeat;
+	background-size: contain;
+
+}
+/*MT詳細テーブルのリセットcss*/
+.info .contents table{
+    margin:0;
+    padding:0;
+    border:0;
+    border-color:#fff;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
