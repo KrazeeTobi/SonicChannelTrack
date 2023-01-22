@@ -1,0 +1,101 @@
+@charset "UTF-8";
+/* main-visual layout setting ===================================================== */
+#main-visual{
+	width:800px;
+	height:246px;
+	background:url("main-visual/div_bg.jpg") no-repeat top left;
+}
+
+/* h1 layout setting ===================================================== */
+#main-visual h1{
+	padding:21px 0 0 271px;
+	height:220px;
+	float:left;
+}
+
+#main-visual h1 div{
+	width:320px;
+}
+#main-visual h1 span{
+	position:absolute;
+	top:97px;	
+	left:271px;
+}
+
+
+/* gameTitle layout setting ===================================================== */
+div#gameTitle{
+	float:right;
+	padding:6px 0 0 0;
+	width:163px;
+}
+
+#gameTitle h2{
+	margin:0px;
+	padding:0px;
+	width:1px;
+	height:1px;
+	position:absolute;
+	top:0px;
+	left: -999px;
+	display:run-in;
+	border-style:none;
+	overflow:hidden;
+}
+
+#gameTitle div{
+	width:157px;
+	height:77px;
+	background:url("main-visual/gametitle_div_bg.gif") no-repeat top left;
+}
+
+#gameTitle div h3{
+	padding:4px 4px 0 4px;
+}
+
+#gameTitle div ul{
+	margin:0 0 0 7px;
+}
+
+#gameTitle div ul li{
+	display:block;
+	height:7px;
+	float:left;
+	text-indent:-100em;
+}
+
+
+/* gameTitle hard setting ===================================================== */
+/* note image+2px         ===================================================== */
+.hardPs3{
+	width:62px;
+	background:url("main-visual/li_hard_ps3.gif") no-repeat top left;
+}
+.hardPs2{
+	width:20px;
+	background:url("main-visual/li_hard_ps2.gif") no-repeat top left;
+}
+.hardNgc{
+	width:15px;
+	background:url("main-visual/li_hard_ngc.gif") no-repeat top left;
+}
+.hardWii{
+	width:15px;
+	background:url("main-visual/li_hard_wii.gif") no-repeat top left;
+}
+
+.hardXbox360{
+	width:40px;
+	background:url("main-visual/li_hard_xbox360.gif") no-repeat top left;
+}
+
+.hardXbox{
+	width:25px;
+	background:url("main-visual/li_hard_xbox.gif") no-repeat top left;
+}
+.hardNds{
+	width:15px;
+	background:url("main-visual/li_hard_ds.gif") no-repeat top left;
+}
+
+
