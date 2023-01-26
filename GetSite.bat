@@ -22,6 +22,7 @@
 ::v1.3.0 - summer 2022: added new sonicteam link
 ::v1.4.0 - THESE TEMP FILES MAAAN
 ::v1.5.0 - These MOTHERFUCKING FILES, said Krazeenem.
+::v2.0.0 - 2023-01-26: WINDOWS UPDATE
 ::--------------------------------------------------------------change comments end
 git pull
 wget -r --no-parent --no-check-certificate -p http://sonic.sega.jp/
@@ -354,6 +355,16 @@ del edo.7
 del edo.8
 del edo.9
 del edo.10
+del tomoko.1
+del tomoko.2
+del tomoko.3
+del tomoko.4
+del tomoko.5
+del tomoko.6
+del tomoko.7
+del tomoko.8
+del tomoko.9
+del tomoko.10
 cd ..
 cd ..
 cd topics
