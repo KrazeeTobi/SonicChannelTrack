@@ -94,6 +94,16 @@ wget -r --no-parent --no-check-certificate -p http://sonic-movie.jp/
 wget -r --no-parent --no-check-certificate -p http://paramount.jp/sonic-movie/
 cd sonic.sega.jp
 cd SonicChannel
+del contentpolicy.1
+del contentpolicy.2
+del contentpolicy.3
+del contentpolicy.4
+del contentpolicy.5
+del contentpolicy.6
+del contentpolicy.7
+del contentpolicy.8
+del contentpolicy.9
+del contentpolicy.10
 cd special
 cd sns
 del akachochin.1
