@@ -91,7 +91,7 @@ wget -r --no-parent --no-check-certificate -p http://www.nintendo.co.jp/wiiu/abj
 wget -r --no-parent --no-check-certificate -p http://www.nintendo.co.jp/wiiu/aurj/
 wget -r --no-parent --no-check-certificate -p http://www.olympicvideogames.com/marioandsonicac/
 wget -r --no-parent --no-check-certificate -p http://sonic-movie.jp/
-wget -r --no-parent --no-check-certificate -p http://paramount.jp/sonic-movie/
+wget -r --no-parent --no-check-certificate --page-requisites -p http://paramount.jp/sonic-movie/
 cd sonic.sega.jp
 cd SonicChannel
 del contentpolicy.1
