@@ -1,0 +1,283 @@
+@charset "UTF-8";
+
+/*-----------------------------------------------------
+#common-contents h2
+-----------------------------------------------------*/
+#common-contents {
+		min-height: 600px;
+}
+
+#common-contents h4 {
+		color: #021e73;
+}
+
+#common-contents h4.open,
+#common-contents h4.close {
+		width: 600px;
+		height: 28px;
+		margin: 0;
+		padding: 7px 10px 0 35px;
+}
+
+#common-contents h4.open{
+		background:url(contents-substance/h4_openBlock.gif) no-repeat;
+}
+#common-contents h4.close{
+		background:url(contents-substance/h4_closeBlock.gif) no-repeat;
+}
+
+#common-contents div.goods {
+	position: relative;
+	float: left;
+	width: 315px;
+	height: 170px;
+	margin-bottom: 15px;
+	background:url(contents-substance/h4_goods.gif) no-repeat;
+}
+
+#common-contents div.goods.even {
+	margin-left: 15px;
+}
+
+#common-contents div.goods div.goodsThumb {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	width: 150px;
+	height: 150px;
+}
+
+#common-contents div.goods div.goodsThumb img {
+	display: block;
+	margin: auto;
+}
+
+#common-contents div.goods h4 {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	width: 140px;
+}
+
+#common-contents div.goods .topicsDate {
+	position: absolute;
+	bottom: 15px;
+	right: 15px;
+	color:#eee;
+	font-size:small;	
+}
+
+/* clear fix */
+#common-contents h4{/*for IE 5.5-7*/
+	zoom:1;
+}
+
+#common-contents h4.open:after, 
+#common-contents h4.close:after{/*for modern browser*/
+	content:".";
+	display: block;
+	height:0px;
+	clear:both;
+	line-height:0; 
+	visibility:hidden;
+}
+
+#common-contents h4.open .topicsDate, 
+#common-contents h4.close .topicsDate{
+	float:right;
+	color:#eee;
+	font-size:small;
+}
+
+html* .topicsDate {/*for IE 5.5-7*/
+	margin-top:-1.4em;
+}
+#common-contents .topicsDate:before{
+	content:"update ";
+}
+
+#common-contents .backTop {
+	width:82px;
+	text-align: left;
+	display:block;
+	margin: 10px 10px 10px auto;
+	padding:2px;	
+	background: url("contents-substance/backTop_btn_line.gif") repeat-x left center;	
+}
+
+#common-contents .backTop:after{/*for modern browser*/
+	content:".";
+	display: block;
+	height:0px;
+	clear:both;
+	line-height:0; 
+	visibility:hidden;
+}
+
+#common-contents .backTop a {
+	display:block;
+	padding-left:10px;
+	background: url("contents-substance/backTop.gif") no-repeat left center;		
+}
+
+#common-contents .backTop a:hover{
+	background: url("contents-substance/backTop_o.gif") no-repeat left center;
+	text-decoration:none;
+}
+
+/*-----------------------------------------------------
+.contentsSubstance
+-----------------------------------------------------*/
+.contentsSubstance .divArticle{
+	margin:0 0 0;
+	width:100%;
+}
+.contentsSubstance .divArticle p{
+	clear:both;
+}
+
+/*
+.contentsSubstance .divArticle p.time{
+	display:block;
+	padding:0.3em;
+	color:#021e73;
+	text-align: right;
+	
+}
+*/
+
+.contentsSubstance .divArticle h5{
+	color:#a60303;
+	font-size:medium;
+	font-weight:bold;
+	clear:both;
+	border-bottom:1px solid #6778ab;
+	margin:2em 0 0;
+	padding:2em 0 1em;
+	
+}
+
+.contentsSubstance .divArticle h5:first-of-type{
+	border-top:none;
+	margin:0;
+	padding:1em 0 1em;
+}
+
+/*
+.contentsSubstance .divArticle h5:before{
+	content:"★";
+}
+*/
+
+.contentsSubstance .divArticle h6{
+	clear:both;
+	font-size:small;
+	font-weight:bold;
+	border-top:1px dotted #ccc;
+	padding:0.5em 0;
+	color: #0F38B2;
+}
+
+/*-----------------------------------------------------
+table
+-----------------------------------------------------*/
+
+.contentsSubstance .divArticle table{
+	border-top:1px solid #ccc;
+	border-left:1px solid #ccc;
+	border-collapse:collapse;
+	margin:0 0 1em;
+}
+
+.contentsSubstance .divArticle th{
+	width:130px;
+	background:#103ab9;
+	vertical-align:top;
+	text-align:left;
+	font-weight:bold;
+	color:#FFF;
+	white-space:nowrap;
+}
+
+.contentsSubstance .divArticle th,
+.contentsSubstance .divArticle td{
+	border-bottom:1px solid #ccc;
+	border-right:1px solid #ccc;
+	padding:0.5em;
+}
+
+.contentsSubstance .divArticle td{
+	color:#000;
+	background:#fff;
+}
+/*-----------------------------------------------------
+.imgBox
+-----------------------------------------------------*/
+.contentsSubstance .divArticle .imgBox{
+	text-align:center;
+	margin:0 auto;
+	padding:0;	
+}
+.contentsSubstance .divArticle .imgBox img{
+	padding:5px 0px 5px 15px;
+}
+.contentsSubstance .divArticle .imgBox img:first-child{
+	padding:5px 0px 5px 0px;
+}
+.contentsSubstance .divArticle .imgBox.narrowLeftPad img{
+	padding:5px 0px 5px 2px;
+}
+
+.attentionBox{
+	background:#FF9;
+	margin:1em;
+	padding:1em 1em 0;
+	font-size:x-small;
+}
+/*-----------------------------------------------------
+.captionImage
+-----------------------------------------------------*/
+.contentsSubstance .divArticle .captionImage{
+	
+}
+/* clear fix */
+.contentsSubstance .divArticle .captionImage{/*for IE 5.5-7*/
+	zoom:1;
+}
+.contentsSubstance .divArticle .captionImage:after{/*for modern browser*/
+	content:".";
+	display: block;
+	height:0px;
+	clear:both;
+	line-height:0; 
+	visibility:hidden;
+}
+
+.contentsSubstance .divArticle .captionImage div.left{
+	float:left;
+}
+
+.contentsSubstance .divArticle .captionImage div.spaceLeft{
+	padding-left:1em;
+}
+
+.contentsSubstance .divArticle .captionImage div.right{
+	float:right;
+}
+
+.contentsSubstance .divArticle .captionImage div p{
+	clear:both;
+	font-size:small;
+	text-indent:0em;
+	text-align:center;
+}
+
+
+.contentsSubstance .divArticle .imgLeft th{
+	width:auto;
+	padding-right:30px;
+}
+
+.contentsSubstance .divArticle .imgLeft p{
+	clear:none;
+}
