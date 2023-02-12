@@ -1,0 +1,297 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja" dir="ltr">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta name="keyword" content="SONIC CHANNEL,ソニックチャンネル,SEGA,セガ,SONICTEAM,ソニックチーム,SONIC,ソニック" />
+<meta name="description" content="SONIC CHANNELへようこそ！SONIC CHANNELはソニック公式ポータルサイトです。" />
+<title>ソニックチャンネル</title>
+<script src="common/js/common-import.js" language="javascript" type="text/javascript"></script>
+<link rel="stylesheet" href="common/css/common-import.css" type="text/css" media="all" />
+<link rel="stylesheet" href="css/own-import.css" type="text/css" media="all" />
+<link rel="stylesheet" href="common/lib/iVew2.0/css/iview.css" type="text/css" media="all" />
+<link rel="stylesheet" href="common/lib/iVew2.0/css/skin.css" type="text/css" media="all" />
+<script src="js/charaChange.js" type="text/javascript"></script>
+<script src="common/lib/iVew2.0/js/iView-import.js" type="text/javascript"></script>
+<script>
+$(document).ready(function() {
+    $('#main-iview').iView({
+		pauseTime: 7000,
+		pauseOnHover: true,
+		directionNav: true,
+		directionNavHide: false,
+		controlNav: true,
+		controlNavNextPrev: false,
+		controlNavTooltip: false,
+		nextLabel: "next",
+		previousLabel: "prev",
+		playLabel: "Jugada",
+		pauseLabel: "Pausa",
+		timerBg: "#EEE",
+		timerColor: "#000",
+		timerDiameter: 20,
+		timerPadding: 4,
+		timerStroke: 8,
+		timerPosition: "top-right"
+	});
+});
+</script>
+<link rel="start" href="http://sonic.sega.jp/" title="Top page" />
+<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://sonic.sega.jp/sonic.rdf" />
+</head>
+<body id="none">
+<div id="common-header">
+	<p id="header-sega"><a href="http://sega.jp/"><img src="common/image/common-header_sega.gif" alt="SEGA" width="97" height="32" /></a></p>
+	<p id="header-segasammy"><a href="http://www.segasammy.co.jp/"><img src="common/image/common-header_segasammy.gif" alt="SEGA-SAMMY GROUP" width="74" height="24" /></a></p>
+	<ul>
+		<li id="header-corporate"><a href="http://sega.jp/corp/">会社情報</a></li>
+		<li id="header-contact"><a href="http://sega.jp/contact/">お問い合わせ</a></li>
+		<li id="header-sitemap"><a href="http://sega.jp/sitemap/">サイトマップ</a></li>
+	</ul>
+</div>
+<div id="common-navigation">
+	<ul>
+		<li id="navigation-top"><a href="index.html">ソニックチャンネル トップページ</a></li>
+		<li id="navigation-topics"><a href="topics/event/index.html">トピックス</a></li>
+		<li id="navigation-gametitle"><a href="games/index.html">ゲームタイトル</a></li>
+		<li id="navigation-character"><a href="chara/index.html">キャラクター</a></li>
+		<li id="navigation-fanart"><a href="fanart/">ファンアート</a></li>
+		<li id="navigation-enjoy"><a href="enjoy/index.html">おたのしみ</a></li>
+		<li id="navigation-sitemap"><a href="sitemap/index.html">サイトマップ</a></li>
+	</ul>
+</div>
+<div id="own-main">
+	<h1>SONIC CHANNEL<img src="image/noflash.jpg" alt="最新タイトル" width="692" height="198" /></h1>
+	<p>ソニックチャンネル</p>
+	<div id="main-iview">
+		<div data-iview:image="image/banner/SonicToon_0620.jpg" data-iview:transition="slice-top-fade,slice-right-fade" data-iview:pausetime="5000"><a class="iviewLink" href="http://sonic.sega.jp/SonicToon/"></a></div>
+		<div data-iview:image="image/banner/sonic_staff_blog.gif" data-iview:transition="slice-top-fade,slice-right-fade" data-iview:pausetime="5000"><a class="iviewLink" href="http://blog.sonic-channel.jp/"></a></div>
+		<div data-iview:image="image/banner/Zeldazone_SonicLostWorld.jpg" data-iview:transition="slice-top-fade,slice-right-fade" data-iview:pausetime="5000"><a class="iviewLink" href="http://sonic.sega.jp/SonicLostWorld/"></a></div>
+		<div data-iview:image="image/banner/AllStarRacingTransformed.jpg" data-iview:transition="slice-top-fade,slice-right-fade" data-iview:pausetime="5000"><a class="iviewLink" href="http://sonic.sega.jp/SonicAllStarRacing/"></a></div>
+		<div data-iview:image="image/banner/sonicchannel_topA.jpg" data-iview:transition="slice-top-fade,slice-right-fade" data-iview:pausetime="5000"><a class="iviewLink" href="http://www.nintendo.co.jp/wiiu/aurj/"></a></div>
+		<div data-iview:image="image/banner/SonicLostWorld.jpg" data-iview:transition="slice-top-fade,slice-right-fade" data-iview:pausetime="5000"><a class="iviewLink" href="http://sonic.sega.jp/SonicLostWorld/"></a></div>
+	</div>
+	<h2>ソニック公式ソーシャルメディア</h2>
+	<ul>
+		<li><a href="http://blog.sonic-channel.jp/"><img src="image/social_StaffColumn.gif" alt="ソニックチャンネルスタッフコラム" width="150" height="45" border="0" /></a></li>
+		<li><a href="https://twitter.com/sonic20th"><img src="image/social_twitter.gif" alt="ソニック公式Twitter「ソニック委員会」" width="150" height="45" border="0" /></a><a href="http://sonic.sega.jp/SonicGenerations/"></a></li>
+		<li><a href="http://www.youtube.com/user/SONICMOVIECHANNEL"><img src="image/social_youtube.jpg" alt="ソニック ムービーチャンネル" width="150" height="45" border="0" /></a><a href="http://sonic.sega.jp/SonicFreeRiders/"></a></li>
+	</ul>
+</div>
+<div id="common-contents">
+	<div id="contents-navigation">
+		<h2>トピックス</h2>
+		<ul>
+			<li><a href="games/app/index.html">モバイル＆アプリ情報</a></li>
+			<li><a href="topics/event/index.html">イベント情報</a></li>
+			<li><a href="topics/tokyojoypolis/index.html">東京ジョイポリス</a></li>
+			<li><a href="topics/collaboration/index.html">コラボレーション情報</a></li>
+			<li><a href="topics/goods/index.html">グッズ情報</a></li>
+			<li><a href="topics/sound/index.html">サウンド情報</a></li>
+		</ul>
+	</div>
+	<div id="contents-news">
+		<h2>新着情報</h2>
+		<p id="news-rss"><a href="../sonic.rdf"><img src="image/icn_rss.gif" alt="RSS 2.0" width="16" height="16" /></a></p>
+		<div>
+			<p class="newsImage"><a href="enjoy/index.html"><img src="pastdata/2014/image/fig_news_0820.gif" alt="カレンダーイラスト" width="50" height="50" border="0" /></a></p>
+			<h3><span>2014/08/20</span><br />
+				「ソニック チャンネル」更新！</h3>
+			<ul>
+				<li>[<a href="enjoy/index.html">おたのしみ/かべがみ</a>]：かべがみ1点追加！</li>
+				<li>[<a href="enjoy/calendar/index.html">おたのしみ/卓上カレンダー</a>]：9月カレンダー追加！</li>
+				<li>[<a href="fanart/oubo.html">ファンアート</a>]：2014年10月掲載分のテーマは<strong>「ハロウィン」</strong>！</li><p>応募締め切りは<strong class="txtRed">10月掲載分　9/19（金）まで</strong></p>
+			</ul>
+		</div>
+		<div>
+			<p class="newsImage"><a href="topics/goods/140807/index.html"><img src="pastdata/2012/image/fig_news_0426.gif" alt="トピックス" width="50" height="50" border="0" /></a></p>
+			<h3><span>2014/08/07</span><br />
+				「ソニック チャンネル」 更新！</h3>
+			<ul>
+				<li>[<a href="topics/goods/140807/index.html">トピックス/グッズ情報</a>]：MARS16より『ソニック＆オールスターレーシング TRANSFORMED』グッズ２アイテムが発売決定！</li>
+			</ul>
+		</div>
+		<div>
+			<p class="newsImage"><img src="pastdata/2012/image/fig_news_0426.gif" alt="トピックス" width="50" height="50" border="0" /></p>
+			<h3><span>2014/07/22</span><br />
+				「ソニック チャンネル」 更新！</h3>
+			<ul>
+				<li>[<a href="fanart/oubo.html">ファンアート</a>]：2014年9月掲載分のテーマは<strong>「夏の思い出」</strong>！<br /><p>応募締め切りは<strong class="txtRed">9月掲載分　8/20（水）まで</strong></p>
+</li>
+			
+				<li><strong class="txtRed">『ソニックバースデープレゼントキャンペーン2014』は終了いたしました。たくさんのご応募ありがとうございました。当選者の発表は、登録されたメールアドレス宛にご連絡いたします。</strong></li>
+			</ul>
+		</div>
+		<div>
+			<p class="newsImage"><a href="enjoy/index.html"><img src="pastdata/2014/image/fig_news_0718.gif" alt="カレンダーイラスト" width="50" height="50" border="0" /></a></p>
+			<h3><span>2014/07/18</span><br />
+				「ソニック チャンネル」更新！</h3>
+			<ul>
+				<li>[<a href="enjoy/index.html">おたのしみ/かべがみ</a>]：かべがみ1点追加！</li>
+				<li>[<a href="enjoy/calendar/index.html">おたのしみ/卓上カレンダー</a>]：8月カレンダー追加！</li>
+			</ul>
+		</div>
+		<div>
+			<p class="newsImage"><a href="topics/sound/140625/index.html"><img src="pastdata/2012/image/fig_news_0426.gif" alt="トピックス" width="50" height="50" border="0" /></a></p>
+			<h3><span>2014/06/25</span><br />
+				「ソニック チャンネル」更新！</h3>
+			<ul>
+				<li>[<a href="topics/sound/140625/index.html">トピックス/サウンド情報</a>]：『Sonic R』オリジナルサウンドトラック配信！</li>
+			</ul>
+		</div>
+		<div>
+			<p class="newsImage"><a href="http://sonic.sega.jp/SonicToon/"><img src="pastdata/2014/image/fig_news_0620_2.jpg" alt="『SONIC TOON』公式サイト更新！" width="50" height="50" border="0" /></a></p>
+			<h3><span>2014/06/23</span><br />
+				『SONIC TOON』公式サイト更新！</h3>
+				<ul>
+					<li><a href="http://sonic.sega.jp/SonicToon/">トレイラー公開！</a></li>
+				</ul>
+
+		</div>
+		<div>
+			<p class="newsImage"><img src="pastdata/2012/image/fig_news_0426.gif" alt="トピックス" width="50" height="50" border="0" /></p>
+			<h3>「ソニック チャンネル」更新！</h3>
+			<ul>
+				<li>[トピックス/イベント情報]：ソニックバースデー プレゼントキャンペーン</li>
+			</ul>
+		</div>
+		<div>
+			<p class="newsImage"><a href="http://sonic.sega.jp/SonicToon/"><img src="pastdata/2014/image/fig_news_0620_2.jpg" alt="『SONIC TOON』公式サイト公開！" width="50" height="50" border="0" /></a></p>
+			<h3><span>2014/06/20</span><br />
+				<a href="http://sonic.sega.jp/SonicToon/">『SONIC TOON』公式サイト</a>公開！</h3>
+		</div>
+		<div>
+			<p class="newsImage"><a href="enjoy/index.html"><img src="pastdata/2014/image/fig_news_0620.gif" alt="カレンダーイラスト" width="50" height="50" border="0" /></a></p>
+			<h3>「ソニック チャンネル」更新！</h3>
+			<ul>
+				<li>[<a href="enjoy/index.html">おたのしみ/かべがみ</a>]：かべがみ1点追加！</li>
+				<li>[<a href="enjoy/calendar/index.html">おたのしみ/卓上カレンダー</a>]：7月カレンダー追加！</li>
+				<li>[<a href="fanart/">ファンアート</a>]：第103回作品32点掲載！</li>
+			</ul>
+		</div>
+		<div>
+			<p class="newsImage"><a href="topics/event/140602/index.html"><img src="pastdata/2012/image/fig_news_0426.gif" alt="トピックス" width="50" height="50" border="0" /></a></p>
+			<h3><span>2014/06/02</span><br />
+				「ソニック チャンネル」更新！</h3>
+			<ul>
+				<li>[<a href="topics/event/140602/index.html">トピックス/イベント情報</a>]：ソニックバースデーパーティー2014</li>
+			</ul>
+		</div>
+		<div>
+			<p class="newsImage"><a href="enjoy/index.html"><img src="pastdata/2014/image/fig_news_0522.gif" alt="カレンダーイラスト" width="50" height="50" border="0" /></a></p>
+			<h3><span>2014/05/23</span><br />
+				「ソニック チャンネル」更新！</h3>
+			<ul>
+				<li>[<a href="enjoy/index.html">おたのしみ/かべがみ</a>]：かべがみ1点追加！</li>
+				<li>[<a href="enjoy/calendar/index.html">おたのしみ/卓上カレンダー</a>]：6月カレンダー追加！</li>
+			</ul>
+		</div>
+		<div>
+			<p class="newsImage"><a href="http://sonic.sega.jp/SonicAllStarRacing/"><img src="pastdata/2014/image/fig_news_0214.gif" alt="『ソニック＆オールスターレーシング TRANSFORMED』更新！" width="50" height="50" border="0" /></a></p>
+			<h3><span>2014/05/15</span><br />
+				<a href="http://sonic.sega.jp/SonicAllStarRacing/">『ソニック＆オールスターレーシング TRANSFORMED』</a>発売！</h3>
+		</div>
+		<div>
+			<p class="newsImage"><a href="http://sonic.sega.jp/SonicAllStarRacing/"><img src="pastdata/2014/image/fig_news_0214.gif" alt="『ソニック＆オールスターレーシング TRANSFORMED』更新！" width="50" height="50" border="0" /></a></p>
+			<h3><span>2014/05/12</span><br />
+				<a href="http://sonic.sega.jp/SonicAllStarRacing/">『ソニック＆オールスターレーシング TRANSFORMED』</a>更新！</h3>
+			<ul>
+				<li><a href="http://sonic.sega.jp/SonicAllStarRacing/chara.html">「キャラクター」</a>追加！</li>
+				<li><a href="http://sonic.sega.jp/SonicAllStarRacing/course.html">「コース」</a>追加！</li>
+				<li><a href="http://sonic.sega.jp/SonicAllStarRacing/mode.html">「モード」</a>追加！</li>
+				<li><a href="http://sonic.sega.jp/SonicAllStarRacing/ex.html">「エキストラ」</a>公開！</li>
+			</ul>
+		</div>
+		<div>
+			<p class="newsImage"><a href="http://sonic.sega.jp/SonicAllStarRacing/"><img src="pastdata/2014/image/fig_news_0214.gif" alt="『ソニック＆オールスターレーシング TRANSFORMED』更新！" width="50" height="50" border="0" /></a></p>
+			<h3><span>2014/04/28</span><br />
+				<a href="http://sonic.sega.jp/SonicAllStarRacing/">『ソニック＆オールスターレーシング TRANSFORMED』</a>更新！</h3>
+			<ul>
+				<li><a href="http://sonic.sega.jp/SonicAllStarRacing/course.html">「コース」</a>追加！</li>
+				<li><a href="http://sonic.sega.jp/SonicAllStarRacing/mode.html">「モード」</a>追加！</li>
+			</ul>
+		</div>
+		<div>
+			<p class="newsImage"><a href="enjoy/coloring/index.html"><img src="pastdata/2014/image/fig_news_0428.gif" alt="ぬりえ" width="50" height="50" border="0" /></a></p>
+			<h3> 「ソニック チャンネル」更新！</h3>
+			<ul>
+				<li>[<a href="enjoy/coloring/index.html">おたのしみ/ぬりえ</a>]：ぬりえ1点追加！</li>
+				<li>[<a href="fanart/">ファンアート</a>]：第102回作品17点掲載！</li>
+			</ul>
+		</div>
+		<div>
+			<p class="newsImage"><a href="http://sonic.sega.jp/SonicAllStarRacing/"><img src="pastdata/2014/image/fig_news_0214.gif" alt="『ソニック＆オールスターレーシング TRANSFORMED』更新！" width="50" height="50" border="0" /></a></p>
+			<h3><span>2014/04/21</span><br />
+				<a href="http://sonic.sega.jp/SonicAllStarRacing/">『ソニック＆オールスターレーシング TRANSFORMED』</a>更新！</h3>
+			<ul>
+				<li><a href="http://sonic.sega.jp/SonicAllStarRacing/chara.html">「キャラクター」</a>追加！</li>
+				<li><a href="http://sonic.sega.jp/SonicAllStarRacing/course.html">「コース」</a>追加！</li>
+				<li><a href="http://sonic.sega.jp/SonicAllStarRacing/mode.html">「モード」</a>公開！</li>
+			</ul>
+		</div>
+		<div>
+			<p class="newsImage"><a href="enjoy/index.html"><img src="pastdata/2014/image/fig_news_0418.gif" alt="カレンダーイラスト" width="50" height="50" border="0" /></a></p>
+			<h3><span>2014/04/18</span><br />
+				「ソニック チャンネル」更新！</h3>
+			<ul>
+				<li>[<a href="enjoy/index.html">おたのしみ/かべがみ</a>]：かべがみ1点追加！</li>
+				<li>[<a href="enjoy/calendar/index.html">おたのしみ/卓上カレンダー</a>]：5月カレンダー追加！</li>
+				<li>[<a href="fanart/oubo.html">ファンアート</a>]：2014年6月掲載分のテーマは<strong>「Happy Birthday SONIC」</strong>！</li>
+				<p>応募締め切りは<strong class="txtRed">6月掲載分　5/20（火）まで</strong></p>
+			</ul>
+		</div>
+		<div>
+			<p class="newsImage"><a href="enjoy/coloring/index.html"><img src="pastdata/2014/image/fig_news_0401.gif" alt="ぬりえ" width="50" height="50" border="0" /></a></p>
+			<h3><span>2014/04/01</span><br />
+				「ソニック チャンネル」更新！</h3>
+			<ul>
+				<li>[<a href="enjoy/coloring/index.html">おたのしみ/ぬりえ</a>]：ぬりえ1点追加！</li>
+				<li>[<a href="fanart/">ファンアート</a>]：第101回作品22点掲載！</li>
+			</ul>
+		</div>
+		<p><a href="pastdata/2014/index.html">＞＞ 過去の新着情報</a></p>
+	</div>
+	<div id="contents-special">
+		<h2>スペシャルコンテンツ</h2>
+		<ul>
+			<li><a href="usa/index.html"><img src="image/bnr_usa.gif" alt="スタジオUSA通信" /></a><br />
+				「ソニックチーム スタジオUSA」から現地での様子をお伝えします。</li>
+			<li><a href="creators/index.html"><img src="image/bnr_creators.gif" alt="クリエイターズインタビュー" /></a><br />
+				「ソニックチーム」のクリエイターをインタビュー形式で紹介します。</li>
+			<li><a href="http://sonic.sega.jp/20th/"><img src="image/bnr_sonic20th.gif" alt="ソニック20周年記念サイト" width="150" height="50" /></a><br />
+				ソニック20周年記念サイト</li>
+		</ul>
+	</div>
+	<!-- Google Code for http://sonic.sega.jp/SonicChannel/ Remarketing List --> 
+	<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 1010521566;
+var google_conversion_language = "en";
+var google_conversion_format = "3";
+var google_conversion_color = "ffffff";
+var google_conversion_label = "YLG0CJLnwwIQ3qvt4QM";
+var google_conversion_value = 0;
+/* ]]> */
+</script> 
+	<script type="text/javascript" src="http://www.googleadservices.com/pagead/conversion.js">
+</script>
+	<noscript>
+	<div style="display:inline;"> <img height="1" width="1" style="border-style:none;" alt="" src="http://www.googleadservices.com/pagead/conversion/1010521566/?label=YLG0CJLnwwIQ3qvt4QM&amp;guid=ON&amp;script=0"/> </div>
+	</noscript>
+</div>
+<div id="common-footer">
+	<p><a href="http://www.sonicteam.com/"><img src="common/image/common-footer_sonicteam.gif" alt="SONIC TEAM" /></a></p>
+	<p>&copy;SEGA</p>
+	<p>「ソニックチャンネル」は、株式会社セガが運営しております。<br />
+		[ <a href="http://sega.jp/contact/soft/">お問い合わせはこちら</a> ] </p>
+</div>
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script> 
+<script type="text/javascript"><!--
+	_uacct = "UA-349115-4";
+	urchinTracker();	
+	bodyId();
+-->
+</script>
+</body>
+</html>
