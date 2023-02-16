@@ -1,0 +1,81 @@
+<div id="contents-action">
+	<section>
+		<h1>アクション</h1>
+		<div>
+			<h2>シンプルな横スクロールアクションの「クラシックスタイル」ダイナミックで高速な3Dアクションの「モダンスタイル」すべてのステージが、3つのスタイルで楽しめる！</h2>
+			<div id="act-one">
+			<div id="one-movie"></div>
+			
+			<script type="text/javascript">
+			
+					var _agent = navigator.userAgent;
+					var _num = "1";
+			
+					if(_agent.indexOf('iPhone') != -1 || _agent.indexOf('iPod') != -1|| _agent.indexOf('iPad') != -1) {
+						//----------------------------------------------------------iPhone iPod iPad 
+						var h = '<video src="action/swf/act'+_num+'.mp4" controls width="300" height="211" poster=""></video>';
+						$("#one-movie").append(h);
+						
+					}else if(_agent.indexOf('Android ') != -1){
+						//----------------------------------------------------------android
+						var h = '<embed src="action/swf/movie.swf" width="300" height="211" quality="high" wmode="transparent" FlashVars="moviePath=act'+_num+'.mp4" name="externalmovie" allowFullScreen ="true" allowScriptAccess="always" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer"></embed>'
+						$("#one-movie").append(h);
+						
+					}else{
+						//----------------------------------------------------------Webブラウザ
+						var flashvars = {
+							moviePath:"act"+_num+".mp4"
+						};
+						var params = {
+							salign:'lt',
+							menu:'false',
+							allowScriptAccess: "always",
+							bgcolor: "#ffffff",
+							wmode:	"transparent",
+							allowfullscreen :'true'
+						};
+						var attributes = {};
+						swfobject.embedSWF("action/swf/movie.swf", "one-movie", "360", "254", "10.0.0", "expressInstall.swf", flashvars, params, attributes);
+					}
+			</script>		
+		
+			</div>			
+			<div id="act-two">
+			<div id="two-movie"></div>			
+			<script type="text/javascript">
+			
+					var _agent = navigator.userAgent;
+					var _num = "2";
+			
+					if(_agent.indexOf('iPhone') != -1 || _agent.indexOf('iPod') != -1|| _agent.indexOf('iPad') != -1) {
+						//----------------------------------------------------------iPhone iPod iPad 
+						var h = '<video src="action/swf/act'+_num+'.mp4" controls width="300" height="211" poster=""></video>';
+						$("#two-movie").append(h);
+						
+					}else if(_agent.indexOf('Android ') != -1){
+						//----------------------------------------------------------android
+						var h = '<embed src="action/swf/movie.swf" width="300" height="211" quality="high" wmode="transparent" FlashVars="moviePath=act'+_num+'.mp4" name="externalmovie" allowFullScreen ="true" allowScriptAccess="always" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer"></embed>'
+						$("#two-movie").append(h);
+						
+					}else{
+						//----------------------------------------------------------Webブラウザ
+						var flashvars = {
+							moviePath:"act"+_num+".mp4"
+						};
+						var params = {
+							salign:'lt',
+							menu:'false',
+							allowScriptAccess: "always",
+							bgcolor: "#ffffff",
+							wmode:	"transparent",
+							allowfullscreen :'true'
+						};
+						var attributes = {};
+						swfobject.embedSWF("action/swf/movie.swf", "two-movie", "360", "254", "10.0.0", "expressInstall.swf", flashvars, params, attributes);
+					}
+			</script>		
+			
+			</div>
+		</div>		
+	</section>
+</div>
