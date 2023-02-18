@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+/* --------------------------------------------------
+base
+-------------------------------------------------- */
+
+@import url('https://news.eigafan.com/wp-content/themes/basic-theme/css/_template.css');
+
+
+
+/* --------------------------------------------------
+追加CSS
+-------------------------------------------------- */
+
+/* ヘッダー画像 */
+.header {
+  background: #000;
+}
+
+/* アクセントカラー */
+.article__ttl a, .sidebar__hdg {
+  color:            #0068e9;
+}
+#pagetop, .pager .current, .footer__back a {
+  background-color: #0068e9;
+}
+.pager .current, .sidebar__list li.is-active {
+  border-color:     #0068e9;
+}
+
+@media screen and (max-width: 767px) {
+  .header {
+    height: 130px;
+  }
+
+  .header a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+
+  .header img {
+    width: 100%;
+    height: auto;
+  }
+}
