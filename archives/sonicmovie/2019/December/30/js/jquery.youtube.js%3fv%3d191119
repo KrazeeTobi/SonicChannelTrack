@@ -1,0 +1,139 @@
+;(function( $ ) {
+
+//--------------------------------------------------
+// グローバル関数
+//--------------------------------------------------
+var gv = {
+	openFlag       : false,
+	player         : null,
+	playerReady    : false,
+	closeBtn       : '',
+	videoWidth     : 1000,
+	videoHeight    : 562.5,
+	youtubeIndex   : 0,
+	youtubeVideoID : ['KVIdNUSpCQo','BVm7HF4d1TE', '-9DA3DEYeHM'],
+};
+
+
+//--------------------------------------------------
+// youtube
+//--------------------------------------------------
+var youtube = {
+
+	init : function() {
+		var tag = document.createElement('script');
+		tag.src = "//www.youtube.com/iframe_api";
+		var iframePlayerApiScriptTag = document.getElementsByTagName('script')[0];
+		iframePlayerApiScriptTag.parentNode.insertBefore(tag, iframePlayerApiScriptTag);
+	},
+
+	onYouTubePlayerAPIReady : function(index) {
+		var autoplay = 1;
+		var controls = 1;
+		var showinfo = 1;
+
+		gv.videoWidth = $(window).innerWidth() * 0.9;
+		gv.videoHeight = gv.videoWidth * 0.5625;
+		$('#yt-video').width(gv.videoWidth);
+		$('#yt-video').height(gv.videoHeight);
+
+		gv.player = new YT.Player('iframe_player_api', {
+			width: gv.videoWidth,
+			height: gv.videoHeight,
+			videoId: gv.youtubeVideoID[index],
+			playerVars: {
+				'enablejsapi': 1,
+				'start': 0,
+				'autoplay': autoplay,
+				'modestbranding': 1,
+				'autohide': 1,
+				'controls': controls,
+				'showinfo': showinfo,
+				'rel': 0
+			},
+			events: {
+				'onReady': youtube.onPlayerReady,
+				'onStateChange': youtube.onPlayerStateChange,
+				'onError': youtube.onPlayerError
+			}
+		});
+	},
+
+	onPlayerReady : function(event){
+		$("#iframe_player_api").css('display', 'block');
+		gv.playerReady = true;
+		//event.target.playVideo();
+	},
+
+	onPlayerStateChange : function(event){
+
+		switch(event.data){
+			case YT.PlayerState.ENDED:
+				// $("#yt-close").trigger('click');
+				// $.fn.youtube(null, 'close');
+				break;
+			case YT.PlayerState.PLAYING:
+				$("#yt-loader").css('display', 'none');
+				break;
+			case YT.PlayerState.PAUSED:
+				break;
+			case YT.PlayerState.BUFFERING:
+				break;
+			case YT.PlayerState.CUED:
+				break;
+		}
+	},
+
+	onPlayerError : function(event) {
+		console.log("ERROR");
+	}
+
+};
+
+youtube.init();
+
+//--------------------------------------------------
+// モーダル処理
+//--------------------------------------------------
+$.fn.youtube = function(callback, action, index) {
+
+	this.index = index || gv.youtubeIndex;
+
+	if ( action === 'open' ) {
+
+		if (gv.playerReady) {
+			gv.player.destroy();
+		}
+
+		if(!gv.openFlag) {
+			$("#yt-overlay").addClass('transparent');
+		}
+
+		$("#yt-overlay").fadeIn(300);
+		$("#yt-loader").fadeIn(300);
+		$("#yt-close").fadeIn(300);
+		$(".yt-bg").fadeIn(300);
+		$("#yt-video").fadeIn(300);
+		$("#iframe_player_api").fadeIn(300);
+
+		youtube.onYouTubePlayerAPIReady(this.index);
+
+	} else if ( action === 'close' ) {
+		gv.closeBtn = $(this);
+		gv.player.destroy();
+		gv.playerReady = false;
+
+		gv.closeBtn.fadeOut(200);
+		$("#yt-overlay").fadeOut(200);
+
+		if ( !gv.openFlag ) {
+			if(callback) { callback() };
+			gv.openFlag = true;
+		}
+	}
+
+	return this;
+};
+
+})(jQuery);
+
