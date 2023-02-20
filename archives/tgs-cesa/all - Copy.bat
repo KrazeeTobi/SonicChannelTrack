@@ -1,3 +1,4 @@
+timeout /t 10800 /nobreak
 call 2010.bat
 call 2011.bat
 call 2012.bat
