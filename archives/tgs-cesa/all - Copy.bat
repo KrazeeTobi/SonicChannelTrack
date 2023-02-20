@@ -1,10 +1,3 @@
-timeout /t 10800 /nobreak
-call 2010.bat
-call 2011.bat
-call 2012.bat
-call 2013.bat
-call 2014.bat
-call 2015.bat
 call 2016.bat
 call 2017.bat
 call 2018.bat

@@ -1,0 +1,91 @@
+<HTML>
+
+<BODY BGCOLOR=#92D3FE MARGINHEIGHT=0 MARGINWIDTH=0 LEFTMARGIN=0 TOPMARGIN=0 ONLOAD="x = parent.frames['F2'].document.mapstate.xpos.value">
+<DIV ALIGN=CENTER>
+<IMG SRC="images/gdot.gif" WIDTH=776 HEIGHT=2 VSPACE=3><TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0 WIDTH=95%>
+<TR><TD VALIGN=top><FONT STYLE="font-size:10px">
+<B>
+&lt;&lt;おことわり&gt;&gt;<BR>
+</B>
+掲載された画像その他の内容の無断転載はお断りいたします。<BR>
+本情報ページで公開された商品名は一般に各社の登録商標です。<BR>
+</FONT>
+</TD>
+<TD WIDTH=300 ALIGN=center>
+
+<MAP NAME="ImageMap29023">
+<AREA SHAPE="RECT" COORDS="6,3,54,40" HREF="javascript:scrl(0)">
+<AREA SHAPE="RECT" COORDS="59,3,129,40" HREF="javascript:scrl(1)">
+<AREA SHAPE="RECT" COORDS="136,3,202,40" HREF="javascript:scrl(2)">
+</MAP>
+<IMG SRC="images/smap2.gif" WIDTH="210" HEIGHT="52" BORDER="0" USEMAP="#ImageMap29023" NAME="SMALLMAP"></TD>
+
+<TD ALIGN=right WIDTH=84>
+<IMG SRC="images/cesamini.gif" ALT="" WIDTH=84 HEIGHT=51 BORDER=0><BR>
+</TD></TR>
+</TABLE>
+
+
+</DIV>
+
+
+
+<SCRIPT LANGUAGE="javascript">
+var x;
+
+current = "WAITING";
+
+var pos, destPos, ads = 50;
+cache = new Array (3);
+for (ii = 0; ii < 3; ii++) {
+	cache[ii] = new Image;
+	cache[ii].src = "images/smap" + (ii + 1) + ".gif";
+}
+
+function scrl (d) {
+	x = parent.frames['F2'].document.mapstate.xpos.value;
+	if (current != "WAITING") return;
+	if (x == d) return;
+	
+	current = "SCROLLING";
+	pos = x * 800;
+	destPos = d * 800;
+	x = d;
+	parent.frames["F2"].document.mapstate.xpos.value = d;
+	document.images["SMALLMAP"].src =  cache[x].src;
+
+	setTimeout ("scrollMap ()", 0);
+}
+
+function scrollMap () {
+	if (pos > destPos) {
+		pos -= ads;
+		if (pos < destPos) pos = destPos;
+	}
+	if (pos < destPos) {
+		pos += ads;
+		if (pos > destPos) pos = destPos;
+	}
+	
+	parent.frames["F2"].scroll (pos, 0);
+	
+	if (pos == destPos) {
+		current = "WAITING";
+	} else {
+		setTimeout ("scrollMap ()", 0);
+	}
+}
+
+</SCRIPT>
+
+<P>
+<IMG SRC="images/gdot.gif" WIDTH=776 HEIGHT=2 VSPACE=3>
+<TABLE width="700" cellspacing="0">
+<TR>
+<TD align="center"><A href="index.html"><IMG SRC="images/back.gif" WIDTH=214 HEIGHT=50 BORDER=0><BR>
+</A></TD>
+</TR>
+</TABLE>
+
+
+</BODY></HTML>
