@@ -1,0 +1,633 @@
+@charset "utf-8";
+/* CSS Document */
+
+/***************************************
+Header
+***************************************/
+
+#header{
+	margin: 0 auto;
+	padding: 12px 0 0 0;
+	width: 1000px;
+	height: 50px;
+	background-repeat: repeat-x;
+}
+body {
+	background-image: url(../images/common/body_area_bg.jpg);
+	background-repeat: repeat-x;
+}
+
+#header img,
+#mainWrap #LCWrap2 #mainContents img{ border: none; }
+
+#header h2{
+	margin: 0 0 0 10px;
+	padding: 0;
+	width: 118px;
+	height: 37px;
+	float: left;
+}
+
+#header h2 a{
+	display: block;
+	height: 0;
+	width: 118px;
+	padding-top: 50px;
+	overflow: hidden;
+	background-image: url(../images/common/segalogo.gif);
+	background-repeat: no-repeat;
+}
+
+#header h1{
+	margin: 0 10px 0 0;
+	padding: 0;
+	width: 293px;
+	height: 37px;
+	float: right;
+}
+
+#header h1 a{
+	display: block;
+	height: 0;
+	width: 293px;
+	padding-top: 50px;
+	overflow: hidden;
+	background-image: url(../images/common/tgslogo.gif);
+	background-repeat: no-repeat;
+}
+
+/***************************************
+Pankuzu
+***************************************/
+
+#pankuzu{
+	margin: 0 auto;
+	padding: 5px 0 0 0;
+	width: 980px;
+	height: 20px;
+	font-size: 0.8em;
+	color: #666;
+}
+
+#pankuzu_dammy{
+	margin: 0 auto;
+	height: 5px;
+}
+
+#pankuzu li{
+	width: auto;
+	float: left;
+}
+
+/***************************************
+Main Contents
+***************************************/
+#mainWrap #LCWrap2{
+	margin: 0;
+	padding: 0;
+	width: 720px;
+	height: auto;
+	float: right;
+}
+
+#mainWrap #LCWrap2 #mainContents,
+#mainWrap #LCWrap2 #eventContents,
+#mainWrap #LCWrap2 #goodsContents,
+#mainWrap #LCWrap2 #reportContents,
+#mainWrap #LCWrap2 #movieContents{
+	clear: both;
+	margin: 0;
+	padding: 5px 0 0 0;
+	width: 720px;
+	height: auto;
+	border-top: 1px solid #CCC;
+	border-right: 1px solid #CCC;
+	border-bottom: 1px solid #CCC;
+}
+
+#mainWrap #LCWrap2 #mainContents ul{
+	margin: 0;
+	padding: 0;
+}
+
+#mainWrap #LCWrap2 #mainContents li{
+	margin: 0 7px 9px 0 ;
+	padding: 0;
+	display: inline;
+	height: 197px;
+	float: left;
+}
+
+
+#mainWrap #LCWrap2 #mainContents li.wii{ height: 263px;}
+#mainWrap #LCWrap2 #mainContents li.wii2{ height: 233px;}
+#mainWrap #LCWrap2 #mainContents li.wii3{ height: 245px;}
+#mainWrap #LCWrap2 #mainContents li.wii4{ height: 210px;}
+#mainWrap #LCWrap2 #mainContents li.ds{ height: 252px;}
+
+#mainWrap #LCWrap2 #mainContents li img{
+	border: 1px solid #CCC;
+}
+
+#mainWrap #LCWrap2 #mainContents h3{
+	clear: left;
+	margin: 15px auto;
+	padding: 10px 0;
+	width: 720px;
+	text-align: left;
+	font-size: 0.8em;
+}
+
+#mainWrap #LCWrap2 #mainContents h4{
+	clear: left;
+	padding: 25px 0 5px 0;
+	width: auto;
+	height: 20px;
+	line-height: 20px;
+	font-size: 1.3em;
+	font-weight: bold;
+	color: #7F5346;
+}
+
+
+
+#mainWrap #LCWrap2 #mainContents p{
+	padding: 0 10px 0 0;
+	line-height: 18px;
+}
+
+#mainWrap #LCWrap2 #mainContents p.comingsoon{
+	height: 700px;
+	text-indent: 15px;
+	line-height: 40px;
+	font-size: 1.5em;
+	font-weight: bold;
+	color: #666;
+}
+
+#mainWrap #LCWrap2 #mainContents table{
+	margin: 20px 0;
+}
+
+#mainWrap #LCWrap2 #mainContents td.left_top{
+	padding: 7px 12px;
+	width: 175px;
+	background-color: #ECE3D5;
+	border-top: 1px solid #ECE3D5;
+	border-bottom: 1px solid #F3F0ED;
+	border-left: 1px solid #ECE3D5;
+}
+
+#mainWrap #LCWrap2 #mainContents td.left{
+	padding: 7px 12px;
+	width: 175px;
+	background-color: #ECE3D5;
+	border-bottom: 1px solid #F3F0ED;
+	border-left: 1px solid #ECE3D5;
+}
+
+#mainWrap #LCWrap2 #mainContents td.right_top{
+	padding: 7px 12px;
+	border: 1px solid #ECE3D5;
+}
+
+#mainWrap #LCWrap2 #mainContents td.right{
+	padding: 7px 12px;
+	border-bottom: 1px solid #ECE3D5;
+	border-left: 1px solid #ECE3D5;
+	border-right: 1px solid #ECE3D5;
+}
+
+/***************************************
+スペシャルコンテンツ
+***************************************/
+#mainWrap #LCWrap2 h2{
+	margin: 0;
+	padding: 0;
+	height: 20px;
+	font-size: 1.1em;
+	font-weight:bold;
+}
+
+#mainWrap #LCWrap2 #mainContents #finish{
+	height: 250px;
+	padding: 100px 0 0 0;
+	text-align: center;
+}
+
+#mainWrap #LCWrap2 #mainContents #finish p{
+	margin: 0 0 20px 0;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+/***************************************
+イベントスケジュール
+***************************************/
+
+#mainWrap #LCWrap2 #eventContents p.title{
+	margin: 20px 0;
+	font-weight: bold;
+}
+
+#mainWrap #LCWrap2 #eventContents td em{
+	font-style: normal;
+	color: #666;
+}
+
+#mainWrap #LCWrap2 #eventContents td.title{
+	font-size: 1.1em;
+	font-weight: bold;
+}
+
+#mainWrap #LCWrap2 #eventContents td.left_top{
+	padding: 7px 12px;
+	width: 175px;
+	background-color: #ECE3D5;
+	border-top: 1px solid #ECE3D5;
+	border-bottom: 1px solid #F3F0ED;
+	border-left: 1px solid #ECE3D5;
+}
+
+#mainWrap #LCWrap2 #eventContents td.left{
+	padding: 7px 12px;
+	width: 175px;
+	background-color: #ECE3D5;
+	border-bottom: 1px solid #F3F0ED;
+	border-left: 1px solid #ECE3D5;
+}
+
+#mainWrap #LCWrap2 #eventContents td.right_top{
+	padding: 7px 12px;
+	border: 1px solid #ECE3D5;
+}
+
+#mainWrap #LCWrap2 #eventContents td.right{
+	padding: 7px 12px;
+	border-bottom: 1px solid #ECE3D5;
+	border-left: 1px solid #ECE3D5;
+	border-right: 1px solid #ECE3D5;
+}
+
+
+/*最終版
+#mainWrap #LCWrap2 #eventContents p{
+	margin: 0;
+}
+
+#mainWrap #LCWrap2 #eventContents .timeTop{
+	margin: 0;
+	padding: 5px 0;
+	height: 20px;
+	width: 710px;
+}
+
+#mainWrap #LCWrap2 #eventContents .timeTop em{ font-weight: bold; font-style: normal; float: left;}
+#mainWrap #LCWrap2 #eventContents .timeTop a{ color: #999; float: right;}
+
+#mainWrap #LCWrap2 #eventContents #tabs{
+	margin: 0;
+	padding: 0;
+	width: 710px;
+	height: 26px;
+	border-bottom: 1px solid #CCC;
+}
+
+#mainWrap #LCWrap2 #eventContents #tabs ul{
+	margin: 0;
+	padding:0;
+}
+
+#mainWrap #LCWrap2 #eventContents #tabs li{
+	margin: 0;
+	display: inline;
+}
+
+#mainWrap #LCWrap2 #eventContents #tabs li a{
+	display: block;
+	margin: 0;
+	width: 126px;
+	height: 0;
+	padding-top: 26px;
+	float: left;
+	overflow:hidden;
+}
+
+#tabs_001 a{ width: 126px; background-image: url(../event/images/schedule/day01.gif); background-repeat: no-repeat;}
+#tabs_002 a{ width: 126px; background-image: url(../event/images/schedule/day02.gif); background-repeat: no-repeat;}
+#tabs_003 a{ width: 126px; background-image: url(../event/images/schedule/day03.gif); background-repeat: no-repeat;}
+#tabs_004 a{ width: 126px; background-image: url(../event/images/schedule/day04.gif); background-repeat: no-repeat;}
+
+#tabs_001 a:hover,
+#tabs_002 a:hover,
+#tabs_003 a:hover,
+#tabs_004 a:hover{ background-position: 0 -26px;}
+
+.tabs-selected a {
+    background-position: 0 -26px;
+}
+
+#mainWrap #LCWrap2 #eventContents #times{
+	margin: 0 0 5px 0;
+	width: 710px;
+	height: 20px;
+	line-height: 20px;
+	background-color: #E1E1E1;
+}
+
+#mainWrap #LCWrap2 #eventContents #times li{
+	width: 54px;
+	text-align: center;
+	float: left;
+}
+
+#mainWrap #LCWrap2 #eventContents .timeTable{
+	clear: both;
+	margin: 0;
+	width: 710px;
+	border-top: 1px solid #CCC;
+}
+
+#mainWrap #LCWrap2 #eventContents .timeTable table{
+	margin: 0;
+	padding: 0;
+	width: auto;
+}
+
+#mainWrap #LCWrap2 #eventContents .timeTable td{
+	border-bottom: 1px solid #CCC;
+	padding: 0 10px;
+}
+
+#mainWrap #LCWrap2 #eventContents .timeTable td.time{
+	width: 50px;
+	border-right: 1px dotted #CCC;
+}
+
+#mainWrap #LCWrap2 #eventContents .timeTable td.min{
+	width: 25px;
+	text-align: right;
+	font-size: 0.8em;
+	border-right: 1px dotted #CCC;
+	color: #666;
+}
+
+
+#mainWrap #LCWrap2 #eventContents .timeTable td.events{
+	width: 582px;
+}
+
+#mainWrap #LCWrap2 #eventContents .timeTable td.events_bg01{
+	width: 582px;
+	background-image: url(../event/images/schedule/bg01.gif);
+	background-position: center;
+	background-repeat: no-repeat;
+	color: #FFF;
+}
+
+#mainWrap #LCWrap2 #eventContents .timeTable td.events_bg01 a{
+	font-size: 1.3em;
+	font-weight: bold;
+	color: #FFF;
+}
+
+#mainWrap #LCWrap2 #eventContents .timeTable td.events_bg01 a:visited{ color: #FFF;}
+#mainWrap #LCWrap2 #eventContents .timeTable td.events_bg01 a:hover{ color: #FFC;}
+*/
+	
+/***************************************
+グッズ
+***************************************/
+#mainWrap #LCWrap2 #goodsContents{
+	margin: 0 auto;
+	width: 710px;
+}
+
+#mainWrap #LCWrap2 #goodsContents ul{
+	margin: 7px 0;
+	text-align: center;
+}
+
+#mainWrap #LCWrap2 #goodsContents li{
+	margin: 0;
+	padding: 1px;
+	width: 232px;
+	height: 290px;
+	float: left;
+}
+
+#mainWrap #LCWrap2 #goodsContents li.L{ border-bottom: 1px dotted #CCC; border-right: 1px dotted #CCC;}
+#mainWrap #LCWrap2 #goodsContents li.C{ border-bottom: 1px dotted #CCC; border-right: 1px dotted #CCC;}
+#mainWrap #LCWrap2 #goodsContents li.R{ border-bottom: 1px dotted #CCC;}
+#mainWrap #LCWrap2 #goodsContents li.BL{  border-right: 1px dotted #CCC;}
+#mainWrap #LCWrap2 #goodsContents li.BC{ border-right: 1px dotted #CCC;}
+
+#mainWrap #LCWrap2 #goodsContents dl{
+	margin: 10px 0;
+
+}
+
+#mainWrap #LCWrap2 #goodsContents dt{
+	font-size: 0.8em;
+}
+
+#mainWrap #LCWrap2 #goodsContents dd{
+	margin: 0;
+	padding: 10px 0 0 0;
+	font-weight: bold;
+	line-height: 14px;
+}
+
+/***************************************
+ムービー
+***************************************/
+#mainWrap #LCWrap2 #movieContents{
+	margin: 0 auto;
+	width: 710px;
+	height: auto;
+}
+
+#mainWrap #LCWrap2 #movieContents ul{
+	margin: 7px 0;
+	text-align: center;
+}
+
+#mainWrap #LCWrap2 #movieContents li{
+	margin: 0 auto;
+	padding: 5px 0 0 0;
+	width: 232px;
+	height: 170px;
+	float: left;
+}
+
+#mainWrap #LCWrap2 #movieContents li.L{ border-bottom: 1px dotted #CCC; border-right: 1px dotted #CCC;}
+#mainWrap #LCWrap2 #movieContents li.C{ border-bottom: 1px dotted #CCC; border-right: 1px dotted #CCC;}
+#mainWrap #LCWrap2 #movieContents li.R{ border-bottom: 1px dotted #CCC;}
+#mainWrap #LCWrap2 #movieContents li.BL{  border-right: 1px dotted #CCC;}
+#mainWrap #LCWrap2 #movieContents li.BC{ border-right: 1px dotted #CCC;}
+
+#mainWrap #LCWrap2 #movieContents dl{
+	margin: 10px 0;
+
+}
+
+#mainWrap #LCWrap2 #movieContents dt{
+	font-size: 0.8em;
+}
+
+#mainWrap #LCWrap2 #movieContents dd{
+	margin: 0;
+	font-weight: bold;
+}
+
+/***************************************
+ブースレポート
+***************************************/
+#mainWrap #LCWrap2 #reportContents p{
+	margin: 0;
+}
+
+#mainWrap #LCWrap2 #reportContents .timeTop{
+	margin: 0;
+	padding: 5px 0;
+	height: 20px;
+	width: 710px;
+}
+
+#mainWrap #LCWrap2 #reportContents .timeTop em{ font-weight: bold; font-style: normal; float: left;}
+#mainWrap #LCWrap2 #reportContents .timeTop a{ color: #999; float: right;}
+
+#mainWrap #LCWrap2 #reportContents #tabs{
+	margin: 0;
+	padding: 0;
+	width: 710px;
+	height: 26px;
+	border-bottom: 1px solid #CCC;
+}
+
+#mainWrap #LCWrap2 #reportContents #tabs ul{
+	margin: 0;
+	padding:0;
+}
+
+#mainWrap #LCWrap2 #reportContents #tabs li{
+	margin: 0;
+	display: inline;
+}
+
+#mainWrap #LCWrap2 #reportContents #tabs li a{
+	display: block;
+	margin: 0;
+	width: 126px;
+	height: 0;
+	padding-top: 26px;
+	float: left;
+	overflow:hidden;
+}
+
+#tabs_001 a{ width: 126px; background-image: url(../event/images/schedule/day01.gif); background-repeat: no-repeat;}
+#tabs_002 a{ width: 126px; background-image: url(../event/images/schedule/day02.gif); background-repeat: no-repeat;}
+#tabs_003 a{ width: 126px; background-image: url(../event/images/schedule/day03.gif); background-repeat: no-repeat;}
+#tabs_004 a{ width: 126px; background-image: url(../event/images/schedule/day04.gif); background-repeat: no-repeat;}
+
+#tabs_001 a:hover,
+#tabs_002 a:hover,
+#tabs_003 a:hover,
+#tabs_004 a:hover,
+#tabs_001 a.on,
+#tabs_002 a.on,
+#tabs_003 a.on,
+#tabs_004 a.on{ background-position: 0 -26px;}
+
+.tabs-selected a {
+    background-position: 0 -26px;
+}
+
+#mainWrap #LCWrap2 #reportContents #times{
+	margin: 0 0 5px 0;
+	width: 710px;
+	height: 20px;
+	line-height: 20px;
+	background-color: #E1E1E1;
+}
+
+#mainWrap #LCWrap2 #reportContents #times li{
+	width: 54px;
+	text-align: center;
+	float: left;
+}
+
+#mainWrap #LCWrap2 #reportContents .timeTable{
+	clear: both;
+	margin: 0;
+	width: 710px;
+	border-top: 1px solid #CCC;
+}
+
+#mainWrap #LCWrap2 #reportContents .timeTable table{
+	margin: 0;
+	padding: 0;
+	width: auto;
+}
+
+#mainWrap #LCWrap2 #reportContents .timeTable td{
+	border-bottom: 1px solid #CCC;
+	padding: 0 10px;
+}
+
+#mainWrap #LCWrap2 #reportContents .timeTable td.time{
+	width: 50px;
+	border-right: 1px dotted #CCC;
+}
+
+#mainWrap #LCWrap2 #reportContents .timeTable td.min{
+	width: 25px;
+	text-align: right;
+	font-size: 0.8em;
+	border-right: 1px dotted #CCC;
+	color: #666;
+}
+
+
+#mainWrap #LCWrap2 #reportContents .timeTable td.events{
+	width: 582px;
+}
+
+#mainWrap #LCWrap2 #reportContents .timeTable td.events_bg01{
+	width: 582px;
+	background-image: url(../event/images/schedule/bg01.gif);
+	background-position: center;
+	background-repeat: no-repeat;
+	color: #FFF;
+}
+
+#mainWrap #LCWrap2 #reportContents .timeTable td.events_bg01 a{
+	font-size: 1.3em;
+	font-weight: bold;
+	color: #FFF;
+}
+
+#mainWrap #LCWrap2 #reportContents .timeTable td.events_bg01 a:visited{ color: #FFF;}
+#mainWrap #LCWrap2 #reportContents .timeTable td.events_bg01 a:hover{ color: #FFC;}
+.sen {
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #999;
+	border-top-style: none;
+	border-right-style: none;
+	border-left-style: none;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	padding: 0px;
+}
+.sen2 {
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #999;
+	border-top-style: none;
+	border-right-style: none;
+	border-left-style: none;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	padding: 0px;
+}

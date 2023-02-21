@@ -1,0 +1,664 @@
+/* ================ BODY =================== */
+
+html,body {
+	font-family: "ＭＳ Ｐゴシック", Osaka, "ヒラギノ角ゴ Pro W3";
+	font-size: 12px;
+	color: #686455;
+	line-height: 160%;
+	background-color: #FFFFFF;
+	background-image:url(../img/bg.gif);
+	margin-left: auto;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	scrollbar-face-color : #FFFFFF;/*真ん中*/
+	scrollbar-arrow-color : #83d0ee;/*▼▲*/
+	scrollbar-3dlight-color: #83d0ee;/*外側の左と上*/
+	scrollbar-highlight-color : #c0d6ea;/*内側の左と上*/
+	scrollbar-shadow-color : #c0d6ea;/*内側の右と下*/
+	scrollbar-darkshadow-color : #83d0ee;/*外側の右と下*/
+/*
+	text-align: center;
+*/
+	min-height:100px;
+	letter-spacing: 1px;
+	background-repeat: repeat-y;
+	background-position: center;
+	}
+
+p {
+padding:0px;
+margin:0px auto 10px;
+}
+
+form ,div {
+padding:0px;
+/*
+margin:0px auto;
+*/
+}
+
+img {
+border:0px;
+}
+
+.border {
+	border: 1px solid #CCCCCC;
+}
+
+table{
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	text-align: left;
+	background-color: #98C6CD;
+}
+
+.line{
+	padding: 0px;
+	width: 100%;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: 15px;
+	margin-left: auto;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #D8ECF1;
+}
+
+.line_dot{
+	padding: 5px 0px 0px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	border-top-width: 1px;
+	border-top-style: dotted;
+	border-top-color: #E7E7E7;
+}
+
+dl.stage{
+	padding: 0px 0px 10px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+
+dt.stage{
+	display: block;
+}
+dd.stage1st{
+	margin-top:-1.5em;
+}
+
+
+
+/* ==================== サイトレイアウト ==================== */
+
+
+/* ================ 共通全体枠 =================== */
+div#container {
+	width: 800px;
+	clear: both;
+	text-align: center;
+	margin:10px auto;
+	padding: 0px;
+	display: block;
+	background-image: url(../img/main_bg.gif);
+	background-repeat: repeat-y;
+}
+
+/* ================ 共通全体枠 =================== */
+
+
+/* ================ CSSハック =================== */
+.clearfix:after {
+content:".";
+display:block;
+height:0;
+clear:both;
+visibility:hidden;
+}
+.clearfix {
+display:inline-block;
+}
+*html .clearfix {height:1%;}
+.clearfix {display:block;}
+/* ================ CSSハック =================== */
+
+
+
+/* ================ 上部 =================== */
+div#header{
+	width: 800px;
+	height:55px;
+	padding: 0px;
+	margin: 0px auto;
+	text-align: center;
+}
+
+div#flash {
+	width: 800px;
+	height:240px;
+	padding: 0px;
+	margin: 0px auto;
+	text-align: center;
+	background-repeat: no-repeat;
+	background-color: #FFFFFF;
+}
+
+
+
+/* ================ 下部 =================== */
+div#bottom {
+	padding: 0px;
+	width: 800px;
+	margin: 0px auto;
+	text-align: center;
+}
+
+div#bottom_left {
+	width: 180px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding: 10px 5px 0px;
+	float: left;
+	height: 100%;
+	text-align: center;
+}
+
+
+div#bottom_center {
+	width: 420px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	padding:10px 5px 0px;
+	height: 100%;
+	text-align: center;
+	float: left;
+}
+
+
+div#bottom_right {
+	width: 170px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	padding: 10px 5px 0px;
+	float: right;
+	height: 100%;
+	text-align: center;
+}
+
+
+/* ================ 中央エントリー =================== */
+.title{
+	font-size: 16px;
+	line-height: 18px;
+	font-weight: bold;
+	color: #003366;
+	height: 48px;
+	width: 380px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 5px;
+	margin-left: auto;
+	padding-top: 12px;
+	padding-right: 15px;
+	padding-bottom: 0px;
+	padding-left: 15px;
+	background-image: url(../img/title_bar.gif);
+	background-repeat: no-repeat;
+	text-align: left;
+}
+
+.title_s{
+	font-size: 16px;
+	line-height: 18px;
+	font-weight: bold;
+	color: #003366;
+	height: 28px;
+	width: 380px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 5px;
+	margin-left: auto;
+	padding-top: 12px;
+	padding-right: 15px;
+	padding-bottom: 0px;
+	padding-left: 15px;
+	background-image: url(../img/title_bar_s.gif);
+	background-repeat: no-repeat;
+	text-align: left;
+}
+
+.title_txt_s{
+	font-size: 10px;
+	line-height: 12px;
+	font-weight: bold;
+	color: #003366;
+
+}
+
+.entry{
+	font-size: 12px;
+	line-height: 150%;
+	color: #333333;
+	text-align: left;
+	padding: 0px;
+	width: 400px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-left: auto;
+}
+
+
+.date{
+	font-size: 10px;
+	line-height: 14px;
+	color: #FF3300;
+	text-align: right;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #FF3300;
+	width: 400px;
+	height: 12px;
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-left: auto;
+}
+
+
+
+
+
+.attention{
+	text-align: left;
+	width: 378px;
+	padding: 10px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-left: auto;
+	border: 1px solid #FF3300;
+	background-color: #FFFDFE;
+}
+
+.attention_title{
+	font-size: 12px;
+	font-weight: bold;
+	color: #FF0000;
+	padding: 6px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 5px;
+	margin-left: auto;
+	background-color: #FFDFCA;
+}
+
+ul.num {
+	display: block;
+	list-style-position: outside;
+	list-style-type: decimal;
+	margin: 0px auto 0px 10px;
+	padding: 0px;
+	text-align: left;
+}
+
+ul.num li{
+	line-height: 130%;
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-left: 15px;
+}
+
+.details{
+	font-size: 10px;
+	color: #66CCFF;
+	padding: 5px;
+	width: 390px;
+	margin-top: 5px;
+	margin-right: auto;
+	margin-bottom: 5px;
+	margin-left: auto;
+	line-height: 140%;
+}
+
+/* ================ 左サイド　=================== */
+.left_title{
+	padding: 0px;
+	height: 30px;
+	width: 180px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-left: auto;
+}
+
+.news{
+	font-size: 10px;
+	line-height: 140%;
+	font-weight: normal;
+	color: #323F41;
+	text-align: left;
+	width: 160px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 3px;
+	margin-left: auto;
+	padding-top: 3px;
+	padding-right: 5px;
+	padding-bottom: 3px;
+	padding-left: 5px;
+	background-color: #FFFFFF;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #CEE1E3;
+}
+
+ul.news_li {
+	display: block;
+	list-style-position: outside;
+	list-style-type: disc;
+	margin: 0px auto 0px 5px;
+	padding: 0px;
+	text-align: left;
+}
+
+ul.news_li li{
+	line-height: 120%;
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 6px;
+	margin-left: 10px;
+}
+
+.news_date{
+	color: #FF0000;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #FF0000;
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 5px;
+	margin-left: auto;
+	text-align: right;
+}
+
+
+/* ================ 右サイド　=================== */
+/* バナーリスト */
+ul.bnr{
+margin: 0px;
+padding: 0px;
+list-style-type: none;
+}
+
+ul.bnr li{
+	text-align: center;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-left: auto;
+	margin-top: 10px;
+}
+
+
+/* ================ Link =================== */
+a:link    { color: #4073BF; text-decoration: none;}
+a:visited { color: #4073BF; text-decoration: none;}
+a:hover   { color: #e64545; text-decoration: underline;}
+a:active  { color: #e64545; text-decoration: underline;}
+
+
+a.link_title:link    { color: #023d73; text-decoration: none;}
+a.link_title:visited { color: #023d73; text-decoration: none;}
+a.link_title:hover   { color: #ee3939; text-decoration: underline;}
+a.link_title:active  { color: #FFFFFF; text-decoration: underline;}
+
+
+
+a.link_details:link    { color: #FF0033; text-decoration: none;}
+a.link_details:visited { color: #FF0033; text-decoration: none;}
+a.link_details:hover   { color: #66CCFF; text-decoration: underline;}
+a.link_details:active  { color: #66CCFF; text-decoration: underline;}
+
+
+
+
+
+/*================ font ===================*/
+.font_small {
+	font-size: 10px;
+	line-height: 140%;
+/*	letter-spacing: 1px;*/
+}
+
+
+.font_medium {
+	font-size: 12px;
+	line-height: 140%;
+}
+
+.font_large {
+	font-size: 14px;
+	line-height: 120%;
+}
+
+
+.font_blue {
+	color: #0066CC;
+}
+
+
+.font_gray {
+	color: #666666;
+}
+
+
+.font_green {
+	color: #006600;
+}
+
+.font_red {
+	color: #FF0000;
+}
+
+.font_orange {
+	color: #FF6600;
+}
+
+.font_white {
+	color: #FFFFFF;
+}
+
+
+
+/*TOPに戻る(TXT)*/
+.back_top {
+	width: 400px;
+	font-size: 10px;
+	line-height: 15px;
+	margin-bottom:20px;
+	height: 15px;
+	margin-top: 15px;
+	padding: 0px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: right;
+	clear: both;
+	border-top-width: 1px;
+	border-top-style: dotted;
+	border-top-color: #C4E7EE;
+}
+
+
+
+
+/*================ footer ===================*/
+div#footer {
+	padding: 10px;
+	clear: both;
+	width: 780px;
+	background-image: url(../img/footer.gif);
+	font-size: 10px;
+	line-height: 14px;
+	color: #999999;
+	text-align: left;
+	letter-spacing: 1px;
+	margin: 0px;
+	background-repeat: repeat-y;
+}
+
+div#footer_copy{
+	background-image: url(../img/footer_copy.gif);
+	background-repeat: no-repeat;
+	padding: 0px;
+	height: 22px;
+	width: 800px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+
+/*================ Margin ===================*/
+
+/*Margin（上）*/
+.M_T0 {
+	margin-top: 0px;
+}
+.M_T5 {
+	margin-top: 5px;
+}
+.M_T10 {
+	margin-top: 10px;
+}
+.M_T20 {
+	margin-top: 20px;
+}
+.M_T30 {
+	margin-top: 30px;
+}
+.M_T-10 {
+	margin-top: -10px;
+}
+
+.M_T-12 {
+	margin-top: -12px;
+}
+
+
+/*Margin（右）*/
+.M_E5 {
+	margin-right: 5px;
+}
+.M_R10 {
+	margin-right: 10px;
+}
+
+
+/*Margin（下）*/
+.M_B0 {
+	margin-bottom: 0px;
+}
+.M_B5 {
+	margin-bottom: 5px;
+}
+.M_B10 {
+	margin-bottom: 10px;
+}
+.M_B15 {
+	margin-bottom: 15px;
+}
+.M_B20 {
+	margin-bottom: 20px;
+}
+
+.M_B30 {
+	margin-bottom: 30px;
+}
+
+.M_B40 {
+	margin-bottom: 40px;
+}
+
+/*Margin（左）*/
+.M_L5 {
+	margin-left: 5px;
+}
+.M_L10 {
+	margin-left: 10px;
+}
+
+
+/*================ Padding ===================*/
+
+/*Padding（上）*/
+.P_T0 {
+	padding-top: 0px;
+}
+.P_T5 {
+	padding-top: 5px;
+}
+.P_T10 {
+	padding-top: 10px;
+}
+.P_T15 {
+	padding-top: 15px;
+}
+.P_T20 {
+	padding-top: 20px;
+}
+
+/*Padding（右）*/
+.P_R5 {
+	padding-right: 5px;
+}
+
+.P_R10 {
+	padding-right: 10px;
+}
+
+/*Padding（下）*/
+.P_B0 {
+	padding-bottom: 0px;
+}
+.P_B5 {
+	padding-bottom: 5px;
+}
+.P_B10 {
+	padding-bottom: 10px;
+}
+.P_B15 {
+	padding-bottom: 15px;
+}
+.P_B20 {
+	padding-bottom: 20px;
+}
+
+
+/*Padding（左）*/
+.P_L5 {
+	padding-left: 5px;
+}
+.P_L10 {
+	padding-left: 10px;
+}
+.P_L15 {
+	padding-left: 15px;
+}
