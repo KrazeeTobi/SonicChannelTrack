@@ -1,0 +1,593 @@
+@charset "utf-8";
+/* CSS Document */
+.cyu{
+	width:90%;
+	margin-left:auto;
+	margin-right:auto;
+	}
+	
+#pre{
+		margin-left:auto;
+	margin-right:auto;
+	width:95%;
+
+	}				
+.pre_photo{
+	width:70%;
+	display:inline-block;
+	border:1px #cccccc solid;
+	margin-left:auto;
+	margin-right:auto;
+
+	
+	}
+.pre_text{
+	width:100%;
+	display:inline-block;
+	font-size:1.3em;
+	vertical-align:top;
+	
+}
+.cyu img{
+width: 30px;	
+}
+	.slide {
+  
+padding: 4% !important;
+  background: #FFF !important;
+  margin: 0 auto;
+  position: relative;
+  max-width: 100%;
+  font-size:1.1em;
+
+}
+	.slide h4{
+		margin-top:2%;
+		font-weight:bold;
+		font-size:1.2em;
+		}
+	.slide p{
+		font-size:1.1em;
+		}	
+	
+/*出演者ほか*/
+.time{
+	font-size:0.8em;
+}
+.discription{
+	display:block;
+	margin-top:2%;
+	text-indent:0px !important;
+	margin-left:0px !important;
+
+}
+	
+.peple{
+	font-size:0.9em !important;
+	font-weight:bold;
+	margin-top:2%;
+	margin-bottom:2%;
+	text-indent:0px !important;
+	margin-left:0px !important;
+
+	
+}
+.guest{
+		font-size:0.9em !important;
+	font-weight:bold;
+
+		text-indent:0px !important;
+		margin-left:0px !important;
+}	
+
+/*生放送*/	
+#container_title a:hover{
+opacity: 0.6;
+}
+
+
+
+		#niconico_nama {
+				width:32%;
+				margin-left:auto;
+	margin-right:auto;
+			display: inline-block;
+			vertical-align: top;
+}		
+#niconico_nama ul{
+list-style:none;
+	width:100%;
+	padding:0.5%;
+	border:1px #666666 solid;
+	text-align:right;
+	margin-left:2%;
+			background-color: #FFFFFF;
+			margin-right:2%;}	
+	
+#niconico_nama li{
+	display:inline-block;
+	margin:0.8%;
+		width:100%;
+		padding:0.5%;
+	
+	}		
+
+
+#yutube_live ul{
+list-style:none;
+	width:100%;
+	padding:0.5%;
+	border:1px #666666 solid;
+	text-align:right;
+	margin-left:2%;
+		background-color: #FFFFFF;
+				margin-right:2%;
+	
+	}	
+
+#yutube_live{
+	
+	
+width:32%;
+		display:inline-block;
+				margin-left:auto;
+	margin-right:auto;
+			vertical-align: top;
+	}	
+#yutube_live li{
+	display:inline-block;
+	margin:0.8%;
+		width:100%;
+		padding:0.5%;
+	}
+#abema_tv{
+
+		width:32%;
+		margin-left:auto;
+	    margin-right:auto;
+			display: inline-block;
+			vertical-align: top;
+	}	
+	#abema_tv ul{
+list-style:none;
+	width:100%;
+	padding:0.5%;
+	border:1px #666666 solid;
+	text-align:right;
+	margin-left:2%;
+			margin-right:2%;
+			background-color: #FFFFFF;
+	
+	}	
+#abema_tv li{
+	width:100%;
+	display:inline-block;
+	margin:0.8%;
+		padding:0.5%;
+	
+}
+
+
+
+#timelin{
+	width: 100%;
+}
+
+#t1,#t2,#t3,#t4{}
+#day1,#day2,#day3,#day4{
+	width: 	84.78%;	
+display: inline-block;
+vertical-align: top;
+	margin: 0px;
+	padding: 0px;
+}
+
+.time_img{
+	width: 	13.9%;
+
+	
+	display: inline-block;
+}
+#time1,#time2,#time3,#time4{
+width: 	100%;	
+display: inline-block;
+vertical-align: top;
+	margin: 0px;
+	padding: 0px;
+}
+#time1,#time3{
+background: URL("../img/stage/time_line_gl.jpg") no-repeat 0px 0px!important;
+background-size:contain !important;
+}
+
+#time2,#time4{
+background: URL("../img/stage/time_line_wi.jpg") no-repeat 0px 0px!important;
+background-size:contain !important;
+}
+
+#time1 ul,#time2 ul,#time3 ul,#time4 ul{
+	    list-style-type: none;  
+margin: 0px;
+	padding: 0px;
+	
+}
+#time1 ul li,#time2 ul li,#time3 ul li,#time4 ul li{
+	    list-style-type: none;  
+margin: 0px;
+	padding: 0px;
+	
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px ) {
+
+		#t2,#t4{
+		display: inline-block;
+	width: 44.9% !important;
+			
+	
+	}
+		#t1,#t3{
+		display: inline-block;
+		width: 53.5%!important;
+			vertical-align: top;
+
+			
+	}
+	
+	#t2 .time_img,#t4 .time_img{
+		
+	display: none;
+		
+		
+	}
+	
+	#t1 .time_img,#t3 .time_img{
+width: 13.8%;
+	display: inline-block;
+}
+
+	#day1,#day3{
+		width: 84%;
+		display: inline-block;
+			vertical-align: top;
+
+	}
+	
+	#time1,#time3{
+width: 100%;
+			background-size:contain !important;
+		background: URL("../img/stage/time_line_gl.jpg") no-repeat 0px 0px;
+		display: inline-block;
+			vertical-align: top;
+	}
+		#day2,#day4{
+		width: 100%;
+		display: inline-block;
+			vertical-align: top;
+
+	}
+	#time2,#time4{
+	width: 100%;
+			background-size:contain !important;
+	
+display: inline-block;
+background: URL("../img/stage/time_line_wi.jpg") no-repeat 0px 0px;
+
+	margin: 0px;
+	padding: 0px;
+		vertical-align: top;
+}
+	/*生放送*/	
+		#niconico_nama {
+				width:96%;
+				margin-left:auto;
+	margin-right:auto;
+}		
+#niconico_nama ul{
+
+	width:100%;
+	padding:0.1% !important;
+	border:1px #666666 solid;
+	text-align:right;
+	margin-left:2%;
+	background-color: #FFFFFF;}	
+	
+#niconico_nama li{
+	display:inline-block;
+	margin-left:0.6%;
+		width:18%;
+	padding:0% !important;
+}
+		
+
+
+#yutube_live ul{
+
+	width:100%;
+	padding:0.1% !important;
+	border:1px #666666 solid;
+	text-align:right;
+	margin-left:2%;
+		background-color: #FFFFFF;
+	
+	}	
+
+#yutube_live{
+	margin-top:0.6%;
+width:96%;
+				margin-left:auto;
+	margin-right:auto;
+	
+	}	
+#yutube_live li{
+	display:inline-block;
+	margin-left:0.6%;
+		width:18%;
+padding:0% !important;
+}
+
+#abema_tv{
+		margin-top:0.6%;
+		width:96%;
+		margin-left:auto;
+	    margin-right:auto;
+	
+	}	
+	#abema_tv ul{
+
+	width:100%;
+	padding:0.1% !important;
+	border:1px #666666 solid;
+	text-align:right;
+	margin-left:2%;
+			background-color: #FFFFFF;
+	
+	}	
+#abema_tv li{
+	width:18%;
+	display:inline-block;
+	margin-left:0.6%;
+			padding:0% !important;
+	
+	
+}
+
+}
+
+	/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px ) {
+
+	#timelin{
+	width: 100% !important;
+}
+	#t2,#t3,#t4{
+		display: inline-block;
+		width: 23.5% !important;
+		vertical-align: top;
+	
+	}
+		#t1{
+		display: inline-block;
+		width:27.69% !important;
+		vertical-align: top;
+			text-align: left !important;
+		}
+	
+	#t2 .time_img,#t3 .time_img,#t4 .time_img{
+		
+	display: none;
+		
+		
+	}
+	
+	#t1 .time_img{
+width: 13.8% !important;
+	display: inline-block;
+		margin: 0px;
+		padding: 0px !important;
+}
+	#day1{
+	width: 84.7% !important;
+display: inline-block;
+		vertical-align: top;}
+	#time1{
+width: 100% !important;
+display: inline-block;
+background: URL("../img/stage/time_line_gl.jpg") no-repeat 0px 0px;
+vertical-align: top;
+	margin: 0px;
+	padding: 0px;
+		background-size:contain !important;
+	}
+	
+	#day2,#day4{
+		width: 100% !important;	
+		display: inline-block;
+		vertical-align: top;
+	}	
+	#time2,#time4{
+	width: 100% !important;
+display: inline-block;
+background: URL("../img/stage/time_line_wi.jpg") no-repeat 0px 0px;
+vertical-align: top;
+	margin: 0px;
+	padding: 0px;
+		background-size:contain !important;
+}
+	#day3{
+		width: 100% !important;	
+		display: inline-block;
+		vertical-align: top;
+	}
+	#time3{
+	width: 100% !important;
+display: inline-block;
+background: URL("../img/stage/time_line_gl.jpg") no-repeat 0px 0px;
+vertical-align: top;
+			background-size:contain !important;
+	margin: 0px;
+	padding: 0px;
+			
+}
+}
+
+/* Large devices (large desktops, 1300px and up) */
+@media (min-width: 1300px ) {
+	#day1 {
+	width: 85% !important;
+		display: inline-block;
+		vertical-align: top;
+	margin: 0px;
+	padding: 0px;
+	}
+	
+	
+	
+	
+	#day1 img.dd01{
+		width: 100% !important;
+	}
+	
+
+		#time1{
+width: 100% !important;
+display: inline-block;
+background: URL("../img/stage/time_line_gl.jpg") no-repeat 0px 0px;
+vertical-align: top;
+	margin: 0px;
+	padding: 0px;
+		
+	}
+	#time2,#time4{
+	width: 100% !important;
+display: inline-block;
+background: URL("../img/stage/time_line_wi.jpg") no-repeat 0px 0px;
+vertical-align: top;
+	margin: 0px;
+	padding: 0px;
+}
+		#time3{
+	width: 100% !important;
+display: inline-block;
+background: URL("../img/stage/time_line_gl.jpg") no-repeat 0px 0px;
+vertical-align: top;
+	margin: 0px;
+	padding: 0px;
+}
+	
+/*生放送*/	
+		#niconico_nama {
+				width:96%;
+				margin-left:auto;
+	margin-right:auto;
+}		
+#niconico_nama ul{
+
+	width:100%;
+	padding:0.5%;
+	border:1px #666666 solid;
+	text-align:right;
+	margin-left:2%;
+	background-color: #FFFFFF;}	
+	
+#niconico_nama li{
+	display:inline-block;
+	margin-left:0.6%;
+		width:18%;
+			padding:0.1%;
+	}		
+
+
+#yutube_live ul{
+
+	width:100%;
+	padding:0.5%;
+	border:1px #666666 solid;
+	text-align:right;
+	margin-left:2%;
+		background-color: #FFFFFF;
+	
+	}	
+
+#yutube_live{
+	margin-top:0.1% !important;
+width:96%;
+				margin-left:auto;
+	margin-right:auto;
+	
+	}	
+#yutube_live li{
+	display:inline-block;
+	margin-left:0.6%;
+		width:18%;
+			padding:0.1%;
+	}
+#abema_tv{
+		margin-top:0.1% !important;
+		width:96%;
+		margin-left:auto;
+	    margin-right:auto;
+	
+	}	
+	#abema_tv ul{
+
+	width:100%;
+	padding:0.5%;
+	border:1px #666666 solid;
+	text-align:right;
+	margin-left:2%;
+			background-color: #FFFFFF;
+	
+	}	
+#abema_tv li{
+	width:18%;
+	display:inline-block;
+	margin-left:0.6%;
+			padding:0.1%;
+}
+	
+	.slide{
+width:600px !important; margin: 30px auto; position:relative;
+
+	}
+.slide h4{
+	font-weight:bold;
+	
+	}
+.slide p{
+	text-indent:-1em;
+	}
+	
+/*出演者ほか*/
+.time{
+	font-size:0.8em;
+}
+.discription{
+	display:block;
+	margin-top:2%;
+	text-indent:0px !important;
+	margin-left:0px !important;
+
+}
+	
+.peple{
+	font-size:0.9em !important;
+	font-weight:bold;
+	margin-top:2%;
+	margin-bottom:2%;
+	text-indent:0px !important;
+	margin-left:0px !important;
+
+	
+}
+.guest{
+		font-size:0.9em !important;
+	font-weight:bold;
+
+		text-indent:0px !important;
+		margin-left:0px !important;
+}	
+	
+	
+}
