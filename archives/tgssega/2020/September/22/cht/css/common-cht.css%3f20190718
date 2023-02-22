@@ -1,0 +1,107 @@
+@charset 'UTF-8';
+@import url(https://fonts.googleapis.com/earlyaccess/cwtexfangsong.css);
+body
+{
+    font-family: 'Segoe UI',SegoeUI,'Microsoft JhengHei',微軟正黑體,'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+
+
+.kv #playerImg
+{
+    position: absolute;  z-index: 10; top: 17.5vw;  left: 40.7vw;  display: block; width: 19.031142%;  height: 10.58vw;
+}
+@media screen and (max-width:750px)
+{
+    .kv #playerImg
+    {
+        position: absolute;  top: 17vw;  left: 40vw;  display: block; width: 19.031142%;
+    }
+}
+
+.sns
+{
+    position: absolute;  top: 45px;  right: 0;  text-align: center;
+}
+
+.sns li img
+{
+    width: 63%;  max-width: 74px;  margin-left: 2%;
+}
+.nav
+{
+    padding: 1% 0;
+}
+.nav li
+{
+    font-size: 1.8vw;  font-weight: bold;  vertical-align: middle; letter-spacing: normal;
+}
+
+
+
+.nav li a.-current,
+.nav li a:hover
+{
+    font-size: 1.8vw;  cursor: pointer; color: #1da1f2;
+}
+
+@media screen and (max-width:1230px)
+{
+    .sns
+    {
+        position: absolute;  top: 4%;  right: 0;  text-align: center;
+    }
+
+    .nav li
+    {
+        font-size: 2.5vw;padding: 1.5vw 4.5vw;
+    }
+    .nav li.is-off,
+    .nav li a.-current,
+    .nav li a:hover
+    {
+        font-size: 2.5vw;
+    }
+}
+
+@media screen and (max-width:750px)
+{
+    .nav
+    {
+        display: table;
+    }
+    .nav li
+    {
+        font-size: 4.5vw;  display: table-cell; width: 25%;padding: 2vw;
+    }
+
+    .nav li a.-current,
+    .nav li a:hover
+    {
+        font-size: 4.5vw;
+    }
+
+    .nav li:nth-of-type(3)
+    {
+        width: 25%;
+    }
+    .nav li.is-off p
+    {
+        font-size: 4.5vw;
+    }
+
+    .sns
+    {
+        position: relative;  top: 0;  margin: 3% auto 0 auto;  padding-top: 3%; padding-bottom: 3% ; text-align: center;background: #1835a0;
+    }
+
+    footer.mt3
+    {
+        margin-top: 0!important;
+    }
+
+    .sns li img
+    {
+        width: 73%;   margin-left: 2%;
+    }
+}
