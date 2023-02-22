@@ -1,0 +1,125 @@
+"use strict";
+
+$(function () {
+  function getComponent(){
+    var deferred = new $.Deferred;
+    $.ajax({
+      url: '/en/component.html?20210921',
+      cache: false,
+      datatype:'html'
+    }).done(function(html){
+        var html = $($.parseHTML(html));
+
+      $('#nav').prepend(html.filter('#navInner'));
+      $('#modalNav').prepend(html.filter('#modalNavInner'));
+      $('#aside').prepend(html.filter('#asideInner'));
+      $('#header').prepend(html.filter('#headerInner'));
+      $('#footer').prepend(html.filter('#footerInner'));
+
+        deferred.resolve(html);
+
+      }).fail(function(html){
+        deferred.reject(html);
+    });
+
+    return deferred.promise();
+  }
+
+  getComponent().then(function(){
+    if (currentNav != 0) {
+      $('#navInner .nav').eq(currentNav-1).addClass('-current');
+      $('#modalNavInner .nav').eq(currentNav-1).addClass('-current');
+    }
+
+    if (currentNav == 2 || currentNav == 3) {
+      $('.footerText').eq(0).html('<small>' +
+      '&copy;SEGA' +
+      '<br>&copy;Buronson & Tetsuo Hara/COAMIX 1983, Approved No.GC-218 &copy;SEGA' +
+      '<br>TM IOC/TOKYO2020/USOPC 36USC220506. &copy; 2021 IOC. All rights reserved. &copy; NINTENDO. &copy;SEGA.' +
+      '<br>TM IOC/TOKYO2020/USOPC 36USC220506. &copy; 2021 IOC' +
+      '<br>&copy;ATLUS. &copy;SEGA. All rights reserved.' +
+      '<br>&copy;Koyoharu Gotoge / SHUEISHA, Aniplex, ufotable &copy;DEMON SLAYER KIMETSU NO YAIBA THE HINOKAMI CHRONICLES COMMITTEE' +
+      '<br>&copy;adelta/dramatic create' +
+      '</small>');
+    }
+
+    $('.modalNavButton').on('click', function () {
+      $('.modalNavButton, #modalNavInner').toggleClass('open');
+      $('.modalNavLayer').toggle();
+
+      if (scrollPos < $('#nav').offset().top) {
+        $('.modalNavButton').fadeOut(300);
+      }
+    });
+
+    $('.modalNavLayer').on('click', function () {
+      $('.modalNavButton, #modalNavInner').toggleClass('open');
+      $('.modalNavLayer').toggle();
+
+      if (scrollPos < $('#nav').offset().top) {
+        $('.modalNavButton').fadeOut(300);
+      }
+    });
+
+
+    // Lang button
+    var hasFinishedToggle = true;
+    $('header .langButton').on('click', function () {
+      if (!hasFinishedToggle) {
+        return;
+      }
+      hasFinishedToggle = false;
+
+      $('header .langLinks').slideToggle('fast', function () {
+        hasFinishedToggle = true;
+      });
+    });
+
+
+
+    $('a[href^="#"]').not('.colorboxInline').on('click', function () {
+      var speed = 500;
+      var href = $(this).attr("href");
+      var target = $(href == "#" || href == "" ? 'html' : href);
+      var position = target.offset().top;
+      $("html, body").animate({
+        scrollTop: position
+      }, speed, "swing");
+      return false;
+    });
+
+
+
+    var toTopButton = $('.buttonToTop');
+    toTopButton.hide();
+
+    $(document).on('click', '.buttonToTop', function() {
+      $('body,html').animate({
+        scrollTop: 0
+      }, 500);
+      return false;
+    });
+
+    var scrollPos = $(this).scrollTop();
+    $(window).scroll(function () {
+      scrollPos = $(this).scrollTop();
+
+      if (!$('.modalNavButton').hasClass('open')) {
+        if (scrollPos > $('#nav').offset().top) {
+          $('.modalNavButton').fadeIn(300);
+        } else {
+          $('.modalNavButton').fadeOut(300);
+        }
+      }
+
+
+      if (scrollPos > 100) {
+        toTopButton.fadeIn(500);
+      } else {
+        toTopButton.fadeOut();
+      }
+    });
+
+  });
+
+});

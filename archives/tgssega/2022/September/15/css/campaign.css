@@ -1,0 +1,93 @@
+/*==================================
+ main
+===================================*/
+main .emp {
+  color: #ff0000;
+  font-weight: bold;
+}
+main .contWrap {
+  width: 90%;
+  margin: auto;
+  margin-bottom: 5%;
+}
+@media screen and (max-width: 980px) {
+  main .contWrap {
+    width: 100%;
+  }
+}
+main .contWrap p {
+  margin: 3% 0;
+  line-height: 1.2;
+}
+main .contWrap p.ate {
+  font-size: 80%;
+}
+main .greeting p {
+  margin: 2.5rem 0;
+}
+main .stepWrap li,
+main .presentLiWrap li {
+  position: relative;
+  width: 44%;
+  margin: 0 3%;
+  display: inline-block;
+  background: #0099ff;
+}
+main dl dt {
+  font-size: 3.6rem;
+  font-weight: bold;
+  margin-bottom: 2%;
+}
+@media screen and (max-width: 640px) {
+  main dl dt {
+    font-size: 4rem;
+  }
+}
+main dl dd {
+  margin-bottom: 4%;
+}
+main .overviewWrap dl {
+  text-align: center;
+}
+main .overviewWrap p.ate {
+  width: 76%;
+  margin: auto;
+}
+main .overviewWrap .stepWrap li {
+  position: relative;
+}
+main .overviewWrap .stepWrap li img {
+  position: relative;
+  z-index: 5;
+}
+main .overviewWrap .stepWrap li img.btimg {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  z-index: 10;
+  max-width: 477px;
+  width: 90%;
+  bottom: 1rem;
+}
+main .overviewWrap .stepWrap li:first-child::after {
+  content: "";
+  position: absolute;
+  background: url(../images/campaign/step-arrow.png) center center no-repeat;
+  background-size: 100% auto;
+  max-width: 58px;
+  width: 10%;
+  height: 100%;
+  right: -12%;
+}
+main .presentWrap .presentLiWrap {
+  margin-bottom: 6%;
+}
+main .presentWrap dl {
+  font-size: 80%;
+}
+main .presentWrap dl dt {
+  font-size: 3rem;
+  text-align: center;
+}/*# sourceMappingURL=campaign.css.map */

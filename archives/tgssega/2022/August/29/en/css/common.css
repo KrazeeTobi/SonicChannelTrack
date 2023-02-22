@@ -1,0 +1,741 @@
+@charset "UTF-8";
+:root {
+  --circleVal: 201;
+  --chara01Pos: -0deg;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  word-wrap: break-word;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+  font-size: 62.5%;
+}
+@media screen and (max-width: 1280px) {
+  html {
+    font-size: 0.78125vw;
+  }
+}
+@media screen and (max-width: 980px) {
+  html {
+    font-size: 1.0204081633vw;
+  }
+}
+
+body {
+  position: relative;
+  min-width: 320px;
+  width: 100%;
+  height: 100%;
+  -webkit-text-size-adjust: 100%;
+  font-family: "メイリオ", "ＭＳ Ｐゴシック", Helvetica, sans-serif;
+  line-height: 1.6;
+  background-color: #ffffff;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a,
+a:hover,
+a:active {
+  color: #ffffff;
+}
+
+a:visited {
+  color: #fff;
+}
+
+a:focus {
+  outline: none;
+}
+
+ul {
+  list-style: none;
+}
+
+/*clearfix*/
+.cf::after {
+  display: block;
+  clear: both;
+  content: "";
+}
+
+/*==================================
+ common
+===================================*/
+.-showSp {
+  display: none;
+}
+@media (max-width: 640px) {
+  .-showSp {
+    display: block;
+  }
+}
+
+.-fontBold {
+  font-weight: bold;
+}
+
+.-fontNormal {
+  font-weight: normal;
+}
+
+.-hover01:hover {
+  transform: translateY(2px);
+}
+
+.-fontStyle01 {
+  font-family: fot-rodin-pron, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.-buttonStyle01 {
+  display: block;
+  width: 76.2rem;
+  margin: auto;
+  padding: 2.2rem 0 2rem;
+  border-radius: 100px;
+  font-size: 3.6rem;
+  background-color: #3300cc;
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: none;
+  line-height: 1.6;
+  transition: color 0.3s, background-color 0.3s;
+}
+@media screen and (max-width: 980px) {
+  .-buttonStyle01 {
+    font-size: 2.52rem;
+  }
+}
+@media screen and (max-width: 640px) {
+  .-buttonStyle01 {
+    font-size: 3.6rem;
+  }
+}
+.-buttonStyle01:hover {
+  background-color: #ffffff;
+  text-shadow: 3px 3px 0px #d7cece;
+}
+
+img.lazyload {
+  width: 100%;
+}
+
+/*==================================
+ header
+===================================*/
+header {
+  background-color: #3300cc;
+}
+header .headerInner {
+  position: relative;
+  z-index: 2;
+  max-width: 1280px;
+  margin: auto;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+header .headerInner .logo01 {
+  width: 9.4375%;
+  margin-right: 0.78125%;
+}
+@media screen and (max-width: 750px) {
+  header .headerInner .logo01 {
+    width: 16.515625%;
+    margin-right: 1.5625%;
+  }
+}
+header .headerInner .logo02 {
+  width: 10.4375%;
+  margin-right: 1.953125%;
+}
+@media screen and (max-width: 750px) {
+  header .headerInner .logo02 {
+    width: 18.265625%;
+  }
+}
+header .headerInner .logo03 {
+  width: 12.578125%;
+  margin-right: 2.4609375%;
+}
+@media screen and (max-width: 750px) {
+  header .headerInner .logo03 {
+    width: 41.25%;
+    margin-right: 0;
+  }
+}
+@media screen and (max-width: 750px) {
+  header .rightArea {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-top: 2rem;
+    justify-content: space-between;
+  }
+}
+header .snsWrap {
+  position: absolute;
+  z-index: 1;
+  top: 0.8rem;
+  right: 19rem;
+  display: flex;
+  width: 13.28125%;
+  justify-content: space-between;
+  align-items: center;
+}
+@media screen and (max-width: 750px) {
+  header .snsWrap {
+    position: relative;
+    left: 0;
+    width: 23.90625%;
+  }
+}
+header .snsWrap .icon {
+  position: relative;
+  z-index: 0;
+  display: block;
+  width: 29.4117647059%;
+  text-decoration: none;
+  color: #fff;
+}
+header .snsWrap .icon span {
+  position: absolute;
+  z-index: 1;
+  top: 100%;
+  left: 0;
+  display: block;
+  width: 100%;
+  font-size: 1.4rem;
+  text-align: center;
+  line-height: 1.2;
+  white-space: nowrap;
+}
+@media screen and (max-width: 750px) {
+  header .snsWrap .icon span {
+    font-size: 1.8rem;
+  }
+}
+header .langWrap {
+  position: absolute;
+  z-index: 1;
+  top: 0.8rem;
+  right: 2rem;
+}
+@media screen and (max-width: 750px) {
+  header .langWrap {
+    position: relative;
+    right: 0rem;
+    order: 2;
+  }
+}
+header .langWrap .langButton {
+  cursor: pointer;
+  padding: 0.8rem 3rem 0.5rem;
+  font-size: 1.8rem;
+  color: #fff;
+  border: 0.1rem solid #fff;
+  line-height: 1;
+  transition: background-color 0.3s, color 0.3s;
+}
+header .langWrap .langButton:hover {
+  color: #3300cc;
+  background-color: #fff;
+}
+@media screen and (max-width: 750px) {
+  header .langWrap .langButton {
+    padding: 1rem 3rem 0.8rem;
+    font-size: 3.2rem;
+  }
+}
+header .langWrap ul {
+  position: absolute;
+  display: none;
+  z-index: 0;
+  top: 100%;
+  right: 0;
+  width: 100%;
+}
+header .langWrap ul li {
+  border: 0.1rem solid #fff;
+  line-height: 1;
+  text-align: center;
+}
+header .langWrap ul li a {
+  display: block;
+  padding: 0.8rem 3rem 0.5rem;
+  font-size: 1.8rem;
+  color: #fff;
+  text-decoration: none;
+  background-color: #3300cc;
+  transition: background-color 0.3s, color 0.3s;
+}
+@media screen and (max-width: 750px) {
+  header .langWrap ul li a {
+    padding: 1.8rem 3rem 1.5rem;
+    font-size: 3.2rem;
+  }
+}
+header .langWrap ul li a:hover {
+  color: #3300cc;
+  background-color: #fff;
+}
+header .headerText {
+  position: absolute;
+  z-index: 0;
+  bottom: 0.8rem;
+  right: 2rem;
+  text-align: right;
+  font-size: 2.4rem;
+  color: #fff;
+  line-height: 1;
+}
+@media screen and (max-width: 980px) {
+  header .headerText {
+    font-size: 1.8rem;
+  }
+}
+@media screen and (max-width: 750px) {
+  header .headerText {
+    order: 1;
+    position: static;
+    font-size: 3.2rem;
+  }
+}
+
+/*==================================
+ nav
+===================================*/
+#nav {
+  background-color: #0099ff;
+}
+@media screen and (max-width: 640px) {
+  #nav {
+    overflow-x: scroll;
+  }
+}
+#nav .navInner {
+  position: relative;
+  z-index: 1;
+  max-width: 1280px;
+  margin: auto;
+  padding: 3rem 6rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@media screen and (max-width: 980px) {
+  #nav .navInner {
+    padding: 3rem 4rem;
+  }
+}
+@media screen and (max-width: 640px) {
+  #nav .navInner {
+    padding: 3rem 4rem;
+    width: 165%;
+  }
+}
+#nav .navInner .nav {
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  font-size: 3rem;
+  line-height: 1;
+  transition: color 0.3s, text-shadow 0.3s;
+}
+#nav .navInner .nav.-current, #nav .navInner .nav:not(.-current):hover {
+  text-shadow: 3px 3px 0px #000000;
+}
+#nav .navInner .nav.cs {
+  color: #cccccc;
+  pointer-events: none;
+}
+@media screen and (max-width: 980px) {
+  #nav .navInner .nav {
+    font-size: 2.4rem;
+  }
+}
+@media screen and (max-width: 640px) {
+  #nav .navInner .nav {
+    font-size: 3.8rem;
+  }
+}
+#nav .navInner .nav span {
+  font-weight: normal;
+  font-size: 1.8rem;
+}
+@media screen and (max-width: 980px) {
+  #nav .navInner .nav span {
+    font-size: 1.4rem;
+  }
+}
+
+#modalNav .modalNavButton {
+  position: fixed;
+  z-index: 995;
+  top: 0;
+  right: 0;
+  width: 60px;
+  padding-top: 60px;
+  cursor: pointer;
+  display: none;
+  background-color: rgba(0, 153, 255, 0.5);
+}
+@media screen and (max-width: 640px) {
+  #modalNav .modalNavButton {
+    width: 50px;
+    padding-top: 50px;
+  }
+}
+#modalNav .modalNavButton .buttonInner {
+  position: absolute;
+  z-index: 1;
+  width: 60%;
+  height: 50%;
+  top: 25%;
+  left: 20%;
+}
+#modalNav .modalNavButton span {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: #ffffff;
+  transition: all 400ms;
+}
+#modalNav .modalNavButton span:nth-child(1) {
+  top: 0;
+}
+#modalNav .modalNavButton span:nth-child(2) {
+  top: 50%;
+  transform: translateY(-50%);
+}
+#modalNav .modalNavButton span:nth-child(3) {
+  bottom: 0;
+}
+#modalNav .modalNavButton.open span:nth-child(1) {
+  top: 50%;
+  transform: rotate(45deg) translateY(-50%);
+}
+#modalNav .modalNavButton.open span:nth-child(2) {
+  opacity: 0;
+}
+#modalNav .modalNavButton.open span:nth-child(3) {
+  bottom: calc(50% - 1px);
+  transform: rotate(-45deg) translateY(50%);
+}
+
+.modalNavLayer {
+  position: fixed;
+  z-index: 990;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: none;
+}
+
+#modalNavInner {
+  position: fixed;
+  z-index: 991;
+  top: 0;
+  right: -300px;
+  width: 300px;
+  height: 100%;
+  padding: 5rem 0;
+  background-color: #3300cc;
+  transition: right 0.3s;
+  overflow: auto;
+}
+#modalNavInner.open {
+  right: 0;
+}
+@media screen and (max-width: 640px) {
+  #modalNavInner {
+    right: -100%;
+    width: 100%;
+  }
+}
+#modalNavInner .nav {
+  display: block;
+  padding: 5% 0;
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1;
+  transition: color 0.3s, text-shadow 0.3s;
+}
+#modalNavInner .nav.-current, #modalNavInner .nav:not(.-current):hover {
+  color: #ffffff;
+  text-shadow: 3px 3px 0px #000000;
+}
+#modalNavInner .nav.cs {
+  color: #cccccc;
+  pointer-events: none;
+}
+@media screen and (max-width: 640px) {
+  #modalNavInner .nav {
+    font-size: 4.2rem;
+  }
+}
+#modalNavInner .nav span {
+  font-weight: normal;
+  font-size: 12px;
+}
+@media screen and (max-width: 980px) {
+  #modalNavInner .nav span {
+    font-size: 1.4rem;
+  }
+}
+@media screen and (max-width: 640px) {
+  #modalNavInner .nav span {
+    font-size: 2.4rem;
+  }
+}
+#modalNavInner .snsWrap {
+  display: flex;
+  width: 100%;
+  padding: 5% 0;
+  justify-content: center;
+  align-items: center;
+}
+#modalNavInner .snsWrap .icon {
+  max-width: 50px;
+  min-width: 40px;
+  width: 10%;
+  margin: 0 3%;
+  text-align: center;
+  text-decoration: none;
+}
+#modalNavInner .snsWrap .icon span {
+  font-size: 12px;
+  text-align: center;
+  line-height: 1.2;
+  white-space: nowrap;
+  color: #fff;
+}
+#modalNavInner .langWrap {
+  text-align: center;
+}
+#modalNavInner .langWrap a {
+  display: inline-block;
+  width: 130px;
+  margin: 5% 1%;
+  padding: 5px 0rem;
+  border-radius: 100px;
+  background-color: #fff;
+  color: #3300cc;
+  text-decoration: none;
+  font-size: 14px;
+}
+@media screen and (max-width: 980px) {
+  #modalNavInner .langWrap a {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 640px) {
+  #modalNavInner .langWrap a {
+    width: 32rem;
+    margin: 5% 1% 2%;
+    padding: 1rem 4rem;
+    font-size: 3rem;
+  }
+}
+
+main {
+  padding-bottom: 5%;
+}
+
+/*==================================
+ section
+===================================*/
+.section {
+  max-width: 1280px;
+  margin: 10rem auto 0;
+  padding: 0 4rem;
+}
+.section .text a {
+  color: #3300cc;
+}
+.section .text a:hover {
+  text-decoration: none;
+}
+
+/*==================================
+ aside
+===================================*/
+aside {
+  background-color: #3300cc;
+  border-top: 5px solid #898b9c;
+}
+@media screen and (max-width: 640px) {
+  aside {
+    border-top: 2px solid #898b9c;
+  }
+}
+aside .asideInner {
+  max-width: 1280px;
+  margin: auto;
+  padding: 4rem;
+  color: #fff;
+}
+aside .asideInner .asideTitle {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+}
+@media screen and (max-width: 640px) {
+  aside .asideInner .asideTitle {
+    font-size: 3.9rem;
+  }
+}
+aside .asideInner .asideTextWrap {
+  width: 68%;
+  margin: 4rem auto;
+}
+@media screen and (max-width: 980px) {
+  aside .asideInner .asideTextWrap {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 640px) {
+  aside .asideInner .asideTextWrap {
+    width: 100%;
+  }
+}
+aside .asideInner .asideText {
+  display: flex;
+  font-size: 2.4rem;
+  margin-bottom: 1%;
+}
+@media screen and (max-width: 640px) {
+  aside .asideInner .asideText {
+    font-size: 3.6rem;
+  }
+}
+aside .asideInner .asideText .textTitle {
+  white-space: nowrap;
+  min-width: 7em;
+  position: relative;
+}
+aside .asideInner .asideText .textTitle::after {
+  content: "：";
+  position: absolute;
+  right: 0;
+}
+aside .asideInner .asideText .text {
+  line-height: 1.4;
+}
+aside .asideInner .asideText .text .fontSmall {
+  line-height: 1.4;
+}
+aside .asideInner .asideText .fontSmall {
+  font-size: 1.8rem;
+}
+@media screen and (max-width: 640px) {
+  aside .asideInner .asideText .fontSmall {
+    font-size: 2.7rem;
+  }
+}
+aside .button {
+  background-color: #fff;
+  color: #0074ff;
+  font-size: 3rem;
+}
+@media screen and (max-width: 640px) {
+  aside .button {
+    font-size: 4.2rem;
+  }
+}
+
+/*==================================
+ footer
+===================================*/
+footer {
+  background-color: #000000;
+}
+footer .footerInner {
+  max-width: 1280px;
+  margin: auto;
+  padding: 4rem 4rem 10rem;
+  color: #fff;
+  font-size: 14px;
+}
+@media (max-width: 640px) {
+  footer .footerInner {
+    font-size: 12px;
+  }
+}
+footer .footerInner a {
+  color: inherit;
+}
+footer .footerInner a:hover {
+  text-decoration: none;
+}
+footer .footerInner small {
+  font-size: inherit;
+}
+footer .footerInner img {
+  height: 12px;
+}
+footer .footerInner .footerText {
+  margin-top: 2rem;
+}
+footer .buttonToTop {
+  position: fixed;
+  z-index: 990;
+  bottom: 2rem;
+  right: 2rem;
+  width: 8rem;
+  padding-top: 8rem;
+  background-color: rgba(0, 153, 255, 0.5);
+  cursor: pointer;
+}
+@media (max-width: 640px) {
+  footer .buttonToTop {
+    width: 10rem;
+    padding-top: 10rem;
+  }
+}
+footer .buttonToTop .arrow {
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  margin: auto;
+  border-style: solid;
+  border-width: 0 2.15rem 2.4rem 2.15rem;
+  border-color: transparent transparent #ffffff transparent;
+  transform: translate(-50%, -50%);
+  transition: border-color 0.3s;
+}
+@media (max-width: 640px) {
+  footer .buttonToTop .arrow {
+    border-width: 0 3.4rem 3.6rem 3.4rem;
+  }
+}
+footer .buttonToTop:hover .arrow {
+  border-color: transparent transparent #0099ff transparent;
+}
+footer .langWrap {
+  margin-top: 3rem;
+}/*# sourceMappingURL=common.css.map */
