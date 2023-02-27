@@ -1,3 +1,4 @@
+timeout /t 4000 /nobreak
 ::Download angelfire/warpsonic
 call wayback_machine_downloader http://tails00.sonicteam.com/*  --from 20020101 --to 20020101 --directory 2002/January/1/tails00
 call wayback_machine_downloader http://tails00.sonicteam.com/*  --from 20020102 --to 20020102 --directory 2002/January/2/tails00
