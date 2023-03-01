@@ -460,6 +460,14 @@ del hamidashi.1
 cd ..
 cd ..
 del .wget-hsts
-git add *.*
+git add "blog.sonic-channel.jp/*.*"
+git add "paramount.jp/*.*"
+git add "sonic.sega.jp/*.*"
+git add "sonic-movie.jp/*.*"
+git add "sonicrunners.sega-net.com/*.*"
+git add "sonicteam.com/*.*"
+git add "www.nintendo.co.jp/*.*"
+git add "www.olympicvideogames.com/*.*"
+git add "log/*.*"
 git commit -m "files from %date:~-4,4%-%date:~3,2%-%date:~-10,2%, %time:~0,2%:%time:~3,2%:%time:~6,2%"
 git push
