@@ -1,0 +1,102 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/70/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="gcfree">
+<input type="hidden" name="id" value="pccoyl">
+<input type="hidden" name="id2" value="elofwv">
+<input type="hidden" name="pg" value="70">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >＞ただチームとホームを今まであるように守りたいだけなのですが・・・
+ここが大変気になりました。
+要は『邪魔なので、自分達の活動を阻害されるほどの人数は集まるな』と
+声高に叫んでいるようにしか聞こえません。
+
+私は無用な論争をさけ不毛な議論をするつもりも煽りにのって騒ぎ立てる気もないのですが私もあなたが何故このような考えに至るのか理解しかねますね。
+
+私達のチームは今まで行きかう全ての人々と良好な関係を保ち、また人数がいっぱいになれば自発的にブロックなどを移動し、他のユーザーに当然しかるべき配慮をしてきたつもりですし、事実実行しておりまいした。（このツリー内に書き込んであります）
+
+私が懸念するのは今回のことで特定の目的のみが重視され、それ以前からのユーザー（私達もふくめて）たちの立場と権利が脅かされる危険があることだったのですが。
+
+これは個人の自由やロビー利用権利の所在の有無、または「実行者たちはＢＢＳを見ていない云々」などの問題ではなく共存していくためにはどうしたらいいのかという問題提議です。
+
+私からみれば、貴方の意見も「誰の場所でもないところで勝手なことを言っている者には何の権利もないよ」といわれている気がします。
+
+・・・自分でこれを打ちこんでいて、すごく嫌になりました。
+できれば、もう少し建設的な意見を聞きたいものです。
+言いたくないことを言わなくてはいけないのは気持ちの悪いものですね。
+</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

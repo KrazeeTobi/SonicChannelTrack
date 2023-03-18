@@ -1,0 +1,135 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/56/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="gcfree">
+<input type="hidden" name="id" value="ofukhn">
+<input type="hidden" name="id2" value="zkdobn">
+<input type="hidden" name="pg" value="56">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >うちの子の設定です
+
+以前あった無銘の徒さんの同じタイトルのツリーに
+書き込ませてもらったことがあるので
+次は別のキャラの設定を。
+
+名前：ゼーゲルコーン
+職業：ヒューキャスト
+「ゼーゲルコーン」とは、焼き物を焼く時の道具のひとつで
+ある一定の温度になると曲がる円錐状のもの。
+番号により曲がる温度が違うので
+複数本入れておき、その曲がり具合により
+窯が目標の温度に達しているかどうか見るためのもの。
+彼（？）もその１本であったが、
+「毎日毎日僕らは窯で焼かれていやになっちゃうよ」
+　　（およ○たいや○くん）
+と、脱走。
+そこを陶芸研究家ドクターＫに拾われ
+ヒューキャストへ改造してもらう。
+「これでもう窯に焼かれて曲がることはないんだ！」
+と思ったのもつかの間。
+ドクターのちゃめっけで
+ある一定の温度になると曲がる。
+ゆえにドラゴン戦は彼にとって鬼門となっている。
+
+名前：オルトンコーン
+職業：レイキャスト
+「オルトンコーン」も「ゼーゲルコーン」と同じ役割をするもの。
+彼はいつか愛知県渥美町の渥美窯で焼かれることを
+夢みていた。
+そのために彼がいた某窯業試験場に
+研修に来ていた愛知県出身の研修生に
+現地の言葉も教えてもらっていた。
+（故に彼の言語設定は「三河弁」）
+しかし、渥美窯はとっくの昔に滅びていることを知る。
+失意の彼を見たドクターＫは
+「それならもういっそアンドロイドにでもなるか？」
+ともちかける。
+半ばヤケになった彼はその申し出を受け入れ
+レイキャストへ。
+いつか自力で渥美窯を見るために・・・
+ちなみに彼もある一定の温度で曲がります。
+
+前回シリアス系の設定だったので
+今回はこんなので・・・
+
+おまけ　私信
+うちにはあなたと会った次の日に届きました。
+でも、やっぱりアイテム消えるのがおしくて
+友人に旧版借りてデータのみ残したり
+力尽きて寝てしまったりで
+まだオンしてません・・・</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

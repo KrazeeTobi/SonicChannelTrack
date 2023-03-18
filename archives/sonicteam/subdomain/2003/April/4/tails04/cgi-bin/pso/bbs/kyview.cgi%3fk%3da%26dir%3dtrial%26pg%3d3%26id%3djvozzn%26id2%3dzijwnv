@@ -1,0 +1,82 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『ファンタシースターオンライン エピソード１＆２』トライアルBBS</title>
+</head>
+<body background="http://tails04.sonicteam.com/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/t/trial/3/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#ffffff">MAKING APPEND NOTE</font>
+<hr>
+<p>
+<table width="100%" border="0">
+<tr bgcolor="#004080"><td width="100%"><strong>元の発言</strong></td>
+<td align="right" width="1%" nowrap> <br></td></tr>
+<tr bgcolor="#004080"><td colspan="2"><strong>あるふぁ</strong>  <i> 2002/06/03</i>  </td></tr>
+<tr bgcolor="#000040"><td colspan="2">RTA50i/WinME/Access8M/DTI 成功！！<BR><BR><BR><BR>昨日秋葉原で買うてきた YAMAHA の TA 「RTA50i」4,400円（中古）を使い、ADSL経由の通信を成功。<BR>OS は WinME。回線は eAccess8M。プロバイダは DTI。<BR><BR>物理接続：<BR>　GC-Modem → TA アナログポート2<BR>　TA アナログポート1 → PC-Modem<BR>　（TAはアナログポートのみ使用。上位回線への接続はPCが行ってます）<BR><BR>設定：<BR>　TAの設定：無し。<BR><BR>　PCの設定：WinTouteLite というルーティングソフトをダウンロード。<BR>　上位ネットワークを LANカードに設定。<BR>　UDPポートを設定。<BR>　内蔵 Modem のレジストリ変更。<BR>　Dial-Up Server のインストール。（Windowsファイル）<BR>　Dial-Up Server のパスワード設定。Server の種類を PPP に。<BR>　通常は「着信しない」の設定に。<BR><BR>　GC の設定：UDPを使用する、に設定。<BR>　追加コマンド「ATX1」<BR>　ダイヤル先「*1」←TAの内線機能を使い、PC-Modem にダイヤルする。<BR>　DNS を PC の IPアドレスに設定。<BR>　プロバイダID は、適当な文字列。（なんでも良い）<BR>　パスワードは、PC の Dial-Up Server にて設定したものに。<BR><BR>接続方法：<BR>　PC 側にて、WinRouteLite、Dial-Up Server 起動。<BR>　GC より、インターネット接続を開始。<BR>　TA がカチカチと発呼処理を始めたら、Dial-Up Server を「着信する」に変更。<BR>　PC-Modem がおなじみのピーザー音をならし、GCを認証。<BR>　PC経由で、PSOのシリアル、アクセスキーを送信。<BR>　PSO サーバーにアクセス完了。<BR><BR><BR>いろんなページを参考にしたんですが、こんな設定を書いてあるところは無かった(汗)<BR>なんでも試して見るもんだなぁ。<BR><BR>チャットの遅延無し、ルーム作成問題なし。<BR>乱入未実験。動作試験はほんの数十分のみ。<BR>しかし、不安定な様子は全く無かったです。<BR><BR><BR><BR>お試しプレイで、アル・ラッピーが出てきて、レンジャー専用のパシュパシュ撃つ武器落としていった・・。<BR><BR>幸先良いデスなぁ。<BR><BR><BR><BR><BR>WinRouteLite のお試し期間が切れたらどうしよう・・。<BR>払方がようわからん。Win2000買う方が手続き楽だったりして(笑)</td></tr>
+</table>
+</p>
+<p>
+<form action="submit.cgi" method="post" >
+メッセージ ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual">
+</textarea><BR>
+
+<input type="hidden" name="title" value="Re:RTA50i/WinME/Access8M/DTI成功！！">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="pg" value="3">
+<input type="hidden" name="id" value="jvozzn">
+<input type="hidden" name="id2" value="zijwnv">
+<input type="hidden" name="dir" value="trial">
+</p>
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+<input type="hidden" name="c" value="APPEND">
+<p>
+<input type="submit" value="APPEND"> 書き込み 
+
+</p>
+</form>

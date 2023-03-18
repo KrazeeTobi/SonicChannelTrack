@@ -1,0 +1,162 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『ファンタシースターオンライン エピソード１＆２』トライアルBBS</title>
+</head>
+<body background="http://tails04.sonicteam.com/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/t/trial/27/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#ffffff">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="trial">
+<input type="hidden" name="id" value="eaebfz">
+<input type="hidden" name="id2" value="eaebfz">
+<input type="hidden" name="pg" value="27">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#ffffff">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#ffffff">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >
+今回「命中率低下」って処置を受けたソード系・パルチ系。
+恐らくは今までの「複数攻撃武器が根本的に強すぎ」という
+事の対応なんでしょうけど、それを単に「命中率」だけで
+解決しようとすると無理があるんではないかと思います。
+
+
+改案ですが、現在ロックオンの仕掛けが
+・実際には一つのターゲットをロックオンする。
+（ロックオン範囲の最も近い敵）
+→その敵に攻撃し、複数攻撃武器の場合その範囲内の敵にも
+　ダメージを与える
+って訳ですから、
+「この主ターゲットだけ別扱いできたらどうだろうか？」と
+いう物があります。
+
+
+
+現在は
+・セイバー：普通に当たる命中力・但し単体
+・ソード　：相当に命中度が削られ、かなり当てられない。
+　　　　　　当たったとしてもどれに当たるか解らない。
+これを
+・ソード　：主ターゲットに対しては、さすがにセイバー程では
+　　　　　　ないけどまだ当たりやすい。
+　　　　　　主ターゲット以外に対しては当たりにくい。
+
+すると、育ちきっていない頃のソード使いは
+「非常に遅い単発武器としてだけどソードは一応使える」って
+視点で見ることができます。
+
+ソード使いを自認するほどなら、狙った一匹だけでも高い確率で
+当たるならそれだけで十分対処可能でしょう。
+
+
+ソードが複数攻撃武器としての真価を発揮するのは確かに後半ですが
+現在の用に「序盤で全く使えない」「使えるようになったら使えすぎ」
+のような極端な状況を避けるって視点もあります。
+
+この主ターゲットと副ターゲットの命中率を計算式(「主ターゲットは
+○%増し」)ではなく、データとして設定できるようにするとさらに
+いいでしょう。
+場合によっては、極端な差を付ける事で「実は事実上単体攻撃武器
+なんだけど一撃必殺の強力ソード」ってアイテムを作る事もできます
+#むしろ重いセイバーに近い用途？
+#というか単体攻撃ソードはそれはそれで価値あるかなーと…
+
+バランス調整次第では、従来のマシンガン系に近い効果を持つソー
+ドだって作れるのでは？とも思います。
+
+
+この発想を攻撃力などに発展させる方法もあります。
+主ターゲットだけには大破壊力・それ以外には牽制程度とか。
+
+パルチ系は命中度より威力で格差を付けるといいかも？
+
+
+
+
+そして、ハンター以外にもメリットはあります。
+レンジャーのショットやフォースのテクは、ロックオン範囲が
+余計なまでに広いために、主ターゲットが何になるかわかりにくい
+事があります。
+
+撃とうとしたら、いきなり真後ろ向いて実は僅かに近い敵を撃った
+とか。
+
+当然主ターゲットはカーソルアイコンで何らかの区別ができるように
+するでしょうから、こういった誤射が減ります。
+
+
+って事で、ロックオンの仕掛けを工夫する提案でした。
+
+
+p.s.
+実は本命は最後の方だったり。
+ソニチに意見するときにはハンター視点での提案にしないと
+伝わらないモンね＾＾；
+</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#ffffff">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

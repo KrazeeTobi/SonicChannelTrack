@@ -1,0 +1,125 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『ファンタシースターオンライン エピソード１＆２』トライアルBBS</title>
+</head>
+<body background="http://tails04.sonicteam.com/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/t/trial/27/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#ffffff">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="trial">
+<input type="hidden" name="id" value="prudzu">
+<input type="hidden" name="id2" value="eaebfz">
+<input type="hidden" name="pg" value="27">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#ffffff">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#ffffff">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >ロックオンとは関係ないですが・・・
+&gt;今回「命中率低下」って処置を受けたソード系・パルチ系。
+&gt;恐らくは今までの「複数攻撃武器が根本的に強すぎ」という
+&gt;事の対応なんでしょうけど、それを単に「命中率」だけで
+&gt;解決しようとすると無理があるんではないかと思います。
+&gt;
+リスクとリターンを正当に評価するならば
+武器の攻撃力は以下の構図になります。
+
+　　攻撃範囲　　近＞遠
+　　目標　　　単体＞複数
+　　攻撃回数　１回＞複数回
+
+そのため攻撃力が最強の武器はセイバー系武器になります。
+しかしＰＳＯには普通に手に入る範囲の
+「最上位セイバー系武器」は”最強”ではありません。
+（属性に制限のあるクエスト物や天文学的確率の武器は除外）
+ソード系のほうが攻撃力が高いのです。
+
+しかしだからといってソードの弱体化を命中率の低下で図れば
+ソードが使い物にならないのはＧＣで証明済みです。　
+
+ソードの能力を低下させたいなら攻撃力を低下させるしかないですが
+もともと最上位武器に行き着くまではソード系武器の出現が
+セイバー系より後になるという形で性能の均衡が取られているので
+ソードが手に入る頃にセイバー系上位武器のブランドが入手出来るため
+ソードが弱くなり過ぎてしまいます。
+
+ですから単純に・・・
+
+　１、セイバー最上位武器の上に更に高性能の
+　　　セイバー系武器を追加する　　
+
+　２、セイバー系武器の性能を上のランクに行くたびに徐々に
+　　　上昇させるか逆にソード系武器の攻撃力を徐々に低下させて
+　　　最上位セイバー系武器の性能をセイバー＝ソードと
+　　　なるようにする。
+
+　・・・のどちらかで良いのでは？と考えます。
+
+（ここで言う性能とは攻撃力のみではなく
+　使い勝手も考慮に入れた総合的な性能です）</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#ffffff">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

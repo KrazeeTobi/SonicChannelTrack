@@ -1,0 +1,173 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『ファンタシースターオンライン エピソード１＆２』トライアルBBS</title>
+</head>
+<body background="http://tails04.sonicteam.com/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/t/trial/9/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#ffffff">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="trial">
+<input type="hidden" name="id" value="kzswwk">
+<input type="hidden" name="id2" value="kzswwk">
+<input type="hidden" name="pg" value="9">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#ffffff">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#ffffff">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >ここでの書き込みは初めましてになります。
+いくつか気付いたことがありますので、書きたいと思います。
+
+
+○ 起動直後のセガ・ソニチロゴ画面
+
+ＤＣ版でも同様だったのでご存知の方も多いでしょうが、
+この画面はボタンを押してもスキップできません。
+製品版ではおそらくスタッフロールの方に行くのでなくなっているでしょうが、
+トライアル版では「ＭＰＥＧ　Ｓｏｆｄｅｃ」「ＡＤＸ」各ロゴの画面まで表示されます。
+この画面中に各種ロードをやっているかと思うと、ＧＣ側からアクセスの音が聞こえないので
+どうやらそうではないようです。
+先に「Ｎｏｗ　Ｌｏａｄｉｎｇ」画面が表示されているのですから。
+あまつさえ、デモムービー終了後に同様に表示されるロゴ画面でもスキップできません。
+これは、プログラム的に手を抜いていませんでしょうか？
+ボタンひとつでタイトル画面に飛ばせるプログラムくらい、すぐに作れるのではないでしょうか？
+それとも、(未プレイなので分かりませんが)ＡＣ「サンバｄｅアミーゴ」でも
+お金を入れた客にセガ・ソニチロゴ画面表示の終了まで待ってもらっているのでしょうか？
+
+ちなみに現在のトライアル版では、ＧＣ電源投入からタイトル画面表示まで
+約４０秒もかかっています(ディスクをあらかじめセットして電源を入れた場合)
+プレイするのに、４０秒も待たされるのです。
+これはＧＣソフトとしては極めて遅い部類です。
+絶対に改善すべき部分だと思います。
+
+
+○ 文字入力エリア
+
+ＤＣ版でも思ったことですが、文字入力エリアのカーソルは
+半透明の黄色が使われています。
+このカーソル、明るい場所に出るとたちまち見ずらくなり、
+場所によっては入力中の文字すら見えなくなることがあります。
+ＧＣトライアル版でも同様で、入力時にストレスがたまる可能性があると思います。
+最低でもカーソルを…
+　・半透明にしない
+　・白と黒を交互に表示するよう変更
+していただけると助かります。
+できれば文字入力エリアも、ＧＣ用にリニューアルされたウィンドウで
+囲ってほしいです。
+
+
+○ Ｃスティックのオプション設定(既出の可能性あり)
+
+これは一部のプレイヤーに限られるでしょうが、
+某１１ではＰＳ２の右スティックがカメラ移動になっています。
+それに慣れてしまうと、ついＧＣＰＳＯでもＰＳ２の右スティックにあたる
+Ｃスティックを倒してしまい、ショートカットを暴発するという事例が…(苦笑)
+移動しながらＣスティックですべてのメニュー操作ができるというのも重要ですが、
+オプション設定でＣスティックの役割をカメラ移動に変更できれば非常に助かります。
+
+
+○ ステータスウィンドウのページ切り替え
+
+ステータスの表示やショートカット一覧、武器防具の詳細など
+ページ切り替えをする場面がよくありますが、
+このページ切り替えがＤＣ版同様コントローラのＬ／Ｒトリガーにしか対応しておらず、
+キーボードでメニュー画面を操作しているとコントローラへの持ち替えが面倒です。
+ページ切り替えは、キーボードの左右にも対応してほしいです。
+プログラム的には、簡単なはずですよね？
+
+
+○ 森１の一部地形
+
+ＤＣ版にありました高台の「踏んでもガサガサいわない」草村が、
+ＧＣトライアル版でも確認されました。
+また、川の流れが逆流している部分も健在です(汗)
+
+
+○ 敵全滅時のＳＥ
+
+エリア内の敵を全滅したりスイッチを押すなどした際に
+ガガガッって感じの音とともに扉が開くわけですが、
+ＧＣ版では(でも？)その効果音をディスクから読み込んでおり、
+その読み込みが遅れる(？)と画面が一瞬だけ止まることが確認されました。
+ディスクやＧＣのヘッドが汚れていた場合、ヘッドがファイルを探している間
+画面が止まることになると思われます。最悪フリーズするかもしれません。
+ひんぱんに使う効果音です。サウンドＲＡＭに常駐できませんでしょうか？
+
+
+○ ボス登場時の演出
+
+ドラゴンとデ・ロル・レ戦で確認しましたが、
+ボス登場の演出に特殊な画面効果を入れた関係上処理落ちが発生しており、
+明らかにＤＣ版より時間がかかっています。
+アーケードゲームでは容赦なくボタンスキップされる部分です。
+特殊処理は施さずにサクッと進めていいのでは？と思っています。
+
+
+以上、７点です。
+また気付いたことがありましたら、報告します。</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#ffffff">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>
