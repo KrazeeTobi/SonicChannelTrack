@@ -1,0 +1,105 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/82/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="gcfree">
+<input type="hidden" name="id" value="xcgvvs">
+<input type="hidden" name="id2" value="eeayle">
+<input type="hidden" name="pg" value="82">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >ルータは不要。ハブが必要です。
+
+FOXさんの仰る通り、TE4121Cはルータ内蔵ADSLモデムです。ですので新たにルータは必要ありません。
+しかし、TE4121CにはLANポートが１つしか無いようですので（って何の為のルータだ(^^;）、ルータではなく、ハブというものを増設してあげる必要があります。
+恐らくspriさんは、GCと共に他の機器（PCとか）を接続しようと考えていて、それでルータを購入なさったのだと考えますが違いますでしょうか？　違ったらごめんなさい。
+以下、そういう前提で話を進めます。
+
+まず、イーアクセスが複数機器の同時接続を許しているかどうかを確認してください。もし許していなければ、複数の機器を同時に繋ぐと規約違反となります。
+複数機器の同時接続が可能であれば、ハブ（イーサネットハブ）を購入してください。４ポートハブであれば３つ、８ポートハブであれば７つと、ハブのポート数－１の機器を同時に接続できます。価格は3000円～4000円程度になるでしょう。
+
+●ハブ購入時の注意点
+・ポート数が十分か確認してください。
+・ルータとハブをストレートケーブルで繋ぐのか、クロスケーブルで繋ぐのかを確認してください。通常はハブにカスケードポートっていうのがあればストレート、無ければクロスになります。解らなかったら店員さんにご相談。
+・ハブ、ケーブル、LANカード（PC）には、10BASE-Tと100BASE-TXという２つの規格があります。なお100BASE-TXの方が高速です。PSOをやるだけ、PCでネットをやるだけなら10BASE-Tでも構いませんが、もし将来的に複数のPCを持つ可能性があるならば、100BASE-TXで統一しましょう。
+・ハブと名称のつくものに「USBハブ」ってのがありますが、こちらは全くの別物なので間違って買わないように。
+
+あとは、TE4121CのLANポートとハブを繋ぎ（ハブにカスケードポートがあれば、そこにストレートで。無ければどこでも良いのでクロスで）、ハブの各ポートとGCやPCを繋げば完了です。TE4121Cとハブを繋ぐケーブルを買うのを忘れないようにしましょう。
+なお、TE4121Cの設定変更は不要です。
+
+P.S.
+通常は、「双方とも素性の良いルータで」「変な設定をしていない」なら、ルータが複数になっても問題は起きないはずなんですよね。ただ、BAR-SW-4PLは評判の悪いルータで、調べてみると安定性にかなり問題があるようです。今回回線落ちが頻発するようになったのはBAR-SW-4PLが原因かと。
+</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

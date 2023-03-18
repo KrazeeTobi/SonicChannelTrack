@@ -1,0 +1,128 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/91/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="gcfree">
+<input type="hidden" name="id" value="dbbcdi">
+<input type="hidden" name="id2" value="dbbcdi">
+<input type="hidden" name="pg" value="91">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >こんにちは、「チャレンジ戦隊ロボレンジャー」隊長のロボレッドです。
+
+&lt;font size=+3 color=yellow&gt;&lt;b&gt;５月３１日、６月１日の２日間、
+２３００より、
+ＪＰ６７－３－１５にて
+「チャレンジ大会」を開催します。&lt;/b&gt;&lt;/font&gt;
+＊調整版（Ver1.1）のみの開催となります。ご注意ください。
+
+ルールは以下の通りです。
+
+＊注意！！少々の「ネタバレ」を含みます＊
+
+&lt;font size=+2&gt;&lt;b&gt;使用ステージ：C1/C4/C6/C9（挑みたいステージに達していない場合、当日までに到達しておいてください）
+
+制限時間：１時間
+
+ステージ制限：Ｃ１＝制限なし
+　　　　　　　Ｃ４＝３人
+　　　　　　　Ｃ６＝３人、職業の重複不可
+　　　　　　　Ｃ９＝２人
+
+ルール：タイムアタックではなく、設定されたポイントを競います。
+ポイントになるものは以下の通りです。
+
+○メイト、フルイドの残量の合計
+○メンバーのレベルの合計
+○最も高いグラインダーの＋分
+
+逆に、以下のものが減点になります。
+
+●チャレンジ失敗（－１０点）
+●部屋の作り直し（－１０点）&lt;/b&gt;&lt;/font&gt;
+
+また、ボーナスとして倒したボスが得点になります。
+
+&lt;font size=+1 color=yellow&gt;ドラゴン＝&lt;b&gt;５点&lt;/b&gt;
+デ・ロル・レ＝&lt;b&gt;１０点&lt;/b&gt;
+ボルオプト＝&lt;b&gt;１５点&lt;/b&gt;
+ダークファルス＝&lt;b&gt;２０点&lt;/b&gt;&lt;/font&gt;
+
+以上がルールになります。
+
+皆様の参加、心よりお待ちしております。
+
+ロボレッドでした。</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

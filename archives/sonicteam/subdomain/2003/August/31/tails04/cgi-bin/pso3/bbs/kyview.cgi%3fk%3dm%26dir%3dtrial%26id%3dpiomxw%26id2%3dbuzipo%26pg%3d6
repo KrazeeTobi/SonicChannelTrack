@@ -1,0 +1,226 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOEP3トライアル版』専用掲示板</title>
+</head>
+<body background="/pso3/bbs/img/pso_bk1.png" bgcolor="#003333" text="#FFFFFF" link="#99FF99" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso3/bbs/t/trial/6/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#ffffff">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="trial">
+<input type="hidden" name="id" value="piomxw">
+<input type="hidden" name="id2" value="buzipo">
+<input type="hidden" name="pg" value="6">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#ffffff">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >Dice_Boost
+
+
+
+
+
+
+
+　　　　　　　以下、バレあります。
+
+
+
+
+
+
+
+
+
+
+ダイスがブーストするんですねぇ…
+ダイスがバーストしたり、
+ダイスがワーストだったりってのも
+面白そうですねぇ（＾＾
+
+（ハイテンション帰省より帰宅後故ブッ壊れハイテンション）
+
+ということで、ダイスブーストの逆も考えてみるみる。
+
+
+
+ダイスワースト
+　増加ポイント抜き数値を例にすると
+　５・６が出たら、次にそれ以下の数値がでやすくなる
+　こっちも設定できていいと思うのですが～。
+　ブーストとワーストが同時に設定？みたいな案は
+　下に書きました～えーと、NDSって奴です。
+
+ダイスバースト
+　全体的に４以上の目が出やすくなる
+　（１や２、３が出ないワケではない。あくまで確率論）
+　あ、高ダイス・低ダイス設定とかあって、
+　高ダイスにすると３～６が出やすく
+　低ダイスにすると１～４が出やすい、
+　でも時々１が出たり６が出たりする、というのはいいかも。
+　…って、前にも提案した事があるな、これ
+　ダイス固定とデフォルト設定の折衷案みたいな。
+　低ダイス設定でぜひ遊んでみたい。
+　この機能を使って、ハンデができるといいな。
+
+難しいこと言わずに有効ダイス設定
+　どのダイスを有効にしますか？
+　[　１　２　３　４　５　６　７　８　９　全て有効　]
+　７、８、９を無効にすると、単純に増加ポイントを増やす事で
+　１、２の出る確率が減る、という意見が見えてきますね～。
+　増加ポイントの性質として、６という上限を越える・越えないが
+　設定できるといいかも。
+
+最初からEXポイント、ゲッツ！
+　EX…というか増加ポイントが
+　最初から＋２の設定です。
+　こういうのも選べていいんじゃないかな～。
+　しょっぱなから最低でも３・３。
+　まぁ、最高で８・８になるわけですが…
+　これは実用性ないかな。
+　あ、EX無効設定もできるといいな。
+
+NDS（ナチュラル・ダイスロール・システム）
+　より感覚的に自然なダイスを実現する為に
+　ちょっとダイス自体に手を加えるとか。
+　せっかくプログラムなんだし、
+　ゲームでしかできない事ができてもいいと思うですよ。
+　よりみんなが満足できるなら実装すべきとは思うんですが～。
+　では本題。
+　増加ポイントナシの状態を例に取ると
+　通常状態で、２～５の出る確率を１・６より上げる。
+　１・２が出たら次は３～６の出る確率がそれぞれ微上昇。
+　同様に５・６が出たら次は１～４の出る確率がそれぞれ微上昇。
+　３・４が出たら、１・６の出る確率がそれぞれ微上昇。
+　どんな目でも共通して、同じ目が続けて出る確率が大幅減少。
+　他には、１・２が出るとカード効果の「５０％で」というのが
+　実質「９５％」くらいになったりとか。
+　それだとダイスの意味ねーよ！という考えではなくて
+　１・１や２・１でも狙う価値がある、と捉えられれば。
+
+ダイスチャート
+　同じダイスの組み合わせは出ないとか。
+　ATK-DEF数値の組み合わせは３６通りありますが
+　その組み合わせが、同じ試合中は絶対に巡ってこない、
+　というのはどうでしょうか～。
+　もちろん、７３ターン目以降からはまた同じ目が来ることが
+　あるわけですが。
+　あ、これは個人・チームに対して採用されるものであって
+　対戦相手と共有はしませんよ。
+　共有しちゃったら、
+　自分１・１　相手６・６
+　自分２・１　相手６・５
+　なんてことがあり得るので…
+
+イーブンダイス（？）
+　奇数ターンの最初にダイスを振ると
+　その数値が対戦相手も含めてみんな同じダイス結果となる。
+　１・１が出ても、６・６が出ても、
+　相手も同じ条件になる、という。
+　両者同一目ですね。
+　以前、どなたかが提唱されていたものです。
+
+守るか攻めるか・ダイスバランス
+　ATK6/DEF1
+　ATK5/DEF2
+　ATK4/DEF3
+　ATK3/DEF4
+　ATK2/DEF5
+　ATK1/DEF6
+　以上、いずれかの目しか出ないという。
+　相手はATKもDEFも高い、こちらATK低い
+　という状況では、どうしようもないです。
+　防御カード出されればどんな攻撃でも、
+　悪あがきでもガードされますし。
+　逆に、ATK1でも凌げれば光明が、というシステムです。
+　どうかな～。
+
+
+
+
+
+
+ま～でもこのゲーム、序盤を制した者勝ちみたいな所があるので
+序盤に１とか２が来られるとどうしようもないんですよね～。
+アークズメインなので壁が作れないというのもありますし。
+コスト１を多めに入れろ！って言われても
+設置できずに終わる事が多いです。
+↓の場合、どうしろと。
+
+
+　□□□□□
+　□□□□□
+　□□□□□
+　□□□□□
+　&lt;font color="hotpink"&gt;自&lt;/font&gt;&lt;font color="skyblue"&gt;相&lt;/font&gt;□□□
+
+
+そういえば不思議なんですが…
+どうして飛行を飛行キャラを壁にする事で阻止できないんでしょう？
+できるようにすべき、とは思うんですが…
+む、他にも潜行ってのもありましたね。
+
+
+
+
+
+(o^-')b phantasy star online episode III - trial edition -</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#ffffff">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>
