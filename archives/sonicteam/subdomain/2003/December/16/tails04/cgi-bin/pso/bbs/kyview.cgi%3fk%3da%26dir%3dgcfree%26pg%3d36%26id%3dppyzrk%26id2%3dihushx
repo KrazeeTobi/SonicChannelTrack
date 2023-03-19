@@ -1,0 +1,82 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/36/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">MAKING APPEND NOTE</font>
+<hr>
+<p>
+<table width="100%" border="0">
+<tr bgcolor="#004080"><td width="100%"><strong>元の発言</strong></td>
+<td align="right" width="1%" nowrap> <br></td></tr>
+<tr bgcolor="#004080"><td colspan="2"><strong>冷ややかな目</strong>  <i> 2002/10/31</i>  </td></tr>
+<tr bgcolor="#000040"><td colspan="2">動作自体は問題ないと思います(追加)<BR><BR>また、12MのADSLでも10M以上出ることはまずないので、実効速度<BR>から言っても問題はありません。<BR><BR>PCのLANカードが100BASE対応なら、10/100スイッチングハブにし<BR>たほうが良かったかもしれませんが、それほど気にするような速<BR>度差は出ないと思います。<BR><BR>ただ、交換が可能で、さほど差額がないのなら、スイッチングHUB<BR>にした方が後々良いかもしれません。<BR>-----------------------------------------------------------<BR>ついでですから、追加で説明しておきます。<BR><BR>最も単純なHUBは、入ってきたデータをそのまま、全てのポートに<BR>出力します(いわゆるただの蛸足です)。受ける側はそのデータが自<BR>分宛かを判断して処理します(他の機器宛のデータも届くので選別<BR>する必要があります)。つまり、この間、他の機器はデータの送受<BR>信を待たされることになります。<BR><BR>これでは効率が悪いので、必要なポートだけにデータを送るように<BR>したものがスイッチングHUBです。出力するポートを限定すること<BR>で、他のポートは無駄に待たされることなくデータの送受信が可能<BR>になります。また、通常はバッファを持っているので速度の違いを<BR>吸収することができます。100BASEから10BASEへの転送、その逆も<BR>可能になります。<BR><BR>カスケードポートは、LANの規模が大きくなり、HUBの増設が必要に<BR>なった場合に、HUBからHUBに接続するためのポートです。通常の<BR>ポートを使ってもHUBの増設は可能ですが、この場合はクロスケー<BR>ブルが必要になります。ケーブルの混在は間違いを招きますから、<BR>あらかじめ反転したコネクタを用意しておけば、全て同じケーブル<BR>で結線可能になります。このカスケードポートの信号線の反転をス<BR>イッチ切り替えにしておくことで、通常のポートとしても使用でき<BR>ますから4+1ポートなら5ポートとしても使用可能ということになり<BR>ます。<BR><BR>最後に、8Mと12MのADSLですが、基本的には12Mの方が、遠距離でも<BR>速度は出ます。ですから、欲張って正解だと思いますよ。<BR></td></tr>
+</table>
+</p>
+<p>
+<form action="submit.cgi" method="post" >
+メッセージ ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual">
+</textarea><BR>
+
+<input type="hidden" name="title" value="Re:動作自体は問題ないと思います(追加)">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="pg" value="36">
+<input type="hidden" name="id" value="ppyzrk">
+<input type="hidden" name="id2" value="ihushx">
+<input type="hidden" name="dir" value="gcfree">
+</p>
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+<input type="hidden" name="c" value="APPEND">
+<p>
+<input type="submit" value="APPEND"> 書き込み 
+
+</p>
+</form>

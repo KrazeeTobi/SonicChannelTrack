@@ -1,0 +1,96 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/30/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="gcfree">
+<input type="hidden" name="id" value="yxwwie">
+<input type="hidden" name="id2" value="yxwwie">
+<input type="hidden" name="pg" value="30">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >本日、フレッツISDNよりYahoo_BBへの切り替えが終わり接続設定を行いました。
+トリオモデム12M・corega BAR SW-4P Pro(ブロードバンドルーター）・corega SLW-5L(HUB)。
+ルーターには、ノートPC＆自作PC接続。HUBにはゲーム機を4台接続。
+初回起動時には問題なく接続できていたが、PCを立ち上げルーターのファームウェアを更新した後、IPアドレスの競合が起き、GCの接続時にエラーメッセージが出るようになりました。
+PCのエラー表示を見る限り、他のMACアドレスにPCのIPと同様のアドレスが振られるという問題が起きていることが判りました。
+MACアドレスというのは簡単に言うと、それぞれのBBA(LANポート)固有の名前で、IPは座席と考えて下さい。
+学校の座席と同じで一人に一つ。
+もし、私と同じ症状が起きた場合は、Windows2000もしくはXPの場合、「スタート」⇒「コントロールパネル」⇒「管理ツール」⇒「イベントビューワー」でエラーログをみると、「XX-XX-XX-XX-XX-XX」といったMACアドレスが表示されているとおもいます。
+それがGC等のゲーム機のMACアドレスになります。
+また、もっと簡単に調べるならばBBAをはずして接続面のシールに記載してある12桁の番号を見てください。
+幸い、coregaのルーターには、それぞれのMACアドレスに固有のIPアドレスを指定する事が出来る機能がついていました。
+皆さんがお使いのルーターにも、同様の機能がついているか調べてみて、ついているようでしたら競合は簡単に回避出来るかと思います。
+拙い文章で申し訳ありませんが、ご参考になればと思い書き込みました。</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

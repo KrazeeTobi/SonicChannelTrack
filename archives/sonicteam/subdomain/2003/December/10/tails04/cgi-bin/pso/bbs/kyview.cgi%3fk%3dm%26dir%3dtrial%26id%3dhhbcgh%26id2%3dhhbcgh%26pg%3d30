@@ -1,0 +1,370 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『ファンタシースターオンライン エピソード１＆２』トライアルBBS</title>
+</head>
+<body background="http://tails04.sonicteam.com/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/t/trial/30/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#ffffff">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="trial">
+<input type="hidden" name="id" value="hhbcgh">
+<input type="hidden" name="id2" value="hhbcgh">
+<input type="hidden" name="pg" value="30">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#ffffff">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#ffffff">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >GC版の通信環境についてのFAQです。
+ブロードバンドアダプタが発表されましたが、現在一部仕様が不明です。
+とりあえず現状で解っている範囲のものでまとめてみました。
+
+
+
+&lt;font color=#66ff99&gt;Ｑ：モデムとブロードバンドアダプタとどちらを使えばいいですか？&lt;/font&gt;
+Ａ：以下のケースに分かれます
+
+１．常時接続を使わない　アナログ電話/ISDN&lt;u&gt;&lt;b&gt;(フレッツISDN除く)&lt;/b&gt;&lt;/u&gt;
+→モデムを使用
+　但し、ISDNを使う人で、
+　・既にダイアルアップルーターを持っていて、それを使う場合
+　・他のPCやDCと共有接続する場合（要ダイアルアップルーター）
+　はブロードバンドアダプタを使用する事もあります。
+
+２．常時接続を使う（フレッツISDN/CATV/ADSL/光ファイバー）
+→ブロードバンドアダプタを使う
+　但し、ルーターが必要な場合もあります。
+
+
+
+&lt;font color=#66ff99&gt;Ｑ：DCとは違いますか？&lt;/font&gt;
+Ａ：だいたい同じ
+
+違うのは、GCのブラウザではルーターの設定ができない事くらいでしょう。
+またDC以上の事ができるかもしれませんが、現在その件についてはわかっていません。
+
+
+
+　　&lt;font color=#66ff99&gt;◆常時接続◆&lt;/font&gt;
+
+&lt;font color=#66ff99&gt;Ｑ：私の使ってる回線は使用可能ですか？&lt;/font&gt;
+Ａ：大概は使えると思います。
+
+場合によってルーターが必要だったりと必要機材が変わったりしますが
+一般的な回線なら使用可能だと思います。
+
+まずDC版で使用可能だった場合はまず使えると思いますので、そこから調べてみるのも良いでしょう。
+
+大概は「PSO (使用する回線の種類)」でgoogleで検索すればヒントは得られると思います。
+google(サーチエンジン)
+http://www.google.com
+
+例：「PSO スピードネット」などで検索する
+
+
+例外としては
+・ファイアウォールなどでPSOが使用するポートを塞がれている場合
+　会社や学校の中など、PSOで使用する通信を通さない環境もあります。
+　DCの場合ですと、ネットワーク管理者に
+　「ドリームキャストのPSOは使えますか？」
+　「UDPポートの40975・41231・41487・41743でインターネットと通信できますか？」
+　と訪ねてみてダメだったら（恐らくは）使用不可能です。
+
+・基地局から遠いADSLや携帯電話系の通信を使っていて回線が不安定な場合
+　回線が安定している人はOKでも、その人の家の場所次第では不安定になる。
+　さすがにこの場合は無理な場合もあります。
+
+※参考
+ブロードバンドアダプタ検証報告
+http://www.sega.co.jp/psolink/psobba.html
+NATを経由するネットワークでのPSO Ver2のUDP設定について
+http://www.sega.co.jp/bba/psonat.html
+
+
+
+&lt;font color=#66ff99&gt;Ｑ：ブロードバンドアダプタだけで常時接続は可能ですか？&lt;/font&gt;
+Ａ：場合によってはルーターが必要となります。
+
+8/28現在GCのブロードバンドアダプタ＆GC版PSOの通信仕様がわからないため詳細は不明ですが、現在解っているのは以下の通りです。
+
+※ルーター必須
+フレッツISDN（ダイアルアップルーターが必要です）
+
+※ルーター不要
+ルーター機能付きADSLモデム/CATVモデムを使っている場合
+ADSLモデム/CATVモデム自体に接続機能が付いている場合(Yahoo-BBなど)
+
+※現在不明（GC版の通信仕様が不明なため）
+フレッツADSLなどPPPoE方式を使用したADSL/光ファイバーで接続する場合
+
+
+詳細はソニックチームや任天堂の発表、また各通信業者/プロバイダなどの状況次第というところです。
+
+GCの為だけに常時接続をするならいざ知らず、PCやDCと同時に動かそうとすればどのみちルーターは必要になってきます。
+
+
+
+&lt;font color=#66ff99&gt;Ｑ：ルーターは何を買えばいいんですか？&lt;/font&gt;
+Ａ：まずはこちらをチェック
+
+智ねっとさん
+http://www.botan.sakura.ne.jp/~tomo/
+から
+
+→ 家庭用ゲーム機でLAN(フレッツISDN/ADSLにも対応？)
+ゲーム機LAN:フレッツADSLでのDC版PSO可能ルーターList
+のショートカット。
+
+
+こちらの一覧を見て、勧められている機種から選びましょう。
+
+過去実績がある機種ならば、トラブルがあっても誰かが教えてくれる可能性もある分安心できます。
+
+ネットワークの問題は、トラブルが起きたら、その解決が非常に大変だと言うこと。
+自力でトラブル解決の自信がある人以外は、過去実績のある機種を選ぶと良いと思います。
+
+
+
+&lt;font color=#66ff99&gt;Ｑ：ルーターの設定はどうすればいいですか？&lt;/font&gt;
+Ａ：GCだけでは不可能です。
+
+GCになって新たに発生する問題がこれです。
+
+最近のルーターは割と常識的にブラウザによる設定変更が可能ですが、GCのブラウザはGC公式ページ以外のアクセスができないようになっているため、ルーターの設定ページにも飛ぶことができません。
+＃ソニックチームのＱ／Ａより、製品版でも変更されないと推測。
+
+ですので、ルーターの設定には他のPC等が必要になります。
+
+ブラウザ設定が可能なルーターならばパソコン以外にもBbA付きのDCでも可能です。
+しかし一部ルーターは設定に必ずPCが必要な物もありますので注意しましょう。
+
+
+
+&lt;font color=#66ff99&gt;Ｑ：どうしてもルーターが必要ですか？
+　　ルーターを使わない方法があると聞きましたが…&lt;/font&gt;
+Ａ：パソコンで代用が可能です…が色々と面倒です。
+
+Windows98SE以降のパソコンやLinuxなどでパソコンにルーターの機能を持たせる事ができます。
+Windows98SE以降では「ネットワークの共有」って言われている機能です。
+
+この辺も、前述の智ねっとさんに詳しい資料がありますので、手順などはそちらを参考にすると良いでしょう。
+
+但し、必然的に勉強する量が増えます。
+
+ルーターの場合、ルーター買ってきてその設定だけすればOKですが、パソコンで代用させようとすると、そのパソコン自身の設定も必要になります。
+
+ネットワークやパソコンに詳しい人ならいざ知らず、一から勉強するとなるとかなりの負担です。
+
+パソコンやネットワークの知識・技量に自信が無い場合は、あまりお勧めはしません。
+
+
+
+&lt;font color=#66ff99&gt;Ｑ：モデムで常時接続は可能ですか？&lt;/font&gt;
+Ａ：不可能ではありませんが…色々と面倒です。
+
+トライアルで実績がある方法ですが
+
+・CR-2000の様なモデムブリッジを使う
+・PCを使ってRASサーバーを立てる
+　├WindowsNT/2000/XPを使う方法。
+　├Windows98/MeとWinRootLite(市販ソフト)を使う方法
+　└MacOS9.xもしくはApple Remote Accessサーバ3.0がインストール
+　　されたPCを使う方法
+という方法を使って、モデムをLANに接続する方法があります。
+
+現在ではこの中で
+・CR-2000の様なモデムブリッジを使う
+・PCを使ってRASサーバーを立てる(WindowsNT/2000/XPを使う方法)
+
+で、ほとんど問題ない動作が確認されています。
+
+・PCを使ってRASサーバーを立てる
+　├Windows98/MeとWinRootLite(市販ソフト)を使う方法
+　└MacOS9.xもしくはApple Remote Accessサーバ3.0がインストール
+　　されたPCを使う方法ではラグが発生する等の問題もあります。
+
+WinRootLiteを使う方法では上手くいく場合と行かない場合があるようで
+問題点があまりハッキリしていないようです。
+
+Macを使う方法では今のところ
+
+&lt;b&gt;&lt;font color=#ffff66&gt;安全・確実が保証された訳ではありません。&lt;/font&gt;&lt;/b&gt;
+
+
+また、当然&lt;b&gt;&lt;font color=#ffff66&gt;メーカー保証外の事なので、&lt;/font&gt;&lt;/b&gt;
+一切の問題は自力で解決する事となります。
+まさに&lt;b&gt;&lt;font color=#ffff66&gt;泣き寝入り不可の修羅道&lt;/font&gt;&lt;/b&gt;であると
+覚悟して踏み込んでください。
+
+
+参考サイト
+
+智ねっと
+　http://www.botan.sakura.ne.jp/~tomo/
+
+　特に「家庭用ゲーム機でLAN(フレッツISDN/ADSLにも対応？)」のショートカットから
+　「DCを無理やりLANに参加させる 改め 家庭用ゲーム機を無理やりLANに参加させる」
+　のページへ行き、その中の「構成例ごとの説明」の所から自分にあったケースを
+　探すのが一番適切でしょう。
+
+へんまっくのモリ
+　http://member.nifty.ne.jp/takuchan/
+
+
+
+
+　　&lt;font color=#66ff99&gt;◆常時接続以外◆&lt;/font&gt;
+
+
+&lt;font color=#66ff99&gt;Ｑ：テレホーダイは可能ですか？&lt;/font&gt;
+Ａ：普通はできるけど、プロバイダによって不可能です。
+
+ISAOのTELコミチケットコースなどのような、通常外の市外局番を使うものは不可能です。
+
+プロバイダのアクセス番号が03などの通常の市外局番を使う物ならテレホーダイは可能です。
+#もちろん市内または隣接20kmまでという制限は付きますが。
+
+
+テレホーダイについての案内とよくある問い合わせ(NTT東日本)
+　http://www.ntt-east.co.jp/shop/annai/th/th-k.html
+
+
+
+&lt;font color=#66ff99&gt;Ｑ：ADSLやCATV加入だがテレホーダイは可能ですか？&lt;/font&gt;
+Ａ：常時接続と別料金になりますが可能です。
+　　特別な理由がない限り、（必要な場合ルーター）＋ブロードバンドアダプタを使用して常時接続する方法がお勧めです。
+
+
+
+&lt;font color=#66ff99&gt;Ｑ：マイラインでNTT以外の電話会社を使っていますが大丈夫ですか？&lt;/font&gt;
+Ａ：アナログ電話ならモデム使用で問題ありません。
+
+
+
+&lt;font color=#66ff99&gt;Ｑ：ＩＰ電話（ヤフーのＢＢフォンなど）は使えますか？&lt;/font&gt;
+Ａ：モデムは使用不可です。
+　　というより必然的にブロードバンド回線が使えるはずなので、ブロードバンドアダプタを使用する方法を取ってください。
+
+
+
+　　&lt;font color=#66ff99&gt;◆ISDN関係◆&lt;/font&gt;
+　　常時接続/共有接続などのケースが多いために別枠で。
+　　内容的に他との重複もあります。
+
+&lt;font color=#66ff99&gt;Ｑ：ISDN加入だがどうやって繋ぎますか？&lt;/font&gt;
+Ａ：以下の順番で決定します。
+
+１．フレッツISDNで常時接続を行う
+→ブロードバンドアダプタ＋ダイアルアップルーターを使用
+
+２．他のPCやDCと&lt;b&gt;共有接続&lt;/b&gt;を行う
+→ブロードバンドアダプタ＋ダイアルアップルーターを使用
+
+３．DSU内蔵TAを使用する
+→モデムを使用
+
+４．フレッツISDNも、他の他のPCやDCと共有接続も行わないがダイアルアップルーターを使用している
+→ブロードバンドアダプタ・モデムのどちらでもいい
+
+
+
+&lt;font color=#66ff99&gt;Ｑ：上記でダイアルアップルーターを使用と書いてありますが、TAしか持っていません&lt;/font&gt;
+Ａ：ダイアルアップルーターを購入することになります。
+
+以前はＴＡに追加する事でダイアルアップルーターと同等の機能を持たせるナローバンド用ＩＰルーターもあったんですが、現在は販売終了しているようです。
+
+
+
+&lt;font color=#66ff99&gt;Ｑ：ISDN加入ですがモデム接続は可能ですか？&lt;/font&gt;
+Ａ：可能です。但しISDNテレホーダイはアナログのダイアルに対してでも値段が違います。
+
+この場合フレッツISDNの常時接続サービスは受けられません。
+常時接続とは別に電話料金を支払うことになります。
+
+
+
+&lt;font color=#66ff99&gt;Ｑ：フレッツISDN加入ですがモデム接続は可能ですか？&lt;/font&gt;
+Ａ：常時接続と別料金になりますが可能です。
+　　ID設定などが違うので注意が必要です。
+　　特別な理由がない限り、ダイアルアップルーター＋ブロードバンドアダプタを使用して常時接続する方法がお勧めです。
+
+
+
+&lt;font color=#66ff99&gt;Ｑ：TA使用でPCとGCの同時接続は絶対に不可能ですか？&lt;/font&gt;
+Ａ：２倍の電話＆プロバイダ料金を払うならば可能です。
+
+　　ISDNは２回線分の通信が可能ですので、確かに２台までなら同時接続は可能です。
+　　必然的に両方の分の電話料金とプロバイダ料金が必要になります。
+　　一般的にはダイアルアップルーター＋ブロードバンドアダプタを使用して共有接続する方法がお勧めです。
+　　これですと電話料金・プロバイダ料金は１つ分で済みます。
+
+
+
+最終更新8/30
+</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#ffffff">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

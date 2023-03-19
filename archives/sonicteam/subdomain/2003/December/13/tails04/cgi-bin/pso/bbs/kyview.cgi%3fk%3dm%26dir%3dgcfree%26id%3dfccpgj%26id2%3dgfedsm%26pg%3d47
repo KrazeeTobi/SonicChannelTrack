@@ -1,0 +1,110 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/47/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="gcfree">
+<input type="hidden" name="id" value="fccpgj">
+<input type="hidden" name="id2" value="gfedsm">
+<input type="hidden" name="pg" value="47">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >私は「YES」だと思います。
+
+第一に、現行版ディスクは「不良品」ではないからです。
+全てのユーザーが取扱説明書に従い、正しく使用した場合、問題は生じないはずです。
+またADSLの不具合に関しては、全てのネット環境に体して動作を保証できない旨、明記されてあります。
+さらに、今回の交換によって改善されます。
+第二に、全てのユーザーが被った「被害」＝「精神的苦痛」は、
+ソニックチームより発生した物ではなく、直接の原因は
+誤った方法で使用したプレイヤーによるものだからです。
+一部のユーザーが被った「通信障害」に関しては、
+意図できない理由でのサービス中断に当たり、
+全てのオンラインユーザーは、オンライン接続する度に、
+ゲーム内のメッセージにてその旨、了解、合意しているはずです。
+
+おそらく未熟者様は、今回の事で大きな精神的苦痛を被った事と思います。
+私とて、不安な思いをしましたし、些細なバグが、
+「作品のクオリティを下げた」事に対しては、非常に残念に思います。
+しかしながら、その精神的苦痛というものは非常に個人差のあるものですし、
+今回は、全てのユーザーが同様の被害にあっていながら、
+私を含め、修正版を歓迎する方、またソニックチームを応援する方が少なくないのですから、
+一通りの「会社としての義務」を果たしたと言えるのではないでしょうか。
+どんなに優れた製品でも、全てのユーザーを満足させる事はできないのです。
+
+今回の書込みは、未熟者様の問いかけに１ユーザーとして、考え方を述べたに過ぎず、
+未熟者様ならびに同様のお考えの方に、意見のひとつとして
+読んで頂ければ幸いと投稿したものですので、討論するつもりはありません。
+従ってレスをつけて頂いてもそれに対して返信できかねますので、ご了承ください。</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

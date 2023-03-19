@@ -1,0 +1,154 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/34/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="gcfree">
+<input type="hidden" name="id" value="tlrjcm">
+<input type="hidden" name="id2" value="rqxunl">
+<input type="hidden" name="pg" value="34">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >どっかのコピぺですが
+■■パソコン＆ネットワーク技術の中～上級者向き情報■■
+
+このページの内容は、正直パソコン＆ネットワーク技術の
+中～上級者でないと手に負えません。
+
+そのため、要点しか書きませんし、あまり親切でもありません。
+
+◆パソコンをルーターとして使う場合◆
+
+98SE以降のWindowsでは「ネットワークの共有」という機能で、
+パソコンをルーターとして使うことができます。
+また、MacやLinuxでも同様の機能が可能な物があります。
+
+これを使ってパソコンにルーターの働きをさせることができます。
+
+TAを接続したパソコン＝TA＋ルーター＝ダイアルアップルーター
+ADSLモデムを接続したパソコン＝ルーター内蔵ADSLモデム
+…というように置き換えができます。
+
+ただ、設定の面倒さ、安定性の面や消費電力・騒音の問題もあるので、
+積極的にお勧めはしません。
+
+◆モデムを使った常時接続◆
+
+基本的に
+
+GCブロードバンドアダプタを
+・GCモデム－(電話ケーブル)－電話中継器－(電話ケーブル)－モデム＋パソコン
+または
+・GCモデム－(電話ケーブル)－CR2000
+で置き換える形になります。
+
+注：電話中継器には内線機能付きのTAなどが使われます。
+
+BbAが発売されていなかったトライアルで実績がある方法です。
+9/12～10/2までのGCBbA発売まで、モデムを使って接続するが
+既にある常時接続を使用したい人に応用が可能だと思われます。
+
+
+・CR-2000の様なモデムブリッジを使う
+・PCを使ってRASサーバーを立てる
+　├WindowsNT/2000/XPを使う方法。
+　├Windows98/MeとWinRootLite(市販ソフト)を使う方法
+　└MacOS9.xもしくはApple Remote Accessサーバ3.0がインストール
+　　されたPCを使う方法
+で、モデムをLANに接続する方法があります。
+
+現在ではこの中で
+・CR-2000の様なモデムブリッジを使う
+・PCを使ってRASサーバーを立てる(WindowsNT/2000/XPを使う方法)
+
+で、ほとんど問題ない動作が確認されています。
+
+
+・PCを使ってRASサーバーを立てる
+　├Windows98/MeとWinRootLite(市販ソフト)を使う方法
+　└MacOS9.xもしくはApple Remote Accessサーバ3.0がインストール
+　　されたPCを使う方法
+　　ではラグが発生する等の問題もあります。
+
+
+WinRootLiteを使う方法では上手くいく場合と行かない場合があるようで
+問題点があまりハッキリしていないようです。
+Macを使う方法では今のところ
+安全・確実が保証された訳ではありません。
+
+また、どの方法をとるにしろメーカー保証外の事なので、
+一切の問題は自力で解決する事となります。
+まさに泣き寝入り不可の修羅道であると
+覚悟して踏み込んでください。</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>
