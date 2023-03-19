@@ -1,0 +1,132 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/45/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="gcfree">
+<input type="hidden" name="id" value="mmspkh">
+<input type="hidden" name="id2" value="mmspkh">
+<input type="hidden" name="pg" value="45">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >みなさまはじめまして
+
+先日の新クエストついかで
+みなさん頼みまれているものと思います。
+
+さて、私は最近チャレンジを始めまして
+近頃はすっきりチャレンジにはまっています。
+
+現在チャレンジロビーが12-6に設置されている訳ですが、
+そこで行われているチャレンジは
+殆どの人がマップや仕掛けを覚えていて
+クリアを目指すという事しかされていないと思います。
+すなわち、チャレンジの折角の様々なトラップを
+みんなで解いていくという楽しみは
+そこでは、楽しむ事が出来ません。
+
+私はコースを覚えている訳でないので
+結局、誰かについて進んでいくと、誰かが謎をといて
+何がなんだか分からない内にクリアという事にしかならず、
+折角のチャレンジの様々な謎を悩みながら解いていくという
+楽しみは全く感じませんでした。
+現状では、残念ながら初心者部屋を作り、
+入って来られた方に初心者だという事を伝えても、
+やはりただついて行くというだけになってしまいます。
+
+その様な楽しみ方を否定する訳ではありませんが、
+私のようにチャレンジの様々な謎をみんなで解いてクリアを目指す
+という事をやりたい人も少なからず居られるのではないでしょうか？
+また、GCからチャレをやり始めた人などは
+現チャレロビには近づきにくいのではないでしょうか？
+
+そこで、チャレンジロビーの分割を提案しようと思います。
+具体的には
+
+現チャレロビは（12-6)は中級者以上
+（マップや仕掛けを覚えている）人用
+（クリア時間重視？）
+
+とし、
+
+新チャレロビは初心者用（マップや仕掛けは覚えてない人）用
+（クリア時間は特に重視しない）
+
+という風にしたいと思っています。
+
+新チャレロビは12-7辺りに設置したいと思っています。
+
+これについて、皆さんの意見をお聞かせ願います。
+</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

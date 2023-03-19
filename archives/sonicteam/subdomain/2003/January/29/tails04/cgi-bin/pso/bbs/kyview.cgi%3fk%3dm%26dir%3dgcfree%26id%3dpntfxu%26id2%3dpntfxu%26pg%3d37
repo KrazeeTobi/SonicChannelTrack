@@ -1,0 +1,110 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/37/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="gcfree">
+<input type="hidden" name="id" value="pntfxu">
+<input type="hidden" name="id2" value="pntfxu">
+<input type="hidden" name="pg" value="37">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >ＢＢＡと言うより、ＬＡＮやＡＤＳＬやＴＣＰ／ＩＰの基礎知識なんですけどね。
+つながらなくて質問される方もできればこのくらいは理解していてくれてると、ありがたいなぁ、と思い、書き連ねてみました。
+
+あくまで基礎知識なんで、「これを読めば接続できる」というものではないことをお断りしておきます。
+
+どこかのツリーに便乗するのもちょっと微妙な内容ですので、親発させてもらいます。
+最近はつながらない質問もかなり減ってきたのであまり有益ではないかもしれませんね。
+質問が減ってきたのも、各種接続情報を報告してくれる方々と、それををまとめてくださっている方々のおかげですね。ありがとうございます。
+
+また、ゲームキューブでしかここに来れない方は他のＷＥＢサイトなどを見に行けないので、参照できる情報も少ないわけで、ここに書いておくのも有用かなと。
+
+ＡＤＳＬを前提に書いてありますが、大枠の基礎知識としてはＣＡＴＶも大差ありません。
+参考にはなると思います。しかし細かい差やＣＡＴＶ独特の注意点などもあります。
+
+特殊なケースはできるだけ省いたつもりです。
+簡単になるように努力しましたが、難しいと思う人にとってはやっぱり難しいかな。
+
+機器の種類や環境によって「ここはこれを使え」「ここはこう設定しろ」と断定できない個所がかなりあります。ですから、質問される方も自分のわかる範囲でできるだけ詳しく環境や機器名などを書いてくださると、返答もしやするなると思います。
+
+機器に依存するようなところは、同じ接続形態の方がいらっしゃれば「ここはこうすればよい」と返答してくださるかもしれません。
+
+間違いの指摘や補足ありましたら書き込みよろしくお願いします。
+
+転載可です。（転載したくなる方などは、いないと思いますが）
+以下の私の書き込みを、勝手に持っていって勝手に加筆修正して、別の場所に持っていっての公開ＯＫです。
+
+では</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

@@ -1,0 +1,219 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=Shift_JIS">
+<meta name="description" content="">
+<style type="text/css"><!--
+
+    div,p,tr,td,a{font-size:9pt;text-decoration:none;}
+    input,textarea,select{background-color: #FFEEEE; color: #0033CC; border: 1 solid #33CCFF;}
+    input.button{background-color: #33CCFF; color: #FCFCFC; border: 3 double;}
+    input.noborder{background-color: #FCFCFC; color: #33CCFF; border: 0;}
+    A:active{text-decoration:none; color:#000000;}
+    A:HOVER{color:#FF9933;}
+    hr{color: #33CCFF;}
+
+
+--></style>
+<title>ＣＨＡＯ ＢＢＳ</title>
+</head>
+
+
+<BODY BACKGROUND="/bbs/img/chao_bg_new.gif" bgcolor="#eeffff" TEXT="#003399" link="#0000CC" Vlink="#9966CC">
+<font size=2>
+
+<DIV ALIGN="center">
+<P>
+<TABLE BORDER="0" WIDTH="100%" BORDERCOLOR="#00CCFF" BGCOLOR="#00CCFF" CELLSPACING="0" CELLPADDING="4">
+<TD ALIGN=RIGHT>
+<a href="/cgi-bin/bbs/main.cgi?Lang=ja&Book=chao_ja&Mode=NewForm"><IMG SRC="/bbs/img/icon_new.gif" BORDER="0">新しく発言をつくる</a>
+<a href="/bbs/chao_ja/index.html"><IMG SRC="/bbs/img/icon_chao.gif" BORDER=0>ＣＨＡＯ ＢＢＳ</a>
+</TD>
+</TABLE>
+</DIV>
+
+<P>
+
+<font size="+2" color="#0055FF">けた落ち(2/6)</font><br>
+
+<table width="100%">
+<tr><td nowrap>
+</font></td></tr></table>
+
+<DIV ALIGN="center">
+
+<TABLE BORDER="0" WIDTH="100%" BORDERCOLOR="#00CCFF" BGCOLOR="#00CCFF" CELLSPACING="0">
+<TR>
+<TD BGCOLOR="#00CCFF">
+<FONT SIZE=2 COLOR="#FFFFFF">
+<STRONG>dove</STRONG>
+ID:000043
+2003/02/06 23:57:09
+</TD>
+
+<TD><FONT COLOR="#FFFFFF" SIZE=2>
+<DIV ALIGN="RIGHT">
+<a href="/cgi-bin/bbs/main.cgi?Lang=ja&Book=chao_ja&Mode=ResForm&Parent=000227-49-000007">
+<IMG SRC="/bbs/img/icon_re.gif" BORDER=0> 返事を書く   </a>
+
+<a href="/cgi-bin/bbs/main.cgi?Lang=ja&Book=chao_ja&Mode=RevForm&Parent=000227-49-000007">
+<IMG SRC="/bbs/img/icon_note.gif" BORDER=0> 発言の修正   </a>
+
+
+<IMG SRC="/bbs/img/icon_home.gif" BORDER=0> ホームぺージ
+
+</DIV>
+</TD>
+<br>
+</font>
+</td>
+</tr>
+
+<tr>
+<TD BGCOLOR="#FCFCFC" COLSPAN=2>
+<TABLE BORDER=0 WIDTH="100%" CELLSPACING="0" CELLPADDING="4">
+<TR>
+<TD WIDTH=50>
+<IMG SRC="/bbs/img/_none.gif" ALIGN="LEFT">
+</TD>
+<TD>
+<FONT SIZE=2 color="#000000">
+おおむね私信(2003/02/01 19:06:39)<br>
+<br>
+アビリティランクが下がっているチャオがいたりして、それはそれで反応したくなるのですが、初期値や「前提」になっているロジックがよく分からないので、手の出しようが無かったり。<br>
+読み返してこないと。<br>
+<br>
+で、あれからどう先に進めていくかを少し考えているわけですが、とりあえず思い付くネタは、<br>
+<br>
+・スタミナとその倍率分岐点（というか半減開始値）<br>
+・転生後<br>
+・交配<br>
+<br>
+の３つ。どれにしましょうか。<br>
+もちろん、以前に忠告されたとおり、続行困難だと思ったら中断しますけど。<br>
+<br>
+----<br>
+付け足し。<br>
+私信などやるべきではないと、分かってはいましたが、ほかに方法が無いのでそうしました。こんなことで突然メールを送るのもぶしつけな感じだし。<br>
+<br>
+<br>
+――――――――<br>
+ヨタ(2003/02/03 01:13:49)<br>
+<br>
+講義と試験が全て終わったので、あとはのんびり資格試験の勉強。だから、ひと段落ついた、とは言えそうです。<br>
+<br>
+で、スタミナについて調べるという方向は固まりましたが、<br>
+<br>
+&gt; 成長にバラつきのある初期チャオでの検証<br>
+<br>
+については、チャオファイルを増やしすぎて、これ以上は保存できないという物理的な問題があって、手を出しにくいです。<br>
+<br>
+前回の調査でタイプ進化させた４体のチャオを１つのガーデンにまとめれば、その分だけ空きができるので、移転作業中のチャオの老化を気にしなくなったら、そうするかも知れません。<br>
+<br>
+メールは。「そうなんかなぁ」と問われたら、「そうなんです」と答えておこうかなと。そんな理由でやり取りした経験が無いから、というだけなんですが。<br>
+<br>
+<br>
+――――――――<br>
+サブ問題(2003/02/03 13:53:08)<br>
+<br>
+あまり手広くやると収拾がつかなくなりそうなので、小さく切り分けながらやっていきたいところ。<br>
+<br>
+さて、スタミナですが、とりあえずは、<br>
+<br>
+(1)実を10個完食させてＶＭで計測(１個あたりの増加量の割り出し)<br>
+(2)(1)を複数回繰り返す（結果の一意性の有無を確認）<br>
+(3)１段階ごとの増加量の計測と割り出し<br>
+<br>
+といった流れでやろうかと思います。<br>
+<br>
+(2)の補足ですが、これは私が、<br>
+<br>
+&gt; 連続で食べると無効の時もある<br>
+<br>
+という現象を確認していないため。これが確認されなければ、一意性ありという結論を出せるし、反対に確認されれば、どういう理屈でそうなるのかを考えていくことになるでしょう。<br>
+<br>
+これまでがそうであったように、実用性の無さについては気にしていません。この辺は別に機会があれば、まとめて語ってみようかと。<br>
+<br>
+実の話ですけど、木の実意外は食べさせたことが無い上に、関連するログの内容を記憶していないので、例によって手出しができなかったりします。<br>
+<br>
+そもそも、「○△□の実」も「種になる実」も、どんな効果があるのか全然分からないという、最悪に無知な状態でして。<br>
+<br>
+「種になる実」に関しては、属性によって好き嫌いがあるということが攻略本に書かれていたりしますが、所詮は「パーフェクトガイド」なので、信じていいものかどうか。<br>
+<br>
+そんなわけで、今のところは、<br>
+<br>
+・ガーデンの木の実<br>
+・種になる実<br>
+・○△□の実<br>
+<br>
+のうち、ガーデンの木の実だけに絞っておくつもりです。<br>
+<br>
+今はまだ「のんびり」なんて言っていますが、そのうち修羅場になるでしょう。それまでの小休止、ということで。<br>
+<br>
+<br>
+――――――――<br>
+けた落ち(2/6)<br>
+<br>
+タイトル修正。馬鹿馬鹿しいにも程がある。<br>
+<br>
+ここで書ききれないことなんかを、URL先でまとめてみる予定。もっとも、ここだけで十分なように書いていきますけど。<br>
+<br>
+<br>
+で、本題ですが、<br>
+<br>
+（１）一次進化前のチャオに木の実を10個与える<br>
+（２）ＶＭで計測<br>
+<br>
+という手順を、途中一次進化をはさみながら繰り返したところ、次の結果を得ました。初期値は15。<br>
+<br>
+（左から木の実の総数、ＶＭ表示、増加量）<br>
+　10　　 63　　[+48]<br>
+　20　　105　　[+42]<br>
+　30　　129　　[+24]<br>
+　40　　153　　[+24]<br>
+　50　　177　　[+24]<br>
+　（ここで一次進化）<br>
+　60　　185　　[+8]<br>
+　70　　193　　[+8]<br>
+　80　　201　　[+8]<br>
+<br>
+1個あたりの変化量については次回に回しますが、記述の難しい結果になりました。<br>
+<br>
+1回目の10個で48増加しているので、1個辺り4.8で正しいのであれば、「完食で5」という話は、一応保障されたことになるでしょうか。<br>
+<br>
+2回目と3回目で、それぞれ42と24の増加があったことを、これまでの慣例に当てはめると、<br>
+<br>
+　63から105の範囲に倍率分岐点がある<br>
+<br>
+ということになります。この辺は再調査します。<br>
+<br>
+問題なのは、一次進化以降の増加量であって、直前の5回目のそれと比べると、1/3になっています。単純に大人になったからなのか、別の理由があるのか、もう少し調べて明確にしたいところです。<br>
+<br>
+少なくとも私見では、それほど複雑なものが仕込まれているようには感じられなかったのですが、前回も引用した、<br>
+<br>
+&gt; 連続で食べると無効の時もある<br>
+<br>
+という一節がどうしても引っかかるので、妙にきれいな結果が出てくると、かえって不気味な思いがします。<br>
+<br>
+なので、これがどういう内容の報告であったのかを教えていただけると、個人的に救われます。
+</FONT>
+</TD>
+</TABLE>
+</TD>
+</TABLE>
+
+
+<P>
+
+<TABLE BORDER="0" WIDTH="100%" BORDERCOLOR="#00CCFF" BGCOLOR="#00CCFF" CELLPADDING="4" CELLSPACING="0">
+<TR>
+<TD>
+<FONT SIZE=2 COLOR="#FFFFFF">
+<a href="/bbs/chao_ja/index.html"><IMG SRC="/bbs/img/icon_chao.gif" BORDER=0>ＣＨＡＯ ＢＢＳ</a>
+<small>新規発言を反映させるにはＲトリガーで表示されるメニューの中から、『再読み込み』を選んでＡボタンを押してください。
+</small>
+</font>
+</TD>
+</TABLE>
+
+</body>
+</html>

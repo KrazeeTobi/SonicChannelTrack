@@ -1,0 +1,116 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/18/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="gcfree">
+<input type="hidden" name="id" value="uwjpjb">
+<input type="hidden" name="id2" value="uwjpjb">
+<input type="hidden" name="pg" value="18">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >アマゾンに３日前予約したら、今日郵送したとの知らせを受けて
+舞い上がっております（＝＾＾＝）BBA待ちの人はどれだけこの
+日の来るのを夢みていたのでしょうね。
+
+さてBBA入手前に、あなたの回線は大丈夫ですか？　BBAが対応する
+回線タイプは ADSL / ケーブルテレビ / FTTH です。またルーター
+ごとに対応しているかどうか、事前にプロバイダに確認されておくと
+よろしいでしょう。ソニックチームのHPにBBA検証報告がありますので
+参考までにご覧ください。
+
+http://www.sega.co.jp/psolink/psobba.html
+
+また接続に関するトラブルシューティングなどは智ねっとさんのHPに
+色々と詳しく書かれていますので、こちらもご参考になさって下さい。
+各社ADSL/FTTHモデム、認証方式のページはぜひ見ておいた方が...。
+
+http://botan.sakura.ne.jp/~tomo/
+（BGMと猫の絵が可愛いです～）
+
+各社プロバイダ側もBBAへの対応を意識してか、新しいバージョンの
+ファームウェアを用意している所があります。（私の契約しているAKKA
+も新しいファームウェアが出ました...矢のような催促メールを送って
+しまい申し訳ありませぬ～...でもPPPOE対応も考慮するそうですよ）
+
+BBAとルーター接続の準備はできましたか？　ハブが必要なら相性の
+良さそうなハブを探さないと（＾＾）
+
+http://www.kojima.net/
+http://www.yodobashi.com/
+http://www.sofmap.com/shop/default.asp
+http://shop.tsukumo.co.jp/top.jsp
+
+さあ皆さんで愉しいオンライン生活を満喫しませう～（＝＾。＾＝）♪</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

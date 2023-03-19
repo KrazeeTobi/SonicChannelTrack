@@ -1,0 +1,165 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/37/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="gcfree">
+<input type="hidden" name="id" value="qbztln">
+<input type="hidden" name="id2" value="pntfxu">
+<input type="hidden" name="pg" value="37">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >ＡＤＳＬモデム＋ブロードバンドルーター接続形態
+
+１）
+ＡＤＳＬ業者／プロバイダー
+　｜
+ＮＴＴ
+　｜
+　｜
+家庭の壁のモジュラージャック
+　｜
+スプリッター（もう一方の口は電話機などに接続）
+　｜
+ＡＤＳＬモデム（ルーター機能なし）
+　｜
+ブロードバンドルーター
+　｜
+ハブ
+　｜
+パソコンやゲームキューブなどの機器　複数台
+
+機能を全部分離するとこれが基本形態。
+この形態の場合、ＰＰＰｏＥの認証を行なうのはブロードバンドルーター（以下ルーター）になります。
+
+ルーターは設定が必要です。特殊な場合を除いてパソコンは必須です。
+ＰＰＰｏＥの認証の設定をしなければなりません。また、セキュリティやゲーム用の通信の設定が必要な場合もあります。
+
+パソコンでしたら、「フレッツ接続ツール」などは使用しません。
+ゲームキューブ（ＰＳＯ）でしたら通信の設定内の「ＰＰＰｏＥを使用しない」です。
+
+ほとんどのルーターはＤＨＣＰ機能を持っています。
+パソコンやゲームキューブは「ＤＨＣＰを使用して自動設定する」ように設定してください。
+
+ＤＨＣＰ機能をもっていないルーターでしたら取扱説明書にしたがって手入力することになります。
+
+前節の用語の中の「ルーター」の説明で「ＬＡＮは市外通話できないもの」と説明してます。
+この形態は、ルーターが「市外通話できるところ」につながっていて、ハブにつながった機器（ゲームキューブなど）はルーター経由で市外通話しているようなイメージです。
+
+
+以下の２）３）４）は上記１）とまったく同等です。
+接続ケーブルなどについては例のごとく機器によって違う場合がありますので、取り扱い説明書などで確認していただくしかありません。
+
+２）
+ＡＤＳＬモデム（ルーター機能あり）
+　｜
+ハブ
+　｜
+パソコンやゲームキューブなどの機器　複数台
+
+
+３）
+ＡＤＳＬモデム（ルーター機能なし）
+　｜
+ブロードバンドルーター（ハブ付き）
+　｜
+パソコンやゲームキューブなどの機器　複数台
+
+
+４）
+ＡＤＳＬモデム（ルーター機能あり・ハブ付き）って製品あるのかな？
+　｜
+パソコンやゲームキューブなどの機器　複数台
+
+
+以下の５）６）も可能ですが、もったいないのでお薦めしません。
+
+５）
+ＡＤＳＬモデム（ルーター機能なし）
+　｜
+ブロードバンドルーター
+　｜
+パソコンやゲームキューブなどの機器　１台のみ
+
+
+６）
+ＡＤＳＬモデム（ルーター機能あり）
+　｜
+パソコンやゲームキューブなどの機器　１台のみ
+
+この６）は注意が必要です。物理的結線は前節のＡＤＳＬモデム直結形態」と同じです。
+しかし、ＡＤＳＬモデムがルーター機能を有していますので、この節の形態となります。
+古くはこの形態しかサポートしていなかったプロバイダーや接続業者もあります。
+</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

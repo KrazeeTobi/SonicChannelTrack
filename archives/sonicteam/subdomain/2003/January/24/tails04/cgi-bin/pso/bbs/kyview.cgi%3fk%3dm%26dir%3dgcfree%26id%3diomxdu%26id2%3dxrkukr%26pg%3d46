@@ -1,0 +1,123 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/46/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="gcfree">
+<input type="hidden" name="id" value="iomxdu">
+<input type="hidden" name="id2" value="xrkukr">
+<input type="hidden" name="pg" value="46">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >こずえ様、こんにちは。
+はじめまして、さりあと申します。
+
+肖像権や著作権の侵害についてですが、商業目的に
+使われると問題になるケースが殆どで、個人で楽しむ
+分で問題になることはないです。
+問題になるケースとしては、例えば、偽ブランド品の
+製造・販売なんかは明らかに商業目的であり、民法上の
+権利侵害はもとより、刑法でも詐欺罪にあたります。
+また、ゲーム業界で、わりと最近あったものでは、
+とあるゲームメーカーが野球ゲームで野球連盟から訴え
+られましたけど、選手の実名を使っている上、肖像権の
+独占（これは最初に野球連盟のほうがOKを出したのですが）
+によって、他のメーカーが同種のゲームに参入できない
+状況に陥ったために訴訟になったんです。
+
+ちょっと横道それましたけど、話戻しますね。
+PSOにおいてのなりきりキャラって、誰が見ても
+本物と見分けがつかないほどそっくりにできる
+なんてことは、パーツがある程度決まっている以上
+まず、ないでしょう。
+要は、問題になるとすればなりきりになったのが原因で
+商業上で問題になったり、元ネタの名誉が公然の場で著しく
+傷つけられた場合でしょうか。
+噛み砕いて言えば、PSOで作ったなりきりキャラが
+元ネタと酷似しており、元ネタのゲームと間違って購入
+した方が出たり、元ネタのほうの売上が著しく減少した
+などが起こったときでしょう。
+まぁ、まずないとは思いますけどね。
+逆にその元ネタへの「愛」だからこそなりきりをする
+んじゃないでしょうか？
+もしこれでNG出されたら、いわゆるコスプレやる方とか
+さえも取り締まられることになりますからねぇ…
+
+私自身の持ちキャラも、とあるゲームのキャラから
+とってまして、（たまに同名のキャラお使いの方も
+見かけます）それで問題になったこともありません。
+
+法律家でもなんでもない私が言うのは筋違いとは
+思いますが、気になったので書かせて頂きました。</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

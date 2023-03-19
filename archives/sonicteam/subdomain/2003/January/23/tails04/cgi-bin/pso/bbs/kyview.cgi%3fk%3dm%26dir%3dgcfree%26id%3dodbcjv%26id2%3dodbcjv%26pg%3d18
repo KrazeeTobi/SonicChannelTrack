@@ -1,0 +1,124 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/18/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="gcfree">
+<input type="hidden" name="id" value="odbcjv">
+<input type="hidden" name="id2" value="odbcjv">
+<input type="hidden" name="pg" value="18">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >BbA発売記念企画！ノーマルで潜ろう!
+◇◆◇Noble Normal◇◆◇
+
+BbA発売を記念してイベントの御案内です。
+
+・BbA発売までPSO購入を控えていた方。
+・BbA購入後繋いでみたけどノーマル部屋の少なさに愕然とされた方。 
+・BbA発売まで本格的に育てるのを控えていたら乗遅れてしまった方。
+・ノーマルで潜っていた頃のあのワクワク感をもう一度という方
+・そろそろ2nd、3rd以降の育成を考えてる方。
+・せっかくだから俺は赤の扉を選ぶぜという方。
+
+ノーマル部屋ロビーを作って潜りませんか？
+（単発企画なので定住というつもりはないですが(汗）
+
+【場所(予定)】4-6-15 （よろしく行こう！）
+（既に他団体が使用されていた場合変更あり）
+【日時】 10/5(土)23：50～
+
+＜簡単なルール(案)＞
+・パーティバランスを崩しかねないアイテムやマグの持込は原則禁止。
+・希望の冒険場所はマーカーで意思表示
+&lt;案１&gt;
+緑：まったくの初心者
+青：森、洞窟
+黄：坑道、遺跡
+赤：Ep2
+
+＜案２＞
+緑：初心者もしくはサポートして欲しい（若葉マークの緑）
+青：どこでもＯＫ（セーフティーの青）
+黄：おしゃべりしながら（黄色い声でｗ）
+赤：デンジャラスに潜りたいバランス的に厳しくてもＯＫ
+（デッドリーな赤）
+
+・ずんずん教、瞬殺君は御遠慮ください。
+・ギルカ交換やチャット目的の来訪でも構いませんが
+困っている人がいたら積極的に助けてあげてください。
+
+
+他にも御意見などあったらお願いします。</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

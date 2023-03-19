@@ -1,0 +1,136 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/8/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="gcfree">
+<input type="hidden" name="id" value="glirlv">
+<input type="hidden" name="id2" value="amuomy">
+<input type="hidden" name="pg" value="8">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >悪意ある側の発想から考えれば(↓レス追加)
+
+仮定として
+・キャラLv
+・クリア進度
+が保持され
+・アイテム
+・マテリアル強化分
+がリセットされるとします。
+
+
+ならば悪意基準で考えればどうするか？
+
+そのディスク交換の日までに、不正に複製された
+強力な武器をなんとしても手に入れ、最終難易度の
+最終ボスを倒し、本来以上のペースでLvを上げ、
+「残される結果」を極力引き上げるようにするでしょう。
+
+リセットされる前に、残される部分を何としても
+上げなければならない。
+そのための手段を問うている暇もない。
+
+ならば、それまでの間は不正をしてでもLvを上げた方が
+利益が大きいじゃないか。
+
+こういう考え方ができます。
+
+正直、何かが残せるならば、それを残すための手段として
+今まで以上に不正を行う人が増えるでしょう。
+
+
+そうして引き上げられたキャラLvやクリア進度は
+正しいものだと言い切れるでしょうか？
+
+
+今度こそ…と作られた新サーバー。
+そこに「あなた移行前に不正やってない？」なんて疑いを
+引きずりたいとは思いません。
+
+
+（追加）
+神代舞さんがフォローされている通りです。
+どうもありがとうございます。
+
+
+少々バレっぽくなりますが…
+
+実は今回の報を聞くまさに直前。1stキャラからマグと武器を
+移動しただけのキャラ(Lv1)を初めて…
+Ep1Normalのラスボスを倒し、Lv18に上がるまで僅か3時間強です。
+
+これをもし不正コピーして配ったら？
+このクリア進度やLvは正当なもの？となるわけです。</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

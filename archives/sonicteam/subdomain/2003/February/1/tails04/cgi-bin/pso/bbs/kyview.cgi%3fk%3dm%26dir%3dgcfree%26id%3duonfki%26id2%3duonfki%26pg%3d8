@@ -1,0 +1,143 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/8/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="gcfree">
+<input type="hidden" name="id" value="uonfki">
+<input type="hidden" name="id2" value="uonfki">
+<input type="hidden" name="pg" value="8">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >みなさん、こんにちは。ソニックチームの中です。
+
+もう既に知っている人も多いと思いますが、先日発売したニンテンドーゲームキューブ版『ファンタシースター
+オンライン　エピソード1&2』に不具合が発見されました。
+これまで、このソフトの発売を心待ちにしてくださっていたファンのみなさんには、その気持ちに水をかけてしまう
+ようなことになってしまい、本当に申し訳なく思っています。
+この場をお借りして、PSOシリーズのファンのみなさん、それから今回のソフトを買ってくださったみなさんに改めて
+お詫びいたします。
+
+さて、先日今回の件に関して、SEGAおよびソニックチームより今後の対応についての発表を行いました。
+しかし、少々言葉足らずな点があったせいでいまだにみなさんにご心配をおかけしてしまっているようですので、
+少し補足させていただきたいと思います。
+
+実は、修正版の制作には既に着手しています。おそらくどこかのタイミングで何らかのかたちで世の中に出すこと
+になると思います。
+
+しかし、わがままだと思いますが少しお時間をください。それは、こうなった以上、前回以上にチェックを厳しくかつ
+時間をかけてやる必要があると思うからです。
+また、修正版を制作するうえで、最適な仕様も決定しなくてはなりません。サーバーの切り分けだとか、セーブデータ
+の引継ぎはどうするのかとか、挙げれば枚挙にいとまがありません。
+今のところ、これからどんなに急いでもみなさんのお手元に修正版をお届けできるまでにはおそらく最低でも2ヶ月
+程度はかかってしまうのではないかと思います。
+したがって、大変申し訳ないのですが、もう少し今の状態でのプレイをみなさんにお願いしなくてはなりません。
+ですから、先日はあのような内容の発表をさせていただきました。
+
+　それから、今回僕が今現在修正版について考えていることと、みなさんへのお願いを少し書きます。
+
+まず、今回修正版を作っても、全てのソフトが修正版に切り替わる可能性は非常に低いということです。
+それは、今回の不具合を悪用しようとしているユーザーにとって今度の修正版が都合のいいものではないからです。
+彼らにとってはアイテムを簡単に増殖でき、かつネットでそれをばらまける現在の仕様の方が都合がいいのです。
+ですから、僕はまず今度の修正版については(1)完全に別サーバーで運営すること、それから(2)現行バージョンから
+セーブデータを引き継げなくすること、この二点は必須だと考えています。
+
+また、当然世の中には今回の件を知らないユーザーのみなさんも大勢いらっしゃるわけです。ですから旧サーバー
+（=現サーバー）には今回の不具合を悪用しようとしているユーザーと、逆に何にも知らないユーザーが混在する
+可能性があります。しかも、それは外見からは全く見分けがつきません。
+このような現象を根本から解決するためには、修正版を出したあとは現行バージョンでのサーバーアクセスを停止して
+しまう方法しかありません。
+ですが、何の責任もない善良なユーザーを排除してしまうようなこのような強引なやり方だけはやりたくありません。
+
+ですから、ここでみなさんにお願いがあります。
+それは、上記の通り修正版を出すまでにどうしても時間が空いてしまうのですが、それまでの間、現サーバー上にレア
+アイテムを持っているプレイヤーがいても何の確証もなしに今回の不具合を悪用したと決め付けるような行為・言動
+だけは避けてください、ということです。中には本当に運良くレアアイテムを見つけた方もいらっしゃるのです。
+もちろん、僕自身はPSOユーザーの方々の中にはそういう悪意を持った人はいないと信じています。
+
+　とにかく、一刻も早く修正版を出すことが出来るようにがんばります。それまでは、サーバー側で対応できることや、
+運用面での暫定ルールの設定など、できる限りの対処はしていきたいと思いますので、それまでもう少しお待ちください。
+新しい情報については随時追加発表していきます。
+
+
+最後に．．．
+ユーザーのみなさんひとりひとりが他のプレイヤーに思いやりを持ってプレイしていただいて、
+PSOのネットワークコミュニティが素晴らしいものになっていくことを強く願っています。
+今後とも『ファンタシースターオンライン』シリーズをよろしくお願い申し上げます。
+
+
+2002年9月20日
+株式会社 ソニックチーム
+代表取締役社長　中 裕司</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>
