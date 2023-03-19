@@ -1,0 +1,111 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/12/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="gcfree">
+<input type="hidden" name="id" value="flbtui">
+<input type="hidden" name="id2" value="dtwesv">
+<input type="hidden" name="pg" value="12">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >↑どうも長々と分かり辛い意見につきあって頂いてありがとうございました。ｍ(_ _)ｍ
+
+ー原文３ー
+（汗
+話それましたか？(＾＾；
+とりあえず修正版出す、サーバー分けるとゆうことに対しては異議は無いです。
+ただソニチの提示した「最低２ヶ月」の間に、ユーザー側も何かできないかなと思っただけです。
+こんな言い合いを、２ヶ月も続くと思うと疲れるし、ストレスにもなります。
+だったらその言い合う力を、実行する形でユーザー間交流、治安の維持に、ユーザーなりの力で維持、存続できないものかなと思った次第です。
+
+
+ー原文２ー　
+↑追加に対して（修正
+みんなの心、アイテムに対してやはり少なからず「疑う心」があるとゆうことですね。
+
+ー原文ー
+信用保証に対して（追加修正）
+公式でもソニチ、中さんから方向性が明確不明確問わず提示されているのに関わらず騒ぎたてるのもどうかと。
+
+それに騒ぎが不安を増長している中、治安の安定も何もありません。
+確かに今回のバグはソニチのミスです。許される事ではありません。それに伴い公式見解もありました。
+ですがユーザー側は、そんな公式に認めた上で対処しようとするソニチに対して要望するだけしか出来ないのでしょうか？
+
+それこそ方向性を示しつつ、中さんのいった
+＞それまでの間、現サーバー上にレアアイテムを持っているプレイヤーがいても何の確証もなしに今回の不具合を悪用したと決め付けるような行為・言動だけは避けてください、ということです。中には本当に運良くレアアイテムを見つけた方もいらっしゃるのです。
+もちろん、僕自身はPSOユーザーの方々の中にはそういう悪意を持った人はいないと信じています。
+
+この言葉を理解していない、読んでいないことになります。</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

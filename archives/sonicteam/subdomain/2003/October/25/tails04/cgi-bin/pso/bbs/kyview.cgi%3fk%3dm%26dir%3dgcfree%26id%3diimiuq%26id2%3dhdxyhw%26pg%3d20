@@ -1,0 +1,166 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/20/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="gcfree">
+<input type="hidden" name="id" value="iimiuq">
+<input type="hidden" name="id2" value="hdxyhw">
+<input type="hidden" name="pg" value="20">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >[追加2]ルータのログからポートの使用状況を推測
+
+# ポート番号はGCPSO発売前からDreamDirectにありました
+# GCPSO公式サポートページにも書いてあります
+http://www.sonicteam.com/psogc/pc/faq_n_bba.html
+
+以下、単なる推測であることに注意
+
+TCP:9000-10000
+PSOサーバのこれらのポート宛に接続します
+ブロックやロビーの番号でポートが変わるようです
+これらに向けての発信を制限するとゲームできないでしょう
+
+尚、ゲーム中はこれらポートでPSOサーバと通信します
+
+UDP:40975,41231,41487,41743
+ロビーでは使いません
+シティ以降で、参加者全員が「UDPを使用する(以下UDP ON)」で使用
+参加者の１人でも「UDPを使わない(以下UDP OFF)」だと使いません
+
+UDP ONは、DC版と同じく
+・モデム：UDP自動、使用する
+・ＢＢＡ：UDP使用する
+の模様
+
+部屋に入った順番で、若いポート番号を使い、参加者同士で通信します
+
+TCPが一回ごとに返事を待つのに対して、UDPは返事を必要としない＆
+PSOサーバを中継に使わないので、通信コストが低減します
+
+余談
+PPPoEなモデム直結での動作不良はブラックホールにはまってるのかも
+ちょっち実験してみよう
+
+で、実験してみましたが、見当はずれなので伏せます
+
+&lt;font color=black&gt;
+
+PPPoEサーバは、一から勉強しないといけないので、面倒なので
+
+CATV-(A)ルータ(B)-GC　の(A)のMTUを変化させました
+
+MTU=72まで落としたのですが(少々動きがもたつきましたが)支障無し
+PCの方は、ページが見れない等の症状が、ちゃんと、出ました
+
+さらに、pingも
+「ping hogehoge -f -l 44」でOK
+「ping hogehoge -f -l 45」でNG　を確認
+
+GC版PSOは自分でMTUのチェックしてたりするのかな？
+もしかすると、MTU変更不可のルータでも、DC版と違って大丈夫かも
+
+と言うわけで、やはりブラックホールに引っかかったとか(^_^;
+http://www.google.com/search?&q=%83u%83%89%83b%83N%83z%81%5B%83%8B+MTU
+
+「ping www.isao.net -f -l 1426」やってみて
+「Packet needs to be fragmented but DF set.」
+「Request timed out.」
+が出たら、当たりかも
+
+こっそり追加２
+GC版PSOは接続時にSACKと言う機能を有効にしています
+コレのおかげで、破損したパケットを指摘できます
+この機能によってMTU問題はパスしてそう
+
+ブラックホールにはまる危険性は否定し切れませんけどね
+&lt;/font&gt;
+
+と思ったけれど、何時間も大丈夫で急に落ちたって話もあるし
+同じ条件でも、落ちる場合と落ちない場合があるようだし
+
+「外来性のノイズによるADSLの通信の乱れ」の線が濃厚かな
+ルータを使うと、通信相手はルータになるので
+
+直結の場合の
+「突然リンク途絶でADSLモデムが沈黙－＞GCがパニック」
+が
+「突然リンク途絶でADSLモデムが沈黙－＞ルータはじっと待つ」
+「ルータ-GC間の通信は正常なので、PSOは単なる切断になる」
+って感じかな？
+
+と、言っている間にソニチが動いたようです
+期待しましょう</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

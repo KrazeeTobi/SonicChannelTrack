@@ -1,0 +1,124 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/5/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="gcfree">
+<input type="hidden" name="id" value="oijhii">
+<input type="hidden" name="id2" value="vvxpng">
+<input type="hidden" name="pg" value="5">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >初投稿になります。
+以後、お見知り置きを。
+上でADSLとBフレッツの違いが説明されてますがPSOで遊ぶときに回線の種類によっての快適さで知って置いても損は無い情報をｗ
+
+まず最初にADSLとISDN(眼中には無いと言ってはいますが)の比較です。
+この二つの共通点は電話回線を媒体として通信伝達を行うですが決定的な違いがあります。
+それはデジタルで通信するかアナログで通信するかです。
+この違いのよって何が変わるかというと、
+デジタル通信の方はNTTまでの通信時に回線損失が無いと言っても過言ではありません。
+アナログ通信の方は距離によって大きく速度が左右されるということでわかるでしょうが通信時に大量の回線損失が出てしまいます。
+これはどういうことかというと、インターネットの通信はパケットと呼ばれるデータの集合体でデータのやりとりをしています。
+一度に送れるデータは設定にもよりますが1460バイトとなっております。
+ここで多少の知識がある人はMTUの最大値は1500バイトだから1500バイトじゃないの？って思われるかもしれませんが、MTUの大きさというのは送信するデータに加えて送信したデータをどのIPからどのIPへ送り、どのプロセスへ持っていくかというデータを含んでいるからです。
+よってMTUのサイズというのは1460バイト+パケットの情報(40バイト)ということになります。
+ちょっと話がそれてしまいましたが回線損失の大きいADSLでは接続時に確立された速度で送信してしまうと回線損失が起こってパケットが無くなってしまう場合があるのです。
+無くなってしまったパケットはどうなるの？と思われるかもしれませんがちゃんと再送信される仕組みになっているので相手にデータが届かないという事はありませんので。
+しかし、再送信することで同じデータを二回以上送るということになるので通信速度に影響が出ます。
+また、NTTに届いてもパケットの中身がビットの反転により正しくないときのためにエラー訂正を行う機能が備わっています。
+これは通信帯域の一部を使って送信されるため速度が落ちてしまうのが難点でした。
+そのエラー訂正を無くして通信速度を上げようというのが8Mコースです。
+これはエラー訂正を送らない代わりに一度に大量のデータ通信が行えるのでより高速になりました。
+しかしエラー訂正を送らないのでとうぜん回線品質の良くない、つまり距離が長い回線には1.5Mより速度が落ちる可能性があります。
+このアナログ通信の欠点はメールやHPを使う分には影響はありませんがゲームとなると話が違ってきます。
+オンラインゲームというのはラグという物が存在します。
+これはサーバーから同時にデータが送信されても受信側へ届く、もしくはクライアント(PSO)からサーバーに届く時間が違うために時間差が生まれてしまうことです。
+これが生じてしまうと回復が間に合わなかったりして冒険で死者が出てしまう場合があります。
+よって、PSOでの快適さを求めるのならばISDNを選ぶことになります。
+では、光ファイバーを使った通信はどうだということですが。
+光ファイバーは光を使って通信をします。
+光の速度というのは１秒間に地球を7週半できる速度ですので、NTTの収容局に届く時間が0に近いです。
+また、光ファイバーの材質というのはもし、地球の海が光ファイバーのガラス繊維ならば3000メートルの底が肉眼で確認出来るだろうと言われるほどクリアなのです。
+よって、伝達速度は早く、回線損失は無い最高の環境と言えます。
+当然光で通信する仕組みなのでADSLや電話のようにノイズによる通信のとぎれというのがありません。
+
+かなりの長文となりましたが私の言いたいことはPSOをやる時の快適さなら
+光(CATV含む)&gt;ISDN&gt;ADSL1.5M&gt;ADSL8Mという等号式が理論的には成り立つということです。
+
+もし、光ファイバーとADSLという選択肢でお金を惜しまないのなら光をお勧めします。
+高すぎてADSLとISDNしか選択肢が無いという場合、HPを見たりメールをするときに時間が多少かかってもいいという方はISDNにしたほうが快適にプレイ出来ます。
+
+以上、PSOをプレイする時にあまり関係ない長文でした</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>
