@@ -1,0 +1,119 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/26/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="gcfree">
+<input type="hidden" name="id" value="sjxvid">
+<input type="hidden" name="id2" value="opwxxi">
+<input type="hidden" name="pg" value="26">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >修正修正
+＝＝
+まあ、世の中にはいろいろ考える人がいます。
+
+全部クロス案を出した人もいると思います。
+それより、ストレートの方が楽だと考えた経緯を想像してしまってw
+
+この場合は、歴史はあまり必要ないかと思ったものですが…
+
+混乱させてしまったのならお詫びします。
+＝＝元の文章＝＝
+文献はちょっと…
+話を膨らませるために脚色している所もあります。
+それは、素直に認めます。
+
+間違い無く言えることは以下の事実です。
+「ケーブルはストレートで作ったほうが楽である!」
+
+
+技術的なことになりますが、
+「ハブやルータ」
+はプリント基板を使って製造することになります。
+最初に基板を作った人が間違えなければ、後は、機械が自動で製造してくれます。
+作り間違えによる製造不良は無いと思います。
+
+しかし、ケーブルは職人さんが1本づづ色をみながら接続することでしょう。
+作り間違える部分を無くすことは&lt;font color=#FFFF66&gt;工学的には正しい戦略です&lt;/font&gt;
+
+これまでLANを使う人は専門家が多かったわけですが、そうでない人も増えてきました。
+難しい事を知らなくても済むシステム設計も必要でしょう。
+ケーブルのクロスのストレートの自動判別も増えて来るかもしれません。
+
+＝＝
+文献は答えられないと言いましたが、私は情報関係の仕事しています。
+全くの想像ではないと考えてます。
+</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

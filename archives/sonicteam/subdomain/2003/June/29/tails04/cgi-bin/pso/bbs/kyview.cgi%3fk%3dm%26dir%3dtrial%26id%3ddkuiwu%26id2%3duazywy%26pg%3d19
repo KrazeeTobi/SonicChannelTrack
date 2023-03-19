@@ -1,0 +1,192 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『ファンタシースターオンライン エピソード１＆２』トライアルBBS</title>
+</head>
+<body background="http://tails04.sonicteam.com/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/t/trial/19/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#ffffff">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="trial">
+<input type="hidden" name="id" value="dkuiwu">
+<input type="hidden" name="id2" value="uazywy">
+<input type="hidden" name="pg" value="19">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#ffffff">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#ffffff">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >ランク毎に特色を変えるとか
+
+発言数多くなっちゃうけど、最新から２ページ前って事でご容赦を。
+
+
+とりあえずバーニングなどの攻撃系に限定で。
+吸収/回復系とか麻痺/即死などの特殊系はとりあえず除外します。
+
+
+今は絶対的にヒート&lt;ファイア&lt;フレイム&lt;バーニングですけど。
+これを「特色から変える」って発想でやってみるとどうかなーと。
+
+※以下バランス関係のシミュレートはしてないんで、数値は
+　いい加減…って事で。
+
+
+・ヒート
+命中率＝ノーマルとヘビーの中間くらい
+ともかく「属性攻撃が当たるだけ」に近い。
+一応攻撃力が上がれば威力も上がるが、ダメージにリミッターが
+あり、最大でも敵HPの5～10%ダメージ程度(弱点属性に当てての話)
+または、その当時妥当そうなレベルのニューマンフォースのフォイエの
+約1/8の威力程度。
+
+基本的に「0ダメージの危険性がある人には使える」の位置づけ。
+
+
+
+・ファイア
+命中率＝ヘビーと同じ
+基本の威力が上がりリミッターも上昇。
+敵HPの10%～15%程度のダメージも与えられる。
+または、その当時妥当そうなレベルのニューマンフォースのフォイエの
+約1/4の威力程度。
+
+これも「当ててもどうせダメージなんか期待できないよ」って
+キャラ向け。
+ヒートよりは戦力になる。
+どのみちハンターのようにN-H-Hの１コンボ即死が当然なキャラには無縁。
+
+
+
+・フレイム
+命中率＝現在のExと同じか僅かにそれより低い
+リミッター上限は最大で敵HPの25%程度まで上がる。
+または、その当時妥当そうなレベルのニューマンフォースのフォイエの
+約1/2の威力程度。
+
+威力重視には違いないけどここまでくると命中率が問題。
+そろそろレンジャー専用の色が濃くなる。
+
+
+・バーニング
+命中率＝現在のExより明らかに低い
+一撃の威力は敵HPの50%にものぼる事があるが、代償として
+命中時にマグのPBゲージを20%使用する。
+マグのPBゲージが足りない場合は、ファイア程度の威力しかない。
+（命中率はバーニングのまま）
+
+「とっておきの一発」扱い。
+事実上レンジャー専用に近くなる。
+
+バーサークはまだレスタなりシティ往復でメイト補給…などで
+連発することが可能だけど、PBゲージ使用だとホントに時間しか
+ない。
+「じゃ、PBクリエイトで待っては進む退屈な進軍？」
+その気だったらフレイムの方が全然使える。
+
+20%の根拠はPBクリエイト*4で効率良く進むとマイラのシフデバが
+切れる前に再度かけられる＝４分前後で100%＝１分弱に１発程度
+うてる…あたりで妥当かなと。
+
+
+こんな感じかなぁと。
+
+
+こうすると位置づけは
+
+※ハンター
+最初からExなぞ使わない。
+どう足掻いてもヘビーアタックが強い。
+0の恐怖がある時にヒートかファイアがあれば十分かと。
+
+
+※レンジャー
+Normal序盤ではヒートやファイアが。
+後にフレイムあたりが嬉しくなってくる。
+vs馬のような強敵でとっておきのバーニングを決めるのって
+レンジャーならでは!!って形になるかと。
+
+
+※フォース
+ヒート・ファイアあたりがTP節約に使えるが、フレイムあたりだと
+３段目を打ち込まねば当たらなくなる関係で、「そこまでするなら
+テクニック使うよ」って方が割と健全な発想かと。
+
+
+
+こんなスタイルになるように、最終的には命中率や威力などを
+調整するという方向を提案って事で。
+
+
+（追加）
+ロボハンターはその単純さがウリの一つと考えてはいます＾＾
+一応はダメージ０対策であり、また麻痺などの特殊系もあるので
+バリエーションを出すこと自体は可能だと思います。
+
+ただ初級者の動きから中級者の動きになるまでの段差が
+かなり大きいってのはあるでしょう。</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#ffffff">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

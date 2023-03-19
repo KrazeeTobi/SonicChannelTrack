@@ -1,0 +1,119 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/60/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="gcfree">
+<input type="hidden" name="id" value="aqautx">
+<input type="hidden" name="id2" value="tzosrp">
+<input type="hidden" name="pg" value="60">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >初めましてぇ。
+
+まずはご愁傷様でした。
+
+実を言うと、あやさんが問題にしていることは別にＧＣ版だけに限った昨日今日の話ではないんです。
+ゲームシステムが似通っているのでＤＣ・ＰＣ版も同様の問題もあります。
+
+うち自身、低レベルでのアイテム移動を行わないようにしているため
+（パーティプレイを楽しむため強すぎるキャラは作らないように心がけています）
+当然よく似たことは何度と無く経験しています。
+
+結局うちは、自分自身で移動無しチームを作っちゃいました。（ＰＣ版のときのお話）
+
+
+－－－－－軽く余談
+昔、ＤＣ版で「アイテム移動屋さん」ってのをしていたことがあります。
+ＤＣ版（ＰＣ版でもそうですが）自分の別キャラにアイテム移動をする際
+一人では不可能だったんです。（オフのマルチモードが無かったですからね）
+でもって、こういうのがあればいいな～と思い運営していたのですが
+うち自身が同様の被害（？）を受けてしまい、
+
+「うち自身がこの問題を助長させているのでは！？」
+
+って思い始め、やめちゃいました。
+－－－－－余談終了
+
+うちとご一緒にどうですか？とも思ったのですが
+おそらくそちらはＶ１．０だと思いますので、ご一緒することは出来そうにありません。
+ですので、どこかのチームに加わるのが一番簡単な対策の様に思います。
+
+ではでは、がんばってくださいな～。（もしそちらがＶ１．１でしたらご一緒しましょ！）
+
+
+Ｐ．Ｓ．
+やっぱりうちもＤＣ・ＰＣ・ＧＣ版で同様のことを体験していますが
+気のせいか理解してくれない人がＧＣには多いような気がします。</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

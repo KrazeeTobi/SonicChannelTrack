@@ -1,0 +1,112 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/11/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="gcfree">
+<input type="hidden" name="id" value="wwthwy">
+<input type="hidden" name="id2" value="wwthwy">
+<input type="hidden" name="pg" value="11">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >びぃびぃえぃ発売を待ちながらせこせこと一人オフやマルチ等を楽しんでいた者です。
+私の所持しているＧＣ版ＰＳＯ、掲示板を閲覧していて、
+其れに書き込まれている仕様と食い違う点がややアリマシテ。
+その為か、単にやり方が間違っているのかw、
+件のバグを利用した裏技も実験してみたンですが、成功しません。
+また、近くにＧＣ版ＰＳＯを持つ友人等も居ないので、今回の件の実感が掴めません。(爆
+～と　云った、非常に客観的な視点で見ざるを得ない有り様(寧ろ９割部外者)の私の観点から見た今回の件の解釈が事実と一致しているかどうか、確認させて頂けないか、と。(￣▽￣;
+
+～以下現状解釈～
+１・ソフトにバグが発覚。そのバグは現在運用されているシップ全域に影響する程致命的なもの
+２・バグの問題を取り除いたソフトが新たに造られることが決定
+３・現行のシップは隔離され、新たなサーバが別に用意される
+４・そのバグはプレイヤーが故意に利用しなければ効果を為さないものである
+５・現行のシップに残る者も
+
+～以下妄想(読み飛ばして下さいませ)～
+６・この隔離で離ればなれになってしまう家族・恋人・友人が出来るする筈
+７・再び再会を果たすことを目指し努力する、現行版に残った人々
+８・アカウント停止・ソフト回収等で、一つ、一つと減っていくバグの根源
+９・長い月日が経たれ、遂に解放される隔離地区
+１１・この日、この瞬間は、ＰＳＯの世界で永く語り継がれ(以下略
+
+だ、駄文(並びに長文)失礼しました(汗
+一度妄想が始ると止まらなくなってしまいまして・・
+今でも
+「バグ悪用ユーザー報告等を多くしていたキャラを装って(名前が微妙に違ったり)修正版へ行くことに成功したバグ悪用者」や
+「暫く隔離シップで頑張ってきたが引退し、修正版に乗り換えた隠居ハンター」
+等が次々と脳内で生まれ、ヨモヤ長編小説が書けそうな勢いです(←不謹慎
+ぁぁ・・話が可成りそれているΣ(￣▽￣;</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

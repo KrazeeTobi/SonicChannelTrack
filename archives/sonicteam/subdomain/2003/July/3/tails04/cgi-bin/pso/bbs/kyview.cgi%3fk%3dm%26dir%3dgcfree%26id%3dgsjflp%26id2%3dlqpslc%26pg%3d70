@@ -1,0 +1,147 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/70/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="gcfree">
+<input type="hidden" name="id" value="gsjflp">
+<input type="hidden" name="id2" value="lqpslc">
+<input type="hidden" name="pg" value="70">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >[便乗]CATVでPSOをする場合の注意事項
+
+＜ペコさんへ＞
+J-COMは、一部、接続で引っかかる可能性があるので下記に注意事項を
+個人的にはルータ導入しちゃった方が楽と思いますが
+
+オンラインゲーム　楽しんで下さいね
+
+ついでに、CATVでの一般的な注意事項も便乗させていただきます
+＜／ペコさんへ＞
+
+
+PSOをオンラインモードで遊ぶには、普通はBBAが必須です
+# 普通じゃない方法は割愛
+
+CATVでモデム直結の場合、基本はパソコンと同じです
+
+・DHCPで接続するように指定されているならDHCP
+・特定のIPアドレスが割り当てられているなら、それを設定
+・DNSアドレスが指定されているならそれを設定
+という風に設定します
+
+DHCPで設定する多くの局は何も必要ありませんが、
+例えば、J-COM@NetHomeはDHCPホスト名(=コンピュータ名)が必要です
+# 最近になって必要ない方向に移行しているそうです
+# 従って、局によってはDHCPホスト名は必要ないでしょう
+# 旧タイタス系の局で駄目な場合、一度、モデムの電源を切りましょう
+
+DHCPでIPアドレスが設定されるケーブル局の場合は、
+PCで使っていると、多くの場合IPアドレスを解放する必要があります
+# IP解放＝局から貸し出されているIPアドレスを局に返還する
+
+以下はZAQのサポートページのものですが、基本的にどこでも同じです
+http://www.zaq-net.com/setup/no6/troubl.html#07
+この操作が必要かどうかも含めて、自分の局で確認しましょう
+
+繋ぐ機器を変更すると、特別な操作・手続きが必要な場合があります
+例えば、モデムのリセット(数分間電源断の場合も)
+MACアドレスの登録、ケーブル局への届け出等です
+複数台同時に接続する場合は、手続きが必要な場合があります
+
+# モデムの電源断は指示されない限り行わない方が無難です
+# モデムの電源断は必要性を確認してから行いましょう
+
+尚、固定でIPアドレス等が指定されている場合はそれに従って下さい
+※注　同じIPアドレスの機器(PCとGC等)は同時に接続できません
+
+詳しくは、ケーブル局に問い合わせましょう
+
+GC版PSOのページのサポートに一部ですが動作確認情報が出ています
+http://www.sonicteam.com/psogc/pc/manual_net.html
+
+参考に、DC版BbAの実績なら、DC版BbAの販売サイトにあります
+http://www3.csi-msp.com/bbsite/web/faq/opconf_index.html
+ここで自分の局を探してみて下さい
+# 現在、BBSのサーバが落ちてる見たいですが
+
+グローバルIPアドレスであれば、基本的にUDP ONでも大丈夫です
+
+ルータを使用する場合は、ルータを設定しない場合は初期値のままで
+
+尚、
+基本的にプライベートIPアドレスが割り当てられるケーブル局の場合は
+ルータを設定しても初期値「UDP自動(=OFF)」のままです</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

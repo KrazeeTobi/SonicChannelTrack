@@ -1,0 +1,111 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『ファンタシースターオンライン エピソード１＆２』トライアルBBS</title>
+</head>
+<body background="http://tails04.sonicteam.com/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/t/trial/14/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#ffffff">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="trial">
+<input type="hidden" name="id" value="vpsjex">
+<input type="hidden" name="id2" value="zgxrxg">
+<input type="hidden" name="pg" value="14">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#ffffff">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#ffffff">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >チャレンジロビーは別に初心者のためだけのロビーではない。
+そんなことはPSOにそれなりの時間を費やした人なら多かれ少なかれ
+誰でも見聞きして知っていること。
+熟練者から全くのビギナーまでが入り交じる混沌の場において
+自ら「初心者」を主張できない人間は、そこからはじきとばされて当然。
+それは現実の社会でも同じ。初心者レベルの人がそこまでしないと
+楽しめないとはどうかと、なんていう議論はそれこそ初心者の傲慢てやつ。
+
+国際法に「不同意の意思を示し続けないのであればそれは同意と見なされる」
+という原則があるが、この手の問題を考える当たって非常に示唆深いね。
+
+ちなみに、GC版での個人的な話
+・チョイスを「チャレンジするぞ」に設定していた。
+・お呼びが掛かったが、まず「RAmでもかまわない」旨を確認。
+・次に「自分が相当の熟練者であり、未知を楽しみたいのであれば
+辞退させていただく」ことを告げる。
+・先方の了解をもって参加。
+ここまでしていましたが何か？
+
+いずれにしても元発言者達に対して我慢ならないのは、「初心者」
+の人達をも単純に一般化して引いては馬鹿にしていることだ。
+
+・全くの初心者だったが、ついていくチャレに同意。
+　　　　↓
+・ベテラン達の洗練された動きに衝撃を受け、いつか彼らのように
+なりたくて努力を続け、チャレにはまっていった。
+
+そういう人達を何人も目にしてきたが、それは嘘だったと言いたいのかね。</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#ffffff">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>
