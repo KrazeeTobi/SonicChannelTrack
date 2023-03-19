@@ -1,0 +1,110 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/40/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="gcfree">
+<input type="hidden" name="id" value="zfipoo">
+<input type="hidden" name="id2" value="oruvsw">
+<input type="hidden" name="pg" value="40">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >追加（ネタ。Gガン嫌いやどうでもいい人は見ないが吉）。
+■マグ無敵で「これが俺のスーパーモード！」
+■他人が無敵状態になったときに「あいつ(名前が入ることもあり)も遂に、自分のハイパーモードを会得したようだな」
+■切れたときに「お、俺のスーパーモードが……！」
+
+■レイマー、ヒューマー、フォニュームにマシンガンを装備させ、「こんな奴らなど、足一本で十分！」と言ってテク。
+
+■HP吸収攻撃に対し「俺のエネルギーを吸収している!?」(チトうろ覚え)
+
+■ヤミ○ラス装備時に「愛と怒りと悲しみの！(以下略)」。振るときには「面！　突き！　胴ッ！」(コンボを使わずに一段目を連発して「面！　面！　めぇぇぇん！」のバリエーションもあり)
+
+□Wセイバー系で「シュトゥルム・ウント・ドランクゥ！」と言うのもありますが……。
+
+■PBコンボを発動する前、打ち合わせで「あれをやるか」という人。
+■続けて「はい、師匠！」と言ってしまう人。
+
+■チャレなどで敵を誘導し「これぞ、ハメルンの笛吹作戦！」
+
+■「約束のピザだ！」「俺は黄金の指！」「ネオドイツの女」「地球がリングだ」「無理の一言ォ！」などのチーム名は定番（？）。
+
+■話に納得したとき（させたとき）「それはまさに」という話の流れで「いわば地球の一部！」
+
+■人やEP1ラスボス、花などが笑うと、「何がおかしい！」「笑うなキョウジ！」「貴様のせいで母は死に父は冷凍刑！」「おまけに俺はこのザマだ！」(長)
+（いまなら、EP1ラスボスがレイン、EP2ラスボスがキョウジかも知れん）
+
+　下二つは、DCでご一緒したフォマールさんの台詞ですが(笑)。
+　一時期GガンがPSO仲間で流行っていたのですよ。</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

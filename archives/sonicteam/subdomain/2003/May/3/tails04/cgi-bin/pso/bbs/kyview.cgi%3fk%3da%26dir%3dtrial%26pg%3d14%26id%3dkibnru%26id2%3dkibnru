@@ -1,0 +1,82 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『ファンタシースターオンライン エピソード１＆２』トライアルBBS</title>
+</head>
+<body background="http://tails04.sonicteam.com/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/t/trial/14/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#ffffff">MAKING APPEND NOTE</font>
+<hr>
+<p>
+<table width="100%" border="0">
+<tr bgcolor="#004080"><td width="100%"><strong>元の発言</strong></td>
+<td align="right" width="1%" nowrap> <br></td></tr>
+<tr bgcolor="#004080"><td colspan="2"><strong>Tomo</strong>  <i> 2002/06/09</i>  </td></tr>
+<tr bgcolor="#000040"><td colspan="2">マルチモード中でチェックルームからアイテムが引き出せない現在の<BR>仕様では、あらかじめ参加者全員が、オンラインやオフラインで装備<BR>を整えてからマルチモードを開始しないとならないので、非常に面倒<BR>です。また、マルチモードプレイ中に装備を変えたくても変えられま<BR>せん。「剣と銃」２つを常に持ち歩いて使い分けるとか、Ep2用に複数<BR>タイプの武器を持っていくとか、そういうこともできません。<BR><BR>しかしながら、マルチモードでのアイテム引き出しを易々と許可して<BR>しまうと、それが「アイテム複製という不正の温床」になってしまい<BR>ます。アイテム交換はあくまでも禁止しないとなりません。<BR><BR>そこで、「アイテム複製ができない」けれども「アイテム引き出しは<BR>自由にできる」ようにする対応案を考えました。<BR><BR>1.マルチモード開始時点で、各キャラの所有している全アイテムに、<BR>  「持ち込みフラグ」を立てます。チェックルーム中のアイテムも、<BR>  全てです。<BR>  また、未装備の手持ちアイテムも、そのまま持ち込ませます（現<BR>  在のように見えなくなったりはしません）。もちろんこれらにも<BR>  フラグを立てます。<BR><BR>2.マルチモード中では「持ち込みフラグ」が立っているアイテムは、<BR>  ・床に置けない<BR>  ・「アイテム交換」メニューは使用できない<BR>  ・店に売るのは可能<BR>  ・使用（装備・消費）は可能<BR>  とします。<BR>  これで、マルチモードに持ち込んだアイテムは、交換が完全に禁<BR>  止されるので、アイテム複製を防げます。<BR><BR>3.マルチモード中では、チェックルームの「預け入れ／引き出し」<BR>  が自由にできるようにします。もちろん、装備を変えたりアイテ<BR>  ムを補給したりも自由です。<BR>  ただし、2.にあるように、「持ち込みフラグ」の立っているアイ<BR>  テムは、床に置いたりできません（アイテム交換不可）。<BR><BR>4.終了時は、手持ちのアイテムはそのままセーブされます。<BR>  現在のようにチェックルームに預けなくても、消えません。<BR>  （これは、1.～3. に対応することで必然的にそうなります。）<BR><BR>  これにより、現在のようなわかりにくい仕様が、非常にシンプル<BR>  なものになるはずです。<BR><BR>※ 1.で「持ち込みフラグ」を立てるべき対象アイテムですが、全<BR>   てである必要はありません。「x10」等の個数で表示されるアイ<BR>   テムは、フラグを立てるのは非常に困難な処理となりますので、<BR>   このようなアイテム（メイト、フルイド等）には「持ち込みフ<BR>   ラグ」は必要ないと思います。<BR>   もちろん「持ち込みフラグ」が無いアイテムは、床に置けるの<BR>   で「アイテム複製」し放題ですが、メイトやフルイド等が大量<BR>   複製されたとしても困ることにはならないでしょう。<BR><BR><BR>以上です。実際、現在のマルチモードでも、初期装備品にはこの<BR>「持ち込みフラグ」相当のものが付いていますので、実現はさほ<BR>ど難しくないと思われます。<BR><BR>マルチモードでのアイテム交換を禁止するのはやむを得ないと理<BR>解していますが、少なくともこのような「アイテム引き出し」の<BR>対応くらいはしていただかないと、マルチモードは本当に「遊び<BR>にくいだけ」のものになってしまいます。<BR><BR>是非とも前向きにご検討ください ＞ ソニックチーム様<BR>（併せて投稿もしました。）<BR></td></tr>
+</table>
+</p>
+<p>
+<form action="submit.cgi" method="post" >
+メッセージ ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual">
+</textarea><BR>
+
+<input type="hidden" name="title" value="Re:マルチモードでのアイテム引き出し実現方法">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="pg" value="14">
+<input type="hidden" name="id" value="kibnru">
+<input type="hidden" name="id2" value="kibnru">
+<input type="hidden" name="dir" value="trial">
+</p>
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+<input type="hidden" name="c" value="APPEND">
+<p>
+<input type="submit" value="APPEND"> 書き込み 
+
+</p>
+</form>

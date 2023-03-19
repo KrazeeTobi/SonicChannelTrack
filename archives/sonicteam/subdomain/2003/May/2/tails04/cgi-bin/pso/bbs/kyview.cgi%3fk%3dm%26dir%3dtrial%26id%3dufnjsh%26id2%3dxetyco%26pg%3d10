@@ -1,0 +1,108 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『ファンタシースターオンライン エピソード１＆２』トライアルBBS</title>
+</head>
+<body background="http://tails04.sonicteam.com/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/t/trial/10/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#ffffff">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="trial">
+<input type="hidden" name="id" value="ufnjsh">
+<input type="hidden" name="id2" value="xetyco">
+<input type="hidden" name="pg" value="10">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#ffffff">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#ffffff">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >いくつか思いついたこと。
+・マルチモードでのアイテム交換。
+これはただでさえアイテムに制限の多いモードだし、結局倉庫からアイテムを出せないマルチモードだからこそ欲しい気がします。
+自分のイメージでは、マルチモードではアイテムを倉庫キャラに
+移動したりできて便利だなぁと思っていただけに今回の仕様でかなりがっかりでした。
+結局オンライン（しかも本体に２台）にしないと移動はできないんだもん（；；）。
+・マルチモードに２プレイ時の画面分割方法
+既出でしょうが一応。今回から段差の概念があるので画面分割は横より縦のほうがいい気がします。
+でなければ二人用でも４人用の分割でもいいかもしれません。
+とにかく分割方法が縦、横、４分割と選べるというのが理想な気がします。
+・テクニック使えないキャラについて
+こんかいヒューマーやレイマーなどに１部使えないテクニックができましたが、あれにはちょこッと反対です。
+個性つけるのはいいと思います。ただＰＳＯの場合、種類によって効果範囲等大幅に変わるテクニックがほとんどですよね？
+（バータ、ギバータ、ラバータなんて全然違う）。
+それを考えると単純に使えないよりは、ヒューマーならグランツはレベル５までとか、
+ラ系テクニックはレベル７までしか覚えられないといった制限のほうがいいと思いました。
+
+・あとキャラメイク時のパーツについて
+正直なところ新キャラですら使いまわしが多いのにがっかり。
+もっと個性的なパーツがあると思っていただけに新キャラ３人の使いまわしパーツの多さには落胆です。
+しかも各キャラ服の種類が増えましたがこれまた中途半端な色の付け替えばかりで、
+かえってセンス悪くなってしまったような気がします。
+どうせ増やすなら少なくても色とデザインがマッチしたものを増やして欲しかったですね。
+
+…とまあ今思いつくのは以上です。</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#ffffff">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

@@ -1,0 +1,107 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/83/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="gcfree">
+<input type="hidden" name="id" value="rgsdgy">
+<input type="hidden" name="id2" value="zodgwp">
+<input type="hidden" name="pg" value="83">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >メモカについての追記
+
+
+
+
+59と251で差は無いと思われますが(私も59×3＋251で遊んでますw）
+特に重要と言う訳では無いですが追記を(^^；)
+
+Ver1.0の場合
+回線落ちの状態だとセーブされずにデータロスしやすいと思われます。
+（実際、それで１０回ほどキャラロスしてまふ（TT)）
+ですから、前出の様に噴出しが遅くなったり、他キャラが止まったりという状況がおきた場合は即座にセーブが好ましいと思われます。
+その後、復帰した時に状況を説明して納得してもらえるのが一番かとｗ
+
+
+Ver1.1の場合
+前出の現象が起こった場合、大多数において回復する事もありますので、まずはウインドウを開いたりして見ましょう(^^；)
+その内、回復する場合は回線の込み具合等の状況も考えられます。
+また、1.1の場合は回線落ちでセーブされてなくてもアイテム等残る場合が多いです。（実際、それでロスは有りませんでした。）
+キャラロスの場合は別としてですけど…
+
+やはり基本は電源入ってない状態でメモカの抜き差しをする事につきますね(基本中の基本ですがｗ）
+あとは、接触部の掃除。接触部のエラーでデータ読まない事も考えられますので掃除は効果有りです。
+それでも、不具合がおきる場合はオンで繋がずにオフで試してみるのも手かと思います。それでもというなら、そのメモカを使っている限りその現象は起こりうる事なので早めに新しいメモカにする事をお勧めしますｗ</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

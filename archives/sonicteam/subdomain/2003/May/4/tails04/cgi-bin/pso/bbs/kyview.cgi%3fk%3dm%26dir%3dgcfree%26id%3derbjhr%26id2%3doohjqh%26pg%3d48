@@ -1,0 +1,106 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/48/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="gcfree">
+<input type="hidden" name="id" value="erbjhr">
+<input type="hidden" name="id2" value="oohjqh">
+<input type="hidden" name="pg" value="48">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >とりあえず、
+
+初心者：周りが見えない、敵が横からきてるのがわからない。
+ただ闘っているだけ。自分のＨＰが減っていて、何気に仲間もへってる
+時のみ、レスタ。基本的に自分が主人公。キャラの強さ＝自分の強さという
+認識。
+
+中級者：敵のいる場所の把握、空間認識が出来ている。味方のマーカー位置から
+味方の位置を把握。仲間のＨＰに注意しレスタ。協力プレイを意識。
+
+上級者：仲間の火力による手加減、武器選択を必ず行う。罠の効果的な使い方を熟知。
+武器の使い分けを熟知。回避テク高い。戦闘中話ながらも、ちゃんと戦える。戦い方にこだわりがある。
+
+こんな感じじゃないですか。まぁ、私見ですが。
+キャラが強くなれば上級者というわけでもなく、公私にわたるプレイヤースキルの向上が
+問題だと。
+
+例えば、一人先先すすんでいき、敵を瞬殺するような人は、どんなに
+強く、攻撃スキルがあっても、協力という面では初心者と思います。
+
+オフラインゲームが上手いだけの人が、必ずしも上級者ではなく、
+オフラインゲームが下手な人が、必ずしも初心者でない所が、ＰＳＯ
+らしいとこだと思います。</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

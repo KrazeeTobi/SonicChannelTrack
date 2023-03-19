@@ -1,0 +1,127 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/83/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="gcfree">
+<input type="hidden" name="id" value="uzxlve">
+<input type="hidden" name="id2" value="ewwqik">
+<input type="hidden" name="pg" value="83">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >左利きといえば（追記あり）
+「左利きの人間は統計的に寿命が右利きに比べ短い」
+という調査結果が出ているそうで。
+
+遺伝学的や脳生理学な物と言われれば
+それまでなのかもしれませんが
+（いえ、それで立証出来れば十分凄いのですけど｛笑｝）
+学説の中には「世の中全てが右利きに作られている為」
+...という説も存在するそうです。
+
+どういう事かといいますと、尽く右利きに合わせて
+作られている器具・施設などを利用する際に
+本人が意識しない程度でも僅かに負荷がかかり
+それが結果として長い年月の間に
+左利きの人の寿命を縮めるのだとか。
+
+と、PSOと離れた内容になってしまいましたが
+ある程度は慣れじゃないかなと自分は思います、
+自分は利き腕は右ですがコントローラの移動操作は
+「利き腕でやれ」と言われても無理ですし、
+自転車の片腕操行（危険）も左でやりますしね。
+
+乱文にて失礼致します。
+
+（追記）
+上の報告だけでは何なので・・・
+左利きの人間には天才が多い、というのも
+結構真実味がある話らしいです。
+---------------------------------
+（以下追記文）
+レオナルドダヴィンチ＞
+仰る通り左利きだったはずです。
+
+面白い事に、人間以外の霊長類は殆ど左利き、
+人間でも赤ん坊の頃は１００％両利きなのだそうで。
+
+自分の知っている文献は古いので
+今ならばもっと深く研究した論文が数多くあると思います。
+
+そういえばブーマ（バートル）はどっち利きなのか...、
+攻撃には右腕を使うことが多いようですが
+左腕打ちおろしの方がスピード速いですし...？
+
+強引にPSOと繋げた所で失礼致します。</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

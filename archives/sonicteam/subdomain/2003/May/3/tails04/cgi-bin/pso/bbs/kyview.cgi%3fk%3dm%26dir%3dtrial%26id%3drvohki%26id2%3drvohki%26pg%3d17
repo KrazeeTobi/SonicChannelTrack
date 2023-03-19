@@ -1,0 +1,123 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『ファンタシースターオンライン エピソード１＆２』トライアルBBS</title>
+</head>
+<body background="http://tails04.sonicteam.com/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/t/trial/17/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#ffffff">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="trial">
+<input type="hidden" name="id" value="rvohki">
+<input type="hidden" name="id2" value="rvohki">
+<input type="hidden" name="pg" value="17">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#ffffff">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#ffffff">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >色々な意見が出ていますが
+おっ　b(＾O＾)d 　 は～　　w(＾▽＾)w
+こぉら！○e×君、人の意見パクらない様にw
+(ちゃんと「某人の意見で」とかつけなさいw）
+
+マグ盗難対策：マグに名前を付けられるようにする。
+　　　　　　　（もしくはプレイヤーキャラ同名)
+
+盗難対策部屋：退室時、もしくは回線切断時にアイテムを
+　　　　　　　同室内(シティ内)で拾った場合に、
+　　　　　　　カードデータが自動で同室の全員に
+　　　　　　　配布される、もしくは表示されるなど。
+
+キャラ特性：ハンターは銃以外５～８段攻撃可能
+　　　　　　レンジャーは銃のみ５～８段可能
+　　　　　(ショット系は５段を越えると硬直時間伸びる)
+　　　　　　フォースは単体テクニックの３段可能
+　　　　　　(全体は２段まで。３段以降使用TP倍増）
+
+　　　　　　※全キャラ　バトル時は３段まで
+
+バトルの提案：職業毎にHitポイント制にして規定回数
+　　　　　　　攻撃を受けるとリタイア。
+　　　　　　　リトライ時に食らっていい攻撃回数が
+　　　　　　　２づつ上昇。
+　　　　　　　尚、命中力は無関係にすれば、純粋に
+　　　　　　　腕で勝負が決められる。(と、思うw）
+　　　　　　　(テクニックも照準付けるようにする）
+　　　　　　　この他、ハンデをつけると食らっていい
+　　　　　　　回数が＋ー５位できたり「おまめさん」
+　　　　　　　を設定出来たりしたらいいと思う。
+　　　　　　※「おまめさん」食らい数無限、必ず３位に
+　　　　　　　なる設定。攻撃できるが誰かを倒しても
+　　　　　　　ポイントは他のメンバーに平等加算される
+　　　　　　　（参加人数ー１位がおまめさん順位）
+
+こういうのは如何でしょう？
+あちこちレスが立っていて記入が面倒でしたので・・・
+まとめて発言いたしました・・・レスが面倒だぁ！
+・・・と、怒られそうですね・・・失礼しましたw</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#ffffff">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

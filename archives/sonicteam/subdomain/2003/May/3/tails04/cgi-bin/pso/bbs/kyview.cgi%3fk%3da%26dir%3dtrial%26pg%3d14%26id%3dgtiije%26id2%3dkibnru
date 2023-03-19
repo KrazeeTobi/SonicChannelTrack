@@ -1,0 +1,82 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『ファンタシースターオンライン エピソード１＆２』トライアルBBS</title>
+</head>
+<body background="http://tails04.sonicteam.com/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/t/trial/14/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#ffffff">MAKING APPEND NOTE</font>
+<hr>
+<p>
+<table width="100%" border="0">
+<tr bgcolor="#004080"><td width="100%"><strong>元の発言</strong></td>
+<td align="right" width="1%" nowrap> <br></td></tr>
+<tr bgcolor="#004080"><td colspan="2"><strong>てれす</strong>  <i> 2002/06/12</i>  </td></tr>
+<tr bgcolor="#000040"><td colspan="2">こんな方法しか思いつかなかった…<BR><BR><BR>異なるメモリ間のアイテム移動で、どうしてもオンラインを<BR>しない場合の方法で…<BR><BR>現実性低い(トラブル起こりやすい/操作不能時間多い)<BR>ソニチの経費負担完全無視(設備投資いくらかかるやら…)<BR>けどどうしてもって場合の案です。<BR><BR><BR>「Webを使う(含むiモードなど携帯インターネット)」<BR><BR><BR>今時PSOやろうって年代で、GCにモデムが繋がっていない人は居ても<BR>周囲に誰もWebできる奴がいないってのはほとんどいないと推測。<BR><BR>んでこういう提案です。<BR><BR><BR>とりあえずざっとした案なんでちょっと穴はありますが仮に。<BR><BR><BR>１．メモリカードをサーバーに登録<BR>まず最初の前提。メモリカードをサーバーに登録します。<BR>これを行わないとそのメモカ間ではアイテム交換はできません。<BR><BR><BR>まずメニューでメモリカード登録を選択。<BR>当然最初にシリアル番号やらアクセスコードを入力してあるんで<BR>そこから「メモカ登録暗証コード」を生成。<BR><BR>GC以外のWebから登録します。<BR><BR>返答として、シリアル番号に対するメモカ番号と最終交換日時<BR>(サーバー現在日時)の初期値を暗号化した「メモカ登録完了コード」<BR>を受け取ります。<BR><BR>で、これをメモリカード登録画面で入力。<BR>メモカに最終サーバーアクセス日時(サーバー現在日時)が<BR>初期設定されます。<BR><BR><BR>普段はオンラインでやってる人も、一時的に完全オフライン移動やる<BR>場合は同様の一時登録が必要。次回のオンライン接続まで有効です。<BR>#こうしないと悪意ある人に悪用される危険性がある。<BR><BR><BR>２．オフラインアイテム移動<BR><BR>まず送信側・受信側のメモリカードをスロット１・２に入れます。<BR>で、アイテム移動を行います。<BR><BR>それぞれのメモリに登録された<BR>・シリアル番号/アクセスコード/メモカ番号<BR>・最終アイテム移動日時(サーバー時間)<BR>・受け渡しアイテム<BR>などから暗証コードを作成します。<BR><BR>で、これをWebで登録＆各種整合性をチェック<BR>復元コードを待ちます。<BR><BR>で、サーバーから返ってきた復元コードを入力すると<BR>・アイテムの交換の成立。<BR>・各メモカに最終アイテム移動日時（サーバー現在時刻)<BR>が適用されます。<BR>#恐らく時間制限が必要。○○分以内に入力しないと無効…など。<BR>#移動キャンセル(Webの反応が遅かった/コードの入力間違いがあった)<BR>#の処理も必要。<BR><BR><BR>ここで難点。<BR>まず、この暗証コード(webに登録)<BR><BR>ここから最低でも<BR>・送り側シリアル番号/送り側最終アイテム移動日時(サーバー時間)<BR>・受け側シリアル番号/受り側最終アイテム移動日時(サーバー時間)<BR>・アイテムの整合性チェック(CRCの用に間違ってないのが解ればいい)<BR>が復元でき、かつ一般ユーザーが解読できてはいけない。<BR><BR>で、復元コード(GCに入力)も<BR>・同一のシリアル番号でしか交換が成立しない<BR>・そのアイテムでしか交換が成立しない<BR>・今回のアイテム移動日時(サーバー時間)が復元できる(→メモリに登録)<BR>って事が必要で、当然一般ユーザーが解読できてはいけない。<BR><BR><BR>一体何桁のコードになるのやら…<BR>暗号化は詳しくないのですが、この桁数が実用的である事が条件です。<BR><BR><BR>一番恐れるのがここからシリアル番号が悪意ある人にバレる事。<BR>散々に他人のシリアル番号で送信しまくって不正アイテム交換の<BR>実績を作りまくるでしょう。<BR>#そのため、普段オンラインの人も一時登録を行う。<BR><BR><BR>もう一つ。<BR>Webを使う以上「コード入力間違い/移動取り消し」の処理がどうしても<BR>必要となります。<BR><BR>ここを抜け穴にされそうってのがあります。<BR><BR><BR>あとはセーブデータの数カ所に、いくつかの視点(普遍データ・<BR>可変データ・全体など)のCRCのような改変チェックコードを<BR>入れておく必要があるでしょう<BR><BR><BR>…ってなとこで。<BR><BR><BR>p.s.<BR>実はこの方法。<BR>データを小さくするために「交換アイテム自体に異常データがある」<BR>（不正属性など）がチェックできません。<BR><BR>それ入れると入力データが激しく大きく…<BR><BR><BR>p.s.2<BR>もしこれらの入力エラーがあった場合の「警告画面」<BR>自体は入口だけにするのがいいでしょう。<BR><BR>プログラム改造などで警告だけをすっ飛ばす人がいたら<BR>次回オンライン時にアカウント停止に…って感じで。</td></tr>
+</table>
+</p>
+<p>
+<form action="submit.cgi" method="post" >
+メッセージ ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual">
+</textarea><BR>
+
+<input type="hidden" name="title" value="Re:こんな方法しか思いつかなかった…">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="pg" value="14">
+<input type="hidden" name="id" value="gtiije">
+<input type="hidden" name="id2" value="kibnru">
+<input type="hidden" name="dir" value="trial">
+</p>
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+<input type="hidden" name="c" value="APPEND">
+<p>
+<input type="submit" value="APPEND"> 書き込み 
+
+</p>
+</form>

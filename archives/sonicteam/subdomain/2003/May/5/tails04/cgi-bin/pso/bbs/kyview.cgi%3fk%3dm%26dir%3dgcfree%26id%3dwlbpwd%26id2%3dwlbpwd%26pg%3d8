@@ -1,0 +1,106 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/8/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="gcfree">
+<input type="hidden" name="id" value="wlbpwd">
+<input type="hidden" name="id2" value="wlbpwd">
+<input type="hidden" name="pg" value="8">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >こんにちは。いろんな人の意見を参考にしながら、私の考えをまとめてみました。
+
+
+修正版でキャラクタデータの引き継ぎは、セガ（ソニチ）で作業できないものですか？
+DC版でも、本体修理の際にはPSOのセーブデータも渡していましたよね。
+同じように、内部的にまったく別の仕様にしてもいいですから、見た目同じキャラクタで使えるようにデータの変換作業をセガで行ってくれればいいのでは？　と思います。外見だけでなく、レベルやアイテムもそのままで。
+
+ここはやはり、
+
+1）isaoにあるハンター登録情報から、すべてのユーザーに詫び状と返送用封筒を送付
+2）ユーザーはセーブデータ（メモリカード）を着払いで返送
+3）セガにてコンバート、修正版PSO本体とともに変換済みデータをユーザーに送付
+
+ではいかがでしょう？　この方法のメリットは、
+
+a）セガからの無料送付サービスとすることで、誠意を見せると同時にユーザー側の手間を最小限に抑える
+b）なにもわからない小さな子供でも、親に頼める手続き作業である。有料だと、親は「また新しいゲームを欲しがっている」としか見ないため、移行の妨げとなる
+c）「すべて」ではないものの、かなりの割合で修正バージョンへの移行が出来る。よって、従来バージョン用に残すサーバ数を少なくできる
+
+セガにとっては、特別体制を敷く必要があり、当然莫大なコストが発生します。ですが、これは修正に取り組む以上必要なものとしてあきらめ、PSOをより長く続けてもらうことで回収をしていくしか出来ません。そのために、クエストなどのサービスが定期的に行われるのならば、ユーザーにとっても大歓迎になると思います。
+
+既出ならごめんなさい。
+</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>
