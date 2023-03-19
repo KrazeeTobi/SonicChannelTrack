@@ -1,0 +1,124 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/22/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="gcfree">
+<input type="hidden" name="id" value="kvepbq">
+<input type="hidden" name="id2" value="notkgo">
+<input type="hidden" name="pg" value="22">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >繋がりました！！
+僕の質問に付き合ってくださった皆様、まことに感謝です！
+trukさんが言ったモデムリセットしてなかったのが原因の模様。
+試すことを後回しにしてしまいすいませんでした！
+
+・・・とりあえず僕の環境等＆説明を載せておきます。
+今後、繋げない人の参考になれば幸いです。
+
+プロバイダ：ｃｔｙ
+モデム：PersonalModem　LANcity
+ケーブル：有線LANケーブル
+アダプタ：ブロードバンドアダプタ
+ネットワーク設定：IPアドレス手動設定
+接続方法：モデム→GC
+
+リセット方法はtrukさんが言った通り電源を切ることなんですが
+スイッチ等は無いためモデムの線を引っこ抜けば電源は切れます。
+（引っこ抜く線は縦置きにした際、一番下に来る線です）
+それで、電源を切ってから約１０秒待ち、引っこ抜いた線を
+差し込みます。これでリセット完了です。
+ちなみにLANケーブルをGCからPCに戻すときはもう一度リセット作業を
+行いましょう。これをしないとPCで繋げなくなります。
+
+次に、IPアドレスについてなんですがtrukさんの
+＞「10.x.x.x」「172.16.x.x～172.31.x.x」「192.168.x.x」の
+＞うちのどれかにあてはまりますか？
+＞あてはまるようでしたらプライベートアドレスですので
+＞BBAの設定は「IPアドレスを自動取得する」するになります。
+とありますが、僕は「10.x.x.x」にあてはまってますが
+ナゼか手動設定でいけました。何故だろう？
+もし、上記に当てはまっていてモデムリセットしても繋がらない人は
+ネットワーク設定をIPアドレス自動取得にしましょう。
+それでも繋がらないようでしたらkenshouさんの言うように
+ファイアウォールでポートが塞がってる可能性が高いと思われます。
+プロバイダに問い合わせましょう。
+ポート変更が無理だった場合、グローバルIPを取得しましょう。
+
+以上です。
+僕の質問に付き合って下さった皆様、しつこいようですが
+本当にありがとうございます！機会があればPSOで会いましょう。
+</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

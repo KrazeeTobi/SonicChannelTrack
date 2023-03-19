@@ -1,0 +1,195 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/59/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="gcfree">
+<input type="hidden" name="id" value="hxlckk">
+<input type="hidden" name="id2" value="hxlckk">
+<input type="hidden" name="pg" value="59">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >どうも、ロボレッドです。
+
+無事年も明け、当方のオンラインでの不具合（笑）も解決しましたので、いよいよ「チャレンジリーグ」を開催したいと思います。
+（修正版（Ver1.1）のみの企画になります。ご了承ください）
+
+「チャレンジリーグ」とは、「チャレンジ最強」の座を目指して戦うものです。
+基本的には１チームＶＳ１チームで試合を行います。
+ルールに沿って点数を決め、その点数で勝敗を決めます。
+
+
+チーム登録に必要な情報は、
+
+●チーム名
+●チームに所属するキャラクターの名前（２名）
+●チームに所属するキャラクターのチャレンジ称号（２名）
+
+です。
+参加希望者は、以上の情報をこのスレッドにレスとして書き込むか、ロボレッドのＨＰの掲示板に書き込んでください。
+http://8623.teacup.com/robored/bbs
+（↑ロボレッドの掲示板）
+-----------------------------------------------------------
+「チャレンジリーグ」ルール
+
+
+対戦開始前の準備：まず最初に、公式ＢＢＳの「チャレンジリーグ」スレッド、もしくはロボレッドのＨＰの掲示板にて、対戦したいチームを指定してください。
+そこで、相手チームから「対戦ＯＫ」のレスをもらえれば対戦可能です。
+
+この際、「相手チームとのスケジュールの調整」、および「第三者による審判役の募集」を行ってもらいます。この調整がつかなかった場合は対戦は見送りとなります。
+
+次に、自チームが挑みたいステージを選んでもらいます。 
+なお、試合を行う２チームが互いに同じステージを選ぶ必要はありません。
+互いに別々のステージを選んでもかまいません。
+
+＊挑みたいステージに到達していない場合は試合前までに到達できるようにしておいてください
+
+&lt;font color=red&gt;★試合申し込みの注意事項★&lt;/font&gt; 
+基本的に、ランクの違うリーグに属するチームへの試合申し込みはできません。
+ただ、一期に一度だけ勝ち点を１点使ってワンランク上のチームに試合を申し込むことはできます。
+ただし、２ランク以上差があるチームには試合の申し込みはできません。 （リーグの「ランク」については後述します） 
+
+＊「チーム点」について＊
+各チームには、試合に勝つごとに「勝ち点」として「チーム点」が与えられます。
+算出方法は、
+&lt;font color=yellow&gt;（相手チームのチーム点）－（自チームのチーム点）&lt;/font&gt;
+となります。
+これが０点以下になることはありません。
+たとえば、チーム点３点のチームに、１点のチームが勝つと、&lt;font color=yellow&gt; ３点－１点＝２点 &lt;/font&gt;の勝ち点が得られます。
+逆に、３点のチームが１点のチームに勝った場合、得点は０点以下にはならないので、１点が得点となります。
+この「チーム点」を用いて「リーグ分け」を行います。
+リーグの「ランク」は３種類あり、それぞれ得点に応じて
+
+&lt;font color=yellow&gt;チーム点２０以上＝「Ｓランクリーグ」
+チーム点１０点以上１９点以下＝「Ａランクリーグ」
+チーム点９点以下＝「Ｂランクリーグ」&lt;/font&gt;
+
+となります。 
+-----------------------------------------------------------
+
+
+基本ルール
+
+使用ステージ：ステージの制限はありません
+
+制限時間：１時間
+
+チームの人数：「２名」
+
+得点は、
+
+●クリア時のチームメンバーのレベル
+
+を合計した値を基本として基本点を算出します。
+これに、ボーナス点として
+
+●メイト（フルイド）の数
+●武器の最大強化数
+（グラインダーによる＋の値でチーム所有のなかで最大のもの）
+●クリアボーナス５点
+
+およぼ、各種ボーナス（下記参照）
+
+「称号ボーナス」：一人につきの点数です
+●称号なし：20点
+●Ra-GOU：15点
+●Gi-GOU：10点
+●Bu-GOU：5点
+＊他の称号にはボーナスはありません
+
+「ボスボーナス」：指定されたボスを撃破した際、加算されます
+●ドラゴン　　　：5点
+●デ・ロル・レ　：10点
+●ボルオプト　　：15点
+
+を加えたものが、チームの得点となります。
+次に、減点になるものとして
+
+○アンドロイド１人につきー５点
+○失敗回数（×１０点）
+○部屋を作りなおした回数（×１０点）
+○チーム登録キャラクター以外での競技参加（×３０点）
+が減点になります。
+
+ただし、
+○不慮のトラブルによるチームメンバーの回線切断
+の場合は、やりなおしを認めます。
+
+以上がルールです。
+
+
+分からないことなどがありましたら、遠慮なく質問してください。
+
+ロボレッドでした。</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

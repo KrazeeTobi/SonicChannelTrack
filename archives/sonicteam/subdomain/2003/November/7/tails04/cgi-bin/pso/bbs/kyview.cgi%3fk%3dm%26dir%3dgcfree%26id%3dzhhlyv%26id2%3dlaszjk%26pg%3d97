@@ -1,0 +1,174 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/97/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="gcfree">
+<input type="hidden" name="id" value="zhhlyv">
+<input type="hidden" name="id2" value="laszjk">
+<input type="hidden" name="pg" value="97">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >皆さんがおっしゃっている通り
+まずはご自分の環境を調べましょう。
+それから説明書などを参考にして、自力で出来るところまでやって、つっかかった所を質問しましょう。
+簡単な手順を書いてみましたので、参考にしてください。
+
+&lt;B&gt;１．回線の種類の確認&lt;/B&gt;
+まずは、使っているインターネット回線を確認しましょう。
+現在考えられる回線の種類は大きく分けて以下の5種類です。
+1)普通の電話回線(アナログモデム)
+2)ISDN
+3)ADSL
+4)CATV
+5)FTTH(光ファイバー)
+
+どの回線を使っているかに関しては、ご家族に聞いたり、回線会社から貰った契約書や説明書を見れば解かると思います。
+
+(1)「普通の電話回線」の場合
+GC用のモデムアダプタが必要になります。
+接続方法に関してはモデムアダプタの説明書に出ていますので、そちらを参考にしてください。
+↓モデムアダプタ説明書
+http://www.nintendo.co.jp/ngc/acce/gc_ma.pdf
+ソフト的な設定に関してはPSOの説明書のP.17を参考にしてください。
+
+(2)「ISDN」の場合
+使用している接続機器がターミナルアダプタの場合、残念ですがGCを接続することができません。
+ISDN用のルーター(ダイアルアップルーターとかTAルーター)を購入する必要があります。
+※イレギュラーな方法はココでは割愛します。
+以下、『(4)「その他」の場合』を参考にしてください。
+
+(3)「ADSL」の場合
+使用しているADSLモデムがUSB接続タイプの場合、残念ですがGCを接続することができません。
+回線会社にルータータイプ(LANケーブルで接続するタイプ)のADSLモデムと交換してもらうように相談しましょう。
+※ただし、PCもLANで接続できるようにすることを忘れずに。
+※イレギュラーな方法はココでは割愛します。
+以下、『(4)「その他」の場合』を参考にしてください。
+
+(4)「その他」の場合
+GC用のブロードバンドアダプタ(通称BbA)が必要になります。
+接続方法に関してはブロードバンドアダプタの説明書に出ていますので、そちらを参考にしてください。
+↓ブロードバンドアダプタ説明書
+http://www.nintendo.co.jp/ngc/acce/gc_bba.pdf
+ソフト的な設定に関してはPSOの説明書のP.20を参考にしてください。
+
+
+&lt;B&gt;２．接続の確認&lt;/B&gt;
+説明書の設定の通りの設定が終わりましたら、いきなりPSOのオンラインゲームをせずに、
+ブラウザーでPSOのホームページが見れるかで、確認しましょう。
+ブラウザの操作方法はPSOの説明書のP.24を参考にしてください。
+ただし、&lt;FONT color=yellow&gt;トップページではまだインターネットに接続しておりません。&lt;/FONT&gt;
+左のメニューで何か選択しましょう(例えば「掲示板」とか)
+オンライン接続を開始する前に接続してよいか、確認画面がでます。
+「はい」を選択すると接続が開始され、設定があっていればGCでこの記事が見れるはずです。
+
+ホームページが見れたら、ハンターズライセンスの購入をしましょう。
+ハンターズライセンスの購入方法についてはPSOの説明書P.26を参考にしてください。
+
+ハンターズライセンスが無事購入できたら、オンラインゲームを試して見ましょう。
+
+なお、途中、接続に失敗した場合、エラーメッセージが出てきますので、必ずメモを取りましょう。
+公式BBSで質問するときに重要な情報になりますので。
+
+&lt;B&gt;３．質問する場合&lt;/B&gt;
+接続がうまくいかずにBBSで質問する場合どこで失敗するのか、何処が解からないのかを書くのは当然ですが、使っている環境も必ず書きましょう。
+答える人は質問した人の書き込みしか情報を得る方法がありませんので、とても重要です。
+&lt;FONT color=yellow&gt;※ただし、IDやパスワードなどの個人情報は絶対に&lt;B&gt;書かない&lt;/B&gt;こと！&lt;/FONT&gt;
+
+具体的には
+1)使っている回線(ADSL?CATV？など)
+2)回線会社の名前(Yahooとか、CATVの会社の名前とか)
+3)使っているプロバイダの名前
+4)どこで接続に失敗したか(ホームページが見れないとか、オンラインゲームを始めて駄目だったとか)
+5)表示されたエラーメッセージ
+
+接続する前にわからない場合は何処がどう解からないのか質問しましょう。
+ただし、解からない用語に関しては質問する前に調べましょう。
+
+↓デジタル辞典
+http://yougo.ascii24.com/gh/
+
+－－－－－－－－－－－－－－－－－－－－－
+記事をお読みになった方へ。
+
+同じような質問が来たときに使いまわし出来るように作ってみました。
+しかし、なにぶん私は、モデムとADSLとISDNくらいしかやったことありあませんし、筆不精なのでかなり大雑把に書いてます。
+「ここはもうちょっと詳しく書いた方がいいんじゃない？」とか
+「これ詳しいから、こっちリンクした方がいいよ」などなどご意見ございましたら、
+ご教授いただけると助かります。
+
+駄レス失礼しました。
+
+修正1,2：タグ修正</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

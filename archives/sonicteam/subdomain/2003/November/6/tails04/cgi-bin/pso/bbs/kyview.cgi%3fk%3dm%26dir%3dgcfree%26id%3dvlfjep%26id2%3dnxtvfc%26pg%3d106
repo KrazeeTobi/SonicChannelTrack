@@ -1,0 +1,111 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/106/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="gcfree">
+<input type="hidden" name="id" value="vlfjep">
+<input type="hidden" name="id2" value="nxtvfc">
+<input type="hidden" name="pg" value="106">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >まあまあ落ち着いて
+
+まるで私が、MさんやREINAさんの意見を無視し皮肉のみを書いて
+いるかのような仰りようですが、私は彼らの問いにちゃんと答え
+てますよ。
+寧ろこちらのツッコミをスルーされちゃってたり(笑)
+私の意見は正確に読んでもらえず、他者の問題点には目を瞑って
+いる事から察するに、乾坤一擲さんは私の方ばっかりに目が行っ
+てしまい、ツリー全体を冷静に公平に見つめる目を失ってしまっ
+ているようですね。
+
+あとREINAさんもそうだったのですが、何故に名無氏＝Mさんをそ
+こまで擁護するのか真剣に解りません。
+Mさんは何か強い力で守られているような気がするのは気のせいで
+しょうかw
+何だかここまで偏っていると、貴方方のレスはまるで私を叩く為
+に書かれたのではないか、と邪推してしまいそうになりますが、
+まさかそんなことは無いですよね。ハハ。
+
+あと、文章が長すぎて読むのが大変です。
+疑問を投げかけ相手の感情に訴えるスタイルを否定はしません
+が、もう少しスマートにお願いできないものでしょうか。
+私に問題点があるのは自覚してますし、それを簡潔に指摘する
+だけで済むと思うのですが。
+
+で、私の文章表現に問題があった点は素直に認めます。
+不快になられた方は申し訳ありませんでした。
+　</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>
