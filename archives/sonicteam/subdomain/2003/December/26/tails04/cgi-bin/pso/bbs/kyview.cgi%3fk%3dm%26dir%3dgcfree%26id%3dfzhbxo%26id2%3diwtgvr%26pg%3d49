@@ -1,0 +1,118 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/49/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="gcfree">
+<input type="hidden" name="id" value="fzhbxo">
+<input type="hidden" name="id2" value="iwtgvr">
+<input type="hidden" name="pg" value="49">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >えーと
+
+ルータ内蔵でしたら、フレッツＡＤＳＬでも問題なくプレイできると思います。
+ケーブルは物によって違うんですが、うちはルーターからストレートケーブルで
+ＧＣに接続しています。
+設定は、各機種によりちがうので簡単には説明できませんが、
+フレッツＡＤＳＬであれば、ＧＣ側の設定で「ＤＨＣＰの自動取得」を
+オフにしておけば、あとは問題無かったかな・・・。
+
+
+パソコンの画面でＰＳＯをプレイするには、二通りの方法があります。
+
+１：アップスキャンコンバーターを使う。
+これは、ＧＣからのビデオ出力をＰＣのモニタで使えるようにする装置です。
+難しい設定は無く、ＧＣからのビデオケーブルをアップスキャンコンバーターへ差し込み、
+そこからＰＣのモニタへつなぐだけです。
+値段は安い物から高い物までありますが、私は使用してないので・・・。
+
+２：ビデオキャプチャーを使う。
+これは、テレビやビデオの画像をＰＣに取り込む装置です。
+最近のデスクトップであれば搭載している機種もあるかもしれません。
+ＰＣ本体の後ろに、テレビやビデオと同じようなビデオ端子（赤・白・黄色）
+があれば、そこへ差し込むだけでＯＫでしょう。
+また無い場合は、ビデオキャプチャポードか、外付けのキャプチャ装置が必要です。
+キャプチャボードは、自分で本体に搭載するので、多少の知識は必要です。
+外付けの場合には、ＵＳＢ端子を使うのがほとんどですので、設定に
+難しいところはないと思います。
+
+これらも値段はかなり幅があります。
+
+ちなみに私はノートＰＣで画像キャプチャしているため、外付けの物を使っております。
+参考までに、価格は１万ちょっとでした。
+
+あまり詳しくない解答で申し訳ありません。
+</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

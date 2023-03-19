@@ -1,0 +1,82 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOEP3トライアル版』専用掲示板</title>
+</head>
+<body background="/pso3/bbs/img/pso_bk1.png" bgcolor="#003333" text="#FFFFFF" link="#99FF99" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso3/bbs/t/trial/7/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#ffffff">MAKING APPEND NOTE</font>
+<hr>
+<p>
+<table width="100%" border="0">
+<tr bgcolor="#008080"><td width="100%"><strong>元の発言</strong></td>
+<td align="right" width="1%" nowrap> <br></td></tr>
+<tr bgcolor="#008080"><td colspan="2"><strong>hiro(00)  </strong>  <i> 2003/09/01</i>  </td></tr>
+<tr bgcolor="#003333"><td colspan="2">EP3 攻撃フェーズのしくみ<BR><BR>・○○AP(TP)固定、味方数、敵数、復讐、のようにFキャラの数で攻撃力が変化する<BR>攻撃は攻撃コマンドをセットした時の数が適用される。<BR><BR>・条件付き貫通、乱撃が発動するかどうかは攻撃コマンドをセットした時の条件で決<BR>定する。複数攻撃は攻撃対象のどれかが条件を満たしていれば発動する。<BR><BR>・攻撃対象はユニット(マップの位置)単位で攻撃コマンドをセットした時の位置に固<BR>定される。その攻撃が実行される前に対象が無くなった場合、同一ユニット内なら場<BR>に出されたFキャラの順番(Sキャラ本体は最後)に攻撃対象が自動的に変更されるが、<BR>別ユニットへは自動的に変更されない。<BR><BR>・ダークサイドの防御エネミー効果は、防御エネミーを出したSキャラが攻撃対象に<BR>選択されたとき強制的に自分自身に攻撃対象を変更させる能力。<BR><BR><BR>私はこのゲームのルールを理解していく過程でこういう風に考えていたので、バグだ<BR>と言われている効果のほとんどは何の疑問もありませんでした。<BR>逆に攻撃が一つ実行されるごとに色々な数や対象が自動追従しないことがおかしいな<BR>ら、AP(TP)固定や敵数、味方数ボーナス、条件つき貫通、乱撃すべてバグ扱いになる<BR>状況があるからです。(味方数も反撃系や敵味方区別のない攻撃で変化します)<BR><BR>これを書いたからといって何をして良い悪いというわけではありませんが、バグと思<BR>う根拠、思わない根拠という言葉があったので今まで自分が自然に辿り着いた仕組み<BR>を書き込んでみました。<BR>もちろん一番良いのは公式見解が早く発表されることですね。唯一の解決法ですから。<BR>個人的には、どこかの別のカードゲームのように説明書やカードテキストと実際の動<BR>作に矛盾がある場合は実際の動作を仕様(唯一の絶対的なルール)とします、と製品版<BR>の説明書に書かれていることを望みます。<BR><BR>＊「誰も書いていませんが…」のツリーに対して書くつもりが書いている間に一杯に<BR>なってさらに同系統のツリーが出来ていたのでここに書かせていただきました。<BR></td></tr>
+</table>
+</p>
+<p>
+<form action="submit.cgi" method="post" >
+メッセージ ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual">
+</textarea><BR>
+
+<input type="hidden" name="title" value="Re:EP3攻撃フェーズのしくみ">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="pg" value="7">
+<input type="hidden" name="id" value="uiykzc">
+<input type="hidden" name="id2" value="hznyyg">
+<input type="hidden" name="dir" value="trial">
+</p>
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+<input type="hidden" name="c" value="APPEND">
+<p>
+<input type="submit" value="APPEND"> 書き込み 
+
+</p>
+</form>

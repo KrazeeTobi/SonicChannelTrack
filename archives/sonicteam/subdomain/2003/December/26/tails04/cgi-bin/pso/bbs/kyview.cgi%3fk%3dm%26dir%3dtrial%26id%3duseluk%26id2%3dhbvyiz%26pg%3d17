@@ -1,0 +1,191 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『ファンタシースターオンライン エピソード１＆２』トライアルBBS</title>
+</head>
+<body background="http://tails04.sonicteam.com/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/t/trial/17/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#ffffff">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="trial">
+<input type="hidden" name="id" value="useluk">
+<input type="hidden" name="id2" value="hbvyiz">
+<input type="hidden" name="pg" value="17">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#ffffff">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#ffffff">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >逆転の発想で一提案
+
+テクLv＝威力
+精神力＝TP総量・速度・範囲
+に割り振るとか。
+
+そして
+
+キャラ種別毎の補正をかなりキツめにかけるって方向を提案。
+
+現在のTP総量(TPマテ無し)って
+フォース以外：Lv-1+精神力
+フォース　　：(Lv-1+精神力)*1.5
+
+これをもっと細かくかける方向で。
+
+
+こんな感じかなーと
+
+
+・ヒューマー/レイマー
+
+威力はLv依存だから同じ(最大Lv制限の存在は不明。15？)
+TP総量は(Lv-1+精神力)*0.5
+(精神カンスト値が現行と同じならヒューマー=456/レイマー=477)
+範囲・速度は現在のテクLvの半分(Lv10でLv5相当)
+
+テクの威力は確かにある。
+但しTP総量少ないので弾数かなり少ない。
+同じテク唱えるにもTP消費激しいし、詠唱速度も遅く範囲も狭い。
+GC上級テクならTPカンストでも10発撃てない。
+＃ロボのトラップみたいな扱いになる
+
+
+「補助削られたのにさらに削るか？」って反論あると思いますが、
+単にシティ帰還の回数とフルイド代の出費が少々増えるだけ。
+ロボやフォースに比べればまだまだ遙かに負担は少ないはず。
+
+DCと同じならザルア/ジェルンLv15=消費TP17・レスタLv15=消費TP22
+ディフルイド１個でレスタ9回ですから。
+
+
+
+・ハニュエール/レイマール
+
+威力はLv依存だから同じ(最大Lv制限の存在は不明)
+TP総量は(Lv-1+精神力)*1.3
+(精神カンスト値が現行と同じならハニュエール=1540)
+範囲・速度は現在のテクLvと同等
+
+威力のLv15制限？はフォースには及ばないけどヒューマーの
+3倍以上のTPがあるからいざという時には結構連射もできる。
+速度や範囲のハンデも無いので実質的には露骨に差が付くかと。
+
+普段は武器使うけど、パンアームスやナノノドラコ相手とか
+デルセイバー相手のギバータ連射などで遠慮なくテクぶっ放せる
+タイプにできるかなと。
+#TP総制限があるチャレンジフォースがむしろ近いプレイ感覚？
+
+レスタ等も速く遠くまで届くので実質的に打たれ強くなる。
+
+
+
+・フォーマー/フォマール
+
+威力はLv依存だから同じ(Lv30？得意テク以外28?)
+
+TP総量は(Lv-1+精神力)*1.5(現行と同じ)
+（フォマールで2209。フォーマーで2000弱？）
+テクの範囲は現行テクLvと同じ(これ以上広げても意味無い)
+素手フォーマーは現状素手男性モーションより速度面で優遇
+
+ほぼ現行DC通り。
+ハニュエール/レイマールと比べれば上だけどニューマンフォースには
+弾数でかなり劣る。
+途中を武器攻撃で繋ぐか補給回数を増やす事で対応。
+#それで丁度いいかと
+
+フォーマーとフォマールで撃ち比べしたら速度で勝るフォーマーの
+方が上。
+しかしTP切れやすいという欠点もあるのでTPマネジメントは難しい。
+(フォマールの攻撃テク(Lv15以上)に速度のハンデを付けてもいい)
+
+
+
+・フォニューム/フォニュエール
+
+威力はLv依存だから同じ(Lv30)
+TP総量は(Lv-1+精神力)*2。
+（フォニュームで3240・フォニュエールで3612）
+
+テクの範囲は現行テクLvと同じ
+素手フォニュームは現状素手男性モーションより速度面で優遇
+#フォーマーと同じ。しかしTP総量の圧倒的な差が…
+
+フォニュームの速度*威力に匹敵するように、フォニュエールの
+テク威力を上げるのはアリ。
+
+
+
+こんな感じかなーと。
+
+
+
+
+p.s.
+実は一番きつくなるのがヒューマーの補助回復テクだったり…
+</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#ffffff">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>
