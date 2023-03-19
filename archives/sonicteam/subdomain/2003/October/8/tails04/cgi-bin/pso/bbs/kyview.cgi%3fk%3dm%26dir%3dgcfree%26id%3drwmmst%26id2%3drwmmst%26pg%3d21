@@ -1,0 +1,145 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/21/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="gcfree">
+<input type="hidden" name="id" value="rwmmst">
+<input type="hidden" name="id2" value="rwmmst">
+<input type="hidden" name="pg" value="21">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >フレッツADSL＠Niftyで接続してみました、
+通信速度も問題無く、落ちることもありません。
+モデムと大差無いような気がしますｗ
+
+
+接続手順に必要なもの
+・Windows2000がインストールされているパソコン
+・ＦＣＣクラスＡ級品のＬＡＮカード２枚　（もしくは標準でLAN機能を搭載しているもの）
+※ＦＣＣクラスＢ級品ではＢＢＡ通信待機時にＣＰＵ負荷が高くなります。
+
+・クロスケーブル
+・ＧＣ用ＢＢＡ
+・ストレートケーブル　（ＰＣのＬＡＮカードとＡＤＳＬモデムを接続する為のものです、必要に応じて購入してください）
+・フレッツ接続ツール　（NTTから送ってきたCD）
+・やる気　（無い人はやめときましょうｗ）
+それと、当然ですが自己責任でやるように。
+
+接続は以下のように行ってください
+ＧＣ→クロスケーブル→ＬＡＮカード→ＰＣ→ＬＡＮカード→ストレートケーブル→ＡＤＳＬモデム（等）
+
+
+***GCの設定***
+イーサネット設定
+接続設定：IPアドレスを自動取得する（DHCP）
+回線切断：自動で回線切断をしない
+
+IPアドレス自動設定
+DNSサーバアドレス：自動取得せず自分で設定する
+プライマリDNS：202.248.20.133
+セカンダリDNS：202.248.37.74
+※DNSはプロバイダ指定のものを入力してください（ここで例として入力しているのは＠Nifty用のDNSなので@Niftyユーザーは流用が可能です）
+DHCP用ホスト名：設定しない
+
+***PCの設定***
+1.ローカルネットワーク(NTS Enternet P.P.P.o.E Adapter)で接続共有設定する
+2.ローカルネットワーク(PCI Ethernet Adapter)等のLAN側で尚且つGCが接続されているアダプタがインターネットに出られるようにしておく。
+3.GCの設定で”DHCP用ホスト名”を”設定しない”にした方は”PSO”の”ネットワーク設定でUDPをOFFにしてください。
+
+***UDPを使用しない場合は読み飛ばしてください***
+接続共有の詳細ボタンをクリックしてサービスタブを選んでポートを開ける。
+40975/UDP-&gt;DHCPホスト
+41231/UDP-&gt;DHCPホスト
+41487/UDP-&gt;DHCPホスト
+41743/UDP-&gt;DHCPホスト
+※ＵＤＰを通す設定は実際に試してないので動くかどうか分かりません。
+***************************************
+5.OKボタンをクリックし全てのウィンドウを閉じてください、設定に間違いがなければ問題無く接続できるはずです。
+※UDPの設定はどうであれロビーまでは問題無くいけるので接続すら出来ない人は手順ABCをやってください。
+
+A.まずコントロールパネルのネットワークを開いて全てのプロトコルとサービスを削除する。
+B.フレッツ接続ツールを再インストールする
+C.TCP/IPプロトコルを再インストールする
+→手順１へ
+
+注意：Windows2000のDHCPサーバはIPが192.168.0.1以外の場合は停止します。
+間違いあったら指摘お願いします。
+
+以上、自己責任でお願いします。
+
+***追加***
+Win98SEについては今は使ってないので分かりません（汗
+VMware等にインストールする暇もありませんｗ</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

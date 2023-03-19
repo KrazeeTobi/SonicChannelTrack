@@ -1,0 +1,338 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/55/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="gcfree">
+<input type="hidden" name="id" value="robtbz">
+<input type="hidden" name="id2" value="rcxgie">
+<input type="hidden" name="pg" value="55">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >・ HTMLタグの説明
+
+&lt;Font color=#F05000 size=-1&gt;※タグを表示する部分は全角文字を使用しています。実際は半角文字ですので注意してください。&lt;/Font&gt;
+&lt;Font color=#FF00FF&gt;-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-&lt;/Font&gt;
+&lt;H3&gt;＊＊＊　目　次　＊＊＊&lt;/H3&gt;
+　　・はじめに
+　　・まず基本(&lt;Font color=#FFA000&gt;New&lt;/Font&gt;)
+　　・タグとは(&lt;Font color=#FFA000&gt;New&lt;/Font&gt;)
+　　・使用できるタグ
+　　・共通説明
+　　・タグの説明
+　　　　　見出し　　　(H)
+　　　　　書体1 　　　(B・I・U)
+　　　　　書体2 　　　(BIG・SMALL)
+　　　　　センタリング(CENTER)
+　　　　　フォント　　(FONT)
+　　・16進数(&lt;Font color=#FFA000&gt;New&lt;/Font&gt;)
+　　・タグを使用する上での注意
+&lt;Font color=#FF00FF&gt;-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-&lt;/Font&gt;
+&lt;H3&gt;&lt;Font color=#FF6347&gt;・はじめに&lt;/Font&gt;&lt;/H3&gt;
+　　　　書き込みの本文は&lt;Font color=#FFA07A&gt;HTMLのタグ&lt;/Font&gt;を使用する事により、ある程度インパクトのある
+　　　文章にする事が出来ます。ここでは、そのタグについて簡単に説明していこうと
+　　　思います。もっと詳しく知りたい方は、専門のサイトや参考書を参照して下さい。
+
+
+&lt;H3&gt;&lt;Font color=#FF6347&gt;・まず基本&lt;/Font&gt;&lt;/H3&gt;
+　　　　Webページ(俗に言うホームページ)を記述する書式でHTMLというものがあります。
+　　　HTMLとは&lt;Font color=#FFA07A&gt;Hyper Text Markup Language&lt;/Font&gt;の各頭文字をとったものです。このHTMLで
+　　　記述されている文章ファイルをWebブラウザで読み込むことでWebページとして
+　　　閲覧することが出来ます。
+
+
+&lt;H3&gt;&lt;Font color=#FF6347&gt;・タグとは&lt;/Font&gt;&lt;/H3&gt;
+　　　　HTMLの文章内で使用する書式で使用するものです。半角の＜＞内に書式を
+　　　記述することで、文章に変化を与えることが出来ます。タグには基本的に
+　　　一つで意味をなすものと、＜○＞＜/○＞というように挟んだ間の文章に
+　　　変化を与える二種類があります。
+
+
+&lt;H3&gt;&lt;Font color=#FF6347&gt;・使用できるタグ&lt;/Font&gt;&lt;/H3&gt;
+　　　　タグは多種ありますが、このBBSで使用できるタグは以下の通りです。
+
+　　　　　使用できるタグ ： &lt;Font color=#FFFF00&gt;&lt;B&gt;FONT ・ H ・ B  ・ I・ U ・ BIG ・ SMALL ・ CENTER&lt;/B&gt;&lt;/Font&gt;
+
+
+&lt;H3&gt;&lt;Font color=#FF6347&gt;・共通説明&lt;/Font&gt;&lt;/H3&gt;
+　　　　各タグは開始タグと終了タグの一対で使用し、効果を与えたい文字を挟む
+　　　形で使用します。また、&lt;Font color=#55FF55&gt;&lt;U&gt;開始タグと終了タグは大文字小文字を統一する必要&lt;/U&gt;&lt;/Font&gt;
+　　　&lt;Font color=#55FF55&gt;&lt;U&gt;があります&lt;/U&gt;&lt;/Font&gt;。
+
+　　　　　&lt;B&gt;正しい例)&lt;/B&gt;
+　　　　　　　&lt;Font color=#FFFF00&gt;&lt;B&gt;＜B＞ＸＸＸ＜/B＞&lt;/B&gt;&lt;/Font&gt;
+　　　　　　　&lt;Font color=#FFFF00&gt;&lt;B&gt;＜i＞ＸＸＸ＜/i＞&lt;/B&gt;&lt;/Font&gt;
+　　　　　　　&lt;Font color=#FFFF00&gt;&lt;B&gt;＜Big＞ＸＸＸ＜/Big＞&lt;/B&gt;&lt;/Font&gt;
+
+　　　　　&lt;B&gt;悪い例)&lt;/B&gt;
+　　　　　　　&lt;Font color=#FFFF00&gt;&lt;B&gt;＜B＞ＸＸＸ＜/b＞　・・・　大文字小文字が統一されていない&lt;/B&gt;&lt;/Font&gt;
+　　　　　　　&lt;Font color=#FFFF00&gt;&lt;B&gt;＜I＞ＸＸＸ＜I＞　 ・・・　閉じタグの「/」が抜けている&lt;/B&gt;&lt;/Font&gt;
+　　　　　　　&lt;Font color=#FFFF00&gt;&lt;B&gt;＜U＞ＸＸＸ　　　　・・・　タグが閉じられていない&lt;/B&gt;&lt;/Font&gt;
+
+　　　　&lt;Font color=#FFA07A&gt;FONT&lt;/Font&gt;タグではオプションを指定しますが、解説ページ等ではオプションの値を
+　　　「&lt;Font color=#FFA07A&gt;”&lt;/Font&gt;」で囲むように説明しているところが大半かと思います。ただし、このBBS
+　　　では「&lt;Font color=#FFA07A&gt;”&lt;/Font&gt;」を使用すると&lt;Font color=#55FF55&gt;&lt;U&gt;正しくタグが反映されない為使用しないで下さい&lt;/U&gt;&lt;/Font&gt;。
+
+　　　　　&lt;B&gt;正しい例)&lt;/B&gt;
+　　　　　　　&lt;Font color=#FFFF00&gt;&lt;B&gt;＜FONT size=+1 color=#FF0000＞&lt;/B&gt;&lt;/Font&gt;
+
+
+&lt;H3&gt;&lt;Font color=#FF6347&gt;・タグの説明&lt;/Font&gt;&lt;/H3&gt;
+　　&lt;Font color=#F0FF55 size=+1&gt;&lt;B&gt;見出し　　　(H)&lt;/B&gt;&lt;/Font&gt;
+　　　　文章の見出しを付けるときに使用します。正式にはHn(nは1～6の数値)で
+　　　使用し、1が最も文字が大きく6は最小になります。文字の大きさのほかに
+　　　特徴としては、
+
+　　　　　・&lt;Font color=#FFFF00&gt;&lt;B&gt;太字になる&lt;/B&gt;&lt;/Font&gt;
+　　　　　・&lt;Font color=#FFFF00&gt;&lt;B&gt;開始タグの前、終了タグの後は強制的に改行される&lt;/B&gt;&lt;/Font&gt;
+
+　　　　　&lt;B&gt;例)&lt;/B&gt;
+　　　　　　　＜H1＞ＸＸＸ＜/H1＞　　　　　　　&lt;H1&gt;ＸＸＸ&lt;/H1&gt;
+　　　　　　　＜H2＞ＸＸＸ＜/H2＞　　　　　　　&lt;H2&gt;ＸＸＸ&lt;/H2&gt;
+　　　　　　　＜H3＞ＸＸＸ＜/H3＞　　　　　　　&lt;H3&gt;ＸＸＸ&lt;/H3&gt;
+　　　　　　　＜H4＞ＸＸＸ＜/H4＞　　　　　　　&lt;H4&gt;ＸＸＸ&lt;/H4&gt;
+　　　　　　　＜H5＞ＸＸＸ＜/H5＞　　　　　　　&lt;H5&gt;ＸＸＸ&lt;/H5&gt;
+　　　　　　　＜H6＞ＸＸＸ＜/H6＞　　　　　　　&lt;H6&gt;ＸＸＸ&lt;/H6&gt;
+
+　　&lt;Font color=#F0FF55 size=+1&gt;&lt;B&gt;書体1 　　　(B・I・U)&lt;/B&gt;&lt;/Font&gt;
+　　　　文章にそれぞれ、太字(B)・斜体(I)・下線(U)の書体を指定する事が出来ます。
+　　　また、それぞれのタグを同時に使用する事も出来ますので、太字+斜体といった
+　　　文章も書く事が出来ます。
+
+　　　　　&lt;B&gt;例)&lt;/B&gt;
+　　　　　　　＜B＞ＸＸＸ＜/B＞　・・・　&lt;B&gt;ＸＸＸ&lt;/B&gt;
+　　　　　　　＜I＞ＸＸＸ＜/I＞　・・・　&lt;I&gt;ＸＸＸ&lt;/I&gt;
+　　　　　　　＜U＞ＸＸＸ＜/U＞　・・・　&lt;U&gt;ＸＸＸ&lt;/U&gt;
+　　　　　　　＜B＞＜I＞＜U＞ＸＸＸ＜/U＞＜/I＞＜/B＞
+　　　　　　　　　　　　　　　　 ・・・　&lt;B&gt;&lt;I&gt;&lt;U&gt;ＸＸＸ&lt;/U&gt;&lt;/I&gt;&lt;/B&gt;
+
+　　&lt;Font color=#F0FF55 size=+1&gt;&lt;B&gt;書体2 　　　(BIG・SMALL)&lt;/B&gt;&lt;/Font&gt;
+　　　　文章にそれぞれ、大きく(BIG)・小さく(SMALL)の書体を指定する事が出来ます。
+　　　ただし、限度を超えて指定しても変化はありません。
+
+　　　　　&lt;B&gt;例)&lt;/B&gt;
+　　　　　　　＜BIG＞ＸＸＸ＜BIG＞ＸＸＸ＜BIG＞ＸＸＸ＜/BIG＞＜/BIG＞＜/BIG＞
+　　　　　　　　　　　　　　　　 ・・・　&lt;BIG&gt;ＸＸＸ&lt;BIG&gt;ＸＸＸ&lt;BIG&gt;ＸＸＸ&lt;/BIG&gt;&lt;/BIG&gt;&lt;/BIG&gt;
+　　　　　　　＜SMALL＞ＸＸＸ＜SMALL＞ＸＸＸ＜SMALL＞ＸＸＸ＜/SMALL＞＜/SMALL＞＜/SMALL＞
+　　　　　　　　　　　　　　　　 ・・・　&lt;SMALL&gt;ＸＸＸ&lt;SMALL&gt;ＸＸＸ&lt;SMALL&gt;ＸＸＸ&lt;/SMALL&gt;&lt;/SMALL&gt;&lt;/SMALL&gt;
+
+　　&lt;Font color=#F0FF55 size=+1&gt;&lt;B&gt;センタリング(CENTER)&lt;/B&gt;&lt;/Font&gt;
+　　　　ブラウザのサイズに合わせて文章を中心に表示します。
+
+　　　　　&lt;B&gt;例)&lt;/B&gt;
+　　　　　　　＜CENTER＞ＸＸＸ＜/CENTER＞
+　　　　　　　&lt;CENTER&gt;ＸＸＸ&lt;/CENTER&gt;
+
+　　&lt;Font color=#F0FF55 size=+1&gt;&lt;B&gt;フォント　　(FONT)&lt;/B&gt;&lt;/Font&gt;
+　　　　FONTタグについてはもう少し詳しく説明します。
+
+　　　　FONTタグで一般的に使用されるオプションには&lt;Font color=#FFA07A&gt;SIZE&lt;/Font&gt;と&lt;Font color=#FFA07A&gt;COLOR&lt;/Font&gt;があります。
+　　　この二つのオプションを組み合わせる事で、多彩な表現が可能です。
+
+　　　　　&lt;Font color=#FFFF00&gt;&lt;B&gt;＜FONT SIZE=○ COLOR=●＞&lt;/B&gt;&lt;/Font&gt;
+　　　　　&lt;Font color=#FFFF00&gt;&lt;B&gt;　　　○：(小)1～7(大)又は(小)-7～+7(大)&lt;/B&gt;&lt;/Font&gt;
+　　　　　&lt;Font color=#FFFF00&gt;&lt;B&gt;　　　●：色指定値(#RRGGBB)又は色名&lt;/B&gt;&lt;/Font&gt;
+
+　　　　&lt;Font color=#FFA07A&gt;SIZE&lt;/Font&gt;は&lt;Font color=#FFA07A&gt;1～7&lt;/Font&gt;の値で直接指定するか、&lt;Font color=#FFA07A&gt;+-&lt;/Font&gt;での相対的指定が出来ます。つまり
+　　　&lt;Font color=#FFA07A&gt;SIZE=+1&lt;/Font&gt;とすると、今より少し大きなフォントになります。
+
+　　　　　&lt;B&gt;例)&lt;/B&gt;
+　　　　　　　＜Font size=-1＞ちょっと小さく＜/Font＞
+　　　　　　　標準の大きさ
+　　　　　　　＜Font size=+2＞ちょっと大きく＜/Font＞
+
+　　　　　　　&lt;Font size=-1&gt;ちょっと小さく&lt;/Font&gt;　標準の大きさ　&lt;Font size=+2&gt;ちょっと大きく&lt;/Font&gt;
+
+　　　　&lt;Font color=#FFA07A&gt;COLOR&lt;/Font&gt;は&lt;Font color=#00FFFF&gt;色指定値&lt;/Font&gt;にて直接指定する方法と&lt;Font color=#00FFFF&gt;色名&lt;/Font&gt;を指定する方法があります。
+　　　　&lt;Font color=#00FFFF&gt;色指定値&lt;/Font&gt;は&lt;Font color=#FFA07A&gt;#&lt;/Font&gt;の後に&lt;Font color=#FFA07A&gt;RRGGBB&lt;/Font&gt;の形式で指定します。&lt;Font color=#FF0000&gt;RR&lt;/Font&gt;は赤・&lt;Font color=#00FF00&gt;GG&lt;/Font&gt;は緑・&lt;Font color=#0000FF&gt;BB&lt;/Font&gt;は青の色を
+　　　&lt;Font color=#FFA07A&gt;16進数&lt;/Font&gt;にて指定します。&lt;Font color=#FFA07A&gt;16進数&lt;/Font&gt;とは&lt;Font color=#00FFFF&gt;0～Fの16通り&lt;/Font&gt;で表現するものです。ちょうど
+　　　キャラメイクの時に髪の色を作成しましたよね。その時赤と緑と青の3種類のバー
+　　　を増減させて色を付けていたと思います。あれと同じ事を16進数で直接指定するの
+　　　がこの方式です(16進数の詳しい説明は割合させていただきます)。
+
+　　　　　&lt;B&gt;例)&lt;/B&gt;
+　　　　　　　&lt;Font color=#FF0000&gt;赤色です&lt;/Font&gt;　・・・　＜Font color=#FF0000＞赤色です＜/Font＞
+　　　　　　　&lt;Font color=#00FF00&gt;緑色です&lt;/Font&gt;　・・・　＜Font color=#00FF00＞緑色です＜/Font＞
+　　　　　　　&lt;Font color=#0000FF&gt;青色です&lt;/Font&gt;　・・・　＜Font color=#0000FF＞青色です＜/Font＞
+
+　　　　&lt;Font color=#00FFFF&gt;色名&lt;/Font&gt;を指定する方法は、&lt;Font color=#00FFFF&gt;色指定値&lt;/Font&gt;のように色の構成を指定するのではなく、
+　　　名称を指定する方法です。
+
+　　　　&lt;Font color=#00FFFF&gt;色名&lt;/Font&gt;に指定出来る文字は色々ありますが、ブラウザ依存の色名がある為
+　　　注意が必用です。
+　　　　以下にどのブラウザでも使用出来ると思われる、標準16色の色名を書き
+　　　出しておきます。
+
+　　　　　　　&lt;Font color=#FFFF00&gt;&lt;B&gt;black　gray　silver　white&lt;/B&gt;&lt;/Font&gt;
+　　　　　　　&lt;Font color=#FFFF00&gt;&lt;B&gt;blue　navy　teal　green&lt;/B&gt;&lt;/Font&gt;
+　　　　　　　&lt;Font color=#FFFF00&gt;&lt;B&gt;aqua　lime　yellow　fuchsia&lt;/B&gt;&lt;/Font&gt;
+　　　　　　　&lt;Font color=#FFFF00&gt;&lt;B&gt;olive　purple　maroon　red&lt;/B&gt;&lt;/Font&gt;
+
+　　　　&lt;Font color=#00FFFF&gt;色名&lt;/Font&gt;を使用する場合注意が必用なのは、&lt;Font color=#55FF55&gt;&lt;U&gt;必ずしも名前のとおりの色になる&lt;/U&gt;&lt;/Font&gt;
+　　　&lt;Font color=#55FF55&gt;&lt;U&gt;わけではない&lt;/U&gt;&lt;/Font&gt;ということです。例えば&lt;Font color=#FFA07A&gt;green&lt;/Font&gt;ですが、名前のとおり想像すると
+　　　&lt;Font color=#FFA07A&gt;緑色(#00FF00)&lt;/Font&gt;を想像されるかと思いますが、実際の緑色は&lt;Font color=#FFA07A&gt;lime&lt;/Font&gt;になります。
+
+　　　　　&lt;B&gt;例)&lt;/B&gt;
+　　　　　　　&lt;Font color=green&gt;緑色です&lt;/Font&gt;　・・・　＜Font color=green＞緑色です＜/Font＞
+　　　　　　　&lt;Font color=#00FF00&gt;緑色です&lt;/Font&gt;　・・・　＜Font color=#00FF00＞緑色です＜/Font＞
+　　　　　　　&lt;Font color=lime&gt;緑色です&lt;/Font&gt;　・・・　＜Font color=lime＞緑色です＜/Font＞
+
+　　　　ですので、色指定値が分かっている場合は出来る限りそちらを使用する方が
+　　　確実です。
+
+　　　　&lt;Font color=#99FF66&gt;永田２円&lt;/Font&gt;さん提供のセクションIDにあった色を紹介いたします。
+　　　YELLOWBOZEとWHITILL以外は&lt;Font color=#FFA07A&gt;白地に合う色 / 黒地（このBBSみたいな）に合う色&lt;/Font&gt;
+　　　との事なので、各IDを色付きで書き込む時等に参考にしてください。
+
+　　　　　&lt;Font color=#3CB371&gt;&lt;B&gt;VIRIDIA&lt;/B&gt;&lt;/Font&gt;
+　　　　　　　#006400(DARKGREEN) / #3CB371(MEDIUMSEAGREEN)
+　　　　　&lt;Font color=#90EE90&gt;&lt;B&gt;GREENNILL&lt;/B&gt;&lt;/Font&gt;
+　　　　　　　#7FFF00(CHARTREUSE) / #90EE90(LIGHTGREEN)
+　　　　　&lt;Font color=#87CEFA&gt;&lt;B&gt;SKYLY&lt;/B&gt;&lt;/Font&gt;
+　　　　　　　#00FFFF(AQUA) / #87CEFA(LIGHTSKYBLUE)
+　　　　　&lt;Font color=#6495ED&gt;&lt;B&gt;BLUEFULL&lt;/B&gt;&lt;/Font&gt;
+　　　　　　　#4169E1(ROYALBLUE) / #6495ED(CORNFLOWERBLUE)
+　　　　　&lt;Font color=#BA55D3&gt;&lt;B&gt;PURPLENUM&lt;/B&gt;&lt;/Font&gt;
+　　　　　　　#9932CC(DARKORCHID) / #BA55D3(MEDIUMORCHID)
+　　　　　&lt;Font color=#FFB6C1&gt;&lt;B&gt;PINKAL&lt;/B&gt;&lt;/Font&gt;
+　　　　　　　#FF69B4(HOTPINK) / #FFB6C1(LIGHTPINK)
+　　　　　&lt;Font color=#F08080&gt;&lt;B&gt;REDRIA&lt;/B&gt;&lt;/Font&gt;
+　　　　　　　#ff0000(RED) / #F08080(LIGHTCOLAL)
+　　　　　&lt;Font color=#F4A460&gt;&lt;B&gt;ORAN&lt;/B&gt;&lt;/Font&gt;
+　　　　　　　#FF8C00(DARKORANGE) / #F4A460(SANDYBROWN)
+　　　　　&lt;Font color=#FFFF00&gt;&lt;B&gt;YELLOWBOZE&lt;/B&gt;&lt;/Font&gt;
+　　　　　　　#FFFF00(YELLOW)
+　　　　　&lt;Font color=#FFFFFF&gt;&lt;B&gt;WHITILL&lt;/B&gt;&lt;/Font&gt;
+　　　　　　　#FFFFFF(WHITE)
+
+
+&lt;H3&gt;&lt;Font color=#FF6347&gt;・16進数&lt;/Font&gt;&lt;/H3&gt;
+　　　　一般に日常で使われている数字は基本的には&lt;Font color=#FFA07A&gt;10進法&lt;/Font&gt;といわれています。
+　　　これは、&lt;Font color=#FFA07A&gt;0～9&lt;/Font&gt;までの&lt;Font color=#FFA07A&gt;10種類の数&lt;/Font&gt;を使用し、&lt;Font color=#FFA07A&gt;10にて桁が上がる為&lt;/Font&gt;です。これ
+　　　に対して&lt;Font color=#FFA07A&gt;0～9&lt;/Font&gt;までの数字及び&lt;Font color=#FFA07A&gt;A～F&lt;/Font&gt;までのアルファベットの&lt;Font color=#FFA07A&gt;16種類の数&lt;/Font&gt;を使用
+　　　して、&lt;Font color=#FFA07A&gt;16にて桁が上がる数え方&lt;/Font&gt;のことを&lt;Font color=#FFA07A&gt;16進法&lt;/Font&gt;と呼びます。&lt;Font color=#FFA07A&gt;16進数&lt;/Font&gt;と&lt;Font color=#FFA07A&gt;10進数&lt;/Font&gt;
+　　　の対応は以下のようになります。
+
+　　　　　・&lt;Font color=#FFFF00&gt;&lt;B&gt;0～9はそのまま&lt;/B&gt;&lt;/Font&gt;
+　　　　　・&lt;Font color=#FFFF00&gt;&lt;B&gt;A = 10&lt;/B&gt;&lt;/Font&gt;
+　　　　　・&lt;Font color=#FFFF00&gt;&lt;B&gt;B = 11&lt;/B&gt;&lt;/Font&gt;
+　　　　　・&lt;Font color=#FFFF00&gt;&lt;B&gt;C = 12&lt;/B&gt;&lt;/Font&gt;
+　　　　　・&lt;Font color=#FFFF00&gt;&lt;B&gt;D = 13&lt;/B&gt;&lt;/Font&gt;
+　　　　　・&lt;Font color=#FFFF00&gt;&lt;B&gt;E = 14&lt;/B&gt;&lt;/Font&gt;
+　　　　　・&lt;Font color=#FFFF00&gt;&lt;B&gt;F = 15&lt;/B&gt;&lt;/Font&gt;
+　　　　　・&lt;Font color=#FFFF00&gt;&lt;B&gt;10= 16&lt;/B&gt;&lt;/Font&gt;
+
+　　　このように数えることで&lt;Font color=#FFA07A&gt;16進数&lt;/Font&gt;2桁では&lt;Font color=#FFA07A&gt;0～FFまでの255種類&lt;/Font&gt;の数を表す事が
+　　　出来ます。計算の仕方は&lt;Font color=#FFA07A&gt;10進数&lt;/Font&gt;の計算を応用するだけで簡単に出来ます。
+
+　　　　　&lt;B&gt;例)二桁の求め方&lt;/B&gt;
+　　　　　　　&lt;Font color=#FFFF00&gt;※25の場合&lt;/Font&gt;
+　　　　　　　　&lt;Font color=#FFFF00&gt;・10進数の場合&lt;/Font&gt;
+　　　　　　　　　　&lt;Font color=#FFFF00&gt;十の位が2の為、2*10で20&lt;/Font&gt;
+　　　　　　　　　　&lt;Font color=#FFFF00&gt;一の位が5の為、5*1 で 5&lt;/Font&gt;
+　　　　　　　　　　&lt;Font color=#FFFF00&gt;ゆえに十の位(20)と一の位(5)を足して10進数で25&lt;/Font&gt;
+　　　　　　　&lt;Font color=#FFFF00&gt;※25の場合&lt;/Font&gt;
+　　　　　　　　&lt;Font color=#FFFF00&gt;・16進数の場合&lt;/Font&gt;
+　　　　　　　　　　&lt;Font color=#FFFF00&gt;十の位が2の為、2*16で32&lt;/Font&gt;
+　　　　　　　　　　&lt;Font color=#FFFF00&gt;一の位が5の為、5* 1で 5&lt;/Font&gt;
+　　　　　　　　　　&lt;Font color=#FFFF00&gt;ゆえに十の位(32)と一の位(5)を足して10進数で37&lt;/Font&gt;
+　　　　　&lt;B&gt;例)三桁の場合&lt;/B&gt;
+　　　　　　　&lt;Font color=#FFFF00&gt;※123の場合&lt;/Font&gt;
+　　　　　　　　　　&lt;Font color=#FFFF00&gt;百の位が1の為、1*10*10で100&lt;/Font&gt;
+　　　　　　　　　　&lt;Font color=#FFFF00&gt;十の位が2の為、2*10で20&lt;/Font&gt;
+　　　　　　　　　　&lt;Font color=#FFFF00&gt;一の位が5の為、3*1で3&lt;/Font&gt;
+　　　　　　　　　　&lt;Font color=#FFFF00&gt;ゆえに合計して10進数で123&lt;/Font&gt;
+　　　　　　　&lt;Font color=#FFFF00&gt;※12Aの場合&lt;/Font&gt;
+　　　　　　　　　　&lt;Font color=#FFFF00&gt;百の位が1の為、1*16*16で256&lt;/Font&gt;
+　　　　　　　　　　&lt;Font color=#FFFF00&gt;十の位が2の為、2*16で32&lt;/Font&gt;
+　　　　　　　　　　&lt;Font color=#FFFF00&gt;一の位がAの為、A(10)*1で10&lt;/Font&gt;
+　　　　　　　　　　&lt;Font color=#FFFF00&gt;ゆえに合計して10進数で298&lt;/Font&gt;
+
+
+&lt;H3&gt;&lt;Font color=#FF6347&gt;・タグを使用する上での注意&lt;/Font&gt;&lt;/H3&gt;
+　　　　タグを使用することで色々インパクトのある文章を作成することができますが、
+　　　変に多用したりすると、異様に醜い文章になってしまいます。また、一つでも
+　　　ミスがあると、&lt;Font color=#55FF55&gt;&lt;U&gt;正常なタグまでも反映されなくなってしまう&lt;/U&gt;&lt;/Font&gt;ようなので、慣れる
+　　　までは、問題の箇所を探すだけでも大変です。ですので、慣れるまでは多量のタグを
+　　　使用するのはやめましょう。
+
+　　　　最後に、本文中にタグを使用する上での注意を書き出しておきます。
+
+　　　　　・&lt;Font color=#FFFF00&gt;&lt;B&gt;本文中に半角＜＞を使用しない&lt;/B&gt;&lt;/Font&gt;
+　　　　　・&lt;Font color=#FFFF00&gt;&lt;B&gt;タグのオプション値を「”」で囲まない(タグ内で「”」を使用しない)&lt;/B&gt;&lt;/Font&gt;
+　　　　　・&lt;Font color=#FFFF00&gt;&lt;B&gt;開始タグと終了タグの文字を統一する&lt;/B&gt;&lt;/Font&gt;
+　　　　　・&lt;Font color=#FFFF00&gt;&lt;B&gt;タグは全て半角で入力する&lt;/B&gt;&lt;/Font&gt;
+　　　　　・&lt;Font color=#FFFF00&gt;&lt;B&gt;複数行にまたがるタグは使用しない&lt;/B&gt;&lt;/Font&gt;
+</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

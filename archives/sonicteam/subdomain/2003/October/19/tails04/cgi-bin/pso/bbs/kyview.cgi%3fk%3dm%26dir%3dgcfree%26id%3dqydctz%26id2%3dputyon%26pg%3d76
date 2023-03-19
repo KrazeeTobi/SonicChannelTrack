@@ -1,0 +1,167 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/76/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="gcfree">
+<input type="hidden" name="id" value="qydctz">
+<input type="hidden" name="id2" value="putyon">
+<input type="hidden" name="pg" value="76">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >詳しく解説して頂いてありがとうございます
+
+なるほど、疑問が解消しました。
+メモリーカード抜いて直ぐなら、キャラロストしないのは
+まだ、セーブの処理が実行されていない為でしたか。
+確かにセーブの処理を実行するまでに数秒かかるのは
+理解できました。
+
+そう考えると私の検証では失敗してますが、
+セーブ中と出ていてもセーブが終わってる
+タイミングもありそうですね。
+
+ストップウオッチで厳密に時間をずらして
+検証すれば解明できそうですが、流石にそこまでの手間は
+かけれそうにないです（汗
+既にキャラもまだレベル低いですが、復旧させてしますし＾＾；
+
+このお話しをお聞きして、簡単にまとめてみました。
+
+キャラロストの仕組みがメモリカードに
+データを完全に送受信する前に、フリース等の要因で
+途中でデータ配信が途絶えた為に、
+不良データとなってしまうからだとするのならば、
+
+セーブとフリーズが重なる可能性が最も高い
+入室時にキャラロストが起こるのは
+ごく自然の成り行きだと言うことですね。
+この現象は起こりうるべくして起こったということですね。
+
+ここからは、自分の検証結果とMSNー１００さんが
+答えてくれた私の疑問とを併せて導き出した物ですが、
+
+入室時にフリーズしてもキャラロストしなかった
+人がいたことも納得できました。
+画面にセーブ中と出ても、実際にセーブが実行されるまでに
+若干の時間差があるのですから、
+
+入室時にフリーズしても
+実際にセーブされる前のタイミングで、
+フリーズが起きていた場合は
+セーブは実行されていないのですから
+キャラロストが起こらなかったのではないのでしょうか？
+これで上記のまれな場合も説明が付きませんか？
+もちろん同じように、セーブ完了後にフリーズした場合も
+キャラロストしないと考えます。
+
+しかし、これらのタイミングは数秒と限られている為
+キャラロストを免れる、フリーズとセーブ前・後という
+コンボが起こる確率が、
+
+キャラロストを招く、フリーズとセーブ中という
+コンボが起こる確率より起こりに悔い為、
+
+キャラロストを免れた人の例が少ない
+ことも説明が付くと思います。
+
+もう一つの疑問の
+チェックルーム等でのセーブで、
+フリーズ・キャラロスト報告が少ないのは
+そういう事だったんですか、勉強になります。
+フリーズにも色々ある事がわかりました。
+
+＊データの量が多くて処理が出来なくなってフリーズする場合
+＊本体に起因する場合（熱暴走、読み込み不良、接触不良等）
+＊回線不良の場合
+＊メモリカードの不良（老朽化とか）
+だいたい大きく分けるとこのくらいでしょうか？
+データ量が多すぎて処理できなった場合と
+回線不良が一番多そうですね
+
+かなり勉強になりました。ありがとうございます。
+
+ＰＳ
+流石に、新規で改めて発言するのは、
+気がひけますので遠慮します。
+
+ＭＳNー1００さんがキャラロストの詳細を集めていたようなので
+参考になればと、機械に疎いながらも、
+たまたま実験したので、書かせて頂きました。
+私の実験内容が役に立つなら、お使い下さい。
+
+最後になりますが、わざわざお返事頂いてありがとうございました。
+ 
+</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

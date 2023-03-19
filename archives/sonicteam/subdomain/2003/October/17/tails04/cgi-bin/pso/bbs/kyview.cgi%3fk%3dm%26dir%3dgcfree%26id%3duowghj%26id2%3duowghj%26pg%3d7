@@ -1,0 +1,136 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/7/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="gcfree">
+<input type="hidden" name="id" value="uowghj">
+<input type="hidden" name="id2" value="uowghj">
+<input type="hidden" name="pg" value="7">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >今回のバグ発覚については、嘆く人、怒る人と色々居るみたいですけど
+それについてちょっと言いたい事があるので、カキコさせてもらいます。
+
+まず第１点、修正版に対する旧バージョンキャラデータの扱いについて
+発表してくれない事には、現行バージョンで何もやる気が起きないとい
+う点。
+
+俺としてはアイテムコピーが出来る事自体は、確かにショックではあり
+ますが、ゲームを辞める程嫌だとは思いません。ＤＣ版から、アイテム
+譲渡や交換は一切しなかったので、その状況に戻っただけだと思う事に
+しています。
+しかし反面、これでゲームの秩序が完全に崩壊し、例えば何でもアイテ
+ムを１個ゲットしたら、知り合いみんなと共有、なんて事する人も居る
+でしょう。
+従って、修正版の配布、旧版の回収はメーカーとして当然の急務だと思
+います。ただ、ここでひっかかるのは
+&lt;B&gt;修正版が出た場合、旧キャラからのデータをどうするかさっさとはっきりしてほしい&lt;/B&gt;
+という事です。
+とにかく現状ではやる気が出ません。消えるかも知れないキャラを育て
+るのもかったるいし、かと言って、どんどんＵｌｔへと以降していく仲
+間達についていきたい気持ちもあったりして、なんともすっきりしない
+気分です。
+
+そして第２点、こっちが本題です。これはこの問題に対してここで発言
+しているプレイヤー側への発言ですが、今回のこの問題の責任を、オフ
+アイテム移動可にしてく
+れと要求していたトライアルプレイヤーに問うのはおかしいんじゃない
+か？という事。
+
+バグを残したのはソニチです。しかも発売からたった数日で発覚するよ
+うなバグです。どう考えても俺はソニチのデバッグ・テスト不足だと思
+うのですが。
+ここでカキコしてる人にも、オフアイテム移動が可能かどうか議論を進
+めていった結果、不可能だという結論に達したって人が居ます。テスト
+と改善を繰り返して、穴が無いと確信できるオフアイテム移動システム
+を作るか、それでどうしても穴が取り除けなかったら、オフアイテム移
+動は無理だって結論づけて、仕様に加えないか、ソニチの選択は二つに
+一つだったんじゃないですかね？
+
+というか、トライアルから発売までの期間があまりにも短すぎた事が問
+題の根本的な要因でしょう。発売を更に延期するリスクを回避するため
+また、デバッグにかかるコストを回避するために、代償としてこういっ
+た致命的なバグが残るリスクを背負ったって事でしょう。
+&lt;B&gt;バグを残した責任は、発売日を優先してデバッグを怠ったソニチにあり、
+改善要求を出したトライアルユーザーには責任は全く無い&lt;/B&gt;
+と、俺は考えます。
+テストする側のシロートが、いちいち技術的に可能かどうか判断しなが
+らあれこれ要求するなんて、はっきり言って無理でしょう。
+
+
+しかし、修正版出すなら早い方が傷は浅くて済むと思うんですけどね。
+ＧＣでもチー○が可能になったら、この問題も大した事では無くなるか
+も知れませんが・・・</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

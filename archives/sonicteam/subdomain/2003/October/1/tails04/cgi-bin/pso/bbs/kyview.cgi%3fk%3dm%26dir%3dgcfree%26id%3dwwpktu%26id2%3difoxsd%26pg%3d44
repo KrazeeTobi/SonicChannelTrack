@@ -1,0 +1,109 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/44/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="gcfree">
+<input type="hidden" name="id" value="wwpktu">
+<input type="hidden" name="id2" value="ifoxsd">
+<input type="hidden" name="pg" value="44">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >伝わらなければしょうがない
+
+要は、その言葉の前後に　どういった事が書かれているか。
+
+「イヤならやめろ（T/O）」
+
+とかだと、ゴミレスだと思います。
+正論であろうがなかろうが、レスされた相手には嫌悪感しか残らなく、不愉快にさせるだけのレス。
+スレ主の話題が　レスした当人にとって不愉快であっても、そういうレスをする様では　50歩100歩というモノ。
+以前もカキコしたんですが、正論であれば　どの様なかき方でも構わないナンて事ぁないと思います。
+ちょいと皮肉を効かせて　そう言ったんなら兎も角、とは思いますけども。
+話しの流れの中の　一環として。
+まぁ　その部分（ちょいと皮肉った部分）にのみ　妙に敵対心を持って
+延々と噛み付いてくる方も　居ますけどね。
+
+言葉のみのコミュニケーションだから、もしかしたら帰って来たウルフさんに
+きつめの言い方で　激を飛ばしてくれてたのかも　知れませんよ。
+先に、「U海岸で攻撃　当たらなくて．．．」って書いておけば、また違ったレスが付いたかもですね。
+ナンにしろ、必要以上に人を傷つけたり　不愉快にさせる書き方は　嫌いです。
+ま　個人的な意見ですけどもね。
+誰だって、攻撃されれば　過剰に反応するモノですし。
+俺も　リアルなら、もう．．．って書くと　削除されるので止めとこうか（W
+
+俺も　素がかなりキツイうえ、元々　攻撃的なので、こちらではなるべく　毒気を抜いている（つもり）ですが、
+最近　よく削除されます（＾ー＾；
+お互い　気を付けたいですね。</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

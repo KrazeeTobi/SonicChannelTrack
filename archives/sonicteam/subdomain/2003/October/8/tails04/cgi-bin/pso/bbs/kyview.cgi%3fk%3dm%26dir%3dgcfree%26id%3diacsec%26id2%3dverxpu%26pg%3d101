@@ -1,0 +1,132 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/101/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="gcfree">
+<input type="hidden" name="id" value="iacsec">
+<input type="hidden" name="id2" value="verxpu">
+<input type="hidden" name="pg" value="101">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >ARKさんご指摘の「汚れによるレンズ読み込みのリトライ」という
+現象も否定はできないのですが、2つほど考えられることがあります。
+
+一つはレーザーパワー（光発振能力）の低下。
+このPSOは「連続で半日ぶっ続け」などといったヘビーな使い方を
+される人も多く、それゆえに3000時間程度を超えてくるとなると、
+使用環境にもよりますが、夏場ということもあり比較的高温な
+室内で（30度前後）ずっと連続稼働をされてきたら、レーザーの
+発振能力がダウンしている可能性があります。
+
+他のゲームではしっかり読み取れるよ、というのであれば問題
+ありません。それはもう一つ、が足枷になっているかもしれません。
+
+足枷、というのは、カチンカチンと鳴る様になってきたのは、
+ピックアップ部を動かすためのレールの部分が磨耗してきて
+生じる現象でもあるのです。
+
+GCは小型径のディスクを使用して回転速度を上げ、ゲームに必要な
+ランダムアクセス性能を高めているのもあるので、レンズを
+固定しているピックアップ部を動かすレール、ベルトの部分が
+磨耗してくる（ヤレてくる）のも思いの外早いのです。
+
+PSOはその性質上、データを非常に細かく分けているため、
+アクセス頻度が他のゲームに比べて多いのが難点で、それが原因で
+フリーズなどを引き起こしたりもしている模様です（I/Oアクセスが
+かなりピークに近いらしい＝通信系プロトコル処理が追いつかなく
+なるケースもある）。
+フリーズなどでよく電源周り、などいわれる人も多いみたいですが、
+私の環境下などは電力供給そのものが非常に不安定な地域で
+（テレビモニタがパッシング＜明滅したりする＞することもザラ
+=瞬断＜一瞬の電圧降下が起こり、電源が切れてしまう＞が起こる
+最中で、タコ足＜なんとホストから24分岐！＞させても、GCが
+ダウンしたりすることなどは一度もありません、
+しかも悪評高い初期型^^;）
+
+
+つまり、PSOの所為などを見つめる前に、他のゲームの挙動なども
+随時確かめてみることをおすすめします。それでも調子が悪い様であれば、
+素直に修理に出してみることをおすすめします。
+長持ちさせる方法としては、頻繁な人気の多いロビー移動は
+おすすめできません。非常にアクセスしているのが判ると思います。
+
+
+私は現行でフォマさんつかってますが、Lv186で2600時間経過して
+カタンカタンいうようになってきていますが、それでもまだまだ、
+元気にがんばってくれています^^;
+（ベルト交換などは500円もあったら終わるのですが（汗笑））
+
+（一部訂正）</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

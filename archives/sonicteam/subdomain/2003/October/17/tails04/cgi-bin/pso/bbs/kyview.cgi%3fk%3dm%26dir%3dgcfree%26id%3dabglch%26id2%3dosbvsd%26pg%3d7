@@ -1,0 +1,124 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/7/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="gcfree">
+<input type="hidden" name="id" value="abglch">
+<input type="hidden" name="id2" value="osbvsd">
+<input type="hidden" name="pg" value="7">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >それに関しては、公式発表から読み取れます
+
+「当初、修正バージョンを一早く制作し速やかに全数交換を促進する
+　・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・
+　判断し、二段階に分けた対応を採らせていただくこととしました。」
+
+の部分に、不具合の存在自体をご存じない・はじめてネットワークRPG
+をプレイされようとしている方の排除行為に繋がりかねないと判断と
+あります。
+
+　これって、オンにつないでいる人は「お知らせ」が最初に出てきます
+ので知っているはずですから、オフラインユーザもしくは未購入だが検
+討中の人ということになりますよね。その方たちの排除行為・・・、つまり
+は、全数交換によって、一時的に店頭からソフトがなくなる・・もしくは、
+オンライン接続のためには製品の交換が必要になるといった手続きが必
+要になることを意味しますよね。これはSEGAにとっては損だと判断した
+わけですよね。窓口を一時的にも閉めるのはよくないと・・。だから回収
+もしないし、交換もしばらくはしないということです。
+
+　これは、いうなら、ソフトを既に買ってオンにつないでいる人には窮
+屈だけど我慢してもらって、新しい客を呼び込みたいだけですよね。つ
+まり、現状のまま売り続けたいといってるわけです。
+
+　かなりユーザーを馬鹿にした決断ですね。最初に発表を見たときに我
+が目を疑いましたよ。もう、買った人はどうでもいいの? と思うくらいに
+酷い内容ですから。プレイスタイルでゲームが変わるという奇麗事を平
+然と書かれていましたが、プレイスタイルを大きく左右するのはシステ
+ムであるということをSEGAには認識していただきたい。
+
+　乱暴な読み方だと思う方もいるかもしれませんが、少なくとも私には
+このようにしか読み取れませんでした。
+
+
+　追伸---
+
+　今回のバグを何か誤解されている方が多いと思いますが、オフマルチ
+での移動による仕様変更が直接原因ではないということを理解していた
+だきたい。たぶん、ソースコードでたった1,2行の単純なるミスです。
+この程度で仕様を変更して移動できないようにするのは、あまりにも馬
+鹿げていますし、開発者もしないはずです。
+</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

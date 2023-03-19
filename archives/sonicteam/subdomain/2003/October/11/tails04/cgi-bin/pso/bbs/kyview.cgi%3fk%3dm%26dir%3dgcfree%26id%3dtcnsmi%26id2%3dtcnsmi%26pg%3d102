@@ -1,0 +1,131 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/102/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="gcfree">
+<input type="hidden" name="id" value="tcnsmi">
+<input type="hidden" name="id2" value="tcnsmi">
+<input type="hidden" name="pg" value="102">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >こんばんわ！
+もしくはこんにちわ！！
+
+私はPSO不死鳥伝説KING OF HEARTの広報を担当しています、
+メアと申します！
+
+さてさて、この度またまたチームメンバー募集をいたします。
+明るくマナーを守れる方ならどの様な方でもOK～♪
+
+★「KOH」の決まり事。
+
+　■不正は絶対NGですね。
+
+　■ホーム、HPに訪問してくれる方！
+
+　■マナーを守れる方、紳士と自我自賛できる方！
+　（前も同じ事発言した様な。
+
+★チームホーム、時間、その他色々
+
+　■ホームは&lt;font size=+2 color=#ff0000&gt;67-3-7&lt;/font&gt;です。
+
+　■時間は主に夜からになりま～す。
+　　１１時、１２時辺りから集まってきます★
+
+　■リーダーはRinRe*i/STRRというフォニュ子さんです。
+　（入団希望者様はHPかリーダーさん、または私まで！
+
+　■チーム内で部が出来ました！
+　　その名も…&lt;font size=+2 color=#ff0000&gt;桃色騎士部&lt;/font&gt;です！
+　　桃色部員を募集しています！詳しくはHP参照。
+　　（私の中でセイバー愛好会と勝手に決めてみる…。
+
+KOHは…
+全てのPSOユーザーに憩いの場と愛を語らう場を
+ここに提供する事を誓います…
+
+KOHHPはこちらから↓
+http://ip.tosp.co.jp/i.asp?i=RINSTR
+桃色騎士部もここから飛べるようになっています♪
+
+楽しくPSOライフを過ごしたい方は
+是非御来店くださいまし～♪
+
+ではでは♪
+以上、メン募のお知らせでした！
+
+KOH桃色騎士部広報担当メア</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

@@ -1,0 +1,111 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/42/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="gcfree">
+<input type="hidden" name="id" value="qsdxfz">
+<input type="hidden" name="id2" value="kabezp">
+<input type="hidden" name="pg" value="42">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >○ボードゲーム風（２～４人用）
+
+部屋の敵を全滅すると人数分のアイテムボックス（属性付の武器など、レア武器なども可）が出現
+
+順番でアイテムの取れる順番が決まっている１人目が取るまで、２人目、３人目はとれない。
+１人目が取ると、２人目の人しかとれなくなる。
+（次の部屋では前の部屋で２人目の人が最初に取れるようになり、３人目の人が２人目と順番に取る順序が変わる）
+死亡時のデメリットとして、死んだ人は取得条件が最後に回される。（部屋の敵を全滅させると自動復活）
+
+そうして１通りアイテムを取った後、次の部屋に移動しこの作業を繰り返す。
+４部屋ごとにイベントが発生、勝利条件の変更、取得アイテムの強制廃棄（人数分のアイテムを置かないとドアが開かないとか）などが行われる。
+
+全部で１６部屋（１２個のアイテム取得、４つのイベントがあることになる）
+
+終了後勝利者判定が行われる。
+判定条件は取得アイテムのデータを総計して行われる、ショップ売りの合計金額がデフォルトだが、
+イベントにより総攻撃力数、総命中数、装備不可（X付）武器個数、などが優勝になることもある。
+
+○サイモン風（一人用）
+ＮＰＣがノーマル、ハード、ＥＸの組み合わせで敵を倒していく、
+自キャラも同じ方法で敵を攻撃すると敵が倒れるが、間違えると敵にやられてしまう。
+連続して相手をする敵が増えていくとだんだん混乱してくるぞ！
+
+○お絵かきしましょ
+高台と広場のあるマップ。
+高台に上ると広場を一望できる。
+そこのメセタやアイテムを置いて絵を書きましょ
+と、ただそれだけ。</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

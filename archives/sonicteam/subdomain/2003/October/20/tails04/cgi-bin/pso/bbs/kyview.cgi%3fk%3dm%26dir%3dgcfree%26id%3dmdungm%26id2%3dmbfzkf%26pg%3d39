@@ -1,0 +1,221 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/39/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="gcfree">
+<input type="hidden" name="id" value="mdungm">
+<input type="hidden" name="id2" value="mbfzkf">
+<input type="hidden" name="pg" value="39">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >ADSL回線での接続報告一覧
+2002/11/07 2:58-初版
+
+
+前回までの報告はコチラ
+http://tails04.sonicteam.com/pso/bbs/g/gcfree/33/ppwtbn/ptpuwf.html#ptpuwf
+
+
+----------------------------------------------------------
+ユーザー名：やまと
+
+回線種類 ADSL フレッツADSL 
+プロバイダー SKネット 
+UDPの設定 - 接続設定 - 
+回線切断 - 
+プロクシ設定 - 
+ルータ corega　BAR SW-4P 
+備考 代理投稿なので正確なところは書き込めませんが…
+初期値そのままだと思います。以前、ADSLモデムより直繋ぎで
+IPCPネゴシエーションエラーにより接続できず。
+また、ゲームではNo102のエラーが出ていました。
+ルータを設置することによって接続ができたようです。 
+
+
+----------------------------------------------------------
+
+ユーザー名：へっぽこフォース
+
+回線種類 ADSL フレッツADSL 1.5M 
+プロバイダー JENS SpinNet（元AT&T） 
+UDPの設定 自動 
+接続設定 IPアドレス自動取得 
+回線切断 なし 
+プロクシ設定 なし 
+ルータ マイクロ総研 NetGenesis OPT 
+備考 一応、MTUはDCの頃に設定したような気がします。
+そんなにプレイ期間は長くないですが
+（オンは延べ 8～10時間？ 1回につき 2～4時間繋いでいると思います）
+不安定な動作は一切無しです。 
+
+
+----------------------------------------------------------
+
+ユーザー名：きりの
+
+回線種類 ADSL フレッツADSL 8M 
+プロバイダー ＡＳＡＨＩｎｅｔ 
+UDPの設定 UDPを使用しない 
+接続設定 IPアドレス自動取得 
+回線切断 なし 
+プロクシ設定 なし 
+ルータ corega BAR SW-4P 
+備考 このルータに変えてから一回も回線切れは無いですが
+ラスボス戦に転送途中読み込みしなくなりました。
+おそらくＧＣ本体の問題と思いますが一応報告します。
+ちなみにこれはすでに報告されている同社の
+BAR miniの上位機種版です。
+違いはスループット速度とＬＡＮポートが４つか
+２つかと値段の差だけです。（miniが２つ） 
+
+
+----------------------------------------------------------
+
+ユーザー名：風井　奈夢
+
+回線種類 ADSL フレッツADSL 8M 
+プロバイダー isao.net 
+UDPの設定 自動 
+接続設定 IPアドレス自動取得 
+回線切断 なし 
+プロクシ設定 なし 
+ルータ corega BAR SW-4P HG 
+備考 先週末、我が家にADSL導入。
+常時接続の知識に疎かったのですが、説明書を読みつつ設定し、
+あっさりと繋がりました。特別に設定したことと言えば、
+良く言われている、MTU値を１４５２にしたこと位です。
+オンラインの方は快調で、回線落ちも極稀に起こる程度です。
+聞いた話なのですが、ＧＣＰＳＯはブロードバンドを使用する事を
+前提に作られているようで。オンラインクエストをダウンロードする際に、
+ブロードバンドの人が、ナローバンドの人よりも早く、
+ダウンロードが完了することが論拠だそうです。 
+
+
+----------------------------------------------------------
+
+ユーザー名：ULTRA_MAMAN
+
+回線種類 ADSL 
+プロバイダー Yahoo!BB 8M 
+UDPの設定 UDPを使用しない 
+接続設定 IPアドレス自動取得 
+回線切断 なし 
+プロクシ設定 なし 
+ルータ Corega BAR-MINI 
+備考 モデムとの直結も問題ありませんでした。
+なお、直結をする場合は必ず双方の電源を切った上で
+接続→モデムの電源ON→モデム起動確認→GCの電源
+ってな感じにされるとよろしいかと。
+ルーターを使用する場合はルーターの電源さえ入っていれば、
+普通にGCの電源を入れるだけで特になにもする必要がありません。
+ただ、ルーター固有の症状かもしれませんが、
+直結に比べて若干ラグが発生します。現在原因を究明中。 
+
+
+----------------------------------------------------------
+
+ユーザー名：岩上広昌
+
+回線種類 ADSL eAccess 12M 
+プロバイダー KDDI/DION 
+UDPの設定 UDPを使用する 
+接続設定 IPアドレス手動設定 
+回線切断 なし 
+プロクシ設定 なし 
+ルータ ＮＥＣ　Ａｔｅｒｍ　ＤＲ２０２（ｅ）（イーアクセス提供品） 
+備考 イーアクセスから提供されているものが
+ＡＤＳＬ内蔵ルータとなっていますので、
+ＰＰＰｏＥの設定をする必要が無いです。
+ただ、設定にはＧＣ以外のブラウザが必須になるんで、
+初心者の方には大変かもしれません。ＵＤＰをＯＮにした状態で、
+ＰＣでブラウズと一緒にやっていても、
+とりあえずＧＣ１台だけであれば問題はないようです。
+ＩＰ固定にしているのは、
+どうもこのルータにあるＤＨＣＰはどうも動作が信用出来ないんで、
+固定にしました。そのうち別のＤＨＣＰたてて実験再開の予定。
+回線の不安定さがありますが（１２Ｍとはいえ）３ｋｍ離れているからか、
+たま～に回線切れますが、ＧＣ側の問題でトラブル等が起こることは無いようです。 
+
+
+----------------------------------------------------------
+
+
+この情報は2002/10/30・1:54段階のものです。
+
+備考は各ユーザーの報告内容をGCから閲覧するユーザーの為に、
+某が独断でレイアウトを変更しております。
+見苦しいとは思いますがご理解とご協力をお願いいたします。
+</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

@@ -1,0 +1,118 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/47/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="gcfree">
+<input type="hidden" name="id" value="visnym">
+<input type="hidden" name="id2" value="visnym">
+<input type="hidden" name="pg" value="47">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >さとみさんの立てられたツリーがすぐいっぱいになってしまったので、
+新規を立てさせて頂きました。＾＾
+http://tails04.sonicteam.com/pso/bbs/g/gcfree/47/gbhkfo/index.html
+
+私はPSOのここが好き
+デザイン面
+PSOのキャラクターはリアルでもなくデフォルメされすぎでもなく、
+中立でちょうどいいバランスのデザインだと思います。
+だから、ちょっとしたキメ台詞ひとつで、
+シリアスなキャラにもユーモラスなキャラにも、
+カッコイイキャラにもかわいいキャラにもなれるんですよ。
+
+コミュニケーション面
+ダイアルアップ接続からブロードバンドまで、幅広く対応しているのがいいですね。
+だからいろんな人が集まってくる。人あってのネットゲームです。
+あと、文字＋ワーセレ＋シンボルの、シンプルで強力なチャット。
+
+ゲームシステム面
+単調と思われがちな３段攻撃も、突き詰めれば
+敵からの反撃と命中力の果てしないジレンマ。
+チャレンジモードのアクション性は、下手なアクションゲームよりよほど高いです。
+あと、マグはいいですよね。
+能力のカスタマイズ、外観の個性化、育成の楽しみ、時間潰し（＾＾；
+マグなしにPSOは語れないと思います。
+
+ストーリー面
+あまり多くを語らない所が、ネットRPGとしては成功かと。
+言い方を変えれば、プレイヤーにゆだねられている部分が多いので、
+陶然、ファンサイトや同人誌なんかの創作活動は盛り上がりますよね！
+そういうファンから生まれる創作物が、PSOの本当のストーリーとも受け取れる？考え過ぎかな（＾＾；
+原作付きのタイトルや、超有名RPGの続編としてのタイトルでは、
+創作の幅は狭まって、こうは行きませんよね。
+PSOの世界観はおおらかで良いです。
+
+長文、失礼しました。</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

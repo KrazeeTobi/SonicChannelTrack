@@ -1,0 +1,150 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/76/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="gcfree">
+<input type="hidden" name="id" value="qtdvnj">
+<input type="hidden" name="id2" value="putyon">
+<input type="hidden" name="pg" value="76">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >こっ、これは.....(長文覚悟)
+
+
+すさまじい検証結果ですね。オンオートセーブ中の抜き差しなぞ、
+自分には不可能ですから。（良い子はマネしないでネ＾＾;）
+大いに参考になりました。ありがとうございます。
+
+おっしゃるとおり、データセーブは大概ファイル単位で実施されて
+いて、ファイルデータ開始マーカーと終了マーカーを読み取ること
+で１つのファイルとして認知されるので、その途中で送信が途切れ
+る事はファイル構築を中断した事となり、ＧＣの仕様ではデータの
+認識は不可能です。（マーカーじゃなくフラグかも）
+
+とてつもなく大がかりなマシンで途中のデータを抽出する事は可能
+ではありますが、まぁ、無駄にコストが懸かるだけですし、どの道
+完全復元される訳でもないので無意味ですし。
+(ココだけ読んで「それでも直して」という意見は、結局データの
+改造と大差はないです）
+
+と話がズレました。「セーブします」から1～２秒は大丈夫なのは、
+サーバーからのセーブ命令がまだＧＣに届いていないか、ＧＣが
+まだセーブ処理を開始していなかったと考えられます。
+あとは全く異議を挟む余地のない論説だと思います。
+
+＞フリーズしやすい状況の所でセーブポイントがある。
+＞そのコンボが入室時のキャラロストの要因である。
+
+私も全く同感です。４人目の入室時にフリーズが多発する要因は、
+単純に「既存者３人分のキャラコスチュームデータを入室開始と
+同時にＧＣが処理しなければならない」からです。当然データ量
+は多く、その負荷に加えセリフやらシンボルやらが追加されれば、
+当然その負荷は雪ダルマ式に増加されます。(自キャラ分もあるし)
+
+ここで疑問。「ＤＣでは平気だったぞ」
+お答。「ＤＣとはコスチュームデータ量が比較にならない」
+ここが落とし穴なのです。いくらＧＣが個別コスチュームの処理
+が速くても、多人数分の処理ではおのずと無理を強いられます。
+
+だからチェックルーム等でのオートセーブ時には入室があっても、
+シティにいる側にとっては新加入者分のデータ処理だけなので、
+そのタイミングでのフリーズ報告は少ないと考えられるのです。
+(neoさんの仮説は少しも揺るぎません。自信を持って＾＾）
+
+フリーズを回避する為のユーザー側で出来る事はneoさんが実に
+的確にまとめていますので、こちらはシステム的な回避方法なぞ
+考察しましょう。
+
+それは、「参加者が操作可能となるタイミングと既存者が操作可能
+となるタイミングの同期を一致させるか、参加者のほうが若干先に
+操作可能となるよう、ウェイトタイムを調整する」
+そして、「参加者が操作可能となるタイミングから強制割り込みに
+よりオートセーブを実施するように調整する」
+
+キャラが操作可能となることは、データのＩ／Ｏ処理が完了したと
+同義と考えられるので、この時点でやっとキャラデータは安定状態
+となり、オートセーブの処理もまた安定状態で受ける事が出来ると
+推察される事を前提とした改善策の一つです。
+
+参考になれば幸いです。
+
+（追記）
+neoさんのこの論説、ココでは勿体無いくらいすばらしいものです。
+これは是非新規を立てて警鐘して貰いたいです。
+＞「機械に詳しくないので」　とんでもない！！
+コンピュータなぞ、所詮はヒトの紡いだ論理をなぞっているに過ぎ
+ません。正しい論理こそが、正しい結果を導くのです。
+</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

@@ -1,0 +1,113 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/104/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="gcfree">
+<input type="hidden" name="id" value="mfdlnm">
+<input type="hidden" name="id2" value="qwbcrc">
+<input type="hidden" name="pg" value="104">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >引っかかる部分
+
+&gt;批判的なレスを、叩かれたと表現するのはどうかと
+
+もう既に修正されてますが、乾坤一擲さんの当初の記事は過分に
+嘲笑的な表現が含まれていたと思うのですが、その様な姿勢で
+書かれた記事を「叩き」とは言わないのでしょうかね。
+ふぃおなさんが修正前を見ていたのかは解りませんが、少なく
+とも私には単に批判的な「だけ」には見えませんでしたけど。
+
+ふぃおなさんの記事を改めて見直すと、意見の一つとして実に
+的確だと思うのですが、対する乾坤一擲さんの指摘は少々的外れ
+な印象を受けます。
+意見の全体を見ず言葉尻を取ったものや、親発言に書かれて
+いない部分を勝手に補完しての論理展開等。
+これって如何なモンでしょ。
+説得力皆無且つ曲解もいいとこだと思うのですが、そんなモンを
+詰問口調で押し付けられるのは一方的な迷惑じゃないですかね。
+私が当事者なら相手にしないですが。
+
+&gt;今更ながら自分の最初のレスに対して、自分でレス(中略)
+&gt;こんなふうに書いたら、こんな結果にはならなかったかと。
+
+自分で相手を怒らせるような事書いておいて、「こうすれば
+良かったんですよ」なんて、よく言えますな。
+文中、何度も「すいません」が出てきますが、本当にそう思って
+いるんでしょうか。
+ふぃおなさんの怒りは貴方が促したのだという事を認識して
+いればあんな不遜な発言は出てこないと思うんですがね。
+　</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

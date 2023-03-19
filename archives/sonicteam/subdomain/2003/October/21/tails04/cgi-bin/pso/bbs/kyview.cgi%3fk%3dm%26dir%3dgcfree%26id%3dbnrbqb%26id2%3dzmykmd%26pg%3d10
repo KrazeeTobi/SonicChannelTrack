@@ -1,0 +1,125 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/10/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="gcfree">
+<input type="hidden" name="id" value="bnrbqb">
+<input type="hidden" name="id2" value="zmykmd">
+<input type="hidden" name="pg" value="10">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >発言数増やしたくないので修正で
+
+＞・この不具合は、アイテムの増殖ができるというもので、
+＞通常通りプレイしていただく上では特に問題がないものの、
+＞その運用の仕方によっては快適なネットワークコミュニティの
+＞妨げとなりうる恐れがあるものです
+
+ソニックチームとしては、アイテムの増殖ができるけれども
+それは規約違反を犯したユーザの仕業であり、それにより
+プレイバランスが崩れてもやむを得ない、と言うスタンスで
+なにも対処しないと言う選択肢もあったはずです。
+
+何しろ通常どうリプレイする上では問題がないのですから。
+
+以下追加～～～～～～～～～
+
+S.S.V.さんへ
+
+＞＞ソニックチームとしては、アイテムの増殖ができるけれども
+＞＞それは規約違反を犯したユーザの仕業であり、それにより
+＞・・・違いますよ？増殖はローカルで、ＰＡＤが二つあれば
+＞誰でも出来る方法です。規約違反ですが、一部ユーザーが
+＞直接の第一原因ではないです。
+
+すみません。この部分が理解できていません。
+誰でもできるから、一部ユーザが原因ではない、と言う
+意味でしょうか？
+つまり否定されているのは、「一部ユーザ」の記述でしょうか？
+それとも、一部ではなくてほとんどのユーザがやっていると
+言う意味でしょうか？
+それとも、まだ誰もやってないという意味でしょうか？
+
+＞＞プレイバランスが崩れてもやむを得ない、と言うスタンスで
+＞＞なにも対処しないと言う選択肢もあったはずです。
+＞ですから、旧ニュースの
+＞http://www.sonicteam.com/psogc/pc/news.html
+＞にもある通り、最初静観の方向だったようです。
+＞わずか３日で修正版決定の方向にいった理由は未発表ですねｗ
+
+えっと、私が言いたいのはもうちょっと前段階の話で、
+つまりソニックチームがこの不具合についていっさい
+ふれない、ということもできた、と言う意味なのです。</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>
