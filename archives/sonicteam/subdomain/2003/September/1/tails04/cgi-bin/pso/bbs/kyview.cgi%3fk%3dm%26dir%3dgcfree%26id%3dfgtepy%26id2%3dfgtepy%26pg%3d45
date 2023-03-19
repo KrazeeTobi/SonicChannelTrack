@@ -1,0 +1,115 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/45/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="gcfree">
+<input type="hidden" name="id" value="fgtepy">
+<input type="hidden" name="id2" value="fgtepy">
+<input type="hidden" name="pg" value="45">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >まず、最初に掲示板の私的利用についてご容赦くださるよう、お願いいたします。
+　
+ここから本題
+　
+当方、現在、探し人をしています。
+相手の特徴等ですが・・・・
+　
+（すべてＤＣ時代の特徴です）
+名前　Chiroru2
+職業　はにゅ
+おもな出現先　バトルロビー
+　
+「ＧＣに移行する」と言って、連絡が取れなくなってしまいました。
+たぶん、ＧＣでも、バトルロビーに出現していると、思います。
+　
+本人には、dark calro（ダークカルロ）が、連絡を欲しがっていたと、伝えていただければ、わかるとおもいます。
+　
+何回、メールを送っても、宛て先不明で帰ってきてしまうので・・・・
+困っています。
+　
+心当たりのある方、情報提供お願いします。
+また、本人を見掛けた方へ
+当方が連絡を欲しがっていたことと、ここの掲示板に書き込みしてくれるように、伝えてくださるよう、おねがいいたします。
+　
+最後に、くりかえしではありますが、掲示板の私的利用をご容赦くださるよう、
+また、連絡及び情報提供をお願いします。
+　
+それでは、レス＆連絡がつく事を祈って・・・
+　
+Ｄａｒｋ　Ｃａｌｒｏ　（代理）でした。
+それでは、
+</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

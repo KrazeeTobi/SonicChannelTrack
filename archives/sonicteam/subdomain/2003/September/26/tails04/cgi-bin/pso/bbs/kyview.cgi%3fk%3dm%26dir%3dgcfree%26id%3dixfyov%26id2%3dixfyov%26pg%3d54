@@ -1,0 +1,211 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/54/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="gcfree">
+<input type="hidden" name="id" value="ixfyov">
+<input type="hidden" name="id2" value="ixfyov">
+<input type="hidden" name="pg" value="54">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >&lt;font size=1&gt;（心配は無用だと思うけどツリーばかり立ってるとこの発言埋もれそうでコワい…ぅ…私も……）&lt;/font&gt;
+ 
+はじめて書き込みさせていただきます。
+つたない文章で申し訳ないとはじめにお断りしておきます。
+　
+というのも、私が今から話題にするのは、少々説明に手間取るものだか
+らです。
+　
+Ver1.1に触れたことのない方に対しても発言するので、うまく説明でき
+るかわかりませんし、説明の足りない部分は見つけしだい補足します。
+　
+　
+Ver1.1が届き、プレイしていて、チャットの文字変換に疑問をもちまし
+た。
+　
+端的にいえば、Ver.1でできた文字変換ができないのではないかという
+ものです。
+　
+私に届いたVer1.1では、
+　
+「…」、「♪」、「☆」
+　
+を含む文章は、変換しようとしても、
+　
+『「変換しようとした部分全体が
+　　　　　ひらがなに変換される」
+　　　　　　以外に変換されない』
+　
+ということが起きます。
+これは、Ver1では見られなかったことです。
+　
+具体的に説明します。
+　
+たとえば、
+　
+（朝…ていうか今昼だよ）
+　
+と打ちたいと思い、
+　
+「あさ…ていうかいまひるだよ」
+　
+と入力しますね。そして変換してみると、
+Ver1.1では、
+　
+「あさ…ていうかいまひるだよ」
+　
+とすべてひらがなに変換される以外に変換されません。
+　
+変換する文字ブロックの大きさ（変換しようと思う文字数）を変えよう
+として、ＰＣでいうところの
+　
+「shift + →」あるいは「shift + ←」
+　
+にあたる操作を行っても、その操作を受け付けてくれません。
+　
+友人に頼んで試してもらったところ、
+　
+「あさ…」
+　
+をVer.1で変換すれば
+　
+「朝…」
+　
+になるとのことでした。
+Ver1.1では、少なくとも私の所有するものでは、
+　
+「あさ…」
+　
+は
+　
+「あさ…」
+　
+にしか変換されません。
+　
+つまりは、
+　
+「あさ…ていうかいまひるだよ」
+　
+を
+　
+「朝…ていうか今昼だよ」
+　
+に変換することが、
+　
+Ver1ではできていたのに、
+Ver1.1では「…」を含むために変換できないのではないか、ということ
+です。
+　
+無論、「…」以前の部分を変換しておき、「…」を打ち込んでこれも確
+定させ、「…」以後の部分を打ち込んで変換させれば問題なく
+　
+「朝…ていうか今昼だよ」
+　
+と打ち込めます。
+　
+　
+　
+これは、
+　
+「あさ…」
+　
+のように短い文章であれば、
+とくにメチャクチャ困ることはないと思いますが、
+　
+「あさ…ていうかいまひるだよ」
+　
+のように長い文章の場合、泣くに泣けません。
+　
+　
+わたしはパッドユーザーなのですが、
+　
+すべてひらがなの文章で妥協するか、
+　
+パッドにとっては貴重な文字入力時間をさいて入力し直さなければなり
+ません。
+　
+少し気を利かせたギャグでも言おうとしていた場合、
+　
+そのギャグが最も効果を持つと思われるタイミングはまず外してしまう
+でしょう。
+　
+私の持つVer1.1だけに起こることなのか、
+　
+はたまたそうでなければ忠告になれば幸いと思い、
+　
+文脈も流れ気味ではありますが、駄文を書かせていただきました。
+
+</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

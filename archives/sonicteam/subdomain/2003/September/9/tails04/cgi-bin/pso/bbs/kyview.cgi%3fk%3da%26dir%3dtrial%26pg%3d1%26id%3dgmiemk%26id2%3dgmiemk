@@ -1,0 +1,82 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『ファンタシースターオンライン エピソード１＆２』トライアルBBS</title>
+</head>
+<body background="http://tails04.sonicteam.com/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/t/trial/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#ffffff">MAKING APPEND NOTE</font>
+<hr>
+<p>
+<table width="100%" border="0">
+<tr bgcolor="#004080"><td width="100%"><strong>元の発言</strong></td>
+<td align="right" width="1%" nowrap> <br></td></tr>
+<tr bgcolor="#004080"><td colspan="2"><strong>蔵</strong>  <i> 2002/05/31</i>  </td></tr>
+<tr bgcolor="#000040"><td colspan="2">E-ACCESS 8M ルータNEC　DR30F/CE<BR>でやってみました、PCの代わりにET-MPS使ってますが、<BR>まぁ、そんなに変わらないと思いますので報告まで。<BR><BR>配線<BR>　DR30F/CE -> Ether -> HUB -> Ether -> ET-MPS +モデム<BR>　電話線 -> TA -> 電話線 -> GC モデム。 <BR><BR>モデム等の設定<BR>　DR30F/CE　ポートマッピングに　UDP、TCP/IP<BR>　　　　　　　ともに1024-65535を指定<BR>　　　　　　フォワードIPアドレス指定無し<BR>　　　　　　(この辺はルータによって違うので注意)<BR>　ET-MPS　　UDP、TCP/IP共に1024-65535をPASS指定。<BR><BR>顛末。<BR><BR>DCではこの構成で、インタネットのID,パスワード、電話番号以外は、全て自動でいけてました。<BR><BR>そこで、そのままDCをGCに入れ替えたところ、<BR>PSOのオンラインでは”サーバーに接続できません。メンテナンス中～”と出る。<BR>GCのブラウザでホームページは見れてたので、なにやらちょっとおかしい。<BR><BR>いったん諦めて、普通に電話線につなげて接続するように設定すると、あっさり成功。<BR><BR>そこで、もう一度GC側のネットワークの設定を確認してみる。<BR>通常電話プロバイダの設定とET-MPS接続の大きな<BR>違いはDNSの設定がプロバイダ側には設定されているが、ET-MPSへの接続の時は自動になっていたところ。<BR>アクセスポイントへのログインまでは行ってるので、<BR>その後の処理が、インターネット参照とPSOで違うと、<BR>勝手に決め付けて、DNSを自動からプロバイダ指定のものに<BR>変えてみる。<BR>PSOのUDP設定はAUTOのままだけど接続成功。<BR><BR>その後、１サーバーには嫌われたので、３サーバーで<BR>オンラインプレイ。<BR><BR>部屋には自分以外に１人（計２名）でしたが、<BR>森ドラゴン撃破、その間フォトンブラスト２回<BR>ほどやってみた。<BR>特に問題は感じられない模様。<BR>たまに相手がワープしてるかのように見えたが、<BR>まぁDCで良くある程度にだった（俺的に容認範囲内）<BR><BR>というわけで、常時接続で暫く遊んでみます。<BR><BR>考察。<BR>ET-MPSからのIPアドレス取得時にDNSの取得が旨くされていない模様。<BR><BR>もしかして、PSOのオンライン接続のところで、<BR>DNSまでも自動で取得しようとした場合に、<BR>DNSのアドレスをひろいそこなったり、プライベート<BR>アドレスの場合に無視してたりして・・<BR><BR>というわけで、普通にダイアルアップのときでも<BR>サーバーにさえつながらないときには、ためしに<BR>DNSにプロバイダ指定の固定値を振ってみると直る<BR>かも？<BR><BR>そんなのは自動だからわからねぇ～って場合は、<BR>PCつないで、Windowsの場合は、ipconfig か　winipcfg<BR>の詳細で分かるし、たいていのルータならADSL接続情報の<BR>DNS参照辺りに値が分かりますんで、調べて入れてみてはどうでしょう？<BR><BR>なお、これは私の家ではうまくいきましたが、他の方の環境で<BR>うまくいくとは言い切れませんので、ご参考ということで。<BR></td></tr>
+</table>
+</p>
+<p>
+<form action="submit.cgi" method="post" >
+メッセージ ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual">
+</textarea><BR>
+
+<input type="hidden" name="title" value="Re:E-ACCESS 8M 接続報告。">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="pg" value="1">
+<input type="hidden" name="id" value="gmiemk">
+<input type="hidden" name="id2" value="gmiemk">
+<input type="hidden" name="dir" value="trial">
+</p>
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+<input type="hidden" name="c" value="APPEND">
+<p>
+<input type="submit" value="APPEND"> 書き込み 
+
+</p>
+</form>

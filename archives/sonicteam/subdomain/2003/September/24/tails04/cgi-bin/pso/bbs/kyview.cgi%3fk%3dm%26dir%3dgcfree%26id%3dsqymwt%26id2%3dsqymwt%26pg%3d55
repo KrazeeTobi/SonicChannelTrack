@@ -1,0 +1,130 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/55/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="gcfree">
+<input type="hidden" name="id" value="sqymwt">
+<input type="hidden" name="id2" value="sqymwt">
+<input type="hidden" name="pg" value="55">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >こんばんわ。
+今日の出来事というのは、なにかと不評の多い
+外国人についてです。
+
+今日とある部屋に、乱入を致しました。
+部屋主さんも快く受け入れてくれました。
+ここまでは普通のパターンですね。
+
+その後外国人の方が乱入してこられました。
+なにかと不評が多いものですから、最初は警戒していました。
+
+そして、その方が降りてきました。
+我々はある程度の覚悟はしていました。
+しかし、その方は、一人で突っ走るような行動はとらず
+むしろ我々を部屋の前で待っていてくれました。
+その後、一度町に戻り、事前に取っておいたアイテムを
+いつもどうりに床に置きました。
+
+前回、遊んだ時の外国人の方は、すぐさま置かれてあるアイテムを
+取り、即落ちしていたのですが、
+その方は違いました。
+
+ちゃんと日本人のルールを守り
+置かれているアイテムはすべてみんなの承諾を得て
+扱っていました。
+しかもその後に、
+「ＨＥＬＬＯは日本語でなんと言うの？］と
+英語でたずねられました。
+
+おいらはうれしくなりました。
+向こうには向こうのルールがあるのに
+こちらに気を使ってもらって
+この時、外国人を見直しました。
+たしかに中にはマナーの悪い人はいます。
+しかし、いい人も必ずいることを確信しました。
+
+その後、攻略本を急いで探し
+コミュニケーションのとりかたを必死に読みました
+そして色々な話題で盛り上がり
+ギルドカードも交換をしました。
+（そのお蔭で神殿一周に2時間w）
+
+今回、このことを通して
+ＵＳサーバーと合併してよかったと
+改めて感じました。
+以上です。
+</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

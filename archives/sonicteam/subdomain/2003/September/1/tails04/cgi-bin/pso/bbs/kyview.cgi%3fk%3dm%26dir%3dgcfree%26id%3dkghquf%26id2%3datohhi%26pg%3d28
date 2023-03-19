@@ -1,0 +1,164 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/28/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="gcfree">
+<input type="hidden" name="id" value="kghquf">
+<input type="hidden" name="id2" value="atohhi">
+<input type="hidden" name="pg" value="28">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >ネットワーク関連の用語集
+
+ビギナーが、
+『ルータ』や『IPアドレス』などといった
+インターネット関連の用語を出されても何がなんだか
+解らないと思いますので、某の独断と偏見で、
+用語解説をしてみたいと思います。
+
+『ルータ』はと？－－
+IT関連の用語集で調べてみると、
+『ネットワーク上を流れるデータを他の
+ネットワークに中継する機器。』とあります。
+これだけでは、ピンとこないと思いますので具体例を挙げると、
+『電話の親機と子機』に近いモノだと思ってください。
+電話の場合、一つの電話番号で親機・子機ともに通話、発信
+が可能です。ルータは親機が子機の通話内容を集約し、
+一つの電話番号で相手とやりとりしているのと同じです。
+PSOの場合、ルータが親機、GCが子機と
+思っていただければ結構です。
+
+『IPアドレス』とは？
+－Internet Protocol Address－
+『インターネットやイントラネットなどの
+IPネットワークに接続されたコンピュータ
+1台1台に割り振られた識別番号。』
+とありますが、これは電話の世界に例えると電話番号そのものです。
+
+『DHCPサーバー』とは？
+－Dynamic Host Configuration Protocol－
+『インターネットに一時的に接続するコンピュータに、
+IPアドレスなど必要な情報を自動的に割り当てるサーバー。』
+とあります。
+これはNTTの収容局と思ってください。電話をかけるとNTT
+収容局に通話内容が集められそこから相手先に通話内容が伝わる
+のとほぼ同じです。
+
+『DNSサーバー』とは？
+－Domain Name System 及び domain name server－
+『インターネット上のホスト名と
+IPアドレスを対応させるシステム。』
+とあります。
+これは、インターネット世界ではIPアドレス（電話番号）に
+独自の名前を付ける事が出来るのですが、その名前を
+IPアドレスにつける為のものと思ってください。
+
+『プロクシ』とは？
+『直接インターネットに接続できない内部ネットワーク
+のコンピュータに代わって、「代理」
+としてインターネットとの接続を行うコンピュータのこと。
+また、そのための機能を実現するソフトウェア。』
+と、ありますが、これはインターネットに接続する際に、
+特別な理由があってインターネットに接続できない場合、
+このプロクシと言う仕組みを使って間接的にインターネットに
+接続するモノです。
+
+『PPPoE』とは？
+－Point to Point Protocol over Ethernet－
+これは説明が難しいのですが、
+ADSLは電話回線を使って通信するのですが、
+その電話回線は通常、発信・応答を必要とする回線でして、
+発信・応答が存在しなLAN（イーサネット）でも電話回線が使える
+ようにしたのがPPPoEなのです。
+
+『プロバイダ』とは？
+－ISP 及び Internet Services Provider－
+インターネットを接続する業者のことです。
+ADSLやISDNの回線でインターネットを接続する業者は
+設定が簡単な場合が多いのですが、CATVなど
+ケーブルTV業者の場合、特殊な環境を必要とする場合があるので
+注意が必要です。
+
+
+ざっと、簡単に（しかも独断で）説明してみましたが、
+いかがだったでしょうか？
+結局のところ、インターネットに接続するにはちょっとした
+勉強が必要です。何も問題なければいいのですが、
+ちょっと特殊なプロバイダや環境で接続しようとすると
+こういった単語に出くわすと思います。
+やはり一番イイのはすぐ近くにこういったネットワーク関連に
+強い人物がいて、その人にいろいろ教えてもらうのが
+一番なのです。</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

@@ -1,0 +1,125 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/43/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="gcfree">
+<input type="hidden" name="id" value="trbzpc">
+<input type="hidden" name="id2" value="lxihfd">
+<input type="hidden" name="pg" value="43">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >DC時代は
+
+最大100枚。ファイルをメモカ(VM)間でデータコピーできたけど
+今回はそういう訳に行かないので、相手にメールして
+忘れているようなら消す。
+実際DC時代はコピーしては消し　を繰り返していて
+よくよく考えれば600枚以上貰っている事になる。
+今回、GCではコピー不可能なので、以前より消す事は多くなる
+
+消すのが失礼なら
+「忘れるのはもっと失礼」
+では？
+カード残して置いても無駄でしょ？
+全員絶対忘れないなんて無理だし。相手が忘れていたら
+「当然消す」
+です。こちらにそれほど思い入れが無い限りその時点で
+「不要」でしょ。
+こういう書き方をすると　ショーック!!　とか思う人
+居るかも知れないけど、あくまで俺の意見ね。
+あと、使い辛い「ソート機能」で連絡の付かない人は
+どんどん真ん中に追いやる。
+最初と最後の５ページづつが検索範囲だな・・・。
+中7～9ページは「消す候補」で、ど真ん中１ページは
+「今週掛からなかったら消す」カード。
+カード云々より「くれた人の価値」かな。
+楽しく遊べたか？キャラ的印象は？自キャラとの相性は？
+あとはプレイヤーの人柄。1回しか潜って無くても
+「こいつとは仲良くやりたい」と思える人なら残しておく。
+「あほっぽいケド面白いから又会ってもいいかな？」
+とか。当然、貰って即消し　は無いけどねw
+逆もあるけどw
+熱血もどき先走り死亡系の人は特に消しやすいw
+先にLV20のキャラ２人居た部屋で後から入ってきたLV23・・・
+1エリア終った時点で、LV20のキャラは21になっただけなのに
+LV23だったキャラが25になっている。
+こういう結果まれに見ません？しかも死ぬとうるさい人。
+カードにメモ付けられますが、こういう人って・・・
+気にならないんでしょうかねw
+え？俺？　こういう人のカードは真っ先に真ん中へ。
+メモは「・・・。」
+ネ？「貰ったから」より「くれた人の人柄」じゃないかな？
+結局は「マナー」と「遊び方の概念」だと思うよ？</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

@@ -1,0 +1,150 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『ファンタシースターオンライン エピソード１＆２』トライアルBBS</title>
+</head>
+<body background="http://tails04.sonicteam.com/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/t/trial/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#ffffff">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="trial">
+<input type="hidden" name="id" value="gmiemk">
+<input type="hidden" name="id2" value="gmiemk">
+<input type="hidden" name="pg" value="1">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#ffffff">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#ffffff">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >E-ACCESS 8M ルータNEC　DR30F/CE
+でやってみました、PCの代わりにET-MPS使ってますが、
+まぁ、そんなに変わらないと思いますので報告まで。
+
+配線
+　DR30F/CE -&gt; Ether -&gt; HUB -&gt; Ether -&gt; ET-MPS +モデム
+　電話線 -&gt; TA -&gt; 電話線 -&gt; GC モデム。 
+
+モデム等の設定
+　DR30F/CE　ポートマッピングに　UDP、TCP/IP
+　　　　　　　ともに1024-65535を指定
+　　　　　　フォワードIPアドレス指定無し
+　　　　　　(この辺はルータによって違うので注意)
+　ET-MPS　　UDP、TCP/IP共に1024-65535をPASS指定。
+
+顛末。
+
+DCではこの構成で、インタネットのID,パスワード、電話番号以外は、全て自動でいけてました。
+
+そこで、そのままDCをGCに入れ替えたところ、
+PSOのオンラインでは”サーバーに接続できません。メンテナンス中～”と出る。
+GCのブラウザでホームページは見れてたので、なにやらちょっとおかしい。
+
+いったん諦めて、普通に電話線につなげて接続するように設定すると、あっさり成功。
+
+そこで、もう一度GC側のネットワークの設定を確認してみる。
+通常電話プロバイダの設定とET-MPS接続の大きな
+違いはDNSの設定がプロバイダ側には設定されているが、ET-MPSへの接続の時は自動になっていたところ。
+アクセスポイントへのログインまでは行ってるので、
+その後の処理が、インターネット参照とPSOで違うと、
+勝手に決め付けて、DNSを自動からプロバイダ指定のものに
+変えてみる。
+PSOのUDP設定はAUTOのままだけど接続成功。
+
+その後、１サーバーには嫌われたので、３サーバーで
+オンラインプレイ。
+
+部屋には自分以外に１人（計２名）でしたが、
+森ドラゴン撃破、その間フォトンブラスト２回
+ほどやってみた。
+特に問題は感じられない模様。
+たまに相手がワープしてるかのように見えたが、
+まぁDCで良くある程度にだった（俺的に容認範囲内）
+
+というわけで、常時接続で暫く遊んでみます。
+
+考察。
+ET-MPSからのIPアドレス取得時にDNSの取得が旨くされていない模様。
+
+もしかして、PSOのオンライン接続のところで、
+DNSまでも自動で取得しようとした場合に、
+DNSのアドレスをひろいそこなったり、プライベート
+アドレスの場合に無視してたりして・・
+
+というわけで、普通にダイアルアップのときでも
+サーバーにさえつながらないときには、ためしに
+DNSにプロバイダ指定の固定値を振ってみると直る
+かも？
+
+そんなのは自動だからわからねぇ～って場合は、
+PCつないで、Windowsの場合は、ipconfig か　winipcfg
+の詳細で分かるし、たいていのルータならADSL接続情報の
+DNS参照辺りに値が分かりますんで、調べて入れてみてはどうでしょう？
+
+なお、これは私の家ではうまくいきましたが、他の方の環境で
+うまくいくとは言い切れませんので、ご参考ということで。
+</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#ffffff">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>
