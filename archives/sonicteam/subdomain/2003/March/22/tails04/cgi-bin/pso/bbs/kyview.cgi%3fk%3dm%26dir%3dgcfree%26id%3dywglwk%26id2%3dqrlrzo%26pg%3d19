@@ -1,0 +1,162 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/19/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="gcfree">
+<input type="hidden" name="id" value="ywglwk">
+<input type="hidden" name="id2" value="qrlrzo">
+<input type="hidden" name="pg" value="19">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >[☆☆追加]BBAの動作確認方法
+# 実はDC版の焼き直しだったり(^_^;
+
+Windows 機の場合
+
+PC(Win機)を LAN ケーブルを繋がずに起動する
+
+(MS-DOS)コマンドプロンプトで「ipconfig」か「winipcfg」で 
+BBA と接続する LAN アダプタの IP アドレスを確認
+# 大体169.254.???.???
+# 「インターネット接続の共有」使用時は普通は「192.168.0.1」
+その値に±１等して GC に設定する
+
+GCとPCをクロスLANケーブル(かHUBとストレートケーブル２本)で繋ぐ
+GCでリンクをクリックするなどして接続動作をさせる
+(MS-DOS)コマンドプロンプトで「ping 先程 GC に設定した値」
+通れば動作が確認される
+(MS-DOS)コマンドプロンプトで「arp -a」
+BBA の MAC アドレス(GC側にシールで貼付)が出れば
+ちゃんと BbA に ping 出来ているか確認できる
+
+他の OS でもやることは一緒
+
+尚、ケーブルが抜けているとちゃんと警告が出ます
+
+以下、追加分
+
+「クロスLANケーブル」もしくは「HUBとストレートLANケーブル２本」
+はありますか？
+
+無ければ、チェックできません
+
+上記のモノがある場合、
+LANケーブルを繋がずにWindowsを起動
+winipcfgでIPアドレスとサブネットマスクを確認
+(IPアドレス:169.254.123.45、サブネットマスク:25.255.0.0とか)
+PSOの「オプション」＞「ネットワークの設定」＞「プロバイダ設定」
+＞「ユーザプロバイダ」で「はい」。後のも「はい」
+「ユ－ザプロバイダ設定」を選択
+(この行、任意)「プロバイダ５」を選択して「BBA確認用」と入れる
+「接続設定」で２番目の「自分で設定する」を選択
+例えば
+IPアドレス:169.254.123.46
+サブネットマスク:255.255.0.0
+デフォルトルータ以下は空欄に
+
+PCとGCを「クロスLANケーブル(か、ストレート２本とHUB)」で接続
+HUBを使う場合は両方とも普通のポートに接続します
+カスケードとかアップリンクポートでは駄目です
+
+(MS-DOS)コマンドプロンプトで
+「ping 169.254.123.46(上記例)」
+「Time out」とか出なければ成功
+
+もう一つ確認するなら、同じく「arp -a」
+GCに設定したIPの隣に出てきた値と、
+BBAのGC側のシールの値を比べて一致すればOK
+
+確認が終わったら、プロバイダ４(自分の設定)に戻すのを忘れずに
+
+更に追加
+WinMEは手元にないので
+・とりあえずLANケーブルを挿してみる
+駄目だったら
+「コントロールパネル」＞「ネットワーク」を開く
+自分のLANアダプタの「TCP/IP -&gt; なんとか」となっているのを開く
+IPアドレスを指定で「192.168.0.1」
+サブネットマスクは「255.255.255.0」
+GCの方は
+IPアドレスを指定で「192.168.0.2」
+サブネットマスクは「255.255.255.0」
+でLANケーブルで繋いで
+「ping 192.168.0.2」
+
+終了後パソコンの設定を戻すのを忘れずに
+
+更に追加
+
+パソコンのアドレスをデフォルトゲートウェイにして下さい</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

@@ -1,0 +1,123 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/30/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="gcfree">
+<input type="hidden" name="id" value="oyvpxw">
+<input type="hidden" name="id2" value="gxpchy">
+<input type="hidden" name="pg" value="30">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >根本的な話．．．
+
+べつに言葉尻を捉えての揚げ足取りをするつもりもないのですが．．．
+
+かなりの方が、まだまだ誤解されているようなのですが、
+「ロスト」は、既定の終了処理を行わずに終了した場合の、
+不正防止のために設けられた「仕様」です。
+
+あくまでも対策をするとするならば、「フリーズ」に対しての対策措置ってことになりますね。
+
+その際、フリーズは環境の適合性、ネットワークの負荷状態、
+ＧＣその他ユーザ環境周辺、熱暴走、ハード故障、プログラムバグなど様々なものが原因になって発生するので、そのことを理解した対策をとる必要があるってことです。
+
+他の方も書かれていますが、極端な話．．．
+
+すでに安定報告されている、回線、プロバイダ、機器に変える。
+
+ＢＢＡを使わずに比較的安定しているモデム接続を利用する。
+
+ケーブルやＧＣ周辺環境でノイズなどの発生するものを遠ざける。
+
+ディスクや本体ほホコリなどから守り、こまめに清掃する。
+
+停電してもいいように無停電電源を導入する。
+
+プレイについても、
+
+装備品以外のアイテムを持ち歩かない。
+
+ネットワーク負荷の高い時間帯に接続するのをやめる。
+
+オンライン自体のプレイをやめる。
+
+等、対策自体はいくらでも取れます。
+
+あとは、投資額と不自由さを我慢する気持ちとのトレードオフってことになるでしょう。
+
+安全な環境は、決して快適な環境となるとは限らないし、
+快適な環境でプレイするにはある程度のリスクを背負う必要があるって事で．．．
+</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

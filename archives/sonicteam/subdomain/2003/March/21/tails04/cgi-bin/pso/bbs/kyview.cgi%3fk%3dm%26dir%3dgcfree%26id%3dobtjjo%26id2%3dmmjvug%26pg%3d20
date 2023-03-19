@@ -1,0 +1,137 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/20/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="gcfree">
+<input type="hidden" name="id" value="obtjjo">
+<input type="hidden" name="id2" value="mmjvug">
+<input type="hidden" name="pg" value="20">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >ストレートからクロスの交換は突然落ちなどの対策にはなりません。
+
+まったくつながらない状態であれば
+ストレートをクロスに変更することに意味はありますが、
+既に動いているものの場合（ＤＨＣＰによる自動取得ができている）等は意味がありません。
+
+ストレートとクロスの違いって、あまり良い例えではありませんが、
+ビデオの入力端子同士をつないでダビングできないといってるのを付け直すようなものなので・・・・
+
+既にパソコンなどで、インターネットに接続できる場合、そのパソコンについてる１０ＢＡＳＥーＴをＧＣのＢＢＡにつないだ状態であれば、ストレートとクロスに関しては問題無いです。
+
+
+-----
+ストレートとクロスケーブルの判りにくい説明
+
+１０ＢＡＳＥ－Ｔなどに使われているケーブルの端子（ＲＪ－４５）には８つの端子がありますが
+実際はその中で４つしか使われていません。これは１００Ｍｂｐｓ用の１００ＢＡＳＥ－ＴＸなども同じです。
+
+端子を下にした状態で左から１・・・・８と配置されていて、
+パソコン（以下ＰＣ）やゲームキューブ（以下ＧＣ）などの場合、
+１と２が送信用の＋とー、３と６が受信用の＋とーになっています。
+ちなみに４と５が電話用、７と８が電源供給用に定義されていて、ＩＳＤＮケーブルなどで使用します。
+（接続する口が一緒なだけで、ＬＡＮとＩＳＤＮで通信ができるわけではありません）
+
+ストレートケーブルというのは端子の両端が同じもので結線されているもので、両端の１と１同士、２と２同士がつながっています。
+
+先ほどＰＣの場合１と２が送信用といいましたが、ＰＣと通信する場合、
+ハブやＡＤＳＬモデムやＣＡＴＶ用のケーブルモデムなどの端子はそれにあわせて、
+１と２はＰＣの送信データを受け取るための受信用の端子となり、
+３と６はＰＣにデータを送るための送信用の端子になります。
+
+ここでＰＣ同士を接続することを考えてみます。
+ＰＣの送信端子は１と２で受信端子は３と６です、
+対するもう一つのＰＣも送信端子は１と２で受信端子は３と６です、
+ストレートケーブルは１と１、２と２、３と３を繋いでいるためこれでは通信できません。
+これを接続したい場合、１と２を相手の３と６、３と６を相手の１と２に、
+を互い違いに接続する必要があります
+これがクロスケーブルです。
+
+次に
+ケーブルモデムやＡＤＳＬモデムの間にハブを入れて複数台のＰＣを接続する場合考えてみます
+ハブとＰＣ間は通常のストレートケーブルでかまいません。
+
+ただＡＤＳＬモデムとハブは１と２が受信、３と６が送信と同じになっているので、
+ＰＣ２台と同じく基本的にはクロスで繋ぐことになります。
+
+ただし、最近のハブはカスケード（ハブとハブを複数台接続すること）用端子というのを持っていて。
+ＰＣと同じ端子を持っているもの、あるいは端子の順番を切り替えることができるようになっています。
+ＡＤＳＬモデムなどとこの端子とを接続する場合はストレートケーブルになります。
+
+だから大抵はストレートケーブルのみで済むようになっています。
+
+＃この説明で判る人は最初からわかっているような気がしないでもない・・・
+</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

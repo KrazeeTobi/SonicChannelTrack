@@ -1,0 +1,117 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/18/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="gcfree">
+<input type="hidden" name="id" value="osvpir">
+<input type="hidden" name="id2" value="lixtmy">
+<input type="hidden" name="pg" value="18">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >外観が・・・
+『ＮＥＣ製　Ａｔｅｒｍ　ＷｏｒｐＳＴＡＲ　ＷＤＲ８５ＦＨ/ＣＳ』と同じに見えるのは気のせい？
+
+自分は『ＷＤＲ７５Ｈ/Ｃ』（ワイヤレスＬＡＮカードセット）とイーアクセスＡＤＳＬ１２Ｍ（モデムは『ＤＩＲＥＣＴＳＴＥＲ　ＤＲ２０２』）の組み合わせですが・・
+予測で（ＷＤＲ８５ＦＨとして）書き込みます。
+なお、設定はＰＣ（らくらくアシスタント使用）
+もしくはＰＳ２を使用してください。
+（ＧＣではクイック設定Ｗｅｂ使えない可能性大。ＤＣではクイック設定Ｗｅｂ動作保証外）
+通常使っているなら設定済みでしょうから、接続先設定は割愛します。
+接続方法は・・
+ダイヤルアップルーター（ＷＤＲ８５ＦＨ）→ＧＣ（ストレートケーブル）
+で理論的にＯＫです。
+ＧＣ側設定を『ＩＰアドレス自動取得』でＨＰ閲覧出来るか確認。
+もし出来ない場合は・・
+ＧＣ側ＢｂＡの設定を
+ＩＰアドレス　　　　　　１９２．１６８．０．１００
+サブネットマスク　　　　２５５．２５５．２５５．０
+デフォルトゲートウェイ　１９２．１６８．０．１
+プライマリＤＮＳ、セカンダリＤＮＳはプロバイダ指定通り。
+これで一度試してください。
+なお、『デフォルトゲートウェイ』の項目に関しては
+出荷状態のまま使用している場合を例としています。
+ＧＣのＩＰアドレスの末尾を１００にしている理由は、
+ルーターの自動指定とダブらない為です。
+（ＷＤＲ８５ＦＨ、ＷＤＲ７５Ｈの自動指定で末尾３２まで使用とサポートから聞いている為）
+ＧＣは、PPPoE、PPPoA両対応らしいので出来ると思われます。
+
+なお、ＤＣ版ではフレッツＡＤＳＬ（ＮＴＴ西日本リース分モデム）とＷＤＲ７５Ｈの組み合わせでどうあがいても出来ませんでした。
+
+追記・・
+あくまでも参考までにしてくださいね・・・
+
+
+</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

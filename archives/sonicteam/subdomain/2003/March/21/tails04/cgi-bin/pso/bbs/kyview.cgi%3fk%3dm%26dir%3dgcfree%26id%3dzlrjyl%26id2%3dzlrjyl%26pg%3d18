@@ -1,0 +1,220 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/18/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="gcfree">
+<input type="hidden" name="id" value="zlrjyl">
+<input type="hidden" name="id2" value="zlrjyl">
+<input type="hidden" name="pg" value="18">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >
+質問する際に以下の事を確認してください。
+
+１．設定が解らない
+
+ＧＣの設定は、取扱説明書P14から書いてあります。
+接続設定に
+・IPアドレスを自動取得する(DHCP)
+・IPアドレスを自動取得せずに自分で設定する
+・PPPoEを使用する
+
+とありますが、まずよくわからなければ
+・フレッツADSLを使っていて、ルーターを使っていない
+→「PPPoEを使用する」
+・それ以外
+→「IPアドレスを自動取得する(DHCP)」
+を選んでください。
+
+
+２．ルーターの設定が解らない
+
+全く同じ機種を使ってなければ具体的な説明できないんですが
+とりあえず必要な事は
+
+・フレッツADSLを使っている人＝PPPoE設定
+・ISDN(ダイアルアップルーター)を使っている人＝ダイアルアップ設定
+
+ここでユーザーID・パスワードなどを指定してください
+・ISDNの人は電話番号を指定してください。フレッツISDNの場合1492。
+・フレッツISDN/ADSL。Bフレッツの人はユーザーIDにプロバイダ毎の
+　サービス名を付けるのを忘れずに。
+・DNSの指定がありますが、プロバイダから指定の指示が無い限りは
+　大概空欄でOK。
+
+あとルーターに必要な機能は
+・DHCPサーバ設定(普通初期状態で有効)
+
+です。
+#とりあえずはTCP設定は抜きでいきます。
+
+
+
+
+３．接続テスト
+
+３－１．ホームページ確認
+
+ホームページを見られる確認無しでPSOに繋ぐと、どんな
+トラブルが起こるか解りません。
+
+ハッキリ言ってトラブったらアイテム消えます。
+泣き言言っても消える物は消えます。
+
+それが嫌ならまずはホームページを確認することから
+スタートしてください。
+
+
+
+3-1-1.PSOのタイトル画面から
+「ホームページ」を選択。
+
+「スロットAにあるネットワーク情報ファイルを使用してよろしいですか？」
+で「はい」を選択
+
+「スロットAにあるネットワーク情報ファイルを使用します
+　ゲームに戻るまでメモリーか0度を抜かないでください」
+で「はい」を選択
+
+
+3-1-2.更新情報を選択
+
+「ブロードバンドアダプタを使用してネットワークに接続します
+よろしいですか？」
+で「はい」を選択
+
+
+3-1-3.画面の更新情報の日付で
+2002年10月2日(水)以降の日付が映っていればOK
+
+
+3-1-4.Ｙボタンを押してメニューを出し、×のゲームに戻るを押す
+
+
+
+
+３－２．PSO接続確認
+
+★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆
+必ず実験用に新規キャラを作って下さい
+どんなトラブルが起こるか解りません。
+最悪。キャラが消えても保証しません。
+★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆
+
+3-2-1.PSOタイトル画面からオンラインゲームを選択
+3-2-2.キャラ選択
+3-2-3.オンラインゲームを始める前にを熟読。
+全てに同意するならば「同意する」を。
+嫌ならオンラインを諦めてください。
+
+ここで同意しながらも不正行為を行う嘘つきな人は
+オンラインに来る資格はありません。
+
+3-2-4.問題がなければここで星が流れる画面が映ったあと
+お知らせが表示されます。
+
+これもきちんと読む癖を付けてください。
+サーバーメンテナンスなどの重要なお知らせや、
+一番下にハンターズライセンスの有効期限などが書いてあります。
+
+3-2-5.SHIP Selectが表示されるのでAボタン
+3-2-6 SHIP一覧が出るのでどれか選びます。
+人数が多すぎるSHIPには入れません。
+3-2-7 BLOCK一覧が出るのでどれか選びます。
+人数が多すぎるBLOCKには入れません。
+3-2-8.チームを作って誰かと一諸にもぐります
+ロビーで「接続実験中です」とでも言って、協力してもらいましょう。
+
+
+
+
+４．トラブルが起こって質問する際に
+
+「繋りません。解りません。教えてください」
+これだけですとこちらから言えるのは
+「状況が解りません。教えてください」
+だけです。
+
+必ず以下の事は伝えてください
+
+・使っている回線種類
+　ISDN/フレッツISDN/ADSL(会社名)/CATV(会社名)など。
+・ルーターを使っている場合はそのメーカー/機種名
+・他にパソコンやDCがある場合、それらはどういう反応をしたか？
+・どの画面でどんな状況になって繋らなかったか？
+・その時出たメッセージがあるか？
+　必ずメモしてください
+</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

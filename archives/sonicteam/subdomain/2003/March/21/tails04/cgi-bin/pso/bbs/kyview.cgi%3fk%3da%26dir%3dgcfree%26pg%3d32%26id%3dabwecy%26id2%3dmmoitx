@@ -1,0 +1,82 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/32/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">MAKING APPEND NOTE</font>
+<hr>
+<p>
+<table width="100%" border="0">
+<tr bgcolor="#004080"><td width="100%"><strong>元の発言</strong></td>
+<td align="right" width="1%" nowrap> <br></td></tr>
+<tr bgcolor="#004080"><td colspan="2"><strong>まりん</strong>  <i> 2002/10/22</i>  </td></tr>
+<tr bgcolor="#000040"><td colspan="2">あくまで推測ですが・・・<BR><BR>常識的に考えるとソニチさんがBBAでの接続テストを全くしないということは有り得ないと思います。<BR>PSOのソフトがBBA対応を謳って販売されている以上、<BR>BBAは（プロトタイプかもしれませんが）一般に販売されるよりかなり前にソニチさんの手に渡り、<BR>いくらかのテストも行っていたはずだと思います。<BR><BR>ただ、PPPoEでの接続試験は不十分だったのでしょう。(^^;<BR>アナログ回線・ISDN・ADSL・CATV・FTTHなどの多種にわたる接続回線をすべて用意して<BR>徹底的な検証を行うことは時間的にもコスト的にも厳しいものがあると思いますので<BR>テスト項目をいくつか決めてテストを行ったのだと思いますが、<BR>代表的なブロードバンド環境であるADSLとPPPoEの組み合わせでこれだけ問題が出ているということは<BR>テストが十分に行われていなかったのは明らかだと思います。<BR><BR>BBAのハードウェアに問題があるのか、それともPPPoE接続を行うソフトウェアに問題があるのかは<BR>公表されていないので明確には分かりません。<BR>ただ、今回の問題の特徴として同じADSL回線でもPPPoE接続の場合だけ問題が発生し、<BR>ルータを使った接続では問題が発生していないことから考えると<BR>ハードウェアよりPPPoE接続を行うソフトウェアに問題があった可能性が高いように思います。<BR><BR>誰が悪いかは別として、早く何らかの対応策を公開してほしいですね。</td></tr>
+</table>
+</p>
+<p>
+<form action="submit.cgi" method="post" >
+メッセージ ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual">
+</textarea><BR>
+
+<input type="hidden" name="title" value="Re:あくまで推測ですが・・・">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="pg" value="32">
+<input type="hidden" name="id" value="abwecy">
+<input type="hidden" name="id2" value="mmoitx">
+<input type="hidden" name="dir" value="gcfree">
+</p>
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+<input type="hidden" name="c" value="APPEND">
+<p>
+<input type="submit" value="APPEND"> 書き込み 
+
+</p>
+</form>

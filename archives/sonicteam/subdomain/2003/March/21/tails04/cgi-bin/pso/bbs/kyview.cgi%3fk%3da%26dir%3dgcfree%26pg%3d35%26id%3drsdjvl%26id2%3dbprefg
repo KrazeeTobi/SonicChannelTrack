@@ -1,0 +1,82 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/35/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">MAKING APPEND NOTE</font>
+<hr>
+<p>
+<table width="100%" border="0">
+<tr bgcolor="#004080"><td width="100%"><strong>元の発言</strong></td>
+<td align="right" width="1%" nowrap> <br></td></tr>
+<tr bgcolor="#004080"><td colspan="2"><strong>kenshou</strong>  <i> 2002/10/28</i>  </td></tr>
+<tr bgcolor="#000040"><td colspan="2">それはラグでも起こり得ます<BR>と言っても、ラグか不正切断かは、簡単に見分けられません<BR>故に現状では「スタートボタン押して終了」が良いかも知れません<BR><BR>通信の混雑などで、PSOサーバとの通信が滞ると<BR>・チャット<BR>・落ちているアイテム、敵、扉やスイッチの情報<BR>・キャラ位置の情報(UDP不使用時)<BR>が同期できなくなってタイムラグが起こります<BR><BR>UDP使っていない場合はキャラ位置の情報もPSOサーバ経由ですが<BR>UDP使用時はPSOサーバ通さず、GC同士で直接やり取りします<BR># 負荷を下げる意味でも、通信量減らす為にUDP使った方が良いと思う<BR><BR>よって、ラグが起こると<BR>アイテムが取れなかったり、チャットが止まったりします<BR>加えて、UDP不使用時は、他の人が動かなかったりします<BR><BR>完全に同期が取れなくなると「切断」になりますが、同期が取れれば<BR>・拾ったアイテム、チャットの処理が一気に行われる<BR>・キャラが動くようになる(UDP不使用時)<BR>となります<BR><BR>以下は、手元にPPPoEサーバを作って実験した結果からの推測ですが<BR><BR>森を一人で歩いているだけでも「PPPoEでの不正な切断」は起きます<BR><BR>「PPPoEでの不正な切断」の場合は、<BR>PSOサーバとではなく、プロバイダとの通信が切れているようです<BR><BR>通常はインターネットとの接続が切れると、終了処理になるのですが、<BR>「PPPoEの接続断」が原因の場合は終了処理が途中で止まる様です<BR><BR>＜修正前＞<BR>「ラグで切断」の場合はチェックしていないのでわかりませんが、<BR>＜／修正前＞<BR>PPPoEでも、正常な状態でLANケーブルを抜けば正常に終了します<BR><BR>＜追加分＞<BR>「ラグで切断」の場合も正常終了します<BR>＜／追加分＞<BR><BR>「PPPoEでの不正な切断」特有の予兆(と言うか現象)はあります<BR>これは「PPPoEの回線状態の確認に応答しなくなる」と言う物です<BR><BR>調べようと思ったら、パソコンとかパケットアナライザが要るので、<BR>そんなことするより、ルータを入れた方が良いでしょう</td></tr>
+</table>
+</p>
+<p>
+<form action="submit.cgi" method="post" >
+メッセージ ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual">
+</textarea><BR>
+
+<input type="hidden" name="title" value="Re:それはラグでも起こり得ます">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="pg" value="35">
+<input type="hidden" name="id" value="rsdjvl">
+<input type="hidden" name="id2" value="bprefg">
+<input type="hidden" name="dir" value="gcfree">
+</p>
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+<input type="hidden" name="c" value="APPEND">
+<p>
+<input type="submit" value="APPEND"> 書き込み 
+
+</p>
+</form>

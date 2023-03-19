@@ -1,0 +1,82 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/20/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">MAKING APPEND NOTE</font>
+<hr>
+<p>
+<table width="100%" border="0">
+<tr bgcolor="#004080"><td width="100%"><strong>元の発言</strong></td>
+<td align="right" width="1%" nowrap> <br></td></tr>
+<tr bgcolor="#004080"><td colspan="2"><strong>kenshou</strong>  <i> 2002/10/04</i>  </td></tr>
+<tr bgcolor="#000040"><td colspan="2">[追加2]ルータのログからポートの使用状況を推測<BR><BR># ポート番号はGCPSO発売前からDreamDirectにありました<BR># GCPSO公式サポートページにも書いてあります<BR><a href="http://www.sonicteam.com/psogc/pc/faq_n_bba.html" target="_blank">http://www.sonicteam.com/psogc/pc/faq_n_bba.html</a><BR><BR>以下、単なる推測であることに注意<BR><BR>TCP:9000-10000<BR>PSOサーバのこれらのポート宛に接続します<BR>ブロックやロビーの番号でポートが変わるようです<BR>これらに向けての発信を制限するとゲームできないでしょう<BR><BR>尚、ゲーム中はこれらポートでPSOサーバと通信します<BR><BR>UDP:40975,41231,41487,41743<BR>ロビーでは使いません<BR>シティ以降で、参加者全員が「UDPを使用する(以下UDP ON)」で使用<BR>参加者の１人でも「UDPを使わない(以下UDP OFF)」だと使いません<BR><BR>UDP ONは、DC版と同じく<BR>・モデム：UDP自動、使用する<BR>・ＢＢＡ：UDP使用する<BR>の模様<BR><BR>部屋に入った順番で、若いポート番号を使い、参加者同士で通信します<BR><BR>TCPが一回ごとに返事を待つのに対して、UDPは返事を必要としない＆<BR>PSOサーバを中継に使わないので、通信コストが低減します<BR><BR>余談<BR>PPPoEなモデム直結での動作不良はブラックホールにはまってるのかも<BR>ちょっち実験してみよう<BR><BR>で、実験してみましたが、見当はずれなので伏せます<BR><BR><font color=black><BR><BR>PPPoEサーバは、一から勉強しないといけないので、面倒なので<BR><BR>CATV-(A)ルータ(B)-GC　の(A)のMTUを変化させました<BR><BR>MTU=72まで落としたのですが(少々動きがもたつきましたが)支障無し<BR>PCの方は、ページが見れない等の症状が、ちゃんと、出ました<BR><BR>さらに、pingも<BR>「ping hogehoge -f -l 44」でOK<BR>「ping hogehoge -f -l 45」でNG　を確認<BR><BR>GC版PSOは自分でMTUのチェックしてたりするのかな？<BR>もしかすると、MTU変更不可のルータでも、DC版と違って大丈夫かも<BR><BR>と言うわけで、やはりブラックホールに引っかかったとか(^_^;<BR><a href="http://www.google.com/search?&q=%83u%83%89%83b%83N%83z%81%5B%83%8B+MTU" target="_blank">http://www.google.com/search?&q=%83u%83%89%83b%83N%83z%81%5B%83%8B+MTU</a><BR><BR>「ping www.isao.net -f -l 1426」やってみて<BR>「Packet needs to be fragmented but DF set.」<BR>「Request timed out.」<BR>が出たら、当たりかも<BR><BR>こっそり追加２<BR>GC版PSOは接続時にSACKと言う機能を有効にしています<BR>コレのおかげで、破損したパケットを指摘できます<BR>この機能によってMTU問題はパスしてそう<BR><BR>ブラックホールにはまる危険性は否定し切れませんけどね<BR></font><BR><BR>と思ったけれど、何時間も大丈夫で急に落ちたって話もあるし<BR>同じ条件でも、落ちる場合と落ちない場合があるようだし<BR><BR>「外来性のノイズによるADSLの通信の乱れ」の線が濃厚かな<BR>ルータを使うと、通信相手はルータになるので<BR><BR>直結の場合の<BR>「突然リンク途絶でADSLモデムが沈黙－＞GCがパニック」<BR>が<BR>「突然リンク途絶でADSLモデムが沈黙－＞ルータはじっと待つ」<BR>「ルータ-GC間の通信は正常なので、PSOは単なる切断になる」<BR>って感じかな？<BR><BR>と、言っている間にソニチが動いたようです<BR>期待しましょう</td></tr>
+</table>
+</p>
+<p>
+<form action="submit.cgi" method="post" >
+メッセージ ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual">
+</textarea><BR>
+
+<input type="hidden" name="title" value="Re:[追加2]ルータのログからポートの使用状況を...">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="pg" value="20">
+<input type="hidden" name="id" value="iimiuq">
+<input type="hidden" name="id2" value="hdxyhw">
+<input type="hidden" name="dir" value="gcfree">
+</p>
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+<input type="hidden" name="c" value="APPEND">
+<p>
+<input type="submit" value="APPEND"> 書き込み 
+
+</p>
+</form>
