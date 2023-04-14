@@ -1,0 +1,133 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOEP3』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1g.png" bgcolor="#003333" text="#FFFFFF" link="#99FF99" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/c/crfree/4/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="crfree">
+<input type="hidden" name="id" value="mtgwkh">
+<input type="hidden" name="id2" value="jgzekm">
+<input type="hidden" name="pg" value="4">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >なんと言いますか…。
+
+ロビーは共有。公共とは多少違う意味合いかもしれませんが、
+それに近いものがあるでしょう。
+
+チームの集合場所として特定のロビーを使用するのは、
+チーム活動を円滑にするためには勿論必要なことでしょう。
+
+しかしながら、どんなに有名なチームだろうと巨大なチームだろうと、
+『ロビーを占有する』といった権利はありません。
+
+＞許可を貰うのではなく、移民が来るとの挨拶をする
+＞この程度は「礼儀」であると思われますので、そのくらいはして欲し
+い、と書き込んだだけです。
+
+上記の発言に、『このロビーは我々のものだから、
+やってくる時には挨拶くらいしましょうね、できない人は
+礼儀がないんですよ』という含みがあると見るのは、
+私が穿った見方をしているだけでしょうか？
+
+でなければ、貴方のチームロビーに関わらず、
+シップあるいはブロック移動でたどり着いた場所にいる人間すべてに
+挨拶できない人間は、『礼儀がない』と受け取れてしまうのですが。
+
+それとも、貴方、もしくは貴方のチームメイトは
+まったくの他人に礼儀を強要できるほど偉い人間の集まりでしょうか。
+
+チームを持っているからといって偉いわけではありません。
+内輪でルールを作ることができても、まったくの他人に
+要求するのはお門違いです。
+
+ましてや、『自分のチームのロビーに来るのは迷惑ですが、
+シップ６９や７０ならいいんじゃないですか』という考え方は、
+シップ６９や７０を根城にしているチームにとって
+迷惑ではないでしょうか。
+
+貴方自身が『移民されることが迷惑』と感じているように、
+６９，７０のチームも『迷惑』と思うかもしれません。
+たとえ、そこで活動しているチームが少数であっても、です。
+それこそ、『される方』の気持ちを考えてください、
+と言わざるを得ません。
+
+必要なのは、多すぎる人員の移民計画ではなく、
+『ロビーは共有物であり、誰として占領、占有
+　それに準ずる行為は許されない』
+という考え方ではないでしょうか。
+
+最後に。
+
+重ねて書きますが、一連の書き込みがどのような威力を持つのか
+分かりかねます。
+発言自体はあくまでも強制能力を持たないものであり、
+現状の流れが０ならば、スフレ殿の憂いも杞憂に終わるかもしれません。
+
+そういった兆候が見受けられたようなら、また他のロビーを
+仲間と相談して決めればいいことではないでしょうか。
+
+現状でも人のいないロビーはまだまだあるわけですからね。</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

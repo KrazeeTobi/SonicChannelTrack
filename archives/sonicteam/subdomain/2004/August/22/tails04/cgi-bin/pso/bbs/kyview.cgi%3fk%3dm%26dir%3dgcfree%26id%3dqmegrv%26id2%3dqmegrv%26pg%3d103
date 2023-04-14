@@ -1,0 +1,165 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/103/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="gcfree">
+<input type="hidden" name="id" value="qmegrv">
+<input type="hidden" name="id2" value="qmegrv">
+<input type="hidden" name="pg" value="103">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >
+ネタ的には
+http://tails04.sonicteam.com/pso/bbs/g/gcfree/100/lrieom/index.html
+の続きで。
+ややネタバレっぽいかな？…とは思いますがとりあえず。
+
+
+わかった現象をまとめると…
+
+まず前提。
+
+・補助が切れるって事象は、実は通信されていない。
+
+・自分のGCから見える補助が切れる瞬間の判断は、他人の分も
+　自分のGCのタイマー(?)で判断している。
+
+・補助の時間経過がカウントされないタイミングは存在する。
+（補助かけた状態でリューカー法やって補助が切れるまでの
+　時間計ると明らかに長持ちし過ぎるのがよくわかります）
+
+
+→人によって、「その人から見た」「自分＆他人の分の」
+補助が切れる時間に誤差が生まれる事はある。
+
+
+で、GCになって「高レベルの補助は低レベルの補助を完全に
+無効にする」ってルールが加わっている訳だから…
+
+
+
+フォース：
+　マイラチェーンの補助が切れたので、速効でかけた。
+　フォースから見れば、Lv30補助がそのまま活きてるので
+　今はみんな補助がかかっているように見える。
+
+それ以外：
+　マイラチェーンがまだ残っているのにフォースがシフデバを
+　かけている。
+　マイラチェーンは大概Lv30を超えるので、最大Lv30の
+　フォースの補助は完全に無効。
+
+　直後にマイラチェーン補助が時間切れしたのに知らんぷり
+　されてる。
+
+って現象が起こりうるのがわかりました。
+
+
+
+原因の部分は実はDC時代からの既知ですけど＾＾
+
+昔はLv81(マイラチェーンの理論最高)をLv3補助でも
+上書きできたので現実問題にはならずに済んでた。
+#高Lv補助がかかってた側からすれば、誤差の時間の分
+#もったいなかったって程度。
+
+そのため気にも留めてませんでした。
+というか事象の存在自体忘れてました。
+
+GCになって、ある人にマイラチェーンがかかっていて
+ある人が死亡などで補助無しになったとしても遠慮なく
+Lv30補助かけていい…と思っていたら、こんなところで
+落とし穴があったって感じです。
+
+
+前の書き込み時点ではラグの問題を疑ってましたが、
+最近レイキャシールを使うようになってこの現象を見、
+その共通点を見てたら原因の一つが絞れてきた感じです。
+
+
+そう思うと、入室時の補助残り時間ってどういう計算を
+してるんだろう？とかその他諸々の時点での心配はありますが…
+
+とりあえずこういった(または他の理由も含めて)、フォースの
+補助は空振りする事がありうるって事だけは判りました。
+
+
+できれば他の職業の人でも「こういう事もある」って
+理解してくれると助かるし。
+
+フォース使いには「要注意のタイミングである」って
+覚えてくれると嬉しいと思います。
+</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

@@ -1,0 +1,171 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=Shift_JIS">
+<TITLE>サポータースリンク変更申請フォーム</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#000044" BACKGROUND="/pso/suplink/image/pso_bk2.gif" TEXT="#FFFFFF" LINK="#00FFFF" VLINK="#FFFF00" ALINK="#FFFFFF" LEFTMARGIN="0" TOPMARGIN="0" MARGINWIDTH="0" MARGINHEIGHT="0">
+<DIV ALIGN="CENTER">
+  <BR>
+  <TABLE WIDTH="530" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+    <TR>
+      <TD COLSPAN="3"><IMG SRC="/pso/suplink/image/tab_form.gif" WIDTH="530" HEIGHT="27"></TD>
+    </TR>
+    <TR>
+      <TD WIDTH="7" BACKGROUND="/pso/suplink/image/tab_frame_l.gif">　</TD>
+      <TD WIDTH="516" BGCOLOR="#000044"><DIV ALIGN="CENTER"><BR>
+          <TABLE WIDTH="450" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD><FONT SIZE="-1"><FONT COLOR="#ffffff">このフォームは、サポーターズリンクに登録されている方専用のサイト変更申請フォームです。<BR>
+                    <BR>
+サポーターズリンクに登録されているサイトの情報を変更される方は、下記のフォームより内容をご記入の上お送りください。</FONT><FONT SIZE="-1"><FONT COLOR="#ffffff">（半角カタカナは使わないでくださいね）</FONT></FONT><FONT COLOR="#ffffff"><BR>
+<BR>
+なおご連絡いただいてから反映されるまでは、しばらくのお時間をいただきます。あらかじめご了承ください。</FONT></FONT></TD>
+            </TR>
+          </TABLE>
+          <BR>
+          <TABLE BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD><FORM NAME="form1" METHOD="post" ACTION="/cgi-bin/pso/suplink/form.cgi">
+	      <input type="hidden" name="mode" value="form" />
+	      <input type="hidden" name="genre" value="change" />
+              <TABLE BORDER="1" ALIGN="CENTER" CELLPADDING="2" CELLSPACING="0" BORDERCOLOR="#0033CC">
+                <TR BGCOLOR="#0033CC">
+                  <TD COLSPAN="2" NOWRAP><DIV ALIGN="CENTER"><FONT SIZE="-1"><B>【現在登録されているサイトの内容】</B></FONT></DIV>
+                  </TD>
+                </TR>
+                <TR>
+                  <TD NOWRAP><DIV ALIGN="RIGHT"><B><FONT SIZE="-1">管理人名 </FONT></B></DIV>
+                  </TD>
+                  <TD>
+                    <DIV ALIGN="LEFT"><FONT SIZE="-1">
+                      <INPUT NAME="oname" SIZE="30" value="">
+                    </FONT></DIV>
+                  </TD>
+                </TR>
+                <TR>
+                  <TD NOWRAP><DIV ALIGN="RIGHT"><B><FONT SIZE="-1">管理人メールアドレス</FONT></B></DIV>
+                  </TD>
+                  <TD>
+                    <DIV ALIGN="LEFT"><FONT SIZE="-1">
+                      <INPUT NAME="omail" SIZE="30" value="">
+                    </FONT></DIV>
+                  </TD>
+                </TR>
+                <TR>
+                  <TD NOWRAP><DIV ALIGN="RIGHT"><B><FONT SIZE="-1">ホームページタイトル</FONT></B></DIV>
+                  </TD>
+                  <TD><DIV ALIGN="LEFT"><FONT SIZE="-1">
+                      <INPUT NAME="otitle" SIZE="30" value="">
+                    </FONT></DIV>
+                  </TD>
+                </TR>
+                <TR>
+                  <TD NOWRAP><DIV ALIGN="RIGHT"><B><FONT SIZE="-1">ホームページURL</FONT></B></DIV>
+                  </TD>
+                  <TD><DIV ALIGN="LEFT"><FONT SIZE="-1">
+                      <INPUT NAME="ourl" SIZE="30" value="">
+                    </FONT></DIV>
+                  </TD>
+                </TR>
+                <TR BGCOLOR="#0033CC">
+                  <TD COLSPAN="2" NOWRAP><DIV ALIGN="CENTER"><FONT SIZE="-1"><B>【ご変更内容】<BR>
+                    </B>変更がない箇所も全てご記入ください。</FONT></DIV>
+                  </TD>
+                </TR>
+                <TR>
+                  <TD WIDTH="34%" NOWRAP><DIV ALIGN="RIGHT"><B><FONT SIZE="-1">管理人名 </FONT></B></DIV>
+                  </TD>
+                  <TD WIDTH="66%">
+                    <DIV ALIGN="LEFT"><FONT SIZE="-1">
+                      <INPUT NAME="nname" SIZE="30" value="">
+                    </FONT></DIV>
+                  </TD>
+                </TR>
+                <TR>
+                  <TD NOWRAP><DIV ALIGN="RIGHT"><B><FONT SIZE="-1">管理人メールアドレス</FONT></B></DIV>
+                  </TD>
+                  <TD>
+                    <DIV ALIGN="LEFT"><FONT SIZE="-1">
+                      <INPUT NAME="nmail" SIZE="30" value="">
+                    </FONT></DIV>
+                  </TD>
+                </TR>
+                <TR>
+                  <TD NOWRAP><DIV ALIGN="RIGHT"><B><FONT SIZE="-1">ホームページタイトル</FONT></B></DIV>
+                  </TD>
+                  <TD><DIV ALIGN="LEFT"><FONT SIZE="-1">
+                      <INPUT NAME="ntitle" SIZE="30" value="">
+                    </FONT></DIV>
+                  </TD>
+                </TR>
+                <TR>
+                  <TD NOWRAP><DIV ALIGN="RIGHT"><B><FONT SIZE="-1">ホームページURL</FONT></B></DIV>
+                  </TD>
+                  <TD><DIV ALIGN="LEFT"><FONT SIZE="-1"><INPUT NAME="nurl" SIZE="30" value=""></FONT></DIV>
+                  </TD>
+                </TR>
+                <TR>
+                  <TD NOWRAP><DIV ALIGN="RIGHT"><B><FONT SIZE="-1">種別（複数回答可）</FONT></B></DIV>
+                  </TD>
+                  <TD><DIV ALIGN="LEFT"><FONT SIZE="-1">
+                      <INPUT TYPE="checkbox" NAME="hard00"/>DC<BR>
+		      <INPUT TYPE="checkbox" NAME="hard01"/>PC<BR>
+		      <INPUT TYPE="checkbox" NAME="hard02"/>GC<BR>
+		      <INPUT TYPE="checkbox" NAME="hard03"/>Xbox<BR>
+		      <INPUT TYPE="checkbox" NAME="hard04"/>EP3 カードレボリューション</FONT></DIV>
+                  </TD>
+                </TR>
+                <TR>
+                  <TD NOWRAP>
+                    <P ALIGN="RIGHT"><B><FONT SIZE="-1">ホームページの内容<BR>（一番近いものを一つお選び下さい）</FONT></B></P>
+                  </TD>
+                  <TD><DIV ALIGN="LEFT"><FONT SIZE="-1">
+                      <INPUT TYPE="radio" NAME="type" VALUE="00">情報・攻略・データ<BR>
+		      <INPUT TYPE="radio" NAME="type" VALUE="01">チーム紹介<BR>
+		      <INPUT TYPE="radio" NAME="type" VALUE="02">創作・イラスト<BR>
+		      <INPUT TYPE="radio" NAME="type" VALUE="03">プレイ日記 <BR>
+		      <INPUT TYPE="radio" NAME="type" VALUE="04">ファンページ </FONT></DIV>
+                  </TD>
+                </TR>
+                <TR>
+                  <TD NOWRAP><DIV ALIGN="RIGHT"><B><FONT SIZE="-1">オフィシャルサイトからの画像転載<BR>（ビジュアルBBSの画像も含みます）</FONT></B></DIV>
+                  </TD>
+                  <TD>
+		  <INPUT TYPE="checkbox" NAME="tensai" VALUE="00"><FONT SIZE="-1">あり</FONT>
+		  </TD>
+                </TR>
+                <TR>
+                  <TD NOWRAP><DIV ALIGN="RIGHT"><B><FONT SIZE="-1">ご自身で撮影された<BR>スクリーンショットの掲載</FONT></B></DIV>
+                  </TD>
+                  <TD>
+		  <INPUT TYPE="checkbox" NAME="shot" VALUE="00"><FONT SIZE="-1">あり</FONT>
+		  </TD>
+                </TR>
+                <TR>
+                  <TD COLSPAN="2" NOWRAP><DIV ALIGN="CENTER"><FONT SIZE="-1">
+                      <B>アピールコメント<BR>
+                      </B>
+                      <TEXTAREA NAME="message" ROWS=8 WRAP=hard COLS=40></TEXTAREA>
+                      <BR>
+                      <INPUT TYPE="submit" VALUE="ＯＫ">
+                    </FONT></DIV>
+                  </TD>
+                </TR>
+              </TABLE>
+              </FORM></TD>
+            </TR>
+          </TABLE>
+      </DIV></TD>
+      <TD WIDTH="7" BACKGROUND="/pso/suplink/image/tab_frame_r.gif">　</TD>
+    </TR>
+    <TR>
+      <TD COLSPAN="3"><IMG SRC="/pso/suplink/image/tab_frame_d.gif" WIDTH="530" HEIGHT="7"></TD>
+    </TR>
+  </TABLE>
+  <BR>
+  <BR>
+</DIV>
+</BODY>
+</HTML>

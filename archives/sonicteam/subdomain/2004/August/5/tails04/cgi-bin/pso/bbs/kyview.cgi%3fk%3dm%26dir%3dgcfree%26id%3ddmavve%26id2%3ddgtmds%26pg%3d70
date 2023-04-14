@@ -1,0 +1,345 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/70/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="gcfree">
+<input type="hidden" name="id" value="dmavve">
+<input type="hidden" name="id2" value="dgtmds">
+<input type="hidden" name="pg" value="70">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >・ BBS簡易マニュアル
+
+&lt;Font color=#FF00FF&gt;-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-&lt;/Font&gt;
+&lt;H3&gt;＊＊＊　目　次　＊＊＊&lt;/H3&gt;
+　　&lt;B&gt;【BBSの見方(閲覧の仕方)】&lt;/B&gt;
+　　　　・はじめに
+　　　　・BBS切替の方法
+　　　　・ページの変え方
+　　　　・ツリー関連の説明
+
+　　&lt;B&gt;【新たに発言するには(発言・返信)】&lt;/B&gt;
+　　　　・はじめに
+　　　　　　　※※※　重　　要　※※※
+　　　　・新規発言する前に
+　　　　・新規発言前準備
+　　　　・新規発言の方法
+　　　　・返事の書き方
+　　　　・情報の保存
+　　　　・発言を登録する前に
+　　　　・本文の書き方
+　　　　・登録後に
+
+　　&lt;B&gt;【ノートメニューの活用(発言の修正・削除)】&lt;/B&gt;
+　　　　・はじめに
+　　　　・発言の修正
+　　　　・発言の削除
+　　　　・メールの送信(&lt;Font color=#FFA000&gt;New&lt;/Font&gt;)
+　　　　　　　※※※　重　　要　※※※
+&lt;Font color=#FF00FF&gt;-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-&lt;/Font&gt;
+&lt;H2&gt;&lt;Font color=#00FFFF&gt;【BBSの見方(閲覧の仕方)】&lt;/Font&gt;&lt;/H2&gt;
+　BBSの要、閲覧についての説明です。
+
+
+　&lt;H3&gt;&lt;Font color=#FF6347&gt;・はじめに&lt;/Font&gt;&lt;/H3&gt;
+　　　　BBSにはいろいろな情報が多数書込まれています。見方を覚えて有用な情報を
+　　　活用しましょう。
+　　　　ファンタシースターオンライン エピソードI&II(以下 &lt;Font color=#FFA07A&gt;EP1&2&lt;/Font&gt;)には現在
+　　　フリーBBSとシークレットBBS及びスクリーンショットをアップロードする
+　　　ビジュアルBBSがありますが、ここではフリーBBSとシークレットBBSに関して
+　　　説明をしています。
+
+
+　&lt;H3&gt;&lt;Font color=#FF6347&gt;・BBS切替の方法&lt;/Font&gt;&lt;/H3&gt;
+　　　　まず、BBSを開いた時のログ一覧が表示されるページ(以下 &lt;Font color=#FFA07A&gt;一覧ページ&lt;/Font&gt;)の
+　　　上部にフリーBBSでは「&lt;Font color=#99FF66&gt;『PSO EPISODE1&2』シークレットBBSへ&lt;/Font&gt;」、
+　　　シークレットBBSでは「&lt;Font color=#99FF66&gt;『PSO EPISODE1&2』フリーBBSへ&lt;/Font&gt;」というリンクが
+　　　あるかと思います。この部分を選択することにより、各BBSを表示することが
+　　　出来ます。
+
+
+　&lt;H3&gt;&lt;Font color=#FF6347&gt;・ページの変え方&lt;/Font&gt;&lt;/H3&gt;
+　　　　一覧ページの上部及び下部に
+
+　　　　　　&lt;Font color=#FFFF00&gt;&lt;B&gt;New ← ○ ○ ・・・・・ ○ ○ → Old&lt;/B&gt;&lt;/Font&gt;
+
+　　　という感じのものが目に付くかと思います(○は数字)。この数字の一番左の
+　　　番号が現在の最新のページです。そこから右に行くほど古いページとなります。
+　　　この数字の部分は各ページへのリンクとなっており、見たいページを選択する
+　　　ことで該当のページを表示することができます。過去ログを参照する時等に
+　　　活用してください。
+
+　　　　なお、ページは&lt;Font color=#FFA07A&gt;20ページ分保存&lt;/Font&gt;され、それ以前のページは自動的に削除
+　　　されていくそうです。
+　　　&lt;Small&gt;&lt;Small&gt;(正確にはページは削除されずリンクが切れるだけみたいです)&lt;/Small&gt;&lt;/Small&gt;
+
+
+　&lt;H3&gt;&lt;Font color=#FF6347&gt;・ツリー関連の説明&lt;/Font&gt;&lt;/H3&gt;
+　　　　次に各発言の参照ですが、パターンが色々あるので例を一つあげてみます。
+
+　　　　　　&lt;Font color=#FFFF00&gt;&lt;B&gt;▼ 親発言 親発言者 yyyy/mm/dd hh:nn:ss&lt;/B&gt;&lt;/Font&gt;
+　　　　　　&lt;Font color=#FFFF00&gt;&lt;B&gt;　├返信A 返信者A yyyy/mm/dd hh:nn:ss&lt;/B&gt;&lt;/Font&gt;
+　　　　　　&lt;Font color=#FFFF00&gt;&lt;B&gt;　│└親返信 親発言者 yyyy/mm/dd hh:nn:ss (修正1回)&lt;/B&gt;&lt;/Font&gt;
+　　　　　　&lt;Font color=#FFFF00&gt;&lt;B&gt;　├返信B 返信者B yyyy/mm/dd hh:nn:ss&lt;/B&gt;&lt;/Font&gt;
+　　　　　　&lt;Font color=#FFFF00&gt;&lt;B&gt;　├DELETED 返信者D yyyy/mm/dd hh:nn:ss (削除)&lt;/B&gt;&lt;/Font&gt;
+　　　　　　&lt;Font color=#FFFF00&gt;&lt;B&gt;　└返信C 返信者C yyyy/mm/dd hh:nn:ss&lt;/B&gt;&lt;/Font&gt;
+
+　　　　上記の場合、&lt;Font color=#FFA07A&gt;親発言&lt;/Font&gt;に対し&lt;Font color=#00FFFF&gt;返信者Aさん&lt;/Font&gt;・&lt;Font color=#00FFFF&gt;返信者Bさん&lt;/Font&gt;・&lt;Font color=#00FFFF&gt;返信者Cさん&lt;/Font&gt;・&lt;Font color=#00FFFF&gt;返信者Dさん&lt;/Font&gt;
+　　　が返事を書いていて&lt;Font color=#00FFFF&gt;返信者Aさん&lt;/Font&gt;に対してさらに&lt;Font color=#00FFFF&gt;親発言者さん&lt;/Font&gt;が返事を書いています。
+　　　このうち、&lt;Font color=#00FFFF&gt;返信者Dさん&lt;/Font&gt;の発言は既に本人により削除されていて、&lt;Font color=#FFA07A&gt;親返信&lt;/Font&gt;に関しては
+　　　一度修正がされていることをあらわしています。
+
+　　　　&lt;Font color=#FFA07A&gt;yyyy/mm/dd hh:nn:ss&lt;/Font&gt;は発言された日時が表示され、この部分を見れば
+　　　何時発言されたものなのかが分かります。ただし最初に発言した日時であって、
+　　　&lt;Font color=#55FF55&gt;&lt;U&gt;発言の修正をおこなっても日時は変更されない&lt;/U&gt;&lt;/Font&gt;ようなので注意が必要です。
+
+　　　　各発言を個々に参照したい場合、参照する発言のタイトル
+　　　(この場合、「&lt;Font color=#FFA07A&gt;親発言&lt;/Font&gt;」「&lt;Font color=#FFA07A&gt;返信A&lt;/Font&gt;」等)を選択します。そうでなく発言に対する
+　　　ツリー全体を参照したい場合は、親発言の左にある「&lt;Font color=#FFA07A&gt;▼&lt;/Font&gt;」を選択します。
+
+　　　　なお、GCでは出来ないですが、PCのブラウザ等のお気に入り機能を使用する
+　　　ことで該当のページを後々簡単に参照できるようになります。後々役に立ちそう
+　　　な発言を見つけた時は是非活用してみてください。
+
+
+
+&lt;Font color=#FF00FF&gt;-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-&lt;/Font&gt;
+&lt;H2&gt;&lt;Font color=#00FFFF&gt;【新たに発言するには(発言・返信)】&lt;/Font&gt;&lt;/H2&gt;
+　新しく発言したり、既にある発言に対して返事を書く為の説明です。
+
+
+　&lt;H3&gt;&lt;Font color=#FF6347&gt;・はじめに&lt;/Font&gt;&lt;/H3&gt;
+　　　　まず、どんなBBSでもですが多かれ少なかれ利用する為の約束事というもの
+　　　があります。もちろん、このファンタシースターオンラインのBBSにも規約等
+　　　がありますので、&lt;Font color=#55FF55&gt;&lt;U&gt;初めて書込みする前には必ず一読する&lt;/U&gt;&lt;/Font&gt;ようにしてください。
+
+　　　　　&lt;Font color=#FFFF00&gt;&lt;B&gt;【PSO EPISODE I&II 専用掲示板利用規約】&lt;/B&gt;&lt;/Font&gt;
+　　　　　　　　http://www.sonicteam.com/psogc/pc/bbs_kiyaku.html
+　　　　　&lt;Font color=#FFFF00&gt;&lt;B&gt;【セガ伝言板利用規約】&lt;/B&gt;&lt;/Font&gt;
+　　　　　　　　http://www.sonicteam.com/psogc/pc/kiyaku_sega.html
+
+　　　　また、この他にも一覧ページの上部には&lt;Font color=#FFA07A&gt;■ソニックチームからのお願い■&lt;/Font&gt; や
+　　　&lt;Font color=#FFA07A&gt;【BBS（伝言板）注意事項】&lt;/Font&gt;が書かれていますので、そちらも必ず一読しておいて
+　　　ください。これらの規約やお願い等を守って健全で楽しいBBSになるよう皆で
+　　　努力していきましょう。
+
+　　　&lt;Font color=#55FF55&gt;&lt;B&gt;※※※　重　　要　※※※&lt;/B&gt;&lt;/Font&gt;
+　　　　発言するからには、&lt;Font color=#FFA07A&gt;発言内容に責任を持ってください&lt;/Font&gt;。情報源がはっきり
+　　　しない内容や噂レベルの情報を書き込まないでください。発言に対する
+　　　責任をキチンと取れるのであれば別ですが・・・。
+
+
+　&lt;H3&gt;&lt;Font color=#FF6347&gt;・新規発言する前に&lt;/Font&gt;&lt;/H3&gt;
+　　　　まず、&lt;Font color=#55FF55&gt;&lt;U&gt;新しく発言する時は同様の発言が無いか過去ログを見て確認しましょう&lt;/U&gt;&lt;/Font&gt;。
+　　　検索機能が無い為全て見てとまでは言いませんが、最低でも&lt;Font color=#FFA07A&gt;前ページ&lt;/Font&gt;、
+　　　せめて&lt;Font color=#FFA07A&gt;2・3ページ&lt;/Font&gt;、出来れば&lt;Font color=#FFA07A&gt;5ページ&lt;/Font&gt;くらいはさかのぼって調べてみてください。
+　　　　また、&lt;Font color=#55FF55&gt;&lt;U&gt;セガの規約等も十分認識し違反しないように注意&lt;/U&gt;&lt;/Font&gt;してください。
+　　　　なお、Windows専用となりますが、私が作成しているビューワーを使用する事で、
+　　　簡単な検索をおこなう事が出来ます。よろしければご活用ください。
+　　　(私のサイトへは名前の部分から飛ぶことができます)
+
+
+　&lt;H3&gt;&lt;Font color=#FF6347&gt;・新規発言前準備&lt;/Font&gt;&lt;/H3&gt;
+　　　　本当に初めての書き込みの場合は、&lt;Font color=#99FF66&gt;確認キー&lt;/Font&gt;を取得する必用があります。
+　　　&lt;Font color=#99FF66&gt;確認キー&lt;/Font&gt;を取得するには必ず、&lt;Font color=#FFA07A&gt;受信できるメールアドレス&lt;/Font&gt;が必要となります。
+
+　　　　まず、ページ右上にある「&lt;Font color=#FFA07A&gt;新しく発言する&lt;/Font&gt;」を選択し、&lt;Font color=#FFA07A&gt;MAKING BASE NOTE&lt;/Font&gt;
+　　　ページ(以下 &lt;Font color=#FFA07A&gt;新規発言ページ&lt;/Font&gt;)を開きます。&lt;Font color=#FFA07A&gt;新規発言ページ&lt;/Font&gt;内にある&lt;Font color=#FFA07A&gt;MAKE KEY&lt;/Font&gt;ボタン
+　　　を押下し、&lt;Font color=#FFA07A&gt;RESULT&lt;/Font&gt; ページを開いてください。
+　　　　&lt;Font color=#FFA07A&gt;RESULT&lt;/Font&gt; ページにて&lt;Font color=#00FFFF&gt;メールアドレス&lt;/Font&gt;・&lt;Font color=#00FFFF&gt;シリアルナンバー&lt;/Font&gt;・&lt;Font color=#00FFFF&gt;アクセスキー&lt;/Font&gt;を入力し、
+　　　&lt;Font color=#FFA07A&gt;OK&lt;/Font&gt;ボタンを押下する事で、入力されているメールアドレス宛に確認キーがメール
+　　　されます。&lt;Font color=#FFFF00&gt;&lt;B&gt;この確認キーが無いと書込み出来ません&lt;/B&gt;&lt;/Font&gt;ので注意してください。
+
+
+　&lt;H3&gt;&lt;Font color=#FF6347&gt;・新規発言の方法&lt;/Font&gt;&lt;/H3&gt;
+　　　　新規発言をする場合はページ右上にある「&lt;Font color=#FFA07A&gt;新しく発言する&lt;/Font&gt;」を選択し、
+　　　&lt;Font color=#FFA07A&gt;新規発言ページ&lt;/Font&gt;を開きます。必要項目及びタイトル・本文を入力後、
+　　　&lt;Font color=#FFA07A&gt;WRITE&lt;/Font&gt;ボタンを押下することで新規発言を登録できます。
+　　　　なお、本文は複数行入力できます。基本的にブラウザ右端で自動的に折り返され
+　　　ますが、横に長い文章が長く続くと非常に読み難くなります。ですので、
+　　　&lt;Font color=#55FF55&gt;&lt;U&gt;適度に改行を入れてください&lt;/U&gt;&lt;/Font&gt;。ちなみに、このマニュアルの改行位置は、
+　　　大体半角70～80(全角にして35～40)文字の位置で改行しています。
+
+　　　　登録する前には今一度読み返して誤字脱字・読みやすさ・不適切な表現の有無
+　　　・足りない情報の有無等の確認をしてください。なお、&lt;Font color=#55FF55&gt;&lt;U&gt;新規発言時のタイトルは&lt;/U&gt;&lt;/Font&gt;
+　　　&lt;Font color=#55FF55&gt;&lt;U&gt;修正出来ませんので、タイトルは重点的に見直してください&lt;/U&gt;&lt;/Font&gt;。
+
+
+　&lt;H3&gt;&lt;Font color=#FF6347&gt;・返事の書き方&lt;/Font&gt;&lt;/H3&gt;
+　　　　既にある発言に対し、返事を書きたい場合は対象の発言を表示(単体でも一覧でも可)
+　　　し、返事を書きたい発言にある「&lt;Font color=#FFA07A&gt;返事を書く&lt;/Font&gt;」を選択して&lt;Font color=#FFA07A&gt;MAKING APPEND NOTE&lt;/Font&gt; ページ
+　　　(以下 &lt;Font color=#FFA07A&gt;返信ページ&lt;/Font&gt;)を開きます。必要項目及び本文を入力後、&lt;Font color=#FFA07A&gt;APPEND&lt;/Font&gt;ボタンを押下する
+　　　ことで対象の発言に対して返事が書けます。
+　　　　返信に関しては&lt;Font color=#FFA07A&gt;本文に書いた内容の一行目がタイトルとして使用されます&lt;/Font&gt;ので、
+　　　いきなり本文を書き出すのではなく、タイトル文を書いて1・2行改行してから
+　　　書き込むと良いかと思います。ただし、タイトルが長すぎると一覧ページでの
+　　　タイトルが途中で切れてしまう為、出来るだけ簡潔にまとめた方が良いです。
+　　　　なお、タイトルには一行目の前から&lt;Font color=#FFA07A&gt;約20文字&lt;/Font&gt;が使用されるので、
+　　　タイトルを書く時の目安としてみてください。
+
+
+　&lt;H3&gt;&lt;Font color=#FF6347&gt;・情報の保存&lt;/Font&gt;&lt;/H3&gt;
+　　　　各書き込み時、「&lt;Font color=#FFA07A&gt;以後ステータス情報をブラウザに保存する(cookie) &lt;/Font&gt;」に
+　　　チェックを入れておくことで、&lt;Font color=#FFA07A&gt;メールアドレス&lt;/Font&gt;と&lt;Font color=#FFA07A&gt;確認キー&lt;/Font&gt;をブラウザに保存する
+　　　ことが可能です。少しでも入力の手間を減らす為に活用してください。ただし、
+　　　インターネットカフェや職場・学校等自分だけのものでないマシンでの保存は
+　　　&lt;Font color=#55FF55&gt;&lt;U&gt;メールアドレスや確認キーが他の人に漏れてしまう可能性が高い&lt;/U&gt;&lt;/Font&gt;ので、そういう
+　　　マシンでの保存は&lt;Font color=#55FF55&gt;&lt;U&gt;絶対にしない&lt;/U&gt;&lt;/Font&gt;ように注意してください。
+
+
+　&lt;H3&gt;&lt;Font color=#FF6347&gt;・発言を登録する前に&lt;/Font&gt;&lt;/H3&gt;
+　　　　発言を登録する前に書いた内容を確認しましょう。相手を不快にさせたり
+　　　しないかよく確認してから登録するようにしてください。&lt;Font color=#55FF55&gt;&lt;U&gt;相手や第三者に&lt;/U&gt;&lt;/Font&gt;
+　　　&lt;Font color=#55FF55&gt;&lt;U&gt;不快感を与える書き込みでは書き込まない方がマシです&lt;/U&gt;&lt;/Font&gt;。
+　　　&lt;Small&gt;&lt;Small&gt;(というより規約に引っかかる可能性がありますね)&lt;/Small&gt;&lt;/Small&gt;
+　　　　また、発言の内容がフリー向けかシークレット向けかよく判断してください。
+　　　特にアイテム名やクエスト等の事を書く時は注意が必要です。SWとして出る
+　　　アイテム名は例え沢山出る物だといってもシークレットに書くべき内容になります。
+　　　また、発言自体がネタバレにならなくてもクエストの内容や回答にネタバレが
+　　　含まれる可能性が予想される内容はシークレットに書き込むべき内容になるか
+　　　と思います。
+　　　　アイテム名を個別に出す書き込みや質問はシークレットBBS、接続やイベント
+　　　宣伝等はフリーBBSに書き込むのが妥当と思われます。
+
+　　　　なお、フリーBBSでは例えタイトルに「(ネタバレ)」とか書き加えても、
+　　　ネタバレになる内容を書かないように注意してください。また、シークレットBBS
+　　　でも全然ネタバレにならないような世間話みたいな書込みはしないように注意
+　　　してください。また、たとえシークレットBBSでもエンディングや最新クエスト
+　　　の攻略情報は控えるようにしてください。どうしても書き込む場合は対象の
+　　　部分をFontタグを使用し、背景色と同じ文字色にして一目で情報が見れない
+　　　ようにする配慮をお願いいたします。
+
+
+　&lt;H3&gt;&lt;Font color=#FF6347&gt;・本文の書き方&lt;/Font&gt;&lt;/H3&gt;
+　　　　本文は表示される時に右端で自動的に折り返されますが、基本的に横に長く
+　　　行数の多い文章は非常に見辛くなります。適度に改行を入れて読みやすい
+　　　文章にするように心がけてください。また、本文入力時に一行ずつ空白文字を
+　　　入れて入力エリアでの見た目上で空行を入れた複数行にして登録される方が
+　　　いますが、入力エリアの見た目そのままが表示されるわけではないので注意
+　　　してください。このようにして登録された本文は非常に読み辛い文章となります。
+　　　&lt;Font color=#55FF55&gt;&lt;U&gt;改行をするにはEnterキーによる改行&lt;/U&gt;&lt;/Font&gt;を使用してください。
+
+
+　&lt;H3&gt;&lt;Font color=#FF6347&gt;・登録後に&lt;/Font&gt;&lt;/H3&gt;
+　　　　最後に、登録後は見難い文章になってしまっていないか、また問題な発言はして
+　　　いないか今一度自分の発言を表示して読み返してみましょう。自分が読んで
+　　　読み辛ければ、他の人は更に読み辛く、最悪読んでもらえない可能性もあります。
+　　　そういった場合は、次項のノートメニューの活用を参考にして修正してください。
+
+
+
+&lt;Font color=#FF00FF&gt;-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-&lt;/Font&gt;
+&lt;H2&gt;&lt;Font color=#00FFFF&gt;【ノートメニューの活用(発言の修正・削除)】&lt;/Font&gt;&lt;/H2&gt;
+　発言した内容を修正する為の説明です。
+
+
+　&lt;H3&gt;&lt;Font color=#FF6347&gt;・はじめに&lt;/Font&gt;&lt;/H3&gt;
+　　　　発言を書き込んだ後に、文章が間違えていたり誤字脱字が多い等、色々修正
+　　　したくなる時があると思います。そういう場合はノートメニューを活用しましょう。
+
+
+　&lt;H3&gt;&lt;Font color=#FF6347&gt;・発言の修正&lt;/Font&gt;&lt;/H3&gt;
+　　　　まず、自分の発言を表示(単体でも一覧でも可)し、修正したい発言の
+　　　「&lt;Font color=#FFA07A&gt;ノートメニュー&lt;/Font&gt;」を選択して&lt;Font color=#FFA07A&gt;NOTE MENU&lt;/Font&gt; ページ(以下 &lt;Font color=#FFA07A&gt;ノートメニュー&lt;/Font&gt;)を開き
+　　　ます。必要項目を入力し修正したい部分を修正して&lt;Font color=#FFA07A&gt;REVISE&lt;/Font&gt;ボタンを押下する
+　　　ことで対象の発言を修正できます。この時近くに&lt;Font color=#FFA07A&gt;DELETE&lt;/Font&gt;ボタンもあるので&lt;Font color=#55FF55&gt;&lt;U&gt;間違って&lt;/U&gt;&lt;/Font&gt;
+　　　&lt;Font color=#55FF55&gt;&lt;U&gt;押してしまわないように注意してください&lt;/U&gt;&lt;/Font&gt;。
+　　　　また、返信の場合に限り、一行目を修正することでタイトルを変更することが
+　　　出来ます。親発言のタイトルを変更することは出来ないようです。
+
+
+　&lt;H3&gt;&lt;Font color=#FF6347&gt;・発言の削除&lt;/Font&gt;&lt;/H3&gt;
+　　　　削除する場合は&lt;Font color=#FFA07A&gt;ノートメニュー&lt;/Font&gt;を開いて、必要項目入力後一番下にある
+　　　&lt;Font color=#FFA07A&gt;DELETE&lt;/Font&gt;ボタンを押下すれば削除できます。
+
+
+　&lt;H3&gt;&lt;Font color=#FF6347&gt;・メールの送信&lt;/Font&gt;&lt;/H3&gt;
+　　　　ノートメニューのメール機能にて書き込み者に対してメールを送信する事が
+　　　出来ます。送られるメールは以下のタイトルで送信されます。
+
+　　　　　&lt;Font color=#FFFF00&gt;&lt;B&gt;Subject：KY-VIEW megalopolis F-mail system&lt;/B&gt;&lt;/Font&gt;
+
+　　　　送信者のメールアドレスがソニックチームの物なのでソニックチームからの
+　　　メールと勘違いするかもしれませんが、上記タイトルのメールはノートメニュー
+　　　のメール機能で送信されたものです。また、本文には送信者の送信時の名前と
+　　　メールアドレスが書き込まれています。
+
+　　　　送信の仕方は必要項目とメールメッセージを入力後&lt;Font color=#FFA07A&gt;SEND FMAIL&lt;/Font&gt;ボタンを
+　　　押下すれば送信できます。
+
+　　　&lt;Font color=#55FF55&gt;&lt;B&gt;※※※　重　　要　※※※&lt;/B&gt;&lt;/Font&gt;
+　　　　悪戯目的で使用しないようにしてください。
+</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

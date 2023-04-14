@@ -1,0 +1,132 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/108/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="gcfree">
+<input type="hidden" name="id" value="acsdmg">
+<input type="hidden" name="id2" value="jyzgue">
+<input type="hidden" name="pg" value="108">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >あはは、そうなのですか～^^;（追記あり）
+
+楽しいレスポンス？ を べりーさんきろです～(^^)
+蒲鉾の板とわ、これまた．．．^^;　想像しただけですごいです（笑）。
+
+をを、夫婦でGCもっておられるのですね！！
+「」Ｅ～（かっこいい、といいたいらしい（何））
+う～ん、絨毯はちょっと危険かも、なんですよね^^;
+
+こちらのお友達はプレステで同様の現象が起こったので、
+今では背を若干上げて放熱改善を図っている模様です。
+
+でしょうね、PSOはなんといっても唯一ブロードバンドアダプタといった
+通信系のプロトコル処理も本体で行っていますから、そして上の文章に
+あるとおりで、Ｎ天堂さんはまだ通信系ライブラリーを上手く提供できていない
+みたいなので、多少は仕方ないのでしょうね
+（現行除く3作品は新たな通信系を実装済みみたいで）。
+
+
+お互い長持ちできますように♪
+
+
+
+
+以下原文
+
+確かに熱の問題もありますよね^^;
+逆に言い返せば、吸気孔からの空気の流入量不足で熱暴走、というケースもあります。
+
+結構GCのロジックボードは底面に向かって取り付けてあるので、
+本体の底面が熱を溜めやすい素材の上などで稼働させられるとまずいかもしれないですね。
+（例：布地の上など）
+対処法は、足の部分にコルク栓でもいいので、多少高さを上げてあげて、
+空気が触れるようにしてみたらいいかもしれないです。
+その分埃の問題も出るのでご注意を．．．。
+（分解したら解りますけど、かなりいろんなところに飛散しているのです）
+
+
+こちらの場合はカナラック（メッシュ状になっている置き台）の上なので、
+放熱周りは良好です。最高で5日間連続耐久稼働させましたけど、
+エラーなどは一度もでませんのでご指摘の通りでエラーがでるのはやはり
+熱処理に起因するものはあるかもしれないですね。
+
+もっとも、ソフトが一番アヤしいとにらんではいますけど^^;
+（皆さんは他のゲームでそうなるのをみたことありますか？
+こちらはみたことないです～．．．）
+
+
+と、どうでもいい駄文でした_(._.)_</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

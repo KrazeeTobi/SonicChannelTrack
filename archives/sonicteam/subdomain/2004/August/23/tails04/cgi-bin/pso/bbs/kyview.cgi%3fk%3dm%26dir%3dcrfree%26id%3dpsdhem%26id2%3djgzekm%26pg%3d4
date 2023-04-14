@@ -1,0 +1,106 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOEP3』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1g.png" bgcolor="#003333" text="#FFFFFF" link="#99FF99" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/c/crfree/4/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="crfree">
+<input type="hidden" name="id" value="psdhem">
+<input type="hidden" name="id2" value="jgzekm">
+<input type="hidden" name="pg" value="4">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >最後に、ここで話を振ったワケ。
+
+まず、誰かが62-2のロビーで
+「ここは人が多いから他に移ってくださーい」
+といきなり言ったとしたら、さてみんなどう思いますかね。
+まあ「勝手に仕切んなボケ」と無視されるのがオチでしょう。
+
+では、次に誰かが一人で別のブロックに部屋を作ったとしたら。
+…人、来ません。試してみたらわかります。結構切ないです。
+仮に人が来たとしても、部屋が一つしかないようではそこから
+なかなか発展しません。
+
+というわけで、ここで呼びかけてみようかな、と。
+一つ部屋があるぐらいでは変わらなくても、数室部屋があれば
+ちょっとした待避所ぐらいにはなってくれる…といいなぁと。
+
+最初のきっかけがほしいだけなんですね。
+
+人は人が多いところに集まるもんで。
+しかし、自然に集まれる場所には限りがあります。
+だからここをきっかけに人が集まりだしてくれれば。
+人が多いってことで、ここを見てない人も来てくれるかも、と。
+
+
+いや、本当はソニチさんに、ＥＰ１＆２の人は来れるけど部屋は
+作れない、ＥＰ３専用サーバーみたいのを用意してもらえたなら
+ベターなんでしょうけどね。現状じゃ難しそうかな……と。
+
+
+最後に、３回にわけてのレス、すみませんでした。
+どうも長くなりすぎて、読む方も疲れるんじゃないかと思って。</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

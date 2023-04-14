@@ -1,0 +1,119 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/106/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="gcfree">
+<input type="hidden" name="id" value="uabnjd">
+<input type="hidden" name="id2" value="bpcofx">
+<input type="hidden" name="pg" value="106">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >PCは大丈夫ですか？
+
+PC使用時に問題なければ、GCの方の問題だと思われます。
+てれすさんの書き込みを参考されるといいでしょう。
+
+以下は気休めかもしれませんが、機械的なこととしての対策。
+
+・太めの、ノイズ対策をしているケーブルに変えてみる
+・周辺に携帯や電子レンジなどの電化製品がないか確認する
+
+室内レイアウト変更で安定したりする場合もあります。
+ケーブルは少々長くても大丈夫らしいです。
+（うちは壁に這わせるために７ｍ以上を使用しています）
+
+
+---------　以下追加　-----------------
+
+PCでの「ページが表示できません」は
+・404 Not Found（ファイルが存在しない）
+・500 Internal Server Error（DNSサーバエラー）
+がよく見られるエラーです。
+＃それ以外のエラーは普通のネットユーザーは滅多に見ない…
+
+404はファイルそのものが不在なのでどうしようもないのですが、
+メンテナンス以外で500が多いのなら「利用している回線が混みやすい」かも知れません。
+この場合は周辺からノイズの影響を受けないよう、環境を整える必要性が出ます。
+個人的な経験から電化製品が乱立しているとノイズを拾いやすく、
+細いケーブルはノイズの影響を受けやすく感じます。
+＃引越し前はマシン毎に安定度がばらばらだった
+＃しかもメインマシンが新品のISDNルータを認識しない（ぉ）
+
+以前は各種電源コードがモデムに近く（10cm内！）、
+これがまずいのかと考えて引越し後はケーブルをモールにまとめて
+壁に這わせるとトラブルは激減しました。
+
+一応参考までにどうかと…。</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

@@ -1,0 +1,112 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOEP3』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1g.png" bgcolor="#003333" text="#FFFFFF" link="#99FF99" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/c/crfree/6/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="crfree">
+<input type="hidden" name="id" value="ndfjwf">
+<input type="hidden" name="id2" value="ndfjwf">
+<input type="hidden" name="pg" value="6">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >6/5午前3時、すべての予選トーナメントが終了いたしました。
+3日間に渡る激闘の予選を勝ち抜き、
+見事に予選上位16名入りを果たしたのはいったい誰でしょう？
+
+【EP3ぎゃざCUP特設ページ】にて、注目の予選結果発表です！
+
+【EP3ぎゃざCUP特設ページ】
+http://www.sonicteam.com/psoep3/gather/gcup01.html
+
+
+決勝トーナメントへのエントリー方法は、
+個人戦であったこれまでの大会とは異なるため、
+【EP3ぎゃざCUP特設ページ】に記載されている
+エントリー方法のご確認をお願いいたします。
+エントリーを行われないと
+上位32名の方でも決勝トーナメントに参加することは出来ません。
+十分にご注意ください。
+
+
+場所：
+『G-1 GP/ENTRY』
+
+必要な情報：
+チーム名
+パートナーのキャラ名
+パートナーのギルドカードNo.
+（以上3点は必ず必要です。ご注意ください。）
+
+日時：（上位16名）
+6月5日（土） 13：00～15：00
+6月5日（土） 21：00～23：00
+
+日時：（補欠枠16名）
+6月5日（土） 23：00～24：00
+
+申請が完了した段階で
+決勝トーナメントへのエントリーは終了となります。</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>
