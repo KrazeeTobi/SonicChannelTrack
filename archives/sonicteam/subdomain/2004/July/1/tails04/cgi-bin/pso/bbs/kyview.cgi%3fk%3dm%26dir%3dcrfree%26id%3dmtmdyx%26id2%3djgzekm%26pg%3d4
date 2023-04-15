@@ -1,0 +1,113 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOEP3』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1g.png" bgcolor="#003333" text="#FFFFFF" link="#99FF99" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/c/crfree/4/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="crfree">
+<input type="hidden" name="id" value="mtmdyx">
+<input type="hidden" name="id2" value="jgzekm">
+<input type="hidden" name="pg" value="4">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >観点を変えて。
+
+「避難所ができることによる影響」についての考察。
+
+
+??-2を提案した理由を「直感的にわかりやすい場所」と、意図的
+に強調したけど、実はざっくりと状況も見てます。
+
+・ 夜でもSHIP62以外には人はそんなにいない。SHIP62以外は
+　100人前後。またSHIP62以外では??-1に人がよく集まる。
+　??-2は、だいたい接続人数10人前後。
+
+これが??-2を提案した根拠だったりします。
+
+
+既存のチームにどういう影響を及ぼすかについても考えてます。
+
+・ 62-2に200人以上人がいる夜でも、62-2-1ですら人影まばら。
+　62-2-2以降はほぼ空っぽ、いても１～２人。
+　さらに接続人数110人ほどの昼の62-2では、62-2-2以降には
+　探せど探せど人っ子１人いませんでしたとさ。
+
+つまり、仮に63-2が避難所になったところで、スフレさんも今まで
+通りチームでロビーを占拠できるんじゃないかな、と。
+なんせ62-2の場合を見ても、200人いてもEP1&2用ロビーには
+人なんてほとんどいないんですから。
+ましてや今回の話は「移転」じゃなくて「避難所」。
+200人も押し寄せるなんて話はありえないでしょう。
+200人のうち混雑に耐えきれなくなった人だけが来るんですから。
+
+
+＜ここより蛇足の試算＞
+トナメ待ちの人以外はとっとと部屋に入ってしまうので、100人が
+押し寄せたってC1～C5以外はガラガラになるでしょうな。
+なんせ四人対戦部屋が5つできるだけで20人。10もできれば40人
+がロビーから消える計算。100 - 40 = 60人ならC1～C5までだけ
+で収容できる人員なわけで。で、もし100人いるロビーなら部屋数
+10じゃすみませんし。</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

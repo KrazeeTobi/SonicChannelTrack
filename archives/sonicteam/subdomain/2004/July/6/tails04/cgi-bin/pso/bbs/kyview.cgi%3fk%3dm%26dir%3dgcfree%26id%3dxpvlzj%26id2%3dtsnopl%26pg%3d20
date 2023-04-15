@@ -1,0 +1,108 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/20/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="gcfree">
+<input type="hidden" name="id" value="xpvlzj">
+<input type="hidden" name="id2" value="tsnopl">
+<input type="hidden" name="pg" value="20">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >ちょっと質問いいでしょうか？
+
+はじめまして、正直モデムや接続にはあまり詳しくないので
+詳しい方に少しお聞きしたいのですが、よろしいでしょうか？？
+
+&gt;LANケーブルにはいくつかの種類がありますが、
+&gt;BbAで使用できるLANケーブルには、
+&gt;ADSLモデムとBbAを直でつなぐ場合（機器を1対1でつなぐ場合）には、
+&gt;「クロスケーブル」の方を使用することが多いようです。
+
+私はNTTのフレッツADSL8Mで、モデムより直にBbAに接続しているのですが
+以前モデムを設置した時に、工事をしていただいた方から
+「クロスケーブル」はこのモデムには使用できないと聞いた覚えがあります。
+ただ、その記憶がちょっとあいまいでイマイチ信憑性がないんです（汗）
+（ちなみにそのモデムは、今年の３月からNTTよりレンタルしているものです）
+現在はストレートケーブルを使って居間のモデムから自室の方に回線を引いているのですが、
+クロスケーブルというものは、どんなモデムでも使用できるのでしょうか？
+こういったことに詳しい方がいましたら
+教えていただけると大変助かります。
+
+
+この３日間というもの、本当に何度も切断されて困っています；；
+アイテムのロストが痛いというよりも、（これも確かに辛いですが；）
+一緒に遊んでいた皆さんに迷惑かけるのがとても辛いです……
+早く快適に遊べるようになりたい（涙）</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

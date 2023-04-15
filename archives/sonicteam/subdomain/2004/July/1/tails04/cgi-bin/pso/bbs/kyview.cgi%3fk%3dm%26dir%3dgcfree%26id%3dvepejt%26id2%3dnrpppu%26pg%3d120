@@ -1,0 +1,111 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/120/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="gcfree">
+<input type="hidden" name="id" value="vepejt">
+<input type="hidden" name="id2" value="nrpppu">
+<input type="hidden" name="pg" value="120">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >チーム団員募集＆HP宣伝です～。
+
+&lt;font size=5&gt;&lt;font color=iceblue&gt;チーム「silkmist」団員大募集中♪&lt;/font&gt;&lt;/font&gt;
+オンライン復帰に伴いチーム結成を決定しましたので、ただいま
+新規団員を急遽募集しております～。
+まだ規模はかなり小規模ですが、不正を絶対にせずネットマナーを
+守れる方ならどなたでも大歓迎いたします。
+掛け持ちやあまり参加できなくてもＯＫです♪
+（私自身も最近少々参加時間帯が微妙でして（爆）
+活動曜日などは指定しません、かなりランダムです。
+活動時間帯は22:00～26:00（終了時間はこの時間が限界です＞＜；）
+活動ロビーは68-10-4でございます。
+&lt;font color=violet&gt;（活動ロビーに際しては5/24付で変更いたしました）&lt;/font&gt;
+入団を希望したい、または詳細を知りたいという方は、
+お気軽に活動ロビーへ、またはメールでどうぞです♪
+皆様のご入団を、心よりお待ちしております＾＾
+
+&lt;font size=5&gt;&lt;font color=iceblue&gt;ＨＰ宣伝&lt;/font&gt;&lt;/font&gt;
+管理人のヘヴォな周回記録や旅日記、ドロップアイテムリスト等を
+掲載しております～♪親発言者様の100の質問も掲載予定です。
+今後徐々にコンテンツを増設する予定ですので、お気軽にお越し
+下さいませ♪
+
+ＨＰアドレス
+http://www.geocities.jp/arkbright/
+
+修正個所
+活動ロビー場所修正（今まで気づかなかったです＞＜）</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

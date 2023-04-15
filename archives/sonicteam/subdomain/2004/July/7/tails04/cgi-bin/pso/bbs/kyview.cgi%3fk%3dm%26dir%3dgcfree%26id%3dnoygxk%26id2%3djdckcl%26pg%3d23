@@ -1,0 +1,121 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/23/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="gcfree">
+<input type="hidden" name="id" value="noygxk">
+<input type="hidden" name="id2" value="jdckcl">
+<input type="hidden" name="pg" value="23">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >こんにちは、はじめまして。
+私もBIGLOBE、フレッツADSLで接続しています。
+さて、メシアさんの接続方法は
+電話線―ADSLモデム―ルーター―GCBBA
+と言うルーターを通しての接続なのでしょうか？
+ルーターを通しているのであれば、私のレスは見当違いなので
+読み飛ばして下さい。
+
+もしそうでなく
+電話線―ADSLモデム―GCBBA
+で接続しているのでしたらフレッツADSLの場合はネットワーク設定
+でPPPoE接続を使用しないと接続出来ません。
+
+その場合は
+OPTION→ネットワークの設定→プロバイダ設定→ユーザープロバイダ
+でネットワークの設定をPPPoEを使用するに変更すれば
+接続出来るようになると思います。
+後は取扱説明書の20ページ以降を参考にしてみて下さい。
+
+ただし今現在、この方法で接続が成功しても、ここのHPの
+お知らせにも書いてあるように通信が安定しない現象が
+発生する恐れがあります。
+もしパソコンをお持ちでしたらルーターを通しての接続を
+お勧めします。
+
+私はADSLモデムから直接GCのBBAに繋いだ時はこの現象が
+起きて途中で画面が真っ暗になってしまいましたが、
+ルーターを間に通して接続したら普通に出来るように
+なりましたので、ご参考までに。
+
+以下追加修正
+よく考えたらココに書き込みしているんだからパソコンか
+何かで書き込みしてるんですよね(＾_＾;
+
+ルーターを通している場合はHPは見れる状態のようですから
+GC側の設定に問題があると思いますので説明書を見ながら
+設定をやり直した方が良いかと思います。
+なお、その時はフレッツでもPPPoEは使用しないのでご注意を。</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

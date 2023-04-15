@@ -1,0 +1,149 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/33/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="gcfree">
+<input type="hidden" name="id" value="motxkx">
+<input type="hidden" name="id2" value="kmpdvi">
+<input type="hidden" name="pg" value="33">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >HTMLというのは、たしか…
+ハイパーテキストメイキャップランゲージ、でHTMLです。
+まぁ…文章だけでHPの構成を作ってしまうという、
+それなりにスゴイ物ではあるのですが…
+DCでHPを作成する管理者にとっては
+修得必須な技能ですから…簡単に覚えておくといいですよ～
+
+
+では。
+
+&lt;font color="yellow"&gt;&lt;font color=red size=+1&gt;&lt;/font&gt;
+　この文章は、文字色をred（赤）に、
+　文字のサイズを基準サイズより１段階大きく。
+　という意味を持っています。
+　当然、redをblueやyellow等にすることもできます。
+　上の月華さんの書き込みを参照してくださいね（＾＾
+　ただし、背景色が暗めの青と言う点に留意しておかないと、
+　折角の文字修飾効果が無くなりますので注意。
+　上記タグを、修飾したい文章の頭に付けて、
+　修飾したい文章の末尾に&lt;/font&gt;と記入すればOKです。
+　この「閉じタグ」を忘れると表示がメチャクチャになるので注意。
+
+
+&lt;font color="yellow"&gt;&lt;b&gt;&lt;/font&gt;
+　ボールド体にします。
+　修飾部分の先頭に付けると、そこから書き込みの終点まで
+　&lt;b&gt;こんな感じで太字になります（DCでは判りにくいですが）&lt;/b&gt;
+　もちろん、書き込みの終点までってのは効果としてイマイチなので、
+　修飾末尾で&lt;/b&gt;を忘れずに。
+
+
+&lt;font color="yellow"&gt;&lt;i&gt;&lt;/font&gt;
+　文字に斜体効果を持たせます。
+　これも使い方はボールド体と同じです（＾＾；
+
+
+&lt;font color="yellow"&gt;ウラ技：隠しメッセージ&lt;/font&gt;
+　公には出来ないようなメッセージを、
+　さりげなく表現する時に使用します
+　（もちろん、良識の範囲でね＾＾；）
+　やりかたは…
+
+　例）総督の頭はハゲ頭だー！！
+　　↓
+　&lt;font color=#000044 size=3&gt;総督の頭はハゲ頭だー！！
+　&lt;/font&gt;
+
+　このようにすればOKなハズ…
+　あ、さりげなく登場した
+　#XXXXXXってのは、色指定のもう一つの方法です。
+　#&lt;font color="red"&gt;XX&lt;/font&gt;（赤色の強さ）&lt;font color="green"&gt;XX&lt;/font&gt;（緑色の強さ）&lt;font color="blue"&gt;XX&lt;/font&gt;（青色の強さ）
+　さらに、サイズ指定の方も。
+　プラス・マイナスで表記する他に、
+　そのまま大きさの指定ができます。
+　1が小さく、7が最大です。
+　普通は3が標準的なサイズ…らしいです（＾＾；
+
+
+
+
+
+
+Ｐくん　Ｓくん　Ｏくん
+(o^-^)o (^-^v　(_ _;;
+みんなで楽しくＰＳＯ!!
+</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

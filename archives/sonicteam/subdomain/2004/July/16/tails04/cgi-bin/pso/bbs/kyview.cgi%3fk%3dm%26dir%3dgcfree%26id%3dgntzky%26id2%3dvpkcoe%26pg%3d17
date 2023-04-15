@@ -1,0 +1,124 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/17/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="gcfree">
+<input type="hidden" name="id" value="gntzky">
+<input type="hidden" name="id2" value="vpkcoe">
+<input type="hidden" name="pg" value="17">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >急角度でグッと回るような
+視角変更の頻度を少なくするというのはどうでしょうか？
+
+あと、視角変更の際にプレイヤーの視点はどこにあるのか？
+それも鍵であると思います。
+
+眺める方向という意味ではなく、
+見つめる点という意味での視点です。
+
+自キャラを見るのか、
+あるいは敵やアイテム、扉などの目標物を見るのか…？
+条件によって異なりますし、
+同じ条件のように思えても別の条件が加わることによって
+その視点は変わります。
+
+基本的に私は全体やレーダーマップを見ていますが、
+Ｌボタン押しの際には、その切り替わる先を見ていたりします。
+画面外にそれがある場合には
+キャラクターに視点を置いています。
+で、目標物が見えてきたらそちらに視点を移している、はず。
+
+自分も意識してやっているわけではないので
+気づかない部分もあるかもしれないです。
+
+ただ、頻繁に激しく視界が動くということはありません。
+自動で緩やかに動く程度です。
+
+naoさんの視角切り替えの頻度を見ていない以上、
+推測でしかものを言えませんが、
+やはり急角度での視角変更を少なくした方が良いでしょう。
+
+画面外に目標物があるような角度、
+大体真横（９０度）辺りですが、
+それ以上の角度での視角変更は多用しないこと。
+使うにしても、間隔を置いて使うこと。
+変な例えですが、
+「回転椅子に座って今日中に１００回転しろ。」
+と言われて一気にやらず１分おきで１回転やって
+１００分で終われば目も回らないということです。
+
+あとは、空間認知力を身につけることぐらいでしょうか…？</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

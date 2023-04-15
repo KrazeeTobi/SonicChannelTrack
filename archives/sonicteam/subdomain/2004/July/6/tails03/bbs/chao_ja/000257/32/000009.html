@@ -1,0 +1,226 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=Shift_JIS">
+<meta name="description" content="">
+<style type="text/css"><!--
+
+    div,p,tr,td,a{font-size:9pt;text-decoration:none;}
+    input,textarea,select{background-color: #FFEEEE; color: #0033CC; border: 1 solid #33CCFF;}
+    input.button{background-color: #33CCFF; color: #FCFCFC; border: 3 double;}
+    input.noborder{background-color: #FCFCFC; color: #33CCFF; border: 0;}
+    A:active{text-decoration:none; color:#000000;}
+    A:HOVER{color:#FF9933;}
+    hr{color: #33CCFF;}
+
+
+--></style>
+<title>ＣＨＡＯ ＢＢＳ</title>
+</head>
+
+
+<BODY BACKGROUND="/bbs/img/chao_bg_new.gif" bgcolor="#eeffff" TEXT="#003399" link="#0000CC" Vlink="#9966CC">
+<font size=2>
+
+<DIV ALIGN="center">
+<P>
+<TABLE BORDER="0" WIDTH="100%" BORDERCOLOR="#00CCFF" BGCOLOR="#00CCFF" CELLSPACING="0" CELLPADDING="4">
+<TD ALIGN=RIGHT>
+<a href="/cgi-bin/bbs/main.cgi?Lang=ja&Book=chao_ja&Mode=NewForm"><IMG SRC="/bbs/img/icon_new.gif" BORDER="0">新しく発言をつくる</a>
+<a href="/bbs/chao_ja/index.html"><IMG SRC="/bbs/img/icon_chao.gif" BORDER=0>ＣＨＡＯ ＢＢＳ</a>
+</TD>
+</TABLE>
+</DIV>
+
+<P>
+
+<font size="+2" color="#0055FF">過去のデータの再検証(6/13)(1.58KB)</font><br>
+
+<table width="100%">
+<tr><td nowrap>
+</font></td></tr></table>
+
+<DIV ALIGN="center">
+
+<TABLE BORDER="0" WIDTH="100%" BORDERCOLOR="#00CCFF" BGCOLOR="#00CCFF" CELLSPACING="0">
+<TR>
+<TD BGCOLOR="#00CCFF">
+<FONT SIZE=2 COLOR="#FFFFFF">
+<STRONG>dove</STRONG>
+ID:000043
+2003/06/13 21:18:22
+</TD>
+
+<TD><FONT COLOR="#FFFFFF" SIZE=2>
+<DIV ALIGN="RIGHT">
+<a href="/cgi-bin/bbs/main.cgi?Lang=ja&Book=chao_ja&Mode=ResForm&Parent=000257-32-000009">
+<IMG SRC="/bbs/img/icon_re.gif" BORDER=0> 返事を書く   </a>
+
+<a href="/cgi-bin/bbs/main.cgi?Lang=ja&Book=chao_ja&Mode=RevForm&Parent=000257-32-000009">
+<IMG SRC="/bbs/img/icon_note.gif" BORDER=0> 発言の修正   </a>
+
+
+<IMG SRC="/bbs/img/icon_home.gif" BORDER=0> ホームぺージ
+
+</DIV>
+</TD>
+<br>
+</font>
+</td>
+</tr>
+
+<tr>
+<TD BGCOLOR="#FCFCFC" COLSPAN=2>
+<TABLE BORDER=0 WIDTH="100%" CELLSPACING="0" CELLPADDING="4">
+<TR>
+<TD WIDTH=50>
+<IMG SRC="/bbs/img/_none.gif" ALIGN="LEFT">
+</TD>
+<TD>
+<FONT SIZE=2 color="#000000">
+加速(5/20)(1.68KB)<br>
+<br>
+<br>
+時間が無いなんて言っていたら、いつまでたっても進まないので、ほんの少しだけ時間を割きました。<br>
+<br>
+時間よりも、むしろ「気分」が問題なんですが。<br>
+<br>
+<br>
+小数の処理の観察とその方法。<br>
+<br>
+(1) CD紫を10個与えて、ヒコウタイプに一次進化させる。<br>
+(2) コンドルを10匹取り込ませ、ハシリのパラメータを0にする。<br>
+(3) フェニックスを1匹取り込ませ、その度にVMで計測。これを、総数が10匹になるまで繰り返す。<br>
+<br>
+コンドルとフェニックスの基礎変化量は、以下の通り（000065/48/000033を参照）。<br>
+コンドル　　　　+1.0　　+3.0　　-1.2　　+0.8<br>
+フェニックス　　+0.6　　+1.6　　+0.2　　+0.8<br>
+<br>
+パラメータの変移。左から、オヨギ、ヒコウ、ハシリ、チカラ。<br>
+<br>
+一次進化直後：<br>
+015　031　015　015<br>
+<br>
+ハシリ初期化直後：<br>
+035　151　000　031<br>
+<br>
+フェニックス取り込み後：<br>
+0 　035　151　000　031<br>
+1 　036　154　000　032<br>
+2 　037　157　000　034<br>
+3 　038　160　001　036<br>
+4 　040　164　001　037<br>
+5 　041　167　002　039<br>
+6 　042　170　002　040<br>
+7 　043　173　002　042<br>
+8 　044　176　003　044<br>
+9 　046　180　003　045<br>
+10　047　183　004　047<br>
+<br>
+ハシリの変移の詳細：<br>
+0 　000　[0.0]<br>
+1 　000　[0.4]　(+0.4)<br>
+2 　000　[0.8]　(+0.4)<br>
+3 　001　[1.2]　(+0.4)<br>
+4 　001　[1.6]　(+0.4)<br>
+5 　002　[2.0]　(+0.4)<br>
+6 　002　[2.4]　(+0.4)<br>
+7 　002　[2.8]　(+0.4)<br>
+8 　003　[3.2]　(+0.4)<br>
+9 　003　[3.6]　(+0.4)<br>
+10　004　[4.0]　(+0.4)<br>
+<br>
+桁数の関係で読みづらい表記になっていますが、その辺は勘弁してください。<br>
+<br>
+<br>
+さて、「六捨八入」ではなく、私がこっそり考えていた四捨六入（事実上の四捨五入）でもなく、「小数点以下切り捨て」という、当たり前といえば当たり前な結果が返ってきました。<br>
+<br>
+次にやるべきことは、自然成長の最終的な値の調査になりましょうか。<br>
+<br>
+個人的には、自然成長の変化量はもっと小さいと考えています。具体的には、+0.2（倍率適用時は+0.4）程度ではなかろうかと。<br>
+<br>
+<br>
+<br>
+<br>
+----<br>
+過去のデータの再検証(6/13)(1.58KB)<br>
+<br>
+<br>
+かつて、われわれに六捨八入を確信させたデータを、もう一度洗いなおします。記述がくどい上に、無駄に縦長になっていますが、その辺はご了承ください。<br>
+<br>
+<br>
+65.48.29（11/4）より。自然成長完了後のチャオに、CD赤を10個与えた後、さらにCD赤を1個ずつ与えて、その度に計測した結果。<br>
+<br>
+&gt; 　１個目：３１．０＋１．６＝３２．６（３２）<br>
+&gt; 　２個目：３２．６＋１．６＝３４．２（３４）<br>
+&gt; 　３個目：３４．２＋１．６＝３５．８（３６）<br>
+&gt; 　４個目：３５．８＋１．６＝３７．４（３７）<br>
+&gt; 　５個目：３７．４＋１．６＝３９．０（３９）<br>
+&gt; 　６個目：３９．０＋１．６＝４０．６（４０）<br>
+&gt; 　７個目：４０．６＋１．６＝４２．２（４２）<br>
+&gt; 　８個目：４２．２＋１．６＝４３．８（４４）<br>
+&gt; 　９個目：４３．８＋１．６＝４５．４（４５）<br>
+&gt; １０個目：４５．４＋１．６＝４７．０（４７）<br>
+<br>
+3回目の加算後の値が不正。<br>
+<br>
+加算前の値と加算後の値をそれぞれX、Yとすると、整数値が36になるためのYの条件は、<br>
+<br>
+　36.0 ≦ Y ≦ 36.8<br>
+<br>
+であるから、Xが取りうる値の最小値は、<br>
+<br>
+　36.0 - 1.6 = 34.4<br>
+<br>
+また、2回目の加算結果から、Xが取りうる値の最大値は、<br>
+<br>
+　X ≦ 34.8<br>
+<br>
+であるから、Yが取りうる値の範囲は、<br>
+<br>
+　34.4 + 1.6 ≦ X + 1.6 ≦ 34.8 + 1.6<br>
+　⇔ 36.0 ≦ Y ≦ 36.4<br>
+<br>
+これより、4回目以降の加算結果を求めると、<br>
+<br>
+　Y = 36.0のとき、<br>
+　36.0 → 37.6 → 39.2 → 40.8 → 42.4 → 44.0 → 45.6 → 47.2<br>
+　Y = 36.2のとき、<br>
+　36.2 → 37.8 → 39.4 → 41.0（整数値が40にならないので不正）<br>
+　Y = 36.4のとき、<br>
+　36.4 → 38.0（整数値が37にならないので不正）<br>
+<br>
+よって、<br>
+<br>
+　X = 34.4<br>
+　Y = 36.0<br>
+<br>
+また、自然成長完了後の値は、<br>
+<br>
+　34.4 - 3.2 - 16 = 15.2<br>
+<br>
+である。<br>
+<br>
+<br>
+おかしな部分や不明な点がある場合は、突っ込んでみてください。
+</FONT>
+</TD>
+</TABLE>
+</TD>
+</TABLE>
+
+
+<P>
+
+<TABLE BORDER="0" WIDTH="100%" BORDERCOLOR="#00CCFF" BGCOLOR="#00CCFF" CELLPADDING="4" CELLSPACING="0">
+<TR>
+<TD>
+<FONT SIZE=2 COLOR="#FFFFFF">
+<a href="/bbs/chao_ja/index.html"><IMG SRC="/bbs/img/icon_chao.gif" BORDER=0>ＣＨＡＯ ＢＢＳ</a>
+<small>新規発言を反映させるにはＲトリガーで表示されるメニューの中から、『再読み込み』を選んでＡボタンを押してください。
+</small>
+</font>
+</TD>
+</TABLE>
+
+</body>
+</html>

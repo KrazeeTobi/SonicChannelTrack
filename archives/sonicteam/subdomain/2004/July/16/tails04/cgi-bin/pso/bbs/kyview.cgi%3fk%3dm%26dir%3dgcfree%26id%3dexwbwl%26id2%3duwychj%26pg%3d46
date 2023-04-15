@@ -1,0 +1,111 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/46/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="gcfree">
+<input type="hidden" name="id" value="exwbwl">
+<input type="hidden" name="id2" value="uwychj">
+<input type="hidden" name="pg" value="46">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >あのね・・
+毎日掲示板見てて、大体の内容を覚えてる人なら話は分かるけど、
+たまにしか見ない人で、１ページ位前しかチェックしない人は
+同じような投稿があっても仕方ないでしょ？。
+
+毎日チェックしてる人は、「同じ事を載せるな」「同じ事を聞くな」
+って言うけど、それは、以前の投稿を知ってる人しか当てはまらない
+という事を考慮して言ってますか？。
+
+誰も「義務を無視して同様のカキコをしても良い」とは言ってませんよ。
+しかも、書く権利を主張してるワケでもないですよ。
+親スレさんの言い分は、
+「修正版についてのスレを制限してほしい」と言ってますが、
+「修正版についての話題だって色々あるのにどうやって制限するのかな？」
+って疑問に思いませんか？・・。
+
+アゲアシになりますが
+&gt;検索エンジンがないからソニチの注意書きを無視する
+常識の範囲っていうのがあるよね？。
+同じページ内に同内容のモノが有ったら、ソニチ殿が言っている注意事項が
+当てはまるけど、別なページに載ってるのに同じ内容が載っていたら
+検索エンジンを付けないソニチ殿が悪いと思いませんか？。
+だから、「検索エンジンを追加してほしい」旨をソニチ殿に頼んでみたら？
+と書いたまでです。
+（善し悪しの問題じゃないけど、注意事項に当てはまるかどうかは
+掲示版利用者の「常識」の問題だと思いますよ。）
+どこをどう受け取ったら、「わがまま」と受け取れるか不思議です。
+</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

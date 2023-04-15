@@ -1,0 +1,82 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『ファンタシースターオンライン エピソード１＆２』トライアルBBS</title>
+</head>
+<body background="http://tails04.sonicteam.com/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/t/trial/22/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#ffffff">MAKING APPEND NOTE</font>
+<hr>
+<p>
+<table width="100%" border="0">
+<tr bgcolor="#004080"><td width="100%"><strong>元の発言</strong></td>
+<td align="right" width="1%" nowrap> <br></td></tr>
+<tr bgcolor="#004080"><td colspan="2"><strong>しおりん＋</strong>  <i> 2002/06/22</i>  </td></tr>
+<tr bgcolor="#000040"><td colspan="2">モデム接続でそうなるってことでしょうか？<BR><BR>サウンドに関してはラフォイエの音にドア音が割り込んでくるとかよくあります。<BR>PCで言うと古いサウンドカードやドライバで起きる問題。<BR>おそらく製品版では解消されていると思います。<BR>※そういえばSFCのスターオーシャン等は本来1つのPCM音源を多重化してましたね。<BR><BR>＞『切断の寸前まで通常通りで、落ちる前兆が無い。』<BR>確かにこれって困りますよね。<BR>PC通してるならロビーに居る時だとPC再接続して検索結果から移動すると何事も無かったかのように動きます。<BR>※でもこれIP違っても認証無しでシップ間移動してるかもしれないからセキュリティ上やばいような気もｗ<BR><BR>＞回線切断と表示されてるのに他の人が動いてる場合。<BR>サーバとの通信、ユーザーとの通信の片方（サーバ側）が切れるとキャラ動いてるのにサーバ切断とか・・・<BR>※これはサーバ側の経路で問題があった時になったような気が。<BR>（単なる一時的な回線障害ならTCPとUDPのタイムアウトの差かもしれませんが）<BR><BR>＞繋がってるのに他の人が止まって見える場合。<BR>これは時々あります。<BR>サーバとの通信がうまくいってるけど、ユーザー間のUDP（移動データ）通信ができないとキャラが止まって見えるようです。<BR><BR>UDPの方の作りが甘いのかもしれないですね・・・<BR>タイムアウト長いと上記のように再接続することも出来るかな。<BR>タイムアウト短いと回線に少し雑音入っただけで切れそうだし・・・（汗<BR><BR>ちなみにUDP入れてると切断から切断と表示されるまで少し時間があって、<BR>UDP切ってると切断されるとすぐ切れるかも。<BR>※TCPの場合はパケット毎に応答確認するので応答無いとソフトが回線切断と判断するから。（予想）</td></tr>
+</table>
+</p>
+<p>
+<form action="submit.cgi" method="post" >
+メッセージ ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual">
+</textarea><BR>
+
+<input type="hidden" name="title" value="Re:モデム接続でそうなるってことでしょうか？">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="pg" value="22">
+<input type="hidden" name="id" value="cerklu">
+<input type="hidden" name="id2" value="ippmzj">
+<input type="hidden" name="dir" value="trial">
+</p>
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+<input type="hidden" name="c" value="APPEND">
+<p>
+<input type="submit" value="APPEND"> 書き込み 
+
+</p>
+</form>

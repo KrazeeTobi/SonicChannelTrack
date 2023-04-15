@@ -1,0 +1,127 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『ファンタシースターオンライン エピソード１＆２』トライアルBBS</title>
+</head>
+<body background="http://tails04.sonicteam.com/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/t/trial/25/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#ffffff">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="trial">
+<input type="hidden" name="id" value="unpeho">
+<input type="hidden" name="id2" value="unpeho">
+<input type="hidden" name="pg" value="25">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#ffffff">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#ffffff">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >えー、最終日なので要望をまとめたいと思います
+
+まず１つめ
+
+ＰＢの改良
+
+これはもう既出ですよね
+今回から、ＰＢの威力が精神力に依存するせいか
+ハンターやレンジャーは威力が全然ありません
+アンドロイドはダメージすらないヒドイ有様です
+恐らく、ココには修正が入ると思いますけど…
+
+２つめ
+
+一部モーション
+
+ソード系などは男性よりも非力な女性の方が振りが速い…
+これは自分はどうかと思います。
+でも、実際修正いれれば弱体化してしまうんで
+難しいところなんでしょーけど…
+あと、長刀など職業が違っても同じモーションなのはちょっと…
+できれば変えて欲しいです(厳しいでしょうけど…ｗ
+
+３つめ
+
+使えないテクのパレット
+
+例えば、ヒューマーならばシフタ・デバンドが使えないですよね？
+なのに、カスタムのところにシフタ・デバンドのパレットがあるのはなんか気持ち悪いです。
+どの職業が何を覚えられるのか、とかとか色々わかると思うので
+使えないテクニックのパレットは除去して欲しいです
+
+４つめ
+
+&lt;b&gt;ステージの追加&lt;/b&gt;
+
+こりゃ、もう大要望ですね！（笑
+管理区は、長いと言っちゃ長いのですが、これだけではやはりモノ足りません
+もっともっと増やして欲しいところですね…
+
+
+以上、だらだらと書き込ませて頂きましたー
+まだメールはしてませんけど、後でやっておこうかと思います
+何か他に意見や、他の要望などあれば皆様どんどん書き込んで下さいー</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#ffffff">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

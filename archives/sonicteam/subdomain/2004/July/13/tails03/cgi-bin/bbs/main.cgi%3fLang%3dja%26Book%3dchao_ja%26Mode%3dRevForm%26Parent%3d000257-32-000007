@@ -1,0 +1,295 @@
+<HTML>
+<HEAD>
+<meta http-equiv="Content-Type" content="text/html;charset=Shift_JIS">
+<TITLE>チャオのＢＢＳ</TITLE>
+<style TYPE="TEXT/css"><!--
+
+    diV,p,TR,TD,a{FONT-SIZE:9pt;TEXT-decoration:NOne;}
+    INPUT,TEXTAREA,SELECT{BACKGROUND-COLOR: #FFFFCC; COLOR: #0033CC; BORDER: 1 solid #33CCFF;}
+    INPUT.BUTTON{BACKGROUND-COLOR: #33CCFF; COLOR: #FCFCFC; BORDER: 3 double;}
+    INPUT.NOBORDER{BACKGROUND-COLOR: #FCFCFC; COLOR: #33CCFF; BORDER: 0;}
+    A:actiVe{TEXT-decoration:NOne; COLOR:#000000;}
+    A:HOVER{COLOR:#FF9900;}
+    hr{COLOR: #33CCFF;}
+
+
+--></style>
+
+</HEAD>
+<BODY BACKGROUND="/bbs/img/chao_bg_new.gif" BGCOLOR="#eeffff" TEXT="#003399" link="#0000CC" Vlink="#9966CC">
+<FONT SIZE=2>
+
+<DIV ALIGN="center">
+
+<TABLE BORDER=0 BGCOLOR="#33CCFF" WIDTH="100%" CELLSPACING="0" CELLPADDING="4">
+<TR>
+<TD>
+<FONT SIZE="+2" COLOR="#FFFFFF">NOTE MENU</FONT>
+<FONT SIZE=2 COLOR="#FFFFFF">  －発言の修正と削除－  </FONT>
+</TD>
+<TD ALIGN="RIGHT">
+<A HREF="/bbs/chao_ja/index.html">
+<IMG SRC="/bbs/img/icon_chao.gif" BORDER=0>
+ ＣＨＡＯ ＢＢＳ</a>
+</TD>
+</TABLE>
+<BR>
+
+<TABLE BORDER=0 WIDTH="100%" BGCOLOR="#33CCFF" CELLPADDING="4" CELLSPACING="0">
+<TR>
+<TD><FONT SIZE=2 COLOR="#FFFFFF"><B>まずは必要な情報を入力します。</B></FONT></TD>
+<TR>
+<TD>
+
+<TABLE BORDER=0 BGCOLOR="#FCFCFC" WIDTH="100%" CELLPADDING="4" CELLSPACING="0">
+<TR>
+<TD ALIGN="RIGHT" VALIGN="MIDDLE" NOWRAP WIDTH=20%>
+<FORM action="main.cgi" method="POST">
+<input type="hidden" name="Lang" value="ja">
+<input type="hidden" name="Book" value="chao_ja">
+<input type="hidden" name="Mode" value="RevPost">
+<input type="hidden" name="Parent" value="000257-32-000007">
+<input type="hidden" name="PostId" value="1089696671-30582">
+
+<FONT SIZE=2>なまえ</FONT></TD>
+<TD><FONT SIZE=2><INPUT TYPE="TEXT" NAME="Name" SIZE="40" MAXLENGTH="40" VALUE=""></FONT></TD>
+</TR>
+<TR>
+<TD ALIGN="RIGHT" VALIGN="MIDDLE" NOWRAP WIDTH=20%><FONT SIZE=2>メールアドレス</FONT></TD>
+<TD><FONT SIZE=2><INPUT TYPE="TEXT" NAME="Mail" SIZE="40" MAXLENGTH="40" VALUE=""></FONT></TD>
+
+<TR>
+<TD ALIGN="RIGHT" VALIGN="MIDDLE" NOWRAP WIDTH=20%><FONT SIZE=2>パスワード</TD>
+<TD><FONT SIZE=2><INPUT TYPE="TEXT" NAME="Pass" SIZE="40" MAXLENGTH="20" VALUE=""></FONT></TD>
+
+<TR>
+<TD ALIGN="RIGHT" VALIGN="MIDDLE" NOWRAP WIDTH=20% ROWSPAN="3"><FONT SIZE=2>URL</TD>
+<TD><FONT SIZE=2><INPUT TYPE="TEXT" NAME="Url" SIZE="40" MAXLENGTH="100" VALUE="http://"></FONT></TD>
+<TR>
+<TD>
+<FONT SIZE=2>
+<INPUT TYPE="CHECKBOX" NAME="Cookie" VALUE="ON" CHECKED CLASS=NOBORDER>
+ 以後ステータス情報をブラウザに保存する(cookie)</FONT>
+</TD>
+<TR>
+</TABLE>
+</TD>
+</TABLE>
+<BR>
+
+<TABLE BORDER=0 WIDTH="100%" BGCOLOR="#33CCFF" CELLPADDING="4" CELLSPACING="0">
+<TR>
+<TD><FONT SIZE=2 COLOR="#FFFFFF">
+<FONT COLOR="#FFFFFF"><B>発言の修正</B></FONT></TD>
+<TR>
+<TD>
+
+<TABLE BORDER=0 BGCOLOR="#FCFCFC" WIDTH="100%" CELLPADDING="4" CELLSPACING="0">
+<TR>
+<TD ROWSPAN="2" ALIGN="RIGHT" VALIGN="BOTTOM" WIDTH=20%><FONT SIZE=2>タイトル</FONT></TD>
+<TD>
+発言者はこの記事を修正することができます。<BR>メールアドレスとパスワードを入力してください。
+</FONT>
+</TD>
+<TR>
+<TD><INPUT TYPE="Text" NAME="Title" SIZE="40" value="他のデータ"></TD>
+<TR>
+<TD ALIGN="RIGHT" VALIGN="MIDDLE" NOWRAP WIDTH=20%><FONT SIZE=2>
+メッセージの<BR>内容</FONT></TD>
+<TD>
+<TEXTAREA NAME="Text" COLS="60" ROWS="6" WRAP="VIRTUAL" >他のデータ　５／７
+
+自然成長を0.4または0.8の加算、ばらつきは倍率分岐点０、ＶＭ表示は小数切り捨て、と仮定すると他にも参考になりそうなデータがありました。
+
+転生前のスキル
+３０　３４　３２　２０　　０　１５　４４
+
+このチャオの転生後のスキル変化
+１）ユニコーン　　０　０　１　０　０　０　０
+２）途中経過　　　４　４　５　４　０　４　14
+３）ユニコーン　　５　５　７　４　０　４　14
+４）ユニコーン　　８　７　11　５　０　５　18
+
+木の実の数は記録していないので、スタミナは参考にならない。
+
+倍率１を加算していく
+１）0.8　0.6　1.8　0.0　　0.8　0.6　1.8　0.0
+２）0.4×10 　　　　　　  4.8　4.6　5.8　4.0
+３）0.8　0.6　1.8　0.0　　5.6　5.2　7.6　4.0
+４）0.8　0.6　1.8　0.0　　6.4　5.8　9.4　4.0
+n11)  0.4　　　　　　　　  6.8　6.2　9.8　4.4
+n12）0.4　　　　　　　　　7.2　6.6　10.2　4.8
+n13）0.4　　　　　　　　　7.6　7.0　10.6　5.2
+n14）0.4　　　　　　　　　8.0　7.4　11.0　5.6
+
+倍率２を適用すると、１）で破綻するので、倍率１を適用。倍率１が生後に適用できることから「分岐点０」となり、全てのスキルが分岐点０であることもわかる。
+
+しかしながら、自然成長を0.8に置き換えることでの破綻は起こらなかった。
+
+前世のスキル値が５０未満の場合、転生後の分岐点は０になる、と言ってしまってもいいんだろうか。
+
+
+このチャオの前世でのスキル変化
+
+１）スカンク　　　２　２　２　２　０　１　０
+２）緑ＣＤ×４　　４　４　10　４　０　３　１
+３）途中経過　　　７　７　14　７　０　６　５
+４）スカンク　　　12　12　16　12　０　10　10
+５）黄１紫１　　　16　16　16　15　０　15　21
+６）黄ＣＤ　　　　18　16　16　15　０　15　22
+７）チーター　　　17　16　20　16　０　
+８）赤ＣＤ　　　　17　16　20　17
+９）緑ＣＤ　　　　17　16　22　17
+10）紫ＣＤ　　　　17　17　22　17
+11）ユニコーン　　19　18　26　17
+12）ラッコ　　　　23　18　26　16
+13）クジャク　　　24　23　25　14
+14）黄ＣＤ　　　　26　23　25　15　
+　　　大人になる？
+15）黄ＣＤ　　　　28　23　25　15
+16）ウサギ　　　　28　24　29　14
+17）ウサギ　　　　28　24　33　12
+18）クジャク　　　29　29　31　10
+19）黄ＣＤ　　　　30　29　31　10
+20）オウム　　　　30　34　29　10
+21）赤ＣＤ　　　　30　34　29　12
+22）赤ＣＤ　　　　30　34　29　15
+23）赤ＣＤ　　　　30　34　29　17
+24）赤ＣＤ　　　　30　34　29　20
+25）緑ＣＤ　　　　30　34　32　20
+
+木の実の数は不明。
+進化タイプも不明。
+初期の変動から、チセイ：スタミナ＝２：１ということはわかるので、ばらつきがあると仮定。
+
+とりあえず倍率２を適用
+
+１）0.8　1.2　1.2　0.8　　0.8　1.2　1.2　0.8
+n2）0.8×２　　　　　　　 2.4　2.8　2.8　2.4
+２）Ｒ1.6×４　　　　　　　2.4　2.8　9.2　2.4
+n4）0.8×２　　　　　　　 4.0　4.4 10.8　4.0
+３）n8=0.8×４　　　　　　7.2　7.6 14.0　7.2
+４）0.8　1.2　1.2　0.8　　8.0　8.8 15.2　8.0
+
+ここでハシリが１５を越えるので、３と４の間の自然成長分を割り出す。
+
+n10）0.8×２　　　　　　　8.8　9.2 15.6　8.8
+n12）0.8×２　　　　　　 10.4 10.8 15.6 10.4
+n13）0.8　　　　　　　　 11.2 11.6 15.6 11.2
+４）0.8　1.2　1.2　0.8　 12.0 12.8 16.8 12.0
+
+次の計測で１５を越えるのでnxを割り出す
+n16）0.8×３　　　　　　 14.4 15.2 16.8 14.4
+n17）0.8　　　　　　　　 15.2 15.2 16.8 15.2
+
+５）ＳＦ1.6　　　　　　　16.8 16.8 16.8 15.2
+６）Ｓ1.6　　　　　　　　18.4 16.8 16.8 15.2
+７）-0.8 -0.8 4.0 0.8　 17.6 16.0 20.8 16.0
+８）Ｐ1.6　　　　　　　　17.6 16.0 20.8 17.6
+９）Ｒ1.6　　　　　　　　17.6 16.0 22.4 17.6
+10）Ｆ1.6　　　　　　　　17.6 17.6 22.4 17.6
+11）1.6　1.2　3.6　0.0　 19.2 18.8 26.0 17.6
+12）4.4 -0.4 0.8 -1.6　 23.6 18.4 26.8 16.0
+13）1.2　4.8 -1.6 -1.2　24.8 23.2 25.2 14.8
+14）Ｓ1.6　　　　　　　　26.4 23.2 25.2 14.8
+
+ここでチカラは「１５」を示す。自然成長が復活したとして加算。
+
+n18)0.8　　　　　　　　　26.4 23.2 25.2 15.6
+
+ここで大人になったようだが、不明
+
+15）Ｓ1.6　　　　　　　　28.0 23.2 25.2 15.6  
+16）0.0　0.8　4.0 -1.6　28.0 24.0 29.2 14.0
+17）0.0　0.8　4.0 -1.6　28.0 24.8 33.2 12.4
+18）1.2　4.8 -1.6 -1.2　29.2 29.6 31.6 11.2
+
+ここで破綻が起こる。
+進化タイプがノーマルだったと仮定し、１８）のチカラを倍加。
+
+18）1.2　4.8 -1.6 -2.4　29.2 29.6 31.6 10.0
+19）Ｓ1.6　　　　　　　　30.8 29.6 31.6 10.0
+
+以下もノーマルタイプの「ランダムに２回加算」があるが、破綻はない。
+
+転生前の倍率２が、スキル５０未満によって倍率１になった（分岐点０）ことと、子供の時の自然成長の復活現象らしきものがみられる。
+
+</TEXTAREA></TD>
+
+<TR>
+<TD ALIGN="RIGHT" VALIGN="MIDDLE" NOWRAP><FONT SIZE=2>文字色</FONT></TD>
+<TD>
+<INPUT TYPE="RADIO" VALUE="#000000" NAME="Color" CLASS=NOBORDER checked><FONT COLOR="#000000"><BIG>★</BIG></FONT> 
+<INPUT TYPE="RADIO" VALUE="#808080" NAME="Color" CLASS=NOBORDER><FONT COLOR="#808080"><BIG>★</BIG></FONT> 
+<INPUT TYPE="RADIO" VALUE="#FF8000" NAME="Color" CLASS=NOBORDER><FONT COLOR="#FF8000"><BIG>★</BIG></FONT> 
+<INPUT TYPE="RADIO" VALUE="#0080C0" NAME="Color" CLASS=NOBORDER><FONT COLOR="#0080C0"><BIG>★</BIG></FONT> 
+<INPUT TYPE="RADIO" VALUE="#FF9999" NAME="Color" CLASS=NOBORDER><FONT COLOR="#FF9999"><BIG>★</BIG></FONT> 
+<INPUT TYPE="RADIO" VALUE="#FF0000" NAME="Color" CLASS=NOBORDER><FONT COLOR="#FF0000"><BIG>★</BIG></FONT> 
+<INPUT TYPE="RADIO" VALUE="#008000" NAME="Color" CLASS=NOBORDER><FONT COLOR="#008000"><BIG>★</BIG></FONT> 
+<INPUT TYPE="RADIO" VALUE="#996600" NAME="Color" CLASS=NOBORDER><FONT COLOR="#996600"><BIG>★</BIG></FONT> 
+</TD>
+</TR>
+<TR>
+<TD ALIGN="RIGHT" VALIGN="MIDDLE" NOWRAP><FONT SIZE=2>アイコン</FONT></TD>
+<TD><SELECT NAME="Icon"><FONT SIZE=2>
+<OPTION VALUE="chao_n00">はてなＮ</OPTION>
+<OPTION VALUE="chao_n01">ぷんぷんＮ</OPTION>
+<OPTION VALUE="chao_n02">うふふＮ</OPTION>
+<OPTION VALUE="chao_n04">おどろきＮ</OPTION>
+<OPTION VALUE="chao_n05">わーいＮ</OPTION>
+<OPTION VALUE="chao_n07">にこにこＮ</OPTION>
+<OPTION VALUE="chao_n08">すやすやＮ</OPTION>
+<OPTION VALUE="chao_n09">かなしいＮ</OPTION>
+<OPTION VALUE="chao_h00">にこにこＨ</OPTION>
+<OPTION VALUE="chao_h01">ぷんぷんＨ</OPTION>
+<OPTION VALUE="chao_h02">おどろきＨ</OPTION>
+<OPTION VALUE="chao_h03">かなしいＨ</OPTION>
+<OPTION VALUE="chao_d00">にこにこＤ</OPTION>
+<OPTION VALUE="chao_d01">ぷんぷんＤ</OPTION>
+<OPTION VALUE="chao_d02">いひひＤ</OPTION>
+<OPTION VALUE="chao_d03">激怒Ｄ</OPTION>
+<OPTION VALUE="_none" selected>無し</OPTION>
+</FONT></SELECT>
+<A HREF="/bbs/chao_ja/iconlist.html"><SMALL>(アイコン一覧)</SMALL></A></TD>
+
+</TR>
+<TR>
+<TD ALIGN="RIGHT" VALIGN="MIDDLE" NOWRAP WIDTH=20%><FONT SIZE=2>発言修正</FONT></TD>
+<TD VALIGN="MIDDLE">
+<INPUT TYPE="SUBMIT" NAME="Action" VALUE="Revise" CLASS="BUTTON">
+</TD>
+</TABLE>
+
+</TD>
+</TABLE>
+<BR>
+
+
+<TABLE BORDER=0 WIDTH="100%" BGCOLOR="#33CCFF" CELLPADDING="4" CELLSPACING="0">
+<TR>
+<TD><FONT SIZE=2 COLOR="#FFFFFF">
+<FONT COLOR="#FFFFFF"><B>発言の削除</B></FONT></TD>
+<TR>
+<TD>
+
+<TABLE BORDER=0 BGCOLOR="#FCFCFC" WIDTH="100%" CELLPADDING="4" CELLSPACING="0">
+<TR>
+<TD ROWSPAN="2" ALIGN="RIGHT" VALIGN="BOTTOM" NOWRAP WIDTH=20%><FONT SIZE=2>発言削除</TD>
+<TD><FONT SIZE=2>発言者と管理者はこの記事を削除することができます。<BR>メールアドレスと確認キーを入力してください。
+</TD>
+<TR>
+<TD>
+<INPUT TYPE="SUBMIT" NAME="Action" VALUE="Delete" CLASS="BUTTON">
+</TD>
+</TABLE>
+
+</TD>
+</TABLE>
+
+</FORM>
+
+</DIV>
+
+</FONT>
+</BODY>
+</HTML>

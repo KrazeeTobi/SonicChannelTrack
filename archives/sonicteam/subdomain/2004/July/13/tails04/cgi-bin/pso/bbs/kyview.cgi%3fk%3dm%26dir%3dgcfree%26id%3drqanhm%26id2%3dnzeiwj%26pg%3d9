@@ -1,0 +1,111 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/9/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="gcfree">
+<input type="hidden" name="id" value="rqanhm">
+<input type="hidden" name="id2" value="nzeiwj">
+<input type="hidden" name="pg" value="9">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >確かに残念ですね。バグさえなければもっと楽しめたのは事実ですから。
+
+でも、今回件はバグだけが問題ではなくて、その後の対応が些かよろしくなかったようです。
+まず、バグを認めて発表したことに関しては評価できます。しかし、内容がお粗末でした。
+商品を売ることだけしか考えず、曖昧な条件での新サーバーの設置の可能性の表明、プレイ
+スタイルとマナーで何とかしろという放置的な現状維持。これでは混乱を招くのは目に見え
+ていました。
+
+「対応にあたり、あらゆる角度から対応策ならびにそれによって起こりうる事態を想定し検
+証を重ねました。その結果、以下のような結論に至りました。」という発言まで行っていま
+した。ここまで考えていたというなら、方針の変更はないとも思っていました。
+
+ところがたった二日で・・、多くの苦情・問い合わせのためか、いきなり修正版を何らかの形
+で供給すると発表。公表した文章には「少々言葉足らずな点があった・・・」という、まるで最
+初から決まったいたかのような内容でびっくりしました。ならば最初から言うべきだし、急
+遽早めたのであれば補足ではなく、変更であることを伝えるべきです。この時点で今回の文
+章に関しても、私には信用ができなくなりました。
+
+私はメーカーが決定した対策には、どんな内容であれ文句を言うつもりはありません。耐え
+られないような決定であっても、従うかやめるかのどちらかです。すべての人の要望を聞く
+など、不可能であることは明白ですし、ましてや他人に自分の意見を押し付けるなんてでき
+ません。しかし、対策が決定されない限りは、現在のプレイに支障が出るのは間違いのない
+事実です。
+
+公式な発表が既に曖昧である以上、混乱は免れません。これから公表されるたびに何らかの
+混乱が生じます。今回の発表ですら曖昧な点があります。対策内容を決定し、きちっと表明
+することが現在の急務かと思います。
+</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

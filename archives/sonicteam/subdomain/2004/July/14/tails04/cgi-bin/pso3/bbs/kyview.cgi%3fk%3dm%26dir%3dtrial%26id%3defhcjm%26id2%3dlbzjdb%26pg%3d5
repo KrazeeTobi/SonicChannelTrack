@@ -1,0 +1,143 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOEP3トライアル版』専用掲示板</title>
+</head>
+<body background="/pso3/bbs/img/pso_bk1.png" bgcolor="#003333" text="#FFFFFF" link="#99FF99" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso3/bbs/t/trial/5/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#ffffff">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="trial">
+<input type="hidden" name="id" value="efhcjm">
+<input type="hidden" name="id2" value="lbzjdb">
+<input type="hidden" name="pg" value="5">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#ffffff">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >ローリスクモードとか
+
+＃　基本的に与太話です
+＃　あんまりトライアルしてないので（って問題ありだけど）
+＃　経験値がいくら増減するかとか、よく理解してません
+
+ネットワーク障害の切り分けは
+
+・メニューから終了を選択
+・リセットボタン
+・蓋を開けた
+＃　は、ソフトでチェック可能
+
+・GCの電源断
+＃　も、システムファイルにフラグ立てるとかで可能だろう
+＃　GC自体のフリーズだと判別できないけど
+
+・GCのLANケーブルを抜いた
+・ルータの電源を落とした
+＃　電気的に見分けが付くかも
+
+・(ISDN)ルータ・ADSLモデムでネットワークを切断した
+・インターネットから(ISDN)ルータ・ADSLモデムへの線を抜いた
+・プロバイダの障害
+・途中経路の障害
+・PSOサーバの障害
+＃　SHIP,BLOCK監視サーバ作って、切断時には問い合わせ とすれば、＃　ブロック落ちてても、監視サーバが生きてれば判別可能
+＃　通信経路が切れるとか、PSO全部が落ちるとか、
+＃　SHIP,BLOCK と一緒に監視サーバも落ちてる だと判別不能
+
+＃　余分な仕事するより、安定したサーバをっ
+
+てな感じで困難だと思うので、ローリスク(&ローリターン)モードとか
+＃　部屋作成時 or 対戦ルール設定時に決定　かな？
+
+・得られる＆失われる経験値が１０分の１(端数切り捨て)
+
+・得られるカード枚数が半分(端数切り捨て)
+・得られるカードのレアリティが半分(って何？)
+＃　対戦評価を C+ 以下に圧縮でも良いかも
+
+＃　あ、オフラインモード相当？
+
+とか
+＃　ここまで、与太話（オイ
+
+でも、そんなことよりも、
+そもそもの、切断のリスクを減らすのが賢いプレーヤーでしょう
+
+・落ちやすい SHIP,BLOCK には行かない(トライアルでは難しいかも)
+
+・通信機器の設定・管理を正しく行う
+＃　この前、無線LANの設定ミスってて対戦中に落ちました
+
+・通信経路の安全を確認する(ISPのメンテ情報の確認とか)
+＃　雷が鳴ったら繋がない　とかね
+
+通信環境によってはどうしようもなかったりもするかも知れないけど
+
+それと、既に出てるけど、降参はあって良いと思う
+あと、対戦自体をキャンセルする対戦中止もあっても良いかも
+＃　全プレーヤー同意時のみ可能
+＃　COMが居る場合はCOMが拒否するので不可　とか
+
+修正内容
+・与太話の範囲を明記
+・降伏＞降参(いや、道理で違和感が・・・)
+・コピーミスを修正</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#ffffff">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

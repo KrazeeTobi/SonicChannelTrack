@@ -1,0 +1,132 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/47/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="gcfree">
+<input type="hidden" name="id" value="hezhsy">
+<input type="hidden" name="id2" value="eovdzr">
+<input type="hidden" name="pg" value="47">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >至極当たり前の意見
+
+…であるように見えますねぇ。
+
+文字以外の意志伝達手段がない世界において、
+初対面の人間について判断する材料といったら、
+やっぱり「はじめの挨拶をどのようにするか」しかないわけで、
+この「最初の挨拶」をきっちり行わない人は、
+それだけ礼節（対人関係の距離）に対する意識が希薄であると
+見なされても文句は言えないでしょう。
+
+少なくとも、僕は初対面でいきなり３の例のような
+言動を繰り返す人を「礼儀を知らない自己中心的な人」と判断しますよ。
+
+かといって、挨拶さえきちんとやれば、間違いなく彼は
+善良な気持ちのいい人だということではないですがね。
+
+最初の挨拶だけは１の例のように丁重でありながら、
+あとはほとんど何も喋らず一人瞬殺に近いプレイを繰り広げ、
+ボスを倒すなり挨拶だけしてさっさと退出する人もいますし。
+
+ただ、はじめに挨拶をきちんとやってくれる人は、
+その都度相手に配慮した対応ができるプレーヤーであることが
+多いという感触は確かにあります。
+
+ショートカットについても、やたらめったら濫用する人よりも、
+状況に応じて様々に使い分ける人のほうが、
+一緒にプレイしていて愉しいな、という感覚が強いです。
+
+
+「初対面の挨拶は、その人物を計る目安として有効である」
+
+
+やっぱり、ものすごく月並みな意見だと思います。
+それだけが「唯一無二の判断基準」というなら異論もありますが、
+ご丁寧にも「目安なので全てにはあてはまりません」と
+しっかり注釈までつけていらっしゃいますしねぇ。
+
+従って、これを純粋に「ネタ」として評価するのなら、
+「ひねりのないつまらないネタ」ということになりましょーか。
+あまりにも現実的な理に即しすぎていて、
+突飛な論理飛躍がほとんど見られませんから。
+
+むしろ次回に予定されているという、
+「部屋名を考察する＜モラルのある部屋はこれだ＞」
+のほうがずっと「ネタ」として上質そうな匂いがします。
+なんでこれを初回のネタに持ってこなかったのでしょうか。
+
+…もしかして「ネタ」ってのは、この「次回予告」のことだったりして？(^^;)</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>
