@@ -1,0 +1,121 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/65/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="gcfree">
+<input type="hidden" name="id" value="lkvoxi">
+<input type="hidden" name="id2" value="lkvoxi">
+<input type="hidden" name="pg" value="65">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >年明けからの移行期間を経て、
+ようやく本日よりサッカーゲームを正式に調整版で開催する事になりました。
+
+場所は62-9-14ロビー、時間は午後11時です。
+どなたでも気軽に参加できます。
+１試合15分程度のものを何試合か行います。
+１時過ぎまでは確実にやっていますので、
+他の方のイベント終了後にでもどうぞｗ
+
+ルールは試合前に説明しますが、一応ここにも載せておきます。
+小難しく書いてありますが、実際やってみると簡単です。
+
+普通の冒険、バトル、チャレンジに飽きた皆さん、
+ちょっと時間が空いたな～とか思ってる皆さん、
+オンに繋いだときちょっと声をかけにくいと思ってる皆さん、
+どうぞ奮ってご参加ください。
+
+
+ルール
+・審判の指示により、赤チームと青チームに分かれ、カウンターでマーカーをつける。
+・審判は黄色か緑のマーカーをつける。
+・人数が足りない場合は、審判もゲームに参加する。
+
+・試合時間は、ボール10個分とする。
+・例外として、水色の浮きボールが２回場外した場合（ゴールは除く）、もしくは審判の判断で２回以上無効と判断されたボールがあった場合、試合時間をボール１個分増やす。
+・もう一つの例外として、最後のボールが浮きボールで、場外に落ちてしまった場合もボール数を１個追加できる。
+・ボールが消えるごとに、速やかに自陣に戻ること。
+
+・赤チームは赤いゴールに、青チームは青いゴールにゴールする。
+・ゴールが決まった場合、そのゴールには10秒間入れられない。
+・10秒以内に同じゴールにシュートが決まった場合、そのシュートは無効とし、そこから更に10秒カウントする。
+
+・３点シュートは有効。だがこれは場外にカウントしない。
+・浮きボールを場外に出してしまったら、その人は自己申告し、次の１ボールの間椅子に座ってプレイを行う。
+
+・得点のカウントは審判のものを基準とし、これで勝敗を決める。
+・試合終了後、審判は次の試合の審判を指名する。
+・チームに戦力差があった場合、審判がこれを調整する。</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

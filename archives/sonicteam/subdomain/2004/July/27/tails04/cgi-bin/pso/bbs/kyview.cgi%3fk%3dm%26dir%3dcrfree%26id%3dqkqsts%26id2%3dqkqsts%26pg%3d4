@@ -1,0 +1,85 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOEP3』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1g.png" bgcolor="#003333" text="#FFFFFF" link="#99FF99" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/c/crfree/4/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="crfree">
+<input type="hidden" name="id" value="qkqsts">
+<input type="hidden" name="id2" value="qkqsts">
+<input type="hidden" name="pg" value="4">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >先ほど、29日午後11時50分すぎ。69ー6ーＣ１にて16人団体トーナメントの決勝を対ＣＯＭで戦っている最中に突然画面がブラックアウト。
+そのまま回線が落ちました。自動セーブのあと、出てきたメッセージは何故か「15分以上入力がなかったため...」というもの。
+気を取り直して再接続して69ー6ーＣ１に入り直したところ、「11時54分から決勝が...」という、あまりみた覚えのない「招待状（メールではありません）」が画面に表示されました。この時点で11時59分でした。
+
+決勝を一緒に戦っていたパートナーに落ちたことを伝えたあと、部屋を作って待っていることに。部屋に入ってからふと気づくと総プレイ時間が9999時間59分になっていました。もちろん、そんなに長時間はプレイしていません。そのままゲームを始めようとカウンター前に行きましたが、デッキ選択の場面で、デッキを選択できません。デッキ名の列は表示されますが、選択してＡボタンを押しても、しばらくなにも反応せず、結局また選択待ちの状態になってしまいます。ためしに電源をいったん切って入り直しましたが、やはり駄目。挙げ句の果てにオフでもまったく同じ状況でデッキ選択ができません。
+
+ちなみに決勝のパートナーもそのあと、回線落ちし、再度ログオンしてみたところ、プレイ時間が20時間へっていたそうです。
+
+同様のことが起こった方いらっしゃいませんか。またこの場合、事実上のキャラロストで、もうキャラをつくり直すしかないのでしょうか。
+</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

@@ -1,0 +1,121 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/9/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="gcfree">
+<input type="hidden" name="id" value="yzmbed">
+<input type="hidden" name="id2" value="yzmbed">
+<input type="hidden" name="pg" value="9">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >一人でも多くの意見があった方がいいのかななんて思って書き込み。
+メールで送る方がいいのかもしれないけど、反応も見たいしね。
+
+僕は、別サーバ運営、キャラ引き継ぎなし、共に同意です。
+２ヶ月かかるのならそれでも構いません。
+望むとすれば、その２ヶ月でじっくり、今以上に不正行為に
+ガードの堅い運営方法を検討して頂ける事ですね。
+おそらく、修正版を出して新サーバで運営しても、数ヶ月立ったら
+新たな技で不正品は出回ります。そういうものだと思ってます。
+完全に防ぐ事はかなり難しいのではないかと思います。 
+それこそ、オンライン専用でアイテム1個拾う度にチェックの
+読み込みはいるぐらいにしないと。
+だからこそ、できねえぞこんなの！って位に難しい（あるいは
+すごくリスクがある）技使わないと駄目ってくらいまで、不正に
+対するガードを固めて欲しいです。
+以上、アイテム寄りな考えでした。
+でもまあ、綺麗ごとと言われるかも知れないけど、例えＬＶ1からに
+なろうが、目の前のモニタで繰り広げられる仲間との会話は真実
+ですから、それに会うために冒険は続けます。
+それに、ＤＣ版の時もＬＶ100越えたフォースとか3キャラ位が
+いる状態で本体が壊れてキャラ全部使えなくなった経験あるんで、
+別にどってことないもん。
+あ、あと、修正版になる時に、キャラの仕様とかは変えないで
+欲しいなあ。
+バランスとかその当たりは個人的に凄く好きだし。
+前回のように、フォースいらねえよとか言われる仕様に比べたら
+今回のは凄く完成度高いと思ってます。
+
+あ、でも一番望むのはこれかも。
+「もちょっと入力しやすいキーボード出して！」
+キーちっちゃいよお。
+
+ただ、望むだけじゃだめだよね。
+プラットフォームを提供するのがソニチならば、そこにどういう世界
+を作っていくかは、ここに書き込みをしている人含め、ＰＳＯやる人
+全てが描いていく事だと思うから。
+そんな事を思ったら、オンでいつもより多めにレスタをかけちゃう
+フォースなＢＥでしたw</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

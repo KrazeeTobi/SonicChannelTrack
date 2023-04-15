@@ -1,0 +1,289 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOEP3トライアル版』専用掲示板</title>
+</head>
+<body background="/pso3/bbs/img/pso_bk1.png" bgcolor="#003333" text="#FFFFFF" link="#99FF99" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso3/bbs/t/trial/5/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#ffffff">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="trial">
+<input type="hidden" name="id" value="xbewgz">
+<input type="hidden" name="id2" value="sivxtd">
+<input type="hidden" name="pg" value="5">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#ffffff">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >便乗　ダイス目と勝敗の関係(データ追加
+
+ゲームバランスについてという事で、便乗させて頂きます。
+
+
+ダイス目（特にATK値）がどの程度勝敗に影響するのか、
+実戦データをとって（主にトーナメント観戦）調べてみました。
+
+
+なお、経験値による追加ポイントが発生した場合は、
+ATK・DEF値からそれぞれ追加ポイントを差し引いた値がダイス目
+であったと考えて、差し引いた値を採用します。
+例えば追加ポイント１でATKが６の場合は、ATKを５と考えて集計。
+（純粋にダイス運の影響が知りたいので）
+
+
+データ１：
+先攻チーム　平均ATK　4.1
+後攻チーム　平均ATK　4.9　（勝利）
+
+データ２：
+先攻チーム　平均ATK　4.2
+後攻チーム　平均ATK　4.4　（勝利）
+
+データ３：
+先攻チーム　平均ATK　4.5
+後攻チーム　平均ATK　4.7　（勝利）
+
+データ４：
+先攻チーム　平均ATK　4.5
+後攻チーム　平均ATK　5.2　（勝利）
+
+データ５：
+先攻チーム　平均ATK　4.7　（勝利）
+後攻チーム　平均ATK　4.2
+
+データ６：
+先攻チーム　平均ATK　5.2　（勝利）
+後攻チーム　平均ATK　3.5　
+
+データ７：
+先攻チーム　平均ATK　4.4
+後攻チーム　平均ATK　5.1　（勝利）
+
+データ８：
+先攻チーム　平均ATK　4.3
+後攻チーム　平均ATK　4.3　（勝利）
+
+データ９：
+先攻者　平均ATK　4.8　（勝利）
+後攻者　平均ATK　4.2　
+
+データ１０：
+先攻者　平均ATK　4.0　（勝利）
+後攻者　平均ATK　3.9
+
+データ１１：
+先攻者　平均ATK　5.0　（勝利）
+後攻者　平均ATK　4.7
+
+データ１２：
+先攻者　平均ATK　3.6
+後攻者　平均ATK　4.3　（勝利)
+
+データ１３：
+先攻者　平均ATK　4.6　（勝利）
+後攻者　平均ATK　4.4　
+
+データ１４：
+先攻者　平均ATK　4.3　&lt;font color=yellow&gt;（勝利）&lt;/font&gt;
+後攻者　平均ATK　4.6
+
+データ１５：
+先攻者　平均ATK　4.2
+後攻者　平均ATK　4.5　（勝利）
+
+データ１６：
+先攻者　平均ATK　4.5
+後攻者　平均ATK　4.9　（勝利）
+
+
+時間制限で勝負がついた試合が１試合ありましたが
+それは考慮外とします。
+
+
+結果、１６試合中、低ダイス目だった方のチームが勝ったのは
+たった１回だけでした。
+（平均値がほぼ同じだった試合は３つ位あり）
+まだサンプル数が少なすぎるのでアレですが、
+現状ではちょっとダイスの影響が強すぎる気がします。
+ダイス固定以外にももう少し運の偏りを減らせられる設定が
+あればなと思います。
+
+またデータが集まれば報告します。
+
+---以下追加分-----
+
+データ１７：
+先攻者　平均ATK　5.2　（勝利）
+後攻者　平均ATK　4.0
+
+データ１８：
+先攻者　平均ATK　2.8
+後攻者　平均ATK　5.0　（勝利）
+
+データ１９：
+先攻者　平均ATK　4.4
+後攻者　平均ATK　3.7　&lt;font color=yellow&gt;（勝利）&lt;/font&gt;
+
+データ２０：
+先攻者　平均ATK　4.4　（勝利）
+後攻者　平均ATK　4.0
+
+データ２１：
+先攻者　平均ATK　4.7
+後攻者　平均ATK　4.4　&lt;font color=yellow&gt;（勝利）&lt;/font&gt;
+
+データ２２：
+先攻者　平均ATK　4.2　&lt;font color=yellow&gt;（勝利）&lt;/font&gt;
+後攻者　平均ATK　4.9　
+
+データ２３：
+先攻者　平均ATK　4.0
+後攻者　平均ATK　4.4　（勝利）
+
+データ２４：
+先攻者　平均ATK　4.5　（勝利）
+後攻者　平均ATK　4.5
+
+データ２５：
+先攻者　平均ATK　4.4　（勝利）
+後攻者　平均ATK　4.1
+
+データ２６
+先攻者　平均ATK　4.7　（勝利）
+後攻者　平均ATK　3.5
+
+データ２７：
+先攻者　平均ATK　4.8　&lt;font color=yellow&gt;（勝利）&lt;/font&gt;
+後攻者　平均ATK　4.9　
+
+データ２８：
+先攻者　平均ATK　4.9
+後攻者　平均ATK　4.9　（勝利）
+
+データ２９：
+先攻者　平均ATK　4.4　（勝利）
+後攻者　平均ATK　4.0
+
+データ３０：
+先攻チーム　平均ATK　4.9　（勝利）
+後攻チーム　平均ATK　4.1
+
+データ３１：
+先攻チーム　平均ATK　4.7　（勝利）
+後攻チーム　平均ATK　4.4
+
+データ３２：
+先攻チーム　平均ATK　4.6
+後攻チーム　平均ATK　4.8（勝利）
+
+
+
+３２試合中、平均ATKの差が０.２未満だった試合が５試合。
+残りの２７試合中、高ダイス側が勝ったのが２３試合。（８５％）
+という結果が出ました。
+
+相性の良さ（相手が対策をとっていない等）や明らかな実力差が
+ある場合は、ダイスが相手側よりかなり悪くても勝てるようですが、
+全体的に見るとやはりダイスの影響は強そうです。
+
+
+データ取りはひとまずここまでにしておきます。
+ではでは…
+
+
+--親発言（ロボレッドさん）へレス--
+私は高コストが弱すぎるとは思いません。
+高コストの高い威力を活かした貫通（対ダークなら遠距離複数攻撃）
+は非常に強烈です。
+実際今日、低コスト武器を一切使わないデッキの人が、
+普通の低コスト使用デッキの相手をほぼ完封している試合を
+見ましたし。（詳しくは書けませんが）
+要はアクションカードやアシストカードとの組み合わせ次第
+だと思います。　
+この段階で高コストが使えないと言うのはやや早すぎるかなと。
+低コスト多数装備は乱撃を防げなかったらほぼ致命的になるし。
+どちらも一長一短だと思います。
+
+（以下追加）
+
+&gt;ちなみに、低コストデッキに乱撃防止＋貫通防止カードを２枚以上組み込むことでほぼ完璧に防げます。
+
+&gt;実際それで徹底的に高コストの貫通＆乱撃が無効化されました。
+
+いくら何でもこれは乱暴すぎます。机上の空論でしょう。
+実際問題として、常に乱撃・貫通を防ぐカードを１枚ずつ
+手札５枚の中に残しておくことのは大変なことです。
+仮に一枚ずつ持てたとしても、その分、装備やアクションカードを
+もてる量（ドローする量も）減るわけで、十分に「即応力」は
+減退すると思いますが・・・。
+
+それに元々乱撃や貫通能力が備わっている高コスト武器（エネミー）
+やテクを使われて、ダイス目が悪いなどでそれを破壊できなかった場合、
+連続して乱撃や貫通を受ける事になりかねず、それを完璧に防ぎきる
+のは容易ではありません。
+
+一方、高コスト側は抵コスト側の乱撃や貫通をそれほど怖がる
+必要がないので、その分低コスト側よりは手広く構えられるでしょう。
+
+だから何が何でも低コストが一方的に強い、高コストは弱い、
+と言うのはどうかと思います。
+どちらにも長所・短所はありますので。
+高コストの方が安定性に欠けるというのはありますが。</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#ffffff">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>
