@@ -1,0 +1,203 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/63/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="gcfree">
+<input type="hidden" name="id" value="zwejyq">
+<input type="hidden" name="id2" value="rrqdjg">
+<input type="hidden" name="pg" value="63">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >
+再度00:00に追記/変更（長文）-------------------------------------------------
+見やすい用に文書を繋げ直し、図も手直し^-^;
+
+ 私はMeの環境を潰してしまっているので、98seの環境を参考に説明を書きます。(メインは2kを使用^-^;)
+
+ とりあえず、どこが悪いのかを段階的に確認しましょう。
+
+１.PCのネット設定を確認する
+　ディスクトップの「ネットワーク コンピュータ」(もしくは、マイ ネットワーク)
+　を右クリックでプロパティを開く
+　TCP/IP(ダイアルアップじゃない方)を選択し、プロパティを開く
+　IPアドレスを自動取得になっている事を確認し、キャンセルで閉じる
+（自動取得になっていなければ、自動取得に変更する）
+
+２.PCにIPが振られているかの確認をします。
+　Windowsの スタート --&gt; プログラム --&gt; MS-DOSプロンプトを選択し、起動
+（もしくは、アクセサリーの中に「MS-DOSプロンプト」があるかもしれません）
+┌────────────┐
+├────────────┤←MS-DOSプロンプトのつもり^-^;
+│Microsoft(以下省略)
+│C:\WINDOWS&gt;
+│
+└────────────┘
+　のように表示されます。
+　ここで、ipconfig と打ってEnterキーを押して実行してください
+　すると、以下ののように表示されると思います。(IPは違うかもしれませんが…)
+┌───────────────────────────────┐
+├───────────────────────────────┤
+│Microsoft(以下省略)
+│C:\WINDOWS&gt;ipconfig
+│Windows ME IP 設定
+│
+│Ethernet アダプタ　：
+│
+│　　　IP アドレス．．．．．．．．．：192.168.0.2
+│　　　サブネット マスク．．．．．．．．．：255.255.255.0
+│　　　デフォルト ゲートウェイ．．．．．．．．．：192.168.0.1
+│
+│C:\WINDOWS&gt;
+│
+└───────────────────────────────┘
+
+３.ET-MPSを確認
+　ET-MPS セットアッフ゜ユーティリティーを起動させ、ET-MPSのIPアドレスを確認
+　192.168.0.1 になっていれば問題ありません（192.168.0までのアドレスがPCと同じであれば問題ないです）
+　シリアルポート１(もしくは２)の[手動 接続]が押せる状態になっている
+（グレー表示で押せない場合、設定が違います、再設定をしましょう。）
+　押せる状態になっていれば、確認として、[手動 接続]を押してください。
+　これで、フレッツネットと繋がるはずです。（問題があれば、再度、モデム設定を確認してください）
+
+　成功したら、次へ
+
+４.PCのブラウザで確認
+　ディスクトップに「Internet Explorer」(以下IEと省略)のアイコンがあると思いますそれを右クリックで、
+　プロパティで開いてください(設定 -&gt; コントロールパネル -&gt; インターネットオプション でも同じ）
+「接続」タブを選択し、「ダイヤルしない」が選択されている事を確認してください。
+（通常の接続でダイヤルするになっていれば、変更してください）
+　これで、IEの設定は問題ありません。
+　IEを起動させ、任意の場所へアクセスしてください。ここでは、http://www.sega.jpにします。
+　セガのサイトが表示できれば、成功です。
+（この時、ET-MPSのL1とS1の両方が点滅しなければ、通信できなく表示失敗します、失敗の場合は、LANケーブルを疑う場合もあります）
+
+　成功したら、次へ
+
+５.ET-MPSで、自動接続の確認
+　ET-MPS セットアッフ゜ユーティリティーを起動させ、
+　シリアルポート１(もしくは２)の[手動 切断]が押せる状態になっているので、マウスを使って押してください。
+　
+　次に、IEを起動させ、セガサイト(先ほどのURL)にアクセスし、ET-MPSが反応し、フレッツ接続を自動で行えればOKです。
+（多少接続までのラグが生じますが、問題ありません）
+　自動接続できなければ、ET-MPSのモデム設定にミスがあります。
+（自動接続・切断タイマーの設定で、自動接続機能が有効になっている事を確認してください）
+
+　成功したら、次へ
+
+６.GCのブラウザで確認（BBAが必ず必要、装着済みと仮定して書きます）
+　GCのプロバイダ設定をします。(以下はデフォルトですが書いて起きますね)
+ ・接続設定
+ IPアドレスを自動取得する(DHCP)
+ ・回線接続
+ 自動で回線接続をしない
+ ・DNSサーバーアドレス
+ 自動取得する
+ ・DHCP用ホスト名
+ 設定しない
+ ・プロキシーサーバーアドレス
+ 記入しない
+ ・プロキシーポート番号
+ 記入しない
+
+ で、保存をし、PSO公式サイトを表示してください。
+　問題なく表示出来ると思うのですが…。
+
+７.最終確認
+　PSOをオンライン接続でスタートし、問題が出なければ成功です。
+　もし、うまくいかない場合は、一度、PC側でET-MPSのメニューに入り、[手動 接続]を
+　押さねばなりませんが、DCの頃56kモデムで自動接続させた時は問題なかったので、
+　大丈夫かと思いますが（接続まで数秒かかりますが^-^;）
+
+以上で、どうでしょうか？
+
+うまくいかない場合は、どこで詰まったかを書いてもらえれば、アドバイスできると思います。
+
+では、ET-MPSで無事接続できパイオニア２に立てるように祈っています。
+
+
+--↓原文↓--------------------------------------------------------------------
+私も「ET-MPS」を持っています
+
+が、もう解決されたでしょうか？
+
+で、確認ですが、PCにIPは割付してますでしょうか？
+(すでにET-MPSでDHCP機能で、自動割付できていれば問題ないですが)
+PCにIPがなかったり、ET-MPSとネットゾーンが違った場合、ET-MPSと接続できません…。
+
+あと、ET-MPSはどこまで設定されていますか？(IPやモデム等)
+それと、使用PCのOSはなんでしょうか？
+その情報があれば、もう少し的確なアドバイスができると思うのですが…。
+</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

@@ -1,0 +1,103 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/48/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="gcfree">
+<input type="hidden" name="id" value="dbjccg">
+<input type="hidden" name="id2" value="dbjccg">
+<input type="hidden" name="pg" value="48">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >さてさて、少し間が空いてしまった小ネタシリーズです＾＾；
+書き込む時間も無いので手っ取り早く本題へGO！
+
+「ラグ・ラッピー攻略」
+第一回目は森の中でも比較的楽に倒せるラッピータイプのモンスターの攻略です。
+・ラッピー
+ラッピータイプ共通の特徴としては、倒す事で「死んだフリ状態」になって一定時間経つか一定以上の距離離れるといきなり逃げ出す事。　遠くにいるとしゃがみこむ事。　一定以上の距離から攻撃を仕掛けるといきなり逃げ出す事（この時経験値は手に入らない）　逃げるラッピーに攻撃を加えないとアイテムを落としてくれない事。　攻撃は近距離のみ。
+さて、ラッピータイプでも標準的存在。　ラグラッピーとエルラッピーの攻略法です。
+・ラグ＆エルラッピー
+どの難易度でも体力は低く、攻撃力も低めです。　ただしのげぞりが大きめなので追撃タイミングを誤ると反撃を受けます。　ラッピーは回避率が低いのでマシンガンなどがお勧め。
+・アル＆パルラッピー
+レアエネミーと呼ばれるタイプのラッピー。　通常のラッピーより体力が多く、油断して隙の大きな攻撃を仕掛けると思わぬ反撃を受ける事も。　でも相変わらず飛び道具には弱いです＾＾；
+レア系が逃げ出す時は必ず仕留めるように！
+
+う～ん、書き込む時間が全然無くて内容が薄いです＾＾；
+まぁラッピーなのでご愛嬌ｗ　　これからしばらくはモンスター攻略編で行くのでよろしくおねがいします。
+レスで色々指摘や補足をしていただけるとありがたいです＾＾
+
+-----------------------------------------------
+指摘を頂いたので一部修正を加えました。　以後ネタバレのないよう気をつけますm(_ _)m</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

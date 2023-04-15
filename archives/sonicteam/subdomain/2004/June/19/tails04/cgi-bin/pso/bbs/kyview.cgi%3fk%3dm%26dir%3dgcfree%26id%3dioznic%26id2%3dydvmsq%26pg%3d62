@@ -1,0 +1,120 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/62/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="gcfree">
+<input type="hidden" name="id" value="ioznic">
+<input type="hidden" name="id2" value="ydvmsq">
+<input type="hidden" name="pg" value="62">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >マグトレードに関しては
+正直、賛成と反対の部分が自分の中で対立します。
+
+最初の持ち主以外は装備出来ない～となると
+現仕様では色とかを自由に選択出来なくなりますし。
+
+自分は少ない時間をやりくりしてオフをする事が多いので
+マグ移動が無くなると育て上げるまでにかなり時間を要しますしね、
+ただこれに関しては「オンで強化キャラ乱入」といった
+弊害も大きいのでマグ移動廃止もやむなし、と考えてます。
+
+いっその事、一つのマグを使い続けられるように
+色やパラメータを変化させられる
+「マグチェンジルーム」とか出来ないかな...と。
+（修正前に拾ったマグが灰色なのは
+「後でクエスト等で色が付けられるのだろう」と夢想してました）
+
+捨てざるを得ない状況下＞
+これに関してはまったく同感ですね、
+設定では「新米ハンターに支給される」と貴重そうなのに
+良くも悪くもポコポコ手にはいるのは・・・。
+
+マグの入手率はそのままとしても
+違和感なく引き取って貰えるシステム・クエスト等
+ぜひソニチさんに作って貰いたいです。
+
+...と、こう書くと「ガロンズショップ」や
+エルノアに引き取って貰えるようになったり（苦笑）、
+「拾ったマグ○個とアイテムを交換」とかなると
+それはそれで問題が生じそうですが。
+
+手放そうとする方から、その都度譲ってもらっては、
+倉庫に預けていましたが、＞
+エルノアを地で行ってますねぇ・・・
+マグを大切にされる御心にちと感動しました。
+
+乱文にて失礼致します。</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

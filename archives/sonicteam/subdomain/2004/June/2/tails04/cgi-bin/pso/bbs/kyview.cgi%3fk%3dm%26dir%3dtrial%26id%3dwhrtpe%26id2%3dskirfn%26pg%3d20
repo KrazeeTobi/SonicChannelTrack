@@ -1,0 +1,171 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『ファンタシースターオンライン エピソード１＆２』トライアルBBS</title>
+</head>
+<body background="http://tails04.sonicteam.com/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/t/trial/20/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#ffffff">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="trial">
+<input type="hidden" name="id" value="whrtpe">
+<input type="hidden" name="id2" value="skirfn">
+<input type="hidden" name="pg" value="20">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#ffffff">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#ffffff">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >方向性変わる案ですが
+
+ぶっちゃけ。
+保護する必要があるのはロボハンターだけなんですよね。
+
+ただ、自分でも一定度は使いましたが、経験値を稼ぐこと自体は
+決して難しいキャラじゃないって感じます。
+むしろチャレンジのような限定空間では逆にダントツの経験値を
+取得する訳ですし。
+フォースと違って「絶対に必要とされる」って程厳しい条件でも
+ないですし。
+
+
+そういう意味では「軽く補えばいい」程度に感じます。
+
+
+で、他にも影響してしまう案ではあるんですが、ハンドガン系を
+改良します。
+
+・レンジャーとロボハンターは、ハンドガンの硬直が短い
+・ロボハンターは初段後・２段目後のディレイ幅を狭くして
+「単発で区切りやすくする」
+＃レンジャーはディレイ幅を広くしてタイミングを工夫しやすくする
+＃最速コンボは同じかレンジャーの方が速くなる
+
+これで「手付けをしたければ、ハンドガンでちょっとパシパシ
+他の敵を撃ってから攻撃」って事がやりやすくなります。
+
+完全にはカバーできないと思いますが、結構フォローできるんじゃ
+ないかと思います。
+
+
+
+p.s.
+凄まじく気になるのがヒューマー/レイマーの説明。
+
+「若干の攻撃テクが使える」
+
+これで「上級ラ系の使用制限がLv5まで」なんてったらかなり変わる。
+実はLv5ラゾンデなんて手付けにはまるで使い物にならないんです。
+むしろギゾンデの方が遙かにマシって位。
+
+そうなると優遇されるのはハニュエール/レイマール/フォースだけ。
+
+ヒューマー含むとどうしても「アイツはできるのに…」って
+感じるでしょうけど、ハニュ/レイマール/フォース相手なら
+(Ultでなければ)まだロボハンターの方が強いからって理由で
+大目にみられるんじゃないかと…＾＾；；；；；
+
+
+（追加）
+いや積極的な反対って訳じゃないんです。
+
+単に「自分で画面に出した数字の足し算(引き算)もロクにできないソニチに
+割とデリケートな新経験値計算処理ができるか？」って事が心配なだけです。
+#ダメージキャンセルシステムの事。
+
+
+むしろここでハンターに経験値確保にがっつかれると、それこそ
+「ハンターは虐殺しない限り経験値で損する」って発想を産み、
+しかもその大虐殺が可能なキャラでもあります。
+そう考えると、むしろハンターには安心してさぼってもらえる位の方が
+いいかなぁとも思います。
+#フォースは「今だけ」だろうなぁと。
+#どうせ後半になれば弱点耐性で80%や90%超えるんだろうから…
+
+
+で、ちょっと追加で「もし実装されるとしたらの問題点」。
+
+これを根拠にアイディアを否定する訳じゃないですが、解決はしなきゃ
+問題かなぁと思うのが一人マルチモードでの稼ぎ。
+
+そう「積極的なサボリ」で一番メリット生まれるのがこれかなと。
+
+スプニレンジャーを部屋の中に入れて
+→麻痺させる
+→他の３人のプレイヤーを中に入れる
+→レンジャーが全滅させる
+→他の３人が何もせずに経験値Get
+
+フリーズトラップが多くなった高LvロボやVHまでのLv30テクフォースでも
+似たような事ができると思います。
+
+「ともかくこれでLv80まで行ってUltへ」ってのがあまりにも楽になるのが
+厄介かなと。
+
+まぁどのみちアイテム移動しちゃえば2キャラ目以降のLv80なんて１週間と
+かからない道ですから大したことは無いって言えばそれまでですが。</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#ffffff">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

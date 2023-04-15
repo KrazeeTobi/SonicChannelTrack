@@ -1,0 +1,120 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/54/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="gcfree">
+<input type="hidden" name="id" value="vetfht">
+<input type="hidden" name="id2" value="kjgkpv">
+<input type="hidden" name="pg" value="54">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >ごちゃごちゃしているので
+どこにどんな情報があるのかわかりづらいです。
+しかし改行と文章力だけで全体の構成を整えるのは至難の技。
+
+ですから、親発言にツリー構成をおおまかに書くといいです。
+また、要所でタグをうまく使えばとても見やすくなります。
+（ただし、タグは使いすぎるとかえって見にくくなる。
+　特に文字の拡大は、最大でも＋２で止めるのが無難。
+　文字を縮小すると視力が低い人が困るので、基本的に行わない。）
+
+それから、便乗する側から見ると、このままでは
+宣伝をどこにぶら下げればいいか、とまどうと思います。
+「便乗はこちらへ」というような、
+ナビゲート的な書き込みを付けた方がいいと思います。
+それも、なるべく上に。
+
+空行を多用しておられますが、非常にもったいなく見えます。
+三行程度なら改行なしでも読みにくくはないと思います。
+同じ内容をいかに少ない文字数、行数で伝えるかも
+腕の見せ所です。
+
+- - - - - - - - - - - - - - - - - 
+このような共用ツリーというか、集合的ツリーというか、
+そういうツリーの運営では、
+ツリーの利用者のことを考えるのも大事ですが、
+「自分（達）の都合でBBSを使わせてもらっている」
+ということを、忘れてはいけないと思います。
+
+ツリーが大きくなれば、利用者にとっては目立っていいですが、
+反面、非利用者にとっては邪魔でしょうがないのも確か。
+どちらが正しいということも悪いということもない。
+どちらもBBSの利用者であるのですから。
+
+たぶん答えが出る命題ではないのでしょうが、
+「最小限（量も数も）のツリーで、最大限の宣伝効果を」
+ということなんじゃないかと思います。
+</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

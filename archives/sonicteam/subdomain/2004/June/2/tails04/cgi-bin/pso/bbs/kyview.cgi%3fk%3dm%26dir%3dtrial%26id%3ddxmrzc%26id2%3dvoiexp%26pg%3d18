@@ -1,0 +1,101 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『ファンタシースターオンライン エピソード１＆２』トライアルBBS</title>
+</head>
+<body background="http://tails04.sonicteam.com/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/t/trial/18/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#ffffff">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="trial">
+<input type="hidden" name="id" value="dxmrzc">
+<input type="hidden" name="id2" value="voiexp">
+<input type="hidden" name="pg" value="18">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#ffffff">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#ffffff">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >　こんばんわ、初めまして。
+
+　当方は通常CR2000を使用してＡＤＳＬ－ＬＡＮにて接続しているのですが、貴方と同様のＰＣ環境を試す機会がありましたので、参考になればと思いカキコ致します。
+　まずは当方の環境から。
+　ＰＣ本体：IBM ThinkPad R32 2658-BGJ　WinXP プリインストール
+　通信：AirH"128
+　WinXP接続の共有にて10BASE-Tケーブル→ルートテックCR2000→ＴＥＬケーブル→ＮＧＣ本体モデム
+　（接続の共有に関する設定詳細は、今回は省かせて頂きます）
+　ＮＴＴ基地局からの距離：約1.5km
+　ＮＴＴアンテナからの距離：最も近いもので800m
+　取り合えず、サーバー移動やゲーム参加には問題ありませんでしたが、やはり暫らくすると切断されてしまいます。
+　頻度は１時間に３回程度。
+　推測ですが、AirHでは携帯電話等と同じく常に電波の安定しているアンテナを検索し、切り替えを行っている為、電波状況にはかなり左右される様です。
+　また、CR2000本体も発熱による回路保護等により、まれにですが再接続が出来ない場合があります。
+　これらが複合すると、電波状況の悪化による瞬間的な回線切断が起こった場合、CR2000本体側での再接続が出来ず、回線の切断に繋がる事も考えられます。
+　これは、CR2000本体を縦置きにする等の方法で、ある程度発熱を防ぐ事が出来ますが、電波状況が悪いとさすがにAirHでの接続には難が有る様です。
+　また、WinXPではCR2000を使わずの方法でもモデムへの接続が出来ますので、そちらを試すのも良いかと思います。
+　こちらは私もあまり詳しくはありませんので、突っ込んだ質問にはお答え出来ませんのであしからず...（汗</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#ffffff">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>
