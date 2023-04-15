@@ -1,0 +1,149 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『ファンタシースターオンライン エピソード１＆２』トライアルBBS</title>
+</head>
+<body background="http://tails04.sonicteam.com/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/t/trial/28/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#ffffff">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="trial">
+<input type="hidden" name="id" value="inhkny">
+<input type="hidden" name="id2" value="inhkny">
+<input type="hidden" name="pg" value="28">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#ffffff">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#ffffff">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >ということで、ソニックチームに
+意見しようかと思ったけど、
+ほかの人がどう思っているか、気になるので新規発言。
+
+EX攻撃についてですが。
+LVが低いうちは、一度に与えるダメージが
+大きいものだったりしますが・・・(特にレンジャー)
+
+LVがあがると使いにくくなりますよね？
+(手を抜いて戦うという時とかは別として
+
+ということで、EXのダメージについてですが、
+現状だと、ヒートならヒートで「同じ敵」であれば、
+基本的威力などはに変わらなかったはずです。
+また、命中率が低く、
+当てるのも一苦労というのも現状だと思います。
+(ここら辺はDCもGCも同じかと・・・
+
+そこで、私の案としては、
+・EX攻撃の性能を命中基準で出してはどうか？
+・レンジャーのみEX命中基準値を50(DCの場合ノーマルが100として)から60くらいにする
+
+という案です。
+一つ目の性能に関しては、
+攻撃力をEX基準値*(命中/100)
+※100はたとえばの定数ということで。
+この状態で、LV25のキャラがEX基準100ダメージの攻撃を使ったとして、
+LV25レイマーだと命中100なので攻撃力は100、
+LV25ヒューマーだと命中81なので攻撃力は81となるわけです。
+
+で、状態悪化に関しては
+成功率をEX基準値*(命中/10)
+※10はたとえばの定数
+この状態で、LV25のキャラがEX基準10％の攻撃を使ったとして、
+LV25レイマーだと命中100なので成功率は20、
+LV25ヒューマーだと命中81なので攻撃力は18となるわけです。
+
+・・・定数は例えです(あまり変わらないとツッコミ来そうなので
+うまいこと計算して調整すればいいかと。
+あ、ディム系に関しては基準値落とすような感じで(汗
+
+で、２つ目の基準値ですが・・・
+今までの命中率だと、EXを３発目に持ってこざるを得ません。
+ですが、性能的なことから３発目に持ってきても
+のけぞりが少なく、効果もあまり期待できない(ダメージ、命中とも)ことから
+結局はヘビーアタックを使うことになってしまいます。
+そのため、もともと通常攻撃が弱めのレンジャーに
+(フォースはテクニックが強いため除外)若干の命中ボーナスを与えてはどうか？ということです。
+
+ま、レンジャーにはほかの職業に比べ
+裏方的なこともできるようにすれば、
+ほかの職業との差別をはかれるかな？ということで。
+
+・・・今のままだと、ハンターが
+強く調整されそうな気もしますし、
+フォースは現状のままで進みそうだとすると、
+レンジャーの立場なくなるので。
+
+LV25時のステータス参照。
+http://tails04.sonicteam.com/pso/bbs/t/trial/27/sdsjcf/index.html
+
+※若干だけ性能をあげるくらい(特に命中は)でいいとは思いますが・・・
+　また、DCのVer2も参考にしてますので若干どころかかなりGCトライアルとは違うところがあるかもしれません
+
+長文＋まとまってない文(見直してません)ですみません。
+あと、ここまで読んでくださった方に感謝。</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#ffffff">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

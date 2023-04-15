@@ -1,0 +1,209 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『ファンタシースターオンライン エピソード１＆２』トライアルBBS</title>
+</head>
+<body background="http://tails04.sonicteam.com/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/t/trial/14/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#ffffff">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="trial">
+<input type="hidden" name="id" value="gtiije">
+<input type="hidden" name="id2" value="kibnru">
+<input type="hidden" name="pg" value="14">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#ffffff">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#ffffff">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >こんな方法しか思いつかなかった…
+
+
+異なるメモリ間のアイテム移動で、どうしてもオンラインを
+しない場合の方法で…
+
+現実性低い(トラブル起こりやすい/操作不能時間多い)
+ソニチの経費負担完全無視(設備投資いくらかかるやら…)
+けどどうしてもって場合の案です。
+
+
+「Webを使う(含むiモードなど携帯インターネット)」
+
+
+今時PSOやろうって年代で、GCにモデムが繋がっていない人は居ても
+周囲に誰もWebできる奴がいないってのはほとんどいないと推測。
+
+んでこういう提案です。
+
+
+とりあえずざっとした案なんでちょっと穴はありますが仮に。
+
+
+１．メモリカードをサーバーに登録
+まず最初の前提。メモリカードをサーバーに登録します。
+これを行わないとそのメモカ間ではアイテム交換はできません。
+
+
+まずメニューでメモリカード登録を選択。
+当然最初にシリアル番号やらアクセスコードを入力してあるんで
+そこから「メモカ登録暗証コード」を生成。
+
+GC以外のWebから登録します。
+
+返答として、シリアル番号に対するメモカ番号と最終交換日時
+(サーバー現在日時)の初期値を暗号化した「メモカ登録完了コード」
+を受け取ります。
+
+で、これをメモリカード登録画面で入力。
+メモカに最終サーバーアクセス日時(サーバー現在日時)が
+初期設定されます。
+
+
+普段はオンラインでやってる人も、一時的に完全オフライン移動やる
+場合は同様の一時登録が必要。次回のオンライン接続まで有効です。
+#こうしないと悪意ある人に悪用される危険性がある。
+
+
+２．オフラインアイテム移動
+
+まず送信側・受信側のメモリカードをスロット１・２に入れます。
+で、アイテム移動を行います。
+
+それぞれのメモリに登録された
+・シリアル番号/アクセスコード/メモカ番号
+・最終アイテム移動日時(サーバー時間)
+・受け渡しアイテム
+などから暗証コードを作成します。
+
+で、これをWebで登録＆各種整合性をチェック
+復元コードを待ちます。
+
+で、サーバーから返ってきた復元コードを入力すると
+・アイテムの交換の成立。
+・各メモカに最終アイテム移動日時（サーバー現在時刻)
+が適用されます。
+#恐らく時間制限が必要。○○分以内に入力しないと無効…など。
+#移動キャンセル(Webの反応が遅かった/コードの入力間違いがあった)
+#の処理も必要。
+
+
+ここで難点。
+まず、この暗証コード(webに登録)
+
+ここから最低でも
+・送り側シリアル番号/送り側最終アイテム移動日時(サーバー時間)
+・受け側シリアル番号/受り側最終アイテム移動日時(サーバー時間)
+・アイテムの整合性チェック(CRCの用に間違ってないのが解ればいい)
+が復元でき、かつ一般ユーザーが解読できてはいけない。
+
+で、復元コード(GCに入力)も
+・同一のシリアル番号でしか交換が成立しない
+・そのアイテムでしか交換が成立しない
+・今回のアイテム移動日時(サーバー時間)が復元できる(→メモリに登録)
+って事が必要で、当然一般ユーザーが解読できてはいけない。
+
+
+一体何桁のコードになるのやら…
+暗号化は詳しくないのですが、この桁数が実用的である事が条件です。
+
+
+一番恐れるのがここからシリアル番号が悪意ある人にバレる事。
+散々に他人のシリアル番号で送信しまくって不正アイテム交換の
+実績を作りまくるでしょう。
+#そのため、普段オンラインの人も一時登録を行う。
+
+
+もう一つ。
+Webを使う以上「コード入力間違い/移動取り消し」の処理がどうしても
+必要となります。
+
+ここを抜け穴にされそうってのがあります。
+
+
+あとはセーブデータの数カ所に、いくつかの視点(普遍データ・
+可変データ・全体など)のCRCのような改変チェックコードを
+入れておく必要があるでしょう
+
+
+…ってなとこで。
+
+
+p.s.
+実はこの方法。
+データを小さくするために「交換アイテム自体に異常データがある」
+（不正属性など）がチェックできません。
+
+それ入れると入力データが激しく大きく…
+
+
+p.s.2
+もしこれらの入力エラーがあった場合の「警告画面」
+自体は入口だけにするのがいいでしょう。
+
+プログラム改造などで警告だけをすっ飛ばす人がいたら
+次回オンライン時にアカウント停止に…って感じで。</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#ffffff">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

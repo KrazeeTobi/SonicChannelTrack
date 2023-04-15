@@ -1,0 +1,113 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/23/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="gcfree">
+<input type="hidden" name="id" value="serjzo">
+<input type="hidden" name="id2" value="idzeqs">
+<input type="hidden" name="pg" value="23">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >残念ながら、INSメイトV30スリムは
+
+TA(ターミナルアダプタ)ですので、モデムアダプタを使用してフ
+レッツISDN通信は出来ません。また、ブロードバンドアダプタを
+使用して、LANケーブルを接続することも出来ません。
+
+ブロードバンドアダプタを使用して、フレッツISDN接続でPSOを
+する場合には、以下の方法が考えられます。
+
+1.　TAの代わりにダイヤルアップルータを使用する。
+　　新品を買う場合は高額(2万から4万程度)。
+　　付属していない場合、ストレートのLANケーブルが1本必要。
+　　ダイヤルアップルータ--LANケーブル--BBA。
+　　比較的設定は簡単。
+
+2.　IPルータ(アクセスルータ)をTAに接続して使用する。
+　　需要が少ないため、製品が少なく高額(1万から数万)、お店
+　　にもあまり置いていないので、値引きなどもあまり期待でき
+　　ません。
+　　付属していない場合ストレートのLANケーブルが1本必要。
+　　TA--シリアルケーブル--IPルータ--LANケーブル--BBA。
+　　IPルータの機種にもよりますが、設定レベル中。
+
+3.　TAを接続しているPCをルータ代わりに使用する。
+　　PC用のLANカード(500～数千円)とクロスのLANケーブルが
+　　1本必要。
+　　TA--シリアル又はUSBケーブル--PC--LANケーブル--BBA。
+　　PCの設定が必要なため、接続を理解していないと難度は
+　　高め。
+</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

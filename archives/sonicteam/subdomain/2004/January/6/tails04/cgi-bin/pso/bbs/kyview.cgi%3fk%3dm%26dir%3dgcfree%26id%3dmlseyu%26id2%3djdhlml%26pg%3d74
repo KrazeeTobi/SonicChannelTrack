@@ -1,0 +1,147 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/74/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="gcfree">
+<input type="hidden" name="id" value="mlseyu">
+<input type="hidden" name="id2" value="jdhlml">
+<input type="hidden" name="pg" value="74">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >どうも不安定な模様
+
+http://www2.sega.co.jp/　は大丈夫ですが、
+PSO公式フリーなどは駄目
+教えてBBSは行けました
+
+どうにも不安定
+
+以下、最終修正前
+
+[追加アリ]回復した模様
+
+でも、www2.sega.co.jpはping拒否するのでpingしても無駄だけど
+ちなみに、Windowsだとtracertも無理
+
+＜追加分＞
+まず、最初の状況は
+「ping www2.sega.co.jp」を行うと
+「TTL expired in transit」が帰ってくるので
+googleにお伺いを立ててみると
+「経路上のルータの設定ミスでループが出来ていることが疑われる」
+とわかります
+
+「tracert www2.sega.co.jp」すると案の定、ループして見えます
+
+よって
+「www2.sega.co.jp」より経路上のルータが怪しいと判断しました
+
+復旧後、pingやWindowsのtracertがはねられるのは、多分、
+「www2.sega.co.jp」が間借りしているホスティングサービスが
+ping等で使用される「ICMPのEcho Reply」を返さないからでしょう
+
+「ドアをノックされても、無視する」という防御手段の一つです
+
+# ちなみに「ソニー ブロードバンド サービス bit-drive」の模様
+# http://www.bit-drive.ne.jp
+# おや、障害情報には記載がない
+# 別口の障害だったのかな？
+
+でもって、ICMPではなくUDP等を使うtracerouteだとちゃんと辿れます
+
+こう言うことを知っておくと、トラブル時に無駄に慌てなくて良いかも
+# って、私も今回初めて知りましたが
+＜／追加分＞
+
+以下、修正前
+
+www2.sega.co.jpに辿り着けない模様
+
+途中のルータがおかしいようです
+
+Windowsの場合は
+「(MS-)DOS(コマンド)プロンプト」で「tracert www2.sega.co.jp」
+
+「tky01fer02-GbE-0-0-0.sonytelecom.ad.jp」と言うところで
+足踏みしてるのがわかるでしょう
+
+・・・経路によっては辿り着けるのかな？
+
+ここはsonicteam.comなので、今回のトラブルとは無縁
+
+・・・isao.netへの経路で、今回みたいなトラブルがあったら
+PSOとか全滅・・・
+う～ん、恐い</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

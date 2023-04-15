@@ -1,0 +1,117 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『ファンタシースターオンライン エピソード１＆２』トライアルBBS</title>
+</head>
+<body background="http://tails04.sonicteam.com/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/t/trial/28/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#ffffff">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="trial">
+<input type="hidden" name="id" value="vawukf">
+<input type="hidden" name="id2" value="xttlpx">
+<input type="hidden" name="pg" value="28">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#ffffff">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#ffffff">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >１．良いと思います。是非、実現して欲しいです
+２．これは…どうかと。
+文章を見る限り（わざと短所になりそうな所だけ、集めています）
+Lv１覚え状態の精神でLv１使用時間＜Lv２覚え状態の精神でLv２使用時間
+敵の速さは変わらないので、敵によって使用できるLvが決定。
+Lv２は覚えたけど、遅いからLv1使う＝テクが早くなっただけ
+（テクLv３０時のテクLv１はどのくらい短いのか？…これも問題）
+高Lvテクが使用できるのではなくて、低Lvテクが連射できるようになる
+（精神考慮で、今くらい早くて安いくせに、そこそこ強いテクが使えるように…）
+
+オンでは味方がいるために、溜め時間ができる…と思いきや
+仲間が居る時、Foは状況によってテクを使い分ける必要が多分にある。
+回復、補助だけでなく、敵が仲間に倒されれば属性だって変えないと。
+
+ロックオンが単体のテクは、基本的に狙いを付けられない（歩きではね）
+逆に次、どんな敵が出るかを知っていて、予めギフォイエなどを溜めておける
+
+その他、不発に終わった時は無駄にTPが…すごく無駄になりそう。
+
+Foは「ごく限定環境時に強力」よりも、「いつでも一定の成果を」な方が
+…というか、そうでないと困ると思う。TP消費してるしね。経験値問題も。
+
+あと、上の枝を読んで気になったのでレスタについて
+レスタは威力、範囲を弱くしても、実質、損をするのは術者ではなく
+HPの高い、メイト回復基本なロボだけ。
+TP消費を高くしても、結局同じ事が言えると思う。メイト基本になるだけだから。
+
+そこで、あらゆる無敵時間よりもレスタの硬直時間を長くして（全Lvで）
+最前線キャラのメイト消費が普通になって、遠距離キャラレスタが重宝される
+つまり、メイトとレスタを「敵との距離」で住み分ける状態にする。
+生身がメイトを使う場面が、少なすぎるから問題なのだろうし。
+大体、敵の目前でレスタ（テク）ってのが、そもそもおかしいんだよね…。
+Raレスタとかすごく喜ばれそうでいい感じ？
+</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#ffffff">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

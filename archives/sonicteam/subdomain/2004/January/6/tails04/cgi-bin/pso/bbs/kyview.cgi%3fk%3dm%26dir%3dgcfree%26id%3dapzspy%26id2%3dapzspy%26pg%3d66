@@ -1,0 +1,105 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/66/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="gcfree">
+<input type="hidden" name="id" value="apzspy">
+<input type="hidden" name="id2" value="apzspy">
+<input type="hidden" name="pg" value="66">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >おはようございます！
+チーム・ヴァルキリー隊の隊長をやらせて頂いておりますフレイアと申します。
+
+2月1日、つまり今度の土曜日にチーム結成２周年記念としてイベントを開催いたしますので、その告知をさせて頂きます。
+vr1.0からvr1.1へ移行した方はわかると思いますが、最初がとても大変です＞＜
+そこで、移行したばかりの方や派手なアイテムロスト、キャラクターロストした方を対象に救済イベントを行いたいと思っております。
+別にそうでない方でも参加は歓迎いたしますが、vr1.1に来たばかりの方、キャラクターロストした方など不利な立場にある人が最優先になりますので、状況を見て部屋に開きが多くなってきたら入ってきてもらうのがベストかと思います。
+基本的な武器や防具、そしてお金（？）を格安でお売りします♪
+名付けて「ラグオル救済屋さん」です。
+日にちは２月１日土曜日
+場所は６７－９－７から下
+時間は夜１２時開始となっております。
+なお、イベントのインフォメーションは６７－９－９に常駐しておりますので、分からない事があったら遠慮なく聞いて下さい。
+
+基本的なルールが一つあります。
+全ての店にはパスがついています。
+夜１２時になり次第、「パス＝～」という部屋を作ります。
+「パス＝」の後に続く言葉が格店舗に入るための鍵となります。
+これさへ理解していれば、お店に入ることができます。
+この手のイベントはフリーBBSでは伝えられることが出来ない部分が多いので、詳細はシークレットBBSに書き込みます。
+少しでも多くの方の参加をお待ちしております。
+</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

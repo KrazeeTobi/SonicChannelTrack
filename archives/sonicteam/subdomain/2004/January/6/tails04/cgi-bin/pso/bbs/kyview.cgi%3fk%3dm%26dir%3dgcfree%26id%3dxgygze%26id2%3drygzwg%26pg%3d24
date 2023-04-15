@@ -1,0 +1,119 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/24/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="gcfree">
+<input type="hidden" name="id" value="xgygze">
+<input type="hidden" name="id2" value="rygzwg">
+<input type="hidden" name="pg" value="24">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >確かにね・・・（長文です。
+
+第一と第三は同意ですね。
+第一の場合は、「人待ちです・・」「ごめんね」等、一緒に探索できない場合を
+経験すれば、自然に聞くようになりますよ（^^。
+（オイラはそうでしたから・・・。
+チームの存在や人待ちの概念が無い時は、そんなモノだと思います。）
+
+第三の場合では、トライアル版の時に高レベルの方が低レベルの方の部屋に入って、
+瞬殺された事がありましたが、ホントに手におえないです（TT。
+しかも、その時の瞬殺君は、アイテムも全て速攻で持って行き、
+要らないアイテムは通路に捨ていく始末。
+洞窟１の最初からやって、洞窟１終了時に自然解散する事になったのを覚えてます。
+・・・瞬殺君の仕様武器はスプニで、別の冒険者から「おまえ取りすぎ（アイテム）」
+「スプニやめろ」等と言われていました。
+
+同じような例では、「一人歩き君」もきつかったなぁ（TT。
+○みんなとペースを合わせるワケではなく、ボスに近い正式な道を一人で
+ガンガン進んで仲間を待たない。当然エネミーは全て一人で全て倒して・・・
+・・・そんな人もいました。
+ある意味、瞬殺君よりもヒドイ感じがしましたね。
+
+☆第三のパターンは、「言われても駄目な人は駄目」って感じがします。
+諦めたほうがイイかもね（TT。
+
+第二のパターンは、むか～しＤＣ版で同様の論議がありました。
+アメリカなどは、「床に置いてあるモノは捨ててある」との認識が
+当たり前らしく、「分配」という事はなかったようです。
+日本での話とアメリカでの話をゴッチャにするのは、いけないと思いますが
+「人によって、考え方が違う」と思わせる事の一つですね。
+少し違う話では、「アイテムを分配するのが当たり前」と思う人と
+「自分が取ったアイテムは全て自分の意志の中に・・・」と思う人の
+考え方の違いと、同じかも知れませんよ。
+・・・勝手に持っていく事を、養護した文章ですが、オイラは無断で
+持っていった事が無いので、無断で持っていく人の気持ちが分かりかねますが（^^;。
+</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

@@ -1,0 +1,137 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『ファンタシースターオンライン エピソード１＆２』トライアルBBS</title>
+</head>
+<body background="http://tails04.sonicteam.com/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/t/trial/24/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#ffffff">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="trial">
+<input type="hidden" name="id" value="zlicof">
+<input type="hidden" name="id2" value="wvvyjo">
+<input type="hidden" name="pg" value="24">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#ffffff">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#ffffff">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >「ハマリ」と「死亡確定」の違い
+
+『ある行動を取ると、やられて仕切り直し』というのは、
+ゲームにおいて必要なものです。当然ですね。
+「ミス＞死亡＞シティへor復活（PSOの場合）」という流れは、
+ゲーム性の一環ですから。これが「死亡確定」の状況です。
+
+でも、
+『ある行動を取ると、ゲームを終了するしかない』
+という状況は、すなわち
+『ゲーム内で取れるある行動を、ゲーム内で処理しきれていない』
+ということと同義であり、まずいでしょう。
+たとえば他のゲームで、
+　「出入りに鍵が必要な部屋の中で鍵を捨てると、
+　　もう出られない＞リセットしかない」
+といったようなことがあった場合、それはシステム的なエラーです。
+こっちが、「ハマリ」って状況ですよね。
+これは「死亡確定」とは逆に、ゲームに存在してはいけないものです。
+デザイン・デバッグの段階で、当然排除されていなければいけません。
+本体フリーズと同レベルの設定ミスといってもいいでしょう。
+
+PSOにおいてのこの話題について言えば、
+『高レベルキャラで、なんらかの原因で低難度のエネミーに
+囲まれた場合、メニューから終了する以外の脱出方法がない場合がある』
+これは「ハマリ」です。
+「囲まれないようにすればいい、それがゲームの腕だ」とかいう
+意見は、この際あてはまりません。頑張れば避けられる状況であっても、
+また普通は取らないような行動であっても、
+『ゲーム内で取れる行動』であるかぎり、それをとったことで
+ゲーム終了という『ゲーム外においやる結果』を出すことは
+あってはいけないものです。
+部屋で鍵を捨てると…の例の鍵だって、普通捨てないだろうけど
+捨てることが「出来る」時点でアウトなんですよ。
+
+部屋で鍵を捨てる、の問題で言えば、
+「鍵を重要アイテムとして、システム的に捨てられなくする」
+というような解決方法がありますよね。
+PSOでも同様のシステム的対処は必須であるはずです。
+
+対処の例を挙げましょう。
+正直、敵の攻撃が自キャラに触れる（現状でいうガードも含む）たびに
+必ず（最悪１ポイントでもいいから）ダメージを受けて、
+いつかは死んで病院送り（＝仕切り直し）というふうになっているなら
+「ハマリ」ではなく「死亡確定」なので、いいんですよ。
+やって面白いかは別にして、システムとしては破綻していない。
+「ハマリ」が存在する状況は、システム的に破綻しています。
+こんな対処法はもちろんイマイチなものですが、
+他の皆様が発案なさっているものも含め、デザイン側の
+ソニチ様のほうで検討し、「ハマリ」はなくしてください。
+
+親発様他の「ハマリをなくせ」という意見に対して、
+「腕で避けろ」「経験で学習して避けろ」「仲間と協力しろ」という
+見当違いのレスが乱発されていたので、ご意見申上げました。
+腕で避けるべきは「死亡確定」であって、「ハマリ」ではありませんよ。</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#ffffff">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

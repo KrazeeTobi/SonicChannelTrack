@@ -1,0 +1,144 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/99/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="gcfree">
+<input type="hidden" name="id" value="jvtvyu">
+<input type="hidden" name="id2" value="jvtvyu">
+<input type="hidden" name="pg" value="99">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >皆様、はじめまして。
+なにげにコッチは初カキコ。
+ちょっと接続で困った事が起きていまして・・・。
+
+簡潔に言うと、他人からワープして見えちゃうんですよねぇ。
+で、色々と検証したのですが直らず。
+そこで、とりあえずカキコをと思ったので。
+とりあえず検証結果を書きまする。
+
+○回線○
+Bフレッツ　ニューファミリータイプ
+
+○ルーター○
+corega BAR SW-4PHG
+
+○LANケーブル○
+ELECOMのエンハンスドカテゴリー５
+ストレートケーブル　100BASETX対応　１０M
+２本同じのがあったので２本とも試したが結果変わらず。
+
+○各種設定（PC）○
+
+◇MTU◇
+1500，1448，1452。どれも結果変わらず。
+
+◇ルーティング◇
+ダイナミックルーティングONとOFFでどっちも変わらず。
+
+◇DHCP◇
+ON
+
+○各種設定（GC）○
+
+全て自動。DNSサーバはルータで設定しているので自動。
+UDP設定はOFF。
+
+設定や環境はこんな感じです。
+これで部屋内で検証してみました。
+
+○部屋主が友人○
+
+俺→友人（俺から友人を見た場合）：特に変化無し
+友人→俺：ワープ＆動きが変（マシンガンの弾数やタイミングなど）
+
+それと俺だけ、アイテムを拾う時たまに時間がかかったり、
+言葉が出るのにもたまに時間がかかったり。
+
+○部屋主が俺○
+
+俺→友人：ワープ＆動きが変
+友人→俺：ワープ＆動きが変
+友人→友人２：特に変化無し
+
+この場合アイテムを拾うのに時間がかかったりなどという、
+上のような現象に全員なりました。
+
+こんなところでしょうか。
+何かわかる方いらっしゃいましたらどうぞ宜しく♪
+そんなに不便なわけじゃないんですがね。(笑
+
+ではでは、長文失礼しました。</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

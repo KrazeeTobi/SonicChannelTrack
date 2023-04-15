@@ -1,0 +1,112 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/91/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="gcfree">
+<input type="hidden" name="id" value="qqhlek">
+<input type="hidden" name="id2" value="qqhlek">
+<input type="hidden" name="pg" value="91">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >皆様こんにちは。この手の質問は結構多いので過去ログを
+少しみてみましたが、最近のには見当たらなかったので
+既出失礼でよろしくお願いします。
+
+環境はフレッツＡＤＳＬモデムちょくつなぎです。
+
+調整版にてＯＮしようと思い、ハンターズライセンス購入を
+しようと色々入力しつつ進めていました。しかし、この時点で
+不思議な事に「回線が切断されました」とのメッセージが出て
+ページを進めては一回一回回線が切断されていました。
+
+それでもなんとか購入を済ませ、よく分からないままＯＮに
+入ろうとすると、お知らせまではたどり着くのですが、そこで
+Ａボタンを押すとお知らせが消えてフリーズ。
+何度やっても同じ症状。たまにすばやく操作した時だけ
+シップセレクト、インフォメーションの画面が表示され、
+そこでＡボタンを押すとそれが消えてフリーズ。
+
+どうも３０秒くらいに一度切断されてるようなのですが、
+ＯＮした時は回線切断というよりフリーズしてます。
+
+お聞きしたいのは、この症状はルータによって改善されるの
+かな？ということです。勿論、お金がたまり次第試そうとは
+思っています。しかし、貧乏人のため出来れば一度の出費で
+解決（もしくは最初からあきらめて買わない）したいのです。
+同じような症状で解決した方がいらっしゃればアドバイスを
+よろしくお願いします。
+
+長文スミマセン。</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

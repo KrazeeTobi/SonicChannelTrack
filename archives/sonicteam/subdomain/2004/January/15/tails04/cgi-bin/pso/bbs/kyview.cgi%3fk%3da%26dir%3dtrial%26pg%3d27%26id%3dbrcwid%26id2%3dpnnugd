@@ -1,0 +1,82 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『ファンタシースターオンライン エピソード１＆２』トライアルBBS</title>
+</head>
+<body background="http://tails04.sonicteam.com/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/t/trial/27/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#ffffff">MAKING APPEND NOTE</font>
+<hr>
+<p>
+<table width="100%" border="0">
+<tr bgcolor="#004080"><td width="100%"><strong>元の発言</strong></td>
+<td align="right" width="1%" nowrap> <br></td></tr>
+<tr bgcolor="#004080"><td colspan="2"><strong>GuiltyWord!</strong>  <i> 2002/07/12</i>  </td></tr>
+<tr bgcolor="#000040"><td colspan="2">フラグ管理で出来ますよ。<BR><BR>レスありがとうございます。<BR>私の説明下手のせいで誤解をさせてしまったようですね。<BR><BR>ご指摘の「アイテム１つずつに認識番号付けるのは無理」<BR>だからこれは不可能との事ですが、<BR><BR>別にこの変更は、「識別番号」はいりません。<BR>サーバーの負担も現状通りです。<BR>ロストも発生しません。<BR>敵の真ん中で丸腰も防ぐ方法が有ります。<BR><BR>以下で説明をさせて頂きます。(線の間は説明です)<BR>------------------------------------------------------<BR>現状では、手に入れたアイテムはフラグ管理されています。<BR>これはどのゲームでもそんなに変わりはありません。<BR>このフラグを見てゲームシステムは動いています。<BR><BR>この場合のフラグはアイテムの状態を管理するための情報と考えて下<BR>さい。たとえば、現在アイテムは装備中か否か、キャラクターが持っ<BR>ているか、チェックルームに預けているか、とかです。<BR>これを理解した上で以下の文章を読んで下さい。<BR><BR>現状のアイテム交換の場合<BR>サーバーが、双方のアイテム情報を書き換えています。<BR><BR>レンタルをする場合。<BR>借りるとき<BR>　サーバーで、双方にフラグの付いたアイテム情報を書き込みます。<BR>　書き込むフラグは<BR>　　貸出側には上書きで「貸出フラグ」<BR>　　借り側には「借受フラグ」付きのアイテム情報<BR><BR>返すとき<BR>　サーバーで、貸し出したアイテムを消して、貸出元のアイテムから<BR>　フラグを消す。<BR><BR>サーバー側の変更はこれだけなので負担贈にはなりません。<BR><BR>双方のフラグ意味ですが<BR><BR>「貸出フラグ」<BR>床置き禁止、売り禁止、装備禁止<BR>フラグの消去条件は、借り側が返却を指示した場合かゲーム終了。<BR><BR>「借受フラグ」<BR>床置き禁止、売り禁止、<BR>消去指定アイテム、返却、部屋からの退出、ゲーム終了などで消去。<BR><BR>フラグは何桁かの情報の固まりでかなり余裕のあるものです。<BR>------------------------------------------------------<BR>以上です。<BR><BR>現状出来上がってる部分に、少してを<BR>入れるだけで対処可能と思われます。</td></tr>
+</table>
+</p>
+<p>
+<form action="submit.cgi" method="post" >
+メッセージ ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual">
+</textarea><BR>
+
+<input type="hidden" name="title" value="Re:フラグ管理で出来ますよ。">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="pg" value="27">
+<input type="hidden" name="id" value="brcwid">
+<input type="hidden" name="id2" value="pnnugd">
+<input type="hidden" name="dir" value="trial">
+</p>
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+<input type="hidden" name="c" value="APPEND">
+<p>
+<input type="submit" value="APPEND"> 書き込み 
+
+</p>
+</form>

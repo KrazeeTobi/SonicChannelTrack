@@ -1,0 +1,96 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/94/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="gcfree">
+<input type="hidden" name="id" value="vonfjw">
+<input type="hidden" name="id2" value="vonfjw">
+<input type="hidden" name="pg" value="94">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >早速ですが、題名の事について説明します。
+午後６時以降から、急激に回線の調子が悪化します。
+４月にはイースターイベント、引き続き制御塔のクエストが配信されました。
+クエストに熱を入れているユーザーさん方にはどう聞こえるか解りませんが…、チャレンジロビー同様、クエスト進行中のチームが多すぎると、回線の調子が悪化してしまうのです。
+これは、私自身の事かも知れないと胸の内にしまっておいたのですが、同じような状態に陥っているプレイヤーを少なかれ発見しました。つまり、多かれ少なかれ、私と同じような人はいると言う事です。こういった事が、二ヶ月以上続いてます。全く快適ではありません。接続はＡＤＳＬなのですが、通常のモデム接続に切り替えても、やはりこの時間は同じでした。
+
+周回が目的でしたら、他の場所、あるいはチャレンジ、バトルロビー同様一定の場所でやる事は出来ないでしょうか。
+
+確かに、オンラインプレイ上、違法行為などはしていませんが、今の状態は“他人を不快な気持ちにさせている”と言っても過言ではありません。ＰＳＯ内のシップは広いですし、空いているサーバーはいくらでもあります。
+
+私一人の力ではどうにもならないでしょう。何か意見があれば幸いです。もちろん、反論も書き込み戴きたいです。
+
+この書き込みに不快感を抱いた人も多いと思います。すいませんでした。それでは失礼します…。</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

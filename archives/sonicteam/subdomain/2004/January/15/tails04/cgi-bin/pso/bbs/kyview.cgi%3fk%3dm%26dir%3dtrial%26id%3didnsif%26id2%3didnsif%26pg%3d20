@@ -1,0 +1,123 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『ファンタシースターオンライン エピソード１＆２』トライアルBBS</title>
+</head>
+<body background="http://tails04.sonicteam.com/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/t/trial/20/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#ffffff">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="trial">
+<input type="hidden" name="id" value="idnsif">
+<input type="hidden" name="id2" value="idnsif">
+<input type="hidden" name="pg" value="20">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#ffffff">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#ffffff">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >ファンタシースターIIで顔的な武器だったスライサーですが、
+PSOではその使いづらさから敬遠されて人気ないですよね。
+(一部、熱狂的な愛好家がいますけど＾＾)
+
+スライサーは基本的に他の武器に比べてメリットがなく
+逆にこの４つのデメリットばかり目だってしまいます。
+・モーションが遅い
+・真近な距離では当たらない
+・弾速が遅い
+・多段ヒット型飛び道具なので威力が分散する
+
+で、この状況を改善するには数値的な改変だけじゃなくて
+もっと根本的に見直さなきゃならないような気がします。
+
+個人的には、弾速とモーション速度は今までと同じでいいので、
+一振りで複数弾が飛ぶようにしてほしい(三発位かな?)
+そして、他の武器と異なり３段ではなく５段コンボ位にして
+踊っているようなモーションに変えてはどうでしょう?
+
+ついでに新カテゴリー「ツインスライサー」とかあると
+いい感じなのですが・・・
+
+
+せめて、たまにＤＦ戦にスライサー使っている人を見かけるくらいには・・・・
+
+----------------------------------------------------
+
+色々レスありがとうございます。
+
+更に考えた末に
+全方位ロックオン、移動なしモーション
+この２つがあればそこそこ使えるようになるのではないかと思いました。
+大抵、一般武器は前方にしかロックオンしませんが、
+横や後方も広範囲ロックオンして飛び回ってくれればいいと思います。
+そして、全方位攻撃してるぞって感じで現在の１段目の
+回転攻撃(場所は動かない)繰り返すなんてどうでしょう?
+まさに戦いの舞踊です＾＾
+
+うまいレンジャー使いとかにはあまり意味ないかも知れないけどね。
+(うまい人はLトリガー使わないで横や後ろの敵をレーダー見て攻撃できますから・・)</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#ffffff">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

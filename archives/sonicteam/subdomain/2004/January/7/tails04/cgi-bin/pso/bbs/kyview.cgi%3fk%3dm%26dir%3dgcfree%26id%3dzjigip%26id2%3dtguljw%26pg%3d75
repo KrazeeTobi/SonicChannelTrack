@@ -1,0 +1,136 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/75/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="gcfree">
+<input type="hidden" name="id" value="zjigip">
+<input type="hidden" name="id2" value="tguljw">
+<input type="hidden" name="pg" value="75">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >親と戦う前に…
+
+“インターネット”や“接続コース”という言葉に強くなりましょう。
+
+おそらく、月に４万も請求されるという事は
+あなたの親御さんも“インターネット”や“接続コース”という
+言葉に弱い可能性があります。
+（わかる人なら毎日オンラインに繋いで４万も請求がきた
+という時点でこれはおかしいぞと思います）
+
+わからないもの同志が戦ってもラチがあきませんので(^-^;
+
+まず最初にやる事。
+
+１）加入しているプロバイダーと接続コースを親に聞く
+・まともな回答が得られないなら親御さんもよくわかっていないという事が確定→２へ
+・まともな回答が得られるなら接続コース(接続形態)の変更を相談。
+（ADSLやCATVの場合、GC用ブロードバンドアダプタの購入が必須、
+さらにルーターもあった方がいいかもしれません）
+
+２）あなたがオンラインに繋ぐ時間帯を教えてください。
+・他の方も述べられてますが、
+深夜帯(23:00～8:00)ならテレホーダイというサービスがあり
+月々定額でこの時間帯内なら繋ぎ放題になります。
+これのメリットは“簡単”という事です。
+（NTTに電話して接続するプロバのAP(電話番号)を教えるだけでOK）
+親御さんに説明する時も、
+『毎月＋いくらでそれ以上は請求が来ないようになるから』
+だけでＯＫでしょう。
+（プロバイダーが繋ぎ放題であるという前提がつきますが）
+
+深夜帯以外に繋ぐのであれば、
+ADSLやCATVなどのサービスという選択肢がでてきます。
+
+親御さんがネットに詳しくないと仮定した場合、
+おそらく最初につまづくのは
+「ADSLやCATVってなに？」という事を説明することです。
+（色々初期投資が必要になるので）
+
+大抵、よくわからない人はわからないのではなく
+“わかろうとしない”という事が多いです。
+
+こういう人のありがちな反論は
+「お前しか使ってないんだから金出して色々やる必要はない」
+「変な事して電話が使えなくなったらどうする」
+
+と、環境を変える事を拒絶されます(^-^;
+（よくわかってないから、変える事を躊躇する）
+
+そういう時はそれぞれの利点を説明して
+理解してもらう必要がでてきます。
+
+…とりあえず、親御さんと相談してみてください。</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>
