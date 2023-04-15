@@ -1,0 +1,165 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/17/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="gcfree">
+<input type="hidden" name="id" value="bjkofe">
+<input type="hidden" name="id2" value="bjkofe">
+<input type="hidden" name="pg" value="17">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >はじめまして！やっと念願のGC本体とPSO一式を先週に買いました！
+
+発売日に体調崩して買えなかったから、ず～っと欲しくて遊びたくて
+我慢してただけに、買った当日はもう天にも昇る気分でした～。
+
+今じゃキャラもLv80近くになりレアアイテムもかなり（DCに比べてｗ）
+出てるから、毎日やり込んでいるいる所なんです。
+
+
+そんなある日バグと修正版（中さんのコメント）の話を聞いたんです。
+ショックでした。今までがんばった来た事が全て無駄になるんですよ。
+BBA待ちなのでオンラインデビューもしてないのに…。
+
+
+公式の皆さんの書き込みにも目を通してみました。
+パッと見た感じですが時間に余裕のある方は引継ぎ否定を。
+社会人など比較的時間のない方は引継ぎ希望されているようですね。
+
+そんな私も引継ぎ希望派なんです。やはり無い時間を削って遊んでいる
+以上、自分の分身とも言える子を不本意に消さなければならないのは
+辛いです。それに出やすくなったと言っても自力で発見したものには
+愛着も湧いてくるじゃないですか。それがDC版からずっと探していた物ならなおさらです。
+
+それで私なりに修正版に関しての提案を書いてみました。
+引継ぎ容認、否定、それぞれお互いに妥協出来るような物だと良いん
+ですが…。
+
+○その１
+　現バージョンから修正版にコンバートする際、キャラクター１人では
+　なくメモリーカード全体でコンバートを行う。コンバートしたメモカ
+　のデータは上書きして修正版用のデータとする。
+
+　（DC版と違いGC版のセーブデータは４人で１つのファイル。
+　その１つのファイルでコンバートすれば、キャラデータすべてが
+　修正版用のデータとなるため）
+
+
+○その２
+　コンバートの際、装備品以外のアイテムはすべて消去。
+　メセタは手持ち以外は消去。
+　ステータスもマテリアル追加分は全てリセット。
+　レベルはコンバート時のものを引き継ぎ。
+　クエストの展開状況はリセット。（コンバート時のアイテム消去に
+　よりクエストアイテムを取り直す人もいると思うので）
+　その際、総プレイ時間が20時間以下のキャラは装備品もリセット。
+
+　（プレイ時間の目安を付けたのはキャラを作ってアイテム移動、再び
+　作り直してアイテム移動という事をさせないため。倉庫品全て消去は
+　引継ぎ容認派としては辛いけど、譲歩という意味でも仕方ないかと。
+　マテリアルによるステータス増加分のリセットは均一という意味で
+　ありかと。元々使用制限あるからそれほど痛くないでしょう。）
+
+○その３
+　現バージョンと修正版ではオンライン時のサーバー共存は不可。
+　またオフラインマルチモードでの共存も不可。
+　
+　（共存させなければアイテム移動も出来なくなる。）
+
+
+その１～３のようなデータ引継ぎであれば、否定派が心配する余計な
+アイテムの持ち込みも最小限に抑えられるし、引継ぎ賛成派の人も
+ある程度の納得は出来るんじゃないでしょうか？
+
+確かに上記のコンバート方法でも不満は残るとは思いますが
+大量のアイテムをコンバートして持ち込むには大量のメモカと時間が
+必要になるので、そこまで手間をかける人もいないと思うんです。
+
+
+本来なら、そんなバグもなく快適な環境だったら最高だったと思うんで
+すけど、それは言葉は悪いですけどソニックチームのミスです。
+そのミスのせいでプレイヤーが被害をこうむるのはご免です。
+
+本音を言ってしまうと修正版が出るのであればデータの全てを引き継ぎ
+して欲しいと思ってます。今まで集めたアイテム全ては自力で出したの
+ですから。ただ引継ぎ否定の方の意見も解るので今回のような提案を
+してみました。これは容認派としての最大の譲歩ですので、否定派の方
+も頭から否定するのでなく、お互い譲歩出来る意見を出して貰えると
+嬉しいです。
+
+PSOが好き！って気持ちは今回の騒動に関係なく同じだと思うので…。
+あ、もうすぐBBA発売ですね！私もBBA出たらオンラインに行くと
+思うので見かけたら一緒に遊びましょうね～！ぉ～☆</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>
