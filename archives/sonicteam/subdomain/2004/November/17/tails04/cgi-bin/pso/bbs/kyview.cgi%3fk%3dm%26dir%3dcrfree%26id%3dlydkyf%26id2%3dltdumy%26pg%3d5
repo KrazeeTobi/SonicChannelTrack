@@ -1,0 +1,117 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOEP3』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1g.png" bgcolor="#003333" text="#FFFFFF" link="#99FF99" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/c/crfree/5/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="crfree">
+<input type="hidden" name="id" value="lydkyf">
+<input type="hidden" name="id2" value="ltdumy">
+<input type="hidden" name="pg" value="5">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >『大会の実施方法、試合のルールについて』
+
+【大会の実施方法について】
+・まず、参加希望者は指定した時間（曜日/時間)に指定した場所（ship/block/lobby)に集まってもらい、
+　大会実行委員（つまり私）にギルドカードを渡して下さい。
+　※ペアで登録する場合は、その事を私に伝えて下さい。
+
+・ギルドカードが参加枠に達し次第、
+　こちら側で、チームの組み合わせをランダムに決めさせていただきます。
+　※ペアで登録している方は、そのペアで参加となります。
+　※参加者多数の場合、抽選となりますので、予めご了承ください。
+
+・各チーム毎にチーム名を決めてもらいます。
+　※ペアで登録される際に、予め決めてきてもらえると非常に助かります。
+
+・試合の組み合わせを大会実行委員が発表しますので
+　対戦する両チームは部屋を作り、対戦してください。
+
+・試合が終わったなら、負けた方が大会実行委員に試合結果を報告してください。
+　※対戦結果を、大会実行委員のインフォボードに掲示します。
+
+・1回戦が終わったなら、同じ要領で2回戦、３回戦と進めていきます。
+
+・全ての試合を終えた時点で、一番勝利数が多いチームが優勝となります。
+　※１番のチームが２つあった場合、そのチーム同士の試合で勝利していた側が優勝となります。
+
+【試合の形式について】
+・参加枠８人（４チーム）のタッグマッチ
+・対戦場所は大会毎にこちら側で指定します
+・試合時間は３０分、それ以外は基本ルール（初期設定のまま）
+・観戦は有りで
+・試合中の回線落ちは、実行委員に報告
+（試合の続行については状況によりこちらで判断します）
+
+--------------------------------------------------------------------------------------
+※決勝大会について
+前回の「ユーザーＣＵＰトーナメント」では、予選大会後に決勝大会を行いましたが、
+今回のイベントで決勝大会を行うかどうかは未定です。
+
+※参加資格について
+　前回と違い、一度参加された方でも、その後の大会に何回でも参加することができますが、
+　参加希望者が定員を越えた場合、初参加の方を優先させていただきますので、予めご了承下さい。</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>
