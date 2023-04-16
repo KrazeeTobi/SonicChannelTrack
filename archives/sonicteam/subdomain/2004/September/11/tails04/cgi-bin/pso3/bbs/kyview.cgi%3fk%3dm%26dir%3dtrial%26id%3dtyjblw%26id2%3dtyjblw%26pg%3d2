@@ -1,0 +1,114 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOEP3トライアル版』専用掲示板</title>
+</head>
+<body background="/pso3/bbs/img/pso_bk1.png" bgcolor="#003333" text="#FFFFFF" link="#99FF99" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso3/bbs/t/trial/2/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#ffffff">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="trial">
+<input type="hidden" name="id" value="tyjblw">
+<input type="hidden" name="id2" value="tyjblw">
+<input type="hidden" name="pg" value="2">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#ffffff">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >他の方の意見を読んでいて思ったのですが、、
+
+強い人はどんどんカードの枚数が増えていき、
+弱い人はなかなか増えにくい。
+
+現時点ですでに実力差があるのにカードの取得枚数でも
+大幅な差を付けられたらどんどん差が付くばかりでどうしようもない。
+
+言われてみれば、なるほど確かにそれはそうだと(^-^;
+
+トライアルの取説にも
+“カードを得るには勝ち続けること”とあり、
+さらに評価が高ければ高いほどカードももらえます。
+しかし、これもあまり度が過ぎると
+“勝つ事”に囚われすぎてオンラインの楽しさが失われてしまう
+のではないかという危惧が…
+（相手を瞬殺した方が評価が高いと言うことは…(後は言わずもがなです））
+
+
+そこで一案なのですが
+現在の対戦評価を根本的に見直し、
+バトルそのもの評価という形にする。
+（他ツリーのプロレスvs格闘技のように）
+
+そして、そのバトル内容によって入手カードが左右されるようにする。
+（つまり、いいバトルをするほどいいカードが得やすくなる）
+
+ただ、これだと
+「勝者の報酬が敗者と代わり映えしないのはおかしい」
+というもっともな意見がでてきそうなので
+
+「カード入手の時の４つの箱(？)をバトル参加者共通にして
+勝ったチームから好きな箱を選ぶ」
+
+というのはどうでしょう？
+
+４つのカードの箱になにかしら癖を付ければ
+いいアクセントになると思うのですが…
+（今でもついてるかもしれないけどよくわからない(汗）</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#ffffff">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

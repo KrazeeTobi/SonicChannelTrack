@@ -1,0 +1,158 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/21/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="gcfree">
+<input type="hidden" name="id" value="ogkosv">
+<input type="hidden" name="id2" value="ogkosv">
+<input type="hidden" name="pg" value="21">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >どうも、はじめまして皆様♪
+フレッツＩＳＤＮの接続についての書き込みが多かったので
+私も書き込みしようと思ってしました。
+フレッツＩＳＤＮで快適に遊べる接続方法を説明します。
+
+１．『Windows環境で必要なもの』
+「ＧＣ⇔外付けモデム⇔ＩＰルータのＲＡＳサーバ⇔ＴＡ」と接続することで、
+ＧＣのアナログモデムでの通信をＬＡＮ上に乗せ、
+ＩＰルータで接続しているＩＮＳデータ通信に相乗りさせます。
+環境例はフレッツＩＳＤＮ、必要機材はターミナルアダプタ、ＩＰルータと
+外付けモデム、そしてWindowsパソコンです。
+外付けモデムは33.6Kbps対応のものであれば十分です。
+56Kbpsでもアナログモデム同士の直結では33.6Kbpsまでの通信に制御されます。
+これはＧＣのモデム制限ではなく、すべての56Kbpsモデムの制限です。
+私のＩＰルータ設定は生産終了機種であるマイクロ総合研究所の
+NetGenesis4のものですが、最近のJavaアプリとブラウザによる
+セットアップでも同じことが可能なようです。
+
+２．『電話線の接続』
+さて電話線の接続を説明します。
+ＴＡはＩＰルータのシリアルポート１、外付けモデムはシリアルポート２に接続し、
+ＴＡのアナログポートＢにＧＣ内臓モデムからモジュラーケーブルを挿し、
+アナログポート３に外付けモデムLINEからのモジュラーケーブルを接続します。
+内線通話を使うためにＴＡ設定ユーティリティなどでアナログポート間の
+内線通話ができる状態に設定しておきましょう。
+
+３．『ルータの設定』
+ＩＰルータのＩＰアドレスはデフォルトの「192.168.0.1」
+サブネットマスク「255.255.255.0」で以下の説明はすでに通信可能であることを前提にします。
+ＩＰルータをＲＡＳサーバとして使えるように設定。
+ＩＰルータの設定ユーティリティのシリアルポート２の動作設定を開き、
+使用するモデムの設定をしましょう。
+これはＩＰルータの説明書どおりにモデムＩＮＦファイルを読み込ませればＯＫです。
+回線の種類は「アナログ／トーン」を選択56Kモデムを使用する場合、
+追加ＡＴコマンドにＡＴ＋ＭＳなどの通信速度を制限するＡＴコマンドを
+いれておくとＧＣとの通信が安定することがあります。
+使用するＡＴコマンドについてはモデムによって違いがあるので
+外付けモデムのマニュアルを参照してください。
+接続設定では「ＲＡＳサーバ接続」を選択。
+詳細設定に入りＧＣに対してのＩＰアドレスなどを設定します。
+後述する静的ＩＰマスカレードを設定する必要があるので、
+「ＩＰアドレスの割り当てにNetGenesisのＧＣＨＰサーバ機能を使う」の
+チェックを外し、ＩＰアドレスに「192.168.0.100」を入力します。
+これは、ＬＡＮ内で重複しない別アドレスでもＯＫです。
+忘れずにＲＡＳ接続用のユーザーＩＤとパスワードを登録しておきます。
+ここでＩＤを「gcpso」、パスワードを「0123」で登録します。
+「ＰＳＯ」の場合は静ＩＰマスカレードが必要なので
+「シリアルポート１の動作設定→接続動作の設定→詳細設定」で
+ＩＰマスカレードテーブルにプロトコルＵＤＰ、
+変換ＩＰアドレスにＧＣへ設定したＩＰアドレスである
+「192.168.0.100」、先頭ポート番号と終了ポート番号に
+「40975,41231,41487,41743」を入力した４つを追加します。
+これを設定していない場合、他人から自分の動きが見えない、
+ボス戦に参加できないほどの問題が生じます。
+
+４．『ＧＣの設定』
+ユーザーのプロパイダ設定を行います。
+電話番号に外付けモデムに接続しているアナログポートへの
+内線番号である「#*3」を入力。
+これは使用しているＴＡによって違うので説明書で確認してください。
+機種によっては内線番号の前に「!」を入力し、フッキング操作が必要です。
+次に進み、ＩＰルータのＲＡＳサーバ設定で登録したＩＤとパスワードを入力。
+さらに、ＤＮＳとＰｒｏｘｙを設定します。ＤＮＳはＩＰルータに設定してる
+プロパイダのものを入力してください。（例はダミー）
+次に進み、現在使用しているプロパイダのメールアカウントなどを設定します。
+必要があればProxyも入力。
+
+５．『接続』
+「ＰＳＯ」につなぐ前にブラウザで接続確認をしましょう。
+ただし、セガ系のＵＲＬはＤＮＳを使用せずにアクセスするらしく
+テスト向きではないため、それ以外のＵＲＬを開きます。
+問題がなければＰＳＯに接続し、多人数プレイが出来れば成功です。
+
+以上、Bbaで快適に遊ぶ説明を終わります。
+皆様、ちゃんと出来ましたか？</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

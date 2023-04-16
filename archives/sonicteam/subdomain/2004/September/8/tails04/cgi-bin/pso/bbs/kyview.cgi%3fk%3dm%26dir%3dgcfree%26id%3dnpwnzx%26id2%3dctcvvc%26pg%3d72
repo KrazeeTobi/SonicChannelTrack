@@ -1,0 +1,103 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/72/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="gcfree">
+<input type="hidden" name="id" value="npwnzx">
+<input type="hidden" name="id2" value="ctcvvc">
+<input type="hidden" name="pg" value="72">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >現金でアイテムが取引されるようになったら、このような事件も出てくるのでしょうね。
+
+それよりも、私的なことなのですが、★１２個のレアを発掘したのですが、前から良くしてくれていた人（ｖ1.0のころからの知り合い）が、どうしても欲しいと言うので、
+それなりの物と交換ということで、交換したのですが、とある掲示板で、不正品リストの中に同じ属性のものがありまして。
+メインにと考えていた武器が使えなくなってしまった上に、合成してしまったので、あれも４６個ほどなくなってしまいました。
+
+疑いたくないので確認はしませんが、リストアップ前に交換したので、相手も知らなかったのでしょう。
+不正品か、たまたま同じ属性なのかは分かりませんが、なんだかすごいガッカリ感がありますね。
+こうゆう問題が起きないよう、対策してもらいたいですね。
+
+自力発掘にこだわる人の気持ちが、少し分かったレオパルド２でした。
+
+
+～～～～～～～～～～～～～～～～～～～～～
+なにが言いたかったのか分からない文章なので
+補足修正。
+
+ソニチに対してのチート、デュープ等で警察が介入することがあっても、ユーザー同士のゲーム内の窃盗行為では、無理でしょう。
+可能性があるなら、民事？
+そんなＴＶ番組に、メールとかしてみたらいいかも。</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

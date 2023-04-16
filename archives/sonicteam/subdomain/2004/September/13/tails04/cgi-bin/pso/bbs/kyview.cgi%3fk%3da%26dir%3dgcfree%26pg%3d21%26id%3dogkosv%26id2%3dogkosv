@@ -1,0 +1,82 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/21/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">MAKING APPEND NOTE</font>
+<hr>
+<p>
+<table width="100%" border="0">
+<tr bgcolor="#004080"><td width="100%"><strong>元の発言</strong></td>
+<td align="right" width="1%" nowrap> <br></td></tr>
+<tr bgcolor="#004080"><td colspan="2"><strong>ＡＯＩちゃん</strong>  <i> 2002/10/05</i>  </td></tr>
+<tr bgcolor="#000040"><td colspan="2">どうも、はじめまして皆様♪<BR>フレッツＩＳＤＮの接続についての書き込みが多かったので<BR>私も書き込みしようと思ってしました。<BR>フレッツＩＳＤＮで快適に遊べる接続方法を説明します。<BR><BR>１．『Windows環境で必要なもの』<BR>「ＧＣ⇔外付けモデム⇔ＩＰルータのＲＡＳサーバ⇔ＴＡ」と接続することで、<BR>ＧＣのアナログモデムでの通信をＬＡＮ上に乗せ、<BR>ＩＰルータで接続しているＩＮＳデータ通信に相乗りさせます。<BR>環境例はフレッツＩＳＤＮ、必要機材はターミナルアダプタ、ＩＰルータと<BR>外付けモデム、そしてWindowsパソコンです。<BR>外付けモデムは33.6Kbps対応のものであれば十分です。<BR>56Kbpsでもアナログモデム同士の直結では33.6Kbpsまでの通信に制御されます。<BR>これはＧＣのモデム制限ではなく、すべての56Kbpsモデムの制限です。<BR>私のＩＰルータ設定は生産終了機種であるマイクロ総合研究所の<BR>NetGenesis4のものですが、最近のJavaアプリとブラウザによる<BR>セットアップでも同じことが可能なようです。<BR><BR>２．『電話線の接続』<BR>さて電話線の接続を説明します。<BR>ＴＡはＩＰルータのシリアルポート１、外付けモデムはシリアルポート２に接続し、<BR>ＴＡのアナログポートＢにＧＣ内臓モデムからモジュラーケーブルを挿し、<BR>アナログポート３に外付けモデムLINEからのモジュラーケーブルを接続します。<BR>内線通話を使うためにＴＡ設定ユーティリティなどでアナログポート間の<BR>内線通話ができる状態に設定しておきましょう。<BR><BR>３．『ルータの設定』<BR>ＩＰルータのＩＰアドレスはデフォルトの「192.168.0.1」<BR>サブネットマスク「255.255.255.0」で以下の説明はすでに通信可能であることを前提にします。<BR>ＩＰルータをＲＡＳサーバとして使えるように設定。<BR>ＩＰルータの設定ユーティリティのシリアルポート２の動作設定を開き、<BR>使用するモデムの設定をしましょう。<BR>これはＩＰルータの説明書どおりにモデムＩＮＦファイルを読み込ませればＯＫです。<BR>回線の種類は「アナログ／トーン」を選択56Kモデムを使用する場合、<BR>追加ＡＴコマンドにＡＴ＋ＭＳなどの通信速度を制限するＡＴコマンドを<BR>いれておくとＧＣとの通信が安定することがあります。<BR>使用するＡＴコマンドについてはモデムによって違いがあるので<BR>外付けモデムのマニュアルを参照してください。<BR>接続設定では「ＲＡＳサーバ接続」を選択。<BR>詳細設定に入りＧＣに対してのＩＰアドレスなどを設定します。<BR>後述する静的ＩＰマスカレードを設定する必要があるので、<BR>「ＩＰアドレスの割り当てにNetGenesisのＧＣＨＰサーバ機能を使う」の<BR>チェックを外し、ＩＰアドレスに「192.168.0.100」を入力します。<BR>これは、ＬＡＮ内で重複しない別アドレスでもＯＫです。<BR>忘れずにＲＡＳ接続用のユーザーＩＤとパスワードを登録しておきます。<BR>ここでＩＤを「gcpso」、パスワードを「0123」で登録します。<BR>「ＰＳＯ」の場合は静ＩＰマスカレードが必要なので<BR>「シリアルポート１の動作設定→接続動作の設定→詳細設定」で<BR>ＩＰマスカレードテーブルにプロトコルＵＤＰ、<BR>変換ＩＰアドレスにＧＣへ設定したＩＰアドレスである<BR>「192.168.0.100」、先頭ポート番号と終了ポート番号に<BR>「40975,41231,41487,41743」を入力した４つを追加します。<BR>これを設定していない場合、他人から自分の動きが見えない、<BR>ボス戦に参加できないほどの問題が生じます。<BR><BR>４．『ＧＣの設定』<BR>ユーザーのプロパイダ設定を行います。<BR>電話番号に外付けモデムに接続しているアナログポートへの<BR>内線番号である「#*3」を入力。<BR>これは使用しているＴＡによって違うので説明書で確認してください。<BR>機種によっては内線番号の前に「!」を入力し、フッキング操作が必要です。<BR>次に進み、ＩＰルータのＲＡＳサーバ設定で登録したＩＤとパスワードを入力。<BR>さらに、ＤＮＳとＰｒｏｘｙを設定します。ＤＮＳはＩＰルータに設定してる<BR>プロパイダのものを入力してください。（例はダミー）<BR>次に進み、現在使用しているプロパイダのメールアカウントなどを設定します。<BR>必要があればProxyも入力。<BR><BR>５．『接続』<BR>「ＰＳＯ」につなぐ前にブラウザで接続確認をしましょう。<BR>ただし、セガ系のＵＲＬはＤＮＳを使用せずにアクセスするらしく<BR>テスト向きではないため、それ以外のＵＲＬを開きます。<BR>問題がなければＰＳＯに接続し、多人数プレイが出来れば成功です。<BR><BR>以上、Bbaで快適に遊ぶ説明を終わります。<BR>皆様、ちゃんと出来ましたか？</td></tr>
+</table>
+</p>
+<p>
+<form action="submit.cgi" method="post" >
+メッセージ ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual">
+</textarea><BR>
+
+<input type="hidden" name="title" value="Re:フレッツＩＳＤＮで常時接続をしてＰＳＯを楽しもう！！">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="pg" value="21">
+<input type="hidden" name="id" value="ogkosv">
+<input type="hidden" name="id2" value="ogkosv">
+<input type="hidden" name="dir" value="gcfree">
+</p>
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+<input type="hidden" name="c" value="APPEND">
+<p>
+<input type="submit" value="APPEND"> 書き込み 
+
+</p>
+</form>

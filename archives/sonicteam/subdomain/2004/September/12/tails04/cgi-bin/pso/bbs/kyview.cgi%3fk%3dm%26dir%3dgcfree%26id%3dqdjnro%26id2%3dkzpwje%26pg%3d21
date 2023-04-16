@@ -1,0 +1,155 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/21/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="gcfree">
+<input type="hidden" name="id" value="qdjnro">
+<input type="hidden" name="id2" value="kzpwje">
+<input type="hidden" name="pg" value="21">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >一つアドバイスでも
+
+&gt; ・甲府CATV（前に弟が契約してたのでサービスエリアなのは確実ですが、まだPSO対応か調べがついてないです）
+&gt; 
+&gt; ・ヤフーBB（隣の友達が入ってるから確実に基礎環境ととのってます）
+&gt; 
+&gt; ・現在契約中のSo-netでADSL環境に乗りかえ（可能ならプロバ変更しなくてすむ筈）←これはフレッツADSLに入る、ってことになるらしい。
+
+CATV系は接続するハードの分だけIPアドレスを取得しなければならないものが多い。
+もちろんタダではない。だいたいIPアドレスを１つ追加するのに、月額千円アップすると思った方がよい。
+貴方のハード環境なら、２つ追加することになり毎月二千円アップになる。
+次にYahoo!BB。私もYahoo!がサービス開始直後にすぐ申し込んだ過去がある。
+しかし、３ヶ月以上の放置プレイを受けるハメになる。耐えきれずキャンセルしたが、ここからが地獄の始まりだった。
+ADSLの工事というのは、ある業者がNTT収容局に対して工事申請している間は他の業者が工事できることはない。
+私の場合、キャンセルしてからYahoo!が工事申請を取り下げるまで、さらに２ヶ月も放置されることになった。
+もちろんその期間は常時接続などではなく、通常のダイヤルアップによる接続となり、電話料金の請求が恐ろしいものになった。
+このようにYahoo!BBは全般的にサポート業務がかなり悪い印象を受ける。
+すると残った一番最後のSo-netが良いのではないだろうか？
+ただし、NTTが提供するフレッツADSLではなく、Accaが提供するADSL回線サービスを選択した方が良いと思われる。
+もう一つ理由があるが、それは後述することとする。
+
+
+&gt; 接続予定ハードは
+&gt; ・パソコン（NEC LaVie LC600J/3、Win98SE)
+&gt; ・GC
+&gt; ・DC(現在故障中ですが^^; 年末の再販BBA待機中）
+&gt; 
+&gt; この条件だとルーター購入必須？
+&gt; ぬう、結局初期費用（手続きやら工事やら周辺機器代）は現状いくら&gt; ぐらいなのであろうか。
+
+上でAccaを選ぶ方が良いと言った理由はここにある。
+AccaのADSLサービスではルータタイプのADSLモデムをレンタルしている。
+NTTのフレッツではルータは購入となるので出費が痛いところだ。
+どちらにせよ、４つ以上のポートをもつHUBは購入することになると思う。あとCAT5のストレートケーブル４本も。だいたい五、六千円。
+
+
+&gt; 初心者なのでなるべく接続が簡単に済む方がいいなあ、と（弱気）。
+
+接続の難易度はどの選択をしても同じようなものになるだろう。
+
+
+&gt; あと、回線名義人は同居の親のものだったりするし、自分は昼間仕事で家にいないし。
+&gt; 料金の払い込みでADSLの分だけ自分の負担にできるのか、まとめて払うのか、とか。
+
+私も回線名義人は親だった。よって、プロバイダのホームページから必要事項を記入して申し込むだけで問題ない。
+申し込み者と回線名義人は別でも構わない。ただ、同じ住所に居住していないとややこしい確認が必要になるかもしれない。
+NTT収容局内の工事料金は、次月のNTTの電話料金請求に含まれることになる。
+プロバイダの初期費用は、申し込み時に登録したクレジットカードから引き落とされることになる。
+
+
+&gt; 工事や手続きに時間がかかったりした場合、その間の通常の回線使用はどうなるのだろうとか。
+
+特に問題なく今のまま使えるはずだ。ただしNTT局内工事の終わると使用不能となるので、すぐにADSLモデムやルータの設定をし接続を確認する必要がある。
+
+
+&gt; 手続きを迅速に済ませるコツみたいなものはあるのかなあ、とか。
+
+AccaのADSLだと、NTTへの工事申請なども含めその辺は勝手にやってくれる。
+NTTのフレッツADSLだと、NTTへの回線種別の変更手続きとプロバイダの変更届（or 新規申し込み）は別々に行い、ある程度自分で調整することになる。
+
+
+&gt; 現状借りてるジオシティーズの自分HPとの兼ね合い（更新作業に問題はないのか）とか。
+
+場合によってはせいぜい２、３日程度更新出来ないぐらいだろう。その間にも更新したいというのなら友達の家にでも行くとか。
+
+
+&gt; ADSL知識そのものより、導入で自分のネット環境がややこしく変化したらどうしよう、みたいな不安を抱えてます。
+
+自分も最初はそうだった。けど百聞は一見に如かず。習うより慣れろということで。
+今や自宅はLANケーブルが縦横無尽に張り巡らされている始末。
+いつのまにやらPCでホームページ表示させつつ、GCでPSOをプレイ。弟は隣でストリーミング映画を見、親父はインターネットラジオを聞いている。
+もう当たり前のようになり、コレなしでは生活に支障が出るレベルに達している。</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

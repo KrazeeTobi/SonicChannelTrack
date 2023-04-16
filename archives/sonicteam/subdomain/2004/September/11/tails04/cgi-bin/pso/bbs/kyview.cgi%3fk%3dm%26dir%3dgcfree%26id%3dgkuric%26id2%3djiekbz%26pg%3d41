@@ -1,0 +1,123 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/41/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="gcfree">
+<input type="hidden" name="id" value="gkuric">
+<input type="hidden" name="id2" value="jiekbz">
+<input type="hidden" name="pg" value="41">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >そのあおめ屋です。
+
+＞一番したの、あおめ様のスレにも書かないのは何故ですか？
+
+私はＤＣ版で１年１０ヶ月（約１００回）ほど告知をしていますが、
+確かに注意などはほとんどありませんでした。
+（ただ、アイテム店をずっとやっている身としては、
+そういう意見は多少はあったほうがよかったりもします。
+（店の運営改善という意味でも））
+
+恐らくそのような注意が書かれない理由は、
+これまでＤＣ版などで「アイテム店という遊び方
+（アイテム販売がメイン目的ではなく
+アイテム店運営や店員を演じる事が目的の店）」
+が認知されているからだと思います。
+
+
+
+ちょっとアイテム店についての補足説明を
+（特にＧＣ版からの始めた方へ）
+
+○ＰＳＯでの「アイテム店」
+
+実は、アイテム商人というのはＤＣ版のトライアル版の頃から
+存在していて、雑誌のインタビュー（ファミ通ＤＣ2001年1月5・19日
+合併号特別付録「トップハンター入門への手引き」）で中氏が
+オンラインの遊び方の１つとして語っています。
+ちなみにあおめ屋はそれをヒントに始めました。
+
+また、ＰＣ版ではアイテム店が雑誌（ログイン）にて
+紹介もされています。
+
+
+○公式フリーＢＢＳでのアイテム店告知が消されないのはなぜ？
+
+削除されない「アイテム店」は単なる配布のような所とは違い
+「アイテム店という遊び方」としてやっている所がほとんどです。
+本当に告知内容に問題があるものはちゃんと削除されます。
+（実際そういう例はありました）
+</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

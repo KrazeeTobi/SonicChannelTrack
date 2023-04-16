@@ -1,0 +1,110 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOEP3』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1g.png" bgcolor="#003333" text="#FFFFFF" link="#99FF99" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/c/crfree/3/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="crfree">
+<input type="hidden" name="id" value="jwncdc">
+<input type="hidden" name="id2" value="jmmrte">
+<input type="hidden" name="pg" value="3">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >『大会の実施方法、試合のルールについて』
+
+【大会の実施方法について】
+・まず、参加希望者は指定した時間（曜日/時間)に指定した場所（ship/block/lobby)に行き
+　大会実行委員（つまり私）にギルドカードを渡して下さい。
+
+・ギルドカードが参加枠に達し次第、
+　こちら側でトーナメントの組み合わせを（ランダムに）決めさせていただきます。
+（参加希望者が定員を越えた場合、抽選となりますので、予めご了承ください。）
+
+・トーナメントの組み合わせを大会実行委員が発表しますので、
+　対戦者2名は部屋を作り、対戦して下さい。
+
+・試合が終わったなら、負けた方が大会実行委員に試合結果を報告してください。
+
+・1回戦が終わったなら、同じ要領で2回戦、決勝戦と進めていきます。
+
+・最後に勝ち進んだ方が、そのトーナメントの優勝者となります。
+
+【試合の形式について】
+・参加枠８人のシングルマッチ
+・対戦場所は大会毎にこちら側で指定します
+・試合のルールはデフォルト
+・試合中の回線落ちは、実行委員に報告
+（試合の続行については状況によりこちらで判断します）
+
+--------------------------------------------------------------------
+※試合の観戦について
+・観戦は、対戦者２名が許可するなら可（部屋を作る際に各自で指定して下さい）
+・試合を控えている参加者の方は、自分の試合が全て終了するまで観戦を禁止します。
+
+※参加資格について
+・予選大会で一度優勝された方は、以後の予選大会には参加できません。
+・予選のための各大会は一人につき２回まで参加できますが、参加希望者が定員を越えた場合、
+初参加の方を優先させていただきますので、予めご了承下さい。</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

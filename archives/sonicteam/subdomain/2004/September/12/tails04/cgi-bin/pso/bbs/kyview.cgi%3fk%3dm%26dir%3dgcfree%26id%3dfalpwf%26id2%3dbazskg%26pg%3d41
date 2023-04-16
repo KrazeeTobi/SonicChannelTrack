@@ -1,0 +1,139 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/41/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="gcfree">
+<input type="hidden" name="id" value="falpwf">
+<input type="hidden" name="id2" value="bazskg">
+<input type="hidden" name="pg" value="41">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >JUNKさんの場合はクロスケーブルになりますね。
+
+Ether(LANのことです)は通常「端末⇔周辺機器」を想定しています。
+で、通常はストレートケーブルです。
+イレギュラーなことをするときはクロスケーブルです。
+
+簡単な見分け方(?)としては・・・
+「端末⇔周辺機器」　→　ストレートです。
+「端末⇔端末」や「周辺機器⇔周辺機器」　→　クロスケーブルです。
+と考えるといいかと。
+ただし、「周辺機器⇔周辺機器」の場合、周辺機器に対周辺機器用のポートが付いていることがあり、その時はストレートです。
+例)ADSLモデム⇔ブロードバンドルーター(例外あり)　→　ストレート
+例)Hubのカスケードポート⇔Hubの通常ポート　→　ストレート
+
+話が脱線したのでもどしますが
+
+JUNKさんの場合は
+パソコン=端末、GC=端末
+∴PC⇔GC　→　クロスケーブル
+
+たとえば、TA(ターミナルアダプター)ではなくISDNルーターの場合はGCを直接つなげられますので。
+ルーター=周辺機器、GC=端末
+∴TAルーター⇔GC　→　ストレートケーブル
+
+とりあえず、難しく考えずにこんな風に覚えると良いかと思います。
+
+(以下、追加)
+ストレート、クロスの話を長く書きすぎて、残り二つの質問に答えるの忘れてしまいました。
+すみませんです～。
+
+&gt;ケーブルはASDN用LANケーブルなのかそれともその他のものなのか？
+現物を見ていないので何とも言えませんが、ADSL用のケーブルとして販売されている商品だと、たぶん10BASE-Tのストレートケーブルだと思われます。
+で、ストレートなので駄目だと思います。
+使うケーブルは10BASE-T(または100BASE-TX両対応)のクロスケーブルです。
+
+&gt;ケーブルをつなぐにあたりPCで確認しておくべきポートは？
+パソコンにEtherポート(LAN)があるかどうかを確認してください。
+Win98が初めからインストゥールされていた機種だと付いていないかもしれません。
+その場合はEtherカード(LANカード)をPCIポートに付けないといけません。
+10BASE-Tなら、近くの店では1000円以下で売ってました。
+ただし、コンパクトタイプとなると、幅の狭いタイプ(ロープロファイルと呼ばれています)やPCカードタイプ(ノート用の奴です)じゃないと付かないタイプもありますので、パソコンの説明書で確認してみましょう。詳しくはパソコンショップに相談したほうが早いと思います。
+
+(気になったのでさらに追加しました。)
+&gt;モデム＝INSMATEV-30DSU SYNC（内蔵型？外付けではナイ）
+&gt;DSU内蔵ISDNターミナルアダプタ　INSメイトV-30 DSU使用（COMポート1に接続）
+「INSMATEV-30DSU SYNC」=「DSU内蔵ISDNターミナルアダプタ　INSメイトV-30」っす。
+ただ単にWindowsがTAのことをモデムとして処理しているだけです。
+ですので、パソコンには何も内蔵されていないと思います。(認識するためのソフト、ドライバーがインストールされているだけです。)
+てなわけで、ISDN用の機械はシリアルケーブルでつなげている外付けのTAだけです。
+
+--------------------------------------------------
+たのみCOMにGC版のPS/2キーボード変換お願い中です。
+↓出願ページ
+http://www.tanomi.com/metoo/naiyou.html?kid=22634
+↓登録ページ(賛同する方は登録が必要です。)
+http://www.tanomi.com/metoo/user/touroku.html</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>
