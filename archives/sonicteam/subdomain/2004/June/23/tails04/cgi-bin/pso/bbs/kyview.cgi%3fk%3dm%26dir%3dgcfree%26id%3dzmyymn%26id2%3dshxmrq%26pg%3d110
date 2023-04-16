@@ -1,0 +1,105 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/110/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="gcfree">
+<input type="hidden" name="id" value="zmyymn">
+<input type="hidden" name="id2" value="shxmrq">
+<input type="hidden" name="pg" value="110">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >ＰＳＯサーバー利用規約を読んでね。
+1.0でがんばっておられる方々の気持ちはわかります。
+私自身も未だに1.0環境を保持していますから。
+（でも主力はすでに1.1で育成しなおしたものになっていますが。）
+でも、あたしたちはサーバーを利用するに当たって、「ＰＳＯサーバー利用規約」
+を読んでそれを承諾することが必要なんです。
+「まだ読んでない」「は？なにそれ？」という方でオンラインで遊んでおられる方は、本来ならば「論外」といわざるを得ないのですが、
+読んでないなら読んでください。取扱説明書の１００ページ以降に記載
+されていますから。意味がわからなかったら辞書を引くなり周囲の大人の方々に
+聞くなりして理解してください。
+
+これが「契約社会」というもので、自由主義の根幹を成すものです。
+「自由主義」というのは、なんでも好き勝手にやっていいということではなく、
+一定のルールの下で「義務を果たした人間が」ルールのもとに自由に
+人生を謳歌できる主義・社会概念です。
+そしてそのルールが法律であり政令であり契約なのです。
+私たちはこのゲームをオンラインで遊ぶに当たり、この規約でもって
+セガと「契約」したことになっています。
+そして、「契約」した以上はそれを守る「義務」が生じます。
+なぜならそれが、自由主義社会の根幹だからです。
+
+堅苦しい話で申し訳ありませんが、どうかご理解ください。</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

@@ -1,0 +1,82 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/94/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">MAKING APPEND NOTE</font>
+<hr>
+<p>
+<table width="100%" border="0">
+<tr bgcolor="#004080"><td width="100%"><strong>元の発言</strong></td>
+<td align="right" width="1%" nowrap> <br></td></tr>
+<tr bgcolor="#004080"><td colspan="2"><strong>りゃん</strong>  <i> 2003/06/27</i>  </td></tr>
+<tr bgcolor="#000040"><td colspan="2">それは子機(追加＋２）<BR><BR>有線でも使える状況だったのですね。<BR>無線は設定が難しいですし、有線でも納得できるなら<BR>良かったですね。<BR>子機があるなら無線化するのにプロバイダ変更や追加機器は<BR>要らない筈ですけれど。（このツリーの別発言に書きました）<BR><BR>以下追加１回目--------<BR>エアステーションもトリオモデムも無線のルータが内蔵されて<BR>います。通信規格も子機とモデム内蔵ルータは同じようです。<BR><BR>「無線子機がログオンできない」という意味がよく分からない<BR>のですが、子機にＰＣでログオンできないということでしたら<BR>ＰＣと子機を有線で繋いで下さい。<BR><BR>モデム&lt;---無線---&gt;子機&lt;===有線===&gt;ＰＣ<BR>この状態でネットアクセスできるように子機を設定します。<BR>当然、その間ＰＣの無線カードは外しておきます。<BR>子機側の設定は説明書に従って下さい。<BR><BR>どうしてもモデムと繋がらない場合はメーカーに問い合わせて<BR>ＹＢＢモデムと繋ぐ設定方法を聞くのが早いと思います。<BR>ＰＣから子機を介してモデムに繋ぐ方法を尋ねるのなら、<BR>サポート範囲内だと思います。<BR>繋がるまでかなり時間が掛かると思いますが。<BR><BR>また、前のツリーでkenshouさんが示して下さったＵＲＬ<BR><a href="http://faq.planex.co.jp/fQA.php?qid=4901" target="_blank">http://faq.planex.co.jp/fQA.php?qid=4901</a><BR>が参考になると思います。PCとIPが重複しないように注意して<BR>設定すれば、不足している情報はないと思います。<BR>＜kenshouさんの示したURLの再掲示を追加＞<BR><BR>以下原文--------<BR>WLI-T1-S11Gは無線子機です。恐らくそれが最善策でしょう。<BR>ルータ機能はトリオモデムに内蔵されています。<BR><a href="http://bb.watch.impress.co.jp/news/2002/10/01/ybbtm.htm" target="_blank">http://bb.watch.impress.co.jp/news/2002/10/01/ybbtm.htm</a><BR>ですからResta@BRさんの書かれている方法がベストでしょうね。<BR>どちらも同時に使えますし。便利なものが出てきたなぁ‥。<BR><BR>一時的にＰＣを繋いで設定をする必要はありますが、<BR>WLI-T1-S11Gとトリオモデムの接続をＰＣで確認できれば、<BR>あとはＧＣの設定だけでめでたくオンラインに行けますね。<BR><BR>＜書き忘れたので以下追加＞<BR>プロクシサーバは簡単に書くと中継サーバのことです。<BR>通常、空欄になりますし、今回のケースでも空欄にして<BR>使用することになると思います。<BR><BR>また、ＰＣを介して繋ぐ方法がうまくいかないのなら、<BR>プロクシ記入以外の何かの不備があるのだと思われます。<BR>ＰＣ側のLANポートのアドレスがＧＣ側の「デフォルトルータ」<BR>ＧＣ側のIPアドレスはＰＣ側のIPアドレスと違う数字<BR>たとえば192.168.0.1がＰＣ側なら192.168.0.xxxを指定します。<BR>４つ目の数字以外は同じ、４つ目は別の数字です。<BR>サブネットマスクは255.255.255.0でＯＫ。<BR>他に、DNSサーバアドレスはプロバイダのものを入力するので、<BR>PCがXp/2000ならコマンドプロンプトから"ipconfig /all"<BR>98SE/MeならMS-DOSプロンプトから"winipcfg"と入力して<BR>ＤＮＳサーバのアドレスを探し出して入力します。<BR>（セカンダリＤＮＳは空でも問題ありません）<BR><BR>当然ですが、無線ＬＡＮを接続共有していなければ使えません。<BR>Windows2000以外なら若干簡単でしょう。<BR>ＧＣとＰＣの間はクロスケーブルが必要です。<BR>ＰＣを点けないと繋がらない方法ではありますが、<BR>先にこの辺の設定を確認してみるのも手でしょう。<BR>（無線で独立接続は快適でしょうけれど）</td></tr>
+</table>
+</p>
+<p>
+<form action="submit.cgi" method="post" >
+メッセージ ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual">
+</textarea><BR>
+
+<input type="hidden" name="title" value="Re:それは子機(追加＋２）">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="pg" value="94">
+<input type="hidden" name="id" value="ujtusk">
+<input type="hidden" name="id2" value="pohpny">
+<input type="hidden" name="dir" value="gcfree">
+</p>
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+<input type="hidden" name="c" value="APPEND">
+<p>
+<input type="submit" value="APPEND"> 書き込み 
+
+</p>
+</form>

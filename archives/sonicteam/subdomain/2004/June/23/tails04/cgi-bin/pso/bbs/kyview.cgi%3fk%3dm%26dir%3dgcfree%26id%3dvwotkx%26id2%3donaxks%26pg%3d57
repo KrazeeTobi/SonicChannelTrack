@@ -1,0 +1,113 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/57/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="gcfree">
+<input type="hidden" name="id" value="vwotkx">
+<input type="hidden" name="id2" value="onaxks">
+<input type="hidden" name="pg" value="57">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >うーん、気持ちは分かるけど
+
+一方で「移動することのリスク」についても考えてみないとね。
+ここでは詳しくかかないけれど、例えば合流の混乱とかがある。
+チャレロビで移動が徹底されないことの理由を、利用者の意識が
+低いとかの次元に押し込めてしまうと問題が見えない。
+ただ面倒くさいからだけではこれだけの数の人間がそのルールを
+採用したがらないことを納得することはできないよ。
+
+また、回線が太くて安定していて
+「落ちない」「ラグらない」
+あるいは、
+「落ちても困らない（C6までクリア済みだし）」
+「ラグるのもまたおもしろい（事実）」
+と思っている人が多数いる中で、他に特別の理由もなしにわざわざ
+他人に移動を求めることはなかなかしにくいといったこともある。
+さらに言えば移行とイベント騒ぎの影響からか100人も集まりは
+しない今のチャレロビに対して、しつこく移動の徹底を要求する
+公式村に付き合うのは心底馬鹿らしいという気持ちもあるだろうね。
+
+埴輪マスターさんは移動することがマナーにかなうといっている
+けれど、そのマナーは残念ながらチャレロビの内から出たものとは
+言えない。マナーはあくまで外に対するリアクションとして出現
+したものであって、DC版ではいざ知らずあらかじめの宣言の下に、
+新設サーバにうち立てられたGCv1.1ロビーにおいてまで、旧弊を
+守り続けることに果たして意味はあるんだろうかね？
+
+（まとめてしまえば必要な人は移動すれば良いし、そうでなければ
+勝手にすれば良いというのが個人的な意見。落ちるにしろ何にしろ
+そこでチャレを楽しむという選択をした人間がそのリスクを負うわけだからね）</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

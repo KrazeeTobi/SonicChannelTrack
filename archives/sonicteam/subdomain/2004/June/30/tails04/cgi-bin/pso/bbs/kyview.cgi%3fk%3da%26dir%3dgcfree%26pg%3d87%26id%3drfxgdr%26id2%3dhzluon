@@ -1,0 +1,82 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/87/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">MAKING APPEND NOTE</font>
+<hr>
+<p>
+<table width="100%" border="0">
+<tr bgcolor="#004080"><td width="100%"><strong>元の発言</strong></td>
+<td align="right" width="1%" nowrap> <br></td></tr>
+<tr bgcolor="#004080"><td colspan="2"><strong>kenshou</strong>  <i> 2003/05/09</i>  </td></tr>
+<tr bgcolor="#000040"><td colspan="2">[長文注意]UDP使用は４人揃う必要はありません<BR><BR>UDP使える設定なら２人からUDPは使用されます<BR>＃　一人では相手がないのでUDP使わない<BR><BR>状況から推測すると<BR>・「いびろぶ」さん：ルータを適切に設定せず「UDP使用する」<BR>・相手：「UDP使用する」<BR>だった様なので、「いびろぶ」さんがルータを適切に設定すればOK<BR>＃　GCをDMZに設定してやるのがお手軽<BR>＃　UDP自動(=使用しない)にしてしまうのが手っ取り早いですが・・・<BR><BR>ついでなので、以前PSO公式フリーBBSに書いたののコピペ<BR><BR>部屋全員がUDP使えないと意味ありませんが<BR><BR># 設定ミスると<BR>#「自分には周りが動かない」=メンバーのUDPが自分に届いていない<BR>#「周りには自分が動かない」=自分のUDPがメンバーに届いていない<BR># てことになりますし<BR><BR>以前チェックした限りでは、GC版もDC版同様<BR><BR>・モデム使用時は[UDP自動]=[UDP ON]<BR>・ＢＢＡ使用時は[UDP自動]=[UDP OFF]<BR><BR>・部屋の参加者全員が[UDP ON]の場合、UDPが使用される<BR><BR># GC版のPPPoEの場合チェックするの忘れてるや<BR><BR>例えば、部屋に、A,B,C,Dの４人が居る場合<BR><BR>UDP未使用時：Aが歩いた情報＞PSOサーバ＞B,C,D<BR>UDP使用時　：Aが歩いた情報　　　＞　　 B,C,D<BR><BR>の様になります<BR><BR>PSOサーバを介さないので、UDP使用時の方が通信量が減ります<BR><BR>移動情報はデータ量そのものは小さいのですが、<BR>一歩歩くと情報が流れるので、情報の頻度は大変多いです<BR><BR>A,B,C,D間の通信が安定していれば、<BR>・位置情報の伝達に掛かるコストが減るので、通信自体の負担が減る<BR># (確か)ワープ時などにはTCPで位置情報をやり取りします<BR><BR>A,B,C,D間の通信が安定してなくても、<BR>・PSOサーバとの通信が減るので、PSOサーバはうれしい<BR><BR>なので、PSOサーバの負担を減らす為にもUDPを使いましょう<BR><BR># 実際には[UDP OFF]の場合はTCP使うので、さらに、確認情報が必要<BR># つまり<BR># A－[Aが歩いた情報]－＞PSOサーバ<BR># PSOサーバ－[情報到達の返事]－＞A<BR># PSOサーバ－[Aが歩いた情報]－＞B,C,D<BR># B,C,D－[情報到達の返事]－＞PSOサーバ<BR># というわけで、倍以上の通信が必要になります<BR><BR>追記<BR>UDPを使用すると部屋参加者のIPアドレスが判明します<BR>だからどうってことでもないけど</td></tr>
+</table>
+</p>
+<p>
+<form action="submit.cgi" method="post" >
+メッセージ ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual">
+</textarea><BR>
+
+<input type="hidden" name="title" value="Re:[長文注意]UDP使用は４人揃う必要はありませ...">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="pg" value="87">
+<input type="hidden" name="id" value="rfxgdr">
+<input type="hidden" name="id2" value="hzluon">
+<input type="hidden" name="dir" value="gcfree">
+</p>
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+<input type="hidden" name="c" value="APPEND">
+<p>
+<input type="submit" value="APPEND"> 書き込み 
+
+</p>
+</form>

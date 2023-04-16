@@ -1,0 +1,132 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/96/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="gcfree">
+<input type="hidden" name="id" value="pqlkim">
+<input type="hidden" name="id2" value="dvhorl">
+<input type="hidden" name="pg" value="96">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >電池切れで停電とかかな？
+たまたま何かの理由で調整が飛んだだけだと思いますよ。
+
+ひょっとしたらＧＣに"ATZ0;DS=0"と入れただけで使えるかも
+知れませんが、以下はご参考になさって下さいませ。
+コマンドの意味はマニュアルでご確認下さい。
+
+以前購入した同じＴＡを持っていますが、
+ドリームキャストで試していた頃は購入時の設定では正しく
+通信ができず、音量の調整が必要でした。（今は使っていません）
+原因は恐らくＴＡとの「相性」かと思われます。
+少なくともＤＣは「音量調整」で解消されていました。
+
+Ａポートにゲームキューブを繋ぐとした場合、
+"AT$A10=0"とか"AT$A10=2"といったコマンドをPCから
+設定するとアナログＡポートの音量が上下しますが、
+ＤＣはそれが必要でした。
+初期状態では１ですが、０や２に変更するということです。
+どちらで通信できたかは、あいにく今は判りません。
+Windowsパソコンなら“ハイパーターミナル”等を使いますが、
+ポートＡの調整ですからポートＢにパソコンを差して行わないと
+パソコンの通信に問題が発生するかも知れません。
+（"AT$A10=1"を入力すると元に戻ります。）
+
+以前に繋がっていたのが何故なのかは分かりませんが、
+調整が既にされていて、電池が切れたまま停電したとか、
+ＴＡのリセットなどで細かい調整が消えたということも
+考えられますね。
+
+これは、ＧＣに設定してしまうとＴＡが誤動作する可能性が
+ありますので、ＰＣから行ったほうが安全です。
+
+ＧＣをＡポートに差して"AT$A10=2;DS=0"とか"AT$A10=0;DS=0"
+のようにコマンドを入れれば繋がりそうな気もしますが、
+ＧＣのモデムに適用されるのかＴＡに適用されるのかが
+当方では分かりませんので、設定はＰＣから行ったほうが
+安全でしょう。
+ＰＣで打ち損じたときは"ATZ0"で元に戻ります。
+
+TAの設定を変える為にはパソコンの通信ソフトが使えなければ
+いけないので、旦那様にご相談なさるか、ＮＥＣのサポートに
+方法を聞くのが良いと思います。
+その後で10=0で繋がるか10=2で繋がるか確認すれば繋がりますね。
+後でまた設定が消えた場合は再設定が必要かも知れませんので、
+電池を切らさないのも方法の一つでしょう。
+念のため、コマンドはマニュアルで機能を確認して下さい。
+
+調整したポートにＰＣを繋ぐと問題が発生する可能性もあります
+ので、繋ぎ方をお間違えなく。</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

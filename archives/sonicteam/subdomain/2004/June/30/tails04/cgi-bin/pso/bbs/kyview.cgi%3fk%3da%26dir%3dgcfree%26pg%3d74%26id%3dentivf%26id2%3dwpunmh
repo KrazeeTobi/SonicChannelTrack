@@ -1,0 +1,82 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/74/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">MAKING APPEND NOTE</font>
+<hr>
+<p>
+<table width="100%" border="0">
+<tr bgcolor="#004080"><td width="100%"><strong>元の発言</strong></td>
+<td align="right" width="1%" nowrap> <br></td></tr>
+<tr bgcolor="#004080"><td colspan="2"><strong>あさきち</strong>  <i> 2003/03/03</i>  </td></tr>
+<tr bgcolor="#000040"><td colspan="2">CATVによって、以下の作業が必要な場合があります。<BR>・IPアドレスの解放<BR>　GCとPCでLANケーブルをつなぎかえて接続するときに、PCからIPアドレスの開放を行います。<BR>　IPアドレスの開放方法は、<a href="http://www.zaq-net.com/setup/no6/troubl.html#07" target="_blank">http://www.zaq-net.com/setup/no6/troubl.html#07</a>を参照してください。<BR>・MACアドレスの登録<BR>　GC(ブロードバンドアダプタ)のMACアドレスを登録します。<BR>　複数台接続契約の場合、一度MACアドレスを登録すれば、以後設定が必要なくなります。<BR>　1台接続契約の場合、つなぎかえて接続するGCやPCのMACアドレスを毎回登録する必要があります。<BR><BR>PCとGCでLANケーブルをつなぎかえて接続している場合、GCが接続できるようになるには、CATVモデムとDHCPサーバが GCに付け替えられた事を認識する必要があります。<BR>CATVモデムとDHCPサーバが認識するまで時間がかかる場合、CATVモデムの電源を入れ直すとすぐCATVモデムとDHCPサーバが認識しGCが接続できます。 <BR><BR>GCで設定する項目<BR>　・IPアドレスを自動取得する(DHCP)【ほとんどのCATV】<BR>　　１．DNSサーバアドレス[自動(※)]<BR>　　２．DHCP用ホスト名[なし(※)]<BR>　　３．プロキシサーバアドレス、ポート番号[なし(※)]<BR>　　※・・・各項目CATVから指定があれば入力します。<BR><BR>　・IPアドレスを自動取得せずに自分で設定する【一部のCATV】<BR>　　１．IPアドレス[CATV指定]<BR>　　２．サブネットマスク[CATV指定]<BR>　　３．デフォルトルータ(デフォルトゲートウェイ)[CATV指定]<BR>　　４．プライマリDNS[CATV指定]、セカンダリDNS[なし(※1)]<BR>　　５．プロキシサーバアドレス、ポート番号[なし(※1)]<BR>　　※１・・・各項目CATVから指定があれば入力します。<BR></td></tr>
+</table>
+</p>
+<p>
+<form action="submit.cgi" method="post" >
+メッセージ ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual">
+</textarea><BR>
+
+<input type="hidden" name="title" value="Re:CATVによって、以下の作業が必要な場合があ...">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="pg" value="74">
+<input type="hidden" name="id" value="entivf">
+<input type="hidden" name="id2" value="wpunmh">
+<input type="hidden" name="dir" value="gcfree">
+</p>
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+<input type="hidden" name="c" value="APPEND">
+<p>
+<input type="submit" value="APPEND"> 書き込み 
+
+</p>
+</form>
