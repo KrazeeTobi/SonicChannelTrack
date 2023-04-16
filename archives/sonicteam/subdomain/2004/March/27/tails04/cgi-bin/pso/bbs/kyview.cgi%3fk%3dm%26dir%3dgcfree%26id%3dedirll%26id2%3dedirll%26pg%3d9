@@ -1,0 +1,107 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/9/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="gcfree">
+<input type="hidden" name="id" value="edirll">
+<input type="hidden" name="id2" value="edirll">
+<input type="hidden" name="pg" value="9">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >まず、データ引継には賛成派です
+もともと人から高価なアイテム貰ってのプレイが好きではないので修正版については
+「今後増殖が出来なくなる」
+だけで良いと思います。
+
+哀しいことですがどうせ修正版が出ても何らかの方法でチートやデュプリする悪意あるユーザーは少なからず居ると思います
+むしろデータリセットした方がそういうユーザーがよけいに幅を利かせるのではないかと危惧してます
+
+で、本題に入りますがここの発言の中でよく「平等」「不平等」って出てきますがそんなに平等が大事ですか？
+もともとプレイできる時間やオンラインの接続方法によって「不平等」は存在してると思いますが？
+極端ですが例えば無職の人が１日１２時間プレイするのと会社勤めの人が１日に１～２時間しかできなかったり
+BBA待ちの人でも周りにプレイヤーがいればオフマルチでアイテムの交換等によって一人でオフやってる人に比べて有利だと思います
+だからといって平等にならないからやめろとは全く思いませんし
+人に迷惑かけないならば自分が楽しいようにやればよいって思いますね
+
+文才無いから上手くまとめれませんが結局は『「不平等」は普通当たり前なことではないか？』
+ってことを言いたかったので・・・
+
+↓レス追加
+「今後出来なくなる」ってだけでも相当変わると思うんですがね・・・
+年末前に修正が間に合えばクリスマスやお年玉でPSO＆GC買おうと思ってる
+小中学生あるいは高校生なんかもかなり居るかと思いますし
+小中学生でネットゲーム初めてなら増殖技は凄い裏技感覚で悪気なしで使ってしまうと思いますので
+そういうことが防げるだけでもかなり違うと思いません？</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>
