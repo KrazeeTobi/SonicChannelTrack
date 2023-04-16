@@ -1,0 +1,146 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/22/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="gcfree">
+<input type="hidden" name="id" value="gtlodf">
+<input type="hidden" name="id2" value="gtlodf">
+<input type="hidden" name="pg" value="22">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >先日キーボードを買い、改めてPSOの説明書を読んだら今回のロビーアクションっていっぱいあるんですねぇ。
+おもわず感動してオンにつないで一人でアクションしまくっていました。（周りにいた人、変なやつだと思ったろうなぁ…）
+
+んで一覧表なんぞを作ってみたので載せさせていただきます。
+
+F1・・・ずっこけ
+F2・・・なにっ!?
+F3・・・スイッチ点火
+F4・・・がってんでい！
+F5・・・攻撃モーション①
+F6・・・攻撃モーション②
+F7・・・攻撃モーション③
+F8・・・攻撃モーション④
+F9・・・攻撃モーション⑤
+F10・・・攻撃モーション⑥
+F11・・・攻撃モーション⑦
+F12・・・攻撃モーション⑧
+
+1・・・バック転
+2・・・バック宙
+3・・・側転
+4・・・前転
+5・・・構え
+6・・・決めポーズ！①
+7・・・決めポーズ！②
+8・・・決めポーズ！③
+9・・・決めポーズ！④
+0・・・決めポーズ！⑤
+
+Q・・・はぁ？
+W・・・やったぜ！
+E・・・ムッカー!!
+R・・・拍手
+T・・・投げキッス
+Y・・・回ってイェイ！
+U・・・椅子出現①
+I・・・椅子出現②
+O・・・いいか！
+P・・・踊り①
+
+A・・・踊り②
+S・・・感謝
+D・・・押忍！
+F・・・敬礼！
+G・・・紳士の挨拶
+H・・・よっ！
+J・・・マンモスウレピー！
+K・・・おお神よ…
+L・・・う～ん…
+
+Z・・・決めポーズ！⑥
+X・・・決めポーズ！⑦
+C・・・カモンカモン
+V・・・決めポーズ！⑧
+B・・・おおーい！
+N・・・ちゃうねん
+M・・・やられた～
+
+ちょっと見にくいかもしれませんが、キーボード配列でわけてあります。
+ポーズ名は勝手につけたので内容がわからないかもしれませんが、このポーズは名が違うだろ！っていうご指摘、お待ちしてます。
+皆さんのお役に立てたら幸いです。
+
+個人的にはTやGなんかがお気にです。</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

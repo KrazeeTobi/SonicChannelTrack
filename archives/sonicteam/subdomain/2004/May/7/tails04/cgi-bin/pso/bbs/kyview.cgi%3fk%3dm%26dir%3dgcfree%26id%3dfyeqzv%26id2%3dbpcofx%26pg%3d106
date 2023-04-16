@@ -1,0 +1,167 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/106/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="gcfree">
+<input type="hidden" name="id" value="fyeqzv">
+<input type="hidden" name="id2" value="bpcofx">
+<input type="hidden" name="pg" value="106">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >試してみるとすれば
+
+・PSOの設定
+PSOのオプション→ネットワーク設定でUDPを使用しないの設定をする。
+
+場合によってはこれだけでもそれなりに改善します。
+#現状で戦闘中に頻繁にワープする場合など。
+
+
+・ルーターの設定
+
+マニュアルは
+http://www.elecom.co.jp/support/manual/network/laneed_products/pdf/router/LD-BBR4L3.pdf
+を参考にしましたが
+
+１．特殊アプリケーション機能を使う(P41)
+
+ここの「メジャーなアプリケーション」にＧＣ版ＰＳＯが入っていれば楽
+なんですが、そうでないとなると私もこのマニュアルちらっとみただけでは
+どう設定していいかわかりませんでした。
+
+ＵＤＰを使用しない設定ならば、ＴＣＰの９０００番から１００００番の
+ポートを開けるんですが…
+どう記述すればいいのか＾＾；；；；
+
+
+２.ＤＭＺ機能を使用する(P45)
+
+セキュリティ上は激しく問題あるんですが…
+これでなおるケースも多いです。
+（上記の特殊アプリケーション機能は、ＤＭＺ機能を限定して、問題を
+　最小限にしようとしたもの）
+
+実質的にルーター側でＧＣのＩＰアドレスを固定する方法(P44)が
+必要になってきます。
+
+
+
+ルーターの設定となると「ＩＰアドレスとはなんぞや？」みたいなとこから
+始まってしまいますので、なんだかんだで勉強が必要になってしまいます。
+そこまでくると掲示板で説明できるようなシンプルな話では無くなって
+しまうかもしれません。
+
+
+(追加)
+to:kenshouさん
+
+特にGC版でなんですが、あのUDP自動/使用する/使用しないが、妙に信用無い
+気がします。
+
+説明文章通りの動作…じゃない??って感じで。
+自動に設定していた頃、何度か誤設定時と同じ状況に陥った事があります。
+
+素直にルーター使用するなら「使用しない」の方が問題ないかなと思います。
+
+
+
+とりあえず同様の状況(切断多々)だった友人に勧めて、一応の効果があった
+ワンセットの手順だったんで紹介した感じです。
+
+#検証してるわけじゃないんで明確な切り分けはしてません。
+
+
+
+to:シノさん
+
+ＤＭＺって一応ネットワーク用語ではありますが、語源は「非武装地域」って
+意味です。
+
+ルーターってのはいろいろとセキュリティ機能がある訳なんですが、それを
+全て無視した丸裸と同じような状況にする…ってのがＤＭＺ設定。
+
+よくセキュリティホール（安全対策の穴）って表現をしますが、穴どころか
+一切防御しない丸裸になる…って状況な訳です。
+
+一応ネットワークの技術をかじった身としては、そうしなければならない
+特別な理由でもない限りできるだけ勧めたくない手法ってトコです。
+
+なお普通はＤＭＺ設定をしてパソコンの方に問題が出るということは
+滅多にありません。
+
+が、ネットワークのプログラムってのは絶対が無いってほどいろいろな
+事がありますので、保証はおそらくこの世の誰もできない…
+って感じです。</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>
