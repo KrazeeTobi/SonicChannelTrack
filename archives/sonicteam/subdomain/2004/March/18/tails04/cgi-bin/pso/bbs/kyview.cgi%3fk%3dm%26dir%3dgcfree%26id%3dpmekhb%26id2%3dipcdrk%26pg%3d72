@@ -1,0 +1,180 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/72/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="gcfree">
+<input type="hidden" name="id" value="pmekhb">
+<input type="hidden" name="id2" value="ipcdrk">
+<input type="hidden" name="pg" value="72">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >話がズレていたので修正。
+
+「これを読んだ人だけでも」という事ですが、
+僕はあまり希望は持てません。
+
+もちろん、何もやらなければ何も変わらないです。
+しかし、やったからといって必ず変わるわけでもありません。
+過去にも同じように「これを読んだ人だけでも」という事から
+有志が実際にやってみるという事がありましたが、
+結果的には変わっていません。
+そういう経験的なところから、直感的に、
+それだけでは難しいのでは？と感じました。
+
+今回は、データ破損に至る可能性がある、
+という事が提示されている点が今までの呼びかけとは違いますが、
+それで呼応する人が多くなるかというと、疑問に思ってしまいます。
+
+フリーズしてデータ破損をする危険があるという事は
+かなり広まっていると思います。
+それでも無理にでもブロックに入ろうとする事を考えると、
+データ破損は「対岸の火事」と考えている人が
+多いのかもしれません。
+（自分は事故に合わない、と思うのと同じ）
+そうだとすると、
+データ破損するかもしれないという事から分散を呼びかけても、
+なかなか呼応してはもらえないのではないか？と。
+また、仮に分散しても、データ破損の問題が修正されたら、
+元のようにプレイヤーが集中するかもしれません。
+
+ただ、やはりやってみない事には何も変わりませんし、
+それに、この予想は外れてくれた方がうれしいです。
+でも、あまり成功する気がしない。
+そのあたりがジレンマです。
+
+（以下は修正前の発言です）
+-------------------------------------------------------
+&lt;font size=-1&gt;実際問題としては
+呼びかけだけでは機能しないと思います。
+DCの頃から色々なパターンでのブロック分けや
+メンバーがそろった後の移動が呼びかけられてきましたが、
+まともに機能した例はありません。
+チャレンジ用に掲示板を設置された方がいましたが、
+（http://freebbs.around.ne.jp/article/c/challe/index.html）
+これもまったく機能していません。
+
+ひとつのブロックに人が集まるのは、
+人が集中するため探している相手が見つかりやすく、
+しかもその場でチャレンジを始めれる、と、
+非常で手軽であることが最大のメリットだと思います。
+また、状況が「どこそこのロビーに人が集まっている」
+という以上の事ではないので、広まりやすく定着しやすいです。
+
+対して、ブロック分けや移動は、
+単純な形ではありますが、ひとつの「システム」ですから、
+システムとしてきちんと機能するために、
+参加している人の大半が知っていて、それに従う事が必要です。
+
+しかし、誰もがこのBBSを見ているわけではないので、
+（むしろ見ている人の方が少ないという話も多い）
+参加している人になかなか知れ渡らないです。
+また、提案を知っていたとしても、
+「さぁチャレンジをしようか」と現場に行くと、
+実際には何も変わっていない、ということで、
+たとえ提案に賛成でも、行動に移しにくいでしょう。
+そういう状況であっても行動に出る人もいますが、
+そもそもシステムとして機能していないために
+チャレンジを始める事すら困難になりがちで、
+やがて自然消滅していくことが多いと思います。
+
+仮に、そういったデメリットを乗り越えるような魅力があれば
+口コミなどを通じて少しずつ広まっていくでしょうが、
+現状に満足している人が多いのでは、それも難しいでしょう。
+
+フリーズによるデータ破損につていは、
+「対岸の火事」と思っている人が多いようなので、
+（「自分は事故に合わない」と思うのと同じ）
+やり方を変える動機付けにはならないでしょう。
+誰にでも起きうる事が証明されれば、状況は変わると思いますが。
+
+つまるところ、
+提案が現実に機能するための条件が決定的に足らないと思います。
+提案をするだけではなくて、
+その提案が実行に移されやすい状況を作るためには
+どうすればいいのかも考えなくてはいけないのでは。
+
+※余談
+DC時代からこれだけ何度も問題になっているのですから、
+ソニックチーム側でチャレンジブロック、もしくは
+チャレンジ（＆バトル）シップを用意してくれればなぁ、
+と思います。
+定期的にロビー占有や過剰な人口集中が問題になり、
+その度にさんざんもめたあげく論議に疲れて成り行き任せ、
+という事が繰り返されているわけですから・・・。
+チャレンジ掲示板ができた時には、
+もしやチャレンジの中心的な存在になれるか？と思いましたが、
+うまく行っていないようで・・・。&lt;/font&gt;
+</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

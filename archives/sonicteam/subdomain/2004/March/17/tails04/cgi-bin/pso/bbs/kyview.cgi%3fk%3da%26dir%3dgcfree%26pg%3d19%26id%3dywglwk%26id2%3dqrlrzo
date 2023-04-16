@@ -1,0 +1,82 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/19/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">MAKING APPEND NOTE</font>
+<hr>
+<p>
+<table width="100%" border="0">
+<tr bgcolor="#004080"><td width="100%"><strong>元の発言</strong></td>
+<td align="right" width="1%" nowrap> <br></td></tr>
+<tr bgcolor="#004080"><td colspan="2"><strong>kenshou</strong>  <i> 2002/10/03</i>  </td></tr>
+<tr bgcolor="#000040"><td colspan="2">[☆☆追加]BBAの動作確認方法<BR># 実はDC版の焼き直しだったり(^_^;<BR><BR>Windows 機の場合<BR><BR>PC(Win機)を LAN ケーブルを繋がずに起動する<BR><BR>(MS-DOS)コマンドプロンプトで「ipconfig」か「winipcfg」で <BR>BBA と接続する LAN アダプタの IP アドレスを確認<BR># 大体169.254.???.???<BR># 「インターネット接続の共有」使用時は普通は「192.168.0.1」<BR>その値に±１等して GC に設定する<BR><BR>GCとPCをクロスLANケーブル(かHUBとストレートケーブル２本)で繋ぐ<BR>GCでリンクをクリックするなどして接続動作をさせる<BR>(MS-DOS)コマンドプロンプトで「ping 先程 GC に設定した値」<BR>通れば動作が確認される<BR>(MS-DOS)コマンドプロンプトで「arp -a」<BR>BBA の MAC アドレス(GC側にシールで貼付)が出れば<BR>ちゃんと BbA に ping 出来ているか確認できる<BR><BR>他の OS でもやることは一緒<BR><BR>尚、ケーブルが抜けているとちゃんと警告が出ます<BR><BR>以下、追加分<BR><BR>「クロスLANケーブル」もしくは「HUBとストレートLANケーブル２本」<BR>はありますか？<BR><BR>無ければ、チェックできません<BR><BR>上記のモノがある場合、<BR>LANケーブルを繋がずにWindowsを起動<BR>winipcfgでIPアドレスとサブネットマスクを確認<BR>(IPアドレス:169.254.123.45、サブネットマスク:25.255.0.0とか)<BR>PSOの「オプション」＞「ネットワークの設定」＞「プロバイダ設定」<BR>＞「ユーザプロバイダ」で「はい」。後のも「はい」<BR>「ユ－ザプロバイダ設定」を選択<BR>(この行、任意)「プロバイダ５」を選択して「BBA確認用」と入れる<BR>「接続設定」で２番目の「自分で設定する」を選択<BR>例えば<BR>IPアドレス:169.254.123.46<BR>サブネットマスク:255.255.0.0<BR>デフォルトルータ以下は空欄に<BR><BR>PCとGCを「クロスLANケーブル(か、ストレート２本とHUB)」で接続<BR>HUBを使う場合は両方とも普通のポートに接続します<BR>カスケードとかアップリンクポートでは駄目です<BR><BR>(MS-DOS)コマンドプロンプトで<BR>「ping 169.254.123.46(上記例)」<BR>「Time out」とか出なければ成功<BR><BR>もう一つ確認するなら、同じく「arp -a」<BR>GCに設定したIPの隣に出てきた値と、<BR>BBAのGC側のシールの値を比べて一致すればOK<BR><BR>確認が終わったら、プロバイダ４(自分の設定)に戻すのを忘れずに<BR><BR>更に追加<BR>WinMEは手元にないので<BR>・とりあえずLANケーブルを挿してみる<BR>駄目だったら<BR>「コントロールパネル」＞「ネットワーク」を開く<BR>自分のLANアダプタの「TCP/IP -> なんとか」となっているのを開く<BR>IPアドレスを指定で「192.168.0.1」<BR>サブネットマスクは「255.255.255.0」<BR>GCの方は<BR>IPアドレスを指定で「192.168.0.2」<BR>サブネットマスクは「255.255.255.0」<BR>でLANケーブルで繋いで<BR>「ping 192.168.0.2」<BR><BR>終了後パソコンの設定を戻すのを忘れずに<BR><BR>更に追加<BR><BR>パソコンのアドレスをデフォルトゲートウェイにして下さい</td></tr>
+</table>
+</p>
+<p>
+<form action="submit.cgi" method="post" >
+メッセージ ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual">
+</textarea><BR>
+
+<input type="hidden" name="title" value="Re:[☆☆追加]BBAの動作確認方法">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="pg" value="19">
+<input type="hidden" name="id" value="ywglwk">
+<input type="hidden" name="id2" value="qrlrzo">
+<input type="hidden" name="dir" value="gcfree">
+</p>
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+<input type="hidden" name="c" value="APPEND">
+<p>
+<input type="submit" value="APPEND"> 書き込み 
+
+</p>
+</form>

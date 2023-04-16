@@ -1,0 +1,95 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOEP3トライアル版』専用掲示板</title>
+</head>
+<body background="/pso3/bbs/img/pso_bk1.png" bgcolor="#003333" text="#FFFFFF" link="#99FF99" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso3/bbs/t/trial/6/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#ffffff">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="trial">
+<input type="hidden" name="id" value="lnrhpc">
+<input type="hidden" name="id2" value="kqypfy">
+<input type="hidden" name="pg" value="6">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#ffffff">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >今更ですが
+
+
+貴方もかかれていますが企業方針、納期等の事情はかなり重要です、ユーザーも大事ですが計画が倒れてしまってはどうにもなりません
+ディスクを焼いた後、発送するまでにバグがわかった可能性もあります
+また、ユーザーには製品が嫌なのであれば買わないという選択をする事権利もあります
+情報を正しく理解して購入するかどうかを決めるのはユーザーの責任です
+また、そういう問題をなくすために配布されたのがこのトライアル版であり、我々は所謂テストプレイをしているに過ぎません
+規約等契約文にも書いてありますよね？
+
+さらにいっておきますと今わかっているバグを動作テスト程度で探すのは若干難しいかと思われます
+また、実際のところ今見る限りでは基本システム部分も貴方の仰るよりは格段に整っていると思われます
+少なくとも対戦やシナリオの基システム部分など、実際に発売後にプレイするであろう部分はシナリオを除いて殆ど入っているように見えます
+確かに貴方の言うようにα版というような感じではありますがシステム部分さえあればバグ取りとしては十分であるとも考えられます
+前回のように既出のバグや余計な機能を追加しない限りは安心しても大丈夫な域であると考えられます
+また、流石にメーカーもそこまで愚かではないでしょうし余計な機能は追加しないでしょう
+
+結論だけ書いておくとこれはβ晩としては十分な出来だ、という事です
+本来この体験版は楽しむための物ではありません、バグ取りや、バランス取りをするためのものです。
+貴方はそれにこれ以上何を求めているのでしょうか？</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#ffffff">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

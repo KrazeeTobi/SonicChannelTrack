@@ -1,0 +1,77 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>
+オン時のゲーム終了以外でのセーブについて</title>
+<meta name="description" content="このページは KY-VIEW megalopolis で作成した掲示板ログです.そのため,常に内容が変化したり,削除したりします. http://kyprj.yokobori.net/">
+<style type="text/css">
+<!--
+ a.li { text-decoration:none; }
+ a.li:hover { color:#FFFFFF;text-decoration:underline; }
+ pre { font-size: small;letter-spacing:normal;font-family:"ＭＳ Ｐゴシック","Osaka",sans-serif;}
+ tt { line-height:90%;font-size:medium;}
+-->
+</style>
+<script language="javascript">
+<!--
+var d = new Date();
+tl=d.getTime()/1000;
+function g(v)
+{
+	if(v > tl - 86400)
+	{
+		return "color=\"#FFFFFF\"";
+	}
+	return "color=\"#FFFFFF\"";
+}
+//-->
+</script>
+</head>
+<a name="tree_top"></a>
+<!--- 掲示板の色や背景の設定 --->
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+
+<!--- 新規発言・EXIT・INDEX表示 --->
+<div align="right">
+<a href="http://tails04.sonicteam.com/cgi-bin/pso/bbs/kyview.cgi?k=b&dir=gcfree">新しく発言する</a> 
+<a href="http://www.sonicteam.com/psogc/" target="_top">EXIT</a> 
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/23/index.html">インデックスへ</a>
+</div>
+
+<!--- 記事タイトル --->
+<font size="+2" color="#FFFFFF">オン時のゲーム終了以外でのセーブについて</font><BR>
+<hr>
+<pre>　　<tt></tt><font color="#FFFFFF">オン時のゲーム終了以外でのセーブについて</font> fuku <small>2002/10/07 12:33:24  (修正1回)</small></pre><a name="baaetz"></a><p>
+<table width="100%" border="0">
+<tr bgcolor="#004080"><td width="100%"><strong><strong>オン時のゲーム終了以外でのセーブについて</strong></strong></td>
+<td align="right" width="1%" nowrap><a href="http://tails04.sonicteam.com/cgi-bin/pso/bbs/kyview.cgi?k=a&dir=gcfree&pg=23&id=baaetz&id2=baaetz">返事を書く</a> <a href="http://tails04.sonicteam.com/cgi-bin/pso/bbs/kyview.cgi?k=m&dir=gcfree&id=baaetz&id2=baaetz&pg=23">ノートメニュー</a><br></td></tr>
+<tr bgcolor="#004080"><td colspan="2"><strong>fuku</strong> <small>&lt;nbvjweidtj&gt;</small> <i>2002/10/07 12:33:24</i>  ** この記事は1回修正されてます</td></tr>
+<tr bgcolor="#000040"><td colspan="2">フリーズ時「ゲーム終了しなかったのに無事でした」「装備品も<BR>消えてしまった」と、倉庫と装備品以外が消える、以外の動作報<BR>告が見られるので、いくつか試してみました。<BR>（アイテム交換については調べてません）<BR><BR>便乗できそうなツリーがなかったため新規で立てましたすいません。<BR>間違いなどあればご指摘ください。<BR><BR>基本的にはＤＣ　Ｖｅｒ２と同じようです。<BR>また、サーバの仕様変更により変わる場合があると思います。<BR><BR>（１）オンラインしてから、お知らせメッセージでのセーブが行われるまで。<BR>なにもなくなりません<BR>この間はセーブが行われていないようで、キャラ選択時のままの<BR>ようです。<BR><BR>（２）お知らせからロビーまで＋ロビー間移動<BR>メセタのみ無くなります。<BR>お知らせメッセージの時のセーブがずっと継続されます<BR>一旦チームに参加し、ロビーに戻ってきた場合は、チーム部屋か<BR>らロビーへの移動時にはセーブが起こらないようで、部屋で最後<BR>に行ったセーブ、（３）か（４）の結果になります。<BR><BR>（３）チーム参加時、店、チェックルーム、マップ間移動、マップーシティ間移動<BR>倉庫と装備品以外が無くなります。<BR>倉庫と装備品がセーブされます。<BR><BR>（４）装備アイテムを置いたとき。<BR>倉庫と装備品以外が無くなります。場合によっては装備品も無く<BR>なります。<BR><BR>これは「一旦、装備をはずしたり変更した個所についてはセーブ<BR>されない」ことにより起こります。<BR>厳密にいうと、アイテムを置く時、前回のセーブ内容と比べて、<BR>装備品の構成に違いがあるとき、セーブが発生。<BR>この時、違いのあった装備個所は、「装備が無いものとして」セ<BR>ーブされる。・・・のようです。<BR><BR>（例）<BR>武器と防具を装備しておきます。<BR>(1)武器を置く→セーブされます<BR>(2)置いた武器を拾って装備する。<BR>(3)防具を置く→セーブされます<BR>(4)武器を置く→セーブされません。<BR>※(3)の時、武器は装備してたはずなのに(4)の時セーブされないと<BR>いう結果になります。<BR>→装備しなおした武器は装備してないものとみなされている。<BR>これはＤＣ版のＶｅｒ２でも同じです。<BR><BR>このため、アイテム整理などで装備品を置いたり、付け直したり<BR>してた場合、レア武器などを見つけて、一旦装備し、それを置い<BR>たりした場合など装備していた装備が無いということになると思<BR>います。<BR><BR><BR>＃リセットボタン、ふた開けはソフトリセットと同じ？<BR>（詳しく調べてなかった・・・、ゲーム終了と同じ？）<BR><BR>＃私はＣＡＴＶですがやはり落とされました、フリーズはしなかったのですが、それでも確認するまではかなり不安でいやなものですね。</td></tr>
+</table>
+</p>
+</pre><!--- EXIT・INDEX表示 --->
+<hr>
+
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/23/index.html">インデックスへ</a> 
+<a href="http://www.sonicteam.com/psogc/" target="_top">EXIT</a><BR>
+<small>新規発言を反映させるにはブラウザの更新ボタンを押してください。</small>
+</body>
+<script language="javascript">
+<!--
+var d = new Date();
+tl=d.getTime()/1000;
+if(document.all)
+{
+var ttl = new Array();
+ttl[0] = 1033961604
+	for(i=0;i<1;i++)
+	{
+		if(ttl[i] > tl - 86400 && document.all.item(i.toString(10)))
+		{
+			document.all.item(i.toString(10)).style.color="#FFFFFF";
+		}
+	}
+}
+//-->
+</script>
+</html>

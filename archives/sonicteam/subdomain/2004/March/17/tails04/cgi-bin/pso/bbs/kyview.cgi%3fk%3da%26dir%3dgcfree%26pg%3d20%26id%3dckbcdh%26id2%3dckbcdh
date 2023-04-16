@@ -1,0 +1,82 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/20/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">MAKING APPEND NOTE</font>
+<hr>
+<p>
+<table width="100%" border="0">
+<tr bgcolor="#004080"><td width="100%"><strong>元の発言</strong></td>
+<td align="right" width="1%" nowrap> <br></td></tr>
+<tr bgcolor="#004080"><td colspan="2"><strong>NAN</strong>  <i> 2002/10/04</i>  </td></tr>
+<tr bgcolor="#000040"><td colspan="2">僭越ながら、同じ話題で多数のログがあるので、まとめることができないものかと思い、新規を立てました。<BR><BR>ここでは、ロスト以前に「接続出来ない」という問題ではなく、一見正常に接続出来るし冒険も出来るのに、なぜか突然落ちてしまうと<BR>画面がフリーズ（真っ黒な状態）になってセーブが出来ない→ロストという問題についてお話できたらと思います。<BR><BR>さて早速ですが私のケースでは<BR>・NTTのフレッツADSL1.5M<BR>・プロバイダはインターQ（グローバルメディアオンライン）<BR>・NTT純正ADSLモデム<BR>・ストレートおよびクロスのLANケーブル（２M)<BR>・メルコ製ルータ（借り物～実験用に入手）<BR><BR>上記環境で<BR>・PCによるネット接続は数百時間にわたって安定している。<BR>・PC版PSOについても、まったく問題ない。<BR>ことはすでに確認しています。<BR><BR>それなのに、GC版PSOについてのみ、他の皆さんも報告されていると同様のロスト事故が重なるので、これはおかしい、と思う次第です。<BR>昨日の段階では、ADSLモデムとの直差しが原因かと思い、知人からルータを借りて動作チェックを行ないましたが<BR>やはり同じ現象が起きます。ここで言う「現象」とは・・・<BR>・正常にオンできる<BR>・パーティとの会話も正常<BR>・そのまましばらく冒険してると、自分以外が固まっている<BR>・つまり落ちているのは自分らしい<BR>・仕方がないので、所持品を倉庫に預けようと試みる・・・<BR>・「回線が切断されました」のメッセージが出る。<BR>　（数回起きたうち、出ることも出ないこともありました）<BR>・その後「真っ黒画面」状態に・・・リセットも効かない<BR>・電源を入れ直してみると、装備品以外はロスト<BR>　（倉庫は無事です）<BR><BR>さて、ここでポイントになるのは<b>真っ黒画面</b>になる前に、倉庫などでセーブ処理を行なっても、再起動したときにはそれが反映されず<BR>アイテムロストしてしまうことが一点。<BR>次に、真っ黒画面になることも、ならないこともある、というのが一点です。（この場合はロストしません）<BR><BR>乱暴な手段ですが、真っ黒画面＝フリーズ状態、でLANケーブルを抜き差ししてみても、この状態は継続されました。回線が切断された～<BR>などのエラーメッセージは出ません。<BR><BR>さらに、ルータを導入してみて、PCとGCで同時にネット接続を行い、PCではインターネットに、GCではPSOのオンにと接続した場合、<BR>GC版PSOが落ちた状態でも、PC側のネット接続は維持されます。<BR><BR>これらの状況をまとめると<BR>・LANケーブルによる問題ではない（それならそもそも接続不能）<BR>・ケーブル干渉（電源コードなどと）でもなさそうである<BR>・GC版PSOがフリーズするのは、通信エラーが<BR>　原因であるのは間違いなさそうだが、それ以後のフリーズはPSOの<BR>　プログラム内部（あるいはGC内部）で起きている。<BR>というところです。<BR><BR>さて、残念ながら私の環境ではGC版PSOが落ちやすい、というのは仕方がないことなのかも知れません。<BR>これは、安定してプレイできる～ロストもない方が多数いるのですからPSO全体の問題とは言えないでしょう。<BR><BR>しかし、ここからが重要ですが、こうしたロストがあることを知り、それならばせめて落ちる前にセーブ処理をしようとして、実際に<BR>セーブが出来ているはずなのに、一度フリーズしてしまうと必ずアイテムがロストしてしまうことです。<BR>（回線が切断されました～のメッセージが出た場合でも、フリーズすることはあります）<BR><BR>そして結論としては、<BR>・環境によってオンラインから落ちること（までは）仕方がない。<BR>・しかしセーブしたのに反映されない「フリーズ現象」は問題だ。<BR>と、考えています。<BR></td></tr>
+</table>
+</p>
+<p>
+<form action="submit.cgi" method="post" >
+メッセージ ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual">
+</textarea><BR>
+
+<input type="hidden" name="title" value="Re:突然落ちとアイテムロストのツリー">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="pg" value="20">
+<input type="hidden" name="id" value="ckbcdh">
+<input type="hidden" name="id2" value="ckbcdh">
+<input type="hidden" name="dir" value="gcfree">
+</p>
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+<input type="hidden" name="c" value="APPEND">
+<p>
+<input type="submit" value="APPEND"> 書き込み 
+
+</p>
+</form>

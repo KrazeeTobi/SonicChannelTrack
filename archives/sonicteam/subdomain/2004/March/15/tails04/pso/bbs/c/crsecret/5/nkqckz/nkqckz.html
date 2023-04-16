@@ -1,0 +1,77 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>
+戦闘処理について</title>
+<meta name="description" content="このページは KY-VIEW megalopolis で作成した掲示板ログです.そのため,常に内容が変化したり,削除したりします. http://kyprj.yokobori.net/">
+<style type="text/css">
+<!--
+ a.li { text-decoration:none; }
+ a.li:hover { color:#FFFFFF;text-decoration:underline; }
+ pre { font-size: small;letter-spacing:normal;font-family:"ＭＳ Ｐゴシック","Osaka",sans-serif;}
+ tt { line-height:90%;font-size:medium;}
+-->
+</style>
+<script language="javascript">
+<!--
+var d = new Date();
+tl=d.getTime()/1000;
+function g(v)
+{
+	if(v > tl - 86400)
+	{
+		return "color=\"#FFFFFF\"";
+	}
+	return "color=\"#FFFFFF\"";
+}
+//-->
+</script>
+</head>
+<a name="tree_top"></a>
+<!--- 掲示板の色や背景の設定 --->
+<body background="/pso/bbs/img/pso_bk1r.png" bgcolor="#370000" text="#FFFFFF" link="#99FF99" vlink="#66FFCC">
+
+<!--- 新規発言・EXIT・INDEX表示 --->
+<div align="right">
+<a href="http://tails04.sonicteam.com/cgi-bin/pso/bbs/kyview.cgi?k=b&dir=crsecret">新しく発言する</a> 
+<a href="http://www.sonicteam.com/psoep3/" target="_top">サポートHPへ</a> 
+<a href="http://tails04.sonicteam.com/pso/bbs/c/crsecret/5/index.html">インデックスへ</a>
+</div>
+
+<!--- 記事タイトル --->
+<font size="+2" color="#FFFFFF">戦闘処理について</font><BR>
+<hr>
+<pre>　　<tt></tt><font color="#FFFFFF">戦闘処理について</font> コウ <small>2003/12/27 17:36:00 </small></pre><a name="nkqckz"></a><p>
+<table width="100%" border="0">
+<tr bgcolor="#660000"><td width="100%"><strong><strong>戦闘処理について</strong></strong></td>
+<td align="right" width="1%" nowrap><a href="http://tails04.sonicteam.com/cgi-bin/pso/bbs/kyview.cgi?k=a&dir=crsecret&pg=5&id=nkqckz&id2=nkqckz">返事を書く</a> <a href="http://tails04.sonicteam.com/cgi-bin/pso/bbs/kyview.cgi?k=m&dir=crsecret&id=nkqckz&id2=nkqckz&pg=5">ノートメニュー</a><br></td></tr>
+<tr bgcolor="#660000"><td colspan="2"><strong>コウ</strong> <small>&lt;drvbxdhdzc&gt;</small> <i>2003/12/27 17:36:00</i>  </td></tr>
+<tr bgcolor="#370000"><td colspan="2">こんばんは～<BR>酸化して良いですか？が目印のコウです。<BR><BR>前のページに戦闘処理の話があったので<BR>自己流の仮設を新規でたてちゃいますーwー；<BR>前ページをみていた人やみてない人も<BR>これをみてなるほどって思ってくれれば幸いです<BR><BR>たぶん・・・あってるかも？<BR><BR>攻撃対象決定(貫通、乱撃の処理実行・封印不可)<BR>↓<BR>戦闘開始<BR>↓<BR>キャラの合計能力を計算(○○ボーナス・復讐のAP増加計算実行)<BR>↓<BR>攻撃側の能力封印の有無判定<BR>↓<BR>物理、テクの攻撃判定<BR>↓<BR>アシストによるダメージ計算<BR>↓<BR>カードによるダメージ加算(アサルトなども含む)<BR>↓<BR>○○キラー等のダメージ倍加計算(仮)<BR>↓<BR>固定ダメージの計算(仮)<BR>↓<BR>防御側のダメージ半減能力の計算(攻撃側に封印がある場合はスキップ)<BR>↓<BR>アクション破壊能力実行(攻撃側に封印がある場合はスキップ)<BR>↓<BR>予告ダメージ(表示ダメージ)<BR>↓<BR>カードによる自分ステータスの置き換え<BR>↓<BR>○○キラー等のダメージ倍加の本計算・実行<BR>↓<BR>キャラの能力処理実行(戦闘時の能力表示順・防御側の能力封印処理)<BR>↓<BR>カードの能力処理実行(ダイス判定系)<BR>↓<BR>置き換え防御の処理実行<BR>↓<BR>防御カード能力によるダメージ軽減処理実行(アバート、パンチガード等)↓<BR>固定ダメージの本計算・実行<BR>↓<BR>防御カード発動(通常のダメージ軽減・防御カードの半減を含む)<BR>↓<BR>キャラのダメージの半減能力発動(攻撃側に封印がある場合はスキップ)<BR>↓<BR>ダメージ<BR>↓<BR>即死能力処理実行(防御側の封印がある場合はキャラの即死スキップ)<BR>↓<BR>防御側HPの残りを判定<BR>↓<BR>道連れ能力実行(防御側の封印がある場合はキャラの能力スキップ)<BR>↓<BR>両者のHPを計算<BR>↓<BR>ダメージ表示・HPの残りを計算<BR>↓<BR>敵側の置き換え処理実行(即死処理はすでに終了)<BR>↓<BR>両者の置き換えによる死亡を判定<BR>↓<BR>自側の置き換えを終了<BR>↓<BR>戦闘終了<BR><BR><BR>複雑ですけどこんな感じです＾＾；<BR>余談ですがシフタによるAP増加は<BR>レルミトスの場合は自分のA/Tを置き換えてから増加処理をします<BR><BR>TP3→AP3+1って具合です＾＾<BR><BR>わかり・・・易かったかな？（汗<BR></td></tr>
+</table>
+</p>
+</pre><!--- EXIT・INDEX表示 --->
+<hr>
+
+<a href="http://tails04.sonicteam.com/pso/bbs/c/crsecret/5/index.html">インデックスへ</a> 
+<a href="http://www.sonicteam.com/psoep3/" target="_top">サポートHPへ</a><BR>
+<small>新規発言を反映させるにはブラウザの更新ボタンを押してください。</small>
+</body>
+<script language="javascript">
+<!--
+var d = new Date();
+tl=d.getTime()/1000;
+if(document.all)
+{
+var ttl = new Array();
+ttl[0] = 1072514160
+	for(i=0;i<1;i++)
+	{
+		if(ttl[i] > tl - 86400 && document.all.item(i.toString(10)))
+		{
+			document.all.item(i.toString(10)).style.color="#FFFFFF";
+		}
+	}
+}
+//-->
+</script>
+</html>

@@ -1,0 +1,82 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/76/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">MAKING APPEND NOTE</font>
+<hr>
+<p>
+<table width="100%" border="0">
+<tr bgcolor="#004080"><td width="100%"><strong>元の発言</strong></td>
+<td align="right" width="1%" nowrap> <br></td></tr>
+<tr bgcolor="#004080"><td colspan="2"><strong>サンプル</strong>  <i> 2003/03/18</i>  </td></tr>
+<tr bgcolor="#000040"><td colspan="2">遅レスですみません。<BR>「プー」という音についてですが、これは恐らく<BR>何も意味は無いと思われます。<BR><BR>フリーズ、ハングアップというのは・・・<BR>例えば、以下のようなプログラムがあったとします。<BR>・キャラをＡ地点からＢ地点へ移動させる<BR>　↓<BR>・ＡとＢの間に障害物がある場合は、キャラはこれにぶつかる。<BR>　何もなければ、そのまま進む。<BR>　↓<BR>・Ｂ地点に到着。<BR>と、この通りに処理できれば問題ないのですが、<BR>データの読み込みミスなどで、障害物のデータが<BR>正確に送られず、「障害物が無い"はず"なのにぶつかる」<BR>などといった現象が起きた場合、プログラム内に<BR>こういった「万が一」の状況に対しての処理が<BR>用意されていないと、プログラムはどうしたら良いのか<BR>わからず、処理を実行しつづけたり、停止したり、<BR>または全く無関係な処理をしてしまったり、といった結果に<BR>なります。<BR><BR>これがいわゆる「バグ」で、軽いモノであればグラフィックが<BR>一部崩れたり、音が飛んだりといったところで済みますが、<BR>重度のものになるとフリーズ、進行不能といった<BR>致命的な現象になってしまいます。<BR><BR>で、個人的には今回の件は、皆さん仰っているように<BR>「リードエラー、もしくは通信エラー時のフリーズバグ」で、<BR>「読み込みに失敗した際の対処方法がプログラム上に無い、もしくは<BR>プログラムはあるのに正常に実行されていない」という<BR>事ではないかなぁ、と思っております。<BR>もしかしたら、GC本体側の問題なのかもしれないけど。<BR><BR>正常な処理が行われていない状態ですから、不可解な「プー」という<BR>ノイズが発生したりするのも不思議ではありません。<BR>他のゲームのフリーズ発生時などでも、こういったノイズが<BR>鳴る事はよくありますよね。<BR><BR>カセット型のゲーム機(ファミコンやＧＢ、メガドラなど)で<BR>ゲームプレイ中に本体をつい蹴飛ばしてしまったり<BR>したことはありませんか？<BR>電源入れたままカセット抜いてしまったり。(笑)<BR>ああいうのと同じ(内的要因と外的要因の違いはあれど)でしょうね。<BR><BR>・・・で、まあ、繰り返しになりますが、今回の件は<BR>個人的にはソフト側のバグだと思います。<BR>よって、責任を問うのであれば、その責任はソニチにあるかなぁと。<BR>ネットゲームは予想しえない現象が発生しやすいでしょうし<BR>そもそもバグのないゲームなんてありえないんですが、にしても<BR>ちょっと致命的なバグが多いですよね・・・。<BR>せめてディスクアクセスがもっと少なければ<BR>発生率自体下がるんじゃないかなぁと思うんですが・・・。<BR></td></tr>
+</table>
+</p>
+<p>
+<form action="submit.cgi" method="post" >
+メッセージ ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual">
+</textarea><BR>
+
+<input type="hidden" name="title" value="Re:遅レスですみません。">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="pg" value="76">
+<input type="hidden" name="id" value="nodjul">
+<input type="hidden" name="id2" value="hrshbd">
+<input type="hidden" name="dir" value="gcfree">
+</p>
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+<input type="hidden" name="c" value="APPEND">
+<p>
+<input type="submit" value="APPEND"> 書き込み 
+
+</p>
+</form>

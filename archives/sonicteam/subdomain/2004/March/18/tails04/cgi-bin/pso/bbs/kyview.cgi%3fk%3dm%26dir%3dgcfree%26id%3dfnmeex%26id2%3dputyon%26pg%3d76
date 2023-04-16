@@ -1,0 +1,199 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/76/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="gcfree">
+<input type="hidden" name="id" value="fnmeex">
+<input type="hidden" name="id2" value="putyon">
+<input type="hidden" name="pg" value="76">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >既に出てるかもしれませんが、参考程度に私も、
+
+機械に詳しくないので、検討違いかもしれませんが、
+参考になるなら、こちらの検証も使って下さい。（長文です）
+うろ覚えなので、細かい所で間違いがあるかもしれませんが
+ご了承下さい。
+
+私は１ヶ月くらい前に、自業自得の
+不注意でキャラロスト経験しました。
+その時、いろいろ検証したので書きます。
+
+先ず、ロストの経緯です。
+オンラインで遊んでいる最中に（この時のメモカは２５１です）
+別メモリカード（こちらは５９）のキャラに変えようと
+セーブしました。
+
+そしてセーブ中と出ているのにも関わらず、
+セーブが終わったと、勘違いして（タイトル画面に戻ったと
+思いこんでいた）メモリーカードを抜いてしまいました。
+
+ここでエラーメセージが出ました。
+詳しく覚えてませんのでおおまかに書きます。
+
+＊セーブ中にメモリーカードを抜かないで下さい
+＊正しくセーブされません。
+＊このまま終了するとアイテムが消えます。
+＊セーブしますか？
+
+＊セーブする
+＊セーブしない
+
+と選択しが出たので、抜いたメモリカードを再度入れて
+セーブするを選ぶ、すると、
+
+データが破損しています。セーブできません。
+
+しかたなく
+セーブしないを選択して、終了
+結果みごとキャラロスしました。
+せっかくなので、捨てキャラ作って検証しました。
+
+方法はオンラインに繋ぎロビーでセーブする
+そしてセーブ中と出てる時にメモリカードを抜く
+
+＊のエラーメッセージが出たら、再びメモカを入れ直し
+選択支のセーブするを選ぶ
+
+メモカ（２５１のみ開いた為これで実験）を抜くタイミングを
+いろいろ変えて、データ破損が、
+どのタイミングでも起こるか検証。
+
+結果、メニューからゲーム終了を選び、
+「セーブ中ですメモリカードの抜き刺しをしないで下さい」
+というようなメッセージが出た瞬間（１・２秒、５９や２５１によって若干の誤差があるかもしれません）までなら
+セーブするを選択可能でした、
+
+この場合いはメセタロストで済でいたはずです。
+とにかく、キャラロストはしませんでした。
+
+これ以上、遅く（セーブが終了しましたと出る前まで）
+メモカを抜いた場合、
+選択支のセーブするを選んでも、データ破損と出て
+キャラロストしました。
+
+上記の２通りのタイミングで各１０回ずつ試しました。
+検証の結果から、素人考えで、憶測を立てると
+メモリカードにデータが流れてる時に、
+
+１、メモカが抜ける又は接触不良でデータ送信が中断される
+２、フリーズ等でデータ送信が途中で中断、もしくは切断される
+
+要するに、メモリカードへのデータ送受信が中途半端で終わる
+と、データ破損するようです。（あたり前ですが汗）
+
+部屋に入った時のフリーズで
+キャラロストするのは、上記の理由からセーブ中の
+フリーズが原因でデータ送信が、
+中断される為と思われます。
+
+フリーズしやすい状況の所にセーブポイントがある。
+このコンボが、入室時のキャラロストを
+引き起こしていると考えます。
+
+どちらか一つが解消されれば、もう少し
+この入室時のキャラロストを軽減できると思います
+
+他の状況でのキャラロストの報告が少ないのは
+上記の２つの現象が重なる確率が非常に少ない為だと
+考えれると思います。
+
+個人の対策としてはやはり、セーブは必ずされるので
+フリーズ対策しかないと思います
+
+人の少ないロビー＆シップ＆ブロックで遊ぶ
+入室の際は、連続で入らず、十分間を開けて入室する
+吹き出し、シンボルチャット、テレポーターの移動は
+入室時には少し時間をおいて、重ならないようにする。
+
+最初の以外は仲間内で遊ぶ時しか実戦できそうにないですが
+このくらいではないでしょうか。
+
+最後に疑問なのが、店やチェックルーム、鑑定の時に
+セーブ動作がありますが、その時に入室して来る状況が
+頻繁にあると思うのですが、フリーズ＆キャラロストの報告が
+少ないのはなぜでしょう？
+
+ここまで書いて自分の仮定に自信がなくなってきました。
+以上です。
+
+詳しい方、補足、訂正お願いします。
+既出だった時は無視して下さい。
+最後に読んで頂いた方、ありがとうございます。
+
+
+
+</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

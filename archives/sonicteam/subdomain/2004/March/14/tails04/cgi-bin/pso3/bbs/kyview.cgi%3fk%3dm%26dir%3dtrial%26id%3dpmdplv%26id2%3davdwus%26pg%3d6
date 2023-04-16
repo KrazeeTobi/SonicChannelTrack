@@ -1,0 +1,108 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOEP3トライアル版』専用掲示板</title>
+</head>
+<body background="/pso3/bbs/img/pso_bk1.png" bgcolor="#003333" text="#FFFFFF" link="#99FF99" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso3/bbs/t/trial/6/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#ffffff">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="trial">
+<input type="hidden" name="id" value="pmdplv">
+<input type="hidden" name="id2" value="avdwus">
+<input type="hidden" name="pg" value="6">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#ffffff">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >難易度導入すればレベル差があっても問題なくできる
+みたいな事おっしゃってますが、かなり問題出ると
+思うんですが。
+そのカードが出てくるレベルだからって必要な枚数そろう
+かどうかなんて運次第なので。
+どう考えたって上のレベルの人の方が多くやっている以上
+そろっている確率は高いのでそこで差が出てしまいます。
+カードの性能差はないかもしれませんが数の差は大きいです。
+１枚より３枚の方が引きやすいので必要な時に引ける確率は
+あがります。
+カードゲームに慣れている人ならそこら辺は上手くやって
+上の人とも渡り合えるでしょうが本当に始めての人じゃ
+よほど運が良くないと勝てないと思います。
+同じ難易度でやっているんだからしょうがないと割り切れる
+人なら楽しめるでしょうが負けてばかりだと嫌になって
+結局レベルの高い人お断りになるんじゃないでしょうか。
+自分があまり持ってないカードで無力化されたって思いは
+残ると思います。
+それに対抗するにはカードを集めるか交換するかぐらいしか
+ないですから。
+
+カードの性能も影響しますが数を持っているかってのも
+かなり影響を与えます。
+何をしようが沢山やっている人が有利なのは変わりません。
+
+＞デッキの性能がインフレをおこした時にルール的に
+＞どう対応するか？
+その時は強いカードが使用禁止になるだけだと思いますよ。
+実際のカードゲームでもそういうの多いですし。
+
+破綻するのが目に見えている仕様入れるよりはオフで
+色々できたりとか前あなたが言っていた大富豪ＰＳＯみたいな
+お遊び入れたほうがましかなと思うわけです。</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#ffffff">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

@@ -1,0 +1,109 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOEP3トライアル版』専用掲示板</title>
+</head>
+<body background="/pso3/bbs/img/pso_bk1.png" bgcolor="#003333" text="#FFFFFF" link="#99FF99" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso3/bbs/t/trial/6/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#ffffff">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="trial">
+<input type="hidden" name="id" value="zshhxu">
+<input type="hidden" name="id2" value="mxmuko">
+<input type="hidden" name="pg" value="6">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#ffffff">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >カードの入手状況(少しネタバレ)
+
+元々、カードはCLvが上がる毎に、段階を経て入手可能な種類が
+増える仕様になってたと思うのですが、この仕様の場合、
+例えば、１段階目で３０種、２段階目で＋２０種、
+３段階目で更に＋３０種の入手が可能と仮定すると、
+特定の１種類のカードが出る確率は、CLvが上がって
+入手できる種類が増えるほど、逆に減っていきますよね。
+
+だから新規のカードの入手も最初よりは低くなってくると思います。
+
+また、最近のメンテからか判りませんが、カードの入手パターンも
+変更されたようで、CLv4前後でもアシストカードが普通に出ました。
+この辺りも、個々のカードの出現率が逆に下がっている原因かも知れません。
+
+
+実際、私も既にCLvは20を越えていますが、Newなんてここ４日ぐらい
+毎日のようにやっていても出てません。
+
+また、友人はCLv30近いのですが、15～6前後まで、一人で
+レベルを上げていたせいか、一部のノーマルカードを未だに
+見たことがないと言っています。
+
+試しに新規にキャラを作ってカード集めをしてみたら、
+ほんの数回で見たことのないカード(でも初期入手可能なはず)
+が何枚か手に入ったと言って大喜びしていました。
+
+CLvが上がることで、かえって入手しづらくなっている可能性も
+充分に考えられます。
+
+もしエネミーカードが極端に少ないと言うことでしたら、
+余裕があれば、新規のキャラで少しカード集めをしてみると
+バランスよく出るかも知れませんよ。
+</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#ffffff">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

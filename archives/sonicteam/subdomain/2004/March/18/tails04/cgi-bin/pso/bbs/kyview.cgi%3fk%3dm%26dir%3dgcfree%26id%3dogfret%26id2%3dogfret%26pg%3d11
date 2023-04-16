@@ -1,0 +1,98 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/11/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="gcfree">
+<input type="hidden" name="id" value="ogfret">
+<input type="hidden" name="id2" value="ogfret">
+<input type="hidden" name="pg" value="11">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >　はじめまして、むにゅむにゅ様です。あまりにも見てて呆れてきたので、書いてみることにします。
+　今回のバグの件でいろいろな意見があります。信頼を裏切ったという方々や、やる気失せたという方々、キャラ残したい　マグ残したい…etc…
+　いろいろあります…しかし、そういったことはただのわがままでしかないですよ…
+　はっきりいいますと、最初にチー○品関係で、ソニチの信頼を裏切ったのは私たちユーザーです。
+　自分はチー○を使ってないから関係ないと言わないでくださいね。
+　知らず知らずのうちに関わった可能性もありますから。チー○禁止だからとかは私にとってはふざけるなって感じです。
+　チー○禁止を掲げる方々の一部にさんざん過去にひどい目にあわされました。
+　きっと彼らは見たことないレアや自分で出ないレアをチー○として扱うのですね…（いじいじ…）
+　…ま…まあ…話は少しそれましたが、私の言いたいのは、バグは確かにソニチのミスです。無償交換は当たり前です。それは社会の仕組みとして当たり前のことです。
+　しかしデータの件は文句を言えるのは、オフラインでしかしてない方とGCからの参戦の方々ではないでしょうか？
+　私はDC初期からの参戦者のひとりとして、あのような事態が少しでもなくせる可能性があるなら、ソニチの決定に依存はありません。（まあ、某会社を告発しないかぎり無理でしょうけどｗ）というか私でもそういう決定しますよ…実際…
+　GCからのユーザー、オフラインのみのユーザー以外のユーザーは、今回の件でデータに関する文句はすこしでも関わってる可能性があるという時点で、おかど違いですから…
+　少し乱暴な意見申し訳ありません。これはあくまで私の私的意見です。強制とかではありませんのでご容赦ください・・・
+　それでは長文申し訳ありませんでした。
+</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

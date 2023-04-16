@@ -1,0 +1,82 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/76/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">MAKING APPEND NOTE</font>
+<hr>
+<p>
+<table width="100%" border="0">
+<tr bgcolor="#004080"><td width="100%"><strong>元の発言</strong></td>
+<td align="right" width="1%" nowrap> <br></td></tr>
+<tr bgcolor="#004080"><td colspan="2"><strong>MSN-100</strong>  <i> 2003/03/14</i>  </td></tr>
+<tr bgcolor="#000040"><td colspan="2">こっ、これは.....(長文覚悟)<BR><BR><BR>すさまじい検証結果ですね。オンオートセーブ中の抜き差しなぞ、<BR>自分には不可能ですから。（良い子はマネしないでネ＾＾;）<BR>大いに参考になりました。ありがとうございます。<BR><BR>おっしゃるとおり、データセーブは大概ファイル単位で実施されて<BR>いて、ファイルデータ開始マーカーと終了マーカーを読み取ること<BR>で１つのファイルとして認知されるので、その途中で送信が途切れ<BR>る事はファイル構築を中断した事となり、ＧＣの仕様ではデータの<BR>認識は不可能です。（マーカーじゃなくフラグかも）<BR><BR>とてつもなく大がかりなマシンで途中のデータを抽出する事は可能<BR>ではありますが、まぁ、無駄にコストが懸かるだけですし、どの道<BR>完全復元される訳でもないので無意味ですし。<BR>(ココだけ読んで「それでも直して」という意見は、結局データの<BR>改造と大差はないです）<BR><BR>と話がズレました。「セーブします」から1～２秒は大丈夫なのは、<BR>サーバーからのセーブ命令がまだＧＣに届いていないか、ＧＣが<BR>まだセーブ処理を開始していなかったと考えられます。<BR>あとは全く異議を挟む余地のない論説だと思います。<BR><BR>＞フリーズしやすい状況の所でセーブポイントがある。<BR>＞そのコンボが入室時のキャラロストの要因である。<BR><BR>私も全く同感です。４人目の入室時にフリーズが多発する要因は、<BR>単純に「既存者３人分のキャラコスチュームデータを入室開始と<BR>同時にＧＣが処理しなければならない」からです。当然データ量<BR>は多く、その負荷に加えセリフやらシンボルやらが追加されれば、<BR>当然その負荷は雪ダルマ式に増加されます。(自キャラ分もあるし)<BR><BR>ここで疑問。「ＤＣでは平気だったぞ」<BR>お答。「ＤＣとはコスチュームデータ量が比較にならない」<BR>ここが落とし穴なのです。いくらＧＣが個別コスチュームの処理<BR>が速くても、多人数分の処理ではおのずと無理を強いられます。<BR><BR>だからチェックルーム等でのオートセーブ時には入室があっても、<BR>シティにいる側にとっては新加入者分のデータ処理だけなので、<BR>そのタイミングでのフリーズ報告は少ないと考えられるのです。<BR>(neoさんの仮説は少しも揺るぎません。自信を持って＾＾）<BR><BR>フリーズを回避する為のユーザー側で出来る事はneoさんが実に<BR>的確にまとめていますので、こちらはシステム的な回避方法なぞ<BR>考察しましょう。<BR><BR>それは、「参加者が操作可能となるタイミングと既存者が操作可能<BR>となるタイミングの同期を一致させるか、参加者のほうが若干先に<BR>操作可能となるよう、ウェイトタイムを調整する」<BR>そして、「参加者が操作可能となるタイミングから強制割り込みに<BR>よりオートセーブを実施するように調整する」<BR><BR>キャラが操作可能となることは、データのＩ／Ｏ処理が完了したと<BR>同義と考えられるので、この時点でやっとキャラデータは安定状態<BR>となり、オートセーブの処理もまた安定状態で受ける事が出来ると<BR>推察される事を前提とした改善策の一つです。<BR><BR>参考になれば幸いです。<BR><BR>（追記）<BR>neoさんのこの論説、ココでは勿体無いくらいすばらしいものです。<BR>これは是非新規を立てて警鐘して貰いたいです。<BR>＞「機械に詳しくないので」　とんでもない！！<BR>コンピュータなぞ、所詮はヒトの紡いだ論理をなぞっているに過ぎ<BR>ません。正しい論理こそが、正しい結果を導くのです。<BR></td></tr>
+</table>
+</p>
+<p>
+<form action="submit.cgi" method="post" >
+メッセージ ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual">
+</textarea><BR>
+
+<input type="hidden" name="title" value="Re:こっ、これは.....(長文覚悟)">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="pg" value="76">
+<input type="hidden" name="id" value="qtdvnj">
+<input type="hidden" name="id2" value="putyon">
+<input type="hidden" name="dir" value="gcfree">
+</p>
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+<input type="hidden" name="c" value="APPEND">
+<p>
+<input type="submit" value="APPEND"> 書き込み 
+
+</p>
+</form>
