@@ -1,0 +1,125 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOEP3トライアル版』専用掲示板</title>
+</head>
+<body background="/pso3/bbs/img/pso_bk1.png" bgcolor="#003333" text="#FFFFFF" link="#99FF99" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso3/bbs/t/trial/3/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#ffffff">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="trial">
+<input type="hidden" name="id" value="wnrnbu">
+<input type="hidden" name="id2" value="xnvolt">
+<input type="hidden" name="pg" value="3">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#ffffff">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >一括レスです。
+
+＞マグさん
+強制DEF入れ替えで、防御カードが使えなくなったことは
+みんな少なからずあると思います。
+入れ替え無しが標準というのも、面白そうですね。
+現状では、確かに攻撃重視になっていますよね。
+２Dにして、ATKとDEFに自由に数字が割り振れるというような
+形でもいいかな、と思う事はあります。
+もちろん、今の数字バランスでそれをやると、高コストカードが強すぎになってしまいますけどね。
+その線で考えると、盾はDEFポイントからしか装備できない、なんて形が理想でしょうか。
+突発的な思いつきですが、DEFポイントは少ないので、ヒーロー側は、
+なかなか盾が装備できずに苦労するのではないでしょうか。
+
+＞Aiglos さん
+ありがとうございます。
+私は、このゲームをプレイする上で大事なのは、想像力とこだわりではないかと思っています。
+何かにこだわり、そこから戦略を立てていく過程も、カードゲームの楽しみですよね。
+ダイスやシステムへの非難の書き込みを見るにつけ、何かやるせない物を感じます。
+　もちろん、前向きないい意見もいっぱいあるんですけどね。
+
+＞偽さん
+いろいろな設定ができるのは良いですね。
+その辺りは是非ソニックチームに皆で要望しましょう！
+
+＞ろしさん
+＞三石業界裏情報さん
+＞ヴァネッサさん
+私も1・1が三ターン続いた事があります。
+タッグを組んでいた相棒のお陰でなんとか勝てましたが。
+相手にしていたCPUが、５ターン連続で３以下しかでなかったこともありました。
+本当に気まぐれなダイスですよね。
+これについては、↓で書いたような疑いを持っています。
+
+
+MAWASHIGERIさん
+ダイスの偏りについては、私も少し気になっています。
+乱数表が悪いのか、あるいは「運の流れ」のようなものが設定されているのかもしれません。
+
+麻雀ゲームの開発の方のインタビューで、
+「コンピューター麻雀で、通常の乱数表を使って正直に配牌を計算しても
+運の流れが再現できないので、システム的に運の流れを作っている」
+というようなコメントをされているのを読んだことがあります。
+このゲームのダイスの流れを見ていると、そういうシステムが搭載されているのか？
+という気がします。
+でも、もし仮にそういうシステムがあったとしても、CPUだけが特典として受けるというものではなく、
+プレイヤーにも同様に発生していると思います。
+そういう意味で「不公平なシステム」ではないと思います。
+
+確証はないんですけどね。</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#ffffff">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

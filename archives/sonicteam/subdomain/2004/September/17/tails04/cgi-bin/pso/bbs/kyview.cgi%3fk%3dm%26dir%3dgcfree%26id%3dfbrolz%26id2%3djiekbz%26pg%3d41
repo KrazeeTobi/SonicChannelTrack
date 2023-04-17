@@ -1,0 +1,129 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/41/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="gcfree">
+<input type="hidden" name="id" value="fbrolz">
+<input type="hidden" name="id2" value="jiekbz">
+<input type="hidden" name="pg" value="41">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >何か私の書き込みのせいで(長文)
+
+スレが荒れてしまっていて……。
+驚きと同時に深い悲痛感を覚えています。
+広告記事の方は削除させて頂きました。
+
+私の考えを述べさせて頂くと、
+ただ単に、私はお店ごっこがやりたかっただけです。
+交換がしたいんじゃありません。
+クズレアなら、ホントに欲しい人しか来ないでしょ？
+ホントに必要としてる人に渡った方が気分が良いです。
+もし窃盗にあっても、クズレアなら笑って過ごせますし……。
+不正を疑われない為にも、未鑑定のモノばかりを集めました。
+全部属性バラバラのものばかりです。
+
+色々企画して、頑張って、
+注意書きも何度も読み返し、
+同じような記事をココで見つけたし、
+万全の体制で広告文字を打ったつもりでした。
+それだけに今回の事は悲しい、の一言に尽きます。
+
+…今ね、アルティで潜ってクズレアが出ても
+すごい嬉しいんですよ。
+クズレアの向こうにお客さんの笑顔が見えるんです。
+
+ただ、今回の書き込みに関しては
+私もまだ浅はかな部分があった事は事実かもしれません。
+ＤＣ時代から店をやってる先人にとっては、
+「面白いからやる」という私の姿勢、
+「ママゴト」「ごっこ」発言にカチンと来た方もおられるでしょう。
+でも、先人あっての今の私だと考えています。
+先輩方を愚弄するつもりはこれっぽっちもありません。
+
+いきなり立ち上げから崩れかけてしまった「くずれ屋」ですが
+私は予定通り店を開くつもりです。
+私の思慮浅い書き込みのせいで、
+スレが荒れてしまって本当に申し訳ありませんでしたm(_ _)m
+
+(追記)
+いくつかのご指摘があったので。
+部屋の難易度はベリハで固定です。
+ハードはＬｖ４０～だと勘違いしておりました(x_x;
+重ね重ね申し訳ありません。
+又、出店時間帯は変更ありませんが、
+出店場所(SHIPやBLOCK)は変更します。
+それなりにやや寂れかけたトコにでもポツン、と。</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

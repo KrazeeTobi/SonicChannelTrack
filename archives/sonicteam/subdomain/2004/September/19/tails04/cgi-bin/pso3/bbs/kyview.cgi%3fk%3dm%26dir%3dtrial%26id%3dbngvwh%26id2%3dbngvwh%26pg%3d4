@@ -1,0 +1,115 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOEP3トライアル版』専用掲示板</title>
+</head>
+<body background="/pso3/bbs/img/pso_bk1.png" bgcolor="#003333" text="#FFFFFF" link="#99FF99" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso3/bbs/t/trial/4/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#ffffff">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="trial">
+<input type="hidden" name="id" value="bngvwh">
+<input type="hidden" name="id2" value="bngvwh">
+<input type="hidden" name="pg" value="4">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#ffffff">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >こんにちは、MaiTです。
+オンラインで数十戦程度遊んだところです。もうすぐＬＶ４です。
+オンライン対戦ではここんところ負けっ放しです。
+
+それでだんだん遊んでいるうちに、負けてもペナルティの低さが
+結構気になってきました。経験値がちょっと下がるだけですから。
+対戦で５連敗しても、ＣＰＵ戦で１勝してしまえば元通りですし
+（相手のレベルにもよるが）、緊張感があまりありません。タイトル
+通り負けて失いたくないって気持ちが欲しいです。
+
+
+ぶっちゃけ、勝負が決まったあとで、勝った人と負けた人とでは、
+得るものと失うものが同じになるのが理想かなと。もちろん、
+対人戦のみの制約で。
+
+
+最初は経験値がそれなりに下がるといいのではと考えてましたが、
+前述の通り、ＬＶの意味が薄いのでこれの効果も薄いでしょう。
+
+そこで、ＲＡＮＫにそれなりの意味を持たせるようにすればいいと
+思います。強い人に勝ったら（弱い人に負けたら）ＲＡＮＫが大きく
+動くようにするなどですねえ。強い人が弱い人に勝ってもあまり
+変化しないと。
+ＲＡＮＫというよりも、レートや段位（チェスや将棋など）と似た
+システムでしょうか…。
+
+それだと、弱い人も強い人と戦いたいと思うだろうし強さの指標には
+便利かなと思ってますがどうでしょうか。ＣＰＵが１人でもいれば
+ＲＡＮＫは変動しないということにすれば、コンボ練習もできますし。
+仲間内でのＲＡＮＫ上げというのもやりにくくなるかな。
+
+
+もうひとつ、勝った人が負けた人のデッキから１～２枚をランダム
+でもらえるようにするのは欲しいかなあと。まあ、これは事前に
+ルール設定でできる・できないを選択できるようにしておけば
+いいかと思います。
+
+以上は、他の対戦ゲームなどを参考にして書きました。
+既出のアイデアもあったかと思いますが、いいアイデアやご意見が
+あればよろしくおねがいします。</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#ffffff">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

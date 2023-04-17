@@ -1,0 +1,113 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOEP3トライアル版』専用掲示板</title>
+</head>
+<body background="/pso3/bbs/img/pso_bk1.png" bgcolor="#003333" text="#FFFFFF" link="#99FF99" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso3/bbs/t/trial/4/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#ffffff">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="trial">
+<input type="hidden" name="id" value="tynggl">
+<input type="hidden" name="id2" value="ohovtb">
+<input type="hidden" name="pg" value="4">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#ffffff">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >この手の意見を見て思いますが…
+
+Ｌｖなんて、ＣＯＭ相手にカード集めてれば嫌でも上がりますし
+レアなカードだけが強いわけでもないです。
+
+それに、このスレだけではないですが、負けるのをカードのせいにして
+規制しようとするのをちょくちょく見かけますが
+ハンターズVsアークスとかならともかく、同種対決であれば結局
+強い人はカードを集めてるし、それを有効に利用してるからであって
+運だけで勝敗決めるのであれば、別にカードゲームやる必要ないと思います。
+
+カード資産が豊富→多彩な戦略が組める→有効に利用すれば結果的に強くなる
+ので、他人より優位に立つ為にカードを集めるわけだし、それを否定されては
+カード収集そのものを否定してるようなもので。
+
+あと、圧倒的差で負けるのは
+
+１：ダイスの出目が悪い
+２：カードの引きが悪い
+３：デッキの構成が悪い
+
+のどれかしかないと思います。
+１に於いては自分の運の無さを嘆くしかないですが、２に於いては
+結局デッキの構成が悪い為に引きが悪くなってる事も多いので
+半数は３と一緒かもしれません。
+つまり、大半は自分のせいと。
+
+また、一々ルールを細分化されると、それ対応のデッキを
+組む必要があるので、わざわざそれを選ぶ人も少ない気がしますが…。
+
+今のレアリティ分類があれば充分だと思います。
+
+最後に、強い人のデッキを真似てみて、とりあえず使ってみる。
+同じ資産が無ければ類似品又は同種別物で代用してみる。
+そうすれば何で強いのか分かると思いますよ。
+また、それが分かれば弱点も見えてくると思います。
+
+</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#ffffff">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

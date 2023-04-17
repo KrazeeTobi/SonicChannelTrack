@@ -1,0 +1,108 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOEP3トライアル版』専用掲示板</title>
+</head>
+<body background="/pso3/bbs/img/pso_bk1.png" bgcolor="#003333" text="#FFFFFF" link="#99FF99" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso3/bbs/t/trial/4/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#ffffff">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="trial">
+<input type="hidden" name="id" value="snhweb">
+<input type="hidden" name="id2" value="qmoiux">
+<input type="hidden" name="pg" value="4">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#ffffff">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >＞無為さん
+レス感謝。
+負け表示の最大の欠点ってどのように負けたかが分からないところなんですよね。
+無為さんの仰るような”強さのバロメーター”には成り得ないということです。
+例えば相手のレベルに合わせて自分のカードを封印して闘った人と
+弱いものイジメのように初心者部屋に乱入しまくってそれでも負けた人、
+全てが同じ”一敗”なんですよ。
+200勝150負、80勝10負、後者が強いとは全く言い切れませんし、
+実はなんの目安にもならないところに問題あると思うんです。
+であれば結局は自分の都合に合わせてスタート、リセット可能なほうが
+余程理にかなってると思ったわけです。
+でも称号はなんか楽しそうですね。
+
+
+＞13-2さん
+レスさんくすです。
+実際Dが付いてる方の中で落ち逃げしてる人ってどれだけいるのでしょうか？
+しかもそれが抑制になってるとも思いませんし。
+今回のEP3はver.2やEP1&2と違って、それらでフィールドで遊んでいる
+状態全てがDの付く対象ですよね。
+潜る＝PSOでのバトルってことですから。
+ということは確実にこれまでよりD祭りなわけで、回線の悪い人はっきりと
+目立つのは間違いありません。
+EP1&2で潜っている時に落ちたらD付けますって言われたらDだらけになる方
+って沢山いるわけですよ。
+今回は正にそれなんです。
+元々回線事故の回数を示すものではなくて、落ち逃げの回数を示す”汚点”
+みたいなものなんですからそれを落ちても付けますよって言われたら困る人、
+不快に思う人は沢山いると思いますよ。
+現状回線の不安定な知人が数人います。
+そういう人たちに”落ち逃げしました”ってレッテルを貼るのは本当にいいことなのでしょうか？
+事故と故意が判別出来ない以上、なんの目安にもならないわけですし
+必要ないと思ったわけです。</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#ffffff">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

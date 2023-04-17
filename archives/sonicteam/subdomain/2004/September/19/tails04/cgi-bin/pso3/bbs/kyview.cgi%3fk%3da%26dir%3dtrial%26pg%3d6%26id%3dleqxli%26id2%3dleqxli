@@ -1,0 +1,82 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOEP3トライアル版』専用掲示板</title>
+</head>
+<body background="/pso3/bbs/img/pso_bk1.png" bgcolor="#003333" text="#FFFFFF" link="#99FF99" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso3/bbs/t/trial/6/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#ffffff">MAKING APPEND NOTE</font>
+<hr>
+<p>
+<table width="100%" border="0">
+<tr bgcolor="#008080"><td width="100%"><strong>元の発言</strong></td>
+<td align="right" width="1%" nowrap> <br></td></tr>
+<tr bgcolor="#008080"><td colspan="2"><strong>Ｍａｓｔｅｒ（シルファ専属司令官）</strong>  <i> 2003/08/10</i>  </td></tr>
+<tr bgcolor="#003333"><td colspan="2">　いろいろダイスに関する意見がありますが、まずはダイスについてきちんと理解してみ<BR>ませんか？<BR><BR>　一般に言うダイス（サイコロ）は、１から６の乱数を発生させるものです。<BR>　それぞれの数字が出る確率は、みなさんご存知のとおり「1/6」です。<BR><BR>　それでは実験してみましょう。<BR>　サイコロを持ってきて、６回振ってみてください。<BR>　１から６それぞれの目が１回ずつ出るでしょうか？<BR><BR>ダイスを6回振った場合<BR>1 :     0<BR>2 :     3<BR>3 :     1<BR>4 :     1<BR>5 :     1<BR>6 :     0<BR><BR>　あれれれれ？　なんだかものすごい偏りになっちゃいましたね。<BR>　これは乱数発生装置であるわたし（もしくはあなた）の手がおかしいのでしょうか？<BR>　では、回数を増やして６万回振ってみましょう。これなら１万回ずつになるでしょう。<BR><BR>ダイスを60000回振った場合<BR>1 :  9790<BR>2 :  9981<BR>3 : 10009<BR>4 : 10154<BR>5 : 10126<BR>6 :  9940<BR><BR>　６万回も振るのは大変（本当はコンピューターに振らせました（笑））でしたが、やっ<BR>ぱり回数は「1/6」になりません。<BR><BR>　実は、ダイスを６回振って１から６の数が１回ずつ出る確率は、約1.5%ほどなのです。<BR>　なぜこのようになるのでしょうか？<BR><BR>　これは「ランダム」をきちんと理解していないために起こる勘違いなのです。<BR>　ランダムとは「発生に規則性がない」「発生する可能性がすべて等しい」ということで<BR>す。<BR><BR>　サイコロは１から６の数字のうちひとつをランダムに発生します。<BR>　これは「前に出した数はまったく関係ない」のです。<BR>　つまり、前回６が出たからといっても、今回も６が出る可能性は、ほかの数字と同じな<BR>のです。<BR><BR>　今度は４人にサイコロを４８回ずつ振ってもらいます。<BR>　ダイスフェイズだけと見れば、24ターン分といったところでしょうか。<BR>　わかりやすいように、1 には赤、6 には黄色の色を付けてみます。<BR><BR>A : 535524 255532 2<font color=red>1</font>5<font color=red>1</font>4<font color=yellow>6</font> 4<font color=yellow>6</font>23<font color=yellow>6</font>3 <font color=yellow>6</font><font color=red>1</font>4254 222332 <font color=yellow>6</font>4<font color=red>1</font>433 <font color=red>1</font><font color=red>1</font>43<font color=red>1</font><font color=yellow>6</font> <BR>B : 24525<font color=red>1</font> <font color=red>1</font><font color=yellow>6</font>5524 2<font color=red>1</font>45<font color=red>1</font><font color=yellow>6</font> 432<font color=yellow>6</font>2<font color=yellow>6</font> 5<font color=yellow>6</font><font color=yellow>6</font>335 3<font color=red>1</font><font color=red>1</font>3<font color=red>1</font>4 23<font color=red>1</font>523 22<font color=yellow>6</font><font color=yellow>6</font>2<font color=yellow>6</font> <BR>C : <font color=red>1</font>54<font color=yellow>6</font>24 232<font color=yellow>6</font>23 435<font color=red>1</font>5<font color=red>1</font> 52<font color=yellow>6</font>353 25425<font color=red>1</font> 3<font color=red>1</font><font color=red>1</font>23<font color=yellow>6</font> 325<font color=yellow>6</font>55 54<font color=red>1</font>35<font color=yellow>6</font> <BR>D : 24<font color=yellow>6</font><font color=red>1</font><font color=red>1</font>4 4<font color=yellow>6</font>33<font color=yellow>6</font><font color=red>1</font> <font color=red>1</font>2<font color=red>1</font><font color=yellow>6</font><font color=yellow>6</font>3 34<font color=red>1</font><font color=red>1</font>24 25<font color=red>1</font><font color=red>1</font><font color=red>1</font>5 2<font color=yellow>6</font>4<font color=red>1</font><font color=red>1</font>2 442<font color=red>1</font><font color=red>1</font><font color=yellow>6</font> 2423<font color=red>1</font>2 <BR><BR>　偏っているように見えますか？<BR>　これが「ランダム」というものなのです。<BR>　回数を増やしていくと、それぞれの数字が出てくる回数は、全体の 1/6 に「近づいて」<BR>いきます。<BR>　しかし、出てくる順番には規則性はないのです。<BR><BR>　１試合で振るダイスは、多いときでもせいぜいが数百回です。偏って見えて当たり前な<BR>のです。<BR>　サーバー全体で見れば、だいぶ 1/6 に収束していることと思います（笑）。<BR><BR>　では、ダイスの目をよくするにはどうしたらよいのか？<BR>　ダイスの神様にケーキでもお供えするといいかもしれません（笑）。</td></tr>
+</table>
+</p>
+<p>
+<form action="submit.cgi" method="post" >
+メッセージ ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual">
+</textarea><BR>
+
+<input type="hidden" name="title" value="Re:【講義】ダイスの出目について">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="pg" value="6">
+<input type="hidden" name="id" value="leqxli">
+<input type="hidden" name="id2" value="leqxli">
+<input type="hidden" name="dir" value="trial">
+</p>
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+<input type="hidden" name="c" value="APPEND">
+<p>
+<input type="submit" value="APPEND"> 書き込み 
+
+</p>
+</form>

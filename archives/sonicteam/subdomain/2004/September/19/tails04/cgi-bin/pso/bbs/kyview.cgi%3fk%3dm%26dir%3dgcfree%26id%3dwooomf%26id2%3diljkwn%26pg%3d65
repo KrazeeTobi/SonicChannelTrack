@@ -1,0 +1,126 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/65/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="gcfree">
+<input type="hidden" name="id" value="wooomf">
+<input type="hidden" name="id2" value="iljkwn">
+<input type="hidden" name="pg" value="65">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >現行版(1.0)・・今日は絶望的かな
+
+恐らく回線は関係ないでしょうね。
+
+修正版(V1.1)・・問題なし
+現行版(V1.0)・・接続不可
+
+でいいのでしょう。
+
+しかし・・・
+「ただいま原因を調査、対策中です。もうしばらくお待ち下さい」
+の一言でもいいから欲しいものです…
+
+まぁ…それが日本の体質か…
+
+以下原文
+それって修正版ですか？
+
+下の記事を読む限り、修正版は生きているようです。
+私は現行版ですが本日午前零時より現在に至るまで全く接続できません。
+（これが事実なら修正版に移行しろと圧力をかけてるとも取れますが）
+現行版でも繋がってる人いるんですかね？
+
+一応私の通信環境
+プロバイダ：TTnet
+通信：フレッツADSL8M
+
+ISAOの認証サーバーがくたばっているという話もありますが・・
+
+何が原因であれ、どこに責任があれ１２時間以上も何の見解も出さないISAOにもソニチにも困ったものですねぇ・・・
+結果だけでなく経緯も（できればリアルタイムで）発表するのが不具合時の対応ではないのですか？
+
+ただ待てではユーザー（特に週末組）に大変失礼じゃないでしょうか？
+
+－－－－－－－－－－－－－－－－－－－－
+
+私事ですが昨日仕事の都合上どうしても週末できない友人が
+珍しくできるというので旧ＤＣメンバー４人、夜１２時集合でやろうという話になったのですが
+この不具合。
+で今日の１０時から、ということになったのですが今だに・・
+友人のタイムリミットは３時。不具合タイミング最悪の上、今日は絶望的ですね。
+残念無念です・・・
+</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

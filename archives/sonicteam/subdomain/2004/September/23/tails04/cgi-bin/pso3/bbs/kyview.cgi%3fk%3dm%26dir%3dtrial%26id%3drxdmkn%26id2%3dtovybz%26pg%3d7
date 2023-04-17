@@ -1,0 +1,147 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOEP3トライアル版』専用掲示板</title>
+</head>
+<body background="/pso3/bbs/img/pso_bk1.png" bgcolor="#003333" text="#FFFFFF" link="#99FF99" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso3/bbs/t/trial/7/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#ffffff">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="trial">
+<input type="hidden" name="id" value="rxdmkn">
+<input type="hidden" name="id2" value="tovybz">
+<input type="hidden" name="pg" value="7">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#ffffff">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >防御エネミーってなんだろう…
+
+亡霊現象が不具合かどうかをここで論じた所で結論見えないので、
+視点を変えて考えてみました。
+
+そもそも防御エネミーとはどういうものなのでしょう。
+
+
+一つは睦月さんが言われるように、攻撃ベクトルを無理矢理
+自分の方へ向けさせて、Ｓキャラへの攻撃を回避するというもの
+
+確かにこれなら、「攻撃のベクトルを変更する存在」がいる限り、
+本体への攻撃は出来無そうです。
+当然この場合、攻撃先のエネミーが死亡していれば、空振りになる理屈も判ります。
+しかし、そもそも「攻撃のベクトルを変更する存在」が死亡し、
+変更することが不可能となっていれば、攻撃の本来の目標である
+Ｓキャラ本体へそのまま向かうはずですね。
+
+
+では、別の可能性を模索してみます。
+防御ＡＣのなかに、出した防御対象への攻撃を身代わりで受ける
+ディフェンダーというカードがあります。
+カードイラストがその効果を必ずしも現しているとは限りませんが、
+あれを見る限りは、自らが攻撃の前に立ちふさがって、攻撃を
+替わりに受け止めるといったイメージです。
+
+例えば、防御エネミーがこれと同じように防御の時にだけ
+Ｓキャラの前に立ちはだかって、攻撃を替わりに受け止めると考えます。
+
+この場合もやはり、エネミーが死亡した時点で立ちふさがる対象が
+いなくなるわけですから、そのまま本体へ攻撃が通るという形になります。
+
+あ、一応ことわっておきますが、あくまでもリアルにこういった
+戦闘が繰り広げられたらどうなるだろうって架空の話なので
+システム的にフェイズの頭で処理を一括してやるから、防御エネミーは
+いるものとして全て処理されるとか、そんなことは一切考えに
+入ってませんのであしからず…
+
+
+貫通攻撃に関しても、一つは針のように貫くような攻撃で、
+防御しているものを越えて本体にまで到達する攻撃って
+考え方もあります(ドリルランチャーとかはこういうイメージですよね)
+
+でもこれだと本来なら、防御物も同時に被害を受けちゃいますけどね。
+
+もう一つは、空間を越えて防御物の向こう側にダイレクトに
+空間を開いて本体へ攻撃が通るって考え方。
+
+これなら防御物が被害を受けることなく、本体だけにダメージが行きますね。
+
+まあ、どちらのパターンも遮蔽物の先を攻撃することには変わりません。
+
+で、ここで先の防御エネミーの考えを引っ張り出してきます。
+
+自らが立ちふさがって、攻撃を防ぐというパターンの場合、
+いわゆる盾と同じ考えとなりますから、防御エネミーの先にいる
+本体に攻撃が届いてしまうために、ダメージを受ける理屈は通ります。
+
+攻撃ベクトルを強制的に変える場合、貫通攻撃もベクトルが
+変えられるのなら、防御エネミーの先にはなにもないので
+空振りとなってしまいます。
+この場合、ダメージを受けてしまうことを考慮すると
+貫通攻撃は、そもそもベクトル変更の影響を受けないと考えれば
+つじつまが合います。(スマートな考え方ではありませんが)
+
+
+とりあえず、防御エネミーと貫通攻撃をイメージするとこんな感じですかね。
+
+もう一度、言っておきますがこれはあくまでも攻撃が実際に
+リアルで行われたとしたらという妄想の元に構築してますので
+システム的な論理は排除してあるんで、そこはツッコミ入れないでくださいね～(笑)
+</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#ffffff">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>
