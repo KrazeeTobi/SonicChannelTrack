@@ -1,0 +1,115 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOEP3トライアル版』専用掲示板</title>
+</head>
+<body background="/pso3/bbs/img/pso_bk1.png" bgcolor="#003333" text="#FFFFFF" link="#99FF99" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso3/bbs/t/trial/6/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#ffffff">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="trial">
+<input type="hidden" name="id" value="josyjp">
+<input type="hidden" name="id2" value="avdwus">
+<input type="hidden" name="pg" value="6">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#ffffff">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >フォーマットを思い付いた行きさつは…
+
+色々BBSで文句言ってますけど
+Ep3って思った以上によく出来てます。本当に。
+
+でも、やればやるほど意図が見えてこなくなる事もありまして…
+
+ある程度やっている方なら実感していると思いますが
+カードの種類が揃ってきたきて組んだデッキなら
+コンボ(手札)が揃えば1ターンでデフォルトHPの15を上回るダメージなんて
+意外と簡単に出せます。
+
+そうなると、どちらが先にコンボを出すか？もしくはしのぐか？
+という刹那的な勝負になっていくと思います。
+…カードゲームはそういうものでそれが面白いんだといわれればそれまでですが…
+
+そうなった場合、いや、それを見越して
+ルール設定でHPをいじれるようになっているのではないかと。
+（攻撃力のインフレをHPを上げる事によってバランスをとる）
+
+ユーザー任せといえばそれまでですが、なんか任せすぎ…(汗
+
+それなら、想定したデッキの能力に合わせたフォーマットがあれば、
+そしてそれをカード入手のタイミングに絡めれば
+初心者へのデッキおよび戦術指南から上級者のハイレベルな戦いまで
+うまくフォローできるのではないかと思った次第です。
+
+御心配されてるフォーマットごとのコミュニティの問題ですが
+現状既にClvによるコミュニティの問題があるわけで…
+それと比較すれば自身で調節できる分、メリットはあると思います。
+
+＃自分を引きあいに出すなら
+＃見ず知らずの高Clvの人と対戦する気にはなかなかなれませんし
+（乱入された場合は他の参加者さん次第ですけど…）
+＃低Clvの人と対戦するのもちょっと気が引けてしまいます。
+（Com狩りや演習目的ならこの限りではないですが…）
+＃かといって、同じ位のClvの人と戦うと、
+＃見た事もないカードがバンバン出てきたりして(汗
+＃Clvって当てにならないなぁ～と(苦笑
+＃きっと「コイツClvのわりにたいした事ないな」と思われてるんだろうなぁ～(^-^;</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#ffffff">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

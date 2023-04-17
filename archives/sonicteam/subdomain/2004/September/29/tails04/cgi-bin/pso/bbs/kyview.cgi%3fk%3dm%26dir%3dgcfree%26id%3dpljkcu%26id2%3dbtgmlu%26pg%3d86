@@ -1,0 +1,117 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/86/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="gcfree">
+<input type="hidden" name="id" value="pljkcu">
+<input type="hidden" name="id2" value="btgmlu">
+<input type="hidden" name="pg" value="86">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >補足（↓解説追加）
+
+GC版ギルカにはメモ機能やメール着信拒否機能などがあります。
+また、DC版のギルカデータにはギルカの情報だけでなく
+一部のクエストデータも記録できるような領域が
+用意されていたようです。
+
+ですからクスクスさんの計算は単純すぎると思います。
+
+＞まあ、実際のところどうなのか知りませんけど
+私もそうですが
+憶測で無責任なことは言わない方が良いと思われます。
+その情報で困る他人が居るのですから。
+
+-----
+（追加分）
+
+DC：保存できるキャラクタ数：１
+GC：保存できるキャラクタ数：４＋ゲスト３
+
+DC：チェックルームに預けられるアイテムの数＝ 60
+GC：チェックルームに預けられるアイテムの数＝200
+
+手持ちの30個は変わりないので一人の持ち物は90から230に。
+これが7人分なので「90個から1610個」になっています。
+10倍になったぐらいで済んで良かったですよね。
+
+現に「GCでは容量の関係でDLクエストは『ない』」という噂が
+流れつつあります。一種の営業妨害にもなりえます。
+
+私はそんな根も葉もない噂でがっかりしている人を増やすよりは
+今後の配信に期待して夢膨らませることができる人と冒険したい。
+
+間違った情報を友人に言いふらして後で困ったりしませんか？</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

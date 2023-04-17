@@ -1,0 +1,178 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=Shift_JIS">
+<meta name="description" content="">
+<style type="text/css"><!--
+
+    div,p,tr,td,a{font-size:9pt;text-decoration:none;}
+    input,textarea,select{background-color: #FFEEEE; color: #0033CC; border: 1 solid #33CCFF;}
+    input.button{background-color: #33CCFF; color: #FCFCFC; border: 3 double;}
+    input.noborder{background-color: #FCFCFC; color: #33CCFF; border: 0;}
+    A:active{text-decoration:none; color:#000000;}
+    A:HOVER{color:#FF9933;}
+    hr{color: #33CCFF;}
+
+
+--></style>
+<title>ＣＨＡＯ ＢＢＳ</title>
+</head>
+
+
+<BODY BACKGROUND="/bbs/img/chao_bg_new.gif" bgcolor="#eeffff" TEXT="#003399" link="#0000CC" Vlink="#9966CC">
+<font size=2>
+
+<DIV ALIGN="center">
+<P>
+<TABLE BORDER="0" WIDTH="100%" BORDERCOLOR="#00CCFF" BGCOLOR="#00CCFF" CELLSPACING="0" CELLPADDING="4">
+<TD ALIGN=RIGHT>
+<a href="/cgi-bin/bbs/main.cgi?Lang=ja&Book=chao_ja&Mode=NewForm"><IMG SRC="/bbs/img/icon_new.gif" BORDER="0">新しく発言をつくる</a>
+<a href="/bbs/chao_ja/index.html"><IMG SRC="/bbs/img/icon_chao.gif" BORDER=0>ＣＨＡＯ ＢＢＳ</a>
+</TD>
+</TABLE>
+</DIV>
+
+<P>
+
+<font size="+2" color="#0055FF">予備実験ループ(2004/05/29)</font><br>
+
+<table width="100%">
+<tr><td nowrap>
+</font></td></tr></table>
+
+<DIV ALIGN="center">
+
+<TABLE BORDER="0" WIDTH="100%" BORDERCOLOR="#00CCFF" BGCOLOR="#00CCFF" CELLSPACING="0">
+<TR>
+<TD BGCOLOR="#00CCFF">
+<FONT SIZE=2 COLOR="#FFFFFF">
+<STRONG>d</STRONG>
+ID:000043
+2004/05/29 04:43:23
+</TD>
+
+<TD><FONT COLOR="#FFFFFF" SIZE=2>
+<DIV ALIGN="RIGHT">
+<a href="/cgi-bin/bbs/main.cgi?Lang=ja&Book=chao_ja&Mode=ResForm&Parent=000324-15-000038">
+<IMG SRC="/bbs/img/icon_re.gif" BORDER=0> 返事を書く   </a>
+
+<a href="/cgi-bin/bbs/main.cgi?Lang=ja&Book=chao_ja&Mode=RevForm&Parent=000324-15-000038">
+<IMG SRC="/bbs/img/icon_note.gif" BORDER=0> 発言の修正   </a>
+
+
+<IMG SRC="/bbs/img/icon_home.gif" BORDER=0> ホームぺージ
+
+</DIV>
+</TD>
+<br>
+</font>
+</td>
+</tr>
+
+<tr>
+<TD BGCOLOR="#FCFCFC" COLSPAN=2>
+<TABLE BORDER=0 WIDTH="100%" CELLSPACING="0" CELLPADDING="4">
+<TR>
+<TD WIDTH=50>
+<IMG SRC="/bbs/img/_none.gif" ALIGN="LEFT">
+</TD>
+<TD>
+<FONT SIZE=2 color="#000000">
+下準備(2004/05/28)<br>
+<br>
+<br>
+えーおれがやるのー、とか言ってみたり。いや、別にやったっていいんですけど。<br>
+<br>
+そうそう、入室第1号はソニックでした。書き忘れてました。<br>
+<br>
+それはそれとして、手を付けるとなると、初期条件をどうするかがちょっと問題になるような気が何となくします。「素直」で「四角い実」が好物な奴同士をぶつけたらどうなるのか、とか。<br>
+<br>
+<br>
+性格に関しては、属性（というか変数）と値の関係を全然推測できていないのが現状。いくつかの値が候補として保持されていて、そのうち1つが、性格を確定させる段階で変数に代入される、とか？（そうであるなら、それ以外の選ばれなかった値はどうなる？）<br>
+<br>
+あと、孵化の時に確定した性格は死ぬまで変わらなかったのかどうか、ということが記憶に残ってません。変わらなかったんでしたっけ。<br>
+<br>
+相性の問題は、それなりに手を焼きそうな感じ。必ず繁殖が失敗（または成功）する性格その他の組み合わせがある、みたいな話になっていてくれると、それはそれでありがたいんですが。<br>
+<br>
+<br>
+もう1つは、継承されるアビリティ（以下、等級）とスキル（以下、能力値）とのあいだに関係はあるのか、ということ。実のところ、私が本当に確かめてみたかったのはこれでして、前回のはそのための予備実験（及びリハビリ）みたいなものでした。<br>
+<br>
+全ての能力値が0で、かつ、等級がそれぞれCBBCCとCDCCCである2体を、ハートの実不使用でかけ合わせた場合、子に継承される等級はどうなるのか、みたいなことはわりと前から考えていたので、そろそろ手を出してみようかなあ、と。<br>
+<br>
+<br>
+ついでに、もう1つ引っかかるのが、顔。今回生成されたデータの場合、どういうわけかCDCCD型の顔に口を確認していなかったりします。200回ゆすっても壁にぶつけても、結果は同じでした。見落としただけかもしれませんけど。<br>
+<br>
+ヘタすると、ブサイクの子はブサイク、なんてなことになるわけで。<br>
+<br>
+<br>
+……とまあ、考えればキリがないんですが、手広くやるのは嫌いというか性に合わないので、何を調べるのかを絞り込んで、それからやってみようかなと思っていたりします。<br>
+<br>
+そんなわけで、どういった条件でやっていきましょうか。<br>
+<br>
+<br>
+<br>
+<br>
+--------<br>
+予備実験ループ(2004/05/29)<br>
+<br>
+<br>
+むしろ予備実験地獄。<br>
+<br>
+<br>
+----<br>
+以下の手順を100回繰り返す。<br>
+<br>
+(1) 保健室に入ってカルテを確認<br>
+(2) 保健室から出る（幼稚園からは出ない）<br>
+<br>
+(1)で確認するのは、「性格」と「好み」の2つ。<br>
+<br>
+結果は以下の通り。<br>
+<br>
+CDCCD型<br>
+・ケース1：好物が四角い実の場合<br>
+　・くいしんぼ：33<br>
+　・のんびり：32<br>
+　・泣き虫：35<br>
+・ケース2：好物が丸い実の場合<br>
+　・のんびり：40<br>
+　・泣き虫：30<br>
+　・素直：30<br>
+<br>
+CBBCD型（どちらも好物は四角い実）<br>
+・ケース1<br>
+　・素直：100<br>
+・ケース2<br>
+　・好奇心旺盛：51<br>
+　・素直：49<br>
+----<br>
+<br>
+<br>
+……何だよこれ。<br>
+<br>
+何だか最初の主題から脱線してきているので、ここいらでいったん凍結。というか、これだけで1つの主題として扱えそうなんで、誰か食いついてくれ……。<br>
+<br>
+そんなわけで、そろそろ本題に移りますが、性格に関しては不問にしておこうかと思います。どちらも好物が四角い実ならそれでよし、という方向で。<br>
+<br>
+あー、眠い。
+</FONT>
+</TD>
+</TABLE>
+</TD>
+</TABLE>
+
+
+<P>
+
+<TABLE BORDER="0" WIDTH="100%" BORDERCOLOR="#00CCFF" BGCOLOR="#00CCFF" CELLPADDING="4" CELLSPACING="0">
+<TR>
+<TD>
+<FONT SIZE=2 COLOR="#FFFFFF">
+<a href="/bbs/chao_ja/index.html"><IMG SRC="/bbs/img/icon_chao.gif" BORDER=0>ＣＨＡＯ ＢＢＳ</a>
+<small>新規発言を反映させるにはＲトリガーで表示されるメニューの中から、『再読み込み』を選んでＡボタンを押してください。
+</small>
+</font>
+</TD>
+</TABLE>
+
+</body>
+</html>
