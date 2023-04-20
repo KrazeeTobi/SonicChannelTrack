@@ -680,6 +680,10 @@ section {
   color: #f8b617;
 }
 
+.guideWrap.-nopoint nav.topNav li.menuGuide a {
+  color: #fff;
+}
+
 .langWrap {
   position: absolute;
   z-index: 1;
@@ -857,6 +861,23 @@ header .guide02 {
     max-width: 380px;
     width: 57%;
     margin: 0 auto 5vw;
+    right: 0;
+  }
+}
+header .guide03 {
+  position: absolute;
+  max-width: 380px;
+  width: 21%;
+  right: 10px;
+  bottom: 46%;
+  z-index: 90;
+}
+@media screen and (max-width: 768px) {
+  header .guide03 {
+    position: relative;
+    max-width: 380px;
+    width: 57%;
+    margin: 0 auto 1vw;
     right: 0;
   }
 }
@@ -1073,6 +1094,24 @@ header .topMovieWrap .movieBox .movieThumimg {
   max-width: 980px;
   width: 100%;
   margin: 0 auto;
+}
+#contents .inner .guidebtn {
+  text-align: center;
+  margin: 0 auto 7%;
+  width: 28%;
+}
+#contents .inner .guidebtn.-guidepage {
+  width: 35%;
+}
+@media screen and (max-width: 768px) {
+  #contents .inner .guidebtn.-guidepage {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 768px) {
+  #contents .inner .guidebtn {
+    width: 90%;
+  }
 }
 #contents .title {
   position: relative;
