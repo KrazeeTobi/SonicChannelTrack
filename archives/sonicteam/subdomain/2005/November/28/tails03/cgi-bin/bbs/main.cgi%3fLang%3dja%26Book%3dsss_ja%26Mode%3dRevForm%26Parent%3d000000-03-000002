@@ -1,0 +1,153 @@
+<html>
+<head>
+<title>スーパースターズ ＢＢＳ</title>
+<link rel="stylesheet" href="/bbs/sss_ja/sss_bbs.css" type="text/css">
+<meta http-equiv="Content-Type" content="text/html;charset=Shift_JIS">
+</head>
+
+<div align="center">
+
+  <table border=0 width="100%" cellspacing="0" cellpadding="4">
+    <tr> 
+      <td class="td02"> <font size="+2" color="#FFFFFF">NOTE MENU</font> <font size=2 color="#FFFFFF"> 
+        －発言の修正と削除－ </font> </td>
+      <td align="RIGHT" class="td02"> <a href="/bbs/sss_ja/index.html"> <b>スーパースターズ ＢＢＳ</b></a> </td>
+  </table>
+<br>
+<form action="main.cgi" method="POST">
+  <table border=0 width="100%" cellpadding="4" cellspacing="0">
+    <tr> 
+      <td class="td02" align="left" valign="bottom"><font color="#FFFFFF"><b>必要な情報を入力します。</b></font>
+	  </td>
+    <tr> 
+      <td class="td02"> 
+        <table border=0 bgcolor="#FCFCFC" width="100%" cellpadding="4" cellspacing="0">
+          
+            <tr> 
+              <td align="RIGHT" valign="MIDDLE" NOWRAP width=159 class="td_dot"> 
+                <input type="hidden" name="Lang" value="ja">
+                <input type="hidden" name="Book" value="sss_ja">
+                <input type="hidden" name="Mode" value="RevPost">
+                <input type="hidden" name="Parent" value="000000-03-000002">
+                <input type="hidden" name="PostId" value="1133194091-25030">
+                なまえ </td>
+              <td class="td_dot"> 
+                <input type="TEXT" name="Name" size="40" maxlength="40" value="" class="input_tx">
+              </td>
+            </tr>
+            <tr> 
+              <td align="RIGHT" valign="MIDDLE" NOWRAP class="td_dot"><font size=2>メールアドレス</font></td>
+              <td class="td_dot"> 
+                <input type="TEXT" name="Mail" size="40" maxlength="40" value="" class="input_tx">
+              </td>
+            <tr> 
+              <td align="RIGHT" valign="MIDDLE" NOWRAP class="td_dot"><font size=2>パスワード</font></td>
+              <td class="td_dot"> 
+                <input type="TEXT" name="Pass" size="40" maxlength="20" value="" class="input_tx">
+              </td>
+            <tr> 
+              <td height="37" valign="MIDDLE" align="RIGHT" NOWRAP class="td_dot">URL</td>
+              <td class="td_dot"> 
+                <input type="TEXT" name="Url" size="40" maxlength="100" value="http://" class="input_tx">
+              </td>
+            <tr> 
+              <td height="31" valign="MIDDLE" align="RIGHT" NOWRAP class="td_plane">　</td>
+              <td class="td_plane"> 
+                <input type="CHECKBOX" name="Cookie" value="ON" CHECKED class=NOBORDER>
+                以後ステータス情報をブラウザに保存する(cookie)</td>
+          
+        </table>
+      </td>
+  </table>
+<br>
+
+
+  <table border=0 width="100%" cellpadding="4" cellspacing="0">
+    <tr> 
+      <td class="td02" align="left" valign="bottom"><b><font color="#FFFFFF">発言の修正</font></b></td>
+    
+    <tr> 
+      <td class="td02"> 
+        <table border=0 bgcolor="#FCFCFC" width="100%" cellpadding="4" cellspacing="0">
+          <tr> 
+            <td rowspan="2" align="RIGHT" valign="BOTTOM" width=20% class="td_dot">タイトル</td>
+            <td class="td_plane"> 発言者はこの記事を修正することができます。<br>
+              メールアドレスとパスワードを入力してください。 </td>
+          <tr> 
+            <td class="td_dot"> 
+              <input type="Text" name="Title" size="40" value="お気に入りは、ナイツ" class="input_tx">
+            </td>
+          <tr> 
+            <td align="RIGHT" valign="MIDDLE" NOWRAP width=20% class="td_dot"> 
+              メッセージの<br>
+              内容</td>
+            <td class="td_dot"> 
+              <textarea name="Text" cols="60" rows="6" wrap="VIRTUAL" >お気に入り第一位は、ナイツです。
+もともとナイツ好きです。
+ナイツファンの中には、下手な移植や続編はいらないという人もいて、その気持ちはよくわかります。
+でも、このナイツのクオリティなら、私は歓迎します！
+もう、シーズタワーが出たときの感激といったら！
+ソニチＢＢＳにすでに書いたので、繰り返しませんけど、ええ。
+
+二位はアミーゴ。ＳＣ５は、さくさく入ったら同点なんですけど。
+
+ぷよオマケは、ぷよ感ばつぐんなんだけど、ある程度やったらあきるっていうか、このぷよ感はチャオに生かしてほしかったなーと思いました。
+
+サッカーは単純なんだけど、みょーにまたやりたくなります。</textarea>
+            </td>
+          <tr> 
+            <td align="RIGHT" valign="MIDDLE" NOWRAP class="td_dot">文字色</td>
+            <td class="td_dot"> 
+              <input type="RADIO" value="#000000" name="Color" class=NOBORDER>
+              <font color="#000000"><big>★</big></font> 
+              <input type="RADIO" value="#808080" name="Color" class=NOBORDER>
+              <font color="#808080"><big>★</big></font> 
+              <input type="RADIO" value="#FF8000" name="Color" class=NOBORDER>
+              <font color="#FF8000"><big>★</big></font> 
+              <input type="RADIO" value="#0080C0" name="Color" class=NOBORDER>
+              <font color="#0080C0"><big>★</big></font> 
+              <input type="RADIO" value="#FF9999" name="Color" class=NOBORDER>
+              <font color="#FF9999"><big>★</big></font> 
+              <input type="RADIO" value="#FF0000" name="Color" class=NOBORDER>
+              <font color="#FF0000"><big>★</big></font> 
+              <input type="RADIO" value="#008000" name="Color" class=NOBORDER>
+              <font color="#008000"><big>★</big></font> 
+              <input type="RADIO" value="#996600" name="Color" class=NOBORDER checked>
+              <font color="#996600"><big>★</big></font> </td>
+          </tr>
+          <tr> 
+            <td align="RIGHT" valign="MIDDLE" NOWRAP width=20% class="td_plane">発言修正</td>
+            <td valign="MIDDLE" class="td_plane"> 
+              <input type="SUBMIT" name="Action" value="Revise" class="input_sb">
+            </td>
+        </table>
+      </td>
+  </table>
+<br>
+
+
+  <table border=0 width="100%" cellpadding="4" cellspacing="0">
+    <tr> 
+      <td class="td02" align="left" valign="bottom"><font color="#FFFFFF"> <font color="#FFFFFF"><b>発言の削除</b></font></font></td>
+    <tr> 
+      <td class="td02"> 
+        <table border=0 bgcolor="#FCFCFC" width="100%" cellpadding="4" cellspacing="0">
+          <tr> 
+            <td rowspan="2" align="RIGHT" valign="BOTTOM" NOWRAP width=20% class="td_plane">発言削除</td>
+            <td class="td_plane">発言者と管理者はこの記事を削除することができます。<br>
+              メールアドレスと確認キーを入力してください。 </td>
+          <tr> 
+            <td class="td_plane"> 
+              <input type="SUBMIT" name="Action" value="Delete" class="input_sb">
+            </td>
+        </table>
+      </td>
+  </table>
+</form>
+
+
+</div>
+
+
+</body>
+</html>

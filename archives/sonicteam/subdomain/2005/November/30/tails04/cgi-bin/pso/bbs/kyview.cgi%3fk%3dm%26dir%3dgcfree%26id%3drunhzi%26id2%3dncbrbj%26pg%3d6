@@ -1,0 +1,102 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/6/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="gcfree">
+<input type="hidden" name="id" value="runhzi">
+<input type="hidden" name="id2" value="ncbrbj">
+<input type="hidden" name="pg" value="6">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >いやいや、まずは修正版
+
+ver2迄ナンて、いつ迄かかるか判らないですし。　取り急ぎ　修正版を。
+ユーザーの良心やモラルに期待する＝無駄。　ちと　きつめかな（＾ー＾；
+まぁでも　ソレが現実でしょうね。　仮に一割のPLがやるとしたら、二部屋に一人近い割合で、トンでもない事です。
+
+正直、DC版の時を思い出すと（特にPSOに関しては）そう言わざるをえないと思いますよ。
+俺自身は　レジットに遊んでこそ楽しいと思うから、今回の件を利用する気はサラサラないですが、そうじゃないPLも　多い筈。
+今回　有効なアイテムも多いですしね。
+PSOは　実年齢や精神年齢が低いPLが多いですし、判らないまま　利用されたりする事もありますから。
+そもそも、こういった不具合をソニチではなく、堂々とネットに垂れ流してる段階で終ってる。
+そういったPLが実際に　居る訳ですから。
+
+他PLと触れ合い、PCを育て協力し、アイテムを探して闘うのが　楽しいと思うんですけどね。
+自ら　ソレを放棄するとは、ナンとも気が知れんなぁ。　インスタントな時代ですなぁ、ホンマ。
+ver2出すなら、DCからのステージはカットor全面改装を希望したいです。
+旧ステージカットして、PCとアイテム、カードデータだけを引き継ぐアペンドにして　ステージを増やして欲しい。
+あとクエスト、スキンも大幅増加で。　オンは残念だけども、住み分けになってしまうと思いますが。
+正直　トライアルでいつもの森を見て、やる気が80％失せました．．．。</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

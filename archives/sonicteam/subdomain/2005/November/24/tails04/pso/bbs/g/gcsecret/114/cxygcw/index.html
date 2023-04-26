@@ -1,0 +1,141 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>
+チャレのテクレベル低下バグ検証&対処法</title>
+<meta name="description" content="このページは KY-VIEW megalopolis で作成した掲示板ログです.そのため,常に内容が変化したり,削除したりします. http://kyprj.yokobori.net/">
+<style type="text/css">
+<!--
+ a.li { text-decoration:none; }
+ a.li:hover { color:#FFFFFF;text-decoration:underline; }
+ pre { font-size: small;letter-spacing:normal;font-family:"ＭＳ Ｐゴシック","Osaka",sans-serif;}
+ tt { line-height:90%;font-size:medium;}
+-->
+</style>
+<script language="javascript">
+<!--
+var d = new Date();
+tl=d.getTime()/1000;
+function g(v)
+{
+	if(v > tl - 86400)
+	{
+		return "color=\"#FFFFFF\"";
+	}
+	return "color=\"#FFFFFF\"";
+}
+//-->
+</script>
+</head>
+<a name="tree_top"></a>
+<!--- 掲示板の色や背景の設定 --->
+<body background="/pso/bbs/img/pso_bk1r.png" bgcolor="#370000" text="#FFFFFF" link="#FFFFCC" vlink="#66CCFF">
+
+<!--- 新規発言・EXIT・INDEX表示 --->
+<div align="right">
+<a href="http://tails04.sonicteam.com/cgi-bin/pso/bbs/kyview.cgi?k=b&dir=gcsecret">新しく発言する</a> 
+<a href="http://www.sonicteam.com/psogc/" target="_top">EXIT</a> 
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcsecret/114/index.html">インデックスへ</a>
+</div>
+
+<!--- 記事タイトル --->
+<font size="+2" color="#FFFFFF">チャレのテクレベル低下バグ検証&対処法</font><BR>
+<hr>
+<pre>　　<tt></tt><a class="li" href="index.html#cxygcw">チャレのテクレベル低下バグ検証&対処法</a> てすたろっさ <small><font id="0" &{g(1044965478)};>2003/02/11 21:11:18  (修正1回)</font></small>
+　　<tt>├</tt><a class="li" href="index.html#szwrck">いまいち需要がなさそうなので</a> てすたろっさ <small><font id="1" &{g(1045029071)};>2003/02/12 14:51:11 </font></small>
+　　<tt>├</tt><a class="li" href="index.html#cspmsn">LV20のデバンドがLV15になったハニュエール...</a> H・K <small><font id="2" &{g(1045035643)};>2003/02/12 16:40:43 </font></small>
+　　<tt>├</tt><a class="li" href="index.html#uibtug">ふむ・・・</a> 女キャラ使い <small><font id="3" &{g(1045047537)};>2003/02/12 19:58:57 </font></small>
+　　<tt>├</tt><a class="li" href="index.html#kjbqxl">私は</a> アクセルブルー <small><font id="4" &{g(1045058379)};>2003/02/12 22:59:39 </font></small>
+　　<tt>└</tt><a class="li" href="index.html#ueloky">一部情報では</a> hota <small><font id="5" &{g(1045065019)};>2003/02/13 00:50:19 </font></small>
+</pre>
+<hr><pre>　　<tt></tt><font color="#FFFFFF">チャレのテクレベル低下バグ検証&対処法</font> てすたろっさ <small>2003/02/11 21:11:18  (修正1回)</small> <a href="index.html#tree_top">ツリーへ</a></pre>
+<a name="cxygcw"></a><p>
+<table width="100%" border="0">
+<tr bgcolor="#660000"><td width="100%"><strong><strong>チャレのテクレベル低下バグ検証&対処法</strong></strong></td>
+<td align="right" width="1%" nowrap><a href="http://tails04.sonicteam.com/cgi-bin/pso/bbs/kyview.cgi?k=a&dir=gcsecret&pg=114&id=cxygcw&id2=cxygcw">返事を書く</a> <a href="http://tails04.sonicteam.com/cgi-bin/pso/bbs/kyview.cgi?k=m&dir=gcsecret&id=cxygcw&id2=cxygcw&pg=114">ノートメニュー</a><br></td></tr>
+<tr bgcolor="#660000"><td colspan="2"><strong>てすたろっさ</strong> <small>&lt;ttypmrocjq&gt;</small> <i>2003/02/11 21:11:18</i>  ** この記事は1回修正されてます</td></tr>
+<tr bgcolor="#370000"><td colspan="2">今回のバグは、チャレンジで「景品を貰った時」、すなわち<BR>S/A/Bランクに達した時に、そのキャラクターのどれか1つの<BR>テクニックレベルがLV15になってしまうというものです。<BR>最終的に3つのテクがLV15になる恐れがあります。<BR><BR>三つの景品を貰った後も何度かクリアして検証してみましたが、<BR>今のところこれ以上このバグになっていません。<BR><BR>景品を貰ってもテクニックレベルが下がらない時もあります。<BR>ただし、かなりまれなケースのように経験上感じました。<BR>これは、あらかじめLV15に下がっていたテクニック・アンティ・<BR>リューカー・リバーサーがバグ対象になったせいかもしれません。<BR><BR>LV15に低下したテクニックは表示通りLV15のTP消費/威力です。<BR>LV表示だけがバグっているということはありません。<BR><BR>そして、以前に覚えたレベル以下のテクニックは覚えられない<BR>という話もありましたが私はOKでした。<BR><BR>私の場合、バグ前はギゾンデLV29でしたがバグによってLV15に低下。<BR>その後ギゾンデLV21とLV29のテクニックディスクを試してみましたが<BR>共に使えました。<BR><BR>ちなみにこのキャラはマテリアルを上限まで使っているにも関わらず<BR>マテリアルが使えるという現象にはなっていません。あくまで「憶測」<BR>ですが、この現象になっているキャラはレベル以下のテクニックを<BR>受け付けないという事も考えられます。<BR><BR>なお、DC時代に○○○/テクニック系のユニットを付けていると<BR>このバグが発生するという話がありましたが、今回私はユニットを<BR>付けていなかったのでこれはないでしょう。<BR><BR>このバグに対する対処法は結局の所、テクニックディスクを確保<BR>しておく事しかありませんね…(^-^;<BR><BR><BR>□■　ここから先はデータ破壊の危険性があるかもしれません　□■<BR><BR><BR>実はプチロストを誘発させて、バグによるダメージを軽減する<BR>方法があります。DC版でNOTYPE狙い撃ちをしたあの方法です。<BR><BR>まず、チャレンジを終了して景品を貰ってロビーに出ます。<BR>そして「ロビーから移動せずに」テクニックのレベルを確認。<BR><BR>もしLV15に低下して困るテクニックの場合はそのまま「電源オフ」。<BR>データがセーブされないのでテクニックレベルは下がりません。<BR>ただし、チャレンジをクリアした事もセーブされません。<BR><BR>この方法を何度もすれば、レベル低下を1種類もしくは被害無しに<BR>抑えられると思われます。<BR><BR>ただし上記の通り、いきなり電源断をするわけですからデータの<BR>破損の恐れがあるかもしれません。私はDC時代を含めて50回<BR>以上はこの方法を試していますが、何も起こっていません…(^-^;</td></tr>
+</table>
+</p>
+
+<pre>　　<tt>├</tt><font color="#FFFFFF">いまいち需要がなさそうなので</font> てすたろっさ <small>2003/02/12 14:51:11 </small> <a href="index.html#tree_top">ツリーへ</a></pre>
+<a name="szwrck"></a><p>
+<table width="100%" border="0">
+<tr bgcolor="#660000"><td width="100%"><strong><strong>Re: <a href="http://tails04.sonicteam.com/pso/bbs/g/gcsecret/114/cxygcw/cxygcw.html#cxygcw">チャレのテクレベル低下バグ検証&対処法</a></strong></strong></td>
+<td align="right" width="1%" nowrap><a href="http://tails04.sonicteam.com/cgi-bin/pso/bbs/kyview.cgi?k=a&dir=gcsecret&pg=114&id=szwrck&id2=cxygcw">返事を書く</a> <a href="http://tails04.sonicteam.com/cgi-bin/pso/bbs/kyview.cgi?k=m&dir=gcsecret&id=szwrck&id2=cxygcw&pg=114">ノートメニュー</a><br></td></tr>
+<tr bgcolor="#660000"><td colspan="2"><strong>てすたろっさ</strong> <small>&lt;ttypmrocjq&gt;</small> <i>2003/02/12 14:51:11</i>  </td></tr>
+<tr bgcolor="#370000"><td colspan="2">いまいち需要がなさそうなので<BR>バグトリガーの検証はやめておきます～(^^;<BR><BR>とりあえず注意しなきゃいけないのは…<BR><Font Size="5" Color="Red">一度下がったテクは再び覚えられない恐れがある</Font><BR>ということです。<BR><BR>もし補助好きフォマが永遠にシフタLV15のままだったら…<BR>もし爆発好きニュムが永遠にラフォイエLV15のままだったら…<BR><BR>この事象の報告がある以上、フォースのメインキャラは出来るだけ<BR>チャレンジをしないことをオススメします。</td></tr>
+</table>
+</p>
+
+<pre>　　<tt>├</tt><font color="#FFFFFF">LV20のデバンドがLV15になったハニュエール...</font> H・K <small>2003/02/12 16:40:43 </small> <a href="index.html#tree_top">ツリーへ</a></pre>
+<a name="cspmsn"></a><p>
+<table width="100%" border="0">
+<tr bgcolor="#660000"><td width="100%"><strong><strong>Re: <a href="http://tails04.sonicteam.com/pso/bbs/g/gcsecret/114/cxygcw/cxygcw.html#cxygcw">チャレのテクレベル低下バグ検証&対処法</a></strong></strong></td>
+<td align="right" width="1%" nowrap><a href="http://tails04.sonicteam.com/cgi-bin/pso/bbs/kyview.cgi?k=a&dir=gcsecret&pg=114&id=cspmsn&id2=cxygcw">返事を書く</a> <a href="http://tails04.sonicteam.com/cgi-bin/pso/bbs/kyview.cgi?k=m&dir=gcsecret&id=cspmsn&id2=cxygcw&pg=114">ノートメニュー</a><br></td></tr>
+<tr bgcolor="#660000"><td colspan="2"><strong>H・K</strong> <small>&lt;itvjjojfoi&gt;</small> <i>2003/02/12 16:40:43</i>  </td></tr>
+<tr bgcolor="#370000"><td colspan="2">LV20のデバンドがLV15になったハニュエールは<BR>LV16を取りましたが、使用できませんでした。<BR>LV20ももちろん使用出来ない状態でした。<BR>使用していないディスクなら、使用可能かもと<BR>期待していたんですが・・・<BR><BR>私もマテリアルは、特に問題ありませんでした。</td></tr>
+</table>
+</p>
+
+<pre>　　<tt>├</tt><font color="#FFFFFF">ふむ・・・</font> 女キャラ使い <small>2003/02/12 19:58:57 </small> <a href="index.html#tree_top">ツリーへ</a></pre>
+<a name="uibtug"></a><p>
+<table width="100%" border="0">
+<tr bgcolor="#660000"><td width="100%"><strong><strong>Re: <a href="http://tails04.sonicteam.com/pso/bbs/g/gcsecret/114/cxygcw/cxygcw.html#cxygcw">チャレのテクレベル低下バグ検証&対処法</a></strong></strong></td>
+<td align="right" width="1%" nowrap><a href="http://tails04.sonicteam.com/cgi-bin/pso/bbs/kyview.cgi?k=a&dir=gcsecret&pg=114&id=uibtug&id2=cxygcw">返事を書く</a> <a href="http://tails04.sonicteam.com/cgi-bin/pso/bbs/kyview.cgi?k=m&dir=gcsecret&id=uibtug&id2=cxygcw&pg=114">ノートメニュー</a><br></td></tr>
+<tr bgcolor="#660000"><td colspan="2"><strong>女キャラ使い</strong> <small>&lt;dodfifhrqg&gt;</small> <i>2003/02/12 19:58:57</i>  </td></tr>
+<tr bgcolor="#370000"><td colspan="2">ふむ・・・<BR><BR>ソニチによるツリー削除が行われていない・・・<BR>(このツリーだけでなく過去の分も含めて）<BR>・・・と、いうことは、現在、対策を考慮中ということか？<BR><BR>私のフォマールはテクレベル、下がっていませんでした<BR>(Ｓ・Ａランクゲットしました）<BR>マテリアルの方はカンストしていないため<BR>使用数リセットがおこったのか判らないです<BR><BR>もし、最終的に２５０こ以上食べたということで<BR>ライセンス剥奪になったら洒落にならん・・・<BR><BR>ソニチには現状の報告を早く行って欲しいものです</td></tr>
+</table>
+</p>
+
+<pre>　　<tt>├</tt><font color="#FFFFFF">私は</font> アクセルブルー <small>2003/02/12 22:59:39 </small> <a href="index.html#tree_top">ツリーへ</a></pre>
+<a name="kjbqxl"></a><p>
+<table width="100%" border="0">
+<tr bgcolor="#660000"><td width="100%"><strong><strong>Re: <a href="http://tails04.sonicteam.com/pso/bbs/g/gcsecret/114/cxygcw/cxygcw.html#cxygcw">チャレのテクレベル低下バグ検証&対処法</a></strong></strong></td>
+<td align="right" width="1%" nowrap><a href="http://tails04.sonicteam.com/cgi-bin/pso/bbs/kyview.cgi?k=a&dir=gcsecret&pg=114&id=kjbqxl&id2=cxygcw">返事を書く</a> <a href="http://tails04.sonicteam.com/cgi-bin/pso/bbs/kyview.cgi?k=m&dir=gcsecret&id=kjbqxl&id2=cxygcw&pg=114">ノートメニュー</a><br></td></tr>
+<tr bgcolor="#660000"><td colspan="2"><strong><a href="http://www3.to/acceleblue" target="_blank">アクセルブルー</a></strong> <small>&lt;tpotoircjo&gt;</small> <i>2003/02/12 22:59:39</i>  </td></tr>
+<tr bgcolor="#370000"><td colspan="2">私は<BR>ハニュエールでクリアしましたが、テクレベルが下がったどうかはわかりませんでした（ラフォイエ等がもともと１５だったため）。<BR><BR>しかしマテリアルカンストしているキャラであるのにパワーマテとイベイドマテが白文字になっています。ラックとHPは灰文字のままです（他のマテは未確認）。</td></tr>
+</table>
+</p>
+
+<pre>　　<tt>└</tt><font color="#FFFFFF">一部情報では</font> hota <small>2003/02/13 00:50:19 </small> <a href="index.html#tree_top">ツリーへ</a></pre>
+<a name="ueloky"></a><p>
+<table width="100%" border="0">
+<tr bgcolor="#660000"><td width="100%"><strong><strong>Re: <a href="http://tails04.sonicteam.com/pso/bbs/g/gcsecret/114/cxygcw/cxygcw.html#cxygcw">チャレのテクレベル低下バグ検証&対処法</a></strong></strong></td>
+<td align="right" width="1%" nowrap><a href="http://tails04.sonicteam.com/cgi-bin/pso/bbs/kyview.cgi?k=a&dir=gcsecret&pg=114&id=ueloky&id2=cxygcw">返事を書く</a> <a href="http://tails04.sonicteam.com/cgi-bin/pso/bbs/kyview.cgi?k=m&dir=gcsecret&id=ueloky&id2=cxygcw&pg=114">ノートメニュー</a><br></td></tr>
+<tr bgcolor="#660000"><td colspan="2"><strong>hota</strong> <small>&lt;bmohzhpjsl&gt;</small> <i>2003/02/13 00:50:19</i>  </td></tr>
+<tr bgcolor="#370000"><td colspan="2">一部情報では<BR>マテが余計に食べられるようになった場合、<BR>パワーマテを食べてた数だけ使用可能数が増えるとか。<BR><BR>テク変化が起きても、マテの使用限界値が変わらなかった方は、<BR>ＦｏでＰマテ使用数０だったりします？</td></tr>
+</table>
+</p>
+
+<!--- EXIT・INDEX表示 --->
+<hr>
+
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcsecret/114/index.html">インデックスへ</a> 
+<a href="http://www.sonicteam.com/psogc/" target="_top">EXIT</a><BR>
+<small>新規発言を反映させるにはブラウザの更新ボタンを押してください。</small>
+</body>
+<script language="javascript">
+<!--
+var d = new Date();
+tl=d.getTime()/1000;
+if(document.all)
+{
+var ttl = new Array();
+ttl[0] = 1044965478
+ttl[1] = 1045029071
+ttl[2] = 1045035643
+ttl[3] = 1045047537
+ttl[4] = 1045058379
+ttl[5] = 1045065019
+	for(i=0;i<6;i++)
+	{
+		if(ttl[i] > tl - 86400 && document.all.item(i.toString(10)))
+		{
+			document.all.item(i.toString(10)).style.color="#FFFFFF";
+		}
+	}
+}
+//-->
+</script>
+</html>

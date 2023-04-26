@@ -1,0 +1,116 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOEP3トライアル版』専用掲示板</title>
+</head>
+<body background="/pso3/bbs/img/pso_bk1.png" bgcolor="#003333" text="#FFFFFF" link="#99FF99" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso3/bbs/t/trial/4/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#ffffff">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="trial">
+<input type="hidden" name="id" value="givttb">
+<input type="hidden" name="id2" value="ohovtb">
+<input type="hidden" name="pg" value="4">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#ffffff">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >デッキ制限は現状の機能でも充分かな
+設定変更で制限できますし、確認する事もできます
+異議が有るなら「デッキ決定しない」という意思表示も出来ます
+（ココが問題なんですよね、試合前にチャットできない）
+
+でも最大コストでの制限や総コストでの制限も出来たら良いですね
+デッキ構築の手間についてはコスト順に並べ替えたりすればなんとかなるかも。
+
+
+問題なのは初心者と上級者が混ざっている事かな。
+カードを沢山持っている人が強い、というのは
+相応の時間や労力を使っているのですから当たり前です
+カード性能は一長一短ですからレアだから強いとは言いません
+でもレアを持っている様なプレイヤーはカードの種類、対人経験、戦略
+が豊富ですから結局低CLvではなかなか太刀打ち出来ないでしょう。
+
+解決作は上手く住み分けする事なのかな。
+どういう対戦相手を探しているかキチンと意思表示する。
+乱入部屋の場合、部屋名を「無移動CLV３以下」とするとか、
+（それでも移動済みのキャラで偽って来る場合は
+そのプレイヤーのモラルの問題だとも思います）
+
+トーナメントについては参加制限がまったく無く、
+試合を始めるまで相手の希望や腕前が解らないのが不便ですね。
+（内容確認で相手のＣＬｖだけは確認できますが）
+ルールは何種類か有りますが、現状ではあまり変わり映えしません
+腕前やデッキのLVごとにトーナメントが有ればなぁ。
+
+
+あと対ＣＯＭ戦でのカード集め、ＬＶ上げは
+対人戦で勝てない人への救済策になります。
+
+ＰＣ２人ｖｓＣＰＵルフィナ１人（大物エネミー狙いなので壁を置かない）
+設定はＡＴＫダイス６、ＤＥＦダイス１～２固定、
+デッキはアクションカード、アシストカード、
+射程の長い武器＆キャラ、ローコストでＡＰの高いカードを
+メインに編集すれば１試合３～５分でＳランクが取れます
+ＥＸＰはパートナーのＣＬＶを調節すればＣＬＶ５まで
+毎回１５ずつ入りますよ。ＣＬｖ４まではあっという間ですね
+
+ダラダラと長くなってしまったのでこの辺で。</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#ffffff">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

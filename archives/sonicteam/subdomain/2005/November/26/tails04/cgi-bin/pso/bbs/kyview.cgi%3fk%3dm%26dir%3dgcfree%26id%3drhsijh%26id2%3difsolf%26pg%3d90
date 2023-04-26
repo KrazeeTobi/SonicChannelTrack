@@ -1,0 +1,143 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/90/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="gcfree">
+<input type="hidden" name="id" value="rhsijh">
+<input type="hidden" name="id2" value="ifsolf">
+<input type="hidden" name="pg" value="90">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >作るとすれば
+
+森、洞窟、坑道、遺跡の４つのエリアに分け、
+各エリアは円形でループ状態になっている
+（つまり円形のすごろくが４つある）
+そしてその中心にはモンスターカードが積まれている
+モンスターカードの裏はそのままアイテムカードとなる
+
+プレイヤー１人はまず好きなコマ（キャラ）を選んで、
+ルーレットにより進んでいく事になる
+そして最低でも１周以上すれば、いつでもボス戦に
+挑むことができる
+
+そしてキャラは職業により装備可能なアイテムが違い、
+ヒューマーなら剣とユニット、ヒューキャストなら剣とトラップ・・・
+というように、各キャラが装備できるのは２種類
+そして各１つづつのみ
+各アイテムは最低装備Ｌｖをプレイヤーが満たしていなければ、
+装備することはできない
+ただし、持つだけならいくらでも持つことができる
+
+ボードには
+・モンスターマーク（一番頭のモンスターカードと戦闘）
+・アイテムボックス（箱アイテムカードを１枚引く）
+・イベントマーク（イベントカードを１枚引く）
+
+モンスターカードには攻撃力とＨＰがあり、
+装備品の攻撃力＋ルーレットでＨＰ以上の目を出せば勝ち
+裏返してアイテムとして使うことができる
+倒せなかった場合、ルーレットを回す
+その目がモンスターの攻撃力以上ならば引き分けとなり、
+そのモンスターはモンスターカードの山の１番下に戻る
+攻撃力未満だった場合、負けとなり装備品を失う
+その場合ロストエリアにカードを置き、スタート地点に戻る
+そしてもう１度１周するまでボスとの対戦資格を失う
+
+箱アイテムカードには比較的弱めの装備品や、
+消耗アイテムしかない
+
+イベントカードには
+・Ｌｖアップカード
+・乱入者カード
+（仲間の乱入など）
+・アクシデントカード
+（ロスト、仲間が通信落ちなど）
+などがある
+
+ボスとの対戦資格を満たした状態であれば、
+自分の手番にボス戦を宣言することができる
+戦闘方法はモンスターとの戦闘に準じる
+
+ボスを倒せば次のエリアに進む（もしくは勝者となる）
+（お手軽にやるなら森だけで終了・・・もできる）
+次のエリアに進む場合は、ロストエリアにあるカードのうち
+３枚を手元に戻すことができる
+
+まあ、実際に作るんじゃないんでここまでで
+
+少し複雑なので、対象年齢が小学生以上になってしまうのが難点かも
+</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>
