@@ -1,0 +1,131 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOEP3トライアル版』専用掲示板</title>
+</head>
+<body background="/pso3/bbs/img/pso_bk1.png" bgcolor="#003333" text="#FFFFFF" link="#99FF99" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso3/bbs/t/trial/5/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#ffffff">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="trial">
+<input type="hidden" name="id" value="bwzjpt">
+<input type="hidden" name="id2" value="lbzjdb">
+<input type="hidden" name="pg" value="5">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#ffffff">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >ふむふむ。
+
+&gt; ■途中切断は故意・偶然を問わず、対戦相手への優遇措置を採る。
+
+確かにいいアイディアだと思います。ただブロック落ちや部屋落ちだとその対戦相手も同時に落ちている可能性が高いですが…
+
+ブロックや部屋落ちの場合、処理しているプロセス自体が落ちるので、
+継続処理は出来ないかも知れませんが、もし可能であれば、
+『切断した本人は経験値減』、『切断された相手は経験増』として、
+この値を同じにしておけば、同時に落ちた場合にはプラスマイナス０で
+単独落ちの場合のみ減るってことは可能そうです。
+
+ただ、これも悪用すれば組織的に捨てキャラで切断しまくって、お互いの経験値を増やすなんてことも出来てしまうのが問題点。
+
+
+&gt; つまり、圧倒的な力で弱い相手を出来るだけ早く
+&gt; ねじ伏せればねじ伏せるほど、その戦闘での
+&gt; 評価が上がるという評価方式に問題があるのです。
+
+これ、私もそう思います。
+対戦結果を総合評価でランクつけしているような表示が
+されてはいるものの、経験的に時間以外評価されていると
+思えないですよね。
+
+時間が掛かっても、耐えて、耐えて、残りＨＰ１で大逆転勝利！
+
+こんなのは充分、評価に値する勝利だと思うんですけどね。
+
+相手にあたえたダメージや受けたダメージ、残りＨＰなど
+総合的に判定して、ランク評価して欲しいと私も思います。
+
+&gt; ■レベルの低い相手に対し、圧倒的勝利を収めた者
+&gt; ■レベルに見合わないカードを使用し勝利した者
+
+こちらは意図することは判るのですが、現実的に難しいですね。
+
+交換などを利用すれば、CLvが低くても高Lvと同じデッキは組めてしまうので、
+単純にCLvの数値的な差で力量差ははかれないですし、
+
+変化によって、通常よりも上位のカードを入手する手段がある以上、
+レベルに見合わないカードの判定も難しいですね。
+
+まあ、ルール設定である程度使用できるカードを制限することは可能ですので、
+それで対応すればある一定まではカバー出きると思うのですが、
+
+それは相手だけでなく、自分の枷にもなってしまうので、
+今のルール設定の規制だと不十分な気もします。
+
+理想は、各カード毎に使用可／不可が設定できればいいのですが、
+そうすると未知のカードまで全て一覧で名称などを表示する
+必要性が出てきて、希少感が薄れてしまうし、設定にも
+時間が掛かってしまうってのが、悩みどころだったりも…
+
+
+なんにせよ、最終的にプレイヤーのモラルに掛かってくる問題になってしまいそうですねぇ～
+</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#ffffff">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>
