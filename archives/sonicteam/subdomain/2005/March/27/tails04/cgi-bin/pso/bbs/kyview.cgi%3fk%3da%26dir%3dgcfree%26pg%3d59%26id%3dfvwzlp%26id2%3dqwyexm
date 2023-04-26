@@ -1,0 +1,82 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/59/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">MAKING APPEND NOTE</font>
+<hr>
+<p>
+<table width="100%" border="0">
+<tr bgcolor="#004080"><td width="100%"><strong>元の発言</strong></td>
+<td align="right" width="1%" nowrap> <br></td></tr>
+<tr bgcolor="#004080"><td colspan="2"><strong>kenshou</strong>  <i> 2003/01/03</i>  </td></tr>
+<tr bgcolor="#000040"><td colspan="2">一般的にCATVでPSOをする場合の注意事項<BR><BR>普通はBBAが必須です<BR># 普通じゃない方法は割愛<BR><BR>CATVでモデム直結の場合、基本はパソコンと同じです<BR><BR>・DHCPで接続するように指定されているならDHCP<BR>・特定のIPアドレスが割り当てられているなら、それを設定<BR>・DNSアドレスが指定されているならそれを設定<BR>という風に設定します<BR><BR>DHCPで設定する多くの局は何も必要ありませんが、<BR>例えば、J-COM@NetHomeはDHCPホスト名(=コンピュータ名)が必要です<BR># 最近になって必要ない方向に移行しているそうです<BR># 局によっては必要ないでしょう<BR># 旧タイタス系の局で駄目な場合、一度、モデムの電源を切りましょう<BR><BR>DHCPでIPアドレスが設定されるケーブル局の場合は、<BR>PCで使っていると、多くの場合IPアドレスを解放する必要があります<BR>以下はZAQのサポートページの説明文ですが、どこでも同じです<BR><a href="http://www.zaq-net.com/setup/no6/troubl.html#07" target="_blank">http://www.zaq-net.com/setup/no6/troubl.html#07</a><BR>この操作が必要かどうかも含めて、自分の局で確認しましょう<BR><BR>繋ぐ機器を変更すると、特別な操作・手続きが必要な場合があります<BR>例えば、モデムのリセット(数分間電源断の場合も)<BR>MACアドレスの登録、ケーブル局への届け出等です<BR>複数台同時に接続する場合は、手続きが必要な場合があります<BR><BR>尚、固定でIPアドレス等が指定されている場合はそれに従って下さい<BR>※注　同じIPアドレスの機器(PCとGC等)は同時に接続できません<BR><BR>詳しくは、ケーブル局に問い合わせましょう<BR><BR>GC版PSOのページのサポートに一部ですが動作確認情報が出ています<BR><a href="http://www.sonicteam.com/psogc/pc/manual_net.html" target="_blank">http://www.sonicteam.com/psogc/pc/manual_net.html</a><BR><BR>参考に、DC版BbAの実績なら、DC版BbAの販売サイトにあります<BR><a href="http://www3.csi-msp.com/bbsite/web/faq/opconf_index.html" target="_blank">http://www3.csi-msp.com/bbsite/web/faq/opconf_index.html</a><BR>ここで自分の局を探してみて下さい<BR># 現在、BBSのサーバが落ちてる見たいですが<BR><BR>グローバルIPアドレスであれば、基本的にUDP ONでも大丈夫です<BR><BR>ルータを使用する場合は、ルータを設定しない場合は初期値のままで<BR><BR>尚、<BR>基本的にプライベートIPアドレスが割り当てられるケーブル局の場合は<BR>ルータを設定しても初期値「UDP自動(=OFF)」のままです</td></tr>
+</table>
+</p>
+<p>
+<form action="submit.cgi" method="post" >
+メッセージ ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual">
+</textarea><BR>
+
+<input type="hidden" name="title" value="Re:一般的にCATVでPSOをする場合の注意事項">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="pg" value="59">
+<input type="hidden" name="id" value="fvwzlp">
+<input type="hidden" name="id2" value="qwyexm">
+<input type="hidden" name="dir" value="gcfree">
+</p>
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+<input type="hidden" name="c" value="APPEND">
+<p>
+<input type="submit" value="APPEND"> 書き込み 
+
+</p>
+</form>

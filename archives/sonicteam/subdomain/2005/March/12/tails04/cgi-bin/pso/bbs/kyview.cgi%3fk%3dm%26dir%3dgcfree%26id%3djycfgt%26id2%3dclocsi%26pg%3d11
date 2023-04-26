@@ -1,0 +1,127 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/11/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="gcfree">
+<input type="hidden" name="id" value="jycfgt">
+<input type="hidden" name="id2" value="clocsi">
+<input type="hidden" name="pg" value="11">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >一応私のコンバート案、参考までに
+微妙に細かく書いたのでやや長文ですが（汗
+・レベルは基本的にそのまま。ただし完全持ち越しでなく
+　一定以上の経験値に関しては、その値の超過分の一部のみ反映される、というようにする。
+　たとえば移行前の経験値６０万で基準値（？）３０万の場合
+　３０万はそのまま移行、残り３０万に関してはその５０％（１５万）
+　→合計４５万となる、といった感じで。
+　ここであえて「上限を設けない」のは、人によって
+　複数のキャラを少しずつ育てる人、１キャラ集中で育てる人と
+　分かれると思い、ここで上限を設けてしまうと
+　後者のプレイヤーにとって不利益となってしまうと思ったので。
+・マテリアル使用による能力強化はリセット。
+　レベル・職業に応じた基本値に戻す。
+・テクは上記の補正後の最終的な精神力にて習得可能なLvを上限として補正
+・シングルプレイにおける各種フラグはそのまま
+・アイテム・メセタは初期状態に。
+　但し装備品に関しては、キャラごとのレベル・職業に応じた
+　基本装備（たとえばHUならセイバー、ブランド、バスター等）に修正。
+　またメセタは「Lv×100+200メセタ」といった感じで
+　ある程度の上昇補正はあったほうが良いと思います、理由としては
+　アンドロイドの場合回復手段としてアイテムを使うことが多いので
+　多少はその購入資金があったほうが良いと思ったので。
+　（私はアンドロイド系キャラはあまり使ってないのですが・・・）
+
+　また、一部「装備品のみ移行可能」という意見もありますが
+　それだと複製→装備→移行、という手順の繰り返しにより
+　実質装備品は複製可能という状態になってしまうと思います。
+・当然現行版とは全く異なるデータフォーマットにして（重要）
+　現行⇔修正版間でのマルチプレイは不可能にする
+といった感じでどうでしょうか。
+
+一応私もあくまで趣味の範囲ではありますが、過去に(現在もですが)
+サークルにてゲームを製作しており、そのときの経験も踏まえて
+バランスを考慮したうえでの案です。
+
+最後のデータフォーマット云々に関しては難しいと思いますが
+他の部分に関しては、プログラム内で数値を操作する程度のことだと
+思いますので技術的には難しいことではないと思いますが・・・
+
+最後に
+「審査」とありますが・・・
+アイテム等の状況自体、各プレイヤーごとのプレイスタイルや
+やりこみ度（？）によりそれこそかなりの差があると思われます。
+それを１つの基準でのみ判断しようというのは無理があるかと。</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

@@ -1,0 +1,111 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/128/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="gcfree">
+<input type="hidden" name="id" value="iakmlt">
+<input type="hidden" name="id2" value="iakmlt">
+<input type="hidden" name="pg" value="128">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >今回、私たちユーザーが署名を行うのは
+ゲームキューブ版ファンタシースターオンラインでの悪質ユーザーに対する処置、並びに一般ユーザーに対する対応の改善要求を目的とします。
+
+私たちは次の内容の改善、または実施をソニックチーム様、SEGA様に要求します。
+
+
+1.現在の悪質ユーザーに対するソニックチーム様の状況の公開。
+2.悪質ユーザーの情報の公開。
+3.悪質ユーザーへの対応の改善。
+4.不正に対する取締りの強化。
+
+
+以上の点を改善、実施を要求するため、私たちはここに署名活動を行います。
+
+2005年2月17日　FIZ
+
+日にちの修正（お恥ずかしいです…）
+誤字修正（ＳＭＪ－ＧＮＲＬ様、細かいところまで読んでいただいてありがとうございます！）
+
+3.被害を受けた一般ユーザーへの謝罪。
+の必要性の点について、項目1.の内容で事足りると判断し削除させていただきます。
+僕の勝手な行動をお許しください。
+
+みなさま、3.の削除について反対であればご自分のレス削除のお願いをします。
+
+同意であれば署名に同意という形で集計させていただきます。
+変更同意について再度署名していただいた方！
+お手数かけて申し訳ありませんでした！</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

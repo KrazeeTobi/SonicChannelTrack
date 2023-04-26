@@ -1,0 +1,110 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/59/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="gcfree">
+<input type="hidden" name="id" value="omkrxl">
+<input type="hidden" name="id2" value="hgmyex">
+<input type="hidden" name="pg" value="59">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >その症状、とにかく直しました。
+私のコントローラーも同じ症状で壊れました（買って二ヶ月なのに）。
+
+原因は、コントローラーに水分（子供のジュース？）が入った為、中が錆びた？様です。
+湿気か、初期不良なのか？？？正確なところは不明ですが。
+
+と、と、とにかく、
+やり方は、まず、ドライバーで裏のネジを全部外して中身？を出す。
+
+ネジは、一個だけ十字ドライバーで（WHY？）、他は特殊な３字？ドライバーで外す（中国製か？）。３字ドライバーは市販されているそうですが、入手困難だったので、適当な太さの釘を”トリグラインダー”で削って自作。
+
+慎重に、電子部品を傷つけない様、ハンダ付けの部分（茶色いのは松脂？それとも錆び？）を丁寧にこすってきれいにする。
+
+あとは、元通りにスル。
+
+私はこの方法でレスタし、今のところは問題なく使っています。
+このやり方は、メーカー推奨ではないと思いますので、
+実行する場合は、自己責任でやってください。
+また、直る保証も全くありませ～～ん。
+
+私は海外在住なので、修正版交換が出来なくて苦しいです。
+キーボードも売ってませ～～ん（特別注文！！）。
+
+以上、エピ２宇宙船のラスボス相手に、
+”何も出来ずに死んだ”レイキャシールでした～～～。
+
+であであ。</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

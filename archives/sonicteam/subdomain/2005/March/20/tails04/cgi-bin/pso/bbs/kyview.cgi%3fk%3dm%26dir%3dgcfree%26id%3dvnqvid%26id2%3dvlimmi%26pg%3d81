@@ -1,0 +1,173 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/81/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="gcfree">
+<input type="hidden" name="id" value="vnqvid">
+<input type="hidden" name="id2" value="vlimmi">
+<input type="hidden" name="pg" value="81">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >・接続トラブル処方箋
+
+　まず、どんな事でも質問する側が環境を理解していないと話になりません。
+契約している回線の種類・プロバイダ・ルーターの有り無し等々
+インターネットに接続できる環境があるのであれば、知っておかないとおかしい
+情報ばかりです。自分でわからない場合は家の人やプロバイダから送られてる
+はずの設定資料を見て自分の環境を理解しましょう。
+
+
+
+&lt;H3&gt;&lt;Font color=#FF6347&gt;【繋がらない場合の確認事項】&lt;/Font&gt;&lt;/H3&gt;
+　まず、根本的にインターネットに繋がらない場合、考えられる要素は
+多々あります。ですが、大抵の事はマニュアルに載っている事やプロバイダ
+のページに情報が載っている事が大半です。また、基本的な設定ミスで
+ある事もあります。こういう場合は一つ一つ落ち着いて確認する事で
+大半は解決するはずです。
+
+　　・&lt;Font color=#FFFF00&gt;モデムアダプタ(以下:モデム)又はブロードバンドアダプタ(以下:BbA)&lt;/Font&gt;
+　　　&lt;Font color=#FFFF00&gt;が正しく接続されていない&lt;/Font&gt;
+　　・&lt;Font color=#FFFF00&gt;ケーブルが接続されていない又は種類が間違っている&lt;/Font&gt;
+　　・&lt;Font color=#FFFF00&gt;ケーブルが断線している&lt;/Font&gt;
+　　　　　これらはマニュアルをよく見て一つ一つ確認しましょう。モデム・BbA
+　　　　が正確に装着されているか確認し、各機器に接続するケーブルの種類が
+　　　　間違っていないか・机の下敷きや極端な折れ曲がり等で断線の可能性が
+　　　　無いかを確認してください。
+
+　　・&lt;Font color=#FFFF00&gt;トーン/パルスの間違い(モデムの場合)&lt;/Font&gt;
+　　　　　アナログ回線の場合、ダイヤルにはトーンとパルスがあります。
+　　　　電話でダイヤルするときに、「ピポパ」といったような電子音が出ている
+　　　　時はトーン・「つつつ」といった連続した音がするときはパルスに
+　　　　なります。
+
+　　・&lt;Font color=#FFFF00&gt;ルーター使用時のBbAによるPPPoE接続&lt;/Font&gt;
+　　　　　ブロードバンドルーターを使用して接続している場合、GCからPPPoE
+　　　　接続をおこなってしまうと、接続が確立できずエラーとなります。ルーター
+　　　　でDHCP機能が働いている場合、特にGCでは設定は必要ありません。初期設定の
+　　　　ままで接続できるはずです。
+
+
+　他にも考えられますが、基本的には上記を確認してください。
+
+
+
+&lt;H3&gt;&lt;Font color=#FF6347&gt;【接続エラー・接続後のトラブルに関する確認事項】&lt;/Font&gt;&lt;/H3&gt;
+　ADSLモデム等でプロバイダへは接続しにいっているのにエラーになる、
+又は接続は出来るけどゲームが出来ない事があります。その場合は以下の
+事を確認してみましょう。
+
+　　・&lt;Font color=#FFFF00&gt;接続情報の誤り(ADSL等で@移行のプロバイダ識別情報の間違い等)&lt;/Font&gt;
+　　　　　ADSL等での@以降のプロバイダ識別文字の忘れ、大文字小文字の間違い等々
+　　　　考えられる事は多々あります。プロバイダからの設定資料を確認しながら
+　　　　落ち着いて設定しなおしてみましょう。
+
+　　・&lt;Font color=#FFFF00&gt;IPアドレスの解放・モデムの初期化(特にCATVでルーター未使用時の場合)&lt;/Font&gt;
+　　　　　PCとGCでケーブルを繋ぎ変えて接続する時等、PCでのIPアドレスの解放
+　　　　やモデムの初期化が必要な必要な場合があります。契約している業者によって
+　　　　対処方法は違う可能性があるので、契約業者のQ&Aページを参照してください。
+
+　　・&lt;Font color=#FFFF00&gt;接続にMACアドレスの登録が必要等(CATVやルーターの設定等)&lt;/Font&gt;
+　　　　　ルーターのセキュリティで指定MACアドレス以外の通信を遮断している場合や
+　　　　同様にプロバイダにMACアドレスの登録が必要な場合があります。
+
+　　・&lt;Font color=#FFFF00&gt;プロバイダ側でPSOが使用するポートが閉じられている&lt;/Font&gt;
+　　　　　プロバイダ側でPSOで使用されるポートが閉じられている可能性があります。
+　　　　対処方法としてはプロバイダを変える以外ほぼ無いですが、駄目元でプロバイダ
+　　　　と交渉して見るのも良いかもしれません。
+
+
+
+&lt;H3&gt;&lt;Font color=#FF6347&gt;【接続後の切断・再接続エラーに関する確認事項】&lt;/Font&gt;&lt;/H3&gt;
+　接続後にも頻繁に切断されたり、切断後再接続できない場合があります。
+その場合は以下の事を確認してみましょう。
+
+　　・&lt;Font color=#FFFF00&gt;頻繁に切断される(ルーター無しのVer1)&lt;/Font&gt;
+　　　　　Ver1.0の場合のADSL環境でルーターを使用していない場合、通信が切断
+　　　　される不具合があります。Ver1.1に変えるかルーターを使用する事で安定
+　　　　します。
+
+　　・&lt;Font color=#FFFF00&gt;電話がかかってくると切断される(ADSL)&lt;/Font&gt;
+　　　　　ADSLを使用している場合、電話がかかってくる事で通信が切断される事
+　　　　があります。これは使用されている保安器が古い為で、電話着信時のノイズ
+　　　　で切断されてしまう為です。解決方法はNTTに依頼して保安器の交換が必要
+　　　　になります(有償)。
+
+　　・&lt;Font color=#FFFF00&gt;切断後再接続できない&lt;/Font&gt;
+　　　　　切断処理をせずに回線が切断を切断した等の場合、再接続がなかなか
+　　　　出来ない場合があります。この場合、時間をおかないと再接続が出来ない
+　　　　場合がほとんどです。これは、回線業者やプロバイダが制限をかけている
+　　　　為で、業者によって再接続出来る時間はまちまちです。
+</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

@@ -1,0 +1,111 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/68/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="gcfree">
+<input type="hidden" name="id" value="bkcsps">
+<input type="hidden" name="id2" value="luietc">
+<input type="hidden" name="pg" value="68">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >フォースを鍛えましょう
+
+1st、2ndの二人の様なので、装備面で辛い部分があるかも知れませんが、
+装備、マテ食いによるドーピングを済ませていれば、Lv40～41位には U突入 出来ます。
+ロボは 知りませんが、ヒュマ・レイマ・ホヌム・ホマルは 実際に その位で 行きました。
+オフクエは まったく進めない状態ですけれどもね。
+
+して。
+武器・鎧・マグ・ユニットと揃わないと 戦い辛いハンタよりも、
+とりあえず テクがあれば行ける ホヌムを鍛えましょう。
+特に、Ｕに行ける様にしておけば、やたら 強靭になった NPCを盾に、
+安全 且つ早急に 復旧作業が出来ます。
+
+その際、燃費との兼ね合いもあるのですが、ホヌムだと テクレベルが低いと 連射が効かないので、
+ソレなりのレベルに テクニックを上げといた方が 良いと思います。
+特に、EP1でのメインテクとなる 炎上級を 鍛えましょう。
+俺の場合、申込をしてから 1W程で到着しましたので、
+期間を 1Wとしても、恐らく 充分 Ｕに行けると思いますよ。
+土日を 丸々 潰せば、二人揃って Ｕに行ける筈。
+ソコ迄しなくても、とも 思いますけれどもね（Ｗ
+
+つっても、マルチorオン移動可、
+ソレなりの フォース用マグ・テクニックレベルがあると仮定した場合の話です。
+とりあえず Ｕの最初迄 到達すれば、
+ラッピの沢山 出るオフクエで、メセタや ちょっとした装備なら すぐ復旧 出来るので、その辺を 第一目標に。
+出来たら Ｕの最後迄（EP１の、です）
+１Wあれば、ハンタと同じ位には 鍛える事も  可能かと思われますし、
+個人的には 調整版になっても 即日 戦えるフォースを鍛えるのをお勧めします。</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

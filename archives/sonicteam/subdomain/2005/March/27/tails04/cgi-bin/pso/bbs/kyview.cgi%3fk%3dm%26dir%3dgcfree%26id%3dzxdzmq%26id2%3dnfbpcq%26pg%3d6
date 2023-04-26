@@ -1,0 +1,117 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/6/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="gcfree">
+<input type="hidden" name="id" value="zxdzmq">
+<input type="hidden" name="id2" value="nfbpcq">
+<input type="hidden" name="pg" value="6">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >　えー・・・そのページのオーナーです（笑）
+　最近、該当ページへのアクセス量が激増していまして公開している責任を
+　感じております。
+
+　さて、早速ですが本題です。
+　実は、GCPSOは製品版になってからPPP部分に関して何か変更が加えられた
+　ようです。智ねっとさんの掲示板には投稿したのですが、OS9.2.2のリモート
+　アクセスとGCPSO製品版間ではPPPの認証は行えるのですが、GCPSO側で
+　認証が終わったと判断してくれない現象が発生します。
+
+
+　MacOSに備わるリモートアクセスサーバー機能には着信に関する細かい設定を
+　する所は特にありません。そのため、その現象を回避することが出来ない
+　状況です。
+
+　試しに、GCPSO内蔵のブラウザ（もどき）機能で接続をしてみて下さい。
+　その時に「ID、パスワードを送信しています」ダイアログが消えないで
+　しばらくすると回線が切れるでしょう。
+　（同環境を用いてトライアル版を動かした時は認証が正常終了します。）
+
+　もし、認証が正常終了したとしてもデータ送受信の遅延やチームに入ろうとすると
+　切断されるなどの現象が発生しますので、MacOSでの接続はオススメできない
+　状況となっています。
+
+　MacOSX 10.2にリモートアクセスサーバー機能が備わっていればやってみる価値は
+　十分あるのですが、残念ながら実装されたのか確証がありません。
+　（当方、10.2を購入予定なのですがまだ予定のままなのです・・・GCPSO関係に投資
+　してしまったので）
+
+　残念ながら10月3日まで堪えていただくしかないかと・・・・
+
+＃GCPSO向けの記述を今晩にでも加え
+ないと・・・
+</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

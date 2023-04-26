@@ -1,0 +1,147 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『ファンタシースターオンライン エピソード１＆２』トライアルBBS</title>
+</head>
+<body background="http://tails04.sonicteam.com/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/t/trial/29/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#ffffff">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="trial">
+<input type="hidden" name="id" value="owcpsl">
+<input type="hidden" name="id2" value="owcpsl">
+<input type="hidden" name="pg" value="29">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#ffffff">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#ffffff">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >今回GC版が出るにあたって様々な要素が変更、あるいは追加されることになりました。
+その影響は装備、能力がまだ整わないノーマルモードに限らず
+チャレンジモードにも大きな影響が出るはずです。
+トライアル版でエネミーの能力にVer.2と何ら変化が見当たらないことから
+DC版（Ver.2）での戦闘バランスを考慮し
+このまま敵の能力が全く補正されないことを前提として
+仕様の変化を考慮したチャレンジモードでの戦い方、攻略をまとめてみました。
+中には「もうDCの頃のバランスは忘れよう」という方もいらっしゃるでしょうが
+根本が前作、前々作にある以上、感覚というものは忘れられないはずです。
+今までを忘れて新しい考え方だけで攻めるのではなく、現在までの考え方を残しつつ
+新しい戦略を追加する方針でまとめていきたいと思います。
+
+※各キャラクターに関するパラメータデータは全く見ていませんので
+あくまでそれぞれのキャラクターからの感覚をもとに推測を立てています。
+実際のパラメータ上では食い違う部分も多いかと思われますがご了承いただきたいと思います。
+
+※チャレンジモードでのトラップは使用できる見込みが少なく、
+使用できたとしてもトラップの使用可能数が非常に少ないと思われるため
+戦略の計算にアンドロイドのトラップは考慮されていません。
+
+※まとめの文章は全て推測であり、参考程度に見ていただければと思っております。
+GCになって初めてプレイされるかたには理解不能な文章や先入観を与える文章もありますので
+「自分なりに戦い方を見つけていく」という実力派のかたは見ないようにしていただきたく存じます。
+
+◆略語、用語について
+DC・・・ドリームキャスト（DreamCast）
+GC・・・ニンテンドーゲームキューブ（Nintendo GameCube）
+C＋数字・・・ChallengeMode（チャレンジモード）の頭文字「C」をとったもの。C3＝チャレンジ・ステージ3
+HU・・・ハンター
+RA・・・レンジャー
+FO・・・フォース
+DF・・・ダークファルス（ディフェンスの場合も）
+N・・・（ノーマル）アタック
+H・・・ヘビーアタック
+EX・・・エクストラアタック（エレメント攻撃）
+NNH・・・アタック、アタック、ヘビーアタックの連携攻撃
+NHH・・・アタック、ヘビーアタック、ヘビーアタックの連携攻撃
+ディレイ・・・攻撃のタイミングをずらし、遅らせて連携攻撃に時間差を設ける戦法
+シノワ5連・・・シノワビートに反撃を許すことなく倒す目的で開発された、セイバーでの5段連続攻撃。NH-NHHと最速で繋げる
+N＋数字（％）・・・Native属性の強化補正
+A＋数字（％）・・・Altered・Beast属性の強化補正
+M＋数字（％）・・・Machine属性の強化補正
+D＋数字（％）・・・Dark属性の強化補正
+H＋数字（％）・・・Hit属性の強化補正
+N10セイバー・・・Native属性に10％強化補正がついたセイバーの簡略表記。
+　　　　　主に「属性　補正数値　武器名（＋グラインダー補正）」か「武器名　属性　補正数値」の順で表記される
+MAP（マップ）・・・地形や罠のデータではなく、チャレンジモードにおける敵の出現パターンのデータ。
+　　　　　チャレンジデータをダウンロードした際にランダムで決定され、一度TEAMを解散するまでそのデータは固定であり続ける
+MAPを引く・・・敵の出現パターンを決めること。
+　　　　　完全にランダムであるため、くじ引きのような感覚で扱われ、凶悪な敵がやたら多いと「悪いマップ引いたなあ」といった表現をする。
+ノックバック・・・ヘビーアタックを受けたエネミーが強制的に後ろへ移動する現象のこと。
+　　　　　シノワ系エネミーはノックバックのあと若干前に滑ってずれることがあり、あまり効果がなかったりする。
+　　　　　Ver.2でのシノワゴールドや遺跡に出現するクローなどは大きくノックバックが発生する代表的なエネミー。
+のけぞりキャンセル・・・「のけキャン」と略される。のけぞり中の相手に攻撃を加えることによって、本来発生するはずののけぞりがキャンセルされる（発生しなくなる）現象。
+　　　　　他人が攻撃に加わってきた際に発生しやすい。
+ダメージキャンセル・・・「ダメキャン」と略される。同じエネミーにほぼ同じタイミングで攻撃が重なった際、
+　　　　　片方のダメージが無効化されてしまう（ダメージの表示はされるが計算に加わらない）現象。オンライン上でのみ発生する。
+　　　　　遅かったほうのダメージが無効化されてしまうため、HUが攻撃する前にRAが攻撃を加えたりすると問題が大きくなりやすい。
+　　　　　なお、破壊できる岩やスイッチなどにもダメージキャンセルが発生している。
+ブリンガーライフル・・・本来はエネミーウェポンの名前であるが、チャレンジでは主にカオスブリンガーが放つエネルギー弾のこと。
+　　　　　カオスブリンガーが6発ダメージを受けるとエネルギーチャージに入り、その後発射される。
+　　　　　エネミーウェポンのブリンガーライフルがこのエネルギー弾と同じ形状の弾を発射する武器であることからこう呼んでも通用する。
+　　　　　プレイヤーによって「馬ビーム」「馬キャノン」「大砲」などといった呼び方がある。
+</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#ffffff">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>
