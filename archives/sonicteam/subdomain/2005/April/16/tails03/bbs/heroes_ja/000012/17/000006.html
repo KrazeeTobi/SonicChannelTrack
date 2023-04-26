@@ -1,0 +1,141 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=shift_jis">
+<META http-equiv="Content-Language" content="ja">
+<META http-equiv="content-style-type" content="text/css">
+<META http-equiv="content-script-type" content="text/javascript">
+<link rel="stylesheet" href="/bbs/heroes_ja/style_bbs.css" type="text/css">
+
+<title>SONIC HEROES BBS</title>
+</head>
+
+<body>
+
+<DIV align="center">
+
+<P>
+<TABLE BORDER=0 WIDTH=640 cellpadding=0 cellspacing=0>
+<tr><td align="left" bgcolor="#00ccff" height=32>
+<span id="white2">
+&nbsp;ソニックヒーローズ BBS
+</span>
+</td>
+<td align="right" bgcolor="#00ccff">
+<a href="/cgi-bin/bbs/main.cgi?Lang=ja&Book=heroes_ja&Mode=NewForm"><IMG SRC="/bbs/heroes_ja/img/icon_new.gif" width=16 height=16 border=0>&nbsp;&nbsp;新しく発言をつくる</a>&nbsp;
+</TD>
+<tr><td colspan=2><hr></td></tr>
+</TABLE>
+
+
+<TABLE BORDER=0 bgcolor="#ffffff" WIDTH=640 CELLPADDING=2 CELLSPACING=0>
+<TR><TD>
+
+	<TABLE BORDER=0 WIDTH=640 CELLPADDING=2 CELLSPACING=0>
+	<TR>
+	<TD BGCOLOR="#ff8800" COLSPAN=2>
+	&nbsp;<span id="title">スーパーチャージは</span>
+	</TD>
+	</TR>
+	<TR>
+	<TD BGCOLOR="#00ccff">
+	<span id="blue">
+	<STRONG>NORIMARO
+	</STRONG>
+	</span>
+	<span id="white">
+	ID:000536
+	2004/04/22 18:34:31
+	</span>
+	</TD>
+
+	<TD BGCOLOR="#00ccff" ALIGN="RIGHT"><FONT COLOR="#FFFFFF" SIZE=2>
+	<a href="/cgi-bin/bbs/main.cgi?Lang=ja&Book=heroes_ja&Mode=ResForm&Parent=000012-17-000006">
+	<IMG SRC="/bbs/heroes_ja/img/icon_re.gif" width=16 height=16 BORDER=0>&nbsp;返事を書く</a>
+	<a href="/cgi-bin/bbs/main.cgi?Lang=ja&Book=heroes_ja&Mode=RevForm&Parent=000012-17-000006">
+	<IMG SRC="/bbs/heroes_ja/img/icon_note.gif" width=16 height=16 BORDER=0>&nbsp;発言の修正</a>
+	<a href="http://tails03.sonicteam.com/bbs/chao_ja/000315/02/index.html" target="_blank">
+	<IMG SRC="/bbs/heroes_ja/img/icon_home.gif" width=16 height=16 BORDER=0>&nbsp;ホームページ
+	</a>
+	</TD>
+	</TR>
+
+	<TR>
+	<TD BGCOLOR="#ffffff" colspan=2 height=2></TD></TR>
+
+	<TR>
+	<TD BGCOLOR="#cceeff" colspan=2>
+	<span id="article">
+	バグ技の一種です。<br>
+ちなみに、接地してないとこの技は出せません。<br>
+<br>
+この技の原理について、私の仮説です。<br>
+<br>
+処理手順概略（予想）<br>
+・・・・・・・・・・<br>
+《リーダーチェンジ》<br>
+　【１】チームの接地判定（フライの場合は一番下のキャラの接地が条件）<br>
+　　　　　空中 → リーダー交代予約<br>
+　　　　　接地 → リーダー交代実行<br>
+<br>
+《サンダーシュート》<br>
+　【２】リーダー確認<br>
+　　　　　フライ → 【３】へ<br>
+　　　　　スピード・パワー → それぞれのアクション処理へ<br>
+<br>
+　【３】テイルスの単独行動 および 接地判定<br>
+　　　　　単独、かつ空中 → 処理を終了<br>
+　　　　　単独、かつ接地 → ダミーリングボム発動<br>
+　　　　　単独行動中ではない → 【４】へ進む<br>
+<br>
+　【４】サンダーシュート発動アクション　および　チームブラストゲージ加算 →【５】へ進む<br>
+<br>
+　【５】発動判定（攻撃判定発動の確認）<br>
+　　　　　正常に発動 → フライフォーメーションに強制チェンジして終了<br>
+　　　　　正常に発動していない →【４】に戻る<br>
+・・・・・・・・・・<br>
+<br>
+サンダーシュートとリーダーチェンジが同時に可能な状態で同時に入力されると、<br>
+リーダーチェンジの後、【２】の判定と【３】の判定をすり抜け、<br>
+そのまま継続してサンダーシュートの処理が行われるようです。<br>
+<br>
+この原因としては、同時に入力されたことで、【１】の判定からリーダー交代処理実行までの間に、<br>
+【２】【３】の判定が割り込んでしまい、まだリーダー交代していないと判断されるためと考えられます。<br>
+<br>
+そして、【４】以降の処理が行われる時にはリーダー交代していますので<br>
+この技で飛んでいくべき仲間は地面に立っています。<br>
+つまり、正常に発動していないことになり、【５】の判定の結果、【４】に戻ってしまいます。<br>
+この結果、テイルスが接地し【４】が強制キャンセルされるか、<br>
+あるいは次のリーダーチェンジ等が行われるまでループしてしまうのです。<br>
+（強制キャンセルの場合、正常に終了されないためテイルスの動きが止まります。）<br>
+<br>
+また、【４】では１回あたり２％のゲージ加算が行われるので、どんどんゲージがたまっていきます。<br>
+その結果通常では考えられない、量のチャージが可能となるわけです。<br>
+<br>
+【５】の処理が存在する理由としては、<br>
+何らかの原因（処理ミス等）で【４】が行われなかった場合、<br>
+確実に発動できるようにする配慮かと思われます。<br>
+まさか【４】の処理を行いつつ【５】の判定でループさせる方法があるとはねぇ……。<br>
+<br>
+長文・乱文となりましたが、霊感様なら分かっていただけるかと……。<br>
+それでは。<br>
+
+	</span>
+	</TD></tr>
+	</TABLE>
+
+</TD></TR>
+</TABLE>
+<br>
+
+<TABLE BORDER=0 WIDTH=640 CELLPADDING=2>
+<TR>
+<tr><td><hr></td></tr>
+<td bgcolor="#00ccff" height=32>
+<span id="white">&nbsp;新規発言を反映させるには、『再読み込み』をしてください。 </span>
+</font>
+</TD>
+</TABLE>
+
+</body>
+</html>
+
