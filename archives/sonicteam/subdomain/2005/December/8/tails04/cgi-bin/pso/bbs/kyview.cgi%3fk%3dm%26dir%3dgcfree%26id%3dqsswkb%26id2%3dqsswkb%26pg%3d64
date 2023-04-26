@@ -1,0 +1,132 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/64/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="gcfree">
+<input type="hidden" name="id" value="qsswkb">
+<input type="hidden" name="id2" value="qsswkb">
+<input type="hidden" name="pg" value="64">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >こんばんは、赤レイマールのdataです。
+今日、ついに修正版が届き、旧版とお別れしたわけなのですが
+旧版でお世話になった方々へお礼、謝罪を言わずじまいでした
+一応修正版へ行くとは言ってあるのですが、この場を借りて
+お礼、謝罪をしたいと思います。
+
+＞Cocoroさん（フォマール）
+初めてオンに繋いだとき色々教えてくれてありがとうございました。
+今はもう、レベル追い抜いちゃったけどいつかまた同じようなレベルで
+遊びたいですね
+まだ、旧版に残るようですがもし気が変わって修正版に来たときは
+一緒に遊びましょう。
+立派なフォースになってください＾＾
+
+＞EREWさん（フォマール）
+いつもファミ通クエ付き合ってくれたり
+某散弾銃を探し出してくれてありがとうございました
+いつも早く落ちちゃってごめんなさい、、、
+修正版に行ったので頂いた某散弾銃はなくなってしまいましたけど
+それまで大事に使ってましたよ。
+最後に会った時「何でそれより強い武器出たのにそれ使ってるの？」
+とか聞かれて
+強化したから、、、とか意味不明な答えを返しましたが
+やっぱり、もらった大切な物なんで
+使い続けていたんです、、、
+また、修正版へ来たら遊びましょう！
+
+＞SHINICHIROさん（フォーマー）
+一回程度しか会えず、なおかつ冒険もした事なかったですね、、、
+それでもたま～にくるメールは楽しかったですよ。
+○○もホドホドに（爆）
+
+＞Ku=Do=Vanさん（ヒューキャシール）
+一回遊んで数回ロビーで会った程度ですが
+壁のめり込み方とか、カウンターを使った変わったロビーアクションの仕方とか
+色々教えてくれてありがとうございました！
+
+
+他にもオンラインで会った数々の人たち、本当にありがとうございました。
+
+修正版へ来てくれたら一緒に遊べるのですが
+現行での友達関係やそのた色々な理由があって
+もう会えないかもしれないのでここに書き込みました。
+
+一人でも多くの知り合いにみてもらえたらうれしいです。
+
+それでは、修正版での素敵な出会いを期待して今日もオンラインにつなげます。
+
+最後に、いた汚し失礼しました</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

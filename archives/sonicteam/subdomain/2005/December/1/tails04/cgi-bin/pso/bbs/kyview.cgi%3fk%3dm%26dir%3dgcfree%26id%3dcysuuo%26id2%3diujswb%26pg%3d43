@@ -1,0 +1,121 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/43/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="gcfree">
+<input type="hidden" name="id" value="cysuuo">
+<input type="hidden" name="id2" value="iujswb">
+<input type="hidden" name="pg" value="43">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >60%故障かな・・・
+
+うちは過去に同じように読み込めなくなりました
+もっとも、やっていたのは「森＋」でしたが。
+当時、ハマリまくっていたため、やり続けていたのですが
+「DX」を入れたら「NINTENDO」以降画面が動かなくなり
+いろいろなゲームを試したところ「PIKMIN」で
+エラー：ディスクが読み込めませんでした
+　　　　説明書を参照にしてください。
+って感じのメッセージがでて、しょうがなく修理に。
+ま、保障期間内なら早めに修理に出した方がいいです。
+また壊れた場合、ぎりぎり保障期間ならもう一度
+ただで修理できますからw
+買ったお店に持っていく(購入レシート・保障書・箱も)か
+全部(購入レシート・保証書・箱・症状の出るソフト・自宅表など)
+を入れて任天堂サービスセンターに発送するか・・・
+どちらも時間はかかりますが、お店に持っていく方が
+発送料金が掛からないのでお得かな?
+
+任天堂サービスセンターへ修理発送する時の注意事項
+http://www.nintendo.co.jp/n10/repair/index.html
+※・お金(発送料金)がかかりますよ
+　・保障期間過ぎたら修理費かかりますよ
+　(保障期間内でも故障の原因によっては有償ですよ)
+　・又、場合によっては修理代高いかもしれませんよ
+　・年末年始は時間かかかるかもしれませんよ
+　・荷物が到着してからすぐに直せない場合もありますよ
+等、が書かれています
+因みに「ドライブユニット」、つまりディスクレンズ部分の
+修理代が表に載っていたので参考までに載せておきます。
+
+機種名:ゲームキューブ
+本体　CPU基板 7,900～
+　　　ドライブユニット 6,900
+　　　コネクタクリーニング 600 
+
+一応保障期限過ぎた場合の修理費だそうです。
+いかがでしょう?</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

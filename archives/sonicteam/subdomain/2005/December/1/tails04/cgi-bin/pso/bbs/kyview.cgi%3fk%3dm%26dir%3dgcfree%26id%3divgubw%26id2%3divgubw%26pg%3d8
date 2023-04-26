@@ -1,0 +1,108 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/8/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="gcfree">
+<input type="hidden" name="id" value="ivgubw">
+<input type="hidden" name="id2" value="ivgubw">
+<input type="hidden" name="pg" value="8">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >ここ数日のことは私も非常に残念に思います。
+
+個人的には、ＤＣを経験していたので、今回はレア発掘に燃えて参加していて、バグの影響はほとんどなかったのですが、
+（いずれにしろ他人からもらうつもりはなかった、という意味で）
+修正版を出すというソニチの意向に従おうと思います。
+
+こういうことを書くと気を悪くされる方もいるとは思いますが、私はソニチにＰＳＯを通じて遊ばせてもらっている立場だと思っているので、そのときそのときが楽しければいいかな、と思っています。
+確かに発売日に休みまでとってがんばったのがもし元に戻るとすれば寂しいですけど、まぁ、所詮ゲームの世界ですし、また一から育てるのもひとつの楽しみだと思っています。
+（っていうか、ＤＣで１年以上育てたキャラを置いてこの世界に移ってきたわけですから・・）
+
+というのは前置きなんですが、中社長の発言の中に、まだソニチの中でも対応がはっきり決まっていない旨書いてあると思います。
+「セーブデータ引継ぎをどうするか検討中」という文章と「セーブデータは引き継がない」といういわば矛盾する文章があることからも分かると思います。
+これは、多くの方が望んでいるようなレベルやギルカなどの引継ぎを穴なくできるのか、といったことを検討しているから出ている発言だと私は思います。
+（そうでなければ、全く１からやり直し、ということであれば、引継ぎについて何の検討も必要ないということですから。）
+
+というわけで、ソニチはきっと可能な限り私たちの要望にこたえる形で、しかし、出来ないことは出来ないという態度で修正版を作ってくれることでしょう。
+みんなの要望を書くことは自由だと思いますが、あくまで要望という形で行いたいと思います。
+ソニチを非難したところで、何も生み出しませんから。
+私はソニチを信じて、修正版の仕様の決定を待ちたいと思います。
+いかなる形の仕様になったとしても、私はＰＳＯを続けるつもりです。
+（家で文句のひとつも口には出すかもしれませんけれど。（笑））
+むしろ、こういう問題から、ＰＳＯがオンライン専用ゲームになってしまわないことを祈るばかりですが・・・
+
+最後に、アイテムの引継ぎはいかなる形であれ１００％不可でしょう。
+現行の製品版で誰か一人が「激レア」を拾って、そのコピーを一人一個ずつ持ち込んだら、修正版出した意味ないですから。</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

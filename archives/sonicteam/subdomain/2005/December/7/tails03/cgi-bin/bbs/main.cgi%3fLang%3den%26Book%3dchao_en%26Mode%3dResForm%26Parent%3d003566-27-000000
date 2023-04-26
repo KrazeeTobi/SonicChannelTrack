@@ -1,0 +1,131 @@
+<HTML>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=ISO-8859-1">
+<title>CHAO BBS</title>
+<style TYPE="TEXT/css"><!--
+
+    DIV,P,TR,TD,A{FONT-SIZE:9pt;TEXT-decoration:none;}
+    INPUT,TEXTAREA,SELECT{BACKGROUND-COLOR: #FFFFCC; COLOR: #0033CC; BORDER: 1 SOLID #33CCFF;}
+    INPUT.BUTTON{background-COLOR: #33CCFF; COLOR: #FCFCFC; BORDER: 3 DOUBLE;}
+    INPUT.NOBORDER{background-COLOR: #FCFCFC; COLOR: #33CCFF; BORDER: 0;}
+    A:ACTIVE{TEXT-DECORATION:NONE; COLOR:#000000;}
+    A:HOVER{COLOR:#FF9900;}
+    HR{COLOR: #33CCFF;}
+
+
+--></STYLE>
+</HEAD>
+
+<BODY BACKGROUND="/bbs/img/chao_bg_new.gif" BGCOLOR="#eeffff" TEXT="#003399" link="#0000CC" Vlink="#9966CC">
+<FONT SIZE=2>
+
+<DIV ALIGN="center">
+
+<TABLE BORDER=0 BGCOLOR="#00CCFF" BORDERCOLOR="#00CCFF" WIDTH="100%" CELLPADDING="4" CELLSPACING="0">
+<TR>
+<TD><FONT SIZE="+2" COLOR="#FFFFFF">MAKING BASE NOTE</FONT><FONT SIZE=2 COLOR="#FFFFFF"> - RESPONSE - </FONT></TD>
+<TD ALIGN="RIGHT">
+<FONT SIZE=2>
+<A HREF="/bbs/chao_en/index.html"><IMG SRC="/bbs/img/icon_chao.gif" BORDER=0>CHAO BBS</A></FONT> 
+</TD>
+</TABLE>
+
+
+<font size="2">
+<form action="main.cgi" method="POST">
+<input type="hidden" name="Lang" value="en">
+<input type="hidden" name="Book" value="chao_en">
+<input type="hidden" name="Mode" value="ResPost">
+<input type="hidden" name="Parent" value="003566-27-000000">
+<input type="hidden" name="PostId" value="1133985947-08323">
+
+<TABLE BORDER="0" WIDTH="100%" BGCOLOR="#33CCFF" CELLPADDING="4" CELLSPACING="0">
+<TR>
+<TD>
+
+<TABLE BORDER="0" WIDTH="100%" CELLPADDING="4" CELLSPACING="0" BGCOLOR="#FFFFFF">
+<TR>
+<TD ALIGN="RIGHT" VALIGN="MIDDLE" NOWRAP><FONT SIZE=2>Name</FONT></TD>
+<TD COLSPAN="2"><INPUT TYPE="TEXT" name="Name" SIZE="40" VALUE=""></TD>
+<TR>
+<TD ALIGN="RIGHT" VALIGN="MIDDLE" NOWRAP><FONT SIZE=2>E-mail address</FONT></TD>
+<TD COLSPAN="2"><INPUT TYPE="TEXT" NAME="Mail" SIZE="40" VALUE=""></TD>
+<TR>
+<TD ALIGN="RIGHT" VALIGN="MIDDLE" NOWRAP><FONT SIZE=2>Password</FONT></TD>
+<TD COLSPAN="2"><FONT SIZE=2><INPUT TYPE="TEXT" NAME="Pass" SIZE="40" MAXLENGTH="20" VALUE=""></FONT></TD>
+<TR>
+<TD ALIGN="RIGHT" VALIGN="TOP" NOWRAP ROWSPAN="2"><FONT SIZE=2>URL</FONT></TD>
+<TD COLSPAN="2"><INPUT TYPE="TEXT" NAME="Url" SIZE="40" VALUE="http://"></TD>
+<TR>
+<TD COLSPAN="2">
+<FONT SIZE=2>
+<INPUT TYPE="CHECKBOX" NAME="Cookie" VALUE="ON" CHECKED CLASS=NOBORDER>
+Save the status information in your browser (cookie)</FONT></TD>
+<TR>
+<TD ALIGN="RIGHT" VALIGN="MIDDLE" NOWRAP><FONT SIZE=2>Title</FONT></TD>
+<TD COLSPAN="2"><INPUT TYPE="TEXT" NAME="Title" SIZE="40" value="Re: (no title)"></TD>
+<TR>
+<TD ALIGN="RIGHT" NOWRAP><FONT SIZE=2>Message</TD>
+<TD COLSPAN="2"><DIV ALIGN="LEFT"><P><TEXTAREA ROWS="10" NAME="Text" COLS="60"></TEXTAREA></DIV></TD>
+
+<TR>
+<TD ALIGN="RIGHT" VALIGN="MIDDLE" NOWRAP><FONT SIZE=2>Text color</FONT></TD>
+<TD COLSPAN="2">
+<INPUT TYPE="RADIO" VALUE="#000000" CHECKED NAME="Color" CLASS=NOBORDER><FONT COLOR="#000000"><BIG>*</BIG></FONT> 
+<INPUT TYPE="RADIO" VALUE="#808080" NAME="Color" CLASS=NOBORDER><FONT COLOR="#808080"><BIG>*</BIG></FONT> 
+<INPUT TYPE="RADIO" VALUE="#FF8000" NAME="Color" CLASS=NOBORDER><FONT COLOR="#FF8000"><BIG>*</BIG></FONT> 
+<INPUT TYPE="RADIO" VALUE="#0080C0" NAME="Color" CLASS=NOBORDER><FONT COLOR="#0080C0"><BIG>*</BIG></FONT> 
+<INPUT TYPE="RADIO" VALUE="#FF9999" NAME="Color" CLASS=NOBORDER><FONT COLOR="#FF9999"><BIG>*</BIG></FONT> 
+<INPUT TYPE="RADIO" VALUE="#FF0000" NAME="Color" CLASS=NOBORDER><FONT COLOR="#FF0000"><BIG>*</BIG></FONT> 
+<INPUT TYPE="RADIO" VALUE="#008000" NAME="Color" CLASS=NOBORDER><FONT COLOR="#008000"><BIG>*</BIG></FONT> 
+<INPUT TYPE="RADIO" VALUE="#996600" NAME="Color" CLASS=NOBORDER><FONT COLOR="#996600"><BIG>*</BIG></FONT> 
+</TD>
+</TR>
+<TR>
+<TD ALIGN="RIGHT" VALIGN="TOP" NOWRAP ROWSPAN="4"><FONT SIZE=2>Icon</FONT></TD>
+<TD COLSPAN="2"><SELECT NAME="Icon"><FONT SIZE=2>
+<OPTION VALUE="chao_n00">Question mark N</OPTION>
+<OPTION VALUE="chao_n01">Annoyed N</OPTION>
+<OPTION VALUE="chao_n02">Laughing N</OPTION>
+<OPTION VALUE="chao_n04">Surprised N</OPTION>
+<OPTION VALUE="chao_n05">Celebrating N</OPTION>
+<OPTION VALUE="chao_n07">Smiling N</OPTION>
+<OPTION VALUE="chao_n08">Asleep N</OPTION>
+<OPTION VALUE="chao_n09">Sad N</OPTION>
+<OPTION VALUE="chao_h00">Smiling H</OPTION>
+<OPTION VALUE="chao_h01">Annoyed H</OPTION>
+<OPTION VALUE="chao_h02">Surprised H</OPTION>
+<OPTION VALUE="chao_h03">Sad H</OPTION>
+<OPTION VALUE="chao_d00">Smiling D</OPTION>
+<OPTION VALUE="chao_d01">Annoyed D</OPTION>
+<OPTION VALUE="chao_d02">Laughing D</OPTION>
+<OPTION VALUE="chao_d03">Angry D</OPTION>
+<OPTION VALUE="_none" selected>None</OPTION>
+</FONT></SELECT>
+<A HREF="/bbs/chao_en/iconlist.html"><SMALL>(List of available icons)</SMALL></A></TD>
+
+</TR>
+<TR>
+<TD COLSPAN="2">
+<FONT SIZE=1>Correctly enter your e-mail address.<br>
+Register your account before posting for the first time.</FONT></TD>
+
+<TR>
+<TD COLSPAN="2"><A HREF="/cgi-bin/account/reg.cgi?lang=en&ReturnUrl=/cgi-bin/bbs/main.cgi?Lang%3Den%26Book%3dchao_en%26Mode%3DResForm%26Parent=003566-27-000000&ReturnLabel=Go+back+to+CHAO+BBS"><B>==&gt;Account registration</B></A></TD>
+
+<TR>
+<TD ALIGN="RIGHT" VALIGN="MIDDLE" NOWRAP>
+<INPUT TYPE="SUBMIT" CLASS=BUTTON VALUE="WRITE"> Post</TD>
+<TD ALIGN="RIGHT" VALIGN="MIDDLE">
+<INPUT TYPE="RESET" VALUE="RESET" CLASS="BUTTON"> Reset</TD>
+</TABLE>
+
+</CENTER></DIV></TD>
+</TR>
+</TABLE>
+</CENTER></DIV>
+
+
+</FORM>
+</BODY>
+</HTML>

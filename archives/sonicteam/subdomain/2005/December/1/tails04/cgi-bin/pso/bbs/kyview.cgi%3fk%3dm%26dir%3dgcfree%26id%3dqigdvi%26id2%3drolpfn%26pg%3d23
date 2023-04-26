@@ -1,0 +1,102 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/23/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="gcfree">
+<input type="hidden" name="id" value="qigdvi">
+<input type="hidden" name="id2" value="rolpfn">
+<input type="hidden" name="pg" value="23">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >はじめまして～
+自分と同じような環境なんで(ＡＤＳＬですけど)お助けできれば幸いです。保証はさすがにできませんが(苦笑)
+
+うちの構成は
+モジュラージャック→スプリッタ→ＡＤＳＬモデム→無線ＬＡＮルーター(メルコのＡｉｒＳｔａｔｉｏｎ)→無線アクセスポイント(ＵＳＢタイプ)→ＰＣ(Win９８ｓｅでのインターネット接続の共有)→ＬＡＮボード→クロスＬＡＮケーブル→ＢｂＡ→ＧＣ
+
+って感じです。
+ＰＣの方はインターネット接続の共有をインストールして(98の話ですが)アダプタを間違えずにセットすればとりあえずはＰＣの方のセットは終わりです。
+次にＧＣの設定はＩＰは自動取得にして、ＤＮＳは両方ともルーターのＩＰを打ってみてください。これでおおむねセットはできてるはずです。
+もしこれでつなげなかったらルーターのＩＰを変えてみてください(うちのやつの場合は192.168.0.1だったＩＰを198.168.1.1に変えたら正常に動作しました。)あと振り分けのＩＰ入力の変更も忘れずに(うちの場合は192.168.0.2から振り分けを192.168.1.2からに直しました)
+さらにこれでもだめだった場合は下記の文章を参考にしてください。(あくまで参考にですよ。自信はあまりありません^_^;)
+
+接続の共有をしている状態では、ＩＰがブリッジしてしまっているのでインターネット接続の共有を削除(ＴＣＰ／ＩＰも消えているか確認)した上で、どうやらうちの無線アクセスポイントは優先順位が弱いみたいでＬＡＮボードを先に認識した状態(推測の域ですが)では普通にＰＣでネットすらできませんでした。ですから自分はまず、ＬＡＮボードを取り外してしまい(使用不可にするのでも可のはず)、それでアクセスポイントのドライバを再インストールしてネットにつながることを確認して、ＬＡＮボードを挿して(使用可能にして)、それから接続の共有をインストールしてＧＣの設定は上記のままでやったらつながりました。
+
+長文、駄文失礼しました～。
+試すときはもちろん自己責任でお願いします。でもこれで試す前に智ねっとさんを覗くことをオススメします。(私も最近かなりお世話になりました。その節はkenshouさんありがとうございました。本当に頭があがりませんm(_ _)m)
+もしツッコミあったら容赦なくお願いいたします。
+
+誤字を修正しました</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

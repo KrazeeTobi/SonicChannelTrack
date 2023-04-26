@@ -1,0 +1,99 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/59/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="gcfree">
+<input type="hidden" name="id" value="tmbkms">
+<input type="hidden" name="id2" value="dvfvuq">
+<input type="hidden" name="pg" value="59">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >ＵＳの方々と、遊んでます。たのしいです。
+ワーセレつかって、あと辞書を片手に、中学レベルの英会話ですが、楽しくいっしょにあそべるものですね。
+そこで、ＵＳプレイヤーから、不正品のことを、少々詳しく教えてもらう機会がありました。
+
+データの改造は、現状では不可能ですが、ある限られた環境で、アイテムコピーが可能という不具合があるそうです。
+そして、「このことを自分はＳＥＧＡに連絡した。あなたも、日本のセガとソニックチームに連絡してください。我々が正常に楽しめるように、自分達も願っている。」
+このように熱心に、そのひとは伝えてくれました。
+
+アイテムコピー可能なユーザーは、ごく限られており、この先ver1.1のような環境になることはありえないでしょう。
+また、彼も、もしかしたら噂を本気にして心配しているだけなのかもしれません。
+ともあれ、彼から得た情報と、自分で確認できたコピーアイテムに関する海外webサイトの場所等を、セガとソニックチーム、それから任天堂に連絡しました。
+
+こんな事なので、詳しくは書けず、信じてもらえないかもしれませんが、どうか、
+「データ改造は現状の技術では、ほぼ不可能」「不具合が起きる環境は、ごく一部（日本国内では無理そう）」ということ、
+そしてなにより、「ＵＳユーザーの多くも、彼のように不正品・不正ユーザーを嫌っている」
+ということは信じていほしいです。</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

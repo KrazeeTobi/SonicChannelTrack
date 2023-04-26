@@ -1,0 +1,123 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/9/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="gcfree">
+<input type="hidden" name="id" value="rpkeij">
+<input type="hidden" name="id2" value="oftigc">
+<input type="hidden" name="pg" value="9">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >ユーザーの選択として
+自分はどこをとりたいのか、この表はわかりやすくて非常にいいです。
+皆さんにも考えて頂きたいです。
+
+結局ソニックチームの修正版を出す事の大前提が
+「キレイなネットワークコミュニティ」＝「公共の利益」を確立するものであるのだと思います。
+キャラデータ等を移行したい、というユーザーの希望は「個人の利益」を守りたい、ということで
+今まで時間をかけて育ててきたキャラクターなのですから、それも当然の意見だと思います。
+
+しかし、この修正版が出るという発表があるまでの間
+ユーザーの皆さんが一貫して修正版を出してくれ、と主張してきた内容も
+「個人の利益」の為にアイテム増殖などをするような人間に対する批判と、
+その為に「公共の利益（ネットワークコミュニティ）」が損なわれる事に対する批判だったはずです。
+
+それに対してのソニックチームの今回の対応は素晴らしかったと私は考えています。
+今回の事でもわかるように確かにソニックチームはユーザーに対して親切（甘い）ところがありますから
+ある程度のデータの移行は出来るようになるかもしれません。
+
+しかし、それによって修正版を出すにあたっての大前提が崩れてしまうようでは
+修正版を出す意味合いが、全く失われてしまう事になりかねません。
+また同じことを繰り返さない為にも、データの移行が出来なかったとしても
+ユーザー側も納得せざるを得ない措置ではないかと考えます。
+
+それでもデータの移行は絶対に必要だ。
+個人の利益をどうしても守りたい。というのであれば
+現在と同じような問題点が
+データ移行の後に出てきたとしても何も文句は言えないということになります。
+それが私達ユーザーの望んだ結果になる訳ですから。
+
+どちらにしても中途半端なデータ移行をするくらいなら
+全くのクリアな状態から新しいネットワーク環境を作って欲しいと思います。
+その為の別サーバーだとも思いますし。
+但し、データ移行をすると決めるなら、ソニックチームはどんなに時間をかけても
+不正の出来ない安全な移行のシステムを作る義務と責任があります。
+
+＞「PSO全体の運営をどうしたら最適に保てるか」という視点
+
+本当にその通りだと思います。
+皆が快適に遊べる環境がないと、結局自分も快適に遊べません。
+不正に対して、今まで皆が主張してきたのもそういう事でしたよね。</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

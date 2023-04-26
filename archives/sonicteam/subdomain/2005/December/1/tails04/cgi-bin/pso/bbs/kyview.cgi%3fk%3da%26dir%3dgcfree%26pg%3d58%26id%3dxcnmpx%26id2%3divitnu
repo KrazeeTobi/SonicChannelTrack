@@ -1,0 +1,82 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/58/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">MAKING APPEND NOTE</font>
+<hr>
+<p>
+<table width="100%" border="0">
+<tr bgcolor="#004080"><td width="100%"><strong>元の発言</strong></td>
+<td align="right" width="1%" nowrap> <br></td></tr>
+<tr bgcolor="#004080"><td colspan="2"><strong>てれす</strong>  <i> 2003/01/01</i>  </td></tr>
+<tr bgcolor="#000040"><td colspan="2">ランプがつかない件に関して<BR><BR>何らかの通信をやろうとしない限りLINKランプはつかない仕様です。<BR>ですので例え正常であっても、PSOでオンラインに接続(同意しますの後)や<BR>WEBSITEで「お知らせ」などの2番目のメニューを選んだ瞬間からでないと<BR>LINKランプはつきません。<BR><BR>BbA特有の仕様みたいですね。<BR><BR>PS2などでは正常に繋るということはケーブルの問題ではなさそうですし…<BR><BR>もしここで上記の様なオンライン接続をやろうとしている時に<BR>ランプが付くならば何らかの設定間違い。<BR>それでも一切ランプが付かないならばハードウェア的な問題の可能性が<BR>あります。<BR><BR>ランプが付いて使えない場合はIPアドレス関係の設定に間違いが<BR>ありそう。<BR><BR>とりあえずルーターは私の持ってるのと違うのでGC側の設定<BR><BR>一般的な設定は<BR><BR>1.PSOのメニューからオプションを選ぶ<BR>2.ネットワークの設定<BR>3.UDP設定→UDPを使用しない<BR>4.一回Bボタンで戻ってプロバイダ設定→ユーザプロバイダ<BR>5.ネットワーク接続画面(ウェブモード)に切り替ます＝はい<BR>6.ネットワーク設定メニュー→ユーザプロバイダ設定<BR>7.接続プロバイダ名(初期値はネットワーク4だったかな？)を選択して<BR>　編集メニューをクリック<BR>8.イーサネット設定画面(数ページ)で以下の設定を行う<BR>(ここでイーサネット設定が出なければハードウェアが認識されてない)<BR>・接続設定：IPアドレスを自動取得する<BR>・回線切断：どういう設定でもOK<BR>(指定時間で回線切断を行うで、あまり短い時間はお勧めしない)<BR>・DNSサーバーアドレス：自動取得する<BR>・DHCP用ホスト名：設定しない<BR>・プロキシサーバアドレス：空欄<BR>・プロキシポート番号：空欄<BR><BR>です。<BR>（追加）<BR>なおPS2などと繋いだって時にはケーブルはどちらを使いましたか？<BR><BR>・PS2に接続されているケーブルをポート3に刺した<BR>　(使用ケーブル＝現在のPS2のケーブル)<BR>・GCで使ったケーブルをPS2に刺した<BR>　(使用ケーブル＝現在のGCのケーブル)<BR><BR>これで、もし前者であるなら今GCで繋らないケーブルでPS2などで<BR>接続を試してみてください。<BR><BR>これで繋らなくなったらケーブルの問題(断線・クロスケーブルを使っていた)<BR>が有力になります。<BR><BR>なお100base-T・1000base-Tのケーブルでも問題なく使えます。<BR>単に値段が高くなる可能性があるだけです＾＾<BR>ただし。<BR>ルーター(HUB)接続ですのでストレートケーブルを使用する必要があります。<BR></td></tr>
+</table>
+</p>
+<p>
+<form action="submit.cgi" method="post" >
+メッセージ ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual">
+</textarea><BR>
+
+<input type="hidden" name="title" value="Re:ランプがつかない件に関して">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="pg" value="58">
+<input type="hidden" name="id" value="xcnmpx">
+<input type="hidden" name="id2" value="ivitnu">
+<input type="hidden" name="dir" value="gcfree">
+</p>
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+<input type="hidden" name="c" value="APPEND">
+<p>
+<input type="submit" value="APPEND"> 書き込み 
+
+</p>
+</form>

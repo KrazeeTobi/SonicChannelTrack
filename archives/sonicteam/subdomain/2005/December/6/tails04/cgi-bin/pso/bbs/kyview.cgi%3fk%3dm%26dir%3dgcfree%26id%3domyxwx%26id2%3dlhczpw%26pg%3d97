@@ -1,0 +1,121 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/97/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="gcfree">
+<input type="hidden" name="id" value="omyxwx">
+<input type="hidden" name="id2" value="lhczpw">
+<input type="hidden" name="pg" value="97">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >↑インターネット・サービス・プロバイダー
+の略でISPです。
+俗にプロバイダって言われているやつです。
+
+以下原文
+ただ、教えてくださいと言われましても
+お答えできる人はそういないと思いますよ。
+
+1から全部BBSで教えるのは、教える方が非常に大変です。
+それに基本的にBBSの質問は自分で調べて解からない事を聞くのが、
+マナーですから、丸投げは厳禁です。
+
+ただ、DOTTOさんは何をどう聞いていいのかも解からないとお見受けしました。
+という事で、まずはDOTTOさんの環境を調べましょう。
+
+1.使っている回線の種類(ADSL?CATV?)、回線会社の名前(NTT?YAHOO?)
+2.使っているプロバイダの名前
+3.PSOのVer.は？1.0？1.1?(多分、1.0だと思うけど)
+
+以上の事はご家族に質問されたり、回線会社から貰った契約書や機械の説明書でわかるはずです。
+で、1.が解かれば、上でクスクスさんのおっしゃるとおり、説明書を読めばわかるはずです。
+その説明書の通りやってみて、うまく接続しない場合は、
+1.～3.の情報と発生したエラーメッセージとエラー番号を書いて、ここで質問されると良いでしょう。
+
+ただし、解からない言葉に関してはココで質問せずに調べることをお勧めします。
+↓デジタル辞典
+http://yougo.ascii24.com/gh/
+
+つっこみ
+×機会音痴　→　○機械音痴
+×RAN　→　○LAN
+それから「ルーター」は必須アイテムではありません。
+言葉の意味は必要になったら調べればよいかと。
+
+追伸：
+「解かるはずです」と書いてしまいましたが、読んでも解からない場合は、
+何処がどう解からないかを書けば、何方か答えてもらえると思いますよ。
+ただ、「まったく解かりません」だと誰も答えられないので。</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>
