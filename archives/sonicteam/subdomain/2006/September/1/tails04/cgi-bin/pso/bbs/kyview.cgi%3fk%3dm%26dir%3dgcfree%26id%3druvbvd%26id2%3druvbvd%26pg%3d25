@@ -1,0 +1,135 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/25/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="gcfree">
+<input type="hidden" name="id" value="ruvbvd">
+<input type="hidden" name="id2" value="ruvbvd">
+<input type="hidden" name="pg" value="25">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >GC版BBSでは初書き込みになります、ANDERSONG改め柳生乱世ともうします。
+長文ですがなるべく多くのユーザーがお読みいただければ幸いです。
+
+さて、BbAの発売に伴い多くの方がGC版オンラインデビューを果たされたようですが、
+一部のユーザーに未だにオンラインに接続できないとの書き込みがここのところ非常に多く見受けられます。
+ルータの設定やプロバイダなど、通信環境は人それぞれ違うわけでして、
+動作したとの書き込みがこのBBSに書き込まれたとしても新規ツリーの進み具合のほうが速く
+参照しようにもなかなか見る機会を逃している方も多いと思われます。
+
+そこて、既にどなたか提案されたようですが、GC版オンライン接続環境を集計・一括管理し、
+その内容を一覧表にしてホームページに公開＆このBBSに書き込む作業をした方がよろしいのではないでしょうか？
+
+幸い、某はPC版PSOで「PSOが動作するパソコン環境」を集計し、一覧にして公開してきた経緯があります。
+故に、動作環境一覧についての集計ノウハウ、一覧表にするためのテンプレートなどは
+即座に用意することが出来るので、ここはひとつ、皆様の意見を参考の元に
+某がGC版の接続環境を集計してみたいと思います。
+
+具体的な内容を説明したいと思います。
+１：PCがあるユーザーはメールにてGC版接続環境を某に報告してもらう。PCがないユーザーはこのBBSにて
+専用のツリーを作成するのでそのツリーに接続環境を報告してもらう。
+２：集まった情報を某が集計・管理し、某のホームページで随時公開・更新する。
+また、PCが無いユーザーのために、ある一定の情報量を集計した段階でこのBBSに接続環境を書き込む。
+３：報告してもらう内容は、
+
+Ａ：ユーザー名（ハンドルネームでも可）
+Ｂ：接続環境の種類（例：ISDN、ADSL、CATVなど）
+Ｃ：接続プロバイダー（例：isao、ニフティー、so-netなど）
+Ｄ：BbAの接続設定（IPの自動取得、IPの手動取得、PPPoEのいずれか）
+Ｅ：BbAの回線切断時間（無し、有りの場合は時間も）
+Ｆ：BbAのDNSサーバーアドレス（自動取得か手動取得）
+Ｇ：BbAのDHCPホスト名（無し、有り）
+Ｈ：BbAのプロキシサーバーアドレス（有り、無し）
+Ｉ：BbAのプロキシサーバーポート番号（プロキシサーバー有りの場合のみ必要）
+
+Ｊ：使用しているルータ名（メーカー名と詳細な型番が欲しい。）
+Ｋ：備考（ルータの設定や、いままで起きた現象などを解る範囲で書いてもらう）
+
+※なお、BbAのIPアドレスやDHCPアドレス、プロキシアドレス等はセキュリティーのために
+公開しないことを前提とします。
+※Ｊの項目でルータを使用していない場合はモデム直繋ぎと書いてもらえば結構です。
+
+とりあえず、某が思いつく内容を上記にまとめてみたのですが．．．、
+なにかご要望や質問などございましたらこのツリーにレスをつけてください。
+
+尚、現時点では皆様の反応を見てから接続環境の報告を受け付けたいと思いますので、
+報告などはまだしないでください。
+報告受付時にはまた、新規ツリーをたてる予定です。
+
+Machine of PSO管理人・柳生乱世
+http://www8.plala.or.jp/machineofpso/
+（１０月８日、午後８時５６分現在、Machine of PSO無いにこの情報に関するアナウンスはありません）
+</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>

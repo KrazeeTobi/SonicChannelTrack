@@ -1,0 +1,105 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>『PSOエピソード1&2』フリーBBS</title>
+</head>
+<body background="/pso/bbs/img/pso_bk1.png" bgcolor="#000040" text="#FFFFFF" link="#99CCFF" vlink="#CCCCCC">
+<div align="right">
+<a href="http://tails04.sonicteam.com/pso/bbs/g/gcfree/25/index.html">インデックスへ</a> 
+</div>
+<BR></div>
+<font size="+2" color="#FFFFFF">NOTE MENU</font><BR>
+<hr>
+<p>まずは必要な情報を入力します。
+<form action="submit.cgi" method="post">
+<input type="hidden" name="sw" value=".frm">
+<input type="hidden" name="dir" value="gcfree">
+<input type="hidden" name="id" value="zottrl">
+<input type="hidden" name="id2" value="zottrl">
+<input type="hidden" name="pg" value="25">
+<table border="0">
+<tr>
+<td>名前:</td>
+<td><input type="text" name="name" size="40" maxlength="40" value=""></td>
+</tr>
+
+<tr>
+<td>メールアドレス:</td>
+<td><input type="text" name="mail" size="40" maxlength="40" value=""></td>
+</tr><tr><td>確認キー :</td>
+<td><input type="text" name="ckey" size="6" maxlength="6" value=""> 
+<input type="submit" name="ck" value="MAKE KEY"> 確認キー作成</td>
+</tr>
+<tr><td>シリアルナンバー :</td>
+<td>
+<input type="text" name="serial1" size="2" maxlength="2" value="">
+<input type="text" name="serial2" size="4" maxlength="4" value="">
+<input type="text" name="serial3" size="4" maxlength="4" value="">
+</td>
+</tr>
+
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url" size="40" maxlength="100" value="http://"></td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="set" value="on" >
+ 以後ステータス情報をブラウザに保存する(cookie)
+</td>
+</tr>
+</table>
+<input type="hidden" name="cookierev" value="ok">
+<p><small>
+<ul>
+<li>発言時に確認キーが必要です。発言する前に確認キーの発行を受けてください。</li>
+</ul>
+</small></p>
+
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">メールを送る</font><BR>
+発言者に対してメールを送ります。
+<p>
+メールメッセージ ：<BR>
+<textarea name="mtext" cols="60" rows="6" wrap="virtual"></textarea><BR>
+<input type="submit" name="c" value="SEND FMAIL"> メール送信<BR>
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の修正</font>
+<p>
+ノートの内容 ：<BR>
+<textarea name="text" cols="60" rows="6" wrap="virtual" >このカキコをご覧いただきありがとうございます。
+この前ちょと気になる出来事があったのでカキコさせてもらいました。
+私はその日「エピ２ピンカル」と云う様な感じの名前の部屋を作って
+潜っていた所、立て続けに二人の方（フォース）が乱入して来ました。
+この二人は友達同士でした。挨拶を交わしてついでにギャグを２，３
+かましてみる・・・おお！受けてる（´∀｀）～♪楽しい冒険の予感
+ところが「今神殿です」と言ってパイプを出したところ急に反応が
+無くなりました。あれどうしたんだろ？と思っていた所ようやく二人が
+降りて来ました。しかし「宜しく～」と言っても補助をかけてもらい
+お礼を言っても、はてまたさっきみたいにギャグをかましても事務的
+な返事が返ってくるのみ。どうもさっきまでとは雰囲気が違う。こう
+云う時は経験上きまって・・・・・その次の瞬間一人のフォースの方が
+落ちていきました。「回線落ちかな？」と私が言うとしばらくして
+もう一人の方も無言で落ちていきました。ボス前でしばらく待っていた
+のですが結局二人は戻って来ませんでした。
+ふぅ～（´∀｀）神殿って人気無いねぇ。やっぱり中央図書館（違う）
+の方がええのかねぇ～
+まあつまりですね、もし嫌なのであれば最初に断るなり落ちる前に何か
+一言欲しかったなと云う訳であります。嫌な気分では無く楽しく冒険
+したいからねやっぱり。
+以上乱文でしたがこれにて失礼します最後まで読んでくれた方どうも
+ありがとうございました。</textarea><BR>
+<input type="submit" name="c" value="REVISE"> 発言修正
+</p>
+<hr>
+<font size="+1" color="#FFFFFF">発言の削除</font>
+<p><input type="submit" name="c" value="DELETE"> 発言削除</p>
+</form>
+</body>
+</html>
