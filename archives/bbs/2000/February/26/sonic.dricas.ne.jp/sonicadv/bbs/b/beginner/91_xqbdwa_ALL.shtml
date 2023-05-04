@@ -1,0 +1,104 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<meta name="description" content="このページは Multi NOTE/KY で作成した掲示板ログです.そのため,常に内容が変化したり,削除したりします. // Multi NOTE/KY by KY.PLAZA">
+
+<title>ビギナーたちのBBS</title>
+</head>
+<body  bgcolor="#ffeeee" text="#220000" link="#ff0000" vlink="#ff8888">
+<font size=2>
+<br>
+<div align="right">
+[<a href="http://sonic.dricas.ne.jp/cgi-bin/sonicadv/bbs/noteky_base.cgi?dir=beginner">新しく発言をつくる</a>] [<a href="/sonicadv/index.html">EXIT</a>] [<a href="91_index.shtml">ビギナーたちのBBS</a>]
+</div>
+<font size="+2" color="#880000">ビジュアルメモリについての質問</font><br>
+<hr>
+<table width="100%"><tr><td nowrap>
+</font></td></tr></table>
+<table border="0" width="100%">
+<tr>
+	<td bgcolor="#ffff00"><font size=2>
+		<strong>TOM</strong> <small>ID:ixmcyc</small> <i>99/06/28 22:41:54</i> [<a href="http://sonic.dricas.ne.jp/cgi-bin/sonicadv/bbs/noteky_append.cgi?dir=beginner&pg=91&id=xqbdwa&id2=xqbdwa">返事を書く</a>] [<a href="http://sonic.dricas.ne.jp/cgi-bin/sonicadv/bbs/noteky_menu.cgi?dir=beginner&id=xqbdwa&id2=xqbdwa&pg=91">ノートメニュー</a>]<br>
+	</font></td>
+</tr>
+<tr>
+	<td bgcolor="#ffffcc"><font size=2>
+このページで、チャオをビジュアルメモリに移すための必要ブロック数はわかったのですが、僕のビジュアルメモリは「データ」のファイル（ドリパスのファイル、ソニックの本編とチャオのファイル、他ミニゲームのないゲームのファイル２つ）しか入れてないのに、「ゲーム」の空きブロックがが１２６ブロックしかないのでチャオを移せません。なにが原因なのでしょうか。誰か教えてください。<BR>（ビジュアルメモリの空きブロック数は「ノコリ」１３９「ゲーム」１２６という状況です。）
+	</font></td>
+</tr>
+</table><br>
+<table><tr><td nowrap><font size=2></font></td></tr></table>
+<table border="0" width="100%">
+<tr>
+	<td bgcolor="#ffff00"><font size=2>
+		<strong>☆ぴー</strong> <small>ID:ehtloo</small> <i>99/06/28 23:08:50</i> [<a href="http://sonic.dricas.ne.jp/cgi-bin/sonicadv/bbs/noteky_append.cgi?dir=beginner&pg=91&id=wpsyh&id2=xqbdwa">返事を書く</a>] [<a href="http://sonic.dricas.ne.jp/cgi-bin/sonicadv/bbs/noteky_menu.cgi?dir=beginner&id=wpsyh&id2=xqbdwa&pg=91">ノートメニュー</a>]<br>
+	</font></td>
+</tr>
+<tr>
+	<td bgcolor="#ffffcc"><font size=2>
+ごめんなさい！<BR><BR>全然わかりませんが、「根性」で、<BR>解決しませんか？？？<BR><BR>（ゴミ発言、反省・・・<font color="red">(T-T)(^^;)</font>）
+	</font></td>
+</tr>
+</table><br>
+<table><tr><td nowrap><font size=2></font></td></tr></table>
+<table border="0" width="100%">
+<tr>
+	<td bgcolor="#ffff00"><font size=2>
+		<strong><a href="http://www61.tcup.com/6106/himaomi.html" target="_blank">暇暇大臣【過去ログげりら】</a></strong> <small>ID:ftwgqv</small> <i>99/06/28 23:44:49</i> [<a href="http://sonic.dricas.ne.jp/cgi-bin/sonicadv/bbs/noteky_append.cgi?dir=beginner&pg=91&id=wyrmx&id2=xqbdwa">返事を書く</a>] [<a href="http://sonic.dricas.ne.jp/cgi-bin/sonicadv/bbs/noteky_menu.cgi?dir=beginner&id=wyrmx&id2=xqbdwa&pg=91">ノートメニュー</a>]<br>
+	</font></td>
+</tr>
+<tr>
+	<td bgcolor="#ffffcc"><font size=2>
+では、できるだけ簡単に説明。（長文）<BR>（でも複雑）<BR><BR>ここに全部で５ブロックの容量をもつビジュアルメモリが<BR>あったとします。<BR>そのメモリーのブロックには１～５番までの番号が<BR>割り振られてます。<BR>通常データをセーブしていく時は５番から降順に使われます。<BR><BR>ブロック数２のファイル１とファイル２をセーブすると<BR>１２３４５（ブロックの番号）<BR>　２２１１（ファイルの番号）<BR>という具合にブロック４、５にはファイル１が、<BR>ブロック２、３にはファイル２がセーブされます。<BR>この状態では<BR>メモリーの空き、ゲームの空きともに１となります。<BR><BR>さて、ＶＭではゲームをセーブする場合は<BR>通常のデータとは違い番号の小さい方から連続した領域を<BR>使っていきます。<BR><BR>上の例でファイル１のみを削除した場合、<BR>１２３４５（ブロックの番号）<BR>　２２　　（ファイルの番号）<BR>となり、メモリーの空きは１、４、５の合計３になりますが<BR>１から連続した領域は１つしかないのでゲームの空きは<BR>１のままになります。<BR>こうなると、３ブロック必要なゲームの場合<BR>単純にデータの空きが３あってもセーブすることはできません。<BR><BR>主にこれが原因となってゲームの容量が空きを<BR>下回ることになります。<BR><BR>対策としては一度ゲームの領域を塞いでいるデータを<BR>退かすしかありません。<BR>この方法については複数のＶＭ間でのコピーを利用する。<BR>もしくはソフトを立ちあげデータを読み込んだあとに<BR>メモリのデータを消して再セーブ、といった方法があります。
+	</font></td>
+</tr>
+</table><br>
+<table><tr><td nowrap><font size=2></font></td></tr></table>
+<table border="0" width="100%">
+<tr>
+	<td bgcolor="#ffff00"><font size=2>
+		<strong><a href="http://www.geocities.co.jp/Berkeley/7022" target="_blank">ＭＡＸ</a></strong> <small>ID:wttufn</small> <i>99/06/29 02:31:59</i> [<a href="http://sonic.dricas.ne.jp/cgi-bin/sonicadv/bbs/noteky_append.cgi?dir=beginner&pg=91&id=pphpr&id2=xqbdwa">返事を書く</a>] [<a href="http://sonic.dricas.ne.jp/cgi-bin/sonicadv/bbs/noteky_menu.cgi?dir=beginner&id=pphpr&id2=xqbdwa&pg=91">ノートメニュー</a>]<br>
+	</font></td>
+</tr>
+<tr>
+	<td bgcolor="#ffffcc"><font size=2>
+チャオＢで聞いてもよいかと、、(to)<BR>
+	</font></td>
+</tr>
+</table><br>
+<table><tr><td nowrap><font size=2></font></td></tr></table>
+<table border="0" width="100%">
+<tr>
+	<td bgcolor="#ffff00"><font size=2>
+		<strong>ｔｏｍ</strong> <small>ID:ixmcyc</small> <i>99/06/29 17:13:21</i> [<a href="http://sonic.dricas.ne.jp/cgi-bin/sonicadv/bbs/noteky_append.cgi?dir=beginner&pg=91&id=nresnc&id2=xqbdwa">返事を書く</a>] [<a href="http://sonic.dricas.ne.jp/cgi-bin/sonicadv/bbs/noteky_menu.cgi?dir=beginner&id=nresnc&id2=xqbdwa&pg=91">ノートメニュー</a>]<br>
+	</font></td>
+</tr>
+<tr>
+	<td bgcolor="#ffffcc"><font size=2>
+皆さん、メッセージありがとう。皆さんのアドバイスを読ませてもらった結果、ビジュアルメモリをもう一つ買うことにしました。ついでに一つ聞きたいのですが、チャオはビジュアルメモリで育てた方が、普通にゲームで育てているよりも強くなるのですか。
+	</font></td>
+</tr>
+</table><br>
+<table><tr><td nowrap><font size=2></font></td></tr></table>
+<table border="0" width="100%">
+<tr>
+	<td bgcolor="#ffff00"><font size=2>
+		<strong><s><s>legend(れじ)＠応援団旗上げ続けたぞ～</s></s></strong>  <i>99/06/29 19:42:55</i> [<a href="http://sonic.dricas.ne.jp/cgi-bin/sonicadv/bbs/noteky_append.cgi?dir=beginner&pg=91&id=mgwvyw&id2=xqbdwa">返事を書く</a>] <br>
+	</font></td>
+</tr>
+<tr>
+	<td bgcolor="#ffffcc"><font size=2>
+DELETED
+	</font></td>
+</tr>
+</table><br>
+<table><tr><td nowrap><font size=2></tr></td></table><hr><font size=2>
+[<a href="91_index.shtml">ビギナーたちのBBS</a>] 
+[<a href="/sonicadv/index.html">EXIT</a>]<br>
+<br>
+<small>新規発言を反映させるにはＲトリガーで侮ｦされるメニューの中から、『再読み込み』を選んでＡボタンを押してください。</small>
+</font>
+</font>
+</body>
+</html>
+
