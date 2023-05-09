@@ -1,0 +1,67 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+
+<title>ビギナーたちのBBS</title>
+</head>
+<body background="http://" bgcolor="#ffeeee" text="#220000" link="#ff0000" vlink="#ff8888">
+<font size=2>
+<div align="right">
+[<a href="/cgi-bin/sonicadv/bbs/noteky_base.cgi?dir=beginner">新しく発言をつくる</a>] [<a href="/bbs/">BBSメニュー</a>] [<a href="92_index.shtml">ビギナーたちのBBS</a>]
+</div>
+<font size="+2" color="#880000">APPEND 14</font><br>
+<hr>
+<li><a href="92_qwhli_qwhli.shtml#qwhli">ＶＭの電池はコントローラーにさしている時...</a> ＳＡＳＵＫＥ＠チャオＢに付き合いきれない <small>99/07/10 23:23:03</small></li>
+<ul>
+<li><a href="92_qwhli_yrbwjwi.shtml#yrbwjwi">えーとですねぇ</a> やぎ＠明日は地獄の幕明けだぁぁ（Ｔ０Ｔ） <small>99/07/10 23:35:02</small></li>
+<ul>
+<li><a href="92_qwhli_jxusj.shtml#jxusj">セガが儲からないから？</a> ミリオンカード <small>99/07/10 23:44:21</small></li>
+<ul>
+<li><a href="92_qwhli_qxlvj.shtml#qxlvj">うん。</a> ＳＡＳＵＫＥ＠アメプロ見たいー！！ <small>99/07/10 23:50:07</small></li>
+<li><a href="92_qwhli_wuymslu.shtml#wuymslu">げ、</a> やぎ＠明日は地獄の幕明けだぁぁ（Ｔ０Ｔ） <small>99/07/10 23:50:14</small></li>
+</ul>
+<li><a href="92_qwhli_anrgkv.shtml#anrgkv">そうですか。</a> ＳＡＳＵＫＥ <small>99/07/10 23:46:52</small></li>
+<ul>
+<li><a href="92_qwhli_vrcunyv.shtml#vrcunyv">ソ、ソニー製</a> やぎ＠明日は地獄の幕明けだぁぁ（Ｔ０Ｔ） <small>99/07/10 23:53:13</small></li>
+</ul>
+</ul>
+<li><a href="92_qwhli_gnmxoi.shtml#gnmxoi">ある寒い日、外でＶＭでお散歩アドベンチャ...</a> ｃａｔｆｉｓｈ <small>99/07/10 23:59:42</small></li>
+<ul>
+<li><a href="92_qwhli_vxworj.shtml#vxworj">そとでやったんですか・・・</a> やぎ <small>99/07/11 00:09:51</small></li>
+<ul>
+<li><a href="92_qwhli_aqjfg.shtml#aqjfg">やぎさんしつもーん【追加】</a> ＫＥＩＳＵＫＥ＠期末テスト最悪だったよ～ <small>99/07/11 01:01:14</small></li>
+<ul>
+<li><a href="92_qwhli_wasut.shtml#wasut">うーん</a> やぎ <small>99/07/11 01:15:48</small></li>
+<li>VMSのデータブロック構成のこと ひろろ <small>99/07/12 00:31:19</small></li>
+</ul>
+</ul>
+</ul>
+</ul>
+<table border="0" width="100%">
+<tr>
+	<td bgcolor="#ffff00">
+		<strong>ひろろ</strong> <small>ID:nufjur</small> <i>99/07/12 00:31:19</i> [<a href="/cgi-bin/sonicadv/bbs/noteky_append.cgi?dir=beginner&pg=92&id=emunh&id2=qwhli">返事を書く</a>] [<a href="/cgi-bin/sonicadv/bbs/noteky_menu.cgi?dir=beginner&id=emunh&id2=qwhli&pg=92">ノートメニュー</a>]<br>
+	</td>
+</tr>
+<tr>
+	<td bgcolor="#ffffcc">
+VMSのデータブロック構成のこと<BR>今更ですが一応書いておきますね (^^;<BR><BR>本来VMSは 全200ブロック中、ゲーム用128ブロックですが、分かりやすいように全100ブロック中、ゲーム用60ブロックとし、全てのセーブデータが10ブロックずつ必要と仮定して説明します。<BR><BR>イメージは“□”一つで10ブロック分と見て下さい。<BR>“■”が使用中の、“□”が空きブロックです。<BR><BR>まず、これまでに6種類のゲームをやっており、それぞれにセーブデータがあると、以下のようになりますね。<BR>ＡＢＣＤＥＦ空空空空<BR>■■■■■■□□□□<BR><BR>これが全100ブロック中、空き40ブロック兼ゲーム用40ブロックの状態です。<BR><BR>ここに60ブロック分のゲームデータを入れたくなり、必要の無くなったセーブデータ、BとEを消したとすると……<BR>Ａ空ＣＤ空Ｆ空空空空<BR>■□■■□■□□□□<BR><BR>となり、全100ブロック中、空き60ブロック、ゲーム用40ブロックとなります。<BR><BR>つまりゲーム用のブロックは、連続したメモリー空間でなければならないのです（爆）<BR><BR>これを 以下のように並び替えてくれる機能（最適化、またはデフラグと言う）が本体側にあればいいのですが、現時点では初期化以外の手段はありません(T_T)<BR>ＡＣＤＦ空空空空空空<BR>■■■■□□□□□□<BR><BR><BR>＃ここに来るのは本当に久しぶりです。もう私を知ってる方は居ないでしょうね (^^;<BR>＃それにしてもチャオBBSは相変わらずですか(;_;)<BR>＃でもBBSを正常にしていくのも、利用者のつとめです。頑張ってくださいね。<BR>＃ではっ(^o^)/~~
+	</td>
+</tr>
+</table><br>
+<ul>
+<ul>
+<ul>
+<ul>
+</ul>
+</ul>
+</ul>
+<li><a href="92_qwhli_qwqmjl.shtml#qwqmjl">説明書には、</a> かに <small>99/07/11 09:27:54</small></li>
+</ul>
+<hr><p>
+[<a href="92_index.shtml">ビギナーたちのBBS</a>] 
+[<a href="/sonicadv/index.html">BBSメニュー</a>] 
+</p>
+</font>
+</body>
+</html>
