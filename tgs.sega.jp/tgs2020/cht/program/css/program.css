@@ -1,0 +1,463 @@
+@charset 'UTF-8';
+
+.-hover:hover
+{
+    transform: translate(0, 2px);
+}
+.-fontBold
+{
+    font-weight: bold;
+}
+
+.base-b
+{
+    width: 100%;  max-width: 980px;  margin: 0 auto 3% auto;  color: #fff;  background: rgba(0, 0, 0, .8);
+}
+
+.text-italic
+{
+    font-style: italic;
+}
+
+.text-note a
+{
+    text-decoration: underline;  color: #1da1f2;
+}
+
+a:hover
+{
+    opacity: .4;
+}
+
+.stage-icon
+{
+    font-size: 2.2rem;  display: table;  margin: 0 auto;
+}
+
+.stage-icon img
+{
+    width: 100%;  max-width: 24px;  margin-right: 10px;
+}
+
+.stage-icon p
+{
+    display: table-cell;  width: 14em;  padding: 5% 0 3% 0;  text-align: center;  vertical-align: middle;
+}
+
+
+.stage-icon p span
+{
+    font-size: 18px;  vertical-align: middle;
+}
+
+.text-note
+{
+    font-size: 14px;  padding: 2%;
+}
+
+
+
+/*==================================
+stage
+===================================*/
+
+.stage
+{
+    width: 100%;  max-width: 1200px;  margin: 0 auto;
+}
+
+.second-nav
+{
+    display: none;
+}
+
+.stage-box
+{
+    display: flex;  width: 100%;  max-width: 980px;  margin: 0 auto;
+}
+
+
+
+.stage-details
+{
+    font-size: 18px;  display: none;  width: 100%;  background-color: #fff;
+}
+.stage-details.-on
+{
+    display: block;
+}
+.live-box
+{
+    background-repeat: repeat;
+}
+.live-box:not(:last-child)
+{
+    border-bottom: 1px solid #000;
+}
+.live-box.-style01
+{
+    background-image: url(../images/livebox-bg01.png);
+} /* 60周年企画枠 */
+.live-box.-style02
+{
+    background-image: url(../images/livebox-bg02.png);
+} /* セガなま枠 */
+.live-box.-style03
+{
+    background-image: url(../images/livebox-bg03.png);
+} /* eスポーツ枠 */
+.live-box.-style04
+{
+    background-image: url(../images/livebox-bg04.png);
+} /* CESA枠 */
+
+.mainWrap
+{
+    display: flex;
+}
+.mainWrap .leftArea,
+.mainWrap .rightArea
+{
+    box-sizing: content-box;  padding: 2%;
+}
+.mainWrap .leftArea
+{
+    width: 15%;  padding-right: 0;
+}
+.mainWrap .leftArea .date
+{
+    font-size: 14px;  border-right: 1px solid #000;
+}
+.mainWrap .rightArea
+{
+    position: relative;  z-index: 0;  width: 85%;  padding-right: 8%;
+}
+
+.mainWrap .rightArea .button
+{
+    position: absolute;  z-index: 1;  top: 0;  right: 2%;  display: block;  width: 6%;  margin-top: 3%;  padding-top: 6%;  cursor: pointer;
+}
+.mainWrap .rightArea .button:before,
+.mainWrap .rightArea .button:after
+{
+    position: absolute;  z-index: 0;  top: 0;  left: 0;  width: 100%;  height: 100%;  content: '';  background-repeat: no-repeat;  background-position: 0 0;  background-size: 100% auto;
+}
+.mainWrap .rightArea .button:before
+{
+    background-image: url(../images/arrow-open.png);
+}
+.mainWrap .rightArea .button:after
+{
+    opacity: 0;  background-image: url(../images/arrow-close.png);
+}
+
+.live-box.-on .mainWrap .rightArea .button:before
+{
+    opacity: 0;
+}
+.live-box.-on .mainWrap .rightArea .button:after
+{
+    opacity: 1;
+}
+
+
+.mainWrap .langWrap
+{
+    display: flex;
+}
+.mainWrap .langWrap .lang
+{
+    font-size: 14px;  display: block;  width: 20%;  margin: 2% 3%;  padding: 2% 0 1%;  text-align: center;  color: #fff;  background-color: #3d107b;
+}
+
+/* .stageText{
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+} */
+
+
+.detailWrap
+{
+    display: none;  padding: 5% 0 3%;
+}
+.detailText
+{
+    width: 85%;  margin-left: auto;  padding: 0 2% 2%;
+}
+dl.detailText
+{
+    display: flex;  flex-wrap: wrap;
+}
+.detailText dt
+{
+    font-weight: bold;  position: relative;  z-index: 0;  width: 16%;
+}
+.detailText dt:before
+{
+    font-weight: normal;  position: absolute;  z-index: 0;  top: 0;  right: 10%;  content: ':';
+}
+.detailText dd
+{
+    width: 83%;
+}
+.detailText.-mt
+{
+    margin-top: 5%;
+}
+
+
+
+/* .stage-details h4 {
+  background: #303030;
+  font-weight: bold;
+  color: #fff;
+  font-size: 2.2rem;
+  text-align: center;
+  padding: 3% 0;
+}
+
+.stage-details:nth-child(odd) h4 {
+
+  background: #000;
+} */
+
+.live-box h5,
+.stage-list h5
+{
+    font-size: 20px;  margin-bottom: 2%;
+}
+
+.live-list
+{
+    text-align: center;
+}
+
+.live-btn
+{
+    display: inline-block;  width: 27%;  margin: 0 1% 3%;
+}
+
+
+
+.live-btn a
+{
+    font-size: 18px;  display: block;  padding: 8% 0;  color: #fff;  border: 1px solid #fff;  background: #1da1f2;
+}
+
+.live-btn.nico
+{
+    background: #000;
+}
+
+.live-btn.youtube
+{
+    background: #940000;
+}
+
+.live-btn.peri
+{
+    background: #3e9fbf;
+}
+
+.stage-list ul
+{
+    list-style: none;
+}
+
+.stage-list ul li
+{
+    width: 90%;  margin: 0 auto 3% auto;  text-align: center;  background-image: url(../images/stage-bg.gif);  background-repeat: repeat-x;  background-size: auto 100%;
+}
+
+.stage-list ul li:first-child,
+.stage-list ul li:last-child
+{
+    background-image: url(../images/stage-bg02.gif);
+}
+
+.stage-list ul li a
+{
+    display: block;  width: 100%;  height: auto;
+}
+
+.stage-list ul li.no-stage
+{
+    background-color: none;  background-image: none;
+}
+
+.stage-list ul li.stage-sp
+{
+    background-color: #94e833;  background-image: none;
+}
+
+.stage-schedule-box
+{
+    width: 90%;  max-width: 980px;  margin: 0 auto;  padding: 3%;  color: #fff;  background: rgba(0, 0, 0, .8);
+}
+
+.stage-schedule-box .stage-date
+{
+    font-size: 22px;
+}
+
+.stage-schedule-box h3
+{
+    font-size: 30px;  margin: 3% 0 2% 0;  border-bottom: 1px solid #707070;
+}
+
+.stage-schedule-box .stage-text
+{
+    font-size: 22px;
+}
+
+.stage-schedule-box h4
+{
+    font-size: 22px;  font-weight: bold;  margin: 3% 0 2% 0;  border-bottom: 1px solid #707070;
+}
+
+
+.tabWrap
+{
+    display: flex;  justify-content: space-between;  max-width: 980px;  margin: auto;
+}
+
+.tabWrap .tab
+{
+    font-size: 18px;  width: 31%;  margin: 0;  padding: 1.5% 0 1%;  cursor: pointer;  transition: background-color .3s, color .3s;  text-align: center;  color: #fff;  color: #fff;  background-color: #000;
+}
+
+
+
+
+.tabWrap .tab:hover,
+.tabWrap .tab.-on
+{
+    color: #000;  background-color: #fff;
+}
+
+
+.movieArea
+{
+    display: flex;  justify-content: space-between;  max-width: 980px;  margin: 3% auto;
+}
+
+.movieWrap
+{
+    position: relative;  z-index: 0;  width: 73%;  /*padding-top: 52%;*/
+}
+
+
+.movieWrap img:not(.-on)
+{
+    display: none;
+}
+
+.channelList
+{
+    width: 24.3%;  margin: 0;  text-align: center;
+}
+
+.channelText
+{
+    font-size: 18px;  padding: 13% 0;  background-color: #000;
+}
+
+
+.channelLinkWrap:not(.-on)
+{
+    display: none;
+}
+.channelLink
+{
+    font-size: 14px;  display: block;  width: 90%;  margin: 10% auto;  padding: 7% 0 5%;  border: 1px solid #fff;  background-color: #000;
+}
+
+.channelLink.-youtube
+{
+    background-color: #940000;
+}
+
+.channelLink.-periscope
+{
+    background-color: #3e9fbf;
+}
+
+
+@media screen and (max-width:750px)
+{
+    .movieArea
+    {
+        display: block;
+    }
+    .movieWrap
+    {
+        width: 90%;  margin: 0 auto;
+    }
+    .channelList
+    {
+        width: 100%;  margin-top: 3%;  padding-bottom: 5%;
+    }
+    .channelText
+    {
+        font-size: 4rem;  font-weight: bold;  padding: 2% 0;
+    }
+    .channelLink
+    {
+        font-size: 3.6rem;  display: inline-block;  width: 42%;  margin: 4% 3% 0;  padding: 4% 0 3%;
+    }
+    .mainWrap .leftArea
+    {
+        width: 20%;
+    }
+    .mainWrap .rightArea
+    {
+        width: 80%;  padding-right: 10%;
+    }
+    .mainWrap .rightArea .button
+    {
+        width: 9%;  padding-top: 11%;
+    }
+
+    .mainWrap .langWrap .lang
+    {
+        font-size: 3rem;  margin: 2% 6% 0 0;  padding: 2% 2% 1%;
+    }
+
+    .detailText
+    {
+        width: 80%;
+    }
+
+    .live-btn
+    {
+        width: 40%;
+    }
+
+    .tabWrap .tab
+    {
+        font-size: 3.6rem;  width: 32%;
+    }
+    .text-note,
+    .live-box h5,
+    .stage-list h5,
+    .stage-details,
+    .live-btn a
+    {
+        font-size: 3.8rem;
+    }
+    .mainWrap .leftArea .date
+    {
+        font-size: 3rem;
+    }
+
+    .detailText dt
+    {
+        width: 22%;
+    }
+    .detailText dd
+    {
+        width: 78%;
+    }
+}

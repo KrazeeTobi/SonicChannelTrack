@@ -1,0 +1,241 @@
+@charset 'UTF-8';
+
+.base-b
+{
+    width: 100%;  max-width: 980px;  margin: 0 auto 3% auto;  padding: 1% 3%;  color: #fff;  background: rgba(0,0,0,.8);
+}
+
+.special-goods
+{
+    width: 100%;  max-width: 980px;  margin: 0 auto 3% auto;  text-align: center;
+}
+
+.special-goods p
+{
+    display: inline-block;  width: 98%;  margin: 1%;
+}
+
+.text
+{
+    font-size: 18px;  margin-bottom: 1%;
+}
+
+h4
+{
+    font-size: 20px;margin-bottom: 2%;
+
+text-align: center;
+}
+
+.store-box
+{
+      display: -webkit-flex;      display:         flex;  justify-content: center;  margin: 0 auto;
+}
+
+.segastore-logo
+{
+    width: 100%;  max-width: 274px;
+}
+
+.segastore-qr
+{
+    width: 100%;  max-width: 107px;  margin-top: 7px;  margin-left: 29px;
+}
+
+@media screen and (max-width:750px)
+{
+    .text
+    {
+        font-size: 4.0rem;  margin-bottom: 2%;
+    }
+
+    h4
+    {
+        font-size: 4.5rem;
+    }
+
+    .special-goods p
+    {
+        display: block;  width: 98%;  margin: 1%;
+    }
+}
+
+.text-note
+{
+    font-size: 14px;  padding: 1%;
+}
+
+.segastore-logo
+{
+    width: 59%;
+}
+
+.novelty-box
+{
+    width: 100%;  max-width: 1200px;  margin: 0 auto;
+}
+
+.novelty-box h4
+{
+    font-size: 3.0rem;  padding: .5% 1% 0 1%;  color: #fff;  background-color: #000;
+}
+
+.novelty-list
+{
+    display:         flex;    display: -webkit-flex;  flex: 1 0 auto; flex-wrap: wrap; width: 100%;  max-width: 1200px;  margin: 0 auto 3% auto;  list-style: none;
+}
+
+.novelty-list li
+{
+    position: relative; width: 48.9%;   height: auto;min-height: 0;  margin-top: 1%;  margin-right: 2.08%;
+}
+
+.novelty-list li:nth-child(2n)
+{
+    margin-right: 0;
+}
+
+.novelty-list li .novelty-item
+{
+    margin-top: 2%;  padding: 4%; background: rgba(0,0,0,.8);
+}
+
+.novelty-list li .novelty-img
+{
+    width: 100%; height: auto;  margin-bottom: 2%;
+}
+.novelty-list li .novelty-img img
+{
+    width: 100%;  height: auto;  vertical-align: bottom;
+}
+
+.novelty-list li .novelty-name
+{
+    font-size: 2.0rem;  margin-bottom: 4%; text-align: center; color: #fff;
+}
+
+.novelty-list li .note
+{
+    font-size: 1.4rem;
+}
+
+.novelty-list li .download
+{
+    font-size: 20px;  width: 100%;margin: 6% auto 2% auto;padding: 4%;text-align: center;color: #fff;background: #000;
+}
+
+.novelty-list li .download:hover
+{
+    color: #fff;background: #1da1f2;
+}
+.novelty-list li .download a
+{
+    display: block;
+}
+
+.novelty-note
+{
+    font-size: 2.0rem;  width: 95%;  margin: 0 auto;
+}
+
+@media screen and (max-width:750px)
+{
+    .novelty-note
+    {
+        font-size: 4.0rem;
+    }
+    .novelty-list li .store-tag span
+    {
+        font-size: 2vw;    padding: 2% ;
+    }
+
+    .base-b
+    {
+        padding: 2% 3%;
+    }
+}
+
+
+div.second-nav
+{
+    display: block;  margin-bottom: 3%;
+}
+
+.second-nav.-fixed
+{
+    position: fixed;  z-index: 999;  top: 0;  left: 0;  width: 100%;
+}
+
+.text-note
+{
+    font-size: 3.0rem;
+}
+
+div.second-nav .nav li
+{
+    padding: 0 6%;
+}
+
+
+@media screen and (max-width:750px)
+{
+    .novelty-menu-box
+    {
+        padding: 3% 0;
+    }
+
+    .novelty-menu
+    {
+        font-size: 5.0rem;
+    }
+
+    .novelty-list
+    {
+        width: 98%;
+    }
+
+    .novelty-list li
+    {
+        position: relative;  width: 48.33%; max-width: 48.33%;  height: auto;  margin-top: 5%;  margin-right: 3.34%;
+    }
+
+    .novelty-list li:nth-child(5n)
+    {
+        margin-right: 3.34%;
+    }
+
+    .novelty-list li:nth-child(2n)
+    {
+        margin-right: 0;
+    }
+
+
+    .novelty-box h4
+    {
+        font-size: 4.5rem;  width: 98%;  margin: 6% auto 0 auto;
+    }
+
+    .novelty-list li .new-mark,
+    .novelty-list li .novelty-number,
+    .novelty-list li .novelty-category
+    {
+        font-size: 3.2rem;
+    }
+
+    .novelty-list li .novelty-name
+    {
+        font-size: 4.0rem;
+    }
+
+    .novelty-list li .novelty-price
+    {
+        font-size: 4.5rem;
+    }
+
+    .novelty-list li .note
+    {
+        font-size: 3.0rem;
+    }
+}
+
+
