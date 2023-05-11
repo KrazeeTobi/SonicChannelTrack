@@ -20,52 +20,52 @@ if (!($.isDsi || $.is3Ds)) {
 	$(".game_list .center .list_bg").append('<div class=""><img src="images/game_list_bg_14.gif" /></div>');
 	            
 	$(".game_list .center ul li .img img").attr("src",function(){
-		var src = $(this).attr("src").replace("images\/m\/","images\/");
+		var src = $(this).attr("src").replace("images.html\/m\/","images.html\/");
 		return src;
 	});
 }
 if (!($.isSmartPhone || $.isDsi || $.is3Ds || $.isWii)) {
-    $("#g01 a").attr("href","item_left.html?hash=game1&key=1&color=3&TB_iframe=true&amp;width=408&amp;height=516").addClass("thickbox");
-    $("#g44 a").attr("href","item_left.html?hash=game1&key=2&color=4&TB_iframe=true&amp;width=408&amp;height=516").addClass("thickbox");
-	$("#g20 a").attr("href","item_left.html?hash=game1&key=3&color=4&TB_iframe=true&amp;width=408&amp;height=516").addClass("thickbox");
-	$("#g52 a").attr("href","item_left.html?hash=game1&key=4&color=3&TB_iframe=true&amp;width=408&amp;height=516").addClass("thickbox");
-	$("#g23 a").attr("href","item_left.html?hash=game1&key=5&color=1&TB_iframe=true&amp;width=408&amp;height=516").addClass("thickbox");
-	$("#g56 a").attr("href","item_left.html?hash=game1&key=6&color=1&TB_iframe=true&amp;width=408&amp;height=516").addClass("thickbox");
-    $("#g32 a").attr("href","item_left.html?hash=game1&key=7&color=2&TB_iframe=true&amp;width=408&amp;height=516").addClass("thickbox");
+    $("#g01 a").attr("href","item_lefte6de.html?hash=game1&amp;key=1&amp;color=3&amp;TB_iframe=true&amp;width=408&amp;height=516").addClass("thickbox");
+    $("#g44 a").attr("href","item_leftcd44.html?hash=game1&amp;key=2&amp;color=4&amp;TB_iframe=true&amp;width=408&amp;height=516").addClass("thickbox");
+	$("#g20 a").attr("href","item_left39f1.html?hash=game1&amp;key=3&amp;color=4&amp;TB_iframe=true&amp;width=408&amp;height=516").addClass("thickbox");
+	$("#g52 a").attr("href","item_leftfe85.html?hash=game1&amp;key=4&amp;color=3&amp;TB_iframe=true&amp;width=408&amp;height=516").addClass("thickbox");
+	$("#g23 a").attr("href","item_leftd4b0.html?hash=game1&amp;key=5&amp;color=1&amp;TB_iframe=true&amp;width=408&amp;height=516").addClass("thickbox");
+	$("#g56 a").attr("href","item_left6cde.html?hash=game1&amp;key=6&amp;color=1&amp;TB_iframe=true&amp;width=408&amp;height=516").addClass("thickbox");
+    $("#g32 a").attr("href","item_lefte2f5.html?hash=game1&amp;key=7&amp;color=2&amp;TB_iframe=true&amp;width=408&amp;height=516").addClass("thickbox");
 	
-    $("#g26 a").attr("href","item_right.html?hash=game2&key=1&color=1&TB_iframe=true&amp;width=408&amp;height=516").addClass("thickbox");
-    $("#g46 a").attr("href","item_right.html?hash=game2&key=2&color=1&TB_iframe=true&amp;width=408&amp;height=516").addClass("thickbox");
-	$("#g34 a").attr("href","item_right.html?hash=game2&key=3&color=2&TB_iframe=true&amp;width=408&amp;height=516").addClass("thickbox");
-	$("#g47 a").attr("href","item_right.html?hash=game2&key=4&color=2&TB_iframe=true&amp;width=408&amp;height=516").addClass("thickbox");
-    $("#g37 a").attr("href","item_right.html?hash=game2&key=5&color=3&TB_iframe=true&amp;width=408&amp;height=516").addClass("thickbox");
-	$("#g54 a").attr("href","item_right.html?hash=game2&key=6&color=3&TB_iframe=true&amp;width=408&amp;height=516").addClass("thickbox");
-	$("#g45 a").attr("href","item_right.html?hash=game2&key=7&color=4&TB_iframe=true&amp;width=408&amp;height=516").addClass("thickbox");
+    $("#g26 a").attr("href","item_right8e83.html?hash=game2&amp;key=1&amp;color=1&amp;TB_iframe=true&amp;width=408&amp;height=516").addClass("thickbox");
+    $("#g46 a").attr("href","item_rightd7b7.html?hash=game2&amp;key=2&amp;color=1&amp;TB_iframe=true&amp;width=408&amp;height=516").addClass("thickbox");
+	$("#g34 a").attr("href","item_righted27.html?hash=game2&amp;key=3&amp;color=2&amp;TB_iframe=true&amp;width=408&amp;height=516").addClass("thickbox");
+	$("#g47 a").attr("href","item_right24ae.html?hash=game2&amp;key=4&amp;color=2&amp;TB_iframe=true&amp;width=408&amp;height=516").addClass("thickbox");
+    $("#g37 a").attr("href","item_right3aac.html?hash=game2&amp;key=5&amp;color=3&amp;TB_iframe=true&amp;width=408&amp;height=516").addClass("thickbox");
+	$("#g54 a").attr("href","item_right24b4.html?hash=game2&amp;key=6&amp;color=3&amp;TB_iframe=true&amp;width=408&amp;height=516").addClass("thickbox");
+	$("#g45 a").attr("href","item_right1a3d.html?hash=game2&amp;key=7&amp;color=4&amp;TB_iframe=true&amp;width=408&amp;height=516").addClass("thickbox");
 	
-    $("#g09 a").attr("href","item_left.html?hash=game3&key=1&color=3&TB_iframe=true&amp;width=408&amp;height=516").addClass("thickbox");
-    $("#g14 a").attr("href","item_left.html?hash=game3&key=2&color=4&TB_iframe=true&amp;width=408&amp;height=516").addClass("thickbox");
-    $("#g19 a").attr("href","item_left.html?hash=game3&key=3&color=4&TB_iframe=true&amp;width=408&amp;height=516").addClass("thickbox");
+    $("#g09 a").attr("href","item_left9706.html?hash=game3&amp;key=1&amp;color=3&amp;TB_iframe=true&amp;width=408&amp;height=516").addClass("thickbox");
+    $("#g14 a").attr("href","item_leftcfab.html?hash=game3&amp;key=2&amp;color=4&amp;TB_iframe=true&amp;width=408&amp;height=516").addClass("thickbox");
+    $("#g19 a").attr("href","item_left1ad3.html?hash=game3&amp;key=3&amp;color=4&amp;TB_iframe=true&amp;width=408&amp;height=516").addClass("thickbox");
 	
-    $("#g10 a").attr("href","item_right.html?hash=game4&key=1&color=3&TB_iframe=true&amp;width=408&amp;height=516").addClass("thickbox");
-	$("#g38 a").attr("href","item_right.html?hash=game4&key=2&color=3&TB_iframe=true&amp;width=408&amp;height=516").addClass("thickbox");
-    $("#g25 a").attr("href","item_right.html?hash=game4&key=3&color=1&TB_iframe=true&amp;width=408&amp;height=516").addClass("thickbox");
-	$("#g40 a").attr("href","item_right.html?hash=game4&key=4&color=3&TB_iframe=true&amp;width=408&amp;height=516").addClass("thickbox");
-	$("#g27 a").attr("href","item_right.html?hash=game4&key=5&color=1&TB_iframe=true&amp;width=408&amp;height=516").addClass("thickbox");
-	$("#g48 a").attr("href","item_right.html?hash=game4&key=6&color=2&TB_iframe=true&amp;width=408&amp;height=516").addClass("thickbox");
-	$("#g28 a").attr("href","item_right.html?hash=game4&key=7&color=1&TB_iframe=true&amp;width=408&amp;height=516").addClass("thickbox");
+    $("#g10 a").attr("href","item_right0e22.html?hash=game4&amp;key=1&amp;color=3&amp;TB_iframe=true&amp;width=408&amp;height=516").addClass("thickbox");
+	$("#g38 a").attr("href","item_right240b.html?hash=game4&amp;key=2&amp;color=3&amp;TB_iframe=true&amp;width=408&amp;height=516").addClass("thickbox");
+    $("#g25 a").attr("href","item_rightb1b7.html?hash=game4&amp;key=3&amp;color=1&amp;TB_iframe=true&amp;width=408&amp;height=516").addClass("thickbox");
+	$("#g40 a").attr("href","item_right53e0.html?hash=game4&amp;key=4&amp;color=3&amp;TB_iframe=true&amp;width=408&amp;height=516").addClass("thickbox");
+	$("#g27 a").attr("href","item_right0235.html?hash=game4&amp;key=5&amp;color=1&amp;TB_iframe=true&amp;width=408&amp;height=516").addClass("thickbox");
+	$("#g48 a").attr("href","item_right8b12.html?hash=game4&amp;key=6&amp;color=2&amp;TB_iframe=true&amp;width=408&amp;height=516").addClass("thickbox");
+	$("#g28 a").attr("href","item_right01a1.html?hash=game4&amp;key=7&amp;color=1&amp;TB_iframe=true&amp;width=408&amp;height=516").addClass("thickbox");
 	
-    $("#g05 a").attr("href","item_left.html?hash=game5&key=1&color=3&TB_iframe=true&amp;width=408&amp;height=516").addClass("thickbox");
-	$("#g36 a").attr("href","item_left.html?hash=game5&key=2&color=3&TB_iframe=true&amp;width=408&amp;height=516").addClass("thickbox");
-    $("#g12 a").attr("href","item_left.html?hash=game5&key=3&color=3&TB_iframe=true&amp;width=408&amp;height=516").addClass("thickbox");
-    $("#g41 a").attr("href","item_left.html?hash=game5&key=4&color=3&TB_iframe=true&amp;width=408&amp;height=516").addClass("thickbox");
-	$("#g24 a").attr("href","item_left.html?hash=game5&key=5&color=1&TB_iframe=true&amp;width=408&amp;height=516").addClass("thickbox");
-	$("#g53 a").attr("href","item_left.html?hash=game5&key=6&color=3&TB_iframe=true&amp;width=408&amp;height=516").addClass("thickbox");
-	$("#g30 a").attr("href","item_left.html?hash=game5&key=7&color=1&TB_iframe=true&amp;width=408&amp;height=516").addClass("thickbox");
-	$("#g57 a").attr("href","item_left.html?hash=game5&key=8&color=1&TB_iframe=true&amp;width=408&amp;height=516").addClass("thickbox");
+    $("#g05 a").attr("href","item_leftad02.html?hash=game5&amp;key=1&amp;color=3&amp;TB_iframe=true&amp;width=408&amp;height=516").addClass("thickbox");
+	$("#g36 a").attr("href","item_left808f.html?hash=game5&amp;key=2&amp;color=3&amp;TB_iframe=true&amp;width=408&amp;height=516").addClass("thickbox");
+    $("#g12 a").attr("href","item_left2a38.html?hash=game5&amp;key=3&amp;color=3&amp;TB_iframe=true&amp;width=408&amp;height=516").addClass("thickbox");
+    $("#g41 a").attr("href","item_left89af.html?hash=game5&amp;key=4&amp;color=3&amp;TB_iframe=true&amp;width=408&amp;height=516").addClass("thickbox");
+	$("#g24 a").attr("href","item_left9c26.html?hash=game5&amp;key=5&amp;color=1&amp;TB_iframe=true&amp;width=408&amp;height=516").addClass("thickbox");
+	$("#g53 a").attr("href","item_lefte4be.html?hash=game5&amp;key=6&amp;color=3&amp;TB_iframe=true&amp;width=408&amp;height=516").addClass("thickbox");
+	$("#g30 a").attr("href","item_left58f8.html?hash=game5&amp;key=7&amp;color=1&amp;TB_iframe=true&amp;width=408&amp;height=516").addClass("thickbox");
+	$("#g57 a").attr("href","item_left4aba.html?hash=game5&amp;key=8&amp;color=1&amp;TB_iframe=true&amp;width=408&amp;height=516").addClass("thickbox");
 	
-    $("#g13 a").attr("href","item_right.html?hash=game6&key=1&color=3&TB_iframe=true&amp;width=408&amp;height=516").addClass("thickbox");
-    $("#g55 a").attr("href","item_right.html?hash=game6&key=2&color=4&TB_iframe=true&amp;width=408&amp;height=516").addClass("thickbox");
-    $("#g16 a").attr("href","item_right.html?hash=game6&key=3&color=4&TB_iframe=true&amp;width=408&amp;height=516").addClass("thickbox");
-    $("#g50 a").attr("href","item_right.html?hash=game6&key=4&color=2&TB_iframe=true&amp;width=408&amp;height=516").addClass("thickbox");
+    $("#g13 a").attr("href","item_rightac01.html?hash=game6&amp;key=1&amp;color=3&amp;TB_iframe=true&amp;width=408&amp;height=516").addClass("thickbox");
+    $("#g55 a").attr("href","item_rightd155.html?hash=game6&amp;key=2&amp;color=4&amp;TB_iframe=true&amp;width=408&amp;height=516").addClass("thickbox");
+    $("#g16 a").attr("href","item_right91e9.html?hash=game6&amp;key=3&amp;color=4&amp;TB_iframe=true&amp;width=408&amp;height=516").addClass("thickbox");
+    $("#g50 a").attr("href","item_right0c59.html?hash=game6&amp;key=4&amp;color=2&amp;TB_iframe=true&amp;width=408&amp;height=516").addClass("thickbox");
 	tb_init("a.thickbox");
 	
 	$(".movie img").attr("src","images/game_list_btn_03.png");
@@ -139,7 +139,7 @@ if (!($.isSmartPhone || $.isDsi || $.is3Ds || $.isWii)) {
 		allowfullscreen :'false',
 		base:"../"
 	};
-	swfobject.embedSWF("../common/swf/kami.swf","header_flash","980px","400px", "7","expressInstall.swf", flashvars, params, attributes);
+	swfobject.embedSWF("../common/swf/kami.swf","header_flash","980px","400px", "7","expressInstall.html", flashvars, params, attributes);
 }
 
 

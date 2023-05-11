@@ -9,12 +9,12 @@
     if (isMobile) {
 
         if (!isPCSite) return false;
-        url = url.replace('abjj/','abjj/sp/');
+        url = url.replace('abjj/index.html','abjj/sp/index.html');
 
     } else {
 
         if (isPCSite) return false;
-        url = url.replace('sp/','');
+        url = url.replace('sp/index.html','');
 
     }
 
