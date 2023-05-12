@@ -35,5 +35,5 @@ if (!($.isSmartPhone || $.isDsi || $.is3Ds || $.isWii)) {
 		allowfullscreen :'false',
 		base:"../"
 	};
-	swfobject.embedSWF("../common/swf/kami.swf","header_flash","980px","400px", "7","expressInstall.html", flashvars, params, attributes);
+	swfobject.embedSWF("../common/swf/kami.swf","header_flash","980px","400px", "7","expressInstall.swf", flashvars, params, attributes);
 }

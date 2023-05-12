@@ -28,11 +28,11 @@
 		for(var field in fields){
 			_this[field] = r[fields[field]];
 		}
-		_this.dir  = _this.path.substring(0, _this.path.lastIndexOf('https://www.nintendo.co.jp/'))+'/';
-		_this.file = _this.path.substring(_this.path.lastIndexOf('https://www.nintendo.co.jp/')+1);
+		_this.dir  = _this.path.substring(0, _this.path.lastIndexOf('/'))+'/';
+		_this.file = _this.path.substring(_this.path.lastIndexOf('/')+1);
 
 		if(_this.path){
-			var path = _this.path.split('https://www.nintendo.co.jp/');
+			var path = _this.path.split('/');
 			var n    = path.length;
 			for(var i=0; i<n; i++){
 				if((i!=0) && (i!=(n-1))) _this.paths.push(path[i]);
