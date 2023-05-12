@@ -1,7 +1,5 @@
 <!doctype html>
 <html lang="ja">
-
-<!-- Mirrored from sonic.sega.jp/20th/item/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 12 May 2023 05:45:28 GMT -->
 <head>
 <meta charset="UTF-8">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -26,11 +24,11 @@ function parseXml(xml,status){
 // 最新URLへ移動
 function locationUrl(){
 	var tag = $(this).find('a').attr('href');
-	var urlArray = tag.split('../../index-2.html');
+	var urlArray = tag.split('/');
 	var url = "";	
 	
 	for(i=1;i<urlArray.length;i++){
-		if(i!=1)url+="../../index-2.html";
+		if(i!=1)url+="/";
 		url+=urlArray[i];
 	}
 	document.location = url;
@@ -39,6 +37,4 @@ function locationUrl(){
 </head>
 <body onload="getXml()">
 </body>
-
-<!-- Mirrored from sonic.sega.jp/20th/item/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 12 May 2023 05:45:28 GMT -->
 </html>
