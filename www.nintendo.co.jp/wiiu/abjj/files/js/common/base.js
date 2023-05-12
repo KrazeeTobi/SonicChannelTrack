@@ -1,6 +1,6 @@
 (function(window) {
 	
-	var _url = "files/js/common/index.html";
+	var _url = "files/js/common/";
 	
 	var _data = {
 		
@@ -135,7 +135,7 @@
 		})(document.getElementsByTagName("script"));
 		
 		var href   = location.href;
-		var split  = href.split("https://www.nintendo.co.jp/");
+		var split  = href.split("/");
 		var length = split.length;
 
 		_category = split[length - 2];
