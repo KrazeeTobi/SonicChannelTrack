@@ -1,0 +1,940 @@
+@charset "UTF-8";
+
+/* ===================================
+
+	File Name   : area.css
+
+====================================== */
+
+
+/*========== Style Contents ==========
+
+	1. Individual Redefinition
+	2. Area Introduction
+	3. Area Booth Individual Setting
+	*. Clear Release
+
+====================================== */
+
+
+
+
+
+
+/*===== ■1. Individual Redefinition =====*/
+
+/*----- Global Navigation -----*/
+
+#HeaderNavi #GlobalNavi li.BtnExhibit a span,
+#HeaderNavi #GlobalNavi li.BtnExhibit a:hover span {
+	background-position: 1px -50px;
+}
+.ie8 #HeaderNavi #GlobalNavi li.BtnExhibit a:hover span {
+	background-position: 1px 0px;
+}
+
+
+
+
+
+
+/*===== ■2. Area Introduction =====*/
+
+.Btn2{
+	margin:30px 0 0 0;
+}
+
+.BgGray{
+	margin-top:20px;
+	padding-top:20px;
+	}
+
+.contentLead{
+	width: 860px;
+	margin:0 auto 0 auto;
+}
+
+#AreaIntro {
+	width: 860px;
+	overflow: hidden;
+	margin:0 auto;
+}
+#AreaIntro p {
+	padding: 0px 0px 20px;
+}
+
+#AreaIntro ul#NavDoc {
+	width: 864px;
+	margin-bottom: 30px;
+}
+#AreaIntro ul#NavDoc li {
+	padding-right: 4px;
+	float: left;
+
+}
+#AreaIntro ul#NavDoc li a {
+	display: block;
+	background: url(../img/area/btn_nav_doc.html) no-repeat;
+	width: 212px;
+	height: 80px;
+}
+#AreaIntro ul#NavDoc li a#DocBtn01 { background-position: 0px 0px;}
+#AreaIntro ul#NavDoc li a#DocBtn02 { background-position: -216px 0px;}
+#AreaIntro ul#NavDoc li a#DocBtn03 { background-position: -432px 0px;}
+#AreaIntro ul#NavDoc li a#DocBtn04 { background-position: -648px 0px;}
+#AreaIntro ul#NavDoc li a:hover#DocBtn01 { background-position: 0px -80px;}
+#AreaIntro ul#NavDoc li a:hover#DocBtn02 { background-position: -216px -80px;}
+#AreaIntro ul#NavDoc li a:hover#DocBtn03 { background-position: -432px -80px;}
+#AreaIntro ul#NavDoc li a:hover#DocBtn04 { background-position: -648px -80px;}
+
+
+#AreaIntro ul#NavSub {
+	margin-top: 30px;
+	margin-bottom: 10px;
+	width: 864px;
+}
+#AreaIntro ul#NavSub li {
+	float: left;
+	padding: 0px 4px 4px 0px;
+}
+#AreaIntro ul#NavSub li a {
+	display: block;
+	background: url(../img/area/btn_nav_sub.png) no-repeat;
+	width: 212px;
+	height: 50px;
+}
+#AreaIntro ul#NavSub li a#SubBtn01 { background-position: 0px 0px;}
+#AreaIntro ul#NavSub li a#SubBtn02 { background-position: -216px 0px;}
+#AreaIntro ul#NavSub li a#SubBtn03 { background-position: -432px 0px;}
+#AreaIntro ul#NavSub li a#SubBtn04 { background-position: -648px 0px;}
+#AreaIntro ul#NavSub li a#SubBtn05 { background-position: 0px -54px;}
+#AreaIntro ul#NavSub li a#SubBtn06 { background-position: -216px -54px;}
+#AreaIntro ul#NavSub li a#SubBtn07 { background-position: -432px -54px;}
+#AreaIntro ul#NavSub li a#SubBtn08 { background-position: -648px -54px;}
+#AreaIntro ul#NavSub li a#SubBtn09 { background-position: 0px -108px;}
+#AreaIntro ul#NavSub li a#SubBtn10 { background-position: -216px -108px;}
+#AreaIntro ul#NavSub li a#SubBtn11 { background-position: -432px -108px;}
+#AreaIntro ul#NavSub li a#SubBtn12 { background-position: -648px -108px;}
+#AreaIntro ul#NavSub li a#SubBtn13 { background-position: 0px -162px;}
+#AreaIntro ul#NavSub li a#SubBtn14 { background-position: -216px -162px;}
+#AreaIntro ul#NavSub li a#SubBtn15 { background-position: -432px -162px;}
+#AreaIntro ul#NavSub li a#SubBtn16 { background-position: -648px -162px;}
+#AreaIntro ul#NavSub li a:hover#SubBtn01 { background-position: 0px -216px;}
+#AreaIntro ul#NavSub li a:hover#SubBtn02 { background-position: -216px -216px;}
+#AreaIntro ul#NavSub li a:hover#SubBtn03 { background-position: -432px -216px;}
+#AreaIntro ul#NavSub li a:hover#SubBtn04 { background-position: -648px -216px;}
+#AreaIntro ul#NavSub li a:hover#SubBtn05 { background-position: 0px -270px;}
+#AreaIntro ul#NavSub li a:hover#SubBtn06 { background-position: -216px -270px;}
+#AreaIntro ul#NavSub li a:hover#SubBtn07 { background-position: -432px -270px;}
+#AreaIntro ul#NavSub li a:hover#SubBtn08 { background-position: -648px -270px;}
+#AreaIntro ul#NavSub li a:hover#SubBtn09 { background-position: 0px -324px;}
+#AreaIntro ul#NavSub li a:hover#SubBtn10 { background-position: -216px -324px;}
+#AreaIntro ul#NavSub li a:hover#SubBtn11 { background-position: -432px -324px;}
+#AreaIntro ul#NavSub li a:hover#SubBtn12 { background-position: -648px -324px;}
+#AreaIntro ul#NavSub li a:hover#SubBtn13 { background-position: 0px -378px;}
+#AreaIntro ul#NavSub li a:hover#SubBtn14 { background-position: -216px -378px;}
+#AreaIntro ul#NavSub li a:hover#SubBtn15 { background-position: -432px -378px;}
+#AreaIntro ul#NavSub li a:hover#SubBtn16 { background-position: -648px -378px;}
+
+
+
+
+
+
+
+/*===== ■3. Area Booth Individual Setting =====*/
+
+.AreaBooth {
+	margin: 20px auto 0px;
+	width: 860px;
+}
+
+.AreaBooth ul.HaedLabel li {
+	float: left;
+	margin-left: 8px;
+}
+
+
+/*----- AreaBoothHead -----*/
+
+.AreaBoothHead {
+	position: relative;
+	padding: 18px 20px 15px;
+	width: 820px;
+	min-height: 105px;
+}
+.AreaBoothHead ul.HaedLabel {
+	position: absolute;
+	top: 20px;
+	right: 15px;
+}
+.AreaBoothHead .HaedTitle {
+	width: 705px;
+	padding-bottom: 8px;
+	border-bottom: 1px solid;
+	font-size: 210%;
+	font-weight: bold;
+	line-height: 1.05;
+	color: #fff;
+}
+.AreaBoothHead .HaedTitle .main01,
+.AreaBoothHead .HaedTitle .main02 {
+	float: left;
+}
+.AreaBoothHead .HaedTitle .sub01 {
+	float: right;
+	padding-top: 0.5em;
+	text-align: right;
+	font-size: 48%;
+	line-height: 1.4;
+}
+.AreaBoothHead .HaedTitle .sub02 {
+	float: right;
+	padding-top: 0.3em;
+	text-align: right;
+	font-size: 54%;
+	line-height: 1.4;
+}
+.AreaBoothHead p.HaedText {
+	clear: left;
+	width: 725px;
+	padding-top: 6px;
+	line-height: 1.6;
+	color: #fff;
+}
+.AreaBoothHead dl.HaedSubject {
+	margin-top: 8px;
+	width: 725px;
+}
+.AreaBoothHead .HaedSponsor {
+	padding-top:12px;
+}
+.AreaBoothHead dl.HaedSubject dt {
+	clear: left;
+	float: left;
+	width: 102px;
+	height: 26px;
+	background: url(../img/area/ttl_subject.png) left top no-repeat;
+}
+.AreaBoothHead dl.HaedSponsor dt {
+	clear: left;
+	float: left;
+	width: 102px;
+	height: 36px;
+	background: url(../img/area/ttl_sponsor.png) left top no-repeat;
+}
+.AreaBoothHead dl.HaedSubject dt span,
+.AreaBoothHead dl.HaedSponsor dt span {
+	position: absolute;
+	width: 0;
+	height: 0;
+	overflow: hidden;
+}
+.AreaBoothHead dl.HaedSubject dd,
+.AreaBoothHead dl.HaedSponsor dd {
+	float: left;
+	padding-top: 2px;
+	width: 620px;
+	font-weight: bold;
+	line-height: 1.6;
+}
+.AreaBoothHead dl.HaedSponsor dd {
+	padding-top:7px;
+	color:#FFFFFF;
+}
+
+
+/*----- AreaBoothContent -----*/
+
+.AreaBoothContent {
+	padding: 10px 20px 30px;
+	width: 820px;
+}
+
+.AreaBoothContent .PictureBox {
+	float: right;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-bottom: 10px;
+}
+.AreaBoothContent .PictureRow {
+	width: 555px;
+}
+.AreaBoothContent .PictureRow img {
+	float: left;
+}
+.AreaBoothContent .PictureRow img.Picture01 {
+	margin-right: 3px;
+}
+.AreaBoothContent .PictureLine {
+	padding-bottom: 0px;
+}
+.AreaBoothContent .PictureLine img {
+	display: block;
+}
+.AreaBoothContent .PictureLine img.Picture01 {
+	margin-bottom: 3px;
+}
+.AreaBoothContent .PictureBox02{
+	padding-top: 20px;
+	background-color:#9ea350;
+}
+#AreaIndies .PictureBox02 {
+	padding-top: 20px;
+	background-color:#9ea350;
+	padding-left:20px;
+	padding-bottom:20px;
+}
+
+.AreaBoothContent .PictureBox02 img,
+#AreaIndies .PictureBox02 img {
+	float: left;
+}
+.AreaBoothContent .PictureBox02 img.Picture01 {
+	margin-right: 3px;
+}
+#AreaIndies .PictureBox02 img.Picture01 {
+	margin-right: 3px;
+}
+
+.AreaBoothContent .DetailHeadingText {
+	margin-top: 18px;
+	font-weight: bold;
+	line-height: 1.7;
+}
+.AreaBoothContent .DetailBox {
+}
+.AreaBoothContent .DetailBoxRow {
+}
+.AreaBoothContent .DetailBoxRow .DetailBoxFloat {
+	float: left;
+}
+.AreaBoothContent .DetailBox .DetailGroupingTitle {
+	margin-top: 18px;
+	padding-left: 1.5em;
+	text-indent: -1.5em;
+	font-size: 158%;
+	font-weight: bold;
+	line-height: 1.2;
+}
+.AreaBoothContent .DetailBox .DetailGroupingTitle span {
+	display: block;
+	margin-top: 2px;
+	padding-left: 1em;
+	font-size: 82%;
+}
+.AreaBoothContent .DetailBox .DetailTitle {
+	margin-top: 18px;
+	font-size: 158%;
+	font-weight: bold;
+	line-height: 1.2;
+}
+.AreaBoothContent .DetailBox .DetailTitle span {
+	display: block;
+	margin-top: 3px;
+	font-size: 52%;
+}
+.AreaBoothContent .DetailBox .DetailText {
+	margin-top: 10px;
+	margin-bottom: 3px;
+	line-height: 1.5;
+}
+.AreaBoothContent .DetailBox .DetailText strong {
+	font-weight: bold;
+}
+.AreaBoothContent .DetailBox .DetailTextWide {
+	margin: 10px 0px 5px;
+	width: 620px;
+	line-height: 1.6;
+}
+.AreaBoothContent .DetailBox .DetailPrice {
+	margin: 10px 0px;
+}
+.AreaBoothContent .DetailBox .DetailPriceBase {
+	display: inline-block;
+	margin: 5px 0px;
+	padding: 5px 5px;
+	background: #fff;
+}
+.AreaBoothContent .DetailBox .DetailPrice dl {
+	width: 245px;
+	padding-top: 1px;
+}
+.AreaBoothContent .DetailBox .DetailPrice dl dt {
+	clear: left;
+	float: left;
+	width: 100px;
+}
+.AreaBoothContent .DetailBox .DetailPrice dl dd {
+	float: left;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 2px;
+	font-size: 129%;
+	font-weight: bold;
+}
+.AreaBoothContent .DetailBox .DetailPrice dl.PriceMember {
+}
+.AreaBoothContent .DetailBox .DetailPrice dl.PriceGeneral dt {
+}
+.AreaBoothContent .DetailBox .DetailPrice dl.PriceWide {
+	width: auto;
+}
+.AreaBoothContent .DetailBox .DetailPrice dl.PriceWide dt {
+	width: 349px;
+}
+.AreaBoothContent .DetailBox .DetailPrice dl.PriceWide dd {
+	padding-right: 20px;
+}
+.AreaBoothContent .DetailBox .DetailPrice dl.PriceMemberWide,
+.AreaBoothContent .DetailBox .DetailPrice dl.PriceGeneralWide {
+	margin-left: 224px;
+}
+.AreaBoothContent .DetailBox .DetailPrice dl.PriceMemberWide dt,
+.AreaBoothContent .DetailBox .DetailPrice dl.PriceGeneralWide dt {
+	padding: 0px 4px;
+	text-align: center;
+	/*background-color: #2b2b2b;*/
+}
+.AreaBoothContent .DetailBox p.DetailCaution {
+	clear: left;
+	margin: 2px 0px;
+	padding-left: 1em;
+	text-indent: -1em;
+	font-size: 86%;
+	line-height: 1.5;
+}
+.AreaBoothContent .DetailBox ul.DetailCaution {
+	clear: left;
+}
+.AreaBoothContent .DetailBox ul.DetailCaution li {
+	margin: 2px 0px;
+	padding-left: 1em;
+	text-indent: -1em;
+	font-size: 86%;
+	line-height: 1.5;
+}
+.AreaBoothContent .DetailBox p.DetailCaution strong,
+.AreaBoothContent .DetailBox ul.DetailCaution li strong {
+	font-weight: bold;
+}
+.AreaBoothContent .DetailBox .Detailsubscription dl {
+	margin-top:20px;
+}
+.AreaBoothContent .DetailBox .Detailsubscription dl dt {
+	float:left;
+	width:8em;
+	line-height:1.6;
+}
+.AreaBoothContent .DetailBox .Detailsubscription dl dd {
+	margin-left:10em;
+	margin-bottom:13px;
+	line-height:1.6;
+}
+.AreaBoothContent .DetailBox .btnSubscription a {
+    background-image: url("../img/area/subscription_btn.html");
+    display: block;
+    height: 60px;
+    margin: 0 auto;
+    width: 545px;
+}
+.AreaBoothContent .DetailBox .btnSubscription a:hover {
+	opacity: 0.60;
+	-moz-opacity: 0.60;
+	-khtml-opacity: 0.60;
+	filter: alpha(opacity=60);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=60)";
+}
+.AreaBoothContent .DetailColumn {
+	clear: both;
+}
+.AreaBoothContent .DetailColumn .ColumnBox {
+	float: left;
+	position: relative;
+	width: 365px;
+	padding: 5px 20px 20px;
+}
+.AreaBoothContent .DetailColumn #ColumnBox01 {
+	margin-right: 10px;
+}
+.AreaBoothContent .DetailColumn .ColumnBox ul.HaedLabel {
+	position: absolute;
+	top: 0px;
+	right: 10px;
+}
+.AreaBoothContent .DetailColumn .ColumnBox .DetailTitle {
+	width: 270px;
+}
+.AreaBoothContent .DetailColumn .ColumnBox .DetailTitle span.date {
+	font-size: 70%;
+}
+
+
+
+/*----- Area None Style -----*/
+
+.AreaBooth {
+	background-color: #fff;
+}
+.AreaBoothHead,
+.AreaBoothContent .DetailBox .DetailPrice dl.PriceMember dt {
+	/*background-color: #999;*/
+}
+.AreaBoothHead .HaedTitle {
+	border-bottom-color: #fff;
+}
+.AreaBoothContent .DetailBox .DetailPrice dl.PriceMember dd {
+	color: #999;
+}
+
+
+
+/*----- Area General -----*/
+
+#AreaGeneral {
+	background-color: #ffdee0;
+}
+#AreaGeneral .AreaBoothHead{
+	background-color: #ea545f;
+}
+#AreaGeneral .AreaBoothHead .HaedTitle {
+	border-bottom-color: #f5aaaf;
+}
+#AreaGeneral .AreaBoothContent .DetailBox .DetailPrice dl.PriceMember dd {
+	color: #ea545f;
+}
+
+
+
+/*----- Area Goods -----*/
+
+#AreaGoods {
+	background-color: #fadfbe;
+}
+#AreaGoods .AreaBoothHead{
+	background-color: #f08300;
+}
+#AreaGoods .AreaBoothHead .HaedTitle {
+	border-bottom-color: #f8c180;
+}
+#AreaGoods .AreaBoothContent .DetailBox .DetailPrice dl.PriceMember dd {
+	color: #d97700;
+}
+
+
+
+/*----- Area School -----*/
+
+#AreaSchool {
+	background-color: #dce6cf;
+}
+#AreaSchool .AreaBoothHead{
+	background-color: #7ab825;
+}
+#AreaSchool .AreaBoothHead .HaedTitle {
+	border-bottom-color: #bddc92;
+}
+#AreaSchool .AreaBoothContent .DetailBox .DetailPrice dl.PriceMember dd {
+	color: #599900;
+}
+
+
+
+/*----- Area Cyber Games Asia -----*/
+
+#AreaCyber {
+	background-color: #f0e9c5;
+}
+#AreaCyber .AreaBoothHead{
+	background-color: #c4ab1a;
+}
+#AreaCyber .AreaBoothHead .HaedTitle {
+	border-bottom-color: #e2d58d;
+}
+#AreaCyber .AreaBoothContent .DetailBox .DetailPrice dl.PriceMember dd {
+	color: #a68d00;
+}
+
+
+
+/*----- Area Smart Phone Games / Social Games -----*/
+
+#AreaSmart {
+	background-color: #ebe7e6;
+}
+#AreaSmart .AreaBoothHead{
+	background-color: #a6a3a2;
+}
+#AreaSmart .AreaBoothHead .HaedTitle {
+	border-bottom-color: #d3d1d1;
+	font-size: 186%;
+}
+#AreaSmart .AreaBoothContent .DetailBox .DetailPrice dl.PriceMember dd {
+	color: #8c8a89;
+}
+
+
+
+/*----- Area Game Device -----*/
+
+#AreaDevice {
+	background-color: #d8ebe9;
+}
+#AreaDevice .AreaBoothHead{
+	background-color: #2bada5;
+}
+#AreaDevice .AreaBoothHead .HaedTitle {
+	border-bottom-color: #95d6d2;
+}
+#AreaDevice .AreaBoothContent .DetailBox .DetailPrice dl.PriceMember dd {
+	color: #25948d;
+}
+
+
+
+/*----- Area Romance Games -----*/
+
+#AreaRomance {
+	background-color: #ffdeec;
+}
+#AreaRomance .AreaBoothHead{
+	background-color: #e66ca1;
+}
+#AreaRomance .AreaBoothHead .HaedTitle {
+	border-bottom-color: #f3b6d0;
+}
+#AreaRomance .AreaBoothContent .DetailBox .DetailPrice dl.PriceMember dd {
+	color: #cc608f;
+}
+
+
+
+/*----- Area Indies Games -----*/
+
+#AreaIndies {
+	background-color: #ecf0bd;
+}
+#AreaIndies .AreaBoothHead{
+	background-color: #9ea350;
+}
+#AreaIndies .AreaBoothContent.TypebBg .DetailBox .DetailPrice .PriceMemberWide dt {
+	/*background-color:#278a7b;*/
+}
+#AreaIndies .AreaBoothHead .HaedTitle {
+	border-bottom-color: #cfd1a8;
+}
+#AreaIndies .AreaBoothContent .DetailBox .DetailPrice dl.PriceMemberWide dd {
+	color: #9ea350;
+	line-height:1.4em;
+}
+#AreaIndies .AreaBoothContent.TypebBg .DetailBox .DetailPrice .PriceMemberWide dd {
+	color:#278a7b;
+}
+#AreaIndies .AreaBoothContent .DetailBox .DetailPrice dl.PriceWide dd {
+	color: #f08300;
+}
+
+#AreaIndies .AreaBoothContent .DetailBox .DetailPrice dl.PriceMemberWide,
+#AreaIndies .AreaBoothContent .DetailBox .DetailPrice dl.PriceGeneralWide {
+	width:
+}
+
+
+#AreaIndies .PictureBox01 {
+    padding: 0 20px 0;
+    width: 820px;
+}
+#AreaIndies .PictureBox01 img {
+	float:left;
+}
+#AreaIndies .PictureBox01 .Picture01 {
+	margin-right:3px;
+}
+#AreaIndies .AreaBoothContent.TypebBg {
+	background-color:#dff0ed;
+	margin-top:10px;
+	padding-bottom:10px;
+}
+
+
+
+/*----- Area Family -----*/
+
+#AreaFamily {
+	background-color: #d9f1fc;
+}
+#AreaFamily .AreaBoothHead{
+	background-color: #76b8d6;
+}
+#AreaFamily .AreaBoothHead .HaedTitle {
+	border-bottom-color: #bbdceb;
+}
+#AreaFamily .AreaBoothContent .DetailBox .DetailPrice dl.PriceMember dd {
+	color: #5a8ca3;
+}
+
+
+
+/*----- Area Cosplay -----*/
+
+#AreaCosplay {
+	background-color: #ffdfcc;
+}
+#AreaCosplay .AreaBoothHead{
+	background-color: #cf7440;
+}
+#AreaCosplay .AreaBoothHead .HaedTitle {
+	border-bottom-color: #e7baa0;
+}
+#AreaCosplay .AreaBoothContent .DetailBox .DetailPrice dl.PriceMember dd {
+	color: #b56638;
+}
+#AreaCosplay .AreaBoothContent .CosplayPanelBox {
+	display: inline-block;
+	margin-top: 20px;
+	padding: 5px 20px 20px;
+	width: 300px;
+	background-color: #f4c2a6;
+}
+#AreaCosplay .AreaBoothContent .CosplayPanelBox .DetailPrice dl {
+	width: auto;
+}
+#AreaCosplay .AreaBoothContent .CosplayPanelBox .DetailPrice dl dd span {
+	font-size: 80%;
+}
+
+
+
+/*----- Area VR -----*/
+
+#AreaVR {
+	background-color: #e1e4bd;
+}
+#AreaVR .AreaBoothHead{
+	background-color: #9ca425;
+}
+#AreaVR .AreaBoothHead .HaedTitle {
+	border-bottom-color: #e1e4bd;
+}
+#AreaVR .AreaBoothContent .DetailBox .DetailPrice dl.PriceMember dd {
+	color: #838a13;
+}
+
+
+
+/*----- Area AI -----*/
+
+#AreaAI {
+	background-color: #cee7e5;
+}
+#AreaAI .AreaBoothHead{
+	background-color: #5dafa9;
+}
+#AreaAI .AreaBoothHead .HaedTitle {
+	border-bottom-color: #cee7e5;
+}
+#AreaAI .AreaBoothContent .DetailBox .DetailPrice dl.PriceMember dd {
+	color: #489c96;
+}
+
+
+
+/*----- Area NewPlatform -----*/
+
+#AreaNewPlatform {
+	background-color: #d1dff7;
+}
+#AreaNewPlatform .AreaBoothHead{
+	background-color: #6694e4;
+}
+#AreaNewPlatform .AreaBoothHead .HaedTitle {
+	border-bottom-color: #d1dff7;
+}
+#AreaNewPlatform .AreaBoothContent .DetailBox .DetailPrice dl.PriceMember dd {
+	color: #4e7bc9;
+}
+
+
+
+/*----- Area Business -----*/
+
+#AreaBusiness {
+	background-color: #e9e0ff;
+}
+#AreaBusiness .AreaBoothHead{
+	background-color: #6b57a3;
+}
+#AreaBusiness .AreaBoothHead .HaedTitle {
+	border-bottom-color: #b5abd1;
+}
+#AreaBusiness .AreaBoothContent .DetailBox .DetailPrice dl.PriceMember dd {
+	color: #6b57a3;
+}
+#AreaBusiness .AreaBoothContent .DetailColumn {
+	background: url(../img/area/business_column_bg.png) left top repeat-y;
+}
+#AreaBusiness .AreaBoothContent .BusinessCloudBox {
+	position: relative;
+	margin-top: 10px;
+	width: 820px;
+	background-color: #c7ebfc;
+}
+#AreaBusiness .AreaBoothContent .BusinessCloudBox ul.HaedLabel {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+#AreaBusiness .AreaBoothContent .BusinessCloudBox .CloudTitle {
+	background: url(../img/area/business_cloud_ttl_bg.png) left -14px no-repeat #abddf9;
+}
+#AreaBusiness .AreaBoothContent .BusinessCloudBox .CloudTitle span {
+	display: block;
+	padding: 16px 20px;
+	width: 670px;
+	font-size: 158%;
+	font-weight: bold;
+}
+#AreaBusiness .AreaBoothContent .BusinessCloudBox .CloudContent {
+	padding: 0px 20px 15px 20px ;
+}
+#AreaBusiness .AreaBoothContent .BusinessCloudBox .CloudContent .PictureBox {
+	padding-top: 10px;
+	padding-right: 110px;
+	padding-bottom: 0;
+}
+#AreaBusiness .AreaBoothContent .BusinessCloudBox .CloudContent .DetailCaution {
+	margin-top: 5px;
+}
+
+
+
+/*----- Area New Stars -----*/
+
+#AreaNewStars {
+	background-color: #e9e0ff;
+}
+#AreaNewStars .AreaBoothHead{
+	background-color: #6b57a3;
+}
+#AreaNewStars .AreaBoothHead .HaedTitle {
+	border-bottom-color: #b5abd1;
+}
+#AreaNewStars .AreaBoothContent .DetailBox .DetailPrice dl.PriceMember dd {
+	color: #6b57a3;
+}
+#AreaNewStars .AreaBoothContent .DetailCornerBox {
+	display: inline-block;
+	margin-top: 20px;
+	padding: 0px 20px 15px;
+	width: 780px;
+}
+#AreaNewStars .AreaBoothContent .DetailCornerBox.Box01 {
+	background-color: #f3cfbc;
+}
+#AreaNewStars .AreaBoothContent .DetailCornerBox.Box02 {
+	margin-top: 10px;
+	background-color: #c4e6ca;
+}
+#AreaNewStars .AreaBoothContent .DetailCornerBox.Box03 {
+	margin-top: 10px;
+	background-color: #e4dbb8;
+}
+#AreaNewStars .AreaBoothContent .DetailCornerBox .DetailTitle {
+	margin-bottom: 5px;
+	color: #6b57a3;
+}
+#AreaNewStars .AreaBoothContent .DetailCornerBox p {
+	line-height: 1.5em;
+}
+
+
+
+/*----- Area Business Meeting -----*/
+
+#AreaMeeting {
+	background-color: #e9e0ff;
+}
+#AreaMeeting .AreaBoothHead{
+	background-color: #6b57a3;
+}
+#AreaMeeting .AreaBoothHead .HaedTitle {
+	border-bottom-color: #b5abd1;
+}
+#AreaMeeting .AreaBoothContent .DetailBox .DetailPrice dl.PriceMember dd {
+	color: #6b57a3;
+}
+
+
+
+
+
+
+
+/*===== ■*.Clear Release  =====*/
+
+#AreaIntro ul#NavDoc,
+#AreaIntro ul#NavSub,
+.AreaBoothHead ul.HaedLabel,
+.AreaBoothHead dl.HaedSubject,
+.AreaBoothHead dl.HaedSponsor,
+#AreaIndies .PictureBox01,
+#AreaIndies .PictureBox02,
+.AreaBoothContent .PictureBox02,
+.AreaBoothContent .DetailBoxRow,
+.AreaBoothContent .DetailBox .DetailPrice dl {
+	/zoom: 1;
+}
+#AreaIntro ul#NavDoc:after,
+#AreaIntro ul#NavSub:after,
+.AreaBoothHead ul.HaedLabel:after,
+.AreaBoothHead dl.HaedSubject:after,
+.AreaBoothHead dl.HaedSponsor:after,
+#AreaIndies .PictureBox01:after,
+#AreaIndies .PictureBox02:after,
+.AreaBoothContent .PictureBox02:after,
+.AreaBoothContent .DetailBoxRow:after,
+.AreaBoothContent .DetailBox .DetailPrice dl:after {
+	content: '';
+	display: block;
+	clear: left;
+}
+.cf,
+.AreaBoothHead .HaedTitle,
+.AreaBoothContent,
+.AreaBoothContent .DetailColumn,
+#AreaBusiness .AreaBoothContent .BusinessCloudBox .CloudContent {
+	/zoom: 1;
+}
+.cf:after,
+.AreaBoothHead .HaedTitle:after,
+.AreaBoothContent:after,
+.AreaBoothContent .DetailColumn:after,
+#AreaBusiness .AreaBoothContent .BusinessCloudBox .CloudContent:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.bold {
+	font-weight: bold;
+}
+.noteBox {
+	width: 617px;
+	font-size: 86%;
+	margin-top: 1em;
+	border: solid 1px #000;
+	padding: 1em;
+}
+.noteBox .mb {
+	margin-bottom: 1em;
+}
+.noteBox ul:first-child {
+	margin-bottom: 2em;
+}
+#AreaIndies .AreaBoothContent .DetailBox .btnSubscription a:hover {
+	opacity: 0.60;
+	-moz-opacity: 0.60;
+	-khtml-opacity: 0.60;
+	filter: alpha(opacity=60);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=60)";
+}

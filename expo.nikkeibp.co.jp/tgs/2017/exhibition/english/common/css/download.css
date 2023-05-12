@@ -1,0 +1,107 @@
+@charset "utf-8";
+/* CSS Document */
+
+.download_ul{
+	overflow: hidden;
+	margin-top: 67px;
+}
+
+.download_ul li{
+	float: left;
+	width: 33.0%;
+	background: #F5F5F5;
+	text-align: center;
+	padding: 5px;
+}
+
+.download_ul li:nth-of-type(2),
+.download_ul li:nth-of-type(3){
+	margin-left: 0.5%;
+}
+
+.download_ul li a{
+	background: url(../images/under_arrow.svg) no-repeat;
+	background-size: auto 75%;
+	background-position: left center;
+	font-size: 23px;
+	color: #FA843C;
+	min-height: 25px;
+	padding-left: 46px;	
+	padding-bottom: 2px;
+}
+
+.pdfdownload{
+	overflow: hidden;
+	margin-top: -20px;
+}
+
+
+.pdfdownload li{
+	float: left;
+	width: 49.9%;
+	height: 100px ;
+	margin-top: 30px;
+	overflow:hidden;
+}
+
+
+
+.pdfdownload a{
+	color: #FA843C;
+	font-size: 25px;
+	background: url(../images/pdf.svg) no-repeat ;
+	background-size: 28px ;
+	padding-left: 37px;
+	padding-right: 10px;
+	line-height: 1.2;
+	display: block ;
+	min-height: 32px;
+}
+
+.margin_bottom{
+	padding-top: 40px ;
+	padding-bottom: 40px;
+}
+
+
+
+
+@media only screen and (max-width:640px){
+	
+.download_ul{
+	overflow: hidden;
+	margin-top: 10px;
+}
+.download_ul li{
+	float: left;
+	width: 100.0%;
+	text-align: left;
+	margin-top: 3px;
+	padding-left: 15px;
+}
+	
+.download_ul li a{
+	font-size: 20px;
+
+}
+.pdfdownload a{
+	background-size: 26px ;
+	font-size: 15px;
+	min-height: 30px;
+}
+	
+.pdfdownload li{
+	float: left;
+	width: 100%;
+	height: auto ;
+	margin-top: 20px;
+}	
+	
+
+
+
+
+}
+
+
+

@@ -1,0 +1,177 @@
+@charset "UTF-8";
+
+/* ===================================
+
+	File Name   : rule.css
+
+====================================== */
+
+/*========== Style Contents ==========
+
+	1. Individual Redefinition
+	2. Rule
+	3. Rule Schedule
+	4. Rule Guide
+	5. Rule Regulation
+	*. Clear Release
+	
+====================================== */
+
+
+
+
+
+
+/*===== ■1. Individual Redefinition =====*/
+
+/*----- Global Navigation -----*/
+
+#HeaderNavi #GlobalNavi li.BtnExhibit a span,
+#HeaderNavi #GlobalNavi li.BtnExhibit a:hover span {
+	background-position: 1px -50px;
+}
+.ie8 #HeaderNavi #GlobalNavi li.BtnExhibit a:hover span {
+	background-position: 1px 0px;
+}
+
+
+/*----- Rule Box -----*/
+
+div.RuleBox {
+	margin: 0px 0px 20px 0px;
+	line-height: 1.6em;
+}
+
+div.RuleBox .RuleBox_ttl {
+	margin-bottom: 5px;
+	font-size: 115%;
+	font-weight: bold;
+	color: #d9227f;
+}
+
+div.RuleBox strong {
+	display: block;
+	margin: 8px 0 6px 0;
+	padding: 0 10px;
+	width: 60px;
+	text-align:center;
+	font-weight: bold;
+	color: #fff;
+	background-color: #ba2554;
+}
+div.RuleBox img {
+	margin: 8px 0 0 0;
+}
+
+div.RuleBox dl.RuleBox_dl {
+	margin-top: 10px;
+	padding: 20px 30px;
+	border: solid 1px #CCCCCC;
+}
+div.RuleBox dl.RuleBox_dl dt {
+	margin: 0 0 10px 0;
+	font-weight: bold;
+}
+div.RuleBox dl.RuleBox_dl dd ol {
+	margin-bottom: 2px;
+}
+div.RuleBox dl.RuleBox_dl dd ol li {
+	margin-bottom: 8px;
+	padding-left: 1.3em;
+	text-indent: -1.3em;
+}
+
+div.RuleBox dl.RuleBox_dl02 {
+	padding: 10px 30px;
+	border-bottom: 1px Dashed #555;
+	width: 480px;
+	line-height: 1.4em;
+	/width: 520px;
+}
+div.RuleBox dl.RuleBox_dl02 dt {
+	clear: both;
+	float: left;
+	font-size: 115%;
+	width: 330px;
+}
+div.RuleBox dl.RuleBox_dl02 dd {
+	float: left;
+	padding-left: 20px;
+	font-size: 120%;
+}
+
+
+
+
+
+
+/*===== ■2. Rule =====*/
+
+#Rule {
+	margin-bottom: 50px;
+}
+
+
+
+
+
+/*===== ■3. Rule Schedule =====*/
+
+#RuleSchedule {
+	margin-bottom: 50px;
+}
+
+
+
+
+
+/*===== ■4. Rule Guide =====*/
+
+#RuleGuide {
+	margin-bottom: 50px;
+}
+
+#RuleGuide p span{
+	font-size: 110%;
+	color: #2b2b2b;
+	font-weight: bold;
+}
+#RuleGuide p strong{
+	color: #fff;
+	display:block;
+	margin: 10px 0 10px 0;
+	width:60px;
+	text-align:center;
+	font-weight: bold;
+	background-color: #ba2554;
+	padding: 0 10px;
+}
+#RuleGuide li {
+	margin-bottom: 5px;
+	line-height: 1.5em;
+}
+
+
+
+
+
+/*===== ■5. Rule Regulation =====*/
+
+#RuleRegulation {
+}
+
+
+
+
+
+/*===== ■*.Clear Release  =====*/
+
+div.RuleBox dl.RuleBox_dl02 {
+	/zoom: 1;
+}
+
+div.RuleBox dl.RuleBox_dl02:after {
+	content: '';
+	display: block;
+	clear: both;
+}

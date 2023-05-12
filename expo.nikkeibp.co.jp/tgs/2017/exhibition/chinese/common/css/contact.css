@@ -1,0 +1,258 @@
+@charset "utf-8";
+/* CSS Document */
+
+.title_main{
+	font-size: 45px;
+    color: #263b52;
+    padding-left: 30px;
+}
+
+
+.title_sub{
+	background: url(../images/bg_h2.png) no-repeat 10px;
+    padding-left: 80px ;
+	padding-top: 5px ;
+    margin-left: 25px ;
+	color: #263b52 ;
+	font-size: 30px ;
+	margin-top: 30px ;
+	min-height: 50px ;
+}
+
+.title_sub2{
+	background: url(../images/bg_h2.png) no-repeat 10px;
+    padding-left: 80px;
+	padding-top: 5px ;
+    margin-left: 25px;
+	color: #263b52;
+	font-size: 30px;
+	margin-top: 40px;
+	min-height: 50px;
+}
+
+.title_sub3{
+	background: url(../images/bg_h2.png) no-repeat 10px;
+    padding-left: 80px ;
+	padding-top: 5px ;
+    margin-left: 50px ;
+	color: #263b52 ;
+	font-size: 30px ;
+	margin-top: 30px ;
+	min-height: 50px ;
+}
+
+
+.mail{
+	color: #fa843c;
+}
+
+.contact_contents{
+	color: #263b52;
+	font-size: 16px;
+	margin: 40px auto auto auto;
+	line-height: 1.6;
+	margin-left: 34px ;
+}
+
+.contact_contents2{
+	color: #263b52;
+	font-size: 16px;
+	margin: 40px auto auto auto;
+	line-height: 1.6;
+	margin-left: 34px;
+	margin-bottom: 20px;
+}
+
+.contact_box{
+	    color: #263b52;
+    font-size: 15px;
+    margin: 25px auto 40px auto;
+    background: #fff;
+    padding: 28px;
+    line-height: 1.6;
+}
+
+
+.event_contents{
+	color: #263b52;
+	font-size: 15px;
+	line-height: 1.6;
+	margin: 20px 0 0 0;
+	overflow: hidden;
+}
+
+
+.event_contents2{
+	color: #263b52;
+	font-size: 15px;
+	line-height: 1.6;
+}
+
+.event_contents3{
+	color: #263b52;
+	font-size: 15px;
+	line-height: 1.6;
+}
+
+.event_contents4{
+	color: #263b52;
+	font-size: 15px;
+	line-height: 1.6;
+}
+
+
+.event_outline{
+	border-top: 8px solid #f5f5f5;
+	background-color: #f5f5f5;
+	position: relative;
+}
+
+.event_pic1{
+}
+
+.event_pic2{
+}
+
+.event_pic3{
+}
+
+
+
+
+
+.detail_box{
+	background: #FA843C;
+	width: 180px;
+	border-radius: 3px;
+	padding: 4px 17px;
+	overflow: hidden;
+	margin-top: 20px;
+}
+
+
+.event_detail{
+	   	background: url(../images/arrow_white.svg) no-repeat;
+		background-size: auto 70% ;
+		background-position: 0 center ;
+    	color: #fff;
+    	font-size: 18px;
+    	padding-left: 20px;
+		font-family: "Noto Sans SC";
+font-weight: bold ;
+}
+
+
+.event_dl{
+	overflow: hidden;
+}
+
+.event_dl dd{
+	margin-left: 344px;
+}
+
+.contact-ul{
+	display: block ;
+	overflow: hidden ;
+}
+
+.contact-ul li:nth-of-type(1){
+	float: left ;
+	width: 294px ;
+}
+
+.contact-ul li:nth-of-type(2){
+	float: left ;
+	width: 147px ;
+	margin-left: 20px ;
+}
+
+
+
+@media only screen and (max-width:640px){
+	
+.contact-ul li{
+	float: none ;
+	width: 100% ;
+}
+
+.contact-ul li:nth-of-type(1){
+	width: 100% ;
+}
+
+.contact-ul li:nth-of-type(2){
+	margin-left: 0px ;
+	margin-top: 20px ;
+}
+
+.title_main{
+	font-size: 30px;
+    color: #263b52;
+    padding-left: 0px;
+}
+
+.title_sub{
+	background: url(../images/bg_h2.png) no-repeat 10px;
+	background-position: left top ;
+    padding-left: 50px;
+	padding-top: 10px ;
+    margin-left: 0 ;
+	color: #263b52;
+	font-size: 20px;
+	margin-top: 35px;
+	width: 100% ;
+}	
+
+.title_sub2{
+	background: url(../images/bg_h2.png) no-repeat 10px;
+	background-position: left top ;
+    padding-left: 50px;
+	padding-top: 10px ;
+    margin-left: 0 ;
+	color: #263b52;
+	font-size: 20px;
+	margin-top: 35px;
+	width: 100% ;	
+}
+
+.title_sub3{
+	background: url(../images/bg_h2.png) no-repeat 10px;
+	background-position: left top ;
+    padding-left: 50px ;
+	padding-top: 10px ;
+    margin-left: 20px ;
+	color: #263b52 ;
+	font-size: 30px ;
+	margin-top: 20px !important;
+	min-height: 50px ;
+}
+
+.contact_contents{
+	color: #263b52;
+	font-size: 16px;
+	margin: 20px auto 0px auto;
+	line-height: 1.6;
+}
+
+.contact_contents2{
+	color: #263b52;
+	font-size: 16px;
+	margin: 20px auto 0px auto;
+	line-height: 1.6;
+	margin-bottom: 10px ;
+}
+
+.contact_box{
+	    color: #263b52;
+    font-size: 15px;
+    margin: 0 auto 40px auto;
+    background: #fff;
+    padding: 25px;
+    line-height: 1.6;
+}
+
+.pl20{
+	padding-left: 20px ;
+	padding-right: 20px ;
+}
+	
+}
