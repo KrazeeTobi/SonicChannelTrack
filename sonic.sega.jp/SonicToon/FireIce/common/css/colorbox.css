@@ -24,25 +24,25 @@ overflow:visble;
 	Change the following styles to modify the appearance of Colorbox.  They are
 	ordered & tabbed in a way that represents the nesting of the generated HTML.
 */
-#cboxOverlay{background:url(colorbox/overlay.html) repeat 0 0;}
+#cboxOverlay{background:url(colorbox/overlay.png) repeat 0 0;}
 #colorbox{outline:0;margin:20px auto;}
 	/* ボックスの端の設定ここから */
 	/* ボックス左上角 */
-	#cboxTopLeft{width:21px; height:21px; background:url(colorbox/window_edge.html) no-repeat left top;}
+	#cboxTopLeft{width:21px; height:21px; background:url(colorbox/window_edge.png) no-repeat left top;}
 	/* ボックス右上角 */
-	#cboxTopRight{width:21px; height:21px; background:url(colorbox/window_edge.html) no-repeat right top;;}
+	#cboxTopRight{width:21px; height:21px; background:url(colorbox/window_edge.png) no-repeat right top;;}
 	/* ボックス左下角 */
-	#cboxBottomLeft{width:21px; height:21px; background:url(colorbox/window_edge.html) no-repeat left bottom;;}
+	#cboxBottomLeft{width:21px; height:21px; background:url(colorbox/window_edge.png) no-repeat left bottom;;}
 	/* ボックス右下角 */
-	#cboxBottomRight{width:21px; height:21px; background:url(colorbox/window_edge.html) no-repeat right bottom;}
+	#cboxBottomRight{width:21px; height:21px; background:url(colorbox/window_edge.png) no-repeat right bottom;}
 	/* ボックス左辺 */
-	#cboxMiddleLeft{width:21px; background:url(colorbox/window_side.html) left top repeat-y;}
+	#cboxMiddleLeft{width:21px; background:url(colorbox/window_side.png) left top repeat-y;}
 	/* ボックス右辺 */
-	#cboxMiddleRight{width:21px; background:url(colorbox/window_side.html) right top repeat-y;}
+	#cboxMiddleRight{width:21px; background:url(colorbox/window_side.png) right top repeat-y;}
 	/* ボックス上辺 */
-	#cboxTopCenter{height:21px; background:url(colorbox/window_horizontal.html) 21px 0 repeat-x;}
+	#cboxTopCenter{height:21px; background:url(colorbox/window_horizontal.png) 21px 0 repeat-x;}
 	/* ボックス下辺 */
-	#cboxBottomCenter{height:21px; background:url(colorbox/window_horizontal.html) 0 -21px repeat-x;}
+	#cboxBottomCenter{height:21px; background:url(colorbox/window_horizontal.png) 0 -21px repeat-x;}
 	
 	/* 表示させるボックス自体 ここから */
 /*	#cboxContent{background:#15325e; overflow:hidden;}*/
@@ -60,7 +60,7 @@ overflow:visble;
 /*		#cboxCurrent{position:absolute; bottom:4px; left:58px; color:#949494;}*/
 		#cboxCurrent{display:none;}
 		/* ローディング中の背景*/
-		#cboxLoadingOverlay{background:url(colorbox/loading_background.html) no-repeat center center;}
+		#cboxLoadingOverlay{background:url(colorbox/loading_background.png) no-repeat center center;}
 		/* ローディング中*/
 		#cboxLoadingGraphic{background:url(colorbox/loading.gif) no-repeat center center;}
 
@@ -75,13 +75,13 @@ overflow:visble;
 		
 		#cboxSlideshow{position:absolute; bottom:400px; right:30px; color:#0092ef;}
 		
-		#cboxPrevious{position:absolute; top:43%; left:-55px; background:url(colorbox/button_nextprev.html) no-repeat 0 0; width:42px; height:72px; text-indent:-9999px;}
+		#cboxPrevious{position:absolute; top:43%; left:-55px; background:url(colorbox/button_nextprev.png) no-repeat 0 0; width:42px; height:72px; text-indent:-9999px;}
 		#cboxPrevious:hover{background-position:0px -72px;}
-		#cboxNext{position:absolute; top:43%; right:-55px; background:url(colorbox/button_nextprev.html) no-repeat -42px 0; width:42px; height:72px; text-indent:-9999px;}
+		#cboxNext{position:absolute; top:43%; right:-55px; background:url(colorbox/button_nextprev.png) no-repeat -42px 0; width:42px; height:72px; text-indent:-9999px;}
 		#cboxNext:hover{background-position:-42px -72px;}
 
 		/*閉じる*/
-		#cboxClose{position:absolute; top:-32px; right:-8px; background:url(colorbox/button_close.html) no-repeat 0 0; width:32px; height:32px; text-indent:-9999px;}
+		#cboxClose{position:absolute; top:-32px; right:-8px; background:url(colorbox/button_close.png) no-repeat 0 0; width:32px; height:32px; text-indent:-9999px;}
 		#cboxClose:hover{background-position:0 -32px;}
 
 /*
