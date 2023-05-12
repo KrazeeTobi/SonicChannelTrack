@@ -1,80 +1,188 @@
 ::-------------------------------------------------------------change comments begin
 ::Changelog
-::Alpha - 2022-01-07: Initial version. Can download files, commit, and push them.
-::Beta - 2022-01-07: Replaced copy-pasted code. Commits now actually work (somewhat).
-::v1.0.0 - 2022-01-07: Version ready to download files.
-::v1.0.1 - 2022-01-09: Added deletion script. Not elegant, but it will do (it takes two hours to download anyway).
-::v1.0.2 - 2022-01-09: Added blog.sonic-channel.jp.
-::v1.0.3 - 2022-01-10: Removed unnecessary comments.
-::v1.0.4 - 2022-01-31: sanpo.1 and sanpo.2 deletions added.
-::v1.1.0 - 2022-03-14: Added sonicteam.com.
-::v1.1.1 - 2022-03-22: Added a shit ton more links, thanks Sonic Channel for still having these links lmao
-::v1.1.2 - 2022-03-25: Told .wget-hsts to fuck off.
-::v1.1.3 - 2022-03-26: Forgot the marioandsonicac folder! Added it.
-::v1.2.0 - 2022-04-03: Delete more temp files.
-::v1.2.1 - 2022-04-05: Oops, forgot about sonicnews! Deleting 1-3...
-::v1.2.2 - 2022-04-12: aaand the Sonic Channel staff created a new folder in special... ffs, removing temp files there now too
-::v1.2.3 - 2022-04-15: Massive ass update. Made sure that downloads continue if the SSL cert is invalid, added a shit ton of links to get (removed later on!!!), and track logging has been added.
-::v1.2.4 - 2022-04-16: FUCK! Broke a parameter with previous version. It's fixed now.
-::v1.2.5 - 2022-04-20: SONIC ORIGINS LIVE BABAAYYYYYY
-::v1.2.6 - 2022-04-25: Removed GetSite and GetTest, they've been consolidated into initUSER.
-::v1.2.7 - 2022-04-27: Nevermind, that breaks the logging process. Should be working now.
-::v1.3.0 - summer 2022: added new sonicteam link
-::v1.4.0 - THESE TEMP FILES MAAAN
-::v1.5.0 - These MOTHERFUCKING FILES, said Krazeenem.
-::v2.0.0 - 2023-01-26: WINDOWS UPDATE
-::v2.1.0 - 2023-04-04: okay so they updated the website massively, so...
-::v2.1.1 - 2023-04-25: bruh
-::v2.2.0 - 2023-05-11: it's been 16 FUCKING MONTHS | WE'RE GOING PUBLIC | oh and i've re-ordered site downloads
-::v2.2.1 - 2023-05-12: somehow i never noticed that the sonic battle url had a typo. what the fuck
+::v1.0.0 - for annual refresh
 ::--------------------------------------------------------------change comments end
 git pull
-wget -r --no-parent --no-check-certificate -p http://sonic.sega.jp/
 wget -r --no-parent --no-check-certificate -p http://sonic.sega.jp/20th/
+git add "sonic.sega.jp/20th/*.*"
+git commit "sonic.sega.jp/20th/*.*" -m "2023 refresh: fix 20th"
+git push
 wget -r --no-parent --no-check-certificate -p http://sonic.sega.jp/25th/
+git add "sonic.sega.jp/25th/*.*"
+git commit "sonic.sega.jp/25th/*.*" -m "2023 refresh: fix 25th"
+git push
 wget -r --no-parent --no-check-certificate -p http://sonic.sega.jp/30th/
+git add "sonic.sega.jp/30th/*.*"
+git commit "sonic.sega.jp/30th/*.*" -m "2023 refresh: fix 30th"
+git push
 wget -r --no-parent --no-check-certificate -p http://sonic.sega.jp/advance/
+git add "sonic.sega.jp/advance/*.*"
+git commit "sonic.sega.jp/advance/*.*" -m "2023 refresh: fix advance"
+git push
 wget -r --no-parent --no-check-certificate -p http://sonic.sega.jp/advance2/
+git add "sonic.sega.jp/advance2/*.*"
+git commit "sonic.sega.jp/advance2/*.*" -m "2023 refresh: fix advance2"
+git push
 wget -r --no-parent --no-check-certificate -p http://sonic.sega.jp/advance3/
+git add "sonic.sega.jp/advance3/*.*"
+git commit "sonic.sega.jp/advance3/*.*" -m "2023 refresh: fix advance3"
+git push
 wget -r --no-parent --no-check-certificate -p http://sonic.sega.jp/ankokunokishi/
+git add "sonic.sega.jp/ankokunokishi/*.*"
+git commit "sonic.sega.jp/ankokunokishi/*.*" -m "2023 refresh: fix ankokunokishi"
+git push
 wget -r --no-parent --no-check-certificate -p http://sonic.sega.jp/battle/
+git add "sonic.sega.jp/battle/*.*"
+git commit "sonic.sega.jp/battle/*.*" -m "2023 refresh: fix battle"
+git push
 wget -r --no-parent --no-check-certificate -p http://sonic.sega.jp/gems/
+git add "sonic.sega.jp/gems/*.*"
+git commit "sonic.sega.jp/gems/*.*" -m "2023 refresh: fix gems"
+git push
 wget -r --no-parent --no-check-certificate -p http://sonic.sega.jp/images/
+git add "sonic.sega.jp/images/*.*"
+git commit "sonic.sega.jp/images/*.*" -m "2023 refresh: fix images"
+git push
 wget -r --no-parent --no-check-certificate -p http://sonic.sega.jp/megacolle/
+git add "sonic.sega.jp/megacolle/*.*"
+git commit "sonic.sega.jp/megacolle/*.*" -m "2023 refresh: fix megacolle"
+git push
 wget -r --no-parent --no-check-certificate -p http://sonic.sega.jp/megacolleplus/
+git add "sonic.sega.jp/megacolleplus/*.*"
+git commit "sonic.sega.jp/megacolleplus/*.*" -m "2023 refresh: fix megacolleplus"
+git push
 wget -r --no-parent --no-check-certificate -p http://sonic.sega.jp/NightOfTheWerehog/
+git add "sonic.sega.jp/NightOfTheWerehog/*.*"
+git commit "sonic.sega.jp/NightOfTheWerehog/*.*" -m "2023 refresh: fix NightOfTheWerehog"
+git push
 wget -r --no-parent --no-check-certificate -p http://sonic.sega.jp/pinball/
+git add "sonic.sega.jp/pinball/*.*"
+git commit "sonic.sega.jp/pinball/*.*" -m "2023 refresh: fix pinball"
+git push
 wget -r --no-parent --no-check-certificate -p http://sonic.sega.jp/riders/
+git add "sonic.sega.jp/riders/*.*"
+git commit "sonic.sega.jp/riders/*.*" -m "2023 refresh: fix riders"
+git push
 wget -r --no-parent --no-check-certificate -p http://sonic.sega.jp/rush/
+git add "sonic.sega.jp/rush/*.*"
+git commit "sonic.sega.jp/rush/*.*" -m "2023 refresh: fix rush"
+git push
 wget -r --no-parent --no-check-certificate -p http://sonic.sega.jp/rushadventure/
+git add "sonic.sega.jp/rushadventure/*.*"
+git commit "sonic.sega.jp/rushadventure/*.*" -m "2023 refresh: fix rushadventure"
+git push
 wget -r --no-parent --no-check-certificate -p http://sonic.sega.jp/secretrings/
+git add "sonic.sega.jp/secretrings/*.*"
+git commit "sonic.sega.jp/secretrings/*.*" -m "2023 refresh: fix secretrings"
+git push
 wget -r --no-parent --no-check-certificate -p http://sonic.sega.jp/shadow/
+git add "sonic.sega.jp/shadow/*.*"
+git commit "sonic.sega.jp/shadow/*.*" -m "2023 refresh: fix shadow"
+git push
 wget -r --no-parent --no-check-certificate -p http://sonic.sega.jp/sonic/
+git add "sonic.sega.jp/sonic/*.*"
+git commit "sonic.sega.jp/sonic/*.*" -m "2023 refresh: fix sonic"
+git push
 wget -r --no-parent --no-check-certificate -p http://sonic.sega.jp/sonic_heroes/
+git add "sonic.sega.jp/sonic_heroes/*.*"
+git commit "sonic.sega.jp/sonic_heroes/*.*" -m "2023 refresh: fix sonic_heroes"
+git push
 wget -r --no-parent --no-check-certificate -p http://sonic.sega.jp/sonic3d/
+git add "sonic.sega.jp/sonic3d/*.*"
+git commit "sonic.sega.jp/sonic3d/*.*" -m "2023 refresh: fix sonic3d"
+git push
 wget -r --no-parent --no-check-certificate -p http://sonic.sega.jp/sonicadv/
+git add "sonic.sega.jp/sonicadv/*.*"
+git commit "sonic.sega.jp/sonicadv/*.*" -m "2023 refresh: fix sonicadv"
+git push
 wget -r --no-parent --no-check-certificate -p http://sonic.sega.jp/sonicadv_int/
-wget -r --no-parent --no-check-certificate -p http://sonic.sega.jp/sonicadv2/
+git add "sonic.sega.jp/sonicadv_int/*.*"
+git commit "sonic.sega.jp/sonicadv_int/*.*" -m "2023 refresh: fix sonicadv2"
+git push
+wget -r --no-parent --no-check-certificate -p http://sonic.sega.jp/sonicadv_int/
+git add "sonic.sega.jp/sonicadv2/*.*"
+git commit "sonic.sega.jp/sonicadv2/*.*" -m "2023 refresh: fix sonicadv2"
+git push
 wget -r --no-parent --no-check-certificate -p http://sonic.sega.jp/SonicAllStarRacing/
+git add "sonic.sega.jp/SonicAllStarRacing/*.*"
+git commit "sonic.sega.jp/SonicAllStarRacing/*.*" -m "2023 refresh: fix SonicAllStarRacing"
+git push
 wget -r --no-parent --no-check-certificate -p http://sonic.sega.jp/SonicChannel/
+git add "sonic.sega.jp/SonicChannel/*.*"
+git commit "sonic.sega.jp/SonicChannel/*.*" -m "2023 refresh: fix SonicChannel"
+git push
 wget -r --no-parent --no-check-certificate -p http://sonic.sega.jp/SonicChannelOld/
+git add "sonic.sega.jp/SonicChannelOld/*.*"
+git commit "sonic.sega.jp/SonicChannelOld/*.*" -m "2023 refresh: fix SonicChannelOld"
+git push
 wget -r --no-parent --no-check-certificate -p http://sonic.sega.jp/SonicChronicles/
+git add "sonic.sega.jp/SonicChronicles/*.*"
+git commit "sonic.sega.jp/SonicChronicles/*.*" -m "2023 refresh: fix SonicChronicles"
+git push
 wget -r --no-parent --no-check-certificate -p http://sonic.sega.jp/SonicColors/
+git add "sonic.sega.jp/SonicColors/*.*"
+git commit "sonic.sega.jp/SonicColors/*.*" -m "2023 refresh: fix SonicColors"
+git push
 wget -r --no-parent --no-check-certificate -p http://sonic.sega.jp/SonicForces/
+git add "sonic.sega.jp/SonicForces/*.*"
+git commit "sonic.sega.jp/SonicForces/*.*" -m "2023 refresh: fix SonicForces"
+git push
 wget -r --no-parent --no-check-certificate -p http://sonic.sega.jp/SonicFreeRiders/
+git add "sonic.sega.jp/SonicFreeRiders/*.*"
+git commit "sonic.sega.jp/SonicFreeRiders/*.*" -m "2023 refresh: fix SonicFreeRiders"
+git push
 wget -r --no-parent --no-check-certificate -p http://sonic.sega.jp/SonicFrontiers/
+git add "sonic.sega.jp/SonicFrontiers/*.*"
+git commit "sonic.sega.jp/SonicFrontiers/*.*" -m "2023 refresh: fix SonicFrontiers"
+git push
 wget -r --no-parent --no-check-certificate -p http://sonic.sega.jp/SonicGenerations/
+git add "sonic.sega.jp/SonicGenerations/*.*"
+git commit "sonic.sega.jp/SonicGenerations/*.*" -m "2023 refresh: fix SonicGenerations"
+git push
 wget -r --no-parent --no-check-certificate -p http://sonic.sega.jp/sonicjam/
+git add "sonic.sega.jp/sonicjam/*.*"
+git commit "sonic.sega.jp/sonicjam/*.*" -m "2023 refresh: fix sonicjam"
+git push
 wget -r --no-parent --no-check-certificate -p http://sonic.sega.jp/SonicLostWorld/
+git add "sonic.sega.jp/SonicLostWorld/*.*"
+git commit "sonic.sega.jp/SonicLostWorld/*.*" -m "2023 refresh: fix SonicLostWorld"
+git push
 wget -r --no-parent --no-check-certificate -p http://sonic.sega.jp/SonicMania/
+git add "sonic.sega.jp/SonicMania/*.*"
+git commit "sonic.sega.jp/SonicMania/*.*" -m "2023 refresh: fix SonicMania"
+git push
 wget -r --no-parent --no-check-certificate -p http://sonic.sega.jp/sonicr/
+git add "sonic.sega.jp/sonicr/*.*"
+git commit "sonic.sega.jp/sonicr/*.*" -m "2023 refresh: fix sonicr"
+git push
 wget -r --no-parent --no-check-certificate -p http://sonic.sega.jp/SonicTheHedgehog4/
+git add "sonic.sega.jp/SonicTheHedgehog4/*.*"
+git commit "sonic.sega.jp/SonicTheHedgehog4/*.*" -m "2023 refresh: fix SonicTheHedgehog4"
+git push
 wget -r --no-parent --no-check-certificate -p http://sonic.sega.jp/SonicToon/
+git add "sonic.sega.jp/SonicToon/*.*"
+git commit "sonic.sega.jp/SonicToon/*.*" -m "2023 refresh: fix SonicToon"
+git push
 wget -r --no-parent --no-check-certificate -p http://sonic.sega.jp/SonicWorldAdventure/
+git add "sonic.sega.jp/SonicWorldAdventure/*.*"
+git commit "sonic.sega.jp/SonicWorldAdventure/*.*" -m "2023 refresh: fix SonicOrigins"
+git push
 wget -r --no-parent --no-check-certificate -p http://sonic.sega.jp/TeamSonicRacing/
+git add "sonic.sega.jp/TeamSonicRacing/*.*"
+git commit "sonic.sega.jp/TeamSonicRacing/*.*" -m "2023 refresh: fix TeamSonicRacing"
+git push
 wget -r --no-parent --no-check-certificate -p http://sonic.sega.jp/wpack/
+git add "sonic.sega.jp/wpack/*.*"
+git commit "sonic.sega.jp/wpack/*.*" -m "2023 refresh: fix wpack"
+git push
 wget -r --no-parent --no-check-certificate -p http://sonic.sega.jp/SonicOrigins/
+git add "sonic.sega.jp/SonicOrigins/*.*"
+git commit "sonic.sega.jp/SonicOrigins/*.*" -m "2023 refresh: fix SonicOrigins"
+git push
 wget -r --no-parent --no-check-certificate -p http://blog.sonic-channel.jp/
+git add "blog.sonic-channel.jp/*.*"
+git commit "blog.sonic-channel.jp/*.*" -m "2023 refresh: fix blog"
+git push
 wget -r --no-parent --no-check-certificate -p http://sonicteam.com/
 wget -r --no-parent --no-check-certificate -p http://sonicteam.com/sonicx/
 wget -r --no-parent --no-check-certificate -p http://sonicteam.com/SonicWorldAdventure/
@@ -83,19 +191,52 @@ wget -r --no-parent --no-check-certificate -p http://sonicteam.com/secretrings/j
 wget -r --no-parent --no-check-certificate -p http://sonicteam.com/HOD2and3RETURN/jp/
 wget -r --no-parent --no-check-certificate -p http://sonicteam.com/arthurpedia/
 wget -r --no-parent --no-check-certificate -p http://www.nintendo.co.jp/mario_and_sonic2010/
+git add "www.nintendo.co.jp/mario_and_sonic2010/*.*"
+git commit "www.nintendo.co.jp/mario_and_sonic2010/*.*" -m "2023 refresh: fix mario_and_sonic2010"
+git push
 wget -r --no-parent --no-check-certificate -p http://www.nintendo.co.jp/ds/ay9j/
+git add "www.nintendo.co.jp/ds/*.*"
+git commit "www.nintendo.co.jp/ds/*.*" -m "2023 refresh: fix nintendo ds"
+git push
 wget -r --no-parent --no-check-certificate -p http://www.nintendo.co.jp/wii/siij/
 wget -r --no-parent --no-check-certificate -p http://www.nintendo.co.jp/wii/rwsj/
+git add "www.nintendo.co.jp/wii/*.*"
+git commit "www.nintendo.co.jp/wii/*.*" -m "2023 refresh: fix nintendo wii"
+git push
 wget -r --no-parent --no-check-certificate -p http://www.nintendo.co.jp/3ds/bgxj/
 wget -r --no-parent --no-check-certificate -p http://www.nintendo.co.jp/3ds/acmj/
+git add "www.nintendo.co.jp/3ds/*.*"
+git commit "www.nintendo.co.jp/3ds/*.*" -m "2023 refresh: fix nintendo 3ds"
+git push
 wget -r --no-parent --no-check-certificate -p http://www.nintendo.co.jp/wiiu/abjj/
 wget -r --no-parent --no-check-certificate -p http://www.nintendo.co.jp/wiiu/aurj/
+git add "www.nintendo.co.jp/wiiu/*.*"
+git commit "www.nintendo.co.jp/wiiu/*.*" -m "2023 refresh: fix nintendo wiiu"
+git push
 wget -r --no-parent --no-check-certificate -p http://www.olympicvideogames.com/sonic/
+git add "www.olympicvideogames.com/sonic/*.*"
+git commit "www.olympicvideogames.com/sonic/*.*" -m "2023 refresh: fix olympic sonic"
+git push
 wget -r --no-parent --no-check-certificate -p http://www.olympicvideogames.com/marioandsonicac/
+git add "www.olympicvideogames.com/marioandsonicac/*.*"
+git commit "www.olympicvideogames.com/marioandsonicac/*.*" -m "2023 refresh: fix olympic marioandsonicac"
+git push
 wget -r --no-parent --no-check-certificate -p http://www.olympicvideogames.com/marioandsonic/
+git add "www.olympicvideogames.com/marioandsonic/*.*"
+git commit "www.olympicvideogames.com/marioandsonic/*.*" -m "2023 refresh: fix olympic marioandsonic"
+git push
 wget -r --no-parent --no-check-certificate -p http://sonic-movie.jp/
+git add "sonic-movie.jp/*.*"
+git commit "sonic-movie.jp/*.*" -m "2023 refresh: fix sonicmovie"
+git push
 wget -r --no-parent --no-check-certificate -p http://paramount.jp/sonic-movie/
+git add "paramount.jp/sonic-movie/*.*"
+git commit "paramount.jp/sonic-movie/*.*" -m "2023 refresh: fix paramount"
+git push
 wget -r --no-parent --no-check-certificate -p http://sonicrunners.sega-net.com/
+git add "sonicrunners.sega-net.com/*.*"
+git commit "sonicrunners.sega-net.com/*.*" -m "2023 refresh: fix seganet"
+git push
 cd sonic.sega.jp
 cd SonicChannel
 del contentpolicy.1
@@ -632,5 +773,5 @@ git add "sonicteam.com/*.*"
 git add "www.nintendo.co.jp/*.*"
 git add "www.olympicvideogames.com/*.*"
 git add "log/*.*"
-git commit -m "files from %date:~-4,4%-%date:~3,2%-%date:~-10,2%, %time:~0,2%:%time:~3,2%:%time:~6,2%"
+git commit -m "deletion of temp files after 2023 refresh"
 git push
