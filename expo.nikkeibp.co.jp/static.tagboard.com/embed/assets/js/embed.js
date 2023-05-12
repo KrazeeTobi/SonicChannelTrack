@@ -1,8 +1,10 @@
-(function(window){
+(function(window, tgb){
   var tgbEmbed = window.tgbEmbed;
+  var tgbEnvs = window.tgbEnvs || {};
   if (!tgbEmbed) {
+    var tgbDomain = window.tagboardDomain || tgbEnvs.embedDomain || 'https://embed.tagboard.com';
     tgbEmbed = {
-      domain: window.tagboardDomain || "https://embed.tagboard.com",
+      domain: tgbDomain,
       modalFrm: null,
       frames: [],
 
@@ -13,9 +15,9 @@
       },
 
       insertIFrame: function _insertIFrame(div, embedId, preview, nostats) {
-        var ifrm = document.createElement("IFRAME"),
-            frameID = tgbEmbed.frames.length + 1,
-            frameURL = tgbEmbed.domain + "/" + embedId;
+        let ifrm = document.createElement("IFRAME");
+        let frameID = tgbEmbed.frames.length + 1;
+        let frameURL = tgbEmbed.domain + "/" + embedId;
 
         if(preview) {
           frameURL += '/preview';
@@ -161,4 +163,4 @@
 
   window.tgbEmbed.initializeFrames();
 
-})(window);
+})(window, window.tgb);

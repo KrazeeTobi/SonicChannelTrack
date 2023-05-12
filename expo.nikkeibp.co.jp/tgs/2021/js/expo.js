@@ -7,9 +7,7 @@
 window.TGS_expo = {
 
     init: function() {
-        //this.base_uri = '/tgs/2021testapi/api_data/';
         this.base_uri = '/tgs/2021/api_data/';
-        
         
         // this.base_uri = 'https://tgs2021-api.gypsophilan.com/';
 
@@ -30,6 +28,9 @@ window.TGS_expo = {
                 if (args[key] instanceof Array) {
                     var query = '';
                     args[key].forEach(function(val, index){
+                        if (val == "Oculus(Rift/Quest/Go)" || val == "Oculus(Rift%2FQuest%2FGo)"){
+                            val = "Oculus(Rift-Quest-Go)";
+                        }
                         query += val;
                     });
                     return query;
