@@ -1,0 +1,380 @@
+/* CSS Document */
+#container.public {
+  background-color: #ff5064;
+}
+
+/*PC---------------------------------*/
+@media screen and (min-width: 768px) {
+  #container.public {
+    background: url(../img/common/container_bg_public.png) top center/auto repeat #ff5064;
+  }
+  .logo {
+    display: block;
+    width: 500px;
+  }
+  .ticket_public {
+    display: block;
+    margin: 1.5em 0 1em;
+  }
+  .ticket_public.comingsoon {
+    pointer-events: none;
+  }
+  section h4 {
+    color: #ff5064;
+    font-size: 1.3em;
+    line-height: 1.5;
+    font-weight: bold;
+  }
+  section a {
+    color: #ff5064;
+  }
+  section p {
+    padding: 0;
+    margin-top: 0;
+  }
+  section .aomi {
+    background: #ff5064;
+  }
+  section .frame3 {
+    color: #ff5064;
+    border: solid 1px #ff5064;
+  }
+  /* #public_attention
+    ---------------------------------------- */
+  .sub_nav {
+    border-top: solid 1px #ff5064;
+    border-bottom: solid 1px #ff5064;
+    padding: 15px 0;
+    margin-top: 30px;
+  }
+  #public_menu {
+    position: relative;
+    display: block;
+    margin-bottom: 30px;
+  }
+  #public_menu ul {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr;
+    gap: 10px;
+  }
+  #public_menu ul li {
+    display: block;
+    padding: 0;
+    list-style-type: none;
+    width: 100%;
+  }
+  #public_menu ul li:nth-child(2) {
+    margin-right: 0;
+  }
+  #public_menu ul li a {
+    position: relative;
+    display: block;
+    background-color: #ff5064;
+    padding: 7px 2em;
+    color: #fff;
+    text-decoration: none;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 10px;
+    text-align: center;
+  }
+  #public_menu ul li a:before {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    content: "";
+    width: 1em;
+    height: 1em;
+    background: url(../img/common/arrow_triangle_w.svg) top center/contain no-repeat;
+    margin-top: -0.5em;
+    transform: rotate(-90deg);
+  }
+  #public_menu ul li.anchor a:before {
+    transform: rotate(0deg);
+    margin-top: -0.3em;
+  }
+  #public_menu ul li img {
+    vertical-align: bottom;
+    height: 100%;
+  }
+  #guide h3 img {
+    width: 394px;
+  }
+  .link_area {
+    margin: 0;
+    display: flex;
+    align-items: center;
+  }
+  .link_area li {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin-right: 1em;
+  }
+  .link_area li:after {
+    content: "";
+    position: relative;
+    display: inline-block;
+    width: 1px;
+    height: 1em;
+    margin-left: 1em;
+    background-color: #3c3c3c;
+  }
+  .link_area li:last-child {
+    margin-right: 0;
+  }
+  .link_area li:last-child:after {
+    display: none;
+  }
+  .buyer_link {
+    margin: 0;
+    padding-bottom: 10px;
+    border: none;
+  }
+  .buyer_link a {
+    color: #00b4cc;
+  }
+  .notice {
+    margin: 25px 0 30px;
+    padding: 12px;
+    border: solid 1px #ff5064;
+    text-align: center;
+  }
+  .notice p {
+    font-weight: bold;
+    padding: 0 45px;
+  }
+  #public_attention .list_bdr {
+    border-right: solid 1px #3c3c3c;
+    border-left: solid 1px #3c3c3c;
+  }
+  .section_line {
+    border: solid 1px #e6e6e6;
+  }
+  #guide .info_event {
+    margin-top: 30px;
+    margin-bottom: 0;
+  }
+  #guide .photo {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: flex-start;
+    gap: 15px;
+    align-items: center;
+  }
+  #guide .photo li {
+    width: 200px;
+  }
+  #guide .photo li img {
+    width: 100%;
+  }
+  #guide .strong {
+    font-weight: 700;
+  }
+  /* #event_check
+    ---------------------------------------- */
+  #event_check {
+    margin-top: -90px;
+    padding-top: 90px;
+  }
+  .check {
+    margin: 10px 0 15px;
+  }
+  #event_check dt p {
+    padding-left: 0;
+    margin-bottom: 15px;
+  }
+  #event_check dd {
+    margin-bottom: 15px;
+  }
+  #event_check dd p {
+    padding-left: 0;
+    margin: 10px 0 20px;
+  }
+  #event_check dd img {
+    width: 200px;
+    margin: 0 13px 15px 0;
+    font-size: 0;
+  }
+  #event_check dd img:last-child, #event_check dd img:nth-child(3) {
+    margin-right: 0;
+  }
+  /* #attendance
+    ---------------------------------------- */
+  #attendance h3 img {
+    width: 163px;
+  }
+  #attendance dl {
+    margin-top: 25px;
+  }
+  #attendance dt {
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #ff5064;
+  }
+  #attendance dd {
+    margin-bottom: 25px;
+  }
+  #attendance dd:last-child {
+    margin-bottom: 0;
+  }
+  #attendance dd span {
+    font-size: 0.9em;
+    color: #ff5064;
+  }
+  #attendance .other_list li {
+    padding-left: 1em;
+    text-indent: -1em;
+  }
+}
+/*SP---------------------------------*/
+@media screen and (max-width: 767.9px) {
+  article {
+    margin-bottom: 6%;
+  }
+  article:last-child {
+    margin-bottom: 0;
+  }
+  article h3 img {
+    height: 6.154vw;
+  }
+  section a {
+    color: #ff5064;
+  }
+  section .aomi {
+    background: #ff5064;
+  }
+  section .frame3 {
+    color: #ff5064;
+    border: solid 1px #ff5064;
+    margin-bottom: 3%;
+  }
+  section h4 {
+    color: #ff5064;
+    font-weight: bold;
+  }
+  /* #public_attention
+    ---------------------------------------- */
+  .sub_nav .link_area {
+    margin: 3% auto 0;
+    padding: 3% 0;
+    border-top: 1px solid #ff5064;
+    border-bottom: 1px solid #ff5064;
+  }
+  .sub_nav .link_area li {
+    float: none;
+  }
+  .link_area li {
+    float: left;
+  }
+  #public_attention h2.outline {
+    color: #fff;
+  }
+  .buyer_link {
+    margin: 0;
+    border: none;
+    padding-bottom: 0;
+  }
+  .buyer_link a {
+    color: #00b4cc;
+  }
+  .notice {
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-align: left;
+    color: #969696;
+  }
+  .notice p {
+    margin-bottom: 6.2%;
+  }
+  .check {
+    margin-bottom: 2%;
+  }
+  #public_menu {
+    margin: 6% auto;
+    padding: 3% 0;
+    border-radius: 8px;
+    display: block;
+  }
+  #public_menu li {
+    display: block;
+    width: 100%;
+    margin-bottom: 5px;
+  }
+  #public_menu li:last-child {
+    margin-bottom: 0;
+  }
+  #public_menu li a {
+    position: relative;
+    display: block;
+    background-color: #ff5064;
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5em;
+    text-align: center;
+    border-radius: 5px;
+  }
+  #public_menu li a:before {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    content: "";
+    width: 1em;
+    height: 1em;
+    background: url(../img/common/arrow_triangle_w.svg) top center/contain no-repeat;
+    margin-top: -0.5em;
+    transform: rotate(-90deg);
+  }
+  #public_menu li.anchor a:before {
+    transform: rotate(0deg);
+    margin-top: -0.3em;
+  }
+  /* #event_check
+  ---------------------------------------- */
+  #event_check dt {
+    margin-bottom: 1.5%;
+  }
+  #event_check dd {
+    margin-bottom: 7.8%;
+  }
+  #event_check img {
+    margin-bottom: 3.12%;
+  }
+  #event_check .info_event {
+    margin-top: -8%;
+  }
+  #event_check dd:last-child {
+    margin-bottom: 1%;
+  }
+  .info_event {
+    margin-bottom: 0;
+  }
+  /* #attendance
+  ---------------------------------------- */
+  #attendance {
+    border-bottom: none;
+  }
+  #attendance dl {
+    margin-top: 3%;
+  }
+  #attendance dt {
+    color: #ff5064;
+    font-weight: bold;
+  }
+  #attendance dd {
+    margin-bottom: 5%;
+  }
+  #attendance dd:last-child {
+    margin-bottom: 0;
+  }
+  #attendance dd span {
+    color: #ff5064;
+  }
+  #attendance .other_list li {
+    padding-left: 1em;
+    text-indent: -1em;
+  }
+}
+/*# sourceMappingURL=public_attention.css.map */

@@ -1,0 +1,130 @@
+/* CSS Document */
+#container.public {
+  background-color: #ff5064;
+}
+
+/*PC---------------------------------*/
+@media screen and (min-width: 768px) {
+  /* ----------------------------------------
+      faq.html
+  ---------------------------------------- */
+  #container.public {
+    background: url(../img/common/container_bg_public.png) top center/auto repeat #ff5064;
+  }
+  section h3 {
+    color: #ff5064;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  section h3 img {
+    height: 30px;
+  }
+  section a {
+    color: #ff5064;
+  }
+  section a:hover {
+    color: #ff5064;
+  }
+  section p {
+    margin-top: 0;
+  }
+  section div {
+    border-bottom: 1px solid #ff5064;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+  }
+  section div:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  /* #faq
+   ---------------------------------------- */
+  .link_area li {
+    float: left;
+    margin: 0 10px 10px 0;
+    padding: 0 10px 0 0;
+    border-right: solid 1px #3c3c3c;
+    line-height: 1;
+  }
+  .link_area li:last-child {
+    border-right: none;
+    margin: 0 0 10px;
+    padding: 0;
+  }
+  .section_line {
+    border: solid 1px #e6e6e6;
+  }
+  #faq dl {
+    margin-top: 25px;
+  }
+  #faq dt {
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #ff5064;
+  }
+  #faq dd {
+    margin-bottom: 25px;
+  }
+  #faq dd:last-child {
+    margin-bottom: 0;
+  }
+  #faq dd span {
+    font-size: 0.9em;
+    color: #ff5064;
+  }
+}
+/*SP---------------------------------*/
+@media screen and (max-width: 767.9px) {
+  /* ----------------------------------------
+      faq.html
+  ---------------------------------------- */
+  section a {
+    color: #ff5064;
+  }
+  section a:hover {
+    color: #ff5064;
+  }
+  section p {
+    margin-top: 0;
+  }
+  section div {
+    margin-bottom: 3%;
+    padding-bottom: 3%;
+    border-bottom: 1px solid #ff5064;
+  }
+  section div:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+  }
+  section h3 img {
+    height: 6.157vw;
+  }
+  .link_area li {
+    float: left;
+    margin: 0 10px 10px 0;
+    padding: 0 10px 0 0;
+    border-right: solid 1px #3c3c3c;
+    line-height: 1;
+  }
+  .link_area li:last-child {
+    border-right: none;
+    margin: 0 0 10px;
+    padding: 0;
+  }
+  /* #faq
+   ---------------------------------------- */
+  #faq dt {
+    margin-top: 5%;
+    font-weight: bold;
+    color: #ff5064;
+  }
+  #faq dt:first-child {
+    margin-top: 0;
+  }
+  #faq dd span {
+    color: #ff5064;
+  }
+}
+/*# sourceMappingURL=faq.css.map */
