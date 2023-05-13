@@ -1,0 +1,163 @@
+@charset "UTF-8";
+
+/* ===========================================================
+==============================================================
+	Bace Tag set
+==============================================================	
+=========================================================== */
+html,body{
+height: 100%;
+}
+
+body {
+	
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	font-size: 10px;
+	line-height: 1;
+	
+	background-color: transparent;
+}
+
+body.text-news {  }
+body#pop { background-color: #ECF5DF; }
+
+
+
+
+.common-width-box {
+	width: 100%;
+	display: block; zoom: 100%;
+	margin: 0px auto; padding: 0px; clear: both;
+}
+
+.common-width-box:after { display: block; clear: both; content: " "; }
+
+
+
+
+#header-pop { display: block; padding: 10px; }
+#heder-logo-pop { display: block; padding: 10px 0; text-align:center; }
+#heder-catch-pop { display: block; padding: 10px 0; text-align:center; font-size: 1.6em; font-weight: bold; }
+
+
+
+#contents-pop { padding: 0 5px; }
+
+#contents-pop #contents-inner {
+		padding: 5px;
+		background-image: none;
+	
+	-moz-border-radius: 5px 5px 0 0/ 5px 5px 0 0;
+	-webkit-border-radius: 5px 5px 0 0/ 5px 5px 0 0;
+	border-radius: 5px 5px 0 0/ 5px 5px 0 0;
+}
+
+
+#contents-inner .cat-title {
+	display: block; background: #D25400; padding: 5px; color: #FFF;
+	font-size: 1.4em; font-weight: bold;
+}
+#contents-inner .date {
+	display: block; padding: 5px;
+	font-size: 1.2em; text-align: right;
+}
+
+#contents-inner .title {
+	display: block; padding: 10px 5px;
+	border-top: solid 1px #CCC;
+	border-bottom: solid 1px #CCC;
+}
+#contents-inner .title h1 { font-size: 1.8em; font-weight: bold; margin: 0 0 10px 0; }
+#contents-inner .title p { font-size: 1.2em; }
+
+#contents-inner .cont {
+	display: block; padding: 20px 5px;
+	font-size: 1.4em;
+	line-height: 1.5;
+}
+#contents-inner .cont p {}
+
+#contents-inner .cont .news-photo { float: left; margin: 0 20px 20px 0; }
+
+
+
+
+
+
+
+#footer-inner { position: static; height: auto; padding: 0 5px; }
+#footer-ribbon {
+	width: 100%; position: static; top: 0; left: 0;
+	padding: 10px;
+	-moz-border-radius: 0 0 5px 5px/ 0 0 5px 5px;
+	-webkit-border-radius: 0 0 5px 5px/ 0 0 5px 5px;
+	border-radius: 0 0 5px 5px/ 0 0 5px 5px;
+}
+#footer-ribbon:after { display: none; }
+
+#footer-ribbon a.buttons { color: #FFF; }
+
+#footer-sponsor {
+	width: 100%;
+	float: none;
+	position: relative;
+	margin: 10px 0;
+}
+
+#footer-sponsor ul { text-align: center; }
+#footer-sponsor ul li { display: inline-block; padding: 5px; margin: 0 10px; }
+#footer-sponsor ul li a  { }
+
+#footer-sponsor ul li.lastChild,
+#footer-sponsor ul li:last-child { }
+
+#copyright {
+	display: block; width: 100%;
+	float: none; position: static;
+	text-align: center;
+}
+
+
+
+/* ===========================================================
+==============================================================
+	news-cell
+==============================================================	
+=========================================================== */
+.news-cell {
+	display: block;
+	overflow: auto;
+	height: 800px;
+}
+
+.text-news ul {
+	display: block;
+	font-size: 1.2em;
+	line-height: 1.5;
+}
+.text-news ul li {
+	display: inline-table;
+	width: 100%;
+	border-bottom: solid 1px #CCC;
+	padding: 10px 0;
+	margin: 0 0 5px 0;
+}
+
+.text-news ul li .date {
+	display: table-cell;
+	float: left;
+	width: 20%;
+}
+
+.text-news ul li .feed,
+.text-news ul li .content {
+	display: table-cell;
+	float: left;
+	width: 80%; zoom: 100%;
+}
+.text-news ul li .feed:after,
+.text-news ul li .content:after { display: block; clear: both; content: " "; }
+
+.text-news ul li .content .news-photo { float: left; margin: 0 20px 10px 0; }
+
+
