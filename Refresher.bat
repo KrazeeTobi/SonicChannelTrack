@@ -1,6 +1,7 @@
 ::-------------------------------------------------------------change comments begin
 ::Changelog
 ::v1.0.0 - for annual refresh
+::v1.0.1 - optimised deletions, sonicteam actually commits and pushes now
 ::--------------------------------------------------------------change comments end
 git pull
 wget -r --no-parent --no-check-certificate -p http://sonic.sega.jp/20th/
@@ -190,6 +191,9 @@ wget -r --no-parent --no-check-certificate -p http://sonicteam.com/secretrings/e
 wget -r --no-parent --no-check-certificate -p http://sonicteam.com/secretrings/jp/
 wget -r --no-parent --no-check-certificate -p http://sonicteam.com/HOD2and3RETURN/jp/
 wget -r --no-parent --no-check-certificate -p http://sonicteam.com/arthurpedia/
+git add "sonicteam.com/*.*"
+git commit "sonicteam.com/*.*" -m "2023 refresh: fix sonicteam"
+git push
 wget -r --no-parent --no-check-certificate -p http://www.nintendo.co.jp/mario_and_sonic2010/
 git add "www.nintendo.co.jp/mario_and_sonic2010/*.*"
 git commit "www.nintendo.co.jp/mario_and_sonic2010/*.*" -m "2023 refresh: fix mario_and_sonic2010"
