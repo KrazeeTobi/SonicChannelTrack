@@ -1,0 +1,25 @@
+/* footer --------------------------------------- */
+#all-footer,body#all-top #all-footer{
+	clear:both;
+	width:100%;
+	height:153px;
+	color:#fff;
+	margin:0 auto;
+	padding:45px 0 0 0;
+	background:#fff url(all-footer/footer_bg.jpg) repeat-x top center;
+	overflow:hidden;	
+}
+#all-footer p{
+	display:block;
+	line-height:1.5em;
+	text-align:center;
+	font-size:x-small;
+	_font-size:xx-small;
+	margin-bottom:15px;
+}
+
+#all-footer p a{
+	line-height:1.5em;
+	font-size:x-small;
+	_font-size:xx-small;
+}

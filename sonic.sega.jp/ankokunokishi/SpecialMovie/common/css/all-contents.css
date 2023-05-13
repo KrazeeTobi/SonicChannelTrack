@@ -1,0 +1,47 @@
+/* all-contentsarea --------------------------------- */
+#all-contentsarea {
+	width:800px;
+	margin:0 auto;
+}
+/* clear fix */
+#all-contentsarea:after{
+	content: ".";
+	display: block;
+	clear: both;
+	height: 0;
+	visibility: hidden;
+}
+/* clear fix */
+* html #all-contentsarea {
+    zoom:1;/*for IE 5.5-7*/
+}
+
+/* contents-substance --------------------------- */
+#contents-substance {
+	width:780px;
+	padding:0 10px;
+}
+/* contents --------------------------- */
+#contents {
+	float:right;
+	width:480px;
+	padding:20px 20px 60px 20px;
+}
+#contents #flashcontent {
+	position:relative;
+	top:-40px;
+}
+#contents div {
+	width:480px;
+}
+#contents div h3 {
+	float:left;
+	text-align:center;
+	width:85px;
+}
+#contents div p {
+	float:right;
+	width:395px;
+}
+
+

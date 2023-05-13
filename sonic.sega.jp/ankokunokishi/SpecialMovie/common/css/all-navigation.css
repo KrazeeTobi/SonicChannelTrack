@@ -1,0 +1,27 @@
+/* all-navigation ------------------------------------------ */
+#all-navigation{
+	width:780px;
+}
+#all-navigation ul li {
+	width:260px;
+	float:left;
+}
+
+#all-navigation ul li a{
+	display:block;
+	text-decoration:none;
+	text-indent:-9999px;
+	width:260px;
+	height:55px;
+	overflow:hidden;
+}
+#all-navigation ul li#li-beginner a{background:url(all-navigation/li_bg_beginner.jpg) no-repeat left 0px;}
+#all-navigation ul li#li-middle a{background:url(all-navigation/li_bg_middle.jpg) no-repeat left 0px;}
+#all-navigation ul li#li-higher a{background:url(all-navigation/li_bg_high.jpg) no-repeat left 0px;}
+
+#all-navigation ul li#li-beginner a:hover,body#beginner #all-navigation ul li#li-beginner a
+{background:url(all-navigation/li_bg_beginner.jpg) no-repeat left -55px;}
+#all-navigation ul li#li-middle a:hover,body#middle #all-navigation ul li#li-middle a
+{background:url(all-navigation/li_bg_middle.jpg) no-repeat left -55px;}
+#all-navigation ul li#li-higher a:hover,body#higher #all-navigation ul li#li-higher a
+{background:url(all-navigation/li_bg_high.jpg) no-repeat left -55px;}

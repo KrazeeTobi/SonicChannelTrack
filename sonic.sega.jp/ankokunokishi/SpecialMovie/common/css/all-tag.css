@@ -1,0 +1,85 @@
+/* tag ------------------------------------------ */
+
+div,span,
+ul,li,dl,dt,dd,
+h1,h2,h3,h4,h5,h6,
+p,a,img,form,blockquote {
+	margin:0;
+	padding:0;
+	border:0;
+	line-height:1.8em;
+	font-size:small;
+	_font-size:x-small;
+	font-weight:normal;
+	font-style:normal;
+}
+body, body#all-top {
+	margin:0;
+	padding:0;
+	background:#fff;
+	text-align: center;
+	color:#000;
+	background-color: #fff;
+	background-image: url(all-tag/body_bg.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+body#all-top, body#all-top div {
+	margin:0;
+	line-height:0;
+	padding:0;
+}
+body#all-top {
+	background:none;
+}
+body#all-top #flashcontent {
+	text-align:center;
+}
+body div, h1#all-title, ul#all-navigation {
+	text-align: left;
+	margin: 0 auto;
+}
+ul, li {
+	list-style:none;
+	display:block;
+}
+em {
+	font-style:normal;
+	font-weight:bold;
+	color:#C30;
+}
+a, a:visited {
+	color:#fff6b6;
+	text-decoration:underline;
+}
+a:hover, a:active {
+	color:#fff6b6;
+	text-decoration:underline;
+}
+body#all-top #flashcontent a{
+	color:#1e4ea1;
+	text-decoration:underline;
+}
+body#all-top #flashcontent a:hover, a:active{
+	color:#77adff;
+}
+h1#all-title {
+	margin-top:15px;
+	width: 800px;
+	height:156px;
+	background:url(all-tag/h1_bg.jpg) no-repeat center center;
+}
+h1#all-title a {
+	display:block;
+	width:800px;
+	height:156px;
+	font-size:0px;
+	font-family: sans-serif;
+	line-height:0;
+	text-decoration:none;
+	text-indent:-5000px;
+}
+
+* html img{
+	behavior: expression(IEPNGFIX.fix(this));
+}
