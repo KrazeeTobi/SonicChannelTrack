@@ -108,6 +108,7 @@ del /s /q *.7
 del /s /q *.8
 del /s /q *.9
 del /s /q *.10
+cd..
 cd www.olympicvideogames.com
 del /s /q *.1
 del /s /q *.2
@@ -119,6 +120,7 @@ del /s /q *.7
 del /s /q *.8
 del /s /q *.9
 del /s /q *.10
+cd..
 cd sonic-movie.jp
 del /s /q *.1
 del /s /q *.2
@@ -130,6 +132,7 @@ del /s /q *.7
 del /s /q *.8
 del /s /q *.9
 del /s /q *.10
+cd..
 cd sonicteam.com
 del /s /q *.1
 del /s /q *.2
