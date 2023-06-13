@@ -28,6 +28,7 @@
 ::v2.2.0 - 2023-05-11: it's been 16 FUCKING MONTHS | WE'RE GOING PUBLIC | oh and i've re-ordered site downloads
 ::v2.2.1 - 2023-05-12: somehow i never noticed that the sonic battle url had a typo. what the fuck
 ::v2.2.2 - 2023-05-13: massively optimised temp file deletions
+::v2.3.0 - 2023-06-13: SonicSuperStars on sonic.sega.jp has gone live
 ::--------------------------------------------------------------change comments end
 git pull
 wget -r --no-parent --no-check-certificate -p http://sonic.sega.jp/
@@ -75,6 +76,7 @@ wget -r --no-parent --no-check-certificate -p http://sonic.sega.jp/SonicWorldAdv
 wget -r --no-parent --no-check-certificate -p http://sonic.sega.jp/TeamSonicRacing/
 wget -r --no-parent --no-check-certificate -p http://sonic.sega.jp/wpack/
 wget -r --no-parent --no-check-certificate -p http://sonic.sega.jp/SonicOrigins/
+wget -r --no-parent --no-check-certificate -p http://sonic.sega.jp/SonicSuperStars/
 wget -r --no-parent --no-check-certificate -p http://blog.sonic-channel.jp/
 wget -r --no-parent --no-check-certificate -p http://sonicteam.com/
 wget -r --no-parent --no-check-certificate -p http://sonicteam.com/sonicx/

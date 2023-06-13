@@ -182,6 +182,10 @@ wget -r --no-parent --no-check-certificate -p http://sonic.sega.jp/SonicOrigins/
 git add "sonic.sega.jp/SonicOrigins/*.*"
 git commit "sonic.sega.jp/SonicOrigins/*.*" -m "2023 refresh: fix SonicOrigins"
 git push
+wget -r --no-parent --no-check-certificate -p http://sonic.sega.jp/SonicSuperStars/
+git add "sonic.sega.jp/SonicSuperStars/*.*"
+git commit "sonic.sega.jp/SonicOrigins/*.*" -m "2023 refresh: fix SonicSuperStars"
+git push
 wget -r --no-parent --no-check-certificate -p http://blog.sonic-channel.jp/
 git add "blog.sonic-channel.jp/*.*"
 git commit "blog.sonic-channel.jp/*.*" -m "2023 refresh: fix blog"
