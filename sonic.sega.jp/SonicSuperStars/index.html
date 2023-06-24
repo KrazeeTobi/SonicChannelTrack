@@ -37,10 +37,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <link rel="apple-touch-icon-precomposed" href="/SonicSuperStars/apple-touch-icon.png" />
 
   <link rel="stylesheet" href="css/sanitize-custom.css" />
+  <link rel="stylesheet" href="css/slick.css" />
   <link rel="stylesheet" href="css/colorbox.css" />
   <link rel="stylesheet" href="css/component.css" />
   <link rel="stylesheet" href="css/common.css" />
-  <link rel="stylesheet" href="css/top.css?03" />
+  <link rel="stylesheet" href="css/top.css?04" />
 
 </head>
 
@@ -87,6 +88,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <img src="images/nav-text02.png" alt="VIDEOS">
             <span class="navBg"></span>
           </a>
+          <a class="nav" href="#about">
+            <img src="images/nav-text04.png" alt="ABOUT">
+            <span class="navBg"></span>
+          </a>
           <a class="nav" href="#spec">
             <img src="images/nav-text03.png" alt="SPEC">
             <span class="navBg"></span>
@@ -112,9 +117,19 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
         <div class="scrollWrap animated" data-anime="fadeIn-up">
           <ul class="infoListWrap">
+
+            <li class="infoWrap">
+              <p class="date"><time datetime="2023-06-24">2023.06.24</time></p>
+              <p class="text">
+                ・「<a href="#videos">VIDEOS</a>」"LEGOコラボ トレーラー"追加<br>
+                ・「<a href="#about">ABOUT</a>」追加
+              </p>
+            </li>
+
+
             <li class="infoWrap">
               <p class="date"><time datetime="2023-06-09">2023.06.09</time></p>
-              <p class="text">『ソニックスーパースターズ』公式サイト 公開！</p>
+              <p class="text">・『ソニックスーパースターズ』公式サイト 公開！</p>
             </li>
           </ul>
         </div>
@@ -129,35 +144,165 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <img class="animated d0 lazyload" src="images/dm.gif" data-src="images/top/videosArea-secTitle.png" data-anime="fadeIn-up" alt="VIDEOS">
         </h1>
 
-        <div class="videoContainer">
-          <div class="videoWrap animated d5" data-anime="fadeIn-large">
-            <svg class="svgWrap">
-              <a href="https://www.youtube.com/embed/aPbeK-DobFg/" class="video popupVideo">
-                <use xlink:href="images/top/videosArea-videoMask.svg#videoStar"></use>
-              </a>
-            </svg>
 
-            <div class="thumbWrap">
-              <img class="lazyload" src="images/dm.gif" data-src="images/top/videosArea-videoBg.png" data-aspectratio="754/763">
-              <div class="masked" style="background-image: url(images/videos/video-thumb01.jpg?02)"></div>
+        <div class="animated" data-anime="fadeIn-up">
+          <div class="sliderWrap">
+
+            <!--==== video ====-->
+            <div class="videoContainer">
+              <div class="videoWrap animated d3">
+                <svg class="svgWrap">
+                  <a href="https://www.youtube.com/embed/OuNebKQfFxo/" class="video popupVideo">
+                    <use xlink:href="images/top/videosArea-videoMask.svg#videoStar"></use>
+                  </a>
+                </svg>
+
+                <div class="thumbWrap">
+                  <img class="lazyload" src="images/dm.gif" data-src="images/top/videosArea-videoBg.png" data-aspectratio="754/763">
+                  <div class="masked" style="background-image: url(images/videos/video-thumb02.jpg?02)"></div>
+                </div>
+              </div>
+
+
+              <p class="title">LEGOコラボ トレーラー</p>
+
+            </div>
+
+
+            <!--==== video ====-->
+            <div class="videoContainer">
+              <div class="videoWrap animated d3">
+                <svg class="svgWrap">
+                  <a href="https://www.youtube.com/embed/aPbeK-DobFg/" class="video popupVideo">
+                    <use xlink:href="images/top/videosArea-videoMask.svg#videoStar"></use>
+                  </a>
+                </svg>
+
+                <div class="thumbWrap">
+                  <img class="lazyload" src="images/dm.gif" data-src="images/top/videosArea-videoBg.png" data-aspectratio="754/763">
+                  <div class="masked" style="background-image: url(images/videos/video-thumb01.jpg?02)"></div>
+                </div>
+              </div>
+
+              <p class="title">アナウンストレーラー</p>
             </div>
           </div>
+        </div>
 
-          <div class="thumsStar">
-            <picture>
-              <source data-srcset="images/top/videosArea-star-sp.png" media="(max-width: 768px)">
-              <img class="animated d7 lazyload" src="images/dm.gif" data-src="images/top/videosArea-star.png" data-anime="fadeIn-large">
-            </picture>
+
+
+        <div class="thumsStar">
+          <picture>
+            <source data-srcset="images/top/videosArea-star-sp.png" media="(max-width: 768px)">
+            <img class="animated d7 lazyload" src="images/dm.gif" data-src="images/top/videosArea-star.png" data-anime="fadeIn-large">
+          </picture>
+        </div>
+
+
+        <picture>
+          <source data-srcset="images/top/videosArea-bg-sp.png" media="(max-width: 768px)">
+          <img class="sectionBg lazyload" src="images/dm.gif" data-src="images/top/videosArea-bg.png">
+        </picture>
+
+
+
+      </div>
+    </section>
+
+
+
+
+    <section class="section aboutArea">
+      <div id="about" class="secInner">
+        <div class="animated" data-anime="fadeIn-up">
+          <h1 class="secTitle">
+            <img class="secTitleImage lazyload" src="images/dm.gif" data-src="images/top/aboutArea-secTitle.png" alt="ABOUT">
+          </h1>
+        </div>
+      </div>
+
+
+      <div class="animated" data-anime="fadeIn-up">
+        <div class="sliderWrap">
+
+          <!--==== slide ====-->
+          <div class="slide">
+
+            <div class="upperTextWrap">
+              <h2 class="upperText">進化したクラシックソニック</h2>
+            </div>
+
+
+            <div class="ssWrap">
+              <img class="lazyload" src="images/top/aboutArea-slide/ss00.jpg" data-src="images/top/aboutArea-slide/ss01.jpg">
+            </div>
+
+            <p class="text">
+              <span>美麗なグラフィックで表現された個性豊かな新ゾーンや新規楽曲、システムによって、2D横スクロールが大進化！ ソニックならではのアクションはそのままに、新たなゲーム体験が存分に楽しめます。「ソニック」シリーズのファンはもちろん、初めての方にもお楽しみ頂けます。</span>
+            </p>
           </div>
 
-          <picture>
-            <source data-srcset="images/top/videosArea-bg-sp.png" media="(max-width: 768px)">
-            <img class="sectionBg lazyload" src="images/dm.gif" data-src="images/top/videosArea-bg.png">
-          </picture>
+
+          <!--==== slide ====-->
+          <div class="slide">
+
+            <div class="upperTextWrap">
+              <h2 class="upperText">個性溢れるプレイアブルキャラクター</h2>
+            </div>
+
+
+            <div class="ssWrap">
+              <img class="lazyload" src="images/top/aboutArea-slide/ss00.jpg" data-src="images/top/aboutArea-slide/ss02.jpg">
+            </div>
+
+            <p class="text">
+              <span>『ソニックスーパースターズ』では、ソニックはもちろん、仲間のテイルス、ナックルズ、エミーがプレイアブルキャラクターとして登場します。それぞれのキャラクターの固有スキルを駆使して、宿敵・Dr.エッグマンとファング、そして新たな敵に立ち向かいましょう！今作では、初代『ソニック・ザ・ヘッジホッグ』のデザイナーである大島直人氏も制作に参加します。</span>
+            </p>
+          </div>
+
+
+          <!--==== slide ====-->
+          <div class="slide">
+
+            <div class="upperTextWrap">
+              <h2 class="upperText">新たな力「エメラルドパワー」</h2>
+            </div>
+
+
+            <div class="ssWrap">
+              <img class="lazyload" src="images/top/aboutArea-slide/ss00.jpg" data-src="images/top/aboutArea-slide/ss03.jpg">
+            </div>
+
+            <p class="text">
+              <span>カオスエメラルドを獲得するごとに、新たな能力「エメラルドパワー」が解放されていきます。その能力は分身して敵を倒したり、滝を登ったり、空中ダッシュしたりとさまざま。能力ごとの特徴を駆使して、ステージ攻略や探索を楽しみましょう！</span>
+            </p>
+          </div>
+
+
+          <!--==== slide ====-->
+          <div class="slide">
+
+            <div class="upperTextWrap">
+              <h2 class="upperText">みんなでワイワイ！ <br>　4人協力マルチプレイ</h2>
+            </div>
+
+
+            <div class="ssWrap">
+              <img class="lazyload" src="images/top/aboutArea-slide/ss00.jpg" data-src="images/top/aboutArea-slide/ss04.jpg">
+            </div>
+
+            <p class="text">
+              <span>今作は、シリーズ初のオフラインでの4人協力マルチプレイが可能です。ソロプレイはもちろん、友達や家族と協力しながらメインステージを進めることもできます！</span>
+            </p>
+          </div>
 
         </div>
       </div>
+
+
     </section>
+
+
 
 
 
@@ -232,6 +377,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <footer id="compFooter" class="compFooter"></footer>
 
   <script src="js/jquery-x.x.js"></script>
+  <script src="js/slick.min.js"></script>
   <script src="js/jquery.colorbox-min.js"></script>
 
   <script id="componentJs" src="js/component.js"></script>
@@ -247,6 +393,56 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     $videoHoverTarget.on('mouseleave', function(){
       $('.masked').removeClass('-on');
     });
+
+
+
+    $('.videosArea .sliderWrap').slick({
+      infinite: true,
+      slidesToShow: 1,
+      centerMode: true,
+      autoplay: true,
+      centerPadding: '0',
+      autoplaySpeed: 8000,
+      swipe: false,
+      dots: false,
+      speed: 0,
+      arrows: true,
+      fade: true,
+      prevArrow: '<img class="arrow arrow01" src="images/slider-arrow01.png" alt="前へ">',
+      nextArrow: '<img class="arrow arrow02" src="images/slider-arrow02.png" alt="次へ">',
+    });
+
+
+    $('.aboutArea .sliderWrap').slick({
+      infinite: true,
+      slidesToShow: 1,
+      centerMode: true,
+      autoplay: true,
+      centerPadding: '33%',
+      autoplaySpeed: 8000,
+      swipe: false,
+      dots: false,
+      // speed: 0,
+      arrows: true,
+      prevArrow: '<img class="arrow arrow01" src="images/slider-arrow01.png" alt="前へ">',
+      nextArrow: '<img class="arrow arrow02" src="images/slider-arrow02.png" alt="次へ">',
+
+      responsive: [
+        {
+          breakpoint: 1200,
+          settings: {
+            centerPadding: '12%',
+          }
+        },{
+          breakpoint: 768,
+          settings: {
+            centerPadding: '8%',
+          }
+        },
+      ],
+    });
+
+
   });
   </script>
 
