@@ -1,94 +1,83 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Start</title>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <meta name="apple-mobile-web-app-capable" content="yes"/>
-    <link href="./nonAuth/axure_rp_page.css" type="text/css" rel="stylesheet"/>
-    <link href="./nonAuth/BTstyles.css" type="text/css" rel="stylesheet">
-    <link href="./nonAuth/m_hurl.css" type="text/css" rel="stylesheet">
-    <link href="./nonAuth/BTfont.css" type="text/css" rel="stylesheet">
-    <link rel="shortcut icon" href="../images/favicon1.ico" type="image/x-icon">
-	<link rel="icon" href="../images/favicon1.ico" type="image/x-icon">
-    <script src="./nonAuth/jquery-1.7.1.min.js"></script>
-    <script src="./nonAuth/jquery-ui-1.8.12.custom.min.js"></script>
-    <script language="JavaScript" type="text/javascript">
-    	var CGIs = [];
-    </script>
-    <script src="./nonAuth/globals.js"></script>
-    <script src="./nonAuth/Hurl.js"></script>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="Author" content="(C) SEGA" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta name="keyword" content="ソニック・ザ･ヘッジホッグ4 エピソードI,ソニック・ザ･ヘッジホッグ4 エピソードII,SONIC THE HEADGEHOG 4 EpisodeI,SONIC THE HEADGEHOG 4 EpisodeII,SONIC CHANNEL,ソニックチャンネル,SEGA,セガ,SONICTEAM,ソニックチーム,SONIC,ソニック" />
+<meta name="desctiption" content="ここは『ソニック・ザ･ヘッジホッグ4』公式ポータルサイトです。" />
+<title>SEGA｜ソニック・ザ･ヘッジホッグ4</title>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+<script src="common/js/pc.js"></script>
+<link rel="stylesheet" href="common/css/common-import.css" type="text/css" />
+</head>
+<body>
 
-    <script language="javascript"  type="text/javascript">
+<div id="common-header">
+	<p id="header-sega"><a href="http://sega.jp/"><img src="image/common-header_sega.gif" alt="SEGA" width="97" height="32" /></a></p>
+	<p id="header-segasammy"><a href="http://www.segasammy.co.jp/"><img src="image/common-header_segasammy.gif" alt="SEGA-SAMMY GROUP" width="74" height="24" /></a></p>
+	<ul>
+		<li id="header-corporate"><a href="http://sega.jp/corp/">会社情報</a></li>
+		<li id="header-contact"><a href="http://sega.jp/contact/">お問い合わせ</a></li>
+		<li id="header-sitemap"><a href="http://sega.jp/sitemap/">サイトマップ</a></li>
+	</ul>
+</div>
 
-	var device_version = 0;
-	function init(){
-		pm_init();
+<h1><img src="image/h1.png" alt="ソニック・ザ･ヘッジホッグ4" width="272" height="112" /></h1>
 
-		/*PC: device_version=0, mobile: device_version > 0*/
-		if(device_version == 0){
-			var ToppestMenu;
-			ToppestMenu = ShowHurlTopMenu();
-			document.getElementById("Hurl_toppest").innerHTML = ToppestMenu;
+<div id="common-contents">
+	<div id="contents-section01">
+		<h2><a href="episodeI/"><img src="common/css/contents-section01/image/h2.png" alt="SONIC THE HEADGEHOG 4 EpisodeI" width="325" height="390" /></a></h2>
+		<p><a href="episodeI/">ENTER</a></p>
+		<h3><img src="common/css/contents-section01/image/episode1.png" alt="ソニック・ザ･ヘッジホッグ4 エピソードI" width="325" height="26" /></h3>
+	</div>
 
-			setHurlInputBtn("start_troubleshooting", "hurl_sys.htm#001", "Start troubleshooting");
-			
-		}else{
-			var ToppestMenu;
-			ToppestMenu = m_ShowHurlTopMenu();
-			document.getElementById("m_Hurl_toppest").innerHTML = ToppestMenu;
-			if(device_version == 1){
-				m_setHurlInputBtn("m_start_troubleshooting", "hurl_sys.htm#001", "Start troubleshooting");
-			}else if(device_version == 2){
-				m_setHurlInputBtn("m_start_troubleshooting", "hurl_sys.htm#001", "Start troubleshooting");
-			}
-		}
-    	}
-	
-    	
-    </script>
-  </head>
+	<div id="contents-section02">
+		<h2><a href="episodeII/"><img src="common/css/contents-section02/image/h2.png" alt="SONIC THE HEADGEHOG 4 EpisodeII" width="325" height="390" /></a></h2>
+		<p><a href="episodeII/">ENTER</a></p>
+		<h3><img src="common/css/contents-section02/image/episode2.png" alt="ソニック・ザ･ヘッジホッグ4 エピソードII" width="325" height="26" /></h3>
+	</div>
+</div>
 
-  <body onLoad="init()">
-  <FORM name="tF0" action="./cgi-bin/statusprocess.exe" method="post" target="OUTfrm">
-  	 <div id="base" style="display:none;" class="">
-  	 	<!--TopMenu-->
-	    	<div id="Hurl_toppest">
-	    	</div>
+<div id="common-footer">
+	<ul>
+		<li><a href="http://sonic.sega.jp/SonicChannel/"><img src="image/logo_sonicchannel.gif" alt="SONIC CHANNEL" width="130" height="43" /></a></li>
+		<li><a href="http://www.sonicteam.com/"><img src="image/logo_sonicteam.gif" alt="SONICTEAM" width="115" height="43" /></a></li>
+	</ul>
+	<p>&copy;SEGA</p>
+	<p>[<a href="http://sega.jp/contact/soft/">お問い合わせはこちら</a>] </p>
+</div>
 
-	    	<span class="EEtitleFont_hurl" style="position:absolute; top:80px; width:270px;">Unable to connect to the Internet</span>
-	    	<img alt="" style="position:absolute; top:113px; left:205px;"  src="../images/hurl_hub.png"/>
-	    	<img alt="" style="position:absolute; top:272px; left:545px;"  src="../images/hurl_alert.png"/>
-	    	
-	    	<span class="EEregularFont_hurl" style="position:absolute; top:330px; width:500px;">
-	    		Your EE Smart Hub has detected a problem with your internet connection.
-	    		<br><br>
-	    		We'll now take you through some simple steps to try to fix things.
-	    	</span>
-	    	
-	    	<img alt="" style="position:absolute; top:400px; width:720px; height:2px;"  src="../images/sub_menu_line_u677_line.png"/>
-	    	<label id="start_troubleshooting" style="position:absolute; top:420px; left:260px;"></label>
-  	 </div>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-349115-24");
+pageTracker._trackPageview();
+} catch(err) {}
+</script>
 
-  	 <div id = "mobile" style="display:none;" class="mobile_width">
-  	 	<!--TopMenu-->
-	    	<div id="m_Hurl_toppest">
-	    	</div>
+<!-- Google Code for http://sonic.sega.jp/SonicTheHedgehog4/ Remarketing List -->
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 1010521566;
+var google_conversion_language = "en";
+var google_conversion_format = "3";
+var google_conversion_color = "ffffff";
+var google_conversion_label = "iJ5WCIrowwIQ3qvt4QM";
+var google_conversion_value = 0;
+/* ]]> */
+</script>
+<script type="text/javascript" src="http://www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="http://www.googleadservices.com/pagead/conversion/1010521566/?label=iJ5WCIrowwIQ3qvt4QM&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript>
 
-	    	<span class="m_titleFont mobile_font_size2 colorGray" style="position:absolute; top:60px; width:270px; left:10px;">Unable to connect to the Internet</span>
-	    	<img alt="" style="position:absolute; top:95px; left:30px; width:255px; height:170px;"  src="../images/hurl_hub.png"/>
-	    	<img alt="" style="position:absolute; top:225px; left:265px;"  src="../images/hurl_alert.png"/>
-	    	<div class="mobile_Swidth" style="position:absolute; top:275px;">
-		    	<span class="m_regularFont mobile_Swidth mobile_font_size2 colorGray" style="position:relative; left:10px;">
-		    		Your EE Smart Hub has detected a problem with your internet connection.
-		    		<br><br>
-		    		We'll now take you through some simple steps to try to fix things.
-		    	</span>
-		    	<img alt="" class="mobile_Swidth" style="position:relative; top:0px; left:10px; height:2px;"  src="../images/sub_menu_line_u677_line.png"/>
-		    	<label id="m_start_troubleshooting" class="hurlBtnLeft1" style="position:relative; top:10px;"></label>
-	    	</div>
-  	 </div>
-  </FORM>
-  </body>
+</body>
 </html>
