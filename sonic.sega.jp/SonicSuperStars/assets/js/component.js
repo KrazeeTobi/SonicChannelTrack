@@ -40,7 +40,11 @@ function getComponent() {
 				facebookPage = "feature";
 			} else if ($pageData === "guide") {
 				urlPage = "guide%2F";
-				namePage = "%E8%B3%BC%E5%85%A5%E3%82%AC%E3%82%A4%E3%83%89"; //購入ガイド
+				namePage = "%E8%B3%BC%E5%85%A5%E3%82%AC%E3%82%A4%E3%83%89"; //冒険の舞台
+				facebookPage = "guide/";
+			} else if ($pageData === "adventure") {
+				urlPage = "adventure%2F";
+				namePage = "%E5%86%92%E9%99%BA%E3%81%AE%E8%88%9E%E5%8F%B0"; //冒険の舞台
 				facebookPage = "guide/";
 			} else if ($pageData === "topic") {
 				const $topicurl = $("body").data("topicurl");
