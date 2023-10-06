@@ -3,10 +3,10 @@ var componentPath = document.getElementById("componentJs").src.replace(/assets\/
 function getComponent() {
 	var deferred = new $.Deferred();
 	$.ajax({
-		url: componentPath + "component.html",
-		cache: false,
-		datatype: "html",
-	})
+			url: componentPath + "component.html",
+			cache: false,
+			datatype: "html",
+		})
 		.done(function (html) {
 			const $pageData = $("body").data("page");
 			const lineURL = "https://line.me/R/msg/text/?";
@@ -46,6 +46,14 @@ function getComponent() {
 				urlPage = "adventure%2F";
 				namePage = "%E5%86%92%E9%99%BA%E3%81%AE%E8%88%9E%E5%8F%B0"; //冒険の舞台
 				facebookPage = "guide/";
+			} else if ($pageData === "action") {
+				urlPage = "action%2F";
+				namePage = "%E3%82%A2%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3"; //アクション
+				facebookPage = "action/";
+			} else if ($pageData === "comic") {
+				urlPage = "comic%2F";
+				namePage = "%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%20%E3%83%95%E3%82%A1%E3%83%B3%E3%82%B0%E3%81%AE%E5%A4%A7%E9%80%86%E8%BB%A2"; //コミック ファングの大逆転
+				facebookPage = "comic/";
 			} else if ($pageData === "topic") {
 				const $topicurl = $("body").data("topicurl");
 				const newsTitle = $(".newsItemTitle").html();
@@ -167,8 +175,7 @@ function getComponent() {
 				$pageLinks = $(".pageLinks");
 			let pageMoving = function (ad) {
 				var twoffset = $(ad).offset().top;
-				$htBody.animate(
-					{
+				$htBody.animate({
 						scrollTop: twoffset - 80,
 					},
 					600
