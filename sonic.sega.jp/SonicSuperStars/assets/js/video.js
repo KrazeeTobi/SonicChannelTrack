@@ -1,28 +1,28 @@
 /*+++++
 loading
 +++++*/
-tsParticles.loadJSON("particles-jsLoading", "../assets/data/particlesLoadingUnder.json").then(function (p) {
+tsParticles.loadJSON('particles-jsLoading', '../assets/data/particlesLoadingUnder.json').then(function (p) {
 	// p is the loaded container, for using it later
-	console.log("callback - particles.js config loaded");
+	console.log('callback - particles.js config loaded');
 });
 
 /*+++++
 ページ内動作
 +++++*/
 $(function () {
-	const $loading = $("#loading");
-	$(window).on("load", function () {
+	const $loading = $('#loading');
+	$(window).on('load', function () {
 		setTimeout(() => {
-			$loading.addClass("is-open");
-			$loading.find(".start-loadingBox").fadeOut();
+			$loading.addClass('is-open');
+			$loading.find('.start-loadingBox').fadeOut();
 			setTimeout(() => {
 				$loading.hide();
 			}, 1000);
 		}, 1000);
 	});
 	setTimeout(() => {
-		$loading.addClass("is-open");
-		$loading.find(".start-loadingBox").fadeOut();
+		$loading.addClass('is-open');
+		$loading.find('.start-loadingBox').fadeOut();
 		setTimeout(() => {
 			$loading.hide();
 		}, 1000);
@@ -30,11 +30,11 @@ $(function () {
 
 	let viewWidth = $(window).width();
 
-	const $jsMovie = $("#jsMovie");
-	const $movieItemList = $jsMovie.find(".movieItemList");
-	const $movieItemLi = $movieItemList.find("li");
+	const $jsMovie = $('#jsMovie');
+	const $movieItemList = $jsMovie.find('.movieItemList');
+	const $movieItemLi = $movieItemList.find('li');
 	const $movieItemMAX = $movieItemLi.length;
-	const on = "is-on";
+	const on = 'is-on';
 	let randomNum = 0;
 	let flagStartSize = true;
 	let randomWidth = () => {
@@ -45,7 +45,7 @@ $(function () {
 				} else {
 					randomNum = Math.floor(Math.random() * (32 - 26)) + 26;
 				}
-				$movieItemLi.eq(i).css("width", randomNum + "%");
+				$movieItemLi.eq(i).css('width', randomNum + '%');
 			}
 			if (i === $movieItemMAX - 1) {
 				flagStartSize = false;
@@ -69,7 +69,7 @@ $(function () {
 		}, 5000);
 	});
 
-	$(".movieChara").on("inview", function () {
+	$('.movieChara').on('inview', function () {
 		$(this).addClass(on);
 	});
 });
