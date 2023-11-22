@@ -125,11 +125,32 @@ function getComponent() {
 						if (scroll > el) {
 							$('.c-navPcMenuWrap').addClass(on);
 							$('.c-pageUp').fadeIn();
+							$('.buyBox.is-fixed').fadeIn();
 						} else {
 							$('.c-navPcMenuWrap').removeClass(on);
 							$('.c-pageUp').fadeOut();
+							$('.buyBox.is-fixed').fadeOut();
 						}
 					}, 500);
+				});
+				if ($pageData === 'guide') {
+					$('#buyBoxWrap').hide();
+				}
+				$('#compFooterInner').on('inview', function (event, isInView, visiblePartX, visiblePartY) {
+					const $buyBtnBoxFixed = $('.buyBtnBox.is-fixed');
+					$buyBtnBoxFixed.addClass('is-off');
+					console.log($pageData);
+
+					if (isInView) {
+						setTimeout(() => {
+							$buyBtnBoxFixed.addClass('is-hide');
+						}, 100);
+					} else {
+						$buyBtnBoxFixed.removeClass('is-hide');
+						setTimeout(() => {
+							$buyBtnBoxFixed.removeClass('is-off');
+						}, 100);
+					}
 				});
 			});
 
