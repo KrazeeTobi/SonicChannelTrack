@@ -139,7 +139,6 @@ function getComponent() {
 				$('#compFooterInner').on('inview', function (event, isInView, visiblePartX, visiblePartY) {
 					const $buyBtnBoxFixed = $('.buyBtnBox.is-fixed');
 					$buyBtnBoxFixed.addClass('is-off');
-					console.log($pageData);
 
 					if (isInView) {
 						setTimeout(() => {
@@ -210,20 +209,31 @@ function getComponent() {
 			/*+++++
 			colorbox
 			+++++*/
-			//colorbox
-			const $popupVideo = $('.popupVideo');
-			if (0 < $popupVideo.length) {
-				$popupVideo.colorbox({
-					iframe: true,
-					innerWidth: 640,
-					innerHeight: 360,
-					maxWidth: '95%',
-					maxHeight: '95%',
-					opacity: 1,
-					fixed: true,
-					opacity: 0.96,
-				});
-			}
+			let colorboxes = document.querySelectorAll('.popupVideo');
+			colorboxes.forEach((e) => {
+				let href = e.getAttribute('href');
+				e.setAttribute('data-href', href);
+				e.removeAttribute('href');
+			});
+			$('.popupVideo').on('click', function () {
+				let modal_href = $(this).attr('data-href');
+				const $popupVideo = $('.popupVideo');
+
+				if (0 < $popupVideo.length) {
+					$popupVideo.colorbox({
+						href: modal_href,
+						iframe: true,
+						innerWidth: 640,
+						innerHeight: 360,
+						maxWidth: '95%',
+						maxHeight: '95%',
+						opacity: 1,
+						fixed: true,
+						opacity: 0.96,
+					});
+				}
+			});
+
 			if (!$('#topPage').length > 0) {
 				tsParticles.loadJSON('particles-js', '../assets/data/particlesUnder.json').then(function (p) {
 					// p is the loaded container, for using it later
