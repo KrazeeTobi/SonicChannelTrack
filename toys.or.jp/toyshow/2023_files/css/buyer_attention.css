@@ -13,9 +13,9 @@
   }
   .download {
     display: block;
-    margin: 30px auto 0;
+    margin: 0 auto 0;
     text-align: center;
-    width: 530px;
+    width: 630px;
   }
   section .aomi {
     background: none;
@@ -105,17 +105,21 @@
   }
   #buyer_menu {
     position: relative;
-    float: left;
-    padding: 15px 30px;
+    float: right;
+    width: 690px;
+    padding: 10px;
     margin-bottom: 30px;
     background: #fff;
     border-radius: 10px;
+    box-sizing: border-box;
     box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.4);
     -moz-box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.4);
     -webkit-box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.4);
   }
   #buyer_menu ul {
     overflow: hidden;
+    display: flex;
+    justify-content: space-between;
   }
   #buyer_menu li {
     margin: 0;
@@ -128,7 +132,7 @@
     margin-right: 0;
   }
   #buyer_menu li img {
-    width: 312.5px;
+    width: 330px;
     vertical-align: bottom;
   }
   /* ----------------------------------------
@@ -229,8 +233,7 @@
     width: 20%;
   }
   .page_link {
-    position: absolute;
-    top: -130px;
+    position: relative;
   }
   /* ----------------------------------------
       campaignInfo 
@@ -248,10 +251,10 @@
   .campaignInfo div {
     border-bottom: 0px solid #00b4dc;
   }
-  .campaignInfo span {
-    color: #969696;
-    padding: 150px 20px 15px 0;
-    margin: -150px 0 20px;
+  .campaignInfo .indent {
+    display: block;
+    padding-left: 1em;
+    text-indent: -1em;
   }
   .info {
     margin-bottom: 0;
@@ -275,6 +278,7 @@
     font-size: 1em;
   }
   .company-name span {
+    padding-right: 10px;
     font-weight: bold;
     color: #3c3c3c;
   }
@@ -425,7 +429,7 @@
     clear: both;
   }
   section tr .more_info img {
-    width: 55.3%;
+    width: 65%;
   }
   section span {
     color: #00b4dc;
@@ -517,7 +521,10 @@
     border-bottom: none;
   }
   .campaignInfo span {
-    color: #969696;
+    color: #000;
+  }
+  .campaignInfo .indent {
+    display: block;
   }
   .company-name {
     margin: 0;
@@ -526,7 +533,7 @@
     font-size: 1em;
   }
   .campaignInfo .company-name span {
-    padding-right: 20px;
+    padding-right: 10px;
     font-weight: bold;
     color: #3c3c3c;
   }
@@ -568,18 +575,16 @@
   .imgsize {
     width: 70%;
   }
-  .campaignInfo span {
-    padding: 70px 0 15px;
-    margin: -70px 0 20px;
-    color: red;
-  }
   .page_link {
-    position: absolute;
-    top: -50px;
+    position: relative;
   }
   #campaign {
     margin-top: -50px;
     padding-top: 50px;
+  }
+  #campaign h3 img {
+    width: auto;
+    height: 6.154vw;
   }
   .download {
     width: 100%;

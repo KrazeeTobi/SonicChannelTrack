@@ -1,0 +1,692 @@
+<!doctype html>
+<html lang="us">
+<head>
+	<meta charset="utf-8">
+	<title>ST申請システム　Webマニュアル</title>
+	<link href="js/jquery-ui-1.9.1.custom.css" rel="stylesheet">
+	<script src="js/jquery-1.8.2.js"></script>
+	<script src="js/jquery-ui-1.9.1.custom.js"></script>
+	<script>
+	$(function() {
+		
+		$( "#accordion" ).accordion({collapsible: true,active:100
+,heightStyle: "content"
+ });
+   /*   activeパラメータ　はじめにを開いた状態にするには「0」を指定
+   　　　すべて閉じる場合は、大きい数字を入れる  */
+		
+		var availableTags = [
+			"ActionScript",
+			"AppleScript",
+			"Asp",
+			"BASIC",
+			"C",
+			"C++",
+			"Clojure",
+			"COBOL",
+			"ColdFusion",
+			"Erlang",
+			"Fortran",
+			"Groovy",
+			"Haskell",
+			"Java",
+			"JavaScript",
+			"Lisp",
+			"Perl",
+			"PHP",
+			"Python",
+			"Ruby",
+			"Scala",
+			"Scheme"
+		];
+
+	});
+	
+		  <!--
+　　　　　function otherWin9(){
+　　　　　window.close();
+　　　　　}
+         //-->	
+	
+	
+	
+	</script>
+    
+	<style>
+	body{
+		font: 80.5% "Trebuchet MS", sans-serif;
+		margin: 20px;
+	}
+	.demoHeaders {
+		margin-top: 2em;
+	}
+	
+	.fltrt {  /* このクラスを使用すると、ページ内でエレメントを右にフローティングさせることができます。フローティングさせるエレメントは、ページ内で横に並べて表示するエレメントの前に指定する必要があります。 */
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { /* このクラスを使用すると、ページ内でエレメントを左にフローティングさせることができます。フローティングさせるエレメントは、ページ内で横に並べて表示するエレメントの前に指定する必要があります。 */
+	float: left;
+	margin-right: 3px;
+}
+
+.styleREDB12 {color: #FF0000;
+	font-weight: bold;
+	font-size: 12px;
+}
+	</style>
+</head>
+<body>
+
+
+<td><!-- Accordion --><img src="image/st_system_manual_tg.png" width="690" height="50"><br>
+  ※ご覧になりたい項目番号のタブをクリックすることで、マニュアル文書が開閉されます。<br>
+</td>
+
+
+
+<div id="accordion">
+
+<!-- Accordion 0　-->
+
+<h3>はじめに</h3>
+	<div>
+	  <p>本Ｗｅｂマニュアルは、簡易版となります。<br>
+	    <a href="pdf/st_system_manual.pdf" target="_new">操作マニュアル<img src="image/adobe_logo.gif" alt="PDF" width="17" height="17" border="0"></a>と併せてご覧ください。<br>
+	    <br>
+	    操作に慣れていない方は、本ページを立ち上げたまま操作をして頂くと便利です。<br>
+	    <br>
+	  操作について、ご不明な点は日本玩具協会（Ｔｅｌ　03-3829-2513　平日：9：00-17：00）までお問い合わせください。<br>
+	  <br>
+	  </p>
+	</div>
+
+
+
+<!-- Accordion 1　-->
+
+<h3>１．システム使用環境について（OSはWindows、指定ブラウザは<strong>「Micorsoft Egde」</strong>及び<strong>「Google Chrome」</strong>です）</h3>
+	<div>
+	  <p>稼働可能なOSとブラウザについては下記の通りとなります。<br>
+	    OSは<u><strong>Windows</strong></u>となり、他のOS(AppleOS、Androidなど)は使用できません。
+　<br>
+指定ブラウザは、<strong>「Micorsoft Egde」</strong>及び<strong>「Google Chrome」</strong>となります。<br>
+（Opera、Safariなどのブラウザでは登録できませんのでご注意ください。 ）<br>
+<br>
+<br>
+      </p>
+</div>
+
+
+<!-- Accordion 2　-->    
+    
+  <h3>２．インターネット申請以外の、ST申請方法について</h3>
+	<div>
+	  <p><br>
+	    インターネット以外の申請方法として、<strong>「申請書（紙）</strong>」がありますが、
+<br>
+WindowsPCをお持ちでないなど、<u>やむを得ない場合を除き、インターネットによる申請をお願いしております</u>。 <br>
+やむを得ず「申請書(紙)」をご利用の際は、指定の検査機関に連絡し了解を得た上で、下記のＰＤＦをご利用ください。 <br>
+（現在、3枚複写の申請様式は廃止しております。）<br>
+<br>
+　・<a href="st_sinsei_form_20180401.pdf" target="_blank">申請用紙<img src="image/adobe_logo.gif" alt="PDF" width="17" height="17" border="0">　</a>　（右クリックで「名前を付けて保存」してください。）<br>
+	  　<br>
+	  　　<br>
+	  </p>
+</div>
+
+<!-- Accordion 3　-->    
+    
+  <h3>３．申請データの入力方法</h3>
+	<div>
+	  <p>	  ログイン後、以下の画面が表示されます。<br>
+	    検索画面がトップページとなります（過去に申請した情報を検索できます）。<br>
+	    <img src="image/st_sinsei_gamen.jpg" width="554" height="261" border="1"><br>
+	    <br>
+	    <strong>＜新規の申請方法＞</strong><br>
+	    ・画面の「新規作成」ボタンをクリックします。<br>
+	    　<img src="image/st_new_sinsei.jpg" width="61" height="21" border="0"><br>
+	    　申請入力画面が表示されますので、必要事項を入力してください。<br>
+	    <br>
+	    <strong>＜コピーによる申請の方法＞</strong><br>
+	    　更新申請の際、または、シリーズ商品の入力の際は便利です。<br>
+      　（1）過去に申請した情報を「ST番号」または「受付番号」で検索します。<br>
+	    　（2）検索結果が一覧表示されます。<br>
+	    　　　<img src="image/st_kensaku_ichiran.jpg" width="479" height="113"><br>
+	    　（3）コピー元となる申請情報を選択します。<br>
+	    　　　<img src="image/st_kensaku_kakunin.jpg" width="53" height="25">または<img src="image/st_kensaku_syusei.jpg" width="52" height="24">をクリックすると、詳細が表示されます。<br>
+	    　（4）詳細画面より「コピー」ボタンをクリックします。<br>
+	    　　　　<img src="image/st_copy.jpg" width="55" height="17"><br>
+	    　（5）情報がコピーされ、入力することができます（元の情報は変更はされません）。<br>
+	    　　　　ST番号は空白となりますので、入力していただく必要があります。<br>
+	    <br>
+	    ＊申請画面の一番下に以下のボタンがあります。<br>
+	    　<img src="image/st_hozon_sosin.jpg" width="276" height="30"><br>
+        <strong>　「一時保存」・</strong>・・一時的に保存しておく場合にクリックします。検査機関には情報は行きません。<br>
+        <strong>　「送信」</strong>・・・申請を確定する場合にクリックします。検査機関に申請の情報が送信されます。<br>
+　　　　　　　　＊一旦「送信」しますと、申請者では修正することはできません。<br>
+　　　　　　　　　間違って送信してしまった場合は、検査機関にその旨をお伝えください。<br>
+<strong>　「削除」</strong>・・・一時保存中のデータを削除します。<br>
+<strong>　「クリア」</strong>・・・入力中の項目をすべてクリアします。<br>
+      </p>
+</div>
+
+<!-- Accordion 4　-->
+
+  <h3>４．検索画面について（ログイン後のトップ画面となります）</h3>
+	<div>
+	  <p>	    　検索条件は以下の画面より、入力後「検索」をクリックします。<br>
+	    <img src="image/st_kensaku.jpg" width="415" height="160" border="1"><br>
+        <u><br>
+        </u>＊「商品名」は、<u>半角文字（商品名カナ）</u>の一部分で検索することができます。<u><br>
+        <br>
+        検索結果表示は、最大で500件とさせていただいております。</u><br>
+        全件の検索はサーバーに負荷が掛りますので、なるべく検索条件を頂きます様、お願いいたします。<br>
+        <br>
+        　<strong>【ステータスとは】</strong><br>
+        　下記の表のように申請の状態を示します。<br>
+        　チェックが選択されている状態です（初期値では全てにチェックされてるいます）。<br>
+        　それぞれのステータスで検索ができますので、必要に応じてチェックをはずしてください。<br>
+      </p>
+	  <table width="522" border="1" cellspacing="0" cellpadding="0">
+	    <tr>
+	      <td width="87" bgcolor="#FFCCFF">　ステータス</td>
+	      <td width="429" bgcolor="#FFCCFF">　　説明</td>
+        </tr>
+	    <tr>
+	      <td><strong>「作成中」</strong></td>
+	      <td>一時保存中の状態を示します。<br>
+一時保存中のものを検索する場合は、「作成中」にみにチェックをして（他のものは外して）検索します。<br></td>
+        </tr>
+	    <tr>
+	      <td><strong>「申請中」<br>
+          「検査中」</strong></td>
+	      <td>検査機関にて検査作業中の状態を示します。</td>
+        </tr>
+	    <tr>
+	      <td><strong>「合格」<br>
+          「不合格」<br>
+          「却下」</strong></td>
+	      <td>検査結果が確定した状態を示します。<br>	        
+          （ＳＴ番号（または受付番号）等と組み合わせて検索してください）。</td>
+        </tr>
+	    <tr>
+	      <td><strong>「登録抹消」</strong></td>
+	      <td>検査確定後、ST登録を抹消した状態を示します。<br></td>
+        </tr>
+      </table>
+	  <p><strong>【有効期限内のデータを検索するには】</strong><br>
+      　有効期限の範囲を以下の様にしてください。<br>
+      　開始：<u>本日の日付（YYYY/ＭＭ/ＤＤ）</u>　～　終了：<u>本日の日付より＋２年以降の日付（2999/12/31でもOK）</u><br> 
+      　＊ステータスは全てチェック（初期値の状態で結構です）<br>
+      <br>
+      検索結果は、ＣＳＶ（ＴＡＢ区切り）形式でダウンロードすることができます。<br>
+      下記のボタンをクリックします。<br>
+      EXCELで開く場合の方法については、<a href="st_system_tebiki_v2_2_20160518.pdf" target="_new">「操作手引書」</a><img src="image/adobe_logo.gif" width="17" height="17" alt="PDF">（P28）をご覧ください。<br>
+      <img src="image/st_csv_download.jpg" width="125" height="22">      <br>
+      <br>
+      </p>
+</div>
+
+<!-- Accordion 5　-->
+    
+  <h3>５．ST番号について</h3>
+	<div>
+	  <p>ST番号は、申請企業により付番していただきます。 <br>
+	    ST番号は、やむを得ない場合を除き、パッケージに表示のJANバーコードの番号と同一となり、頭2ケタは「<strong class="styleREDB12">45</strong>」または「<strong class="styleREDB12">49</strong>」（日本を示す国コード）から始まる13桁の数字でなければなりません（注：書籍コード（頭3ケタの　「978」または「192」）での申請はできません）。<br>
+	    <br>
+	    <img src="../images/st_mark.png" width="494" height="235" border="1">	    <br>
+	    （注）・バーコードは、STマークの横である必要はありません。<br>
+	    　　　<br>
+	    JANコードの頭7桁または9桁はメーカーコードです。一般財団法人　流通開発システムセンターに正規登録しているものでなければなりません。 <br>
+	    バーコードの表示が無い申請品につきましても、上記の条件で申請いただく必要があります。<br>
+	    ＊取得したメーカーコードは、日玩協にも登録（申請企業毎）が必要です（→<a href="pdf/maker_touroku.pdf" target="_new">「メーカーコード登録用紙<img src="image/adobe_logo.gif" alt="PDF" width="17" height="17" border="0">」</a>に必要事項を記入後、日玩協へFAXのこと）。<br>
+	    <br>
+      *JANコードの13桁目の数字は、チェックデジットとなり、前12桁による計算で決まる数字となります。<br>
+      <br>
+      （参考）外部サイト（以下、一般財団法人　流通システム開発センターWebサイト）<br>
+      　・<a href="http://www.dsri.jp/jan/index.htm" target="_new">メーカーコードについて、メーカーコードの取得方法、チェックデジットの計算方法、更新について等</a><br>
+	  　・<a href="http://gepir.dsri.jp/modules/gepir/" target="_new">メーカーコード登録企業検索（メーカーコードで登録内容の確認ができます）</a></p>
+</div>
+
+
+<!-- Accordion 6　-->
+    
+  <h3>６．枝番号とは</h3>
+	<div>
+	  <p>シリーズ商品（色違い）などで、同一のＪＡＮコードの商品についてＳＴ申請をする際に枝番号を使用します。<br>
+	    全種類に「001」から枝番号を付番して、申請していただきます。　<u>パッケージのＳＴマークは<strong>13桁のＳＴ番号のみ（枝番号無し）</strong></u>となります。<br>
+	    <br>
+	  <img src="image/st_eda_img.jpg" width="486" height="243" border="1"><br>
+	  <br>
+	  トレーディングカード類の申請については、<a href="pdf/st_card_seal_20100917.pdf" target="_new">こちらの資料</a><img src="image/adobe_logo.gif" width="17" height="17" alt="PDF">をご確認ください。<br>
+	  <br>
+<br>
+      </p>
+	</div>
+
+<!-- Accordion 7　-->
+    
+  <h3>７．ST親番号とは</h3>
+	<div>
+	  <p>　検査料金の軽減対象となるシリーズ商品の場合に記入が必要です。 <br>
+　申請商品の１点目が親番号となります（枝番号がある場合はそれも含みます）。 <br>
+　2点目以降に1点目の親番号を記入する必要があります（参考：下図の例）。<br>
+　（未記入の場合、検査料金の軽減措置が取られない場合がありますのでご注意ください。<br>
+　また、検査機関の判断（シリーズ商品とは認められない場合）により、軽減措置の対象外となる場合があります。）<br>
+<br>
+<img src="image/st_oya_img.jpg" width="500" height="255" border="1"><br>
+	    <br>
+      </p>
+</div>
+
+
+<!-- Accordion 8　-->
+    
+  <h3>８．メーカーコードが未登録と表示された場合には</h3>
+	<div>
+	  <p>　メーカーコードは、自社でお持ちのもの、OEMのものに限らず、申請企業毎に、日玩協に登録が必要となります。 <br>
+      　メーカーコード未登録のメッセージがでましたら、保存後（データは保存できます）、日玩協へ、<a href="pdf/maker_touroku.pdf" target="_new">「メーカーコード登録用紙」<img src="image/adobe_logo.gif" alt="PDF" width="17" height="17" border="0"></a>に必要事項を記入後、ＦＡＸ(03-3829-2510)してください（登録にお時間を頂戴する場合があります）。 <br>
+      <br>
+      ＊メーカーコードは正規取得のものが条件となります（「<strong>5.ST番号について</strong>」参照）。</p>
+</div>
+
+
+
+
+<!-- Accordion 10　-->
+    
+  <h3>９．通知について（検査各種通知）</h3>
+	<div>
+	  <p>各種通知（ＥメールまたはＦＡＸ）の種類には以下の種類があります。<br>
+      </p>
+	  <table width="697" border="1" cellspacing="0" cellpadding="0">
+	    <tr>
+	      <td bgcolor="#FFCCCC">　　通知文書名</td>
+	      <td bgcolor="#FFCCCC">　　　　　　　　説　　　明</td>
+        </tr>
+	    <tr>
+	      <td width="205" height="52"><strong>玩具安全（ST）検査開始のお知らせ</strong></td>
+	      <td width="486">検査開始のお知らせは、１３：００、１７：００に送信処理が行われます。<br>
+	        検査機関により、申請品の画像登録が行われたタイミングとなります。</td>
+        </tr>
+	    <tr>
+	      <td height="35"><strong>ST申請内容についてのご連絡</strong></td>
+	      <td>検査機関より、申請品についての連絡事項を都度、送付いたします。</td>
+        </tr>
+	    <tr>
+	      <td><strong> 玩具安全(ＳＴ)マーク申請製品に関するお知らせ</strong></td>
+	      <td>発売予定日の２日前に、まだ検査結果が出ていない申請品について、ＳＴマークを付けて製品を出荷をすることの無いよう注意を促すお知らせです。</td>
+        </tr>
+	    <tr>
+	      <td height="43"><strong>玩具安全（ST）検査結果のお知らせ</strong></td>
+	      <td>検査結果を送付します（即時送信となりますが、Ｅメール指定の場合、最大で30分掛る場合があります）。</td>
+        </tr>
+	    <tr>
+	      <td><strong>玩具安全（ST）マーク有効期限切れのお知らせ</strong></td>
+	      <td>有効期限切れの約２か月前にお知らせいたします。<br></td>
+        </tr>
+      </table>
+	  <p>　　<u>送信先の設定の誤りにご注意ください。</u><br>
+	    <br>
+	    １．日玩協登録の<u>ST責任者には無条件で送付されます。</u><br>
+      　　送付方法は事前登録の「Eメール」または「FAX」となります。<br>
+	    　　STマーク使用許諾契約（更新）時に提出様式（事業概況説明書・様式二）にて登録しています。<br>
+	    　　随時、変更は可能ですので、その際は日玩協にご連絡ください。<br>
+	    　　（その他、ＳＴ使用許諾契約更新、制度要綱改定、ＳＴ基準改定、セミナー開催などのお知らせをさせていただいております。）<br>
+	    <br>
+	    　　ST責任者の登録内容はログイン後の、画面上部に表示されます。<br>
+        　　<img src="image/st_tanto_img.jpg" width="554" height="72" border="1"><br>
+        　　※通知先に送付宛先（ＥメールまたはFAX番号）が入ります。<br>
+　　        変更があった際は、日玩協までお知らせください。<br>
+<br>
+２．上記に加え、申請の都度、申請担当者にも送付設定ができます（ＳＴ責任者含め最大2箇所へ通知）。<br>
+　　申請担当者への通知設定は、申請画面より、以下の入力項目より登録します<br>
+	    　　（申請の１商品ごとに設定します）。<br>
+	    　　<img src="image/st_sousin_img.jpg" width="542" height="73" border="1">      <br>
+	    　　<u><strong>不要の場合は、「送信しない」を選択してください</strong></u><strong>。</strong><br>
+	    　　ST責任者と同一の送付先が設定されていますと、エラーになります（2重送信の防止）。<br>
+	    <span class="styleREDB12">＊送信できない「フリーメールアドレス」</span><br>
+　<span class="styleREDB12">「@hotmail**」「@outlook**」「@aol**」は、当協会からのメールが拒否されてしまうことが確認されています。</span><br>
+<br>
+      </p>
+</div>
+
+
+  
+ <!-- Accordion 11　-->
+	<h3>１０．「改良申請」について</h3>
+	<div><br>
+	  <br>
+ＳＴマークを取得してから1年以内の商品（以下、オリジナル商品）について、商品の一部を改良し引き続き販売を行う場合の申請です。<br>
+（<a href="pdf/2013/st_kairyou_sinsei_20130206.pdf" target="_new">平成25年2月6日「改良申請」の新設についての案内文<img src="image/adobe_logo.gif" width="17" height="17" border="0"></a>）
+<br>
+<br>
+<font color="#4682B4"><b>【申請方法及び条件】</b></font><br>
+<font color="#4682B4">（申請方法）</font><br>
+　(1)オリジナル商品を「受付番号」または「ST番号」で検索。 <br>
+　(2)検索結果一覧より詳細「確認」画面をクリック。 <br>
+　(3)「改良申請」ボタンをクリック（入力可能となります。但し入力可能箇所は限定されます。）。<br>
+　　 <img src="image/kairyou.jpg" alt="改良申請" width="85" height="26"><br>
+　　　（申請可能な場合にのみ表示されます。<br>
+　　　但し、申請の条件に合致しない場合は、検査機関の判断で申請を無効にする場合があります）<br>
+　(4)必要項目を入力し、確定の場合は「送信」をクリック<br>
+<font color="#4682B4"><br>
+（注意及び申請の条件）</font><br>
+　１．改良箇所につきましては「備考」欄に詳細をご記入ください。<br>
+　２．条件として、当該申請品が、オリジナル商品と同一性があること、オリジナル商品が有効期限内の場合に限ります。<br>
+　　（「商品名」「ＳＴ合格番号」等の変更はできません）<br>
+　３．改良申請は１回のみとさせて頂き、ＳＴ基準をまたがっての改良申請は出来ません。<br>
+　４．改良申請の際の<u>ＳＴマーク有効期限は、オリジナル商品の期限日と同じになります</u>。 <br>
+　５．改良申請の条件を満たしていない場合、検査機関の判断により、申請を無効にする場合があります。 <br>
+　<br>
+ 　</div>
+
+<!-- Accordion 12　-->
+    
+  <h3>１１．STの更新申請について</h3>
+	<div>
+	  <p>　
+	  <br>
+	  旧受付番号のメモをお手元にご用意いただき、「新規作成」か、または「コピー機能」（「3.申請データの入力方法」を参照）を使用してのデータ申請してください。<br>
+	  注意が必要な項目は下記となります。<br>
+	  　　（旧受付番号）<br>
+	  　　　前回の受付番号（7ケタの数字）を入力します。<br>
+	  　　（発売予定日→メーカーが出荷する日）<br>
+　　　　更新申請では、「STマーク」の年表示は、申請時の西暦年下２桁の数字が入った製品<br>
+　　　　で受検しなければなりません（下記のSTマーク表示例をご覧ください）。<br>
+　　　　検査合格後、新たなSTマークを表示した商品を出荷する予定日を入力してください。<br>
+　　　（初回生産個数）<br>
+　　　　上記同様に、その際に出荷する際の、おおよその個数を入力してください。<br> 
+　　　（ＳＴ基準）
+<br> 
+　　　　　現在のST基準は「ST2016基準」となります。<br> 
+　　　（商品到着予定日）
+<br> 
+　　　　　検査機関に申請品を送付する予定日を入力します。<br>
+<br>
+データ「送信後」　申請品を担当検査機関に送付していただきます（更新であっても、検査は必要となります）。<br>
+	  申請品のSTマークの年表示は、申請年(西暦)の下２桁でなければなりません。<br>
+      ＊<u>↓は2018年1月~12月の期間中に申請した場合のSTマーク表示例</u><br>
+      　　<img src="image/st18_small.jpg" width="124" height="112"><br>
+      　　<br>
+	  </p>
+</div>
+
+
+<!-- Accordion 13　-->
+    
+  <h3>１２．「商品問合せ先」の入力方法について</h3>
+	<div>
+	  <p>　　「商品問合せ先」は、一般公開の「<a href="https://www.toys.or.jp/stk/index.html" target="_blank">ST検索サイト</a>」にて開示している情報となります。<br>
+	  　　（※ST検索サイトは、ST番号<u>で商品名</u>、<u>問合せ先（会社名）</u>、<u>検査合格日</u>を検索できる一般公開のサイトです）<br>
+　<br>
+　会社名を入力します。（STマーク使用許諾契約企業名であることが必須です。）<br>
+<img src="image/toiawasesaki.jpg" alt="" width="701" height="29"><br>
+<br>
+　<strong>「選択」</strong>は、過去に入力した履歴から会社名を参照し登録する機能です。<br> 
+　複数のOEM供給先がある場合がありますので、会社名を過去に入力した履歴から参照登録ができるようしています。<br>
+　但し、この時の会社名は、STマーク使用許諾契約の会社名でなければなりませんので、そうで無い場合は自社名で登録してください。
+  <br>
+  <br>
+      </p>
+</div>
+
+
+<!-- Accordion 13　-->
+    
+  <h3>１３．「商品分類コード」の入力方法について</h3>
+	<div>
+	  <p>　　業界統一商品分類コードを入力します。<br>
+	    　　大分類（１桁）、中分類（2桁）、小分類(3桁)の6桁からなるコードです。<br>
+ 　　　　（業界統一分類コード表（PDF）は<a href="pdf/bunrui_book.pdf" target="_blank">こちら</a><img src="image/adobe_logo.gif" width="17" height="17" alt="PDF">を参照）<br>
+　	    　<img src="image/bunrui.jpg" width="252" height="42"><br> 
+　「選択 」より、商品分類コードを選択することができます。<br>
+　商品分類コードが表示されますので、該当分類を選択します。<br>
+　（一番近いと思われる分類を選択してください。）<br> 
+　　
+<img src="image/bunrui_sentaku2.jpg" width="490" height="339"><br>
+<br>
+<br>
+      </p>
+</div>
+
+
+
+<!-- Accordion 13　-->
+
+  <h3>１４．第３部報告書の入力方法（他の指定検査機関（海外・国内）で受検し、その報告書がある場合のみ）</h3>
+	<div>
+	  <p><font color="#4682B4"><b>	  １．第３部報告書<br>
+	  　　他の指定検査機関（海外、国内）が行った、第3部（化学的特性）に関しての添付資料がある場合にその検査機関名（全て）を選択して下さい。</b></font><br>
+	  <font color="#4682B4"><b><img src="image/st_kaigai_rpt.jpg" width="675" height="165"></b></font>　　<br>
+	  <br>
+	  　　選択する（該当の検査機関名を１クリック）すると<u><strong>青い帯</strong></u>が付きます。<br>
+	  　　（↓選択された状態　例．「文化用品・香港」を選択）<br>
+      <img src="image/st_kaigai_rpt_sentaku.jpg" width="231" height="59">　　<br>
+      　　解除方法→<u>「<strong>Ctrl</strong>」を押しながら同箇所をクリックします。</u><br>
+　　<br>
+　　<u><strong>複数選択</strong>する場合は、「<strong>Cｔｒｌ</strong>」を押しながら該当の箇所をクリックしてゆきます</u>。<br>
+　　<br>
+	    <font color="#4682B4"><b>２．材質の開示<br>
+	    　　材質の開示資料（（例：スライム・粘土等について、成分表　ＭＳＤＳ等資料）がある場合は、「あり」にチェックを入れて下さい。</b></font> <br>
+	    <br>
+	    <font color="#4682B4"><b>３．その他の添付資料<br>
+	    　　上記以外の添付資料がある場合は、その資料名を記載して下さい。</b></font><br>
+	    　　（添付資料は、検査機関にそのコピーをお渡しください。） </p>
+</div>
+
+
+
+<!-- Accordion 14　-->
+
+  <h3>１５．「使用材料明細」の入力方法</h3>
+	<div>
+	  <p>	    　入力エリアより、材料明細を入力し、<strong>「追加」</strong>をクリックします。<br>
+	    　下段に、明細が追加されます。<br>
+	    　２点目以降も、同様となります。<br>
+	    　<img src="image/st_zairyou.jpg" width="663" height="114"><br>
+	    <strong>　【追加後の訂正・削除について】</strong><br>
+	    　追加した明細エリアより、「修正」をクリックしますと、入力エリアに該当の明細が表示されますので、修正後、「追加」をクリックします。<br>
+	    　「削除」をクリックしますと、該当の明細は削除されます。<br>
+	    　<img src="image/st_zairyou_tsuika.jpg" width="154" height="44"><br>
+	    <br>
+	    <strong>　【注意】</strong><br>
+	    　	    <u>材料明細は、必須項目となります。</u><br>
+	    <br>
+	    　・「登録番号」について<br>
+	    　　使用材料の登録制度となります。<br>
+	    　　詳細につきましては検査機関にお問い合わせください（未登録の場合は空白になります）。<br>
+	    <br>
+	    　未入力または入力不備の場合、検査機関の判断により、データを申請画面に戻させていただく場合があります(一時保存の状態に戻します)。 <br>
+	    　その場合、E-MAiLまたはFAXにてその旨を連絡させて頂きます。 <br>
+	    <br>
+	  </p>
+	  <p>&nbsp;</p>
+	</div>
+    
+<!-- Accordion 15　-->
+    
+  <h3>１６．「磁石を使用する玩具」・「洗濯可表示のある玩具」の申請品について</h3>
+	<div>
+	  <p>　・「磁石」使用の申請品については、その旨を「備考」欄に記載して下さい。<br>
+	    <br>
+	    　・申請品に「洗濯可」と表示されている場合は、その旨を「備考」欄に記載して下さい。 <br>
+	  </p>
+	</div>
+
+<!-- Accordion 16　-->
+    
+  <h3>１７．STマークの有効期限について</h3>
+	<div>
+	  <p>　STマークの有効期限は合格より2年間となります（玩具安全マーク使用許諾契約書 第1条第2項～）。 <br>
+  　有効期限切れになる約２か月前にEmailまたはFaxにてご案内しております。 <br>
+　継続してSTマーク付玩具を出荷する際は、期限切れとなる前に、検査申請を受け、玩具安全基準に合格する必要があります。 <br>
+　更新が不要の場合は、届け出は不要です。 </p>
+      <p>　また、ST使用許諾契約（１年更新）が切れますと、すべての申請品は失効扱いとなり、以降、STマーク付商品を出荷することを禁じています（玩具安全マーク使用許諾契約書 第10条～）。<br>
+        <br>
+      </p>
+</div>
+
+<!-- Accordion 17　-->
+    
+  <h3>１８．ST検索サイト（一般公開）について</h3>
+	<div>
+	  <p>　ST合格商品を、一般公開向けの「<a href="../stken/index.html" target="_new">ST検索サイト</a>」に掲載します（合格日の翌日）。 <br>
+	    　ST番号より検索することで、正規にSTマークを取得した商品かが分かります。<br>
+	    　本サイトの利用者は、一般消費者、流通関係者を想定しております。<br>
+	    <br>
+	    　掲載の内容は、 <br>
+	    　「商品名」、「問合せ先（会社名）」、「検査合格日」となります。 <br>
+      　*「問合せ先」は、ST使用許諾契約企業であることが必要です。 </p>
+</div>
+
+<!-- Accordion 18　-->
+    
+  <h3>１９．合格書の再通知を依頼したい</h3>
+	<div>
+	  <p>　日玩協にその旨をお知らせください（TEL　03-3829-2513　　ST番号または受付番号が必要です）。 <br>
+	    　再発行処理をさせていただきます（送付先は、日玩協登録のSTご担当者のEメールまたはFAXとなります）。 <br>
+      　また、お時間をいただく場合がありますので予めご了承ください。<br>
+      <span class="styleREDB12">＊送信できない「フリーメールアドレス」</span><br>
+　<span class="styleREDB12">「@hotmail**」「@outlook**」「@aol**」は、当協会からのメールが拒否されてしまうことが確認されています。</span><br>
+      </p>
+</div>
+
+<!-- Accordion 19　-->
+    
+  <h3>２０．ST申請システムのID・パスワードについて</h3>
+	<div>
+	  <p>　ID・パスワードは１企業に1つ発行しています。<br>
+	    　ID・パスワードの取扱いには、ご注意ください。<br>
+	    　担当者が変わる際なども含め定期的なパスワードの変更をお勧めいたします。<br>
+        <br>
+        <strong>　【パスワードの変更方法】</strong><br>
+        　ログイン後、「パスワード変更」ボタンをクリック後、変更画面が表示されます。<br>
+	    　<img src="image/st_pass_henkou.jpg" width="104" height="36"><br>
+	    <br>
+	    <strong>　【紛失した場合は】</strong><br>
+	    　日玩協事務局(TEL 03-3829-2513)へお問い合わせください。 <br>
+      　確認後、再発行させていただきます。 <br>
+	  　（日玩協登録の、ご担当者住所へFAXにてご連絡いたします。　電話口でのお伝えは出来ません。）</p>
+</div>
+
+<!-- Accordion 19　-->
+    
+  <h3>２１．「業界活用」（ST商品情報の活用について）</h3>
+	<div>
+	  <p>　<img src="image/gyoukai_data_katsuyou.jpg" width="314" height="33" alt="業界データ活用"><br>
+      　「商品情報」（商品名等の基本情報）、「画像」（検査機関撮影）のデータについて、個々の製品毎に業界活用を「可」としたデータを、「発売予定日」以降、<a href="http://www.gfk.com/jp/" target="_blank">ジーエフケー・インサイト・ジャパン(株)</a>*（以下「GfK社」）に提供し、同社の商品マスターの増強・補完に協力しています。 </p>
+      <p>　なお、発売予定日以降にあっても、まだ未発表の状態の商品情報につきましては、当協会は、GfK社が秘密を保持するよう同社との間で秘密保持契約を締結しています。 <br>
+      　（なお、GfK社が協力会社に業務委託する場合には、同社は、協力会社との間で上記契約と同等の内容を含む秘密保持契約を締結しています。） </p>
+      <p>　*GfK社は、㈱日本玩具情報テクノロジー（JATY）（当協会から分離独立した玩具売上分析会社）が行っていた玩具売上分析事業を、平成21年12月に承継し営業を行っています。 <br>
+        　当該事業の承継の際に、当協会は、ST商品情報を引き続きGfK社に提供し、同社の商品マスター増強・補完に協力することとしたものです。 <br>
+        　代わりに、GfK社は、年に１回、同社が収集した売上データをもとに、年間の玩具売上分析レポート（要約）をST契約企業に提供するとともに、当協会のセミナーに講師を派遣・説明を行っています。 </p>
+      <p><br>
+      </p>
+  </div>
+  
+  
+  
+  <!-- Accordion 0　-->
+
+<h3>２２．エラーメッセージ</h3>
+	<div>
+	  <p><span class="styleREDB12">＊印</span>は必須項目となり、未入力であることのメッセージが表示されます。<br>
+	  それ以外のエラーメッセージには以下のものがあります。</p>
+	  <table width="640" border="1" cellspacing="0" cellpadding="0">
+	    <tr>
+	      <td width="13" valign="top" bgcolor="#D7FFFF"><strong>１．</strong></td>
+	      <td width="627" colspan="2" align="left" valign="top" bgcolor="#D7FFFF"><img src="image_msg/sousin_er.jpg" width="500" height="44"></td>
+        </tr>
+	    <tr>
+	      <td valign="top" bgcolor="#D7FFFF">&nbsp;</td>
+	      <td colspan="2" align="left" valign="top" bgcolor="#D7FFFF"><p>担当者への通知指定が、<u><strong>ST責任者の宛先（必ず送付します。予め日玩協で登録）と同じ「メールアドレス」または「ＦＡＸ番号」が指定されています。</strong></u><br>          
+	        違う宛先を指定するか、「送信しない」にチェックを入れてください<br> 
+	        ＊ST責任者が変更になった場合は、日玩協までご連絡ください。<br>
+	        <img src="image_msg/sousin_error.jpg" width="610" height="200"><br>
+	        <span class="styleREDB12">＊送信できない「フリーメールアドレス」</span><br>
+	        　<span class="styleREDB12">「@hotmail**」「@outlook**」「@aol**」は、当協会からのメールが拒否されてしまうことが確認されています。<br>
+</span>　</p></td>
+        </tr>
+	    <tr>
+	      <td valign="top" bgcolor="#D7FFFF"><strong>２．</strong></td>
+	      <td colspan="2" align="left" valign="top" bgcolor="#D7FFFF"><img src="image_msg/ck_d_err.jpg" width="384" height="39"></td>
+        </tr>
+	    <tr>
+	      <td valign="top" bgcolor="#D7FFFF">&nbsp;</td>
+	      <td colspan="2" align="left" valign="top" bgcolor="#D7FFFF">ＳＴ番号のチェックデジット(13ケタ目の数字)が違います。<br>	        
+          チェックデジットとは、入力ミスを防ぐためのもので、13ケタ目に一定の計算式で求められる数字が入ります。<br>	        
+          番号に入力間違いが無いかどうか、ご確認してください。<br>          
+          チェックデジットの計算については、<a href="http://www.dsri.jp/jan/check_digit.html" target="_blank">こちらのサイト</a>をご覧ください。<br>          <br></td>
+        </tr>
+	    <tr>
+	      <td valign="top" bgcolor="#D7FFFF"><strong>３．</strong></td>
+	      <td colspan="2" align="left" valign="top" bgcolor="#D7FFFF"><img src="image_msg/kana_er.jpg" width="261" height="41"></td>
+        </tr>
+	    <tr>
+	      <td valign="top" bgcolor="#D7FFFF">&nbsp;</td>
+	      <td colspan="2" align="left" valign="top" bgcolor="#D7FFFF">「商品名カナ」は、半角文字で入力してください。<br>
+	        全角のスペースでもエラーとなります。<br></td>
+        </tr>
+	    <tr>
+	      <td valign="top" bgcolor="#D7FFFF"><strong>４．</strong></td>
+	      <td colspan="2" align="left" valign="top" bgcolor="#D7FFFF"><img src="image_msg/maker_cd_er.jpg" width="430" height="65"></td>
+        </tr>
+	    <tr>
+	      <td valign="top" bgcolor="#D7FFFF">&nbsp;</td>
+	      <td colspan="2" align="left" valign="top" bgcolor="#D7FFFF">メーカーコードが未登録です(使用するメーカーコードは、日玩協に登録が必要です)。<br>
+	        そのまま登録ができますので、別途、メーカーコード登録用紙（→<a href="pdf/maker_touroku.pdf" target="_new">「メーカーコード登録用紙」<img src="image/adobe_logo.gif" alt="PDF" width="17" height="17" border="0">）</a>にご記入いただき、日本玩具協会まで、ＦＡＸ（03-3829-2510）にてご送付ください（登録まで、しばらく時間を頂く場合があります。）。<br>	        
+	        　＊メーカーコード<br>
+	        　　ST番号（JANコード）の頭7桁または9桁はメーカーコードです。<br>
+	        　　頭2ケタは国コードとなり、日本の国コードを示す「<span class="styleREDB12">49</span>」または「<span class="styleREDB12">45</span>」でなければなりません。<br>
+	        　　それ以外の登録があった場合は、ST申請は合格にはなりません。<br>
+	        　　また、一般財団法人　流通開発システムセンターに正規登録しているものでなければなりません。<br>
+	        　　メーカーコードは、日玩協にも登録（申請企業毎）が必要です<br><br></td>
+        </tr>
+	    <tr>
+	      <td valign="top" bgcolor="#D7FFFF"><strong>５．</strong></td>
+	      <td colspan="2" align="left" valign="top" bgcolor="#D7FFFF"><img src="image_msg/kijyun_er.jpg" width="228" height="46"></td>
+        </tr>
+	    <tr>
+	      <td valign="top" bgcolor="#D7FFFF">&nbsp;</td>
+	      <td colspan="2" align="left" valign="top" bgcolor="#D7FFFF">現在のＳＴ基準は「<strong class="styleREDB12">ST2016</strong>」になります。<br>
+	        コピー元が古いＳＴ基準のデータとなっていたためにエラーとなりました。<br>
+	        ＳＴ基準を「<strong class="styleREDB12">ST2016</strong>」に選択し直してください。<br>
+	        （「ST2012」基準は、2018年3月31日をもって申請不可となっております）<br>
+	        <br></td>
+        </tr>
+	    <tr>
+	      <td valign="top" bgcolor="#D7FFFF"><strong>６．</strong></td>
+	      <td colspan="2" align="left" valign="top" bgcolor="#D7FFFF"><img src="image_msg/server_er.jpg" width="154" height="37"></td>
+        </tr>
+	    <tr>
+	      <td valign="top" bgcolor="#D7FFFF">&nbsp;</td>
+	      <td colspan="2" align="left" valign="top" bgcolor="#D7FFFF">STシステムサーバーとの通信が停止している状態のメッセージとなります。<br>	        
+          何度もこのメッセージがでる場合は、ブラウザを一旦閉じて、再度立ち上げてください。<br>          
+          これは、STシステムサーバーの問題ではなく、ブラウザの処理能力を超えてしまった場合に起こる現象となります。<br>          
+          （ブラウザを再立ち上げすることで、バッファがクリアになり正常な状態に戻ります。）<br>          
+          <br>
+          起こる原因として・・・　クリックを間をおかずに何度も行った場合（ダブルクリックなど）に多く発生する現象です。<br></td>
+        </tr>
+      </table>
+	  <p>&nbsp;</p>
+	</div>
+
+
+  
+  
+  
+  
+  
+  
+</div>
+
+<tr>
+  <td> <a href="JavaScript:otherWin9()"><img src="image/close690.png" alt="閉じる" width="690" height="30" border="0" /><br>
+  </a>    </p></td>
+</tr>
+
+
+</body>
+</html>

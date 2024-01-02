@@ -43,16 +43,20 @@ var isTouchDevice ='ontouchstart' in window || navigator.msPointerEnabled? true:
 			},
 			center: {
 				w1: {
+					x: 1100,
+					y: 915
+				},
+				w1k: {
 					x: 690,
-					y: 1685
+					y: 3000
 				},
 				w2: {
 					x: 3154,
-					y: 1224
+					y: 985
 				},
 				w3: {
 					x: 1431,
-					y: 1746
+					y: 3146
 				},
 				w4: {
 					x: 1891,

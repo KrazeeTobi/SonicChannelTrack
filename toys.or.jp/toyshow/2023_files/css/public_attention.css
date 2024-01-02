@@ -230,46 +230,99 @@
 }
 /*SP---------------------------------*/
 @media screen and (max-width: 767.9px) {
-  article {
-    margin-bottom: 6%;
-  }
-  article:last-child {
-    margin-bottom: 0;
-  }
-  article h3 img {
-    height: 6.154vw;
-  }
   section a {
     color: #ff5064;
   }
-  section .aomi {
-    background: #ff5064;
-  }
-  section .frame3 {
+  section a:hover {
     color: #ff5064;
-    border: solid 1px #ff5064;
-    margin-bottom: 3%;
   }
-  section h4 {
+  article section {
+    font-size: 1em;
+  }
+  section h3 {
+    margin-top: 2%;
+    color: #ff5064;
+    font-size: 16px;
+  }
+  .commingsoon {
+    width: 80%;
+    margin: auto;
+    padding: 50px 0;
+    text-align: center;
+    border-bottom: none;
+  }
+  .commingsoon p {
     color: #ff5064;
     font-weight: bold;
   }
-  /* #public_attention
-    ---------------------------------------- */
-  .sub_nav .link_area {
-    margin: 3% auto 0;
-    padding: 3% 0;
-    border-top: 1px solid #ff5064;
+  section p {
+    margin-top: 0;
+  }
+  section div {
+    border-bottom: 0px solid #ff5064;
+  }
+  section h4 {
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.5;
+    color: #ff5064;
+  }
+  h2.public_attention {
+    padding-bottom: 15px;
     border-bottom: 1px solid #ff5064;
   }
-  .sub_nav .link_area li {
-    float: none;
+  /* #public_event
+    ---------------------------------------- */
+  section.event {
+    margin-top: 0;
+    padding: 6px;
+    background: #ff5064;
+    border-radius: 5px;
   }
-  .link_area li {
-    float: left;
+  section.event .inner > .company-name {
+    margin: 0 !important;
+    padding: 2% 3% 3% !important;
+    color: #fff !important;
+    font-weight: normal !important;
   }
-  #public_attention h2.outline {
-    color: #fff;
+  section.event .inner > .company-name > a {
+    color: #fff !important;
+  }
+  section.event .inner > .company-name span {
+    padding-right: 10px !important;
+    font-weight: bold !important;
+  }
+  section.event .info {
+    padding: 5% 5% 1px;
+    background: #fff;
+    color: #000;
+  }
+  section.event .info h4 {
+    margin: 0;
+    font-size: 1em;
+  }
+  section.event .info dl {
+    margin-bottom: 5%;
+    position: relative;
+  }
+  section.event .info dt {
+    padding-top: 2%;
+    display: block;
+    position: relative;
+    font-weight: normal;
+  }
+  section.event .info dd {
+    padding: 0 0 2%;
+    margin-bottom: 2%;
+    border-bottom: 1px solid #e6e6e6;
+  }
+  #public_event h2.outline {
+    color: #ff5064;
+  }
+  #guide p {
+    padding-top: 10px;
+    margin-bottom: 20px;
   }
   .buyer_link {
     margin: 0;
@@ -279,102 +332,45 @@
   .buyer_link a {
     color: #00b4cc;
   }
-  .notice {
-    margin: 0;
-    padding: 0;
-    border: none;
-    text-align: left;
-    color: #969696;
+  .bdr_header {
+    margin-top: 2%;
+    border-left: solid 7.5px #ff5064;
+    padding-left: 7.5px;
   }
-  .notice p {
-    margin-bottom: 6.2%;
-  }
-  .check {
-    margin-bottom: 2%;
-  }
-  #public_menu {
-    margin: 6% auto;
-    padding: 3% 0;
-    border-radius: 8px;
+  section h3.sp {
+    margin-top: 2%;
     display: block;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.5;
+    color: #ff5064;
   }
-  #public_menu li {
-    display: block;
-    width: 100%;
-    margin-bottom: 5px;
-  }
-  #public_menu li:last-child {
-    margin-bottom: 0;
-  }
-  #public_menu li a {
-    position: relative;
-    display: block;
-    background-color: #ff5064;
-    color: #fff;
-    text-decoration: none;
-    padding: 0.5em;
-    text-align: center;
-    border-radius: 5px;
-  }
-  #public_menu li a:before {
-    position: absolute;
-    top: 50%;
-    left: 10px;
-    content: "";
-    width: 1em;
-    height: 1em;
-    background: url(../img/common/arrow_triangle_w.svg) top center/contain no-repeat;
-    margin-top: -0.5em;
-    transform: rotate(-90deg);
-  }
-  #public_menu li.anchor a:before {
-    transform: rotate(0deg);
-    margin-top: -0.3em;
-  }
-  /* #event_check
-  ---------------------------------------- */
-  #event_check dt {
-    margin-bottom: 1.5%;
-  }
-  #event_check dd {
-    margin-bottom: 7.8%;
-  }
-  #event_check img {
-    margin-bottom: 3.12%;
-  }
-  #event_check .info_event {
-    margin-top: -8%;
-  }
-  #event_check dd:last-child {
-    margin-bottom: 1%;
-  }
-  .info_event {
-    margin-bottom: 0;
-  }
-  /* #attendance
-  ---------------------------------------- */
-  #attendance {
-    border-bottom: none;
-  }
-  #attendance dl {
-    margin-top: 3%;
-  }
-  #attendance dt {
+  section h3 span {
     color: #ff5064;
     font-weight: bold;
+    font-size: 18px;
   }
-  #attendance dd {
-    margin-bottom: 5%;
+  section.event .info dd:last-child {
+    border-bottom: none;
   }
-  #attendance dd:last-child {
-    margin-bottom: 0;
+  #attendance .bdr_header img {
+    height: 6.154vw;
   }
-  #attendance dd span {
+  .imgbox {
+    margin-bottom: 3%;
+  }
+  .imgbox img {
+    width: 100%;
+  }
+  #guide p {
+    padding-top: 10px;
+  }
+  #guide p span {
+    padding-top: 3px;
     color: #ff5064;
   }
-  #attendance .other_list li {
-    padding-left: 1em;
-    text-indent: -1em;
+  .margin_bottom {
+    margin-bottom: 6px;
   }
 }
 /*# sourceMappingURL=public_attention.css.map */

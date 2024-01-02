@@ -179,12 +179,12 @@ body.en section.buyer h2 {
 body.en .hallmap_buyer dd > a {
   position: relative;
   height: auto;
-  padding: 13px;
   box-sizing: border-box;
 }
 body.en .hallmap_buyer dd a img {
   display: block;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
   width: auto;
 }
 
@@ -199,7 +199,7 @@ body.en .hallmap_buyer dd a img {
 }
 
 #hallmap_type {
-  margin-bottom: 90px;
+  margin-bottom: 100px;
 }
 #hallmap_type ul {
   display: -webkit-flex;
@@ -267,10 +267,29 @@ body.en .hallmap_buyer dd a img {
   cursor: default;
 }
 #hallmap_section li {
-  width: 32%;
+  width: 19%;
   border-radius: 10px 10px 0 0;
   background: #e6e6e6;
-  font-size: 21px;
+  font-size: min(1.3vw, 21px);
+  line-height: 1.2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+}
+
+[data-type=buyer] #hallmap_section li {
+  width: 24%;
+}
+[data-type=buyer] #hallmap_section li.public {
+  display: none;
+}
+
+[data-type=public] #hallmap_section li {
+  width: 19%;
+}
+[data-type=public] #hallmap_section li.buyer {
+  display: none;
 }
 
 /* hallmap_company
@@ -467,20 +486,20 @@ body.en .hallmap_buyer dd a img {
   ++++++++++++++++++++++++++++++++++++++++ */
 @media (max-width: 767px) {
   #hallmap {
-    padding: 100px 10px 10px;
+    padding: 125px 10px 10px;
   }
   #hallmap > div {
     padding: 5px;
     border-radius: 0 0 5px 5px;
   }
   #hallmap_type {
-    margin-bottom: 40px;
+    margin-bottom: 70px;
   }
   #hallmap_type li {
     line-height: 25px;
   }
   #hallmap_section li {
-    line-height: 25px;
+    line-height: 1.2;
     border-radius: 5px 5px 0 0;
     font-size: 10.5px;
   }
@@ -898,71 +917,23 @@ body.en .hallmap_buyer dd a img {
   width: 267px;
   height: 70px;
 }
-#hallmap_img [data-cid=w1_k-1] {
+#hallmap_img [data-cid=w1k_1] {
   top: 2415px;
   left: 653px;
   width: 267px;
   height: 70px;
 }
-#hallmap_img [data-cid=w1_k-2] {
+#hallmap_img [data-cid=w1k_2] {
   top: 2592px;
   left: 717px;
   width: 203px;
   height: 135px;
 }
-#hallmap_img [data-cid=w1_k-3] {
+#hallmap_img [data-cid=w1k_3] {
   top: 2592px;
   left: 653px;
   width: 70px;
   height: 70px;
-}
-#hallmap_img [data-cid=w1_50] {
-  top: 1163px;
-  left: 1376px;
-  width: 135px;
-  height: 70px;
-}
-#hallmap_img [data-cid=w1_50] {
-  top: 1163px;
-  left: 1376px;
-  width: 135px;
-  height: 70px;
-}
-#hallmap_img [data-cid=w1_at-1] {
-  top: 2263px;
-  left: 1799px;
-  width: 135px;
-  height: 69px;
-}
-#hallmap_img [data-cid=w1_at-2] {
-  top: 2130px;
-  left: 1799px;
-  width: 135px;
-  height: 137px;
-}
-#hallmap_img [data-cid=w1_at-3] {
-  top: 1846px;
-  left: 1762px;
-  width: 73px;
-  height: 200px;
-}
-#hallmap_img [data-cid=w1_at-6] {
-  top: 1846px;
-  left: 1830px;
-  width: 202px;
-  height: 200px;
-}
-#hallmap_img [data-cid=w1_at-7] {
-  top: 1844px;
-  left: 2117px;
-  width: 335px;
-  height: 200px;
-}
-#hallmap_img [data-cid=w2_] {
-  top: 1930px;
-  left: 3203px;
-  height: 71px;
-  width: 71px;
 }
 #hallmap_img [data-cid=w2_1] {
   top: 1989px;
@@ -1348,6 +1319,12 @@ body.en .hallmap_buyer dd a img {
   width: 26px;
   height: 23px;
 }
+#hallmap_img [data-cid=w3_corofes] {
+  top: 2666px;
+  left: 471px;
+  width: 651px;
+  height: 365px;
+}
 #hallmap_img [data-cid=w4_1] {
   top: 402px;
   left: 1182px;
@@ -1593,29 +1570,6 @@ body.en .hallmap_buyer dd a img {
   left: 3294px;
   width: 68px;
   height: 68px;
-}
-
-/* ----------------------------------------
-      Booth corofes
-  ---------------------------------------- */
-[data-type=public] #corofesLogo {
-  display: block;
-  position: absolute;
-  bottom: 600px;
-  left: 1255px;
-  width: 500px;
-  height: 280px;
-  cursor: pointer;
-  z-index: 2;
-}
-[data-type=public] #corofesLogo a {
-  display: block;
-  width: 100%;
-  height: 100%;
-}
-
-[data-type=buyer] #corofesLogo {
-  display: none;
 }
 
 /* ----------------------------------------

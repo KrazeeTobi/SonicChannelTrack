@@ -17,20 +17,29 @@
   section .frame {
     margin-bottom: 30px;
   }
-  .intro p {
+  .intro .text {
     margin: 0 0 0 230px;
     font-size: 13px;
   }
-  .intro p span {
+  .intro .text span {
     color: #003c77;
     font-weight: bold;
     font-size: 22px;
   }
-  .intro p span > img {
+  .intro .text span > img {
     display: block;
     width: auto;
   }
-  .intro img {
+  .intro .text p {
+    margin-bottom: 30px;
+  }
+  .intro .text p:last-of-type {
+    margin-bottom: 0;
+  }
+  .intro .text h3 {
+    margin-bottom: 20px;
+  }
+  .intro .logo {
     width: 200px;
     padding: 5px 0;
     position: absolute;
@@ -41,20 +50,33 @@
     box-sizing: border-box;
     margin: auto;
     /* background: #fbc600; */
-    background: url(../img/awards/bg.png) repeat-y;
+    /*background: url(../img/awards/bg.png) repeat-y; */
+    background: rgb(30, 38, 120);
+    background: linear-gradient(90deg, rgb(30, 38, 120) 0%, rgb(0, 128, 203) 42%, rgb(30, 38, 120) 91%);
     color: #fff;
   }
   #award_list .award_list_inner {
     padding: 15px 0;
-    background: url(../img/awards/bg.png) repeat;
+    /*background: url(../img/awards/bg.png) repeat;*/
+    background: none;
   }
-  #award_list .edu_toy,
-  #award_list .chara_toy,
-  #award_list .basic_toy,
-  #award_list .next_toy,
-  #award_list .comu_toy,
-  #award_list .hitarget_toy {
+  #award_list .award_list_inner h3 {
+    width: 357px;
+    margin: 0 auto 30px;
+  }
+  #award_list .toy {
     margin-bottom: 30px;
+  }
+  #award_list .toy:last-child {
+    margin-bottom: 0;
+  }
+  #award_list .innovative_toy {
+    margin-bottom: 10px;
+  }
+  #award_list .caution {
+    margin-bottom: 0;
+    text-indent: -1em;
+    padding-left: 1em;
   }
   #award_list ul li > img {
     display: block;
@@ -247,6 +269,21 @@
     color: #ff9600;
     font-size: 1.2em;
   }
+  section h3.tit01 {
+    margin-top: 40px;
+    width: 67.96875vw;
+  }
+  section h3.tit01 img {
+    width: 100%;
+    height: auto;
+  }
+  section h3.tit02 {
+    width: 84.375vw;
+  }
+  section h3.tit02 img {
+    width: 100%;
+    height: auto;
+  }
   section .frame {
     margin-bottom: 5%;
   }
@@ -263,24 +300,39 @@
   .intro {
     text-align: center;
   }
-  .intro img {
+  .intro .logo {
     width: 60%;
     margin: auto;
   }
-  .intro p {
+  .intro .text {
     margin: 6% auto 0;
     text-align: left;
   }
-  .intro p span > img {
+  .intro .text span > img {
     width: 270px;
     margin-bottom: 10px;
   }
+  .intro .text p {
+    margin-bottom: 7%;
+  }
+  .intro .tit01 {
+    margin-bottom: 5%;
+  }
+  .intro .tit02 {
+    margin-bottom: 20px;
+  }
+  .intro .tit02 + p {
+    margin-bottom: 0;
+  }
   #award_list {
     padding: 3%;
-    background: url(../img/awards/bg.png) repeat-y;
+    /*background: url(../img/awards/bg.png) repeat-y;*/
+    background: rgb(30, 38, 120);
+    background: linear-gradient(90deg, rgb(30, 38, 120) 0%, rgb(0, 128, 203) 42%, rgb(30, 38, 120) 91%);
+    color: #fff;
   }
   #award_list .award_list_inner {
-    padding: 3%;
+    padding: 0;
     background: none;
     background-size: 15%;
   }
@@ -291,6 +343,7 @@
     display: block;
     width: 82%;
     height: auto;
+    margin: auto;
   }
   #award_list h4 {
     margin-bottom: 5px;
@@ -344,13 +397,8 @@
   #award_list dd:nth-child(6) {
     min-height: 3.4em;
   }
-  #award_list .edu_toy,
-  #award_list .chara_toy,
-  #award_list .basic_toy,
-  #award_list .next_toy,
-  #award_list .comu_toy,
-  #award_list .hitarget_toy {
-    margin-bottom: 30px;
+  #award_list .toy {
+    margin-bottom: 5%;
   }
   #award_list dd > div {
     background: #fff;
@@ -368,6 +416,10 @@
   }
   #movie iframe {
     width: 100%;
+  }
+  .caution {
+    padding-left: 1em;
+    text-indent: -1em;
   }
   #app {
     position: relative;
