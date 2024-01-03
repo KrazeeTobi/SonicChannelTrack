@@ -1,1 +1,0 @@
-document.write('Copyright &copy; 2002-2007 CESA/Nikkei Business Publications, Inc. All rights reserved.');

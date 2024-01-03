@@ -1,1 +1,0 @@
-//FONTPLUS: system permission denied
