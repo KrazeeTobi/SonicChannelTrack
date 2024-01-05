@@ -1,0 +1,16 @@
+@charset "utf-8";
+body{
+padding:0;
+width:1000px;
+margin:0 auto;
+padding:0;
+}
+/* ------------------------------ *
+	SNSボタン
+ * ------------------------------ */
+div.snsWrap{ padding:0 0 15px; }
+.social_buttons{ list-style-type: none; text-align: left; margin: 0; padding: 0; *zoom: 1; }
+.social_buttons:before, .social_buttons:after{ content: ""; display: table; clear: both; }
+.social_buttons li{ float:left; margin-left: 0; margin-right: 10px; font-size:12px; }
+.social_buttons li:last-child{ margin-right: 0; }
+.social_buttons li .fb_iframe_widget > span{ vertical-align: baseline; }
