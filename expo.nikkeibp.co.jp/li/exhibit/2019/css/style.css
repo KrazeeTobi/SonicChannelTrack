@@ -1,0 +1,576 @@
+@charset "utf-8";
+/* CSS Document */
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+html {
+	font-family: "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","游ゴシック","Yu Gothic","游ゴシック体",YuGothic,"メイリオ","Meiryo","Verdana","Osaka","ＭＳ Ｐゴシック",sans-serif;
+	font-size: 16px;
+	color: #000;
+	-webkit-text-size-adjust: 100%;
+}
+a:hover {
+	opacity: 0.7;
+	transition: opacity 0.2s;
+}
+
+/* -----------------------------
+link
+-----------------------------*/
+.btn-more{
+	width: 420px;
+	margin: 40px auto 0;
+}
+.btn-more a{
+	display: block;
+	background: #000;
+	color: #fff;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 60px;
+	text-align: center;
+}
+.btn-more a::after{
+	position: relative;
+	top: 1px;
+	padding-left: 5px;
+	content: url(../images/icon-pdf-wh.png);
+}
+
+/* -----------------------------
+img
+-----------------------------*/
+.img{
+	margin-top: 45px;
+	text-align: center;
+}
+
+/* -----------------------------
+header 
+-----------------------------*/
+header{
+	min-width: 960px;
+	background: url(../images/bg-header02.png) no-repeat right top;
+}
+.header-wrapper{
+	background: url(../images/bg-header.png) no-repeat center;
+	background-size: cover;
+}
+.header-inner{
+	position: relative;
+	width: 960px;
+	height: 440px;
+	margin: 0 auto;
+	background: url(../images/bg-header01.png) no-repeat center top;
+	box-sizing: border-box;
+}
+h1{
+	position: absolute;
+	top: 120px;
+	left: 50%;
+	transform: translate(-50%);
+}
+.header-logo{
+	position: absolute;
+	top: 22px;
+	left: 0;
+}
+.header-date{
+	position: absolute;
+	bottom: 23px;
+	left: 80px;
+}
+.header-link{
+	position: absolute;
+	top: 27px;
+	right: 0;
+	font-size: 0;
+}
+.header-link > li{
+	display: inline-block;
+	margin-left: 10px;
+}
+.header-entry{
+	background: #a0cc1b;
+}
+.entry-list{
+	display: table;
+	width: 832px;
+	margin: 0 auto;
+	padding: 15px 0 5px;
+}
+.entry-list > li{
+	display: table-cell;
+	vertical-align: middle;
+	text-align: right;
+}
+.entry-list > li:first-child{
+	text-align: left;
+}
+.entry-list > li:last-child{
+	padding-left: 10px;
+}
+nav{
+	background: #221815;
+}
+.nav-list{
+	display: table;
+	width: 832px;
+	margin: 0 auto;
+}
+.nav-list > li{
+	display: table-cell;
+	font-size: 15px;
+	text-align: center;
+	vertical-align: middle;
+}
+.nav-list > li.top{
+	background: #444;
+	pointer-events: none;
+}
+.nav-list > li a{
+	display: block;
+	padding: 22px 17px;
+	color: #fff;
+}
+.nav-list > li a:hover{
+	background: #444;
+	opacity: 1;
+}
+
+/* -----------------------------
+about
+-----------------------------*/
+#about{
+	background: url(../images/bg-about.jpg) no-repeat center;
+	background-size: cover;
+}
+.about-inner{
+	width: 832px;
+	margin: 0 auto;
+	padding: 40px 0;
+}
+h2.about-heading {
+	margin-bottom: 30px;
+	color: #000;
+	font-size: 26px;
+	font-weight: bold;
+
+}
+h2.about-heading::before{
+	display: block;
+	content: url(../images/ttl-about.png);
+}
+.about-text{
+	margin-bottom: 1em;
+	padding: 0 40px;
+	line-height: 1.875;
+}
+
+/* -----------------------------
+point
+-----------------------------*/
+#point{
+}
+#point > section{
+	padding: 40px 0 40px;
+}
+.point1 .img,.point4 .img,.point5 .img{
+	margin-top: 30px;
+}
+.point2,.point5{
+	background: #ebf3e9;
+}
+.point3{
+	background: url(../images/bg-point3.jpg) no-repeat center;
+	background-size: cover;
+}
+.point-inner{
+	width: 832px;
+	margin: 0 auto;
+}
+h3.point-heading{
+	margin-bottom: 30px;
+	padding-bottom: 10px;
+	border-bottom: solid 2px #00a95f; 
+	color: #00a95f;
+	font-size: 30px;
+	font-weight: bold;
+	line-height: 1.4;
+}
+h4.point-heading{
+	margin-bottom: 10px;
+}
+.point-text{
+	line-height: 1.875;
+}
+
+/* -----------------------------
+seminar
+-----------------------------*/
+#seminar{
+	background: url(../images/bg-seminar.jpg) no-repeat center;
+	background-size: cover;
+}
+#seminar .img{
+	margin-top: 0;
+}
+.seminar-inner{
+	width: 832px;
+	margin: 0 auto;
+	padding: 40px 0;
+}
+h2.seminar-heading {
+	margin-bottom: 25px;
+	padding-bottom: 10px;
+	color: #fff;
+	border-bottom: solid 2px #fff;
+	font-size: 30px;
+	font-weight: bold;
+}
+h2.seminar-heading::before{
+	display: block;
+	margin-bottom: 5px;
+	content: url(../images/ttl-seminar.png);
+}
+h2.seminar-heading span{
+	font-size: 24px;
+}
+h3.seminar-heading{
+	margin: 0 0 15px 10px;
+	color: #ffd736;
+	font-size: 20px;
+	font-weight: bold;
+}
+.seminar-text{
+	margin-bottom: 1.5em;
+	color: #fff;
+	line-height: 1.875;
+}
+
+/* -----------------------------
+outline
+-----------------------------*/
+#outline{
+}
+.outline-inner{
+	width: 832px;
+	margin: 0 auto;
+	padding: 40px 0 60px;
+}
+h2.outline-heading{
+	margin-bottom: 40px;
+	padding-bottom: 10px;
+	color: #00a95f;
+	border-bottom: solid 2px #00a95f;
+	font-size: 30px;
+	font-weight: bold;
+}
+h2.outline-heading::before{
+	display: block;
+	content: url(../images/ttl-outline.png);
+}
+h3.outline-heading{
+	padding: 7px 10px;
+	background: #00a95f;
+	color: #fff;
+	font-size: 24px;
+	text-align: center;
+}
+.outline-list{
+	width: 100%;
+	margin-bottom: 35px;
+}
+.outline-list tr{
+	border-bottom: 1px solid #cacaca;
+}
+.outline-list th{
+	width: 30%;
+	padding: 20px 30px 20px 10px;
+	color: #00a95f;
+	text-align: right;
+	vertical-align: middle;
+}
+.outline-list td{
+	width: 70%;
+	padding: 20px 30px 20px 10px;
+}
+
+/* -----------------------------
+gallery
+-----------------------------*/
+#gallery{
+	background: #ffe92c;
+}
+.gallery-inner{
+	width: 832px;
+	margin: 0 auto;
+	padding: 40px 0 60px;
+}
+h2.gallery-heading{
+	margin-bottom: 30px;
+	padding-bottom: 10px;
+	color: #00a95f;
+	border-bottom: solid 2px #00a95f;
+	font-size: 30px;
+	font-weight: bold;
+}
+.gallery-list{
+	width: 832px;
+}
+.gallery-list::after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.gallery-item{
+	float: left;
+	width: 264px;
+	margin: 0 20px 20px 0;
+}
+.gallery-item:nth-child(3n){
+	margin-right: 0;
+}
+.gallery-item img{
+	width: 100%;
+	vertical-align: bottom;
+}
+#gallery .btn-more{
+margin: 20px auto 0;
+}
+
+/* -----------------------------
+plan
+-----------------------------*/
+#plan{
+}
+.plan-inner{
+	width: 832px;
+	margin: 0 auto;
+	padding: 40px 0 60px;
+}
+h2.plan-heading{
+	margin-bottom: 30px;
+	padding-bottom: 10px;
+	color: #00a95f;
+	border-bottom: solid 2px #00a95f;
+	font-size: 30px;
+	font-weight: bold;
+}
+h2.plan-heading::before{
+	display: block;
+	content: url(../images/ttl-plan.png);
+}
+
+/* -----------------------------
+schedule
+-----------------------------*/
+#schedule{
+	background: #555;
+}
+.schedule-inner{
+	width: 832px;
+	margin: 0 auto;
+	padding: 45px 0 60px;
+}
+h2.schedule-heading{
+	margin-bottom: 30px;
+	padding-bottom: 20px;
+	color: #fff;
+	border-bottom: solid 2px #fff;
+	font-size: 30px;
+	font-weight: bold;
+}
+h2.schedule-heading::before{
+	display: block;
+	content: url(../images/ttl-schedule.png);
+}
+.schedule-list{
+	width: 90%;
+	margin: 0 auto;
+}
+.schedule-list tr{
+	border-bottom: 2px solid #555;
+}
+.schedule-list th{
+	width: 45%;
+	padding: 20px 50px 20px 0;
+	background: #ededed;
+	font-size: 18px;
+	text-align: right;
+} 
+.schedule-list td{
+	padding: 20px 0 20px 50px;
+	background: #fff;
+	box-sizing: border-box;
+	font-size: 18px;
+}
+
+/* -----------------------------
+application
+-----------------------------*/
+#application{
+}
+.application-inner{
+	width: 832px;
+	margin: 0 auto;
+	padding: 45px 0 60px;
+}
+h2.application-heading{
+	margin-bottom: 30px;
+	padding-bottom: 10px;
+	color: #00a95f;
+	border-bottom: solid 2px #00a95f;
+	font-size: 30px;
+	font-weight: bold;
+}
+h2.application-heading::before{
+	display: block;
+	margin-bottom: -15px;
+	content: url(../images/ttl-application.png);
+}
+.application-text{
+	line-height: 1.875;
+}
+.application-btn{
+	width: 590px;
+	margin: 40px auto 30px;
+}
+.application-btn a{
+	display: block;
+	background: #c50000;
+	color: #fff;
+	font-size: 30px;
+	font-weight: bold;
+	line-height: 80px;
+	text-align: center;
+}
+.application-btn-soldout{
+	width: 590px;
+	margin: 40px auto 30px;
+	background: #787878;
+	color: #efefef;
+	font-size: 30px;
+	font-weight: bold;
+	line-height: 80px;
+	text-align: center;
+}
+.application-deadline{
+	margin-bottom: 50px;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 1.857;
+	text-align: center;
+}
+.application-deadline span{
+	display: block;
+	margin-top: 5px;
+	font-size: 14px;
+	font-weight: normal;
+}
+
+/* -----------------------------
+download
+-----------------------------*/
+h3.download-heading,
+h3.inquiry-heading{
+	margin-bottom: 30px;
+	padding: 5px; 
+	background: #ffd813;
+	font-size: 22px;
+	text-align: center;
+}
+.download-list{
+	width: 768px;
+	margin: 0 auto 30px;
+}
+.download-list::after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.download-list:last-of-type{
+	margin: 0 auto 70px;
+}
+.download-item{
+	width: 199px;
+	float: left;
+	margin-left: 84px;
+	text-align: center;
+}
+.download-item:first-child{
+	margin-left: 0;
+}
+.download-item a{
+	color: #000;
+}
+.download-item a::after{
+	position: relative;
+	top: 3px;
+	padding-left: 5px;
+	content: url(../images/icon-pdf-bk.png);
+}
+.download-item img{
+	margin-bottom: 10px;
+	border: solid 1px #dedede;
+}
+.download-item span{
+	line-height: 1.5;
+}
+
+/* -----------------------------
+inquiry
+-----------------------------*/
+.inquiry-text{
+	line-height: 1.875;
+	text-align: center;
+}
+.inquiry-text a{
+	color: #00a95f;
+}
+.inquiry-mail{
+	margin: 25px 0;
+	padding: 20px;
+	border: solid 4px #dedede;
+	font-weight: bold;
+	line-height: 2;
+	text-align: center;
+}
+.inquiry-mail a{
+	color: #333;
+	font-size: 22px;
+}
+
+/*-------------------------
+ページトップへ戻る
+-------------------------*/
+#gotop{
+	position: fixed;
+	right: 30px;
+	bottom: 50px;
+	transform: translate3d(0, 0, 0);
+}
+
+/*-------------------------
+footer
+-------------------------*/
+footer{
+	border-top: 1px solid #ccc;
+}
+footer > .inner-wrapper{
+	width: 832px;
+	margin: 0 auto;
+	padding: 30px 0 40px;
+	box-sizing: border-box;
+}
+.footer-img{
+}
+.footer-text{
+	display: inline-block;
+	float: right;
+	font-size: 13px;
+	line-height: 1.4;
+}
+.footer-text a:hover{
+	text-decoration: underline;
+}

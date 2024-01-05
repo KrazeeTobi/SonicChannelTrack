@@ -1,0 +1,1327 @@
+@charset "utf-8";
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  height: 0;
+  visibility: hidden;
+}
+.clearfix {
+  min-height: 1px;
+  height: 1px;
+}
+input[type="submit"],
+input[type="button"] {
+  border-radius: 0;
+  -webkit-box-sizing: content-box;
+  -webkit-appearance: button;
+  -moz-appearance: button;
+       appearance: button;
+  border: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  cursor: pointer;
+}
+input[type="submit"]::-webkit-search-decoration,
+input[type="button"]::-webkit-search-decoration {
+  display: none;
+}
+input[type="submit"]::focus,
+input[type="button"]::focus {
+  outline-offset: -2px;
+}
+input,
+textarea {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -webkit-appearance: none;
+  max-width: 100%;
+}
+.cl:after {
+  width: 1px;
+  height: 0px;
+  content: "";
+  line-height: 0;
+  display: block;
+  clear: both;
+}
+.tel {
+  cursor: default;
+  pointer-events: none;
+}
+@media screen and (max-width: 768px) {
+  .tel {
+    pointer-events: auto;
+  }
+}
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+body {
+  font-family: "FOT-ロダンNTLG Pro DB", RodinNTLGPro-DB, "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS P Gothic", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", sans-serif;
+}
+header .menuWrap {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding: 20px;
+}
+header .menuWrap .menubox {
+  width: 40px;
+  height: 40px;
+  position: relative;
+}
+header .menuWrap .menubox span {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background: #fff;
+}
+header .menuWrap .menubox span:nth-of-type(1) {
+  top: 0;
+}
+header .menuWrap .menubox span:nth-of-type(2) {
+  top: calc(50% - 1px);
+}
+header .menuWrap .menubox span:nth-of-type(3) {
+  top: calc(100% - 2px);
+}
+:root {
+  -webkit-font-feature-settings: "palt";
+          font-feature-settings: "palt";
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+@media screen and (min-width: 768px) {
+  :root {
+    background: #fff;
+    font-size: 20px;
+    -webkit-text-size-adjust: 100%;
+  }
+}
+@media screen and (max-width: 768px) {
+  :root {
+    font-size: 15px;
+  }
+}
+body {
+  background: #fff;
+}
+@media screen and (min-width: 768px) {
+  a:focus {
+    outline: none;
+  }
+}
+@media screen and (min-width: 768px) {
+  a:hover {
+    -moz-opacity: 0.7;
+    -khtml-opacity: 0.7;
+    opacity: 0.7;
+  }
+}
+@media screen and (max-width: 768px) {
+  a:hover {
+    -moz-opacity: 1;
+    -khtml-opacity: 1;
+    opacity: 1;
+  }
+}
+@media screen and (min-width: 768px) {
+  a:visited {
+    color: #333;
+  }
+}
+@media screen and (max-width: 768px) {
+  a:visited {
+    color: #333;
+  }
+}
+.deadLink,
+.deadlink {
+  pointer-events: none !important;
+  cursor: default !important;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+}
+.u_line {
+  text-decoration: underline;
+}
+@media screen and (min-width: 768px) {
+  header {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 768px) {
+  header {
+    width: 100%;
+  }
+}
+section,
+artcle {
+  width: 100%;
+  margin: 0 auto;
+}
+@media screen and (min-width: 768px) {
+  section,
+  artcle {
+    min-width: 1200px;
+  }
+}
+@media screen and (max-width: 768px) {
+  section,
+  artcle {
+    width: 100%;
+    min-width: 100%;
+  }
+}
+@media screen and (min-width: 768px) {
+  footer {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 768px) {
+  footer {
+    width: 100%;
+  }
+}
+.imgbox {
+  width: 100%;
+}
+.imgbox img {
+  width: 100%;
+}
+main {
+  background: #000 url("../images/bg.png") center top no-repeat;
+  background-size: 100%;
+}
+@media screen and (max-width: 768px) {
+  main {
+    background-size: 100%;
+  }
+}
+#mv {
+  position: relative;
+  background: url("../images/bg.png") no-repeat;
+  background-position: center top 0;
+  background-size: 100%;
+}
+#mv .endSession {
+  position: absolute;
+  left: 50%;
+  top: 40px;
+  margin-left: -350px;
+  width: 700px;
+  background: #f00;
+  color: #fff;
+  padding: 20px;
+  font-size: 1rem;
+  line-height: 1.3;
+}
+@media screen and (max-width: 768px) {
+  #mv .endSession {
+    margin: 0 auto;
+    width: 90%;
+    left: auto;
+    position: relative;
+    top: 0;
+    padding: 10px;
+    font-size: 0.8rem;
+  }
+}
+#mv .Mtext {
+  margin-top: 20px;
+  font-size: 0.7rem;
+  line-height: 1.75;
+  color: #fff;
+}
+#mv .Mtext a {
+  color: #fff;
+}
+#mv .Mtext a:before {
+  content: '＞ ';
+}
+#mv .Ltext {
+  font-size: 1rem;
+  line-height: 1.4;
+  color: #fff;
+  font-weight: bold;
+}
+.MvWrap {
+  text-align: center;
+  padding-top: 200px;
+}
+@media screen and (max-width: 768px) {
+  .MvWrap {
+    padding-top: 30px;
+  }
+}
+.MvWrap .redWrap {
+  background: #f00;
+  margin: 20px auto 40px;
+  color: #fff;
+  padding: 10px;
+  line-height: 1.5;
+}
+.MvWrap .redWrap p a{
+  color: #fff;
+}
+.MvWrap .redWrap p.mvLink{
+  margin-top: .75em;
+  font-weight: bold;
+  font-size: 1.125em;
+}
+@media screen and (min-width: 768px) {
+  .MvWrap .redWrap {
+    width: 1200px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .MvWrap .redWrap {
+    width: 90%;
+  }
+}
+.MvWrap ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #fff;
+  font-size: 1rem;
+}
+@media screen and (max-width: 768px) {
+  .MvWrap ul {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 90%;
+  }
+}
+.MvWrap ul a {
+  color: #fff;
+}
+.MvWrap .xtrend {
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+  text-align: center;
+  color: #fff;
+  font-size: 1.05rem;
+  font-family: "FOT-ロダンNTLG Pro EB", "RodinNTLGPro-EB";
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+@media screen and (max-width: 768px) {
+  .MvWrap .xtrend {
+    padding: 30px 0;
+  }
+}
+.MvWrap .xtrend h1 {
+  display: block;
+  width: 100%;
+}
+.MvWrap .xtrend p {
+  display: block;
+  width: 100%;
+  line-height: 1.4;
+}
+.MvWrap .xtrend img {
+  width: 94px;
+}
+@media screen and (max-width: 768px) {
+  .MvWrap .xtrend img {
+    width: 80px;
+  }
+}
+.MvWrap .xtrend2021 {
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+  color: #fff;
+  font-size: 0.95rem;
+}
+.MvWrap .xtrend2021 img {
+  margin: 42px 0 0;
+  width: 407px;
+}
+@media screen and (max-width: 768px) {
+  .MvWrap .xtrend2021 img {
+    width: 100%;
+    margin: 25px 0 0;
+  }
+}
+.MvWrap .chatbot {
+  -webkit-box-ordinal-group: 4;
+      -ms-flex-order: 3;
+          order: 3;
+  color: #fff;
+  font-size: 0.95rem;
+}
+.MvWrap .chatbot img {
+  margin: 42px 0 0;
+  width: 429px;
+}
+@media screen and (max-width: 768px) {
+  .MvWrap .chatbot img {
+    width: 100%;
+    margin: 20px 0 0;
+  }
+}
+.MvWrap .chatbot .readText {
+  margin: 36px 0 0;
+}
+@media screen and (max-width: 768px) {
+  .MvWrap .chatbot .readText {
+    margin: 10px 0 0;
+  }
+}
+.MvWrap dl {
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 1000px;
+  margin: 62px auto 62px;
+  text-align: left;
+}
+@media screen and (max-width: 768px) {
+  .MvWrap dl {
+    width: 90%;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .MvWrap dl dd {
+    margin-top: 30px;
+  }
+}
+.MvWrap dl h3 {
+  font-size: 1rem;
+}
+.MvWrap dl p {
+  margin-top: 17px;
+  font-size: 0.85rem;
+  line-height: 2.2;
+}
+.wrap {
+  width: 1000px;
+  margin: 0 auto;
+}
+@media screen and (max-width: 768px) {
+  .wrap {
+    width: 90%;
+  }
+}
+#program,
+#read,
+#timetable,
+#sponsorship,
+#contact,
+#pickup {
+  margin: 80px auto 65px;
+}
+#program h2,
+#read h2,
+#timetable h2,
+#sponsorship h2,
+#contact h2,
+#pickup h2 {
+  font-size: 1.75rem;
+  color: #fff;
+  font-family: "FOT-ロダンNTLG Pro EB", "RodinNTLGPro-EB";
+  text-align: center;
+  padding-bottom: 55px;
+}
+@media screen and (max-width: 768px) {
+  #program h2,
+  #read h2,
+  #timetable h2,
+  #sponsorship h2,
+  #contact h2,
+  #pickup h2 {
+    font-size: 1.4rem;
+    padding-bottom: 25px;
+  }
+}
+#program h2 span,
+#read h2 span,
+#timetable h2 span,
+#sponsorship h2 span,
+#contact h2 span,
+#pickup h2 span {
+  position: relative;
+}
+#program h2 span:after,
+#read h2 span:after,
+#timetable h2 span:after,
+#sponsorship h2 span:after,
+#contact h2 span:after,
+#pickup h2 span:after,
+#program h2 span:before,
+#read h2 span:before,
+#timetable h2 span:before,
+#sponsorship h2 span:before,
+#contact h2 span:before,
+#pickup h2 span:before {
+  width: 25px;
+  height: 10px;
+  display: block;
+  background: #fff;
+  content: '';
+  position: absolute;
+  top: 50%;
+  margin-top: -5px;
+}
+#program h2 span:after,
+#read h2 span:after,
+#timetable h2 span:after,
+#sponsorship h2 span:after,
+#contact h2 span:after,
+#pickup h2 span:after {
+  left: -60px;
+}
+#program h2 span:before,
+#read h2 span:before,
+#timetable h2 span:before,
+#sponsorship h2 span:before,
+#contact h2 span:before,
+#pickup h2 span:before {
+  right: -60px;
+}
+#program h2 > figure,
+#read h2 > figure,
+#timetable h2 > figure,
+#sponsorship h2 > figure,
+#contact h2 > figure,
+#pickup h2 > figure {
+  margin: 15px auto;
+}
+#program h2 > figure img,
+#read h2 > figure img,
+#timetable h2 > figure img,
+#sponsorship h2 > figure img,
+#contact h2 > figure img,
+#pickup h2 > figure img {
+  width: 30%;
+}
+#pickup .tab {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+#pickup .tab dt {
+  background: #aaa;
+  width: 49%;
+  text-align: center;
+  padding: 5px;
+  color: #fff;
+  border: 1px solid #fff;
+  cursor: pointer;
+}
+#pickup .tab dd {
+  background: #aaa;
+  width: 49%;
+  text-align: center;
+  padding: 5px;
+  color: #fff;
+  border: 1px solid #fff;
+  cursor: pointer;
+}
+#pickup .tab .show {
+  background: #000;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+#pickup .contents {
+  margin-top: 15px;
+}
+#pickup .contents > dt,
+#pickup .contents > dd {
+  display: none;
+}
+#pickup .contents .show {
+  display: block;
+}
+#pickup .contents .more {
+  font-size: 0.75rem;
+  padding: 10px;
+  text-align: center;
+  margin-top: 15px;
+  background: #000;
+  border: 1px solid #aaa;
+}
+#pickup .contents ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+@media screen and (max-width: 768px) {
+  #pickup .contents ul {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+#pickup .contents ul li {
+  width: 19%;
+  color: #fff;
+  background: #333;
+  padding: 15px;
+  border: 1px solid #aaa;
+}
+@media screen and (max-width: 768px) {
+  #pickup .contents ul li {
+    width: 49%;
+  }
+}
+#pickup .contents ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+#pickup .contents ul li .sessionNum {
+  font-size: 0.6rem;
+  line-height: 1.4;
+  background: #fff;
+  color: #000;
+  padding: 3px 8px;
+  display: inline-block;
+}
+#pickup .contents ul li h3 {
+  font-size: 0.8rem;
+  line-height: 1.4;
+  margin-top: 5px;
+}
+#pickup .contents ul li img {
+  width: 100%;
+}
+#pickup .contents ul li dl {
+  margin-top: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+#pickup .contents ul li dl dt {
+  margin-top: 5px;
+  width: 100%;
+}
+#pickup .contents ul li dl dd {
+  width: 100%;
+}
+#pickup .contents ul li dl dd p {
+  margin-top: 5px;
+}
+#pickup .contents ul li dl .name {
+  font-size: 0.8rem;
+  line-height: 1.4;
+  margin-top: 10px;
+}
+#pickup .contents ul li dl .companyName,
+#pickup .contents ul li dl .busyo,
+#pickup .contents ul li dl .Department {
+  font-size: 0.6rem;
+  line-height: 1.2;
+}
+#program h3 {
+  margin: 45px auto 0;
+  text-align: center;
+}
+@media screen and (max-width: 768px) {
+  #program h3 img {
+    width: 100%;
+  }
+}
+#program dl {
+  margin: 45px auto 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+@media screen and (max-width: 768px) {
+  #program dl {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding: 0 10%;
+  }
+}
+#program dl dt,
+#program dl dd {
+  padding: 0 30px;
+}
+@media screen and (max-width: 768px) {
+  #program dl dt,
+  #program dl dd {
+    width: 100%;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 768px) {
+  #program dl dd {
+    margin-top: 20px;
+  }
+}
+#program dl a {
+  font-size: 3.3rem;
+  font-family: "FOT-ロダンNTLG Pro EB", "RodinNTLGPro-EB";
+  color: #fff;
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+@media screen and (max-width: 768px) {
+  #program dl a {
+    font-size: 2.5rem;
+    margin: 0 auto;
+  }
+}
+#program dl a span {
+  background: #fff;
+  color: #000;
+  font-size: 0.8rem;
+  position: relative;
+  height: 36px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px 5px 10px 10px;
+  line-height: 1;
+  margin-left: 20px;
+}
+#program dl a span:after {
+  right: -14px;
+  top: 0;
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 18px 0 18px 15px;
+  border-color: transparent transparent transparent #fff;
+}
+#read {
+  color: #fff;
+}
+#read .readBox {
+  background-size: contain;
+}
+#read .readBox2 {
+  background-size: contain;
+}
+#read .readBox2 a:link,
+#read .readBox2 a:visited {
+  color: #fff;
+  display: inline-block;
+}
+#read .Ltext {
+  font-size: 1rem;
+  line-height: 1.4;
+}
+#read .Mtext {
+  margin-top: 20px;
+  font-size: 0.8rem;
+  line-height: 1.75;
+}
+#read h3 {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  font-weight: bold;
+  padding: 0px 0 10px;
+}
+#read h3.topborder {
+  border-top: 1px dotted #fff;
+  padding: 30px 0 10px;
+  margin-top: 30px;
+}
+#read h3.topborder a {
+  display: block;
+  padding: 15px;
+  margin: 0 auto;
+  text-align: center;
+  width: 350px;
+}
+#read h3.topborder a:link,
+#read h3.topborder a:visited {
+  background: #fff;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  color: #e00;
+  text-decoration: none;
+}
+#read h3.topborder a:link:before,
+#read h3.topborder a:visited:before {
+  content: '＞　';
+}
+@media screen and (min-width: 768px) {
+  #timetable .readBox {
+    width: 620px;
+    margin: 50px auto 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  #timetable .readBox {
+    width: 100%;
+    margin: 50px auto 0;
+  }
+}
+#timetable .Mtext {
+  margin-top: 20px;
+  font-size: 0.7rem;
+  line-height: 1.75;
+  color: #fff;
+}
+#timetable .Mtext a {
+  color: #fff;
+}
+#timetable .Mtext a:before {
+  content: '＞ ';
+}
+#timetable .Ltext {
+  font-size: 1rem;
+  line-height: 1.4;
+  color: #fff;
+  font-weight: bold;
+}
+#timetable h2 {
+  padding-bottom: 30px;
+}
+#timetable .redtext {
+  font-size: 0.65rem;
+  color: #f00;
+  text-align: center;
+  padding-bottom: 30px;
+}
+#timetable h3 {
+  color: #fff;
+  font-size: 1.45rem;
+  font-family: "FOT-ロダンNTLG Pro EB", "RodinNTLGPro-EB";
+  text-align: center;
+  padding: 45px 0 25px;
+}
+#timetable .timeTableBList {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-left: -20px;
+}
+@media screen and (max-width: 768px) {
+  #timetable .timeTableBList {
+    margin-left: 0;
+  }
+}
+#timetable .timeTableBList > li {
+  margin-top: 15px;
+  width: 235px;
+  background: rgba(43,43,43,0.7);
+  margin-left: 20px;
+  border: 1px solid #fff;
+/*&:nth-of-type(4n+1)
+				margin-left: 0
+				+sp()
+					margin-left: 4%
+			&:nth-of-type(2n+1)
+				+sp()
+					margin-left: 0%*/
+}
+@media screen and (max-width: 768px) {
+  #timetable .timeTableBList > li {
+    width: 48%;
+    margin-left: 1%;
+    margin-right: 1%;
+  }
+}
+#timetable .timeTableBList > li a {
+  text-decoration: none;
+  color: #fff;
+}
+#timetable .sessionNameSw {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+#timetable .sessionNameSw dt {
+  min-width: 60px;
+  height: 32px;
+  font-size: 0.65rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0 10px;
+}
+#timetable .sessionNameSw .sessionNamekichou {
+  background: #c63e00;
+}
+#timetable .sessionNameSw .sessionNamesyusai {
+  background: #359ad1;
+}
+#timetable .sessionNameSw .sessionNamekyousan {
+  background: #663eb4;
+}
+#timetable .sessionNameSw dd {
+  margin-left: 12px;
+  height: 32px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 0.55rem;
+}
+#timetable .timeTableWrap {
+  padding: 15px;
+}
+#timetable .timeTableWrap .timeNum {
+  font-size: 0.55rem;
+  position: relative;
+}
+#timetable .timeTableWrap .timeNum:after {
+  content: '';
+  width: 100%;
+  height: 3px;
+  background: #000;
+  bottom: 0;
+}
+#timetable .timeTableWrap h4 {
+  font-size: 0.7rem;
+  margin-top: 10px;
+  line-height: 1.75;
+}
+#timetable .timeTableWrap .sessionlecturerBoxWrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 10px;
+}
+#timetable .timeTableWrap .sessionlecturerBoxImg {
+  width: 70px;
+}
+@media screen and (max-width: 768px) {
+  #timetable .timeTableWrap .sessionlecturerBoxImg {
+    width: 50px;
+  }
+}
+#timetable .timeTableWrap .sessionlecturerBoxImg img {
+  width: 100%;
+}
+#timetable .timeTableWrap .sessionlecturerBox {
+  width: calc(100% - 80px);
+  padding: 10px 0;
+  margin-top: 0px;
+  border-top: 1px dotted #fff;
+}
+@media screen and (max-width: 768px) {
+  #timetable .timeTableWrap .sessionlecturerBox {
+    width: calc(100% - 60px);
+  }
+}
+#timetable .timeTableWrap .sessionlecturerBox .sessionlecturerName {
+  font-size: 0.65rem;
+  font-family: "FOT-ロダンNTLG Pro EB", "RodinNTLGPro-EB";
+  line-height: 1.4;
+}
+#timetable .timeTableWrap .sessionlecturerBox .sessionlecturerText {
+  font-size: 0.5rem;
+  margin-top: 10px;
+  line-height: 1.75;
+}
+#timetable .timeTableWrap .sessionlecturerBox .sessionlecturerTextB {
+  font-size: 0.5rem;
+  margin-top: 0px;
+  line-height: 1.75;
+}
+#timetable .timeTableWrap .more p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+#timetable .timeTableWrap .more p span {
+  margin-top: 12px;
+  background: #fff;
+  color: #000;
+  font-size: 0.65rem;
+  position: relative;
+  height: 24px;
+  padding: 10px 5px 10px 10px;
+  line-height: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+#timetable .timeTableWrap .more p span:after {
+  right: -14px;
+  top: 0;
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 12px 0 12px 15px;
+  border-color: transparent transparent transparent #fff;
+}
+#sponsorship {
+  padding-bottom: 50px;
+}
+#sponsorship h3 {
+  background: url("../images/h3.svg") center center no-repeat;
+  background-size: 100% 100%;
+  color: #fff;
+  text-align: center;
+  padding: 10px 20px;
+  margin: 45px auto 10px;
+}
+@media screen and (max-width: 768px) {
+  #sponsorship h3 {
+    margin: 45px auto 10px;
+  }
+}
+#sponsorship h3 span {
+  position: relative;
+  padding: 10px 5px 10px 10px;
+  line-height: 1;
+  color: #fff;
+  font-size: 1.05rem;
+}
+#sponsorship .sponsorSapphire {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+#sponsorship .sponsorSapphire li {
+  margin-top: 15px;
+  width: 576px;
+}
+@media screen and (max-width: 768px) {
+  #sponsorship .sponsorSapphire li {
+    width: 100%;
+  }
+}
+#sponsorship .sponsorSapphire li img {
+  width: 100%;
+}
+#sponsorship .sponsorPlatinum {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+#sponsorship .sponsorPlatinum li {
+  margin-top: 15px;
+  width: 325px;
+  padding: 0 9px;
+}
+@media screen and (max-width: 768px) {
+  #sponsorship .sponsorPlatinum li {
+    width: 85%;
+  }
+}
+#sponsorship .sponsorPlatinum li img {
+  width: 100%;
+}
+#sponsorship .sponsorGold {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+#sponsorship .sponsorGold li {
+  margin-top: 15px;
+  width: 270px;
+  padding: 0 9px;
+}
+@media screen and (max-width: 768px) {
+  #sponsorship .sponsorGold li {
+    width: 48%;
+  }
+}
+#sponsorship .sponsorGold li img {
+  width: 100%;
+}
+#contact h2 span {
+  color: #000;
+}
+#contact h2 span:before,
+#contact h2 span:after {
+  background: #000;
+}
+#contact .contactBox {
+  border: 24px solid #d9d9d9;
+  padding: 30px 0;
+}
+@media screen and (max-width: 768px) {
+  #contact .contactBox {
+    border: 14px solid #d9d9d9;
+    padding: 15px 30px;
+    margin-top: 20px;
+  }
+}
+#contact .contactBox a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 645px;
+  text-decoration: none;
+  letter-spacing: 0.05em;
+}
+@media screen and (max-width: 768px) {
+  #contact .contactBox a {
+    width: 100%;
+  }
+}
+#contact .contactBox .mailto {
+  padding: 36px 0 36px 100px;
+  background: url("../images/contactM.svg") left center no-repeat;
+  background-size: 60px;
+  font-size: 1.2rem;
+  margin: 0 auto;
+}
+@media screen and (max-width: 768px) {
+  #contact .contactBox .mailto {
+    padding: 36px 0 36px 70px;
+    background-size: 40px;
+  }
+}
+#contact .contactBox .xtrendSite {
+  background: url("../images/contactX.svg") left center no-repeat;
+  background-size: 60px;
+  font-size: 1.2rem;
+  margin: 0 auto;
+  padding: 36px 0 36px 100px;
+  border-top: 1px solid #000;
+}
+@media screen and (max-width: 768px) {
+  #contact .contactBox .xtrendSite {
+    padding: 36px 0 36px 70px;
+    background-size: 40px;
+    line-height: 1.4;
+  }
+}
+footer {
+  padding: 15px 0;
+}
+footer p {
+  font-size: 0.55rem;
+  text-align: center;
+}
+.sicho p.btn a {
+  display: inline-block;
+  padding: 15px 20px 17px;
+  background: #fff;
+  font-size: 1.5rem;
+  color: #d32f2f;
+  text-decoration: none;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+}
+.sicho .asterisk {
+  font-size: 1rem;
+  margin: 25px auto 0;
+  color: #fff;
+  text-align: left;
+  line-height: 1.3;
+  max-width: 660px;
+  width: 90%;
+}
+.sicho .asterisk a {
+  color: #fff;
+}

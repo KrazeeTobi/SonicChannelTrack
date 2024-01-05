@@ -1,0 +1,593 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*-------------------------
+ヘッダー
+-------------------------*/
+#TopHeader {
+  overflow: hidden;
+  padding: 54px 0;
+  background-image: url("../images/topheader_bg.png");
+  background-size: cover;
+}
+
+#TopHeader::before {
+  content: '';
+  display: block;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 570px;
+  background-image: url("../images/topheader_bg_pattern.png");
+}
+
+#TopHeader .block {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+#TopHeader .text {
+  float: left;
+  width: 528px;
+  position: relative;
+  z-index: 9999;
+}
+
+#TopHeader .text .text1 {
+  background-color: rgba(0, 104, 183, 0.9);
+}
+
+#TopHeader .text .text2 {
+  background-color: rgba(62, 193, 169, 0.9);
+}
+
+#TopHeader .summary {
+  float: right;
+  width: 472px;
+  padding: 28px;
+  box-sizing: border-box;
+  position: relative;
+  z-index: 9999;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+#TopHeader .summary h1 {
+	margin-bottom: 16px;
+}
+
+#TopHeader .summary .detail {
+	margin-bottom: 18px;
+}
+
+#TopHeader .summary a img {
+  transition: 0.2s;
+}
+
+#TopHeader .summary a img:hover {
+  opacity: 0.8;
+}
+
+/*-------------------------
+本文
+-------------------------*/
+main {
+  padding-top: 72px;
+}
+
+/*-------------------------
+次回開催
+-------------------------*/
+#Next {
+  margin-bottom: 70px;
+}
+#Next h2 {
+  margin-bottom: 1.5em;
+	text-align: center;
+  line-height: 1;
+  font-size: 26px;
+  color: #b84949;
+  font-weight: bold;
+}
+#Next h2 > span {
+  display: inline-block;
+  min-width: 15em;
+  padding: .5em 1em;
+  margin-right: -.3em;
+  letter-spacing: .3em;
+  border: 2px solid #b84949;
+  border-radius: 30px;
+}
+
+/*-------------------------
+閉会
+-------------------------*/
+#Closure {
+  margin-bottom: 70px;
+}
+#Closure h2 {
+  margin-bottom: 1em;
+	text-align: center;
+  line-height: 1.5;
+	font-size: 22px;
+  font-weight: bold;
+  color: #0068b7;
+}
+.table-closure {
+  width: 100%;
+  table-layout: fixed;
+  word-wrap: break-word;
+}
+.table-closure th,
+.table-closure td {
+  padding: 10px 20px;
+	text-align: center;
+	border: 1px solid #333;
+}
+.table-closure th {
+	color: #fff;
+	background: #666;
+}
+.table-closure td {
+	font-size: 20px;
+}
+.table-closure-row-latest td {
+  font-weight: bold;
+}
+
+/*-------------------------
+EVENT REPORTS
+-------------------------*/
+#Reports {
+  margin-bottom: 70px;
+}
+
+#Reports h2 {
+  margin-bottom: 1em;
+  text-align: center;
+  line-height: 1.5;
+  font-size: 36px;
+  font-weight: bold;
+  color: #0068b7;
+}
+
+#Reports h3 {
+  /*margin-top: 3em;*/
+  margin-top: 2em;
+  margin-bottom: .5em;
+  text-align: left;
+  line-height: 1.5;
+  font-size: 26px;
+  font-weight: bold;
+  color: #0068b7;
+}
+
+#Reports h2 + h3 {
+  margin-top: 0;
+}
+#Reports .thanks {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  color: #0068b7;
+}
+
+.reviews {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -30px;
+  margin-bottom: 50px;
+}
+.reviews-item {
+  flex: 0 0 33.33333%;
+  max-width: 33.33333%;
+  padding-right: 30px;
+  margin-bottom: 30px;
+  box-sizing: border-box;
+}
+.reviews-item a {
+  display: block;
+  color: #333;
+}
+.reviews-item a:hover {
+  text-decoration: underline;
+}
+.reviews-thumb {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+.reviews-title {
+  color: #000;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/*-------------------------
+カルーセル
+-------------------------*/
+#EntryCarousel {
+  overflow: hidden;
+  margin-bottom: 26px;
+}
+
+#EntryCarousel .carousel {
+  float: left;
+  width: 931px;
+  overflow: hidden;
+}
+
+#EntryCarousel .carousel #carousel {
+  width: 846px;
+  margin: 0 0 44px 32px;
+}
+
+#EntryCarousel .carousel .item {
+  position: relative;
+  transition: 0.2s;
+}
+
+#EntryCarousel .carousel .item:hover {
+  opacity: 0.8;
+}
+
+#EntryCarousel .carousel .box {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-sizing: border-box;
+  top: 40px;
+  left: 28px;
+  width: 350px;
+  height: 222px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.75);
+  opacity: 0;
+  font-weight: bold;
+  line-height: 1.4;
+}
+
+#EntryCarousel .carousel .box .title {
+  margin-bottom: 10px;
+  color: #000;
+  font-size: 23px;
+}
+
+#EntryCarousel .carousel .box .text {
+  color: #000;
+  font-size: 14px;
+}
+
+#EntryCarousel .carousel .slick-current .box,
+#EntryCarousel .carousel .slick-active .box {
+  animation: carouselItem 0.4s 0.4s ease both;
+}
+
+/*--カルーセル(黒ボックス)--*/
+#EntryCarousel .carousel .box_black {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-sizing: border-box;
+  top: 40px;
+  left: 28px;
+  width: 350px;
+  height: 222px;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.75);
+  opacity: 0;
+  font-weight: bold;
+  line-height: 1.4;
+}
+
+#EntryCarousel .carousel .box_black .title {
+  margin-bottom: 10px;
+  color: #FFF;
+  font-size: 23px;
+}
+
+#EntryCarousel .carousel .box_black .text {
+  color: #FFF;
+  font-size: 14px;
+}
+
+#EntryCarousel .carousel .slick-current .box_black,
+#EntryCarousel .carousel .slick-active .box_black {
+  animation: carouselItem 0.4s 0.4s ease both;
+}
+
+/*--カルーセル(赤ボックス)--*/
+#EntryCarousel .carousel .box_red {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-sizing: border-box;
+  top: 40px;
+  left: 28px;
+  width: 350px;
+  height: 222px;
+  padding: 20px;
+  background-color: rgba(216, 54, 80, 0.75);
+  opacity: 0;
+  font-weight: bold;
+  line-height: 1.4;
+}
+
+#EntryCarousel .carousel .box_red .title {
+  margin-bottom: 10px;
+  color: #FFF;
+  font-size: 23px;
+}
+
+#EntryCarousel .carousel .box_red .text {
+  color: #FFF;
+  font-size: 14px;
+}
+
+#EntryCarousel .carousel .slick-current .box_red,
+#EntryCarousel .carousel .slick-active .box_red {
+  animation: carouselItem 0.4s 0.4s ease both;
+}
+
+/*--カルーセル(緑ボックス)--*/
+#EntryCarousel .carousel .box_green {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-sizing: border-box;
+  top: 40px;
+  left: 28px;
+  width: 350px;
+  height: 222px;
+  padding: 20px;
+  background-color: rgba(79, 197, 175, 0.75);
+  opacity: 0;
+  font-weight: bold;
+  line-height: 1.4;
+}
+
+#EntryCarousel .carousel .box_green .title {
+  margin-bottom: 10px;
+  color: #FFF;
+  font-size: 23px;
+}
+
+#EntryCarousel .carousel .box_green .text {
+  color: #FFF;
+  font-size: 14px;
+}
+
+#EntryCarousel .carousel .slick-current .box_green,
+#EntryCarousel .carousel .slick-active .box_green {
+  animation: carouselItem 0.4s 0.4s ease both;
+}
+
+@keyframes carouselItem {
+  0% {
+    transform: translateY(10px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+#EntryCarousel .entry {
+  float: right;
+}
+
+#EntryCarousel .entry p:nth-child(1) a {
+	margin-bottom: 14px;
+  background-image: url("../images/entrycarousel_entry_btn_ov.png");
+}
+
+#EntryCarousel .entry p:nth-child(1) {
+	margin-bottom: 14px;
+}
+
+#EntryCarousel .entry p:nth-child(2) a {
+  background-image: url("../images/entrycarousel_seminar_btn_ov.png");
+}
+
+#EntryCarousel .entry p a {
+  display: block;
+  width: 268px;
+  height: 144px;
+  background-image: url("../images/entrycarousel_entry_btn_ov.png");
+}
+
+#EntryCarousel .entry p a img {
+  vertical-align: top;
+  transition: opacity 0.1s;
+}
+
+#EntryCarousel .entry p a:hover img {
+  opacity: 0;
+}
+
+/*-------------------------
+本文　＋　レクタングル広告
+-------------------------*/
+#GreetingAd {
+  padding: 65px 0 70px;
+  background-color: #fafafa;
+}
+
+#GreetingAd .block {
+  position: relative;
+}
+
+#GreetingAd .block>div {
+  width: 830px;
+}
+
+#GreetingAd h2 {
+  margin-bottom: 50px;
+  color: #0068b7;
+  font-size: 26px;
+  line-height: 1.7;
+  font-weight: bold;
+}
+
+#GreetingAd h2 span {
+  display: block;
+  font-size: 36px;
+}
+
+#GreetingAd p {
+  margin-bottom: 22px;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+#GreetingAd p:last-child {
+  margin-bottom: 0;
+}
+
+#GreetingAd p span {
+  font-size: 30px;
+}
+
+#GreetingAd .ad {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+#GreetingAd .ad.var-1{
+  top: 0;
+}
+#GreetingAd .ad.var-2{
+  top: 290px;
+}
+
+
+/*-------------------------
+NEWS ＋ Facebook
+-------------------------*/
+#NewsSocial {
+  /*margin: 0 0 110px;*/
+  margin: 0 0 150px;
+  padding: 70px 0 74px;
+  overflow: hidden;
+  background: linear-gradient(-150deg, #24c6dc, #43cea2 27%, #514a9d 83%, #514a9d);
+}
+
+#NewsSocial h3 {
+  margin-bottom: 27px;
+  text-align: center;
+}
+
+#NewsSocial .news, #NewsSocial .social {
+  width: 563px;
+}
+
+#NewsSocial .news {
+  float: left;
+}
+
+#NewsSocial .social {
+  float: right;
+}
+
+#NewsSocial .social iframe {
+  display: block;
+  width: 500px;
+  margin: 0 auto;
+}
+
+#NewsSocial .news .scroll {
+  height: 300px;
+  box-sizing: border-box;
+  overflow-y: scroll;
+  padding: 28px;
+  background: #fff;
+}
+
+#NewsSocial .news ul li {
+  position: relative;
+  padding: 30px 0;
+  border-bottom: #b8d2e6 solid 1px;
+  color: #0068b7;
+  font-size: 20px;
+}
+
+#NewsSocial .news ul li:last-child {
+  border: none;
+}
+
+#NewsSocial .news ul li .date {
+  position: absolute;
+  top: 30px;
+  left: 0;
+  font-size: 18px;
+  vertical-align: middle;
+}
+
+#NewsSocial .news ul li .date::after {
+  content: '　';
+}
+
+#NewsSocial .news ul li .title {
+  margin-left: 110px;
+  margin-bottom: 5px;
+  font-size: 20px;
+  vertical-align: middle;
+  font-weight: bold;
+}
+
+#NewsSocial .news ul li .text {
+  margin-left: 110px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/*-------------------------
+SPONSORS
+-------------------------*/
+.sponsors {
+  margin-bottom: 137px;
+}
+
+.sponsors:last-child {
+  margin-bottom: 250px;
+}
+
+.sponsors h3 {
+  text-align: center;
+  margin-bottom: 72px;
+}
+
+.sponsors ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sponsors ul li {
+  margin: 0 37px;
+}
+
+.sponsors ul a img:hover {
+  opacity: 0.8;
+}
+
+
+/*-------------------------
+Utility
+-------------------------*/
+.d-flex {
+  display: flex;
+}
+.justify-content-between {
+  justify-content: space-between;
+}
+.justify-content-center {
+  justify-content: center;
+}

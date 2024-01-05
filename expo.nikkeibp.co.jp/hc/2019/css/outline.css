@@ -1,0 +1,379 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*-------------------------
+開催概要
+-------------------------*/
+.outlineLead{
+  margin-bottom: 60px;
+}
+.outlineLead > div{
+  max-width: 948px;
+  margin: 0 auto;
+}
+.outlineLead p{
+  margin-bottom: 1.5em;
+  font-size: 24px;
+  line-height: 1.41;
+}
+.outlineLead p:last-child{
+  margin-bottom: 0;
+}
+.exhibition {
+  padding: 65px 0;
+  text-align: center;
+}
+.exhibition > div{
+  max-width: 756px;
+  margin: 0 auto;
+}
+.exhibition h3 {
+  color: #0068b7;
+}
+.exhibition table {
+  box-sizing: border-box;
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 32px;
+}
+.exhibition table th,
+.exhibition table td {
+  padding: 26px 65px;
+  border: 2px solid #004880;
+  font-size: 16px;
+  text-align: left;
+  vertical-align: middle;
+  line-height: 1.8;
+}
+.exhibition table th {
+  box-sizing: border-box;
+  width: 29.5%;
+  background-color: #0068b7;
+  color: #fff;
+  font-weight: bold;
+  white-space: nowrap;
+}
+.exhibition table td {
+  background-color: #fff;
+}
+.exhibition table td a{
+  text-decoration: underline;
+}
+.exhibition table td a:hover{
+  text-decoration: none;
+}
+#ExhibitionHc {
+  background-color: #f2faff;
+}
+#ExhibitionLi table th {
+  background-color: #00a95f;
+}
+#ExhibitionLi table th,
+#ExhibitionLi table td{
+  border: 2px solid #2a8640;
+}
+#ExhibitionLi h3{
+  color: #00a95f;
+}
+.exhibitionBtn{
+  max-width: 410px;
+  margin: 0 auto;
+}
+.exhibitionBtn img{
+  width: 100%;
+}
+
+@media screen and (max-width: 768px){
+  .outlineLead{
+    margin-bottom: 30px;
+    padding: 30px 0 0;
+  }
+  .outlineLead > div{
+    box-sizing: border-box;
+  }
+  .outlineLead p{
+    font-size: 20px;
+    line-height: 1.5;
+  }
+  .exhibition{
+    text-align: left;
+  }
+  .exhibition > div{
+    padding: 0 4.26%;
+    box-sizing: border-box;
+  }
+  .exhibition h3{
+    margin-bottom: 65px;
+  }
+  .exhibition table{
+    margin-bottom: 0;
+  }
+  .exhibition table th{
+    display: block;
+    width: 100%;
+  }
+  .exhibition table th,
+  .exhibition table td{
+    display: block;
+    width: 100%;
+    border: none;
+  }
+  .exhibition table th{
+    padding: 5px 16px;
+  }
+  .exhibition table td{
+    padding: 10px 16px 30px;
+    background-color: transparent;
+    box-sizing: border-box;
+  }
+  #ExhibitionLi table th,
+  #ExhibitionLi table td{
+    border: none;
+  }
+}
+
+/*-------------------------
+出展製品・サービス
+-------------------------*/
+#Lineup {
+  padding: 74px 0 32px;
+  color: #fff;
+  background: url("../images/lineup_bg.jpg") center top;
+  background-size: cover;
+}
+#Lineup > div{
+  max-width: 948px;
+  margin: 0 auto;
+  padding: 0 4%;
+}
+#Lineup h3 {
+  margin-bottom: 60px;
+}
+#Lineup h4 {
+  margin-bottom: 25px;
+  font-size: 30px;
+}
+#Lineup .lineupBlock {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -20px 10px 0;
+}
+#Lineup dl {
+  box-sizing: border-box;
+  flex: 0 0 33.33333%;
+  max-width: calc(33.33333% - 20px);
+  padding: 14px 17px;
+  border: 4px #fff solid;
+}
+#Lineup .lineupBlock dl {
+  margin: 0 20px 20px 0;
+}
+#Lineup dt {
+  box-sizing: border-box;
+  height: 80px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 900px){
+  #Lineup dt br.pcview{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px){
+  #Lineup > div{
+  padding: 0 4.26%;
+  box-sizing: border-box;
+  }
+  #Lineup .block section > section{
+    padding: 0 4.26%;
+  }
+  #Lineup .lineupBlock{
+    margin: 0 -20px 40px 0;
+  }
+  #Lineup dl{
+    flex: 0 0 50%;
+    max-width: calc(50% - 20px);
+  }
+  #Lineup dt{
+    font-size: 15px;
+    line-height: 1.66;
+  }
+  #Lineup dl{
+    flex: 0 0 50%;
+    max-width: calc(50% - 20px);
+    padding: 30px 10px;
+    border: 2px #fff solid;
+  }
+}
+
+/*-------------------------
+会場案内
+-------------------------*/
+#Access{
+  padding: 60px 4%;
+  text-align: center;
+}
+#Access h3{
+  color: #0b8caa;
+}
+#Access h3 + p{
+  margin-bottom: 60px;
+}
+#Access p{
+  font-size: 34px;
+  line-height: 1.2;
+}
+#Access p span{
+  font-size: 24px;
+}
+#Access .accessBlock{
+  width: calc(50% - 32px);
+}
+#Access .accessWrap{
+  display: flex;
+  justify-content: space-between;
+  max-width: 916px;
+  margin: 0 auto;
+}
+#Access .map{
+  max-width: 426px;
+  height: 320px;
+  overflow: hidden;
+}
+#Access .image{
+  max-width: 426px;
+}
+#Access .image img{
+  width: 100%;
+}
+#Access .accessBtn {
+  max-width: 410px;
+  margin: 32px auto 0;
+}
+#Access .accessBtn img{
+  width: 100%;
+}
+
+@media screen and (max-width: 768px){
+  #Access{
+    padding: 60px 8.53% 30px;
+    box-sizing: border-box;
+  }
+  #Access h3{
+    margin-bottom: 60px;
+  }
+  #Access h3 + p{
+    margin-bottom: 30px;
+  }
+  #Access p span{
+    font-size: 14px;
+  }
+  #Access .accessWrap{
+    display: block;
+    max-width: 426px;
+  }
+  #Access .accessBlock{
+    width: 100%;
+    margin-bottom: 32px;
+  }
+}
+
+/*-------------------------
+来場事前登録
+-------------------------*/
+#Registration{
+  padding: 60px 0 125px;
+  background-color: #f6f6f6;
+  text-align: center;
+}
+#Registration h3 {
+  margin-bottom: 20px;
+  color: #0b8caa;
+}
+#Registration p {
+  margin-bottom: 20px;
+  font-size: 24px;
+  line-height: 1.4;
+}
+#Registration p b {
+  color: #d60050;
+  font-weight: bold;
+}
+#Registration p b span {
+  font-size: 18px;
+}
+#Registration .note {
+  margin-bottom: 50px;
+  font-size: 16px;
+  line-height: 1.625;
+}
+#Registration h4{
+  margin-bottom: 25px;
+  font-size: 30px;
+  line-height: 1.33;
+}
+#Registration .button {
+  margin-bottom: 50px;
+}
+#Registration .guide div {
+  box-sizing: border-box;
+  max-width: 754px;
+  margin: 0 auto;
+  padding: 65px;
+  background-color: #fff;
+  text-align: left;
+}
+#Registration .guide div p {
+  margin-bottom: 30px;
+  font-size: 18px;
+  line-height: 1.6;
+}
+#Registration .guide div p:last-child {
+  margin-bottom: 0;
+}
+#Registration .guide div .note {
+  font-size: 14px;
+  line-height: 1.7;
+}
+#Registration .guide div .mb0 {
+  margin-bottom: 0px;
+}
+#Registration .guide a {
+  text-decoration: underline;
+}
+#Registration .guide a:hover {
+  text-decoration: none;
+}
+#Registration .registrationBtn{
+  max-width: 410px;
+  margin: 0 auto;
+}
+#Registration .registrationBtn img{
+  width: 100%;
+}
+
+@media screen and (max-width: 768px){
+  #Registration{
+    padding: 60px 8.53% 130px;
+  }
+  #Registration h3{
+    margin-bottom: 60px;
+  }
+  #Registration p b span{
+    font-size: 18px;
+  }
+  #Registration .note{
+    text-align: left;
+  }
+  #Registration .guide{
+    margin: 0 -4.26%;
+  }
+  #Registration .guide div{
+    padding: 25px 4.26%;
+  }
+  #Registration .guide div p{
+    margin-bottom: 20px;
+  }
+}

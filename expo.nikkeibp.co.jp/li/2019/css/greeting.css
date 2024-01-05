@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*-------------------------
+greeting
+-------------------------*/
+.greeting {
+  padding: 0 0 180px;
+}
+.greeting .block {
+  max-width: 948px;
+}
+.greeting h3 {
+  margin-bottom: 50px;
+  padding: 0;
+  background: transparent;
+  color: #00a95f;
+  font-size: 16px;
+  line-height: 1.7;
+  font-weight: bold;
+  text-align: left;
+}
+.greeting h3 span {
+  display: block;
+  margin-bottom: 25px;
+  font-size: 36px;
+  line-height: 1.23;
+}
+.greeting p {
+  margin-bottom: 1.8em;
+  font-size: 16px;
+  line-height: 1.75;
+}
+.greeting p:last-child {
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 768px){
+  .greeting {
+    padding: 0 0 50px;
+  }
+  .greeting .block{
+    padding: 0 8.4%;
+    box-sizing: border-box;
+  }
+  .greeting .block > div{
+    width: 100%;
+    padding-left: 0;
+  }
+  .greeting h2{
+    margin-bottom: 30px;
+    font-size: 14px;
+  }
+  .greeting p{
+    font-size: 20px;
+    line-height: 1.5;
+  }
+}
