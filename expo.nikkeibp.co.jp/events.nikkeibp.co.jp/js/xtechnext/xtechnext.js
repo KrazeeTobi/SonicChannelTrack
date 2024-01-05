@@ -1,0 +1,1 @@
+const nextUtils={registEvent:function(a,b){let url="";let param="&ru="+bpsso.getReturnUrl();if(b){param+="&"+b}switch(a){case 0:url="https://ers.nikkeibp.co.jp/user/2023w0306xtnsp?seminarId=1005596";break;default:break}if(url!==""){location.href=url+param}return false}};

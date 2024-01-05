@@ -1,0 +1,834 @@
+@charset "utf-8";
+
+/* =====================================================
+   max-width: 768px - 1200px
+===================================================== */
+@media screen and (min-width:768px) and (max-width:1024px) {
+	#header h1 {
+		width: auto;
+		max-width: 836px;
+	}
+
+	.lead {
+		max-width: 836px !important;
+	}
+
+	.contents div.program.col01 {
+		width: auto;
+		max-width: 836px;
+	}
+
+	.contents #entry div.button a {
+		width: auto;
+		max-width: 836px;
+	}
+}
+
+/* =====================================================
+   max-width: 320px - 1200px
+===================================================== */
+@media screen and (min-width:320px) and (max-width:1200px) {
+	#header img {
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	.contents {
+		width: calc(100% - 40px);
+		margin: 0 auto;
+	}
+
+	.contents .section#inquiry>h2 {
+		width: 9em;
+	}
+}
+
+/* =====================================================
+   max-width: 481px - 1200px
+===================================================== */
+@media screen and (min-width:481px) and (max-width:1200px) {
+	.contents br.sp {
+		display: block;
+	}
+
+	.contents .section>h2+div {
+		width: 100%;
+	}
+
+	.info {
+		font-size: 86%;
+	}
+
+	/* =====================================================
+	   リード
+	===================================================== */
+	.lead {
+		max-width: 836px;
+		margin: 2em auto;
+		padding: 0 1em 0 1em;
+	}
+
+	.lead p.catch {
+		font-size: 1.1em;
+	}
+
+	.lead p {
+		font-size: 1.0em;
+	}
+
+	.program-annotation-panel {
+		font-size: 86%;
+	}
+}
+
+/* =====================================================
+   max-width: 1024px
+===================================================== */
+@media screen and (max-width: 1024px) {
+	.contents #entry div.button a {
+		width: auto;
+		max-width: 836px;
+	}
+}
+
+/* =====================================================
+   max-width: 300px - 1024px
+===================================================== */
+@media screen and (min-width:300px) and (max-width:1024px) {
+
+	/* =====================================================
+	   ヘッダー
+	===================================================== */
+	#header.image h1 {
+		padding: 35px 0 0 0;
+	}
+
+	#header nav {
+		height: 35px;
+	}
+
+	#header nav ul {
+		height: 2.2em;
+		padding: 0;
+	}
+
+	#header nav ul li {
+		height: 2.2em;
+		padding: 0.4em 1em 0 1em;
+	}
+
+	#header nav ul li.hloverview a::before {
+		width: 1.2em;
+		height: 1.2em;
+	}
+
+	#header nav ul li.hlprogram a::before {
+		width: 1.2em;
+		height: 1.2em;
+	}
+
+	#header nav ul li.hlentry a::before {
+		width: 1.2em;
+		height: 1.2em;
+	}
+
+	#header nav ul li a span {
+		display: none;
+	}
+
+	#header nav ul li {
+		width: 33.333%;
+	}
+
+	#header nav ul li a span {
+		display: none;
+	}
+
+	.contents .section#overview>h2,
+	.contents .section#program>h2,
+	.contents .section#entry>h2 {
+		width: 6em;
+		margin-top: 0.5em;
+		padding-left: 1em;
+	}
+}
+
+
+/* =====================================================
+   max-width: 836px
+===================================================== */
+@media screen and (max-width: 836px) {
+	#header nav ul li:first-child{
+		border-left: 0px!important;
+	}
+	#header nav ul li:last-child{
+		border-right: 0px!important;
+	}
+}
+
+/* =====================================================
+   max-width: 767px
+===================================================== */
+@media screen and (max-width: 767px) {
+	.contents br.sp {
+		display: block;
+	}
+
+	#header img {
+		max-width: 100%;
+		height: auto;
+		width: auto;
+	}
+
+	.contents .section>h2+div {
+		width: 100%;
+	}
+
+	#header h1 {}
+
+	.program-annotation-panel-body {
+		font-size: 0.9em;
+	}
+
+	/* =====================================================
+	   セクション基本形
+	===================================================== */
+	.contents {
+		padding: 1.5em 0 !important;
+	}
+
+	.contents .section {
+		margin-bottom: 2em;
+		padding: 0 0 0 0 !important;
+	}
+
+	/* =====================================================
+	   開催概要
+	===================================================== */
+	.contents div.overview {
+		margin: 1em;
+	}
+
+	/* dt */
+	.contents div.overview dt {
+		width: calc(100% - 1em);
+		padding: 0.5em 0 0.5em 1em !important;
+		display: block;
+		text-align: left;
+		font-size: 0.9em;
+	}
+
+	/* dd */
+	.contents div.overview dd {
+		width: calc(100% - 2em);
+		padding: 0.8em 1em 1em 1em;
+		font-size: 0.9em;
+		line-height: 1.6em;
+		display: block;
+	}
+
+	.contents div.overview dd ul li {
+		padding-right: 1.2em;
+	}
+
+	.contents div.overview dd ul+p.note {
+		margin-top: 1em;
+	}
+
+	.contents div.overview dd span.location {
+		margin: 0.5em 0;
+	}
+
+	.contents div.overview dd.date span {
+		font-size: 1.4em;
+		letter-spacing: -0.01em;
+	}
+
+	.contents div.overview dd.date .time {
+		margin: 0.5em 0 0 0;
+		font-size: 1em;
+	}
+
+	.contents div.overview dd .note {
+		margin: 0.5em 0;
+	}
+
+	/* =====================================================
+	   プログラム
+	===================================================== */
+	.contents div.program.col01 {
+		max-width: 836px;
+		padding-top: 1em;
+	}
+
+	.contents div.program.col01 dt.time {
+		width: 100%;
+	}
+
+	.contents div.program dd {
+		padding: 30px 30px 1em 30px;
+	}
+
+	.contents div.program dd h3 {
+		font-size: 1em;
+	}
+
+	.contents div.program dd h4 {
+		font-size: 1.1em;
+	}
+
+	.contents div.program dd div.speaker .speaker-text h5 {
+		font-size: 0.8em;
+	}
+
+	.contents div.program dd div.speaker {
+		width: 100%;
+		margin: 1.5em 0 0.5em 0;
+		float: none;
+		display: block;
+	}
+
+	.contents div.program dd .speakers div.speaker:nth-child(2n) {
+		margin: 1.5em 0 0.5em 0;
+	}
+
+	.contents div.program dd div.speaker .coposition {
+		width: 100%;
+		float: none;
+		display: block;
+		padding-left: 0;
+		font-size: 0.8em;
+	}
+
+	/* プログラム - float */
+	.contents div.program dd .right {
+		float: none;
+		display: block;
+	}
+
+	.contents div.program dd .left {
+		float: none;
+		display: block;
+	}
+
+	/* プログラム - photo */
+	.contents div.program dd .photo {
+		display: block;
+		margin-top: 3px;
+		margin-bottom: 4px;
+		padding: 0 10px 0 15px;
+	}
+
+	.contents div.program dd div.speaker.spblright {
+		margin: 0 0 1em 0;
+	}
+
+	.contents div.program dd .button a {
+		font-size: 1em;
+	}
+
+	.contents div.program dd div.speaker.psn01 .button,
+	.contents div.program dd .detail-area .button {
+		width: 100%;
+	}
+
+	/* =====================================================
+	   注記用設定
+	===================================================== */
+	.contents section#program p.note:first-child {
+		padding-top: 0;
+	}
+
+	.contents section#program p.note {
+		font-size: 0.8em;
+	}
+
+	/* =====================================================
+	   申し込みボタン欄
+	===================================================== */
+	.contents #entry>div {
+		max-width: 836px;
+		padding: 40px 0 2em 0;
+	}
+
+	.viewing .program-annotation-panel {
+		width: auto;
+		max-width: 836px;
+		font-size: 0.8em;
+	}
+
+	#entry .annotation p {
+		font-size: 0.8em;
+	}
+
+	/* お申し込みボタン */
+	.contents #entry div.button a {
+		width: auto;
+		max-width: 836px;
+		padding: 1em 0.5em;
+		font-size: 1.2em;
+		margin: 1.5em auto 2em auto;
+	}
+
+	#entry .button p {
+		margin: 20px 0;
+		text-align: center;
+	}
+
+	.info ul li {
+		font-size: 0.8em;
+	}
+
+	/* =====================================================
+	   お問い合わせ
+	===================================================== */
+	.contents #inquiry div {
+		width: auto;
+		padding: 0 0 2em 0;
+	}
+
+	.contents #inquiry div div {
+		max-width: 836px;
+		padding: 3em 0;
+	}
+
+	.contents .section#inquiry>h2+div {
+		padding-top: 2em;
+	}
+
+	.contents #inquiry p span {
+		margin-left: 0;
+		display: block;
+	}
+
+	.contents #inquiry a.button {
+		width: 80%;
+		display: block;
+		padding: 0.5em;
+		font-size: 1.2em;
+		font-weight: bold;
+		background: #000;
+		color: #fff;
+		margin: 0 auto;
+		text-decoration: none;
+		border-radius: 0.3em;
+		filter: drop-shadow(0 3px 3px rgba(0, 0, 0, .2))
+	}
+}
+
+/* =====================================================
+   max-width: 680px
+===================================================== */
+@media screen and (max-width: 680px) {
+
+	/* =====================================================
+	   日時会場情報
+	===================================================== */
+	.date-info .date-inner {
+		max-width: 836px;
+		display: block;
+	}
+
+	.date-info .date-inner div {
+		font-size: 0.8em;
+		max-width: 836px;
+		margin: 0 auto 1em auto;
+	}
+
+	.date-info p.didate {
+		font-size: 1.2em;
+		display: block;
+	}
+
+	.date-info p.didate span {
+		font-size: 1.2em;
+	}
+
+	.date-info p.didate span.diweek {
+		font-size: 1.2em;
+	}
+
+	.date-info p.divenue {
+		font-size: 0.9em;
+		line-height: 1.5em;
+		display: block;
+		margin-top: -0.5em;
+	}
+
+	.date-info dl {
+		max-width: 836px;
+		margin: 0 auto 0 0;
+		text-align: center;
+	}
+
+	.date-info dt {
+		width: 8em;
+		padding: 0.6em;
+		font-size: 0.7em;
+		color: #fff;
+		margin: 0 0 0.5em 0;
+		border: 1px solid #fff;
+		line-height: 1em;
+		flex-wrap: wrap;
+	}
+
+	.date-info dd {
+		width: 100%;
+		text-align: left;
+		color: #fff;
+		font-size: 0.8em;
+		font-weight: bold;
+		letter-spacing: 0.1em;
+		margin: 0 0 0 0;
+		padding-left: 1em;
+		flex-wrap: wrap;
+	}
+
+	.date-info dd span.difee {
+		font-size: 1.6em;
+		padding: 0;
+		color: #fff;
+	}
+
+	.date-info dl {
+		display: flex;
+	}
+
+	.date-info dt {
+		width: 8em;
+		line-height: 1em;
+		padding: 0.6em;
+		flex-wrap: wrap;
+	}
+
+	.date-info dd {
+		margin: 0 0 0 0;
+		text-align: left;
+		padding-left: 1em;
+		flex-wrap: wrap;
+	}
+
+	.date-info dd span.difee {
+		font-size: 1.6em;
+		padding: 0;
+		color: #fff;
+	}
+
+	.contents br.sp {
+		display: block;
+	}
+
+	.contents .note,
+	.mfp-content .detail .note {
+		margin: 10px 0px;
+	}
+
+	/* ポップアップ用 */
+	.mfp-inline-holder .mfp-content,
+	.mfp-ajax-holder .mfp-content {
+		width: 92%;
+	}
+
+	.mfp-content .detail p {}
+
+	.mfp-content .detail .seminar-title {
+		padding-left: 3%;
+	}
+
+	.mfp-content .detail .pad {
+		padding: 0.5em 30px 0.5em 30px;
+	}
+
+	.mfp-content .detail .property {
+		margin: 10px -3px 15px -3px;
+		padding: 7px 3%;
+	}
+
+	.mfp-content .detail .shoulder {
+		padding-left: 0;
+	}
+
+	.mfp-content .detail .title {
+		font-size: 1em;
+	}
+
+	.mfp-content .detail .speaker {}
+
+	.mfp-content .detail .speaker p:last-child,
+	.mfp-content .detail .speaker li:last-child {
+		margin-bottom: 0;
+	}
+
+	.mfp-content .detail .note {
+		padding-left: 1em;
+	}
+
+	.mfp-content .detail .summary {}
+
+	.mfp-content .detail .profile {}
+
+	.mfp-content .detail .photo {
+		padding: 0 20px 0 0;
+		margin-bottom: 10px;
+		max-width: 100px;
+	}
+
+	.mfp-content .detail .photo.right {
+		padding: 4px 10px 0 15px !important;
+	}
+
+	.mfp-content .detail .photo.left {
+		padding: 0 15px 0 5px !important;
+	}
+}
+
+/* =====================================================
+   max-width: 480px
+===================================================== */
+@media screen and (max-width: 480px) {
+
+	/* =====================================================
+		   リード
+		===================================================== */
+	.lead {
+		max-width: 836px;
+		margin: 2em auto;
+		padding: 0 1em 0 1em;
+	}
+
+	.lead p {
+		font-size: 1.1em;
+	}
+
+	.lead p.catch {
+		font-size: 1.1em;
+	}
+
+	.lead p br.sp {
+		display: block;
+	}
+
+	.contents .section#overview>h2,
+	.contents .section#program>h2,
+	.contents .section#entry>h2,
+	.contents .section#inquiry>h2 {
+		max-width: 480px;
+		font-size: 1.5em;
+	}
+
+	/* =====================================================
+	   開催概要
+	===================================================== */
+	.contents div.overview dt {
+		padding: 10px 5px 10px 0;
+	}
+
+	.contents div.overview div.sponsor ul.sponsor-list li,
+	.contents div.overview dd ul li {
+		width: 28%;
+		height: auto;
+		display: inline-flex;
+		margin: 0.2em;
+	}
+
+	.contents div.overview div.sponsor ul.sponsor-list li img,
+	.contents div.overview dd ul li img {
+		width: 100%;
+		height: 100%;
+	}
+
+	.contents .section>h2+div {
+		padding-top: 2em;
+	}
+
+	/* =====================================================
+	   プログラムテーブル
+	===================================================== */
+	.contents div.program dd .photo {
+		padding: 0 0 0 0;
+	}
+
+	.contents div.program dd .photo.right {
+		padding: 0 0 0 15px !important;
+	}
+
+	.contents div.program dd .photo.left {
+		padding: 0 10px 0 0 !important;
+	}
+
+	/* プログラム - speaker */
+	.contents div.program dd .speakers {
+		margin-bottom: 0;
+	}
+
+	.contents div.program dd div.speaker .speaker-inner {
+		display: block;
+	}
+
+	.contents div.program dd div.speaker .speaker-text {
+		margin: 0 0 5px 0;
+	}
+
+	.contents div.program dd .speaker span.name {
+		font-size: 1.3em;
+	}
+
+	.contents div.program dd .button {
+		margin: 5px 0 13px 0px;
+	}
+
+	.contents div.program ul.panelist {}
+
+	.contents div.program ul.panelist li,
+	.mfp-content .detail ul.panelist li {
+		width: 100%;
+		margin: 0 0 10px 0;
+	}
+
+	.contents div.program ul.panelist li:nth-child(2n),
+	.mfp-content .detail ul.panelist li:nth-child(2n) {
+		margin: 0 0 10px 0;
+	}
+
+	.contents div.program ul.panelist li:last-child,
+	.mfp-content .detail ul.panelist li:last-child {
+		margin: 0;
+		padding-bottom: 0;
+	}
+
+	.mfp-content .detail .pad {
+		padding: 30px;
+	}
+
+	.mfp-content .detail .property {
+		padding: 7px 4%;
+	}
+
+	.mfp-content .detail .shoulder {
+		font-size: 1em;
+	}
+
+	.mfp-content .detail .title {
+		font-size: 1em;
+	}
+
+	.mfp-content .detail .speaker-inner {
+		display: block;
+	}
+
+	/* =====================================================
+	   申し込みボタン欄
+	===================================================== */
+	#entry .annotation {
+		width: auto;
+		max-width: 420px;
+		margin: 0 auto;
+		padding: 1.5em;
+	}
+
+	.contents #entry>div {
+		max-width: 836px;
+		display: block;
+		margin: 0 auto;
+		padding: 2em 0;
+	}
+
+	/* お申し込みボタン */
+	.contents #entry div.button a {
+		margin: 1.5em auto;
+		font-size: 1.2em;
+	}
+
+	.info h5 {
+		margin: 2em auto 0.5em;
+		font-size: 1em;
+		padding: 0 1em;
+	}
+
+	.info ul {
+		padding: 0.25em 1em 0.5em 1em;
+	}
+
+	/* =====================================================
+	   お問い合わせ
+	===================================================== */
+	.contents #inquiry div {
+		width: auto;
+		padding: 0 0 2em 0;
+	}
+
+	.contents #inquiry div div {
+		max-width: 836px;
+		padding: 40px 30px;
+	}
+
+	.contents #inquiry p {
+		margin-bottom: 1.5em;
+		font-size: 0.8em;
+	}
+
+	.contents #inquiry a.button {
+		width: auto;
+		padding: 0.5em;
+		font-size: 0.9em;
+	}
+
+	/* =====================================================
+	   受付終了欄
+	===================================================== */
+	.entry-close {
+		padding: 1em;
+	}
+
+	.entry-close p {
+		color: #f00000;
+		font-size: 0.8em;
+	}
+
+	.entry-close br.sp {
+		display: block;
+	}
+
+	/* ポップアップ用 */
+	.mfp-content {
+		font-size: 80%;
+	}
+
+	/* footer LOGO */
+	#footer {
+		padding: 0.8em 0;
+	}
+
+	#footer img {
+		width: 40%;
+		display: block;
+		margin: 0.5em auto 0 auto;
+		vertical-align: middle;
+	}
+
+	#footer p:nth-child(2) {
+		margin-top: 0.4em;
+		margin-bottom: 0.4em;
+	}
+}
+
+/* =====================================================
+   max-width: 362px
+===================================================== */
+@media screen and (max-width: 362px) {
+	.date-info dt {
+		width: 6em;
+		padding: 0.6em;
+	}
+
+	.date-info dd {
+		font-size: 0.7em;
+		padding-left: 1em;
+		font-weight: normal;
+	}
+
+	.date-info dd span.difee {
+		font-size: 1.6em;
+		font-weight: bold;
+	}
+}

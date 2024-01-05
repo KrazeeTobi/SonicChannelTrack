@@ -1,0 +1,2015 @@
+@charset "utf-8";
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {
+	margin: 0;
+	padding: 0;
+}
+
+section, article, aside, nav, header, footer, hgroup, details, figcaption, figure, menu {
+	display: block;
+}
+
+a {
+	outline: none;
+	word-break: break-all;
+}
+
+img {
+	border: 0;
+}
+
+body {
+	font-family: -apple-system, Helvetica Neue, Segoe UI, Hiragino Kaku Gothic ProN, Hiragino Sans, ヒラギノ角ゴ ProN W3, Arial, メイリオ, Meiryo, sans-serif;
+	font-size: 14px;
+	line-height: 1.4;
+	color: #575757;
+	letter-spacing: 0.04em;
+	-webkit-text-size-adjust: 100%;
+	font-weight: 400;
+}
+
+.wrapper {
+	background-color: transparent;
+}
+
+
+/* =====================================================
+   ヘッダー
+===================================================== */
+#header {
+	margin: 0;
+	padding: 0;
+}
+
+#header nav {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	height: 28px;
+	overflow: hidden;
+	background: #015abf;
+	color: #fff;
+	text-align: center;
+	box-shadow: 0px 2px 5px 2px rgba(0, 0, 0, 0.1);
+	position: fixed;
+	z-index: 1000;
+}
+
+#header nav ul {
+	width: 100%;
+	max-width: 836px;
+	margin: 0 auto;
+	height: 2em;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+
+#header nav ul li {
+	list-style: none;
+	width: 33.333%;
+	height: 2em;
+	margin: 0 0 0 0;
+	padding: 0.2em 2em 0 2em;
+	border-left: 1px solid #fff;
+	border-right: 1px solid #fff;
+	display: table-cell;
+}
+
+#header nav ul li a {
+	display: block;
+	text-decoration: none;
+}
+
+#header nav ul li.hloverview a::before {
+	content: "";
+	display: inline-block;
+	width: 1em;
+	height: 1em;
+	padding-right: 0.4em;
+	margin-bottom: -0.2em;
+	background: url(list_w.svg) no-repeat;
+	background-size: contain;
+}
+
+#header nav ul li.hlprogram a::before {
+	content: "";
+	display: inline-block;
+	width: 1em;
+	height: 1em;
+	padding-right: 0.4em;
+	margin-bottom: -0.2em;
+	background: url(clock_w.svg) no-repeat;
+	background-size: contain;
+}
+
+#header nav ul li.hlentry a::before {
+	content: "";
+	display: inline-block;
+	width: 1em;
+	height: 1em;
+	padding-right: 0.4em;
+	margin-bottom: -0.2em;
+	background: url(edit_w.svg) no-repeat;
+	background-size: contain;
+}
+
+#header nav ul li a:link {
+	color: #fff;
+}
+
+#header nav ul li a:visited {
+	color: #fff;
+}
+
+#header nav ul li a:hover {
+	color: #fff;
+}
+
+#header nav ul li:first-child {
+	border-left: 2px solid #fff;
+}
+
+#header nav ul li:last-child {
+	border-right: 2px solid #fff;
+}
+
+#header h1 {
+	max-width: 836px;
+	margin: 0 auto;
+}
+
+#header p {
+	/*色設定欄参照
+	background:#e6e6e6 url(bg_header.png) repeat-x;
+	border-top:1px solid #d0d0d1;
+	border-bottom:1px solid #d0d0d1;
+	*/
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+#header img {
+	vertical-align: bottom;
+	max-width: 836px;
+	height: auto;
+}
+
+/* 画像版h1用 */
+#header.image {
+	/*色設定欄参照
+	border-top: 7px solid #00599f;
+	background:#e6e6e6 url(bg_header.png) repeat-x;
+	*/
+}
+
+#header.image h1 {
+	padding: 28px 0 0 0;
+}
+
+/* =====================================================
+   日時会場情報
+===================================================== */
+.date-info {
+	text-align: center;
+
+	padding: 1em;
+	background: #015abf;
+}
+
+.date-info .date-inner{
+	width: 100%;
+	max-width: 836px;
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
+}
+
+.date-info .date-inner div {
+	width: auto;
+	max-width: 670px;
+	margin: 0 4em 0 0;
+	text-align: left;
+}
+
+.date-info p.didate {
+	color: #fff;
+	font-size: 1.4em;
+	font-weight: bold;
+	margin: 0.2em 0 0.6em 0;
+	letter-spacing: -0.02em;
+}
+
+.date-info p.didate span {
+	font-size: 1.4em;
+	letter-spacing: 1px;
+	display: inline-block;
+}
+
+.date-info p.didate span.diweek {
+	font-size: 1.2em;
+	margin-left: -0.3em;
+}
+
+.date-info p.divenue {
+	color: #fff;
+	font-size: 1.2em;
+}
+
+.date-info .date-inner dl {
+	/*width: auto;*/
+	max-width: 836px;
+	/*margin: 0 auto 0 0;*/
+	text-align: center;
+}
+
+.date-info dt {
+	width: calc(100% - 1.1em);
+	padding: 0.5em;
+	color: #fff;
+	margin: 0.4em 0 0.5em 0;
+	border: 2px solid #FFF;
+}
+
+.date-info dd {
+	width: 100%;
+	text-align: center;
+	color: #fff;
+	font-size: 1.1em;
+	font-weight: bold;
+	letter-spacing: 0.1em;
+}
+
+.date-info dd span.difee {
+	font-size: 1.8em;
+	padding: 0;
+	color: #fff;
+}
+
+/* =====================================================
+   リード
+===================================================== */
+.lead {
+	max-width: 836px;
+	margin: 40px auto;
+	padding: 0;
+}
+
+.lead p.catch {
+	text-align: center;
+	font-size: 1.8em;
+	font-weight: bold;
+	line-height: 1.4;
+	margin-bottom: 1.2em;
+}
+
+.lead p {
+	font-size: 1.1em;
+	line-height: 1.8;
+	margin-bottom: 2em;
+}
+
+.lead p:last-child {
+	margin-bottom: 0;
+}
+
+.lead br.sp {
+	display: none;
+}
+
+/* =====================================================
+   セクション基本形
+===================================================== */
+.contents {
+	background: #ededed;
+	/*色設定欄参照*/
+	max-width: 836px;
+	margin: 0 auto;
+	/*padding: 30px 0;*/
+	padding: 0 0;
+}
+
+.contents br.sp {
+	display: none;
+}
+
+.contents .section {
+	background-color: transparent;
+	max-width: 836px;
+	margin: 0 auto;
+	/*padding: 1.5em 0 3em 0;*/
+	padding: 1em 0 1em 0;
+}
+
+.contents .section:last-child {
+	padding: 1em 0 5em 0;
+}
+
+.contents .section>h2 {
+	text-align: center;
+	font-size: 2.2em;
+	padding: 0.5em 0;
+	line-height: 1em;
+	margin: 0 auto;
+	color: #3d3d3d;
+	/*色設定欄参照*/
+}
+
+.contents .section>h2+div {
+	max-width: 836px;
+	margin: 0 auto;
+	padding-top: 1.5em;
+}
+
+.contents .section>h3 {
+	font-size: 1.2em;
+	padding: 0 0 5px 0;
+	margin: 10px 0 10px 0;
+	border-bottom: 1px dotted #dbdbdb;
+	/*色設定欄参照*/
+}
+
+.contents .section>.pad {
+	padding: 0;
+}
+
+.contents .section p {
+	line-height: 1.5;
+}
+
+/* =====================================================
+   開催概要
+===================================================== */
+.contents div.overview {
+	width: auto;
+	height: 100%;
+	margin: 40px;
+	border-collapse: collapse;
+	line-height: 2em;
+}
+
+.contents div.overview.col01 dl,
+.contents div.overview.col01 .sponsor {
+	max-width: 836px;
+	margin: 0 auto;
+}
+
+/* dl */
+.contents div.overview dl {
+	width: 100%;
+	border-bottom: 1px solid #dbdbdb;
+	clear: both;
+	margin: 0 auto;
+	display: table;
+}
+
+.contents div.overview dl:first-child {
+	border-top: 1px solid #dbdbdb;
+}
+
+.contents div.overview div.sponsor+dl {
+	border-top: 1px solid #dbdbdb;
+}
+
+/* dt */
+.contents div.overview dt {
+	width: 10em;
+	height: 100%;
+	font-size: 1.2em;
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+	color: #fff;
+	font-weight: bold;
+}
+
+/* dd */
+.contents div.overview dd {
+	width: auto;
+	height: 100%;
+	vertical-align: middle;
+	padding: 1em;
+	font-size: 1.2em;
+	display: table-cell;
+}
+
+.contents div.overview dd p {
+	margin: 0.5em 0;
+}
+
+.contents div.overview dd ul li {
+	list-style: none;
+	display: inline-block;
+}
+
+.contents div.overview dd ul+p.note {
+	margin-top: 1.5em;
+}
+
+.contents div.overview dd span.location {
+	display: block;
+	margin: 0.5em 0;
+}
+
+.contents div.overview dd.date span {
+	font-size: 1.4em;
+	font-weight: bold;
+	letter-spacing: -0.01em;
+}
+
+.contents div.overview dd.date .time {
+	margin: 0.5em 0 0 0;
+	font-size: 0.9em;
+}
+
+.contents div.overview dd span {
+	display: inline-block;
+}
+
+.contents div.overview dd .note {
+	display: block;
+	margin: 0.5em 0;
+	padding-left: 1em;
+	text-indent: -1em;
+	font-size: 84%;
+}
+
+.contents div.sponsor {
+	width: calc(100% - 3em);
+	margin: 0 auto;
+	display: block;
+	text-align: center;
+	padding: 1.5em;
+}
+
+.contents ul.sponsor-list {
+	display: flex;
+	justify-content: center;
+	align-content: flex-start;
+	flex-wrap: wrap;
+}
+
+.contents div.overview dd ul.sponsor-list{/* 開催概要dd内の時左揃え*/
+	display: flex;
+	justify-content: flex-start;
+	margin-top: 10px;
+}
+
+.contents ul.sponsor-list li {
+	width: auto;
+	text-align: center;
+	list-style: none;
+	padding: 0 0.5em;
+}
+
+.contents ul.sponsor-list li img {
+	/*max-height: 140px*/
+	max-height: 100px;
+}
+
+/* =====================================================
+   プログラム
+===================================================== */
+.contents div.program {
+	width: 100%;
+	height: 100%;
+	margin: 2.8em 0 0 0;
+	/*border-collapse:collapse;*/
+	border-collapse: separate;
+	border-spacing: 0;
+	table-layout: fixed;
+	/*一部環境で不具合あり。autoがよいかも*/
+}
+
+.contents div.program.col01 {
+	max-width: 836px;
+	margin: 0 auto;
+}
+
+/* dl */
+/*.contents div.program tr*/
+.contents div.program dl {
+	margin-bottom: 40px;
+}
+
+.contents div.program dl:last-child {
+	margin-bottom: 0;
+}
+
+.contents div.program dt,
+.contents div.program dd {
+	/*border-bottom: 1px dotted #dbdbdb;*/
+}
+
+/* dt */
+.contents div.program dt {
+	width: auto;
+	height: auto;
+	text-align: center;
+	/*padding: 0 0 1.4em 0;*/
+	padding: 0 0 .5em 0;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+.contents div.program dt.time {
+	width: 100%;
+}
+
+.contents div.program dt>div {
+	display: table;
+	width: 100%;
+	height: 100%;
+	border-radius: 1.2em;
+	box-shadow: 0px 2px 5px 2px rgba(0, 0, 0, 0.1);
+	/*色設定欄参照*/
+}
+
+.contents div.program dt>div>span {
+	display: table-cell;
+	width: 100%;
+	height: 100%;
+	vertical-align: middle;
+	padding: 0.5em 0;
+	color: #fff;
+	/*色設定欄参照*/
+}
+
+.contents div.program dt>div>span::before {
+	content: "";
+	display: inline-block;
+	width: 1em;
+	height: 1em;
+	background: url(clock_w.svg) no-repeat;
+	background-size: contain;
+	margin-right: 0.4em;
+	margin-bottom: -0.1em;
+}
+
+/* dd */
+.contents div.program dd {
+	vertical-align: top;
+	overflow: hidden;
+	border: 1px solid #dbdbdb;
+	/*padding: 40px 40px 40px 40px;*/
+	padding: 10px 40px 10px 40px;
+	box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.1);
+}
+
+.contents div.program dd.break {
+	/*padding: 20px 40px 20px 40px;*/
+	padding: 10px 40px 10px 40px;
+}
+
+.contents div.program dd section {
+	margin-top: 10px;
+}
+
+.contents div.program dd section:after,
+.contents div.program dd div:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+/* プログラム - h3 */
+.contents div.program dd h3 {
+	margin: 0.5em 0 20px 0;
+	padding: 0 0 0.8em 0;
+	border-bottom: 1px solid #000;
+	font-size: 1.2em;
+}
+
+.contents div.program dd h3.noline {
+	border-bottom: none;
+	padding-bottom: 0;
+}
+
+.contents div.program dd h3.nobody {
+	border-bottom: none;
+	margin-top: 12px;
+	padding-bottom: 0;
+}
+
+/* プログラム - property (input / status / label / text) */
+.contents div.program dd .property {
+	margin-bottom: 5px;
+	line-height: 26px;
+	font-weight: bold;
+}
+
+.contents div.program dd input {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	margin-right: 5px;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.contents div.program dd .status {
+	display: inline-block;
+	color: #f22;
+	font-weight: bold;
+}
+
+.contents div.program dd span.label {
+	font-size: 1em;
+}
+
+.contents div.program dd span.text {
+	font-size: 1em;
+}
+
+/* プログラム - h4 */
+.contents div.program dd h4 {
+	font-size: 1.4em;
+	padding-top: 0.5em;
+	color: #333;
+}
+
+.contents div.program dd h4::after {
+	width: 100%;
+	display: block;
+	content: "";
+	margin: 0;
+	padding: 0 0 0.5em 0;
+	height: 1px;
+	border-bottom: solid 1px #ddd;
+}
+
+.contents div.program dd h4.nobody {
+	margin-top: 10px;
+}
+
+.contents div.program dd h4 span {
+	font-size: 90%;
+}
+
+.contents div.program dd h4 .shoulder {
+	display: block;
+	margin: 0 0 0 0;
+	font-size: 0.9em;
+	line-height: 1.7em;
+	font-weight: normal;
+}
+
+.contents div.program dd h4 .subtitle {
+	display: block;
+	margin: 0.3em 0px;
+}
+
+/* プログラム - h5 */
+.contents div.program dd h5,
+.mfp-content .detail h5 {
+	font-size: 1.2em;
+	margin-bottom: 0.5em;
+}
+
+/* プログラム - p */
+.contents div.program dd p {
+	line-height: 1.6;
+	margin: 0.5em 0;
+	font-size: 1.4em;
+}
+
+.contents div.program dd ul {
+	margin: 6px 0 6px 0;
+	list-style-type: none;
+}
+
+/* プログラム - li */
+.contents div.program dd li {
+	margin: 0 0 4px 0;
+}
+
+/* プログラム - float */
+.contents div.program dd .right {
+	padding: 0 10px 0 15px !important;
+}
+
+.contents div.program dd .left {
+	padding: 0 15px 0 0 !important;
+}
+
+.contents div.program dd .nofloat {
+	padding: 0 !important;
+}
+
+/* プログラム - photo */
+.contents div.program dd .photo {}
+
+.contents div.program dd .photo img {}
+
+/* プログラム - summary */
+.contents div.program dd .summary {
+	margin: 10px 0;
+}
+
+/* プログラム - speaker */
+.contents div.program dd .speakers {
+	display: flex;
+	align-items: stretch;
+	flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	margin-bottom: 0;
+}
+
+.contents div.program dd div.speaker {
+	width: calc(50% - 20px);
+	margin: 1.5em 20px 0.5em 0;
+	font-size: 0.8em;
+	line-height: 1.4;
+	word-break: break-all;
+	display: flex;
+	align-items: stretch;
+	flex-direction: column;
+}
+
+.contents div.program dd.break .speaker {
+	margin: 0 20px 0 0;
+}
+
+.contents div.program dd .speakers div.speaker:nth-child(even) {
+	margin: 1.5em 0 0.5em 20px;
+}
+
+.contents div.program dd div.speaker.emptdata:nth-child(even) {
+	margin: 0.5em 0 0.5em 0;
+}
+
+.speaker-inner {
+	display: flex;
+	overflow: hidden;
+}
+
+.contents div.program dd div.speaker.psn01 {
+	width: 100%;
+}
+
+.contents div.program dd div.speaker .photo {
+	margin-bottom: 10px;
+}
+
+.contents div.program dd div.speaker .speaker-text {
+	margin: 0 0 5px 20px;
+}
+
+.contents div.program dd div.speaker.emptdata .speaker-text {
+	margin: 0 0 5px 0;
+}
+
+.contents div.program dd div.speaker p.coposition {
+	font-size: 1.1em;
+}
+
+.contents div.program dd .speaker span.name {
+	font-size: 1.4em;
+	font-weight: bold;
+	display: block;
+	padding-top: 0.4em;
+}
+
+.contents div.program dd.break .speaker span.name {
+	padding-top: 0;
+}
+
+/* プログラム - profile */
+.contents div.program dd .profile:before,
+.mfp-content .detail .profile:before {
+	display: block;
+	margin-bottom: 5px;
+	content: '《プロフィール》';
+	font-weight: bold;
+	color: #222;
+}
+
+/* プログラム - 詳細ボタン */
+.contents div.program dd .button {
+	width: 100%;
+	text-align: center;
+	font-size: 1.2em;
+	overflow: hidden;
+	margin: 0 auto 0;
+	margin-top: auto;
+}
+
+.contents div.program dd div.speaker.psn01 .button {
+	width: calc(50% - 20px);
+	margin-left: 0;
+}
+.contents div.program dd .detail-area{ /* 複数名の時の全体詳細ボタン */
+	width: 100%;
+	overflow: hidden;
+}
+.contents div.program dd .detail-area .button{
+	width: calc(50% - 20px);
+	margin-left: 0;
+}
+.contents div.program dd .detail-area .button a{
+	font-size: 0.8em;
+}
+
+.contents div.program dd .button a {
+	width: auto;
+	display: block;
+	text-decoration: none !important;
+	padding: 0.5em;
+	border: 2px solid #000;
+	border-radius: 0.25em;
+	font-weight: bold;
+	background: #fff;
+	filter: drop-shadow(0 3px 3px rgba(0, 0, 0, .1))
+}
+
+.contents div.program dd .button .notice {
+	display: inline-block;
+	float: right;
+	font-weight: normal;
+}
+
+.contents div.program dd .popup {
+	display: inline-block;
+	padding: 0 0;
+}
+
+.contents div.program dd .popup img {
+	vertical-align: middle;
+}
+
+/* プログラム - パネルディスカッション */
+.contents div.program {}
+
+.contents div.program ul.panelist,
+.mfp-content .detail ul.panelist {
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	list-style-type: none;
+	overflow: hidden;
+}
+
+.contents div.program ul.panelist li,
+.mfp-content .detail ul.panelist li {
+	width: 125px;
+	float: left;
+	margin: 4px 15px 0 0;
+	padding-bottom: 3px;
+}
+
+.contents div.program ul.panelist li p,
+.mfp-content .detail ul.panelist li p {
+	margin: 3px 0;
+}
+
+.contents div.program ul.panelist li p.photo,
+.mfp-content .detail ul.panelist li p.photo {
+	float: none;
+	margin: 0 0 8px 0;
+	padding: 0;
+}
+
+.contents div.program ul.panelist li p.photo img,
+.mfp-content .detail ul.panelist li p.photo img,
+.contents div.program .moderator p.photo img,
+.mfp-content .detail .moderator p.photo img {
+	margin-bottom: 0;
+	vertical-align: bottom;
+}
+
+/* プログラム - 2カラム時の左線（.borderLはjsで自動付加する） */
+.contents div.program dd.borderL {
+	border-left: 1px dotted #DBDBDB;
+	padding-left: 15px;
+}
+
+.contents div.program dd.noborder {
+	border-left: none !important;
+	padding-left: 0 !important;
+}
+
+/* =====================================================
+   label用設定
+===================================================== */
+/* span */
+span.label {
+	display: inline-block;
+	margin: 3px 5px 3px 0;
+	padding: 1px 10px;
+	font-weight: bold;
+	line-height: 1.5;
+	/*色設定欄参照*/
+}
+
+span.label.A {
+	/*色設定欄参照*/
+}
+
+span.label.B {
+	/*色設定欄参照*/
+}
+
+span.label.C {
+	/*色設定欄参照*/
+}
+
+/* dt */
+.contents div dt.label {
+	padding: 10px;
+}
+
+.contents div dt.label div {
+	box-sizing: border-box;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.contents div dt.label.A div {
+	/*色設定欄参照*/
+}
+
+.contents div dt.label.B div {
+	/*色設定欄参照*/
+}
+
+.contents div dt.label.C div {
+	/*色設定欄参照*/
+}
+
+/* =====================================================
+   注記用設定
+===================================================== */
+/* ※注意書き */
+.contents .note,
+.mfp-content .detail .note {
+	margin: 10px 10px;
+	padding-bottom: 0px;
+	font-size: 90%;
+	line-height: 1.5;
+	color: #666;
+	padding-left: 1em;
+	text-indent: -1em;
+}
+
+.contents section#program p+dl {
+	/*margin-top: 40px;*/
+	margin-top: 20px;
+}
+
+.contents .note strong,
+.mfp-content .detail .note strong {
+	font-weight: normal;
+	color: #ef0000;
+}
+
+/* プログラム下部用の注記（ul.program-notes） */
+.contents .program-notes {
+	margin: 10px 0;
+	padding: 10px 10px;
+	border-top: dashed 1px #dbdbdb;
+	border-bottom: dashed 1px #dbdbdb;
+	list-style-type: none;
+}
+
+.contents .program-notes li {
+	margin: 2px 0;
+	font-size: 90%;
+	line-height: 1.5;
+	color: #333;
+	padding-left: 1em;
+	text-indent: -1em;
+}
+
+/* ご希望の講演を選択してください。 */
+.contents .attention {
+	margin: 20px 10px;
+	color: #ff0000;
+}
+
+/* =====================================================
+   申し込みボタン欄
+===================================================== */
+/* お申し込み注意事項 */
+#entry .annotation {
+	max-width: 836px;
+	background-color: #f7f7f7;
+	border: 2px solid;
+	/*色設定欄参照*/
+	margin: 0 auto 2em auto;
+	padding: 1.5em;
+}
+
+#entry .annotation p {
+	font-size: 90%;
+	line-height: 1.7;
+	text-align: left;
+}
+
+/* お申し込みボタン */
+.contents #entry div.button input[type="submit"] {
+	width: 100%;
+	max-width: 836px;
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	padding: 1em 0;
+	font-size: 1.8em;
+	font-weight: bold;
+	background: #000c66;
+	/*色設定欄参照*/
+	color: #fff;
+	margin: 0 auto;
+	text-decoration: none;
+	border-radius: 0.3em;
+	filter: drop-shadow(0 3px 3px rgba(0, 0, 0, .2));
+	cursor: pointer;
+	font-family: -apple-system, Helvetica Neue, Segoe UI, Hiragino Kaku Gothic ProN, Hiragino Sans, ヒラギノ角ゴ ProN W3, Arial, メイリオ, Meiryo, sans-serif;
+}
+
+.contents #entry div.button input[type="submit"].disable{
+	position: relative;
+	background: #999;
+	pointer-events : none;
+	font-family: -apple-system, Helvetica Neue, Segoe UI, Hiragino Kaku Gothic ProN, Hiragino Sans, ヒラギノ角ゴ ProN W3, Arial, メイリオ, Meiryo, sans-serif;
+}
+
+.contents #entry div.button input[type="submit"].disable::after{
+	position: absolute;
+	bottom: 30px;
+	content: "選択してください";
+	font-size: 30px;
+	color: #f00;
+	font-family: -apple-system, Helvetica Neue, Segoe UI, Hiragino Kaku Gothic ProN, Hiragino Sans, ヒラギノ角ゴ ProN W3, Arial, メイリオ, Meiryo, sans-serif;
+}
+
+#entry .button p {
+	margin: 20px 0;
+	text-align: center;
+}
+
+#entry .button input,
+#entry .button img {
+	vertical-align: bottom;
+}
+
+#entry .button img:hover,
+#entry .button input:hover {
+	opacity: 0.8;
+}
+
+/* お申し込みボタン - entry - */
+#entry .button ul li.entry {}
+
+#entry .button ul li.entry.disable {
+	height: 86px;
+	background: url(btn_entry_disable.html) center top no-repeat;
+}
+
+#entry .button ul li.entry.disable input {
+	display: none;
+}
+
+/* お申し込みボタン - nid - */
+#entry .button ul li.nid {}
+
+/* お申し込みボタン - clear - */
+#entry .button p.clear {
+	margin-top: 20px;
+	display: none;
+}
+
+.info h5 {
+	max-width: 836px;
+	margin: 3em auto 0.5em;
+	font-size: 1.2em;
+	display: block;
+	padding: 0 2em;
+}
+
+.info ul {
+	max-width: 836px;
+	margin: 0 auto;
+	padding: 0.5em 2em 0 2em;
+	font-size: 1em;
+	display: block;
+}
+
+.info ul li {
+	list-style: none;
+	line-height: 1.7;
+	padding-bottom: 0.5em;
+}
+
+.info ul li:last-child {
+	padding-bottom: 0;
+}
+
+/* =====================================================
+   受付終了欄
+===================================================== */
+.entry-close {
+	text-align: center;
+	margin: 0 auto;
+	padding: 2em;
+	background: #fff0f3;
+}
+
+.entry-close p {
+	color: #f00000;
+	font-size: 1.2em;
+}
+
+.entry-close p.to-index {
+	margin-top: 10px;
+	line-height: 20px;
+}
+
+.entry-close br.sp {
+	display: none;
+}
+
+/* =====================================================
+   お問い合わせ
+===================================================== */
+.contents #inquiry div div {
+	max-width: 836px;
+	display: block;
+	margin: 0 auto;
+	padding: 4em;
+	text-align: center;
+	background: #f7f7f7;
+}
+
+.contents #inquiry p {
+	margin-bottom: 1.5em;
+	font-size: 1.3em;
+}
+
+.contents #inquiry p span {
+	margin-left: 1em;
+}
+
+.contents #inquiry a.button {
+	width: 418px;
+	display: block;
+	padding: 0.5em;
+	font-size: 1.2em;
+	font-weight: bold;
+	background: #000;
+	color: #fff;
+	margin: 0 auto;
+	text-decoration: none;
+	border-radius: 0.3em;
+	filter: drop-shadow(0 3px 3px rgba(0, 0, 0, .2))
+}
+
+/* =====================================================
+   フッター
+===================================================== */
+#footer {
+	border-top: 3px solid;
+	/*色設定欄参照*/
+	padding: 30px;
+}
+
+#footer p {
+	font-size: 90%;
+	text-align: center;
+}
+
+#footer img {
+	margin: 0 20px;
+	vertical-align: middle;
+}
+
+#footer p:nth-child(2) {
+	margin-top: 1.2em;
+}
+
+/* =====================================================
+   その他の要素
+===================================================== */
+/* 汎用ボックス */
+.contents .box {
+	border: #ccc dotted 2px;
+	padding: 10px 20px;
+	margin: 20px 0px;
+}
+
+/* =====================================================
+   臨時スタイル
+===================================================== */
+.clearfix:after {
+	display: block;
+	clear: both;
+	content: "";
+}
+
+.red {
+	color: #ff0000 !important;
+}
+
+.center {
+	text-align: center !important;
+}
+
+.right {
+	float: right !important;
+}
+
+.left {
+	float: left !important;
+}
+
+.nofloat {
+	float: none !important;
+}
+
+.mt0 {
+	margin-top: 0 !important;
+}
+
+.mt10 {
+	margin-top: 10px !important;
+}
+
+.mt20 {
+	margin-top: 20px !important;
+}
+
+.mt30 {
+	margin-top: 30px !important;
+}
+
+.mr0 {
+	margin-right: 0 !important;
+}
+
+.mr10 {
+	margin-right: 10px !important;
+}
+
+.mr20 {
+	margin-right: 20px !important;
+}
+
+.mr30 {
+	margin-right: 30px !important;
+}
+
+.mb0 {
+	margin-bottom: 0 !important;
+}
+
+.mb10 {
+	margin-bottom: 10px !important;
+}
+
+.mb20 {
+	margin-bottom: 20px !important;
+}
+
+.mb30 {
+	margin-bottom: 30px !important;
+}
+
+.ml0 {
+	margin-left: 0 !important;
+}
+
+.ml10 {
+	margin-left: 10px !important;
+}
+
+.ml20 {
+	margin-left: 20px !important;
+}
+
+.ml30 {
+	margin-left: 30px !important;
+}
+
+.p00{
+	padding: 0 !important;
+}
+
+
+/* =====================================================
+   詳細ポップアップ（magnific-popup使用）
+===================================================== */
+.mfp-content .detail {
+	position: relative;
+	background: #fff;
+	max-width: 640px;
+	margin: 0 auto;
+	overflow: hidden;
+	border-radius: 3px;
+	padding-bottom: 1em;
+}
+
+.mfp-content .detail .popup,
+.mfp-content .detail input {
+	display: none !important;
+}
+
+.mfp-content .detail.mode0 button.mfp-close {
+	color: #bababa !important;
+}
+
+.mfp-content .detail div,
+.mfp-content .detail section {
+	overflow: hidden;
+}
+
+.mfp-content .detail p {
+	margin: 0.5em 0;
+	line-height: 1.5;
+	font-size: 1.1em;
+}
+
+.mfp-content .detail ul {
+	margin: 7px 0;
+}
+
+.mfp-content .detail li {
+	margin: 0 0 4px 0;
+}
+
+.mfp-content .detail .speaker .button+div {
+	margin-top: 1.5em;
+}
+
+.mfp-content .detail img {
+	vertical-align: bottom;
+}
+
+/* セミナータイトル（ヘッドの帯） */
+.mfp-content .detail .seminar-title {
+	margin: 0 !important;
+	padding: 10px 40px 10px 20px;
+	font-size: 90%;
+	line-height: 1.5;
+	background: #555;
+	/*色設定欄参照*/
+	color: rgba(255, 255, 255, 0.8);
+}
+
+.mfp-content .detail>.pad {
+	padding: 10px 27px 10px 27px;
+}
+
+/* property */
+.mfp-content .detail .property {
+	margin: 10px -7px 15px -7px;
+	padding: 10px 15px;
+	font-weight: bold;
+	line-height: 2em;
+	background: #ddd;
+	/*色設定欄参照*/
+}
+
+.mfp-content .detail .time {
+	margin-right: 10px;
+}
+
+.mfp-content .detail .status {
+	display: inline-block;
+	margin-right: 10px;
+	color: #f22;
+}
+
+.mfp-content .detail span.label {
+	margin: 4px 10px 4px 0;
+}
+
+/* shoulder = プログラム欄のh3相当 */
+.mfp-content .detail .shoulder,
+.mfp-content .detail p.shoulder {
+	margin: 0 0 0.5em 0;
+	padding-left: 0px;
+	padding: 1em 0 1em 0;
+	font-weight: bold;
+	line-height: 1.5;
+	border-bottom: 1px solid #000;
+	/*色設定欄参照*/
+}
+
+.mfp-content .detail span.shoulder {
+	color: #000;
+}
+
+.mfp-content .detail .shoulder.noline {
+	margin: 15px 0 0 0;
+	border-bottom: none;
+	padding-left: 0;
+	padding-bottom: 0;
+}
+
+/* title = プログラム欄のh4相当 */
+.mfp-content .detail .title {
+	margin: 10px 0 1.2em 0;
+	padding-bottom: 0.5em;
+	font-weight: bold;
+	line-height: 1.5;
+	font-size: 1.3em;
+	border-bottom: solid 1px #ddd;
+}
+
+.mfp-content .detail .title span {
+	font-size: 90%;
+}
+
+.mfp-content .detail .title .shoulder {
+	display: block;
+	padding: 0 0 0 0;
+	border: none;
+	font-weight: normal;
+}
+
+.mfp-content .detail .title .subtitle {
+	display: block;
+	margin-top: 0.2em;
+}
+
+.mfp-content .detail .title br.newline{
+	display: none;
+}
+
+/* photo */
+.mfp-content .detail .photo {
+	float: none;
+	padding: 0 20px 0 0;
+	margin: 0 0 10px 0;
+}
+
+.mfp-content .detail .photo.right {
+	float: right !important;
+	padding: 4px 10px 0 15px !important;
+}
+
+.mfp-content .detail .photo.left {
+	float: left !important;
+	padding: 0 15px 0 5px !important;
+	margin: 0 0 5px 0;
+}
+
+.mfp-content .detail .photo img {
+	width: auto;
+	height: auto;
+}
+
+/* speaker */
+.mfp-content .detail .speaker {
+	font-size: 0.8em;
+	line-height: 1.4;
+	margin: 0 0 1em 0;
+	padding: 0 0 0 0;
+	line-height: 1.45;
+	border-left: none;
+	/*色設定欄参照*/
+}
+
+.mfp-content .detail .speaker .name {
+	font-size: 1.4em;
+	font-weight: bold;
+	display: flex;
+	padding-top: 0.4em;
+}
+
+.mfp-content .detail .speaker ul {
+	margin-bottom: 0;
+	padding-bottom: 0;
+	list-style-type: none;
+}
+
+.mfp-content .detail .speaker li:last-child,
+.mfp-content .detail .speaker p:last-child {
+	margin-bottom: 0;
+}
+
+.mfp-content .detail .speaker .detail {
+	display: none;
+}
+
+/* note */
+.mfp-content .detail .note {
+	margin: 10px 5px;
+}
+
+.mfp-content .detail .note strong {}
+
+/* summary */
+.mfp-content .detail .summary {
+	clear: both;
+}
+
+/* profile */
+.mfp-content .detail .profile {
+	margin: 15px 0 10px 0;
+	line-height: 1.5;
+}
+
+/* =====================================================
+   オンラインセミナー　告知事項
+===================================================== */
+.lead .program-annotation-panel {
+	color: #ff0000;
+	background-color: #fff;
+	border: 1px solid #ff0000;
+	margin-top: 2em;
+}
+
+.lead .program-annotation-panel p {
+	color: #ff0000;
+	line-height: 1.7em;
+}
+
+.lead .program-annotation-panel p.note {
+	display: block;
+	margin: 1em 0 0 0;
+	padding-left: 1em;
+	text-indent: -1em;
+	font-size: 1.2em;
+	color: #555;
+	line-height: 1.6em;
+}
+
+.lead .program-annotation-panel p.note b {
+	color: #ff0000;
+	font-weight: bold;
+	font-size: 1.1em;
+	padding: 0 0.2em 0 0.2em;
+}
+
+.lead .program-annotation-panel-body p {
+	margin-bottom: 0;
+}
+
+.lead .program-annotation-panel-body p a {
+	color: #ff0000;
+	text-decoration: underline;
+}
+
+.program-annotation-panel-body p {
+	margin-bottom: 1em;
+}
+
+.program-annotation-panel-body ul,
+.program-annotation-panel-body ol {
+	padding-left: 2em;
+}
+
+.program-annotation-panel-body li {
+	padding-bottom: 1em;
+}
+
+.program-annotation-panel {
+	margin: 0 auto 2em auto;
+	padding: 1.5em;
+	background-color: #fffafa;
+	border: 1px solid #ffcccc;
+}
+
+.viewing .program-annotation-panel {
+	width: auto;
+	max-width: 836px;
+	background-color: #f7f7f7;
+	border: 1px solid #aaa;
+}
+
+.program-annotation-panel-title {
+	margin-bottom: 1em;
+	font-size: 1em;
+	font-weight: bold;
+	color: #000000;
+}
+
+.program-annotation-panel-body p {
+	margin-bottom: 1em;
+}
+
+.program-annotation-panel-body p {
+	margin-bottom: 1em;
+}
+
+.contents .section p {
+	font-size: 1em;
+	line-height: 1.8;
+}
+
+.program-annotation-panel-body {
+	font-size: 1em;
+	line-height: 1.8;
+	color: #000000;
+}
+
+.program-annotation-panel-body p:last-child {
+	margin-bottom: 0px;
+}
+
+.contents .program-annotation{
+	margin-top: 20px;
+}
+.contents .program-annotation p{
+	font-size: 1em;
+	margin-bottom: 0.5em;
+}
+
+.vcubesupp {
+	display: block;
+	margin-top: 1em;
+	padding: 1em;
+	border-top: 1px dotted #CCC;
+}
+
+/* page top */
+html {
+	scroll-behavior: smooth;
+}
+
+.pagetop {
+	position: fixed;
+	justify-content: space-around;
+	right: 0px;
+	bottom: 0px;
+}
+
+.pagetop a {
+	display: block;
+	width: 50px;
+	height: 50px;
+	background: rgba(20, 20, 20, .5);/*色設定欄*/
+	position: relative;
+}
+
+.pagetop a img {
+	padding: 10px;
+}
+
+.pagetop a:hover {
+	background: rgba(0, 0, 0, .8);/*色設定欄*/
+}
+
+.lead .viewing .program-annotation-panel-body {
+	margin: 0 auto 1.2em auto;
+}
+
+.lead .viewing .program-annotation-panel p {
+	text-align: center;
+	color: #000000;
+}
+
+.lead .viewing .program-annotation-panel-body li {
+	list-style: none;
+	line-height: 1.4;
+	padding-bottom: 0.5em!important;
+	padding-left:1em;
+	text-indent:-1em;
+}
+
+.lead .viewing .program-annotation-panel-body ul {
+	width: auto;
+	max-width: 90%;
+	padding-left: 2em;
+	margin: 0 auto;
+}
+
+/* =====================================================
+   色設定欄
+　（色替えの調整をしやすいように色関係の設定をまとめていますが、
+　　ここに書いていると作業しづらい要素については、この欄から削除してください）
+===================================================== */
+a:link {color: #000c66;}
+a:visited {color: #000c66;}
+a:hover {color: #000c66;}
+
+#header nav {
+	background: #000c66;
+}
+
+#header.image { /* 画像版h1用 */
+	background:#000 url(bg_header.jpg) no-repeat center;
+	background-size: cover;
+}
+
+.contents {background-color: transparent;}
+.contents .section#overview > h2 {width:7em;background: url(list.svg) left 50% no-repeat; background-size:1em;text-align: center;background-color: transparent;}
+.contents .section#program > h2 {width:8em;background: url(clock.svg) left 50% no-repeat; background-size:1em;text-align: center;background-color: transparent;}
+.contents .section#entry > h2 {width:8em;background: url(edit.svg) left 50% no-repeat; background-size:1em;text-align: center;background-color: transparent;}
+.contents .section#inquiry > h2 {width:9em;background: url(help-circle.svg) left 50% no-repeat; background-size:1em;text-align: center;background-color: transparent;}
+.contents .section > h3 {color:#015abf;}
+
+.contents div.overview dl {border-bottom: 1px solid #d1d3d6;}
+.contents div.overview dl:first-child{border-top: 1px solid #d1d3d6;}
+.contents div.overview div.sponsor+dl{border-top: 1px solid #d1d3d6;}
+.contents div.overview dt {color: #575757;background: #f2f3f4;}
+.contents div.overview dd a:link {color: #015abf;}
+.contents div.overview dd a:visited {color: #015abf;}
+.contents div.overview dd a:hover { color: #0f7ffe;}
+
+.contents div.program dt > div {background: #015abf;}
+.contents div.program.col01 dt.time {width:50%;}
+.contents div.program dt.time span {color:#fff;}
+.contents div.program dd h3 {color:#000;border-bottom: 1px solid #000;}
+.contents div.program dd .button a:link {color: #000c66;border: 2px solid #000c66;}
+.contents div.program dd .button a:visited {color: #000c66;border: 2px solid #000c66;}
+.contents div.program dd .button a:hover { color: #fff;background: #000c66;}
+
+.label {background: #022683; color: #fff;}
+.label.A {background: #b09e00; color: #fff;}
+.label.B {background: #e56b2e;color: #fff;}
+.label.C {background: #017efd; color: #fff;}
+
+.contents div dt.label.A div {background: #015abf; color: #fff;}
+.contents div dt.label.B div {background: #015b7f; color: #fff;}
+.contents div dt.label.C div {background: #002e40; color: #fff;}
+
+/* お申し込みボタン */
+.contents #entry div.button a {color: #fff;background: #000;}
+.contents #entry div.button a:link {color: #fff;background: #000;}
+.contents #entry div.button a:visited {color: #fff;background: #000;}
+.contents #entry div.button a:hover {color: #fff;background: #000;}
+.contents #entry .annotation {border: 3px solid #000c66;}
+
+.contents #inquiry a.button {color: #fff;background: #000c66;}
+.contents #inquiry a.button:link {color: #fff;background: #000c66;}
+.contents #inquiry a.button:visited {color: #fff;background: #000c66;}
+.contents #inquiry a.button:hover {color: #fff;background: #000c66; opacity: .8;}
+#footer{border-top: 3px solid #000c66;}
+
+/* =====================================================
+   日程
+===================================================== */
+ul.program-date {
+    display: flex;
+    justify-content: space-between;
+}
+ul.program-date li {
+    list-style-type: none;
+    width: calc(50% - 1px);
+}
+ul.program-date li a {
+    display: block;
+    padding: 5px;
+    /* background: #343d4e; */
+    color: #fff;
+    font-size: 1.3em;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+}
+ul.program-date li span.day {
+	position: relative;
+	padding-left: 20px;
+}
+ul.program-date li span.day::before {
+	position: absolute;
+	top: calc(50% - 6px);
+	left: 0;
+	width: 8px;
+	height: 8px;
+	border-right: 2px solid #fff;
+	border-bottom: 2px solid #fff;
+	content: "";
+	transform: rotate(45deg);
+}
+ul.program-date .day1,
+.contents div.program #day1 dt > div,
+.contents div.program #day1 span.label,
+.mfp-content .detail.day1 .seminar-title,
+.mfp-content .detail.day1 span.label,
+.contents div.program #day1 dd .button a:link:hover{
+	background: #1644b8;
+}
+ul.program-date .day2,
+.contents div.program #day2 dt > div,
+.contents div.program #day2 span.label,
+.mfp-content .detail.day2 .seminar-title,
+.mfp-content .detail.day2 span.label,
+.contents div.program #day2 dd .button a:link:hover{
+	background: #019713
+}
+.contents div.program .program-title {
+	margin: 0px 0 20px;
+	padding: 20px 0 10px;
+	border-bottom: solid 2px #000;
+	color: #000;
+	font-size: 1.6em;
+	font-weight: bold;
+	line-height: 1.6;
+}
+
+
+/* ポップアップ */
+.mfp-content .detail .seminar-title{background: #000c66;}
+.mfp-content .detail .property{background: #000c66;}
+.mfp-content .detail .shoulder{color: #000;border-bottom: 1px solid #000;}
+.mfp-content .detail p.shoulder{color: #000;border-bottom: 1px solid #000;}
+.mfp-content .detail .speaker,
+.mfp-content .detail p.speaker{border-left: none;}
+
+/* page top */
+.pagetop a {
+	background: #000c66;
+	opacity:.5;
+}
+
+.pagetop a:hover {
+	background: #000c66;
+	opacity:1;
+}
+
+/* =====================================================
+   テーマ
+===================================================== */
+.contents .section p.tagList-tt{
+	border-left: 5px solid #050066;
+	font-size: 1.2em;
+	font-weight: bold;
+	margin-top: 30px;
+	padding-left: 8px;
+	line-height: 1.8em;
+}
+.tagList {
+	width: 100%;
+	margin: 10px auto 30px;
+	display: flex;
+	justify-content: space-between;
+}
+.tagList li {
+	list-style: none;
+	width: 100%;
+	margin-right: 10px;
+	padding: .7em;
+	text-align: center;
+	font-size: 0.85em;
+	font-weight: bold;
+	color: #222;
+	background-color: #333;
+	border-radius: 4px;
+	white-space: nowrap;
+}
+.tagList li:last-child{
+margin-right: 0;
+}
+.tagList .tag--container, .contents .program .tag.tag--container {
+	background-color: #366eb3;
+	color: #fff;
+}
+.tagList .tag--cloud, .contents .program .tag.tag--cloud {
+	background-color: #6e36b3;
+	color: #fff;
+}
+.tagList .tag--aidata, .contents .program .tag.tag--aidata {
+	background-color: #36b36e;
+	color: #fff;
+}
+.tagList .tag--network, .contents .program .tag.tag--network {
+	background-color: #2badd9;
+	color: #fff;
+}
+.contents div.program dl dd{
+	position: relative;
+}
+.contents .program p.tag{
+	display: inline-block;
+	position: absolute;
+	top: 10px;
+	right: 40px;
+	font-size: 1em;
+	font-weight: bold;
+	border-radius: 4px;
+	padding: .3em .5em;
+	/* width: 16em; */
+	min-width: 15em;
+	text-align: center;
+}
+.contents div.program.label-A .program-title{
+	color: #b09e00;
+	border-bottom: solid 2px #b09e00;
+}
+.contents div.program.label-A dt > div {
+	background: #b09e00;
+}
+.contents div.program.label-B .program-title{
+	color: #e56b2e;
+	border-bottom: solid 2px #e56b2e;
+}
+.contents div.program.label-B dt > div {
+	background: #e56b2e;
+}
+.contents div.program.label-C .program-title{
+	color: #017efd;
+}
+.contents div.program.label-C dt > div {
+	background: #017efd;
+}
+#program0002{
+	margin-top: -90px;
+	padding-top: 90px;
+}
+
+/*-------------------------
+チェックボックス 日付
+-------------------------*/
+.contents div.program dl:last-child {
+	margin-bottom: 40px;
+}
+.program-date li {
+position: relative;
+}
+.program-date input[type=checkbox] {
+width:16px;
+height:16px;
+-moz-transform:scale(1.4);
+-webkit-transform:scale(1.4);
+transform:scale(1.4);
+position: absolute;
+top: 10px;
+left: 24px;
+}
+.contents div.program .program-date li.check-off a {/*【満席】表示*/
+	margin-left: 0;
+}
+.contents div.program .program-date li.check-off .status{/*【満席】表示*/
+background-color: #fff;
+color: #f22;
+display: inline-block;
+padding: 2px 5px;
+font-size: 15px;
+line-height: 1;
+margin-right: 10px;
+}
+.checknav{
+width: 100%;
+max-width: 830px;
+	margin: 0 auto;
+position: relative;
+padding-left: 6px;
+}
+.fixed{
+	position: fixed;
+	top: 28px;
+	z-index: 100;
+}
+.checknav.fixed{
+background: #fff;
+border-bottom: 2px solid #efefef;
+padding-top: 0px;
+}
+.contents div.program.col01 {
+margin: 0 auto;
+}
+.contents div.program.label-A{
+padding: 0 0;
+}
+.contents #entry div.button input[type="submit"].disable,
+.contents #entry div.button input[type="submit"]{
+border: 0;
+}
+
+
+/* =====================================================
+	Amazonギフト券
+===================================================== */
+.program-annotation-panel2 {
+	/* background-color: #eafaf6; */
+	border: 6px solid #5d8bff;
+	margin: 2em auto 1em;
+	padding: 1.5em 1em .5em;
+}
+.program-annotation-panel-body p.txtc-large {
+	font-size: 1.25em;
+	font-weight: bold;
+	margin-bottom: .5em;
+	color: #1644b8;
+	line-height: 1.5;
+	font-feature-settings: "palt";
+	line-height: 2;
+	margin-bottom: 1em;
+	padding-bottom: .5em;
+	border-bottom: 1px dotted #5d8bff;
+}
+.program-annotation-panel2 ul{
+	text-align: left;
+	list-style: none;
+	display: inline-block;
+	font-weight: bold;
+	padding-left: 0;
+	max-width: 726px;
+}
+.program-annotation-panel2 ul li{
+	padding-left: 1.25em;
+	text-indent: -1.25em;
+}
+
+
+.contents div.program dd div.speaker p.coposition br.mfp-content-newline{
+	display: none;
+}
+.mfp-content p.coposition br.mfp-content-newline{
+	display: block;
+}

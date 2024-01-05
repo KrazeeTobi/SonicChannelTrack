@@ -1,0 +1,116 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*
+===== 1: body and base setting ===========================
+*/
+
+body {
+	font: normal;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	-webkit-text-size-adjust: 100%;
+}
+
+/* params
+--------------------*/
+h1, h2, h3, h4, h5, h6,
+div, p, pre, ul, ol, dl, dt, dd,
+form, blockquote{
+	padding: 0;
+	margin: 0;
+	text-align: left;
+	display: block;
+}
+table {
+	margin : 0;
+	empty-cells: show;
+}
+hr {
+	display : none;
+}
+img {
+	border: none;
+}
+li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+strong, em{
+	font-weight: normal;
+	font-style: normal
+}
+sub{
+	vertical-align:-0.3em !important;
+	font-size:80% !important;
+	line-height:100% !important;
+}
+
+sup{
+	vertical-align:0.6em !important;
+	font-size:80% !important;
+	line-height:100% !important;
+}
+
+/*
+===== 2: link setting ===========================
+*/
+a:link{
+	color: #00193F;
+	text-decoration:underline;
+}
+a:visited{
+	color: #00193F;
+	text-decoration:underline;
+}
+a:hover{
+	color: #3333FF;
+	text-decoration: underline;
+}
+a:active{
+	color: #00193F;
+	text-decoration:underline;
+}
+
+a:link img,
+a:visited img,
+a:hover img,
+a img
+{
+	border: none;
+	text-decoration: none;
+}
+
+/*
+===== other ===========================
+*/
+.end{
+	margin: 0;
+	padding: 0;
+	}
+
+/*
+===== clear fix ===========================
+*/
+.cf:before, .cf:after {
+    content: '';
+    display: table;
+}
+.cf:after {
+    clear: both;
+}
+.cf {
+    zoom: 1; /* for IE6/7 */
+}
+
+
+
+.clear{
+	clear: both;
+	height: 0px;
+	line-height: 0%;
+	font-size: 0px;
+	}
