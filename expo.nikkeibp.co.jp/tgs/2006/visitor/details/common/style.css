@@ -1,0 +1,258 @@
+/*
+/////////////////////////////////////
+business/details/
+/////////////////////////////////////
+*/
+
+body {
+	margin:0px;
+	padding:0px;
+	background-color:#FFFFFF;
+	text-align:center;
+}
+
+/* リンク */
+a:link {
+	color:#000000;
+	text-decoration:underline;
+}
+
+a:visited {
+	color:#333333;
+	text-decoration:underline;
+}
+
+a:hover {
+	color:#999999;
+	text-decoration:underline;
+}
+
+a:active {
+	color:#666666;
+	text-decoration:none;
+}
+
+/* 画像 */
+img {
+	border:none;
+	margin:0px;
+	padding:0px;
+}
+
+/* float消去 */
+.Clear {
+	margin:0px;
+	padding:0px;
+	font-size:1px;
+	text-indent:-9999px;
+	clear:both;
+}
+/* MacIEから隠す \*/
+.Clear {
+	font-size:0px;
+}
+/* */
+
+/* DOT LINE */
+p.DotLine {
+	display:block;
+	height:1px;
+	margin:0px 0px 10px;
+	_margin:0px;
+	padding:0px;
+	background:url(../../../common/images/dotline.gif) repeat-x;
+	clear:both;
+}
+
+/* +++++++++++CONTENTS+++++++++++ */
+
+#Wrapper {
+	width:600px;
+	margin:0px auto;
+	padding:0px;
+	background:url(back_main.gif) repeat-y;
+	text-align:center;
+}
+
+/* HEADER */
+#Header {
+	width:550px;
+	margin:0px auto;
+	padding:0px;
+	text-align:left;
+}
+
+#Header h1 {
+	margin:0px 0px 15px 10px;
+	padding:15px 0px 0px;
+}
+
+#Header p.DotLine {
+	margin:0px 10px 10px;
+	_margin:0px 10px;
+}
+
+/* FOOTER */
+#Footer {
+	width:600px;
+	height:27px;
+	margin:0px auto;
+	padding:0px;
+	background:url(back_footer.gif) left bottom no-repeat;
+	text-align:center;
+	clear:both;
+}
+
+/* COPY */
+#Footer p.Copy {
+	display:block;
+	width:441px;
+	height:5px;
+	margin:20px auto 0px;
+	padding:0px;
+	background:url(../../../common/images/copy.gif) no-repeat;
+	text-indent:-9999px;
+}
+
+/* MAIN_CONTENTS */
+#Contents {
+	width:530px;
+	margin:0px auto;
+	padding:0px;
+	text-align:center;
+}
+
+/* 出展社名 */
+#Contents #CoName {
+	margin:0px auto;
+	padding:3px;
+	_padding:5px 3px 3px 3px;
+	background:#000000;
+	border-top:1px solid #D0CFC4;
+	border-right:1px solid #D0CFC4;
+	border-left:1px solid #D0CFC4;
+}
+
+#CoName p {
+	margin:0px;
+	padding:0px;
+	color:#FFFFFF;
+	font-size:12px;
+}
+
+#CoName p.Name {
+	font-weight:bold;
+	text-align:left;
+	float:left;
+}
+
+#CoName p.Site {
+	text-align:right;
+	float:right;
+}
+
+#CoName p.Site a {
+	color:#FFFFFF;
+}
+	
+/* 詳細 */
+#Details {
+	margin:0px;
+	padding:10px;
+	border:1px solid #D0CFC4;
+	clear:both;
+}
+
+#Details p {
+	margin:0px 0px 10px;
+	padding:0px;
+	color:#333333;
+	font-size:12px;
+	line-height:140%;
+	text-align:left;
+}
+
+#Details p.Event {
+	margin:30px 0px 0px;
+	font-weight:bold;
+}
+
+#Details p.EventTitle {
+	margin:0px 0px 10px;
+	padding:2px 2px 2px 5px;
+	color:#FFFFFF;
+	background:#666666;
+	border:1px solid #D0CFC4;
+}
+
+#Details p.Title {
+	margin:0px 0px 5px;
+	font-weight:bold;
+}
+
+#Details .Attention {
+	margin:3px 0px 0px;
+	color:#736357;
+	font-size:10px;
+	font-weight:normal;
+	text-align:left;
+}
+
+/* テーブル */
+table.Exhibition {
+	width:510px;
+	margin:0px;
+	padding:0px;
+	border-collapse:collapse;
+	border:1px solid #D0CFC4;
+	font-size:12px;
+	text-align:left;
+}
+
+table.Exhibition th {
+	margin:0px;
+	padding:3px;
+	background:#666666;
+	border:1px solid #D0CFC4;
+	color:#FFFFFF;
+	font-size:10px;
+	font-weight:normal;
+	text-align:center;
+}
+
+table.Exhibition th.Title {
+	padding:0px 0px 0px 3px;
+	text-align:left;
+}
+
+table.Exhibition td {
+	margin:0px;
+	padding:3px;
+	border:1px solid #D0CFC4;
+	color:#333333;
+	text-align:center;
+}
+
+table.Exhibition td.Title {
+	text-align:left;
+}
+
+/* 全体注意 */
+p.Attention {
+	margin:3px 0px 0px;
+	padding:0px;
+	font-size:10px;
+	color:#736357;
+	font-weight:normal;
+	line-height:120%;
+	text-align:left;
+}
+
+/* CLOSE */
+p.Close {
+	margin:15px 0px 0px;
+	padding:0px;
+	text-align:right;
+}
+
+

@@ -1,0 +1,187 @@
+@charset "utf-8";
+/* ****************************************************************** 
+
+	@This stylesheet Information{
+		ファイル：forum.css
+		最終更新：2009年07月22日
+		主な内容：TGS Forum 2009 用
+	}
+
+****************************************************************** */
+
+.alertbox {
+	border: 3px solid #eee;
+	background: url(../image/common/alert_icon_s.png) no-repeat 20px 20px;
+	padding: 28px 20px 20px 70px;
+	font-size: 16px;
+	color: #555;
+}
+
+
+div.cmcontent th {
+	background-color: #f7f8fa;
+	color: #333 !important;
+}
+
+div.sessions {
+	margin-top: 30px;
+}
+
+div.cmcontent td.time {
+	width: 3em;
+	text-align: center;
+	vertical-align: top;
+	border-right: 1px dotted #666;
+	background-color: #f7f8fa;
+}
+
+div.cmcontent td.time,
+div.cmcontent td.leftcell {
+	border-right: 1px dotted #666;
+}
+
+div.cmcontent img.free {
+	vertical-align: -0.4em;
+	margin-left: 0.5em;
+}
+
+div.sessions h3 div.free {
+	background: url(../image/forum/free.png) no-repeat 0 13px;
+	padding-left: 50px;
+}
+
+div.cmcontent h3, div.cmcontent h5 {
+	position: relative;
+}
+
+div.cmcontent a.right {
+	position: absolute;
+	top:0; right:10px;
+	width: 62px;
+	display: block;
+}
+
+div.cmcontent img.right {
+	position: absolute;
+	top:0; right:80px;
+	width: 62px;
+	display: block;
+}
+
+
+
+div.sessions a.right {
+	width: 190px;
+	right: 12px;
+	top: 8px;
+}
+
+
+div.sessions img.right {
+	width: 140px;
+	right: 12px;
+	top: 8px;
+}
+
+div.cmcontent td ul {
+	margin-left: 20px;
+	font-size: 93%;
+}
+
+div.cmcontent td p {
+	text-indent: 0;
+	font-size: 93%;
+	margin-bottom: 0.5em;
+	line-height: 1.5;
+}
+
+
+div.cmcontent h1 {
+	color: #0d5a9c;
+}
+
+h2#programlist {
+	font-size: 18px;
+	margin-top: 30px;
+	line-height: 2.5em;
+	background: #346 url(../image/forum/h2bg.png) repeat-x;
+	color: #fff;
+	padding-left: 15px;
+}
+
+div.cmcontent h2 {
+	color: #346;
+	margin-top: 15px;
+	padding-left: 15px;
+}
+
+div.sessions h3 {
+	font-size: 128.57%;
+	margin-bottom: 0 !important;
+	border-top: 2px solid #aaa;
+	border-right: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	padding: 0 0 1px 15px;
+	line-height: 65px; height:65px;
+	overflow: hidden;
+	background: #e0dfe0 url(../image/forum/h3bg.png) repeat-x;
+	clear: both;
+}
+
+div.sessions h5 { /* date */
+	margin-top: 0 !important;
+	padding: 1px 0 0 15px;
+	border-right: 1px solid #235;
+	border-left: 1px solid #235;
+	border-bottom: 1px solid #235;
+	background: #346;
+	font-weight: normal;
+	line-height: 35px; height: 35px;
+	color: #fff;
+}
+
+div.sessions h4 {
+	margin-top: 15px;
+	margin-bottom: 5px;
+	margin-left: 15px;
+	margin-right: 15px;
+	
+	line-height: 2.5em;
+	border-left: 5px solid #b7bfcd;
+	padding-left: 10px;
+}
+
+div.sessions h4.subtitle {
+	border-left: 5px solid #fff;
+	line-height: 1.5;
+}
+
+div.sessions p {
+	text-indent: 0;
+	margin-left: 30px;
+	margin-right: 150px;
+}
+
+div.sessions p.up {
+	text-align: right;
+	font-size: 93%;
+	text-indent: 0;
+	margin-bottom: 30px;
+	margin-right: 15px;
+}
+
+div.sessions p.up a {
+	background: url(../image/forum/up.png) no-repeat 0 0;
+	padding-left: 14px;
+}
+
+
+div.sessions ul {
+	margin-left: 50px;
+	margin-right: 150px;
+}
+
+div.sessions li {
+	line-height: 1.35;
+	margin-bottom: 0.5em;
+}

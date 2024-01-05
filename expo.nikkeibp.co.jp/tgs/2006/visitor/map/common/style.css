@@ -1,0 +1,117 @@
+/*
+/////////////////////////////////////
+visitor/map/
+/////////////////////////////////////
+*/
+
+body {
+	margin:0px;
+	padding:0px;
+	background-color:#FFFFFF;
+	text-align:left;
+}
+
+/* リンク */
+a:link {
+	color:#000000;
+	text-decoration:underline;
+}
+
+a:visited {
+	color:#333333;
+	text-decoration:underline;
+}
+
+a:hover {
+	color:#999999;
+	text-decoration:underline;
+}
+
+a:active {
+	color:#666666;
+	text-decoration:none;
+}
+
+/* マージン消去 */
+p,div,img {
+	margin:0px;
+	padding:0px;
+}
+
+/* 画像 */
+img {
+	border:none;
+}
+
+/* float消去 */
+.Clear {
+	margin:0px;
+	padding:0px;
+	font-size:1px;
+	text-indent:-9999px;
+	clear:both;
+}
+/* MacIEから隠す \*/
+.Clear {
+	font-size:0px;
+}
+/* */
+
+/* DOT LINE */
+p.DotLine {
+	display:block;
+	height:1px;
+	margin:0px 0px 10px;
+	_margin:0px;
+	padding:0px;
+	background:url(../../../common/images/dotline.gif) repeat-x;
+	clear:both;
+}
+
+/* +++++++++++CONTENTS+++++++++++ */
+
+#Wrapper {
+	width:3100px;
+	height:660px;
+	margin:0px;
+	padding:0px;
+	vertical-align:middle;
+}
+
+p.MapOll {
+	margin:0px 40px 0px 0px;
+	float:left;
+}
+
+#MapEnlargement {
+	float:left;
+}
+
+#MapEnlargement p.MapGame {
+	margin:40px 10px 0px 0px;
+	float:left;
+}
+
+#MapEnlargement p.MapTool {
+	margin:40px 0px 0px;
+	float:left;
+}
+
+#MapEnlargement p.MapMobile {
+	margin:20px 30px 0px 0px;
+	float:left;
+}
+
+#MapEnlargement p.MapOverSeas {
+	margin:20px 0px 0px;
+	float:left;
+}
+
+/* CLOSE */
+p.Close {
+	margin:15px 0px 0px;
+	padding:0px;
+	text-align:right;
+}
+
+

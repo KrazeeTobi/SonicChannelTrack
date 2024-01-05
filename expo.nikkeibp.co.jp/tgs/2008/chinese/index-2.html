@@ -1,0 +1,171 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Language" content="zh" />
+<meta http-equiv="content-script-type" content="text/javascript" />
+<meta name="description" content="TOKYO GAME SHOW 2008 10/9(Thu)-12(Sun), 2008 MAKUHARI MESSE." />
+<meta name="keywords" content="Game" />
+<meta http-equiv="imagetoolbar" content="no" />
+<link rel="stylesheet" href="style/import.css" media="all" type="text/css" />
+<link rel="stylesheet" href="style.css" media="all" type="text/css" />
+<link rel="stylesheet" href="../style/print.css" media="print" type="text/css" />
+<link rel="alternate" type="application/rss+xml" title="RSS" href="topics_ch.xml" />
+<script src="js/swfobject.js" type="text/javascript"></script>
+<script src="js/minmax.js" type="text/javascript"></script>
+<script src="js/m_navi.js" type="text/javascript"></script>
+<!--RSS Load,Parse start-->
+<script src="../../../js/bpcommon/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.jfeed.pack.js"></script>
+<script type="text/javascript">
+<!--
+function initRSSFeed(){
+    jQuery.getFeed({url:'topics.xml',success:onComplete});
+    function onComplete(feed) {
+        var temp = '<table>';
+        for(var i = 0; i < feed.items.length; i++) {
+            var item = feed.items[i];
+            temp += '<tr><td class="feedDate day">'+changeDate(item.updated)+'</td>';
+            temp += '<td align="left" class="feedTitle title">';
+            temp += '<a href="' + item.link + '">' + item.title + '</a>';
+            temp += '</td>';
+            temp += '</tr>';
+        }
+        temp += '</table>';
+        jQuery('#news').append(temp);
+    }
+}
+//日付表記を変換
+function changeDate(str){
+    var myDate=new Date(str);
+    var YYYY=myDate.getFullYear();
+    var MM=myDate.getMonth()+1;
+    if(MM<10){MM="0"+MM;}
+    var DD=myDate.getDate();
+    if(DD<10){DD="0"+DD;}
+    var date=YYYY+"/"+MM+"/"+DD;
+    return date;
+}
+
+-->
+
+</script>
+<title>TOKYO GAME SHOW</title>
+</head>
+<body onload="initRSSFeed();">
+<div id="site">
+  <div id="header">
+    <h1><img src="common/logo.gif" alt="TOKYO GAME SHOW 2008" /></h1>
+    <script type="text/javascript">menuWriteL();</script>
+    <noscript>
+    <ul>
+      <li><a href="../index-2.html">Japanese</a></li>
+      <li><a href="../english/index.html">English</a></li>
+      <li><a href="../korean/index.html">Korean</a></li>
+      <!--<li><a href="../chinese/index.html">Chinese</a></li>-->
+    </ul>
+    </noscript>
+    <p>
+      <script type="text/JavaScript">bunnerH();</script>
+      <noscript>
+      <!--<iframe width="728" height="90" marginwidth="0" marginheight="0"
+hspace="0" vspace="0" frameborder="0" scrolling="no"
+bordercolor="#000000"
+src="http://bizad.nikkeibp.co.jp/html.ng/tocode=utf8&spacedesc=tgs_rotation&site=bpspecial"><a
+href="http://bizad.nikkeibp.co.jp/click.ng/params.richmedia=yes&tocode=utf8&spacedesc=tgs_rotation&site=bpspecial"
+target="_blank"><img
+src="http://bizad.nikkeibp.co.jp/image.ng/params.richmedia=yes&tocode=utf8&spacedesc=tgs_rotation&site=bpspecial"
+border="0"></a></iframe> -->
+      </noscript>
+    </p>
+  </div>
+  <div id="globalNavi">
+   <script type="text/javascript">showMainNavi();</script>
+    <noscript>
+    <ul class="navmenu">
+      <li><a href="attendee_info/index.html">参观者资讯</a>
+          <ul>
+            <li><a href="attendee_info/index.html">展会概要</a></li>
+            <li><a href="attendee_info/map.html">Floor Plans</a></li>
+            <li><a href="attendee_info/list.html">参展公司一览</a></li>
+            <li><a href="attendee_info/events.html">活动</a></li>
+            <li><a href="attendee_info/forum.html">TGS Forum</a></li>
+            <li><a href="attendee_info/admission.html">入场费</a></li>
+            <li><a href="attendee_info/travel.html">Travel</a></li>
+          </ul>
+      </li>
+      <li><a href="media/registration.html">展会报道资讯</a>
+          <ul>
+            <li><a href="media/index.html">News Release </a></li>
+            <li><a href="media/registration.html">Registration</a></li>
+          </ul>
+      </li>
+      <li><a href="exhibition/index.html">参展指南</a> </li>
+      <li><a href="contact/index.html">询问</a></li>
+    </ul>
+    </noscript>
+  </div>
+  <script type="text/JavaScript">
+								var so = new SWFObject("main_navi.html", "video", "932", "50","8", "#ffffff");
+								so.addParam("menu", "false");
+								so.addParam("scale", "noscale");
+								so.addParam("quality", "best");
+								so.addParam("wmode", "transparent");
+								so.addVariable("rootID", getQueryParamValue("id"));
+								so.write("globalNavi");
+		</script>
+  <div id="main">
+    <div id="contents">
+      <div id="flashcontent">
+        <p><img src="images/main_noscript.jpg" border="0" usemap="#Map" />
+          <map name="Map" id="Map">
+            <area shape="rect" coords="270,247,323,302" href="attendee_info/travel.html" />
+            <area shape="rect" coords="383,250,437,300" href="../../2007/chinese/index-2.html" target="_blank" />
+          </map>
+        </p>
+        <div id="news"></div>
+        <noscript>
+        If you see this message. It seems Javascript is turned off.
+      </noscript>
+        Please turn the Javascript on and reload this page.</div>
+      <script type="text/JavaScript">
+								var so = new SWFObject("loader.html", "video", "704", "680","8", "#666666");
+								so.addParam("menu", "false");
+								so.addParam("scale", "noscale");
+								so.addParam("quality", "high");
+								so.addParam("wmode", "transparent");
+								so.addVariable("rootID", getQueryParamValue("id"));
+								so.write("flashcontent");
+						</script>
+     
+      <div id="ADarea">
+        <ul>
+            <!--<li id="banner200">
+          <iframe width="200" height="200" frameborder="0" scrolling="no" marginwidth="0" marginheight="0" bordercolor="#666" src="http://bizad.nikkeibp.co.jp/html.ng/tocode=utf8&spacedesc=tgs_rectangle&site=bpspecial" >
+            <comment>
+              <script language="javascript1.1" src="http://bizad.nikkeibp.co.jp/js.ng/params.richmedia=yes&tocode=utf8&spacedesc=tgs_rectangle&site=bpspecial&">
+</script>
+            </comment>
+            <noscript>
+            <a href="http://bizad.nikkeibp.co.jp/click.ng/params.richmedia=yes&tocode=utf8&spacedesc=tgs_rectangle&site=bpspecial" target="_blank"> <img src="http://bizad.nikkeibp.co.jp/image.ng/params.richmedia=yes&tocode=utf8&spacedesc=tgs_rectangle&site=bpspecial" border="0"></a>
+            </noscript>
+            </iframe>
+          </li> -->
+          
+ 
+          <li><a href="http://www.gdconf.com/?cid=GDC09_RGWPX1" target="_blank"><img src="common/banners/bnr_gdc.gif" alt="banner" width="200" border="0" height="60"></a></li>
+          <li><a href="http://awards.cesa.or.jp/english/" target="_blank"><img src="common/award_en.gif" alt="banner" width="200" border="0" height="60"></a></li>
+            <!--<li><a href="http://www.gamespot.com/" target="_blank"><img src="common/banners/gamespot.gif" alt="banner" width="200" border="0" height="60"></a></li>-->
+ <li><a href="http://www.developmag.com/" target="_blank"><img src="common/banners/developbutton.gif" alt="banner" width="200" border="0" height="60" style="border: #666 1px solid;"></a></li>          
+<li><a href="http://www.cofesta.jp/" target="_blank"><img src="images/cofesta.gif" alt="banner" width="200" border="0" height="60"></a></li>
+         
+        </ul>
+
+      </div>
+    </div>
+  </div>
+  <div id="footer">
+    <p>Copyright(c) 2002-2008 CESA/Nikkei Business Publications, Inc.All rights reserved.</p>
+  </div>
+</div>
+</body>
+</html>
