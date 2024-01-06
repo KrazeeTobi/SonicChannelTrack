@@ -1,0 +1,361 @@
+@charset "UTF-8";
+
+/* ===================================
+
+	File Name   : award.css
+
+====================================== */
+
+
+/*========== Style Contents ==========
+
+	1. Individual Redefinition
+	2. AwardArea
+	3. AwardDetailArea
+	4. PastAwardArea
+	*. Clear Release
+	
+====================================== */
+
+
+
+
+
+
+/*===== ■1. Individual Redefinition =====*/
+
+
+
+
+
+/*===== ■2. AwardArea =====*/
+
+/*----- AwdPresenMovie -----*/
+
+.AwardArea .AwdPresenMovie {
+	width: 654px;
+	margin: 30px auto 0px;
+}
+
+
+
+/*----- List -----*/
+
+.AwardArea .AwardWrap {
+}
+
+.AwardArea .PicBln03Box {
+	margin-top: 35px;
+}
+.AwardArea .PicBln03Box a:hover img {
+	opacity: 0.60;
+	-moz-opacity: 0.60;
+	-khtml-opacity: 0.60;
+	filter: alpha(opacity=60);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=60)";
+}
+.AwardArea .Bln03In dt {
+	margin-bottom: 7px;
+	font-size: 19px;
+	font-weight: bold;
+	line-height: 1.45;
+}
+.AwardArea .Bln03In dt a {
+	text-decoration: none;
+	color: #016dea;
+}
+.AwardArea .Bln03In dt a:hover {
+	text-decoration: underline;
+}
+.AwardArea .Bln03In dd {
+	margin-top: 7px;
+	font-size: 16px;
+	line-height: 1.5;
+}
+.AwardArea .Bln03In p.Message {
+	margin-top: 10px;
+	line-height: 1.7;
+}
+
+
+
+
+
+/*===== ■3. AwardDetailArea =====*/
+
+.AwardDetailArea {
+	padding-bottom: 40px;
+}
+
+
+/*----- AwdDetailTtl -----*/
+
+.AwardDetailArea .AwdDetailTtl {
+}
+.AwardDetailArea .AwdDetailTtl .AwdDetailTtlImg {
+	width: 107px;
+	height: 107px;
+	display: table-cell;
+	padding-right: 40px;
+	vertical-align: middle;
+}
+.AwardDetailArea .AwdDetailTtl .AwdDetailTtlNm {
+	display: table-cell;
+	width: 525px;
+	padding: 8px 0px 8px;
+	vertical-align: middle;
+}
+.AwardDetailArea .AwdDetailTtl .AwdDetailTtlNm h2 {
+	/*font-size: 40px;*/
+	font-size: 38px;
+	font-weight: bold;
+	line-height: 1.0;
+	color: #e16850;
+}
+.AwardDetailArea .AwdDetailTtl .AwdDetailTtlNm .Detail {
+}
+/*.AwardDetailArea .AwdDetailTtl .AwdDetailTtlNm .Detail p.Name {
+	display: table-cell;
+	padding-right: 25px;
+	vertical-align: top;
+	white-space: nowrap;
+	font-size: 20px;
+	color: #e16850;
+}
+.AwardDetailArea .AwdDetailTtl .AwdDetailTtlNm .Detail p.Prize {
+	display: table-cell;
+	padding-left: 25px;
+	vertical-align: middle;
+	font-size: 14px;
+	background: url(../img/sense/line_v01.png) left 10px no-repeat;
+}*/
+.AwardDetailArea .AwdDetailTtl .AwdDetailTtlNm .Detail p.Name {
+	margin-top: 5px;
+	font-size: 20px;
+	line-height: 1.3;
+	color: #e16850;
+}
+.AwardDetailArea .AwdDetailTtl .AwdDetailTtlNm .Detail p.Prize {
+	margin-top: 2px;
+	font-size: 14px;
+	line-height: 1.4;
+}
+
+/*----- AwdDetailMovie -----*/
+
+.AwardDetailArea .AwdDetailMovie {
+	width: 654px;
+	margin: 20px auto 0px;
+}
+
+
+/*----- AwdDetailInterview -----*/
+
+.AwardDetailArea .AwdDetailInterview {
+	width: 710px;
+	margin: 0px auto;
+	padding-top: 30px;
+}
+
+.AwardDetailArea .AwdDetailInterview .InterviewBox {
+	overflow: hidden;
+}
+.AwardDetailArea .AwdDetailInterview .InterviewBox01 {
+}
+.AwardDetailArea .AwdDetailInterview .InterviewBox02,
+.AwardDetailArea .AwdDetailInterview .InterviewBox04,
+.AwardDetailArea .AwdDetailInterview .InterviewBox06,
+.AwardDetailArea .AwdDetailInterview .InterviewBox08 {
+	/height: 218px;
+	min-height: 292px;
+	min-height: 218px;
+	padding-top: 74px;
+	background: url(../img/sense/line_dot01.png) 60px top no-repeat;
+}
+.AwardDetailArea .AwdDetailInterview .InterviewBox03,
+.AwardDetailArea .AwdDetailInterview .InterviewBox05,
+.AwardDetailArea .AwdDetailInterview .InterviewBox07 {
+	/height: 271px;
+	min-height: 271px;
+	min-height: 149px;
+	padding-top: 122px;
+	background: url(../img/sense/line_dot02.png) 603px top no-repeat;
+}
+
+.AwardDetailArea .AwdDetailInterview .InterviewBox .Number {
+	width: 90px;
+	height: 150px;
+	overflow: hidden;
+	text-indent: 160px;
+	white-space: nowrap;
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+.AwardDetailArea .AwdDetailInterview .InterviewBox02 .Number,
+.AwardDetailArea .AwdDetailInterview .InterviewBox04 .Number,
+.AwardDetailArea .AwdDetailInterview .InterviewBox06 .Number,
+.AwardDetailArea .AwdDetailInterview .InterviewBox08 .Number {
+	float: left;
+	margin-left: 60px;
+	margin-top: 52px;
+}
+.AwardDetailArea .AwdDetailInterview .InterviewBox01 .Number,
+.AwardDetailArea .AwdDetailInterview .InterviewBox03 .Number,
+.AwardDetailArea .AwdDetailInterview .InterviewBox05 .Number,
+.AwardDetailArea .AwdDetailInterview .InterviewBox07 .Number {
+	float: right;
+	margin-right: 57px;
+}
+.AwardDetailArea .AwdDetailInterview .InterviewBox01 .Number {
+	background-image: url(../img/sense/num01.png);
+}
+.AwardDetailArea .AwdDetailInterview .InterviewBox02 .Number {
+	background-image: url(../img/sense/num02.png);
+}
+.AwardDetailArea .AwdDetailInterview .InterviewBox03 .Number {
+	background-image: url(../img/sense/num03.png);
+}
+.AwardDetailArea .AwdDetailInterview .InterviewBox04 .Number {
+	background-image: url(../img/sense/num04.png);
+}
+.AwardDetailArea .AwdDetailInterview .InterviewBox05 .Number {
+	background-image: url(../img/sense/num05.png);
+}
+.AwardDetailArea .AwdDetailInterview .InterviewBox06 .Number {
+	background-image: url(../img/sense/num06.png);
+}
+.AwardDetailArea .AwdDetailInterview .InterviewBox07 .Number {
+	background-image: url(../img/sense/num07.png);
+}
+.AwardDetailArea .AwdDetailInterview .InterviewBox08 .Number {
+	background-image: url(../img/sense/num08.png);
+}
+
+.AwardDetailArea .AwdDetailInterview .InterviewBox .QsAs {
+}
+.AwardDetailArea .AwdDetailInterview .InterviewBox02 .QsAs,
+.AwardDetailArea .AwdDetailInterview .InterviewBox04 .QsAs,
+.AwardDetailArea .AwdDetailInterview .InterviewBox06 .QsAs,
+.AwardDetailArea .AwdDetailInterview .InterviewBox08 .QsAs {
+	width: 480px;
+	margin-left: 230px;
+	margin-bottom: 30px;
+}
+.AwardDetailArea .AwdDetailInterview .InterviewBox01 .QsAs,
+.AwardDetailArea .AwdDetailInterview .InterviewBox03 .QsAs,
+.AwardDetailArea .AwdDetailInterview .InterviewBox05 .QsAs,
+.AwardDetailArea .AwdDetailInterview .InterviewBox07 .QsAs {
+	width: 520px;
+	margin-bottom: 40px;
+}
+
+.AwardDetailArea .AwdDetailInterview .InterviewBox .Bln02In {
+	padding-right: 20px;
+}
+
+.AwardDetailArea .AwdDetailInterview .InterviewBox h3.Question {
+	font-size: 18px;
+	line-height: 1.45;
+}
+.AwardDetailArea .AwdDetailInterview .InterviewBox h3.Question.LSm01 {
+	letter-spacing: -0.1em;
+}
+
+.AwardDetailArea .AwdDetailInterview .InterviewBox p.Answer {
+	margin-top: 15px;
+	/*font-size: 13px;*/
+	line-height: 1.8;
+}
+.AwardDetailArea .AwdDetailInterview .InterviewBox p.Answer a {
+	display: block;
+  margin-top: 10px;
+}
+.AwardDetailArea .AwdDetailInterview .InterviewBox .Img {
+	width: 560px;
+	margin: 30px auto 40px;
+	text-align: center;
+}
+.AwardDetailArea .AwdDetailInterview .InterviewBox .Img img{
+	width: 100%;
+	height: auto;
+}
+
+
+
+
+
+/*===== ■4. PastAwardArea =====*/
+
+/*----- List -----*/
+
+.PastAwardArea .AwardWrap {
+	width: 800px;
+	margin-top: 30px;
+	overflow: hidden;
+}
+.PastAwardArea .AwardWrap .Awardbox{
+	width: 900px;
+	overflow: hidden;
+	border-bottom: 1px dotted #828282;
+	padding: 0 0 20px;
+	margin-bottom: 20px;
+}
+.PastAwardArea .AwardWrap .Awardbox.last{
+	border-bottom: none;
+}
+.PastAwardArea .AwardWrap .Awardbox .AwardImg{
+	width: 130px;
+	float: left;
+	margin-right: 20px;
+}
+.PastAwardArea .AwardWrap .Awardbox .AwardTxt{
+	width: 650px;
+	float: left;
+}
+.PastAwardArea .AwardWrap .Awardbox .AwardTxt dl dt{
+	font-size: 20px;
+	color: #006ee3;
+	font-weight: bold;
+	line-height: 1.1;
+	letter-spacing: 0.8px;
+}
+.PastAwardArea .AwardWrap .Awardbox .AwardTxt dl dd{
+	font-size: 16px;
+	padding: 8px 0 10px;
+}
+.PastAwardArea .AwardWrap .Awardbox .AwardTxt dl dd span{
+	padding: 0 15px;
+}
+.PastAwardArea .AwardWrap .Awardbox .AwardTxt p{
+	line-height: 1.8;
+	font-size: 14px;
+}
+.PastAwardArea .AwardWrap a {
+	text-decoration: none;
+}
+.PastAwardArea .AwardWrap a:hover {
+	text-decoration: underline;
+}
+.PastAwardArea .AwardWrap a:hover img {
+	opacity: 0.60;
+	-moz-opacity: 0.60;
+	-khtml-opacity: 0.60;
+	filter: alpha(opacity=60);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=60)";
+}
+
+
+
+
+
+/*===== ■*.Clear Release  =====*/
+
+/*#********************** {
+	/zoom: 1;
+}
+
+#**********************:after {
+	content: '';
+	display: block;
+	clear: both;
+}*/

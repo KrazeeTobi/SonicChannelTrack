@@ -1,0 +1,248 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*
+===========================================================================
+
+	Title : business.css
+
+===========================================================================
+*/
+
+
+/* *************************************************************
+*
+*	PC view
+*	
+************************************************************ */
+
+
+
+
+/* -------------------------------------------------------------
+
+	business/index.html
+
+------------------------------------------------------------- */
+a:focus{
+	outline:none;
+	}
+#wrapper .mainCont .attention{
+	display: block;
+	text-align: center;
+	}
+#wrapper .mainCont .cntBox .boxInner .dtl {
+	padding: 15px;
+	background-color:#eeeeee;
+	margin: 0px 0 20px 0;
+	border:1px solid #ccc;
+}
+#wrapper .mainCont .cntBox .boxInner .dtl dt{
+	margin-bottom: 10px;
+	font-weight:bold;
+	font-size:15px;
+	}
+#wrapper .mainCont .cntBox .boxInner .dtl dt span{
+	padding:2px 5px;
+	color:#fff;
+	background: #cf1f03;
+	font-size:11px;
+	vertical-align: middle;
+	line-height: 1.2;
+	display: inline-block;
+	}
+#wrapper .mainCont .cntBox .boxInner .txt12{
+	font-size:12px;	
+	}
+#wrapper .mainCont .cntBox .boxInner ul{
+	margin-bottom:20px;
+	}
+#wrapper .mainCont .cntBox .boxInner ul li{
+	padding-left: 1em;
+	text-indent: -1em;
+	}
+#wrapper .mainCont .cntBox .boxInner .blTxt{
+	color: #1e51a2;
+}
+#wrapper .mainCont .cntBox .boxInner .orTxt{
+	color:#ec8414;
+}
+#wrapper .mainCont .cntBox .boxInner .rd_frame{
+	color:#cf1f03;
+	border:1px solid #cf1f03;
+	padding:10px;
+	}
+	
+/*ボタンブロック*/
+
+.matchBlc{
+	width: 200px;
+	height: 490px;
+	margin-right: 5px;
+	padding:15px 0 0;
+	text-align: center;
+	background: #fafafa;
+	border:1px solid #ccc;
+	float: left;
+}
+#btn_or{
+	margin-right: 0;
+}
+.matchBlc dt{
+	padding:0 10px;
+	line-height:1.2;
+	font-weight:bold;
+	font-size:15px;
+}
+.matchBlc dt span{
+	font-size:12px;
+	display: inline-block;
+	letter-spacing: -1px;
+}
+.matchBlc dd{
+	width: 100%;
+	padding: 0 10px;
+	text-align: center;
+	line-height: 1.2;
+}
+.matchBlc .matchTtl{
+	height: 65px;
+}
+.matchBlc .deadline{
+	margin-top: 10px;
+	height: 50px;
+}
+.matchBlc .info{
+	font-weight: bold;
+	height: 65px;
+}
+#btn_rd .info{
+	padding-top: 15px;
+}
+#btn_nvy .info{
+	padding-top: 25px;
+}
+#btn_or .info span{
+	margin: 5px 0 0;
+	display: inline-block;
+	font-size: 12px;
+}
+.matchBlc .btn{
+	margin: 10px auto;
+	padding: 10px;
+	height: 50px;
+	}
+.matchBlc .coming{
+	width: 90%;
+	height: 28px!important;
+	margin-top: 20px;
+	padding-top: 7px;
+	background: #777;
+	color: #fff;
+	display: inline-block;
+	border-radius: 5px;
+}
+#btn_or.matchBlc .coming{
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+#btn_rd a{
+	padding:7px;
+	background: #cf1f03\9;
+	background: -moz-linear-gradient( 90deg, rgb(207,31,3) 0%, rgb(207,31,3) 50%, rgb(220,70,47) 50%, rgb(220,70,47) 100%);
+ 	background: -webkit-linear-gradient( 90deg, rgb(207,31,3) 0%, rgb(207,31,3) 50%, rgb(220,70,47) 50%, rgb(220,70,47) 100%);
+ 	background: -ms-linear-gradient( 90deg, rgb(207,31,3) 0%, rgb(207,31,3) 50%, rgb(220,70,47) 50%, rgb(220,70,47) 100%);
+	border-radius: 5px;
+	display: block;
+	text-decoration:none;
+	color:#fff;
+	border:1px solid #ad1b03;
+	font-weight: bold;
+}
+#btn_nvy a{
+	padding:7px;
+	background: #1e51a2\9;
+	background: -moz-linear-gradient( 90deg, rgb(30,81,162) 0%, rgb(30,81,162) 50%, rgb(53,108,196) 50%, rgb(53,108,196) 100%);
+  	background: -webkit-linear-gradient( 90deg, rgb(30,81,162) 0%, rgb(30,81,162) 50%, rgb(53,108,196) 50%, rgb(53,108,196) 100%);
+ 	background: -ms-linear-gradient( 90deg, rgb(30,81,162) 0%, rgb(30,81,162) 50%, rgb(53,108,196) 50%, rgb(53,108,196) 100%);
+	border-radius: 5px;
+	display: block;
+	text-decoration:none;
+	color:#fff;
+	border:1px solid #083680;
+	font-weight: bold;
+	}
+#btn_or a{
+	margin-bottom: 5px;
+	padding:7px;
+	background: #ec8414\9;
+	background: -moz-linear-gradient( 90deg, rgb(236,132,20) 0%, rgb(236,132,20) 50%, rgb(238,156,68) 50%, rgb(238,156,68) 100%);
+ 	background: -webkit-linear-gradient( 90deg, rgb(236,132,20) 0%, rgb(236,132,20) 50%, rgb(238,156,68) 50%, rgb(238,156,68) 100%);
+ 	background: -ms-linear-gradient( 90deg, rgb(236,132,20) 0%, rgb(236,132,20) 50%, rgb(238,156,68) 50%, rgb(238,156,68) 100%);
+	border-radius: 5px;
+	display: block;
+	text-decoration:none;
+	color:#fff;
+	border:1px solid #d87001;
+	font-weight: bold;
+}
+#wrapper .mainCont .cntBox .boxInner .clear{
+	clear:both;
+}
+
+
+
+/* *********************************************
+*
+*	SP view
+*	
+********************************************* */
+
+@media screen and (max-width:769px) {
+
+/* -------------------------------------------------------------
+
+	business/index.html
+
+------------------------------------------------------------- */
+
+#adm01 p img{
+	margin: 10px 0;
+}
+.matchBlc{
+	width:100%;
+	height:auto;
+	float:none;
+	margin-bottom:20px;
+	padding:10px 0 0;
+	text-align: center;
+}
+.matchBlc .matchTtl{
+	height: auto;
+}
+.matchBlc .deadline{
+	height: auto;
+}
+.matchBlc .info{
+	height: auto;
+}
+.matchBlc .btn{
+	height: auto;
+}
+
+.matchBlc a{
+	margin-top:10px;
+}
+#btn_rd .info,
+#btn_nvy .info,
+#btn_or .info
+{
+	padding-top: 10px;
+}
+#btn_or strong{
+	line-height: 1.2;
+}
+
+}
+
+

@@ -1,0 +1,161 @@
+@charset "UTF-8";
+
+/* ===================================
+
+	File Name   : sponsor.css
+
+====================================== */
+
+
+/*========== Style Contents ==========
+
+	1. Individual Redefinition
+	2. SponcerAdd
+	3. SponcerLimitation
+	4. SponcerLimitationLight
+	5. SponcerGeneral
+	
+====================================== */
+
+
+
+
+
+
+/*===== ■1. Individual Redefinition =====*/
+
+/*----- Global Navigation -----*/
+
+#HeaderNavi #GlobalNavi li.BtnExhibit a span,
+#HeaderNavi #GlobalNavi li.BtnExhibit a:hover span {
+	background-position: 1px -50px;
+}
+.ie8 #HeaderNavi #GlobalNavi li.BtnExhibit a:hover span {
+	background-position: 1px 0px;
+}
+
+
+
+
+/*===== ■3. SponcerLimitation =====*/
+/*===== ■4. SponcerLimitationLight =====*/
+
+#SupportLimitation {
+}
+
+#SupportLimitationLight {
+}
+
+
+/*----- Common Parts -----*/
+
+#Support .Section {
+	position: relative;
+}
+#Support .Section .BgWhite {
+	position: relative;
+}
+#Support .Section p.TxtSecTop{
+	margin: -10px 0px 5px 0px;
+}
+#Support .Section h3 img {
+	position: absolute;
+	right: 0px;
+	top: 0px;
+}
+#Support .Section p.Txt{
+	margin-top: 10px;
+}
+
+#Support .Section .Btn2 {
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+
+
+/*----- BoxPrice -----*/
+
+#Support .Section .BoxPrice {
+	margin-top: 40px;
+}
+#Support .Section .BoxPrice dl {
+	float: left;
+	width: 450px;
+	padding-right: 15px;
+}
+#Support .Section .BoxPrice dl dt {
+	margin-bottom: 25px;
+}
+#Support .Section .BoxPrice dl dd {
+	margin-bottom: 5px;
+}
+#Support .Section .BoxPrice dl dd {
+}
+
+
+#Support .Section .BoxPrice .appTxt {
+	float: left;
+	width: 550px;
+	padding-right: 15px;
+}
+
+#Support .Section .BoxPrice .appImg{
+	float: left;
+	padding-right: 15px;
+	padding-top:20px;
+	
+}
+
+/*----- BoxService -----*/
+
+#Support .Section .BoxService {
+}
+
+#Support .Section .BoxService dt {
+	color:#d9227f;
+	font-weight:bold;
+}
+
+
+/*----- BoxDays -----*/
+
+#Support .Section .BoxDays {
+}
+#Support .Section .BoxDays dt {
+	margin-bottom: 20px;
+}
+
+
+
+
+
+
+/*===== ■5. SponcerGeneral =====*/
+
+#SupportGeneral {
+}
+
+.MeetingImg{
+	float:left;
+	padding-top:20px;
+}
+
+.MeetingTxt{
+	width:330px;
+	float:right;
+	padding-top:20px;
+}
+
+.MeetingArea{
+	clear:both;
+}
+
+.MeetingArea dt{
+	color:#d9227f;
+	font-weight:bold;
+}
+
+
+
+
+

@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+/* ===================================
+
+	File Name   : download.css
+
+====================================== */
+
+/*========== Style Contents ==========
+
+	1. Individual Redefinition
+	2. Download
+	3. Download Kikaku
+	*. Clear Release
+
+====================================== */
+
+
+
+
+
+
+/*===== ■1. Individual Redefinition =====*/
+
+/*----- Global Navigation -----*/
+
+#HeaderNavi #GlobalNavi li.BtnExhibit a span,
+#HeaderNavi #GlobalNavi li.BtnExhibit a:hover span {
+	background-position: 1px -50px;
+}
+.ie8 #HeaderNavi #GlobalNavi li.BtnExhibit a:hover span {
+	background-position: 1px 0px;
+}
+
+/*#HeaderNavi #GlobalNavi li.BtnDownload a span,
+#HeaderNavi #GlobalNavi li.BtnDownload a:hover span {
+	background-position: -595px -50px;
+}
+.ie8 #HeaderNavi #GlobalNavi li.BtnDownload a:hover span {
+	background-position: -595px 0px;
+}*/
+
+
+
+/*----- Section Foot -----*/
+
+.SectionFoot .btn li a {
+	background-image: url(../img/download/download_zip_btn.gif);
+}
+
+
+
+/*----- Page Common Parts -----*/
+
+.BgGray,
+.BgGray02 {
+	padding-top: 10px;
+	padding-bottom: 50px;
+}
+
+.DownloadSttl {
+	margin-top: 40px;
+	font-size: 16px;
+	font-weight: bold;
+}
+.DownloadSttl + .PdfList ul {
+	margin-top: 10px;
+}
+
+
+
+
+/*===== ■2. Download =====*/
+
+
+
+
+
+
+
+
+/*===== ■3. Download Kikaku =====*/
+
+
+
+
+
+
+
+
+/*===== ■*.Clear Release  =====*/
+
+/*
+#xxxxx {
+	/zoom: 1;
+}
+
+#xxxxx:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+*/

@@ -1,0 +1,1041 @@
+@charset "utf-8";
+/*
+===========================================================================
+
+	Title : family.css
+
+===========================================================================
+*/
+/* *********************************************
+*
+*	PC view
+*	
+********************************************* */
+	
+
+/* --------------------------------
+	共通
+--------------------------------　*/
+
+#wrapper .mainCont {
+	padding-bottom: 0;
+	font-size: 15px;
+}
+#wrapper .cntBox {
+	min-height: 812px;
+}
+/*#wrapper .main {
+	margin-bottom: 20px;
+}*/
+ruby {
+	font-weight: inherit;
+	line-height: inherit;
+	position: relative;
+	/*top: -2px*/;
+}
+ruby rb {
+	font-weight: inherit;
+}
+ruby rt {
+	font-size: 10px;
+	text-align: center;
+	font-weight: inherit;
+	padding: 0;
+	letter-spacing: -0.5px;
+	position: relative;
+}
+
+
+/*ナビ*/
+.familyNav{
+	margin-bottom: 20px;
+	padding: 20px;
+	background: #fff;	
+}
+.familyNav p{
+	text-align: center;	
+}
+.familyNav dl{
+	width: 295px;
+	height: 240px;
+	margin-top: 10px;
+	padding-bottom: 15px;
+	border: 2px solid #f1b719;	
+}
+.family .familyNav dl dt{
+	width: 295px;
+	height: 50px;
+	margin-bottom: 0;
+	padding: 5px 10px;
+	text-align: center;
+	background: #f1b719;
+	color: #fff;
+	display: table-cell;
+	vertical-align: middle;
+}
+.family .familyNav dl dd{
+	margin-bottom: 0;
+	padding: 15px 10px 0;
+
+}
+.familyNav dd a{
+	padding-left: 15px;
+	background: url(../images/arrow_yl.png) no-repeat left 7px;
+	background-size: 10px auto;
+	color: #000;
+	display: block;
+}
+
+/*TOPアンカーリンク*/
+.topAnc{
+	max-width: 280px;
+	margin: 15px auto 10px;
+}
+/*.topAnc .linkBtn{
+	width: 260px;
+	margin-bottom: 30px;
+}*/
+.linkBtn a{
+	padding: 10px 15px 8px 25px;
+	background: #f1b719 url("../images/arrow_wh_down.png") no-repeat scroll 12px center / 10px auto;	
+	display: block;
+}
+
+/*ボタン*/
+.btnArea{
+	margin: 20px 0 30px;
+}
+.btnArea ul{
+	margin-bottom: 10px;	
+}
+.btnArea li{
+	margin: 0 10px;
+	display: inline-block;	
+}
+.btnArea .linkBtn a{
+	width: 235px;
+	padding:10px 10px 10px 25px;
+	background: #f1b719 url(../../common/images/arrow_wh.png) no-repeat 10px center;
+	background-size: 10px auto;
+	display: block;
+}
+small{
+	width: 500px;
+	text-align: left;	
+	font-size: 14px;
+	display: inline-block;
+	/*line-height: 1.4;*/
+}
+small.sp{
+	display: none;	
+}
+small ruby rt{
+	font-size: 8px;	
+}
+small ruby > rt, small ruby > rtc{
+	line-height: 1em;	
+}
+
+/* PC .cntBox
+---------------------------------------------------------------- */
+#wrapper .cntBox {
+	background: none;
+}
+body:not(#index) #wrapper .mainCont h2 {
+		font-family:'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic ProN','メイリオ', Meiryo, 'MS Pゴシック', sans-serif;
+	}
+body:not(#index) #wrapper .mainCont h2.noruby{
+	padding: 8px 15px 6px 15px;
+}
+body:not(#index) #wrapper .mainCont h2 span{
+	padding: 7px 0px 10px 40px;	
+}
+#wrapper .mainCont h3{
+	line-height: 1.6;	
+}
+/*#wrapper .mainCont h3 ruby rt{
+	margin-top: -10px;
+	}*/
+#wrapper .mainCont h4{
+	background-position: left 12px;
+}
+#wrapper .cntBox .boxInner {
+	margin-bottom: 20px;
+	padding-top: 30px;
+	background: #fff;
+	line-height: 2;
+}
+/*****アンカーボタン*****/
+#wrapper .cntBox ul.ancMenu {
+	height: 56px;
+	text-align: center;
+	line-height:1.2;
+	display:table;
+}
+#wrapper .cntBox ul.ancMenu li {
+	margin-right: 10px;
+	padding: 0px 0 15px 0;
+	float: left;
+	font-weight: bold;
+	display:table-cell;
+	vertical-align: top;
+	font-size:16px;
+}
+#wrapper .cntBox ul.ancMenu li:last-child{
+	margin-right:0;
+}
+#wrapper .cntBox ul.ancMenu li a {
+	width: 155px;
+	padding:10px 0 10px;
+	background : #FFFFFF;
+	background : rgba(255, 255, 255, 1);
+	border-radius : 3px;
+	border-style : Solid;
+	border-color : #ddd;
+	border-width : 2px;
+	color: #777;
+	text-decoration: none;
+	cursor: pointer;
+	display: block;
+	box-shadow: 2px 2px 0px 0 rgba(221,221,221,1);
+	transition:all .5s ease;
+}
+#wrapper .cntBox ul.ancMenu li a:hover {
+	filter: alpha(opacity=70);
+	-moz-opacity: 0.7;
+	opacity: 0.7;
+	zoom: 1;
+}
+.mb40{
+	margin-bottom:40px !important;
+}
+
+/*ボタン*/
+.btnArea{
+	margin: 0px 0 30px;
+	padding: 20px 0;
+	text-align: center;
+	background: #fff;
+}
+
+#wrapper .cntBox .boxInner .dotli li{
+	line-height:inherit;
+}
+
+/* --------------------------------
+	キッズクリエイター
+--------------------------------　*/
+
+.creater #wrapper .main {
+	margin-bottom: 20px;
+}
+.title{
+	font-size:16px;
+	font-weight:bold;
+}
+body:not(#index) #wrapper .mainCont h2.subTtl{
+	color:#f3b201;
+	background:none !important;
+	line-height:1.4;
+	padding:0 0 30px 0;
+	letter-spacing:1px;
+}
+body:not(#index) #wrapper .mainCont h2.subTtl:after{
+	display:none;
+}
+.creater #wrapper .cntBox .boxInner table{
+	width:100%;
+	table-layout:fixed;
+}
+.creater #wrapper .cntBox .boxInner table th{
+	background:#aaa;
+	color:#fff;
+	text-align:center;
+	font-weight:bold;
+	line-height:1.6;
+}
+.creater #wrapper .cntBox .boxInner table th,
+.creater #wrapper .cntBox .boxInner table td{
+	padding:14px;
+}
+.creater #wrapper .cntBox .boxInner table th.head1{
+	width:17%;
+}
+.creater #wrapper .cntBox .boxInner table th.head2{
+	width:12%;
+}
+.creater #wrapper .cntBox .boxInner table th.head3{
+	width:15%;
+}
+.creater #wrapper .cntBox .boxInner table th.head4{
+	width:14%;
+}
+.creater #wrapper .cntBox .boxInner table th.head5{
+	width:44%;
+}
+#wrapper .cntBox .boxInner table tr.pcBlc{
+	display: table-row;
+}
+.creater #wrapper .cntBox .center{
+	display:block;
+	margin:0 auto 30px;
+}
+.creater #wrapper .anchor{
+	font-size:0;
+	text-align:center;
+	padding:30px 0 30px 40px;
+}
+.creater #wrapper .anchor li{
+	display:inline-block;
+	padding:0 15px;
+}
+.creater #wrapper .mainCont .infoTop h3{
+	border-left:none !important;
+	background:url(../images/dot.png) no-repeat center bottom;
+}
+.creater #wrapper .mainCont .infoTop dt img{
+	padding-bottom:10px;
+}
+.creater #wrapper .mainCont .image{
+	float: left;
+	padding:0 30px 10px 0;
+}
+.pb100{
+	padding-bottom:130px !important;
+}
+/*テキストエリア背景グレー*/
+#wrapper .cntBox .boxInner .bg_gr {
+	margin: 0 0 20px 0;
+	padding:15px;
+	background: #eee;
+}
+#wrapper .cntBox .boxInner .bg_gr .linkBtn a {
+	width: 80%;
+	margin: 20px auto;
+	padding: 15px 0 12px;
+	font-size: 16px;
+	text-align: center;
+	cursor: pointer;
+	display: block;
+	color: #fff;
+	text-decoration:none;
+}
+#wrapper .cntBox .boxInner .bg_gr h5{
+	font-size:16px;
+	color:#555;
+}
+#wrapper .cntBox .boxInner .bg_gr p{
+	font-size:12px;
+}
+.closed{
+	padding: 10px 20px;
+	background: #777;
+	border-radius: 5px;
+	color: #aaa;
+}
+
+/* --------------------------------
+	開催日時のお知らせ date
+--------------------------------　*/
+
+#wrapper .boxInner table.date {
+	font-size: 18px;
+	font-weight: bold;
+}
+#wrapper .boxInner table.date th, #wrapper .boxInner table.date td {
+	border: 2px solid #ccc;
+	background: #fcfcfc;
+}
+#wrapper .boxInner table.date th {
+	text-align: center;
+	width: 105px;
+	font-weight: bold;
+}
+#wrapper .family .boxInner .date tr th p {
+	vertical-align: top;
+	margin-bottom: 0;
+}
+#wrapper .boxInner table.date td {
+	padding-bottom: 0;
+}
+#wrapper .boxInner table.date td span {
+	font-size: 16px;
+	display: block;
+	padding: 5px 0 0;
+}
+#wrapper .boxInner table.date td .ind{
+	font-size:18px;
+	padding-left:37px;
+}
+#wrapper .boxInner table.date rb {
+	letter-spacing: 0.1em;
+}
+#wrapper .boxInner table.date td span rt {
+	font-size: 8px;
+}
+#wrapper .boxInner table.date td p {
+	padding-bottom: 16px;
+	margin-bottom: 0;
+}
+#wrapper .boxInner .attent {
+	font-size: 18px;
+	line-height: 2;
+	padding: 0 5px;
+	margin-left: 20px;
+	padding-bottom: 15px;
+}
+#wrapper .boxInner .redfont {
+	color: #555;
+}
+#wrapper .boxInner .attent li {
+	text-indent: -1em;
+}
+#wrapper .boxInner .attent li ul {
+	margin-top: -5px;
+}
+#wrapper .boxInner .attent rt {
+	font-size: 9px;
+}
+.family dl.gry_bg {
+	margin-bottom: 20px;
+	padding: 10px;
+	background: #eee;
+}
+.family dl dt {
+	font-size:18px;
+	font-weight: bold;
+}
+.family dl dt,
+.family dl dd {
+	margin-bottom: 15px;
+}
+.family .flt {
+	overflow: hidden;
+}
+.family .box {
+	width: 50%;
+	float: left;
+}
+.family .box .btn1 {
+	margin-top: 20px;
+}
+.family .box .btn2 {
+	margin-top: 40px;
+}
+.family .box p {
+	text-align: center;
+}
+.family .font-rd {
+	color: #e95a4d;
+}
+.family .font-nv {
+	color: #152e91;
+}
+
+/*専用フードコート*/
+
+/*#food{
+	margin-top: 30px;	
+}*/
+.photo3 li{
+	margin-bottom: 10px;
+	float: left;	
+}
+.photo3 li:not(:nth-child(3n)){
+	margin-right: 10px;	
+}
+.photo3 dl dt{
+	margin: 10px auto 0;
+	font-size: 14px;
+}
+.photo3 dl .noruby{
+	padding-top: 12px;	
+}
+
+/* --------------------------------
+	おみやげ袋プレゼント
+--------------------------------　*/
+
+/*#gift{
+	margin-top: 30px;	
+}*/
+#gift p:not(:first-child){
+	padding-top: 20px;
+	border-top: 1px solid #ddd;	
+}
+#gift p span{
+	font-size: 18px;
+	color: #f1b719;	
+	font-weight: bold;
+	display: inline-block;
+	line-height: 1.2;
+}
+
+/* --------------------------------
+	会場への行き方　map
+--------------------------------　*/
+#wrapper .boxInner .map {
+	padding: 0 0 25px 5px;
+}
+
+/* --------------------------------
+	わくわくフロア
+--------------------------------　*/
+.wakuwaku #wrapper .mainCont.family .cntBox .boxInner {
+	font-size: 18px !important;
+	/*font-weight: bold;*/
+}
+/*.wakuwaku #wrapper .mainCont.family .cntBox .boxInner p, .wakuwaku #wrapper .mainCont.family .cntBox .boxInner ul {
+	padding: 0 25px 10px;
+}*/
+.wakuwaku #wrapper .mainCont.family .cntBox .boxInner ul {
+	padding-bottom: 20px;
+}
+.wakuwaku #wrapper .mainCont.family .cntBox .boxInner p.bt {
+	line-height: 2;
+	margin-bottom: 30px;
+}
+.wakuwaku #wrapper .mainCont.family .cntBox .boxInner ul li {
+	line-height: 1.5;
+}
+.wakuwaku #wrapper .mainCont.family .cntBox .boxInner h3 {
+	margin-bottom: 12px;
+}
+.wakuwaku #wrapper .mainCont.family .cntBox .boxInner h3.rubyttl {
+	height: auto;/*padding:0 0 5px 11px;*/
+}
+.wakuwaku #wrapper .mainCont.family .cntBox .boxInner dl.photo {
+	padding-bottom: 8px;
+	border-top: 1px solid #fff;
+	box-shadow: 0 -1px 0 #eee;
+}
+.wakuwaku #wrapper .mainCont.family .cntBox .boxInner dl.photo dt {
+	margin-bottom: 0;
+	color: #f1b719;
+	font-weight: bold;
+	padding: 16px 0;
+}
+/* --------------------------------
+	クーポン　coupon
+--------------------------------　*/
+#wrapper .boxInner .coupon {
+	overflow: hidden;
+	_zoom: 1;
+	padding: 18px 0 18px 0px;
+	margin: 0 0 10px 0px;
+}
+#wrapper .boxInner .coupon p {
+	/*width:50%;*/
+	padding: 0;
+	float: left;
+}
+#wrapper .boxInner .coupon .poster {
+	/*width: 405px;*/
+	padding: 0!important;
+}
+#wrapper .boxInner .coupon .print {
+	/*width: 286px;*/
+	padding: 0 0 0 1%!important;
+	float: right;
+}
+/* --------------------------------
+	ステージショウ　stage
+--------------------------------　*/
+.stage .ttl {
+	border-radius: 5px;
+	border: 1px solid #e95a4d;
+	font-size: 18px;
+	height: auto;
+	padding: 10px 10px 8px!important;
+	margin-bottom: 20px;
+	text-align: center;
+	line-height: 1.4;
+	background: #fdeeed;
+}
+.stage h3 span {
+	font-size: 14px;
+}
+.stage .lead {
+	padding: 0px 0 20px 0px;
+	margin-bottom: 0;
+	border-top: none;
+}
+.stage .chara {
+	padding-left: 32px;
+	margin-bottom: 0;
+}
+.stage .stageShow {
+	width: 100%;
+	border: none;
+	margin-top: 30px!important;
+	text-align: center;
+}
+.stage .stageShow th {
+	text-align: center;
+}
+.stage .stageShow td {
+	width: 49%;
+	padding: 0;
+	border-right: 2px solid #fff;
+	border-top: none;
+	border-bottom: none;
+	border-left: none;
+}
+.stage .stageShow td img {
+	width: 100%;
+	height: auto;
+}
+.stage .stageShow td:nth-child(2) {
+	padding: 0;
+	border-right: none;
+}
+.stage .kome li {
+	width: 100%;
+	font-size: 14px;
+	text-indent: -3em;
+	padding-left: 3em;
+	text-align: left;
+}
+.stage p img {
+	width: 100%;
+	height: auto;
+}
+.stage thead th{
+	padding: 5px 20px 10px!important;
+	background: #f1b719!important;
+	color:#fff;
+}
+.stage td.bl{
+background: #e5f8fb;	
+}
+.stage td.or{
+background: #f6e0ca;	
+}
+.stage td.yl{
+	background: #fbf3ce;	
+}
+.stage td.pk{
+background: #f9e0eb;	
+}
+
+/* --------------------------------
+	参加メーカー　sponsors
+--------------------------------　*/
+#wrapper .boxInner .ttl {
+	padding-bottom: 14px;
+	font-size: 18px;
+}
+#wrapper .boxInner .ttl, #wrapper .boxInner .markerList {
+	color: #555;
+	font-weight: bold;
+}
+#wrapper .boxInner .markerList {
+	border: 2px solid #ee867d;
+	border-radius: 5px;
+	font-size: 18px;
+	padding: 20px 30px 40px;
+	margin-bottom: 75px;
+	overflow: hidden;
+	_zoom: 1;
+	line-height: 1.1;
+}
+#wrapper .boxInner .markerList ul {
+	float: left;
+}
+#wrapper .boxInner .markerList ul.listL {
+	width: 250px;
+}
+#wrapper .boxInner .markerList ul.listR {
+	width: 400px;
+}
+#wrapper .boxInner .markerList li {
+	margin: 20px 0 0;
+	padding-left: 1em;
+	text-indent: -1em;
+}
+#wrapper .boxInner .markerList li.rubytxt {
+	margin-top: -12px;
+	padding-bottom: 12px;
+}
+#wrapper .boxInner .markerList li.txt {
+	text-indent: -1em;
+	margin-left: 24px;
+	line-height: 1.1;
+	padding-bottom: 25px;
+}
+#wrapper .boxInner .markerList li.txt2 {
+	padding-bottom: 25px;
+}
+/* --------------------------------
+	会場マップ　map
+--------------------------------　*/
+#wrapper .boxInner .mapImg img {
+	width: 100%;
+	height: auto;
+}
+
+/* ---------------------------------------
+	plus/index.html 参加メーカー　sponsors
+------------------------------------------　*/
+.plus .markerList ul.listL {
+	width: 50%!important;
+}
+.plus .markerList ul.listR {
+	width: 50%!important;
+}
+/*.titleInfo a{
+	display: table-cell;
+}*/
+
+/* ---------------------------------------
+	chrome ruby位置調整
+------------------------------------------　*/
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	body:not(#index) #wrapper .mainCont h2 {
+		padding: 8px 15px 2px;
+	}
+	.linkBtn:not(.noruby) a{
+		padding: 20px 15px 8px 25px;
+	}
+	#wrapper .cntBox .attention{
+		padding-top: 20px;	
+	}
+	.stage .ttl{
+		padding-top: 20px!important;	
+	}
+}
+
+/* *********************************************
+*
+*	SP view
+*	
+********************************************* 
+*/
+
+@media screen and (max-width:769px) {
+/* --------------------------------
+	SP共通
+--------------------------------　*/
+#wrapper .cntBox {
+	min-height: auto;
+}
+#wrapper .mainCont{
+	font-size: 16px;	
+}
+#wrapper .cntBox .boxInner {
+	padding: 20px 13px;
+	/*line-height: 2.2;*/
+}
+#wrapper .boxInner rt {
+	font-size: 9px;
+	/*top: 5px;*/
+}
+/*ナビ*/
+.familyNav{
+	padding: 15px;
+}
+.familyNav dl{
+	width: 100%;
+	height: auto;
+	padding-bottom: 20px;
+}
+.family .familyNav dl dt{
+	width: 100%;
+	height: auto;
+	padding: 8px 10px;
+	display: block;
+}
+
+/*アンカーリンク*/
+.topAnc{
+	max-width: auto;
+	margin: 20px auto;
+}
+.topAnc .linkBtn{
+	width: 80%;
+	margin: 0 auto 10px;
+}
+
+
+/*ボタン*/
+.btnArea{
+	margin: 0px 0 30px;
+}
+.btnArea li{
+	margin: 0 5% 10px;
+	display: block;	
+}
+.btnArea .linkBtn a{
+	width: 100%;
+	padding:10px 10px 10px 25px;
+	background: #f1b719 url(../../common/images/arrow_wh.png) no-repeat 10px center;
+	background-size: 10px auto;
+	display: block;
+}
+small.sp{
+	width: 100%;
+	margin: 10px auto 0;
+	display: inline-block;
+}
+small.pc{
+	display: none;	
+}
+#wrapper .cntBox .boxInner .bg_gr .linkBtn a{
+	width:100%;
+}
+/* --------------------------------
+	SP キッズクリエイター
+--------------------------------　*/
+/*アンカーボタン*/
+#wrapper .cntBox ul.ancMenu {
+	width: 100%;
+	padding: 0;
+	margin-bottom: 5%;
+}
+#wrapper .cntBox ul.ancMenu li {
+	width: 100%;
+	margin-bottom:10px;
+	padding:0;
+}
+#wrapper .cntBox ul.ancMenu li a {
+	width: 100%;
+}
+.creater #wrapper .mainCont .infoTop dt img{
+	text-align:center;
+}
+.creater #wrapper .mainCont .image{
+	float: none;
+	text-align:center;
+	padding-bottom:20px !important;
+}
+.creater #wrapper .cntBox .boxInner table.schedule tr {
+	margin-bottom: 6%;
+	padding-bottom: 2%;
+	border-bottom: 1px solid #eee;
+	display: block;
+}
+.creater #wrapper .cntBox .boxInner table tr td .gr_box{	
+	background: #aaa;
+	padding: 10px 0px 10px 10px;
+	width: auto;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 2%;
+	display: block;
+	color:#fff;
+}
+.creater #wrapper .cntBox .boxInner table.schedule tr.pcBlc{
+	display:none;
+}
+.creater #wrapper .cntBox .anchor{
+	width:100%;
+	padding-left:0;
+}
+.creater #wrapper .cntBox .anchor li{
+	width:50%;
+	padding-left:0;
+}
+.creater #wrapper .cntBox .anchor li:last-child{
+	padding-right:0;
+}
+.creater #wrapper .cntBox .infoTop .image{
+	margin-bottom:0;
+	padding-bottom:0;
+}
+/* --------------------------------
+	SP 開催日時のお知らせ date
+--------------------------------　*/
+
+#wrapper .boxInner table.date {
+	width: 100%;
+}
+#wrapper .boxInner table.date th, #wrapper .boxInner table.date td {
+	display: block;
+	border: none;
+	font-size: 14px;
+}
+#wrapper .boxInner table.date th {
+	width: auto;
+	text-align: left;
+	background: #eee;
+	padding-left: 16px;
+}
+#wrapper .boxInner table.date td span {
+	font-size: 14px;
+	display: block;
+	padding: 5px 0 0;
+}
+#wrapper .boxInner .attent {
+	font-size: 14px;
+	margin-left: 0;
+	line-height: 1.5;
+	padding: 0 0 10px 5px;
+}
+#wrapper .boxInner .attent li {
+	text-indent: 0;
+	padding-bottom: 15px;
+}
+
+/*専用フードコート*/
+
+.photo3 li:not(:nth-child(3n)){
+	margin-right: 0;
+}
+.photo3 li:not(:last-child){
+	margin-bottom: 20px;	
+}
+.photo3 dl dt,
+.photo3 dl dd{
+	display: table-cell;
+}
+.photo3 dl dt{
+	padding-right: 1em;	
+}
+
+/*おみやげ袋*/
+#gift img.flR{
+	width: 100%;
+	float: none;
+	margin-bottom: 15px;	
+}
+
+
+/* --------------------------------
+	SP クーポン　coupon
+--------------------------------　*/
+#wrapper .boxInner .coupon {
+	border: none;
+	width: 100%;
+	padding: 0;
+	margin: 30px 0 0;
+	text-align: center;
+}
+#wrapper .boxInner .coupon p {
+	/*float:none;*/
+	text-align: center;
+}
+#wrapper .boxInner .coupon .poster {
+	width: 100%;
+	padding-left: 0px!important;
+	/*padding-right: 2%;*/
+}
+#wrapper .boxInner .coupon .print {
+	width: 100%;
+	padding: 0px 0 20px 0!important;
+}
+
+/* --------------------------------
+	SP ステージショウ　stage
+--------------------------------　*/
+
+.stage h3 {
+	background-position: left 7px!important;
+}
+.stage h3.ttl {
+	width: auto;
+	height: auto;
+	border: none;
+	font-size: 16px;
+	padding-bottom: 10px;
+	padding-bottom: 0;
+}
+.stage h3 span {
+	display: inline-block;
+	text-align: left;
+	margin-top: 5px;
+	margin-left: 0;
+	padding: 0 0 0 1em;
+	text-indent: -1em;
+}
+.stage .lead {
+	font-size: 14px;
+	line-height: 1.5;
+	border-top: none;
+}
+.stage .chara {
+	padding: 2px 0 0;
+}
+.stage .stageShow th {
+	display: none;
+}
+.stage table.date td {
+	width: 100%!important;
+	border-right: none;
+}
+.stage .stageShow td {
+	width: 90%;
+	padding: 0;
+	margin: 0 auto 5%;
+	border-right: 2px solid #fff;
+	border-top: none;
+	border-bottom: none;
+	border-left: none;
+}
+.stage .stageShow td img {
+	width: 100%;
+	max-width: auto;
+	height: auto;
+}
+.stage .kome {
+	margin-bottom: 30px;
+}
+.stage .kome li {
+	padding-left: 20px;
+}
+.stage td rt{
+	transform:translate(0px, 0px)!important;
+}
+
+
+/* --------------------------------
+	SP  参加メーカー　sponsors
+--------------------------------　*/
+
+#wrapper .boxInner .ttl {
+	padding-bottom: 0px;
+}
+#wrapper .boxInner .markerList {
+	font-size: 19px;
+	border: none;
+	padding: 0 10px 10px;
+	margin-bottom: 0;
+}
+#wrapper .boxInner .markerList ul {
+	float: left;
+}
+#wrapper .boxInner .markerList ul.listL {
+	width: 250px;
+}
+#wrapper .boxInner .markerList ul.listR {
+	width: 400px;
+}
+#wrapper .boxInner .markerList li.rubytxt {
+	height: 29px;
+	margin-top: -7px;
+	padding-bottom: 17px;
+}
+#wrapper .boxInner .markerList li.txt {
+	margin-left: 19px;
+	line-height: 18px;
+	padding-bottom: 0;
+}
+#wrapper .boxInner .markerList li.txt, #wrapper .boxInner .markerList li.txt2 {
+	margin-bottom: 17px;
+}
+/* ---------------------------------------
+	plus/index.html 参加メーカー　sponsors
+------------------------------------------　*/
+.plus .markerList ul.listL {
+	width: 100%!important;
+}
+.plus .markerList ul.listR {
+	width: 100%!important;
+}
+.titleInfo a{
+	display: block;
+}
+
+}
+
+

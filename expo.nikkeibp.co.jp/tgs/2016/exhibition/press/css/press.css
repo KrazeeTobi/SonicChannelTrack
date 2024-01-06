@@ -1,0 +1,131 @@
+@charset "UTF-8";
+
+
+
+/* ===================================
+
+	File Name   : press.css
+
+====================================== */
+
+
+/*========== Style Contents ==========
+
+	1. Individual Redefinition
+	2. Press Release
+	*. Clear Release
+
+====================================== */
+
+
+
+
+
+
+/*===== ■1. Individual Redefinition =====*/
+
+/*----- Global Navigation -----*/
+
+#HeaderNavi #GlobalNavi li.BtnPress a span,
+#HeaderNavi #GlobalNavi li.BtnPress a:hover span {
+	background-position: -148px -50px;
+}
+.ie8 #HeaderNavi #GlobalNavi li.BtnPress a:hover span {
+	background-position: -148px 0px;
+}
+
+
+
+
+
+
+/*===== ■2. Press Release =====*/
+
+#PressRelease {
+}
+#PressRelease ul {
+	padding: 0px 0px 20px;
+	font-size: 115%;
+}
+
+#PressRelease ul li {
+	padding: 20px 0px 22px;
+	width: 800px;
+	line-height: 1.5;
+	border-bottom: 1px solid #cdcdcd;
+}
+
+#PressRelease ul li span {
+	display: block;
+	float: left;
+	padding: 0px 25px 0px 0px;
+	width: 100px;
+	font-weight: bold;
+	/*font-family: Arial, Helvetica, sans-serif;*/
+}
+
+#PressRelease ul li p {
+	float: left;
+	width: 675px;
+}
+#PressRelease ul li p img {
+	margin-bottom: 7px;
+	margin-left: 10px;
+}
+#PressRelease ul li p:after {
+	clear: both;
+	display: block;
+	content: "";
+}
+
+#PressRelease ul li span.languageIcons {
+	float: right;
+	width: 665px;
+	padding: 0px;
+	margin-top: 3px;
+}
+#PressRelease ul li span.languageIcons a {
+	display: block;
+}
+#PressRelease ul li span.languageIcons a:hover{
+	opacity: 0.75;
+}
+#PressRelease ul li span.languageIcons img {
+	float: left;
+	margin-left: -9px;
+	margin-top: 7px;
+}
+
+
+
+
+
+/*===== ■*.Clear Release  =====*/
+
+#PressRelease ul li {
+	/zoom: 1;
+}
+#PressRelease ul li:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+* html #PressRelease ul li { zoom: 1; } /* IE6 */
+*:first-child+html #PressRelease ul li { zoom: 1; } /* IE7 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+

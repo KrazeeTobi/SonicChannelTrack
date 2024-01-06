@@ -1,0 +1,411 @@
+@charset "utf-8";
+/*
+===========================================================================
+
+	Title : beginner.css
+
+===========================================================================
+*/
+
+
+/* *********************************************
+*
+*	PC view
+*	
+********************************************* */
+
+/* 初めての方へカテゴリ　共通設定
+---------------------------------------------------------------- */
+
+#wrapper .cntBox .boxInner hr {
+	border: none;
+}
+/*見出し*/
+#wrapper .cntBox .boxInner h4 {
+	margin-bottom:20px;
+}
+#wrapper .cntBox .boxInner h5 {
+	font-size: 16px;
+	color: #555;
+}
+/*リンクアイコン設定*/
+#wrapper .cntBox .boxInner .lnk_icon {
+	padding: 2px 1px;
+}
+#wrapper .cntBox .boxInner span a {
+	background: none;
+	padding: 0;
+}
+/*リスト設定*/
+#wrapper .cntBox .boxInner ul, ol {
+	margin: 0 auto;
+	padding: 10px 0 10px 0px;
+}
+#wrapper .cntBox .boxInner span.list_top {
+	position: relative;
+	left: -20px;
+}
+/*注釈*/
+#wrapper .cntBox .boxInner .att {
+	font-size: 12px;
+}
+#wrapper .cntBox .boxInner ul.att {
+	list-style: none;
+}
+/*テキストエリア*/
+/*#wrapper .cntBox .boxInner p {
+	padding: 10px;
+}*/
+/*テキストエリア背景グレー*/
+#wrapper .cntBox .boxInner .bg_gr {
+	margin: 0 0 20px 0;
+	padding:15px;
+	background: #eee;
+}
+/* お問い合わせページ設定
+---------------------------------------------------------------- */
+
+/*ボタン*/
+
+#wrapper .cntBox .boxInner .linkBtn a {
+	width: 80%;
+	margin: 20px auto;
+	padding: 15px 0 12px;
+	font-size: 16px;
+	text-align: center;
+	cursor: pointer;
+	display: block;
+	color: #fff;
+	text-decoration:none;
+}
+/* FAQページ設定
+---------------------------------------------------------------- */
+/*アンカーボタン*/
+.faq .menuList ul li{
+	background: url(../images/arrow_next.html) no-repeat 95.5% center;
+	}
+	
+#wrapper .cntBox .boxInner .contents-section {
+	margin: 0px 0 10px 0;
+}
+#wrapper .cntBox .boxInner .contents-section h4 {
+	display: block;
+	margin: 20px 0px 15px;
+	color: #555;
+}
+#wrapper .cntBox .boxInner .contents-section h5 {
+	color: #1e51a2;
+	margin-bottom: 20px;
+}
+#wrapper .cntBox .boxInner div.text {
+	background: #eee;
+	padding: 0;
+	margin: 0 0px 0px 0px;
+	display: block;
+}
+#wrapper .cntBox .boxInner .text p {
+	padding: 10px;
+}
+#wrapper .cntBox .boxInner .text p.second {
+	padding: 0 10px 0px 10px;
+}
+#wrapper .cntBox .boxInner .text p.third {
+	padding: 0 10px 10px 10px;
+}
+#wrapper .cntBox .boxInner .text ul, ol {
+	margin: 0px auto 0;
+	padding: 0px 1em 10px 2em;
+	text-indent:-1em;
+}
+/* -------------------------------------------------------------
+
+	初めてのTGS 
+
+------------------------------------------------------------- */
+
+#wrapper .gait .fit{
+	width: 100%;
+}
+#wrapper .gait .clear{
+	clear:both;
+	}
+#wrapper .gait .boxInner{
+	padding-top:0px;
+	}
+#wrapper .gait p {
+	padding: 0 !important;
+}
+#wrapper .cntBox .boxInner .ph {
+	width: 100%;
+	overflow: hidden;
+}
+/*画像2枚*/
+#wrapper .cntBox .boxInner .ph .phsub{
+	width:50%;
+	/*margin-right:2%;*/
+	margin-bottom:10px;
+	float:left;
+	text-align: right;
+	}
+#wrapper .cntBox .boxInner .ph .phsub2{
+	width:50%;
+	/*margin-left:1%;*/
+	float:left;
+	text-align: left;
+	}
+/*画像3枚*/
+#wrapper .cntBox .boxInner .ph .phsub3 {
+	width:33.3333%;
+	float:left;
+	text-align: center;
+}
+/*#wrapper .cntBox .boxInner .ph .phsub img,
+#wrapper .cntBox .boxInner .ph .phsub2 img,
+#wrapper .cntBox .boxInner .ph .phsub3 img,
+#wrapper .mainCont .right img{
+	border:1px solid #eee;
+	}*/
+/*チケット画像*/
+#wrapper .cntBox .boxInner .ticket {
+	width:49%;
+	margin-right:1%;
+	float:left;
+	text-align: center;
+}
+#wrapper .cntBox .boxInner .ticket img{
+	padding-bottom:10px;
+	}
+#wrapper .cntBox .boxInner .ph .mr {
+	margin-right: 20px;
+}
+/*アンカーボタン*/
+#wrapper .cntBox .boxInner .menuList {
+	margin-bottom: 20px;
+}
+#wrapper .cntBox .boxInner .menuList ul {
+	float: left;
+	display: block;
+	width: 50%;
+	*width: 49%;
+	padding: 0;
+	margin:0 0 10px;
+	text-align: center;
+}
+#wrapper .cntBox .boxInner .menuList ul li {
+	list-style-type: none;
+	display: block;
+	width: 100%;
+	/*margin-left: 12px;*/
+}
+#wrapper .cntBox .boxInner .menuList ul li a {
+	color: #999;
+	font-weight: bold;
+	border: 2px #ccc solid;
+	border-radius: 5px 5px 5px 5px;
+	padding: 10px;
+	margin-bottom: 12px;
+	display: block;
+	width: 300px;
+	text-decoration:none;
+}
+#wrapper .cntBox .boxInner .menuList ul li a:hover {
+	text-decoration: none;
+	opacity: 0.8;
+}
+#wrapper .cntBox .boxInner .menuList ul li span {
+	display: block;
+	margin: 0 auto;
+	line-height: 1;
+}
+#wrapper .cntBox .boxInner .menuList .txt {
+	clear:both;
+	margin:0px 0 0 15px;
+}
+#wrapper .cntBox .boxInner .menuList ul .act a {
+	background-color: #aaa;
+	color: #fff;
+}
+#wrapper .cntBox .boxInner .center{
+	text-align:center;
+	}
+#wrapper .cntBox .boxInner ul{
+	margin:-20px auto 20px;
+	}
+#wrapper .cntBox .boxInner ul li{
+	list-style:none;
+}
+#wrapper .cntBox .boxInner .mb30{
+	margin-bottom:30px;
+	}
+#wrapper .cntBox .boxInner .mb20{
+	margin-bottom:20px;
+	}
+.spacing{
+	letter-spacing:-0.5px;
+	}
+
+/* PC 初めてのTGS　visitor-1～4.html
+------------------------------------------------------------- */
+#wrapper .gait h5{
+	margin-bottom:20px;
+	}
+#wrapper .gait .dotli li{
+	margin-bottom:0!important;
+	}
+#wrapper .gait .line{
+	margin-bottom:20px;
+	padding-top:20px;
+	border-top:1px solid #ddd;
+	border-bottom:1px solid #ddd;
+	overflow: hidden;
+	}
+#wrapper .gait .line .box-half{
+	width:49%;
+	margin-right:1%;
+	float:left;
+	}
+#wrapper .mainCont .left {
+	width: 66%;
+	float: left;
+}
+#wrapper .mainCont .right {
+	width: 33%;
+	float: right;
+	margin-bottom: 22px;
+	text-align: center;
+}
+
+
+
+/* *********************************************
+*
+*	SP view
+*	
+********************************************* */
+
+@media screen and (max-width:769px) {
+/* 初めての方へカテゴリ　SP共通設定
+---------------------------------------------------------------- */	
+
+
+/* お問い合わせページ設定
+---------------------------------------------------------------- */	
+
+/*ボタン*/
+
+#wrapper .cntBox .boxInner .linkBtn a {
+	width: 100%;
+}
+#wrapper .cntBox .boxInner .text a{
+	word-break:	break-strict;
+	word-wrap:break-word;
+}
+
+/* FAQページ設定
+---------------------------------------------------------------- */
+/*アンカーボタン*/
+.faq .menuList ul li{
+	background: url(../images/arrow_next.html) no-repeat 96% center;
+	}
+
+/* -------------------------------------------------------------
+
+	初めてのTGS 
+
+------------------------------------------------------------- */
+
+#wrapper .cntBox .boxInner .ph {
+	display: block;
+	width: auto;
+}
+#wrapper .cntBox .boxInner .ph .phsub,
+#wrapper .cntBox .boxInner .ph .phsub2 {
+	display: block;
+}
+#wrapper .cntBox .boxInner .ph .phsub2 {
+	margin-left:2%;
+	}
+#wrapper .cntBox .boxInner .ph .phsub img,
+#wrapper .cntBox .boxInner .ph .phsub2 img{
+	max-width:230px;
+	padding-bottom:20px;
+	}
+#wrapper .cntBox .boxInner .ph .phsub3 img{
+	width:97%;
+	}
+#wrapper .mainCont .right img{
+	max-width:100%;
+}
+#wrapper .cntBox .boxInner .menuList ul {
+	float: none;
+	width: auto;
+}
+#wrapper .cntBox .boxInner .menuList ul li {
+	display: block;
+	margin-left: 0;
+	width: auto;
+}
+#wrapper .cntBox .boxInner .menuList ul li a {
+	width: auto;
+}
+#wrapper .cntBox .boxInner .menuList ul .txt {
+	width: auto;
+	margin-top: 10px;
+}
+#wrapper .gait .line .box-half{
+	width:100%;
+	margin-right:0;
+	float:none;
+	}
+
+}
+@media screen and (max-width:414px) {
+#wrapper .cntBox .boxInner .ph .phsub {
+	width:100%;
+	margin:0;
+	float:none;
+	text-align: center;
+}
+#wrapper .cntBox .boxInner .ph .phsub2 {
+	width:100%;
+	margin:0;
+	float:none;
+	text-align: center;
+}
+#wrapper .cntBox .boxInner .ph .phsub img,
+#wrapper .cntBox .boxInner .ph .phsub2 img{
+	width:100%;
+	max-width:100%;
+	}
+#wrapper .cntBox .boxInner .ph .phsub3 {
+	width:100%;
+	margin:0 auto;
+	float:none;
+	text-align: center;
+}
+#wrapper .cntBox .boxInner .ph .phsub3 img{
+	width:100%;
+	}
+/*チケット画像*/
+#wrapper .cntBox .boxInner .ticket {
+	width:100%;
+	margin-right:0;
+	float:none;
+}
+/* PC 初めてのTGS　visitor-1～4.html
+------------------------------------------------------------- */
+#wrapper .mainCont .right, #wrapper .mainCont .left {
+	width: auto;
+
+	display: block;
+	float: none;
+}
+#wrapper .mainCont .right {
+	width:100%;
+	text-align: center;
+}
+#wrapper .mainCont .right img{
+	width:100%;
+	}
+}
+
