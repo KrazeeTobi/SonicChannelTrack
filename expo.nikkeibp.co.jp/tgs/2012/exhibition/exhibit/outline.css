@@ -1,0 +1,181 @@
+@charset "UTF-8";
+
+/* ===================================
+	File Name   : outline.css
+	Description : Contact Page Layout CSS
+	Editors     : NS Sakamoto
+	Create Date : 2012/02/15
+
+	Update Description :
+		2012/02/14 Append - Basic Styles [Sakurai]
+		2012/02/14 File Create
+====================================== */
+
+/*========== Style Contents ==========
+
+	1. Individual Redefinition
+	2. Outline
+	3. Outline Torikumi
+	4. 
+	5. 
+	6. Download Button
+	7.  
+	*. Clear Release
+	
+====================================== */
+
+
+
+
+
+/*===== ■1. Individual Redefinition =====*/
+/* Global Navigation */
+#GlobalNavi li#BtnExhibit a,
+#GlobalNavi li#BtnExhibit a:hover {background-position: -600px -51px;}
+
+/* Title Setting */
+h1 em {
+	background: url(img/outline/ttl_outline.jpg) no-repeat;
+	width: 851px;
+	height: 30px;
+}
+
+
+
+
+
+
+/*===== ■2. Outline =====*/
+#Outline h2 {
+	background: url(img/outline/ttl_outline_01.jpg) no-repeat;
+	width: 880px;
+	height:64px;
+	margin: 30px 0 20px 0;
+}
+#Outline h3 {
+	width: 880px;
+	height: 44px;
+	margin: 0;
+}
+#Outline p {
+	margin: 30px 0 0 0;
+	padding: 50px 0 0 0;
+}
+#Outline dl {
+	float: left;
+	display: inline;
+	margin: 10px 0 0 0;
+	padding: 0;
+}
+#Outline dt {
+	float: left;
+	display: inline;
+	margin: 0 0 10px 0;
+	padding: 0;
+	width: 250px;
+	height: 50px;
+}
+#Outline dd {
+	height: 60px;
+}
+#Outline dd span {
+	margin: 0;
+	color: #F77B00;
+}
+
+
+
+
+
+/*===== ■3. Outline Torikumi =====*/
+#Outlinetorikumi h2 {
+	background: url(img/outline/ttl_outline_03.jpg) no-repeat;
+	width: 880px;
+	height:36px;
+	margin: 30px 0 20px 0;
+}
+#Outlinetorikumi p {
+	margin: 0;
+	padding: 20px 0 20px 0;
+	clear: both;
+}
+#Outlinetorikumi dl#LEFT {
+	float: left;
+	margin: 0;
+	padding: 10px;
+	border: 1px solid #eeeeee;
+	width: 426px;
+	height: 240px;
+}
+#Outlinetorikumi dl#LEFT dt {
+	margin: 0 0 5px 0;
+	padding: 0;
+	color: #6186E4;
+	font-weight: bold;
+}
+#Outlinetorikumi dl#LEFT dd {
+	height: 60px;
+}
+#Outlinetorikumi dl#RIGHT {
+	float: right;
+	margin: 0 10px 0 0;
+	padding: 10px;
+	border: 1px solid #eeeeee;
+	width: 400px;
+	height: 105px;
+}
+#Outlinetorikumi dl#RIGHT dt {
+	margin: 0 0 5px 0;
+	padding: 0;
+	color: #6186E4;
+	font-weight: bold;
+}
+#Outlinetorikumi dl#RIGHT dd {
+	height: 60px;
+}
+
+#Outlinetorikumi dl#RIGHT02 {
+	float: right;
+	margin: 10px 10px 0 0;
+	padding: 10px;
+	border: 1px solid #eeeeee;
+	width: 400px;
+	height: 105px;
+}
+#Outlinetorikumi dl#RIGHT02 dt {
+	margin: 0 0 5px 0;
+	padding: 0;
+	color: #6186E4;
+	font-weight: bold;
+}
+#Outlinetorikumi dl#RIGHT02 dd {
+	height: 60px;
+}
+
+
+
+/*===== ■6. Download Button =====*/
+#BtnDownload {
+	padding: 20px 0px 0px 40px;
+}
+
+
+
+
+
+/*===== ■7.  =====*/
+
+
+
+
+
+/*===== ■*.Clear Release  =====*/
+#********************** {
+	/zoom: 1;
+}
+
+#**********************:after {
+	content: '';
+	display: block;
+	clear: both;
+}
