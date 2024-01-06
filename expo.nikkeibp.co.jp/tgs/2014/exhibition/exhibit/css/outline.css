@@ -1,0 +1,613 @@
+@charset "UTF-8";
+
+
+
+/* ===================================
+
+	File Name   : outline.css
+
+	Description : Contact Page Layout CSS
+
+	Editors     : NS Sakamoto
+
+	Create Date : 2012/02/15
+
+
+
+	Update Description :
+
+		2012/02/14 Append - Basic Styles [Sakurai]
+
+		2012/02/14 File Create
+
+====================================== */
+
+
+
+/*========== Style Contents ==========
+
+
+
+	1. Individual Redefinition
+
+	2. Outline
+
+	3. Outline Torikumi
+
+	4. 
+
+	5. 
+
+	6. Download Button
+
+	7.  
+
+	*. Clear Release
+
+	
+
+====================================== */
+
+
+
+
+
+
+
+
+
+
+
+/*===== ■1. Individual Redefinition =====*/
+
+/* Global Navigation */
+
+#GlobalNavi li#BtnExhibit a,
+
+#GlobalNavi li#BtnExhibit a:hover {background-position: -300px -51px;}
+
+
+
+/* Title Setting */
+
+h1 em {
+
+	background: url(../img/outline/ttl_outline.html) no-repeat;
+
+	width: 851px;
+
+	height: 30px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*===== ■2. Outline =====*/
+
+#Outline h2 {
+
+	width: 880px;
+
+	height:64px;
+
+	margin: 30px 0 20px 0;
+
+}
+
+#Outline h3 {
+
+	width: 880px;
+
+	height: 44px;
+
+	margin: 0;
+
+}
+
+#Outline p {
+
+	margin: 30px 0 0 0;
+
+	padding: 50px 0 0 0;
+
+}
+
+#Outline dl {
+
+	display: inline;
+
+	margin: 10px 0 0 0;
+
+	padding: 0;
+
+}
+
+#Outline dt.list01 {
+
+	float: left;
+
+	width: 6em;
+
+	line-height: 150%;
+
+}
+
+#Outline dt.list02 {
+
+	float: left;
+
+	width: 9em;
+
+	line-height: 150%;
+
+}
+
+#Outline dd {
+
+	margin-left: 6em;
+
+	margin-bottom: 10px;
+
+	line-height: 150%;
+
+}
+
+#Outline dd .biz {
+
+	margin: 0 5px 0 0;
+
+	padding: 2px;
+
+	color: #FFFFFF;
+
+	background: #B96DA9;
+
+	line-height: 200%;
+
+}
+
+#Outline dd .general {
+
+	margin: 0 5px 0 0;
+
+	padding: 2px;
+
+	color: #FFFFFF;
+
+	background: #F08200;
+
+	line-height: 200%;
+
+}
+
+#Outline dd .bizday {
+
+	color: #B96DA9;
+
+}
+
+#Outline dd .generalday {
+
+	color: #F08200;
+
+}
+
+#Outline dd .small {
+	font-size: 85%;
+}
+
+
+/*===== ■3. OutlineMain =====*/
+
+#OutlineMain h2 {
+
+	width: 477px;
+
+	height:81px;
+
+	margin: 0 0 20px 0;
+
+	background-image: url(../img/outline/ttl_outline01.jpg);
+
+	display: block;
+
+}
+
+#OutlineMain h2 span {
+
+	display: none;
+
+}
+
+#OutlineMain em {
+
+	width: 380px;
+
+	height:271px;
+
+	margin: 0 0 20px 0;
+
+	float: right;
+
+	display: block;
+
+}
+
+#OutlineMain p {
+
+	width: 480px;
+
+	margin: 0;
+
+	float: left;
+
+	display: block;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/*===== ■3. OutlineMain02 =====*/
+
+#OutlineMain02 h2 {
+
+	width: 585px;
+
+	height:31px;
+
+	margin: 0 0 20px 0;
+
+	background-image: url(../img/outline/ttl_outline02.jpg);
+
+	display: block;
+
+}
+
+#OutlineMain02 h2 span {
+
+	display: none;
+
+}
+
+#OutlineMain02 dl {
+
+	margin: 10px 0 0 0;
+
+	padding: 19px 0 0 19px;
+
+	border: 1px solid #cccccc;
+
+}
+
+#OutlineMain02 dt {
+
+	float: left;
+
+	width: 109px;
+
+	line-height: 150%;
+
+	height: 111px;
+
+	margin: 0 8px 20px 0;
+
+	display: block;
+
+}
+
+#OutlineMain02 dd {
+
+	display: block;
+
+	height: 111px;
+
+	margin: 0 0 20px 0;
+
+}
+
+#OutlineMain02 dd ul li {
+
+	display: block;
+
+	margin: 0 0 5px 0;
+
+}
+
+#OutlineMain02 dd ul li.big {
+
+	display: block;
+
+	font-size: 123.1%;
+
+	font-weight: bold;
+
+	margin: 0 0 7px 0;
+
+}
+
+#OutlineMain02 dd ul li#bl span{
+
+	color: #20b6c4;
+
+}
+
+#OutlineMain02 dd ul li#gr span{
+
+	color: #5dba77;
+
+}
+
+#OutlineMain02 dd ul li#ygr span{
+
+	color: #b3d123;
+
+}
+
+#OutlineMain02 dd ul li#or span{
+
+	color: #f8b313;
+
+}
+
+#OutlineMain02 ol {
+
+	display: block;
+
+	margin: 20px auto 10px auto;
+
+	width: 695px;
+
+	height: 170px;
+
+}
+
+#OutlineMain02 ol li{
+
+	display: block;
+
+	margin: 0;
+
+	float: left;
+
+}
+
+#OutlineMain02 ol li.visitors{
+
+	display: block;
+
+	margin: 0 10px 0 0;
+
+	background-image: url(../img/outline/icon_visitors.jpg);
+
+	background-repeat: no-repeat;
+
+	width: 225px;
+
+	height: 170px;
+
+}
+
+#OutlineMain02 ol li.exhibitor{
+
+	display: block;
+
+	margin: 0 10px 0 0;
+
+	background-image: url(../img/outline/icon_exhibitor.jpg);
+
+	background-repeat: no-repeat;
+
+	width: 225px;
+
+	height: 170px;
+
+}
+
+#OutlineMain02 ol li.Booth{
+
+	display: block;
+
+	margin: 0;
+
+	background-image: url(../img/outline/icon_Booth.jpg);
+
+	background-repeat: no-repeat;
+
+	width: 225px;
+
+	height: 170px;
+
+}
+
+#OutlineMain02 ol li span {
+
+	display: none;
+
+}
+
+
+
+
+
+/*===== ■4. OutlineMain03 =====*/
+
+#OutlineMain03 h2 {
+
+	width: 880px;
+
+	height:360px;
+
+	margin: 0 0 20px 0;
+
+	background-image: url(../img/outline/ttl_outline02-11.jpg);
+
+	display: block;
+
+}
+
+#OutlineMain03 h2 span {
+
+	display: none;
+
+}
+
+
+
+
+
+
+
+
+
+/*===== ■6. Download Button =====*/
+
+#BtnDownload {
+
+	padding: 0px 0px 0px 40px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/*===== ■7. line =====*/
+
+div.line {
+
+	margin: 0 auto;
+
+	padding: 0;
+
+	background-image: url(../img/outline/dot_line.jpg);
+
+	width: 879px;
+
+	height: 40px;
+
+	background-repeat: repeat-x;
+
+	display: block;
+
+}
+
+
+
+
+
+
+
+
+
+/*===== ■*.Clear Release  =====*/
+
+#********************** {
+
+	/zoom: 1;
+
+}
+
+
+
+#**********************:after {
+
+	content: '';
+
+	display: block;
+
+	clear: both;
+
+}
+
+
+
+
+
+
+
+
+
+
+.outline {
+	background:#d1eafa;
+	color:#333333;
+	margin-top:20px;
+
+}
+
+.outline h2 {
+	clear:both;
+	color:#2752a3;
+	font-size:150%;
+	font-weight:bold;
+	margin:0px 20px 10px;
+	padding-top:20px;
+}
+
+.outline p {
+	margin:0 20px 20px;
+}
+
+.outline p img {
+	float:right;
+}
+
+.outline p span {
+	display:block;
+	clear:both;
+	margin:10px 0;
+	padding-bottom:20px;
+	font-size:80%;
+}
+
+.outline dl {
+	position:relative;
+	left:20px;
+}
+
+.outline dt,.outline dd {
+	background:#ffffff;
+	margin-right:10px;
+	width:260px;
+	float:left;
+	padding:10px;
+}
+
+.outline dt {
+	font-size:120%;
+	border-bottom:1px solid #dedede;
+}
+
+.outline dd img {
+	margin-top:10px;
+	width:260px;
+}
+
+.outline p img {
+	margin-left:10px;
+	width:400px;
+}

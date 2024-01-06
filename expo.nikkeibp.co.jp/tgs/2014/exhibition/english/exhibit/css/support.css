@@ -1,0 +1,431 @@
+@charset "UTF-8";
+
+
+
+/* ===================================
+
+	File Name   : support.css
+
+	Description : Contact Page Layout CSS
+
+	Editors     : NS Sakamoto
+
+	Create Date : 2012/02/15
+
+
+
+	Update Description :
+
+		2012/02/14 Append - Basic Styles [Sakurai]
+
+		2012/02/14 File Create
+
+====================================== */
+
+
+
+/*========== Style Contents ==========
+
+
+
+	1. Individual Redefinition
+
+	2. support
+
+	3. Meeting
+
+	4. International
+
+	5. Download Button
+
+	6. 
+
+	7. 
+
+	*. Clear Release
+
+	
+
+====================================== */
+
+
+
+
+
+
+
+
+
+
+
+/*===== ■1. Individual Redefinition =====*/
+
+/* Global Navigation */
+
+#GlobalNavi li#BtnExhibit a,
+
+#GlobalNavi li#BtnExhibit a:hover {background-position: -300px -51px;}
+
+
+
+
+
+/* Title Setting */
+
+h1 em {
+
+	background: url(../img/support/ttl_support.html) no-repeat;
+
+	width: 851px;
+
+	height: 30px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*===== ■2. Support =====*/
+
+h2 {
+
+	width: 879px;
+
+	height: 38px;
+
+	background-color: #6b57a3;
+
+}
+
+h2 strong {
+
+	font-size: 123.1%;
+
+	color: #FFFFFF;
+
+	padding: 10px 0 0 15px;
+
+	display: block;
+
+}
+
+h2 span {
+
+	color: #6B57A3;
+
+	padding: 2px 5px;
+
+	display: block;
+
+	float: right;
+
+	background-color: #FFFFFF;
+
+	margin: 10px 10px 0 0;
+
+}
+
+#Support {
+
+	margin: 0 auto 30px auto;
+
+	width: 880px;
+
+}
+
+#Support em {
+
+	display: block;
+
+	margin: -20px 0 0 0;
+
+	background-image: url(../img/support/icon_free.png);
+
+	background-repeat: no-repeat;
+
+	width: 88px;
+
+	height: 43px;
+
+	float: right;
+
+}
+
+#Support p {
+
+	margin: 10px 0px 20px 0px;
+
+}
+
+#Support .systemflow {
+
+	float: left;
+
+	margin-top: 20px;
+
+}
+
+#Support .system {
+
+	float: left;
+
+	margin-top: 20px;
+
+	border: solid 1px #CCCCCC;
+
+	padding: 5px;
+
+}
+
+#Support p {
+
+	margin: 10px 0 0 0;
+
+	width: 630px;
+
+}
+
+#Support img {
+
+	margin: 15px 15px 0 0;
+
+	float: right;
+
+}
+
+#Support .system dt {
+
+	display: block;
+
+	width: 440px;
+
+	color: #a092c5;
+
+	font-weight: bold;
+
+}
+
+#Support .system dd{
+
+	margin: 5px 0 10px 0;
+
+	clear: both;
+
+}
+
+#Support .system dd img{
+
+	float: left;
+
+	margin-top: 0px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/*===== ■3. Meeting =====*/
+
+#Meeting {
+
+	margin: 0 auto 30px auto;
+
+	width: 880px;
+
+}
+
+#Meeting em {
+
+	display: block;
+
+	margin: -20px 0 0 0;
+
+	background-image: url(../img/support/icon_free.png);
+
+	background-repeat: no-repeat;
+
+	width: 88px;
+
+	height: 43px;
+
+	float: right;
+
+}
+
+
+
+#Meeting p {
+
+	margin: 10px 0px 10px 0px;
+
+}
+
+
+
+#Meeting img {
+
+	margin: 15px 10px 0 0;
+
+	float: left;
+
+	clear: both;
+
+}
+
+#Meeting .system {
+
+	margin: 0px 0px 30px 0px;
+
+	border: solid 1px #CCCCCC;
+
+	padding: 5px;
+
+	float: left; 
+
+}
+
+#Meeting .system dt {
+
+	width: 340px;
+
+	color: #a092c5;
+
+	font-weight: bold;
+
+}
+
+
+
+
+
+
+
+/*===== ■4. International =====*/
+
+#International em {
+
+	display: block;
+
+	margin: -20px 0 0 0;
+
+	background-image: url(../img/support/icon_free.png);
+
+	background-repeat: no-repeat;
+
+	width: 88px;
+
+	height: 43px;
+
+	float: right;
+
+}
+
+#International p {
+
+	margin: 10px 0px 30px 0px;
+
+
+}
+
+
+
+#International img {
+
+	margin: 15px 15px 30px 10px;
+
+	float: right;
+
+	clear: both;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/*===== ■5. Download Button =====*/
+
+#BtnDownload {
+
+	padding: 0px 0px 0px 40px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*===== ■6.  =====*/
+
+
+
+
+
+
+
+
+
+
+
+/*===== ■7.  =====*/
+
+
+
+
+
+
+
+
+
+
+
+/*===== ■*.Clear Release  =====*/
+
+#********************** {
+
+	/zoom: 1;
+
+}
+
+
+
+#**********************:after {
+
+	content: '';
+
+	display: block;
+
+	clear: both;
+
+}
+

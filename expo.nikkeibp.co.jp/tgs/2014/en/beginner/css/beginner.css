@@ -1,0 +1,345 @@
+@charset "utf-8";
+/*
+===========================================================================
+
+	Title : beginner.css
+
+===========================================================================
+*/
+
+
+/* *********************************************
+*
+*	PC view
+*	
+********************************************* */
+
+/* 初めての方へカテゴリ　共通設定
+---------------------------------------------------------------- */
+
+/*区切り線*/
+#wrapper .cntBox .boxInner .line {
+	height: 10px;
+	background: url(../../../common/images/line.png) no-repeat top;
+	margin: 0 0 20px 0;
+}
+#wrapper .cntBox .boxInner hr {
+	border: none;
+}
+/*見出し*/
+#wrapper .cntBox .boxInner h4 {
+	font-size: 16px;
+	margin-bottom:20px;
+}
+#wrapper .cntBox .boxInner h5 {
+	padding: 10px;
+	font-size: 16px;
+	color: #555;
+}
+/*リンクアイコン設定*/
+#wrapper .cntBox .boxInner .lnk_icon {
+	padding: 3px 2px;
+}
+#wrapper .cntBox .boxInner span a {/*共通CSSリンクスタイル無効化*/
+	background: none;
+	padding: 0;
+}
+/*リスト設定*/
+#wrapper .cntBox .boxInner ul, ol {
+	width: 95%;
+	margin: 0 auto;
+	padding: 10px 0 10px 20px;
+}
+#wrapper .cntBox .boxInner ul li {
+	list-style: disc;
+	list-style-position: outside;
+}
+#wrapper .cntBox .boxInner ol li {
+	list-style: decimal;
+	list-style-position: outside;
+}
+#wrapper .cntBox .boxInner span.list_top {
+	position: relative;
+	left: -20px;
+}
+/*注釈*/
+#wrapper .cntBox .boxInner .att {
+	font-size: 12px;
+}
+#wrapper .cntBox .boxInner ul.att {
+	list-style: none;
+}
+/*テキストエリア*/
+#wrapper .cntBox .boxInner p {
+	padding: 10px;
+}
+/*テキストエリア背景グレー*/
+#wrapper .cntBox .boxInner .bg_gr {
+	margin: 0 0 20px 0;
+	padding: 10px 10px 10px 10px;
+	background: #eee;
+}
+/* お問い合わせページ設定
+---------------------------------------------------------------- */
+
+/*ボタン*/
+
+#wrapper .cntBox .boxInner .btn a {
+	width: 80%;
+	margin: 5px auto;
+	padding: 15px 15px;
+	background: #37bfdb;
+	font-size: 16px;
+	font-weight: bold;
+	letter-spacing: 0.1em;
+	text-align: center;
+	cursor: pointer;
+	display: block;
+	color: #fff;
+}
+/* FAQページ設定
+---------------------------------------------------------------- */
+
+
+/*#faqMenuトグル設定*/
+#wrapper .cntBox .boxInner .contents-section {
+	margin: 0px 0 10px 0;
+}
+#wrapper .cntBox .boxInner .contents-section h4 {
+	display: block;
+	margin: 5px 5px 5px;
+	padding: 11px 10px 10px 30px;
+	background: url(../../../beginner/images/icon_down.gif) no-repeat 10px 11px;
+	background-color: #e5f1f3;
+	font-size: 14px;
+	font-weight: bold;
+	color: #555;
+	cursor: pointer;
+}
+#wrapper .cntBox .boxInner .contents-section h5 {
+	color: #5ab7ac;
+}
+#wrapper .cntBox .boxInner h4.active {
+	background: url(../../../beginner/images/icon_up.gif) no-repeat 10px 11px;
+	background-color: #e5f1f3;
+}
+#wrapper .cntBox .boxInner div.text {
+	background: #eee;
+	padding: 0;
+	margin: 0 5px 0px 5px;
+}
+#wrapper .cntBox .boxInner .text p {
+	padding: 10px;
+}
+#wrapper .cntBox .boxInner .text p.second {
+	padding: 0 10px 0px 10px;
+}
+#wrapper .cntBox .boxInner .text p.third {
+	padding: 0 10px 10px 10px;
+}
+#wrapper .cntBox .boxInner .text ul, ol {
+	width: 90%;
+	margin: -20px auto 0;
+	padding: 0px 0 10px 10px;
+}
+/* -------------------------------------------------------------
+
+	初めてのTGS 
+
+------------------------------------------------------------- */
+#wrapper .gait p {
+	padding: 0 !important;
+}
+#wrapper .cntBox .boxInner .ph {
+	display: table;
+	width: 100%;
+	text-align: center;
+}
+#wrapper .cntBox .boxInner .ph .phsub {
+	/*width: 50%;*/
+	display: inline-block;
+	padding: 7px;
+}
+#wrapper .cntBox .boxInner .ph .ticket {
+	/*width: 50%;*/
+	display: inline-block;
+	padding: 7px 0;
+}
+#wrapper .cntBox .boxInner .ph .phsub2 {
+	/*width: 50%;*/
+	display: inline-block;
+	padding: 7px 1px;
+}
+#wrapper .cntBox .boxInner .ph .phsub p {
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+#wrapper .cntBox .boxInner .ph .phsub p img {
+	max-width: 100%;
+	height: auto;
+}
+#wrapper .cntBox .boxInner .ph .mr {
+	margin-right: 20px;
+}
+#wrapper .cntBox .boxInner .menuList {
+	margin-bottom: 20px;
+}
+#wrapper .cntBox .boxInner .menuList ul {
+	float: left;
+	display: block;
+	width: 50%;
+	padding: 0;
+	margin:0;
+	text-align: center;
+}
+#wrapper .cntBox .boxInner .menuList ul li {
+	list-style-type: none;
+	display: block;
+	/*padding: 5px;*/
+	width: 100%;
+	/*float: left;*/
+	margin-left: 12px;
+}
+#wrapper .cntBox .boxInner .menuList ul li a {
+	color: #999;
+	font-weight: bold;
+	border: 2px #ccc solid;
+	border-radius: 5px 5px 5px 5px; /* radius */
+	padding: 10px;
+	margin-bottom: 12px;
+	display: block;
+	width: 320px;
+}
+#wrapper .cntBox .boxInner .menuList ul li a:hover {
+	text-decoration: none;
+	opacity: 0.8;
+}
+#wrapper .cntBox .boxInner .menuList ul li span {
+	display: block;
+	margin: 0 auto;
+	line-height: 1.3;
+}
+#wrapper .cntBox .boxInner .menuList ul .txt {
+	padding: 0;
+	border: 0;
+	color: #333;
+	font-size: 12px;
+	text-align: left;
+	margin: 25px 0 0 25px;
+	text-indent: -10px;
+	width: 320px;
+}
+#wrapper .cntBox .boxInner .menuList ul .act a {
+	background-color: #999;
+	color: #fff;
+}
+#wrapper .cntBox .boxInner .center{
+	text-align:center;
+	}
+#wrapper .cntBox .boxInner ul{
+	margin:-20px auto 20px;
+	}
+#wrapper .cntBox .boxInner ul li{
+		list-style:none;
+}
+#wrapper .cntBox .boxInner .mb30{
+	margin-bottom:30px;
+	}
+#wrapper .cntBox .boxInner .mb20{
+	margin-bottom:20px;
+	}
+
+/* PC 初めてのTGS　visitor-1～4.html
+------------------------------------------------------------- */
+.attent {
+	color: #e71a19;
+}
+#wrapper .mainCont .left {
+	width: 420px;
+	float: left;
+}
+#wrapper .mainCont .right {
+	float: right;
+	margin-bottom: 22px;
+}
+/* PC .mainCont .subArea
+---------------------------------------------------------------- */
+#wrapper .mainCont .subArea #submenu h1 {
+	background: url(../images/subnav_ttl_beginner.png) no-repeat top center;
+	height: 32px;
+}
+
+/* *********************************************
+*
+*	SP view
+*	
+********************************************* */
+
+@media screen and (max-width:769px) {
+/* 初めての方へカテゴリ　SP共通設定
+---------------------------------------------------------------- */	
+
+/*リンクアイコン設定*/
+.lnk_icon {
+	padding: 0px 2px;
+}
+#wrapper .cntBox .boxInner p.pagetop {
+	background: url(../../../common/images/pagetop.gif) no-repeat right top;
+}
+/* お問い合わせページ設定
+---------------------------------------------------------------- */	
+
+/*ボタン*/
+#wrapper .cntBox .boxInner .btn, .btn2 {
+	width: 90%;
+	padding: 4%;
+	margin: 2% auto;
+	font-size: 16px;
+}
+/* PC .mainCont .subArea
+---------------------------------------------------------------- */
+#wrapper .mainCont .subArea #submenu h1 {
+	height: auto;
+}
+/* -------------------------------------------------------------
+
+	初めてのTGS 
+
+------------------------------------------------------------- */
+
+#wrapper .cntBox .boxInner .ph {
+	display: block;
+	width: auto;
+}
+#wrapper .cntBox .boxInner .ph .phsub {
+	width: auto;
+	display: block;
+}
+#wrapper .cntBox .boxInner .menuList ul {
+	float: none;
+	width: auto;
+}
+#wrapper .cntBox .boxInner .menuList ul li {
+	display: block;
+	margin-left: 0;
+	width: auto;
+}
+#wrapper .cntBox .boxInner .menuList ul li a {
+	width: auto;
+}
+#wrapper .cntBox .boxInner .menuList ul .txt {
+	width: auto;
+	margin-top: 10px;
+}
+/* PC 初めてのTGS　visitor-1～4.html
+------------------------------------------------------------- */
+#wrapper .mainCont .right, #wrapper .mainCont .left {
+	width: auto;
+	display: block;
+	float: none;
+}
+#wrapper .mainCont .right {
+	text-align: center;
+}
+}
