@@ -1,0 +1,62 @@
+@charset "utf-8";
+/*
+===========================================================================
+
+	Title : charity.css
+
+===========================================================================
+*/
+
+
+/* *********************************************
+*
+*	PC view
+*	
+********************************************* */
+
+/*幅設定*/
+#wrapper .cntBox {
+	width: 980px !important;
+}
+#wrapper .cntBox .boxInner .cli li {
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 15px;
+	padding-bottom: 10px;
+}
+#wrapper .cntBox .boxInner .cli li dl {
+	overflow: hidden;
+}
+#wrapper .cntBox .boxInner .cli li dl dt {
+	padding-left:10px;
+	float: left;
+	margin-right: 20px;
+	width: 25%;
+	border-left:4px solid #1e51a2;
+}
+#wrapper .cntBox .boxInner .cli li dl dd {
+	float: left;
+	width: 70%;
+}
+
+
+
+/* *********************************************
+*
+*	SP view
+*	
+********************************************* */
+
+
+@media screen and (max-width:769px) {
+
+#wrapper .cntBox {
+	width: 100%!important;
+}
+#wrapper .cntBox .boxInner .cli li dl dt {
+	width: 100%;
+}
+#wrapper .cntBox .boxInner .cli li dl dd {
+	width: 100%;
+}
+
+}

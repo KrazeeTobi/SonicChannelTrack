@@ -1,0 +1,76 @@
+@charset "utf-8";
+/*
+===========================================================================
+
+	Title : goods.css
+
+===========================================================================
+*/
+
+
+/* *********************************************
+*
+*	PC view
+*	
+********************************************* */
+/*幅設定*/
+#wrapper .cntBox {
+	width: 980px !important;
+}
+#wrapper .goods .boxInner .left {
+	width: 68%;
+	padding:0 4%;
+	float: left;
+}
+#wrapper .goods .boxInner .right {
+	width: 14%;
+	float: left;
+}
+#wrapper .goods .boxInner .right p {
+	padding: 0px 20px 0;
+	margin: 0;
+}
+
+
+
+
+/* *********************************************
+*
+*	SP view
+*	
+********************************************* */
+
+
+@media screen and (max-width:769px) {
+
+/*幅設定*/
+#wrapper .cntBox {
+	width: 100% !important;
+}
+#wrapper .goods .boxInner .left {
+	width: 62%;
+}
+#wrapper .goods .boxInner .right {
+	width: 28%;
+	margin-bottom:20px;
+}
+
+}
+
+@media screen and (max-width:414px) {
+
+#wrapper .goods .boxInner .left {
+	width: 100%;
+	padding:0;
+}
+#wrapper .goods .boxInner .right {
+	width: 100%;
+	padding:0;
+	text-align:center;
+	margin-bottom:20px;
+}
+
+
+	}
+	
+	

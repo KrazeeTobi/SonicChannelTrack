@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+/* ===================================
+
+	File Name   : preview.css
+
+====================================== */
+
+
+/*========== Style Contents ==========
+
+	1. Individual Redefinition
+	2. Picture Box
+	*. Clear Release
+
+====================================== */
+
+
+
+
+
+
+/*===== ■1. Individual Redefinition =====*/
+
+/*----- Global Navigation -----*/
+
+#GlobalNavi li#BtnPreview a,
+#GlobalNavi li#BtnPreview a:hover { background-position: -319px -151px;} 
+
+
+
+/*----- Section Foot -----*/
+
+.SectionFoot .btn li a {
+	background-image: url(../img/btn_lasttime_site.png);
+}
+
+
+
+
+
+
+/*===== ■2. Picture Box =====*/
+
+.PictureBox {
+	margin-bottom: 50px;
+	width: 860px;
+	overflow: hidden;
+}
+.PictureBox .Section_ttl {
+	margin-bottom: 20px;
+    height: 24px;
+}
+.PictureBox .Section_ttl_a {
+    height: 38px;
+}
+.PictureBox ul {
+	width: 864px;
+}
+.PictureBox ul li {
+	float: left;
+	margin: 0px 4px 4px 0px;
+	width: 284px;
+}
+
+
+
+
+
+
+/*===== ■*.Clear Release  =====*/
+
+.Section ul {
+	/zoom: 1;
+}
+.Section ul:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+

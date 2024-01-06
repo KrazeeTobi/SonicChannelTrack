@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+
+
+/* ===================================
+
+	File Name   : press.css
+
+====================================== */
+
+
+/*========== Style Contents ==========
+
+	1. Individual Redefinition
+	2. Press Release
+	3. Section Foot
+	4. Download Button
+
+====================================== */
+
+
+
+
+
+
+/*===== ■1. Individual Redefinition =====*/
+
+/*----- Global Navigation -----*/
+
+#GlobalNavi li#BtnPress a,
+#GlobalNavi li#BtnPress a:hover { background-position: -319px -101px;}
+
+
+
+/*----- Section Foot -----*/
+
+.SectionFoot .btn li a {
+	background-image: url(../img/downloadcenter.gif);
+}
+
+
+
+
+
+
+/*===== ■2. Press Release =====*/
+
+#PressRelease {
+	margin-top: 0px;
+}
+#PressRelease ul {
+	padding: 5px 0px 10px;
+	font-size: 115%;
+}
+
+#PressRelease ul li {
+	padding: 24px 0px 26px;
+	width: 860px;
+	line-height: 1.5;
+	background: url(../../common/img/line_dotted-gray.jpg) repeat-x 0px bottom;
+}
+
+#PressRelease ul li strong {
+	display: block;
+	float: left;
+	padding: 0px 25px 0px 0px;
+	width: 100px;
+	font-weight: bold;
+	/*font-family: Arial, Helvetica, sans-serif;*/
+}
+
+#PressRelease ul li p {
+	float: left;
+	width: 725px;
+}
+
+
+
+
+
+
+/*===== ■*.Clear Release  =====*/
+
+#PressRelease ul li {
+	/zoom: 1;
+}
+#PressRelease ul li:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+* html #PressRelease ul li { zoom: 1; } /* IE6 */
+*:first-child+html #PressRelease ul li { zoom: 1; } /* IE7 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+

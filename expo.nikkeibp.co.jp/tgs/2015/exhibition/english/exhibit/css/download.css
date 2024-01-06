@@ -1,0 +1,124 @@
+@charset "UTF-8";
+
+/* ===================================
+
+	File Name   : download.css
+
+====================================== */
+
+/*========== Style Contents ==========
+
+	1. Individual Redefinition
+	2. Download
+	3. Download Kikaku
+	*. Clear Release
+
+====================================== */
+
+
+
+
+
+
+/*===== ■1. Individual Redefinition =====*/
+
+/*----- Global Navigation -----*/
+
+#GlobalNavi li#BtnExhibit a,
+#GlobalNavi li#BtnExhibit a:hover {background-position: -320px -51px;}
+
+
+
+/*----- Section Foot -----*/
+
+.SectionFoot .btn li a {
+	background-image: url(../img/download/download_zip_btn.gif);
+}
+
+
+
+/*----- Page Common Parts -----*/
+
+.DownloadSubTitle {
+	margin-top: 20px;
+	padding: 12px 10px 8px;
+    min-height: 24px;
+	font-size: 115%;
+	font-weight: bold;
+	color: #051426;
+	background-color: #bac0c9;
+}
+
+.DownloadPdfList {
+	margin: 20px 10px 0px 10px;
+	padding: 5px 0px;
+}
+.DownloadPdfList li {
+	margin: 0 0 20px 0;
+	padding: 0px 4px 10px 25px;
+	border-bottom: 1px dotted #929292;
+	height: 25px;
+	font-size: 110%;
+	background: url(../img/rule/pdf_icon.png) left 0px no-repeat;
+}
+
+
+
+
+
+
+/*===== ■2. Download =====*/
+
+#Download {
+	width: 880px;
+}
+
+
+
+
+
+
+
+/*===== ■3. Download Kikaku =====*/
+
+div.downloadBox{
+	width:860px;
+	margin-left:20px;
+}
+
+div.downloadBox dl.downloadBox_dl {
+	margin-top: 10px;
+	padding: 20px 30px;
+	border: solid 1px #CCCCCC;
+}
+div.downloadBox dl.downloadBox_dl dt {
+	margin: 0 0 5px 0;
+	font-weight: bold;
+}
+
+div.downloadBox dl.downloadBox_dl dt span{
+	margin-bottom:20px;
+	font-weight: normal;
+}
+
+div.downloadBox dl.downloadBox_dl dd{
+	margin-bottom: 16px;
+}
+
+
+
+
+
+
+
+/*===== ■*.Clear Release  =====*/
+
+/*#********************** {
+	/zoom: 1;
+}
+
+#**********************:after {
+	content: '';
+	display: block;
+	clear: both;
+}*/
