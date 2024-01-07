@@ -1,0 +1,843 @@
+@charset "UTF-8";
+header {
+  border-bottom: 5px solid #5fc1c7; }
+
+#buttons {
+  margin-bottom: 15px;
+  overflow: hidden; }
+  #buttons li {
+    width: 207px;
+    float: left;
+    margin-right: 14px; }
+    #buttons li:last-child {
+      margin-right: 0; }
+      @media only screen and (max-width: 640px) {
+        #buttons li:last-child {
+          margin-bottom: 0px; } }
+    @media only screen and (max-width: 640px) {
+      #buttons li {
+        width: 100%;
+        margin-bottom: 5px; } }
+  #buttons li a {
+    width: auto;
+    display: block;
+    background-color: #5fbac0;
+    border-bottom: 5px #488e94 solid;
+    color: #fff;
+    font-size: 12px;
+    background-image: url(../../visitor/images/mark01.png);
+    background-repeat: no-repeat;
+    background-position: center left 7px;
+    height: 54px;
+    line-height: 50px;
+    padding-left: 25px; }
+    #buttons li a:hover {
+      text-decoration: none; }
+  #buttons li:last-child a {
+    line-height: 1.4;
+    padding-top: 8px; }
+
+.gray-box .title {
+  margin-top: 20px;
+  font-size: 24px;
+  color: #00557f;
+  line-height: 1.4;
+  border-bottom: 3px solid #5fbac0;
+  display: inline-block; }
+
+.gray-box .text {
+  margin-top: 15px; }
+
+.gray-box .map {
+  margin-top: 30px;
+  margin-bottom: 30px; }
+  @media only screen and (max-width: 640px) {
+    .gray-box .map img {
+      width: 100%; } }
+
+.gray-box .small {
+  font-size: 12px; }
+
+.gray-box .fleft {
+  float: left;
+  width: 260px;
+  display: inline-block;
+  margin-right: 10px; }
+
+.gray-box .white-box {
+  width: auto;
+  padding: 10px;
+  background-color: #fff;
+  font-size: 14px;
+  margin-top: 15px;
+  margin-bottom: 30px; }
+  .gray-box .white-box a {
+    background-image: none;
+    color: #00557f !important;
+    border-bottom: 0; }
+
+.ticket {
+  margin-top: 20px;
+  font-size: 12px; }
+  .ticket th {
+    text-align: center;
+    padding: 10px;
+    background-color: #5fbac0;
+    color: #fff;
+    border: 1px solid #becdd3; }
+  .ticket td {
+    border-bottom: 1px solid #becdd3;
+    background-color: #fff;
+    padding: 10px; }
+    .ticket td p.line {
+      padding-top: 5px;
+      border-top: 1px solid #becdd3; }
+  .ticket td.clm {
+    border-right: 1px solid #becdd3;
+    background-color: #f3ffff; }
+
+.title2 {
+  font-size: 18px;
+  margin-top: 20px; }
+
+.title3 {
+  font-size: 18px;
+  margin-top: 20px;
+  padding-left: 10px;
+  background-color: #5fbac0; }
+
+.ticket_title {
+  margin-top: 15px; }
+  .ticket_title li {
+    float: left;
+    width: 33.3%;
+    text-align: center; }
+
+.ticket_in {
+  width: 100%;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-box;
+  display: -webkit-flexbox;
+  display: -moz-flexbox;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: flex;
+  -webkit-box-lines: multiple;
+  -moz-box-lines: multiple;
+  -webkit-flex-wrap: wrap;
+  -moz-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
+  .ticket_in li {
+    float: left;
+    width: 33.3%;
+    border: solid 1px;
+    padding: 9px;
+    border-color: #000; }
+    @media only screen and (max-width: 640px) {
+      .ticket_in li p {
+        font-size: 12px; } }
+  .ticket_in li:nth-of-type(1) {
+    color: #fff;
+    background-color: #5fbac0;
+    padding: 30px 15px 30px 15px; }
+    @media only screen and (max-width: 640px) {
+      .ticket_in li:nth-of-type(1) {
+        padding: 15px 7px; } }
+  .ticket_in li:nth-of-type(2) {
+    background-color: #becdd3; }
+    .ticket_in li:nth-of-type(2) p:nth-of-type(1) {
+      padding-top: 30px;
+      margin-left: 4%;
+      display: block;
+      width: 170px; }
+      @media only screen and (max-width: 640px) {
+        .ticket_in li:nth-of-type(2) p:nth-of-type(1) {
+          width: auto;
+          padding-right: 9%; } }
+      .ticket_in li:nth-of-type(2) p:nth-of-type(1) .link-btn {
+        font-size: 12px;
+        color: #e74388;
+        padding: 2px 4px 2px 22px;
+        background: url(../images/g_arrow.svg) no-repeat 5px center #fff;
+        background-size: auto 70%;
+        border-bottom: 2px solid #cccccc; }
+        .ticket_in li:nth-of-type(2) p:nth-of-type(1) .link-btn.border {
+          border: 1px solid #ccc; }
+        .ticket_in li:nth-of-type(2) p:nth-of-type(1) .link-btn.d_link {
+          background: url(../images/g_arrow_w.html) no-repeat 5px center #aaa !important;
+          color: #666 !important;
+          background-size: auto 70% !important;
+          border-bottom: 2px solid #cccccc !important;
+          padding: 2px 14px 2px 22px !important; }
+        @media only screen and (max-width: 640px) {
+          .ticket_in li:nth-of-type(2) p:nth-of-type(1) .link-btn {
+            background-size: auto 16px; } }
+    .ticket_in li:nth-of-type(2) p:nth-of-type(2) {
+      font-size: 10px;
+      margin-top: 5px;
+      margin-left: 4%; }
+  .ticket_in li:nth-of-type(3) {
+    background-color: #fff;
+    padding: 30px 15px 30px 15px; }
+    .ticket_in li:nth-of-type(3) .b_link {
+      padding: 2px 4px 2px 17px;
+      background: url(../images/blank.svg) no-repeat 0px center;
+      background-size: auto 50%;
+      color: #e74388; }
+
+.gray-box {
+  margin-top: 20px; }
+
+#support dl {
+  display: block;
+  overflow: hidden; }
+
+#support .campaign {
+  margin-top: 15px; }
+  #support .campaign > dt {
+    float: left;
+    padding: 3px;
+    border: 1px solid #000;
+    background: #fff; }
+  #support .campaign > dd {
+    float: left;
+    padding: 4px; }
+
+#support dl:nth-of-type(2) {
+  margin-top: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #fff; }
+  #support dl:nth-of-type(2) > dt {
+    width: 39.9%;
+    float: left; }
+  #support dl:nth-of-type(2) > dd {
+    width: 59.9%;
+    float: left; }
+    #support dl:nth-of-type(2) > dd dl {
+      float: left;
+      width: 49%;
+      margin-top: 0;
+      border-bottom: none; }
+      #support dl:nth-of-type(2) > dd dl dt {
+        float: none;
+        width: 100%; }
+        #support dl:nth-of-type(2) > dd dl dt img {
+          width: 100%; }
+      #support dl:nth-of-type(2) > dd dl dd {
+        float: none;
+        width: 100%; }
+        #support dl:nth-of-type(2) > dd dl dd p {
+          text-align: center; }
+        #support dl:nth-of-type(2) > dd dl dd img {
+          width: 100%; }
+
+#support dl:nth-of-type(4) {
+  margin-top: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #fff; }
+  #support dl:nth-of-type(4) dt {
+    float: left;
+    width: 69.9%; }
+  #support dl:nth-of-type(4) dd {
+    float: left;
+    width: 29.9%; }
+    #support dl:nth-of-type(4) dd img {
+      width: 50%;
+      overflow: hidden;
+      display: block;
+      margin: 0 auto; }
+
+#support .normal-box {
+  margin-top: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #fff; }
+
+#support .b_link {
+  padding: 2px 4px 2px 17px;
+  background: url(../images/blank.svg) no-repeat 0px center;
+  background-size: auto 70%;
+  color: #e74388; }
+
+#support .dead_link {
+  display: none !important; }
+
+#support .kaisaidl {
+  width: 100% !important; }
+  #support .kaisaidl dt {
+    float: none !important;
+    width: 100% !important; }
+  #support .kaisaidl dd {
+    float: none !important;
+    width: 100% !important; }
+    #support .kaisaidl dd p {
+      margin-top: 15px; }
+
+#support .normal-box2 {
+  margin-top: 20px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #fff; }
+  #support .normal-box2 h3 {
+    font-size: 18px; }
+  #support .normal-box2 p {
+    margin-top: 15px; }
+    #support .normal-box2 p span {
+      color: #e74388; }
+
+.greeting.g01 .image {
+  background-image: url(../../visitor/images/greeting01.jpg); }
+
+.greeting.g02 {
+  margin-top: 30px; }
+  .greeting.g02 .image {
+    background-image: url(../../visitor/images/greeting02.jpg); }
+    .greeting.g02 .image p {
+      padding-top: 70px; }
+
+.greeting .image {
+  margin-top: 36px;
+  width: 590px;
+  height: 209px;
+  color: #fff;
+  font-size: 16px;
+  margin-bottom: 15px; }
+  @media only screen and (max-width: 640px) {
+    .greeting .image {
+      width: 100%; } }
+  .greeting .image p {
+    padding-top: 56px;
+    padding-left: 180px; }
+    @media only screen and (max-width: 640px) {
+      .greeting .image p {
+        padding-left: 0; } }
+  .greeting .image .name {
+    padding-left: 180px; }
+    @media only screen and (max-width: 640px) {
+      .greeting .image .name {
+        padding-left: 0; } }
+    .greeting .image .name span {
+      font-size: 20px;
+      display: inline-block;
+      padding-left: 10px; }
+
+.white-box dt {
+  border-bottom: #e2e8eb solid 1px;
+  font-weight: bold; }
+
+.white-box dd {
+  margin-bottom: 20px; }
+
+#cos-attension {
+  background: #fff; }
+  #cos-attension .cos-box {
+    width: auto;
+    padding: 10px;
+    font-size: 14px; }
+    #cos-attension .cos-box dt {
+      border-bottom: #e2e8eb solid 1px;
+      font-weight: bold; }
+  #cos-attension .cos-box:nth-of-type(1) {
+    margin-top: 15px; }
+  #cos-attension .cos-box:nth-of-type(2) {
+    margin-bottom: 30px; }
+
+.red-box {
+  border: 5px solid #e74388;
+  display: block;
+  width: 100%;
+  background-color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  color: #e74388;
+  margin-top: 10px;
+  margin-bottom: 10px; }
+
+.dot li {
+  text-indent: -1em;
+  padding-left: 1em;
+  margin-bottom: 10px;
+  line-height: 1.4; }
+
+.gbox-title {
+  font-size: 12px; }
+
+.bold_text.lang_ja {
+  font-family: "UD Shin Go NT Medium","メイリオ"; }
+
+.bold_text.lang_en {
+  font-family: 'Noto Sans', sans-serif; }
+
+.bold_text.lang_zh-cn {
+  font-family: 'Noto Sans SC', sans-serif; }
+
+.bold_text.lang_zh-tw {
+  font-family: 'Noto Sans TC', sans-serif; }
+
+.bold_text.lang_ko {
+  font-family: 'Noto Sans KR', sans-serif; }
+
+.dead_link {
+  display: none !important; }
+
+.l_text {
+  font-size: 20px !important;
+  font-family: "UD Shin Go NT Medium";
+  line-height: 1.3; }
+  .l_text span {
+    font-size: 16px !important; }
+
+.d_link {
+  cursor: default;
+  background: #aaa !important;
+  color: #777 !important;
+  border-bottom: 0px !important; }
+
+.wrap_kanbai {
+  position: relative; }
+  .wrap_kanbai .kanbai {
+    background: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    text-align: center; }
+    .wrap_kanbai .kanbai p {
+      color: white;
+      text-align: center;
+      vertical-align: middle;
+      width: 100%;
+      margin-top: 42% !important;
+      font-size: 50px;
+      font-family: "UD Shin Go NT Bold"; }
+      @media only screen and (max-width: 640px) {
+        .wrap_kanbai .kanbai p {
+          margin-top: 100% !important; } }
+
+#n-ticket section .gray-box {
+  padding: 30px; }
+  @media only screen and (max-width: 640px) {
+    #n-ticket section .gray-box {
+      padding: 21px; } }
+  #n-ticket section .gray-box p {
+    text-align: justify;
+    text-justify: inter-ideograph; }
+  #n-ticket section .gray-box > dl:nth-of-type(1) > dt > h3 {
+    font-family: "A-OTF UD新ゴ Pro DB", sans-serif;
+    font-size: 15px;
+    border-bottom: 2px solid #fff; }
+  #n-ticket section .gray-box > dl:nth-of-type(1) > dd {
+    font-family: "A-OTF UD新ゴ Pro R", sans-serif;
+    font-size: 13px;
+    margin-top: 10px; }
+  #n-ticket section .gray-box > dl:nth-of-type(2) {
+    margin-top: 20px; }
+    #n-ticket section .gray-box > dl:nth-of-type(2) > dt > h3 {
+      font-family: "A-OTF UD新ゴ Pro DB", sans-serif;
+      font-size: 15px; }
+    #n-ticket section .gray-box > dl:nth-of-type(2) > dd {
+      font-family: "A-OTF UD新ゴ Pro R", sans-serif;
+      font-size: 13px;
+      margin-top: 10px; }
+      #n-ticket section .gray-box > dl:nth-of-type(2) > dd > p {
+        padding-left: 5px; }
+        #n-ticket section .gray-box > dl:nth-of-type(2) > dd > p > span {
+          color: #e41e79; }
+      #n-ticket section .gray-box > dl:nth-of-type(2) > dd > p::before {
+        content: "・";
+        margin-left: -5px; }
+  #n-ticket section .gray-box > div {
+    margin-top: 20px; }
+    #n-ticket section .gray-box > div > img {
+      width: 100%; }
+
+#n-ticket section .normal-box {
+  margin-top: 30px; }
+  #n-ticket section .normal-box h3 {
+    font-family: "A-OTF UD新ゴ Pro DB", sans-serif;
+    font-size: 28px;
+    margin-bottom: 10px; }
+  #n-ticket section .normal-box h3:nth-of-type(2) {
+    margin-top: 20px; }
+  #n-ticket section .normal-box > dl {
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    background-color: #5fbac0;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding-top: 20px;
+    text-align: center;
+    color: #fff; }
+    #n-ticket section .normal-box > dl > dt {
+      border-bottom: 2px solid #fff; }
+      #n-ticket section .normal-box > dl > dt > p {
+        padding: 0 15px; }
+      #n-ticket section .normal-box > dl > dt > p:nth-of-type(1) {
+        font-family: "A-OTF UD新ゴ Pro DB", sans-serif;
+        font-size: 24px; }
+      #n-ticket section .normal-box > dl > dt > p:nth-of-type(2) {
+        font-family: "A-OTF UD新ゴ Pro R", sans-serif;
+        font-size: 13px;
+        background-color: #696969;
+        display: inline-block;
+        padding: 5px 15px 5px 15px;
+        border-radius: 15px;
+        margin-top: 5px;
+        margin-bottom: 10px; }
+    #n-ticket section .normal-box > dl > dd {
+      font-family: "A-OTF UD新ゴ Pro DB", sans-serif;
+      font-size: 19px; }
+      #n-ticket section .normal-box > dl > dd > p {
+        border-top: 2px solid #fff;
+        padding: 20px 15px; }
+        #n-ticket section .normal-box > dl > dd > p > span {
+          font-size: 13px; }
+      #n-ticket section .normal-box > dl > dd > p:nth-of-type(1) {
+        border-top: none; }
+
+.strg {
+  background: #fff;
+  color: #00557f;
+  padding: 3px 5px 5px;
+  margin-left: 10px; }
+
+.ast {
+  font-size: 12px;
+  font-family: "A-OTF UD新ゴ Pro L";
+  border-top: 0px !important;
+  padding-top: 0 !important;
+  color: #666;
+  text-align: center; }
+  @media only screen and (max-width: 640px) {
+    .ast {
+      text-align: justify;
+      text-justify: inter-ideograph;
+      padding-left: 15px;
+      text-indent: -13px; } }
+
+.nuberd1:before {
+  content: "1";
+  background: #FF4787;
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  text-align: center;
+  border-radius: 50%;
+  color: #fff;
+  margin-right: .3em;
+  font-size: 16px;
+  line-height: 2; }
+
+.nuberd2:before {
+  content: "2";
+  background: #FF4787;
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  text-align: center;
+  border-radius: 50%;
+  color: #fff;
+  margin-right: .3em;
+  font-size: 16px;
+  line-height: 2; }
+
+.nuberd3:before {
+  content: "3";
+  background: #FF4787;
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  text-align: center;
+  border-radius: 50%;
+  color: #fff;
+  margin-right: .3em;
+  font-size: 16px;
+  line-height: 2; }
+
+.nuberd4:before {
+  content: "4";
+  background: #FF4787;
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  text-align: center;
+  border-radius: 50%;
+  color: #fff;
+  margin-right: .3em;
+  font-size: 16px;
+  line-height: 2; }
+
+.nuberd5:before {
+  content: "5";
+  background: #FF4787;
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  text-align: center;
+  border-radius: 50%;
+  color: #fff;
+  margin-right: .3em;
+  font-size: 16px;
+  line-height: 2; }
+
+.nuberd6:before {
+  content: "6";
+  background: #FF4787;
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  text-align: center;
+  border-radius: 50%;
+  color: #fff;
+  margin-right: .3em;
+  font-size: 16px;
+  line-height: 2; }
+
+.nuberd7:before {
+  content: "7";
+  background: #FF4787;
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  text-align: center;
+  border-radius: 50%;
+  color: #fff;
+  margin-right: .3em;
+  font-size: 16px;
+  line-height: 2; }
+
+.nuberd8:before {
+  content: "8";
+  background: #FF4787;
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  text-align: center;
+  border-radius: 50%;
+  color: #fff;
+  margin-right: .3em;
+  font-size: 16px;
+  line-height: 2; }
+
+.nuberd9:before {
+  content: "9";
+  background: #FF4787;
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  text-align: center;
+  border-radius: 50%;
+  color: #fff;
+  margin-right: .3em;
+  font-size: 16px;
+  line-height: 2; }
+
+.nuberd10:before {
+  content: "10";
+  background: #FF4787;
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  text-align: center;
+  border-radius: 50%;
+  color: #fff;
+  margin-right: .3em;
+  font-size: 16px;
+  line-height: 2; }
+
+.nuberd11:before {
+  content: "11";
+  background: #FF4787;
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  text-align: center;
+  border-radius: 50%;
+  color: #fff;
+  margin-right: .3em;
+  font-size: 16px;
+  line-height: 2; }
+
+.nuberd12:before {
+  content: "12";
+  background: #FF4787;
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  text-align: center;
+  border-radius: 50%;
+  color: #fff;
+  margin-right: .3em;
+  font-size: 16px;
+  line-height: 2; }
+
+.number_box_wrap {
+  display: inline;
+  float: left; }
+
+.number_box {
+  text-align: center;
+  vertical-align: middle;
+  display: table;
+  background: #FF4787;
+  width: 22px;
+  height: 22px;
+  float: left; }
+  .number_box .number_box_in {
+    float: left;
+    width: 22px;
+    height: 22px;
+    font-size: 16px;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+    color: #fff; }
+
+#greeting > div:nth-of-type(2) {
+  margin-top: 30px; }
+
+#greeting > div:nth-of-type(3) {
+  margin-top: 30px; }
+
+#greeting .white-box2 {
+  margin-top: 20px;
+  background-color: #fff;
+  padding: 30px; }
+  @media only screen and (max-width: 640px) {
+    #greeting .white-box2 {
+      padding: 10px; } }
+  #greeting .white-box2 > dl {
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    padding-bottom: 30px;
+    border-bottom: 1px dotted #707070; }
+    @media only screen and (max-width: 640px) {
+      #greeting .white-box2 > dl {
+        padding-bottom: 10px; } }
+    #greeting .white-box2 > dl > dd {
+      width: 50%;
+      float: left;
+      margin-left: 30px; }
+      @media only screen and (max-width: 640px) {
+        #greeting .white-box2 > dl > dd {
+          width: 100%;
+          margin-left: 0; } }
+      #greeting .white-box2 > dl > dd > dl {
+        width: 100%; }
+        #greeting .white-box2 > dl > dd > dl > dt {
+          width: 100%; }
+          #greeting .white-box2 > dl > dd > dl > dt > p {
+            font-family: "A-OTF UD新ゴ Pro DB", sans-serif;
+            color: #8d8d8d;
+            font-size: 13px; }
+        #greeting .white-box2 > dl > dd > dl > dd {
+          width: 100%;
+          margin-top: 30px; }
+          @media only screen and (max-width: 640px) {
+            #greeting .white-box2 > dl > dd > dl > dd {
+              margin-top: 10px; } }
+          #greeting .white-box2 > dl > dd > dl > dd > p:nth-of-type(1) {
+            font-family: "A-OTF UD新ゴ Pro DB", sans-serif;
+            color: #8d8d8d;
+            font-size: 13px; }
+          #greeting .white-box2 > dl > dd > dl > dd > p:nth-of-type(2) {
+            font-family: "A-OTF UD新ゴ Pro DB", sans-serif;
+            color: #5a5a5a;
+            font-size: 30px;
+            line-height: 1; }
+            @media only screen and (max-width: 640px) {
+              #greeting .white-box2 > dl > dd > dl > dd > p:nth-of-type(2) {
+                font-size: 30px; } }
+    #greeting .white-box2 > dl > dt {
+      width: 30%;
+      float: left; }
+      @media only screen and (max-width: 640px) {
+        #greeting .white-box2 > dl > dt {
+          width: 100%; } }
+      #greeting .white-box2 > dl > dt > img {
+        width: 100%; }
+  #greeting .white-box2 > div {
+    margin-top: 30px;
+    font-family: "A-OTF UD新ゴ Pro L", sans-serif;
+    color: #000;
+    font-size: 11px;
+    text-align: justify; }
+    @media only screen and (max-width: 640px) {
+      #greeting .white-box2 > div {
+        margin-top: 10px; } }
+
+.sup-h2 {
+  font-size: 22px; }
+
+#supporter2 {
+  background-color: #e2e8eb;
+  border-radius: 10px;
+  padding: 35px;
+  margin-top: 20px;
+  text-align: justify; }
+  @media only screen and (max-width: 640px) {
+    #supporter2 {
+      padding: 10px;
+      margin-top: 10px; } }
+  #supporter2 > dl {
+    width: 100%;
+    overflow: hidden;
+    display: block;
+    margin-top: 20px; }
+    @media only screen and (max-width: 640px) {
+      #supporter2 > dl {
+        margin-top: 10px; } }
+    #supporter2 > dl > dt {
+      font-size: 13px;
+      color: #4f4552;
+      font-family: "A-OTF UD新ゴ Pro DB", sans-serif; }
+    #supporter2 > dl > dd {
+      margin-top: 10px;
+      font-size: 13px;
+      color: #4f4552;
+      font-family: "A-OTF UD新ゴ Pro R", sans-serif; }
+  #supporter2 > dl:nth-of-type(1) {
+    margin-top: 0; }
+    #supporter2 > dl:nth-of-type(1) > dt {
+      font-size: 15px;
+      padding-bottom: 5px;
+      border-bottom: 2px #fff solid; }
+      @media only screen and (max-width: 640px) {
+        #supporter2 > dl:nth-of-type(1) > dt {
+          font-size: 13px; } }
+    #supporter2 > dl:nth-of-type(1) > dd {
+      font-size: 13px; }
+  #supporter2 > div {
+    width: 100%;
+    margin-top: 20px; }
+    @media only screen and (max-width: 640px) {
+      #supporter2 > div {
+        margin-top: 10px; } }
+    #supporter2 > div img {
+      width: 100%; }
+
+p.nuberd6 span {
+  text-decoration: line-through;
+  font-size: 16px !important;
+  color: RGBa(150, 150, 150, 0.8);
+  display: inline-block; }
+
+p.nuberd6 a {
+  text-decoration: none !important;
+  background: #fff;
+  display: inline-block;
+  padding: 1px 8px 3px;
+  margin-top: 10px;
+  font-size: 14px;
+  text-align: left;
+  border: 3px solid #FF4787;
+  border-radius: 10px;
+  /* CSS3草案 */
+  -webkit-border-radius: 10px;
+  /* Safari,Google Chrome用 */
+  -moz-border-radius: 10px;
+  /* Firefox用 */ }

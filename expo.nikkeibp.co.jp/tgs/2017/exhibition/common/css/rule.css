@@ -1,0 +1,278 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.pc_only{
+	display:block;
+}
+
+.smp_only{
+	display:none;
+}
+
+
+
+@media only screen and ( max-width: 640px ) {
+
+.pc_only{
+	display:none;
+
+}
+
+.smp_only{
+	display:block;
+}
+
+}
+
+
+
+
+h3{
+	font-size: 35px;
+	font-weight: normal;
+	position: relative;
+}
+
+h3:after{
+	position: absolute;
+	border: 1.5px solid #263B52;
+	width: 37px;
+	content: "";
+	left: 0;
+	bottom:-5px;
+}
+
+
+.rule_box{
+	margin-top: 30px;
+}
+
+.rule_box:nth-of-type(1){
+	margin-top: 0px;
+}
+
+.rule_box p{
+	font-size: 21px;
+	margin-top: 15px;
+}
+
+.rule_box p > span{
+	font-size: 15px;
+}
+
+.rule_box .blueline{
+	font-size: 20px;
+	border: 1px solid #263B52;
+	display: inline-block;
+	padding: 2px 8px;
+	text-align: center;
+}
+
+.rule_box .mediumtext{
+	font-size: 15px;
+}
+
+.rule_box .mediumtext a{
+	color: #FA843C;
+}
+
+
+.rule_box .asterisk{
+	font-size: 14px;
+}
+
+.rule_box .bluebox{
+	font-family: "FOT-ニューロダン Pro B"!important;
+	color: #fff;
+	background: #263B52;
+	overflow: hidden;
+	margin-top: 5px;
+	font-size: 18px;
+	padding: 7px 14px;
+}
+
+.rule_box .bluebox dt{
+	float: left;
+}
+
+.rule_box .bluebox dd{
+	margin-left: 440px;
+}
+
+
+.rule_box .bluebox span{
+	color: #FA843C;
+}
+
+
+
+
+
+
+.rule_box .bluebox2{
+	color: #fff;
+	background: #263B52;
+	overflow: hidden;
+	margin-top: 20px;
+	padding: 7px 14px;
+}
+
+.rule_box .bluebox2 dt{
+	font-family: "FOT-ニューロダン Pro B"!important;
+	float: left;
+	font-size: 18px;
+}
+
+.rule_box .bluebox2 dd{
+	font-family: "FOT-ニューロダン Pro M"!important;
+	margin-left: 206px;
+	font-size: 15px;
+}
+
+
+.rule_box .bluebox2 span{
+	color: #FA843C;
+}
+
+
+
+
+.img_box{
+	text-align: center;
+	margin-top: 10px;
+	
+}
+
+.rule_text{
+	font-size: 16px;
+	margin-top: 32px;
+	color: #263B52;
+	padding-left: 30px;
+}
+
+.rure_btn{
+	background: #FA843C;
+	width: 408px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	padding: 11px 23px 15px;
+	margin: 48px auto 0;
+}
+
+.rure_btn a{
+	background: url(../images/arrow_white.svg) no-repeat;
+	background-position: 0 center;
+	background-size: auto 58%;
+	font-size: 29px;
+	color: #fff;
+	padding-left: 34px;
+	line-height: 2;
+	font-family: "FOT-ニューロダン Pro B"!important;
+}
+
+@media only screen and (max-width:640px){
+	
+h3{
+	font-size: 25px;
+	font-weight: normal;
+	position: relative;
+	line-height: 1.3;
+}
+
+h3:after{
+	position: absolute;
+	border: 1.5px solid #263B52;
+	width: 37px;
+	content: "";
+	left: 0;
+	bottom:-10px;
+}
+
+.img_box{
+	text-align: center;
+	margin-top: 0px;
+	
+}
+.rule_box p{
+	font-size: 17px;
+	margin-top: 15px;
+}
+
+	
+.rure_btn{
+	width: 100%;
+	margin: 20px auto 0;
+}
+
+.rure_btn a{
+	background-size: auto 58%;
+	line-height: 1.2;
+	font-size: 18px;
+}
+	
+
+.rule_text{
+	font-size: 16px;
+	margin-top: 32px;
+	color: #263B52;
+	padding-left: 0px;
+}	
+
+	
+
+.rule_box .bluebox{
+	font-family: "FOT-ニューロダン Pro B"!important;
+	color: #fff;
+	background: #263B52;
+	overflow: hidden;
+	margin-top: 10px;
+	font-size: 18px;
+	padding: 7px 14px;
+}
+
+.rule_box .bluebox dt{
+	float: left;
+	width: 100%;
+}
+
+.rule_box .bluebox dd{
+	margin-left: 0px;
+}
+
+
+.rule_box .bluebox span{
+	color: #FA843C;
+}
+
+
+
+
+
+
+.rule_box .bluebox2{
+	margin-top: 20px;
+	padding: 7px 14px;
+}
+
+.rule_box .bluebox2 dt{
+	font-size: 18px;
+	width: 100%;
+}
+
+.rule_box .bluebox2 dd{
+	font-family: "FOT-ニューロダン Pro M"!important;
+	margin-left: 0px;
+	font-size: 15px;
+}
+
+
+.rule_box .bluebox2 span{
+	color: #FA843C;
+}
+
+	
+	
+	
+}

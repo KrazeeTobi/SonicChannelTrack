@@ -1,0 +1,127 @@
+@charset "utf-8";
+/* CSS Document */
+
+h3{
+	font-size: 35px;
+	font-weight: normal;
+	position: relative;
+}
+
+h3:after{
+	position: absolute;
+	border: 1.5px solid #263B52;
+	width: 37px;
+	content: "";
+	left: 0;
+	bottom:-5px;
+}
+
+.report_box{
+	margin-top: 30px;
+}
+
+.report_box:nth-of-type(1){
+	margin-top: 0px;
+}
+
+.report_box p{
+	font-size: 21px;
+	margin-top: 15px;
+}
+
+.report_box p > span{
+	font-size: 15px;
+}
+
+.img_box{
+	text-align: center;
+	margin-top: 25px;
+	
+}
+
+.report_btnbox{
+	padding: 0;
+	padding-left: 0px;
+	margin-left: 0px;
+	margin-top: 30px;
+	margin-bottom: 40px;
+}
+
+.report_btn{
+	width: 328px ;
+	display:inline-block ;
+	font-size: 26px;
+	color: #fff;
+	background-color: #fa843c;
+	line-height: 60px;
+	height: 66px;
+	padding-left: 60px;
+	border-radius: 5px;
+}
+
+.pdf{
+	background-image: url(../../exhibit/img/area/icon_pdf.svg);
+	background-position: left 20px center;
+	background-repeat: no-repeat;
+	background-size: 23px;
+}
+
+.ie{
+	background-image: url(../../exhibit/img/area/icon_ie.svg);
+	background-position: left 20px center;
+	background-repeat: no-repeat;
+	background-size: 23px;
+}
+	@media only screen and (max-width:640px){
+	
+h3{
+	font-size: 30px;
+	font-weight: normal;
+	position: relative;
+	line-height: 1.3;
+}
+
+h3:after{
+	position: absolute;
+	border: 1.5px solid #263B52;
+	width: 37px;
+	content: "";
+	left: 0;
+	bottom:-10px;
+}
+
+.report_btnbox{
+
+	margin-bottom:10px;
+}
+.report_box p{
+	font-size: 18px;
+	margin-top: 15px;
+}
+
+.report_box p > span{
+	font-size: 14px;
+}
+.report_box{
+	margin-top: 00px;
+}
+
+.img_box{
+	text-align: center;
+	margin-top: 25px;
+	
+}
+
+.report_btn{
+	width: auto ;
+	display: block;
+	font-size: 14px;
+	color: #fff;
+	background-color: #fa843c;
+	line-height: 60px;
+	height: 66px;
+	padding-left: 60px;
+	border-radius: 5px;
+}
+
+}
