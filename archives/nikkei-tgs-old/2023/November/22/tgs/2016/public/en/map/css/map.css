@@ -1,0 +1,773 @@
+@charset "utf-8";
+/*
+===========================================================================
+
+	Title : map.css
+
+===========================================================================
+*/
+
+
+/* *********************************************
+*
+*	PC view
+*	
+********************************************* */
+
+
+/* -------------------------------------------------------------
+
+	map/list/index.html
+
+------------------------------------------------------------- */
+
+
+#wrapper .cntBox .boxInner .guideMenu {
+	/*width:720px;*/
+	margin: 0 auto;
+}
+#wrapper .cntBox .boxInner .guideMenu li {
+	/*display: inline-block;
+	margin: 0 4px 14px 0;*/
+	float: left;
+	display: table;
+	border-collapse: separate;
+    border-spacing: 5px 5px;
+}
+#wrapper .cntBox .boxInner .guideMenu .spacing{
+ letter-spacing: -1px;	
+}
+#wrapper .cntBox .boxInner .guideMenu li a {
+	width : 142px;
+	height: 50px;
+	margin-right: 8px;
+	display: block;
+	color: #fff;
+	text-align: center;
+	font-weight: bold;
+	text-decoration: none;
+	line-height: 1;
+	display: table-cell;
+	vertical-align: middle;
+	border-radius: 5px;
+	box-shadow: 3px 3px 0 #ccc;
+}
+#wrapper .cntBox .boxInner .guideMenu #BtnGeneral a{
+	background: #e73351;
+}
+#wrapper .cntBox .boxInner .guideMenu #BtnSmartSocial a{
+	background: #b4b1b0;
+	font-size: 12px;
+}
+#wrapper .cntBox .boxInner .guideMenu #BtnRomanceGame a{
+	background: #e95b95;
+}
+#wrapper .cntBox .boxInner .guideMenu #BtnEsports a{
+	background: #fcc800;
+	}
+#wrapper .cntBox .boxInner .guideMenu #BtnGameDevice a{
+	background: #1bb4a6;
+}
+#wrapper .cntBox .boxInner .guideMenu #BtnMerchandiseSales a{
+	background: #f49a00;
+}
+#wrapper .cntBox .boxInner .guideMenu #BtnFamily a{
+	background: #76cbf3;
+}
+#wrapper .cntBox .boxInner .guideMenu #BtnGameSchool a{
+	background: #63b73f;
+}
+#wrapper .cntBox .boxInner .guideMenu #BtnIndies a{
+	background: #a75c1d;
+}
+#wrapper .cntBox .boxInner .guideMenu #BtnCosplay a{
+	background: #acae4b;
+}
+#wrapper .cntBox .boxInner .guideMenu #BtnVr a{
+	background: #dae259;
+}
+#wrapper .cntBox .boxInner .guideMenu #BtnAi a{
+	background: #8ecfc9;
+}
+#wrapper .cntBox .boxInner .guideMenu #BtnNp a{
+	background: #a5bbe1;
+}
+#wrapper .cntBox .boxInner .guideMenu #BtnBusinessSolution a{
+	background: #b96ca9;
+	font-size: 12px;
+}
+#wrapper .cntBox .boxInner .guideMenu #BtnCloud-Data a{
+	background: #a3d7f5;
+	font-size: 12px;
+}
+#wrapper .cntBox .boxInner .guideMenu #BtnAsiaNewStars a{
+	background: #f2bba1;
+}
+#wrapper .cntBox .boxInner .guideMenu #BtnEuNewStars a{
+	background: #b3e0bb;
+}
+#wrapper .cntBox .boxInner .guideMenu #BtnLtnNewStars a{
+	background: #fadc76;
+	font-size: 12px;
+}
+#wrapper .cntBox .boxInner .guideMenu #BtnMeeting a{
+	background: #b96ca9;
+}
+
+/*全て表示*/
+
+.showAll{
+	margin-right: 20px;
+	text-align: right !important;
+	position: relative;
+	}
+.showAll a{
+	margin-right: 10px;
+	padding: 2px 10px 2px 20px;
+	display: inline-block;
+	background: #ddd url(/tgs/2016/public/common/images/arrow_bk.png) no-repeat 10px center;
+	background-size: 5px;
+	color: #000;
+	border-radius: 5px;
+	text-decoration: none;
+	font-size: 13px !important;
+	font-weight: normal;
+	line-height: 1.6 !important;
+}
+#wrapper .cntBox #exhibitor_list{
+	padding-top: 0;
+}
+
+
+/* 50音順表示 */
+
+#wrapper .cntBox .boxInner .blc50 li {
+	display: inline-block;
+	white-space: nowrap;
+	padding: 5px;
+	line-height: 1.0;
+}
+#wrapper .cntBox .boxInner .blc50 li a {
+	display: block;
+	font-size: 18px;
+	font-weight: bold;
+	color: #999;
+	border: 2px solid #ddd;
+	padding: 14px 2px 0px 2px;
+	height: 44px;
+	width: 45px;
+	text-align: center;
+	background: #FFF;
+	border-radius: 5px 5px 5px 5px; /* 角丸 */
+	-moz-border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	text-decoration:none;
+	box-shadow: 2px 2px 0px 0 rgba(221,221,221,1);
+}
+#wrapper .cntBox .boxInner .blc50 li a:hover {
+	text-decoration: none;
+	opacity: 0.6;
+}
+
+
+#wrapper .mainCont h4 {
+	overflow: hidden;
+}
+
+
+#wrapper .mainCont h4 span {
+	float: right;
+}
+
+
+/* h3見出しカラー */
+
+.mainCont #exhibitor_list h3{
+	margin:20px auto;
+	padding:10px;
+	border-bottom: none;
+	color:#555;
+	background: none;
+	}
+#wrapper .mainCont #TitleGeneral h3 {
+	border-left: solid 5px #e73351;
+}
+#wrapper .mainCont #TitleSmartSocial h3 {
+	border-left: solid 5px #b4b1b0;
+}
+#wrapper .mainCont #TitleRomanceGame h3 {
+	border-left: solid 5px #e95b95;
+}
+#wrapper .mainCont #TitleEsports h3 {
+	border-left: solid 5px #fcc800;
+	}
+#wrapper .mainCont #TitleGameDevice h3 {
+	border-left: solid 5px #1bb4a6;
+}
+#wrapper .mainCont #TitleMerchandiseSales h3 {
+	border-left: solid 5px #f49a00;
+}
+#wrapper .mainCont #TitleFamily h3 {
+	border-left: solid 5px #76cbf3;
+}
+#wrapper .mainCont #TitleGameSchool h3{
+	border-left: solid 5px #63b73f;
+}
+#wrapper .mainCont #TitleIndies h3{
+	border-left: solid 5px #a75c1d;
+}
+#wrapper .mainCont #TitleCosplay h3 {
+	border-left: solid 5px #acae4b;
+}
+#wrapper .mainCont #TitleVr h3{
+	border-left: solid 5px #dae259;
+}
+#wrapper .mainCont #TitleAi h3{
+	border-left: solid 5px #8ecfc9;
+}
+#wrapper .mainCont #TitleNp h3{
+	border-left: solid 5px #a5bbe1;
+}
+#wrapper .mainCont #TitleBusinessSolution h3 {
+	border-left: solid 5px #b96ca9;
+}
+#wrapper .mainCont #TitleCloud-Data h3 {
+	border-left: solid 5px #a3d7f5;
+}
+#wrapper .mainCont #TitleAsiaNewStars h3 {
+	border-left: solid 5px #f2bba1;
+}
+#wrapper .mainCont #TitleEuNewStars h3 {
+	border-left: solid 5px #b3e0bb;
+}
+#wrapper .mainCont #TitleLtnNewStars h3 {
+	border-left: solid 5px #fadc76;
+}
+#wrapper .mainCont #TitleMeeting h3 {
+	border-left: solid 5px #b96ca9;
+}
+
+/* ナンバリングカラー */
+#wrapper .cntBox .boxInner #TitleGeneral table th span {
+	background: #e73351;
+}
+#wrapper .cntBox .boxInner #TitleSmartSocial table th span {
+	background: #b4b1b0;
+}
+#wrapper .cntBox .boxInner #TitleRomanceGame table th span {
+	background: #e95b95;
+}
+#wrapper .cntBox .boxInner #TitleEsports table th span {
+	background: #fcc800;
+	}
+#wrapper .mainCont #TitleGameDevice table th span{
+	background: #1bb4a6;
+}
+#wrapper .mainCont #TitleMerchandiseSales table th span {
+	background: #f49a00;
+}
+#wrapper .mainCont #TitleFamily table th span{
+	background: #76cbf3;
+}
+#wrapper .mainCont #TitleGameSchool table th span{
+	background: #63b73f;
+}
+#wrapper .mainCont #TitleIndies table th span{
+	background: #a75c1d;
+}
+#wrapper .mainCont #TitleCosplay table th span{
+	background: #acae4b;
+}
+#wrapper .mainCont #TitleVr table th span{
+	background: #dae259;
+}
+#wrapper .mainCont #TitleAi table th span{
+	background: #8ecfc9;
+}
+#wrapper .mainCont #TitleNp table th span{
+	background: #a5bbe1;
+}
+#wrapper .mainCont #TitleBusinessSolution table th span{
+	background: #b96ca9;
+}
+#wrapper .mainCont #TitleCloud-Data table th span{
+	background: #a3d7f5;
+}
+#wrapper .mainCont #TitleAsiaNewStars table th span{
+	background: #f2bba1;
+}
+#wrapper .mainCont #TitleEuNewStars table th span{
+	background: #b3e0bb;
+}
+#wrapper .mainCont #TitleLtnNewStars table th span{
+	background: #fadc76;
+}
+#wrapper .mainCont #TitleMeeting table th span{
+	background: #b96ca9;
+}
+
+/* 50音順用のナンバリングカラー */
+#wrapper .cntBox .boxInner #TitleGeneral .BtnGeneral th span {
+	background: #e73351 !important;
+}
+#wrapper .cntBox .boxInner #TitleGeneral .BtnSmartSocial th span {
+	background: #b4b1b0 !important;
+}
+#wrapper .cntBox .boxInner #TitleGeneral .BtnRomanceGame th span {
+	background: #e95b95 !important;
+}
+#wrapper .cntBox .boxInner #TitleGeneral .BtnEsports th span {
+	background: #fcc800 !important;
+	}
+#wrapper .mainCont #TitleGeneral .BtnGameDevice th span{
+	background: #1bb4a6 !important;
+}
+#wrapper .mainCont #TitleGeneral .BtnMerchandiseSales th span {
+	background: #f49a00 !important;
+}
+#wrapper .mainCont #TitleGeneral .BtnFamil th span{
+	background: #76cbf3 !important;
+}
+#wrapper .mainCont #TitleGeneral .BtnGameSchool th span{
+	background: #63b73f !important;
+}
+#wrapper .mainCont #TitleGeneral .BtnIndies th span{
+	background: #a75c1d !important;
+}
+#wrapper .mainCont #TitleGeneral .BtnCosplay th span{
+	background: #acae4b !important;
+}
+#wrapper .mainCont #TitleGeneral .BtnVr th span{
+	background: #dae259 !important;
+}
+#wrapper .mainCont #TitleGeneral .BtnAi th span{
+	background: #8ecfc9 !important;
+}
+#wrapper .mainCont #TitleGeneral .BtnNp th span{
+	background: #a5bbe1 !important;
+}
+#wrapper .mainCont #TitleGeneral .BtnBusinessSolution th span{
+	background: #b96ca9 !important;
+}
+#wrapper .mainCont #TitleGeneral .BtnCloud-Data th span{
+	background: #a3d7f5 !important;
+}
+#wrapper .mainCont #TitleGeneral .BtnAsiaNewStars th span{
+	background: #f2bba1 !important;
+}
+#wrapper .mainCont #TitleGeneral .BtnEuNewStars th span{
+	background: #b3e0bb !important;
+}
+#wrapper .mainCont #TitleGeneral .BtnLtnNewStars th span{
+	background: #fadc76 !important;
+}
+#wrapper .mainCont #TitleGeneral .BtnMeeting th span{
+	background: #b96ca9 !important;
+}
+
+
+
+
+#exhibitor_list td p span a{
+	padding-left:20px;
+	background: url(/tgs/2016/business/map/images/icon_web.gif) 3px center no-repeat;
+	background-size: 14px auto;
+	}
+#wrapper .mainCont table{
+	margin-top: 20px;
+}
+	
+/* -------------------------------------------------------------
+
+	map/index.html
+
+------------------------------------------------------------- */
+
+.map h5{
+	margin-bottom: 20px;
+	font-size: 24px;
+	color: #cf1f03;
+}
+.map .cntBox ul{
+	overflow: hidden;
+	}
+.map .cntBox ul li{
+	float:left;
+	margin-bottom: 30px;
+	}
+.map .cntBox a{
+	transition:opacity .3s ease;
+	}
+.map .cntBox a:hover{
+	filter: alpha(opacity=70);
+	opacity: 0.7;
+	}
+
+/* -------------------------------------------------------------
+
+	map/area.html
+
+------------------------------------------------------------- */
+
+.BtnGeneral {
+	border-left: solid 5px #e94959 !important;
+}
+.BtnSmartSocial {
+	border-left: solid 5px#9d9a99 !important;
+}
+.BtnCloudGameing {
+	border-left: solid 5px #4ac1f1 !important;
+}
+.BtnGameDevice {
+	border-left: solid 5px #19b4a6 !important;
+}
+.BtnGameSchool {
+	border-left: solid 5px #63b73f !important;
+}
+.BtnRomanceGame {
+	border-left: solid 5px #e95b95 !important;
+}
+.BtnMerchandiseSales {
+	border-left: solid 5px #ef7a00 !important;
+}
+.BtnFamily {
+	border-left: solid 5px #8ca6d6 !important;
+}
+.BtnCosplay {
+	border-left: solid 5px #ca7229 !important;
+}
+.BtnIndies {
+	border-left: solid 5px #a75c1d !important;
+}
+.BtnBusinessSolution {
+	border-left: solid 5px #b96ca9 !important;
+}
+.BtnCloud-Data {
+	border-left: solid 5px #6b57a3 !important;
+}
+.BtnAsiaNewStars {
+	border-left: solid 5px #6b57a3 !important;
+}
+.BtnStartup {
+	border-left: solid 5px #6b57a3 !important;
+}
+.BtnMeeting {
+	border-left: solid 5px #b96ca9 !important;
+}
+.BtnSmartAccessories {
+	border-left: solid 5px #046ab7 !important;
+}
+.BtnAsiaNewStars{
+	border-left: solid 5px #f2bba1 !important;	
+}
+.BtnEsports{
+	border-left: solid 5px #fcc800 !important;	
+}
+.BtnVr{
+	border-left: solid 5px #dae259 !important;	
+}
+.BtnEuNewStars{
+	border-left: solid 5px #b3e0bb !important;	
+}
+.BtnLtnNewStars{
+	border-left: solid 5px #fadc76 !important;	
+}
+/* add by nextis*/
+.BtnCyberGamesAsia {
+	border-left: solid 5px#bc940a !important;
+}
+
+.bd-b{
+	padding-bottom:20px;
+	border-bottom: 1px solid #eee;
+	}
+
+#wrapper .cntBox .boxInner .dtl {
+	margin: 0 0 15px 15px;
+}
+#wrapper .cntBox .boxInner .dtl dt {
+	font-weight: bold;
+}
+#wrapper .cntBox .boxInner .dtl dd {
+	margin-left: 13px;
+}
+
+/* -------------------------------------------------------------
+
+	map/app.html
+
+------------------------------------------------------------- */
+#wrapper .app .boxInner h3 {
+	border-left: none;
+	/*border-bottom: none;*/
+	/*padding-left: 0;*/
+}
+#wrapper .app .boxInner h3 img {
+	margin-top: -14px;
+	padding-right: 5px;
+}
+#wrapper .app .boxInner .left {
+	width: 30%;
+	float: left;
+}
+#wrapper .app .boxInner .right {
+	width: 70%;
+	float: left;
+	padding-top:20px;
+}
+#wrapper .app .boxInner .right p {
+	padding: 10px 10px 0;
+	margin: 0;
+}
+#wrapper .app .boxInner .small {
+	font-size: 10px;
+}
+#wrapper .app .boxInner .or {
+	color: #e85d1d;
+	font-weight: bold;
+}
+#wrapper .app .boxInner ul {
+	width: 730px;
+	height: auto;
+	margin: 20px 0 20px;
+	overflow: hidden;
+}
+#wrapper .app .boxInner ul li {
+	width: 240px;
+	padding: 0;
+	margin: 0 0 20px;
+	float: left;
+}
+#wrapper .app .boxInner .clear {
+	clear: both;
+}
+#wrapper .app .boxInner a:hover img {
+	filter: alpha(opacity=70);
+	-moz-opacity: 0.7;
+	opacity: 0.7;
+	zoom: 1;
+}
+#wrapper .app .boxInner ul#dl_btn{
+	width:540px;
+	margin:30px auto 0;
+	}
+#wrapper .app .boxInner ul#dl_btn li{
+	width:50%;
+}
+
+/* -------------------------------------------------------------
+
+	map/food.html
+
+------------------------------------------------------------- */
+
+#wrapper .food .boxInner p {
+	margin-bottom: 25px;
+}
+#wrapper .food .boxInner h4 {
+	padding:5px 0;
+	text-align:center;
+	background:#7dc058;
+	color:#fff;
+	border-left:none;
+}
+#wrapper .food .boxInner table {
+	width:100%;
+	padding:0;
+	border:none;
+}
+#wrapper .food .boxInner table td{
+	width:178px;
+	padding:5px 0px;
+	border:none;
+	vertical-align:top;
+	font-size:12px;
+}
+#wrapper .food .boxInner table td span{
+	line-height:1.4;
+	padding:10px 3px 0;
+	display:inline-block;
+	vertical-align:top;
+}
+#wrapper .food .boxInner .clb{
+	padding:0 10px 10px;
+	}
+#map1{
+	margin-right: 10px;	
+}
+
+/* *********************************************
+*
+*	SP view
+*	
+********************************************* */
+
+@media screen and (max-width:769px) {
+	
+/* -------------------------------------------------------------
+
+	map/list/index.html
+
+------------------------------------------------------------- */
+
+#wrapper .cntBox .boxInner .guideMenu {
+	width: 100%;
+	margin-top:5%;
+}
+#wrapper .cntBox .boxInner .guideMenu li {
+	width:98%;
+	height:auto;
+	margin: 0 auto 20px;
+	display: block;
+	text-indent:0;
+	background: none;
+	text-align: center;
+	}
+#wrapper .cntBox .boxInner .guideMenu li a{
+	width:100%;
+	height:auto;
+	min-height: 3em;
+	padding: 20px 0;
+	display: block;
+	}
+#wrapper .cntBox .boxInner .guideMenu li img{
+	visibility:visible;
+	height:auto;
+	}
+
+
+/* h3見出しカラー */
+
+#wrapper .cntBox #exhibitor_list.boxInner table th span{
+	margin-left: 0;
+	}
+#exhibitor_list td p span a{
+	padding-left:18px;
+	/*background: url(../images/sp_icon_web.gif) left bottom no-repeat;
+	background-size: 17px 13px;*/
+	}
+	
+/* -------------------------------------------------------------
+
+	map/index.html
+
+------------------------------------------------------------- */
+.map .cntBox ul{
+	overflow: hidden;
+	}
+.map .cntBox ul li{
+	width:100%;
+	float:none;
+	}
+/*.map .cntBox ul li img{
+	width:100%;
+	max-width:auto!important;
+	}*/
+#map1{
+	margin-right: 0px;	
+}
+
+/* -------------------------------------------------------------
+
+	map/app.html
+
+------------------------------------------------------------- */
+#wrapper .app .boxInner h3 img {
+	margin-top: -14px;
+	padding-right: 2px;
+}
+#wrapper .app .boxInner .right {
+	width: 100%;
+	float: none;
+	padding-top:0;
+}
+#wrapper .app .boxInner ul {
+	width: 100%;
+	height: auto;
+	margin: 0 0 20px;
+	clear: both;
+}
+#wrapper .app .boxInner ul li {
+	width: 33%;
+	padding: 0;
+	margin: 0 0 20px;
+	float: left;
+	text-align:center;
+}
+
+
+/* -------------------------------------------------------------
+
+	map/food.html
+
+------------------------------------------------------------- */
+#wrapper .food .boxInner h4{
+	margin-bottom:20px;
+	}
+#wrapper .food .boxInner table td{
+	width:24%!important;
+	padding:0 0 10px 0;
+	display:inline-block;
+}
+#wrapper .food .boxInner table td[colspan="3"]{
+	width:74%!important;
+	}
+#wrapper .food .boxInner table td img{
+	width:100%!important;
+}
+#wrapper .food .boxInner .clb{
+	padding:0px 0px 0px;
+	}
+
+}
+
+@media screen and (max-width:414px) {
+	
+/* -------------------------------------------------------------
+
+	map/app.html
+
+------------------------------------------------------------- */
+
+#wrapper .app .boxInner ul li {
+	width: 100%;
+	padding: 0;
+	margin: 0 0 20px;
+	float: none;
+	text-align:center;
+}
+#wrapper .app .boxInner ul#dl_btn{
+	width:240px;
+	margin:0 auto;
+	}
+#wrapper .app .boxInner ul#dl_btn li{
+	width:100%;
+	padding-right:0px;
+}
+
+/* -------------------------------------------------------------
+
+	map/food.html
+
+------------------------------------------------------------- */
+#wrapper .food .boxInner h4{
+	margin-bottom:20px;
+	}
+#wrapper .food .boxInner table td{
+	width:100%!important;
+	padding:0 0 10px 0;
+	display:inline-block;
+}
+#wrapper .food .boxInner table td[colspan="3"]{
+	width:100%!important;
+	}
+#wrapper .food .boxInner table td img{
+	width:100%!important;
+}
+#wrapper .food .boxInner .clb{
+	padding:0px 0px 0px;
+	}
+
+}
+
+
