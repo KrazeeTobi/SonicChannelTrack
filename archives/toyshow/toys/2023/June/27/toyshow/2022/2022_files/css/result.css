@@ -1,0 +1,121 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* ----------------------------------------
+    result.html
+---------------------------------------- */
+
+section h2.result_title img {
+  width: 100%;
+}
+section h2.buyer_title img {
+  width: 100%;
+}
+section h2.public_title img {
+  width: 180px;
+}
+
+section p {
+	margin-top: 0;
+  padding-right: 0;
+}
+
+section h3 {
+	margin-top: 20px;
+	color: #ff5064;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+section a,
+section a:hover {
+	color: #ff5064;
+}
+
+
+/*------------- Result -------------*/ 
+
+.result_btn {
+    margin-right: 14px;
+}
+
+#result table {
+    width: 100%;
+    margin-top: 20px;
+	margin-bottom: 30px;
+}
+#result th,
+#result td {
+	border: solid #fff 2px;
+}
+#result th {
+    background: #E6E6E6;
+    border-left: none;
+    padding: 7px 10px;
+    color: #646464;
+	font-weight: bold;
+    text-align: left;
+}
+#result td {	
+	background: #d2f0f0;
+	width: 123px;
+	color: #00b4dc;
+	text-align: center;
+	font-weight: bold;
+}
+
+#result .sort,
+#result .headline,
+#result .headline_pub {
+	background: #3c3c3c;
+	color: #fff;
+	text-align: center;	
+	font-weight: bold;
+}
+#result .sort {
+	width: 158px;	
+}
+#result .headline {
+	background: #00b4dc;	
+}
+#result .headline_pub {
+	background: #ff5064;
+}
+
+#result .pub {
+	background: #ffe6e6;
+	width: 109px;
+	color: #ff5064;
+}
+
+#result #total td {
+	background: #ff9600;
+	color: #fff;
+}
+
+
+/*---------- Result Buyer -----------*/
+
+.pics {
+  width: 640px;
+  margin: 20px 0 30px;
+  border-bottom: none;
+}
+.pics a>img {
+  width: 150px;
+}
+.pics img {
+	margin: 0 5px 2px 0;
+}
+
+.colorBlue {
+	margin: 20px 0;
+	color: #00B4DC;
+	font-weight: bold;
+}
+
+.colorRed {
+	margin: 20px 0;
+	color: #FF5064;
+	font-weight: bold;
+}

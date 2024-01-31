@@ -1,0 +1,79 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* ----------------------------------------
+	contents
+---------------------------------------- */
+
+header {
+    padding-top: 46%;
+	min-height: 88px;
+}
+
+a {
+	color: #ff9600;
+}
+
+#gnav {
+	margin-top: 3%;
+    background: url(../img/index/gnav_bg.png) repeat-x;
+}
+
+#container {
+    background: url(../img/index/container_bg_body.gif) repeat;
+}
+
+#kodomohaku {
+	bottom: 18%;
+}
+
+#result {
+	bottom: 18%;
+}
+
+#bnr {
+	background: #ff9600;
+}
+
+section dl {
+	position: relative;
+}
+section dt {
+	position: absolute;
+	left: 30px;
+}
+section dd {
+	display: block;
+	padding: 0 0 10px 147px;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #e6e6e6;
+}
+.day dt {
+	left: 0;
+}
+.day dd {
+	padding-left: 188px;
+	padding-bottom: 0;
+	margin-bottom: 0;
+	border-bottom: none;
+}
+
+section dd:last-child {
+	padding-bottom: 0;
+	border: none;
+}
+
+.notice {
+    border: #ff9600 2px solid;
+    margin: 30px 0px;
+    text-align: center;
+}
+
+span.colorBlue {
+	color: #00b4dc;
+	font-weight: bold;
+}
+span.colorPink {
+	color: #ff5064;
+	font-weight: bold;
+}

@@ -1,0 +1,80 @@
+/* CSS Document */
+#container.press {
+  background-color: #5ab400;
+}
+
+@media screen and (min-width: 768px) {
+  /* ----------------------------------------
+  	press
+  ---------------------------------------- */
+  #container.press {
+    background: url(../img/common/container_bg_press.png) top center/auto repeat #5ab400;
+  }
+  section h3 {
+    margin-top: 20px;
+    color: #5AB400;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  section h3 img {
+    height: 30px;
+  }
+  section a {
+    color: #5AB400;
+  }
+  section a:hover {
+    color: #5AB400;
+  }
+  section p {
+    padding: 0;
+    margin: 0;
+  }
+  section div {
+    border-bottom: 1px solid #5AB400;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+  }
+  section div:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  .apply {
+    display: none;
+  }
+}
+/*SP---------------------------------*/
+@media screen and (max-width: 767.9px) {
+  /* ----------------------------------------
+  	press
+  ---------------------------------------- */
+  section a {
+    color: #5AB400;
+  }
+  section a:hover {
+    color: #5AB400;
+  }
+  section p {
+    margin-bottom: 0;
+  }
+  section div {
+    margin-bottom: 3%;
+    padding-bottom: 3%;
+    border-bottom: 1px solid #5AB400;
+  }
+  section > div:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+  }
+  .title {
+    border-left: 7.5px solid #5AB400;
+    min-height: 25px;
+    padding-left: 10px;
+    margin-bottom: 3%;
+  }
+  .apply {
+    display: none;
+  }
+}
+/*# sourceMappingURL=press.css.map */

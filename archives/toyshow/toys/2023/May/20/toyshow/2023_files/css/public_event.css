@@ -1,0 +1,356 @@
+/* CSS Document */
+/* ----------------------------------------
+    public_event.html
+---------------------------------------- */
+#container.public {
+  background-color: #ff5064;
+}
+
+/*PC---------------------------------*/
+@media screen and (min-width: 768px) {
+  #container.public {
+    background: url(../img/common/container_bg_public.png) top center/auto repeat #ff5064;
+  }
+  section h3 {
+    margin-top: 20px;
+    margin-bottom: 0;
+    color: #ff5064;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  section a {
+    color: #ff5064;
+  }
+  section a:hover {
+    color: #ff5064;
+  }
+  .commingsoon {
+    width: 100%;
+    padding: 50px 0;
+    text-align: center;
+    border-bottom: none;
+  }
+  .commingsoon p {
+    padding: 10px;
+    color: #ff5064;
+    font-weight: bold;
+  }
+  section p {
+    padding: 0;
+  }
+  section div {
+    border-bottom: 0 solid #ff5064;
+    margin-bottom: 0;
+    padding-bottom: 10px;
+  }
+  article h2 img {
+    width: 100%;
+    height: auto;
+  }
+  /* #public_event
+    ---------------------------------------- */
+  section h4 {
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.5;
+    color: #ff5064;
+  }
+  #guide p {
+    margin-top: 20px;
+  }
+  #guide p span {
+    color: #ff5064;
+  }
+  #public_event h2.outline {
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ff5064;
+  }
+  section {
+    padding-bottom: 0;
+    margin-bottom: 0;
+    border-bottom: none;
+  }
+  section.event .inner {
+    width: 628px;
+    margin-top: 0;
+    margin-bottom: 30px;
+    padding: 6px;
+    background: #ff5064;
+    border-radius: 10px;
+  }
+  section.event .inner > .company-name {
+    margin: 0;
+    padding: 5px 15px 14px;
+    color: #fff;
+    font-weight: normal;
+    font-size: 1em;
+  }
+  section.event .inner > .company-name span {
+    padding-right: 10px;
+    font-weight: bold;
+  }
+  section.event .inner > .company-name a {
+    color: #fff;
+  }
+  section.event .info {
+    padding: 20px;
+    background: #fff;
+    color: #000;
+  }
+  section.event .info dd {
+    padding: 20px 0 20px 50px;
+    border-bottom: 1px solid #e6e6e6;
+  }
+  section.event .info dl {
+    position: relative;
+  }
+  section.event .info dt {
+    padding-top: 20px;
+    position: absolute;
+    left: 0;
+    font-weight: bold;
+  }
+  section.event .info h4 {
+    margin: 0;
+    font-size: 1.2em;
+  }
+  .cat {
+    padding: 15px 0;
+    margin-bottom: 30px;
+    border-top: solid 1px #ff5064;
+    border-bottom: solid 1px #ff5064;
+  }
+  .cat ul {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .cat ul li {
+    padding: 0 1em;
+    border-right: solid 1px #000;
+    line-height: 1;
+  }
+  .cat ul li:last-child {
+    border-right: none;
+  }
+  .cat ul li button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    padding: 0;
+    appearance: none;
+    color: #ff5064;
+    line-height: 1;
+  }
+  .cat ul li button.active {
+    color: #000;
+    pointer-events: none;
+  }
+  .imgbox {
+    float: left;
+    width: 160px;
+    font-size: 0.8em;
+    padding: 0;
+  }
+  .imgbox img {
+    max-width: 100%;
+  }
+  .rightbox {
+    float: right;
+    width: 410px;
+    padding: 0;
+  }
+  section.event .info dd:last-child {
+    border-bottom: none;
+  }
+  .margin_bottom {
+    margin-bottom: 7px;
+  }
+  #k11_copy {
+    padding-left: 0px;
+  }
+  .sp_only {
+    display: none;
+  }
+}
+/*SP---------------------------------*/
+@media screen and (max-width: 767.9px) {
+  section a {
+    color: #ff5064;
+  }
+  section a:hover {
+    color: #ff5064;
+  }
+  article section {
+    font-size: 1em;
+  }
+  section h3 {
+    margin-top: 2%;
+    color: #ff5064;
+    font-size: 16px;
+  }
+  .commingsoon {
+    width: 80%;
+    margin: auto;
+    padding: 50px 0;
+    text-align: center;
+    border-bottom: none;
+  }
+  .commingsoon p {
+    color: #ff5064;
+    font-weight: bold;
+  }
+  section p {
+    margin-top: 0;
+  }
+  section div {
+    border-bottom: 0px solid #ff5064;
+  }
+  section h4 {
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.5;
+    color: #ff5064;
+  }
+  h2.public_attention {
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ff5064;
+  }
+  /* #public_event
+    ---------------------------------------- */
+  section.event {
+    margin-top: 0;
+    padding: 6px;
+    background: #ff5064;
+    border-radius: 5px;
+  }
+  section.event .inner > .company-name {
+    margin: 0 !important;
+    padding: 2% 3% 3% !important;
+    color: #fff !important;
+    font-weight: normal !important;
+  }
+  section.event .inner > .company-name > a {
+    color: #fff !important;
+  }
+  section.event .inner > .company-name span {
+    padding-right: 10px !important;
+    font-weight: bold !important;
+  }
+  section.event .info {
+    padding: 5% 5% 1px;
+    background: #fff;
+    color: #000;
+  }
+  section.event .info h4 {
+    margin: 0;
+    font-size: 1em;
+  }
+  section.event .info dl {
+    margin-bottom: 5%;
+    position: relative;
+  }
+  section.event .info dt {
+    padding-top: 2%;
+    display: block;
+    position: relative;
+    font-weight: normal;
+  }
+  section.event .info dd {
+    padding: 0 0 2%;
+    margin-bottom: 2%;
+    border-bottom: 1px solid #e6e6e6;
+  }
+  .cat {
+    padding: 10px 0 9px;
+    margin-bottom: 30px;
+    border-top: solid 1px #ff5064;
+    border-bottom: solid 1px #ff5064;
+  }
+  .cat ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+  }
+  .cat ul li {
+    margin: 4px 0;
+    padding: 0 1em;
+    border-right: solid 1px #000;
+    line-height: 1;
+  }
+  .cat ul li:last-child {
+    border-right: none;
+  }
+  .cat ul li button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    padding: 0;
+    appearance: none;
+    color: #ff5064;
+    line-height: 1;
+  }
+  .cat ul li button.active {
+    color: #000;
+    pointer-events: none;
+  }
+  #public_event h2.outline {
+    color: #ff5064;
+  }
+  #guide p {
+    padding-top: 10px;
+    margin-bottom: 15px;
+  }
+  .buyer_link {
+    margin: 0;
+    border: none;
+    padding-bottom: 0;
+  }
+  .buyer_link a {
+    color: #00b4cc;
+  }
+  .bdr_header {
+    margin-top: 2%;
+    border-left: solid 7.5px #ff5064;
+    padding-left: 7.5px;
+  }
+  section h3.sp {
+    margin-top: 2%;
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.5;
+    color: #ff5064;
+  }
+  section h3 span {
+    color: #ff5064;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  section.event .info dd:last-child {
+    border-bottom: none;
+  }
+  .imgbox {
+    margin-bottom: 3%;
+  }
+  .imgbox img {
+    width: 100%;
+  }
+  #guide p {
+    padding-top: 10px;
+  }
+  #guide p span {
+    padding-top: 3px;
+    color: #ff5064;
+  }
+  .margin_bottom {
+    margin-bottom: 6px;
+  }
+}
+/*# sourceMappingURL=public_event.css.map */

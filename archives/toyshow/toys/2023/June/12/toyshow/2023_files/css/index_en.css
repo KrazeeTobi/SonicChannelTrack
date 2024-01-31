@@ -1,0 +1,549 @@
+@charset "UTF-8";
+/* CSS Document */
+@media screen and (min-width: 768px) {
+  section.outline h2 {
+    padding-bottom: 18px;
+    text-align: left;
+    border-bottom: solid 6px #ffa000;
+  }
+  section.outline dl.eo {
+    position: relative;
+  }
+  section.outline .eo dd {
+    display: block;
+    border-bottom: 1px solid #e6e6e6;
+    padding-left: 12em;
+    padding-bottom: 10px;
+    margin-bottom: 13px;
+  }
+  .outline .eo dt {
+    position: absolute;
+    left: 0;
+    padding-left: 1em;
+  }
+  .outline .eo dd {
+    display: block;
+    border-bottom: 1px solid #e6e6e6;
+    padding-left: 11em;
+    padding-bottom: 10px;
+    margin-bottom: 13px;
+    font-size: 1em;
+  }
+  .outline .eo dd:last-child {
+    border-bottom: none;
+  }
+  .outline span.buyer {
+    font-weight: bold;
+    color: #00b4dc;
+  }
+  .outline span.public {
+    font-weight: bold;
+    color: #ff5064;
+  }
+  .outline .tickets {
+    border: solid 1px #ff5064;
+    margin: 2em auto;
+    padding: 20px 0;
+    text-align: center;
+    color: #ff5064;
+    font-weight: bold;
+  }
+  .outline .tickets .text_large {
+    font-size: 22px;
+  }
+  .outline .ticketsStart {
+    border: solid 1px #ff5064;
+    margin: 1em auto;
+    padding: 1em 1.5em;
+    text-align: center;
+    color: #333;
+    text-align: left;
+  }
+  .outline .ticketsStart .text_large {
+    color: #ff5064;
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  .outline .ticketsStart a {
+    word-break: break-all;
+  }
+  .outline .ticketsStart dt {
+    font-weight: bold;
+  }
+  .outline .ticketsStart .tickets_btnArea {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .outline .ticketsStart .tickets_btnArea a {
+    position: relative;
+    display: block;
+    width: 100%;
+    color: #fff;
+    background: #ff5064;
+    margin: 10px auto 0;
+    padding: 5px 0;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 100vh;
+  }
+  .outline .ticketsStart .tickets_btnArea a:before {
+    content: "";
+    margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 15px;
+    /* 要素の左からの距離 */
+    width: 0;
+    height: 0;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid #fff;
+  }
+  .outline .ticketsStart .tickets_btnArea--finish {
+    position: relative;
+  }
+  .outline .ticketsStart .tickets_btnArea--finish:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1;
+  }
+  .outline .ticketsStart .tickets_btnArea--finish .text_finish {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 20px;
+    z-index: 2;
+  }
+  section li {
+    float: none;
+    display: block;
+    width: auto;
+  }
+  section li img {
+    width: 100%;
+  }
+  section.buyer li:nth-child(2), section.public li:nth-child(2) {
+    margin: 0 15px;
+  }
+  section h3 {
+    margin-bottom: 0 !important;
+    color: #ffa000;
+    font-weight: bold;
+    font-size: 1.2em;
+  }
+  /* article
+    ---------------------------------------- */
+  span.public {
+    color: #ff5064;
+    font-weight: bold;
+  }
+  dl dl dt {
+    border: none;
+    padding: 0;
+    margin: 0;
+  }
+  dl dl dd {
+    border: none;
+    padding: 0;
+    padding-left: 3em;
+    margin: 0;
+  }
+  span.buyer {
+    color: #00b4dc;
+    font-weight: bold;
+  }
+  section dd a {
+    color: #ffa000;
+  }
+  #from_abroad {
+    padding: 25px 0;
+    margin-bottom: 40px;
+    border-top: solid 1px #ffa000;
+    border-bottom: solid 1px #ffa000;
+  }
+  #from_abroad .btn {
+    display: block;
+    padding: 15px 0;
+    text-align: center;
+  }
+  #from_abroad h2 {
+    width: auto;
+    margin-left: 0;
+    padding: 5px 0 5px 25px;
+    background: none;
+    box-shadow: none;
+    text-align: left;
+  }
+  #hotels h2 {
+    width: auto;
+    margin-left: 0;
+    padding: 5px 0 5px 25px;
+    background: none;
+    box-shadow: none;
+    text-align: left;
+  }
+  #from_abroad li {
+    padding-left: 1em;
+    text-indent: -1em;
+  }
+  #from_abroad ul.disc > li {
+    margin-bottom: 0.5em;
+  }
+  #from_abroad dt {
+    font-weight: 700;
+    color: #ff9600;
+  }
+  #from_abroad dd {
+    margin-bottom: 1.5em;
+  }
+  #from_abroad dd > ul.list_indent {
+    margin-bottom: 0.8em;
+    padding-left: 2.8em;
+  }
+  #from_abroad dd > ul.list_indent2 {
+    margin-bottom: 0.8em;
+    padding-left: 1em;
+  }
+  #hotels p {
+    padding-left: 0;
+  }
+  #hotels dt {
+    position: static;
+    padding-left: 0;
+  }
+  #hotels dl {
+    margin-top: 20px;
+  }
+  #hotels dt {
+    font-weight: bold;
+  }
+  #hotels dd {
+    display: block;
+    border-bottom: none;
+    padding-left: 0;
+    padding-bottom: 10px;
+    margin-bottom: 13px;
+  }
+  section .none_bdr h2 {
+    position: relative;
+    padding-left: 20px;
+    padding-bottom: 0;
+    margin-top: 10px;
+    border-bottom: none;
+  }
+  section .none_bdr h2:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 10px;
+    height: 100%;
+    background: #ff9600;
+  }
+  .date_indent {
+    padding-left: 3em;
+    text-indent: -2.7em;
+    margin-bottom: 0;
+  }
+}
+/*SP---------------------------------*/
+@media screen and (max-width: 767.9px) {
+  body {
+    color: #000;
+    font-size: 13px;
+    width: 100%;
+    line-height: 1.6;
+    font-family: "メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+    background-image: url(../img/common/kv.jpg), url(../img/common/bg_toy.jpg);
+    background-repeat: no-repeat, repeat-y;
+    background-position: 0 91px, center;
+    background-size: 100%;
+    background-color: #fff578;
+  }
+  a {
+    color: #ffa000;
+  }
+  #sekai-kodomohaku {
+    position: absolute;
+    top: -22%;
+    right: -2%;
+    width: 25%;
+  }
+  section p.notice {
+    border: 1px solid #ffa000;
+    margin: 3% 0 0;
+    padding: 3%;
+    color: #ffa000;
+    text-align: center;
+    font-weight: bold;
+  }
+  .coming_soon {
+    display: block;
+    width: 70%;
+    margin: auto;
+    padding: 28% 0;
+    text-align: center;
+    border: none;
+  }
+  #container nav ul.language li a {
+    color: #000;
+    margin-right: 0%;
+  }
+  #container nav li.english {
+    background: #ffa000;
+  }
+  /* article
+    ---------------------------------------- */
+  section h2.bdr {
+    border-left: solid 0.5em #ffa000;
+    border-bottom: none;
+    color: #ffa000;
+    padding-left: 3%;
+  }
+  section dd {
+    padding-bottom: 2%;
+    margin-bottom: 3%;
+    border-bottom: solid 1px #e6e6e6;
+    font-size: 90%;
+  }
+  span.public {
+    color: #ff5064;
+    font-weight: bold;
+  }
+  span.buyer {
+    color: #00b4dc;
+    font-weight: bold;
+  }
+  dl dl dt {
+    position: absolute;
+    border: none;
+    padding: 0;
+    margin: 0;
+  }
+  dl dl dd {
+    border: none;
+    padding: 0;
+    padding-left: 3em;
+    margin: 0;
+  }
+  section.outline h2 {
+    font-weight: bold;
+    color: #ff9600;
+    border-bottom: solid 3px #FF9600;
+  }
+  #from_abroad {
+    padding-top: 4.3%;
+    padding-bottom: 4.3%;
+    border-top: solid 1px #ffa000;
+  }
+  #from_abroad li {
+    padding-left: 1em;
+    text-indent: -1em;
+  }
+  #from_abroad ul.disc > li {
+    margin-bottom: 0.5em;
+  }
+  #from_abroad dt {
+    font-weight: 700;
+    color: #ff9600;
+  }
+  #from_abroad dd {
+    margin-bottom: 1.5em;
+  }
+  #from_abroad dd > ul.list_indent {
+    margin-bottom: 0.8em;
+    padding-left: 2.8em;
+  }
+  #from_abroad dd > ul.list_indent2 {
+    margin-bottom: 0.8em;
+    padding-left: 1em;
+  }
+  #hotels {
+    padding-top: 4.3%;
+    padding-bottom: 4.3%;
+    border-top: solid 1px #ffa000;
+  }
+  #from_abroad h3 {
+    margin-bottom: 6%;
+    color: #ffa000;
+  }
+  #from_abroad .btn img {
+    margin: 4% 0;
+  }
+  #from_abroad h3 > img {
+    height: auto;
+  }
+  #from_abroad p {
+    margin-bottom: 5%;
+  }
+  #hotels {
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  #hotels p {
+    margin-bottom: 5%;
+  }
+  #hotels dt {
+    font-weight: bold;
+    color: #000;
+  }
+  #hotels dd {
+    display: block;
+    border-bottom: none;
+    padding-left: 0;
+    padding-bottom: 10px;
+    margin-bottom: 13px;
+  }
+  #hotels li a {
+    color: #ff9600;
+    text-decoration: underline;
+  }
+  .none_bdr {
+    border: none;
+  }
+  section .none_bdr h2 {
+    position: relative;
+    padding: 0 0 0 1.1em;
+    border-bottom: none;
+    background: none;
+    color: #ff9600;
+    text-align: left;
+  }
+  section .none_bdr h2:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 10px;
+    height: 100%;
+    background: #ff9600;
+  }
+  span.public {
+    color: #ff5064;
+    font-weight: bold;
+  }
+  span.buyer {
+    color: #00b4dc;
+    font-weight: bold;
+  }
+  section.outline dd:last-child {
+    border-bottom: none;
+  }
+  .date_indent {
+    padding-left: 30px;
+    text-indent: -30px;
+    margin-bottom: 0;
+  }
+  .sp_sidebar {
+    display: block;
+    height: auto;
+    background: #fff;
+  }
+  .sp_sidebar li {
+    width: 93.5%;
+    float: left;
+    margin: 3.125% 3.25% 0;
+  }
+  .sp_sidebar li:last-child {
+    margin-bottom: 3.125%;
+  }
+  .sp_sidebar li img {
+    display: block;
+    width: 100%;
+  }
+  .tickets {
+    border: solid 1px #ff5064;
+    margin: 1em auto;
+    padding: 0.8em 0;
+    text-align: center;
+    color: #ff5064;
+    font-weight: bold;
+  }
+  .ticketsStart {
+    border: solid 1px #ff5064;
+    margin: 1em auto;
+    padding: 1.5em 1em;
+    text-align: center;
+    color: #333;
+    text-align: left;
+  }
+  .ticketsStart .text_large {
+    color: #ff5064;
+    font-size: 1.1em;
+    font-weight: bold;
+  }
+  .ticketsStart a {
+    word-break: break-all;
+  }
+  .ticketsStart dt {
+    font-weight: bold;
+  }
+  .ticketsStart .tickets_btnArea {
+    position: relative;
+    display: block;
+  }
+  .ticketsStart .tickets_btnArea a {
+    position: relative;
+    display: block;
+    width: 100%;
+    color: #fff;
+    background: #ff5064;
+    margin: 2% auto 0;
+    padding: 2% 0;
+    font-size: 1.1em;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 100vh;
+  }
+  .ticketsStart .tickets_btnArea a:before {
+    content: "";
+    margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 15px;
+    /* 要素の左からの距離 */
+    width: 0;
+    height: 0;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid #fff;
+  }
+  .ticketsStart .tickets_btnArea--finish {
+    position: relative;
+  }
+  .ticketsStart .tickets_btnArea--finish:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1;
+  }
+  .ticketsStart .tickets_btnArea--finish .text_finish {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 1.5em;
+    z-index: 2;
+  }
+}
+/*# sourceMappingURL=index_en.css.map */

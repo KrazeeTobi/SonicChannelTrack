@@ -1,0 +1,250 @@
+
+
+html{
+   margin: 0;
+   padding: 0;
+}
+body{
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	font-size: small;
+	line-height: 130%;
+	/*	背景の色指定 */
+    background-color: #A9BCBE;
+/*	background-image: url(images/body_bg.gif); */
+	background-repeat: repeat-x;
+}
+.h1_title{
+	margin-left: 90px;
+	line-height: normal;
+	margin-top: 35px;
+	margin-bottom: 0px;
+}
+.h1_title a{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+	font-style: italic;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.h1_title a:hover{
+	color: #FFF7B9;
+}
+.h2_title {
+	font-size: 12px;
+	margin-left: 94px;
+	line-height: normal;
+	color: #FFFFFF;
+	margin-top: 5px;
+	margin-bottom: 0px;
+}
+a { text-decoration: underline;
+	color: #0033CC;
+}
+a:hover {
+	color: #0066FF;
+}
+a img {
+	border: 0;
+}
+h1, h2, h3, h4, h5, h6 { font-weight: normal; }
+#container {
+	width: 900px;
+	text-align: left;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-right-color: #CCCCCC;
+	border-bottom-color: #CCCCCC;
+	border-left-color: #CCCCCC;
+	background-color: #fff;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	border-top-color: #000000;
+}
+#header {
+	height: 200px;
+	background-color: #CCCCCC;
+	height: 100px;
+	background-image: url(image/header.png);
+	background-repeat: no-repeat;
+}
+#pagebody {
+	position: relative; width: 100%;
+}
+#alpha{
+	float: right;
+	width: 690px;
+}
+#beta{
+	float: left;
+	width: 200px;
+	margin-top: 10px;
+}
+#footer {
+	text-align: center;
+	padding: 15px;
+	background-color: #eee;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #999999;
+}
+.menu {
+	margin-bottom: 10px;
+}
+.menu a{
+	background-color: #999999;
+	padding: 10px;
+	display: block;
+	color: #003399;
+	background-image: url(images/menu_bg1.gif);
+	background-repeat: repeat-x;
+	background-position: left top;
+	text-decoration: none;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #bbb;
+	margin-right: 0px;
+	margin-bottom: 5px;
+	margin-left: 0px;
+	border-right-width: 5px;
+	border-right-style: solid;
+	border-right-color: #1E5DDD;
+}
+.menu a:hover{
+	background-color: #aaaaaa;
+	background-image: url(images/menu_bg2.gif);
+	background-repeat: repeat-x;
+	background-position: left top;
+	border-right-color: #0066FF;
+	}
+#alpha .top_copy {
+	padding: 15px;
+	margin-top: 10px;
+	height: 170px;
+	background-color: #3366CC;
+	background-image: url(images/topimg.jpg);
+	background-repeat: no-repeat;
+	color: #FFFFFF;
+}
+/*	2018.04.03 おもちゃショーバナー挿入のため、height:250pxを300pxに変えた。終了後もどすこと */
+#alpha .page_copy {
+	padding: 5px;
+	margin-top: 1px;
+	height: 250px;
+	background-color: #FFFFFF;
+	background-image: 
+	background-repeat: no-repeat;
+	color: #FFFFFF;
+	font-size:12px;
+	font-weight:200;
+}
+.topic {
+	margin-left: 30px;
+}
+.banner {
+	margin-bottom: 10px;
+	text-align: right;
+}
+#page {
+	margin-top: 20px;
+	margin-right: 25px;
+	margin-bottom: 20px;
+	margin-left: 15px;
+}
+
+/*      !!!!!!!!!!!!!!!!!!!                         */
+/* --- 新着情報エリア --- */
+div.update {
+width: 600px; /* 新着情報エリアの幅 */
+font-size: 100%;
+}
+
+/* --- 見出し --- */
+div.update h3 {
+margin: 0 0 5px; /* 見出しのマージン（上、左右、下） */
+font-size: 100%;
+}
+
+/* --- 新着リスト --- */
+div.update dl {
+width: 100%; /* 新着リストの幅 */
+margin: 0;
+border-top: 1px #c0c0c0 dotted; /* 新着リストの上境界線 */
+}
+
+/* --- 日付エリア --- */
+div.update dt {
+width: 6.7em; /* 日付エリアの幅 */
+float: left;
+padding: 7px 0 6px 3px; /* 日付エリアのパディング（上右下左） */
+line-height: 120%;
+}
+
+/* --- 本文エリア --- */
+div.update dd {
+margin: 0;
+padding: 7px 3px 6px 6.6em; /* 本文エリアのパディング（上右下左） */
+border-bottom: 1px #c0c0c0 dotted; /* 本文エリア下境界線 */
+line-height: 120%;
+}
+
+/* --- clearfix --- */
+.clearFix:after {
+content: ".";
+display: block;
+height: 0;
+clear: both;
+visibility: hidden;
+}
+.clearFix {
+min-height: 1px;
+}
+
+/*   */
+/* お知らせ */
+.news_box{ width:640px; height:400px; overflow:auto; background-color:#FFFFFF;} /*white*/
+.news_line { border-bottom:1px solid #E3E3D9;}
+.news a{color:#003366; text-decoration:none;}
+.news a:hover{color:#003366; text-decoration:underline}
+.news a:link{color:#003366;}
+
+.news_under {color:#FF4500;}
+
+
+
+
+/* ST申請システムへの移動確認ボタン */
+
+input[type="submit"] {
+ padding: 10px 20px;
+ border: none;
+ background: #DB7093;
+ color: #fff;
+}
+
+ 
+
+/* 送信ボタン - マウスオーバー時 */
+
+input[type="submit"]:hover {
+ background: #FF69B4;
+ color: #000;
+}
+
+ 
+
+/* 送信ボタン - 押せないとき */
+
+input[type="submit"][disabled] {
+ background-color: #A9A9A9;
+ cursor: default;
+ color: #000;
+}

@@ -1,0 +1,95 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/* ----------------------------------------
+    main
+---------------------------------------- */
+
+#main {
+	margin: auto;
+	position: relative;
+	width: 1000px;
+	height: 585px;
+}
+#main .kodomohaku {
+	position: absolute;
+	bottom: 60px;
+	right: 0;
+}
+
+section.outline dl {
+	position: relative;
+}
+.outline dt {
+    position: absolute;
+    left: 0;
+}
+.outline dd {
+    display: block;
+    border-bottom: 1px solid #e6e6e6;
+    padding-left: 7em;
+    padding-bottom: 10px;
+    margin-bottom: 13px;
+}
+.outline span.buyer {
+	font-weight: bold;
+	color: #00b4dc;
+}
+.outline span.public {
+	font-weight: bold;
+	color: #ff5064;
+}
+
+section li {
+	float: left;
+	width: 210px;
+}
+section li img {
+	width: 100%;
+}
+
+section.buyer li:nth-child(2),
+section.public li:nth-child(2) {
+	margin: 0 15px;
+}
+
+
+.resultPc {
+	position: absolute;
+    bottom: 40px;
+    left: 0;
+    width: 495px;
+    height: 180px;
+}
+.end_buyer {
+	background: url(../img/index/btn_result_buyer.png) left bottom no-repeat;	
+}
+.end_all {
+	background: url(../img/index/btn_result.png) left bottom no-repeat;	
+}
+.resultPc li {
+	float: left;
+}
+.resultPc li a {
+    display: block;
+    width: 145px;
+    height: 140px;
+	margin: 20px 0;
+}
+.resultPc #result_buyer {
+	margin-left: 20px;
+}
+.resultPc #result_public,
+.resultPc #result_all {
+	margin-left: 10px;
+}
+#main #end {
+	position: absolute;
+	top: 60px;
+	right: 0;
+}
+
+.resultSp {
+	display: none;
+}

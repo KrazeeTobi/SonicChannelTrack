@@ -1,0 +1,108 @@
+@charset "utf-8";
+
+/* ----------------------------------------
+	index
+---------------------------------------- */
+#container {
+	min-width: 1200px;
+}
+#mainImg {
+	width: 100%;
+}
+#container #contents {
+	width: 100%;
+	position: relative;
+	padding-bottom: 125px;
+}
+#container #contentsWrapper {
+	background: none;
+	padding: 0;
+}
+#topicsWrapper {
+	background: #fff;
+	width: 100%;
+	padding: 40px 0;
+	position: absolute;
+	bottom: 0;
+}
+#topics {
+	width: 984px;
+	margin: auto;
+	float: none;
+}
+
+#topics img {
+	display: inline-block;
+	float: left;
+}
+#topics ul {
+	width: 720px;
+	float: left;
+	border: 1px dotted #333333;
+	border-left: none;
+	height: 39px;
+	overflow:-webkit-marquee;
+	white-space:nowrap;
+}
+
+#topicsWrapper #topics ul li {
+	height: 39px;
+}
+#topicsWrapper #topics ul li span {
+	display: inline;
+}
+
+#countdown {
+	background: url(../img/common/countdown_bg.png) no-repeat;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 190px;
+	height: 82px;
+	padding: 8px 0 0 90px;
+}
+
+#countdown img {
+	margin-left: 6px;
+}
+
+#contents_left {
+	background: #f5ec06;
+	width: 100%;
+	padding: 20px 0;
+}
+#contents_left ul {
+	width: 984px;
+	margin: auto;
+}
+#contents_left ul li {
+	display: inline-block;
+	float: left;
+}
+#contents_left ul li.space {
+	margin: 0 20px 0 10px;
+}
+#contents_left > a img {
+	display: block;
+	margin: auto;
+}
+
+
+/* ----------------------------------------
+	result
+---------------------------------------- */
+
+#container #header #result {
+	position: absolute;
+	top: 44px;
+	right: 12%;
+}
+#container #header #result li {
+	float: left;
+	margin-top: 10px;
+	margin-left: -15px;
+}
+
+#container #result_sp {
+	display: none;
+}

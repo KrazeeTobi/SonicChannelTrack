@@ -1,0 +1,140 @@
+a {
+  color: #FF9600;
+}
+
+section h2 {
+  margin-bottom: 30px;
+}
+section div {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.company-list .frame {
+  margin-top: 30px;
+}
+
+#category {
+  margin-top: -50px;
+}
+#category li {
+  margin: 0 7px 0 0;
+  border: none;
+  width: 225px;
+  height: 50px;
+  background: #ff9600;
+  border-radius: 10px 10px 0 0;
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+  box-shadow: 0px -3px 7px -3px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0px -3px 7px -3px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 0px -3px 7px -3px rgba(0, 0, 0, 0.4);
+}
+#category li:last-child {
+  margin-right: 0;
+}
+#category li.on {
+  padding-top: 12px;
+  height: 38px;
+  background: #fff;
+  color: #ff9600;
+}
+#category li a {
+  display: block;
+  color: #fff;
+  padding: 12px 0;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+section li {
+  margin-top: 0;
+  margin-right: 0;
+}
+
+#name_list {
+  width: 630px;
+  margin: auto;
+  padding: 20px 0;
+  border-bottom: 1px solid #ff9600;
+}
+#name_list ul {
+  text-align: center;
+}
+#name_list li {
+  float: none;
+  display: inline-block;
+  padding: 0 10px;
+  font-size: 12px;
+  line-height: 21px;
+  border-right: 1px solid #969696;
+}
+#name_list li.edge {
+  padding: 0 10px;
+  line-height: 21px;
+  border-right: none;
+}
+
+section > ul {
+  border-bottom: 1px solid #e6e6e6;
+}
+section li {
+  float: left;
+}
+
+.id,
+.name,
+.category {
+  padding: 22px 0 20px;
+}
+
+.id {
+  margin-top: -120px;
+  padding-top: 142px;
+  font-weight: bold;
+  width: 70px;
+}
+
+.name {
+  width: 170px;
+  padding-right: 35px;
+}
+.name a {
+  color: #ff9600;
+  text-decoration: none;
+}
+
+.category {
+  width: 355px;
+}
+.category a {
+  display: inline-block;
+  margin: 10px 10px 0 0;
+}
+.category a:last-child {
+  margin-right: 0;
+}
+.category img {
+  width: 150px;
+}
+
+.list-area {
+  position: relative;
+  margin-top: 50px;
+  padding-top: 75px;
+  border-radius: 0 0 10px 10px;
+}
+
+#category_list {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.en #category_list {
+  position: inherit;
+  top: auto;
+}
+/*# sourceMappingURL=company.css.map */

@@ -1,0 +1,1124 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* ----------------------------------------
+	hallmap
+---------------------------------------- */
+
+
+.hallmap_open #hallmap {
+    visibility: visible;
+    opacity: 1;
+    z-index: 110;
+}
+
+#hallmap {
+	visibility: hidden;
+	opacity: 0;
+	overflow: auto;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: -1;
+	box-sizing: border-box;
+	width: 100%;
+	height: 100%;
+	padding: 130px 80px 40px;
+	background: rgba(0,0,0,.6);
+	text-align: center;
+	white-space: nowrap;
+	transition: .5s;
+}
+#hallmap:after,
+#hallmap>div {
+	display: inline-block;
+	vertical-align: middle;
+}
+#hallmap:after {
+	content: '';
+	height: 100%;
+}
+#hallmap>div {
+	position: relative;
+	box-sizing: border-box;
+	width: 100%;
+	height: 100%;
+	padding: 10px;
+	border-radius: 0 0 10px 10px;
+	background: #fff;
+	text-align: left;
+	white-space: normal;
+}
+
+.en .hallmap_buyer dt img {
+    width: 205px;
+}
+.en .hallmap_public dt img {
+    width: 188px;
+}
+
+#hallmap_img {
+	overflow: hidden;
+	position: relative;
+	z-index: 1;
+	height: 100%;
+	cursor: all-scroll;
+}
+#hallmap_img:before {
+	content: 'ドラッグで移動';
+	position: absolute;
+	z-index: 2;
+	left: 0;
+	bottom: 0;
+	padding: 8px 15px 8px 35px;
+	border-radius: 10px;
+	background: url(../img/hallmap/icon_cursor.png) 10px 50% no-repeat rgba(0,0,0,.6);
+	background-size: 15px;
+	color: #fff;
+	font-size: 14px;
+	line-height: 1;
+}
+.en #hallmap_img:before {
+	content: 'Move by dragging';
+	position: absolute;
+	z-index: 2;
+	left: 0;
+	bottom: 0;
+	padding: 8px 15px 8px 35px;
+	border-radius: 10px;
+	background: url(../img/hallmap/icon_cursor.png) 10px 50% no-repeat rgba(0,0,0,.6);
+	background-size: 15px;
+	color: #fff;
+	font-size: 14px;
+	line-height: 1;
+}
+#hallmap_img ul,
+#hallmap_img li,
+#hallmap_img img {
+	position: absolute;
+	z-index: 1;
+}
+#hallmap_img ul,
+#hallmap_img>ul>li,
+#hallmap_img img {
+	left: 0;
+	top: 0;
+}
+#hallmap_img>ul>li {
+	visibility: hidden;
+	opacity: 0;
+	width: 4500px;
+	height: 3000px;
+	-webkit-transform-origin: 0 0;
+	-webkit-transform: scale(.55);
+	transform-origin: 0 0;
+	transform: scale(.55);
+	transition: .3s;
+}
+
+#hallmap_img>ul>.on {
+	visibility: visible;
+	opacity: 1;
+}
+
+#hallmap_img img {
+	opacity: 0;
+	transition: .3s;
+}
+#hallmap_img li ul {
+	width: 100%;
+	height: 100%;
+}
+#hallmap_img li li {
+	border: solid 5px transparent;
+	box-sizing: border-box;
+	cursor: pointer;
+	transition: .2s;
+}
+#hallmap_img li li:hover {
+	background: rgba(255,255,255,.3);
+}
+
+#hallmap_img li li div {
+	display: none;
+}
+#hallmap_img li li a {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+article .map_area {
+	letter-spacing: -.4em;
+}
+.app {
+    margin-bottom: 20px;
+}
+.app img {
+    width: 450px;
+    margin: 0 0 0 30px;
+    display: block;
+}
+
+
+body.en section.buyer h2 {
+	padding-bottom: 18px;
+	border-bottom: solid 5px #ffa000;
+	text-align: left;
+}
+body.en .hallmap_buyer dd > a {
+	position: relative;
+	height: auto;
+	padding: 13px;
+	box-sizing: border-box;
+}
+body.en .hallmap_buyer dd a img {
+	display: block;
+	margin: auto;
+	width: auto;
+}
+
+
+/* hallmap_type, hallmap_section
+---------------------------------------- */
+
+#hallmap_type,
+#hallmap_section {
+	position: absolute;
+	left: 0;
+	bottom: 100%;
+	width: 100%;
+}
+#hallmap_type {
+	display: none;
+	margin-bottom: 90px;
+}
+
+#hallmap_type ul,
+#hallmap_section ul {
+	display: -webkit-flex;
+	-webkit-justify-content: space-between;
+	display: flex;
+	justify-content: space-between;
+}
+#hallmap_type li,
+#hallmap_section li {
+	display: inline-block;
+	position: relative;
+	width: 49.6%;
+	border-radius: 10px;
+	background: #fff;
+	text-align: center;
+	letter-spacing: .05em;
+	font-weight: bold;
+	font-size: 28px;
+	line-height: 50px;
+	cursor: pointer;
+	transition: .2s;
+}
+#hallmap_type li:before {
+	content: '';
+	opacity: 0;
+	position: absolute;
+	left: 50%;
+	top: 100%;
+	margin-left: -10px;
+	border: solid 10px transparent;
+	transition: .2s;
+}
+#hallmap_type li:hover,
+#hallmap_type .on,
+#hallmap_section li:hover,
+#hallmap_section .on {
+	color: #fff !important;
+}
+#hallmap_type li:hover:before,
+#hallmap_type .on:before {
+	opacity: 1;
+}
+
+#hallmap_type .on,
+#hallmap_section .on {
+	cursor: default;
+}
+
+#hallmap_section li {
+	/*width: 24.4%;*/
+	border-radius: 10px 10px 0 0;
+	background: #e6e6e6;
+	font-size: 21px;
+}
+
+/* hallmap_company
+---------------------------------------- */
+
+#hallmap_company {
+	position: absolute;
+	right: 20px;
+	top: 20px;
+	bottom: 20px;
+	z-index: 2;
+	width: 270px;
+}
+#hallmap_company>ul>li {
+	visibility: hidden;
+	opacity: 0;
+	overflow-x: hidden;
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 1;
+	box-sizing: border-box;
+	width: 100%;
+	max-height: 100%;
+	padding: 20px 10px 15px;
+	border-radius: 10px;
+	transition: .3s;
+}
+
+#hallmap_company>ul>.on {
+	visibility: visible;
+	opacity: 1;
+	z-index: 2;
+}
+
+#hallmap_company li li {
+	position: relative;
+	padding: 5px 25px 5px 10px;
+	border-top: solid 1px #fff;
+	color: #fff;
+	font-size: 14px;
+	line-height: 24px;
+	cursor: pointer;
+	transition: .2s;
+}
+#hallmap_company li li:hover {
+	background: rgba(255,255,255,.5);
+}
+#hallmap_company li div {
+	position: relative;
+	padding-left: 4em;
+}
+#hallmap_company li span {
+	position: absolute;
+	left: 0;
+	font-weight: bold;
+}
+
+#hallmap_company .on .on {
+	background: #fff;
+}
+
+#hallmap_company a {
+	position: absolute;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	width: 27px;
+	transition: .2s;
+}
+#hallmap_company a:before {
+	content: '';
+	position: absolute;
+	left: 12px;
+	top: 50%;
+	margin-top: -5px;
+	border: solid 5px transparent;
+	border-left-color: #fff;
+}
+#hallmap_company a:hover {
+	background: #fff;
+}
+
+#hallmap_company .on .on  a {
+	right: 2px;
+	top: 1px;
+	bottom: 1px;
+	width: 23px;
+}
+#hallmap_company .on .on  a:before {
+	left: 10px;
+}
+#hallmap_company .on .on  a:hover:before {
+	border-left-color: #fff !important;
+}
+
+/* hallmap_btn_close
+---------------------------------------- */
+
+#hallmap_btn_close {
+	position: fixed;
+	right: 30px;
+	top: 30px;
+	transition: .2s;
+}
+#hallmap_btn_close:hover {
+	opacity: .7;
+}
+
+/* Types
+---------------------------------------- */
+
+[data-type='buyer'] #hallmap_img .buyer,
+[data-type='public'] #hallmap_img .public {
+	opacity: 1;
+}
+
+[data-type='buyer'] #hallmap_img li ul .public,
+[data-type='buyer'] #hallmap_company .public,
+[data-type='public'] #hallmap_img li ul .buyer,
+[data-type='public'] #hallmap_company .buyer {
+	display: none;
+}
+
+[data-type='buyer'] #hallmap_img li .on { border-color: #00b4dc; }
+#hallmap_type [data-type='buyer'],
+[data-type='buyer'] #hallmap_section li,
+[data-type='buyer'] #hallmap_company .on .on { color: #00b4dc; }
+#hallmap_type [data-type='buyer']:before { border-top-color: #00b4dc; }
+#hallmap_type [data-type='buyer']:hover,
+#hallmap_type [data-type='buyer'].on,
+[data-type='buyer'] #hallmap_section li:hover,
+[data-type='buyer'] #hallmap_section .on,
+[data-type='buyer'] #hallmap_company .on .on  a:hover{ background: #00b4dc; }
+[data-type='buyer'] #hallmap_company>ul>li { background: rgba(0,180,220,.9); }
+[data-type='buyer'] #hallmap_company a:hover:before,
+[data-type='buyer'] #hallmap_company .on .on  a:before { border-left-color: #00b4dc; }
+
+[data-type='public'] #hallmap_img li .on { border-color: #ff5064; }
+#hallmap_type [data-type='public'],
+[data-type='public'] #hallmap_section li,
+[data-type='public'] #hallmap_company .on .on { color: #ff5064; }
+#hallmap_type [data-type='public']:before { border-top-color: #ff5064; }
+#hallmap_type [data-type='public']:hover,
+#hallmap_type [data-type='public'].on,
+[data-type='public'] #hallmap_section li:hover,
+[data-type='public'] #hallmap_section .on,
+[data-type='public'] #hallmap_company .on .on  a:hover { background: #ff5064; }
+[data-type='public'] #hallmap_company>ul>li { background: rgba(255,80,100,.9); }
+[data-type='public'] #hallmap_company a:hover:before,
+[data-type='public'] #hallmap_company .on .on  a:before { border-left-color: #ff5064; }
+
+
+
+/* ++++++++++++++++++++++++++++++++++++++++
+
+	SP
+
+++++++++++++++++++++++++++++++++++++++++ */
+
+@media (max-width: 767px) {
+	#hallmap {
+		padding: 70px 10px 10px;
+	}
+	#hallmap>div {
+		padding: 5px;
+		border-radius: 0 0 5px 5px;
+	}
+
+	#hallmap_type {
+		margin-bottom: 40px
+	}
+	#hallmap_type li,
+	#hallmap_section li {
+		line-height: 25px;
+	}
+	#hallmap_type li {
+		border-radius: 5px;
+		font-size: 14px;
+	}
+
+	#hallmap_section li {
+		border-radius: 5px 5px 0 0;
+		font-size: 10.5px;
+	}
+	.en #hallmap_section li {
+    border-radius: 5px 5px 0 0;
+    font-size: 9px;
+	}	
+	#hallmap_img:before {
+		left: 5px;
+		bottom: 33%;
+		font-size: 12px;
+	}
+	.en #hallmap_img:before {
+		left: 5px;
+		bottom: 33%;
+		font-size: 12px;
+	}
+	#hallmap_img>ul>li {
+		-webkit-transform: scale(.4);
+		transform: scale(.4);
+	}
+
+	#hallmap_company {
+		left: 10px;
+		right: 10px;
+		top: auto;
+		bottom: 10px;
+		width: auto;
+		height: 30%;
+	}
+	#hallmap_company>ul>li {
+		padding: 15px 10px 10px;
+	}
+	#hallmap_company li li {
+		font-size: 12px;
+		line-height: 20px;
+	}
+
+	#hallmap_btn_close {
+		width: 15px;
+		right: 10px;
+		top: 10px;
+	}
+	.en .hallmap_buyer dt {
+		width: 60%;
+		padding: 5% 0;
+		margin: auto;
+	}
+	.en .hallmap_public dt {
+		width: 60%;
+		padding: 5% 0;
+		margin: auto;
+	}
+
+  .app img {
+    width: auto;
+    margin: auto;
+    display: block;
+  }
+  .app {
+    position: relative;
+  }
+  .app .step1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 33%;
+    height: 0;
+    margin-top: 31%;
+    margin-left: 0%;
+    padding-bottom: 17%;
+}
+}
+
+
+
+/* ++++++++++++++++++++++++++++++++++++++++
+
+	Booth Positon
+
+++++++++++++++++++++++++++++++++++++++++ */
+
+/* ----------------------------------------
+	Booth w1
+---------------------------------------- */
+
+[data-type='buyer'] #hallmap_img [data-cid='w1_'] {
+    top: 1326px;
+	left: 2091px;
+    width: 60px;
+    height: 60px;
+}
+#hallmap_img [data-cid='w1_1'] {
+    top: 2850px;
+    left: 394px;
+    width: 619px;
+    height: 289px;
+}
+#hallmap_img [data-cid='w1_2'] {
+    top: 2345px;
+    left: 289px;
+    width: 200px;
+    height: 332px;
+}
+#hallmap_img [data-cid='w1_3'] {
+    top: 1792px;
+    left: 289px;
+    width: 200px;
+    height: 442px;
+}
+#hallmap_img [data-cid='w1_4'] {
+    top: 913px;
+    left: 289px;
+    width: 256px;
+    height: 728px;
+}
+#hallmap_img [data-cid='w1_5'] {
+    top: 374px;
+    left: 289px;
+    width: 1407px;
+    height: 376px;
+
+}
+#hallmap_img [data-cid='w1_6'] {
+    top: 913px;
+    left: 1865px;
+    width: 137px;
+    height: 69px;
+}
+#hallmap_img [data-cid='w1_7'] {
+    top: 977px;
+    left: 1930px;
+    width: 73px;
+    height: 69px;
+}
+#hallmap_img [data-cid='w1_8'] {
+    top: 977px;
+    left: 1801px;
+    width: 135px;
+    height: 69px;
+}
+#hallmap_img [data-cid='w1_9'] {
+    top: 913px;
+    left: 1669px;
+    width: 136px;
+    height: 136px;
+}
+#hallmap_img [data-cid='w1_10'] {
+    top: 913px;
+    left: 1802px;
+    width: 68px;
+    height: 69px;
+}
+#hallmap_img [data-cid='w1_11'] {
+    top: 913px;
+    left: 1316px;
+    width: 202px;
+    height: 69px;
+}
+#hallmap_img [data-cid='w1_12'] {
+    top: 978px;
+    left: 1448px;
+    width: 71px;
+    height: 69px;
+}
+#hallmap_img [data-cid='w1_13'] {
+    top: 978px;
+    left: 1316px;
+    width: 138px;
+    height: 69px;
+}
+#hallmap_img [data-cid='w1_14'] {
+    top: 913px;
+    left: 1052px;
+    width: 269px;
+    height: 135px;
+}
+#hallmap_img [data-cid='w1_15'] {
+    top: 913px;
+    left: 740px;
+    width: 202px;
+    height: 203px;
+}
+#hallmap_img [data-cid='w1_16'] {
+    top: 978px;
+    left: 675px;
+    width: 71px;
+    height: 138px;
+}
+#hallmap_img [data-cid='w1_17'] {
+    top: 912px;
+    left: 675px;
+    width: 71px;
+    height: 71px;
+}
+#hallmap_img [data-cid='w1_18'] {
+    top: 1242px;
+    left: 740px;
+    width: 202px;
+    height: 137px;
+}
+#hallmap_img [data-cid='w1_19'] {
+    top: 1374px;
+    left: 873px;
+    width: 68px;
+    height: 72px;
+}
+#hallmap_img [data-cid='w1_20'] {
+    top: 1374px;
+    left: 807px;
+    width: 68px;
+    height: 72px;
+}
+#hallmap_img [data-cid='w1_21'] {
+    top: 1374px;
+    left: 674px;
+    width: 137px;
+    height: 72px;
+}
+#hallmap_img [data-cid='w1_22'] {
+    top: 1647px;
+    left: 1286px;
+    width: 177px;
+    height: 61px;
+}
+#hallmap_img [data-cid='w1_23'] {
+    top: 1574px;
+    left: 806px;
+    width: 137px;
+    height: 69px;
+}
+#hallmap_img [data-cid='w1_24'] {
+    top: 1639px;
+    left: 871px;
+    width: 71px;
+    height: 69px;
+}
+#hallmap_img [data-cid='w1_25'] {
+    top: 1639px;
+    left: 806px;
+    width: 71px;
+    height: 69px;
+}
+#hallmap_img [data-cid='w1_26'] {
+    top: 1574px;
+    left: 674px;
+    width: 137px;
+    height: 136px;
+}
+#hallmap_img [data-cid='w1_27'] {
+    top: 1860px;
+    left: 641px;
+    width: 200px;
+    height: 202px;
+}
+#hallmap_img [data-cid='w1_28'] {
+    top: 2057px;
+    left: 772px;
+    width: 70px;
+    height: 138px;
+}
+#hallmap_img [data-cid='w1_29'] {
+    top: 2057px;
+    left: 641px;
+    width: 137px;
+    height: 138px;
+
+}
+#hallmap_img [data-cid='w1_30'] {
+    top: 2343px;
+    left: 641px;
+    width: 200px;
+    height: 335px;
+}
+#hallmap_img [data-cid='w1_31'] {
+    top: 2433px;
+    left: 983px;
+    width: 135px;
+    height: 234px;
+}
+#hallmap_img [data-cid='w1_32'] {
+    top: 2268px;
+    left: 983px;
+    width: 135px;
+    height: 169px;
+}
+#hallmap_img [data-cid='w1_33'] {
+    top: 2040px;
+    left: 983px;
+    width: 135px;
+    height: 137px;
+}
+#hallmap_img [data-cid='w1_34'] {
+    top: 1909px;
+    left: 983px;
+    width: 135px;
+    height: 137px;
+}
+#hallmap_img [data-cid='w1_35'] {
+    top: 1605px;
+    left: 1053px;
+    width: 71px;
+    height: 69px;
+}
+#hallmap_img [data-cid='w1_36'] {
+    top: 1539px;
+    left: 1053px;
+    width: 71px;
+    height: 69px;
+}
+[data-type='buyer'] #hallmap_img [data-cid='w1_37'] {
+    top: 1474px;
+    left: 1053px;
+    width: 71px;
+    height: 69px;
+}
+[data-type='buyer'] #hallmap_img [data-cid='w1_38'] {
+    top: 1408px;
+    left: 1053px;
+    width: 71px;
+    height: 69px;
+}
+[data-type='buyer'] #hallmap_img [data-cid='w1_39'] {
+    top: 1341px;
+    left: 1053px;
+    width: 71px;
+    height: 69px
+}
+#hallmap_img [data-cid='w1_40'] {
+    top: 1276px;
+    left: 1053px;
+    width: 71px;
+    height: 69px;
+}
+#hallmap_img [data-cid='w1_41'] {
+    top: 1209px;
+    left: 1053px;
+    width: 71px;
+    height: 69px;
+}
+#hallmap_img [data-cid='w1_42'] {
+    top: 1144px;
+    left: 1053px;
+    width: 136px;
+    height: 69px;
+}
+#hallmap_img [data-cid='w1_43'] {
+    top: 1144px;
+    left: 1183px;
+    width: 72px;
+    height: 69px;
+}
+#hallmap_img [data-cid='w1_44'] {
+    top: 1144px;
+    left: 1248px;
+    width: 138px;
+    height: 69px;
+}
+#hallmap_img [data-cid='w1_45'] {
+    top: 1143px;
+    left: 1380px;
+    width: 73px;
+    height: 70px;
+}
+#hallmap_img [data-cid='w1_46'] {
+    top: 1143px;
+    left: 1446px;
+    width: 73px;
+    height: 70px;
+}
+#hallmap_img [data-cid='w1_47'] {
+    top: 1143px;
+    left: 1513px;
+    width: 72px;
+    height: 70px;
+}
+#hallmap_img [data-cid='w1_48'] {
+    top: 1143px;
+    left: 1819px;
+    width: 72px;
+    height: 70px;
+}
+#hallmap_img [data-cid='w1_49'] {
+    top: 1143px;
+    left: 1887px;
+    width: 72px;
+    height: 70px;
+}
+#hallmap_img [data-cid='w1_50'] {
+    top: 1143px;
+    left: 1953px;
+    width: 72px;
+    height: 70px;
+}
+
+#hallmap_img [data-cid='w1_at-1'] {
+    top: 2263px;
+    left: 1799px;
+    width: 135px;
+    height: 69px;
+}
+#hallmap_img [data-cid='w1_at-2'] {
+    top: 2130px;
+    left: 1799px;
+    width: 135px;
+    height: 137px;
+}
+#hallmap_img [data-cid='w1_at-3'] {
+    top: 1846px;
+    left: 1762px;
+    width: 73px;
+    height: 200px;
+}
+#hallmap_img [data-cid='w1_at-6'] {
+    top: 1846px;
+    left: 1830px;
+    width: 202px;
+    height: 200px;
+}
+#hallmap_img [data-cid='w1_at-7'] {
+    top: 1844px;
+    left: 2117px;
+    width: 335px;
+    height: 200px;
+}
+
+
+
+/* ----------------------------------------
+	Booth w2
+---------------------------------------- */
+#hallmap_img [data-cid='w2_'] {
+    top: 1930px;
+    left: 3203px;
+    height: 71px;
+    width: 71px;
+}
+
+
+#hallmap_img [data-cid='w2_1'] {
+    top: 2863px;
+    left: 3383px;
+    width: 650px;
+    height: 344px;
+}
+#hallmap_img [data-cid='w2_2'] {
+    top: 2357px;
+    left: 3823px;
+    width: 224px;
+    height: 290px;
+}
+#hallmap_img [data-cid='w2_3'] {
+    top: 1775px;
+    left: 3823px;
+    width: 289px;
+    height: 498px;
+}
+#hallmap_img [data-cid='w2_4'] {
+    top: 913px;
+    left: 3975px;
+    width: 137px;
+    height: 530px;
+}
+#hallmap_img [data-cid='w2_5'] {
+    top: 374px;
+    left: 2641px;
+    width: 1475px;
+    height: 376px;
+}
+#hallmap_img [data-cid='w2_6'] {
+    top: 913px;
+    left: 2356px;
+    width: 137px;
+    height: 69px;
+}
+#hallmap_img [data-cid='w2_7'] {
+    top: 977px;
+    left: 2356px;
+    width: 69px;
+    height: 69px;
+}
+#hallmap_img [data-cid='w2_8'] {
+    top: 977px;
+    left: 2423px;
+    width: 69px;
+    height: 69px;
+}
+#hallmap_img [data-cid='w2_9'] {
+    top: 913px;
+    left: 2487px;
+    width: 203px;
+    height: 134px;
+}
+#hallmap_img [data-cid='w2_10'] {
+    top: 913px;
+    left: 2817px;
+    width: 267px;
+    height: 134px;
+}
+#hallmap_img [data-cid='w2_11'] {
+    top: 978px;
+    left: 3080px;
+    height: 68px;
+    width: 136px;
+}
+#hallmap_img [data-cid='w2_12'] {
+    top: 978px;
+    left: 3213px;
+    height: 68px;
+    width: 136px;
+}
+#hallmap_img [data-cid='w2_13'] {
+    top: 913px;
+    left: 3278px;
+    height: 68px;
+    width: 70px;
+}
+#hallmap_img [data-cid='w2_14'] {
+    top: 913px;
+    left: 3080px;
+    height: 69px;
+    width: 204px;
+}
+#hallmap_img [data-cid='w2_15'] {
+    top: 913px;
+    left: 3481px;
+    height: 191px;
+    width: 334px;
+}
+#hallmap_img [data-cid='w2_17'] {
+    top: 1308px;
+    left: 3678px;
+    height: 73px;
+    width: 137px;
+}
+#hallmap_img [data-cid='w2_18'] {
+    top: 1308px;
+    left: 3546px;
+    height: 73px;
+    width: 137px;
+}
+#hallmap_img [data-cid='w2_19'] {
+    top: 1307px;
+    left: 3481px;
+    height: 73px;
+    width: 71px;
+}
+#hallmap_img [data-cid='w2_20'] {
+    top: 1242px;
+    left: 3481px;
+    height: 73px;
+    width: 71px;
+}
+#hallmap_img [data-cid='w2_21'] {
+    top: 1242px;
+    left: 3546px;
+    height: 73px;
+    width: 137px;
+}
+#hallmap_img [data-cid='w2_22'] {
+    top: 1496px;
+    left: 3481px;
+    height: 202px;
+    width: 224px;
+}
+#hallmap_img [data-cid='w2_23'] {
+    top: 1826px;
+    left: 3611px;
+    height: 139px;
+    width: 73px;
+}
+#hallmap_img [data-cid='w2_24'] {
+    top: 1826px;
+    left: 3415px;
+    height: 139px;
+    width: 203px;
+}
+#hallmap_img [data-cid='w2_25'] {
+    top: 2090px;
+    left: 3481px;
+    height: 139px;
+    width: 203px;
+}
+#hallmap_img [data-cid='w2_26'] {
+    top: 2157px;
+    left: 3415px;
+    height: 71px;
+    width: 71px;
+}
+#hallmap_img [data-cid='w2_27'] {
+    top: 2090px;
+    left: 3415px;
+    height: 71px;
+    width: 71px;
+}
+#hallmap_img [data-cid='w2_28'] {
+    top: 2356px;
+    left: 3547px;
+    height: 71px;
+    width: 136px;
+}
+#hallmap_img [data-cid='w2_29'] {
+    top: 2420px;
+    left: 3415px;
+    height: 138px;
+    width: 268px;
+}
+#hallmap_img [data-cid='w2_30'] {
+    top: 2356px;
+    left: 3415px;
+    height: 71px;
+    width: 136px;
+}
+#hallmap_img [data-cid='w2_31'] {
+    top: 1472px;
+    left: 3278px;
+    height: 202px;
+    width: 71px;
+}
+#hallmap_img [data-cid='w2_32'] {
+    top: 1341px;
+    left: 3278px;
+    height: 137px;
+    width: 71px;
+}
+#hallmap_img [data-cid='w2_33'] {
+    top: 1208px;
+    left: 3278px;
+    height: 137px;
+    width: 71px;
+}
+#hallmap_img [data-cid='w2_34'] {
+    top: 1144px;
+    left: 3080px;
+    height: 70px;
+    width: 269px;
+}
+#hallmap_img [data-cid='w2_35'] {
+    top: 1144px;
+    left: 2883px;
+    height: 70px;
+    width: 203px;
+}
+#hallmap_img [data-cid='w2_36'] {
+    top: 1144px;
+    left: 2442px;
+    height: 70px;
+    width: 139px;
+}
+#hallmap_img [data-cid='w2_37'] {
+    top: 1144px;
+    left: 2379px;
+    height: 70px;
+    width: 70px;
+}
+
+/* ----------------------------------------
+	community zone
+---------------------------------------- */
+
+#hallmap_img [data-cid='w2_cz-1'] {
+    top: 1554px;
+    left: 4016px;
+    height: 26px;
+    width: 26px
+}
+#hallmap_img [data-cid='w2_cz-2'] {
+    top: 1577px;
+    left: 4016px;
+    height: 26px;
+    width: 26px;
+}
+#hallmap_img [data-cid='w2_cz-3'] {
+    top: 1597px;
+    left: 4016px;
+    height: 26px;
+    width: 26px;
+}
+#hallmap_img [data-cid='w2_cz-4'] {
+    top: 1620px;
+    left: 4016px;
+    height: 26px;
+    width: 26px;
+}
+#hallmap_img [data-cid='w2_cz-5'] {
+    top: 1642px;
+    left: 4016px;
+    height: 26px;
+    width: 26px;
+}

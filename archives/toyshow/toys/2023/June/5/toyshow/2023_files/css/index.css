@@ -1,0 +1,622 @@
+@charset "UTF-8";
+/*PC---------------------------------*/
+@media screen and (min-width: 768px) {
+  /* ----------------------------------------
+      main
+  ---------------------------------------- */
+  header {
+    position: relative;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.4);
+    z-index: 2;
+  }
+  #datePc {
+    background: #282828;
+    padding: 20px 0 0;
+    text-align: center;
+    height: 90px;
+    margin: 0;
+  }
+  #datePc .dateInner {
+    width: 980px;
+    margin: auto;
+    position: relative;
+  }
+  #datePc .dateImg {
+    width: 980px;
+    margin: auto;
+  }
+  #datePc .covid19 {
+    position: absolute;
+    left: 250px;
+    top: 66px;
+  }
+  #gnav {
+    top: auto;
+    left: auto;
+    width: 100%;
+    color: #fff;
+    background: #fff;
+    padding: 10px 0;
+    margin-left: 0;
+    box-shadow: 0px 0px 6px -3px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 0px 6px 7px -3px rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: 0px 6px 7px -3px rgba(0, 0, 0, 0.4);
+    padding: 10px 0;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.4);
+    position: relative;
+    z-index: 1;
+  }
+  #gnav ul {
+    width: 1000px;
+  }
+  #gnav li a {
+    padding: 12px 0;
+  }
+  #gnav li a:hover {
+    padding: 12px 0;
+  }
+  #main {
+    margin: auto;
+    position: relative;
+    width: 100%;
+    height: 615px;
+    background: url(../img/index/kv.png) center top/auto 100% no-repeat #fff000;
+  }
+  #main .main_public {
+    display: block;
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    width: 190px;
+    height: auto;
+    margin-left: -490px;
+  }
+  #main .main_public_tickets {
+    display: block;
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    margin-left: -280px;
+    width: 220px;
+  }
+  #main .main_public_tickets img {
+    width: 100%;
+  }
+  #container {
+    padding: 60px 0 440px;
+  }
+  .outline dt {
+    position: absolute;
+    left: 0;
+    padding: 13px 0;
+  }
+  .outline dd {
+    display: block;
+    border-top: 1px solid #e6e6e6;
+    padding-left: 7em;
+    padding: 13px 0 13px 7em;
+  }
+  .outline .frame3 {
+    margin-top: 0;
+  }
+  .outline span.buyer {
+    font-weight: bold;
+    color: #00b4dc;
+  }
+  .outline span.public {
+    font-weight: bold;
+    color: #ff5064;
+  }
+  .outline .tickets {
+    border: solid 1px #ff5064;
+    margin: 2em auto;
+    padding: 20px 0;
+    text-align: center;
+    color: #ff5064;
+    font-weight: bold;
+  }
+  .outline .tickets .text_large {
+    font-size: 22px;
+  }
+  .outline .ticketsStart {
+    border: solid 1px #ff5064;
+    margin: 1em auto;
+    padding: 1em 1.5em;
+    text-align: center;
+    color: #333;
+    text-align: left;
+  }
+  .outline .ticketsStart .text_large {
+    color: #ff5064;
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  .outline .ticketsStart a {
+    word-break: break-all;
+  }
+  .outline .ticketsStart dt {
+    font-weight: bold;
+  }
+  .outline .ticketsStart .tickets_btnArea {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .outline .ticketsStart .tickets_btnArea a {
+    position: relative;
+    display: block;
+    width: 100%;
+    color: #fff;
+    background: #ff5064;
+    margin: 10px auto 0;
+    padding: 5px 0;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 100vh;
+  }
+  .outline .ticketsStart .tickets_btnArea a:before {
+    content: "";
+    margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 15px; /* 要素の左からの距離 */
+    width: 0;
+    height: 0;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid #fff;
+  }
+  .resultPc {
+    position: absolute;
+    bottom: 70px;
+    left: 0;
+    width: 495px;
+    height: 180px;
+  }
+  .end_buyer {
+    background: url(../img/index/btn_result_buyer.png) left bottom no-repeat;
+  }
+  .end_all {
+    background: url(../img/index/btn_result.svg) left bottom no-repeat;
+  }
+  .resultPc li {
+    float: left;
+  }
+  .resultPc li a {
+    display: block;
+    width: 145px;
+    height: 140px;
+    margin: 20px 0;
+  }
+  .resultPc #result_buyer {
+    margin-left: 20px;
+  }
+  .resultPc #result_public,
+  .resultPc #result_all {
+    margin-left: 10px;
+  }
+  #main #end {
+    position: absolute;
+    top: 220px;
+    right: auto;
+    width: 440px;
+  }
+  .resultSp {
+    display: none;
+  }
+  section.buyer h3 img {
+    width: 590px;
+  }
+  section.public h3 img {
+    width: 380px;
+  }
+  section .frame3 {
+    margin: 0;
+  }
+  section.outline dl {
+    position: relative;
+  }
+  section.outline .frame3 + dl dd:last-child {
+    border-bottom: 1px solid #e6e6e6;
+  }
+  article.about section li {
+    float: left;
+    width: 200px;
+    margin-right: 15px;
+  }
+  article.about section li:last-child {
+    margin: 0;
+  }
+  article.about section li img {
+    width: 100%;
+  }
+  .indent-rev-1 {
+    padding-left: 1em;
+    margin-bottom: 0 !important;
+  }
+  .ma0 {
+    margin: 0 !important;
+  }
+  /* ----------------------------------------
+  	  Footer
+    ---------------------------------------- */
+  footer {
+    position: relative;
+    background: url(../img/common/footer_bg.svg) bottom center/auto 100% no-repeat;
+    padding: 140px 0 0;
+    margin: -336px auto 0;
+  }
+  footer #chara {
+    display: block;
+    background: url(../img/common/footer_chara.png) bottom center no-repeat;
+    background-size: 1222px;
+    width: 100%;
+    height: 245px;
+    margin-top: -250px;
+  }
+  footer .sns {
+    position: relative;
+    display: block;
+    top: 0;
+    right: 0;
+    width: 80px;
+    width: 100%;
+    margin-top: 2px;
+    margin-bottom: 30px;
+    margin-right: 0;
+    text-align: right;
+  }
+  footer .sns a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+  }
+  footer .sns a.tw {
+    background: url(../img/common/sns_twitter_b.svg) top center/contain no-repeat;
+    margin-right: 10px;
+  }
+  footer .sns a.fb {
+    background: url(../img/common/sns_facebook_b.svg) top center/contain no-repeat;
+  }
+  footer #footer_nav {
+    position: relative;
+  }
+  footer #footer_nav > ul {
+    position: relative;
+    margin: auto;
+    display: table;
+    width: 1000px;
+    padding-bottom: 45px;
+  }
+  footer #footer_nav > ul > li {
+    display: table-cell;
+  }
+  footer #footer_nav > ul > li:first-child {
+    width: 150px;
+  }
+  footer #footer_nav > ul > li:nth-child(2) {
+    width: 220px;
+  }
+  footer #footer_nav > ul > li:nth-child(3) {
+    width: auto;
+  }
+  footer li a {
+    display: block;
+    color: #000;
+    text-decoration: none;
+    line-height: 2;
+  }
+  footer #footer_nav > ul > li a.btn {
+    padding: 9px 12px;
+    margin-bottom: 15px;
+    background: #282828;
+    color: #fff !important;
+    border-radius: 15px;
+    line-height: 1;
+  }
+  footer #footer_nav > ul > li a.btn:before {
+    content: "";
+    display: inline-block;
+    border-radius: 0;
+    width: 14px;
+    height: 12px;
+    margin-right: 5px;
+    background: url("../img/common/link.svg") no-repeat;
+    background-size: 100%;
+  }
+  footer #footer_nav > ul > li > a:before {
+    content: "";
+    display: inline-block;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    margin-right: 5px;
+    background: #fff;
+    background: url("../img/common/arrow_gray.svg") no-repeat;
+    background-size: 100%;
+  }
+  footer #footer_nav > ul > li#archive {
+    position: relative;
+    width: 240px;
+    vertical-align: bottom;
+  }
+  footer li#archive a {
+    text-decoration: none;
+    color: #282828;
+  }
+  footer li#archive ul {
+    display: none;
+    position: absolute;
+    bottom: 64px;
+    right: 0;
+    padding: 15px 0 10px;
+  }
+  footer li#archive li {
+    width: 264px;
+    height: 25px;
+    color: #282828;
+    background: #dcdddd;
+    margin-bottom: 2px;
+    text-align: center;
+    line-height: 25px;
+  }
+  footer li#archive a:hover {
+    color: #ff9600;
+  }
+  footer.en #archive .btn {
+    width: 250px;
+    margin-left: 0;
+  }
+  footer.en #footer_nav > ul > li#archive {
+    position: absolute;
+    right: 0;
+    vertical-align: top;
+  }
+}
+/*SP---------------------------------*/
+@media screen and (max-width: 767.99px) {
+  /* CSS Document */
+  .ma0 {
+    margin: 0 !important;
+  }
+  .sp-indent {
+    padding-left: 1em;
+    text-indent: -1em;
+  }
+  .covid19 {
+    display: block;
+    /* margin: 10px auto 0px; */
+  }
+  .covid19 img {
+    width: 93.75%;
+    margin: auto;
+    display: block;
+    height: auto;
+  }
+  /* ----------------------------------------
+        Index
+    ---------------------------------------- */
+  #main {
+    padding-top: 15.625%;
+    padding-bottom: 103.4375vw;
+    margin: auto;
+    position: relative;
+    width: 100%;
+    background: url(../img/index/kv_sp.png) bottom center/100% auto no-repeat #fff;
+  }
+  #main .kodomohaku {
+    display: block;
+    position: absolute;
+    top: 32.875%;
+    right: 1.5625%;
+    width: 15.625%;
+  }
+  #main #place {
+    display: block;
+    position: absolute;
+    left: 1.875%;
+    bottom: 0;
+    width: 44.53%;
+  }
+  #main .main_public {
+    display: block;
+    position: absolute;
+    bottom: 3.125vw;
+    left: 0;
+    width: 29.6875vw;
+    height: auto;
+    margin-left: 3.125vw;
+  }
+  #main .main_public_tickets {
+    display: block;
+    position: absolute;
+    bottom: 3.125vw;
+    left: 0;
+    width: 35vw;
+    height: auto;
+    margin-left: 34.925vw;
+  }
+  #dateSp {
+    margin-top: 0;
+  }
+  .resultSp p {
+    text-align: center;
+    margin-bottom: 0;
+  }
+  .resultSp img {
+    margin-top: 2%;
+  }
+  section.buyer h3 img {
+    width: 78.02%;
+    height: auto;
+  }
+  section.public h3 img {
+    width: 80.44%;
+    height: auto;
+  }
+  /*------------- Outline -------------*/
+  span.public {
+    color: #ff5064;
+    font-weight: bold;
+  }
+  span.buyer {
+    color: #00b4dc;
+    font-weight: bold;
+  }
+  section.outline dt {
+    padding: 2% 2% 0;
+    font-weight: bold;
+  }
+  section.outline dd {
+    padding: 0 2% 2%;
+  }
+  section.outline dd p {
+    margin: 0;
+  }
+  section.outline h2 + dl dt:first-child {
+    padding-top: 0;
+  }
+  section.outline .frame3 {
+    margin: 2% 0;
+  }
+  section.outline .frame3 + dl dd:last-child {
+    padding-bottom: 2%;
+    margin-bottom: 2%;
+  }
+  section.outline dt.gray,
+  section.outline dd.gray {
+    background: #f0f0f0;
+  }
+  section.outline .tickets {
+    border: solid 1px #ff5064;
+    margin: 1em auto;
+    padding: 0.8em 0;
+    text-align: center;
+    color: #ff5064;
+    font-weight: bold;
+  }
+  section.outline .ticketsStart {
+    border: solid 1px #ff5064;
+    margin: 1em auto;
+    padding: 1.5em 1em;
+    text-align: center;
+    color: #333;
+    text-align: left;
+  }
+  section.outline .ticketsStart .text_large {
+    color: #ff5064;
+    font-size: 1.1em;
+    font-weight: bold;
+  }
+  section.outline .ticketsStart a {
+    word-break: break-all;
+  }
+  section.outline .ticketsStart dt {
+    font-weight: bold;
+  }
+  section.outline .ticketsStart .tickets_btnArea {
+    display: block;
+  }
+  section.outline .ticketsStart .tickets_btnArea a {
+    position: relative;
+    display: block;
+    width: 100%;
+    color: #fff;
+    background: #ff5064;
+    margin: 2% auto 0;
+    padding: 2% 0;
+    font-size: 1.1em;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 100vh;
+  }
+  section.outline .ticketsStart .tickets_btnArea a:before {
+    content: "";
+    margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 15px; /* 要素の左からの距離 */
+    width: 0;
+    height: 0;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid #fff;
+  }
+  section li img {
+    margin-bottom: 10px;
+    display: block;
+  }
+  /*------------- Hallmap -------------*/
+  .hallmap_buyer,
+  .hallmap_public {
+    border-bottom: none;
+    margin-bottom: 3%;
+    padding-top: 0;
+    padding-bottom: 5%;
+    text-align: center;
+  }
+  .hallmap_buyer img,
+  .hallmap_public img {
+    width: 92.6%;
+    margin: auto;
+  }
+  .hallmap_buyer dd,
+  .hallmap_public dd {
+    text-align: center;
+    background: #fff;
+    margin: auto;
+    padding: 5% 0;
+  }
+  /*------------- sp_sidebar -------------*/
+  .sp_sidebar {
+    display: block;
+    height: auto;
+    background: #282828;
+    padding: 6% 0;
+  }
+  .sp_sidebar li {
+    width: 93.75%;
+    margin: 0 auto 6%;
+  }
+  .sp_sidebar li:last-child {
+    margin-bottom: 0;
+  }
+  .sp_sidebar li img {
+    display: block;
+    width: 100%;
+  }
+  .sp_sidebar .bnr_seminar {
+    border-radius: 10px;
+    background: #fff;
+    padding: 10px;
+    width: 93.75%;
+    margin: 6% auto;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.4);
+    box-sizing: border-box;
+  }
+  .sp_sidebar .bnr_seminar h3 {
+    padding: 8px 0;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background: #282828;
+    color: #fff;
+    line-height: 30px;
+    text-align: center;
+  }
+  .sp_sidebar .bnr_seminar a {
+    display: block;
+  }
+  .sp_sidebar .bnr_seminar a img {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,79 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* ----------------------------------------
+    Index
+---------------------------------------- */
+
+body {
+	background: url(../img/common/bg.jpg) center top no-repeat #f0f0f0;
+	background-position: 5% auto;
+	background-size: 100%;
+}
+
+#container {
+	padding-top: 58%;
+}
+
+#sekai-kodomohaku {
+    position: absolute;
+    top: -3%;
+    right: -2%;
+    width: 25%;
+}
+
+#result-sp p {
+	text-align: center;
+    margin-bottom: 3%;
+}
+
+section p.notice {
+	border: 1px solid #ffa000;
+	margin: 3% 0 0;
+	padding: 3%;
+	text-align: center;
+}
+
+/*------------- Outline -------------*/ 
+
+section dd {
+    border-bottom: 1px solid #e6e6e6;
+    padding-bottom: 2%;
+    margin-bottom: 2%;
+}
+section dd a {
+	color: #ffa000;
+}
+
+span.public {
+	color: #ff5064;
+	font-weight: bold;
+}
+span.buyer {
+	color: #00b4dc;
+	font-weight: bold;
+}
+
+
+/*------------- Hallmap -------------*/ 
+
+.hallmap_buyer,
+.hallmap_public {
+	border-bottom: none;
+    margin-bottom: 3%;
+    padding-top: 16.5%;
+    padding-bottom: 16.5%;
+    text-align: center;
+}
+.hallmap_buyer img,
+.hallmap_public img {
+	width: 95%;
+}
+.hallmap_buyer {
+	background: url(../img/index/hallmap_bg.gif);
+	background-size: 100%;
+}
+.hallmap_public {
+	background: url(../img/index/hallmap_bg.gif);
+	background-size: 100%;
+}
