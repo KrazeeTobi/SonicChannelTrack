@@ -29,6 +29,7 @@
 ::v2.2.1 - 2023-05-12: somehow i never noticed that the sonic battle url had a typo. what the fuck
 ::v2.2.2 - 2023-05-13: massively optimised temp file deletions
 ::v2.3.0 - 2023-06-13: SonicSuperStars on sonic.sega.jp has gone live
+::v3.0.0 - 2024-01-31: Sonic X Shadow Generations what the fuck is this segger
 ::--------------------------------------------------------------change comments end
 git pull
 wget -r --no-parent --no-check-certificate -p http://sonic.sega.jp/
@@ -77,6 +78,7 @@ wget -r --no-parent --no-check-certificate -p http://sonic.sega.jp/TeamSonicRaci
 wget -r --no-parent --no-check-certificate -p http://sonic.sega.jp/wpack/
 wget -r --no-parent --no-check-certificate -p http://sonic.sega.jp/SonicOrigins/
 wget -r --no-parent --no-check-certificate -p http://sonic.sega.jp/SonicSuperStars/
+wget -r --no-parent --no-check-certificate -p http://sonic.sega.jp/SonicXShadowGenerations/
 wget -r --no-parent --no-check-certificate -p http://blog.sonic-channel.jp/
 wget -r --no-parent --no-check-certificate -p http://sonicteam.com/
 wget -r --no-parent --no-check-certificate -p http://sonicteam.com/sonicx/
