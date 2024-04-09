@@ -1,0 +1,166 @@
+@charset "UTF-8";
+
+.notice-mask{
+    position: relative;
+    background-color: #fff;
+    padding: 8px;
+}
+
+.notice{
+    position: relative;
+    width: 100%;
+    border: 3px solid #e6e6e6;
+    padding: 20px 35px 15px 35px;
+    box-sizing: border-box;
+    letter-spacing: 0.12em;
+    background-color: #fff;
+    color: #3c3c3c;
+    font-family: YakuHanJPs, Roboto, "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", Arial, nc3Jp, sans-serif;
+
+}
+
+.notice:before{
+    position: absolute;
+    content:"";
+    display:block;
+    width:312px;
+    height:3px;
+    background-color:#ff9103;
+    top:-3px;
+    left:35px
+}
+
+.notice .notice__ttl{
+    padding-bottom: 25px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.notice .notice__content:first-of-type{
+    padding-bottom: 17px;
+}
+
+.notice .notice__content:last-of-type{
+    padding-bottom: 0;
+}
+
+.notice .notice__content .notice__sub-ttl{
+    padding-bottom: 5px;
+    font-size: 14px;
+}
+
+.notice .notice__txt{
+    padding-bottom: 8px;
+    font-size: 12px;
+    line-height: 1.5;
+    font-weight: normal;
+    text-align: justify;
+}
+
+.notice .notice__txt p:first-child{
+    padding-bottom: 5px;
+}
+
+.notice .notice__btn{
+    margin-left: auto;
+    font-size: 12px;
+    line-height: 1;
+    text-align: right;
+}
+
+.notice .notice__btn a{
+    position: relative;
+    color:#4b4b4b;
+    font-size: 12px;
+    line-height: 1;
+    font-weight: bold;
+    padding-left: 18px;
+    text-decoration: none;
+    transition: all  0.3s ease;
+    -webkit-transition: all 0.3s ease;
+}
+
+.notice .notice__btn a:hover{
+    opacity: 0.7;
+}
+
+.notice .notice__btn a:before{
+    position: absolute;
+    display: block;
+    content: '';
+    background:url(../../common/img/ico_topic_path_arrow_white_pc.svg) 50% 50% / 4px no-repeat;
+    background-color:#ff9103;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    left:0;
+}
+    @media screen and (max-width:767px){
+        .notice-mask{
+            margin: 0 20px 20px 20px;
+            padding: 10px 8px;
+        }
+          .notice{
+              width: 92%;
+              margin: 0 auto;
+              padding:30px 25px 25px 25px;
+          }
+          .notice:before{
+              width: 80%;
+              left: 10%;
+              height: 3px;
+              background-color: #ff9103;
+              top: -3px;
+          }
+          .notice .notice__ttl{
+              font-size: 17px;
+              padding-bottom: 30px;
+              text-align: center;
+          }
+          .notice .notice__txt{
+              font-size: 14px;
+              font-weight: normal;
+              text-align: left;
+              padding-bottom: 0;
+          }
+
+          .notice__txt p{
+            padding-bottom: 20px;
+        }
+
+        .notice .notice__content .notice__sub-ttl{
+            font-size: 22px;
+            padding-bottom:18px;
+            font-feature-settings: "palt";
+            text-align: center;
+        }
+
+        
+          .notice .notice__content{
+            padding-bottom: 20px;
+            letter-spacing: 0.1em;
+        }
+          .notice .notice__btn a{
+              font-size: 14px;
+              padding-left: 20px;
+          }
+          .notice .notice__btn{
+              width: 150px;
+              margin: 1.5em auto 0;
+          }
+          .notice .notice__btn a:before {
+              width: 15px;
+              height: 15px;
+              background: url(../../common/img/ico_topic_path_arrow_white_pc.svg) 50% 50% / 5px no-repeat;
+              background-color: #ff9103;
+              left: 0;
+
+      }
+      .notice .notice__content:first-of-type{
+          padding-bottom: 0;
+      }
+    }
