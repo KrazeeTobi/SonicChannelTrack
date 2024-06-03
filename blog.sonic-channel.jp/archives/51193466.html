@@ -62,7 +62,15 @@ if (blogId) {
 
 </head>
 <script type="text/javascript" src="https://parts.blog.livedoor.jp/js/misc.js?v=20190710"></script>
-<body>
+<body><script>
+    var script = document.createElement('script');
+    script.type = "text/javascript";
+    script.src = "http://blog.sonic-channel.jp/_/settings/ad.js?t=" + Date.now();
+    script.onerror = function() {
+      fetch('./favicon.ico?u=YWRibG9jaw++&i=1208821&p=PC&t=' + Date.now());
+    };
+    document.body.appendChild(script);
+</script>
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KN4G59GG"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
