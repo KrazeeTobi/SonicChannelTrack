@@ -15,6 +15,7 @@ $(function () {
 
 	$versionList.find("li").on("click", function () {
 		verQuery = $(this).index();
+		verEdition = 0;
 		setVersion(verQuery)
 
 	});
@@ -41,6 +42,7 @@ $(function () {
 			$("#bgYoutube02").removeClass(on)
 			$("#bgYoutube01").addClass(on)
 		}
+
 		if (num === 1) {
 			/*+++++
 			パッケージ
