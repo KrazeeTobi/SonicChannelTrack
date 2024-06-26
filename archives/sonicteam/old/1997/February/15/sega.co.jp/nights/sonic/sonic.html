@@ -1,0 +1,110 @@
+<html>
+
+<head>
+
+<title>SONIC TEAM</title><script language="javascript">
+
+<!--
+
+function scrollit_r2l(seed)
+{
+        var m1  = "Yo man, you're looking at SONIC TEAM's insider page .";
+        var m2  = "   Check out \"NiGHTS\" info.";
+        var m3  = "   It's on sale now.";  
+        var m4  = "   Hang in there.";
+ 
+        var msg=m1+m2+m3+m4;
+        var out = " ";
+        var c   = 1;
+
+        if (seed > 100) {
+                seed--;
+                var cmd="scrollit_r2l(" + seed + ")";
+                timerTwo=window.setTimeout(cmd,100);
+        }
+        else if (seed <= 100 && seed > 0) {
+                for (c=0 ; c < seed ; c++) {
+                        out+=" ";
+                }
+                out+=msg;
+                seed--;
+                var cmd="scrollit_r2l(" + seed + ")";
+                    window.status=out;
+                timerTwo=window.setTimeout(cmd,100);
+        }
+        else if (seed <= 0) {
+                if (-seed < msg.length) {
+                        out+=msg.substring(-seed,msg.length);
+                        seed--;
+                        var cmd="scrollit_r2l(" + seed + ")";
+                        window.status=out;
+                        timerTwo=window.setTimeout(cmd,100);
+                }
+                else {
+                        window.status=" ";
+                        timerTwo=window.setTimeout("scrollit_r2l(100)",75);
+                }
+        }
+}
+<!-- -->
+</script>
+</head> 
+
+<body background="gif/sonicbg.gif" text="#000000" link="#ff0000" vlink="#0000ff" onLoad="timerOne=window.setTimeout('scrollit_r2l(100)',500);">
+
+<center>
+
+<a href="main.html"><img border="0" src="gif/stitle2.gif"></a><p>
+
+<font size=4>
+<b><i>Welcome To The Lair Of</i><br>
+SONIC TEAM !</b></font>
+<hr width=200>
+
+
+<font size=-1>
+みんな元気？<br>
+ソニックチームのページへようこそ！<p></font>
+
+<font size=4>
+<b><a href="new.html">What's New?</a></b></font>　　
+
+<font size=4>
+<b><a href="main.html">Main Page</a></b></font><p>
+
+<font size=3>
+(C)SEGA ENTERPRISES,LTD. 1991<br>
+(C)SEGA ENTERPRISES,LTD. 1996<br>
+
+このページは、ソニックチームが制作しています。<br>
+<font size=+1><b><a href="mailto:sonicteam@sega.co.jp">sonicteam@sega.co.jp</a></b><br>
+</font>
+
+<font size=3>
+<a href="esonic.html"><img border="0" src="gif/e.gif"><br><b>English Page</b></a><p>
+</font>
+
+<font size=-1>
+-　無断転載を禁じます。でもリンクは歓迎します。　-<br>
+Netscape2.0以降のブラウザーでみてください。Javaもやってます。<br>
+</font>
+<hr>
+
+<a href="../home.html"><img alt="*" border="0" src="../icn/nhome.gif"><br>NightsHome</a>
+<br>
+
+<hr>
+<font size=3>
+<a href="http://www.sega.co.jp/home.html" onMouseOver="window.status='Bye !';return true"><img alt="*" border="0" src="../icn/home.gif">ホームページへ</a>
+
+<a href="http://www.sega.co.jp/SS/home.html"><img alt="*"  border="0" src="../icn/menu.gif">メニューに戻る</a>
+
+<p>
+<img src="/cgi-bin/nph-count?width=6&link=/nights/sonic">
+<br>
+</font>
+</center>
+
+</body>
+</html>
+
