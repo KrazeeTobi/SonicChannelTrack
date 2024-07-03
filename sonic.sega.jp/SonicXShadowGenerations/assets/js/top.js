@@ -34,9 +34,9 @@ $(function () {
 			bgMovieChange()
 		}, 10000);
 	}
-	/*+++++
+	/* +++++
 	bnr取得
-	+++++*/
+	+++++ */
 	/*
 	const jsonBnrUrl = "/SonicXShadowGenerations/assets/data/bnr.json"
 
@@ -113,9 +113,9 @@ $(function () {
 			}
 		});
 	}
-	/*+++++
+	/* +++++
 		news取得
-		+++++*/
+		+++++ */
 	const jsonUrl = "/SonicXShadowGenerations/assets/data/news.json"
 
 	fetch(jsonUrl)

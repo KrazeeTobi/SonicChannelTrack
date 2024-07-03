@@ -71,7 +71,8 @@
 	<link rel="shortcut icon" href="https://sonic.sega.jp/favicon.ico" />
 	<link rel="apple-touch-icon-precomposed" href="https://sonic.sega.jp/SonicXShadowGenerations/apple-touch-icon.png" />
 
-
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link rel="stylesheet" href="/SonicXShadowGenerations/assets/css/common.min.css" />
 	<link rel="stylesheet" href="/SonicXShadowGenerations/assets/css/top.min.css" />
 </head>
@@ -83,6 +84,19 @@
 	<!-- Google Tag Manager (noscript) 20240523 -->
 	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MDK7CF7L" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	<!-- End Google Tag Manager (noscript) -->
+	<div class="loadingWrap">
+		<div id="loadParticles01"></div><!-- #loadParticles -->
+		<div id="loadParticles02"></div><!-- #loadParticles -->
+		<div class="LoadingBox">
+			<div class="loadingText">
+				<span class="loadingNum">0</span>%
+				<!-- .loadingNum -->
+			</div><!-- .loadingText -->
+			<div class="loadingLine">
+				<div class="loadingLineGauge"></div><!-- .loadingLineGauge -->
+			</div><!-- .loadingLine -->
+		</div><!-- .Loading -->
+	</div><!-- .loadingWrap -->
 	<div class="bgYoutube">
 
 		<iframe id="bgYoutube01" class="is-on" width="727" height="409" src="https://www.youtube.com/embed/HCTcB1qU_0I?autoplay=1&mute=1&loop=1&playlist=HCTcB1qU_0I&modestbranding=1&controls=0&showinfo=0&frameborder=0" title="『ソニック × シャドウ ジェネレーションズ』アナウンストレーラー" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -157,15 +171,16 @@
 					<div class="topNavBox">
 
 						<ul class="navPcList">
-							<li>
+							<li class="is-active">
+								<a href="/SonicXShadowGenerations/story.html">
 
-								<img src="/SonicXShadowGenerations/assets/images/common/menu/story.png" alt="STORY">
-
+									<img src="/SonicXShadowGenerations/assets/images/common/menu/story.png" alt="STORY">
+								</a>
 							</li>
-							<li>
-
-								<img src="/SonicXShadowGenerations/assets/images/common/menu/chara.png" alt="CHARACTER">
-
+							<li class="is-active">
+								<a href="/SonicXShadowGenerations/character.html">
+									<img src="/SonicXShadowGenerations/assets/images/common/menu/chara.png" alt="CHARACTER">
+								</a>
 							</li>
 							<li>
 
@@ -479,12 +494,14 @@
 	<footer class="footer" id="callFooter">
 
 	</footer>
+	<script src="/SonicXShadowGenerations/assets/js/libs/tsparticles.bundle.js"></script>
+
 	<script src="/SonicXShadowGenerations/assets/js/libs/jquery-x.x.js"></script>
 	<script src="/SonicXShadowGenerations/assets/js/libs/jquery.colorbox.js"></script>
 	<script src="/SonicXShadowGenerations/assets/js/libs/jquery.inview.min.js"></script>
 	<script src="/SonicXShadowGenerations/assets/js/libs/slick.js"></script>
-	<script src="/SonicXShadowGenerations/assets/js/sns.js" defer></script>
-	<script src="/SonicXShadowGenerations/assets/js/common.js?20240608"></script>
+	<script src="/SonicXShadowGenerations/assets/js/sns.min.js" defer></script>
+	<script src="/SonicXShadowGenerations/assets/js/common.min.js?20240608"></script>
 	<script src="/SonicXShadowGenerations/assets/js/top.js"></script>
 </body>
 

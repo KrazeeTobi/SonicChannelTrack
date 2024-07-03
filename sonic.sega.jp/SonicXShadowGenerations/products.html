@@ -71,7 +71,8 @@
 	<link rel="shortcut icon" href="https://sonic.sega.jp/favicon.ico" />
 	<link rel="apple-touch-icon-precomposed" href="https://sonic.sega.jp/SonicXShadowGenerations/apple-touch-icon.png" />
 
-
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link rel="stylesheet" href="/SonicXShadowGenerations/assets/css/common.min.css" />
 	<link rel="stylesheet" href="/SonicXShadowGenerations/assets/css/products.min.css" />
 </head>
@@ -83,6 +84,19 @@
 	<!-- Google Tag Manager (noscript) 20240523 -->
 	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MDK7CF7L" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	<!-- End Google Tag Manager (noscript) -->
+	<div class="loadingWrap">
+		<div id="loadParticles01"></div><!-- #loadParticles -->
+		<div id="loadParticles02"></div><!-- #loadParticles -->
+		<div class="LoadingBox">
+			<div class="loadingText">
+				<span class="loadingNum">0</span>%
+				<!-- .loadingNum -->
+			</div><!-- .loadingText -->
+			<div class="loadingLine">
+				<div class="loadingLineGauge"></div><!-- .loadingLineGauge -->
+			</div><!-- .loadingLine -->
+		</div><!-- .Loading -->
+	</div><!-- .loadingWrap -->
 	<div class="bgYoutube">
 		<iframe id="bgYoutube01" class="is-on" width="727" height="409" src="https://www.youtube.com/embed/HCTcB1qU_0I?autoplay=1&mute=1&loop=1&playlist=HCTcB1qU_0I&modestbranding=1&controls=0&showinfo=0&frameborder=0" title="『ソニック × シャドウ ジェネレーションズ』アナウンストレーラー" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 		<iframe id="bgYoutube02" width="727" height="409" src="https://www.youtube.com/embed/1NEX2eqHVrU?autoplay=1&mute=1&loop=1&playlist=1NEX2eqHVrU&modestbranding=1&controls=0&showinfo=0&frameborder=0" title="『ソニック × シャドウ ジェネレーションズ』アナウンストレーラー" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -218,9 +232,9 @@
 						</div><!-- .mainProductsText -->
 
 						<div class="mainProductsItemBox">
-							<div class="mainProductsItem is-img">
+							<div class="mainProductsItem is-img is-dde">
 
-								<a href="/SonicXShadowGenerations/assets/images/common/guide/ddeImg.jpg" class="colorboxSingle ssImg">
+								<a href="/SonicXShadowGenerations/assets/images/common/guide/ddeImg.jpg" class="productColorboxImg ssImg">
 									<img src="/SonicXShadowGenerations/assets/images/common/guide/ddeImg.jpg" alt="">
 								</a>
 
@@ -356,7 +370,7 @@
 						<div class="mainProductsItemBox">
 							<div class="mainProductsItem is-img">
 
-								<a href="/SonicXShadowGenerations/assets/images/common/guide/ceImg.jpg" class="colorboxSingle ssImg">
+								<a href="/SonicXShadowGenerations/assets/images/common/guide/ceImg.jpg" class="productColorboxImg ssImg">
 									<img src="/SonicXShadowGenerations/assets/images/common/guide/ceImg.jpg" alt="">
 								</a>
 
@@ -371,6 +385,13 @@
 								</ul><!-- .mainProductsItemList -->
 							</div><!-- .mainProductsItem is-img -->
 						</div><!-- .mainProductsItemBox -->
+						<div class="sdxLinkBox is-video">
+							<a href="https://www.youtube.com/embed/-3GN9xQpF0E" class="productColorboxVideo">
+								<img src="/SonicXShadowGenerations/assets/images/common/guide/ceBtn.jpg" alt="紹介動画">
+							</a>
+						</div><!-- .sdxLinkBox -->
+						<br>
+						<br>
 						<div id="jpStoreSegaListLmited" class="mainProductsCallItem"></div><!-- #jpStoreSegaListLmited -->
 						<div id="jpStoreListLimitedOriginal" class="mainProductsCallItem"></div>
 						<div id="jpStoreListLimited" class="mainProductsCallItem"></div>
@@ -394,7 +415,7 @@
 						<div class="mainProductsItemBox">
 							<div class="mainProductsItem is-img">
 
-								<a href="/SonicXShadowGenerations/assets/images/common/guide/sdxImg.jpg" class="colorboxSingle ssImg">
+								<a href="/SonicXShadowGenerations/assets/images/common/guide/sdxImg.jpg" class="productColorboxImg ssImg">
 									<img src="/SonicXShadowGenerations/assets/images/common/guide/sdxImg.jpg" alt="">
 								</a>
 
@@ -411,8 +432,24 @@
 								</ul><!-- .mainProductsItemList -->
 							</div><!-- .mainProductsItem is-img -->
 						</div><!-- .mainProductsItemBox -->
+						<div class="mainProductsItemBox">
+							<div class="mainProductsItem is-img">
+
+								<a href="/SonicXShadowGenerations/assets/images/common/guide/sdxImg-02.jpg" class="productColorboxImg ssImg">
+									<img src="/SonicXShadowGenerations/assets/images/common/guide/sdxImg-02.jpg" alt="">
+								</a>
+
+							</div><!-- .mainProductsItem is-img -->
+							<div class="mainProductsItem is-content">
+								<h4>DXパック 3Dクリスタルセット<br></h4>
+								「ソニック」「シャドウ」をクリスタルキューブ内に3D立体レーザー彫刻で再現した3Dクリスタルです。<br>
+								付属のLEDスタンドに設置することにより、光の加減や角度によってさまざまな見え方をしますので、煌びやかで飽きのこないインテリアアイテムとして楽しめます。<br>
+								<small>※コレクターズエディションでもセット販売中</small>
+							</div><!-- .mainProductsItem is-img -->
+						</div><!-- .mainProductsItemBox -->
+
 						<div class="sdxLinkBox">
-							<a href="https://ebten.jp/sega/p/7015024102501" target="_blank" class="storeBtn is-website">
+							<a href="https://www.chara-ani.com/pickup.aspx?p=ebten" target="_blank" class="storeBtn is-website">
 								<img src="/SonicXShadowGenerations/assets/images/common/guide/website.png" alt="Website">
 							</a>
 						</div><!-- .sdxLinkBox -->
@@ -444,13 +481,15 @@
 	<footer class="footer" id="callFooter">
 
 	</footer>
+	<script src="/SonicXShadowGenerations/assets/js/libs/tsparticles.bundle.js"></script>
+
 	<script src="/SonicXShadowGenerations/assets/js/libs/jquery-x.x.js"></script>
 	<script src="/SonicXShadowGenerations/assets/js/libs/jquery.colorbox.js"></script>
 	<script src="/SonicXShadowGenerations/assets/js/libs/jquery.inview.min.js"></script>
 
 
-	<script src="/SonicXShadowGenerations/assets/js/common.js?20240608"></script>
-	<script src="/SonicXShadowGenerations/assets/js/sns.js" defer></script>
+	<script src="/SonicXShadowGenerations/assets/js/common.min.js"></script>
+	<script src="/SonicXShadowGenerations/assets/js/sns.min.js" defer></script>
 	<script src="/SonicXShadowGenerations/assets/js/products.js"></script>
 </body>
 

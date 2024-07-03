@@ -62,27 +62,37 @@
 	<meta property="og:type" content="article" />
 	<!--+++++ 多言語 +++++-->
 	<link rel="alternate" hreflang="ja" href="https://sonic.sega.jp/SonicXShadowGenerations/video.html" />
-	<link rel="alternate" hreflang="en" href="https://asia.sega.com/SonicXShadowGenerations/en/video.html" />
-	<link rel="alternate" hreflang="zh-Hans" href="https://asia.sega.com/SonicXShadowGenerations/cn/video.html" />
-	<link rel="alternate" hreflang="zh-Hant" href="https://asia.sega.com/SonicXShadowGenerations/cht/video.html" />
-	<link rel="alternate" hreflang="ko" href="https://asia.sega.com/SonicXShadowGenerations/kr/video.html" />
-	<link rel="alternate" hreflang="lo" href="https://asia.sega.com/SonicXShadowGenerations/th/video.html" />
+
 	<!--+++++  +++++-->
 	<link rel="shortcut icon" href="https://sonic.sega.jp/favicon.ico" />
 	<link rel="apple-touch-icon-precomposed" href="https://sonic.sega.jp/SonicXShadowGenerations/apple-touch-icon.png" />
 
-
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link rel="stylesheet" href="/SonicXShadowGenerations/assets/css/common.min.css" />
 	<link rel="stylesheet" href="/SonicXShadowGenerations/assets/css/media.min.css" />
 </head>
 
-<body data-page="movie" data-lang="jp" id="top">
+<body data-page="video" data-lang="jp" id="top">
 	<!-- Google Tag Manager (noscript) -->
 	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PJHT66JG" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	<!-- End Google Tag Manager (noscript) -->
 	<!-- Google Tag Manager (noscript) 20240523 -->
 	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MDK7CF7L" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	<!-- End Google Tag Manager (noscript) -->
+	<div class="loadingWrap">
+		<div id="loadParticles01"></div><!-- #loadParticles -->
+		<div id="loadParticles02"></div><!-- #loadParticles -->
+		<div class="LoadingBox">
+			<div class="loadingText">
+				<span class="loadingNum">0</span>%
+				<!-- .loadingNum -->
+			</div><!-- .loadingText -->
+			<div class="loadingLine">
+				<div class="loadingLineGauge"></div><!-- .loadingLineGauge -->
+			</div><!-- .loadingLine -->
+		</div><!-- .Loading -->
+	</div><!-- .loadingWrap -->
 	<div class="moviebg is-00"></div><!-- .moviebg -->
 	<header class="-onlyPc" id="callHeader">
 
@@ -111,13 +121,15 @@
 	<footer class="footer" id="callFooter">
 
 	</footer>
+	<script src="/SonicXShadowGenerations/assets/js/libs/tsparticles.bundle.js"></script>
+
 	<script src="/SonicXShadowGenerations/assets/js/libs/jquery-x.x.js"></script>
 	<script src="/SonicXShadowGenerations/assets/js/libs/jquery.colorbox.js"></script>
 	<script src="/SonicXShadowGenerations/assets/js/libs/jquery.inview.min.js"></script>
 	<script src="/SonicXShadowGenerations/assets/js/libs/slick.js"></script>
 
-	<script src="/SonicXShadowGenerations/assets/js/common.js?20240608"></script>
-	<script src="/SonicXShadowGenerations/assets/js/sns.js" defer></script>
+	<script src="/SonicXShadowGenerations/assets/js/common.min.js?20240608"></script>
+	<script src="/SonicXShadowGenerations/assets/js/sns.min.js" defer></script>
 	<script src="/SonicXShadowGenerations/assets/js/movie.js"></script>
 </body>
 

@@ -44,9 +44,9 @@ $(function () {
 		}
 
 		if (num === 1) {
-			/*+++++
+			/* +++++
 			パッケージ
-			+++++*/
+			+++++ */
 			$(".productsItemList.is-pack").addClass(on)
 			$versionList.find(".is-pack").addClass(on);
 			$productsTabListPack.addClass(on);
@@ -63,9 +63,9 @@ $(function () {
 				}
 			});
 		} else {
-			/*+++++
+			/* +++++
 			デジタル
-			+++++*/
+			+++++ */
 			$(".productsItemList.is-dl").addClass(on)
 			$versionList.find(".is-dl").addClass(on);
 			$productsTabListDl.addClass(on);
@@ -111,11 +111,9 @@ $(function () {
 
 
 
-
-
-	/*+++++
+	/* +++++
 	shoplist取得
-	+++++*/
+	+++++ */
 
 	const jsonstoreUrl = "/SonicXShadowGenerations/assets/data/shopList.json"
 
@@ -130,7 +128,7 @@ $(function () {
 			let appendGoodsHub = "";
 			let appendUrlHub = "";
 			for (let i = 0; i < storeJsonNum; i++) {
-				console.log(storeJsonNum);
+
 				const storeJsonData = result[i];
 				const storeName = storeJsonData["storeName"];
 				const storeImg = storeJsonData["storeImg"];
@@ -276,5 +274,57 @@ $(function () {
 		})
 
 
+	colorboxSet("productColorboxImg")
+	colorboxVideoSet("productColorboxVideo")
+
+	function colorboxSet(setClassName) {
+		const setName = '.' + setClassName;
+		let setNameItem = document.querySelectorAll(setName);
+		setNameItem.forEach((e) => {
+			let href = e.getAttribute('href');
+			e.setAttribute('data-href', href);
+			e.removeAttribute('href');
+		});
+		$(setName).on('click', function () {
+			let modal_href = $(this).attr('data-href');
+			const setNameItemDOM = $(this);
+
+			if (0 < setNameItemDOM.length) {
+				setNameItemDOM.colorbox({
+					href: modal_href,
+					maxWidth: "90%",
+					maxHeight: "90%",
+					arrows: false
+				});
+			}
+		});
+	}
+
+	function colorboxVideoSet(setClassName) {
+		const setName = '.' + setClassName;
+		let setNameItem = document.querySelectorAll(setName);
+		setNameItem.forEach((e) => {
+			let href = e.getAttribute('href');
+			e.setAttribute('data-href', href);
+			e.removeAttribute('href');
+		});
+		$(setName).on('click', function () {
+			let modal_href = $(this).attr('data-href');
+			const setNameItemDOM = $(this);
+			const baseWidth = $(window).width();
+			const w = baseWidth * 0.8;
+			const h = w * 0.57;
+			if (0 < setNameItemDOM.length) {
+				setNameItemDOM.colorbox({
+					href: modal_href,
+					iframe: true,
+					innerWidth: w,
+					innerHeight: h,
+					maxWidth: "90%",
+
+				});
+			}
+		});
+	}
 
 });
