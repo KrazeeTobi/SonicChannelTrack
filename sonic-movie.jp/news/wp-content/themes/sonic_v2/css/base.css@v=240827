@@ -1,0 +1,798 @@
+@charset "UTF-8";
+
+/* --------------------------------------------------
+ 01. reset     => リセットCSS
+ 02. Base      => ベーススタイル
+ 03. only      => PCのみ or SPのみ表示するクラス
+ 04. layout    => レイアウト
+ 05. header    => ヘッダー
+ 06. sidebar   => サイドバー（左カラム）
+ 07. main      => メイン（右カラム）
+ 08. article   => 記事の大枠
+ 09. newsText  => 記事の中身
+ 10. image     => 画像（配置設定等）
+ 11. Youtube   => Youtube動画
+ 12. footer    => フッター
+ 13. pager     => ページネーション
+ 14. pagetop   => ページトップ
+ 15. Not Found => 404エラーページ
+ 16. clearfix  => 旧CSS
+-------------------------------------------------- */
+
+
+/* --------------------------------------------------
+reset
+-------------------------------------------------- */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: bottom;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+img {
+  vertical-align: bottom;
+  border: none;
+}
+
+aside {
+  display: block;
+}
+
+code {
+  background: #f5f5f5;
+  display: block;
+  padding: 10px;
+  border-radius: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+/* --------------------------------------------------
+Base
+-------------------------------------------------- */
+
+html, body {
+  min-height: 100%;
+}
+
+body {
+  position: relative;
+  background: #000;
+  /* background: #000 url('../img/bg_pattern.jpg') center 170px / auto auto repeat; */
+  color: #000;
+  line-height: 1.6;
+  font-size: 14px;
+  font-family:
+    "Hiragino Kaku Gothic Pro",
+    "ヒラギノ角ゴシック", "Hiragino Sans",
+    "メイリオ", Meiryo,
+    sans-serif;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+/* SP */
+@media screen and (max-width: 767px) {
+  body {
+    background-size: 86px auto;
+    background-position-y: 145px;
+  }
+}
+/* 背景グラデーション */
+/* body::before {
+  z-index: -1;
+  position: absolute;
+  content: '';
+  display: block;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 500px;
+  background: linear-gradient(0deg, rgba(0,0,0,0.8) 0%, transparent 100%);
+} */
+
+a {
+  transition: opacity .3s;
+  color: #000;
+}
+
+a:link {
+  text-decoration: underline;
+}
+a:visited {
+  text-decoration: underline;
+}
+a:hover {
+  text-decoration: none;
+  opacity: 0.5;
+}
+a:active {
+  text-decoration: underline;
+}
+
+/* 旧CSSの名残 */
+.img {
+  display: block;
+  margin-top: 20px !important;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/* --------------------------------------------------
+only
+-------------------------------------------------- */
+@media screen and (max-width: 767px) {
+  .is-onlyPC {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .is-onlySP {
+    display: none;
+  }
+}
+
+
+/* --------------------------------------------------
+layout
+-------------------------------------------------- */
+#wrapper {
+  min-height: 100vh;
+}
+
+#container {
+  z-index: 2;
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+  min-height: calc(100vh - 350px - 170px);
+}
+@media screen and (max-width: 767px) {
+  #container {
+    min-height: calc(100vh - 130px - 160px);
+  }
+}
+
+#content {
+  /* margin-top: 60px; */
+  padding: 0 50px;
+  position: relative;
+}
+@media screen and (max-width: 767px) {
+  #content {
+    /* margin-top: 30px; */
+    padding: 0 20px;
+  }
+}
+
+
+/* --------------------------------------------------
+header
+-------------------------------------------------- */
+.header {
+  background: #000;
+  text-align: center;
+  height: 350px;
+}
+@media screen and (max-width: 767px) {
+  .header {
+    height: 130px;
+  }
+}
+
+.header a {
+  display: inline-block;
+  height: 100%;
+  transition: opacity .3s;
+}
+.header a:hover {
+  opacity: 0.7;
+}
+@media screen and (max-width: 767px) {
+  .header a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+}
+
+.header img {
+  height: 100%;
+  width: auto;
+}
+@media screen and (max-width: 767px) {
+  .header img {
+    width: 100%;
+    object-fit: contain;
+  }
+}
+
+
+/* --------------------------------------------------
+sidebar
+-------------------------------------------------- */
+.sidebar {
+  width: 240px;
+  float: left;
+  font-size: 12px;
+  background: #fff;
+  border-radius: 0;
+  padding: 40px 30px;
+}
+@media screen and (max-width: 1200px) {
+  .sidebar {
+    width: calc(240/1200*100%);
+  }
+}
+@media screen and (max-width: 767px) {
+  .sidebar {
+    width: 100%;
+    float: initial;
+    position: static !important;
+    font-size: 10px;
+    margin-bottom: 20px;
+    padding: 0;
+    background: transparent;
+  }
+}
+
+.sidebar__box {
+}
+.sidebar__box:nth-child(n+2) {
+  margin-top: 30px;
+}
+@media screen and (max-width: 767px) {
+  .sidebar__box {
+    padding-bottom: 0;
+  }
+  .sidebar__box:not(.sidebar__box--category) {
+    display: none;
+  }
+}
+
+.sidebar__hdg {
+  font-size: 12px;
+  font-weight: bold;
+  color: #1746f8;
+  line-height: 1.2;
+  margin-bottom: 16px;
+}
+@media screen and (max-width: 767px) {
+  .sidebar__hdg {
+    display: none;
+  }
+}
+
+.sidebar__list {
+  overflow: hidden;
+}
+@media screen and (max-width: 767px) {
+  .sidebar__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+.sidebar__list li {
+  padding-bottom: 5px;
+  line-height: 1.2;
+  min-height: 1px;
+  text-align: left;
+  margin-bottom: 7px;
+  font-feature-settings: "palt" 1;
+}
+@media screen and (min-width: 768px) {
+  .sidebar__list li.cat-item-0 {
+    display: none;
+  }
+}
+@media screen and (max-width: 767px) {
+  .sidebar__list li {
+    padding-bottom: 0;
+    margin-bottom: 0;
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #fff;
+    color: #1746f8;
+    font-weight: bold;
+    margin: 5px;
+  }
+}
+
+.sidebar__list li a {
+  text-decoration: none;
+  display: inline-block;
+}
+@media screen and (max-width: 767px) {
+  .sidebar__list li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+  }
+}
+
+/* is-active */
+@media screen and (max-width: 767px) {
+  .sidebar__list li.is-active {
+  }
+  .sidebar__list li.is-active a {
+    color: #fff;
+    background-color: #1746f8;
+  }
+}
+
+.sidebar__list li br {
+  display: none;
+}
+
+
+/* --------------------------------------------------
+main
+-------------------------------------------------- */
+#main {
+  width: calc(810/1100*100%);
+  margin-right: 0;
+  margin-left: auto;
+  overflow: hidden;
+}
+@media screen and (max-width: 767px) {
+  #main {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+
+/* --------------------------------------------------
+article
+-------------------------------------------------- */
+.article {
+  background: #fff;
+  border-radius: 0;
+  /* border-radius: 25px; */
+  padding: 60px 50px;
+}
+.article:nth-of-type(n+2) {
+  margin-top: 50px;
+  /* border-top: solid 1px #1746f8; */
+}
+@media screen and (max-width: 767px) {
+  .article {
+    padding: 40px 25px;
+  }
+  .article:nth-of-type(n+2) {
+    margin-top: 30px;
+  }
+}
+
+.article__header {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #1746f8;
+  margin-bottom: 30px;
+}
+@media screen and (max-width: 767px) {
+  .article__header {
+  }
+}
+
+.article__ttl {
+  letter-spacing: -0.01em;
+  font-size: 26px;
+  font-weight: bold;
+  line-height: 1.4;
+}
+@media screen and (max-width: 767px) {
+  .article__ttl {
+    font-size: 18px;
+  }
+}
+.article__ttl a {
+  color: #1746f8;
+  text-decoration: none;
+  transition: opacity .5s;
+}
+.article__ttl a:hover {
+  opacity: 0.5;
+}
+
+.article__date {
+  display: inline-block;
+  font-size: 11px;
+}
+@media screen and (max-width: 767px) {
+  .article__date {
+    font-size: 10px;
+  }
+}
+
+.article__body {
+  font-size: 14px;
+  line-height: 1.6;
+  word-wrap: break-word;
+}
+.article__body a {
+  transition: none;
+  opacity: 1;
+  color: #1746f8;
+}
+
+
+
+/* --------------------------------------------------
+newsText
+-------------------------------------------------- */
+.newsText p {
+  margin: 1.5em 0;
+  word-break: break-all;
+}
+.newsText h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+}
+.newsText h1 {
+  font-size: 2em;
+}
+.newsText h2 {
+  font-size: 1.8em;
+}
+.newsText h3 {
+  font-size: 1.6em;
+}
+.newsText h4 {
+  font-size: 1.4em;
+}
+.newsText h5 {
+  font-size: 1.3em;
+}
+.newsText h6 {
+  font-size: 1.2em;
+}
+@media screen and (max-width: 767px) {
+  .newsText h1 {
+    font-size: 1.5em;
+  }
+  .newsText h2 {
+    font-size: 1.4em;
+  }
+  .newsText h3 {
+    font-size: 1.3em;
+  }
+  .newsText h4 {
+    font-size: 1.2em;
+  }
+  .newsText h5 {
+    font-size: 1.1em;
+  }
+  .newsText h6 {
+    font-size: 1.0em;
+  }
+}
+.newsText strong {
+  font-weight: bold;
+  font-size: 1.1em;
+  color: #e01b09;
+}
+.newsText ul {
+  list-style-type: disc;
+  margin: 1em 1.5em 0;
+}
+.newsText ol {
+  list-style-type: decimal;
+  margin: 1em 1.5em 0;
+}
+.newsText blockquote {
+  border-left: 2px solid #ccc;
+  padding-left: 1em;
+  opacity: 0.8;
+}
+
+
+
+/* --------------------------------------------------
+image
+-------------------------------------------------- */
+
+/* デフォルト設定: 中央寄せ */
+
+.alignnone {
+  display: block;
+  margin: 0 auto;
+}
+
+
+/* 画像配置設定 */
+
+.alignright {
+  display: block;
+  margin: 0 0 0 auto;
+}
+.alignleft {
+  display: block;
+  margin: 0 auto 0 0;
+}
+.aligncenter {
+  display: block;
+  margin: 0 auto;
+}
+
+
+/* 打ち消し */
+
+table img {
+  display: inline !important;
+}
+center img {
+  margin: 3px !important;
+  display: inline !important;
+}
+.u-img-default {
+  margin: 3px;
+  display: inline !important;
+}
+.u-no-margin {
+  margin: 0 !important;
+}
+
+
+
+/* --------------------------------------------------
+Youtube
+-------------------------------------------------- */
+.js-youtube {
+  width: 100%;
+  height: 0px;
+  padding-bottom: 56.25%;
+  position: relative;
+}
+.js-youtube>iframe {
+  width: 100% !important;
+  height: 100% !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+
+/* --------------------------------------------------
+footer
+-------------------------------------------------- */
+#footer {
+  z-index: 2;
+  position: relative;
+  border-top: solid 1px #1746f8;
+  padding: 30px 0;
+  margin-top: 60px;
+  text-align: center;
+}
+
+.footer__back {
+  width: 280px;
+  height: 50px;
+  margin: 0 auto;
+}
+
+.footer__back a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: #1746f8;
+  color: #fff;
+  /* border: 1px solid #1746f8; */
+  line-height: 50px;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 0;
+  /* border-radius: 25px; */
+}
+@media screen and (max-width: 767px) {
+  .footer__back {
+    width: 100%;
+    height: 40px;
+    padding: 0 80px;
+  }
+  .footer__back a {
+    line-height: 40px;
+    font-size: 12px;
+  }
+}
+
+
+/* --------------------------------------------------
+pager
+-------------------------------------------------- */
+.pager {
+  text-align:center;
+  margin-top: 80px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+@media screen and (max-width: 767px) {
+  .pager {
+   margin-top: 40px;
+  }
+}
+.page-numbers {
+  /* display: inline-block; */
+  font-weight: bold;
+}
+a.page-numbers {
+  text-decoration: none !important;
+}
+a.page-numbers,
+.current.page-numbers {
+  border-radius: 0;
+  /* border-radius: 50%; */
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  background: transparent;
+  border: solid 1px #1746f8;
+  color: #1746f8;
+}
+.current.page-numbers {
+  background: #1746f8;
+  border-color: #1746f8;
+  color: #000;
+}
+.prev.page-numbers,
+.next.page-numbers {
+  border-color: transparent;
+  margin-inline: 0;
+  padding-inline: 4px;
+  color: #1746f8;
+}
+.page-numbers.dots {
+  color: #1746f8;
+}
+
+
+/* --------------------------------------------------
+pagetop
+-------------------------------------------------- */
+#pagetop {
+  z-index: 2;
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  width: 50px;
+  height: 50px;
+  background: #1746f8;
+  /* border: 1px solid #fff; */
+  border-radius: 0;
+  /* border-radius: 50%; */
+  cursor: pointer;
+  transition: opacity .5s;
+  opacity: 0;
+}
+#pagetop.is-active {
+  opacity: 1;
+}
+@media screen and (min-width: 768px) {
+  #pagetop:hover {
+    opacity: .5;
+  }
+}
+@media screen and (max-width: 767px) {
+  #pagetop {
+    width: 40px;
+    height: 40px;
+    right: 10px;
+    bottom: 30px;
+  }
+}
+#pagetop::before,
+#pagetop::after {
+  content: '';
+  display: block;
+  width: 8px;
+  height: 1px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background: #fff;
+}
+#pagetop::before {
+  transform: rotate(45deg);
+}
+#pagetop::after {
+  transform: rotate(-45deg);
+  margin-left: -6px;
+}
+
+
+/* --------------------------------------------------
+Not Found
+-------------------------------------------------- */
+.nf {
+  text-align: center;
+  margin: 20px 0;
+}
+.nf__ttl {
+  color: #1746f8;
+}
+.nf__lead {
+  font-weight: bold;
+}
+.nf__txt {
+  margin: 30px 0 40px;
+}
+.nf__btn {
+}
+.nf__btn a {
+  /* background: #1746f8;
+  color: #fff; */
+}
+@media screen and (max-width: 767px) {
+  .nf__btn {
+    padding: 0;
+    margin: 0;
+  }
+}
+
+
+/* --------------------------------------------------
+clearfix（旧CSS）
+-------------------------------------------------- */
+.clearfix:after {
+  display: block;
+  clear: both;
+  height: 0px;
+  visibility: hidden;
+  content: ".";
+}
+
+.clearfix {
+  min-height: 1px;
+}
+
+* html .clearfix {
+  height: 1px;
+  height: auto;
+  overflow: hidden;
+}
