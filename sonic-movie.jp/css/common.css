@@ -131,7 +131,7 @@ contents
 
 #contents{
 	width:780px;
-	height:640px;
+	height:680px;
 	position:relative;
 }
 
@@ -144,7 +144,7 @@ contents
 
 #contents h2{
 	width:340px;
-	height:70px;
+	height:63px;
 	position:absolute;
 	top:470px;
 	left:0;
@@ -183,6 +183,17 @@ contents
   filter: blur(10px);
 	opacity:0;
 	z-index:10;
+}
+
+#contents h3{
+	width:520px;
+	height:71px;
+	position:absolute;
+	top:535px;
+	left:0;
+	right:0;
+	margin:auto;
+	z-index:1;
 }
 
 .blur {
@@ -503,6 +514,11 @@ animation
 .is_loaded #contents h2 img {
   -webkit-animation-delay: 1.4s;
           animation-delay: 1.4s;
+}
+
+.is_loaded #contents h3 img {
+  -webkit-animation-delay: 1.6s;
+          animation-delay: 1.6s;
 }
 
 .is_loaded #contents h2:after{
