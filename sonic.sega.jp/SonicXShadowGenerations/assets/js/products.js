@@ -145,18 +145,18 @@ $(function () {
 				let switchItem = "";
 
 				if (totalUrl) {
-					totalItem = '<li><a href="' + totalUrl + '" target="_blank" class="storeBtn is-website"><img src="/SonicXShadowGenerations/assets/images/common/guide/website.png" alt="Website"></a></li>';
+					totalItem = '<li><a href="' + totalUrl + '" target="_blank" class="storeBtn is-website"><img src="/SonicXShadowGenerations/assets/images/common/guide/website.webp" alt="Website"></a></li>';
 
 
 				} else {
 					if (ps5Url) {
-						ps5Item = '<li><a href="' + ps5Url + '" target="_blank" class="storeBtn is-ps5"><img src="/SonicXShadowGenerations/assets/images/common/guide/ps5.png" alt="PlayStation®5"></a></li>';
+						ps5Item = '<li><a href="' + ps5Url + '" target="_blank" class="storeBtn is-ps5"><img src="/SonicXShadowGenerations/assets/images/common/guide/ps5.webp" alt="PlayStation®5"></a></li>';
 					}
 					if (ps4Url) {
-						ps4Item = '<li><a href="' + ps4Url + '" target="_blank" class="storeBtn is-ps4"><img src="/SonicXShadowGenerations/assets/images/common/guide/ps4.png" alt="PlayStation®4"></a></li>';
+						ps4Item = '<li><a href="' + ps4Url + '" target="_blank" class="storeBtn is-ps4"><img src="/SonicXShadowGenerations/assets/images/common/guide/ps4.webp" alt="PlayStation®4"></a></li>';
 					}
 					if (switchUrl) {
-						switchItem = '<li><a href="' + switchUrl + '" target="_blank" class="storeBtn is-switch"><img src="/SonicXShadowGenerations/assets/images/common/guide/switch.png" alt="Nintendo Switch™"></a></li>';
+						switchItem = '<li><a href="' + switchUrl + '" target="_blank" class="storeBtn is-switch"><img src="/SonicXShadowGenerations/assets/images/common/guide/switch.webp" alt="Nintendo Switch™"></a></li>';
 					}
 				}
 
@@ -230,15 +230,15 @@ $(function () {
 				let switchItemLimited = "";
 
 				if (totalUrlLimited) {
-					totalItemLimited = '<li><a href="' + totalUrlLimited + '" target="_blank" class="storeBtn is-website"><img src="/SonicXShadowGenerations/assets/images/common/guide/website.png" alt="Website"></a></li>';
+					totalItemLimited = '<li><a href="' + totalUrlLimited + '" target="_blank" class="storeBtn is-website"><img src="/SonicXShadowGenerations/assets/images/common/guide/website.webp" alt="Website"></a></li>';
 
 				} else {
 					if (ps5UrlLimited) {
-						ps5ItemLimited = '<li><a href="' + ps5UrlLimited + '" target="_blank" class="storeBtn is-ps5"><img src="/SonicXShadowGenerations/assets/images/common/guide/ps5.png" alt="PlayStation®5"></a></li>';
+						ps5ItemLimited = '<li><a href="' + ps5UrlLimited + '" target="_blank" class="storeBtn is-ps5"><img src="/SonicXShadowGenerations/assets/images/common/guide/ps5.webp" alt="PlayStation®5"></a></li>';
 					}
 
 					if (switchUrlLimited) {
-						switchItemLimited = '<li><a href="' + switchUrlLimited + '" target="_blank" class="storeBtn is-switch"><img src="/SonicXShadowGenerations/assets/images/common/guide/switch.png" alt="Nintendo Switch™"></a></li>';
+						switchItemLimited = '<li><a href="' + switchUrlLimited + '" target="_blank" class="storeBtn is-switch"><img src="/SonicXShadowGenerations/assets/images/common/guide/switch.webp" alt="Nintendo Switch™"></a></li>';
 					}
 				}
 				if (storeOnlyImgLimited) {
