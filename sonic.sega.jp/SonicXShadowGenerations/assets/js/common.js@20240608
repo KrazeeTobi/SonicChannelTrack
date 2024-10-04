@@ -1,6 +1,76 @@
 $(function () {
 	const $dataPage = $("body").data("page");
 	const $dataLang = $("body").data("lang");
+	if ($dataPage !== "products") {
+		const setJson = "/SonicXShadowGenerations/assets/data/particlesLoad01.json"
+		tsParticles
+			.load({
+				id: "loadParticles01",
+				url: setJson,
+			})
+			.then(container => {
+				console.log("callback - tsParticles config loaded");
+			})
+			.catch(error => {
+				console.error(error);
+			});
+		const setJson02 = "/SonicXShadowGenerations/assets/data/particlesLoad02.json"
+		tsParticles
+			.load({
+				id: "loadParticles02",
+				url: setJson02,
+			})
+			.then(container => {
+				console.log("callback - tsParticles config loaded");
+			})
+			.catch(error => {
+				console.error(error);
+			});
+		setTimeout(() => {
+			const IMGCNT = document.getElementsByTagName("img").length;
+			let cnt = 0;
+			const max = 100;
+			let gaugeNum = max;
+			loaedingCount()
+
+			function loaedingCount() {
+
+				gaugeNum = max - cnt;
+
+				$(".loadingLineGauge").css("width", gaugeNum + "%")
+				$(".loadingNum").html(cnt)
+				setTimeout(() => {
+					cnt++;
+
+					if (!(cnt === 101)) {
+						if (!(cnt === IMGCNT)) {
+							loaedingCount()
+						} else {
+							loadOut()
+						}
+
+					} else {
+						loadOut()
+
+					}
+
+				}, 10);
+			}
+
+			function loadOut() {
+				setTimeout(() => {
+					$(".loadingLineGauge").css("width", "0%")
+					$(".loadingNum").html(100)
+					setTimeout(() => {
+						$(".loadingWrap").fadeOut();
+					}, 500);
+				}, 300);
+			}
+		}, 300);
+	}
+
+
+
 
 	let path = "/SonicXShadowGenerations/"
 	const $callHeader = $("#callHeader");
@@ -81,6 +151,18 @@ $(function () {
 
 				});
 
+			} else if ($dataPage === "story" || $dataPage === "character") {
+				$(window).scroll(function () {
+					if ($(this).scrollTop() > 70) {
+						topBtn.fadeIn();
+						$(".navPcWrap").addClass(on);
+						$(".switchBox").addClass("is-fixed")
+					} else {
+						topBtn.fadeOut();
+						$(".navPcWrap").removeClass(on);
+						$(".switchBox").removeClass("is-fixed")
+					}
+				});
 			} else {
 				$(window).scroll(function () {
 					if ($(this).scrollTop() > 70) {
