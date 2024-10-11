@@ -135,10 +135,10 @@ $(function () {
 
 				if (link) {
 
-					newsDetail = '<div class="topNewsItemBox"><div class="topNewsItem"><a href="' + link + '"><div class="topNewsItemDate"><span class="number">' + date + '</span></div><div class="topNewsItemImg"><span class="boxline is-01"></span><span class="boxline is-02"></span><span class="boxline is-03"></span><span class="boxline is-04"></span><img src="' + tumbnailImg + '" alt="' + title + '"></div><div class="newsItemTitle">' + title + '</div></a></div></div>';
+					newsDetail = '<div class="topNewsItemBox"><div class="topNewsItem"><a href="' + link + '"><div class="topNewsItemDate"><span class="number">' + date + '</span></div><div class="topNewsItemImg"><span class="boxline is-01"></span><span class="boxline is-02"></span><span class="boxline is-03"></span><span class="boxline is-04"></span><img src="' + tumbnailImg + '" alt="' + title + '" width="1200" height="630"></div><div class="newsItemTitle">' + title + '</div></a></div></div>';
 
 				} else {
-					newsDetail = '<div class="topNewsItemBox"><div class="topNewsItem"><div class="topNewsItemDate"><span class="number">' + date + '</span></div><div class="topNewsItemImg"><span class="boxline is-01"></span><span class="boxline is-02"></span><span class="boxline is-03"></span><span class="boxline is-04"></span><img src="' + tumbnailImg + '" alt="' + title + '"></div><div class="newsItemTitle">' + title + '</div></div></div>';
+					newsDetail = '<div class="topNewsItemBox"><div class="topNewsItem"><div class="topNewsItemDate"><span class="number">' + date + '</span></div><div class="topNewsItemImg"><span class="boxline is-01"></span><span class="boxline is-02"></span><span class="boxline is-03"></span><span class="boxline is-04"></span><img src="' + tumbnailImg + '" alt="' + title + '" width="1200" height="630"></div><div class="newsItemTitle">' + title + '</div></div></div>';
 
 				}
 
@@ -147,8 +147,8 @@ $(function () {
 				if (!(i != jsonNum - 1)) {
 
 					$("#topNewslist").append(appendItem)
-					const prevCharaArrow = '<div class="arrowNews is-prev"><img src="/SonicXShadowGenerations/assets/images/common/top/slideArrow-l.png" width="58" height="72" alt="矢印"></div>';
-					const nextCharaArrow = '<div class="arrowNews is-next"><img src="/SonicXShadowGenerations/assets/images/common/top/slideArrow-r.png" width="58" height="72" alt="矢印"></div>';
+					const prevCharaArrow = '<div class="arrowNews is-prev"><img src="/SonicXShadowGenerations/assets/images/common/top/slideArrow-l.webp" width="58" height="72" alt="矢印"></div>';
+					const nextCharaArrow = '<div class="arrowNews is-next"><img src="/SonicXShadowGenerations/assets/images/common/top/slideArrow-r.webp" width="58" height="72" alt="矢印"></div>';
 
 					$(".topNewsList").slick({
 						centerMode: true,

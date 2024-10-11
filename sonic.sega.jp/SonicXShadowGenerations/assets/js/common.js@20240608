@@ -54,7 +54,11 @@ $(function () {
 
 					}
 
+
 				}, 10);
+				setTimeout(() => {
+					$(".loadingWrap").fadeOut();
+				}, 1500);
 			}
 
 			function loadOut() {
@@ -63,8 +67,8 @@ $(function () {
 					$(".loadingNum").html(100)
 					setTimeout(() => {
 						$(".loadingWrap").fadeOut();
-					}, 500);
-				}, 300);
+					}, 200);
+				}, 200);
 			}
 		}, 300);
 	}

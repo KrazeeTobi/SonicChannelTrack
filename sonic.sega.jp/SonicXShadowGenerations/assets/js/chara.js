@@ -61,26 +61,38 @@ $(function () {
 				const shadowSidecharaThumPc = shadowSideJsonData["charaThumPc"];
 				const shadowSidecharaThumSp = shadowSideJsonData["charaThumSp"];
 				//テンプレート
+				let shadowSideBgImgDOM = "";
+				let shadowSideBgImgSpDOM = "";
+				if (shadowSideBgImg) {
+					shadowSideBgImgDOM = `
+						<div class="pcSwitchBg is-dark is-${shadowSideId}">
+							<img src="${commonCharaImgUrl}${shadowSideBgImg}" width="1920" height="1200" alt="">
+						</div>
+					`
+					shadowSideBgImgSpDOM = `
+						<div class="spCharaBgImgBox is-dark is-${shadowSideId}">
+							<img src="${commonCharaImgUrl}${shadowSideBgImg}"width="1920" height="1200" alt="">
+						</div>
+					`
+				}
 				const shadowCharaPcItem = `
 					<section>
-						<div class="pcSwitchBg is-${shadowSideId}">
-							<img src="${commonCharaImgUrl}${shadowSideBgImg}" alt="">
-						</div>
+						${shadowSideBgImgDOM}
 						<div class="pcCharaWrap is-${shadowSideId}">
-							<div class="pcSwitchName is-dark">
+							<div class="pcSwitchName is-dark is-${shadowSideId}">
 								<img src="${pcCharaImgUrl}${shadowSideBigTextPc}" alt="${shadowSideNameEn}">
 							</div>
-							<div class="pcSwitchName is-dark is-02">
+							<div class="pcSwitchName is-dark is-${shadowSideId} is-02">
 								<img src="${pcCharaImgUrl}${shadowSideBigTextPc}" alt="${shadowSideNameEn}">
 							</div>
-							<div class="pcCharaImgBox is-${shadowSideId}">
-								<img src="${pcCharaImgUrl}${shadowSideCharaImgPc}" alt="">
+							<div class="pcCharaImgBox is-dark is-${shadowSideId}">
+								<img src="${pcCharaImgUrl}${shadowSideCharaImgPc}" width="1200" height="1200" alt="">
 							</div>
 							<div class="pcCharaTextBox is-dark">
 								<h2 class="pcCharaTextTitle is-dark">
-									<img src="${pcCharaImgUrl}${shadowSideNameImgPc}" alt="${shadowSideName}">
+									<img src="${pcCharaImgUrl}${shadowSideNameImgPc}" width="980" height="90"alt="${shadowSideName}">
 									<div class="pcCharaTextTitleLine is-dark">
-										<img src="${commonCharaImgUrl}charaLine01.png" alt="">
+										<img src="${commonCharaImgUrl}charaLine01.png" width="927" height="83" alt="">
 									</div>
 								</h2>
 								<p class="pcCharaText is-${shadowSideId}">${shadowSideText}</p>
@@ -90,24 +102,22 @@ $(function () {
 				`;
 				const shadowCharaSpItem = `
 					<section>
-						<div class="spCharaBgImgBox is-${shadowSideId}">
-							<img src="${commonCharaImgUrl}${shadowSideBgImg}" alt="">
-						</div>
+						${shadowSideBgImgSpDOM }
 						<div class="spCharaWrap is-${shadowSideId}">
-							<div class="spCharaName is-dark">
+							<div class="spCharaName is-dark is-${shadowSideId}">
 								<img src="${spCharaImgUrl}${shadowSideBigTextSp}" alt="${shadowSideNameEn}">
 							</div>
-							<div class="spCharaName is-dark is-02">
+							<div class="spCharaName is-dark is-${shadowSideId} is-02">
 								<img src="${spCharaImgUrl}${shadowSideBigTextSp}" alt="${shadowSideNameEn}">
 							</div>
 							<div class="spCharaImgBox is-${shadowSideId}">
-								<img src="${spCharaImgUrl}${shadowSideCharaImgSp}" alt="">
+								<img src="${spCharaImgUrl}${shadowSideCharaImgSp}" width="1200" height="1200"alt="">
 							</div>
 							<div class="spCharaTextBox is-dark">
 								<h2 class="spCharaTextTitle is-${shadowSideId}">
-									<img src="${spCharaImgUrl}${shadowSideNameImgSp}" alt="${shadowSideName}">
+									<img src="${spCharaImgUrl}${shadowSideNameImgSp}" width="980" height="90" alt="${shadowSideName}">
 									<div class="spCharaTextTitleLine is-dark">
-										<img src="${commonCharaImgUrl}charaLine01.png" alt="">
+										<img src="${commonCharaImgUrl}charaLine01.png" width="927" height="83" alt="">
 									</div>
 								</h2>
 								<p class="spCharaText is-dark">${shadowSideText}</p>
@@ -135,13 +145,15 @@ $(function () {
 					if (charaShadowListKLength % 2 == 1) {
 						shadowPcTabAppend += `
 							<li class="is-cs is-dark">
-								<img src="${pcCharaImgUrl}charaThum01-cs.png" alt="Coming Soon">
+								<img src="${pcCharaImgUrl}charaThum01-cs.webp" alt="Coming Soon">
 							</li>`;
 						shadowSpTabAppend += `
 							<li class="is-cs is-dark">
-								<img src="${spCharaImgUrl}charaThum01-cs.png" alt="Coming Soon">
+								<img src="${spCharaImgUrl}charaThum01-cs.webp" alt="Coming Soon">
 							</li>`;
 					}
+
+
 					$("#shadowCharaPcBox").append(shadowPcAppend);
 					$("#shadowCharaSpBox").append(shadowSpAppend);
 					$("#shadowTabPc").append(shadowPcTabAppend);
@@ -176,28 +188,39 @@ $(function () {
 								const sonicSideText = sonicSideJsonData["text"];
 								const sonicSidecharaThumPc = sonicSideJsonData["charaThumPc"];
 								const sonicSidecharaThumSp = sonicSideJsonData["charaThumSp"];
-
+								let sonicSideBgImgDOM = "";
+								let sonicSideBgImgSpDOM = "";
+								if (sonicSideBgImg) {
+									sonicSideBgImgDOM = `
+											<div class="pcSwitchBg is-light is-${sonicSideId}">
+												<img src="${commonCharaImgUrl}${sonicSideBgImg}" alt="">
+											</div>
+									`
+									sonicSideBgImgSpDOM = `
+									<div class="spCharaBgImgBox is-light is-${sonicSideId}">
+										<img src="${commonCharaImgUrl}${sonicSideBgImg}" alt="">
+									</div>
+								`
+								}
 
 								const sonicCharaPcItem = `
 										<section>
-											<div class="pcSwitchBg is-${sonicSideId}">
-												<img src="${commonCharaImgUrl}${sonicSideBgImg}" alt="">
-											</div>
+											${sonicSideBgImgDOM}
 											<div class="pcCharaWrap is-${sonicSideId}">
-												<div class="pcSwitchName is-light">
+												<div class="pcSwitchName is-light is-${sonicSideId}">
 													<img src="${pcCharaImgUrl}${sonicSideBigTextPc}" alt="${sonicSideNameEn}">
 												</div>
-												<div class="pcSwitchName is-light is-02">
+												<div class="pcSwitchName is-light is-${sonicSideId} is-02">
 													<img src="${pcCharaImgUrl}${sonicSideBigTextPc}" alt="${sonicSideNameEn}">
 												</div>
-												<div class="pcCharaImgBox is-${sonicSideId}">
-													<img src="${pcCharaImgUrl}${sonicSideCharaImgPc}" alt="">
+												<div class="pcCharaImgBox is-light is-${sonicSideId}">
+													<img src="${pcCharaImgUrl}${sonicSideCharaImgPc}"width="1200" height="1200" alt="">
 												</div>
 												<div class="pcCharaTextBox is-light">
 														<h2 class="pcCharaTextTitle is-light">
-														<img src="${pcCharaImgUrl}${sonicSideNameImgPc}" alt="${sonicSideName}">
+														<img src="${pcCharaImgUrl}${sonicSideNameImgPc}" width="980" height="90" alt="${sonicSideName}">
 														<div class="pcCharaTextTitleLine is-light">
-															<img src="${commonCharaImgUrl}charaLine02.png" alt="">
+															<img src="${commonCharaImgUrl}charaLine02.png"  width="927" height="83" alt="">
 														</div>
 													</h2>
 													<p class="pcCharaText is-${sonicSideId}">${sonicSideText}</p>
@@ -207,25 +230,23 @@ $(function () {
 								`;
 								const sonicCharaSpItem = `
 								<section>
-									<div class="spCharaBgImgBox is-${sonicSideId}">
-										<img src="${commonCharaImgUrl}${sonicSideBgImg}" alt="">
-									</div>
+									${sonicSideBgImgSpDOM}
 									<div class="spCharaWrap is-${sonicSideId}">
-										<div class="spCharaName is-light">
+										<div class="spCharaName is-light is-${sonicSideId}">
 											<img src="${spCharaImgUrl}${sonicSideBigTextSp}" alt="${sonicSideNameEn}">
 										</div>
-										<div class="spCharaName is-light is-02">
+										<div class="spCharaName is-light is-${sonicSideId} is-02">
 											<img src="${spCharaImgUrl}${sonicSideBigTextSp}" alt="${sonicSideNameEn}">
 										</div>
 										<div class="spCharaImgBox is-${sonicSideId}">
-											<img src="${spCharaImgUrl}${sonicSideCharaImgSp}" alt="">
+											<img src="${spCharaImgUrl}${sonicSideCharaImgSp}" width="1200" height="1200"alt="">
 										</div>
 										<div class="spCharaTextBox is-light">
 
 											<h2 class="spCharaTextTitle is-${sonicSideId}">
-												<img src="${spCharaImgUrl}${sonicSideNameImgSp}" alt="${sonicSideName}">
+												<img src="${spCharaImgUrl}${sonicSideNameImgSp}" width="980" height="90" alt="${sonicSideName}">
 												<div class="spCharaTextTitleLine is-light">
-													<img src="${commonCharaImgUrl}charaLine02.png" alt="">
+													<img src="${commonCharaImgUrl}charaLine02.png"  width="927" height="83" alt="">
 												</div>
 											</h2>
 											<p class="spCharaText is-light">${sonicSideText}</p>
@@ -240,7 +261,7 @@ $(function () {
 								`;
 								const sonicTabSpItem = `
 								<li class="charaTab is-light" data-chara="${i}" data-side="1">
-								 	<a href="#top">
+								 	<a href="#top" class="spCharaTabItem" data-chara="${i}" data-side="1">
 										<img src="${spCharaImgUrl}${sonicSidecharaThumSp}" alt="${sonicSideName}">
 									</a>
 								</li>
@@ -254,19 +275,21 @@ $(function () {
 								if (!(i != charaSonicListKLength - 1)) {
 									if (charaSonicListKLength % 2 == 1) {
 										sonicPcTabAppend += `
-											<li class="is-cs is-light">
-												<img src="${pcCharaImgUrl}charaThum02-cs.png" alt="Coming Soon">
+											<li class=" is-light is-cs">
+												<img src="${pcCharaImgUrl}charaThum02-cs.webp" alt="Coming Soon">
 											</li>`;
 										sonicSpTabAppend += `
-											<li class="is-cs is-light">
-												<img src="${spCharaImgUrl}charaThum02-cs.png" alt="Coming Soon">
+											<li class=" is-cs is-light">
+												<img src="${spCharaImgUrl}charaThum02-cs.webp" alt="Coming Soon">
 											</li>`;
+
 									}
 									//最後にアペンド
 									$("#sonicCharaPcBox").append(sonicPcAppend);
 									$("#sonicCharaSpBox").append(sonicSpAppend);
 									$("#sonicTabPc").append(sonicPcTabAppend);
 									$("#sonicTabSp").append(sonicSpTabAppend);
+
 
 									/* +++++
 									要素の読み込み終わり次第 処理周り
@@ -322,7 +345,37 @@ $(function () {
 									//初動読み込み
 									setTimeout(() => {
 										setSide(sideQuery, charaQuery);
-									}, 1800);
+									}, 1400);
+
+									var nextArrow = '<div class="arrow is-next"><img src="/SonicXShadowGenerations/assets/images/sp/chara/arrow02.webp" width="100%" alt="矢印"></div>';
+									var prevArrow = '<div class="arrow is-prev"><img src="/SonicXShadowGenerations/assets/images/sp/chara/arrow02.webp" width="100%" alt="矢印"></div>';
+									$("#sonicTabSp").slick({
+										autoplay: false,
+										infinite: true,
+										speed: 500,
+										slidesToShow: 3,
+										slidesToScroll: 1,
+										centerMode: true,
+										focusOnSelect: true,
+										prevArrow: prevArrow,
+										nextArrow: nextArrow,
+
+									})
+									var nextArrow = '<div class="arrow is-next"><img src="/SonicXShadowGenerations/assets/images/sp/chara/arrow01.webp" width="100%" alt="矢印"></div>';
+									var prevArrow = '<div class="arrow is-prev"><img src="/SonicXShadowGenerations/assets/images/sp/chara/arrow01.webp" width="100%" alt="矢印"></div>';
+									$("#shadowTabSp").slick({
+										autoplay: false,
+										infinite: true,
+										speed: 500,
+										slidesToShow: 3,
+										slidesToScroll: 1,
+										centerMode: true,
+										focusOnSelect: true,
+										prevArrow: prevArrow,
+										nextArrow: nextArrow,
+
+									})
+
 									/* +++++
 									ボタン挙動
 									+++++ */
@@ -361,16 +414,61 @@ $(function () {
 									/* +++++
 									menutab
 									+++++ */
+									$('#sonicTabSp').slick('slickGoTo', charaQuery, true);
+									$('#shadowTabSp').slick('slickGoTo', charaQuery, true);
+									/*
+									$('#sonicTabSp').on('afterChange', function (event, slick, currentSlide) {
+										const $cahraTabData = $(".slick-current").data("chara");
+										const $cahraSideData = $(".slick-current").data("side");
+										console.log("check:" + $cahraSideData + "check:" + $cahraTabData)
+										if (!$(".slick-current").hasClass(on)) {
+											var $htBody = $("html,body");
+											$htBody.animate({
+													scrollTop: 0,
+												},
+												300
+											);
+											$charaTab.removeClass(on)
+											$(".slick-current").addClass(on);
+
+											setSide($cahraSideData, $cahraTabData);
+										}
+									});
+									*/
 
 									$charaTab.on("click", function () {
 										const $cahraTabData = $(this).data("chara");
 										const $cahraSideData = $(this).data("side");
+										console.log("check:" + $cahraSideData + "check:" + $cahraTabData)
 										if (!$(this).hasClass(on)) {
+
+											setSide($cahraSideData, $cahraTabData);
+											var $htBody = $("html,body");
+											$htBody.animate({
+													scrollTop: 0,
+												},
+												300
+											);
 											$charaTab.removeClass(on)
 											$(this).addClass(on);
+
+
+										}
+									});
+
+									$(".spCharaTabItem").on("click", function () {
+										const $cahraTabData = $(this).data("chara");
+										const $cahraSideData = $(this).data("side");
+
+										if (!$(this).hasClass(on)) {
+											$(".spCharaTabBox.is-light").removeClass(on);
+											$(".spCharaTabItem").removeClass(on)
+											$(this).addClass(on);
+
 											setSide($cahraSideData, $cahraTabData);
 										}
 									});
+
 
 									function setSide(sideNum, charaNum) {
 										$charaTab.removeClass(on);
@@ -384,13 +482,25 @@ $(function () {
 										$spCharaWrap.hide()
 										$spCharaBgImgBoxDark.removeClass(on);
 										$spCharaBgImgBoxLight.removeClass(on);
+										$particleShadow.hide();
+										$particleSonic.hide();
+										$bgYoutube02.removeClass(on);
+										$bgYoutube01.removeClass(on);
+										const bgYoutube01Set = $bgYoutube01[0].contentWindow;
+										const bgYoutube02Set = $bgYoutube02[0].contentWindow;
+										y_iframeController(bgYoutube01Set, 'pauseVideo');
+										y_iframeController(bgYoutube02Set, 'pauseVideo');
+
+
+										function y_iframeController(dom, action, arg = null) {
+											dom.postMessage('{"event":"command", "func":"' + action + '", "args":' + arg + '}', '*');
+										};
 										if (sideNum === 0) {
 											$particleShadow.show();
-											$particleSonic.hide();
 											$switchBox.removeClass(on);
 											$shadowPcSwitchWrapper.show()
-											$bgYoutube02.removeClass(on);
 											$bgYoutube01.addClass(on);
+											y_iframeController(bgYoutube01Set, 'playVideo');
 											/* +++++
 											キャラ追加の際作業
 											+++++ */
@@ -402,15 +512,15 @@ $(function () {
 											}
 											$shadowCharaTab.eq(charaNum).addClass(on);
 											$sonicCharaTab.eq(0).addClass(on);
+											$('#shadowTabSp').slick('slickGoTo', charaNum, false);
 											//url変更
 											history.replaceState('', '', '?sideQuery=' + sideNum + "&charaQuery=" + charaNum);
 										} else if (sideNum === 1) {
-											$particleShadow.hide();
 											$particleSonic.show();
 											$switchBox.addClass(on);
 											$sonicPcSwitchWrapper.show()
 											$bgYoutube02.addClass(on);
-											$bgYoutube01.removeClass(on);
+											y_iframeController(bgYoutube02Set, 'playVideo');
 											/* +++++
 											キャラ追加の際作業
 											+++++ */
@@ -422,14 +532,12 @@ $(function () {
 											}
 											$shadowCharaTab.eq(0).addClass(on);
 											$sonicCharaTab.eq(charaNum).addClass(on);
+											$('#sonicTabSp').slick('slickGoTo', charaNum, false);
 											//url変更
 											history.replaceState('', '', '?sideQuery=' + sideNum + "&charaQuery=" + charaNum);
 										} else {
 											$particleShadow.show();
-											$particleSonic.hide();
-											$switchBox.removeClass(on)
 											$shadowPcSwitchWrapper.show()
-											$bgYoutube02.removeClass(on);
 											$bgYoutube01.addClass(on);
 											charaShow($pcShadow, $spCharaSideWrapDark, resultShadow[0]["id"])
 											$shadowCharaTab.eq(0).addClass(on);
@@ -448,6 +556,12 @@ $(function () {
 											sp.show();
 											sp.find(".spCharaBgImgBox.is-" + className).addClass(on);
 											$charaSp.find(".spCharaWrap.is-" + className).fadeIn();
+											var $htBody = $("html,body");
+											$htBody.animate({
+													scrollTop: 0,
+												},
+												300
+											);
 											setTimeout(() => {
 
 												$(".pcCharaImgBox").addClass(on);
@@ -457,6 +571,8 @@ $(function () {
 													$(".pcCharaTextBox").addClass(on);
 													$(".spCharaTextBox").addClass(on);
 												}, 500);
+												$(".spCharaTabBox.is-light").addClass(on);
+												$(".spCharaTabBox.is-dark").addClass(on);
 											}, 500);
 
 										}

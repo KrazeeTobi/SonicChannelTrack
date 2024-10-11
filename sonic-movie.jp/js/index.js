@@ -42,4 +42,48 @@
 				$(this).youtube(null, 'open', index);
 			});
 
+
+	function changeW(){
+		var logoW = 0.29687;
+		var baseW = 2400;
+		var baseH = 1225;
+		var x = baseW / baseH;
+		var w = $('#container').width();
+		var h = $('#container').height();
+
+		if(h * x >= w){
+			var logo_w = (h * x) * logoW;
+			$('#logo_block').css('width', logo_w);
+		}else{
+			$('#logo_block').css('width', '29.6875%');
+		}
+
+	}
+
+	$(window).resize(function () {
+	  changeW();
+	});
+	changeW();
+
+
+	$('#btn_open').on('click', function() {
+		$('body').toggleClass('open');
+		$("#btn_open img").css("opacity",0);
+	});
+
+	$('#menu #btn_close').on('click', function() {
+		$('body').toggleClass('open');
+		$("#btn_open img").css("opacity",1);
+	});
+
+	$('.anc_top').on('click', function() {
+		$('body').toggleClass('open');
+		$("#btn_open").css("display","block");
+    var speed = 1000;
+    var target = $("#top");
+    var position = target.offset().top;
+    $("html, body").animate({scrollTop:position}, speed, "easeOutQuint");
+    return false;
+	});
+
 });

@@ -21,7 +21,7 @@ var gv = {
 	youtubeIndex : 0,
 
 	//★表示させるYouTube動画の「動画ID」を設定する。
-	//youtubeVideoID : ['Z9tc6MCxyRU', 'Z9tc6MCxyRU']
+	//youtubeVideoID : ['tdJr9ANccOM', 'tdJr9ANccOM']
 	youtubeVideoID : ['tdJr9ANccOM']
 };
 
@@ -191,13 +191,13 @@ function onYouTubeIframeAPIReady() {
   ytPlayer = new YT.Player(
     'movie_inner', // 埋め込む場所の指定
     {
-      videoId: 'Z9tc6MCxyRU', // YouTubeのID
+      videoId: 'tdJr9ANccOM', // YouTubeのID
       playerVars: {
         loop: 1,//0:ループしない 1:ループする 1の場合playlist設定必須
         height: "100%",
         width: "100%",
         playlist: 0,
-        playlist: 'Z9tc6MCxyRU',
+        playlist: 'tdJr9ANccOM',
         controls: 0,//コントローラー無し
         autoplay: 1,//オートプレイ
         showinfo: 0//動画タイトルなど表示しない

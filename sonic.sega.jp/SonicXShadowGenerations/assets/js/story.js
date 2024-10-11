@@ -37,7 +37,15 @@ $(function () {
 	const on = "is-on"
 	const moveShadow = "is-moveShadow";
 	const moveSonic = "is-moveSonic";
+	const bgYoutube01Set = $bgYoutube01[0].contentWindow;
+	const bgYoutube02Set = $bgYoutube02[0].contentWindow;
 
+
+
+
+	function y_iframeController(dom, action, arg = null) {
+		dom.postMessage('{"event":"command", "func":"' + action + '", "args":' + arg + '}', '*');
+	};
 	const $particleShadow = $story.find(".particleBox.is-shadow");
 	const $particleSonic = $story.find(".particleBox.is-sonic");
 	/* +++++
@@ -74,11 +82,13 @@ $(function () {
 		$pcSwitchWrapperDark.show();
 		$spStorySideWrapDark.show();
 		$particleShadow.show();
+		y_iframeController(bgYoutube01Set, 'playVideo');
+
 		//sonic side
 		$pcSwitchWrapperLight.hide();
 		$spStorySideWrapLight.hide();
 		$particleSonic.hide();
-
+		y_iframeController(bgYoutube02Set, 'pauseVideo');
 
 		$spStoryAllWrap.removeClass(on);
 		$switchBox.removeClass(on);
@@ -101,9 +111,11 @@ $(function () {
 		$spStorySideWrapDark.hide();
 		$spStorySideWrapDark.addClass(on)
 		$particleShadow.hide();
+		y_iframeController(bgYoutube01Set, 'pauseVideo');
 		//sonic side
 		$pcSwitchWrapperLight.show();
 		$spStorySideWrapLight.show();
+		y_iframeController(bgYoutube02Set, 'playVideo');
 
 		$particleSonic.show();
 

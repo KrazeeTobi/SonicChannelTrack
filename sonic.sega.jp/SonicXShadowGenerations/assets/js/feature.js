@@ -64,6 +64,14 @@ $(function () {
 	const $featureShadowId = $("#featureShadow").add("#featureShadowSp");
 	const $featureSonicId = $("#featureSonic").add("#featureSonicSp");
 	let featureSetFlag = 0;
+	const bgYoutube01Set = $bgYoutube01[0].contentWindow;
+	const bgYoutube02Set = $bgYoutube02[0].contentWindow;
+
+
+
+	function y_iframeController(dom, action, arg = null) {
+		dom.postMessage('{"event":"command", "func":"' + action + '", "args":' + arg + '}', '*');
+	};
 	$(window).on("resize", function () {
 		deviceHeight = window.innerHeight
 		windowWidth = $(window).width();
@@ -128,11 +136,13 @@ $(function () {
 		$pcSwitchWrapperDark.show();
 		$spFeatureSideWrapDark.show();
 		$particleShadow.show();
+		y_iframeController(bgYoutube01Set, 'playVideo');
 
 		// ソニック側の要素を非表示
 		$pcSwitchWrapperLight.hide();
 		$spFeatureSideWrapLight.hide();
 		$particleSonic.hide();
+		y_iframeController(bgYoutube02Set, 'pauseVideo');
 
 		// 各要素から 'on' クラスを削除
 		$spFeatureAllWrap.removeClass(on);
@@ -171,12 +181,12 @@ $(function () {
 		$spFeatureSideWrapDark.hide();
 		$spFeatureSideWrapDark.addClass(on);
 		$particleShadow.hide();
-
+		y_iframeController(bgYoutube01Set, 'pauseVideo');
 		// ソニック側の要素を表示
 		$pcSwitchWrapperLight.show();
 		$spFeatureSideWrapLight.show();
 		$particleSonic.show();
-
+		y_iframeController(bgYoutube02Set, 'playVideo');
 		// 各要素に 'on' クラスを追加
 		$switchBox.addClass(on);
 		$spFeatureAllWrap.addClass(on);

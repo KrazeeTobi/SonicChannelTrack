@@ -56,7 +56,7 @@ if(navigator.userAgent.match(/(iPhone|iPod|Android.*Mobile)/i)){
 
 </head>
 
-<body>
+<body id="top">
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KNTHCKP"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -73,6 +73,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 <!-- ▽ container ▽ -->
+<div id="visual"><div id="visual_inner"></div></div>
 <div id="container">
 
 	<div id="sns">
@@ -101,46 +102,37 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		</ul>
 	</div>
 
-	<div id="contents">
-		<h1>
-			<p class="base"><img src="images/logo.jpg" alt="ソニック × シャドウ TOKYO MISSION"></p>
-			<p class="blur"><img src="images/blur_logo.png" alt=""></p>
-		</h1>
-		<h2>
-			<p class="base"><img src="images/date.png" alt="12.27（金）劇場公開"></p>
-			<p class="blur"><img src="images/blur_date.png" alt=""></p>
-		</h2>
-		<h3>
-			<div id="poster"><img src="images/poster.png" alt=""></div>
-			<p class="base"><img src="images/mvtk.png" alt="ムビチケ前売券　10月25日発売決定！"></p>
-			<p class="blur"><img src="images/blur_mvtk.png" alt=""></p>
-		</h3>
-
-		<div id="btn">
-			<ul>
-				<li>
-					<a href="https://sonic-movie.jp/news/" target="_blank">
-						<div class="navi_block">
-							<div class="btn_base">
-								<p class="base"><img src="images/btn_news.png" alt="NEWS"></p>
-							</div>
-							<div class="btn_hover"><img src="images/btn_news_o.png" alt="NEWS" class=""></div>
-						</div>
-					</a>
-				</li>
-				<li class="youtube">
-					<div class="navi_block">
-						<div class="btn_base">
-							<p class="base"><img src="images/btn_trailer.png" alt="TRAILER"></p>
-						</div>
-						<div class="btn_hover"><img src="images/btn_trailer_o.png" alt="TRAILER" class=""></div>
-					</div>
-				</li>
-			</ul>
-		</div>
-
-
+	<div id="btn_open"><img src="images/btn_open.png" alt=""></div>
+	<div id="menu">
+		<div id="btn_close"><img src="images/btn_close.png" alt=""></div>
+		<ul>
+			<li><a href="https://sonic-movie.jp/news/" target="_blank"><img src="images/navi_news.png" alt="NEWS"></a></li>
+			<li class="youtube"><img src="images/navi_trailer.png" alt="TRAILER"></li>
+			<li class="anc_top"><img src="images/navi_top.png" alt="TOP"></li>
+		</ul>
 	</div>
+
+	<div id="logo_block">
+		<h1>
+			<p class="base"><img src="images/logo_sonic.png" alt="ソニック × シャドウ TOKYO MISSION"></p>
+			<p class="blur"><img src="images/blur_logo_sonic.png" alt=""></p>
+		</h1>
+		<div id="logo_shadow">
+			<p class="base"><img src="images/logo_shadow.png" alt="ソニック × シャドウ TOKYO MISSION"></p>
+			<p class="blur2"><img src="images/blur_logo_shadow.png" alt=""></p>
+		</div>
+		<div id="logo_mission">
+			<p class="base"><img src="images/logo_mission.png" alt="ソニック × シャドウ TOKYO MISSION"></p>
+			<p class="blur"><img src="images/blur_logo_mission.png" alt=""></p>
+		</div>
+		<div id="logo_x"><img src="images/logo_x.png" alt=""></div>
+		<h2>
+			<p><img src="images/date.png" alt="12.27（金）劇場公開"></p>
+		</h2>
+	</div>
+
+	<div id="advance_sale"><img src="images/sell_mvtk.png" alt="ムビチケ前売券10月25日発売決定！"></div>
+
 	<div id="credit1"><img src="images/credit1.png" alt="SEGA"></div>
 	<div id="credit2"><p><img src="images/credit2.png" alt="paramount"></p></div>
 </div>
@@ -164,8 +156,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- ==================== /youtube ==================== -->
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-<script src="js/jquery.youtube.js"></script>
 <script type="text/javascript" src="js/index.js"></script>
+<script type="text/javascript" src="js/jquery.youtube.js"></script>
+<script type="text/javascript" src="js/jquery.easing.js"></script>
 
 
 </body>

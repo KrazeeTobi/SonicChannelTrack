@@ -34,13 +34,29 @@ $(function () {
 	function setVersion(num) {
 		$versionList.find("li").removeClass(on)
 		$productsTabList.removeClass(on)
+		const $bgYoutube01 = $("#bgYoutube01");
+		const $bgYoutube02 = $("#bgYoutube02");
+		const bgYoutube01Set = $bgYoutube01[0].contentWindow;
+		const bgYoutube02Set = $bgYoutube02[0].contentWindow;
+
+		y_iframeController(bgYoutube01Set, 'pauseVideo');
+		y_iframeController(bgYoutube02Set, 'pauseVideo');
+
+
+		function y_iframeController(dom, action, arg = null) {
+			dom.postMessage('{"event":"command", "func":"' + action + '", "args":' + arg + '}', '*');
+		};
 		$(".productsItemList").removeClass(on)
 		if (num === 1) {
-			$("#bgYoutube01").removeClass(on)
-			$("#bgYoutube02").addClass(on)
+			y_iframeController(bgYoutube02Set, 'playVideo');
+			$bgYoutube01.removeClass(on)
+			$bgYoutube02.addClass(on)
+
 		} else {
-			$("#bgYoutube02").removeClass(on)
-			$("#bgYoutube01").addClass(on)
+			y_iframeController(bgYoutube01Set, 'playVideo');
+			$bgYoutube02.removeClass(on)
+			$bgYoutube01.addClass(on)
+
 		}
 
 		if (num === 1) {
@@ -214,7 +230,7 @@ $(function () {
 			let appendUrlHubLimited = "";
 
 			for (let i = 0; i < storeJsonNumLimited; i++) {
-				console.log(storeJsonNumLimited);
+
 				const storeJsonDataLimited = result[i];
 
 				const storeNameLimited = storeJsonDataLimited["storeName"];
