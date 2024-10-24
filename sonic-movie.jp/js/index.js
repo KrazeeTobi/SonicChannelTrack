@@ -86,4 +86,19 @@
     return false;
 	});
 
+	$(window).on('scroll', function (){
+	  var trigger = $('.css_slide');
+	  var isInview = 'is_loaded';
+
+	  trigger.each(function () {
+	    var elemOffset = $(this).offset().top;
+	    var scrollPos = $(window).scrollTop();
+	    var wh = $(window).height();
+
+	    if(scrollPos > elemOffset - wh + (wh / 2) ){
+	      $(this).addClass(isInview);
+	    }
+	  });
+	 });
+
 });
