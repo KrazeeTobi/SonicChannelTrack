@@ -1113,8 +1113,8 @@ youtube
 }
 
 .yt-tabs {
-	width:330px;
-	margin:0 auto;
+	width:680px;
+	margin:30px auto 0;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1122,7 +1122,6 @@ youtube
   -webkit-flex-wrap: wrap;
       -ms-flex-wrap: wrap;
           flex-wrap: wrap;
-  margin-top: 20px;
 
 
   -webkit-box-pack: center;
@@ -1136,13 +1135,14 @@ youtube
 }
 
 .yt-tab {
-  width: 330px;
-  background: #fff;
-  color: #e60012;
+  width: 325px;
+	margin:0 5px;
+  background: #000;
+  color: #e72410;
   text-align: center;
   font-size: 16px;
   line-height: 1.2;
-  border: solid 1px #e71a1e;
+  border: solid 1px #e72410;
   -webkit-transition: .3s;
   transition: .3s;
   cursor: pointer;
@@ -1154,7 +1154,7 @@ youtube
 }
 
 .yt-tab.active, .yt-tab:hover {
-  background: #e71a1e;
+  background: #e72410;
   color: #fff;
 }
 
