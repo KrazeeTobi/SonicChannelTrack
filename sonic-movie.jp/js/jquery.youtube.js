@@ -22,7 +22,7 @@ var gv = {
 
 	//★表示させるYouTube動画の「動画ID」を設定する。
 	//youtubeVideoID : ['tdJr9ANccOM', 'tdJr9ANccOM']
-	youtubeVideoID : ['beyw4qn50OE', 'tdJr9ANccOM']
+	youtubeVideoID : ['WqSws8JvpAI', 'beyw4qn50OE', 'tdJr9ANccOM']
 };
 
 
