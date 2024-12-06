@@ -5,7 +5,7 @@ body {
 	font-size:16px;
 	color:#000;
 	line-height:1.8em;
-	font-family:"メイリオ","Meiryo",verdana,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",Osaka,"ＭＳ Ｐゴシック","MS PGothic",Sans-Serif;
+	font-family:'Noto Sans JP', sans-serif,"メイリオ","Meiryo",verdana,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",Osaka,"ＭＳ Ｐゴシック","MS PGothic",Sans-Serif;
 	 -webkit-text-size-adjust: none;
 	background-color:#000;
 	width:100%;
@@ -342,11 +342,35 @@ contents
 	filter: drop-shadow(0 0 10px rgba(67, 189, 250, 1.0));
 }
 
-#advance_sale{
+#banner{
 	width:350px;
 	position:absolute;
 	bottom:40px;
 	left:0;
+}
+
+#banner ul{
+	width:350px;
+	position:relative;
+}
+
+#banner ul li:nth-child(1){
+	width:327px;
+	position:relative;
+	margin-bottom:10px;
+	margin-left:23px;
+	transition: 0.4s ;
+}
+
+#banner ul li:nth-child(1):hover{
+  opacity: 0.7;
+	cursor:pointer;
+}
+
+#banner ul li:nth-child(2){
+	width:327px;
+	position:relative;
+	margin-left:23px;
 }
 
 #credit1{
@@ -389,7 +413,7 @@ contents
 }
 
 #navi_inner ul{
-	width:554px;
+	width:625px;
 	height:50px;
   justify-content: space-between;
   align-items: center;
@@ -423,6 +447,11 @@ contents
 }
 
 #navi_inner ul li:nth-child(5){
+	width:55px;
+	background: url(../images/navi6_o.png) no-repeat 0 0;
+}
+
+#navi_inner ul li:nth-child(6){
 	width:96px;
 	background: url(../images/navi5_o.png) no-repeat 0 0;
 }
@@ -439,14 +468,16 @@ contents
 #navi_inner ul li a img,
 #navi_inner ul li:nth-child(1) img,
 #navi_inner ul li:nth-child(3) img,
-#navi_inner ul li:nth-child(4) img{
+#navi_inner ul li:nth-child(4) img,
+#navi_inner ul li:nth-child(5) img{
 	transition: 0.4s ;
 }
 
 #navi_inner ul li a:hover img,
 #navi_inner ul li:nth-child(1):hover img,
 #navi_inner ul li:nth-child(3):hover img,
-#navi_inner ul li:nth-child(4):hover img{
+#navi_inner ul li:nth-child(4):hover img,
+#navi_inner ul li:nth-child(5):hover img{
   opacity: 0;
 	cursor:pointer;
 }
@@ -797,6 +828,209 @@ about
 	}
 }
 
+/*--------------------------------------
+cast
+----------------------------------------*/
+#cast{
+	width:100%;
+	min-width: 1000px;
+	margin:0 auto 70px;
+	position:relative;
+	overflow:hidden;
+}
+
+#cast_title{
+	width:6.77%;
+	position:relative;
+	margin:0 auto;
+	padding:5% 0 2%;
+}
+
+#thum{
+	width:56%;
+	margin:0 auto 1%;
+	position:relative;
+}
+
+#thum ul{
+	width:100%;
+	margin:0 auto;
+	position:relative;
+  justify-content: space-between;
+  align-items: center;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+
+#thum ul li{
+	width:11.1111%;
+	position:relative;
+	padding:0.8vw 0;
+	z-index:1;
+}
+
+#thum ul li:hover{
+	z-index:10;
+	cursor:pointer;
+}
+
+#thum ul li img{
+	transform: scale(0.8);
+	transition: 0.4s ;
+}
+
+#thum ul li:hover img,
+#thum ul li.active img{
+	transform: scale(1.0);
+}
+
+#thum ul li:nth-child(1):hover img,
+#thum ul li:nth-child(1).active img {
+	filter:drop-shadow(0 0 0.4rem #0c8ad1) drop-shadow(0 0 0.4rem #0c8ad1);
+}
+
+#thum ul li:nth-child(2):hover img,
+#thum ul li:nth-child(2).active img {
+	filter:drop-shadow(0 0 0.4rem #e71f19) drop-shadow(0 0 0.4rem #e71f19);
+}
+
+#thum ul li:nth-child(3):hover img,
+#thum ul li:nth-child(3).active img {
+	filter:drop-shadow(0 0 0.4rem #e60012) drop-shadow(0 0 0.4rem #e60012);
+}
+
+#thum ul li:nth-child(4):hover img,
+#thum ul li:nth-child(4).active img {
+	filter:drop-shadow(0 0 0.4rem #d69a00) drop-shadow(0 0 0.4rem #d69a00);
+}
+
+#thum ul li:nth-child(5):hover img,
+#thum ul li:nth-child(5).active img {
+	filter:drop-shadow(0 0 0.4rem #ea5504) drop-shadow(0 0 0.4rem #ea5504);
+}
+
+#thum ul li:nth-child(6):hover img,
+#thum ul li:nth-child(6).active img {
+	filter:drop-shadow(0 0 0.4rem #008cd6) drop-shadow(0 0 0.4rem #008cd6);
+}
+
+#thum ul li:nth-child(7):hover img,
+#thum ul li:nth-child(7).active img {
+	filter:drop-shadow(0 0 0.4rem #008cd6) drop-shadow(0 0 0.4rem #008cd6);
+}
+
+#thum ul li:nth-child(8):hover img,
+#thum ul li:nth-child(8).active img {
+	filter:drop-shadow(0 0 0.4rem #ea5504) drop-shadow(0 0 0.4rem #ea5504);
+}
+
+#thum ul li:nth-child(9):hover img,
+#thum ul li:nth-child(9).active img {
+	filter:drop-shadow(0 0 0.4rem #ea5504) drop-shadow(0 0 0.4rem #ea5504);
+}
+
+#cast_comment{
+	width:63%;
+	margin:0 auto;
+	position:relative;
+	height:26vw;
+}
+
+#cast_comment .img_cast{
+	width:92%;
+	position:absolute;
+	left:-18%;
+	top:0;
+}
+
+#cast_comment .comment{
+	width:57%;
+	margin:12% 0 0 43%;
+	position:relative;
+	height:16vw;
+}
+
+#cast_comment .comment p{
+	color:#fff;
+	width:94%;
+	font-size:0.9vw;
+	line-height:1.7;
+	font-weight:600;
+	letter-spacing:0.06em;
+}
+
+
+@media screen and (max-width: 1020px) {
+	#thum ul li{
+		padding:2% 0;
+	}
+
+	#cast_comment{
+		height:270px;
+	}
+
+	#cast_comment .comment{
+		height:156px;
+	}
+
+	#cast_comment .comment p{
+		font-size:9.2px;
+	}
+}
+
+
+
+/* simplebar用 */
+.simplebar-track {
+	border-radius: 0 !important;
+}
+
+.simplebar-track .simplebar-scrollbar.simplebar-visible::before{
+  opacity:1;
+}
+
+.simplebar-track .simplebar-scrollbar::before{
+  background: #fff;
+}
+
+.simplebar-scrollbar:before {
+	border-radius: 0 !important;
+}
+
+
+#cast_comment ul{
+	width:100%;
+	position:relative;
+}
+
+#cast_comment ul li{
+	width:100%;
+	height:100%;
+	position:absolute;
+	left:100%;
+	top:0;
+	opacity:0;
+	z-index:1;
+}
+
+#cast_comment ul li.active{
+	left:0;
+	opacity:0;
+	z-index:10;
+}
+
+@keyframes commentSlide {
+	0% { transform: translateX(100%) ; opacity:0;}
+	100% { transform: translateX(0) ; opacity:1;}
+}
+
+#cast_comment ul li.active{
+  animation: commentSlide 0.4s cubic-bezier(.01,.6,.19,.97) 0.1s forwards;
+}
+
+
 
 /*--------------------------------------
 scroll
@@ -932,7 +1166,8 @@ modal
 	flex-wrap: wrap;
 }
 
-.cast_main .btn_close{
+.cast_main .btn_close,
+.poster_main .btn_close{
 	width:5%;
 	position: absolute;
 	right:0;
@@ -995,11 +1230,51 @@ modal
 	top:0;
 }
 
-#cast01 .cast_main .cast_inner #cast{
+#cast01 .cast_main .cast_inner #actor{
 	width:53.8%;
 	margin:85% auto 0;
 	position: relative;
 }
+
+#poster {
+	width: 100%;
+	min-width: 1000px;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 9999;
+	display: none;
+	background:rgba(0,0,0,0.9);
+	overflow:hidden;
+}
+
+.poster_main{
+	width:100%;
+	height:100%;
+	position: relative;
+  justify-content: center;
+  align-items: center;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+
+.poster_main_inner{
+	width:636px;
+  margin: 0 auto;
+	position: relative;
+}
+
+.poster_main .poster_main_inner .btn_close{
+	width:50px;
+	position: absolute;
+	right:-60px;
+	top:0;
+}
+
+
 
 @media screen and (max-width: 1020px) {
 	#cast01 .cast_main .cast_inner{
@@ -1168,7 +1443,7 @@ animation
 
 #catch,
 #btn_open img,
-#advance_sale,
+#banner,
 #logo_block h2,
 #logo_x,
 #visual_inner,
@@ -1359,7 +1634,7 @@ animation
   }
 }
 
-.is_loaded #advance_sale {
+.is_loaded #banner {
   animation: posterIn 0.8s cubic-bezier(.01,.6,.19,.97) 4.0s forwards;
 }
 
@@ -1480,7 +1755,7 @@ animation
 }
 
 
-@keyframes about_title {
+@keyframes title {
   0% {
     -webkit-transform: translateX(-40%);
             transform: translateX(-40%);
@@ -1541,7 +1816,7 @@ animation
 }
 
 #about.is_loaded #about_title{
-  animation: about_title 0.2s cubic-bezier(.01,.6,.19,.97) 1.4s both;
+  animation: title 0.2s cubic-bezier(.01,.6,.19,.97) 1.4s both;
 }
 
 #about.is_loaded #about_txt{
@@ -1658,7 +1933,7 @@ animation
 
 .cast_img,
 .cast_inner ul li,
-.cast_inner #cast{
+.cast_inner #actor{
 	opacity:0;
 }
 
@@ -1688,7 +1963,7 @@ animation
   animation: slideUp 0.8s cubic-bezier(0.77, 0, 0.175, 1) 1.2s forwards;
 }
 
-.modal1 .cast_inner #cast{
+.modal1 .cast_inner #actor{
   animation: modalScale2 1.0s cubic-bezier(0.77, 0, 0.175, 1) 1.8s forwards;
 }
 
@@ -1704,3 +1979,20 @@ animation
   animation: slideUp 0.8s cubic-bezier(0.77, 0, 0.175, 1) 1.0s forwards;
 }
 
+#cast #cast_title,
+#cast #thum,
+#cast #cast_comment{
+	opacity:0;
+}
+
+#cast.is_loaded #cast_title{
+  animation: title 0.2s cubic-bezier(.01,.6,.19,.97) 0.4s both;
+}
+
+#cast.is_loaded #thum{
+  animation: slideUp 1.4s cubic-bezier(.01,.6,.19,.97) 0.8s forwards;
+}
+
+#cast.is_loaded #cast_comment{
+  animation: slideUp 1.4s cubic-bezier(.01,.6,.19,.97) 1.4s forwards;
+}
