@@ -44,11 +44,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <link rel="stylesheet" type="text/css" href="css/reset.css">
 <link rel="stylesheet" type="text/css" href="css/simplebar.css">
 <link rel="stylesheet" type="text/css" href="css/common.css">
+<link rel="stylesheet" type="text/css" href="css/swiper.min.css">
 <link rel="shortcut icon" href="images/favicon.ico">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Work+Sans:ital,wght@1,900&display=swap" rel="stylesheet">
+
 
 <script>
 if(navigator.userAgent.match(/(iPhone|iPod|Android.*Mobile)/i)){
@@ -70,11 +72,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div id="fb-root"></div>
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v18.0&appId=1642616309857229" nonce="Pxbxpep2"></script>
 
-
 <div class="layout-loading">
-	<div class="loader"></div>
+	<div id="loading_img"><video id="loading_video" src="images/loading.mp4" muted webkit-playsinline playsinline></video></div>
+	<div id="loading_txt"><div id="loading_txt_inner"></div></div>
 </div>
-
 
 <div id="bg_movie">
 	<div id="bg_video"><video src="images/bg.mp4" autoplay muted loop webkit-playsinline playsinline></video></div>
@@ -89,9 +90,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				<li class="anc_top"><img src="images/navi1.png" alt="TOP"></li>
 				<li><a href="https://sonic-movie.jp/news/" target="_blank"><img src="images/navi2.png" alt="NEWS"></a></li>
 				<li class="youtube"><img src="images/navi3.png" alt="TRAILER"></li>
-				<li class="anc_about"><img src="images/navi4.png" alt="ABOUT THE MOVIE"></li>
+				<li class="anc_intro"><img src="images/navi4.png" alt="INTRODUCTION"></li>
+				<li class="anc_story"><img src="images/navi5.png" alt="STORY"></li>
 				<li class="anc_cast"><img src="images/navi6.png" alt="CAST"></li>
-				<li><a href="https://eigakan.org/theaterpage/schedule.php?t=DRjNJbXP" target="_blank"><img src="images/navi5.png" alt="THEATER"></a></li>
+				<li><a href="https://eigakan.org/theaterpage/schedule.php?t=DRjNJbXP" target="_blank"><img src="images/navi7.png" alt="THEATER"></a></li>
 			</ul>
 		</div>
 
@@ -168,10 +170,56 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </div>
 
 
+<div id="movie" class="css_slide">
+	<div id="trailer_title"><img src="images/trailer_title.png" alt="TRAILER"></div>
+		<div class="swiper-container">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide swiper_youtube" data-id="0">
+					<p><img src="https://img.youtube.com/vi/amBuAijJOIo/maxresdefault.jpg" alt=""></p>
+				</div>
+				<div class="swiper-slide swiper_youtube" data-id="1">
+					<p><img src="https://img.youtube.com/vi/EDPz0TfFHow/maxresdefault.jpg" alt=""></p>
+				</div>
+				<div class="swiper-slide swiper_youtube" data-id="2">
+					<p><img src="https://img.youtube.com/vi/WqSws8JvpAI/maxresdefault.jpg" alt=""></p>
+				</div>
+				<div class="swiper-slide swiper_youtube" data-id="3">
+					<p><img src="https://img.youtube.com/vi/beyw4qn50OE/maxresdefault.jpg" alt=""></p>
+				</div>
+				<div class="swiper-slide swiper_youtube" data-id="4">
+					<p><img src="https://img.youtube.com/vi/tdJr9ANccOM/maxresdefault.jpg" alt=""></p>
+				</div>
+			</div>
+			<div class="swiper-button-prev"><img src="images/arrow_left.png" alt=""></div>
+			<div class="swiper-button-next"><img src="images/arrow_right.png" alt=""></div>
+		</div>
+		<div class="swiper-pagination"></div>
+	</div>
+</div>
+
+
+<div id="introduction" class="css_slide">
+	<div id="intro_title"><img src="images/intro_title.png" alt="INTRODUCTION"></div>
+	<div id="intro_txt">
+		<ul>
+			<li><img src="images/intro_txt1.png" alt="日本発、全世界累計興行収入1,000億円超！全世界待望の映画「ソニック・ザ・ムービー」シリーズ最新作！"></li>
+			<li><img src="images/intro_txt2.png" alt="今作ではついにセガとソニックの“母国”日本に凱旋。日本に凱旋したソニックが、新たに登場する大人気キャラクター、シャドウとともに、シリーズ最高スケールの超音速アクションが展開される！"></li>
+		</ul>
+	</div>
+</div>
+
+
 <div id="about" class="css_slide">
 	<div id="about_bg"><img src="images/about_bg.png" alt="シャドウvsチームソニック 東京決戦開幕！！"></div>
-	<div id="about_title"><img src="images/about.png" alt="ABOUT THE MOVIE"></div>
-	<div id="about_txt"><img src="images/about_txt.png" alt="東京湾沿岸に浮かぶ孤島に幽閉されていた闇のダークヒーロー〈シャドウ〉が長い眠りから目覚め、施設を破壊し、日本を象徴するランドマーク・シティである【東京・渋谷】に降臨。スクランブル交差点のど真ん中でシャドウと対峙するチームソニック。シリーズ最高のスケールと超音速のアクションが展開！"></div>
+	<div id="about_title"><img src="images/story_title.png" alt="STORY"></div>
+	<div id="about_txt">
+		<ul>
+			<li><img src="images/story_txt1.png" alt="東京湾沿岸に浮かぶ監獄島に幽閉されていた闇のダークヒーロー<シャドウ>は長い眠りから目覚め
+日本を象徴するランドマーク・シティ【東京・渋谷】に降臨。スクランブル交差点のど真ん中でシャドウと対峙するチームソニック。"></li>
+			<li><img src="images/story_txt2.png" alt="人類への復讐を誓うシャドウの圧倒的な力を前に太刀打ちできないチームソニックは、まさかの相手とタッグを組むことに・・・？"></li>
+			<li><img src="images/story_txt3.png" alt="なぜシャドウは人類を恨むのか？そこには少女マリアとの悲しい過去が隠されていたー果たしてチームソニックはシャドウの復讐を止め、世界を守ることができるのか？"></li>
+		</ul>
+	</div>
 
 	<div id="check_btn1">
 		<div class="check_btn"><a href="javascript:void(0)" class="castBtn01"><img src="images/check_btn1.png" alt="Check!"></a></div>
@@ -396,7 +444,9 @@ BGMや演出、細かい所まで本当に沢山あるので是非発見して�
 <script type="text/javascript" src="js/jquery.youtube.js"></script>
 <script type="text/javascript" src="js/jquery.easing.js"></script>
 <script type="text/javascript" src="js/simplebar.min.js"></script>
-
+<script type="text/javascript" src="js/swiper.min.js"></script>
+<script type="text/javascript" src="js/slide_swiper.js"></script>
+<script type="text/javascript" src="js/progressbar.min.js"></script>
 
 </body>
 </html>

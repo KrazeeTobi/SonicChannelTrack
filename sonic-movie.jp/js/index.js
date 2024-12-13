@@ -1,11 +1,63 @@
 ﻿$(function(){
 	$(window).on('load', function(){
-			event.preventDefault();
-		$('.yt-tabs .yt-tab').removeClass('active');
-		$('.yt-tabs .yt-tab').eq(0).addClass('active');
-		$(".youtube").youtube(null,'open', 0);
-		/*$('body').css('overflow', 'hidden');*/
-		/*$('body').addClass('is_loaded');*/
+		event.preventDefault();
+		var loading_flg = false;
+		var mVideo = document.getElementById("loading_video");
+		mVideo.play();
+
+		mVideo.addEventListener("timeupdate", function() {
+			var now = Math.round(mVideo.currentTime);
+			var all = Math.round(mVideo.duration);
+			if(loading_flg == false){
+				if(mVideo.currentTime >= 1.4){
+					mVideo.currentTime = 0.0;
+				}
+			}else{
+				if(mVideo.currentTime >= 5.0){
+						$('body').addClass('is_loaded');
+				}
+			}
+		}, true);
+
+		//loading counter
+		var bar = new ProgressBar.Line(loading_txt_inner, {
+			strokeWidth: 2,
+	    easing: 'easeInOut',
+	    duration: 2000,
+	    color: '#20a3e7',
+	    trailColor: 'transparent',
+	    trailWidth: 2,
+			svgStyle: {
+	        width: '100%',
+	        height: '6px'
+	    }, 
+
+	    text: {
+	        style: {
+	            position:'absolute',
+	            left:'50%',
+	            top:'50%',
+	            margin:'0 0 0 20px',
+	            transform:'translate(-50%,-50%)',
+	            'font-family':'Work Sans',
+	            'font-size':'2.0vw',
+							'letter-spacing':'2px',
+							'font-weight':'900',
+							'font-style': 'italic',
+	            color:'#fff',
+	        },
+	        autoStyleContainer: false 
+	    },
+	    step: function(state, bar) {
+	        bar.setText(Math.round(bar.value() * 100) + '%'); 
+	    }
+		});
+
+		//load complete
+		bar.animate(1.0, function () {
+	    $("#loading_txt").delay(500).fadeOut(800);
+				loading_flg = true;
+		});
 	 });
 
 
@@ -18,29 +70,36 @@
 	});
 
 
-		$("#youtube a, .youtube").on('click', function(event) {
-				$('body').css('overflow', 'hidden');
-				$('.yt-tabs .yt-tab').removeClass('active');
-				$('.yt-tabs .yt-tab').eq(0).addClass('active');
-				$(this).youtube(null,'open', 0);
-		});
+	$(".swiper_youtube").on('click', function(event) {
+		var num = $(this).data("id");
+		$('.yt-tabs .yt-tab').removeClass('active');
+		$('.yt-tabs .yt-tab').eq(num).addClass('active');
+		$(this).youtube(null,'open', num);
+	});
+
+	$("#youtube a, .youtube").on('click', function(event) {
+		/*$('body').css('overflow', 'hidden');*/
+		$('.yt-tabs .yt-tab').removeClass('active');
+		$('.yt-tabs .yt-tab').eq(0).addClass('active');
+		$(this).youtube(null,'open', 0);
+	});
 
 
-			$("#yt-close, .yt-bg").on('click', function() {
-				$(this).youtube(function() {},'close');
-				/*$('body').css('overflow', 'visible');*/
-				$('body').addClass('is_loaded');
-			});
+	$("#yt-close, .yt-bg").on('click', function() {
+		$(this).youtube(function() {},'close');
+		/*$('body').css('overflow', 'visible');*/
+		$('body').addClass('is_loaded');
+	});
 
 
-			$(".yt-tabs .yt-tab").on('click', function() {
-				if ($(this).hasClass('active')) { return false; }
-				var index = $('.yt-tabs .yt-tab').index(this);
+	$(".yt-tabs .yt-tab").on('click', function() {
+		if ($(this).hasClass('active')) { return false; }
+		var index = $('.yt-tabs .yt-tab').index(this);
 
-				$('.yt-tabs .yt-tab').removeClass('active');
-				$(this).addClass('active');
-				$(this).youtube(null, 'open', index);
-			});
+		$('.yt-tabs .yt-tab').removeClass('active');
+		$(this).addClass('active');
+		$(this).youtube(null, 'open', index);
+	});
 
 
 	function changeW(){
@@ -84,9 +143,17 @@
     return false;
 	});
 
-	$('.anc_about').on('click', function() {
+	$('.anc_story').on('click', function() {
     var speed = 1000;
     var target = $("#about");
+    var position = target.offset().top;
+    $("html, body").animate({scrollTop:position}, speed, "easeOutQuint");
+    return false;
+	});
+
+	$('.anc_intro').on('click', function() {
+    var speed = 1000;
+    var target = $("#introduction");
     var position = target.offset().top;
     $("html, body").animate({scrollTop:position}, speed, "easeOutQuint");
     return false;
@@ -150,7 +217,7 @@
 
 	$(window).scroll(function () {
 	  var el = $(this).scrollTop();
-		if(el >= 1500){
+		if(el >= 2500){
 			$('body').addClass('bg_fade');
 		}
 	});
