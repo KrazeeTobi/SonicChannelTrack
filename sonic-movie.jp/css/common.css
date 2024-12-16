@@ -722,6 +722,21 @@ mvtkWidget
 	width:186px;
 }
 
+#mvtk #bottom_bnr ul{
+	width:280px;
+	margin:20px auto 0;
+  justify-content: space-between;
+  align-items: center;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+
+#mvtk #bottom_bnr ul li{
+	width:280px;
+}
+
 /*--------------------------------------
 movie
 ----------------------------------------*/
@@ -1595,23 +1610,12 @@ youtube
 .yt-tabs {
 	width:100%;
 	margin:30px auto 0;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-wrap: wrap;
-      -ms-flex-wrap: wrap;
-          flex-wrap: wrap;
-
-
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: stretch;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
 }
 
 .yt-tab {
@@ -1628,6 +1632,12 @@ youtube
   transition: .3s;
   cursor: pointer;
   padding: 10px 0;
+  justify-content: center;
+  align-items: center;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
 }
 
 .yt-tab:nth-child(n+4) {
