@@ -70,13 +70,14 @@ $(function(){
 
 	$(".swiper_youtube").on('click', function(event) {
 		var num = $(this).data("id");
+		$('body').css('overflow', 'hidden');
 		$('.yt-tabs .yt-tab').removeClass('active');
 		$('.yt-tabs .yt-tab').eq(num).addClass('active');
 		$(this).youtube(null,'open', num);
 	});
 
 	$("#youtube a, .youtube").on('click', function(event) {
-		/*$('body').css('overflow', 'hidden');*/
+		$('body').css('overflow', 'hidden');
 		$('.yt-tabs .yt-tab').removeClass('active');
 		$('.yt-tabs .yt-tab').eq(0).addClass('active');
 		$(this).youtube(null,'open', 0);
@@ -85,7 +86,7 @@ $(function(){
 
 	$("#yt-close, .yt-bg").on('click', function() {
 		$(this).youtube(function() {},'close');
-		/*$('body').css('overflow', 'visible');*/
+		$('body').css('overflow-y', 'visible');
 		$('body').addClass('is_loaded');
 	});
 

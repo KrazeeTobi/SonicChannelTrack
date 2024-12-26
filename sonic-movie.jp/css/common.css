@@ -1532,6 +1532,8 @@ youtube
   height: 100%;
   overflow: hidden;
   z-index: 9999;
+	/*overflow-x: hidden;
+	overflow-y: scroll;*/
 }
 
 .yt-overlay:after {
@@ -1540,7 +1542,7 @@ youtube
 
 .yt-bg {
   width: 100vw;
-  height: 100%;
+  height: 100vh;
   background-color: rgba(0, 0, 0, 0.90);
   position: absolute;
   top: 0;
@@ -1550,7 +1552,7 @@ youtube
 .yt-close {
   display: none;
   position: absolute;
-  top: -100px;
+  top: 0;
   right: -100px;
   cursor: pointer;
   z-index: 300;
@@ -1576,23 +1578,37 @@ youtube
   left: 0;
 }
 
-.yt-video {
-  z-index: 1500;
-  width: 100%;
-  max-width: 960px;
-  position: relative;
+#video_inner{
+	width:100%;
+	height:100%;
+	overflow-y: auto;
+	position:relative;
+  justify-content: center;
+  align-items: center;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
+	padding:20px 0;
+	box-sizing:border-box;
 }
 
+.yt-video {
+  z-index: 1500;
+  width: 960px;
+  position: relative;
+}
+/*
 @media screen and (max-height: 700px) {
   .yt-video {
     max-width: 137.14286vh;
   }
 }
-
+*/
 .yt-playerWrap {
   clear: both;
   z-index: 2000;
-  width: 100%;
+  width: 960px;
   margin: 0 auto;
   padding-bottom: 56.25%;
   height: 0px;
@@ -1622,7 +1638,7 @@ youtube
 }
 
 .yt-tabs {
-	width:100%;
+	width:960px;
 	margin:30px auto 0;
   justify-content: center;
   align-items: stretch;
@@ -1630,6 +1646,7 @@ youtube
 	display: flex;
 	-webkit-flex-wrap: wrap;
 	flex-wrap: wrap;
+	position:relative;
 }
 
 .yt-tab {
@@ -1652,6 +1669,7 @@ youtube
 	display: flex;
 	-webkit-flex-wrap: wrap;
 	flex-wrap: wrap;
+	position:relative;
 }
 
 .yt-tab:nth-child(n+4) {

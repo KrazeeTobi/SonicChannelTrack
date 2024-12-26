@@ -22,7 +22,7 @@ var gv = {
 
 	//★表示させるYouTube動画の「動画ID」を設定する。
 	//youtubeVideoID : ['tdJr9ANccOM', 'tdJr9ANccOM']
-	youtubeVideoID : ['amBuAijJOIo', 'EDPz0TfFHow', 'WqSws8JvpAI', 'beyw4qn50OE', 'tdJr9ANccOM', '82R1MbsNT3w', 'V380c60vuMw', '8T7FIKl4cMc']
+	youtubeVideoID : ['amBuAijJOIo', 'HmN35Iz8fok', 'ONnXxKPgP5w', 'EDPz0TfFHow', 'WqSws8JvpAI', 'beyw4qn50OE', 'tdJr9ANccOM', '82R1MbsNT3w', 'V380c60vuMw', '8T7FIKl4cMc']
 };
 
 
