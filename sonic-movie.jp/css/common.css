@@ -195,8 +195,14 @@ contents
 	position:absolute;
 	left:0;
 	right:0;
-	top:4.6%;
+	top:3vw;
 	margin:auto;
+}
+
+@media screen and (max-width: 1100px) {
+	#catch{
+		top:34px;
+	}
 }
 
 #logo_block #logo_shadow,
