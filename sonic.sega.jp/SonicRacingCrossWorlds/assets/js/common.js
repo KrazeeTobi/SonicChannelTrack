@@ -1,6 +1,16 @@
 'use strict';
 
 $(function () {
+
+	//Lenis 慣性スクロール
+	const lenis = new Lenis();
+
+	function raf(time) {
+		lenis.raf(time);
+		requestAnimationFrame(raf);
+	}
+
+	requestAnimationFrame(raf);
 	/*+++++
 	スクロール
 	+++++*/
@@ -25,6 +35,7 @@ $(function () {
 	$('.js-bounceInItem ').on('inview', function () {
 		$(this).addClass('animated bounceIn is-on');
 	});
+
 	const $topLangMenu = $('#topLangMenu');
 	const $topLangBtn = $topLangMenu.find('.topLangBtn');
 	const $topLangItem = $topLangMenu.find('.topLangItem');
@@ -40,10 +51,10 @@ $(function () {
 		}
 	});
 
-	$(function () {
-		$(".toggleWrap .tab").on("click", function () {
-			$(this).next().slideToggle();
-		});
+
+	$('.toggleWrap .tab').click(function () {
+		$(this).next('.toggleContents').slideToggle();
+		$(this).toggleClass(on);
 	});
 
 	/*+++++
@@ -67,25 +78,12 @@ $(function () {
 
 
 	$('.slider').slick({
-		slidesToShow: 3,
-		arrows: false,
+		slidesToShow: 1,
 		dots: false,
 		pauseOnFocus: false,
 		pauseOnHover: false,
-		responsive: [{
-			breakpoint: 767,
-			settings: {
-				slidesToShow: 1,
-				autoplay: true,
-				infinite: true,
-				pauseOnFocus: false,
-				pauseOnHover: false,
-				autoplaySpeed: 2000,
-				speed: 1000,
-				centerMode: true,
-				centerPadding: "20%",
-			}
-		}]
+		prevArrow: '<img src="/SonicRacingCrossWorlds/assets/images/common/guide-y-l.png" class="slide-arrow prev-arrow">',
+		nextArrow: '<img src="/SonicRacingCrossWorlds/assets/images/common/guide-y-r.png" class="slide-arrow next-arrow">',
 	});
 
 	//inviewアニメ
@@ -111,18 +109,47 @@ $(function () {
 	// 	});
 	// });
 
+	$(function () {
+		$('.blur').on('inview', function (event, isInView) {
+			if (isInView) {
+				$(this).find('li').each(function (i) {
+					$(this).delay(90 * i).queue(function () {
+						$(this).addClass('showed').dequeue();
+					});
+				});
+			}
+		});
+	});
+
+	$(function () {
+		$(".oneblur").on("inview", function () {
+			$(this).addClass('inview');
+		});
+	});
+
 
 
 	var $targetButton = $('.fixedbutton');
 
 	$(window).on('scroll', function () {
 
-		if ($(this).scrollTop() > 1000) {
+		if ($(this).scrollTop() > 800) {
 			$targetButton.addClass('-on');
 		} else {
 			$targetButton.removeClass('-on');
 		}
 	});
+
+	$(function () {
+		$(".fixedbutton-end").on("inview", function (event, isInView) {
+			if (isInView) {
+				$('.fixedbutton').stop().addClass("-over");
+			} else {
+				$('.fixedbutton').stop().removeClass("-over");
+			}
+		});
+	});
+
 
 	//// ページ内スクロール ////
 	var notList = '.cboxElement, .scrollLeft';
@@ -171,19 +198,19 @@ $(function () {
 
 		});
 
-		//// guide page ////
-		var $storeWrap = $('.storeTabWrap');
-		var $storeNavWrap = $('.storeNavWrap .navWrap');
+		// //// guide page ////
+		// var $storeWrap = $('.storeTabWrap');
+		// var $storeNavWrap = $('.storeNavWrap .navWrap');
 
-		$storeNavWrap.on('click', function () {
-			var targetCategory = $(this).data('category');
-			$storeNavWrap.removeClass('-on');
-			$storeWrap.removeClass('-on');
+		// $storeNavWrap.on('click', function () {
+		// 	var targetCategory = $(this).data('category');
+		// 	$storeNavWrap.removeClass('-on');
+		// 	$storeWrap.removeClass('-on');
 
-			$(this).addClass('-on');
-			$('.storeTabWrap[data-category="' + targetCategory + '"]').addClass('-on');
+		// 	$(this).addClass('-on');
+		// 	$('.storeTabWrap[data-category="' + targetCategory + '"]').addClass('-on');
 
-		});
+		// });
 
 	});
 
