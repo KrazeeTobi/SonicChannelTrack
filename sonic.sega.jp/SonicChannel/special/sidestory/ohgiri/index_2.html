@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# : http://ogp.me/ns/#" lang="ja">
-<meta name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0,user-scalable=yes" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta name="keyword" content="SONIC CHANNEL,ソニックチャンネル,SEGA,セガ,SONICTEAM,ソニックチーム,SONIC,ソニック" />
@@ -18,18 +18,29 @@
 <meta property="og:locale" content="ja_JP">
 <meta property="og:title" content="大喜利" />
 <meta property="og:url" content="https://sonic.sega.jp/SonicChannel/special/sidestory/ohgiri/" />
-<meta property="og:image" content="https://sonic.sega.jp/SonicChannel/special/image/staffcolumn_250307_02_eye.jpg" />
+<meta property="og:image" content="https://sonic.sega.jp/SonicChannel/upload_images/gametitle_SonicLostWorldWiiu_square.webp" />
 <meta property="og:description" content="ソニックチャンネル|大喜利" />
-<meta property="og:image" content="https://sonic.sega.jp/SonicChannel/common/image/ogimage.png">
+<meta property="og:image" content="https://sonic.sega.jp/SonicChannel/assets/images/ogp/ogp20250320.jpg">
 <meta property="og:type" content="article">
 <title>SEGA | ソニックチャンネル |  スペシャル</title>
 <link rel="start" href="/SonicChannel/">
-<link rel="alternate" type="application/atom+xml" title="Recent Entries" href="/SonicChannel/atom.xml" />
-<link rel="stylesheet" href="/SonicChannel/common/css/import.css">
-<script src="/SonicChannel/common/js/import.js" language="javascript" type="text/javascript"></script>
+<link rel="alternate" type="application/atom+xml" title="Recent Entries" href="http://admin-mt-sonic.sega.jp/sonic.sega.jp/SonicChannel/production/atom.xml" />
+<link rel="stylesheet" href="https://use.typekit.net/sha2lhi.css">
+<link rel="stylesheet" href="/SonicChannel/assets/css/oldStyle.min.css">
+<link rel="stylesheet" href="/SonicChannel/assets/css/common.min.css">
+<script src="/SonicChannel/assets/js/libs/jquery-3.7.1.min.js"></script>
+		<script src="/SonicChannel/assets/js/libs/jquery.inview.min.js"></script>
+<script src="/SonicChannel/assets/js/libs/swiper-bundle.min.js"></script>
+<script src="/SonicChannel/assets/js/libs/jquery.swipebox.min.js"></script>
+<script src="/SonicChannel/assets/js/old/modernizr.js"></script>
+<script src="/SonicChannel/assets/js/old/swiper.min.js"></script>
+<script src="/SonicChannel/assets/js/old/jquery.tubular.1.0.js"></script>
+<script src="/SonicChannel/assets/js/old/velocity.min.js"></script>
+<script src="/SonicChannel/assets/js/old/snsClick.js"></script>
+<script src="/SonicChannel/assets/js/old/init.js"></script>
+<script src="/SonicChannel/assets/js/common.js"></script>
 <script async src="https://cse.google.com/cse.js?cx=b9e22222528a0e6ff"></script>
-<link rel="stylesheet" href="/SonicChannel/special/common/css/import.css">
-<script src="/SonicChannel/special/common/js/import.js" language="javascript" type="text/javascript"></script>
+<!--link rel="stylesheet" href="/SonicChannel/special/common/css/import.css">
 <!--[if lte IE 8]>
 <script src="/SonicChannel/common/js/html5shiv.js"></script>
 <![endif]-->
@@ -40,549 +51,96 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','GTM-MF59Q7B');</script>
 </head>	
 <body class="category special">
-<header>
-	<a href="http://sega.jp/"><img src="/SonicChannel/common/image/header_sega.png" alt="SEGA" width="75" height="25" /></a>
-	<div>
-        <div>
+<div class="wrapper">
+<div class="wrapperBg"></div>
+<header role="banner">
+	<a href="http://sega.jp/" class="headerSEGALogo"><img src="/SonicChannel/assets/images/common/sega_logo_s_b.svg" alt="SEGA" width="75" height="25" /></a>
+			<ul class="common-snsList-pc">
+				<li class="common-snsIcon is-x">
+					<a class="snsTwitter" href=""></a>
+				</li>
+				<li class="common-snsIcon is-line">
+					<a class="snsLine" href=""></a>
+				</li>
+				<li class="common-snsIcon is-facebook">
+					<a class="snsFacebook" href=""></a>
+				</li>
+			</ul><!-- .common-snsList-pc -->
+	<div class="gTranslateBox">
+        <div class="gTranslateIcon">
            <a href="/SonicChannel/about/#translation-function">
               <svg>
-      			  <use xlink:href="/SonicChannel/common/image/header_caution.svg#caution"></use>
+      			  <use xlink:href="/SonicChannel/assets/images/old/header_caution.svg#caution"></use>
     		  </svg>
-        </a>
+        	</a>
         </div>
 		<div class="gtranslate_wrapper"></div>
 		<script>window.gtranslateSettings = {"default_language":"ja","wrapper_selector":".gtranslate_wrapper"}</script>
 		<script src="https://cdn.gtranslate.net/widgets/latest/dropdown.js" defer></script>
 	</div>
-	<h1><a href="/SonicChannel/"><img src="/SonicChannel/common/image/header_sonicchannel.png" alt="ソニックチャンネル" width="191" height="47" /></a></h1>
 </header>
-<nav id="common-navigation">
-	<a href="#" id="nav-trigger"><span id="trigger-icon"></span></a>
+<div id="nav-trigger"><span id="trigger-icon"></span></div>
+<nav id="common-navigation" role="navigation">
 	<div id="overlay-nav"><span></span></div><!-- cd-overlay-nav -->
 	<div id="overlay-content"><span></span></div> <!-- cd-overlay-content -->
-	<ul id="nav-list">
-		<li><a href="/SonicChannel/"><img src="/SonicChannel/common/image/nav_sonicchannel.png" alt="SONIC CHANNEL" /></a></li>
-		<li><a href="/SonicChannel/topics/information/">トピックス</a></li>
-		<li><a href="/SonicChannel/gametitle/nintendo-switch.html">ゲームタイトル</a></li>
-		<li><a href="/SonicChannel/character/">キャラクター</a></li>
-		<li><a href="/SonicChannel/special/" class="activeAnchor">スペシャル</a></li>
-		<li><a href="/SonicChannel/fangallery/">ファンギャラリー</a></li>
-		<li><a href="/SonicChannel/enjoy/wallpaper/">おたのしみ</a></li>
-	</ul>
-	<div class="googleSearch" id="nav-search">
-		<div class="gcse-search"></div>
+	<div class="navWrapper"> 
+		<div class="navLogoItem">
+       	 <h1 class="soinicChannelLogo"><a href="/SonicChannel/"><img src="/SonicChannel/assets/images/common/logo_sonicchannel.png" alt="ソニックチャンネル" width="191" height="47" /></a></h1>
+	</div>
+		<ul id="nav-list">
+        <li class="navItem is-top"><a href="/SonicChannel/">トップ</a></li>
+			<li class="navItem is-topics"><a href="/SonicChannel/topics/">トピックス</a></li>
+			<li class="navItem is-character"><a href="/SonicChannel/character/">キャラクター</a></li>
+    		<li class="navItem is-history"><a href="/SonicChannel/history/">ヒストリー</a></li>
+    		<li class="navItem is-special"><a href="/SonicChannel/special/top.html" class="activeAnchor">スペシャル</a></li>
+			<li class="navItem is-fangallery"><a href="/SonicChannel/fangallery/top.html">ファンギャラリー</a></li>
+		</ul>
+    	<div class="navWhatSonicItem">
+        <a href="/SonicChannel/character/" ><div class="navWhatSonicText">ソニックとは</div><div class="whatSonicArrow"></div></a>
+   		</div>
 	</div>
 </nav>
-<main id="common-contents">
+<main id="common-contents" role="main">
+<div class="headlineCommon"></div>
 <div id="contents-header">
-		<h2 class="headlineCommon">スペシャル</h2>
 			<nav class="contentsNavigation">
-				<ul>
-						<li><a href="/SonicChannel/special/sidestory/" >すべて</a></li>
-								<li><a href="/SonicChannel/special/sidestory/sonicpict/">SONICPICT</a></li>
-								<li><a href="/SonicChannel/special/sidestory/ohgiri/" class="activeAnchor">大喜利</a></li>
-								<li><a href="/SonicChannel/special/sidestory/coverstory/">かべがみカバーストーリー</a></li>
-								<li><a href="/SonicChannel/special/sidestory/comic/">ソニック コミック</a></li>
-							</ul>
-				<select>
-						<option value="/SonicChannel/special/sidestory/" >すべて</option>
+            <div class="contentsNavigationInner">
+				<ul class="cateArctestUL">
+								<li class="cateArctestLi"><a href="/SonicChannel/special/sidestory/sonicpict/">SONICPICT</a></li>
+								<li class="cateArctestLi"><a href="/SonicChannel/special/sidestory/ohgiri/" class="activeAnchor">大喜利</a></li>
+								<li class="cateArctestLi"><a href="/SonicChannel/special/sidestory/coverstory/">かべがみカバーストーリー</a></li>
+								<li class="cateArctestLi"><a href="/SonicChannel/special/sidestory/comic/">ソニック コミック</a></li>
+            </ul>
+            <div class="navSelectBox">
+				<select aria-label="選択してください">
 								<option value="/SonicChannel/special/sidestory/sonicpict/" >SONICPICT</option>
 								<option value="/SonicChannel/special/sidestory/ohgiri/"  selected>大喜利</option>
 								<option value="/SonicChannel/special/sidestory/coverstory/" >かべがみカバーストーリー</option>
 								<option value="/SonicChannel/special/sidestory/comic/" >ソニック コミック</option>
-							</select>
+            </select>
+            </div>
 				<h3>大喜利</h3>
+            </div>
 			</nav>
 </div>
 <article id="contents-archive">
-    <ul class="archiveTypeA">
+    <ul class="archiveTypeC archiveTypeItem">
         
         
+        
+    
 			
 			<li>
 	
-	<a href="/SonicChannel/special/sidestory/ohgiri/20221228_003113/">
+    <a href="/SonicChannel/special/sidestory/ohgiri/20220922_003013/">
 	
-		<img src="/SonicChannel/assets_c/2022/12/ohghiri_221228_eye-thumb-640xauto-4985.jpg" alt="" />
-			
-		
-	
-
-
-
-		<h2 class="entryHeadline">異世界大喜利 2023年1月【シャドウとインフィニットは何を......？】 </h2>
-
 		
 		
 		
+		<time datetime="2022-09-22T13:39:20+09:00">2022.09.22</time>
 		
-			
-			
-			
-			
-			
-			
-				
-					
-					
-						
-					
-				
-					
-					
-						
-						
-						
-						
-						
-						
-						
-					
-				
-				
-					
-					
-					
-				
-			
-		
-			
-			
-			
-			
-			
-			
-				
-					
-					
-						
-					
-				
-				
-			
-		
-			
-			
-			
-			
-			
-			
-				
-					
-					
-						
-					
-				
-					
-					
-						
-						
-						
-						
-						
-						
-						
-					
-				
-					
-					
-						
-						
-							
-						
-						
-						
-						
-						
-						
-					
-				
-				
-					
-					
-					
-				
-			
-		
-
-		<p>サイドストーリー<br>大喜利</p>
-
-		
-		
-		
-		<time datetime="2022-12-28T11:11:58+09:00">2022/12/28</time>
-		
-	</a>
-</li>
-
-			
-        	
-        
-			
-			<li>
-	
-	<a href="/SonicChannel/special/sidestory/ohgiri/20221205_003096/">
-	
-		<img src="/SonicChannel/assets_c/2022/12/ohghiri_221205_eye-thumb-640xauto-4968.png" alt="" />
-			
-		
-	
-
-
-
-		<h2 class="entryHeadline">異世界大喜利 ～はじまりの朝～</h2>
-
-		
-		
-		
-		
-			
-			
-			
-			
-			
-			
-				
-					
-					
-						
-					
-				
-					
-					
-						
-						
-						
-						
-						
-						
-						
-					
-				
-				
-					
-					
-					
-				
-			
-		
-			
-			
-			
-			
-			
-			
-				
-					
-					
-						
-					
-				
-				
-			
-		
-			
-			
-			
-			
-			
-			
-				
-					
-					
-						
-					
-				
-					
-					
-						
-						
-						
-						
-						
-						
-						
-					
-				
-					
-					
-						
-						
-							
-						
-						
-						
-						
-						
-						
-					
-				
-				
-					
-					
-					
-				
-			
-		
-
-		<p>サイドストーリー<br>大喜利</p>
-
-		
-		
-		
-		<time datetime="2022-12-05T09:44:40+09:00">2022/12/05</time>
-		
-	</a>
-</li>
-
-			
-        	
-        
-			
-			<li>
-	
-	<a href="/SonicChannel/special/sidestory/ohgiri/20221125_003085/">
-	
-		<img src="/SonicChannel/assets_c/2022/11/ohghiri_2212_eye-thumb-640xauto-4953.jpg" alt="" />
-			
-		
-	
-
-
-
-		<h2 class="entryHeadline">かべがみ大喜利 2022年12月【メタルソニックは何を......？】</h2>
-
-		
-		
-		
-		
-			
-			
-			
-			
-			
-			
-				
-					
-					
-						
-					
-				
-					
-					
-						
-						
-						
-						
-						
-						
-						
-					
-				
-				
-					
-					
-					
-				
-			
-		
-			
-			
-			
-			
-			
-			
-				
-					
-					
-						
-					
-				
-				
-			
-		
-			
-			
-			
-			
-			
-			
-				
-					
-					
-						
-					
-				
-					
-					
-						
-						
-						
-						
-						
-						
-						
-					
-				
-					
-					
-						
-						
-							
-						
-						
-						
-						
-						
-						
-					
-				
-				
-					
-					
-					
-				
-			
-		
-
-		<p>サイドストーリー<br>大喜利</p>
-
-		
-		
-		
-		<time datetime="2022-11-25T18:32:56+09:00">2022/11/25</time>
-		
-	</a>
-</li>
-
-			
-        	
-        
-			
-			<li>
-	
-	<a href="/SonicChannel/special/sidestory/ohgiri/20221021_003036/">
-	
-		<img src="/SonicChannel/assets_c/2022/10/ohghiri_2211_eye-thumb-640xauto-4838.png" alt="" />
-			
-		
-	
-
-
-
-		<h2 class="entryHeadline">かべがみ大喜利 2022年11月【ブレイズは何を......？】</h2>
-
-		
-		
-		
-		
-			
-			
-			
-			
-			
-			
-				
-					
-					
-						
-					
-				
-					
-					
-						
-						
-						
-						
-						
-						
-						
-					
-				
-				
-					
-					
-					
-				
-			
-		
-			
-			
-			
-			
-			
-			
-				
-					
-					
-						
-					
-				
-				
-			
-		
-			
-			
-			
-			
-			
-			
-				
-					
-					
-						
-					
-				
-					
-					
-						
-						
-						
-						
-						
-						
-						
-					
-				
-					
-					
-						
-						
-							
-						
-						
-						
-						
-						
-						
-					
-				
-				
-					
-					
-					
-				
-			
-		
-
-		<p>サイドストーリー<br>大喜利</p>
-
-		
-		
-		
-		<time datetime="2022-10-21T19:55:48+09:00">2022/10/21</time>
-		
-	</a>
-</li>
-
-			
-        	
-        
-			
-			<li>
-	
-	<a href="/SonicChannel/special/sidestory/ohgiri/20220922_003013/">
-	
+    <div class="listItem">
+    	<div class="topListItemImg">
 		<img src="/SonicChannel/assets_c/2022/09/ohghiri_2210_eye-thumb-640xauto-4815.jpg" alt="" />
 			
 		
@@ -590,6 +148,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 
 
+    </div>
+    	<div class="listItemText">
 		<h2 class="entryHeadline">かべがみ大喜利 2022年10月【シャドウは何を......？】</h2>
 
 		
@@ -684,25 +244,31 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				
 			
 		
-
+		
 		<p>サイドストーリー<br>大喜利</p>
-
-		
-		
-		
-		<time datetime="2022-09-22T13:39:20+09:00">2022/09/22</time>
-		
+        
+    </div>
+</div>
 	</a>
 </li>
 
 			
         	
         
+        
+    
 			
 			<li>
 	
-	<a href="/SonicChannel/special/sidestory/ohgiri/20220826_002981/">
+    <a href="/SonicChannel/special/sidestory/ohgiri/20220826_002981/">
 	
+		
+		
+		
+		<time datetime="2022-08-26T13:49:24+09:00">2022.08.26</time>
+		
+    <div class="listItem">
+    	<div class="topListItemImg">
 		<img src="/SonicChannel/assets_c/2022/08/ohghiri_2209_eye-thumb-640xauto-4722.jpg" alt="" />
 			
 		
@@ -710,6 +276,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 
 
+    </div>
+    	<div class="listItemText">
 		<h2 class="entryHeadline">かべがみ大喜利 2022年9月【シルバーは何を......？】</h2>
 
 		
@@ -804,25 +372,31 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				
 			
 		
-
+		
 		<p>サイドストーリー<br>大喜利</p>
-
-		
-		
-		
-		<time datetime="2022-08-26T13:49:24+09:00">2022/08/26</time>
-		
+        
+    </div>
+</div>
 	</a>
 </li>
 
 			
         	
         
+        
+    
 			
 			<li>
 	
-	<a href="/SonicChannel/special/sidestory/ohgiri/20220722_002953/">
+    <a href="/SonicChannel/special/sidestory/ohgiri/20220722_002953/">
 	
+		
+		
+		
+		<time datetime="2022-07-22T10:20:08+09:00">2022.07.22</time>
+		
+    <div class="listItem">
+    	<div class="topListItemImg">
 		<img src="/SonicChannel/assets_c/2022/07/ohghiri_2208_eye-thumb-640xauto-4690.jpg" alt="" />
 			
 		
@@ -830,6 +404,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 
 
+    </div>
+    	<div class="listItemText">
 		<h2 class="entryHeadline">かべがみ大喜利 2022年8月【ビッグは何を......？】</h2>
 
 		
@@ -924,25 +500,31 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				
 			
 		
-
+		
 		<p>サイドストーリー<br>大喜利</p>
-
-		
-		
-		
-		<time datetime="2022-07-22T10:20:08+09:00">2022/07/22</time>
-		
+        
+    </div>
+</div>
 	</a>
 </li>
 
 			
         	
         
+        
+    
 			
 			<li>
 	
-	<a href="/SonicChannel/special/sidestory/ohgiri/20220617_002920/">
+    <a href="/SonicChannel/special/sidestory/ohgiri/20220617_002920/">
 	
+		
+		
+		
+		<time datetime="2022-06-17T18:50:55+09:00">2022.06.17</time>
+		
+    <div class="listItem">
+    	<div class="topListItemImg">
 		<img src="/SonicChannel/assets_c/2022/07/ohghiri_2207_eye-thumb-640xauto-4689.jpg" alt="" />
 			
 		
@@ -950,6 +532,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 
 
+    </div>
+    	<div class="listItemText">
 		<h2 class="entryHeadline">かべがみ大喜利 2022年7月【エミーは何を......？】</h2>
 
 		
@@ -1044,25 +628,31 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				
 			
 		
-
+		
 		<p>サイドストーリー<br>大喜利</p>
-
-		
-		
-		
-		<time datetime="2022-06-17T18:50:55+09:00">2022/06/17</time>
-		
+        
+    </div>
+</div>
 	</a>
 </li>
 
 			
         	
         
+        
+    
 			
 			<li>
 	
-	<a href="/SonicChannel/special/sidestory/ohgiri/20220520_002899/">
+    <a href="/SonicChannel/special/sidestory/ohgiri/20220520_002899/">
 	
+		
+		
+		
+		<time datetime="2022-05-20T18:29:22+09:00">2022.05.20</time>
+		
+    <div class="listItem">
+    	<div class="topListItemImg">
 		<img src="/SonicChannel/assets_c/2022/07/ohghiri_2206_eye-thumb-640xauto-4687.jpg" alt="" />
 			
 		
@@ -1070,6 +660,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 
 
+    </div>
+    	<div class="listItemText">
 		<h2 class="entryHeadline">かべがみ大喜利 2022年6月【ソニックは何を......？】</h2>
 
 		
@@ -1164,25 +756,31 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				
 			
 		
-
+		
 		<p>サイドストーリー<br>大喜利</p>
-
-		
-		
-		
-		<time datetime="2022-05-20T18:29:22+09:00">2022/05/20</time>
-		
+        
+    </div>
+</div>
 	</a>
 </li>
 
 			
         	
         
+        
+    
 			
 			<li>
 	
-	<a href="/SonicChannel/special/sidestory/ohgiri/20220422_002876/">
+    <a href="/SonicChannel/special/sidestory/ohgiri/20220422_002876/">
 	
+		
+		
+		
+		<time datetime="2022-04-22T12:40:20+09:00">2022.04.22</time>
+		
+    <div class="listItem">
+    	<div class="topListItemImg">
 		<img src="/SonicChannel/assets_c/2022/07/ohghiri_2205_eye-thumb-640xauto-4688.jpg" alt="" />
 			
 		
@@ -1190,6 +788,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 
 
+    </div>
+    	<div class="listItemText">
 		<h2 class="entryHeadline">かべがみ大喜利 2022年5月【チャオたちは何を......？】</h2>
 
 		
@@ -1284,25 +884,31 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				
 			
 		
-
+		
 		<p>サイドストーリー<br>大喜利</p>
-
-		
-		
-		
-		<time datetime="2022-04-22T12:40:20+09:00">2022/04/22</time>
-		
+        
+    </div>
+</div>
 	</a>
 </li>
 
 			
         	
         
+        
+    
 			
 			<li>
 	
-	<a href="/SonicChannel/special/sidestory/ohgiri/20220322_002849/">
+    <a href="/SonicChannel/special/sidestory/ohgiri/20220322_002849/">
 	
+		
+		
+		
+		<time datetime="2022-03-22T21:53:45+09:00">2022.03.22</time>
+		
+    <div class="listItem">
+    	<div class="topListItemImg">
 		<img src="/SonicChannel/assets_c/2022/07/ohghiri_2204_eye-thumb-640xauto-4684.jpg" alt="" />
 			
 		
@@ -1310,6 +916,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 
 
+    </div>
+    	<div class="listItemText">
 		<h2 class="entryHeadline">かべがみ大喜利 2022年4月【ルージュは何を......？】</h2>
 
 		
@@ -1404,25 +1012,31 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				
 			
 		
-
+		
 		<p>サイドストーリー<br>大喜利</p>
-
-		
-		
-		
-		<time datetime="2022-03-22T21:53:45+09:00">2022/03/22</time>
-		
+        
+    </div>
+</div>
 	</a>
 </li>
 
 			
         	
         
+        
+    
 			
 			<li>
 	
-	<a href="/SonicChannel/special/sidestory/ohgiri/20220218_002823/">
+    <a href="/SonicChannel/special/sidestory/ohgiri/20220218_002823/">
 	
+		
+		
+		
+		<time datetime="2022-02-18T21:54:44+09:00">2022.02.18</time>
+		
+    <div class="listItem">
+    	<div class="topListItemImg">
 		<img src="/SonicChannel/assets_c/2022/07/ohghiri_2203_eye-thumb-640xauto-4686.jpg" alt="" />
 			
 		
@@ -1430,6 +1044,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 
 
+    </div>
+    	<div class="listItemText">
 		<h2 class="entryHeadline">かべがみ大喜利 2022年3月【Dr.エッグマンは何を......？】</h2>
 
 		
@@ -1524,14 +1140,267 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				
 			
 		
-
+		
 		<p>サイドストーリー<br>大喜利</p>
+        
+    </div>
+</div>
+	</a>
+</li>
+
+			
+        	
+        
+        
+    
+			
+			<li>
+	
+    <a href="/SonicChannel/special/sidestory/ohgiri/20220121_002803/">
+	
+		
+		
+		
+		<time datetime="2022-01-21T17:40:05+09:00">2022.01.21</time>
+		
+    <div class="listItem">
+    	<div class="topListItemImg">
+		<img src="/SonicChannel/assets_c/2022/07/ohghiri_2202_eye-thumb-640xauto-4685.jpg" alt="" />
+			
+		
+	
+
+
+
+    </div>
+    	<div class="listItemText">
+		<h2 class="entryHeadline">かべがみ大喜利 2022年2月【ナックルズは何を......？】</h2>
 
 		
 		
 		
-		<time datetime="2022-02-18T21:54:44+09:00">2022/02/18</time>
 		
+			
+			
+			
+			
+			
+			
+				
+					
+					
+						
+					
+				
+					
+					
+						
+						
+						
+						
+						
+						
+						
+					
+				
+				
+					
+					
+					
+				
+			
+		
+			
+			
+			
+			
+			
+			
+				
+					
+					
+						
+					
+				
+				
+			
+		
+			
+			
+			
+			
+			
+			
+				
+					
+					
+						
+					
+				
+					
+					
+						
+						
+						
+						
+						
+						
+						
+					
+				
+					
+					
+						
+						
+							
+						
+						
+						
+						
+						
+						
+					
+				
+				
+					
+					
+					
+				
+			
+		
+		
+		<p>サイドストーリー<br>大喜利</p>
+        
+    </div>
+</div>
+	</a>
+</li>
+
+			
+        	
+        
+        
+    
+			
+			<li>
+	
+    <a href="/SonicChannel/special/sidestory/ohgiri/20211227_002779/">
+	
+		
+		
+		
+		<time datetime="2021-12-27T16:34:28+09:00">2021.12.27</time>
+		
+    <div class="listItem">
+    	<div class="topListItemImg">
+		<img src="/SonicChannel/assets_c/2022/07/ohghiri_2201_eye-thumb-640xauto-4691.jpg" alt="" />
+			
+		
+	
+
+
+
+    </div>
+    	<div class="listItemText">
+		<h2 class="entryHeadline">かべがみ大喜利 2022年1月【テイルスは何を......？】</h2>
+
+		
+		
+		
+		
+			
+			
+			
+			
+			
+			
+				
+					
+					
+						
+					
+				
+					
+					
+						
+						
+						
+						
+						
+						
+						
+					
+				
+				
+					
+					
+					
+				
+			
+		
+			
+			
+			
+			
+			
+			
+				
+					
+					
+						
+					
+				
+				
+			
+		
+			
+			
+			
+			
+			
+			
+				
+					
+					
+						
+					
+				
+					
+					
+						
+						
+						
+						
+						
+						
+						
+					
+				
+					
+					
+						
+						
+							
+						
+						
+						
+						
+						
+						
+					
+				
+				
+					
+					
+					
+				
+			
+		
+		
+		<p>サイドストーリー<br>大喜利</p>
+        
+    </div>
+</div>
 	</a>
 </li>
 
@@ -1540,27 +1409,72 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     </ul>
 </article>
 </main>
-<nav id="common-pagination">
-<ul class="boxLink paginationNum">
 
-<li><a href="/SonicChannel/special/sidestory/ohgiri/index.html" class="link_before">←</a></li>
 
-<li><a href="/SonicChannel/special/sidestory/ohgiri/index.html" class="link_page">1</a></li><li><span class="current_page">2</span></li><li><a href="/SonicChannel/special/sidestory/ohgiri/index_3.html" class="link_page">3</a></li>
+<div class="news-pagerbox">
+<ul class="news-pager cf">
 
-<li><a href="/SonicChannel/special/sidestory/ohgiri/index_3.html" class="link_next">→</a></li>
+
+ 
+<li class="prev"><a href="/SonicChannel/special/sidestory/ohgiri/index.html"></a></li>
+
+
+
+	<li><a href="/SonicChannel/special/sidestory/ohgiri/index.html">1</a></li>
+
+
+
+
+
+
+
+
+	<li class="no">2</li>
+
+
 
 </ul>
-</nav>
-<footer>
+</div>
+
+
+<div class="enjoyCaution">
+<p>ダウンロードしたものをそのままSNSなどに載せたり配布せず、個人で楽しんでお使いください。<br>
+詳しくは【<a href="/SonicChannel/about/#download-policy">ダウンロードについて</a>】をお読みください。</p>
+</div>
+<footer role="contentinfo">
+	<div class="footerWrap">
+			<ul class="common-snsList-sp">
+				<li class="common-snsIcon is-x">
+					<a class="snsTwitter" href=""></a>
+				</li>
+				<li class="common-snsIcon is-line">
+					<a class="snsLine" href=""></a>
+				</li>
+				<li class="common-snsIcon is-facebook">
+					<a class="snsFacebook" href=""></a>
+				</li>
+			</ul><!-- .common-snsList-pc -->
+    <div class="footerContent">
+				<div class="footerLogoBox">
+						<div class="footerSonicChannelLogo"><a href="https://sonic.sega.jp/SonicChannel/" target="_blank"><img src="/SonicChannel/assets/images/common/logo_sonicchannel.png" alt="SONIC CHANNEL" /></a></div>
+						<div class="footerSonicTeamLogo"><a href="http://www.sonicteam.com/" target="_blank"><img src="/SonicChannel/assets/images/common/logo_sonicteam.png" alt="SONIC TEAM" /></a></div>
+					</div><!-- .footerLogoBox -->
+    <ul class="footerLinkList">
+    	<li>【<a href="/SonicChannel/about/#translation-function" target="_blank">翻訳機能について</a>】 </li>
+    	<li>【<a href="/SonicChannel/about/#download-policy" target="_blank">ダウンロードについて</a>】</li>
+     	<li>【<a href="http://sega.jp/contact/soft/" target="_blank">お問い合わせ</a>】</li>
+    	<li>【<a href="https://www.sega.co.jp/privacypolicy/" target="_blank">プライバシーポリシー</a>】</li>
+    	<li>【<a href="https://www.sega.co.jp/web-accessibility/index.html" target="_blank">ウェブアクセシビリティ方針</a>】</li>
+    </ul>
+	<p class="footerCopy">&copy;SEGA</p>
+    </div>
 	<div id="footer-search" class="googleSearch">
 		<div class="gcse-search"></div>
 	</div>
-	<p><a href="http://www.sonicteam.com/"><img src="/SonicChannel/common/image/SonicTeamLogo.png" width="105" height="27" alt="SONIC TEAM"/></a></p>
-	<p>【<a href="/SonicChannel/about/#translation-function">翻訳機能について</a>】 【<a href="/SonicChannel/about/#download-policy">ダウンロードについて</a>】</p>
-	<p>【<a href="http://sega.jp/contact/soft/" target="_blank">お問い合わせ</a>】【<a href="https://www.sega.co.jp/privacypolicy/" target="_blank">プライバシーポリシー</a>】</p>
-	<p>&copy;SEGA</p>
+</div>
 </footer>
-<div id='background-logo'></div>
-<div id='common-bg'><div id='bg-substance'></div></div>
+</div>
 </body>
 </html>
+
+</MTIf>

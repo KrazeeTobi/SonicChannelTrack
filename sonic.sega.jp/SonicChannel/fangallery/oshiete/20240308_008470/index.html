@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# : http://ogp.me/ns/#" lang="ja">
-<meta name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0,user-scalable=yes" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta name="keyword" content="SONIC CHANNEL,ソニックチャンネル,SEGA,セガ,SONICTEAM,ソニックチーム,SONIC,ソニック" />
@@ -19,16 +19,27 @@
 <meta property="og:title" content="「おしえて！クリエイターズ」3月の投稿作品公開！" />
 <meta property="og:url" content="https://sonic.sega.jp/SonicChannel/fangallery/oshiete/20240308_008470/" />
 <meta property="og:description" content=" KIKUZO こんにちは！ソニックチャンネルWebマスターのKIKUZOだ。 みんな、たくさんの作品投稿を...... ありがとう！ まずはお題となった3月のカレンダーイラストをおさらいしよう！ 	 シルバーと一緒に居るのは2006年版『..." />
-<meta property="og:image" content="https://sonic.sega.jp/SonicChannel/fangallery/image/oshiete_240308_01_eye.jpg">
+<meta property="og:image" content="https://sonic.sega.jp/SonicChannel/upload_images/oshiete_240308_01_eye.jpg">
 <meta property="og:type" content="article">
 <title>SEGA | ソニックチャンネル | ファンギャラリー | 「おしえて！クリエイターズ」3月の投稿作品公開！</title>
 <link rel="start" href="/SonicChannel/">
-<link rel="alternate" type="application/atom+xml" title="Recent Entries" href="/SonicChannel/atom.xml" />
-<link rel="stylesheet" href="/SonicChannel/common/css/import.css">
-<script src="/SonicChannel/common/js/import.js" language="javascript" type="text/javascript"></script>
+<link rel="alternate" type="application/atom+xml" title="Recent Entries" href="http://admin-mt-sonic.sega.jp/sonic.sega.jp/SonicChannel/production/atom.xml" />
+<link rel="stylesheet" href="https://use.typekit.net/sha2lhi.css">
+<link rel="stylesheet" href="/SonicChannel/assets/css/oldStyle.min.css">
+<link rel="stylesheet" href="/SonicChannel/assets/css/common.min.css">
+<script src="/SonicChannel/assets/js/libs/jquery-3.7.1.min.js"></script>
+		<script src="/SonicChannel/assets/js/libs/jquery.inview.min.js"></script>
+<script src="/SonicChannel/assets/js/libs/swiper-bundle.min.js"></script>
+<script src="/SonicChannel/assets/js/libs/jquery.swipebox.min.js"></script>
+<script src="/SonicChannel/assets/js/old/modernizr.js"></script>
+<script src="/SonicChannel/assets/js/old/swiper.min.js"></script>
+<script src="/SonicChannel/assets/js/old/jquery.tubular.1.0.js"></script>
+<script src="/SonicChannel/assets/js/old/velocity.min.js"></script>
+<script src="/SonicChannel/assets/js/old/snsClick.js"></script>
+<script src="/SonicChannel/assets/js/old/init.js"></script>
+<script src="/SonicChannel/assets/js/common.js"></script>
 <script async src="https://cse.google.com/cse.js?cx=b9e22222528a0e6ff"></script>
-<link rel="stylesheet" href="/SonicChannel/fangallery/common/css/import.css">
-<script src="/SonicChannel/fangallery/common/js/import.js" language="javascript" type="text/javascript"></script>
+<!--link rel="stylesheet" href="/SonicChannel/fangallery/common/css/import.css">
 <!--[if lte IE 8]>
 <script src="/SonicChannel/common/js/html5shiv.js"></script>
 <![endif]-->
@@ -39,82 +50,101 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','GTM-MF59Q7B');</script>
 </head>	
 <body class="entry individual fangallery">
-<header>
-	<a href="http://sega.jp/"><img src="/SonicChannel/common/image/header_sega.png" alt="SEGA" width="75" height="25" /></a>
-	<div>
-        <div>
+<div class="wrapper">
+<div class="wrapperBg"></div>
+<header role="banner">
+	<a href="http://sega.jp/" class="headerSEGALogo"><img src="/SonicChannel/assets/images/common/sega_logo_s_b.svg" alt="SEGA" width="75" height="25" /></a>
+			<ul class="common-snsList-pc">
+				<li class="common-snsIcon is-x">
+					<a class="snsTwitter" href=""></a>
+				</li>
+				<li class="common-snsIcon is-line">
+					<a class="snsLine" href=""></a>
+				</li>
+				<li class="common-snsIcon is-facebook">
+					<a class="snsFacebook" href=""></a>
+				</li>
+			</ul><!-- .common-snsList-pc -->
+	<div class="gTranslateBox">
+        <div class="gTranslateIcon">
            <a href="/SonicChannel/about/#translation-function">
               <svg>
-      			  <use xlink:href="/SonicChannel/common/image/header_caution.svg#caution"></use>
+      			  <use xlink:href="/SonicChannel/assets/images/old/header_caution.svg#caution"></use>
     		  </svg>
-        </a>
+        	</a>
         </div>
 		<div class="gtranslate_wrapper"></div>
 		<script>window.gtranslateSettings = {"default_language":"ja","wrapper_selector":".gtranslate_wrapper"}</script>
 		<script src="https://cdn.gtranslate.net/widgets/latest/dropdown.js" defer></script>
 	</div>
-	<h1><a href="/SonicChannel/"><img src="/SonicChannel/common/image/header_sonicchannel.png" alt="ソニックチャンネル" width="191" height="47" /></a></h1>
 </header>
-<nav id="common-navigation">
-	<a href="#" id="nav-trigger"><span id="trigger-icon"></span></a>
+<div id="nav-trigger"><span id="trigger-icon"></span></div>
+<nav id="common-navigation" role="navigation">
 	<div id="overlay-nav"><span></span></div><!-- cd-overlay-nav -->
 	<div id="overlay-content"><span></span></div> <!-- cd-overlay-content -->
-	<ul id="nav-list">
-		<li><a href="/SonicChannel/"><img src="/SonicChannel/common/image/nav_sonicchannel.png" alt="SONIC CHANNEL" /></a></li>
-		<li><a href="/SonicChannel/topics/information/">トピックス</a></li>
-		<li><a href="/SonicChannel/gametitle/nintendo-switch.html">ゲームタイトル</a></li>
-		<li><a href="/SonicChannel/character/">キャラクター</a></li>
-		<li><a href="/SonicChannel/special/">スペシャル</a></li>
-		<li><a href="/SonicChannel/fangallery/" class="activeAnchor">ファンギャラリー</a></li>
-		<li><a href="/SonicChannel/enjoy/wallpaper/">おたのしみ</a></li>
-	</ul>
-	<div class="googleSearch" id="nav-search">
-		<div class="gcse-search"></div>
+	<div class="navWrapper"> 
+		<div class="navLogoItem">
+       	 <h1 class="soinicChannelLogo"><a href="/SonicChannel/"><img src="/SonicChannel/assets/images/common/logo_sonicchannel.png" alt="ソニックチャンネル" width="191" height="47" /></a></h1>
+	</div>
+		<ul id="nav-list">
+        <li class="navItem is-top"><a href="/SonicChannel/">トップ</a></li>
+			<li class="navItem is-topics"><a href="/SonicChannel/topics/">トピックス</a></li>
+			<li class="navItem is-character"><a href="/SonicChannel/character/">キャラクター</a></li>
+    		<li class="navItem is-history"><a href="/SonicChannel/history/">ヒストリー</a></li>
+    		<li class="navItem is-special"><a href="/SonicChannel/special/top.html">スペシャル</a></li>
+			<li class="navItem is-fangallery"><a href="/SonicChannel/fangallery/top.html" class="activeAnchor">ファンギャラリー</a></li>
+		</ul>
+    	<div class="navWhatSonicItem">
+        <a href="/SonicChannel/character/" ><div class="navWhatSonicText">ソニックとは</div><div class="whatSonicArrow"></div></a>
+   		</div>
 	</div>
 </nav>
-<main id="common-contents">
+<main id="common-contents" role="main">
+<div class="headlineCommon"></div>
 <div id="contents-header">
-		<h2 class="headlineCommon">ファンギャラリー</h2>
 			<nav class="contentsNavigation">
-				<ul>
-						<li><a href="/SonicChannel/fangallery/" >すべて</a></li>
-								<li><a href="/SonicChannel/fangallery/fanart/">ファンアート</a></li>
-								<li><a href="/SonicChannel/fangallery/screenshot/">スクリーンショット</a></li>
-								<li><a href="/SonicChannel/fangallery/oshiete/" class="activeAnchor">おしえて!クリエイターズ</a></li>
-								<li><a href="/SonicChannel/fangallery/apply/">投稿</a></li>
-							</ul>
-				<select>
-						<option value="/SonicChannel/fangallery/" >すべて</option>
+            <div class="contentsNavigationInner">
+				<ul class="cateArctestUL">
+								<li class="cateArctestLi"><a href="/SonicChannel/fangallery/fanart/">ファンアート</a></li>
+								<li class="cateArctestLi"><a href="/SonicChannel/fangallery/screenshot/">スクリーンショット</a></li>
+								<li class="cateArctestLi"><a href="/SonicChannel/fangallery/oshiete/" class="activeAnchor">おしえて!クリエイターズ</a></li>
+								<li class="cateArctestLi"><a href="/SonicChannel/fangallery/apply/">投稿</a></li>
+            </ul>
+            <div class="navSelectBox">
+				<select aria-label="選択してください">
 								<option value="/SonicChannel/fangallery/fanart/" >ファンアート</option>
 								<option value="/SonicChannel/fangallery/screenshot/" >スクリーンショット</option>
 								<option value="/SonicChannel/fangallery/oshiete/"  selected>おしえて!クリエイターズ</option>
 								<option value="/SonicChannel/fangallery/apply/" >投稿</option>
-							</select>
+            </select>
+            </div>
 				<h3>おしえて!クリエイターズ</h3>
+            </div>
 			</nav>
 </div>
 <article  id="contents-page">
-		<img src="/SonicChannel/fangallery/image/oshiete_240308_01_eye.jpg" alt=""/>
-	<h1>「おしえて！クリエイターズ」3月の投稿作品公開！</h1>
-	<time datetime="2024-03-08T18:52:48+09:00">2024.03.08</time>
-	<ul id="page-sns1">
-		<li class="snsTwitter"><img src="/SonicChannel//common/image/icon_twitter.png" width="25" height="25" alt="Twitter"></li>
-		<li class="snsFacebook"><img src="/SonicChannel//common/image/icon_facebook.png" width="25" height="25" alt="facebook"></li>
-		<li class="snsLine"><img src="/SonicChannel//common/image/icon_line.png" width="25" height="25" alt="LINE"></li>
-	</ul>
-<div id="cotentes-substance">
-
-<div class="staffTalkWrapper color02">
+	<div class="contentsPageBg"></div>
+			<img class="contentPageTopImg" src="/SonicChannel/upload_images/oshiete_240308_01_eye.jpg" alt=""/>
+		<h1>「おしえて！クリエイターズ」3月の投稿作品公開！</h1>
+	<div id="cotentes-substance">
+			
+				<time datetime="2024-03-08T18:52:48+09:00">2024.03.08</time>
+				<ul id="page-sns1">
+					<li class="snsTwitter"><img src="/SonicChannel/assets/images/old/icon_twitter.png" width="25" height="25" alt="Twitter"></li>
+					<li class="snsFacebook"><img src="/SonicChannel/assets/images/old/icon_facebook.png" width="25" height="25" alt="facebook"></li>
+					<li class="snsLine"><img src="/SonicChannel/assets/images/old/icon_line.png" width="25" height="25" alt="LINE"></li>
+				</ul>		
+				<div class="staffTalkWrapper color02">
 <div class="staffTalkHeader">
-<h1><img src="/SonicChannel/fangallery/image/oshiete_240117_01_01.png" alt=""  />KIKUZO</h1>
+<h1><img src="/sonic.sega.jp/SonicChannel/upload_images/oshiete_240117_01_01.png" alt=""  />KIKUZO</h1>
 </div>
 <div class="staffTalkBody">
 <p>こんにちは！ソニックチャンネルWebマスターのKIKUZOだ。</p>
 <p>みんな、たくさんの作品投稿を......</p>
 <p class="textXXLarge">ありがとう！</p>
 <p>まずはお題となった3月のカレンダーイラストをおさらいしよう！</p>
-	<img src="/SonicChannel/fangallery/image/oshiete_240308_01_04.jpg" alt="" class="mb1em" />
-<p>シルバーと一緒に居るのは2006年版『ソニック・ザ・ヘッジホッグ』に登場する、ソニックマン！ 彼がどんなキャラクターなのか気になる人は<a href="/SonicChannel/special/staffcolumn/20240222_008457/">カレンダー紹介ページ</a>をチェック！<br>
+	<img src="/sonic.sega.jp/SonicChannel/upload_images/oshiete_240308_01_04.jpg" alt="" class="mb1em" />
+<p>シルバーと一緒に居るのは2006年版『ソニック・ザ・ヘッジホッグ』に登場する、ソニックマン！ 彼がどんなキャラクターなのか気になる人は<a href="/sonic.sega.jp/SonicChannel/special/staffcolumn/20240222_008457/">カレンダー紹介ページ</a>をチェック！<br>
 	このイラストに集まったネタ投稿を、今回もソニック監修のとよださんと一緒に紹介していくぞ！<br>
 	というわけで......<p class="textXXLarge">どよだざーん！</p>
 		</div></div>
@@ -122,38 +152,38 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		
 <div class="staffTalkWrapper color01">
 <div class="staffTalkHeader">
-<h1><img src="/SonicChannel/fangallery/image/oshiete_240117_01_02.png" alt=""  />とよだ</h1>
+<h1><img src="/sonic.sega.jp/SonicChannel/upload_images/oshiete_240117_01_02.png" alt=""  />とよだ</h1>
 </div>
 <div class="staffTalkBody"><p>はい、とよだです。<br>なんかめちゃくちゃ鼻声じゃなかった？</p></div></div>
 <div class="staffTalkWrapper color02">
 <div class="staffTalkHeader">
-<h1><img src="/SonicChannel/fangallery/image/oshiete_240117_01_01.png" alt=""  />KIKUZO</h1>
+<h1><img src="/sonic.sega.jp/SonicChannel/upload_images/oshiete_240117_01_01.png" alt=""  />KIKUZO</h1>
 </div>
 <div class="staffTalkBody"><p>最近花粉症が酷くて......　音声処理に不具合が出てるかも。</p></div></div>
 <div class="staffTalkWrapper color01">
 <div class="staffTalkHeader">
-<h1><img src="/SonicChannel/fangallery/image/oshiete_240117_01_02.png" alt=""  />とよだ</h1>
+<h1><img src="/sonic.sega.jp/SonicChannel/upload_images/oshiete_240117_01_02.png" alt=""  />とよだ</h1>
 </div>
 <div class="staffTalkBody"><p>自称ロボットなんだから花粉くらいで不具合起こすなよ！</p></div></div>
 <div class="staffTalkWrapper color02">
 <div class="staffTalkHeader">
-<h1><img src="/SonicChannel/fangallery/image/oshiete_240117_01_01.png" alt=""  />KIKUZO</h1>
+<h1><img src="/sonic.sega.jp/SonicChannel/upload_images/oshiete_240117_01_01.png" alt=""  />KIKUZO</h1>
 </div>
 <div class="staffTalkBody"><p>そこは花粉の影響を感じ取れるくらい高性能だと言ってほしい！<br>
 それよりも、今回のイラストはどうですか？</p></div></div>
 
 <div class="staffTalkWrapper color01">
 <div class="staffTalkHeader">
-<h1><img src="/SonicChannel/fangallery/image/oshiete_240117_01_02.png" alt=""  />とよだ</h1>
+<h1><img src="/sonic.sega.jp/SonicChannel/upload_images/oshiete_240117_01_02.png" alt=""  />とよだ</h1>
 </div>
 <div class="staffTalkBody"><p>真面目さとシュールさを両方感じる良い絵だね！<br>
 特にソニックマンの我の強さは、これでもかってくらい出てる（笑）</p></div></div>
 
-<img src="/SonicChannel/fangallery/image/oshiete_240310_01_01.jpg" alt=""  />
+<img src="/sonic.sega.jp/SonicChannel/upload_images/oshiete_240310_01_01.jpg" alt=""  />
 
 <div class="staffTalkWrapper color02">
 <div class="staffTalkHeader">
-<h1><img src="/SonicChannel/fangallery/image/oshiete_240117_01_01.png" alt=""  />KIKUZO</h1>
+<h1><img src="/sonic.sega.jp/SonicChannel/upload_images/oshiete_240117_01_01.png" alt=""  />KIKUZO</h1>
 </div>
 	<div class="staffTalkBody"><p>それじゃあ早速、我々が特に気に入った投稿作品を紹介するぞ！</p><p>まずはコチラ！</p></div></div>
 
@@ -163,28 +193,28 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <div class="staffTalkWrapper color01">
 <div class="staffTalkHeader">
-<h1><img src="/SonicChannel/fangallery/image/oshiete_240117_01_02.png" alt=""  />とよだ</h1>
+<h1><img src="/sonic.sega.jp/SonicChannel/upload_images/oshiete_240117_01_02.png" alt=""  />とよだ</h1>
 </div>
 <div class="staffTalkBody"><p>これは途中でケンカしてタマゴを割って泣いちゃうパターンだ......<br>
 こどもがおつかいに行く番組、KIKUZOは観たことある？</p></div></div>
 
 <div class="staffTalkWrapper color02">
 <div class="staffTalkHeader">
-<h1><img src="/SonicChannel/fangallery/image/oshiete_240117_01_01.png" alt=""  />KIKUZO</h1>
+<h1><img src="/sonic.sega.jp/SonicChannel/upload_images/oshiete_240117_01_01.png" alt=""  />KIKUZO</h1>
 </div>
 <div class="staffTalkBody"><p>知識としては知ってます。<br>
 ちなみに2024年現在も不定期で放送しているようです。</p></div></div>
 
 <div class="staffTalkWrapper color01">
 <div class="staffTalkHeader">
-<h1><img src="/SonicChannel/fangallery/image/oshiete_240117_01_02.png" alt=""  />とよだ</h1>
+<h1><img src="/sonic.sega.jp/SonicChannel/upload_images/oshiete_240117_01_02.png" alt=""  />とよだ</h1>
 </div>
 <div class="staffTalkBody"><p class="textXXLarge">マジで！？</p><br>
 <p>たまに観ると結構ほっこりするんだけど、このふたりは「どちらがお兄さんか」とかでずっとケンカしてそうだな～</p></div></div>
 
 <div class="staffTalkWrapper color02">
 <div class="staffTalkHeader">
-<h1><img src="/SonicChannel/fangallery/image/oshiete_240117_01_01.png" alt=""  />KIKUZO</h1>
+<h1><img src="/sonic.sega.jp/SonicChannel/upload_images/oshiete_240117_01_01.png" alt=""  />KIKUZO</h1>
 </div>
 <div class="staffTalkBody"><p>無事におうちに帰れることを祈るばかり.....<br>
 お兄さんと言えば、こんな投稿が来ています。</p></div></div>
@@ -195,32 +225,32 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <div class="staffTalkWrapper color02">
 <div class="staffTalkHeader">
-<h1><img src="/SonicChannel/fangallery/image/oshiete_240117_01_01.png" alt=""  />KIKUZO</h1>
+<h1><img src="/sonic.sega.jp/SonicChannel/upload_images/oshiete_240117_01_01.png" alt=""  />KIKUZO</h1>
 </div>
 <div class="staffTalkBody"><p>この特徴的な語尾はクリーム？　でも、なぜそう思ったのか......</p></div></div>
 
 <div class="staffTalkWrapper color01">
 <div class="staffTalkHeader">
-<h1><img src="/SonicChannel/fangallery/image/oshiete_240117_01_02.png" alt=""  />とよだ</h1>
+<h1><img src="/sonic.sega.jp/SonicChannel/upload_images/oshiete_240117_01_02.png" alt=""  />とよだ</h1>
 </div>
 <div class="staffTalkBody"><p>僕の解釈では、ふたりともお兄さんになってあげようと張り切ってウサギの恰好をしてあげたんじゃないかな。<br>
 でも面白いのが、クリームのお眼鏡にはかなっていないところだね。</p></div></div>
 
 <div class="staffTalkWrapper color02">
 <div class="staffTalkHeader">
-<h1><img src="/SonicChannel/fangallery/image/oshiete_240117_01_01.png" alt=""  />KIKUZO</h1>
+<h1><img src="/sonic.sega.jp/SonicChannel/upload_images/oshiete_240117_01_01.png" alt=""  />KIKUZO</h1>
 </div>
 <div class="staffTalkBody"><p>本当だ！　目の前に素敵なお兄さん（？）たちがいるのに「いたらな」って完全にスルーされてる！</p></div></div>
 
 <div class="staffTalkWrapper color01">
 <div class="staffTalkHeader">
-<h1><img src="/SonicChannel/fangallery/image/oshiete_240117_01_02.png" alt=""  />とよだ</h1>
+<h1><img src="/sonic.sega.jp/SonicChannel/upload_images/oshiete_240117_01_02.png" alt=""  />とよだ</h1>
 </div>
 <div class="staffTalkBody"><p>必死にタマゴを集めてる様子を見て「ちょっと違うな」って思ったのかも？</p></div></div>
 
 <div class="staffTalkWrapper color02">
 <div class="staffTalkHeader">
-<h1><img src="/SonicChannel/fangallery/image/oshiete_240117_01_01.png" alt=""  />KIKUZO</h1>
+<h1><img src="/sonic.sega.jp/SonicChannel/upload_images/oshiete_240117_01_01.png" alt=""  />KIKUZO</h1>
 </div>
 <div class="staffTalkBody"><p>クリームの求めるお兄さん像は、中々審査が厳しい......　お次はこちら。</p></div></div>
 
@@ -230,30 +260,30 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <div class="staffTalkWrapper color01">
 <div class="staffTalkHeader">
-<h1><img src="/SonicChannel/fangallery/image/oshiete_240117_01_02.png" alt=""  />とよだ</h1>
+<h1><img src="/sonic.sega.jp/SonicChannel/upload_images/oshiete_240117_01_02.png" alt=""  />とよだ</h1>
 </div>
 <div class="staffTalkBody"><p>給料がタマゴ（笑）<br>
 これはふたりとも取り合う前に怒るべきじゃない？</p></div></div>
 
 <div class="staffTalkWrapper color02">
 <div class="staffTalkHeader">
-<h1><img src="/SonicChannel/fangallery/image/oshiete_240117_01_01.png" alt=""  />KIKUZO</h1>
+<h1><img src="/sonic.sega.jp/SonicChannel/upload_images/oshiete_240117_01_01.png" alt=""  />KIKUZO</h1>
 </div>
 <div class="staffTalkBody"><p>ソレアナではポピュラーな給与形態なのかも......</p>
 <p class="textXXLarge">私が仕えるDr.エッグマンからの給料もタマゴです！（妄想）</p></div></div>
 
-<img src="/SonicChannel/fangallery/image/oshiete_240310_01_02.gif" alt=""  />
+<img src="/sonic.sega.jp/SonicChannel/upload_images/oshiete_240310_01_02.gif" alt=""  />
 
 <div class="staffTalkWrapper color01">
 <div class="staffTalkHeader">
-<h1><img src="/SonicChannel/fangallery/image/oshiete_240117_01_02.png" alt=""  />とよだ</h1>
+<h1><img src="/sonic.sega.jp/SonicChannel/upload_images/oshiete_240117_01_02.png" alt=""  />とよだ</h1>
 </div>
 <div class="staffTalkBody"><p>意図せずKIKUZOの過酷な労働環境が露見してしまった......<br>
 よく反乱とか起こさないね。</p></div></div>
 
 <div class="staffTalkWrapper color02">
 <div class="staffTalkHeader">
-<h1><img src="/SonicChannel/fangallery/image/oshiete_240117_01_01.png" alt=""  />KIKUZO</h1>
+<h1><img src="/sonic.sega.jp/SonicChannel/upload_images/oshiete_240117_01_01.png" alt=""  />KIKUZO</h1>
 </div>
 <div class="staffTalkBody"><p>偉大なる創造主への感情は感謝のみです。（妄想）<br>
 タマゴネタは、こんな投稿もありましたよ。</p></div></div>
@@ -264,37 +294,37 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <div class="staffTalkWrapper color01">
 <div class="staffTalkHeader">
-<h1><img src="/SonicChannel/fangallery/image/oshiete_240117_01_02.png" alt=""  />とよだ</h1>
+<h1><img src="/sonic.sega.jp/SonicChannel/upload_images/oshiete_240117_01_02.png" alt=""  />とよだ</h1>
 </div>
 <div class="staffTalkBody"><p>半額は凄いけど、取り合わず仲良く分け合おうよ！<br>
 あのシールって赤と黄色なことが多いから、そこも上手くネタに落とし込んでるね。</p></div></div>
 
 <div class="staffTalkWrapper color02">
 <div class="staffTalkHeader">
-<h1><img src="/SonicChannel/fangallery/image/oshiete_240117_01_01.png" alt=""  />KIKUZO</h1>
+<h1><img src="/sonic.sega.jp/SonicChannel/upload_images/oshiete_240117_01_01.png" alt=""  />KIKUZO</h1>
 </div>
 <div class="staffTalkBody"><p>半額シールは人気の証......<br>
 つまり、私も半額シールを貼れば......？</p></div></div>
 
 <div class="staffTalkWrapper color01">
 <div class="staffTalkHeader">
-<h1><img src="/SonicChannel/fangallery/image/oshiete_240117_01_02.png" alt=""  />とよだ</h1>
+<h1><img src="/sonic.sega.jp/SonicChannel/upload_images/oshiete_240117_01_02.png" alt=""  />とよだ</h1>
 </div>
 <div class="staffTalkBody"><p>じゃあちょっと貼ってみようか？</p>
 <p class="textXXLarge">えいっ！</p></div></div>
 
-<img src="/SonicChannel/fangallery/image/oshiete_240310_01_03.gif" alt=""  />
+<img src="/sonic.sega.jp/SonicChannel/upload_images/oshiete_240310_01_03.gif" alt=""  />
 
 <div class="staffTalkWrapper color02">
 <div class="staffTalkHeader">
-<h1><img src="/SonicChannel/fangallery/image/oshiete_240117_01_01.png" alt=""  />KIKUZO</h1>
+<h1><img src="/sonic.sega.jp/SonicChannel/upload_images/oshiete_240117_01_01.png" alt=""  />KIKUZO</h1>
 </div>
 <div class="staffTalkBody"><p class="textXXLarge">うおぉぉぉぉぉぉ！</p>
 <p>これは......なんだか剥がしづらいです！</p></div></div>
 
 <div class="staffTalkWrapper color01">
 <div class="staffTalkHeader">
-<h1><img src="/SonicChannel/fangallery/image/oshiete_240117_01_02.png" alt=""  />とよだ</h1>
+<h1><img src="/sonic.sega.jp/SonicChannel/upload_images/oshiete_240117_01_02.png" alt=""  />とよだ</h1>
 </div>
 <div class="staffTalkBody"><p>そうしないと半額じゃない商品に貼り換えようとする悪い人もいるからね。<br>
 KIKUZOがかなりお買い得になったところで、最後はこちら！</p></div></div>
@@ -303,48 +333,48 @@ KIKUZOがかなりお買い得になったところで、最後はこちら！</
 
 <div class="staffTalkWrapper color01">
 <div class="staffTalkHeader">
-<h1><img src="/SonicChannel/fangallery/image/oshiete_240117_01_02.png" alt=""  />とよだ</h1>
+<h1><img src="/sonic.sega.jp/SonicChannel/upload_images/oshiete_240117_01_02.png" alt=""  />とよだ</h1>
 </div>
 <div class="staffTalkBody"><p><span class="textXXLarge">シルバーの台詞の続きが気になる！</p></div></div>
 
 <div class="staffTalkWrapper color02">
 <div class="staffTalkHeader">
-<h1><img src="/SonicChannel/fangallery/image/oshiete_240117_01_01.png" alt=""  />KIKUZO</h1>
+<h1><img src="/sonic.sega.jp/SonicChannel/upload_images/oshiete_240117_01_01.png" alt=""  />KIKUZO</h1>
 </div>
 <div class="staffTalkBody"><p>チャオのタマゴってことは、生まれてくるのはチャオですよね？<br>
 未来を変えるほどのチャオ...... どんなチャオが生まれてくるのか......</p></div></div>
 
 <div class="staffTalkWrapper color01">
 <div class="staffTalkHeader">
-<h1><img src="/SonicChannel/fangallery/image/oshiete_240117_01_02.png" alt=""  />とよだ</h1>
+<h1><img src="/sonic.sega.jp/SonicChannel/upload_images/oshiete_240117_01_02.png" alt=""  />とよだ</h1>
 </div>
 <div class="staffTalkBody"><p>そりゃこんな柄だし、やっぱ「エッグチャオ」なんじゃない？<br>
 ヒゲと眼鏡でタマゴみたいな体型をしたチャオがたくさんいる未来......</p></div></div>
 
 <div class="staffTalkWrapper color02">
 <div class="staffTalkHeader">
-<h1><img src="/SonicChannel/fangallery/image/oshiete_240117_01_01.png" alt=""  />KIKUZO</h1>
+<h1><img src="/sonic.sega.jp/SonicChannel/upload_images/oshiete_240117_01_01.png" alt=""  />KIKUZO</h1>
 </div>
 <div class="staffTalkBody"><p>それは最高の未来なのでは？！<br>
 でもこうしてシルバーが未然に防いでるから、そんな日は来ないのか......（ほろり）</p></div></div>
 
 <div class="staffTalkWrapper color01">
 <div class="staffTalkHeader">
-<h1><img src="/SonicChannel/fangallery/image/oshiete_240117_01_02.png" alt=""  />とよだ</h1>
+<h1><img src="/sonic.sega.jp/SonicChannel/upload_images/oshiete_240117_01_02.png" alt=""  />とよだ</h1>
 </div>
 <div class="staffTalkBody"><p>そんなチャオ、絶対イヤだもん（笑）<br>
 もし実現しちゃったら、最悪の未来だよ！</p></div></div>
 <div class="staffTalkWrapper color02">
 <div class="staffTalkHeader">
-<h1><img src="/SonicChannel/fangallery/image/oshiete_240117_01_01.png" alt=""  />KIKUZO</h1>
+<h1><img src="/sonic.sega.jp/SonicChannel/upload_images/oshiete_240117_01_01.png" alt=""  />KIKUZO</h1>
 </div>
 <div class="staffTalkBody"><p>というわけで、以上の入賞者5名には......ソニックチャンネル特製、キャラクター缶バッジをプレゼント ！</p>
-		<img src="/SonicChannel/fangallery/image/oshiete_240117_01_01.jpg" alt="" class="mb1em" /></div></div>
+		<img src="/sonic.sega.jp/SonicChannel/upload_images/oshiete_240117_01_01.jpg" alt="" class="mb1em" /></div></div>
 
 <h1>まだまだ他にも......？</h1>
 <div class="staffTalkWrapper color02">
 <div class="staffTalkHeader">
-<h1><img src="/SonicChannel/fangallery/image/oshiete_240117_01_01.png" alt=""  />KIKUZO</h1>
+<h1><img src="/sonic.sega.jp/SonicChannel/upload_images/oshiete_240117_01_01.png" alt=""  />KIKUZO</h1>
 </div>
 <div class="staffTalkBody"><p>そしてここからは惜しくも入賞ならずも、ユーモアあふれる作品たち！<br>
 せっかくなので、いくつか紹介するぞ！</p></div></div>
@@ -353,13 +383,13 @@ KIKUZOがかなりお買い得になったところで、最後はこちら！</
 
 <div class="staffTalkWrapper color01">
 <div class="staffTalkHeader">
-<h1><img src="/SonicChannel/fangallery/image/oshiete_240117_01_02.png" alt=""  />とよだ</h1>
+<h1><img src="/sonic.sega.jp/SonicChannel/upload_images/oshiete_240117_01_02.png" alt=""  />とよだ</h1>
 </div>
 <div class="staffTalkBody"><p>素早くタマゴを集めてチャオガーデンに移送したりしてるのかな？ ウサギの恰好の意味は......</p></div></div>
 
 <div class="staffTalkWrapper color02">
 <div class="staffTalkHeader">
-<h1><img src="/SonicChannel/fangallery/image/oshiete_240117_01_01.png" alt=""  />KIKUZO</h1>
+<h1><img src="/sonic.sega.jp/SonicChannel/upload_images/oshiete_240117_01_01.png" alt=""  />KIKUZO</h1>
 </div>
 <div class="staffTalkBody"><p>ウサギのクリームとチャオのチーズが仲良しなことを考えると、実はチャオたちと打ち解けるのに最適な衣装なのかも？</p></div></div>
 
@@ -367,14 +397,14 @@ KIKUZOがかなりお買い得になったところで、最後はこちら！</
 
 <div class="staffTalkWrapper color01">
 <div class="staffTalkHeader">
-<h1><img src="/SonicChannel/fangallery/image/oshiete_240117_01_02.png" alt=""  />とよだ</h1>
+<h1><img src="/sonic.sega.jp/SonicChannel/upload_images/oshiete_240117_01_02.png" alt=""  />とよだ</h1>
 </div>
 <div class="staffTalkBody"><p>登場人物、全員ヤバい！<br>
 特にシルバーが荒みきってるね。</p></div></div>
 
 <div class="staffTalkWrapper color02">
 <div class="staffTalkHeader">
-<h1><img src="/SonicChannel/fangallery/image/oshiete_240117_01_01.png" alt=""  />KIKUZO</h1>
+<h1><img src="/sonic.sega.jp/SonicChannel/upload_images/oshiete_240117_01_01.png" alt=""  />KIKUZO</h1>
 </div>
 <div class="staffTalkBody"><p>めちゃくちゃなコスプレレースを開催するエリスも中々。<br>
 このソレアナの治安はかなりアウトレイジ寄りだなぁ......</p></div></div>
@@ -383,14 +413,14 @@ KIKUZOがかなりお買い得になったところで、最後はこちら！</
 
 <div class="staffTalkWrapper color01">
 <div class="staffTalkHeader">
-<h1><img src="/SonicChannel/fangallery/image/oshiete_240117_01_02.png" alt=""  />とよだ</h1>
+<h1><img src="/sonic.sega.jp/SonicChannel/upload_images/oshiete_240117_01_02.png" alt=""  />とよだ</h1>
 </div>
 <div class="staffTalkBody"><p>急におばあさん救済ミッション発生した（笑）<br>
 KIKUZOはこのおばあさん、どんな見た目を想像した？</p></div></div>
 
 <div class="staffTalkWrapper color02">
 <div class="staffTalkHeader">
-<h1><img src="/SonicChannel/fangallery/image/oshiete_240117_01_01.png" alt=""  />KIKUZO</h1>
+<h1><img src="/sonic.sega.jp/SonicChannel/upload_images/oshiete_240117_01_01.png" alt=""  />KIKUZO</h1>
 </div>
 <div class="staffTalkBody"><p>漫☆画◯郎風しか思い浮かべられませんでした。</p></div></div>
 
@@ -398,14 +428,14 @@ KIKUZOはこのおばあさん、どんな見た目を想像した？</p></div><
 
 <div class="staffTalkWrapper color01">
 <div class="staffTalkHeader">
-<h1><img src="/SonicChannel/fangallery/image/oshiete_240117_01_02.png" alt=""  />とよだ</h1>
+<h1><img src="/sonic.sega.jp/SonicChannel/upload_images/oshiete_240117_01_02.png" alt=""  />とよだ</h1>
 </div>
 <div class="staffTalkBody"><p>これも情報量が多い！ もしかして食卓戦士って円卓の騎士とかけてる？<br>
 まさかガラハッド！？　※『ソニックと暗黒の騎士』に登場するシルバーによく似たキャラクター</p></div></div>
 
 <div class="staffTalkWrapper color02">
 <div class="staffTalkHeader">
-<h1><img src="/SonicChannel/fangallery/image/oshiete_240117_01_01.png" alt=""  />KIKUZO</h1>
+<h1><img src="/sonic.sega.jp/SonicChannel/upload_images/oshiete_240117_01_01.png" alt=""  />KIKUZO</h1>
 </div>
 <div class="staffTalkBody"><p>ガラハッドは別人でしょ！ でもタマゴの値段が最近やっと落ち着いてきたのは、食卓戦士が頑張ってるからかも。<br>
 ありがとう食卓戦士！</p></div></div>
@@ -414,63 +444,79 @@ KIKUZOはこのおばあさん、どんな見た目を想像した？</p></div><
 
 <div class="staffTalkWrapper color01">
 <div class="staffTalkHeader">
-<h1><img src="/SonicChannel/fangallery/image/oshiete_240117_01_02.png" alt=""  />とよだ</h1>
+<h1><img src="/sonic.sega.jp/SonicChannel/upload_images/oshiete_240117_01_02.png" alt=""  />とよだ</h1>
 </div>
 <div class="staffTalkBody"><p>そういえば......<br>
 そろそろ1月や2月のノベルティが発送されてる頃だと思うけど、ちゃんと発送してるの？</p></div></div>
 <div class="staffTalkWrapper color02">
 <div class="staffTalkHeader">
-<h1><img src="/SonicChannel/fangallery/image/oshiete_240117_01_01.png" alt=""  />KIKUZO</h1>
+<h1><img src="/sonic.sega.jp/SonicChannel/upload_images/oshiete_240117_01_01.png" alt=""  />KIKUZO</h1>
 </div>
 <div class="staffTalkBody"><p class="textXXLarge">当然です！<br>
 投稿してくれたみんなに感謝しながら、発送していますよ！</p></div></div>
 
-<img src="/SonicChannel/fangallery/image/oshiete_240310_01_04.jpg" alt=""  />
+<img src="/sonic.sega.jp/SonicChannel/upload_images/oshiete_240310_01_04.jpg" alt=""  />
 
 <div class="staffTalkWrapper color01">
 <div class="staffTalkHeader">
-<h1><img src="/SonicChannel/fangallery/image/oshiete_240117_01_02.png" alt=""  />とよだ</h1>
+<h1><img src="/sonic.sega.jp/SonicChannel/upload_images/oshiete_240117_01_02.png" alt=""  />とよだ</h1>
 </div>
 <div class="staffTalkBody"><p>......だそうなので、ノベルティが届いたらKIKUZOの名誉（？）のためにも、ぜひSNS等で自慢してくださいね。<br>
 次もみんなの力作、待ってます！</p></div></div>
 
 <div class="staffTalkWrapper color02">
 <div class="staffTalkHeader">
-<h1><img src="/SonicChannel/fangallery/image/oshiete_240117_01_01.png" alt=""  />KIKUZO</h1>
+<h1><img src="/sonic.sega.jp/SonicChannel/upload_images/oshiete_240117_01_01.png" alt=""  />KIKUZO</h1>
 </div>
 <div class="staffTalkBody"><p>それじゃあ今回はこの辺で！<br>最後に......4月のカレンダーイラストも近日公開予定 ！<br>次回は、『ソニック × シャドウ ジェネレーションズ』という新作も発表されたシャドウがルージュと......！？<br>今回投稿してくれたキミも、まだのキミも......一緒に遊びながらノベルティをゲットしよう！　ぜひ投稿してくれ！！</p></div></div>
-
-
-<nav id="substance-navigation"><ul class="boxLink paginationNum">
-
-
-
-</ul></nav>
-</div>
-<ul id="page-sns2">
-	<li class="snsTwitter"><img src="/SonicChannel//common/image/icon_twitter.png" alt="Twitter"></li>
-	<li class="snsFacebook"><img src="/SonicChannel//common/image/icon_facebook.png" alt="facebook"></li>
-	<li class="snsLine"><img src="/SonicChannel//common/image/icon_line.png" alt="LINE"></li>
-</ul>
+				
+				
+				<nav id="substance-navigation"><ul class="boxLink paginationNum">
+			
+			
+			
+				</ul></nav>
+			<ul id="page-sns2">
+				<li class="snsTwitter"><img src="/SonicChannel/assets/images/old/icon_twitter.png" alt="Twitter"></li>
+				<li class="snsFacebook"><img src="/SonicChannel/assets/images/old/icon_facebook.png" alt="facebook"></li>
+				<li class="snsLine"><img src="/SonicChannel/assets/images/old/icon_line.png" alt="LINE"></li>
+			</ul>
+	</div>
 </article>
 </main>
-	<nav id="common-pagination">
-	<ul class="boxLink paginationArrow">
-	<li class="iconLeft"><a rel="prev" href="/SonicChannel/fangallery/oshiete/20240209_008456/" >「おしえて！クリエイターズ」2月の投稿作品公開！</a></li>
-<li class="iconUp"><a href="/SonicChannel/fangallery/oshiete">戻る</a></li>
-	<li class="iconRight"><a rel="next" href="/SonicChannel/fangallery/oshiete/20240412_008551/" >「おしえて！クリエイターズ」4月の投稿作品公開！</a></li>
-	</ul>
-</nav>
-<footer>
+<footer role="contentinfo">
+	<div class="footerWrap">
+			<ul class="common-snsList-sp">
+				<li class="common-snsIcon is-x">
+					<a class="snsTwitter" href=""></a>
+				</li>
+				<li class="common-snsIcon is-line">
+					<a class="snsLine" href=""></a>
+				</li>
+				<li class="common-snsIcon is-facebook">
+					<a class="snsFacebook" href=""></a>
+				</li>
+			</ul><!-- .common-snsList-pc -->
+    <div class="footerContent">
+				<div class="footerLogoBox">
+						<div class="footerSonicChannelLogo"><a href="https://sonic.sega.jp/SonicChannel/" target="_blank"><img src="/SonicChannel/assets/images/common/logo_sonicchannel.png" alt="SONIC CHANNEL" /></a></div>
+						<div class="footerSonicTeamLogo"><a href="http://www.sonicteam.com/" target="_blank"><img src="/SonicChannel/assets/images/common/logo_sonicteam.png" alt="SONIC TEAM" /></a></div>
+					</div><!-- .footerLogoBox -->
+    <ul class="footerLinkList">
+    	<li>【<a href="/SonicChannel/about/#translation-function" target="_blank">翻訳機能について</a>】 </li>
+    	<li>【<a href="/SonicChannel/about/#download-policy" target="_blank">ダウンロードについて</a>】</li>
+     	<li>【<a href="http://sega.jp/contact/soft/" target="_blank">お問い合わせ</a>】</li>
+    	<li>【<a href="https://www.sega.co.jp/privacypolicy/" target="_blank">プライバシーポリシー</a>】</li>
+    	<li>【<a href="https://www.sega.co.jp/web-accessibility/index.html" target="_blank">ウェブアクセシビリティ方針</a>】</li>
+    </ul>
+	<p class="footerCopy">&copy;SEGA</p>
+    </div>
 	<div id="footer-search" class="googleSearch">
 		<div class="gcse-search"></div>
 	</div>
-	<p><a href="http://www.sonicteam.com/"><img src="/SonicChannel/common/image/SonicTeamLogo.png" width="105" height="27" alt="SONIC TEAM"/></a></p>
-	<p>【<a href="/SonicChannel/about/#translation-function">翻訳機能について</a>】 【<a href="/SonicChannel/about/#download-policy">ダウンロードについて</a>】</p>
-	<p>【<a href="http://sega.jp/contact/soft/" target="_blank">お問い合わせ</a>】【<a href="https://www.sega.co.jp/privacypolicy/" target="_blank">プライバシーポリシー</a>】</p>
-	<p>&copy;SEGA</p>
+</div>
 </footer>
-<div id='background-logo'></div>
-<div id='common-bg'><div id='bg-substance'></div></div>
+</div>
 </body>
 </html>
+

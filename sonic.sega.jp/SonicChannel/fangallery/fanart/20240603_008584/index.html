@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# : http://ogp.me/ns/#" lang="ja">
-<meta name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0,user-scalable=yes" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta name="keyword" content="SONIC CHANNEL,ソニックチャンネル,SEGA,セガ,SONICTEAM,ソニックチーム,SONIC,ソニック" />
@@ -19,16 +19,27 @@
 <meta property="og:title" content="ファンアート 2024年6月「Happy Birthday SONIC！」" />
 <meta property="og:url" content="https://sonic.sega.jp/SonicChannel/fangallery/fanart/20240603_008584/" />
 <meta property="og:description" content="今月もファンアートのコーナーにたくさんの作品をご応募頂き、ありがとうございます！ 皆さんから頂いた作品を、スタッフからのコメントと合わせてご紹介いたします。 	 	 mecyoHappyBirthday,SONIC!ソニックお誕生日おめでと..." />
-<meta property="og:image" content="https://sonic.sega.jp/SonicChannel/fangallery/image/fanart_2406_eye.jpg">
+<meta property="og:image" content="https://sonic.sega.jp/SonicChannel/upload_images/fanart_2406_eye.jpg">
 <meta property="og:type" content="article">
 <title>SEGA | ソニックチャンネル | ファンギャラリー | ファンアート 2024年6月「Happy Birthday SONIC！」</title>
 <link rel="start" href="/SonicChannel/">
-<link rel="alternate" type="application/atom+xml" title="Recent Entries" href="/SonicChannel/atom.xml" />
-<link rel="stylesheet" href="/SonicChannel/common/css/import.css">
-<script src="/SonicChannel/common/js/import.js" language="javascript" type="text/javascript"></script>
+<link rel="alternate" type="application/atom+xml" title="Recent Entries" href="http://admin-mt-sonic.sega.jp/sonic.sega.jp/SonicChannel/production/atom.xml" />
+<link rel="stylesheet" href="https://use.typekit.net/sha2lhi.css">
+<link rel="stylesheet" href="/SonicChannel/assets/css/oldStyle.min.css">
+<link rel="stylesheet" href="/SonicChannel/assets/css/common.min.css">
+<script src="/SonicChannel/assets/js/libs/jquery-3.7.1.min.js"></script>
+		<script src="/SonicChannel/assets/js/libs/jquery.inview.min.js"></script>
+<script src="/SonicChannel/assets/js/libs/swiper-bundle.min.js"></script>
+<script src="/SonicChannel/assets/js/libs/jquery.swipebox.min.js"></script>
+<script src="/SonicChannel/assets/js/old/modernizr.js"></script>
+<script src="/SonicChannel/assets/js/old/swiper.min.js"></script>
+<script src="/SonicChannel/assets/js/old/jquery.tubular.1.0.js"></script>
+<script src="/SonicChannel/assets/js/old/velocity.min.js"></script>
+<script src="/SonicChannel/assets/js/old/snsClick.js"></script>
+<script src="/SonicChannel/assets/js/old/init.js"></script>
+<script src="/SonicChannel/assets/js/common.js"></script>
 <script async src="https://cse.google.com/cse.js?cx=b9e22222528a0e6ff"></script>
-<link rel="stylesheet" href="/SonicChannel/fangallery/common/css/import.css">
-<script src="/SonicChannel/fangallery/common/js/import.js" language="javascript" type="text/javascript"></script>
+<!--link rel="stylesheet" href="/SonicChannel/fangallery/common/css/import.css">
 <!--[if lte IE 8]>
 <script src="/SonicChannel/common/js/html5shiv.js"></script>
 <![endif]-->
@@ -39,72 +50,91 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','GTM-MF59Q7B');</script>
 </head>	
 <body class="entry individual fangallery">
-<header>
-	<a href="http://sega.jp/"><img src="/SonicChannel/common/image/header_sega.png" alt="SEGA" width="75" height="25" /></a>
-	<div>
-        <div>
+<div class="wrapper">
+<div class="wrapperBg"></div>
+<header role="banner">
+	<a href="http://sega.jp/" class="headerSEGALogo"><img src="/SonicChannel/assets/images/common/sega_logo_s_b.svg" alt="SEGA" width="75" height="25" /></a>
+			<ul class="common-snsList-pc">
+				<li class="common-snsIcon is-x">
+					<a class="snsTwitter" href=""></a>
+				</li>
+				<li class="common-snsIcon is-line">
+					<a class="snsLine" href=""></a>
+				</li>
+				<li class="common-snsIcon is-facebook">
+					<a class="snsFacebook" href=""></a>
+				</li>
+			</ul><!-- .common-snsList-pc -->
+	<div class="gTranslateBox">
+        <div class="gTranslateIcon">
            <a href="/SonicChannel/about/#translation-function">
               <svg>
-      			  <use xlink:href="/SonicChannel/common/image/header_caution.svg#caution"></use>
+      			  <use xlink:href="/SonicChannel/assets/images/old/header_caution.svg#caution"></use>
     		  </svg>
-        </a>
+        	</a>
         </div>
 		<div class="gtranslate_wrapper"></div>
 		<script>window.gtranslateSettings = {"default_language":"ja","wrapper_selector":".gtranslate_wrapper"}</script>
 		<script src="https://cdn.gtranslate.net/widgets/latest/dropdown.js" defer></script>
 	</div>
-	<h1><a href="/SonicChannel/"><img src="/SonicChannel/common/image/header_sonicchannel.png" alt="ソニックチャンネル" width="191" height="47" /></a></h1>
 </header>
-<nav id="common-navigation">
-	<a href="#" id="nav-trigger"><span id="trigger-icon"></span></a>
+<div id="nav-trigger"><span id="trigger-icon"></span></div>
+<nav id="common-navigation" role="navigation">
 	<div id="overlay-nav"><span></span></div><!-- cd-overlay-nav -->
 	<div id="overlay-content"><span></span></div> <!-- cd-overlay-content -->
-	<ul id="nav-list">
-		<li><a href="/SonicChannel/"><img src="/SonicChannel/common/image/nav_sonicchannel.png" alt="SONIC CHANNEL" /></a></li>
-		<li><a href="/SonicChannel/topics/information/">トピックス</a></li>
-		<li><a href="/SonicChannel/gametitle/nintendo-switch.html">ゲームタイトル</a></li>
-		<li><a href="/SonicChannel/character/">キャラクター</a></li>
-		<li><a href="/SonicChannel/special/">スペシャル</a></li>
-		<li><a href="/SonicChannel/fangallery/" class="activeAnchor">ファンギャラリー</a></li>
-		<li><a href="/SonicChannel/enjoy/wallpaper/">おたのしみ</a></li>
-	</ul>
-	<div class="googleSearch" id="nav-search">
-		<div class="gcse-search"></div>
+	<div class="navWrapper"> 
+		<div class="navLogoItem">
+       	 <h1 class="soinicChannelLogo"><a href="/SonicChannel/"><img src="/SonicChannel/assets/images/common/logo_sonicchannel.png" alt="ソニックチャンネル" width="191" height="47" /></a></h1>
+	</div>
+		<ul id="nav-list">
+        <li class="navItem is-top"><a href="/SonicChannel/">トップ</a></li>
+			<li class="navItem is-topics"><a href="/SonicChannel/topics/">トピックス</a></li>
+			<li class="navItem is-character"><a href="/SonicChannel/character/">キャラクター</a></li>
+    		<li class="navItem is-history"><a href="/SonicChannel/history/">ヒストリー</a></li>
+    		<li class="navItem is-special"><a href="/SonicChannel/special/top.html">スペシャル</a></li>
+			<li class="navItem is-fangallery"><a href="/SonicChannel/fangallery/top.html" class="activeAnchor">ファンギャラリー</a></li>
+		</ul>
+    	<div class="navWhatSonicItem">
+        <a href="/SonicChannel/character/" ><div class="navWhatSonicText">ソニックとは</div><div class="whatSonicArrow"></div></a>
+   		</div>
 	</div>
 </nav>
-<main id="common-contents">
+<main id="common-contents" role="main">
+<div class="headlineCommon"></div>
 <div id="contents-header">
-		<h2 class="headlineCommon">ファンギャラリー</h2>
 			<nav class="contentsNavigation">
-				<ul>
-						<li><a href="/SonicChannel/fangallery/" >すべて</a></li>
-								<li><a href="/SonicChannel/fangallery/fanart/" class="activeAnchor">ファンアート</a></li>
-								<li><a href="/SonicChannel/fangallery/screenshot/">スクリーンショット</a></li>
-								<li><a href="/SonicChannel/fangallery/oshiete/">おしえて!クリエイターズ</a></li>
-								<li><a href="/SonicChannel/fangallery/apply/">投稿</a></li>
-							</ul>
-				<select>
-						<option value="/SonicChannel/fangallery/" >すべて</option>
+            <div class="contentsNavigationInner">
+				<ul class="cateArctestUL">
+								<li class="cateArctestLi"><a href="/SonicChannel/fangallery/fanart/" class="activeAnchor">ファンアート</a></li>
+								<li class="cateArctestLi"><a href="/SonicChannel/fangallery/screenshot/">スクリーンショット</a></li>
+								<li class="cateArctestLi"><a href="/SonicChannel/fangallery/oshiete/">おしえて!クリエイターズ</a></li>
+								<li class="cateArctestLi"><a href="/SonicChannel/fangallery/apply/">投稿</a></li>
+            </ul>
+            <div class="navSelectBox">
+				<select aria-label="選択してください">
 								<option value="/SonicChannel/fangallery/fanart/"  selected>ファンアート</option>
 								<option value="/SonicChannel/fangallery/screenshot/" >スクリーンショット</option>
 								<option value="/SonicChannel/fangallery/oshiete/" >おしえて!クリエイターズ</option>
 								<option value="/SonicChannel/fangallery/apply/" >投稿</option>
-							</select>
+            </select>
+            </div>
 				<h3>ファンアート</h3>
+            </div>
 			</nav>
 </div>
 <article  id="contents-page">
-		<img src="/SonicChannel/fangallery/image/fanart_2406_eye.jpg" alt=""/>
-	<h1>ファンアート 2024年6月「Happy Birthday SONIC！」</h1>
-	<time datetime="2024-06-03T01:14:39+09:00">2024.06.03</time>
-	<ul id="page-sns1">
-		<li class="snsTwitter"><img src="/SonicChannel//common/image/icon_twitter.png" width="25" height="25" alt="Twitter"></li>
-		<li class="snsFacebook"><img src="/SonicChannel//common/image/icon_facebook.png" width="25" height="25" alt="facebook"></li>
-		<li class="snsLine"><img src="/SonicChannel//common/image/icon_line.png" width="25" height="25" alt="LINE"></li>
-	</ul>
-<div id="cotentes-substance">
-
-<p>今月もファンアートのコーナーにたくさんの作品をご応募頂き、ありがとうございます！</p>
+	<div class="contentsPageBg"></div>
+			<img class="contentPageTopImg" src="/SonicChannel/upload_images/fanart_2406_eye.jpg" alt=""/>
+		<h1>ファンアート 2024年6月「Happy Birthday SONIC！」</h1>
+	<div id="cotentes-substance">
+			
+				<time datetime="2024-06-03T01:14:39+09:00">2024.06.03</time>
+				<ul id="page-sns1">
+					<li class="snsTwitter"><img src="/SonicChannel/assets/images/old/icon_twitter.png" width="25" height="25" alt="Twitter"></li>
+					<li class="snsFacebook"><img src="/SonicChannel/assets/images/old/icon_facebook.png" width="25" height="25" alt="facebook"></li>
+					<li class="snsLine"><img src="/SonicChannel/assets/images/old/icon_line.png" width="25" height="25" alt="LINE"></li>
+				</ul>		
+				<p>今月もファンアートのコーナーにたくさんの作品をご応募頂き、ありがとうございます！</p>
 <p>皆さんから頂いた作品を、スタッフからのコメントと合わせてご紹介いたします。</p>
 
 
@@ -112,96 +142,112 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	<div class="column3rd columnFanart">
 
 
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2406_0046.jpg" title="mecyo"><img src="/SonicChannel/fangallery/fanart/image/s2406_0046.jpg" alt="" /></a><h2>mecyo</h2><h3>HappyBirthday,SONIC!</h3><p>ソニックお誕生日おめでとう！いつでもどこでもクールに駆け抜ける姿はあこがれです彼と、彼を囲む仲間やライバルたちの活躍をこれからも応援しています</p><h3>スタッフコメント</h3><p>最高にかっこいいソニックと素敵な仲間たち！みんなの表情が生き生きとしていてずっと見ていたくなります。ひとりずつじっくり見ると、それぞれ何を考えているのか伝わるようで楽しい気持ちになりました。</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2406_0046.jpg" title="mecyo"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2406_0046.jpg" alt="" /></a><h2>mecyo</h2><h3>HappyBirthday,SONIC!</h3><p>ソニックお誕生日おめでとう！いつでもどこでもクールに駆け抜ける姿はあこがれです彼と、彼を囲む仲間やライバルたちの活躍をこれからも応援しています</p><h3>スタッフコメント</h3><p>最高にかっこいいソニックと素敵な仲間たち！みんなの表情が生き生きとしていてずっと見ていたくなります。ひとりずつじっくり見ると、それぞれ何を考えているのか伝わるようで楽しい気持ちになりました。</p></div>
 
 
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2406_0001.jpg" title="リカンチャ"><img src="/SonicChannel/fangallery/fanart/image/s2406_0001.jpg" alt="" /></a><h2>リカンチャ</h2><h3>Level33</h3><p>Level33のソニック！おめでとうございます！笑ソニックは最高にクール！そして可愛い！大好きです！シンプルで「33周年」をポイントに描きました！</p><h3>スタッフコメント</h3><p>シンプルなドローイングで、色合いもおしゃれです。「３」の形をした窓からの見え方も面白いですね。</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2406_0002.jpg" title="ありさん"><img src="/SonicChannel/fangallery/fanart/image/s2406_0002.jpg" alt="" /></a><h2>ありさん</h2><h3>ソニックとココ</h3><p>たくさんの　ココがお祝いしてくれてうれしそうなソニック。</p><h3>スタッフコメント</h3><p>ケーキの上で、賑やかなパーティーの始まり！普段はおとなしいココたちも大騒ぎで楽しそうです！</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2406_0003.jpg" title="ねぎとろボーイ"><img src="/SonicChannel/fangallery/fanart/image/s2406_0003.jpg" alt="" /></a><h2>ねぎとろボーイ</h2><h3>思い出</h3><p>今年もソニックの誕生日が近づいていますね本人も毎年この時期になると今までの色んな誕生日思い出してるのではないでしょうか？？HappyBirthday SONIC!!</p><h3>スタッフコメント</h3><p>楽しい記憶を封じ込めた一枚。今年の写真はどんな思い出になるのでしょうか？</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2406_0004.jpg" title="Lok"><img src="/SonicChannel/fangallery/fanart/image/s2406_0004.jpg" alt="" /></a><h2>Lok</h2><h3>バースデーケーキ</h3><p>ハッピーバースデーソニック！ 誕生日のソニックとエッグマンに思い出いっぱいのケーキをプレゼントしました！いつの間にか仲間も敵もたくさん増えたね。33周年おめでとう！これからもずっと追いかけていくよ！</p><h3>スタッフコメント</h3><p>初登場以来、長い付き合いの二人。お互いの思い出もたくさんありそうです。今日はそれぞれの好物でお祝いですね！</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2406_0005.jpg" title="亞莉亜(アリア)"><img src="/SonicChannel/fangallery/fanart/image/s2406_0005.jpg" alt="" /></a><h2>亞莉亜(アリア)</h2><h3>Happybirthday!Sonic</h3><p>ソニック、33周年おめでとうございます！これからもソニックが前に進めるように応援していきます！！ゲームタイトルのロゴは手描きで描きました。</p><h3>スタッフコメント</h3><p>たくさんの冒険をして、たくさんの仲間たちと出会い、別れて、ここまで来ました。これからも一緒に進んでいきましょう！</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2406_0006.jpg" title="sweet cocoa"><img src="/SonicChannel/fangallery/fanart/image/s2406_0006.jpg" alt="" /></a><h2>sweet cocoa</h2><h3>バースデーチリドッグでお祝いだ！</h3><p>ソニックの33回目の誕生日をお祝いするテイルスを、羊毛フェルトで制作しました。テイルスが用意したのは、バースデーケーキならぬ、特大バースデーチリドッグ！お誕生日おめでとう、ソニック！</p><h3>スタッフコメント</h3><p>つぶらな瞳、２倍は高く飛べそうなフサフサの尻尾がカワイイです！でっかいプレゼントで、ソニックをびっくりさせましょう！</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2406_0007.jpg" title="りんご"><img src="/SonicChannel/fangallery/fanart/image/s2406_0007.jpg" alt="" /></a><h2>りんご</h2><h3>Happy Birthday</h3><p>とても明るくてカッコいい姿を見て何度も元気を貰いました。出会えたことに感謝しています。お誕生日おめでとうソニック！</p><h3>スタッフコメント</h3><p>こっちを向いて、ちょっと照れてるソニック。「アリガトな！」って言ったら、すぐにでも向こうを向いて走り出して行きそうです。</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2406_0008.jpg" title="T2"><img src="/SonicChannel/fangallery/fanart/image/s2406_0008.jpg" alt="" /></a><h2>T2</h2><h3>これからも一緒に。</h3><p>ソニック、誕生日おめでとう！今までに出てきた道具を翼のようにして描いてみました！どの作品もキャラクターも魅力が多すぎて毎日楽しいです！これからのソニックたちの冒険も楽しみにしています！ちなみに私事なのですが、あと数か月で私もソニックと同じ15歳になるんです！なんかドキドキしちゃいます！</p><h3>スタッフコメント</h3><p>冒険の数だけ成長がある。大きくなった分、遠くまで羽ばたいて行ける。心の翼は、デッカいほうが良いですね！</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2406_0009.jpg" title="ちば"><img src="/SonicChannel/fangallery/fanart/image/s2406_0009.jpg" alt="" /></a><h2>ちば</h2><h3>Happy Birthday SONIC</h3><p>アルバムの彩がまた1枚、2枚。</p><h3>スタッフコメント</h3><p>瞳を閉じれば浮かんでくる、数々の大切なメモリー。いつまでも大切にしまっておきたい瞬間ですね。</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2406_0010.jpg" title="りくSONIC"><img src="/SonicChannel/fangallery/fanart/image/s2406_0010.jpg" alt="" /></a><h2>りくSONIC</h2><h3>モダンとクラシックで誕生日お祝い</h3><p>クラシックソニックとモダンソニックがそれぞれのテイルスと一緒に誕生日をお祝いしています！</p><h3>スタッフコメント</h3><p>ジェネレーションを駆け抜けて、ここまで来ました。３３回目の記念日は、みんなで賑やかに祝いましょう！</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2406_0011.jpg" title="ヘルメット大佐"><img src="/SonicChannel/fangallery/fanart/image/s2406_0011.jpg" alt="" /></a><h2>ヘルメット大佐</h2><h3>誕生パーティーの準備中</h3><p>トリップがソニックのために頑張ってパーティーの準備をしているところを描きました、最後の仕上げとしてロウソクにトリップならではの方法で火をつけているところで予定よりも早くソニックが来てしまったようで...</p><h3>スタッフコメント</h3><p>お祝いのろうそくに火をつけるトリップの様子が可愛く描かれていますね。その様子を目撃したソニックの表情もまた微笑ましい作品です。</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2406_0012.jpg" title="山田の大蛇"><img src="/SonicChannel/fangallery/fanart/image/s2406_0012.jpg" alt="" /></a><h2>山田の大蛇</h2><h3>３３年の時を超えて</h3><p>時を超え、どんな形となっても愛され続けるソニックはとても素晴らしい"粋"な主人公ですね！これからもその走りを追い続けたいと思います！ソニック、お誕生日おめでとう！</p><h3>スタッフコメント</h3><p>モダンとクラシック、勢いある元気な二人のソニックを描いてくれました！背景の細部までしっかり描き込まれた見応えのある作品に仕上がっています。</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2406_0013.jpg" title="楠チェリー"><img src="/SonicChannel/fangallery/fanart/image/s2406_0013.jpg" alt="" /></a><h2>楠チェリー</h2><h3>Happy Birthday 2024</h3><p>「祝福」や「幸福」などの花言葉を持つ花を描き込みました今年はソニックバースデーイベントが開催されてとても嬉しいです(行きます！)また一年よろしくソニック！</p><h3>スタッフコメント</h3><p>花言葉に絡めたモチーフとの構成というアイデアが素晴らしく、淡く美しい色彩も印象的でソニックに対する深い愛情が伝わってくる作品です。</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2406_0014.jpg" title="ChrisWolfie"><img src="/SonicChannel/fangallery/fanart/image/s2406_0014.jpg" alt="" /></a><h2>ChrisWolfie</h2><h3>世界からのお祝い</h3><p>いつもお世語になった、いろんな所から溢れているの思い、今ここで全部伝えたい!「ありがとう!誕生日おめでとう!ソニック」</p><h3>スタッフコメント</h3><p>ソニックの幸せな笑みが印象的なイラストを頂きました！フワッとした浮遊感がうまく描かれており、背景のカラフルな演出も効果的で良いですね。</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2406_0015.jpg" title="アクア"><img src="/SonicChannel/fangallery/fanart/image/s2406_0015.jpg" alt="" /></a><h2>アクア</h2><h3>HAPPY 33rd BIRTHDAY</h3><p>33周年おめでとうございます！ソニックフレンズやシャドウ、そしてこれからのソニックたちの活躍を楽しみにしています！</p><h3>スタッフコメント</h3><p>淡く美しい色彩が目を惹きますね！ソニックらしい少しやんちゃな表情と、オリジナリティのあるタッチが効いた魅力あるイラストです。</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2406_0016.jpg" title="メロン"><img src="/SonicChannel/fangallery/fanart/image/s2406_0016.jpg" alt="" /></a><h2>メロン</h2><h3>Happy Birthday</h3><p>33周年お誕生日おめでとうソニック!!これからのソニックがどんな活躍をするのか楽しみにしています。</p><h3>スタッフコメント</h3><p>ソニックフレンズでのキュートなイラスト、ありがとうございます！ポップで可愛いソニックたちの活躍も楽しみですね。</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2406_0017.jpg" title="ュ"><img src="/SonicChannel/fangallery/fanart/image/s2406_0017.jpg" alt="" /></a><h2>ュ</h2><h3>piece of cake　楽勝だぜ！</h3><p>久しぶりにファンアート応募させていただきます。落ち込んだ時、勇気が出ないとき、ソニックの言葉にいつも元気をもらった、背中を押してくれた。本当にありがとう。風のように強くて優しくて、世界一クールでイケてるハリネズミ。ソニック誕生日おめでとう。</p><h3>スタッフコメント</h3><p>ケーキを手にしたソニックの表情が可愛いですね。白地に青で構成されたシンプルな配色バランスがソニックらしく爽やかで清々しい雰囲気を演出しています。</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2406_0018.jpg" title="Aksi"><img src="/SonicChannel/fangallery/fanart/image/s2406_0018.jpg" alt="" /></a><h2>Aksi</h2><h3>33th</h3><p>ソニックの輝く姿を見て,いつもたくさん元気をもらいました、これからも輝き続けて欲しい</p><h3>スタッフコメント</h3><p>カッコ可愛い二人のスーパーソニックを描いてくれました！躍動感のある流線と、輝く黄色が映えた色彩バランスが素敵な作品です。</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2406_0019.jpg" title="スピーディー"><img src="/SonicChannel/fangallery/fanart/image/s2406_0019.jpg" alt="" /></a><h2>スピーディー</h2><h3>みんなでお祝い2024</h3><p>様々なシリーズのキャラクターがお祝いに駆けつけてくれました。</p><h3>スタッフコメント</h3><p>たくさんのキャラクター達を描いてくれました！クラッカーの音や歓声が聞こえてきそうな、お祝いムードの楽しい雰囲気がとても上手く描かれています。</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2406_0020.jpg" title="ケレン"><img src="/SonicChannel/fangallery/fanart/image/s2406_0020.jpg" alt="" /></a><h2>ケレン</h2><h3>一緒に誕生日を祝いましょう！</h3><p>ソニック、お誕生日おめでとうございます！友達との誕生日パーティーほど楽しいものはない。今日はたくさんのチリドッグを食べなければならない！</p><h3>スタッフコメント</h3><p>自信に溢れたソニックの表情が良いですね！仲間達に祝福されながら食べるチリドックの味は格別なものとなるでしょう。</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2406_0021.jpg" title="アヤアヤ"><img src="/SonicChannel/fangallery/fanart/image/s2406_0021.jpg" alt="" /></a><h2>アヤアヤ</h2><h3>Happy Birthday</h3><p>みんなで盛大に誕生日を祝う</p><h3>スタッフコメント</h3><p>みんなで記念撮影でしょうか？にぎやかでとてもカラフルで、それぞれ楽しんでいるのがよく伝わってきます！背景の彩りも良いですね。</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2406_0022.jpg" title="たい"><img src="/SonicChannel/fangallery/fanart/image/s2406_0022.jpg" alt="" /></a><h2>たい</h2><h3>おーいソニック！今日は君の誕生日だよ</h3><p>ソニックは走るのに夢中で自分の誕生日をうっかり忘れていたみたいです</p><h3>スタッフコメント</h3><p>テイルスからのお届け便！誕生日でも走り続けるソニックと、追いかけてきたテイルスの表情がかわいらしいです。これからパーティでも遅くないはず！</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2406_0023.jpg" title="不滅のハリネズミ"><img src="/SonicChannel/fangallery/fanart/image/s2406_0023.jpg" alt="" /></a><h2>不滅のハリネズミ</h2><h3>彼が駆け抜けた過去、そして未来</h3><p>誕生日ということで、ソニックシリーズの名シーンを振り返るイラストを描きました。「あこがれや勘違い、作られた、目覚めた、未来のために来た、などで出会った仲間たちは、今や欠かせない存在」ということを思いながら、仲間の作ったチリドッグとサイバーエネルギーを手に、今日も未来へ向かってソニックは走っています。</p><h3>スタッフコメント</h3><p>ソニックシリーズの様々な名場面が1枚に詰まっています！どれもソニックの大切な記憶で、ソニックを形作る一部なのでしょう。その中にはもちろんチリドッグも！</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2406_0024.jpg" title="ツソヅ"><img src="/SonicChannel/fangallery/fanart/image/s2406_0024.jpg" alt="" /></a><h2>ツソヅ</h2><h3>3人で思いっきり走ろうぜ！！</h3><p>ソニック33周年おめでとうございます！！！ソニックとクラシックソニックとシャドウの3人で競走しているイメージにしました！！その奥にエッグマン達が楽しそうに遊んでるのも加えて...。ソニシャドジェネレーションとソニムビ3とも楽しみにしています！！そしてこれからもソニック愛してます！！</p><h3>スタッフコメント</h3><p>クラシックとモダン、様々な要素がうまくまとまっています！クラシック風のロゴがすごい...！競争するソニックたちの一方で、エッグモービルを動力源に！？ループの上で遊んでいるエッグマンたちがとてもかわいらしいです！</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2406_0025.jpg" title="ももうさぎ"><img src="/SonicChannel/fangallery/fanart/image/s2406_0025.jpg" alt="" /></a><h2>ももうさぎ</h2><h3>33rd Anniversary!</h3><p>誕生日絵で、キャラクター一人一人を目立たせたいと思ったので、今回は初めてデジタルで描きました。テスト期間だったのであまり描き込めなかったのが少し残念です。これからもずっと応援します！生まれてきてくれてありがとう！ソニックお誕生日おめでとう！</p><h3>スタッフコメント</h3><p>3人それぞれの見せ場を描いてくれました！異なる背景に、カオスエメラルドを中央に配置した構図がかっこいいです。テストもがんばってください！</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2406_0026.jpg" title="Luna"><img src="/SonicChannel/fangallery/fanart/image/s2406_0026.jpg" alt="" /></a><h2>Luna</h2><h3>2人のソニック、ハッピーバースデー！！</h3><p>ソニック誕生日おめでとうございます！！自由で冒険好きな彼らにこれからもついていきます！大好き！！！！</p><h3>スタッフコメント</h3><p>クラシックとモダンの表情の違いが面白いですね！特に、しっかりチリドッグを味わっているクラシックソニックがかわいいです。一人ひとりとても丁寧に描かれていて、背景もお祝い感にあふれた作品です！</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2406_0027.jpg" title="ABB"><img src="/SonicChannel/fangallery/fanart/image/s2406_0027.jpg" alt="" /></a><h2>ABB</h2><h3>夜空の花火</h3><p>お誕生日おめでとうございます！これからも応援し続けます</p><h3>スタッフコメント</h3><p>月をバックに、アドベンチャーのポーズを決めるソニックがとてもカッコイイ！夜に花火でお祝いするのもオシャレです。</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2406_0028.jpg" title="くりきんとん。"><img src="/SonicChannel/fangallery/fanart/image/s2406_0028.jpg" alt="" /></a><h2>くりきんとん。</h2><h3>チャオたちからの贈り物</h3><p>チリドッグをお腹いっぱい食べて眠っているソニックの頭に花冠が。手伝ってもらいながらもチャオ達が頑張って作ったみたい。</p><h3>スタッフコメント</h3><p>チャオたちがお祝いしてくれていますが、シャドウも手伝ってくれたんでしょうか...？背景にいるシルバーやプレゼントといい、ストーリーが気になりますね！</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2406_0029.jpg" title="SNさん"><img src="/SonicChannel/fangallery/fanart/image/s2406_0029.jpg" alt="" /></a><h2>SNさん</h2><h3>お誕生日おめでとう！</h3><p>今回はショートアニメに出てくるソニックフレンズを意識して描きました！小さくてとても可愛く毎日癒されてます!誕生日でもとても嬉しく感じてると思います！改めて誕生日おめでとう！！</p><h3>スタッフコメント</h3><p>お祝いされてお目目キラッキラのソニックがかわいすぎます！果たしてエッグマンはプレゼントを渡せるんでしょうか...！誕生日くらい、素直になれると良いのですが！？</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2406_0030.jpg" title="あーのん"><img src="/SonicChannel/fangallery/fanart/image/s2406_0030.jpg" alt="" /></a><h2>あーのん</h2><h3>誕生日おめでとう！ソニック</h3><p>スーパースターズの能力のアバターを使うと沢山のソニックが出てきたかと思いきや、今までのソニックが誕生日の主役として来てくれました！こだわった所もあるので、是非探して見てください！ソニック、誕生日おめでとう！ずっと大好きだよ！</p><h3>スタッフコメント</h3><p>これまでに登場してきた、様々なソニック！クラシックやモダンはもちろん、ソニックプライムやソニックブームのソニックもいますね！中央のソニックの笑顔が素敵です。</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2406_0031.jpg" title="グローゼ"><img src="/SonicChannel/fangallery/fanart/image/s2406_0031.jpg" alt="" /></a><h2>グローゼ</h2><h3>DJ "BIRTHDAY" PARTY</h3><p>coolな音楽が好きでパーティーのDJもよく担当するソニック。今日のテーマは「BIRTHDAY」で、素敵に登場！この前の冒険で出会った友達の曲でムードは最高潮♪誰のためのかな?正解はエメルと... カリバーン！？じゃあ次はいったい誰の？パーティーはどんどん盛り上がっていきます...♪</p><h3>スタッフコメント</h3><p>友達のための曲と共にDJをするソニックに、エモさのあるフィルターや色味の表現がピッタリですね！思い出に浸りながらのパーティを楽しめそうです。</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2406_0032.jpg" title="けいくるず！"><img src="/SonicChannel/fangallery/fanart/image/s2406_0032.jpg" alt="" /></a><h2>けいくるず！</h2><h3>はじめまして！ソニック！</h3><p>ソニック！初めて一緒にお誕生日お祝いするね！大好きだよ！</p><h3>スタッフコメント</h3><p>大きな風船とケーキに囲まれて、パーティの準備はバッチリですね！初めてのお誕生日のお祝いに、素敵な作品を送ってくださりありがとうございます！</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2406_0033.jpg" title="トム"><img src="/SonicChannel/fangallery/fanart/image/s2406_0033.jpg" alt="" /></a><h2>トム</h2><h3>HPB bouquet</h3><p>ナックルズ、ソニック、テイルス、エミーちゃんの色の花でブーケにしてみました...！！ソニックはどんな花より一番です！！！</p><h3>スタッフコメント</h3><p>美しいポストカードのような一枚を頂きました！ソニック達をテーマにしたブーケがとても華やかです。まんざらでもないソニックの表情がカッコいいですね。</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2406_0034.jpg" title="みんてぃあ"><img src="/SonicChannel/fangallery/fanart/image/s2406_0034.jpg" alt="" /></a><h2>みんてぃあ</h2><h3>お誕生日おめでとうケーキ</h3><p>ソニックお誕生日おめでとう！お誕生日なのでケーキを作って見ました。バタフライピーを使って青色にしたシフォンケーキです。桃のお花タルトやパイン飴、チョコで飾り付け！可愛く出来たと思います！</p><h3>スタッフコメント</h3><p>桃の花びらの一枚一枚や、ソニックの顔まで丁寧に可愛らしく仕上がっています！さりげなくもピッタリな食べられるリングの表現にクスッと笑いました。</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2406_0035.jpg" title="あおいハリネズミ"><img src="/SonicChannel/fangallery/fanart/image/s2406_0035.jpg" alt="" /></a><h2>あおいハリネズミ</h2><h3>スピードオブロック！</h3><p>数々のソニックシリーズの曲をクールに引きこなすソニック様を描きました！時代を超えてもなおカッコいいソニック様をコミカルでロックなタッチで表現しています33周年おめでとう！！</p><h3>スタッフコメント</h3><p>躍動感ある名前のグラフィティがクールなソニックとテーマのロックによく似合っています！ギターを華麗に弾く手に見惚れてしまいそうです。</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2406_0036.jpg" title="菊丸"><img src="/SonicChannel/fangallery/fanart/image/s2406_0036.jpg" alt="" /></a><h2>菊丸</h2><h3>Happy Birthday</h3><p>誕生日おめでとう！誕生日の主役の座を賭けてゲームで勝負！</p><h3>スタッフコメント</h3><p>ゲームで対戦したら一体どちらに軍配が上がるのでしょう！？気になりますね。勝負しつつもお互い楽しそうなところが、いつもの二人らしいですね。</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2406_0037.jpg" title="ハリーマロン"><img src="/SonicChannel/fangallery/fanart/image/s2406_0037.jpg" alt="" /></a><h2>ハリーマロン</h2><h3>おたおめ！ソニック&フレンズ2006!</h3><p>初めてファンアートを描いてみました！ソニック&フレンズ風に、キャラクターは新ソニの3人のヘッジホッグ！祝ってもらえるソニックに、ノリノリでケーキをあげるシルバーと、ちょっとツンデレなシャドウを可愛く描きました！改めまして、ソニック33周年、おめでとうございます！</p><h3>スタッフコメント</h3><p>初投稿ありがとうございます！ソニック＆フレンズらしいデフォルメ感がとても可愛いです！シャドウが目線を逸らしているところにこだわりを感じます。</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2406_0038.jpg" title="王張アルト"><img src="/SonicChannel/fangallery/fanart/image/s2406_0038.jpg" alt="" /></a><h2>王張アルト</h2><h3>33</h3><p>暑い日々が続く中、"33"周年記念にソニックの耳の形をしたアイスキャンディーが大ヒット中。困惑する本人</p><h3>スタッフコメント</h3><p>耳の形のアイスキャンディーはインパクト大で面白いですね！かじっても良いものか、ちょっと迷ってしまいそうです。テイルスの様子を見るに、味は良さそうですが...？</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2406_0039.jpg" title="もとい"><img src="/SonicChannel/fangallery/fanart/image/s2406_0039.jpg" alt="" /></a><h2>もとい</h2><h3>HAPPY BIRTHDAY！！！！</h3><p>みんなにお祝いされるソニックを、自分からのお祝いの気持ちもたくさん込めて描きました。いつもカッコいい理想のヒーローソニック、お誕生日おめでとうございます！大好き！</p><h3>スタッフコメント</h3><p>お祝いムードいっぱいのカラフルな作品を頂きました！ゴキゲンなソニックにこちらも笑顔になります。透明感のある色使いも美しく、大きなフルーツケーキも美味しそうです！</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2406_0040.jpg" title="作の宿"><img src="/SonicChannel/fangallery/fanart/image/s2406_0040.jpg" alt="" /></a><h2>作の宿</h2><h3>33rd Anniversary!!</h3><p>シリーズ生誕33周年&ソニック誕生日おめでとうございます!!今年はフレンズも一緒にお祝いです。</p><h3>スタッフコメント</h3><p>手のひらサイズのソニック＆フレンズのみんなが可愛いです！ゴージャスな箱詰めのリングに囲まれるソニックは、本日の主役感がありますね。</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2406_0041.jpg" title="アゲハユリ"><img src="/SonicChannel/fangallery/fanart/image/s2406_0041.jpg" alt="" /></a><h2>アゲハユリ</h2><h3>誕生日の冒険</h3><p>とある川の上。ソニック、テイルス、ナックルズ3人はカラフルかさを舟にして冒険中。「こっちだよ！」「たまにはこういうのも悪くないな。」「腕がなるぜ！」テイルスの持つ地図の場所には何があるのか。水面にはソニックへの祝福の文字が浮かんでいました。</p><h3>スタッフコメント</h3><p>水面に祝福のメッセージを表現するとは何て粋な演出！ソニックの靴が壁紙ではいていたものだったり、ソニころ仕様のデザインを持っていたりと、小ネタも素晴らしい。</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2406_0042.jpg" title="tenteko"><img src="/SonicChannel/fangallery/fanart/image/s2406_0042.jpg" alt="" /></a><h2>tenteko</h2><h3>HAPPY　BIRTHDAY！</h3><p>33周年おめでとうございます！時間がなく簡単なイラストしか描けなかったのが少し悔しいです。ソニックは色んな姿があるので描くのが楽しいです！</p><h3>スタッフコメント</h3><p>いつものソニックもイケていますが、スーパーソニックも最高にかっこいいですよね！シンプルな構成ながらもソニックの魅力がダイナミックに伝わる素敵な作品をいただきました。</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2406_0043.jpg" title="spotty"><img src="/SonicChannel/fangallery/fanart/image/s2406_0043.jpg" alt="" /></a><h2>spotty</h2><h3>宿敵の誕生日パーティー</h3><p>宿敵であるソニックとエッグマンは、お互いに相手の誕生日ケーキを用意しました。二人のいたずらしたい思いは意外と同じ...ですが、ケーキは見た目よりおいしいかも？</p><h3>スタッフコメント</h3><p>やっぱりこの二人は似た者同士なのでしょうか？ふたりのなんとも言えない表情がとても微笑ましいですね。もしかしてケーキのトッピングも手作り？！...気になります。</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2406_0044.jpg" title="sonic2024　〔9歳5か月〕"><img src="/SonicChannel/fangallery/fanart/image/s2406_0044.jpg" alt="" /></a><h2>sonic2024　〔9歳5か月〕</h2><h3>Happy Birthday　ソニック　</h3><p>さあ1カ月3日後にはソニックの誕生日ですこの33年でゲーム，アニメなどがたくさん作られてきたその後のゲームも楽しみですけど歴史をふりかえることもいいかもしれませんHappy Birthday SONIC！</p><h3>スタッフコメント</h3><p>大好物のチリドッグをプレゼントされて嬉しそうなソニックの気持ちが伝わります！今年はぜひ３３年分の歴史を楽しんでもらえたら嬉しいですね。</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2406_0045.jpg" title="ななハリ"><img src="/SonicChannel/fangallery/fanart/image/s2406_0045.jpg" alt="" /></a><h2>ななハリ</h2><h3>33回目のバースデー</h3><p>今年は33周年！色んなソニックがリボンロードを渡って新たな冒険へ向かっていきます...これからもたく"さん"のソニックが"み"らいに向かって走ってくれるのが楽しみです！</p><h3>スタッフコメント</h3><p>いろんな世界や時代のソニックを描いてくれました。それぞれ丁寧に描き分けていてすごい！背景にもゲーム中に見たことあるアイテムがあって見ごたえ抜群の作品です。</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2406_0047.jpg" title="のあ"><img src="/SonicChannel/fangallery/fanart/image/s2406_0047.jpg" alt="" /></a><h2>のあ</h2><h3>バースデー前夜</h3><p>あとは、起きたその時の反応を心待ちにするだけ。</p><h3>スタッフコメント</h3><p>この１カットで前後のストーリーが想像できて、心温まらずにはいられません！！祝ってあげたい気持ちの尊さを感じられる優しい作品でした。</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2406_0048.jpg" title="とるん"><img src="/SonicChannel/fangallery/fanart/image/s2406_0048.jpg" alt="" /></a><h2>とるん</h2><h3>おめでとう！ソニック！</h3><p>おめでとうございます！めっちゃがんばりました！33にちなんで3人ずつ。</p><h3>スタッフコメント</h3><p>ソニックの誕生日に駆けつけてくれたいつメンたち！ちゃっかりシャドウも３ピースをしてくれていてほっこりしました。</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2406_0049.jpg" title="ゆいファイヤ　コースティック"><img src="/SonicChannel/fangallery/fanart/image/s2406_0049.jpg" alt="" /></a><h2>ゆいファイヤ　コースティック</h2><h3>ステージでソニックのお祝い</h3><p>ソニックのお誕生日会をしているところです。ステージの上でドーナツとケーキをたべるところです。 あおいくん６才より </p><h3>スタッフコメント</h3><p>お誕生日会の楽しい雰囲気がいっぱい感じられる愛らしい作品を頂きました！ケーキにもハートがトッピングされていてかわいいですね。どんな味だったのたぜひ教えてほしいです！</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2406_0050.jpg" title="NekoShun"><img src="/SonicChannel/fangallery/fanart/image/s2406_0050.jpg" alt="" /></a><h2>NekoShun</h2><h3>ソニック 33th</h3><p>モダンソニック、クラシックソニック、映画ソニック，ソニックが一番好きです~HAPPY BIRTHDAY TO THE MOST FAMOUS HEDGEHOG IN THE WORLD!</p><h3>スタッフコメント</h3><p>エンブレムから飛び出すソニック達！モダンソニックのポーズはあのポーズですね。丁寧に彩色されていて背景もソニックらしいモチーフがいっぱいで愛の感じる素敵な作品を頂きました。</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2406_0001.jpg" title="リカンチャ"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2406_0001.jpg" alt="" /></a><h2>リカンチャ</h2><h3>Level33</h3><p>Level33のソニック！おめでとうございます！笑ソニックは最高にクール！そして可愛い！大好きです！シンプルで「33周年」をポイントに描きました！</p><h3>スタッフコメント</h3><p>シンプルなドローイングで、色合いもおしゃれです。「３」の形をした窓からの見え方も面白いですね。</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2406_0002.jpg" title="ありさん"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2406_0002.jpg" alt="" /></a><h2>ありさん</h2><h3>ソニックとココ</h3><p>たくさんの　ココがお祝いしてくれてうれしそうなソニック。</p><h3>スタッフコメント</h3><p>ケーキの上で、賑やかなパーティーの始まり！普段はおとなしいココたちも大騒ぎで楽しそうです！</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2406_0003.jpg" title="ねぎとろボーイ"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2406_0003.jpg" alt="" /></a><h2>ねぎとろボーイ</h2><h3>思い出</h3><p>今年もソニックの誕生日が近づいていますね本人も毎年この時期になると今までの色んな誕生日思い出してるのではないでしょうか？？HappyBirthday SONIC!!</p><h3>スタッフコメント</h3><p>楽しい記憶を封じ込めた一枚。今年の写真はどんな思い出になるのでしょうか？</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2406_0004.jpg" title="Lok"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2406_0004.jpg" alt="" /></a><h2>Lok</h2><h3>バースデーケーキ</h3><p>ハッピーバースデーソニック！ 誕生日のソニックとエッグマンに思い出いっぱいのケーキをプレゼントしました！いつの間にか仲間も敵もたくさん増えたね。33周年おめでとう！これからもずっと追いかけていくよ！</p><h3>スタッフコメント</h3><p>初登場以来、長い付き合いの二人。お互いの思い出もたくさんありそうです。今日はそれぞれの好物でお祝いですね！</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2406_0005.jpg" title="亞莉亜(アリア)"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2406_0005.jpg" alt="" /></a><h2>亞莉亜(アリア)</h2><h3>Happybirthday!Sonic</h3><p>ソニック、33周年おめでとうございます！これからもソニックが前に進めるように応援していきます！！ゲームタイトルのロゴは手描きで描きました。</p><h3>スタッフコメント</h3><p>たくさんの冒険をして、たくさんの仲間たちと出会い、別れて、ここまで来ました。これからも一緒に進んでいきましょう！</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2406_0006.jpg" title="sweet cocoa"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2406_0006.jpg" alt="" /></a><h2>sweet cocoa</h2><h3>バースデーチリドッグでお祝いだ！</h3><p>ソニックの33回目の誕生日をお祝いするテイルスを、羊毛フェルトで制作しました。テイルスが用意したのは、バースデーケーキならぬ、特大バースデーチリドッグ！お誕生日おめでとう、ソニック！</p><h3>スタッフコメント</h3><p>つぶらな瞳、２倍は高く飛べそうなフサフサの尻尾がカワイイです！でっかいプレゼントで、ソニックをびっくりさせましょう！</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2406_0007.jpg" title="りんご"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2406_0007.jpg" alt="" /></a><h2>りんご</h2><h3>Happy Birthday</h3><p>とても明るくてカッコいい姿を見て何度も元気を貰いました。出会えたことに感謝しています。お誕生日おめでとうソニック！</p><h3>スタッフコメント</h3><p>こっちを向いて、ちょっと照れてるソニック。「アリガトな！」って言ったら、すぐにでも向こうを向いて走り出して行きそうです。</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2406_0008.jpg" title="T2"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2406_0008.jpg" alt="" /></a><h2>T2</h2><h3>これからも一緒に。</h3><p>ソニック、誕生日おめでとう！今までに出てきた道具を翼のようにして描いてみました！どの作品もキャラクターも魅力が多すぎて毎日楽しいです！これからのソニックたちの冒険も楽しみにしています！ちなみに私事なのですが、あと数か月で私もソニックと同じ15歳になるんです！なんかドキドキしちゃいます！</p><h3>スタッフコメント</h3><p>冒険の数だけ成長がある。大きくなった分、遠くまで羽ばたいて行ける。心の翼は、デッカいほうが良いですね！</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2406_0009.jpg" title="ちば"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2406_0009.jpg" alt="" /></a><h2>ちば</h2><h3>Happy Birthday SONIC</h3><p>アルバムの彩がまた1枚、2枚。</p><h3>スタッフコメント</h3><p>瞳を閉じれば浮かんでくる、数々の大切なメモリー。いつまでも大切にしまっておきたい瞬間ですね。</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2406_0010.jpg" title="りくSONIC"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2406_0010.jpg" alt="" /></a><h2>りくSONIC</h2><h3>モダンとクラシックで誕生日お祝い</h3><p>クラシックソニックとモダンソニックがそれぞれのテイルスと一緒に誕生日をお祝いしています！</p><h3>スタッフコメント</h3><p>ジェネレーションを駆け抜けて、ここまで来ました。３３回目の記念日は、みんなで賑やかに祝いましょう！</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2406_0011.jpg" title="ヘルメット大佐"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2406_0011.jpg" alt="" /></a><h2>ヘルメット大佐</h2><h3>誕生パーティーの準備中</h3><p>トリップがソニックのために頑張ってパーティーの準備をしているところを描きました、最後の仕上げとしてロウソクにトリップならではの方法で火をつけているところで予定よりも早くソニックが来てしまったようで...</p><h3>スタッフコメント</h3><p>お祝いのろうそくに火をつけるトリップの様子が可愛く描かれていますね。その様子を目撃したソニックの表情もまた微笑ましい作品です。</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2406_0012.jpg" title="山田の大蛇"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2406_0012.jpg" alt="" /></a><h2>山田の大蛇</h2><h3>３３年の時を超えて</h3><p>時を超え、どんな形となっても愛され続けるソニックはとても素晴らしい"粋"な主人公ですね！これからもその走りを追い続けたいと思います！ソニック、お誕生日おめでとう！</p><h3>スタッフコメント</h3><p>モダンとクラシック、勢いある元気な二人のソニックを描いてくれました！背景の細部までしっかり描き込まれた見応えのある作品に仕上がっています。</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2406_0013.jpg" title="楠チェリー"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2406_0013.jpg" alt="" /></a><h2>楠チェリー</h2><h3>Happy Birthday 2024</h3><p>「祝福」や「幸福」などの花言葉を持つ花を描き込みました今年はソニックバースデーイベントが開催されてとても嬉しいです(行きます！)また一年よろしくソニック！</p><h3>スタッフコメント</h3><p>花言葉に絡めたモチーフとの構成というアイデアが素晴らしく、淡く美しい色彩も印象的でソニックに対する深い愛情が伝わってくる作品です。</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2406_0014.jpg" title="ChrisWolfie"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2406_0014.jpg" alt="" /></a><h2>ChrisWolfie</h2><h3>世界からのお祝い</h3><p>いつもお世語になった、いろんな所から溢れているの思い、今ここで全部伝えたい!「ありがとう!誕生日おめでとう!ソニック」</p><h3>スタッフコメント</h3><p>ソニックの幸せな笑みが印象的なイラストを頂きました！フワッとした浮遊感がうまく描かれており、背景のカラフルな演出も効果的で良いですね。</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2406_0015.jpg" title="アクア"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2406_0015.jpg" alt="" /></a><h2>アクア</h2><h3>HAPPY 33rd BIRTHDAY</h3><p>33周年おめでとうございます！ソニックフレンズやシャドウ、そしてこれからのソニックたちの活躍を楽しみにしています！</p><h3>スタッフコメント</h3><p>淡く美しい色彩が目を惹きますね！ソニックらしい少しやんちゃな表情と、オリジナリティのあるタッチが効いた魅力あるイラストです。</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2406_0016.jpg" title="メロン"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2406_0016.jpg" alt="" /></a><h2>メロン</h2><h3>Happy Birthday</h3><p>33周年お誕生日おめでとうソニック!!これからのソニックがどんな活躍をするのか楽しみにしています。</p><h3>スタッフコメント</h3><p>ソニックフレンズでのキュートなイラスト、ありがとうございます！ポップで可愛いソニックたちの活躍も楽しみですね。</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2406_0017.jpg" title="ュ"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2406_0017.jpg" alt="" /></a><h2>ュ</h2><h3>piece of cake　楽勝だぜ！</h3><p>久しぶりにファンアート応募させていただきます。落ち込んだ時、勇気が出ないとき、ソニックの言葉にいつも元気をもらった、背中を押してくれた。本当にありがとう。風のように強くて優しくて、世界一クールでイケてるハリネズミ。ソニック誕生日おめでとう。</p><h3>スタッフコメント</h3><p>ケーキを手にしたソニックの表情が可愛いですね。白地に青で構成されたシンプルな配色バランスがソニックらしく爽やかで清々しい雰囲気を演出しています。</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2406_0018.jpg" title="Aksi"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2406_0018.jpg" alt="" /></a><h2>Aksi</h2><h3>33th</h3><p>ソニックの輝く姿を見て,いつもたくさん元気をもらいました、これからも輝き続けて欲しい</p><h3>スタッフコメント</h3><p>カッコ可愛い二人のスーパーソニックを描いてくれました！躍動感のある流線と、輝く黄色が映えた色彩バランスが素敵な作品です。</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2406_0019.jpg" title="スピーディー"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2406_0019.jpg" alt="" /></a><h2>スピーディー</h2><h3>みんなでお祝い2024</h3><p>様々なシリーズのキャラクターがお祝いに駆けつけてくれました。</p><h3>スタッフコメント</h3><p>たくさんのキャラクター達を描いてくれました！クラッカーの音や歓声が聞こえてきそうな、お祝いムードの楽しい雰囲気がとても上手く描かれています。</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2406_0020.jpg" title="ケレン"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2406_0020.jpg" alt="" /></a><h2>ケレン</h2><h3>一緒に誕生日を祝いましょう！</h3><p>ソニック、お誕生日おめでとうございます！友達との誕生日パーティーほど楽しいものはない。今日はたくさんのチリドッグを食べなければならない！</p><h3>スタッフコメント</h3><p>自信に溢れたソニックの表情が良いですね！仲間達に祝福されながら食べるチリドックの味は格別なものとなるでしょう。</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2406_0021.jpg" title="アヤアヤ"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2406_0021.jpg" alt="" /></a><h2>アヤアヤ</h2><h3>Happy Birthday</h3><p>みんなで盛大に誕生日を祝う</p><h3>スタッフコメント</h3><p>みんなで記念撮影でしょうか？にぎやかでとてもカラフルで、それぞれ楽しんでいるのがよく伝わってきます！背景の彩りも良いですね。</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2406_0022.jpg" title="たい"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2406_0022.jpg" alt="" /></a><h2>たい</h2><h3>おーいソニック！今日は君の誕生日だよ</h3><p>ソニックは走るのに夢中で自分の誕生日をうっかり忘れていたみたいです</p><h3>スタッフコメント</h3><p>テイルスからのお届け便！誕生日でも走り続けるソニックと、追いかけてきたテイルスの表情がかわいらしいです。これからパーティでも遅くないはず！</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2406_0023.jpg" title="不滅のハリネズミ"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2406_0023.jpg" alt="" /></a><h2>不滅のハリネズミ</h2><h3>彼が駆け抜けた過去、そして未来</h3><p>誕生日ということで、ソニックシリーズの名シーンを振り返るイラストを描きました。「あこがれや勘違い、作られた、目覚めた、未来のために来た、などで出会った仲間たちは、今や欠かせない存在」ということを思いながら、仲間の作ったチリドッグとサイバーエネルギーを手に、今日も未来へ向かってソニックは走っています。</p><h3>スタッフコメント</h3><p>ソニックシリーズの様々な名場面が1枚に詰まっています！どれもソニックの大切な記憶で、ソニックを形作る一部なのでしょう。その中にはもちろんチリドッグも！</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2406_0024.jpg" title="ツソヅ"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2406_0024.jpg" alt="" /></a><h2>ツソヅ</h2><h3>3人で思いっきり走ろうぜ！！</h3><p>ソニック33周年おめでとうございます！！！ソニックとクラシックソニックとシャドウの3人で競走しているイメージにしました！！その奥にエッグマン達が楽しそうに遊んでるのも加えて...。ソニシャドジェネレーションとソニムビ3とも楽しみにしています！！そしてこれからもソニック愛してます！！</p><h3>スタッフコメント</h3><p>クラシックとモダン、様々な要素がうまくまとまっています！クラシック風のロゴがすごい...！競争するソニックたちの一方で、エッグモービルを動力源に！？ループの上で遊んでいるエッグマンたちがとてもかわいらしいです！</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2406_0025.jpg" title="ももうさぎ"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2406_0025.jpg" alt="" /></a><h2>ももうさぎ</h2><h3>33rd Anniversary!</h3><p>誕生日絵で、キャラクター一人一人を目立たせたいと思ったので、今回は初めてデジタルで描きました。テスト期間だったのであまり描き込めなかったのが少し残念です。これからもずっと応援します！生まれてきてくれてありがとう！ソニックお誕生日おめでとう！</p><h3>スタッフコメント</h3><p>3人それぞれの見せ場を描いてくれました！異なる背景に、カオスエメラルドを中央に配置した構図がかっこいいです。テストもがんばってください！</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2406_0026.jpg" title="Luna"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2406_0026.jpg" alt="" /></a><h2>Luna</h2><h3>2人のソニック、ハッピーバースデー！！</h3><p>ソニック誕生日おめでとうございます！！自由で冒険好きな彼らにこれからもついていきます！大好き！！！！</p><h3>スタッフコメント</h3><p>クラシックとモダンの表情の違いが面白いですね！特に、しっかりチリドッグを味わっているクラシックソニックがかわいいです。一人ひとりとても丁寧に描かれていて、背景もお祝い感にあふれた作品です！</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2406_0027.jpg" title="ABB"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2406_0027.jpg" alt="" /></a><h2>ABB</h2><h3>夜空の花火</h3><p>お誕生日おめでとうございます！これからも応援し続けます</p><h3>スタッフコメント</h3><p>月をバックに、アドベンチャーのポーズを決めるソニックがとてもカッコイイ！夜に花火でお祝いするのもオシャレです。</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2406_0028.jpg" title="くりきんとん。"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2406_0028.jpg" alt="" /></a><h2>くりきんとん。</h2><h3>チャオたちからの贈り物</h3><p>チリドッグをお腹いっぱい食べて眠っているソニックの頭に花冠が。手伝ってもらいながらもチャオ達が頑張って作ったみたい。</p><h3>スタッフコメント</h3><p>チャオたちがお祝いしてくれていますが、シャドウも手伝ってくれたんでしょうか...？背景にいるシルバーやプレゼントといい、ストーリーが気になりますね！</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2406_0029.jpg" title="SNさん"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2406_0029.jpg" alt="" /></a><h2>SNさん</h2><h3>お誕生日おめでとう！</h3><p>今回はショートアニメに出てくるソニックフレンズを意識して描きました！小さくてとても可愛く毎日癒されてます!誕生日でもとても嬉しく感じてると思います！改めて誕生日おめでとう！！</p><h3>スタッフコメント</h3><p>お祝いされてお目目キラッキラのソニックがかわいすぎます！果たしてエッグマンはプレゼントを渡せるんでしょうか...！誕生日くらい、素直になれると良いのですが！？</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2406_0030.jpg" title="あーのん"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2406_0030.jpg" alt="" /></a><h2>あーのん</h2><h3>誕生日おめでとう！ソニック</h3><p>スーパースターズの能力のアバターを使うと沢山のソニックが出てきたかと思いきや、今までのソニックが誕生日の主役として来てくれました！こだわった所もあるので、是非探して見てください！ソニック、誕生日おめでとう！ずっと大好きだよ！</p><h3>スタッフコメント</h3><p>これまでに登場してきた、様々なソニック！クラシックやモダンはもちろん、ソニックプライムやソニックブームのソニックもいますね！中央のソニックの笑顔が素敵です。</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2406_0031.jpg" title="グローゼ"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2406_0031.jpg" alt="" /></a><h2>グローゼ</h2><h3>DJ "BIRTHDAY" PARTY</h3><p>coolな音楽が好きでパーティーのDJもよく担当するソニック。今日のテーマは「BIRTHDAY」で、素敵に登場！この前の冒険で出会った友達の曲でムードは最高潮♪誰のためのかな?正解はエメルと... カリバーン！？じゃあ次はいったい誰の？パーティーはどんどん盛り上がっていきます...♪</p><h3>スタッフコメント</h3><p>友達のための曲と共にDJをするソニックに、エモさのあるフィルターや色味の表現がピッタリですね！思い出に浸りながらのパーティを楽しめそうです。</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2406_0032.jpg" title="けいくるず！"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2406_0032.jpg" alt="" /></a><h2>けいくるず！</h2><h3>はじめまして！ソニック！</h3><p>ソニック！初めて一緒にお誕生日お祝いするね！大好きだよ！</p><h3>スタッフコメント</h3><p>大きな風船とケーキに囲まれて、パーティの準備はバッチリですね！初めてのお誕生日のお祝いに、素敵な作品を送ってくださりありがとうございます！</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2406_0033.jpg" title="トム"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2406_0033.jpg" alt="" /></a><h2>トム</h2><h3>HPB bouquet</h3><p>ナックルズ、ソニック、テイルス、エミーちゃんの色の花でブーケにしてみました...！！ソニックはどんな花より一番です！！！</p><h3>スタッフコメント</h3><p>美しいポストカードのような一枚を頂きました！ソニック達をテーマにしたブーケがとても華やかです。まんざらでもないソニックの表情がカッコいいですね。</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2406_0034.jpg" title="みんてぃあ"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2406_0034.jpg" alt="" /></a><h2>みんてぃあ</h2><h3>お誕生日おめでとうケーキ</h3><p>ソニックお誕生日おめでとう！お誕生日なのでケーキを作って見ました。バタフライピーを使って青色にしたシフォンケーキです。桃のお花タルトやパイン飴、チョコで飾り付け！可愛く出来たと思います！</p><h3>スタッフコメント</h3><p>桃の花びらの一枚一枚や、ソニックの顔まで丁寧に可愛らしく仕上がっています！さりげなくもピッタリな食べられるリングの表現にクスッと笑いました。</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2406_0035.jpg" title="あおいハリネズミ"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2406_0035.jpg" alt="" /></a><h2>あおいハリネズミ</h2><h3>スピードオブロック！</h3><p>数々のソニックシリーズの曲をクールに引きこなすソニック様を描きました！時代を超えてもなおカッコいいソニック様をコミカルでロックなタッチで表現しています33周年おめでとう！！</p><h3>スタッフコメント</h3><p>躍動感ある名前のグラフィティがクールなソニックとテーマのロックによく似合っています！ギターを華麗に弾く手に見惚れてしまいそうです。</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2406_0036.jpg" title="菊丸"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2406_0036.jpg" alt="" /></a><h2>菊丸</h2><h3>Happy Birthday</h3><p>誕生日おめでとう！誕生日の主役の座を賭けてゲームで勝負！</p><h3>スタッフコメント</h3><p>ゲームで対戦したら一体どちらに軍配が上がるのでしょう！？気になりますね。勝負しつつもお互い楽しそうなところが、いつもの二人らしいですね。</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2406_0037.jpg" title="ハリーマロン"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2406_0037.jpg" alt="" /></a><h2>ハリーマロン</h2><h3>おたおめ！ソニック&フレンズ2006!</h3><p>初めてファンアートを描いてみました！ソニック&フレンズ風に、キャラクターは新ソニの3人のヘッジホッグ！祝ってもらえるソニックに、ノリノリでケーキをあげるシルバーと、ちょっとツンデレなシャドウを可愛く描きました！改めまして、ソニック33周年、おめでとうございます！</p><h3>スタッフコメント</h3><p>初投稿ありがとうございます！ソニック＆フレンズらしいデフォルメ感がとても可愛いです！シャドウが目線を逸らしているところにこだわりを感じます。</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2406_0038.jpg" title="王張アルト"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2406_0038.jpg" alt="" /></a><h2>王張アルト</h2><h3>33</h3><p>暑い日々が続く中、"33"周年記念にソニックの耳の形をしたアイスキャンディーが大ヒット中。困惑する本人</p><h3>スタッフコメント</h3><p>耳の形のアイスキャンディーはインパクト大で面白いですね！かじっても良いものか、ちょっと迷ってしまいそうです。テイルスの様子を見るに、味は良さそうですが...？</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2406_0039.jpg" title="もとい"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2406_0039.jpg" alt="" /></a><h2>もとい</h2><h3>HAPPY BIRTHDAY！！！！</h3><p>みんなにお祝いされるソニックを、自分からのお祝いの気持ちもたくさん込めて描きました。いつもカッコいい理想のヒーローソニック、お誕生日おめでとうございます！大好き！</p><h3>スタッフコメント</h3><p>お祝いムードいっぱいのカラフルな作品を頂きました！ゴキゲンなソニックにこちらも笑顔になります。透明感のある色使いも美しく、大きなフルーツケーキも美味しそうです！</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2406_0040.jpg" title="作の宿"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2406_0040.jpg" alt="" /></a><h2>作の宿</h2><h3>33rd Anniversary!!</h3><p>シリーズ生誕33周年&ソニック誕生日おめでとうございます!!今年はフレンズも一緒にお祝いです。</p><h3>スタッフコメント</h3><p>手のひらサイズのソニック＆フレンズのみんなが可愛いです！ゴージャスな箱詰めのリングに囲まれるソニックは、本日の主役感がありますね。</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2406_0041.jpg" title="アゲハユリ"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2406_0041.jpg" alt="" /></a><h2>アゲハユリ</h2><h3>誕生日の冒険</h3><p>とある川の上。ソニック、テイルス、ナックルズ3人はカラフルかさを舟にして冒険中。「こっちだよ！」「たまにはこういうのも悪くないな。」「腕がなるぜ！」テイルスの持つ地図の場所には何があるのか。水面にはソニックへの祝福の文字が浮かんでいました。</p><h3>スタッフコメント</h3><p>水面に祝福のメッセージを表現するとは何て粋な演出！ソニックの靴が壁紙ではいていたものだったり、ソニころ仕様のデザインを持っていたりと、小ネタも素晴らしい。</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2406_0042.jpg" title="tenteko"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2406_0042.jpg" alt="" /></a><h2>tenteko</h2><h3>HAPPY　BIRTHDAY！</h3><p>33周年おめでとうございます！時間がなく簡単なイラストしか描けなかったのが少し悔しいです。ソニックは色んな姿があるので描くのが楽しいです！</p><h3>スタッフコメント</h3><p>いつものソニックもイケていますが、スーパーソニックも最高にかっこいいですよね！シンプルな構成ながらもソニックの魅力がダイナミックに伝わる素敵な作品をいただきました。</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2406_0043.jpg" title="spotty"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2406_0043.jpg" alt="" /></a><h2>spotty</h2><h3>宿敵の誕生日パーティー</h3><p>宿敵であるソニックとエッグマンは、お互いに相手の誕生日ケーキを用意しました。二人のいたずらしたい思いは意外と同じ...ですが、ケーキは見た目よりおいしいかも？</p><h3>スタッフコメント</h3><p>やっぱりこの二人は似た者同士なのでしょうか？ふたりのなんとも言えない表情がとても微笑ましいですね。もしかしてケーキのトッピングも手作り？！...気になります。</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2406_0044.jpg" title="sonic2024　〔9歳5か月〕"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2406_0044.jpg" alt="" /></a><h2>sonic2024　〔9歳5か月〕</h2><h3>Happy Birthday　ソニック　</h3><p>さあ1カ月3日後にはソニックの誕生日ですこの33年でゲーム，アニメなどがたくさん作られてきたその後のゲームも楽しみですけど歴史をふりかえることもいいかもしれませんHappy Birthday SONIC！</p><h3>スタッフコメント</h3><p>大好物のチリドッグをプレゼントされて嬉しそうなソニックの気持ちが伝わります！今年はぜひ３３年分の歴史を楽しんでもらえたら嬉しいですね。</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2406_0045.jpg" title="ななハリ"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2406_0045.jpg" alt="" /></a><h2>ななハリ</h2><h3>33回目のバースデー</h3><p>今年は33周年！色んなソニックがリボンロードを渡って新たな冒険へ向かっていきます...これからもたく"さん"のソニックが"み"らいに向かって走ってくれるのが楽しみです！</p><h3>スタッフコメント</h3><p>いろんな世界や時代のソニックを描いてくれました。それぞれ丁寧に描き分けていてすごい！背景にもゲーム中に見たことあるアイテムがあって見ごたえ抜群の作品です。</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2406_0047.jpg" title="のあ"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2406_0047.jpg" alt="" /></a><h2>のあ</h2><h3>バースデー前夜</h3><p>あとは、起きたその時の反応を心待ちにするだけ。</p><h3>スタッフコメント</h3><p>この１カットで前後のストーリーが想像できて、心温まらずにはいられません！！祝ってあげたい気持ちの尊さを感じられる優しい作品でした。</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2406_0048.jpg" title="とるん"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2406_0048.jpg" alt="" /></a><h2>とるん</h2><h3>おめでとう！ソニック！</h3><p>おめでとうございます！めっちゃがんばりました！33にちなんで3人ずつ。</p><h3>スタッフコメント</h3><p>ソニックの誕生日に駆けつけてくれたいつメンたち！ちゃっかりシャドウも３ピースをしてくれていてほっこりしました。</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2406_0049.jpg" title="ゆいファイヤ　コースティック"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2406_0049.jpg" alt="" /></a><h2>ゆいファイヤ　コースティック</h2><h3>ステージでソニックのお祝い</h3><p>ソニックのお誕生日会をしているところです。ステージの上でドーナツとケーキをたべるところです。 あおいくん６才より </p><h3>スタッフコメント</h3><p>お誕生日会の楽しい雰囲気がいっぱい感じられる愛らしい作品を頂きました！ケーキにもハートがトッピングされていてかわいいですね。どんな味だったのたぜひ教えてほしいです！</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2406_0050.jpg" title="NekoShun"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2406_0050.jpg" alt="" /></a><h2>NekoShun</h2><h3>ソニック 33th</h3><p>モダンソニック、クラシックソニック、映画ソニック，ソニックが一番好きです~HAPPY BIRTHDAY TO THE MOST FAMOUS HEDGEHOG IN THE WORLD!</p><h3>スタッフコメント</h3><p>エンブレムから飛び出すソニック達！モダンソニックのポーズはあのポーズですね。丁寧に彩色されていて背景もソニックらしいモチーフがいっぱいで愛の感じる素敵な作品を頂きました。</p></div>
 
 
 
 
 
 	</div>
-
-
-<nav id="substance-navigation"><ul class="boxLink paginationNum">
-
-
-
-</ul></nav>
-</div>
-<ul id="page-sns2">
-	<li class="snsTwitter"><img src="/SonicChannel//common/image/icon_twitter.png" alt="Twitter"></li>
-	<li class="snsFacebook"><img src="/SonicChannel//common/image/icon_facebook.png" alt="facebook"></li>
-	<li class="snsLine"><img src="/SonicChannel//common/image/icon_line.png" alt="LINE"></li>
-</ul>
+				
+				
+				<nav id="substance-navigation"><ul class="boxLink paginationNum">
+			
+			
+			
+				</ul></nav>
+			<ul id="page-sns2">
+				<li class="snsTwitter"><img src="/SonicChannel/assets/images/old/icon_twitter.png" alt="Twitter"></li>
+				<li class="snsFacebook"><img src="/SonicChannel/assets/images/old/icon_facebook.png" alt="facebook"></li>
+				<li class="snsLine"><img src="/SonicChannel/assets/images/old/icon_line.png" alt="LINE"></li>
+			</ul>
+	</div>
 </article>
 </main>
-	<nav id="common-pagination">
-	<ul class="boxLink paginationArrow">
-	<li class="iconLeft"><a rel="prev" href="/SonicChannel/fangallery/fanart/20240501_008562/" >ファンアート 2024年5月「ゴールデンウィーク」</a></li>
-<li class="iconUp"><a href="/SonicChannel/fangallery/fanart">戻る</a></li>
-	<li class="iconRight"><a rel="next" href="/SonicChannel/fangallery/fanart/20240701_008602/" >ファンアート 2024年7月「天気」</a></li>
-	</ul>
-</nav>
-<footer>
+<footer role="contentinfo">
+	<div class="footerWrap">
+			<ul class="common-snsList-sp">
+				<li class="common-snsIcon is-x">
+					<a class="snsTwitter" href=""></a>
+				</li>
+				<li class="common-snsIcon is-line">
+					<a class="snsLine" href=""></a>
+				</li>
+				<li class="common-snsIcon is-facebook">
+					<a class="snsFacebook" href=""></a>
+				</li>
+			</ul><!-- .common-snsList-pc -->
+    <div class="footerContent">
+				<div class="footerLogoBox">
+						<div class="footerSonicChannelLogo"><a href="https://sonic.sega.jp/SonicChannel/" target="_blank"><img src="/SonicChannel/assets/images/common/logo_sonicchannel.png" alt="SONIC CHANNEL" /></a></div>
+						<div class="footerSonicTeamLogo"><a href="http://www.sonicteam.com/" target="_blank"><img src="/SonicChannel/assets/images/common/logo_sonicteam.png" alt="SONIC TEAM" /></a></div>
+					</div><!-- .footerLogoBox -->
+    <ul class="footerLinkList">
+    	<li>【<a href="/SonicChannel/about/#translation-function" target="_blank">翻訳機能について</a>】 </li>
+    	<li>【<a href="/SonicChannel/about/#download-policy" target="_blank">ダウンロードについて</a>】</li>
+     	<li>【<a href="http://sega.jp/contact/soft/" target="_blank">お問い合わせ</a>】</li>
+    	<li>【<a href="https://www.sega.co.jp/privacypolicy/" target="_blank">プライバシーポリシー</a>】</li>
+    	<li>【<a href="https://www.sega.co.jp/web-accessibility/index.html" target="_blank">ウェブアクセシビリティ方針</a>】</li>
+    </ul>
+	<p class="footerCopy">&copy;SEGA</p>
+    </div>
 	<div id="footer-search" class="googleSearch">
 		<div class="gcse-search"></div>
 	</div>
-	<p><a href="http://www.sonicteam.com/"><img src="/SonicChannel/common/image/SonicTeamLogo.png" width="105" height="27" alt="SONIC TEAM"/></a></p>
-	<p>【<a href="/SonicChannel/about/#translation-function">翻訳機能について</a>】 【<a href="/SonicChannel/about/#download-policy">ダウンロードについて</a>】</p>
-	<p>【<a href="http://sega.jp/contact/soft/" target="_blank">お問い合わせ</a>】【<a href="https://www.sega.co.jp/privacypolicy/" target="_blank">プライバシーポリシー</a>】</p>
-	<p>&copy;SEGA</p>
+</div>
 </footer>
-<div id='background-logo'></div>
-<div id='common-bg'><div id='bg-substance'></div></div>
+</div>
 </body>
 </html>
+

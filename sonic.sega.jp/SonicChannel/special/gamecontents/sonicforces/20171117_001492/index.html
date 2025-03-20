@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# : http://ogp.me/ns/#" lang="ja">
-<meta name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0,user-scalable=yes" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta name="keyword" content="SONIC CHANNEL,ソニックチャンネル,SEGA,セガ,SONICTEAM,ソニックチーム,SONIC,ソニック" />
@@ -19,16 +19,27 @@
 <meta property="og:title" content="第1回 背景デザイン アートディレクター 三浦 義貴" />
 <meta property="og:url" content="https://sonic.sega.jp/SonicChannel/special/gamecontents/sonicforces/20171117_001492/" />
 <meta property="og:description" content="みなさんはじめまして、『ソニックフォース』アートディレクターの三浦です。 ソニックフォースのグラフィックに関するお話を4回に渡ってコラムという形でお送りしたいと思います。楽しみにしてくださいね。 今回私はアートディレクターと同時に、背景パー..." />
-<meta property="og:image" content="https://sonic.sega.jp/SonicChannel/special/image/column_01_eye.jpg">
+<meta property="og:image" content="https://sonic.sega.jp/SonicChannel/upload_images/column_01_eye.jpg">
 <meta property="og:type" content="article">
 <title>SEGA | ソニックチャンネル | スペシャル | 第1回 背景デザイン アートディレクター 三浦 義貴</title>
 <link rel="start" href="/SonicChannel/">
-<link rel="alternate" type="application/atom+xml" title="Recent Entries" href="/SonicChannel/atom.xml" />
-<link rel="stylesheet" href="/SonicChannel/common/css/import.css">
-<script src="/SonicChannel/common/js/import.js" language="javascript" type="text/javascript"></script>
+<link rel="alternate" type="application/atom+xml" title="Recent Entries" href="http://admin-mt-sonic.sega.jp/sonic.sega.jp/SonicChannel/production/atom.xml" />
+<link rel="stylesheet" href="https://use.typekit.net/sha2lhi.css">
+<link rel="stylesheet" href="/SonicChannel/assets/css/oldStyle.min.css">
+<link rel="stylesheet" href="/SonicChannel/assets/css/common.min.css">
+<script src="/SonicChannel/assets/js/libs/jquery-3.7.1.min.js"></script>
+		<script src="/SonicChannel/assets/js/libs/jquery.inview.min.js"></script>
+<script src="/SonicChannel/assets/js/libs/swiper-bundle.min.js"></script>
+<script src="/SonicChannel/assets/js/libs/jquery.swipebox.min.js"></script>
+<script src="/SonicChannel/assets/js/old/modernizr.js"></script>
+<script src="/SonicChannel/assets/js/old/swiper.min.js"></script>
+<script src="/SonicChannel/assets/js/old/jquery.tubular.1.0.js"></script>
+<script src="/SonicChannel/assets/js/old/velocity.min.js"></script>
+<script src="/SonicChannel/assets/js/old/snsClick.js"></script>
+<script src="/SonicChannel/assets/js/old/init.js"></script>
+<script src="/SonicChannel/assets/js/common.js"></script>
 <script async src="https://cse.google.com/cse.js?cx=b9e22222528a0e6ff"></script>
-<link rel="stylesheet" href="/SonicChannel/special/common/css/import.css">
-<script src="/SonicChannel/special/common/js/import.js" language="javascript" type="text/javascript"></script>
+<!--link rel="stylesheet" href="/SonicChannel/special/common/css/import.css">
 <!--[if lte IE 8]>
 <script src="/SonicChannel/common/js/html5shiv.js"></script>
 <![endif]-->
@@ -39,76 +50,96 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','GTM-MF59Q7B');</script>
 </head>	
 <body class="entry individual special">
-<header>
-	<a href="http://sega.jp/"><img src="/SonicChannel/common/image/header_sega.png" alt="SEGA" width="75" height="25" /></a>
-	<div>
-        <div>
+<div class="wrapper">
+<div class="wrapperBg"></div>
+<header role="banner">
+	<a href="http://sega.jp/" class="headerSEGALogo"><img src="/SonicChannel/assets/images/common/sega_logo_s_b.svg" alt="SEGA" width="75" height="25" /></a>
+			<ul class="common-snsList-pc">
+				<li class="common-snsIcon is-x">
+					<a class="snsTwitter" href=""></a>
+				</li>
+				<li class="common-snsIcon is-line">
+					<a class="snsLine" href=""></a>
+				</li>
+				<li class="common-snsIcon is-facebook">
+					<a class="snsFacebook" href=""></a>
+				</li>
+			</ul><!-- .common-snsList-pc -->
+	<div class="gTranslateBox">
+        <div class="gTranslateIcon">
            <a href="/SonicChannel/about/#translation-function">
               <svg>
-      			  <use xlink:href="/SonicChannel/common/image/header_caution.svg#caution"></use>
+      			  <use xlink:href="/SonicChannel/assets/images/old/header_caution.svg#caution"></use>
     		  </svg>
-        </a>
+        	</a>
         </div>
 		<div class="gtranslate_wrapper"></div>
 		<script>window.gtranslateSettings = {"default_language":"ja","wrapper_selector":".gtranslate_wrapper"}</script>
 		<script src="https://cdn.gtranslate.net/widgets/latest/dropdown.js" defer></script>
 	</div>
-	<h1><a href="/SonicChannel/"><img src="/SonicChannel/common/image/header_sonicchannel.png" alt="ソニックチャンネル" width="191" height="47" /></a></h1>
 </header>
-<nav id="common-navigation">
-	<a href="#" id="nav-trigger"><span id="trigger-icon"></span></a>
+<div id="nav-trigger"><span id="trigger-icon"></span></div>
+<nav id="common-navigation" role="navigation">
 	<div id="overlay-nav"><span></span></div><!-- cd-overlay-nav -->
 	<div id="overlay-content"><span></span></div> <!-- cd-overlay-content -->
-	<ul id="nav-list">
-		<li><a href="/SonicChannel/"><img src="/SonicChannel/common/image/nav_sonicchannel.png" alt="SONIC CHANNEL" /></a></li>
-		<li><a href="/SonicChannel/topics/information/">トピックス</a></li>
-		<li><a href="/SonicChannel/gametitle/nintendo-switch.html">ゲームタイトル</a></li>
-		<li><a href="/SonicChannel/character/">キャラクター</a></li>
-		<li><a href="/SonicChannel/special/" class="activeAnchor">スペシャル</a></li>
-		<li><a href="/SonicChannel/fangallery/">ファンギャラリー</a></li>
-		<li><a href="/SonicChannel/enjoy/wallpaper/">おたのしみ</a></li>
-	</ul>
-	<div class="googleSearch" id="nav-search">
-		<div class="gcse-search"></div>
+	<div class="navWrapper"> 
+		<div class="navLogoItem">
+       	 <h1 class="soinicChannelLogo"><a href="/SonicChannel/"><img src="/SonicChannel/assets/images/common/logo_sonicchannel.png" alt="ソニックチャンネル" width="191" height="47" /></a></h1>
+	</div>
+		<ul id="nav-list">
+        <li class="navItem is-top"><a href="/SonicChannel/">トップ</a></li>
+			<li class="navItem is-topics"><a href="/SonicChannel/topics/">トピックス</a></li>
+			<li class="navItem is-character"><a href="/SonicChannel/character/">キャラクター</a></li>
+    		<li class="navItem is-history"><a href="/SonicChannel/history/">ヒストリー</a></li>
+    		<li class="navItem is-special"><a href="/SonicChannel/special/top.html" class="activeAnchor">スペシャル</a></li>
+			<li class="navItem is-fangallery"><a href="/SonicChannel/fangallery/top.html">ファンギャラリー</a></li>
+		</ul>
+    	<div class="navWhatSonicItem">
+        <a href="/SonicChannel/character/" ><div class="navWhatSonicText">ソニックとは</div><div class="whatSonicArrow"></div></a>
+   		</div>
 	</div>
 </nav>
-<main id="common-contents">
+<main id="common-contents" role="main">
+<div class="headlineCommon"></div>
 <div id="contents-header">
-		<h2 class="headlineCommon">スペシャル</h2>
 			<nav class="contentsNavigation">
-				<ul>
-						<li><a href="/SonicChannel/special/gamecontents/" >すべて</a></li>
-								<li><a href="/SonicChannel/special/gamecontents/soniccolors/">ソニックカラーズ</a></li>
-								<li><a href="/SonicChannel/special/gamecontents/sonicforces/" class="activeAnchor">ソニックフォース</a></li>
-								<li><a href="/SonicChannel/special/gamecontents/sonicmania/">ソニックマニア スペシャルコンテンツ</a></li>
-							</ul>
-				<select>
-						<option value="/SonicChannel/special/gamecontents/" >すべて</option>
+            <div class="contentsNavigationInner">
+				<ul class="cateArctestUL">
+								<li class="cateArctestLi"><a href="/SonicChannel/special/gamecontents/soniccolors/">ソニックカラーズ</a></li>
+								<li class="cateArctestLi"><a href="/SonicChannel/special/gamecontents/sonicforces/" class="activeAnchor">ソニックフォース</a></li>
+								<li class="cateArctestLi"><a href="/SonicChannel/special/gamecontents/sonicmania/">ソニックマニア スペシャルコンテンツ</a></li>
+            </ul>
+            <div class="navSelectBox">
+				<select aria-label="選択してください">
 								<option value="/SonicChannel/special/gamecontents/soniccolors/" >ソニックカラーズ</option>
 								<option value="/SonicChannel/special/gamecontents/sonicforces/"  selected>ソニックフォース</option>
 								<option value="/SonicChannel/special/gamecontents/sonicmania/" >ソニックマニア スペシャルコンテンツ</option>
-							</select>
+            </select>
+            </div>
 				<h3>ソニックフォース</h3>
+            </div>
 			</nav>
 </div>
 <article  id="contents-page">
-		<img src="/SonicChannel/special/image/column_01_eye.jpg" alt=""/>
-	<h1>第1回 背景デザイン アートディレクター 三浦 義貴</h1>
-	<time datetime="2017-11-17T19:40:30+09:00">2017.11.17</time>
-	<ul id="page-sns1">
-		<li class="snsTwitter"><img src="/SonicChannel//common/image/icon_twitter.png" width="25" height="25" alt="Twitter"></li>
-		<li class="snsFacebook"><img src="/SonicChannel//common/image/icon_facebook.png" width="25" height="25" alt="facebook"></li>
-		<li class="snsLine"><img src="/SonicChannel//common/image/icon_line.png" width="25" height="25" alt="LINE"></li>
-	</ul>
-<div id="cotentes-substance">
-
-<p>みなさんはじめまして、『ソニックフォース』アートディレクターの三浦です。</p>
+	<div class="contentsPageBg"></div>
+			<img class="contentPageTopImg" src="/SonicChannel/upload_images/column_01_eye.jpg" alt=""/>
+		<h1>第1回 背景デザイン アートディレクター 三浦 義貴</h1>
+	<div id="cotentes-substance">
+			
+				<time datetime="2017-11-17T19:40:30+09:00">2017.11.17</time>
+				<ul id="page-sns1">
+					<li class="snsTwitter"><img src="/SonicChannel/assets/images/old/icon_twitter.png" width="25" height="25" alt="Twitter"></li>
+					<li class="snsFacebook"><img src="/SonicChannel/assets/images/old/icon_facebook.png" width="25" height="25" alt="facebook"></li>
+					<li class="snsLine"><img src="/SonicChannel/assets/images/old/icon_line.png" width="25" height="25" alt="LINE"></li>
+				</ul>		
+				<p>みなさんはじめまして、『ソニックフォース』アートディレクターの三浦です。</p>
 <p>ソニックフォースのグラフィックに関するお話を4回に渡ってコラムという形でお送りしたいと思います。楽しみにしてくださいね。</p>
 <p>今回私はアートディレクターと同時に、背景パートのリーダーも兼任しており、ステージの実制作にも携わっていました。ということで、第1回のコラムは世界観や背景制作に関連した内容を取り上げてみたいと思います。</p>
 <h1>プロジェクト初期</h1>
 <p>今回のソニックフォースでは、「エッグマンに99％支配された世界」「戦争」「エッグマン軍vsレジスタンス」というような、これまでのファンタジー寄りの設定から少しシリアスな世界観になるというコンセプトでした。ですので、背景グラフィックの方向性もそれに合わせて参考画像を集めたり、資料やコンセプトアートを作成したりと、チーム内で検討を重ねていきました。</p>
 <p>また、新エンジンHEDGEHOG ENGINE2を作る中で、新しい表現方法、物理ベースレンダリングが採用され、より現実世界に近いグラフィックを実現できるようになったというのも大きな変化でした。プロジェクト初期はエンジンがまだ完成しておらず、ゲーム制作とエンジン開発が平行作業でなかなか大変だったんですよ......</p>
-<img src="/SonicChannel/special/image/column_01_01.jpg" alt="" />
+<img src="/sonic.sega.jp/SonicChannel/upload_images/
+column_01_01.jpg" alt="" />
 <p>これはプロトタイプROMというプロジェクト初期に「このゲームはこんなイメージ、グラフィックになりますよ」という実際に動かせるサンプルを制作するにあたって作ったコンセプトイメージです。</p>
 <p>「戦闘によって荒廃した街」という設定ですが、これまでと比べてグラフィック性能が上がり、よりリアルな質感が表現できるようになり、仮に実写と見紛うような世界が作れたとしても、そこにソニックというキャラクターが立っている画はやはり違和感があります。</p>
 <p>人間と同じ等身のリアルなキャラクターにはリアルな世界、デフォルメされたキャラクターにはそのキャラクターに合った世界をデザインする必要があると私は思います。今回もテーマやキーワードを元にソニックに合った荒廃した世界とは？戦争が起こった世界をどうデザイン、デフォルメするか？建物のデザインは？街路樹は？破壊された部分の壊れ方は？どの程度リアルにするのか？などなど、試行錯誤を重ねながら指標となるステージグラフィックが、世界観が作られていきます。</p>
@@ -119,11 +150,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <p>ソニックタイトルは毎回バラエティに富んだステージ構成が特徴の一つだったりもします。基本的には企画コンセプトに沿ってディレクターが遊び方も含めて考えたステージ構成のたたき台を元に、チーム内で様々な検討を重ねながら全体のステージ構成を詰めていきます。</p>
 <p>背景デザイナーも常日ごろから「こんなステージを作りたい！」と妄想を膨らませている人間の集まりなので、デザイナー側からステージ設定のアイデアを出したりもします。オープンワールドのような物理的に一つにつながったタイプのゲームではないので、全体の統一感を図るよりもある程度各ステージの個性や色の印象などの違いを優先して組み立てています。</p>
 <p>プロジェクト初期の設定がそのまま通る場合もありますし、詰めていく過程で没になったり設定の一部が変更になったりすることは良くあります。ここでは、現在の製品版とは違う設定だったステージの1例を紹介したいと思います。</p>
-<img src="/SonicChannel/special/image/column_01_02.jpg" alt="" class="mb0" /> 
+<img src="/sonic.sega.jp/SonicChannel/upload_images/
+column_01_02.jpg" alt="" class="mb0" /> 
 <p class="textSmall">初期設定１：レジスタンスのアジトは廃虚になったカジノにあった</p>
 <p>当初レジスタンスのアジトは、侵食した植物に覆われた廃虚となったカジノにある設定でした。（イメージは廃虚とはいえ光っていないとカジノっぽさが出ないので電飾ついてますが......）</p>
 <p>後にステージ構成やストーリー展開上、アジト自体はどこかの街の奥まった場所にあるオーソドックスな設定になり、カジノはジャングルの遺跡と融合したステージ設定になりました。</p>
-<img src="/SonicChannel/special/image/column_01_03.jpg" alt="" class="mb0" /> 
+<img src="/sonic.sega.jp/SonicChannel/upload_images/
+column_01_03.jpg" alt="" class="mb0" /> 
 <p class="textSmall">初期設定２：グリーンヒルには収容所があった</p>
 
 <p>製品版では収容所（＝監獄）は復活したデスエッグにありますが、プロジェクト初期はグリーンヒルに収容所があったんです。イメージではいつもの晴天の爽やかなグリーンヒルとは真逆な不気味な雰囲気で、これも面白味がある設定だなと思っていたんですが、最終的にはグリーンヒルは、一部が砂漠化しており、ピラミッド型武器工場がある設定になりました。</p>
@@ -131,52 +164,72 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <h1>背景のこんなところも見て欲しい</h1>
 <p>今回はハイエンド機向けには初となるソニックタイトルで、新しいエンジンにも変わり、試行錯誤を繰り返しながら様々なステージを作りました。ソニックタイトルをプレイしたことがある方は、ご存じだと思いますが、ソニックのスピード（特にブースト）はとても速いために、背景デザイナーが一生懸命作り込んだ背景が一瞬ではるか後方に流れ去ってしまうのは、やはりすごく切ないんですね。</p>
 <p>ですので、今回はこの場を借りて、普通にプレイしただけだと見逃してしまったり、興味がないと気がつかなかったりする背景ネタを紹介させていただきたいと思います。</p>
-<img src="/SonicChannel/special/image/column_01_04.jpg" alt="" class="mb0" /> 
+<img src="/sonic.sega.jp/SonicChannel/upload_images/
+column_01_04.jpg" alt="" class="mb0" /> 
 <p class="textSmall">市街地の文字、カジノ遺跡の文様</p>
 <p>何かと露出の多い「市街地」。何気なくプレイしていると気にも止めないかもしれませんが、ソニック含めキャラクターたちが住む世界は、現実の人間世界ではないので背景に英語などのいわゆる「文字」を使用していません。一部のギミックには数字は使いますが、背景には文字らしき単純な図形の羅列で、何か文字が書いてあるような雰囲気を出しています。ミスティックジャングルのカジノ遺跡にも良く見ると同じような図形の羅列があるんですよ。</p>
-<img src="/SonicChannel/special/image/column_01_05.jpg" alt="" class="mb0" /> 
+<img src="/sonic.sega.jp/SonicChannel/upload_images/
+column_01_05.jpg" alt="" class="mb0" /> 
 <p class="textSmall">海</p>
 <p>今回のケミカルプラントは北の寒い海上に建設された設定なのでソニックやアバターの屋外エリアには「海」があります。この「海」、技術的に結構リッチな処理をしているんですよ。たまにはこの寒そうな黒い海も眺めてみてくださいね。</p>
-<img src="/SonicChannel/special/image/column_01_06.jpg" alt="" class="mb0" /> 
+<img src="/sonic.sega.jp/SonicChannel/upload_images/
+column_01_06.jpg" alt="" class="mb0" /> 
 <p class="textSmall">エアカー</p>
 <p>最後に、メトロポリスを飛び回っているものがあるのは知っていますか？実は、「エアカー」が飛び回っているんです。</p>
 <p>このエアカー、小さいので良く見せようとプレイフィールドに近い場所を飛ばすと「乗れたりするのでは？」と勘違いされる可能性もあるので、微妙にカメラから離れた場所で飛び回らせることにしたんですよ。</p>
 <p>いかがでしたか？かなり細かいネタでしたが、紹介したのは1例です。時には足を止めて普段は注目しない背景の細かい部分を眺めてみてくださいね。</p>
 <p>さて、次回はキャラクターパートのリーダー棚橋くんに、キャラクターデザイン周りのあれこれを語っていただきたいと思います。お楽しみに！</p>
-<img src="/SonicChannel/special/image/column_01_07.jpg" alt=""  />
+<img src="/sonic.sega.jp/SonicChannel/upload_images/
+column_01_07.jpg" alt=""  />
 		<a href="http://sonic.sega.jp/SonicForces/">→ソニックフォース公式サイト</a> 
-
-
-<nav id="substance-navigation"><ul class="boxLink paginationNum">
-
-
-
-</ul></nav>
-</div>
-<ul id="page-sns2">
-	<li class="snsTwitter"><img src="/SonicChannel//common/image/icon_twitter.png" alt="Twitter"></li>
-	<li class="snsFacebook"><img src="/SonicChannel//common/image/icon_facebook.png" alt="facebook"></li>
-	<li class="snsLine"><img src="/SonicChannel//common/image/icon_line.png" alt="LINE"></li>
-</ul>
+				
+				
+				<nav id="substance-navigation"><ul class="boxLink paginationNum">
+			
+			
+			
+				</ul></nav>
+			<ul id="page-sns2">
+				<li class="snsTwitter"><img src="/SonicChannel/assets/images/old/icon_twitter.png" alt="Twitter"></li>
+				<li class="snsFacebook"><img src="/SonicChannel/assets/images/old/icon_facebook.png" alt="facebook"></li>
+				<li class="snsLine"><img src="/SonicChannel/assets/images/old/icon_line.png" alt="LINE"></li>
+			</ul>
+	</div>
 </article>
 </main>
-	<nav id="common-pagination">
-	<ul class="boxLink paginationArrow">
-	<li class="iconLeft"><a rel="prev" href="/SonicChannel/special/gamecontents/sonicforces/20171107_001481/" >RISE OF INFINITE ～無限の萌芽～</a></li>
-<li class="iconUp"><a href="/SonicChannel/special/gamecontents/sonicforces">戻る</a></li>
-	<li class="iconRight"><a rel="next" href="/SonicChannel/special/gamecontents/sonicforces/20171124_001498/" >第2回 キャラクターパートリーダー 棚橋伸吉</a></li>
-	</ul>
-</nav>
-<footer>
+<footer role="contentinfo">
+	<div class="footerWrap">
+			<ul class="common-snsList-sp">
+				<li class="common-snsIcon is-x">
+					<a class="snsTwitter" href=""></a>
+				</li>
+				<li class="common-snsIcon is-line">
+					<a class="snsLine" href=""></a>
+				</li>
+				<li class="common-snsIcon is-facebook">
+					<a class="snsFacebook" href=""></a>
+				</li>
+			</ul><!-- .common-snsList-pc -->
+    <div class="footerContent">
+				<div class="footerLogoBox">
+						<div class="footerSonicChannelLogo"><a href="https://sonic.sega.jp/SonicChannel/" target="_blank"><img src="/SonicChannel/assets/images/common/logo_sonicchannel.png" alt="SONIC CHANNEL" /></a></div>
+						<div class="footerSonicTeamLogo"><a href="http://www.sonicteam.com/" target="_blank"><img src="/SonicChannel/assets/images/common/logo_sonicteam.png" alt="SONIC TEAM" /></a></div>
+					</div><!-- .footerLogoBox -->
+    <ul class="footerLinkList">
+    	<li>【<a href="/SonicChannel/about/#translation-function" target="_blank">翻訳機能について</a>】 </li>
+    	<li>【<a href="/SonicChannel/about/#download-policy" target="_blank">ダウンロードについて</a>】</li>
+     	<li>【<a href="http://sega.jp/contact/soft/" target="_blank">お問い合わせ</a>】</li>
+    	<li>【<a href="https://www.sega.co.jp/privacypolicy/" target="_blank">プライバシーポリシー</a>】</li>
+    	<li>【<a href="https://www.sega.co.jp/web-accessibility/index.html" target="_blank">ウェブアクセシビリティ方針</a>】</li>
+    </ul>
+	<p class="footerCopy">&copy;SEGA</p>
+    </div>
 	<div id="footer-search" class="googleSearch">
 		<div class="gcse-search"></div>
 	</div>
-	<p><a href="http://www.sonicteam.com/"><img src="/SonicChannel/common/image/SonicTeamLogo.png" width="105" height="27" alt="SONIC TEAM"/></a></p>
-	<p>【<a href="/SonicChannel/about/#translation-function">翻訳機能について</a>】 【<a href="/SonicChannel/about/#download-policy">ダウンロードについて</a>】</p>
-	<p>【<a href="http://sega.jp/contact/soft/" target="_blank">お問い合わせ</a>】【<a href="https://www.sega.co.jp/privacypolicy/" target="_blank">プライバシーポリシー</a>】</p>
-	<p>&copy;SEGA</p>
+</div>
 </footer>
-<div id='background-logo'></div>
-<div id='common-bg'><div id='bg-substance'></div></div>
+</div>
 </body>
 </html>
+

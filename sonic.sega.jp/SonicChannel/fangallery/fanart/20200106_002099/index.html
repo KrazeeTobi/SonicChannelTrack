@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# : http://ogp.me/ns/#" lang="ja">
-<meta name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0,user-scalable=yes" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta name="keyword" content="SONIC CHANNEL,ソニックチャンネル,SEGA,セガ,SONICTEAM,ソニックチーム,SONIC,ソニック" />
@@ -19,16 +19,27 @@
 <meta property="og:title" content="2020年1月「Happy New Year!」" />
 <meta property="og:url" content="https://sonic.sega.jp/SonicChannel/fangallery/fanart/20200106_002099/" />
 <meta property="og:description" content="	今月もファンアートのコーナーにたくさんの作品をご応募頂き、ありがとうございます！ 	新年を迎えるソニック達の楽し気な様子が描かれた作品をたくさん頂きました。ソニックは勿論、仲間たちと一緒にみんな笑顔なのが印象的ですね。特に和装姿や、日本古..." />
-<meta property="og:image" content="https://sonic.sega.jp/SonicChannel/fangallery/image/fanart_2001_eye.jpg">
+<meta property="og:image" content="https://sonic.sega.jp/SonicChannel/upload_images/fanart_2001_eye.jpg">
 <meta property="og:type" content="article">
 <title>SEGA | ソニックチャンネル | ファンギャラリー | 2020年1月「Happy New Year!」</title>
 <link rel="start" href="/SonicChannel/">
-<link rel="alternate" type="application/atom+xml" title="Recent Entries" href="/SonicChannel/atom.xml" />
-<link rel="stylesheet" href="/SonicChannel/common/css/import.css">
-<script src="/SonicChannel/common/js/import.js" language="javascript" type="text/javascript"></script>
+<link rel="alternate" type="application/atom+xml" title="Recent Entries" href="http://admin-mt-sonic.sega.jp/sonic.sega.jp/SonicChannel/production/atom.xml" />
+<link rel="stylesheet" href="https://use.typekit.net/sha2lhi.css">
+<link rel="stylesheet" href="/SonicChannel/assets/css/oldStyle.min.css">
+<link rel="stylesheet" href="/SonicChannel/assets/css/common.min.css">
+<script src="/SonicChannel/assets/js/libs/jquery-3.7.1.min.js"></script>
+		<script src="/SonicChannel/assets/js/libs/jquery.inview.min.js"></script>
+<script src="/SonicChannel/assets/js/libs/swiper-bundle.min.js"></script>
+<script src="/SonicChannel/assets/js/libs/jquery.swipebox.min.js"></script>
+<script src="/SonicChannel/assets/js/old/modernizr.js"></script>
+<script src="/SonicChannel/assets/js/old/swiper.min.js"></script>
+<script src="/SonicChannel/assets/js/old/jquery.tubular.1.0.js"></script>
+<script src="/SonicChannel/assets/js/old/velocity.min.js"></script>
+<script src="/SonicChannel/assets/js/old/snsClick.js"></script>
+<script src="/SonicChannel/assets/js/old/init.js"></script>
+<script src="/SonicChannel/assets/js/common.js"></script>
 <script async src="https://cse.google.com/cse.js?cx=b9e22222528a0e6ff"></script>
-<link rel="stylesheet" href="/SonicChannel/fangallery/common/css/import.css">
-<script src="/SonicChannel/fangallery/common/js/import.js" language="javascript" type="text/javascript"></script>
+<!--link rel="stylesheet" href="/SonicChannel/fangallery/common/css/import.css">
 <!--[if lte IE 8]>
 <script src="/SonicChannel/common/js/html5shiv.js"></script>
 <![endif]-->
@@ -39,178 +50,213 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','GTM-MF59Q7B');</script>
 </head>	
 <body class="entry individual fangallery">
-<header>
-	<a href="http://sega.jp/"><img src="/SonicChannel/common/image/header_sega.png" alt="SEGA" width="75" height="25" /></a>
-	<div>
-        <div>
+<div class="wrapper">
+<div class="wrapperBg"></div>
+<header role="banner">
+	<a href="http://sega.jp/" class="headerSEGALogo"><img src="/SonicChannel/assets/images/common/sega_logo_s_b.svg" alt="SEGA" width="75" height="25" /></a>
+			<ul class="common-snsList-pc">
+				<li class="common-snsIcon is-x">
+					<a class="snsTwitter" href=""></a>
+				</li>
+				<li class="common-snsIcon is-line">
+					<a class="snsLine" href=""></a>
+				</li>
+				<li class="common-snsIcon is-facebook">
+					<a class="snsFacebook" href=""></a>
+				</li>
+			</ul><!-- .common-snsList-pc -->
+	<div class="gTranslateBox">
+        <div class="gTranslateIcon">
            <a href="/SonicChannel/about/#translation-function">
               <svg>
-      			  <use xlink:href="/SonicChannel/common/image/header_caution.svg#caution"></use>
+      			  <use xlink:href="/SonicChannel/assets/images/old/header_caution.svg#caution"></use>
     		  </svg>
-        </a>
+        	</a>
         </div>
 		<div class="gtranslate_wrapper"></div>
 		<script>window.gtranslateSettings = {"default_language":"ja","wrapper_selector":".gtranslate_wrapper"}</script>
 		<script src="https://cdn.gtranslate.net/widgets/latest/dropdown.js" defer></script>
 	</div>
-	<h1><a href="/SonicChannel/"><img src="/SonicChannel/common/image/header_sonicchannel.png" alt="ソニックチャンネル" width="191" height="47" /></a></h1>
 </header>
-<nav id="common-navigation">
-	<a href="#" id="nav-trigger"><span id="trigger-icon"></span></a>
+<div id="nav-trigger"><span id="trigger-icon"></span></div>
+<nav id="common-navigation" role="navigation">
 	<div id="overlay-nav"><span></span></div><!-- cd-overlay-nav -->
 	<div id="overlay-content"><span></span></div> <!-- cd-overlay-content -->
-	<ul id="nav-list">
-		<li><a href="/SonicChannel/"><img src="/SonicChannel/common/image/nav_sonicchannel.png" alt="SONIC CHANNEL" /></a></li>
-		<li><a href="/SonicChannel/topics/information/">トピックス</a></li>
-		<li><a href="/SonicChannel/gametitle/nintendo-switch.html">ゲームタイトル</a></li>
-		<li><a href="/SonicChannel/character/">キャラクター</a></li>
-		<li><a href="/SonicChannel/special/">スペシャル</a></li>
-		<li><a href="/SonicChannel/fangallery/" class="activeAnchor">ファンギャラリー</a></li>
-		<li><a href="/SonicChannel/enjoy/wallpaper/">おたのしみ</a></li>
-	</ul>
-	<div class="googleSearch" id="nav-search">
-		<div class="gcse-search"></div>
+	<div class="navWrapper"> 
+		<div class="navLogoItem">
+       	 <h1 class="soinicChannelLogo"><a href="/SonicChannel/"><img src="/SonicChannel/assets/images/common/logo_sonicchannel.png" alt="ソニックチャンネル" width="191" height="47" /></a></h1>
+	</div>
+		<ul id="nav-list">
+        <li class="navItem is-top"><a href="/SonicChannel/">トップ</a></li>
+			<li class="navItem is-topics"><a href="/SonicChannel/topics/">トピックス</a></li>
+			<li class="navItem is-character"><a href="/SonicChannel/character/">キャラクター</a></li>
+    		<li class="navItem is-history"><a href="/SonicChannel/history/">ヒストリー</a></li>
+    		<li class="navItem is-special"><a href="/SonicChannel/special/top.html">スペシャル</a></li>
+			<li class="navItem is-fangallery"><a href="/SonicChannel/fangallery/top.html" class="activeAnchor">ファンギャラリー</a></li>
+		</ul>
+    	<div class="navWhatSonicItem">
+        <a href="/SonicChannel/character/" ><div class="navWhatSonicText">ソニックとは</div><div class="whatSonicArrow"></div></a>
+   		</div>
 	</div>
 </nav>
-<main id="common-contents">
+<main id="common-contents" role="main">
+<div class="headlineCommon"></div>
 <div id="contents-header">
-		<h2 class="headlineCommon">ファンギャラリー</h2>
 			<nav class="contentsNavigation">
-				<ul>
-						<li><a href="/SonicChannel/fangallery/" >すべて</a></li>
-								<li><a href="/SonicChannel/fangallery/fanart/" class="activeAnchor">ファンアート</a></li>
-								<li><a href="/SonicChannel/fangallery/screenshot/">スクリーンショット</a></li>
-								<li><a href="/SonicChannel/fangallery/oshiete/">おしえて!クリエイターズ</a></li>
-								<li><a href="/SonicChannel/fangallery/apply/">投稿</a></li>
-							</ul>
-				<select>
-						<option value="/SonicChannel/fangallery/" >すべて</option>
+            <div class="contentsNavigationInner">
+				<ul class="cateArctestUL">
+								<li class="cateArctestLi"><a href="/SonicChannel/fangallery/fanart/" class="activeAnchor">ファンアート</a></li>
+								<li class="cateArctestLi"><a href="/SonicChannel/fangallery/screenshot/">スクリーンショット</a></li>
+								<li class="cateArctestLi"><a href="/SonicChannel/fangallery/oshiete/">おしえて!クリエイターズ</a></li>
+								<li class="cateArctestLi"><a href="/SonicChannel/fangallery/apply/">投稿</a></li>
+            </ul>
+            <div class="navSelectBox">
+				<select aria-label="選択してください">
 								<option value="/SonicChannel/fangallery/fanart/"  selected>ファンアート</option>
 								<option value="/SonicChannel/fangallery/screenshot/" >スクリーンショット</option>
 								<option value="/SonicChannel/fangallery/oshiete/" >おしえて!クリエイターズ</option>
 								<option value="/SonicChannel/fangallery/apply/" >投稿</option>
-							</select>
+            </select>
+            </div>
 				<h3>ファンアート</h3>
+            </div>
 			</nav>
 </div>
 <article  id="contents-page">
-		<img src="/SonicChannel/fangallery/image/fanart_2001_eye.jpg" alt=""/>
-	<h1>2020年1月「Happy New Year!」</h1>
-	<time datetime="2020-01-06T19:40:07+09:00">2020.01.06</time>
-	<ul id="page-sns1">
-		<li class="snsTwitter"><img src="/SonicChannel//common/image/icon_twitter.png" width="25" height="25" alt="Twitter"></li>
-		<li class="snsFacebook"><img src="/SonicChannel//common/image/icon_facebook.png" width="25" height="25" alt="facebook"></li>
-		<li class="snsLine"><img src="/SonicChannel//common/image/icon_line.png" width="25" height="25" alt="LINE"></li>
-	</ul>
-<div id="cotentes-substance">
-
-	<p>今月もファンアートのコーナーにたくさんの作品をご応募頂き、ありがとうございます！</p>
+	<div class="contentsPageBg"></div>
+			<img class="contentPageTopImg" src="/SonicChannel/upload_images/fanart_2001_eye.jpg" alt=""/>
+		<h1>2020年1月「Happy New Year!」</h1>
+	<div id="cotentes-substance">
+			
+				<time datetime="2020-01-06T19:40:07+09:00">2020.01.06</time>
+				<ul id="page-sns1">
+					<li class="snsTwitter"><img src="/SonicChannel/assets/images/old/icon_twitter.png" width="25" height="25" alt="Twitter"></li>
+					<li class="snsFacebook"><img src="/SonicChannel/assets/images/old/icon_facebook.png" width="25" height="25" alt="facebook"></li>
+					<li class="snsLine"><img src="/SonicChannel/assets/images/old/icon_line.png" width="25" height="25" alt="LINE"></li>
+				</ul>		
+					<p>今月もファンアートのコーナーにたくさんの作品をご応募頂き、ありがとうございます！</p>
 	<p>新年を迎えるソニック達の楽し気な様子が描かれた作品をたくさん頂きました。ソニックは勿論、仲間たちと一緒にみんな笑顔なのが印象的ですね。特に和装姿や、日本古来のお正月らしいシーンが多く、普段とは違う彼らの様子を見るのも楽しいです。そんな2020年はネズミ年！ どんどん新しい事に挑戦するソニック達の活躍の年になるといいですね。</p>
 	<p>みなさんもソニック達に負けないくらい充実した素敵な年をお迎えください。</p>
 	
 	<hr>
 	<div class="column3rd columnFanart">
 
-<div><a class="swipeBox"  href="/SonicChannel/fangallery/fanart/image/2001_0011.jpg" title="ちば"><img src="/SonicChannel/fangallery/fanart/image/s2001_0011.jpg" alt="" /></a>
+<div><a class="swipeBox"  href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2001_0011.jpg" title="ちば"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2001_0011.jpg" alt="" /></a>
 <h2>ちば</h2><h3>HAPPY NEW YEAR 2020</h3><p>明けましておめでとうございます。今年もまた、ソニック達の活躍を応援しております。</p></div>
-<div><a class="swipeBox"  href="/SonicChannel/fangallery/fanart/image/2001_0012.jpg" title="ユト"><img src="/SonicChannel/fangallery/fanart/image/s2001_0012.jpg" alt="" /></a>
+<div><a class="swipeBox"  href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2001_0012.jpg" title="ユト"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2001_0012.jpg" alt="" /></a>
 <h2>ユト（18）</h2><h3>Happy new year</h3><p>あけましておめでとうございます。エミーちゃん「今年もよろしくね！」</p></div>
 
 
 
-<div><a class="swipeBox"  href="/SonicChannel/fangallery/fanart/image/2001_0001.jpg" title="南部屋"><img src="/SonicChannel/fangallery/fanart/image/s2001_0001.jpg" alt="" /></a>
+<div><a class="swipeBox"  href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2001_0001.jpg" title="南部屋"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2001_0001.jpg" alt="" /></a>
 <h2>南部屋</h2><h3>みんなで初詣</h3><p>みんなで初詣。エッグマンまでやってきたけどみんながいれば今年も大丈夫！今年も走り抜けてください！</p></div>
-<div><a class="swipeBox"  href="/SonicChannel/fangallery/fanart/image/2001_0002.jpg" title="Rinathehedgehog"><img src="/SonicChannel/fangallery/fanart/image/s2001_0002.jpg" alt="" /></a>
+<div><a class="swipeBox"  href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2001_0002.jpg" title="Rinathehedgehog"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2001_0002.jpg" alt="" /></a>
 <h2>Rinathehedgehog</h2><h3>来年も笑顔な１年になりますように</h3><p>福笑いというお正月の遊び笑う門には福来るという意味に因みソニック達4人が笑顔になってる様子を描かせて頂きました！2020のロゴはどんなに辛い時でもみんなで一緒に突き進めばへっちゃらさ！という意味を込めてゴ－ルテ－プに見立てました！色は令和カラ－にしています。2020年は新元号令和の初年ですね。</p></div>
-<div><a class="swipeBox"  href="/SonicChannel/fangallery/fanart/image/2001_0003.jpg" title="せなねね"><img src="/SonicChannel/fangallery/fanart/image/s2001_0003.jpg" alt="" /></a>
+<div><a class="swipeBox"  href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2001_0003.jpg" title="せなねね"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2001_0003.jpg" alt="" /></a>
 <h2>せなねね</h2><h3>あけおめ！！</h3><p>2020年はネズミ年！！いっぱい食べていっぱい遊んで素敵な1年になりますように！！</p></div>
-<div><a class="swipeBox"  href="/SonicChannel/fangallery/fanart/image/2001_0004.jpg" title="ラッキー"><img src="/SonicChannel/fangallery/fanart/image/s2001_0004.jpg" alt="" /></a>
+<div><a class="swipeBox"  href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2001_0004.jpg" title="ラッキー"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2001_0004.jpg" alt="" /></a>
 <h2>ラッキー</h2><h3>HAPPY NEW YEAR！2020</h3><p>あけましておめでとうございます！ソニックに2020年も駆け抜けてほしい、という願いを込めて描きました。今年もソニック達の活躍を楽しみにしています！</p></div>
-<div><a class="swipeBox"  href="/SonicChannel/fangallery/fanart/image/2001_0005.jpg" title="樹"><img src="/SonicChannel/fangallery/fanart/image/s2001_0005.jpg" alt="" /></a>
+<div><a class="swipeBox"  href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2001_0005.jpg" title="樹"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2001_0005.jpg" alt="" /></a>
 <h2>樹</h2><h3>和柄ソニックでハッピーニューイヤー</h3><p>ネズミ年ですね！ソニックフォースで、和柄っぽいアバター衣装がとても印象に残っていたので、和柄な感じのソニックに挑戦してみました。今年もハリネズミのソニックを応援していきたいと思いますっ。</p></div>
-<div><a class="swipeBox"  href="/SonicChannel/fangallery/fanart/image/2001_0006.jpg" title="名無し"><img src="/SonicChannel/fangallery/fanart/image/s2001_0006.jpg" alt="" /></a>
+<div><a class="swipeBox"  href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2001_0006.jpg" title="名無し"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2001_0006.jpg" alt="" /></a>
 <h2>名無し（16）</h2><h3>素敵な年を!!</h3><p>初投稿です！今年もいい年になりますように♪</p></div>
-<div><a class="swipeBox"  href="/SonicChannel/fangallery/fanart/image/2001_0007.jpg" title="作の宿"><img src="/SonicChannel/fangallery/fanart/image/s2001_0007.jpg" alt="" /></a>
+<div><a class="swipeBox"  href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2001_0007.jpg" title="作の宿"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2001_0007.jpg" alt="" /></a>
 <h2>作の宿（17）</h2><h3>(針)子年初日の出</h3><p>2020は子年!!···なんだけどソニックはネズミじゃないですということでソニックと、シャドウとシルバーも描いてみました。ハガキサイズで!!やっぱり光とかの表現難しいけどそれなりにいい感じにできました</p></div>
-<div><a class="swipeBox"  href="/SonicChannel/fangallery/fanart/image/2001_0008.jpg" title="楠チェリー"><img src="/SonicChannel/fangallery/fanart/image/s2001_0008.jpg" alt="" /></a>
+<div><a class="swipeBox"  href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2001_0008.jpg" title="楠チェリー"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2001_0008.jpg" alt="" /></a>
 <h2>楠チェリー</h2><h3>オレは餅じゃねぇ</h3><p>あけましておめでとうございます。今年も音速で駆け抜いていくソニック達を追いかけていきます。お雑煮の中にシルバー入れてみました</p></div>
-<div><a class="swipeBox"  href="/SonicChannel/fangallery/fanart/image/2001_0009.jpg" title="セツナ"><img src="/SonicChannel/fangallery/fanart/image/s2001_0009.jpg" alt="" /></a>
+<div><a class="swipeBox"  href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2001_0009.jpg" title="セツナ"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2001_0009.jpg" alt="" /></a>
 <h2>セツナ</h2><h3>二人で凧揚げ</h3><p>「いつも追いかけられてるのでたまにはこんな二人も見たいな」と思って描きました</p></div>
-<div><a class="swipeBox"  href="/SonicChannel/fangallery/fanart/image/2001_0010.jpg" title="ハミット"><img src="/SonicChannel/fangallery/fanart/image/s2001_0010.jpg" alt="" /></a>
+<div><a class="swipeBox"  href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2001_0010.jpg" title="ハミット"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2001_0010.jpg" alt="" /></a>
 <h2>ハミット</h2><h3>Happy New Year‼</h3><p>正月を各々楽しんでるソニック達を描きました</p></div>
-<div><a class="swipeBox"  href="/SonicChannel/fangallery/fanart/image/2001_0013.jpg" title="きにっと"><img src="/SonicChannel/fangallery/fanart/image/s2001_0013.jpg" alt="" /></a>
+<div><a class="swipeBox"  href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2001_0013.jpg" title="きにっと"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2001_0013.jpg" alt="" /></a>
 <h2>きにっと</h2><h3>年明けの昼下がり</h3><p>2020年はねずみ年、というわけでハリ"ネズミ"の皆さんを描いてみました！羽根突きの結果やいかに！？</p></div>
-<div><a class="swipeBox"  href="/SonicChannel/fangallery/fanart/image/2001_0014.jpg" title="おたま"><img src="/SonicChannel/fangallery/fanart/image/s2001_0014.jpg" alt="" /></a>
+<div><a class="swipeBox"  href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2001_0014.jpg" title="おたま"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2001_0014.jpg" alt="" /></a>
 <h2>おたま（15）</h2><h3>HAPPY NEW YEAR 2020</h3><p>明けましておめでとうございます！今回はお正月を楽しんでいるソニックたちを描きました！お正月と言えば、おせちを食べたり...すごろくしたり...皆さんは何をして過ごしますか？</p></div>
-<div><a class="swipeBox"  href="/SonicChannel/fangallery/fanart/image/2001_0015.jpg" title="白大福"><img src="/SonicChannel/fangallery/fanart/image/s2001_0015.jpg" alt="" /></a>
+<div><a class="swipeBox"  href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2001_0015.jpg" title="白大福"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2001_0015.jpg" alt="" /></a>
 <h2>白大福</h2><h3>新年・２０２０・子年</h3><p>あけましておめでとうございます。２０２０年は子年でかつ東京五輪がある年です。ソニックはハリネズミですし、東京五輪はソニックのゲームでも盛り上がっています。そこで今回のイラストでは、ソニックシリーズのハリネズミキャラをメインに背景として、東京の名所を幾つか配置してみました。</p></div>
-<div><a class="swipeBox"  href="/SonicChannel/fangallery/fanart/image/2001_0016.jpg" title="なな"><img src="/SonicChannel/fangallery/fanart/image/s2001_0016.jpg" alt="" /></a>
+<div><a class="swipeBox"  href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2001_0016.jpg" title="なな"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2001_0016.jpg" alt="" /></a>
 <h2>なな</h2><h3>HAPPY NEW YEAR　2020</h3><p>あけましておめでとうございます。２０２０年はネズミ年ということで、ソニックシリーズのハリネズミ+aたちを描いてみました。どの子も魅力的で大好きです！２０２０年もソニックたちのさらなる活躍をお祈りいたします。</p></div>
-<div><a class="swipeBox"  href="/SonicChannel/fangallery/fanart/image/2001_0017.jpg" title="やおー"><img src="/SonicChannel/fangallery/fanart/image/s2001_0017.jpg" alt="" /></a>
+<div><a class="swipeBox"  href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2001_0017.jpg" title="やおー"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2001_0017.jpg" alt="" /></a>
 <h2>やおー</h2><h3>はつもうで</h3><p>エミーが着物を着て初詣にきているところです。お参りをしながら横目で見つめる先にいるのは、大好きなあの人かもしれません</p></div>
-<div><a class="swipeBox"  href="/SonicChannel/fangallery/fanart/image/2001_0018.jpg" title="なの"><img src="/SonicChannel/fangallery/fanart/image/s2001_0018.jpg" alt="" /></a>
+<div><a class="swipeBox"  href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2001_0018.jpg" title="なの"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2001_0018.jpg" alt="" /></a>
 <h2>なの</h2><h3>謹賀新年</h3><p>イラストをご覧の皆さん、明けましておめでとうございます！今年は子年ということで、和服のエミーちゃんを描かせて頂きました！今年も良い年でありますよーに♪</p></div>
-<div><a class="swipeBox"  href="/SonicChannel/fangallery/fanart/image/2001_0019.jpg" title="もえぴー（20）"><img src="/SonicChannel/fangallery/fanart/image/s2001_0019.jpg" alt="" /></a>
+<div><a class="swipeBox"  href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2001_0019.jpg" title="もえぴー（20）"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2001_0019.jpg" alt="" /></a>
 <h2>もえぴー（20）</h2><h3>音速の男</h3><p>今までも、そして今年も彼は音速でかけ抜けていくのでしょうね。</p></div>
-<div><a class="swipeBox"  href="/SonicChannel/fangallery/fanart/image/2001_0020.jpg" title="魔堕丸（14）"><img src="/SonicChannel/fangallery/fanart/image/s2001_0020.jpg" alt="" /></a>
+<div><a class="swipeBox"  href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2001_0020.jpg" title="魔堕丸（14）"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2001_0020.jpg" alt="" /></a>
 <h2>魔堕丸（14）</h2><h3>謹賀新年</h3><p>ネズミ年ならぬハリネズミ年ということで今年もよろしくお願いいたします。良い一年でありますように。</p></div>
-<div><a class="swipeBox"  href="/SonicChannel/fangallery/fanart/image/2001_0021.jpg" title="ソニトクリーム"><img src="/SonicChannel/fangallery/fanart/image/s2001_0021.jpg" alt="" /></a>
+<div><a class="swipeBox"  href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2001_0021.jpg" title="ソニトクリーム"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2001_0021.jpg" alt="" /></a>
 <h2>ソニトクリーム</h2><h3>元旦のいたずら</h3><p>あけましておめでとうございます！2020年の干支はねずみなのでソニックは干支ですね。あれ？どうやらソニックはナックルズの顔に書き初めをしたみたいです。</p></div>
-<div><a class="swipeBox"  href="/SonicChannel/fangallery/fanart/image/2001_0022.jpg" title="107H"><img src="/SonicChannel/fangallery/fanart/image/s2001_0022.jpg" alt="" /></a>
+<div><a class="swipeBox"  href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2001_0022.jpg" title="107H"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2001_0022.jpg" alt="" /></a>
 <h2>107H</h2><h3>みんなでどこに？</h3><p>ソニックの仲間をたのしく描いたそうです。</p></div>
-<div><a class="swipeBox"  href="/SonicChannel/fangallery/fanart/image/2001_0023.jpg" title="なっつ（13）"><img src="/SonicChannel/fangallery/fanart/image/s2001_0023.jpg" alt="" /></a>
+<div><a class="swipeBox"  href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2001_0023.jpg" title="なっつ（13）"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2001_0023.jpg" alt="" /></a>
 <h2>なっつ（13）</h2><h3>ソニックであけおめ！</h3><p>今回始めてファンアートに応募しました。私はソニックのファンほどでは無いですが、友達にすすめられて描いてみました。下手ですみません。左斜したにあるのが私のサインです。</p></div>
-<div><a class="swipeBox"  href="/SonicChannel/fangallery/fanart/image/2001_0024.jpg" title="スピーディ（26）"><img src="/SonicChannel/fangallery/fanart/image/s2001_0024.jpg" alt="" /></a>
+<div><a class="swipeBox"  href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2001_0024.jpg" title="スピーディ（26）"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2001_0024.jpg" alt="" /></a>
 <h2>スピーディ（26）</h2><h3>ハリネズミ年</h3><p>今年の主役は彼らで決まりです！</p></div>
-<div><a class="swipeBox"  href="/SonicChannel/fangallery/fanart/image/2001_0025.jpg" title="JEWEL（25）"><img src="/SonicChannel/fangallery/fanart/image/s2001_0025.jpg" alt="" /></a>
+<div><a class="swipeBox"  href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2001_0025.jpg" title="JEWEL（25）"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2001_0025.jpg" alt="" /></a>
 <h2>JEWEL（25）</h2><h3>天晴れ！年男！</h3><p>2020年はねずみ年なので今回はソニック、シャドウ、シルバーを描きました。今年もさらなる活躍と、待ちにまった映画の公開を楽しみにしています！</p></div>
-<div><a class="swipeBox"  href="/SonicChannel/fangallery/fanart/image/2001_0026.jpg" title="ウエポン（24）"><img src="/SonicChannel/fangallery/fanart/image/s2001_0026.jpg" alt="" /></a>
+<div><a class="swipeBox"  href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2001_0026.jpg" title="ウエポン（24）"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2001_0026.jpg" alt="" /></a>
 <h2>ウエポン（24）</h2><h3>ほれソニック手を出さんか。</h3><p>エッグマンからのお年玉です。</p></div>
-<div><a class="swipeBox"  href="/SonicChannel/fangallery/fanart/image/2001_0027.jpg" title="メロン"><img src="/SonicChannel/fangallery/fanart/image/s2001_0027.jpg" alt="" /></a>
+<div><a class="swipeBox"  href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2001_0027.jpg" title="メロン"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2001_0027.jpg" alt="" /></a>
 <h2>メロン</h2><h3>みんなでいただきます。</h3><p>初めて投稿しました。みんなで一緒におモチを食べようとしているところを描きました。色塗りも頑張って描いてとても楽しい絵になりました。ソニックの大好きなチリドッグも忘れずに。</p></div>
-<div><a class="swipeBox"  href="/SonicChannel/fangallery/fanart/image/2001_0028.jpg" title="ちぇいでぃ（14）"><img src="/SonicChannel/fangallery/fanart/image/s2001_0028.jpg" alt="" /></a>
+<div><a class="swipeBox"  href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2001_0028.jpg" title="ちぇいでぃ（14）"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2001_0028.jpg" alt="" /></a>
 <h2>ちぇいでぃ（14）</h2><h3>ハッピーニューイヤー</h3><p>ソニックとクラシックソニックが楽しそうにニューイヤーを送っている絵を描いてみました。これからも何がおこるのか楽しみです。</p></div>
-<div><a class="swipeBox"  href="/SonicChannel/fangallery/fanart/image/2001_0029.jpg" title="ブルースター（21）"><img src="/SonicChannel/fangallery/fanart/image/s2001_0029.jpg" alt="" /></a>
+<div><a class="swipeBox"  href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2001_0029.jpg" title="ブルースター（21）"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2001_0029.jpg" alt="" /></a>
 <h2>ブルースター（21）</h2><h3>オトメのハンマー</h3><p>エミー「いくわよー！」ソニック「Heyエミー、オレの手間でたたくなよ」</p></div>
-<div><a class="swipeBox"  href="/SonicChannel/fangallery/fanart/image/2001_0030.jpg" title="シナリオテラー"><img src="/SonicChannel/fangallery/fanart/image/s2001_0030.jpg" alt="" /></a>
+<div><a class="swipeBox"  href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2001_0030.jpg" title="シナリオテラー"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2001_0030.jpg" alt="" /></a>
 <h2>シナリオテラー</h2><h3>バラエティギャラリー</h3><p>元旦！祝2020！このイラストは正月の様をヒーローもヴィランも揃ってエンジョイ。このイラストは最近日本ではあまり登場しないキャラやアメコミ限定のキャラもご一緒させました。なお、サービスにオモチャオも付けました（笑）。</p></div>
 
 
 
 	
 	</div>
-
-
-<nav id="substance-navigation"><ul class="boxLink paginationNum">
-
-
-
-</ul></nav>
-</div>
-<ul id="page-sns2">
-	<li class="snsTwitter"><img src="/SonicChannel//common/image/icon_twitter.png" alt="Twitter"></li>
-	<li class="snsFacebook"><img src="/SonicChannel//common/image/icon_facebook.png" alt="facebook"></li>
-	<li class="snsLine"><img src="/SonicChannel//common/image/icon_line.png" alt="LINE"></li>
-</ul>
+				
+				
+				<nav id="substance-navigation"><ul class="boxLink paginationNum">
+			
+			
+			
+				</ul></nav>
+			<ul id="page-sns2">
+				<li class="snsTwitter"><img src="/SonicChannel/assets/images/old/icon_twitter.png" alt="Twitter"></li>
+				<li class="snsFacebook"><img src="/SonicChannel/assets/images/old/icon_facebook.png" alt="facebook"></li>
+				<li class="snsLine"><img src="/SonicChannel/assets/images/old/icon_line.png" alt="LINE"></li>
+			</ul>
+	</div>
 </article>
 </main>
-	<nav id="common-pagination">
-	<ul class="boxLink paginationArrow">
-	<li class="iconLeft"><a rel="prev" href="/SonicChannel/fangallery/fanart/20191202_002077/" >2019年12月「クリスマス」</a></li>
-<li class="iconUp"><a href="/SonicChannel/fangallery/fanart">戻る</a></li>
-	<li class="iconRight"><a rel="next" href="/SonicChannel/fangallery/fanart/20200203_002155/" >2020年2月「バレンタイン」</a></li>
-	</ul>
-</nav>
-<footer>
+<footer role="contentinfo">
+	<div class="footerWrap">
+			<ul class="common-snsList-sp">
+				<li class="common-snsIcon is-x">
+					<a class="snsTwitter" href=""></a>
+				</li>
+				<li class="common-snsIcon is-line">
+					<a class="snsLine" href=""></a>
+				</li>
+				<li class="common-snsIcon is-facebook">
+					<a class="snsFacebook" href=""></a>
+				</li>
+			</ul><!-- .common-snsList-pc -->
+    <div class="footerContent">
+				<div class="footerLogoBox">
+						<div class="footerSonicChannelLogo"><a href="https://sonic.sega.jp/SonicChannel/" target="_blank"><img src="/SonicChannel/assets/images/common/logo_sonicchannel.png" alt="SONIC CHANNEL" /></a></div>
+						<div class="footerSonicTeamLogo"><a href="http://www.sonicteam.com/" target="_blank"><img src="/SonicChannel/assets/images/common/logo_sonicteam.png" alt="SONIC TEAM" /></a></div>
+					</div><!-- .footerLogoBox -->
+    <ul class="footerLinkList">
+    	<li>【<a href="/SonicChannel/about/#translation-function" target="_blank">翻訳機能について</a>】 </li>
+    	<li>【<a href="/SonicChannel/about/#download-policy" target="_blank">ダウンロードについて</a>】</li>
+     	<li>【<a href="http://sega.jp/contact/soft/" target="_blank">お問い合わせ</a>】</li>
+    	<li>【<a href="https://www.sega.co.jp/privacypolicy/" target="_blank">プライバシーポリシー</a>】</li>
+    	<li>【<a href="https://www.sega.co.jp/web-accessibility/index.html" target="_blank">ウェブアクセシビリティ方針</a>】</li>
+    </ul>
+	<p class="footerCopy">&copy;SEGA</p>
+    </div>
 	<div id="footer-search" class="googleSearch">
 		<div class="gcse-search"></div>
 	</div>
-	<p><a href="http://www.sonicteam.com/"><img src="/SonicChannel/common/image/SonicTeamLogo.png" width="105" height="27" alt="SONIC TEAM"/></a></p>
-	<p>【<a href="/SonicChannel/about/#translation-function">翻訳機能について</a>】 【<a href="/SonicChannel/about/#download-policy">ダウンロードについて</a>】</p>
-	<p>【<a href="http://sega.jp/contact/soft/" target="_blank">お問い合わせ</a>】【<a href="https://www.sega.co.jp/privacypolicy/" target="_blank">プライバシーポリシー</a>】</p>
-	<p>&copy;SEGA</p>
+</div>
 </footer>
-<div id='background-logo'></div>
-<div id='common-bg'><div id='bg-substance'></div></div>
+</div>
 </body>
 </html>
+

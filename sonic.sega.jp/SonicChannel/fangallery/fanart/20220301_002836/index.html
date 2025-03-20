@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# : http://ogp.me/ns/#" lang="ja">
-<meta name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0,user-scalable=yes" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta name="keyword" content="SONIC CHANNEL,ソニックチャンネル,SEGA,セガ,SONICTEAM,ソニックチーム,SONIC,ソニック" />
@@ -19,16 +19,27 @@
 <meta property="og:title" content="2022年03月「食べ物」" />
 <meta property="og:url" content="https://sonic.sega.jp/SonicChannel/fangallery/fanart/20220301_002836/" />
 <meta property="og:description" content="今月もファンアートのコーナーにたくさんの作品をご応募頂き、ありがとうございます！ テーマの「食べ物」を手に、食事や料理を楽しむ様子を描いた作品を多く頂きました！ ソニック達の好物をはじめ、キャラクターをテーマに考えられたオリジナルメニューや..." />
-<meta property="og:image" content="https://sonic.sega.jp/SonicChannel/fangallery/image/fanart_2203_eye.jpg">
+<meta property="og:image" content="https://sonic.sega.jp/SonicChannel/upload_images/fanart_2203_eye.jpg">
 <meta property="og:type" content="article">
 <title>SEGA | ソニックチャンネル | ファンギャラリー | 2022年03月「食べ物」</title>
 <link rel="start" href="/SonicChannel/">
-<link rel="alternate" type="application/atom+xml" title="Recent Entries" href="/SonicChannel/atom.xml" />
-<link rel="stylesheet" href="/SonicChannel/common/css/import.css">
-<script src="/SonicChannel/common/js/import.js" language="javascript" type="text/javascript"></script>
+<link rel="alternate" type="application/atom+xml" title="Recent Entries" href="http://admin-mt-sonic.sega.jp/sonic.sega.jp/SonicChannel/production/atom.xml" />
+<link rel="stylesheet" href="https://use.typekit.net/sha2lhi.css">
+<link rel="stylesheet" href="/SonicChannel/assets/css/oldStyle.min.css">
+<link rel="stylesheet" href="/SonicChannel/assets/css/common.min.css">
+<script src="/SonicChannel/assets/js/libs/jquery-3.7.1.min.js"></script>
+		<script src="/SonicChannel/assets/js/libs/jquery.inview.min.js"></script>
+<script src="/SonicChannel/assets/js/libs/swiper-bundle.min.js"></script>
+<script src="/SonicChannel/assets/js/libs/jquery.swipebox.min.js"></script>
+<script src="/SonicChannel/assets/js/old/modernizr.js"></script>
+<script src="/SonicChannel/assets/js/old/swiper.min.js"></script>
+<script src="/SonicChannel/assets/js/old/jquery.tubular.1.0.js"></script>
+<script src="/SonicChannel/assets/js/old/velocity.min.js"></script>
+<script src="/SonicChannel/assets/js/old/snsClick.js"></script>
+<script src="/SonicChannel/assets/js/old/init.js"></script>
+<script src="/SonicChannel/assets/js/common.js"></script>
 <script async src="https://cse.google.com/cse.js?cx=b9e22222528a0e6ff"></script>
-<link rel="stylesheet" href="/SonicChannel/fangallery/common/css/import.css">
-<script src="/SonicChannel/fangallery/common/js/import.js" language="javascript" type="text/javascript"></script>
+<!--link rel="stylesheet" href="/SonicChannel/fangallery/common/css/import.css">
 <!--[if lte IE 8]>
 <script src="/SonicChannel/common/js/html5shiv.js"></script>
 <![endif]-->
@@ -39,72 +50,91 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','GTM-MF59Q7B');</script>
 </head>	
 <body class="entry individual fangallery">
-<header>
-	<a href="http://sega.jp/"><img src="/SonicChannel/common/image/header_sega.png" alt="SEGA" width="75" height="25" /></a>
-	<div>
-        <div>
+<div class="wrapper">
+<div class="wrapperBg"></div>
+<header role="banner">
+	<a href="http://sega.jp/" class="headerSEGALogo"><img src="/SonicChannel/assets/images/common/sega_logo_s_b.svg" alt="SEGA" width="75" height="25" /></a>
+			<ul class="common-snsList-pc">
+				<li class="common-snsIcon is-x">
+					<a class="snsTwitter" href=""></a>
+				</li>
+				<li class="common-snsIcon is-line">
+					<a class="snsLine" href=""></a>
+				</li>
+				<li class="common-snsIcon is-facebook">
+					<a class="snsFacebook" href=""></a>
+				</li>
+			</ul><!-- .common-snsList-pc -->
+	<div class="gTranslateBox">
+        <div class="gTranslateIcon">
            <a href="/SonicChannel/about/#translation-function">
               <svg>
-      			  <use xlink:href="/SonicChannel/common/image/header_caution.svg#caution"></use>
+      			  <use xlink:href="/SonicChannel/assets/images/old/header_caution.svg#caution"></use>
     		  </svg>
-        </a>
+        	</a>
         </div>
 		<div class="gtranslate_wrapper"></div>
 		<script>window.gtranslateSettings = {"default_language":"ja","wrapper_selector":".gtranslate_wrapper"}</script>
 		<script src="https://cdn.gtranslate.net/widgets/latest/dropdown.js" defer></script>
 	</div>
-	<h1><a href="/SonicChannel/"><img src="/SonicChannel/common/image/header_sonicchannel.png" alt="ソニックチャンネル" width="191" height="47" /></a></h1>
 </header>
-<nav id="common-navigation">
-	<a href="#" id="nav-trigger"><span id="trigger-icon"></span></a>
+<div id="nav-trigger"><span id="trigger-icon"></span></div>
+<nav id="common-navigation" role="navigation">
 	<div id="overlay-nav"><span></span></div><!-- cd-overlay-nav -->
 	<div id="overlay-content"><span></span></div> <!-- cd-overlay-content -->
-	<ul id="nav-list">
-		<li><a href="/SonicChannel/"><img src="/SonicChannel/common/image/nav_sonicchannel.png" alt="SONIC CHANNEL" /></a></li>
-		<li><a href="/SonicChannel/topics/information/">トピックス</a></li>
-		<li><a href="/SonicChannel/gametitle/nintendo-switch.html">ゲームタイトル</a></li>
-		<li><a href="/SonicChannel/character/">キャラクター</a></li>
-		<li><a href="/SonicChannel/special/">スペシャル</a></li>
-		<li><a href="/SonicChannel/fangallery/" class="activeAnchor">ファンギャラリー</a></li>
-		<li><a href="/SonicChannel/enjoy/wallpaper/">おたのしみ</a></li>
-	</ul>
-	<div class="googleSearch" id="nav-search">
-		<div class="gcse-search"></div>
+	<div class="navWrapper"> 
+		<div class="navLogoItem">
+       	 <h1 class="soinicChannelLogo"><a href="/SonicChannel/"><img src="/SonicChannel/assets/images/common/logo_sonicchannel.png" alt="ソニックチャンネル" width="191" height="47" /></a></h1>
+	</div>
+		<ul id="nav-list">
+        <li class="navItem is-top"><a href="/SonicChannel/">トップ</a></li>
+			<li class="navItem is-topics"><a href="/SonicChannel/topics/">トピックス</a></li>
+			<li class="navItem is-character"><a href="/SonicChannel/character/">キャラクター</a></li>
+    		<li class="navItem is-history"><a href="/SonicChannel/history/">ヒストリー</a></li>
+    		<li class="navItem is-special"><a href="/SonicChannel/special/top.html">スペシャル</a></li>
+			<li class="navItem is-fangallery"><a href="/SonicChannel/fangallery/top.html" class="activeAnchor">ファンギャラリー</a></li>
+		</ul>
+    	<div class="navWhatSonicItem">
+        <a href="/SonicChannel/character/" ><div class="navWhatSonicText">ソニックとは</div><div class="whatSonicArrow"></div></a>
+   		</div>
 	</div>
 </nav>
-<main id="common-contents">
+<main id="common-contents" role="main">
+<div class="headlineCommon"></div>
 <div id="contents-header">
-		<h2 class="headlineCommon">ファンギャラリー</h2>
 			<nav class="contentsNavigation">
-				<ul>
-						<li><a href="/SonicChannel/fangallery/" >すべて</a></li>
-								<li><a href="/SonicChannel/fangallery/fanart/" class="activeAnchor">ファンアート</a></li>
-								<li><a href="/SonicChannel/fangallery/screenshot/">スクリーンショット</a></li>
-								<li><a href="/SonicChannel/fangallery/oshiete/">おしえて!クリエイターズ</a></li>
-								<li><a href="/SonicChannel/fangallery/apply/">投稿</a></li>
-							</ul>
-				<select>
-						<option value="/SonicChannel/fangallery/" >すべて</option>
+            <div class="contentsNavigationInner">
+				<ul class="cateArctestUL">
+								<li class="cateArctestLi"><a href="/SonicChannel/fangallery/fanart/" class="activeAnchor">ファンアート</a></li>
+								<li class="cateArctestLi"><a href="/SonicChannel/fangallery/screenshot/">スクリーンショット</a></li>
+								<li class="cateArctestLi"><a href="/SonicChannel/fangallery/oshiete/">おしえて!クリエイターズ</a></li>
+								<li class="cateArctestLi"><a href="/SonicChannel/fangallery/apply/">投稿</a></li>
+            </ul>
+            <div class="navSelectBox">
+				<select aria-label="選択してください">
 								<option value="/SonicChannel/fangallery/fanart/"  selected>ファンアート</option>
 								<option value="/SonicChannel/fangallery/screenshot/" >スクリーンショット</option>
 								<option value="/SonicChannel/fangallery/oshiete/" >おしえて!クリエイターズ</option>
 								<option value="/SonicChannel/fangallery/apply/" >投稿</option>
-							</select>
+            </select>
+            </div>
 				<h3>ファンアート</h3>
+            </div>
 			</nav>
 </div>
 <article  id="contents-page">
-		<img src="/SonicChannel/fangallery/image/fanart_2203_eye.jpg" alt=""/>
-	<h1>2022年03月「食べ物」</h1>
-	<time datetime="2022-03-01T21:41:24+09:00">2022.03.01</time>
-	<ul id="page-sns1">
-		<li class="snsTwitter"><img src="/SonicChannel//common/image/icon_twitter.png" width="25" height="25" alt="Twitter"></li>
-		<li class="snsFacebook"><img src="/SonicChannel//common/image/icon_facebook.png" width="25" height="25" alt="facebook"></li>
-		<li class="snsLine"><img src="/SonicChannel//common/image/icon_line.png" width="25" height="25" alt="LINE"></li>
-	</ul>
-<div id="cotentes-substance">
-
-<p>今月もファンアートのコーナーにたくさんの作品をご応募頂き、ありがとうございます！</p>
+	<div class="contentsPageBg"></div>
+			<img class="contentPageTopImg" src="/SonicChannel/upload_images/fanart_2203_eye.jpg" alt=""/>
+		<h1>2022年03月「食べ物」</h1>
+	<div id="cotentes-substance">
+			
+				<time datetime="2022-03-01T21:41:24+09:00">2022.03.01</time>
+				<ul id="page-sns1">
+					<li class="snsTwitter"><img src="/SonicChannel/assets/images/old/icon_twitter.png" width="25" height="25" alt="Twitter"></li>
+					<li class="snsFacebook"><img src="/SonicChannel/assets/images/old/icon_facebook.png" width="25" height="25" alt="facebook"></li>
+					<li class="snsLine"><img src="/SonicChannel/assets/images/old/icon_line.png" width="25" height="25" alt="LINE"></li>
+				</ul>		
+				<p>今月もファンアートのコーナーにたくさんの作品をご応募頂き、ありがとうございます！</p>
 <p>テーマの「食べ物」を手に、食事や料理を楽しむ様子を描いた作品を多く頂きました！
 ソニック達の好物をはじめ、キャラクターをテーマに考えられたオリジナルメニューや、思い出の一品を丁寧に再現したものなど、食べ物一つ一つまでよく考えられており、美味しそうで見ごたえがありますね！</p>
 <p>皆さんも作品のソニック達のように、何気ない食事の時間をじっくりと楽しんでみてはいかがでしょう？</p>
@@ -114,72 +144,88 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	<div class="column3rd columnFanart">
 		
 
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2203_0009.jpg" title="ドラゴくん"><img src="/SonicChannel/fangallery/fanart/image/s2203_0009.jpg" alt="" /></a><h2>ドラゴくん</h2><h3>乾杯だ!!</h3><p>ソニックX65話よりテーブルの上にご馳走とジュースが置かれてたので、パーティーだしきっとみんなで乾杯したり賑やかに話しながらご馳走を食べたりしたんじゃないかなぁと思い、想像して描いてみましたこの楽しい思い出はみんなの心に永遠に刻まれた事と思います</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2203_0001.jpg" title="鎌切"><img src="/SonicChannel/fangallery/fanart/image/s2203_0001.jpg" alt="" /></a><h2>鎌切（23）</h2><h3>ひな祭りのお菓子</h3><p>ひなあられを美味しそうに食べるエミーちゃん。</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2203_0002.jpg" title="ゼンラの伝説"><img src="/SonicChannel/fangallery/fanart/image/s2203_0002.jpg" alt="" /></a><h2>ゼンラの伝説</h2><h3>俺のだぜ！！</h3><p>初投稿です！たまたま寄ったアイスクリーム屋さんにて買った豪華なアイスクリーム独り占めですな･･･( ・ω・ )</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2203_0003.jpg" title="アヤアヤ"><img src="/SonicChannel/fangallery/fanart/image/s2203_0003.jpg" alt="" /></a><h2>アヤアヤ</h2><h3>食べ物</h3><p>みんなでスイーツを作って楽しもう！</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2203_0004.jpg" title="ソニナコ"><img src="/SonicChannel/fangallery/fanart/image/s2203_0004.jpg" alt="" /></a><h2>ソニナコ（13）</h2><h3>ソニックとチップでランチ</h3><p>アポトスに来たソニックとチップ。腹ごしらえにアポトスで2人でランチ。ソニックワールドアドベンチャーをモチーフにしてます。</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2203_0005.jpg" title="UNDERSONIC"><img src="/SonicChannel/fangallery/fanart/image/s2203_0005.jpg" alt="" /></a><h2>UNDERSONIC（12）</h2><h3>ニラ饅スフィア</h3><p>初投稿ですナックルズが伝説のカオスニラ饅を集めるためにニラ饅スフィア(笑)に挑戦中！隣には誰か違うものを集めてるようだが...?</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2203_0006.jpg" title="樹"><img src="/SonicChannel/fangallery/fanart/image/s2203_0006.jpg" alt="" /></a><h2>樹</h2><h3>ポップ！</h3><p>ポップコーンと一緒に弾けるソニックです。食べ物というテーマでいろいろ悩んだ結果、やっぱりこれかなと思ったので。とにかく弾けてもらいました。</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2203_0007.jpg" title="N"><img src="/SonicChannel/fangallery/fanart/image/s2203_0007.jpg" alt="" /></a><h2>N</h2><h3>Let's cooking！</h3><p>手って描くの難しいですね。</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2203_0008.jpg" title="セナチュウ"><img src="/SonicChannel/fangallery/fanart/image/s2203_0008.jpg" alt="" /></a><h2>セナチュウ</h2><h3>パフェ</h3><p>パフェを仲良く頬ばる4組の大親友の幼なじみ</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2203_0010.jpg" title="ちば"><img src="/SonicChannel/fangallery/fanart/image/s2203_0010.jpg" alt="" /></a><h2>ちば</h2><h3>食べ物</h3><p>また、コラボカフェの開催を思い描いて。</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2203_0011.jpg" title="にゃにゃ丸"><img src="/SonicChannel/fangallery/fanart/image/s2203_0011.jpg" alt="" /></a><h2>にゃにゃ丸</h2><h3>美味しいお菓子に囲まれて</h3><p>美味しいものなら何でも好きな食いしん坊のチップ。好きなものに囲まれて幸せいっぱいです。</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2203_0012.jpg" title="楠チェリー"><img src="/SonicChannel/fangallery/fanart/image/s2203_0012.jpg" alt="" /></a><h2>楠チェリー</h2><h3>Sweet!</h3><p>ゆめかわいいお菓子を描いてみました</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2203_0013.jpg" title="作の宿"><img src="/SonicChannel/fangallery/fanart/image/s2203_0013.jpg" alt="" /></a><h2>作の宿（19）</h2><h3>2人旅の合間</h3><p>ソニックシリーズで食べ物と言えばやはり主人公の大好物がまっさきに出てきます それを誰に渡しているかは･･･ご想像におまかせしますね</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2203_0014.jpg" title="ゲコ助"><img src="/SonicChannel/fangallery/fanart/image/s2203_0014.jpg" alt="" /></a><h2>ゲコ助</h2><h3>2人で仲良く？</h3><p>無事、シャドウを連れ込めたソニック。ここからはソニックからの質問攻め。シャドウが怒らない程度にね......</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2203_0015.jpg" title="セントマックス"><img src="/SonicChannel/fangallery/fanart/image/s2203_0015.jpg" alt="" /></a><h2>セントマックス（21）</h2><h3>Let's party!</h3><p>またみんなで気兼ねなくワイワイしたいね</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2203_0016.jpg" title="鈴木寿司本店"><img src="/SonicChannel/fangallery/fanart/image/s2203_0016.jpg" alt="" /></a><h2>鈴木寿司本店（16）</h2><h3>オレの夢</h3><p>巨大なチリドッグを食べてみたいなあー、と思うソニックなのでした。</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2203_0017.jpg" title="舞夏"><img src="/SonicChannel/fangallery/fanart/image/s2203_0017.jpg" alt="" /></a><h2>舞夏（18）</h2><h3>好物</h3><p>チリドックを食べているソニックを描きました。特に陰と色を意識したので、結構ダイナミックに仕上がったと思います。</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2203_0018.jpg" title="りふぃん"><img src="/SonicChannel/fangallery/fanart/image/s2203_0018.jpg" alt="" /></a><h2>りふぃん</h2><h3>お鍋カオティクス</h3><p>仕事が大成功を収めお給料がいつもより沢山貰えた日は、奮発してこたつでお鍋を囲んでほしいです。万年金欠チームもたまには温かい物でも食べてほっこりしてほしいです。</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2203_0019.jpg" title="RUKA"><img src="/SonicChannel/fangallery/fanart/image/s2203_0019.jpg" alt="" /></a><h2>RUKA</h2><h3>カオティクス探偵団の休憩タイム</h3><p>ここは、カオティクス探偵事務所。三人は休憩時間のようです。ベクターはプリン、エスピオは団子、チャーミーはドーナツを食べてるようです。あれ、でも、壁に貼ってある依頼は今日までだったような...代わりに皆さんが、依頼を受けてあげてください。これであなたもカオティクス探偵団の一員になれるかも。</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2203_0020.jpg" title="メロン"><img src="/SonicChannel/fangallery/fanart/image/s2203_0020.jpg" alt="" /></a><h2>メロン</h2><h3>空の食事</h3><p>テイルス、ナックルズ、エミーとクリームのそれぞれの好物をもらってトルネード号に乗って食べているソニック空を満喫しながら食べるとより一層美味しくなりそう</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2203_0021.jpg" title="Stray"><img src="/SonicChannel/fangallery/fanart/image/s2203_0021.jpg" alt="" /></a><h2>Stray（18）</h2><h3>オレ(ぼく)の大好物！</h3><p>以前、MOMOというネームで投稿していた者です。年越しの配信で来てくれたこの二人が可愛すぎて、この並びで久々に投稿したいと思いました！ソニックとテイルスくんはスマイルが似合うぜ...おまけでクッキーVerも(笑)今年で大学生となりますが、変わらずソニックを追いかけ、新作を楽しみに生きていきます！</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2203_0022.jpg" title="アクア"><img src="/SonicChannel/fangallery/fanart/image/s2203_0022.jpg" alt="" /></a><h2>アクア</h2><h3>天才の発明と天才の応用</h3><p>メタリックマッドネスの赤いビームを浴びて体が小さくなったら、普段食べてる物が大きく見えるかも...？</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2203_0023.jpg" title="めめ(meme)"><img src="/SonicChannel/fangallery/fanart/image/s2203_0023.jpg" alt="" /></a><h2>めめ(meme)</h2><h3>4人で食べるソフトクリーム</h3><p>クリーム、エミー、ブレイズ、ルージュの4人でソフトクリームを食べてる絵です。</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2203_0024.jpg" title="茶々"><img src="/SonicChannel/fangallery/fanart/image/s2203_0024.jpg" alt="" /></a><h2>茶々</h2><h3>おいしいものはみんなで一緒に！</h3><p>みんなで食べると倍おいしい！！</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2203_0025.jpg" title="菜ノ葉 なの"><img src="/SonicChannel/fangallery/fanart/image/s2203_0025.jpg" alt="" /></a><h2>菜ノ葉 なの</h2><h3>良い火加減</h3><p>数年前の お料理を焦がしてしまっているブレイズの壁紙を拝見し、ブレイズならきっと 成功するまでお料理の練習をするだろうと思い、描かせていただきました！クリームとチーズのために、クリームチーズのパンケーキを。きっと喜んでくれるはず！</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2203_0026.jpg" title="にゃーちゃん"><img src="/SonicChannel/fangallery/fanart/image/s2203_0026.jpg" alt="" /></a><h2>にゃーちゃん（11）</h2><h3>シャドウのクッキング</h3><p>シャドウが目玉焼きを焼いているところを書きました。</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2203_0027.jpg" title="王張アルト"><img src="/SonicChannel/fangallery/fanart/image/s2203_0027.jpg" alt="" /></a><h2>王張アルト</h2><h3>こだわりの味</h3><p>エンパイアシティでホットドッグスタンドを始めたソニック。やっぱりイチオシはチリドッグ？他にもテイルスがレモネード、エミーがアイスクリームのスタンドをやっているとか。</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2203_0028.jpg" title="ニジードル♪"><img src="/SonicChannel/fangallery/fanart/image/s2203_0028.jpg" alt="" /></a><h2>ニジードル♪（11）</h2><h3>ケーキ3種ちゃん</h3><p>このイラストを描く時その少し前に買ったケーキと、よく見るケーキ3種類をイメージしたドレスを着せてみました。そして、そのケーキの中にルージュというケーキがあり、この絵を描きました。(クリームはほうじ茶ケーキ 、エミーはピスタチオベリー、です。)</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2203_0029.jpg" title="さり男"><img src="/SonicChannel/fangallery/fanart/image/s2203_0029.jpg" alt="" /></a><h2>さり男（24）</h2><h3>eating</h3><p>たまに食べたいジャンクフード</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2203_0030.jpg" title="死月"><img src="/SonicChannel/fangallery/fanart/image/s2203_0030.jpg" alt="" /></a><h2>死月</h2><h3>Come on, eat up!</h3><p>3月になりだんだん暖かくなってきましたね！ということで、この二人には先行で(無理やり)花見デートに行ってもらいました。大好物をおすそ分けする優しいエミーちゃんと多少のためらいを持ちつつその好意を受け取るソニック。微笑ましいです(笑)</p></div>		
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2203_0009.jpg" title="ドラゴくん"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2203_0009.jpg" alt="" /></a><h2>ドラゴくん</h2><h3>乾杯だ!!</h3><p>ソニックX65話よりテーブルの上にご馳走とジュースが置かれてたので、パーティーだしきっとみんなで乾杯したり賑やかに話しながらご馳走を食べたりしたんじゃないかなぁと思い、想像して描いてみましたこの楽しい思い出はみんなの心に永遠に刻まれた事と思います</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2203_0001.jpg" title="鎌切"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2203_0001.jpg" alt="" /></a><h2>鎌切（23）</h2><h3>ひな祭りのお菓子</h3><p>ひなあられを美味しそうに食べるエミーちゃん。</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2203_0002.jpg" title="ゼンラの伝説"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2203_0002.jpg" alt="" /></a><h2>ゼンラの伝説</h2><h3>俺のだぜ！！</h3><p>初投稿です！たまたま寄ったアイスクリーム屋さんにて買った豪華なアイスクリーム独り占めですな･･･( ・ω・ )</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2203_0003.jpg" title="アヤアヤ"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2203_0003.jpg" alt="" /></a><h2>アヤアヤ</h2><h3>食べ物</h3><p>みんなでスイーツを作って楽しもう！</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2203_0004.jpg" title="ソニナコ"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2203_0004.jpg" alt="" /></a><h2>ソニナコ（13）</h2><h3>ソニックとチップでランチ</h3><p>アポトスに来たソニックとチップ。腹ごしらえにアポトスで2人でランチ。ソニックワールドアドベンチャーをモチーフにしてます。</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2203_0005.jpg" title="UNDERSONIC"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2203_0005.jpg" alt="" /></a><h2>UNDERSONIC（12）</h2><h3>ニラ饅スフィア</h3><p>初投稿ですナックルズが伝説のカオスニラ饅を集めるためにニラ饅スフィア(笑)に挑戦中！隣には誰か違うものを集めてるようだが...?</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2203_0006.jpg" title="樹"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2203_0006.jpg" alt="" /></a><h2>樹</h2><h3>ポップ！</h3><p>ポップコーンと一緒に弾けるソニックです。食べ物というテーマでいろいろ悩んだ結果、やっぱりこれかなと思ったので。とにかく弾けてもらいました。</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2203_0007.jpg" title="N"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2203_0007.jpg" alt="" /></a><h2>N</h2><h3>Let's cooking！</h3><p>手って描くの難しいですね。</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2203_0008.jpg" title="セナチュウ"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2203_0008.jpg" alt="" /></a><h2>セナチュウ</h2><h3>パフェ</h3><p>パフェを仲良く頬ばる4組の大親友の幼なじみ</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2203_0010.jpg" title="ちば"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2203_0010.jpg" alt="" /></a><h2>ちば</h2><h3>食べ物</h3><p>また、コラボカフェの開催を思い描いて。</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2203_0011.jpg" title="にゃにゃ丸"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2203_0011.jpg" alt="" /></a><h2>にゃにゃ丸</h2><h3>美味しいお菓子に囲まれて</h3><p>美味しいものなら何でも好きな食いしん坊のチップ。好きなものに囲まれて幸せいっぱいです。</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2203_0012.jpg" title="楠チェリー"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2203_0012.jpg" alt="" /></a><h2>楠チェリー</h2><h3>Sweet!</h3><p>ゆめかわいいお菓子を描いてみました</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2203_0013.jpg" title="作の宿"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2203_0013.jpg" alt="" /></a><h2>作の宿（19）</h2><h3>2人旅の合間</h3><p>ソニックシリーズで食べ物と言えばやはり主人公の大好物がまっさきに出てきます それを誰に渡しているかは･･･ご想像におまかせしますね</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2203_0014.jpg" title="ゲコ助"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2203_0014.jpg" alt="" /></a><h2>ゲコ助</h2><h3>2人で仲良く？</h3><p>無事、シャドウを連れ込めたソニック。ここからはソニックからの質問攻め。シャドウが怒らない程度にね......</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2203_0015.jpg" title="セントマックス"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2203_0015.jpg" alt="" /></a><h2>セントマックス（21）</h2><h3>Let's party!</h3><p>またみんなで気兼ねなくワイワイしたいね</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2203_0016.jpg" title="鈴木寿司本店"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2203_0016.jpg" alt="" /></a><h2>鈴木寿司本店（16）</h2><h3>オレの夢</h3><p>巨大なチリドッグを食べてみたいなあー、と思うソニックなのでした。</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2203_0017.jpg" title="舞夏"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2203_0017.jpg" alt="" /></a><h2>舞夏（18）</h2><h3>好物</h3><p>チリドックを食べているソニックを描きました。特に陰と色を意識したので、結構ダイナミックに仕上がったと思います。</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2203_0018.jpg" title="りふぃん"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2203_0018.jpg" alt="" /></a><h2>りふぃん</h2><h3>お鍋カオティクス</h3><p>仕事が大成功を収めお給料がいつもより沢山貰えた日は、奮発してこたつでお鍋を囲んでほしいです。万年金欠チームもたまには温かい物でも食べてほっこりしてほしいです。</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2203_0019.jpg" title="RUKA"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2203_0019.jpg" alt="" /></a><h2>RUKA</h2><h3>カオティクス探偵団の休憩タイム</h3><p>ここは、カオティクス探偵事務所。三人は休憩時間のようです。ベクターはプリン、エスピオは団子、チャーミーはドーナツを食べてるようです。あれ、でも、壁に貼ってある依頼は今日までだったような...代わりに皆さんが、依頼を受けてあげてください。これであなたもカオティクス探偵団の一員になれるかも。</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2203_0020.jpg" title="メロン"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2203_0020.jpg" alt="" /></a><h2>メロン</h2><h3>空の食事</h3><p>テイルス、ナックルズ、エミーとクリームのそれぞれの好物をもらってトルネード号に乗って食べているソニック空を満喫しながら食べるとより一層美味しくなりそう</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2203_0021.jpg" title="Stray"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2203_0021.jpg" alt="" /></a><h2>Stray（18）</h2><h3>オレ(ぼく)の大好物！</h3><p>以前、MOMOというネームで投稿していた者です。年越しの配信で来てくれたこの二人が可愛すぎて、この並びで久々に投稿したいと思いました！ソニックとテイルスくんはスマイルが似合うぜ...おまけでクッキーVerも(笑)今年で大学生となりますが、変わらずソニックを追いかけ、新作を楽しみに生きていきます！</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2203_0022.jpg" title="アクア"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2203_0022.jpg" alt="" /></a><h2>アクア</h2><h3>天才の発明と天才の応用</h3><p>メタリックマッドネスの赤いビームを浴びて体が小さくなったら、普段食べてる物が大きく見えるかも...？</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2203_0023.jpg" title="めめ(meme)"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2203_0023.jpg" alt="" /></a><h2>めめ(meme)</h2><h3>4人で食べるソフトクリーム</h3><p>クリーム、エミー、ブレイズ、ルージュの4人でソフトクリームを食べてる絵です。</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2203_0024.jpg" title="茶々"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2203_0024.jpg" alt="" /></a><h2>茶々</h2><h3>おいしいものはみんなで一緒に！</h3><p>みんなで食べると倍おいしい！！</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2203_0025.jpg" title="菜ノ葉 なの"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2203_0025.jpg" alt="" /></a><h2>菜ノ葉 なの</h2><h3>良い火加減</h3><p>数年前の お料理を焦がしてしまっているブレイズの壁紙を拝見し、ブレイズならきっと 成功するまでお料理の練習をするだろうと思い、描かせていただきました！クリームとチーズのために、クリームチーズのパンケーキを。きっと喜んでくれるはず！</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2203_0026.jpg" title="にゃーちゃん"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2203_0026.jpg" alt="" /></a><h2>にゃーちゃん（11）</h2><h3>シャドウのクッキング</h3><p>シャドウが目玉焼きを焼いているところを書きました。</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2203_0027.jpg" title="王張アルト"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2203_0027.jpg" alt="" /></a><h2>王張アルト</h2><h3>こだわりの味</h3><p>エンパイアシティでホットドッグスタンドを始めたソニック。やっぱりイチオシはチリドッグ？他にもテイルスがレモネード、エミーがアイスクリームのスタンドをやっているとか。</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2203_0028.jpg" title="ニジードル♪"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2203_0028.jpg" alt="" /></a><h2>ニジードル♪（11）</h2><h3>ケーキ3種ちゃん</h3><p>このイラストを描く時その少し前に買ったケーキと、よく見るケーキ3種類をイメージしたドレスを着せてみました。そして、そのケーキの中にルージュというケーキがあり、この絵を描きました。(クリームはほうじ茶ケーキ 、エミーはピスタチオベリー、です。)</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2203_0029.jpg" title="さり男"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2203_0029.jpg" alt="" /></a><h2>さり男（24）</h2><h3>eating</h3><p>たまに食べたいジャンクフード</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2203_0030.jpg" title="死月"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2203_0030.jpg" alt="" /></a><h2>死月</h2><h3>Come on, eat up!</h3><p>3月になりだんだん暖かくなってきましたね！ということで、この二人には先行で(無理やり)花見デートに行ってもらいました。大好物をおすそ分けする優しいエミーちゃんと多少のためらいを持ちつつその好意を受け取るソニック。微笑ましいです(笑)</p></div>		
 		
 
 	</div>
 
-
-
-<nav id="substance-navigation"><ul class="boxLink paginationNum">
-
-
-
-</ul></nav>
-</div>
-<ul id="page-sns2">
-	<li class="snsTwitter"><img src="/SonicChannel//common/image/icon_twitter.png" alt="Twitter"></li>
-	<li class="snsFacebook"><img src="/SonicChannel//common/image/icon_facebook.png" alt="facebook"></li>
-	<li class="snsLine"><img src="/SonicChannel//common/image/icon_line.png" alt="LINE"></li>
-</ul>
+				
+				
+				<nav id="substance-navigation"><ul class="boxLink paginationNum">
+			
+			
+			
+				</ul></nav>
+			<ul id="page-sns2">
+				<li class="snsTwitter"><img src="/SonicChannel/assets/images/old/icon_twitter.png" alt="Twitter"></li>
+				<li class="snsFacebook"><img src="/SonicChannel/assets/images/old/icon_facebook.png" alt="facebook"></li>
+				<li class="snsLine"><img src="/SonicChannel/assets/images/old/icon_line.png" alt="LINE"></li>
+			</ul>
+	</div>
 </article>
 </main>
-	<nav id="common-pagination">
-	<ul class="boxLink paginationArrow">
-	<li class="iconLeft"><a rel="prev" href="/SonicChannel/fangallery/fanart/20220201_002814/" >2022年02月「バレンタイン」</a></li>
-<li class="iconUp"><a href="/SonicChannel/fangallery/fanart">戻る</a></li>
-	<li class="iconRight"><a rel="next" href="/SonicChannel/fangallery/fanart/20220401_002858/" >2022年04月「春」</a></li>
-	</ul>
-</nav>
-<footer>
+<footer role="contentinfo">
+	<div class="footerWrap">
+			<ul class="common-snsList-sp">
+				<li class="common-snsIcon is-x">
+					<a class="snsTwitter" href=""></a>
+				</li>
+				<li class="common-snsIcon is-line">
+					<a class="snsLine" href=""></a>
+				</li>
+				<li class="common-snsIcon is-facebook">
+					<a class="snsFacebook" href=""></a>
+				</li>
+			</ul><!-- .common-snsList-pc -->
+    <div class="footerContent">
+				<div class="footerLogoBox">
+						<div class="footerSonicChannelLogo"><a href="https://sonic.sega.jp/SonicChannel/" target="_blank"><img src="/SonicChannel/assets/images/common/logo_sonicchannel.png" alt="SONIC CHANNEL" /></a></div>
+						<div class="footerSonicTeamLogo"><a href="http://www.sonicteam.com/" target="_blank"><img src="/SonicChannel/assets/images/common/logo_sonicteam.png" alt="SONIC TEAM" /></a></div>
+					</div><!-- .footerLogoBox -->
+    <ul class="footerLinkList">
+    	<li>【<a href="/SonicChannel/about/#translation-function" target="_blank">翻訳機能について</a>】 </li>
+    	<li>【<a href="/SonicChannel/about/#download-policy" target="_blank">ダウンロードについて</a>】</li>
+     	<li>【<a href="http://sega.jp/contact/soft/" target="_blank">お問い合わせ</a>】</li>
+    	<li>【<a href="https://www.sega.co.jp/privacypolicy/" target="_blank">プライバシーポリシー</a>】</li>
+    	<li>【<a href="https://www.sega.co.jp/web-accessibility/index.html" target="_blank">ウェブアクセシビリティ方針</a>】</li>
+    </ul>
+	<p class="footerCopy">&copy;SEGA</p>
+    </div>
 	<div id="footer-search" class="googleSearch">
 		<div class="gcse-search"></div>
 	</div>
-	<p><a href="http://www.sonicteam.com/"><img src="/SonicChannel/common/image/SonicTeamLogo.png" width="105" height="27" alt="SONIC TEAM"/></a></p>
-	<p>【<a href="/SonicChannel/about/#translation-function">翻訳機能について</a>】 【<a href="/SonicChannel/about/#download-policy">ダウンロードについて</a>】</p>
-	<p>【<a href="http://sega.jp/contact/soft/" target="_blank">お問い合わせ</a>】【<a href="https://www.sega.co.jp/privacypolicy/" target="_blank">プライバシーポリシー</a>】</p>
-	<p>&copy;SEGA</p>
+</div>
 </footer>
-<div id='background-logo'></div>
-<div id='common-bg'><div id='bg-substance'></div></div>
+</div>
 </body>
 </html>
+

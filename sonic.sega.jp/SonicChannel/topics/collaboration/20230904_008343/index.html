@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# : http://ogp.me/ns/#" lang="ja">
-<meta name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0,user-scalable=yes" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta name="keyword" content="SONIC CHANNEL,ソニックチャンネル,SEGA,セガ,SONICTEAM,ソニックチーム,SONIC,ソニック" />
@@ -19,16 +19,27 @@
 <meta property="og:title" content="「ソニック」✕「富士急ハイランド」コラボイベント 「SONIC SQUARE」開催決定！" />
 <meta property="og:url" content="https://sonic.sega.jp/SonicChannel/topics/collaboration/20230904_008343/" />
 <meta property="og:description" content="		ソニックと富士急ハイランドのコラボイベント「SONIC SQUARE（ソニックスクエア）」が、2023年9月27日（水）～10月15日（日）に開催！ 		ソニックたちによるアトラクションや園内アナウンスのほか、ゲーム内ステージやアイテム..." />
-<meta property="og:image" content="https://sonic.sega.jp/SonicChannel/topics/image/collabo_230901_01_eye.jpg">
+<meta property="og:image" content="https://sonic.sega.jp/SonicChannel/upload_images/collabo_230901_01_eye.jpg">
 <meta property="og:type" content="article">
 <title>SEGA | ソニックチャンネル | トピックス | 「ソニック」✕「富士急ハイランド」コラボイベント 「SONIC SQUARE」開催決定！</title>
 <link rel="start" href="/SonicChannel/">
-<link rel="alternate" type="application/atom+xml" title="Recent Entries" href="/SonicChannel/atom.xml" />
-<link rel="stylesheet" href="/SonicChannel/common/css/import.css">
-<script src="/SonicChannel/common/js/import.js" language="javascript" type="text/javascript"></script>
+<link rel="alternate" type="application/atom+xml" title="Recent Entries" href="http://admin-mt-sonic.sega.jp/sonic.sega.jp/SonicChannel/production/atom.xml" />
+<link rel="stylesheet" href="https://use.typekit.net/sha2lhi.css">
+<link rel="stylesheet" href="/SonicChannel/assets/css/oldStyle.min.css">
+<link rel="stylesheet" href="/SonicChannel/assets/css/common.min.css">
+<script src="/SonicChannel/assets/js/libs/jquery-3.7.1.min.js"></script>
+		<script src="/SonicChannel/assets/js/libs/jquery.inview.min.js"></script>
+<script src="/SonicChannel/assets/js/libs/swiper-bundle.min.js"></script>
+<script src="/SonicChannel/assets/js/libs/jquery.swipebox.min.js"></script>
+<script src="/SonicChannel/assets/js/old/modernizr.js"></script>
+<script src="/SonicChannel/assets/js/old/swiper.min.js"></script>
+<script src="/SonicChannel/assets/js/old/jquery.tubular.1.0.js"></script>
+<script src="/SonicChannel/assets/js/old/velocity.min.js"></script>
+<script src="/SonicChannel/assets/js/old/snsClick.js"></script>
+<script src="/SonicChannel/assets/js/old/init.js"></script>
+<script src="/SonicChannel/assets/js/common.js"></script>
 <script async src="https://cse.google.com/cse.js?cx=b9e22222528a0e6ff"></script>
-<link rel="stylesheet" href="/SonicChannel/topics/common/css/import.css">
-<script src="/SonicChannel/topics/common/js/import.js" language="javascript" type="text/javascript"></script>
+<!--link rel="stylesheet" href="/SonicChannel/topics/common/css/import.css">
 <!--[if lte IE 8]>
 <script src="/SonicChannel/common/js/html5shiv.js"></script>
 <![endif]-->
@@ -39,74 +50,93 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','GTM-MF59Q7B');</script>
 </head>	
 <body class="entry individual topics">
-<header>
-	<a href="http://sega.jp/"><img src="/SonicChannel/common/image/header_sega.png" alt="SEGA" width="75" height="25" /></a>
-	<div>
-        <div>
+<div class="wrapper">
+<div class="wrapperBg"></div>
+<header role="banner">
+	<a href="http://sega.jp/" class="headerSEGALogo"><img src="/SonicChannel/assets/images/common/sega_logo_s_b.svg" alt="SEGA" width="75" height="25" /></a>
+			<ul class="common-snsList-pc">
+				<li class="common-snsIcon is-x">
+					<a class="snsTwitter" href=""></a>
+				</li>
+				<li class="common-snsIcon is-line">
+					<a class="snsLine" href=""></a>
+				</li>
+				<li class="common-snsIcon is-facebook">
+					<a class="snsFacebook" href=""></a>
+				</li>
+			</ul><!-- .common-snsList-pc -->
+	<div class="gTranslateBox">
+        <div class="gTranslateIcon">
            <a href="/SonicChannel/about/#translation-function">
               <svg>
-      			  <use xlink:href="/SonicChannel/common/image/header_caution.svg#caution"></use>
+      			  <use xlink:href="/SonicChannel/assets/images/old/header_caution.svg#caution"></use>
     		  </svg>
-        </a>
+        	</a>
         </div>
 		<div class="gtranslate_wrapper"></div>
 		<script>window.gtranslateSettings = {"default_language":"ja","wrapper_selector":".gtranslate_wrapper"}</script>
 		<script src="https://cdn.gtranslate.net/widgets/latest/dropdown.js" defer></script>
 	</div>
-	<h1><a href="/SonicChannel/"><img src="/SonicChannel/common/image/header_sonicchannel.png" alt="ソニックチャンネル" width="191" height="47" /></a></h1>
 </header>
-<nav id="common-navigation">
-	<a href="#" id="nav-trigger"><span id="trigger-icon"></span></a>
+<div id="nav-trigger"><span id="trigger-icon"></span></div>
+<nav id="common-navigation" role="navigation">
 	<div id="overlay-nav"><span></span></div><!-- cd-overlay-nav -->
 	<div id="overlay-content"><span></span></div> <!-- cd-overlay-content -->
-	<ul id="nav-list">
-		<li><a href="/SonicChannel/"><img src="/SonicChannel/common/image/nav_sonicchannel.png" alt="SONIC CHANNEL" /></a></li>
-		<li><a href="/SonicChannel/topics/information/" class="activeAnchor">トピックス</a></li>
-		<li><a href="/SonicChannel/gametitle/nintendo-switch.html">ゲームタイトル</a></li>
-		<li><a href="/SonicChannel/character/">キャラクター</a></li>
-		<li><a href="/SonicChannel/special/">スペシャル</a></li>
-		<li><a href="/SonicChannel/fangallery/">ファンギャラリー</a></li>
-		<li><a href="/SonicChannel/enjoy/wallpaper/">おたのしみ</a></li>
-	</ul>
-	<div class="googleSearch" id="nav-search">
-		<div class="gcse-search"></div>
+	<div class="navWrapper"> 
+		<div class="navLogoItem">
+       	 <h1 class="soinicChannelLogo"><a href="/SonicChannel/"><img src="/SonicChannel/assets/images/common/logo_sonicchannel.png" alt="ソニックチャンネル" width="191" height="47" /></a></h1>
+	</div>
+		<ul id="nav-list">
+        <li class="navItem is-top"><a href="/SonicChannel/">トップ</a></li>
+			<li class="navItem is-topics"><a href="/SonicChannel/topics/" class="activeAnchor">トピックス</a></li>
+			<li class="navItem is-character"><a href="/SonicChannel/character/">キャラクター</a></li>
+    		<li class="navItem is-history"><a href="/SonicChannel/history/">ヒストリー</a></li>
+    		<li class="navItem is-special"><a href="/SonicChannel/special/top.html">スペシャル</a></li>
+			<li class="navItem is-fangallery"><a href="/SonicChannel/fangallery/top.html">ファンギャラリー</a></li>
+		</ul>
+    	<div class="navWhatSonicItem">
+        <a href="/SonicChannel/character/" ><div class="navWhatSonicText">ソニックとは</div><div class="whatSonicArrow"></div></a>
+   		</div>
 	</div>
 </nav>
-<main id="common-contents">
+<main id="common-contents" role="main">
+<div class="headlineCommon"></div>
 <div id="contents-header">
-		<h2 class="headlineCommon">トピックス</h2>
 			<nav class="contentsNavigation">
-				<ul>
-						<li><a href="/SonicChannel/topics/" >すべて</a></li>
-								<li><a href="/SonicChannel/topics/information/">インフォメーション</a></li>
-								<li><a href="/SonicChannel/topics/event/">イベント</a></li>
-								<li><a href="/SonicChannel/topics/goods/">グッズ</a></li>
-								<li><a href="/SonicChannel/topics/sound/">サウンド</a></li>
-								<li><a href="/SonicChannel/topics/collaboration/" class="activeAnchor">コラボレーション</a></li>
-							</ul>
-				<select>
-						<option value="/SonicChannel/topics/" >すべて</option>
+            <div class="contentsNavigationInner">
+				<ul class="cateArctestUL">
+								<li class="cateArctestLi"><a href="/SonicChannel/topics/information/">インフォメーション</a></li>
+								<li class="cateArctestLi"><a href="/SonicChannel/topics/event/">イベント</a></li>
+								<li class="cateArctestLi"><a href="/SonicChannel/topics/goods/">グッズ</a></li>
+								<li class="cateArctestLi"><a href="/SonicChannel/topics/sound/">サウンド</a></li>
+								<li class="cateArctestLi"><a href="/SonicChannel/topics/collaboration/" class="activeAnchor">コラボレーション</a></li>
+            </ul>
+            <div class="navSelectBox">
+				<select aria-label="選択してください">
 								<option value="/SonicChannel/topics/information/" >インフォメーション</option>
 								<option value="/SonicChannel/topics/event/" >イベント</option>
 								<option value="/SonicChannel/topics/goods/" >グッズ</option>
 								<option value="/SonicChannel/topics/sound/" >サウンド</option>
 								<option value="/SonicChannel/topics/collaboration/"  selected>コラボレーション</option>
-							</select>
+            </select>
+            </div>
 				<h3>コラボレーション</h3>
+            </div>
 			</nav>
 </div>
 <article  id="contents-page">
-		<img src="/SonicChannel/topics/image/collabo_230901_01_eye.jpg" alt=""/>
-	<h1>「ソニック」✕「富士急ハイランド」コラボイベント 「SONIC SQUARE」開催決定！</h1>
-	<time datetime="2023-09-04T18:58:37+09:00">2023.09.04</time>
-	<ul id="page-sns1">
-		<li class="snsTwitter"><img src="/SonicChannel//common/image/icon_twitter.png" width="25" height="25" alt="Twitter"></li>
-		<li class="snsFacebook"><img src="/SonicChannel//common/image/icon_facebook.png" width="25" height="25" alt="facebook"></li>
-		<li class="snsLine"><img src="/SonicChannel//common/image/icon_line.png" width="25" height="25" alt="LINE"></li>
-	</ul>
-<div id="cotentes-substance">
-
-		<p>ソニックと富士急ハイランドのコラボイベント「SONIC SQUARE（ソニックスクエア）」が、2023年9月27日（水）～10月15日（日）に開催！</p>
+	<div class="contentsPageBg"></div>
+			<img class="contentPageTopImg" src="/SonicChannel/upload_images/collabo_230901_01_eye.jpg" alt=""/>
+		<h1>「ソニック」✕「富士急ハイランド」コラボイベント 「SONIC SQUARE」開催決定！</h1>
+	<div id="cotentes-substance">
+			
+				<time datetime="2023-09-04T18:58:37+09:00">2023.09.04</time>
+				<ul id="page-sns1">
+					<li class="snsTwitter"><img src="/SonicChannel/assets/images/old/icon_twitter.png" width="25" height="25" alt="Twitter"></li>
+					<li class="snsFacebook"><img src="/SonicChannel/assets/images/old/icon_facebook.png" width="25" height="25" alt="facebook"></li>
+					<li class="snsLine"><img src="/SonicChannel/assets/images/old/icon_line.png" width="25" height="25" alt="LINE"></li>
+				</ul>		
+						<p>ソニックと富士急ハイランドのコラボイベント「SONIC SQUARE（ソニックスクエア）」が、2023年9月27日（水）～10月15日（日）に開催！</p>
 		<p>ソニックたちによるアトラクションや園内アナウンスのほか、ゲーム内ステージやアイテムを再現したフォトスポット、このイベントでしか遊ぶことのできない謎解きゲームやガラポンなどが盛りだくさん！</p>
 		<p>ぜひ、富士急ハイランドにて特別なコラボイベントをお楽しみください！</p>
 		<p>また、このコラボを記念したプロモーションビデオを、「富士急ハイランド」公式YouTubeチャンネルにて公開中！</p>
@@ -144,17 +174,17 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		<p>園内の飲食店と「ソニック」シリーズのコラボメニューを販売いたします。</p>
 		<h3>bintje.(ビンチェ）</h3>
 		<div class="column3rd">
-			<div><img src="/SonicChannel/topics/image/collabo_230901_01_08.jpg" class="mb0">
+			<div><img src="/sonic.sega.jp/SonicChannel/upload_images/collabo_230901_01_08.jpg" class="mb0">
 				<p class="textSmall textCenter">ソニックフリッツ<br>
 					（Lサイズ相当）<br>
 					850円</p>
 			</div>
-			<div><img src="/SonicChannel/topics/image/collabo_230901_01_09.jpg" class="mb0">
+			<div><img src="/sonic.sega.jp/SonicChannel/upload_images/collabo_230901_01_09.jpg" class="mb0">
 				<p class="textSmall textCenter">スーパーソニックフリッツ<br>
 					（富士山サイズ相当）<br>
 					1,030円</p>
 			</div>
-			<div><img src="/SonicChannel/topics/image/collabo_230901_01_10.jpg" class="mb0">
+			<div><img src="/sonic.sega.jp/SonicChannel/upload_images/collabo_230901_01_10.jpg" class="mb0">
 				<p class="textSmall textCenter">ソニック<br>
 					チリチーズフランク＆フリッツ<br>
 					1,180円</p>
@@ -168,19 +198,19 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		<p class="textSmall">※ドリンクは、園内レストランフードスタジアムでも販売しております。</p>
 		<div class="column3rd">
 			
-			<div><img src="/SonicChannel/topics/image/collabo_230901_01_12.jpg" class="mb0">
+			<div><img src="/sonic.sega.jp/SonicChannel/upload_images/collabo_230901_01_12.jpg" class="mb0">
 				<p class="textSmall textCenter">ソニックの音速ブルードリンク<br>
 					500円</p>
 			</div>
-			<div><img src="/SonicChannel/topics/image/collabo_230901_01_13.jpg" class="mb0">
+			<div><img src="/sonic.sega.jp/SonicChannel/upload_images/collabo_230901_01_13.jpg" class="mb0">
 				<p class="textSmall textCenter">エミーのオトメチック♡レッドドリンク<br>
 					500円</p>
 			</div>
-			<div><img src="/SonicChannel/topics/image/collabo_230901_01_14.jpg" class="mb0">
+			<div><img src="/sonic.sega.jp/SonicChannel/upload_images/collabo_230901_01_14.jpg" class="mb0">
 				<p class="textSmall textCenter">テイルスの頭脳明晰イエロードリンク<br>
 					500円</p>
 			</div>
-			<div><img src="/SonicChannel/topics/image/collabo_230901_01_11.jpg" class="mb0">
+			<div><img src="/sonic.sega.jp/SonicChannel/upload_images/collabo_230901_01_11.jpg" class="mb0">
 				<p class="textSmall textCenter">ナックルズのフルーツ大好き<br>
 					カラフルチュロス<br>
 					650円</p>
@@ -194,11 +224,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		
 		<div class="column3rd">
 			
-			<div><img src="/SonicChannel/topics/image/collabo_230901_01_15.jpg" class="mb0">
+			<div><img src="/sonic.sega.jp/SonicChannel/upload_images/collabo_230901_01_15.jpg" class="mb0">
 				<p class="textSmall textCenter">ジェラート4種盛り<br>
 1,300円</p>
 			</div>
-				<div><img src="/SonicChannel/topics/image/collabo_230901_01_16.jpg" class="mb0">
+				<div><img src="/sonic.sega.jp/SonicChannel/upload_images/collabo_230901_01_16.jpg" class="mb0">
 				<p class="textSmall textCenter">チリドッグ<br>
 800円</p>
 			</div>
@@ -210,7 +240,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				<h3>モスバーガー</h3>
 		
 		<div class="column3rd">
-					<div><img src="/SonicChannel/topics/image/collabo_230901_01_17.jpg" class="mb0">
+					<div><img src="/sonic.sega.jp/SonicChannel/upload_images/collabo_230901_01_17.jpg" class="mb0">
 				<p class="textSmall textCenter">チリドック<br>
 530円</p>
 			</div>
@@ -223,10 +253,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 			<span class="textSmall mb0">2023年9月27日（水）～10月15日（日）</span></h2>
 		<p>謎解きゲームのクリア後などにお渡しするガラポン券を集めることで、カオスエメラルドを再現した非売品の琥珀糖や、Nintendo Switch&trade;用ソフト『ソニックフロンティア』などの景品が当たるガラポンにご参加いただけます。</p>
 		<div class="column2nd">
-			<div><img src="/SonicChannel/topics/image/collabo_230901_01_01.jpg" class="mb0">
+			<div><img src="/sonic.sega.jp/SonicChannel/upload_images/collabo_230901_01_01.jpg" class="mb0">
 				<p class="textSmall textCenter">『ソニックフロンティア』</p>
 			</div>
-			<div><img src="/SonicChannel/topics/image/collabo_230901_01_02.jpg" class="mb0">
+			<div><img src="/sonic.sega.jp/SonicChannel/upload_images/collabo_230901_01_02.jpg" class="mb0">
 				<p class="textSmall textCenter">カオスエメラルドの琥珀糖</p>
 			</div>
 		</div>
@@ -234,10 +264,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 			<span class="textSmall mb0">2023年9月27日（水）～10月15日（日）</span></h2>
 		<p> ソニックや「絶叫戦隊ハイランダー」と一緒に、記念写真を撮影することができるグリーティングイベントを期間中毎日開催します。 </p>
 		<div class="column2nd">
-			<div><img src="/SonicChannel/topics/image/collabo_230901_01_03.jpg" class="mb0">
+			<div><img src="/sonic.sega.jp/SonicChannel/upload_images/collabo_230901_01_03.jpg" class="mb0">
 				<p class="textSmall textCenter">ソニック</p>
 			</div>
-			<div><img src="/SonicChannel/topics/image/collabo_230901_01_04.jpg" class="mb0">
+			<div><img src="/sonic.sega.jp/SonicChannel/upload_images/collabo_230901_01_04.jpg" class="mb0">
 				<p class="textSmall textCenter">絶叫戦隊ハイランダー</p>
 			</div>
 		</div>
@@ -263,13 +293,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		<h2 class="underLineHeader">体験プレイコーナー<br>
 			<span class="textSmall mb0">2023年9月27日（水）～10月15日（日）</span></h2>
 		<p>　2023年10月17日（火）発売予定のNintendo Switch&trade;用ソフト『ソニックスーパースターズ』を、一足先に体験することができる体験プレイコーナーを設置します。試遊いただいた方には、「『ソニックスーパースターズ』キャラお面」をプレゼントいたします。</p>
-		<img src="/SonicChannel/topics/image/collabo_230901_01_07.jpg" class="mb0">
+		<img src="/sonic.sega.jp/SonicChannel/upload_images/collabo_230901_01_07.jpg" class="mb0">
 		<p>また、発売中のNintendo Switch用ソフト『サンバDEアミーゴ：パーティーセントラル』もお楽しみいただけます。</p>
 		<div class="column2nd">
-			<div><img src="/SonicChannel/topics/image/collabo_230901_01_05.jpg" class="mb0">
+			<div><img src="/sonic.sega.jp/SonicChannel/upload_images/collabo_230901_01_05.jpg" class="mb0">
 				<p class="textSmall textCenter">『ソニックスーパースターズ』</p>
 			</div>
-			<div><img src="/SonicChannel/topics/image/collabo_230901_01_06.jpg" class="mb0">
+			<div><img src="/sonic.sega.jp/SonicChannel/upload_images/collabo_230901_01_06.jpg" class="mb0">
 				<p class="textSmall textCenter">『サンバDEアミーゴ：パーティーセントラル』</p>
 			</div>
 		</div>
@@ -298,12 +328,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <p>10月9日（月）に「ソニック」のリングを再現したフォトスポットをくぐると、通常のリング取得音に加え、戌神ころねさんの録りおろしボイスがランダムで再生されます。</p>
 <p>※通常のリング取得音は、2023年9月27日（水）～10月15日（日）の開催期間中ずっとお楽しみいただけます。</p>
 	</div>
-	<div><img src="/SonicChannel/topics/image/collabo_230901_01_18.jpg" ></div>
+	<div><img src="/sonic.sega.jp/SonicChannel/upload_images/collabo_230901_01_18.jpg" ></div>
 		</div>
 		
 		<h2 class="underLineHeader">トークイベント<br>
 <span class="textSmall mb0">2023年10月9日（月）14時～（予定）</span></h2>
-				<img src="/SonicChannel/topics/image/collabo_230901_01_19.jpg" class="floatLeft">
+				<img src="/sonic.sega.jp/SonicChannel/upload_images/collabo_230901_01_19.jpg" class="floatLeft">
 <p>開催場所：セントラルパーク内イベントステージ</p>
 <p>戌神ころねさんがリアルタイムで出演する、スペシャルトークイベントを実施いたします。<br>
 	「戌神ころねサイン入りコラボアート」が6名に当たる企画もございますので、ぜひ奮ってご参加ください！<br>
@@ -319,38 +349,54 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 			<a href="http://sonic.sega.jp/SonicSuperStars/" target="_blank">→『ソニックスーパースターズ』公式サイト</a><br>
 			<a href="https://sonic.sega.jp/SonicFrontiers/" target="_blank">→『ソニックフロンティア』公式サイト</a><br>
 			<a href="https://sambadeamigo.sega.jp/" target="_blank">→『サンバDEアミーゴ：パーティーセントラル』公式サイト</a> </p>
-
-
-<nav id="substance-navigation"><ul class="boxLink paginationNum">
-
-
-
-</ul></nav>
-</div>
-<ul id="page-sns2">
-	<li class="snsTwitter"><img src="/SonicChannel//common/image/icon_twitter.png" alt="Twitter"></li>
-	<li class="snsFacebook"><img src="/SonicChannel//common/image/icon_facebook.png" alt="facebook"></li>
-	<li class="snsLine"><img src="/SonicChannel//common/image/icon_line.png" alt="LINE"></li>
-</ul>
+				
+				
+				<nav id="substance-navigation"><ul class="boxLink paginationNum">
+			
+			
+			
+				</ul></nav>
+			<ul id="page-sns2">
+				<li class="snsTwitter"><img src="/SonicChannel/assets/images/old/icon_twitter.png" alt="Twitter"></li>
+				<li class="snsFacebook"><img src="/SonicChannel/assets/images/old/icon_facebook.png" alt="facebook"></li>
+				<li class="snsLine"><img src="/SonicChannel/assets/images/old/icon_line.png" alt="LINE"></li>
+			</ul>
+	</div>
 </article>
 </main>
-	<nav id="common-pagination">
-	<ul class="boxLink paginationArrow">
-	<li class="iconLeft"><a rel="prev" href="/SonicChannel/topics/collaboration/20230724_008322/" >TikTok ソニックバースデーコラボ2023</a></li>
-<li class="iconUp"><a href="/SonicChannel/topics/collaboration">戻る</a></li>
-	<li class="iconRight"><a rel="next" href="/SonicChannel/topics/collaboration/20231030_008375/" >『ソニックスーパースターズ』発売記念！小田急電鉄コラボキャンペーン！</a></li>
-	</ul>
-</nav>
-<footer>
+<footer role="contentinfo">
+	<div class="footerWrap">
+			<ul class="common-snsList-sp">
+				<li class="common-snsIcon is-x">
+					<a class="snsTwitter" href=""></a>
+				</li>
+				<li class="common-snsIcon is-line">
+					<a class="snsLine" href=""></a>
+				</li>
+				<li class="common-snsIcon is-facebook">
+					<a class="snsFacebook" href=""></a>
+				</li>
+			</ul><!-- .common-snsList-pc -->
+    <div class="footerContent">
+				<div class="footerLogoBox">
+						<div class="footerSonicChannelLogo"><a href="https://sonic.sega.jp/SonicChannel/" target="_blank"><img src="/SonicChannel/assets/images/common/logo_sonicchannel.png" alt="SONIC CHANNEL" /></a></div>
+						<div class="footerSonicTeamLogo"><a href="http://www.sonicteam.com/" target="_blank"><img src="/SonicChannel/assets/images/common/logo_sonicteam.png" alt="SONIC TEAM" /></a></div>
+					</div><!-- .footerLogoBox -->
+    <ul class="footerLinkList">
+    	<li>【<a href="/SonicChannel/about/#translation-function" target="_blank">翻訳機能について</a>】 </li>
+    	<li>【<a href="/SonicChannel/about/#download-policy" target="_blank">ダウンロードについて</a>】</li>
+     	<li>【<a href="http://sega.jp/contact/soft/" target="_blank">お問い合わせ</a>】</li>
+    	<li>【<a href="https://www.sega.co.jp/privacypolicy/" target="_blank">プライバシーポリシー</a>】</li>
+    	<li>【<a href="https://www.sega.co.jp/web-accessibility/index.html" target="_blank">ウェブアクセシビリティ方針</a>】</li>
+    </ul>
+	<p class="footerCopy">&copy;SEGA</p>
+    </div>
 	<div id="footer-search" class="googleSearch">
 		<div class="gcse-search"></div>
 	</div>
-	<p><a href="http://www.sonicteam.com/"><img src="/SonicChannel/common/image/SonicTeamLogo.png" width="105" height="27" alt="SONIC TEAM"/></a></p>
-	<p>【<a href="/SonicChannel/about/#translation-function">翻訳機能について</a>】 【<a href="/SonicChannel/about/#download-policy">ダウンロードについて</a>】</p>
-	<p>【<a href="http://sega.jp/contact/soft/" target="_blank">お問い合わせ</a>】【<a href="https://www.sega.co.jp/privacypolicy/" target="_blank">プライバシーポリシー</a>】</p>
-	<p>&copy;SEGA</p>
+</div>
 </footer>
-<div id='background-logo'></div>
-<div id='common-bg'><div id='bg-substance'></div></div>
+</div>
 </body>
 </html>
+

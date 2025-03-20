@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# : http://ogp.me/ns/#" lang="ja">
-<meta name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0,user-scalable=yes" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta name="keyword" content="SONIC CHANNEL,ソニックチャンネル,SEGA,セガ,SONICTEAM,ソニックチーム,SONIC,ソニック" />
@@ -19,16 +19,27 @@
 <meta property="og:title" content="2022年04月「春」" />
 <meta property="og:url" content="https://sonic.sega.jp/SonicChannel/fangallery/fanart/20220401_002858/" />
 <meta property="og:description" content="今月もファンアートのコーナーにたくさんの作品をご応募頂き、ありがとうございます！ 桜や草花に囲まれながら、テーマの「春」を楽しむソニック達の様子を見ていると、こちらにまでその陽気が伝わってきますね！花びらやお弁当、桜を見つめる表情まで暖かな..." />
-<meta property="og:image" content="https://sonic.sega.jp/SonicChannel/fangallery/image/fanart_2204_eye.jpg">
+<meta property="og:image" content="https://sonic.sega.jp/SonicChannel/upload_images/fanart_2204_eye.jpg">
 <meta property="og:type" content="article">
 <title>SEGA | ソニックチャンネル | ファンギャラリー | 2022年04月「春」</title>
 <link rel="start" href="/SonicChannel/">
-<link rel="alternate" type="application/atom+xml" title="Recent Entries" href="/SonicChannel/atom.xml" />
-<link rel="stylesheet" href="/SonicChannel/common/css/import.css">
-<script src="/SonicChannel/common/js/import.js" language="javascript" type="text/javascript"></script>
+<link rel="alternate" type="application/atom+xml" title="Recent Entries" href="http://admin-mt-sonic.sega.jp/sonic.sega.jp/SonicChannel/production/atom.xml" />
+<link rel="stylesheet" href="https://use.typekit.net/sha2lhi.css">
+<link rel="stylesheet" href="/SonicChannel/assets/css/oldStyle.min.css">
+<link rel="stylesheet" href="/SonicChannel/assets/css/common.min.css">
+<script src="/SonicChannel/assets/js/libs/jquery-3.7.1.min.js"></script>
+		<script src="/SonicChannel/assets/js/libs/jquery.inview.min.js"></script>
+<script src="/SonicChannel/assets/js/libs/swiper-bundle.min.js"></script>
+<script src="/SonicChannel/assets/js/libs/jquery.swipebox.min.js"></script>
+<script src="/SonicChannel/assets/js/old/modernizr.js"></script>
+<script src="/SonicChannel/assets/js/old/swiper.min.js"></script>
+<script src="/SonicChannel/assets/js/old/jquery.tubular.1.0.js"></script>
+<script src="/SonicChannel/assets/js/old/velocity.min.js"></script>
+<script src="/SonicChannel/assets/js/old/snsClick.js"></script>
+<script src="/SonicChannel/assets/js/old/init.js"></script>
+<script src="/SonicChannel/assets/js/common.js"></script>
 <script async src="https://cse.google.com/cse.js?cx=b9e22222528a0e6ff"></script>
-<link rel="stylesheet" href="/SonicChannel/fangallery/common/css/import.css">
-<script src="/SonicChannel/fangallery/common/js/import.js" language="javascript" type="text/javascript"></script>
+<!--link rel="stylesheet" href="/SonicChannel/fangallery/common/css/import.css">
 <!--[if lte IE 8]>
 <script src="/SonicChannel/common/js/html5shiv.js"></script>
 <![endif]-->
@@ -39,72 +50,91 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','GTM-MF59Q7B');</script>
 </head>	
 <body class="entry individual fangallery">
-<header>
-	<a href="http://sega.jp/"><img src="/SonicChannel/common/image/header_sega.png" alt="SEGA" width="75" height="25" /></a>
-	<div>
-        <div>
+<div class="wrapper">
+<div class="wrapperBg"></div>
+<header role="banner">
+	<a href="http://sega.jp/" class="headerSEGALogo"><img src="/SonicChannel/assets/images/common/sega_logo_s_b.svg" alt="SEGA" width="75" height="25" /></a>
+			<ul class="common-snsList-pc">
+				<li class="common-snsIcon is-x">
+					<a class="snsTwitter" href=""></a>
+				</li>
+				<li class="common-snsIcon is-line">
+					<a class="snsLine" href=""></a>
+				</li>
+				<li class="common-snsIcon is-facebook">
+					<a class="snsFacebook" href=""></a>
+				</li>
+			</ul><!-- .common-snsList-pc -->
+	<div class="gTranslateBox">
+        <div class="gTranslateIcon">
            <a href="/SonicChannel/about/#translation-function">
               <svg>
-      			  <use xlink:href="/SonicChannel/common/image/header_caution.svg#caution"></use>
+      			  <use xlink:href="/SonicChannel/assets/images/old/header_caution.svg#caution"></use>
     		  </svg>
-        </a>
+        	</a>
         </div>
 		<div class="gtranslate_wrapper"></div>
 		<script>window.gtranslateSettings = {"default_language":"ja","wrapper_selector":".gtranslate_wrapper"}</script>
 		<script src="https://cdn.gtranslate.net/widgets/latest/dropdown.js" defer></script>
 	</div>
-	<h1><a href="/SonicChannel/"><img src="/SonicChannel/common/image/header_sonicchannel.png" alt="ソニックチャンネル" width="191" height="47" /></a></h1>
 </header>
-<nav id="common-navigation">
-	<a href="#" id="nav-trigger"><span id="trigger-icon"></span></a>
+<div id="nav-trigger"><span id="trigger-icon"></span></div>
+<nav id="common-navigation" role="navigation">
 	<div id="overlay-nav"><span></span></div><!-- cd-overlay-nav -->
 	<div id="overlay-content"><span></span></div> <!-- cd-overlay-content -->
-	<ul id="nav-list">
-		<li><a href="/SonicChannel/"><img src="/SonicChannel/common/image/nav_sonicchannel.png" alt="SONIC CHANNEL" /></a></li>
-		<li><a href="/SonicChannel/topics/information/">トピックス</a></li>
-		<li><a href="/SonicChannel/gametitle/nintendo-switch.html">ゲームタイトル</a></li>
-		<li><a href="/SonicChannel/character/">キャラクター</a></li>
-		<li><a href="/SonicChannel/special/">スペシャル</a></li>
-		<li><a href="/SonicChannel/fangallery/" class="activeAnchor">ファンギャラリー</a></li>
-		<li><a href="/SonicChannel/enjoy/wallpaper/">おたのしみ</a></li>
-	</ul>
-	<div class="googleSearch" id="nav-search">
-		<div class="gcse-search"></div>
+	<div class="navWrapper"> 
+		<div class="navLogoItem">
+       	 <h1 class="soinicChannelLogo"><a href="/SonicChannel/"><img src="/SonicChannel/assets/images/common/logo_sonicchannel.png" alt="ソニックチャンネル" width="191" height="47" /></a></h1>
+	</div>
+		<ul id="nav-list">
+        <li class="navItem is-top"><a href="/SonicChannel/">トップ</a></li>
+			<li class="navItem is-topics"><a href="/SonicChannel/topics/">トピックス</a></li>
+			<li class="navItem is-character"><a href="/SonicChannel/character/">キャラクター</a></li>
+    		<li class="navItem is-history"><a href="/SonicChannel/history/">ヒストリー</a></li>
+    		<li class="navItem is-special"><a href="/SonicChannel/special/top.html">スペシャル</a></li>
+			<li class="navItem is-fangallery"><a href="/SonicChannel/fangallery/top.html" class="activeAnchor">ファンギャラリー</a></li>
+		</ul>
+    	<div class="navWhatSonicItem">
+        <a href="/SonicChannel/character/" ><div class="navWhatSonicText">ソニックとは</div><div class="whatSonicArrow"></div></a>
+   		</div>
 	</div>
 </nav>
-<main id="common-contents">
+<main id="common-contents" role="main">
+<div class="headlineCommon"></div>
 <div id="contents-header">
-		<h2 class="headlineCommon">ファンギャラリー</h2>
 			<nav class="contentsNavigation">
-				<ul>
-						<li><a href="/SonicChannel/fangallery/" >すべて</a></li>
-								<li><a href="/SonicChannel/fangallery/fanart/" class="activeAnchor">ファンアート</a></li>
-								<li><a href="/SonicChannel/fangallery/screenshot/">スクリーンショット</a></li>
-								<li><a href="/SonicChannel/fangallery/oshiete/">おしえて!クリエイターズ</a></li>
-								<li><a href="/SonicChannel/fangallery/apply/">投稿</a></li>
-							</ul>
-				<select>
-						<option value="/SonicChannel/fangallery/" >すべて</option>
+            <div class="contentsNavigationInner">
+				<ul class="cateArctestUL">
+								<li class="cateArctestLi"><a href="/SonicChannel/fangallery/fanart/" class="activeAnchor">ファンアート</a></li>
+								<li class="cateArctestLi"><a href="/SonicChannel/fangallery/screenshot/">スクリーンショット</a></li>
+								<li class="cateArctestLi"><a href="/SonicChannel/fangallery/oshiete/">おしえて!クリエイターズ</a></li>
+								<li class="cateArctestLi"><a href="/SonicChannel/fangallery/apply/">投稿</a></li>
+            </ul>
+            <div class="navSelectBox">
+				<select aria-label="選択してください">
 								<option value="/SonicChannel/fangallery/fanart/"  selected>ファンアート</option>
 								<option value="/SonicChannel/fangallery/screenshot/" >スクリーンショット</option>
 								<option value="/SonicChannel/fangallery/oshiete/" >おしえて!クリエイターズ</option>
 								<option value="/SonicChannel/fangallery/apply/" >投稿</option>
-							</select>
+            </select>
+            </div>
 				<h3>ファンアート</h3>
+            </div>
 			</nav>
 </div>
 <article  id="contents-page">
-		<img src="/SonicChannel/fangallery/image/fanart_2204_eye.jpg" alt=""/>
-	<h1>2022年04月「春」</h1>
-	<time datetime="2022-04-01T21:20:32+09:00">2022.04.01</time>
-	<ul id="page-sns1">
-		<li class="snsTwitter"><img src="/SonicChannel//common/image/icon_twitter.png" width="25" height="25" alt="Twitter"></li>
-		<li class="snsFacebook"><img src="/SonicChannel//common/image/icon_facebook.png" width="25" height="25" alt="facebook"></li>
-		<li class="snsLine"><img src="/SonicChannel//common/image/icon_line.png" width="25" height="25" alt="LINE"></li>
-	</ul>
-<div id="cotentes-substance">
-
-<p>今月もファンアートのコーナーにたくさんの作品をご応募頂き、ありがとうございます！</p>
+	<div class="contentsPageBg"></div>
+			<img class="contentPageTopImg" src="/SonicChannel/upload_images/fanart_2204_eye.jpg" alt=""/>
+		<h1>2022年04月「春」</h1>
+	<div id="cotentes-substance">
+			
+				<time datetime="2022-04-01T21:20:32+09:00">2022.04.01</time>
+				<ul id="page-sns1">
+					<li class="snsTwitter"><img src="/SonicChannel/assets/images/old/icon_twitter.png" width="25" height="25" alt="Twitter"></li>
+					<li class="snsFacebook"><img src="/SonicChannel/assets/images/old/icon_facebook.png" width="25" height="25" alt="facebook"></li>
+					<li class="snsLine"><img src="/SonicChannel/assets/images/old/icon_line.png" width="25" height="25" alt="LINE"></li>
+				</ul>		
+				<p>今月もファンアートのコーナーにたくさんの作品をご応募頂き、ありがとうございます！</p>
 <p>桜や草花に囲まれながら、テーマの「春」を楽しむソニック達の様子を見ていると、こちらにまでその陽気が伝わってきますね！花びらやお弁当、桜を見つめる表情まで暖かな色彩で繊細に描かれており、この季節らしい空気感が良く表現されていると思います。</p>
 <p>皆さんも春の訪れと共に、素敵な新年度を迎えられますように。</p>
 
@@ -113,70 +143,86 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	<div class="column3rd columnFanart">
 		
 
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2204_0021.jpg" title="アクア"><img src="/SonicChannel/fangallery/fanart/image/s2204_0021.jpg" alt="" /></a><h2>アクア</h2><h3>お花見</h3><p>春といえば桜、桜といえばお花見！ソニックは花も団子も楽しみそうだなと思ってお花見風景を描きました</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2204_0001.jpg" title="鎌切"><img src="/SonicChannel/fangallery/fanart/image/s2204_0001.jpg" alt="" /></a><h2>鎌切（24）</h2><h3>エイプリルフール</h3><p>エッグマンに騙されるナックルズ</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2204_0002.jpg" title="ソニナコLOVE"><img src="/SonicChannel/fangallery/fanart/image/s2204_0002.jpg" alt="" /></a><h2>ソニナコLOVE（12）</h2><h3>花見</h3><p>ソニックとナックルズで花見にきました。</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2204_0003.jpg" title="にゃにゃ丸"><img src="/SonicChannel/fangallery/fanart/image/s2204_0003.jpg" alt="" /></a><h2>にゃにゃ丸</h2><h3>シャドウとマリアのお花見</h3><p>もしも、マリアが元気になったら、春にはこんな風に外でお花見をするのかなあと想像しながら描きました。</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2204_0004.jpg" title="リファ子"><img src="/SonicChannel/fangallery/fanart/image/s2204_0004.jpg" alt="" /></a><h2>リファ子（14）</h2><h3>桜の枝とナックルズ</h3><p>初投稿です！私の大好きなキャラのナックルズを描かせていただきました！エンジェルアイランドにも桜があるのかは定かではありませんが、彼にも綺麗な桜を一度は眺めてみて欲しいと思います！</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2204_0005.jpg" title="せなちゅう"><img src="/SonicChannel/fangallery/fanart/image/s2204_0005.jpg" alt="" /></a><h2>せなちゅう</h2><h3>ハッピーイースター</h3><p>シャドウ、クリーム、シルバー、ブレイズ4人は幼なじみ、フランスのパリでXポーズでハッピーイースター！</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2204_0006.jpg" title="メロン"><img src="/SonicChannel/fangallery/fanart/image/s2204_0006.jpg" alt="" /></a><h2>メロン</h2><h3>春×エミー</h3><p>春の桜が咲くこの季節にエミーはとても似合うと思います。</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2204_0007.jpg" title="Pizza"><img src="/SonicChannel/fangallery/fanart/image/s2204_0007.jpg" alt="" /></a><h2>Pizza（12）</h2><h3>卒業入学</h3><p>新しい学校で頑張る意気込みで描きました！</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2204_0008.jpg" title="なないろ"><img src="/SonicChannel/fangallery/fanart/image/s2204_0008.jpg" alt="" /></a><h2>なないろ</h2><h3>走るソニック</h3><p>ソニックも走り出したくなる春！野山を走る様子をケーキで表現してみました。</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2204_0009.jpg" title="樹"><img src="/SonicChannel/fangallery/fanart/image/s2204_0009.jpg" alt="" /></a><h2>樹</h2><h3>春のおとずれ</h3><p>木漏れ日の中で、春と共におとずれたチョウたちを眺めるテイルスを描いてみました。チョウは舞い散る花弁のようにも見えて綺麗だと思います。</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2204_0010.jpg" title="キウイの木"><img src="/SonicChannel/fangallery/fanart/image/s2204_0010.jpg" alt="" /></a><h2>キウイの木（17）</h2><h3>桜と炎のコラボレーション！</h3><p>みんなが活動し始める暖かい春になってきたから,新しい技をお披露目して、みんなを喜ばせようと特訓中のブレイズ！桜と炎を合わせた新しい技を練習中！</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2204_0011.jpg" title="作の宿"><img src="/SonicChannel/fangallery/fanart/image/s2204_0011.jpg" alt="" /></a><h2>作の宿（19）</h2><h3>桜吹雪と針鼠</h3><p>「春といえば」で真っ先に桜が思いつきます。ソニックが走り去った時の風で花弁が舞う様を描きました。</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2204_0012.jpg" title="楠チェリー"><img src="/SonicChannel/fangallery/fanart/image/s2204_0012.jpg" alt="" /></a><h2>楠チェリー</h2><h3>夜桜</h3><p>コスモが咲かせた桜の花を、ライトアップさせて見てみたいなと思って描きました</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2204_0013.jpg" title="めめ(meme)"><img src="/SonicChannel/fangallery/fanart/image/s2204_0013.jpg" alt="" /></a><h2>めめ(meme)</h2><h3>ルージュと春</h3><p>鼻の上に桜の花びらが乗っかっちゃってるルージュの絵です。桜描けないので後ろの背景がだいぶ雑です笑</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2204_0014.jpg" title="寝たきりすずめ"><img src="/SonicChannel/fangallery/fanart/image/s2204_0014.jpg" alt="" /></a><h2>寝たきりすずめ</h2><h3>花びらとの空中散歩</h3><p>超能力使って花弁と戯れていたら可愛いなぁと思いながら描かせていただきました。</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2204_0015.jpg" title="Calypsor"><img src="/SonicChannel/fangallery/fanart/image/s2204_0015.jpg" alt="" /></a><h2>Calypsor（26）</h2><h3>花の便り</h3><p>花見をするチームジャッカル。穏やかな時間を過ごすこんなひとときがあったら良いなと思いました。新天地に赴くのは慣れっこであろう傭兵さん達を描きましたが皆様も新天地での新生活無理無く頑張ってくださいませ。良い春を。</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2204_0016.jpg" title="N"><img src="/SonicChannel/fangallery/fanart/image/s2204_0016.jpg" alt="" /></a><h2>N</h2><h3>Go!</h3><p>「オールスター！！」みたいな絵を描こうと思いました。桜がムツカシイ。描き慣れていないキャラもいます。</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2204_0017.jpg" title="ソラリス"><img src="/SonicChannel/fangallery/fanart/image/s2204_0017.jpg" alt="" /></a><h2>ソラリス（32）</h2><h3>桜とシルバー</h3><p>今回も絵は桜の写真で、シルバーの影の表現を付けてみました。これでより春めいた表現になったと思います。シルバーはソニックの時代（現代）で、桜が咲き誇る、春の空中散歩を楽しんでいる様子です。</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2204_0018.jpg" title="シンソニ"><img src="/SonicChannel/fangallery/fanart/image/s2204_0018.jpg" alt="" /></a><h2>シンソニ</h2><h3>D→P-フェクト</h3><p>重力操作の能力で宙を舞う桜の花びらを操るD-フェクト。これを見たヘッジホッグビレッジの村人たちは大喜び。Defectだった彼は遂にPerfectな仕事を見つけられたみたいです。</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2204_0019.jpg" title="ラゴのすけ"><img src="/SonicChannel/fangallery/fanart/image/s2204_0019.jpg" alt="" /></a><h2>ラゴのすけ（18）</h2><h3>春のメッセンジャー</h3><p>道端でふきのとうを見かけると春の始まりを感じます。小さい頃に、開ききって食用に向かなそうなふきのとうを持ち帰って生花として楽しんだ事を思い出したので描いてみました。バーク君大好きです</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2204_0020.jpg" title="ミカヤ"><img src="/SonicChannel/fangallery/fanart/image/s2204_0020.jpg" alt="" /></a><h2>ミカヤ</h2><h3>さくらエミーちゃん</h3><p>春と言えば...桜！さくらと言えば......！？というセガ繋がりでエミーちゃんに着てもらいました</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2204_0022.jpg" title="は"><img src="/SonicChannel/fangallery/fanart/image/s2204_0022.jpg" alt="" /></a><h2>は</h2><h3>桜 in アーク</h3><p>本で見た桜をアークの壁面にペンキで描いた場面です。きっと幸せで楽しいお花見をこれからするんだと思います。</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2204_0023.jpg" title="アヤアヤ"><img src="/SonicChannel/fangallery/fanart/image/s2204_0023.jpg" alt="" /></a><h2>アヤアヤ</h2><h3>春</h3><p>桜に包まれて春を楽しむ</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2204_0024.jpg" title="きく"><img src="/SonicChannel/fangallery/fanart/image/s2204_0024.jpg" alt="" /></a><h2>きく</h2><h3>ちょっとひと休み</h3><p>春といえば桜！ということでソニックに桜の木の上でひと休みしてるソニックです。</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2204_0025.jpg" title="王張アルト"><img src="/SonicChannel/fangallery/fanart/image/s2204_0025.jpg" alt="" /></a><h2>王張アルト</h2><h3>風が運ぶは...？</h3><p>もしソニックとシャドウが花粉症だったら...「海ができるまで鼻かんでいいぞ...ぐず、ハンカチは山のようにある...A-ACHOOO！！」</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2204_0026.jpg" title="ニジードル♪"><img src="/SonicChannel/fangallery/fanart/image/s2204_0026.jpg" alt="" /></a><h2>ニジードル♪（11）</h2><h3>春の乙女</h3><p>　今回は、春のテーマですぐ思いついたものにしました。めずらしくソニックとデートできて心の底から嬉しがっているエミーにしました。(ソニック視点です。)お花がエミーにお似合いですね。</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2204_0027.jpg" title="Stray"><img src="/SonicChannel/fangallery/fanart/image/s2204_0027.jpg" alt="" /></a><h2>Stray（18）</h2><h3>新たな命が芽吹く時</h3><p>「いつも君を思い出す」シャドウくんの表情から、心の奥深くを感じ取ってくれたら嬉しいです。きっと、見守ってくれているよね。</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2204_0028.jpg" title="死月"><img src="/SonicChannel/fangallery/fanart/image/s2204_0028.jpg" alt="" /></a><h2>死月</h2><h3>Cherry Blossom Trail</h3><p>春の陽気に包まれながら桜舞う小道を散歩するクリームとチーズ...どんなお話をしてるのかな？という二人を描いてみました。寒くもなく熱くもない、程よく温暖なこの季節が大好きです！練乳をかけて食べるいちごがたまりません。</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2204_0029.jpg" title="RUKA"><img src="/SonicChannel/fangallery/fanart/image/s2204_0029.jpg" alt="" /></a><h2>RUKA（14）</h2><h3>それぞれの道</h3><p>コスモとテイルスそれぞれの道が桜の木を原点として続いている、そんな様子を描きました。２人が会う事はないけれど、桜を見て素敵な思い出を思い出してほしいと願いました。またこの２人をどこかで出してほしいです。</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2204_0021.jpg" title="アクア"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2204_0021.jpg" alt="" /></a><h2>アクア</h2><h3>お花見</h3><p>春といえば桜、桜といえばお花見！ソニックは花も団子も楽しみそうだなと思ってお花見風景を描きました</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2204_0001.jpg" title="鎌切"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2204_0001.jpg" alt="" /></a><h2>鎌切（24）</h2><h3>エイプリルフール</h3><p>エッグマンに騙されるナックルズ</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2204_0002.jpg" title="ソニナコLOVE"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2204_0002.jpg" alt="" /></a><h2>ソニナコLOVE（12）</h2><h3>花見</h3><p>ソニックとナックルズで花見にきました。</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2204_0003.jpg" title="にゃにゃ丸"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2204_0003.jpg" alt="" /></a><h2>にゃにゃ丸</h2><h3>シャドウとマリアのお花見</h3><p>もしも、マリアが元気になったら、春にはこんな風に外でお花見をするのかなあと想像しながら描きました。</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2204_0004.jpg" title="リファ子"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2204_0004.jpg" alt="" /></a><h2>リファ子（14）</h2><h3>桜の枝とナックルズ</h3><p>初投稿です！私の大好きなキャラのナックルズを描かせていただきました！エンジェルアイランドにも桜があるのかは定かではありませんが、彼にも綺麗な桜を一度は眺めてみて欲しいと思います！</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2204_0005.jpg" title="せなちゅう"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2204_0005.jpg" alt="" /></a><h2>せなちゅう</h2><h3>ハッピーイースター</h3><p>シャドウ、クリーム、シルバー、ブレイズ4人は幼なじみ、フランスのパリでXポーズでハッピーイースター！</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2204_0006.jpg" title="メロン"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2204_0006.jpg" alt="" /></a><h2>メロン</h2><h3>春×エミー</h3><p>春の桜が咲くこの季節にエミーはとても似合うと思います。</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2204_0007.jpg" title="Pizza"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2204_0007.jpg" alt="" /></a><h2>Pizza（12）</h2><h3>卒業入学</h3><p>新しい学校で頑張る意気込みで描きました！</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2204_0008.jpg" title="なないろ"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2204_0008.jpg" alt="" /></a><h2>なないろ</h2><h3>走るソニック</h3><p>ソニックも走り出したくなる春！野山を走る様子をケーキで表現してみました。</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2204_0009.jpg" title="樹"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2204_0009.jpg" alt="" /></a><h2>樹</h2><h3>春のおとずれ</h3><p>木漏れ日の中で、春と共におとずれたチョウたちを眺めるテイルスを描いてみました。チョウは舞い散る花弁のようにも見えて綺麗だと思います。</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2204_0010.jpg" title="キウイの木"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2204_0010.jpg" alt="" /></a><h2>キウイの木（17）</h2><h3>桜と炎のコラボレーション！</h3><p>みんなが活動し始める暖かい春になってきたから,新しい技をお披露目して、みんなを喜ばせようと特訓中のブレイズ！桜と炎を合わせた新しい技を練習中！</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2204_0011.jpg" title="作の宿"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2204_0011.jpg" alt="" /></a><h2>作の宿（19）</h2><h3>桜吹雪と針鼠</h3><p>「春といえば」で真っ先に桜が思いつきます。ソニックが走り去った時の風で花弁が舞う様を描きました。</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2204_0012.jpg" title="楠チェリー"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2204_0012.jpg" alt="" /></a><h2>楠チェリー</h2><h3>夜桜</h3><p>コスモが咲かせた桜の花を、ライトアップさせて見てみたいなと思って描きました</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2204_0013.jpg" title="めめ(meme)"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2204_0013.jpg" alt="" /></a><h2>めめ(meme)</h2><h3>ルージュと春</h3><p>鼻の上に桜の花びらが乗っかっちゃってるルージュの絵です。桜描けないので後ろの背景がだいぶ雑です笑</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2204_0014.jpg" title="寝たきりすずめ"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2204_0014.jpg" alt="" /></a><h2>寝たきりすずめ</h2><h3>花びらとの空中散歩</h3><p>超能力使って花弁と戯れていたら可愛いなぁと思いながら描かせていただきました。</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2204_0015.jpg" title="Calypsor"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2204_0015.jpg" alt="" /></a><h2>Calypsor（26）</h2><h3>花の便り</h3><p>花見をするチームジャッカル。穏やかな時間を過ごすこんなひとときがあったら良いなと思いました。新天地に赴くのは慣れっこであろう傭兵さん達を描きましたが皆様も新天地での新生活無理無く頑張ってくださいませ。良い春を。</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2204_0016.jpg" title="N"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2204_0016.jpg" alt="" /></a><h2>N</h2><h3>Go!</h3><p>「オールスター！！」みたいな絵を描こうと思いました。桜がムツカシイ。描き慣れていないキャラもいます。</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2204_0017.jpg" title="ソラリス"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2204_0017.jpg" alt="" /></a><h2>ソラリス（32）</h2><h3>桜とシルバー</h3><p>今回も絵は桜の写真で、シルバーの影の表現を付けてみました。これでより春めいた表現になったと思います。シルバーはソニックの時代（現代）で、桜が咲き誇る、春の空中散歩を楽しんでいる様子です。</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2204_0018.jpg" title="シンソニ"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2204_0018.jpg" alt="" /></a><h2>シンソニ</h2><h3>D→P-フェクト</h3><p>重力操作の能力で宙を舞う桜の花びらを操るD-フェクト。これを見たヘッジホッグビレッジの村人たちは大喜び。Defectだった彼は遂にPerfectな仕事を見つけられたみたいです。</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2204_0019.jpg" title="ラゴのすけ"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2204_0019.jpg" alt="" /></a><h2>ラゴのすけ（18）</h2><h3>春のメッセンジャー</h3><p>道端でふきのとうを見かけると春の始まりを感じます。小さい頃に、開ききって食用に向かなそうなふきのとうを持ち帰って生花として楽しんだ事を思い出したので描いてみました。バーク君大好きです</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2204_0020.jpg" title="ミカヤ"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2204_0020.jpg" alt="" /></a><h2>ミカヤ</h2><h3>さくらエミーちゃん</h3><p>春と言えば...桜！さくらと言えば......！？というセガ繋がりでエミーちゃんに着てもらいました</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2204_0022.jpg" title="は"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2204_0022.jpg" alt="" /></a><h2>は</h2><h3>桜 in アーク</h3><p>本で見た桜をアークの壁面にペンキで描いた場面です。きっと幸せで楽しいお花見をこれからするんだと思います。</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2204_0023.jpg" title="アヤアヤ"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2204_0023.jpg" alt="" /></a><h2>アヤアヤ</h2><h3>春</h3><p>桜に包まれて春を楽しむ</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2204_0024.jpg" title="きく"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2204_0024.jpg" alt="" /></a><h2>きく</h2><h3>ちょっとひと休み</h3><p>春といえば桜！ということでソニックに桜の木の上でひと休みしてるソニックです。</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2204_0025.jpg" title="王張アルト"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2204_0025.jpg" alt="" /></a><h2>王張アルト</h2><h3>風が運ぶは...？</h3><p>もしソニックとシャドウが花粉症だったら...「海ができるまで鼻かんでいいぞ...ぐず、ハンカチは山のようにある...A-ACHOOO！！」</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2204_0026.jpg" title="ニジードル♪"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2204_0026.jpg" alt="" /></a><h2>ニジードル♪（11）</h2><h3>春の乙女</h3><p>　今回は、春のテーマですぐ思いついたものにしました。めずらしくソニックとデートできて心の底から嬉しがっているエミーにしました。(ソニック視点です。)お花がエミーにお似合いですね。</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2204_0027.jpg" title="Stray"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2204_0027.jpg" alt="" /></a><h2>Stray（18）</h2><h3>新たな命が芽吹く時</h3><p>「いつも君を思い出す」シャドウくんの表情から、心の奥深くを感じ取ってくれたら嬉しいです。きっと、見守ってくれているよね。</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2204_0028.jpg" title="死月"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2204_0028.jpg" alt="" /></a><h2>死月</h2><h3>Cherry Blossom Trail</h3><p>春の陽気に包まれながら桜舞う小道を散歩するクリームとチーズ...どんなお話をしてるのかな？という二人を描いてみました。寒くもなく熱くもない、程よく温暖なこの季節が大好きです！練乳をかけて食べるいちごがたまりません。</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2204_0029.jpg" title="RUKA"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2204_0029.jpg" alt="" /></a><h2>RUKA（14）</h2><h3>それぞれの道</h3><p>コスモとテイルスそれぞれの道が桜の木を原点として続いている、そんな様子を描きました。２人が会う事はないけれど、桜を見て素敵な思い出を思い出してほしいと願いました。またこの２人をどこかで出してほしいです。</p></div>
 
 	</div>
 
-
-
-<nav id="substance-navigation"><ul class="boxLink paginationNum">
-
-
-
-</ul></nav>
-</div>
-<ul id="page-sns2">
-	<li class="snsTwitter"><img src="/SonicChannel//common/image/icon_twitter.png" alt="Twitter"></li>
-	<li class="snsFacebook"><img src="/SonicChannel//common/image/icon_facebook.png" alt="facebook"></li>
-	<li class="snsLine"><img src="/SonicChannel//common/image/icon_line.png" alt="LINE"></li>
-</ul>
+				
+				
+				<nav id="substance-navigation"><ul class="boxLink paginationNum">
+			
+			
+			
+				</ul></nav>
+			<ul id="page-sns2">
+				<li class="snsTwitter"><img src="/SonicChannel/assets/images/old/icon_twitter.png" alt="Twitter"></li>
+				<li class="snsFacebook"><img src="/SonicChannel/assets/images/old/icon_facebook.png" alt="facebook"></li>
+				<li class="snsLine"><img src="/SonicChannel/assets/images/old/icon_line.png" alt="LINE"></li>
+			</ul>
+	</div>
 </article>
 </main>
-	<nav id="common-pagination">
-	<ul class="boxLink paginationArrow">
-	<li class="iconLeft"><a rel="prev" href="/SonicChannel/fangallery/fanart/20220301_002836/" >2022年03月「食べ物」</a></li>
-<li class="iconUp"><a href="/SonicChannel/fangallery/fanart">戻る</a></li>
-	<li class="iconRight"><a rel="next" href="/SonicChannel/fangallery/fanart/20220428_002885/" >2022年05月「ゴールデンウィーク」</a></li>
-	</ul>
-</nav>
-<footer>
+<footer role="contentinfo">
+	<div class="footerWrap">
+			<ul class="common-snsList-sp">
+				<li class="common-snsIcon is-x">
+					<a class="snsTwitter" href=""></a>
+				</li>
+				<li class="common-snsIcon is-line">
+					<a class="snsLine" href=""></a>
+				</li>
+				<li class="common-snsIcon is-facebook">
+					<a class="snsFacebook" href=""></a>
+				</li>
+			</ul><!-- .common-snsList-pc -->
+    <div class="footerContent">
+				<div class="footerLogoBox">
+						<div class="footerSonicChannelLogo"><a href="https://sonic.sega.jp/SonicChannel/" target="_blank"><img src="/SonicChannel/assets/images/common/logo_sonicchannel.png" alt="SONIC CHANNEL" /></a></div>
+						<div class="footerSonicTeamLogo"><a href="http://www.sonicteam.com/" target="_blank"><img src="/SonicChannel/assets/images/common/logo_sonicteam.png" alt="SONIC TEAM" /></a></div>
+					</div><!-- .footerLogoBox -->
+    <ul class="footerLinkList">
+    	<li>【<a href="/SonicChannel/about/#translation-function" target="_blank">翻訳機能について</a>】 </li>
+    	<li>【<a href="/SonicChannel/about/#download-policy" target="_blank">ダウンロードについて</a>】</li>
+     	<li>【<a href="http://sega.jp/contact/soft/" target="_blank">お問い合わせ</a>】</li>
+    	<li>【<a href="https://www.sega.co.jp/privacypolicy/" target="_blank">プライバシーポリシー</a>】</li>
+    	<li>【<a href="https://www.sega.co.jp/web-accessibility/index.html" target="_blank">ウェブアクセシビリティ方針</a>】</li>
+    </ul>
+	<p class="footerCopy">&copy;SEGA</p>
+    </div>
 	<div id="footer-search" class="googleSearch">
 		<div class="gcse-search"></div>
 	</div>
-	<p><a href="http://www.sonicteam.com/"><img src="/SonicChannel/common/image/SonicTeamLogo.png" width="105" height="27" alt="SONIC TEAM"/></a></p>
-	<p>【<a href="/SonicChannel/about/#translation-function">翻訳機能について</a>】 【<a href="/SonicChannel/about/#download-policy">ダウンロードについて</a>】</p>
-	<p>【<a href="http://sega.jp/contact/soft/" target="_blank">お問い合わせ</a>】【<a href="https://www.sega.co.jp/privacypolicy/" target="_blank">プライバシーポリシー</a>】</p>
-	<p>&copy;SEGA</p>
+</div>
 </footer>
-<div id='background-logo'></div>
-<div id='common-bg'><div id='bg-substance'></div></div>
+</div>
 </body>
 </html>
+

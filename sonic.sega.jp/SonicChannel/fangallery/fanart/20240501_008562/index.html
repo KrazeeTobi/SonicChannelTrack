@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# : http://ogp.me/ns/#" lang="ja">
-<meta name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0,user-scalable=yes" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta name="keyword" content="SONIC CHANNEL,ソニックチャンネル,SEGA,セガ,SONICTEAM,ソニックチーム,SONIC,ソニック" />
@@ -19,16 +19,27 @@
 <meta property="og:title" content="ファンアート 2024年5月「ゴールデンウィーク」" />
 <meta property="og:url" content="https://sonic.sega.jp/SonicChannel/fangallery/fanart/20240501_008562/" />
 <meta property="og:description" content="今月もファンアートのコーナーにたくさんの作品をご応募頂き、ありがとうございます！ 皆さんから頂いた作品を、スタッフからのコメントと合わせてご紹介いたします。 	※ノベルティの配布は不定期での送付となります。 	 	 gumi長旅楽しかったね..." />
-<meta property="og:image" content="https://sonic.sega.jp/SonicChannel/fangallery/image/fanart_2405_eye.jpg">
+<meta property="og:image" content="https://sonic.sega.jp/SonicChannel/upload_images/fanart_2405_eye.jpg">
 <meta property="og:type" content="article">
 <title>SEGA | ソニックチャンネル | ファンギャラリー | ファンアート 2024年5月「ゴールデンウィーク」</title>
 <link rel="start" href="/SonicChannel/">
-<link rel="alternate" type="application/atom+xml" title="Recent Entries" href="/SonicChannel/atom.xml" />
-<link rel="stylesheet" href="/SonicChannel/common/css/import.css">
-<script src="/SonicChannel/common/js/import.js" language="javascript" type="text/javascript"></script>
+<link rel="alternate" type="application/atom+xml" title="Recent Entries" href="http://admin-mt-sonic.sega.jp/sonic.sega.jp/SonicChannel/production/atom.xml" />
+<link rel="stylesheet" href="https://use.typekit.net/sha2lhi.css">
+<link rel="stylesheet" href="/SonicChannel/assets/css/oldStyle.min.css">
+<link rel="stylesheet" href="/SonicChannel/assets/css/common.min.css">
+<script src="/SonicChannel/assets/js/libs/jquery-3.7.1.min.js"></script>
+		<script src="/SonicChannel/assets/js/libs/jquery.inview.min.js"></script>
+<script src="/SonicChannel/assets/js/libs/swiper-bundle.min.js"></script>
+<script src="/SonicChannel/assets/js/libs/jquery.swipebox.min.js"></script>
+<script src="/SonicChannel/assets/js/old/modernizr.js"></script>
+<script src="/SonicChannel/assets/js/old/swiper.min.js"></script>
+<script src="/SonicChannel/assets/js/old/jquery.tubular.1.0.js"></script>
+<script src="/SonicChannel/assets/js/old/velocity.min.js"></script>
+<script src="/SonicChannel/assets/js/old/snsClick.js"></script>
+<script src="/SonicChannel/assets/js/old/init.js"></script>
+<script src="/SonicChannel/assets/js/common.js"></script>
 <script async src="https://cse.google.com/cse.js?cx=b9e22222528a0e6ff"></script>
-<link rel="stylesheet" href="/SonicChannel/fangallery/common/css/import.css">
-<script src="/SonicChannel/fangallery/common/js/import.js" language="javascript" type="text/javascript"></script>
+<!--link rel="stylesheet" href="/SonicChannel/fangallery/common/css/import.css">
 <!--[if lte IE 8]>
 <script src="/SonicChannel/common/js/html5shiv.js"></script>
 <![endif]-->
@@ -39,72 +50,91 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','GTM-MF59Q7B');</script>
 </head>	
 <body class="entry individual fangallery">
-<header>
-	<a href="http://sega.jp/"><img src="/SonicChannel/common/image/header_sega.png" alt="SEGA" width="75" height="25" /></a>
-	<div>
-        <div>
+<div class="wrapper">
+<div class="wrapperBg"></div>
+<header role="banner">
+	<a href="http://sega.jp/" class="headerSEGALogo"><img src="/SonicChannel/assets/images/common/sega_logo_s_b.svg" alt="SEGA" width="75" height="25" /></a>
+			<ul class="common-snsList-pc">
+				<li class="common-snsIcon is-x">
+					<a class="snsTwitter" href=""></a>
+				</li>
+				<li class="common-snsIcon is-line">
+					<a class="snsLine" href=""></a>
+				</li>
+				<li class="common-snsIcon is-facebook">
+					<a class="snsFacebook" href=""></a>
+				</li>
+			</ul><!-- .common-snsList-pc -->
+	<div class="gTranslateBox">
+        <div class="gTranslateIcon">
            <a href="/SonicChannel/about/#translation-function">
               <svg>
-      			  <use xlink:href="/SonicChannel/common/image/header_caution.svg#caution"></use>
+      			  <use xlink:href="/SonicChannel/assets/images/old/header_caution.svg#caution"></use>
     		  </svg>
-        </a>
+        	</a>
         </div>
 		<div class="gtranslate_wrapper"></div>
 		<script>window.gtranslateSettings = {"default_language":"ja","wrapper_selector":".gtranslate_wrapper"}</script>
 		<script src="https://cdn.gtranslate.net/widgets/latest/dropdown.js" defer></script>
 	</div>
-	<h1><a href="/SonicChannel/"><img src="/SonicChannel/common/image/header_sonicchannel.png" alt="ソニックチャンネル" width="191" height="47" /></a></h1>
 </header>
-<nav id="common-navigation">
-	<a href="#" id="nav-trigger"><span id="trigger-icon"></span></a>
+<div id="nav-trigger"><span id="trigger-icon"></span></div>
+<nav id="common-navigation" role="navigation">
 	<div id="overlay-nav"><span></span></div><!-- cd-overlay-nav -->
 	<div id="overlay-content"><span></span></div> <!-- cd-overlay-content -->
-	<ul id="nav-list">
-		<li><a href="/SonicChannel/"><img src="/SonicChannel/common/image/nav_sonicchannel.png" alt="SONIC CHANNEL" /></a></li>
-		<li><a href="/SonicChannel/topics/information/">トピックス</a></li>
-		<li><a href="/SonicChannel/gametitle/nintendo-switch.html">ゲームタイトル</a></li>
-		<li><a href="/SonicChannel/character/">キャラクター</a></li>
-		<li><a href="/SonicChannel/special/">スペシャル</a></li>
-		<li><a href="/SonicChannel/fangallery/" class="activeAnchor">ファンギャラリー</a></li>
-		<li><a href="/SonicChannel/enjoy/wallpaper/">おたのしみ</a></li>
-	</ul>
-	<div class="googleSearch" id="nav-search">
-		<div class="gcse-search"></div>
+	<div class="navWrapper"> 
+		<div class="navLogoItem">
+       	 <h1 class="soinicChannelLogo"><a href="/SonicChannel/"><img src="/SonicChannel/assets/images/common/logo_sonicchannel.png" alt="ソニックチャンネル" width="191" height="47" /></a></h1>
+	</div>
+		<ul id="nav-list">
+        <li class="navItem is-top"><a href="/SonicChannel/">トップ</a></li>
+			<li class="navItem is-topics"><a href="/SonicChannel/topics/">トピックス</a></li>
+			<li class="navItem is-character"><a href="/SonicChannel/character/">キャラクター</a></li>
+    		<li class="navItem is-history"><a href="/SonicChannel/history/">ヒストリー</a></li>
+    		<li class="navItem is-special"><a href="/SonicChannel/special/top.html">スペシャル</a></li>
+			<li class="navItem is-fangallery"><a href="/SonicChannel/fangallery/top.html" class="activeAnchor">ファンギャラリー</a></li>
+		</ul>
+    	<div class="navWhatSonicItem">
+        <a href="/SonicChannel/character/" ><div class="navWhatSonicText">ソニックとは</div><div class="whatSonicArrow"></div></a>
+   		</div>
 	</div>
 </nav>
-<main id="common-contents">
+<main id="common-contents" role="main">
+<div class="headlineCommon"></div>
 <div id="contents-header">
-		<h2 class="headlineCommon">ファンギャラリー</h2>
 			<nav class="contentsNavigation">
-				<ul>
-						<li><a href="/SonicChannel/fangallery/" >すべて</a></li>
-								<li><a href="/SonicChannel/fangallery/fanart/" class="activeAnchor">ファンアート</a></li>
-								<li><a href="/SonicChannel/fangallery/screenshot/">スクリーンショット</a></li>
-								<li><a href="/SonicChannel/fangallery/oshiete/">おしえて!クリエイターズ</a></li>
-								<li><a href="/SonicChannel/fangallery/apply/">投稿</a></li>
-							</ul>
-				<select>
-						<option value="/SonicChannel/fangallery/" >すべて</option>
+            <div class="contentsNavigationInner">
+				<ul class="cateArctestUL">
+								<li class="cateArctestLi"><a href="/SonicChannel/fangallery/fanart/" class="activeAnchor">ファンアート</a></li>
+								<li class="cateArctestLi"><a href="/SonicChannel/fangallery/screenshot/">スクリーンショット</a></li>
+								<li class="cateArctestLi"><a href="/SonicChannel/fangallery/oshiete/">おしえて!クリエイターズ</a></li>
+								<li class="cateArctestLi"><a href="/SonicChannel/fangallery/apply/">投稿</a></li>
+            </ul>
+            <div class="navSelectBox">
+				<select aria-label="選択してください">
 								<option value="/SonicChannel/fangallery/fanart/"  selected>ファンアート</option>
 								<option value="/SonicChannel/fangallery/screenshot/" >スクリーンショット</option>
 								<option value="/SonicChannel/fangallery/oshiete/" >おしえて!クリエイターズ</option>
 								<option value="/SonicChannel/fangallery/apply/" >投稿</option>
-							</select>
+            </select>
+            </div>
 				<h3>ファンアート</h3>
+            </div>
 			</nav>
 </div>
 <article  id="contents-page">
-		<img src="/SonicChannel/fangallery/image/fanart_2405_eye.jpg" alt=""/>
-	<h1>ファンアート 2024年5月「ゴールデンウィーク」</h1>
-	<time datetime="2024-05-01T00:59:43+09:00">2024.05.01</time>
-	<ul id="page-sns1">
-		<li class="snsTwitter"><img src="/SonicChannel//common/image/icon_twitter.png" width="25" height="25" alt="Twitter"></li>
-		<li class="snsFacebook"><img src="/SonicChannel//common/image/icon_facebook.png" width="25" height="25" alt="facebook"></li>
-		<li class="snsLine"><img src="/SonicChannel//common/image/icon_line.png" width="25" height="25" alt="LINE"></li>
-	</ul>
-<div id="cotentes-substance">
-
-<p>今月もファンアートのコーナーにたくさんの作品をご応募頂き、ありがとうございます！</p>
+	<div class="contentsPageBg"></div>
+			<img class="contentPageTopImg" src="/SonicChannel/upload_images/fanart_2405_eye.jpg" alt=""/>
+		<h1>ファンアート 2024年5月「ゴールデンウィーク」</h1>
+	<div id="cotentes-substance">
+			
+				<time datetime="2024-05-01T00:59:43+09:00">2024.05.01</time>
+				<ul id="page-sns1">
+					<li class="snsTwitter"><img src="/SonicChannel/assets/images/old/icon_twitter.png" width="25" height="25" alt="Twitter"></li>
+					<li class="snsFacebook"><img src="/SonicChannel/assets/images/old/icon_facebook.png" width="25" height="25" alt="facebook"></li>
+					<li class="snsLine"><img src="/SonicChannel/assets/images/old/icon_line.png" width="25" height="25" alt="LINE"></li>
+				</ul>		
+				<p>今月もファンアートのコーナーにたくさんの作品をご応募頂き、ありがとうございます！</p>
 <p>皆さんから頂いた作品を、スタッフからのコメントと合わせてご紹介いたします。</p>
 
 	<p class="textSmall">※ノベルティの配布は不定期での送付となります。</p>
@@ -112,73 +142,89 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	<div class="column3rd columnFanart">
 
 
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2405_0017.jpg" title="gumi"><img src="/SonicChannel/fangallery/fanart/image/s2405_0017.jpg" alt="" /></a><h2>gumi</h2><h3>長旅楽しかったね</h3><p>ゴールデンウィークに海の見える町へ旅行に行ったソニック達、沢山の思い出を作った旅行の帰りも、ゆっくりと楽しい時間を過ごしたのだろう...という想いで描いてみました。</p><h3>スタッフコメント</h3><p>楽しく遊んだ帰り道。どんな時間を過ごしたのか、みんなの表情が物語っています。持ち物にも個性が出ていますね。夕焼けに照らされる様子がとても美しいです！</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2405_0001.jpg" title="たーこいず２ｎｄ"><img src="/SonicChannel/fangallery/fanart/image/s2405_0001.jpg" alt="" /></a><h2>たーこいず２ｎｄ</h2><h3>さんぽ</h3><p>こいのぼりじゃなく"ソニのぼり"を連れて歩くソニックです</p><h3>スタッフコメント</h3><p>気持ちの良いお天気。なんとなく気持ちが通じているような、いないような。春は風の強い日が多いから、飛ばされないように気をつけて。</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2405_0002.jpg" title="リカンチャ"><img src="/SonicChannel/fangallery/fanart/image/s2405_0002.jpg" alt="" /></a><h2>リカンチャ</h2><h3>GW、サービス業はカオス</h3><p>サービス業にとってゴールデンウィークは長いたたかいです！笑ですが、忙しさをカラフルに可愛いらしさを全面に押し出して描きました。背景のレシートがポイントです！</p><h3>スタッフコメント</h3><p>待ちに待った大型連休。お客さんでいっぱいのお店は、注文の嵐で目が回りそう！　...お疲れさまです。今度パンケーキ食べに行きますね！</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2405_0003.jpg" title="吉田礼"><img src="/SonicChannel/fangallery/fanart/image/s2405_0003.jpg" alt="" /></a><h2>吉田礼</h2><h3>空の上で鯉のぼり</h3><p>ソニックとテイルスがトルネード号に乗って鯉のぼりを見に来ている所を描きました。</p><h3>スタッフコメント</h3><p>いきいきと空を泳ぐ鯉たち。大きく口を開けて、春の風をいっぱいに吸い込みます。このダイナミックなイベントに、ソニックの表情も満足そうです。</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2405_0004.jpg" title="ヘルメット大佐"><img src="/SonicChannel/fangallery/fanart/image/s2405_0004.jpg" alt="" /></a><h2>ヘルメット大佐</h2><h3>有名な温泉地は混んでるので...</h3><p>有名な温泉地の混雑を避けてドラム缶風呂に入っているテイルスを描いてみました、お湯の香りはスッキリ爽快なミントの香り？</p><h3>スタッフコメント</h3><p>これはもう、静かな山の秘湯ですね！のんびり目を閉じ、リラックス。そよ風の音や鳥の声が聞こえてきます。目を開けると、どんな景色が飛び込んでくるのでしょう？</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2405_0005.jpg" title="さめおう"><img src="/SonicChannel/fangallery/fanart/image/s2405_0005.jpg" alt="" /></a><h2>さめおう</h2><h3>旅行</h3><p>ゴールデンウィークにカオスとチャオ達は、グリーンヒルに旅行中。ジャンプ台で興奮したり、リングをお土産にしたりと旅行はまだはじまったばかりですが、カオスとチャたちは楽しい旅行になります。</p><h3>スタッフコメント</h3><p>ソニックはあっという間に駆け抜けていきますが、ここは結構広いところ。チャオたちにとって、一日では遊びきれないほど、面白いものがいっぱいです。</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2405_0006.jpg" title="楠チェリー"><img src="/SonicChannel/fangallery/fanart/image/s2405_0006.jpg" alt="" /></a><h2>楠チェリー</h2><h3>そうだ、旅に出よう！</h3><p>もし行けるなら「ソニックワールドアドベンチャー」のアポトスに行ってみたいです</p><h3>スタッフコメント</h3><p>見知らぬ土地で少年が見聞きするものは、驚きに満ちていることでしょう。旅先から届いた手紙には、そんな出会いや発見が綴られているのでしょうか？　...読んでみたい！</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2405_0007.jpg" title="樹"><img src="/SonicChannel/fangallery/fanart/image/s2405_0007.jpg" alt="" /></a><h2>樹</h2><h3>たまにはがっつり演奏を</h3><p>朝から晩まで楽しく演奏するベクターを描いてみました。ゴールデンウィークは長時間趣味に没頭するのにも向いている休日ですよね。防音もしっかりした部屋で思う存分に弾いているといいなと思います。</p><h3>スタッフコメント</h3><p>満足げな表情で鍵盤に向かうベクターを描いてくれました。大きな身体で繊細なメロディーを奏でるそのギャップに新鮮な驚きと新たなベクターの魅力を感じるイラストです。</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2405_0008.jpg" title="かめ"><img src="/SonicChannel/fangallery/fanart/image/s2405_0008.jpg" alt="" /></a><h2>かめ</h2><h3>五月</h3><p>ゴールデンウィークのワクワクした気持ちを表現しました。</p><h3>スタッフコメント</h3><p>真っ直ぐに前を見据える二人の期待感あふれる表情が良いですね！背景にはイチゴでしょうか？この連休でいろんな事が楽しめそうですね。</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2405_0009.jpg" title="セナチュウ"><img src="/SonicChannel/fangallery/fanart/image/s2405_0009.jpg" alt="" /></a><h2>セナチュウ</h2><h3>GWは海外旅行</h3><p>GWにシャドウとシルバーとクリームとブレイズの仲良し4人組は夏から始まるパリオリンピックの下見にパリに行きます！</p><h3>スタッフコメント</h3><p>開催予定地のパリに下見に訪れるなんて羨ましいですね！オリンピックは勿論、この4人のキャラクターたちのパリでのお目当ての場所や、施設も気になりますね。</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2405_0010.jpg" title="米酒"><img src="/SonicChannel/fangallery/fanart/image/s2405_0010.jpg" alt="" /></a><h2>米酒</h2><h3>3、2、1...チーズ！</h3><p>ゴールデンウィークの間、ソレアナで休暇を過ごす二人。シルバーのサイコキネシスが役に立った！</p><h3>スタッフコメント</h3><p>ソレアナでのブレイズとシルバーのツーショットを描いてくれました！初夏の爽やかな気候や街並みが美しく、シルバーらしい撮影風景も楽しいイラストです。</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2405_0011.jpg" title="T2"><img src="/SonicChannel/fangallery/fanart/image/s2405_0011.jpg" alt="" /></a><h2>T2</h2><h3>5人と２匹のショッピング</h3><p>ゴールデンウィークにショッピングへと来たカオティクスとクリーム親子。おしとやかな二人ですが、知らず知らずのうちに色々買っちゃってるのかな～...と思いました。ベクターはかっこいい姿を見せようと張り切っていてまったく気にしないけど、エスピオはちょっとタジタジ。</p><h3>スタッフコメント</h3><p>クリーム親子とカオティクスメンバーたちの関係がよく分かるシーンがコミカルに描かれています。紳士ぶるベクターの様子もどこか微笑ましく見えますね。</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2405_0012.jpg" title="そーだ"><img src="/SonicChannel/fangallery/fanart/image/s2405_0012.jpg" alt="" /></a><h2>そーだ</h2><h3>ゴールデンな贅沢</h3><p>ゴールデンウィークのエッグマン軍団！！束の間の休日、ダイナーで美味しいもの食べながら作戦会議......？？</p><h3>スタッフコメント</h3><p>それぞれのキャラクター達の表情がとても魅力的に描かれており、まるで絵本の１ページような美しい色彩と雰囲気が素敵なイラストに仕上がっています。</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2405_0013.jpg" title="リュウ8823"><img src="/SonicChannel/fangallery/fanart/image/s2405_0013.jpg" alt="" /></a><h2>リュウ8823</h2><h3>買い物付き合って！</h3><p>せっかくの休みの日、2人で色んな場所や店に行こう。｢次はあっち！｣</p><h3>スタッフコメント</h3><p>3組の関係性の違いが面白いですね！総じて女性陣のほうがリードしている雰囲気のようですが、みんな楽しんで買い物できたのではないでしょうか。何を買ったのか気になります...！</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2405_0014.jpg" title="ねこ"><img src="/SonicChannel/fangallery/fanart/image/s2405_0014.jpg" alt="" /></a><h2>ねこ</h2><h3>クレーンゲーム！</h3><p>GWといえば遊ぶ！遊ぶといえばゲームセンター！クレーンゲームで遊ぶテイルスとクリームを描きました。テイルスはクレーンゲームが上手なイメージがあります。</p><h3>スタッフコメント</h3><p>瞳キラキラなクリームがとてもかわいいです！この笑顔を前にしてはテイルスも頑張るしかない...！手前のぬいぐるみ、よくみるといろんなチャオがいますね！テイルスならコンプできるかも。</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2405_0015.jpg" title="ケレン"><img src="/SonicChannel/fangallery/fanart/image/s2405_0015.jpg" alt="" /></a><h2>ケレン</h2><h3>こどものひ</h3><p>ゴールデンウィーク最終日は子どもの日。晴れた空の下、自分だけの鯉のぼりの折り紙を折って、連休最終日を楽しもう！</p><h3>スタッフコメント</h3><p>二人仲良く鯉のぼりを作ったんでしょうか。カブトも似合ってます！光があふれる色使いに、空に泳ぐ鯉のぼりも綺麗で、爽やかな風を感じました。</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2405_0016.jpg" title="アクア"><img src="/SonicChannel/fangallery/fanart/image/s2405_0016.jpg" alt="" /></a><h2>アクア</h2><h3>今日だけ普通の女の子</h3><p>ブレイズはゴールデンウィーク中でも皇女としての仕事に追われているかも？だからせめて1日だけでも、皇女ではなく普通の女の子として街へ遊びに行って楽しんできてほしいと思い描いてみました！</p><h3>スタッフコメント</h3><p>お仕事から連れ出されるブレイズ、みんな私服がとても似合っていてかわいくてオシャレ！背景のオフショットもじっくり眺めてしまいます。こんな1日を過ごせたら、お休み後の仕事も頑張れそうですね！</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2405_0017.jpg" title="gumi"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2405_0017.jpg" alt="" /></a><h2>gumi</h2><h3>長旅楽しかったね</h3><p>ゴールデンウィークに海の見える町へ旅行に行ったソニック達、沢山の思い出を作った旅行の帰りも、ゆっくりと楽しい時間を過ごしたのだろう...という想いで描いてみました。</p><h3>スタッフコメント</h3><p>楽しく遊んだ帰り道。どんな時間を過ごしたのか、みんなの表情が物語っています。持ち物にも個性が出ていますね。夕焼けに照らされる様子がとても美しいです！</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2405_0001.jpg" title="たーこいず２ｎｄ"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2405_0001.jpg" alt="" /></a><h2>たーこいず２ｎｄ</h2><h3>さんぽ</h3><p>こいのぼりじゃなく"ソニのぼり"を連れて歩くソニックです</p><h3>スタッフコメント</h3><p>気持ちの良いお天気。なんとなく気持ちが通じているような、いないような。春は風の強い日が多いから、飛ばされないように気をつけて。</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2405_0002.jpg" title="リカンチャ"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2405_0002.jpg" alt="" /></a><h2>リカンチャ</h2><h3>GW、サービス業はカオス</h3><p>サービス業にとってゴールデンウィークは長いたたかいです！笑ですが、忙しさをカラフルに可愛いらしさを全面に押し出して描きました。背景のレシートがポイントです！</p><h3>スタッフコメント</h3><p>待ちに待った大型連休。お客さんでいっぱいのお店は、注文の嵐で目が回りそう！　...お疲れさまです。今度パンケーキ食べに行きますね！</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2405_0003.jpg" title="吉田礼"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2405_0003.jpg" alt="" /></a><h2>吉田礼</h2><h3>空の上で鯉のぼり</h3><p>ソニックとテイルスがトルネード号に乗って鯉のぼりを見に来ている所を描きました。</p><h3>スタッフコメント</h3><p>いきいきと空を泳ぐ鯉たち。大きく口を開けて、春の風をいっぱいに吸い込みます。このダイナミックなイベントに、ソニックの表情も満足そうです。</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2405_0004.jpg" title="ヘルメット大佐"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2405_0004.jpg" alt="" /></a><h2>ヘルメット大佐</h2><h3>有名な温泉地は混んでるので...</h3><p>有名な温泉地の混雑を避けてドラム缶風呂に入っているテイルスを描いてみました、お湯の香りはスッキリ爽快なミントの香り？</p><h3>スタッフコメント</h3><p>これはもう、静かな山の秘湯ですね！のんびり目を閉じ、リラックス。そよ風の音や鳥の声が聞こえてきます。目を開けると、どんな景色が飛び込んでくるのでしょう？</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2405_0005.jpg" title="さめおう"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2405_0005.jpg" alt="" /></a><h2>さめおう</h2><h3>旅行</h3><p>ゴールデンウィークにカオスとチャオ達は、グリーンヒルに旅行中。ジャンプ台で興奮したり、リングをお土産にしたりと旅行はまだはじまったばかりですが、カオスとチャたちは楽しい旅行になります。</p><h3>スタッフコメント</h3><p>ソニックはあっという間に駆け抜けていきますが、ここは結構広いところ。チャオたちにとって、一日では遊びきれないほど、面白いものがいっぱいです。</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2405_0006.jpg" title="楠チェリー"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2405_0006.jpg" alt="" /></a><h2>楠チェリー</h2><h3>そうだ、旅に出よう！</h3><p>もし行けるなら「ソニックワールドアドベンチャー」のアポトスに行ってみたいです</p><h3>スタッフコメント</h3><p>見知らぬ土地で少年が見聞きするものは、驚きに満ちていることでしょう。旅先から届いた手紙には、そんな出会いや発見が綴られているのでしょうか？　...読んでみたい！</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2405_0007.jpg" title="樹"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2405_0007.jpg" alt="" /></a><h2>樹</h2><h3>たまにはがっつり演奏を</h3><p>朝から晩まで楽しく演奏するベクターを描いてみました。ゴールデンウィークは長時間趣味に没頭するのにも向いている休日ですよね。防音もしっかりした部屋で思う存分に弾いているといいなと思います。</p><h3>スタッフコメント</h3><p>満足げな表情で鍵盤に向かうベクターを描いてくれました。大きな身体で繊細なメロディーを奏でるそのギャップに新鮮な驚きと新たなベクターの魅力を感じるイラストです。</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2405_0008.jpg" title="かめ"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2405_0008.jpg" alt="" /></a><h2>かめ</h2><h3>五月</h3><p>ゴールデンウィークのワクワクした気持ちを表現しました。</p><h3>スタッフコメント</h3><p>真っ直ぐに前を見据える二人の期待感あふれる表情が良いですね！背景にはイチゴでしょうか？この連休でいろんな事が楽しめそうですね。</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2405_0009.jpg" title="セナチュウ"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2405_0009.jpg" alt="" /></a><h2>セナチュウ</h2><h3>GWは海外旅行</h3><p>GWにシャドウとシルバーとクリームとブレイズの仲良し4人組は夏から始まるパリオリンピックの下見にパリに行きます！</p><h3>スタッフコメント</h3><p>開催予定地のパリに下見に訪れるなんて羨ましいですね！オリンピックは勿論、この4人のキャラクターたちのパリでのお目当ての場所や、施設も気になりますね。</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2405_0010.jpg" title="米酒"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2405_0010.jpg" alt="" /></a><h2>米酒</h2><h3>3、2、1...チーズ！</h3><p>ゴールデンウィークの間、ソレアナで休暇を過ごす二人。シルバーのサイコキネシスが役に立った！</p><h3>スタッフコメント</h3><p>ソレアナでのブレイズとシルバーのツーショットを描いてくれました！初夏の爽やかな気候や街並みが美しく、シルバーらしい撮影風景も楽しいイラストです。</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2405_0011.jpg" title="T2"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2405_0011.jpg" alt="" /></a><h2>T2</h2><h3>5人と２匹のショッピング</h3><p>ゴールデンウィークにショッピングへと来たカオティクスとクリーム親子。おしとやかな二人ですが、知らず知らずのうちに色々買っちゃってるのかな～...と思いました。ベクターはかっこいい姿を見せようと張り切っていてまったく気にしないけど、エスピオはちょっとタジタジ。</p><h3>スタッフコメント</h3><p>クリーム親子とカオティクスメンバーたちの関係がよく分かるシーンがコミカルに描かれています。紳士ぶるベクターの様子もどこか微笑ましく見えますね。</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2405_0012.jpg" title="そーだ"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2405_0012.jpg" alt="" /></a><h2>そーだ</h2><h3>ゴールデンな贅沢</h3><p>ゴールデンウィークのエッグマン軍団！！束の間の休日、ダイナーで美味しいもの食べながら作戦会議......？？</p><h3>スタッフコメント</h3><p>それぞれのキャラクター達の表情がとても魅力的に描かれており、まるで絵本の１ページような美しい色彩と雰囲気が素敵なイラストに仕上がっています。</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2405_0013.jpg" title="リュウ8823"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2405_0013.jpg" alt="" /></a><h2>リュウ8823</h2><h3>買い物付き合って！</h3><p>せっかくの休みの日、2人で色んな場所や店に行こう。｢次はあっち！｣</p><h3>スタッフコメント</h3><p>3組の関係性の違いが面白いですね！総じて女性陣のほうがリードしている雰囲気のようですが、みんな楽しんで買い物できたのではないでしょうか。何を買ったのか気になります...！</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2405_0014.jpg" title="ねこ"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2405_0014.jpg" alt="" /></a><h2>ねこ</h2><h3>クレーンゲーム！</h3><p>GWといえば遊ぶ！遊ぶといえばゲームセンター！クレーンゲームで遊ぶテイルスとクリームを描きました。テイルスはクレーンゲームが上手なイメージがあります。</p><h3>スタッフコメント</h3><p>瞳キラキラなクリームがとてもかわいいです！この笑顔を前にしてはテイルスも頑張るしかない...！手前のぬいぐるみ、よくみるといろんなチャオがいますね！テイルスならコンプできるかも。</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2405_0015.jpg" title="ケレン"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2405_0015.jpg" alt="" /></a><h2>ケレン</h2><h3>こどものひ</h3><p>ゴールデンウィーク最終日は子どもの日。晴れた空の下、自分だけの鯉のぼりの折り紙を折って、連休最終日を楽しもう！</p><h3>スタッフコメント</h3><p>二人仲良く鯉のぼりを作ったんでしょうか。カブトも似合ってます！光があふれる色使いに、空に泳ぐ鯉のぼりも綺麗で、爽やかな風を感じました。</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2405_0016.jpg" title="アクア"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2405_0016.jpg" alt="" /></a><h2>アクア</h2><h3>今日だけ普通の女の子</h3><p>ブレイズはゴールデンウィーク中でも皇女としての仕事に追われているかも？だからせめて1日だけでも、皇女ではなく普通の女の子として街へ遊びに行って楽しんできてほしいと思い描いてみました！</p><h3>スタッフコメント</h3><p>お仕事から連れ出されるブレイズ、みんな私服がとても似合っていてかわいくてオシャレ！背景のオフショットもじっくり眺めてしまいます。こんな1日を過ごせたら、お休み後の仕事も頑張れそうですね！</p></div>
 
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2405_0018.jpg" title="たい"><img src="/SonicChannel/fangallery/fanart/image/s2405_0018.jpg" alt="" /></a><h2>たい</h2><h3>さすがソニック！すごいなあ</h3><p>ソニック達はグリーンヒルズでスケートボードを楽しんでいるみたいです。</p><h3>スタッフコメント</h3><p>躍動感溢れるポーズと、奥行きあるグリーンヒルの迫力ある作品です！みんな表情豊かで、にぎやかな楽しい雰囲気が伝わってきます。ソニックならいろんな技を披露してくれたことでしょう。</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2405_0019.jpg" title="alisa006"><img src="/SonicChannel/fangallery/fanart/image/s2405_0019.jpg" alt="" /></a><h2>alisa006</h2><h3>悠々と散歩</h3><p>Eggmanが世界を征服することもなく、GUNのミッションもない。二人はApotosの通りを散歩している。</p><h3>スタッフコメント</h3><p>アポトスの街並みが美しいですね！難しい構図ですが、そつなく描かれています。名物のチョコチップサンデーやさり気ないビッグやチャオなど、細部を見るのも楽しい作品です。</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2405_0020.jpg" title="鷹梅白"><img src="/SonicChannel/fangallery/fanart/image/s2405_0020.jpg" alt="" /></a><h2>鷹梅白</h2><h3>工房に於ける攻防</h3><p>天気が良くて気候が穏やかで気持ちのいい風が吹いて時間がたっぷりあるので「ゴールデンウィークには大掃除するわよー！」と工房の大掃除をしたがるエミーと、止めるテイルスです。エミーには散らかっているように見えるけど、テイルスは「部品の場所は全部把握してるから！動かさないで！」...です。</p><h3>スタッフコメント</h3><p>散らかった部屋から目的の物をすぐ見つけられる人は、まさにこのタイプですね！やる気いっぱいのエミーの笑顔と焦るテイルスの対比が面白いです。</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2405_0021.jpg" title="ななハリ"><img src="/SonicChannel/fangallery/fanart/image/s2405_0021.jpg" alt="" /></a><h2>ななハリ</h2><h3>なかなかの出来栄えじゃ</h3><p>家族らしいことをしたいということで世界征服はおやすみしてしぶしぶミスティックルーインにキャンプに来た5人。家族キャンプで平和に過ごすのも満更でもなさそうなエッグマン様ですが、果たしてうまく焼けるのか...！ちなみに焚き火は雨の日にセージちゃんが作った力作です。</p><h3>スタッフコメント</h3><p>しぶしぶと言いつつ、お手製の焚火や衣装など、キャンプのためにしっかりと準備しているところが良いですね。各キャラクターの配役もピッタリです！</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2405_0022.jpg" title="みわ"><img src="/SonicChannel/fangallery/fanart/image/s2405_0022.jpg" alt="" /></a><h2>みわ</h2><h3>青空の下</h3><p>GW初日に連休はどこに行ってトレジャーハントをしようか...なんて考え中なナックルズのイラストです。</p><h3>スタッフコメント</h3><p>付箋がいっぱいの本を見るかぎり、行きたい場所はたくさんある様子。チャオとの穏やかな時間を楽しみつつ、ナックルズは遠い地に思いを馳せているのかもしれませんね。</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2405_0023.jpg" title="けちょぷー"><img src="/SonicChannel/fangallery/fanart/image/s2405_0023.jpg" alt="" /></a><h2>けちょぷー</h2><h3>ゴールデンウィーク・サーキットレース</h3><p>ソニックたちがラジコンでレースをしているところです。コースを描くのを頑張りました。ちなみにエッグマンは初描きです。</p><h3>スタッフコメント</h3><p>走るのが楽しそうなコースですね！カーブの縞模様まで丁寧に描かれています。優勝は一体誰の手に...！初描きのエッグマン、お上手だと思います！</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2405_0024.jpg" title="ももうさぎ"><img src="/SonicChannel/fangallery/fanart/image/s2405_0024.jpg" alt="" /></a><h2>ももうさぎ</h2><h3>Golden Week!</h3><p>ポストカード風にしてみました！いつもは使わないラメ入りボールペンやチョークを使ってみました！難しかった。エミーちゃん大好きです♪</p><h3>スタッフコメント</h3><p>エミーの衣装が爽やかでよく似合っています！ピンクと水色で上手くまとめられており、ラメのキラキラ感やシールの厚みが良いアクセントになっていると思います。</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2405_0025.jpg" title="トム"><img src="/SonicChannel/fangallery/fanart/image/s2405_0025.jpg" alt="" /></a><h2>トム</h2><h3>ドライブ</h3><p>シャドウモデルのバイクがとってもかっこよかったので...！！手紙風に仕上げてみました！</p><h3>スタッフコメント</h3><p>丁寧に描き込まれたバイクと潮風の感じられる海はまるで写真のよう。ファインダー越しにシャドウと視線が合ってしまった風に感じられドキッとしてしまいました。この手紙がどこ宛てなのか、気になります。</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2405_0026.jpg" title="きゅーはち"><img src="/SonicChannel/fangallery/fanart/image/s2405_0026.jpg" alt="" /></a><h2>きゅーはち</h2><h3>チームダークとこどもの日</h3><p>｢こどもの日｣をテーマに、チームダークをどこまでかっこよくできるか考えながら描きました。シャドウとルージュをめっちゃかっこよくした分、オメガがこどもの日をめっちゃ楽しんでる感じになっちゃいました(笑)。</p><h3>スタッフコメント</h3><p>端午の節句に合わせたアイテムを持って決めポーズ。一目見ただけでチームダークのかっこよさが伝わってくる素敵な作品をいただきました。</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2405_0027.jpg" title="spotty"><img src="/SonicChannel/fangallery/fanart/image/s2405_0027.jpg" alt="" /></a><h2>spotty</h2><h3>ゴールデンウィークの水族館満喫</h3><p>「ブレイズ！これ、何の魚？」「チンアナゴ...だな。私も初めて見た」水族館で色んな生き物と出会ったふたりは、来年の休みもここに行こうと、静かに決めた</p><h3>スタッフコメント</h3><p>水族館は初めてなのでしょうか？セリフと合わせて観るととても微笑ましい二人。水槽のライティングが美しく、シルバーの表情がとても映えて感動がより伝わってきます。</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2405_0028.jpg" title="tenteko"><img src="/SonicChannel/fangallery/fanart/image/s2405_0028.jpg" alt="" /></a><h2>tenteko</h2><h3>ショッピング！</h3><p>ゴールデンウィークは女子メンバーで仲良くショッピングに行ってほしいです！</p><h3>スタッフコメント</h3><p>エミー達の着ている服がとても似合っていて可愛い！おしゃれでセンス抜群ですね。仲の良い雰囲気が感じられ、見ているだけで楽しくなってくる作品です。</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2405_0029.jpg" title="王張アルト"><img src="/SonicChannel/fangallery/fanart/image/s2405_0029.jpg" alt="" /></a><h2>王張アルト</h2><h3>頼れるメカニック</h3><p>休暇のお出かけのためにテイルスに愛車の整備を頼むシャドウ。テイルスもモンスターマシンがいじれてウィンウィン。</p><h3>スタッフコメント</h3><p>シャドウが自分の愛車の整備を任せたということは、テイルスのメカニック力をそれなりに評価しているのでしょうか？シャドウが休日にどこへ出かけるのか教えてほしいですね！</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2405_0030.jpg" title="karo"><img src="/SonicChannel/fangallery/fanart/image/s2405_0030.jpg" alt="" /></a><h2>karo</h2><h3>次は何する？</h3><p>GWに遊園地を楽しむソニック達を描きました。アトラクション以外の時間も一緒に過ごせば楽しさいっぱい！遊園地コラボとても楽しかったです。次はこんなカチューシャをつけてソニックランドに行きた～い！</p><h3>スタッフコメント</h3><p>遊園地ならではなイベントがいっぱい詰まっていて見ていてワクワクします。富士急でもナックルズは食べ物の話をしてましたね。ウィスプやチャオの頭飾りが欲しくなりました！</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2405_0018.jpg" title="たい"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2405_0018.jpg" alt="" /></a><h2>たい</h2><h3>さすがソニック！すごいなあ</h3><p>ソニック達はグリーンヒルズでスケートボードを楽しんでいるみたいです。</p><h3>スタッフコメント</h3><p>躍動感溢れるポーズと、奥行きあるグリーンヒルの迫力ある作品です！みんな表情豊かで、にぎやかな楽しい雰囲気が伝わってきます。ソニックならいろんな技を披露してくれたことでしょう。</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2405_0019.jpg" title="alisa006"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2405_0019.jpg" alt="" /></a><h2>alisa006</h2><h3>悠々と散歩</h3><p>Eggmanが世界を征服することもなく、GUNのミッションもない。二人はApotosの通りを散歩している。</p><h3>スタッフコメント</h3><p>アポトスの街並みが美しいですね！難しい構図ですが、そつなく描かれています。名物のチョコチップサンデーやさり気ないビッグやチャオなど、細部を見るのも楽しい作品です。</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2405_0020.jpg" title="鷹梅白"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2405_0020.jpg" alt="" /></a><h2>鷹梅白</h2><h3>工房に於ける攻防</h3><p>天気が良くて気候が穏やかで気持ちのいい風が吹いて時間がたっぷりあるので「ゴールデンウィークには大掃除するわよー！」と工房の大掃除をしたがるエミーと、止めるテイルスです。エミーには散らかっているように見えるけど、テイルスは「部品の場所は全部把握してるから！動かさないで！」...です。</p><h3>スタッフコメント</h3><p>散らかった部屋から目的の物をすぐ見つけられる人は、まさにこのタイプですね！やる気いっぱいのエミーの笑顔と焦るテイルスの対比が面白いです。</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2405_0021.jpg" title="ななハリ"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2405_0021.jpg" alt="" /></a><h2>ななハリ</h2><h3>なかなかの出来栄えじゃ</h3><p>家族らしいことをしたいということで世界征服はおやすみしてしぶしぶミスティックルーインにキャンプに来た5人。家族キャンプで平和に過ごすのも満更でもなさそうなエッグマン様ですが、果たしてうまく焼けるのか...！ちなみに焚き火は雨の日にセージちゃんが作った力作です。</p><h3>スタッフコメント</h3><p>しぶしぶと言いつつ、お手製の焚火や衣装など、キャンプのためにしっかりと準備しているところが良いですね。各キャラクターの配役もピッタリです！</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2405_0022.jpg" title="みわ"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2405_0022.jpg" alt="" /></a><h2>みわ</h2><h3>青空の下</h3><p>GW初日に連休はどこに行ってトレジャーハントをしようか...なんて考え中なナックルズのイラストです。</p><h3>スタッフコメント</h3><p>付箋がいっぱいの本を見るかぎり、行きたい場所はたくさんある様子。チャオとの穏やかな時間を楽しみつつ、ナックルズは遠い地に思いを馳せているのかもしれませんね。</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2405_0023.jpg" title="けちょぷー"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2405_0023.jpg" alt="" /></a><h2>けちょぷー</h2><h3>ゴールデンウィーク・サーキットレース</h3><p>ソニックたちがラジコンでレースをしているところです。コースを描くのを頑張りました。ちなみにエッグマンは初描きです。</p><h3>スタッフコメント</h3><p>走るのが楽しそうなコースですね！カーブの縞模様まで丁寧に描かれています。優勝は一体誰の手に...！初描きのエッグマン、お上手だと思います！</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2405_0024.jpg" title="ももうさぎ"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2405_0024.jpg" alt="" /></a><h2>ももうさぎ</h2><h3>Golden Week!</h3><p>ポストカード風にしてみました！いつもは使わないラメ入りボールペンやチョークを使ってみました！難しかった。エミーちゃん大好きです♪</p><h3>スタッフコメント</h3><p>エミーの衣装が爽やかでよく似合っています！ピンクと水色で上手くまとめられており、ラメのキラキラ感やシールの厚みが良いアクセントになっていると思います。</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2405_0025.jpg" title="トム"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2405_0025.jpg" alt="" /></a><h2>トム</h2><h3>ドライブ</h3><p>シャドウモデルのバイクがとってもかっこよかったので...！！手紙風に仕上げてみました！</p><h3>スタッフコメント</h3><p>丁寧に描き込まれたバイクと潮風の感じられる海はまるで写真のよう。ファインダー越しにシャドウと視線が合ってしまった風に感じられドキッとしてしまいました。この手紙がどこ宛てなのか、気になります。</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2405_0026.jpg" title="きゅーはち"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2405_0026.jpg" alt="" /></a><h2>きゅーはち</h2><h3>チームダークとこどもの日</h3><p>｢こどもの日｣をテーマに、チームダークをどこまでかっこよくできるか考えながら描きました。シャドウとルージュをめっちゃかっこよくした分、オメガがこどもの日をめっちゃ楽しんでる感じになっちゃいました(笑)。</p><h3>スタッフコメント</h3><p>端午の節句に合わせたアイテムを持って決めポーズ。一目見ただけでチームダークのかっこよさが伝わってくる素敵な作品をいただきました。</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2405_0027.jpg" title="spotty"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2405_0027.jpg" alt="" /></a><h2>spotty</h2><h3>ゴールデンウィークの水族館満喫</h3><p>「ブレイズ！これ、何の魚？」「チンアナゴ...だな。私も初めて見た」水族館で色んな生き物と出会ったふたりは、来年の休みもここに行こうと、静かに決めた</p><h3>スタッフコメント</h3><p>水族館は初めてなのでしょうか？セリフと合わせて観るととても微笑ましい二人。水槽のライティングが美しく、シルバーの表情がとても映えて感動がより伝わってきます。</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2405_0028.jpg" title="tenteko"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2405_0028.jpg" alt="" /></a><h2>tenteko</h2><h3>ショッピング！</h3><p>ゴールデンウィークは女子メンバーで仲良くショッピングに行ってほしいです！</p><h3>スタッフコメント</h3><p>エミー達の着ている服がとても似合っていて可愛い！おしゃれでセンス抜群ですね。仲の良い雰囲気が感じられ、見ているだけで楽しくなってくる作品です。</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2405_0029.jpg" title="王張アルト"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2405_0029.jpg" alt="" /></a><h2>王張アルト</h2><h3>頼れるメカニック</h3><p>休暇のお出かけのためにテイルスに愛車の整備を頼むシャドウ。テイルスもモンスターマシンがいじれてウィンウィン。</p><h3>スタッフコメント</h3><p>シャドウが自分の愛車の整備を任せたということは、テイルスのメカニック力をそれなりに評価しているのでしょうか？シャドウが休日にどこへ出かけるのか教えてほしいですね！</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2405_0030.jpg" title="karo"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2405_0030.jpg" alt="" /></a><h2>karo</h2><h3>次は何する？</h3><p>GWに遊園地を楽しむソニック達を描きました。アトラクション以外の時間も一緒に過ごせば楽しさいっぱい！遊園地コラボとても楽しかったです。次はこんなカチューシャをつけてソニックランドに行きた～い！</p><h3>スタッフコメント</h3><p>遊園地ならではなイベントがいっぱい詰まっていて見ていてワクワクします。富士急でもナックルズは食べ物の話をしてましたね。ウィスプやチャオの頭飾りが欲しくなりました！</p></div>
 
 
 
 	</div>
-
-
-<nav id="substance-navigation"><ul class="boxLink paginationNum">
-
-
-
-</ul></nav>
-</div>
-<ul id="page-sns2">
-	<li class="snsTwitter"><img src="/SonicChannel//common/image/icon_twitter.png" alt="Twitter"></li>
-	<li class="snsFacebook"><img src="/SonicChannel//common/image/icon_facebook.png" alt="facebook"></li>
-	<li class="snsLine"><img src="/SonicChannel//common/image/icon_line.png" alt="LINE"></li>
-</ul>
+				
+				
+				<nav id="substance-navigation"><ul class="boxLink paginationNum">
+			
+			
+			
+				</ul></nav>
+			<ul id="page-sns2">
+				<li class="snsTwitter"><img src="/SonicChannel/assets/images/old/icon_twitter.png" alt="Twitter"></li>
+				<li class="snsFacebook"><img src="/SonicChannel/assets/images/old/icon_facebook.png" alt="facebook"></li>
+				<li class="snsLine"><img src="/SonicChannel/assets/images/old/icon_line.png" alt="LINE"></li>
+			</ul>
+	</div>
 </article>
 </main>
-	<nav id="common-pagination">
-	<ul class="boxLink paginationArrow">
-	<li class="iconLeft"><a rel="prev" href="/SonicChannel/fangallery/fanart/20240401_008541/" >ファンアート 2024年4月「春」</a></li>
-<li class="iconUp"><a href="/SonicChannel/fangallery/fanart">戻る</a></li>
-	<li class="iconRight"><a rel="next" href="/SonicChannel/fangallery/fanart/20240603_008584/" >ファンアート 2024年6月「Happy Birthday SONIC！」</a></li>
-	</ul>
-</nav>
-<footer>
+<footer role="contentinfo">
+	<div class="footerWrap">
+			<ul class="common-snsList-sp">
+				<li class="common-snsIcon is-x">
+					<a class="snsTwitter" href=""></a>
+				</li>
+				<li class="common-snsIcon is-line">
+					<a class="snsLine" href=""></a>
+				</li>
+				<li class="common-snsIcon is-facebook">
+					<a class="snsFacebook" href=""></a>
+				</li>
+			</ul><!-- .common-snsList-pc -->
+    <div class="footerContent">
+				<div class="footerLogoBox">
+						<div class="footerSonicChannelLogo"><a href="https://sonic.sega.jp/SonicChannel/" target="_blank"><img src="/SonicChannel/assets/images/common/logo_sonicchannel.png" alt="SONIC CHANNEL" /></a></div>
+						<div class="footerSonicTeamLogo"><a href="http://www.sonicteam.com/" target="_blank"><img src="/SonicChannel/assets/images/common/logo_sonicteam.png" alt="SONIC TEAM" /></a></div>
+					</div><!-- .footerLogoBox -->
+    <ul class="footerLinkList">
+    	<li>【<a href="/SonicChannel/about/#translation-function" target="_blank">翻訳機能について</a>】 </li>
+    	<li>【<a href="/SonicChannel/about/#download-policy" target="_blank">ダウンロードについて</a>】</li>
+     	<li>【<a href="http://sega.jp/contact/soft/" target="_blank">お問い合わせ</a>】</li>
+    	<li>【<a href="https://www.sega.co.jp/privacypolicy/" target="_blank">プライバシーポリシー</a>】</li>
+    	<li>【<a href="https://www.sega.co.jp/web-accessibility/index.html" target="_blank">ウェブアクセシビリティ方針</a>】</li>
+    </ul>
+	<p class="footerCopy">&copy;SEGA</p>
+    </div>
 	<div id="footer-search" class="googleSearch">
 		<div class="gcse-search"></div>
 	</div>
-	<p><a href="http://www.sonicteam.com/"><img src="/SonicChannel/common/image/SonicTeamLogo.png" width="105" height="27" alt="SONIC TEAM"/></a></p>
-	<p>【<a href="/SonicChannel/about/#translation-function">翻訳機能について</a>】 【<a href="/SonicChannel/about/#download-policy">ダウンロードについて</a>】</p>
-	<p>【<a href="http://sega.jp/contact/soft/" target="_blank">お問い合わせ</a>】【<a href="https://www.sega.co.jp/privacypolicy/" target="_blank">プライバシーポリシー</a>】</p>
-	<p>&copy;SEGA</p>
+</div>
 </footer>
-<div id='background-logo'></div>
-<div id='common-bg'><div id='bg-substance'></div></div>
+</div>
 </body>
 </html>
+

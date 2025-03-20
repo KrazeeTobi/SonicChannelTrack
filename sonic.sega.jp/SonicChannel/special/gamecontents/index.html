@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# : http://ogp.me/ns/#" lang="ja">
-<meta name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0,user-scalable=yes" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta name="keyword" content="SONIC CHANNEL,ソニックチャンネル,SEGA,セガ,SONICTEAM,ソニックチーム,SONIC,ソニック" />
@@ -18,18 +18,29 @@
 <meta property="og:locale" content="ja_JP">
 <meta property="og:title" content="ゲームコンテンツ" />
 <meta property="og:url" content="https://sonic.sega.jp/SonicChannel/special/gamecontents/" />
-<meta property="og:image" content="https://sonic.sega.jp/SonicChannel/special/image/staffcolumn_250307_02_eye.jpg" />
+<meta property="og:image" content="https://sonic.sega.jp/SonicChannel/upload_images/gametitle_SonicLostWorldWiiu_square.webp" />
 <meta property="og:description" content="ソニックチャンネル|ゲームコンテンツ" />
-<meta property="og:image" content="https://sonic.sega.jp/SonicChannel/common/image/ogimage.png">
+<meta property="og:image" content="https://sonic.sega.jp/SonicChannel/assets/images/ogp/ogp20250320.jpg">
 <meta property="og:type" content="article">
 <title>SEGA | ソニックチャンネル |  スペシャル</title>
 <link rel="start" href="/SonicChannel/">
-<link rel="alternate" type="application/atom+xml" title="Recent Entries" href="/SonicChannel/atom.xml" />
-<link rel="stylesheet" href="/SonicChannel/common/css/import.css">
-<script src="/SonicChannel/common/js/import.js" language="javascript" type="text/javascript"></script>
+<link rel="alternate" type="application/atom+xml" title="Recent Entries" href="http://admin-mt-sonic.sega.jp/sonic.sega.jp/SonicChannel/production/atom.xml" />
+<link rel="stylesheet" href="https://use.typekit.net/sha2lhi.css">
+<link rel="stylesheet" href="/SonicChannel/assets/css/oldStyle.min.css">
+<link rel="stylesheet" href="/SonicChannel/assets/css/common.min.css">
+<script src="/SonicChannel/assets/js/libs/jquery-3.7.1.min.js"></script>
+		<script src="/SonicChannel/assets/js/libs/jquery.inview.min.js"></script>
+<script src="/SonicChannel/assets/js/libs/swiper-bundle.min.js"></script>
+<script src="/SonicChannel/assets/js/libs/jquery.swipebox.min.js"></script>
+<script src="/SonicChannel/assets/js/old/modernizr.js"></script>
+<script src="/SonicChannel/assets/js/old/swiper.min.js"></script>
+<script src="/SonicChannel/assets/js/old/jquery.tubular.1.0.js"></script>
+<script src="/SonicChannel/assets/js/old/velocity.min.js"></script>
+<script src="/SonicChannel/assets/js/old/snsClick.js"></script>
+<script src="/SonicChannel/assets/js/old/init.js"></script>
+<script src="/SonicChannel/assets/js/common.js"></script>
 <script async src="https://cse.google.com/cse.js?cx=b9e22222528a0e6ff"></script>
-<link rel="stylesheet" href="/SonicChannel/special/common/css/import.css">
-<script src="/SonicChannel/special/common/js/import.js" language="javascript" type="text/javascript"></script>
+<!--link rel="stylesheet" href="/SonicChannel/special/common/css/import.css">
 <!--[if lte IE 8]>
 <script src="/SonicChannel/common/js/html5shiv.js"></script>
 <![endif]-->
@@ -40,71 +51,864 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','GTM-MF59Q7B');</script>
 </head>	
 <body class="category special">
-<header>
-	<a href="http://sega.jp/"><img src="/SonicChannel/common/image/header_sega.png" alt="SEGA" width="75" height="25" /></a>
-	<div>
-        <div>
+<div class="wrapper">
+<div class="wrapperBg"></div>
+<header role="banner">
+	<a href="http://sega.jp/" class="headerSEGALogo"><img src="/SonicChannel/assets/images/common/sega_logo_s_b.svg" alt="SEGA" width="75" height="25" /></a>
+			<ul class="common-snsList-pc">
+				<li class="common-snsIcon is-x">
+					<a class="snsTwitter" href=""></a>
+				</li>
+				<li class="common-snsIcon is-line">
+					<a class="snsLine" href=""></a>
+				</li>
+				<li class="common-snsIcon is-facebook">
+					<a class="snsFacebook" href=""></a>
+				</li>
+			</ul><!-- .common-snsList-pc -->
+	<div class="gTranslateBox">
+        <div class="gTranslateIcon">
            <a href="/SonicChannel/about/#translation-function">
               <svg>
-      			  <use xlink:href="/SonicChannel/common/image/header_caution.svg#caution"></use>
+      			  <use xlink:href="/SonicChannel/assets/images/old/header_caution.svg#caution"></use>
     		  </svg>
-        </a>
+        	</a>
         </div>
 		<div class="gtranslate_wrapper"></div>
 		<script>window.gtranslateSettings = {"default_language":"ja","wrapper_selector":".gtranslate_wrapper"}</script>
 		<script src="https://cdn.gtranslate.net/widgets/latest/dropdown.js" defer></script>
 	</div>
-	<h1><a href="/SonicChannel/"><img src="/SonicChannel/common/image/header_sonicchannel.png" alt="ソニックチャンネル" width="191" height="47" /></a></h1>
 </header>
-<nav id="common-navigation">
-	<a href="#" id="nav-trigger"><span id="trigger-icon"></span></a>
+<div id="nav-trigger"><span id="trigger-icon"></span></div>
+<nav id="common-navigation" role="navigation">
 	<div id="overlay-nav"><span></span></div><!-- cd-overlay-nav -->
 	<div id="overlay-content"><span></span></div> <!-- cd-overlay-content -->
-	<ul id="nav-list">
-		<li><a href="/SonicChannel/"><img src="/SonicChannel/common/image/nav_sonicchannel.png" alt="SONIC CHANNEL" /></a></li>
-		<li><a href="/SonicChannel/topics/information/">トピックス</a></li>
-		<li><a href="/SonicChannel/gametitle/nintendo-switch.html">ゲームタイトル</a></li>
-		<li><a href="/SonicChannel/character/">キャラクター</a></li>
-		<li><a href="/SonicChannel/special/" class="activeAnchor">スペシャル</a></li>
-		<li><a href="/SonicChannel/fangallery/">ファンギャラリー</a></li>
-		<li><a href="/SonicChannel/enjoy/wallpaper/">おたのしみ</a></li>
-	</ul>
-	<div class="googleSearch" id="nav-search">
-		<div class="gcse-search"></div>
+	<div class="navWrapper"> 
+		<div class="navLogoItem">
+       	 <h1 class="soinicChannelLogo"><a href="/SonicChannel/"><img src="/SonicChannel/assets/images/common/logo_sonicchannel.png" alt="ソニックチャンネル" width="191" height="47" /></a></h1>
+	</div>
+		<ul id="nav-list">
+        <li class="navItem is-top"><a href="/SonicChannel/">トップ</a></li>
+			<li class="navItem is-topics"><a href="/SonicChannel/topics/">トピックス</a></li>
+			<li class="navItem is-character"><a href="/SonicChannel/character/">キャラクター</a></li>
+    		<li class="navItem is-history"><a href="/SonicChannel/history/">ヒストリー</a></li>
+    		<li class="navItem is-special"><a href="/SonicChannel/special/top.html" class="activeAnchor">スペシャル</a></li>
+			<li class="navItem is-fangallery"><a href="/SonicChannel/fangallery/top.html">ファンギャラリー</a></li>
+		</ul>
+    	<div class="navWhatSonicItem">
+        <a href="/SonicChannel/character/" ><div class="navWhatSonicText">ソニックとは</div><div class="whatSonicArrow"></div></a>
+   		</div>
 	</div>
 </nav>
-<main id="common-contents">
+<main id="common-contents" role="main">
+<div class="headlineCommon"></div>
 <div id="contents-header">
-		<h2 class="headlineCommon">スペシャル</h2>
 			<nav class="contentsNavigation">
-				<ul>
-						<li><a href="/SonicChannel/special/" >すべて</a></li>
-								<li><a href="/SonicChannel/special/staffcolumn/">スタッフコラム</a></li>
-								<li><a href="/SonicChannel/special/sidestory/">サイドストーリー</a></li>
-								<li><a href="/SonicChannel/special/sns/">SNS動画・配信</a></li>
-								<li><a href="/SonicChannel/special/gamecontents/" class="activeAnchor">ゲームコンテンツ</a></li>
-								<li><a href="/SonicChannel/special/soundcolumn/">サウンドコラム</a></li>
-							</ul>
-				<select>
-						<option value="/SonicChannel/special/" >すべて</option>
+            <div class="contentsNavigationInner">
+				<ul class="cateArctestUL">
+  <li class="cateArctestLi"><a href="https://sonic-channel.jp/fancard/">ファンカード</a></li>
+								<li class="cateArctestLi"><a href="/SonicChannel/special/download/wallpaper/">ダウンロード</a></li>
+								<li class="cateArctestLi"><a href="/SonicChannel/special/staffcolumn/">スタッフコラム</a></li>
+								<li class="cateArctestLi"><a href="/SonicChannel/special/sidestory/">サイドストーリー</a></li>
+								<li class="cateArctestLi"><a href="/SonicChannel/special/sns/">SNS動画・配信</a></li>
+								<li class="cateArctestLi"><a href="/SonicChannel/special/gamecontents/" class="activeAnchor">ゲームコンテンツ</a></li>
+            </ul>
+            <div class="navSelectBox">
+				<select aria-label="選択してください">
+<option value="https://sonic-channel.jp/fancard/" >ファンカード</option>
+								<option value="/SonicChannel/special/download/wallpaper/" >ダウンロード</option>
 								<option value="/SonicChannel/special/staffcolumn/" >スタッフコラム</option>
 								<option value="/SonicChannel/special/sidestory/" >サイドストーリー</option>
 								<option value="/SonicChannel/special/sns/" >SNS動画・配信</option>
 								<option value="/SonicChannel/special/gamecontents/"  selected>ゲームコンテンツ</option>
-								<option value="/SonicChannel/special/soundcolumn/" >サウンドコラム</option>
-							</select>
+            </select>
+            </div>
 				<h3>ゲームコンテンツ</h3>
+            </div>
 			</nav>
 </div>
 <article id="contents-archive">
-    <ul class="archiveTypeA">
+    <ul class="archiveTypeC archiveTypeItem">
         
         
+    
 			
 			<li>
 	
-	<a href="/SonicChannel/special/gamecontents/soniccolors/20210909_002663/">
+	<a href="https://www.youtube.com/watch?v=TYI3NVtjAxw" target="_blank" rel="noopener noreferrer">
 	
+		
+		
+		
+		<time datetime="2024-10-15T21:52:41+09:00">2024.10.15</time>
+		
+    <div class="listItem">
+    	<div class="topListItemImg">
+		<img src="/SonicChannel/assets_c/2025/03/gamecontents_241015_01_ogp-thumb-640xauto-15727.jpg" alt="" />
+			
+		
+	
+
+
+
+    </div>
+    	<div class="listItemText">
+		<h2 class="entryHeadline">『ソニック × シャドウ ジェネレーションズ』 闇の序章 ー全編版ー</h2>
+
+		
+		
+		
+		
+			
+			
+			
+			
+			
+			
+				
+					
+					
+						
+					
+				
+					
+					
+						
+						
+						
+						
+						
+						
+						
+					
+				
+				
+					
+					
+					
+				
+			
+		
+			
+			
+			
+			
+			
+			
+				
+					
+					
+						
+					
+				
+				
+			
+		
+		
+		<p>ゲームコンテンツ</p>
+        
+    </div>
+</div>
+	</a>
+</li>
+
+			
+        	
+        
+        
+    
+			
+			<li>
+	
+	<a href="https://www.youtube.com/watch?v=DPK-bs2HxXc" target="_blank" rel="noopener noreferrer">
+	
+		
+		
+		
+		<time datetime="2024-10-11T21:51:43+09:00">2024.10.11</time>
+		
+    <div class="listItem">
+    	<div class="topListItemImg">
+		<img src="/SonicChannel/assets_c/2025/03/gamecontents_241011_01_ogp-thumb-640xauto-15726.jpg" alt="" />
+			
+		
+	
+
+
+
+    </div>
+    	<div class="listItemText">
+		<h2 class="entryHeadline">『ソニック × シャドウ ジェネレーションズ』 闇の序章 Episode 3 ーアーク へ...ー</h2>
+
+		
+		
+		
+		
+			
+			
+			
+			
+			
+			
+				
+					
+					
+						
+					
+				
+					
+					
+						
+						
+						
+						
+						
+						
+						
+					
+				
+				
+					
+					
+					
+				
+			
+		
+			
+			
+			
+			
+			
+			
+				
+					
+					
+						
+					
+				
+				
+			
+		
+		
+		<p>ゲームコンテンツ</p>
+        
+    </div>
+</div>
+	</a>
+</li>
+
+			
+        	
+        
+        
+    
+			
+			<li>
+	
+	<a href="https://www.youtube.com/watch?v=iCZwIO5gxfE" target="_blank" rel="noopener noreferrer">
+	
+		
+		
+		
+		<time datetime="2024-10-04T21:50:47+09:00">2024.10.04</time>
+		
+    <div class="listItem">
+    	<div class="topListItemImg">
+		<img src="/SonicChannel/assets_c/2025/03/gamecontents_241004_01_ogp-thumb-640xauto-15725.jpg" alt="" />
+			
+		
+	
+
+
+
+    </div>
+    	<div class="listItemText">
+		<h2 class="entryHeadline">『ソニック × シャドウ ジェネレーションズ』 闇の序章 Episode 2 ー道を探してー</h2>
+
+		
+		
+		
+		
+			
+			
+			
+			
+			
+			
+				
+					
+					
+						
+					
+				
+					
+					
+						
+						
+						
+						
+						
+						
+						
+					
+				
+				
+					
+					
+					
+				
+			
+		
+			
+			
+			
+			
+			
+			
+				
+					
+					
+						
+					
+				
+				
+			
+		
+		
+		<p>ゲームコンテンツ</p>
+        
+    </div>
+</div>
+	</a>
+</li>
+
+			
+        	
+        
+        
+    
+			
+			<li>
+	
+	<a href="https://www.youtube.com/watch?v=ZSoJ9zSTNM8" target="_blank" rel="noopener noreferrer">
+	
+		
+		
+		
+		<time datetime="2024-09-26T21:49:32+09:00">2024.09.26</time>
+		
+    <div class="listItem">
+    	<div class="topListItemImg">
+		<img src="/SonicChannel/assets_c/2025/03/gamecontents_240926_01_ogp-thumb-640xauto-15724.jpg" alt="" />
+			
+		
+	
+
+
+
+    </div>
+    	<div class="listItemText">
+		<h2 class="entryHeadline">『ソニック × シャドウ ジェネレーションズ』闇の序章 Episode 1 ーシャドウとマリアー</h2>
+
+		
+		
+		
+		
+			
+			
+			
+			
+			
+			
+				
+					
+					
+						
+					
+				
+					
+					
+						
+						
+						
+						
+						
+						
+						
+					
+				
+				
+					
+					
+					
+				
+			
+		
+			
+			
+			
+			
+			
+			
+				
+					
+					
+						
+					
+				
+				
+			
+		
+		
+		<p>ゲームコンテンツ</p>
+        
+    </div>
+</div>
+	</a>
+</li>
+
+			
+        	
+        
+        
+    
+			
+			<li>
+	
+	<a href="https://sonic.sega.jp/SonicSuperStars/comic/index3.html" target="_blank" rel="noopener noreferrer">
+	
+		
+		
+		
+		<time datetime="2023-11-01T21:48:05+09:00">2023.11.01</time>
+		
+    <div class="listItem">
+    	<div class="topListItemImg">
+		<img src="/SonicChannel/assets_c/2025/03/gamecontents_231011_01_ogp-thumb-640xauto-15723.jpg" alt="" />
+			
+		
+	
+
+
+
+    </div>
+    	<div class="listItemText">
+		<h2 class="entryHeadline"> 『ソニックスーパースターズ』プロローグコミック 第3回</h2>
+
+		
+		
+		
+		
+			
+			
+			
+			
+			
+			
+				
+					
+					
+						
+					
+				
+					
+					
+						
+						
+						
+						
+						
+						
+						
+					
+				
+				
+					
+					
+					
+				
+			
+		
+			
+			
+			
+			
+			
+			
+				
+					
+					
+						
+					
+				
+				
+			
+		
+		
+		<p>ゲームコンテンツ</p>
+        
+    </div>
+</div>
+	</a>
+</li>
+
+			
+        	
+        
+        
+    
+			
+			<li>
+	
+	<a href="https://sonic.sega.jp/SonicSuperStars/comic/index2.html" target="_blank" rel="noopener noreferrer">
+	
+		
+		
+		
+		<time datetime="2023-10-26T21:47:16+09:00">2023.10.26</time>
+		
+    <div class="listItem">
+    	<div class="topListItemImg">
+		<img src="/SonicChannel/assets_c/2025/03/gamecontents_231006_02_ogp-thumb-640xauto-15722.jpg" alt="" />
+			
+		
+	
+
+
+
+    </div>
+    	<div class="listItemText">
+		<h2 class="entryHeadline">『ソニックスーパースターズ』プロローグコミック 第2回</h2>
+
+		
+		
+		
+		
+			
+			
+			
+			
+			
+			
+				
+					
+					
+						
+					
+				
+					
+					
+						
+						
+						
+						
+						
+						
+						
+					
+				
+				
+					
+					
+					
+				
+			
+		
+			
+			
+			
+			
+			
+			
+				
+					
+					
+						
+					
+				
+				
+			
+		
+		
+		<p>ゲームコンテンツ</p>
+        
+    </div>
+</div>
+	</a>
+</li>
+
+			
+        	
+        
+        
+    
+			
+			<li>
+	
+	<a href="https://sonic.sega.jp/SonicSuperStars/comic/index.html" target="_blank" rel="noopener noreferrer">
+	
+		
+		
+		
+		<time datetime="2023-10-26T21:45:07+09:00">2023.10.26</time>
+		
+    <div class="listItem">
+    	<div class="topListItemImg">
+		<img src="/SonicChannel/assets_c/2025/03/gamecontents_231006_01_ogp-thumb-640xauto-15721.jpg" alt="" />
+			
+		
+	
+
+
+
+    </div>
+    	<div class="listItemText">
+		<h2 class="entryHeadline">『ソニックスーパースターズ』プロローグコミック 第1回</h2>
+
+		
+		
+		
+		
+			
+			
+			
+			
+			
+			
+				
+					
+					
+						
+					
+				
+					
+					
+						
+						
+						
+						
+						
+						
+						
+					
+				
+				
+					
+					
+					
+				
+			
+		
+			
+			
+			
+			
+			
+			
+				
+					
+					
+						
+					
+				
+				
+			
+		
+		
+		<p>ゲームコンテンツ</p>
+        
+    </div>
+</div>
+	</a>
+</li>
+
+			
+        	
+        
+        
+    
+			
+			<li>
+	
+	<a href="https://sonic.sega.jp/SonicFrontiers/comic/comic02.html" target="_blank" rel="noopener noreferrer">
+	
+		
+		
+		
+		<time datetime="2022-10-26T21:43:47+09:00">2022.10.26</time>
+		
+    <div class="listItem">
+    	<div class="topListItemImg">
+		<img src="/SonicChannel/assets_c/2025/03/gamecontents_221026_01_ogp-thumb-640xauto-15720.jpg" alt="" />
+			
+		
+	
+
+
+
+    </div>
+    	<div class="listItemText">
+		<h2 class="entryHeadline">『ソニックフロンティア』プロローグコミック 第2回</h2>
+
+		
+		
+		
+		
+			
+			
+			
+			
+			
+			
+				
+					
+					
+						
+					
+				
+					
+					
+						
+						
+						
+						
+						
+						
+						
+					
+				
+				
+					
+					
+					
+				
+			
+		
+			
+			
+			
+			
+			
+			
+				
+					
+					
+						
+					
+				
+				
+			
+		
+		
+		<p>ゲームコンテンツ</p>
+        
+    </div>
+</div>
+	</a>
+</li>
+
+			
+        	
+        
+        
+    
+			
+			<li>
+	
+	<a href="https://sonic.sega.jp/SonicFrontiers/comic/comic01.html" target="_blank" rel="noopener noreferrer">
+	
+		
+		
+		
+		<time datetime="2022-10-19T21:38:06+09:00">2022.10.19</time>
+		
+    <div class="listItem">
+    	<div class="topListItemImg">
+		<img src="/SonicChannel/assets_c/2025/03/gamecontents_221019_01_ogp-thumb-640xauto-15719.jpg" alt="" />
+			
+		
+	
+
+
+
+    </div>
+    	<div class="listItemText">
+		<h2 class="entryHeadline">『ソニックフロンティア』プロローグコミック 第1回</h2>
+
+		
+		
+		
+		
+			
+			
+			
+			
+			
+			
+				
+					
+					
+						
+					
+				
+					
+					
+						
+						
+						
+						
+						
+						
+						
+					
+				
+				
+					
+					
+					
+				
+			
+		
+			
+			
+			
+			
+			
+			
+				
+					
+					
+						
+					
+				
+				
+			
+		
+		
+		<p>ゲームコンテンツ</p>
+        
+    </div>
+</div>
+	</a>
+</li>
+
+			
+        	
+        
+        
+    
+			
+			<li>
+	
+    <a href="/SonicChannel/special/gamecontents/soniccolors/20210909_002663/">
+	
+		
+		
+		
+		<time datetime="2021-09-09T16:07:33+09:00">2021.09.09</time>
+		
+    <div class="listItem">
+    	<div class="topListItemImg">
 		<img src="/SonicChannel/assets_c/2021/09/colors_210909_eye-thumb-640xauto-4307.jpg" alt="" />
 			
 		
@@ -112,6 +916,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 
 
+    </div>
+    	<div class="listItemText">
 		<h2 class="entryHeadline">冒険のはじまり</h2>
 
 		
@@ -206,25 +1012,31 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				
 			
 		
-
+		
 		<p>ゲームコンテンツ<br>ソニックカラーズ</p>
-
-		
-		
-		
-		<time datetime="2021-09-09T16:07:33+09:00">2021/09/09</time>
-		
+        
+    </div>
+</div>
 	</a>
 </li>
 
 			
         	
         
+        
+    
 			
 			<li>
 	
-	<a href="/SonicChannel/special/gamecontents/soniccolors/20210827_002648/">
+    <a href="/SonicChannel/special/gamecontents/soniccolors/20210827_002648/">
 	
+		
+		
+		
+		<time datetime="2021-08-27T13:18:18+09:00">2021.08.27</time>
+		
+    <div class="listItem">
+    	<div class="topListItemImg">
 		<img src="/SonicChannel/assets_c/2021/08/50ef2b5704a4fff9886eac5f07cefd32a767c760-thumb-640xauto-4290.jpg" alt="" />
 			
 		
@@ -232,6 +1044,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 
 
+    </div>
+    	<div class="listItemText">
 		<h2 class="entryHeadline">落日の楽園</h2>
 
 		
@@ -326,25 +1140,31 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				
 			
 		
-
+		
 		<p>ゲームコンテンツ<br>ソニックカラーズ</p>
-
-		
-		
-		
-		<time datetime="2021-08-27T13:18:18+09:00">2021/08/27</time>
-		
+        
+    </div>
+</div>
 	</a>
 </li>
 
 			
         	
         
+        
+    
 			
 			<li>
 	
-	<a href="/SonicChannel/special/gamecontents/sonicmania/20180727_001670/">
+    <a href="/SonicChannel/special/gamecontents/sonicmania/20180727_001670/">
 	
+		
+		
+		
+		<time datetime="2018-07-27T16:18:29+09:00">2018.07.27</time>
+		
+    <div class="listItem">
+    	<div class="topListItemImg">
 		<img src="/SonicChannel/assets_c/2018/07/sonicmania_180727_eye-thumb-640xauto-3184.jpg" alt="" />
 			
 		
@@ -352,6 +1172,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 
 
+    </div>
+    	<div class="listItemText">
 		<h2 class="entryHeadline">『ソニックマニア』杉森建氏のプレイインプレッションを公開！</h2>
 
 		
@@ -446,25 +1268,31 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				
 			
 		
-
+		
 		<p>ゲームコンテンツ<br>ソニックマニア スペシャルコンテンツ</p>
-
-		
-		
-		
-		<time datetime="2018-07-27T16:18:29+09:00">2018/07/27</time>
-		
+        
+    </div>
+</div>
 	</a>
 </li>
 
 			
         	
         
+        
+    
 			
 			<li>
 	
-	<a href="/SonicChannel/topics/event/20180720_001654/">
+    <a href="/SonicChannel/topics/event/20180720_001654/">
 	
+		
+		
+		
+		<time datetime="2018-07-20T20:07:19+09:00">2018.07.20</time>
+		
+    <div class="listItem">
+    	<div class="topListItemImg">
 		<img src="/SonicChannel/assets_c/2018/07/event_180720_01_eye-thumb-640xauto-3167.jpg" alt="" />
 			
 		
@@ -472,6 +1300,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 
 
+    </div>
+    	<div class="listItemText">
 		<h2 class="entryHeadline">『ソニックマニア・プラス』発売記念！Twitterプレゼントキャンペーン</h2>
 
 		
@@ -580,25 +1410,31 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				
 			
 		
-
+		
 		<p>ゲームコンテンツ<br>ソニックマニア スペシャルコンテンツ</p>
-
-		
-		
-		
-		<time datetime="2018-07-20T20:07:19+09:00">2018/07/20</time>
-		
+        
+    </div>
+</div>
 	</a>
 </li>
 
 			
         	
         
+        
+    
 			
 			<li>
 	
-	<a href="/SonicChannel/special/gamecontents/sonicmania/20180426_001591/">
+    <a href="/SonicChannel/special/gamecontents/sonicmania/20180426_001591/">
 	
+		
+		
+		
+		<time datetime="2018-04-26T18:59:15+09:00">2018.04.26</time>
+		
+    <div class="listItem">
+    	<div class="topListItemImg">
 		<img src="/SonicChannel/assets_c/2018/04/sonicmania_180426_eye-thumb-640xauto-3075.jpg" alt="" />
 			
 		
@@ -606,6 +1442,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 
 
+    </div>
+    	<div class="listItemText">
 		<h2 class="entryHeadline">『ソニックマニア・プラス』販売店別予約特典!</h2>
 
 		
@@ -716,25 +1554,31 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				
 			
 		
-
+		
 		<p>ゲームコンテンツ<br>ソニックマニア スペシャルコンテンツ</p>
-
-		
-		
-		
-		<time datetime="2018-04-26T18:59:15+09:00">2018/04/26</time>
-		
+        
+    </div>
+</div>
 	</a>
 </li>
 
 			
         	
         
+        
+    
 			
 			<li>
 	
-	<a href="/SonicChannel/special/gamecontents/sonicforces/20171206_001508/">
+    <a href="/SonicChannel/special/gamecontents/sonicforces/20171206_001508/">
 	
+		
+		
+		
+		<time datetime="2017-12-06T18:47:15+09:00">2017.12.06</time>
+		
+    <div class="listItem">
+    	<div class="topListItemImg">
 		<img src="/SonicChannel/assets_c/2017/12/column_04_eye-thumb-640xauto-2982.jpg" alt="" />
 			
 		
@@ -742,6 +1586,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 
 
+    </div>
+    	<div class="listItemText">
 		<h2 class="entryHeadline">グラフィックスプログラムリーダー 大山貴輝</h2>
 
 		
@@ -875,25 +1721,31 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				
 			
 		
-
+		
 		<p>ゲームコンテンツ<br>ソニックフォース</p>
-
-		
-		
-		
-		<time datetime="2017-12-06T18:47:15+09:00">2017/12/06</time>
-		
+        
+    </div>
+</div>
 	</a>
 </li>
 
 			
         	
         
+        
+    
 			
 			<li>
 	
-	<a href="/SonicChannel/special/gamecontents/sonicforces/20171201_001501/">
+    <a href="/SonicChannel/special/gamecontents/sonicforces/20171201_001501/">
 	
+		
+		
+		
+		<time datetime="2017-12-01T00:12:47+09:00">2017.12.01</time>
+		
+    <div class="listItem">
+    	<div class="topListItemImg">
 		<img src="/SonicChannel/assets_c/2017/11/column_03_eye-thumb-640xauto-2968.jpg" alt="" />
 			
 		
@@ -901,6 +1753,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 
 
+    </div>
+    	<div class="listItemText">
 		<h2 class="entryHeadline">第3回 UIパートリーダー 池田雄介</h2>
 
 		
@@ -1034,809 +1888,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				
 			
 		
-
+		
 		<p>ゲームコンテンツ<br>ソニックフォース</p>
-
-		
-		
-		
-		<time datetime="2017-12-01T00:12:47+09:00">2017/12/01</time>
-		
-	</a>
-</li>
-
-			
-        	
         
-			
-			<li>
-	
-	<a href="/SonicChannel/special/gamecontents/sonicforces/20171124_001498/">
-	
-		<img src="/SonicChannel/assets_c/2017/11/column_02_eye-thumb-640xauto-2965.jpg" alt="" />
-			
-		
-	
-
-
-
-		<h2 class="entryHeadline">第2回 キャラクターパートリーダー 棚橋伸吉</h2>
-
-		
-		
-		
-		
-			
-			
-			
-			
-			
-			
-				
-					
-					
-						
-					
-				
-					
-					
-						
-						
-						
-						
-						
-						
-						
-					
-				
-				
-					
-					
-					
-				
-			
-		
-			
-			
-			
-			
-			
-			
-				
-					
-					
-						
-					
-				
-				
-			
-		
-			
-			
-			
-			
-			
-			
-				
-					
-					
-						
-					
-				
-					
-					
-						
-						
-						
-						
-						
-						
-						
-					
-				
-					
-					
-						
-						
-							
-						
-						
-						
-						
-						
-						
-					
-				
-				
-					
-					
-					
-				
-			
-		
-			
-			
-			
-			
-			
-			
-				
-					
-					
-						
-					
-				
-					
-					
-						
-						
-						
-						
-						
-						
-						
-					
-				
-					
-					
-						
-						
-							
-						
-						
-						
-						
-						
-						
-					
-				
-				
-			
-		
-
-		<p>ゲームコンテンツ<br>ソニックフォース</p>
-
-		
-		
-		
-		<time datetime="2017-11-24T15:56:38+09:00">2017/11/24</time>
-		
-	</a>
-</li>
-
-			
-        	
-        
-			
-			<li>
-	
-	<a href="/SonicChannel/special/gamecontents/sonicforces/20171117_001492/">
-	
-		<img src="/SonicChannel/assets_c/2017/11/column_01_eye-thumb-640xauto-2957.jpg" alt="" />
-			
-		
-	
-
-
-
-		<h2 class="entryHeadline">第1回 背景デザイン アートディレクター 三浦 義貴</h2>
-
-		
-		
-		
-		
-			
-			
-			
-			
-			
-			
-				
-					
-					
-						
-					
-				
-					
-					
-						
-						
-						
-						
-						
-						
-						
-					
-				
-				
-					
-					
-					
-				
-			
-		
-			
-			
-			
-			
-			
-			
-				
-					
-					
-						
-					
-				
-				
-			
-		
-			
-			
-			
-			
-			
-			
-				
-					
-					
-						
-					
-				
-					
-					
-						
-						
-						
-						
-						
-						
-						
-					
-				
-					
-					
-						
-						
-							
-						
-						
-						
-						
-						
-						
-					
-				
-				
-					
-					
-					
-				
-			
-		
-			
-			
-			
-			
-			
-			
-				
-					
-					
-						
-					
-				
-					
-					
-						
-						
-						
-						
-						
-						
-						
-					
-				
-					
-					
-						
-						
-							
-						
-						
-						
-						
-						
-						
-					
-				
-				
-			
-		
-
-		<p>ゲームコンテンツ<br>ソニックフォース</p>
-
-		
-		
-		
-		<time datetime="2017-11-17T19:40:30+09:00">2017/11/17</time>
-		
-	</a>
-</li>
-
-			
-        	
-        
-			
-			<li>
-	
-	<a href="/SonicChannel/special/gamecontents/sonicforces/20171107_001481/">
-	
-		<img src="/SonicChannel/assets_c/2017/11/comics_04_eye-thumb-640xauto-2945.jpg" alt="" />
-			
-		
-	
-
-
-
-		<h2 class="entryHeadline">RISE OF INFINITE ～無限の萌芽～</h2>
-
-		
-		
-		
-		
-			
-			
-			
-			
-			
-			
-				
-					
-					
-						
-					
-				
-					
-					
-						
-						
-						
-						
-						
-						
-						
-					
-				
-				
-					
-					
-					
-				
-			
-		
-			
-			
-			
-			
-			
-			
-				
-					
-					
-						
-					
-				
-				
-			
-		
-			
-			
-			
-			
-			
-			
-				
-					
-					
-						
-					
-				
-					
-					
-						
-						
-						
-						
-						
-						
-						
-					
-				
-					
-					
-						
-						
-							
-						
-						
-						
-						
-						
-						
-					
-				
-				
-					
-					
-					
-				
-			
-		
-			
-			
-			
-			
-			
-			
-				
-					
-					
-						
-					
-				
-					
-					
-						
-						
-						
-						
-						
-						
-						
-					
-				
-					
-					
-						
-						
-							
-						
-						
-						
-						
-						
-						
-					
-				
-				
-			
-		
-
-		<p>ゲームコンテンツ<br>ソニックフォース</p>
-
-		
-		
-		
-		<time datetime="2017-11-07T20:22:16+09:00">2017/11/07</time>
-		
-	</a>
-</li>
-
-			
-        	
-        
-			
-			<li>
-	
-	<a href="/SonicChannel/special/gamecontents/sonicforces/20171031_001475/">
-	
-		<img src="/SonicChannel/assets_c/2017/10/comics_03_eye-thumb-640xauto-2935.jpg" alt="" />
-			
-		
-	
-
-
-
-		<h2 class="entryHeadline">LOOMING SHADOW ～迫り来る影～</h2>
-
-		
-		
-		
-		
-			
-			
-			
-			
-			
-			
-				
-					
-					
-						
-					
-				
-					
-					
-						
-						
-						
-						
-						
-						
-						
-					
-				
-				
-					
-					
-					
-				
-			
-		
-			
-			
-			
-			
-			
-			
-				
-					
-					
-						
-					
-				
-				
-			
-		
-			
-			
-			
-			
-			
-			
-				
-					
-					
-						
-					
-				
-					
-					
-						
-						
-						
-						
-						
-						
-						
-					
-				
-					
-					
-						
-						
-							
-						
-						
-						
-						
-						
-						
-					
-				
-				
-					
-					
-					
-				
-			
-		
-			
-			
-			
-			
-			
-			
-				
-					
-					
-						
-					
-				
-					
-					
-						
-						
-						
-						
-						
-						
-						
-					
-				
-					
-					
-						
-						
-							
-						
-						
-						
-						
-						
-						
-					
-				
-				
-			
-		
-
-		<p>ゲームコンテンツ<br>ソニックフォース</p>
-
-		
-		
-		
-		<time datetime="2017-10-31T23:19:07+09:00">2017/10/31</time>
-		
-	</a>
-</li>
-
-			
-        	
-        
-			
-			<li>
-	
-	<a href="/SonicChannel/special/gamecontents/sonicforces/20171024_001472/">
-	
-		<img src="/SonicChannel/assets_c/2017/10/comics_02_eye-thumb-640xauto-2932.jpg" alt="" />
-			
-		
-	
-
-
-
-		<h2 class="entryHeadline">STRESS  TEST ～負荷実験～</h2>
-
-		
-		
-		
-		
-			
-			
-			
-			
-			
-			
-				
-					
-					
-						
-					
-				
-					
-					
-						
-						
-						
-						
-						
-						
-						
-					
-				
-				
-					
-					
-					
-				
-			
-		
-			
-			
-			
-			
-			
-			
-				
-					
-					
-						
-					
-				
-				
-			
-		
-			
-			
-			
-			
-			
-			
-				
-					
-					
-						
-					
-				
-					
-					
-						
-						
-						
-						
-						
-						
-						
-					
-				
-					
-					
-						
-						
-							
-						
-						
-						
-						
-						
-						
-					
-				
-				
-					
-					
-					
-				
-			
-		
-			
-			
-			
-			
-			
-			
-				
-					
-					
-						
-					
-				
-					
-					
-						
-						
-						
-						
-						
-						
-						
-					
-				
-					
-					
-						
-						
-							
-						
-						
-						
-						
-						
-						
-					
-				
-				
-			
-		
-
-		<p>ゲームコンテンツ<br>ソニックフォース</p>
-
-		
-		
-		
-		<time datetime="2017-10-24T18:53:17+09:00">2017/10/24</time>
-		
+    </div>
+</div>
 	</a>
 </li>
 
@@ -1845,25 +1901,72 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     </ul>
 </article>
 </main>
-<nav id="common-pagination">
-<ul class="boxLink paginationNum">
 
-<li><span class="current_page">1</span></li><li><a href="/SonicChannel/special/gamecontents/index_2.html" class="link_page">2</a></li>
 
-<li><a href="/SonicChannel/special/gamecontents/index_2.html" class="link_next">→</a></li>
+<div class="news-pagerbox">
+<ul class="news-pager cf">
+
+
+
+
+	<li class="no">1</li>
+
+
+
+
+
+
+
+
+	<li><a href="/SonicChannel/special/gamecontents/index_2.html">2</a></li>
+
+
+
+<li class="next"><a href="/SonicChannel/special/gamecontents/index_2.html"></a></li>
+
 
 </ul>
-</nav>
-<footer>
+</div>
+
+
+<div class="enjoyCaution">
+<p>ダウンロードしたものをそのままSNSなどに載せたり配布せず、個人で楽しんでお使いください。<br>
+詳しくは【<a href="/SonicChannel/about/#download-policy">ダウンロードについて</a>】をお読みください。</p>
+</div>
+<footer role="contentinfo">
+	<div class="footerWrap">
+			<ul class="common-snsList-sp">
+				<li class="common-snsIcon is-x">
+					<a class="snsTwitter" href=""></a>
+				</li>
+				<li class="common-snsIcon is-line">
+					<a class="snsLine" href=""></a>
+				</li>
+				<li class="common-snsIcon is-facebook">
+					<a class="snsFacebook" href=""></a>
+				</li>
+			</ul><!-- .common-snsList-pc -->
+    <div class="footerContent">
+				<div class="footerLogoBox">
+						<div class="footerSonicChannelLogo"><a href="https://sonic.sega.jp/SonicChannel/" target="_blank"><img src="/SonicChannel/assets/images/common/logo_sonicchannel.png" alt="SONIC CHANNEL" /></a></div>
+						<div class="footerSonicTeamLogo"><a href="http://www.sonicteam.com/" target="_blank"><img src="/SonicChannel/assets/images/common/logo_sonicteam.png" alt="SONIC TEAM" /></a></div>
+					</div><!-- .footerLogoBox -->
+    <ul class="footerLinkList">
+    	<li>【<a href="/SonicChannel/about/#translation-function" target="_blank">翻訳機能について</a>】 </li>
+    	<li>【<a href="/SonicChannel/about/#download-policy" target="_blank">ダウンロードについて</a>】</li>
+     	<li>【<a href="http://sega.jp/contact/soft/" target="_blank">お問い合わせ</a>】</li>
+    	<li>【<a href="https://www.sega.co.jp/privacypolicy/" target="_blank">プライバシーポリシー</a>】</li>
+    	<li>【<a href="https://www.sega.co.jp/web-accessibility/index.html" target="_blank">ウェブアクセシビリティ方針</a>】</li>
+    </ul>
+	<p class="footerCopy">&copy;SEGA</p>
+    </div>
 	<div id="footer-search" class="googleSearch">
 		<div class="gcse-search"></div>
 	</div>
-	<p><a href="http://www.sonicteam.com/"><img src="/SonicChannel/common/image/SonicTeamLogo.png" width="105" height="27" alt="SONIC TEAM"/></a></p>
-	<p>【<a href="/SonicChannel/about/#translation-function">翻訳機能について</a>】 【<a href="/SonicChannel/about/#download-policy">ダウンロードについて</a>】</p>
-	<p>【<a href="http://sega.jp/contact/soft/" target="_blank">お問い合わせ</a>】【<a href="https://www.sega.co.jp/privacypolicy/" target="_blank">プライバシーポリシー</a>】</p>
-	<p>&copy;SEGA</p>
+</div>
 </footer>
-<div id='background-logo'></div>
-<div id='common-bg'><div id='bg-substance'></div></div>
+</div>
 </body>
 </html>
+
+</MTIf>

@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# : http://ogp.me/ns/#" lang="ja">
-<meta name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0,user-scalable=yes" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta name="keyword" content="SONIC CHANNEL,ソニックチャンネル,SEGA,セガ,SONICTEAM,ソニックチーム,SONIC,ソニック" />
@@ -18,18 +18,29 @@
 <meta property="og:locale" content="ja_JP">
 <meta property="og:title" content="イベント" />
 <meta property="og:url" content="https://sonic.sega.jp/SonicChannel/topics/event/" />
-<meta property="og:image" content="https://sonic.sega.jp/SonicChannel/topics/image/event_250318_01_ogp.jpg" />
+<meta property="og:image" content="https://sonic.sega.jp/SonicChannel/upload_images/gametitle_SonicLostWorldWiiu_square.webp" />
 <meta property="og:description" content="ソニックチャンネル|イベント" />
-<meta property="og:image" content="https://sonic.sega.jp/SonicChannel/common/image/ogimage.png">
+<meta property="og:image" content="https://sonic.sega.jp/SonicChannel/assets/images/ogp/ogp20250320.jpg">
 <meta property="og:type" content="article">
 <title>SEGA | ソニックチャンネル |  トピックス</title>
 <link rel="start" href="/SonicChannel/">
-<link rel="alternate" type="application/atom+xml" title="Recent Entries" href="/SonicChannel/atom.xml" />
-<link rel="stylesheet" href="/SonicChannel/common/css/import.css">
-<script src="/SonicChannel/common/js/import.js" language="javascript" type="text/javascript"></script>
+<link rel="alternate" type="application/atom+xml" title="Recent Entries" href="http://admin-mt-sonic.sega.jp/sonic.sega.jp/SonicChannel/production/atom.xml" />
+<link rel="stylesheet" href="https://use.typekit.net/sha2lhi.css">
+<link rel="stylesheet" href="/SonicChannel/assets/css/oldStyle.min.css">
+<link rel="stylesheet" href="/SonicChannel/assets/css/common.min.css">
+<script src="/SonicChannel/assets/js/libs/jquery-3.7.1.min.js"></script>
+		<script src="/SonicChannel/assets/js/libs/jquery.inview.min.js"></script>
+<script src="/SonicChannel/assets/js/libs/swiper-bundle.min.js"></script>
+<script src="/SonicChannel/assets/js/libs/jquery.swipebox.min.js"></script>
+<script src="/SonicChannel/assets/js/old/modernizr.js"></script>
+<script src="/SonicChannel/assets/js/old/swiper.min.js"></script>
+<script src="/SonicChannel/assets/js/old/jquery.tubular.1.0.js"></script>
+<script src="/SonicChannel/assets/js/old/velocity.min.js"></script>
+<script src="/SonicChannel/assets/js/old/snsClick.js"></script>
+<script src="/SonicChannel/assets/js/old/init.js"></script>
+<script src="/SonicChannel/assets/js/common.js"></script>
 <script async src="https://cse.google.com/cse.js?cx=b9e22222528a0e6ff"></script>
-<link rel="stylesheet" href="/SonicChannel/topics/common/css/import.css">
-<script src="/SonicChannel/topics/common/js/import.js" language="javascript" type="text/javascript"></script>
+<!--link rel="stylesheet" href="/SonicChannel/topics/common/css/import.css">
 <!--[if lte IE 8]>
 <script src="/SonicChannel/common/js/html5shiv.js"></script>
 <![endif]-->
@@ -40,78 +51,106 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','GTM-MF59Q7B');</script>
 </head>	
 <body class="category topics">
-<header>
-	<a href="http://sega.jp/"><img src="/SonicChannel/common/image/header_sega.png" alt="SEGA" width="75" height="25" /></a>
-	<div>
-        <div>
+<div class="wrapper">
+<div class="wrapperBg"></div>
+<header role="banner">
+	<a href="http://sega.jp/" class="headerSEGALogo"><img src="/SonicChannel/assets/images/common/sega_logo_s_b.svg" alt="SEGA" width="75" height="25" /></a>
+			<ul class="common-snsList-pc">
+				<li class="common-snsIcon is-x">
+					<a class="snsTwitter" href=""></a>
+				</li>
+				<li class="common-snsIcon is-line">
+					<a class="snsLine" href=""></a>
+				</li>
+				<li class="common-snsIcon is-facebook">
+					<a class="snsFacebook" href=""></a>
+				</li>
+			</ul><!-- .common-snsList-pc -->
+	<div class="gTranslateBox">
+        <div class="gTranslateIcon">
            <a href="/SonicChannel/about/#translation-function">
               <svg>
-      			  <use xlink:href="/SonicChannel/common/image/header_caution.svg#caution"></use>
+      			  <use xlink:href="/SonicChannel/assets/images/old/header_caution.svg#caution"></use>
     		  </svg>
-        </a>
+        	</a>
         </div>
 		<div class="gtranslate_wrapper"></div>
 		<script>window.gtranslateSettings = {"default_language":"ja","wrapper_selector":".gtranslate_wrapper"}</script>
 		<script src="https://cdn.gtranslate.net/widgets/latest/dropdown.js" defer></script>
 	</div>
-	<h1><a href="/SonicChannel/"><img src="/SonicChannel/common/image/header_sonicchannel.png" alt="ソニックチャンネル" width="191" height="47" /></a></h1>
 </header>
-<nav id="common-navigation">
-	<a href="#" id="nav-trigger"><span id="trigger-icon"></span></a>
+<div id="nav-trigger"><span id="trigger-icon"></span></div>
+<nav id="common-navigation" role="navigation">
 	<div id="overlay-nav"><span></span></div><!-- cd-overlay-nav -->
 	<div id="overlay-content"><span></span></div> <!-- cd-overlay-content -->
-	<ul id="nav-list">
-		<li><a href="/SonicChannel/"><img src="/SonicChannel/common/image/nav_sonicchannel.png" alt="SONIC CHANNEL" /></a></li>
-		<li><a href="/SonicChannel/topics/information/" class="activeAnchor">トピックス</a></li>
-		<li><a href="/SonicChannel/gametitle/nintendo-switch.html">ゲームタイトル</a></li>
-		<li><a href="/SonicChannel/character/">キャラクター</a></li>
-		<li><a href="/SonicChannel/special/">スペシャル</a></li>
-		<li><a href="/SonicChannel/fangallery/">ファンギャラリー</a></li>
-		<li><a href="/SonicChannel/enjoy/wallpaper/">おたのしみ</a></li>
-	</ul>
-	<div class="googleSearch" id="nav-search">
-		<div class="gcse-search"></div>
+	<div class="navWrapper"> 
+		<div class="navLogoItem">
+       	 <h1 class="soinicChannelLogo"><a href="/SonicChannel/"><img src="/SonicChannel/assets/images/common/logo_sonicchannel.png" alt="ソニックチャンネル" width="191" height="47" /></a></h1>
+	</div>
+		<ul id="nav-list">
+        <li class="navItem is-top"><a href="/SonicChannel/">トップ</a></li>
+			<li class="navItem is-topics"><a href="/SonicChannel/topics/" class="activeAnchor">トピックス</a></li>
+			<li class="navItem is-character"><a href="/SonicChannel/character/">キャラクター</a></li>
+    		<li class="navItem is-history"><a href="/SonicChannel/history/">ヒストリー</a></li>
+    		<li class="navItem is-special"><a href="/SonicChannel/special/top.html">スペシャル</a></li>
+			<li class="navItem is-fangallery"><a href="/SonicChannel/fangallery/top.html">ファンギャラリー</a></li>
+		</ul>
+    	<div class="navWhatSonicItem">
+        <a href="/SonicChannel/character/" ><div class="navWhatSonicText">ソニックとは</div><div class="whatSonicArrow"></div></a>
+   		</div>
 	</div>
 </nav>
-<main id="common-contents">
+<main id="common-contents" role="main">
+<div class="headlineCommon"></div>
 <div id="contents-header">
-		<h2 class="headlineCommon">トピックス</h2>
 			<nav class="contentsNavigation">
-				<ul>
-						<li><a href="/SonicChannel/topics/" >すべて</a></li>
-								<li><a href="/SonicChannel/topics/information/">インフォメーション</a></li>
-								<li><a href="/SonicChannel/topics/event/" class="activeAnchor">イベント</a></li>
-								<li><a href="/SonicChannel/topics/goods/">グッズ</a></li>
-								<li><a href="/SonicChannel/topics/sound/">サウンド</a></li>
-								<li><a href="/SonicChannel/topics/collaboration/">コラボレーション</a></li>
-							</ul>
-				<select>
-						<option value="/SonicChannel/topics/" >すべて</option>
+            <div class="contentsNavigationInner">
+				<ul class="cateArctestUL">
+								<li class="cateArctestLi"><a href="/SonicChannel/topics/information/">インフォメーション</a></li>
+								<li class="cateArctestLi"><a href="/SonicChannel/topics/event/" class="activeAnchor">イベント</a></li>
+								<li class="cateArctestLi"><a href="/SonicChannel/topics/goods/">グッズ</a></li>
+								<li class="cateArctestLi"><a href="/SonicChannel/topics/sound/">サウンド</a></li>
+								<li class="cateArctestLi"><a href="/SonicChannel/topics/collaboration/">コラボレーション</a></li>
+            </ul>
+            <div class="navSelectBox">
+				<select aria-label="選択してください">
 								<option value="/SonicChannel/topics/information/" >インフォメーション</option>
 								<option value="/SonicChannel/topics/event/"  selected>イベント</option>
 								<option value="/SonicChannel/topics/goods/" >グッズ</option>
 								<option value="/SonicChannel/topics/sound/" >サウンド</option>
 								<option value="/SonicChannel/topics/collaboration/" >コラボレーション</option>
-							</select>
+            </select>
+            </div>
 				<h3>イベント</h3>
+            </div>
 			</nav>
 </div>
 <article id="contents-archive">
-    <ul class="archiveTypeA">
+    <ul class="archiveTypeA archiveTypeItem">
         
         
+    
 			
 			<li>
 	
-	<a href="/SonicChannel/topics/event/20250318_008812/">
+    <a href="/SonicChannel/topics/event/20250318_008902/">
 	
-		<img src="/SonicChannel/assets_c/2025/03/event_250318_01_ogp-thumb-640xauto-6109.jpg" alt="" />
+		
+		
+		
+		<time datetime="2025-03-18T23:58:49+09:00">2025.03.18</time>
+		
+    <div class="listItem">
+    	<div class="topListItemImg">
+		<img src="/SonicChannel/assets_c/2025/03/event_250318_01_ogp-thumb-640xauto-15741.jpg" alt="" />
 			
 		
 	
 
 
 
+    </div>
+    	<div class="listItemText">
 		<h2 class="entryHeadline">【ソニステ！】ゲームプレイ&映画ウォッチパーティ 長時間生配信SP！   3/20(木)13時～配信決定！ </h2>
 
 		
@@ -163,33 +202,41 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				
 			
 		
-
+		
 		<p>イベント</p>
-
-		
-		
-		
-		<time datetime="2025-03-18T23:46:11+09:00">2025/03/18</time>
-		
+        
+    </div>
+</div>
 	</a>
 </li>
 
 			
         	
         
+        
+    
 			
 			<li>
 	
-	<a href="/SonicChannel/topics/event/20250124_008773/">
+    <a href="/SonicChannel/topics/event/20250124_008857/">
 	
-		<img src="/SonicChannel/assets_c/2025/01/event_250124_01_eye-thumb-640xauto-5983.jpg" alt="" />
+		
+		
+		
+		<time datetime="2025-01-24T20:09:44+09:00">2025.01.24</time>
+		
+    <div class="listItem">
+    	<div class="topListItemImg">
+		<img src="/SonicChannel/assets_c/2025/03/event_250124_01_eye-thumb-640xauto-10993.jpg" alt="" />
 			
 		
 	
 
 
 
-		<h2 class="entryHeadline">【ソニステ！】『ソニック × シャドウ ジェネレーションズ』タイムアタックマッチ開催！   1/31(金)20時～配信決定！ </h2>
+    </div>
+    	<div class="listItemText">
+		<h2 class="entryHeadline">【ソニステ！】『ソニック × シャドウ ジェネレーションズ』タイムアタックマッチ開催！   1/31(金)20時～配信決定！</h2>
 
 		
 		
@@ -240,32 +287,40 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				
 			
 		
-
+		
 		<p>イベント</p>
-
-		
-		
-		
-		<time datetime="2025-01-24T20:09:44+09:00">2025/01/24</time>
-		
+        
+    </div>
+</div>
 	</a>
 </li>
 
 			
         	
         
+        
+    
 			
 			<li>
 	
-	<a href="/SonicChannel/topics/event/20241217_008743/">
+    <a href="/SonicChannel/topics/event/20241217_008832/">
 	
-		<img src="/SonicChannel/assets_c/2024/12/event_241217_02_eye-thumb-640xauto-5934.jpg" alt="" />
+		
+		
+		
+		<time datetime="2024-12-17T10:38:40+09:00">2024.12.17</time>
+		
+    <div class="listItem">
+    	<div class="topListItemImg">
+		<img src="/SonicChannel/assets_c/2025/03/event_241217_02_eye-thumb-640xauto-11073.jpg" alt="" />
 			
 		
 	
 
 
 
+    </div>
+    	<div class="listItemText">
 		<h2 class="entryHeadline">【音速赤ちょうちん】第十四夜「映画公開直前」の夜  12/17(火)21時配信！</h2>
 
 		
@@ -317,32 +372,40 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				
 			
 		
-
+		
 		<p>イベント</p>
-
-		
-		
-		
-		<time datetime="2024-12-17T10:38:40+09:00">2024/12/17</time>
-		
+        
+    </div>
+</div>
 	</a>
 </li>
 
 			
         	
         
+        
+    
 			
 			<li>
 	
-	<a href="/SonicChannel/topics/event/20241217_008742/">
+    <a href="/SonicChannel/topics/event/20241217_008831/">
 	
-		<img src="/SonicChannel/assets_c/2024/12/event_241217_01_eye-thumb-640xauto-5933.jpg" alt="" />
+		
+		
+		
+		<time datetime="2024-12-17T10:38:38+09:00">2024.12.17</time>
+		
+    <div class="listItem">
+    	<div class="topListItemImg">
+		<img src="/SonicChannel/assets_c/2025/03/event_241217_01_eye-thumb-640xauto-11074.jpg" alt="" />
 			
 		
 	
 
 
 
+    </div>
+    	<div class="listItemText">
 		<h2 class="entryHeadline">【ソニステ！】ソニック映画最新作公開直前SP！ 12/17(火)20時配信！</h2>
 
 		
@@ -394,32 +457,40 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				
 			
 		
-
+		
 		<p>イベント</p>
-
-		
-		
-		
-		<time datetime="2024-12-17T10:38:38+09:00">2024/12/17</time>
-		
+        
+    </div>
+</div>
 	</a>
 </li>
 
 			
         	
         
+        
+    
 			
 			<li>
 	
-	<a href="/SonicChannel/topics/collaboration/20241129_008712/">
+    <a href="/SonicChannel/topics/collaboration/20241129_008810/">
 	
-		<img src="/SonicChannel/assets_c/2024/11/collabo_241120_01_eye-thumb-640xauto-5893.jpg" alt="" />
+		
+		
+		
+		<time datetime="2024-11-29T19:38:27+09:00">2024.11.29</time>
+		
+    <div class="listItem">
+    	<div class="topListItemImg">
+		<img src="/SonicChannel/assets_c/2025/03/collabo_241120_01_eye-thumb-640xauto-11099.jpg" alt="" />
 			
 		
 	
 
 
 
+    </div>
+    	<div class="listItemText">
 		<h2 class="entryHeadline">ソニころ2024コラボカフェ シャドころEDITION　開催！</h2>
 
 		
@@ -497,32 +568,40 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				
 			
 		
-
+		
 		<p>イベント</p>
-
-		
-		
-		
-		<time datetime="2024-11-29T19:38:27+09:00">2024/11/29</time>
-		
+        
+    </div>
+</div>
 	</a>
 </li>
 
 			
         	
         
+        
+    
 			
 			<li>
 	
-	<a href="/SonicChannel/topics/collaboration/20241127_008723/">
+    <a href="/SonicChannel/topics/collaboration/20241127_008819/">
 	
-		<img src="/SonicChannel/assets_c/2024/11/event_241127_01_eye-thumb-640xauto-5908.jpg" alt="" />
+		
+		
+		
+		<time datetime="2024-11-27T12:43:29+09:00">2024.11.27</time>
+		
+    <div class="listItem">
+    	<div class="topListItemImg">
+		<img src="/SonicChannel/assets_c/2025/03/event_241127_01_eye-thumb-640xauto-11107.jpg" alt="" />
 			
 		
 	
 
 
 
+    </div>
+    	<div class="listItemText">
 		<h2 class="entryHeadline">「よみうりランド」×「ソニック × シャドウ ジェネレーションズ」コラボイベント開催決定！</h2>
 
 		
@@ -600,33 +679,41 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				
 			
 		
-
+		
 		<p>イベント</p>
-
-		
-		
-		
-		<time datetime="2024-11-27T12:43:29+09:00">2024/11/27</time>
-		
+        
+    </div>
+</div>
 	</a>
 </li>
 
 			
         	
         
+        
+    
 			
 			<li>
 	
-	<a href="/SonicChannel/topics/event/20241119_008714/">
+    <a href="/SonicChannel/topics/event/20241119_008812/">
 	
-		<img src="/SonicChannel/assets_c/2024/11/event_241119_02_eye-thumb-640xauto-5891.png" alt="" />
+		
+		
+		
+		<time datetime="2024-11-19T19:38:30+09:00">2024.11.19</time>
+		
+    <div class="listItem">
+    	<div class="topListItemImg">
+		<img src="/SonicChannel/assets_c/2025/03/event_241119_02_eye-thumb-640xauto-11126.png" alt="" />
 			
 		
 	
 
 
 
-		<h2 class="entryHeadline">第十二夜「ソニころ学園祭準備中」の夜 </h2>
+    </div>
+    	<div class="listItemText">
+		<h2 class="entryHeadline">第十二夜「ソニころ学園祭準備中」の夜</h2>
 
 		
 		
@@ -677,33 +764,41 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				
 			
 		
-
+		
 		<p>イベント</p>
-
-		
-		
-		
-		<time datetime="2024-11-19T19:38:30+09:00">2024/11/19</time>
-		
+        
+    </div>
+</div>
 	</a>
 </li>
 
 			
         	
         
+        
+    
 			
 			<li>
 	
-	<a href="https://sonic.sega.jp/SonicXShadowGenerations/news/20241119-aeon.html" target="_blank" >
+    <a href="/SonicChannel/topics/20241119_008811/">
 	
-		<img src="/SonicChannel/assets_c/2024/11/event_241119_01_eye-thumb-640xauto-5890.jpg" alt="" />
+		
+		
+		
+		<time datetime="2024-11-19T19:38:29+09:00">2024.11.19</time>
+		
+    <div class="listItem">
+    	<div class="topListItemImg">
+		<img src="/SonicChannel/assets_c/2025/03/event_241119_03_eye-thumb-640xauto-11124.jpg" alt="" />
 			
 		
 	
 
 
 
-		<h2 class="entryHeadline"> 映画公開記念！ ソニック × シャドウ祭り開催決定！</h2>
+    </div>
+    	<div class="listItemText">
+		<h2 class="entryHeadline">【ソニステ！】ソニころ学園祭直前SP！</h2>
 
 		
 		
@@ -754,41 +849,31 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				
 			
 		
-			
-			
-			
-			
-			
-			
-				
-					
-					
-				
-					
-					
-				
-				
-			
 		
-
 		<p>イベント</p>
-
-		
-		
-		
-		<time datetime="2024-11-19T18:43:28+09:00">2024/11/19</time>
-		
+        
+    </div>
+</div>
 	</a>
 </li>
 
 			
         	
         
+        
+    
 			
 			<li>
 	
-	<a href="/SonicChannel/topics/event/20241025_008698/">
+    <a href="/SonicChannel/topics/event/20241025_008698/">
 	
+		
+		
+		
+		<time datetime="2024-10-25T18:11:07+09:00">2024.10.25</time>
+		
+    <div class="listItem">
+    	<div class="topListItemImg">
 		<img src="/SonicChannel/assets_c/2024/10/event_241025_02_eye-thumb-640xauto-5861.jpg" alt="" />
 			
 		
@@ -796,6 +881,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 
 
+    </div>
+    	<div class="listItemText">
 		<h2 class="entryHeadline">第十二夜「祝！ソニシャドG発売」の夜 </h2>
 
 		
@@ -847,25 +934,31 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				
 			
 		
-
+		
 		<p>イベント</p>
-
-		
-		
-		
-		<time datetime="2024-10-25T18:11:07+09:00">2024/10/25</time>
-		
+        
+    </div>
+</div>
 	</a>
 </li>
 
 			
         	
         
+        
+    
 			
 			<li>
 	
-	<a href="/SonicChannel/topics/event/20241025_008697/">
+    <a href="/SonicChannel/topics/event/20241025_008697/">
 	
+		
+		
+		
+		<time datetime="2024-10-25T18:11:06+09:00">2024.10.25</time>
+		
+    <div class="listItem">
+    	<div class="topListItemImg">
 		<img src="/SonicChannel/assets_c/2024/10/event_241025_01_eye-thumb-640xauto-5860.jpg" alt="" />
 			
 		
@@ -873,6 +966,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 
 
+    </div>
+    	<div class="listItemText">
 		<h2 class="entryHeadline">【ソニステ！】『ソニック × シャドウ ジェネレーションズ』発売記念SP！ 10/25(金)20時～配信！</h2>
 
 		
@@ -924,25 +1019,31 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				
 			
 		
-
+		
 		<p>イベント</p>
-
-		
-		
-		
-		<time datetime="2024-10-25T18:11:06+09:00">2024/10/25</time>
-		
+        
+    </div>
+</div>
 	</a>
 </li>
 
 			
         	
         
+        
+    
 			
 			<li>
 	
-	<a href="/SonicChannel/topics/event/20240920_008669/">
+    <a href="/SonicChannel/topics/event/20240920_008669/">
 	
+		
+		
+		
+		<time datetime="2024-09-20T11:44:49+09:00">2024.09.20</time>
+		
+    <div class="listItem">
+    	<div class="topListItemImg">
 		<img src="/SonicChannel/assets_c/2024/09/event_240920_01_eye-thumb-640xauto-5803.jpg" alt="" />
 			
 		
@@ -950,6 +1051,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 
 
+    </div>
+    	<div class="listItemText">
 		<h2 class="entryHeadline">【ソニステ！】TGS2024特番！『SONIC RUMBLE(ソニックランブル)』の生プレイも！ 9/26(木)20時～配信決定！</h2>
 
 		
@@ -1001,25 +1104,31 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				
 			
 		
-
+		
 		<p>イベント</p>
-
-		
-		
-		
-		<time datetime="2024-09-20T11:44:49+09:00">2024/09/20</time>
-		
+        
+    </div>
+</div>
 	</a>
 </li>
 
 			
         	
         
+        
+    
 			
 			<li>
 	
-	<a href="/SonicChannel/topics/event/20240828_008650/">
+    <a href="/SonicChannel/topics/event/20240828_008650/">
 	
+		
+		
+		
+		<time datetime="2024-08-28T00:48:29+09:00">2024.08.28</time>
+		
+    <div class="listItem">
+    	<div class="topListItemImg">
 		<img src="/SonicChannel/assets_c/2024/08/event_240827_02_eye-thumb-640xauto-5769.jpg" alt="" />
 			
 		
@@ -1027,6 +1136,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 
 
+    </div>
+    	<div class="listItemText">
 		<h2 class="entryHeadline">【音速赤ちょうちん】第十夜 「#ソニつく 第二弾始動！」の夜</h2>
 
 		
@@ -1078,14 +1189,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				
 			
 		
-
+		
 		<p>イベント</p>
-
-		
-		
-		
-		<time datetime="2024-08-28T00:48:29+09:00">2024/08/28</time>
-		
+        
+    </div>
+</div>
 	</a>
 </li>
 
@@ -1094,25 +1202,95 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     </ul>
 </article>
 </main>
-<nav id="common-pagination">
-<ul class="boxLink paginationNum">
 
-<li><span class="current_page">1</span></li><li><a href="/SonicChannel/topics/event/index_2.html" class="link_page">2</a></li><li><a href="/SonicChannel/topics/event/index_3.html" class="link_page">3</a></li><li><a href="/SonicChannel/topics/event/index_4.html" class="link_page">4</a></li><li><a href="/SonicChannel/topics/event/index_5.html" class="link_page">5</a></li>
 
-<li><a href="/SonicChannel/topics/event/index_2.html" class="link_next">→</a></li>
+<div class="news-pagerbox">
+<ul class="news-pager cf">
+
+
+
+
+	<li class="no">1</li>
+
+
+
+
+
+
+
+
+	<li><a href="/SonicChannel/topics/event/index_2.html">2</a></li>
+
+
+
+
+
+
+
+
+	<li><a href="/SonicChannel/topics/event/index_3.html">3</a></li>
+
+
+
+
+
+
+
+
+	<li><a href="/SonicChannel/topics/event/index_4.html">4</a></li>
+
+
+
+
+
+
+
+
+	<li><a href="/SonicChannel/topics/event/index_5.html">5</a></li>
+
+
+
+<li class="next"><a href="/SonicChannel/topics/event/index_2.html"></a></li>
+
 
 </ul>
-</nav>
-<footer>
+</div>
+
+
+<footer role="contentinfo">
+	<div class="footerWrap">
+			<ul class="common-snsList-sp">
+				<li class="common-snsIcon is-x">
+					<a class="snsTwitter" href=""></a>
+				</li>
+				<li class="common-snsIcon is-line">
+					<a class="snsLine" href=""></a>
+				</li>
+				<li class="common-snsIcon is-facebook">
+					<a class="snsFacebook" href=""></a>
+				</li>
+			</ul><!-- .common-snsList-pc -->
+    <div class="footerContent">
+				<div class="footerLogoBox">
+						<div class="footerSonicChannelLogo"><a href="https://sonic.sega.jp/SonicChannel/" target="_blank"><img src="/SonicChannel/assets/images/common/logo_sonicchannel.png" alt="SONIC CHANNEL" /></a></div>
+						<div class="footerSonicTeamLogo"><a href="http://www.sonicteam.com/" target="_blank"><img src="/SonicChannel/assets/images/common/logo_sonicteam.png" alt="SONIC TEAM" /></a></div>
+					</div><!-- .footerLogoBox -->
+    <ul class="footerLinkList">
+    	<li>【<a href="/SonicChannel/about/#translation-function" target="_blank">翻訳機能について</a>】 </li>
+    	<li>【<a href="/SonicChannel/about/#download-policy" target="_blank">ダウンロードについて</a>】</li>
+     	<li>【<a href="http://sega.jp/contact/soft/" target="_blank">お問い合わせ</a>】</li>
+    	<li>【<a href="https://www.sega.co.jp/privacypolicy/" target="_blank">プライバシーポリシー</a>】</li>
+    	<li>【<a href="https://www.sega.co.jp/web-accessibility/index.html" target="_blank">ウェブアクセシビリティ方針</a>】</li>
+    </ul>
+	<p class="footerCopy">&copy;SEGA</p>
+    </div>
 	<div id="footer-search" class="googleSearch">
 		<div class="gcse-search"></div>
 	</div>
-	<p><a href="http://www.sonicteam.com/"><img src="/SonicChannel/common/image/SonicTeamLogo.png" width="105" height="27" alt="SONIC TEAM"/></a></p>
-	<p>【<a href="/SonicChannel/about/#translation-function">翻訳機能について</a>】 【<a href="/SonicChannel/about/#download-policy">ダウンロードについて</a>】</p>
-	<p>【<a href="http://sega.jp/contact/soft/" target="_blank">お問い合わせ</a>】【<a href="https://www.sega.co.jp/privacypolicy/" target="_blank">プライバシーポリシー</a>】</p>
-	<p>&copy;SEGA</p>
+</div>
 </footer>
-<div id='background-logo'></div>
-<div id='common-bg'><div id='bg-substance'></div></div>
+</div>
 </body>
 </html>
+
+</MTIf>

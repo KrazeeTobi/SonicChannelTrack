@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# : http://ogp.me/ns/#" lang="ja">
-<meta name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0,user-scalable=yes" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta name="keyword" content="SONIC CHANNEL,ソニックチャンネル,SEGA,セガ,SONICTEAM,ソニックチーム,SONIC,ソニック" />
@@ -19,16 +19,27 @@
 <meta property="og:title" content="ソニック & メタルソニック" />
 <meta property="og:url" content="https://sonic.sega.jp/SonicChannel/special/sidestory/coverstory/20210521_002562/" />
 <meta property="og:description" content="誰もいないDr.エッグマンの秘密研究所......起動とともにデータベースに接続したそのロボットは、今の状況を把握してこう評価しました。 [[ この状況は　"好ましくない" ]] 	 そのロボットがメンテナンスで眠っている間に、Dr.エッグ..." />
-<meta property="og:image" content="https://sonic.sega.jp/SonicChannel/enjoy/image/coverstory_210520_01_eye.jpg">
+<meta property="og:image" content="https://sonic.sega.jp/SonicChannel/upload_images/coverstory_210520_01_eye.jpg">
 <meta property="og:type" content="article">
 <title>SEGA | ソニックチャンネル | スペシャル | ソニック & メタルソニック</title>
 <link rel="start" href="/SonicChannel/">
-<link rel="alternate" type="application/atom+xml" title="Recent Entries" href="/SonicChannel/atom.xml" />
-<link rel="stylesheet" href="/SonicChannel/common/css/import.css">
-<script src="/SonicChannel/common/js/import.js" language="javascript" type="text/javascript"></script>
+<link rel="alternate" type="application/atom+xml" title="Recent Entries" href="http://admin-mt-sonic.sega.jp/sonic.sega.jp/SonicChannel/production/atom.xml" />
+<link rel="stylesheet" href="https://use.typekit.net/sha2lhi.css">
+<link rel="stylesheet" href="/SonicChannel/assets/css/oldStyle.min.css">
+<link rel="stylesheet" href="/SonicChannel/assets/css/common.min.css">
+<script src="/SonicChannel/assets/js/libs/jquery-3.7.1.min.js"></script>
+		<script src="/SonicChannel/assets/js/libs/jquery.inview.min.js"></script>
+<script src="/SonicChannel/assets/js/libs/swiper-bundle.min.js"></script>
+<script src="/SonicChannel/assets/js/libs/jquery.swipebox.min.js"></script>
+<script src="/SonicChannel/assets/js/old/modernizr.js"></script>
+<script src="/SonicChannel/assets/js/old/swiper.min.js"></script>
+<script src="/SonicChannel/assets/js/old/jquery.tubular.1.0.js"></script>
+<script src="/SonicChannel/assets/js/old/velocity.min.js"></script>
+<script src="/SonicChannel/assets/js/old/snsClick.js"></script>
+<script src="/SonicChannel/assets/js/old/init.js"></script>
+<script src="/SonicChannel/assets/js/common.js"></script>
 <script async src="https://cse.google.com/cse.js?cx=b9e22222528a0e6ff"></script>
-<link rel="stylesheet" href="/SonicChannel/special/common/css/import.css">
-<script src="/SonicChannel/special/common/js/import.js" language="javascript" type="text/javascript"></script>
+<!--link rel="stylesheet" href="/SonicChannel/special/common/css/import.css">
 <!--[if lte IE 8]>
 <script src="/SonicChannel/common/js/html5shiv.js"></script>
 <![endif]-->
@@ -39,74 +50,93 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','GTM-MF59Q7B');</script>
 </head>	
 <body class="entry individual special">
-<header>
-	<a href="http://sega.jp/"><img src="/SonicChannel/common/image/header_sega.png" alt="SEGA" width="75" height="25" /></a>
-	<div>
-        <div>
+<div class="wrapper">
+<div class="wrapperBg"></div>
+<header role="banner">
+	<a href="http://sega.jp/" class="headerSEGALogo"><img src="/SonicChannel/assets/images/common/sega_logo_s_b.svg" alt="SEGA" width="75" height="25" /></a>
+			<ul class="common-snsList-pc">
+				<li class="common-snsIcon is-x">
+					<a class="snsTwitter" href=""></a>
+				</li>
+				<li class="common-snsIcon is-line">
+					<a class="snsLine" href=""></a>
+				</li>
+				<li class="common-snsIcon is-facebook">
+					<a class="snsFacebook" href=""></a>
+				</li>
+			</ul><!-- .common-snsList-pc -->
+	<div class="gTranslateBox">
+        <div class="gTranslateIcon">
            <a href="/SonicChannel/about/#translation-function">
               <svg>
-      			  <use xlink:href="/SonicChannel/common/image/header_caution.svg#caution"></use>
+      			  <use xlink:href="/SonicChannel/assets/images/old/header_caution.svg#caution"></use>
     		  </svg>
-        </a>
+        	</a>
         </div>
 		<div class="gtranslate_wrapper"></div>
 		<script>window.gtranslateSettings = {"default_language":"ja","wrapper_selector":".gtranslate_wrapper"}</script>
 		<script src="https://cdn.gtranslate.net/widgets/latest/dropdown.js" defer></script>
 	</div>
-	<h1><a href="/SonicChannel/"><img src="/SonicChannel/common/image/header_sonicchannel.png" alt="ソニックチャンネル" width="191" height="47" /></a></h1>
 </header>
-<nav id="common-navigation">
-	<a href="#" id="nav-trigger"><span id="trigger-icon"></span></a>
+<div id="nav-trigger"><span id="trigger-icon"></span></div>
+<nav id="common-navigation" role="navigation">
 	<div id="overlay-nav"><span></span></div><!-- cd-overlay-nav -->
 	<div id="overlay-content"><span></span></div> <!-- cd-overlay-content -->
-	<ul id="nav-list">
-		<li><a href="/SonicChannel/"><img src="/SonicChannel/common/image/nav_sonicchannel.png" alt="SONIC CHANNEL" /></a></li>
-		<li><a href="/SonicChannel/topics/information/">トピックス</a></li>
-		<li><a href="/SonicChannel/gametitle/nintendo-switch.html">ゲームタイトル</a></li>
-		<li><a href="/SonicChannel/character/">キャラクター</a></li>
-		<li><a href="/SonicChannel/special/" class="activeAnchor">スペシャル</a></li>
-		<li><a href="/SonicChannel/fangallery/">ファンギャラリー</a></li>
-		<li><a href="/SonicChannel/enjoy/wallpaper/">おたのしみ</a></li>
-	</ul>
-	<div class="googleSearch" id="nav-search">
-		<div class="gcse-search"></div>
+	<div class="navWrapper"> 
+		<div class="navLogoItem">
+       	 <h1 class="soinicChannelLogo"><a href="/SonicChannel/"><img src="/SonicChannel/assets/images/common/logo_sonicchannel.png" alt="ソニックチャンネル" width="191" height="47" /></a></h1>
+	</div>
+		<ul id="nav-list">
+        <li class="navItem is-top"><a href="/SonicChannel/">トップ</a></li>
+			<li class="navItem is-topics"><a href="/SonicChannel/topics/">トピックス</a></li>
+			<li class="navItem is-character"><a href="/SonicChannel/character/">キャラクター</a></li>
+    		<li class="navItem is-history"><a href="/SonicChannel/history/">ヒストリー</a></li>
+    		<li class="navItem is-special"><a href="/SonicChannel/special/top.html" class="activeAnchor">スペシャル</a></li>
+			<li class="navItem is-fangallery"><a href="/SonicChannel/fangallery/top.html">ファンギャラリー</a></li>
+		</ul>
+    	<div class="navWhatSonicItem">
+        <a href="/SonicChannel/character/" ><div class="navWhatSonicText">ソニックとは</div><div class="whatSonicArrow"></div></a>
+   		</div>
 	</div>
 </nav>
-<main id="common-contents">
+<main id="common-contents" role="main">
+<div class="headlineCommon"></div>
 <div id="contents-header">
-		<h2 class="headlineCommon">スペシャル</h2>
 			<nav class="contentsNavigation">
-				<ul>
-						<li><a href="/SonicChannel/special/sidestory/" >すべて</a></li>
-								<li><a href="/SonicChannel/special/sidestory/sonicpict/">SONICPICT</a></li>
-								<li><a href="/SonicChannel/special/sidestory/ohgiri/">大喜利</a></li>
-								<li><a href="/SonicChannel/special/sidestory/coverstory/" class="activeAnchor">かべがみカバーストーリー</a></li>
-								<li><a href="/SonicChannel/special/sidestory/comic/">ソニック コミック</a></li>
-							</ul>
-				<select>
-						<option value="/SonicChannel/special/sidestory/" >すべて</option>
+            <div class="contentsNavigationInner">
+				<ul class="cateArctestUL">
+								<li class="cateArctestLi"><a href="/SonicChannel/special/sidestory/sonicpict/">SONICPICT</a></li>
+								<li class="cateArctestLi"><a href="/SonicChannel/special/sidestory/ohgiri/">大喜利</a></li>
+								<li class="cateArctestLi"><a href="/SonicChannel/special/sidestory/coverstory/" class="activeAnchor">かべがみカバーストーリー</a></li>
+								<li class="cateArctestLi"><a href="/SonicChannel/special/sidestory/comic/">ソニック コミック</a></li>
+            </ul>
+            <div class="navSelectBox">
+				<select aria-label="選択してください">
 								<option value="/SonicChannel/special/sidestory/sonicpict/" >SONICPICT</option>
 								<option value="/SonicChannel/special/sidestory/ohgiri/" >大喜利</option>
 								<option value="/SonicChannel/special/sidestory/coverstory/"  selected>かべがみカバーストーリー</option>
 								<option value="/SonicChannel/special/sidestory/comic/" >ソニック コミック</option>
-							</select>
+            </select>
+            </div>
 				<h3>かべがみカバーストーリー</h3>
+            </div>
 			</nav>
 </div>
 <article  id="contents-page">
-		<img src="/SonicChannel/enjoy/image/coverstory_210520_01_eye.jpg" alt=""/>
-	<h1>ソニック & メタルソニック</h1>
-	<time datetime="2021-05-21T08:00:00+09:00">2021.05.21</time>
-	<ul id="page-sns1">
-		<li class="snsTwitter"><img src="/SonicChannel//common/image/icon_twitter.png" width="25" height="25" alt="Twitter"></li>
-		<li class="snsFacebook"><img src="/SonicChannel//common/image/icon_facebook.png" width="25" height="25" alt="facebook"></li>
-		<li class="snsLine"><img src="/SonicChannel//common/image/icon_line.png" width="25" height="25" alt="LINE"></li>
-	</ul>
-<div id="cotentes-substance">
-
-<p>誰もいないDr.エッグマンの秘密研究所......起動とともにデータベースに接続したそのロボットは、今の状況を把握してこう評価しました。</p>
+	<div class="contentsPageBg"></div>
+			<img class="contentPageTopImg" src="/SonicChannel/upload_images/coverstory_210520_01_eye.jpg" alt=""/>
+		<h1>ソニック & メタルソニック</h1>
+	<div id="cotentes-substance">
+			
+				<time datetime="2021-05-21T08:00:00+09:00">2021.05.21</time>
+				<ul id="page-sns1">
+					<li class="snsTwitter"><img src="/SonicChannel/assets/images/old/icon_twitter.png" width="25" height="25" alt="Twitter"></li>
+					<li class="snsFacebook"><img src="/SonicChannel/assets/images/old/icon_facebook.png" width="25" height="25" alt="facebook"></li>
+					<li class="snsLine"><img src="/SonicChannel/assets/images/old/icon_line.png" width="25" height="25" alt="LINE"></li>
+				</ul>		
+				<p>誰もいないDr.エッグマンの秘密研究所......起動とともにデータベースに接続したそのロボットは、今の状況を把握してこう評価しました。</p>
 <p>[[ この状況は　"好ましくない" ]]</p>
-<img src="/SonicChannel/special/image/coverstory_210521_02.jpg" alt="" class="floatRight" />	
+<img src="/sonic.sega.jp/SonicChannel/upload_images/coverstory_210521_02.jpg" alt="" class="floatRight" />	
 <p>そのロボットがメンテナンスで眠っている間に、Dr.エッグマンはソニックに倒されて敗走...... またしても "彼" は、主の危機に駆けつけられなかったのです。</p>
 <p>そしてそれと同じか......あるいはそれ以上の痛恨事がもう１つありました。 </p>
 <p>それは、ソニックを倒す機会をもまた、逸してしまったということです。 </p>
@@ -130,7 +160,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <p> </p>
 <p>その瞬間、２つの青い影が、夕闇の摩天楼のライトに照らされながら路上に躍り出ます。どちらの音速が上なのか、雌雄を決するレースが始まったのです。</p>
 <p style="text-align:center">☆ ★ ☆</p>
-<img src="/SonicChannel/special/image/coverstory_210521_01.jpg" alt="" class="floatLeft" />	
+<img src="/sonic.sega.jp/SonicChannel/upload_images/coverstory_210521_01.jpg" alt="" class="floatLeft" />	
 <p>ビルの谷間を縫う高架道路に、音速の風切り音が響き渡ります。</p>
 <p>360度ループから、ひねり落としての右カーブ、左カーブを抜け、ダウンからアップでらせんを描きうねり上がっていくコークスクリュー......</p>
 <p>爽快な難所の続くこのスピードハイウェイの路面を、軽やかにトレースして加速していくソニック。それを、ジェットエンジンを猛然とふかし、路面滑走するメタルソニックが追い上げます。</p>
@@ -148,7 +178,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <p>この現状をメタルソニックはいそぎ分析します......</p>
 <p>[[ この状況は、"好ましくない" ]]</p>
 <p style="text-align:center">☆ ★ ☆</p>
-<img src="/SonicChannel/special/image/coverstory_210521_09.jpg" alt="" class="floatLeft"  />
+<img src="/sonic.sega.jp/SonicChannel/upload_images/coverstory_210521_09.jpg" alt="" class="floatLeft"  />
 <p>追走しながら、分析を続けるメタルソニック。</p>
 <p>ソニックには、初戦からずっと勝てずにいます。最高の性能と、疲れを知らない鋼鉄の体。負けない要素はいくらでもあります。</p>
 <p>なのに、勝てないのです。</p>
@@ -215,20 +245,20 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <p>[[ この状況は、"悪くない" ]]</p>
 <p> </p>
 <h1>相似にして異質。「ライバル」ではくくり切れない「因縁」の関係</h1>
-<div class="floatLeft clearBoth"><img src="/SonicChannel/special/image/coverstory_210521_03.jpg" alt="" class="mb5" >
+<div class="floatLeft clearBoth"><img src="/sonic.sega.jp/SonicChannel/upload_images/coverstory_210521_03.jpg" alt="" class="mb5" >
 <p class="textSmall mb0">『ソニックヒーローズ』</p>
 </div>
 <p>ソニックを倒すことを目的に作られた、Dr.エッグマンの最高傑作ロボットの１つ「メタルソニック」。</p>
 <p>メタルソニックの特徴として「ソニックにそっくり」というのは、確かにあげられると思います。 </p>
 <p>ですが、ここまでシルエットと各部のパーツがソニックに似ているにもかかわらず、それでも似て非なるものという確かな異質感もあり......それもまた、メタルソニックの特徴と言えるかもしれません。</p>
 <p>人生を自由に、冒険とともに楽しむソニックと、一切の無駄をそぎ落とし、一つの目的に執着するメタルソニック。 同じ「音速のハリネズミ（+型ロボット）」でありながら、見ている世界は全く違うものなのです。</p>
-<div class="floatRight clearBoth"><img src="/SonicChannel/special/image/coverstory_210521_05.jpg" alt="" class="mb5" >
+<div class="floatRight clearBoth"><img src="/sonic.sega.jp/SonicChannel/upload_images/coverstory_210521_05.jpg" alt="" class="mb5" >
 <p class="textSmall mb0">『ソニックCD』</p>
 </div>
 <p>メタルソニックが初めてソニックと出会ったのは、ゲームタイトル「ソニックCD」です。</p>
 <p>ショッキングな登場演出に始まり、ステージ丸々を使った「レースでの死闘」をソニックと繰り広げました。</p>
 <p>この闘いは、ソニックの勝利で終わるわけですが、2人の関係......いや「因縁」は、ここから始まったのです。</p>
-<div class="floatRight clearBoth"><img src="/SonicChannel/special/image/coverstory_210521_06.jpg" alt="" class="mb5" >
+<div class="floatRight clearBoth"><img src="/sonic.sega.jp/SonicChannel/upload_images/coverstory_210521_06.jpg" alt="" class="mb5" >
 <p class="textSmall mb0">『ソニック・ザ・ヘッジホッグ4 エピソードII』</p>
 </div>
 <p>その後は『ソニック・ザ・ヘッジホッグ4 エピソードII』において、敗北したメタルソニックの復活の経緯がゲームで語られました。</p>
@@ -236,7 +266,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <p>毎回ソニックたちの大きな脅威となって立ちはだかり、敗れはするものの後に必ず立ち上がり、次にはさらなる脅威となってソニックを待ち受ける......</p>
 <p>打倒ソニックに燃える永遠にして最強の刺客、それがメタルソニックなのです。</p>
 <p style="text-align:center">☆ ★ ☆</p>
-<div class="floatLeft clearBoth"><img src="/SonicChannel/special/image/coverstory_210521_07.jpg" alt="" class="mb5" >
+<div class="floatLeft clearBoth"><img src="/sonic.sega.jp/SonicChannel/upload_images/coverstory_210521_07.jpg" alt="" class="mb5" >
 <p class="textSmall mb0">『ソニックジェネレーションズ 白の時空』</p>
 </div>
 <p>ソニックには、多くのライバルが存在しますが、メタルソニックは、ちょっと特殊な立ち位置になります。</p>
@@ -245,26 +275,26 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <p>一方ソニックは、メタルソニックのことを「メタル」と呼び、手ごわい相手ではあるものの、好敵手として勝負を楽しんでいる感があります。</p>
 <p>ここまでスピードに執着し、優越の決着をつけようと挑んでくるのはメタルソニックだけ。敵ながら、同じスピードマニアとして認めている部分は少なくないはずです。</p>
 <p>これからもメタルソニックは、幾度となくソニックの眼前に恐るべき敵として現れて勝負を挑んでくることでしょう。ソニックとメタルソニックの、クールで熱いバトルと因縁に、どうぞご期待ください！</p>
-<img src="/SonicChannel/special/image/coverstory_210521_10.png" alt="" class=""  />
+<img src="/sonic.sega.jp/SonicChannel/upload_images/coverstory_210521_10.png" alt="" class=""  />
 
 <h1>ダウンロード</h1>
 <div class="column3rd">
 
 <div>
-	<a class="imgLink" href="/SonicChannel/enjoy/image/calendar_2106_metal.pdf" target="_blank" onclick="ga('send','event','おたのしみ:カレンダー','click','2020年06月,/SonicChannel/enjoy/image/calendar_2106_metal.pdf');">
-		<img src="/SonicChannel/assets_c/2021/05/calendar_2106_metal_thm-thumb-220x220-4200.jpg" alt="2020年06月"/>
+	<a class="imgLink" href="/sonic.sega.jp/SonicChannel/upload_images/calendar_2106_metal.pdf" target="_blank" onclick="ga('send','event','おたのしみ:カレンダー','click','2020年06月,/sonic.sega.jp/SonicChannel/upload_images/calendar_2106_metal.pdf');">
+		<img src="/sonic.sega.jp/SonicChannel/upload_images/calendar_2106_metal_thm.jpg" alt="2020年06月"/>
 		<p class="enjoy calendar" style="width: 220px; height: 220px;">2021年06月</p>
 	</a>
 </div>
 <div>
-	<a class="imgLink" href="/SonicChannel/enjoy/image/wallpaper_199_metal_05_pc.png" target="_blank" onclick="ga('send','event','おたのしみ:かべがみ:pc','click','ソニック ＆ メタル 01,/SonicChannel/enjoy/image/wallpaper_199_metal_05_pc.png');">
-		<img src="/SonicChannel/assets_c/2021/05/wallpaper_199_metal_05_pc_thm-thumb-220x220-4199.jpg" alt="ソニック ＆ メタル 01"/>
+	<a class="imgLink" href="/sonic.sega.jp/SonicChannel/upload_images/wallpaper_199_metal_05_pc.png" target="_blank" onclick="ga('send','event','おたのしみ:かべがみ:pc','click','ソニック ＆ メタル 01,/sonic.sega.jp/SonicChannel/upload_images/wallpaper_199_metal_05_pc.png');">
+		<img src="/sonic.sega.jp/SonicChannel/upload_images/wallpaper_199_metal_05_pc_thm.jpg" alt="ソニック ＆ メタル 01"/>
 		<p class="enjoy wallpaper pc" style="width: 220px; height: 220px;">パソコン</p>
 	</a>
 </div>
 <div>
-	<a class="imgLink" href="/SonicChannel/enjoy/image/wallpaper_199_metal_05_sp.png" target="_blank" onclick="ga('send','event','おたのしみ:かべがみ:sp','click','ソニック ＆ メタル 01,/SonicChannel/enjoy/image/wallpaper_199_metal_05_sp.png');">
-		<img src="/SonicChannel/assets_c/2021/05/wallpaper_199_metal_05_sp_thm-thumb-220x220-4201.jpg" alt="ソニック ＆ メタル 01"/>
+	<a class="imgLink" href="/sonic.sega.jp/SonicChannel/upload_images/wallpaper_199_metal_05_sp.png" target="_blank" onclick="ga('send','event','おたのしみ:かべがみ:sp','click','ソニック ＆ メタル 01,/sonic.sega.jp/SonicChannel/upload_images/wallpaper_199_metal_05_sp.png');">
+		<img src="/sonic.sega.jp/SonicChannel/upload_images/wallpaper_199_metal_05_sp_thm.jpg" alt="ソニック ＆ メタル 01"/>
 		<p class="enjoy wallpaper sp" style="width: 220px; height: 220px;">スマートフォン</p>
 	</a>
 </div>
@@ -272,41 +302,57 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </div>
 
 <h1>キャラクター紹介</h1>
-<p><a href="/SonicChannel/character/sonic.html">→ソニック・ザ・ヘッジホッグ</a><br>
-	<a href="/SonicChannel/character/metal-sonic.html">→メタルソニック</a></p>
+<p><a href="/sonic.sega.jp/SonicChannel/character/sonic.html">→ソニック・ザ・ヘッジホッグ</a><br>
+	<a href="/sonic.sega.jp/SonicChannel/character/metal-sonic.html">→メタルソニック</a></p>
 
-
-
-<nav id="substance-navigation"><ul class="boxLink paginationNum">
-
-
-
-</ul></nav>
-</div>
-<ul id="page-sns2">
-	<li class="snsTwitter"><img src="/SonicChannel//common/image/icon_twitter.png" alt="Twitter"></li>
-	<li class="snsFacebook"><img src="/SonicChannel//common/image/icon_facebook.png" alt="facebook"></li>
-	<li class="snsLine"><img src="/SonicChannel//common/image/icon_line.png" alt="LINE"></li>
-</ul>
+				
+				
+				<nav id="substance-navigation"><ul class="boxLink paginationNum">
+			
+			
+			
+				</ul></nav>
+			<ul id="page-sns2">
+				<li class="snsTwitter"><img src="/SonicChannel/assets/images/old/icon_twitter.png" alt="Twitter"></li>
+				<li class="snsFacebook"><img src="/SonicChannel/assets/images/old/icon_facebook.png" alt="facebook"></li>
+				<li class="snsLine"><img src="/SonicChannel/assets/images/old/icon_line.png" alt="LINE"></li>
+			</ul>
+	</div>
 </article>
 </main>
-	<nav id="common-pagination">
-	<ul class="boxLink paginationArrow">
-	<li class="iconLeft"><a rel="prev" href="/SonicChannel/special/sidestory/coverstory/20210420_002544/" >ソニック ＆ クリーム</a></li>
-<li class="iconUp"><a href="/SonicChannel/special/sidestory/coverstory">戻る</a></li>
-	<li class="iconRight"><a rel="next" href="/SonicChannel/special/sidestory/coverstory/20210628_002603/" >ソニック &amp; シャドウ</a></li>
-	</ul>
-</nav>
-<footer>
+<footer role="contentinfo">
+	<div class="footerWrap">
+			<ul class="common-snsList-sp">
+				<li class="common-snsIcon is-x">
+					<a class="snsTwitter" href=""></a>
+				</li>
+				<li class="common-snsIcon is-line">
+					<a class="snsLine" href=""></a>
+				</li>
+				<li class="common-snsIcon is-facebook">
+					<a class="snsFacebook" href=""></a>
+				</li>
+			</ul><!-- .common-snsList-pc -->
+    <div class="footerContent">
+				<div class="footerLogoBox">
+						<div class="footerSonicChannelLogo"><a href="https://sonic.sega.jp/SonicChannel/" target="_blank"><img src="/SonicChannel/assets/images/common/logo_sonicchannel.png" alt="SONIC CHANNEL" /></a></div>
+						<div class="footerSonicTeamLogo"><a href="http://www.sonicteam.com/" target="_blank"><img src="/SonicChannel/assets/images/common/logo_sonicteam.png" alt="SONIC TEAM" /></a></div>
+					</div><!-- .footerLogoBox -->
+    <ul class="footerLinkList">
+    	<li>【<a href="/SonicChannel/about/#translation-function" target="_blank">翻訳機能について</a>】 </li>
+    	<li>【<a href="/SonicChannel/about/#download-policy" target="_blank">ダウンロードについて</a>】</li>
+     	<li>【<a href="http://sega.jp/contact/soft/" target="_blank">お問い合わせ</a>】</li>
+    	<li>【<a href="https://www.sega.co.jp/privacypolicy/" target="_blank">プライバシーポリシー</a>】</li>
+    	<li>【<a href="https://www.sega.co.jp/web-accessibility/index.html" target="_blank">ウェブアクセシビリティ方針</a>】</li>
+    </ul>
+	<p class="footerCopy">&copy;SEGA</p>
+    </div>
 	<div id="footer-search" class="googleSearch">
 		<div class="gcse-search"></div>
 	</div>
-	<p><a href="http://www.sonicteam.com/"><img src="/SonicChannel/common/image/SonicTeamLogo.png" width="105" height="27" alt="SONIC TEAM"/></a></p>
-	<p>【<a href="/SonicChannel/about/#translation-function">翻訳機能について</a>】 【<a href="/SonicChannel/about/#download-policy">ダウンロードについて</a>】</p>
-	<p>【<a href="http://sega.jp/contact/soft/" target="_blank">お問い合わせ</a>】【<a href="https://www.sega.co.jp/privacypolicy/" target="_blank">プライバシーポリシー</a>】</p>
-	<p>&copy;SEGA</p>
+</div>
 </footer>
-<div id='background-logo'></div>
-<div id='common-bg'><div id='bg-substance'></div></div>
+</div>
 </body>
 </html>
+

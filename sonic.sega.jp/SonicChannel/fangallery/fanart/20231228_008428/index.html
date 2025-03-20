@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# : http://ogp.me/ns/#" lang="ja">
-<meta name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0,user-scalable=yes" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta name="keyword" content="SONIC CHANNEL,ソニックチャンネル,SEGA,セガ,SONICTEAM,ソニックチーム,SONIC,ソニック" />
@@ -19,16 +19,27 @@
 <meta property="og:title" content="2024年1月「Happy New Year！」" />
 <meta property="og:url" content="https://sonic.sega.jp/SonicChannel/fangallery/fanart/20231228_008428/" />
 <meta property="og:description" content="今月もファンアートのコーナーにたくさんの作品をご応募頂き、ありがとうございます！ 皆さんから頂いた作品を、スタッフからのコメントと合わせてご紹介いたします。 	※現在ノベルティの配布は不定期での送付となります。 	 	 餅田みんなで餅つき！..." />
-<meta property="og:image" content="https://sonic.sega.jp/SonicChannel/fangallery/image/fanart_2401_eye.jpg">
+<meta property="og:image" content="https://sonic.sega.jp/SonicChannel/upload_images/fanart_2401_eye.jpg">
 <meta property="og:type" content="article">
 <title>SEGA | ソニックチャンネル | ファンギャラリー | 2024年1月「Happy New Year！」</title>
 <link rel="start" href="/SonicChannel/">
-<link rel="alternate" type="application/atom+xml" title="Recent Entries" href="/SonicChannel/atom.xml" />
-<link rel="stylesheet" href="/SonicChannel/common/css/import.css">
-<script src="/SonicChannel/common/js/import.js" language="javascript" type="text/javascript"></script>
+<link rel="alternate" type="application/atom+xml" title="Recent Entries" href="http://admin-mt-sonic.sega.jp/sonic.sega.jp/SonicChannel/production/atom.xml" />
+<link rel="stylesheet" href="https://use.typekit.net/sha2lhi.css">
+<link rel="stylesheet" href="/SonicChannel/assets/css/oldStyle.min.css">
+<link rel="stylesheet" href="/SonicChannel/assets/css/common.min.css">
+<script src="/SonicChannel/assets/js/libs/jquery-3.7.1.min.js"></script>
+		<script src="/SonicChannel/assets/js/libs/jquery.inview.min.js"></script>
+<script src="/SonicChannel/assets/js/libs/swiper-bundle.min.js"></script>
+<script src="/SonicChannel/assets/js/libs/jquery.swipebox.min.js"></script>
+<script src="/SonicChannel/assets/js/old/modernizr.js"></script>
+<script src="/SonicChannel/assets/js/old/swiper.min.js"></script>
+<script src="/SonicChannel/assets/js/old/jquery.tubular.1.0.js"></script>
+<script src="/SonicChannel/assets/js/old/velocity.min.js"></script>
+<script src="/SonicChannel/assets/js/old/snsClick.js"></script>
+<script src="/SonicChannel/assets/js/old/init.js"></script>
+<script src="/SonicChannel/assets/js/common.js"></script>
 <script async src="https://cse.google.com/cse.js?cx=b9e22222528a0e6ff"></script>
-<link rel="stylesheet" href="/SonicChannel/fangallery/common/css/import.css">
-<script src="/SonicChannel/fangallery/common/js/import.js" language="javascript" type="text/javascript"></script>
+<!--link rel="stylesheet" href="/SonicChannel/fangallery/common/css/import.css">
 <!--[if lte IE 8]>
 <script src="/SonicChannel/common/js/html5shiv.js"></script>
 <![endif]-->
@@ -39,72 +50,91 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','GTM-MF59Q7B');</script>
 </head>	
 <body class="entry individual fangallery">
-<header>
-	<a href="http://sega.jp/"><img src="/SonicChannel/common/image/header_sega.png" alt="SEGA" width="75" height="25" /></a>
-	<div>
-        <div>
+<div class="wrapper">
+<div class="wrapperBg"></div>
+<header role="banner">
+	<a href="http://sega.jp/" class="headerSEGALogo"><img src="/SonicChannel/assets/images/common/sega_logo_s_b.svg" alt="SEGA" width="75" height="25" /></a>
+			<ul class="common-snsList-pc">
+				<li class="common-snsIcon is-x">
+					<a class="snsTwitter" href=""></a>
+				</li>
+				<li class="common-snsIcon is-line">
+					<a class="snsLine" href=""></a>
+				</li>
+				<li class="common-snsIcon is-facebook">
+					<a class="snsFacebook" href=""></a>
+				</li>
+			</ul><!-- .common-snsList-pc -->
+	<div class="gTranslateBox">
+        <div class="gTranslateIcon">
            <a href="/SonicChannel/about/#translation-function">
               <svg>
-      			  <use xlink:href="/SonicChannel/common/image/header_caution.svg#caution"></use>
+      			  <use xlink:href="/SonicChannel/assets/images/old/header_caution.svg#caution"></use>
     		  </svg>
-        </a>
+        	</a>
         </div>
 		<div class="gtranslate_wrapper"></div>
 		<script>window.gtranslateSettings = {"default_language":"ja","wrapper_selector":".gtranslate_wrapper"}</script>
 		<script src="https://cdn.gtranslate.net/widgets/latest/dropdown.js" defer></script>
 	</div>
-	<h1><a href="/SonicChannel/"><img src="/SonicChannel/common/image/header_sonicchannel.png" alt="ソニックチャンネル" width="191" height="47" /></a></h1>
 </header>
-<nav id="common-navigation">
-	<a href="#" id="nav-trigger"><span id="trigger-icon"></span></a>
+<div id="nav-trigger"><span id="trigger-icon"></span></div>
+<nav id="common-navigation" role="navigation">
 	<div id="overlay-nav"><span></span></div><!-- cd-overlay-nav -->
 	<div id="overlay-content"><span></span></div> <!-- cd-overlay-content -->
-	<ul id="nav-list">
-		<li><a href="/SonicChannel/"><img src="/SonicChannel/common/image/nav_sonicchannel.png" alt="SONIC CHANNEL" /></a></li>
-		<li><a href="/SonicChannel/topics/information/">トピックス</a></li>
-		<li><a href="/SonicChannel/gametitle/nintendo-switch.html">ゲームタイトル</a></li>
-		<li><a href="/SonicChannel/character/">キャラクター</a></li>
-		<li><a href="/SonicChannel/special/">スペシャル</a></li>
-		<li><a href="/SonicChannel/fangallery/" class="activeAnchor">ファンギャラリー</a></li>
-		<li><a href="/SonicChannel/enjoy/wallpaper/">おたのしみ</a></li>
-	</ul>
-	<div class="googleSearch" id="nav-search">
-		<div class="gcse-search"></div>
+	<div class="navWrapper"> 
+		<div class="navLogoItem">
+       	 <h1 class="soinicChannelLogo"><a href="/SonicChannel/"><img src="/SonicChannel/assets/images/common/logo_sonicchannel.png" alt="ソニックチャンネル" width="191" height="47" /></a></h1>
+	</div>
+		<ul id="nav-list">
+        <li class="navItem is-top"><a href="/SonicChannel/">トップ</a></li>
+			<li class="navItem is-topics"><a href="/SonicChannel/topics/">トピックス</a></li>
+			<li class="navItem is-character"><a href="/SonicChannel/character/">キャラクター</a></li>
+    		<li class="navItem is-history"><a href="/SonicChannel/history/">ヒストリー</a></li>
+    		<li class="navItem is-special"><a href="/SonicChannel/special/top.html">スペシャル</a></li>
+			<li class="navItem is-fangallery"><a href="/SonicChannel/fangallery/top.html" class="activeAnchor">ファンギャラリー</a></li>
+		</ul>
+    	<div class="navWhatSonicItem">
+        <a href="/SonicChannel/character/" ><div class="navWhatSonicText">ソニックとは</div><div class="whatSonicArrow"></div></a>
+   		</div>
 	</div>
 </nav>
-<main id="common-contents">
+<main id="common-contents" role="main">
+<div class="headlineCommon"></div>
 <div id="contents-header">
-		<h2 class="headlineCommon">ファンギャラリー</h2>
 			<nav class="contentsNavigation">
-				<ul>
-						<li><a href="/SonicChannel/fangallery/" >すべて</a></li>
-								<li><a href="/SonicChannel/fangallery/fanart/" class="activeAnchor">ファンアート</a></li>
-								<li><a href="/SonicChannel/fangallery/screenshot/">スクリーンショット</a></li>
-								<li><a href="/SonicChannel/fangallery/oshiete/">おしえて!クリエイターズ</a></li>
-								<li><a href="/SonicChannel/fangallery/apply/">投稿</a></li>
-							</ul>
-				<select>
-						<option value="/SonicChannel/fangallery/" >すべて</option>
+            <div class="contentsNavigationInner">
+				<ul class="cateArctestUL">
+								<li class="cateArctestLi"><a href="/SonicChannel/fangallery/fanart/" class="activeAnchor">ファンアート</a></li>
+								<li class="cateArctestLi"><a href="/SonicChannel/fangallery/screenshot/">スクリーンショット</a></li>
+								<li class="cateArctestLi"><a href="/SonicChannel/fangallery/oshiete/">おしえて!クリエイターズ</a></li>
+								<li class="cateArctestLi"><a href="/SonicChannel/fangallery/apply/">投稿</a></li>
+            </ul>
+            <div class="navSelectBox">
+				<select aria-label="選択してください">
 								<option value="/SonicChannel/fangallery/fanart/"  selected>ファンアート</option>
 								<option value="/SonicChannel/fangallery/screenshot/" >スクリーンショット</option>
 								<option value="/SonicChannel/fangallery/oshiete/" >おしえて!クリエイターズ</option>
 								<option value="/SonicChannel/fangallery/apply/" >投稿</option>
-							</select>
+            </select>
+            </div>
 				<h3>ファンアート</h3>
+            </div>
 			</nav>
 </div>
 <article  id="contents-page">
-		<img src="/SonicChannel/fangallery/image/fanart_2401_eye.jpg" alt=""/>
-	<h1>2024年1月「Happy New Year！」</h1>
-	<time datetime="2023-12-28T10:11:56+09:00">2023.12.28</time>
-	<ul id="page-sns1">
-		<li class="snsTwitter"><img src="/SonicChannel//common/image/icon_twitter.png" width="25" height="25" alt="Twitter"></li>
-		<li class="snsFacebook"><img src="/SonicChannel//common/image/icon_facebook.png" width="25" height="25" alt="facebook"></li>
-		<li class="snsLine"><img src="/SonicChannel//common/image/icon_line.png" width="25" height="25" alt="LINE"></li>
-	</ul>
-<div id="cotentes-substance">
-
-<p>今月もファンアートのコーナーにたくさんの作品をご応募頂き、ありがとうございます！</p>
+	<div class="contentsPageBg"></div>
+			<img class="contentPageTopImg" src="/SonicChannel/upload_images/fanart_2401_eye.jpg" alt=""/>
+		<h1>2024年1月「Happy New Year！」</h1>
+	<div id="cotentes-substance">
+			
+				<time datetime="2023-12-28T10:11:56+09:00">2023.12.28</time>
+				<ul id="page-sns1">
+					<li class="snsTwitter"><img src="/SonicChannel/assets/images/old/icon_twitter.png" width="25" height="25" alt="Twitter"></li>
+					<li class="snsFacebook"><img src="/SonicChannel/assets/images/old/icon_facebook.png" width="25" height="25" alt="facebook"></li>
+					<li class="snsLine"><img src="/SonicChannel/assets/images/old/icon_line.png" width="25" height="25" alt="LINE"></li>
+				</ul>		
+				<p>今月もファンアートのコーナーにたくさんの作品をご応募頂き、ありがとうございます！</p>
 <p>皆さんから頂いた作品を、スタッフからのコメントと合わせてご紹介いたします。</p>
 
 	<p class="textSmall">※現在ノベルティの配布は不定期での送付となります。</p>
@@ -112,72 +142,88 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	<div class="column3rd columnFanart">
 
 
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2401_0009.jpg" title="餅田"><img src="/SonicChannel/fangallery/fanart/image/s2401_0009.jpg" alt="" /></a><h2>餅田</h2><h3>みんなで餅つき！</h3><p>お正月といえば餅つきと思ったので、スーパースターズの主人公たち4人とみんなとお友達になったトリップちゃんが餅つきをする絵を描きました。</p><h3>スタッフコメント</h3><p>躍動感あるダイナミックな見上げ構図で、この場の迫力がとてもよく伝わってきます。エミーの餅つきというアイデアもナイス！</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2401_0001.jpg" title="アヤアヤ"><img src="/SonicChannel/fangallery/fanart/image/s2401_0001.jpg" alt="" /></a><h2>アヤアヤ</h2><h3>HappyNewYear</h3><p>みんなで賑やかな年にしよう！</p><h3>スタッフコメント</h3><p>超ド派手な二人の傾奇者たちから、にぎやかな新年のご挨拶！今年も大活躍してくれそうですね！</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2401_0002.jpg" title="亞莉亜(アリア)"><img src="/SonicChannel/fangallery/fanart/image/s2401_0002.jpg" alt="" /></a><h2>亞莉亜(アリア)</h2><h3>新年早々の勝負</h3><p>新年を迎えた、ソニック達。ナックルズとソニックが新年早々に羽根つきで勝負。エミーちゃんは新年早々何してるのと呆れてます。エミーちゃん達が食べてるのは焼き餅です。</p><h3>スタッフコメント</h3><p>ナックルズ渾身のスマッシュ！最速で着弾点に向かい、レシーブの態勢に入るソニック！真剣勝負は、時と場所を選ばず始まりますね。</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2401_0003.jpg" title="樹"><img src="/SonicChannel/fangallery/fanart/image/s2401_0003.jpg" alt="" /></a><h2>樹</h2><h3>正月のご馳走といえば</h3><p>おせちを準備するソニックたちです。青いかまぼこやリング等で彩り豊かな感じにしてみました！用意したおせちはこれから皆で仲良く食べていきます。</p><h3>スタッフコメント</h3><p>なかなかアイディアの詰まったおせちですね。グリーンヒルの伊達巻にバネのしいたけ。冒険を振り返りながら皆で食べたいです。</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2401_0004.jpg" title="ヘルメット大佐"><img src="/SonicChannel/fangallery/fanart/image/s2401_0004.jpg" alt="" /></a><h2>ヘルメット大佐</h2><h3>新年最初にやることは...</h3><p>自分はカレンダーをめくって寝るのでその様子をペーパーアートのテイルスで作ってみました。</p><h3>スタッフコメント</h3><p>除夜の鐘が終わったところでしょうか？温かい布団でおやすみなさい。起きたら皆で新年のご挨拶！</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2401_0005.jpg" title="十綺"><img src="/SonicChannel/fangallery/fanart/image/s2401_0005.jpg" alt="" /></a><h2>十綺</h2><h3>2024</h3><p>あけましておめでとうございます！スーパースターズで楽しくて思い出に残ったステージで2024を型どってみました！今年もたくさんソニックで遊びたいと思います(*^^*)</p><h3>スタッフコメント</h3><p>遊んでいただき、ありがとうございます！どれも特徴的なステージでしたね。冬休みもスーパースターズ三昧！？</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2401_0006.jpg" title="吉田礼（小学校３年生）"><img src="/SonicChannel/fangallery/fanart/image/s2401_0006.jpg" alt="" /></a><h2>吉田礼（小学校３年生）</h2><h3>ソニック同士のお年玉</h3><p>はじめて液晶タブレットで描いてみました。はじめてだったけど、結構上手に描けました。ソニックがクラシックソニックにお年玉を渡しているところです。</p><h3>スタッフコメント</h3><p>モダンとクラシックの特徴をしっかり捉えて、上手に描けていますね！「お兄さん」からのお年玉は、どれくらい入っているのでしょうか？</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2401_0007.jpg" title="みみみ"><img src="/SonicChannel/fangallery/fanart/image/s2401_0007.jpg" alt="" /></a><h2>みみみ</h2><h3>新年羽根つき無双ソニック</h3><p>あけましておめでとうございます！今回初めて応募しました。正月ということで、羽根つきをするソニックとテイルスです。といってもソニックはあの速さなので、テイルスの顔がどんどん黒くなっていきそうだな...と思いながら描きました。</p><h3>スタッフコメント</h3><p>初投稿ありがとうございます！負け越すテイルスのやるせない表情がいいですねw。美しい色彩で描かれた袴姿も素敵な作品です。</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2401_0008.jpg" title="楠チェリー"><img src="/SonicChannel/fangallery/fanart/image/s2401_0008.jpg" alt="" /></a><h2>楠チェリー</h2><h3>龍に乗って高みへ！</h3><p>あけましておめでとうございます！2024年もモタモタせず、ソニックを追いかけていきたいですし、ファンアートも楽しく描いていきたいのでどうぞよろしくお願いします！</p><h3>スタッフコメント</h3><p>今年の干支に絡めた素敵なイラストを頂きました。それぞれのお正月を過ごす様子が楽しく描かれています。右下のチャオも可愛いですね！</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2401_0010.jpg" title="あのあの"><img src="/SonicChannel/fangallery/fanart/image/s2401_0010.jpg" alt="" /></a><h2>あのあの</h2><h3>今年もたくさん走るぜ！</h3><p>あけましておめでとうございます。龍に乗ってソニックが登場！きっと今年も大活躍する事でしょう。自分もソニックファンとしてい続けます！</p><h3>スタッフコメント</h3><p>龍に乗りポーズを決めたソニックの表情が勇ましくカッコイイですね！お正月らしい装飾も新鮮でみんなよく似合っています。</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2401_0011.jpg" title="山田の大蛇"><img src="/SonicChannel/fangallery/fanart/image/s2401_0011.jpg" alt="" /></a><h2>山田の大蛇</h2><h3>あけましてスーパースターズ！</h3><p>２０２４年は辰年！という事でドラゴンのトリップちゃんが居るスーパースターズの面々で新年のお祝いです！今年もソニック達の活躍を楽しみにしています！</p><h3>スタッフコメント</h3><p>とても色彩の美しい作品を頂きました！密度あるたくさんの要素が丁寧に描き込まれており、じっくり鑑賞する価値ある仕上がりです。</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2401_0012.jpg" title="アクア"><img src="/SonicChannel/fangallery/fanart/image/s2401_0012.jpg" alt="" /></a><h2>アクア</h2><h3>初日の出</h3><p>あけましておめでとうございます！2024年はどのような景色の中で走るのでしょうか？リングも忘れずに！</p><h3>スタッフコメント</h3><p>年号とリングと初日の出を絡めたアイデアが秀逸ですね！早朝の空気感をうまく表した色使いと、ポップなタッチも魅力のイラストです。</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2401_0013.jpg" title="N"><img src="/SonicChannel/fangallery/fanart/image/s2401_0013.jpg" alt="" /></a><h2>N</h2><h3>新年</h3><p>過去作をちょっといじりました。受験終わったら絶対帰ってくるからねソニック！</p><h3>スタッフコメント</h3><p>光と影のコントラストがとても印象的な作品です。新年に向かう勢いを感じますしソニックの表情もかっこいいですね！受験、がんばってください！</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2401_0014.jpg" title="RUKA"><img src="/SonicChannel/fangallery/fanart/image/s2401_0014.jpg" alt="" /></a><h2>RUKA</h2><h3>2人のソニックのお正月</h3><p>お正月をテーマにして描こうと考えた時、1番最初に思いついたのがこの2人でした。テイルス、ナックルズ、エミー、シャドウ、エッグマンのだるまも描いてみました。少し分かりづらいかもですが。また2人が揃う姿が見たいです！</p><h3>スタッフコメント</h3><p>お雑煮を楽しむクラシックソニックがとてもかわいらしいです。グリーンヒル風の袴も良いですね！見守るソニックやだるまのみんなもかわいいです。</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2401_0015.jpg" title="alisa006"><img src="/SonicChannel/fangallery/fanart/image/s2401_0015.jpg" alt="" /></a><h2>alisa006</h2><h3>2024 Happy New Year!</h3><p>ソニックチームの皆様へ、新年あけましておめでとうございます！2024年がソニックと一緒に楽しいイベントや新しいゲームがたくさんある年となることを期待しています。</p><h3>スタッフコメント</h3><p>ポーズも表情も決まってますね！特に瞳の描きこみが綺麗で生き生きして見えます。さりげなく手で2024を表現しているのも年賀状らしくて素敵です。</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2401_0016.jpg" title="米酒"><img src="/SonicChannel/fangallery/fanart/image/s2401_0016.jpg" alt="" /></a><h2>米酒</h2><h3>新年龍舞</h3><p>辰年だ！ ドラゴンダンスをやろう！中国風の服装でシルバーとブレイズを描いてみた（スピードバトルの限定衣装だ）。2人のコンビは最高～</p><h3>スタッフコメント</h3><p>とてもかっこいい二人です！炎とサイコキネシスの競演、ドラゴンの色彩が華やかですね！これだけの要素を綺麗にまとめられているのがすごいです。線の強弱が気持ちよく、見ごたえのある作品です。</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2401_0017.jpg" title="たい"><img src="/SonicChannel/fangallery/fanart/image/s2401_0017.jpg" alt="" /></a><h2>たい</h2><h3>私の勝ちよ！ナックルズ</h3><p>エミーとナックルズは羽子板で勝負をしています！エミーのスマッシュにはソニックとテイルスも驚きを隠せないようです</p><h3>スタッフコメント</h3><p>エミーのスマッシュがナックルズに直撃...！？ハンマーのような威力がありそうです...。見ていて楽しい構図と、柔らかい雰囲気のギャップが面白いです。</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2401_0018.jpg" title="グローゼ"><img src="/SonicChannel/fangallery/fanart/image/s2401_0018.jpg" alt="" /></a><h2>グローゼ</h2><h3>オモイデノゲラノ「アケオメ」</h3><p>ソニックとエミー、エメルの鮮やかなひととき。 新年を祝う花火を見に行った3人は記念写真をを撮って、それぞれのお祝いの言葉を書きました。 平面に残った思い出はめいめいの胸の中でずっと一緒でしょうね。 「ソニックもママも、アケオメ！コトヨロ！」</p><h3>スタッフコメント</h3><p>新年らしい、まるで夢の中のような幻想的な雰囲気が良いですね。3人のメッセージにも和みました。エメルが二人に抱きついているのがかわいいです。</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2401_0019.jpg" title="鷹梅白"><img src="/SonicChannel/fangallery/fanart/image/s2401_0019.jpg" alt="" /></a><h2>鷹梅白</h2><h3>ドロドロドロ...ザシュッ！</h3><p>青目のスパソニ...辰年だから飛竜...パリィ難しい...ソニックにコールしたい...と2023年末の気持ちを全乗せしてお正月絵に。そういえば教官王の試練エンジョイでも最初は無理！と思ったワイバーンが、スリルで尻尾もレーザーもパリィできるようになりました。ソニックだぁ...としみじみしました。今年も宜しくお願い致します</p><h3>スタッフコメント</h3><p>画面いっぱいに勢いのあるタッチで描かれたオーラが迫力ありますね！攻撃を察知して迎え撃つ、真剣なソニックの表情と緊張感あるポーズがカッコいいです。</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2401_0020.jpg" title="spotty"><img src="/SonicChannel/fangallery/fanart/image/s2401_0020.jpg" alt="" /></a><h2>spotty</h2><h3>チームジャックルの忘年会</h3><p>今年も無事に過ごしました。新しい仕事が始まる前に、仲間と忘年会を開いているインフィニット。一緒によい未来を迎えられますように</p><h3>スタッフコメント</h3><p>少し離れた場所から見守るインフィニットは、仲間と過ごす未来を考えているのでしょうか。陽気な雰囲気の中に、少し哀愁も感じられる深みがあるイラストです。</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2401_0021.jpg" title="ななハリ"><img src="/SonicChannel/fangallery/fanart/image/s2401_0021.jpg" alt="" /></a><h2>ななハリ</h2><h3>スーパーハッピーニューイヤー！！</h3><p>今年は辰年！ということで「スーパー」なドラゴンになったトリップちゃんと「スーパー」なソニック、そして「スーパー」な仲間たちで三年をゴージャスに彩ってくれました!まさに「スーパー」尽くしのお祝いですが...なにやら怪しい影が...？</p><h3>スタッフコメント</h3><p>金色で上手くまとめられた色使いとキラキラのエフェクト、勢いある構図が新年のお祝いにピッタリですね！「辰」の字にファングが乗っている遊び心が楽しいです。</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2401_0022.jpg" title="Lima"><img src="/SonicChannel/fangallery/fanart/image/s2401_0022.jpg" alt="" /></a><h2>Lima</h2><h3>今年も仲良くしようね</h3><p>凧揚げをしているビッグと凧を見て楽しむカエルくん。カエルくんも凧で遊びたがっている。ビッグ「カエルくん、本当に君が空を飛んでいるみたいだね」カエルくん「ケロケロ(貸してくれ～)」今年も相変わらず仲良しな２人</p><h3>スタッフコメント</h3><p>嬉しそうなビッグと両手を伸ばすカエルくんが可愛く、癒されます！前と後ろからの視点で描くことで、2人の表情と状況の両方が伝わる工夫も良いと思います。</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2401_0023.jpg" title="ケレン"><img src="/SonicChannel/fangallery/fanart/image/s2401_0023.jpg" alt="" /></a><h2>ケレン</h2><h3>セージと謎の封筒</h3><p>新年を迎えた日、突然謎の封筒が届いた。そこには"Happy New Year"の文字とDr.エッグマンのロゴが書かれていた。中身はどうなっているのか？</p><h3>スタッフコメント</h3><p>真っすぐ見つめる目と謎の封筒が、可愛くもミステリアスな作品です。丁寧に描かれたサイバー表現の光が美しく、暖かそうな赤いマフラーもよく似合っていると思います！</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2401_0024.jpg" title="too easy"><img src="/SonicChannel/fangallery/fanart/image/s2401_0024.jpg" alt="" /></a><h2>too easy</h2><h3>ブレイクスルーthe year!</h3><p>今年は辰年ということでワイバーンとスーパーソニックを書きました。熱き戦いと年を乗り越えます！Happy new year!</p><h3>スタッフコメント</h3><p>逆光で描かれたワイバーンの不気味な黒いシルエットと、光輝くソニックの対比が魅力的です。上空での二人の熱い戦いが上手く表現されていると思います！</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2401_0025.jpg" title="tenteko"><img src="/SonicChannel/fangallery/fanart/image/s2401_0025.jpg" alt="" /></a><h2>tenteko</h2><h3>新たな冒険の始まり</h3><p>なんだか不思議な柄のシャトルループだなと思ったら...。新年早々危険な冒険の始まりです！今年もソニかつ楽しんでいきたいと思います！</p><h3>スタッフコメント</h3><p>おしゃれにまとまったデザインの中に、面白そうなストーリーも感じられる素敵な作品を頂きました！ソニックの走るループの先には一体何が...！？テイルスの表情を見れば分かってしまいますね。</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2401_0026.jpg" title="ももうさぎ"><img src="/SonicChannel/fangallery/fanart/image/s2401_0026.jpg" alt="" /></a><h2>ももうさぎ</h2><h3>あけおめ2024！</h3><p>今回は年賀状にみんなをキュっとつめる感じで描きました！家中の折り紙、包装紙などを使って背景やソニックたちの羽織袴やエミーの着物を作りました。SEGAさん今年もよろしくおねがいします(ソニックシンフォニー楽しみです)！</p><h3>スタッフコメント</h3><p>煌びやかで見ているだけで楽しい気分になる素敵な一枚！折り紙や包装紙のアイデアが面白く、それぞれの衣装もピッタリですね。さりげなく描かれた「すけっちほっぐ」が好きです。</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2401_0027.jpg" title="星音"><img src="/SonicChannel/fangallery/fanart/image/s2401_0027.jpg" alt="" /></a><h2>星音</h2><h3>新年だってじっとなんかしてらんないっ！</h3><p>お正月といえば厳かでしみじみとしていて......というイメージがありがちですが、この4人にはそんな型を破って冒険にドキドキにワクワクに満ちた賑やかなお正月を過ごしていてほしいなと思いながら描きました。皆さんの今年のお正月もそんな楽しいものになったらいいなぁ。</p><h3>スタッフコメント</h3><p>お正月らしく、着物を着こなしつつも元気いっぱいのみんなで心がほっこりしました。今年もいい年になりそうな予感。キラキラに描きこまれた瞳が特にいいですね！</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2401_0028.jpg" title="トム"><img src="/SonicChannel/fangallery/fanart/image/s2401_0028.jpg" alt="" /></a><h2>トム</h2><h3>Happy new year!</h3><p>新しい年もたくさんソニックを推していこうと思います...！！初代あたりのタイトル画面をイメージして描いてみました！！</p><h3>スタッフコメント</h3><p>日の出に照らされたソニックがとってもかっこいい！お正月らしい配色を上手く使い、タイトルのエンブレムがゴージャスなしめ縄飾りになりましたね。とても縁起が良さそうで、お正月中玄関に飾りたい作品です。</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2401_0029.jpg" title="plus2SF"><img src="/SonicChannel/fangallery/fanart/image/s2401_0029.jpg" alt="" /></a><h2>plus2SF</h2><h3>2024年は子年......じゃない！</h3><p>2024年は奇しくも辰年！ということで、お正月早々なにか良からぬことを企んでいそうなファングを捕まえるドラゴントリップちゃんです！</p><h3>スタッフコメント</h3><p>彼女ほど辰年にピッタリな子はいないでしょう！なんだか不服そうなファングの表情がとても良いですね。お正月アイテムでファングのロボットも不思議と可愛く感じられます。</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2401_0030.jpg" title="Otomo_Otomo3"><img src="/SonicChannel/fangallery/fanart/image/s2401_0030.jpg" alt="" /></a><h2>Otomo_Otomo3</h2><h3>猛り狂え！龍の舞！</h3><p>音速の速さで陸海空のステージ、メカメカしい工場の中などの世界を勇壮と走り抜く様はまるで龍の如し。来年が辰年の事も踏まえて龍の姿を模した衣装をソニックに着てもらいました！</p><h3>スタッフコメント</h3><p>筆ならではのかすれた線が、ソニックのかっこよさを上手く惹き立てています。特に羽のついた腰飾りが良い！ベタ塗りと白抜きのバランスが絶妙で拘りの感じる素敵な作品を頂きました。</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2401_0009.jpg" title="餅田"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2401_0009.jpg" alt="" /></a><h2>餅田</h2><h3>みんなで餅つき！</h3><p>お正月といえば餅つきと思ったので、スーパースターズの主人公たち4人とみんなとお友達になったトリップちゃんが餅つきをする絵を描きました。</p><h3>スタッフコメント</h3><p>躍動感あるダイナミックな見上げ構図で、この場の迫力がとてもよく伝わってきます。エミーの餅つきというアイデアもナイス！</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2401_0001.jpg" title="アヤアヤ"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2401_0001.jpg" alt="" /></a><h2>アヤアヤ</h2><h3>HappyNewYear</h3><p>みんなで賑やかな年にしよう！</p><h3>スタッフコメント</h3><p>超ド派手な二人の傾奇者たちから、にぎやかな新年のご挨拶！今年も大活躍してくれそうですね！</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2401_0002.jpg" title="亞莉亜(アリア)"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2401_0002.jpg" alt="" /></a><h2>亞莉亜(アリア)</h2><h3>新年早々の勝負</h3><p>新年を迎えた、ソニック達。ナックルズとソニックが新年早々に羽根つきで勝負。エミーちゃんは新年早々何してるのと呆れてます。エミーちゃん達が食べてるのは焼き餅です。</p><h3>スタッフコメント</h3><p>ナックルズ渾身のスマッシュ！最速で着弾点に向かい、レシーブの態勢に入るソニック！真剣勝負は、時と場所を選ばず始まりますね。</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2401_0003.jpg" title="樹"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2401_0003.jpg" alt="" /></a><h2>樹</h2><h3>正月のご馳走といえば</h3><p>おせちを準備するソニックたちです。青いかまぼこやリング等で彩り豊かな感じにしてみました！用意したおせちはこれから皆で仲良く食べていきます。</p><h3>スタッフコメント</h3><p>なかなかアイディアの詰まったおせちですね。グリーンヒルの伊達巻にバネのしいたけ。冒険を振り返りながら皆で食べたいです。</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2401_0004.jpg" title="ヘルメット大佐"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2401_0004.jpg" alt="" /></a><h2>ヘルメット大佐</h2><h3>新年最初にやることは...</h3><p>自分はカレンダーをめくって寝るのでその様子をペーパーアートのテイルスで作ってみました。</p><h3>スタッフコメント</h3><p>除夜の鐘が終わったところでしょうか？温かい布団でおやすみなさい。起きたら皆で新年のご挨拶！</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2401_0005.jpg" title="十綺"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2401_0005.jpg" alt="" /></a><h2>十綺</h2><h3>2024</h3><p>あけましておめでとうございます！スーパースターズで楽しくて思い出に残ったステージで2024を型どってみました！今年もたくさんソニックで遊びたいと思います(*^^*)</p><h3>スタッフコメント</h3><p>遊んでいただき、ありがとうございます！どれも特徴的なステージでしたね。冬休みもスーパースターズ三昧！？</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2401_0006.jpg" title="吉田礼（小学校３年生）"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2401_0006.jpg" alt="" /></a><h2>吉田礼（小学校３年生）</h2><h3>ソニック同士のお年玉</h3><p>はじめて液晶タブレットで描いてみました。はじめてだったけど、結構上手に描けました。ソニックがクラシックソニックにお年玉を渡しているところです。</p><h3>スタッフコメント</h3><p>モダンとクラシックの特徴をしっかり捉えて、上手に描けていますね！「お兄さん」からのお年玉は、どれくらい入っているのでしょうか？</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2401_0007.jpg" title="みみみ"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2401_0007.jpg" alt="" /></a><h2>みみみ</h2><h3>新年羽根つき無双ソニック</h3><p>あけましておめでとうございます！今回初めて応募しました。正月ということで、羽根つきをするソニックとテイルスです。といってもソニックはあの速さなので、テイルスの顔がどんどん黒くなっていきそうだな...と思いながら描きました。</p><h3>スタッフコメント</h3><p>初投稿ありがとうございます！負け越すテイルスのやるせない表情がいいですねw。美しい色彩で描かれた袴姿も素敵な作品です。</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2401_0008.jpg" title="楠チェリー"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2401_0008.jpg" alt="" /></a><h2>楠チェリー</h2><h3>龍に乗って高みへ！</h3><p>あけましておめでとうございます！2024年もモタモタせず、ソニックを追いかけていきたいですし、ファンアートも楽しく描いていきたいのでどうぞよろしくお願いします！</p><h3>スタッフコメント</h3><p>今年の干支に絡めた素敵なイラストを頂きました。それぞれのお正月を過ごす様子が楽しく描かれています。右下のチャオも可愛いですね！</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2401_0010.jpg" title="あのあの"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2401_0010.jpg" alt="" /></a><h2>あのあの</h2><h3>今年もたくさん走るぜ！</h3><p>あけましておめでとうございます。龍に乗ってソニックが登場！きっと今年も大活躍する事でしょう。自分もソニックファンとしてい続けます！</p><h3>スタッフコメント</h3><p>龍に乗りポーズを決めたソニックの表情が勇ましくカッコイイですね！お正月らしい装飾も新鮮でみんなよく似合っています。</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2401_0011.jpg" title="山田の大蛇"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2401_0011.jpg" alt="" /></a><h2>山田の大蛇</h2><h3>あけましてスーパースターズ！</h3><p>２０２４年は辰年！という事でドラゴンのトリップちゃんが居るスーパースターズの面々で新年のお祝いです！今年もソニック達の活躍を楽しみにしています！</p><h3>スタッフコメント</h3><p>とても色彩の美しい作品を頂きました！密度あるたくさんの要素が丁寧に描き込まれており、じっくり鑑賞する価値ある仕上がりです。</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2401_0012.jpg" title="アクア"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2401_0012.jpg" alt="" /></a><h2>アクア</h2><h3>初日の出</h3><p>あけましておめでとうございます！2024年はどのような景色の中で走るのでしょうか？リングも忘れずに！</p><h3>スタッフコメント</h3><p>年号とリングと初日の出を絡めたアイデアが秀逸ですね！早朝の空気感をうまく表した色使いと、ポップなタッチも魅力のイラストです。</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2401_0013.jpg" title="N"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2401_0013.jpg" alt="" /></a><h2>N</h2><h3>新年</h3><p>過去作をちょっといじりました。受験終わったら絶対帰ってくるからねソニック！</p><h3>スタッフコメント</h3><p>光と影のコントラストがとても印象的な作品です。新年に向かう勢いを感じますしソニックの表情もかっこいいですね！受験、がんばってください！</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2401_0014.jpg" title="RUKA"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2401_0014.jpg" alt="" /></a><h2>RUKA</h2><h3>2人のソニックのお正月</h3><p>お正月をテーマにして描こうと考えた時、1番最初に思いついたのがこの2人でした。テイルス、ナックルズ、エミー、シャドウ、エッグマンのだるまも描いてみました。少し分かりづらいかもですが。また2人が揃う姿が見たいです！</p><h3>スタッフコメント</h3><p>お雑煮を楽しむクラシックソニックがとてもかわいらしいです。グリーンヒル風の袴も良いですね！見守るソニックやだるまのみんなもかわいいです。</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2401_0015.jpg" title="alisa006"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2401_0015.jpg" alt="" /></a><h2>alisa006</h2><h3>2024 Happy New Year!</h3><p>ソニックチームの皆様へ、新年あけましておめでとうございます！2024年がソニックと一緒に楽しいイベントや新しいゲームがたくさんある年となることを期待しています。</p><h3>スタッフコメント</h3><p>ポーズも表情も決まってますね！特に瞳の描きこみが綺麗で生き生きして見えます。さりげなく手で2024を表現しているのも年賀状らしくて素敵です。</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2401_0016.jpg" title="米酒"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2401_0016.jpg" alt="" /></a><h2>米酒</h2><h3>新年龍舞</h3><p>辰年だ！ ドラゴンダンスをやろう！中国風の服装でシルバーとブレイズを描いてみた（スピードバトルの限定衣装だ）。2人のコンビは最高～</p><h3>スタッフコメント</h3><p>とてもかっこいい二人です！炎とサイコキネシスの競演、ドラゴンの色彩が華やかですね！これだけの要素を綺麗にまとめられているのがすごいです。線の強弱が気持ちよく、見ごたえのある作品です。</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2401_0017.jpg" title="たい"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2401_0017.jpg" alt="" /></a><h2>たい</h2><h3>私の勝ちよ！ナックルズ</h3><p>エミーとナックルズは羽子板で勝負をしています！エミーのスマッシュにはソニックとテイルスも驚きを隠せないようです</p><h3>スタッフコメント</h3><p>エミーのスマッシュがナックルズに直撃...！？ハンマーのような威力がありそうです...。見ていて楽しい構図と、柔らかい雰囲気のギャップが面白いです。</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2401_0018.jpg" title="グローゼ"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2401_0018.jpg" alt="" /></a><h2>グローゼ</h2><h3>オモイデノゲラノ「アケオメ」</h3><p>ソニックとエミー、エメルの鮮やかなひととき。 新年を祝う花火を見に行った3人は記念写真をを撮って、それぞれのお祝いの言葉を書きました。 平面に残った思い出はめいめいの胸の中でずっと一緒でしょうね。 「ソニックもママも、アケオメ！コトヨロ！」</p><h3>スタッフコメント</h3><p>新年らしい、まるで夢の中のような幻想的な雰囲気が良いですね。3人のメッセージにも和みました。エメルが二人に抱きついているのがかわいいです。</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2401_0019.jpg" title="鷹梅白"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2401_0019.jpg" alt="" /></a><h2>鷹梅白</h2><h3>ドロドロドロ...ザシュッ！</h3><p>青目のスパソニ...辰年だから飛竜...パリィ難しい...ソニックにコールしたい...と2023年末の気持ちを全乗せしてお正月絵に。そういえば教官王の試練エンジョイでも最初は無理！と思ったワイバーンが、スリルで尻尾もレーザーもパリィできるようになりました。ソニックだぁ...としみじみしました。今年も宜しくお願い致します</p><h3>スタッフコメント</h3><p>画面いっぱいに勢いのあるタッチで描かれたオーラが迫力ありますね！攻撃を察知して迎え撃つ、真剣なソニックの表情と緊張感あるポーズがカッコいいです。</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2401_0020.jpg" title="spotty"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2401_0020.jpg" alt="" /></a><h2>spotty</h2><h3>チームジャックルの忘年会</h3><p>今年も無事に過ごしました。新しい仕事が始まる前に、仲間と忘年会を開いているインフィニット。一緒によい未来を迎えられますように</p><h3>スタッフコメント</h3><p>少し離れた場所から見守るインフィニットは、仲間と過ごす未来を考えているのでしょうか。陽気な雰囲気の中に、少し哀愁も感じられる深みがあるイラストです。</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2401_0021.jpg" title="ななハリ"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2401_0021.jpg" alt="" /></a><h2>ななハリ</h2><h3>スーパーハッピーニューイヤー！！</h3><p>今年は辰年！ということで「スーパー」なドラゴンになったトリップちゃんと「スーパー」なソニック、そして「スーパー」な仲間たちで三年をゴージャスに彩ってくれました!まさに「スーパー」尽くしのお祝いですが...なにやら怪しい影が...？</p><h3>スタッフコメント</h3><p>金色で上手くまとめられた色使いとキラキラのエフェクト、勢いある構図が新年のお祝いにピッタリですね！「辰」の字にファングが乗っている遊び心が楽しいです。</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2401_0022.jpg" title="Lima"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2401_0022.jpg" alt="" /></a><h2>Lima</h2><h3>今年も仲良くしようね</h3><p>凧揚げをしているビッグと凧を見て楽しむカエルくん。カエルくんも凧で遊びたがっている。ビッグ「カエルくん、本当に君が空を飛んでいるみたいだね」カエルくん「ケロケロ(貸してくれ～)」今年も相変わらず仲良しな２人</p><h3>スタッフコメント</h3><p>嬉しそうなビッグと両手を伸ばすカエルくんが可愛く、癒されます！前と後ろからの視点で描くことで、2人の表情と状況の両方が伝わる工夫も良いと思います。</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2401_0023.jpg" title="ケレン"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2401_0023.jpg" alt="" /></a><h2>ケレン</h2><h3>セージと謎の封筒</h3><p>新年を迎えた日、突然謎の封筒が届いた。そこには"Happy New Year"の文字とDr.エッグマンのロゴが書かれていた。中身はどうなっているのか？</p><h3>スタッフコメント</h3><p>真っすぐ見つめる目と謎の封筒が、可愛くもミステリアスな作品です。丁寧に描かれたサイバー表現の光が美しく、暖かそうな赤いマフラーもよく似合っていると思います！</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2401_0024.jpg" title="too easy"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2401_0024.jpg" alt="" /></a><h2>too easy</h2><h3>ブレイクスルーthe year!</h3><p>今年は辰年ということでワイバーンとスーパーソニックを書きました。熱き戦いと年を乗り越えます！Happy new year!</p><h3>スタッフコメント</h3><p>逆光で描かれたワイバーンの不気味な黒いシルエットと、光輝くソニックの対比が魅力的です。上空での二人の熱い戦いが上手く表現されていると思います！</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2401_0025.jpg" title="tenteko"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2401_0025.jpg" alt="" /></a><h2>tenteko</h2><h3>新たな冒険の始まり</h3><p>なんだか不思議な柄のシャトルループだなと思ったら...。新年早々危険な冒険の始まりです！今年もソニかつ楽しんでいきたいと思います！</p><h3>スタッフコメント</h3><p>おしゃれにまとまったデザインの中に、面白そうなストーリーも感じられる素敵な作品を頂きました！ソニックの走るループの先には一体何が...！？テイルスの表情を見れば分かってしまいますね。</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2401_0026.jpg" title="ももうさぎ"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2401_0026.jpg" alt="" /></a><h2>ももうさぎ</h2><h3>あけおめ2024！</h3><p>今回は年賀状にみんなをキュっとつめる感じで描きました！家中の折り紙、包装紙などを使って背景やソニックたちの羽織袴やエミーの着物を作りました。SEGAさん今年もよろしくおねがいします(ソニックシンフォニー楽しみです)！</p><h3>スタッフコメント</h3><p>煌びやかで見ているだけで楽しい気分になる素敵な一枚！折り紙や包装紙のアイデアが面白く、それぞれの衣装もピッタリですね。さりげなく描かれた「すけっちほっぐ」が好きです。</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2401_0027.jpg" title="星音"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2401_0027.jpg" alt="" /></a><h2>星音</h2><h3>新年だってじっとなんかしてらんないっ！</h3><p>お正月といえば厳かでしみじみとしていて......というイメージがありがちですが、この4人にはそんな型を破って冒険にドキドキにワクワクに満ちた賑やかなお正月を過ごしていてほしいなと思いながら描きました。皆さんの今年のお正月もそんな楽しいものになったらいいなぁ。</p><h3>スタッフコメント</h3><p>お正月らしく、着物を着こなしつつも元気いっぱいのみんなで心がほっこりしました。今年もいい年になりそうな予感。キラキラに描きこまれた瞳が特にいいですね！</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2401_0028.jpg" title="トム"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2401_0028.jpg" alt="" /></a><h2>トム</h2><h3>Happy new year!</h3><p>新しい年もたくさんソニックを推していこうと思います...！！初代あたりのタイトル画面をイメージして描いてみました！！</p><h3>スタッフコメント</h3><p>日の出に照らされたソニックがとってもかっこいい！お正月らしい配色を上手く使い、タイトルのエンブレムがゴージャスなしめ縄飾りになりましたね。とても縁起が良さそうで、お正月中玄関に飾りたい作品です。</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2401_0029.jpg" title="plus2SF"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2401_0029.jpg" alt="" /></a><h2>plus2SF</h2><h3>2024年は子年......じゃない！</h3><p>2024年は奇しくも辰年！ということで、お正月早々なにか良からぬことを企んでいそうなファングを捕まえるドラゴントリップちゃんです！</p><h3>スタッフコメント</h3><p>彼女ほど辰年にピッタリな子はいないでしょう！なんだか不服そうなファングの表情がとても良いですね。お正月アイテムでファングのロボットも不思議と可愛く感じられます。</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2401_0030.jpg" title="Otomo_Otomo3"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2401_0030.jpg" alt="" /></a><h2>Otomo_Otomo3</h2><h3>猛り狂え！龍の舞！</h3><p>音速の速さで陸海空のステージ、メカメカしい工場の中などの世界を勇壮と走り抜く様はまるで龍の如し。来年が辰年の事も踏まえて龍の姿を模した衣装をソニックに着てもらいました！</p><h3>スタッフコメント</h3><p>筆ならではのかすれた線が、ソニックのかっこよさを上手く惹き立てています。特に羽のついた腰飾りが良い！ベタ塗りと白抜きのバランスが絶妙で拘りの感じる素敵な作品を頂きました。</p></div>
 
 
 
 	</div>
-
-
-<nav id="substance-navigation"><ul class="boxLink paginationNum">
-
-
-
-</ul></nav>
-</div>
-<ul id="page-sns2">
-	<li class="snsTwitter"><img src="/SonicChannel//common/image/icon_twitter.png" alt="Twitter"></li>
-	<li class="snsFacebook"><img src="/SonicChannel//common/image/icon_facebook.png" alt="facebook"></li>
-	<li class="snsLine"><img src="/SonicChannel//common/image/icon_line.png" alt="LINE"></li>
-</ul>
+				
+				
+				<nav id="substance-navigation"><ul class="boxLink paginationNum">
+			
+			
+			
+				</ul></nav>
+			<ul id="page-sns2">
+				<li class="snsTwitter"><img src="/SonicChannel/assets/images/old/icon_twitter.png" alt="Twitter"></li>
+				<li class="snsFacebook"><img src="/SonicChannel/assets/images/old/icon_facebook.png" alt="facebook"></li>
+				<li class="snsLine"><img src="/SonicChannel/assets/images/old/icon_line.png" alt="LINE"></li>
+			</ul>
+	</div>
 </article>
 </main>
-	<nav id="common-pagination">
-	<ul class="boxLink paginationArrow">
-	<li class="iconLeft"><a rel="prev" href="/SonicChannel/fangallery/fanart/20231201_008408/" >2023年12月「クリスマス」</a></li>
-<li class="iconUp"><a href="/SonicChannel/fangallery/fanart">戻る</a></li>
-	<li class="iconRight"><a rel="next" href="/SonicChannel/fangallery/fanart/20240201_008451/" >2024年2月「バレンタイン」</a></li>
-	</ul>
-</nav>
-<footer>
+<footer role="contentinfo">
+	<div class="footerWrap">
+			<ul class="common-snsList-sp">
+				<li class="common-snsIcon is-x">
+					<a class="snsTwitter" href=""></a>
+				</li>
+				<li class="common-snsIcon is-line">
+					<a class="snsLine" href=""></a>
+				</li>
+				<li class="common-snsIcon is-facebook">
+					<a class="snsFacebook" href=""></a>
+				</li>
+			</ul><!-- .common-snsList-pc -->
+    <div class="footerContent">
+				<div class="footerLogoBox">
+						<div class="footerSonicChannelLogo"><a href="https://sonic.sega.jp/SonicChannel/" target="_blank"><img src="/SonicChannel/assets/images/common/logo_sonicchannel.png" alt="SONIC CHANNEL" /></a></div>
+						<div class="footerSonicTeamLogo"><a href="http://www.sonicteam.com/" target="_blank"><img src="/SonicChannel/assets/images/common/logo_sonicteam.png" alt="SONIC TEAM" /></a></div>
+					</div><!-- .footerLogoBox -->
+    <ul class="footerLinkList">
+    	<li>【<a href="/SonicChannel/about/#translation-function" target="_blank">翻訳機能について</a>】 </li>
+    	<li>【<a href="/SonicChannel/about/#download-policy" target="_blank">ダウンロードについて</a>】</li>
+     	<li>【<a href="http://sega.jp/contact/soft/" target="_blank">お問い合わせ</a>】</li>
+    	<li>【<a href="https://www.sega.co.jp/privacypolicy/" target="_blank">プライバシーポリシー</a>】</li>
+    	<li>【<a href="https://www.sega.co.jp/web-accessibility/index.html" target="_blank">ウェブアクセシビリティ方針</a>】</li>
+    </ul>
+	<p class="footerCopy">&copy;SEGA</p>
+    </div>
 	<div id="footer-search" class="googleSearch">
 		<div class="gcse-search"></div>
 	</div>
-	<p><a href="http://www.sonicteam.com/"><img src="/SonicChannel/common/image/SonicTeamLogo.png" width="105" height="27" alt="SONIC TEAM"/></a></p>
-	<p>【<a href="/SonicChannel/about/#translation-function">翻訳機能について</a>】 【<a href="/SonicChannel/about/#download-policy">ダウンロードについて</a>】</p>
-	<p>【<a href="http://sega.jp/contact/soft/" target="_blank">お問い合わせ</a>】【<a href="https://www.sega.co.jp/privacypolicy/" target="_blank">プライバシーポリシー</a>】</p>
-	<p>&copy;SEGA</p>
+</div>
 </footer>
-<div id='background-logo'></div>
-<div id='common-bg'><div id='bg-substance'></div></div>
+</div>
 </body>
 </html>
+

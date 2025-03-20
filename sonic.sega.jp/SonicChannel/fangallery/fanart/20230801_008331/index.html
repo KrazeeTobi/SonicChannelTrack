@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# : http://ogp.me/ns/#" lang="ja">
-<meta name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0,user-scalable=yes" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta name="keyword" content="SONIC CHANNEL,ソニックチャンネル,SEGA,セガ,SONICTEAM,ソニックチーム,SONIC,ソニック" />
@@ -19,16 +19,27 @@
 <meta property="og:title" content="2023年8月「夏休み」" />
 <meta property="og:url" content="https://sonic.sega.jp/SonicChannel/fangallery/fanart/20230801_008331/" />
 <meta property="og:description" content="今月もファンアートのコーナーにたくさんの作品をご応募頂き、ありがとうございます！ 皆さんから頂いた作品を、スタッフからのコメントと合わせてご紹介いたします。 	※現在ノベルティの配布は不定期での送付となります。 	 	 みんてぃあ夏休みはな..." />
-<meta property="og:image" content="https://sonic.sega.jp/SonicChannel/fangallery/image/fanart_2308_eye.jpg">
+<meta property="og:image" content="https://sonic.sega.jp/SonicChannel/upload_images/fanart_2308_eye.jpg">
 <meta property="og:type" content="article">
 <title>SEGA | ソニックチャンネル | ファンギャラリー | 2023年8月「夏休み」</title>
 <link rel="start" href="/SonicChannel/">
-<link rel="alternate" type="application/atom+xml" title="Recent Entries" href="/SonicChannel/atom.xml" />
-<link rel="stylesheet" href="/SonicChannel/common/css/import.css">
-<script src="/SonicChannel/common/js/import.js" language="javascript" type="text/javascript"></script>
+<link rel="alternate" type="application/atom+xml" title="Recent Entries" href="http://admin-mt-sonic.sega.jp/sonic.sega.jp/SonicChannel/production/atom.xml" />
+<link rel="stylesheet" href="https://use.typekit.net/sha2lhi.css">
+<link rel="stylesheet" href="/SonicChannel/assets/css/oldStyle.min.css">
+<link rel="stylesheet" href="/SonicChannel/assets/css/common.min.css">
+<script src="/SonicChannel/assets/js/libs/jquery-3.7.1.min.js"></script>
+		<script src="/SonicChannel/assets/js/libs/jquery.inview.min.js"></script>
+<script src="/SonicChannel/assets/js/libs/swiper-bundle.min.js"></script>
+<script src="/SonicChannel/assets/js/libs/jquery.swipebox.min.js"></script>
+<script src="/SonicChannel/assets/js/old/modernizr.js"></script>
+<script src="/SonicChannel/assets/js/old/swiper.min.js"></script>
+<script src="/SonicChannel/assets/js/old/jquery.tubular.1.0.js"></script>
+<script src="/SonicChannel/assets/js/old/velocity.min.js"></script>
+<script src="/SonicChannel/assets/js/old/snsClick.js"></script>
+<script src="/SonicChannel/assets/js/old/init.js"></script>
+<script src="/SonicChannel/assets/js/common.js"></script>
 <script async src="https://cse.google.com/cse.js?cx=b9e22222528a0e6ff"></script>
-<link rel="stylesheet" href="/SonicChannel/fangallery/common/css/import.css">
-<script src="/SonicChannel/fangallery/common/js/import.js" language="javascript" type="text/javascript"></script>
+<!--link rel="stylesheet" href="/SonicChannel/fangallery/common/css/import.css">
 <!--[if lte IE 8]>
 <script src="/SonicChannel/common/js/html5shiv.js"></script>
 <![endif]-->
@@ -39,72 +50,91 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','GTM-MF59Q7B');</script>
 </head>	
 <body class="entry individual fangallery">
-<header>
-	<a href="http://sega.jp/"><img src="/SonicChannel/common/image/header_sega.png" alt="SEGA" width="75" height="25" /></a>
-	<div>
-        <div>
+<div class="wrapper">
+<div class="wrapperBg"></div>
+<header role="banner">
+	<a href="http://sega.jp/" class="headerSEGALogo"><img src="/SonicChannel/assets/images/common/sega_logo_s_b.svg" alt="SEGA" width="75" height="25" /></a>
+			<ul class="common-snsList-pc">
+				<li class="common-snsIcon is-x">
+					<a class="snsTwitter" href=""></a>
+				</li>
+				<li class="common-snsIcon is-line">
+					<a class="snsLine" href=""></a>
+				</li>
+				<li class="common-snsIcon is-facebook">
+					<a class="snsFacebook" href=""></a>
+				</li>
+			</ul><!-- .common-snsList-pc -->
+	<div class="gTranslateBox">
+        <div class="gTranslateIcon">
            <a href="/SonicChannel/about/#translation-function">
               <svg>
-      			  <use xlink:href="/SonicChannel/common/image/header_caution.svg#caution"></use>
+      			  <use xlink:href="/SonicChannel/assets/images/old/header_caution.svg#caution"></use>
     		  </svg>
-        </a>
+        	</a>
         </div>
 		<div class="gtranslate_wrapper"></div>
 		<script>window.gtranslateSettings = {"default_language":"ja","wrapper_selector":".gtranslate_wrapper"}</script>
 		<script src="https://cdn.gtranslate.net/widgets/latest/dropdown.js" defer></script>
 	</div>
-	<h1><a href="/SonicChannel/"><img src="/SonicChannel/common/image/header_sonicchannel.png" alt="ソニックチャンネル" width="191" height="47" /></a></h1>
 </header>
-<nav id="common-navigation">
-	<a href="#" id="nav-trigger"><span id="trigger-icon"></span></a>
+<div id="nav-trigger"><span id="trigger-icon"></span></div>
+<nav id="common-navigation" role="navigation">
 	<div id="overlay-nav"><span></span></div><!-- cd-overlay-nav -->
 	<div id="overlay-content"><span></span></div> <!-- cd-overlay-content -->
-	<ul id="nav-list">
-		<li><a href="/SonicChannel/"><img src="/SonicChannel/common/image/nav_sonicchannel.png" alt="SONIC CHANNEL" /></a></li>
-		<li><a href="/SonicChannel/topics/information/">トピックス</a></li>
-		<li><a href="/SonicChannel/gametitle/nintendo-switch.html">ゲームタイトル</a></li>
-		<li><a href="/SonicChannel/character/">キャラクター</a></li>
-		<li><a href="/SonicChannel/special/">スペシャル</a></li>
-		<li><a href="/SonicChannel/fangallery/" class="activeAnchor">ファンギャラリー</a></li>
-		<li><a href="/SonicChannel/enjoy/wallpaper/">おたのしみ</a></li>
-	</ul>
-	<div class="googleSearch" id="nav-search">
-		<div class="gcse-search"></div>
+	<div class="navWrapper"> 
+		<div class="navLogoItem">
+       	 <h1 class="soinicChannelLogo"><a href="/SonicChannel/"><img src="/SonicChannel/assets/images/common/logo_sonicchannel.png" alt="ソニックチャンネル" width="191" height="47" /></a></h1>
+	</div>
+		<ul id="nav-list">
+        <li class="navItem is-top"><a href="/SonicChannel/">トップ</a></li>
+			<li class="navItem is-topics"><a href="/SonicChannel/topics/">トピックス</a></li>
+			<li class="navItem is-character"><a href="/SonicChannel/character/">キャラクター</a></li>
+    		<li class="navItem is-history"><a href="/SonicChannel/history/">ヒストリー</a></li>
+    		<li class="navItem is-special"><a href="/SonicChannel/special/top.html">スペシャル</a></li>
+			<li class="navItem is-fangallery"><a href="/SonicChannel/fangallery/top.html" class="activeAnchor">ファンギャラリー</a></li>
+		</ul>
+    	<div class="navWhatSonicItem">
+        <a href="/SonicChannel/character/" ><div class="navWhatSonicText">ソニックとは</div><div class="whatSonicArrow"></div></a>
+   		</div>
 	</div>
 </nav>
-<main id="common-contents">
+<main id="common-contents" role="main">
+<div class="headlineCommon"></div>
 <div id="contents-header">
-		<h2 class="headlineCommon">ファンギャラリー</h2>
 			<nav class="contentsNavigation">
-				<ul>
-						<li><a href="/SonicChannel/fangallery/" >すべて</a></li>
-								<li><a href="/SonicChannel/fangallery/fanart/" class="activeAnchor">ファンアート</a></li>
-								<li><a href="/SonicChannel/fangallery/screenshot/">スクリーンショット</a></li>
-								<li><a href="/SonicChannel/fangallery/oshiete/">おしえて!クリエイターズ</a></li>
-								<li><a href="/SonicChannel/fangallery/apply/">投稿</a></li>
-							</ul>
-				<select>
-						<option value="/SonicChannel/fangallery/" >すべて</option>
+            <div class="contentsNavigationInner">
+				<ul class="cateArctestUL">
+								<li class="cateArctestLi"><a href="/SonicChannel/fangallery/fanart/" class="activeAnchor">ファンアート</a></li>
+								<li class="cateArctestLi"><a href="/SonicChannel/fangallery/screenshot/">スクリーンショット</a></li>
+								<li class="cateArctestLi"><a href="/SonicChannel/fangallery/oshiete/">おしえて!クリエイターズ</a></li>
+								<li class="cateArctestLi"><a href="/SonicChannel/fangallery/apply/">投稿</a></li>
+            </ul>
+            <div class="navSelectBox">
+				<select aria-label="選択してください">
 								<option value="/SonicChannel/fangallery/fanart/"  selected>ファンアート</option>
 								<option value="/SonicChannel/fangallery/screenshot/" >スクリーンショット</option>
 								<option value="/SonicChannel/fangallery/oshiete/" >おしえて!クリエイターズ</option>
 								<option value="/SonicChannel/fangallery/apply/" >投稿</option>
-							</select>
+            </select>
+            </div>
 				<h3>ファンアート</h3>
+            </div>
 			</nav>
 </div>
 <article  id="contents-page">
-		<img src="/SonicChannel/fangallery/image/fanart_2308_eye.jpg" alt=""/>
-	<h1>2023年8月「夏休み」</h1>
-	<time datetime="2023-08-01T14:37:12+09:00">2023.08.01</time>
-	<ul id="page-sns1">
-		<li class="snsTwitter"><img src="/SonicChannel//common/image/icon_twitter.png" width="25" height="25" alt="Twitter"></li>
-		<li class="snsFacebook"><img src="/SonicChannel//common/image/icon_facebook.png" width="25" height="25" alt="facebook"></li>
-		<li class="snsLine"><img src="/SonicChannel//common/image/icon_line.png" width="25" height="25" alt="LINE"></li>
-	</ul>
-<div id="cotentes-substance">
-
-<p>今月もファンアートのコーナーにたくさんの作品をご応募頂き、ありがとうございます！</p>
+	<div class="contentsPageBg"></div>
+			<img class="contentPageTopImg" src="/SonicChannel/upload_images/fanart_2308_eye.jpg" alt=""/>
+		<h1>2023年8月「夏休み」</h1>
+	<div id="cotentes-substance">
+			
+				<time datetime="2023-08-01T14:37:12+09:00">2023.08.01</time>
+				<ul id="page-sns1">
+					<li class="snsTwitter"><img src="/SonicChannel/assets/images/old/icon_twitter.png" width="25" height="25" alt="Twitter"></li>
+					<li class="snsFacebook"><img src="/SonicChannel/assets/images/old/icon_facebook.png" width="25" height="25" alt="facebook"></li>
+					<li class="snsLine"><img src="/SonicChannel/assets/images/old/icon_line.png" width="25" height="25" alt="LINE"></li>
+				</ul>		
+				<p>今月もファンアートのコーナーにたくさんの作品をご応募頂き、ありがとうございます！</p>
 <p>皆さんから頂いた作品を、スタッフからのコメントと合わせてご紹介いたします。</p>
 
 	<p class="textSmall">※現在ノベルティの配布は不定期での送付となります。</p>
@@ -112,74 +142,90 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	<div class="column3rd columnFanart">
 
 
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2308_0026.jpg" title="みんてぃあ"><img src="/SonicChannel/fangallery/fanart/image/s2308_0026.jpg" alt="" /></a><h2>みんてぃあ</h2><h3>夏休みはなにをしよう？</h3><p>チャオ達が夏休みの予定を話しているところに、ヒーローチャオがやってきて...。というイメージで作ったちぎり絵です。子供がちぎった折り紙と和紙を使って、夏休みの宿題っぽいものを作ってみてました。</p><h3>スタッフコメント</h3><p>折り紙と和紙の風合いが、チャオ達のかわいらしさにマッチした素敵な作品。アイスとスイカとビーチ！楽しそうに予定を話しているのが伝わってきました。</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2308_0026.jpg" title="みんてぃあ"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2308_0026.jpg" alt="" /></a><h2>みんてぃあ</h2><h3>夏休みはなにをしよう？</h3><p>チャオ達が夏休みの予定を話しているところに、ヒーローチャオがやってきて...。というイメージで作ったちぎり絵です。子供がちぎった折り紙と和紙を使って、夏休みの宿題っぽいものを作ってみてました。</p><h3>スタッフコメント</h3><p>折り紙と和紙の風合いが、チャオ達のかわいらしさにマッチした素敵な作品。アイスとスイカとビーチ！楽しそうに予定を話しているのが伝わってきました。</p></div>
 
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2308_0001.jpg" title="どら焼き大福"><img src="/SonicChannel/fangallery/fanart/image/s2308_0001.jpg" alt="" /></a><h2>どら焼き大福</h2><h3>海で観光</h3><p>初投稿です！夏を満喫するシルバーとブレイズのイラストです。海でゆったり過ごしてるかんじのイラストです!!</p><h3>スタッフコメント</h3><p>爽やかな天気、誰もいないビーチ、冷たい物を口にしながら海を眺める二人。最高ですね！</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2308_0002.jpg" title="ノボン"><img src="/SonicChannel/fangallery/fanart/image/s2308_0002.jpg" alt="" /></a><h2>ノボン</h2><h3>夏だ！海だ！ティカルだ！</h3><p>ティカルさんに夏のビーチを楽しんでいただきました。カオスのビーチボールがポイントです。</p><h3>スタッフコメント</h3><p>ばっちりカメラ目線で、元気そうなティカルの表情がとても良いですね！ビーチボールの中身はどうなっているんでしょう...？</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2308_0003.jpg" title="ヘルメット大佐"><img src="/SonicChannel/fangallery/fanart/image/s2308_0003.jpg" alt="" /></a><h2>ヘルメット大佐</h2><h3>海辺のあの子</h3><p>異世界大喜利のコーナーでのヒロインのテイルスがとても可愛かったので、自分もヒロインの様なテイルスを描いてみました。せっかくなので、シャチとスケッチほっぐも描いてみました。</p><h3>スタッフコメント</h3><p>ドレスは意外とお気に入り...？背後で起きている事件は、気にしないほうが良さそうですね。</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2308_0004.jpg" title="miorin"><img src="/SonicChannel/fangallery/fanart/image/s2308_0004.jpg" alt="" /></a><h2>miorin</h2><h3>エメラルドのような海で</h3><p>描いたのはソニックアドベンチャーで登場したステージ「エメラルドコースト」でエミーとクリーム&チーズが海水浴に来ているところです。後ろにいる泳げないハリネズミと空を飛ぶキツネは偶然散歩（走り）に来ており、エミーはそれに気づいていないようで...</p><h3>スタッフコメント</h3><p>思わず「エミー、うしろ！」って言いたくなるようなシチュエーション。ビーチでの休日を満喫してますね。</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2308_0005.jpg" title="Aksi"><img src="/SonicChannel/fangallery/fanart/image/s2308_0005.jpg" alt="" /></a><h2>Aksi</h2><h3>スイカ</h3><p>初応募です！夏の入道雲は綺麗ですね</p><h3>スタッフコメント</h3><p>スイカバーがワンポイントで決まってますね。こんな暑中見舞いが来たら素敵です。ザラッとしたテクスチャーも涼し気な雰囲気を感じます。</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2308_0006.jpg" title="アヤアヤ"><img src="/SonicChannel/fangallery/fanart/image/s2308_0006.jpg" alt="" /></a><h2>アヤアヤ</h2><h3>夏休み</h3><p>花火に包まれ露店で買い物、夏休みを楽しむ！</p><h3>スタッフコメント</h3><p>夏の夜といえばやっぱりこれ！浴衣姿で屋台巡りは最高ですよね～。皆それぞれ楽しんでいるようです。</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2308_0007.jpg" title="楠チェリー"><img src="/SonicChannel/fangallery/fanart/image/s2308_0007.jpg" alt="" /></a><h2>楠チェリー</h2><h3>エメラルドの海</h3><p>マスターエメラルドの祭壇を珊瑚礁の海っぽく描いてみました</p><h3>スタッフコメント</h3><p>エメラルドグリーンが美しいイラストを頂きました！祭壇を珊瑚礁と見立てたセンスが素晴らしく、夏らしい素敵な世界観が描かれています。</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2308_0008.jpg" title="セナチュウ"><img src="/SonicChannel/fangallery/fanart/image/s2308_0008.jpg" alt="" /></a><h2>セナチュウ</h2><h3>サマービーチで夏休み！</h3><p>夏休み！ソニック、テイルス、シャドウ、クリーム、ナックルズ、エミー、シルバー、ブレイズの仲良しグループはビーチで夏休みを楽しんでます。</p><h3>スタッフコメント</h3><p>夏の海を楽しむたくさんの仲間たちを描いてくれました。みんな楽しそうな表情が印象的です。ソニックはしっかりとライフジャケットを着用してますね！</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2308_0009.jpg" title="餅田"><img src="/SonicChannel/fangallery/fanart/image/s2308_0009.jpg" alt="" /></a><h2>餅田</h2><h3>大きな砂のお城を作りまショウ！</h3><p>夏休みと言えば海！という事で、海で砂のお城を作るクリームとチーズとお城作りをお手伝いするエミー、そこには偶然ビッグの姿も...？という絵を描きました。</p><h3>スタッフコメント</h3><p>楽しそうに砂浜で遊ぶエミーとクリームたち。夏服らしいワンピースもとても可愛いです。二人に気づいたビッグの様子がこの先の展開を想像させる作品です。</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2308_0010.jpg" title="さめおう"><img src="/SonicChannel/fangallery/fanart/image/s2308_0010.jpg" alt="" /></a><h2>さめおう</h2><h3>夢のスイカ割り！</h3><p>チャオとカオスの初めてのスイカ割り。チャオたちの声掛けに従って、スイカを目指して、スイカを割る３秒前...趣味にしていたBlenderで作成。</p><h3>スタッフコメント</h3><p>チャオとカオスの夏らしい遊びを描いたシーンですが、よく見るとCGなんですね！透明感のある表現がピッタリハマった作品です。</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2308_0011.jpg" title="どんどこきのこ"><img src="/SonicChannel/fangallery/fanart/image/s2308_0011.jpg" alt="" /></a><h2>どんどこきのこ</h2><h3>テイルスの暑い夏休み</h3><p>ソニックとナックルズと出掛けたテイルスの暑い夏休みです!みんなで写真を撮ってSNSにアップしているようなイメージで描きました。テイルスはSNSも得意そうですよね!みんなで暑い夏を海で楽しんでるといいなあと思います</p><h3>スタッフコメント</h3><p>夏を楽しむ二人の笑顔がいいですね！SNSをモチーフにしたアイデアもお見事です。この後、ナックルズはスイカを割ることはできたのかな？</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2308_0012.jpg" title="ももうさぎ"><img src="/SonicChannel/fangallery/fanart/image/s2308_0012.jpg" alt="" /></a><h2>ももうさぎ</h2><h3>手作り風鈴で涼しく過ごそう</h3><p>炎天下の日はこの風鈴を使って涼んでます！手作り風鈴は愛着も沸きますし、部屋も涼しげになるのでみなさんもぜひ。</p><h3>スタッフコメント</h3><p>手作りの風鈴とは素敵ですね！ソニック達が描かれていると外からの風がなくても鳴り続けるかも！？</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2308_0013.jpg" title="JEWEL"><img src="/SonicChannel/fangallery/fanart/image/s2308_0013.jpg" alt="" /></a><h2>JEWEL</h2><h3>夏休みはかき氷でしょ！</h3><p>夏といえば食べたくなるのがかき氷なので、エミーと言えばソフトクリームが好きなのですが、真夏の暑い日にはキンキンのかき氷が一番！私がプライベートで食べに行った進化系のかき氷を、エミーが食べるところを想像しながら描きました。</p><h3>スタッフコメント</h3><p>全体的に明るい色彩で夏らしさにあふれていますね！おしゃれなエミーにハート目のチャオがかわいいです。大きなかき氷ですが、ふたりでなら食べきれそう！</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2308_0014.jpg" title="りるる"><img src="/SonicChannel/fangallery/fanart/image/s2308_0014.jpg" alt="" /></a><h2>りるる</h2><h3>かき氷</h3><p>SONICとテイルスが自分カラーのかき氷を選んだところを描きました。</p><h3>スタッフコメント</h3><p>おそろいのサングラスがかっこいいですね。ソニックはブルーハワイ味、テイルスはレモン味とかでしょうか？味まで想像してしまいます。</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2308_0015.jpg" title="ねぎとろボーイ"><img src="/SonicChannel/fangallery/fanart/image/s2308_0015.jpg" alt="" /></a><h2>ねぎとろボーイ</h2><h3>ひまわり</h3><p>今回夏休みというテーマてエミーとひまわりをあわせてみました。夏らしいイラストに仕上がったのではないでしょうか。</p><h3>スタッフコメント</h3><p>真っ青な空に雲とひまわり、そしてエミーがとてもよく映えています。少し淡い色の服装も似合っていますね。大きなリボンがかわいいです。</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2308_0016.jpg" title="アクア"><img src="/SonicChannel/fangallery/fanart/image/s2308_0016.jpg" alt="" /></a><h2>アクア</h2><h3>守護者の夏休み</h3><p>マスターエメラルドの守護者にも夏休みは必要！と考えた3人が押し掛けてきて夏休みらしいことをする事になったナックルズ！...な場面を描きました</p><h3>スタッフコメント</h3><p>友達に囲まれて夏を満喫するナックルズ、とても賑やかな一場面ですね。チャオたちもみんな楽しそう！きっと良い思い出になったと思います。</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2308_0017.jpg" title="山田の大蛇"><img src="/SonicChannel/fangallery/fanart/image/s2308_0017.jpg" alt="" /></a><h2>山田の大蛇</h2><h3>泳げなくても大丈夫だからやってみなよ！</h3><p>ビーチでくつろぐソニックにテイルスが持ってきたのは改良を重ねたとあるメカ。泳げなくても海を楽しめる...筈がうっかりテイルスはボタンを間違えて...！？「ごめんソニック、右のボタンだったよー！」ソニック、大ピンチ！？</p><h3>スタッフコメント</h3><p>しっかりライフジャケットを着用して海を楽しんでいるソニックでしたが...！各コマの表情がどれも楽しく、特にテイルスの想像しているソニックがおきらくな顔をしていて面白いです。水の表現も細かくて綺麗です！</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2308_0018.jpg" title="にゃにゃ丸"><img src="/SonicChannel/fangallery/fanart/image/s2308_0018.jpg" alt="" /></a><h2>にゃにゃ丸</h2><h3>虫とり名人シルバー</h3><p>虫とりならシルバーにお任せ！どんな虫でも、サイコキネシスがあるから逃すことなく簡単に捕まえることができます。</p><h3>スタッフコメント</h3><p>シルバーにかかれば虫取りなんて楽勝だった...！？もはやアミすらいらないかもしれません。虫かご装備が意外と（？）似合っていて面白いです。</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2308_0019.jpg" title="iroha"><img src="/SonicChannel/fangallery/fanart/image/s2308_0019.jpg" alt="" /></a><h2>iroha</h2><h3>ラジオ体操！</h3><p>夏といえばラジオ体操！朝早起きするのは大変だけど、健康のため、頑張ろうねソニック！</p><h3>スタッフコメント</h3><p>朝早くからのラジオ体操は夏の風物詩でもありますよね！二人の大きく回した両手から、気持ちよさそうにのびのびと体を動かす様子が伝わってきます。</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2308_0020.jpg" title="Mijiu"><img src="/SonicChannel/fangallery/fanart/image/s2308_0020.jpg" alt="" /></a><h2>Mijiu</h2><h3>Coconut Bar</h3><p>シルバーはブレイズの世界で休暇を過ごします。場所はコアラたちが運営する海辺のバーのようです。テーブルの上に冷たい飲み物と新鮮な果物があり、彼らは休憩を楽しんでいます</p><h3>スタッフコメント</h3><p>ブレイズの視線が魅力的ですね！店内を暗めに描くことで、バーらしい雰囲気と夏の強い日差しの両方が上手く表現されています。</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2308_0021.jpg" title="しほひな"><img src="/SonicChannel/fangallery/fanart/image/s2308_0021.jpg" alt="" /></a><h2>しほひな</h2><h3>summer vacation</h3><p>波をかっこよくのりこなすソニック！一緒に海いきたい～！</p><h3>スタッフコメント</h3><p>画面いっぱいの大きな波が迫力ありますね！ソニックならきっと、イラストのようにカッコよく波に乗る姿を見せてくれそうです。</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2308_0022.jpg" title="うおの"><img src="/SonicChannel/fangallery/fanart/image/s2308_0022.jpg" alt="" /></a><h2>うおの</h2><h3>夏休みの自由研究</h3><p>ソニックCDに登場した凍結トラップを参考にテイルスが涼風装置を作りましたが、出力が強すぎたようです。完成を見守っていたエミーも慌ててハンマーを手に駆け寄ります。</p><h3>スタッフコメント</h3><p>これならどんなに暑い日でも一瞬で涼を取れますね！氷漬けのソニックが無事かが少し心配ですが、エミーのハンマーさばきに期待しましょう。</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2308_0023.jpg" title="王張アルト"><img src="/SonicChannel/fangallery/fanart/image/s2308_0023.jpg" alt="" /></a><h2>王張アルト</h2><h3>愉快なドレッド海賊団</h3><p>ソニックプライムシーズン2最高でした！ノー・プレイスの面々の呑気な一日を描きました。</p><h3>スタッフコメント</h3><p>アニメ「ソニックプライム」に登場する海賊団を描いてくれました！同じ海でも、海辺だと船の上とはまた違った楽しみ方で満喫できますね！</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2308_0024.jpg" title="アゲハユリ"><img src="/SonicChannel/fangallery/fanart/image/s2308_0024.jpg" alt="" /></a><h2>アゲハユリ</h2><h3>夏の思い出</h3><p>夏の晴れた日。ウッドデッキに座って夏の思い出を切り取ったしおり本でを読む。それは暑くても幸せな時間。しおりはレジンのプレートにレジンで書けるペンで絵を描きました。ヒマワリの観察をするソニックチームを描きました。</p><h3>スタッフコメント</h3><p>ソニック達三人分の身長くらいの、とても大きなヒマワリが印象的です！このしおりと共に過ごす夏のひと時も想像させてくれる作品です。</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2308_0025.jpg" title="まちも"><img src="/SonicChannel/fangallery/fanart/image/s2308_0025.jpg" alt="" /></a><h2>まちも</h2><h3>ひんやりつめたい！？</h3><p>炎天下の夏の昼下がり、ソニックとテイルスはあまりの暑さに耐えられずマスターエメラルドで涼んでしまいます。こんな暑い日でもまるでアイスのようにキラキラ光って冷たそうですが、マスターエメラルドをそんな風に扱われて黙ってはいられないナックルズ。きっとこの後彼の鉄拳制裁を喰らうことでしょう...</p><h3>スタッフコメント</h3><p>ソニックとテイルスが本当に暑そうな表情をしていて、ナックルズには悪いのですが納得の行動でした。思わずみんなに冷たいアイスや飲み物の差し入れをしたくなる作品です。</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2308_0001.jpg" title="どら焼き大福"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2308_0001.jpg" alt="" /></a><h2>どら焼き大福</h2><h3>海で観光</h3><p>初投稿です！夏を満喫するシルバーとブレイズのイラストです。海でゆったり過ごしてるかんじのイラストです!!</p><h3>スタッフコメント</h3><p>爽やかな天気、誰もいないビーチ、冷たい物を口にしながら海を眺める二人。最高ですね！</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2308_0002.jpg" title="ノボン"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2308_0002.jpg" alt="" /></a><h2>ノボン</h2><h3>夏だ！海だ！ティカルだ！</h3><p>ティカルさんに夏のビーチを楽しんでいただきました。カオスのビーチボールがポイントです。</p><h3>スタッフコメント</h3><p>ばっちりカメラ目線で、元気そうなティカルの表情がとても良いですね！ビーチボールの中身はどうなっているんでしょう...？</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2308_0003.jpg" title="ヘルメット大佐"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2308_0003.jpg" alt="" /></a><h2>ヘルメット大佐</h2><h3>海辺のあの子</h3><p>異世界大喜利のコーナーでのヒロインのテイルスがとても可愛かったので、自分もヒロインの様なテイルスを描いてみました。せっかくなので、シャチとスケッチほっぐも描いてみました。</p><h3>スタッフコメント</h3><p>ドレスは意外とお気に入り...？背後で起きている事件は、気にしないほうが良さそうですね。</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2308_0004.jpg" title="miorin"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2308_0004.jpg" alt="" /></a><h2>miorin</h2><h3>エメラルドのような海で</h3><p>描いたのはソニックアドベンチャーで登場したステージ「エメラルドコースト」でエミーとクリーム&チーズが海水浴に来ているところです。後ろにいる泳げないハリネズミと空を飛ぶキツネは偶然散歩（走り）に来ており、エミーはそれに気づいていないようで...</p><h3>スタッフコメント</h3><p>思わず「エミー、うしろ！」って言いたくなるようなシチュエーション。ビーチでの休日を満喫してますね。</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2308_0005.jpg" title="Aksi"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2308_0005.jpg" alt="" /></a><h2>Aksi</h2><h3>スイカ</h3><p>初応募です！夏の入道雲は綺麗ですね</p><h3>スタッフコメント</h3><p>スイカバーがワンポイントで決まってますね。こんな暑中見舞いが来たら素敵です。ザラッとしたテクスチャーも涼し気な雰囲気を感じます。</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2308_0006.jpg" title="アヤアヤ"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2308_0006.jpg" alt="" /></a><h2>アヤアヤ</h2><h3>夏休み</h3><p>花火に包まれ露店で買い物、夏休みを楽しむ！</p><h3>スタッフコメント</h3><p>夏の夜といえばやっぱりこれ！浴衣姿で屋台巡りは最高ですよね～。皆それぞれ楽しんでいるようです。</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2308_0007.jpg" title="楠チェリー"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2308_0007.jpg" alt="" /></a><h2>楠チェリー</h2><h3>エメラルドの海</h3><p>マスターエメラルドの祭壇を珊瑚礁の海っぽく描いてみました</p><h3>スタッフコメント</h3><p>エメラルドグリーンが美しいイラストを頂きました！祭壇を珊瑚礁と見立てたセンスが素晴らしく、夏らしい素敵な世界観が描かれています。</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2308_0008.jpg" title="セナチュウ"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2308_0008.jpg" alt="" /></a><h2>セナチュウ</h2><h3>サマービーチで夏休み！</h3><p>夏休み！ソニック、テイルス、シャドウ、クリーム、ナックルズ、エミー、シルバー、ブレイズの仲良しグループはビーチで夏休みを楽しんでます。</p><h3>スタッフコメント</h3><p>夏の海を楽しむたくさんの仲間たちを描いてくれました。みんな楽しそうな表情が印象的です。ソニックはしっかりとライフジャケットを着用してますね！</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2308_0009.jpg" title="餅田"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2308_0009.jpg" alt="" /></a><h2>餅田</h2><h3>大きな砂のお城を作りまショウ！</h3><p>夏休みと言えば海！という事で、海で砂のお城を作るクリームとチーズとお城作りをお手伝いするエミー、そこには偶然ビッグの姿も...？という絵を描きました。</p><h3>スタッフコメント</h3><p>楽しそうに砂浜で遊ぶエミーとクリームたち。夏服らしいワンピースもとても可愛いです。二人に気づいたビッグの様子がこの先の展開を想像させる作品です。</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2308_0010.jpg" title="さめおう"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2308_0010.jpg" alt="" /></a><h2>さめおう</h2><h3>夢のスイカ割り！</h3><p>チャオとカオスの初めてのスイカ割り。チャオたちの声掛けに従って、スイカを目指して、スイカを割る３秒前...趣味にしていたBlenderで作成。</p><h3>スタッフコメント</h3><p>チャオとカオスの夏らしい遊びを描いたシーンですが、よく見るとCGなんですね！透明感のある表現がピッタリハマった作品です。</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2308_0011.jpg" title="どんどこきのこ"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2308_0011.jpg" alt="" /></a><h2>どんどこきのこ</h2><h3>テイルスの暑い夏休み</h3><p>ソニックとナックルズと出掛けたテイルスの暑い夏休みです!みんなで写真を撮ってSNSにアップしているようなイメージで描きました。テイルスはSNSも得意そうですよね!みんなで暑い夏を海で楽しんでるといいなあと思います</p><h3>スタッフコメント</h3><p>夏を楽しむ二人の笑顔がいいですね！SNSをモチーフにしたアイデアもお見事です。この後、ナックルズはスイカを割ることはできたのかな？</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2308_0012.jpg" title="ももうさぎ"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2308_0012.jpg" alt="" /></a><h2>ももうさぎ</h2><h3>手作り風鈴で涼しく過ごそう</h3><p>炎天下の日はこの風鈴を使って涼んでます！手作り風鈴は愛着も沸きますし、部屋も涼しげになるのでみなさんもぜひ。</p><h3>スタッフコメント</h3><p>手作りの風鈴とは素敵ですね！ソニック達が描かれていると外からの風がなくても鳴り続けるかも！？</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2308_0013.jpg" title="JEWEL"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2308_0013.jpg" alt="" /></a><h2>JEWEL</h2><h3>夏休みはかき氷でしょ！</h3><p>夏といえば食べたくなるのがかき氷なので、エミーと言えばソフトクリームが好きなのですが、真夏の暑い日にはキンキンのかき氷が一番！私がプライベートで食べに行った進化系のかき氷を、エミーが食べるところを想像しながら描きました。</p><h3>スタッフコメント</h3><p>全体的に明るい色彩で夏らしさにあふれていますね！おしゃれなエミーにハート目のチャオがかわいいです。大きなかき氷ですが、ふたりでなら食べきれそう！</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2308_0014.jpg" title="りるる"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2308_0014.jpg" alt="" /></a><h2>りるる</h2><h3>かき氷</h3><p>SONICとテイルスが自分カラーのかき氷を選んだところを描きました。</p><h3>スタッフコメント</h3><p>おそろいのサングラスがかっこいいですね。ソニックはブルーハワイ味、テイルスはレモン味とかでしょうか？味まで想像してしまいます。</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2308_0015.jpg" title="ねぎとろボーイ"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2308_0015.jpg" alt="" /></a><h2>ねぎとろボーイ</h2><h3>ひまわり</h3><p>今回夏休みというテーマてエミーとひまわりをあわせてみました。夏らしいイラストに仕上がったのではないでしょうか。</p><h3>スタッフコメント</h3><p>真っ青な空に雲とひまわり、そしてエミーがとてもよく映えています。少し淡い色の服装も似合っていますね。大きなリボンがかわいいです。</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2308_0016.jpg" title="アクア"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2308_0016.jpg" alt="" /></a><h2>アクア</h2><h3>守護者の夏休み</h3><p>マスターエメラルドの守護者にも夏休みは必要！と考えた3人が押し掛けてきて夏休みらしいことをする事になったナックルズ！...な場面を描きました</p><h3>スタッフコメント</h3><p>友達に囲まれて夏を満喫するナックルズ、とても賑やかな一場面ですね。チャオたちもみんな楽しそう！きっと良い思い出になったと思います。</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2308_0017.jpg" title="山田の大蛇"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2308_0017.jpg" alt="" /></a><h2>山田の大蛇</h2><h3>泳げなくても大丈夫だからやってみなよ！</h3><p>ビーチでくつろぐソニックにテイルスが持ってきたのは改良を重ねたとあるメカ。泳げなくても海を楽しめる...筈がうっかりテイルスはボタンを間違えて...！？「ごめんソニック、右のボタンだったよー！」ソニック、大ピンチ！？</p><h3>スタッフコメント</h3><p>しっかりライフジャケットを着用して海を楽しんでいるソニックでしたが...！各コマの表情がどれも楽しく、特にテイルスの想像しているソニックがおきらくな顔をしていて面白いです。水の表現も細かくて綺麗です！</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2308_0018.jpg" title="にゃにゃ丸"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2308_0018.jpg" alt="" /></a><h2>にゃにゃ丸</h2><h3>虫とり名人シルバー</h3><p>虫とりならシルバーにお任せ！どんな虫でも、サイコキネシスがあるから逃すことなく簡単に捕まえることができます。</p><h3>スタッフコメント</h3><p>シルバーにかかれば虫取りなんて楽勝だった...！？もはやアミすらいらないかもしれません。虫かご装備が意外と（？）似合っていて面白いです。</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2308_0019.jpg" title="iroha"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2308_0019.jpg" alt="" /></a><h2>iroha</h2><h3>ラジオ体操！</h3><p>夏といえばラジオ体操！朝早起きするのは大変だけど、健康のため、頑張ろうねソニック！</p><h3>スタッフコメント</h3><p>朝早くからのラジオ体操は夏の風物詩でもありますよね！二人の大きく回した両手から、気持ちよさそうにのびのびと体を動かす様子が伝わってきます。</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2308_0020.jpg" title="Mijiu"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2308_0020.jpg" alt="" /></a><h2>Mijiu</h2><h3>Coconut Bar</h3><p>シルバーはブレイズの世界で休暇を過ごします。場所はコアラたちが運営する海辺のバーのようです。テーブルの上に冷たい飲み物と新鮮な果物があり、彼らは休憩を楽しんでいます</p><h3>スタッフコメント</h3><p>ブレイズの視線が魅力的ですね！店内を暗めに描くことで、バーらしい雰囲気と夏の強い日差しの両方が上手く表現されています。</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2308_0021.jpg" title="しほひな"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2308_0021.jpg" alt="" /></a><h2>しほひな</h2><h3>summer vacation</h3><p>波をかっこよくのりこなすソニック！一緒に海いきたい～！</p><h3>スタッフコメント</h3><p>画面いっぱいの大きな波が迫力ありますね！ソニックならきっと、イラストのようにカッコよく波に乗る姿を見せてくれそうです。</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2308_0022.jpg" title="うおの"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2308_0022.jpg" alt="" /></a><h2>うおの</h2><h3>夏休みの自由研究</h3><p>ソニックCDに登場した凍結トラップを参考にテイルスが涼風装置を作りましたが、出力が強すぎたようです。完成を見守っていたエミーも慌ててハンマーを手に駆け寄ります。</p><h3>スタッフコメント</h3><p>これならどんなに暑い日でも一瞬で涼を取れますね！氷漬けのソニックが無事かが少し心配ですが、エミーのハンマーさばきに期待しましょう。</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2308_0023.jpg" title="王張アルト"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2308_0023.jpg" alt="" /></a><h2>王張アルト</h2><h3>愉快なドレッド海賊団</h3><p>ソニックプライムシーズン2最高でした！ノー・プレイスの面々の呑気な一日を描きました。</p><h3>スタッフコメント</h3><p>アニメ「ソニックプライム」に登場する海賊団を描いてくれました！同じ海でも、海辺だと船の上とはまた違った楽しみ方で満喫できますね！</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2308_0024.jpg" title="アゲハユリ"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2308_0024.jpg" alt="" /></a><h2>アゲハユリ</h2><h3>夏の思い出</h3><p>夏の晴れた日。ウッドデッキに座って夏の思い出を切り取ったしおり本でを読む。それは暑くても幸せな時間。しおりはレジンのプレートにレジンで書けるペンで絵を描きました。ヒマワリの観察をするソニックチームを描きました。</p><h3>スタッフコメント</h3><p>ソニック達三人分の身長くらいの、とても大きなヒマワリが印象的です！このしおりと共に過ごす夏のひと時も想像させてくれる作品です。</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2308_0025.jpg" title="まちも"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2308_0025.jpg" alt="" /></a><h2>まちも</h2><h3>ひんやりつめたい！？</h3><p>炎天下の夏の昼下がり、ソニックとテイルスはあまりの暑さに耐えられずマスターエメラルドで涼んでしまいます。こんな暑い日でもまるでアイスのようにキラキラ光って冷たそうですが、マスターエメラルドをそんな風に扱われて黙ってはいられないナックルズ。きっとこの後彼の鉄拳制裁を喰らうことでしょう...</p><h3>スタッフコメント</h3><p>ソニックとテイルスが本当に暑そうな表情をしていて、ナックルズには悪いのですが納得の行動でした。思わずみんなに冷たいアイスや飲み物の差し入れをしたくなる作品です。</p></div>
 
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2308_0027.jpg" title="spottypen"><img src="/SonicChannel/fangallery/fanart/image/s2308_0027.jpg" alt="" /></a><h2>spottypen</h2><h3>夏の水遊び最高!</h3><p>水浴びしてるインフィニットはチームジャッカルと海に遊びに行く夢を見た。でもなんか変なものが紛れ込んだような...？</p><h3>スタッフコメント</h3><p>さわやかな色合いがとても綺麗ですね！ファントムルビーの影響もあるのでしょうか？この一枚でインフィニットの深層心理が見えるようで面白いです。それぞれいい表情をしていてじっくり見たくなる作品。</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2308_0028.jpg" title="やすほ"><img src="/SonicChannel/fangallery/fanart/image/s2308_0028.jpg" alt="" /></a><h2>やすほ</h2><h3>海辺デート</h3><p>ソニックとエミーがデートしている絵ですエミーがとても幸せそう！エッグマンとシャドウも夏を楽しんでいる様子</p><h3>スタッフコメント</h3><p>ちょっぴり染まった頬に、エミー達のドキドキが感じられるかわいい作品。波打ち際にハートが描かれていてこだわりを感じました。後ろの二人も海を満喫できている様ですが...事故には気を付けてくださいね！</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2308_0029.jpg" title="にのかわ"><img src="/SonicChannel/fangallery/fanart/image/s2308_0029.jpg" alt="" /></a><h2>にのかわ</h2><h3>ひとやすみ</h3><p>絶好のお出かけ日和。まだ始まったばかりの1日だけど、アイスティーとハンディファンで涼しみながら、車止めに腰かけてひとやすみ。</p><h3>スタッフコメント</h3><p>ソニックとデート中でしょうか？赤いリボンの麦わら帽子がとても似合っていてかわいいですね！ドットのテクスチャもおしゃれ感があり、今どき女子なエミーらしさを感じられました。</p></div>
-<div><a class="swipeBox" href="/SonicChannel/fangallery/fanart/image/2308_0030.jpg" title="ラッシュ剣城"><img src="/SonicChannel/fangallery/fanart/image/s2308_0030.jpg" alt="" /></a><h2>ラッシュ剣城</h2><h3>ソニックをさがせ！Part.2</h3><p>真夏の海水浴日和。そして大勢の集まる海水浴にてどこかにソニックがおり、さらにカオスエメラルドやソルエメラルドが散らばっております。ぜひ探して見てみてね！</p><h3>スタッフコメント</h3><p>画面いっぱいに描かれたたくさんのソニックキャラ達！それだけでも楽しめる作品ですが、ソニックやエメラルドを探せる遊び心もとてもよいですね。楽しく探すことができました。</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2308_0027.jpg" title="spottypen"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2308_0027.jpg" alt="" /></a><h2>spottypen</h2><h3>夏の水遊び最高!</h3><p>水浴びしてるインフィニットはチームジャッカルと海に遊びに行く夢を見た。でもなんか変なものが紛れ込んだような...？</p><h3>スタッフコメント</h3><p>さわやかな色合いがとても綺麗ですね！ファントムルビーの影響もあるのでしょうか？この一枚でインフィニットの深層心理が見えるようで面白いです。それぞれいい表情をしていてじっくり見たくなる作品。</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2308_0028.jpg" title="やすほ"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2308_0028.jpg" alt="" /></a><h2>やすほ</h2><h3>海辺デート</h3><p>ソニックとエミーがデートしている絵ですエミーがとても幸せそう！エッグマンとシャドウも夏を楽しんでいる様子</p><h3>スタッフコメント</h3><p>ちょっぴり染まった頬に、エミー達のドキドキが感じられるかわいい作品。波打ち際にハートが描かれていてこだわりを感じました。後ろの二人も海を満喫できている様ですが...事故には気を付けてくださいね！</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2308_0029.jpg" title="にのかわ"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2308_0029.jpg" alt="" /></a><h2>にのかわ</h2><h3>ひとやすみ</h3><p>絶好のお出かけ日和。まだ始まったばかりの1日だけど、アイスティーとハンディファンで涼しみながら、車止めに腰かけてひとやすみ。</p><h3>スタッフコメント</h3><p>ソニックとデート中でしょうか？赤いリボンの麦わら帽子がとても似合っていてかわいいですね！ドットのテクスチャもおしゃれ感があり、今どき女子なエミーらしさを感じられました。</p></div>
+<div><a class="swipeBox" href="/sonic.sega.jp/SonicChannel/upload_images/fanart/2308_0030.jpg" title="ラッシュ剣城"><img src="/sonic.sega.jp/SonicChannel/upload_images/fanart/s2308_0030.jpg" alt="" /></a><h2>ラッシュ剣城</h2><h3>ソニックをさがせ！Part.2</h3><p>真夏の海水浴日和。そして大勢の集まる海水浴にてどこかにソニックがおり、さらにカオスエメラルドやソルエメラルドが散らばっております。ぜひ探して見てみてね！</p><h3>スタッフコメント</h3><p>画面いっぱいに描かれたたくさんのソニックキャラ達！それだけでも楽しめる作品ですが、ソニックやエメラルドを探せる遊び心もとてもよいですね。楽しく探すことができました。</p></div>
 
 
 
 	</div>
-
-
-<nav id="substance-navigation"><ul class="boxLink paginationNum">
-
-
-
-</ul></nav>
-</div>
-<ul id="page-sns2">
-	<li class="snsTwitter"><img src="/SonicChannel//common/image/icon_twitter.png" alt="Twitter"></li>
-	<li class="snsFacebook"><img src="/SonicChannel//common/image/icon_facebook.png" alt="facebook"></li>
-	<li class="snsLine"><img src="/SonicChannel//common/image/icon_line.png" alt="LINE"></li>
-</ul>
+				
+				
+				<nav id="substance-navigation"><ul class="boxLink paginationNum">
+			
+			
+			
+				</ul></nav>
+			<ul id="page-sns2">
+				<li class="snsTwitter"><img src="/SonicChannel/assets/images/old/icon_twitter.png" alt="Twitter"></li>
+				<li class="snsFacebook"><img src="/SonicChannel/assets/images/old/icon_facebook.png" alt="facebook"></li>
+				<li class="snsLine"><img src="/SonicChannel/assets/images/old/icon_line.png" alt="LINE"></li>
+			</ul>
+	</div>
 </article>
 </main>
-	<nav id="common-pagination">
-	<ul class="boxLink paginationArrow">
-	<li class="iconLeft"><a rel="prev" href="/SonicChannel/fangallery/fanart/20230630_008315/" >2023年7月「克服」</a></li>
-<li class="iconUp"><a href="/SonicChannel/fangallery/fanart">戻る</a></li>
-	<li class="iconRight"><a rel="next" href="/SonicChannel/fangallery/fanart/20230901_008350/" >2023年9月「得意・不得意」</a></li>
-	</ul>
-</nav>
-<footer>
+<footer role="contentinfo">
+	<div class="footerWrap">
+			<ul class="common-snsList-sp">
+				<li class="common-snsIcon is-x">
+					<a class="snsTwitter" href=""></a>
+				</li>
+				<li class="common-snsIcon is-line">
+					<a class="snsLine" href=""></a>
+				</li>
+				<li class="common-snsIcon is-facebook">
+					<a class="snsFacebook" href=""></a>
+				</li>
+			</ul><!-- .common-snsList-pc -->
+    <div class="footerContent">
+				<div class="footerLogoBox">
+						<div class="footerSonicChannelLogo"><a href="https://sonic.sega.jp/SonicChannel/" target="_blank"><img src="/SonicChannel/assets/images/common/logo_sonicchannel.png" alt="SONIC CHANNEL" /></a></div>
+						<div class="footerSonicTeamLogo"><a href="http://www.sonicteam.com/" target="_blank"><img src="/SonicChannel/assets/images/common/logo_sonicteam.png" alt="SONIC TEAM" /></a></div>
+					</div><!-- .footerLogoBox -->
+    <ul class="footerLinkList">
+    	<li>【<a href="/SonicChannel/about/#translation-function" target="_blank">翻訳機能について</a>】 </li>
+    	<li>【<a href="/SonicChannel/about/#download-policy" target="_blank">ダウンロードについて</a>】</li>
+     	<li>【<a href="http://sega.jp/contact/soft/" target="_blank">お問い合わせ</a>】</li>
+    	<li>【<a href="https://www.sega.co.jp/privacypolicy/" target="_blank">プライバシーポリシー</a>】</li>
+    	<li>【<a href="https://www.sega.co.jp/web-accessibility/index.html" target="_blank">ウェブアクセシビリティ方針</a>】</li>
+    </ul>
+	<p class="footerCopy">&copy;SEGA</p>
+    </div>
 	<div id="footer-search" class="googleSearch">
 		<div class="gcse-search"></div>
 	</div>
-	<p><a href="http://www.sonicteam.com/"><img src="/SonicChannel/common/image/SonicTeamLogo.png" width="105" height="27" alt="SONIC TEAM"/></a></p>
-	<p>【<a href="/SonicChannel/about/#translation-function">翻訳機能について</a>】 【<a href="/SonicChannel/about/#download-policy">ダウンロードについて</a>】</p>
-	<p>【<a href="http://sega.jp/contact/soft/" target="_blank">お問い合わせ</a>】【<a href="https://www.sega.co.jp/privacypolicy/" target="_blank">プライバシーポリシー</a>】</p>
-	<p>&copy;SEGA</p>
+</div>
 </footer>
-<div id='background-logo'></div>
-<div id='common-bg'><div id='bg-substance'></div></div>
+</div>
 </body>
 </html>
+
