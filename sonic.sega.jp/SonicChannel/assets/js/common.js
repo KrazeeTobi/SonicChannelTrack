@@ -28,20 +28,20 @@ $(function () {
 			document.head.appendChild(script);
 			const _url = document.URL;
 			//var _title = document.title;
-			let _title = $("#contents-page>h1").text();
+			let _title = "「ソニックチャンネル」" + $("#contents-page>h1").text();
 			const $bodyPage = $("body").data("page");
 			if ($bodyPage === "special") {
-				_title = "ソニックチャンネル スペシャル"
+				_title = "「ソニックチャンネル」 スペシャル"
 			} else if ($bodyPage === "fangallery") {
-				_title = "ソニックチャンネル ファンギャラリー"
+				_title = "「ソニックチャンネル」 ファンギャラリー"
 			} else if ($bodyPage === "story") {
-				_title = "ソニックチャンネル ソニック ワールドストーリー"
+				_title = "「ソニックチャンネル」 ソニック ワールドストーリー"
 			} else if ($bodyPage === "character") {
-				_title = "ソニックチャンネル キャラクター"
+				_title = "「ソニックチャンネル」 キャラクター"
 			} else if ($bodyPage === "history") {
-				_title = "ソニックチャンネル ヒストリー"
-			} else {
-				_title = "ソニックチャンネル 公式ポータルサイト"
+				_title = "「ソニックチャンネル」 ヒストリー"
+			} else if ($bodyPage === "top") {
+				_title = "ソニック公式ポータルサイト「ソニックチャンネル」"
 			}
 			$(".snsTwitter").on("click", {
 				url: _url,
