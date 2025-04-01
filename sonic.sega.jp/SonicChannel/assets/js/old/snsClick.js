@@ -1,7 +1,8 @@
-$(document).ready(function () {
+$(function () {
+	const ogTitle = document.querySelector('meta[property="og:title"]').getAttribute('content');
 	const _url = document.URL;
 	//var _title = document.title;
-	let _title = "「ソニックチャンネル」" + $("#contents-page>h1").text();
+	let _title = ogTitle;
 	const $bodyPage = $("body").data("page");
 	if ($bodyPage === "special") {
 		_title = "「ソニックチャンネル」スペシャル"
