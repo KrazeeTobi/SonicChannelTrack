@@ -64,6 +64,7 @@ $(function () {
 			const itemMonth = currentItem.releaseMonth;
 			const itemDay = currentItem.releaseDay;
 			const itemTitle = currentItem.title;
+			const itemThumbName = currentItem.thumbName;
 			const itemFolder = currentItem.folder;
 			const itemVersion = currentItem.version;
 			const itemMoreUrl = currentItem.moreUrl;
@@ -94,13 +95,9 @@ $(function () {
 					releaseInfo = '配信予定';
 				}
 			}
-			let imgTag;
-			const imgUrl = `/SonicChannel/assets/images/common/history/${itemFolder}`;
-			if (itemVersion) {
-				imgTag = `<img src="${imgUrl}/thumb0${itemVersion}.webp" alt="${itemTitle}" width="512" height="512" loading="lazy">`;
-			} else {
-				imgTag = `<img src="${imgUrl}/thumb01.webp" alt="${itemTitle}" loading="lazy" width="512" height="512"> `;
-			}
+
+			const imgUrl = `https://sonic.sega.jp/SonicChannel/upload_images/gametitle_${itemThumbName}_square.webp`;
+			const imgTag = `<img src="${imgUrl}" alt="${itemTitle}" width="512" height="512" loading="lazy">`;
 			const historyYearStart = `<li><article id="${dataYearId}">
 			<div class="historyYearItem" >
 				<div class="historyYearTitle is-${dataYearClass}">

@@ -56,14 +56,8 @@ $(function () {
 					const relatedInfo = otherData.find(dataItem => dataItem.folder === title);
 
 					if (relatedInfo) {
-						let imageUrl;
+						const imageUrl = `https://sonic.sega.jp/SonicChannel/upload_images/gametitle_${relatedInfo.thumbName}_square.webp`;
 
-						if (event.version > 0) {
-
-							imageUrl = `/SonicChannel/assets/images/common/history/${relatedInfo.folder}/thumb0${event.version}.webp`;
-						} else {
-							imageUrl = `/SonicChannel/assets/images/common/history/${relatedInfo.folder}/thumb01.webp`;
-						}
 
 						function removeHashTag(url) {
 							return url.split('#')[0];
@@ -136,11 +130,13 @@ $(function () {
 				/*======
 				inview作ってみた
 				======*/
+				let targets = document.querySelectorAll('.eraItem');
 
 				function getCoordinates() {
 					$('.eraTitle').each(function (index) {
 						const position = $(this).position();
 						const bottom = position.top + $(this).outerHeight();
+						targets = document.querySelectorAll('.eraItem');
 					});
 
 				}
@@ -154,7 +150,7 @@ $(function () {
 				});
 
 
-				const targets = document.querySelectorAll('.eraItem');
+
 
 				// IntersectionObserverのオプション
 				const options = {
