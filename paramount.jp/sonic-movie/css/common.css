@@ -161,25 +161,6 @@ digital
 	padding:10px 0;
 }
 
-#digital ul{
-	width:690px;
-  justify-content: start;
-  align-items: start;
-	display: flex;
-	flex-wrap: wrap;
-	margin:40px auto 0;
-	position:relative;
-}
-
-#digital ul li{
-	width:217px;
-	margin:0 19px 20px 0;
-}
-
-#digital ul li:nth-child(3n){
-	margin-right:0;
-}
-
 /*---------------------------------------
 sell
 ---------------------------------------*/
@@ -189,11 +170,33 @@ sell
 	margin:50px auto 0;
 }
 
-#sell a{
+#bnr{
 	display:block;
 	width:390px;
 	position:relative;
 	margin:40px auto 0;
+}
+
+#digital ul,
+#sell ul{
+	width:690px;
+  justify-content: start;
+  align-items: start;
+	display: flex;
+	flex-wrap: wrap;
+	margin:40px auto 0;
+	position:relative;
+}
+
+#digital ul li,
+#sell ul li{
+	width:217px;
+	margin:0 19px 20px 0;
+}
+
+#digital ul li:nth-child(3n),
+#sell ul li:nth-child(3n){
+	margin-right:0;
 }
 
 #copyright{
@@ -235,7 +238,8 @@ sell
 		padding:14rem 0;
 	}
 
-	#digital ul{
+	#digital ul,
+	#sell ul{
 		width:650rem;
 	  justify-content: start;
 	  align-items: start;
@@ -245,16 +249,19 @@ sell
 		position:relative;
 	}
 
-	#digital ul li{
+	#digital ul li,
+	#sell ul li{
 		width:310rem;
 		margin:0 30rem 30rem 0;
 	}
 
-	#digital ul li:nth-child(3n){
+	#digital ul li:nth-child(3n),
+	#sell ul li:nth-child(3n){
 		margin-right:30rem;
 	}
 
-	#digital ul li:nth-child(2n){
+	#digital ul li:nth-child(2n),
+	#sell ul li:nth-child(2n){
 		margin-right:0;
 	}
 
@@ -264,7 +271,7 @@ sell
 		margin:70rem auto 0;
 	}
 
-	#sell a{
+	#bnr{
 		display:block;
 		width:650rem;
 		position:relative;
@@ -336,7 +343,8 @@ animation
 #digital .block_title,
 #digital ul li,
 #sell .block_title,
-#sell a{
+#sell ul li,
+#sell #bnr{
 	opacity:0;
 }
 
@@ -356,39 +364,48 @@ animation
   animation: fadeIn 2.0s cubic-bezier(0.19, 1, 0.22, 1) 0.4s forwards;
 }
 
-#digital.is_loaded ul li:nth-child(1){
+#digital.is_loaded ul li:nth-child(1),
+#sell.is_loaded ul li:nth-child(1){
   animation: fadeInUp 1.6s cubic-bezier(0.19, 1, 0.22, 1) 1.0s forwards;
 }
 
-#digital.is_loaded ul li:nth-child(2){
+#digital.is_loaded ul li:nth-child(2),
+#sell.is_loaded ul li:nth-child(2){
   animation: fadeInUp 1.6s cubic-bezier(0.19, 1, 0.22, 1) 1.2s forwards;
 }
 
-#digital.is_loaded ul li:nth-child(3){
+#digital.is_loaded ul li:nth-child(3),
+#sell.is_loaded ul li:nth-child(3){
   animation: fadeInUp 1.6s cubic-bezier(0.19, 1, 0.22, 1) 1.4s forwards;
 }
 
-#digital.is_loaded ul li:nth-child(4){
+#digital.is_loaded ul li:nth-child(4),
+#sell.is_loaded ul li:nth-child(4){
   animation: fadeInUp 1.6s cubic-bezier(0.19, 1, 0.22, 1) 1.6s forwards;
 }
 
-#digital.is_loaded ul li:nth-child(5){
+#digital.is_loaded ul li:nth-child(5),
+#sell.is_loaded ul li:nth-child(5){
   animation: fadeInUp 1.6s cubic-bezier(0.19, 1, 0.22, 1) 1.8s forwards;
 }
 
-#digital.is_loaded ul li:nth-child(6){
+#digital.is_loaded ul li:nth-child(6),
+#sell.is_loaded ul li:nth-child(6){
   animation: fadeInUp 1.6s cubic-bezier(0.19, 1, 0.22, 1) 2.0s forwards;
 }
 
-#digital.is_loaded ul li:nth-child(7){
+#digital.is_loaded ul li:nth-child(7),
+#sell.is_loaded ul li:nth-child(7){
   animation: fadeInUp 1.6s cubic-bezier(0.19, 1, 0.22, 1) 2.2s forwards;
 }
 
-#digital.is_loaded ul li:nth-child(8){
+#digital.is_loaded ul li:nth-child(8),
+#sell.is_loaded ul li:nth-child(8){
   animation: fadeInUp 1.6s cubic-bezier(0.19, 1, 0.22, 1) 2.4s forwards;
 }
 
-#digital.is_loaded ul li:nth-child(9){
+#digital.is_loaded ul li:nth-child(9),
+#sell.is_loaded ul li:nth-child(9){
   animation: fadeInUp 1.6s cubic-bezier(0.19, 1, 0.22, 1) 2.6s forwards;
 }
 
@@ -396,6 +413,6 @@ animation
   animation: fadeIn 2.0s cubic-bezier(0.19, 1, 0.22, 1) 0.4s forwards;
 }
 
-#sell.is_loaded a{
-  animation: fadeInUp 1.6s cubic-bezier(0.19, 1, 0.22, 1) 1.0s forwards;
+#sell.is_loaded #bnr{
+  animation: fadeInUp 1.6s cubic-bezier(0.19, 1, 0.22, 1) 2.8s forwards;
 }
