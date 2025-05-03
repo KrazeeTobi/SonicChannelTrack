@@ -1,0 +1,864 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head id="head"><title>
+	CES Exhibitor Manuals - CES 2017
+</title><meta name="description" content="Explore these customized and detailed guides to building out your presence at CES." /> 
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" /> 
+<meta http-equiv="pragma" content="no-cache" /> 
+<meta http-equiv="content-style-type" content="text/css" /> 
+<meta http-equiv="content-script-type" content="text/javascript" /> 
+<meta name="keywords" content="International CES, CES, CES 2010, CES 2011, CES 2012, CES 2013, CES 2014, CES 2015, CES 2016, CES 2017, CES 2018, Consumer Electronics Show, Consumer Technology, Consumer Electronics, Consumer Electronics Association, CES Las Vegas, ces show, ces vegas, CES Unveiled, ces tradeshow, ces conference, ces registration, ces exhibitor, ces innovation awards, innovation awards, best of ces, ces keynote, ces show floor, technology, silicon valley, technology innovation, disruptive technology, start-ups,CES, consumer electronics show, consumer technology, trade show, innovation, startups, business, networking, venture capitalists, global, exhibitors" /> 
+<link href="/CMSPages/GetResource.ashx?stylesheetname=Blank_1" type="text/css" rel="stylesheet"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"> <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+<!-- open graph -->
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="CES" />
+<meta property="og:url" content="http://www.ces.tech/Exhibit,-Sponsor,-Advertise-or-Partner/Show-Planning/Exhibitor-Manuals.aspx" />
+<meta property="og:title" content="Exhibitor Manuals" />
+<meta property="og:description" content="Explore these customized and detailed guides to building out your presence at CES.">
+<meta property="og:image" content="http://www.ces.tech">
+<!-- open graph -->
+
+<meta property="twitter:account_id" content="10668202" />
+<!-- Twitter Summary Card -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@CES">
+<meta name="twitter:creator" content="@CES">
+<meta name="twitter:title" content="Exhibitor Manuals">
+<meta name="twitter:description" content="Explore these customized and detailed guides to building out your presence at CES.">
+<meta name="twitter:image" content="http://www.ces.tech">
+<!-- End of Twitter Summary Card -->
+
+<link rel="apple-touch-icon-precomposed" sizes="57x57" href="/CES/media/favicons/apple-touch-icon-57x57.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/CES/media/favicons/apple-touch-icon-114x114.png" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/CES/media/favicons/apple-touch-icon-72x72.png" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/CES/media/favicons/apple-touch-icon-144x144.png" />
+<link rel="apple-touch-icon-precomposed" sizes="60x60" href="/CES/media/favicons/apple-touch-icon-60x60.png" />
+<link rel="apple-touch-icon-precomposed" sizes="120x120" href="/CES/media/favicons/apple-touch-icon-120x120.png" />
+<link rel="apple-touch-icon-precomposed" sizes="76x76" href="/CES/media/favicons/apple-touch-icon-76x76.png" />
+<link rel="apple-touch-icon-precomposed" sizes="152x152" href="/CES/media/favicons/apple-touch-icon-152x152.png" />
+<link rel="icon" type="image/png" href="/CES/media/favicons/favicon-196x196.png" sizes="196x196" />
+<link rel="icon" type="image/png" href="/CES/media/favicons/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/png" href="/CES/media/favicons/favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="/CES/media/favicons/favicon-16x16.png" sizes="16x16" />
+<link rel="icon" type="image/png" href="/CES/media/favicons/favicon-128.png" sizes="128x128" />
+<meta name="application-name" content="&nbsp;"/>
+<meta name="msapplication-TileColor" content="#FFFFFF" />
+<meta name="msapplication-TileImage" content="/CES/media/favicons/mstile-144x144.png" />
+<meta name="msapplication-square70x70logo" content="/CES/media/favicons/mstile-70x70.png" />
+<meta name="msapplication-square150x150logo" content="/CES/media/favicons/mstile-150x150.png" />
+<meta name="msapplication-wide310x150logo" content="/CES/media/favicons/mstile-310x150.png" />
+<meta name="msapplication-square310x310logo" content="/CES/media/favicons/mstile-310x310.png" />
+
+
+<!-- Added by Jay - 4/15/2015 -->
+<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css"> -->
+<link rel="stylesheet" href="/Content/theme.min.css">
+<!-- <link href="/CMSPages/GetResource.ashx?stylesheetname=ices-main-style" type="text/css" rel="stylesheet"/> -->
+<!-- END Added by Jay - 4/15/2015 -->
+
+<link href="/CMSPages/GetResource.ashx?stylesheetname=ices-captions" type="text/css" rel="stylesheet"  />
+<link href="/CMSPages/GetResource.ashx?stylesheetname=ices-slider-style" type="text/css" rel="stylesheet" media="screen" />
+<link href="/CMSPages/GetResource.ashx?stylesheetname=ices-flexslider" type="text/css" rel="stylesheet" />
+<link href="/CMSPages/GetResource.ashx?stylesheetname=ices-prettyphoto" type="text/css" rel="stylesheet" />
+<link href="/CMSPages/GetResource.ashx?stylesheetname=ices-settings" type="text/css" rel="stylesheet" media="screen" />
+<link href="/CMSPages/GetResource.ashx?stylesheetname=ices-fonts" type="text/css" rel="stylesheet" media="screen" />
+<link href="/CMSPages/GetResource.ashx?stylesheetname=ices-print" type="text/css" rel="stylesheet" media="print" />
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<!-- Bootstrap causes conflicts with CMSDesk so we only include this reference if we aren't in Edit mode -->
+
+<!-- Added by Jay - 4/15/2015 -->
+
+<script type="text/javascript" src="/CES/bootstrap/js/bootstrap.min.js"></script>
+<!-- END Added by Jay - 4/15/2015 -->
+
+
+<script type="text/javascript" src="//maps.google.com/maps/api/js?sensor=false"></script>
+<script type="text/javascript" src="/ces/js/itn/jquery.cookie.js"></script>
+<!-- Added by BH - 4/22/2015 for something in script.js-->
+<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<!-- END Added by BH - 4/22/2015 -->
+<script type="text/javascript" src="/ces/js/scripts.js"></script>
+<!--<script type="text/javascript" src="/ces/js/jquery.themepunch.revolution.min.js"></script>-->
+<script type="text/javascript" src="/ces/js/custom.js"></script>
+
+<script type="text/javascript">
+  <!--
+    function toggle_visibility(id) {
+      var e = document.getElementById(id);
+      if (e.style.display == 'block')
+        e.style.display = 'none';
+      else
+        e.style.display = 'block';
+    }
+      //-->
+</script>
+<script type="text/javascript">
+  function EnterEvent(e) {
+    if (e.keyCode == 13) {
+      var val = document.getElementById('searchTxt').value;
+      var sURL = '/search-results?searchtext=' + val + '&searchmode=anyword';
+      window.location.href = sURL;
+      return false;
+    }
+  }
+  
+jQuery(document).ready(function ($) {
+  var mainMenu = $(".main-menu>li") 
+  jQuery.each(mainMenu,function()
+    {
+      var firstLevelItem = $(this).children('ul');// $('#'+ count +' > ul');
+      var dropdownCSSClass = "";
+      var secondLevelItems = firstLevelItem.children('li');//$('#'+ count +' ul > li');
+      var secondLevelItemsCount = secondLevelItems.length;
+       
+      if(secondLevelItemsCount>10)
+        dropdownCSSClass = "nav-3cols";
+      else if(secondLevelItemsCount<=10 && secondLevelItemsCount>6)
+        dropdownCSSClass = "nav-2cols";
+      
+      firstLevelItem.addClass(dropdownCSSClass);
+      
+        for (var i = 0; i < secondLevelItemsCount; i += 5) {
+          secondLevelItems.slice(i, i + 5).wrapAll('<div class="nav-col"></div>');
+        }
+       
+      
+    });
+    
+    
+  });
+</script>
+<script type="text/javascript">var switchTo5x=false;</script>
+<script type="text/javascript" src="//w.sharethis.com/button/buttons.js"></script>
+<script type="text/javascript">stLight.options({publisher: "a17beaa8-5eee-4df7-8629-9947a3e965e3",  offsetLeft:'-270', doNotHash: true, doNotCopy: false, hashAddressBar: false, exclusive_services:true, services:"facebook,twitter,linkedin,googleplus,email,sharethis", minorServices:false});</script>
+
+
+
+<script type="text/javascript" src="/ces/js/cmsedit/WidgetSecurity_non_Admin.js"></script>
+
+<!-- CrazyEgg Tracking Script -->
+<script type="text/javascript">
+setTimeout(function(){var a=document.createElement("script");
+var b=document.getElementsByTagName("script")[0];
+a.src=document.location.protocol+"//script.crazyegg.com/pages/scripts/0044/9850.js?"+Math.floor(new Date().getTime()/3600000);
+a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
+</script><meta name="viewport" content="initial-scale=1.0, width=device-width, user-scalable=no" /> 
+<link href="/CMSPages/GetResource.ashx?_containers=34&amp;_templates=1085;1072&amp;_webparts=1067&amp;_webpartlayouts=279" type="text/css" rel="stylesheet"/>
+</head>
+<body class="LTR ENUS ContentBody" >
+    
+    <form method="post" action="/Exhibit,-Sponsor,-Advertise-or-Partner/Show-Planning/Exhibitor-Manuals.aspx" id="form">
+<input type="hidden" name="__CMSCsrfToken" id="__CMSCsrfToken" value="OB2nJVM1vxCA71y+vfe6GdgKrfdJnX7PE6mR4I+PVuWQKwAV9ac6icUa3HxDU99FCQVaSJF4ATAiNAB0ZW368S5+EKcgiqPCQ/dbWL9GfE8=" />
+
+
+<input type="hidden" name="lng" id="lng" value="en-US" />
+<script type="text/javascript">
+	//<![CDATA[
+
+function PM_Postback(param) { if (window.top.HideScreenLockWarningAndSync) { window.top.HideScreenLockWarningAndSync(1080); } if(window.CMSContentManager) { CMSContentManager.allowSubmit = true; }; __doPostBack('m$am',param); }
+function PM_Callback(param, callback, ctx) { if (window.top.HideScreenLockWarningAndSync) { window.top.HideScreenLockWarningAndSync(1080); }if (window.CMSContentManager) { CMSContentManager.storeContentChangedStatus(); };WebForm_DoCallback('m$am',param,callback,ctx,null,true); }
+//]]>
+</script>
+<script src="/ScriptResource.axd?d=qph9tUZ6hGPLbkznkRkqTaTQxZV9uVF1k4ArO9PbWWXQWsdmq02TOtPFtJdtDtZdyeU1kwvf_tZ8Igq4m-fG2sAyk7OnyAZnyHWSEHa16mYNztKrij7l63LEyOqmVgfr0&amp;t=7c776dc1" type="text/javascript"></script>
+<script type="text/javascript">
+	//<![CDATA[
+
+var CMS = CMS || {};
+CMS.Application = {
+  "isRTL": "false",
+  "isDebuggingEnabled": true,
+  "applicationUrl": "/",
+  "imagesUrl": "/CMSPages/GetResource.ashx?image=%5bImages.zip%5d%2f",
+  "isDialog": false
+};
+
+//]]>
+</script>
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="A5343185" />
+    
+    <div id="ctxM">
+
+</div>
+    
+<!--[if lt IE 9]>
+  <div style="display: block; width: 97%; background-color: #FF99CC; padding: 10px 30px 10px 30px; text-align: center; color: black; font-size:20px;">
+    We noticed you are using an older version of IE that isn't fully supported on this site. Please click <a  href="#">here</a> for more information and options.
+</div>
+<![endif]--> 
+<!-- TOP NAV -->
+<section>
+  <div id="__homepageAlerts" style="display: none;"></div>
+</section>
+<section>
+  <nav class="navbar navbar-default">
+    <div class="container">
+           <ul class="connect-title"><li>Connect With Us</li></ul>
+      <ul class="social_icons">
+	<li class="twitter"><a href="https://twitter.com/ces" title="Twitter">&nbsp;</a></li>
+	<li class="facebook"><a href="https://www.facebook.com/CES" title="facebook">&nbsp;</a></li>
+	<li class="googleplus"><a href="https://plus.google.com/+CES" title="googleplus">&nbsp;</a></li>
+	<li class="instagram"><a href="http://instagram.com/cesofficial" title="instagram">&nbsp;</a></li>
+	<li class="youtube"><a href="http://www.youtube.com/user/cesonthetube" title="youtube">&nbsp;</a></li>
+</ul>
+
+      <ul class="open-ad hidden-xs hidden-sm"><li id="clasp_1"><a href="javascript:lunchboxOpen('1');">OPEN ADVERTISEMENT</a></li></ul>
+      <div class="pull-right">
+<div class="row">
+<div class="col-xs-30"><a href="https://www.cta.tech"><img alt="" class="img-responsive" src="/CES/media/2014/BrandLogos/CTA_104_CTA_Logo_Hrz_Rev.png" /></a></div>
+
+<div class="col-xs-30"><a href="http://www.cesasia.cn/"><img alt="" src="/CES/media/2014/BrandLogos/CESAsia_104_TM_Hor_Solid_rev.png" /></a></div>
+</div>
+</div>
+
+    </div>
+  </nav>
+</section>
+
+<section>
+  <div class="billboard-ad hidden-xs hidden-sm">
+    <div class="container bill-ad lunchbox" id="lunch_1" style="display: none">
+      <div class="container bill-ad"><a id="p_lt_ctl02_BannerRotator_lnkBanner" class="CMSBanner Banner" href="/Register-Plan/Register-Now?utm_source=CEStech&amp;utm_campaign=CES2018-date&amp;utm_medium=WebAds" onclick="this.href=&#39;/CMSModules/BannerManagement/CMSPages/BannerRedirect.ashx?bannerID=121&#39;;" onmouseup="this.href=&#39;/CMSModules/BannerManagement/CMSPages/BannerRedirect.ashx?bannerID=121&#39;;" target="_blank"><img id="p_lt_ctl02_BannerRotator_imgBanner" src="/CES/media/advertisements/2018-save-the-date_728x90.jpg" style="" /></a></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div id="epiBackground" class="bk_white">
+    <div class="container">
+      <ul class="audience-nav">
+	<li><a href="/exhibitor">Exhibitors</a></li>
+	<li><a href="/media">Media</a></li>
+	<li><a href="/international">International</a></li>
+</ul>
+
+    </div>
+  </div>
+</section>
+<section>
+  <div id="sticky_navigation" class="bk_white">
+    <div class="container">
+      <div class="row" style="position: relative">
+        <div class="col-xs-40 col-sm-25 col-md-12 col-lg-12 mainlogo">
+          <img class="img-responsive" src="/CES/media/logos-and-icons/CES_CTA_Combo_Logo_1.jpg" usemap="#image-map">
+          <map name="image-map">
+            <area target="" alt="CES Home" title="CES Home" href="/" coords="220,139,1,1" shape="rect">
+            <area target="" alt="CTA Home" title="CTA Home" href="https://www.cta.tech" coords="222,1,400,139" shape="rect">
+          </map>
+        </div>
+        <div id="main-navigation" class="col-xs-60 col-md-44 col-lg-36 mainnav">
+          
+<ul class="main-menu sf-js-enabled sf-shadow main_nav_wrapper">
+ 
+    <li class=""
+id="2">
+<a href=" /Register-Plan"> Register &amp; Plan</a> 
+<ul><p style ="display:none;">&nbsp;</p><li><a href=" /Register-Plan/Register-Now"> Register Now</a>
+
+<li><a href=" /Register-Plan/Hotel"> Hotel</a>
+
+
+</ul></li><li class=""
+id="4">
+<a href=" /Show-Floor"> Show Floor</a> 
+<ul><p style ="display:none;">&nbsp;</p><li><a href=" /Show-Floor/Exhibit-or-Sponsor"> Exhibit or Sponsor</a>
+
+<li><a href=" /Show-Floor/What-to-See-at-Tech-East"> What to See at Tech East</a>
+
+<li><a href=" /Show-Floor/What-to-See-at-Tech-West"> What to See at Tech West</a>
+
+<li><a href=" /Show-Floor/What-to-See-at-Tech-South"> What to See at Tech South</a>
+
+<li><a href=" /Show-Floor/Marketplaces"> Marketplaces</a>
+
+<li><a href=" /Show-Floor/Exhibit-Directory"> Exhibitor Directory</a>
+
+<li><a href=" /Show-Floor/Maps"> Maps</a>
+
+
+</ul></li><li class=""
+id="5">
+<a href=" /Events-Programs"> Events &amp; Experiences</a> 
+<ul><p style ="display:none;">&nbsp;</p><li><a href=" /Events-Programs/CES-Unveiled"> CES Unveiled</a>
+
+<li><a href=" /Events-Programs/C-Space"> C Space</a>
+
+<li><a href=" /Events-Programs/Startups"> Startups</a>
+
+<li><a href=" /Events-Programs/Executive-Club"> Executive Club</a>
+
+<li><a href=" /Events-Programs/Garys-Book-Club"> Gary&#39;s Book Club</a>
+
+<li><a href=" /Events-Programs/Innovation-Awards"> Innovation Awards Program</a>
+
+<li><a href=" /Events-Programs/CES-Asia"> CES Asia</a>
+
+
+</ul></li><li class=""
+id="6">
+<a href=" /Conference"> Conference</a> 
+<ul><p style ="display:none;">&nbsp;</p><li><a href=" /Conference/ConferenceProgram"> Conference Program</a>
+
+<li><a href=" /Conference/Keynotes"> Keynote Addresses</a>
+
+<li><a href=" /Conference/Speaker-Resources"> Speaker Resources</a>
+
+
+</ul></li><li class=""
+id="7">
+<a href=" /News"> News</a> 
+<ul><p style ="display:none;">&nbsp;</p><li><a href=" /News/Press-Releases"> Press Releases</a>
+
+<li><a href=" /News/CES-TV"> Videos</a>
+
+<li><a href=" /News/Photo-Gallery"> Photo Gallery</a>
+
+<li><a href=" /News/CES-Social"> Social Media</a>
+
+<li><a href=" /News/CES-In-The-News"> CES in the News</a>
+
+<li><a href=" /News/Exhibitor-Press-Releases"> Exhibitor News</a>
+
+<li><a href=" /News/50-Years-of-CES"> 50 Years of CES</a>
+
+
+</ul></li><li class=""
+id="8">
+<a href=" /Why-CES"> Why CES?</a> 
+<ul><p style ="display:none;">&nbsp;</p><li><a href=" /Why-CES/CES-by-the-Numbers"> CES by the Numbers</a>
+
+<li><a href=" /Why-CES/CTA-Member-Benefits"> CTA Member Benefits</a>
+
+
+</ul>  </li>
+</ul>
+
+ <div id="main-navigation" style="display: none">
+
+  <select id="navSecondary" onChange="top.location.href=this.options[this.selectedIndex].value;">
+<option selected="selected" value="">Site Main Navigation</option><option style="font-family:open_sansbold;" value="/Register-Plan">Register & Plan</option><option style="font-family:open_sansbold;" value="/Show-Floor">Show Floor</option><option style="font-family:open_sansbold;" value="/Events-Programs">Events & Experiences</option><option style="font-family:open_sansbold;" value="/Conference">Conference</option><option style="font-family:open_sansbold;" value="/News">News</option><option style="font-family:open_sansbold;" value="/Why-CES">Why CES?</option><option style="font-family:open_sansbold;" value="/International">International</option><option style="font-family:open_sansbold;" value="/Exhibitor">Exhibit, Sponsor, Advertise or Partner</option>
+</select>
+</div>
+        </div>
+        <div class="col-xs-20 col-sm-25 col-md-4 col-lg-12 maintitle" style="position: absolute; right: 0;">
+          <div class="search">
+            <input type="search" id="searchTxt" onkeypress="return EnterEvent(event);" />
+          </div>  
+          <div class="date hidden-md">
+            <h2>Las Vegas, NV</h2>
+
+<h3>JANUARY 9-12, 2018</h3>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<div id="main-area" class="container">
+  <div class="hanger side-ads ads-left"></div>
+  <div class="hanger side-ads ads-right"></div>
+    <div class="row">
+      <div id="main-content-area" class="col-lg-60 page-area">
+
+<section>
+   <div class="page-area">
+      <div class="col-md-12 hidden-xs hidden-sm">
+        <div class="leftnav">
+          <ul><li><a href="/Exhibitor/Opportunities">Exhibit and Sponsorship Opportunities</a><li><a href="/Exhibitor/Contact-a-Sales-Representative">Contact a Sales Representative</a><li><a href="/Exhibitor/Media-and-PR-Opportunities">Exhibitor PR Opportunities</a><li class="left-up"><a href="/Exhibitor/Show-Planning">Show Planning</a><ul><li class="left-current"><a href="/Exhibitor/Show-Planning/Exhibitor-Manuals">Exhibitor Manuals</a><ul></ul></ul><li><a href="/Exhibitor/Venue-Organization">Venue Organization</a><li><a href="/Exhibitor/CES-Outboarding-Policy">CES Outboarding Policy</a></ul>
+
+         </div>
+         <a id="p_lt_ctl08_pageplaceholder_p_lt_ctl01_BannerRotator_lnkBanner" class="CMSBanner Banner" href="http://www.ces.tech/50-years-timeline/index.html?utm_source=CEStech&amp;utm_campaign=50years&amp;utm_medium=WebAds" onclick="this.href=&#39;/CMSModules/BannerManagement/CMSPages/BannerRedirect.ashx?bannerID=620&#39;;" onmouseup="this.href=&#39;/CMSModules/BannerManagement/CMSPages/BannerRedirect.ashx?bannerID=620&#39;;"><img id="p_lt_ctl08_pageplaceholder_p_lt_ctl01_BannerRotator_imgBanner" title="50 Years of CES" class="img-responsive" src="/CES/media/advertisements/50-years-timeline_300x250.jpg" alt="Whoa! A lot of amazing can happen over 50 years—just take a look at where CES began." style="" /></a>
+      </div>
+      <div class="col-sm-60 col-md-offset-2 col-md-46">
+        <div class="body-content">
+          <h1>Exhibitor Manuals</h1>
+          <div class="breadcrumbs">
+            <div class="row">
+              <div class="col-sm-40">
+                <ul>
+                  <li><a href="/Home.aspx">Home</a></li>
+                  <li class="bread-div">|</li>
+                  <li><a href="/Exhibit.aspx" class="CMSBreadCrumbsLink">Exhibit, Sponsor, Advertise or Partner</a> </li><li class="bread-div">|</li><li> <a href="/Exhibitor/Show-Planning.aspx" class="CMSBreadCrumbsLink">Show Planning</a> </li><li class="bread-div">|</li><li> <span  class="CMSBreadCrumbsCurrentItem">Exhibitor Manuals</span>
+</li>
+
+                </ul>
+              </div>
+              <div class="col-sm-20 text-center-xs text-right-sm right-breadcrumb">
+                <span  class="st_sharethis_custom" displayText="ShareThis"><a class="right-breadcrumb-item">Share This</a></span>
+                <a class="right-breadcrumb-item hidden-sm hidden-xs" href="javascript:window.print()">Print This Page</a>
+              </div>
+            </div>
+          </div>
+          <p class="intro-innov">  </p>
+          <div class="article-content-area">
+             
+             <p align="center"><a href="#floor-plans">Target Freight Floor Plans</a> | <a href="#rates">Topline Rates</a> | <a href="#manuals">Exhibitor Manuals</a> | <a href="#eac">EAC Information</a></p>
+
+<h2><br />
+<img alt="Target Freight Floor Plans" src="/CES/media/exhibitor-images/floor-plan_456x291.jpg" style="float: right; margin: auto 10px;" /><a id="floor-plans" name="floor-plans"></a>Target Freight Floor Plans</h2>
+
+<p>The CES 2018 target freight floor plans can help you plan for moving in and moving out of your exhibit space.</p>
+
+<h3 style="margin-bottom: -5px;">LVCC</h3>
+
+<p><a href="/CES/media/pdfs/exhibitor/lvcc-north-freight-move-in.pdf" target="_blank">LVCC North Hall Booth #s 3000-9999 Target Freight Move-In Floorplan</a><br />
+<a href="/CES/media/pdfs/exhibitor/lvcc-north-freight-move-out.pdf" target="_blank">LVCC North Hall Booth #s 3000-9999 Target Freight Move-Out Floorplan&nbsp;</a><br />
+<a href="/CES/media/pdfs/exhibitor/lvcc-north-meeting-freight-move-in.pdf" target="_blank">LVCC North Meeting Rooms N101-N119; N201-N249 Target Freight Move-In Floorplan&nbsp;</a><br />
+<a href="/CES/media/pdfs/exhibitor/lvcc-north-meeting-freight-move-out.pdf" target="_blank">LVCC North Meeting Rooms N101-N119; N201-N249 Target Freight Move-Out Floorplan&nbsp;</a><br />
+<a href="/CES/media/pdfs/exhibitor/lvcc-central-freight-move-in.pdf" target="_blank">LVCC Central Hall Booth #s 10000-19999 Target Freight Move-In Floorplan&nbsp;</a><br />
+<a href="/CES/media/pdfs/exhibitor/lvcc-central-freight-move-out.pdf" target="_blank">LVCC Central Hall Booth #s 10000-19999 Target Freight Move-Out Floorplan&nbsp;</a><br />
+<a href="/CES/media/pdfs/exhibitor/lvcc-s1-freight-move-in.pdf" target="_blank">LVCC South Hall 1 Booth #s 20000-22999 Target Freight Move-In Floorplan&nbsp;</a><br />
+<a href="/CES/media/pdfs/exhibitor/lvcc-s1-freight-move-out.pdf" target="_blank">LVCC South Hall 1 Booth #s 20000-22999 Target Freight Move-Out Floorplan&nbsp;</a><br />
+<a href="/CES/media/pdfs/exhibitor/lvcc-s2-freight-move-in.pdf" target="_blank">LVCC South Hall 2 Booth #s 25000-26999, MP25000-MP26999 Target Freight Move-In Floorplan&nbsp;</a><br />
+<a href="/CES/media/pdfs/exhibitor/lvcc-s2-freight-move-out.pdf" target="_blank">LVCC South Hall 2 Booth #s 25000-26999, MP25000-MP26999 Target Freight Move-Out Floorplan&nbsp;</a><br />
+<a href="/CES/media/pdfs/exhibitor/lvcc-s3-freight-move-in.pdf" target="_blank">LVCC South Hall 3 Booth #s 30000-32999 Target Freight Move-In Floorplan&nbsp;</a><br />
+<a href="/CES/media/pdfs/exhibitor/lvcc-s3-freight-move-out.pdf" target="_blank">LVCC South Hall 3 Booth #s 30000-32999 Target Freight Move-Out Floorplan&nbsp;</a><br />
+<a href="/CES/media/pdfs/exhibitor/lvcc-s4-freight-move-in.pdf" target="_blank">LVCC South Hall 4 Booth #s 35000-36999 Target Freight Move-In Floorplan&nbsp;</a><br />
+<a href="/CES/media/pdfs/exhibitor/lvcc-s4-freight-move-out.pdf" target="_blank">LVCC South Hall 4 Booth #s 35000-36999 Target Freight Move-Out Floorplan&nbsp;</a><br />
+<a href="/CES/media/pdfs/exhibitor/lvcc-central-plaza-freight-move-in.pdf" target="_blank">LVCC Central Plaza Booth #s CP1-CP39 Target Freight Move-In Floorplan&nbsp;</a><br />
+<a href="/CES/media/pdfs/exhibitor/lvcc-central-plaza-freight-move-out.pdf" target="_blank">LVCC Central Plaza Booth #s CP1-CP39 Target Freight Move-Out Floorplan</a></p>
+
+<h3 style="margin-bottom: -5px;">Sands/Venetian</h3>
+
+<p><a href="/CES/media/pdfs/exhibitor/sands-hallsad-freight-move-in.pdf" target="_blank">Sands, Halls A-D, Booth #s 40000-46999 Target Freight Move-In Floorplan</a><br />
+<a href="/CES/media/pdfs/exhibitor/sands-hallsad-freight-move-out.pdf" target="_blank">Sands, Halls A-D, Booth #s 40000-46999 Target Freight Move-Out Floorplan</a><br />
+<a href="/CES/media/pdfs/exhibitor/sands-hallg-freight-move-in.pdf" target="_blank">Sands, Hall G, Booth #s 50000-53999 Target Freight Move-In Floorplan</a><br />
+<a href="/CES/media/pdfs/exhibitor/sands-hallg-freight-move-out.pdf" target="_blank">Sands, Hall G, Booth #s 50000-53999 Target Freight Move-Out Floorplan</a><br />
+<a href="/CES/media/pdfs/exhibitor/venetian-level2-freight-move-in.pdf" target="_blank">Venetian, Level 2 Meeting Rooms Target Freight Move-In Floorplan</a><br />
+<a href="/CES/media/pdfs/exhibitor/venetian-level2-freight-move-out.pdf" target="_blank">Venetian, Level 2 Meeting Rooms Target Freight Move-Out Floorplan</a><br />
+<a href="/CES/media/pdfs/exhibitor/venetian-level3-freight-move-in.pdf" target="_blank">Venetian, Level 3 Meeting Rooms Target Freight Move-In Floorplan</a><br />
+<a href="/CES/media/pdfs/exhibitor/venetian-level3-freight-move-out.pdf" target="_blank">Venetian, Level 3 Meeting Rooms Target Freight Move-Out Floorplan</a><br />
+<a href="/CES/media/pdfs/exhibitor/venetian-level4-freight-move-in.pdf" target="_blank">Venetian, Level 4 Meeting Rooms Target Freight Move-In Floorplan</a><br />
+<a href="/CES/media/pdfs/exhibitor/venetian-level4-freight-move-out.pdf" target="_blank">Venetian, Level 4 Meeting Rooms Target Freight Move-Out Floorplan</a></p>
+
+<h3 style="margin-bottom: -5px;">Westgate</h3>
+
+<p><a href="/CES/media/pdfs/exhibitor/westgate-freight-move-in.pdf" target="_blank">Westgate Booth #s 300-2999 Target Freight Move-In Floorplan</a><br />
+<a href="/CES/media/pdfs/exhibitor/westgate-freight-move-out.pdf" target="_blank">Westgate Booth #s 300-2999 Target Freight Move-Out Floorplan</a></p>
+
+<h2><a id="rates" name="rates"></a><br />
+<img alt="Topline Rates" src="/CES/media/exhibitor-images/forklift_456x291.jpg" style="float: right; margin: auto 10px;" />Topline Rates</h2>
+
+<p><em>All rates will be published Sept. 1 in the CES exhibitor manuals.</em></p>
+
+<p>Start budgeting for the show&nbsp;with these topline rates for the LVCC and Sands/Venetian for CES 2018. &nbsp;</p>
+
+<h3 style="margin-bottom: -5px;">Las Vegas Convention Center</h3>
+
+<p><strong>Material Handling</strong> &ndash; per 100 lbs. (100 lb. Minimum)</p>
+
+<table border="1" cellpadding="1" cellspacing="1" style="width: 50%;">
+	<tbody>
+		<tr>
+			<td>Warehouse crated</td>
+			<td>$62.05</td>
+		</tr>
+		<tr>
+			<td>Show site crated</td>
+			<td>$47.20</td>
+		</tr>
+		<tr>
+			<td>Show site uncrated</td>
+			<td>$57.80</td>
+		</tr>
+		<tr>
+			<td>Small packages</td>
+			<td>No charge up to 50 lbs.&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+
+<p><br />
+<strong>Forklift with Operator</strong></p>
+
+<table border="1" cellpadding="1" cellspacing="1" style="width: 50%;">
+	<tbody>
+		<tr>
+			<td>Straight time</td>
+			<td>$168.25</td>
+		</tr>
+		<tr>
+			<td>Overtime</td>
+			<td>$221.00</td>
+		</tr>
+	</tbody>
+</table>
+
+<p><br />
+<strong>Installation &amp; Dismantle Labor</strong></p>
+
+<table border="1" cellpadding="1" cellspacing="1" style="width: 50%;">
+	<tbody>
+		<tr>
+			<td>Straight time</td>
+			<td>$76.35</td>
+		</tr>
+		<tr>
+			<td>Overtime</td>
+			<td>$122.55</td>
+		</tr>
+	</tbody>
+</table>
+
+<p><br />
+<strong>Ground Labor &ndash; Teamster, Sign Assembly</strong></p>
+
+<table border="1" cellpadding="1" cellspacing="1" style="width: 50%;">
+	<tbody>
+		<tr>
+			<td>Straight time</td>
+			<td>$76.50</td>
+		</tr>
+		<tr>
+			<td>Overtime</td>
+			<td>$125.65</td>
+		</tr>
+	</tbody>
+</table>
+
+<p><br />
+<strong>Condor Crew&nbsp;</strong></p>
+
+<table border="1" cellpadding="1" cellspacing="1" style="width: 50%;">
+	<tbody>
+		<tr>
+			<td>Advance</td>
+			<td>$406.05</td>
+		</tr>
+		<tr>
+			<td>Show site</td>
+			<td>$528.10</td>
+		</tr>
+	</tbody>
+</table>
+
+<p><br />
+<strong>Ground Labor &ndash; Stagehand</strong></p>
+
+<table border="1" cellpadding="1" cellspacing="1" style="width: 50%;">
+	<tbody>
+		<tr>
+			<td>Straight time</td>
+			<td>$97.05</td>
+		</tr>
+		<tr>
+			<td>Overtime&nbsp;</td>
+			<td>$185.65</td>
+		</tr>
+	</tbody>
+</table>
+
+<p><br />
+<strong>Electrical Labor&nbsp;</strong></p>
+
+<table border="1" cellpadding="1" cellspacing="1" style="width: 50%;">
+	<tbody>
+		<tr>
+			<td>Straight time</td>
+			<td>$97.05</td>
+		</tr>
+		<tr>
+			<td>Overtime</td>
+			<td>$185.65</td>
+		</tr>
+	</tbody>
+</table>
+
+<p><br />
+<strong>Electrical Services&nbsp;</strong></p>
+
+<table border="1" cellpadding="1" cellspacing="1" style="width: 100%;">
+	<tbody>
+		<tr>
+			<td>500-watt outlet</td>
+			<td>$87.55 Advance&nbsp;</td>
+			<td>$131.05 Regular</td>
+		</tr>
+		<tr>
+			<td>2000-watt/20-amp</td>
+			<td>&nbsp;$230.45 Advance</td>
+			<td>$345.80 Regular</td>
+		</tr>
+		<tr>
+			<td>20-amp single phase</td>
+			<td>$344.25 Advance</td>
+			<td>$516.45 Regular</td>
+		</tr>
+		<tr>
+			<td>20-amp three phase</td>
+			<td>$388.05 Advance</td>
+			<td>$582.10 Regular</td>
+		</tr>
+	</tbody>
+</table>
+
+<h3 style="margin-bottom: -5px;">Sands/Venetian</h3>
+
+<p><strong>Material Handling</strong> &ndash; per 100 lbs. (100 lb. Minimum)<br />
+&nbsp;&nbsp; &nbsp;<br />
+<strong>Sands Halls A-D, G</strong></p>
+
+<table border="1" cellpadding="1" cellspacing="1" style="width: 50%;">
+	<tbody>
+		<tr>
+			<td>Warehouse crated</td>
+			<td>$62.05</td>
+		</tr>
+		<tr>
+			<td>Show site crated</td>
+			<td>$47.20</td>
+		</tr>
+		<tr>
+			<td>Show site uncrated</td>
+			<td>$57.80</td>
+		</tr>
+		<tr>
+			<td>Small packages</td>
+			<td>No charge up to 50 lbs.&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+
+<p><br />
+<strong>Venetian Meeting Rooms</strong></p>
+
+<table border="1" cellpadding="1" cellspacing="1" style="width: 50%;">
+	<tbody>
+		<tr>
+			<td>Warehouse crated</td>
+			<td>$47.20</td>
+		</tr>
+		<tr>
+			<td>Show site crated</td>
+			<td>$78.25</td>
+		</tr>
+		<tr>
+			<td>Small packages</td>
+			<td>No charge up to 50 lbs.&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+
+<p><br />
+<strong>Venetian Suites</strong></p>
+
+<table border="1" cellpadding="1" cellspacing="1" style="width: 50%;">
+	<tbody>
+		<tr>
+			<td>Warehouse crated</td>
+			<td>$85.05</td>
+		</tr>
+		<tr>
+			<td>Show site crated</td>
+			<td>$109.15</td>
+		</tr>
+		<tr>
+			<td>Small packages</td>
+			<td>No charge up to 50 lbs.&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+
+<p><br />
+<strong>Forklift with Operator</strong></p>
+
+<table border="1" cellpadding="1" cellspacing="1" style="width: 50%;">
+	<tbody>
+		<tr>
+			<td>Straight time&nbsp;</td>
+			<td>$168.25</td>
+		</tr>
+		<tr>
+			<td>Overtime</td>
+			<td>$221.00</td>
+		</tr>
+	</tbody>
+</table>
+
+<p><br />
+<strong>Installation &amp; Dismantle Labor</strong></p>
+
+<table border="1" cellpadding="1" cellspacing="1" style="width: 50%;">
+	<tbody>
+		<tr>
+			<td>Straight time&nbsp;</td>
+			<td>$76.35</td>
+		</tr>
+		<tr>
+			<td>Overtime</td>
+			<td>$122.55</td>
+		</tr>
+	</tbody>
+</table>
+
+<p><br />
+<strong>Ground Labor &ndash; Teamster, Sign Assembly</strong></p>
+
+<table border="1" cellpadding="1" cellspacing="1" style="width: 50%;">
+	<tbody>
+		<tr>
+			<td>Straight time</td>
+			<td>$76.50</td>
+		</tr>
+		<tr>
+			<td>Overtime&nbsp;</td>
+			<td>$125.65</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>If you have questions about these rates or those at other official CES venues, please <a href="mailto:CESops@CTA.tech">contact CES Operations</a>.</p>
+
+<h2><br />
+<a id="manuals" name="manuals"></a><img alt="Exhibitor Manuals" src="/CES/media/exhibitor-images/exhibitor-manual_456x291.jpg" style="float: right; margin: auto 10px;" />Exhibitor Manuals</h2>
+
+<p><em>CES 2018 exhibitor manuals will be posted on Sept. 1.&nbsp;</em></p>
+
+<h3 style="margin-bottom: -5px;">CES 2017 Exhibitor Manuals</h3>
+
+<p>See what you can expect by reviewing the CES 2017 exhibitor manuals.</p>
+
+<ul>
+	<li><a href="http://www.freemanco.com/store/show/landing.jsp?nav=02&amp;showID=430666&amp;referer=s" target="_blank">LVCC Exhibitor Manual</a></li>
+	<li><a href="http://www.freemanco.com/store/show/landing.jsp?nav=02&amp;showID=430951&amp;referer=s" target="_blank">LVCC Meeting Place Exhibitor Manual</a></li>
+	<li><a href="http://www.freemanco.com/store/show/landing.jsp?nav=02&amp;showID=430953&amp;referer=s" target="_blank">Westgate Exhibitor Manual</a></li>
+	<li><a href="/CES/media/pdfs/Westgate-Hospitality-Suites-Manual.pdf" target="_blank">Westgate Hospitality Suites Manual</a>&nbsp;(PDF)</li>
+	<li><a href="/CES/media/pdfs/Renaissance-Hospitality-Suites-Manual.pdf" target="_blank">Renaissance Hospitality Suites Manual</a>&nbsp;(PDF)</li>
+	<li><a href="/CES/media/pdfs/Renaissance-Meeting-Rooms-Manual.pdf" target="_blank">Renaissance Meeting Room Manual</a>&nbsp;(PDF)</li>
+	<li><a href="http://www.freemanco.com/store/show/landing.jsp?nav=02&amp;showID=430955&amp;referer=s" target="_blank">Sands/Venetian Exhibitor Manual</a></li>
+	<li><a href="http://www.freemanco.com/store/show/landing.jsp?nav=02&amp;showID=430950&amp;referer=s" target="_blank">Venetian Exhibit Suites Manual</a></li>
+	<li><a href="/CES/media/pdfs/VenPal-Hospitality-Suites-Manual.pdf" target="_blank">Venetian/Palazzo Hospitality Suites Manual</a>&nbsp;(PDF)</li>
+	<li><a href="/CES/media/pdfs/WynnEncore-Hospitality-Suites-Manual.pdf" target="_blank">Wynn/Encore Hospitality Suites Manual</a>&nbsp;(PDF)</li>
+	<li><a href="http://www.freemanco.com/store/show/landing.jsp?nav=02&amp;showID=431039&amp;referer=s" target="_blank">ARIA Exhibitor Manual</a></li>
+	<li><a href="/CES/media/pdfs/ARIA-Hospitality-Suites-Manual.pdf" target="_blank">ARIA Hospitality Suites Manual</a>&nbsp;(PDF)</li>
+	<li><a href="/CES/media/pdfs/Vdara-Hospitality-Suites-Manual.pdf" target="_blank">Vdara Hospitality Suites Manual</a>&nbsp;(PDF)</li>
+	<li><a href="http://www.freemanco.com/store/show/landing.jsp?nav=02&amp;showID=430956&amp;referer=s" target="_blank">Mandalay Bay Press Event Manual</a>&nbsp;</li>
+</ul>
+
+<h2><br />
+<a id="eac" name="eac"></a>EAC Information and Registration</h2>
+
+<p>Exhibitor appointed contractors (EACs) are independent contractors hired by exhibiting companies.&nbsp;<em>You can complete registration for your EACs in the fall.</em></p>
+
+<p>If you need any assistance or have any questions, please contact the <a href="mailto:CESops@CTA.tech">CES Operations team</a> or <a href="mailto:FreemanLasVegasES@freemanco.com">Freeman</a>.</p>
+
+             
+          </div>
+         </div>
+      </div>
+   </div>
+</section><script type="text/javascript" src="http://7210430.collect.igodigital.com/collect.js"></script> <script type="text/javascript"> _etmc.push(["setOrgId", "7210430"]); _etmc.push(["trackPageView"]); </script></div>
+    </div>
+</div>
+    
+<section>
+    <div id="footer" class="clear-fix">
+        <div class="container">
+            <div class="doubleDashedHR"></div>
+            <div class="text-center-xs col-xs-60 text-left-md col-md-15">
+                <p class="copyright">Copyright &copy; 2003 - 2017 CTA. All rights reserved.</p>
+<script>
+!function(f,e,a,t,h,r){if(!f[h]){r=f[h]=function(){r.invoke?
+r.invoke.apply(r,arguments):r.queue.push(arguments)},
+r.queue=[],r.loaded=1*new Date,r.version="1.0.0",
+f.FeathrBoomerang=r;var g=e.createElement(a),
+h=e.getElementsByTagName("head")[0]||e.getElementsByTagName("script")[0].parentNode;
+g.async=!0,g.src=t,h.appendChild(g)}
+}(window,document,"script","https://cdn.feathr.co/js/boomerang.min.js","feathr")
+ 
+feathr("fly", "583cac778e80276912b44300");
+feathr("sprinkle", "page_view");
+</script><script type="text/javascript">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-3975226-4', 'auto');
+
+// Load the plugin.
+ga('require', 'linker');
+// Define which domains to autoLink.
+ga('linker:autoLink', ['itnint.com']);
+  ga('send', 'pageview');
+  ga('send', 'event', {
+      'eventCategory': 'Link',   
+      'eventAction': 'click',     
+      'eventLabel': event.currentTarget.href ,
+      'page': window.location.pathname});
+  ga('send', 'event', {
+      'eventCategory': 'Document',   
+      'eventAction': 'Download',     
+      'eventLabel': event.currentTarget.href ,
+      'page': window.location.pathname});
+
+</script>
+            </div>
+            <div class="text-center-xs col-xs-60 text-left-md col-md-15 doubleDashedVR">
+                <ul>
+	<li><a href="/about-us">About Us </a></li>
+	<li><a href="/contact-us">Contact Us</a></li>
+	<li><a href="/partners">Partners</a></li>
+	<li><a href="/Exhibitor/CES-Logo-Usage-Request-Form.aspx">Logo Usage Request</a></li>
+</ul>
+
+            </div>
+            <div class="text-center-xs col-xs-60 text-left-md col-md-10 doubleDashedVR">
+                <ul>
+	<li>
+		<a href="/privacy">Privacy</a></li>
+	<li>
+		<a href="/sitemap">Sitemap</a></li>
+</ul>
+<br /><div style="font-size: .8em; color: #FFF;"><span id="p_lt_ctl11_whatServer_serverName">WEB-IIS70</span></div>
+            </div>
+            <div class="col-xs-60 text-center-xs text-left-md col-md-20 languages">
+                
+
+<script type="text/javascript" charset="utf-8">
+    jQuery(document).ready(function ($) 
+        {
+            var a = $('div.lang > li');
+		if(a.length<=1)
+		{
+			$('#languageSelector').parent().hide();
+			
+		}	
+else
+{
+            for( var i = 0; i < a.length; i+=3 ) {
+                a.slice(i, i+3).wrapAll('<ul class="columns"></ul>');
+            }
+}
+    });
+ </script>
+
+<div class="languages" id="languageSelector">
+<h4> LANGUAGES </h4>
+<div class="lang">
+
+ <li class='selected-language'>
+    <a title="English" href="/Exhibit,-Sponsor,-Advertise-or-Partner/Show-Planning/Exhibitor-Manuals.aspx ">English</a>
+</li>
+
+            </div>
+        </div>
+    </div>
+</section>
+<script type="text/javascript" src="/CES/js/HomepageAlerts/alert.js"></script>
+    
+      <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+  <script type="text/javascript"> 
+      //<![CDATA[
+      if (window.WebForm_InitCallback) { 
+        __theFormPostData = '';
+        __theFormPostCollection = new Array();
+        window.WebForm_InitCallback(); 
+      }
+      //]]>
+    </script>
+  </form>
+</body>
+</html>

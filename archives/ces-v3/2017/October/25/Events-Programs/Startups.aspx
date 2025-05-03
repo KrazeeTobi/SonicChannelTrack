@@ -1,0 +1,308 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head id="head"><title>
+	Startups - CES 2018
+</title><meta name="description" content="Allowing access to over 3,500 financial professionals, key investors and suppliers, Eureka Park provides startups with a unique opportunity for networking and showcasing ingenuity. " /> 
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" /> 
+<meta http-equiv="pragma" content="no-cache" /> 
+<meta http-equiv="content-style-type" content="text/css" /> 
+<meta http-equiv="content-script-type" content="text/javascript" /> 
+<meta name="keywords" content="International CES, CES, CES 2010, CES 2011, CES 2012, CES 2013, CES 2014, CES 2015, CES 2016, CES 2017, CES 2018, Consumer Electronics Show, Consumer Technology, Consumer Electronics, Consumer Electronics Association, CES Las Vegas, ces show, ces vegas, CES Unveiled, ces tradeshow, ces conference, ces registration, ces exhibitor, ces innovation awards, innovation awards, best of ces, ces keynote, ces show floor, technology, silicon valley, technology innovation, disruptive technology, start-ups,CES, consumer electronics show, consumer technology, trade show, innovation, startups, business, networking, venture capitalists, global" /> 
+<meta http-equiv="X-UA-Compatible" content="IE=edge"> <title>CES Startups</title>
+  <meta name="referrer" content="origin" />
+  <meta charSet="utf-8" />
+  <meta name="description" content="Startups at CES 2018" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="CES" />
+  <meta property="og:url" content="http://www.ces.tech/Events-Programs/Startups.aspx" />
+  <meta property="og:title" content="Startups" />
+  <meta property="og:description" content="Allowing access to over 3,500 financial professionals, key investors and suppliers, Eureka Park provides startups with a unique opportunity for networking and showcasing ingenuity. " />
+  <meta property="og:image" content="http://www.ces.tech/CES/media/CES-2018-hz-landing-pages/startups/startups_380x215.jpg?ext=.jpg" />
+
+  <meta property="twitter:account_id" content="10668202" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@CES" />
+  <meta name="twitter:creator" content="@CES" />
+  <meta name="twitter:title" content="Startups" />
+  <meta name="twitter:description" content="Allowing access to over 3,500 financial professionals, key investors and suppliers, Eureka Park provides startups with a unique opportunity for networking and showcasing ingenuity. " />
+  <meta name="twitter:image" content="http://www.ces.tech/CES/media/CES-2018-hz-landing-pages/startups/startups_380x215.jpg?ext=.jpg" />
+
+  <link rel="stylesheet" href="/CES/media/CES-2018-hz-landing-pages/startups/styles.css" /> 
+<link href="/CMSPages/GetResource.ashx?_templates=1319" type="text/css" rel="stylesheet"/>
+</head>
+<body class="LTR Gecko Gecko39 ENUS ContentBody" >
+    
+    <form method="post" action="/Events-Programs/Startups.aspx" id="form">
+<div class="aspNetHidden">
+<input type="hidden" name="__CMSCsrfToken" id="__CMSCsrfToken" value="ZZbPXN/AH4DrLI6ucfpgHkh0mfnGhfX5k94wzeifd4nAtV30ndO30nT+UDQ4w175La4mIFyBGOoQm6LiYfvcAOuS2aEcesDTsN8vi5p51uE=" />
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form'];
+if (!theForm) {
+    theForm = document.form;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=pynGkmcFUV13He1Qd6_TZO3JTfxptV7ejZA-lEraTfajOzujnIjGHzQVeXCh_iip3i7wOdnAI3qoH6TtSKLjmQ2&amp;t=636160660665894255" type="text/javascript"></script>
+
+<input type="hidden" name="lng" id="lng" value="en-US" />
+<script type="text/javascript">
+	//<![CDATA[
+
+function PM_Postback(param) { if (window.top.HideScreenLockWarningAndSync) { window.top.HideScreenLockWarningAndSync(1080); } if(window.CMSContentManager) { CMSContentManager.allowSubmit = true; }; __doPostBack('m$am',param); }
+function PM_Callback(param, callback, ctx) { if (window.top.HideScreenLockWarningAndSync) { window.top.HideScreenLockWarningAndSync(1080); }if (window.CMSContentManager) { CMSContentManager.storeContentChangedStatus(); };WebForm_DoCallback('m$am',param,callback,ctx,null,true); }
+//]]>
+</script>
+<script src="/ScriptResource.axd?d=x6wALODbMJK5e0eRC_p1LdMSnsvj6hWi651TbwlIEkj25NFCvbuOlsOiRXlHu37ZJZDn_qhd2IQoNiyCZVe7ff2smb7Htbt5lWJu0b7ndiQMjIKQJrGPwelrLL1Or5rF0&amp;t=7c776dc1" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=P5lTttoqSeZXoYRLQMIScCEKC-YN8plE6xgVN2D2SsFoFs8VM78KCbg9mJQKnQwBPBAjYFK304SNcpUGOAcLtD59S_qefoF89FsSBf-5MbY8TAFtOlJtjCV3IBi6C7tv0&amp;t=7c776dc1" type="text/javascript"></script>
+<script type="text/javascript">
+	//<![CDATA[
+
+var CMS = CMS || {};
+CMS.Application = {
+  "isRTL": "false",
+  "isDebuggingEnabled": true,
+  "applicationUrl": "/",
+  "imagesUrl": "/CMSPages/GetResource.ashx?image=%5bImages.zip%5d%2f",
+  "isDialog": false
+};
+
+//]]>
+</script>
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="A5343185" />
+	<input type="hidden" name="__SCROLLPOSITIONX" id="__SCROLLPOSITIONX" value="0" />
+	<input type="hidden" name="__SCROLLPOSITIONY" id="__SCROLLPOSITIONY" value="0" />
+</div>
+    <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('manScript', 'form', ['tctxM',''], [], [], 90, '');
+//]]>
+</script>
+
+    <div id="ctxM">
+
+</div>
+    
+
+
+<body>
+  <nav class="SiteNav">
+    <div class="SiteNav__content">
+      <div class="SiteNav__logos">
+        <div class="Logos"><a href="https://www.ces.tech"><img class="Logos__CES" src="/CES/media/CES-2018-hz-landing-pages/ces-logo.svg" alt="CES logo"/></a><a href="https://www.cta.tech" target="_blank" rel="noopener noreferrer"><img class="Logos__CTA" src="/CES/media/CES-2018-hz-landing-pages/cta-logo.svg" alt="CTA logo"/></a></div>
+      </div>
+      <h1 class="SiteNav__title">Startups</h1>
+      <div class="SiteNav__dateLocation">
+        <div class="SiteNav__location">Las Vegas, NV</div>
+        <date class="SiteNav__date">January 9-12, 2018</date>
+      </div>
+      <div class="SiteNav__button"><a class="Button Button--green" href="https://www.compusystems.com/servlet/AttendeeRegLoginServlet?evt_uid=481&amp;TrackingCode=D1">Register Now</a></div>
+    </div>
+  </nav>
+  <div class="Hero" style="background-image:url(/CES/media/CES-2018-hz-landing-pages/startups/hero.jpg)" title="CES attendees testing headphones">
+    <div class="Hero__mobile" style="background-image:url(/CES/media/CES-2018-hz-landing-pages/startups/hero.jpg)" title="CES attendees testing headphones"></div>
+    <div class="Hero__content">
+      <h2 class="Hero__title">Eureka Park - Innovation&#x27;s Proving Ground</h2><img class="Hero__branding" src="/CES/media/CES-2018-hz-landing-pages/whoa.svg" alt="Whoa #CES2018" /></div>
+  </div>
+  <div class="SecondaryNav">
+    <div class="ContentBlock">
+      <div class="SecondaryNav__dropdown">
+        <div class="SecondaryNav__dropdown__text">The Latest News</div>
+        <svg xmlns="http://www.w3.org/2000/svg" width="11" height="7.138" viewBox="0 0 11 7.138"><polygon points="0 1.638 1.638 0 5.5 3.862 9.362 0 11 1.638 5.5 7.138 0 1.638"></polygon></svg>
+        <select class="SecondaryNav__dropdown__select" onchange="(function(e) {(window.location = e.target.value)})(event)">
+          <option value="#news">The Latest News</option>
+          <option value="#events">Conference Sessions &amp; Events</option>
+        </select>
+      </div>
+      <div class="SecondaryNav__tabs"><a class="SecondaryNav__tabs__tab" href="#news">The Latest News</a><a class="SecondaryNav__tabs__tab" href="#events">Conference Sessions &amp; Events</a></div>
+    </div>
+  </div>
+  <section>
+    <div class="ContentBlock">
+      <p class="Text Text--large Text--centered"><strong>EUREKA PARK</strong><br/>
+       <em>Presented by the National Science Foundation and Techstars</em>
+</p>
+      <p class="Text Text--large Text--centered">CES is the global stage for startups. Investors come to Eureka Park to find their next unicorn. Global media come to look for their next story. Corporations come to look for partnerships and acquisitions. With more than 800 startups from every corner of the globe, you need to be here, too.</p>
+      <div class="Title Title--centered">But don’t just take our word for it...</div>
+      <ul class="Callout__list">
+        <li>With more than 7,000 media eager to cover what’s next, our startup-centric activations become the
+          <!-- --><a href="/Events-Programs/Startups/Media-Engagement.aspx" target="_blank" rel="noopener noreferrer">most coveted destinations</a>.</li>
+        
+        <li>Startups from around the world: More than 20 country groups will be showcasing the newest ideas and innovation from countries and regions like France, Quebec, Ukraine, Luxembourg, Singapore and more.</li>
+        <li>More than 1,100 startups have used the CES brand to showcase their products and have been funded at more than $1.5 billion since 2012.</li>
+      <li>Case Western Reserve University, University of Las Vegas, Nevada (UNLV) and more will join <a href="http://www.ces.tech/Show-Floor/Marketplaces/University-Innovations"> University Innovations</a> at CES to showcase game-changing tech developments from some of the country’s leading education institutions.</li>
+      </ul>
+      <div class="Title Title--centered">Business Tools 365 days a year</div>
+      <p class="Text Text--large Text--centered">CTA, the trade association representing the technology industry and the owner and producer of CES, provides programming, mentorship, public policy advocacy and more all year long as part of our <a href="https://www.cta.tech/Membership/Member-Groups/Startups.aspx" target="_blank">Startup Membership</a>.</p>
+    </div>
+  </section>
+  <div class="SummaryList" id="news">
+    <div class="ContentBlock">
+      <h2 class="SummaryList__headline Headline Headline--section">The Latest News</h2>
+      <div class="SummaryList__list">
+        <article class="Summary">
+          <div class="Summary__content"><a class="Summary__thumbnail" href="https://www.cta.tech/News/Blog/Articles/2017/May/TBT-The-Startups-of-CES.aspx" target="_blank"><img class="Summary__image" src="/CES/media/CES-2018-hz-landing-pages/startups/blog_01_310x174@2x.jpg" alt="a presenter holds a device with hexagonal LEDs"/></a>
+            <div class="Summary__text">
+              <h2 class="Summary__title Title Title--dash"><a href="https://www.cta.tech/News/Blog/Articles/2017/May/TBT-The-Startups-of-CES.aspx" target="_blank">Start with a Throwback</a></h2>
+              <p class="Summary__description">Take a walk down CES memory lane and explore startup highlights from Eureka Park over the years.</p>
+            </div>
+          </div>
+        </article>
+        <article class="Summary Summary--video">
+          <div class="Summary__content"><a class="Summary__thumbnail" href="/News/CES-TV/Video-Detail?vID=UbI97rN55HyZ" target="_blank"><img class="Summary__image" src="/CES/media/CES-2018-hz-landing-pages/startups/blog_02_310x174@2x.jpg" alt="a chef pours drinks into a line of glasses"/></a>
+            <div class="Summary__text">
+              <h2 class="Summary__title Title Title--dash"><a href="/News/CES-TV/Video-Detail?vID=UbI97rN55HyZ">See Inside Eureka Park at CES 2017</a></h2>
+              <p class="Summary__description">Explore the latest homegrown innovations on the show floor.</p>
+            </div>
+          </div>
+        </article>
+        <article class="Summary">
+          <div class="Summary__content"><a class="Summary__thumbnail" href="https://www.cta.tech/News/Blog/Articles/2017/October/This-Tech-Entrepreneur-Made-a-Surprising-Decision.aspx" target="_blank"><img class="Summary__image" src="/CES/media/CES-2018-hz-landing-pages/startups/sharktank.jpg" alt="man pressing an AR image of a lock"/></a>
+            <div class="Summary__text">
+              <h2 class="Summary__title Title Title--dash"><a href="https://www.cta.tech/News/Blog/Articles/2017/October/This-Tech-Entrepreneur-Made-a-Surprising-Decision.aspx" target="_blank">Eureka Park Alum Makes a Splash on Shark Tank</a></h2>
+              <p class="Summary__description">After exhibiting in Eureka Park at CES 2017 and becoming a CES 2017 Innovation Award honoree, Robbie Cabral, creator of the BenjiLock, appeared on <a href="http://abc.go.com/shows/shark-tank" target="_blank">ABC’s Shark Tank</a> this month to see if he could get an investment from the sharks.</p>
+            </div>
+          </div>
+        </article>
+         <article class="Summary">
+          <div class="Summary__content"><a class="Summary__thumbnail" href="https://www.cta.tech/News/Blog/Articles/2017/October/Three-Tech-Startups-That-are-Changing-the-World.aspx" target="_blank"><img class="Summary__image" src="/CES/media/CES-2018-hz-landing-pages/startups/3techstartups.jpg" alt="aerial view of people working at a desk"/></a>
+            <div class="Summary__text">
+              <h2 class="Summary__title Title Title--dash"><a href="https://www.cta.tech/News/Blog/Articles/2017/October/Three-Tech-Startups-That-are-Changing-the-World.aspx" target="_blank">3 Tech Startups That Are Changing the World</a></h2>
+              <p class="Summary__description">These startups are great examples of technology and innovators helping to solve complex world problems and greatly improving lives.</p>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </div>
+  <section class="Callout" id="events">
+    <div class="ContentBlock">
+      <h2 class="Callout__headline Headline Headline--section">Conference Sessions &amp; Events</h2>
+      <div class="Highlight">
+        <div class="Highlight__content"><a class="Highlight__thumbnail" target="_blank"><img class="Highlight__image" src="/CES/media/CES-2018-hz-landing-pages/startups/shartank440.jpg" alt="Shark Tank"/></a>
+          <div class="Highlight__text"><div class="Highlight__title" target="_blank">Shark Tank Open Call</div>
+            <div class="Highlight__description">
+              <div>
+                <p>Shark Tank, the critically acclaimed, business-themed show is searching for the best
+Entrepreneurs with the best businesses and products that America has to offer. If you’ve got a great product or business, then Shark Tank is for you. An open call with the show’s casting team will take place at CES. Numbered wristbands will be distributed from 9-11 AM. Only those with a wristband will be seen. 
+
+                  
+              </div>
+            </div>
+          </div>
+        </div>
+        <br />
+        <div class="Highlight__content"><a class="Highlight__thumbnail" target="_blank"><img class="Highlight__image" src="/CES/media/CES-2018-hz-landing-pages/startups/highlight.png" alt="Richard Bransonn"/></a>
+          <div class="Highlight__text"><div class="Highlight__title" target="_blank">Extreme Tech Challenge Returns to CES 2018</div>
+            <div class="Highlight__description">
+              <div>
+                <p><a href="http://www.extremetechchallenge.com/" target="_blank"> Extreme Tech Challenge</a> will be returning to CES on the Jan. 11 for the semi-finals. See the top ten semi-finalists as they pitch in hopes of being one of three companies selected to move on to Necker Island.
+                  <!-- --><a href="http://www.extremetechchallenge.com/" target="_blank" rel="noopener noreferrer">Learn more.</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br />
+        <div class="Highlight__content"><a class="Highlight__thumbnail" target="_blank"><img class="Highlight__image" src="/CES/media/CES-2018-hz-landing-pages/startups/climatechange440.jpg" alt="digital art of the Earth"/></a>
+          <div class="Highlight__text"><div class="Highlight__title" target="_blank">CES Launches Award to Recognize Climate Change Innovators </div>
+            <div class="Highlight__description">
+              <div>
+                <p>The CES <a href="http://www.ces.tech/Eureka-Park-Climate-Change-Innovator-Awards">Eureka Park Climate Change Innovators</a> program highlights the leadership and innovation of consumer technology startups in combating climate change.
+                  <!-- --><a href="http://www.ces.tech/Eureka-Park-Climate-Change-Innovator-Awards" rel="noopener noreferrer">Learn more.</a></p>
+       
+               <p>Stay tuned for more startups conferences and events.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </section>
+  <section class="CTA">
+    <div class="ContentBlock">
+      <div class="CTA__button"><a class="Button" href="https://ces18.mapyourshow.com/7_0/search.cfm?srch-type=pavilion&amp;srch-query=Eureka%20Park&amp;srch-showresults=true" target="_blank" rel="noopener noreferrer">Explore Eureka Park Exhibitors</a></div>
+      <p>Are you a startup interested in exhibiting?
+        <!-- --><a href="/Exhibitor/Opportunities/Apply-to-Exhibit-at-Eureka-Park" rel="noopener noreferrer">Start here.</a></p>
+    </div>
+  </section>
+  <section class="RegisterContact">
+    <div class="Register">
+      <div class="Register__content">
+        <h2 class="Register__headline Headline">Not yet registered?</h2>
+        <p class="Register__description">CES 2018 will bring a double dose of whoa. Register today and prepare to encounter the awe-inspiring tech that&#x27;s changing the world.</p><a class="Button Button--white" href="https://www.compusystems.com/servlet/AttendeeRegLoginServlet?evt_uid=481&amp;TrackingCode=D1">Register Now</a></div>
+    </div>
+    <div class="ContactForm">
+      <div class="ContactForm__content">
+        <div>
+          <p>Sign up to get the latest news about startups at CES 2018</p><iframe src="https://cea.formstack.com/forms/startups_info_email" title="Startups Info Email" width="600" height="400" scrolling="no"></iframe></div>
+      </div>
+    </div>
+  </section>
+  <footer class="Footer">
+    <div class="ContentBlock">
+      <div class="Footer__content">
+        <div class="Footer__logos">
+          <div class="Logos"><a href="https://www.ces.tech"><img class="Logos__CES" src="/CES/media/CES-2018-hz-landing-pages/ces-logo.svg" alt="CES logo"/></a><a href="https://www.cta.tech" target="_blank" rel="noopener noreferrer"><img class="Logos__CTA" src="/CES/media/CES-2018-hz-landing-pages/cta-logo.svg" alt="CTA logo"/></a></div>
+        </div>
+        <div class="Footer__text">
+          <p class="Footer__copyright">Copyright &copy; 2017 CTA. All rights reserved.</p>
+          <div class="Footer__links"><a href="/privacy">Privacy Policy</a> | <a href="https://www.ces.tech">CES.tech</a></div>
+        </div>
+        <div class="Footer__socialLinks"><a href="https://twitter.com/CES" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="20.3" height="16.723" viewBox="0 0 20.3 16.723"><title>Twitter</title><path d="M20.3,1.98a8.249,8.249,0,0,1-2.4.664A4.217,4.217,0,0,0,19.73.309a8.182,8.182,0,0,1-2.64,1.024A4.131,4.131,0,0,0,14.05,0,4.189,4.189,0,0,0,9.89,4.218v0a4.357,4.357,0,0,0,.1.962A11.779,11.779,0,0,1,1.41.773,4.274,4.274,0,0,0,2.7,6.408,4.164,4.164,0,0,1,.81,5.88v.053a4.214,4.214,0,0,0,3.34,4.139,4.011,4.011,0,0,1-1.09.148,4.239,4.239,0,0,1-.79-.076,4.179,4.179,0,0,0,3.89,2.931A8.31,8.31,0,0,1,0,14.823a11.658,11.658,0,0,0,6.38,1.9A11.854,11.854,0,0,0,18.231,4.866q0-.075,0-.151c0-.183,0-.365-.01-.546A8.621,8.621,0,0,0,20.3,1.98Z"></path></svg></a>
+          <a href="https://www.instagram.com/cesofficial" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="16.45" height="16.46" viewBox="0 0 16.45 16.46"><title>Instagram</title><path d="M16.4,4.838a5.884,5.884,0,0,0-.38-2,4,4,0,0,0-.95-1.457A3.959,3.959,0,0,0,13.62.432a6.131,6.131,0,0,0-2-.383C10.74.009,10.46,0,8.23,0S5.71.009,4.83.049A6.009,6.009,0,0,0,2.84.432a4.079,4.079,0,0,0-1.46.949A4,4,0,0,0,.43,2.838a6.135,6.135,0,0,0-.38,2C.01,5.716,0,6,0,8.23s.01,2.515.05,3.392a6.135,6.135,0,0,0,.38,2,4,4,0,0,0,.95,1.457,4.079,4.079,0,0,0,1.46.949,5.988,5.988,0,0,0,1.99.382c.88.04,1.16.05,3.4.05s2.51-.01,3.39-.05a6.109,6.109,0,0,0,2-.382,3.96,3.96,0,0,0,1.45-.949,4,4,0,0,0,.95-1.457,5.884,5.884,0,0,0,.38-2c.04-.877.05-1.158.05-3.392S16.44,5.716,16.4,4.838Zm-1.48,6.716a4.474,4.474,0,0,1-.28,1.528,2.544,2.544,0,0,1-.62.946,2.5,2.5,0,0,1-.94.616,4.591,4.591,0,0,1-1.53.283c-.87.04-1.13.048-3.32.048s-2.46-.008-3.33-.048a4.591,4.591,0,0,1-1.53-.283,2.58,2.58,0,0,1-.94-.616,2.544,2.544,0,0,1-.62-.946,4.739,4.739,0,0,1-.28-1.528c-.04-.867-.05-1.127-.05-3.324s.01-2.457.05-3.325a4.739,4.739,0,0,1,.28-1.528,2.544,2.544,0,0,1,.62-.946,2.577,2.577,0,0,1,.94-.615A4.583,4.583,0,0,1,4.9,1.532c.87-.039,1.13-.047,3.33-.047s2.45.008,3.32.047a4.583,4.583,0,0,1,1.53.284,2.5,2.5,0,0,1,.94.615,2.544,2.544,0,0,1,.62.946A4.473,4.473,0,0,1,14.92,4.9c.04.867.05,1.128.05,3.325s-.01,2.458-.05,3.325ZM8.23,4a4.225,4.225,0,1,0,4.22,4.23V8.23A4.225,4.225,0,0,0,8.23,4.006Zm0,6.967a2.742,2.742,0,1,1,2.74-2.744v0a2.746,2.746,0,0,1-2.74,2.743Zm5.38-7.134a.99.99,0,1,1-.993-.987h0a.993.993,0,0,1,.99.988Z"></path></svg></a>
+          <a href="https://www.facebook.com/CES" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="16.62" height="16.426" viewBox="0 0 16.62 16.426"><title>Facebook</title><path d="M15.7,0H.92A.912.912,0,0,0,0,.9V15.518a.912.912,0,0,0,.917.907H8.88v-6.36H6.71V7.585H8.88V5.757A3,3,0,0,1,12.1,2.481a17.955,17.955,0,0,1,1.94.1V4.8H12.71A1.032,1.032,0,0,0,11.47,6V7.587h2.48l-.32,2.479H11.47v6.36H15.7a.912.912,0,0,0,.92-.9V.907A.912.912,0,0,0,15.7,0Z"></path></svg></a>
+          <a href="https://www.linkedin.com/showcase/10987537" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="17.028" height="17" viewBox="0 0 17.028 17"><title>LinkedIn</title><path d="M.28,5.645H3.811V17H.28ZM2.046,0A2.046,2.046,0,1,1,0,2.046,2.047,2.047,0,0,1,2.046,0"></path><path d="M6.024,5.645H9.41V7.2h.048A3.709,3.709,0,0,1,12.8,5.362c3.571,0,4.231,2.351,4.231,5.41V17H13.5V11.478c0-1.318-.026-3.011-1.834-3.011-1.837,0-2.117,1.435-2.117,2.916V17H6.024Z"></path></svg></a>
+          <a href="https://www.snapchat.com/add/cesofficial" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="17.332" height="16.283" viewBox="0 0 17.332 16.283"><title>Snapchat</title><path d="M17.031,12.222a5.07,5.07,0,0,1-3.46-2.907c0-.005-.01-.011-.01-.017a.79.79,0,0,1-.08-.634,1.513,1.513,0,0,1,.97-.584c.09-.029.18-.057.25-.085a1.057,1.057,0,0,0,.87-.847.688.688,0,0,0-.52-.6h0a.994.994,0,0,0-.37-.07.808.808,0,0,0-.33.068,2.031,2.031,0,0,1-.74.212.718.718,0,0,1-.3-.072c.01-.12.02-.243.03-.371V6.262a8.642,8.642,0,0,0-.22-3.5A4.616,4.616,0,0,0,8.831,0H8.49A4.6,4.6,0,0,0,4.21,2.761a8.454,8.454,0,0,0-.22,3.5c.01.139.02.283.02.422a.627.627,0,0,1-.33.074,1.937,1.937,0,0,1-.8-.213.629.629,0,0,0-.27-.056.867.867,0,0,0-.85.579c-.04.25.07.614.87.931.07.028.16.056.25.085a1.568,1.568,0,0,1,.97.585.791.791,0,0,1-.08.635.016.016,0,0,0-.01.017A5.124,5.124,0,0,1,.3,12.228.36.36,0,0,0,0,12.6a.316.316,0,0,0,.04.161c.17.413.92.716,2.28.926a2.067,2.067,0,0,1,.12.41c.03.131.06.265.1.407a.4.4,0,0,0,.42.306,2.171,2.171,0,0,0,.39-.055,4.635,4.635,0,0,1,.92-.1,4.22,4.22,0,0,1,.67.055,3.185,3.185,0,0,1,1.24.641,3.876,3.876,0,0,0,2.38.93h.21a3.931,3.931,0,0,0,2.38-.93,3.108,3.108,0,0,1,1.24-.641,4.2,4.2,0,0,1,.66-.055,4.669,4.669,0,0,1,.93.1,2.141,2.141,0,0,0,.39.048h.02a.394.394,0,0,0,.4-.3c.04-.139.07-.27.1-.4a2.03,2.03,0,0,1,.12-.408c1.36-.211,2.11-.513,2.28-.924a.474.474,0,0,0,.04-.163A.36.36,0,0,0,17.031,12.222Z"></path></svg></a>
+          <a href="https://www.youtube.com/user/cesonthetube" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="22.666" height="17" viewBox="0 0 22.666 17"><title>YouTube</title><path d="M18.525.174c-3.4-.232-10.985-.231-14.384,0C.461.425.027,2.648,0,8.5c.027,5.841.457,8.074,4.141,8.326,3.4.231,10.98.232,14.384,0,3.68-.251,4.114-2.474,4.141-8.326C22.639,2.659,22.209.426,18.525.174ZM8.5,12.278V4.722l7.555,3.771Z"></path></svg></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+    
+    
+
+<script type="text/javascript">
+//<![CDATA[
+
+WebForm_InitCallback();
+theForm.oldSubmit = theForm.submit;
+theForm.submit = WebForm_SaveScrollPositionSubmit;
+
+theForm.oldOnSubmit = theForm.onsubmit;
+theForm.onsubmit = WebForm_SaveScrollPositionOnSubmit;
+//]]>
+</script>
+  <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="NO//rAjpi2j183cQUO6zAJAmnuJC3Gxt0UT0xptTKrveeStfbPwdduBqW546BxPxMoxcyBOyebgK6bejdbaomrAUVC1afuIuAwssZ0S52ZkwHq3wph6wZGT8O61KaT1o1Cz99Uo/1C2iXku6R83f/nwIpuhDVgpAW04rRS8DqsOwxsQqN9u9AAEV0a+A2LzQZSwIAzvc3jV6sYhbxRh7zb0UDIpl7+xSv8dv6cUu4huWS9dT+qo7ni7Jv4SZXSs5" />
+  <script type="text/javascript"> 
+      //<![CDATA[
+      if (window.WebForm_InitCallback) { 
+        __theFormPostData = '';
+        __theFormPostCollection = new Array();
+        window.WebForm_InitCallback(); 
+      }
+      //]]>
+    </script>
+  </form>
+</body>
+</html>
