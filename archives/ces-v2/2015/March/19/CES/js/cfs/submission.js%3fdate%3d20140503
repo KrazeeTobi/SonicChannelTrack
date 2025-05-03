@@ -1,0 +1,1059 @@
+﻿function scrollToElement(pageElement) {
+    var positionX = 0,
+        positionY = 0;
+
+    while (pageElement != null) {
+        positionX += pageElement.offsetLeft;
+        positionY += pageElement.offsetTop;
+        pageElement = pageElement.offsetParent;
+        window.scrollTo(positionX, positionY);
+    }
+}
+
+function encode4HTML(str) {
+    return str
+        .replace(/\r\n?/g, '\n')
+    // normalize newlines - I'm not sure how these
+    // are parsed in PC's. In Mac's they're \n's
+        .replace(/(^((?!\n)\s)+|((?!\n)\s)+$)/gm, '')
+    // trim each line
+        .replace(/(?!\n)\s+/g, ' ')
+    // reduce multiple spaces to 2 (like in "a    b")
+        .replace(/^\n+|\n+$/g, '')
+    // trim the whole string
+        .replace(/[<>&"']/g, function (a) {
+            // replace these signs with encoded versions
+            switch (a) {
+                case '<': return '&lt;';
+                case '>': return '&gt;';
+                case '&': return '&amp;';
+                case '"': return '&quot;';
+                case '\'': return '&apos;';
+            }
+        })
+        .replace(/\n{2,}/g, '</p><p>')
+    // replace 2 or more consecutive empty lines with these
+        .replace(/\n/g, '<br />')
+    // replace single newline symbols with the <br /> entity
+        .replace(/^(.+?)$/, '<p>$1</p>');
+    // wrap all the string into <p> tags
+    // if there's at least 1 non-empty character
+}
+
+jQuery(document).ready(function ($) {
+
+    CurrentTopic = {
+        __currentTopic: "",
+        get: function () {
+            if (this.__currentTopic == "") this.__currentTopic = localStorage.getItem("CFS.currentTopic");
+            if (this.__currentTopic == "") return null;
+            return this.__currentTopic;
+        },
+        set: function (topic) {
+            localStorage.setItem("CFS.currentTopic", topic);
+            this.__currentTopic = topic;
+        },
+        clear: function () {
+            localStorage.removeItem("CFS.currentTopic");
+            this.__currentTopic = null;
+        }
+    }
+
+    CFS = {
+        __currentTopic: "",
+        __cfs: {},
+        __isDirty: true,
+        exists: function () {
+            var c = this.get();
+            return !(_.isNull(c) || _.isUndefined(c) || _.isUndefined(c.Topics) || c.Topics.length == 0);
+        },
+        get: function () {
+            if (this.__isDirty) {
+                this.__cfs = JSON.parse(localStorage.getItem("CFS"));
+                this.__isDirty = false;
+            }
+            return this.__cfs;
+        },
+        set: function (value) {
+            if (_.isNull(value) || _.isUndefined(value)) value = this.__cfs;
+            if (_.isObject(value)) value = JSON.stringify(value);
+            localStorage.setItem("CFS", value);
+            this.__isDirty = true;
+        },
+        initialize: function () {
+            this.clear();
+            this.__cfs = new Object();
+            this.__cfs.Topics = [];
+            this.set(this.__cfs);
+        },
+        getCurrentTopic: function () {
+
+        },
+        hasTopics: function () {
+            var c = CFS.get();
+            var r = c != null && !_.isUndefined(c.Topics) && c.Topics.length > 0 ? true : false;
+            return r;
+        },
+        getTopic: function (topic) {
+            if (topic == null || topic == "") topic = CurrentTopic.get();
+            var _t = _.filter(this.get().Topics, function (t) { return t.Name == topic.Name; });
+            if (_.isNull(_t) || _.isUndefined(_t) || _t.length == 0) return null;
+            if (_t.length > 1) console.log("error - only one topic should have been returned but multiple were returned");
+            return _.first(_t);
+        },
+        addTopic: function (topic) {
+            if (!this.exists()) this.initialize();
+            //if (this.get().Topics == null) this.get().Topics = [];
+
+            if (this.__cfs.Topics.length > 0) { }
+            if (!_.contains(_.pluck(this.get().Topics, "ID"), topic.ItemID)) {
+                var _topic = new Object();
+                _topic.Name = topic.Name;
+                _topic.ID = topic.ItemID;
+                this.get().Topics.push(_topic);
+
+                CFS.set(this.get());
+                localStorage.setItem("CFS.currentTopic", topic);
+            }
+        },
+        deleteTopic: function (t) {
+            if (_.isNull(t) || _.isUndefined(t) || t == "") {
+                t = CurrentTopic.get();
+            }
+
+            var _topics = this.get().Topics;
+            _topics = _.reject(_topics, function (o) {
+                return o.ID == t.ItemID;
+            });
+            this.get().Topics = _topics;
+            this.set(this.get());
+        },
+        hasObjectives: function (topic) {
+            if (!CFS.exists()) return false;
+            var t = this.getTopic(topic);
+            if (t == null) return null;
+            var o = t.Objectives;
+            return (o != null && o.length > 0);
+        },
+        getObjectives: function (topic) {
+            if (!CFS.exists()) return null;
+            if (!this.hasObjectives(topic)) return null;
+            var _objectives = this.getTopic(topic).Objectives;
+            if (_.isUndefined(_objectives) || _objectives.length == 0) return null;
+            return _objectives;
+        },
+        addObjective: function (objective) {
+            if (!CFS.exists) return false;
+            var _t = this.getTopic(CurrentTopic.get());
+            if (_t.Objectives == null) _t.Objectives = [];
+            var _objective = new Object()
+            _objective.Name = objective;
+            _objective.ID = _.random(1000, 1999);
+            _t.Objectives.push(_objective);
+            this.set();
+        },
+        deleteObjective: function (objective) {
+
+        },
+        hasCredentials: function (topic) {
+            if (!CFS.exists()) return false;
+            var t = this.getTopic(topic);
+            if (t == null) return null;
+            var c = t.Credentials;
+            return (c != null && c.length > 0);
+
+        },
+        getCredentials: function (topic) {
+            if (!CFS.exists()) return false;
+            var _credentials = this.getTopic(topic).Credentials;
+            if (_.isUndefined(_credentials) || _credentials.length == 0) return null;
+            return _credentials;
+        },
+        addCredential: function (eventName, eventDate, eventLink) {
+            if (!CFS.exists) return false;
+            var _t = this.getTopic(CurrentTopic.get());
+            if (_t.Credentials == null) _t.Credentials = [];
+            var _credential = new Object;
+            _credential.EventName = eventName;
+            _credential.EventDate = eventDate;
+            _credential.EventLink = eventLink;
+            _credential.ID = _.random(2000, 2999);
+            _t.Credentials.push(_credential);
+            this.set();
+        },
+        deleteCredential: function (event) {
+
+        },
+        showReviewLink: function () {
+            if (!this.exists()) return false;
+            var r = false;
+            var t = this.get().Topics;
+            _.each(t, function (o) {
+                if (CFS.hasObjectives(o) && CFS.hasCredentials(o)) r = true;
+            });
+            return r;
+        },
+        clear: function () {
+            localStorage.removeItem("CFS");
+            localStorage.removeItem("CFS.currentTopic");
+            this.__isDirty = true;
+        }
+    }
+
+    TemplateManager = {}
+
+    TemplateManager.load = function (tmplPath) {
+        if (!this.loaded[tmplPath]) {
+            this.loaded[tmplPath] = $.ajax({
+                url: tmplPath
+            });
+        }
+
+        this.loaded[tmplPath].done(function (template, a, b, c) {
+            if (!TemplateManager.templates[tmplPath]) {
+                TemplateManager.templates[tmplPath] = template;
+            }
+        });
+        this.loaded[tmplPath].fail(function (data, textStatus, jqXHR) {
+            return false;
+        });
+
+        return this.loaded[tmplPath];
+    }
+    TemplateManager.loaded = [];
+    TemplateManager.templates = {};
+
+    TopicManager = {}
+    TopicManager.get = function () {
+        var url = "http://" + document.domain + "/rest/customtableitem.cfs.topics?format=json&columns=Name,Description,ItemID&OrderBy=ItemOrder";
+        this.hashed = jQuery.getJSON("/CEA_CMS_Items/Handlers/getUrlHash.ashx", { 'url': url });
+        this.hashed.done(function (data) {
+            this.loaded = $.getJSON(data).then(function (d) {
+                TopicManager.loaded.resolve(d);
+            });
+        });
+        this.loaded.done(function (d) {
+            _.each(d.customtableitem_cfs_topics[0].cfs_Topics, function (t) {
+                TopicManager.allTopics[t.ItemID] = t;
+            });
+        });
+        this.loaded.fail(function (e, f, g) {
+            debugger;
+        });
+
+        return this.loaded;
+    }
+
+    TopicManager.loaded = $.Deferred();
+    TopicManager.allTopics = {};
+
+    Template = {
+        topicsTemplate: "/ces/js/CFS/tmpl.Topics.htm",
+        overviewTemplate: "/ces/js/CFS/tmpl.Overview.htm",
+        objectivesTemplate: "/ces/js/CFS/tmpl.Objectives.htm",
+        credentialsTemplate: "/ces/js/CFS/tmpl.Credentials.htm",
+        reviewTemplate: "/ces/js/CFS/tmpl.Review.htm",
+        noDataTemplate: "/ces/js/CFS/tmpl.NoData.htm",
+        renderTopics: function () {
+            $.when(TopicManager.get(), TemplateManager.load(this.topicsTemplate)).done(function () {
+                //TopicManager.allTopics is stored as a dictionary and we need an array for our template. This maps it to an array.
+                var o = _.map(TopicManager.allTopics, function (i) { return i; ; });
+                $('#topicPlaceholder').html(Mustache.to_html(TemplateManager.templates[Template.topicsTemplate], o));
+            });
+        },
+        renderOverview: function () {
+            $.when(TemplateManager.load(this.overviewTemplate)).done(function () {
+                if (!CFS.exists()) {
+                    $('#Overview').html("");
+                    return false;
+                }
+                if (CFS.hasTopics())
+                    $('#Overview').html(Mustache.to_html(TemplateManager.templates[Template.overviewTemplate], CFS.get()));
+                CFS.showReviewLink() ? $("#overviewReviewLink").show() : $("#overviewReviewLink").hide();
+            });
+            return this;
+        },
+        renderObjectives: function () {
+            $.when(TemplateManager.load(this.objectivesTemplate)).done(function (d) {
+                $('div#selectedObjectives').html("");
+                // would like to make this an extension
+                // this clones the object and isn't a by reference copy
+                var _cloned = JSON.parse(JSON.stringify(CFS.getObjectives(CurrentTopic.get())));
+                if (_cloned == null) return;
+                var _formattedObjectives = _.map(_cloned, function (o) {
+                    o.Name = encode4HTML(o.Name);
+                    return o;
+                });
+                var _template = TemplateManager.templates[Template.objectivesTemplate];
+                var _currentObjectives = CFS.getObjectives(CurrentTopic.get());
+                $('div#selectedObjectives').html(Mustache.to_html(_template, _currentObjectives));
+            }).always(function (d) {
+                _.each($("textarea.typedObjective"), function (i) { $(i).autosize(); });
+                return this;
+            });
+        },
+        renderCredentials: function () {
+            $.when(TemplateManager.load(this.credentialsTemplate)).done(function (d) {
+                //            TemplateManager.get(this.credentialsTemplate, function (template) {
+                $('div#selectedEvents').html("");
+                var _creds = CFS.getCredentials(CurrentTopic.get());
+                if (_creds == null) return;
+                var _template = TemplateManager.templates[Template.credentialsTemplate];
+                $('div#selectedEvents').html(Mustache.to_html(_template, _creds));
+            });
+            return this;
+        },
+        renderReview: function () {
+            $.when(TemplateManager.load(this.reviewTemplate)).done(function (d) {
+                if (!CFS.exists()) {
+                    return this;
+                } else {
+                    var _template = TemplateManager.templates[Template.reviewTemplate];
+                    $('div#selectedReview').html(Mustache.to_html(_template, CFS.get()));
+                    var _canFinish = true;
+                    _.each(CFS.get().Topics, function (t) {
+                        if (CFS.hasObjectives(t)) {
+                            $("#Topic" + t.ID).find(".objective").addClass("panel-success");
+                            $("#Topic" + t.ID).find(".objective").find(".fix").hide();
+                        } else {
+                            $("#Topic" + t.ID).find(".objective").addClass("panel-danger");
+                            $("#Topic" + t.ID).find(".objective").find(".fix").show();
+                            _canFinish = false;
+                        }
+                        if (CFS.hasCredentials(t)) {
+                            $("#Topic" + t.ID).find(".credential").addClass("panel-success");
+                            $("#Topic" + t.ID).find(".credential").find(".fix").hide();
+                        } else {
+                            $("#Topic" + t.ID).find(".credential").addClass("panel-danger");
+                            $("#Topic" + t.ID).find(".credential").find(".fix").show();
+                            _canFinish = false;
+                        }
+                    });
+                    if (_canFinish) {
+                        $("#forwardToSpeakerInfo").removeClass("disabled");
+                    } else {
+                        $("#forwardToSpeakerInfo").addClass("disabled");
+                    }
+                }
+            });
+            return this;
+        },
+        renderNoData: function () {
+            $.when(TemplateManager.load(this.noDataTemplate)).done(function (d) {
+                var _template = TemplateManager.templates[Template.noDataTemplate];
+                $('div#selectedReview').html(_template);
+            });
+            return this;
+        }
+
+    }
+
+    Template.renderTopics();
+    var pageNum = 1;
+    var currentTopic = 1;
+    var objective;
+    var topicSelected = false;
+    changePage();
+
+    $("button").click(function (event) {
+        event.preventDefault();
+    });
+
+    function removeTopicData() {
+        $("div.objective-group").each(function (i) {
+            $(this).remove();
+        });
+        $("div.event-group").each(function (i) {
+            $(this).remove();
+        });
+    }
+
+    function isEmail(email) {
+        var regex = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+        return regex.test(email);
+    }
+
+    function isUrl(url) {
+        if (/^(http|https|ftp):\/\/[a-z0-9]+([\-\.]{1}[a-z0-9]+)*\.[a-z]{2,5}(:[0-9]{1,5})?(\/.*)?$/i.test(url)) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    function checkRequiredFields(object) {
+        var returnVal = true;
+        _.each($("#" + object + " .required"), function (e) {
+            var v = $(e).val();
+
+            if ($(e).attr("type") == "url" && v.length > 0 && !v.startsWith("http://")) {
+                v = $(e).val("http://" + v).val();
+            }
+
+            if (v == "" || ($(e).attr("type") == "email" && !isEmail(v)) || ($(e).attr("type") == "url" && !isUrl(v))) {
+                $(e).attr("placeholder", $(e).data("error-text")).val("").parent().addClass("has-error");
+                returnVal = false;
+            } else {
+                $(e).parent().removeClass("has-error");
+            }
+        });
+        return returnVal;
+    }
+
+    function removeCurrentTopic() {
+
+    }
+
+    function changePage() {
+        $("#instructions").addClass("hidden").find(".panel-body").addClass("hidden");
+        $("#instructions").find("#instructionsIcon").addClass("fa-chevron-left").removeClass("fa-chevron-down");
+        if (pageNum < 5) Template.renderOverview();
+        $(".cfsPage").hide();
+        $(".required").removeClass("has-error");
+        $(".form-group").removeClass("has-error");
+
+        if (pageNum == 1) {
+            CurrentTopic.clear();
+            $("#instructions").removeClass("hidden")
+            $("#topics").show();
+            $("div.wizard li:first-child").addClass("current");
+            $("div.wizard li").not("div.wizard li:first-child").removeClass("current");
+            $("#instructions").find(".panel-body").html($("#instructionTopic").val());
+        }
+        else if (pageNum == 2) {
+            $("#instructions").removeClass("hidden")
+            $("#Objectives").show();
+            Template.renderObjectives();
+            $("div.wizard li:nth-child(2)").addClass("current");
+            $("div.wizard li").not("div.wizard li:nth-child(2)").removeClass("current");
+            scrollToElement($("#Objective"));
+            $("#instructions").find(".panel-body").html($("#instructionObjective").val());
+            $("#charsRemaining").html("characters remaining: 400");
+        }
+        else if (pageNum == 3) {
+            $("#instructions").removeClass("hidden")
+            $("#Credentials").show();
+            Template.renderCredentials();
+            $("div.wizard li:nth-child(3)").addClass("current");
+            $("div.wizard li").not("div.wizard li:nth-child(3)").removeClass("current");
+            scrollToElement($("#Credentials"));
+            $("#instructions").find(".panel-body").html($("#instructionCredential").val());
+        }
+        else if (pageNum == 4) {
+            $("#Review").show();
+            $("#Overview").html("");
+            Template.renderReview();
+            $("#forwardToSpeakerInfo").removeClass("disabled"); // just in case the button was disabled previously because of a delete
+            $("div.wizard li:nth-child(4)").addClass("current");
+            $("div.wizard li").not("div.wizard li:nth-child(4)").removeClass("current");
+        }
+        else if (pageNum == 5) {
+            $("#instructions").removeClass("hidden")
+            $("#Overview").html("");
+            $("#speakerInfo").show();
+            $("div.wizard li:nth-child(5)").addClass("current");
+            $("div.wizard li").not("div.wizard li:nth-child(5)").removeClass("current");
+            $("#instructions").find(".panel-body").html($("#instructionSpeaker").val());
+        }
+        else if (pageNum == 6) {
+            $("#instructions").removeClass("hidden")
+            $("#altContactInfo").show();
+            $("#instructions").find(".panel-body").html($("#instructionContact").val());
+        }
+        else if (pageNum == 7) {
+            var _json = JSON.stringify(CFS.get());
+            $.ajax({
+                type: 'POST',
+                url: '/CEA_CMS_ITEMS/Handlers/CES/CFS/CallForSpeakers.ashx',
+                data: {
+                    CFS: _json
+                },
+                success: function (d) {
+                    CFS.clear();
+                    $(".wizard").hide();
+                    $("#thankYou").show();
+                    var m = "Please include the following information when contacting us to allow us to better assist you." + '\r\n\%0D%0A\r\n\%0D%0A';
+                    $("#mailToLink").attr("href", "mailto:CFS@ce.org?subject=Form%20Submission%20-%20" + d.Email + "&body=" + m + JSON.stringify(d));
+                },
+                error: function (XMLHttpRequest, textStatus, errorThrown) {
+                    $(".wizard").hide();
+                    $("#failure").show();
+                }
+            });
+        }
+    }
+
+    ////////////////////////////////////////////////
+    //////////////////  MY BUTTONS  ////////////////
+    ////////////////////////////////////////////////
+
+    /// Clear CFS - debugging only ///
+    $("#clearCFS").click(function () { CFS.clear(); pageNum = 1; changePage() });
+
+    $("#instructionsShow").click(function () {
+        var h = $(this).find("#instructionsIcon").toggleClass("fa-chevron-left").toggleClass("fa-chevron-down").hasClass("fa-chevron-down");
+        var e = $("#instructions").find(".panel-body");
+        if (h) {
+            $(e).removeClass("hidden");
+        } else {
+            $(e).addClass("hidden");
+        }
+        return false;
+    });
+
+    /////   REVIEW Link   /////
+    $(document).on("click", "#overviewReviewLink", function (e) {
+        $("#backToCredentials").hide();
+        pageNum = 4;
+        changePage();
+        return false;
+    });
+
+    //////   BACK BUTTONS    //////
+    $("#backToTopics").click(function () {
+        var _objective = $("#Objective").val();
+        if (_objective != "") {
+            var retVal = confirm("You have entered text that has not been added to your objective list. Select Ok to discard the objective and return to the topic list or select Cancel to stay on this page and continue working.");
+            if (!retVal) {
+                return false;
+            }
+        }
+
+        $("#Objective").val("");
+        if (!CFS.hasObjectives()) {
+            CFS.deleteTopic();
+        }
+        pageNum = 1;
+        changePage();
+    });
+
+    $("#backToObjectives").click(function () {
+        var r = true;
+        if (($("#eventName").val() + $("#eventDate").val() + $("#eventLink").val()).length > 0)
+            r = confirm("You have entered text that has not been added to your credential list. Select Ok to discard the objective and return to the topic list or select Cancel to stay on this page and continue working.");
+        if (!r) return false;
+
+        $("#eventName").val("");
+        $("#eventDate").val("");
+        $("#eventLink").val("");
+        pageNum = 2;
+        changePage();
+    });
+
+    $("#backToCredentials").click(function () {
+        pageNum = 3;
+        changePage();
+    });
+
+    $("#backToAddAnother").click(function () {
+        pageNum = 1;
+        changePage();
+    });
+    $("#backToSpeaker").click(function () {
+        pageNum = 5;
+        changePage();
+    });
+    //////   END BACK BUTTONS    //////
+
+
+    //////   FORWARD BUTTONS    //////
+
+    //////   SELECT TOPIC    //////
+    //$(":button[name='select-topic']").click(function () {
+    $(document).on("click", ":button[name='select-topic']", function () {
+        topicSelected = true;
+        _this = $(this).parent();
+        var selectedTopic = TopicManager.allTopics[$(this).data("topicid")];
+        CurrentTopic.set(selectedTopic);
+        CFS.addTopic(selectedTopic);
+        var text = $("#objectivePanelHeader").html();
+        $("#objectivePanelHeader").html($("#objectiveHeader").val() + "&nbsp;&ndash;&nbsp;" + selectedTopic.Name);
+        pageNum = 2;
+        changePage();
+        return false;
+    });
+
+    $("#forwardToCredentials").click(function () {
+        var _objective = $("#Objective").val();
+        if (_objective != "") {
+            var retVal = confirm("You have entered text that has not been added to your objective list. Select Ok to add the objective and continue or select Cancel to stay on this page and continue working.");
+            if (retVal) {
+                CFS.addObjective(_objective);
+                $("#Objective").val("");
+            } else {
+                return false;
+            }
+        }
+
+        if (!CFS.hasObjectives()) {
+            $("#Objective").parent().addClass("has-error");
+            //alert("You must add at least one objective to continue.");
+        } else {
+            var text = $("#credentialPanelHeader").html();
+            var topicName = CFS.getTopic().Name;
+            $("#credentialPanelHeader").html($("#credentialHeader").val() + "&nbsp;&ndash;&nbsp;" + topicName);
+            pageNum = 3;
+            changePage();
+        }
+    });
+
+    $("#forwardToReview").click(function () {
+        var eventName = $("#eventName").val();
+        var eventDate = $("#eventDate").val();
+        var eventLink = $("#eventLink").val();
+
+
+        /// cred present, no text, continue
+        if (CFS.hasCredentials() && eventName == "" && eventDate == "" && eventLink == "") {
+            $("#backToCredentials").show();
+            pageNum = 4;
+            changePage();
+            return false;
+        }
+
+        var retVal = false;
+        /// Editing and click next
+        if (!$("#saveEvent").hasClass("hidden")) {
+            retVal = confirm("You are currently editing a previously entered speaking credential. Select Ok to discard the edits and continue or select Cancel to stay on this page and continue working.");
+            if (retVal == true) {
+                $("#saveEvent").addClass("hidden");
+                $("#cancelEvent").addClass("hidden");
+                $("#addEvent").show();
+                $(".editEvent").show();
+                $(".deleteEvent").show();
+                $("#eventName").val("");
+                $("#eventDate").val("");
+                $("#eventLink").val("");
+
+                $("#backToCredentials").show();
+                pageNum = 4;
+                changePage();
+                return false;
+            } else {
+                return false;
+            }
+        }
+
+        /// Validation
+        if (!checkRequiredFields("Credentials"))
+            return false;
+
+        /// Text present
+        if (eventName != "" || eventDate != "" || eventLink != "") {
+            var retVal = confirm("You have entered text that has not been added to your previous speaking credentials. Select Ok to add the event and continue or select Cancel to stay on this page and continue working.");
+            if (retVal == true) {
+                CFS.addCredential(eventName, eventDate, eventLink);
+                $("#saveEvent").addClass("hidden");
+                $("#cancelEvent").addClass("hidden");
+                $("#addEvent").show();
+                $(".editEvent").show();
+                $(".deleteEvent").show();
+                $("#eventName").val("");
+                $("#eventDate").val("");
+                $("#eventLink").val("");
+
+                $("#backToCredentials").show();
+                pageNum = 4;
+                changePage();
+            }
+        }
+
+        return false;
+
+    });
+
+    $("#forwardToSpeakerInfo").click(function () {
+        pageNum = 5;
+        changePage();
+    });
+
+    $("#forwardToAltContact, #completeApplication").click(function () {
+
+        if (checkRequiredFields("speakerInfo")) {
+
+            // need to check that email doesn't already exist
+            $.ajax({
+                type: 'POST',
+                url: '/CEA_CMS_ITEMS/Handlers/CES/CFS/checkSpeakerEmail.ashx',
+                data: {
+                    email: $("#email").val(),
+                    action: $(this).data("action")
+                },
+                action: $(this).data("action"),
+                success: function (passed) {
+                    if (passed) {
+                        $("#email").removeClass("has-error").attr("placeholder", "");
+                        var o = CFS.get();
+                        o.FirstName = $("#firstName").val();
+                        o.LastName = $("#lastName").val();
+                        o.Company = $("#company").val();
+                        o.CompanyUrl = $("#companyUrl").val();
+                        o.Title = $("#title").val();
+                        o.Email = $("#email").val();
+                        o.Phone = $("#phone").val();
+                        CFS.set(o);
+                        if (this.action == "altContact") {
+                            pageNum = 6;
+                        } else {
+                            pageNum = 7
+                        }
+                        changePage();
+                    } else {
+                        $("#email").val("").attr("placeholder", "email address already used").parent().addClass("has-error");
+                        alert("An email address can only be submited once. The email submitted is already in our system.");
+                    }
+                },
+                error: function (XMLHttpRequest, textStatus, errorThrown) {
+                    $(".wizard").hide();
+                    $("#failure").show();
+                }
+            });
+
+        }
+    });
+
+    $("#finish").click(function () {
+        if ($("#altEmail").val() == $("#email").val()) {
+            $("#altEmail").val("").attr("placeholder", "speaker email and contact email must be unique").parent().addClass("has-error");
+        } else if (checkRequiredFields("altContactInfo")) {
+            var o = CFS.get();
+            o.AltFirstName = $("#altFirstName").val();
+            o.AltLastName = $("#altLastName").val();
+            o.AltCompany = $("#altCompany").val();
+            o.AltEmail = $("#altEmail").val();
+            o.AltPhone = $("#altPhone").val();
+            CFS.set(o);
+            pageNum = 7
+            changePage();
+        }
+    });
+
+    //////   END FORWARD BUTTONS    //////
+
+
+    //////   ADD/DELETE BUTTONS    //////
+    $("#addObjective").click(function () {
+        var _objective = $("#Objective").val();
+        if (_objective != "") {
+            CFS.addObjective(_objective);
+            Template.renderObjectives();
+            Template.renderOverview();
+            $("#Objective").val("").trigger("autosize.destroy").autosize();
+            $("#charsRemaining").html("characters remaining: 400");
+        }
+    });
+
+    $("#addEvent").click(function () {
+        if (checkRequiredFields("Credentials")) {
+            var eventName = $("#eventName").val();
+            var eventDate = $("#eventDate").val();
+            var eventLink = $("#eventLink").val();
+            CFS.addCredential(eventName, eventDate, eventLink);
+            Template.renderCredentials();
+            Template.renderOverview();
+            $("#eventName").val("");
+            $("#eventDate").val("");
+            $("#eventLink").val("");
+        }
+    });
+
+    $(document).on("click", ".editObjective, .saveObjective, .cancelObjective, .editEvent, .saveEvent, .cancelEvent, .fix", function (e) {
+        if (!CFS.exists) return false;
+        var _id = $(this).data("id");
+
+        var _topicID = $(this).data("page-name") == "review"
+         ? $(this).closest($("div[name='topicReview']")).data("topic-id")
+         : CurrentTopic.get().ItemID;
+
+        var _topics = CFS.get().Topics;
+        var _topic = _.find(_topics, function (t) { return t.ID == _topicID; })
+
+        if (_.isUndefined(_topic)) return false;
+
+
+        ///////   OBJECTIVE   /////
+        if ($(this).data("page-name") == "objectives") {
+
+            ////   EDIT OBJECTIVE   /////
+            if ($(e.currentTarget).hasClass("editObjective")) {
+                $(e.currentTarget).hide();
+                $(e.currentTarget).parent().find(".deleteObjective").hide();
+                $(e.currentTarget).parent().find(".saveObjective").show();
+                $(e.currentTarget).parent().find(".cancelObjective").show();
+                $("textarea#" + _id).attr("disabled", false).removeClass("well").css("border", "solid 1px #ddd").focus();
+                $("#Objective").addClass("disabled").attr("disabled", true);
+                $("#addObjective").addClass("disabled");
+            }
+
+            ////   SAVE OBJECTIVE   /////
+            if ($(e.currentTarget).hasClass("saveObjective")) {
+                var _objectiveText = $("textarea#" + _id).val();
+                var _currentObjectives = CFS.getObjectives(_topic);
+                _.each(_currentObjectives, function (o) {
+                    if (o.ID == _id) {
+                        o.Name = _objectiveText;
+                    }
+                });
+                Template.renderOverview();
+            }
+
+            ////   DELETE OBJECTIVE   /////
+
+
+            ////   CANCEL / SAVE OBJECTIVE   /////
+            if ($(e.currentTarget).hasClass("saveObjective") || $(e.currentTarget).hasClass("cancelObjective")) {
+                $(e.currentTarget).parent().find(".saveObjective").hide();
+                $(e.currentTarget).parent().find(".cancelObjective").hide();
+                $(e.currentTarget).parent().find(".editObjective").show();
+                $(e.currentTarget).parent().find(".deleteObjective").show();
+                $("textarea#" + _id).attr("disabled", true).addClass("well");
+                $("#Objective").removeClass("disabled").attr("disabled", false);
+                $("#addObjective").removeClass("disabled");
+                Template.renderObjectives();
+            }
+
+        }
+        ///////   END OBJECIVE   /////
+
+
+
+        ///////   CREDENTIAL   /////
+        if ($(this).data("page-name") == "credentials") {
+            var _currentCredentials = CFS.getCredentials(CurrentTopic.get());
+            var _selectedCredential = _.find(_currentCredentials, function (o) {
+                if (o.ID == _id) {
+                    return o;
+                }
+            });
+
+            ////   EDIT CREDENTIAL   /////
+            if ($(e.currentTarget).hasClass("editEvent")) {
+                if (_selectedCredential != null && !_.isUndefined(_selectedCredential)) {
+                    //$("#saveEvent").data("credentialID", _selectedCredential.ID);
+                    $("#saveEvent").data("id", _selectedCredential.ID);
+                    // this puts the cursor at the start of the text input
+                    //$("#eventName").val(_selectedCredential.EventName).focus()[0].setSelectionRange(0, 0);
+                    // this highlights the text input
+                    $("#eventName").val(_selectedCredential.EventName).focus().select();
+                    $("#eventDate").val(_selectedCredential.EventDate);
+                    $("#eventLink").val(_selectedCredential.EventLink);
+                    _.each($("#Credentials .required"), function (e) {
+                        $(e).parent().removeClass("has-error");
+                    });
+                }
+
+                $(".editEvent").hide();
+                $(".deleteEvent").hide();
+                $("#addEvent").hide();
+                $("#saveEvent").removeClass("hidden");
+                $("#cancelEvent").removeClass("hidden");
+            }
+
+
+            ////   DELETE CREDENTIAL   /////
+
+
+            ////   SAVE CREDENTIAL   /////
+            if ($(e.currentTarget).hasClass("saveEvent")) {
+                if (_selectedCredential != null && !_.isUndefined(_selectedCredential) && checkRequiredFields("Credentials")) {
+                    _selectedCredential.EventName = $("#eventName").val();
+                    _selectedCredential.EventDate = $("#eventDate").val();
+                    _selectedCredential.EventLink = $("#eventLink").val();
+                }
+            }
+
+            ////   CANCEL / SAVE CREDENTIAL   /////
+            if (($(e.currentTarget).hasClass("saveEvent") && checkRequiredFields("Credentials")) || $(e.currentTarget).hasClass("cancelEvent")) {
+                $("#saveEvent").addClass("hidden");
+                $("#cancelEvent").addClass("hidden");
+                $("#addEvent").show();
+                $(".editEvent").show();
+                $(".deleteEvent").show();
+                $("#eventName").val("");
+                $("#eventDate").val("");
+                $("#eventLink").val("");
+                Template.renderOverview();
+                Template.renderCredentials();
+            }
+
+        }
+        ///////   END CREDENTIAL   /////
+
+
+
+        ///////   REVIEW   /////
+        if ($(this).data("page-name") == "review") {
+
+            ////   EDIT OBJECTIVE   /////
+            if ($(e.currentTarget).hasClass("editObjective")) {
+                $(e.currentTarget).hide();
+                $(e.currentTarget).parent().find(".deleteObjective").hide();
+                $(e.currentTarget).parent().find(".saveObjective").show();
+                $(e.currentTarget).parent().find(".cancelObjective").show();
+                $("textArea#objective" + _id).attr("disabled", false).removeClass("well").css("border", "solid 1px #ddd").focus();
+            }
+
+            ////   SAVE OBJECTIVE   /////
+            if ($(e.currentTarget).hasClass("saveObjective")) {
+                var _objectiveText = $("textarea#objective" + _id).val();
+                var _currentObjectives = CFS.getObjectives(_topic);
+                _.each(_currentObjectives, function (o) {
+                    if (o.ID == _id) {
+                        o.Name = _objectiveText;
+                    }
+                });
+            }
+
+            ////   CANCEL / SAVE OBJECTIVE   /////
+            if ($(e.currentTarget).hasClass("saveObjective") || $(e.currentTarget).hasClass("cancelObjective")) {
+                $(e.currentTarget).parent().find(".saveObjective").hide();
+                $(e.currentTarget).parent().find(".cancelObjective").hide();
+                $(e.currentTarget).parent().find(".editObjective").show();
+                $(e.currentTarget).parent().find(".deleteObjective").show();
+                $("textarea#objective" + _id).attr("disabled", true).addClass("well");
+                Template.renderReview();
+            }
+
+            ////   EDIT CREDENTIAL   /////
+            if ($(e.currentTarget).hasClass("editEvent")) {
+                $("div#credential" + _id).find(".form-control").prop("disabled", false);
+                $(e.currentTarget).hide();
+                $("#eventName" + _id).focus().select();
+                $(e.currentTarget).parent().find(".deleteEvent").hide();
+                $(e.currentTarget).parent().find(".saveEvent").show();
+                $(e.currentTarget).parent().find(".cancelEvent").show();
+                $(".useDatepicker").datepicker();
+                $("#EventName" + _id).focus();
+            }
+
+            ////   SAVE CREDENTIAL   /////
+            var _selectedEvent = "credential" + $(this).data("id");
+            if ($(e.currentTarget).hasClass("saveEvent") && checkRequiredFields(_selectedEvent)) {
+                var _currentCredentials = CFS.getCredentials(_topic);
+                var _selectedCredential = _.find(_currentCredentials, function (o) {
+                    if (o.ID == _id) {
+                        return o;
+                    }
+                });
+                if (_selectedCredential != null && !_.isUndefined(_selectedCredential)) {
+                    _selectedCredential.EventName = $("#eventName" + _id).val();
+                    _selectedCredential.EventDate = $("#eventDate" + _id).val();
+                    _selectedCredential.EventLink = $("#eventLink" + _id).val();
+                }
+            }
+
+            ////   CANCEL / SAVE CREDENTIAL   /////
+            if ($(e.currentTarget).hasClass("cancelEvent") || ($(e.currentTarget).hasClass("saveEvent") && checkRequiredFields(_selectedEvent))) {
+                $("div#credential" + _id).find(".form-control").prop("disabled", true);
+                $(e.currentTarget).hide();
+                $(e.currentTarget).parent().find(".editEvent").show();
+                $(e.currentTarget).parent().find(".deleteEvent").show();
+                $(e.currentTarget).parent().find(".saveEvent").hide();
+                Template.renderReview();
+            }
+
+            ////   FIX IT   /////
+            if ($(e.currentTarget).hasClass("fix")) {
+                CurrentTopic.set(_topic);
+                pageNum = $(this).data("page-no");
+                changePage();
+            }
+        }
+        ///////   END REVIEW   /////
+
+        CFS.set(CFS.get());
+        return false;
+    });
+
+    $(document).on("click", ".deleteObjective, .deleteEvent, .deleteTopic", function (e) {
+        if (!CFS.exists) return false;
+        var _id = $(this).data("id");
+        var _topicID = $(this).data("page-name") == "review"
+         ? $(this).closest($("div[name='topicReview']")).data("topic-id")
+         : CurrentTopic.get().ItemID;
+
+        var _topics = CFS.get().Topics;
+        var _topic = _.find(_topics, function (t) { return t.ID == _topicID; })
+
+        if (_.isUndefined(_topic)) return false;
+
+        // handling all delete buttons so see which one it is and then remove the appropriate item
+        if ($(e.currentTarget).hasClass("deleteObjective")) {
+            _topic.Objectives = _.reject(_topic.Objectives, function (o) { return o.ID == _id; })
+        } else if ($(e.currentTarget).hasClass("deleteEvent")) {
+            _topic.Credentials = _.reject(_topic.Credentials, function (o) { return o.ID == _id; })
+        } else if ($(e.currentTarget).hasClass("deleteTopic")) {
+            _topics = _.reject(_topics, function (o) { return o.ID == _id; });
+            CFS.get().Topics = _topics;
+        }
+        // We don't need to set the new value since the object was passed by reference and our object is correct
+
+        var _deleteAction = $(e.currentTarget).data("page-name");
+        switch (_deleteAction) {
+            case "review":
+                if (!CFS.exists()) {
+                    Template.renderNoData();
+                    $("#forwardToSpeakerInfo").addClass("disabled");
+                } else {
+                    Template.renderReview();
+                }
+                break;
+            case "objectives":
+                Template.renderOverview();
+                Template.renderObjectives();
+                break;
+            case "credentials":
+                Template.renderOverview();
+                Template.renderCredentials();
+            default:
+
+        }
+        CFS.set(CFS.get());
+        return false;
+    });
+    //////   END ADD/DELETE BUTTONS    //////
+
+    var _loadedData = $("#LoadedData").val();
+    if (!(_.isNull(_loadedData) || _.isUndefined(_loadedData) || _loadedData == "")) {
+        var o = JSON.parse(_loadedData).customtableitem_cea_callforspeakers[0].cea_callforspeakers[0];
+        var c = new Object();
+        c.Topics = JSON.parse(o.SelectedTopics);
+        _.each(_.first(c.Topics).Objectives, function (i) { if (_.isNull(i.Name)) i.Name = ""; });
+        var j = JSON.stringify(c);
+        localStorage.setItem("CFS", j);
+        $("#firstName").val(o.FirstName);
+        $("#lastName").val(o.LastName);
+        $("#company").val(o.Company);
+        $("#companyUrl").val(o.CompanyURL);
+        $("#title").val(o.Title);
+        $("#email").val(o.Email);
+        $("#phone").val(o.Phone);
+        $("#altFirstName").val(o.SubmitterFirstName);
+        $("#altLastName").val(o.SubmitterLastName);
+        $("#altCompany").val(o.SubmitterCompany);
+        $("#altEmail").val(o.SubmitterEmail);
+        pageNum = 4;
+        changePage();
+    }
+
+    $.datepicker.setDefaults({
+        maxDate: "+0",
+        dateFormat: 'mm/dd/yy',
+        firstDay: 1,
+        changeMonth: true,
+        changeYear: true
+    });
+    $("#eventDate").datepicker();
+
+    $("textarea").autosize();
+    $("textarea[maxlength]").bind('input propertychange', function () {
+        var maxLength = $(this).attr('maxlength');
+        var currentLength = $(this).val().length;
+        var charsRemaining = maxLength - currentLength;
+        $("#charsRemaining").html("characters remaining: " + charsRemaining.toString()).removeClass("hidden");
+        if (currentLength > maxLength) {
+            $(this).val($(this).val().substring(0, maxLength));
+        }
+    });
+
+});
