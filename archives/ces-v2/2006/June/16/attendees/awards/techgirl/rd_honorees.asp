@@ -1,0 +1,1188 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head><!-- PageID 2908 - published by RedDot 6.5 - 6.5.2.14 - 16244 -->
+
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+
+<!-- INSERT PAGE TITLE HERE (immediately following gblPAGE_TITLE) -->
+<title>2007 International CES:&nbsp;2006 Honorees</title>
+
+
+
+<META NAME="searchZone" CONTENT="generalCESweb">
+
+<link rel="StyleSheet" href="/global_includes/js/mainMethod.css" type="text/css">
+<LINK REL="SHORTCUT ICON" HREF="http://www.easymovement.com/ces/favicon.ico">
+
+<!-- Browser detection script -->
+    <script src="/global_includes/js/browser_detection.js" type="text/javascript"></script>
+
+<SCRIPT language="javascript1.2">
+    function newWin(urlString,pgNum) {
+        var popupWindow;
+        urlString += "?pageID=" + pgNum;
+        popupWindow = window.open(urlString,"","toolbar=yes,menubar=no,resizable=no,status=no,scrollbars=yes,location=no,directories=no,copyhistory=no,height=550,width=618,left=50,top=50");
+    }  
+ 
+    function openNewWindow(strURL) {
+        window.name = "main";
+        var newWindow = window.open(strURL,"newWindow", "toolbar=no,menubar=no,resizable=no,status=no,scrollbars=yes,location=no,directories=no,copyhistory=no,height=400,width=450,left=50,top=50");
+    }
+
+    // Script for e-mail this page - gets the url of the page the user is on before the e-mail page tool button is clicked
+    function loadReferrer() {
+        referrerString = opener.document.location.href;
+        document.emailForm.page.value = referrerString;
+    }
+</SCRIPT>
+
+<!-- Rollover script (do we still need these?) --> 
+<script language="javascript1.2"> 
+    /* for graphical rollovers */
+   function rollOver(which,name) 
+    {
+    var on="/global_images/1.0/1.0_" + which + "_r.gif";
+    if(document.images) {document.images[which].src=on;}
+    else if (document.GetElementById){document.GetElementById(name).src=on;}
+    }
+   function rollOff(which) 
+    {
+    var on="/global_images/1.0/1.0_" + which + ".gif";
+    if(document.images){document.images[which].src=on;}
+    else if (document.GetElementById){document.GetElementById(which).src=on;}
+    }
+   function introllOver(which,name) 
+    {
+    var on="/global_images/1.0/1.0_" + which + "_r.gif";
+    if(document.images) {document.images[which].src=on;}
+    else if (document.GetElementById){document.GetElementById(name).src=on;}
+    }
+   function introllOff(which) 
+    {
+    var on="/global_images/1.0/1.0_" + which + ".gif";
+    if(document.images){document.images[which].src=on;}
+    else if (document.GetElementById){document.GetElementById(which).src=on;}
+    }
+   function snrollOver(which,name) 
+    {
+    var on="/global_images/1.0/1.0" + which + "_r.gif";
+    if(document.images) {document.images[which].src=on;}
+    else if (document.GetElementById){document.GetElementById(name).src=on;}
+    }
+   function snrollOff(which) 
+    {
+    var on="/global_images/1.0/1.0" + which + ".gif";
+    if(document.images){document.images[which].src=on;}
+    else if (document.GetElementById){document.GetElementById(which).src=on;}
+    }
+        
+    //do we still need this?   
+    function onLoadHandler() {
+       if( typeof(bodyOnLoadFunction) != 'undefined' ) {
+           return eval(bodyOnLoadFunction);
+       }
+    }
+</script>
+
+<script language="javascript">
+    <!--
+    var activeNavId=0;
+    var thisPageUrl='/attendees/awards/techgirl/rd_honorees.asp';
+    
+        var parentLinks=new Array('dummy');
+    
+        function checkActiveNav(theUrl) {
+            var linkUrl=theUrl;
+            var returnValue=false;
+            
+            if (linkUrl==thisPageUrl) {
+                returnValue=true;
+            } else if (parentLinks.length>2 && linkUrl==parentLinks[parentLinks.length-1]) {
+                returnValue=true;   
+            } else if (parentLinks.length>3 && linkUrl==parentLinks[parentLinks.length-2]) {
+                returnValue=true;
+            } else if (parentLinks.length>4 && linkUrl==parentLinks[parentLinks.length-3]) {
+                returnValue=true;
+            }
+        return returnValue;
+    }
+    //-->
+    </script>
+
+    <style>
+        <!--
+            .attendeesBGImg {
+                background-image: url('/global_images2005/attendees_bg.gif');
+            }
+
+            .text_colored, .intro_copy, .section_title, .subhead, .body_title, .intro_dates, .box10 {
+               color: #498429;
+            }
+
+            .search_chars {
+                color: #F0FAE6;
+                font : normal 6px Arial, Helvetica, sans-serif;
+            }
+            
+        //-->
+    </style>
+
+</head>
+
+<body leftmargin='0' topmargin='0' rightmargin='0' bottommargin='0' marginwidth='0' onLoad="onLoadHandler();self.focus();"> 
+
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+    <tr>
+        <td width="50%" valign="top" class="attendeesBGImg">&nbsp;</td>
+        <td valign="top" class="attendeesBGImg">
+            <table width="770" cellspacing="0" cellpadding="0" border="0">
+                <!--RDExecute=asp-->
+<!-- blank 1 pixel row at top of page -->
+<tr>
+     <td width="10"><img src="/global_images2005/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+     <td width="140"><img src="/global_images2005/spacer.gif" alt="" width="140" height="1" hspace="0" vspace="0" border="0"></td>
+     <td width="10"><img src="/global_images2005/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+     <td width="10"><img src="/global_images2005/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+     <td width="380"><img src="/global_images2005/spacer.gif" alt="" width="380" height="1" hspace="0" vspace="0" border="0"></td>
+     <td width="10"><img src="/global_images2005/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+     <td width="10"><img src="/global_images2005/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+     <td width="190"><img src="/global_images2005/spacer.gif" alt="" width="190" height="1" hspace="0" vspace="0" border="0"></td>
+     <td width="10"><img src="/global_images2005/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+</tr>
+<!-- /blank 1 pixel row at top of page -->
+
+<!-- global navigation row - register, about, faqs, contact, and site map -->
+<tr>
+     <td width="10"></td>
+     <td width="140"></td>
+     <td width="10"></td>
+     <td width="10"></td>
+     <td width="600" colspan="5" class="nav_global"><img src="/global_images2005/spacer.gif" width="4" height="20" hspace="0" vspace="0" border="0" align="absmiddle"><img src="/global_images2005/spacer.gif" alt="" width="380" height="1" border="0"> <!-- | <!-- --><a href="/about_ces/default.asp">About CES</a> | <!-- --><a href="/faqs/default.asp">FAQs</a> | <!-- --><a href="/contact_us/default.asp">Contact Us</a> | <!-- --><a href="/sitemap.asp">Site Map</a><!-- --></td>
+</tr>
+<!-- /global navigation row - register, about, faqs, contact, and site map -->
+
+
+<!-- logo and banner image row -->
+
+<tr>
+     <td width="10"></td>
+     <td width="140"><a href="/default.htm"><img src="/global_images2005/CES_40annivMain.gif" alt="International CES" width="140" height="74" hspace="0" vspace="0" border="0"></a></td>
+     <td width="10"></td>
+     <td width="610" colspan="6"><img src="/global_images2005/attTop2.gif" alt="" width="610" height="74" border="0"></td>
+</tr>
+<!-- /logo and banner image row -->  
+
+<!-- primary navigation row -->
+<tr>
+     <td width="10"></td>
+     <td width="140"></td>
+     <td width="10"></td>
+     <td width="610" colspan="6" background="/global_images2005/spacer.gif"><a href="/attendees/default.htm" onmouseover="headerRollOver('tab_attendees', '/global_images2005/1.0_tab_attendees_r.gif');" onmouseout="headerRollOff('tab_attendees', '/global_images2005/1.0_tab_attendees.gif');"><img name="tab_attendees" id="tab_attendees" src="/global_images2005/1.0_tab_attendees.gif" alt="Attendees" width="70" height="27" hspace="0" vspace="0" border="0" ></a><a href="/exhibitors/default.htm" onmouseover="headerRollOver('tab_exhibitor', '/global_images2005/1.0_tab_exhibitor_r.gif');" onmouseout="headerRollOff('tab_exhibitor', '/global_images2005/1.0_tab_exhibitor.gif');"><img name="tab_exhibitor" id="tab_exhibitor" src="/global_images2005/1.0_tab_exhibitor.gif" alt="Exhibitor Services" width="118" height="27" hspace="0" vspace="0" border="0"></a><a href="/press/default.htm" onmouseover="headerRollOver('tab_press', '/global_images2005/1.0_tab_press_r.gif');" onmouseout="headerRollOff('tab_press', '/global_images2005/1.0_tab_press.gif');"><img name="tab_press" id="tab_press" src="/global_images2005/1.0_tab_press.gif" width="78" height="27" alt="Press" border="0"></a><a href="/international/default.htm" onmouseover="headerRollOver('tab_international', '/global_images2005/attIntR2.gif');" onmouseout="headerRollOff('tab_international', '/global_images2005/attInt2.gif');"><img src="/global_images2005/attInt2.gif" width="134" height="27" alt="" border="0" name="tab_international" id="tab_international"></a><img src="/global_images2005/attMiddle2.gif" alt="" width="210" height="27" hspace="0" vspace="0" border="0"></td>
+</tr>
+<!-- /primary navigation row -->
+
+<!-- secondary navigation row -->
+<!-- SEARCH INCLUDE APPEARS HERE -->  
+
+
+<tr>
+    <td width="10"></td>
+    <form name="searchCESWeb" method="POST" action="/search/rd_searchResult.asp">
+    <td width="760" colspan="10"  background="/global_images2005/spacer.gif"  class="attendees3">
+
+<!-- table for secondary navigation and search box -->
+        <table cellspacing="0" cellpadding="0" border="0" width="760"  background="/global_images2005/spacer.gif" >
+        <tr>
+            <td class="attendees_second_nav" width="560"><!--&nbsp;|&nbsp;&nbsp;<!-- --><span id="secondaryNav14"><a href="/attendees/conferences/default.asp">Conferences</a></span>
+<script>
+<!--
+if (checkActiveNav("/attendees/conferences/default.asp")) {
+    document.getElementById("secondaryNav14").className="attendees_sec_nav_active"
+}
+// -->
+</script>&nbsp;|&nbsp;&nbsp;<!-- --><span id="secondaryNav175"><a href="/attendees/directory/default.asp">Exhibitor Directory</a></span>
+<script>
+<!--
+if (checkActiveNav("/attendees/directory/default.asp")) {
+    document.getElementById("secondaryNav175").className="attendees_sec_nav_active"
+}
+// -->
+</script>&nbsp;|&nbsp;&nbsp;<!-- --><span id="secondaryNav15"><a href="/attendees/show_floor/default.asp">Show Floor</a></span>
+<script>
+<!--
+if (checkActiveNav("/attendees/show_floor/default.asp")) {
+    document.getElementById("secondaryNav15").className="attendees_sec_nav_active"
+}
+// -->
+</script>&nbsp;|&nbsp;&nbsp;<!-- --><span id="secondaryNav1759"><a href="/attendees/special_events/default.asp">Special Events</a></span>
+<script>
+<!--
+if (checkActiveNav("/attendees/special_events/default.asp")) {
+    document.getElementById("secondaryNav1759").className="attendees_sec_nav_active"
+}
+// -->
+</script>&nbsp;|&nbsp;&nbsp;<!-- --><span id="secondaryNav17"><a href="/attendees/awards/default.asp">Awards</a></span>
+<script>
+<!--
+if (checkActiveNav("/attendees/awards/default.asp")) {
+    document.getElementById("secondaryNav17").className="attendees_sec_nav_active"
+}
+// -->
+</script>&nbsp;|&nbsp;&nbsp;<!-- --><span id="secondaryNav18"><a href="/attendees/travel/default.asp">Hotel/Transit</a></span>
+<script>
+<!--
+if (checkActiveNav("/attendees/travel/default.asp")) {
+    document.getElementById("secondaryNav18").className="attendees_sec_nav_active"
+}
+// -->
+</script>&nbsp;|&nbsp;&nbsp;<!-- --><span id="secondaryNav2966"><a href="/attendees/myCES/default.asp">MyCES</a></span>
+<script>
+<!--
+if (checkActiveNav("/attendees/myCES/default.asp")) {
+    document.getElementById("secondaryNav2966").className="attendees_sec_nav_active"
+}
+// -->
+</script><!-- --></td>
+            <td width="173" align="right">
+
+<!-- Script for setting correct search box size -->
+    <script LANGUAGE="JavaScript">
+    <!--
+    if (is_nav4) {
+        document.write("<input  size=20 ");
+    } 
+    else if (is_mac) {
+        document.write("<input  size=30 ");
+    }
+    else if (is_safari) {
+        document.write("<input  size=25 ");
+    }
+    else {
+        document.write("<input  size=34 ");
+    }
+    document.write("type=\"text\" name=\"SEARCH_STRING\" value=\" Search CESweb.org\" class=\"attendeesform\"  ONFOCUS=\"if(this.value==\' Search CESweb.org\')this.value=\'\'; headerRollOver(\'button_search\', \'/global_images2005/1.0.button_search_r.gif\');\" ONBLUR=\"if(this.value==\'\')this.value=\' Search CESweb.org\'; headerRollOff(\'button_search\', \'/global_images2005/1.0.button_search.gif\');\" >");
+    function checkSearch() {
+        var searchForm = document.searchCESWeb;
+                            
+        if(searchForm.SEARCH_STRING.value.search(/\S/) == -1) {
+            alert("Please enter text to search for.");
+            return;
+        }
+            searchForm.submit();
+        }
+    //-->
+    </script>
+    &nbsp;&nbsp;</td>
+            <td width="27"><img name="button_search"  src="/global_images2005/1.0.button_search.gif" alt="go" width="27" height="33" hspace="0" vspace="0" border="0" onmouseover="headerRollOver('button_search', '/global_images2005/1.0.button_search_r.gif');" onmouseout="headerRollOff('button_search', '/global_images2005/1.0.button_search.gif');" onClick="checkSearch();"></td>
+        </tr>
+        </table>
+<!-- /table for secondary navigation and search box -->   
+
+    </td>
+       <input type="hidden" name="ExhibitorSearchField" value="on">
+       <input type="hidden" name="EventSearchField" value="on">
+       <input type="hidden" name="PressSearchField" value="on">
+       <input type="hidden" name="ConferenceSearchField" value="on">
+       <input type="hidden" name="GeneralCESwebSearchField" value="on">
+    </form>
+</tr>
+<!-- /secondary navigation row -->
+
+<script language="JavaScript">
+        <!--
+        function headerRollOver(imgName, imgSrc) {
+            if(document.images) {document.images[imgName].src=imgSrc;}
+            else if (document.getElementById){document.getElementById(imgName).src=imgSrc;}
+        }
+        function headerRollOff(imgName, imgSrc) {
+            if(document.images){document.images[imgName].src=imgSrc;}
+            else if (document.getElementById){document.getElementById(imgName).src=imgSrc;}
+        }
+        //-->
+</script>
+
+<!-- colored row with section color 4 - 5 pixels high --> 
+<tr>
+     <td width="10"></td>
+     <td width="140"></td>
+     <td width="10"></td>
+     <td width="610" colspan="6"  background="/global_images2005/spacer.gif" class="attendees4"><img src="/global_images2005/spacer.gif" alt="" width="610" height="5" hspace="0" vspace="0" border="0"></td>
+</tr>
+<!-- /colored row with section color 4 - 5 pixels high --> 
+  
+<!-- breadcrumb row -->
+<tr>
+    <td width="10"></td>
+    <td width="140"><a href="/register/" onmouseover="headerRollOver('register', '/global_images2005/1.0.register_r.gif');" onmouseout="headerRollOff('register', '/global_images2005/1.0.register.gif');"><img src="/global_images2005/1.0.register.gif" alt="Register" name="register" id="register" width="140" height="40" hspace="0" vspace="0" border="0"></a></td>
+    <td width="10"></td>  
+    <td width="10" background="/global_images2005/spacer.gif" class="attendees6"><img src="/global_images2005/spacer.gif" alt="" width="10" height="40" hspace="0" vspace="0" border="0"></td>
+    <td width="390" colspan="2" background="/global_images2005/spacer.gif" class="attendees6" valign="bottom"><span class="attendees_nav_breadcrumb">
+
+   <a href="/default.htm">Home</a>&nbsp;&gt;&nbsp;2006 Honorees
+
+    </span><br><img src="/global_images2005/spacer.gif" height="8" width="1"></td>
+    <td width="200" background="/global_images2005/spacer.gif" colspan="2" class="attendees6"><img src="/global_images2005/1.0_print_mail.gif" width="115" height="40" alt="print - email" border="0"><a href="#" id="print_link" onmouseover="headerRollOver('button_print', '/global_images2005/1.0_button_print_r.gif');" onmouseout="headerRollOff('button_print', '/global_images2005/1.0_button_print.gif');" onclick="window.open('/print/attendees/awards/techgirl/rd_honorees.asp?', '_blank', 'status=yes,toolbar=yes,menubar=yes,scrollbars=yes,location=no,width=620');return false;"><img src="/global_images2005/1.0_button_print.gif" alt="Print" name="button_print" id="button_print" width="42" height="40" hspace="0" vspace="0" border="0"></a><a href="javascript:newWin('/global_includes/asp/email.asp');" id="mail_link" onmouseover="headerRollOver('button_mail', '/global_images2005/1.0_button_mail_r.gif');" onmouseout="headerRollOff('button_mail', '/global_images2005/1.0_button_mail.gif');"><img src="/global_images2005/1.0_button_mail.gif" alt="Email" name="button_mail" id="button_mail" width="42" height="40" hspace="0" vspace="0" border="0"></a></td>
+    <td width="10" background="/global_images2005/spacer.gif" class="attendees6">&nbsp;</td>
+</tr>
+<!-- /breadcrumb row --> 
+
+</table>
+<table width="770" cellspacing="0" cellpadding="0" border="0">
+
+<!-- main body row -->
+<tr>
+<!-- left column -->
+    <td width="10" rowspan="2"><img src="/global_images2005/spacer.gif" height="1" width="10"></td>
+    <td width="140" valign="top" rowspan="2"><img src="/global_images2005/spacer.gif" width="140" height="20" alt="" border="0"><br>
+
+<!-- left nav -->    
+    <!-- left nav -->
+        <span class="nav_third">
+
+        <img src="/global_images2005/3nav_bar_gray.gif" alt="--------" width="140" height="1" hspace="0" vspace="0" border="0"><br>
+<img src="/global_images2005/spacer.gif" width="140" height="4" alt="" border="0"><br>
+<a href="/attendees/awards/innovations/default.asp">CES Innovations 2007</a><br>
+
+
+    <span class="nav_fourth" id="fourth_row_container78" style="display: none;">
+    
+        <span class="nav_fourth_arrow"><b>&gt;</b> &nbsp;</span><a href="/attendees/awards/innovations/rd_2006honorees.asp">Innovations Honorees</a>
+              <script language="JavaScript">
+              <!--
+                  if (checkActiveNav("/attendees/awards/innovations/rd_2006honorees.asp") && document.getElementById("fourth_row_container78")) { document.getElementById("fourth_row_container78").style.display = "";}
+              //-->
+              </script><br>
+    
+        <span class="nav_fourth_arrow"><b>&gt;</b> &nbsp;</span><a href="/attendees/awards/innovations/about.asp">About the Program</a>
+              <script language="JavaScript">
+              <!--
+                  if (checkActiveNav("/attendees/awards/innovations/about.asp") && document.getElementById("fourth_row_container78")) { document.getElementById("fourth_row_container78").style.display = "";}
+              //-->
+              </script><br>
+    
+        <span class="nav_fourth_arrow"><b>&gt;</b> &nbsp;</span><a href="/attendees/awards/innovations/details.asp">Entry Details</a>
+              <script language="JavaScript">
+              <!--
+                  if (checkActiveNav("/attendees/awards/innovations/details.asp") && document.getElementById("fourth_row_container78")) { document.getElementById("fourth_row_container78").style.display = "";}
+              //-->
+              </script><br>
+    
+        <span class="nav_fourth_arrow"><b>&gt;</b> &nbsp;</span><a href="/attendees/awards/innovations/rd_entries.asp">Call for Entries</a>
+              <script language="JavaScript">
+              <!--
+                  if (checkActiveNav("/attendees/awards/innovations/rd_entries.asp") && document.getElementById("fourth_row_container78")) { document.getElementById("fourth_row_container78").style.display = "";}
+              //-->
+              </script><br>
+    
+    <img src="/global_images2005/spacer.gif" width="140" height="4" alt="" border="0"><br>
+    </span>
+
+
+
+
+    <img src="/global_images2005/spacer.gif" width="140" height="6" alt="" border="0"><br>
+               <script language="JavaScript">
+              <!--
+                  if (checkActiveNav("/attendees/awards/innovations/default.asp") && document.getElementById("fourth_row_container78")) { document.getElementById("fourth_row_container78").style.display = "";}
+              //-->
+              </script> <img src="/global_images2005/3nav_bar_gray.gif" alt="--------" width="140" height="1" hspace="0" vspace="0" border="0"><br>
+<img src="/global_images2005/spacer.gif" width="140" height="4" alt="" border="0"><br>
+<a href="/attendees/awards/3227.asp">CNET's Best of CES</a><br>
+
+
+
+
+
+    <img src="/global_images2005/spacer.gif" width="140" height="6" alt="" border="0"><br>
+               <script language="JavaScript">
+              <!--
+                  if (checkActiveNav("/attendees/awards/3227.asp") && document.getElementById("fourth_row_container3226")) { document.getElementById("fourth_row_container3226").style.display = "";}
+              //-->
+              </script> 
+        <img src="/global_images2005/3nav_bar_gray.gif" alt="--------" width="140" height="1" hspace="0" vspace="0" border="0"><br>
+
+        <img src="/global_images2005/spacer.gif" width="140" height="28" alt="" border="0"><br>
+        </span>
+<!-- /left nav -->
+<!-- /left nav --> 
+
+<!-- CEA badge -->
+    <a href="http://www.ce.org" target="new" onmouseover="headerRollOver('leftAddedValue2908', '/global_images2005/1.0_logo_cea_r.gif');" onmouseout="headerRollOff('leftAddedValue2908', '/global_images2005/1.0_logo_cea.gif');"><img src="/global_images2005/1.0_logo_cea.gif" name="leftAddedValue2908" id="leftAddedValue2908" border="0"></a><br><img src="/global_images2005/spacer.gif" height="10" width="1">
+<!-- /CEA badge -->
+
+<!-- myCES banner 
+          <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="140" height="260">
+          <param name="movie" value="/global_includes/flash/myces-banner-att.swf">
+          <param name="quality" value="high">
+          <embed src="/global_includes/flash/myces-banner-att.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="140" height="260"></embed>
+        </object><br><img src="/global_images2005/spacer.gif" height="10" width="1">
+    /myCES banner -->
+
+<!-- left added value -->
+    
+    
+<!-- /left added value -->
+
+    </td>
+    <td width="10" rowspan="2"><img src="/global_images2005/spacer.gif" height="1" width="10"></td>
+<!-- /left column -->
+
+
+
+<!-- main body content -->    
+    <td width="10" class="attendees7"><img src="/global_images2005/spacer.gif" height="1" width="10"></td>
+    <td width="100%" class="attendees7" valign="top">
+    <img src="/global_images2005/spacer.gif" height="10" width="1"><span class="search_chars">1_1_</span><br>
+
+<!-- center content -->
+
+
+<div class="body_title">Technology Is A Girl's Best Friend - 2006 Showcase Honorees<br><img src="/global_images2005/spacer.gif" height="16" width="1"></div>
+
+
+<SCRIPT language="javascript1.2">
+function newWin(urlString,pgNum)
+  {
+    var popupWindow;
+	urlString += "?pageID=" + pgNum;
+	
+    popupWindow = window.open(urlString,"","toolbar=yes,menubar=no,resizable=no,status=no,scrollbars=yes,location=no,directories=no,copyhistory=no,height=550,width=610,left=50,top=50");
+  }//  function for opening a new pop-up window for printing a page
+  
+ 
+function openNewWindow(strURL) {
+	window.name = "main";
+	
+	var newWindow = window.open(strURL,"newWindow", "toolbar=no,menubar=no,resizable=no,status=no,scrollbars=yes,location=no,directories=no,copyhistory=no,height=400,width=450,left=50,top=50");
+} //  function for opening a new pop-up window
+
+// javascript for e-mail this page tool - gets the url of the page the user is on before the e-mail page tool button is clicked
+	
+	function loadReferrer() {
+		referrerString = opener.document.location.href;
+		document.emailForm.page.value = referrerString;
+	}
+
+</SCRIPT>	
+	
+<div>	
+<!-- text for main page -->
+<img src="techgirl100.gif" align="right" hspace="6">
+Not all women prefer diamonds. In fact, many are passing by glittery jewelry store displays in favor of something a little more...electric. Women today are scooping up the latest electronics to the tune of $55 billion per year.
+<br><br>
+<span class="subhead">2006 Honorees</span><br>
+Located in the Sands Expo and Convention Center Lobby, the <em>Technology Is A Girl's Best Friend</em> showcase features the winning products of 2006.
+<br><br>
+<a href="http://www.celifestyles.com" target="_blank"><img align="right" hspace="6" src="/images/partners/CElifestyles.gif" border="0"></a>
+Scroll down the list of 2006 honorees or view them by product category. Winners will also be featured in an upcoming issue of <a href="http://www.celifestyles.com" target="_blank">CE Lifestyles</a>.
+<br><img src="/global_images2005/spacer.gif" alt="" width="1" height="35" hspace="0" vspace="0" border="0"><br>
+<div align="center"><a href="#AU">Audio</a>&nbsp;|&nbsp;<a href="#CO">Computers</a>&nbsp;|&nbsp;<a href="#DI">Digital Imaging</a>&nbsp;|&nbsp;<a href="#LB">Laptop Bags</a>&nbsp;|&nbsp;<a href="#ME">Mobile/Automotive Electronics</a>&nbsp;|&nbsp;<a href="#PA">Portable Audio</a>&nbsp;|&nbsp;<a href="#TV">Television</a>&nbsp;|&nbsp;<a href="#Wireless">Wireless</a></div>
+
+<img src="/global_images2005/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"><br>
+	
+	
+		<table width="590" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img src="/global_images2005/1.0/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"></td>
+		</tr>
+		<tr><a name="AU"></a>
+		    <td width="140" align="center" valign="middle" bgcolor="#FFFFFF">
+				<img src="/global_images2005/spacer.gif" alt="" width="1" height="8" hspace="0" vspace="0" border="0"><br>
+				
+				<img src="/shared_files/techgirl/820/thumbnail820.jpg"><br>
+				<a target="new" href="/shared_files/techgirl/820/mainphoto820.JPG">Click to enlarge.</a><br>	
+				<img src="/global_images2005/spacer.gif" alt="" width="1" height="11" hspace="0" vspace="0" border="0"><br>
+			</td>
+		    <td width="10"><img src="/global_images2005/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+		    <td valign="top" class="text" width="440"><img src="/global_images2005/spacer.gif" alt="" width="440" height="4" hspace="0" vspace="0" border="0"><br>
+				<table border="0" cellpadding="0" cellspacing="0" width="440">
+				<tr>
+					<td valign="top">
+												
+					<span class="subhead">Honoree Category: Audio</span><br><br>
+								
+					<b>HiVi's Swan S200A</b><br>
+					
+					Swan Speaker Systems Inc.&nbsp;&nbsp;[<a href="/attendees/directory/rd_exhibitor_details.asp?exhibid=5957">view exhibitor details</a>]<br>
+						
+						<a target="new" href="http://www.swanspeaker.com/product/htm/view.asp?id=256">www.swanspeaker.com/product/htm/view.asp?id=256</a>
+					<br><br>	
+					
+					Enter a new era of digital music, the S200A represents the next step in Swan’s commitment to un-compromised quality audio performance across applications: Multimedia excellence for discerning eyes and ears.<br><br>
+	
+					
+						Location(s): South Hall 1/20962<br><br><br>
+					
+							<!--Exhibitor:   - <br>-->
+							
+								<!--Location(s): &nbsp;<br><br>-->
+											
+					</td>
+				</tr>
+				</table>
+		</tr>
+			
+		<table width="590" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img src="/global_images2005/1.0/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"></td>
+		</tr>
+		<tr><a name="AU"></a>
+		    <td width="140" align="center" valign="middle" bgcolor="#FFFFFF">
+				<img src="/global_images2005/spacer.gif" alt="" width="1" height="8" hspace="0" vspace="0" border="0"><br>
+				
+				<img src="/shared_files/techgirl/1015/thumbnail1015.jpg"><br>
+				<a target="new" href="/shared_files/techgirl/1015/mainphoto1015.jpg">Click to enlarge.</a><br>	
+				<img src="/global_images2005/spacer.gif" alt="" width="1" height="11" hspace="0" vspace="0" border="0"><br>
+			</td>
+		    <td width="10"><img src="/global_images2005/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+		    <td valign="top" class="text" width="440"><img src="/global_images2005/spacer.gif" alt="" width="440" height="4" hspace="0" vspace="0" border="0"><br>
+				<table border="0" cellpadding="0" cellspacing="0" width="440">
+				<tr>
+					<td valign="top">
+												
+					<span class="subhead">Honoree Category: Audio</span><br><br>
+								
+					<b>S-101 Home Entertainment System</b><br>
+					
+					DENON Electronics (USA) LLC&nbsp;&nbsp;[<a href="/attendees/directory/rd_exhibitor_details.asp?exhibid=5029">view exhibitor details</a>]<br>
+						
+						<a target="new" href="http://simple.denon.com">simple.denon.com</a>
+					<br><br>	
+					
+					Denon's elegantly designed and affordable S-101 is an integrated 2.1-channel surround sound DVD home entertainment system; offering convenient connectivity and control of today's portable digital music devices, including Apple iPod.<br><br>
+	
+					
+						Location(s): South Hall 1/20401<br><br><br>
+					
+							<!--Exhibitor:   - <br>-->
+							
+								<!--Location(s): &nbsp;<br><br>-->
+											
+					</td>
+				</tr>
+				</table>
+		</tr>
+			
+		<table width="590" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img src="/global_images2005/1.0/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"></td>
+		</tr>
+		<tr><a name="CO"></a>
+		    <td width="140" align="center" valign="middle" bgcolor="#FFFFFF">
+				<img src="/global_images2005/spacer.gif" alt="" width="1" height="8" hspace="0" vspace="0" border="0"><br>
+				
+				<img src="/shared_files/techgirl/774/thumbnail774.jpg"><br>
+				<a target="new" href="/shared_files/techgirl/774/mainphoto774.jpg">Click to enlarge.</a><br>	
+				<img src="/global_images2005/spacer.gif" alt="" width="1" height="11" hspace="0" vspace="0" border="0"><br>
+			</td>
+		    <td width="10"><img src="/global_images2005/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+		    <td valign="top" class="text" width="440"><img src="/global_images2005/spacer.gif" alt="" width="440" height="4" hspace="0" vspace="0" border="0"><br>
+				<table border="0" cellpadding="0" cellspacing="0" width="440">
+				<tr>
+					<td valign="top">
+												
+					<span class="subhead">Honoree Category: Computers</span><br><br>
+								
+					<b>Sharp M4000 WideNote</b><br>
+					
+					Sharp Electronics Corp.&nbsp;&nbsp;[<a href="/attendees/directory/rd_exhibitor_details.asp?exhibid=5544">view exhibitor details</a>]<br>
+						
+						<a target="new" href="http://www.sharpsystems.com/products/pc_notebooks/m4000/index.asp">www.sharpsystems.com/products/pc_notebooks/m4000/index.asp</a>
+					<br><br>	
+					
+					The Sharp M4000 WideNote(TM) is a full-function wide-screen notebook that provides outstanding system performance, spacious keyboard comfort and true coast-to-coast battery life in an ultra-low weight package.
+
+<br><br>
+	
+					
+						Location(s): Central Hall/11024, Meeting Room/N219, Meeting Room/N220<br><br><br>
+					
+							<!--Exhibitor:   - <br>-->
+							
+								<!--Location(s): &nbsp;<br><br>-->
+											
+					</td>
+				</tr>
+				</table>
+		</tr>
+			
+		<table width="590" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img src="/global_images2005/1.0/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"></td>
+		</tr>
+		<tr><a name="CO"></a>
+		    <td width="140" align="center" valign="middle" bgcolor="#FFFFFF">
+				<img src="/global_images2005/spacer.gif" alt="" width="1" height="8" hspace="0" vspace="0" border="0"><br>
+				
+				<img src="/shared_files/techgirl/960/thumbnail960.jpg"><br>
+				<a target="new" href="/shared_files/techgirl/960/mainphoto960.jpg">Click to enlarge.</a><br>	
+				<img src="/global_images2005/spacer.gif" alt="" width="1" height="11" hspace="0" vspace="0" border="0"><br>
+			</td>
+		    <td width="10"><img src="/global_images2005/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+		    <td valign="top" class="text" width="440"><img src="/global_images2005/spacer.gif" alt="" width="440" height="4" hspace="0" vspace="0" border="0"><br>
+				<table border="0" cellpadding="0" cellspacing="0" width="440">
+				<tr>
+					<td valign="top">
+												
+					<span class="subhead">Honoree Category: Computers</span><br><br>
+								
+					<b>FP93V</b><br>
+					
+					BenQ America Corp.&nbsp;&nbsp;[<a href="/attendees/directory/rd_exhibitor_details.asp?exhibid=8593">view exhibitor details</a>]<br>
+						
+						<a target="new" href="http://www.benq.com">www.benq.com</a>
+					<br><br>	
+					
+					The BenQ FP93V LCD monitor is specifically designed for consumers who pay extra attention in seeking for stylish and smart design products to complement their quality of living<br><br>
+	
+					
+						Location(s): South Hall 3/30759<br><br><br>
+					
+							<!--Exhibitor:   - <br>-->
+							
+								<!--Location(s): &nbsp;<br><br>-->
+											
+					</td>
+				</tr>
+				</table>
+		</tr>
+			
+		<table width="590" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img src="/global_images2005/1.0/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"></td>
+		</tr>
+		<tr><a name="DI"></a>
+		    <td width="140" align="center" valign="middle" bgcolor="#FFFFFF">
+				<img src="/global_images2005/spacer.gif" alt="" width="1" height="8" hspace="0" vspace="0" border="0"><br>
+				
+				<img src="/shared_files/techgirl/843/thumbnail843.jpg"><br>
+				<a target="new" href="/shared_files/techgirl/843/mainphoto843.jpg">Click to enlarge.</a><br>	
+				<img src="/global_images2005/spacer.gif" alt="" width="1" height="11" hspace="0" vspace="0" border="0"><br>
+			</td>
+		    <td width="10"><img src="/global_images2005/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+		    <td valign="top" class="text" width="440"><img src="/global_images2005/spacer.gif" alt="" width="440" height="4" hspace="0" vspace="0" border="0"><br>
+				<table border="0" cellpadding="0" cellspacing="0" width="440">
+				<tr>
+					<td valign="top">
+												
+					<span class="subhead">Honoree Category: Digital Imaging</span><br><br>
+								
+					<b>HP Photosmart R817 Digital Camera</b><br>
+					
+					Hewlett Packard&nbsp;&nbsp;[<a href="/attendees/directory/rd_exhibitor_details.asp?exhibid=6512">view exhibitor details</a>]<br>
+						
+						<a target="new" href="http://www.hp.com/hpinfo/newsroom/press_kits/2005/spt/newproducts.html#cameras">www.hp.com/hpinfo/newsroom/press_kits/2005/spt/newproducts.html#cameras</a>
+					<br><br>	
+					
+					The HP Photosmart R817 Digital Camera offers 5x optical zoom and HP Real Life technologies packed into a stylishly small, 5 MP camera for taking brilliant digital photos.<br><br>
+	
+					
+						Location(s): Central Hall/7923<br><br><br>
+					
+							<!--Exhibitor:   - <br>-->
+							
+								<!--Location(s): &nbsp;<br><br>-->
+											
+					</td>
+				</tr>
+				</table>
+		</tr>
+			
+		<table width="590" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img src="/global_images2005/1.0/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"></td>
+		</tr>
+		<tr><a name="DI"></a>
+		    <td width="140" align="center" valign="middle" bgcolor="#FFFFFF">
+				<img src="/global_images2005/spacer.gif" alt="" width="1" height="8" hspace="0" vspace="0" border="0"><br>
+				
+				<img src="/shared_files/techgirl/1013/thumbnail1013.jpg"><br>
+				<a target="new" href="/shared_files/techgirl/1013/mainphoto1013.jpg">Click to enlarge.</a><br>	
+				<img src="/global_images2005/spacer.gif" alt="" width="1" height="11" hspace="0" vspace="0" border="0"><br>
+			</td>
+		    <td width="10"><img src="/global_images2005/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+		    <td valign="top" class="text" width="440"><img src="/global_images2005/spacer.gif" alt="" width="440" height="4" hspace="0" vspace="0" border="0"><br>
+				<table border="0" cellpadding="0" cellspacing="0" width="440">
+				<tr>
+					<td valign="top">
+												
+					<span class="subhead">Honoree Category: Digital Imaging</span><br><br>
+								
+					<b>Hitachi Microdrive 3K6</b><br>
+					
+					Hitachi Ltd./Hitachi America&nbsp;&nbsp;[<a href="/attendees/directory/rd_exhibitor_details.asp?exhibid=8696">view exhibitor details</a>]<br>
+						
+						<a target="new" href="http://www.hitachigst.com">www.hitachigst.com</a>
+					<br><br>	
+					
+					Hitachi's high-performance Microdrive 3K6 offers consumers high capacity, portability, flexibility and affordable storage in a miniature 1-inch format.  <br><br>
+	
+					
+						Location(s): South Hall 2/25342<br><br><br>
+					
+							<!--Exhibitor:   - <br>-->
+							
+								<!--Location(s): &nbsp;<br><br>-->
+											
+					</td>
+				</tr>
+				</table>
+		</tr>
+			
+		<table width="590" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img src="/global_images2005/1.0/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"></td>
+		</tr>
+		<tr><a name="LB"></a>
+		    <td width="140" align="center" valign="middle" bgcolor="#FFFFFF">
+				<img src="/global_images2005/spacer.gif" alt="" width="1" height="8" hspace="0" vspace="0" border="0"><br>
+				
+				<img src="/shared_files/techgirl/959/thumbnail959.jpg"><br>
+				<a target="new" href="/shared_files/techgirl/959/mainphoto959.jpg">Click to enlarge.</a><br>	
+				<img src="/global_images2005/spacer.gif" alt="" width="1" height="11" hspace="0" vspace="0" border="0"><br>
+			</td>
+		    <td width="10"><img src="/global_images2005/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+		    <td valign="top" class="text" width="440"><img src="/global_images2005/spacer.gif" alt="" width="440" height="4" hspace="0" vspace="0" border="0"><br>
+				<table border="0" cellpadding="0" cellspacing="0" width="440">
+				<tr>
+					<td valign="top">
+												
+					<span class="subhead">Honoree Category: Laptop Bags</span><br><br>
+								
+					<b>Icon Female Laptop Tote</b><br>
+					
+					Motion Systems LLC&nbsp;&nbsp;[<a href="/attendees/directory/rd_exhibitor_details.asp?exhibid=5343">view exhibitor details</a>]<br>
+						
+						<a target="new" href="http://www.beteshgroup.com">www.beteshgroup.com</a>
+					<br><br>	
+					
+					ICON black leather Female Laptop Tote with pink painted raw edges and faux suede trim and pink nylon twill quilted interior with removable computer sleeve and accessory pouch.  Style: FMTOTE01-PNK<br><br>
+	
+					
+						Location(s): Central Hall/15027<br><br><br>
+					
+							<!--Exhibitor:   - <br>-->
+							
+								<!--Location(s): &nbsp;<br><br>-->
+											
+					</td>
+				</tr>
+				</table>
+		</tr>
+			
+		<table width="590" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img src="/global_images2005/1.0/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"></td>
+		</tr>
+		<tr><a name="LB"></a>
+		    <td width="140" align="center" valign="middle" bgcolor="#FFFFFF">
+				<img src="/global_images2005/spacer.gif" alt="" width="1" height="8" hspace="0" vspace="0" border="0"><br>
+				
+				<img src="/shared_files/techgirl/986/thumbnail986.jpg"><br>
+				<a target="new" href="/shared_files/techgirl/986/mainphoto986.jpg">Click to enlarge.</a><br>	
+				<img src="/global_images2005/spacer.gif" alt="" width="1" height="11" hspace="0" vspace="0" border="0"><br>
+			</td>
+		    <td width="10"><img src="/global_images2005/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+		    <td valign="top" class="text" width="440"><img src="/global_images2005/spacer.gif" alt="" width="440" height="4" hspace="0" vspace="0" border="0"><br>
+				<table border="0" cellpadding="0" cellspacing="0" width="440">
+				<tr>
+					<td valign="top">
+												
+					<span class="subhead">Honoree Category: Laptop Bags</span><br><br>
+								
+					<b>Targus Getta Backpack Ladies Case</b><br>
+					
+					Targus Inc.&nbsp;&nbsp;[<a href="/attendees/directory/rd_exhibitor_details.asp?exhibid=5614">view exhibitor details</a>]<br>
+						
+						<a target="new" href="http://www.targus.com">www.targus.com</a>
+					<br><br>	
+					
+					The Getta Backpack notebook carrying case features a stylish silhouette ideal for the female consumer. Designed for the 'over packer,' the Getta Backpack provides plenty of room for travel accessories.<br><br>
+	
+					
+						Location(s): South Hall 3/31133<br><br><br>
+					
+							<!--Exhibitor:   - <br>-->
+							
+								<!--Location(s): &nbsp;<br><br>-->
+											
+					</td>
+				</tr>
+				</table>
+		</tr>
+			
+		<table width="590" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img src="/global_images2005/1.0/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"></td>
+		</tr>
+		<tr><a name="ME"></a>
+		    <td width="140" align="center" valign="middle" bgcolor="#FFFFFF">
+				<img src="/global_images2005/spacer.gif" alt="" width="1" height="8" hspace="0" vspace="0" border="0"><br>
+				
+				<img src="/shared_files/techgirl/936/thumbnail936.jpg"><br>
+				<a target="new" href="/shared_files/techgirl/936/mainphoto936.jpg">Click to enlarge.</a><br>	
+				<img src="/global_images2005/spacer.gif" alt="" width="1" height="11" hspace="0" vspace="0" border="0"><br>
+			</td>
+		    <td width="10"><img src="/global_images2005/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+		    <td valign="top" class="text" width="440"><img src="/global_images2005/spacer.gif" alt="" width="440" height="4" hspace="0" vspace="0" border="0"><br>
+				<table border="0" cellpadding="0" cellspacing="0" width="440">
+				<tr>
+					<td valign="top">
+												
+					<span class="subhead">Honoree Category: Mobile/Automotive Electronics</span><br><br>
+								
+					<b>Video Mirror</b><br>
+					
+					Magna Donnelly&nbsp;&nbsp;[<a href="/attendees/directory/rd_exhibitor_details.asp?exhibid=5052">view exhibitor details</a>]<br>
+						
+						<a target="new" href="http://www.magna.com">www.magna.com</a>
+					<br><br>	
+					
+					VideoMirro(TM), the Electrochromic (auto-dimming) interior rearview mirror with slide-out video display can show full motion video of parking related tasks and trailer hitching scenarios while the vehicle is in motion.<br><br>
+	
+					
+						Location(s): Sands/70600<br><br><br>
+					
+							<!--Exhibitor:   - <br>-->
+							
+								<!--Location(s): &nbsp;<br><br>-->
+											
+					</td>
+				</tr>
+				</table>
+		</tr>
+			
+		<table width="590" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img src="/global_images2005/1.0/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"></td>
+		</tr>
+		<tr><a name="ME"></a>
+		    <td width="140" align="center" valign="middle" bgcolor="#FFFFFF">
+				<img src="/global_images2005/spacer.gif" alt="" width="1" height="8" hspace="0" vspace="0" border="0"><br>
+				
+				<img src="/shared_files/techgirl/970/thumbnail970.jpg"><br>
+				<a target="new" href="/shared_files/techgirl/970/mainphoto970.jpg">Click to enlarge.</a><br>	
+				<img src="/global_images2005/spacer.gif" alt="" width="1" height="11" hspace="0" vspace="0" border="0"><br>
+			</td>
+		    <td width="10"><img src="/global_images2005/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+		    <td valign="top" class="text" width="440"><img src="/global_images2005/spacer.gif" alt="" width="440" height="4" hspace="0" vspace="0" border="0"><br>
+				<table border="0" cellpadding="0" cellspacing="0" width="440">
+				<tr>
+					<td valign="top">
+												
+					<span class="subhead">Honoree Category: Mobile/Automotive Electronics</span><br><br>
+								
+					<b>Blackbird</b><br>
+					
+					Alpine Electronics&nbsp;&nbsp;[<a href="/attendees/directory/rd_exhibitor_details.asp?exhibid=7404">view exhibitor details</a>]<br>
+						
+						<a target="new" href="http://www.alpine-usa.com">www.alpine-usa.com</a>
+					<br><br>	
+					
+					Alpine's Blackbird is a portable car navigation system/digital music player with map coverage of the US and Canada.  It integrates with other Alpine products when used with its docking station.  <br><br>
+	
+					
+						Location(s): Meeting Room/N115, Meeting Room/N116, Meeting Room/N117, Meeting Room/N118, Meeting Room/N119<br><br><br>
+					
+							<!--Exhibitor:   - <br>-->
+							
+								<!--Location(s): &nbsp;<br><br>-->
+											
+					</td>
+				</tr>
+				</table>
+		</tr>
+			
+		<table width="590" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img src="/global_images2005/1.0/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"></td>
+		</tr>
+		<tr><a name="PA"></a>
+		    <td width="140" align="center" valign="middle" bgcolor="#FFFFFF">
+				<img src="/global_images2005/spacer.gif" alt="" width="1" height="8" hspace="0" vspace="0" border="0"><br>
+				
+				<img src="/shared_files/techgirl/865/thumbnail865.jpg"><br>
+				<a target="new" href="/shared_files/techgirl/865/mainphoto865.jpg">Click to enlarge.</a><br>	
+				<img src="/global_images2005/spacer.gif" alt="" width="1" height="11" hspace="0" vspace="0" border="0"><br>
+			</td>
+		    <td width="10"><img src="/global_images2005/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+		    <td valign="top" class="text" width="440"><img src="/global_images2005/spacer.gif" alt="" width="440" height="4" hspace="0" vspace="0" border="0"><br>
+				<table border="0" cellpadding="0" cellspacing="0" width="440">
+				<tr>
+					<td valign="top">
+												
+					<span class="subhead">Honoree Category: Portable Audio</span><br><br>
+								
+					<b>Sony Walkman Bean</b><br>
+					
+					Sony Electronics Inc.&nbsp;&nbsp;[<a href="/attendees/directory/rd_exhibitor_details.asp?exhibid=5571">view exhibitor details</a>]<br>
+						
+						<a target="new" href="http://www.sonystyle.com">www.sonystyle.com</a>
+					<br><br>	
+					
+					The Sony Network Walkman Bean NW-E307 boasts 1GB of memory, a built-in FM tuner and USB connector, 50 hours of continuous playback as well as an organic electroluminescence display.
+
+<br><br>
+	
+					
+						Location(s): Central Hall/14200, Meeting Room/N110<br><br><br>
+					
+							<!--Exhibitor:   - <br>-->
+							
+								<!--Location(s): &nbsp;<br><br>-->
+											
+					</td>
+				</tr>
+				</table>
+		</tr>
+			
+		<table width="590" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img src="/global_images2005/1.0/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"></td>
+		</tr>
+		<tr><a name="PA"></a>
+		    <td width="140" align="center" valign="middle" bgcolor="#FFFFFF">
+				<img src="/global_images2005/spacer.gif" alt="" width="1" height="8" hspace="0" vspace="0" border="0"><br>
+				
+				<img src="/shared_files/techgirl/921/thumbnail921.jpg"><br>
+				<a target="new" href="/shared_files/techgirl/921/mainphoto921.jpg">Click to enlarge.</a><br>	
+				<img src="/global_images2005/spacer.gif" alt="" width="1" height="11" hspace="0" vspace="0" border="0"><br>
+			</td>
+		    <td width="10"><img src="/global_images2005/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+		    <td valign="top" class="text" width="440"><img src="/global_images2005/spacer.gif" alt="" width="440" height="4" hspace="0" vspace="0" border="0"><br>
+				<table border="0" cellpadding="0" cellspacing="0" width="440">
+				<tr>
+					<td valign="top">
+												
+					<span class="subhead">Honoree Category: Portable Audio</span><br><br>
+								
+					<b>Philips Sport Audio Player</b><br>
+					
+					Philips Consumer Electronics&nbsp;&nbsp;[<a href="/attendees/directory/rd_exhibitor_details.asp?exhibid=5436">view exhibitor details</a>]<br>
+						
+						<a target="new" href="http://www.philips.com">www.philips.com</a>
+					<br><br>	
+					
+					Stylish durability meets super-intuitive functionality with Philips 6GB Sport Audio Player PSA615. Designed for movement, PSA615 boasts a compact, shock-absorbing design, ShockLock, talking stopwatch and 'No Look' rocking lens.<br><br>
+	
+					
+						Location(s): Central Hall/9024<br><br><br>
+					
+							<!--Exhibitor:   - <br>-->
+							
+								<!--Location(s): &nbsp;<br><br>-->
+											
+					</td>
+				</tr>
+				</table>
+		</tr>
+			
+		<table width="590" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img src="/global_images2005/1.0/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"></td>
+		</tr>
+		<tr><a name="TV"></a>
+		    <td width="140" align="center" valign="middle" bgcolor="#FFFFFF">
+				<img src="/global_images2005/spacer.gif" alt="" width="1" height="8" hspace="0" vspace="0" border="0"><br>
+				
+				<img src="/shared_files/techgirl/897/thumbnail897.jpg"><br>
+				<a target="new" href="/shared_files/techgirl/897/mainphoto897.jpg">Click to enlarge.</a><br>	
+				<img src="/global_images2005/spacer.gif" alt="" width="1" height="11" hspace="0" vspace="0" border="0"><br>
+			</td>
+		    <td width="10"><img src="/global_images2005/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+		    <td valign="top" class="text" width="440"><img src="/global_images2005/spacer.gif" alt="" width="440" height="4" hspace="0" vspace="0" border="0"><br>
+				<table border="0" cellpadding="0" cellspacing="0" width="440">
+				<tr>
+					<td valign="top">
+												
+					<span class="subhead">Honoree Category: Television</span><br><br>
+								
+					<b>Sharp's 20-inch Widescreen AQUOS Liquid Crystal Television </b><br>
+					
+					Sharp Electronics Corp.&nbsp;&nbsp;[<a href="/attendees/directory/rd_exhibitor_details.asp?exhibid=5544">view exhibitor details</a>]<br>
+						
+						<a target="new" href="http://www.sharpusa.com">www.sharpusa.com</a>
+					<br><br>	
+					
+					The 20-inch AQUOS Liquid Crystal Widescreen Television (model LC-20D30U) is a stylish and elegant flat-panel TV with advanced technology that brings broadcast content to life.<br><br>
+	
+					
+						Location(s): Central Hall/11024, Meeting Room/N219, Meeting Room/N220<br><br><br>
+					
+							<!--Exhibitor:   - <br>-->
+							
+								<!--Location(s): &nbsp;<br><br>-->
+											
+					</td>
+				</tr>
+				</table>
+		</tr>
+			
+		<table width="590" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img src="/global_images2005/1.0/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"></td>
+		</tr>
+		<tr><a name="TV"></a>
+		    <td width="140" align="center" valign="middle" bgcolor="#FFFFFF">
+				<img src="/global_images2005/spacer.gif" alt="" width="1" height="8" hspace="0" vspace="0" border="0"><br>
+				
+				<img src="/shared_files/techgirl/935/thumbnail935.jpg"><br>
+				<a target="new" href="/shared_files/techgirl/935/mainphoto935.JPG">Click to enlarge.</a><br>	
+				<img src="/global_images2005/spacer.gif" alt="" width="1" height="11" hspace="0" vspace="0" border="0"><br>
+			</td>
+		    <td width="10"><img src="/global_images2005/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+		    <td valign="top" class="text" width="440"><img src="/global_images2005/spacer.gif" alt="" width="440" height="4" hspace="0" vspace="0" border="0"><br>
+				<table border="0" cellpadding="0" cellspacing="0" width="440">
+				<tr>
+					<td valign="top">
+												
+					<span class="subhead">Honoree Category: Television</span><br><br>
+								
+					<b>InFocus Play Big IN72</b><br>
+					
+					InFocus Corp.&nbsp;&nbsp;[<a href="/attendees/directory/rd_exhibitor_details.asp?exhibid=5205">view exhibitor details</a>]<br>
+						
+						<a target="new" href="http://www.infocus.com">www.infocus.com</a>
+					<br><br>	
+					
+					The InFocus Play Big IN72 is perfect for the woman who wants to enhance every home entertainment experience with the excitement and awe of supreme image quality and breakthrough style.<br><br>
+	
+					
+						Location(s): Central Hall/9004, Sands/70943<br><br><br>
+					
+							<!--Exhibitor:   - <br>-->
+							
+								<!--Location(s): &nbsp;<br><br>-->
+											
+					</td>
+				</tr>
+				</table>
+		</tr>
+			
+		<table width="590" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img src="/global_images2005/1.0/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"></td>
+		</tr>
+		<tr><a name="WI"></a>
+		    <td width="140" align="center" valign="middle" bgcolor="#FFFFFF">
+				<img src="/global_images2005/spacer.gif" alt="" width="1" height="8" hspace="0" vspace="0" border="0"><br>
+				
+				<img src="/shared_files/techgirl/876/thumbnail876.jpg"><br>
+				<a target="new" href="/shared_files/techgirl/876/mainphoto876.jpg">Click to enlarge.</a><br>	
+				<img src="/global_images2005/spacer.gif" alt="" width="1" height="11" hspace="0" vspace="0" border="0"><br>
+			</td>
+		    <td width="10"><img src="/global_images2005/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+		    <td valign="top" class="text" width="440"><img src="/global_images2005/spacer.gif" alt="" width="440" height="4" hspace="0" vspace="0" border="0"><br>
+				<table border="0" cellpadding="0" cellspacing="0" width="440">
+				<tr>
+					<td valign="top">
+												
+					<span class="subhead">Honoree Category: Wireless</span><br><br>
+								
+					<b>i730</b><br>
+					
+					Samsung Telecommunications America&nbsp;&nbsp;[<a href="/attendees/directory/rd_exhibitor_details.asp?exhibid=5518">view exhibitor details</a>]<br>
+						
+						<a target="new" href="http://www.samsungusa.com/wireless">www.samsungusa.com/wireless</a>
+					<br><br>	
+					
+					Mobile professionals and moms alike will appreciate Samsung i730's superb design and functionality, as well as its ability to keep them organized, in touch and on the go.<br><br>
+	
+					
+						Location(s): Meeting Room/N231<br><br><br>
+					
+							<!--Exhibitor:   - <br>-->
+							
+								<!--Location(s): &nbsp;<br><br>-->
+											
+					</td>
+				</tr>
+				</table>
+		</tr>
+			
+		<table width="590" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img src="/global_images2005/1.0/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"></td>
+		</tr>
+		<tr><a name="WI"></a>
+		    <td width="140" align="center" valign="middle" bgcolor="#FFFFFF">
+				<img src="/global_images2005/spacer.gif" alt="" width="1" height="8" hspace="0" vspace="0" border="0"><br>
+				
+				<img src="/shared_files/techgirl/881/thumbnail881.jpg"><br>
+				<a target="new" href="/shared_files/techgirl/881/mainphoto881.jpg">Click to enlarge.</a><br>	
+				<img src="/global_images2005/spacer.gif" alt="" width="1" height="11" hspace="0" vspace="0" border="0"><br>
+			</td>
+		    <td width="10"><img src="/global_images2005/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+		    <td valign="top" class="text" width="440"><img src="/global_images2005/spacer.gif" alt="" width="440" height="4" hspace="0" vspace="0" border="0"><br>
+				<table border="0" cellpadding="0" cellspacing="0" width="440">
+				<tr>
+					<td valign="top">
+												
+					<span class="subhead">Honoree Category: Wireless</span><br><br>
+								
+					<b>Motorola Magenta RAZR</b><br>
+					
+					Motorola&nbsp;&nbsp;[<a href="/attendees/directory/rd_exhibitor_details.asp?exhibid=7634">view exhibitor details</a>]<br>
+						
+						<a target="new" href="http://www.motorola.com/motoinfo">www.motorola.com/motoinfo</a>
+					<br><br>	
+					
+					For fashionistas, the infamous Motorola RAZR is now available in eye-catching magenta.  This svelte mobile boasts advanced technology, superlative design and an enticing color--perfect for women on the move!<br><br>
+	
+					
+						Location(s): Central Hall/8545<br><br><br>
+					
+							<!--Exhibitor:   - <br>-->
+							
+								<!--Location(s): &nbsp;<br><br>-->
+											
+					</td>
+				</tr>
+				</table>
+		</tr>
+			
+</table>
+<!-- /text for main page -->
+</div>
+
+
+
+<!-- /center content -->
+    <br><br><br>
+    </td>
+    <td width="10" class="attendees7"><img src="/global_images2005/spacer.gif" height="1" width="10"></td>
+
+<!-- optional added value -->
+
+<!-- /optional added value -->
+
+</tr>
+<!-- /main body row -->
+
+<!-- shaded row above footer -->
+<tr>
+<td colspan=3 bgcolor="#CFD7C6"><img src="/global_images2005/spacer.gif" width="1" height="10"></td>
+
+</tr>
+<!-- /shaded row above footer -->
+
+</table>
+<table width="770" cellspacing="0" cellpadding="0" border="0">
+            <tr>
+     <td width="10"></td>
+     <td width="140"></td>
+     <td width="10"></td>
+     <td width="10" class="footer"><img src="/global_images2005/footer_left.gif" alt="(" width="10" height="30" hspace="0" vspace="0" border="0"></td>
+     <td width="380" background="/global_images2005/footer_bg.gif" class="footer"><span class="nav_footer"><a href="/about_ces/default.asp">About CES</a> | <a href="/faqs/default.asp">FAQs</a> | <a href="/contact_us/default.asp">Contact Us</a> | <a href="/sitemap.asp">Site Map</a> | <a href="/privacy_policy.asp">Privacy Policy</a> | <a href="/rd_vendors.asp">Vendors</a></span></td>
+     <td width="210" colspan="3" align="right" background="/global_images2005/footer_bg.gif" class="footer"><span class="nav_footer"> &#169; 2003-2006 CEA, All rights reserved</span></td>
+     <td width="10" class="footer"><img src="/global_images2005/footer_right.gif" alt=")" width="10" height="30" hspace="0" vspace="0" border="0"></td>
+</tr>   
+            </table>
+            <img src="/global_images2005/spacer.gif" alt="" width="1" height="20" hspace="0" vspace="0" border="0"">
+        </td>
+        <td width="50%" valign="top" class="attendeesBGImg">&nbsp;</td>
+    </tr>
+</table>
+
+</body>
+</html>
