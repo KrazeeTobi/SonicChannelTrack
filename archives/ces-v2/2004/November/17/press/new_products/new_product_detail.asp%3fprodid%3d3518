@@ -1,0 +1,59 @@
+
+
+<SCRIPT language="javascript1.2">
+function newWin(urlString,pgNum)
+  {
+    var popupWindow;
+	urlString += "?pageID=" + pgNum;
+	
+    popupWindow = window.open(urlString,"","toolbar=yes,menubar=no,resizable=no,status=no,scrollbars=yes,location=no,directories=no,copyhistory=no,height=550,width=610,left=50,top=50");
+  }//  function for opening a new pop-up window for printing a page
+  
+ 
+function openNewWindow(strURL) {
+	window.name = "main";
+	
+	var newWindow = window.open(strURL,"newWindow", "toolbar=no,menubar=no,resizable=no,status=no,scrollbars=yes,location=no,directories=no,copyhistory=no,height=400,width=450,left=50,top=50");
+} //  function for opening a new pop-up window
+
+// javascript for e-mail this page tool - gets the url of the page the user is on before the e-mail page tool button is clicked
+	
+	function loadReferrer() {
+		referrerString = opener.document.location.href;
+		document.emailForm.page.value = referrerString;
+	}
+
+</SCRIPT>
+
+
+<div>	
+<!-- text for main page -->
+<table width='100%' border='0' cellspacing='2' cellpadding='2'>
+<tr><td width='25%'><img src='/shared_files/logos/radA3CFA.gif' alt='Teledex Inc.' align='left' width='100'></td>
+<td width='75%'></td></tr>
+<tr><td colspan='2' height='20'></td></tr>
+<tr><td class='rowlabel'>Product Name:&nbsp;</td>
+<td><strong>DV-8 Digital Recorder (Voice Email!)</strong></td></tr>
+<tr><td class='rowlabel'>Exhibitor:&nbsp;</td>
+<td><a href="?exhibid=5628&">Teledex Inc.</a></td></tr>
+<tr><td class='rowlabel'>Product Contact:&nbsp;</td>
+<td>Mei Noguchi</td></tr>
+<tr><td class='rowlabel'>Contact E-mail:&nbsp;</td>
+<td><a href='mailto:mei@datexx.com'>mei@datexx.com</a></td></tr>
+<tr><td class='rowlabel'>On-Site Contact:&nbsp;</td>
+<td>Mei Nooguchi</td></tr>
+<tr><td class='rowlabel'>Product Category:&nbsp;</td>
+<td>Personal Electronics</td></tr>
+<tr><td class='rowlabel'>Product Description:&nbsp;</td>
+<td>The New DV8, Digital Recorder &amp; Voice Email System Announced at CES!
+
+Datexx is parading its new palm-sized recorder and hoping to launch a voice email revolution! Say it. Transfer it to your computer. Send it!  Universal, easy to use, Voice Email right from your PC. The new solid-state digital recorder is also great for lectures and meetings. With 16MB of memory, DV8 is PC/USB compatible. Available now, Suggested Retail $110.00. See this and other Datexx products at the CES Show, Booth 21859.  Visit Datexx online: http://www.datexx.com
+</td></tr>
+<tr><td colspan=6><img src='/global_images2005/spacer.gif' width='1' height='10'><br>
+<img src='/global_images2005//.line.gif' alt='-----------------------------------------------' width='580' height='2'></td></tr>
+<tr><td class='rowlabel'>Company Booth(s):&nbsp;</td>
+<td><table cellspacing='0' cellpadding='0' width='100%' border='0'><tr><td><b>Booth Number</b></td><td><b>Show Location</b></td><td>&nbsp;</td></tr><tr><td height='20'><font class='formPreFilled'>&nbsp;36221</font></td><td><font class='formPreFilled'>LVCC SO 4</font></td></tr></table></td></tr>
+</table><br>[<a href="">perform another search</a>]
+<!-- /text for main page -->
+</div>
+

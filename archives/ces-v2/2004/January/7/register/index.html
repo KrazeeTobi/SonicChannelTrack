@@ -1,0 +1,244 @@
+
+
+<SCRIPT language="javascript1.2">
+function newWin(urlString,pgNum)
+  {
+    var popupWindow;
+	urlString += "?pageID=" + pgNum;
+	
+    popupWindow = window.open(urlString,"","toolbar=yes,menubar=no,resizable=no,status=no,scrollbars=yes,location=no,directories=no,copyhistory=no,height=550,width=600,left=50,top=50");
+  }//  function for opening a new pop-up window for printing a page
+  
+ 
+function openNewWindow(strURL) {
+	window.name = "main";
+	
+	var newWindow = window.open(strURL,"newWindow", "toolbar=no,menubar=no,resizable=no,status=no,scrollbars=yes,location=no,directories=no,copyhistory=no,height=400,width=450,left=50,top=50");
+} //  function for opening a new pop-up window
+
+// javascript for e-mail this page tool - gets the url of the page the user is on before the e-mail page tool button is clicked
+	
+	function loadReferrer() {
+		referrerString = opener.document.location.href;
+		document.emailForm.page.value = referrerString;
+	}
+
+</SCRIPT>
+
+<html>
+<head>
+<title>2004 International CES: Registration</title>
+	<link rel="StyleSheet" href="/global_include/css/main.css" type="text/css">
+	<LINK REL="SHORTCUT ICON" HREF="http://www.easymovement.com/ces/favicon.ico">
+
+<!-- Browser detection script -->
+	<script src="/global_include/js/browser_detection.js" type="text/javascript"></script>
+
+<!-- Rollover script -->	
+		
+		<script>	
+		/* for graphical rollovers*/
+			function rollOver(which,name) 
+				{
+				var on="/global_images/1.0/1.0_" + which + "_r.gif";
+				if(document.images) {document.images[which].src=on;}
+				else if (document.GetElementById){document.GetElementById(name).src=on;}
+				}
+			function rollOff(which) 
+				{
+				var on="/global_images/1.0/1.0_" + which + ".gif";
+				if(document.images){document.images[which].src=on;}
+				else if (document.GetElementById){document.GetElementById(which).src=on;}
+				}
+			function introllOver(which,name) 
+				{
+				var on="/global_images/1.0/1.0_" + which + "_r.gif";
+				if(document.images) {document.images[which].src=on;}
+				else if (document.GetElementById){document.GetElementById(name).src=on;}
+				}
+			function introllOff(which) 
+				{
+				var on="/global_images/1.0/1.0_" + which + ".gif";
+				if(document.images){document.images[which].src=on;}
+				else if (document.GetElementById){document.GetElementById(which).src=on;}
+				}
+			function snrollOver(which,name) 
+				{
+				var on="/global_images/1.0/1.0" + which + "_r.gif";
+				if(document.images) {document.images[which].src=on;}
+				else if (document.GetElementById){document.GetElementById(name).src=on;}
+				}
+			function snrollOff(which) 
+				{
+				var on="/global_images/1.0/1.0" + which + ".gif";
+				if(document.images){document.images[which].src=on;}
+				else if (document.GetElementById){document.GetElementById(which).src=on;}
+				}
+		</script>
+<!-- the following sets the style for the section you are currently in sectionColor is set in master_pages.asp -->
+		<style>
+			.text_colored, .intro_copy, .section_title, .subhead, .body_title, .intro_dates
+				{ 	color:#194286}
+		</style>
+</head>
+
+<!-- script to determine the different browser and put in the correct body tag to align the background image properly -->
+<body  leftmargin='0' topmargin='0' rightmargin='0' bottommargin='0' marginwidth='0' onLoad="self.focus()"> 
+
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tr>
+
+<td width="50%" valign="top" background="/global_images/attendees_bg.gif">&nbsp;</td>
+<td width="1%" valign="top" background="/global_images/attendees_bg.gif">
+<!-- main table for site -->
+	<table width="770" cellspacing="0" cellpadding="0" border="0">
+<!-- Commented out dummy row to add another tr to the main table 
+	<tr>
+	    <td width="10"></td>
+	    <td width="140"></td>
+	    <td width="10"></td>
+	    <td width="10"></td>
+	    <td width="380"></td>
+	    <td width="10"></td>
+	    <td width="10"></td>
+	    <td width="190></td>
+	    <td width="10"></td>
+	</tr>
+   /Commented out dummy row to add another tr to the main table	-->
+<!-- blank 1 pixel row at top of page -->
+	<tr>
+	    <td width="10"><img src="/global_images/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+	    <td width="140"><img src="/global_images/spacer.gif" alt="" width="140" height="1" hspace="0" vspace="0" border="0"></td>
+	    <td width="10"><img src="/global_images/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+	    <td width="10"><img src="/global_images/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+	    <td width="380"><img src="/global_images/spacer.gif" alt="" width="380" height="1" hspace="0" vspace="0" border="0"></td>
+	    <td width="10"><img src="/global_images/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+	    <td width="10"><img src="/global_images/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+	    <td width="190"><img src="/global_images/spacer.gif" alt="" width="190" height="1" hspace="0" vspace="0" border="0"></td>
+	    <td width="10"><img src="/global_images/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+	</tr>
+<!-- /blank 1 pixel row at top of page -->
+<!-- global navigation row - register, about, faqs, contact, and site map -->
+	<tr>
+	    <td width="10"></td>
+	    <td width="140"></td>
+	    <td width="10"></td>
+	    <td width="10"></td>
+	    <td width="600" colspan="5" class="nav_global"><span class="intro_dates">January 8-11, 2004</span><img src="/global_images/spacer.gif" width="4" height="20" hspace="0" vspace="0" border="0" align="absmiddle">| Las Vegas<img src="/global_images/spacer.gif" alt="" width="225" height="1" border="0">	<a href="http://www.CESweb.org/about_ces/">About CES</a> | <a href="http://www.CESweb.org/faqs/">FAQs</a> | <a href="http://www.CESweb.org/contact_us/">Contact Us</a> | <a href="http://www.CESweb.org/site_map.asp">Site Map</a></td>
+	</tr>
+<!-- /global navigation row - register, about, faqs, contact, and site map -->	
+<!-- logo and banner image row -->	
+	<tr>
+	    <td width="10"></td>
+	    <td width="140"><a href="http://www.CESweb.org/default.asp"><img src="/global_images/logo.gif" alt="International CES" width="140" height="74" hspace="0" vspace="0" border="0"></a></td>
+	    <td width="10"></td>
+	    <td width="610" colspan="6"><img src="/global_images/1.0/random1/1.0.banner.gif" alt="" width="610" height="74" border="0"></td>
+	</tr>
+<!-- /logo and banner image row -->		
+<!-- primary navigation row -->
+	<tr>
+	    <td width="10"></td>
+	    <td width="140"></td>
+	    <td width="10"></td>
+		<td width="610" colspan="6"  background="/global_images/spacer.gif"><a href="http://www.CESweb.org/attendees/"  onmouseover=rollOver('tab_attendees'); onmouseout=rollOff('tab_attendees');><img name='tab_attendees' src="/global_images/1.0/1.0_tab_attendees.gif" alt="Attendees" width="70" height="27" hspace="0" vspace="0" border="0" ></a><a href="http://www.CESweb.org/exhibitors/" onmouseover=rollOver('tab_exhibitor'); onmouseout=rollOff('tab_exhibitor');><img name='tab_exhibitor' src="/global_images/1.0/1.0_tab_exhibitor.gif" alt="Exhibitor Services" width="118" height="27" hspace="0" vspace="0" border="0"></a><a href="http://www.CESweb.org/press/" onmouseover=rollOver('tab_press'); onmouseout=rollOff('tab_press');><img name='tab_press' src="/global_images/1.0/1.0_tab_press.gif" width="78" height="27" alt="Press" border="0"></a><a href="http://www.CESweb.org/international/" onmouseover=introllOver('tab_international'); onmouseout=introllOff('tab_international');><img src="/global_images/1.0/1.0_tab_international.gif" width="134" height="27" alt="" border="0" name="tab_international"></a><img src="/global_images/1.0/random1/1.0_tab_right.gif" alt="" width="210" height="27" hspace="0" vspace="0" border="0"></td>
+	</tr>
+<!-- /primary navigation row -->
+<!-- secondary navigation row -->		
+	<tr>
+	    <td width="10"></td>
+       	<td width="760" colspan="8"  background="/global_images/spacer.gif"  class="attendees3">
+<!-- table for secondary navigation and form -->
+			<table cellspacing="0" cellpadding="0" border="0" width="760"  background="/global_images/spacer.gif" >
+			<tr>
+			<td class="attendees_second_nav" width="560"><a href='http://www.CESweb.org/attendees/conferences'>Conferences</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href='http://www.CESweb.org/attendees/exhibit_floor'>Exhibit Floor</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href='http://www.CESweb.org/attendees/special_events'>Special Events</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href='http://www.CESweb.org/attendees/awards'>Awards</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href='http://www.CESweb.org/attendees/travel'>Hotel/Travel</a></td>
+			<td width="173" align="right"></td>
+			<td width="27"><img src="/global_images/spacer.gif" width="27" height="33" hspace="0" vspace="0" border="0"></td>
+			</tr>
+			</table>
+<!-- /table for secondary navigation and form -->			
+		</td>
+	 </tr>
+<!-- /secondary navigation row -->	
+<!-- colored row with section color 4 - 5 pixels high --> 
+	<tr>
+	    <td width="10"></td>
+	    <td width="140"></td>
+	    <td width="10"></td>
+	    <td width="610" colspan="6"  background="/global_images/spacer.gif" class="attendees4"><img src="/global_images/spacer.gif" alt="" width="610" height="5" hspace="0" vspace="0" border="0"></td>
+	 </tr>
+<!-- /colored row with section color 4 - 5 pixels high --> 	 
+<!-- breadcrumb row -->
+	<tr>
+	    <td width="10"></td>
+	    <td width="140"><img src="/global_images/spacer.gif" width="140" height="40" hspace="0" vspace="0" border="0"></td>
+	    <td width="10"></td>
+	    <td width="10" background="/global_images/spacer.gif" class="attendees6"><img src="/global_images/spacer.gif" alt="" width="10" height="40" hspace="0" vspace="0" border="0"></td>
+	    <td width="390" colspan="2" background="/global_images/spacer.gif" class="attendees6" valign="bottom"><span class="attendees_nav_breadcrumb"></td>
+	    <td width="200" background="/global_images/spacer.gif" colspan="2" class="attendees6">
+		<img src="/global_images/spacer.gif" width="115" height="40" border="0"><img src="/global_images/spacer.gif" width="43" height="40" hspace="0" vspace="0" border="0"><img src="/global_images/spacer.gif" width="42" height="40" hspace="0" vspace="0" border="0"></td>
+	    <td width="10" background="/global_images/spacer.gif" class="attendees6">&nbsp;</td>
+	</tr>
+<!-- /breadcrumb row -->	
+<!-- main body row -->
+	<tr>
+	    <td width="10"  background="/global_images/spacer.gif" ></td>
+	    <td width="140"  background="/global_images/spacer.gif"  valign="top"><img src="/global_images/spacer.gif" width="140" height="20" alt="" border="0"><br>
+<!-- BEGIN LEFT_NAV -->
+
+<span  class="nav_third">
+
+
+<a href="http://www.ce.org" target="new" onmouseover=snrollOver('_logo_cea'); onmouseout=snrollOff('_logo_cea');><img src="/global_images/1.0/1.0_logo_cea.gif" name="_logo_cea" width="140" height="116" alt="Produced by Consumer Electronics Association" border="0"></a>
+<br>
+</span>
+
+<!-- END LEFT_NAV -->
+				
+		</td>
+	    <td width="10"></td>
+		<!-- checking to see if the page is a main section page or not -->
+		
+	    <td width="10"  background="/global_images/spacer.gif" class="attendees7">&nbsp;</td>
+	    <td width="590" colspan="4"  background="/global_images/spacer.gif" class="attendees7" valign="top">
+			<img src="/global_images/spacer.gif" height="12" width="1"><br><div class="body_title">The 2004 International CES is just around the corner!<br><img src="/global_images/spacer.gif" height="8" width="1"></div>
+			Free advance registration for the 2004 International CES is closed, but don't worry - you can still attend the show! Once you arrive in Las Vegas for the world's largest consumer electronics show, you may purchase an Exhibits Plus Pass for only $75.00 (U.S.). Conference sessions will still be available at on-site rates. Please visit one of our many <A HREF='http://www.cesweb.org/faqs/general.asp?id=11#sent'>on-site registration</A> areas and we will be happy to help.<br><br>If you are a 2004 International CES Exhibitor and still need to register your booth personnel or pick up your badges, you may do so onsite.  Please visit our <A HREF='http://www.cesweb.org/faqs/general.asp?id=12#exhibreg'>exhibitor registration areas</A>.<br><br>If you have questions or need assistance, please contact the International CES Customer Service by e-mail at <A HREF='mailto:CESinfo@CE.org'>CESinfo@CE.org</A> or by phone at 1-866-233-7968 to process your request. (Outside the U.S., call 011-301-631-3983).<br><br>Thank you and we'll see you in Las Vegas! </div>
+			<br>
+			<br>
+			<br>
+		</span>
+		</td>
+	    <td width="10" background="/global_images/spacer.gif" class="attendees7">&nbsp;</td>
+			
+		</tr>
+<!-- /main body row -->	
+<!-- footer row -->
+	<tr>
+	    <td width="10"></td>
+	    <td width="140"></td>
+	    <td width="10"></td>
+	    <td width="610" colspan=6><img src="/global_images/1.0/1.0.page_bottom1.gif" alt="" width="610" hspace="0" vspace="0" border="0"></td>
+	</tr>
+	<tr>
+	    <td width="10"></td>
+	    <td width="140"></td>
+	    <td width="10"></td>
+	    <td width="10" class="footer"><img src="/global_images/footer_left.gif" alt="(" width="10" height="30" hspace="0" vspace="0" border="0"></td>
+	    <td width="380" background="/global_images/footer_bg.gif" class="footer"><span class="nav_footer"><a href="http://www.CESweb.org/about_ces/">About CES</a> | <a href="http://www.CESweb.org/faqs/">FAQs</a> | <a href="http://www.CESweb.org/contact_us/">Contact us</a> | <a href="http://www.CESweb.org/site_map.asp">Site map</a> | <a href="http://www.CESweb.org/privacy_policy.asp">Privacy Policy</a></span></td>
+	    <td width="210" colspan="3" align="right" background="/global_images/footer_bg.gif" class="footer"><span class="nav_footer"> &#169; 2004 CEA, All rights reserved</span></td>
+	    <td width="10" class="footer"><img src="/global_images/footer_right.gif" alt=")" width="10" height="30" hspace="0" vspace="0" border="0"></td>
+	</tr>
+<!-- /footer row -->			 		 	 	 
+	</table>
+	<img src="/global_images/spacer.gif" alt="" width="1" height="20" hspace="0" vspace="0" border="0">
+<!-- /main table for site -->	
+
+
+</td>
+<td width="49%" valign="top" background="/global_images/attendees_bg.gif">&nbsp;</td>
+</tr>
+</table>
+
+
+</body>
+</html>
+</body></html>

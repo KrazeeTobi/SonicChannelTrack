@@ -1,0 +1,219 @@
+<HTML>
+<HEAD>
+
+<LINK REL="stylesheet" TYPE="text/css" HREF="menu.css">
+
+<SCRIPT TYPE="text/javascript" SRC="/ExpoCadVR2/js/menu.js"></SCRIPT>
+
+<SCRIPT TYPE="text/javascript">
+
+var ExhibxmlDoc;
+var MenuxmlDoc;
+var zoom = "";
+var event = "";
+
+function Init()
+{
+   if(navigator.appName.indexOf("Microsoft") == -1)
+      InitNS();
+   else
+      InitIE();
+}
+
+function InitNS()
+{
+   ExhibxmlDoc = document.implementation.createDocument("", "doc1", null) 
+   ExhibxmlDoc.onload = LoadMenuNS;
+   ExhibxmlDoc.load("VR2_files/05ces/exhib.xml");
+}
+
+function LoadMenuNS()
+{
+   MenuxmlDoc = document.implementation.createDocument("", "doc2", null) 
+   MenuxmlDoc.onload = DisplayList;
+   MenuxmlDoc.load("VR2_files/05ces/menu.xml");
+}
+
+function InitIE()
+{
+   ExhibxmlDoc = new ActiveXObject("Microsoft.XMLDOM"); 
+   ExhibxmlDoc.async = false; 
+   ExhibxmlDoc.onreadystatechange = function () { if (ExhibxmlDoc.readyState == 4) LoadMenuIE() };
+   ExhibxmlDoc.load("VR2_files/05ces/exhib.xml");
+}
+
+function LoadMenuIE()
+{
+   MenuxmlDoc = new ActiveXObject("Microsoft.XMLDOM"); 
+   MenuxmlDoc.async = false; 
+   MenuxmlDoc.onreadystatechange = function () { if (MenuxmlDoc.readyState == 4) DisplayList() };
+   MenuxmlDoc.load("VR2_files/05ces/menu.xml");
+}
+
+function DisplayList()
+{
+   var elist = ExhibxmlDoc.getElementsByTagName("EXHIBITORLIST");
+   var erec = elist[0].getElementsByTagName("EXHIBITOR");
+   var ename = elist[0].getElementsByTagName("NAME");
+   var ecustid = elist[0].getElementsByTagName("CUSTID");
+   var ebooth = elist[0].getElementsByTagName("BOOTHID");
+
+   var menu = MenuxmlDoc.getElementsByTagName("MENU");
+   var config = menu[0].getElementsByTagName("CONFIG");
+   var cname = menu[0].getElementsByTagName("NAME");
+
+   event = cname[0].firstChild.nodeValue;
+
+   var cookie = getCookie(event + "e");
+   
+   var booth = "";
+   var buffer = "";
+   var bHTML = "";
+
+   var TheList = document.getElementById('list').getElementsByTagName("TBODY")[0]; 
+
+   if(cookie != null && cookie != "")
+   {
+      var Favorites = cookie.split("|");
+      
+      if(Favorites != null)
+      {
+         for(var i = 0; i < erec.length; i++)
+         {
+            var custid = ecustid[i].firstChild.nodeValue;
+
+            for(var m = 0; m < Favorites.length; m++)
+            {
+               if(Favorites[m] == custid)
+               {
+		  booth = ebooth[i].firstChild.nodeValue;
+                  booth += "";
+                  buffer = new Array();
+                  buffer = booth.split(", ");
+                  bHTML = "";
+
+                  for(var k = 0; k < buffer.length; k++)
+                  {
+                     bHTML += "<A CLASS='ListValue' HREF=\"javascript:ZoomBooth('" + buffer[k] + "');\">" + buffer[k]  + "</A>";
+
+                     if(k != (buffer.length - 1))
+                        bHTML += ", ";
+                  }
+
+                  var tr1 = document.createElement("tr");
+                  var tr2 = document.createElement("tr");
+                  var td1 = document.createElement("td");
+                  var td2 = document.createElement("td");
+                  var td3 = document.createElement("td");
+                  tr1.noWrap = true;
+                  tr2.noWrap = true;
+                  td1.noWrap = true;
+                  td2.noWrap = true;
+		  td3.noWrap = true;
+                  td3.align = "right";
+                  td2.rowSpan = 2;
+                  td1.innerHTML = "<A CLASS='ListValue' TARGET='_self' HREF='exhibdetail.html?id=" + Favorites[m] + "'>" + ename[i].firstChild.nodeValue + "</A>";      
+                  td2.innerHTML = "<A CLASS='deletefav' HREF='javascript:DeleteFromFavorites(\"" + Favorites[m] + "\",\"e\", \"" + event + "\", true);'>delete</A>";  
+                  td3.innerHTML = bHTML;
+                  tr1.appendChild(td1); 
+                  tr1.appendChild(td2); 
+                  tr2.appendChild(td3); 
+                  TheList.appendChild(tr1);					  
+                  TheList.appendChild(tr2);
+
+                  if(zoom == "")
+                     zoom = ebooth[i].firstChild.nodeValue + "";
+                  else
+                     zoom += ", " + ebooth[i].firstChild.nodeValue;
+
+                  break;
+               }
+            }
+         }
+      }
+   }
+   else
+   {
+      var tr = document.createElement("tr");
+      var td1 = document.createElement("td");
+      tr.noWrap = true;
+      td1.noWrap = true;
+      td1.innerHTML = "<SPAN CLASS='text'>No favorite exhibitors available.</SPAN>";
+      td1.colspan = 2;      
+      tr.appendChild(td1); 				  
+      TheList.appendChild(tr);
+   }
+}
+
+function DeleteAllExhibFavorites()
+{
+   setCookie(event + 'e', "", 1000);
+
+   window.open("favorite.html", "_self");
+}
+
+</SCRIPT>
+
+</HEAD>
+
+<BODY onLoad="Init();">
+<TABLE class="list_bgcolor" style="border: 1px #cccccc solid" WIDTH="100%" CELLPADDING="4">
+   <TR>
+      <TD>
+
+		<TABLE CLASS="tb_bgcolor" style="border: 1px #cccccc solid" WIDTH="100%" CELLPADDING="8" CELLSPACING="0">
+		   <TR>
+		     
+		     <TD class=text><span class="text"><strong>Search Exhibitor by:&nbsp;&nbsp;</strong></span>
+		      <br>
+		      <a href="exhib.html" class="toolbar">Name</a> | 
+		      <a href="exhib_booth.html" class="toolbar">Booth Number</a> |
+		      <a href="exhib_location.html" class="toolbar">Location</a> | 
+		      <a href="exhib_product.asp" class="toolbar">Product</a>  		      
+		      </TD>
+		      
+			  <!--<TD><A CLASS="toolbar" HREF="javascript:ListByName();">Exhibitors</A></TD>-->
+		      <!--<TD><A CLASS="toolbar" HREF="javascript:ListByGroup();">Groups</A></TD>
+		      <TD><A CLASS="toolbar" HREF="javascript:ListByPavilion();">TechZones</A></TD>-->
+		      <!--<TD><A CLASS="seltoolbar" HREF="javascript:ListByFavorites();">Favorites</A></TD>-->
+		   </TR>
+		   
+		   	<tr>
+				<td class=text>
+					<A CLASS="toolbar" HREF="javascript:ListByFavorites();">View Favorites</A> | 
+					<A class="toolbar" href="exhib.html">View all Exhibitors</a>				
+				</td>
+			</tr>
+		   <!--
+		   <TR>
+		      <TD><A CLASS="seltoolbar" HREF="javascript:ListByFavorites();">Favorites</A></TD>
+		      <TD><A CLASS="toolbar" HREF="javascript:PrintList();">Print</A></TD>
+		   </TR>
+		   -->
+		</TABLE>
+
+		<BR>
+		
+		   <TABLE CLASS="list_bgcolor" BORDER="0" CELLPADDING="5" CELLSPACING="0" NOWRAP="true">
+			   <TR NOWRAP="true">
+			      <TD NOWRAP="true"><A CLASS="favzoom" HREF="javascript:ZoomBooth(zoom);">Zoom Favorites</A></TD>
+			   </TR>
+			   <TR NOWRAP="true">
+			      <TD NOWRAP="true"><A CLASS="deletefav" HREF="javascript:DeleteAllExhibFavorites();">Delete All Favorites</A></TD>
+			   </TR>
+		   </TABLE>
+
+
+		<BR>
+
+		<TABLE WIDTH="100%" ID="list" CLASS="list_bgcolor" BORDER="1" CELLPADDING="5" CELLSPACING="0" NOWRAP="true">
+			<TR NOWRAP="true"><TD CLASS="title_bgcolor" COLSPAN="2" NOWRAP="true"><SPAN CLASS="title">Favorite Exhibitors :</SPAN></TD></TR>
+		</TABLE>
+		<br><br>
+	</td>
+	</tr>
+	<form name="tb"><input type=hidden name="isLocationSearch" value="0"></form>
+</table>
+
+</BODY>
+</HTML>
