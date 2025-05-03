@@ -1,0 +1,16 @@
+<div class="trackDetailTitle">
+{{if Pricing.length > 0}}
+ <div id="addToCart${Code}" class="cartItem"></div>
+{{/if}}
+{{if Logo.length > 0}}
+<img id="trackDetailImage${ID}" class="trackImage" alt="${Title}" title="${Title}" src="${Logo}" /><br />
+{{/if}}
+</div>
+<h2 style="text-align: center;" id="TrackTitle">${Title}</h2>
+<div style="clear: both;"></div>
+{{html Description}}
+<br />
+{{html formatHelpers.displaySponsorLogos(formatHelpers.parseLogos(Sponsor))}}
+{{if Sessions.length > 0}}
+<h3>Session List:</h3>
+{{/if}}
