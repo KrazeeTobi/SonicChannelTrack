@@ -1,0 +1,113 @@
+﻿(function () {
+    function showMobileFilters() {
+        $('body').toggleClass('schedule-filters--mobile-open no-scroll-mobile');
+        $('.schedule-filter-collapse').removeClass('show');
+        $('.schedule-filter-toggle').addClass('collapsed');
+    }
+
+    $('a.toggle-filters').on('click', function (e) {
+        e.preventDefault();
+        if ($('#schedule-date-bar-container').get(0).getBoundingClientRect().top > 0) {
+            $(document.body).animate({
+                scrollTop: $('#schedule-date-bar-container').position().top,
+            }, 400, showMobileFilters);
+        } else {
+            showMobileFilters();
+        }
+    });
+
+    $('.close-filters').on('click', function () {
+        $('body').removeClass('schedule-filters--mobile-open no-scroll-mobile');
+    });
+
+    var filters = $('#filter-collapse-parent-xl');
+    var filtersContainer = $('#sticky-filters-container');
+    var footer = $('#footer').get(0);
+
+    function filtersAreTallerThanViewport() {
+        return filters.outerHeight() > window.innerHeight;
+    };
+
+    function bottomOfFiltersIsVisible() {
+        var offsetFromTop = filtersContainer.position().top;
+        var bottomOfFilters = filters.outerHeight() - window.innerHeight;
+        return $(document).scrollTop() > bottomOfFilters + offsetFromTop;
+    }
+
+    function lockFiltersWithProps(cssProps) {
+        $(document.body).addClass('schedule-filters--locked');
+        $('#filter-collapse-parent-xl').removeAttr('style');
+        $('#filter-collapse-parent-xl').css(cssProps);
+    }
+
+    function getColSpacing(col) {
+        // This function assumes equal margin/padding on either side
+        return (col.outerWidth() - col.width()) / 2;
+    }
+
+    function getWindowWidth() {
+        var windowWidth = window.innerWidth;
+        return windowWidth > 1199;
+    }
+
+    var dateBar = $('#schedule-date-bar').get(0);
+
+    function setFiltersPosition() {
+        var footerRect = footer.getBoundingClientRect();
+        var dateBarRect = dateBar.getBoundingClientRect();
+        var footerInFrame = footerRect.top < window.innerHeight;
+        var filtersGet = filters.get(0);
+        var filtersRect = filtersGet.getBoundingClientRect();
+        var filtersHeight = filtersRect.height;
+
+        if (getWindowWidth()) {
+            $('.schedule-events').css('min-height', filtersHeight);
+        } else {
+            $('.schedule-events').removeAttr('style');
+        }
+
+        if (bottomOfFiltersIsVisible() && filtersAreTallerThanViewport()) {
+            lockFiltersWithProps({
+                width: filters.parent().width(),
+                left: filters.parent().position().left + getColSpacing(filtersContainer),
+                top: 'auto',
+                bottom: footerInFrame ? window.innerHeight - footerRect.top : 0,
+            });
+        } else if (bottomOfFiltersIsVisible() && $(document).scrollTop() > 0) {
+            var filterProps = {
+                width: filters.parent().width(),
+                left: filters.parent().position().left + getColSpacing(filtersContainer),
+                top: dateBarRect.bottom,
+            };
+            if (footerInFrame && footerRect.top < filters.outerHeight() + dateBarRect.height) {
+                filterProps.bottom = window.innerHeight - footerRect.top;
+                filterProps.top = 'auto';
+            }
+            lockFiltersWithProps(filterProps);
+        } else {
+            $(document.body).removeClass('schedule-filters--locked');
+            filters.removeAttr('style');
+        }
+    }
+
+    $(window).on('load', setFiltersPosition);
+    $(window).on('scroll', setFiltersPosition);
+    $(window).on('resize', setFiltersPosition);
+
+    // Search box functionality
+    var searchContainer = $('.filters-search-container');
+    var hasTextClass = 'filters-search-container--has-content';
+    var searchHasContent = false;
+
+    searchContainer.on('input', 'input', function (e) {
+        searchHasContent = e.target.value ? true : false;
+        searchContainer.toggleClass(hasTextClass, searchHasContent);
+    });
+
+    $('.filters-search-icon', searchContainer).on('click', function (e) {
+        e.preventDefault();
+        if (searchHasContent) {
+            $('input.filters-search').val('');
+        }
+    });
+})();

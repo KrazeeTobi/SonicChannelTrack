@@ -1,0 +1,1699 @@
+﻿// ReSharper disable AssignedValueIsNeverUsed
+// ReSharper disable InconsistentNaming
+// ReSharper disable StringLiteralWrongQuotes
+// ReSharper disable UnusedLocals
+// ReSharper disable StringConcatenationToTemplateString
+
+(function () { // adapted from filters.js to resolve filters.parent() race condition
+    // Search box functionality
+    var searchContainer = $('.filters-search-container');
+    var hasTextClass = 'filters-search-container--has-content';
+    var searchHasContent = false;
+
+    searchContainer.on('input', 'input', function (e) {
+        searchHasContent = e.target.value ? true : false;
+        searchContainer.toggleClass(hasTextClass, searchHasContent);
+    });
+
+    $('.filters-search-icon', searchContainer).on('click', function (e) {
+        e.preventDefault();
+        if (searchHasContent) {
+            $('input.filters-search').val('');
+        }
+    });
+}());
+
+(function () { // using closure to separate local scope from global scope
+    const filterNames = ["visitor-type", "date", "venue", "services"];
+    const maintainFilterPosition = (function () {
+        var filters = $('#filter-collapse-parent-xl');
+        var filtersContainer = $('#sticky-filters-container');
+        var footer = $('#footer').get(0);
+
+        function filtersAreTallerThanViewport() {
+            return filters.outerHeight() > window.innerHeight;
+        };
+
+        function bottomOfFiltersIsVisible() {
+            const offsetFromTop = filtersContainer.position().top;
+            const bottomOfFilters = filters.outerHeight() - window.innerHeight;
+            return $(document).scrollTop() > bottomOfFilters + offsetFromTop;
+        }
+
+        function lockFiltersWithProps(cssProps) {
+            $(document.body).addClass('schedule-filters--locked');
+            $('#filter-collapse-parent-xl').removeAttr('style');
+            $('#filter-collapse-parent-xl').css(cssProps);
+        }
+
+        function getColSpacing(col) {
+            // This function assumes equal margin/padding on either side
+            return (col.outerWidth() - col.width()) / 2;
+        }
+
+        var dateBar = $('#schedule-date-bar').get(0);
+
+        function stickNav() {
+            const footerRect = footer.getBoundingClientRect();
+            const dateBarRect = dateBar.getBoundingClientRect();
+            const footerInFrame = footerRect.top < window.innerHeight;
+            const stickynavHeight = filters.height();
+            const contentHeight = $(filters.data('contentForFilters')).height();
+
+            if (bottomOfFiltersIsVisible() && filtersAreTallerThanViewport()  && contentHeight > stickynavHeight) {
+                lockFiltersWithProps({
+                    width: filters.parent().width(),
+                    left: filters.parent().position().left + getColSpacing(filtersContainer),
+                    top: 'auto',
+                    bottom: footerInFrame ? window.innerHeight - footerRect.top : 0
+                });
+            } else if (bottomOfFiltersIsVisible() && $(document).scrollTop() > 0 && contentHeight > stickynavHeight) {
+                const filterProps = {
+                    width: filters.parent().width(),
+                    left: filters.parent().position().left + getColSpacing(filtersContainer),
+                    top: dateBarRect.bottom
+                };
+                if (footerInFrame && footerRect.top < filters.outerHeight() + dateBarRect.height) {
+                    filterProps.bottom = window.innerHeight - footerRect.top;
+                    filterProps.top = 'auto';
+                }
+                lockFiltersWithProps(filterProps);
+            } else {
+                $(document.body).removeClass('schedule-filters--locked');
+                filters.removeAttr('style');
+            }
+        }
+
+        function setFiltersPosition() {
+            stickNav();
+        }
+
+        $(window).on('load', setFiltersPosition);
+        $(window).on('scroll', setFiltersPosition);
+        $(window).on('resize', setFiltersPosition);
+        $(".schedule-refine__link").click(stickNav);
+
+        window.setFiltersPosition = setFiltersPosition;
+    });
+    const filterSelectors = {
+        attendeeType: '[name="visitor-type"]:checked',
+        date: "#selectize-date",
+        service: '[name="services"]:checked',
+        venue: "#selectize-venue",
+        srcAttendeeType: '[name="visitor-type"]',
+        srcDate: '[name="date"]',
+        srcService: '[name="services"]',
+        srcVenue: '[name="venue"]'
+    };
+    const filterKeys = {
+        attendeeType: "attendeeTypes",
+        date: "dates",
+        venue: "venues",
+        service: "services"
+    };
+    let filterViewLoaded = false;
+    let badgePickupApiResponse = null;
+    let filtersViewModel = null;
+    let itemsViewModel = null;
+    var isFiltered = false;
+
+    // #region Custom Type Definitions
+
+    /**
+     * @typedef {Object} BadgePickupApiResponse
+     * @property {BadgePickupFilters} filters
+     * @property {BadgePickupItem[]} badgePickupItems
+     * @property {BadgePickupItem[]} nearbyLocations - https://ceadev.visualstudio.com/_git/CES/commit/7ebaab3be3d224fb4bae56208874aabe481fb5de?refName=refs%2Fheads%2Fdevelop
+     */
+
+    /**
+     * @typedef {Object} BadgePickupFilter
+     * @property {String} displayName
+     * @property {String} name
+     * @property {Boolean} selected
+     * @property {Boolean} noMatchingData
+     * @property {BadgePickupFilter[]} subFilters
+     */
+
+    /**
+     * @typedef {Object} BadgePickupFilters
+     * @property {BadgePickupFilter[]} attendeeTypes
+     * @property {BadgePickupFilter[]} dates
+     * @property {BadgePickupFilter[]} venues
+     * @property {BadgePickupFilter[]} services
+     * @property {Function} getFilterValue - CUSTOM
+     */
+
+    /**
+     * @typedef {Object} BadgePickupFilterValues
+     * @property {String} visitorType
+     * @property {String} date
+     * @property {String} venue
+     * @property {String} services
+     */
+
+    /**
+     * @typedef {Object} BadgePickupFilterViewModel
+     * @property {String} displayName
+     * @property {String} name
+     * @property {Boolean} selected
+     */
+
+    /**
+     * @typedef {Object} BadgePickupFiltersViewModel
+     * @property {BadgePickupFilterViewModel} attendeeTypes
+     * @property {BadgePickupFilterViewModel} dates
+     * @property {BadgePickupFilterViewModel} venues
+     * @property {BadgePickupFilterViewModel} services
+     */
+
+    /**
+     * @typedef {Object} BadgePickupItem
+     * @property {String} locationName - SesrviceNine
+     * @property {String} location - Tech West
+     * @property {String} building - LVCC
+     * @property {BadgePickupService[]} services
+     * @property {Date} date - 2018-07-10T00:00:00
+     */
+
+    /**
+     * @typedef {Object} BadgePickupItemsViewModel
+     * @property {BadgePickupItemsViewModelDate[]} dates
+     * @property {BadgePickupItemsViewModelDate[]} nearbyLocations
+     */
+
+    /**
+     * @typedef {Object} BadgePickupItemsViewModelDate
+     * @property {String} name
+     * @property {String} displayName
+     * @property {BadgePickupItemsViewModelDateLocation[]} locations
+     */
+
+    /**
+     * @typedef {Object} BadgePickupItemsViewModelDateLocation
+     * @property {String} building
+     * @property {String} location
+     * @property {String} locationName
+     * @property {String} timeRange - h:mm a
+     * @property {String} service
+     * @property {BadgePickupService[]} services
+     * @property {String[]} attendeeTypes
+     */
+
+    /**
+     * @typedef {Object} BadgePickupService
+     * @property {String} serviceName - Customer Service
+     * @property {String} attendeeType - Media
+     * @property {Date} startTime - 2018-07-26T17:18:05
+     * @property {Date} endTime - 2018-07-26T18:18:09
+     * @property {String} timeRange - h:mm a
+     * @property {Boolean} selected
+     * @property {String} codeName
+     */
+
+    // #endregion
+
+    // #region Classes and Constructors
+
+        /**
+         * Represents a BadgePickupApiResponse object
+         * @param {String} response - xhr.response
+         */
+        function BadgePickupApiResponse(response) {
+            /** @type {BadgePickupApiResponse} */
+            const obj = JSON.parse(response);
+            const filters = obj.filters;
+
+            filters.getFilterValue = getFilterValue;
+            filters.getVenueFilterValue = getVenueFilterValue;
+
+            this.filters = filters;
+            this.badgePickupItems = obj.badgePickupItems;
+            this.nearbyLocations = obj.nearbyLocations;
+        }
+
+        /**
+         * Represents a BadgePickupFilter object
+         * @param {String} displayName
+         * @param {String} name - not used but kept to match the input data
+         * @param {Boolean} selected
+         * @param {Boolean} noMatchingData
+         * @param {BadgePickupFilter[]} subFilters
+         */
+        function BadgePickupFilter(displayName, name, selected, noMatchingData, subFilters) {
+            const displayNameWords = displayName.split(' ');
+
+            for (let i = 0; i < displayNameWords.length; i++) {
+                displayNameWords[i] = displayNameWords[i].toLowerCase();
+            }
+
+            this.displayName = displayName;
+            this.name = displayNameWords.join('-');
+            this.selected = selected;
+            this.noMatchingData = noMatchingData;
+            this.subFilters = subFilters;
+        }
+
+        /**
+         * Represents a BadgePickupFilters object
+         * @param {String[]} queryParams 
+         */
+    function BadgePickupFilters(queryParams) {
+            /** @type {BadgePickupFilters} */
+            const filters = {};
+            /** @type {BadgePickupFilter} */
+            const defaultFilter = new BadgePickupFilter("", "", false, false, null);
+
+            filters.getFilterValue = getFilterValue;
+            filters.getVenueFilterValue = getVenueFilterValue;
+            filters.attendeeTypes = [JSON.parse(JSON.stringify(defaultFilter))];
+            filters.dates = [JSON.parse(JSON.stringify(defaultFilter))];
+            filters.services = [JSON.parse(JSON.stringify(defaultFilter))];
+            filters.venues = [JSON.parse(JSON.stringify(defaultFilter))];
+            filters.venues[0].subFilters = [JSON.parse(JSON.stringify(defaultFilter))];
+            
+            /** @type {Boolean} */
+            const queryParamsExist = 
+                queryParams !== null && 
+                typeof queryParams !== undefined && 
+                queryParams.length > 0;
+            if(!queryParamsExist || !validateQueryParams(queryParams)) {
+                return filters;
+            }
+
+            for (let i = 0; i < queryParams.length; i++) {
+                /** @type {String} */
+                const queryParam = queryParams[i];
+                /** @type {String[]} */
+                const queryParamSplit = queryParam.split('=');
+                /** @type {String} */
+                const queryParamName = queryParamSplit[0].toLowerCase();
+                /** @type {String} */
+                const queryParamValue = decodeURIComponent(queryParamSplit[1].toLowerCase());
+                /** @type {String[]} */
+                const keys = Object.keys(filterKeys);
+
+                for (let j = 0; j < keys.length; j++) {
+                    /** @type {String} */
+                    const key = keys[j];
+                    /** @type {String} */
+                    const filterKey = filterKeys[key];
+                    /** @type {BadgePickupFilter[]|Function} */
+                    const filterArr = filters[filterKey];
+
+                    if(typeof filterArr === 'function' || 
+                        (
+                            filterKey !== filterKeys.attendeeType &&
+                            filterKey !== filterKeys.date &&
+                            filterKey !== filterKeys.service &&
+                            filterKey !== filterKeys.venue)
+                        ) {
+                        continue;
+                    }
+
+                    /** @type {BadgePickupFilter} */
+                    const filter = filterArr[0];
+
+                    if(filterKey === filterKeys.venue) {
+                        const subFilterArr = filter.subFilters;
+                        const subFilter = subFilterArr[0];
+
+                        if(queryParamName === 'location') {
+                            filter.name = queryParamValue;
+                            filter.selected = true;
+                        } else if(queryParamName === 'building') {
+                            subFilter.name = queryParamValue;
+                            subFilter.selected = true;
+                        }
+
+                        continue;
+                    }
+
+                    if(queryParamName !== key.toLowerCase()) {
+                        continue;
+                    }
+
+                    filter.name = queryParamValue;
+                    filter.selected = true;
+                    break;
+                }
+            }
+
+            return filters;
+        }
+
+        /**
+         * Represents a BadgePickupFilterViewModel object
+         * @param {BadgePickupFilter} filter
+         */
+        function BadgePickupFilterViewModel(filter) {
+            /** @type {BadgePickupFilterViewModel} */
+            const badgePickupFilterViewModel = filter;//{}
+
+            return badgePickupFilterViewModel;
+        }
+
+        /**
+         * Represents a BadgePickupFiltersViewModel object
+         * @param {BadgePickupFilters} filters
+         */
+        function BadgePickupFiltersViewModel(filters) {
+            /** @type {BadgePickupFiltersViewModel} */
+            const badgePickupFiltersViewModel = {};
+
+            const keys = Object.keys(filters);
+            for (let i = 0; i < keys.length; i++) {
+                const key = keys[i];
+                const arrFilter = filters[key];
+                const _arrFilter = badgePickupFiltersViewModel[key] = [];
+                for (let j = 0; j < arrFilter.length; j++) {
+                    /** @type {BadgePickupFilter} */
+                    const filter = arrFilter[j];
+                    _arrFilter.push(filter);
+                }
+            }
+
+            return badgePickupFiltersViewModel;
+        }
+
+        /**
+         * Represents a BadgePickupItem object
+         * @param {String} locationName
+         * @param {String} location
+         * @param {String} building
+         * @param {BadgePickupService[]} services
+         * @param {Date} date
+         */
+        function BadgePickupItem(locationName, location, building, services, date) {
+            this.locationName = locationName;
+            this.location = location;
+            this.building = building;
+            this.services = services;
+            this.date = date;
+        }
+
+        /**
+         * Represents a BadgePickupService object
+         * @param {String} serviceName
+         * @param {String} attendeeType
+         * @param {Date} startTime
+         * @param {Date} endTime
+         */
+        function BadgePickupService(serviceName, attendeeType, startTime, endTime) {
+            const timeRangeFormat = "h:mm a";
+            const serviceNameWords = serviceName.split(' ');
+
+            for (let i = 0; i < serviceNameWords.length; i++) {
+                serviceNameWords[i] = serviceNameWords[i].toLowerCase();
+            }
+
+            this.serviceName = serviceName;
+            this.attendeeType = attendeeType;
+            this.startTime = startTime;
+            this.endTime = endTime;
+            this.timeRange = 
+                moment(startTime).format(timeRangeFormat) +
+                " - " +
+                moment(endTime).format(timeRangeFormat);
+            this.selected = false;
+            this.codeName = serviceNameWords.join('-');
+
+            /** @type {BadgePickupFilters} */
+            const filters = badgePickupApiResponse.filters;
+
+            for (let i = 0; i < filters.services.length; i++) {
+                const service = filters.services[i];
+
+                if (service.displayName !== this.serviceName) {
+                    continue;
+                } else {
+                    this.selected = service.selected;
+                    break;
+                }
+            }
+        }
+
+        /**
+         * Represents a BadgePickupViewModel object
+         * @param {BadgePickupApiResponse} response
+         */
+        function BadgePickupItemsViewModel(response) {
+            /** @type {Date[]} */
+            const dates = [];
+            /** @type {BadgePickupItemsViewModelDate[]} */
+            const badgePickupItemsViewModelDates = [];
+            /** @type {BadgePickupItem[]} */
+            const badgePickupItems = response.badgePickupItems;
+
+            for (let i = 0; i < badgePickupItems.length; i++) {
+                /** @type {BadgePickupItem} */
+                const item = badgePickupItems[i];
+                /** @type {Date} */
+                const date = moment(item.date).format("YYYY-MM-DD");
+                if(!dates.includes(date)) {
+                    dates.push(date);
+                }
+            }
+
+            //SORT THE DATES
+            const newDates = JSON.parse(JSON.stringify(dates.sort()));//DEEP COPY
+
+            dates.splice(0,dates.length);
+
+            for (let i = 0; i < newDates.length; i++) {
+                const newDate = newDates[i];
+                dates.push(newDate);
+            }
+
+            for (let i = 0; i < dates.length; i++) {
+                /** @type {Date}  */
+                const date = dates[i];
+                const m = moment(date);
+                /** @type {BadgePickupItemsViewModelDate} */
+                const badgePickupItemsViewModelDate = 
+                    new BadgePickupItemsViewModelDate(
+                        m.format("YYYY-MM-DD"), 
+                        m.format("dddd, MMMM DD"), 
+                        response.badgePickupItems
+                    );
+                badgePickupItemsViewModelDates.push(badgePickupItemsViewModelDate);
+            }
+
+            this.dates = badgePickupItemsViewModelDates;
+
+            //PARSE the nearbyLocations
+            this.nearbyLocations = [];
+
+            const nearbyLocationsExist = 
+                this.dates.length === 1 &&
+                response.nearbyLocations.length > 0;
+            if (!nearbyLocationsExist) {
+                return this;
+            }
+
+            const date = moment(this.dates[0].name);
+            const dateName = date.format("YYYY-MM-DD");
+            const dateDisplayName = date.format("dddd, MMMM DD");
+            const nearbyLocationsVM = new BadgePickupItemsViewModelDate(
+                dateName,
+                dateDisplayName,
+                response.nearbyLocations
+            );
+
+            this.nearbyLocations.push(nearbyLocationsVM);
+            
+            const maxNumOfNearbyLocationsBeforeCollapsed = 3;
+            const moreNearbyLocationsExist = 
+                nearbyLocationsVM.locations.length > maxNumOfNearbyLocationsBeforeCollapsed;
+            if(!moreNearbyLocationsExist) {
+                return this;
+            }
+
+            /** @type {BadgePickupItemsViewModelDate} */
+            const deepCopyOfNearbyLocationsVM = JSON.parse(JSON.stringify(nearbyLocationsVM));//DEEP COPY
+
+            // remove locations beyond the maximum
+            nearbyLocationsVM.locations.splice(
+                maxNumOfNearbyLocationsBeforeCollapsed,
+                nearbyLocationsVM.locations.length - maxNumOfNearbyLocationsBeforeCollapsed
+            );
+
+            // remove locations on or before the maximum
+            deepCopyOfNearbyLocationsVM.locations.splice(
+                0,
+                maxNumOfNearbyLocationsBeforeCollapsed
+            );
+
+            this.nearbyLocations.push(deepCopyOfNearbyLocationsVM);
+
+            return this;
+        }
+
+        /**
+         * Represents a BadgePickupItemsViewModelDate object
+         * @param {String} name
+         * @param {String} displayName
+         * @param {BadgePickupItem[]} items
+         * @this {BadgePickupItemsViewModelDate}
+         * @returns {BadgePickupItemsViewModelDate}
+         */
+        function BadgePickupItemsViewModelDate(name, displayName, items) {
+            this.name = null;
+            this.displayName = null;
+            this.locations = [];
+
+            //SET this.name & this.displayName
+            const nameExists = 
+                name !== null &&
+                typeof name !== "undefined";
+            const displayNameExists = 
+                displayName !== null &&
+                typeof displayName !== "undefined";
+            if(!nameExists) {
+                console.error('PARAM "name" DOES NOT EXIST');
+                return this;
+            }
+            
+            this.name = name;
+            this.displayName = !displayNameExists
+                ? null
+                : displayName;
+
+            //GET items where date === name
+            for (let i = 0; i < items.length; i++) {
+                /** @type {BadgePickupItem} */
+                const item = items[i];
+                const mDiff = moment(item.date).diff(this.name,"days");
+                const dateExists = 
+                    mDiff === 0;
+
+                if(!dateExists) {
+                    continue;
+                }
+
+                /** @type {String[]} */
+                const attendeeTypes = [];
+
+                for (let j = 0; j < item.services.length; j++) {
+                    const service = item.services[j];
+                    const attendeeType = service.attendeeType;
+                    const serviceExists = 
+                        attendeeTypes.includes(attendeeType);
+
+                    if(!serviceExists) {
+                        attendeeTypes.push(attendeeType);
+                    }
+                }
+
+                /** @type {BadgePickupService[]} */
+                const services = [];
+                for (let j = 0; j < item.services.length; j++) {
+                    const service = item.services[j];
+                    const _service = new BadgePickupService(
+                        service.serviceName,
+                        service.attendeeType,
+                        service.startTime,
+                        service.endTime
+                    );
+                    
+                    services.push(_service);
+                }
+
+                const location = new BadgePickupItemsViewModelDateLocation(
+                    item.building,
+                    item.location,
+                    item.locationName,
+                    services,
+                    attendeeTypes
+                );
+
+                this.locations.push(location);
+            }
+
+            return this;
+        }
+
+        /**
+         * Represents a BadgePickupItemsViewModelDateLocation object
+         * @param {String} building
+         * @param {String} location
+         * @param {BadgePickupService[]} services
+         * @param {String[]} attendeeTypes
+         */
+        function BadgePickupItemsViewModelDateLocation(building, location, locationName, services, attendeeTypes) {
+            this.building = building;
+            this.location = location;
+            this.locationName = locationName;
+            this.services = services;
+            this.attendeeTypes = attendeeTypes;
+            this.group = group;
+            this.timeGroupedServices = this.group(services, "timeRange");
+        }
+
+        /**
+         * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce
+         * @param {BadgePickupService[]|*[]} array 
+         * @param {String} key 
+         */
+        function group(array, key) {
+            return array.reduce(function(accumulator, currentValue) {
+                (accumulator[currentValue[key]] = accumulator[currentValue[key]] || []).push(currentValue);
+                return accumulator;
+            }, {});
+        }
+
+
+    // #endregion
+
+    // #region Method Definitions
+
+    /**
+     * Adds the filterEventListener to the 'change' event of filter elements
+     */
+    function addFilterEventListeners() {
+        try {
+            const resetButtons = addHtmlElementsToArray(
+                ['.btn-reset'], []
+            );
+            const querySelectors = [
+                '[id^="selectize"]'
+            ];
+            const toggleButtons = addHtmlElementsToArray(
+                ['.toggle-filters','.close-filters'], []
+            );
+
+            for (let i = 0; i < filterNames.length; i++) {
+                const filterName = filterNames[i];
+                const querySelector = 
+                    '[name="' + 
+                    filterName + 
+                    '"]';
+                querySelectors.push(querySelector);
+            }
+
+            const elements = addHtmlElementsToArray(querySelectors, []);
+
+            for (let i = 0; i < toggleButtons.length; i++) {
+                const btn = toggleButtons[i];
+                btn.addEventListener('click', toggleFilters);
+            }
+            for (let i = 0; i < elements.length; i++) {
+                const element = elements[i];
+                element.addEventListener('change', filterEventListener);
+            }
+            for (let i = 0; i < resetButtons.length; i++) {
+                const btn = resetButtons[i];
+                btn.addEventListener('click', filterResetEventListener);
+            }
+
+            return true;
+        } catch (e) {
+            console.error(e);
+            return false;
+        }
+    }
+
+    /**
+     * Adds all HTMLElements matching the given querySelectors to arr
+     * @param {String[]} querySelectors
+     * @param {HTMLElement[]} arr 
+     */
+    function addHtmlElementsToArray(querySelectors, arr) {
+        try {
+            if (querySelectors === null || typeof querySelectors === "undefined" || querySelectors.length === 0) {
+                console.error("querySelectors === null");
+                return null;
+            }
+            if (arr === null || typeof arr === "undefined") {
+                console.error("arr === null");
+                return null;
+            }
+
+            for (let i = 0; i < querySelectors.length; i++) {
+                const querySelector = querySelectors[i];
+                const elements = document.querySelectorAll(querySelector);
+
+                if (elements === null || typeof elements === "undefined" || elements.length === 0) {
+                    return;
+                }
+
+                for (let j = 0; j < elements.length; j++) {
+                    const elem = elements[j];
+                    arr.push(elem);
+                }
+            }
+
+            return arr;
+        } catch (e) {
+            console.error(e);
+            return null;
+        }
+    }
+
+    /**
+     * Handle filter change events
+     * @param {MouseEvent} e - element = e.currentTarget || this
+     * @returns {Boolean}
+     */
+    function filterEventListener(e) {
+        try {
+            /** @type {BadgePickupFilters} */
+            const filters = getFilterValues();
+
+            getBadgePickupApiResponse(filters);
+
+            const eIsNotNullOrUndefined = 
+                e !== null && 
+                typeof e !== "undefined";
+            const eventTargetClassList = e.target.classList.value;
+            const eventTargetClassListExists = 
+                eIsNotNullOrUndefined &&
+                eventTargetClassList !== null &&
+                typeof eventTargetClassList !== "undefined" &&
+                eventTargetClassList !== "";
+
+            if(eventTargetClassListExists) {
+                const splitValues = eventTargetClassListExists.split(" ");
+                if(splitValues.includes("close-filters")) {
+                    hideMobileFilters();
+                }
+            }
+
+            isFiltered = true;
+
+            return true;
+        } catch (e) {
+            console.error(e);
+            return false;
+        }
+    }
+
+    /**
+     * Handle filter reset events
+     * @param {MouseEvent} e - element = e.currentTarget || this
+     */
+    function filterResetEventListener(e) {
+        try {
+            resetFilterValues();
+
+            if(window.location.search.length > 0) {
+                window.location.search = '';
+            }
+
+            getBadgePickupApiResponse();
+
+            const eIsNotNullOrUndefined = e !== null && typeof e !== "undefined";
+            const eventTargetClassList = e.target.classList.value;
+            const eventTargetClassListExists = 
+                eIsNotNullOrUndefined &&
+                eventTargetClassList !== null &&
+                typeof eventTargetClassList !== "undefined" &&
+                eventTargetClassList !== "";
+
+            if(eventTargetClassListExists) {
+                const splitValues = eventTargetClassList.split(" ");
+                if(splitValues.includes("close-filters")) {
+                    hideMobileFilters();
+                }
+            }
+
+            return true;
+        } catch (e) {
+            console.error(e);
+            return false;
+        }
+    }
+
+    /**
+     * Get BadgePickupApiResponse object
+     * @param {BadgePickupFilters} filters
+     * @returns {XMLHttpRequest}
+     */
+    function getBadgePickupApiResponse(filters) {
+        const xhr = new XMLHttpRequest();
+        let url = "/api/BadgePickup";
+        const params = getQueryParams(filters);
+        const paramsExist = 
+            params !== null &&
+            typeof params !== "undefined" &&
+            params.length > 0;
+
+        // ReSharper disable once QualifiedExpressionMaybeNull
+        if(paramsExist) {
+            url += 
+                "?" +
+                params.join("&");
+        }
+
+        xhr.onload = function () {
+            if (this.status >= 200 && this.status < 300) {
+                xhrCallback(xhr.responseText);
+            } else {
+                console.error(xhr.response);
+            }
+        };
+        xhr.onerror = function () {
+            console.error(xhr.response);
+        };
+        xhr.open("GET", url, true);
+        xhr.setRequestHeader("Content-Type", "application/json");
+        xhr.send(null);
+
+        return xhr;
+    }
+
+    /**
+     * Get the filter value from the DOM
+     * @param {String} selector 
+     * @returns {String} BadgePickupFilter.name
+     */
+    function getDomFilterValue(selector) {
+        /** @type {HTMLInputElement} */
+        const element = document.querySelector(selector);
+        const valueExists = 
+            !(element === null ||
+            typeof element === "undefined" ||
+            element.value === null ||
+            typeof element.value === "undefined" ||
+            element.value === "undefined" || 
+            element.value === "");
+        // ReSharper disable once QualifiedExpressionMaybeNull
+        const value = !valueExists
+            ? null
+            : element.value;
+        return value;
+    }
+
+    /**
+     * @returns {HTMLElement[]}
+     */
+    function getFilterElements() {
+        const elements = [];
+        const keys = Object.keys(filterSelectors);
+
+        for (let i = 0; i < keys.length; i++) {
+            const key = keys[i];
+            const selector = filterSelectors[key];
+            const _elements = document.querySelectorAll(selector);
+            
+            for (let j = 0; j < _elements.length; j++) {
+                const element = _elements[j];
+                elements.push(element);
+            }
+        }
+
+        return elements;
+    }
+
+    /**
+     * Get the filter value
+     * @param {String} key - BadgePickupFilters[key] where type === "BadgePickupFilter[]"
+     * @this BadgePickupFilters
+     * @returns {String} BadgePickupFilter.name
+     */
+    function getFilterValue(key) {
+        /** @type {BadgePickupFilters} */
+        const filters = this;
+        const keys = Object.keys(filters);
+        
+        if(!keys.includes(key)) {
+            console.error(key + 'IS NOT A KNOWN PROPERTY OF THE "BadgePickupFilters" OBJ');
+            return null;
+        }
+
+        for (let i = 0; i < filters[key].length; i++) {
+            /** @type {BadgePickupFilter} */
+            const filter = filters[key][i];
+            if(filter.selected) {
+                return filter.name;
+            }
+        }
+
+        return null;
+    }
+
+    /**
+     * Get the venue filter value
+     * @param {String} key - BadgePickupFilters[key] where type === "BadgePickupFilter[]"
+     * @this BadgePickupFilters
+     * @returns {String} BadgePickupFilter.name
+     */
+    function getVenueFilterValue() {
+        /** @type {BadgePickupFilters} */
+        const filters = this;
+
+        for (let i = 0; i < filters[filterKeys.venue].length; i++) {
+            /** @type {BadgePickupFilter} */
+            const filter = filters[filterKeys.venue][i];
+            if (filter.selected) {
+                return { location: filter.name, building: filter.name };
+            }
+        }
+
+        return null;
+    }
+
+    /**
+     * Get filter values from document
+     * @returns {BadgePickupFilters}
+     */
+    function getFilterValues() {
+        /** @type {BadgePickupFilters} */
+        const filters = badgePickupApiResponse.filters;
+
+        const attendeeTypesValue = getDomFilterValue(filterSelectors.attendeeType);
+        const datesValue = getDomFilterValue(filterSelectors.date);
+        const venuesValue = getDomFilterValue(filterSelectors.venue);
+        const servicesValue = getDomFilterValue(filterSelectors.service);
+
+        //filter by attendeeTypes
+        for (let i = 0; i < filters.attendeeTypes.length; i++) {
+            /** @type {BadgePickupFilter} */
+            const attendeeType = filters.attendeeTypes[i];
+            attendeeType.selected = attendeeType.name === attendeeTypesValue;
+        }
+
+        //filter by dates
+        for (let i = 0; i < filters.dates.length; i++) {
+            /** @type {BadgePickupFilter} */
+            const date = filters.dates[i];
+            date.selected = date.name === datesValue;
+        }
+
+        //filter by venues
+        for (let i = 0; i < filters.venues.length; i++) {
+            /** @type {BadgePickupFilter} */
+            const venue = filters.venues[i];
+            const selected = venue.name === venuesValue;
+            venue.selected = selected;
+        }
+
+        //filter by services
+        for (let i = 0; i < filters.services.length; i++) {
+            /** @type {BadgePickupFilter} */
+            const service = filters.services[i];
+            service.selected = service.name === servicesValue;
+        }
+
+        return filters;
+    }
+
+    /**
+     * Get URL Query Parameters
+     * @param {BadgePickupFilters} filters
+     * @returns {String[]}
+     */
+    function getQueryParams(filters) {
+        /** @type {String[]} */
+        const params = [];
+
+        const filtersExist = 
+            filters !== null &&
+            typeof filters !== "undefined";
+        if(!filtersExist) {
+            /** @type {String[]} */
+            const queryParams = getQueryParamsFromUrl();
+
+            if(!validateQueryParams(queryParams)) {
+                return [];
+            }
+
+            filters = new BadgePickupFilters(queryParams);
+        }
+
+        const keys = Object.keys(filterKeys);
+
+        for (let i = 0; i < keys.length; i++) {
+            const key = filterKeys[keys[i]];
+            let name = keys[i];
+            let value;
+
+            const keyExists = 
+                key === filterKeys.date || 
+                key === filterKeys.service || 
+                key === filterKeys.attendeeType ||
+                key === filterKeys.venue;
+            if(!keyExists) {
+                continue;
+            }
+
+            if (key === filterKeys.venue) {
+                // ReSharper disable once QualifiedExpressionMaybeNull
+                const venueValue = filters.getVenueFilterValue();
+                if (venueValue) {
+                    const paramLocation = 
+                        "location=" +
+                        encodeURI(venueValue.location);
+                    const paramBuilding =
+                        "building=" +
+                        encodeURI(venueValue.building);
+                    params.push(paramLocation);
+                    params.push(paramBuilding);
+                }
+                continue;
+            } else {
+                // ReSharper disable once QualifiedExpressionMaybeNull
+                value = filters.getFilterValue(key);
+            }
+
+            if(value === null) {
+                continue;
+            }
+
+            const param = 
+                name +
+                "=" +
+                encodeURI(value);
+            params.push(param);
+        }
+        params.push("pageSize=300");
+        return params;
+    }
+
+    /**
+     * Collects query params from the current URL
+     * https://developer.mozilla.org/en-US/docs/Web/API/Location#Properties
+     * @returns {String[]} queryParams - defaults to empty array
+     */
+    function getQueryParamsFromUrl() {
+        /** @type {String} https://developer.mozilla.org/en-US/docs/Web/API/Location#Properties */
+        const queryString = window.location.search;
+        
+        if(queryString === null || 
+            typeof queryString == null || 
+            queryString.length <= 0) {// queryString does not exist
+            return [];// return an empty array by default
+        }
+
+        /** @type {String[]} */
+        let queryParams = queryString.substr(1).split('&');
+
+        return queryParams;
+    }
+
+    /**
+     * adapted from filters.js to make the mobile filtering function properly
+     */
+    function hideMobileFilters() {
+        $('body').removeClass('schedule-filters--mobile-open no-scroll-mobile');
+        $('.schedule-filter-collapse').addClass('show');
+        $('.schedule-filter-toggle').removeClass('collapsed');
+    }
+
+    /**
+     * Tests that an HTML Input Element is not null or undefined
+     * @param {HTMLInputElement} htmlInputElement 
+     * @returns {Boolean}
+     */
+    function htmlInputIsNullOrUndefined(htmlInputElement) {
+        return htmlInputElement === null ||
+            typeof htmlInputElement === "undefined" ||
+            htmlInputElement.value === "" ||
+            htmlInputElement.value === "undefined";
+    }
+
+    /**
+     * Render the filters view
+     * @param {BadgePickupFiltersViewModel} viewModel 
+     * @returns {Boolean}
+     */
+    function renderFiltersView(viewModel) {
+        try {
+            const filtersTemplate = window.CES.templates.badgePickup.filters;
+
+            //TODO:resetFilterValues();//Required to clear the hidden inputs for selectize values
+            renderView(filtersTemplate, viewModel, "sticky-filters-container");
+            instantiateSelectizeDropdowns();
+            maintainFilterPosition();
+
+            // clear the rendered options from selectize inputs to then re-add them programmatically
+            const elements = 
+                document.querySelectorAll(
+                    filterSelectors.srcDate +
+                    ',' +
+                    filterSelectors.srcVenue);
+            
+            for (let i = 0; i < elements.length; i++) {
+                const element = elements[i];
+                const selectize = element.selectize;
+
+                selectize.clear();
+                selectize.clearOptionGroups();
+                selectize.clearOptions();
+            }
+            setFilterValues(viewModel);
+            addFilterEventListeners();
+
+            return true;
+        } catch (e) {
+            console.error(e);
+            return false;
+        }
+    }
+
+    /**
+     * Render the items view
+     * @param {BadgePickupItemsViewModel} viewModel 
+     * @returns {Boolean}
+     */
+    function renderItemsView(viewModel) {
+        try {
+            const itemsTemplate = window.CES.templates.badgePickup.items;
+
+            renderView(itemsTemplate, viewModel, "badge-pickup-content");
+            renderFirstDateLabel(viewModel);
+            if (isFiltered) {
+                renderResultsCount(viewModel);
+            }
+
+            const btnViewMore = 
+                document.querySelector(".badge-pickup-card__more-button");
+            const btnViewMoreExists =
+                btnViewMore !== null &&
+                typeof btnViewMore !== "undefined";
+            const nearbyLocationsExist = 
+                viewModel.nearbyLocations !== null &&
+                typeof viewModel.nearbyLocations !== "undefined" &&
+                viewModel.nearbyLocations.length > 0;
+
+            if(!btnViewMoreExists || !nearbyLocationsExist) {
+                return true;
+            }
+
+            // ReSharper disable once QualifiedExpressionMaybeNull
+            btnViewMore.addEventListener('click', function(e) {
+                e.preventDefault();
+                e.stopPropagation();
+
+                /** @type {HTMLButtonElement} */
+                const btnMore = this;
+                /** @type {Boolean} */
+                const ariaExpanded = btnMore.getAttribute("aria-expanded");
+                /** @type {String} */
+                const selector = btnMore.getAttribute("data-target");
+                /** @type {HTMLDivElement} */
+                const target = document.querySelector(selector);
+
+                btnMore.setAttribute("aria-expanded", !ariaExpanded);//TOGGLE
+                btnMore.classList.toggle("collapsed");
+                target.classList.toggle("show");
+            });
+
+            return true;
+        } catch (e) {
+            console.error(e);
+            return false;
+        }
+    }
+
+    /**
+     * Render resultsCount in container
+     * @param {BadgePickupItemsViewModel} viewModel 
+     * @returns {Boolean}
+     */
+    function renderResultsCount(viewModel) {
+        try {
+            const elements = document.querySelectorAll('.results-count');
+            let resultsCount = 0;
+
+            if (viewModel !== null && typeof viewModel !== "undefined") {
+                for (let i = 0; i < viewModel.dates.length; i++) {
+                    const date = viewModel.dates[i];
+                    resultsCount += date.locations.length;
+                }
+            }
+
+            for (let i = 0; i < elements.length; i++) {
+                const element = elements[i];
+                element.innerText = resultsCount + " results";
+            }
+
+            return true;
+        } catch (e) {
+            console.error(e);
+            return false;
+        }
+    }
+
+    /**
+     * Render first date.displayName in container
+     * @param {BadgePickupItemsViewModel} viewModel 
+     * @returns {Boolean}
+     */
+    function renderFirstDateLabel(viewModel) {
+        try {
+            const element = document.getElementById('schedule-date-label');
+            const viewModelExists = 
+                viewModel !== null &&
+                typeof viewModel !== "undefined";
+            const datesExist = 
+                viewModelExists &&
+                // ReSharper disable once QualifiedExpressionMaybeNull
+                viewModel.dates !== null &&
+                typeof viewModel.dates !== "undefined" &&
+                viewModel.dates.length > 0;
+
+            element.innerText = datesExist
+                // ReSharper disable once QualifiedExpressionMaybeNull
+                ? viewModel.dates[0].displayName
+                : null;
+
+            return true;
+        } catch (e) {
+            console.error(e);
+            return false;
+        }
+    }
+
+    /**
+     * Render template in container with given filters applied
+     * @param {Object} template - Compiled HBS template function
+     * @param {Object} viewModel - HBS context
+     * @returns {Boolean}
+     */
+    function renderView(template, viewModel, containerId) {
+        try {
+            const html = template(viewModel);
+            const htmlContainer = document.getElementById(containerId);
+
+            if (htmlContainer === null || typeof htmlContainer === "undefined") {
+                console.error("HTMLElement #" + containerId + " DOES NOT EXIST");
+                return false;
+            }
+
+            htmlContainer.innerHTML = html;
+
+            return true;
+        } catch (e) {
+            console.error(e);
+            return false;
+        }
+    }
+
+    /**
+     * Reset all filter values
+     */
+    function resetFilterValues() {
+        const elements = getFilterElements();
+        const keys = Object.keys(filterKeys);
+
+        /** @type {BadgePickupFilters} */
+        const filters = badgePickupApiResponse.filters;
+
+        // reset BadgePickupFilters
+        for (let i = 0; i < keys.length; i++) {
+            const key = filterKeys[keys[i]];
+
+            /** @type {BadgePickupFilter[]} */
+            const _filters = filters[key];
+
+            for (let j = 0; j < _filters.length; j++) {
+                /** @type {BadgePickupFilter} */
+                const filter = _filters[j];
+                filter.selected = false;
+
+                const subFiltersExist = 
+                    filter.subFilters !== null &&
+                    typeof filter.subFilters !== "undefined" &&
+                    filter.subFilters.length > 0;
+                if(!subFiltersExist) {
+                    continue;
+                }
+
+                for (let k = 0; k < filter.subFilters.length; k++) {
+                    const subFilter = filter.subFilters[k];
+                    subFilter.selected = false;
+                }
+            }
+        }
+
+        // reset filter elements
+        for (let i = 0; i < elements.length; i++) {
+            /** @type {HTMLInputElement|HTMLSelectElement} */
+            const element = elements[i];
+            const valueExists = 
+                element.value !== null &&
+                typeof element.value !== "undefined" &&
+                element.value !== "";
+            const valueShouldExist =
+                valueExists &&
+                !element.id.startsWith("selectize-");
+            
+            if(!valueShouldExist) {
+                element.value = "";
+            } if(element.checked) {
+                element.checked = false;
+            } if(element.selectize !== null && typeof element.selectize !== "undefined") {
+                element.selectize.clear();
+            }
+        }
+
+        getBadgePickupApiResponse(filters);
+    }
+
+    /**
+     * adapted from filters.js to make the mobile filtering function properly
+     */
+    function instantiateSelectizeDropdowns() {
+        $('select.schedule-filter-select').selectize({
+            copyClassesToDropdown: true,
+            onChange: function (value) {
+                this.$dropdown_content.removeHighlight();
+                selectizeChangeHandler(this, value);
+            },
+            onType: function (str) {
+                str || this.$dropdown_content.removeHighlight();
+            },
+            optgroupField: "mygroup",
+            render: {
+                optgroup_header: function(data, escape) {
+                    return '<div class="optgroup-header">' + escape(data.a) + '</div>';
+                },
+                option: function(item, escape) {
+                    let option = '<div>';
+
+                    if(item.noMatchingData) {
+                        option = '<div style="pointer-events: none; color: #aaa;">';
+                    }
+
+                    option += escape(item.text);
+                    option += "</div>";
+
+                    return option;
+                }
+            }
+        });
+    }
+
+    // ReSharper disable once UnusedParameter
+    /**
+     * Event Handler for $select onChange event
+     * @param {Object} obj
+     * @param {String} selectizeValue - obj.items[0]
+     * @returns {Boolean}
+     */
+    function selectizeChangeHandler(obj, selectizeValue) {
+        const inputName = obj["$input"][0].name;
+        const event = new CustomEvent('change');
+        const selector = 
+            "#selectize-" +
+            inputName;
+        const element = document.querySelector(selector);
+        const value = obj.items[0];
+
+        if (element === null || typeof element === "undefined") {
+            console.error('"' + selector + '" DOES NOT EXIST');
+            return;
+        }
+
+        element.value = value;
+        element.dispatchEvent(event);
+    }
+
+    /**
+     * @param {BadgePickupFiltersViewModel} filters
+     */
+    function setFilterValues(filters) {
+        const elements = getFilterElements();
+        const keys = Object.keys(filterKeys);
+
+        for (let i = 0; i < elements.length; i++) {
+            /** @type {HTMLInputElement|HTMLSelectElement} */
+            const element = elements[i];
+            const name = element.name;
+            
+            /** @type {BadgePickupFilter[]} */
+            let _filters = null;
+
+            for (let j = 0; j < keys.length; j++) {
+                const key = keys[j];
+                if(name === key) {
+                    _filters = filters[filterKeys[key]];
+                } else if(name === "visitor-type") {
+                    _filters = filters.attendeeTypes;
+                } else if(name === "services") {
+                    _filters = filters.services;
+                } else if(element.id === "selectize-date") {
+                    _filters = filters.dates;
+                } else if(element.id === "selectize-venue") {
+                    _filters = filters.venues;
+                }
+
+                const _filtersExist =
+                    _filters !== null &&
+                    typeof _filters !== "undefined" &&
+                    _filters.length > 0;
+                if(_filtersExist) {
+                    break;
+                }
+            }
+
+            if(_filters === null) {
+                console.error("_filters === null");
+                continue;
+            }
+            
+            for (let j = 0; j < _filters.length; j++) {
+                const _filter = _filters[j];
+                const displayNameExists =
+                    _filter.displayName !== null && 
+                    typeof _filter.name !== "undefined";
+
+                if (!displayNameExists) {
+                    console.error("!displayNameExists");
+                    continue;
+                }
+
+                const subFiltersExist = 
+                    _filter.subFilters !== null &&
+                    typeof _filter.subFilters !== "undefined" &&
+                    _filter.subFilters.length > 0;
+                const selectizeExists = 
+                    element.selectize !== null &&
+                    typeof element.selectize !== "undefined";
+                
+                if(!selectizeExists) {
+                    const valueExists = 
+                        element.value !== null &&
+                        typeof element.value !== "undefined" &&
+                        element.value !== "" &&
+                        element.value === _filter.name;
+                    
+                    if(valueExists) {
+                        element.checked = _filter.selected;
+                        element.disabled = _filter.noMatchingData;
+                    }
+
+                    continue;
+                }
+
+                const selectize = element.selectize;
+                
+                if(!subFiltersExist) {
+                    const newOption = {
+                        text: _filter.displayName,
+                        value: _filter.name,
+                        noMatchingData: _filter.noMatchingData,
+                        selected: _filter.selected
+                    };
+
+                    const optionKeys = Object.keys(selectize.options);
+                    let optionExists = false;
+                    for (let l = 0; l < optionKeys.length; l++) {
+                        const key = optionKeys[l];
+                        if (key === newOption.value) {
+                            optionExists = true;
+                            continue;
+                        }
+                    }
+
+                    if (optionExists) {
+                        selectize.updateOption(_filter.name, newOption);
+                    } else {
+                        selectize.addOption(newOption);
+                    } if(newOption.selected) {
+                        selectize.setValue(newOption.value, true);
+                    }
+                } else {
+                    const optGroup = {
+                        a: _filter.displayName
+                    };
+                    
+                    const mygroup = j.toString();
+
+                    for (let k = 0; k < _filter.subFilters.length; k++) {
+                        const subFilter = _filter.subFilters[k];
+                        const newOption = {
+                            text: subFilter.displayName,
+                            value: subFilter.name,
+                            mygroup: mygroup,
+                            noMatchingData: subFilter.noMatchingData,
+                            selected: subFilter.selected
+                        }
+
+
+                        const optgroupKeys = Object.keys(selectize.optgroups);
+                        let optGroupExists = false;
+                        for (let l = 0; l < optgroupKeys.length; l++) {
+                            const key = optgroupKeys[l];
+                            if(key === newOption.mygroup) {
+                                optGroupExists = true;
+                                continue;
+                            }
+                        }
+
+                        const optionKeys = Object.keys(selectize.options);
+                        let optionExists = false;
+                        for (let l = 0; l < optionKeys.length; l++) {
+                            const key = optionKeys[l];
+                            if(key === newOption.value) {
+                                optionExists = true;
+                                continue;
+                            }
+                        }
+
+                        if(!optGroupExists) {
+                            selectize.addOptionGroup(mygroup, optGroup);
+                        } if(optionExists) {
+                            selectize.updateOption(newOption.value, newOption);
+                        } else {
+                            selectize.addOption(newOption);
+                        } if(newOption.selected) {
+                            selectize.setValue(newOption.value, true);
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+    /**
+     * copied from filters.js to make the mobile filtering function properly
+     */
+    function showMobileFilters() {
+        $('body').addClass('schedule-filters--mobile-open no-scroll-mobile');
+        $('.schedule-filter-collapse').removeClass('show');
+        $('.schedule-filter-toggle').addClass('collapsed');
+    }
+
+    /**
+     * Run this first
+     * @returns {Boolean}
+     */
+    function startup() {
+        try {
+            /** @type {String[]} */
+            const queryParams = getQueryParamsFromUrl();
+
+            if(!validateQueryParams(queryParams)) {
+                // stop the script before redirect to fix queryParams
+                return false;
+            }
+
+            getBadgePickupApiResponse();
+
+            return true;
+        } catch (e) {
+            console.error(e);
+            return false;
+        }
+    }
+
+    /**
+     * adapted from filters.js to make the mobile filtering function properly
+     * @param {Event} e
+     */
+    function toggleFilters(e) {
+        const eIsNotNullOrUndefined = e !== null && typeof e !== "undefined";
+        if (eIsNotNullOrUndefined) {
+            // ReSharper disable once QualifiedExpressionMaybeNull
+            e.preventDefault();
+        }
+
+        const body = document.querySelector('body');
+        const bodyClassList = body.classList.value;
+        const bodyClassListExists =
+            bodyClassList !== null &&
+            typeof bodyClassList !== "undefined" &&
+            bodyClassList !== "";
+
+        if(bodyClassListExists) {
+            const splitValues = bodyClassList.split(" ");
+            const shouldHideMobileFilters = 
+                splitValues.includes("schedule-filters--mobile-open") &&
+                splitValues.includes("no-scroll-mobile");
+            if(shouldHideMobileFilters) {
+                hideMobileFilters();
+            } else {
+                if ($('#schedule-date-bar-container').get(0).getBoundingClientRect().top > 0) {
+                    $("html,body").animate({
+                        scrollTop: $('#schedule-date-bar-container').position().top
+                    }, 400, showMobileFilters);
+                } else {
+                    showMobileFilters();
+                }
+            }
+        }
+
+        const eventTargetClassList = e.target.classList.value;
+        const eventTargetClassListExists = 
+            eIsNotNullOrUndefined &&
+            eventTargetClassList !== null &&
+            typeof eventTargetClassList !== "undefined" &&
+            eventTargetClassList !== "";
+
+        if(eventTargetClassListExists) {
+            const splitValues = eventTargetClassList.split(" ");
+            if(splitValues.includes("btn-reset")) {
+                filterResetEventListener(e);
+            }
+        }
+    }
+
+    /**
+     * Validate the query params
+     * @param {String[]} queryParams 
+     */
+    function validateQueryParams(queryParams) {
+        /** @type {Boolean} */
+        let invalidQueryParamsExist = false;
+
+        for (let i = 0; i < queryParams.length; i++) {
+            const queryParam = queryParams[i];
+            
+            if(!queryParam.includes('=')) {// remove invalid queryParam from queryParams
+                invalidQueryParamsExist = true;
+                queryParams.splice(i,1);
+                if(i > 0) {
+                    i--;
+                }
+            }
+        }
+
+        if(invalidQueryParamsExist) {// remove invalid queryParams from URL
+            window.stop();
+            window.location.search = '?' + queryParams.join('&');
+        }
+
+        return !invalidQueryParamsExist;
+    }
+
+    /**
+     * @param {String} responseText - xhr.responseText
+     * @returns {Boolean}
+     */
+    function xhrCallback(responseText) {
+        try {
+            badgePickupApiResponse = new BadgePickupApiResponse(responseText);
+            itemsViewModel = new BadgePickupItemsViewModel(badgePickupApiResponse);
+            filtersViewModel = new BadgePickupFiltersViewModel(badgePickupApiResponse.filters);
+
+            renderItemsView(itemsViewModel);
+            if(!filterViewLoaded) {
+                renderFiltersView(filtersViewModel);
+                filterViewLoaded = true;
+            } else {
+                setFilterValues(filtersViewModel);
+            }
+
+            return true;
+        } catch (e) {
+            console.error(e);
+            return false;
+        }
+    }
+
+    // #endregion
+
+    (function () {
+        try {
+            startup();
+
+            return true;
+        } catch (e) {
+            console.error(e);
+            return false;
+        }
+    }());
+}());
