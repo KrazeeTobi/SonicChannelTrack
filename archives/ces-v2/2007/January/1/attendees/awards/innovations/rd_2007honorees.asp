@@ -1,0 +1,2438 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head><!-- PageID 203 - published by RedDot 6.5 - 6.5.2.14 - 16244 -->
+
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+
+<!-- INSERT PAGE TITLE HERE (immediately following gblPAGE_TITLE) -->
+<title>2007 International CES:&nbsp;Innovations Honorees</title>
+
+
+
+<META NAME="searchZone" CONTENT="generalCESweb">
+
+<link rel="StyleSheet" href="/global_includes/js/mainMethod.css" type="text/css">
+<LINK REL="SHORTCUT ICON" HREF="http://www.easymovement.com/ces/favicon.ico">
+
+<!-- Browser detection script -->
+    <script src="/global_includes/js/browser_detection.js" type="text/javascript"></script>
+
+<!-- *********** next 2 lines for 40th anniv flash animation ************* -->
+<script language="javascript">AC_FL_RunContent = 0;</script>
+<script src="AC_RunActiveContent.js" language="javascript"></script>
+
+<SCRIPT language="javascript1.2">
+    function newWin(urlString,pgNum) {
+        var popupWindow;
+        urlString += "?pageID=" + pgNum;
+        popupWindow = window.open(urlString,"","toolbar=yes,menubar=no,resizable=no,status=no,scrollbars=yes,location=no,directories=no,copyhistory=no,height=550,width=618,left=50,top=50");
+    }  
+ 
+    function openNewWindow(strURL) {
+        window.name = "main";
+        var newWindow = window.open(strURL,"newWindow", "toolbar=no,menubar=no,resizable=no,status=no,scrollbars=yes,location=no,directories=no,copyhistory=no,height=400,width=450,left=50,top=50");
+    }
+
+    // Script for e-mail this page - gets the url of the page the user is on before the e-mail page tool button is clicked
+    function loadReferrer() {
+        referrerString = opener.document.location.href;
+        document.emailForm.page.value = referrerString;
+    }
+</SCRIPT>
+
+<!-- Rollover script (do we still need these?) --> 
+<script language="javascript1.2"> 
+    /* for graphical rollovers */
+   function rollOver(which,name) 
+    {
+    var on="/global_images/1.0/1.0_" + which + "_r.gif";
+    if(document.images) {document.images[which].src=on;}
+    else if (document.GetElementById){document.GetElementById(name).src=on;}
+    }
+   function rollOff(which) 
+    {
+    var on="/global_images/1.0/1.0_" + which + ".gif";
+    if(document.images){document.images[which].src=on;}
+    else if (document.GetElementById){document.GetElementById(which).src=on;}
+    }
+   function introllOver(which,name) 
+    {
+    var on="/global_images/1.0/1.0_" + which + "_r.gif";
+    if(document.images) {document.images[which].src=on;}
+    else if (document.GetElementById){document.GetElementById(name).src=on;}
+    }
+   function introllOff(which) 
+    {
+    var on="/global_images/1.0/1.0_" + which + ".gif";
+    if(document.images){document.images[which].src=on;}
+    else if (document.GetElementById){document.GetElementById(which).src=on;}
+    }
+   function snrollOver(which,name) 
+    {
+    var on="/global_images/1.0/1.0" + which + "_r.gif";
+    if(document.images) {document.images[which].src=on;}
+    else if (document.GetElementById){document.GetElementById(name).src=on;}
+    }
+   function snrollOff(which) 
+    {
+    var on="/global_images/1.0/1.0" + which + ".gif";
+    if(document.images){document.images[which].src=on;}
+    else if (document.GetElementById){document.GetElementById(which).src=on;}
+    }
+        
+    //do we still need this?   
+    function onLoadHandler() {
+       if( typeof(bodyOnLoadFunction) != 'undefined' ) {
+           return eval(bodyOnLoadFunction);
+       }
+    }
+</script>
+
+<script language="javascript">
+    <!--
+    var activeNavId=0;
+    var thisPageUrl='/attendees/awards/innovations/rd_2007honorees.asp';
+    
+        var parentLinks=new Array('dummy','/attendees/default.htm','/attendees/awards/default.asp');
+    
+        function checkActiveNav(theUrl) {
+            var linkUrl=theUrl;
+            var returnValue=false;
+            
+            if (linkUrl==thisPageUrl) {
+                returnValue=true;
+            } else if (parentLinks.length>2 && linkUrl==parentLinks[parentLinks.length-1]) {
+                returnValue=true;   
+            } else if (parentLinks.length>3 && linkUrl==parentLinks[parentLinks.length-2]) {
+                returnValue=true;
+            } else if (parentLinks.length>4 && linkUrl==parentLinks[parentLinks.length-3]) {
+                returnValue=true;
+            }
+        return returnValue;
+    }
+    //-->
+    </script>
+
+    <style>
+        <!--
+            .attendeesBGImg {
+                background-image: url('/global_images2005/attendees_bg.gif');
+            }
+
+            .text_colored, .intro_copy, .section_title, .subhead, .body_title, .intro_dates, .box10 {
+               color: #498429;
+            }
+
+            .search_chars {
+                color: #F0FAE6;
+                font : normal 6px Arial, Helvetica, sans-serif;
+            }
+            
+        //-->
+    </style>
+
+</head>
+
+<body leftmargin='0' topmargin='0' rightmargin='0' bottommargin='0' marginwidth='0' onLoad="onLoadHandler();self.focus();"> 
+
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+    <tr>
+        <td width="50%" valign="top" class="attendeesBGImg">&nbsp;</td>
+        <td valign="top" class="attendeesBGImg">
+            <table width="770" cellspacing="0" cellpadding="0" border="0">
+                <!--RDExecute=asp-->
+<!-- blank 1 pixel row at top of page -->
+<tr>
+     <td width="10"><img src="/global_images2005/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+     <td width="140"><img src="/global_images2005/spacer.gif" alt="" width="140" height="1" hspace="0" vspace="0" border="0"></td>
+     <td width="10"><img src="/global_images2005/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+     <td width="10"><img src="/global_images2005/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+     <td width="380"><img src="/global_images2005/spacer.gif" alt="" width="380" height="1" hspace="0" vspace="0" border="0"></td>
+     <td width="10"><img src="/global_images2005/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+     <td width="10"><img src="/global_images2005/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+     <td width="190"><img src="/global_images2005/spacer.gif" alt="" width="190" height="1" hspace="0" vspace="0" border="0"></td>
+     <td width="10"><img src="/global_images2005/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+</tr>
+<!-- /blank 1 pixel row at top of page -->
+
+<!-- global navigation row - register, about, faqs, contact, and site map -->
+<tr>
+     <td width="10"></td>
+     <td width="140"></td>
+     <td width="10"></td>
+     <td width="10"></td>
+     <td width="600" colspan="5" class="nav_global"><img src="/global_images2005/spacer.gif" width="4" height="20" hspace="0" vspace="0" border="0" align="absmiddle"><img src="/global_images2005/spacer.gif" alt="" width="380" height="1" border="0"> <!-- | <!-- --><a href="/about_ces/default.asp">About CES</a> | <!-- --><a href="/faqs/default.asp">FAQs</a> | <!-- --><a href="/contact_us/default.asp">Contact Us</a> | <!-- --><a href="/sitemap.asp">Site Map</a><!-- --></td>
+</tr>
+<!-- /global navigation row - register, about, faqs, contact, and site map -->
+
+
+<!-- logo and banner image row -->
+
+<tr>
+     <td width="10"></td>
+     <td width="140"><a href="/default.htm"><img src="/global_images2005/CES_40annivMain.gif" alt="International CES" width="140" height="74" hspace="0" vspace="0" border="0"></a></td>
+     <td width="10"></td>
+     <td width="610" colspan="6"><img src="/global_images2005/attTop0.gif" alt="" width="610" height="74" border="0"></td>
+</tr>
+<!-- /logo and banner image row -->  
+
+<!-- primary navigation row -->
+<tr>
+     <td width="10"></td>
+     <td width="140"></td>
+     <td width="10"></td>
+     <td width="610" colspan="6" background="/global_images2005/spacer.gif"><a href="/attendees/default.htm" onmouseover="headerRollOver('tab_attendees', '/global_images2005/1.0_tab_attendees_r.gif');" onmouseout="headerRollOff('tab_attendees', '/global_images2005/1.0_tab_attendees.gif');"><img name="tab_attendees" id="tab_attendees" src="/global_images2005/1.0_tab_attendees.gif" alt="Attendees" width="70" height="27" hspace="0" vspace="0" border="0" ></a><a href="/exhibitors/default.htm" onmouseover="headerRollOver('tab_exhibitor', '/global_images2005/1.0_tab_exhibitor_r.gif');" onmouseout="headerRollOff('tab_exhibitor', '/global_images2005/1.0_tab_exhibitor.gif');"><img name="tab_exhibitor" id="tab_exhibitor" src="/global_images2005/1.0_tab_exhibitor.gif" alt="Exhibitor Services" width="118" height="27" hspace="0" vspace="0" border="0"></a><a href="/press/default.htm" onmouseover="headerRollOver('tab_press', '/global_images2005/1.0_tab_press_r.gif');" onmouseout="headerRollOff('tab_press', '/global_images2005/1.0_tab_press.gif');"><img name="tab_press" id="tab_press" src="/global_images2005/1.0_tab_press.gif" width="78" height="27" alt="Press" border="0"></a><a href="/international/default.htm" onmouseover="headerRollOver('tab_international', '/global_images2005/attIntR0.gif');" onmouseout="headerRollOff('tab_international', '/global_images2005/attInt0.gif');"><img src="/global_images2005/attInt0.gif" width="134" height="27" alt="" border="0" name="tab_international" id="tab_international"></a><img src="/global_images2005/attMiddle4.gif" alt="" width="210" height="27" hspace="0" vspace="0" border="0"></td>
+</tr>
+<!-- /primary navigation row -->
+
+<!-- secondary navigation row -->
+<!-- SEARCH INCLUDE APPEARS HERE -->  
+
+
+<tr>
+    <td width="10"></td>
+    <form name="searchCESWeb" method="GET" action="http://googlebox.ce.org/search">
+    <td width="760" colspan="10"  background="/global_images2005/spacer.gif"  class="attendees3">
+
+<!-- table for secondary navigation and search box -->
+        <table cellspacing="0" cellpadding="0" border="0" width="760"  background="/global_images2005/spacer.gif" >
+        <tr>
+            <td class="attendees_second_nav" width="560"><!--&nbsp;|&nbsp;&nbsp;<!-- --><span id="secondaryNav14"><a href="/attendees/conferences/default.asp">Conferences</a></span>
+<script>
+<!--
+if (checkActiveNav("/attendees/conferences/default.asp")) {
+    document.getElementById("secondaryNav14").className="attendees_sec_nav_active"
+}
+// -->
+</script>&nbsp;|&nbsp;&nbsp;<!-- --><span id="secondaryNav175"><a href="/attendees/directory/default.asp">Exhibitor Directory</a></span>
+<script>
+<!--
+if (checkActiveNav("/attendees/directory/default.asp")) {
+    document.getElementById("secondaryNav175").className="attendees_sec_nav_active"
+}
+// -->
+</script>&nbsp;|&nbsp;&nbsp;<!-- --><span id="secondaryNav15"><a href="/attendees/show_floor/default.asp">Show Floor</a></span>
+<script>
+<!--
+if (checkActiveNav("/attendees/show_floor/default.asp")) {
+    document.getElementById("secondaryNav15").className="attendees_sec_nav_active"
+}
+// -->
+</script>&nbsp;|&nbsp;&nbsp;<!-- --><span id="secondaryNav1759"><a href="/attendees/special_events/default.asp">Special Events</a></span>
+<script>
+<!--
+if (checkActiveNav("/attendees/special_events/default.asp")) {
+    document.getElementById("secondaryNav1759").className="attendees_sec_nav_active"
+}
+// -->
+</script>&nbsp;|&nbsp;&nbsp;<!-- --><span id="secondaryNav17"><a href="/attendees/awards/default.asp">Awards</a></span>
+<script>
+<!--
+if (checkActiveNav("/attendees/awards/default.asp")) {
+    document.getElementById("secondaryNav17").className="attendees_sec_nav_active"
+}
+// -->
+</script>&nbsp;|&nbsp;&nbsp;<!-- --><span id="secondaryNav18"><a href="/attendees/travel/default.asp">Hotel/Transit</a></span>
+<script>
+<!--
+if (checkActiveNav("/attendees/travel/default.asp")) {
+    document.getElementById("secondaryNav18").className="attendees_sec_nav_active"
+}
+// -->
+</script>&nbsp;|&nbsp;&nbsp;<!-- --><span id="secondaryNav2966"><a href="/attendees/myCES/default.asp">MyCES</a></span>
+<script>
+<!--
+if (checkActiveNav("/attendees/myCES/default.asp")) {
+    document.getElementById("secondaryNav2966").className="attendees_sec_nav_active"
+}
+// -->
+</script><!-- --></td>
+            <td width="173" align="right">
+
+<!-- Script for setting correct search box size -->
+    <script LANGUAGE="JavaScript">
+    <!--
+    if (is_nav4) {
+        document.write("<input size=20 ");
+    } 
+    else if (is_mac) {
+        document.write("<input size=30 ");
+    }
+    else if (is_safari) {
+        document.write("<input size=25 ");
+    }
+    else {
+        document.write("<input size=34 ");
+    }
+    document.write("type=\"text\" name=\"q\" value=\" Search CESweb.org\" class=\"attendeesform\"  ONFOCUS=\"if(this.value==\' Search CESweb.org\')this.value=\'\'; headerRollOver(\'button_search\', \'/global_images2005/1.0.button_search_r.gif\');\" ONBLUR=\"if(this.value==\'\')this.value=\' Search CESweb.org\'; headerRollOff(\'button_search\', \'/global_images2005/1.0.button_search.gif\');\" >");
+    function checkSearch() {
+        var searchForm = document.searchCESWeb;
+                            
+        if(searchForm.SEARCH_STRING.value.search(/\S/) == -1) {
+            alert("Please enter text to search for.");
+            return;
+        }
+            searchForm.submit();
+        }
+    //-->
+    </script>
+    &nbsp;&nbsp;</td>
+            <td width="27"><img name="button_search"  src="/global_images2005/1.0.button_search.gif" alt="go" width="27" height="33" hspace="0" vspace="0" border="0" onmouseover="headerRollOver('button_search', '/global_images2005/1.0.button_search_r.gif');" onmouseout="headerRollOff('button_search', '/global_images2005/1.0.button_search.gif');" onClick="document.searchCESWeb.submit();"></td>
+        </tr>
+        </table>
+<!-- /table for secondary navigation and search box -->   
+
+    </td>
+        <input type="hidden" name="site" value="default_collection"/>
+        <input type="hidden" name="client" value="cesweb_org"/>
+        <input type="hidden" name="proxystylesheet" value="cesweb_org"/>
+        <input type="hidden" name="output" value="xml_no_dtd"/>
+    </form>
+</tr>
+<!-- /secondary navigation row -->
+
+<script language="JavaScript">
+        <!--
+        function headerRollOver(imgName, imgSrc) {
+            if(document.images) {document.images[imgName].src=imgSrc;}
+            else if (document.getElementById){document.getElementById(imgName).src=imgSrc;}
+        }
+        function headerRollOff(imgName, imgSrc) {
+            if(document.images){document.images[imgName].src=imgSrc;}
+            else if (document.getElementById){document.getElementById(imgName).src=imgSrc;}
+        }
+        //-->
+</script>
+
+<!-- colored row with section color 4 - 5 pixels high --> 
+<tr>
+     <td width="10"></td>
+     <td width="140"></td>
+     <td width="10"></td>
+     <td width="610" colspan="6"  background="/global_images2005/spacer.gif" class="attendees4"><img src="/global_images2005/spacer.gif" alt="" width="610" height="5" hspace="0" vspace="0" border="0"></td>
+</tr>
+<!-- /colored row with section color 4 - 5 pixels high --> 
+  
+<!-- breadcrumb row -->
+<tr>
+    <td width="10"></td>
+    <td width="140"><a href="/register/" onmouseover="headerRollOver('register', '/global_images2005/1.0.register_r.gif');" onmouseout="headerRollOff('register', '/global_images2005/1.0.register.gif');"><img src="/global_images2005/1.0.register.gif" alt="Register" name="register" id="register" width="140" height="40" hspace="0" vspace="0" border="0"></a></td>
+    <td width="10"></td>  
+    <td width="10" background="/global_images2005/spacer.gif" class="attendees6"><img src="/global_images2005/spacer.gif" alt="" width="10" height="40" hspace="0" vspace="0" border="0"></td>
+    <td width="390" colspan="2" background="/global_images2005/spacer.gif" class="attendees6" valign="bottom"><span class="attendees_nav_breadcrumb">
+
+   <a href="/default.htm">Home</a>&nbsp;&gt;&nbsp;<a href="/attendees/default.htm">Attendees</a>&nbsp;&gt;&nbsp;<a href="/attendees/awards/default.asp">Awards</a>&nbsp;&gt;&nbsp;Innovations Honorees
+
+    </span><br><img src="/global_images2005/spacer.gif" height="8" width="1"></td>
+    <td width="200" background="/global_images2005/spacer.gif" colspan="2" class="attendees6"><img src="/global_images2005/1.0_print_mail.gif" width="115" height="40" alt="print - email" border="0"><a href="#" id="print_link" onmouseover="headerRollOver('button_print', '/global_images2005/1.0_button_print_r.gif');" onmouseout="headerRollOff('button_print', '/global_images2005/1.0_button_print.gif');" onclick="window.open('/print/attendees/awards/innovations/rd_2007honorees.asp?', '_blank', 'status=yes,toolbar=yes,menubar=yes,scrollbars=yes,location=no,width=620');return false;"><img src="/global_images2005/1.0_button_print.gif" alt="Print" name="button_print" id="button_print" width="42" height="40" hspace="0" vspace="0" border="0"></a><a href="javascript:newWin('/global_includes/asp/email.asp');" id="mail_link" onmouseover="headerRollOver('button_mail', '/global_images2005/1.0_button_mail_r.gif');" onmouseout="headerRollOff('button_mail', '/global_images2005/1.0_button_mail.gif');"><img src="/global_images2005/1.0_button_mail.gif" alt="Email" name="button_mail" id="button_mail" width="42" height="40" hspace="0" vspace="0" border="0"></a></td>
+    <td width="10" background="/global_images2005/spacer.gif" class="attendees6">&nbsp;</td>
+</tr>
+<!-- /breadcrumb row --> 
+
+</table>
+<table width="770" cellspacing="0" cellpadding="0" border="0">
+
+<!-- main body row -->
+<tr>
+<!-- left column -->
+    <td width="10" rowspan="2"><img src="/global_images2005/spacer.gif" height="1" width="10"></td>
+    <td width="140" valign="top" rowspan="2"><img src="/global_images2005/spacer.gif" width="140" height="20" alt="" border="0"><br>
+
+<!-- left nav -->    
+    <!-- left nav -->
+        <span class="nav_third">
+
+        <img src="/global_images2005/3nav_bar_gray.gif" alt="--------" width="140" height="1" hspace="0" vspace="0" border="0"><br>
+<img src="/global_images2005/spacer.gif" width="140" height="4" alt="" border="0"><br>
+<a href="/attendees/awards/innovations/default.asp">CES Innovations 2007</a><br>
+
+
+    <span class="nav_fourth" id="fourth_row_container78" style="display: none;">
+    
+        <span class="nav_fourth_arrow"><b>&gt;</b> &nbsp;</span><script language="JavaScript">
+        <!--
+            document.getElementById("fourth_row_container78").style.display = "";
+        //-->
+            </script>Innovations Honorees
+        <br>
+    
+        <span class="nav_fourth_arrow"><b>&gt;</b> &nbsp;</span><a href="/attendees/awards/innovations/stage_schedule.asp">Honoree Stage Schedule</a>
+              <script language="JavaScript">
+              <!--
+                  if (checkActiveNav("/attendees/awards/innovations/stage_schedule.asp") && document.getElementById("fourth_row_container78")) { document.getElementById("fourth_row_container78").style.display = "";}
+              //-->
+              </script><br>
+    
+        <span class="nav_fourth_arrow"><b>&gt;</b> &nbsp;</span><a href="/attendees/awards/innovations/about.asp">About the Program</a>
+              <script language="JavaScript">
+              <!--
+                  if (checkActiveNav("/attendees/awards/innovations/about.asp") && document.getElementById("fourth_row_container78")) { document.getElementById("fourth_row_container78").style.display = "";}
+              //-->
+              </script><br>
+    
+        <span class="nav_fourth_arrow"><b>&gt;</b> &nbsp;</span><a href="/attendees/awards/innovations/details.asp">Entry Details</a>
+              <script language="JavaScript">
+              <!--
+                  if (checkActiveNav("/attendees/awards/innovations/details.asp") && document.getElementById("fourth_row_container78")) { document.getElementById("fourth_row_container78").style.display = "";}
+              //-->
+              </script><br>
+    
+        <span class="nav_fourth_arrow"><b>&gt;</b> &nbsp;</span><a href="/attendees/awards/innovations/rd_entries.asp">Call for Entries</a>
+              <script language="JavaScript">
+              <!--
+                  if (checkActiveNav("/attendees/awards/innovations/rd_entries.asp") && document.getElementById("fourth_row_container78")) { document.getElementById("fourth_row_container78").style.display = "";}
+              //-->
+              </script><br>
+    
+        <span class="nav_fourth_arrow"><b>&gt;</b> &nbsp;</span><a href="/attendees/awards/innovations/honoree_utilities.asp">Honoree Utilities</a>
+              <script language="JavaScript">
+              <!--
+                  if (checkActiveNav("/attendees/awards/innovations/honoree_utilities.asp") && document.getElementById("fourth_row_container78")) { document.getElementById("fourth_row_container78").style.display = "";}
+              //-->
+              </script><br>
+    
+    <img src="/global_images2005/spacer.gif" width="140" height="4" alt="" border="0"><br>
+    </span>
+
+
+
+
+    <img src="/global_images2005/spacer.gif" width="140" height="6" alt="" border="0"><br>
+               <script language="JavaScript">
+              <!--
+                  if (checkActiveNav("/attendees/awards/innovations/default.asp") && document.getElementById("fourth_row_container78")) { document.getElementById("fourth_row_container78").style.display = "";}
+              //-->
+              </script> <img src="/global_images2005/3nav_bar_gray.gif" alt="--------" width="140" height="1" hspace="0" vspace="0" border="0"><br>
+<img src="/global_images2005/spacer.gif" width="140" height="4" alt="" border="0"><br>
+<a href="/attendees/awards/3227.asp">CNET's Best of CES</a><br>
+
+
+
+
+
+    <img src="/global_images2005/spacer.gif" width="140" height="6" alt="" border="0"><br>
+               <script language="JavaScript">
+              <!--
+                  if (checkActiveNav("/attendees/awards/3227.asp") && document.getElementById("fourth_row_container3226")) { document.getElementById("fourth_row_container3226").style.display = "";}
+              //-->
+              </script> <img src="/global_images2005/3nav_bar_gray.gif" alt="--------" width="140" height="1" hspace="0" vspace="0" border="0"><br>
+<img src="/global_images2005/spacer.gif" width="140" height="4" alt="" border="0"><br>
+<a href="/attendees/awards/emmys.asp">Tech & Engineering Emmy Awards</a><br>
+
+
+
+
+
+    <img src="/global_images2005/spacer.gif" width="140" height="6" alt="" border="0"><br>
+               <script language="JavaScript">
+              <!--
+                  if (checkActiveNav("/attendees/awards/emmys.asp") && document.getElementById("fourth_row_container3773")) { document.getElementById("fourth_row_container3773").style.display = "";}
+              //-->
+              </script> 
+        <img src="/global_images2005/3nav_bar_gray.gif" alt="--------" width="140" height="1" hspace="0" vspace="0" border="0"><br>
+
+        <img src="/global_images2005/spacer.gif" width="140" height="28" alt="" border="0"><br>
+        </span>
+<!-- /left nav -->
+<!-- /left nav --> 
+
+<!-- CEA badge -->
+    <a href="http://www.ce.org" target="new" onmouseover="headerRollOver('leftAddedValue203', '/global_images2005/1.0_logo_cea_r.gif');" onmouseout="headerRollOff('leftAddedValue203', '/global_images2005/1.0_logo_cea.gif');"><img src="/global_images2005/1.0_logo_cea.gif" name="leftAddedValue203" id="leftAddedValue203" border="0"></a><br><img src="/global_images2005/spacer.gif" height="10" width="1">
+<!-- /CEA badge -->
+
+<!-- myCES banner 
+          <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="140" height="260">
+          <param name="movie" value="/global_includes/flash/myces-banner-att.swf">
+          <param name="quality" value="high">
+          <embed src="/global_includes/flash/myces-banner-att.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="140" height="260"></embed>
+        </object><br><img src="/global_images2005/spacer.gif" height="10" width="1">
+    /myCES banner -->
+
+<!-- left added value -->
+    
+    
+<!-- /left added value -->
+
+    </td>
+    <td width="10" rowspan="2"><img src="/global_images2005/spacer.gif" height="1" width="10"></td>
+<!-- /left column -->
+
+
+
+<!-- main body content -->    
+    <td width="10" class="attendees7"><img src="/global_images2005/spacer.gif" height="1" width="10"></td>
+    <td width="100%" class="attendees7" valign="top">
+    <img src="/global_images2005/spacer.gif" height="10" width="1"><br>
+
+<!-- center content -->
+
+
+<div class="body_title">CES Innovations 2007 Awards Honorees<br><img src="/global_images2005/spacer.gif" height="16" width="1"></div>
+
+
+
+<SCRIPT language="javascript1.2">
+function newWin(urlString,pgNum)
+  {
+    var popupWindow;
+	urlString += "?pageID=" + pgNum;
+	
+    popupWindow = window.open(urlString,"","toolbar=yes,menubar=no,resizable=no,status=no,scrollbars=yes,location=no,directories=no,copyhistory=no,height=550,width=610,left=50,top=50");
+  }//  function for opening a new pop-up window for printing a page
+  
+ 
+function openNewWindow(strURL) {
+	window.name = "main";
+	
+	var newWindow = window.open(strURL,"newWindow", "toolbar=no,menubar=no,resizable=no,status=no,scrollbars=yes,location=no,directories=no,copyhistory=no,height=400,width=450,left=50,top=50");
+} //  function for opening a new pop-up window
+
+// javascript for e-mail this page tool - gets the url of the page the user is on before the e-mail page tool button is clicked
+	
+	function loadReferrer() {
+		referrerString = opener.document.location.href;
+		document.emailForm.page.value = referrerString;
+	}
+
+</SCRIPT>
+
+
+	<!-- INSERT ANY SCRIPT TAGS FOR THIS PAGE HERE (header.asp closes the <head> tag!) -->
+	
+	<script language="javascript1.2">
+		function Image_OnMouseDown(){ 
+		alert ("This image is protected.");}
+	</script>
+
+
+	
+<div>	
+<!-- text for main page -->
+<table class="attendees8" width="590" cellspacing="0" cellpadding="0" border="0">
+	<tr>
+	    <td width="10"><img src="/global_images2005/exhibitor_in_page_up_left.gif" alt="" width="10" height="10" hspace="0" vspace="0" border="0"></td>
+	    <td width="184"><img src="/global_images2005/spacer.gif" alt="" width="184" height="10" hspace="0" vspace="0" border="0"></td>
+	    <td width="10"><img src="/global_images2005/spacer.gif" alt="" width="10" height="10" hspace="0" vspace="0" border="0"></td>
+	    <td width="183"><img src="/global_images2005/spacer.gif" alt="" width="183" height="10" hspace="0" vspace="0" border="0"></td>
+	    <td width="10"><img src="/global_images2005/spacer.gif" alt="" width="10" height="10" hspace="0" vspace="0" border="0"></td>
+	    <td width="183"><img src="/global_images2005/spacer.gif" alt="" width="183" height="10" hspace="0" vspace="0" border="0"></td>
+	    <td width="10"><img src="/global_images2005/exhibitor_in_page_up_right.gif" alt="" width="10" height="10" hspace="0" vspace="0" border="0"></td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><span class="subhead">Honoree Categories:</span></td>
+	</tr>
+	<tr>
+	    <td>&nbsp;</td>
+		<td valign="top" class="text">
+			<span class="nav_fourth_arrow"><b>>&nbsp;&nbsp;</b></span><a href="/attendees/awards/innovations/rd_2007honorees.asp?boi=1" class="inpagenav">Best of Innovations</a><BR>
+			<!--<span class="nav_fourth_arrow"><b>>&nbsp;&nbsp;</b></span><a href="/attendees/awards/innovations/rd_2007honorees.asp?alpha=1" class="inpagenav">Alphabetical List</a><BR>-->
+			
+				<span class="nav_fourth_arrow"><b>>&nbsp;&nbsp;</b></span><a href="/attendees/awards/innovations/rd_2007honorees.asp?category=102" class="inpagenav">Audio Accessories</a><br>
+				
+				<span class="nav_fourth_arrow"><b>>&nbsp;&nbsp;</b></span><a href="/attendees/awards/innovations/rd_2007honorees.asp?category=103" class="inpagenav">Audio Components</a><br>
+				
+				<span class="nav_fourth_arrow"><b>>&nbsp;&nbsp;</b></span><a href="/attendees/awards/innovations/rd_2007honorees.asp?category=104" class="inpagenav">Biometrics</a><br>
+				
+				<span class="nav_fourth_arrow"><b>>&nbsp;&nbsp;</b></span><a href="/attendees/awards/innovations/rd_2007honorees.asp?category=105" class="inpagenav">Computer Accessories</a><br>
+				
+				<span class="nav_fourth_arrow"><b>>&nbsp;&nbsp;</b></span><a href="/attendees/awards/innovations/rd_2007honorees.asp?category=106" class="inpagenav">Computer Hardware</a><br>
+				
+				<span class="nav_fourth_arrow"><b>>&nbsp;&nbsp;</b></span><a href="/attendees/awards/innovations/rd_2007honorees.asp?category=108" class="inpagenav">Digital Imaging</a><br>
+				
+				<span class="nav_fourth_arrow"><b>>&nbsp;&nbsp;</b></span><a href="/attendees/awards/innovations/rd_2007honorees.asp?category=132" class="inpagenav">Eco-Design </a><br>
+				
+				<span class="nav_fourth_arrow"><b>>&nbsp;&nbsp;</b></span><a href="/attendees/awards/innovations/rd_2007honorees.asp?category=110" class="inpagenav">Electronic Gaming</a><br>
+				
+				<span class="nav_fourth_arrow"><b>>&nbsp;&nbsp;</b></span><a href="/attendees/awards/innovations/rd_2007honorees.asp?category=133" class="inpagenav">Enabling Technologies</a><br>
+				
+				<span class="nav_fourth_arrow"><b>>&nbsp;&nbsp;</b></span><a href="/attendees/awards/innovations/rd_2007honorees.asp?category=111" class="inpagenav">Furniture</a><br>
+				
+		</td>
+	    <td>&nbsp;</td>
+		<td valign="top" class="text">
+			
+				<span class="nav_fourth_arrow"><b>>&nbsp;&nbsp;</b></span><a href="/attendees/awards/innovations/rd_2007honorees.asp?category=112" class="inpagenav">High Performance Audio</a><br>
+				
+				<span class="nav_fourth_arrow"><b>>&nbsp;&nbsp;</b></span><a href="/attendees/awards/innovations/rd_2007honorees.asp?category=114" class="inpagenav">Home Appliances</a><br>
+				
+				<span class="nav_fourth_arrow"><b>>&nbsp;&nbsp;</b></span><a href="/attendees/awards/innovations/rd_2007honorees.asp?category=115" class="inpagenav">Home Networking</a><br>
+				
+				<span class="nav_fourth_arrow"><b>>&nbsp;&nbsp;</b></span><a href="/attendees/awards/innovations/rd_2007honorees.asp?category=113" class="inpagenav">Home Theater Accessories</a><br>
+				
+				<span class="nav_fourth_arrow"><b>>&nbsp;&nbsp;</b></span><a href="/attendees/awards/innovations/rd_2007honorees.asp?category=134" class="inpagenav">Home Theater Audio</a><br>
+				
+				<span class="nav_fourth_arrow"><b>>&nbsp;&nbsp;</b></span><a href="/attendees/awards/innovations/rd_2007honorees.asp?category=116" class="inpagenav">Integrated Home Systems</a><br>
+				
+				<span class="nav_fourth_arrow"><b>>&nbsp;&nbsp;</b></span><a href="/attendees/awards/innovations/rd_2007honorees.asp?category=135" class="inpagenav">Mobile Audio</a><br>
+				
+				<span class="nav_fourth_arrow"><b>>&nbsp;&nbsp;</b></span><a href="/attendees/awards/innovations/rd_2007honorees.asp?category=136" class="inpagenav">Mobile Electronics</a><br>
+				
+				<span class="nav_fourth_arrow"><b>>&nbsp;&nbsp;</b></span><a href="/attendees/awards/innovations/rd_2007honorees.asp?category=137" class="inpagenav">Mobile Video</a><br>
+				
+				<span class="nav_fourth_arrow"><b>>&nbsp;&nbsp;</b></span><a href="/attendees/awards/innovations/rd_2007honorees.asp?category=117" class="inpagenav">Mobile/Home Office</a><br>
+				
+				<span class="nav_fourth_arrow"><b>>&nbsp;&nbsp;</b></span><a href="/attendees/awards/innovations/rd_2007honorees.asp?category=119" class="inpagenav">Personal Electronics</a><br>
+						
+		</td>
+	    <td>&nbsp;</td>
+		<td valign="top" class="text" nowrap>
+			
+				<span class="nav_fourth_arrow"><b>>&nbsp;&nbsp;</b></span><a href="/attendees/awards/innovations/rd_2007honorees.asp?category=138" class="inpagenav">Portable Electronics: Audio/Video</a><br>
+				
+				<span class="nav_fourth_arrow"><b>>&nbsp;&nbsp;</b></span><a href="/attendees/awards/innovations/rd_2007honorees.asp?category=121" class="inpagenav">Portable Power</a><br>
+				
+				<span class="nav_fourth_arrow"><b>>&nbsp;&nbsp;</b></span><a href="/attendees/awards/innovations/rd_2007honorees.asp?category=122" class="inpagenav">Retail Resources</a><br>
+				
+				<span class="nav_fourth_arrow"><b>>&nbsp;&nbsp;</b></span><a href="/attendees/awards/innovations/rd_2007honorees.asp?category=125" class="inpagenav">Telephones</a><br>
+				
+				<span class="nav_fourth_arrow"><b>>&nbsp;&nbsp;</b></span><a href="/attendees/awards/innovations/rd_2007honorees.asp?category=129" class="inpagenav">Video Accessories</a><br>
+				
+				<span class="nav_fourth_arrow"><b>>&nbsp;&nbsp;</b></span><a href="/attendees/awards/innovations/rd_2007honorees.asp?category=130" class="inpagenav">Video Displays</a><br>
+				
+				<span class="nav_fourth_arrow"><b>>&nbsp;&nbsp;</b></span><a href="/attendees/awards/innovations/rd_2007honorees.asp?category=131" class="inpagenav">Wireless Communications</a><br>
+				
+				<span class="nav_fourth_arrow"><b>>&nbsp;&nbsp;</b></span><a href="/attendees/awards/innovations/rd_2007honorees.asp?category=139" class="inpagenav">Wireless Peripherals</a><br>
+				
+			<br><span class="nav_fourth_arrow"><b>>&nbsp;&nbsp;</b></span><a href="rd_judges.asp">Judges Panel</a>
+		</td>
+	    <td>&nbsp;</td>
+	</tr>
+	<tr>
+	    <td width="10"><img src="/global_images2005/exhibitor_in_page_down_left.gif" alt="" width="10" height="10" hspace="0" vspace="0" border="0"></td>
+	    <td width="184"><img src="/global_images2005/spacer.gif" alt="" width="184" height="10" hspace="0" vspace="0" border="0"></td>
+	    <td width="10"><img src="/global_images2005/spacer.gif" alt="" width="10" height="10" hspace="0" vspace="0" border="0"></td>
+	    <td width="183"><img src="/global_images2005/spacer.gif" alt="" width="183" height="10" hspace="0" vspace="0" border="0"></td>
+	    <td width="10"><img src="/global_images2005/spacer.gif" alt="" width="10" height="10" hspace="0" vspace="0" border="0"></td>
+	    <td width="183"><img src="/global_images2005/spacer.gif" alt="" width="183" height="10" hspace="0" vspace="0" border="0"></td>
+	    <td width="10"><img src="/global_images2005/exhibitor_in_page_down_right.gif" alt="" width="10" height="10" hspace="0" vspace="0" border="0"></td>
+	</tr>
+</table><br>
+<!--Honorees for the Innovations Design and Engineering Awards Showcase are selected by a <A href="">preeminent panel of judges</A> consisting of independent industry designers, engineers and journalists. <BR>
+<br>-->
+
+		<span class="section_title">Best of Innovations Honorees</span><br><br><br>
+		
+		<table width="590" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img src="/global_images2005/1.0/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"></td>
+		</tr>
+		<tr><a name="5348"></a>
+		    <td width="140" align="center" valign="middle" bgcolor="#FFFFFF">
+				<img src="/global_images2005/spacer.gif" alt="" width="1" height="8" hspace="0" vspace="0" border="0"><br>
+				
+				<!--<img src=""><br>-->
+				<img src="/shared_files/innovations/innovations_2004/5348/display5348.jpg"><br>
+				<a target="new" href="/shared_files/innovations/innovations_2004/5348/mainphoto5348.jpg">Click to enlarge.</a><br>	
+				<img src="/global_images2005/spacer.gif" alt="" width="1" height="11" hspace="0" vspace="0" border="0"><br>
+			</td>
+		    <td width="10"><img src="/global_images2005/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+		    <td valign="top" class="text" width="440"><img src="/global_images2005/spacer.gif" alt="" width="440" height="4" hspace="0" vspace="0" border="0"><br>
+				<table border="0" cellpadding="0" cellspacing="0" width="440">
+				<tr>
+					<td valign="top">
+					<span class="section_title">Category: Audio Accessories</span><br><br>
+					
+					
+							<span class="subhead">Furutech Co., Ltd.</span><!--&nbsp;&nbsp;[<a href="/attendees/directory/rd_exhibitor_details.asp?exhibid=">view exhibitor details</a>]--><br><br>
+						
+					<b>Furutech DeMag</b><br>
+					
+					
+						<!--<span class="text_colored">Design by: In-House Designer</span><br>-->
+										
+							Design by: Furutech Co., Ltd.<br>
+						
+						<a target="new" href="http://www.furutech.com">www.furutech.com</a>
+					<br><br>					
+					</td>
+					
+					<td width="75">
+						<table>
+						<tr>
+							<!-- people's choice logo -->
+							
+							<!-- BOI logo -->
+							<td><img src="/attendees/awards/innovations/images/best_of_2007.gif" align="right" border="0" alt="Best of Innovations Honoree" onMouseDown="javascript:Image_OnMouseDown()"></td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+					
+				The Furutech DeMag demagnetizes any type of disc media like CD, DVD, SACD, and DVD-Audio. It works on LPs, cables, connectors, and power cords eliminating resolution-sapping magnetic interference.
+					<br><br>Location(s): Venetian Tower/Ven 29-309
+					<!--<br><br>Location(s): Title sponsor of the NextGen Digital Lifestyles Home, CES Central Plaza-->
+				
+				<br><img src="/global_images2005/spacer.gif" alt="" width="1" height="26" hspace="0" vspace="0" border="0">
+			</td>
+		</tr>
+			
+		<table width="590" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img src="/global_images2005/1.0/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"></td>
+		</tr>
+		<tr><a name="6497"></a>
+		    <td width="140" align="center" valign="middle" bgcolor="#FFFFFF">
+				<img src="/global_images2005/spacer.gif" alt="" width="1" height="8" hspace="0" vspace="0" border="0"><br>
+				
+				<!--<img src=""><br>-->
+				<img src="/shared_files/innovations/innovations_2004/6497/display6497.jpg"><br>
+				<a target="new" href="/shared_files/innovations/innovations_2004/6497/mainphoto6497.jpg">Click to enlarge.</a><br>	
+				<img src="/global_images2005/spacer.gif" alt="" width="1" height="11" hspace="0" vspace="0" border="0"><br>
+			</td>
+		    <td width="10"><img src="/global_images2005/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+		    <td valign="top" class="text" width="440"><img src="/global_images2005/spacer.gif" alt="" width="440" height="4" hspace="0" vspace="0" border="0"><br>
+				<table border="0" cellpadding="0" cellspacing="0" width="440">
+				<tr>
+					<td valign="top">
+					<span class="section_title">Category: Audio Components</span><br><br>
+					
+					
+							<span class="subhead">Krell Industries</span><br><br>
+						
+					<b>Krell Evolution CAST Music System</b><br>
+					
+					
+						<!--<span class="text_colored">Design by: In-House Designer</span><br>-->
+										
+							Design by:  Krell Industries<br>
+						
+						<a target="new" href="http://www.krellonline.com">www.krellonline.com</a>
+					<br><br>					
+					</td>
+					
+					<td width="75">
+						<table>
+						<tr>
+							<!-- people's choice logo -->
+							
+							<!-- BOI logo -->
+							<td><img src="/attendees/awards/innovations/images/best_of_2007.gif" align="right" border="0" alt="Best of Innovations Honoree" onMouseDown="javascript:Image_OnMouseDown()"></td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+					
+				The Krell Evolution CAST Music System creates a new reference in musical playback for discerning music lovers that want to recreate a live musical experience in their own home.
+					<br><br>Location(s): This honoree is not exhibiting at the 2007 International CES.
+				
+				<br><img src="/global_images2005/spacer.gif" alt="" width="1" height="26" hspace="0" vspace="0" border="0">
+			</td>
+		</tr>
+			
+		<table width="590" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img src="/global_images2005/1.0/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"></td>
+		</tr>
+		<tr><a name="6503"></a>
+		    <td width="140" align="center" valign="middle" bgcolor="#FFFFFF">
+				<img src="/global_images2005/spacer.gif" alt="" width="1" height="8" hspace="0" vspace="0" border="0"><br>
+				
+				<!--<img src=""><br>-->
+				<img src="/shared_files/innovations/innovations_2004/6503/display6503.jpg"><br>
+				<a target="new" href="/shared_files/innovations/innovations_2004/6503/mainphoto6503.jpg">Click to enlarge.</a><br>	
+				<img src="/global_images2005/spacer.gif" alt="" width="1" height="11" hspace="0" vspace="0" border="0"><br>
+			</td>
+		    <td width="10"><img src="/global_images2005/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+		    <td valign="top" class="text" width="440"><img src="/global_images2005/spacer.gif" alt="" width="440" height="4" hspace="0" vspace="0" border="0"><br>
+				<table border="0" cellpadding="0" cellspacing="0" width="440">
+				<tr>
+					<td valign="top">
+					<span class="section_title">Category: Biometrics</span><br><br>
+					
+					
+							<span class="subhead">UPEK</span><br><br>
+						
+					<b>Eikon USB Fingerprint Reader</b><br>
+					
+					
+						<!--<span class="text_colored">Design by: In-House Designer</span><br>-->
+										
+							Design by: Lunar Design<br>
+						
+						<a target="new" href="http://www.upek.com">www.upek.com</a>
+					<br><br>					
+					</td>
+					
+					<td width="75">
+						<table>
+						<tr>
+							<!-- people's choice logo -->
+							
+							<!-- BOI logo -->
+							<td><img src="/attendees/awards/innovations/images/best_of_2007.gif" align="right" border="0" alt="Best of Innovations Honoree" onMouseDown="javascript:Image_OnMouseDown()"></td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+					
+				The Eikon USB Fingerprint Reader from UPEK is a "trusted endpoint" that reliably authenticates users of PCs, corporate networks and the Internet with the simple swipe of a finger.
+					<br><br>Location(s): This honoree is not exhibiting at the 2007 International CES.
+				
+				<br><img src="/global_images2005/spacer.gif" alt="" width="1" height="26" hspace="0" vspace="0" border="0">
+			</td>
+		</tr>
+			
+		<table width="590" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img src="/global_images2005/1.0/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"></td>
+		</tr>
+		<tr><a name="5561"></a>
+		    <td width="140" align="center" valign="middle" bgcolor="#FFFFFF">
+				<img src="/global_images2005/spacer.gif" alt="" width="1" height="8" hspace="0" vspace="0" border="0"><br>
+				
+				<!--<img src=""><br>-->
+				<img src="/shared_files/innovations/innovations_2004/5561/display5561.jpg"><br>
+				<a target="new" href="/shared_files/innovations/innovations_2004/5561/mainphoto5561.jpg">Click to enlarge.</a><br>	
+				<img src="/global_images2005/spacer.gif" alt="" width="1" height="11" hspace="0" vspace="0" border="0"><br>
+			</td>
+		    <td width="10"><img src="/global_images2005/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+		    <td valign="top" class="text" width="440"><img src="/global_images2005/spacer.gif" alt="" width="440" height="4" hspace="0" vspace="0" border="0"><br>
+				<table border="0" cellpadding="0" cellspacing="0" width="440">
+				<tr>
+					<td valign="top">
+					<span class="section_title">Category: Computer Accessories</span><br><br>
+					
+					
+							<span class="subhead">A-DATA Technology Co., Ltd.</span><!--&nbsp;&nbsp;[<a href="/attendees/directory/rd_exhibitor_details.asp?exhibid=">view exhibitor details</a>]--><br><br>
+						
+					<b>info SD</b><br>
+					
+					
+						<!--<span class="text_colored">Design by: In-House Designer</span><br>-->
+										
+							Design by: A-DATA Technology Co., Ltd.<br>
+						
+						<a target="new" href="http://www.adata.com.tw">www.adata.com.tw</a>
+					<br><br>					
+					</td>
+					
+					<td width="75">
+						<table>
+						<tr>
+							<!-- people's choice logo -->
+							
+							<!-- BOI logo -->
+							<td><img src="/attendees/awards/innovations/images/best_of_2007.gif" align="right" border="0" alt="Best of Innovations Honoree" onMouseDown="javascript:Image_OnMouseDown()"></td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+					
+				Info SD is the world's first SD card that utilizes bi-stable display technology, allowing the independent display of the available space on the card at any time without additional power.
+					<br><br>Location(s): South 4/36619
+					<!--<br><br>Location(s): Title sponsor of the NextGen Digital Lifestyles Home, CES Central Plaza-->
+				
+				<br><img src="/global_images2005/spacer.gif" alt="" width="1" height="26" hspace="0" vspace="0" border="0">
+			</td>
+		</tr>
+			
+		<table width="590" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img src="/global_images2005/1.0/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"></td>
+		</tr>
+		<tr><a name="5836"></a>
+		    <td width="140" align="center" valign="middle" bgcolor="#FFFFFF">
+				<img src="/global_images2005/spacer.gif" alt="" width="1" height="8" hspace="0" vspace="0" border="0"><br>
+				
+				<!--<img src=""><br>-->
+				<img src="/shared_files/innovations/innovations_2004/5836/display5836.jpg"><br>
+				<a target="new" href="/shared_files/innovations/innovations_2004/5836/mainphoto5836.jpg">Click to enlarge.</a><br>	
+				<img src="/global_images2005/spacer.gif" alt="" width="1" height="11" hspace="0" vspace="0" border="0"><br>
+			</td>
+		    <td width="10"><img src="/global_images2005/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+		    <td valign="top" class="text" width="440"><img src="/global_images2005/spacer.gif" alt="" width="440" height="4" hspace="0" vspace="0" border="0"><br>
+				<table border="0" cellpadding="0" cellspacing="0" width="440">
+				<tr>
+					<td valign="top">
+					<span class="section_title">Category: Computer Hardware</span><br><br>
+					
+					
+							<span class="subhead">Dell Inc.</span><!--&nbsp;&nbsp;[<a href="/attendees/directory/rd_exhibitor_details.asp?exhibid=">view exhibitor details</a>]--><br><br>
+						
+					<b>Dell XPS(tm) M2010 </b><br>
+					
+					
+						<!--<span class="text_colored">Design by: In-House Designer</span><br>-->
+										
+							Design by: Dell Inc., Human Interface Inc., M3 Design, and Function Engineering<br>
+						
+						<a target="new" href="http://www.dell.com">www.dell.com</a>
+					<br><br>					
+					</td>
+					
+					<td width="75">
+						<table>
+						<tr>
+							<!-- people's choice logo -->
+							
+							<!-- BOI logo -->
+							<td><img src="/attendees/awards/innovations/images/best_of_2007.gif" align="right" border="0" alt="Best of Innovations Honoree" onMouseDown="javascript:Image_OnMouseDown()"></td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+					
+				Dell XPS(tm) M2010: designed to be a desktop PC replacement for entertainment and multimedia enthusiasts that's easily transportable, like a notebook, yet includes full-size PC functionality with a media-centric personality.
+					<br><br>Location(s): South 3/30363, Renaissance/Ren 11, Renaissance/Ren 12, Renaissance/Ren 13, Renaissance/Ren 14
+					<!--<br><br>Location(s): Title sponsor of the NextGen Digital Lifestyles Home, CES Central Plaza-->
+				
+				<br><img src="/global_images2005/spacer.gif" alt="" width="1" height="26" hspace="0" vspace="0" border="0">
+			</td>
+		</tr>
+			
+		<table width="590" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img src="/global_images2005/1.0/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"></td>
+		</tr>
+		<tr><a name="6439"></a>
+		    <td width="140" align="center" valign="middle" bgcolor="#FFFFFF">
+				<img src="/global_images2005/spacer.gif" alt="" width="1" height="8" hspace="0" vspace="0" border="0"><br>
+				
+				<!--<img src=""><br>-->
+				<img src="/shared_files/innovations/innovations_2004/6439/display6439.jpg"><br>
+				<a target="new" href="/shared_files/innovations/innovations_2004/6439/mainphoto6439.jpg">Click to enlarge.</a><br>	
+				<img src="/global_images2005/spacer.gif" alt="" width="1" height="11" hspace="0" vspace="0" border="0"><br>
+			</td>
+		    <td width="10"><img src="/global_images2005/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+		    <td valign="top" class="text" width="440"><img src="/global_images2005/spacer.gif" alt="" width="440" height="4" hspace="0" vspace="0" border="0"><br>
+				<table border="0" cellpadding="0" cellspacing="0" width="440">
+				<tr>
+					<td valign="top">
+					<span class="section_title">Category: Digital Imaging</span><br><br>
+					
+					
+							<span class="subhead">Eastman Kodak Co.</span><!--&nbsp;&nbsp;[<a href="/attendees/directory/rd_exhibitor_details.asp?exhibid=">view exhibitor details</a>]--><br><br>
+						
+					<b>Kodak EasyShare V610 Dual Lens Digital Camera</b><br>
+					
+					
+						<!--<span class="text_colored">Design by: In-House Designer</span><br>-->
+										
+							Design by: Eastman Kodak Co.<br>
+						
+						<a target="new" href="http://www.kodak.com">www.kodak.com</a>
+					<br><br>					
+					</td>
+					
+					<td width="75">
+						<table>
+						<tr>
+							<!-- people's choice logo -->
+							
+							<!-- BOI logo -->
+							<td><img src="/attendees/awards/innovations/images/best_of_2007.gif" align="right" border="0" alt="Best of Innovations Honoree" onMouseDown="javascript:Image_OnMouseDown()"></td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+					
+				Kodak bridges the gap between ultra-compact and long-zoom digital cameras with the innovative Kodak EasyShare V610, the world's smallest 10X zoom digital camera.
+					<br><br>Location(s): South 3/31400
+					<!--<br><br>Location(s): Title sponsor of the NextGen Digital Lifestyles Home, CES Central Plaza-->
+				
+				<br><img src="/global_images2005/spacer.gif" alt="" width="1" height="26" hspace="0" vspace="0" border="0">
+			</td>
+		</tr>
+			
+		<table width="590" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img src="/global_images2005/1.0/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"></td>
+		</tr>
+		<tr><a name="6579"></a>
+		    <td width="140" align="center" valign="middle" bgcolor="#FFFFFF">
+				<img src="/global_images2005/spacer.gif" alt="" width="1" height="8" hspace="0" vspace="0" border="0"><br>
+				
+				<!--<img src=""><br>-->
+				<img src="/shared_files/innovations/innovations_2004/6579/display6579.jpg"><br>
+				<a target="new" href="/shared_files/innovations/innovations_2004/6579/mainphoto6579.jpg">Click to enlarge.</a><br>	
+				<img src="/global_images2005/spacer.gif" alt="" width="1" height="11" hspace="0" vspace="0" border="0"><br>
+			</td>
+		    <td width="10"><img src="/global_images2005/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+		    <td valign="top" class="text" width="440"><img src="/global_images2005/spacer.gif" alt="" width="440" height="4" hspace="0" vspace="0" border="0"><br>
+				<table border="0" cellpadding="0" cellspacing="0" width="440">
+				<tr>
+					<td valign="top">
+					<span class="section_title">Category: Eco-Design </span><br><br>
+					
+					
+							<span class="subhead">Herman Miller</span><br><br>
+						
+					<b>Herman Miller Leaf</b><br>
+					
+					
+						<!--<span class="text_colored">Design by: In-House Designer</span><br>-->
+										
+							Design by: Fuseproject<br>
+						
+						<a target="new" href="http://http://www.hermanmiller.com">http://www.hermanmiller.com</a>
+					<br><br>					
+					</td>
+					
+					<td width="75">
+						<table>
+						<tr>
+							<!-- people's choice logo -->
+							
+							<!-- BOI logo -->
+							<td><img src="/attendees/awards/innovations/images/best_of_2007.gif" align="right" border="0" alt="Best of Innovations Honoree" onMouseDown="javascript:Image_OnMouseDown()"></td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+					
+				Herman Miller Leaf, a new LED (light emitting diode) table-top light, creates a compelling and very personal way to interact with and experience the art of light.
+					<br><br>Location(s): This honoree is not exhibiting at the 2007 International CES.
+				
+				<br><img src="/global_images2005/spacer.gif" alt="" width="1" height="26" hspace="0" vspace="0" border="0">
+			</td>
+		</tr>
+			
+		<table width="590" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img src="/global_images2005/1.0/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"></td>
+		</tr>
+		<tr><a name="6531"></a>
+		    <td width="140" align="center" valign="middle" bgcolor="#FFFFFF">
+				<img src="/global_images2005/spacer.gif" alt="" width="1" height="8" hspace="0" vspace="0" border="0"><br>
+				
+				<!--<img src=""><br>-->
+				<img src="/shared_files/innovations/innovations_2004/6531/display6531.jpg"><br>
+				<a target="new" href="/shared_files/innovations/innovations_2004/6531/mainphoto6531.jpg">Click to enlarge.</a><br>	
+				<img src="/global_images2005/spacer.gif" alt="" width="1" height="11" hspace="0" vspace="0" border="0"><br>
+			</td>
+		    <td width="10"><img src="/global_images2005/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+		    <td valign="top" class="text" width="440"><img src="/global_images2005/spacer.gif" alt="" width="440" height="4" hspace="0" vspace="0" border="0"><br>
+				<table border="0" cellpadding="0" cellspacing="0" width="440">
+				<tr>
+					<td valign="top">
+					<span class="section_title">Category: Electronic Gaming</span><br><br>
+					
+					
+							<span class="subhead">Sony Electronics Inc.</span><!--&nbsp;&nbsp;[<a href="/attendees/directory/rd_exhibitor_details.asp?exhibid=">view exhibitor details</a>]--><br><br>
+						
+					<b>PLAYSTATION(r)3</b><br>
+					
+					
+						<!--<span class="text_colored">Design by: In-House Designer</span><br>-->
+										
+							Design by: Sony Electronics Inc.<br>
+						
+						<a target="new" href="http://http://www.us.playstation.com/">http://www.us.playstation.com/</a>
+					<br><br>					
+					</td>
+					
+					<td width="75">
+						<table>
+						<tr>
+							<!-- people's choice logo -->
+							
+							<!-- BOI logo -->
+							<td><img src="/attendees/awards/innovations/images/best_of_2007.gif" align="right" border="0" alt="Best of Innovations Honoree" onMouseDown="javascript:Image_OnMouseDown()"></td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+					
+				The PLAYSTATION(r)3 computer entertainment system is a platform to enjoy next-generation video game and entertainment content in the home through the combined Cell processor and Blu-ray Disc (BD) technology.
+					<br><br>Location(s): Central/14200, North Hall Mtg. Rooms/N110
+					<!--<br><br>Location(s): Title sponsor of the NextGen Digital Lifestyles Home, CES Central Plaza-->
+				
+				<br><img src="/global_images2005/spacer.gif" alt="" width="1" height="26" hspace="0" vspace="0" border="0">
+			</td>
+		</tr>
+			
+		<table width="590" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img src="/global_images2005/1.0/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"></td>
+		</tr>
+		<tr><a name="5610"></a>
+		    <td width="140" align="center" valign="middle" bgcolor="#FFFFFF">
+				<img src="/global_images2005/spacer.gif" alt="" width="1" height="8" hspace="0" vspace="0" border="0"><br>
+				
+				<!--<img src=""><br>-->
+				<img src="/shared_files/innovations/innovations_2004/5610/display5610.jpg"><br>
+				<a target="new" href="/shared_files/innovations/innovations_2004/5610/mainphoto5610.jpg">Click to enlarge.</a><br>	
+				<img src="/global_images2005/spacer.gif" alt="" width="1" height="11" hspace="0" vspace="0" border="0"><br>
+			</td>
+		    <td width="10"><img src="/global_images2005/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+		    <td valign="top" class="text" width="440"><img src="/global_images2005/spacer.gif" alt="" width="440" height="4" hspace="0" vspace="0" border="0"><br>
+				<table border="0" cellpadding="0" cellspacing="0" width="440">
+				<tr>
+					<td valign="top">
+					<span class="section_title">Category: Enabling Technologies</span><br><br>
+					
+					
+							<span class="subhead">Integral Technologies, Inc. </span><br><br>
+						
+					<b>Electriplast</b><br>
+					
+					
+						<!--<span class="text_colored">Design by: In-House Designer</span><br>-->
+										
+							Design by: Integral Technologies, Inc. <br>
+						
+						<a target="new" href="http://itkg.net">itkg.net</a>
+					<br><br>					
+					</td>
+					
+					<td width="75">
+						<table>
+						<tr>
+							<!-- people's choice logo -->
+							
+							<!-- BOI logo -->
+							<td><img src="/attendees/awards/innovations/images/best_of_2007.gif" align="right" border="0" alt="Best of Innovations Honoree" onMouseDown="javascript:Image_OnMouseDown()"></td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+					
+				Innovative electrically conductive resin-based material called "ElectriPlast(tm)," a highly conductive recipe that can be molded into virtually any shape or dimension associated with the range of plastics, rubbers and polymers.
+					<br><br>Location(s): This honoree is not exhibiting at the 2007 International CES.
+				
+				<br><img src="/global_images2005/spacer.gif" alt="" width="1" height="26" hspace="0" vspace="0" border="0">
+			</td>
+		</tr>
+			
+		<table width="590" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img src="/global_images2005/1.0/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"></td>
+		</tr>
+		<tr><a name="5885"></a>
+		    <td width="140" align="center" valign="middle" bgcolor="#FFFFFF">
+				<img src="/global_images2005/spacer.gif" alt="" width="1" height="8" hspace="0" vspace="0" border="0"><br>
+				
+				<!--<img src=""><br>-->
+				<img src="/shared_files/innovations/innovations_2004/5885/display5885.jpg"><br>
+				<a target="new" href="/shared_files/innovations/innovations_2004/5885/mainphoto5885.JPG">Click to enlarge.</a><br>	
+				<img src="/global_images2005/spacer.gif" alt="" width="1" height="11" hspace="0" vspace="0" border="0"><br>
+			</td>
+		    <td width="10"><img src="/global_images2005/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+		    <td valign="top" class="text" width="440"><img src="/global_images2005/spacer.gif" alt="" width="440" height="4" hspace="0" vspace="0" border="0"><br>
+				<table border="0" cellpadding="0" cellspacing="0" width="440">
+				<tr>
+					<td valign="top">
+					<span class="section_title">Category: Enabling Technologies</span><br><br>
+					
+					
+							<span class="subhead">Intel</span><!--&nbsp;&nbsp;[<a href="/attendees/directory/rd_exhibitor_details.asp?exhibid=">view exhibitor details</a>]--><br><br>
+						
+					<b>Intel(r) Core(tm) 2 Duo Microprocessor</b><br>
+					
+					
+						<!--<span class="text_colored">Design by: In-House Designer</span><br>-->
+										
+							Design by: Intel<br>
+						
+						<a target="new" href="http://www.intel.com">www.intel.com</a>
+					<br><br>					
+					</td>
+					
+					<td width="75">
+						<table>
+						<tr>
+							<!-- people's choice logo -->
+							
+							<!-- BOI logo -->
+							<td><img src="/attendees/awards/innovations/images/best_of_2007.gif" align="right" border="0" alt="Best of Innovations Honoree" onMouseDown="javascript:Image_OnMouseDown()"></td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+					
+				The world's best microprocessor.
+					<br><br>Location(s): Central/13544, Central/7153, Sands/Venetian/Marcello 4401A, Sands/Venetian/Marcello 4401B, Sands/Venetian/Marcello 4402, Sands/Venetian/Marcello 4403, Sands/Venetian/Marcello 4404, Sands/Venetian/Mar
+					<!--<br><br>Location(s): Title sponsor of the NextGen Digital Lifestyles Home, CES Central Plaza-->
+				
+				<br><img src="/global_images2005/spacer.gif" alt="" width="1" height="26" hspace="0" vspace="0" border="0">
+			</td>
+		</tr>
+			
+		<table width="590" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img src="/global_images2005/1.0/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"></td>
+		</tr>
+		<tr><a name="6000"></a>
+		    <td width="140" align="center" valign="middle" bgcolor="#FFFFFF">
+				<img src="/global_images2005/spacer.gif" alt="" width="1" height="8" hspace="0" vspace="0" border="0"><br>
+				
+				<!--<img src=""><br>-->
+				<img src="/shared_files/innovations/innovations_2004/6000/display6000.jpg"><br>
+				<a target="new" href="/shared_files/innovations/innovations_2004/6000/mainphoto6000.JPG">Click to enlarge.</a><br>	
+				<img src="/global_images2005/spacer.gif" alt="" width="1" height="11" hspace="0" vspace="0" border="0"><br>
+			</td>
+		    <td width="10"><img src="/global_images2005/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+		    <td valign="top" class="text" width="440"><img src="/global_images2005/spacer.gif" alt="" width="440" height="4" hspace="0" vspace="0" border="0"><br>
+				<table border="0" cellpadding="0" cellspacing="0" width="440">
+				<tr>
+					<td valign="top">
+					<span class="section_title">Category: Furniture</span><br><br>
+					
+					
+							<span class="subhead">Vantage Point Products Corp.</span><!--&nbsp;&nbsp;[<a href="/attendees/directory/rd_exhibitor_details.asp?exhibid=">view exhibitor details</a>]--><br><br>
+						
+					<b>The evo system(tm) </b><br>
+					
+					
+						<!--<span class="text_colored">Design by: In-House Designer</span><br>-->
+										
+							Design by: Vantage Point Products Corp.<br>
+						
+						<a target="new" href="http://www.vanptc.com">www.vanptc.com</a>
+					<br><br>					
+					</td>
+					
+					<td width="75">
+						<table>
+						<tr>
+							<!-- people's choice logo -->
+							
+							<!-- BOI logo -->
+							<td><img src="/attendees/awards/innovations/images/best_of_2007.gif" align="right" border="0" alt="Best of Innovations Honoree" onMouseDown="javascript:Image_OnMouseDown()"></td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+					
+				The evo system(tm) is the custom solution for mounting all electronics on the wall to stylishly regain valuable space. Its' modular capabilities offer functionality in on-wall furniture never before seen!
+					<br><br>Location(s): South 1/20544, South 1/20944
+					<!--<br><br>Location(s): Title sponsor of the NextGen Digital Lifestyles Home, CES Central Plaza-->
+				
+				<br><img src="/global_images2005/spacer.gif" alt="" width="1" height="26" hspace="0" vspace="0" border="0">
+			</td>
+		</tr>
+			
+		<table width="590" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img src="/global_images2005/1.0/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"></td>
+		</tr>
+		<tr><a name="5431"></a>
+		    <td width="140" align="center" valign="middle" bgcolor="#FFFFFF">
+				<img src="/global_images2005/spacer.gif" alt="" width="1" height="8" hspace="0" vspace="0" border="0"><br>
+				
+				<!--<img src=""><br>-->
+				<img src="/shared_files/innovations/innovations_2004/5431/display5431.jpg"><br>
+				<a target="new" href="/shared_files/innovations/innovations_2004/5431/mainphoto5431.jpg">Click to enlarge.</a><br>	
+				<img src="/global_images2005/spacer.gif" alt="" width="1" height="11" hspace="0" vspace="0" border="0"><br>
+			</td>
+		    <td width="10"><img src="/global_images2005/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+		    <td valign="top" class="text" width="440"><img src="/global_images2005/spacer.gif" alt="" width="440" height="4" hspace="0" vspace="0" border="0"><br>
+				<table border="0" cellpadding="0" cellspacing="0" width="440">
+				<tr>
+					<td valign="top">
+					<span class="section_title">Category: High Performance Audio</span><br><br>
+					
+					
+							<span class="subhead">JBL</span><!--&nbsp;&nbsp;[<a href="/attendees/directory/rd_exhibitor_details.asp?exhibid=">view exhibitor details</a>]--><br><br>
+						
+					<b>JBL(r) Project Everest DD66000 Loudspeaker</b><br>
+					
+					
+						<!--<span class="text_colored">Design by: In-House Designer</span><br>-->
+										
+							Design by: Ashcraft Design, Inc.<br>
+						
+						<a target="new" href="http://www.jbl.com">www.jbl.com</a>
+					<br><br>					
+					</td>
+					
+					<td width="75">
+						<table>
+						<tr>
+							<!-- people's choice logo -->
+							
+							<!-- BOI logo -->
+							<td><img src="/attendees/awards/innovations/images/best_of_2007.gif" align="right" border="0" alt="Best of Innovations Honoree" onMouseDown="javascript:Image_OnMouseDown()"></td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+					
+				The Project Everest DD66000 is the finest loudspeaker ever created by JBL. It employs the company's most advanced technologies and materials to deliver unprecedented sonic accuracy and musical realism.
+ 
+
+					<br><br>Location(s): North/1831, Hilton/Hilton 16121, Hilton/Hilton 17121, Hilton/Hilton 18121, Hilton/Hilton 19121
+					<!--<br><br>Location(s): Title sponsor of the NextGen Digital Lifestyles Home, CES Central Plaza-->
+				
+				<br><img src="/global_images2005/spacer.gif" alt="" width="1" height="26" hspace="0" vspace="0" border="0">
+			</td>
+		</tr>
+			
+		<table width="590" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img src="/global_images2005/1.0/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"></td>
+		</tr>
+		<tr><a name="5636"></a>
+		    <td width="140" align="center" valign="middle" bgcolor="#FFFFFF">
+				<img src="/global_images2005/spacer.gif" alt="" width="1" height="8" hspace="0" vspace="0" border="0"><br>
+				
+				<!--<img src=""><br>-->
+				<img src="/shared_files/innovations/innovations_2004/5636/display5636.jpg"><br>
+				<a target="new" href="/shared_files/innovations/innovations_2004/5636/mainphoto5636.jpg">Click to enlarge.</a><br>	
+				<img src="/global_images2005/spacer.gif" alt="" width="1" height="11" hspace="0" vspace="0" border="0"><br>
+			</td>
+		    <td width="10"><img src="/global_images2005/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+		    <td valign="top" class="text" width="440"><img src="/global_images2005/spacer.gif" alt="" width="440" height="4" hspace="0" vspace="0" border="0"><br>
+				<table border="0" cellpadding="0" cellspacing="0" width="440">
+				<tr>
+					<td valign="top">
+					<span class="section_title">Category: Home Appliances</span><br><br>
+					
+					
+							<span class="subhead">GridPoint, Inc</span><br><br>
+						
+					<b>GridPoint Connect </b><br>
+					
+					
+						<!--<span class="text_colored">Design by: In-House Designer</span><br>-->
+										
+							Design by: GridPoint, Inc<br>
+						
+						<a target="new" href="http://www.gridpoint.com">www.gridpoint.com</a>
+					<br><br>					
+					</td>
+					
+					<td width="75">
+						<table>
+						<tr>
+							<!-- people's choice logo -->
+							
+							<!-- BOI logo -->
+							<td><img src="/attendees/awards/innovations/images/best_of_2007.gif" align="right" border="0" alt="Best of Innovations Honoree" onMouseDown="javascript:Image_OnMouseDown()"></td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+					
+				GridPoint Connect(tm) C36-10 intelligently manages energy, provides backup power and integrates renewable energy.  The accompanying online portal enables customers to manage energy usage, reducing their energy costs and carbon footprint.  
+
+					<br><br>Location(s): This honoree is not exhibiting at the 2007 International CES.
+				
+				<br><img src="/global_images2005/spacer.gif" alt="" width="1" height="26" hspace="0" vspace="0" border="0">
+			</td>
+		</tr>
+			
+		<table width="590" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img src="/global_images2005/1.0/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"></td>
+		</tr>
+		<tr><a name="6085"></a>
+		    <td width="140" align="center" valign="middle" bgcolor="#FFFFFF">
+				<img src="/global_images2005/spacer.gif" alt="" width="1" height="8" hspace="0" vspace="0" border="0"><br>
+				
+				<!--<img src=""><br>-->
+				<img src="/shared_files/innovations/innovations_2004/6085/display6085.jpg"><br>
+				<a target="new" href="/shared_files/innovations/innovations_2004/6085/mainphoto6085.jpg">Click to enlarge.</a><br>	
+				<img src="/global_images2005/spacer.gif" alt="" width="1" height="11" hspace="0" vspace="0" border="0"><br>
+			</td>
+		    <td width="10"><img src="/global_images2005/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+		    <td valign="top" class="text" width="440"><img src="/global_images2005/spacer.gif" alt="" width="440" height="4" hspace="0" vspace="0" border="0"><br>
+				<table border="0" cellpadding="0" cellspacing="0" width="440">
+				<tr>
+					<td valign="top">
+					<span class="section_title">Category: Home Networking</span><br><br>
+					
+					
+							<span class="subhead">Ubicod Co., Ltd.                                  </span><!--&nbsp;&nbsp;[<a href="/attendees/directory/rd_exhibitor_details.asp?exhibid=">view exhibitor details</a>]--><br><br>
+						
+					<b>UTV Player</b><br>
+					
+					
+						<!--<span class="text_colored">Design by: In-House Designer</span><br>-->
+										
+							Design by: Ubicod Co., Ltd.<br>
+						
+						<a target="new" href="http://www.ubicod.com">www.ubicod.com</a>
+					<br><br>					
+					</td>
+					
+					<td width="75">
+						<table>
+						<tr>
+							<!-- people's choice logo -->
+							
+							<!-- BOI logo -->
+							<td><img src="/attendees/awards/innovations/images/best_of_2007.gif" align="right" border="0" alt="Best of Innovations Honoree" onMouseDown="javascript:Image_OnMouseDown()"></td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+					
+				UTVplayer is a convergence STB to store,share and manage multimedia files using HomeNetworking which provides Take-OutTV, PVR/Time-shifting, HomeMedia, and UTVservice(UCCclub,Videophone,HomeViewer)all in one application at anytime anywhere with anydevices via Internet. 
+					<br><br>Location(s): South 2/26516
+					<!--<br><br>Location(s): Title sponsor of the NextGen Digital Lifestyles Home, CES Central Plaza-->
+				
+				<br><img src="/global_images2005/spacer.gif" alt="" width="1" height="26" hspace="0" vspace="0" border="0">
+			</td>
+		</tr>
+			
+		<table width="590" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img src="/global_images2005/1.0/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"></td>
+		</tr>
+		<tr><a name="6665"></a>
+		    <td width="140" align="center" valign="middle" bgcolor="#FFFFFF">
+				<img src="/global_images2005/spacer.gif" alt="" width="1" height="8" hspace="0" vspace="0" border="0"><br>
+				
+				<!--<img src=""><br>-->
+				<img src="/shared_files/innovations/innovations_2004/6665/display6665.jpg"><br>
+				<a target="new" href="/shared_files/innovations/innovations_2004/6665/mainphoto6665.jpg">Click to enlarge.</a><br>	
+				<img src="/global_images2005/spacer.gif" alt="" width="1" height="11" hspace="0" vspace="0" border="0"><br>
+			</td>
+		    <td width="10"><img src="/global_images2005/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+		    <td valign="top" class="text" width="440"><img src="/global_images2005/spacer.gif" alt="" width="440" height="4" hspace="0" vspace="0" border="0"><br>
+				<table border="0" cellpadding="0" cellspacing="0" width="440">
+				<tr>
+					<td valign="top">
+					<span class="section_title">Category: Home Theater Accessories</span><br><br>
+					
+					
+							<span class="subhead">Monster Cable Products</span><!--&nbsp;&nbsp;[<a href="/attendees/directory/rd_exhibitor_details.asp?exhibid=">view exhibitor details</a>]--><br><br>
+						
+					<b>Monster Central Home Theater and Lighting Controller 300</b><br>
+					
+					
+						<!--<span class="text_colored">Design by: In-House Designer</span><br>-->
+										
+							Design by: Monster Cable Products<br>
+						
+						<a target="new" href="http://MonsterCable.com">MonsterCable.com</a>
+					<br><br>					
+					</td>
+					
+					<td width="75">
+						<table>
+						<tr>
+							<!-- people's choice logo -->
+							
+							<!-- BOI logo -->
+							<td><img src="/attendees/awards/innovations/images/best_of_2007.gif" align="right" border="0" alt="Best of Innovations Honoree" onMouseDown="javascript:Image_OnMouseDown()"></td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+					
+				The Monster AVL 300-S whole home AV and lighting controller featuring web based setup, Z-Wave compatibility, intelligent tracking memory, advanced ergonomic design, and one-button macro command capability.
+					<br><br>Location(s): South 1/20313D, South 1/20315D, South 1/20318D, South 1/20321D, South 1/20322D, South 1/20323D, South 1/21402, North/2622, Sands/Venetian/Delfino 4103, Sands/Venetian/Delfino 4104, Sands/Venetian/Del
+					<!--<br><br>Location(s): Title sponsor of the NextGen Digital Lifestyles Home, CES Central Plaza-->
+				
+				<br><img src="/global_images2005/spacer.gif" alt="" width="1" height="26" hspace="0" vspace="0" border="0">
+			</td>
+		</tr>
+			
+		<table width="590" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img src="/global_images2005/1.0/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"></td>
+		</tr>
+		<tr><a name="5819"></a>
+		    <td width="140" align="center" valign="middle" bgcolor="#FFFFFF">
+				<img src="/global_images2005/spacer.gif" alt="" width="1" height="8" hspace="0" vspace="0" border="0"><br>
+				
+				<!--<img src=""><br>-->
+				<img src="/shared_files/innovations/innovations_2004/5819/display5819.jpg"><br>
+				<a target="new" href="/shared_files/innovations/innovations_2004/5819/mainphoto5819.jpg">Click to enlarge.</a><br>	
+				<img src="/global_images2005/spacer.gif" alt="" width="1" height="11" hspace="0" vspace="0" border="0"><br>
+			</td>
+		    <td width="10"><img src="/global_images2005/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+		    <td valign="top" class="text" width="440"><img src="/global_images2005/spacer.gif" alt="" width="440" height="4" hspace="0" vspace="0" border="0"><br>
+				<table border="0" cellpadding="0" cellspacing="0" width="440">
+				<tr>
+					<td valign="top">
+					<span class="section_title">Category: Home Theater Audio</span><br><br>
+					
+					
+							<span class="subhead">Mitek Mobile</span><!--&nbsp;&nbsp;[<a href="/attendees/directory/rd_exhibitor_details.asp?exhibid=">view exhibitor details</a>]--><br><br>
+						
+					<b>Soundolier DUO</b><br>
+					
+					
+						<!--<span class="text_colored">Design by: In-House Designer</span><br>-->
+										
+							Design by: Mitek Mobile<br>
+						
+						<a target="new" href="http://mitekcorp.com">mitekcorp.com</a>
+					<br><br>					
+					</td>
+					
+					<td width="75">
+						<table>
+						<tr>
+							<!-- people's choice logo -->
+							
+							<!-- BOI logo -->
+							<td><img src="/attendees/awards/innovations/images/best_of_2007.gif" align="right" border="0" alt="Best of Innovations Honoree" onMouseDown="javascript:Image_OnMouseDown()"></td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+					
+				The Soundolier DUO Wireless Speaker Lamp simplifies the process of adding rear speakers to the home theater. DUO is patent pending and features an omni-directional full range speaker system
+					<br><br>Location(s): North/1001
+					<!--<br><br>Location(s): Title sponsor of the NextGen Digital Lifestyles Home, CES Central Plaza-->
+				
+				<br><img src="/global_images2005/spacer.gif" alt="" width="1" height="26" hspace="0" vspace="0" border="0">
+			</td>
+		</tr>
+			
+		<table width="590" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img src="/global_images2005/1.0/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"></td>
+		</tr>
+		<tr><a name="5935"></a>
+		    <td width="140" align="center" valign="middle" bgcolor="#FFFFFF">
+				<img src="/global_images2005/spacer.gif" alt="" width="1" height="8" hspace="0" vspace="0" border="0"><br>
+				
+				<!--<img src=""><br>-->
+				<img src="/shared_files/innovations/innovations_2004/5935/display5935.jpg"><br>
+				<a target="new" href="/shared_files/innovations/innovations_2004/5935/mainphoto5935.jpg">Click to enlarge.</a><br>	
+				<img src="/global_images2005/spacer.gif" alt="" width="1" height="11" hspace="0" vspace="0" border="0"><br>
+			</td>
+		    <td width="10"><img src="/global_images2005/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+		    <td valign="top" class="text" width="440"><img src="/global_images2005/spacer.gif" alt="" width="440" height="4" hspace="0" vspace="0" border="0"><br>
+				<table border="0" cellpadding="0" cellspacing="0" width="440">
+				<tr>
+					<td valign="top">
+					<span class="section_title">Category: Integrated Home Systems</span><br><br>
+					
+					
+							<span class="subhead">4HomeMedia</span><!--&nbsp;&nbsp;[<a href="/attendees/directory/rd_exhibitor_details.asp?exhibid=">view exhibitor details</a>]--><br><br>
+						
+					<b>ControlPoint</b><br>
+					
+					
+						<!--<span class="text_colored">Design by: In-House Designer</span><br>-->
+										
+							Design by: 4HomeMedia<br>
+						
+						<a target="new" href="http://www.4homemedia.com">www.4homemedia.com</a>
+					<br><br>					
+					</td>
+					
+					<td width="75">
+						<table>
+						<tr>
+							<!-- people's choice logo -->
+							
+							<!-- BOI logo -->
+							<td><img src="/attendees/awards/innovations/images/best_of_2007.gif" align="right" border="0" alt="Best of Innovations Honoree" onMouseDown="javascript:Image_OnMouseDown()"></td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+					
+				The ControlPoint 1000 is a whole home control device, able to control and monitor all home automation systems and entertainment devices in a unified, dynamic interface, both locally and remotely. 
+					<br><br>Location(s): Hilton/Hilton 1130
+					<!--<br><br>Location(s): Title sponsor of the NextGen Digital Lifestyles Home, CES Central Plaza-->
+				
+				<br><img src="/global_images2005/spacer.gif" alt="" width="1" height="26" hspace="0" vspace="0" border="0">
+			</td>
+		</tr>
+			
+		<table width="590" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img src="/global_images2005/1.0/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"></td>
+		</tr>
+		<tr><a name="6268"></a>
+		    <td width="140" align="center" valign="middle" bgcolor="#FFFFFF">
+				<img src="/global_images2005/spacer.gif" alt="" width="1" height="8" hspace="0" vspace="0" border="0"><br>
+				
+				<!--<img src=""><br>-->
+				<img src="/shared_files/innovations/innovations_2004/6268/display6268.jpg"><br>
+				<a target="new" href="/shared_files/innovations/innovations_2004/6268/mainphoto6268.jpg">Click to enlarge.</a><br>	
+				<img src="/global_images2005/spacer.gif" alt="" width="1" height="11" hspace="0" vspace="0" border="0"><br>
+			</td>
+		    <td width="10"><img src="/global_images2005/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+		    <td valign="top" class="text" width="440"><img src="/global_images2005/spacer.gif" alt="" width="440" height="4" hspace="0" vspace="0" border="0"><br>
+				<table border="0" cellpadding="0" cellspacing="0" width="440">
+				<tr>
+					<td valign="top">
+					<span class="section_title">Category: Mobile Audio</span><br><br>
+					
+					
+							<span class="subhead">Blaupunkt</span><!--&nbsp;&nbsp;[<a href="/attendees/directory/rd_exhibitor_details.asp?exhibid=">view exhibitor details</a>]--><br><br>
+						
+					<b>THA 475 Thinline Plug and Play Amplifier</b><br>
+					
+					
+						<!--<span class="text_colored">Design by: In-House Designer</span><br>-->
+										
+							Design by: Blaupunkt<br>
+						
+						<a target="new" href="http://www.blaupunktusa.com">www.blaupunktusa.com</a>
+					<br><br>					
+					</td>
+					
+					<td width="75">
+						<table>
+						<tr>
+							<!-- people's choice logo -->
+							
+							<!-- BOI logo -->
+							<td><img src="/attendees/awards/innovations/images/best_of_2007.gif" align="right" border="0" alt="Best of Innovations Honoree" onMouseDown="javascript:Image_OnMouseDown()"></td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+					
+				Blaupunkt's THA475 PnP amplifier is tiny, runs cool, includes an auxiliary input, and uses specific-car wiring harness adapters to install in just fifteen minutes with no crimping, splicing, or soldering.
+					<br><br>Location(s): North/3712
+					<!--<br><br>Location(s): Title sponsor of the NextGen Digital Lifestyles Home, CES Central Plaza-->
+				
+				<br><img src="/global_images2005/spacer.gif" alt="" width="1" height="26" hspace="0" vspace="0" border="0">
+			</td>
+		</tr>
+			
+		<table width="590" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img src="/global_images2005/1.0/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"></td>
+		</tr>
+		<tr><a name="6583"></a>
+		    <td width="140" align="center" valign="middle" bgcolor="#FFFFFF">
+				<img src="/global_images2005/spacer.gif" alt="" width="1" height="8" hspace="0" vspace="0" border="0"><br>
+				
+				<!--<img src=""><br>-->
+				<img src="/shared_files/innovations/innovations_2004/6583/display6583.jpg"><br>
+				<a target="new" href="/shared_files/innovations/innovations_2004/6583/mainphoto6583.jpg">Click to enlarge.</a><br>	
+				<img src="/global_images2005/spacer.gif" alt="" width="1" height="11" hspace="0" vspace="0" border="0"><br>
+			</td>
+		    <td width="10"><img src="/global_images2005/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+		    <td valign="top" class="text" width="440"><img src="/global_images2005/spacer.gif" alt="" width="440" height="4" hspace="0" vspace="0" border="0"><br>
+				<table border="0" cellpadding="0" cellspacing="0" width="440">
+				<tr>
+					<td valign="top">
+					<span class="section_title">Category: Mobile Audio</span><br><br>
+					
+					
+							<span class="subhead">Monster Cable Products</span><!--&nbsp;&nbsp;[<a href="/attendees/directory/rd_exhibitor_details.asp?exhibid=">view exhibitor details</a>]--><br><br>
+						
+					<b>Monster iCarPlay Wireless 200</b><br>
+					
+					
+						<!--<span class="text_colored">Design by: In-House Designer</span><br>-->
+										
+							Design by: Monster Cable Products<br>
+						
+						<a target="new" href="http://MonsterCable.com">MonsterCable.com</a>
+					<br><br>					
+					</td>
+					
+					<td width="75">
+						<table>
+						<tr>
+							<!-- people's choice logo -->
+							
+							<!-- BOI logo -->
+							<td><img src="/attendees/awards/innovations/images/best_of_2007.gif" align="right" border="0" alt="Best of Innovations Honoree" onMouseDown="javascript:Image_OnMouseDown()"></td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+					
+				Monster iCarPlay Wireless 200  (A IP FM-CH200)
+Enjoy iPod music on any FM station while charging. AutoScan automatically finds clearest frequency. All information is displayed on the iPod screen.
+
+					<br><br>Location(s): South 1/20313D, South 1/20315D, South 1/20318D, South 1/20321D, South 1/20322D, South 1/20323D, South 1/21402, North/2622, Sands/Venetian/Delfino 4103, Sands/Venetian/Delfino 4104, Sands/Venetian/Del
+					<!--<br><br>Location(s): Title sponsor of the NextGen Digital Lifestyles Home, CES Central Plaza-->
+				
+				<br><img src="/global_images2005/spacer.gif" alt="" width="1" height="26" hspace="0" vspace="0" border="0">
+			</td>
+		</tr>
+			
+		<table width="590" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img src="/global_images2005/1.0/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"></td>
+		</tr>
+		<tr><a name="6207"></a>
+		    <td width="140" align="center" valign="middle" bgcolor="#FFFFFF">
+				<img src="/global_images2005/spacer.gif" alt="" width="1" height="8" hspace="0" vspace="0" border="0"><br>
+				
+				<!--<img src=""><br>-->
+				<img src="/shared_files/innovations/innovations_2004/6207/display6207.jpg"><br>
+				<a target="new" href="/shared_files/innovations/innovations_2004/6207/mainphoto6207.jpg">Click to enlarge.</a><br>	
+				<img src="/global_images2005/spacer.gif" alt="" width="1" height="11" hspace="0" vspace="0" border="0"><br>
+			</td>
+		    <td width="10"><img src="/global_images2005/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+		    <td valign="top" class="text" width="440"><img src="/global_images2005/spacer.gif" alt="" width="440" height="4" hspace="0" vspace="0" border="0"><br>
+				<table border="0" cellpadding="0" cellspacing="0" width="440">
+				<tr>
+					<td valign="top">
+					<span class="section_title">Category: Mobile Electronics</span><br><br>
+					
+					
+							<span class="subhead">Alpine Electronics of America, Inc.</span><!--&nbsp;&nbsp;[<a href="/attendees/directory/rd_exhibitor_details.asp?exhibid=">view exhibitor details</a>]--><br><br>
+						
+					<b>Mobile Multimedia Station with Blackbird Portable Navigation Device</b><br>
+					
+					
+						<!--<span class="text_colored">Design by: In-House Designer</span><br>-->
+										
+							Design by: Alpine Electronics of America, Inc.<br>
+						
+						<a target="new" href="http://www.alpine-usa.com">www.alpine-usa.com</a>
+					<br><br>					
+					</td>
+					
+					<td width="75">
+						<table>
+						<tr>
+							<!-- people's choice logo -->
+							
+							<!-- BOI logo -->
+							<td><img src="/attendees/awards/innovations/images/best_of_2007.gif" align="right" border="0" alt="Best of Innovations Honoree" onMouseDown="javascript:Image_OnMouseDown()"></td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+					
+				Alpine's IVA-W205 and PMD-B200 were designed to work together. The PMD-B200 docks inside the IVA-W205, creating an integrated AV+N system, but can be removed to be used in another vehicle.
+					<br><br>Location(s): North Hall Mtg. Rooms/N101, North Hall Mtg. Rooms/N102, North Hall Mtg. Rooms/N103, North Hall Mtg. Rooms/N104, North Hall Mtg. Rooms/N105, North Hall Mtg. Rooms/N106, North Hall Mtg. Rooms/N107
+					<!--<br><br>Location(s): Title sponsor of the NextGen Digital Lifestyles Home, CES Central Plaza-->
+				
+				<br><img src="/global_images2005/spacer.gif" alt="" width="1" height="26" hspace="0" vspace="0" border="0">
+			</td>
+		</tr>
+			
+		<table width="590" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img src="/global_images2005/1.0/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"></td>
+		</tr>
+		<tr><a name="6429"></a>
+		    <td width="140" align="center" valign="middle" bgcolor="#FFFFFF">
+				<img src="/global_images2005/spacer.gif" alt="" width="1" height="8" hspace="0" vspace="0" border="0"><br>
+				
+				<!--<img src=""><br>-->
+				<img src="/shared_files/innovations/innovations_2004/6429/display6429.jpg"><br>
+				<a target="new" href="/shared_files/innovations/innovations_2004/6429/mainphoto6429.jpg">Click to enlarge.</a><br>	
+				<img src="/global_images2005/spacer.gif" alt="" width="1" height="11" hspace="0" vspace="0" border="0"><br>
+			</td>
+		    <td width="10"><img src="/global_images2005/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+		    <td valign="top" class="text" width="440"><img src="/global_images2005/spacer.gif" alt="" width="440" height="4" hspace="0" vspace="0" border="0"><br>
+				<table border="0" cellpadding="0" cellspacing="0" width="440">
+				<tr>
+					<td valign="top">
+					<span class="section_title">Category: Mobile Video</span><br><br>
+					
+					
+							<span class="subhead">Directed Electronics Inc.</span><!--&nbsp;&nbsp;[<a href="/attendees/directory/rd_exhibitor_details.asp?exhibid=">view exhibitor details</a>]--><br><br>
+						
+					<b>Directed Mobile Media DP102CS Portable Entertainment System</b><br>
+					
+					
+						<!--<span class="text_colored">Design by: In-House Designer</span><br>-->
+										
+							Design by: ZIBA<br>
+						
+						<a target="new" href="http://www.directed.com">www.directed.com</a>
+					<br><br>					
+					</td>
+					
+					<td width="75">
+						<table>
+						<tr>
+							<!-- people's choice logo -->
+							
+							<!-- BOI logo -->
+							<td><img src="/attendees/awards/innovations/images/best_of_2007.gif" align="right" border="0" alt="Best of Innovations Honoree" onMouseDown="javascript:Image_OnMouseDown()"></td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+					
+				The Directed Mobile Media DP102CS is a high tech “Video Jukebox” that allows users to enjoy DVDs or digital MP4 video via an optional iPod or 40 GB Portable DVR.
+					<br><br>Location(s): North/301
+					<!--<br><br>Location(s): Title sponsor of the NextGen Digital Lifestyles Home, CES Central Plaza-->
+				
+				<br><img src="/global_images2005/spacer.gif" alt="" width="1" height="26" hspace="0" vspace="0" border="0">
+			</td>
+		</tr>
+			
+		<table width="590" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img src="/global_images2005/1.0/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"></td>
+		</tr>
+		<tr><a name="6120"></a>
+		    <td width="140" align="center" valign="middle" bgcolor="#FFFFFF">
+				<img src="/global_images2005/spacer.gif" alt="" width="1" height="8" hspace="0" vspace="0" border="0"><br>
+				
+				<!--<img src=""><br>-->
+				<img src="/shared_files/innovations/innovations_2004/6120/display6120.jpg"><br>
+				<a target="new" href="/shared_files/innovations/innovations_2004/6120/mainphoto6120.jpg">Click to enlarge.</a><br>	
+				<img src="/global_images2005/spacer.gif" alt="" width="1" height="11" hspace="0" vspace="0" border="0"><br>
+			</td>
+		    <td width="10"><img src="/global_images2005/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+		    <td valign="top" class="text" width="440"><img src="/global_images2005/spacer.gif" alt="" width="440" height="4" hspace="0" vspace="0" border="0"><br>
+				<table border="0" cellpadding="0" cellspacing="0" width="440">
+				<tr>
+					<td valign="top">
+					<span class="section_title">Category: Mobile/Home Office</span><br><br>
+					
+					
+							<span class="subhead">Seagate Technology</span><!--&nbsp;&nbsp;[<a href="/attendees/directory/rd_exhibitor_details.asp?exhibid=">view exhibitor details</a>]--><br><br>
+						
+					<b>Seagate Mirra Sync and Share Personal Server</b><br>
+					
+					
+						<!--<span class="text_colored">Design by: In-House Designer</span><br>-->
+										
+							Design by: Seagate Technology<br>
+						
+						<a target="new" href="http://www.seagate.com">www.seagate.com</a>
+					<br><br>					
+					</td>
+					
+					<td width="75">
+						<table>
+						<tr>
+							<!-- people's choice logo -->
+							
+							<!-- BOI logo -->
+							<td><img src="/attendees/awards/innovations/images/best_of_2007.gif" align="right" border="0" alt="Best of Innovations Honoree" onMouseDown="javascript:Image_OnMouseDown()"></td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+					
+				Mirra Sync and Share Personal Server, 500GB. Networked data protection, remote access, file sync and sharing. Includes free online access accounts at www.mirra.com. Model # ST-3500841ET-RK. $599 SRP.
+					<br><br>Location(s): South 3/30659, South 4/S213, South Plaza/SP1
+					<!--<br><br>Location(s): Title sponsor of the NextGen Digital Lifestyles Home, CES Central Plaza-->
+				
+				<br><img src="/global_images2005/spacer.gif" alt="" width="1" height="26" hspace="0" vspace="0" border="0">
+			</td>
+		</tr>
+			
+		<table width="590" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img src="/global_images2005/1.0/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"></td>
+		</tr>
+		<tr><a name="5949"></a>
+		    <td width="140" align="center" valign="middle" bgcolor="#FFFFFF">
+				<img src="/global_images2005/spacer.gif" alt="" width="1" height="8" hspace="0" vspace="0" border="0"><br>
+				
+				<!--<img src=""><br>-->
+				<img src="/shared_files/innovations/innovations_2004/5949/display5949.jpg"><br>
+				<a target="new" href="/shared_files/innovations/innovations_2004/5949/mainphoto5949.jpg">Click to enlarge.</a><br>	
+				<img src="/global_images2005/spacer.gif" alt="" width="1" height="11" hspace="0" vspace="0" border="0"><br>
+			</td>
+		    <td width="10"><img src="/global_images2005/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+		    <td valign="top" class="text" width="440"><img src="/global_images2005/spacer.gif" alt="" width="440" height="4" hspace="0" vspace="0" border="0"><br>
+				<table border="0" cellpadding="0" cellspacing="0" width="440">
+				<tr>
+					<td valign="top">
+					<span class="section_title">Category: Personal Electronics</span><br><br>
+					
+					
+							<span class="subhead">Oticon A/S</span><!--&nbsp;&nbsp;[<a href="/attendees/directory/rd_exhibitor_details.asp?exhibid=">view exhibitor details</a>]--><br><br>
+						
+					<b>Oticon Delta</b><br>
+					
+					
+						<!--<span class="text_colored">Design by: In-House Designer</span><br>-->
+										
+							Design by: Oticon A/S<br>
+						
+						<a target="new" href="http://www.oticon.com">www.oticon.com</a>
+					<br><br>					
+					</td>
+					
+					<td width="75">
+						<table>
+						<tr>
+							<!-- people's choice logo -->
+							
+							<!-- BOI logo -->
+							<td><img src="/attendees/awards/innovations/images/best_of_2007.gif" align="right" border="0" alt="Best of Innovations Honoree" onMouseDown="javascript:Image_OnMouseDown()"></td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+					
+				Delta has a miniature triangular shape and gadget-like look resembling a high-tech communication device. Delta's design and functionality allows users to carry on their dynamic lifestyle without making any compromises.
+					<br><br>Location(s): There are no booths listed for this exhibitor.
+				
+				<br><img src="/global_images2005/spacer.gif" alt="" width="1" height="26" hspace="0" vspace="0" border="0">
+			</td>
+		</tr>
+			
+		<table width="590" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img src="/global_images2005/1.0/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"></td>
+		</tr>
+		<tr><a name="5866"></a>
+		    <td width="140" align="center" valign="middle" bgcolor="#FFFFFF">
+				<img src="/global_images2005/spacer.gif" alt="" width="1" height="8" hspace="0" vspace="0" border="0"><br>
+				
+				<!--<img src=""><br>-->
+				<img src="/shared_files/innovations/innovations_2004/5866/display5866.jpg"><br>
+				<a target="new" href="/shared_files/innovations/innovations_2004/5866/mainphoto5866.jpg">Click to enlarge.</a><br>	
+				<img src="/global_images2005/spacer.gif" alt="" width="1" height="11" hspace="0" vspace="0" border="0"><br>
+			</td>
+		    <td width="10"><img src="/global_images2005/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+		    <td valign="top" class="text" width="440"><img src="/global_images2005/spacer.gif" alt="" width="440" height="4" hspace="0" vspace="0" border="0"><br>
+				<table border="0" cellpadding="0" cellspacing="0" width="440">
+				<tr>
+					<td valign="top">
+					<span class="section_title">Category: Portable Electronics: Audio/Video</span><br><br>
+					
+					
+							<span class="subhead">New Media Life Inc.</span><!--&nbsp;&nbsp;[<a href="/attendees/directory/rd_exhibitor_details.asp?exhibid=">view exhibitor details</a>]--><br><br>
+						
+					<b>TAVI030</b><br>
+					
+					
+						<!--<span class="text_colored">Design by: In-House Designer</span><br>-->
+										
+							Design by: New Media Life Inc.<br>
+						
+						<a target="new" href="http://http://www.newmedialife.com">http://www.newmedialife.com</a>
+					<br><br>					
+					</td>
+					
+					<td width="75">
+						<table>
+						<tr>
+							<!-- people's choice logo -->
+							
+							<!-- BOI logo -->
+							<td><img src="/attendees/awards/innovations/images/best_of_2007.gif" align="right" border="0" alt="Best of Innovations Honoree" onMouseDown="javascript:Image_OnMouseDown()"></td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+					
+				TAVI 030, the world first and smallest portable wireless IPTV & Podcasting service device with satellite TV reception, lets you enjoy wireless VOD and contents service with HD TV support. 
+					<br><br>Location(s): South 1/21825
+					<!--<br><br>Location(s): Title sponsor of the NextGen Digital Lifestyles Home, CES Central Plaza-->
+				
+				<br><img src="/global_images2005/spacer.gif" alt="" width="1" height="26" hspace="0" vspace="0" border="0">
+			</td>
+		</tr>
+			
+		<table width="590" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img src="/global_images2005/1.0/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"></td>
+		</tr>
+		<tr><a name="6305"></a>
+		    <td width="140" align="center" valign="middle" bgcolor="#FFFFFF">
+				<img src="/global_images2005/spacer.gif" alt="" width="1" height="8" hspace="0" vspace="0" border="0"><br>
+				
+				<!--<img src=""><br>-->
+				<img src="/shared_files/innovations/innovations_2004/6305/display6305.jpg"><br>
+				<a target="new" href="/shared_files/innovations/innovations_2004/6305/mainphoto6305.JPG">Click to enlarge.</a><br>	
+				<img src="/global_images2005/spacer.gif" alt="" width="1" height="11" hspace="0" vspace="0" border="0"><br>
+			</td>
+		    <td width="10"><img src="/global_images2005/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+		    <td valign="top" class="text" width="440"><img src="/global_images2005/spacer.gif" alt="" width="440" height="4" hspace="0" vspace="0" border="0"><br>
+				<table border="0" cellpadding="0" cellspacing="0" width="440">
+				<tr>
+					<td valign="top">
+					<span class="section_title">Category: Portable Power</span><br><br>
+					
+					
+							<span class="subhead">ECOSOL Solar Technologies Inc.</span><br><br>
+						
+					<b>ECOSOL Power Stick</b><br>
+					
+					
+						<!--<span class="text_colored">Design by: In-House Designer</span><br>-->
+										
+							Design by: ECOSOL Solar Technologies Inc.<br>
+						
+						<a target="new" href="http://www.ecosolinc.com">www.ecosolinc.com</a>
+					<br><br>					
+					</td>
+					
+					<td width="75">
+						<table>
+						<tr>
+							<!-- people's choice logo -->
+							
+							<!-- BOI logo -->
+							<td><img src="/attendees/awards/innovations/images/best_of_2007.gif" align="right" border="0" alt="Best of Innovations Honoree" onMouseDown="javascript:Image_OnMouseDown()"></td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+					
+				The ECOSOL P-1 "POWER STICK"  
+Travel the world without the inconvenience of transformers and wires. Use it for all your portable electronic devices. 
+
+The ECOSOL POWER STICK  "Share the power!"
+					<br><br>Location(s): This honoree is not exhibiting at the 2007 International CES.
+				
+				<br><img src="/global_images2005/spacer.gif" alt="" width="1" height="26" hspace="0" vspace="0" border="0">
+			</td>
+		</tr>
+			
+		<table width="590" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img src="/global_images2005/1.0/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"></td>
+		</tr>
+		<tr><a name="6678"></a>
+		    <td width="140" align="center" valign="middle" bgcolor="#FFFFFF">
+				<img src="/global_images2005/spacer.gif" alt="" width="1" height="8" hspace="0" vspace="0" border="0"><br>
+				
+				<!--<img src=""><br>-->
+				<img src="/shared_files/innovations/innovations_2004/6678/display6678.jpg"><br>
+				<a target="new" href="/shared_files/innovations/innovations_2004/6678/mainphoto6678.JPG">Click to enlarge.</a><br>	
+				<img src="/global_images2005/spacer.gif" alt="" width="1" height="11" hspace="0" vspace="0" border="0"><br>
+			</td>
+		    <td width="10"><img src="/global_images2005/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+		    <td valign="top" class="text" width="440"><img src="/global_images2005/spacer.gif" alt="" width="440" height="4" hspace="0" vspace="0" border="0"><br>
+				<table border="0" cellpadding="0" cellspacing="0" width="440">
+				<tr>
+					<td valign="top">
+					<span class="section_title">Category: Retail Resources</span><br><br>
+					
+					
+							<span class="subhead">Hewlett-Packard Co.</span><!--&nbsp;&nbsp;[<a href="/attendees/directory/rd_exhibitor_details.asp?exhibid=">view exhibitor details</a>]--><br><br>
+						
+					<b>HP Photosmart ps1000 Studio</b><br>
+					
+					
+						<!--<span class="text_colored">Design by: In-House Designer</span><br>-->
+										
+							Design by: Hewlett-Packard Co.<br>
+						
+						<a target="new" href="http://www.hp.com">www.hp.com</a>
+					<br><br>					
+					</td>
+					
+					<td width="75">
+						<table>
+						<tr>
+							<!-- people's choice logo -->
+							
+							<!-- BOI logo -->
+							<td><img src="/attendees/awards/innovations/images/best_of_2007.gif" align="right" border="0" alt="Best of Innovations Honoree" onMouseDown="javascript:Image_OnMouseDown()"></td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+					
+				The HP Photosmart ps1000 Studio offers customers extended photo sharing options and gives retailers a photo-printing option to offer.  
+					<br><br>Location(s): South 3/31112
+					<!--<br><br>Location(s): Title sponsor of the NextGen Digital Lifestyles Home, CES Central Plaza-->
+				
+				<br><img src="/global_images2005/spacer.gif" alt="" width="1" height="26" hspace="0" vspace="0" border="0">
+			</td>
+		</tr>
+			
+		<table width="590" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img src="/global_images2005/1.0/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"></td>
+		</tr>
+		<tr><a name="5475"></a>
+		    <td width="140" align="center" valign="middle" bgcolor="#FFFFFF">
+				<img src="/global_images2005/spacer.gif" alt="" width="1" height="8" hspace="0" vspace="0" border="0"><br>
+				
+				<!--<img src=""><br>-->
+				<img src="/shared_files/innovations/innovations_2004/5475/display5475.jpg"><br>
+				<a target="new" href="/shared_files/innovations/innovations_2004/5475/mainphoto5475.jpg">Click to enlarge.</a><br>	
+				<img src="/global_images2005/spacer.gif" alt="" width="1" height="11" hspace="0" vspace="0" border="0"><br>
+			</td>
+		    <td width="10"><img src="/global_images2005/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+		    <td valign="top" class="text" width="440"><img src="/global_images2005/spacer.gif" alt="" width="440" height="4" hspace="0" vspace="0" border="0"><br>
+				<table border="0" cellpadding="0" cellspacing="0" width="440">
+				<tr>
+					<td valign="top">
+					<span class="section_title">Category: Telephones</span><br><br>
+					
+					
+							<span class="subhead">Philips</span><!--&nbsp;&nbsp;[<a href="/attendees/directory/rd_exhibitor_details.asp?exhibid=">view exhibitor details</a>]--><br><br>
+						
+					<b>Philips DECT Cordless Phone/Answering Machine</b><br>
+					
+					
+						<!--<span class="text_colored">Design by: In-House Designer</span><br>-->
+										
+							Design by: Philips<br>
+						
+						<a target="new" href="http://www.philips.com">www.philips.com</a>
+					<br><br>					
+					</td>
+					
+					<td width="75">
+						<table>
+						<tr>
+							<!-- people's choice logo -->
+							
+							<!-- BOI logo -->
+							<td><img src="/attendees/awards/innovations/images/best_of_2007.gif" align="right" border="0" alt="Best of Innovations Honoree" onMouseDown="javascript:Image_OnMouseDown()"></td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+					
+				Beauty meets sound in the new ID9371B -- pure indulgence crafted exclusively with you in mind. Sophisticated, sleek design features a unique acoustic chamber for superior sound. 
+					<br><br>Location(s): Central/13307
+					<!--<br><br>Location(s): Title sponsor of the NextGen Digital Lifestyles Home, CES Central Plaza-->
+				
+				<br><img src="/global_images2005/spacer.gif" alt="" width="1" height="26" hspace="0" vspace="0" border="0">
+			</td>
+		</tr>
+			
+		<table width="590" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img src="/global_images2005/1.0/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"></td>
+		</tr>
+		<tr><a name="5605"></a>
+		    <td width="140" align="center" valign="middle" bgcolor="#FFFFFF">
+				<img src="/global_images2005/spacer.gif" alt="" width="1" height="8" hspace="0" vspace="0" border="0"><br>
+				
+				<!--<img src=""><br>-->
+				<img src="/shared_files/innovations/innovations_2004/5605/display5605.jpg"><br>
+				<a target="new" href="/shared_files/innovations/innovations_2004/5605/mainphoto5605.jpg">Click to enlarge.</a><br>	
+				<img src="/global_images2005/spacer.gif" alt="" width="1" height="11" hspace="0" vspace="0" border="0"><br>
+			</td>
+		    <td width="10"><img src="/global_images2005/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+		    <td valign="top" class="text" width="440"><img src="/global_images2005/spacer.gif" alt="" width="440" height="4" hspace="0" vspace="0" border="0"><br>
+				<table border="0" cellpadding="0" cellspacing="0" width="440">
+				<tr>
+					<td valign="top">
+					<span class="section_title">Category: Video Accessories</span><br><br>
+					
+					
+							<span class="subhead">Jasco Products Company</span><!--&nbsp;&nbsp;[<a href="/attendees/directory/rd_exhibitor_details.asp?exhibid=">view exhibitor details</a>]--><br><br>
+						
+					<b>GE Quantum Digital Antenna</b><br>
+					
+					
+						<!--<span class="text_colored">Design by: In-House Designer</span><br>-->
+										
+							Design by: Jasco Products Company<br>
+						
+						<a target="new" href="http://jascoproducts.com">jascoproducts.com</a>
+					<br><br>					
+					</td>
+					
+					<td width="75">
+						<table>
+						<tr>
+							<!-- people's choice logo -->
+							
+							<!-- BOI logo -->
+							<td><img src="/attendees/awards/innovations/images/best_of_2007.gif" align="right" border="0" alt="Best of Innovations Honoree" onMouseDown="javascript:Image_OnMouseDown()"></td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+					
+				Jasco’s GE Quantum Digital Antenna with HD3 technology features an exclusive three-panel design made to receive digital television signals from multiple angles to eliminate constant repositioning of the antenna.
+					<br><br>Location(s): Central/9005
+					<!--<br><br>Location(s): Title sponsor of the NextGen Digital Lifestyles Home, CES Central Plaza-->
+				
+				<br><img src="/global_images2005/spacer.gif" alt="" width="1" height="26" hspace="0" vspace="0" border="0">
+			</td>
+		</tr>
+			
+		<table width="590" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img src="/global_images2005/1.0/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"></td>
+		</tr>
+		<tr><a name="6395"></a>
+		    <td width="140" align="center" valign="middle" bgcolor="#FFFFFF">
+				<img src="/global_images2005/spacer.gif" alt="" width="1" height="8" hspace="0" vspace="0" border="0"><br>
+				
+				<!--<img src=""><br>-->
+				<img src="/shared_files/innovations/innovations_2004/6395/display6395.jpg"><br>
+				<a target="new" href="/shared_files/innovations/innovations_2004/6395/mainphoto6395.jpg">Click to enlarge.</a><br>	
+				<img src="/global_images2005/spacer.gif" alt="" width="1" height="11" hspace="0" vspace="0" border="0"><br>
+			</td>
+		    <td width="10"><img src="/global_images2005/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+		    <td valign="top" class="text" width="440"><img src="/global_images2005/spacer.gif" alt="" width="440" height="4" hspace="0" vspace="0" border="0"><br>
+				<table border="0" cellpadding="0" cellspacing="0" width="440">
+				<tr>
+					<td valign="top">
+					<span class="section_title">Category: Video Displays</span><br><br>
+					
+					
+							<span class="subhead">Hewlett Packard</span><!--&nbsp;&nbsp;[<a href="/attendees/directory/rd_exhibitor_details.asp?exhibid=">view exhibitor details</a>]--><br><br>
+						
+					<b>HP SLC3760N MediaSmart 37" LCD</b><br>
+					
+					
+						<!--<span class="text_colored">Design by: In-House Designer</span><br>-->
+										
+							Design by: Hewlett Packard<br>
+						
+						<a target="new" href="http://www.hp.com">www.hp.com</a>
+					<br><br>					
+					</td>
+					
+					<td width="75">
+						<table>
+						<tr>
+							<!-- people's choice logo -->
+							
+							<!-- BOI logo -->
+							<td><img src="/attendees/awards/innovations/images/best_of_2007.gif" align="right" border="0" alt="Best of Innovations Honoree" onMouseDown="javascript:Image_OnMouseDown()"></td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+					
+				HP's MediaSmart LCD HDTV is a breakthrough in digital convergence, featuring wired and wireless Internet connectivity that allows consumers to directly connect to millions of songs, videos, movies and more.
+					<br><br>Location(s): South 3/31112
+					<!--<br><br>Location(s): Title sponsor of the NextGen Digital Lifestyles Home, CES Central Plaza-->
+				
+				<br><img src="/global_images2005/spacer.gif" alt="" width="1" height="26" hspace="0" vspace="0" border="0">
+			</td>
+		</tr>
+			
+		<table width="590" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img src="/global_images2005/1.0/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"></td>
+		</tr>
+		<tr><a name="5838"></a>
+		    <td width="140" align="center" valign="middle" bgcolor="#FFFFFF">
+				<img src="/global_images2005/spacer.gif" alt="" width="1" height="8" hspace="0" vspace="0" border="0"><br>
+				
+				<!--<img src=""><br>-->
+				<img src="/shared_files/innovations/innovations_2004/5838/display5838.jpg"><br>
+				<a target="new" href="/shared_files/innovations/innovations_2004/5838/mainphoto5838.jpg">Click to enlarge.</a><br>	
+				<img src="/global_images2005/spacer.gif" alt="" width="1" height="11" hspace="0" vspace="0" border="0"><br>
+			</td>
+		    <td width="10"><img src="/global_images2005/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+		    <td valign="top" class="text" width="440"><img src="/global_images2005/spacer.gif" alt="" width="440" height="4" hspace="0" vspace="0" border="0"><br>
+				<table border="0" cellpadding="0" cellspacing="0" width="440">
+				<tr>
+					<td valign="top">
+					<span class="section_title">Category: Wireless Communications</span><br><br>
+					
+					
+							<span class="subhead">Sony Electronics Inc.</span><!--&nbsp;&nbsp;[<a href="/attendees/directory/rd_exhibitor_details.asp?exhibid=">view exhibitor details</a>]--><br><br>
+						
+					<b>Sony mylo personal communicator</b><br>
+					
+					
+						<!--<span class="text_colored">Design by: In-House Designer</span><br>-->
+										
+							Design by: Sony Electronics Inc.<br>
+						
+						<a target="new" href="http://www.sonystyle.com">www.sonystyle.com</a>
+					<br><br>					
+					</td>
+					
+					<td width="75">
+						<table>
+						<tr>
+							<!-- people's choice logo -->
+							
+							<!-- BOI logo -->
+							<td><img src="/attendees/awards/innovations/images/best_of_2007.gif" align="right" border="0" alt="Best of Innovations Honoree" onMouseDown="javascript:Image_OnMouseDown()"></td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+					
+				The Sony mylo is a convergent broadband communications and entertainment device that allows consumers to stay connected via instant messaging, web browsing, music, pictures and video in any WiFi hotspot.
+					<br><br>Location(s): Central/14200, North Hall Mtg. Rooms/N110
+					<!--<br><br>Location(s): Title sponsor of the NextGen Digital Lifestyles Home, CES Central Plaza-->
+				
+				<br><img src="/global_images2005/spacer.gif" alt="" width="1" height="26" hspace="0" vspace="0" border="0">
+			</td>
+		</tr>
+			
+		<table width="590" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img src="/global_images2005/1.0/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"></td>
+		</tr>
+		<tr><a name="5338"></a>
+		    <td width="140" align="center" valign="middle" bgcolor="#FFFFFF">
+				<img src="/global_images2005/spacer.gif" alt="" width="1" height="8" hspace="0" vspace="0" border="0"><br>
+				
+				<!--<img src=""><br>-->
+				<img src="/shared_files/innovations/innovations_2004/5338/display5338.jpg"><br>
+				<a target="new" href="/shared_files/innovations/innovations_2004/5338/mainphoto5338.jpg">Click to enlarge.</a><br>	
+				<img src="/global_images2005/spacer.gif" alt="" width="1" height="11" hspace="0" vspace="0" border="0"><br>
+			</td>
+		    <td width="10"><img src="/global_images2005/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+		    <td valign="top" class="text" width="440"><img src="/global_images2005/spacer.gif" alt="" width="440" height="4" hspace="0" vspace="0" border="0"><br>
+				<table border="0" cellpadding="0" cellspacing="0" width="440">
+				<tr>
+					<td valign="top">
+					<span class="section_title">Category: Wireless Peripherals</span><br><br>
+					
+					
+							<span class="subhead">Golan Technology                                  </span><!--&nbsp;&nbsp;[<a href="/attendees/directory/rd_exhibitor_details.asp?exhibid=">view exhibitor details</a>]--><br><br>
+						
+					<b>Virtual Keyboard</b><br>
+					
+					
+						<!--<span class="text_colored">Design by: In-House Designer</span><br>-->
+										
+							Design by: Lumio<br>
+						
+						<a target="new" href="http://www.golan-tech.com">www.golan-tech.com</a>
+					<br><br>					
+					</td>
+					
+					<td width="75">
+						<table>
+						<tr>
+							<!-- people's choice logo -->
+							
+							<!-- BOI logo -->
+							<td><img src="/attendees/awards/innovations/images/best_of_2007.gif" align="right" border="0" alt="Best of Innovations Honoree" onMouseDown="javascript:Image_OnMouseDown()"></td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+					
+				The Bluetooth(r) Virtual Keyboard(tm) projects a full sized laser keyboard, enables user to write emails, text messages or complete documents right into his PDA, SmartPhone(tm), Blackberry(tm) or Notebook PC.
+
+
+					<br><br>Location(s): Sands/IP202
+					<!--<br><br>Location(s): Title sponsor of the NextGen Digital Lifestyles Home, CES Central Plaza-->
+				
+				<br><img src="/global_images2005/spacer.gif" alt="" width="1" height="26" hspace="0" vspace="0" border="0">
+			</td>
+		</tr>
+			
+		<table width="590" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img src="/global_images2005/1.0/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"></td>
+		</tr>
+		<tr><a name="5785"></a>
+		    <td width="140" align="center" valign="middle" bgcolor="#FFFFFF">
+				<img src="/global_images2005/spacer.gif" alt="" width="1" height="8" hspace="0" vspace="0" border="0"><br>
+				
+				<!--<img src=""><br>-->
+				<img src="/shared_files/innovations/innovations_2004/5785/display5785.jpg"><br>
+				<a target="new" href="/shared_files/innovations/innovations_2004/5785/mainphoto5785.jpg">Click to enlarge.</a><br>	
+				<img src="/global_images2005/spacer.gif" alt="" width="1" height="11" hspace="0" vspace="0" border="0"><br>
+			</td>
+		    <td width="10"><img src="/global_images2005/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+		    <td valign="top" class="text" width="440"><img src="/global_images2005/spacer.gif" alt="" width="440" height="4" hspace="0" vspace="0" border="0"><br>
+				<table border="0" cellpadding="0" cellspacing="0" width="440">
+				<tr>
+					<td valign="top">
+					<span class="section_title">Category: Wireless Peripherals</span><br><br>
+					
+					
+							<span class="subhead">Sony Ericsson Inc.                             </span><!--&nbsp;&nbsp;[<a href="/attendees/directory/rd_exhibitor_details.asp?exhibid=">view exhibitor details</a>]--><br><br>
+						
+					<b>Sony Ericsson Bluetooth Watch MBW-100</b><br>
+					
+					
+						<!--<span class="text_colored">Design by: In-House Designer</span><br>-->
+										
+							Design by: Sony Ericsson  Inc.                             <br>
+						
+						<a target="new" href="http://www.sonyericsson.com">www.sonyericsson.com</a>
+					<br><br>					
+					</td>
+					
+					<td width="75">
+						<table>
+						<tr>
+							<!-- people's choice logo -->
+							
+							<!-- BOI logo -->
+							<td><img src="/attendees/awards/innovations/images/best_of_2007.gif" align="right" border="0" alt="Best of Innovations Honoree" onMouseDown="javascript:Image_OnMouseDown()"></td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+					
+				A stylish Bluetooth(tm) watch, the MBW-100, has classic looks, distinguished presence and lets you add control of calls and music to your watch, as well as notification of text messages. 
+					<br><br>Location(s): Central/14200, North Hall Mtg. Rooms/N110
+					<!--<br><br>Location(s): Title sponsor of the NextGen Digital Lifestyles Home, CES Central Plaza-->
+				
+				<br><img src="/global_images2005/spacer.gif" alt="" width="1" height="26" hspace="0" vspace="0" border="0">
+			</td>
+		</tr>
+			
+		</table>
+	
+
+<!-- /text for main page -->
+</div>
+
+<!--/attendees/awards/innovations/rd_judges.asp-->
+
+<!-- /center content -->
+    <br><br><br>
+    </td>
+    <td width="10" class="attendees7"><img src="/global_images2005/spacer.gif" height="1" width="10"></td>
+
+<!-- optional added value -->
+
+<!-- /optional added value -->
+
+</tr>
+<!-- /main body row -->
+
+<!-- shaded row above footer -->
+<tr>
+<td colspan=3 bgcolor="#CFD7C6"><img src="/global_images2005/spacer.gif" width="1" height="10"></td>
+
+</tr>
+<!-- /shaded row above footer -->
+
+</table>
+<table width="770" cellspacing="0" cellpadding="0" border="0">
+            <tr>
+     <td width="10"></td>
+     <td width="140"></td>
+     <td width="10"></td>
+     <td width="10" class="footer"><img src="/global_images2005/footer_left.gif" alt="(" width="10" height="30" hspace="0" vspace="0" border="0"></td>
+     <td width="380" background="/global_images2005/footer_bg.gif" class="footer"><span class="nav_footer"><a href="/about_ces/default.asp">About CES</a> | <a href="/faqs/default.asp">FAQs</a> | <a href="/contact_us/default.asp">Contact Us</a> | <a href="/sitemap.asp">Site Map</a> | <a href="/privacy_policy.asp">Privacy Policy</a> | <a href="/rd_vendors.asp">Vendors</a></span></td>
+     <td width="210" colspan="3" align="right" background="/global_images2005/footer_bg.gif" class="footer"><span class="nav_footer"> &#169; 2003-2006 CEA, All rights reserved</span></td>
+     <td width="10" class="footer"><img src="/global_images2005/footer_right.gif" alt=")" width="10" height="30" hspace="0" vspace="0" border="0"></td>
+</tr>   
+            </table>
+            <img src="/global_images2005/spacer.gif" alt="" width="1" height="20" hspace="0" vspace="0" border="0"">
+        </td>
+        <td width="50%" valign="top" class="attendeesBGImg">&nbsp;</td>
+    </tr>
+</table>
+
+<!-- IndexTools Customization Code -->
+<!-- Remove leading // to activate custom variables -->
+<script language="Javascript">
+//var DOCUMENTGROUP='';
+//var DOCUMENTNAME='';
+//var ACTION='';
+</script>
+<!-- End of Customization Code -->
+<!-- IndexTools Code v4.00 - All rights reserved -->
+<script language="javascript1.1" src="http://www.CESweb.org/indextools.js"></script><noscript>
+<img src="http://stats.indextools.com/p.pl?a=1000217290027&js=no" width="1" height="1"></noscript><!--//-->
+<!-- End of IndexTools Code -->
+ 
+</body>
+</html>

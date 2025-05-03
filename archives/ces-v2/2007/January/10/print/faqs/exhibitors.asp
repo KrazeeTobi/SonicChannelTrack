@@ -1,0 +1,604 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head><!-- PageID 1158 - published by RedDot 6.5 - 6.5.2.14 - 16244 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<!-- INSERT PAGE TITLE HERE (immediately following gblPAGE_TITLE) -->
+<title>2005 International CES:&nbsp;</title>
+
+<!-- INSERT SEARCH ZONE HERE -->
+ <META NAME="searchZone" CONTENT="generalCESweb">
+<link rel="StyleSheet" href="/print/global_includes/js/mainMethod.css" type="text/css">
+<LINK REL="SHORTCUT ICON" HREF="http://www.easymovement.com/ces/favicon.ico">
+<!-- Browser detection script -->
+    <script src="/print/global_includes/js/browser_detection.js" type="text/javascript"></script>
+<SCRIPT language="javascript1.2">
+    function newWin(urlString,pgNum) {
+        var popupWindow;
+        urlString += "?pageID=" + pgNum;
+ 
+        popupWindow = window.open(urlString,"","toolbar=yes,menubar=no,resizable=no,status=no,scrollbars=yes,location=no,directories=no,copyhistory=no,height=550,width=618,left=50,top=50");
+    }  
+ 
+    function openNewWindow(strURL) {
+        window.name = "main";
+        var newWindow = window.open(strURL,"newWindow", "toolbar=no,menubar=no,resizable=no,status=no,scrollbars=yes,location=no,directories=no,copyhistory=no,height=400,width=450,left=50,top=50");
+    }
+    // Script for e-mail this page - gets the url of the page the user is on before the e-mail page tool button is clicked
+    function loadReferrer() {
+        referrerString = opener.document.location.href;
+        document.emailForm.page.value = referrerString;
+    }
+</SCRIPT>
+<!-- Rollover script (do we still need these?) --> 
+<script language="javascript1.2"> 
+    /* for graphical rollovers */
+   function rollOver(which,name) 
+    {
+    var on="/global_images/1.0/1.0_" + which + "_r.gif";
+    if(document.images) {document.images[which].src=on;}
+    else if (document.GetElementById){document.GetElementById(name).src=on;}
+    }
+   function rollOff(which) 
+    {
+    var on="/global_images/1.0/1.0_" + which + ".gif";
+    if(document.images){document.images[which].src=on;}
+    else if (document.GetElementById){document.GetElementById(which).src=on;}
+    }
+   function introllOver(which,name) 
+    {
+    var on="/global_images/1.0/1.0_" + which + "_r.gif";
+    if(document.images) {document.images[which].src=on;}
+    else if (document.GetElementById){document.GetElementById(name).src=on;}
+    }
+   function introllOff(which) 
+    {
+    var on="/global_images/1.0/1.0_" + which + ".gif";
+    if(document.images){document.images[which].src=on;}
+    else if (document.GetElementById){document.GetElementById(which).src=on;}
+    }
+   function snrollOver(which,name) 
+    {
+    var on="/global_images/1.0/1.0" + which + "_r.gif";
+    if(document.images) {document.images[which].src=on;}
+    else if (document.GetElementById){document.GetElementById(name).src=on;}
+    }
+   function snrollOff(which) 
+    {
+    var on="/global_images/1.0/1.0" + which + ".gif";
+    if(document.images){document.images[which].src=on;}
+    else if (document.GetElementById){document.GetElementById(which).src=on;}
+    }
+        
+    //do we still need this?   
+    function onLoadHandler() {
+       if( typeof(bodyOnLoadFunction) != 'undefined' ) {
+           return eval(bodyOnLoadFunction);
+       }
+    }
+</script>
+<script language="javascript">
+    <!--
+    var activeNavId=0;
+    var thisPageUrl='/faqs/exhibitors.asp';
+    
+        var parentLinks=new Array('dummy','/print/faqs/default.asp');
+    
+        function checkActiveNav(theUrl) {
+            var linkUrl=theUrl;
+            var returnValue=false;
+            
+            if (linkUrl==thisPageUrl) {
+                returnValue=true;
+            } else if (parentLinks.length>2 && linkUrl==parentLinks[parentLinks.length-1]) {
+                returnValue=true;   
+            } else if (parentLinks.length>3 && linkUrl==parentLinks[parentLinks.length-2]) {
+                returnValue=true;
+            } else if (parentLinks.length>4 && linkUrl==parentLinks[parentLinks.length-3]) {
+                returnValue=true;
+            }
+        return returnValue;
+    }
+    //-->
+    </script>
+    <style>
+        <!--
+            .attendeesBGImg {
+                background-image: url('/print/global_images2005/attendees_bg.gif');
+            }
+            .text_colored, .intro_copy, .section_title, .subhead, .body_title, .intro_dates, .box10 {
+               color: #498429;
+            }
+            
+        //-->
+    </style>
+</head>
+<body leftmargin='0' topmargin='0' rightmargin='0' bottommargin='0' marginwidth='0' onLoad="onLoadHandler();self.focus();"> 
+<div style="position:absolute; top: 15; left: 15" ><a href='javascript:;' onClick='window.print();return false'><img src="/print/global_images2005/print.jpg" width="115" height="20" border="0" alt=""></a></div>
+<IMG SRC="/print/global_images2005/attPrintBanner.jpg" width="601" BORDER="0" vspace=0><br><table width="600" cellspacing="0" cellpadding="0" border="0">
+    <tr>
+<!-- /left column -->
+
+<!-- main body content -->    
+    <td width="10" class="attendees7"><img src="/print/global_images2005/spacer.gif" height="1" width="10"></td>
+    <td width="100%" class="attendees7" valign="top">
+    <img src="/print/global_images2005/spacer.gif" height="10" width="1"><br>
+<!-- center content -->
+
+
+<img src="/print/global_images2005/spacer.gif" height="10" width="1"><br><div class="body_title">Exhibitor FAQs<br><img src="/print/global_images2005/spacer.gif" height="16" width="1"></div>
+<div class="text">
+
+<!-- text for main page -->
+<a name="top"></a> 
+
+<ul>
+
+    <!--/print/faqs/1282.htm-->
+    <li class="attendees11"><a href="#1282">How do I order my free exhibitor invitations?</a>
+    
+
+    <!--/print/faqs/1281.htm-->
+    <li><a href="#1281">How do I get/update my company information for the directory?</a>
+    
+
+    <!--/print/faqs/1280.htm-->
+    <li class="attendees11"><a href="#1280">What is the Cancellation Policy?</a>
+    
+
+    <!--/print/faqs/1279.htm-->
+    <li><a href="#1279">What is my exhibitor login?</a>
+    
+
+    <!--/print/faqs/1278.htm-->
+    <li class="attendees11"><a href="#1278">How do I find my current booth number?</a>
+    
+
+    <!--/print/faqs/1277.htm-->
+    <li><a href="#1277">When is International CES open space selection for the 2008 show? (how, when, where)</a>
+    
+
+    <!--/print/faqs/1276.htm-->
+    <li class="attendees11"><a href="#1276">Who do I contact regarding my booth space?</a>
+    
+
+    <!--/print/faqs/1275.htm-->
+    <li><a href="#1275">Our badges have not arrived. What do we do?</a>
+    
+
+    <!--/print/faqs/1274.htm-->
+    <li class="attendees11"><a href="#1274">When will we receive our badges?</a>
+    
+
+    <!--/print/faqs/1273.htm-->
+    <li><a href="#1273">How many complimentary badges do we have?</a>
+    
+
+    <!--/print/faqs/1272.htm-->
+    <li class="attendees11"><a href="#1272">How do we register our booth personnel?</a>
+    
+
+    <!--/print/faqs/1271.htm-->
+    <li><a href="#1271">How do we get hotel rooms for our staff?</a>
+    
+
+    <!--/print/faqs/1270.htm-->
+    <li class="attendees11"><a href="#1270">Can we use a hanging sign?</a>
+    
+
+    <!--/print/faqs/1269.htm-->
+    <li><a href="#1269">Can we build towers in our booth?</a>
+    
+
+    <!--/print/faqs/1268.htm-->
+    <li class="attendees11"><a href="#1268">When can we move into our booths?</a>
+    
+
+    <!--/print/faqs/1267.htm-->
+    <li><a href="#1267">Where do we get information on booth rules and regulations?</a>
+    
+
+    <!--/print/faqs/1266.htm-->
+    <li class="attendees11"><a href="#1266">How do I get information and order forms for the things we'll need in our booth?</a>
+    
+
+    <!--/print/faqs/1265.htm-->
+    <li><a href="#1265">When will I receive my invoice?</a>
+    
+
+    <!--/print/faqs/1264.htm-->
+    <li class="attendees11"><a href="#1264">What is the payment schedule for the 2007 International CES?</a>
+    
+
+    <!--/print/faqs/1262.htm-->
+    <li><a href="#1262">How can I pay my outstanding balance?</a>
+    
+
+    <!--/print/faqs/1261.htm-->
+    <li class="attendees11"><a href="#1261">How do I pay for my exhibit space?</a>
+    
+
+</ul>
+<br>
+<a name="1282"></a>
+<img src="/print/global_images2005/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"><br>
+
+<img src="/print/global_images2005/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"><br>
+<img src="/print/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+
+<span class="subhead">How do I order my free exhibitor invitations?</span><br>
+<br>
+Each exhibitor will be mailed 100 exhibitor invitations, allowing free online attendee registration or $25 off the on-site Exhibits Plus Pass fee. Send them to your most valued customers. You may order up to <A href="/print/exhibitors/promotions/free.asp#689">10,000 free exhibitor invitations</A>.
+<br><img src="/print/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+[<a href="#top">return to question list</a>]
+<br><a name="1281"></a>
+<img src="/print/global_images2005/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"><br>
+
+<img src="/print/global_images2005/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"><br>
+<img src="/print/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+
+<span class="subhead">How do I get/update my company information for the directory?</span><br>
+<br>
+<A href="/print/exhibitors/resource_center/directory/default.asp">Update your directory listing online</A>, including company contact information, new product updates, press conferences, and company logo. Need help? Please call (703) 907-4337.
+<br><img src="/print/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+[<a href="#top">return to question list</a>]
+<br><a name="1280"></a>
+<img src="/print/global_images2005/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"><br>
+
+<img src="/print/global_images2005/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"><br>
+<img src="/print/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+
+<span class="subhead">What is the Cancellation Policy?</span><br>
+<br>
+All cancellations must be in writing. When canceling, an exhibitor is financially liable for all costs associated with their space up to that point. For example, if an exhibitor cancels after the 20% payment deadline, they are responsible for 20% of the booth space fee. See your International CES Exhibit Space Contract for detailed information. Please contact Exhibitor Services at (703) 907-7662 for more information. <BR><BR>Cancellation after June 1 - 60% liable.<BR>Cancellation after October 1 - 100% liable.
+<br><img src="/print/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+[<a href="#top">return to question list</a>]
+<br><a name="1279"></a>
+<img src="/print/global_images2005/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"><br>
+
+<img src="/print/global_images2005/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"><br>
+<img src="/print/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+
+<span class="subhead">What is my exhibitor login?</span><br>
+<br>
+The exhibitor login is the same as your exhibitor ID number that can be found on your show invoice.
+<br><img src="/print/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+[<a href="#top">return to question list</a>]
+<br><a name="1278"></a>
+<img src="/print/global_images2005/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"><br>
+
+<img src="/print/global_images2005/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"><br>
+<img src="/print/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+
+<span class="subhead">How do I find my current booth number?</span><br>
+<br>
+Contact Exhibitor Services at (703) 907-4337.
+<br><img src="/print/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+[<a href="#top">return to question list</a>]
+<br><a name="1277"></a>
+<img src="/print/global_images2005/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"><br>
+
+<img src="/print/global_images2005/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"><br>
+<img src="/print/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+
+<span class="subhead">When is International CES open space selection for the 2008 show? (how, when, where)</span><br>
+<br>
+Exhibitors are provided with scheduled dates and times to select exhibit space. However, anyone can drop by the Space Selection Room in the LVCC South Hall Meeting Room Connector (Room S223) or in Sands Room&nbsp;102 during show hours. For more information on priority points or to schedule a space selection time contact Sylvia DeVore at (703) 907-7615.
+<br><img src="/print/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+[<a href="#top">return to question list</a>]
+<br><a name="1276"></a>
+<img src="/print/global_images2005/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"><br>
+
+<img src="/print/global_images2005/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"><br>
+<img src="/print/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+
+<span class="subhead">Who do I contact regarding my booth space?</span><br>
+<br>
+<TABLE cellSpacing=0 cellPadding=2 width=590 border=0>
+<TBODY>
+<TR>
+<TD><SPAN class=black>Location</SPAN></TD>
+<TD><SPAN class=black>Contact Name and Phone Number</SPAN></TD>
+<TR class=attendees11>
+<TD vAlign=top width=300>General show inquiries</TD>
+<TD width=290>Customer Service Center (866) 233-7968 or if calling internationally, (1-011-301) 631-3983</TD></TR>
+<TR>
+<TD vAlign=top width=300>New account inquiries</TD>
+<TD width=290>Pam Sydnor (703) 907-7662</TD></TR>
+<TR class=attendees11>
+<TD vAlign=top>Las Vegas Hilton (including Hilton Suites),&nbsp; Renaissance Suites, and Venetian Suites</TD>
+<TD vAlign=top>Tara Zimmer&nbsp;(703) 907-4307</TD></TR>
+<TR>
+<TD vAlign=top>International Gateway at the Hilton and Sands Expo and Convention Center</TD>
+<TD>Angela Newburn&nbsp;(703) 907-7648</TD></TR>
+<TR class=attendees11>
+<TD vAlign=top>CES Meeting Place in South Hall 4 and Sands Expo and Convention Center</TD>
+<TD>Robin Shultz&nbsp;(703) 907-7661</TD></TR>
+<TR>
+<TD vAlign=top>North Halls and N-meeting rooms</TD>
+<TD>Shari Gray&nbsp;(703) 907-7025</TD></TR>
+<TR class=attendees11>
+<TD vAlign=top>South Halls 3-4</TD>
+<TD>Angela Newburn&nbsp;(703) 907-7648</TD>
+<TR>
+<TD vAlign=top>South Halls 1-2<BR>Central Halls<BR>High-performance Audio &amp; Home Theater at The Venetian<BR>Sands Expo and Convention Center</TD>
+<TD>
+<P>Juan Veizaga&nbsp;(703) 907-4342<BR>Tira Gordon (703) 907-4324<BR>Tira Gordon (703) 907-4324<BR>Robin Shultz (703) 907-7661</P></TD></TR>
+<TR class=attendees11>
+<TD vAlign=top>Operations/Booth Logistics</TD>
+<TD>
+<P>LVCC&nbsp;and Las Vegas Hilton: <BR>Katie Swearingen, (703) 907-7637<BR>Sands Expo and&nbsp;Convention Center/The Venetian:<BR>Gaiya Sims, (703) 907-7685&nbsp;<BR><BR>International CES Operations (703) 907-4308 </P></TD></TR>
+<TR>
+<TD>Promotional Opportunities</TD>
+<TD>Promotional Opportunities (703) 907-7688 </TD></TR>
+<TR class=attendees11>
+<TD vAlign=top>On-site Banners</TD>
+<TD>Liz Tardif (401) 849-9300</TD></TR>
+<TR>
+<TD vAlign=top>PR/Communications</TD>
+<TD>Exhibitor PR Liaison (703) 907-7626</TD></TR>
+<TR class=attendees11>
+<TD>Exhibitor Directory</TD>
+<TD>Exhibitor Directory Liaison (703) 907-4337</TD></TR></TBODY></TABLE>
+<br><img src="/print/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+[<a href="#top">return to question list</a>]
+<br><a name="1275"></a>
+<img src="/print/global_images2005/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"><br>
+
+<img src="/print/global_images2005/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"><br>
+<img src="/print/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+
+<span class="subhead">Our badges have not arrived. What do we do?</span><br>
+<br>
+If you registered prior to December&nbsp;5 and have not received your badges, don't worry! If you do not receive your badges prior to the show, you may pick them up on-site at one of our many <A href="/print/faqs/general.asp#1439">registration areas</A>. Exhibitors can pick up badges and badge holders on-site in Las Vegas beginning&nbsp;Friday, January 5. Contact International CES Customer Service with questions by e-mail at <A href="mailto:exhreg@ce.org">exhreg@ce.org</A> or by calling (866) 233-7968 or (301) 694-5243.
+<br><img src="/print/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+[<a href="#top">return to question list</a>]
+<br><a name="1274"></a>
+<img src="/print/global_images2005/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"><br>
+
+<img src="/print/global_images2005/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"><br>
+<img src="/print/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+
+<span class="subhead">When will we receive our badges?</span><br>
+<br>
+International CES begins mailing exhibitor badges in October. Registering before Friday December&nbsp;5 helps ensure you receive your badge by mail before the show. If you register after December 5, the International CES will still mail your badge, but cannot guarantee delivery because of holiday mail delays. If you do not receive your badge by mail, please report to one of our <A href="/print/faqs/general.asp#1439">on-site registration areas</A>.
+<br><img src="/print/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+[<a href="#top">return to question list</a>]
+<br><a name="1273"></a>
+<img src="/print/global_images2005/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"><br>
+
+<img src="/print/global_images2005/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"><br>
+<img src="/print/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+
+<span class="subhead">How many complimentary badges do we have?</span><br>
+<br>
+You are entitled to five badges per 10x10 space with a minimum of 10 badges. Once you have exceeded your allotment there will be a $10 per badge charge. Please contact CES Customer Service at (866) 233-7968 or (301) 694-5243 with questions.
+<br><img src="/print/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+[<a href="#top">return to question list</a>]
+<br><a name="1272"></a>
+<img src="/print/global_images2005/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"><br>
+
+<img src="/print/global_images2005/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"><br>
+<img src="/print/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+
+<span class="subhead">How do we register our booth personnel?</span><br>
+<br>
+You can <A href="/exhibitors/resource_center/badges/login.asp">register your booth staff</A> online.<BR><BR>In order to receive badges in the mail prior to the show, please register all personnel by December 5.<BR>After December 5, badge delivery&nbsp;cannot be guaranteed, due to holiday mail delays.<BR><BR>For assistance, please contact CES Customer Service at (866) 233-7968 or via e-mail at <A href="mailto:exhreg@CE.org">exhreg@CE.org</A>. 
+<br><img src="/print/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+[<a href="#top">return to question list</a>]
+<br><a name="1271"></a>
+<img src="/print/global_images2005/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"><br>
+
+<img src="/print/global_images2005/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"><br>
+<img src="/print/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+
+<span class="subhead">How do we get hotel rooms for our staff?</span><br>
+<br>
+The earlier you make reservations, the better chance you have at getting the hotel rooms and rates you want. Visit our <A href="/print/attendees/travel/default.asp">travel</A> section to access participating hotel websites, book rooms and receive real-time hotel confirmation numbers. If you require a group room block (20 rooms or more), each hotel will respond to you within three business days regarding rates, availability and confirmation deadline. <BR><BR>Questions regarding hotel reservations can be e-mailed to <A href="mailto:CEShotels@ce.org">CEShotels@ce.org</A>.
+<br><img src="/print/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+[<a href="#top">return to question list</a>]
+<br><a name="1270"></a>
+<img src="/print/global_images2005/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"><br>
+
+<img src="/print/global_images2005/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"><br>
+<img src="/print/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+
+<span class="subhead">Can we use a hanging sign?</span><br>
+<br>
+Hanging signs are permitted in island or peninsula booths which are 400 square feet or larger. There is no limit to the quantity or size of hanging signs allowed in island or peninsula booths, and these exhibitors may utilize their space as they wish, as long as the height restriction and other hanging sign rules are maintained.<BR><BR>The height of the hanging sign from the floor to the top of the sign may not exceed the following height limits. Due to the fixed height of ceilings, the following height restrictions are not subject to variances.<BR><BR>
+<TABLE cellSpacing=0 cellPadding=0 width=300 border=0>
+<TBODY>
+<TR>
+<TD width=150><SPAN class=black>Location</SPAN></TD>
+<TD><SPAN class=black>Maximum Height (feet)</SPAN></TD></TR>
+<TR class=attendees11>
+<TD>LVCC North 1, 2, 3, 4</TD>
+<TD>30’</TD></TR>
+<TR>
+<TD width=150>LVCC Central 1,2</TD>
+<TD>20'</TD></TR>
+<TR class=attendees11>
+<TD>LVCC Central 3,4,5</TD>
+<TD>30'</TD></TR>
+<TR>
+<TD width=150>LVCC South 1,2</TD>
+<TD>22'</TD></TR>
+<TR class=attendees11>
+<TD>LVCC South 3,4</TD>
+<TD>22'</TD></TR>
+<TR>
+<TD>Sands Halls B,&nbsp;C &amp; D&nbsp;</TD>
+<TD>25'&nbsp;</TD></TR>
+<TR>
+<TD width=150>Las Vegas Hilton Pavilion</TD>
+<TD>20'*</TD></TR>
+<TR class=attendees11>
+<TD>Las Vegas Hilton Center</TD>
+<TD>20'*</TD></TR></TBODY></TABLE><BR>*Hanging signs are not permitted in the Hilton Ballroom.<BR><BR><STRONG>Note for SANDS exhibitors:</STRONG><BR>Hanging signs (in excess of 200 pounds or any sign that requires electrical) displayed in the Sands must be approved in advance by Specialized Event Services and submitted with the Rigging/Hanging Sign order form located in the SES Services Brochure.&nbsp;The brochure can be found in your Exhibitor Service Manual under the “Sands Utilities” tab.<BR><BR>Hanging signs (that weigh less than 200 pounds &amp; DO NOT require electrical) displayed in the Sands must be approved in advance by GES and submitted with GES’ Hanging Sign/Truss order form located in the section of your Manual titled “GES Order Forms.”</SPAN>
+<br><img src="/print/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+[<a href="#top">return to question list</a>]
+<br><a name="1269"></a>
+<img src="/print/global_images2005/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"><br>
+
+<img src="/print/global_images2005/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"><br>
+<img src="/print/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+
+<span class="subhead">Can we build towers in our booth?</span><br>
+<br>
+Towers are only permitted in peninsula and island booths that are 400 square feet or larger. There is no limit to the quantity or size of towers allowed in island booths. Island exhibitors may utilize their space as they wish, as long as the following tower guidelines and rules are maintained:
+<UL>
+<LI>Towers exceeding maximum booth heights are not permitted in exhibits that are smaller than 400 square feet. </LI>
+<LI>The maximum tower height permitted is as follows: </LI></UL>
+<TABLE cellSpacing=0 cellPadding=0 width=300 border=0>
+<TBODY>
+<TR>
+<TD width=150><B>Location</B></TD>
+<TD><B>Maximum Height (feet)</B></TD></TR>
+<TR class=attendees11>
+<TD>LVCC North 1, 2, 3, 4</TD>
+<TD>30'</TD></TR>
+<TR>
+<TD>LVCC Central 1,2</TD>
+<TD>20'</TD></TR>
+<TR class=attendees11>
+<TD>LVCC Central 3,4,5</TD>
+<TD>30'</TD></TR>
+<TR>
+<TD>LVCC South 1,2</TD>
+<TD>22'</TD></TR>
+<TR class=attendees11>
+<TD>LVCC South 3,4</TD>
+<TD>22'</TD></TR>
+<TR>
+<TD>Sands Halls B, C &amp; D&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+<TD>25'&nbsp;</TD></TR>
+<TR>
+<TD>Las Vegas Hilton</TD>
+<TD>20'*</TD></TR></TR></TBODY></TABLE><BR><SPAN class=text_colored>*Ceiling height varies in the Hilton Ballroom. Consult the ceiling height floor plan in your manual before planning displays over 12' or contact CES Operations at <A href="mailto:cesops@ce.org">cesops@ce.org</A>.</SPAN>
+<br><img src="/print/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+[<a href="#top">return to question list</a>]
+<br><a name="1268"></a>
+<img src="/print/global_images2005/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"><br>
+
+<img src="/print/global_images2005/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"><br>
+<img src="/print/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+
+<span class="subhead">When can we move into our booths?</span><br>
+<br>
+Exhibitor move-in dates are targeted and based on booth size and location within each hall. Color-coded target move-in maps will be mailed with the exhibitor manuals in early September. You can request a change to your target move date by e-mailing&nbsp;GES Exposition Services at <A href="mailto:cesfreight@ges.com">cesfreight@ges.com</A>. Please note that additional charges may apply if your target date is altered.
+<br><img src="/print/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+[<a href="#top">return to question list</a>]
+<br><a name="1267"></a>
+<img src="/print/global_images2005/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"><br>
+
+<img src="/print/global_images2005/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"><br>
+<img src="/print/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+
+<span class="subhead">Where do we get information on booth rules and regulations?</span><br>
+<br>
+Rules and regulations can be found under the Regulations tab of the Exhibitor Manual, or online at <A href="default.htm">www.CESweb.org</A>. E-mail CES Operations at <A href="mailto:cesops@ce.org">cesops@ce.org</A> for specific questions.
+<br><img src="/print/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+[<a href="#top">return to question list</a>]
+<br><a name="1266"></a>
+<img src="/print/global_images2005/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"><br>
+
+<img src="/print/global_images2005/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"><br>
+<img src="/print/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+
+<span class="subhead">How do I get information and order forms for the things we'll need in our booth?</span><br>
+<br>
+Exhibitor manuals, which contain all the forms an exhibitor needs, will be mailed in early September. The exhibitor manual and downloadable order forms will also be available on CESweb.org starting September 1. <BR><BR>If you did not receive your Exhibitor Manual or need additional manuals, e-mail <A href="mailto:CESops@CE.org">CESops@CE.org</A> to request one. Please include <STRONG>all</STRONG> of the following information in your e-mail request: 
+<UL>
+<LI>Name </LI>
+<LI>Company Name </LI>
+<LI>Company Mailing Address (no P.O. Boxes) </LI>
+<LI>Show Location (LVCC, Hilton, Sands/The Venetian) </LI>
+<LI>Booth Number </LI>
+<LI>How many manuals you are requesting </LI></UL><BR>Manuals requested via e-mail will be shipped using UPS Ground and should arrive within 10 days after we receive your e-mail. <BR><BR>The deadline for GES order forms (the majority of forms in the manual) is December 18. These forms request items such as carpeting, furnishing and shipping information. Electrical and hanging sign services are due to GES on December 11.&nbsp; Questions regarding these forms can be directed to the GES Exhibitor Hotline at (800) 475-2098 or e-mail <A href="mailto:servicenter@ges.com">servicenter@ges.com</A>. <BR><BR>If you are a <B>Sands</B>&nbsp;exhibitor and are ordering services through Specialized Event Services (SES), the deadline for these forms is December 19. Questions regarding these forms can be directed to SES at (702) 733-5070. The SES brochure&nbsp;and forms are located in your Exhibitor Service Manual under the “Sands Utilities” tab. <BR><BR>Please note: SES is the exclusive provider of electrical, rigging, telephone, Internet, and cleaning at the Sands Expo and Convention Center/The Venetian.
+<br><img src="/print/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+[<a href="#top">return to question list</a>]
+<br><a name="1265"></a>
+<img src="/print/global_images2005/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"><br>
+
+<img src="/print/global_images2005/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"><br>
+<img src="/print/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+
+<span class="subhead">When will I receive my invoice?</span><br>
+<br>
+Invoices are typically mailed to the exhibitor a week after the space contract has been approved.<BR><BR>For specific questions regarding your invoice or any other exhibitor accounts questions, please e-mail <A href="mailto:CESaccounts@CE.org">CESaccounts@CE.org</A> or call Scott Kromer at (703) 907-7020.
+<br><img src="/print/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+[<a href="#top">return to question list</a>]
+<br><a name="1264"></a>
+<img src="/print/global_images2005/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"><br>
+
+<img src="/print/global_images2005/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"><br>
+<img src="/print/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+
+<span class="subhead">What is the payment schedule for the 2007 International CES?</span><br>
+<br>
+The payments schedule is as follows:
+<UL>
+<LI>20% of total cost is due March 1, 2006</LI>
+<LI>60% of total cost is due June 1, 2006</LI>
+<LI>100% of total cost is due October 1, 2006 </LI></UL><BR><EM>All contracts received after October 1 must be accompanied by 100% payment.</EM>
+<br><img src="/print/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+[<a href="#top">return to question list</a>]
+<br><a name="1262"></a>
+<img src="/print/global_images2005/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"><br>
+
+<img src="/print/global_images2005/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"><br>
+<img src="/print/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+
+<span class="subhead">How can I pay my outstanding balance?</span><br>
+<br>
+You may pay by either: 
+<UL>
+<LI>Check or money order</LI>
+<LI>Credit card</LI>
+<LI>Wire transfer </LI></UL>
+<P>All payments must be made in U.S. currency.</P>
+<UL>
+<LI>To pay by checks or money orders, please send payments to: International CES, P.O. Box 79418, Baltimore, MD 21279-0418</LI>
+<LI>You may also pay by American Express, Visa, MasterCard or Discover.</LI>
+<LI>Please complete all information on the Credit Card Authorization Form and fax to (703) 907-7691.</LI>
+<LI>Please review the wire transfer information for all payments made by wire. </LI></UL>
+<br><img src="/print/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+[<a href="#top">return to question list</a>]
+<br><a name="1261"></a>
+<img src="/print/global_images2005/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"><br>
+
+<img src="/print/global_images2005/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"><br>
+<img src="/print/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+
+<span class="subhead">How do I pay for my exhibit space?</span><br>
+<br>
+Exhibitors are to pay in U.S. currency only.
+<P><STRONG>Mail checks and money orders to:</STRONG><BR>International CES<BR>P.O. Box 79418<BR>Baltimore, MD 21279-0418</P>
+<P><STRONG>Exhibitors can pay via credit card by:<BR></STRONG>Completing and faxing the lower portion of your invoice to (703) 907-7691. We accept MasterCard, Visa, American Express and Discover.</P><STRONG>For wire transfer information, or if you have lost your invoice and would like a credit card authorization form faxed to you, contact:</STRONG><BR>Brian Moon&nbsp;(703) 907-7618<BR>
+<br><img src="/print/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+[<a href="#top">return to question list</a>]
+<br>
+<!-- /text for main page -->
+</div>
+
+<!-- /center content -->
+    <br><br><br>
+    </td>
+    <td width="10" class="attendees7"><img src="/print/global_images2005/spacer.gif" height="1" width="10"></td>
+<!-- optional added value -->
+
+<!-- /optional added value -->
+</tr>
+<!-- /main body row -->
+<!---->
+<!--/print/faqs/general.asp
+
+/print/faqs/press.asp
+
+/print/faqs/exhibitors.asp
+
+/print/faqs/speakers.asp
+
+-->
+</table>
+</body>
+</html>
