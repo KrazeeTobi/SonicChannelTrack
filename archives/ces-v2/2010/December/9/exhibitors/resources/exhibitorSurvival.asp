@@ -1,0 +1,1276 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><!-- PageID 4558 - published by Open Text Web Solutions 10 - 10.0.0.57 - 29635 -->
+    <!-- force IE7 compatability mode -->
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+    <title>2011 CES: Exhibitor Survival Kit</title>
+
+    
+<link type="text/css" rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" />
+
+
+
+<link type="text/css" rel="stylesheet" href="/css/styles.css" />
+
+<link type="text/css" rel="stylesheet" href="/css/HPtemplate_css.css" />
+
+<link type="text/css" rel="stylesheet" href="/css/pyxl_home.css" />
+
+<link type="text/css" rel="stylesheet" href="/css/sub_page.css" />
+
+
+
+
+<!--[if IE 6]>
+<link href="http://www.cesweb.org/css/ie6only_css-int.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+
+
+
+<script type="text/javascript" src="/utilities/interest.js"></script>
+
+<script type="text/javascript" src="/utilities/mainNav.js"></script>
+
+<script type="text/javascript" src="/utilities/rollOver.js"></script>
+
+<script type="text/javascript" src="/utilities/jquery.flow.1.2.auto.js"></script>
+
+<script type="text/javascript" src="/utilities/jquery.colorbox-min.js"></script>
+
+<script type="text/javascript" src="/utilities/jflickrfeed.min.js"></script>
+
+<script type="text/javascript" src="/utilities/jquery.easing.1.2.js"></script>
+
+<script type="text/javascript" src="/utilities/jquery.anythingslider.js"></script>
+
+<script type="text/javascript" src="/utilities/jquery.countdown.js"></script>
+
+<script type="text/javascript" src="/utilities/jquery.jfeed.js"></script>
+
+<script type="text/javascript" src="/utilities/jquery.jgfeed.js"></script>
+
+<script>
+    $(document).ready(function() {
+        if($('#tabs').length != 0){
+            $("#tabs").tabs();
+        }
+if($('#twitter').length != 0){
+$("#twitter").getTwitter({
+userName: "intlces",
+numTweets: 20,
+loaderText: "Loading tweets...",
+slideIn: false,
+showHeading: false,
+headingText: "Latest Tweets",
+showProfileLink: true
+});
+}
+        $(document).bind('cbox_complete', function(){
+        setTimeout($('#colorbox').show(), 1500);
+        });
+    });
+</script>
+
+
+<script type="text/javascript">
+    function formatText(index, panel) {
+      return index + "";
+    }
+    $(function () {
+    
+        $('.anythingSlider').anythingSlider({
+            easing: "easeInOutExpo",        // Anything other than "linear" or "swing" requires the easing plugin
+            autoPlay: true,                 // This turns off the entire FUNCTIONALY, not just if it starts running or not.
+            delay: 6000,                    // How long between slide transitions in AutoPlay mode
+            startStopped: false,            // If autoPlay is on, this can force it to start stopped
+            animationTime: 1200,             // How long the slide transition takes
+            hashTags: false,                 // Should links change the hashtag in the URL?
+            buildNavigation: true,          // If true, builds and list of anchor links to link to each slide
+            pauseOnHover: true,             // If true, and autoPlay is enabled, the show will pause on hover
+            startText: " ",                // Start text
+            stopText: " ",                 // Stop text
+            navigationFormatter: formatText       // Details at the top of the file on this use (advanced use)
+        });
+        
+        $("#slide-jump").click(function(){
+            $('.anythingSlider').anythingSlider(3);
+        });
+        
+    });
+</script>
+
+<script type="text/javascript">
+    var revert = new Array();
+    var inames = new Array('cesweb_menu_exhibitor', 'cesweb_menu_conference', 'cesweb_menu_events', 'cesweb_menu_awards', 'cesweb_menu_showfloor', 'cesweb_menu_hoteltravel', 'cesweb_menu_news', 'cesweb_menu_faq', 'cesweb_register', 'cesweb_exhibit', 'cesweb_exhibitors', 'cesweb_press', 'cesweb_visitors', 'entertainment_matters'  );
+    // Preload
+    if (document.images) {
+        var flipped = new Array();
+        for(i=0; i< inames.length; i++) {
+            flipped[i] = new Image();
+            switch (i)
+            {
+                case 0:
+                    flipped[i].src = '/images/framework/cesweb_menu_exhibitor2.png';
+                    break;
+                case 1:
+                    flipped[i].src = '/images/framework/cesweb_menu_conference2.png';
+                    break;
+                case 2:
+                    flipped[i].src = '/images/framework/cesweb_menu_events2.png';
+                    break;
+                case 3:
+                    flipped[i].src = '/images/framework/cesweb_menu_awards2.png';
+                    break;
+                case 4:
+                    flipped[i].src = '/images/framework/cesweb_menu_showfloor2.png';
+                    break;
+                case 5:
+                    flipped[i].src = '/images/framework/cesweb_menu_hoteltravel2.png';
+                    break;
+                case 6:
+                    flipped[i].src = '/images/framework/cesweb_menu_news2.png';
+                    break;
+                case 7:
+                    flipped[i].src = '/images/framework/cesweb_menu_faq2.png';
+                    break;
+                case 8:
+                    flipped[i].src = '/images/framework/cesweb_register2.png';
+                    break;
+                case 9:
+                    flipped[i].src = '/images/framework/cesweb_exhibit2.png';
+                    break;
+                case 10:
+                    flipped[i].src = '/images/framework/cesweb_exhibitors2.png'
+                    break;
+                case 11:
+                    flipped[i].src = '/images/framework/cesweb_press2.png';
+                    break;
+                case 12:
+                    flipped[i].src = '/images/framework/cesweb_visitors2.png';
+                    break;
+                case 13:
+                    flipped[i].src = '/images/framework/EMatCES2.jpg';
+                    break;
+                default:
+            }
+        }
+    }
+    function over(num) {
+      if(document.images) {
+        revert[num] = document.images[inames[num]].src;
+        document.images[inames[num]].src = flipped[num].src;
+      }          
+    }
+    function out(num) {
+      if(document.images) document.images[inames[num]].src = revert[num];
+    }
+</script>
+<script type="text/javascript">
+    $(function () {
+        var austDay = new Date();
+        austDay = new Date(austDay.getFullYear(), 13 - 1, 6, 8);
+        $('#countdown').countdown({until: austDay, format: 'dHMS' });
+    });
+</script>
+<script type="text/javascript">
+    //News Script
+    jQuery(function() {
+        jQuery.getFeed({
+            url: 'rssNews.xml',
+            success: function(feed) {
+                  
+                var html = '';      
+                for(var i = 0; i < feed.items.length && i < 15; i++) {
+        if(i==0){html += '<div id="news_1">'}        
+                    var item = feed.items[i];
+                    
+                    html += '<div id="news-date"><p>'
+                    + item.updated
+                    + '</p></div>'
+                    +'<h3>'
+                    + item.title
+                    + '</h3>'
+                    +'<div id="news-content"><p>'
+                    + item.description
+                       + ' [...]</p><div id="read-more"><a href="'
+                    + item.link
+                    + '">Read More'
+                    +'</a></div>'
+                    + '</div>';
+    if(i==3){html += '</div><div id="news_2" style="display:none">'}
+    if(i==7){html += '</div><div id="news_3" style="display:none">'}
+    if(i==11){html += '</div><div id="news_4" style="display:none">'}
+    if(i==15){html += '</div>'}
+    
+    
+                }
+                
+                jQuery('#news').append(html);
+            }    
+        });
+    });
+//Innovation Script
+$('#innovation').ready(function()
+{
+    $.jGFeed('http://www.cnet.com/8300-32254_1-283.xml?categoryId=10457991',
+    function(feeds){
+     // Check for errors
+     if(!feeds){
+        // there was an error
+        return false;
+     }
+      var item_html=new Array();
+     //item_html[0]="";
+     item_html[1]="";
+     //item_html[2]="";
+     for(var i=0; i<feeds.entries.length; i++){
+          var item = feeds.entries[i];
+         var j=Math.ceil((i+1) / 4);
+         if(!item_html[j]) item_html[j]="";
+         if ((i+1) % 4 ==1) item_html[j] += "<div id='innovation_" + j + "' style='display:none;'><div id='innovation-1'><div id='innovation-date'><p>"+item.publishedDate.substring(0, 25)+"</p></div><h3>"+item.title+"</h3><div id='innovation-content'><p>"+item.contentSnippet+"</div><div id='read-more'><a href='"+item.link+"'> Read More</a></p></div>";
+         else item_html[j] += '<div id="innovation-date"><p>'+item.publishedDate.substring(0, 25)+'</p></div><h3>'+item.title+'</h3><div id="innovation-content"><p>'+item.contentSnippet+'</div><div id="read-more"><a href="'+item.link+'"> Read More</a></p></div>';
+          if((i+1) % 4 == 0) item_html[j] += "</div>";         
+      }
+     for(var k=1; k<item_html.length; k++){
+        $('#innovation').append(item_html[k]);
+     }
+     var nav;
+     nav = "<ul id='innovation_nav_buttons'><li class='up'> Pages:</li>";
+     for(var k=1; k<item_html.length; k++)
+     {
+            nav += "<li id='innovation_" + k + "_button' class='up'> <a href='' onclick=\"return innovationActive(\'innovation_" + k + "\');\">"+ k + "</a></li>";          
+     }
+     nav += "</ul>";
+     $('#innovation-nav').append(nav);
+     
+     $('#innovation_1_button').removeClass('up');
+     $('#innovation_1_button').addClass('on_page');
+     
+     $('#innovation_1').show();            
+}, 60);
+//END Innovation
+}); 
+
+//Blog Script
+$('#blog').ready(function()
+{
+$.jGFeed('http://blog.ce.org/?feed=rss2',
+function(feeds){
+  // Check for errors
+  if(!feeds){
+    // there was an error
+    return false;
+  }
+    var item_html = '';
+    var item2_html = '';
+    var item3_html = '';
+    var item4_html = '';
+  for(var i=0; i<feeds.entries.length; i++){
+    var item = feeds.entries[i];
+if (i == 1) item_html += '<div id="blog-1"><div id="blog-date"><p>'+item.publishedDate.substring(0, 25)+'</p></div><h3>'+item.title+'</h3><div id="blog-content"><p>'+item.contentSnippet+'</div><div id="read-more"><a href="'+item.link+'"> Read More</a></p></div>';
+if (i == 2) item_html += '<div id="blog-date"><p>'+item.publishedDate.substring(0, 25)+'</p></div><h3>'+item.title+'</h3><div id="blog-content"><p>'+item.contentSnippet+'</div><div id="read-more"><a href="'+item.link+'"> Read More</a></p></div>';
+if (i == 3) item_html += '<div id="blog-date"><p>'+item.publishedDate.substring(0, 25)+'</p></div><h3>'+item.title+'</h3><div id="blog-content"><p>'+item.contentSnippet+'</div><div id="read-more"><a href="'+item.link+'"> Read More</a></p></div>';
+if (i == 4) item_html += '<div id="blog-date"><p>'+item.publishedDate.substring(0, 25)+'</p></div><h3>'+item.title+'</h3><div id="blog-content"><p>'+item.contentSnippet+'</div><div id="read-more"><a href="'+item.link+'"> Read More</a></p></div>';
+if (i == 5) item2_html += '<div id="blog-1"><div id="blog-date"><p>'+item.publishedDate.substring(0, 25)+'</p></div><h3>'+item.title+'</h3><div id="blog-content"><p>'+item.contentSnippet+'</div><div id="read-more"><a href="'+item.link+'"> Read More</a></p></div>';
+if (i == 6) item2_html += '<div id="blog-date"><p>'+item.publishedDate.substring(0, 25)+'</p></div><h3>'+item.title+'</h3><div id="blog-content"><p>'+item.contentSnippet+'</div><div id="read-more"><a href="'+item.link+'"> Read More</a></p></div>';
+if (i == 7) item2_html += '<div id="blog-date"><p>'+item.publishedDate.substring(0, 25)+'</p></div><h3>'+item.title+'</h3><div id="blog-content"><p>'+item.contentSnippet+'</div><div id="read-more"><a href="'+item.link+'"> Read More</a></p></div>';
+if (i == 8) item2_html += '<div id="blog-date"><p>'+item.publishedDate.substring(0, 25)+'</p></div><h3>'+item.title+'</h3><div id="blog-content"><p>'+item.contentSnippet+'</div><div id="read-more"><a href="'+item.link+'"> Read More</a></p></div>';
+if (i == 9) item3_html += '<div id="blog-1"><div id="blog-date"><p>'+item.publishedDate.substring(0, 25)+'</p></div><h3>'+item.title+'</h3><div id="blog-content"><p>'+item.contentSnippet+'</div><div id="read-more"><a href="'+item.link+'"> Read More</a></p></div>';
+if (i == 10) item3_html += '<div id="blog-date"><p>'+item.publishedDate.substring(0, 25)+'</p></div><h3>'+item.title+'</h3><div id="blog-content"><p>'+item.contentSnippet+'</div><div id="read-more"><a href="'+item.link+'"> Read More</a></p></div>';
+if (i == 11) item3_html += '<div id="blog-date"><p>'+item.publishedDate.substring(0, 25)+'</p></div><h3>'+item.title+'</h3><div id="blog-content"><p>'+item.contentSnippet+'</div><div id="read-more"><a href="'+item.link+'"> Read More</a></p></div>';
+if (i == 12) item3_html += '<div id="blog-date"><p>'+item.publishedDate.substring(0, 25)+'</p></div><h3>'+item.title+'</h3><div id="blog-content"><p>'+item.contentSnippet+'</div><div id="read-more"><a href="'+item.link+'"> Read More</a></p></div>';
+if (i == 13) item4_html += '<div id="blog-1"><div id="blog-date"><p>'+item.publishedDate.substring(0, 25)+'</p></div><h3>'+item.title+'</h3><div id="blog-content"><p>'+item.contentSnippet+'</div><div id="read-more"><a href="'+item.link+'"> Read More</a></p></div>';
+if (i == 14) item4_html += '<div id="blog-date"><p>'+item.publishedDate.substring(0, 25)+'</p></div><h3>'+item.title+'</h3><div id="blog-content"><p>'+item.contentSnippet+'</div><div id="read-more"><a href="'+item.link+'"> Read More</a></p></div>';
+if (i == 15) item4_html += '<div id="blog-date"><p>'+item.publishedDate.substring(0, 25)+'</p></div><h3>'+item.title+'</h3><div id="blog-content"><p>'+item.contentSnippet+'</div><div id="read-more"><a href="'+item.link+'"> Read More</a></p></div>';
+if (i == 16) item4_html += '<div id="blog-date"><p>'+item.publishedDate.substring(0, 25)+'</p></div><h3>'+item.title+'</h3><div id="blog-content"><p>'+item.contentSnippet+'</div><div id="read-more"><a href="'+item.link+'"> Read More</a></p></div>';
+                 
+  }
+                $('#blog_1').append(item_html);
+                $('#blog_2').append(item2_html);
+                $('#blog_3').append(item_html);
+                $('#blog_4').append(item2_html);
+}, 16);
+
+//END BLOG     
+});    $('.ui-tabs .ui-tabs-nav ').ready(function(){
+        if (jQuery.browser.safari) {
+            $('.ui-tabs .ui-tabs-nav').css({"margin-top":"4px" });
+            $('.ui-tabs .ui-tabs-nav li.news.ui-tabs-selected').css({"padding-right":"18px", "margin-left":"-21px" });
+            $('.ui-tabs .ui-tabs-nav li.news').css({"padding-right":"18px" });
+            
+            
+        }    
+    });
+    //News Nav
+    function newsActive (id) {      
+        var node = document.getElementById(id);
+        var contentNode = document.getElementById("news");
+        var childCount = contentNode.childNodes.length;
+        for (var i = 0; i < childCount; ++i)
+        {
+            child = contentNode.childNodes[i];
+            if( child.nodeName.toLowerCase() == "div" )
+            {
+                child.style.display = "none";
+            }
+        }
+        node.style.display = "block";
+        
+        var buttonNode = document.getElementById(id + "_button");
+        var ulNode = document.getElementById("news_nav_buttons");
+        var childCount = ulNode.childNodes.length;
+        for (var i = 0; i < childCount; ++i)
+        {
+            child = ulNode.childNodes[i];
+            if( child.nodeName.toLowerCase() == "li" )
+            {
+                child.className = "";
+            }
+        }
+        buttonNode.className = "on_page";
+        
+        return false;
+    }
+function innovationActive (id) {      
+    var node = document.getElementById(id);
+    var contentNode = document.getElementById("innovation");
+    var childCount = contentNode.childNodes.length;
+    for (var i = 0; i < childCount; ++i)
+    {
+        child = contentNode.childNodes[i];
+        if( child.nodeName.toLowerCase() == "div" )
+        {
+            child.style.display = "none";
+        }
+    }
+    node.style.display = "block";
+    
+    var buttonNode = document.getElementById(id + "_button");
+    var ulNode = document.getElementById("innovation_nav_buttons");
+    var childCount = ulNode.childNodes.length;
+    for (var i = 0; i < childCount; ++i)
+    {
+        child = ulNode.childNodes[i];
+        if( child.nodeName.toLowerCase() == "li" )
+        {
+            child.className = "";
+        }
+    }
+    buttonNode.className = "on_page";
+    
+    return false;
+}
+
+    //Blog Nav
+    function blogActive (id) {      
+        var node = document.getElementById(id);
+        var contentNode = document.getElementById("blog");
+        var childCount = contentNode.childNodes.length;
+        for (var i = 0; i < childCount; ++i)
+        {
+            child = contentNode.childNodes[i];
+            if( child.nodeName.toLowerCase() == "div" )
+            {
+                child.style.display = "none";
+            }
+        }
+        node.style.display = "block";
+        
+        var buttonNode = document.getElementById(id + "_button");
+        var ulNode = document.getElementById("blog_nav_buttons");
+        var childCount = ulNode.childNodes.length;
+        for (var i = 0; i < childCount; ++i)
+        {
+            child = ulNode.childNodes[i];
+            if( child.nodeName.toLowerCase() == "li" )
+            {
+                child.className = "";
+            }
+        }
+        buttonNode.className = "on_page";
+        
+        return false;
+    }
+</script>
+
+    <script language="javascript" src="/utilities/flashDetect.js" type="text/javascript"></script>
+    <script language="javascript" src="/utilities/emailPage.js" type="text/javascript"></script>
+
+    <script>
+        function initMenu() {
+          $('#menu ul').hide();
+          $('#menu li a').hover(
+            function() {
+              var checkElement = $(this).next();
+              if((checkElement.is('ul')) && (checkElement.is(':visible'))) {
+                return false;
+                }
+              if((checkElement.is('ul')) && (!checkElement.is(':visible'))) {
+                $('#menu ul:visible').slideUp('normal');
+                checkElement.slideDown('normal');
+                return false;
+                }
+              }
+            );
+          }
+        $(document).ready(function() {initMenu();});
+    </script>
+</head>
+<body class="home" id="home">
+    
+    
+    <div id="newwrap">
+        <div id="container">
+            <div id="content-container">
+                <div id="header">
+    <div id="logo">
+        <a href="/default.asp"><img src="/images/framework/cesweb_headerlogo.png" alt="International CES"></a>
+    </div>
+    <div id="headTop">
+<div id="topsearch"> 
+                <!-- Pyxl ADD search from below-->
+        <form action="http://googlebox.ce.org/search?" method="GET" name="searchCES">
+            <input type="hidden" id="Hidden1" value="default_collection" name="site">
+            <input type="hidden" id="Hidden2" value="2011CESweb" name="client">
+            <input type="hidden" id="Hidden3" value="2011CESweb" name="proxystylesheet">
+            <input type="hidden" id="Hidden4" value="xml_no_dtd" name="output">
+            <!-- Pyxl Alter Search value to "Search"  -->    
+<input type="text" onfocus="if(this.value=='Search') this.value='';" onblur="if(this.value=='') this.value='Search';" value="Search" class="searchbox" name="q"><input type="submit" onclick="document.searchCES.submit();" class="searchbutton" value="">
+        </form>
+<A href="http://www.cesweb.org/cesgreening.asp"><img src="http://www.cesweb.org/hp/images/ces-green.jpg" border="0" valign=top ></A>
+</div>
+    <div id="topimages">
+        <img src="http://www.cesweb.org/hp/images/divider.jpg" class="divider"/>
+        <a href="http://www.cesweb.org/followme" ><img src="http://www.cesweb.org/hp/images/follow-me.png" alt="Follow Me" /></a>
+    </div>
+                
+</div>
+  
+    <div class="clr"></div>
+
+    <div id="ctacontainer">
+        <div id="showdate"><img src="/images/framework/CESweb_headerdate.png" alt="2011 International CES January 6-9, 2011"></div>
+        <div id="countdown"></div>
+        <div id="register"><a href="/register" title="Register for CES" target=_blank><img src="/images/framework/cesweb_register1.png" alt="Register" name="cesweb_register" onMouseOver="over(8)" onMouseOut="out(8)" /></a></div>
+        <div id="exhibit"> <a href="/exhibitors/space/default.asp" title="Exhibit at CES"><img src="/images/framework/cesweb_exhibit1.png" alt="Exhibit at CES" name="cesweb_exhibit" onMouseOver="over(9)" onMouseOut="out(9)" /></a></div>
+    </div>
+</div>
+                <div id="nav-bar">
+                    
+    <ul>
+        <li class="dd-exhibitor"><a onmouseover="showDropDown('exhibitor','show')" onmouseout="setMenuTimer()" href="http://ces11.mapyourshow.com"><img src="/images/framework/cesweb_menu_exhibitor1.png" alt="Exhibitor Directory" name="cesweb_menu_exhibitor" onMouseOver="over(0)" onMouseOut="out(0)" /></a></li>
+        <li class="dd-sessions"><a onmouseover="showDropDown('sessions','show')" onmouseout="setMenuTimer()" href="/conferenceProgram/default.asp"><img src="/images/framework/cesweb_menu_conference1.png" alt="Conference Programs" name="cesweb_menu_conference" onMouseOver="over(1)" onMouseOut="out(1)"/></a></li>
+        <li class="dd-events"><a onmouseover="showDropDown('events','show')" onmouseout="setMenuTimer()" href="/events/default.asp"><img src="/images/framework/cesweb_menu_events1.png" alt="Events" name="cesweb_menu_events" onMouseOver="over(2)" onMouseOut="out(2)"/></a></li>
+        <li class="dd-awards"><a onmouseover="showDropDown('awards','show')" onmouseout="setMenuTimer()" href="/awards/default.asp"><img src="/images/framework/cesweb_menu_awards1.png" alt="Awards" name="cesweb_menu_awards" onMouseOver="over(3)" onMouseOut="out(3)"/></a></li>
+        <li class="dd-exhibits"><a onmouseover="showDropDown('exhibits','show')" onmouseout="setMenuTimer()" href="/showFloor/default.asp"><img src="/images/framework/cesweb_menu_showfloor1.png" alt="Exhibits" name="cesweb_menu_showfloor" onMouseOver="over(4)" onMouseOut="out(4)"/></a></li>
+        <li class="dd-hotel"><a onmouseover="showDropDown('hotel','show')" onmouseout="setMenuTimer()" href="/hotelTravel/default.asp"><img src="/images/framework/cesweb_menu_hoteltravel1.png" alt="Hotel Info" name="cesweb_menu_hoteltravel" onMouseOver="over(5)" onMouseOut="out(5)"/></a></li>
+        <li class="dd-news"><a onmouseover="showDropDown('news','show')" onmouseout="setMenuTimer()" href="/news/default.asp"> <img src="/images/framework/cesweb_menu_news1.png" alt="News" name="cesweb_menu_news" onMouseOver="over(6)" onMouseOut="out(6)"/></a></li>
+        <!-- <li class="dd-international"><a onmouseover="showDropDown('international','show')" onmouseout="setMenuTimer()" href=""><img src="/images/framework/mainnav_international.gif" /></a></li> -->
+        <li class="dd-faqs"><a onmouseover="showDropDown('faqs','show')" onmouseout="setMenuTimer()" href="/faq/default.asp"><img src="/images/framework/cesweb_menu_faq1.png" alt="FAQs" name="cesweb_menu_faq" onMouseOver="over(7)" onMouseOut="out(7)" /></a></li>
+    </ul>
+    <ul id="sub-exhibitor" class="subnav" style="display: none;" onmouseout="setMenuTimer()">
+        <li onmouseover="showDropDown('exhibitor','show')" class="top"><a href="http://ces11.mapyourshow.com" class="sublink"><!--<img src="/images/framework/secondarynav_exhibitor.gif" />--></a></li>
+
+    <li class="bottom"></li>
+</ul>
+<ul id="sub-sessions" class="subnav" style="display: none;" onmouseout="setMenuTimer()">
+    <li onmouseover="showDropDown('sessions','show')" class="top"><a href="/conferenceProgram/default.asp" class="sublink"><!--<img src="/images/framework/secondarynav_sessions.gif" />--></a></li>
+
+                    <li onmouseover="showDropDown('sessions','show')" class="first_link"><a href="/conferenceProgram/conference-tracks.asp">Conference Tracks</a></li>
+                
+                    <li onmouseover="showDropDown('sessions','show')" class="link"><a href="/conferenceProgram/SuperSessions.asp">SuperSessions</a></li>
+                
+                    <li onmouseover="showDropDown('sessions','show')" class="link"><a href="/conferenceProgram/search/default.asp">Search for Sessions</a></li>
+                
+                    <li onmouseover="showDropDown('sessions','show')" class="link"><a href="/conferenceProgram/pricing.asp">Conference Program Pricing</a></li>
+                
+                    <li onmouseover="showDropDown('sessions','show')" class="link"><a href="/conferenceProgram/speakers/speakerServices.asp">Speaker Services</a></li>
+                
+                    <li onmouseover="showDropDown('sessions','show'); showSubMenu('sessions317','show')" class="link_with_children"><a href="/conferenceProgram/speakers/default.asp">Call for Speakers</a>
+                
+            <ul id="sub-sub-sessions317" style="display: none;" onmouseout="setSubMenuTimer()">
+        
+                    <li onmouseover="showSubMenu('sessions317','show')"><a href="/conferenceProgram/speakers/cfsFAQ.asp">Submission FAQs</a></li>
+                
+            </ul></li>
+        
+    <li class="bottom">&nbsp;</li>
+</ul>
+<ul id="sub-events" class="subnav" style="display: none;" onmouseout="setMenuTimer()">
+    <li onmouseover="showDropDown('events','show')" class="top"><a href="/events/default.asp" class="sublink"><!-- <img src="/images/framework/secondarynav_events.gif" />--></a></li>
+
+                    <li onmouseover="showDropDown('events','show')" class="first_link"><a href="/events/keynotes.asp">Keynotes</a></li>
+                
+                    <li onmouseover="showDropDown('events','show'); showSubMenu('events3926','show')" class="link_with_children"><a href="/events/press-events.asp">Press Events</a>
+                
+            <ul id="sub-sub-events3926" style="display: none;" onmouseout="setSubMenuTimer()">
+        
+                    <li onmouseover="showSubMenu('events3926','show')"><a href="/press/events/exhibitorPressEvents.asp">Exhibitor Press Event Schedule</a></li>
+                
+            </ul></li>
+        
+                    <li onmouseover="showDropDown('events','show')" class="link"><a href="/events/tweetup.asp">CES Tweetup</a></li>
+                
+                    <li onmouseover="showDropDown('events','show')" class="link"><a href="/events/last-gadget-standing.asp">Last Gadget Standing</a></li>
+                
+                    <li onmouseover="showDropDown('events','show')" class="link"><a href="/events/digital-ces.asp">D: All Things Digital at CES</a></li>
+                
+                    <li onmouseover="showDropDown('events','show')" class="link"><a href="/events/LIT-dinner.asp">LIT Dinner</a></li>
+                
+                    <li onmouseover="showDropDown('events','show')" class="link"><a href="/events/CEA-events.asp">CEA Events</a></li>
+                
+    <li class="bottom"></li>
+</ul>
+<ul id="sub-awards" class="subnav" style="display: none;" onmouseout="setMenuTimer()">
+    <li onmouseover="showDropDown('awards','show')" class="top"><a href="/awards/default.asp" class="sublink"><!-- <img src="/images/framework/secondarynav_awards.gif" />--></a></li>
+
+                    <li onmouseover="showDropDown('awards','show'); showSubMenu('awards308','show')" class="first_link_with_children"><a href="/awards/innovations/default.asp">CES Innovations Awards</a>
+                
+            <ul id="sub-sub-awards308" style="display: none;" onmouseout="setSubMenuTimer()">
+        
+                    <li onmouseover="showSubMenu('awards308','show')"><a href="http://cesweb.org/Awards/InnovationAwards/2011honorees.htm">2011 Innovations Honorees</a></li>
+                
+                    <li onmouseover="showSubMenu('awards308','show')"><a href="/awards/innovations/about.asp">About Innovations</a></li>
+                
+                    <li onmouseover="showSubMenu('awards308','show')"><a href="/awards/innovations/categories.asp">Awards Categories</a></li>
+                
+                    <li onmouseover="showSubMenu('awards308','show')"><a href="/awards/innovations/callForEntries.asp">Call for Entries</a></li>
+                
+                    <li onmouseover="showSubMenu('awards308','show')"><a href="/awards/innovations/callForJudges.asp">Call for Judges</a></li>
+                
+            </ul></li>
+        
+                    <li onmouseover="showDropDown('awards','show')" class="link"><a href="/awards/bestOfCES.asp">CNET Best of CES</a></li>
+                
+                    <li onmouseover="showDropDown('awards','show')" class="link"><a href="/awards/techEmmys.asp">Tech & Engineering Emmy Awards</a></li>
+                
+                    <li onmouseover="showDropDown('awards','show')" class="link"><a href="/awards/mobile-apps-showdown.asp">Mobile Apps Showdown</a></li>
+                
+                    <li onmouseover="showDropDown('awards','show')" class="link"><a href="/awards/hot-stuff.asp">Hot Stuff Awards</a></li>
+                
+                    <li onmouseover="showDropDown('awards','show')" class="link"><a href="/awards/mashable-awards.asp">Mashable Awards</a></li>
+                
+    <li class="bottom"></li>
+</ul>
+<ul id="sub-exhibits" class="subnav" style="display: none;" onmouseout="setMenuTimer()">
+    <li onmouseover="showDropDown('exhibits','show')" class="top"><a href="/showFloor/default.asp" class="sublink"><!-- <img src="/images/framework/secondarynav_exhibits.gif" /> --></a></li>
+
+                    <li onmouseover="showDropDown('exhibits','show')" class="first_link"><a href="/showFloor/by-hall.asp">By Exhibit Hall</a></li>
+                
+                    <li onmouseover="showDropDown('exhibits','show')" class="link"><a href="/showFloor/by-product.asp">By Product Category</a></li>
+                
+                    <li onmouseover="showDropDown('exhibits','show')" class="link"><a href="/showFloor/Floor-Plans.asp">Floor Plans</a></li>
+                
+                    <li onmouseover="showDropDown('exhibits','show')" class="link"><a href="/showFloor/techzones.asp">CES TechZones</a></li>
+                
+                    <li onmouseover="showDropDown('exhibits','show')" class="link"><a href="/showFloor/followme.asp">Follow Me</a></li>
+                
+    <li onmouseover="showDropDown('exhibits','show')" class="bottom"></li>
+</ul>
+<ul id="sub-hotel" class="subnav" style="display: none;" onmouseout="setMenuTimer()">
+    <li onmouseover="showDropDown('hotel','show')" class="top"><a href="/hotelTravel/default.asp" class="sublink"><!-- <img src="/images/framework/secondarynav_hotel.gif" /> --></a></li>
+
+                    <li onmouseover="showDropDown('hotel','show'); showSubMenu('hotel2942','show')" class="first_link_with_children"><a href="/hotelTravel/hotel.asp">Hotel Reservations</a>
+                
+            <ul id="sub-sub-hotel2942" style="display: none;" onmouseout="setSubMenuTimer()">
+        
+                    <li onmouseover="showSubMenu('hotel2942','show')"><a href="/hotelTravel/blockRequest.asp">2011 CES Block Request Form</a></li>
+                
+            </ul></li>
+        
+                    <li onmouseover="showDropDown('hotel','show')" class="link"><a href="/hotelTravel/airlines.asp">Airline Discounts</a></li>
+                
+                    <li onmouseover="showDropDown('hotel','show')" class="link"><a href="/hotelTravel/shuttle.asp">CES Shuttle Service</a></li>
+                
+                    <li onmouseover="showDropDown('hotel','show')" class="link"><a href="/hotelTravel/monorail.asp">Las Vegas Monorail</a></li>
+                
+                    <li onmouseover="showDropDown('hotel','show')" class="link"><a href="/hotelTravel/cars.asp">Transportation, Parking and Car Rental</a></li>
+                
+                    <li onmouseover="showDropDown('hotel','show')" class="link"><a href="/hotelTravel/lasVegas.asp">Las Vegas Travel Tips</a></li>
+                
+    <li class="bottom"></li>
+</ul>
+<ul id="sub-news" class="subnav" style="display: none;" onmouseout="setMenuTimer()">
+    <li onmouseover="showDropDown('news','show')" class="top"><a href="/news/default.asp" class="sublink"><!-- <img src="/images/framework/secondarynav_news.gif" /> --></a></li>
+
+                    <li onmouseover="showDropDown('news','show')" class="first_link"><a href="/news/rssNews.asp">News Feed</a></li>
+                
+                    <li onmouseover="showDropDown('news','show')" class="link"><a href="/news/exhibitorNews.asp">Exhibitor Releases</a></li>
+                
+                    <li onmouseover="showDropDown('news','show')" class="link"><a href="/news/releases.asp">CES Press Releases</a></li>
+                
+                    <li onmouseover="showDropDown('news','show')" class="link"><a href="/news/CES-trends.asp">CES Trends</a></li>
+                
+                    <li onmouseover="showDropDown('news','show')" class="link"><a href="/news/coverage.asp">Media Coverage</a></li>
+                
+                    <li onmouseover="showDropDown('news','show')" class="link"><a href="/news/multimedia-gallery.asp">Multimedia Gallery</a></li>
+                
+                    <li onmouseover="showDropDown('news','show'); showSubMenu('news3990','show')" class="link_with_children"><a href="/news/newsletters.asp">Newsletters</a>
+                
+            <ul id="sub-sub-news3990" style="display: none;" onmouseout="setSubMenuTimer()">
+        
+                    <li onmouseover="showSubMenu('news3990','show')"><a href="/news/up-to-minute-default.asp">CES Up to the Minute</a></li>
+                
+                    <li onmouseover="showSubMenu('news3990','show')"><a href="http://www.cesweb.org/exhibitors/newsletter/default.asp">Exhibitor's Source Newsletter</a></li>
+                
+                    <li onmouseover="showSubMenu('news3990','show')"><a href="/news/exhibitorPRnl-Nov.asp">Exhibitor PR Newsletter</a></li>
+                
+            </ul></li>
+        
+                    <li onmouseover="showDropDown('news','show')" class="link"><a href="http://www.cesweb.org/press/default.asp">Press Services</a></li>
+                
+    <li class="bottom"></li>
+</ul>
+<ul id="sub-faqs" class="subnav" style="display: none;" onmouseout="setMenuTimer()">
+    <li onmouseover="showDropDown('faqs','show')" class="top"><a href="/faq/default.asp" class="sublink"><!-- <img src="/images/framework/secondarynav_faqs.gif" /> --></a></li>
+
+                    <li onmouseover="showDropDown('faqs','show')" class="first_link"><a href="/faq/generalFAQs.asp">General</a></li>
+                
+                    <li onmouseover="showDropDown('faqs','show')" class="link"><a href="/faq/pressFAQs.asp">Press</a></li>
+                
+                    <li onmouseover="showDropDown('faqs','show')" class="link"><a href="/faq/exhibitorFAQs.asp">Exhibitor</a></li>
+                
+                    <li onmouseover="showDropDown('faqs','show')" class="link"><a href="/faq/speakerFAQs.asp">Speaker</a></li>
+                
+                    <li onmouseover="showDropDown('faqs','show')" class="link"><a href="/faq/hotel-transit-FAQs.asp">Hotel/Transit</a></li>
+                
+                    <li onmouseover="showDropDown('faqs','show')" class="link"><a href="/faq/other-FAQs.asp">Other Inquiries</a></li>
+                
+                    <li onmouseover="showDropDown('faqs','show'); showSubMenu('faqs2120','show')" class="link_with_children"><a href="/faq/venueFAQs.asp">FAQs by Venue</a>
+                
+            <ul id="sub-sub-faqs2120" style="display: none;" onmouseout="setSubMenuTimer()">
+        
+                    <li onmouseover="showSubMenu('faqs2120','show')"><a href="/exhibitors/LVCC-FAQs.asp">Las Vegas Convention Center</a></li>
+                
+                    <li onmouseover="showSubMenu('faqs2120','show')"><a href="/exhibitors/Venetian-FAQs.asp">The Venetian</a></li>
+                
+                    <li onmouseover="showSubMenu('faqs2120','show')"><a href="/exhibitors/Hilton-FAQs.asp">Las Vegas Hilton</a></li>
+                
+                    <li onmouseover="showSubMenu('faqs2120','show')"><a href="/exhibitors/Rennaissance-FAQs.asp">Renaissance Hotel</a></li>
+                
+            </ul></li>
+        
+    <li class="bottom"></li>
+</ul>
+
+                </div>
+            </div>
+        </div>
+        <div id="container-home">
+            <div id="page-bottom">
+                <div id="main-content">
+                    <div class="left">
+                        <div class="greenbox-bg">
+                            
+                            
+    <a href="/exhibitors/default.asp"><img src="/images/framework/cesweb_exhibitors2.png"></a>
+    <ul>
+    
+    <!--/exhibitors/default.asp-->
+    
+            <li ><a href="/exhibitors/space/default.asp">Exhibit at CES</a>
+        
+            </li>
+        
+            <li ><a href="/exhibitors/cesSmartBooth/default.asp">Directory Listing</a></li>
+        
+            <li ><a href="/exhibitors/sponsorships/default.asp">Promotional Opportunities</a>
+        
+            </li>
+        
+            <li ><a href="/exhibitors/showPlanning/default.asp">Show Planning</a>
+        
+            </li>
+        
+            <li ><a href="/exhibitors/deadlines.asp">Deadline Checklist</a></li>
+        
+            <li ><a href="/exhibitors/register/default.asp">Register Staff/Buyers</a></li>
+        
+            <li ><a href="/exhibitors/resources/default.asp">Resources</a>
+        
+                <ul>
+            
+            <li class="selected"><a href="/exhibitors/resources/exhibitorSurvival.asp">Exhibitor Survival Kit</a></li>
+        
+            <li ><a href="/exhibitors/resources/staff-guide.asp">Exhibitor Staff Guide</a></li>
+        
+            <li ><a href="/exhibitors/resources/workshop.asp">2011 Exhibitor Workshop</a></li>
+        
+            <li ><a href="/exhibitors/resources/export-assistance.asp">Export Assistance</a></li>
+        
+            <li ><a href="/exhibitors/resources/logos.asp">International CES Logos</a></li>
+        
+            <li ><a href="/exhibitors/resources/memberProgram.asp">CEA Member Affinity Program</a></li>
+        
+            <li ><a href="/exhibitors/resources/partnerConnect.asp">CES Partner Connection</a></li>
+        
+            </ul></li>
+        
+            <li ><a href="/exhibitors/pr/default.asp">PR Help</a>
+        
+            </li>
+        
+            <li ><a href="/exhibitors/newsletter/default.asp">Exhibitor's Source Newsletter</a>
+        
+            </li>
+        
+    
+    </ul>
+
+                            <br />
+                        </div>
+                        <div style="display: none;">
+                            
+                        </div>
+                        <ul id="menu">
+    
+    <li>
+    <a class="press" href="/press/default.asp"></a>
+    <ul>
+        
+        <li><a href="/press/events/default.asp">Press Events</a></li>
+        
+        <li><a href="/press/contacts/default.asp">Press Contacts</a></li>
+        
+        <li><a href="/press/services/default.asp">Press Services</a></li>
+        
+        <li><a href="/press/imageGallery/default.asp">Image Gallery</a></li>
+        
+        <li><a href="/news/default.asp">News</a></li>
+        
+    </ul>
+</li>
+    <li>
+    <a class="international" href="/international/default.asp"></a>
+    <ul>
+        
+        <li><a href="/international/travel.asp">Travel &amp; Visas</a></li>
+        
+        <li><a href="/international/delegations.asp">Delegation Group Program</a></li>
+        
+        <li><a href="/international/services.asp">International Services</a></li>
+        
+        <li><a href="/international/spanish.asp">Español</a></li>
+        
+        <li><a href="/international/french.asp">Français</a></li>
+        
+        <li><a href="/international/chinese.asp">汉语</a></li>
+        
+        <li><a href="/international/japanese.asp">日本語</a></li>
+        
+        <li><a href="/international/korean.asp">한국어 </a></li>
+        
+    </ul>
+</li>
+</ul>
+                        
+     
+                                                               
+                        
+                    </div>
+                    <div class="right">
+                        <div id="breadcrumb">
+                            <div><a href="/default.asp" class="footer">Home</a>&nbsp;&gt;&nbsp;<a href="/exhibitors/default.asp" class="footer">For Exhibitors</a>&nbsp;&gt;&nbsp;<a href="/exhibitors/resources/default.asp" class="footer">Resources</a>&nbsp;&gt;&nbsp;Exhibitor Survival Kit</div>
+                        </div>
+                        <div class="headerbox">
+                       <h1>Exhibitor Survival Kit</h1>
+                            <div class="icon_wrap">
+    <a href="http://www.CESweb.org/twitter" target="_blank"><img height="25" border="0" width="25" alt="Twitter" src="/images/framework/twitter.png"></a> 
+    <a href="http://www.CESweb.org/Facebook" target="_blank"><img height="25" border="0" width="25" alt="facebook" src="/images/framework/facebook.png"></a> 
+    <a href="http://www.cesweb.org/stumbleupon" target="_blank"><img height="25" border="0" width="25" alt="stumbleupon" src="/images/framework/stumbleupon.gif"></a> 
+    <a href="http://www.CESweb.org/flickr" target="_blank"><img height="25" border="0" width="25" alt="flickr" src="/images/framework/flickr.png"></a> 
+    <a href="http://www.CESweb.org/youtube" target="_blank"><img height="25" border="0" width="25" alt="youtube" src="/images/framework/youtube.png"></a> 
+    <a href="http://www.cesweb.org/linkedin" target="_blank"><img height="25" border="0" width="25" alt="linkedin" src="/images/framework/linkedin.png"></a>
+    <a href="http://www.cesweb.org/news/rssNews.asp" target="_blank"><img height="25" border="0" width="25" alt="rss" src="/images/framework/rss.png"></a>
+</div>
+                        </div><BR>
+                        <div id="inner-content-long">
+                         
+                                                                   
+                            
+<div align="center">
+
+    [ LVCC ]
+
+    [ <a href="/exhibitors/resources/venetian-meeting-room.asp">Venetian Tower Suites and Meeting Rooms</a> ]
+
+<!--
+    [ <a href="/exhibitors/resources/venetian-suite.asp">Venetian Suite Survival Kit</a> ]
+-->
+</div>
+&nbsp;
+<IMG hspace=5 align=right src="/images/content/CES_Survivalkit2011.jpg" width=100 height=197><BR>Greetings from the CES Operations team! We look forward to making your exhibiting experience at the upcoming 2011 International CES the best ever. Once again, we’ve assembled this Exhibitor Survival Kit to provide you with concise and important information to help you when you arrive on-site. So print this out, share with your staff, and bring it along to the show for valuable information at your fingertips.<BR><BR>Most of this information can also be found in the online CES Exhibitor Manual and the CES Show planning pages, which you can access by visiting <A href="http://www.CESweb.org/Showplanning">www.CESweb.org/Showplanning</A>.&nbsp; <BR><BR>When you arrive at the show, you will also be receiving an Exhibitor Welcome Kit at your exhibit space on January 3 to complement this document. If you’d like to pick it up earlier, please stop by one of the floor manager desks or CES Show Offices listed below.<BR>
+
+        <br /><img width="1" height="20" src="/images/framework/spacer.gif"/>
+        <img height="15" alt="" src="/images/framework/divider-line-long.gif"/><br />
+
+<a name="4663"></a>
+
+<div class="sub-content-header">Target Freight Move-In for LVCC and Hilton Exhibitors</div>
+<br />
+
+Use the color-coded <A href="http://www.cesweb.org/exhibitors/manual/default.asp#3045" target=_blank>Target Freight Move-In/Move-Out floor plans</A> to determine what date your freight must arrive at the show. Following this schedule will expedite the installation of your exhibit and avoid off-target surcharges. It is your responsibility to notify both your display house and carrier of your target date. 
+<UL class=text>
+<LI class=text>If you ship your freight in advance to the GES warehouse, your freight will be in your booth at 8 a.m. on your target date. This is one of the benefits of shipping in advance.&nbsp; You’ll pay a slightly higher rate, but your freight will be there when you arrive and you can schedule labor to work the full day. NOTE: the last day for advance shipments to arrive at the warehouse without surcharges is December 17.<BR></LI>
+<LI class=text>If you ship your freight direct to the show site, your freight will be delivered to your booth on your target day. Your carrier may check-in starting at 6 a.m. at the marshaling yard and must check in by 2 p.m. to ensure same day delivery. Keep in mind that freight receiving is an all-day process and it may take several hours for your truck to move through the marshaling line, and then for your freight to be unloaded and delivered to your booth. Therefore, it is best to schedule labor for 8 a.m. on the morning following your target date when you know your shipment will have arrived at your booth.<BR></LI>
+<LI class=text>If you have any questions about your target date you can e-mail GES at <A href="mailto:CESfreight@ges.com">CESfreight@ges.com</A>. Any questions about your shipment can be directed to the GES Service Center at 702-515-5970 or <A href="http://www.GES.com/chat">www.GES.com/chat</A>. All shipping and material handling information can be found in the Exhibitor Manual, section #8.</LI></UL>
+        <br /><img width="1" height="20" src="/images/framework/spacer.gif"/>
+        <img height="15" alt="" src="/images/framework/divider-line-long.gif"/><br />
+
+<a name="4662"></a>
+
+<div class="sub-content-header">Set-Up Hours and Holiday Closures</div>
+<br />
+
+Exhibitor installation dates and hours are as follows.<BR><BR>Exhibitor installation begins on the following dates by facility:<BR>December 27 &nbsp;Central Hall, Las Vegas Convention Center at 7:30 a.m.<BR>December 28&nbsp;North &amp; South Halls, Las Vegas Convention Center at 7:30 a.m.<BR>January 3&nbsp;Las Vegas Hilton at 12 noon and Renaissance at 3 p.m.<BR><BR>Daily set-up hours are 7:30 a.m.-7 p.m. Late work passes will be issued upon approval from the CES floor manager in your area. You must obtain these by 2:30 p.m. on the day the late work is to occur. <BR><BR><STRONG>Holiday Closures<BR></STRONG>The following holiday closures will be in effect this year.&nbsp; 
+<P></P>
+<UL class=text>
+<LI class=text>The GES warehouse will be closed for freight deliveries on December 24-25, 2010, in observance of Christmas. </LI>
+<LI class=text>At the LVCC, no exhibitor activity will be permitted after 12 noon on Thursday, December 31, 2010. The LVCC premises must be completely cleared by 2 p.m. </LI>
+<LI class=text>The LVCC will be completely dark on Friday, January 1, 2011. No exhibitor activity will be permitted at all and the building will be locked down. The GES warehouse will also be closed on these days.<BR></LI></UL>
+        <br /><img width="1" height="20" src="/images/framework/spacer.gif"/>
+        <img height="15" alt="" src="/images/framework/divider-line-long.gif"/><br />
+
+<a name="4661"></a>
+
+<div class="sub-content-header">Clean Floor Policy</div>
+<br />
+
+The following Clean Floor Policy will be strictly enforced.<BR><BR><STRONG>Tuesday, January 4, 2011<BR></STRONG>ASAP&nbsp;Crates should be unpacked and labeled “empty” for removal from the floor as soon as possible.<BR><BR>6 p.m.&nbsp;&nbsp;&nbsp; All crates must be empty and labeled for removal.<BR>10 p.m.&nbsp;&nbsp;All crates must be removed from the building regardless of status.<BR>10 p.m.&nbsp;&nbsp;Visqueen must be removed, rolled up and placed in the aisle for removal.<BR><BR><STRONG>Wednesday, January 5, 2011<BR></STRONG>1 p.m.&nbsp;&nbsp;Cartons, fiber cases and packing material must be empty and labeled.<BR>1 p.m.&nbsp; Accessible storage items must have a work order submitted for pick-up and be labeled for removal.<BR>3 p.m.&nbsp; All booths must be completely set (Carpet is not mandatory at The Venetian or Hilton as these locations have existing carpet).<BR>3 p.m.&nbsp;&nbsp;Booth space or meeting rooms not occupied by 3 p.m. will revert to CES.<BR>7 p.m.&nbsp; All aisles must be 100 percent clear of product or any other items that may impede GES in laying down aisle carpet. 
+<P></P>
+<P><STRONG>Wednesday, January 5, 2011</STRONG> is scheduled as a product testing, booth touch-up and rehearsal day. These procedures are intended to facilitate the convenience of arrival and set-up for the exhibitor and to ensure that CES opens on schedule.<BR>&nbsp;<BR><STRONG>Thursday, January 6, 2011<BR></STRONG>6 a.m.&nbsp;So as to ensure a clean show floor and smooth show opening, absolutely no exhibitor or EAC equipment will be allowed on the show floor beyond 6 a.m.</P>
+<P>The main focus is to move the large crates off the show floor and allow more room and time for exhibitors to place product, test equipment, and fine-tune their booth in a clean and orderly exhibit hall on Wednesday, January 6. This will also allow CES to clean and conduct a final check of the floor before show opening.<BR></P>
+        <br /><img width="1" height="20" src="/images/framework/spacer.gif"/>
+        <img height="15" alt="" src="/images/framework/divider-line-long.gif"/><br />
+
+<a name="4660"></a>
+
+<div class="sub-content-header">Carts and Equipment on the Show Floor</div>
+<br />
+
+Once again this year, exhibitor and EAC equipment on the show floor will be limited to certain items.<BR><BR>In an effort to improve safety and relieve congestion on the show floor, no electric carts or scooters will be permitted in the building during move-in and move-out at the 2011 International CES. This will be in effect at all show venues, including the Las Vegas Convention Center and Las Vegas Hilton.<BR><BR>Exhibitor and EAC equipment on the show floor will be limited to the following time frames: 
+<UL class=text>
+<LI class=text>Exhibitor and EAC (exhibitor appointed contractor) ladders and gang boxes must be removed from the show floor by 10 p.m. on Wednesday, January 5 and not permitted until the close of show. </LI>
+<LI class=text>Absolutely no motorized equipment will be allowed on the show floor after 6 a.m. on Thursday, January 6; this includes all boom, scissor and forklifts. </LI>
+<LI class=text>These time frames will be strictly enforced by GES and CES floor managers to ensure a clean and smooth show opening.<BR></LI></UL>
+        <br /><img width="1" height="20" src="/images/framework/spacer.gif"/>
+        <img height="15" alt="" src="/images/framework/divider-line-long.gif"/><br />
+
+<a name="4659"></a>
+
+<div class="sub-content-header">Show Dates and Hours</div>
+<br />
+
+CES exhibit hours at all show venues are as follows:&nbsp; <BR><BR>
+<TABLE border=1 cellSpacing=1 cellPadding=1 width="75%">
+<TBODY>
+<TR>
+<TD>&nbsp;Thursday, January 6</TD>
+<TD>&nbsp;&nbsp;10 a.m.- 6 p.m.</TD></TR>
+<TR>
+<TD>&nbsp;Friday, January 7&nbsp;</TD>
+<TD>&nbsp;9 a.m. – 6 p.m.</TD></TR>
+<TR>
+<TD>&nbsp;Saturday, January 8</TD>
+<TD>&nbsp;&nbsp;9 a.m. – 6 p.m.</TD></TR>
+<TR>
+<TD>&nbsp;Sunday, January 9</TD>
+<TD>&nbsp;&nbsp;9 a.m. – 4 p.m.</TD></TR></TBODY></TABLE><BR>
+        <br /><img width="1" height="20" src="/images/framework/spacer.gif"/>
+        <img height="15" alt="" src="/images/framework/divider-line-long.gif"/><br />
+
+<a name="4658"></a>
+
+<div class="sub-content-header">Exhibitor Appointed Contractors (EACs)</div>
+<br />
+
+If you plan to use an exhibitor appointed contractor (EAC) for the installation and dismantle of your booth, the deadline to submit the necessary paperwork for CES Operations approval was December 10, 2010.<BR><BR>If you or your EAC have not submitted paperwork, you must do so immediately, or your EAC will not be granted access to work on the show floor. Forms include the Notification of Intent, EAC Agreement, and Certificate of Insurance. Please note: requirements must be completed and submitted online using the EAC registration tool (see below); no hard copy forms are available. If you have any questions call 703-907-7748.<BR><BR>NEW THIS YEAR: EAC Badging - Please note that the LVCVA is requiring specific ESCA WIS badge for everyone working in their building. <A href="http://www.cesweb.org/exhibitors/showPlanning/eac-dashboard.asp" target=_blank>Check out our EAC Dashboard</A> for more information.<BR><BR><STRONG>EAC Online Registration Process<BR></STRONG>The online EAC tool at <A href="http://www.CESweb.org/EAC">www.CESweb.org/EAC</A> makes it easier for EACs to manage required information, to track updates to their client listing, and to keep on top of upcoming deadlines.<BR><BR>Without properly registering with CES, EACs will not be able to work on the CES show floor. Take a few moments to register your EAC at <A href="http://www.CESweb.org/myEAC">www.CESweb.org/myEAC</A><BR>as an official contractor at CES so they obtain these and other important instructions. <BR>
+        <br /><img width="1" height="20" src="/images/framework/spacer.gif"/>
+        <img height="15" alt="" src="/images/framework/divider-line-long.gif"/><br />
+
+<a name="4657"></a>
+
+<div class="sub-content-header">Work Guidelines</div>
+<br />
+
+Full-time personnel of an exhibiting company may set up their booth displays, with the exception of certain work covered by the jurisdiction of various Las Vegas unions. <BR><BR>All company personnel working in your booth must have a photo ID and proof of company affiliation. At the request of union officials, CES Operations may request to see this information. <BR>
+        <br /><img width="1" height="20" src="/images/framework/spacer.gif"/>
+        <img height="15" alt="" src="/images/framework/divider-line-long.gif"/><br />
+
+<a name="4656"></a>
+
+<div class="sub-content-header">Cart Load Service</div>
+<br />
+
+If you have a small amount of materials that you need assistance with, you are eligible to take advantage of the cart load service offered by GES.<BR><BR>This service is for those who have small, hand carry items all of which must fit onto a 3’x4’ push cart, in one trip only. A cart load is eight (8) pieces or less weighing less than 250 lbs. total.&nbsp; If you arrive with a truck/van or trailer filled with exhibit material you will not qualify for the service and will be redirected to the appropriate marshaling yard.<BR>
+        <br /><img width="1" height="20" src="/images/framework/spacer.gif"/>
+        <img height="15" alt="" src="/images/framework/divider-line-long.gif"/><br />
+
+<a name="4655"></a>
+
+<div class="sub-content-header">Sound Restriction for IVT Exhibitors (North Hall 4)</div>
+<br />
+
+In-vehicle technology (IVT) companies must keep sound to a maximum level of 85 decibels (dB), like all other CES exhibitors. CES has instituted a no tolerance policy for IVT exhibitors who exceed the 85 dB limit and will have staff dedicated to monitoring sound levels during all show hours. Failure to comply will result in being shut down for the day or possibly duration of the show.<BR><BR><STRONG>In-Vehicle Technology Demonstrations up to 95 dB <BR></STRONG>In-vehicle technology exhibitors in the North Hall may run demos in their booth up to a 95 dB level for the last show hour of each show day only. <A href="/docs/2011_IVT_Exhibitors_-_LVCC_North_Hall.pdf" target=_blank>Click here for more information</A>.<BR>
+        <br /><img width="1" height="20" src="/images/framework/spacer.gif"/>
+        <img height="15" alt="" src="/images/framework/divider-line-long.gif"/><br />
+
+<a name="4654"></a>
+
+<div class="sub-content-header">Show Rules and Regulations</div>
+<br />
+
+<STRONG>Exhibit Display Reminders<BR><BR></STRONG>Please note the following key rules and regulations for your booth display: 
+<UL class=text>
+<LI class=text>Any portion of a display that extends above or beyond that of the booth adjoining to the rear or side must be finished with paint or drapes at the expense of the exhibitor. Any portion of your booth facing an aisle must be finished. </LI>
+<LI class=text>No signs or decorating materials may protrude into the aisles or encroach upon neighboring exhibits. </LI>
+<LI class=text>If an exhibit interferes with the rights of other exhibitors or does not conform to prevailing standards of good taste, CES Operations may require immediate changes. </LI>
+<LI class=text>No live animals are permitted under any circumstances. </LI>
+<LI class=text>Booths at the LVCC must be fully carpeted or have other professional floor covering installed. Booths lacking carpet by 3 p.m. January 5 will have carpet installed at the exhibitor’s expense.</LI></UL>
+<P><STRONG>Please be aware of other new and important show rules and regulations.</STRONG>&nbsp; </P>
+<P></P>
+<UL class=text>
+<LI class=text>Each hard wall booth must be a minimum of 9’’ from the back booth line for access to electrical.<BR></LI>
+<LI class=text><STRONG>Sound Restriction <BR></STRONG>A maximum noise level of 85 decibels will be maintained on the exhibit floor, in meeting room exhibits and in all exhibit suites. Please note the new sound regulations for In-Vehicle Technology exhibitors in North Hall 1-2, above.<BR></LI>
+<LI class=text><STRONG>Booth Activity/Crowd Control<BR></STRONG>As a matter of safety and courtesy to others, booth demonstrations must be confined within the exhibit space so as not to interfere with traffic flow in the show aisles or encroach into neighboring exhibits.&nbsp; Booth activity includes sales presentations, product demonstrations, entertainment, celebrity appearances, etc.&nbsp; Exhibitors must contract sufficient space in order to comply with this rule.<BR><BR>If you are planning any type of booth activity for which you anticipate the gathering of a large crowd, you are responsible to assign booth personnel and/or hire security guards to manage crowd control and keep the aisles and neighboring exhibits clear.&nbsp; CES Operations reserves the right to determine whether excessive crowds are in violation of this rule, and if so, will hire security to manage crowd control at the exhibitor’s expense.<BR></LI>
+<LI class=text><STRONG>Product Demonstrations<BR></STRONG>Product demonstrations are permitted. Please abide by the following regulations: <BR>-A maximum noise level of 85 decibels will be maintained on the exhibit floor, in meeting room exhibits and in all exhibit suites.<BR>-In booths 10’ deep, the demonstration must be set back a minimum of 3’ into the booth. For booths greater than 10’ in depth, the demonstration must be set back a minimum of 10’. This allows room for the viewing attendees to be contained within the booth limits.<BR>-CS has instituted a No Tolerance policy. Demonstrations found to be objectionable due to noise level or vibration level (dB or SPL) or blocking traffic flow may be closed down at the discretion of CES Operations.<BR>-Eibitors shall be responsible for supervising the actions of all visitors and employees operating display equipment in their area.<BR>-Poduct demonstrations must be contained wholly within the purchased exhibit space.<BR></LI>
+<LI class=text><STRONG>No Selling Policy<BR></STRONG>CES policy strictly prohibits over-the-counter sales (i.e.: cash, check, or credit card). Only bona fide business orders for future billing, payment and delivery are permitted. CES reserves the right to close down booths in violation of this regulation.<BR><BR>CES Operations and representatives from the Clark County Business License office will be walking the show floors on show days looking for exhibitors violating this policy. Should any exhibitors be found in violation of this policy, CES Operations will take the proper steps to shut down the exhibitor’s booth immediately. This action will be strictly enforced.<BR><BR>Be sure to share this information with those staffing your booth on-site. We appreciate your attention to the serious nature of this policy, and ask all exhibitors to adhere to this important regulation. <BR></LI>
+<LI class=text><STRONG>Booth Blocking <BR></STRONG>Island Booth Exhibitors: In the spirit of neighborly cooperation, we ask you to avoid adding any unnecessary walls or drapes that may contribute to obstructed views of your exhibitors that surround your booth. Feedback from our attendees indicate that this causes substantial frustration in their ability to navigate the show floor.<BR><BR>Please take your exhibiting neighbors into consideration.</LI></UL>
+        <br /><img width="1" height="20" src="/images/framework/spacer.gif"/>
+        <img height="15" alt="" src="/images/framework/divider-line-long.gif"/><br />
+
+<a name="4653"></a>
+
+<div class="sub-content-header">NEW THIS YEAR: Wireless Microphones</div>
+<br />
+
+If you are using wireless microphones, please note that as of this past June 12, 2010, there is a new FCC rule the prohibits the use of wireless microphones and similar devices operations in the 700 MHz spectrum.<BR><BR>Following the DTV transition in June 2009, Verizon Wireless is now the exclusive licensee of this 700 MHz spectrum throughout the U.S., If you are unsure whether your wireless microphone operations in this spectrum, or for more information visit <A href="http://www.fcc.gov/cgb/wirelessmicrophones/FAQs.html">http://www.fcc.gov/cgb/wirelessmicrophones/FAQs.html</A>. If you would like to rent equipment from our official CES audio visual provider, visit <A href="http://www.cesweb.org/exhibitors/showPlanning/FreemanAV.asp" target=_blank>Freeman AV page on our show planning site</A>.
+        <br /><img width="1" height="20" src="/images/framework/spacer.gif"/>
+        <img height="15" alt="" src="/images/framework/divider-line-long.gif"/><br />
+
+<a name="4652"></a>
+
+<div class="sub-content-header">Hangings Signs and Tower Guidelines</div>
+<br />
+
+Hanging sign and tower guidelines vary by hall and venue.<BR><BR>LVCC Exhibitors: Please contact GES&nbsp; for specific questions regarding hanging signs at 800-475-2098 or e-mail <A href="http://www.ges.com/chat">www.ges.com/chat</A>.<BR><BR>Las Vegas Hilton Exhibitors: Please contact Kevin Hansen with Encore Productions at 702 732-1810 or e-mail <A href="mailto:khansen@encoreproductions.net">khansen@encoreproductions.net</A>.<BR><BR>Renaissance Meeting Space Exhibitors: if you wish to hang a sign or banner within your meeting room, please contact Noelle Williams at 703-907-7623 or <A href="mailto:nwilliams@CE.org">nwilliams@CE.org</A> for ceiling height guidelines.<BR><BR><STRONG>All hanging signs must adhere to the following regulations:<BR></STRONG>The height of the hanging sign from the floor to the top of the sign may not exceed the following height limits.&nbsp; Due to the fixed height of ceilings, the following height restrictions are not subject to variances.&nbsp; <BR><BR>
+<TABLE border=1 cellSpacing=1 borderColor=#000000 cellPadding=1 width="75%">
+<TBODY>
+<TR>
+<TD>&nbsp;Show Locations</TD>
+<TD>&nbsp;Max. Height</TD></TR>
+<TR>
+<TD>&nbsp;LVCC North Halls 1,2,3,4 (Booths 100-6,999)</TD>
+<TD>&nbsp;30'</TD></TR>
+<TR>
+<TD>&nbsp;LVCC Central 1,2 (Booths 7,000-9,700)</TD>
+<TD>&nbsp;20'</TD></TR>
+<TR>
+<TD>&nbsp;LVCC Central 3,4,5 (Booths 9,800-15,999)</TD>
+<TD>&nbsp;30'</TD></TR>
+<TR>
+<TD>&nbsp;LVCC South Hall 1,2,3,4 (Booths 20,000-39,000)</TD>
+<TD>&nbsp;22'</TD></TR>
+<TR>
+<TD>&nbsp;Hilton Pavilion and Center</TD>
+<TD>&nbsp;20'</TD></TR>
+<TR>
+<TD>&nbsp;Renaissance Meeting Space</TD>
+<TD>&nbsp;Varies</TD></TR></TBODY></TABLE><BR>&nbsp;
+        <br /><img width="1" height="20" src="/images/framework/spacer.gif"/>
+        <img height="15" alt="" src="/images/framework/divider-line-long.gif"/><br />
+
+<a name="4651"></a>
+
+<div class="sub-content-header">Double Decker Booths</div>
+<br />
+
+October 30 was the deadline to receive fire marshal approval on double decker booths. If you have not received approval yet, you must do so immediately in order to avoid potential issues on-site!<BR><BR>Questions regarding what is acceptable in the design of your upper deck or covered areas, should be directed to the Office of Fire and Safety as follows:<BR><BR>
+<TABLE border=1 cellSpacing=1 borderColor=#000000 cellPadding=1 width="75%">
+<TBODY>
+<TR>
+<TD>&nbsp;<STRONG>Las Vegas Convention Center</STRONG>&nbsp;</TD>
+<TD><STRONG>&nbsp;Las Vegas Hilton</STRONG></TD></TR>
+<TR>
+<TD>Mike Massey<BR>Fire &amp; Safety Coordinator<BR>Las Vegas Convention Center&nbsp;<BR>&nbsp;3150 Paradise Rd.&nbsp;<BR>Las Vegas, NV&nbsp; 89109<BR>702-892-7413</TD>
+<TD>Clark County Fire Department<BR>Fire Prevention Bureau<BR>575 E. Flamingo Rd.<BR>&nbsp;Las Vegas, NV&nbsp; 89119<BR>702-455-7316 </TD></TR></TBODY></TABLE>
+        <br /><img width="1" height="20" src="/images/framework/spacer.gif"/>
+        <img height="15" alt="" src="/images/framework/divider-line-long.gif"/><br />
+
+<a name="4650"></a>
+
+<div class="sub-content-header">Lights Out Procedures</div>
+<br />
+
+If you need to adjust the ambient lighting above your booth, a Lights Out Request Form must be completed and turned into GES at the LVCC prior to December 8, 2010. <BR><BR>This form is located in Show Utilities section of your Exhibitor Manual or you can obtain a form from the GES service desk during move-in. Depending on the location of your booth, a fee may be charged to facilitate your lights out request.<BR><BR>Depending on the location and number of lights needing to be turned off, a CES floor manager may need to determine if the action will impact neighboring exhibitors.&nbsp; <BR>
+        <br /><img width="1" height="20" src="/images/framework/spacer.gif"/>
+        <img height="15" alt="" src="/images/framework/divider-line-long.gif"/><br />
+
+<a name="4649"></a>
+
+<div class="sub-content-header">Booth Security and Emergency</div>
+<br />
+
+All emergencies must be reported to the show facility immediately. The 24-hour security number at each facility is as follows: 
+<UL>
+<LI>LVCC:&nbsp;&nbsp;702-892-7400/house phone dial “7400”</LI>
+<LI>Hilton:&nbsp;&nbsp;702-732-5414/in hotel dial “5000”</LI>
+<LI>Renaissance:&nbsp;702-733-6533/in hotel dial “0” </LI></UL>DO NOT dial 911. Doing so will delay the response by medical personnel who may not be able to find or get to the location of the emergency.<BR><BR> <STRONG>Booth Security Orders<BR></STRONG>Security guards tend to be a hot commodity in Las Vegas during CES and sell out quickly. The order deadline was November 30, so if you haven’t made booth security arrangements by now, do so immediately!<BR><BR>Security order forms, including a list of alternate security companies, can be found in <A href="http://ges.com/ecomm/2011/q1/11-05117/pdf/Section12.pdf" target=_blank>section 12, Booth Security of the Exhibitor Manual</A>. <BR>
+        <br /><img width="1" height="20" src="/images/framework/spacer.gif"/>
+        <img height="15" alt="" src="/images/framework/divider-line-long.gif"/><br />
+
+<a name="4648"></a>
+
+<div class="sub-content-header">Merchandise/Products Removal</div>
+<br />
+
+Only CES exhibitors are permitted to remove merchandise/product from the show floor during move-in, show days and move-out.<BR><BR>Exhibitors wishing to remove merchandise/product must present <STRONG>both a photo ID (drivers license or passport) and business card</STRONG> to the security guard upon exiting the show floor. The security guard will cross-check the ID with the exhibitor’s badge for verification. Show attendees are prohibited from carrying product off the show floor at any time. <BR>
+        <br /><img width="1" height="20" src="/images/framework/spacer.gif"/>
+        <img height="15" alt="" src="/images/framework/divider-line-long.gif"/><br />
+
+<a name="4646"></a>
+
+<div class="sub-content-header">All Bags Subject to Search</div>
+<br />
+
+As part of our heightened security measures, all bags will be subject to search upon entry into CES show locations starting at noon Wednesday, January 5, through the close of show on Sunday, January 9. This includes personal possessions such as purses, laptop cases, and backpacks.
+        <br /><img width="1" height="20" src="/images/framework/spacer.gif"/>
+        <img height="15" alt="" src="/images/framework/divider-line-long.gif"/><br />
+
+<a name="4645"></a>
+
+<div class="sub-content-header">Food and Beverage</div>
+<br />
+
+All show facilities have catering services that must be used for all in-house food and beverage; this includes water bottles and food items with your company name or other logo. <BR><BR>Refer to the menus and order forms in the <A href="http://ges.com/ecomm/2011/q1/11-05117/pdf/Section13.pdf" target=_blank>Show Services section of your Exhibitor Manual</A>, or contact a catering manager to discuss your needs.<BR><BR><STRONG>Aramark Catering – New Information for 2011<BR></STRONG>Aramark is the official food and beverage vendor and exclusive at the Las Vegas Convention Center. This year, due to a high demand, Aramark has implemented a deadline for ordering water coolers. Please make sure you place any orders for water coolers prior to December 30. December 30 is also the deadline to ensure the delivery time of your catering orders. Orders placed after December 30th will not have a guaranteed delivery time. You can find Aramark menus in section #13 of the Exhibitor Manual, <A href="http://ges.com/ecomm/2011/q1/11-05117/pdf/Full-ESM%20246.pdf" target=_blank>Show Services</A>. You can also find contact information listed by venue in section #1, General Show Information.<BR><BR><STRONG><EM>New this year</EM></STRONG> – Aramark will also launch a new text program that will allow you to get instant updates on the status of your orders and other pertinent information. When your order is confirmed, you will receive a keyword. All you'll have to do is text to the keyword and you will be set up for their text alert program. Once you place your catering order, you will receive your text code - just text in to get involved! 
+<P></P>
+<P><STRONG>Catering Contacts at all CES Venues<BR></STRONG>Las Vegas Convention Center: Aramark:&nbsp;&nbsp;702-943-6910<BR>Las Vegas Hilton Catering Department:&nbsp;&nbsp;702-732-5624<BR>Renaissance:&nbsp;702-784-5782<BR></P>
+        <br /><img width="1" height="20" src="/images/framework/spacer.gif"/>
+        <img height="15" alt="" src="/images/framework/divider-line-long.gif"/><br />
+
+<a name="4644"></a>
+
+<div class="sub-content-header">Wireless Access Points and Internet Service at the LVCC</div>
+<br />
+
+Smart City is the exclusive provider of internet, wireless and telecommunication services at the LVCC. They’re expert staff is available to assist you with last minute planning, orders and questions, so call their CES Hotline, available now and also on-site, at 702-943-6CES.<BR><BR>Please be aware of the following helpful tips when doing your final preparations for CES: 
+<P></P>
+<UL class=text>
+<LI class=text>If your booth requires the use of a wireless router or access point in the LVCC, it is imperative that you notify Smart City as early as possible. This will help to achieve optimum performance and avoid blocking of your access point(s). </LI>
+<LI class=text>Exhibitors are prohibited from distributing hard wire internet or phone to other booths, or use routing devices as it interferes with frequencies and service.</LI></UL><STRONG>Internet Security: LVCC Exhibitors<BR><EM>Upgrade Your Software Prior to Showtime<BR></EM></STRONG>Smart City (LVCC only) also requires exhibitors to use systems with the latest virus definitions and operating system patches. Devices causing network problems will be disconnected from the network until they are free of problems. <BR><BR>Smart City will have automatic port monitoring that will close down ports when it detects a problem. The Smart City Network Security Declaration can be found in <A href="http://ges.com/ecomm/2011/q1/11-05117/pdf/Section10.pdf" target=_blank>section 10 – Electrical, Internet, Phone and plumbing Services of the Exhibitor Manual</A>.
+        <br /><img width="1" height="20" src="/images/framework/spacer.gif"/>
+        <img height="15" alt="" src="/images/framework/divider-line-long.gif"/><br />
+
+<a name="4643"></a>
+
+<div class="sub-content-header">Freeman Audio Visual’s Survival Tips </div>
+<br />
+
+<IMG hspace=0 vspace=5 align=right src="/images/content/Freeman(1).jpg" width=300 height=34>CES is here! Now is time to implement your plan for the event of the year, the 2011 International CES. Freeman AV has partnered with CES to help your experience be seamless and assist you on your investment. We are here to help you showcase your products and services and survive CES! Please review our <A href="/docs/Freeman_Audio_Visual_Survival_Guide.pdf" target=_blank>A/V Survival Guide</A>&nbsp;and contact us with any questions.
+        <br /><img width="1" height="20" src="/images/framework/spacer.gif"/>
+        <img height="15" alt="" src="/images/framework/divider-line-long.gif"/><br />
+
+<a name="4642"></a>
+
+<div class="sub-content-header">Hotel and Travel Information</div>
+<br />
+
+Hotels are selling out fast, but there are still some hotel rooms available at some CES hotels. Visit the <A href="http://www.cesweb.org/attendees/travel/hotel.asp" target=_blank>travel section of our website</A> for details. <BR><BR>Also, check out our reccomended ways of getting to the show while in Vegas:<BR><BR><STRONG>Complimentary Shuttle Service<BR></STRONG>Check out the complimentary Shuttle Bus Schedule ((link to: Shuttle Services)) for a full listing of services and route information. <BR><BR>In addition to the complimentary hotel shuttle service to/from CES hotels and the LVCC, CES offers the following services: 
+<UL class=text>
+<LI class=text>Las Vegas Convention Center Shuttle Loop: Why walk when you can hop on a shuttle? The LVCC loop stops at five key locations around the LVCC. Operates Thursday- Sunday. </LI>
+<LI class=text>Golf Cart Intraconnect: Operates between the back of South Halls 1-2 and the back of Central Hall 5 Thursday through Sunday. </LI>
+<LI class=text>Airport Shuttle: We hate to see you go, but CES makes it even easier to get to McCarran Airport. The $5 shuttle service runs every 30 minutes on Saturday and Sunday, beginning at 10 a.m. Pick up locations at the LVCC are the South Hall 1 patio and the Central Hall 2 patio. Pick up at The Venetian is the underground bus loading area. </LI></UL>
+<P><STRONG>Venetian Express<BR></STRONG>Take the Venetian Express to the High-Performance exhibits at The Venetian. Service operates every 10 minutes Wednesday through Sunday. At the LVCC, the boarding location is at the front of the Central Hall 2 entrance. At the Venetian, the boarding location is the underground bus loading area.</P>
+<P><STRONG>ADA Access<BR></STRONG>ADA accessible buses are available for those with special needs. Please call RPMs at 401-234-4440 or 702-943-3531 when on-site, to arrange your transportation.</P>
+<P><STRONG><IMG height=100 hspace=5 src="/images/content/monorail_logo.gif" width=100 align=right>Las Vegas Monorail</STRONG> <BR>Save time and take the Monorail to the Las Vegas Convention Center and the Las Vegas Hilton. </P>
+<UL class=text>
+<LI class=text>Stopping at the LVCC and six other hotel stations, the monorail travels end-to-end and runs 7 a.m.-2 a.m., Monday through Thursday and 7 a.m.-3 a.m. Friday-Sunday. </LI>
+<LI class=text>It’s never too early to order your Monorail passes and tickets, as they are good for up to one year after date of purchase. Please visit <A href="http://www.CESweb.org/travel">www.CESweb.org/travel</A> for information on how to purchase tickets. </LI></UL>
+<P><STRONG><EM>NOTE:</EM></STRONG> The Monorail does not go to The Venetian; take the Venetian Express to High-Performance Audio &amp; Home Theater exhibits at The Venetian. <BR></P>
+        <br /><img width="1" height="20" src="/images/framework/spacer.gif"/>
+        <img height="15" alt="" src="/images/framework/divider-line-long.gif"/><br />
+
+<a name="4641"></a>
+
+<div class="sub-content-header">Badges</div>
+<br />
+
+If you have not yet registered your staff for CES, on-line registration is still open through move-in. Just <A href="http://www.cesweb.org/exhibitors/register/default.asp" target=_blank>visit our website</A> to register your staff and buyers - keep in mind you will need to pick your badges up on-site.<BR><BR>If you did not receive your badge in the mail or need to register on-site, Exhibitor Registration is located in five key locations: 
+<UL class=text>
+<LI class=text>At the LVCC in Central Plaza and in the South Hall 2 ground level at the Swenson Street entrance </LI>
+<LI class=text>In the Venetian Meeting Space Level 2 and Suite 29-209 </LI>
+<LI class=text>In the Las Vegas Hilton Ballroom</LI></UL>If you received your badge in the mail, you will find Badge Holder Pickup desks at all main entrances on-site.<BR>Two forms of identification (one personal, one business) are required when picking up badge holders or when registering on-site. Only exhibitors with proper identification will be permitted to pick up multiple badges or badge holders for their staff. Acceptable forms of business ID include a business card, pay stub or statement on company letterhead indicating that you are representing that company at the International CES.
+        <br /><img width="1" height="20" src="/images/framework/spacer.gif"/>
+        <img height="15" alt="" src="/images/framework/divider-line-long.gif"/><br />
+
+<a name="4640"></a>
+
+<div class="sub-content-header">Important for 2011!  Exhibitor Temporary Badge Pick-Up </div>
+<br />
+
+Are you going to need access to your booth on a day before registration opens? If you are, please visit one of the temporary badge pick up counters to get your badge holder or pick up a temporary badge if you did not receive a badge prior to coming on-site.<BR><BR>Counters will be located in the LVCC Grand Lobby, LVCC South 1 Lobby, and the Hilton Ballroom Lobby. You will need to have a badge as well as photo identification and proof of company affiliation. Access onto the floor will not be granted without a temporary badge or badge in a badge holder. Group badge holder pick-up and exhibitor registration is not available at these counters; these services will be available when registration opens on Monday, January 3 in the LVCC and Tuesday, January 4 in the Hilton. <BR>
+        <br /><img width="1" height="20" src="/images/framework/spacer.gif"/>
+        <img height="15" alt="" src="/images/framework/divider-line-long.gif"/><br />
+
+<a name="4639"></a>
+
+<div class="sub-content-header">Target Move-Out</div>
+<br />
+
+A separate bulletin will be distributed to all exhibitors on Saturday, January 8 that will include information on dismantling and moving your booths out of the hall. <BR><BR>All exhibitors must keep their display open and manned during the entire show through show break at 4 p.m. on Sunday, January 9.&nbsp; Failure to abide by this rule may result in loss of priority points. 
+<P></P>
+<UL class=text>
+<LI class=text><STRONG>Target Move-Out Information: LVCC and Hilton Exhibitors<BR></STRONG>We have once again developed a targeted system which provides you will a clear explanation of when your booth needs to be dismantled, packed, and ready for removal and shipping. Consult the <A href="http://www.cesweb.org/exhibitors/manual/default.asp#3045" target=_blank>Target Move-Out maps</A> on our website&nbsp;to determine your designated day to schedule outbound shipping for your freight. You will also find the following information on the Target Move-Out floor plans:<BR>-&nbsp;Time frame for Empty Returns – we strongly recommend that you schedule your dismantling labor with these&nbsp; return times in mind<BR>-&nbsp;Completion time that your booth must be packed at ready to go<BR>- Time frame for your outbound material handling form to be turned in to the GES Servicenter<BR>-&nbsp;Time frame for your carrier to check-in<BR></LI>
+<LI class=text><STRONG>Renaissance Meeting Space Exhibits</STRONG>: All cartons and fiber cases will be returned to exhibitors by 6 p.m. on Sunday, January 9. All crates will be returned by 9 p.m. All freight/materials must be removed from your meeting space by 12 noon on Monday, January 10. Please refer to your Meeting Space Addendum for more details. </LI></UL>
+<P><A href="http://www.ges.com/ecomm/2010/Q1/11-04894/pdf/Section%20Eight/Full-ESM.pdf" target=_blank>Section 8 - Shipping and Material Handling in your Exhibitor Manual</A> contains more information and details regarding the new target move out procedures. If you have questions, please contact your GES Zone Manger or Service Liaison or visit the GES service desk.<BR></P>
+        <br /><img width="1" height="20" src="/images/framework/spacer.gif"/>
+        <img height="15" alt="" src="/images/framework/divider-line-long.gif"/><br />
+
+<a name="4638"></a>
+
+<div class="sub-content-header">Labor at Show Break</div>
+<br />
+
+As an additional safety and security measure, <STRONG>no workers will be permitted on the show floor until one hour after the show closes on Sunday at the LVCC and one half hour at the Hilton</STRONG>.<BR><BR>This includes all I&amp;D labor, electricians, stagehands, cleaners, vendors and all EAC workers.&nbsp; The only exception is teamster labor to roll the aisle carpet one half hour after the show break at the LVCC.<BR><BR>What does this mean for you?&nbsp; If you have labor scheduled for the show break, please adjust the start time so that your labor begins one hour after the show break (one half hour at the Hilton).&nbsp; GES will make the adjustment accordingly for their labor, but it is your responsibility to reschedule all other contract labor (EACs, a/v companies, etc.).&nbsp; <BR><BR>Please refer to the Show Close Schedule handout for further details and if you have additional questions, contact your CES floor manager or call the Exhibitor Hotline at 702-943-4074.<BR>
+        <br /><img width="1" height="20" src="/images/framework/spacer.gif"/>
+        <img height="15" alt="" src="/images/framework/divider-line-long.gif"/><br />
+
+<a name="4637"></a>
+
+<div class="sub-content-header">Donate Your Product After the 2011 International CES in South Hall</div>
+<br />
+
+<IMG hspace=5 align=right src="/images/content/OV_Web_logo.jpg" width=200 height=120>The 2011 International CES has partnered with Opportunity Village, to create a donation program to benefit disadvantaged people in the local community. Exhibitors are being asked to donate their product and other booth materials after the show to the Opportunity Village Thrift Store where all donated goods will be sold. Proceeds will benefit the hundreds of people with intellectual disabilities helped by Opportunity Village. <BR><BR>Members of the Opportunity Village staff will be available to assist you with your donations in South Hall. Look for them on the floor during move-in to get information on how to donate. Your generosity is appreciated. If you have any questions regarding your individual involvement in this process, contact Laura D’Amore at 702-880-4022 or <A href="mailto:damorel@opportunityvillage.org">damorel@opportunityvillage.org</A>.<BR>
+        <br /><img width="1" height="20" src="/images/framework/spacer.gif"/>
+        <img height="15" alt="" src="/images/framework/divider-line-long.gif"/><br />
+
+<a name="4636"></a>
+
+<div class="sub-content-header">Booth Number Locations and Contacts</div>
+<br />
+
+On-site questions? Please contact CES Operations as follows: <BR><BR>
+<TABLE border=1 cellSpacing=1 borderColor=#000000 cellPadding=1 width="75%">
+<TBODY>
+<TR>
+<TD>&nbsp;<STRONG>SHOW LOCATION</STRONG></TD>
+<TD><STRONG>&nbsp;BOOTH SERIES</STRONG></TD>
+<TD><STRONG>&nbsp;CONTACT PERSON</STRONG></TD></TR>
+<TR>
+<TD>Las Vegas Convention Center<BR>Las Vegas Hilton<BR>Renaissance</TD>
+<TD>100-37999<BR>CP1-CP20<BR>40000-56999<BR>Hospitality suites and meeting space&nbsp;</TD>
+<TD>Katie Swearingen<BR>703-907-7637<BR><A href="mailto:kswearingen@CE.org">kswearingen@CE.org</A></TD></TR>
+<TR>
+<TD>CES TechZones and CES Meeting Place<BR>Transportation&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>Martina Mirabella<BR>703-907-5243<BR><A href="mailto:mmirabella@CE.org">mmirabella@CE.org</A></TD></TR>
+<TR>
+<TD>&nbsp;Publication &amp; Association Booths&nbsp;</TD>
+<TD>&nbsp;LVCC</TD>
+<TD>KC Covert<BR>703-907-4353<BR><A href="mailto:kcovert@CE.org">kcovert@CE.org</A></TD></TR></TBODY></TABLE>
+<p><img src="/images/framework/spacer.gif" alt="" width="1" height="16" hspace="0" vspace="0" border="0"></p>
+<div align="center">
+
+    [ LVCC ]
+
+    [ <a href="/exhibitors/resources/venetian-meeting-room.asp">Venetian Tower Suites and Meeting Rooms</a> ]
+
+<!--
+    [ <a href="/exhibitors/resources/venetian-suite.asp">Venetian Suite Survival Kit</a> ]
+-->
+</div>    
+                        
+                            <br /><br /><br />
+                            <img align="middle" src="/images/framework/printThis.gif">&nbsp;<a href="#" onclick="window.open('/print/exhibitors/resources/exhibitorSurvival.asp?', '_blank', 'status=yes,toolbar=yes,menubar=yes,scrollbars=yes,location=no,width=1024');return false;" class="printEmail">PRINT THIS</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img align="middle" src="/images/framework/emailThis.gif">&nbsp;<a href="javascript:openNew('/utilities/emailPage.asp');" class="printEmail">E-MAIL THIS</a>
+    
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div id="sitelinks">
+
+    
+    <div>
+        <img src="/images/framework/footer_cesnews.png" alt="CES NEWS">
+        <ul>
+            <li><a href="http://cesweb.org/register">Registration now open for 2011 show</li>
+            <li><a href="http://www.CESweb.org/Facebook">Follow CES on Facebook</li>
+            <li><a href="/news/rssNews.asp">See all the latest CES news</li>
+        </ul>
+    </div>
+    <div>
+        <img src="/images/framework/footer_confprog.png" alt="SESSION HIGHLIGHTS">
+        <ul>
+            <li><a href="/conferenceProgram/speakers/default.asp">Want to speak at CES? Submit your application now</li>
+            <li><a href="/conferenceProgram/conference-tracks.asp">2011 conference program lineup announced October 1</li>
+            <li><a href="/conferenceProgram/speakers/speakerServices.asp">See services available to CES speakers</li>
+        </ul>
+    </div>
+    <div>
+        <img src="/images/framework/footer_eventsawards.png" alt="EVENTS & AWARDS">
+        <ul>
+            <li><a href="/events/CEA-events.asp">CEA offers events beyond CES</li>
+            <li><a href="/istage.asp">Innovators: It's time to enter i-stage competition</li>
+            <li><a href="/awards/innovations/default.asp">Best of CES, Innovations return to CES</li>
+        </ul>
+    </div>
+    <div>
+        <img src="/images/framework/footer_hoteltravel.png" alt="HOTEL & TRAVEL">
+        <ul>
+            <li><a href="/hotelTravel/hotel.asp">Dozens of Vegas hotels offer discounts for CES goers</li>
+            <li><a href="/hotelTravel/shuttle.asp">CES offers free shuttle service all four days of show</li>
+            <li><a href="/hotelTravel/cars.asp">Car rental discounts available for CES goers</li>
+        </ul>
+    </div>
+</div>
+        </div>
+    </div>
+    
+    <div id="footer-home">
+    <div id="footer_nav-home">
+        <a href="http://www.cesweb.org/aboutces.asp"><a href="/aboutces.asp">About CES</a></a><span>|</span>
+        <a href="http://www.cesweb.org/aboutcea.asp"><a href="/aboutcea.asp">About CEA</a></a><span>|</span>
+        <a href="http://www.cesweb.org/rssNews.asp"><a href="/news/rssNews.asp">RSS News</a></a><span>|</span>
+        <a href="http://www.cesweb.org/myCES.asp"><a href="/myCES.asp">MyCES</a></a><span>|</span>
+        <a href="http://www.cesweb.org/contactus.asp"><a href="/contactus.asp">Contact Us</a></a><span>|</span>
+        <a href="http://www.cesweb.org/sitemap.asp"><a href="/sitemap.asp">Site Map</a></a><span>|</span>
+        <a href="http://www.cesweb.org/privacyPolicy.asp"><a href="/privacyPolicy.asp">Privacy Policy</a></a><span>|</span>
+        <a href="http://www.cesweb.org/partners.asp"><a href="/partners.asp">Partners</a></a>&nbsp;
+    </div>
+    <div id="copyright-home">Copyright &copy; 2003 - 2010 CEA. All rights reserved.</div>
+    <a target="_blank" href="http://www.CE.org"><img src="/images/framework/cesweb_footerlogo.png" border="0"></a>
+</div>
+
+
+<!-- Yahoo! Web Analytics - All rights reserved -->
+<script type="text/javascript" src="http://d.yimg.com/mi/eu/ywa.js"></script>
+<script type="text/javascript">
+/*globals YWA*/
+var YWATracker = YWA.getTracker("1000217290027");
+//YWATracker.setDocumentName("");
+//YWATracker.setDocumentGroup("");
+//YMATracker.setAction("");
+YWATracker.submit();
+</script>
+<noscript>
+<div><img src="http://s.analytics.yahoo.com/p.pl?a=1000217290027&amp;js=no" width="1" height="1" alt="" /></div>
+</noscript>
+<!-- /Yahoo! Web Analytics - All rights reserved -->
+
+
+</body>
+</html>

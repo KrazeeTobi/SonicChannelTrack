@@ -1,0 +1,134 @@
+/* Caution! Ensure accessibility in print and other media types... */
+@media projection, screen { /* Use class for showing/hiding tab content, so that visibility can be better controlled in different media types... */
+    .tabs-hide {
+        display: none;
+    }
+}
+
+/* Hide useless elements in print layouts... */
+@media print {
+    .tabs-nav {
+        display: none;
+    }
+}
+
+/* BEGIN TAB STYLES */
+
+#tab_container {
+	margin:8px 0 0 8px;
+	padding:0;
+	width:690px;
+	height:100%;
+	float:right;
+	clear:both;
+	display:block;
+	/*border:1px solid #000;*/
+	}
+
+#container-4 {
+	margin:0;
+	padding:0;
+	background:url(../images/bg_tabs.png) no-repeat 0 0;
+	/*width:700px;*/
+	width:690px;
+	float:left;
+	display:block;
+	/*border:1px solid #000;*/
+	}
+
+#container-4 ul.tabs {
+	margin:0 0 0 4px;
+	padding:0;
+	height:28px;
+	display:inline-block;
+	}
+
+#container-4 ul.tabs li#why_em_matters {
+	margin:0;
+	height:28px;
+	list-style-type:none;
+	float:left;
+	clear:none;
+	}
+
+#container-4 ul.tabs li#why_em_matters a {
+	cursor:default;
+	}
+
+#container-4 ul.tabs li a:hover {}
+
+#container-4 ul.tabs li#why_em_matters:hover    {
+    margin:0;    
+    padding:0;    
+    background:none;    
+    background-position:none;    }
+
+#container-4 ul.tabs li.tabs-selected {}
+
+/*.tab_content {
+	margin:4px 0 0 0;
+	width:688px;
+	background:#FFF;
+	float:left;
+	clear:both;
+	}*/
+
+#fragment-10, #fragment-11 {
+	margin:4px 0 0 0;
+	padding:25px 56px;
+	font-family:Helvetica, Arial, sans-serif;
+	font-size:12px;
+	color:#000;
+	line-height:24px;
+	float:left;
+	clear:both;
+	border-top:1px solid #B3B3B3; /*light grey*/
+	border-right:1px solid #B3B3B3; /*light grey*/
+	border-left:1px solid #B3B3B3; /*light grey*/
+	}
+	
+	#fragment-10 p span#registration, #fragment-11 p span#registration {
+		margin:0;
+		padding:0;
+		font-size:80%;
+		line-height:80%;
+		vertical-align:text-top;
+		/*border:1px solid #000;*/
+		}
+
+ul.em_logo {
+	margin:0;
+	padding:0;
+	}
+
+ul.em_logo li {
+	margin:0;
+	padding:0 0 0 20px;
+	background:url(../images/bullet_emlogo.gif) no-repeat 0 6px;
+	list-style-type:none;
+	}
+
+#tab_below {
+	width:688px;
+	height:32px;
+	float:left;
+	display:block;
+	border-right:1px solid #B3B3B3; /*light grey*/
+	border-bottom:1px solid #B3B3B3; /*light grey*/
+	border-left:1px solid #B3B3B3; /*light grey*/
+	}
+
+#tab_below a {
+	width:688px;
+	height:32px;
+	background:url(../images/btn_registerNowTabs.jpg) no-repeat 0 0;
+	display:block;
+	}
+
+#tab_below a:hover {
+	background-position:0 -32px;
+	}
+
+#tab_below img {
+	display:block;
+	}
