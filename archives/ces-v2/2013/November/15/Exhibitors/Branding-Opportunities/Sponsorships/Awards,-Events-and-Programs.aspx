@@ -1,0 +1,978 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head id="head"><title>
+	Awards, Events and Programs - 2014 International CES, January 7-10
+</title><meta name="description" content="Explore sponsorship opportuities for awards, events and programs.  " /> 
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" /> 
+<meta http-equiv="pragma" content="no-cache" /> 
+<meta http-equiv="content-style-type" content="text/css" /> 
+<meta http-equiv="content-script-type" content="text/javascript" /> 
+<meta name="keywords" content="International CES, CES, CES 2010, CES 2011, CES 2012, CES 2013, CES 2014, CES 2015, CES 2016, CES 2017, CES 2018, Consumer Electronics Show, Consumer Technology, Consumer Electronics, Consumer Electronics Association, CES Las Vegas, ces show, ces vegas, CES Unveiled, ces tradeshow, ces conference, ces registration, ces exhibitor, ces innovation awards, innovation awards, best of ces, ces keynote, ces show floor, technology, silicon valley, technology innovation, disruptive technology, start-ups,International CES, CES, CES 2010, CES 2011, CES 2012, CES 2013, CES 2014, CES 2015, CES 2016, CES 2017, CES 2018, Consumer Electronics Show, Consumer Technology, Consumer Electronics, Consumer Electronics Association, CES Las Vegas, ces show, ces vegas, CES Unveiled, ces tradeshow, ces conference, ces registration, ces exhibitor, ces innovation awards, innovation awards, best of ces, ces keynote, ces show floor, technology, silicon valley, technology innovation, disruptive technology, start-ups, exhibitor, exhibit, branding opportunities, sponsor, sponsorships" /> 
+<meta name="viewport" content="initial-scale=1">
+<meta property="twitter:account_id" content="10668202" />
+<!-- Twitter Summary Card -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@IntlCES">
+<meta name="twitter:creator" content="@IntlCES">
+<meta name="twitter:title" content="Awards, Events and Programs">
+<meta name="twitter:description" content="Explore sponsorship opportuities for awards, events and programs.  ">
+<meta name="twitter:image" content="http://content.ce.org/2013ces/images/hpimages/header/cesweb_headerlogo.png">
+<!-- End of Twitter Summary Card -->
+
+<link rel="shortcut icon" href="/ces/favicon.ico"/>
+
+<link href="/CMSPages/GetResource.ashx?stylesheetname=ices-main-style" type="text/css" rel="stylesheet" media="screen" />
+    <link href="/CMSPages/GetResource.ashx?stylesheetname=ices-mediaelementplayer.min	" type="text/css" rel="stylesheet" media="screen" />
+    <link href="/CMSPages/GetResource.ashx?stylesheetname=ices-captions" type="text/css" rel="stylesheet"  />
+    <link href="/CMSPages/GetResource.ashx?stylesheetname=ices-slider-style" type="text/css" rel="stylesheet" media="screen" />
+    <link href="/CMSPages/GetResource.ashx?stylesheetname=ices-flexslider" type="text/css" rel="stylesheet" />
+    <link href="/CMSPages/GetResource.ashx?stylesheetname=ices-prettyphoto" type="text/css" rel="stylesheet" />
+    <link href="/CMSPages/GetResource.ashx?stylesheetname=ices-settings" type="text/css" rel="stylesheet" media="screen" />
+    <link href="/CMSPages/GetResource.ashx?stylesheetname=ices-fonts" type="text/css" rel="stylesheet" media="screen" />
+<link href="/CMSPages/GetResource.ashx?stylesheetname=ices-print" type="text/css" rel="stylesheet" media="print" />
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+<script type="text/javascript" src="/ces/js/scripts.js"></script>
+<script type="text/javascript" src="/ces/js/jquery.themepunch.revolution.min.js"></script>
+<script type="text/javascript" src="/ces/js/custom.js"></script>
+
+ <script type="text/javascript">
+    <!--
+    function toggle_visibility(id) {
+        var e = document.getElementById(id);
+        if (e.style.display == 'block')
+            e.style.display = 'none';
+        else
+            e.style.display = 'block';
+    }
+    //-->
+    </script>
+    <script type="text/javascript">
+        function EnterEvent(e) {
+            if (e.keyCode == 13) {
+              var val = document.getElementById('searchTxt').value;
+              var sURL = '/search-results?searchtext=' + val + '&searchmode=anyword';
+              window.location.href = sURL;
+              return false;
+                }
+            }
+      
+      jQuery(document).ready(function ($) {
+      for (var count = 2 ;count <= 7; count ++)
+        {
+            var a = $('#'+ count +' ul.nav-3cols > li');
+            for (var i = 0; i < a.length; i += 5) {
+                a.slice(i, i + 5).wrapAll('<div class="nav-col"></div>');
+            }
+            var a = $('#'+ count +' ul.nav-2cols > li');
+            for (var i = 0; i < a.length; i += 5) {
+                a.slice(i, i + 5).wrapAll('<div class="nav-col"></div>');
+            }
+        }
+  
+   
+    });
+    </script>
+<script type="text/javascript">var switchTo5x=false;</script>
+<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+<script type="text/javascript">stLight.options({publisher: "a17beaa8-5eee-4df7-8629-9947a3e965e3",  offsetLeft:'-270', doNotHash: true, doNotCopy: false, hashAddressBar: false, exclusive_services:true, services:"facebook,twitter,linkedin,googleplus,email,sharethis", minorServices:false});</script>
+
+
+
+<script type="text/javascript" src="/ces/js/cmsedit/WidgetSecurity_non_Admin.js"></script> 
+<style type="text/css" rel="stylesheet"> 
+                   
+                        .languages {
+                        display: none !important;
+                        
+                        }
+
+                    </style>
+                    <link href="/CMSPages/GetResource.ashx?_webparts=1067" type="text/css" rel="stylesheet"/> 
+</head>
+<body class="LTR ENUS ContentBody" >
+    <form method="post" action="/Exhibitors/Branding-Opportunities/Sponsorships/Awards,-Events-and-Programs.aspx" id="form">
+<div class="aspNetHidden">
+<input type="hidden" name="manScript_HiddenField" id="manScript_HiddenField" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+</div>
+
+<input type="hidden" name="lng" id="lng" value="en-US" />
+<script type="text/javascript">
+	//<![CDATA[
+
+function PM_Postback(param) { if (window.top.HideScreenLockWarningAndSync) { window.top.HideScreenLockWarningAndSync(1080); }__doPostBack('m',param); }
+function PM_Callback(param, callback, ctx) { if (window.top.HideScreenLockWarningAndSync) { window.top.HideScreenLockWarningAndSync(1080); }WebForm_DoCallback('m',param,callback,ctx,null,true); }
+//]]>
+</script>
+<script src="/ScriptResource.axd?d=_5JCocmpF5FO20nczb37dnUYvUFGaqwbMHXRfQR_cHXC7tKVJKYGD45DONBLAEsM6_ftHTGhOdwnbAiMC8b1g9Dch-5ZHC0ZXLS713NRUY5vQwEQzCUa97LNyNeze6Nn0&amp;t=ffffffff8dea9fe4" type="text/javascript"></script>
+    <div id="CMSHeaderDiv">
+	<!-- -->
+</div>
+    <div id="ctxM">
+
+</div>
+    
+<div id="wrapper">
+	<div id="center_top">
+    <div id="container">
+        	<!--TOP PANEL-->
+			<section>
+            <div id="top_panel">
+                <div class="container">
+                    <ul class="connect-title">
+                        <li>Connect with Us</li>
+                    </ul>
+                    <ul class="social_icons">
+	<li class="twitter">
+		<a href="https://twitter.com/intlces" title="Twitter">&nbsp;</a></li>
+	<li class="facebook">
+		<a href="https://www.facebook.com/InternationalCES" title="facebook">&nbsp;</a></li>
+	<li class="googleplus">
+		<a href="https://google.com/+InternationalCES" title="googleplus">&nbsp;</a></li>
+	<li class="instagram">
+		<a href="http://instagram.com/intlces" title="instagram">&nbsp;</a></li>
+	<li class="youtube">
+		<a href="http://www.youtube.com/user/cesonthetube" title="youtube">&nbsp;</a></li>
+</ul>
+
+                    <ul class="open-ad"><li id="clasp_1"><a href="javascript:lunchboxOpen('1');">OPEN ADVERTISEMENT </a></li></ul>
+                    <ul class="drop" id="nav">
+	<li>
+		Other CEA Sites
+		<ul>
+			<li>
+				<a href="http://www.ce.org" target="_blank">CEA - CE.org</a></li>
+			<li>
+				<a href="http://www.declareinnovation.com/" target="_blank">Innovation Movement</a></li>
+			<li>
+				<a href="http://www.ce.org/blog" target="_blank">Digital Dialogue Blog</a></li>
+			<li>
+				<a href="http://www.ce.org/i3" target="_blank">i3 Magazine</a></li>
+			<li>
+				<a href="http://www.greenergadgets.org/" target="_blank">Greener Gadgets</a></li>
+			<li>
+				<a href="http://www.ce.org/research" target="_blank">CEA Market Research</a></li>
+			<li>
+				<a href="http://www.ce.org/foundation" target="_blank">CEA Foundation</a></li>
+		</ul>
+	</li>
+</ul>
+
+                </div>
+            </div>
+            </section> 
+            <!--END TOP PANEL-->
+            <!--AD AREA-->
+           <section>
+           		<div style="background:#000;" class="billboard-ad" >
+                <div class="container bill-ad lunchbox" id="lunch_1"  style="display: none;">
+                  
+                </div>
+                </div>
+           	</section>
+             <!--ENS AD AREA-->
+           
+           <!--AUDIENCEL-->
+           <section>
+           <div class="container">
+           	<ul class="audience-nav">
+	<li>
+		<a href="/exhibitor">Exhibitors</a></li>
+	<li>
+		<a href="/press">Press</a></li>
+	<li>
+		<a href="/international">International</a></li>
+</ul>
+
+            </div>
+           </section>
+           <!--END AUDIENCEL-->
+           <!--HEADER-->
+          <section>
+            <div class="container">
+				<header id="header">
+					<div id="sticky_navigation">
+						<div class="container">
+							<a href="/home" id="logo"></a>
+                   		   
+                           <div class="search-container">
+                              <div class="search">
+                                <input type="search" id="searchTxt" onkeypress="return EnterEvent(event);" >
+                                  
+                              </div>
+                              <div class="date">
+                                <h2>
+	Las Vegas, NV</h2>
+<h3>
+	JANUARY 7-10, 2014</h3>
+
+                              </div>
+                          </div>
+                       </div>
+                       <div id="navigation-wrapper">
+                            <nav id="main-navigation">
+                              
+<ul class="main-menu sf-js-enabled sf-shadow">
+ 
+    <li class=""
+id="2">
+<a href=" /Register-Plan"> Register &amp; Plan</a> 
+<ul 
+    
+   class='nav-2cols'
+  style="display: none; visibility: hidden;">
+    
+  <p style ="display:none;">&nbsp;</p><li><a href=" /Register-Plan/Register-Now"> Register Now</a>
+
+<li><a href=" /Register-Plan/Full-Schedule"> Full Schedule </a>
+
+<li><a href=" /Register-Plan/How-to-Register-for-CES"> How to Register for CES</a>
+
+<li><a href=" /Register-Plan/Badges"> Badges: A New Process for 2014</a>
+
+<ul></ul>
+</li><li><a href=" /Register-Plan/Hotel"> Hotel</a>
+
+<ul><li><a href="/Register-Plan/Hotel/Reserve-a-Room-Block" class="no-display">Reserve a Room Block </a></li></ul>
+</li><li><a href=" /Register-Plan/Transportation"> Transportation</a>
+
+<ul></ul>
+</li><li><a href=" /Register-Plan/Las-Vegas-Travel-Tips"> Las Vegas Travel Tips</a>
+
+<li><a href=" /Register-Plan/On-Site-Logistics"> On-Site Logistics</a>
+
+<li><a href=" /Register-Plan/My-CES-Planner"> MyCES Planner</a>
+
+<li><a href=" /Register-Plan/First-Timers-Resources"> First-Timers Resources</a>
+
+
+</ul></li><li class=""
+id="3">
+<a href=" /Show-Floor"> Show Floor</a> 
+<ul 
+    
+   class='nav-2cols'
+  style="display: none; visibility: hidden;">
+    
+  <p style ="display:none;">&nbsp;</p><li><a href=" /Show-Floor/Exhibit-or-Sponsor"> Exhibit or Sponsor</a>
+
+<li><a href=" /Show-Floor/Exhibit-Hours"> Exhibit Hours</a>
+
+<li><a href=" /Show-Floor/Exhibit-Directory"> Exhibitor Directory</a>
+
+<li><a href=" /Show-Floor/TechZones"> TechZones</a>
+
+<ul></ul>
+</li><li><a href=" /Show-Floor/Maps"> Maps</a>
+
+<li><a href=" /Show-Floor/Show-Floor-Tours"> Show Floor Tours</a>
+
+<li><a href=" /Show-Floor/MyCES-Planner"> MyCES Planner</a>
+
+<li><a href=" /Show-Floor/CES-Mobile-App"> CES Mobile App</a>
+
+
+</ul></li><li class=""
+id="4">
+<a href=" /Conference"> Conference</a> 
+<ul 
+    
+   class='nav-2cols'
+  style="display: none; visibility: hidden;">
+    
+  <p style ="display:none;">&nbsp;</p><li><a href=" /Conference/Keynotes"> Keynote Addresses</a>
+
+<li><a href=" /Conference/Purchase-Passes"> Purchase Passes</a>
+
+<li><a href=" /Conference/Shopping-Cart"> Shopping Cart</a>
+
+<li><a href=" /Conference/Session-Schedule-Brochure"> Conference Program Schedule </a>
+
+<li><a href=" /Conference/SuperSessions"> SuperSessions</a>
+
+<li><a href=" /Conference/Conference-Tracks"> Conference Tracks</a>
+
+<li><a href=" /Conference/Become-a-Speaker"> Become a Speaker</a>
+
+<li><a href=" /Conference/Speaker-Services"> Speaker Services</a>
+
+<ul></ul>
+</li>
+</ul></li><li class=""
+id="5">
+<a href=" /Events-Awards"> Events &amp; Awards</a> 
+<ul 
+    
+   
+  style="display: none; visibility: hidden;">
+    
+  <p style ="display:none;">&nbsp;</p><li><a href=" /Events-Awards/Events"> Events</a>
+
+<ul></ul>
+</li><li><a href=" /Events-Awards/Awards"> Awards</a>
+
+<li><a href=" /Events-Awards/Innovations"> CES Innovations Awards</a>
+
+<li><a href=" /Events-Awards/Press-Events"> Press Events</a>
+
+
+</ul></li><li class=""
+id="6">
+<a href=" /News"> News</a> 
+<ul 
+    
+   class='nav-2cols'
+  style="display: none; visibility: hidden;">
+    
+  <p style ="display:none;">&nbsp;</p><li><a href=" /News/Press-Releases"> Press Releases</a>
+
+<li><a href=" /News/CES-TV"> CES TV</a>
+
+<li><a href=" /News/CES-Social"> Social Media</a>
+
+<li><a href=" /News/CES-In-The-News"> CES In The News</a>
+
+<li><a href=" /News/Exhibitor-Press-Releases"> Exhibitor Press Releases </a>
+
+<li><a href=" /News/Press-Services"> Press Services</a>
+
+
+</ul></li><li class=""
+id="7">
+<a href=" /Why-attend-CES"> Why Attend CES?</a> 
+<ul 
+    
+   
+  style="display: none; visibility: hidden;">
+    
+  <p style ="display:none;">&nbsp;</p><li><a href=" /Why-attend-CES/What-Youre-Missing-CES"> See What You&#39;re Missing at CES</a>
+
+<li><a href=" /Why-attend-CES/2013-Attendee-Audit"> 2013 Attendee Audit</a>
+
+<li><a href=" /Why-attend-CES/CEA-Member-Benefits"> CEA Member Benefits</a>
+
+
+</ul>  </li>
+</ul>
+
+ <div id="main-navigation">
+  <select id="navSecondary" onChange="top.location.href=this.options[this.selectedIndex].value;">
+<option selected="selected" value="">Site Main Navigation</option>
+<option style="font-family:open_sansbold;" value="/Register-Plan">Register & Plan</option><option style="font-family:open_sansbold;" value="/Show-Floor">Show Floor</option><option style="font-family:open_sansbold;" value="/Conference">Conference</option><option style="font-family:open_sansbold;" value="/Events-Awards">Events & Awards</option><option style="font-family:open_sansbold;" value="/News">News</option><option style="font-family:open_sansbold;" value="/Why-attend-CES">Why Attend CES?</option><option style="font-family:open_sansbold;" value="/Exhibitor">Exhibitors</option><option style="font-family:open_sansbold;" value="/International">International</option><option style="font-family:open_sansbold;" value="/Press">Press</option>
+</select>
+</div>
+                            </nav>
+                        </div>
+				    </div>
+	          </header>
+           </div> 
+        </section>
+        </div>
+    
+      
+
+<section>
+        
+
+        <div class="container clearfix above">
+            <div class="one-sixth-leftnav">
+                <div class="leftnav">
+                    <ul><li   
+>
+<a href="/Exhibitor/Exhibiting-Opportunities"> 
+  
+  Exhibiting Opportunities   
+  </a><ul 
+ class='no-display'>
+ 
+<li   
+>
+<a href="/Exhibitor/Exhibiting-Opportunities/Open-Exhibit-Space"> Open Exhibit Space  
+ 
+  </a></li><li   
+>
+<a href="/Exhibitor/Exhibiting-Opportunities/TechZones"> TechZones  
+ 
+  </a></li><li   
+>
+<a href="/Exhibitor/Exhibiting-Opportunities/Outdoor-Exhibit-Space"> Outdoor Exhibit Space  
+ 
+  </a></li><li   
+>
+<a href="/Exhibitor/Exhibiting-Opportunities/CES-Meeting-Place"> CES Meeting Place  
+ 
+  </a></li><li   
+>
+<a href="/Exhibitor/Exhibiting-Opportunities/Meeting-Rooms"> Meeting Rooms  
+ 
+  </a></li><li   
+>
+<a href="/Exhibitor/Exhibiting-Opportunities/Ballroom-Space"> Ballroom Space  
+ 
+  </a></li><li   
+>
+<a href="/Exhibitor/Exhibiting-Opportunities/Suites"> Suites  
+ 
+  </a></li><li   
+>
+<a href="/Exhibitor/Exhibiting-Opportunities/Booth-Space-Selection"> Exhibit Space Selection  
+ 
+  </a><ul class="main-menu sf-js-enabled sf-shadow">
+ 
+    
+
+
+
+   </li>
+</ul>
+</li>
+</ul></li><li   
+>
+<a href="/Exhibitor/Branding-Opportunities"> 
+  
+  Branding Opportunities   
+  </a><ul 
+ >
+ 
+<li   
+class='left-up'>
+<a href="/Exhibitor/Branding-Opportunities/Sponsorships"> Sponsorships  
+ 
+  </a><ul class="main-menu sf-js-enabled sf-shadow">
+ 
+    <li> <a href='/Exhibitor/Branding-Opportunities/Sponsorships/On-site-Attendee-Materials'>On-site Attendee Materials </a></li>
+
+
+
+ </li>
+
+<li class='left-current'> <a href='/Exhibitor/Branding-Opportunities/Sponsorships/Awards-Events-and-Programs'>Awards, Events and Programs </a></li>
+
+ </li><li> <a href='/Exhibitor/Branding-Opportunities/Sponsorships/Lounges-and-Meeting-Space'>Lounges and Meeting Space </a></li>
+
+
+
+   </li>
+</ul>
+</li><li   
+>
+<a href="/Exhibitor/Branding-Opportunities/On-site-Branding"> On-site Branding  
+ 
+  </a></li><li   
+>
+<a href="/Exhibitor/Branding-Opportunities/Print-Advertising"> Print Advertising  
+ 
+  </a></li><li   
+>
+<a href="/Exhibitor/Branding-Opportunities/Direct-Mail-and-Online-Advertising"> Direct Mail and Online Advertising  
+ 
+  </a></li><li   
+>
+<a href="/Exhibitor/Branding-Opportunities/Complimentary"> Complimentary  
+ 
+  </a></li><li   
+>
+<a href="/Exhibitor/Branding-Opportunities/Export-Opportunities"> Export Opportunities  
+ 
+  </a></li><li   
+>
+<a href="/Exhibitor/Branding-Opportunities/Award-Submissions"> Award Submissions  
+ 
+  </a></li>
+</ul></li><li   
+>
+<a href="/Exhibitor/Media-and-PR-Opportunities"> 
+  
+  Media and PR Opportunities   
+  </a><ul 
+ class='no-display'>
+ 
+<li   
+>
+<a href="/Exhibitor/Media-and-PR-Opportunities/CES-Unveiled-Opportunities"> CES Unveiled Opportunities  
+ 
+  </a></li><li   
+>
+<a href="/Exhibitor/Media-and-PR-Opportunities/Media-Branding-Opportunities"> Media Branding Opportunities  
+ 
+  </a></li><li   
+>
+<a href="/Exhibitor/Media-and-PR-Opportunities/Complimentary-Media-Opportunities"> Complimentary Media Opportunities  
+ 
+  </a></li><li   
+>
+<a href="/Exhibitor/Media-and-PR-Opportunities/PR-Resources"> PR Resources  
+ 
+  </a><ul class="main-menu sf-js-enabled sf-shadow">
+ 
+    
+
+
+
+   </li>
+</ul>
+</li>
+</ul></li><li   
+>
+<a href="/Exhibitor/Show-Planning"> 
+  
+  Show Planning   
+  </a><ul 
+ class='no-display'>
+ 
+<li   
+>
+<a href="/Exhibitor/Show-Planning/Deadlines-checklist"> Deadline Checklist   
+ 
+  </a></li><li   
+>
+<a href="/Exhibitor/Show-Planning/Exhibitor-Manuals"> Exhibitor Manuals  
+ 
+  </a><ul class="main-menu sf-js-enabled sf-shadow">
+ 
+    
+
+
+
+ </li>
+
+
+
+ </li>
+
+
+
+ </li>
+
+
+
+   </li>
+</ul>
+</li><li   
+>
+<a href="/Exhibitor/Show-Planning/Exhibitor-Dashboard"> Exhibitor Dashboard  
+ 
+  </a></li><li   
+>
+<a href="/Exhibitor/Show-Planning/Official-CES-Vendors-and-Service-Providers"> Official CES Vendors and Service Providers  
+ 
+  </a></li>
+</ul></li><li   
+>
+<a href="/Exhibitor/Exhibitor-Education-Series"> 
+  
+  Exhibitor Education Series   
+  </a></li><li   
+>
+<a href="/Exhibitor/Contact-a-Sales-Representative"> 
+  
+  Contact a Sales Representative   
+  </a></li><li   
+>
+<a href="/Exhibitor/CEA-Member-Benefits-for-Exhibtors"> 
+  
+  CEA Member Benefits for Exhibitors   
+  </a></li>
+</ul>
+
+                </div>
+                
+
+            </div>
+            <div class="three-fourth">
+                <div class="body-content">
+                    <h1>Awards, Events and Programs</h1>
+
+                    <div class="breadcrumbs-article">
+                        <ul class="breadcrumbs-left">
+                            <li>
+                                <a id="p_lt_ctl06_pageplaceholder_p_lt_hypBChome" href="../../../">Home</a></li>
+                             <li class="bread-div">|</li><li><a href="/Exhibitors.aspx" class="CMSBreadCrumbsLink">Exhibitors</a> </li><li class="bread-div">|</li><li> <a href="/Exhibitor/Branding-Opportunities.aspx" class="CMSBreadCrumbsLink">Branding Opportunities</a> </li><li class="bread-div">|</li><li> <a href="/Exhibitors/Branding-Opportunities/Sponsorships.aspx" class="CMSBreadCrumbsLink">Sponsorships</a> </li><li class="bread-div">|</li><li> <span  class="CMSBreadCrumbsCurrentItem">Awards, Events and Programs</span>
+</li>
+                            
+                        </ul>
+                        <ul class="breadcrumbs-right">
+                            <li><span  class="st_sharethis_custom" displayText="ShareThis"><a >Share This</a></span></li>
+                            <li><a href="javascript:window.print()">Print This Page</a></li>
+                        </ul>
+                    </div>
+
+                    <p class="intro-innov">  </p>
+
+                    <div class="article-content-area">
+                      
+                       <p>
+	<strong>Brand Matters<img alt="" src="/CES/media/2014/landing%20pages/for%20exhibitors/BMlogo_NOSPON.jpg" style="width: 200px; height: 53px; float: right; margin: 10px;" /></strong><br />
+	The Brand Matters program premiered at the 2013 International CES<sup>&reg;</sup>&nbsp;to provide a tailored experience to the senior level marketing and advertising audience at the show. In its inaugural year, the program attracted over 5,000 executives in this community from notable companies like Coca Cola, Samsung, Unilever, YouTube, Facebook, Tumblr, Amazon, Twitter, and Google.</p>
+<p>
+	Brand Matters connects the International CES and the advertising and marketing executives looking for the latest consumer technology products that are important to their client&rsquo;s bottom line. The program educates and assists them with navigating the exhibits, conference sessions and events critical to their community at the most influential technology trade show in the world.</p>
+<p>
+	&nbsp;<br />
+	As a Brand Matters sponsor, your brand will be front and center to this exclusive group of influencers.</p>
+<hr />
+<p>
+	<br />
+	<strong>CEA Member Reception<img alt="" src="/CES/media/2014/landing%20pages/for%20exhibitors/CEAlogo.jpg" style="width: 200px; height: 70px; float: right; margin: 10px;" /></strong><br />
+	Reach top executives and industry leaders through a sponsorship of the Consumer Electronics Association&rsquo;s (CEA)<sup>&reg;</sup>&nbsp;annual membership networking reception at CES. Align your brand with the preeminent authority and voice for the consumer technology industry and build awareness with a critical audience of key decision-makers.&nbsp;As the sponsor, you&rsquo;ll receive two (2) sponsor signs at the entrance to the reception and inside; company/product literature distributed in high traffic areas and access to the post-show attendee mailing list.<br />
+	<br />
+	<strong>Sponsorship Investment:&nbsp;</strong>Call for details.<br />
+	&nbsp;<br />
+	Contact us at&nbsp;<a href="mailto:byb@CE.org?subject=Interested%20in%20CEA%20Member%20Reception%20Sponsorship">byb@CE.org</a>&nbsp;or 703-907-4324 to secure this opportunity.</p>
+<hr />
+<p>
+	<br />
+	<strong>CEA Entrepreneur Club (eClub) Networking Cocktail Party</strong><br />
+	Connect your brand, products and services with industry entrepreneurs when you sponsor this exclusive, invitation-only event. Held at Surrender nightclub in the Wynn on Thursday, January 9, sponsorship of this event includes opportunity to provide branded amenities (beverage napkins, etc), signage during the event, company logo included on event invitation, a reserved table and up to ten party invitations for sponsors&#39; guests, dependent on sponsorship level.<br />
+	<br />
+	<strong>Sponsorship Investment:</strong>&nbsp;$7.500 - $20,000 (based on exclusive or non-exclusive agreement)&nbsp;<br />
+	<br />
+	Contact us at&nbsp;<a href="mailto:ltardif@CE.org?subject=Interested%20in%20CEA%20VIP%20Buyer%20Program">ltardif@CE.org</a>&nbsp;or 703-907-7681 to secure this opportunity.</p>
+<hr />
+<p>
+	<br />
+	<strong>CEA VIP Buyers Program<img alt="" src="/CES/media/2014/landing%20pages/for%20exhibitors/VIPbuyers.jpg" style="width: 200px; height: 50px; float: right; margin: 10px;" /></strong><br />
+	Make your company name and logo visible to a select group of presidents, owners, CEOs, merchandisers and buyers from the top 150 consumer electronics retail companies. The sponsorship for the VIP Buyers Program includes the VIP Buyer Car Service and the VIP Luncheons.<br />
+	<br />
+	The car service helps you reach more than 1,200 of the most important buyers in the business, those who represent an incredible 95 percent of the $100 billion consumer electronics retail market. VIP buyers use the car service to go to and from the show, as well as many other Vegas locations during the four days of the show.<br />
+	<br />
+	The invitation-only VIP Luncheons attract 700-800 guests per luncheon. Past guests include VIP buyers from Best Buy, RadioShack and Target, as well as&nbsp;VIPs, state and federal government representatives and policy directors from the FCC, FTC and other government agencies.<br />
+	&nbsp;<br />
+	As the sponsor of this program, your company will receive:</p>
+<ul>
+	<li>
+		<p>
+			Sponsor signs on both sides of each car in the VIP Buyer car service (approximately 100 cars)</p>
+	</li>
+	<li>
+		<p>
+			Logo on luncheon invitation (subject to print deadline)</p>
+	</li>
+	<li>
+		<p>
+			Display table at entrance to lunch room and product information in the room</p>
+	</li>
+	<li>
+		<p>
+			Logo on signs inside luncheon room and on directional signs leading to lunch room</p>
+	</li>
+	<li>
+		<p>
+			Sponsor logo on promotional materials</p>
+	</li>
+	<li>
+		<p>
+			Brochure insertion in VIP Buyer Welcome Package (subject to mailing deadline)</p>
+	</li>
+	<li>
+		<p>
+			Logo and website listing on CESweb.org</p>
+	</li>
+	<li>
+		<p>
+			One-time use of VIP Buyer mailing list, through a third-party mail house</p>
+	</li>
+	<li>
+		<p>
+			Lunch invitations for up to five company reps or sponsor guests</p>
+	</li>
+</ul>
+<p>
+	<strong>Sponsorship Investment:&nbsp;</strong>Call for details<br />
+	&nbsp;<br />
+	Contact us at&nbsp;<a href="mailto:ltardif@CE.org?subject=Interested%20in%20CEA%20VIP%20Buyer%20Program">ltardif@CE.org</a>&nbsp;or 703-907-7681 to secure this opportunity.</p>
+<hr />
+<p>
+	<br />
+	<strong>CEA VIP Luncheons</strong><br />
+	Reach professionals in the market that matters to you. CEA hosts VIP lunches located in the LVCC and The Venetian the first three days of the show. Your logo is placed on 6,000+ printed luncheon tickets and signage throughout the event, you&rsquo;ll also receive literature distribution and access to the post show attendee mailing list.<br />
+	<br />
+	The lunch program is offered Tuesday, January 6 &ndash; Thursday, January 9, 2014 at the LVCC and The Venetian.<br />
+	<br />
+	<strong>Sponsorship Investment:&nbsp;</strong>Call for details<br />
+	&nbsp;<br />
+	Contact us at&nbsp;<a href="mailto:ltardif@CE.org?subject=Interested%20in%20CEA%20VIP%20Luncheon%20Sponsorship">ltardif@CE.org</a>&nbsp;or 703-907-7681 to secure this opportunity.</p>
+<hr />
+<p>
+	<br />
+	<strong>CESTV<img alt="" src="/CES/media/2014/landing%20pages/for%20exhibitors/CEStv.jpg" style="width: 200px; height: 74px; float: right; margin: 10px;" /></strong><br />
+	CESTV is our video resource for all things CES.&nbsp;<a href="http://lyris3.ce.org/t/1705583/6486800/6289/0/">CESTV</a>&nbsp;runs on&nbsp;<a href="http://lyris3.ce.org/t/1705583/6486800/6290/0/">CESweb.org</a>,&nbsp;<a href="http://lyris3.ce.org/t/1705583/6486800/6288/0/">YouTube</a>&nbsp;and on the<a href="http://lyris3.ce.org/t/1705583/6486800/6205/0/">CES&nbsp;</a>Facebook page before, during and after the 2014 CES.&nbsp;As a presenting sponsor, you&rsquo;ll not only gain exposure to the thousands of users streaming the action at CES, but also benefit from our comprehensive social media strategy and relationships with press, bloggers and digital personalities.<br />
+	&nbsp;<br />
+	<strong>Sponsorship Investment:&nbsp;</strong>Call for Details<br />
+	&nbsp;<br />
+	Contact us at&nbsp;<a href="mailto:ltardif@CE.org?subject=Interested%20in%20CESTV%20Sponsorship">ltardif@CE.org</a>&nbsp;or 703-907-7681 to secure this opportunity.</p>
+<hr />
+<p>
+	<br />
+	<strong>Entertainment Matters at CES<img alt="" src="/CES/media/2014/landing%20pages/for%20exhibitors/CES-690_EntertainmentMatters_CES_sponsor_H.jpg" style="float: right; margin: 10px;" /></strong><br />
+	Entertainment Matters at CES (EM) premiered at the 2011 International CES<sup>&reg;</sup>, and has been a brilliant success ever since. In 2013, EM attracted more than 30,000 entertainment industry professionals to the show, including influencers from the Back Lot to the Boardroom.&nbsp;<br />
+	&nbsp;<br />
+	Designed by and for Hollywood professionals, EM connects the entertainment and technology industries and allows these executives to experience the products and technologies that deliver entertainment to the consumer, offers education focused on the emerging business models resulting from new technologies, and defines new ways for consumers to experience their entertainment. From keynotes and panels to exhibits and special events, EM packages together what&rsquo;s critical to the Hollywood community.<br />
+	&nbsp;<br />
+	As an Entertainment Matters sponsor, the EM program at CES is your connection to lucrative partnerships and groundbreaking innovations at the world&#39;s largest annual innovation event.<br />
+	&nbsp;<br />
+	<strong>Sponsorship Investment:&nbsp;</strong>Call for details.<br />
+	&nbsp;<br />
+	Contact us at&nbsp;<a href="mailto:ltardif@CE.org?subject=Interested%20in%20Entertainment%20Matters%20Sponsorship">ltardif@CE.org</a>&nbsp;or 703-907-7681 to discuss traditional and customizable opportunities.</p>
+<hr />
+<p>
+	<br />
+	<strong>Innovations Design and Engineering Awards<img alt="" src="/CES/media/2014/landing%20pages/for%20exhibitors/Innovations_HON.jpg" style="width: 121px; height: 170px; float: right; margin: 10px;" /></strong><br />
+	Since 1976, the prestigious Innovations Design and Engineering Awards has given consumer technology manufacturers and developers an opportunity to have their newest products judged by a preeminent panel of independent industrial designers, engineers and members of the trade press. At CES, the Innovations Showcase is &nbsp;the place to see, touch, feel and understand the future of consumer technology.<br />
+	<br />
+	Tie your logo and brand to the part of the show floor that draws the most press coverage at CES. As a premier sponsor of the award program considered among the most prestigious in the CE industry, you&rsquo;ll receive inclusion in the Call for Entries direct mail and electronic mail campaigns; general CES show promotional materials including the attendee newsletter and on-site official show publications; on-site directional signage and the graphic panels of the Innovations showcases, as well as countertop signage for honoree&rsquo;s booths; and inclusion in the 2014 sponsor logo and much more.<br />
+	&nbsp;<br />
+	<strong>Sponsorship Investment:&nbsp;</strong>Call for details.<br />
+	&nbsp;<br />
+	Contact us at&nbsp;<a href="mailto:ltardif@CE.org?subject=Interested%20in%20Innovations%20Design%20and%20Engineering%20Awards%20Sponsorship">ltardif@CE.org</a>&nbsp;or 703-907-7681 to secure this opportunity.</p>
+<hr />
+<br />
+<p>
+	<strong>International Reception</strong><br />
+	The International Reception, held the first night of the show, hosts an average attendance of 300 international attendees, exhibitors and press each year. The event is promoted through various targeted electronic direct mailings (EDMs) to our international audience and delegation leaders. Invitations are&nbsp;also distributed on-site in the International Registration area and the International Commerce Center. As a sponsor, your company receives:</p>
+<ul>
+	<li>
+		<p>
+			Electronic invitation sent to all pre-registered international attendees (approximately 25,000) with your name and logo included&nbsp;</p>
+	</li>
+	<li>
+		<p>
+			Your name and logo on the printed invitation for the international reception that is distributed on-site in the International Registration area and the International Commerce Center</p>
+	</li>
+	<li>
+		<p>
+			Reception sponsor recognition on CESweb.org</p>
+	</li>
+	<li>
+		<p>
+			Name and logo on signage at the reception</p>
+	</li>
+	<li>
+		<p>
+			Opportunities to distribute and display literature within the reception room</p>
+	</li>
+	<li>
+		<p>
+			Ten invited guests in addition to staff&nbsp;</p>
+	</li>
+	<li>
+		<p>
+			Recognition during brief remarks by CEA</p>
+	</li>
+</ul>
+<p>
+	<strong>Sponsorship Investment:&nbsp;</strong>Call for details<br />
+	&nbsp;<br />
+	Contact us at&nbsp;<a href="mailto:byb@CE.org?subject=Interested%20in%20International%20Reception%20Sponsorship">byb@CE.org</a>&nbsp;or 703-907-4324 to secure this opportunity.</p>
+<hr />
+<p>
+	<br />
+	<strong>Leaders In Technology Program<img alt="" src="/CES/media/2014/landing%20pages/for%20exhibitors/LITlogo.jpg" style="width: 200px; height: 128px; float: right; margin: 10px;" /></strong><br />
+	The Leaders in Technology (LIT) program at the International CES allows high-level policymakers and technologists to see first-hand the dynamic industry that is driving the American economy. The program also provides information and insight to assist officials in evaluating federal policies that affect the consumer technology industry.&nbsp;The program culminates at the International CES LIT Dinner. Aligning your company name and logo with this extremely exclusive, invitation-only event signifies excellence and prestige. Choose from five possible sponsorships:</p>
+<p style="margin-left: 40px;">
+	<strong>LIT Dinner Reception (exclusive)</strong><br />
+	Prior to dinner, guests are invited to a cocktail reception to network with colleagues. As the exclusive sponsor, your logo and acknowledgement will appear on beverage station signage, you may also provide branded cocktail napkins. You will receive an acknowledgement and your logo in the dinner program; recognition during dinner welcome remarks by Gary Shapiro, president and CEO of CEA and five (5) complimentary dinner registrations.<br />
+	&nbsp;<br />
+	<strong>Sponsorship Investment:</strong>&nbsp;$12,500*</p>
+<div align="center" style="margin-left:1in;">
+	<hr align="center" size="2" width="100%" />
+</div>
+<p style="margin-left: 40px;">
+	<strong>LIT Dinner</strong><br />
+	The most distinguished event at CES, the Leaders in Technology (LIT) Dinner attracts 500 of the most influential industry leaders, including executive-level government representatives and policy makers. As a co-sponsor, you&rsquo;ll receive recognition through the following:</p>
+<ul style="margin-left: 40px;">
+	<li>
+		<p>
+			Logo on 1,500 print and electronic dinner&nbsp;invitations</p>
+	</li>
+	<li>
+		<p>
+			Logo recognition on directional signage to the dinner and promotional signage during the event</p>
+	</li>
+	<li>
+		<p>
+			Logo and/or website in the dinner program</p>
+	</li>
+	<li>
+		<p>
+			Recognition in dinner welcome remarks made by Gary Shapiro, president and CEO of CEA</p>
+	</li>
+	<li>
+		<p>
+			Logo recognition on title presentation slide for the multimedia presentation shown before the dinner (if used)</p>
+	</li>
+	<li>
+		<p>
+			Five (5) complimentary dinner registrations, including one (1) seat for an appropriate company executive at a head table.</p>
+	</li>
+	<li>
+		<p>
+			One (1) print&nbsp;ad in&nbsp;<em>It Is Innovation (i3)</em></p>
+	</li>
+</ul>
+<div style="margin-left: 40px;">
+	<p>
+		<strong>Sponsorship Investment:&nbsp;</strong>$25,000*, two sponsorships available.</p>
+	<hr />
+	<p>
+		<strong>LIT Dinner Dessert Reception (exclusive)</strong><br />
+		Immediately following the dinner, an assortment of desserts, coffee and tea are set in the pre-function room to allow guests to continue networking with colleagues. As the exclusive sponsor of this reception, you&rsquo;ll receive:</p>
+</div>
+<ul style="margin-left: 40px;">
+	<li>
+		<p>
+			Logo and acknowledgement in the dinner program</p>
+	</li>
+	<li>
+		<p>
+			Recognition in dinner welcome remarks made by Gary Shapiro, president and CEO of CEA</p>
+	</li>
+	<li>
+		<p>
+			Logo and acknowledgement on dessert reception signage</p>
+	</li>
+	<li>
+		<p>
+			Five (5) complimentary dinner registrations</p>
+	</li>
+	<li>
+		<p>
+			Opportunity to provide cocktail napkins with logo for use during dessert reception</p>
+	</li>
+</ul>
+<p style="margin-left: 40px;">
+	<strong>Sponsorship Investment:&nbsp;</strong>$12,500*</p>
+<div align="center" style="margin-left:1in;">
+	<hr align="center" size="2" width="100%" />
+</div>
+<p style="margin-left: 40px;">
+	<strong>LIT Partner Sponsorship</strong><br />
+	Designed for a company looking to support the program and receive quality recognition, as a partner sponsor you&rsquo;ll receive:</p>
+<ul style="margin-left: 40px;">
+	<li>
+		<p>
+			Logo and acknowledgement in the dinner program</p>
+	</li>
+	<li>
+		<p>
+			Four (4) complimentary dinner registrations</p>
+	</li>
+</ul>
+<p style="margin-left: 40px;">
+	<strong>Sponsorship Investment:&nbsp;</strong>$2,500<br />
+	&nbsp;</p>
+<p>
+	*Sponsor must be a CEA member and all agreements are subject to federal ethics guidelines. All items are subject to Sponsor meeting deadlines as outlined in the contract.</p>
+<p>
+	Contact us at&nbsp;<a href="mailto:ltardif@CE.org?subject=Interested%20in%20LIT%20Program%20Sponsorships">ltardif@CE.org</a>&nbsp;or 703-907-7681 to secure any of these opportunities.</p>
+
+                      
+                    </div>
+                </div>
+            </div>
+        </div>
+      
+    </section>
+      <section>
+    <div id="footer">
+			<div class="container">
+            	<div class="footer-line"></div>
+				<div class="one-fifth">
+                  <p class="copyright">
+	Copyright &copy; 2003 - 2014 CEA. All rights reserved.</p>
+
+			    </div>
+			    <div class="one-sixth footer-div">
+                  <ul>
+	<li>
+		<a href="/about-us">About Us </a></li>
+	<li>
+		<a href="/contact-us">Contact Us</a></li>
+	<li>
+		<a href="/partners">Partners</a></li>
+</ul>
+
+				 </div>
+                 <div class="one-sixth footer-div">
+                  <ul>
+	<li>
+		<a href="/privacy">Privacy</a></li>
+	<li>
+		<a href="/sitemap">Sitemap</a></li>
+</ul>
+<br /><div style="font-size: .8em; color: #FFF;"><span id="p_lt_ctl09_whatServer_serverName">WEB-IIS10</span></div>
+				 </div>
+				 <div class="one-third languages">
+                    	
+                     <script type="text/javascript">
+
+
+
+  var _gaq = _gaq || [];
+
+  _gaq.push(['_setAccount', 'UA-3975226-4']);
+
+  _gaq.push(['_trackPageview']);
+
+
+
+  (function() {
+
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+
+  })();
+
+
+
+</script>​
+                </div>
+			</div>
+    </div>
+    </section>
+    </div>
+    </div>
+<!-- Start of Google Analytics script -->
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-3975226-4']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+<!-- End of Google Analytics script -->
+
+<!-- Start Pardot tracking script -->
+<script type="text/javascript"> 
+piAId = '27962'; 
+piCId = '2690'; 
+
+(function() { 
+function async_load(){ 
+var s = document.createElement('script'); s.type = 'text/javascript';
+s.src = ('https:' == document.location.protocol ? 'https://pi' : 'http://cdn') + '.pardot.com/pd.js'; 
+var c = document.getElementsByTagName('script')[0]; c.parentNode.insertBefore(s, c); 
+} 
+if(window.attachEvent) { window.attachEvent('onload', async_load); } 
+else { window.addEventListener('load', async_load, false); } 
+})(); 
+</script> 
+<!-- End Pardot tracking script -->
+
+    
+    
+
+<script type="text/javascript">
+//<![CDATA[
+(function() {var fn = function() {$get("manScript_HiddenField").value = '';Sys.Application.remove_init(fn);};Sys.Application.add_init(fn);})();//]]>
+</script>
+</form>
+</body>
+</html>

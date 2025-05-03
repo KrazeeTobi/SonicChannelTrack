@@ -1,0 +1,2551 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head id="head"><title>
+	CES Innovations Awards - 2014 International CES, January 7-10
+</title><meta name="description" content="The International CES is a global consumer electronics and consumer technology tradeshow that takes place every January in Las Vegas, Nevada.The CES Innovations Design and Engineering Awards is an annual competition which honors consumer technology manufacturers’ and developers’ outstanding design and engineering in consumer electronics products. " /> 
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" /> 
+<meta http-equiv="pragma" content="no-cache" /> 
+<meta http-equiv="content-style-type" content="text/css" /> 
+<meta http-equiv="content-script-type" content="text/javascript" /> 
+<meta name="keywords" content="International CES, CES, CES 2010, CES 2011, CES 2012, CES 2013, CES 2014, CES 2015, CES 2016, CES 2017, CES 2018, Consumer Electronics Show, Consumer Technology, Consumer Electronics, Consumer Electronics Association, CES Las Vegas, ces show, ces vegas, CES Unveiled, ces tradeshow, ces conference, ces registration, ces exhibitor, ces innovation awards, innovation awards, best of ces, ces keynote, ces show floor, technology, silicon valley, technology innovation, disruptive technology, start-ups,International CES, CES, CES 2010, CES 2011, CES 2012, CES 2013, CES 2014, CES 2015, CES 2016, CES 2017, CES 2018, Consumer Electronics Show, Consumer Technology, Consumer Electronics, Consumer Electronics Association, CES Las Vegas, ces show, ces vegas, CES Unveiled, ces tradeshow, ces conference, ces registration, ces exhibitor, ces innovation awards, innovation awards, best of ces, ces keynote, ces show floor, technology, silicon valley, technology innovation, disruptive technology, start-ups" /> 
+<meta name="viewport" content="initial-scale=1">
+<meta property="twitter:account_id" content="10668202" />
+<!-- Twitter Summary Card -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@IntlCES">
+<meta name="twitter:creator" content="@IntlCES">
+<meta name="twitter:title" content="CES Innovations Awards">
+<meta name="twitter:description" content="The CES Innovations Design and Engineering Awards is an annual competition which honors consumer technology manufacturers’ and developers’ outstanding design and engineering in consumer electronics products. ">
+<meta name="twitter:image" content="http://content.ce.org/2013ces/images/hpimages/header/cesweb_headerlogo.png">
+<!-- End of Twitter Summary Card -->
+
+<link rel="shortcut icon" href="/ces/favicon.ico"/>
+
+<link href="/CMSPages/GetResource.ashx?stylesheetname=ices-main-style" type="text/css" rel="stylesheet" media="screen" />
+    <link href="/CMSPages/GetResource.ashx?stylesheetname=ices-mediaelementplayer.min	" type="text/css" rel="stylesheet" media="screen" />
+    <link href="/CMSPages/GetResource.ashx?stylesheetname=ices-captions" type="text/css" rel="stylesheet"  />
+    <link href="/CMSPages/GetResource.ashx?stylesheetname=ices-slider-style" type="text/css" rel="stylesheet" media="screen" />
+    <link href="/CMSPages/GetResource.ashx?stylesheetname=ices-flexslider" type="text/css" rel="stylesheet" />
+    <link href="/CMSPages/GetResource.ashx?stylesheetname=ices-prettyphoto" type="text/css" rel="stylesheet" />
+    <link href="/CMSPages/GetResource.ashx?stylesheetname=ices-settings" type="text/css" rel="stylesheet" media="screen" />
+    <link href="/CMSPages/GetResource.ashx?stylesheetname=ices-fonts" type="text/css" rel="stylesheet" media="screen" />
+<link href="/CMSPages/GetResource.ashx?stylesheetname=ices-print" type="text/css" rel="stylesheet" media="print" />
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+<script type="text/javascript" src="/ces/js/scripts.js"></script>
+<script type="text/javascript" src="/ces/js/jquery.themepunch.revolution.min.js"></script>
+<script type="text/javascript" src="/ces/js/custom.js"></script>
+
+ <script type="text/javascript">
+    <!--
+    function toggle_visibility(id) {
+        var e = document.getElementById(id);
+        if (e.style.display == 'block')
+            e.style.display = 'none';
+        else
+            e.style.display = 'block';
+    }
+    //-->
+    </script>
+    <script type="text/javascript">
+        function EnterEvent(e) {
+            if (e.keyCode == 13) {
+              var val = document.getElementById('searchTxt').value;
+              var sURL = '/search-results?searchtext=' + val + '&searchmode=anyword';
+              window.location.href = sURL;
+              return false;
+                }
+            }
+      
+      jQuery(document).ready(function ($) {
+      for (var count = 2 ;count <= 7; count ++)
+        {
+            var a = $('#'+ count +' ul.nav-3cols > li');
+            for (var i = 0; i < a.length; i += 5) {
+                a.slice(i, i + 5).wrapAll('<div class="nav-col"></div>');
+            }
+            var a = $('#'+ count +' ul.nav-2cols > li');
+            for (var i = 0; i < a.length; i += 5) {
+                a.slice(i, i + 5).wrapAll('<div class="nav-col"></div>');
+            }
+        }
+  
+   
+    });
+    </script>
+<script type="text/javascript">var switchTo5x=false;</script>
+<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+<script type="text/javascript">stLight.options({publisher: "a17beaa8-5eee-4df7-8629-9947a3e965e3",  offsetLeft:'-270', doNotHash: true, doNotCopy: false, hashAddressBar: false, exclusive_services:true, services:"facebook,twitter,linkedin,googleplus,email,sharethis", minorServices:false});</script>
+
+
+
+<script type="text/javascript" src="/ces/js/cmsedit/WidgetSecurity_non_Admin.js"></script> 
+<style type="text/css" rel="stylesheet"> 
+                   
+                        .languages {
+                        display: none !important;
+                        
+                        }
+
+                    </style>
+                    <link href="/WebResource.axd?d=VLAVKaxdwiq2Bou6cpAb6_kP_t7YPgiufySZMDB9lHzqxuMI7czotdFfk84nK5RsH667-h0jr29MmvZoaa4SNn7BpM-WOdzKrRvF4UV6Ay9TnbJB6l06FK6GGRa0nS2VLUIZ9WXlu3LMO1CgmmNwXw2&amp;t=634832333600000000" type="text/css" rel="stylesheet" /><link href="/CMSPages/GetResource.ashx?_webparts=1067" type="text/css" rel="stylesheet"/> 
+</head>
+<body class="LTR ENUS ContentBody" >
+    <form method="post" action="/innovations.aspx" id="form">
+<div class="aspNetHidden">
+<input type="hidden" name="manScript_HiddenField" id="manScript_HiddenField" value="" />
+<input type="hidden" name="p_lt_ctl06_pageplaceholder_p_lt_ctl04_WebPartZone_WebPartZone_zone_TabsLayout_tabs_ClientState" id="p_lt_ctl06_pageplaceholder_p_lt_ctl04_WebPartZone_WebPartZone_zone_TabsLayout_tabs_ClientState" value="{&quot;ActiveTabIndex&quot;:0,&quot;TabState&quot;:[true,true,true,true,true,true,true]}" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJODc3OTc4NjAwD2QWAgIBEGRkFgICBQ9kFgJmD2QWAmYPZBYGAgUPZBYCZg8PFgIeB1Zpc2libGVoZGQCCw9kFgRmD2QWAgICDw8WBB4JSXRlbUNvdW50AqYBHgtfIUl0ZW1Db3VudAKmAWQWkgICAg9kFgJmD2QWAmYPFQYAATIOL1JlZ2lzdGVyLVBsYW4TUmVnaXN0ZXIgJmFtcDsgUGxhbgARY2xhc3M9J25hdi0yY29scydkAgQPZBYCZg9kFgJmDxUCGy9SZWdpc3Rlci1QbGFuL1JlZ2lzdGVyLU5vdwxSZWdpc3RlciBOb3dkAgUPZBYCZg9kFgJmDxUBAGQCBg9kFgJmD2QWAmYPFQIcL1JlZ2lzdGVyLVBsYW4vRnVsbC1TY2hlZHVsZQ5GdWxsIFNjaGVkdWxlIGQCBw9kFgJmD2QWAmYPFQEAZAIID2QWAmYPZBYCZg8VAiYvUmVnaXN0ZXItUGxhbi9Ib3ctdG8tUmVnaXN0ZXItZm9yLUNFUxdIb3cgdG8gUmVnaXN0ZXIgZm9yIENFU2QCCQ9kFgJmD2QWAmYPFQEAZAIKD2QWAmYPZBYCZg8VAhUvUmVnaXN0ZXItUGxhbi9CYWRnZXMeQmFkZ2VzOiBBIE5ldyBQcm9jZXNzIGZvciAyMDE0ZAIMD2QWAmYPZBYCZg8VAQBkAg4PZBYCZg9kFgJmDxUBAGQCDw9kFgJmD2QWAmYPFQIUL1JlZ2lzdGVyLVBsYW4vSG90ZWwFSG90ZWxkAhEPZBYCZg9kFgJmDxUBaTxsaT48YSBocmVmPSIvUmVnaXN0ZXItUGxhbi9Ib3RlbC9SZXNlcnZlLWEtUm9vbS1CbG9jayIgY2xhc3M9Im5vLWRpc3BsYXkiPlJlc2VydmUgYSBSb29tIEJsb2NrIDwvYT48L2xpPmQCEw9kFgJmD2QWAmYPFQEAZAIUD2QWAmYPZBYCZg8VAh0vUmVnaXN0ZXItUGxhbi9UcmFuc3BvcnRhdGlvbg5UcmFuc3BvcnRhdGlvbmQCFg9kFgJmD2QWAmYPFQEAZAIXD2QWAmYPZBYCZg8VAQBkAhgPZBYCZg9kFgJmDxUBAGQCGQ9kFgJmD2QWAmYPFQEAZAIaD2QWAmYPZBYCZg8VAQBkAhsPZBYCZg9kFgJmDxUBAGQCHA9kFgJmD2QWAmYPFQEAZAIeD2QWAmYPZBYCZg8VAQBkAh8PZBYCZg9kFgJmDxUCJC9SZWdpc3Rlci1QbGFuL0xhcy1WZWdhcy1UcmF2ZWwtVGlwcxVMYXMgVmVnYXMgVHJhdmVsIFRpcHNkAiAPZBYCZg9kFgJmDxUBAGQCIQ9kFgJmD2QWAmYPFQIgL1JlZ2lzdGVyLVBsYW4vT24tU2l0ZS1Mb2dpc3RpY3MRT24tU2l0ZSBMb2dpc3RpY3NkAiIPZBYCZg9kFgJmDxUBAGQCIw9kFgJmD2QWAmYPFQIdL1JlZ2lzdGVyLVBsYW4vTXktQ0VTLVBsYW5uZXINTXlDRVMgUGxhbm5lcmQCJA9kFgJmD2QWAmYPFQEAZAIlD2QWAmYPZBYCZg8VAiUvUmVnaXN0ZXItUGxhbi9GaXJzdC1UaW1lcnMtUmVzb3VyY2VzFkZpcnN0LVRpbWVycyBSZXNvdXJjZXNkAigPZBYCZg9kFgJmDxUGAAEzCy9TaG93LUZsb29yClNob3cgRmxvb3IAEWNsYXNzPSduYXYtMmNvbHMnZAIqD2QWAmYPZBYCZg8VAh4vU2hvdy1GbG9vci9FeGhpYml0LW9yLVNwb25zb3ISRXhoaWJpdCBvciBTcG9uc29yZAIrD2QWAmYPZBYCZg8VAQBkAiwPZBYCZg9kFgJmDxUCGS9TaG93LUZsb29yL0V4aGliaXQtSG91cnMNRXhoaWJpdCBIb3Vyc2QCLQ9kFgJmD2QWAmYPFQEAZAIuD2QWAmYPZBYCZg8VAh0vU2hvdy1GbG9vci9FeGhpYml0LURpcmVjdG9yeRNFeGhpYml0b3IgRGlyZWN0b3J5ZAIvD2QWAmYPZBYCZg8VAQBkAjAPZBYCZg9kFgJmDxUCFS9TaG93LUZsb29yL1RlY2hab25lcwlUZWNoWm9uZXNkAjIPZBYCZg9kFgJmDxUBAGQCMw9kFgJmD2QWAmYPFQEAZAI0D2QWAmYPZBYCZg8VAQBkAjUPZBYCZg9kFgJmDxUBAGQCNg9kFgJmD2QWAmYPFQEAZAI3D2QWAmYPZBYCZg8VAQBkAjgPZBYCZg9kFgJmDxUBAGQCOQ9kFgJmD2QWAmYPFQEAZAI6D2QWAmYPZBYCZg8VAQBkAjsPZBYCZg9kFgJmDxUBAGQCPA9kFgJmD2QWAmYPFQEAZAI9D2QWAmYPZBYCZg8VAQBkAj4PZBYCZg9kFgJmDxUBAGQCPw9kFgJmD2QWAmYPFQEAZAJAD2QWAmYPZBYCZg8VAQBkAkEPZBYCZg9kFgJmDxUBAGQCQg9kFgJmD2QWAmYPFQEAZAJDD2QWAmYPZBYCZg8VAQBkAkQPZBYCZg9kFgJmDxUBAGQCRQ9kFgJmD2QWAmYPFQEAZAJGD2QWAmYPZBYCZg8VAQBkAkcPZBYCZg9kFgJmDxUBAGQCSA9kFgJmD2QWAmYPFQEAZAJJD2QWAmYPZBYCZg8VAQBkAkoPZBYCZg9kFgJmDxUBAGQCSw9kFgJmD2QWAmYPFQEAZAJMD2QWAmYPZBYCZg8VAQBkAk0PZBYCZg9kFgJmDxUBAGQCTg9kFgJmD2QWAmYPFQEAZAJPD2QWAmYPZBYCZg8VAQBkAlAPZBYCZg9kFgJmDxUBAGQCUQ9kFgJmD2QWAmYPFQEAZAJSD2QWAmYPZBYCZg8VAQBkAlMPZBYCZg9kFgJmDxUBAGQCVA9kFgJmD2QWAmYPFQEAZAJVD2QWAmYPZBYCZg8VAQBkAlYPZBYCZg9kFgJmDxUBAGQCVw9kFgJmD2QWAmYPFQEAZAJYD2QWAmYPZBYCZg8VAQBkAlkPZBYCZg9kFgJmDxUBAGQCWg9kFgJmD2QWAmYPFQEAZAJbD2QWAmYPZBYCZg8VAQBkAlwPZBYCZg9kFgJmDxUBAGQCXQ9kFgJmD2QWAmYPFQEAZAJeD2QWAmYPZBYCZg8VAQBkAl8PZBYCZg9kFgJmDxUBAGQCYA9kFgJmD2QWAmYPFQEAZAJhD2QWAmYPZBYCZg8VAQBkAmIPZBYCZg9kFgJmDxUBAGQCZA9kFgJmD2QWAmYPFQEAZAJlD2QWAmYPZBYCZg8VAhAvU2hvdy1GbG9vci9NYXBzBE1hcHNkAmYPZBYCZg9kFgJmDxUBAGQCZw9kFgJmD2QWAmYPFQIcL1Nob3ctRmxvb3IvU2hvdy1GbG9vci1Ub3VycxBTaG93IEZsb29yIFRvdXJzZAJoD2QWAmYPZBYCZg8VAQBkAmkPZBYCZg9kFgJmDxUCGS9TaG93LUZsb29yL015Q0VTLVBsYW5uZXINTXlDRVMgUGxhbm5lcmQCag9kFgJmD2QWAmYPFQEAZAJrD2QWAmYPZBYCZg8VAhovU2hvdy1GbG9vci9DRVMtTW9iaWxlLUFwcA5DRVMgTW9iaWxlIEFwcGQCbg9kFgJmD2QWAmYPFQYAATQLL0NvbmZlcmVuY2UKQ29uZmVyZW5jZQARY2xhc3M9J25hdi0yY29scydkAnAPZBYCZg9kFgJmDxUCFC9Db25mZXJlbmNlL0tleW5vdGVzEUtleW5vdGUgQWRkcmVzc2VzZAJxD2QWAmYPZBYCZg8VAQBkAnIPZBYCZg9kFgJmDxUCGy9Db25mZXJlbmNlL1B1cmNoYXNlLVBhc3Nlcw9QdXJjaGFzZSBQYXNzZXNkAnMPZBYCZg9kFgJmDxUBAGQCdA9kFgJmD2QWAmYPFQIZL0NvbmZlcmVuY2UvU2hvcHBpbmctQ2FydA1TaG9wcGluZyBDYXJ0ZAJ1D2QWAmYPZBYCZg8VAQBkAnYPZBYCZg9kFgJmDxUCJS9Db25mZXJlbmNlL1Nlc3Npb24tU2NoZWR1bGUtQnJvY2h1cmUcQ29uZmVyZW5jZSBQcm9ncmFtIFNjaGVkdWxlIGQCdw9kFgJmD2QWAmYPFQEAZAJ4D2QWAmYPZBYCZg8VAhkvQ29uZmVyZW5jZS9TdXBlclNlc3Npb25zDVN1cGVyU2Vzc2lvbnNkAnkPZBYCZg9kFgJmDxUBAGQCeg9kFgJmD2QWAmYPFQIdL0NvbmZlcmVuY2UvQ29uZmVyZW5jZS1UcmFja3MRQ29uZmVyZW5jZSBUcmFja3NkAnsPZBYCZg9kFgJmDxUBAGQCfA9kFgJmD2QWAmYPFQIcL0NvbmZlcmVuY2UvQmVjb21lLWEtU3BlYWtlchBCZWNvbWUgYSBTcGVha2VyZAJ9D2QWAmYPZBYCZg8VAQBkAn4PZBYCZg9kFgJmDxUCHC9Db25mZXJlbmNlL1NwZWFrZXItU2VydmljZXMQU3BlYWtlciBTZXJ2aWNlc2QCgAEPZBYCZg9kFgJmDxUBAGQChAEPZBYCZg9kFgJmDxUGB2N1cnJlbnQBNQ4vRXZlbnRzLUF3YXJkcxNFdmVudHMgJmFtcDsgQXdhcmRzAABkAoYBD2QWAmYPZBYCZg8VAhUvRXZlbnRzLUF3YXJkcy9FdmVudHMGRXZlbnRzZAKHAQ9kFgJmD2QWAmYPFQEAZAKIAQ9kFgJmD2QWAmYPFQIVL0V2ZW50cy1Bd2FyZHMvQXdhcmRzBkF3YXJkc2QCiQEPZBYCZg9kFgJmDxUBAGQCigEPZBYCZg9kFgJmDxUCGi9FdmVudHMtQXdhcmRzL0lubm92YXRpb25zFkNFUyBJbm5vdmF0aW9ucyBBd2FyZHNkAosBD2QWAmYPZBYCZg8VAQBkAowBD2QWAmYPZBYCZg8VAhsvRXZlbnRzLUF3YXJkcy9QcmVzcy1FdmVudHMMUHJlc3MgRXZlbnRzZAKPAQ9kFgJmD2QWAmYPFQYAATYFL05ld3METmV3cwARY2xhc3M9J25hdi0yY29scydkApEBD2QWAmYPZBYCZg8VAhQvTmV3cy9QcmVzcy1SZWxlYXNlcw5QcmVzcyBSZWxlYXNlc2QCkgEPZBYCZg9kFgJmDxUBAGQCkwEPZBYCZg9kFgJmDxUCDC9OZXdzL0NFUy1UVgZDRVMgVFZkApQBD2QWAmYPZBYCZg8VAQBkApUBD2QWAmYPZBYCZg8VAhAvTmV3cy9DRVMtU29jaWFsDFNvY2lhbCBNZWRpYWQClgEPZBYCZg9kFgJmDxUBAGQClwEPZBYCZg9kFgJmDxUCFS9OZXdzL0NFUy1Jbi1UaGUtTmV3cw9DRVMgSW4gVGhlIE5ld3NkApgBD2QWAmYPZBYCZg8VAQBkApkBD2QWAmYPZBYCZg8VAh4vTmV3cy9FeGhpYml0b3ItUHJlc3MtUmVsZWFzZXMZRXhoaWJpdG9yIFByZXNzIFJlbGVhc2VzIGQCmgEPZBYCZg9kFgJmDxUBAGQCmwEPZBYCZg9kFgJmDxUCFC9OZXdzL1ByZXNzLVNlcnZpY2VzDlByZXNzIFNlcnZpY2VzZAKeAQ9kFgJmD2QWAmYPFQYAATcPL1doeS1hdHRlbmQtQ0VTD1doeSBBdHRlbmQgQ0VTPwAAZAKgAQ9kFgJmD2QWAmYPFQImL1doeS1hdHRlbmQtQ0VTL1doYXQtWW91cmUtTWlzc2luZy1DRVMiU2VlIFdoYXQgWW91JiMzOTtyZSBNaXNzaW5nIGF0IENFU2QCoQEPZBYCZg9kFgJmDxUBAGQCogEPZBYCZg9kFgJmDxUCIy9XaHktYXR0ZW5kLUNFUy8yMDEzLUF0dGVuZGVlLUF1ZGl0EzIwMTMgQXR0ZW5kZWUgQXVkaXRkAqMBD2QWAmYPZBYCZg8VAQBkAqQBD2QWAmYPZBYCZg8VAiMvV2h5LWF0dGVuZC1DRVMvQ0VBLU1lbWJlci1CZW5lZml0cxNDRUEgTWVtYmVyIEJlbmVmaXRzZAICD2QWAgICDw8WBB8BAgkfAgIJZGQCDQ9kFgJmD2QWAgICD2QWAmYPZBYCZg9kFgICDQ9kFgJmD2QWAmYPZBYCZg9kFgRmD2QWAmYPDxYGHgtfIURhdGFCb3VuZGcfAQIBHwICAWQWAmYPZBYCZg9kFgJmDxUDmwE8ZGl2IGNsYXNzPSJmZWF0dXJlLWZsb2F0LWxlZnQiPjxpbWcgc3JjPSJ+L2dldG1lZGlhLzMzNmQ0YTMwLTVhN2QtNDcxNC1hNGRjLTFkZGVhYTk1MGIzZC9DRVMtMjAzLTE0LUlOTkF3YXJkXzIuYXNweD93aWR0aD0xMDAmaGVpZ2h0PTEzOCZleHQ9LmpwZyIgPjwvZGl2PjY8aDI+Q0VTIElubm92YXRpb25zIERlc2lnbiBhbmQgRW5naW5lZXJpbmcgQXdhcmRzPC9oMj6eAVRoZSBDRVMgSW5ub3ZhdGlvbnMgRGVzaWduIGFuZCBFbmdpbmVlcmluZyBBd2FyZHMgaXMgYW4gYW5udWFsIGNvbXBldGl0aW9uIGhvbm9yaW5nIG91dHN0YW5kaW5nIGRlc2lnbiBhbmQgZW5naW5lZXJpbmcgaW4gY29uc3VtZXIgZWxlY3Ryb25pY3MgcHJvZHVjdHMuJm5ic3A7ZAIBD2QWAmYPZBYCAgEPZBYCZg9kFgJmD2QWAmYPZBYEAgEPEA8WBh4ORGF0YVZhbHVlRmllbGQFBGRhdGUeDURhdGFUZXh0RmllbGQFBGRhdGUfA2dkEBUBBDIwMTMVAQQyMDEzFCsDAWcWAWZkAgMPEA8WBh8EBQtQcm9kdWN0TmFtZR8FBRNDYXRlZ29yeURpc3BsYXlOYW1lHwNnZBAVIBFTZWxlY3QgYSBDYXRlZ29yeRNCZXN0IG9mIElubm92YXRpb25zIEFjY2Vzc2liaWxpdHkgJiBVbml2ZXJzYWwgRGVzaWduFENvbXB1dGVyIEFjY2Vzc29yaWVzHkNvbXB1dGVyIEhhcmR3YXJlICYgQ29tcG9uZW50cxRDb21wdXRlciBQZXJpcGhlcmFscw9EaWdpdGFsIEltYWdpbmcnRWNvLURlc2lnbiBhbmQgU3VzdGFpbmFibGUgVGVjaG5vbG9naWVzFUVtYmVkZGVkIFRlY2hub2xvZ2llcx1HYW1pbmcgSGFyZHdhcmUgJiBBY2Nlc3NvcmllcwpIZWFkcGhvbmVzE0hlYWx0aCBhbmQgV2VsbG5lc3MbSGlnaCBQZXJmb3JtYW5jZSBIb21lIEF1ZGlvD0hvbWUgQXBwbGlhbmNlcx1Ib21lIEF1ZGlvIC0gVmlkZW8gQ29tcG9uZW50cxxIb21lIEF1ZGlvLVZpZGVvIEFjY2Vzc29yaWVzD0hvbWUgTmV0d29ya2luZxVIb21lIFRoZWF0ZXIgU3BlYWtlcnMwSW50ZWdyYXRlZCBIb21lIFN5c3RlbXMgJiBNdWx0aS1Sb29tIEF1ZGlvLVZpZGVvFkluLVZlaGljbGUgQWNjZXNzb3JpZXMQSW4tVmVoaWNsZSBBdWRpbxZJbi1WZWhpY2xlIEF1ZGlvIFZpZGVvKEluLVZlaGljbGUgTmF2aWdhdGlvbiBDb250cm9sIFRlbGVtYXRpY3MUUGVyc29uYWwgRWxlY3Ryb25pY3MkUG9ydGFibGUgTWVkaWEgUGxheWVycyAmIEFjY2Vzc29yaWVzDlBvcnRhYmxlIFBvd2VyFlNvZnR3YXJlICYgTW9iaWxlIEFwcHMcVGFibGV0cywgRVJlYWRlcnMgJiBOZXRib29rcx1UZWNobm9sb2d5IGZvciBhIEJldHRlciBXb3JsZA5WaWRlbyBEaXNwbGF5cxxXaXJlbGVzcyBIYW5kc2V0IEFjY2Vzc29yaWVzEVdpcmVsZXNzIEhhbmRzZXRzFSABMANCSVcdQWNjZXNzaWJpbGl0eV9Vbml2ZXJzYWxEZXNpZ24TQ29tcHV0ZXJBY2Nlc3NvcmllcxtDb21wdXRlckhhcmR3YXJlX0NvbXBvbmVudHMTQ29tcHV0ZXJQZXJpcGhlcmFscw5EaWdpdGFsSW1hZ2luZyRFY28tRGVzaWduQW5kU3VzdGFpbmFibGVUZWNobm9sb2dpZXMURW1iZWRkZWRUZWNobm9sb2dpZXMaR2FtaW5nSGFyZHdhcmVfQWNjZXNzb3JpZXMKSGVhZHBob25lcxFIZWFsdGhBbmRXZWxsbmVzcxhIaWdoUGVyZm9ybWFuY2VIb21lQXVkaW8OSG9tZUFwcGxpYW5jZXMZSG9tZUF1ZGlvLVZpZGVvQ29tcG9uZW50cxpIb21lQXVkaW8tVmlkZW9BY2Nlc3Nvcmllcw5Ib21lTmV0d29ya2luZxNIb21lVGhlYXRlclNwZWFrZXJzK0ludGVncmF0ZWRIb21lU3lzdGVtc19NdWx0aS1Sb29tQXVkaW8tVmlkZW8VSW4tVmVoaWNsZUFjY2Vzc29yaWVzD0luLVZlaGljbGVBdWRpbxRJbi1WZWhpY2xlQXVkaW9WaWRlbyVJbi1WZWhpY2xlTmF2aWdhdGlvbkNvbnRyb2xUZWxlbWF0aWNzE1BlcnNvbmFsRWxlY3Ryb25pY3MgUG9ydGFibGVNZWRpYVBsYXllcnNfQWNjZXNzb3JpZXMNUG9ydGFibGVQb3dlchNTb2Z0d2FyZV9Nb2JpbGVBcHBzGVRhYmxldHNfRVJlYWRlcnNfTmV0Ym9va3MZVGVjaG5vbG9neUZvckFCZXR0ZXJXb3JsZA1WaWRlb0Rpc3BsYXlzGldpcmVsZXNzSGFuZHNldEFjY2Vzc29yaWVzEFdpcmVsZXNzSGFuZHNldHMUKwMgZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2cWAQIBZBgCBR5fX0NvbnRyb2xzUmVxdWlyZVBvc3RCYWNrS2V5X18WAQVScCRsdCRjdGwwNiRwYWdlcGxhY2Vob2xkZXIkcCRsdCRjdGwwNCRXZWJQYXJ0Wm9uZSRXZWJQYXJ0Wm9uZV96b25lJFRhYnNMYXlvdXQkdGFicwVScCRsdCRjdGwwNiRwYWdlcGxhY2Vob2xkZXIkcCRsdCRjdGwwNCRXZWJQYXJ0Wm9uZSRXZWJQYXJ0Wm9uZV96b25lJFRhYnNMYXlvdXQkdGFicw8PZGZkaRcOMnm5X/us9JvhKOEWBXl02qbIiuBeqkzICZMyvpQ=" />
+</div>
+
+<input type="hidden" name="lng" id="lng" value="en-US" />
+<script type="text/javascript">
+	//<![CDATA[
+
+function PM_Postback(param) { if (window.top.HideScreenLockWarningAndSync) { window.top.HideScreenLockWarningAndSync(1080); }__doPostBack('m',param); }
+function PM_Callback(param, callback, ctx) { if (window.top.HideScreenLockWarningAndSync) { window.top.HideScreenLockWarningAndSync(1080); }WebForm_DoCallback('m',param,callback,ctx,null,true); }
+//]]>
+</script>
+<script src="/ScriptResource.axd?d=_5JCocmpF5FO20nczb37dnUYvUFGaqwbMHXRfQR_cHXC7tKVJKYGD45DONBLAEsM6_ftHTGhOdwnbAiMC8b1g9Dch-5ZHC0ZXLS713NRUY5vQwEQzCUa97LNyNeze6Nn0&amp;t=ffffffff8dea9fe4" type="text/javascript"></script>
+<script src="/CMSPages/PortalTemplate.aspx?_TSM_HiddenField_=manScript_HiddenField&amp;_TSM_CombinedScripts_=%3b%3bAjaxControlToolkit%2c+Version%3d4.1.51116.0%2c+Culture%3dneutral%2c+PublicKeyToken%3d28f01b0e84b6d53e%3aen-US%3afd384f95-1b49-47cf-9b47-2fa2a921a36a%3a475a4ef5%3aeffe2a26%3a8e94f951%3a1d3ed089" type="text/javascript"></script>
+    <div id="CMSHeaderDiv">
+	<!-- -->
+</div>
+    <div id="ctxM">
+
+</div>
+    
+<div id="wrapper">
+	<div id="center_top">
+    <div id="container">
+        	<!--TOP PANEL-->
+			<section>
+            <div id="top_panel">
+                <div class="container">
+                    <ul class="connect-title">
+                        <li>Connect with Us</li>
+                    </ul>
+                    <ul class="social_icons">
+	<li class="twitter">
+		<a href="https://twitter.com/intlces" title="Twitter">&nbsp;</a></li>
+	<li class="facebook">
+		<a href="https://www.facebook.com/InternationalCES" title="facebook">&nbsp;</a></li>
+	<li class="googleplus">
+		<a href="https://google.com/+InternationalCES" title="googleplus">&nbsp;</a></li>
+	<li class="instagram">
+		<a href="http://instagram.com/intlces" title="instagram">&nbsp;</a></li>
+	<li class="youtube">
+		<a href="http://www.youtube.com/user/cesonthetube" title="youtube">&nbsp;</a></li>
+</ul>
+
+                    <ul class="open-ad"><li id="clasp_1"><a href="javascript:lunchboxOpen('1');">OPEN ADVERTISEMENT </a></li></ul>
+                    <ul class="drop" id="nav">
+	<li>
+		Other CEA Sites
+		<ul>
+			<li>
+				<a href="http://www.ce.org" target="_blank">CEA - CE.org</a></li>
+			<li>
+				<a href="http://www.declareinnovation.com/" target="_blank">Innovation Movement</a></li>
+			<li>
+				<a href="http://www.ce.org/blog" target="_blank">Digital Dialogue Blog</a></li>
+			<li>
+				<a href="http://www.ce.org/i3" target="_blank">i3 Magazine</a></li>
+			<li>
+				<a href="http://www.greenergadgets.org/" target="_blank">Greener Gadgets</a></li>
+			<li>
+				<a href="http://www.ce.org/research" target="_blank">CEA Market Research</a></li>
+			<li>
+				<a href="http://www.ce.org/foundation" target="_blank">CEA Foundation</a></li>
+		</ul>
+	</li>
+</ul>
+
+                </div>
+            </div>
+            </section> 
+            <!--END TOP PANEL-->
+            <!--AD AREA-->
+           <section>
+           		<div style="background:#000;" class="billboard-ad" >
+                <div class="container bill-ad lunchbox" id="lunch_1"  style="display: none;">
+                  
+                </div>
+                </div>
+           	</section>
+             <!--ENS AD AREA-->
+           
+           <!--AUDIENCEL-->
+           <section>
+           <div class="container">
+           	<ul class="audience-nav">
+	<li>
+		<a href="/exhibitor">Exhibitors</a></li>
+	<li>
+		<a href="/press">Press</a></li>
+	<li>
+		<a href="/international">International</a></li>
+</ul>
+
+            </div>
+           </section>
+           <!--END AUDIENCEL-->
+           <!--HEADER-->
+          <section>
+            <div class="container">
+				<header id="header">
+					<div id="sticky_navigation">
+						<div class="container">
+							<a href="/home" id="logo"></a>
+                   		   
+                           <div class="search-container">
+                              <div class="search">
+                                <input type="search" id="searchTxt" onkeypress="return EnterEvent(event);" >
+                                  
+                              </div>
+                              <div class="date">
+                                <h2>
+	Las Vegas, NV</h2>
+<h3>
+	JANUARY 7-10, 2014</h3>
+
+                              </div>
+                          </div>
+                       </div>
+                       <div id="navigation-wrapper">
+                            <nav id="main-navigation">
+                              
+<ul class="main-menu sf-js-enabled sf-shadow">
+ 
+    <li class=""
+id="2">
+<a href=" /Register-Plan"> Register &amp; Plan</a> 
+<ul 
+    
+   class='nav-2cols'
+  style="display: none; visibility: hidden;">
+    
+  <p style ="display:none;">&nbsp;</p><li><a href=" /Register-Plan/Register-Now"> Register Now</a>
+
+<li><a href=" /Register-Plan/Full-Schedule"> Full Schedule </a>
+
+<li><a href=" /Register-Plan/How-to-Register-for-CES"> How to Register for CES</a>
+
+<li><a href=" /Register-Plan/Badges"> Badges: A New Process for 2014</a>
+
+<ul></ul>
+</li><li><a href=" /Register-Plan/Hotel"> Hotel</a>
+
+<ul><li><a href="/Register-Plan/Hotel/Reserve-a-Room-Block" class="no-display">Reserve a Room Block </a></li></ul>
+</li><li><a href=" /Register-Plan/Transportation"> Transportation</a>
+
+<ul></ul>
+</li><li><a href=" /Register-Plan/Las-Vegas-Travel-Tips"> Las Vegas Travel Tips</a>
+
+<li><a href=" /Register-Plan/On-Site-Logistics"> On-Site Logistics</a>
+
+<li><a href=" /Register-Plan/My-CES-Planner"> MyCES Planner</a>
+
+<li><a href=" /Register-Plan/First-Timers-Resources"> First-Timers Resources</a>
+
+
+</ul></li><li class=""
+id="3">
+<a href=" /Show-Floor"> Show Floor</a> 
+<ul 
+    
+   class='nav-2cols'
+  style="display: none; visibility: hidden;">
+    
+  <p style ="display:none;">&nbsp;</p><li><a href=" /Show-Floor/Exhibit-or-Sponsor"> Exhibit or Sponsor</a>
+
+<li><a href=" /Show-Floor/Exhibit-Hours"> Exhibit Hours</a>
+
+<li><a href=" /Show-Floor/Exhibit-Directory"> Exhibitor Directory</a>
+
+<li><a href=" /Show-Floor/TechZones"> TechZones</a>
+
+<ul></ul>
+</li><li><a href=" /Show-Floor/Maps"> Maps</a>
+
+<li><a href=" /Show-Floor/Show-Floor-Tours"> Show Floor Tours</a>
+
+<li><a href=" /Show-Floor/MyCES-Planner"> MyCES Planner</a>
+
+<li><a href=" /Show-Floor/CES-Mobile-App"> CES Mobile App</a>
+
+
+</ul></li><li class=""
+id="4">
+<a href=" /Conference"> Conference</a> 
+<ul 
+    
+   class='nav-2cols'
+  style="display: none; visibility: hidden;">
+    
+  <p style ="display:none;">&nbsp;</p><li><a href=" /Conference/Keynotes"> Keynote Addresses</a>
+
+<li><a href=" /Conference/Purchase-Passes"> Purchase Passes</a>
+
+<li><a href=" /Conference/Shopping-Cart"> Shopping Cart</a>
+
+<li><a href=" /Conference/Session-Schedule-Brochure"> Conference Program Schedule </a>
+
+<li><a href=" /Conference/SuperSessions"> SuperSessions</a>
+
+<li><a href=" /Conference/Conference-Tracks"> Conference Tracks</a>
+
+<li><a href=" /Conference/Become-a-Speaker"> Become a Speaker</a>
+
+<li><a href=" /Conference/Speaker-Services"> Speaker Services</a>
+
+<ul></ul>
+</li>
+</ul></li><li class="current"
+id="5">
+<a href=" /Events-Awards"> Events &amp; Awards</a> 
+<ul 
+    
+   
+  style="display: none; visibility: hidden;">
+    
+  <p style ="display:none;">&nbsp;</p><li><a href=" /Events-Awards/Events"> Events</a>
+
+<li><a href=" /Events-Awards/Awards"> Awards</a>
+
+<li><a href=" /Events-Awards/Innovations"> CES Innovations Awards</a>
+
+<li><a href=" /Events-Awards/Press-Events"> Press Events</a>
+
+
+</ul></li><li class=""
+id="6">
+<a href=" /News"> News</a> 
+<ul 
+    
+   class='nav-2cols'
+  style="display: none; visibility: hidden;">
+    
+  <p style ="display:none;">&nbsp;</p><li><a href=" /News/Press-Releases"> Press Releases</a>
+
+<li><a href=" /News/CES-TV"> CES TV</a>
+
+<li><a href=" /News/CES-Social"> Social Media</a>
+
+<li><a href=" /News/CES-In-The-News"> CES In The News</a>
+
+<li><a href=" /News/Exhibitor-Press-Releases"> Exhibitor Press Releases </a>
+
+<li><a href=" /News/Press-Services"> Press Services</a>
+
+
+</ul></li><li class=""
+id="7">
+<a href=" /Why-attend-CES"> Why Attend CES?</a> 
+<ul 
+    
+   
+  style="display: none; visibility: hidden;">
+    
+  <p style ="display:none;">&nbsp;</p><li><a href=" /Why-attend-CES/What-Youre-Missing-CES"> See What You&#39;re Missing at CES</a>
+
+<li><a href=" /Why-attend-CES/2013-Attendee-Audit"> 2013 Attendee Audit</a>
+
+<li><a href=" /Why-attend-CES/CEA-Member-Benefits"> CEA Member Benefits</a>
+
+
+</ul>  </li>
+</ul>
+
+ <div id="main-navigation">
+  <select id="navSecondary" onChange="top.location.href=this.options[this.selectedIndex].value;">
+<option selected="selected" value="">Site Main Navigation</option>
+<option style="font-family:open_sansbold;" value="/Register-Plan">Register & Plan</option><option style="font-family:open_sansbold;" value="/Show-Floor">Show Floor</option><option style="font-family:open_sansbold;" value="/Conference">Conference</option><option style="font-family:open_sansbold;" value="/Events-Awards">Events & Awards</option><option style="font-family:open_sansbold;" value="/News">News</option><option style="font-family:open_sansbold;" value="/Why-attend-CES">Why Attend CES?</option><option style="font-family:open_sansbold;" value="/Exhibitor">Exhibitors</option><option style="font-family:open_sansbold;" value="/International">International</option><option style="font-family:open_sansbold;" value="/Press">Press</option>
+</select>
+</div>
+                            </nav>
+                        </div>
+				    </div>
+	          </header>
+           </div> 
+        </section>
+        </div>
+    
+      
+
+<section>
+        <div class="interior-body-bk">
+                    <a href="" target="_blank"><div class="int-bk-right"><img src="" /></div></a>
+          <a href="" target="_blank"><div class="int-bk-left"><img src="" /></div></a>
+
+        </div>
+
+        <div class="container clearfix">
+            
+           
+                <div class="one-land">
+                  <div class="body-content">
+                    
+
+                    <div class="breadcrumbs">
+                       <ul>
+                            <li>
+                                <a id="p_lt_ctl06_pageplaceholder_p_lt_hypBChome" href="./">Home</a></li>
+                             <li class="bread-div">|</li><li><a href="/Events-Awards.aspx" class="CMSBreadCrumbsLink">Events & Awards</a> </li><li class="bread-div">|</li><li> <span  class="CMSBreadCrumbsCurrentItem">CES Innovations Awards</span>
+</li>
+                            
+                       
+                            <li><span  class="st_sharethis_custom" displayText="ShareThis"><a >Share This</a></span></li>
+                        </ul>       
+                    </div>
+
+                    <p class="intro-innov">  </p>
+
+                    
+                       <div class="feature-float-left"><img src="/getmedia/336d4a30-5a7d-4714-a4dc-1ddeaa950b3d/CES-203-14-INNAward_2.aspx?width=100&height=138&ext=.jpg" ></div>
+<h2>CES Innovations Design and Engineering Awards</h2>
+<p class="intro">The CES Innovations Design and Engineering Awards is an annual competition honoring outstanding design and engineering in consumer electronics products.&nbsp;</p>  
+
+<div><div class="ajax__tab_xp" id="p_lt_ctl06_pageplaceholder_p_lt_ctl04_WebPartZone_WebPartZone_zone_TabsLayout_tabs" style="visibility:hidden;">
+	<div id="p_lt_ctl06_pageplaceholder_p_lt_ctl04_WebPartZone_WebPartZone_zone_TabsLayout_tabs_header" class="ajax__tab_header">
+		<span id="p_lt_ctl06_pageplaceholder_p_lt_ctl04_WebPartZone_WebPartZone_zone_TabsLayout_tabs_tab1_tab"><span class="ajax__tab_outer"><span class="ajax__tab_inner"><a class="ajax__tab_tab" id="__tab_p_lt_ctl06_pageplaceholder_p_lt_ctl04_WebPartZone_WebPartZone_zone_TabsLayout_tabs_tab1" href="#" style="text-decoration:none;"><span>Honorees</span></a></span></span></span><span id="p_lt_ctl06_pageplaceholder_p_lt_ctl04_WebPartZone_WebPartZone_zone_TabsLayout_tabs_tab2_tab"><span class="ajax__tab_outer"><span class="ajax__tab_inner"><a class="ajax__tab_tab" id="__tab_p_lt_ctl06_pageplaceholder_p_lt_ctl04_WebPartZone_WebPartZone_zone_TabsLayout_tabs_tab2" href="#" style="text-decoration:none;"><span>Award Categories</span></a></span></span></span><span id="p_lt_ctl06_pageplaceholder_p_lt_ctl04_WebPartZone_WebPartZone_zone_TabsLayout_tabs_tab3_tab"><span class="ajax__tab_outer"><span class="ajax__tab_inner"><a class="ajax__tab_tab" id="__tab_p_lt_ctl06_pageplaceholder_p_lt_ctl04_WebPartZone_WebPartZone_zone_TabsLayout_tabs_tab3" href="#" style="text-decoration:none;"><span>How to Enter</span></a></span></span></span><span id="p_lt_ctl06_pageplaceholder_p_lt_ctl04_WebPartZone_WebPartZone_zone_TabsLayout_tabs_tab4_tab"><span class="ajax__tab_outer"><span class="ajax__tab_inner"><a class="ajax__tab_tab" id="__tab_p_lt_ctl06_pageplaceholder_p_lt_ctl04_WebPartZone_WebPartZone_zone_TabsLayout_tabs_tab4" href="#" style="text-decoration:none;"><span>How We Judge</span></a></span></span></span><span id="p_lt_ctl06_pageplaceholder_p_lt_ctl04_WebPartZone_WebPartZone_zone_TabsLayout_tabs_tab5_tab"><span class="ajax__tab_outer"><span class="ajax__tab_inner"><a class="ajax__tab_tab" id="__tab_p_lt_ctl06_pageplaceholder_p_lt_ctl04_WebPartZone_WebPartZone_zone_TabsLayout_tabs_tab5" href="#" style="text-decoration:none;"><span>What You Get</span></a></span></span></span><span id="p_lt_ctl06_pageplaceholder_p_lt_ctl04_WebPartZone_WebPartZone_zone_TabsLayout_tabs_tab6_tab"><span class="ajax__tab_outer"><span class="ajax__tab_inner"><a class="ajax__tab_tab" id="__tab_p_lt_ctl06_pageplaceholder_p_lt_ctl04_WebPartZone_WebPartZone_zone_TabsLayout_tabs_tab6" href="#" style="text-decoration:none;"><span>2014 Judges </span></a></span></span></span><span id="p_lt_ctl06_pageplaceholder_p_lt_ctl04_WebPartZone_WebPartZone_zone_TabsLayout_tabs_tab7_tab"><span class="ajax__tab_outer"><span class="ajax__tab_inner"><a class="ajax__tab_tab" id="__tab_p_lt_ctl06_pageplaceholder_p_lt_ctl04_WebPartZone_WebPartZone_zone_TabsLayout_tabs_tab7" href="#" style="text-decoration:none;"><span>Entry FAQs</span></a></span></span></span>
+	</div><div id="p_lt_ctl06_pageplaceholder_p_lt_ctl04_WebPartZone_WebPartZone_zone_TabsLayout_tabs_body" class="ajax__tab_body" style="height:100%;display:block;">
+		<div id="p_lt_ctl06_pageplaceholder_p_lt_ctl04_WebPartZone_WebPartZone_zone_TabsLayout_tabs_tab1" id="p_lt_ctl06_pageplaceholder_p_lt_ctl04_WebPartZone_WebPartZone_zone_TabsLayout_tabs_tab1" class="ajax__tab_panel">
+			
+
+<section>
+    <div class="innov-year">
+        <select name="p$lt$ctl06$pageplaceholder$p$lt$ctl04$WebPartZone$WebPartZone_zone$TabsLayout$tabs$tab1$TabsLayout_1$ICESInnovations_1$ddlInnovationYear" id="p_lt_ctl06_pageplaceholder_p_lt_ctl04_WebPartZone_WebPartZone_zone_TabsLayout_tabs_tab1_TabsLayout_1_ICESInnovations_1_ddlInnovationYear" class="innov-year">
+				<option selected="selected" value="2013">2013</option>
+
+			</select>
+    </div>
+    
+    <nav class="group">
+        <select name="p$lt$ctl06$pageplaceholder$p$lt$ctl04$WebPartZone$WebPartZone_zone$TabsLayout$tabs$tab1$TabsLayout_1$ICESInnovations_1$ddlInnovationFilter" id="p_lt_ctl06_pageplaceholder_p_lt_ctl04_WebPartZone_WebPartZone_zone_TabsLayout_tabs_tab1_TabsLayout_1_ICESInnovations_1_ddlInnovationFilter" class="filter-innovations">
+				<option value="0">Select a Category</option>
+				<option selected="selected" value="BIW">Best of Innovations</option>
+				<option value="Accessibility_UniversalDesign">Accessibility &amp; Universal Design</option>
+				<option value="ComputerAccessories">Computer Accessories</option>
+				<option value="ComputerHardware_Components">Computer Hardware &amp; Components</option>
+				<option value="ComputerPeripherals">Computer Peripherals</option>
+				<option value="DigitalImaging">Digital Imaging</option>
+				<option value="Eco-DesignAndSustainableTechnologies">Eco-Design and Sustainable Technologies</option>
+				<option value="EmbeddedTechnologies">Embedded Technologies</option>
+				<option value="GamingHardware_Accessories">Gaming Hardware &amp; Accessories</option>
+				<option value="Headphones">Headphones</option>
+				<option value="HealthAndWellness">Health and Wellness</option>
+				<option value="HighPerformanceHomeAudio">High Performance Home Audio</option>
+				<option value="HomeAppliances">Home Appliances</option>
+				<option value="HomeAudio-VideoComponents">Home Audio - Video Components</option>
+				<option value="HomeAudio-VideoAccessories">Home Audio-Video Accessories</option>
+				<option value="HomeNetworking">Home Networking</option>
+				<option value="HomeTheaterSpeakers">Home Theater Speakers</option>
+				<option value="IntegratedHomeSystems_Multi-RoomAudio-Video">Integrated Home Systems &amp; Multi-Room Audio-Video</option>
+				<option value="In-VehicleAccessories">In-Vehicle Accessories</option>
+				<option value="In-VehicleAudio">In-Vehicle Audio</option>
+				<option value="In-VehicleAudioVideo">In-Vehicle Audio Video</option>
+				<option value="In-VehicleNavigationControlTelematics">In-Vehicle Navigation Control Telematics</option>
+				<option value="PersonalElectronics">Personal Electronics</option>
+				<option value="PortableMediaPlayers_Accessories">Portable Media Players &amp; Accessories</option>
+				<option value="PortablePower">Portable Power</option>
+				<option value="Software_MobileApps">Software &amp; Mobile Apps</option>
+				<option value="Tablets_EReaders_Netbooks">Tablets, EReaders &amp; Netbooks</option>
+				<option value="TechnologyForABetterWorld">Technology for a Better World</option>
+				<option value="VideoDisplays">Video Displays</option>
+				<option value="WirelessHandsetAccessories">Wireless Handset Accessories</option>
+				<option value="WirelessHandsets">Wireless Handsets</option>
+
+			</select>
+    </nav>
+     
+    <div class="innov-grid">
+    <ul class="portfolio-items isotope" style="position: relative; overflow: hidden; height: 3944px;">
+       
+        <li class="one-sixth">
+<div class="innov-item-hover">
+  <div class="innov-thumbnail" >
+    <div class="innov-thumb-text">
+      <a href="#inline_content7320" id="7320" data-rel="prettyPhoto" class="screen-roll">
+        <h4>3DPCase by Sculpteo</h4>
+        <p><span class="black">Category:</span>
+        <br>
+        Software_MobileApps</p>
+        <p><span class="black">By</span> Sculpteo</p>
+      </a>
+    </div>
+  </div>
+  <div class="innov-feature-item">
+  <p>3DPCase by Sculpteo</p>
+  </div>
+  <div class="innov-feature"><img src="/ces/media/2014/Innovation%20Awards/2013%20Innovations%20Honorees/Software%20and%20Mobile%20Apps/sculpteo_3DPCase_geography2(1).jpg" alt=" "></div>
+</div>
+</li><li class="one-sixth">
+<div class="innov-item-hover">
+  <div class="innov-thumbnail" >
+    <div class="innov-thumb-text">
+      <a href="#inline_content7323" id="7323" data-rel="prettyPhoto" class="screen-roll">
+        <h4>ACX600.5</h4>
+        <p><span class="black">Category:</span>
+        <br>
+        In-VehicleAudioVideo</p>
+        <p><span class="black">By</span> Pheonix Gold</p>
+      </a>
+    </div>
+  </div>
+  <div class="innov-feature-item">
+  <p>ACX600.5</p>
+  </div>
+  <div class="innov-feature"><img src="/ces/media/2014/Innovation%20Awards/2013%20Innovations%20Honorees/In-Vehicle%20AudioVideo/app-amp(1).jpg" alt=" "></div>
+</div>
+</li><li class="one-sixth">
+<div class="innov-item-hover">
+  <div class="innov-thumbnail" >
+    <div class="innov-thumb-text">
+      <a href="#inline_content7330" id="7330" data-rel="prettyPhoto" class="screen-roll">
+        <h4>Apex HD+, Wi-Fi Snow Goggle</h4>
+        <p><span class="black">Category:</span>
+        <br>
+        PersonalElectronics</p>
+        <p><span class="black">By</span> Liquid Image Co, LLC</p>
+      </a>
+    </div>
+  </div>
+  <div class="innov-feature-item">
+  <p>Apex HD+, Wi-Fi Snow Goggle</p>
+  </div>
+  <div class="innov-feature"><img src="/ces/media/2014/Innovation%20Awards/2013%20Innovations%20Honorees/Personal%20Electronics/Apex-WiFi-Image(1).jpg" alt=" "></div>
+</div>
+</li><li class="one-sixth">
+<div class="innov-item-hover">
+  <div class="innov-thumbnail" >
+    <div class="innov-thumb-text">
+      <a href="#inline_content7343" id="7343" data-rel="prettyPhoto" class="screen-roll">
+        <h4>ASUS MX279H</h4>
+        <p><span class="black">Category:</span>
+        <br>
+        ComputerPeripherals</p>
+        <p><span class="black">By</span> ASUSTek Computer, Inc.</p>
+      </a>
+    </div>
+  </div>
+  <div class="innov-feature-item">
+  <p>ASUS MX279H</p>
+  </div>
+  <div class="innov-feature"><img src="/ces/media/2014/Innovation%20Awards/2013%20Innovations%20Honorees/Computer%20Peripherals/ASUS-MX279H.jpg" alt=" "></div>
+</div>
+</li><li class="one-sixth">
+<div class="innov-item-hover">
+  <div class="innov-thumbnail" >
+    <div class="innov-thumb-text">
+      <a href="#inline_content7358" id="7358" data-rel="prettyPhoto" class="screen-roll">
+        <h4>Belkin WeMo Baby</h4>
+        <p><span class="black">Category:</span>
+        <br>
+        HomeAppliances</p>
+        <p><span class="black">By</span> Belkin</p>
+      </a>
+    </div>
+  </div>
+  <div class="innov-feature-item">
+  <p>Belkin WeMo Baby</p>
+  </div>
+  <div class="innov-feature"><img src="/ces/media/2014/Innovation%20Awards/2013%20Innovations%20Honorees/Home%20Appliances/WeMo-Baby-F8J007_(1).jpg" alt=" "></div>
+</div>
+</li><li class="one-sixth">
+<div class="innov-item-hover">
+  <div class="innov-thumbnail" >
+    <div class="innov-thumb-text">
+      <a href="#inline_content7360" id="7360" data-rel="prettyPhoto" class="screen-roll">
+        <h4>BeoPlay A9</h4>
+        <p><span class="black">Category:</span>
+        <br>
+        HighPerformanceHomeAudio</p>
+        <p><span class="black">By</span> Bang & Olufsen / B&O PLAY </p>
+      </a>
+    </div>
+  </div>
+  <div class="innov-feature-item">
+  <p>BeoPlay A9</p>
+  </div>
+  <div class="innov-feature"><img src="/ces/media/2014/Innovation%20Awards/2013%20Innovations%20Honorees/High%20Performance%20Home%20Audio/C_FRONT_SIDE(1).jpg" alt=" "></div>
+</div>
+</li><li class="one-sixth">
+<div class="innov-item-hover">
+  <div class="innov-thumbnail" >
+    <div class="innov-thumb-text">
+      <a href="#inline_content7375" id="7375" data-rel="prettyPhoto" class="screen-roll">
+        <h4>Connected Lighting Solution</h4>
+        <p><span class="black">Category:</span>
+        <br>
+        IntegratedHomeSystems_Multi-RoomAudio-Video</p>
+        <p><span class="black">By</span> GreenWave Reality</p>
+      </a>
+    </div>
+  </div>
+  <div class="innov-feature-item">
+  <p>Connected Lighting Solution</p>
+  </div>
+  <div class="innov-feature"><img src="/ces/media/2014/Innovation%20Awards/2013%20Innovations%20Honorees/Integrated%20Home%20Systems%20and%20Multi-Room%20AV/GreenWave-Main-Image(1).png" alt=" "></div>
+</div>
+</li><li class="one-sixth">
+<div class="innov-item-hover">
+  <div class="innov-thumbnail" >
+    <div class="innov-thumb-text">
+      <a href="#inline_content7412" id="7412" data-rel="prettyPhoto" class="screen-roll">
+        <h4>GSpot</h4>
+        <p><span class="black">Category:</span>
+        <br>
+        WirelessHandsets</p>
+        <p><span class="black">By</span> Gopod Group Limited</p>
+      </a>
+    </div>
+  </div>
+  <div class="innov-feature-item">
+  <p>GSpot</p>
+  </div>
+  <div class="innov-feature"><img src="/ces/media/2014/Innovation%20Awards/2013%20Innovations%20Honorees/Wireless%20Handsets/W20-1.jpg" alt=" "></div>
+</div>
+</li><li class="one-sixth">
+<div class="innov-item-hover">
+  <div class="innov-thumbnail" >
+    <div class="innov-thumb-text">
+      <a href="#inline_content7420" id="7420" data-rel="prettyPhoto" class="screen-roll">
+        <h4>Harman/Kardon  BDS 577 </h4>
+        <p><span class="black">Category:</span>
+        <br>
+        HomeAudio-VideoComponents</p>
+        <p><span class="black">By</span> Harman International Industries, Inc.</p>
+      </a>
+    </div>
+  </div>
+  <div class="innov-feature-item">
+  <p>Harman/Kardon  BDS 577 </p>
+  </div>
+  <div class="innov-feature"><img src="/ces/media/2014/Innovation%20Awards/2013%20Innovations%20Honorees/Home%20AV%20Components/HK-BDS-(01).jpg" alt=" "></div>
+</div>
+</li><li class="one-sixth">
+<div class="innov-item-hover">
+  <div class="innov-thumbnail" >
+    <div class="innov-thumb-text">
+      <a href="#inline_content7433" id="7433" data-rel="prettyPhoto" class="screen-roll">
+        <h4>IE800 In-ear canal headphones</h4>
+        <p><span class="black">Category:</span>
+        <br>
+        Headphones</p>
+        <p><span class="black">By</span> Sennheiser Electronic Corporation</p>
+      </a>
+    </div>
+  </div>
+  <div class="innov-feature-item">
+  <p>IE800 In-ear canal headphones</p>
+  </div>
+  <div class="innov-feature"><img src="/ces/media/2014/Innovation%20Awards/2013%20Innovations%20Honorees/Headphones/IE_800_classic_view_01_RGB(1).jpg" alt=" "></div>
+</div>
+</li><li class="one-sixth">
+<div class="innov-item-hover">
+  <div class="innov-thumbnail" >
+    <div class="innov-thumb-text">
+      <a href="#inline_content7456" id="7456" data-rel="prettyPhoto" class="screen-roll">
+        <h4>KICKR Power Trainer</h4>
+        <p><span class="black">Category:</span>
+        <br>
+        HealthandWellness</p>
+        <p><span class="black">By</span> Wahoo Fitness</p>
+      </a>
+    </div>
+  </div>
+  <div class="innov-feature-item">
+  <p>KICKR Power Trainer</p>
+  </div>
+  <div class="innov-feature"><img src="/ces/media/2014/Innovation%20Awards/2013%20Innovations%20Honorees/Health%20and%20Fitness/Wahoo-Fitness-KICKR.jpg" alt=" "></div>
+</div>
+</li><li class="one-sixth">
+<div class="innov-item-hover">
+  <div class="innov-thumbnail" >
+    <div class="innov-thumb-text">
+      <a href="#inline_content7466" id="7466" data-rel="prettyPhoto" class="screen-roll">
+        <h4>LG�s Ultra-High-Definition CINEMA 3D Smart TV (84LM9600)</h4>
+        <p><span class="black">Category:</span>
+        <br>
+        VideoDisplays</p>
+        <p><span class="black">By</span> LG Electronics</p>
+      </a>
+    </div>
+  </div>
+  <div class="innov-feature-item">
+  <p>LG�s Ultra-High-Definition CINEMA 3D Smart TV (84LM9600)</p>
+  </div>
+  <div class="innov-feature"><img src="/ces/media/2014/Innovation%20Awards/2013%20Innovations%20Honorees/Video%20Displays/Product-Images_84LM9600_1(1).jpg" alt=" "></div>
+</div>
+</li><li class="one-sixth">
+<div class="innov-item-hover">
+  <div class="innov-thumbnail" >
+    <div class="innov-thumb-text">
+      <a href="#inline_content7519" id="7519" data-rel="prettyPhoto" class="screen-roll">
+        <h4>Panasonic VIERA TC-L50E60 </h4>
+        <p><span class="black">Category:</span>
+        <br>
+        Accessibility_UniversalDesign</p>
+        <p><span class="black">By</span> Panasonic</p>
+      </a>
+    </div>
+  </div>
+  <div class="innov-feature-item">
+  <p>Panasonic VIERA TC-L50E60 </p>
+  </div>
+  <div class="innov-feature"><img src="/ces/media/2014/Innovation%20Awards/2013%20Innovations%20Honorees/Accessible%20and%20Universal%20Design%20Tech/Panasonic-VIERA.jpg" alt=" "></div>
+</div>
+</li><li class="one-sixth">
+<div class="innov-item-hover">
+  <div class="innov-thumbnail" >
+    <div class="innov-thumb-text">
+      <a href="#inline_content7550" id="7550" data-rel="prettyPhoto" class="screen-roll">
+        <h4>S.T.R.I.K.E.7 Professional Gaming Keyboard</h4>
+        <p><span class="black">Category:</span>
+        <br>
+        GamingHardware_Accessories</p>
+        <p><span class="black">By</span> Mad Catz</p>
+      </a>
+    </div>
+  </div>
+  <div class="innov-feature-item">
+  <p>S.T.R.I.K.E.7 Professional Gaming Keyboard</p>
+  </div>
+  <div class="innov-feature"><img src="/ces/media/2014/Innovation%20Awards/2013%20Innovations%20Honorees/Digital%20Imaging/43109_CCB_01(1).jpg" alt=" "></div>
+</div>
+</li><li class="one-sixth">
+<div class="innov-item-hover">
+  <div class="innov-thumbnail" >
+    <div class="innov-thumb-text">
+      <a href="#inline_content7576" id="7576" data-rel="prettyPhoto" class="screen-roll">
+        <h4>Samsung Timeless UHD 85" with Ultimate Picture and Sound Quality: UN85S9 </h4>
+        <p><span class="black">Category:</span>
+        <br>
+        VideoDisplays</p>
+        <p><span class="black">By</span> Samsung Electronics Co., Ltd</p>
+      </a>
+    </div>
+  </div>
+  <div class="innov-feature-item">
+  <p>Samsung Timeless UHD 85" with Ultimate Picture and Sound Quality: UN85S9 </p>
+  </div>
+  <div class="innov-feature"><img src="/ces/media/2014/Innovation%20Awards/2013%20Innovations%20Honorees/Video%20Displays/Samsung-UN85S9.jpg" alt=" "></div>
+</div>
+</li><li class="one-sixth">
+<div class="innov-item-hover">
+  <div class="innov-thumbnail" >
+    <div class="innov-thumb-text">
+      <a href="#inline_content7577" id="7577" data-rel="prettyPhoto" class="screen-roll">
+        <h4>Samsung VG-STC3000, the World's First TV Camera with Motion and Face Recognition</h4>
+        <p><span class="black">Category:</span>
+        <br>
+        HomeAudio-VideoAccessories</p>
+        <p><span class="black">By</span> Samsung Electronics Co., Ltd</p>
+      </a>
+    </div>
+  </div>
+  <div class="innov-feature-item">
+  <p>Samsung VG-STC3000, the World's First TV Camera with Motion and Face Recognition</p>
+  </div>
+  <div class="innov-feature"><img src="/ces/media/2014/Innovation%20Awards/2013%20Innovations%20Honorees/Home%20AV%20Appliances/Samsung-VG-STC3000.jpg" alt=" "></div>
+</div>
+</li><li class="one-sixth">
+<div class="innov-item-hover">
+  <div class="innov-thumbnail" >
+    <div class="innov-thumb-text">
+      <a href="#inline_content7580" id="7580" data-rel="prettyPhoto" class="screen-roll">
+        <h4>SCOUT</h4>
+        <p><span class="black">Category:</span>
+        <br>
+        PersonalElectronics</p>
+        <p><span class="black">By</span> Scanadu</p>
+      </a>
+    </div>
+  </div>
+  <div class="innov-feature-item">
+  <p>SCOUT</p>
+  </div>
+  <div class="innov-feature"><img src="/ces/media/2014/Innovation%20Awards/2013%20Innovations%20Honorees/Personal%20Electronics/Scanadu-Scout.jpg" alt=" "></div>
+</div>
+</li><li class="one-sixth">
+<div class="innov-item-hover">
+  <div class="innov-thumbnail" >
+    <div class="innov-thumb-text">
+      <a href="#inline_content7584" id="7584" data-rel="prettyPhoto" class="screen-roll">
+        <h4>SCS(Smart Care System) for Hearing-impaired Person</h4>
+        <p><span class="black">Category:</span>
+        <br>
+        Accessibility_UniversalDesign</p>
+        <p><span class="black">By</span> Moneual</p>
+      </a>
+    </div>
+  </div>
+  <div class="innov-feature-item">
+  <p>SCS(Smart Care System) for Hearing-impaired Person</p>
+  </div>
+  <div class="innov-feature"><img src="/ces/media/2014/Innovation%20Awards/2013%20Innovations%20Honorees/Accessible%20and%20Universal%20Design%20Tech/Moneual-SCS.jpg" alt=" "></div>
+</div>
+</li><li class="one-sixth">
+<div class="innov-item-hover">
+  <div class="innov-thumbnail" >
+    <div class="innov-thumb-text">
+      <a href="#inline_content7605" id="7605" data-rel="prettyPhoto" class="screen-roll">
+        <h4>Sony Cyber-shot RX1</h4>
+        <p><span class="black">Category:</span>
+        <br>
+        DigitalImaging</p>
+        <p><span class="black">By</span> Sony Electronics</p>
+      </a>
+    </div>
+  </div>
+  <div class="innov-feature-item">
+  <p>Sony Cyber-shot RX1</p>
+  </div>
+  <div class="innov-feature"><img src="/ces/media/2014/Innovation%20Awards/2013%20Innovations%20Honorees/Digital%20Imaging/DSC-RX1_main_jpg(1).jpg" alt=" "></div>
+</div>
+</li><li class="one-sixth">
+<div class="innov-item-hover">
+  <div class="innov-thumbnail" >
+    <div class="innov-thumb-text">
+      <a href="#inline_content7612" id="7612" data-rel="prettyPhoto" class="screen-roll">
+        <h4>SpareOne</h4>
+        <p><span class="black">Category:</span>
+        <br>
+        TechnologyforaBetterWorld</p>
+        <p><span class="black">By</span> XPAL Power Inc</p>
+      </a>
+    </div>
+  </div>
+  <div class="innov-feature-item">
+  <p>SpareOne</p>
+  </div>
+  <div class="innov-feature"><img src="/ces/media/2014/Innovation%20Awards/2013%20Innovations%20Honorees/Tech%20for%20a%20Better%20World/SpareOne_P1_WhiteRed3pcs_lighton.png" alt=" "></div>
+</div>
+</li><li class="one-sixth">
+<div class="innov-item-hover">
+  <div class="innov-thumbnail" >
+    <div class="innov-thumb-text">
+      <a href="#inline_content7616" id="7616" data-rel="prettyPhoto" class="screen-roll">
+        <h4>SWITCH 3-Way</h4>
+        <p><span class="black">Category:</span>
+        <br>
+        Eco-DesignAndSustainableTechnologies</p>
+        <p><span class="black">By</span> SWITCH Lighting</p>
+      </a>
+    </div>
+  </div>
+  <div class="innov-feature-item">
+  <p>SWITCH 3-Way</p>
+  </div>
+  <div class="innov-feature"><img src="/CES/media/2014/Innovation%20Awards/2013%20Innovations%20Honorees/Switch3WAY.jpg" alt=" "></div>
+</div>
+</li><li class="one-sixth">
+<div class="innov-item-hover">
+  <div class="innov-thumbnail" >
+    <div class="innov-thumb-text">
+      <a href="#inline_content7629" id="7629" data-rel="prettyPhoto" class="screen-roll">
+        <h4>Touch Table PC</h4>
+        <p><span class="black">Category:</span>
+        <br>
+        ComputerHardware_Components</p>
+        <p><span class="black">By</span> Moneual</p>
+      </a>
+    </div>
+  </div>
+  <div class="innov-feature-item">
+  <p>Touch Table PC</p>
+  </div>
+  <div class="innov-feature"><img src="/ces/media/2014/Innovation%20Awards/2013%20Innovations%20Honorees/Computer%20Hardware%20and%20Components/1-table-pc-ART(1).jpg" alt=" "></div>
+</div>
+</li><li class="one-sixth">
+<div class="innov-item-hover">
+  <div class="innov-thumbnail" >
+    <div class="innov-thumb-text">
+      <a href="#inline_content7652" id="7652" data-rel="prettyPhoto" class="screen-roll">
+        <h4>Vuzix Smart Glasses</h4>
+        <p><span class="black">Category:</span>
+        <br>
+        WirelessHandsetAccessories</p>
+        <p><span class="black">By</span> Vuzix Corporation</p>
+      </a>
+    </div>
+  </div>
+  <div class="innov-feature-item">
+  <p>Vuzix Smart Glasses</p>
+  </div>
+  <div class="innov-feature"><img src="/ces/media/2014/Innovation%20Awards/2013%20Innovations%20Honorees/Wireless%20Handset%20Accessories/Vuzix-Smartglass-in-use.jpg" alt=" "></div>
+</div>
+</li><li class="one-sixth">
+<div class="innov-item-hover">
+  <div class="innov-thumbnail" >
+    <div class="innov-thumb-text">
+      <a href="#inline_content7659" id="7659" data-rel="prettyPhoto" class="screen-roll">
+        <h4>Wireless Plus streaming media storage</h4>
+        <p><span class="black">Category:</span>
+        <br>
+        ComputerAccessories</p>
+        <p><span class="black">By</span> Seagate Technology</p>
+      </a>
+    </div>
+  </div>
+  <div class="innov-feature-item">
+  <p>Wireless Plus streaming media storage</p>
+  </div>
+  <div class="innov-feature"><img src="/ces/media/2014/Innovation%20Awards/2013%20Innovations%20Honorees/Computer%20Accessories/Seagate-Wireless-media-storage.jpg" alt=" "></div>
+</div>
+</li><li class="one-sixth">
+<div class="innov-item-hover">
+  <div class="innov-thumbnail" >
+    <div class="innov-thumb-text">
+      <a href="#inline_content7661" id="7661" data-rel="prettyPhoto" class="screen-roll">
+        <h4>XAV-701HD Smartphone Connected AV Receiver</h4>
+        <p><span class="black">Category:</span>
+        <br>
+        In-VehicleAccessories</p>
+        <p><span class="black">By</span> Sony</p>
+      </a>
+    </div>
+  </div>
+  <div class="innov-feature-item">
+  <p>XAV-701HD Smartphone Connected AV Receiver</p>
+  </div>
+  <div class="innov-feature"><img src="/ces/media/2014/Innovation%20Awards/2013%20Innovations%20Honorees/In-Vehicle%20Accessories/XAV-701_front_MirrorLink_simulation(1).jpg" alt=" "></div>
+</div>
+</li><li class="one-sixth">
+<div class="innov-item-hover">
+  <div class="innov-thumbnail" >
+    <div class="innov-thumb-text">
+      <a href="#inline_content7664" id="7664" data-rel="prettyPhoto" class="screen-roll">
+        <h4>XSense</h4>
+        <p><span class="black">Category:</span>
+        <br>
+        EmbeddedTechnologies</p>
+        <p><span class="black">By</span> Atmel</p>
+      </a>
+    </div>
+  </div>
+  <div class="innov-feature-item">
+  <p>XSense</p>
+  </div>
+  <div class="innov-feature"><img src="/ces/media/2014/Innovation%20Awards/2013%20Innovations%20Honorees/Embedded%20Technologies/XSense-Lrg.jpg" alt=" "></div>
+</div>
+</li>
+    </ul>
+    </div>
+    <div>
+        <div style="display:none">
+  <div id="inline_content7320" id="7320" class="innov-pop-up" >
+    <img src="/ces/media/2014/Innovation%20Awards/2013%20Innovations%20Honorees/Software%20and%20Mobile%20Apps/sculpteo_3DPCase_geography2(1).jpg">
+    <div class="innov-pop-up-text">             	
+    <p class="caption">BEST OF INNOVATIONS: Software_MobileApps</p>
+    <h3>3DPCase by Sculpteo</h3>
+    <h5><a href="http://3dpcase.sculpteo.com/en/" target="_blank">Sculpteo</a></h5>
+    <p>3DPCase is the &lsquo;Ultimate iPhone Case Builder&rsquo;: the first ever app for customizing, manufacturing and ordering 3D-printed iPhone cases. Sculpteo shows how Cloud 3D Printing offers a new e-commerce business with bespoke objects costing from $14.95.</p>
+    </div>
+  </div>
+</div>  <div style="display:none">
+  <div id="inline_content7323" id="7323" class="innov-pop-up" >
+    <img src="/ces/media/2014/Innovation%20Awards/2013%20Innovations%20Honorees/In-Vehicle%20AudioVideo/app-amp(1).jpg">
+    <div class="innov-pop-up-text">             	
+    <p class="caption">BEST OF INNOVATIONS: In-VehicleAudioVideo</p>
+    <h3>ACX600.5</h3>
+    <h5><a href="http://www.phoenixgold.com" target="_blank">Pheonix Gold</a></h5>
+    <p>Phoenix Gold App Controlled Mobile 5 Channel Amplifier. The ACX600.5 is controlled via Bluetooth thru PG&rsquo;s App on smart devices. Gain, Balance, Fade, Subwoofer level, Phase, EQ, Listening position, X-over, DSP, Bass boost and also displays feedback.</p>
+    </div>
+  </div>
+</div>  <div style="display:none">
+  <div id="inline_content7330" id="7330" class="innov-pop-up" >
+    <img src="/ces/media/2014/Innovation%20Awards/2013%20Innovations%20Honorees/Personal%20Electronics/Apex-WiFi-Image(1).jpg">
+    <div class="innov-pop-up-text">             	
+    <p class="caption">BEST OF INNOVATIONS: PersonalElectronics</p>
+    <h3>Apex HD+, Wi-Fi Snow Goggle</h3>
+    <h5><a href="http://www.liquidimageco.com" target="_blank">Liquid Image Co, LLC</a></h5>
+    <p>The APEX HD+ is the first Snow Goggle with Full HD recording, built in Wi-Fi and a rotating camera lens. Wireless capabilities include: Live Streaming to an iOS or Android device, File Playback, Remote Control and Adjustment of Camera Settings.</p>
+    </div>
+  </div>
+</div>  <div style="display:none">
+  <div id="inline_content7343" id="7343" class="innov-pop-up" >
+    <img src="/ces/media/2014/Innovation%20Awards/2013%20Innovations%20Honorees/Computer%20Peripherals/ASUS-MX279H.jpg">
+    <div class="innov-pop-up-text">             	
+    <p class="caption">BEST OF INNOVATIONS: ComputerPeripherals</p>
+    <h3>ASUS MX279H</h3>
+    <h5><a href="http://www.asus.com/" target="_blank">ASUSTek Computer, Inc.</a></h5>
+    <p>The MX279H combines the latest in IPS panel specifications with premium design quality. It is ideal for users who want amazing visuals and audio together in a stunning design.</p>
+    </div>
+  </div>
+</div>  <div style="display:none">
+  <div id="inline_content7358" id="7358" class="innov-pop-up" >
+    <img src="/ces/media/2014/Innovation%20Awards/2013%20Innovations%20Honorees/Home%20Appliances/WeMo-Baby-F8J007_(1).jpg">
+    <div class="innov-pop-up-text">             	
+    <p class="caption">BEST OF INNOVATIONS: HomeAppliances</p>
+    <h3>Belkin WeMo Baby</h3>
+    <h5><a href="http://www.belkin.com" target="_blank">Belkin</a></h5>
+    <p>WeMo Baby works with the free WeMo Baby smartphone app so you can listen to your baby with clear digital sound from anywhere. Users have the option of upgrading to the premium app to receive cry notifications as well as access your baby&rsquo;s cry history.</p>
+    </div>
+  </div>
+</div>  <div style="display:none">
+  <div id="inline_content7360" id="7360" class="innov-pop-up" >
+    <img src="/ces/media/2014/Innovation%20Awards/2013%20Innovations%20Honorees/High%20Performance%20Home%20Audio/C_FRONT_SIDE(1)_1.jpg">
+    <div class="innov-pop-up-text">             	
+    <p class="caption">BEST OF INNOVATIONS: HighPerformanceHomeAudio</p>
+    <h3>BeoPlay A9</h3>
+    <h5><a href="http://www.beoplay.com" target="_blank">Bang & Olufsen / B&O PLAY </a></h5>
+    <p>BeoPlay A9 is a digital loudspeaker that offers impressive and spacious stereo sound performance in one circular unit- designed as a cool piece of furniture. It offers wireless streaming via AirPlay and DLNA, and &quot;invisible&quot;/intuitive operation. </p>
+    </div>
+  </div>
+</div>  <div style="display:none">
+  <div id="inline_content7375" id="7375" class="innov-pop-up" >
+    <img src="/ces/media/2014/Innovation%20Awards/2013%20Innovations%20Honorees/Integrated%20Home%20Systems%20and%20Multi-Room%20AV/GreenWave-Main-Image(1).png">
+    <div class="innov-pop-up-text">             	
+    <p class="caption">BEST OF INNOVATIONS: IntegratedHomeSystems_Multi-RoomAudio-Video</p>
+    <h3>Connected Lighting Solution</h3>
+    <h5><a href="http://www.greenwavereality.com/" target="_blank">GreenWave Reality</a></h5>
+    <p>GreenWave Reality&rsquo;s Connected Lighting Solution offers advanced control over residential lighting with fully-dimmable, wireless LED and CFL bulbs through an IP-enabled home lighting network, controllable from PCs, smartphones or a handheld remote.</p>
+    </div>
+  </div>
+</div>  <div style="display:none">
+  <div id="inline_content7412" id="7412" class="innov-pop-up" >
+    <img src="/ces/media/2014/Innovation%20Awards/2013%20Innovations%20Honorees/Wireless%20Handsets/W20-1.jpg">
+    <div class="innov-pop-up-text">             	
+    <p class="caption">BEST OF INNOVATIONS: WirelessHandsets</p>
+    <h3>GSpot</h3>
+    <h5><a href="http://www.gopod.cc" target="_blank">Gopod Group Limited</a></h5>
+    <p>GSpot uses a special App, which can extend two more SIM card for iOS and Android devices, supports voice calls, SMS and Internet share.</p>
+    </div>
+  </div>
+</div>  <div style="display:none">
+  <div id="inline_content7420" id="7420" class="innov-pop-up" >
+    <img src="/ces/media/2014/Innovation%20Awards/2013%20Innovations%20Honorees/Home%20AV%20Components/HK-BDS-(01).jpg">
+    <div class="innov-pop-up-text">             	
+    <p class="caption">BEST OF INNOVATIONS: HomeAudio-VideoComponents</p>
+    <h3>Harman/Kardon  BDS 577 </h3>
+    <h5><a href="http://www.harman.com" target="_blank">Harman International Industries, Inc.</a></h5>
+    <p>This 3D Blu-ray Disc&trade; system has the same features as those built with separate components, including high fidelity amplifiers, without the clutter and cables. It adds built-in AirPlay, Bluetooth, Wi-Fi, YouTube, and support for a wireless subwoofer.</p>
+    </div>
+  </div>
+</div>  <div style="display:none">
+  <div id="inline_content7433" id="7433" class="innov-pop-up" >
+    <img src="/ces/media/2014/Innovation%20Awards/2013%20Innovations%20Honorees/Headphones/IE_800_classic_view_01_RGB(1)_2.jpg">
+    <div class="innov-pop-up-text">             	
+    <p class="caption">BEST OF INNOVATIONS: Headphones</p>
+    <h3>IE800 In-ear canal headphones</h3>
+    <h5><a href="http://www.sennheiserusa.com" target="_blank">Sennheiser Electronic Corporation</a></h5>
+    <p>The IE 800 ear-canal phones are at the top of their class possessing the most innovations per cubic millimetre.</p>
+    </div>
+  </div>
+</div>  <div style="display:none">
+  <div id="inline_content7456" id="7456" class="innov-pop-up" >
+    <img src="/ces/media/2014/Innovation%20Awards/2013%20Innovations%20Honorees/Health%20and%20Fitness/Wahoo-Fitness-KICKR.jpg">
+    <div class="innov-pop-up-text">             	
+    <p class="caption">BEST OF INNOVATIONS: HealthandWellness</p>
+    <h3>KICKR Power Trainer</h3>
+    <h5><a href="http://www.wahoofitness.com" target="_blank">Wahoo Fitness</a></h5>
+    <p>World&#39;s First iPhone Powered Bike Trainer, the KICKR Power Trainer.&nbsp; iPhone connected bike trainer modernizes stationary training by allowing full control of resistance and power threshold via your favorite iPhone cycling Apps.</p>
+    </div>
+  </div>
+</div>  <div style="display:none">
+  <div id="inline_content7466" id="7466" class="innov-pop-up" >
+    <img src="/ces/media/2014/Innovation%20Awards/2013%20Innovations%20Honorees/Video%20Displays/Product-Images_84LM9600_1(1).jpg">
+    <div class="innov-pop-up-text">             	
+    <p class="caption">BEST OF INNOVATIONS: VideoDisplays</p>
+    <h3>LG�s Ultra-High-Definition CINEMA 3D Smart TV (84LM9600)</h3>
+    <h5><a href="http://www.lg.com" target="_blank">LG Electronics</a></h5>
+    <p>The 84LM9600 is the world&rsquo;s largest Ultra Definition (UD) 3D TV delivering immersive entertainment in stunning ultra definition with a combination of CINEMA 3D technology and Smart TV features.</p>
+    </div>
+  </div>
+</div>  <div style="display:none">
+  <div id="inline_content7519" id="7519" class="innov-pop-up" >
+    <img src="/ces/media/2014/Innovation%20Awards/2013%20Innovations%20Honorees/Accessible%20and%20Universal%20Design%20Tech/Panasonic-VIERA.jpg">
+    <div class="innov-pop-up-text">             	
+    <p class="caption">BEST OF INNOVATIONS: Accessibility_UniversalDesign</p>
+    <h3>Panasonic VIERA TC-L50E60 </h3>
+    <h5><a href="http://www.panasonic.com/" target="_blank">Panasonic</a></h5>
+    <p>The Panasonic VIERA TC-L50E60 HDTV builds on its predecessors to provide outstanding picture quality, easy operation, accessible features, advanced networking, sustainability and a sleek design, all with the end user top-of-mind.</p>
+    </div>
+  </div>
+</div>  <div style="display:none">
+  <div id="inline_content7550" id="7550" class="innov-pop-up" >
+    <img src="/ces/media/2014/Innovation%20Awards/2013%20Innovations%20Honorees/Digital%20Imaging/43109_CCB_01(1)_1.jpg">
+    <div class="innov-pop-up-text">             	
+    <p class="caption">BEST OF INNOVATIONS: GamingHardware_Accessories</p>
+    <h3>S.T.R.I.K.E.7 Professional Gaming Keyboard</h3>
+    <h5><a href="http://www.madcatz.com" target="_blank">Mad Catz</a></h5>
+    <p>The most state-of-the-art gaming keyboard known to man. Designed for competitive gaming, the unique V.E.N.O.M. Touch Display keeps track of every aspect of the PC, launching apps, macro commands and more. Modular construction allows gamers to rearrange individual sections to suit their style.</p>
+    </div>
+  </div>
+</div>  <div style="display:none">
+  <div id="inline_content7576" id="7576" class="innov-pop-up" >
+    <img src="/ces/media/2014/Innovation%20Awards/2013%20Innovations%20Honorees/Video%20Displays/Samsung-UN85S9.jpg">
+    <div class="innov-pop-up-text">             	
+    <p class="caption">BEST OF INNOVATIONS: VideoDisplays</p>
+    <h3>Samsung Timeless UHD 85" with Ultimate Picture and Sound Quality: UN85S9 </h3>
+    <h5><a href="http://www.samsung.com/us/#latest-home" target="_blank">Samsung Electronics Co., Ltd</a></h5>
+    <p>Samsung&#39;s 85-inch UHD TV, the world&#39;s largest commercialized UHD TV, boasts life-like picture quality in ultra HD resolution with over 8 million pixels, four times the resolution of Full HD displays. Samsung&#39;s UHD TV uses an innovative enhanced dimming technology and a very high contrast ratio to deliver deep, real blacks and pure whites for greater detail and unmatched picture clarity. This new, cutting-edge TV also offers a powerful and dynamic range of sounds.</p>
+    </div>
+  </div>
+</div>  <div style="display:none">
+  <div id="inline_content7577" id="7577" class="innov-pop-up" >
+    <img src="/ces/media/2014/Innovation%20Awards/2013%20Innovations%20Honorees/Home%20AV%20Appliances/Samsung-VG-STC3000.jpg">
+    <div class="innov-pop-up-text">             	
+    <p class="caption">BEST OF INNOVATIONS: HomeAudio-VideoAccessories</p>
+    <h3>Samsung VG-STC3000, the World's First TV Camera with Motion and Face Recognition</h3>
+    <h5><a href="http://www.samsung.com/us/#latest-home" target="_blank">Samsung Electronics Co., Ltd</a></h5>
+    <p>Samsung&#39;s VG-STC3000, the world&#39;s first TV camera to recognize motion and a user&#39;s face, takes social TV to new heights. It makes video chats, content selection and game play a breeze to enhance the entertainment experience.</p>
+    </div>
+  </div>
+</div>  <div style="display:none">
+  <div id="inline_content7580" id="7580" class="innov-pop-up" >
+    <img src="/ces/media/2014/Innovation%20Awards/2013%20Innovations%20Honorees/Personal%20Electronics/Scanadu-Scout.jpg">
+    <div class="innov-pop-up-text">             	
+    <p class="caption">BEST OF INNOVATIONS: PersonalElectronics</p>
+    <h3>SCOUT</h3>
+    <h5><a href="http://www.scanadu.com" target="_blank">Scanadu</a></h5>
+    <p>The SCOUT is a game changer for consumer medicine, helping you know more about your health than ever before. SCOUT is ushering in the era of personalized healthcare that will change the face of the industry permanently.</p>
+    </div>
+  </div>
+</div>  <div style="display:none">
+  <div id="inline_content7584" id="7584" class="innov-pop-up" >
+    <img src="/ces/media/2014/Innovation%20Awards/2013%20Innovations%20Honorees/Accessible%20and%20Universal%20Design%20Tech/Moneual-SCS.jpg">
+    <div class="innov-pop-up-text">             	
+    <p class="caption">BEST OF INNOVATIONS: Accessibility_UniversalDesign</p>
+    <h3>SCS(Smart Care System) for Hearing-impaired Person</h3>
+    <h5><a href="http://moneual.com/" target="_blank">Moneual</a></h5>
+    <p>The Moneual Smart Care system for the hearing impaired detects a wide range of noises and sounds that occur and transmits this information to its user, giving the hearing impaired users awareness of all sounds while also keeping them safe from risks.</p>
+    </div>
+  </div>
+</div>  <div style="display:none">
+  <div id="inline_content7605" id="7605" class="innov-pop-up" >
+    <img src="/ces/media/2014/Innovation%20Awards/2013%20Innovations%20Honorees/Digital%20Imaging/DSC-RX1_main_jpg(1)_1.jpg">
+    <div class="innov-pop-up-text">             	
+    <p class="caption">BEST OF INNOVATIONS: DigitalImaging</p>
+    <h3>Sony Cyber-shot RX1</h3>
+    <h5><a href="http://www.sony.com" target="_blank">Sony Electronics</a></h5>
+    <p>The Sony Cyber-shot&reg; DSC-RX1 is the world&#39;s first full-frame compact digital camera, featuring an advanced 35mm full-frame 24.3 MP Exmor&reg; CMOS sensor and exceptionally fast, bright Carl Zeiss T* 35mm f/2.0 fixed lens.</p>
+    </div>
+  </div>
+</div>  <div style="display:none">
+  <div id="inline_content7612" id="7612" class="innov-pop-up" >
+    <img src="/ces/media/2014/Innovation%20Awards/2013%20Innovations%20Honorees/Tech%20for%20a%20Better%20World/SpareOne_P1_WhiteRed3pcs_lighton.png">
+    <div class="innov-pop-up-text">             	
+    <p class="caption">BEST OF INNOVATIONS: TechnologyforaBetterWorld</p>
+    <h3>SpareOne</h3>
+    <h5><a href="http://www.SpareOne.com" target="_blank">XPAL Power Inc</a></h5>
+    <p>The SpareOne is the world&rsquo;s only mobile phone powered by a single AA Battery, delivering up to 15 years of battery life when stored unused or 10 hours of talk time when in use. SpareOne is designed to be a lifeline in emergency situations.</p>
+    </div>
+  </div>
+</div>  <div style="display:none">
+  <div id="inline_content7616" id="7616" class="innov-pop-up" >
+    <img src="/CES/media/2014/Innovation%20Awards/2013%20Innovations%20Honorees/Switch3WAY.jpg">
+    <div class="innov-pop-up-text">             	
+    <p class="caption">BEST OF INNOVATIONS: Eco-DesignAndSustainableTechnologies</p>
+    <h3>SWITCH 3-Way</h3>
+    <h5><a href="http://switchlightingco.com/" target="_blank">SWITCH Lighting</a></h5>
+    <p>The SWITCH 3-Way is the first and only LED incandescent replacement A-Lamp for use in three way lighting fixtures.</p>
+    </div>
+  </div>
+</div>  <div style="display:none">
+  <div id="inline_content7629" id="7629" class="innov-pop-up" >
+    <img src="/ces/media/2014/Innovation%20Awards/2013%20Innovations%20Honorees/Computer%20Hardware%20and%20Components/1-table-pc-ART(1)_1.jpg">
+    <div class="innov-pop-up-text">             	
+    <p class="caption">BEST OF INNOVATIONS: ComputerHardware_Components</p>
+    <h3>Touch Table PC</h3>
+    <h5><a href="http://moneual.com/" target="_blank">Moneual</a></h5>
+    <p>Touch Table PC is ideal for use in restaurants and cafes and enables customers to not only browse menus and order food, but also pay directly from the table. Any public space such as hospitals, airports, hotels can find good use for Touch Table PC.</p>
+    </div>
+  </div>
+</div>  <div style="display:none">
+  <div id="inline_content7652" id="7652" class="innov-pop-up" >
+    <img src="/ces/media/2014/Innovation%20Awards/2013%20Innovations%20Honorees/Wireless%20Handset%20Accessories/Vuzix-Smartglass-in-use.jpg">
+    <div class="innov-pop-up-text">             	
+    <p class="caption">BEST OF INNOVATIONS: WirelessHandsetAccessories</p>
+    <h3>Vuzix Smart Glasses</h3>
+    <h5><a href="http://www.vuzix.com" target="_blank">Vuzix Corporation</a></h5>
+    <p>Vuzix smart glasses are the first hands-free personal communications system for linking consumers to the cloud. Text, video, audio and all we have come to expect from smartphones and the Internet in a wireless personal information device.</p>
+    </div>
+  </div>
+</div>  <div style="display:none">
+  <div id="inline_content7659" id="7659" class="innov-pop-up" >
+    <img src="/ces/media/2014/Innovation%20Awards/2013%20Innovations%20Honorees/Computer%20Accessories/Seagate-Wireless-media-storage.jpg">
+    <div class="innov-pop-up-text">             	
+    <p class="caption">BEST OF INNOVATIONS: ComputerAccessories</p>
+    <h3>Wireless Plus streaming media storage</h3>
+    <h5><a href="http://www.seagate.com/" target="_blank">Seagate Technology</a></h5>
+    <p>The Seagate Wireless Plus mobile storage device is a&nbsp; wherever your tablet or smartphone goes, and lets you wireless stream all your movies, music, photos and documents.&nbsp; This is the second generation of the groundbreaking wireless storage category.</p>
+    </div>
+  </div>
+</div>  <div style="display:none">
+  <div id="inline_content7661" id="7661" class="innov-pop-up" >
+    <img src="/ces/media/2014/Innovation%20Awards/2013%20Innovations%20Honorees/In-Vehicle%20Accessories/XAV-701_front_MirrorLink_simulation(1).jpg">
+    <div class="innov-pop-up-text">             	
+    <p class="caption">BEST OF INNOVATIONS: In-VehicleAccessories</p>
+    <h3>XAV-701HD Smartphone Connected AV Receiver</h3>
+    <h5><a href="http://www.sony.com" target="_blank">Sony</a></h5>
+    <p>With this MirrorLink-enabled A/V receiver, apps from your smartphone are presented on a 7 inch touchscreen display, allowing navigation connectivity, hands-free talk, and your personal music and video library, along with Bluetooth&reg; technology, connectivity to Pandora&reg;, SiriusXM&trade;compatibility, HD Radio&trade; and dual USB ports.</p>
+    </div>
+  </div>
+</div>  <div style="display:none">
+  <div id="inline_content7664" id="7664" class="innov-pop-up" >
+    <img src="/ces/media/2014/Innovation%20Awards/2013%20Innovations%20Honorees/Embedded%20Technologies/XSense-Lrg.jpg">
+    <div class="innov-pop-up-text">             	
+    <p class="caption">BEST OF INNOVATIONS: EmbeddedTechnologies</p>
+    <h3>XSense</h3>
+    <h5><a href="http://www.atmel.com/" target="_blank">Atmel</a></h5>
+    <p>XSense is a high-performance, highly flexible touch sensor that enables unprecedented design possibilities for touch-enabled products such as narrow borders, curved touch surfaces and edgeless touchscreens.</p>
+    </div>
+  </div>
+</div>  
+    </div>
+</section>
+
+		</div><div id="p_lt_ctl06_pageplaceholder_p_lt_ctl04_WebPartZone_WebPartZone_zone_TabsLayout_tabs_tab2" id="p_lt_ctl06_pageplaceholder_p_lt_ctl04_WebPartZone_WebPartZone_zone_TabsLayout_tabs_tab2" class="ajax__tab_panel" style="display:none;visibility:hidden;">
+			<h2>
+	<a name="ac"></a>Award Categories&nbsp;</h2>
+<p>
+	For more information on the category descriptions and examples, please see the&nbsp;<a href="http://www.cesweb.org/cesweb/media/CESWeb/Innovation%20Awards/2014-CES-Innovations-Awards-Category-Guide.pdf" target="_blank">2014 Innovations Award Category Guide</a>.</p>
+<p>
+	Innovations participants can enter products into the following categories for recognition:&nbsp;</p>
+<ul>
+	<li>
+		<p>
+			<strong>NEW: 3D Printing &amp; Additive Manufacturing</strong></p>
+	</li>
+	<li>
+		<p>
+			<strong>NEW: In-Vehicle Experience</strong></p>
+	</li>
+	<li>
+		<p>
+			<strong>NEW: Wearable Technologies</strong></p>
+	</li>
+	<li>
+		<p>
+			<strong>Accessible Technologies</strong></p>
+	</li>
+	<li>
+		<p>
+			<strong>Computer Accessories</strong></p>
+	</li>
+	<li>
+		<p>
+			<strong>Computer Hardware &amp; Components</strong></p>
+	</li>
+	<li>
+		<p>
+			<strong>Computer Peripherals</strong></p>
+	</li>
+	<li>
+		<p>
+			<strong>Digital Imaging</strong></p>
+	</li>
+	<li>
+		<p>
+			<strong>Eco-Design &amp; Sustainable Technologies</strong></p>
+	</li>
+	<li>
+		<p>
+			<strong>Embedded Technologies</strong></p>
+	</li>
+	<li>
+		<p>
+			<strong>Gaming Hardware &amp; Accessories</strong></p>
+	</li>
+	<li>
+		<p>
+			<strong>Headphones</strong></p>
+	</li>
+	<li>
+		<p>
+			<strong>Health &amp; Fitness</strong></p>
+	</li>
+	<li>
+		<p>
+			<strong>High Performance Home Audio/Video</strong></p>
+	</li>
+	<li>
+		<p>
+			<strong>Home Appliances</strong></p>
+	</li>
+	<li>
+		<p>
+			<strong>Home Audio/Video Accessories</strong></p>
+	</li>
+	<li>
+		<p>
+			<strong>Home Audio/Video Components</strong></p>
+	</li>
+	<li>
+		<p>
+			<strong>Home Networking &amp; Connectivity</strong></p>
+	</li>
+	<li>
+		<p>
+			<strong>Home Theater Speakers</strong></p>
+	</li>
+	<li>
+		<p>
+			<strong>In-Vehicle Accessories/Control/Navigation</strong></p>
+	</li>
+	<li>
+		<p>
+			<strong>In-Vehicle Audio/Video</strong></p>
+	</li>
+	<li>
+		<p>
+			<strong>Portable Media Players &amp; Accessories</strong></p>
+	</li>
+	<li>
+		<p>
+			<strong>Portable Power</strong></p>
+	</li>
+	<li>
+		<p>
+			<strong>Software &amp; Mobile Apps</strong></p>
+	</li>
+	<li>
+		<p>
+			<strong>Tablets, E-Readers &amp; Mobile Computing</strong></p>
+	</li>
+	<li>
+		<p>
+			<strong>Tech For A Better World</strong></p>
+	</li>
+	<li>
+		<p>
+			<strong>Video Displays</strong></p>
+	</li>
+	<li>
+		<p>
+			<strong>Wireless Handset Accessories</strong></p>
+	</li>
+	<li>
+		<p>
+			<strong>Wireless Handsets</strong></p>
+	</li>
+</ul>
+
+		</div><div id="p_lt_ctl06_pageplaceholder_p_lt_ctl04_WebPartZone_WebPartZone_zone_TabsLayout_tabs_tab3" id="p_lt_ctl06_pageplaceholder_p_lt_ctl04_WebPartZone_WebPartZone_zone_TabsLayout_tabs_tab3" class="ajax__tab_panel" style="display:none;visibility:hidden;">
+			<p>
+  <h2>
+	<strong>How to Enter</strong></h2>
+<p>
+	The 2014 CES Innovations Awards Call For Entries is now closed.&nbsp;</p>
+<p>
+	<strong>Entry Qualifications</strong><br />
+	Entries must qualify for each of the following criteria:</p>
+<ul>
+	<li>
+		<p>
+			Products entered must fit within one of the official award categories.</p>
+	</li>
+	<li>
+		<p>
+			Products entered must be available for sale&nbsp;to the public, for the&nbsp;<u>first time</u>,&nbsp;in U.S. retail outlets or on the Internet between April 1, 2013, and April 1, 2014.</p>
+	</li>
+	<li>
+		<p>
+			If you are a CES exhibitor, one sample of your Innovations honoree product (mock-ups or the final product) must be available for display in the Innovations Showcase at the 2014 International CES, from January 7-10, in Las Vegas, Nevada. Best of Innovations Honorees must allow CEA to hold one sample of the product for up to one year, for display at other CEA-related events.</p>
+	</li>
+	<li>
+		<p>
+			Unless&nbsp;you indicate otherwise on your&nbsp;application, honorees will be announced at CES Unveiled NEW YORK, November 12, 2013 and will be included in the launch of the honoree listings on CESweb, also on November 12.</p>
+	</li>
+	<li>
+		<p>
+			Companies not exhibiting at CES may also enter the 2014 Innovations Awards; however, restrictions apply if selected as an honoree.&nbsp;</p>
+	</li>
+</ul>
+<p>
+	<strong>Contest Rules</strong></p>
+<ul>
+	<li>
+		<p>
+			Companies that are not exhibiting at CES may enter the Innovations 2013 competition. However, non-exhibitor honoree products will not be included for display in the Innovations 2013 Design and Engineering Showcase and will not be listed in the on-site honoree directory in CE VISION, unless the company pays for an exhibit space by October 26, 2012. If a company has fully paid for an exhibit space by October 26, 2012, they can be listed in the onsite directory and have their product displayed in the Innovations Design and Engineering Showcase.</p>
+	</li>
+</ul>
+<ul>
+	<li>
+		<p>
+			Entries must be submitted via the online entry process by the Call for Entries deadline on September 14th.</p>
+	</li>
+</ul>
+<ul>
+	<li>
+		<p>
+			Entries submitted in a previous year are not eligible for resubmission; however if significant improvements have been made to the original product and/or significant enhancements that are truly unique and innovative, then the new model will be eligible for submission. If an entry of a similar model previously submitted is disqualified, the entry fees will not be refunded.</p>
+	</li>
+</ul>
+<ul>
+	<li>
+		<p>
+			At least two DIFFERENT product photographs must accompany each entry. Computer renderings are not preferred, and may result in reduced scores from the judges. Entries may include up to five photos. Photos must be submitted in a .jpg format. Each photo should be less than 3MB. All photos must be submitted via the online submission process. E-mailed and hard-copy photos will not be accepted.</p>
+	</li>
+</ul>
+<ul>
+	<li>
+		<p>
+			All entry forms are the property of CEA. We suggest you print or make a copy of your submission for your records.</p>
+	</li>
+</ul>
+<ul>
+	<li>
+		<p>
+			An entry is qualified for judging when all required sections of the online entry tool are completed and entry fees have been paid.</p>
+	</li>
+</ul>
+<ul>
+	<li>
+		<p>
+			Incomplete and unpaid entries will be disqualified. CEA is not responsible for follow-up of incomplete entries. If you are unsure if your entry is complete, please contact us at <a href="mailto:Innovations@ce.org">Innovations@ce.org</a>.</p>
+	</li>
+</ul>
+<ul>
+	<li>
+		<p>
+			Entries must be paid online at the time of submission, using a credit card. Check and invoice payments are not accepted.To evaluate a submitter&#39;s entry, the judges may ask for additional information, including a request to provide a product sample.</p>
+	</li>
+</ul>
+<ul>
+	<li>
+		<p>
+			If improperly categorized, an entry may be moved to a different category based on the recommendation of the judging panel, without consent from the submitter.</p>
+	</li>
+</ul>
+<ul>
+	<li>
+		<p>
+			CEA reserves the exclusive right to set, modify, and interpret all conditions regarding this competition without claim for damage or recourse of any kind.</p>
+	</li>
+</ul>
+<ul>
+	<li>
+		<p>
+			Each company selected as an honoree grants CEA permission, without compensation, to use its name and photograph/likeness and/or entry in promoting this or similar awards programs in the future.</p>
+	</li>
+</ul>
+<ul>
+	<li>
+		<p>
+			Materials must meet CEA standards for appropriate product presentation and taste, and may be asked to be resubmitted or disqualified at any time, if they are deemed inappropriate. Any attempt by a submitter to deliberately damage the Innovations website or undermine the legitimate operation of the Call for Entries may be in violation of criminal and civil laws. Should such an attempt be made, all entries submitted by such person will be disqualified. CEA reserves the right to seek damages from any such person fully permitted by law.</p>
+	</li>
+</ul>
+<ul>
+	<li>
+		<p>
+			In the event a virus compromises the competition, non-authorized human intervention, tampering, or other causes beyond the reasonable control of CEA, which corrupts or impairs the administration, security, fairness, or proper operation of the Call for Entries, CEA reserves the right in its sole discretion to suspend, modify or terminate the Call for Entries. Should the Call for Entries be terminated prior to the stated closing date, CEA reserves the right to announce honorees based on the nominations received before the termination date.</p>
+	</li>
+</ul>
+<ul>
+	<li>
+		<p>
+			CEA reserves the right to rescind any awards granted to honorees that have misrepresented their product or entry in this competition.</p>
+	</li>
+</ul>
+<p>
+	<strong>Submit Your Entry</strong></p>
+<ol>
+	<li>
+		<p>
+			Visit the Innovations Call for Entries page. (Call for Entries is now closed).</p>
+	</li>
+	<li>
+		<p>
+			Complete, submit and pay for your entry online between Monday, August 12 and Friday, September 13, 2013. Emailed and/or hard copy submission forms are will not be accepted.</p>
+	</li>
+	<li>
+		<p>
+			You will be notified by email on October 14, 2013 with your award status.&nbsp;</p>
+	</li>
+	<li>
+		<p>
+			<strong>Please Note</strong>: You must provide a minimum of two different high resolution photos of your product (we encourage more) along with your written entry submission.</p>
+	</li>
+</ol>
+<p>
+	<strong>Entry Form Questions</strong></p>
+<ol>
+	<li>
+		<p>
+			Each application will have a section of basic information to be filled in about the product in addition to a series of free response questions. All responses are limited to 500 words or less. If you&rsquo;re submitting an entry for web-based software, please make sure to include a link to the web site.</p>
+	</li>
+</ol>
+<p>
+	<strong>General Entries</strong></p>
+<ol>
+	<li>
+		<p>
+			Please provide the product&#39;s technical specifications. Describe the engineering qualities of your product, including the materials, components and processes used to fabricate the product, and how their qualities relate to the product&rsquo;s intended use. Can also be submitted as a PDF, Word, or Excel document, with a limit of one full page of text.</p>
+	</li>
+	<li>
+		<p>
+			Describe the product&#39;s aesthetic and design qualities, intended use and/or functions, including details about the user value.</p>
+	</li>
+	<li>
+		<p>
+			Describe why your product deserves a 2014 CES Innovations Award. Include specifics regarding your product&#39;s unique and/or novel features and why consumers would find your product attractive.</p>
+	</li>
+</ol>
+<p>
+	<br />
+	<strong>Eco-Design and Sustainable Technologies Entries</strong></p>
+<ol>
+	<li>
+		<p>
+			Please provide the product&#39;s technical specifications. Describe the engineering qualities of your product, including the materials, components and processes used to fabricate the product, and how their qualities relate to the product&rsquo;s intended use. Can also be submitted as a PDF, Word, or Excel document, with a limit of one full page of text.</p>
+	</li>
+	<li>
+		<p>
+			Describe your product&#39;s engineering qualities, including the materials, components and processes used to fabricate the product, as well as how they relate to environmental impact and ecological responsibility, emissions reduction, sustainability and smart resource management, recyclability, etc. Please also include details about how the product is transported to market, if applicable.</p>
+	</li>
+	<li>
+		<p>
+			Describe the product&#39;s aesthetic and design qualities, intended use and/or functions, including details about the user value.</p>
+	</li>
+	<li>
+		<p>
+			Describe why your product deserves a 2014 CES Innovations Award. Include specifics regarding your product&#39;s unique and/or novel features and why consumers would find your product attractive.</p>
+	</li>
+</ol>
+<p>
+	<br />
+	<strong>Software &amp; Mobile Apps Entries</strong></p>
+<ol>
+	<li>
+		<p>
+			Describe the software&#39;s intended use and functions, , as well as its distinctive features, including details about user value.</p>
+	</li>
+	<li>
+		<p>
+			Explain the platform(s) on which this software runs,&nbsp;the channel(s) through which it is distributed, and the cost to the user or suggested retail price (if any).</p>
+	</li>
+	<li>
+		<p>
+			Describe how the software enhances the quality of life for the user or those affected by its use, whether through entertainment, productivity, education, or other functions.</p>
+	</li>
+	<li>
+		<p>
+			Describe why your software deserves a 2014 CES Innovations Award. Include specifics regarding its&nbsp;unique and/or novel features, and why consumers would find your software attractive.</p>
+	</li>
+</ol>
+<p>
+	<br />
+	<strong>Tech For A Better World</strong></p>
+<ol>
+	<li>
+		<p>
+			Please provide the product&#39;s technical specifications. Describe the engineering qualities of your product, including the materials, components and processes used to fabricate the product, and how their qualities relate to the product&rsquo;s intended use. Can also be submitted as a PDF, Word, or Excel document, with a limit of one full page of text.</p>
+	</li>
+	<li>
+		<p>
+			Describe your product&#39;s engineering qualities, including the materials, components and processes used to fabricate the product, as well as how they relate to global or community impact and responsibility. How is the quality of life enhanced for the users of this product, or those affected by its use?</p>
+	</li>
+	<li>
+		<p>
+			Describe the product&#39;s aesthetic and design qualities, intended use and/or functions, including details about the user value.</p>
+	</li>
+	<li>
+		<p>
+			Describe why your product deserves a 2014 CES Innovations Award. Include specifics regarding your product&#39;s unique and/or novel features and why consumers would find your product attractive.</p>
+	</li>
+</ol>
+<p>
+	<br />
+	<strong>In-Vehicle Experience</strong></p>
+<ol>
+	<li>
+		<p>
+			Please give an in-depth overview of how the vehicle&rsquo;s cabin or driving experience is enhanced through the use of consumer electronics products or components. What systems are used, and how do they connect with one another, as well as to the vehicle occupants, to create a positive driving experience? This can include, but is in no way limited to, audio/video and entertainment systems, intelligent navigation/maneuvering systems, intelligent cooling and heating systems, heads-up displays, voice control, device connectivity support and integration, and electronic safety components.</p>
+	</li>
+	<li>
+		<p>
+			Expanding on the question above, please provide the technical specifications of the components used in the vehicle&rsquo;s in-cabin systems. Describe the engineering qualities of the components, including materials and processes used to fabricate the components, and how their qualities relate to the intended occupant experience. Can also be submitted as a PDF, Word, or Excel document, with a limit of one full page of text.</p>
+	</li>
+	<li>
+		<p>
+			What innovative solutions have been implemented in this vehicle&rsquo;s cabin design, as related to its electronic components/systems? How do they help the driver or passengers to overcome common challenges?</p>
+	</li>
+	<li>
+		<p>
+			Describe why your vehicle deserves a 2014 CES Innovations Award, including specifics on why consumers would find this vehicle attractive, as well as the driving experience it offers.</p>
+	</li>
+</ol>
+<br />
+
+</p>
+		</div><div id="p_lt_ctl06_pageplaceholder_p_lt_ctl04_WebPartZone_WebPartZone_zone_TabsLayout_tabs_tab4" id="p_lt_ctl06_pageplaceholder_p_lt_ctl04_WebPartZone_WebPartZone_zone_TabsLayout_tabs_tab4" class="ajax__tab_panel" style="display:none;visibility:hidden;">
+			<p>
+  <h2>
+	How We Judge</h2>
+<p>
+	Each product category has a three-member judging team comprised of an independent industrial designer, an independent engineer and a member of the trade press.<br />
+	<br />
+	The three-member judging team gives a numerical value to each of the above criteria. The scores are combined, resulting in a cumulative score for each product. A baseline value is derived from the cumulative scores in a category. All scores above the baseline are designated as honorees.<br />
+	<br />
+	The Best of Innovations Awards will be awarded to the highest-rated product in each category, as long as that product surpasses a previously-determined minimum score. If the highest-rated product in a category does not surpass the minimum score, there will be no Best of Innovations Award for that category. All award designations by our judges are final.</p>
+<p>
+	<br />
+	Entries are evaluated on the following criteria:<br />
+	<br />
+	<strong>General Entries</strong></p>
+<ol>
+	<li>
+		<p>
+			Engineering qualities, based on technical specs and materials used</p>
+	</li>
+	<li>
+		<p>
+			Aesthetic and design qualities, using photos provided</p>
+	</li>
+	<li>
+		<p>
+			The product&#39;s intended use/function and user value</p>
+	</li>
+	<li>
+		<p>
+			Why the product deserves the Innovations award, including specifics regarding its unique/novel features and features that consumers would find attractive</p>
+	</li>
+	<li>
+		<p>
+			How the design and innovation of this product directly compare to other products in the market place</p>
+	</li>
+</ol>
+<p>
+	<strong>Eco-Design and Sustainable Technologies Entries</strong></p>
+<ol>
+	<li>
+		<p>
+			Environmentally friendly engineering qualities, based on technical specs and materials used</p>
+	</li>
+	<li>
+		<p>
+			Environmentally friendly aesthetic and design qualities, using photos provided</p>
+	</li>
+	<li>
+		<p>
+			The product&#39;s intended use/function and user value as it impacts the environment</p>
+	</li>
+	<li>
+		<p>
+			Why the product deserves the Innovations award, including specifics regarding its unique/novel features and features that consumers would find attractive</p>
+	</li>
+	<li>
+		<p>
+			How the design and innovation of this product directly compare to other products in the market place</p>
+	</li>
+</ol>
+<p>
+	<strong>Software &amp; Mobile Apps Entries</strong></p>
+<ol>
+	<li>
+		<p>
+			Intended use, function, and user value</p>
+	</li>
+	<li>
+		<p>
+			Aesthetic and visual qualities, using screenshots or photos provided</p>
+	</li>
+	<li>
+		<p>
+			Perceived ease of use/user-friendliness</p>
+	</li>
+	<li>
+		<p>
+			Why the software deserves the Innovations award, including specifics regarding its unique/novel features and features that consumers would find attractive</p>
+	</li>
+	<li>
+		<p>
+			How the design and innovation of this software directly compare to other products in the market place</p>
+	</li>
+</ol>
+
+</p>
+		</div><div id="p_lt_ctl06_pageplaceholder_p_lt_ctl04_WebPartZone_WebPartZone_zone_TabsLayout_tabs_tab5" id="p_lt_ctl06_pageplaceholder_p_lt_ctl04_WebPartZone_WebPartZone_zone_TabsLayout_tabs_tab5" class="ajax__tab_panel" style="display:none;visibility:hidden;">
+			<p>
+  <h2>
+	What You Get</h2>
+<p>
+	Earning the coveted Innovations Design and Engineering Awards Honoree title provides a fair share of eye-catching benefits, including:</p>
+<ul>
+	<li>
+		<p>
+			2014 Innovations Awards Honoree logo to include on your product packaging and advertising materials</p>
+	</li>
+	<li>
+		<p>
+			Opportunity to display your product in the Innovations Design and Engineering Awards Showcase at the 2014 International CES (for official International CES exhibitors only).&nbsp;</p>
+	</li>
+	<li>
+		<p>
+			Best of Innovations Honorees receive additional exposure in product displays at CES Unveiled NEW YORK and CES Unveiled LAS VEGAS: The Official Media Event of International CES.</p>
+	</li>
+	<li>
+		<p>
+			Innovations Honorees are often featured on the live radio broadcast of &quot;Into Tomorrow&quot; with Dave Graveline. This nationally syndicated consumer electronics radio program features interviews with CEOs, presidents and senior executives from the hottest companies exhibiting at CES live from the show floor. Reserve your International CES broadcast airtime now. Call now to pitch your story.&nbsp;Contact&nbsp;<a href="mailto:horacio@graveline.com" style="border-color: blue; color: blue;" title="mailto:horacio@graveline.com">horacio@graveline.com</a></b>&nbsp;(for official International CES exhibitors only)</p>
+	</li>
+	<li>
+		<p>
+			An eye-catching 2014 Innovations Design and Engineering Awards Honoree plaque to display in your booth and in your company&#39;s trophy case.</p>
+	</li>
+	<li>
+		<p>
+			Listing in the January/February issue of&nbsp;<em>It Is Innovation (i3),&nbsp;</em>CEA&rsquo;s flagship publication distributed to over 64,000 and bonus distribution at the 2014 International CES (for official International CES Exhibitors only).</p>
+	</li>
+	<li>
+		<p>
+			Innovations icon published next to your company listing in the Official CES&nbsp;<em>Show Directory&nbsp;</em>(for official International CES exhibitors only).</p>
+	</li>
+	<li>
+		<p>
+			Industry-wide recognition and media attention through a CEA press release announcing all honorees.</p>
+	</li>
+	<li>
+		<p>
+			Exposure on the official CES website within your respective product category; complete with company name, product images and description. The Innovations pages are among the most heavily-trafficked pages, available year-round on CESweb.org/Innovations.</p>
+	</li>
+	<li>
+		<p>
+			Best of Innovations honorees have the opportunity to display their product at additional CEA events throughout the year.</p>
+	</li>
+	<li>
+		<p>
+			Increased exposure and awareness with advertising opportunities in CEA&#39;s&nbsp;<em>It Is Innovation (i3)</em>&nbsp;magazine. Innovations honorees receive substantial discounts. Contact&nbsp;<a href="mailto:Innovations@CE.org">Innovations@CE.org</a>&nbsp;for more information.</p>
+	</li>
+</ul>
+
+</p>
+		</div><div id="p_lt_ctl06_pageplaceholder_p_lt_ctl04_WebPartZone_WebPartZone_zone_TabsLayout_tabs_tab6" id="p_lt_ctl06_pageplaceholder_p_lt_ctl04_WebPartZone_WebPartZone_zone_TabsLayout_tabs_tab6" class="ajax__tab_panel" style="display:none;visibility:hidden;">
+			<h2>
+	2014 Innovations Awards Judges</h2>
+<p>
+	<strong><img alt="" src="/getmedia/a349147b-5ebf-4b11-8d85-c56c61360731/amg-behind-desk-crop.aspx?width=150&amp;height=177" style="width: 150px; height: 177px; float: left; margin: 10px;" />Adam Goldberg &ndash; AGP, LLC.</strong><br />
+	Adam Goldberg has two decades of experience in various facets of digital television.&nbsp;He has been involved in various digital television and digital telecommunications activities, including the over-the-air digital transition, cable television and home entertainment in general for two decades. &nbsp;In the digital television arena Goldberg has been involved in many areas including receivers,<br />
+	receiver silicon and broadcast equipment.&nbsp;<br />
+	<br />
+	He has held engineering, project management, strategic planning, standards and government relations roles for software vendors, decoder and silicon manufacturers, network and head-end vendors and consumer electronics companies and has spoken world-wide on digital television issues.<br />
+	<br />
+	&nbsp;</p>
+<div align="center">
+	<hr align="center" noshade="noshade" size="2" width="100%" />
+</div>
+<p>
+	&nbsp;<br />
+	<br />
+	<strong><img alt="" src="/getmedia/20ab4695-cfa0-4dd7-b082-31599a2dcac8/DSC02132-AK-Stratton_2.aspx?width=150&amp;height=192" style="width: 150px; height: 192px; float: left; margin: 10px;" />A.K. Stratton &ndash; Helix</strong><br />
+	A.K. Stratton a director, product development at Helix, where he oversees the creative staff of product designers, mechanical engineers, and prototype specialists. Stratton is responsible for all aspects of the design process, from conceptualization to production procurement. He enjoys working with team members of all levels, mentoring younger staff, and fostering strong client relationships.<br />
+	<br />
+	He is an accomplished designer and team leader utilizing conceptual problem solving, detailed design, and production implementation for manufacturers of new products. His design recommendations have contributed to many successful products now on the market for companies including Kodak, Segway, Vgo Communications, Harris, and DeLORME.<br />
+	&nbsp;<br />
+	Stratton gained valuable experience as a designer for fast-paced industrial design consulting firms such as Loeffler-MacConkey, Michael Cattafe Assoc., S+H Diagnostics, and Helix. While at Helix, he successfully transitioned into design management and has played a key role in developing client relationships, guiding teams, and developing successful products. His passion and drive have helped Helix to achieve multiple design awards in his 15 years with the company.<br />
+	&nbsp;<br />
+	&nbsp;</p>
+<div align="center">
+	<hr align="center" noshade="noshade" size="2" width="100%" />
+</div>
+<p>
+	&nbsp;<br />
+	<br />
+	<strong><img alt="" src="/getmedia/6161981a-f682-4f6a-a402-4a83607a0d53/Adrian_White_Small.aspx?width=160&amp;height=170" style="width: 160px; height: 170px; float: left; margin: 10px;" />Adrian Chernoff &ndash; Wilshire Media Group </strong><br />
+	Adrian Chernoff helps organizations articulate new products and deliver what&#39;s next. Beginning from consumer insight and idea simplification to&nbsp;sell-in and execution across organizations, Chernoff brings together executives,&nbsp;designers,&nbsp;engineers and marketers to make it possible.&nbsp;Honored with over 20 awards and 89 patents, he has made an impact by inventing future transpiration at General Motors,&nbsp;creating medical robots at NASA,&nbsp;launching consumer digital products at Kodak and engineering new theme park rides at Disney.<br />
+	<br />
+	As a consultant he has innovated office products for Staples, developed luxury solutions&nbsp;for&nbsp;the The Gucci Group, engineered modular roofing systems for Alcoa and created digital solutions for&nbsp;Experian.&nbsp;His work has been awarded both nationally and internationally including one of <em>Time</em> magazine&rsquo;s best inventions of the year and General Motors Chairman&rsquo;s Honor Award for superior creativity and exemplary contribution.<br />
+	<br />
+	&nbsp;</p>
+<div align="center">
+	<hr align="center" noshade="noshade" size="2" width="100%" />
+</div>
+<p>
+	&nbsp;<br />
+	<br />
+	<strong><img alt="" src="/getmedia/328876c6-b7cc-45f5-b7c5-48a996595d2e/Assaf-Gad.aspx?width=150&amp;height=176" style="width: 150px; height: 176px; float: left; margin: 10px;" />Assaf Gad &ndash; PointGrab </strong><br />
+	Assaf Gad has over 12 years of experience in the field of product management, marketing and user experience, with in-depth focus on consumer products.<br />
+	<br />
+	Before joining PointGrab, Gad led the product management and marketing OEM departments at Powermat Technologies, a leader provider of wireless power solutions for consumer electronics products. Prior to that, he was heading the product management at Modu Mobile. Earlier in his career, he served as head of product management at Telmap Ltd. (acquired by Intel), a leading provider of location-based services.<br />
+	<br />
+	His past roles include development positions in mobile and Internet startups and as a research assistant with Professors Schocken Shimon and Nisan Noam at The Interdisciplinary Center (IDC) Herzliya.<br />
+	<br />
+	Gad holds a bachelor&rsquo;s degree in computer science from The Interdisciplinary Center (IDC) Herzliya.<br />
+	<br />
+	&nbsp;</p>
+<div align="center">
+	<hr align="center" noshade="noshade" size="2" width="100%" />
+</div>
+<p>
+	&nbsp;<br />
+	<br />
+	<strong><img alt="" src="/getmedia/ae49a4f5-b9ec-4e70-b920-6349e9a9f776/a-greengart-j.aspx?width=150&amp;height=198" style="width: 150px; height: 198px; float: left; margin: 10px;" />Avi Greengart &ndash; Current Analysis </strong><br />
+	Avi Greengart is the research director, consumer platforms &amp; devices at Current Analysis. Greengart manages two complimentary services covering the world of consumer devices: COMPETE (global analysis on mobile platforms, phones, tablets, wearables, and devices in the digital home) and CurrentTrack (U.S. phone and tablet pricing and data trend analysis).<br />
+	<br />
+	Prior to Current Analysis, Greengart spent two years as a senior analyst at Jupiter Research, six years as a senior product marketing manager at Intel, and a few years in marketing, product management, and user interface design for Flash Creative Management, a boutique database consultancy. Greengart is quoted regularly by the media, is a noted speaker and moderator at industry events, and writes a regular column for <em>techpinions.com.</em><br />
+	<br />
+	&nbsp;</p>
+<div align="center">
+	<hr align="center" noshade="noshade" size="2" width="100%" />
+</div>
+<p>
+	&nbsp;<br />
+	<br />
+	<strong><img alt="" src="/getmedia/b25044cc-fd53-45c6-885d-a2113ac64457/benjamin-chia.aspx?width=150&amp;height=200" style="width: 150px; height: 200px; float: left; margin: 10px;" />Benjamin Chia &ndash; elemental8 </strong><br />
+	Benjamin Chia is the chief creative officer (CCO) and co-founder of elemental8. He is an experienced and multi-faceted industrial designer capable in all phases of the design process. As CCO, he directs the creative staff and develops new business potentials.&nbsp;<br />
+	<br />
+	Chia designs have been recognized with numerous design awards from <em>BusinessWeek</em>/Industrial Design Excellence Awards (IDEA), Good Design Awards, <em>ID Magazine</em> Design Annual, and others. His work can be seen at permanent collections at the New York Museum of Modern Art, San Francisco Museum of Modern Art, and the National Archives in Washington, DC.<br />
+	<br />
+	Since 2000, Chia has been teaching at Stanford University, Academy of Art College, San Francisco State University, and San Jose State University, focusing on design process, strategy, and application.&nbsp;<br />
+	<br />
+	&nbsp;</p>
+<div align="center">
+	<hr align="center" noshade="noshade" size="2" width="100%" />
+</div>
+<p>
+	&nbsp;<br />
+	<br />
+	<strong><img alt="" src="/getmedia/7c2a3a13-fc27-4366-908d-325360b3d9bb/Bill-Clem,IDSA.aspx?width=160&amp;height=160" style="width: 160px; height: 160px; float: left; margin: 10px;" />Bill Clem &ndash; KERBspace</strong><br />
+	A passionate and empathetic design leader, Bill Clem has curated an amazingly diverse portfolio of projects, industries and technologies. His designs include open heart surgery, automotive interiors, office seating, portable stereo speakers, mobile data devices used in explosive environments, children&rsquo;s shoes, dog toys, industrial solar power generation, personal computers, scientific laser instruments, fitness equipment and personal electric vehicles.<br />
+	<br />
+	Some of the projects he&rsquo;s most enthralled with include the design for the original Battle Star Galactica theme ride, an Atrial heart valve delivered through a stent, a product to map the human brain to determine the location and type of stroke and an interactive curb side way-finding platform for his new company, KERBspace. Clem focuses on creating, inventing and delivering amazing customer experiences through passionate customer advocacy by using design as the foundation of disruptive thought.<br />
+	<br />
+	&nbsp;</p>
+<div align="center">
+	<hr align="center" noshade="noshade" size="2" width="100%" />
+</div>
+<p>
+	&nbsp;<br />
+	<br />
+	<strong><img alt="" src="/CES/media/2014/Innovation%20Awards/2014%20Judges/chris_kraeutle.jpg?width=150&amp;height=216" style="width: 150px; height: 216px; float: left; margin: 10px;" />Chris Kraeutle &ndash; AmazonLab126 </strong><br />
+	Chris Kraeutle graduated from the University of Cincinnati with a degree in industrial design, and for the past 20 years has been designing consumer electronics products for high-volume manufacturing. Most of his work has centered on bringing handheld products to market from original idea through architectural studies and engineering builds to mass production.<br />
+	<br />
+	Some of his work includes smartphones, laptops, desktop computers, toys, networking equipment, home appliances, tablets and e-readers. Kraeutle&rsquo;s most enjoyable part of the creative process is the early ideation phases of product development; the art of continually pulling together the latest and greatest technologies in conjunction with elegant forms continues to be challenging and inspirational work. Today, his team is building deeper and deeper customer experiences at Amazon within the Kindle brand of products.<br />
+	<br />
+	&nbsp;</p>
+<div align="center">
+	<hr align="center" noshade="noshade" size="2" width="100%" />
+</div>
+<p>
+	&nbsp;<br />
+	<br />
+	<strong><img alt="" src="/getmedia/53f71b09-3df5-43d1-9c1a-a8e96eae273f/CR_talk_white.aspx?width=150&amp;height=225" style="width: 150px; height: 225px; float: left; margin: 10px;" />Christophe Ramstein &ndash; Strategic Polymers Inc.</strong><br />
+	Dr. Christophe Ramstein is an expert in haptic and sensory technologies, and has spent his career developing and bringing to market technologies that improve device design, humanize, and enhance user experience. He holds a doctorate in applied mathematics from the Polytechnic Institute in France and has authored over 40 patents and papers during the course of his 20+ year career.<br />
+	<br />
+	Formerly, Ramstein was CTO of Immersion Corp., president and CEO of Haptic Technologies (acquired by Immersion), and has held senior management positions at Immersion Medical and Industry Canada.<br />
+	<br />
+	<br />
+	&nbsp;</p>
+<div align="center">
+	<hr align="center" noshade="noshade" size="2" width="100%" />
+</div>
+<p>
+	&nbsp;<br />
+	<br />
+	<strong><img alt="" src="/getmedia/cf532d7a-f375-4aff-9986-0ef7e19db52b/Stevens02.aspx?width=150&amp;height=224" style="width: 150px; height: 224px; float: left; margin: 10px;" />Clarke Stevens &ndash; CableLabs </strong><br />
+	Clarke Stevens is principal architect of Advanced Platforms and Services at CableLabs. Stevens is responsible for the architecture of home networking, IP video, and video through web browsers as well as other advanced cable services as they cross traditional product boundaries. He also represents CableLabs in various standards development organizations. He is on the board of directors of Universal Plug-n-Play Forum and chairs the Technical Committee. He is also the moderator of the Web &amp; TV Testing Task Force in the World Wide Web Consortium.<br />
+	<br />
+	Prior to CableLabs, Stevens worked in engineering, research, product management and strategy involving digital media and communications at MediaOne, SonicBlue and Qwest.&nbsp; He built the world&rsquo;s largest subwoofer and has 18 issued patents.<br />
+	In his spare time, he designs and builds home recording studios, theaters and other custom home improvements. He holds MSEE degrees from Brigham Young University and Georgia Tech and an MBA from the University of Colorado.<br />
+	<br />
+	&nbsp;</p>
+<div align="center">
+	<hr align="center" noshade="noshade" size="2" width="100%" />
+</div>
+<p>
+	&nbsp;<br />
+	<br />
+	<strong><img alt="" src="/getmedia/96f11025-d77a-4fbb-94d0-7eb2b3b658dd/big-dt-headshot.aspx?width=150&amp;height=210" style="width: 150px; height: 210px; float: left; margin: 10px;" />Dave Taylor &ndash; AskDaveTaylor.com </strong><br />
+	Dave Taylor is a nationally recognized expert on consumer electronics and technology and the editorial director of <em>AskDaveTaylor.com</em>, a busy online site that offers tech support and reviews of gadgets, gizmos and technology. He&#39;s written 21 books, is a contributor to both the Consumer Electronics Association (CEA)&reg; website and <em>ScienceFiction.com</em>, and is an award-winning speaker on parenting and business topics.<br />
+	<br />
+	He is based in Boulder, CO.<br />
+	<br />
+	&nbsp;</p>
+<div align="center">
+	<hr align="center" noshade="noshade" size="2" width="100%" />
+</div>
+<p>
+	&nbsp;<br />
+	<br />
+	<strong><img alt="" src="/getmedia/844ef77a-e985-41d0-8b0c-8b7d573005cf/DE-Headshot.aspx?width=160&amp;height=160" style="width: 160px; height: 160px; float: left; margin: 10px;" />David Elrich &ndash; DigitalTrends.com </strong><br />
+	David Elrich is a writer and editor covering a wide spectrum of consumer electronics (CE) technology since 1985 for some of country&rsquo;s top publications&mdash;print and online. He was a founder of the one of the first CE sites&mdash;<em>etown.com</em>&mdash;in 1996. Over the past years he has developed extensive expertise in the consumer digital imaging space as an editor and reviewer. This was a natural as he cut his photographic teeth with Pentax and Nikon 35mm DSLRs back in the day&mdash;and progressed to digital along with the industry. Elrich frequently reviews cameras and camcorders for DigitalTrends.com.<br />
+	<br />
+	Although he has a heavy emphasis on digital imaging, he also covers home theater including flat-panel HDTVs and many other CE categories such as tablets and accessories. He is a member of the Academy of Digital Television Pioneers. He writes for <em>TWICE</em>, the top CE trade magazine and was also a contributing editor to <em>Metropolitan Home</em> and wrote for many top print publications including the <em>New York Times</em> and <em>InStyle.</em><br />
+	<br />
+	&nbsp;</p>
+<div align="center">
+	<hr align="center" noshade="noshade" size="2" width="100%" />
+</div>
+<p>
+	&nbsp;<br />
+	<br />
+	<strong><img alt="" src="/getmedia/2c43fa38-e286-4fb0-b8d4-68674260d969/CES-2013b.aspx?width=150&amp;height=225" style="width: 150px; height: 225px; float: left; margin: 10px;" />David Kaiser &ndash; Spark Design </strong><br />
+	David Kaiser is president of Spark Design, a full service product development consultant firm located in central CT. He has over 25 years of consultancy experience, over 70 design and utility patents and has been awarded over 20 design awards.<br />
+	<br />
+	He received a bachelor&rsquo;s degree in industrial design in 1972 and a MBM in business management in 2000. Along with the other principals of Spark Design, Kaiser specializes in creative product design solutions for domestic and international clients.<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	&nbsp;</p>
+<div align="center">
+	<hr align="center" noshade="noshade" size="2" width="100%" />
+</div>
+<p>
+	&nbsp;<br />
+	<img alt="" src="/getmedia/05a18a6f-10b1-45ad-b342-e5d6d444bbeb/Dick_De_Jong.aspx?width=150&amp;height=159" style="width: 150px; height: 159px; float: left; margin: 10px;" /><strong>Dick De Jong &ndash; HDTVSolutions.com </strong><br />
+	As editor of HDTVSolutions.com, Dick De Jong has reviewed a wide range of AV products and has written numerous commentaries about the state of the consumer television industry. Since receiving a master&rsquo;s degree in instructional design and technology, De Jong&rsquo;s diverse career includes stints as university instructor, art gallery owner, video producer, magazine editor and publisher.<br />
+	<br />
+	&nbsp;</p>
+<div align="center">
+	<hr align="center" noshade="noshade" size="2" width="100%" />
+</div>
+<p>
+	&nbsp;<br />
+	<br />
+	<strong><img alt="" src="/getmedia/25939a97-315b-4b69-9e40-e476bcefc4e8/Don-Koehler-headshot-2014.aspx?width=150&amp;height=210" style="width: 150px; height: 210px; float: left; margin: 10px;" />Don Koehler &ndash; U.S. Naval Personnel Command </strong><br />
+	Don Koehler is Web manager and sharepoint developer for the Bureau of Naval Personnel at the U.S. Navy&rsquo;s operation in Millington, TN.&nbsp; He is also a technology consultant for small and medium-sized companies, as well as a tech advisor for the U.S. government on technology that best suits their business and operational needs.&nbsp; His clients include major transportation firms, international trade players, the U.S. Navy and the Department of Commerce.<br />
+	<br />
+	Koehler has been deeply involved in technology for over 26 years.&nbsp; From his first sale of a newly-released MacIntosh&nbsp; (when the Mac line was so new that Apple&rsquo;s tech crew actually signed the inside of each new computer case before leaving the assembly line) to advising public and private sector clients today on current product selection. He has witnessed exponential tech changes along the way.&nbsp; He currently researches, tests, and recommends everything from networking and computer systems, to the latest GPS units, radio technology, digital cameras and video, smartphones and tablets.<br />
+	&nbsp;<br />
+	Koehler and his wife live in Memphis, TN with their three children (all four-legged felines). He enjoys nature and wildlife photography, photo restoration, and serving as family historian.<br />
+	<br />
+	&nbsp;</p>
+<div align="center">
+	<hr align="center" noshade="noshade" size="2" width="100%" />
+</div>
+<p>
+	&nbsp;<br />
+	<br />
+	<strong><img alt="" src="/getmedia/75ee079a-b65d-4e7a-8540-d8a369ec1635/DW-Good.aspx?width=150&amp;height=183" style="width: 150px; height: 183px; float: left; margin: 10px;" />Duncan Wood &ndash; TCT + Personalize </strong><br />
+	Duncan Wood has been involved in the 3D printing world for 16 years since working on rapid prototyping magazine&nbsp;<em>Rapid News&nbsp;</em>back in the late &rsquo;90s. &nbsp;After a three year sabbatical as a&nbsp;sales manager for then startup, Pure Insight, a&nbsp;provider of professional development solutions to help Innovation&nbsp;professionals,&nbsp;Duncan returned to the 3D printing world to&nbsp;oversee the&nbsp;<em>Rapid News</em>&nbsp;evolution into <em>TCT </em>magazine in 2005. He&nbsp;built the magazine into the leading 3D&nbsp;printing publication on the planet and assumed the role of publisher in 2010.<br />
+	<br />
+	He also serves as event director for TCT Show, the world&#39;s largest dedicated 3D printing exhibition and conference, taking place annually in the UK.&nbsp;In 16 years he has witnessed mergers, acquisitions, hype beyond hype, and a thousand &quot;next big things&quot; in 3D printing―he remains both optimistic and realistic about the impact of this technology on the world.<br />
+	<br />
+	&nbsp;</p>
+<div align="center">
+	<hr align="center" noshade="noshade" size="2" width="100%" />
+</div>
+<p>
+	&nbsp;<br />
+	<br />
+	<strong><img alt="" src="/getmedia/a0520348-dfe7-47f7-b442-116e7f74dc9c/fernd_vanengelen_formal.aspx?width=150&amp;height=184" style="width: 150px; height: 184px; float: left; margin: 10px;" />Fernd van Engelen &ndash; Artefact </strong><br />
+	Fernd van Engelen leads the industrial design practice at Artefact. With more than 25 years of corporate and consulting experience, he is an accomplished industrial design leader whose work spans consumer, medical and technology segments and highlights the evolving role of industrial design in the digital age.&nbsp;<br />
+	<br />
+	Throughout his career van Engelen has been passionate about delivering beautifully crafted products and experiences that meet real world needs. He believes that designers have a responsibility to improve people&#39;s lives and that products ought to &ldquo;earn their place in the world&rdquo; by addressing real needs and making tangible impact.&nbsp;<br />
+	<br />
+	Driven by that passion, he has built a track record of successful programs and strong client partnerships with emerging companies and market leaders like Samsung, Microsoft, Intel, Braun and Panasonic. His work has been honored with more than 50 design awards including IDSA, <em>ID</em> magazine, Red Dot and iF.<br />
+	<br />
+	van Engelen studied in the Netherlands and Canada and holds both a bachelor&rsquo;s degree in biology and a MEDes in industrial design. He started his career at NovAtel in Calgary and at Technology Design in Seattle. He was a design director at Teague and, before Artefact, was a principal and head of design at Carbon Design Group.<br />
+	<br />
+	&nbsp;</p>
+<div align="center">
+	<hr align="center" noshade="noshade" size="2" width="100%" />
+</div>
+<p>
+	&nbsp;<br />
+	<br />
+	<strong><img alt="" src="/getmedia/fa3f9466-abfe-4d3e-bcdb-caba96768687/jeff_mulhausen.aspx?width=150&amp;height=203" style="width: 150px; height: 203px; float: left; margin: 10px;" />Jeff Mulhausen &ndash; UPSTREAM </strong><br />
+	Jeff Mulhausen is an American industrial designer widely recognized in the industry over the past 15 years.&nbsp; He has led teams and engagements across a variety of consumer categories and has received over 15 international design awards including CES Innovation Awards in 2007 and 2008.&nbsp; His work has been exhibited at the Austin Museum of Art, and as part of the&nbsp;<em>Design for the Other 90%</em>&nbsp;exhibit at the Cooper-Hewitt National Design Museum in New York City.&nbsp; Mulhausen now leads the firm UPSTREAM in Austin, TX, which partners with organizations to deliver broader market and social impact through the application of design tools and methodologies.<br />
+	<br />
+	<br />
+	&nbsp;</p>
+<div align="center">
+	<hr align="center" noshade="noshade" size="2" width="100%" />
+</div>
+<p>
+	&nbsp;<br />
+	<br />
+	<strong><img alt="" src="/getmedia/cf8471af-99b0-4f18-b002-6ed34c2465fb/J-photo-2.aspx?width=150&amp;height=225" style="width: 150px; height: 225px; float: left; margin: 10px;" />Jeremy Horwitz &ndash; iLounge </strong><br />
+	Jeremy Horwitz is editor-in-chief of iLounge, the leading independent authority on Apple&#39;s iPad&reg;, iPhone&reg;, iPod&reg;, and iTunes products. Responsible for testing and reviewing thousands of accessories, games, and applications since iLounge&#39;s founding in 2001, he also authors iLounge&#39;s annual <em>Buyers&#39; Guides</em>, the world&#39;s most widely-read publications devoted to Apple&#39;s products. In 2009, he partnered with CEA to create the iLounge Pavilion, an Apple-focused exhibition area at CES, which quickly became the show&#39;s largest TechZone.<br />
+	<br />
+	Before joining iLounge, Horwitz contributed to numerous publications including <em>The New York</em> <em>Times</em>, <em>GamePro</em>, <em>Basketball Digest</em>, and <em>Soccer Digest</em>, and created the first Internet-based video game magazine, Ziff-Davis&#39;s <em>Intelligent Gamer</em>. He previously worked as an intellectual property lawyer, holding a law degree from Cornell University (law degree, <em>cum laude</em>, 2001), as well as degrees from Canisius College (MBA, 1998) and the University of Buffalo (bachelor&rsquo;s degree, 1996).<br />
+	<br />
+	&nbsp;</p>
+<div align="center">
+	<hr align="center" noshade="noshade" size="2" width="100%" />
+</div>
+<p>
+	&nbsp;<br />
+	<br />
+	<strong><img alt="" src="/getmedia/d85c409e-b55b-47e8-ad8d-175359bae423/JonathanRoubini.aspx?width=150&amp;height=196" style="width: 150px; height: 196px; float: left; margin: 10px;" />Jonathan Roubini &ndash; Lab Reviews </strong><br />
+	Jonathan Roubini was born in Milan, Italy, where he began his career as contributing editor to Italy&#39;s leading technology magazine. He soon moved to the U.S., where he graduated from Carnegie Mellon University with a degree in Information and Decision Systems. He then began his career at <em>PC Magazine</em>, where he worked as software project leader and pioneered testing techniques for software packages. Jonathan was in charge of directing all lab work for <em>PC Magazine&rsquo;s</em> blockbuster Windows XP cover story, featuring the largest set of independent tests ever performed on the Microsoft OS. He later stepped up as lead analyst of the mobile category. Roubini&rsquo;s groundbreaking work in technology journalism has been acclaimed by top leading experts, including Bill Gates.<br />
+	<br />
+	Roubini&rsquo;s expertise covers all kinds of modern gadgets, computers, tablets, smartphones, appliances and software. He is currently the editor in chief of <em>Lab Reviews</em> and has appeared as a leading technology expert on CNN Headline News, NBC, <em>LA Times</em>, BBC World, RAI, and other television stations. He also serves regularly as a judge for several international awards programs. He was recently awarded the coveted PRSA Award for Excellence in Technology Journalism.<br />
+	<br />
+	&nbsp;</p>
+<div align="center">
+	<hr align="center" noshade="noshade" size="2" width="100%" />
+</div>
+<p>
+	&nbsp;<br />
+	<br />
+	<strong><img alt="" src="/getmedia/a1176644-0560-4444-bcb1-bddacd8854f4/JCP-3-cropped.aspx?width=150&amp;height=192" style="width: 150px; height: 192px; float: left; margin: 10px;" />Jules Egyud &ndash; Top-Shelf Consulting LLC </strong><br />
+	Jules Egyud has over 30 years of experience in the consumer electronics (CE) industry as an engineer and an executive. He is currently an independent consultant, helping CE companies plan and realize their next generations of products. Previously, Egyud was the vice president of engineering at Altec Lansing, the company that pioneered the first iPod&trade; and iPhone&trade; speaker docks. As vice president of engineering, he was responsible for all engineering, program management, and quality assurance activities in the US, Hong Kong, China, and Australia.<br />
+	<br />
+	Prior to joining Altec, he was the vice president, engineering at Digital 5, a high-tech startup specializing in digital multimedia products and technologies for the connected home. The company pioneered streaming technology that enabled several of the industry&rsquo;s first DLNA-compliant consumer products to come to market.<br />
+	<br />
+	Prior to Digital 5, Egyud was director, software engineering for Franklin Electronic Publishers, makers of the first portable handheld electronic reference products. These products included the famous Franklin Spelling Ace, as well as electronic bibles, speaking dictionaries and translators. Franklin became one of the early pioneers of the e-book industry.<br />
+	<br />
+	Egyud holds a bachelor&rsquo;s degree in computer science from SUNY at Stony Brook.<br />
+	<br />
+	&nbsp;</p>
+<div align="center">
+	<hr align="center" noshade="noshade" size="2" width="100%" />
+</div>
+<p>
+	&nbsp;<br />
+	<br />
+	<strong><img alt="" src="/getmedia/306738ce-9b04-4c37-806e-114fb6ee33a5/KarimHouni_BW.aspx?width=150&amp;height=185" style="width: 150px; height: 185px; float: left; margin: 10px;" />Karim Houni &ndash; SEB Group </strong><br />
+	Karim Houni is senior innovation project leader on Smart Home and Internet of Things at SEB Group, world leader in small domestic appliances. From 2003 to 2006, he was working at Orange Labs, from 2006 to 2008 he worked at Telecom Lille Engineering School, and from 2008 to 2012 at Atos Worldline R&amp;D Department.<br />
+	<br />
+	He received his doctoral degree in 2008 in information and communication technologies, &nbsp;and a master&rsquo;s &nbsp;degree in 2002 in electrical engineering and signal processing from the National Institute of Applied Sciences of Lyon, France.&nbsp;<br />
+	<br />
+	His works and interests include user experience, mobility, Internet of things, smart home, and more generally innovation management and digital&nbsp;empowerment.<br />
+	<br />
+	&nbsp;</p>
+<div align="center">
+	<hr align="center" noshade="noshade" size="2" width="100%" />
+</div>
+<p>
+	&nbsp;<br />
+	<br />
+	<strong><img alt="" src="/getmedia/b13400e6-2864-4d13-bf9f-9387642661d0/Kevin-Miller-good.aspx?width=150&amp;height=200" style="width: 150px; height: 200px; float: left; margin: 10px;" />Kevin Miller &ndash; ISFTV </strong><br />
+	Kevin Miller is the owner of ISFTV, a Display Product Development Consulting company to the industry&rsquo;s leading television and video source manufacturers. ISFTV has also been providing professional calibration services to post-production companies, A/V Dealers, and consumers since 1994.<br />
+	<br />
+	Miller is also the Co-Founder of TweakTV, an online publication dedicated to informing consumers about the latest developments in HDTV, and providing in depth technical reviews of the latest HDTVs.<br />
+	<br />
+	Miller started in the Audio/Video industry in the late 1980&rsquo;s as the Managing Editor and later the Publisher of The Perfect Vision magazine. As the Publisher of TPV, Miller introduced the concept of TV calibration in 1990 to the consumer public.<br />
+	<br />
+	From 1994 to 1997, Miller was a partner in Total Media Systems, a home theater <a href="http://www.tweaktv.com/">custom</a> installation business in New York. He then took a position as the Marketing Director for Runco International from May of 1997 to April of 1999. Until the fall of 2009, Miller was a senior editor at CNET.<br />
+	<br />
+	Kevin Miller is a charter member of the Imaging Science Foundation. He is also a member of SMPTE (Society of Motion Picture and Television Engineers), and has been a co-instructor for the ISF seminars since 2001, currently also teaching Level I and II ISF courses.<br />
+	<br />
+	&nbsp;</p>
+<div align="center">
+	<hr align="center" noshade="noshade" size="2" width="100%" />
+</div>
+<p>
+	&nbsp;<br />
+	<br />
+	<strong><img alt="" src="/getmedia/ec7f6c51-b029-4c3a-8873-1f8c4f77bbfc/DSCN1399.aspx?width=150&amp;height=200" style="width: 150px; height: 200px; float: left; margin: 10px;" />Klaas Gootjes &ndash; Gootjes Project Onwikkeling </strong><br />
+	Klaas Gootjes is&nbsp;owner and CEO of GPO, CEO and founder of the Q Company Group (Q Chip, CSI, My-112.eu, PRDG).He has more than 38 years of extensive experience building and implementation strategy. His specialties include e-commerce B2B/B2C/C2C/V2V/V2X and IT systems &nbsp;for Fortune 500 companies and midsize market consulting clients throughout Europe and the &nbsp;U.S., including IBM, Capgemini, Ford, VW KLM, MSD, Alcatel, and Liebherr.<br />
+	<br />
+	His innovation and visionary skills with management, marketing, economics and sales background encompasses many business sectors, including the automotive car and truck industry, government agencies and consumer hardware and software manufactures, among others. Prior to Q Company, Gootjes served as vice president, &nbsp;business development and marketing at Global Radio S.A. Luxemburg (1999-2004), and European sales director Web and IT at MSX International (1994-1999). He was educated at IVA Institute for Automotive &amp; Management in Driebergen/NL and is a graduate of Cambridge University in digital economy.<br />
+	<br />
+	&nbsp;</p>
+<div align="center">
+	<hr align="center" noshade="noshade" size="2" width="100%" />
+</div>
+<p>
+	&nbsp;<br />
+	<br />
+	<strong><img alt="" src="/CES/media/2014/Innovation%20Awards/2014%20Judges/LaurieOrlov140.jpg" style="width: 150px; height: 187px; float: left; margin: 10px;" />Laurie Orlov &ndash; Aging in Place Technology Watch </strong><br />
+	Laurie Orlov is the founder of&nbsp;Aging in Place Technology Watch, a market research firm that provides thought leadership, analysis, and guidance about technologies. In her previous career, Orlov spent more than 30 years in the technology industry, including 24 years in IT and nine years as a leading industry analyst at Forrester Research. While there, she was often the first in the industry to identify technology trends and management strategies, which have survived the test of time.<br />
+	<br />
+	She has spoken regularly and delivered keynote speeches at forums, industry consortia, conferences, and symposia, most recently on the business of technology for boomers and seniors. Her perspectives have been quoted in <em>Business Week, Forbes, Kiplinger</em>, the <em>Toronto Star,</em> and the <em>New York Times</em>.&nbsp; She has been profiled in the <em>New York</em> <em>Times</em> and the <em>Huffington Post</em>. She has a graduate certification in Geriatric Care Management from the University of Florida and a BA in Music from the University of Rochester. Laurie has consulted to AARP and is a participating expert on the Think Tank for The Philips Center for Health and Well-Being.&nbsp;Clients have included AARP, Microsoft, Novartis, J&amp;J, United Heathcare, Yahoo! and Philips.&nbsp;<br />
+	<br />
+	&nbsp;</p>
+<div align="center">
+	<hr align="center" noshade="noshade" size="2" width="100%" />
+</div>
+<p>
+	&nbsp;<br />
+	<br />
+	<strong><img alt="" src="/getmedia/ced7133d-c5e9-470e-9a44-ce569d6a09ca/Lawrence-Kraman.aspx?width=160&amp;height=136" style="width: 160px; height: 136px; float: left; margin: 10px;" />Lawrence Kraman &ndash; Newport Classic </strong><br />
+	Lawrence Kraman, the founder of Newport Classic, has been one of the most successful independent American classical CD companies for 28 years. Kraman has been producer and/or engineer of more than 250 CDs, with repertoire ranging from modern orchestra to period instrument ensembles, electronica, jazz and comedy.<br />
+	<br />
+	He was vice president for international product development for Sony Classical. Recently migrating to the visual arts, he executive produced&nbsp;<em>PDQ Bach </em>in&nbsp;Houston for Acorn Media; as well as producing and directing the critically acclaimed DVD of Carlisle Floyd&#39;s opera <em>Willie Stark</em>, which had its broadcast debut in June 2008 on Louisiana Public Television, and a ten DVD set of concerts from The Newport Music Festival 2007. &nbsp;His film, <em>David Amram: The First 80 Years</em>, had its world premiere as a part of the Pete and Toshi Seeger The Power Of Song award ceremony and concert at Symphony Space in New York City in November 2012.<br />
+	<br />
+	His latest film, <em>The Face On The Barroom Floor&hellip;the poem&hellip;the place&hellip;the OPERA</em> had premiered in June 2013 in Central City, CO. He is currently filming <em>Full Disclosure</em>, a documentary about the growing worldwide movement towards honesty and transparency in medical malpractice.<br />
+	<br />
+	&nbsp;</p>
+<div align="center">
+	<hr align="center" noshade="noshade" size="2" width="100%" />
+</div>
+<p>
+	&nbsp;<br />
+	<br />
+	<strong><img alt="" src="/getmedia/a0a3ff20-7291-46b4-a9cc-c7ce0add8a97/LJ_form_white.aspx?width=150&amp;height=225" style="width: 150px; height: 225px; float: left; margin: 10px;" />Li Jiang &ndash; Strategic Polymer Sciences (SPS) </strong><br />
+	Dr. Li Jiang is an expert with 10+ years&rsquo; experience developing new Haptic, touch, and robotic technologies at companies such as Apple and Immersion Corporation. At Apple, he was part of an elite team who developed innovative products such as the iPhone&reg; and iPod&reg; multi-touch screen and Magic Mouse. He has also held positions at companies such as Honda and Panasonic, and has proven expertise in consumer electronics and robotic technologies. &nbsp;<br />
+	<br />
+	Jiang holds doctoral degree in mechanical engineering with a doctoral minor in management science from Stanford University.<br />
+	<br />
+	&nbsp;</p>
+<div align="center">
+	<hr align="center" noshade="noshade" size="2" width="100%" />
+</div>
+<p>
+	&nbsp;<br />
+	<br />
+	<strong><img alt="" src="/getmedia/9b46abbb-6cca-4ec7-9efe-af134ad95109/1_IMG_8098_close_crop_smaller.aspx?width=150&amp;height=191" style="width: 150px; height: 191px; float: left; margin: 10px;" />Margret Schmidt &ndash; TiVo </strong><br />
+	Margret Schmidt has been with TiVo since 2001 and is TiVo&#39;s chief design officer, and vice president of design and engineering.&nbsp; She is responsible for the design and development of all domestic and international TiVo products, including DVR and set-top box software, mobile and W and the TiVo Service.&nbsp;<br />
+	<br />
+	She has a 2006 Primetime Emmy&reg; Award for Outstanding Achievement in Interactive Television, and was named one of the Most Powerful Women in Cable (Top Women in CableTech list) in 2010, 2011, and 2012 by<em> CableFAX</em> magazine.&nbsp; She is a 2013 YWCA Silicon Valley Tribute to Women Honoree, and one of <em>Silicon Valley Business Journal&#39;s</em> Women of Influence 2013.&nbsp; She speaks on design culture and process and TV user experience.&nbsp; Follow her on Twitter at @tivodesign.<br />
+	&nbsp;<br />
+	Schmidt holds a bachelor&rsquo;s degree in electrical engineering and computer science from U.C. Berkeley.&nbsp;<br />
+	<br />
+	&nbsp;</p>
+<div align="center">
+	<hr align="center" noshade="noshade" size="2" width="100%" />
+</div>
+<p>
+	&nbsp;<br />
+	<br />
+	<strong><img alt="" src="/getmedia/af64e7af-9665-4612-a7ec-f81aa1c5a317/_MG_3011final_crop.aspx?width=160&amp;height=160" style="width: 160px; height: 160px; float: left; margin: 10px;" />Micah Abrams &ndash; Digital Trends </strong><br />
+	Micah Abrams is the editor-In-chief of <em>Digital Trends</em>, a position he earned by proving to be the closest thing to an &quot;average consumer&quot; the site has ever come across. He&#39;s obsessed with making tech entertaining for his hip Brooklyn neighbors, accessible to the New York cab drivers who try to kill him every week, and interesting to everyone in between. Prior to joining Digital Trends, Abrams was an editor at <em>ESPN.com</em> and in 2008 he received a Sports Emmy for his work on <em>NBCOlympics.com.</em><br />
+	<br />
+	&nbsp;</p>
+<div align="center">
+	<hr align="center" noshade="noshade" size="2" width="100%" />
+</div>
+<p>
+	&nbsp;<br />
+	<br />
+	<strong><img alt="" src="/getmedia/92f7daf0-777e-411d-88b8-30f3e4b21f40/03_04_Winter_MichaelKaufman_KayleighSmith_1-62.aspx?width=150&amp;height=187" style="width: 150px; height: 187px; float: left; margin: 10px;" />Michael Kaufman &ndash; Kaufman Ventures Inc. </strong><br />
+	Michael Kaufman has combined years of professional expertise as an Architect and member of the American Institute of Architects (AIA), with a passion for cutting-edge technology by launching the <em>Architechnologist</em> &ndash; an online magazine dedicated to exploring the emerging technology that affects how we interact with and experience the world around us. Most importantly, the focus will be on the end-user&#39;s view of new hardware, software and everything in-between (call it &quot;elseware&quot;).<br />
+	<br />
+	A long-time resident of lower Manhattan, Michael was the Technology Editor at DOWNTOWN Magazine (both in print and online), focusing on technology companies, personalities and events south of Houston Street and in the greater Manhattan area.<br />
+	<br />
+	Michael has appeared as the featured interview on <em>IdeaMensch.com</em> and is one of the eMinutes &quot;First 500 Entrepreneurs&quot;.<br />
+	<br />
+	&nbsp;</p>
+<div align="center">
+	<hr align="center" noshade="noshade" size="2" width="100%" />
+</div>
+<p>
+	&nbsp;<br />
+	<br />
+	<strong><img alt="" src="/getmedia/3a9cf054-ea79-479f-9ecb-db62eb186a0b/BruceBrown_May.aspx?width=150&amp;height=224" style="width: 150px; height: 224px; float: left; margin: 10px;" />Mike May &ndash; Sendero Group LLC </strong><br />
+	Mike May has been a pioneer in new product and business development since 1980. He has a master&rsquo;s degree from the Johns Hopkins School of Advanced International Studies. May&rsquo;s startup ventures have included developing the world&rsquo;s first and only Laser Turntable, inventing a portable heating cushion for sports and medical applications and starting two companies in adaptive technology including Sendero Group in 1999, which released the first ever accessible GPS for the blind.<br />
+	&nbsp;<br />
+	He was a member of the White House delegation to the 2010 Paralympics and has been inducted into the US Association of the Blind Hall of Fame. A book based on May&rsquo;s life, <em>Crashing</em> <em>Through</em>, by best-selling author Robert Kurson, was released in May 2007 and has a major movie by Stone Village Pictures is in the works.<br />
+	<br />
+	&nbsp;</p>
+<div align="center">
+	<hr align="center" noshade="noshade" size="2" width="100%" />
+</div>
+<p>
+	&nbsp;<br />
+	<br />
+	<strong><img alt="" src="/getmedia/c113b527-f1d1-4f18-abba-7116698cad9c/PAW.aspx?width=150&amp;height=207" style="width: 150px; height: 207px; float: left; margin: 10px;" />Paul Wiles &ndash; Jaguar &amp; Land Rover PD Electrical Engineering </strong><br />
+	Paul Wiles is a consumer electronics (CE) devices technical specialist within the infotainment team at Jaguar Land Rover responsible for CE Device Telephony and Media Player Strategy. Paul is also the CE Connectivity expert group lead inside the GENIVI alliance helping to drive standard&nbsp;interfaces in to common software components and also promoting the adoption of open source software.<br />
+	<br />
+	After returning to full time education as a mature student, Wiles began his automotive career in 1995 starting in the infotainment team at&nbsp;Jaguar cars in 2000. Paul is responsible for bringing&nbsp;many new features to market and has been working with CE devices for six years.<br />
+	<br />
+	&nbsp;</p>
+<div align="center">
+	<hr align="center" noshade="noshade" size="2" width="100%" />
+</div>
+<p>
+	&nbsp;<br />
+	<br />
+	<strong><img alt="" src="/getmedia/0ce8ab81-5604-4884-851a-499987ee301c/MEAM-headshot-web.aspx?width=150&amp;height=224" style="width: 150px; height: 224px; float: left; margin: 10px;" />Peter Bressler &ndash; Pbressler, LLC </strong><br />
+	Peter is an industrial designer with over 40 years of experience in functional innovation, creating communication through aesthetics, and application of human factors and materials and manufacturing processes. From 1970 through 2012, he founded and led Bresslergroup, a product research, design and development firm in Philadelphia. The firm&#39;s projects have received over 50 Awards for design and engineering and Peter himself has either authored or co-authored over 75 utility and design patents.<br />
+	<br />
+	His participation as an officer at the national level in the Industrial Designers Society of America has resulted in election to the Academy of Fellows and receipt of a Lifetime Achievement Award.&nbsp;Bressler also participated in the creation of and since 2006 has been an Adjunct Associate Professor in the Integrated Product Design Program at the University of Pennsylvania.<br />
+	<br />
+	Under the banner of PBressler LLC, he is now providing product design and development consulting and Intellectual property expert witness services.<br />
+	<br />
+	&nbsp;</p>
+<div align="center">
+	<hr align="center" noshade="noshade" size="2" width="100%" />
+</div>
+<p>
+	&nbsp;<br />
+	<br />
+	<strong><img alt="" src="/getmedia/eb5e957e-b1ca-4eb9-bf0a-59869eef29ed/photo_belimpasakis.aspx?width=160&amp;height=160" style="width: 160px; height: 160px; float: left; margin: 10px;" />Petros Belimpasakis &ndash; Bang &amp; Olufsen </strong><br />
+	Dr. Petros Belimpasakis is a global product manager for audio products and apps at Bang &amp; Olufsen. &nbsp;He has a mixture of deep scientific expertise and industrial experience in the areas of consumer electronics, automotive, mobile communications and mixed/augmented reality. Petros has worked in all phases of the innovation life cycle, from exploratory research and conception, to product/service development and deployment. His activities are driven by the passion of combining cutting edge technology with solutions that are convenient and intuitive to use in daily life.<br />
+	<br />
+	Prior to joining Bang &amp; Olufsen he was with Nokia Research Center as a principal researcher. Belimpasakis holds a bachelor&rsquo;s degree in mathematics as well as master&rsquo;s and doctoral degree in itechnology. He has authored 30 peer-reviewed scientific publications, and he is the inventor/co-inventor in more than 20 filed patent applications.<br />
+	<br />
+	He is a senior member of the IEEE and the IEEE Consumer Electronics Society.<br />
+	<br />
+	&nbsp;</p>
+<div align="center">
+	<hr align="center" noshade="noshade" size="2" width="100%" />
+</div>
+<p>
+	&nbsp;<br />
+	<br />
+	<strong><img alt="" src="/getmedia/b3df5259-0207-4829-acd5-485f8da0770a/Richard_Schloss1.aspx?width=150&amp;height=162" style="width: 150px; height: 162px; float: left; margin: 10px;" />Richard Schloss &ndash; Rockford Corp. </strong><br />
+	Richard Schloss is an experienced engineer who is passionate about discovering new technologies, designs and concepts that help him and others solve the next generation of tough technical problems. He currently works full-time as the embedded software engineer for Rockford Corporation developing the company&#39;s latest-and-greatest audio amplifiers, signal processors, graphical user interfaces and automated test software.<br />
+	<br />
+	Throughout the years, Richard has worn many different engineering hats working with several engineering &ldquo;dream teams.&rdquo; &nbsp;He is an electrical engineering graduate of University of Illinois at Urbana-Champaign (master&rsquo;s degree) and Boston University (bachelor&rsquo;s degree+,). When he&#39;s not typing away at the computer, he&#39;s teaching various group fitness classes and pursuing his other greatest passions, namely, music, cruising the world, and exploring the great Arizona outdoors.<br />
+	<br />
+	&nbsp;</p>
+<div align="center">
+	<hr align="center" noshade="noshade" size="2" width="100%" />
+</div>
+<p>
+	&nbsp;<br />
+	<br />
+	<strong><img alt="" src="/getmedia/b2c64b65-748f-4669-b80c-3830450dc667/roer-heiblim.aspx?width=150&amp;height=210" style="width: 150px; height: 210px; float: left; margin: 10px;" />Robert Heiblim &ndash; Blue Salve/RH ASSOCIATES </strong><br />
+	Robert Heiblim has more than 35 years of experience in the consumer electronics field encompassing all phases of general management, including management of new technology startups and high growth companies.<br />
+	<br />
+	Heiblim is co-founder and principal of BlueSalve Professional Consulting and Interim Management providing strategy and execution counsel, service and expertise in consumer technology.&nbsp;He has consulted to clients including AT&amp;T, Sony, Panasonic/Matsushita, Best Buy, The Good Guys!, Harman International, iBiquity Digital, Chase Capital Partners, GPX, Eleven Engineering, Indigo Manufacturing, Blade, API, Sonance, Plantronics, Altec Lansing Technologies, Tymphany, VPVP, Klipsch, Tweeter Etc., ICX Global, Nokia, Philips, Sony, Skullcandy, Wal-Mart, CEBus Industry Council, Audiovox, Avega Systems, Aperion, Terk Technologies, Gemini Industries, D&amp;M Holdings, Focus Enhancements, Cernium and many others.<br />
+	<br />
+	Previously, he was CEO of etown.com, an online consumer electronics data service, president of KH America, the American subsidiary of Gold Peak, and president of Denon Electronics.<br />
+	<br />
+	Heiblim has been active in the industry serving as Audio Division chair for the then EIA/CEG (CEA), on their executive committee, as chair of the DAR Manufacturers Caucus, vice president of the Compact Disc Group that launched the digital transition Heiblim is a mentor for the CEA advising member companies.<br />
+	<br />
+	&nbsp;</p>
+<div align="center">
+	<hr align="center" noshade="noshade" size="2" width="100%" />
+</div>
+<p>
+	&nbsp;<br />
+	<br />
+	<strong><img alt="" src="/getmedia/828a0e83-55af-4b00-9d38-4da27925dbc4/RonPicard.aspx?width=150&amp;height=189" style="width: 150px; height: 189px; float: left; margin: 10px;" />Ron Picard &ndash; ComGraphics Inc. </strong><br />
+	Ron Picard graduated with a B.S.E. in computer engineering from Michigan State University in 1985 and began his career at General Motors Research Laboratories. Throughout the &lsquo;90s, he supported organizations such as Lowry Computer Products, Desktop Integration Services Corp, and Interface/Tumbleweed Communications.&nbsp;Since 2001, he has been with Chicago-based ComGraphics, architecting forward-facing IT systems and Web-based platforms.<br />
+	<br />
+	&nbsp;</p>
+<div align="center">
+	<hr align="center" noshade="noshade" size="2" width="100%" />
+</div>
+<p>
+	&nbsp;<br />
+	<br />
+	<strong><img alt="" src="/getmedia/cc213286-9747-4e9d-af0a-ec12896911ad/20131010_091550.aspx?width=150&amp;height=189" style="width: 150px; height: 189px; float: left; margin: 10px;" />Srikanth Kavoori &ndash; Wipro Technologies </strong><br />
+	Srikanth Kavoori has more than 10 years of experience designing and developing software for mobile phones, set-top boxes and ATM switches. &nbsp;He has experience working across the software stack, starting from device drivers, middle-ware, and user interface. Kavoori has extensive knowledge and experience in several programming languages, and has performed multiple roles throughout his career, such as tester, developer, lead and architect.<br />
+	<br />
+	His comprehensive experience includes key responsibilities such as requirements analysis, design, development, integration, planning, tracking, coordination, complete ownership, single point of contact, sales support, handle POCs, personnel management, scrum master, mentoring, training, interviewing, and 3rd line support.<br />
+	<br />
+	He is a member of IEEE Consumer Electronics Society, IEEE Computer Society and IEEE Broadcasting Technology Society, and has an engineering degree in electronics and communications and an MBA in information systems.&nbsp;<br />
+	<br />
+	&nbsp;</p>
+<div align="center">
+	<hr align="center" noshade="noshade" size="2" width="100%" />
+</div>
+<p>
+	&nbsp;<br />
+	<br />
+	<strong><img alt="" src="/getmedia/2b6d4e4e-a547-4b3e-8282-cc09b70f8425/IMG_5209.aspx?width=150&amp;height=193" style="width: 150px; height: 193px; float: left; margin: 10px;" />Stefan Mozar &ndash; CCM Consulting </strong><br />
+	Stefan Mozar obtained his engineering degrees from the University of New South Wales (Sydney), and his MBA from the University of Technology, Sydney. He has worked in the consumer electronics industry for most of his career, but has also worked in telecommunications and industrial electronics. He has lived and worked on four continents.<br />
+	<br />
+	His work included setting up factories manufacturing digital microwave radio systems in India and Vietnam. In addition to his industrial experience, he has also worked with a number of Australian, British and Singaporean Universities. His work has resulted in a number of inventions, patents, and published work.<br />
+	Projects he has worked on have been recognized with 30 international design awards. He is frequently invited as a speaker at technical meetings around the world. Mozar is the president-elect of the IEEE Consumer Electronics Society.<br />
+	<br />
+	&nbsp;</p>
+<div align="center">
+	<hr align="center" noshade="noshade" size="2" width="100%" />
+</div>
+<p>
+	&nbsp;<br />
+	<br />
+	<strong><img alt="" src="/getmedia/925b8b70-5280-459a-80b4-c419c74cd2c8/beautyshot.aspx?width=150&amp;height=204" style="width: 150px; height: 204px; float: left; margin: 10px;" />Stephen Baker &ndash; The NPD Group </strong><br />
+	Stephen Baker is NPD&rsquo;s vice president of industry analysis for consumer technology.&nbsp; Baker offers expert insight and commentary to clients and the media about consumer technology sales and trends across the U.S. and regionally, including retail and e-commerce, computer hardware and peripherals, holiday and yearly sales results, and analysis of new products and their impact on the consumer technology market.<br />
+	<br />
+	Baker has been tracking and analyzing the industry for 15 years and was ranked as a leading industry analyst by <em>AdWeek&rsquo;s Technology Marketing</em>.&nbsp;<br />
+	<br />
+	He is quoted extensively in industry publications such as <em>TWICE, CNET</em>, and <em>CE Daily</em>, as well as <em>The Wall Street Journal, The New York Times, USA Today,</em> <em>Investor&rsquo;s Business Daily,</em> <em>Business Week,</em> and <em>The San Jose Mercury News.</em>&nbsp;<br />
+	<br />
+	Baker has presented and served on panels at industry events such as RetailVision, and CES.&nbsp;He began his career at Staples and&nbsp;joined NPD 2001. Formerly he was a senior analyst in the distribution channels service at International Data Corp. (IDC). Baker received his MBA from Northeastern University and a bachelor&rsquo;s degree from Georgetown University.&nbsp;<br />
+	<br />
+	&nbsp;</p>
+<div align="center">
+	<hr align="center" noshade="noshade" size="2" width="100%" />
+</div>
+<p>
+	&nbsp;<br />
+	<br />
+	<strong><img alt="" src="/getmedia/15ea1b0f-2e9b-4968-ab6e-b18c77130677/stupix.aspx?width=170&amp;height=168" style="width: 170px; height: 168px; float: left;" />Stuart Lipoff &ndash; IP Action Partners Inc. </strong><br />
+	Stuart Lipoff is president of IP Action Partners Inc., a firm that provides technology and management consulting services to stakeholders in the consumer electronics, telecommunications, media, and entertainment industries.&nbsp;Significant accomplishments during his 40 years of professional experience include leading the MCNS project that developed the 1st generation of DOCSIS cable modem specifications, development of recommendations adopted by the FCC for mandating digital tuners in TV receivers, research for CableLabs leading to the deployment of hybrid fiber coax architectures, and leadership of The Next Generation Network Architecture Project for the cable TV industry.<br />
+	<br />
+	<br />
+	He volunteers his time to The IEEE Consumer Electronics Society as past president and current member of the executive committee of The IEEE International Conference on Consumer&nbsp;Electronics- an official CES partner event.&nbsp; He is a fellow of fellow of the IEEE and a member of SMPTE, SCTE, and ACM and has bachelor&rsquo;s degrees in electrical engineering and engineering physics and MSEE, and MBA degrees.&nbsp; He is a fellow of the IEEE and a member of SMPTE, SCTE, and ACM.&nbsp;<br />
+	<br />
+	&nbsp;</p>
+<div align="center">
+	<hr align="center" noshade="noshade" size="2" width="100%" />
+</div>
+<p>
+	&nbsp;<br />
+	<br />
+	<strong><img alt="" src="/getmedia/5c635bee-51ab-4e03-b6e7-e23705753eb0/SMishra_HeadshotLG.aspx?width=150&amp;height=142" style="width: 150px; height: 142px; float: left; margin: 10px;" />Suneil Mishra &ndash; Mishra Consulting LLC </strong><br />
+	Suneil Mishra is a tech industry veteran involved in driving several novel technologies into the PC, consumer electronics, mobile and interactive entertainment fields. Mishra has most recently leveraged his years of bringing game-changing and brand-leadership technologies to market―from audio to mobile, physics to 3D-motion-sensing across numerous consumer products segments―into a broad-based consultancy role for a number of clients on a worldwide basis.<br />
+	<br />
+	Mishra holds a master&rsquo;s degree in computer science from the George Washington University with a specialization in computer animation, multimedia design and virtual reality, and a bachelor&rsquo;s degree with honors in computing science and Mathematics from the University of Glasgow, Scotland. He currently resides in Palo Alto, CA.<br />
+	<br />
+	&nbsp;</p>
+<div align="center">
+	<hr align="center" noshade="noshade" size="2" width="100%" />
+</div>
+<p>
+	&nbsp;<br />
+	<br />
+	<strong><img alt="" src="/getmedia/714e6e30-0fe8-40b8-85d3-2db75ded883f/Susan-Schreiner.aspx?width=150&amp;height=217" style="width: 150px; height: 217px; float: left; margin: 10px;" />Susan Schreiner &ndash; The Schreiner Group Inc. </strong><br />
+	Susan Schreiner is recognized as a leading commentator/analyst as it relates to technologies impacting consumers. She works closely with leading international associations and publications as she scans the globe identifying hot, emerging technologies and trends, anticipates future markets, and assesses how and when new technologies and services will be adopted by consumers, businesses and institutions. Susan heads a practice that produces custom research and consulting, and that draws on its expertise across the foresight, strategy and innovation realms. Its public works are available on <a href="http://www.c4trends.com/">www.c4trends.com</a>.<br />
+	<br />
+	As a recognized industry expert, Schreiner&rsquo;s&nbsp;<em>C4 Trends&nbsp;</em>column (www.c4trends.com) is a regular feature in&nbsp;<em>i3 (It Is Innovation) </em>magazine (formerly CE&nbsp;<em>Vision </em>magazine, and published by CEA. &nbsp;It is available online, and the print version is distributed to the top 30,000 executives across the domestic and international consumer technology ecosystem, and at the US Air Shuttle terminals in New York, Washington, DC and Boston.<br />
+	<br />
+	She is senior editor/analyst, special supplements with the Consumer Technology Publishing&nbsp;Group, publisher of business-to-business publications focused on consumer technology. It also&nbsp;produces the Tell technology network of sites.<br />
+	<br />
+	&nbsp;</p>
+<div align="center">
+	<hr align="center" noshade="noshade" size="2" width="100%" />
+</div>
+<p>
+	&nbsp;<br />
+	<br />
+	<strong><img alt="" src="/getmedia/c2cc1772-b785-496f-9a37-baa028f1496a/TomBreithaupt_HeadShot.aspx?width=150&amp;height=176" style="width: 150px; height: 176px; float: left; margin: 10px;" />Tom Breithaupt &ndash; BREITLABS </strong><br />
+	Tom Breithaupt consults for the loudspeaker and amplifier industry and home theater installations via his company, BreitLabs (BreitLabs.com), based in Naples, FL.&nbsp; He also consults for the firearms industry providing market development and safety materials for new gun owners<br />
+	<br />
+	He worked six years for General Motors in the mobile audio group developing the first automotive subwoofer and component systems in cars in the 1980s.&nbsp; He then worked 18 years for the Blaupunkt division of the Robert Bosch Corp. in aftermarket and OEM mobile audio engineering and product management and developed the first flat/thin automotive full range speakers and subwoofers.&nbsp; Breithaupt also spent four years with Sonavox Electronics working in China driving OEM factory designs for home and automotive applications with driver design and electronics support and remains consulting today.<br />
+	<br />
+	He is a graduate of The Ohio State University with a bachelor&rsquo;s degree in electrical engineering in analog circuit design and acoustics.&nbsp;<br />
+	<br />
+	&nbsp;</p>
+<div align="center">
+	<hr align="center" noshade="noshade" size="2" width="100%" />
+</div>
+<p>
+	&nbsp;<br />
+	<br />
+	<strong><img alt="" src="/getmedia/a2e35a2b-38e1-4e1b-8b8c-7edf02b9d71f/Mays-W-IMG_8052-8x10.aspx?width=150&amp;height=187" style="width: 150px; height: 187px; float: left; margin: 10px;" />Wes Mays &ndash; Peterbilt Motors Co. </strong><br />
+	Wes Mays is an executive engineering manager for Peterbilt Motors Co. He is responsible for advanced electronic designs and strategies. He is a multiple patent holder encompassing a broad variety of technical expertise including RFID, radio frequency design, and communication design. He is a registered professional engineer in Texas.<br />
+	<br />
+	Mays is the chairman of the Industrial Advisory Board of the College of Electrical Engineering at the University of North Texas.&nbsp; He has acted as an adviser for the solar car engineering team at Coppell High School.&nbsp;He is also an Extra Class licensee, N5HK, in the Amateur Radio Service.<br />
+	<br />
+	He holds a bachelor&rsquo;s degree in electrical engineering from Texas A&amp;M University.&nbsp; He and his family live in Coppell, TX, where he was elected to the Coppell City Council and serves as the Place 3 City Councilman.<br />
+	<br />
+	&nbsp;</p>
+<div align="center">
+	<hr align="center" noshade="noshade" size="2" width="100%" />
+</div>
+<p>
+	&nbsp;<br />
+	<br />
+	<strong><img alt="" src="/CES/media/2014/Innovation%20Awards/2014%20Judges/lumpkins.jpg" style="width: 150px; height: 210px; float: left; margin: 10px;" />William Lumpkins &ndash; O &amp; S Services Inc. </strong><br />
+	William Lumpkins, Senior Member of IEEE, is the director of engineering for O &amp; S Services, an engineering services company specializing in consumer product development with bringing ideas in the U.S. to fruition and bridging the manufacturing process into the Far East. Lumpkins also works for Wi2Wi Inc. as their lead technical consultant helping integrate Wi-Fi, GPS, and Blue Tooth into multiple projects for various customers.<br />
+	<br />
+	In his spare time Lumpkins volunteers as the IEEE Consumer Electronics Society Standards Chair; the IEEE P1874 &ldquo;Standard for Documentation Schema for Repair and assembly of Electronic Devices&rdquo; working group chair, Committee on RFID Chair and as an associate editor/writer for the <em>IEEE Consumer Electronics Society Magazine</em>.<br />
+	<br />
+	Lumpkins served in the United States Navy from 1987-1996.During his active duty and while serving aboard the USS Carl Vinson, he studied electrical engineering/computer science and received his bachelor&rsquo;s degree from New York University, Albany. While in a master&rsquo;s program at University of Maryland, Far East Division, Japan; he taught classes for University of Maryland &amp; Central Texas College.&nbsp;<br />
+	<br />
+	&nbsp;</p>
+<div align="center">
+	<hr align="center" noshade="noshade" size="2" width="100%" />
+</div>
+<p>
+	&nbsp;<br />
+	<br />
+	<strong><img alt="" src="/getmedia/a6ae119e-a7d3-49a4-aa3e-f3cdbf736daf/IMG_5081p_256x256.aspx?width=160&amp;height=160" style="width: 160px; height: 160px; float: left; margin: 10px;" />Yu Yuan &ndash; Cate Global </strong><br />
+	Dr. Yu Yuan is president of Cate Global, a multinational think tank focusing on bringing world-class expertise to clients and projects in China, and the CEO of Motiveware Technology Co. Ltd., which is developing and providing disruptive enabling technologies for mobile applications.<br />
+	<br />
+	Yuan is a veteran researcher and practitioner in the areas of vehicular technology, intelligent transportation systems, consumer electronics, and Internet of Things. Previously, he worked on the strategy, ecosystem and partnership for IBM Research - China and was also a key contributor to IBM IoT Technology Center. Yuan is an IEEE-SA Standards Board member, the director of China Conferences of IEEE Consumer Electronics Society, the chair of the Vehicular Technology Committee in IEEE Consumer Electronics Society, the chair of Technical Committee on Software Infrastructure in IEEE ITS Society, the publicity chair of Land Transportation Division of IEEE Vehicular Technology Society, and an associate editor of <em>IEEE Consumer Electronics Magazine</em>. Yuan is a senior member of both IEEE and ACM.</p>
+<br />
+<br />
+<br />
+<div align="center">
+	<hr align="center" noshade="noshade" size="2" width="100%" />
+</div>
+<br />
+
+		</div><div id="p_lt_ctl06_pageplaceholder_p_lt_ctl04_WebPartZone_WebPartZone_zone_TabsLayout_tabs_tab7" id="p_lt_ctl06_pageplaceholder_p_lt_ctl04_WebPartZone_WebPartZone_zone_TabsLayout_tabs_tab7" class="ajax__tab_panel" style="display:none;visibility:hidden;">
+			<h2>
+	Entry FAQs</h2>
+<p>
+	Becoming a part of the CES Innovations Award is not hard, but you still may have questions. We&#39;ve answered a few common questions below.</p>
+<p>
+	<strong>Who is eligible to enter?</strong></p>
+<p>
+	Anyone who manufactures, designs, engineers or promotes consumer electronics (CE) products marketed in the United States, or is an authorized agent of the organization or individual, that is authorized to submit entries.</p>
+<p>
+	<strong>What is the difference between Best of Innovations and the Honoree awards?</strong></p>
+<p>
+	In the Innovations program, there are two levels of honorees. The first level is Honoree, and only a fraction of the products entered achieve this title. The second level, Best of Innovations, is a more exclusive award that is given to the highest-rated product in each category, as long as that product scored above a pre-determined score threshold. If the highest-rated product in a certain category did not pass the Best of Innovations score threshold, that category has no Best of Innovations award.</p>
+<p>
+	<strong>My company is a brand new startup with only a few employees and nothing but a prototype that hasn&#39;t hit the market. Do I stand a chance of receiving an award?</strong></p>
+<p>
+	Absolutely! The wonderful thing about the Innovations Awards is that a product&#39;s score is based on engineering and design qualities, innovation and value provided to the user. We admire brilliant products, so there&rsquo;s no difference if your company has been around for a month or a century, operates globally or locally, or has 10 employees or 10,000.</p>
+<p>
+	<strong>What is the Innovations Showcase?</strong></p>
+<p>
+	The Innovations Showcase is a designated area of the show floor at the International CES where the honoree products are on display for the world to see. It is a very high-trafficked area and one of the most popular destinations at CES. Innovations honoree products are encouraged to send a product sample to the area for display, free of charge, as long as the company is a CES exhibitor.</p>
+<p>
+	<strong>My product fits into multiple categories; which should I enter?</strong></p>
+<p>
+	If you are only able to submit one entry, select the category that most completely encompasses your product, or in which you feel your product is most accurately described. However, we welcome you to submit the product into multiple categories, if you prefer. Each category is judged independently, so well-designed products often receive awards in multiple categories.</p>
+<p>
+	<strong>Can an entry submitted last year be submitted again this year?</strong></p>
+<p>
+	Entries submitted last year are most likely ineligible for submission this year, since the competition is limited to new products that become available to consumers from April 1, 2013 and no later than April 1, 2014. However, if you have developed a new model of the product that you feel is innovative and enhances the original product, you may submit an entry for the new model.</p>
+<p>
+	<strong>Do I have a word limit for questions on the entry form?</strong></p>
+<p>
+	On the product-specific questions, we impose a limit of 500 words. You may also upload the technical specification sheet for your product. If you do not have a specification sheet, you may provide the same data in your own words (1,000 character limit).</p>
+<p>
+	<strong>What happens if my entry is not complete?</strong></p>
+<p>
+	An entry is qualified for judging when all required sections are completed, images are included, and all entry fees have been paid. While CEA is not responsible for the follow-up of incomplete entries, we will attempt to notify entrants of the status of their entry. Ultimately, it is the entrants&rsquo; responsibility to ensure the entry is complete. Unpaid entries will be disqualified. Entry fees are non-refundable.</p>
+<p>
+	<strong>If I secure space for CES after submitting my Innovations entry, can I receive a partial refund on my Innovations entry fee?&nbsp;</strong></p>
+<p>
+	If you are not a CES exhibitor at the time that you submit your Innovations application, you can still become an official exhibitor and receive a partial refund up October 14, 2013. After October 14, we are unable to issue partial refunds. Contact us at Innovations@CE.org for more information on receiving a refund.</p>
+<p>
+	<strong>When will I find out if my product has been selected to receive an award?</strong></p>
+<p>
+	All applicants will be notified by email on October 14, 2013 of their award status. If selected as an honoree, you are requested to confirm information included in your entry. It is essential that we receive this information for the honoree announcement at CES Unveiled NEW YORK on November 12, 2013.</p>
+<p>
+	<strong>Are there sponsorship opportunities for Innovations?</strong></p>
+<p>
+	Yes. Please contact us at Innovations@ce.org</p>
+
+		</div>
+	</div>
+</div></div>
+                    
+                </div>
+          </div>
+           
+    
+
+    </section>
+      <section>
+    <div id="footer">
+			<div class="container">
+            	<div class="footer-line"></div>
+				<div class="one-fifth">
+                  <p class="copyright">
+	Copyright &copy; 2003 - 2014 CEA. All rights reserved.</p>
+
+			    </div>
+			    <div class="one-sixth footer-div">
+                  <ul>
+	<li>
+		<a href="/about-us">About Us </a></li>
+	<li>
+		<a href="/contact-us">Contact Us</a></li>
+	<li>
+		<a href="/partners">Partners</a></li>
+</ul>
+
+				 </div>
+                 <div class="one-sixth footer-div">
+                  <ul>
+	<li>
+		<a href="/privacy">Privacy</a></li>
+	<li>
+		<a href="/sitemap">Sitemap</a></li>
+</ul>
+<br /><div style="font-size: .8em; color: #FFF;"><span id="p_lt_ctl09_whatServer_serverName">WEB-IIS10</span></div>
+				 </div>
+				 <div class="one-third languages">
+                    	
+                     <script type="text/javascript">
+
+
+
+  var _gaq = _gaq || [];
+
+  _gaq.push(['_setAccount', 'UA-3975226-4']);
+
+  _gaq.push(['_trackPageview']);
+
+
+
+  (function() {
+
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+
+  })();
+
+
+
+</script>​
+                </div>
+			</div>
+    </div>
+    </section>
+    </div>
+    </div>
+<!-- Start of Google Analytics script -->
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-3975226-4']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+<!-- End of Google Analytics script -->
+
+<!-- Start Pardot tracking script -->
+<script type="text/javascript"> 
+piAId = '27962'; 
+piCId = '2690'; 
+
+(function() { 
+function async_load(){ 
+var s = document.createElement('script'); s.type = 'text/javascript';
+s.src = ('https:' == document.location.protocol ? 'https://pi' : 'http://cdn') + '.pardot.com/pd.js'; 
+var c = document.getElementsByTagName('script')[0]; c.parentNode.insertBefore(s, c); 
+} 
+if(window.attachEvent) { window.attachEvent('onload', async_load); } 
+else { window.addEventListener('load', async_load, false); } 
+})(); 
+</script> 
+<!-- End Pardot tracking script -->
+
+    
+    
+
+<script type="text/javascript">
+//<![CDATA[
+(function() {var fn = function() {$get("manScript_HiddenField").value = '';Sys.Application.remove_init(fn);};Sys.Application.add_init(fn);})();//]]>
+</script>
+
+<script type="text/javascript">
+	//<![CDATA[
+
+Sys.Extended.UI.TabContainer.prototype._app_onload = function (sender, e) {
+    if (this._cachedActiveTabIndex != -1) {
+        this.set_activeTabIndex(this._cachedActiveTabIndex);
+        this._cachedActiveTabIndex = -1;
+
+        var activeTab = this.get_tabs()[this._activeTabIndex];
+        if (activeTab) {
+            activeTab._wasLoaded = true;
+            /*** CMS ***/
+            // Disable focus on active tab
+            //activeTab._setFocus(activeTab);
+            /*** END CMS ***/
+        }
+    }
+    this._loaded = true;
+}
+
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+Sys.Application.add_init(function() {
+    $create(Sys.Extended.UI.TabPanel, {"headerTab":$get("__tab_p_lt_ctl06_pageplaceholder_p_lt_ctl04_WebPartZone_WebPartZone_zone_TabsLayout_tabs_tab1"),"ownerID":"p_lt_ctl06_pageplaceholder_p_lt_ctl04_WebPartZone_WebPartZone_zone_TabsLayout_tabs"}, null, {"owner":"p_lt_ctl06_pageplaceholder_p_lt_ctl04_WebPartZone_WebPartZone_zone_TabsLayout_tabs"}, $get("p_lt_ctl06_pageplaceholder_p_lt_ctl04_WebPartZone_WebPartZone_zone_TabsLayout_tabs_tab1"));
+});
+Sys.Application.add_init(function() {
+    $create(Sys.Extended.UI.TabPanel, {"headerTab":$get("__tab_p_lt_ctl06_pageplaceholder_p_lt_ctl04_WebPartZone_WebPartZone_zone_TabsLayout_tabs_tab2"),"ownerID":"p_lt_ctl06_pageplaceholder_p_lt_ctl04_WebPartZone_WebPartZone_zone_TabsLayout_tabs"}, null, {"owner":"p_lt_ctl06_pageplaceholder_p_lt_ctl04_WebPartZone_WebPartZone_zone_TabsLayout_tabs"}, $get("p_lt_ctl06_pageplaceholder_p_lt_ctl04_WebPartZone_WebPartZone_zone_TabsLayout_tabs_tab2"));
+});
+Sys.Application.add_init(function() {
+    $create(Sys.Extended.UI.TabPanel, {"headerTab":$get("__tab_p_lt_ctl06_pageplaceholder_p_lt_ctl04_WebPartZone_WebPartZone_zone_TabsLayout_tabs_tab3"),"ownerID":"p_lt_ctl06_pageplaceholder_p_lt_ctl04_WebPartZone_WebPartZone_zone_TabsLayout_tabs"}, null, {"owner":"p_lt_ctl06_pageplaceholder_p_lt_ctl04_WebPartZone_WebPartZone_zone_TabsLayout_tabs"}, $get("p_lt_ctl06_pageplaceholder_p_lt_ctl04_WebPartZone_WebPartZone_zone_TabsLayout_tabs_tab3"));
+});
+Sys.Application.add_init(function() {
+    $create(Sys.Extended.UI.TabPanel, {"headerTab":$get("__tab_p_lt_ctl06_pageplaceholder_p_lt_ctl04_WebPartZone_WebPartZone_zone_TabsLayout_tabs_tab4"),"ownerID":"p_lt_ctl06_pageplaceholder_p_lt_ctl04_WebPartZone_WebPartZone_zone_TabsLayout_tabs"}, null, {"owner":"p_lt_ctl06_pageplaceholder_p_lt_ctl04_WebPartZone_WebPartZone_zone_TabsLayout_tabs"}, $get("p_lt_ctl06_pageplaceholder_p_lt_ctl04_WebPartZone_WebPartZone_zone_TabsLayout_tabs_tab4"));
+});
+Sys.Application.add_init(function() {
+    $create(Sys.Extended.UI.TabPanel, {"headerTab":$get("__tab_p_lt_ctl06_pageplaceholder_p_lt_ctl04_WebPartZone_WebPartZone_zone_TabsLayout_tabs_tab5"),"ownerID":"p_lt_ctl06_pageplaceholder_p_lt_ctl04_WebPartZone_WebPartZone_zone_TabsLayout_tabs"}, null, {"owner":"p_lt_ctl06_pageplaceholder_p_lt_ctl04_WebPartZone_WebPartZone_zone_TabsLayout_tabs"}, $get("p_lt_ctl06_pageplaceholder_p_lt_ctl04_WebPartZone_WebPartZone_zone_TabsLayout_tabs_tab5"));
+});
+Sys.Application.add_init(function() {
+    $create(Sys.Extended.UI.TabPanel, {"headerTab":$get("__tab_p_lt_ctl06_pageplaceholder_p_lt_ctl04_WebPartZone_WebPartZone_zone_TabsLayout_tabs_tab6"),"ownerID":"p_lt_ctl06_pageplaceholder_p_lt_ctl04_WebPartZone_WebPartZone_zone_TabsLayout_tabs"}, null, {"owner":"p_lt_ctl06_pageplaceholder_p_lt_ctl04_WebPartZone_WebPartZone_zone_TabsLayout_tabs"}, $get("p_lt_ctl06_pageplaceholder_p_lt_ctl04_WebPartZone_WebPartZone_zone_TabsLayout_tabs_tab6"));
+});
+Sys.Application.add_init(function() {
+    $create(Sys.Extended.UI.TabPanel, {"headerTab":$get("__tab_p_lt_ctl06_pageplaceholder_p_lt_ctl04_WebPartZone_WebPartZone_zone_TabsLayout_tabs_tab7"),"ownerID":"p_lt_ctl06_pageplaceholder_p_lt_ctl04_WebPartZone_WebPartZone_zone_TabsLayout_tabs"}, null, {"owner":"p_lt_ctl06_pageplaceholder_p_lt_ctl04_WebPartZone_WebPartZone_zone_TabsLayout_tabs"}, $get("p_lt_ctl06_pageplaceholder_p_lt_ctl04_WebPartZone_WebPartZone_zone_TabsLayout_tabs_tab7"));
+});
+Sys.Application.add_init(function() {
+    $create(Sys.Extended.UI.TabContainer, {"activeTabIndex":0,"clientStateField":$get("p_lt_ctl06_pageplaceholder_p_lt_ctl04_WebPartZone_WebPartZone_zone_TabsLayout_tabs_ClientState"),"onDemand":false,"scrollBars":2,"tabStripPlacement":0,"useVerticalStripPlacement":false}, null, null, $get("p_lt_ctl06_pageplaceholder_p_lt_ctl04_WebPartZone_WebPartZone_zone_TabsLayout_tabs"));
+});
+//]]>
+</script>
+</form>
+</body>
+</html>

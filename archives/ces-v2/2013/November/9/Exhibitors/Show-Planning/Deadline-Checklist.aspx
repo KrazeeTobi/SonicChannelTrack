@@ -1,0 +1,996 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head id="head"><title>
+	Deadline Checklist  - 2014 International CES, January 7-10
+</title><meta name="description" content="The International CES is a global consumer electronics and consumer technology tradeshow that takes place every January in Las Vegas, Nevada.Find a list of action items and deadlines for exhibiting at CES. " /> 
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" /> 
+<meta http-equiv="pragma" content="no-cache" /> 
+<meta http-equiv="content-style-type" content="text/css" /> 
+<meta http-equiv="content-script-type" content="text/javascript" /> 
+<meta name="keywords" content="International CES, CES, CES 2010, CES 2011, CES 2012, CES 2013, CES 2014, CES 2015, CES 2016, CES 2017, CES 2018, Consumer Electronics Show, Consumer Technology, Consumer Electronics, Consumer Electronics Association, CES Las Vegas, ces show, ces vegas, CES Unveiled, ces tradeshow, ces conference, ces registration, ces exhibitor, ces innovation awards, innovation awards, best of ces, ces keynote, ces show floor, technology, silicon valley, technology innovation, disruptive technology, start-ups,International CES, CES, CES 2010, CES 2011, CES 2012, CES 2013, CES 2014, CES 2015, CES 2016, CES 2017, CES 2018, Consumer Electronics Show, Consumer Technology, Consumer Electronics, Consumer Electronics Association, CES Las Vegas, ces show, ces vegas, CES Unveiled, ces tradeshow, ces conference, ces registration, ces exhibitor, ces innovation awards, innovation awards, best of ces, ces keynote, ces show floor, technology, silicon valley, technology innovation, disruptive technology, start-ups, exhibitor, exhibit, show planning, deadline checklist, deadlines " /> 
+<meta name="viewport" content="initial-scale=1">
+<meta property="twitter:account_id" content="10668202" />
+<!-- Twitter Summary Card -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@IntlCES">
+<meta name="twitter:creator" content="@IntlCES">
+<meta name="twitter:title" content="Deadline Checklist ">
+<meta name="twitter:description" content="Find a list of action items and deadlines for exhibiting at CES. ">
+<meta name="twitter:image" content="http://content.ce.org/2013ces/images/hpimages/header/cesweb_headerlogo.png">
+<!-- End of Twitter Summary Card -->
+
+<link rel="shortcut icon" href="/ces/favicon.ico"/>
+
+<link href="/CMSPages/GetResource.ashx?stylesheetname=ices-main-style" type="text/css" rel="stylesheet" media="screen" />
+    <link href="/CMSPages/GetResource.ashx?stylesheetname=ices-mediaelementplayer.min	" type="text/css" rel="stylesheet" media="screen" />
+    <link href="/CMSPages/GetResource.ashx?stylesheetname=ices-captions" type="text/css" rel="stylesheet"  />
+    <link href="/CMSPages/GetResource.ashx?stylesheetname=ices-slider-style" type="text/css" rel="stylesheet" media="screen" />
+    <link href="/CMSPages/GetResource.ashx?stylesheetname=ices-flexslider" type="text/css" rel="stylesheet" />
+    <link href="/CMSPages/GetResource.ashx?stylesheetname=ices-prettyphoto" type="text/css" rel="stylesheet" />
+    <link href="/CMSPages/GetResource.ashx?stylesheetname=ices-settings" type="text/css" rel="stylesheet" media="screen" />
+    <link href="/CMSPages/GetResource.ashx?stylesheetname=ices-fonts" type="text/css" rel="stylesheet" media="screen" />
+<link href="/CMSPages/GetResource.ashx?stylesheetname=ices-print" type="text/css" rel="stylesheet" media="print" />
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+<script type="text/javascript" src="/ces/js/scripts.js"></script>
+<script type="text/javascript" src="/ces/js/jquery.themepunch.revolution.min.js"></script>
+<script type="text/javascript" src="/ces/js/custom.js"></script>
+
+ <script type="text/javascript">
+    <!--
+    function toggle_visibility(id) {
+        var e = document.getElementById(id);
+        if (e.style.display == 'block')
+            e.style.display = 'none';
+        else
+            e.style.display = 'block';
+    }
+    //-->
+    </script>
+    <script type="text/javascript">
+        function EnterEvent(e) {
+            if (e.keyCode == 13) {
+              var val = document.getElementById('searchTxt').value;
+              var sURL = '/search-results?searchtext=' + val + '&searchmode=anyword';
+              window.location.href = sURL;
+              return false;
+                }
+            }
+      
+      jQuery(document).ready(function ($) {
+      for (var count = 2 ;count <= 7; count ++)
+        {
+            var a = $('#'+ count +' ul.nav-3cols > li');
+            for (var i = 0; i < a.length; i += 5) {
+                a.slice(i, i + 5).wrapAll('<div class="nav-col"></div>');
+            }
+            var a = $('#'+ count +' ul.nav-2cols > li');
+            for (var i = 0; i < a.length; i += 5) {
+                a.slice(i, i + 5).wrapAll('<div class="nav-col"></div>');
+            }
+        }
+  
+   
+    });
+    </script>
+<script type="text/javascript">var switchTo5x=false;</script>
+<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+<script type="text/javascript">stLight.options({publisher: "a17beaa8-5eee-4df7-8629-9947a3e965e3",  offsetLeft:'-270', doNotHash: true, doNotCopy: false, hashAddressBar: false, exclusive_services:true, services:"facebook,twitter,linkedin,googleplus,email,sharethis", minorServices:false});</script>
+
+
+
+<script type="text/javascript" src="/ces/js/cmsedit/WidgetSecurity_non_Admin.js"></script> 
+<style type="text/css" rel="stylesheet"> 
+                   
+                        .languages {
+                        display: none !important;
+                        
+                        }
+
+                    </style>
+                    <link href="/CMSPages/GetResource.ashx?_webparts=1067" type="text/css" rel="stylesheet"/> 
+</head>
+<body class="LTR ENUS ContentBody" >
+    <form method="post" action="/Exhibitors/Show-Planning/Deadline-Checklist.aspx" id="form">
+<div class="aspNetHidden">
+<input type="hidden" name="manScript_HiddenField" id="manScript_HiddenField" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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TW9iaWxlIEFwcGQCbg9kFgJmD2QWAmYPFQYAATQLL0NvbmZlcmVuY2UKQ29uZmVyZW5jZQARY2xhc3M9J25hdi0yY29scydkAnAPZBYCZg9kFgJmDxUCFC9Db25mZXJlbmNlL0tleW5vdGVzEUtleW5vdGUgQWRkcmVzc2VzZAJxD2QWAmYPZBYCZg8VAQBkAnIPZBYCZg9kFgJmDxUCGy9Db25mZXJlbmNlL1B1cmNoYXNlLVBhc3Nlcw9QdXJjaGFzZSBQYXNzZXNkAnMPZBYCZg9kFgJmDxUBAGQCdA9kFgJmD2QWAmYPFQIZL0NvbmZlcmVuY2UvU2hvcHBpbmctQ2FydA1TaG9wcGluZyBDYXJ0ZAJ1D2QWAmYPZBYCZg8VAQBkAnYPZBYCZg9kFgJmDxUCJS9Db25mZXJlbmNlL1Nlc3Npb24tU2NoZWR1bGUtQnJvY2h1cmUcQ29uZmVyZW5jZSBQcm9ncmFtIFNjaGVkdWxlIGQCdw9kFgJmD2QWAmYPFQEAZAJ4D2QWAmYPZBYCZg8VAhkvQ29uZmVyZW5jZS9TdXBlclNlc3Npb25zDVN1cGVyU2Vzc2lvbnNkAnkPZBYCZg9kFgJmDxUBAGQCeg9kFgJmD2QWAmYPFQIdL0NvbmZlcmVuY2UvQ29uZmVyZW5jZS1UcmFja3MRQ29uZmVyZW5jZSBUcmFja3NkAnsPZBYCZg9kFgJmDxUBAGQCfA9kFgJmD2QWAmYPFQIcL0NvbmZlcmVuY2UvQmVjb21lLWEtU3BlYWtlchBCZWNvbWUgYSBTcGVha2VyZAJ9D2QWAmYPZBYCZg8VAQBkAn4PZBYCZg9kFgJmDxUCHC9Db25mZXJlbmNlL1NwZWFrZXItU2VydmljZXMQU3BlYWtlciBTZXJ2aWNlc2QCgAEPZBYCZg9kFgJmDxUBAGQChAEPZBYCZg9kFgJmDxUGAAE1Di9FdmVudHMtQXdhcmRzE0V2ZW50cyAmYW1wOyBBd2FyZHMAAGQChgEPZBYCZg9kFgJmDxUCFS9FdmVudHMtQXdhcmRzL0V2ZW50cwZFdmVudHNkAocBD2QWAmYPZBYCZg8VAQBkAogBD2QWAmYPZBYCZg8VAhUvRXZlbnRzLUF3YXJkcy9Bd2FyZHMGQXdhcmRzZAKJAQ9kFgJmD2QWAmYPFQEAZAKKAQ9kFgJm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YW5kIGxvZ28gZm9yIHByaW50ZWQgPGVtPk9mZmljaWFsIFNob3cgRGlyZWN0b3J5PC9lbT4tIGVtYWlsIHRvJm5ic3A7PGEgaHJlZj0ibWFpbHRvOmV4aGliaXRAY2Vzd2ViLm9yZz9zdWJqZWN0PURpcmVjdG9yeSUyMExpc3RpbmclMjBhbmQlMjBMb2dvIj5leGhpYml0QGNlc3dlYi5vcmc8L2E+Jm5ic3A7CkFsbCBWZW51ZXMLTWFwWW91clNob3cYRnJpZGF5LCBPY3RvYmVyIDExLCAyMDEzZAIFD2QWAmYPZBYCZg8VBOUBPGEgaHJlZj0iaHR0cDovL3d3dy5mcmVlbWFuY28uY29tL3N0b3JlL3Nob3dTcGVjaWZpYy9jZXMyMDEzL2FsbFZlbnVlcy9zcGVjaWFsdHljb250cmFjdG9ycy5qc3A/dmVuZG9yTmFtZT1BUkFNQVJLJmFtcDtuYXZJZD0yMDM1JmFtcDtkbD10cnVlJmFtcDtzaG93bGQ9MzAzNTY0IiB0YXJnZXQ9Il9ibGFuayI+Q2F0ZXJpbmcgb3JkZXJzPC9hPiAtIDE1IHBlcmNlbnQgZWFybHkgYmlyZCBkaXNjb3VudARMVkNDB0FyYW1hcmsYTW9uZGF5LCBPY3RvYmVyIDI4LCAyMDEzZAIGD2QWAmYPZBYCZg8VBKABSW50ZXJuYXRpb25hbCBDRVMmbmJzcDs8YSBocmVmPSJ+L0V4aGliaXRvcnMvQnJhbmRpbmctT3Bwb3J0dW5pdGllcy9QcmludC1BZHZlcnRpc2luZy5hc3B4Ij48ZW0+T2ZmaWNpYWwgUHJlc2hvdyBQbGFubmU8L2VtPjxlbT5yPC9lbT48L2E+Jm5ic3A7YWQgbWF0ZXJpYWxzIGR1ZQpBbGwgVmVudWVzBENUUEcaVGh1cnNkYXksIE9jdG9iZXIgMzEsIDIwMTNkAgcPZBYCZg9kFgJmDxUEgAFTdWJtaXQgZmxvb3JwbGFucyB0byB0aGUgTFZDQyBGaXJlIE1hcnNoYWwgZm9yIGFwcHJvdmFsLSBlbWFpbCB0byA8YSBocmVmPSJtYWlsdG86Ym9vdGhwbGFuc0BsdmN2YS5jb20iPmJvb3RocGxhbnNAbHZjdmEuY29tPC9hPgRMVkNDBExWQ0MaVGh1cnNkYXksIE9jdG9iZXIgMzEsIDIwMTNkAggPZBYCZg9kFgJmDxUEiwFNdWx0aXBsZSBndWVzdCBhdXRob3JpemF0aW9uIDxhIGhyZWY9Imh0dHA6Ly93d3cuZnJlZW1hbmNvLmNvbS9mb3Jtcy8zMDcwMzcvbXVsdGlwbGVfZ3Vlc3RfYXV0aG9yaXphdGlvbl9mb3JtLnBkZiIgdGFyZ2V0PSJfYmxhbmsiPmZvcm08L2E+F1ZlbmV0aWFuIEV4aGliaXQgU3VpdGVzGlZlbmV0aWFuIEZhY2lsaXR5IFNlcnZpY2VzGUZyaWRheSwgTm92ZW1iZXIgMDEsIDIwMTNkAgkPZBYCZg9kFgJmDxUEwwFDbGVhbmluZyByZXF1ZXN0IDxhIGhyZWY9Imh0dHA6Ly93d3cuZnJlZW1hbmNvLmNvbS9zdG9yZS9odG1sL1ZlbmV0aWFuLUV4aGliaXQtU3VpdGVzLVZlbmV0aWFuLVNlcnZpY2VzLVN1aXRlLVN1aXRlLUNsZWFuaW5nLmpzcD9uYXZJZD02MTA0JmFtcDtkbD10cnVlJmFtcDtzaG93bGQ9MzA3MDM3IiB0YXJnZXQ9Il9ibGFuayI+Zm9ybTwvYT4XVmVuZXRpYW4gRXhoaWJpdCBTdWl0ZXMaVmVuZXRpYW4gRmFjaWxpdHkgU2VydmljZXMZRnJpZGF5LCBOb3ZlbWJlciAwMSwgMjAxM2QCCg9kFgJmD2QWAmYPFQTxAUNyZWRpdCBjYXJkIGF1dGhvcml6YXRpb24vYmVkIHJlbW92YWwgbm90aWZpY2F0aW9uIDxhIGhyZWY9Imh0dHA6Ly93d3cuZnJlZW1hbmNvLmNvbS9zdG9yZS9odG1sL1ZlbmV0aWFuLUV4aGliaXQtU3VpdGVzLVZlbmV0aWFuLVNlcnZpY2VzLVNlY3VyaXR5LURlcG9zaXQtYW5kLUJlZC1SZW1vdmFsLmpzcD9uYXZJZD02MTA3JmFtcDtkbD10cnVlJmFtcDtzaG93bGQ9MzA3MDM3IiB0YXJnZXQ9Il9ibGFuayI+Zm9ybTwvYT4XVmVuZXRpYW4gRXhoaWJpdCBTdWl0ZXMaVmVuZXRpYW4gRmFjaWxpdHkgU2VydmljZXMZRnJpZGF5LCBOb3ZlbWJlciAwMSwgMjAxM2QCCw9kFgJmD2QWAmYPFQTgAVN1aXRlIGZsb29ycGxhbiBhbmQgZnVybml0dXJlIG1vdmVtZW50IDxhIGhyZWY9Imh0dHA6Ly93d3cuZnJlZW1hbmNvLmNvbS9zdG9yZS9odG1sL1ZlbmV0aWFuLUV4aGliaXQtU3VpdGVzLVZlbmV0aWFuLVNlcnZpY2VzLUZ1cm5pdHVyZS1Nb3ZlbWVudC1SZXF1ZXN0cy5qc3A/bmF2SWQ9NjEwOCZhbXA7ZGw9dHJ1ZSZhbXA7c2hvd2xkPTMwNzAzNyIgdGFyZ2V0PSJfYmxhbmsiPmZvcm08L2E+F1ZlbmV0aWFuIEV4aGliaXQgU3VpdGVzGlZlbmV0aWFuIEZhY2lsaXR5IFNlcnZpY2VzGUZyaWRheSwgTm92ZW1iZXIgMDEsIDIwMTNkAgwPZBYCZg9kFgJmDxUEygFJbnRlcm5ldCBhbmQgdGVsZWNvbW0gPGEgaHJlZj0iaHR0cDovL3d3dy5mcmVlbWFuY28uY29tL3N0b3JlL2h0bWwvVmVuZXRpYW4tRXhoaWJpdC1TdWl0ZXMtVmVuZXRpYW4tU2VydmljZXMtU3VpdGUtU3VpdGUtSW50ZXJuZXQuanNwP25hdklkPTYxMTImYW1wO2RsPXRydWUmYW1wO3Nob3dsZD0zMDcwMzciIHRhcmdldD0iX2JsYW5rIj5vcmRlcnM8L2E+F1ZlbmV0aWFuIEV4aGliaXQgU3VpdGVzEVZlbmV0aWFuIFRlbGVjb21tGUZyaWRheSwgTm92ZW1iZXIgMDEsIDIwMTNkAg0PZBYCZg9kFgJmDxUE3AFWZW5ldGlhbiA8YSBocmVmPSJodHRwOi8vd3d3LmZyZWVtYW5jby5jb20vc3RvcmUvaHRtbC9WZW5ldGlhbi1FeGhpYml0LVN1aXRlcy1WZW5ldGlhbi1TZXJ2aWNlcy1TdWl0ZS1Jbi1TdWl0ZS1Ib3NwaXRhbGl0eS1hbmQtRGluaW5nLVNlcnZpY2VzLmpzcD9uYXZJZD02MTE0P2RsPXRydWUmYW1wO3Nob3dsZD0zMDcwMzciIHRhcmdldD0iX2JsYW5rIj5pbi1zdWl0ZSBkaW5pbmc8L2E+F1ZlbmV0aWFuIEV4aGliaXQgU3VpdGVzGFZlbmV0aWFuIEluLVN1aXRlIERpbmluZxlGcmlkYXksIE5vdmVtYmVyIDAxLCAyMDEzZAIOD2QWAmYPZBYCZg8VBJkBQ0VTIFVudmVpbGVkIE5FVyBZT1JLLSBsYXN0IGRheSBhY2NlcHRpbmcgPGEgaHJlZj0iaHR0cDovL3d3dy5jZXN3ZWIub3JnL0V2ZW50cy9DRVMtVW52ZWlsZWQvQ0VTLVVudmVpbGVkLU5FVy1ZT1JLLmFzcHgiIHRhcmdldD0iX2JsYW5rIj5hcHBsaWNhdGlvbnM8L2E+GU1ldHJvcG9saXRhbiBQYXZpbGlvbiwgTlkJQ0VTIFNhbGVzGUZyaWRheSwgTm92ZW1iZXIgMDgsIDIwMTNkAg8PZBYCZg9kFgJmDxUESUFkdmFuY2Ugd2FyZWhvdXNlIHNoaXBtZW50LSBmaXJzdCBkYXkgcmVjZWl2aW5nIGZvciBhbGwgZXhoaWJpdG9yIGZyZWlnaHQKQWxsIFZlbnVlcwdGcmVlbWFuGU1vbmRheSwgTm92ZW1iZXIgMTEsIDIwMTNkAhAPZBYCZg9kFgJmDxUEJVJlcXVlc3QgdG8gY2hhbmdlIHRhcmdldCBmcmVpZ2h0IGRhdGUKQWxsIFZlbnVlcwdGcmVlbWFuG1RodXJzZGF5LCBOb3ZlbWJlciAxNCwgMjAxM2QCEQ9kFgJmD2QWAmYPFQSaATxlbT5PZmZpY2lhbCBDRVMgRGlnaXRhbCBJbWFnaW5nL1Bob3RvZ3JhcGh5IFByZXNob3cgUGxhbm5lciA8L2VtPmFkIG1hdGVyaWFscyA8YSBocmVmPSJ+L0V4aGliaXRvci9CcmFuZGluZy1PcHBvcnR1bml0aWVzL1ByaW50LUFkdmVydGlzaW5nLmFzcHgiPmR1ZTwvYT4KQWxsIFZlbnVlcwRDVFBHG1RodXJzZGF5LCBOb3ZlbWJlciAxNCwgMjAxM2QCEg9kFgJmD2QWAmYPFQTkATxhIGhyZWY9Imh0dHA6Ly93d3cuZnJlZW1hbmNvLmNvbS9zdG9yZS9odG1sL0xWQ0MtUHJvZHVjdC1hbmQtU2VydmljZXMtU3VibWlzc2lvbi1hbmQtQXBwcm92YWxzLmpzcD9uYXZJZD0xMDg4P2RsPXRydWUmYW1wO3Nob3dsZD0zMDM1NjQiIHRhcmdldD0iX2JsYW5rIj5SaWdnaW5nPC9hPi0gcHJlbGltaW5hcnkgcGxhbnMgZm9yIGV4aGliaXRvcnMgMywwMDAgc3F1YXJlIGZlZXQgb3IgZ3JlYXRlcgRMVkNDB0ZyZWVtYW4ZRnJpZGF5LCBOb3ZlbWJlciAxNSwgMjAxM2QCEw9kFgJmD2QWAmYPFQSkAkludGVybmF0aW9uYWwgQ0VTJm5ic3A7PGEgaHJlZj0ifi9FeGhpYml0b3JzL0JyYW5kaW5nLU9wcG9ydHVuaXRpZXMvUHJpbnQtQWR2ZXJ0aXNpbmcuYXNweCI+PGVtPk9mZmljaWFsIFNob3cgRGlyZWN0b3J5Jm5ic3A7PC9lbT48L2E+YW5kJm5ic3A7PGEgaHJlZj0ifi9FeGhpYml0b3JzL0JyYW5kaW5nLU9wcG9ydHVuaXRpZXMvUHJpbnQtQWR2ZXJ0aXNpbmcuYXNweCI+PGVtPk9mZmljaWFsIFNob3cgR3VpZGUgJmFtcDsgQ29uZmVyZW5jZSBCcm9jaHVyZTwvZW0+PC9hPiZuYnNwO2FkIG1hdGVyaWFscyBkdWUKQWxsIFZlbnVlcwRDVFBHGlR1ZXNkYXksIE5vdmVtYmVyIDE5LCAyMDEzZAIUD2QWAmYPZBYCZg8VBOoBPGEgaHJlZj0iaHR0cDovL3d3dy5mcmVlbWFuY28uY29tL3N0b3JlL3Nob3dTcGVjaWZpYy9jZXMyMDEzL2FsbFZlbnVlcy9zcGVjaWFsdHljb250cmFjdG9ycy5qc3A/dmVuZG9yTmFtZT1BUkFNQVJLJmFtcDtuYXZJZD0yMDM1JmFtcDtkbD10cnVlJmFtcDtzaG93bGQ9MzAzNTY0IiB0YXJnZXQ9Il9ibGFuayI+Q2F0ZXJpbmcgb3JkZXJzPC9hPi0gMTAgcGVyY2VudCBhZHZhbmNlIHB1cmNoYXNlIGRpc2NvdW50BExWQ0MHQXJhbWFyaxtUaHVyc2RheSwgTm92ZW1iZXIgMjgsIDIwMTNkAhUPZBYCZg9kFgJmDxUEI0xlYWQgcmV0cmlldmFsLSBlYXJseSBiaXJkIGRpc2NvdW50CkFsbCBWZW51ZXMDSVROGUZyaWRheSwgTm92ZW1iZXIgMjksIDIwMTNkAhYPZBYCZg9kFgJmDxUE3AE8YSBocmVmPSJodHRwOi8vd3d3LmZyZWVtYW5jby5jb20vc3RvcmUvaHRtbC9MVkNDLVByb2R1Y3QtYW5kLVNlcnZpY2VzLVN1Ym1pc3Npb24tYW5kLUFwcHJvdmFscy5qc3A/bmF2SWQ9MTA4OD9kbD10cnVlJmFtcDtzaG93bGQ9MzAzNTY0IiB0YXJnZXQ9Il9ibGFuayI+UmlnZ2luZzwvYT4tIGZpbmFsIHBsYW5zIGZvciBleGhpYml0b3JzIDQwMCBzcXVhcmUgZmVldCBvciBncmVhdGVyBExWQ0MHRnJlZW1hbhlGcmlkYXksIE5vdmVtYmVyIDI5LCAyMDEzZAIXD2QWAmYPZBYCZg8VBKgBSW50ZXJuZXQgYW5kIHRlbGVjb21tIDxhIGhyZWY9Imh0dHA6Ly93d3cuZnJlZW1hbmNvLmNvbS9zdG9yZS9odG1sL0xWQ0MtVXRpbGl0aWVzLUludGVybmV0LURhdGEuanNwP25hdklkPTIwMjcmYW1wO2RsPXRydWUmYW1wO3Nob3dsZD0zMDM1NjQiIHRhcmdldD0iX2JsYW5rIj5vcmRlcnM8L2E+BExWQ0MDQ09YG1NhdHVyZGF5LCBOb3ZlbWJlciAzMCwgMjAxM2QCGA9kFgJmD2QWAmYPFQS9AVNlY3VyaXR5IHNlcnZpY2UgPGEgaHJlZj0iaHR0cDovL3d3dy5mcmVlbWFuY28uY29tL3N0b3JlL2h0bWwvVmVuZXRpYW4tRXhoaWJpdC1TcGFjZS1VdGlsaXRpZXMtSGlyaW5nLUJvb3RoLVNlY3VyaXR5LmpzcD9uYXZJZD01MTMwJmFtcDtkbD10cnVlJmFtcDtzaG93bGQ9MzAzNjEzIiB0YXJnZXQ9Il9ibGFuayI+b3JkZXJzPC9hPhZWZW5ldGlhbiBFeGhpYml0IFNwYWNlDENPUCBTZWN1cml0eRlTdW5kYXksIERlY2VtYmVyIDAxLCAyMDEzZAIZD2QWAmYPZBYCZg8VBLUBSGFuZ2luZyBzaWduIDxhIGhyZWY9Imh0dHA6Ly93d3cuZnJlZW1hbmNvLmNvbS9zdG9yZS9odG1sL0xWQ0MtUHJvZHVjdC1hbmQtU2VydmljZXMtU3VibWlzc2lvbi1hbmQtQXBwcm92YWxzLmpzcD9uYXZJZD0xMDg4JmFtcDtkbD10cnVlJmFtcDtzaG93bGQ9MzAzNTY0IiB0YXJnZXQ9Il9ibGFuayI+b3JkZXJzPC9hPgRMVkNDB0ZyZWVtYW4ZTW9uZGF5LCBEZWNlbWJlciAwMiwgMjAxM2QCGg9kFgJmD2QWAmYPFQR0PGVtPk9mZmljaWFsIENFUyBEYWlseTwvZW0+IGFkIG1hdGVyaWFscyA8YSBocmVmPSJ+L0V4aGliaXRvci9CcmFuZGluZy1PcHBvcnR1bml0aWVzL1ByaW50LUFkdmVydGlzaW5nLmFzcHgiPmR1ZTwvYT4KQWxsIFZlbnVlcwVUV0lDRRxXZWRuZXNkYXksIERlY2VtYmVyIDA0LCAyMDEzZAIbD2QWAmYPZBYCZg8VBBhTZWN1cml0eSBzZXJ2aWNlcyBvcmRlcnMKQWxsIFZlbnVlcwxTT0EgU2VjdXJpdHkZRnJpZGF5LCBEZWNlbWJlciAwNiwgMjAxM2QCHA9kFgJmD2QWAmYPFQQTRXhoaWJpdG9yIGluc3VyYW5jZQpBbGwgVmVudWVzEUpvaG4gQnV0dGluZSBJbmMuGUZyaWRheSwgRGVjZW1iZXIgMDYsIDIwMTNkAh0PZBYCZg9kFgJmDxUEGFByby10ZWN0IHNlY3VyaXR5IG9yZGVycwpBbGwgVmVudWVzEVByby10ZWN0IFNlY3VyaXR5GU1vbmRheSwgRGVjZW1iZXIgMDksIDIwMTNkAh4PZBYCZg9kFgJmDxUEkwFFeGhpYml0b3ItYXBwb2ludGVkIGNvbnRyYWN0b3IgKEVBQykgPGEgaHJlZj0iaHR0cHM6Ly9jZXMuaXRuaW50LmNvbS8yMDE0L3JlZ29ubGluZS9DcmVhdGVBY2NvdW50LmFzcHg/c3RyZWFtPWVhYyIgdGFyZ2V0PSJfYmxhbmsiPnJlZ2lzdHJhdGlvbjwvYT4KQWxsIFZlbnVlcwNDRUEZTW9uZGF5LCBEZWNlbWJlciAwOSwgMjAxM2QCHw9kFgJmD2QWAmYPFQRxVmVoaWNsZSBwbGFjZW1lbnQgPGEgaHJlZj0iaHR0cDovL3d3dy5mcmVlbWFuY28uY29tL2Zvcm1zLzMwMzU2NC92ZWhpY2xlX3BsYWNlbWVudC5wZGYiIHRhcmdldD0iX2JsYW5rIj5vcmRlcjwvYT4KQWxsIFZlbnVlcwdGcmVlbWFuGU1vbmRheSwgRGVjZW1iZXIgMDksIDIwMTNkAiAPZBYCZg9kFgJmDxUEKVN0YW5kYXJkIGFuZCBzcGVjaWFsdHkgZnVybmlzaGluZ3Mgb3JkZXJzCkFsbCBWZW51ZXMHRnJlZW1hbhlNb25kYXksIERlY2VtYmVyIDA5LCAyMDEzZAIhD2QWAmYPZBYCZg8VBA1DYXJwZXQgb3JkZXJzCkFsbCBWZW51ZXMHRnJlZW1hbhlNb25kYXksIERlY2VtYmVyIDA5LCAyMDEzZAIiD2QWAmYPZBYCZg8VBAxMYWJvciBvcmRlcnMKQWxsIFZlbnVlcwdGcmVlbWFuGU1vbmRheSwgRGVjZW1iZXIgMDksIDIwMTNkAiMPZBYCZg9kFgJmDxUEHkV4aGliaXRzIGFuZCBhY2Nlc29yaWVzIG9yZGVycwpBbGwgVmVudWVzB0ZyZWVtYW4ZTW9uZGF5LCBEZWNlbWJlciAwOSwgMjAxM2QCJA9kFgJmD2QWAmYPFQQmRnJlZW1hbiBBL1YgZXF1aXBtZW50IGFuZCBsYWJvciBvcmRlcnMKQWxsIFZlbnVlcwpGcmVlbWFuIEFWGU1vbmRheSwgRGVjZW1iZXIgMDksIDIwMTNkAiUPZBYCZg9kFgJmDxUE6AFDRVMgTWVldGluZyBQbGFjZSBmdXJuaXR1cmUgYW5kIHdhbGwgPGEgaHJlZj0iaHR0cDovL3d3dy5mcmVlbWFuY28uY29tL3N0b3JlL2Jyb3dzZS9jYXRlZ29yeS9GT0xTdWJjYXRlZ29yeUNvbnRlbnQuanNwP293bmVySWQ9Zm9sJmFtcDtjYXRlZ29yeUlkPTM1JmFtcDtuYXY9MDMmYW1wO25hdklkPTMwNjYmYW1wO2RsPXRydWUmYW1wO3Nob3dsZD0zMDcwMzkiIHRhcmdldD0iX2JsYW5rIj5vcmRlcnM8L2E+EUNFUyBNZWV0aW5nIFBsYWNlB0ZyZWVtYW4ZTW9uZGF5LCBEZWNlbWJlciAwOSwgMjAxM2QCJg9kFgJmD2QWAmYPFQSaAUVsZWN0cmljYWwgPGEgaHJlZj0iaHR0cDovL3d3dy5mcmVlbWFuY28uY29tL3N0b3JlL2h0bWwvTFZDQy1VdGlsaXRpZXMtRWxlY3RyaWNhbC5qc3A/bmF2SWQ9MjAyMiZhbXA7ZGw9dHJ1ZSZhbXA7c2hvd2xkPTMwMzU2NCIgdGFyZ2V0PSJfYmxhbmsiPm9yZGVyczwvYT4ETFZDQwdGcmVlbWFuGU1vbmRheSwgRGVjZW1iZXIgMDksIDIwMTNkAicPZBYCZg9kFgJmDxUErAFIYW5naW5nIDxhIGhyZWY9Imh0dHA6Ly93d3cuZnJlZW1hbmNvLmNvbS9zdG9yZS9odG1sL0xWSC1Qcm9kdWN0LWFuZC1TZXJ2aWNlcy1TdWJtaXNzaW9uLWFuZC1BcHByb3ZhbHMuanNwP25hdklkPTY5OSZhbXA7ZGw9dHJ1ZSZhbXA7c2hvd2xkPTMwNTYyNyIgdGFyZ2V0PSJfYmxhbmsiPnNpZ248L2E+A0xWSAZFbmNvcmUZTW9uZGF5LCBEZWNlbWJlciAwOSwgMjAxM2QCKA9kFgJmD2QWAmYPFQQxQ29tcGxpbWVudGFyeSBob3RlbCBmdXJuaXNoaW5ncyBmb3IgbWVldGluZyByb29tcxZWZW5ldGlhbiBFeGhpYml0IFNwYWNlGlZlbmV0aWFuIEZhY2lsaXR5IFNlcnZpY2VzGUZyaWRheSwgRGVjZW1iZXIgMTMsIDIwMTNkAikPZBYCZg9kFgJmDxUEmAFFbGVjdHJpY2FsIDxhIGhyZWY9Imh0dHA6Ly93d3cuZnJlZW1hbmNvLmNvbS9zdG9yZS9odG1sL0xWSC1VdGlsaXRpZXMtRWxlY3RyaWNhbC5qc3A/bmF2SWQ9MTExJmFtcDtkbD10cnVlJmFtcDtzaG93bGQ9MzA1NjI3IiB0YXJnZXQ9Il9ibGFuayI+b3JkZXJzPC9hPgNMVkgOVFNFIEVsZWN0cmljYWwaVHVlc2RheSwgRGVjZW1iZXIgMTcsIDIwMTNkAioPZBYCZg9kFgJmDxUEvwFJbnRlcm5ldCwgcGhvbmUsIGVsZWN0cmljYWwgPGEgaHJlZj0iaHR0cDovL3d3dy5mcmVlbWFuY28uY29tL3N0b3JlL2h0bWwvVmVuZXRpYW4tRXhoaWJpdC1TcGFjZS1VdGlsaXRpZXMtU0VTLU92ZXJ2aWV3LmpzcD9uYXZJZD01MTM0JmFtcDtkbD10cnVlJmFtcDtzaG93bGQ9MzAzNjEzIiB0YXJnZXQ9Il9ibGFuayI+b3JkZXJzPC9hPhZWZW5ldGlhbiBFeGhpYml0IFNwYWNlA1NFUxpUdWVzZGF5LCBEZWNlbWJlciAxNywgMjAxM2QCKw9kFgJmD2QWAmYPFQTBAUhhbmdpbmcgPGEgaHJlZj0iaHR0cDovL3d3dy5mcmVlbWFuY28uY29tL3N0b3JlL2h0bWwvVmVuZXRpYW4tRXhoaWJpdC1TcGFjZS1Qcm9kdWN0LWFuZC1TZXJ2aWNlcy1IYW5naW5nLVNpZ25zLWFuZC1SaWdnaW4uanNwP25hdklkPTUwNjkmYW1wO2RsPXRydWUmYW1wO3Nob3dsZD0zMDU2MjciIHRhcmdldD0iX2JsYW5rIj5zaWduczwvYT4WVmVuZXRpYW4gRXhoaWJpdCBTcGFjZQNTRVMaVHVlc2RheSwgRGVjZW1iZXIgMTcsIDIwMTNkAiwPZBYCZg9kFgJmDxUEqwE8YSBocmVmPSJodHRwOi8vd3d3LmZyZWVtYW5jby5jb20vc3RvcmUvaHRtbC9WZW5ldGlhbi1FeGhpYml0LVNwYWNlLVV0aWxpdGllcy1DbGVhbmluZy1TZXJ2aWNlcy5qc3A/bmF2SWQ9NTE0MDEmYW1wO2RsPXRydWUmYW1wO3Nob3dsZD0zMDM2MTMiIHRhcmdldD0iX2JsYW5rIj5DbGVhbmluZzwvYT4WVmVuZXRpYW4gRXhoaWJpdCBTcGFjZQNTRVMaVHVlc2RheSwgRGVjZW1iZXIgMTcsIDIwMTNkAi0PZBYCZg9kFgJmDxUENkFkdmFuY2Ugd2FyZWhvdXNlIGRlYWRsaW5lLSBMVkNDL0xWSCBleGhpYml0b3IgZnJlaWdodAhMVkNDL0xWSAdGcmVlbWFuHFdlZG5lc2RheSwgRGVjZW1iZXIgMTgsIDIwMTNkAi4PZBYCZg9kFgJmDxUEN1JlY2VpdmUgb24tc2l0ZSBzcGFjZSBzZWxlY3Rpb24gZGF0ZSBhbmQgdGltZSB2aWEgRmVkRXgoTFZDQy9MVkggRXhoaWJpdCBTcGFjZS9WZW5ldGlhbiBCYWxscm9vbQlDRVMgU2FsZXMcV2VkbmVzZGF5LCBEZWNlbWJlciAxOCwgMjAxM2QCLw9kFgJmD2QWAmYPFQS6AUNhdGVyaW5nIDxhIGhyZWY9Imh0dHA6Ly93d3cuZnJlZW1hbmNvLmNvbS9zdG9yZS9odG1sL1ZlbmV0aWFuLUV4aGliaXQtU3BhY2UtT2ZmaWNpYWwtU3VwcGxpZXJzLUNhdGVyaW5nLVNlcnZpY2VzLmpzcD9uYXZJZD01MTE4JmFtcDtkbD10cnVlJmFtcDtzaG93bGQ9MzAzNjEzIiB0YXJnZXQ9Il9ibGFuayI+b3JkZXJzPC9hPhZWZW5ldGlhbiBFeGhpYml0IFNwYWNlEVZlbmV0aWFuIENhdGVyaW5nGVN1bmRheSwgRGVjZW1iZXIgMjIsIDIwMTNkAjAPZBYCZg9kFgJmDxUE0AFJbnRlcm5ldCBhbmQgdGVsZXBob25lIDxhIGhyZWY9Imh0dHA6Ly93d3cuZnJlZW1hbmNvLmNvbS9zdG9yZS9zaG93U3BlY2lmaWMvY2VzMjAxMy9hbGxWZW51ZXMvc3BlY2lhbHR5Y29udHJhY3RvcnMuanNwP3ZlbmRvck5hbWU9RU5DT1JFJmFtcDtuYXZJZD0xMTQmYW1wO2RsPXRydWUmYW1wO3Nob3dsZD0zMDU2MjciIHRhcmdldD0iX2JsYW5rIj5vcmRlcnM8L2E+A0xWSAZFbmNvcmUZTW9uZGF5LCBEZWNlbWJlciAyMywgMjAxM2QCMQ9kFgJmD2QWAmYPFQSLAUNFUyBVbnZlaWxlZCBMQVMgVkVHQVMtIGxhc3QgZGF5IGFjY2VwdGluZyA8YSBocmVmPSJodHRwOi8vd3d3LmNlc3dlYi5vcmcvRXZlbnRzL0NFUy1VbnZlaWxlZC9DRVMtVW52ZWlsZWQtTEFTLVZFR0FTLmFzcHgiPmFwcGxpY2F0aW9uczwvYT4MTWFuZGFsYXkgQmF5A0NFUxlGcmlkYXksIERlY2VtYmVyIDI3LCAyMDEzZAIyD2QWAmYPZBYCZg8VBPcBQWR2YW5jZSB3YXJlaG91c2UgPGEgaHJlZj0iaHR0cDovL3d3dy5mcmVlbWFuY28uY29tL3N0b3JlL2h0bWwvVmVuZXRpYW4tRXhoaWJpdC1TcGFjZS1TaGlwcGluZy1hbmQtTWF0ZXJpYWwtSGFuZGxpbmctQWR2YW5jZS1XYXJlaG91c2UtU2hpcG1lbnRzLmpzcD9uYXZJZD01MDk2JmFtcDtkbD10cnVlJmFtcDtzaG93bGQ9MzAzNjEzIiB0YXJnZXQ9Il9ibGFuayI+ZGVhZGxpbmU8L2E+LSBWZW5ldGlhbiBleGhpYml0b3IgZnJlaWdodBZWZW5ldGlhbiBFeGhpYml0IFNwYWNlB0ZyZWVtYW4aVHVlc2RheSwgRGVjZW1iZXIgMzEsIDIwMTNkAjMPZBYCZg9kFgJmDxUEH0xlYWQgcmV0cmlldmFsLSBwcmVzaG93IHByaWNpbmcKQWxsIFZlbnVlcwNJVE4YRnJpZGF5LCBKYW51YXJ5IDAzLCAyMDE0ZGR+n2Fmyhw2IWG4GD6/L9ftwScG9w8ImeiZX4zDmaJYyA==" />
+</div>
+
+<input type="hidden" name="lng" id="lng" value="en-US" />
+<script type="text/javascript">
+	//<![CDATA[
+
+function PM_Postback(param) { if (window.top.HideScreenLockWarningAndSync) { window.top.HideScreenLockWarningAndSync(1080); }__doPostBack('m',param); }
+function PM_Callback(param, callback, ctx) { if (window.top.HideScreenLockWarningAndSync) { window.top.HideScreenLockWarningAndSync(1080); }WebForm_DoCallback('m',param,callback,ctx,null,true); }
+//]]>
+</script>
+<script src="/ScriptResource.axd?d=_5JCocmpF5FO20nczb37dnUYvUFGaqwbMHXRfQR_cHXC7tKVJKYGD45DONBLAEsM6_ftHTGhOdwnbAiMC8b1g9Dch-5ZHC0ZXLS713NRUY5vQwEQzCUa97LNyNeze6Nn0&amp;t=ffffffff8dea9fe4" type="text/javascript"></script>
+    <div id="CMSHeaderDiv">
+	<!-- -->
+</div>
+    <div id="ctxM">
+
+</div>
+    
+<div id="wrapper">
+	<div id="center_top">
+    <div id="container">
+        	<!--TOP PANEL-->
+			<section>
+            <div id="top_panel">
+                <div class="container">
+                    <ul class="connect-title">
+                        <li>Connect with Us</li>
+                    </ul>
+                    <ul class="social_icons">
+	<li class="twitter">
+		<a href="https://twitter.com/intlces" title="Twitter">&nbsp;</a></li>
+	<li class="facebook">
+		<a href="https://www.facebook.com/InternationalCES" title="facebook">&nbsp;</a></li>
+	<li class="googleplus">
+		<a href="https://google.com/+InternationalCES" title="googleplus">&nbsp;</a></li>
+	<li class="instagram">
+		<a href="http://instagram.com/intlces" title="instagram">&nbsp;</a></li>
+	<li class="youtube">
+		<a href="http://www.youtube.com/user/cesonthetube" title="youtube">&nbsp;</a></li>
+</ul>
+
+                    <ul class="open-ad"><li id="clasp_1"><a href="javascript:lunchboxOpen('1');">OPEN ADVERTISEMENT </a></li></ul>
+                    <ul class="drop" id="nav">
+	<li>
+		Other CEA Sites
+		<ul>
+			<li>
+				<a href="http://www.ce.org" target="_blank">CEA - CE.org</a></li>
+			<li>
+				<a href="http://www.declareinnovation.com/" target="_blank">Innovation Movement</a></li>
+			<li>
+				<a href="http://www.ce.org/blog" target="_blank">Digital Dialogue Blog</a></li>
+			<li>
+				<a href="http://www.ce.org/i3" target="_blank">i3 Magazine</a></li>
+			<li>
+				<a href="http://www.greenergadgets.org/" target="_blank">Greener Gadgets</a></li>
+			<li>
+				<a href="http://www.ce.org/research" target="_blank">CEA Market Research</a></li>
+			<li>
+				<a href="http://www.ce.org/foundation" target="_blank">CEA Foundation</a></li>
+		</ul>
+	</li>
+</ul>
+
+                </div>
+            </div>
+            </section> 
+            <!--END TOP PANEL-->
+            <!--AD AREA-->
+           <section>
+           		<div style="background:#000;" class="billboard-ad" >
+                <div class="container bill-ad lunchbox" id="lunch_1"  style="display: none;">
+                  
+                </div>
+                </div>
+           	</section>
+             <!--ENS AD AREA-->
+           
+           <!--AUDIENCEL-->
+           <section>
+           <div class="container">
+           	<ul class="audience-nav">
+	<li>
+		<a href="/exhibitor">Exhibitors</a></li>
+	<li>
+		<a href="/press">Press</a></li>
+	<li>
+		<a href="/international">International</a></li>
+</ul>
+
+            </div>
+           </section>
+           <!--END AUDIENCEL-->
+           <!--HEADER-->
+          <section>
+            <div class="container">
+				<header id="header">
+					<div id="sticky_navigation">
+						<div class="container">
+							<a href="/home" id="logo"></a>
+                   		   
+                           <div class="search-container">
+                              <div class="search">
+                                <input type="search" id="searchTxt" onkeypress="return EnterEvent(event);" >
+                                  
+                              </div>
+                              <div class="date">
+                                <h2>
+	Las Vegas, NV</h2>
+<h3>
+	JANUARY 7-10, 2014</h3>
+
+                              </div>
+                          </div>
+                       </div>
+                       <div id="navigation-wrapper">
+                            <nav id="main-navigation">
+                              
+<ul class="main-menu sf-js-enabled sf-shadow">
+ 
+    <li class=""
+id="2">
+<a href=" /Register-Plan"> Register &amp; Plan</a> 
+<ul 
+    
+   class='nav-2cols'
+  style="display: none; visibility: hidden;">
+    
+  <p style ="display:none;">&nbsp;</p><li><a href=" /Register-Plan/Register-Now"> Register Now</a>
+
+<li><a href=" /Register-Plan/Full-Schedule"> Full Schedule </a>
+
+<li><a href=" /Register-Plan/How-to-Register-for-CES"> How to Register for CES</a>
+
+<li><a href=" /Register-Plan/Badges"> Badges: A New Process for 2014</a>
+
+<ul></ul>
+</li><li><a href=" /Register-Plan/Hotel"> Hotel</a>
+
+<ul><li><a href="/Register-Plan/Hotel/Reserve-a-Room-Block" class="no-display">Reserve a Room Block </a></li></ul>
+</li><li><a href=" /Register-Plan/Transportation"> Transportation</a>
+
+<ul></ul>
+</li><li><a href=" /Register-Plan/Las-Vegas-Travel-Tips"> Las Vegas Travel Tips</a>
+
+<li><a href=" /Register-Plan/On-Site-Logistics"> On-Site Logistics</a>
+
+<li><a href=" /Register-Plan/My-CES-Planner"> MyCES Planner</a>
+
+<li><a href=" /Register-Plan/First-Timers-Resources"> First-Timers Resources</a>
+
+
+</ul></li><li class=""
+id="3">
+<a href=" /Show-Floor"> Show Floor</a> 
+<ul 
+    
+   class='nav-2cols'
+  style="display: none; visibility: hidden;">
+    
+  <p style ="display:none;">&nbsp;</p><li><a href=" /Show-Floor/Exhibit-or-Sponsor"> Exhibit or Sponsor</a>
+
+<li><a href=" /Show-Floor/Exhibit-Hours"> Exhibit Hours</a>
+
+<li><a href=" /Show-Floor/Exhibit-Directory"> Exhibitor Directory</a>
+
+<li><a href=" /Show-Floor/TechZones"> TechZones</a>
+
+<ul></ul>
+</li><li><a href=" /Show-Floor/Maps"> Maps</a>
+
+<li><a href=" /Show-Floor/Show-Floor-Tours"> Show Floor Tours</a>
+
+<li><a href=" /Show-Floor/MyCES-Planner"> MyCES Planner</a>
+
+<li><a href=" /Show-Floor/CES-Mobile-App"> CES Mobile App</a>
+
+
+</ul></li><li class=""
+id="4">
+<a href=" /Conference"> Conference</a> 
+<ul 
+    
+   class='nav-2cols'
+  style="display: none; visibility: hidden;">
+    
+  <p style ="display:none;">&nbsp;</p><li><a href=" /Conference/Keynotes"> Keynote Addresses</a>
+
+<li><a href=" /Conference/Purchase-Passes"> Purchase Passes</a>
+
+<li><a href=" /Conference/Shopping-Cart"> Shopping Cart</a>
+
+<li><a href=" /Conference/Session-Schedule-Brochure"> Conference Program Schedule </a>
+
+<li><a href=" /Conference/SuperSessions"> SuperSessions</a>
+
+<li><a href=" /Conference/Conference-Tracks"> Conference Tracks</a>
+
+<li><a href=" /Conference/Become-a-Speaker"> Become a Speaker</a>
+
+<li><a href=" /Conference/Speaker-Services"> Speaker Services</a>
+
+<ul></ul>
+</li>
+</ul></li><li class=""
+id="5">
+<a href=" /Events-Awards"> Events &amp; Awards</a> 
+<ul 
+    
+   
+  style="display: none; visibility: hidden;">
+    
+  <p style ="display:none;">&nbsp;</p><li><a href=" /Events-Awards/Events"> Events</a>
+
+<li><a href=" /Events-Awards/Awards"> Awards</a>
+
+<li><a href=" /Events-Awards/Innovations"> CES Innovations Awards</a>
+
+<li><a href=" /Events-Awards/Press-Events"> Press Events</a>
+
+
+</ul></li><li class=""
+id="6">
+<a href=" /News"> News</a> 
+<ul 
+    
+   class='nav-2cols'
+  style="display: none; visibility: hidden;">
+    
+  <p style ="display:none;">&nbsp;</p><li><a href=" /News/Press-Releases"> Press Releases</a>
+
+<li><a href=" /News/CES-TV"> CES TV</a>
+
+<li><a href=" /News/CES-Social"> Social Media</a>
+
+<li><a href=" /News/CES-In-The-News"> CES In The News</a>
+
+<li><a href=" /News/Exhibitor-Press-Releases"> Exhibitor Press Releases </a>
+
+<li><a href=" /News/Press-Services"> Press Services</a>
+
+
+</ul></li><li class=""
+id="7">
+<a href=" /Why-attend-CES"> Why Attend CES?</a> 
+<ul 
+    
+   
+  style="display: none; visibility: hidden;">
+    
+  <p style ="display:none;">&nbsp;</p><li><a href=" /Why-attend-CES/What-Youre-Missing-CES"> See What You&#39;re Missing at CES</a>
+
+<li><a href=" /Why-attend-CES/2013-Attendee-Audit"> 2013 Attendee Audit</a>
+
+<li><a href=" /Why-attend-CES/CEA-Member-Benefits"> CEA Member Benefits</a>
+
+
+</ul>  </li>
+</ul>
+
+ <div id="main-navigation">
+  <select id="navSecondary" onChange="top.location.href=this.options[this.selectedIndex].value;">
+<option selected="selected" value="">Site Main Navigation</option>
+<option style="font-family:open_sansbold;" value="/Register-Plan">Register & Plan</option><option style="font-family:open_sansbold;" value="/Show-Floor">Show Floor</option><option style="font-family:open_sansbold;" value="/Conference">Conference</option><option style="font-family:open_sansbold;" value="/Events-Awards">Events & Awards</option><option style="font-family:open_sansbold;" value="/News">News</option><option style="font-family:open_sansbold;" value="/Why-attend-CES">Why Attend CES?</option><option style="font-family:open_sansbold;" value="/Exhibitor">Exhibitors</option><option style="font-family:open_sansbold;" value="/International">International</option><option style="font-family:open_sansbold;" value="/Press">Press</option>
+</select>
+</div>
+                            </nav>
+                        </div>
+				    </div>
+	          </header>
+           </div> 
+        </section>
+        </div>
+    
+      
+
+<link href="/CMSPages/GetResource.ashx?stylesheetname=ices-deadlinechecklist" type="text/css" rel="stylesheet" media="screen" />
+
+<section>
+        <div class="interior-body-bk">
+                    <a href="" target="_blank"><div class="int-bk-right"><img src="" /></div></a>
+          <a href="" target="_blank"><div class="int-bk-left"><img src="" /></div></a>
+
+        </div>
+
+        <div class="container clearfix">
+            <div class="one-sixth-leftnav">
+                <div class="leftnav">
+                    <ul><li   
+>
+<a href="/Exhibitor/Exhibiting-Opportunities"> 
+  
+  Exhibiting Opportunities   
+  </a><ul 
+ class='no-display'>
+ 
+<li   
+>
+<a href="/Exhibitor/Exhibiting-Opportunities/Open-Exhibit-Space"> Open Exhibit Space  
+ 
+  </a></li><li   
+>
+<a href="/Exhibitor/Exhibiting-Opportunities/TechZones"> TechZones  
+ 
+  </a></li><li   
+>
+<a href="/Exhibitor/Exhibiting-Opportunities/Outdoor-Exhibit-Space"> Outdoor Exhibit Space  
+ 
+  </a></li><li   
+>
+<a href="/Exhibitor/Exhibiting-Opportunities/CES-Meeting-Place"> CES Meeting Place  
+ 
+  </a></li><li   
+>
+<a href="/Exhibitor/Exhibiting-Opportunities/Meeting-Rooms"> Meeting Rooms  
+ 
+  </a></li><li   
+>
+<a href="/Exhibitor/Exhibiting-Opportunities/Ballroom-Space"> Ballroom Space  
+ 
+  </a></li><li   
+>
+<a href="/Exhibitor/Exhibiting-Opportunities/Suites"> Suites  
+ 
+  </a></li><li   
+>
+<a href="/Exhibitor/Exhibiting-Opportunities/Booth-Space-Selection"> Exhibit Space Selection  
+ 
+  </a><ul class="main-menu sf-js-enabled sf-shadow">
+ 
+    
+
+
+
+   </li>
+</ul>
+</li>
+</ul></li><li   
+>
+<a href="/Exhibitor/Branding-Opportunities"> 
+  
+  Branding Opportunities   
+  </a><ul 
+ class='no-display'>
+ 
+<li   
+>
+<a href="/Exhibitor/Branding-Opportunities/Sponsorships"> Sponsorships  
+ 
+  </a><ul class="main-menu sf-js-enabled sf-shadow">
+ 
+    
+
+
+
+ </li>
+
+
+
+ </li>
+
+
+
+   </li>
+</ul>
+</li><li   
+>
+<a href="/Exhibitor/Branding-Opportunities/On-site-Branding"> On-site Branding  
+ 
+  </a></li><li   
+>
+<a href="/Exhibitor/Branding-Opportunities/Print-Advertising"> Print Advertising  
+ 
+  </a></li><li   
+>
+<a href="/Exhibitor/Branding-Opportunities/Direct-Mail-and-Online-Advertising"> Direct Mail and Online Advertising  
+ 
+  </a></li><li   
+>
+<a href="/Exhibitor/Branding-Opportunities/Complimentary"> Complimentary  
+ 
+  </a></li><li   
+>
+<a href="/Exhibitor/Branding-Opportunities/Export-Opportunities"> Export Opportunities  
+ 
+  </a></li><li   
+>
+<a href="/Exhibitor/Branding-Opportunities/Award-Submissions"> Award Submissions  
+ 
+  </a></li>
+</ul></li><li   
+>
+<a href="/Exhibitor/Media-and-PR-Opportunities"> 
+  
+  Media and PR Opportunities   
+  </a><ul 
+ class='no-display'>
+ 
+<li   
+>
+<a href="/Exhibitor/Media-and-PR-Opportunities/CES-Unveiled-Opportunities"> CES Unveiled Opportunities  
+ 
+  </a></li><li   
+>
+<a href="/Exhibitor/Media-and-PR-Opportunities/Media-Branding-Opportunities"> Media Branding Opportunities  
+ 
+  </a></li><li   
+>
+<a href="/Exhibitor/Media-and-PR-Opportunities/Complimentary-Media-Opportunities"> Complimentary Media Opportunities  
+ 
+  </a></li><li   
+>
+<a href="/Exhibitor/Media-and-PR-Opportunities/PR-Resources"> PR Resources  
+ 
+  </a><ul class="main-menu sf-js-enabled sf-shadow">
+ 
+    
+
+
+
+   </li>
+</ul>
+</li>
+</ul></li><li   
+class='left-up'>
+<a href="/Exhibitor/Show-Planning"> 
+  
+  Show Planning   
+  </a><ul 
+ >
+ 
+<li   class='left-current'
+>
+<a href="/Exhibitor/Show-Planning/Deadlines-checklist"> Deadline Checklist   
+ 
+  </a></li><li   
+>
+<a href="/Exhibitor/Show-Planning/Exhibitor-Manuals"> Exhibitor Manuals  
+ 
+  </a><ul class="main-menu sf-js-enabled sf-shadow">
+ 
+    
+
+
+
+ </li>
+
+
+
+ </li>
+
+
+
+ </li>
+
+
+
+   </li>
+</ul>
+</li><li   
+>
+<a href="/Exhibitor/Show-Planning/Exhibitor-Dashboard"> Exhibitor Dashboard  
+ 
+  </a></li><li   
+>
+<a href="/Exhibitor/Show-Planning/Official-CES-Vendors-and-Service-Providers"> Official CES Vendors and Service Providers  
+ 
+  </a></li>
+</ul></li><li   
+>
+<a href="/Exhibitor/Exhibitor-Education-Series"> 
+  
+  Exhibitor Education Series   
+  </a></li><li   
+>
+<a href="/Exhibitor/Contact-a-Sales-Representative"> 
+  
+  Contact a Sales Representative   
+  </a></li><li   
+>
+<a href="/Exhibitor/CEA-Member-Benefits-for-Exhibtors"> 
+  
+  CEA Member Benefits for Exhibitors   
+  </a></li>
+</ul>
+
+                </div>
+                
+
+            </div>
+            <div class="three-fourth">
+                <div class="body-content">
+                    <h1>Deadline Checklist </h1>
+
+                    <div class="breadcrumbs-article">
+                        <ul class="breadcrumbs-left">
+                            <li>
+                                <a id="p_lt_ctl06_pageplaceholder_p_lt_hypBChome" href="../../">Home</a></li>
+                            
+                            <li class="bread-div">|</li><li><a href="/Exhibitor/Show-Planning.aspx" class="CMSBreadCrumbsLink">Show Planning</a> </li><li class="bread-div">|</li><li> <span  class="CMSBreadCrumbsCurrentItem">Deadline Checklist </span>
+</li>
+                            
+                        </ul>
+                        <ul class="breadcrumbs-right">
+                           <li><span  class="st_sharethis_custom" displayText="ShareThis"><a >Share This</a></span></li>
+                            <li><a href="javascript:window.print()">Print This Page</a></li>
+                        </ul>
+                    </div>
+
+                    <p class="intro-innov">  </p>
+
+                    <div class="article-content-area">
+                      
+                      
+                      
+                      <div id="p_lt_ctl06_pageplaceholder_p_lt_pnlUpdateDLC">
+	
+                      <div class="deadline-table">
+<table>
+  <thead>
+  <tr>
+  <th><a href="?order=todo">Deadline</a></th> 
+  <th><a href="?order=venue">Venue</a></th>
+  <th><a href="?order=vendor">Vendor</a></th>
+  <th><a href="?order=date">Due Date</a></th>
+  </tr>
+  </thead>
+   <tbody><tr>	
+  <td>Meeting room addendum</td>
+  <td>All Venues</td>
+  <td>CES Sales</td>
+  <td>Tuesday, October 01, 2013</td>
+</tr><tr>	
+  <td>Sign Central Hall rigging <a href="http://www.freemanco.com/store/html/LVCC-Product-and-Services-Submission-and-Approvals.jsp?navId=1088&amp;dl=true&amp;showld=303564" target="_blank">addendum</a><br />
+<br />
+</td>
+  <td>LVCC</td>
+  <td>CES Sales</td>
+  <td>Tuesday, October 01, 2013</td>
+</tr><tr>	
+  <td>HPA Share form (if applicable)- email to&nbsp;<a href="mailto:sbanchek@ce.org?subject=HPA%20Share%20Form">sbanchek@ce.org</a>&nbsp;</td>
+  <td>Venetian Exhibit Suites</td>
+  <td>CES Sales</td>
+  <td>Tuesday, October 01, 2013</td>
+</tr><tr>	
+  <td>Directory Listing and logo for printed <em>Official Show Directory</em>- email to&nbsp;<a href="mailto:exhibit@cesweb.org?subject=Directory%20Listing%20and%20Logo">exhibit@cesweb.org</a>&nbsp;</td>
+  <td>All Venues</td>
+  <td>MapYourShow</td>
+  <td>Friday, October 11, 2013</td>
+</tr><tr>	
+  <td><a href="http://www.freemanco.com/store/showSpecific/ces2013/allVenues/specialtycontractors.jsp?vendorName=ARAMARK&amp;navId=2035&amp;dl=true&amp;showld=303564" target="_blank">Catering orders</a> - 15 percent early bird discount</td>
+  <td>LVCC</td>
+  <td>Aramark</td>
+  <td>Monday, October 28, 2013</td>
+</tr><tr>	
+  <td>International CES&nbsp;<a href="/Exhibitors/Branding-Opportunities/Print-Advertising.aspx"><em>Official Preshow Planne</em><em>r</em></a>&nbsp;ad materials due</td>
+  <td>All Venues</td>
+  <td>CTPG</td>
+  <td>Thursday, October 31, 2013</td>
+</tr><tr>	
+  <td>Submit floorplans to the LVCC Fire Marshal for approval- email to <a href="mailto:boothplans@lvcva.com">boothplans@lvcva.com</a></td>
+  <td>LVCC</td>
+  <td>LVCC</td>
+  <td>Thursday, October 31, 2013</td>
+</tr><tr>	
+  <td>Multiple guest authorization <a href="http://www.freemanco.com/forms/307037/multiple_guest_authorization_form.pdf" target="_blank">form</a></td>
+  <td>Venetian Exhibit Suites</td>
+  <td>Venetian Facility Services</td>
+  <td>Friday, November 01, 2013</td>
+</tr><tr>	
+  <td>Cleaning request <a href="http://www.freemanco.com/store/html/Venetian-Exhibit-Suites-Venetian-Services-Suite-Suite-Cleaning.jsp?navId=6104&amp;dl=true&amp;showld=307037" target="_blank">form</a></td>
+  <td>Venetian Exhibit Suites</td>
+  <td>Venetian Facility Services</td>
+  <td>Friday, November 01, 2013</td>
+</tr><tr>	
+  <td>Credit card authorization/bed removal notification <a href="http://www.freemanco.com/store/html/Venetian-Exhibit-Suites-Venetian-Services-Security-Deposit-and-Bed-Removal.jsp?navId=6107&amp;dl=true&amp;showld=307037" target="_blank">form</a></td>
+  <td>Venetian Exhibit Suites</td>
+  <td>Venetian Facility Services</td>
+  <td>Friday, November 01, 2013</td>
+</tr><tr>	
+  <td>Suite floorplan and furniture movement <a href="http://www.freemanco.com/store/html/Venetian-Exhibit-Suites-Venetian-Services-Furniture-Movement-Requests.jsp?navId=6108&amp;dl=true&amp;showld=307037" target="_blank">form</a></td>
+  <td>Venetian Exhibit Suites</td>
+  <td>Venetian Facility Services</td>
+  <td>Friday, November 01, 2013</td>
+</tr><tr>	
+  <td>Internet and telecomm <a href="http://www.freemanco.com/store/html/Venetian-Exhibit-Suites-Venetian-Services-Suite-Suite-Internet.jsp?navId=6112&amp;dl=true&amp;showld=307037" target="_blank">orders</a></td>
+  <td>Venetian Exhibit Suites</td>
+  <td>Venetian Telecomm</td>
+  <td>Friday, November 01, 2013</td>
+</tr><tr>	
+  <td>Venetian <a href="http://www.freemanco.com/store/html/Venetian-Exhibit-Suites-Venetian-Services-Suite-In-Suite-Hospitality-and-Dining-Services.jsp?navId=6114?dl=true&amp;showld=307037" target="_blank">in-suite dining</a></td>
+  <td>Venetian Exhibit Suites</td>
+  <td>Venetian In-Suite Dining</td>
+  <td>Friday, November 01, 2013</td>
+</tr><tr>	
+  <td>CES Unveiled NEW YORK- last day accepting <a href="http://www.cesweb.org/Events/CES-Unveiled/CES-Unveiled-NEW-YORK.aspx" target="_blank">applications</a></td>
+  <td>Metropolitan Pavilion, NY</td>
+  <td>CES Sales</td>
+  <td>Friday, November 08, 2013</td>
+</tr><tr>	
+  <td>Advance warehouse shipment- first day receiving for all exhibitor freight</td>
+  <td>All Venues</td>
+  <td>Freeman</td>
+  <td>Monday, November 11, 2013</td>
+</tr><tr>	
+  <td>Request to change target freight date</td>
+  <td>All Venues</td>
+  <td>Freeman</td>
+  <td>Thursday, November 14, 2013</td>
+</tr><tr>	
+  <td><em>Official CES Digital Imaging/Photography Preshow Planner </em>ad materials <a href="/Exhibitor/Branding-Opportunities/Print-Advertising.aspx">due</a></td>
+  <td>All Venues</td>
+  <td>CTPG</td>
+  <td>Thursday, November 14, 2013</td>
+</tr><tr>	
+  <td><a href="http://www.freemanco.com/store/html/LVCC-Product-and-Services-Submission-and-Approvals.jsp?navId=1088?dl=true&amp;showld=303564" target="_blank">Rigging</a>- preliminary plans for exhibitors 3,000 square feet or greater</td>
+  <td>LVCC</td>
+  <td>Freeman</td>
+  <td>Friday, November 15, 2013</td>
+</tr><tr>	
+  <td>International CES&nbsp;<a href="/Exhibitors/Branding-Opportunities/Print-Advertising.aspx"><em>Official Show Directory&nbsp;</em></a>and&nbsp;<a href="/Exhibitors/Branding-Opportunities/Print-Advertising.aspx"><em>Official Show Guide &amp; Conference Brochure</em></a>&nbsp;ad materials due</td>
+  <td>All Venues</td>
+  <td>CTPG</td>
+  <td>Tuesday, November 19, 2013</td>
+</tr><tr>	
+  <td><a href="http://www.freemanco.com/store/showSpecific/ces2013/allVenues/specialtycontractors.jsp?vendorName=ARAMARK&amp;navId=2035&amp;dl=true&amp;showld=303564" target="_blank">Catering orders</a>- 10 percent advance purchase discount</td>
+  <td>LVCC</td>
+  <td>Aramark</td>
+  <td>Thursday, November 28, 2013</td>
+</tr><tr>	
+  <td>Lead retrieval- early bird discount</td>
+  <td>All Venues</td>
+  <td>ITN</td>
+  <td>Friday, November 29, 2013</td>
+</tr><tr>	
+  <td><a href="http://www.freemanco.com/store/html/LVCC-Product-and-Services-Submission-and-Approvals.jsp?navId=1088?dl=true&amp;showld=303564" target="_blank">Rigging</a>- final plans for exhibitors 400 square feet or greater</td>
+  <td>LVCC</td>
+  <td>Freeman</td>
+  <td>Friday, November 29, 2013</td>
+</tr><tr>	
+  <td>Internet and telecomm <a href="http://www.freemanco.com/store/html/LVCC-Utilities-Internet-Data.jsp?navId=2027&amp;dl=true&amp;showld=303564" target="_blank">orders</a></td>
+  <td>LVCC</td>
+  <td>COX</td>
+  <td>Saturday, November 30, 2013</td>
+</tr><tr>	
+  <td>Security service <a href="http://www.freemanco.com/store/html/Venetian-Exhibit-Space-Utilities-Hiring-Booth-Security.jsp?navId=5130&amp;dl=true&amp;showld=303613" target="_blank">orders</a></td>
+  <td>Venetian Exhibit Space</td>
+  <td>COP Security</td>
+  <td>Sunday, December 01, 2013</td>
+</tr><tr>	
+  <td>Hanging sign <a href="http://www.freemanco.com/store/html/LVCC-Product-and-Services-Submission-and-Approvals.jsp?navId=1088&amp;dl=true&amp;showld=303564" target="_blank">orders</a></td>
+  <td>LVCC</td>
+  <td>Freeman</td>
+  <td>Monday, December 02, 2013</td>
+</tr><tr>	
+  <td><em>Official CES Daily</em> ad materials <a href="/Exhibitor/Branding-Opportunities/Print-Advertising.aspx">due</a></td>
+  <td>All Venues</td>
+  <td>TWICE</td>
+  <td>Wednesday, December 04, 2013</td>
+</tr><tr>	
+  <td>Security services orders</td>
+  <td>All Venues</td>
+  <td>SOA Security</td>
+  <td>Friday, December 06, 2013</td>
+</tr><tr>	
+  <td>Exhibitor insurance</td>
+  <td>All Venues</td>
+  <td>John Buttine Inc.</td>
+  <td>Friday, December 06, 2013</td>
+</tr><tr>	
+  <td>Pro-tect security orders</td>
+  <td>All Venues</td>
+  <td>Pro-tect Security</td>
+  <td>Monday, December 09, 2013</td>
+</tr><tr>	
+  <td>Exhibitor-appointed contractor (EAC) <a href="https://ces.itnint.com/2014/regonline/CreateAccount.aspx?stream=eac" target="_blank">registration</a></td>
+  <td>All Venues</td>
+  <td>CEA</td>
+  <td>Monday, December 09, 2013</td>
+</tr><tr>	
+  <td>Vehicle placement <a href="http://www.freemanco.com/forms/303564/vehicle_placement.pdf" target="_blank">order</a></td>
+  <td>All Venues</td>
+  <td>Freeman</td>
+  <td>Monday, December 09, 2013</td>
+</tr><tr>	
+  <td>Standard and specialty furnishings orders</td>
+  <td>All Venues</td>
+  <td>Freeman</td>
+  <td>Monday, December 09, 2013</td>
+</tr><tr>	
+  <td>Carpet orders</td>
+  <td>All Venues</td>
+  <td>Freeman</td>
+  <td>Monday, December 09, 2013</td>
+</tr><tr>	
+  <td>Labor orders</td>
+  <td>All Venues</td>
+  <td>Freeman</td>
+  <td>Monday, December 09, 2013</td>
+</tr><tr>	
+  <td>Exhibits and accesories orders</td>
+  <td>All Venues</td>
+  <td>Freeman</td>
+  <td>Monday, December 09, 2013</td>
+</tr><tr>	
+  <td>Freeman A/V equipment and labor orders</td>
+  <td>All Venues</td>
+  <td>Freeman AV</td>
+  <td>Monday, December 09, 2013</td>
+</tr><tr>	
+  <td>CES Meeting Place furniture and wall <a href="http://www.freemanco.com/store/browse/category/FOLSubcategoryContent.jsp?ownerId=fol&amp;categoryId=35&amp;nav=03&amp;navId=3066&amp;dl=true&amp;showld=307039" target="_blank">orders</a></td>
+  <td>CES Meeting Place</td>
+  <td>Freeman</td>
+  <td>Monday, December 09, 2013</td>
+</tr><tr>	
+  <td>Electrical <a href="http://www.freemanco.com/store/html/LVCC-Utilities-Electrical.jsp?navId=2022&amp;dl=true&amp;showld=303564" target="_blank">orders</a></td>
+  <td>LVCC</td>
+  <td>Freeman</td>
+  <td>Monday, December 09, 2013</td>
+</tr><tr>	
+  <td>Hanging <a href="http://www.freemanco.com/store/html/LVH-Product-and-Services-Submission-and-Approvals.jsp?navId=699&amp;dl=true&amp;showld=305627" target="_blank">sign</a></td>
+  <td>LVH</td>
+  <td>Encore</td>
+  <td>Monday, December 09, 2013</td>
+</tr><tr>	
+  <td>Complimentary hotel furnishings for meeting rooms</td>
+  <td>Venetian Exhibit Space</td>
+  <td>Venetian Facility Services</td>
+  <td>Friday, December 13, 2013</td>
+</tr><tr>	
+  <td>Electrical <a href="http://www.freemanco.com/store/html/LVH-Utilities-Electrical.jsp?navId=111&amp;dl=true&amp;showld=305627" target="_blank">orders</a></td>
+  <td>LVH</td>
+  <td>TSE Electrical</td>
+  <td>Tuesday, December 17, 2013</td>
+</tr><tr>	
+  <td>Internet, phone, electrical <a href="http://www.freemanco.com/store/html/Venetian-Exhibit-Space-Utilities-SES-Overview.jsp?navId=5134&amp;dl=true&amp;showld=303613" target="_blank">orders</a></td>
+  <td>Venetian Exhibit Space</td>
+  <td>SES</td>
+  <td>Tuesday, December 17, 2013</td>
+</tr><tr>	
+  <td>Hanging <a href="http://www.freemanco.com/store/html/Venetian-Exhibit-Space-Product-and-Services-Hanging-Signs-and-Riggin.jsp?navId=5069&amp;dl=true&amp;showld=305627" target="_blank">signs</a></td>
+  <td>Venetian Exhibit Space</td>
+  <td>SES</td>
+  <td>Tuesday, December 17, 2013</td>
+</tr><tr>	
+  <td><a href="http://www.freemanco.com/store/html/Venetian-Exhibit-Space-Utilities-Cleaning-Services.jsp?navId=51401&amp;dl=true&amp;showld=303613" target="_blank">Cleaning</a></td>
+  <td>Venetian Exhibit Space</td>
+  <td>SES</td>
+  <td>Tuesday, December 17, 2013</td>
+</tr><tr>	
+  <td>Advance warehouse deadline- LVCC/LVH exhibitor freight</td>
+  <td>LVCC/LVH</td>
+  <td>Freeman</td>
+  <td>Wednesday, December 18, 2013</td>
+</tr><tr>	
+  <td>Receive on-site space selection date and time via FedEx</td>
+  <td>LVCC/LVH Exhibit Space/Venetian Ballroom</td>
+  <td>CES Sales</td>
+  <td>Wednesday, December 18, 2013</td>
+</tr><tr>	
+  <td>Catering <a href="http://www.freemanco.com/store/html/Venetian-Exhibit-Space-Official-Suppliers-Catering-Services.jsp?navId=5118&amp;dl=true&amp;showld=303613" target="_blank">orders</a></td>
+  <td>Venetian Exhibit Space</td>
+  <td>Venetian Catering</td>
+  <td>Sunday, December 22, 2013</td>
+</tr><tr>	
+  <td>Internet and telephone <a href="http://www.freemanco.com/store/showSpecific/ces2013/allVenues/specialtycontractors.jsp?vendorName=ENCORE&amp;navId=114&amp;dl=true&amp;showld=305627" target="_blank">orders</a></td>
+  <td>LVH</td>
+  <td>Encore</td>
+  <td>Monday, December 23, 2013</td>
+</tr><tr>	
+  <td>CES Unveiled LAS VEGAS- last day accepting <a href="http://www.cesweb.org/Events/CES-Unveiled/CES-Unveiled-LAS-VEGAS.aspx">applications</a></td>
+  <td>Mandalay Bay</td>
+  <td>CES</td>
+  <td>Friday, December 27, 2013</td>
+</tr><tr>	
+  <td>Advance warehouse <a href="http://www.freemanco.com/store/html/Venetian-Exhibit-Space-Shipping-and-Material-Handling-Advance-Warehouse-Shipments.jsp?navId=5096&amp;dl=true&amp;showld=303613" target="_blank">deadline</a>- Venetian exhibitor freight</td>
+  <td>Venetian Exhibit Space</td>
+  <td>Freeman</td>
+  <td>Tuesday, December 31, 2013</td>
+</tr><tr>	
+  <td>Lead retrieval- preshow pricing</td>
+  <td>All Venues</td>
+  <td>ITN</td>
+  <td>Friday, January 03, 2014</td>
+</tr>    </tbody>
+  </table>
+ </div> <div id="p_lt_ctl06_pageplaceholder_p_lt_uvDeadlineChecklist_uniViewPager">
+
+	</div>
+                      
+</div>  
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+      <section>
+    <div id="footer">
+			<div class="container">
+            	<div class="footer-line"></div>
+				<div class="one-fifth">
+                  <p class="copyright">
+	Copyright &copy; 2003 - 2014 CEA. All rights reserved.</p>
+
+			    </div>
+			    <div class="one-sixth footer-div">
+                  <ul>
+	<li>
+		<a href="/about-us">About Us </a></li>
+	<li>
+		<a href="/contact-us">Contact Us</a></li>
+	<li>
+		<a href="/partners">Partners</a></li>
+</ul>
+
+				 </div>
+                 <div class="one-sixth footer-div">
+                  <ul>
+	<li>
+		<a href="/privacy">Privacy</a></li>
+	<li>
+		<a href="/sitemap">Sitemap</a></li>
+</ul>
+<br /><div style="font-size: .8em; color: #FFF;"><span id="p_lt_ctl09_whatServer_serverName">WEB-IIS10</span></div>
+				 </div>
+				 <div class="one-third languages">
+                    	
+                     <script type="text/javascript">
+
+
+
+  var _gaq = _gaq || [];
+
+  _gaq.push(['_setAccount', 'UA-3975226-4']);
+
+  _gaq.push(['_trackPageview']);
+
+
+
+  (function() {
+
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+
+  })();
+
+
+
+</script>​
+                </div>
+			</div>
+    </div>
+    </section>
+    </div>
+    </div>
+<!-- Start of Google Analytics script -->
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-3975226-4']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+<!-- End of Google Analytics script -->
+
+<!-- Start Pardot tracking script -->
+<script type="text/javascript"> 
+piAId = '27962'; 
+piCId = '2690'; 
+
+(function() { 
+function async_load(){ 
+var s = document.createElement('script'); s.type = 'text/javascript';
+s.src = ('https:' == document.location.protocol ? 'https://pi' : 'http://cdn') + '.pardot.com/pd.js'; 
+var c = document.getElementsByTagName('script')[0]; c.parentNode.insertBefore(s, c); 
+} 
+if(window.attachEvent) { window.attachEvent('onload', async_load); } 
+else { window.addEventListener('load', async_load, false); } 
+})(); 
+</script> 
+<!-- End Pardot tracking script -->
+
+    
+    
+
+<script type="text/javascript">
+//<![CDATA[
+(function() {var fn = function() {$get("manScript_HiddenField").value = '';Sys.Application.remove_init(fn);};Sys.Application.add_init(fn);})();//]]>
+</script>
+</form>
+</body>
+</html>
