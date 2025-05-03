@@ -1,0 +1,289 @@
+<HTML>
+<HEAD>
+
+<LINK REL="stylesheet" TYPE="text/css" HREF="menu.css">
+
+<SCRIPT TYPE="text/javascript" SRC="/ExpoCadVR2/js/menu.js"></SCRIPT>
+
+<SCRIPT TYPE="text/javascript">
+
+var MenuxmlDoc;
+var GroupxmlDoc;
+var GroupAssignxmlDoc;
+var ViewerxmlDoc;
+var zoom = "";
+
+function Init()
+{
+   if(navigator.appName.indexOf("Microsoft") == -1)
+      InitNS();
+   else
+      InitIE();
+}
+
+
+function InitNS()
+{
+   ExhibxmlDoc = document.implementation.createDocument("", "doc1", null) 
+   ExhibxmlDoc.onload = LoadGroupsNS;
+   ExhibxmlDoc.load("VR2_files/07ces/exhib.xml");
+}
+
+function LoadGroupsNS()
+{ 
+   GroupxmlDoc = document.implementation.createDocument("", "doc2", null) 
+   GroupxmlDoc.onload = LoadGroupAssignNS; 
+   GroupxmlDoc.load("VR2_files/07ces/group.xml"); 
+}
+
+function LoadGroupAssignNS()
+{ 
+   GroupAssignxmlDoc = document.implementation.createDocument("", "doc3", null) 
+   GroupAssignxmlDoc.onload = LoadMenuNS; 
+   GroupAssignxmlDoc.load("VR2_files/07ces/grpass.xml"); 
+}
+
+function LoadMenuNS()
+{
+   MenuxmlDoc = document.implementation.createDocument("", "doc4", null);
+   MenuxmlDoc.onload = DisplayList; 
+   MenuxmlDoc.load("VR2_files/07ces/menu.xml"); 
+}
+
+function InitIE()
+{
+   ExhibxmlDoc = new ActiveXObject("Microsoft.XMLDOM"); 
+   ExhibxmlDoc.async = false; 
+   ExhibxmlDoc.onreadystatechange = function () { if (ExhibxmlDoc.readyState == 4) LoadGroupsIE() };
+   ExhibxmlDoc.load("VR2_files/07ces/exhib.xml");
+}
+
+function LoadGroupsIE()
+{
+   GroupxmlDoc = new ActiveXObject("Microsoft.XMLDOM"); 
+   GroupxmlDoc.async = false;
+   GroupxmlDoc.onreadystatechange = function () { if (GroupxmlDoc.readyState == 4) LoadGroupAssignIE() };
+   GroupxmlDoc.load("VR2_files/07ces/group.xml");
+}
+
+function LoadGroupAssignIE()
+{
+   GroupAssignxmlDoc = new ActiveXObject("Microsoft.XMLDOM"); 
+   GroupAssignxmlDoc.async = false;
+   GroupAssignxmlDoc.onreadystatechange = function () { if (GroupAssignxmlDoc.readyState == 4) LoadMenuIE() };
+   GroupAssignxmlDoc.load("VR2_files/07ces/grpass.xml");
+}
+
+function LoadMenuIE()
+{
+   MenuxmlDoc = new ActiveXObject("Microsoft.XMLDOM"); 
+   MenuxmlDoc.async = false; 
+   MenuxmlDoc.onreadystatechange = function(){ if (MenuxmlDoc.readyState == 4) DisplayList() };
+   MenuxmlDoc.load("VR2_files/07ces/menu.xml");
+}
+
+function DisplayList()
+{
+   var menu = MenuxmlDoc.getElementsByTagName("MENU"); 
+   var ccount = menu[0].getElementsByTagName("BOOTHCOUNT");
+
+   if(ccount && ccount.length > 0)
+      DisplayGroupsNew();
+   else
+      DisplayGroupsOld();
+}
+
+function DisplayGroupsNew()
+{
+   var elist = ExhibxmlDoc.getElementsByTagName("EXHIBITORLIST");
+   var erec = elist[0].getElementsByTagName("EXHIBITOR");
+   var ename = elist[0].getElementsByTagName("NAME");
+   var ecustid = elist[0].getElementsByTagName("CUSTID");
+   var egroup = elist[0].getElementsByTagName("GROUP");
+   var ebooth = elist[0].getElementsByTagName("BOOTHID");
+
+   var glist = GroupxmlDoc.getElementsByTagName("GROUPLIST");
+   var grec = glist[0].getElementsByTagName("GROUP");
+   var gname = glist[0].getElementsByTagName("NAME");
+
+   var GAlist = GroupAssignxmlDoc.getElementsByTagName("GROUPASSIGNMENT");
+   var GArec = GAlist[0].getElementsByTagName("ASSIGNMENT");
+   var GAcustid = GAlist[0].getElementsByTagName("CUSTID");
+   var GAgroup = GAlist[0].getElementsByTagName("GROUP");
+
+   var TheList = document.getElementById('list');
+
+   var id = location.search;
+   id = id.substring(id.indexOf("=") + 1, id.length);
+
+   varCustID = "";
+   varCustIDtemp = "";
+
+   if(glist[0].childNodes.length > 0)
+   {
+      if((id * 1) < glist[0].childNodes.length)
+      {
+         var TheGroup = gname[id].firstChild.nodeValue + "";
+
+         var t = document.createElement("table");
+         var tb = document.createElement("tbody");
+         t.noWrap = true;
+
+         for(var i = 0; i < GArec.length; i++)
+         {
+               var grouptemp = GAgroup[i].firstChild.nodeValue + "";
+ 
+               if(grouptemp == TheGroup)
+               {
+		  varCustID = GAcustid[i].firstChild.nodeValue + "";
+
+         	  for(var k = 0; k < erec.length; k++)
+         	  {
+			varCustIDtemp = ecustid[k].firstChild.nodeValue + "";
+	
+			if(varCustIDtemp == varCustID)
+			{
+                  		var tr = document.createElement("tr");
+                  		var td = document.createElement("td");
+                  		td.innerHTML = "<A CLASS='ListValue' TARGET='_self' HREF='exhibdetail.html?id=" + ecustid[k].firstChild.nodeValue + "'>" + ename[k].firstChild.nodeValue  + "</A>";						
+                  		tr.noWrap = true;
+                  		td.noWrap = true;
+                  		tr.appendChild(td); 					
+                  		tb.appendChild(tr); 					
+                  		t.appendChild(tb);  
+                  		TheList.appendChild(t); 
+
+                  		if(zoom == "")
+                     			zoom = ebooth[k].firstChild.nodeValue + "";
+                  		else
+                     			zoom += ", " + ebooth[k].firstChild.nodeValue;	
+
+				break;
+			}
+		}
+               }	
+         }
+
+         var td = document.getElementById("td_name");
+         td.innerHTML = "<A CLASS='ListValue' HREF=\"javascript:ZoomBooth(zoom);\">" + TheGroup + "</A>";
+      }
+      else
+         window.open("group.html", "_self");
+   }
+   else
+      window.open("group.html", "_self");
+}
+
+
+function DisplayGroupsOld()
+{
+   var elist = ExhibxmlDoc.getElementsByTagName("EXHIBITORLIST");
+   var erec = elist[0].getElementsByTagName("EXHIBITOR");
+   var ename = elist[0].getElementsByTagName("NAME");
+   var ecustid = elist[0].getElementsByTagName("CUSTID");
+   var egroup = elist[0].getElementsByTagName("GROUP");
+   var ebooth = elist[0].getElementsByTagName("BOOTHID");
+
+   var glist = GroupxmlDoc.getElementsByTagName("GROUPLIST");
+   var grec = glist[0].getElementsByTagName("GROUP");
+   var gname = glist[0].getElementsByTagName("NAME");
+
+   var TheList = document.getElementById('list');
+
+   var id = location.search;
+   id = id.substring(id.indexOf("=") + 1, id.length);
+
+   if(glist[0].childNodes.length > 0)
+   {
+      if((id * 1) < glist[0].childNodes.length)
+      {
+         var TheGroup = gname[id].firstChild.nodeValue + "";
+
+         var t = document.createElement("table");
+         var tb = document.createElement("tbody");
+         t.noWrap = true;
+
+         for(var i = 0; i < erec.length; i++)
+         {
+            if (egroup[i].childNodes.length > 0)
+            {
+               var grouptemp = egroup[i].firstChild.nodeValue + "";
+ 
+               if(grouptemp == TheGroup)
+               {
+                  var tr = document.createElement("tr");
+                  var td = document.createElement("td");
+                  td.innerHTML = "<A CLASS='ListValue' TARGET='_self' HREF='exhibdetail.html?id=" + ecustid[i].firstChild.nodeValue + "'>" + ename[i].firstChild.nodeValue  + "</A>";						
+                  tr.noWrap = true;
+                  td.noWrap = true;
+                  tr.appendChild(td); 					
+                  tb.appendChild(tr); 					
+                  t.appendChild(tb);  
+                  TheList.appendChild(t); 
+
+                  if(zoom == "")
+                     zoom = ebooth[i].firstChild.nodeValue + "";
+                  else
+                     zoom += ", " + ebooth[i].firstChild.nodeValue;
+               }	
+            }
+         }
+
+         var td = document.getElementById("td_name");
+         td.innerHTML = "<A CLASS='ListValue' HREF=\"javascript:ZoomBooth(zoom);\">" + TheGroup + "</A>";
+      }
+      else
+         window.open("group.html", "_self");
+   }
+   else
+      window.open("group.html", "_self");
+}
+
+</SCRIPT>
+
+</HEAD>
+
+<BODY onLoad="Init();">
+
+<TABLE CELLPADDING="0" CELLSPACING="0">
+<TR>
+<TD>
+   <TABLE CLASS="tb_brdrcolor" BORDER="1" CELLPADDING="0" CELLSPACING="0" NOWRAP="true">
+   <TR>
+   <TD>
+      <TABLE CLASS="tb_bgcolor" WIDTH="100%" BORDER="0" CELLPADDING="8" CELLSPACING="0">
+      <TR>
+         <TD><A CLASS="toolbar" HREF="javascript:ListByName();">Exhibitors</A></TD>
+         <TD><A CLASS="toolbar" HREF="javascript:ListByGroup();">Groups</A></TD>
+         <TD><A CLASS="toolbar" HREF="javascript:ListByPavilion();">Pavilions</A></TD>
+         <TD><A CLASS="toolbar" HREF="javascript:ListByBooth();">Booths</A></TD>
+      </TR>
+      <TR>
+         <TD><A CLASS="toolbar" HREF="javascript:ListByFavorites();">Favorites</A></TD>
+         <TD><A CLASS="toolbar" HREF="javascript:PrintList();">Print</A></TD>
+      </TR>
+      </TABLE>
+   </TD>
+   </TR>
+   </TABLE>
+</TD>
+</TR>
+<TR>
+<TD>
+   <BR>
+   <TABLE CLASS="list_bgcolor" WIDTH="100%" BORDER="1" CELLPADDING="3" CELLSPACING="0" NOWRAP="true">
+   <TR NOWRAP="true">
+      <TD CLASS="title_bgcolor" NOWRAP="true"><SPAN CLASS="title">Group Name :</SPAN></TD>
+   </TR>
+   <TR NOWRAP="true">
+      <TD NOWRAP="true" ID="td_name"></TD>
+   </TR>
+   </TABLE>
+   <BR>
+   <DIV ID="list"></DIV>
+</TD>
+</TR>
+</TABLE>
+
+</BODY>
+</HTML>

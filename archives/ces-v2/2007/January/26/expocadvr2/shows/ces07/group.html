@@ -1,0 +1,129 @@
+<HTML>
+<HEAD>
+
+<LINK REL="stylesheet" TYPE="text/css" HREF="menu.css">
+
+<SCRIPT TYPE="text/javascript" SRC="/ExpoCadVR2/js/menu.js"></SCRIPT>
+
+<SCRIPT TYPE="text/javascript">
+
+var GroupxmlDoc;
+var ViewerxmlDoc;
+
+function Init()
+{ 
+   if(navigator.appName.indexOf("Microsoft") == -1)
+      InitNS();
+   else
+      InitIE();
+}
+
+function InitNS()
+{
+   ViewerxmlDoc = document.implementation.createDocument("", "doc1", null);
+   ViewerxmlDoc.load("viewer.xml"); 
+   ViewerxmlDoc.onload = LoadGroupNS; 
+}
+
+function LoadGroupNS()
+{
+   GroupxmlDoc = document.implementation.createDocument("", "doc2", null);
+   GroupxmlDoc.load("VR2_files/07ces/group.xml"); 
+   GroupxmlDoc.onload = DisplayList; 
+}
+
+function InitIE()
+{
+   ViewerxmlDoc = new ActiveXObject("Microsoft.XMLDOM"); 
+   ViewerxmlDoc.async = false; 
+   ViewerxmlDoc.onreadystatechange = function(){ if (ViewerxmlDoc.readyState == 4) LoadGroupIE() };
+   ViewerxmlDoc.load("viewer.xml");
+}
+
+function LoadGroupIE()
+{
+   GroupxmlDoc = new ActiveXObject("Microsoft.XMLDOM"); 
+   GroupxmlDoc.async = false; 
+   GroupxmlDoc.onreadystatechange = function(){ if (GroupxmlDoc.readyState == 4) DisplayList() };
+   GroupxmlDoc.load("VR2_files/07ces/group.xml");
+}
+
+function DisplayList()
+{
+   var event = ViewerxmlDoc.getElementsByTagName("EVENT");
+   var egroup = event[0].getElementsByTagName("GROUP");
+
+   var TheList = document.getElementById('list');
+
+   var glist = GroupxmlDoc.getElementsByTagName("GROUPLIST");
+   var grec = glist[0].getElementsByTagName("GROUP");
+   var gname = glist[0].getElementsByTagName("NAME");
+
+   var configgroup = egroup[0].firstChild.nodeValue;
+
+   if(configgroup == "1" && glist[0].childNodes.length > 0)
+   {
+      for(var i = 0; i < grec.length; i++)
+      {
+         var t = document.createElement("table");
+         var tb = document.createElement("tbody");
+         var tr = document.createElement("tr");
+         var td = document.createElement("td");
+         t.noWrap = true;
+         tr.noWrap = true;
+         td.noWrap = true;
+         td.innerHTML = "<A CLASS='ListValue' TARGET='_self' HREF='groupdetail.html?id=" + i + "'>" + gname[i].firstChild.nodeValue  + "</A>";				
+         tr.appendChild(td); 					
+         tb.appendChild(tr); 					
+         t.appendChild(tb);  
+         TheList.appendChild(t); 	
+      }
+   }
+   else
+   {
+      var t = document.createElement("table");
+      var tb = document.createElement("tbody");
+      var tr = document.createElement("tr");
+      var td = document.createElement("td");
+      td.innerHTML = "<SPAN CLASS='text'>No groups available.</SPAN>";
+      t.noWrap = true;
+      tr.noWrap = true;
+      td.noWrap = true;				
+      tr.appendChild(td); 					
+      tb.appendChild(tr); 					
+      t.appendChild(tb);  
+      TheList.appendChild(t); 
+   }
+}
+
+</SCRIPT>
+
+</HEAD>
+
+<BODY onLoad="Init();">
+
+<TABLE CLASS="tb_brdrcolor" BORDER="1" CELLPADDING="0" CELLSPACING="0" NOWRAP="true">
+<TR>
+<TD>
+   <TABLE CLASS="tb_bgcolor" WIDTH="100%" BORDER="0" CELLPADDING="8" CELLSPACING="0">
+   <TR>
+      <TD><A CLASS="toolbar" HREF="javascript:ListByName();">Exhibitors</A></TD>
+      <TD><A CLASS="seltoolbar" HREF="javascript:ListByGroup();">Groups</A></TD>
+      <TD><A CLASS="toolbar" HREF="javascript:ListByPavilion();">Pavilions</A></TD>
+      <TD><A CLASS="toolbar" HREF="javascript:ListByBooth();">Booths</A></TD>
+   </TR>
+   <TR>
+      <TD><A CLASS="toolbar" HREF="javascript:ListByFavorites();">Favorites</A></TD>
+      <TD><A CLASS="toolbar" HREF="javascript:PrintList();">Print</A></TD>
+   </TR>
+   </TABLE>
+</TD>
+</TR>
+</TABLE>
+
+<BR>
+
+<DIV ID="list"></DIV>
+
+</BODY>
+</HTML>
