@@ -1,0 +1,82 @@
+/*# App Page Styles #*/
+
+#inner-content-long .app { margin-bottom: 20px !important; }
+#inner-content-long .app .app-icon { text-align: center; width: 90px; float: left; }
+#inner-content-long .app .app-icon img { height: 50px; width: 50px; }
+
+#inner-content-long .app .app-main-column { width: 300px; margin: 0px 10px 0px 10px; float: left; }
+#inner-content-long .app .app-main-column .app-name { font-size: 16px; line-height: 20px; }
+#inner-content-long .app .app-main-column .app-author { display: block; font-family: 'Helvetica Neue Condensed', Helvetica, Arial, sans-serif; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=/hIEfix.png,sizingMethod=crop); zoom: 1; }
+#inner-content-long .app .app-main-column .description { position: relative; }
+#inner-content-long .app .app-main-column .description .short {  }
+#inner-content-long .app .app-main-column .description .short a.expand-description { display: block; }
+#inner-content-long .app .app-main-column .description .long { display: none; }
+
+#inner-content-long .app .app-links { overflow: hidden; width: 250px; float: right; }
+#inner-content-long .app .app-links .itunes-link { float: left; width: 115px; margin: 0px 5px 0px 0px; min-height: 1px; }
+#inner-content-long .app .app-links .itunes-link a { display: block; height: 36px; width: 115px; background: url('/cesweb/media/CESWeb/AppOfTheWeek/download_buttons_small.png') no-repeat; background-position: 0px 0px; }
+#inner-content-long .app .app-links .itunes-link a:hover { background-position: 0px -37px; }
+#inner-content-long .app .app-links .android-link { float: left; width: 100px; margin: 0px 0px 0px 5px; min-height: 1px; }
+#inner-content-long .app .app-links .android-link a { display: block; height: 36px; width: 100px; background: url('/cesweb/media/CESWeb/AppOfTheWeek/download_buttons_small.png') no-repeat; background-position: -128px 0px; }
+#inner-content-long .app .app-links .android-link a:hover { background-position: -128px -37px; }
+
+#inner-content-long .app.current .app-icon { width: 140px; margin: 0px 0px 0px 10px; }
+#inner-content-long .app.current .app-icon img { height: 100px; width: 100px; }
+#inner-content-long .app.current .app-main-column { width: 490px; }
+#inner-content-long .app.current .app-main-column .app-name { font-size: 18px; line-height: 22px; }
+#inner-content-long .app.current .app-links { width: 300px; }
+#inner-content-long .app.current .app-links .itunes-link { width: 150px; }
+#inner-content-long .app.current .app-links .itunes-link a { display: block; height: 49px; width: 150px; background: url('/cesweb/media/CESWeb/AppOfTheWeek/download_buttons_large.png') no-repeat; background-position: 0px 0px; }
+#inner-content-long .app.current .app-links .itunes-link a:hover { background-position: 0px -50px; }
+#inner-content-long .app.current .app-links .android-link { width: 120px; }
+#inner-content-long .app.current .app-links .android-link a { display: block; height: 49px; width: 120px; background: url('/cesweb/media/CESWeb/AppOfTheWeek/download_buttons_large.png') no-repeat; background-position: -170px 0px; }
+#inner-content-long .app.current .app-links .android-link a:hover { background-position: -170px -50px; }
+
+.app-popup {  }
+.app-popup .app-name { font-size: 22px; line-height: 35px; }
+.app-popup .app-author { font-family: 'Helvetica Neue Condensed', Helvetica, Arial, sans-serif; font-size: 18px; line-height: 26px; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=/hIEfix.png,sizingMethod=crop); zoom: 1; }
+.app-popup .description { width: 500px; }
+.app-popup .description .app-image { float: left; margin: 0px 10px 10px 0px; height: 50px; width: 50px; }
+.app-popup .app-links { overflow: hidden; }
+.app-popup .app-links .itunes-link { width: 115px; float: right; }
+.app-popup .app-links .itunes-link a { display: block; height: 36px; width: 115px; background: url('/cesweb/media/CESWeb/AppOfTheWeek/download_buttons_small.png') no-repeat; background-position: 0px 0px; }
+.app-popup .app-links .itunes-link a:hover { background-position: 0px -37px; }
+.app-popup .app-links .android-link { width: 100px; float: right; }
+.app-popup .app-links .android-link a { display: block; height: 36px; width: 100px; background: url('/cesweb/media/CESWeb/AppOfTheWeek/download_buttons_small.png') no-repeat; background-position: -128px 0px; }
+.app-popup .app-links .android-link a:hover { background-position: -128px -37px; }
+
+#inner-content-long .four-column-layout { margin: 0px 15px 0px 15px; overflow: hidden; }
+#inner-content-long .four-column-layout .one-column { width: 220px; float: left; min-height: 1px; margin: 0px 10px 0px 10px; }
+#inner-content-long .four-column-layout .two-column { width: 460px; float: left; min-height: 1px; margin: 0px 10px 0px 10px; }
+#inner-content-long .four-column-layout .three-column { width: 700px; float: left; min-height: 1px; margin: 0px 10px 0px 10px; }
+#inner-content-long .four-column-layout .left-inner-column { margin-left: 0px; }
+#inner-content-long .four-column-layout .right-inner-column { margin-right: 0px; }
+
+#inner-content-long .pad-top { margin-top: 30px !important; }
+ 
+/*# Fancy Box #*/
+.fancybox-tmp iframe, .fancybox-tmp object { vertical-align: top; padding: 0; margin: 0; }
+.fancybox-wrap { position: absolute; top: 0; left: 0; z-index: 8020; }
+.fancybox-skin { position: relative; padding: 0; margin: 0; background: #f9f9f9; color: #444; text-shadow: none; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; }
+.fancybox-opened { z-index: 8030; }
+.fancybox-opened .fancybox-skin { -webkit-box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5); -moz-box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5); box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5); }
+.fancybox-outer, .fancybox-inner { padding: 0; margin: 0; position: relative; outline: none; }
+.fancybox-inner { overflow: hidden; }
+.fancybox-type-iframe .fancybox-inner { -webkit-overflow-scrolling: touch; }
+.fancybox-error { color: #444; font: 14px/20px "Helvetica Neue",Helvetica,Arial,sans-serif; margin: 0; padding: 10px; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=/hIEfix.png,sizingMethod=crop); zoom: 1; }
+.fancybox-image, .fancybox-iframe { display: block; width: 100%; height: 100%; border: 0; padding: 0; margin: 0; vertical-align: top; }
+.fancybox-image { max-width: 100%; max-height: 100%; }
+#fancybox-loading, .fancybox-close, .fancybox-prev span, .fancybox-next span { background-image: url('/cesweb/media/CESWeb/assets/js/plugins/fancybox/fancybox_sprite.png'); }
+#fancybox-loading { position: fixed; top: 50%; left: 50%; margin-top: -22px; margin-left: -22px; background-position: 0 -108px; opacity: 0.8; cursor: pointer; z-index: 8020; }
+#fancybox-loading div { width: 44px; height: 44px; background: url('/cesweb/media/CESWeb/assets/js/plugins/fancybox/fancybox_loading.gif') center center no-repeat; }
+.fancybox-close { position: absolute; top: -18px; right: -18px; width: 36px; height: 36px; cursor: pointer; z-index: 8040; }
+.fancybox-nav { position: absolute; top: 0; width: 40%; height: 100%; cursor: pointer; background: transparent url('/cesweb/media/CESWeb/assets/js/plugins/fancybox/blank.gif'); /* helps IE */ -webkit-tap-highlight-color: rgba(0,0,0,0); z-index: 8040; }
+.fancybox-prev { left: 0; }
+.fancybox-next { right: 0; }
+.fancybox-nav span { position: absolute; top: 50%; width: 36px; height: 34px; margin-top: -18px; cursor: pointer; z-index: 8040; visibility: hidden; }
+.fancybox-prev span { left: 20px; background-position: 0 -36px; }
+.fancybox-next span { right: 20px; background-position: 0 -72px; }
+.fancybox-nav:hover span { visibility: visible; }
+.fancybox-tmp { position: absolute; top: -9999px; left: -9999px; padding: 0; overflow: visible; visibility: hidden; }
+
+/* Minification failed (line 66, error number 1062): Expected semicolon or closing curly-brace, found '.' */

@@ -1,0 +1,41 @@
+<div class="expand" style="width:700px; text-align: left;" id="SessionDetail${ID}">
+	<div class="header" style="width: 600px;">
+		<table><tr><td style="width: 160px">&nbsp;</td>
+		<td style="width: 346px"><div class="" style="text-align: center!important">
+		{{if TrackLogo.length > 0}}
+		<img alt="track" src="${TrackLogo}" />
+		{{/if}}
+		</div></td>
+		<td style="width: 160px" valign="top">
+		<div id="addToCart${Code}" class="cartItem"></div>
+		</td>
+		</tr></table>
+		<div class="sessionDate center" style="clear: both;">
+			<h3 style="text-align: center;">${Title}</h3>
+			{{html $item.formatDate(StartsOn, EndsOn)}}<br />
+			${Location}&nbsp;${Room}<br />
+		</div>
+		<div>
+		<div style="float: right;">{{html formatHelpers.displaySponsorLogos(SponsorLogos)}}</div>
+		<p>{{html SessionDescription}}</p>
+		</div>
+		<hr style="clear: both; width: 90%;" />
+	</div>
+	<div class="speakers">
+		{{if $data.Presenters.length > 0}}
+		<div class="presenter"><b>Presenter(s):&nbsp;</b><ul class="speaker">{{html $item.formatSpeaker(Presenters)}}</ul><br /></div>
+		{{/if}}
+		{{if $data.Moderators.length > 0}}
+		<div class="moderator"><b>Moderator(s):&nbsp;</b><ul class="speaker">{{html $item.formatSpeaker(Moderators)}}</ul><br /></div>
+		{{/if}}
+		{{if $data.Panelists.length > 0}}
+		<div class="panelist"><b>Panelist(s):&nbsp;</b><ul class="speaker">{{html $item.formatSpeaker(Panelists)}}</ul></div>
+		{{/if}}
+		{{if $data.Keynotes.length > 0}}
+		<div class="keynote"><b>Keynote:&nbsp;</b><ul class="speaker">{{html $item.formatSpeaker(Keynotes)}}</ul></div>
+		{{/if}}
+		{{if $data.Instructors.length > 0}}
+		<div class="instructor"><b>Instructor:&nbsp;</b><ul class="speaker">{{html $item.formatSpeaker(Instructors)}}</ul></div>
+		{{/if}}
+	</div>
+</div>

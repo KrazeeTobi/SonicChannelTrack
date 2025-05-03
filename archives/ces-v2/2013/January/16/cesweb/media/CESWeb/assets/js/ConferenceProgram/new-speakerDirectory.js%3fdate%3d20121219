@@ -1,0 +1,309 @@
+function bindNav(selectedControl) {
+	var ulControl; var altUlControl; var altControl; var selectedClass; var altClass; var navControl;
+	if (selectedControl == '#selectSpeakers') {
+	    ulControl = '#speakers';
+	    altUlControl = '#companies';
+		altControl = '#selectCompanies';
+		selectedClass = '.speakersList';
+		altClass = '.companiesList';
+		navControl = '#speakers-nav';
+	} else {
+	    ulControl = '#companies';
+	    altUlControl = '#speakers';
+		altControl = '#selectSpeakers';
+		selectedClass = '.companiesList';
+		altClass = '.speakersList';
+		navControl = '#companies-nav';
+	}
+
+	$(altUlControl).hide();
+	
+	// it's necessary to remove this before trying to bind the listnav plugin since it will keep adding the nav
+	// this should probably remove it conditionally but it doesn't seem to hurt to always remove it
+	$('#speakers-nav').children().remove('.ln-letters')
+	$('#companies-nav').children().remove('.ln-letters')
+	$(ulControl).listnav({
+			initLetter: 'a',
+			showCounts: false,
+			includeNums: false                   
+	});
+	$(ulControl).appendTo(navControl);
+	var $lnLast = $('.ln-letters').find('.ln-last');
+
+	$(ulControl).show();
+//	if ( $(selectedControl).css('background-color') == '#fff') {
+		$(selectedControl).css('background-color', '#c3dd38');
+		$(altControl).css('background-color', '#fff');
+//		$(altClass).hide();
+//		$(selectedClass).show();
+
+//	}
+}
+
+function speakerDirectorySearch() {
+	$('a.ln-selected').removeClass('ln-selected');
+	if (!$('#ln-search').length) {
+		jQuery('<a/>', { 
+				'id': 'ln-search',
+				'class': 'ln-selected ln-search',
+				'href': '#',
+				'text': 'Search'
+			}).insertBefore('a.all');
+	}
+	$("#speakers").children().hide();
+	$("#companies").children().hide();
+		var search = $("#searchInput").val();
+		var x = $("li:icontains('" + search + "')");
+		for(var i = 0; i < x.length; i++) {
+			$(x[i]).show().addClass('ln-search');
+		}
+	// this needs refactoring since it's also used in bindNav
+	var $lnLast = $('.ln-letters').find('.ln-last');
+	//$('#search').css('width',  300);
+}
+
+$.expr[':'].icontains = function(obj, index, meta, stack){ 
+	return (obj.textContent || obj.innerText || jQuery(obj).text() || '').toLowerCase().indexOf(meta[3].toLowerCase()) >= 0; 
+}; 
+function processData(speakerInfoData) {
+	var speakerInfo = _.first(_.first(speakerInfoData.cms_documents).event_speaker);
+	var sessionInfo = _.first(speakerInfoData.cms_documents);
+	var sessions = [];
+	$.each(sessionInfo.event_speaker, function(index, speaker){
+		sessions.push(speaker.AttendeeInteractiveSessionID);
+	});
+	var url = 'http://' + document.domain + '/rest/content/site/cesweb/en-us/all/Conference-Program/?classnames=event.session&format=json&Columns=AttendeeInteractiveSessionID,AttendeeInteractiveSessionID,Title,StartsOn,EndsOn&Where=AttendeeInteractiveSessionID%20in%20(' + sessions.join(',') + ')';
+	$.when ( $.getJSON("/CEA_CMS_Items/Handlers/getUrlHash.ashx", { 'url': url }) ).then ( 
+		function (hashedUrl){
+			$.when ( $.getJSON(hashedUrl) ).then(
+				function (sessionInfo){
+					$.when(
+						speakerInfo,
+						sessionInfo,
+						$.ajax("/cesweb/media/CESWeb/assets/js/ConferenceProgram/tmpl/new-speaker-tpl.htm"),
+						$.ajax("/cesweb/media/CESWeb/assets/js/ConferenceProgram/tmpl/speakerBio2-tpl.htm")
+					).then(displaySpeaker, failureFunc);
+				}
+			);
+		}
+	);
+}
+
+function displaySpeaker(speakerInfoData, sessionData, tmplSpeaker, tmplBio) {
+	var sessionInfo = _.first(sessionData.cms_documents).event_session;
+	speakerInfoData.Sessions = sessionInfo;
+	var speakerTemplate = _.first(tmplSpeaker);
+	var compiledTemplate = _.template(speakerTemplate, speakerInfoData);
+	$('body').css('cursor', 'auto');
+	$.fancybox({'content': $.tmpl(compiledTemplate, speakerInfoData), 'autodimension': false, 'height': 400, 'width': 600});
+
+}
+
+function failureFunc() { console.log('fail whale!'); }
+
+function displaySpeakerInfo(speakerObject, tmplSpeaker, tmplMinSpeaker) {
+	var speakerTemplate = _.first(tmplSpeaker);
+	var compiledTemplate = _.template(speakerTemplate, speakerObject);
+	$('body').css('cursor', 'auto');
+	$.fancybox({'content': $.tmpl(compiledTemplate, speakerObject), 'autodimension': false, 'height': 400, 'width': 600});
+}
+
+function createCompanyObject(spk, sessions, logos, sessionSpkrs) {
+	var company;
+	$.each(sessions, function(index, session){
+	
+	});
+}
+
+function createSpeakerObject(spk, sessions, logos, sessionSpkrs) {
+	var speaker = spk;
+	$.each(sessions, function(index, session){
+		var sessionSpeakers = [];
+		if (logos.length > 0)
+		{
+			for (var i=0; i<=logos.length;i++)
+			{
+				if (session.AttendeeInteractiveTrackID == logos[i].AttendeeInteractiveTrackID)
+				{
+					session.TrackLogo = logos[i].Logo;
+					break;
+				}
+			}
+		} else {
+			session.TrackLogo = "";
+		}
+		var keynoteArray = new Array(); var moderatorArray = new Array(); var panelistArray = new Array(); var presenterArray = new Array(); var instructorArray = new Array();
+		for (var i=0; i<=sessionSpkrs.length-1;i++)
+		{
+			if (session.AttendeeInteractiveSessionID == sessionSpkrs[i].AttendeeInteractiveSessionID)
+			{
+				var keynote = new Object(); var moderator = new Object(); var panelist = new Object(); 
+				var presenter = new Object(); var instructor = new Object();
+				switch( sessionSpkrs[i].role.toString().toLowerCase() )
+				{
+				case 'keynote':
+				  keynote.firstname = sessionSpkrs[i].firstname;
+				  keynote.lastname = sessionSpkrs[i].lastname;
+				  keynote.title = sessionSpkrs[i].title;
+				  keynote.company = sessionSpkrs[i].company;
+				  keynoteArray.push(keynote);
+				  break;
+				case 'moderator':
+				  moderator.firstname = sessionSpkrs[i].firstname;
+				  moderator.lastname = sessionSpkrs[i].lastname;
+				  moderator.title = sessionSpkrs[i].title;
+				  moderator.company = sessionSpkrs[i].company;
+				  moderatorArray.push(moderator);
+				  break;
+				case 'panelist':
+				  panelist.firstname = sessionSpkrs[i].firstname;
+				  panelist.lastname = sessionSpkrs[i].lastname;
+				  panelist.title = sessionSpkrs[i].title;
+				  panelist.company = sessionSpkrs[i].company;
+				  panelistArray.push(panelist);
+				  break;
+				case 'presenter':
+				  presenter.firstname = sessionSpkrs[i].firstname;
+				  presenter.lastname = sessionSpkrs[i].lastname;
+				  presenter.title = sessionSpkrs[i].title;
+				  presenter.company = sessionSpkrs[i].company;
+				  presenterArray.push(presenter);
+				  break;
+				case 'instructor':
+				  instructor.firstname = sessionSpkrs[i].firstname;
+				  instructor.lastname = sessionSpkrs[i].lastname;
+				  instructor.title = sessionSpkrs[i].title;
+				  instructor.company = sessionSpkrs[i].company;
+				  instructorArray.push(instructor);
+				  break;
+				}
+				sessionSpeakers.push(sessionSpkrs[i]);
+			}
+		}
+		session.Keynotes = keynoteArray;
+		session.Moderators = moderatorArray;
+		session.Panelists = panelistArray;
+		session.Presenters = presenterArray;
+		session.Instructors = instructorArray;
+//		speaker.SessionSpeakers = sessionSpeakers;
+		speaker.Keynotes = keynoteArray;
+		speaker.Moderators = moderatorArray;
+		speaker.Panelists = panelistArray;
+		speaker.Presenters = presenterArray;
+		speaker.Instructors = instructorArray;
+	});
+	speaker.Sessions = sessions;
+	return speaker;
+}
+
+function getJsonDate(jsonDate) {
+//	var jsonDate = jqueryCall();  // returns "/Date(1245398693390)/"; 
+	var re = /-?\d+/; 
+	var m = re.exec(jsonDate); 
+	var d = new Date(parseInt(m[0]));
+	d.setHours(d.getHours() + (d.getTimezoneOffset() / 60) - 5);
+	return d;
+}
+
+function formatSessionDate(d) {
+	var f = d.toString("MMM dd, yyyy h:mm tt");
+	return f.replace(':00', '').replace('PM', 'p.m.').replace('AM', 'a.m.');
+}
+$(document).ready(function(){
+	bindNav('#selectSpeakers');
+				
+	$("a.bio-link").click(function (e) {
+		$("body").css("cursor", "progress");
+		var url = '';
+		var speakerInfoData; var sessionsData; var logosData; var sessionSpeakersData;
+		var speakerID = $(this).attr('href').replace('#user-bio-', '');
+
+		url = 'http://' + document.domain + '/rest/content/site/cesweb/en-us/all/Conference-Program/?classnames=event.speaker&format=json&Columns=firstname,lastname,company,title,photo,biography,AttendeeInteractiveSessionID&Where=AttendeeInteractiveSpeakerID=' + speakerID;
+		var _speaker = getJson(url);
+		speakerInfoData = _.first(_.first(_speaker.cms_documents).event_speaker); 
+		var sessionInfo = _.first(_speaker.cms_documents).event_speaker;
+		var sessions = [];
+		$.each(sessionInfo, function(index, speaker){
+			sessions.push(speaker.AttendeeInteractiveSessionID);
+		});
+		
+		url = 'http://' + document.domain + '/rest/content/site/cesweb/en-us/all/Conference-Program/?classnames=event.session&format=json&Columns=AttendeeInteractiveTrackID,AttendeeInteractiveSessionID,Title,StartsOn,EndsOn,Location,Room,Description&Where=AttendeeInteractiveSessionID%20in%20(' + sessions.join(',') + ')';
+		var _sessions = getJson(url);
+		sessionsData = _.first(_sessions.cms_documents).event_session;
+		var tracks = []; var sessions = []; var sessionDates = [];
+		$.each(sessionsData, function(index, session){
+			tracks.push(session.AttendeeInteractiveTrackID);
+			sessions.push(session.AttendeeInteractiveSessionID);
+			session.FormattedDate = formatSessionDate( getJsonDate(session.StartsOn) );
+//			if ( $.inArray( d, sessionDates) < 0 ) {  sessionDates.push(d);  }
+		});
+		
+		url = 'http://' + document.domain + '/rest/content/site/cesweb/en-us/all/Conference-Program/?classnames=event.conferenceTrack&format=json&Columns=AttendeeInteractiveTrackID,Logo&Where=AttendeeInteractiveTrackID%20in%20(' + tracks.join(',') + ')';
+		var _logos = getJson(url);
+		if (_logos.cms_documents.length > 0) { logosData = _.first(_logos.cms_documents).event_conferenceTrack; } else { logosData = ""; }
+
+		url = 'http://' + document.domain + '/rest/content/site/cesweb/en-us/all/Conference-Program/?classnames=event.speaker&format=json&Columns=firstname,lastname,company,title,role,AttendeeInteractiveSessionID&Where=AttendeeInteractiveSessionID%20in%20(' + sessions.join(',') + ')';				
+		_sessionSpeakers = getJson(url);
+		sessionSpeakersData = _.first(_sessionSpeakers.cms_documents).event_speaker;
+
+		$.when(
+			createSpeakerObject(speakerInfoData, sessionsData, logosData, sessionSpeakersData),
+			$.ajax("/cesweb/media/CESWeb/assets/js/ConferenceProgram/tmpl/new-speaker-tpl.htm"),
+			$.ajax("/cesweb/media/CESWeb/assets/js/ConferenceProgram/tmpl/min-speaker-tpl.htm")
+		).then( displaySpeakerInfo );
+
+	});
+
+	function getJson(url) {
+		var ret = '';
+		$.ajax({  
+			url: "/CEA_CMS_Items/Handlers/getUrlHash.ashx",  
+			dataType: 'json', 
+			data: { 'url': url },
+			async: false,  
+			success: function(hashedUrl){  
+				$.ajax({  
+					url: hashedUrl,  
+					dataType: 'json',  
+					async: false,  
+					success: function(json){  
+						ret = json; 
+					}
+				});
+			},
+			failure: function(a,b,c) {
+				alert(a);
+			}
+		});  
+		return ret;
+		$.getJSON("/CEA_CMS_Items/Handlers/getUrlHash.ashx", { 'url': url }, function(hashedUrl) {
+			$.getJSON(hashedUrl, function (data) {
+				return data;
+			});
+		});			
+	}
+
+	$('#selectCompanies').live('click', function(event) {
+//		$(this).css('background-color', '#c3dd38');
+//		$('#selectSpeakers').css('background-color', '#fff');
+//		$('.speakersList').hide().removeClass('listNav');
+//		$('.companiesList').show().addClass('listNav');
+		bindNav('#selectCompanies');
+	});
+	$('#selectSpeakers').live('click', function(event) {
+//		$(this).css('background-color', '#c3dd38');
+//		$('#selectCompanies').css('background-color', '#fff');
+//		$('.companiesList').hide().removeClass('listNav');
+//		$('.speakersList').show().addClass('listNav');
+		bindNav('#selectSpeakers');
+	});
+	
+            $('#searchInput').live('keydown', function(event) {
+                if (event.keyCode == 13) {
+                    speakerDirectorySearch();
+                }
+            });
+            $('.searchButton').live('click', function(event) {
+                speakerDirectorySearch();
+            });
+});
