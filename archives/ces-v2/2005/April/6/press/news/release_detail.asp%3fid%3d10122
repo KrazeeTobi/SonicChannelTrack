@@ -1,0 +1,54 @@
+
+
+<SCRIPT language="javascript1.2">
+function newWin(urlString,pgNum)
+  {
+    var popupWindow;
+	urlString += "?pageID=" + pgNum;
+	
+    popupWindow = window.open(urlString,"","toolbar=yes,menubar=no,resizable=no,status=no,scrollbars=yes,location=no,directories=no,copyhistory=no,height=550,width=610,left=50,top=50");
+  }//  function for opening a new pop-up window for printing a page
+  
+ 
+function openNewWindow(strURL) {
+	window.name = "main";
+	
+	var newWindow = window.open(strURL,"newWindow", "toolbar=no,menubar=no,resizable=no,status=no,scrollbars=yes,location=no,directories=no,copyhistory=no,height=400,width=450,left=50,top=50");
+} //  function for opening a new pop-up window
+
+// javascript for e-mail this page tool - gets the url of the page the user is on before the e-mail page tool button is clicked
+	
+	function loadReferrer() {
+		referrerString = opener.document.location.href;
+		document.emailForm.page.value = referrerString;
+	}
+
+</SCRIPT>
+<div>		
+
+
+
+<span class="section_title">2003 Brings Largest International CES in History </span>
+
+<br><br>		
+<strong><i>Arlington, Virginia&nbsp;-&nbsp;12/5/2002</i></strong>
+<br><br>
+The 2003 International CES will feature a record-breaking amount of exhibit space surpassing 1.2 million net square feet, the Consumer Electronics Association (CEA) announced today.  The 2003 International CES, produced by CEA, runs January 9-12 in Las Vegas, Nevada. <p>
+
+"We are thrilled that the 2003 CES has surpassed our record breaking year in 2002 to claim the largest amount of exhibit space in our 36 year history," said CEA President and CEO Gary Shapiro.  "CES truly is the World Cup of technology.  Our show is as strong as ever with a healthy number of pre-registrants, a strong international presence and, of course, the latest and greatest in consumer technologies."<p>
+
+CES is North America's largest technology tradeshow by a factor of two.  The 2003 International CES will showcase the latest innovations from 2,000 international exhibitors in wireless communications, gaming, digital video, high-end or "extreme" audio, accessories, CE fashion, consumer technology networking, broadband, mobile electronics, content media, new business technology, delivery systems and the Internet.  <p>
+
+"Beyond our key retail and manufacturer audience, we've also reached out extensively this year to bring in more industry audience segments such as federal and state government, entertainment, travel, hospitality and higher education to name a few," said CEA Vice President, Events and Conferences Karen Chupka.  "CES is the key venue to network and conduct business with the industry elite who help fuel our global economy."<p>
+
+"Having a healthy 2003 International CES stresses the importance of the tradeshow industry on the overall worldwide economy," said Steven Hacker, president of the International Association for Exhibition Management (IAEM).   "IAEM continues to look to CES as a vital platform to network, conduct serious business and showcase new and innovative consumer electronics technologies that will keep the industry moving forward. The International CES demonstrates the enormous power and economic impact that exhibitions deliver to the nation and the world. We look forward to a great show in 2003."  <p>
+
+Online registration is now available at www.CESweb.org, the interactive source for CES information.<p>
+
+<b>About CEA:</b><br>
+The Consumer Electronics Association (CEA) represents more than 1,000 corporate members involved in the design, development, manufacturing, distribution and integration of audio, video, mobile electronics, wireless and landline communications, information technology, home networking, multimedia and accessory products, as well as related services that are sold through consumer channels. Combined, CEA's members account for more than $80 billion in annual sales.  CEA's resources are available online at www.CE.org, the definitive source for information about the consumer electronics industry.<p>
+
+CEA also sponsors and manages the International CES - Defining Technology's Future.  All profits from CES are reinvested into industry services, including technical training and education, industry promotion, engineering standards development, market research and legislative advocacy.
+<br><br>
+<!-- /text for main page -->
+
