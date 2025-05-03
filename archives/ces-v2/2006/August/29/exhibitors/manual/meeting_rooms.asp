@@ -1,0 +1,597 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head><!-- PageID 1110 - published by RedDot 6.5 - 6.5.2.14 - 16244 -->
+
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+
+<!-- INSERT PAGE TITLE HERE (immediately following gblPAGE_TITLE) -->
+<title>2007 International CES:&nbsp;Meeting & Demonstration Rooms</title>
+
+
+
+<META NAME="searchZone" CONTENT="exhibitor">
+
+<link rel="StyleSheet" href="/global_includes/css/mainMethod.css" type="text/css">
+<LINK REL="SHORTCUT ICON" HREF="http://www.easymovement.com/ces/favicon.ico">
+
+<!-- Browser detection script -->
+    <script src="/global_includes/js/browser_detection.js" type="text/javascript"></script>
+
+<SCRIPT language="javascript1.2">
+    function newWin(urlString,pgNum) {
+        var popupWindow;
+        urlString += "?pageID=" + pgNum;
+ 
+        popupWindow = window.open(urlString,"","toolbar=yes,menubar=no,resizable=no,status=no,scrollbars=yes,location=no,directories=no,copyhistory=no,height=550,width=618,left=50,top=50");
+    }  
+ 
+    function openNewWindow(strURL) {
+        window.name = "main";
+        var newWindow = window.open(strURL,"newWindow", "toolbar=no,menubar=no,resizable=no,status=no,scrollbars=yes,location=no,directories=no,copyhistory=no,height=400,width=450,left=50,top=50");
+    }
+
+    // Script for e-mail this page - gets the url of the page the user is on before the e-mail page tool button is clicked
+    function loadReferrer() {
+        referrerString = opener.document.location.href;
+        document.emailForm.page.value = referrerString;
+    }
+</SCRIPT>
+
+<!-- Rollover script (do we still need these?) --> 
+<script language="javascript1.2"> 
+    /* for graphical rollovers */
+   function rollOver(which,name) 
+    {
+    var on="/global_images/1.0/1.0_" + which + "_r.gif";
+    if(document.images) {document.images[which].src=on;}
+    else if (document.GetElementById){document.GetElementById(name).src=on;}
+    }
+   function rollOff(which) 
+    {
+    var on="/global_images/1.0/1.0_" + which + ".gif";
+    if(document.images){document.images[which].src=on;}
+    else if (document.GetElementById){document.GetElementById(which).src=on;}
+    }
+   function introllOver(which,name) 
+    {
+    var on="/global_images/1.0/1.0_" + which + "_r.gif";
+    if(document.images) {document.images[which].src=on;}
+    else if (document.GetElementById){document.GetElementById(name).src=on;}
+    }
+   function introllOff(which) 
+    {
+    var on="/global_images/1.0/1.0_" + which + ".gif";
+    if(document.images){document.images[which].src=on;}
+    else if (document.GetElementById){document.GetElementById(which).src=on;}
+    }
+   function snrollOver(which,name) 
+    {
+    var on="/global_images/1.0/1.0" + which + "_r.gif";
+    if(document.images) {document.images[which].src=on;}
+    else if (document.GetElementById){document.GetElementById(name).src=on;}
+    }
+   function snrollOff(which) 
+    {
+    var on="/global_images/1.0/1.0" + which + ".gif";
+    if(document.images){document.images[which].src=on;}
+    else if (document.GetElementById){document.GetElementById(which).src=on;}
+    }
+        
+    //do we still need this?   
+    function onLoadHandler() {
+       if( typeof(bodyOnLoadFunction) != 'undefined' ) {
+           return eval(bodyOnLoadFunction);
+       }
+    }
+</script>
+
+<script language="javascript">
+    <!--
+    var activeNavId=0;
+    var thisPageUrl='/exhibitors/manual/meeting_rooms.asp';
+    
+        var parentLinks=new Array('dummy');
+    
+    
+function checkActiveNav(theUrl) {
+    var linkUrl=theUrl;
+    var returnValue=false;
+    
+    if (linkUrl==thisPageUrl) {
+        returnValue=true;
+    } else if (parentLinks.length>2 && linkUrl==parentLinks[parentLinks.length-1]) {
+        returnValue=true;   
+    } else if (parentLinks.length>3 && linkUrl==parentLinks[parentLinks.length-2]) {
+        returnValue=true;
+    } else if (parentLinks.length>4 && linkUrl==parentLinks[parentLinks.length-3]) {
+        returnValue=true;
+    }
+    return returnValue;
+}
+//-->
+</script>
+
+    <style>
+        <!--
+            .exhibitorBGImg {
+                background-image: url('/global_images2005/exhibitor_bg.gif');
+            }
+           
+            .text_colored, .intro_copy, .section_title, .subhead, .body_title, .intro_dates, box10 {
+               color: #2B5492;
+            }
+            
+            .search_chars {
+                color: #F4FAFD;
+                font : normal 6px Arial, Helvetica, sans-serif;
+            }
+            
+        //-->
+    </style>
+
+</head>
+
+<body leftmargin='0' topmargin='0' rightmargin='0' bottommargin='0' marginwidth='0' onLoad="onLoadHandler();self.focus();"> 
+
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+    <tr>
+        <td width="50%" valign="top" class="exhibitorBGImg">&nbsp;</td>
+        <td valign="top" class="exhibitorBGImg">
+            <table width="770" cellspacing="0" cellpadding="0" border="0">
+                <!--RDExecute=asp-->
+<!-- blank 1 pixel row at top of page -->
+<tr>
+     <td width="10"><img src="/global_images2005/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+     <td width="140"><img src="/global_images2005/spacer.gif" alt="" width="140" height="1" hspace="0" vspace="0" border="0"></td>
+     <td width="10"><img src="/global_images2005/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+     <td width="10"><img src="/global_images2005/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+     <td width="380"><img src="/global_images2005/spacer.gif" alt="" width="380" height="1" hspace="0" vspace="0" border="0"></td>
+     <td width="10"><img src="/global_images2005/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+     <td width="10"><img src="/global_images2005/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+     <td width="190"><img src="/global_images2005/spacer.gif" alt="" width="190" height="1" hspace="0" vspace="0" border="0"></td>
+     <td width="10"><img src="/global_images2005/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+</tr>
+<!-- /blank 1 pixel row at top of page -->
+
+<!-- global navigation row - register, about, faqs, contact, and site map -->
+<tr>
+     <td width="10"></td>
+     <td width="140"></td>
+     <td width="10"></td>
+     <td width="10"></td>
+     <td width="600" colspan="5" class="nav_global"><img src="/global_images2005/spacer.gif" width="4" height="20" hspace="0" vspace="0" border="0" align="absmiddle"><img src="/global_images2005/spacer.gif" alt="" width="380" height="1" border="0"> <!-- | <!-- --><a href="/about_ces/default.asp">About CES</a> | <!-- --><a href="/faqs/default.asp">FAQs</a> | <!-- --><a href="/contact_us/default.asp">Contact Us</a> | <!-- --><a href="/sitemap.asp">Site Map</a><!-- --></td>
+</tr>
+<!-- /global navigation row - register, about, faqs, contact, and site map -->
+
+
+<!-- logo and banner image row -->
+
+<tr>
+     <td width="10"></td>
+     <td width="140"><a href="/default.htm"><img src="/global_images2005/CES_40annivMain.gif" alt="International CES" width="140" height="74" hspace="0" vspace="0" border="0"></a></td>
+     <td width="10"></td>
+     <td width="610" colspan="6"><img src="/global_images2005/2.0.banner.gif" alt="" width="610" height="74" border="0"></td>
+</tr>
+<!-- /logo and banner image row -->  
+
+<!-- primary navigation row -->
+<tr>
+     <td width="10"></td>
+     <td width="140"></td>
+     <td width="10"></td>
+     <td width="610" colspan="6" background="/global_images2005/spacer.gif"><a href="/attendees/default.htm" onmouseover="headerRollOver('tab_attendees', '/global_images2005/2.0_tab_attendees_r.gif');" onmouseout="headerRollOff('tab_attendees', '/global_images2005/2.0_tab_attendees.gif');"><img name="tab_attendees" id="tab_attendees" src="/global_images2005/2.0_tab_attendees.gif" alt="Attendees" width="70" height="27" hspace="0" vspace="0" border="0" ></a><a href="/exhibitors/default.htm" onmouseover="headerRollOver('tab_exhibitor', '/global_images2005/2.0_tab_exhibitor_r.gif');" onmouseout="headerRollOff('tab_exhibitor', '/global_images2005/2.0_tab_exhibitor.gif');"><img name="tab_exhibitor" id="tab_exhibitor" src="/global_images2005/2.0_tab_exhibitor.gif" alt="Exhibitor Services" width="118" height="27" hspace="0" vspace="0" border="0"></a><a href="/press/default.htm" onmouseover="headerRollOver('tab_press', '/global_images2005/2.0_tab_press_r.gif');" onmouseout="headerRollOff('tab_press', '/global_images2005/2.0_tab_press.gif');"><img name="tab_press" id="tab_press" src="/global_images2005/2.0_tab_press.gif" width="78" height="27" alt="Press" border="0"></a><a href="/international/default.htm" onmouseover="headerRollOver('tab_international', '/global_images2005/2.0_tab_international_r.gif');" onmouseout="headerRollOff('tab_international', '/global_images2005/2.0_tab_international.gif');"><img src="/global_images2005/2.0_tab_international.gif" width="134" height="27" alt="" border="0" name="tab_international" id="tab_international"></a><img src="/global_images2005/2.0_tab_right.gif" alt="" width="210" height="27" hspace="0" vspace="0" border="0"></td>
+</tr>
+<!-- /primary navigation row -->
+
+<!-- secondary navigation row -->
+<!-- SEARCH INCLUDE APPEARS HERE -->  
+
+
+<tr>
+    <td width="10"></td>
+    <form name="searchCESWeb" method="GET" action="http://googlebox.ce.org/search">
+    <td width="760" colspan="10"  background="/global_images2005/spacer.gif"  class="exhibitor3">
+
+<!-- table for secondary navigation and search box -->
+        <table cellspacing="0" cellpadding="0" border="0" width="760"  background="/global_images2005/spacer.gif" >
+        <tr>
+            <td class="exhibitor_second_nav" width="560"><!--&nbsp;|&nbsp;&nbsp;<!-- --><span id="secondaryNav22"><a href="/exhibitors/space/default.asp">Exhibit Space</a></span>
+<script>
+<!--
+if (checkActiveNav("/exhibitors/space/default.asp")) {
+    document.getElementById("secondaryNav22").className="exhibitor_sec_nav_active"
+}
+// -->
+</script>&nbsp;|&nbsp;&nbsp;<!-- --><span id="secondaryNav23"><a href="/exhibitors/promotions/default.asp">Promotions</a></span>
+<script>
+<!--
+if (checkActiveNav("/exhibitors/promotions/default.asp")) {
+    document.getElementById("secondaryNav23").className="exhibitor_sec_nav_active"
+}
+// -->
+</script>&nbsp;|&nbsp;&nbsp;<!-- --><span id="secondaryNav24"><a href="/exhibitors/resource_center/default.asp">Resource Center</a></span>
+<script>
+<!--
+if (checkActiveNav("/exhibitors/resource_center/default.asp")) {
+    document.getElementById("secondaryNav24").className="exhibitor_sec_nav_active"
+}
+// -->
+</script>&nbsp;|&nbsp;&nbsp;<!-- --><span id="secondaryNav295"><a href="/exhibitors/pr/default.asp">PR Help</a></span>
+<script>
+<!--
+if (checkActiveNav("/exhibitors/pr/default.asp")) {
+    document.getElementById("secondaryNav295").className="exhibitor_sec_nav_active"
+}
+// -->
+</script>&nbsp;|&nbsp;&nbsp;<!-- --><span id="secondaryNav98"><a href="/exhibitors/manual/default.asp">Manual</a></span>
+<script>
+<!--
+if (checkActiveNav("/exhibitors/manual/default.asp")) {
+    document.getElementById("secondaryNav98").className="exhibitor_sec_nav_active"
+}
+// -->
+</script>&nbsp;|&nbsp;&nbsp;<!-- --><span id="secondaryNav"><a href="/exhibitors/newsletter/default.asp">Newsletter</a></span>
+<script>
+<!--
+if (checkActiveNav("/exhibitors/newsletter/default.asp")) {
+    document.getElementById("secondaryNav").className="exhibitor_sec_nav_active"
+}
+// -->
+</script>&nbsp;|&nbsp;&nbsp;<!-- --><span id="secondaryNav2982"><a href="/exhibitors/smartbooth/default.asp">CES SmartBooth</a></span>
+<script>
+<!--
+if (checkActiveNav("/exhibitors/smartbooth/default.asp")) {
+    document.getElementById("secondaryNav2982").className="exhibitor_sec_nav_active"
+}
+// -->
+</script><!-- --></td>
+            <td width="173" align="right">
+
+<!-- Script for setting correct search box size -->
+    <script LANGUAGE="JavaScript">
+    <!--
+    if (is_nav4) {
+        document.write("<input size=20 ");
+    } 
+    else if (is_mac) {
+        document.write("<input size=30 ");
+    }
+    else if (is_safari) {
+        document.write("<input size=25 ");
+    }
+    else {
+        document.write("<input size=34 ");
+    }
+    document.write("type=\"text\" name=\"q\" value=\" Search CESweb.org\" class=\"exhibitorform\"  ONFOCUS=\"if(this.value==\' Search CESweb.org\')this.value=\'\'; headerRollOver(\'button_search\', \'/global_images2005/2.0.button_search_r.gif\');\" ONBLUR=\"if(this.value==\'\')this.value=\' Search CESweb.org\'; headerRollOff(\'button_search\', \'/global_images2005/2.0.button_search.gif\');\" >");
+    function checkSearch() {
+        var searchForm = document.searchCESWeb;
+                            
+        if(searchForm.SEARCH_STRING.value.search(/\S/) == -1) {
+            alert("Please enter text to search for.");
+            return;
+        }
+            searchForm.submit();
+        }
+    //-->
+    </script>
+    &nbsp;&nbsp;</td>
+            <td width="27"><img name="button_search"  src="/global_images2005/2.0.button_search.gif" alt="go" width="27" height="33" hspace="0" vspace="0" border="0" onmouseover="headerRollOver('button_search', '/global_images2005/2.0.button_search_r.gif');" onmouseout="headerRollOff('button_search', '/global_images2005/2.0.button_search.gif');" onClick="document.searchCESWeb.submit();"></td>
+        </tr>
+        </table>
+<!-- /table for secondary navigation and search box -->   
+
+    </td>
+        <input type="hidden" name="site" value="default_collection"/>
+        <input type="hidden" name="client" value="cesweb_org"/>
+        <input type="hidden" name="proxystylesheet" value="cesweb_org"/>
+        <input type="hidden" name="output" value="xml_no_dtd"/>
+    </form>
+</tr>
+<!-- /secondary navigation row -->
+
+<script language="JavaScript">
+        <!--
+        function headerRollOver(imgName, imgSrc) {
+            if(document.images) {document.images[imgName].src=imgSrc;}
+            else if (document.getElementById){document.getElementById(imgName).src=imgSrc;}
+        }
+        function headerRollOff(imgName, imgSrc) {
+            if(document.images){document.images[imgName].src=imgSrc;}
+            else if (document.getElementById){document.getElementById(imgName).src=imgSrc;}
+        }
+        //-->
+</script>
+
+<!-- colored row with section color 4 - 5 pixels high --> 
+<tr>
+     <td width="10"></td>
+     <td width="140"></td>
+     <td width="10"></td>
+     <td width="610" colspan="6"  background="/global_images2005/spacer.gif" class="exhibitor4"><img src="/global_images2005/spacer.gif" alt="" width="610" height="5" hspace="0" vspace="0" border="0"></td>
+ </tr>
+<!-- /colored row with section color 4 - 5 pixels high --> 
+  
+<!-- breadcrumb row -->
+<tr>
+    <td width="10"></td>
+    <td width="140"><a href="/exhibitors/resource_center/badges/" onmouseover="headerRollOver('register', '/global_images2005/2.0.register_r.gif');" onmouseout="headerRollOff('register', '/global_images2005/2.0.register.gif');"><img src="/global_images2005/2.0.register.gif" alt="Register" name="register" id="register" width="140" height="40" hspace="0" vspace="0" border="0"></a></td>
+    <td width="10"></td>  
+    <td width="10" background="/global_images2005/spacer.gif" class="exhibitor6"><img src="/global_images2005/spacer.gif" alt="" width="10" height="40" hspace="0" vspace="0" border="0"></td>
+    <td width="390" colspan="2" background="/global_images2005/spacer.gif" class="exhibitor6" valign="bottom"><span class="exhibitor_nav_breadcrumb">
+
+   <a href="/default.htm">Home</a>&nbsp;&gt;&nbsp;Meeting & Demonstration Rooms
+
+    </span><br><img src="/global_images2005/spacer.gif" height="8" width="1"></td>
+    <td width="200" background="/global_images2005/spacer.gif" colspan="2" class="exhibitor6"><img src="/global_images2005/2.0_print_mail.gif" width="115" height="40" alt="print - email" border="0"><a href="#" id="print_link" onmouseover="headerRollOver('button_print', '/global_images2005/2.0_button_print_r.gif');" onmouseout="headerRollOff('button_print', '/global_images2005/2.0_button_print.gif');" onclick="window.open('/print/exhibitors/manual/meeting_rooms.asp?', '_blank', 'status=yes,toolbar=yes,menubar=yes,scrollbars=yes,location=no,width=620');return false;"><img src="/global_images2005/2.0_button_print.gif" alt="Print" name="button_print" id="button_print" width="42" height="40" hspace="0" vspace="0" border="0"></a><a href="javascript:newWin('/global_includes/asp/email.asp');" id="mail_link" onmouseover="headerRollOver('button_mail', '/global_images2005/2.0_button_mail_r.gif');" onmouseout="headerRollOff('button_mail', '/global_images2005/2.0_button_mail.gif');"><img src="/global_images2005/2.0_button_mail.gif" alt="Email" name="button_mail" id="button_mail" width="42" height="40" hspace="0" vspace="0" border="0"></a></td>
+    <td width="10" background="/global_images2005/spacer.gif" class="exhibitor6">&nbsp;</td>
+</tr>
+<!-- /breadcrumb row --> 
+
+</table>
+<table width="770" cellspacing="0" cellpadding="0" border="0">
+
+<!-- main body row -->
+<tr>
+
+<!-- left column -->
+    <td width="10" rowspan="2"><img src="/global_images2005/spacer.gif" height="1" width="10"></td>
+    <td width="140" valign="top" rowspan="2"><img src="/global_images2005/spacer.gif" width="140" height="20" alt="" border="0"><br>
+
+<!-- left nav -->    
+    
+<!-- /left nav --> 
+
+<!-- CEA badge -->
+    <a href="http://www.ce.org" target="new" onmouseover="headerRollOver('leftAddedValue1110', '/global_images2005/2.0_logo_cea_r.gif');" onmouseout="headerRollOff('leftAddedValue1110', '/global_images2005/2.0_logo_cea.gif');"><img src="/global_images2005/2.0_logo_cea.gif" name="leftAddedValue1110" id="leftAddedValue1110" border="0"></a><br><img src="/global_images2005/spacer.gif" height="10" width="1">
+<!-- /CEA badge -->
+
+<!-- myCES banner 
+        <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="140" height="184">
+          <param name="movie" value="/global_includes/flash/banner-smartbooth.swf">
+          <param name="quality" value="high">
+          <embed src="/global_includes/flash/banner-smartbooth.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="140" height="184"></embed>
+        </object><br><img src="/global_images2005/spacer.gif" height="10" width="1">
+    /myCES banner -->
+
+<!-- left added value -->
+    
+    
+<!-- left added value -->
+
+    </td>
+    <td width="10" rowspan="2"><img src="/global_images2005/spacer.gif" height="1" width="10"></td>
+<!-- /left column -->
+
+
+
+<!-- main body content -->    
+    <td width="10" class="exhibitor7"><img src="/global_images2005/spacer.gif" height="1" width="10"></td>
+    <td width="100%" class="exhibitor7" valign="top">
+    <img src="/global_images2005/spacer.gif" height="10" width="1"><br>
+
+<!-- center content -->
+
+
+<img src="/global_images2005/spacer.gif" height="10" width="1"><br>
+
+<div class="body_title">Meeting & Demonstration Rooms<br><img src="/global_images2005/spacer.gif" height="16" width="1"></div>
+
+<div class="text">
+<!-- text for main page -->
+<a name="top"></a>
+
+<!-- in-page nav table -->
+
+<table class="exhibitor8" width="590" cellspacing="0" cellpadding="0" border="0">
+ <tr>
+     <td width="10"><img src="/global_images2005/in_page_up_left.gif" alt="" width="10" height="10" hspace="0" vspace="0" border="0"></td>
+     <td width="290"><img src="/global_images2005/spacer.gif" alt="" width="290" height="10" hspace="0" vspace="0" border="0"></td>
+     <td width="10"><img src="/global_images2005/spacer.gif" alt="" width="10" height="10" hspace="0" vspace="0" border="0"></td>
+     <td width="270"><img src="/global_images2005/spacer.gif" alt="" width="270" height="10" hspace="0" vspace="0" border="0"></td>
+     <td width="10"><img src="/global_images2005/in_page_up_right.gif" alt="" width="10" height="10" hspace="0" vspace="0" border="0"></td> 
+ </tr>
+ <tr>
+      <td>&nbsp;</td>
+      <td><span class="subhead">On this page:</span></td>
+      <td>&nbsp;</td>
+      <td>
+
+        <span class="subhead">Downloads:</span>
+
+    </td>
+ </tr>
+ <tr>
+      <td>&nbsp;</td>
+      <td valign="top" class="text">
+
+
+<!--/exhibitors/manual/2809.htm--><span class="nav_fourth_arrow"><b>&gt;&nbsp;&nbsp;</b></span><a href="#manual2809" class="inpagenav">Meeting Room/Area Definitions</a><BR>
+
+
+<!--/exhibitors/manual/2814.htm--><span class="nav_fourth_arrow"><b>&gt;&nbsp;&nbsp;</b></span><a href="#manual2814" class="inpagenav">NEW THIS YEAR!  Venetian Meeting Room Guidelines</a><BR>
+
+
+<!--/exhibitors/manual/1180.htm--><span class="nav_fourth_arrow"><b>&gt;&nbsp;&nbsp;</b></span><a href="#manual1180" class="inpagenav">Demonstration Rooms (D-Rooms) </a><BR>
+
+
+<!--/exhibitors/manual/2821.htm--><span class="nav_fourth_arrow"><b>&gt;&nbsp;&nbsp;</b></span><a href="#manual2821" class="inpagenav">Exhibit Suites at the Hilton, Venetian or Renaissance</a><BR>
+
+
+<!--/exhibitors/manual/2820.htm--><span class="nav_fourth_arrow"><b>&gt;&nbsp;&nbsp;</b></span><a href="#manual2820" class="inpagenav">CES Meeting Place</a><BR>
+
+
+<!--/exhibitors/manual/1179.htm--><span class="nav_fourth_arrow"><b>&gt;&nbsp;&nbsp;</b></span><a href="#manual1179" class="inpagenav">Exhibitor One-Day Meeting Rooms</a><BR>
+
+      </td>
+      <td>&nbsp;</td>
+      <td valign="top" class="text">
+
+
+<span class="nav_fourth_arrow"><b>&gt;&nbsp;&nbsp;</b></span><a href="/docs/Acoustic_room_brochure.pdf" target="new" class="inpagenav">GES Demonstration Room Brochure</a><BR>
+<span class="nav_fourth_arrow"><b>&gt;&nbsp;&nbsp;</b></span><a href="/docs/4_Exhibitor_Presentation_Request.doc" target="new" class="inpagenav">Exhibitor Presentation Request</a><BR>
+<span class="nav_fourth_arrow"><b>&gt;&nbsp;&nbsp;</b></span><a href="/docs/Applicationmtgrooms080105.doc" target="new" class="inpagenav">One Day Meeting Room Application</a><BR>
+
+      </td>
+      <td>&nbsp;</td>
+ </tr>
+ <tr>
+     <td width="10"><img src="/global_images2005/in_page_down_left.gif" alt="" width="10" height="10" hspace="0" vspace="0" border="0"></td>
+     <td width="290"><img src="/global_images2005/spacer.gif" alt="" width="290" height="10" hspace="0" vspace="0" border="0"></td>
+     <td width="10"><img src="/global_images2005/spacer.gif" alt="" width="10" height="10" hspace="0" vspace="0" border="0"></td>
+     <td width="270"><img src="/global_images2005/spacer.gif" alt="" width="270" height="10" hspace="0" vspace="0" border="0"></td>
+     <td width="10"><img src="/global_images2005/in_page_down_right.gif" alt="" width="10" height="10" hspace="0" vspace="0" border="0"></td>
+ </tr>
+</table>
+<!-- /in-page nav table -->
+
+
+<a name="manual2809"></a>
+<img src="/global_images2005/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"><br>
+
+<img src="/global_images2005/2.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"><br>
+<img src="/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+<span class="subhead">Meeting Room/Area Definitions</span>
+<br><br>
+The following is a variety of different meeting rooms and meeting areas that&nbsp; exist on the show floor and/or at each exhibit venue:
+<P><STRONG>Meeting Rooms at the Las Vegas Convention Center (LVCC)<BR></STRONG>Meeting rooms are located in the North, Central and South Halls at the LVCC.&nbsp;&nbsp;&nbsp; There are specific display rules and regulations for meeting rooms which are included in this section, as well as in an addendum that exhibitor’s sign.&nbsp; <BR>Note:&nbsp; custom displays are note permitted in the South Hall meeting rooms. </P>
+<P><STRONG>Meeting Rooms at the Venetian</STRONG><BR>The Venetian is connected to the Sands Expo and Convention Center, thus these meeting rooms are very convenient.&nbsp; Exhibitors may use these rooms for display purposes or for meetings.</P>
+<P><STRONG>Exhibitor Presentation Rooms</STRONG><BR>Exhibitors can showcase products to a captive audience at the LVCC.&nbsp; Rates and details are highlighted in the Exhibitor Presentation application which can be found in the Marketing section of this manual.</P>
+<P><STRONG>D-Rooms</STRONG><BR>A D-Room is acoustically designed for sound or demonstration purposes.&nbsp; Each D-Room comes pre-packaged with a set amount of electrical, lighting and ventilation for the exhibitor’s convenience.&nbsp; These rooms are contracted by CES Sales and built by GES.&nbsp; A detailed brochure is included in the back of this section for your review.&nbsp; </P>
+<P><STRONG>CES Meeting Place</STRONG><BR>Both the LVCC and Sands have a CES Meeting Place on the show floor.&nbsp; This pavilion features exclusive hospitality suites that deliver a private meeting or display area to suit your specific needs.&nbsp; </P>
+<P><STRONG>Exhibit Suites<BR></STRONG>These are actual hotel suites located at the Las Vegas Hilton, Renaissance Hotel and Venetian.&nbsp; Exhibit Suites are to be used for meetings or as hospitality purposes only.&nbsp; Absolutely no exhibits may be constructed or installed due to hotel staffing and freight accessibility restraints.&nbsp; The hotel is unable to add or remove any furniture from suites.&nbsp; Exhibitors may not ship or bring outside furniture (couches, televisions, coffee tables, etc.)<BR>Rules and regulations for these suites were included on the addendum you signed when contracting for space with CES Sales. </P>
+<P><STRONG>Exhibitor One-Day Meeting Rooms</STRONG><BR>One-day meeting rooms are only available at the Riviera Hotel.&nbsp; These rooms are available to exhibitors wishing to conduct a one-day meeting, event, reception, etc.&nbsp; Meeting space is assigned on a first-come, first-serve basis via an&nbsp; application which is included in the back of this section.</P>
+<br><img src="/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+[<a href="#top">back to top</a>]<br><a name="manual2814"></a>
+<img src="/global_images2005/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"><br>
+
+<img src="/global_images2005/2.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"><br>
+<img src="/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+<span class="subhead">NEW THIS YEAR!  Venetian Meeting Room Guidelines</span>
+<br><br>
+Exhibitors occupying meeting space at the Venetian must abide by the following rules and regulations.<BR><BR>All Venetian meeting room exhibitry must have a floor plan that has been approved by the Clark County Fire Marshal’s Office.&nbsp; Please submit your floor plans at least 90 days in advance of set up to:<BR>
+<TABLE cellSpacing=1 cellPadding=1 width="30%" align=center border=0>
+<TBODY>
+<TR class=exhibitor11>
+<TD>Clark County Fire Marshal<BR>575 E. Flamingo Rd.<BR>Las Vegas, NV 89119<BR>phone: (702) 455-7023<BR>fax: (702) 455-7347</TD></TR></TBODY></TABLE><BR>Please also send a copy of your approved Fire Marshal plans to:<BR>- Rachel Bender, Venetian Conference Manager, phone: (702) 414-1530, fax: (702) 414-4808, and <BR>- Gaiya Sims, CES Operations Manager, phone: (703) 907-7685, fax: (703) 907-8130. 
+<OL>
+<LI>Exhibitors that have purchased one of the Bellini meeting rooms will be able to begin moving into their assigned room(s) on Wednesday, January 4 at 12 noon.&nbsp; Tear down in these rooms will begin at 3 p.m. on Sunday, January 8.&nbsp; All freight/materials must be completely removed by 10 p.m.&nbsp; We strongly encourage you to ship your freight/materials to the GES Advance Warehouse.&nbsp; Shipping to the Advance Warehouse will ensure that your freight is delivered to your room prior to 12 noon on January 4.&nbsp; If you ship direct to show site, your freight will be subject to waiting times at the marshaling yard and freight docks.&nbsp; Additional Advance Warehouse shipment information can be found in your Exhibitor Manual.&nbsp; You may also contact GES with questions at (702) 515-5741 or via e-mail at <A href="mailto:cesfreight@ges.com.">cesfreight@ges.com.</A> </LI>
+<LI>Flash Forward exhibitors can begin moving into the Galileo Ballroom at 12 noon on Thursday, January 5.&nbsp; Please keep in mind that the Flash Forward event will begin on Friday morning (January 6), therefore you must have your exhibit completely set the night before.&nbsp; Final touches only can be made the morning of the event.&nbsp; Tear down will begin the same day at 6 p.m.&nbsp; All freight/materials must be completely removed by 10 p.m.&nbsp; We strongly encourage you to ship your freight/materials to the GES Advance Warehouse.&nbsp; Shipping to the Advance Warehouse will ensure that your freight is delivered to your room prior to 12 noon on January 5.&nbsp; If you ship direct to show site, your freight will be subject to waiting times at the marshaling yard and freight docks.&nbsp; Additional Advance Warehouse shipment information can be found in your Exhibitor Manual.&nbsp; You may also contact GES with questions at (702) 515-5741 or via e-mail at <A href="mailto:cesfreight@ges.com">cesfreight@ges.com</A>. </LI>
+<LI>Specialized Event Services (SES) is the exclusive provider of all electrical, telecommunications, Internet, catering and rigging at the Venetian.&nbsp; Please see the SES Service Brochure in your Exhibitor Manual under the “Sands Utilities” tab for a detailed listing of services.&nbsp; You may also contact them at (702) 533-5070 or visit them on-line at <A href="http://www.sandsexpo.com" target=_blank>www.sandsexpo.com</A> to receive a cost estimate. </LI>
+<LI>Carpet may be installed on top of existing carpet in the meeting rooms.&nbsp; Visqueen must be placed between the existing carpet and the carpet being installed.&nbsp; Do not use any visqueen with pre-adhesives.&nbsp; Only non-residue tape may be used to secure the carpet in place.&nbsp; Make sure there are no trip hazards.&nbsp;&nbsp; All installed carpeting and visqueen must be removed during move-out. </LI>
+<LI>When moving freight or equipment in these meeting rooms, the existing carpet must be protected by the use of approved runners or visqueen (lightweight, plastic covering). </LI>
+<LI>All items to be hung from the ceiling must be submitted in writing and submitted to SES 30 days prior to your arrival.&nbsp; All items hung from the ceiling must be installed by SES.&nbsp; Labor charges will apply.&nbsp; Nothing is to be placed against or leaned against any wall in the meeting rooms.&nbsp; A two (2) foot distance must be maintained between the wall and any object.&nbsp; Absolutely nothing may be attached to the airwall tracks at any time.&nbsp; Rigging, hanging signs and affixing signs to the existing permanent walls is not permitted. </LI>
+<LI>No structures erected in these rooms may have any type of ceiling.&nbsp; </LI>
+<LI>When constructing any wall units, care must be used not to obstruct any of the HVAC &nbsp;&nbsp;controls, light controls, electrical outlets, cable TV outlets or sound outlets.&nbsp; Walls must be 18 inches below automatic fire sprinkler heads. </LI>
+<LI>Fire extinguishers, fire hose cabinets, fire alarm pull stations, and exit signage must not be blocked and must remain visible. </LI>
+<LI>Exhibitors may not use or have access to any existing storage closets and utility rooms within the meeting room. </LI>
+<LI>All persons who are in the process of designing exhibits or displays for these meeting rooms are encouraged to contact the Clark County Fire Marshal’s Office at (702) 455-7023 for clarification of all rules and regulations.&nbsp; All plans must be submitted to the Fire Marshal for final approval. </LI>
+<LI>Electrical service is limited in the meeting rooms.&nbsp; Exhibitors must contact SES in advance to arrange for their electrical requirements.&nbsp; SES can be reached at (702) 733-5070. </LI>
+<LI>Exterior room signage may not extend more than two (2) feet into the corridor, must be adjacent to the room’s permanent outside wall, and must have prior written approval from CES Operations.&nbsp; This design must also be included in your submitted layout to Rachel Bender and Gaiya Sims, as listed above.&nbsp; Displays of any kind may not be set up in corridors outside meeting rooms. </LI>
+<LI>Any damages are the sole responsibility of the exhibiting company. </LI>
+<LI>Keys to each Venetian Hotel meeting room will be held in the CES security office (room 101, lower level of the Sands).&nbsp; There is a $100 deposit per key.&nbsp;&nbsp; The deposit will be refunded at the end of the show when the keys are returned.&nbsp; All keys must be signed in and out through the security office. The keys are the sole responsibility of the exhibiting company. Although exhibitors maintain responsibility of the keys, exhibitors should still plan to secure valuables as the majority of meeting rooms are joined by airwall doors that cannot be locked and Venetian in-house services may also have access to these rooms. </LI>
+<LI>Meeting room floor plans are available upon request.&nbsp; Contact CES Operations at (703) 907-7685 or <A href="mailto:gsims@CE.org">gsims@CE.org</A>. </LI>
+<LI>Measurements may not be exact.&nbsp; If you are planning a display with specific size requirements, we strongly recommend you or your EAC measure the room(s) in person.</LI></OL>
+<br><img src="/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+[<a href="#top">back to top</a>]<br><a name="manual1180"></a>
+<img src="/global_images2005/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"><br>
+
+<img src="/global_images2005/2.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"><br>
+<img src="/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+<span class="subhead">Demonstration Rooms (D-Rooms) </span>
+<br><br>
+The purpose of a D-Room or acoustic sound room is to allow audio and home theater exhibitors the opportunity to rent a prefabricated package for demonstration of their products. Each D-Room comes pre-packaged with a set amount of electrical, lighting, and ventilation for the exhibitor's convenience. <BR><BR>Packages offered are as follows: 
+<UL>
+<LI class=exhibitor11><STRONG>3.5m x 5m = 11.48' x 16.40'</STRONG> <BR>Includes: 1 door, 1 fan, 1 electrical outlet (1500 watts), 4 lights on 2 ceiling tracks </LI>
+<LI><STRONG>5m x 7m = 16.40' x 22.97'</STRONG> <BR>Includes: 1 door, 2 fans, 2 electrical outlets (1500 watts each), 8 lights on 4 ceiling tracks </LI>
+<LI class=exhibitor11><STRONG>7m x 10m = 22.97' x 32.81'</STRONG> <BR>Includes up to: 2 doors, 4 fans, 4 electrical outlets (1500 watts each), 16 lights on 8 ceiling tracks </LI></UL><BR><STRONG>Plus:</STRONG> 
+<UL>
+<LI class=exhibitor11>One (1) smoke detector </LI>
+<LI>One (1) fire detector </LI>
+<LI class=exhibitor11>One (1) door with lock </LI>
+<LI>One (1) 2000 watt duplex electrical outlet </LI>
+<LI class=exhibitor11><B>NOTE:</B> All interior and exterior walls are a neutral color. Graphics may be used on the interior and exterior walls. Carpet is not included, but may be ordered at a special price to include installation and removal.&nbsp; Information on ordering carpet can be found&nbsp;in the <A href="/exhibitors/manual/1608.asp"><STRONG>GES Order Forms</STRONG> </A>section or at&nbsp;<A href="http://www.ges.com/">http://www.ges.com/</A>.</LI></UL><BR><BR><B>IMPORTANT:</B> Project management fees apply to all structural modifications. Exhibitors will not receive credit for items included in their package(s), but not utilized within that package. Each exhibitor is responsible for approving their D-Room layout (i.e.: interior walls, removal of walls, and plexiglass panel placement). <BR><BR><B>Your completed order and final floor plans are due to GES Exposition Services by November 11, 2005. Orders submitted or altered after this deadline will be subject to additional charges.</B><BR><BR>A GES Representative will be contacting each D-Room exhibitor to discuss material handling arrangements. Use the <STRONG><A href="/docs/Acousticroombrochure.pdf">D-Room brochure</A> </STRONG>for&nbsp;placement for outlet(s), fan(s), lights, and door(s) included in the D-Room package.&nbsp;&nbsp;&nbsp;Place additional electrical orders in the <STRONG>GES Order Forms </STRONG>section or with the&nbsp;<A href="/docs/13SESBrochure(1).pdf"><STRONG>SES brochure</STRONG>&nbsp;</A>for Sands exhibitors. Exhibitors may also use the form at the top of the page to order additional equipment and/or make changes to the structural layout of the room within the guidelines below. <BR><BR><B>QUESTIONS</B> regarding D-rooms? Contact John Nalbor at GES at (702) 515-5635, fax (702) 515-5833&nbsp;or e-mail <A href="mailto:jnalbor@GES.com">jnalbor@GES.com</A>. <BR><SPAN class=subhead><BR>D-Room Guidelines</SPAN> 
+<UL>
+<LI class=exhibitor11>Exhibitors may not make any modifications to the structure of the 3.5m x 5m D-Rooms. </LI>
+<LI>Any D-Rooms larger than 1000 square feet must have a fire sprinkler system and a 10' aisle drawn into the D-Room design. </LI>
+<LI class=exhibitor11>Using plexiglass alters the sound absorbing qualities of the demonstration rooms. D-Rooms using plexiglass must adhere to the 85 dB sound rules. <B>NOTE:</B> When demonstrating audio equipment within an enclosed demonstration room, position subwoofers away from walls that abut neighboring exhibitors. Sonic vibration nuisance complaints will be acted upon by Show Management; if situations are not rectified by the offending party, Show Management reserves the right to shut down exhibits. </LI>
+<LI>Signage may be placed on the exterior walls of the D-Rooms to a maximum height of 8 feet. Signage is not permitted on top of any D-Rooms smaller than 7m x 10m. Any requests for hanging signs over D-Rooms must adhere to hanging sign regulations in the International CES Exhibitor manual, and must be coordinated through GES for LVCC exhibitors SES for Sands&nbsp;exhibitors.</LI></UL>
+<br><img src="/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+[<a href="#top">back to top</a>]<br><a name="manual2821"></a>
+<img src="/global_images2005/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"><br>
+
+<img src="/global_images2005/2.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"><br>
+<img src="/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+<span class="subhead">Exhibit Suites at the Hilton, Venetian or Renaissance</span>
+<br><br>
+If you are contracted for a suite at the Hilton, Renaissance or Venetian, please refer to the&nbsp; 2006 Space Contract Terms and Conditions Addendum for rules, regulations and hotel policies.&nbsp; Further questions about these suites can be directed to Tara Zimmer at <A href="mailto:tzimmer@CE.org">tzimmer@CE.org</A> or call (703) 907-4307.
+<br><img src="/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+[<a href="#top">back to top</a>]<br><a name="manual2820"></a>
+<img src="/global_images2005/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"><br>
+
+<img src="/global_images2005/2.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"><br>
+<img src="/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+<span class="subhead">CES Meeting Place</span>
+<br><br>
+Questions about CES Meeting Place can be directed to Brian Moon with CES Sales at (703) 907-7618 or e-mail <A href="mailto:bmoon@CE.org">bmoon@CE.org</A>.
+<br><img src="/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+[<a href="#top">back to top</a>]<br><a name="manual1179"></a>
+<img src="/global_images2005/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"><br>
+
+<img src="/global_images2005/2.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"><br>
+<img src="/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+<span class="subhead">Exhibitor One-Day Meeting Rooms</span>
+<br><br>
+One-day meeting rooms are only available&nbsp;at the&nbsp;Riviera Hotel. Meeting space is extremely limited and is only available to official CES exhibitors looking for one-day functions and/or meetings.&nbsp;Unfortunately, no meeting space is available at the LVCC or Las Vegas Hilton.&nbsp; Contact CES sales at <A href="mailto:psydnor@CE.org">psydnor@CE.org</A> for availability at the Sands or Venetian.&nbsp; <BR><BR>Download the <A href="/docs/Applicationmtgrooms080105.doc" target=new>One-Day Exhibitor Meeting Room Application.</A> 
+<UL>
+<LI><STRONG>Meeting space will be assigned on a first-come, first-serve basis and will be charged $250 per individual room used (under 4 hours) or $500 for the day (over 4 hours).</STRONG> This is an application fee only and does not cover any applicable charges for room rental, room set, audio/visual, or catering services. </LI>
+<LI class=exhibitor11>After submitting your Application, a confirmation and invoice outlining your space assignment will be sent to your attention. <B>PAYMENT received with this application will guarantee space assignement if available.&nbsp; Final Payment must be received within two weeks of confirmation or your meeting room will be canceled.</B> </LI>
+<LI>Friday, December 5, 2005 is the last day you may cancel your meeting space and receive a full refund. Cancellations made after this date will not be refunded. All cancellations must be submitted in writing to the CES Operations Department at <A href="mailto:CESops@CE.org">CESops@CE.org</A>. </LI>
+<LI class=exhibitor11>Once your space is assigned, a hotel representative will contact you to discuss your specific room set requirements. </LI>
+<LI>If we do not have space to accommodate your request, our meetings manager will be in touch with you to offer assistance in finding function space at other official CES hotel properties. </LI>
+<LI class=exhibitor11>If you are interested in function space at another hotel, we can either 1) assist you in making contact with the sales department at the properties you are interested in, or 2) forward you a list of official International CES hotels and contact names.</LI></UL>
+<br><img src="/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+[<a href="#top">back to top</a>]<br>
+<!-- /text for main page -->
+</div>
+
+<!-- /center content -->
+    <br><br><br>
+    </td>
+    <td width="10" class="exhibitor7"><img src="/global_images2005/spacer.gif" height="1" width="10"></td>
+<!-- /main body content -->
+
+<!-- optional added value -->
+
+<!-- /optional added value -->
+
+</tr>
+<!-- /main body row -->
+
+<!-- shaded row above footer -->
+<tr>
+<td colspan=3 bgcolor="#BCD6DB"><img src="/global_images2005/spacer.gif" width="1" height="10"></td>
+
+</tr>
+<!-- /shaded row above footer -->
+
+</table>
+<table width="770" cellspacing="0" cellpadding="0" border="0">
+
+            <tr>
+     <td width="10"></td>
+     <td width="140"></td>
+     <td width="10"></td>
+     <td width="10" class="footer"><img src="/global_images2005/footer_left.gif" alt="(" width="10" height="30" hspace="0" vspace="0" border="0"></td>
+     <td width="380" background="/global_images2005/footer_bg.gif" class="footer"><span class="nav_footer"><a href="/about_ces/default.asp">About CES</a> | <a href="/faqs/default.asp">FAQs</a> | <a href="/contact_us/default.asp">Contact Us</a> | <a href="/sitemap.asp">Site Map</a> | <a href="/privacy_policy.asp">Privacy Policy</a> | <a href="/rd_vendors.asp">Vendors</a></span></td>
+     <td width="210" colspan="3" align="right" background="/global_images2005/footer_bg.gif" class="footer"><span class="nav_footer"> &#169; 2003-2006 CEA, All rights reserved</span></td>
+     <td width="10" class="footer"><img src="/global_images2005/footer_right.gif" alt=")" width="10" height="30" hspace="0" vspace="0" border="0"></td>
+</tr>   
+            </table>
+            <img src="/global_images2005/spacer.gif" alt="" width="1" height="20" hspace="0" vspace="0" border="0"">
+        </td>
+        <td width="50%" valign="top" class="exhibitorBGImg">&nbsp;</td>
+    </tr>
+</table>
+
+</body>
+</html>
