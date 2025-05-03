@@ -1,0 +1,496 @@
+
+
+<SCRIPT language="javascript1.2">
+function newWin(urlString,pgNum)
+  {
+    var popupWindow;
+	urlString += "?pageID=" + pgNum;
+	
+    popupWindow = window.open(urlString,"","toolbar=yes,menubar=no,resizable=no,status=no,scrollbars=yes,location=no,directories=no,copyhistory=no,height=550,width=610,left=50,top=50");
+  }//  function for opening a new pop-up window for printing a page
+  
+ 
+function openNewWindow(strURL) {
+	window.name = "main";
+	
+	var newWindow = window.open(strURL,"newWindow", "toolbar=no,menubar=no,resizable=no,status=no,scrollbars=yes,location=no,directories=no,copyhistory=no,height=400,width=450,left=50,top=50");
+} //  function for opening a new pop-up window
+
+// javascript for e-mail this page tool - gets the url of the page the user is on before the e-mail page tool button is clicked
+	
+	function loadReferrer() {
+		referrerString = opener.document.location.href;
+		document.emailForm.page.value = referrerString;
+	}
+
+</SCRIPT>
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!-- 
+INSERT PAGE VARIABLES
+pgNum = the page ID
+template = 1 for full content space, 2 for added value, 3 for a 150px white column on the right side (for images)
+bodyTitle = the page header (or the alt text if we go the image route in the future)
+-->
+
+
+<html>
+<head>
+	<!-- INSERT PAGE TITLE HERE (immediately following gblPAGE_TITLE) -->
+	<title>2005 International CES:&nbsp;Press Release Detail</title>
+	
+	<!-- INSERT SEARCH ZONE HERE -->
+	
+
+	<!-- INSERT ANY SCRIPT TAGS FOR THIS PAGE HERE (header.asp closes the <head> tag!) -->
+	
+	
+	<link rel="StyleSheet" href="/global_include/css/mainMethod.css" type="text/css">
+	<LINK REL="SHORTCUT ICON" HREF="http://www.easymovement.com/ces/favicon.ico">
+
+<!-- Browser detection script -->
+	<script src="/global_include/js/browser_detection.js" type="text/javascript"></script>
+
+<!-- Rollover script -->
+		
+
+
+		<script language="javascript1.2">
+		/* for graphical rollovers*/
+			function rollOver(which,name)
+				{
+				var on="/global_images2005/3.0/3.0_" + which + "_r.gif";
+				if(document.images) {document.images[which].src=on;}
+				else if (document.GetElementById){document.GetElementById(name).src=on;}
+				}
+			function rollOff(which)
+				{
+				var on="/global_images2005/3.0/3.0_" + which + ".gif";
+				if(document.images){document.images[which].src=on;}
+				else if (document.GetElementById){document.GetElementById(which).src=on;}
+				}
+			function introllOver(which,name)
+				{
+				var on="/global_images2005/3.0/random_main1/3.0_" + which + "_r.gif";
+				//var on="/global_images2005/3.0/3.0_" + which + "_r.gif";
+				if(document.images) {document.images[which].src=on;}
+				else if (document.GetElementById){document.GetElementById(name).src=on;}
+				}
+			function introllOff(which)
+				{
+				var on="/global_images2005/3.0/random_main1/3.0_" + which + ".gif";
+				//var on="/global_images2005/3.0/3.0_" + which + ".gif";
+				if(document.images){document.images[which].src=on;}
+				else if (document.GetElementById){document.GetElementById(which).src=on;}
+				}
+				//******** ALEX ADDED THESE TO APPLY TO GLOBAL CONSTANT PAGES********
+			function introllOver2(which,name)
+				{
+				var on="/global_images2005/3.0/3.0_" + which + "_r.gif";
+				//var on="/global_images2005/3.0/3.0_" + which + "_r.gif";
+				if(document.images) {document.images[which].src=on;}
+				else if (document.GetElementById){document.GetElementById(name).src=on;}
+				}
+			function introllOff2(which)
+				{
+				var on="/global_images2005/3.0/3.0_" + which + ".gif";
+				//var on="/global_images2005/3.0/3.0_" + which + ".gif";
+				if(document.images){document.images[which].src=on;}
+				else if (document.GetElementById){document.GetElementById(which).src=on;}
+				}
+
+			//******** JANAE ADDED THESE TO APPLY TO ONLY THE CENTER HOMEPAGE IMAGE********
+			function introllOverNEW(which,name)
+				{
+				var on="/global_images2005/3.0/3.0_" + which + "_r.gif";
+				if(document.images) {document.images[which].src=on;}
+				else if (document.GetElementById){document.GetElementById(name).src=on;}
+				}
+			function introllOffNEW(which)
+				{
+				var on="/global_images2005/3.0/3.0_" + which + ".gif";
+				if(document.images){document.images[which].src=on;}
+				else if (document.GetElementById){document.GetElementById(which).src=on;}
+				}
+			function snrollOver(which,name)
+				{
+				var on="/global_images2005/3.0/3.0" + which + "_r.gif";
+				if(document.images) {document.images[which].src=on;}
+				else if (document.GetElementById){document.GetElementById(name).src=on;}
+				}
+			function snrollOff(which)
+				{
+				var on="/global_images2005/3.0/3.0" + which + ".gif";
+				if(document.images){document.images[which].src=on;}
+				else if (document.GetElementById){document.GetElementById(which).src=on;}
+				}
+
+			function onLoadHandler() {
+			    if( typeof(bodyOnLoadFunction) != 'undefined' ) {
+			        return eval(bodyOnLoadFunction);
+			    }
+			}
+		</script>
+		
+
+		<style>
+			.text_colored, .intro_copy, .section_title, .subhead, .body_title, .intro_dates, .box10
+				{ 	color:#7B4271}
+		</style>
+</head>
+
+<!-- script to determine the different browser and put in the correct body tag to align the background image properly -->
+<body  leftmargin='0' topmargin='0' rightmargin='0' bottommargin='0' marginwidth='0' onLoad="onLoadHandler();self.focus();">
+
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tr>
+
+
+
+
+<td width="50%" valign="top" background="/global_images2005/press_bg.gif">&nbsp;</td>
+<td valign="top" background="/global_images2005/press_bg.gif">
+<!-- main table for site -->
+	<table width="770" cellspacing="0" cellpadding="0" border="0">
+<!-- Commented out dummy row to add another tr to the main table
+	<tr>
+	    <td width="10"></td>
+	    <td width="140"></td>
+	    <td width="10"></td>
+	    <td width="10"></td>
+	    <td width="380"></td>
+	    <td width="10"></td>
+	    <td width="10"></td>
+	    <td width="190></td>
+	    <td width="10"></td>
+	</tr>
+   /Commented out dummy row to add another tr to the main table	-->
+<!-- blank 1 pixel row at top of page -->
+	<tr>
+	    <td width="10"><img src="/global_images2005/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+	    <td width="140"><img src="/global_images2005/spacer.gif" alt="" width="140" height="1" hspace="0" vspace="0" border="0"></td>
+	    <td width="10"><img src="/global_images2005/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+	    <td width="10"><img src="/global_images2005/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+	    <td width="380"><img src="/global_images2005/spacer.gif" alt="" width="380" height="1" hspace="0" vspace="0" border="0"></td>
+	    <td width="10"><img src="/global_images2005/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+	    <td width="10"><img src="/global_images2005/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+	    <td width="190"><img src="/global_images2005/spacer.gif" alt="" width="190" height="1" hspace="0" vspace="0" border="0"></td>
+	    <td width="10"><img src="/global_images2005/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+	</tr>
+<!-- /blank 1 pixel row at top of page -->
+<!-- global navigation row - register, about, faqs, contact, and site map -->
+	<tr>
+	    <td width="10"></td>
+	    <td width="140"></td>
+	    <td width="10"></td>
+	    <td width="10"></td>
+	    <td width="600" colspan="5" class="nav_global"><span class="intro_dates">January 6-9, 2005</span><img src="/global_images2005/spacer.gif" width="4" height="20" hspace="0" vspace="0" border="0" align="absmiddle">| Las Vegas<img src="/global_images2005/spacer.gif" alt="" width="225" height="1" border="0">	<a href="/about_ces/">About CES</a> | <a href="/faqs/">FAQs</a> | <a href="/contact_us/">Contact Us</a> | <a href="/site_map.asp">Site Map</a></td>
+	    <!--<td width="600" colspan="5" class="nav_global"><img src="/global_images2005/test_logo.jpg" width="385" height="20" hspace="0" vspace="0" border="0" align="absmiddle"><a href="/about_ces/">About CES</a> | <a href="/faqs/">FAQs</a> | <a href="/contact_us/">Contact Us</a> | <a href="site_map.asp">Site Map</a></td>-->
+	</tr>
+<!-- /global navigation row - register, about, faqs, contact, and site map -->
+<!-- logo and banner image row -->
+	<tr>
+	    <td width="10"></td>
+	    <td width="140"><a href="/default.htm"><img src="/global_images2005/logo.gif" alt="International CES" width="140" height="74" hspace="0" vspace="0" border="0"></a></td>
+	    <td width="10"></td>
+	    <td width="610" colspan="6"><img src="/global_images2005/3.0/random_main1/3.0.banner.gif" alt="" width="610" height="74" border="0"></td>
+	</tr>
+<!-- /logo and banner image row -->
+<!-- primary navigation row -->
+	<tr>
+	    <td width="10"></td>
+	    <td width="140"></td>
+	    <td width="10"></td>
+		<td width="610" colspan="6"  background="/global_images2005/spacer.gif"><a href="/attendees/"  onmouseover=rollOver('tab_attendees'); onmouseout=rollOff('tab_attendees');><img name='tab_attendees' src="/global_images2005/3.0/3.0_tab_attendees.gif" alt="Attendees" width="70" height="27" hspace="0" vspace="0" border="0" ></a><a href="/exhibitors/" onmouseover=rollOver('tab_exhibitor'); onmouseout=rollOff('tab_exhibitor');><img name='tab_exhibitor' src="/global_images2005/3.0/3.0_tab_exhibitor.gif" alt="Exhibitor Services" width="118" height="27" hspace="0" vspace="0" border="0"></a><a href="/press/" onmouseover=rollOver('tab_press'); onmouseout=rollOff('tab_press');><img name='tab_press' src="/global_images2005/3.0/3.0_tab_press.gif" width="78" height="27" alt="Press" border="0"></a><a href="/international/" onmouseover=introllOver('tab_international'); onmouseout=introllOff('tab_international');><img src="/global_images2005/3.0/random_main1/3.0_tab_international.gif" width="134" height="27" alt="" border="0" name="tab_international"></a><img src="/global_images2005/3.0/random_main1/3.0_tab_right.gif" alt="" width="210" height="27" hspace="0" vspace="0" border="0"></td>
+	</tr>
+<!-- /primary navigation row -->
+<!-- secondary navigation row -->
+	<tr>
+	    <td width="10"></td>
+			<form name="searchCESWeb" method="POST" action="/search/searchResult.asp">
+        	    <td width="760" colspan="8"  background="/global_images2005/spacer.gif"  class="press3">
+<!-- table for secondary navigation and form -->
+				<table cellspacing="0" cellpadding="0" border="0" width="760"  background="/global_images2005/spacer.gif" >
+				<tr>
+
+				<td class="press_second_nav" width="560"><span class="press_sec_nav_active"><a href='/press/news'>CES News</a></span>&nbsp;&nbsp;|&nbsp;&nbsp;<a href='/press/exhibitor_news/'>Exhibitor News</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href='/press/new_products/'>New Products</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href='/press/events/'>Press Events</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href='/press/contacts/'>Contacts for Press</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href='/press/services/'>Press Services</a></td>
+
+				<td width="173" align="right">
+<!-- Script for setting correct search box size -->
+				<script LANGUAGE="JavaScript">
+				<!--
+					if (is_nav4) {
+						document.write("<input  size=20 ");
+					}
+					else if (is_mac) {
+						document.write("<input align='absmiddle' size=30");
+					}
+					else if (is_safari) {
+						document.write(" style='margin-bottom :-25px;' ");
+					}
+					else {
+					    document.write("<input  size=34 ");
+					}
+                    function checkSearch() {
+                        var searchForm = document.searchCESWeb;
+
+                        if(searchForm.SEARCH_STRING.value.search(/\S/) == -1) {
+                            alert("Please enter text to search for.");
+                            return;
+                        }
+                        searchForm.submit();
+                    }
+				//-->
+				</script>
+				type="text" name="SEARCH_STRING" value=" Search CESweb.org" class="pressform"  ONFOCUS="if(this.value==' Search CESweb.org')this.value=''; snrollOver('.button_search');" ONBLUR="if(this.value=='')this.value=' Search CESweb.org'; snrollOff('.button_search');" >&nbsp;&nbsp;</td>
+				<td width="27"><img name=".button_search"  src="/global_images2005/3.0/3.0.button_search.gif" alt="go" width="27" height="33" hspace="0" vspace="0" border="0" onmouseover=snrollOver('.button_search'); onmouseout=snrollOff('.button_search'); onClick="checkSearch();"></td>
+				</tr>
+				</table>
+<!-- /table for secondary navigation and form -->
+		</td>
+			<input type="hidden" name="ExhibitorSearchField" value="on">
+			<input type="hidden" name="EventSearchField" value="on">
+			<input type="hidden" name="PressSearchField" value="on">
+			<input type="hidden" name="ConferenceSearchField" value="on">
+			<input type="hidden" name="GeneralCESwebSearchField" value="on">
+		</form>
+	 </tr>
+<!-- /secondary navigation row -->
+<!-- colored row with section color 4 - 5 pixels high -->
+	<tr>
+	    <td width="10"></td>
+	    <td width="140"></td>
+	    <td width="10"></td>
+	    <td width="610" colspan="6"  background="/global_images2005/spacer.gif" class="press4"><img src="/global_images2005/spacer.gif" alt="" width="610" height="5" hspace="0" vspace="0" border="0"></td>
+	 </tr>
+<!-- /colored row with section color 4 - 5 pixels high -->
+
+<!-- breadcrumb row -->
+	<tr>
+	    <td width="10"></td>
+	    
+			<td width="140"><a href="/register/" onmouseover=snrollOver('.register'); onmouseout=snrollOff('.register');><img src="/global_images2005/3.0/3.0.register.gif" alt="Register" name=".register" id=".register" width="140" height="40" hspace="0" vspace="0" border="0"></a></td>
+		
+			<!--<td width="140"><a href="/exhibitors/resource_center/badges/default.asp" onmouseover=snrollOver('.register'); onmouseout=snrollOff('.register');><img src="/global_images2005//0.0_files/.register.gif" alt="Register" name=".register" id=".register" width="140" height="40" hspace="0" vspace="0" border="0"></a></td>-->
+		
+			<!--<td width="140"><a href="/registration_temp.asp" onmouseover=snrollOver('.register'); onmouseout=snrollOff('.register');><img src="/global_images2005//0.0_files/.register.gif" alt="Register" name=".register" id=".register" width="140" height="40" hspace="0" vspace="0" border="0"></a></td>-->
+		
+		<td width="10"></td>		
+
+		
+		    <td width="10" background="/global_images2005/spacer.gif" class="press6"><img src="/global_images2005/spacer.gif" alt="" width="10" height="40" hspace="0" vspace="0" border="0"></td>
+		    <td width="390" colspan="2" background="/global_images2005/spacer.gif" class="press6" valign="bottom"><span class="press_nav_breadcrumb">
+			<a href="/default.asp">Home</a>&nbsp;>&nbsp;<a href="/press/">Press Room</a>&nbsp;>&nbsp;<a href="/press/news/">News</a>&nbsp;>&nbsp;<a href="/press/news/release_list.asp">CES Press Releases</a>&nbsp;>&nbsp;Release Detail
+			</span><br><img src="/global_images2005/spacer.gif" height="8" width="1"></td>
+		    <td width="200" background="/global_images2005/spacer.gif" colspan="2" class="press6"><img src="/global_images2005/3.0/3.0_print_mail.gif" width="115" height="40" alt="print - email" border="0"><a href=javascript:newWin("/global_include/asp/page_tools/print.asp","3.1.1.1") onmouseover=snrollOver('_button_print'); onmouseout=snrollOff('_button_print');><img src="/global_images2005/3.0/3.0_button_print.gif" alt="Print" name="_button_print" id="_button_print" width="42" height="40" hspace="0" vspace="0" border="0"></a><A HREF=javascript:openNewWindow("/global_include/asp/page_tools/email.asp") onmouseover=snrollOver('_button_mail'); onmouseout=snrollOff('_button_mail');><img src="/global_images2005/3.0/3.0_button_mail.gif" alt="Email" name="_button_mail" id="_button_mail" width="42" height="40" hspace="0" vspace="0" border="0"></a></td>
+		    <td width="10" background="/global_images2005/spacer.gif" class="press6">&nbsp;</td>
+    			
+	</tr>
+<!-- /breadcrumb row -->	
+<!-- main body row -->
+	<tr>
+	    <td width="10" background="/global_images2005/spacer.gif"></td>
+	    <td width="140" background="/global_images2005/spacer.gif" valign="top"><img src="/global_images2005/spacer.gif" width="140" height="20" alt="" border="0"><br>
+
+		<span class="nav_third">
+
+
+<!-- CES NEWS -->
+	<img src="/global_images2005/navigation/3nav_bar_gray.gif" alt="--------" width="140" height="1" hspace="0" vspace="0" border="0"><br>
+	<img src="/global_images2005/spacer.gif" width="140" height="4" alt="" border="0"><br>
+	<a href="/press/news/release_list.asp">CES Press Releases</a><br>
+	<img src="/global_images2005/spacer.gif" width="140" height="6" alt="" border="0"><br>
+	<img src="/global_images2005/navigation/3nav_bar_gray.gif" alt="--------" width="140" height="1" hspace="0" vspace="0" border="0"><br>
+	<img src="/global_images2005/spacer.gif" width="140" height="4" alt="" border="0"><br>
+	<a href="/press/news/media_reports.asp">Media Coverage</a><br>
+	<img src="/global_images2005/spacer.gif" width="140" height="6" alt="" border="0"><br>
+	<img src="/global_images2005/navigation/3nav_bar_gray.gif" alt="--------" width="140" height="1" hspace="0" vspace="0" border="0"><br>
+	<img src="/global_images2005/spacer.gif" width="140" height="24" alt="" border="0"><br> 
+<!-- /CES NEWS -->
+	
+
+
+<a href="http://www.ce.org" target="new" onmouseover=snrollOver('_logo_cea'); onmouseout=snrollOff('_logo_cea');><img src="/global_images2005/3.0/3.0_logo_cea.gif" name="_logo_cea" width="140" height="116" alt="Produced by Consumer Electronics Association" border="0"></a><br><img src="/global_images2005/spacer.gif" width="1" height="12" border="0"><br>
+
+</span>
+
+
+		</td>
+	    <td width="10"></td>
+		<!-- checking to see if the page is a main section page or not -->
+		
+			<td width="10" background="/global_images2005/spacer.gif" class="press7">&nbsp;</td>
+		    <td width="590" colspan="4"  background="/global_images2005/spacer.gif" class="press7" valign="top">
+				
+					<img src="/global_images2005/spacer.gif" height="10" width="1"><br><div class="body_title">Press Release Detail<br><img src="/global_images2005/spacer.gif" height="16" width="1"></div>
+				
+
+<!-- text for main page -->
+<div id="3.1.1.1">		
+
+
+
+<span class="section_title">Upbeat 2004 International CES Bodes Well for Shift to Digital and Future Industry Growth</span>
+
+	<br><br>
+	<span class="subhead">International Consumer Electronics Show Breaks All Records</span>
+
+<br><br>		
+<strong><i>Las Vegas, Nevada&nbsp;-&nbsp;1/12/2004</i></strong>
+<br><br>
+With thousands of new products and technologies announced this week in Las Vegas, the future of the digital lifestyle looks bright as global technology executives, buyers and media from around the world networked at the 2004 International Consumer Electronics Show (CES).  
+<p>
+The 2004 International CES set records across the board with 129,328 technology executives visiting 2,491 companies in 1.38 million net square feet of exhibit space.  Final attendance numbers will be posted this spring after review by a third-party auditor.  By comparison, the 2003 International CES had 117,704 attendees and 2,230 companies in 1.25 million net square feet of exhibit space.  With executives from more than 110 countries, international attendance grew to 18,050 industry professionals compared to 16,606 last year.  CES continues to establish itself as the global marketplace for consumer technologies.
+<p>
+"The innovation, phenomenal products, convergence of technologies, people and excitement were unprecedented," said Gary Shapiro, president and CEO for the Consumer Electronics Association (CEA), the producer of the International CES.  "While it may have been 'plastics' in the 1960s, this era's technology is consumer electronics as leaders from IT, cable, broadcasting, entertainment, education, transportation and government converged in Las Vegas for CES."
+<p>
+"The hotels were packed, the flights were full, and the exhibitors and attendees were thrilled," said Karen Chupka, vice president of events and conferences for CEA.  "We are delighted that CES is the world's leading event for technology."
+<p>
+Whether it was sleek and amazingly thin display technologies, imaging, mobile electronics, wireless, home networking or entertainment, the products on the CES show floor encompassed the latest in digital technologies, featuring a wide array of features at a range of price points to meet consumer demand.
+<p>
+Display technology was abundant across the show floor.  Thin, flat, bigger LCD and plasma displays dominated hundreds of booths of not only traditional display manufacturers, but an increasing number of IT companies such as Dell and Epson.  Epson showcased its Livingstation 57-inch widescreen high-definition television, Samsung touted the world's largest LCD HDTV offering full 1920 by 1080 progressive scan resolution, and Philips made a splash with its Mirror TV featuring a video display that turns into a mirror when not in use.
+<p>
+Portability, connectivity and wireless technology were among the significant trends of the show.  The capability of thousands of products across the show floor to interoperate with each other via wireless technology created one digital world under the roof of the convention center.  
+<p>
+Wireless phones, PDAs and other data products were on display embedded with video displays, cameras and a proliferation of services such as e-mail capabilities, Web-browsing, instant messaging, gaming and streaming video.  Nokia debuted its Nokia 3660 capable of capturing and sending still and video images.  Archos launched the AV300 Cinema-to-Go, the industry's first personal, portable video player that can record and play back movies with stereo MP3 audio while also operating as a digital audio recorder and player, photo player and storage device.  Panasonic showed its D-Snap camcorder, the world's smallest camcorder with no moving parts.  Sony Ericsson showcased its Bluetooth music player HBM-30, a combination Bluetooth headset and MP3 player that lets users listen to digital audio while connected to a phone.
+<p>
+The networked home figured prominently at CES this year as more home owners demand access to content and home control features anywhere and at any time.  Content now can be stored in the home PC or other products such as media servers and controlled by wireless or Web-enabled remotes.  CES showcased this up and coming trend with a number of products such as CorAccess Systems' Amego handheld home remote which allows consumers to view and control all aspects of the home including lighting, theater, security and HVAC.  Salton's Beyond Connected Home "Home Hub and Coffee Maker" provides instant weather, traffic and news on demand.  And Rockford/Omnifi showed its AV Digital Media Streamer enabling consumers to stream high-quality video files stored on a PC to a home entertainment system.
+<p>
+Digital imaging technology had its largest presence on the show floor in history. The new Flash Forward TechZone showcased the latest digital cameras, printers, software and accessories.  HP displayed its Scanjet 4670, an ultra-thin scanner about the width of the spiral notebook.  And Panasonic showed its Lumix camera, the industry's first four megapixel digital camera with 12x optical zoom.
+<p>
+The 2004 International CES also housed the world's largest mobile electronics tradeshow.  In-car entertainment, two-way communications, satellite television, navigation and vehicle tracking were all prominent at CES.  KVH Industries displayed its TracVision A5, an ultra-low profile antenna that brings digital satellite television to the automobile.  Databahn showcased the Mobile Satellite Broadband Solution that delivers two-way capabilities, a T-1 broadband connection, voice-over IP and satellite television in a 26-inch dish that mounts on top of the vehicle.  In the realm of navigation, Sanyo Fisher showed off its M3 GPS mobility navigation/multimedia system.  The product combines a DVD-based GPS guidance system with a fully functional DVD/CD player and navigation system. 
+<p>
+More than 130 leaders from the federal and foreign governments attended the International CES, adding to the global flair of the event.  Officials from the Federal Communications Commission, Federal Trade Commission and both the Senate and House of Representatives joined government technology officials from other countries including Germany, Korea and Japan at the International CES.  
+<p>
+The top executives in consumer technology presented their visions for the industry's future with keynotes and addresses from:
+<p>	 
+* Best Buy's Brad Anderson<br>
+* Cablevision's Chuck Dolan <br>
+* Circuit City's Alan McCollough<br>
+* CompUSA's Larry Mondry<br>
+* Dell Computer's Michael Dell<br>
+* Discovery Communications' John Hendricks<br>
+* Time Warner Cable' Glenn Britt
+  ESPN's George Bodenheimer<br>
+* HDNet's Mark Cuban<br>
+* HP's Carly Fiorina<br>
+* Hughes Electronics' Eddy Hartenstein <br>
+* Intel's Paul Otellini<br>
+* Microsoft's Bill Gates<br>
+* Panasonic's Fumio Ohtsubo<br>
+* RadioShack's Leonard Roberts<br>
+* RealNetworks' Rob Glaser<br>
+* Sprint's Gary Forsee<br>
+* Tweeter's Jeffrey Stone<br>
+* Verizon's Ivan Seidenberg<br>
+<p>
+"The momentum created here at CES this week will help carry the industry forward in 2004 as we begin gearing up for the 2005 International CES," said Chupka.  "Already, 1,290 exhibitors have signed up for more than 1.27 million net square feet of space.  We will continue to improve the show's infrastructure to support the growth of the International CES. By the 2005 International CES the Las Vegas monorail will be open, and CEA and Las Vegas officials already are planning how to make the 2005 show an even better experience."
+<p>
+The 2005 International CES runs January 6-9 in Las Vegas, Nev.
+<br>
+<br>
+About CEA: <br>
+The Consumer Electronics Association (CEA) is the preeminent trade association promoting growth in the consumer technology industry through technology policy, events, research, promotion and the fostering of business and strategic relationships.  CEA represents more than 1,300 corporate members involved in the design, development, manufacturing, distribution and integration of audio, video, mobile electronics, wireless and landline communications, information technology, home networking, multimedia and accessory products, as well as related services that are sold through consumer channels. Combined, CEA's members account for more than $90 billion in annual sales.  CEA's resources are 
+available online at www.CE.org, the definitive source for information about the consumer electronics industry.<br>
+CEA also sponsors and manages the International CES - Defining Tomorrow's Technology.  All profits from CES are reinvested into industry services, including technical training and education, industry promotion, engineering standards development, market research and legislative advocacy.
+<br><br>
+
+2004 International CES Exhibitor Quotes
+<p>
+Oscar Ciornei, president and CEO, Atlantic Technology International, Norwood, MA 
+"CES is an ideal venue to reach new customers both domestic and international.  Atlantic Technology had the most confirmed appointments in years thanks to the creative marketing skills of the CEA group in creating a most successful attendance and level of organization.  2004 CES - A wonderful upbeat mood!"
+<p>
+Joseph P. Clayton, president and CEO, Sirius Satellite Radio, New York, NY
+"The best show in terms of attendance, energy, news coverage and new customers in my 30 years in the consumer electronics industry."
+<p>
+Skip West, president, MAXSA, Fairfax Station, VA 
+"2004 CES - Another phenomenal show!  We had many dozen orders - more than any other show!  It is absolutely the best marketing dollars we could spend - tremendous traffic!
+<p>
+Paul W. D'Arcy, executive vice president, Sanyo Fisher Co., Chatsworth, CA
+"The 2004 CES is a fantastic world-class event; any one doing anything of significance in relation to consumer electronics should be here!"
+<p>
+Michael Ahn, president and CEO, LG Electronics USA Inc., Englewood Cliffs, NJ 
+"The 2004 CES represented the launch of LG-branded consumer electronics in the USA.  The show provided an excellent venue to highlight our digital displays and other products while establishing a strong brand recognition.  Most importantly, meeting with key customers was a major emphasis at CES.  We plan to double our booth space for 2005."
+<p>
+Sean Fields, president, A/V Entertainment, Laguna Niguel, CA 
+"I have experienced an increase of system integrator attendance at the 2004 International CES.  I believe this is due to the latest addition of beneficial education programs for our industry.  I am also delighted to see more international attendance from our niche.  This year is the best CES I have ever attended."
+<p>
+Bob Struble, president and CEO, iBiquity Digital Corp., Columbia, MD 
+"The 2004 CES was everything we could have hoped for to mark the consumer launch of HD radio.  All our key target constituents were here in force - CE manufacturers, retailers, press and media, government officials, automakers, semiconductor manufacturers - and our schedule was full.  There is no other single even which could provide us so much value."
+<p>	
+Michael O'Hara, executive vice president, consumer products, marketing and sales, Thomson, Indianapolis, IN
+"As our industry grows in many areas, the CEA and its staff did an outstanding job to make the 2004 CES the best show ever.  Well done!"
+<p>
+Henio Arcangeli Jr., senior vice president, Pioneer Electronics USA, Long Beach, CA
+"This year's CES is the best ever.  The excitement level from our customers, press and other show attendees has been excellent.  For Pioneer Electronics, this is a very important show and an excellent vehicle to kick-off the new business year."
+<p>
+Mark Bridgewater, president, BridgeCo, Duebendorf, Switzerland
+"The CES meeting place is ideal for emerging companies.  We were able to control who we met with while still being conveniently located on the show floor."
+<p>
+Mike McDougall, worldwide public relations manager, Eastman Kodak, Rochester, NY
+"Our presence at the International CES certainly exceeded our expectations.  We met and interacted with the who's who of the consumer electronics industry, and the show gave us unparalleled access to tell the Kodak story."
+<p>
+David Wilkie, business development manager, Noritsu America Corp., Buena Park, CA
+ "The quality of CES was very good.  We had a list of specific customers we wanted to meet with and CES was the perfect show for us."
+<p>
+Matt Graves, senior PR manager, Music Real, Seattle, WA
+"Real kicked off celebrations for our 10-year anniversary with another great year at CES which continues to offer us the right mix of press, partners and potential customers.  CES was the ideal forum for unveiling our new media player and music download store and announcing new relationships with IBM, Heineken, Rolling Stone, Creative Labs and PalmOne."
+ <p>
+Glenda Brungardt, tradeshow and event manager, HP, Palo Alto, CA
+"HP is happy to be back exhibiting at CES and already have signed up to participate at the 2005 International CES.  CES is the one show at which HP must exhibit to show that we are a player in the consumer market."
+<p>
+Kathy Gornik, president, Thiel Audio Products Co., Lexington, KY
+"This year's CES at the Alexis Park was a blockbuster, especially from an international perspective.  Over four busy days, we were inundated by buyers from around the world, who were looking for high quality American companies with whom to do business."
+ <p>
+Gary Warzin, president and CEO, Audiophile Systems Ltd., Indianapolis, IN
+"The traffic was great! What impressed me was everytime I looked into one of my exhibit rooms, people were busy.  We saw a significant increase in international attendees, especially among distributors."
+ <p>
+Lew Johnson, vice president, Conrad-Johnson Design, Fairfax, VA
+"This year's International CES exceeded even our expectations!  It was one of the most productive for Conrad-Johnson in years.  CES continues to be the one 'must-do' show of the year."
+ <p>
+Roy Hall, owner, Music Hall, Great Neck, NY
+"This year's show was worth every penny.  It was a great show: well attended, well run!" 
+<br><br>
+<!-- /text for main page -->
+	
+
+			<br>
+			<br>
+			<br>
+		</span>
+		</td>
+	    <td width="10" background="/global_images2005/spacer.gif" class="press7">&nbsp;</td>
+			
+		</tr>
+<!-- /main body row -->
+<!-- footer row -->
+	<tr>
+	    <td width="10"></td>
+	    <td width="140"></td>
+	    <td width="10"></td>
+	    <!--<td width="610" colspan=6><img src="/global_images2005//_files/.page_bottom1.jpggif" alt="" width="610" hspace="0" vspace="0" border="0"></td>-->
+		<td width="610" colspan=6><img src="/global_images2005/3.0/3.0.page_bottom1.gif" alt="" width="610" height="10" hspace="0" vspace="0" border="0"></td>
+	</tr>
+	<tr>
+	    <td width="10"></td>
+	    <td width="140"></td>
+	    <td width="10"></td>
+	    <td width="10" class="footer"><img src="/global_images2005/footer_left.gif" alt="(" width="10" height="30" hspace="0" vspace="0" border="0"></td>
+	    <td width="380" background="/global_images2005/footer_bg.gif" class="footer"><span class="nav_footer"><a href="/about_ces/">About CES</a> | <a href="/faqs/">FAQs</a> | <a href="/contact_us/">Contact Us</a> | <a href="/site_map.asp">Site Map</a> | <a href="/privacy_policy.asp">Privacy Policy</a> | <a href="/vendors.asp">Vendors</a></span></td>
+	    <td width="210" colspan="3" align="right" background="/global_images2005/footer_bg.gif" class="footer"><span class="nav_footer"> &#169; 2004 CEA, All rights reserved</span></td>
+	    <td width="10" class="footer"><img src="/global_images2005/footer_right.gif" alt=")" width="10" height="30" hspace="0" vspace="0" border="0"></td>
+	</tr>
+<!-- /footer row -->
+	</table>
+	<img src="/global_images2005/spacer.gif" alt="" width="1" height="20" hspace="0" vspace="0" border="0"">
+<!-- /main table for site -->
+
+
+</td>
+<td width="50%" valign="top" background="/global_images2005/press_bg.gif">&nbsp;</td>
+</tr>
+</table>
+
+
+</body>
+</html>
