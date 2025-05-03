@@ -1,0 +1,104 @@
+/* Slider Interior */
+
+#slider {
+ width: 238px;
+ height: 270px;
+ padding: 0px;
+ overflow: hidden; 
+}
+
+.applemenu {
+	margin: 0px;
+	padding: 0px;
+	border:0px;
+	width: 238px; /*width of menu*/
+}
+
+.applemenu div#header0 {
+	background: url(http://www.CESweb.org/HP/NEWimages/slider/your_profession_title_int.jpg) 0 0 no-repeat;
+	display: block;
+	position: relative; /*To help in the anchoring of the ".statusicon" icon image*/
+	padding: 0px;
+	margin: 0px;
+	height: 46px;
+	border:0px;
+	outline:none;
+}
+
+.applemenu .selected div#header0 {
+	background: url(http://www.CESweb.org/HP/NEWimages/slider/your_profession_title_int.jpg) 0 0 no-repeat;
+	display: block;
+	position: relative; /*To help in the anchoring of the ".statusicon" icon image*/
+	padding: 0px;
+	margin: 0px;
+	border:0px;
+	outline:none;
+}
+
+.applemenu div#content0 { 
+	background: url(http://www.CESweb.org/HP/NEWimages/slider/your_profession_bg.jpg) bottom left no-repeat;
+	margin: 0px;
+	padding: 0px 10px 0px 15px;
+	height: 170px;
+}
+
+#content0 ul {
+	padding: 0px;
+	margin: 0px;
+}
+
+#content0 ul li {
+	line-height: 95%;
+	list-style: none;
+	padding: 3px 0px 4px 10px;
+	background: url(http://www.CESweb.org/HP/NEWimages/slider/bullet_on_blue.jpg) 0px 8px no-repeat;
+}
+
+#content0 ul li a:link,
+#content0 ul li a:visited {
+	font: normal 12px/15px Arial, Helvetica, Sans-Serif;
+	color:#FFF;
+	text-decoration: none;
+	border: 0px;
+	outline: none;
+}
+
+#content0 ul li a:hover {
+	text-decoration: underline;
+}
+
+.applemenu div#header1 {
+	background: url(http://www.CESweb.org/HP/NEWimages/slider/your_interest_title.jpg) 0 0 no-repeat;
+	display: block;
+	position: relative; /*To help in the anchoring of the ".statusicon" icon image*/
+	padding: 0px;
+	margin: 0px;
+	height: 50px;
+	border:0px;
+	outline:none;
+}
+
+.applemenu .selected div#header1 {
+	background: url(http://www.CESweb.org/HP/NEWimages/slider/your_interest_title_selected.jpg) 0 0 no-repeat;
+	display: block;
+	position: relative; /*To help in the anchoring of the ".statusicon" icon image*/
+	padding: 0px;
+	margin: 0px;
+	height: 32px;
+	border:0px;
+	outline:none;
+}
+
+.applemenu div#content1 { 
+	background: url(http://www.CESweb.org/HP/NEWimages/slider/your_interest_bg_int.jpg) 0 0 no-repeat;
+	margin: 0px;
+	padding: 0px 5px 0px 5px;
+	height: 188px;
+}
+
+#icons {
+	width: 170px;
+	margin: 0px auto;
+	position: relative;
+	z-index: 10;
+}

@@ -1,0 +1,144 @@
+#show_player {
+	width: 230px;
+	height: 344px;
+	background: url(/HP/NEWimages/player_bg.jpg) 0 0 no-repeat;
+	float: left;
+	color: #FFF;
+	padding: 3px;
+	z-index: -1;
+}
+
+#show_player a:link,
+#show_player a:visited {
+	color:#00B9D4;
+	font-weight:bold;
+	font-size:10px;
+	font-family: Verdana, Geneva, sans-serif;
+	text-decoration:none;
+}
+
+#show_player a:hover {
+	color:#FFF;
+}
+
+#show_player a.more {
+	float:right;
+}
+
+#show_stories {
+	margin-left: 0px;
+	width: 480px;
+	height: 344px;
+	background: url(/HP/NEWimages/show_stories_bg.jpg) 0 0 repeat-x;
+	float: left;
+	position:relative;
+}
+
+#show_stories .padding {
+	padding: 0px 28px 0px 29px;
+}
+
+#show_stories .show_section {
+	height: 137px;
+	width:300px;
+	padding: 17px 0px 0px;
+	float:left;
+}
+
+#show_stories .show_section .info {
+	text-align: right;
+	padding-right: 20px;
+	color: #FFF;
+	font-size: 11px;
+	margin-bottom: 5px;
+}
+
+#show_stories .show_section .info a:link,
+#show_stories .show_section .info a:visited {
+	color: #D7DF21;
+	font-size: 10px;
+	text-decoration: none;
+	border:0px;
+	outline: none;
+}
+
+#show_stories .show_section .info a:hover {
+	color: #FFF;
+}
+
+#show_stories .show_section ul {
+	padding: 0px;
+	margin: 0px;
+}
+
+#show_stories .show_section ul li {
+	list-style: none;
+	background: url(/HP/NEWimages/bullet_on_white.jpg) 8px 3px no-repeat;
+	padding: 0px 15px 10px 20px;
+	line-height: 16px;	
+}
+
+#show_stories a {
+	text-decoration: none;
+	color: #192440;
+}
+
+#show_stories a:hover
+{
+    color:#00B9D4;
+}
+
+#show_stories .show_news {
+	height: 250px;
+	width:122px;
+	padding: 10px;
+	position:absolute;
+	right:10px;
+	top:5px;
+}
+
+#show_stories .show_news a:link,
+#show_stories .show_news a:visited {
+	color:#00B9D4;
+	font-weight:bold;
+	font-size:10px;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+#show_stories .show_news a:hover {
+	color:#FFF;
+}
+
+#show_stories .show_news ul {
+	padding: 5px 0px;
+	margin: 0px;
+}
+
+#show_stories .show_news ul li {
+	list-style: none;
+	background: none;
+	padding: 5px 0px;
+	line-height: 16px;
+	border-top: 1px dotted #FFF;	
+}
+
+#show_stories .show_news ul li:last-child {
+	border-bottom: 1px dotted #FFF;
+}
+
+#show_stories .show_news ul li a:link,
+#show_stories .show_news ul li a:visited {
+	color:#FFF;
+	font-weight:bold;
+	font-size:10px;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+#show_stories .show_news ul li a:hover {
+	color:#00B9D4;
+}
+
+#show_stories .show_news img {
+	border-right: 1px solid #FFF;
+	margin-right: 7px;
+}
