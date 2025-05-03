@@ -1,0 +1,202 @@
+﻿.lof-slidecontent, .lof-slidecontent a {
+    color:#FFF;    
+}
+.lof-slidecontent a.readmore{
+    color:#58B1EA;
+    font-size:95%;
+}
+.lof-slidecontent{
+    position:relative;
+    overflow:hidden;
+}
+.lof-slidecontent > .lof-previous {
+    background: url(/images/framework/left_arrow_big.png) no-repeat;
+    position: absolute;
+    top: 173px;
+    left: 15px;
+    display: block;
+    height: 44px;
+    width: 31px;
+    z-index: 10000;
+    text-indent: -9999px;
+    cursor: pointer;
+}
+.lof-slidecontent > .lof-next {
+    background: url(/images/framework/right_arrow_big.png) no-repeat;
+    position: absolute;
+    top: 173px;
+    right: 15px;
+    display: block;
+    height: 44px;
+    width: 31px;
+    z-index: 10000;
+    text-indent: -9999px;
+    cursor: pointer;
+}
+.lof-slidecontent .preload{
+    height:100%;
+    width:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:100000;
+    text-align:center;
+    background:#FFF
+}
+.lof-slidecontent .preload div{
+    height:100%;
+    width:100%;
+    background:transparent url(/images/framework/load-indicator.gif) no-repeat scroll 50% 50%;
+}
+.lof-main-outer{
+    position:relative;
+    height:390px;
+    width:991px;
+    z-index:3px;
+    overflow:hidden;
+}
+/*******************************************************/
+.lof-main-item-desc{
+    z-index:100px;
+    position:absolute;
+    bottom:11px;
+    left:0px;
+    width:991px;
+    background:url(/images/framework/bg_trans.png);
+    height:38px;
+    /* filter:0.7(opacity:60) */
+    padding:0px 10px 10px 10px;
+}
+.lof-main-item-desc p{
+    margin:0 0px;
+    padding:8px 0;
+    width: 450px;
+    display: block;
+}
+.lof-main-item-desc h3{
+    padding:0;
+    margin:0;
+    width: 450px;
+    display: block;
+}
+.lof-main-item-desc h2{
+    padding:0;
+    margin:5px 0 0 0px;
+    width: 450px;
+    display: block;
+}
+.lof-main-item-desc h3 a{    
+    margin:0;
+    background:#C01F25;
+    font-size:75%;
+    padding:2px 3px;
+    font-family:"Trebuchet MS",Trebuchet,Arial,Verdana,sans-serif;
+    text-transform:uppercase;
+    text-decoration:none
+}
+.lof-main-item-desc h3 a:hover{
+    text-decoration:underline;
+}
+.lof-main-item-desc h3 i {
+    font-size:70%;
+}
+/* main flash */
+ul.lof-main-wapper{
+    /* margin-right:auto; */
+    overflow:hidden;
+    background:transparent url(/images/framework/load-indicator.gif) no-repeat scroll 50% 50%;
+    padding:0px;
+    margin:0;
+    position:absolute;
+    overflow:hidden;
+}
+ul.lof-main-wapper li{
+    overflow:hidden;
+    padding:0px;
+    margin:0px;
+    float:left;
+    position:relative;
+}
+.lof-opacity  li{
+    position:absolute;
+    top:0;
+    left:0;
+    float:inherit;
+}
+ul.lof-main-wapper li img{
+    padding:0px;    
+}
+/* item navigator */
+.lof-navigator-wapper {
+    position:absolute;
+    bottom:3px;
+    right:10px;
+    padding:5px 0px;
+}
+.lof-navigator-outer{
+    position:relative;
+    z-index:100;
+    height:28px;
+    width:380px;
+    overflow:hidden;
+    color:#FFF;
+    float:left
+}
+ul.lof-navigator{
+    top:0;
+    padding:0;
+    margin:0;
+    position:absolute;
+}
+ul.lof-navigator li{
+    width: 60px !important;
+    height: 26px !important;
+    cursor:pointer;
+    list-style:none;
+    padding:0;
+    margin: 0px 16px 0px 0px;
+    float:left;
+    display:block;
+}
+ul.lof-navigator li img{
+        border: 1px solid #FFFFFF;
+        width: 100%;
+        height: 100%;
+        opacity: 0.5;
+        filter: alpha(opacity=50);
+        -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+        -khtml-opacity: 0.5;
+        -moz-opacity:0.5;
+}
+ul.lof-navigator li.active img {
+    width: 100%;
+    opacity: 1 !important;
+    filter: alpha(opacity=100);
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=1)";
+    -khtml-opacity: 1;
+    -moz-opacity:1;
+}
+.lof-navigator-wapper .lof-next,  .lof-navigator-wapper .lof-previous{
+    display: block;
+    width: 22px;
+    height: 30px;
+    color: #FFF;
+    cursor: pointer;
+    text-indent: -9999px;
+}
+.lof-navigator-wapper > .lof-next {
+    float: left;
+    text-indent: -9999px;
+    margin: 3px 0px 0px 0px;
+    background:url(/images/framework/right_arrow_small.png) no-repeat;
+    width: 23px;
+    height: 23px;
+}
+.lof-navigator-wapper > .lof-previous {
+    float: left;
+    text-indent: -9999px;
+    margin: 3px 12px 0px 0px;
+    background: url(/images/framework/left_arrow_small.png) no-repeat;
+    width: 23px;
+    height: 23px;
+}

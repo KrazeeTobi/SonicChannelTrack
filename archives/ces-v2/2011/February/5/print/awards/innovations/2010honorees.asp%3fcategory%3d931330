@@ -1,0 +1,1054 @@
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><!-- PageID 315 - published by Open Text Web Solutions 10 - 10.0.0.57 - 29635 -->
+    <title>International CES - January 8-11, 2009 - Innovations Honorees</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+
+    
+<link type="text/css" rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" />
+
+
+
+<link type="text/css" rel="stylesheet" href="/print/css/styles.css" />
+
+<link type="text/css" rel="stylesheet" href="/print/css/HPtemplate_css.css" />
+
+<link type="text/css" rel="stylesheet" href="/print/css/pyxl_home.css" />
+
+<link type="text/css" rel="stylesheet" href="/print/css/sub_page.css" />
+
+
+
+
+<!--[if IE 6]>
+<link href="http://www.cesweb.org/css/ie6only_css-int.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+
+
+
+<script type="text/javascript" src="/print/utilities/interest.js"></script>
+
+<script type="text/javascript" src="/print/utilities/mainNav.js"></script>
+
+<script type="text/javascript" src="/print/utilities/rollOver.js"></script>
+
+<script type="text/javascript" src="/print/utilities/jquery.flow.1.2.auto.js"></script>
+
+<script type="text/javascript" src="/print/utilities/jquery.colorbox-min.js"></script>
+
+<script type="text/javascript" src="/print/utilities/jflickrfeed.min.js"></script>
+
+<script type="text/javascript" src="/print/utilities/jquery.easing.1.2.js"></script>
+
+<script type="text/javascript" src="/print/utilities/jquery.anythingslider.js"></script>
+
+<script type="text/javascript" src="/print/utilities/jquery.countdown.js"></script>
+
+<script type="text/javascript" src="/print/utilities/jquery.jfeed.js"></script>
+
+<script type="text/javascript" src="/print/utilities/jquery.jgfeed.js"></script>
+
+ 
+<script>
+    $(document).ready(function() {
+        $("#tabs").tabs();
+        $(document).bind('cbox_complete', function(){
+        setTimeout($('#colorbox').show(), 1500);
+        });
+    });
+</script>
+
+
+<script type="text/javascript">
+    function formatText(index, panel) {
+      return index + "";
+    }
+    $(function () {
+    
+        $('.anythingSlider').anythingSlider({
+            easing: "easeInOutExpo",        // Anything other than "linear" or "swing" requires the easing plugin
+            autoPlay: true,                 // This turns off the entire FUNCTIONALY, not just if it starts running or not.
+            delay: 6000,                    // How long between slide transitions in AutoPlay mode
+            startStopped: false,            // If autoPlay is on, this can force it to start stopped
+            animationTime: 1200,             // How long the slide transition takes
+            hashTags: false,                 // Should links change the hashtag in the URL?
+            buildNavigation: true,          // If true, builds and list of anchor links to link to each slide
+            pauseOnHover: true,             // If true, and autoPlay is enabled, the show will pause on hover
+            startText: " ",                // Start text
+            stopText: " ",                 // Stop text
+            navigationFormatter: formatText       // Details at the top of the file on this use (advanced use)
+        });
+        
+        $("#slide-jump").click(function(){
+            $('.anythingSlider').anythingSlider(3);
+        });
+        
+    });
+</script>
+
+<script type="text/javascript">
+    var revert = new Array();
+    var inames = new Array('cesweb_menu_exhibitor', 'cesweb_menu_conference', 'cesweb_menu_events', 'cesweb_menu_awards', 'cesweb_menu_showfloor', 'cesweb_menu_hoteltravel', 'cesweb_menu_news', 'cesweb_menu_faq', 'cesweb_register', 'cesweb_exhibit', 'cesweb_exhibitors', 'cesweb_press', 'cesweb_visitors', 'entertainment_matters'  );
+    // Preload
+    if (document.images) {
+        var flipped = new Array();
+        for(i=0; i< inames.length; i++) {
+            flipped[i] = new Image();
+            switch (i)
+            {
+                case 0:
+                    flipped[i].src = '/print/images/framework/cesweb_menu_exhibitor2.png';
+                    break;
+                case 1:
+                    flipped[i].src = '/print/images/framework/cesweb_menu_conference2.png';
+                    break;
+                case 2:
+                    flipped[i].src = '/print/images/framework/cesweb_menu_events2.png';
+                    break;
+                case 3:
+                    flipped[i].src = '/print/images/framework/cesweb_menu_awards2.png';
+                    break;
+                case 4:
+                    flipped[i].src = '/print/images/framework/cesweb_menu_showfloor2.png';
+                    break;
+                case 5:
+                    flipped[i].src = '/print/images/framework/cesweb_menu_hoteltravel2.png';
+                    break;
+                case 6:
+                    flipped[i].src = '/print/images/framework/cesweb_menu_news2.png';
+                    break;
+                case 7:
+                    flipped[i].src = '/print/images/framework/cesweb_menu_faq2.png';
+                    break;
+                case 8:
+                    flipped[i].src = '/print/images/framework/cesweb_register2.png';
+                    break;
+                case 9:
+                    flipped[i].src = '/print/images/framework/cesweb_exhibit2.png';
+                    break;
+                case 10:
+                    flipped[i].src = '/print/images/framework/cesweb_exhibitors2.png'
+                    break;
+                case 11:
+                    flipped[i].src = '/print/images/framework/cesweb_press2.png';
+                    break;
+                case 12:
+                    flipped[i].src = '/print/images/framework/cesweb_visitors2.png';
+                    break;
+                case 13:
+                    flipped[i].src = '/print/images/framework/EMatCES2.jpg';
+                    break;
+                default:
+            }
+        }
+    }
+    function over(num) {
+      if(document.images) {
+        revert[num] = document.images[inames[num]].src;
+        document.images[inames[num]].src = flipped[num].src;
+      }          
+    }
+    function out(num) {
+      if(document.images) document.images[inames[num]].src = revert[num];
+    }
+</script>
+<script type="text/javascript">
+    $(function () {
+        var austDay = new Date();
+        austDay = new Date(austDay.getFullYear(), 0, 6, 8);
+        $('#countdown').countdown({until: austDay, format: 'dHMS' });
+    });
+</script>
+<script type="text/javascript">
+    //News Script
+    jQuery(function() {
+        jQuery.getFeed({
+            url: 'rssNews.xml',
+            success: function(feed) {
+                  
+                var html = '';      
+                for(var i = 0; i < feed.items.length && i < 15; i++) {
+        if(i==0){html += '<div id="news_1">'}        
+                    var item = feed.items[i];
+                    
+                    html += '<div id="news-date"><p>'
+                    + item.updated
+                    + '</p></div>'
+                    +'<h3>'
+                    + item.title
+                    + '</h3>'
+                    +'<div id="news-content"><p>'
+                    + item.description
+                       + ' [...]</p><div id="read-more"><a href="'
+                    + item.link
+                    + '">Read More'
+                    +'</a></div>'
+                    + '</div>';
+    if(i==3){html += '</div><div id="news_2" style="display:none">'}
+    if(i==7){html += '</div><div id="news_3" style="display:none">'}
+    if(i==11){html += '</div><div id="news_4" style="display:none">'}
+    if(i==15){html += '</div>'}
+    
+    
+                }
+                
+                jQuery('#news').append(html);
+            }    
+        });
+    });
+//Blog Script
+$('#blog').ready(function()
+{
+$.jGFeed('http://blog.ce.org/?feed=rss2',
+function(feeds){
+  // Check for errors
+  if(!feeds){
+    // there was an error
+    return false;
+  }
+    var item_html = '';
+    var item2_html = '';
+    var item3_html = '';
+    var item4_html = '';
+  for(var i=0; i<feeds.entries.length; i++){
+    var item = feeds.entries[i];
+if (i == 1) item_html += '<div id="blog-1"><div id="blog-date"><p>'+item.publishedDate.substring(0, 25)+'</p></div><h3>'+item.title+'</h3><div id="blog-content"><p>'+item.contentSnippet+'</div><div id="read-more"><a href="'+item.link+'"> Read More</a></p></div>';
+if (i == 2) item_html += '<div id="blog-date"><p>'+item.publishedDate.substring(0, 25)+'</p></div><h3>'+item.title+'</h3><div id="blog-content"><p>'+item.contentSnippet+'</div><div id="read-more"><a href="'+item.link+'"> Read More</a></p></div>';
+if (i == 3) item_html += '<div id="blog-date"><p>'+item.publishedDate.substring(0, 25)+'</p></div><h3>'+item.title+'</h3><div id="blog-content"><p>'+item.contentSnippet+'</div><div id="read-more"><a href="'+item.link+'"> Read More</a></p></div>';
+if (i == 4) item_html += '<div id="blog-date"><p>'+item.publishedDate.substring(0, 25)+'</p></div><h3>'+item.title+'</h3><div id="blog-content"><p>'+item.contentSnippet+'</div><div id="read-more"><a href="'+item.link+'"> Read More</a></p></div>';
+if (i == 5) item2_html += '<div id="blog-1"><div id="blog-date"><p>'+item.publishedDate.substring(0, 25)+'</p></div><h3>'+item.title+'</h3><div id="blog-content"><p>'+item.contentSnippet+'</div><div id="read-more"><a href="'+item.link+'"> Read More</a></p></div>';
+if (i == 6) item2_html += '<div id="blog-date"><p>'+item.publishedDate.substring(0, 25)+'</p></div><h3>'+item.title+'</h3><div id="blog-content"><p>'+item.contentSnippet+'</div><div id="read-more"><a href="'+item.link+'"> Read More</a></p></div>';
+if (i == 7) item2_html += '<div id="blog-date"><p>'+item.publishedDate.substring(0, 25)+'</p></div><h3>'+item.title+'</h3><div id="blog-content"><p>'+item.contentSnippet+'</div><div id="read-more"><a href="'+item.link+'"> Read More</a></p></div>';
+if (i == 8) item2_html += '<div id="blog-date"><p>'+item.publishedDate.substring(0, 25)+'</p></div><h3>'+item.title+'</h3><div id="blog-content"><p>'+item.contentSnippet+'</div><div id="read-more"><a href="'+item.link+'"> Read More</a></p></div>';
+if (i == 9) item3_html += '<div id="blog-1"><div id="blog-date"><p>'+item.publishedDate.substring(0, 25)+'</p></div><h3>'+item.title+'</h3><div id="blog-content"><p>'+item.contentSnippet+'</div><div id="read-more"><a href="'+item.link+'"> Read More</a></p></div>';
+if (i == 10) item3_html += '<div id="blog-date"><p>'+item.publishedDate.substring(0, 25)+'</p></div><h3>'+item.title+'</h3><div id="blog-content"><p>'+item.contentSnippet+'</div><div id="read-more"><a href="'+item.link+'"> Read More</a></p></div>';
+if (i == 11) item3_html += '<div id="blog-date"><p>'+item.publishedDate.substring(0, 25)+'</p></div><h3>'+item.title+'</h3><div id="blog-content"><p>'+item.contentSnippet+'</div><div id="read-more"><a href="'+item.link+'"> Read More</a></p></div>';
+if (i == 12) item3_html += '<div id="blog-date"><p>'+item.publishedDate.substring(0, 25)+'</p></div><h3>'+item.title+'</h3><div id="blog-content"><p>'+item.contentSnippet+'</div><div id="read-more"><a href="'+item.link+'"> Read More</a></p></div>';
+if (i == 13) item4_html += '<div id="blog-1"><div id="blog-date"><p>'+item.publishedDate.substring(0, 25)+'</p></div><h3>'+item.title+'</h3><div id="blog-content"><p>'+item.contentSnippet+'</div><div id="read-more"><a href="'+item.link+'"> Read More</a></p></div>';
+if (i == 14) item4_html += '<div id="blog-date"><p>'+item.publishedDate.substring(0, 25)+'</p></div><h3>'+item.title+'</h3><div id="blog-content"><p>'+item.contentSnippet+'</div><div id="read-more"><a href="'+item.link+'"> Read More</a></p></div>';
+if (i == 15) item4_html += '<div id="blog-date"><p>'+item.publishedDate.substring(0, 25)+'</p></div><h3>'+item.title+'</h3><div id="blog-content"><p>'+item.contentSnippet+'</div><div id="read-more"><a href="'+item.link+'"> Read More</a></p></div>';
+if (i == 16) item4_html += '<div id="blog-date"><p>'+item.publishedDate.substring(0, 25)+'</p></div><h3>'+item.title+'</h3><div id="blog-content"><p>'+item.contentSnippet+'</div><div id="read-more"><a href="'+item.link+'"> Read More</a></p></div>';
+                 
+  }
+                $('#blog_1').append(item_html);
+                $('#blog_2').append(item2_html);
+                $('#blog_3').append(item_html);
+                $('#blog_4').append(item2_html);
+}, 16);
+
+//END BLOG     
+});    $('.ui-tabs .ui-tabs-nav ').ready(function(){
+        if (jQuery.browser.safari) {
+            $('.ui-tabs .ui-tabs-nav').css({"margin-top":"4px" });
+            $('.ui-tabs .ui-tabs-nav li.news.ui-tabs-selected').css({"padding-right":"18px", "margin-left":"-21px" });
+            $('.ui-tabs .ui-tabs-nav li.news').css({"padding-right":"18px" });
+            
+            
+        }    
+    });
+    //News Nav
+    function newsActive (id) {      
+        var node = document.getElementById(id);
+        var contentNode = document.getElementById("news");
+        var childCount = contentNode.childNodes.length;
+        for (var i = 0; i < childCount; ++i)
+        {
+            child = contentNode.childNodes[i];
+            if( child.nodeName.toLowerCase() == "div" )
+            {
+                child.style.display = "none";
+            }
+        }
+        node.style.display = "block";
+        
+        var buttonNode = document.getElementById(id + "_button");
+        var ulNode = document.getElementById("news_nav_buttons");
+        var childCount = ulNode.childNodes.length;
+        for (var i = 0; i < childCount; ++i)
+        {
+            child = ulNode.childNodes[i];
+            if( child.nodeName.toLowerCase() == "li" )
+            {
+                child.className = "";
+            }
+        }
+        buttonNode.className = "on_page";
+        
+        return false;
+    }
+    //Blog Nav
+    function blogActive (id) {      
+        var node = document.getElementById(id);
+        var contentNode = document.getElementById("blog");
+        var childCount = contentNode.childNodes.length;
+        for (var i = 0; i < childCount; ++i)
+        {
+            child = contentNode.childNodes[i];
+            if( child.nodeName.toLowerCase() == "div" )
+            {
+                child.style.display = "none";
+            }
+        }
+        node.style.display = "block";
+        
+        var buttonNode = document.getElementById(id + "_button");
+        var ulNode = document.getElementById("blog_nav_buttons");
+        var childCount = ulNode.childNodes.length;
+        for (var i = 0; i < childCount; ++i)
+        {
+            child = ulNode.childNodes[i];
+            if( child.nodeName.toLowerCase() == "li" )
+            {
+                child.className = "";
+            }
+        }
+        buttonNode.className = "on_page";
+        
+        return false;
+    }
+</script>
+
+    <script language="javascript" src="/print/utilities/flashDetect.js" type="text/javascript"></script>
+    <script language="javascript" src="/print/utilities/emailPage.js" type="text/javascript"></script>
+</head>
+<body>
+    <div id="container">
+        <div id="content-container">
+            <div id="header">
+    <div id="logo">
+        <a href="/print/default.asp"><img src="/print/images/framework/cesweb_headerlogo.png" alt="International CES"></a>
+    </div>
+    <div id="headTop">
+        <!-- Pyxl ADD search from below-->
+        <form action="http://googlebox.ce.org/search?" method="GET" name="searchCES">
+            <input type="hidden" id="Hidden1" value="default_collection" name="site">
+            <input type="hidden" id="Hidden2" value="2011CESweb" name="client">
+            <input type="hidden" id="Hidden3" value="2011CESweb" name="proxystylesheet">
+            <input type="hidden" id="Hidden4" value="xml_no_dtd" name="output">
+            <!-- Pyxl Alter Search value to "Search"  -->    <input type="text" onfocus="if(this.value=='Search') this.value='';" onblur="if(this.value=='') this.value='Search';" value="Search" class="searchbox" name="q"><input type="submit" onclick="document.searchCES.submit();" class="searchbutton" value="">
+        </form>
+        <a href="/print/aboutces.asp">About CES</a> | 
+        <a href="http://www.cesweb.org/blog" target="_blank">CES Blog</a> |  
+        <a href="/print/contactus.asp">Contact Us</a>
+    </div>
+  
+    <div class="clr"></div>
+
+    <div id="ctacontainer">
+        <div id="showdate"><img src="/print/images/framework/CESweb_headerdate.png" alt="2011 International CES January 6-9, 2011"></div>
+        <div id="countdown"></div>
+        <div id="register"><a href="/register" title="Register for CES" target=_blank><img src="/print/images/framework/cesweb_register1.png" alt="Register" name="cesweb_register" onMouseOver="over(8)" onMouseOut="out(8)" /></a></div>
+        <div id="exhibit"> <a href="/exhibitors/space/default.asp" title="Exhibit at CES"><img src="/print/images/framework/cesweb_exhibit1.png" alt="Exhibit at CES" name="cesweb_exhibit" onMouseOver="over(9)" onMouseOut="out(9)" /></a></div>
+    </div>
+</div>
+
+            <div id="main-content">
+                <div>
+                    <br />
+                    <br />
+                    <br />
+                </div>
+                <div id="">
+                    
+                    
+                    <div id="inner-content-long">
+                        <h1>Innovations Honorees</h1>                                  
+                        
+
+<SCRIPT language="javascript1.2">
+function newWin(urlString,pgNum)
+  {
+    var popupWindow;
+	urlString += "?pageID=" + pgNum;
+	
+    popupWindow = window.open(urlString,"","toolbar=yes,menubar=no,resizable=no,status=no,scrollbars=yes,location=no,directories=no,copyhistory=no,height=550,width=610,left=50,top=50");
+  }//  function for opening a new pop-up window for printing a page
+  
+ 
+function openNewWindow(strURL) {
+	window.name = "main";
+	
+	var newWindow = window.open(strURL,"newWindow", "toolbar=no,menubar=no,resizable=no,status=no,scrollbars=yes,location=no,directories=no,copyhistory=no,height=400,width=450,left=50,top=50");
+} //  function for opening a new pop-up window
+
+// javascript for e-mail this page tool - gets the url of the page the user is on before the e-mail page tool button is clicked
+	
+	function loadReferrer() {
+		referrerString = opener.document.location.href;
+		document.emailForm.page.value = referrerString;
+	}
+
+</SCRIPT>
+	
+	<script language="javascript1.2">
+		function Image_OnMouseDown(){ 
+		alert ("This image is protected.");}
+	</script>
+
+
+
+<div class="page_header_block">
+    <div class="blue_box">	
+   
+	<ul><li><A href="/awards/innovations/2010honorees.asp">Best of Innovations</A></li>
+		
+			<li><a href="/print/awards/innovations/2010honorees.asp?category=931328" class="inpagenav">Audio Accessories</a></li>
+			
+			<li><a href="/print/awards/innovations/2010honorees.asp?category=931329" class="inpagenav">Audio Components</a></li>
+			
+			<li><a href="/print/awards/innovations/2010honorees.asp?category=931330" class="inpagenav">Computer Accessories</a></li>
+			
+			<li><a href="/print/awards/innovations/2010honorees.asp?category=931331" class="inpagenav">Computer Hardware</a></li>
+			
+			<li><a href="/print/awards/innovations/2010honorees.asp?category=931332" class="inpagenav">Computer Peripherals</a></li>
+			
+			<li><a href="/print/awards/innovations/2010honorees.asp?category=931333" class="inpagenav">Digital Imaging</a></li>
+			
+			<li><a href="/print/awards/innovations/2010honorees.asp?category=931334" class="inpagenav">Eco-Design and Sustainable Technology</a></li>
+			
+			<li><a href="/print/awards/innovations/2010honorees.asp?category=931335" class="inpagenav">Electronic Gaming Hardware</a></li>
+			
+			<li><a href="/print/awards/innovations/2010honorees.asp?category=931396" class="inpagenav">Electronic Gaming Software</a></li>
+			
+			<li><a href="/print/awards/innovations/2010honorees.asp?category=931336" class="inpagenav">Enabling Technologies</a></li>
+			
+			<li><a href="/print/awards/innovations/2010honorees.asp?category=931338" class="inpagenav">Headphones</a></li>
+			
+	</ul>
+	<ul>
+		
+			<li><a href="/print/awards/innovations/2010honorees.asp?category=931339" class="inpagenav">Health and Wellness</a></li>
+			
+			<li><a href="/print/awards/innovations/2010honorees.asp?category=931340" class="inpagenav">High Performance Audio</a></li>
+			
+			<li><a href="/print/awards/innovations/2010honorees.asp?category=931341" class="inpagenav">Home Appliances</a></li>
+			
+			<li><a href="/print/awards/innovations/2010honorees.asp?category=931342" class="inpagenav">Home Networking</a></li>
+			
+			<li><a href="/print/awards/innovations/2010honorees.asp?category=931343" class="inpagenav">Home Theater Accessories</a></li>
+			
+			<li><a href="/print/awards/innovations/2010honorees.asp?category=931361" class="inpagenav">Home Theater Speakers</a></li>
+			
+			<li><a href="/print/awards/innovations/2010honorees.asp?category=931349" class="inpagenav">Integrated Home Systems</a></li>
+			
+			<li><a href="/print/awards/innovations/2010honorees.asp?category=931345" class="inpagenav">In-Vehicle Accessories</a></li>
+			
+			<li><a href="/print/awards/innovations/2010honorees.asp?category=931344" class="inpagenav">In-Vehicle Audio</a></li>
+			
+			<li><a href="/print/awards/innovations/2010honorees.asp?category=931346" class="inpagenav">In-Vehicle Control/OEM Integration</a></li>
+			
+			<li><a href="/print/awards/innovations/2010honorees.asp?category=931347" class="inpagenav">In-Vehicle Navigation/Telematics/ITS</a></li>
+			
+			<li><a href="/print/awards/innovations/2010honorees.asp?category=931348" class="inpagenav">In-Vehicle Video</a></li>
+					
+	</ul>
+	<ul>
+		
+			<li><a href="/print/awards/innovations/2010honorees.asp?category=931350" class="inpagenav">Multi-Room Audio/Video</a></li>
+			
+			<li><a href="/print/awards/innovations/2010honorees.asp?category=931337" class="inpagenav">Online Audio/Video Content</a></li>
+			
+			<li><a href="/print/awards/innovations/2010honorees.asp?category=931397" class="inpagenav">Online Retail</a></li>
+			
+			<li><a href="/print/awards/innovations/2010honorees.asp?category=931351" class="inpagenav">Personal Electronics</a></li>
+			
+			<li><a href="/print/awards/innovations/2010honorees.asp?category=931352" class="inpagenav">Portable Media Players</a></li>
+			
+			<li><a href="/print/awards/innovations/2010honorees.asp?category=931353" class="inpagenav">Portable Multimedia Accessories</a></li>
+			
+			<li><a href="/print/awards/innovations/2010honorees.asp?category=931354" class="inpagenav">Portable Power</a></li>
+			
+			<li><a href="/print/awards/innovations/2010honorees.asp?category=931355" class="inpagenav">Social Networks</a></li>
+			
+			<li><a href="/print/awards/innovations/2010honorees.asp?category=931356" class="inpagenav">Video Accessories</a></li>
+			
+			<li><a href="/print/awards/innovations/2010honorees.asp?category=931357" class="inpagenav">Video Components</a></li>
+			
+			<li><a href="/print/awards/innovations/2010honorees.asp?category=931358" class="inpagenav">Video Displays</a></li>
+			
+			<li><a href="/print/awards/innovations/2010honorees.asp?category=931359" class="inpagenav">Wireless Handsets</a></li>
+			
+			<li><a href="/print/awards/innovations/2010honorees.asp?category=931360" class="inpagenav">Wireless Handsets Accessories</a></li>
+			
+	</ul>		
+	</div>
+</div>
+
+<img src="/images/framework/spacer.gif" height="5"><BR />
+<BR /><BR />Honorees are selected by a preeminent panel of judges consisting of independent industry designers, engineers and journalists. <A href="judges.asp">See the judges from 2010.</A><BR />
+<br />
+The 2011 Call for Judges is August 2, 2010 - August 27, 2010. <A href="/awards/innovations/callForJudges.asp">Submit your application to be a judge!</A> <BR /><BR />
+
+		<a name="Honoree"></a>
+		<h2>Computer Accessories</h2><br /><br />
+		
+		<table width="100%" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img alt="separator" src="/images/framework/divider-line-long.gif"/></td>
+		</tr>
+		<tr><a name="Honoree"></a>
+		    <td valign="top" class="text" width="100%">
+				<table border="0" width="100%" cellpadding="0" cellspacing="0">
+				<tr>
+					<td valign="top">
+					<b>AViiQ</b><br /><br />			
+					<b>AViiQ Portable Laptop Stand</b><br />
+
+						
+						<a target="new" href="http://www.aviiq.com">http://www.aviiq.com</a><br />
+					
+					<br />
+					</td>
+
+					
+					<td>
+					<table align="right" border="0">
+					<tr>
+						<!-- BOI logo -->
+						
+					</tr>
+					</table>
+					</td>
+					
+					
+						<td valign="top" width="140" "nowrap">[<a target="_blank" href="http://cea.mblast.com/files/companies/226115/Logo/JPEG/87670.foldedclosed-tn.jpg">view product image</a>]</td>
+					
+					
+				</tr>
+				</table>
+
+				This Laptop Stand can be folded to less than 1/4&quot; thick and holds up to a 17&quot; laptop at the optimal angle, allowing air to flow underneath, dissipating heat.
+					<br><br>Location(s): This honoree is not exhibiting at the 2010 International CES.
+				
+				<br /><br /><br />
+			
+
+			</td>
+		</tr>
+			
+		<table width="100%" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img alt="separator" src="/images/framework/divider-line-long.gif"/></td>
+		</tr>
+		<tr><a name="Honoree"></a>
+		    <td valign="top" class="text" width="100%">
+				<table border="0" width="100%" cellpadding="0" cellspacing="0">
+				<tr>
+					<td valign="top">
+					<b>Belkin International, Inc.</b><br /><br />			
+					<b>CushDesk</b><br />
+
+					
+						Model: F8N143<br />
+						
+						<a target="new" href="http://www.belkin.com">http://www.belkin.com</a><br />
+					
+					<br />
+					</td>
+
+					
+					<td>
+					<table align="right" border="0">
+					<tr>
+						<!-- BOI logo -->
+						
+					</tr>
+					</table>
+					</td>
+					
+					
+						<td valign="top" width="140" "nowrap">[<a target="_blank" href="http://cea.mblast.com/files/companies/65568/Logo/JPEG/87467.belkincushdesk01-tn.jpg">view product image</a>]</td>
+					
+					
+				</tr>
+				</table>
+
+				CushDesk is a portable and stable &quot;work space&quot; that offers comfort and convenience for your notebook. CushDesk is designed to keep your legs cool and protected from a hot laptop.
+					<br><br>Location(s): Renaissance Suites/Ren 14
+				<br /><br /><br />
+			
+
+			</td>
+		</tr>
+			
+		<table width="100%" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img alt="separator" src="/images/framework/divider-line-long.gif"/></td>
+		</tr>
+		<tr><a name="Honoree"></a>
+		    <td valign="top" class="text" width="100%">
+				<table border="0" width="100%" cellpadding="0" cellspacing="0">
+				<tr>
+					<td valign="top">
+					<b>Cables To Go</b><br /><br />			
+					<b>Wireless USB to VGA + Audio Kit</b><br />
+
+					
+						Model: 29598<br />
+						
+						<a target="new" href="http://www.cablestogo.com">http://www.cablestogo.com</a><br />
+					
+					<br />
+					</td>
+
+					
+					<td>
+					<table align="right" border="0">
+					<tr>
+						<!-- BOI logo -->
+						
+					</tr>
+					</table>
+					</td>
+					
+					
+						<td valign="top" width="140" "nowrap">[<a target="_blank" href="http://cea.mblast.com/files/companies/108102/Logo/JPEG/86081.29598wirelessvgawithaudio1-tn.jpg">view product image</a>]</td>
+					
+					
+				</tr>
+				</table>
+
+				Connect your computer to a projector or TV without cables! Wirelessly stream UXGA (720p) video and stereo audio up to 30 feet. Great for classrooms, conference rooms and home use.
+					<br><br>Location(s): South 1/21425
+				<br /><br /><br />
+			
+
+			</td>
+		</tr>
+			
+		<table width="100%" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img alt="separator" src="/images/framework/divider-line-long.gif"/></td>
+		</tr>
+		<tr><a name="Honoree"></a>
+		    <td valign="top" class="text" width="100%">
+				<table border="0" width="100%" cellpadding="0" cellspacing="0">
+				<tr>
+					<td valign="top">
+					<b>CoolIT Systems, Inc.</b><br /><br />			
+					<b>ECO</b><br />
+
+					
+						Model: ECO-R01<br />
+						
+						<a target="new" href="http://www.coolitsystems.com">http://www.coolitsystems.com</a><br />
+					
+					<br />
+					</td>
+
+					
+					<td>
+					<table align="right" border="0">
+					<tr>
+						<!-- BOI logo -->
+						
+					</tr>
+					</table>
+					</td>
+					
+					
+						<td valign="top" width="140" "nowrap">[<a target="_blank" href="http://cea.mblast.com/files/companies/142367/Logo/JPEG/86566.eco_1-tn.jpg">view product image</a>]</td>
+					
+					
+				</tr>
+				</table>
+
+				ECO ALC is the lowest cost, lowest profile advanced liquid cooling solution ever made. This revolutionary leap in design delivers industry leading reliability and performance in one simple package.
+					<br><br>Location(s): South 4/35638
+				<br /><br /><br />
+			
+
+			</td>
+		</tr>
+			
+		<table width="100%" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img alt="separator" src="/images/framework/divider-line-long.gif"/></td>
+		</tr>
+		<tr><a name="Honoree"></a>
+		    <td valign="top" class="text" width="100%">
+				<table border="0" width="100%" cellpadding="0" cellspacing="0">
+				<tr>
+					<td valign="top">
+					<b>CoolIT Systems, Inc.</b><br /><br />			
+					<b>Maestro</b><br />
+
+					
+						Model: MAE-R01<br />
+						
+						<a target="new" href="http://www.coolitsystems.com">http://www.coolitsystems.com</a><br />
+					
+					<br />
+					</td>
+
+					
+					<td>
+					<table align="right" border="0">
+					<tr>
+						<!-- BOI logo -->
+						
+					</tr>
+					</table>
+					</td>
+					
+					
+						<td valign="top" width="140" "nowrap">[<a target="_blank" href="http://cea.mblast.com/files/companies/142367/Logo/JPEG/86564.maindisplay-tn.jpg">view product image</a>]</td>
+					
+					
+				</tr>
+				</table>
+
+				Maestro ESP provides groundbreaking advances in complete computer system monitoring and control realized through high level programmability, intelligent automation and wireless interconnectivity.
+					<br><br>Location(s): South 4/35638
+				<br /><br /><br />
+			
+
+			</td>
+		</tr>
+			
+		<table width="100%" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img alt="separator" src="/images/framework/divider-line-long.gif"/></td>
+		</tr>
+		<tr><a name="Honoree"></a>
+		    <td valign="top" class="text" width="100%">
+				<table border="0" width="100%" cellpadding="0" cellspacing="0">
+				<tr>
+					<td valign="top">
+					<b>CoolIT Systems, Inc.</b><br /><br />			
+					<b>Omni</b><br />
+
+					
+						Model: OMNI-RX2<br />
+						
+						<a target="new" href="http://www.coolitsystems.com">http://www.coolitsystems.com</a><br />
+					
+					<br />
+					</td>
+
+					
+					<td>
+					<table align="right" border="0">
+					<tr>
+						<!-- BOI logo -->
+						
+					</tr>
+					</table>
+					</td>
+					
+					
+						<td valign="top" width="140" "nowrap">[<a target="_blank" href="http://cea.mblast.com/files/companies/142367/Logo/JPEG/89108.omni_1-tn.jpg">view product image</a>]</td>
+					
+					
+				</tr>
+				</table>
+
+				OMNI ALC revolutionizes the video card cooling industry by providing an upgradable, high performance and cost effective universal liquid cooling solution that does away with the traditional design approach.
+					<br><br>Location(s): South 4/35638
+				<br /><br /><br />
+			
+
+			</td>
+		</tr>
+			
+		<table width="100%" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img alt="separator" src="/images/framework/divider-line-long.gif"/></td>
+		</tr>
+		<tr><a name="Honoree"></a>
+		    <td valign="top" class="text" width="100%">
+				<table border="0" width="100%" cellpadding="0" cellspacing="0">
+				<tr>
+					<td valign="top">
+					<b>Elan Microelectronics Corp</b><br /><br />			
+					<b>Five-in -one Smart Remote Control</b><br />
+
+					
+						Model: ESR-8020<br />
+						
+						<a target="new" href="http://www.emc.com.tw">http://www.emc.com.tw</a><br />
+					
+					<br />
+					</td>
+
+					
+					<td>
+					<table align="right" border="0">
+					<tr>
+						<!-- BOI logo -->
+						
+					</tr>
+					</table>
+					</td>
+					
+					
+						<td valign="top" width="140" "nowrap">[<a target="_blank" href="http://cea.mblast.com/files/companies/225413/Logo/JPEG/87068.cessrc1-tn.jpg">view product image</a>]</td>
+					
+					
+				</tr>
+				</table>
+
+				The capacitive touchpad multi-function remote control is integrated with Mouse/Keyboard/Joystick/Presenter / Handwriting recognition functions for PC/IPTV. Moreover, the remote also supports Windows 7 multi-touch gestures operation.
+					<br><br>Location(s): South 4/35635
+				<br /><br /><br />
+			
+
+			</td>
+		</tr>
+			
+		<table width="100%" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img alt="separator" src="/images/framework/divider-line-long.gif"/></td>
+		</tr>
+		<tr><a name="Honoree"></a>
+		    <td valign="top" class="text" width="100%">
+				<table border="0" width="100%" cellpadding="0" cellspacing="0">
+				<tr>
+					<td valign="top">
+					<b>Movea</b><br /><br />			
+					<b>Air Mouse Elite</b><br />
+
+					
+						Model: GYM5600NA<br />
+					
+						Design by: Cre8 design<br />
+						
+						<a target="new" href="http://www.fwd.com.tw/">http://www.fwd.com.tw/</a><br />
+					
+					<br />
+					</td>
+
+					
+					<td>
+					<table align="right" border="0">
+					<tr>
+						<!-- BOI logo -->
+						
+					</tr>
+					</table>
+					</td>
+					
+					
+						<td valign="top" width="140" "nowrap">[<a target="_blank" href="http://cea.mblast.com/files/companies/223533/Logo/JPEG/88915.airmouseeliteangledweb-tn.jpg">view product image</a>]</td>
+					
+					
+				</tr>
+				</table>
+
+				The elegant and ergonomic Air Mouse Elite brings the intuitive simplicity of motion to your digital life. Your natural hand movements drive powerful presentation, immersive gameplay, convenient access to HTPC
+					<br><br>Location(s): This honoree is not exhibiting at the 2010 International CES.
+				
+				<br /><br /><br />
+			
+
+			</td>
+		</tr>
+			
+		<table width="100%" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img alt="separator" src="/images/framework/divider-line-long.gif"/></td>
+		</tr>
+		<tr><a name="Best of Innovations"></a>
+		    <td valign="top" class="text" width="100%">
+				<table border="0" width="100%" cellpadding="0" cellspacing="0">
+				<tr>
+					<td valign="top">
+					<b>IntelliTouch</b><br /><br />			
+					<b>Eos Converge</b><br />
+
+					
+						Model: EOS Converge System<br />
+					
+						Design by: Spindel Design<br />
+						
+						<a target="new" href="http://www.eoswireless.com">http://www.eoswireless.com</a><br />
+					
+					<br />
+					</td>
+
+					
+					<td>
+					<table align="right" border="0">
+					<tr>
+						<!-- BOI logo -->
+						<td><img src="/awards/innovations/images/best_of_2010.gif" align="right" border="0" alt="Best of Innovations Honoree" onMouseDown="javascript:Image_OnMouseDown()"></td>
+					</tr>
+					</table>
+					</td>
+					
+					
+						<td valign="top" width="140" "nowrap">[<a target="_blank" href="http://cea.mblast.com/files/companies/97527/Logo/JPEG/87527.convergeall1-tn.jpg">view product image</a>]</td>
+					
+					
+				</tr>
+				</table>
+
+				Eos Converge is a digital wireless multi-room audio system that brings music from your computer, home audio system or virtually any other music source, into every room of your house.
+					<br><br>Location(s): This honoree is not exhibiting at the 2010 International CES.
+				
+				<br /><br /><br />
+			
+
+			</td>
+		</tr>
+			
+		<table width="100%" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img alt="separator" src="/images/framework/divider-line-long.gif"/></td>
+		</tr>
+		<tr><a name="Honoree"></a>
+		    <td valign="top" class="text" width="100%">
+				<table border="0" width="100%" cellpadding="0" cellspacing="0">
+				<tr>
+					<td valign="top">
+					<b>Targus Group International, Inc.</b><br /><br />			
+					<b>Targus Lap Chill Mat</b><br />
+
+					
+						Model: AWE55US<br />
+						
+						<a target="new" href="http://www.targus.com">http://www.targus.com</a><br />
+					
+					<br />
+					</td>
+
+					
+					<td>
+					<table align="right" border="0">
+					<tr>
+						<!-- BOI logo -->
+						
+					</tr>
+					</table>
+					</td>
+					
+					
+						<td valign="top" width="140" "nowrap">[<a target="_blank" href="http://cea.mblast.com/files/companies/90532/Logo/JPEG/85850.cooling-tn.jpg">view product image</a>]</td>
+					
+					
+				</tr>
+				</table>
+
+				The Targus Lap Chill Mat provides a comfortable and ergonomic work surface to keep you and your laptop cool while extending the life of your laptop.
+					<br><br>Location(s): /Hilton 318, North Hall Meeting Rooms/N108
+				<br /><br /><br />
+			
+
+			</td>
+		</tr>
+			
+		<table width="100%" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img alt="separator" src="/images/framework/divider-line-long.gif"/></td>
+		</tr>
+		<tr><a name="Honoree"></a>
+		    <td valign="top" class="text" width="100%">
+				<table border="0" width="100%" cellpadding="0" cellspacing="0">
+				<tr>
+					<td valign="top">
+					<b>PureEnergy Solutions, Inc.</b><br /><br />			
+					<b>PureEnergy High Powered Charging Pad</b><br />
+
+					
+						Model: PB-0301-NANB<br />
+					
+					<br />
+					</td>
+
+					
+					<td>
+					<table align="right" border="0">
+					<tr>
+						<!-- BOI logo -->
+						
+					</tr>
+					</table>
+					</td>
+					
+					
+						<td valign="top" width="140" "nowrap">[<a target="_blank" href="http://cea.mblast.com/files/companies/226043/Logo/JPEG/87999.eightlane17-tn.jpg">view product image</a>]</td>
+					
+					
+				</tr>
+				</table>
+
+				The PureEnergy High Powered Charging Pad featuring WildCharge technology simultaneously delivers wire-free power to multiple devices including notebook and netbook computers, mobile devices, gaming devices and more.
+					<br><br>Location(s): South 3/30355
+				<br /><br /><br />
+			
+
+			</td>
+		</tr>
+			
+		<table width="100%" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		    <td valign="top" colspan="3"><img alt="separator" src="/images/framework/divider-line-long.gif"/></td>
+		</tr>
+		<tr><a name="Honoree"></a>
+		    <td valign="top" class="text" width="100%">
+				<table border="0" width="100%" cellpadding="0" cellspacing="0">
+				<tr>
+					<td valign="top">
+					<b>Vuzix Corporation</b><br /><br />			
+					<b>Wrap 920AR</b><br />
+
+					
+						Model: 369T00011<br />
+						
+						<a target="new" href="http://www.vuzix.com">http://www.vuzix.com</a><br />
+					
+					<br />
+					</td>
+
+					
+					<td>
+					<table align="right" border="0">
+					<tr>
+						<!-- BOI logo -->
+						
+					</tr>
+					</table>
+					</td>
+					
+					
+						<td valign="top" width="140" "nowrap">[<a target="_blank" href="http://cea.mblast.com/files/companies/150198/Logo/JPEG/89322.wrapar4-tn.jpg">view product image</a>]</td>
+					
+					
+				</tr>
+				</table>
+
+				Wrap 920AR-The World's first Augmented Reality Video Eyewear that will change the future of console and PC based gaming! The Wrap 920AR brings the action right into your living room.
+					<br><br>Location(s): Central/8756
+				<br /><br /><br />
+			
+
+			</td>
+		</tr>
+			
+		</table>
+	
+    
+                    </div>
+                    
+    
+                    
+                    <div id="inner-content-right">
+                        <br />
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!---->
+</body>
+</html>
