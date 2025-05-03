@@ -1,0 +1,947 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head id="head"><title>
+	Press Releases - CES 2017
+</title><meta name="description" content="Read the latest press releases from CES. " /> 
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" /> 
+<meta http-equiv="pragma" content="no-cache" /> 
+<meta http-equiv="content-style-type" content="text/css" /> 
+<meta http-equiv="content-script-type" content="text/javascript" /> 
+<meta name="keywords" content="International CES, CES, CES 2010, CES 2011, CES 2012, CES 2013, CES 2014, CES 2015, CES 2016, CES 2017, CES 2018, Consumer Electronics Show, Consumer Technology, Consumer Electronics, Consumer Electronics Association, CES Las Vegas, ces show, ces vegas, CES Unveiled, ces tradeshow, ces conference, ces registration, ces exhibitor, ces innovation awards, innovation awards, best of ces, ces keynote, ces show floor, technology, silicon valley, technology innovation, disruptive technology, start-ups,International CES, CES, CES 2010, CES 2011, CES 2012, CES 2013, CES 2014, CES 2015, CES 2016, CES 2017, CES 2018, Consumer Electronics Show, Consumer Technology, Consumer Electronics, Consumer Electronics Association, CES Las Vegas, ces show, ces vegas, CES Unveiled, ces tradeshow, ces conference, ces registration, ces exhibitor, ces innovation awards, innovation awards, best of ces, ces keynote, ces show floor, technology, silicon valley, technology innovation, disruptive technology, start-ups" /> 
+<link href="/CMSPages/GetResource.ashx?stylesheetname=Blank_1" type="text/css" rel="stylesheet"/> 
+<meta http-equiv="X-UA-Compatible" content="IE=edge"> <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- open graph -->
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="International CES" />
+<meta property="og:url" content="http://www.cesweb.org/news/rssNews.asp" />
+<meta property="og:title" content="Press Releases" />
+<meta property="og:description" content="Read the latest press releases from CES. ">
+<meta property="og:image" content="http://www.cesweb.org/CES/media/2014/landing%20pages/News/pressrelease.jpg?ext=.jpg">
+<!-- open graph -->
+
+<meta property="twitter:account_id" content="10668202" />
+<!-- Twitter Summary Card -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@IntlCES">
+<meta name="twitter:creator" content="@IntlCES">
+<meta name="twitter:title" content="Press Releases">
+<meta name="twitter:description" content="Read the latest press releases from CES. ">
+<meta name="twitter:image" content="http://www.cesweb.org/CES/media/2014/landing%20pages/News/pressrelease.jpg?ext=.jpg">
+<!-- End of Twitter Summary Card -->
+
+<link rel="apple-touch-icon-precomposed" sizes="57x57" href="/CES/media/favicons/apple-touch-icon-57x57.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/CES/media/favicons/apple-touch-icon-114x114.png" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/CES/media/favicons/apple-touch-icon-72x72.png" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/CES/media/favicons/apple-touch-icon-144x144.png" />
+<link rel="apple-touch-icon-precomposed" sizes="60x60" href="/CES/media/favicons/apple-touch-icon-60x60.png" />
+<link rel="apple-touch-icon-precomposed" sizes="120x120" href="/CES/media/favicons/apple-touch-icon-120x120.png" />
+<link rel="apple-touch-icon-precomposed" sizes="76x76" href="/CES/media/favicons/apple-touch-icon-76x76.png" />
+<link rel="apple-touch-icon-precomposed" sizes="152x152" href="/CES/media/favicons/apple-touch-icon-152x152.png" />
+<link rel="icon" type="image/png" href="/CES/media/favicons/favicon-196x196.png" sizes="196x196" />
+<link rel="icon" type="image/png" href="/CES/media/favicons/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/png" href="/CES/media/favicons/favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="/CES/media/favicons/favicon-16x16.png" sizes="16x16" />
+<link rel="icon" type="image/png" href="/CES/media/favicons/favicon-128.png" sizes="128x128" />
+<meta name="application-name" content="&nbsp;"/>
+<meta name="msapplication-TileColor" content="#FFFFFF" />
+<meta name="msapplication-TileImage" content="/CES/media/favicons/mstile-144x144.png" />
+<meta name="msapplication-square70x70logo" content="/CES/media/favicons/mstile-70x70.png" />
+<meta name="msapplication-square150x150logo" content="/CES/media/favicons/mstile-150x150.png" />
+<meta name="msapplication-wide310x150logo" content="/CES/media/favicons/mstile-310x150.png" />
+<meta name="msapplication-square310x310logo" content="/CES/media/favicons/mstile-310x310.png" />
+
+
+<!-- Added by Jay - 4/15/2015 -->
+<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css"> -->
+<link rel="stylesheet" href="/Content/theme.min.css">
+<!-- <link href="/CMSPages/GetResource.ashx?stylesheetname=ices-main-style" type="text/css" rel="stylesheet"/> -->
+<!-- END Added by Jay - 4/15/2015 -->
+
+<link href="/CMSPages/GetResource.ashx?stylesheetname=ices-captions" type="text/css" rel="stylesheet"  />
+<link href="/CMSPages/GetResource.ashx?stylesheetname=ices-slider-style" type="text/css" rel="stylesheet" media="screen" />
+<link href="/CMSPages/GetResource.ashx?stylesheetname=ices-flexslider" type="text/css" rel="stylesheet" />
+<link href="/CMSPages/GetResource.ashx?stylesheetname=ices-prettyphoto" type="text/css" rel="stylesheet" />
+<link href="/CMSPages/GetResource.ashx?stylesheetname=ices-settings" type="text/css" rel="stylesheet" media="screen" />
+<link href="/CMSPages/GetResource.ashx?stylesheetname=ices-fonts" type="text/css" rel="stylesheet" media="screen" />
+<link href="/CMSPages/GetResource.ashx?stylesheetname=ices-print" type="text/css" rel="stylesheet" media="print" />
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<!-- Bootstrap causes conflicts with CMSDesk so we only include this reference if we aren't in Edit mode -->
+
+<!-- Added by Jay - 4/15/2015 -->
+
+<script type="text/javascript" src="/CES/bootstrap/js/bootstrap.min.js"></script>
+<!-- END Added by Jay - 4/15/2015 -->
+
+
+<script type="text/javascript" src="//maps.google.com/maps/api/js?sensor=false"></script>
+<script type="text/javascript" src="/ces/js/itn/jquery.cookie.js"></script>
+<!-- Added by BH - 4/22/2015 for something in script.js-->
+<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<!-- END Added by BH - 4/22/2015 -->
+<script type="text/javascript" src="/ces/js/scripts.js"></script>
+<!--<script type="text/javascript" src="/ces/js/jquery.themepunch.revolution.min.js"></script>-->
+<script type="text/javascript" src="/ces/js/custom.js"></script>
+
+<script type="text/javascript">
+  <!--
+    function toggle_visibility(id) {
+      var e = document.getElementById(id);
+      if (e.style.display == 'block')
+        e.style.display = 'none';
+      else
+        e.style.display = 'block';
+    }
+      //-->
+</script>
+<script type="text/javascript">
+  function EnterEvent(e) {
+    if (e.keyCode == 13) {
+      var val = document.getElementById('searchTxt').value;
+      var sURL = '/search-results?searchtext=' + val + '&searchmode=anyword';
+      window.location.href = sURL;
+      return false;
+    }
+  }
+  
+jQuery(document).ready(function ($) {
+  var mainMenu = $(".main-menu>li") 
+  jQuery.each(mainMenu,function()
+    {
+      var firstLevelItem = $(this).children('ul');// $('#'+ count +' > ul');
+      var dropdownCSSClass = "";
+      var secondLevelItems = firstLevelItem.children('li');//$('#'+ count +' ul > li');
+      var secondLevelItemsCount = secondLevelItems.length;
+       
+      if(secondLevelItemsCount>10)
+        dropdownCSSClass = "nav-3cols";
+      else if(secondLevelItemsCount<=10 && secondLevelItemsCount>6)
+        dropdownCSSClass = "nav-2cols";
+      
+      firstLevelItem.addClass(dropdownCSSClass);
+      
+        for (var i = 0; i < secondLevelItemsCount; i += 5) {
+          secondLevelItems.slice(i, i + 5).wrapAll('<div class="nav-col"></div>');
+        }
+       
+      
+    });
+    
+    
+  });
+</script>
+<script type="text/javascript">var switchTo5x=false;</script>
+<script type="text/javascript" src="//w.sharethis.com/button/buttons.js"></script>
+<script type="text/javascript">stLight.options({publisher: "a17beaa8-5eee-4df7-8629-9947a3e965e3",  offsetLeft:'-270', doNotHash: true, doNotCopy: false, hashAddressBar: false, exclusive_services:true, services:"facebook,twitter,linkedin,googleplus,email,sharethis", minorServices:false});</script>
+
+
+
+<script type="text/javascript" src="/ces/js/cmsedit/WidgetSecurity_non_Admin.js"></script><meta name="viewport" content="initial-scale=1.0, width=device-width, user-scalable=no" /> 
+<style type="text/css" rel="stylesheet"> 
+                   
+                        .languages {
+                        display: none !important;
+                        
+                        }
+
+                    </style>
+                    <link href="/CMSPages/GetResource.ashx?_containers=34&amp;_templates=1085;1072&amp;_transformations=4138&amp;_webparts=1067;136" type="text/css" rel="stylesheet"/> 
+</head>
+<body class="LTR ENUS ContentBody" >
+    <form method="post" action="/news/rssNews.aspx" id="form">
+<div class="aspNetHidden">
+<input type="hidden" name="manScript_HiddenField" id="manScript_HiddenField" value="" />
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form'];
+if (!theForm) {
+    theForm = document.form;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=mk_1_Kt1zUK-bQLOebRCzkQBWKV4iajCIXKxCMLeEUfSNx3O4ZvnZ12gil0lxpA4KKRW1nrSaOsV1E79S4d66NGa_xhgGqnrbCaTK7A5Sgc1&amp;t=635792883671809273" type="text/javascript"></script>
+
+<input type="hidden" name="lng" id="lng" value="en-US" />
+<script type="text/javascript">
+	//<![CDATA[
+
+function PM_Postback(param) { if (window.top.HideScreenLockWarningAndSync) { window.top.HideScreenLockWarningAndSync(1080); } if(window.CMSContentManager) { CMSContentManager.allowSubmit = true; }; __doPostBack('m$am',param); }
+function PM_Callback(param, callback, ctx) { if (window.top.HideScreenLockWarningAndSync) { window.top.HideScreenLockWarningAndSync(1080); }if (window.CMSContentManager) { CMSContentManager.storeContentChangedStatus(); };WebForm_DoCallback('m$am',param,callback,ctx,null,true); }
+//]]>
+</script>
+<script src="/ScriptResource.axd?d=3hdha27SAHByUKq-4Hx6D7eXBA_sf1w0noXZScXx-Ze4hnH0bOpNHZ1dxbYxKLYOUrRTiiSOZXYZrf4AAzuWkbgxC0O56uBVj8XZjgf7SIKw-eXKUEhGRbVWNHT9bsJq0&amp;t=7c776dc1" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=CxruAHKds2NQAh3L2tjKhiOGZhw8kDeR_wxV1bauTO-Qyq-TMtKcRVRAX6AwlbJsG0zGj0BWcyUhQRQJJ-p2cmABzQfdeXl6yehAmhI1IErkBB_KGlcylUI4Yb9aEoWIuQ_LbUiEiWY4kfX0fIBefA2&amp;t=7c776dc1" type="text/javascript"></script>
+<script type="text/javascript">
+	//<![CDATA[
+
+var CMS = CMS || {};
+CMS.Application = {
+  "isRTL": "false",
+  "applicationUrl": "/",
+  "imagesUrl": "/CMSPages/GetResource.ashx?image=%5bImages.zip%5d%2f",
+  "isDialog": false
+};
+
+//]]>
+</script>
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="A5343185" />
+	<input type="hidden" name="__SCROLLPOSITIONX" id="__SCROLLPOSITIONX" value="0" />
+	<input type="hidden" name="__SCROLLPOSITIONY" id="__SCROLLPOSITIONY" value="0" />
+</div>
+    <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('manScript', 'form', ['tctxM',''], [], [], 90, '');
+//]]>
+</script>
+
+    <div id="ctxM">
+
+</div>
+    
+
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-KSBFDB"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KSBFDB');</script>
+<!-- End Google Tag Manager -->
+<!--[if lt IE 9]>
+  <div style="display: block; width: 97%; background-color: #FF99CC; padding: 10px 30px 10px 30px; text-align: center; color: black; font-size:20px;">
+    We noticed you are using an older version of IE that isn't fully supported on this site. Please click <a  href="#">here</a> for more information and options.
+</div>
+<![endif]--> 
+<!-- TOP NAV -->
+<section>
+  <div id="__homepageAlerts" style="display: none;"></div>
+</section>
+<section>
+  <nav class="navbar navbar-default">
+    <div class="container">
+           <ul class="connect-title"><li>Connect With Us</li></ul>
+      <ul class="social_icons">
+	<li class="twitter"><a href="https://twitter.com/ces" title="Twitter">&nbsp;</a></li>
+	<li class="facebook"><a href="https://www.facebook.com/CES" title="facebook">&nbsp;</a></li>
+	<li class="googleplus"><a href="https://plus.google.com/+CES" title="googleplus">&nbsp;</a></li>
+	<li class="instagram"><a href="http://instagram.com/cesofficial" title="instagram">&nbsp;</a></li>
+	<li class="youtube"><a href="http://www.youtube.com/user/cesonthetube" title="youtube">&nbsp;</a></li>
+</ul>
+
+      <ul class="open-ad hidden-xs hidden-sm"><li id="clasp_1"><a href="javascript:lunchboxOpen('1');">OPEN ADVERTISEMENT</a></li></ul>
+      <ul class="drop" id="nav">
+	<li>Other CTA Sites
+	<ul>
+		<li><a href="http://www.cta.tech" target="_blank">CTA - CTA.tech</a></li>
+		<li><a href="http://www.declareinnovation.com/" target="_blank">Innovation Movement</a></li>
+		<li><a href="http://www.cta.tech/blog" target="_blank">CTA Blog</a></li>
+		<li><a href="http://www.cta.tech/i3" target="_blank">i3 Magazine</a></li>
+		<li><a href="http://www.greenergadgets.org/" target="_blank">Greener Gadgets</a></li>
+		<li><a href="http://www.cta.tech/research" target="_blank">CTA Market Research</a></li>
+		<li><a href="http://www.cta.tech/foundation" target="_blank">CTA Foundation</a></li>
+		<li><a href="http://www.cesasia.com" target="_blank">CES Asia</a></li>
+	</ul>
+	</li>
+</ul>
+
+    </div>
+  </nav>
+</section>
+
+<section>
+  <div class="billboard-ad hidden-xs hidden-sm">
+    <div class="container bill-ad lunchbox" id="lunch_1" style="display: none">
+      <div class="container bill-ad"><a id="p_lt_ctl02_BannerRotator_lnkBanner" class="CMSBanner Banner" href="http://www.cesasia.com/register" onclick="this.href=&#39;/CMSModules/BannerManagement/CMSPages/BannerRedirect.ashx?bannerID=547&#39;;" onmouseup="this.href=&#39;/CMSModules/BannerManagement/CMSPages/BannerRedirect.ashx?bannerID=547&#39;;" target="_blank"><img id="p_lt_ctl02_BannerRotator_imgBanner" src="/CES/media/2014/advertisements/7673_CESWeb-CESAsia_970x250banner2.jpg" style="" /></a></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div id="epiBackground" class="bk_white">
+    <div class="container">
+      <ul class="audience-nav">
+	<li>
+		<a href="/exhibitor">Exhibitors</a></li>
+	<li>
+		<a href="/press">Press</a></li>
+	<li>
+		<a href="/international">International</a></li>
+</ul>
+
+    </div>
+  </div>
+</section>
+
+<section>
+  
+  <div id="sticky_navigation" class="bk_white">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-60 col-sm-60 col-md-18 mainlogo">
+          <a href="/" id="logo" ><img class="img-responsive" src="/CES/media/2014/CESweblogo.jpg" /></a>
+        </div>
+        <div class="hidden-xs hidden-sm col-md-42 maintitle">
+          <div class="search-container">
+            <div class="search">
+              <input type="search" id="searchTxt" onkeypress="return EnterEvent(event);" />
+            </div>
+            <div class="date">
+              <h2>Las Vegas, NV</h2>
+
+<h3>JANUARY 5-8, 2017</h3>
+
+            </div>
+          </div>
+        </div>
+        <div id="main-navigation" class="col-xs-60 col-lg-42 mainnav">
+              
+<ul class="main-menu sf-js-enabled sf-shadow main_nav_wrapper">
+ 
+    <li class=""
+id="2">
+<a href=" /Register-Plan"> Register &amp; Plan</a> 
+<ul><p style ="display:none;">&nbsp;</p><li><a href=" /Register-Plan/Register-Now"> Register Now</a>
+
+<li><a href=" /Register-Plan/New-CES-Security-Procedures"> New Bag Restrictions for CES 2016</a>
+
+<li><a href=" /Register-Plan/Full-Schedule"> Full Schedule </a>
+
+<li><a href=" /Register-Plan/Hotel"> Hotel</a>
+
+<li><a href=" /Register-Plan/Transportation"> Transportation</a>
+
+<li><a href=" /Register-Plan/Travel-Tips"> Travel Tips</a>
+
+<li><a href=" /Register-Plan/On-Site-Logistics"> On-Site Logistics</a>
+
+<li><a href=" /Register-Plan/CES-App"> CES App</a>
+
+<li><a href=" /Register-Plan/Badge-Pick-Up-and-Registration-Locations"> Badge Pickup and Registration Locations</a>
+
+<li><a href=" /Register-Plan/Personal-Show-Plan"> Personal Show Plan</a>
+
+
+</ul></li><li class=""
+id="4">
+<a href=" /Show-Floor"> Show Floor</a> 
+<ul><p style ="display:none;">&nbsp;</p><li><a href=" /Show-Floor/Exhibit-or-Sponsor"> Exhibit or Sponsor</a>
+
+<li><a href=" /Show-Floor/What-to-See-at-Tech-East"> What to See at Tech East</a>
+
+<li><a href=" /Show-Floor/What-to-See-at-Tech-West"> What to See at Tech West</a>
+
+<li><a href=" /Show-Floor/What-to-See-at-Tech-South"> What to See at Tech South</a>
+
+<li><a href=" /Show-Floor/Exhibit-Hours"> Exhibit Hours</a>
+
+<li><a href=" /Show-Floor/Maps"> Maps</a>
+
+<li><a href=" /Show-Floor/Exhibit-Directory"> Exhibitor Directory</a>
+
+<li><a href=" /Show-Floor/Show-Floor-Tours"> Show Floor Tours</a>
+
+<li><a href=" /Show-Floor/Marketplaces"> Marketplaces</a>
+
+
+</ul></li><li class=""
+id="5">
+<a href=" /Conference"> Conference</a> 
+<ul><p style ="display:none;">&nbsp;</p><li><a href=" /Conference/What-to-Expect"> What to Expect</a>
+
+<li><a href=" /Conference/Keynotes"> Keynote Addresses</a>
+
+<li><a href=" /Conference/Shopping-Cart"> Shopping Cart</a>
+
+<li><a href=" /Conference/Purchase-Passes"> Conference Pricing</a>
+
+<li><a href=" /Conference/Session-Schedule-Brochure"> Conference Session Schedule &amp; Search</a>
+
+<li><a href=" /Conference/Speaker-Resources"> Speaker Resources</a>
+
+<li><a href=" /Conference/SuperSessions"> SuperSessions</a>
+
+<li><a href=" /Conference/Speaker-Search"> Speaker Search</a>
+
+<li><a href=" /Conference/Conference-Tracks"> Conference Tracks</a>
+
+
+</ul></li><li class=""
+id="6">
+<a href=" /Events-Programs"> Events &amp; Experiences</a> 
+<ul><p style ="display:none;">&nbsp;</p><li><a href=" /Events-Programs/Events"> Events</a>
+
+<li><a href=" /Events-Programs/Innovation"> CES Innovation Awards</a>
+
+<li><a href=" /Events-Programs/Entertainment-Matters"> Entertainment &amp; Content</a>
+
+<li><a href=" /Events-Programs/Advertising-Marketing"> Advertising &amp; Marketing</a>
+
+<li><a href=" /Events-Programs/Startups"> Startups</a>
+
+<li><a href=" /Events-Programs/CES-Unveiled"> CES Unveiled</a>
+
+<li><a href=" /Events-Programs/Executive-Club"> Executive Club</a>
+
+<li><a href=" /Events-Programs/CES-Asia"> CES Asia</a>
+
+<li><a href=" /Events-Programs/Garys-Book-Club"> Gary&#39;s Book Club</a>
+
+
+</ul></li><li class="current"
+id="7">
+<a href=" /News"> News</a> 
+<ul><p style ="display:none;">&nbsp;</p><li><a href=" /News/Press-Releases"> Press Releases</a>
+
+<li><a href=" /News/CES-TV"> Videos</a>
+
+<li><a href=" /News/Photo-Gallery"> Photo Gallery</a>
+
+<li><a href=" /News/CES-Social"> Social Media</a>
+
+<li><a href=" /News/CES-Social-(1)"> What&#39;s Trending</a>
+
+<li><a href=" /News/CES-In-The-News"> CES In The News</a>
+
+<li><a href=" /News/Exhibitor-Press-Releases"> Exhibitor News</a>
+
+<li><a href=" /News/Trending-Video-Coverage"> Trending Video Coverage</a>
+
+<li><a href=" /News/Celebrities-at-CES"> Celebrities at CES</a>
+
+<li><a href=" /News/Tech-Changing-the-World"> Tech Changing the World</a>
+
+
+</ul></li><li class=""
+id="8">
+<a href=" /Why-CES"> Why CES?</a> 
+<ul><p style ="display:none;">&nbsp;</p><li><a href=" /Why-CES/Experience-the-International-CES"> Experience Innovation at CES</a>
+
+<li><a href=" /Why-CES/CES-by-the-Numbers"> CES By the Numbers</a>
+
+<li><a href=" /Why-CES/CEA-Member-Benefits"> CTA Member Benefits</a>
+
+<li><a href=" /Why-CES/What-Kind-of-CES-Attendee-Are-You"> What Type of CES Attendee Are You?</a>
+
+
+</ul>  </li>
+</ul>
+
+ <div id="main-navigation" style="display: none">
+
+  <select id="navSecondary" onChange="top.location.href=this.options[this.selectedIndex].value;">
+<option selected="selected" value="">Site Main Navigation</option><option style="font-family:open_sansbold;" value="/Register-Plan">Register & Plan</option><option style="font-family:open_sansbold;" value="/Show-Floor">Show Floor</option><option style="font-family:open_sansbold;" value="/Conference">Conference</option><option style="font-family:open_sansbold;" value="/Events-Programs">Events & Experiences</option><option style="font-family:open_sansbold;" value="/News">News</option><option style="font-family:open_sansbold;" value="/Why-CES">Why CES?</option><option style="font-family:open_sansbold;" value="/International">International</option><option style="font-family:open_sansbold;" value="/Exhibitor">Exhibitors</option><option style="font-family:open_sansbold;" value="/Press">Press</option>
+</select>
+</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div id="main-area" class="container">
+  <div class="hanger side-ads ads-left"><a id="p_lt_ctl06_BannerRotatorLeftHanger_lnkBanner" class="CMSBanner Banner" href="http://www.cesweb.org" onclick="this.href=&#39;/CMSModules/BannerManagement/CMSPages/BannerRedirect.ashx?bannerID=35&#39;;" onmouseup="this.href=&#39;/CMSModules/BannerManagement/CMSPages/BannerRedirect.ashx?bannerID=35&#39;;"><img id="p_lt_ctl06_BannerRotatorLeftHanger_imgBanner" src="/CES/media/2014/backgrounds/algorithm-hanger2.png" style="" /></a></div>
+  <div class="hanger side-ads ads-right"><a id="p_lt_ctl07_BannerRotatorRightHanger_lnkBanner" class="CMSBanner Banner" href="http://www.cesweb.org" onclick="this.href=&#39;/CMSModules/BannerManagement/CMSPages/BannerRedirect.ashx?bannerID=36&#39;;" onmouseup="this.href=&#39;/CMSModules/BannerManagement/CMSPages/BannerRedirect.ashx?bannerID=36&#39;;"><img id="p_lt_ctl07_BannerRotatorRightHanger_imgBanner" src="/CES/media/2014/backgrounds/algorithm-hanger2.png" style="" /></a></div>
+    <div class="row">
+      <div id="main-content-area" class="col-lg-60 page-area">
+
+<section>
+   <div class="page-area">
+      <div class="col-md-12 hidden-xs hidden-sm">
+        <div class="leftnav">
+          <ul><li class="left-current"><a href="/News/Press-Releases">Press Releases</a><ul></ul><li><a href="/News/CES-TV">Videos</a><li><a href="/News/Photo-Gallery">Photo Gallery</a><li><a href="/News/CES-Social">Social Media</a><li><a href="/News/CES-Social-(1)">What's Trending</a><li><a href="/News/CES-In-The-News">CES In The News</a><li><a href="/News/Trending-Video-Coverage">Trending Video Coverage</a><li><a href="/News/Exhibitor-Press-Releases">Exhibitor News</a><li><a href="/News/Celebrities-at-CES">Celebrities at CES</a><li><a href="/News/Tech-Changing-the-World">Tech Changing the World</a></ul>
+
+         </div>
+         
+      </div>
+      <div class="col-sm-60 col-md-offset-2 col-md-46">
+        <div class="body-content">
+          <h1>Press Releases</h1>
+          <div class="breadcrumbs">
+            <div class="row">
+              <div class="col-sm-40">
+                <ul>
+                  <li><a href="/Home.aspx">Home</a></li>
+                  <li class="bread-div">|</li>
+                  <li><a href="/News.aspx" class="CMSBreadCrumbsLink">News</a> </li><li class="bread-div">|</li><li> <span  class="CMSBreadCrumbsCurrentItem">Press Releases</span>
+</li>
+
+                </ul>
+              </div>
+              <div class="col-sm-20 text-center-xs text-right-sm right-breadcrumb">
+                <span  class="st_sharethis_custom" displayText="ShareThis"><a class="right-breadcrumb-item">Share This</a></span>
+                <a class="right-breadcrumb-item hidden-sm hidden-xs" href="javascript:window.print()">Print This Page</a>
+              </div>
+            </div>
+          </div>
+          <p class="intro-innov">  </p>
+          <div class="article-content-area">
+             
+             <div id="GroupedData">
+	  
+<div class=""><div style="clear: both;">&nbsp;</div>
+
+<h2>CES 2016</h2>
+<div class=""><div class="row pressReleaseRow">
+  <div class="col-xs-15 col-sm-15 col-md-13 col-lg-11 prDate">Jan 21, 2016<span class="hidden-xs">&nbsp;&nbsp;&ndash;</span></div>
+  <div class="col-xs-45 col-sm-45 col-md-47 col-lg-49 prTitle"><a href="/News/Press-Releases/CES-Press-Release.aspx?NodeID=b29d8be0-8d7d-4b51-9467-6d99aae77382">CES 2016 Launches Breakthrough Innovation to the World</a></div>
+</div><div class="row pressReleaseRow">
+  <div class="col-xs-15 col-sm-15 col-md-13 col-lg-11 prDate">Jan 09, 2016<span class="hidden-xs">&nbsp;&nbsp;&ndash;</span></div>
+  <div class="col-xs-45 col-sm-45 col-md-47 col-lg-49 prTitle"><a href="/News/Press-Releases/CES-Press-Release.aspx?NodeID=bb10c033-e49d-4fae-9210-10f4aef46f47">CES 2016 Brings the Future of Technology Innovation to Market</a></div>
+</div><div class="row pressReleaseRow">
+  <div class="col-xs-15 col-sm-15 col-md-13 col-lg-11 prDate">Jan 09, 2016<span class="hidden-xs">&nbsp;&nbsp;&ndash;</span></div>
+  <div class="col-xs-45 col-sm-45 col-md-47 col-lg-49 prTitle"><a href="/News/Press-Releases/CES-Press-Release.aspx?NodeID=bd17f5dd-b098-4c21-851d-ec6534fc7f3e">Technology Connects. Industries Collaborate. Innovation Betters the World at CES 2016</a></div>
+</div><div class="row pressReleaseRow">
+  <div class="col-xs-15 col-sm-15 col-md-13 col-lg-11 prDate">Jan 07, 2016<span class="hidden-xs">&nbsp;&nbsp;&ndash;</span></div>
+  <div class="col-xs-45 col-sm-45 col-md-47 col-lg-49 prTitle"><a href="/News/Press-Releases/CES-Press-Release.aspx?NodeID=f0d9ad08-7c62-4ac8-82c8-a5483d411698">CTA Foundation Announces Cognitive Computing Research Study with IBM</a></div>
+</div><div class="row pressReleaseRow">
+  <div class="col-xs-15 col-sm-15 col-md-13 col-lg-11 prDate">Jan 07, 2016<span class="hidden-xs">&nbsp;&nbsp;&ndash;</span></div>
+  <div class="col-xs-45 col-sm-45 col-md-47 col-lg-49 prTitle"><a href="/News/Press-Releases/CES-Press-Release.aspx?NodeID=e889a74e-696a-405d-8d9b-3743ba19a618">CES 2016 Opens with Technology Changing the World</a></div>
+</div><div class="row pressReleaseRow">
+  <div class="col-xs-15 col-sm-15 col-md-13 col-lg-11 prDate">Jan 07, 2016<span class="hidden-xs">&nbsp;&nbsp;&ndash;</span></div>
+  <div class="col-xs-45 col-sm-45 col-md-47 col-lg-49 prTitle"><a href="/News/Press-Releases/CES-Press-Release.aspx?NodeID=3cacd681-f2ab-4746-bc23-64e828caf04c">CTA’s Glenda MacMullin Receives Women in Consumer Technology Legacy Award</a></div>
+</div><div class="row pressReleaseRow">
+  <div class="col-xs-15 col-sm-15 col-md-13 col-lg-11 prDate">Jan 06, 2016<span class="hidden-xs">&nbsp;&nbsp;&ndash;</span></div>
+  <div class="col-xs-45 col-sm-45 col-md-47 col-lg-49 prTitle"><a href="/News/Press-Releases/CES-Press-Release.aspx?NodeID=200b5e60-2143-45ee-b182-c793d682dac9">Next Generation of Innovation Debuts as CES 2016 Kicks Off</a></div>
+</div><div class="row pressReleaseRow">
+  <div class="col-xs-15 col-sm-15 col-md-13 col-lg-11 prDate">Jan 05, 2016<span class="hidden-xs">&nbsp;&nbsp;&ndash;</span></div>
+  <div class="col-xs-45 col-sm-45 col-md-47 col-lg-49 prTitle"><a href="/News/Press-Releases/CES-Press-Release.aspx?NodeID=94df6ff7-77fc-4514-a7af-b8c26ab694cb">Beacon Scavenger Hunt Returns to CES 2016</a></div>
+</div><div class="row pressReleaseRow">
+  <div class="col-xs-15 col-sm-15 col-md-13 col-lg-11 prDate">Dec 31, 2015<span class="hidden-xs">&nbsp;&nbsp;&ndash;</span></div>
+  <div class="col-xs-45 col-sm-45 col-md-47 col-lg-49 prTitle"><a href="/News/Press-Releases/CES-Press-Release.aspx?NodeID=d68fac40-02f1-42a8-a0f6-35c80122ca2c">Eureka Park Exhibitors Funded at more than $1 Billion Since 2012</a></div>
+</div><div class="row pressReleaseRow">
+  <div class="col-xs-15 col-sm-15 col-md-13 col-lg-11 prDate">Dec 30, 2015<span class="hidden-xs">&nbsp;&nbsp;&ndash;</span></div>
+  <div class="col-xs-45 col-sm-45 col-md-47 col-lg-49 prTitle"><a href="/News/Press-Releases/CES-Press-Release.aspx?NodeID=4fdfd419-c78c-4573-b1f9-4c8f698464de">CES 2016: A Star-Studded Show</a></div>
+</div><div class="row pressReleaseRow">
+  <div class="col-xs-15 col-sm-15 col-md-13 col-lg-11 prDate">Dec 23, 2015<span class="hidden-xs">&nbsp;&nbsp;&ndash;</span></div>
+  <div class="col-xs-45 col-sm-45 col-md-47 col-lg-49 prTitle"><a href="/News/Press-Releases/CES-Press-Release.aspx?NodeID=446ad644-2713-4e73-aa56-e6ad61c1bf6a">More than Two Dozen Policymakers, Regulators Join CES 2016</a></div>
+</div><div class="row pressReleaseRow">
+  <div class="col-xs-15 col-sm-15 col-md-13 col-lg-11 prDate">Dec 18, 2015<span class="hidden-xs">&nbsp;&nbsp;&ndash;</span></div>
+  <div class="col-xs-45 col-sm-45 col-md-47 col-lg-49 prTitle"><a href="/News/Press-Releases/CES-Press-Release.aspx?NodeID=87d03696-316e-4cf4-8bb1-eed02312ea99">Leading Tech Authors to Participate in  Gary’s Book Club at CES 2016</a></div>
+</div><div class="row pressReleaseRow">
+  <div class="col-xs-15 col-sm-15 col-md-13 col-lg-11 prDate">Dec 17, 2015<span class="hidden-xs">&nbsp;&nbsp;&ndash;</span></div>
+  <div class="col-xs-45 col-sm-45 col-md-47 col-lg-49 prTitle"><a href="/News/Press-Releases/CES-Press-Release.aspx?NodeID=7e273e34-00c2-460e-931b-8f412c42a249">Brands, Media and Tech Collide At Inaugural C Space Storytellers Series at CES 2016</a></div>
+</div><div class="row pressReleaseRow">
+  <div class="col-xs-15 col-sm-15 col-md-13 col-lg-11 prDate">Dec 17, 2015<span class="hidden-xs">&nbsp;&nbsp;&ndash;</span></div>
+  <div class="col-xs-45 col-sm-45 col-md-47 col-lg-49 prTitle"><a href="/News/Press-Releases/CES-Press-Release.aspx?NodeID=66c9bdb4-927f-4bfb-b11a-a51394a740c5">CES Implements New Bag Restrictions, Enhanced Security Measures for CES 2016 </a></div>
+</div><div class="row pressReleaseRow">
+  <div class="col-xs-15 col-sm-15 col-md-13 col-lg-11 prDate">Dec 16, 2015<span class="hidden-xs">&nbsp;&nbsp;&ndash;</span></div>
+  <div class="col-xs-45 col-sm-45 col-md-47 col-lg-49 prTitle"><a href="/News/Press-Releases/CES-Press-Release.aspx?NodeID=b572d192-ae57-464b-9423-f782d4b30523">IBM Chairman, President and CEO Ginni Rometty to Keynote at CES 2016</a></div>
+</div><div class="row pressReleaseRow">
+  <div class="col-xs-15 col-sm-15 col-md-13 col-lg-11 prDate">Dec 16, 2015<span class="hidden-xs">&nbsp;&nbsp;&ndash;</span></div>
+  <div class="col-xs-45 col-sm-45 col-md-47 col-lg-49 prTitle"><a href="/News/Press-Releases/CES-Press-Release.aspx?NodeID=4b2b5170-f891-4307-8d32-5285e61fcd96">Unmanned Systems Soar at CES 2016</a></div>
+</div><div class="row pressReleaseRow">
+  <div class="col-xs-15 col-sm-15 col-md-13 col-lg-11 prDate">Dec 15, 2015<span class="hidden-xs">&nbsp;&nbsp;&ndash;</span></div>
+  <div class="col-xs-45 col-sm-45 col-md-47 col-lg-49 prTitle"><a href="/News/Press-Releases/CES-Press-Release.aspx?NodeID=b40109ec-d757-4d0e-8544-9f274035b88b">FCC and FTC Chairs, U.S. CTO and CEOs Steve Case and Nick Woodman to Explore Future of Innovation During CES 2016</a></div>
+</div><div class="row pressReleaseRow">
+  <div class="col-xs-15 col-sm-15 col-md-13 col-lg-11 prDate">Dec 15, 2015<span class="hidden-xs">&nbsp;&nbsp;&ndash;</span></div>
+  <div class="col-xs-45 col-sm-45 col-md-47 col-lg-49 prTitle"><a href="/News/Press-Releases/CES-Press-Release.aspx?NodeID=bbefceda-189f-415e-a2ef-a6095c595231">New Enterprise Solutions Marketplace to Connect Companies  Seeking B2B Solutions</a></div>
+</div><div class="row pressReleaseRow">
+  <div class="col-xs-15 col-sm-15 col-md-13 col-lg-11 prDate">Dec 11, 2015<span class="hidden-xs">&nbsp;&nbsp;&ndash;</span></div>
+  <div class="col-xs-45 col-sm-45 col-md-47 col-lg-49 prTitle"><a href="/News/Press-Releases/CES-Press-Release.aspx?NodeID=7e8b50ef-7a2e-44f0-8067-9ac74bcce526">Whose Ideas are Shaping the Future at CES 2016?</a></div>
+</div><div class="row pressReleaseRow">
+  <div class="col-xs-15 col-sm-15 col-md-13 col-lg-11 prDate">Dec 10, 2015<span class="hidden-xs">&nbsp;&nbsp;&ndash;</span></div>
+  <div class="col-xs-45 col-sm-45 col-md-47 col-lg-49 prTitle"><a href="/News/Press-Releases/CES-Press-Release.aspx?NodeID=9dffb6ac-4924-460f-ac28-0ca678577ad9">Just Announced: Top Executives from Entertainment, Advertising and Technology Industries will Headline CES 2016 C Space Keynote</a></div>
+</div><div class="row pressReleaseRow">
+  <div class="col-xs-15 col-sm-15 col-md-13 col-lg-11 prDate">Dec 10, 2015<span class="hidden-xs">&nbsp;&nbsp;&ndash;</span></div>
+  <div class="col-xs-45 col-sm-45 col-md-47 col-lg-49 prTitle"><a href="/News/Press-Releases/CES-Press-Release.aspx?NodeID=962a33c7-79aa-449d-9fa7-710f7ee85413">CES 2016 to Feature Top Leaders Sharing Their Vision on Smart Cities and Mobility </a></div>
+</div><div class="row pressReleaseRow">
+  <div class="col-xs-15 col-sm-15 col-md-13 col-lg-11 prDate">Dec 08, 2015<span class="hidden-xs">&nbsp;&nbsp;&ndash;</span></div>
+  <div class="col-xs-45 col-sm-45 col-md-47 col-lg-49 prTitle"><a href="/News/Press-Releases/CES-Press-Release.aspx?NodeID=03a6fa02-056d-466b-94e1-2d143ff9ddc2">Volkswagen’s Dr. Herbert Diess to Keynote CES 2016,  Launch New Electric Car</a></div>
+</div><div class="row pressReleaseRow">
+  <div class="col-xs-15 col-sm-15 col-md-13 col-lg-11 prDate">Dec 07, 2015<span class="hidden-xs">&nbsp;&nbsp;&ndash;</span></div>
+  <div class="col-xs-45 col-sm-45 col-md-47 col-lg-49 prTitle"><a href="/News/Press-Releases/CES-Press-Release.aspx?NodeID=6291c509-89ab-4611-b280-994edeeffdc6">Sports and Tech Converge at CES 2016 to Redefine the Playing Field  Including Showcase Presented by Turner Sports</a></div>
+</div><div class="row pressReleaseRow">
+  <div class="col-xs-15 col-sm-15 col-md-13 col-lg-11 prDate">Nov 24, 2015<span class="hidden-xs">&nbsp;&nbsp;&ndash;</span></div>
+  <div class="col-xs-45 col-sm-45 col-md-47 col-lg-49 prTitle"><a href="/News/Press-Releases/CES-Press-Release.aspx?NodeID=b3c5c9dc-15ba-4c1b-b2df-ccd6b7f0cdea">CES 2016: Technology Guarding the Cyber-Gates</a></div>
+</div><div class="row pressReleaseRow">
+  <div class="col-xs-15 col-sm-15 col-md-13 col-lg-11 prDate">Nov 23, 2015<span class="hidden-xs">&nbsp;&nbsp;&ndash;</span></div>
+  <div class="col-xs-45 col-sm-45 col-md-47 col-lg-49 prTitle"><a href="/News/Press-Releases/CES-Press-Release.aspx?NodeID=6458e2b3-e77e-4e9f-b200-75c34010a9eb">Dare to Enter ABC’s “Shark Tank” at CES 2016</a></div>
+</div><div class="row pressReleaseRow">
+  <div class="col-xs-15 col-sm-15 col-md-13 col-lg-11 prDate">Nov 18, 2015<span class="hidden-xs">&nbsp;&nbsp;&ndash;</span></div>
+  <div class="col-xs-45 col-sm-45 col-md-47 col-lg-49 prTitle"><a href="/News/Press-Releases/CES-Press-Release.aspx?NodeID=2d21aec9-776a-4370-b11c-a3b33b0df5aa">Fitbit CEO and Co-Founder James Park to Keynote CES 2016  Leaders in Technology Dinner</a></div>
+</div><div class="row pressReleaseRow">
+  <div class="col-xs-15 col-sm-15 col-md-13 col-lg-11 prDate">Nov 17, 2015<span class="hidden-xs">&nbsp;&nbsp;&ndash;</span></div>
+  <div class="col-xs-45 col-sm-45 col-md-47 col-lg-49 prTitle"><a href="/News/Press-Releases/CES-Press-Release.aspx?NodeID=a2cd16e5-4509-47cf-a94d-46ebd0d2b0bb">Consumer Technology Association Announces All FCC and FTC Commissioners Will Address CES 2016</a></div>
+</div><div class="row pressReleaseRow">
+  <div class="col-xs-15 col-sm-15 col-md-13 col-lg-11 prDate">Nov 10, 2015<span class="hidden-xs">&nbsp;&nbsp;&ndash;</span></div>
+  <div class="col-xs-45 col-sm-45 col-md-47 col-lg-49 prTitle"><a href="/News/Press-Releases/CES-Press-Release.aspx?NodeID=523d842c-ca5c-44dc-8d83-1aaf42ad23ee">NBCUniversal CEO Steve Burke to Open C Space Keynote at CES 2016</a></div>
+</div><div class="row pressReleaseRow">
+  <div class="col-xs-15 col-sm-15 col-md-13 col-lg-11 prDate">Nov 10, 2015<span class="hidden-xs">&nbsp;&nbsp;&ndash;</span></div>
+  <div class="col-xs-45 col-sm-45 col-md-47 col-lg-49 prTitle"><a href="/News/Press-Releases/CES-Press-Release.aspx?NodeID=44e799fa-e7b7-4c31-91d3-e0ecc7a0797d">CES Announces Best of Innovation Awards Honorees</a></div>
+</div><div class="row pressReleaseRow">
+  <div class="col-xs-15 col-sm-15 col-md-13 col-lg-11 prDate">Oct 29, 2015<span class="hidden-xs">&nbsp;&nbsp;&ndash;</span></div>
+  <div class="col-xs-45 col-sm-45 col-md-47 col-lg-49 prTitle"><a href="/News/Press-Releases/CES-Press-Release.aspx?NodeID=8905da78-d7fc-497d-abbb-dca786eaf39b">Redefining Personal Mobility: GM CEO Mary Barra to Deliver CES 2016 Keynote </a></div>
+</div><div class="row pressReleaseRow">
+  <div class="col-xs-15 col-sm-15 col-md-13 col-lg-11 prDate">Oct 27, 2015<span class="hidden-xs">&nbsp;&nbsp;&ndash;</span></div>
+  <div class="col-xs-45 col-sm-45 col-md-47 col-lg-49 prTitle"><a href="/News/Press-Releases/CES-Press-Release.aspx?NodeID=54eb1816-7319-44d1-987b-e15e1dfeafe0">Digital Media Personalities Justine Ezarik (aka iJustine) and Joey Graceffa Named Entertainment Matters Ambassadors for CES 2016</a></div>
+</div><div class="row pressReleaseRow">
+  <div class="col-xs-15 col-sm-15 col-md-13 col-lg-11 prDate">Oct 27, 2015<span class="hidden-xs">&nbsp;&nbsp;&ndash;</span></div>
+  <div class="col-xs-45 col-sm-45 col-md-47 col-lg-49 prTitle"><a href="/News/Press-Releases/CES-Press-Release.aspx?NodeID=c2e539f4-318a-4df6-b7b2-151609d56ceb"> Binge-Watch CES 2016: Netflix CEO Reed Hastings To Deliver Opening Day Keynote at CES® 2016</a></div>
+</div><div class="row pressReleaseRow">
+  <div class="col-xs-15 col-sm-15 col-md-13 col-lg-11 prDate">Oct 27, 2015<span class="hidden-xs">&nbsp;&nbsp;&ndash;</span></div>
+  <div class="col-xs-45 col-sm-45 col-md-47 col-lg-49 prTitle"><a href="/News/Press-Releases/CES-Press-Release.aspx?NodeID=4fdc5e81-bd9f-48a7-8f5e-ced92c4e29da">YouTube’s Chief Business Officer Robert Kyncl  to Deliver Keynote on the Future of Media at CES 2016</a></div>
+</div><div class="row pressReleaseRow">
+  <div class="col-xs-15 col-sm-15 col-md-13 col-lg-11 prDate">Oct 21, 2015<span class="hidden-xs">&nbsp;&nbsp;&ndash;</span></div>
+  <div class="col-xs-45 col-sm-45 col-md-47 col-lg-49 prTitle"><a href="/News/Press-Releases/CES-Press-Release.aspx?NodeID=a1577542-32a3-48d0-9895-47681e7ca401">CES 2016 Press Day Schedule</a></div>
+</div><div class="row pressReleaseRow">
+  <div class="col-xs-15 col-sm-15 col-md-13 col-lg-11 prDate">Oct 21, 2015<span class="hidden-xs">&nbsp;&nbsp;&ndash;</span></div>
+  <div class="col-xs-45 col-sm-45 col-md-47 col-lg-49 prTitle"><a href="/News/Press-Releases/CES-Press-Release.aspx?NodeID=5d11e7fb-6fb3-45e6-9e97-36f42f26c55c">President, Samsung SDS, WP Hong, Ph.D., to Keynote at CES 2016</a></div>
+</div><div class="row pressReleaseRow">
+  <div class="col-xs-15 col-sm-15 col-md-13 col-lg-11 prDate">Oct 19, 2015<span class="hidden-xs">&nbsp;&nbsp;&ndash;</span></div>
+  <div class="col-xs-45 col-sm-45 col-md-47 col-lg-49 prTitle"><a href="/News/Press-Releases/CES-Press-Release.aspx?NodeID=7aa26f4f-f10d-4408-9c87-fecbbad9016c">Third Annual CES Unveiled Paris Kicks off this week as the largest CES Unveiled Event Abroad</a></div>
+</div><div class="row pressReleaseRow">
+  <div class="col-xs-15 col-sm-15 col-md-13 col-lg-11 prDate">Oct 19, 2015<span class="hidden-xs">&nbsp;&nbsp;&ndash;</span></div>
+  <div class="col-xs-45 col-sm-45 col-md-47 col-lg-49 prTitle"><a href="/News/Press-Releases/CES-Press-Release.aspx?NodeID=70860d56-e671-400b-82e7-1845e34912f5">New at CES 2016: eCommerce Marketplace </a></div>
+</div><div class="row pressReleaseRow">
+  <div class="col-xs-15 col-sm-15 col-md-13 col-lg-11 prDate">Oct 15, 2015<span class="hidden-xs">&nbsp;&nbsp;&ndash;</span></div>
+  <div class="col-xs-45 col-sm-45 col-md-47 col-lg-49 prTitle"><a href="/News/Press-Releases/CES-Press-Release.aspx?NodeID=adfddb65-4b5a-4a0a-b2fd-749ca5eb8957">CES 2016 Stays Green with Sustainability Programs  and Eco-friendly Initiatives</a></div>
+</div><div class="row pressReleaseRow">
+  <div class="col-xs-15 col-sm-15 col-md-13 col-lg-11 prDate">Oct 14, 2015<span class="hidden-xs">&nbsp;&nbsp;&ndash;</span></div>
+  <div class="col-xs-45 col-sm-45 col-md-47 col-lg-49 prTitle"><a href="/News/Press-Releases/CES-Press-Release.aspx?NodeID=9a94c79c-9c4b-41da-bc50-82d5dd33d8bc">Winners of First CEA Foundation Tech that Improves Lives Video Contest Announced</a></div>
+</div><div class="row pressReleaseRow">
+  <div class="col-xs-15 col-sm-15 col-md-13 col-lg-11 prDate">Oct 14, 2015<span class="hidden-xs">&nbsp;&nbsp;&ndash;</span></div>
+  <div class="col-xs-45 col-sm-45 col-md-47 col-lg-49 prTitle"><a href="/News/Press-Releases/CES-Press-Release.aspx?NodeID=0192e366-2065-4bbb-94f3-230112f750b5">Experience the Robot Revolution at #CES2016</a></div>
+</div><div class="row pressReleaseRow">
+  <div class="col-xs-15 col-sm-15 col-md-13 col-lg-11 prDate">Oct 08, 2015<span class="hidden-xs">&nbsp;&nbsp;&ndash;</span></div>
+  <div class="col-xs-45 col-sm-45 col-md-47 col-lg-49 prTitle"><a href="/News/Press-Releases/CES-Press-Release.aspx?NodeID=8c584448-8a6b-468c-a7db-153a703df1ca">CES Named Largest Annual Show, Fastest Growing Show and Show with Strongest Global Participation by Trade Show Executive Magazine</a></div>
+</div><div class="row pressReleaseRow">
+  <div class="col-xs-15 col-sm-15 col-md-13 col-lg-11 prDate">Oct 07, 2015<span class="hidden-xs">&nbsp;&nbsp;&ndash;</span></div>
+  <div class="col-xs-45 col-sm-45 col-md-47 col-lg-49 prTitle"><a href="/News/Press-Releases/CES-Press-Release.aspx?NodeID=96f48a0e-4377-407f-831f-660edb52e7e5">C Space Returns to CES 2016 Twice the Size and Scope</a></div>
+</div><div class="row pressReleaseRow">
+  <div class="col-xs-15 col-sm-15 col-md-13 col-lg-11 prDate">Oct 05, 2015<span class="hidden-xs">&nbsp;&nbsp;&ndash;</span></div>
+  <div class="col-xs-45 col-sm-45 col-md-47 col-lg-49 prTitle"><a href="/News/Press-Releases/CES-Press-Release.aspx?NodeID=d655ab8a-1b23-450a-ac63-6cb311bea786">CEA Announces Programming for Sold-Out CES Unveiled Paris</a></div>
+</div><div class="row pressReleaseRow">
+  <div class="col-xs-15 col-sm-15 col-md-13 col-lg-11 prDate">Oct 01, 2015<span class="hidden-xs">&nbsp;&nbsp;&ndash;</span></div>
+  <div class="col-xs-45 col-sm-45 col-md-47 col-lg-49 prTitle"><a href="/News/Press-Releases/CES-Press-Release.aspx?NodeID=acf4d242-3ba6-4c98-a40b-0477b9bb5768">Intel CEO Brian Krzanich to Keynote at CES 2016</a></div>
+</div><div class="row pressReleaseRow">
+  <div class="col-xs-15 col-sm-15 col-md-13 col-lg-11 prDate">Sep 28, 2015<span class="hidden-xs">&nbsp;&nbsp;&ndash;</span></div>
+  <div class="col-xs-45 col-sm-45 col-md-47 col-lg-49 prTitle"><a href="/News/Press-Releases/CES-Press-Release.aspx?NodeID=db7fde31-c6d2-44db-ac83-59016984b25e">Virtual Becomes Reality at #CES2016</a></div>
+</div><div class="row pressReleaseRow">
+  <div class="col-xs-15 col-sm-15 col-md-13 col-lg-11 prDate">Sep 16, 2015<span class="hidden-xs">&nbsp;&nbsp;&ndash;</span></div>
+  <div class="col-xs-45 col-sm-45 col-md-47 col-lg-49 prTitle"><a href="/News/Press-Releases/CES-Press-Release.aspx?NodeID=a0d52f1f-7269-4269-81e8-f2bebcb8a0c2">Sold out Exhibition for Third Annual CES Unveiled Paris</a></div>
+</div><div class="row pressReleaseRow">
+  <div class="col-xs-15 col-sm-15 col-md-13 col-lg-11 prDate">Sep 15, 2015<span class="hidden-xs">&nbsp;&nbsp;&ndash;</span></div>
+  <div class="col-xs-45 col-sm-45 col-md-47 col-lg-49 prTitle"><a href="/News/Press-Releases/CES-Press-Release.aspx?NodeID=8205d017-fad0-4a11-999e-c67c2e5eac77">CES 2016: Technology Changing the World</a></div>
+</div><div class="row pressReleaseRow">
+  <div class="col-xs-15 col-sm-15 col-md-13 col-lg-11 prDate">Sep 09, 2015<span class="hidden-xs">&nbsp;&nbsp;&ndash;</span></div>
+  <div class="col-xs-45 col-sm-45 col-md-47 col-lg-49 prTitle"><a href="/News/Press-Releases/CES-Press-Release.aspx?NodeID=f4d1110e-d584-4a72-a12c-9f39b1490b11">#CES2016: Call for Technology that Improves Lives</a></div>
+</div><div class="row pressReleaseRow">
+  <div class="col-xs-15 col-sm-15 col-md-13 col-lg-11 prDate">Aug 10, 2015<span class="hidden-xs">&nbsp;&nbsp;&ndash;</span></div>
+  <div class="col-xs-45 col-sm-45 col-md-47 col-lg-49 prTitle"><a href="/News/Press-Releases/CES-Press-Release.aspx?NodeID=5a8e7241-5c36-4f9f-99bd-e709cf93136b">CEA Issues Call for Entries for CES 2016 Innovation Awards</a></div>
+</div><div class="row pressReleaseRow">
+  <div class="col-xs-15 col-sm-15 col-md-13 col-lg-11 prDate">Aug 04, 2015<span class="hidden-xs">&nbsp;&nbsp;&ndash;</span></div>
+  <div class="col-xs-45 col-sm-45 col-md-47 col-lg-49 prTitle"><a href="/News/Press-Releases/CES-Press-Release.aspx?NodeID=e64aa8b4-080d-4ba8-9655-86b738eb7da8">CEA Brings Series of Innovation Events to New York November 8-10, 2015</a></div>
+</div><div class="row pressReleaseRow">
+  <div class="col-xs-15 col-sm-15 col-md-13 col-lg-11 prDate">Jul 08, 2015<span class="hidden-xs">&nbsp;&nbsp;&ndash;</span></div>
+  <div class="col-xs-45 col-sm-45 col-md-47 col-lg-49 prTitle"><a href="/News/Press-Releases/CES-Press-Release.aspx?NodeID=3de4e9d4-9f5b-40a1-9e66-1b2a7510c75c">CES 2016 Registration Now Open After Record-Breaking 2015 Event</a></div>
+</div><div class="row pressReleaseRow">
+  <div class="col-xs-15 col-sm-15 col-md-13 col-lg-11 prDate">Jun 30, 2015<span class="hidden-xs">&nbsp;&nbsp;&ndash;</span></div>
+  <div class="col-xs-45 col-sm-45 col-md-47 col-lg-49 prTitle"><a href="/News/Press-Releases/CES-Press-Release.aspx?NodeID=f0ded5b9-2cc4-475d-b057-db4099afbb9c">Independent Audit Confirms Record 176,676 Attendees at 2015 CES</a></div>
+</div><div class="row pressReleaseRow">
+  <div class="col-xs-15 col-sm-15 col-md-13 col-lg-11 prDate">Jun 23, 2015<span class="hidden-xs">&nbsp;&nbsp;&ndash;</span></div>
+  <div class="col-xs-45 col-sm-45 col-md-47 col-lg-49 prTitle"><a href="/News/Press-Releases/CES-Press-Release.aspx?NodeID=57ea41b3-9079-4f39-9c01-a7a5252c4c6d">An Encore for CES Unveiled Paris</a></div>
+</div><div class="row pressReleaseRow">
+  <div class="col-xs-15 col-sm-15 col-md-13 col-lg-11 prDate">Jun 04, 2015<span class="hidden-xs">&nbsp;&nbsp;&ndash;</span></div>
+  <div class="col-xs-45 col-sm-45 col-md-47 col-lg-49 prTitle"><a href="/News/Press-Releases/CES-Press-Release.aspx?NodeID=447e49e4-8ef3-4ee2-84ec-d0d0b59fe463">Call for Speakers Opens for 2016 CES</a></div>
+</div><div class="row pressReleaseRow">
+  <div class="col-xs-15 col-sm-15 col-md-13 col-lg-11 prDate">May 13, 2015<span class="hidden-xs">&nbsp;&nbsp;&ndash;</span></div>
+  <div class="col-xs-45 col-sm-45 col-md-47 col-lg-49 prTitle"><a href="/News/Press-Releases/CES-Press-Release.aspx?NodeID=e275de05-e34d-4a67-a271-64d5124d9f19">CEA Announces Record 176,676 Attendees at 2015 International CES</a></div>
+</div><div class="row pressReleaseRow">
+  <div class="col-xs-15 col-sm-15 col-md-13 col-lg-11 prDate">Mar 23, 2015<span class="hidden-xs">&nbsp;&nbsp;&ndash;</span></div>
+  <div class="col-xs-45 col-sm-45 col-md-47 col-lg-49 prTitle"><a href="/News/Press-Releases/CES-Press-Release.aspx?NodeID=658fe7ba-b647-47ac-85f7-34b11eecdb5f">2016 International CES Launches Call for Authors for Gary’s Book Club</a></div>
+</div></div></div><div class=""><div style="clear: both;">&nbsp;</div>
+
+<h2>2015 International CES</h2>
+<div class=""><div class="row pressReleaseRow">
+  <div class="col-xs-15 col-sm-15 col-md-13 col-lg-11 prDate">Jun 04, 2015<span class="hidden-xs">&nbsp;&nbsp;&ndash;</span></div>
+  <div class="col-xs-45 col-sm-45 col-md-47 col-lg-49 prTitle"><a href="/News/Press-Releases/CES-Press-Release.aspx?NodeID=447e49e4-8ef3-4ee2-84ec-d0d0b59fe463">Call for Speakers Opens for 2016 CES</a></div>
+</div><div class="row pressReleaseRow">
+  <div class="col-xs-15 col-sm-15 col-md-13 col-lg-11 prDate">May 13, 2015<span class="hidden-xs">&nbsp;&nbsp;&ndash;</span></div>
+  <div class="col-xs-45 col-sm-45 col-md-47 col-lg-49 prTitle"><a href="/News/Press-Releases/CES-Press-Release.aspx?NodeID=e275de05-e34d-4a67-a271-64d5124d9f19">CEA Announces Record 176,676 Attendees at 2015 International CES</a></div>
+</div><div class="row pressReleaseRow">
+  <div class="col-xs-15 col-sm-15 col-md-13 col-lg-11 prDate">Feb 11, 2015<span class="hidden-xs">&nbsp;&nbsp;&ndash;</span></div>
+  <div class="col-xs-45 col-sm-45 col-md-47 col-lg-49 prTitle"><a href="/News/Press-Releases/CES-Press-Release.aspx?NodeID=ddbd333b-ccb4-4dfb-ac23-9c7a8d6346bf">Expert Tech Panel to Headline CES Unveiled Tokyo</a></div>
+</div><div class="row pressReleaseRow">
+  <div class="col-xs-15 col-sm-15 col-md-13 col-lg-11 prDate">Jan 27, 2015<span class="hidden-xs">&nbsp;&nbsp;&ndash;</span></div>
+  <div class="col-xs-45 col-sm-45 col-md-47 col-lg-49 prTitle"><a href="/News/Press-Releases/CES-Press-Release.aspx?NodeID=951c6a41-e597-49fa-a07b-2878f549a054">Innovative Technologies to Headline  Inaugural CES Unveiled Tokyo</a></div>
+</div><div class="row pressReleaseRow">
+  <div class="col-xs-15 col-sm-15 col-md-13 col-lg-11 prDate">Jan 22, 2015<span class="hidden-xs">&nbsp;&nbsp;&ndash;</span></div>
+  <div class="col-xs-45 col-sm-45 col-md-47 col-lg-49 prTitle"><a href="/News/Press-Releases/CES-Press-Release.aspx?NodeID=a6eff29b-e246-4c29-8019-fe162ba12f85">C Space at CES Successfully Draws Brand Marketers and Creatives to Network and Learn About Latest Trends in Digital and Brand Marketing</a></div>
+</div><div class="row pressReleaseRow">
+  <div class="col-xs-15 col-sm-15 col-md-13 col-lg-11 prDate">Jan 14, 2015<span class="hidden-xs">&nbsp;&nbsp;&ndash;</span></div>
+  <div class="col-xs-45 col-sm-45 col-md-47 col-lg-49 prTitle"><a href="/News/Press-Releases/CES-Press-Release.aspx?NodeID=ddafbdcf-ecd4-4857-8cdc-7383fb0ea894">Registration Opens for Inaugural International CES Asia</a></div>
+</div><div class="row pressReleaseRow">
+  <div class="col-xs-15 col-sm-15 col-md-13 col-lg-11 prDate">Jan 09, 2015<span class="hidden-xs">&nbsp;&nbsp;&ndash;</span></div>
+  <div class="col-xs-45 col-sm-45 col-md-47 col-lg-49 prTitle"><a href="/News/Press-Releases/CES-Press-Release.aspx?NodeID=5be149a3-52a2-4970-b2ee-086ad20b9324">Leaders from CBS, Cisco, Comcast, Condé Nast, Fox, Google, McDonald’s, MediaLink and The Walt Disney Co. Dazzle CES Keynote Stage; Mobile Apps Showdown and Last Gadget Standing Winners Take Top Tech Accolades at 2015 CES  </a></div>
+</div><div class="row pressReleaseRow">
+  <div class="col-xs-15 col-sm-15 col-md-13 col-lg-11 prDate">Jan 09, 2015<span class="hidden-xs">&nbsp;&nbsp;&ndash;</span></div>
+  <div class="col-xs-45 col-sm-45 col-md-47 col-lg-49 prTitle"><a href="/News/Press-Releases/CES-Press-Release.aspx?NodeID=5b133083-4ebf-468a-a107-c65dca3b97e1">CES 2015: Innovation at the Speed of Awesome!</a></div>
+</div><div class="row pressReleaseRow">
+  <div class="col-xs-15 col-sm-15 col-md-13 col-lg-11 prDate">Jan 07, 2015<span class="hidden-xs">&nbsp;&nbsp;&ndash;</span></div>
+  <div class="col-xs-45 col-sm-45 col-md-47 col-lg-49 prTitle"><a href="/News/Press-Releases/CES-Press-Release.aspx?NodeID=11d1d8f6-39ef-45f9-adf3-e8937350afdd">Major Keynote Announcements from Ford and Intel, Dynamic SuperSessions and the Next Generation of Technology Innovation Opens  the 2015 International CES </a></div>
+</div><div class="row pressReleaseRow">
+  <div class="col-xs-15 col-sm-15 col-md-13 col-lg-11 prDate">Jan 06, 2015<span class="hidden-xs">&nbsp;&nbsp;&ndash;</span></div>
+  <div class="col-xs-45 col-sm-45 col-md-47 col-lg-49 prTitle"><a href="/News/Press-Releases/CES-Press-Release.aspx?NodeID=11443afd-6fac-43b3-b02d-c15dcf63404e">Innovation Takes Center Stage as 2015 International CES Opens Today </a></div>
+</div><div class="row pressReleaseRow">
+  <div class="col-xs-15 col-sm-15 col-md-13 col-lg-11 prDate">Jan 05, 2015<span class="hidden-xs">&nbsp;&nbsp;&ndash;</span></div>
+  <div class="col-xs-45 col-sm-45 col-md-47 col-lg-49 prTitle"><a href="/News/Press-Releases/CES-Press-Release.aspx?NodeID=f68828bc-68fb-411a-91ff-fcbf9791f6d3">International CES Partners with Radius Networks on First Wide Scale Indoor BLE Navigation System</a></div>
+</div><div class="row pressReleaseRow">
+  <div class="col-xs-15 col-sm-15 col-md-13 col-lg-11 prDate">Dec 31, 2014<span class="hidden-xs">&nbsp;&nbsp;&ndash;</span></div>
+  <div class="col-xs-45 col-sm-45 col-md-47 col-lg-49 prTitle"><a href="/News/Press-Releases/CES-Press-Release.aspx?NodeID=dbae50e2-b115-4e67-978b-7c092b1be0c8">Hollywood Stars, TV Personalities, Professional Athletes and Musical Icons to Spotlight Trends at 2015 International CES </a></div>
+</div><div class="row pressReleaseRow">
+  <div class="col-xs-15 col-sm-15 col-md-13 col-lg-11 prDate">Dec 29, 2014<span class="hidden-xs">&nbsp;&nbsp;&ndash;</span></div>
+  <div class="col-xs-45 col-sm-45 col-md-47 col-lg-49 prTitle"><a href="/News/Press-Releases/CES-Press-Release.aspx?NodeID=bc2c6e17-3991-4897-88ab-114f115dc8b9">2015 International CES to Host Largest Ever “Internet of Things” Showcase</a></div>
+</div><div class="row pressReleaseRow">
+  <div class="col-xs-15 col-sm-15 col-md-13 col-lg-11 prDate">Dec 22, 2014<span class="hidden-xs">&nbsp;&nbsp;&ndash;</span></div>
+  <div class="col-xs-45 col-sm-45 col-md-47 col-lg-49 prTitle"><a href="/News/Press-Releases/CES-Press-Release.aspx?NodeID=494f46a6-a2db-4889-a39c-e8708ae1ca48">International CES Takes Top Honors for Creative Campaigns </a></div>
+</div><div class="row pressReleaseRow">
+  <div class="col-xs-15 col-sm-15 col-md-13 col-lg-11 prDate">Dec 18, 2014<span class="hidden-xs">&nbsp;&nbsp;&ndash;</span></div>
+  <div class="col-xs-45 col-sm-45 col-md-47 col-lg-49 prTitle"><a href="/News/Press-Releases/CES-Press-Release.aspx?NodeID=6475909c-67c6-4f4d-b8c6-2fdb4d83c138">Startups Set To Shift to the Next Gear  at 2015 International CES</a></div>
+</div><div class="row pressReleaseRow">
+  <div class="col-xs-15 col-sm-15 col-md-13 col-lg-11 prDate">Dec 18, 2014<span class="hidden-xs">&nbsp;&nbsp;&ndash;</span></div>
+  <div class="col-xs-45 col-sm-45 col-md-47 col-lg-49 prTitle"><a href="/News/Press-Releases/CES-Press-Release.aspx?NodeID=5d1df54d-610c-45a4-9cfe-1848b64cfc9f">Extreme Tech Challenge Semi-Finals to be Held at 2015 International CES®</a></div>
+</div><div class="row pressReleaseRow">
+  <div class="col-xs-15 col-sm-15 col-md-13 col-lg-11 prDate">Dec 18, 2014<span class="hidden-xs">&nbsp;&nbsp;&ndash;</span></div>
+  <div class="col-xs-45 col-sm-45 col-md-47 col-lg-49 prTitle"><a href="/News/Press-Releases/CES-Press-Release.aspx?NodeID=17b68057-5bcc-4248-af98-e5575ac591f7">Northeastern U.S. Technology Companies Debut Cutting-Edge Technologies at  2015 International CES</a></div>
+</div><div class="row pressReleaseRow">
+  <div class="col-xs-15 col-sm-15 col-md-13 col-lg-11 prDate">Dec 16, 2014<span class="hidden-xs">&nbsp;&nbsp;&ndash;</span></div>
+  <div class="col-xs-45 col-sm-45 col-md-47 col-lg-49 prTitle"><a href="/News/Press-Releases/CES-Press-Release.aspx?NodeID=9af4facc-a0fc-4ce8-a5a6-9c37eb9124e7">2015 CES Mobile Keynote To Feature Top Executives from Electrolux, General Motors, Philips and Qualcomm </a></div>
+</div><div class="row pressReleaseRow">
+  <div class="col-xs-15 col-sm-15 col-md-13 col-lg-11 prDate">Dec 15, 2014<span class="hidden-xs">&nbsp;&nbsp;&ndash;</span></div>
+  <div class="col-xs-45 col-sm-45 col-md-47 col-lg-49 prTitle"><a href="/News/Press-Releases/CES-Press-Release.aspx?NodeID=0dfce569-4246-420a-ad8f-de58a23611ce">Top Tech Authors to Be Featured at 2015 International CES </a></div>
+</div><div class="row pressReleaseRow">
+  <div class="col-xs-15 col-sm-15 col-md-13 col-lg-11 prDate">Dec 11, 2014<span class="hidden-xs">&nbsp;&nbsp;&ndash;</span></div>
+  <div class="col-xs-45 col-sm-45 col-md-47 col-lg-49 prTitle"><a href="/News/Press-Releases/CES-Press-Release.aspx?NodeID=c88d46e1-0f02-437d-a910-18f09a64019e">Bosch’s Werner Struth, Cisco’s John Chambers and Comcast’s Neil Smit to Discuss Fast Innovation as part of 2015 International CES Keynote</a></div>
+</div><div class="row pressReleaseRow">
+  <div class="col-xs-15 col-sm-15 col-md-13 col-lg-11 prDate">Dec 09, 2014<span class="hidden-xs">&nbsp;&nbsp;&ndash;</span></div>
+  <div class="col-xs-45 col-sm-45 col-md-47 col-lg-49 prTitle"><a href="/News/Press-Releases/CES-Press-Release.aspx?NodeID=4071dc61-55d0-4a85-886e-f801420d4c64">Midwestern U.S. Technology Companies Debut Fresh Innovations at  2015 International CES</a></div>
+</div><div class="row pressReleaseRow">
+  <div class="col-xs-15 col-sm-15 col-md-13 col-lg-11 prDate">Dec 08, 2014<span class="hidden-xs">&nbsp;&nbsp;&ndash;</span></div>
+  <div class="col-xs-45 col-sm-45 col-md-47 col-lg-49 prTitle"><a href="/News/Press-Releases/CES-Press-Release.aspx?NodeID=34914e99-7b26-46ea-9ed3-e60fca03256a">Twitter’s Chris Moody and IBM’s Howard Pyle to Headline  C Space at ARIA at 2015 International CES</a></div>
+</div><div class="row pressReleaseRow">
+  <div class="col-xs-15 col-sm-15 col-md-13 col-lg-11 prDate">Dec 03, 2014<span class="hidden-xs">&nbsp;&nbsp;&ndash;</span></div>
+  <div class="col-xs-45 col-sm-45 col-md-47 col-lg-49 prTitle"><a href="/News/Press-Releases/CES-Press-Release.aspx?NodeID=26a3bec7-2644-4917-b3ea-f7b7260c3d5b">Top Executives from Condé Nast, Disney, Fox, Google and McDonald’s to Join Brand Matters Keynote Panel at 2015 International CES®</a></div>
+</div><div class="row pressReleaseRow">
+  <div class="col-xs-15 col-sm-15 col-md-13 col-lg-11 prDate">Dec 03, 2014<span class="hidden-xs">&nbsp;&nbsp;&ndash;</span></div>
+  <div class="col-xs-45 col-sm-45 col-md-47 col-lg-49 prTitle"><a href="/News/Press-Releases/CES-Press-Release.aspx?NodeID=3dd89f74-9699-4f47-abe2-ed99420a33fe">Southern U.S. Technology Companies Debut Game-Changing Technologies at  2015 International CES</a></div>
+</div><div class="row pressReleaseRow">
+  <div class="col-xs-15 col-sm-15 col-md-13 col-lg-11 prDate">Dec 01, 2014<span class="hidden-xs">&nbsp;&nbsp;&ndash;</span></div>
+  <div class="col-xs-45 col-sm-45 col-md-47 col-lg-49 prTitle"><a href="/News/Press-Releases/CES-Press-Release.aspx?NodeID=352b59c5-5cc9-490a-9699-c7eaa045ea45">CEA Announces New Awards and Events for 2015 International CES</a></div>
+</div><div class="row pressReleaseRow">
+  <div class="col-xs-15 col-sm-15 col-md-13 col-lg-11 prDate">Nov 24, 2014<span class="hidden-xs">&nbsp;&nbsp;&ndash;</span></div>
+  <div class="col-xs-45 col-sm-45 col-md-47 col-lg-49 prTitle"><a href="/News/Press-Releases/CES-Press-Release.aspx?NodeID=62713b0b-6742-469b-935e-926629a11413">Robotics Exhibits Grow by 25 Percent at the 2015 International CES</a></div>
+</div><div class="row pressReleaseRow">
+  <div class="col-xs-15 col-sm-15 col-md-13 col-lg-11 prDate">Nov 19, 2014<span class="hidden-xs">&nbsp;&nbsp;&ndash;</span></div>
+  <div class="col-xs-45 col-sm-45 col-md-47 col-lg-49 prTitle"><a href="/News/Press-Releases/CES-Press-Release.aspx?NodeID=9fa6a5fd-100f-4ceb-aced-aa3cbf7fef8e">iHeartMedia’s Bob Pittman with Ryan Seacrest as C Space Headliner at 2015 International CES</a></div>
+</div><div class="row pressReleaseRow">
+  <div class="col-xs-15 col-sm-15 col-md-13 col-lg-11 prDate">Nov 19, 2014<span class="hidden-xs">&nbsp;&nbsp;&ndash;</span></div>
+  <div class="col-xs-45 col-sm-45 col-md-47 col-lg-49 prTitle"><a href="/News/Press-Releases/CES-Press-Release.aspx?NodeID=89560f6a-c7c7-4522-a7d4-552ae11c7422">Western U.S. Technology Companies Unveil Latest Innovations at  2015 International CES</a></div>
+</div><div class="row pressReleaseRow">
+  <div class="col-xs-15 col-sm-15 col-md-13 col-lg-11 prDate">Nov 11, 2014<span class="hidden-xs">&nbsp;&nbsp;&ndash;</span></div>
+  <div class="col-xs-45 col-sm-45 col-md-47 col-lg-49 prTitle"><a href="/News/Press-Releases/CES-Press-Release.aspx?NodeID=f1fcf914-b341-4e8a-8f92-c70d0efbcad0">CBS Corporation President and CEO Leslie Moonves to Keynote Brand Matters Panel at 2015 International CES®</a></div>
+</div><div class="row pressReleaseRow">
+  <div class="col-xs-15 col-sm-15 col-md-13 col-lg-11 prDate">Nov 11, 2014<span class="hidden-xs">&nbsp;&nbsp;&ndash;</span></div>
+  <div class="col-xs-45 col-sm-45 col-md-47 col-lg-49 prTitle"><a href="/News/Press-Releases/CES-Press-Release.aspx?NodeID=982556b1-a71f-407e-bcce-97d09137e01e">Innovator and GoPro CEO Nicholas Woodman to Keynote  2015 International CES® Leaders in Technology Dinner</a></div>
+</div><div class="row pressReleaseRow">
+  <div class="col-xs-15 col-sm-15 col-md-13 col-lg-11 prDate">Nov 11, 2014<span class="hidden-xs">&nbsp;&nbsp;&ndash;</span></div>
+  <div class="col-xs-45 col-sm-45 col-md-47 col-lg-49 prTitle"><a href="/News/Press-Releases/CES-Press-Release.aspx?NodeID=4c68469f-e8e1-429e-8a92-ca267c8985cd">CEA Announces First-Ever Full Slate of FCC, FTC Commissioners to  Join Innovation Policy Roundtable at CES</a></div>
+</div><div class="row pressReleaseRow">
+  <div class="col-xs-15 col-sm-15 col-md-13 col-lg-11 prDate">Nov 11, 2014<span class="hidden-xs">&nbsp;&nbsp;&ndash;</span></div>
+  <div class="col-xs-45 col-sm-45 col-md-47 col-lg-49 prTitle"><a href="/News/Press-Releases/CES-Press-Release.aspx?NodeID=0a3de20d-decc-4aff-b809-5a10f0798d71">CEA Announces 2015 CES Best of Innovation  Honorees</a></div>
+</div><div class="row pressReleaseRow">
+  <div class="col-xs-15 col-sm-15 col-md-13 col-lg-11 prDate">Nov 11, 2014<span class="hidden-xs">&nbsp;&nbsp;&ndash;</span></div>
+  <div class="col-xs-45 col-sm-45 col-md-47 col-lg-49 prTitle"><a href="/News/Press-Releases/CES-Press-Release.aspx?NodeID=f2d0f1ad-cc22-463e-8cf3-6b43868599d9">ABC’s “Shark Tank” Coming to the 2015 International CES</a></div>
+</div><div class="row pressReleaseRow">
+  <div class="col-xs-15 col-sm-15 col-md-13 col-lg-11 prDate">Nov 07, 2014<span class="hidden-xs">&nbsp;&nbsp;&ndash;</span></div>
+  <div class="col-xs-45 col-sm-45 col-md-47 col-lg-49 prTitle"><a href="/News/Press-Releases/CES-Press-Release.aspx?NodeID=c2a50208-bb23-433c-ba6b-9609dc88c389">Ford President and CEO Mark Fields to Debut on 2015 International CES Stage</a></div>
+</div><div class="row pressReleaseRow">
+  <div class="col-xs-15 col-sm-15 col-md-13 col-lg-11 prDate">Nov 07, 2014<span class="hidden-xs">&nbsp;&nbsp;&ndash;</span></div>
+  <div class="col-xs-45 col-sm-45 col-md-47 col-lg-49 prTitle"><a href="/News/Press-Releases/CES-Press-Release.aspx?NodeID=ebcec984-2cf5-49ad-b7dc-f181cbf49932">Automotive Technologies Drive Innovation at the 2015 International CES</a></div>
+</div><div class="row pressReleaseRow">
+  <div class="col-xs-15 col-sm-15 col-md-13 col-lg-11 prDate">Nov 03, 2014<span class="hidden-xs">&nbsp;&nbsp;&ndash;</span></div>
+  <div class="col-xs-45 col-sm-45 col-md-47 col-lg-49 prTitle"><a href="/News/Press-Releases/CES-Press-Release.aspx?NodeID=9b521db5-f95b-4a5c-9fbd-4dcb6fc50489">Google and Yahoo VPs to Deliver Headline Addresses at  C Space at ARIA at 2015 International CES </a></div>
+</div><div class="row pressReleaseRow">
+  <div class="col-xs-15 col-sm-15 col-md-13 col-lg-11 prDate">Nov 03, 2014<span class="hidden-xs">&nbsp;&nbsp;&ndash;</span></div>
+  <div class="col-xs-45 col-sm-45 col-md-47 col-lg-49 prTitle"><a href="/News/Press-Releases/CES-Press-Release.aspx?NodeID=0c1cd6ff-e70d-4b8d-8b13-cbdd8e884e81">Famed Entrepreneur, Music Producer, TV Host, and Actor Nick Cannon Named Entertainment Matters Ambassador for the  2015 International CES®</a></div>
+</div><div class="row pressReleaseRow">
+  <div class="col-xs-15 col-sm-15 col-md-13 col-lg-11 prDate">Oct 30, 2014<span class="hidden-xs">&nbsp;&nbsp;&ndash;</span></div>
+  <div class="col-xs-45 col-sm-45 col-md-47 col-lg-49 prTitle"><a href="/News/Press-Releases/CES-Press-Release.aspx?NodeID=2e5a2d50-2263-47ec-9bde-a173e7f2e76b">iPhone 6 and iPad Air 2 Accessories to Debut at iLounge’s iProducts  Marketplace at the 2015 CES  </a></div>
+</div><div class="row pressReleaseRow">
+  <div class="col-xs-15 col-sm-15 col-md-13 col-lg-11 prDate">Oct 29, 2014<span class="hidden-xs">&nbsp;&nbsp;&ndash;</span></div>
+  <div class="col-xs-45 col-sm-45 col-md-47 col-lg-49 prTitle"><a href="/News/Press-Releases/CES-Press-Release.aspx?NodeID=cc014f7b-b8c0-4c95-ba4e-77905f59afe5">Audi’s Rupert Stadler to Keynote Inaugural International CES Asia</a></div>
+</div><div class="row pressReleaseRow">
+  <div class="col-xs-15 col-sm-15 col-md-13 col-lg-11 prDate">Oct 22, 2014<span class="hidden-xs">&nbsp;&nbsp;&ndash;</span></div>
+  <div class="col-xs-45 col-sm-45 col-md-47 col-lg-49 prTitle"><a href="/News/Press-Releases/CES-Press-Release.aspx?NodeID=80e14ff9-7eb2-457c-91f2-f59b8d41cc16">Intel CEO Brian Krzanich to Keynote at 2015 International CES</a></div>
+</div><div class="row pressReleaseRow">
+  <div class="col-xs-15 col-sm-15 col-md-13 col-lg-11 prDate">Oct 22, 2014<span class="hidden-xs">&nbsp;&nbsp;&ndash;</span></div>
+  <div class="col-xs-45 col-sm-45 col-md-47 col-lg-49 prTitle"><a href="/News/Press-Releases/CES-Press-Release.aspx?NodeID=c451853d-7f2e-400a-bb2d-c4222534b680">2015 International CES to Feature Latest Innovations in Lifestyle Technologies</a></div>
+</div><div class="row pressReleaseRow">
+  <div class="col-xs-15 col-sm-15 col-md-13 col-lg-11 prDate">Oct 21, 2014<span class="hidden-xs">&nbsp;&nbsp;&ndash;</span></div>
+  <div class="col-xs-45 col-sm-45 col-md-47 col-lg-49 prTitle"><a href="/News/Press-Releases/CES-Press-Release.aspx?NodeID=ff43eec2-14db-4053-b78a-31bb688cd6d9">New at the 2015 CES: Personal Privacy and Cyber Security Marketplaces</a></div>
+</div><div class="row pressReleaseRow">
+  <div class="col-xs-15 col-sm-15 col-md-13 col-lg-11 prDate">Oct 16, 2014<span class="hidden-xs">&nbsp;&nbsp;&ndash;</span></div>
+  <div class="col-xs-45 col-sm-45 col-md-47 col-lg-49 prTitle"><a href="/News/Press-Releases/CES-Press-Release.aspx?NodeID=246659ef-f484-49fd-a4b4-79ec6faf30b9">CEA Announces International CES Unveiled Coming to Tokyo on February 18</a></div>
+</div><div class="row pressReleaseRow">
+  <div class="col-xs-15 col-sm-15 col-md-13 col-lg-11 prDate">Oct 09, 2014<span class="hidden-xs">&nbsp;&nbsp;&ndash;</span></div>
+  <div class="col-xs-45 col-sm-45 col-md-47 col-lg-49 prTitle"><a href="/News/Press-Releases/CES-Press-Release.aspx?NodeID=8fc61e30-54fb-4e4a-9660-988a267b044d">CEA Announces Panelists and New Exhibitors for CES Unveiled Paris</a></div>
+</div><div class="row pressReleaseRow">
+  <div class="col-xs-15 col-sm-15 col-md-13 col-lg-11 prDate">Oct 06, 2014<span class="hidden-xs">&nbsp;&nbsp;&ndash;</span></div>
+  <div class="col-xs-45 col-sm-45 col-md-47 col-lg-49 prTitle"><a href="/News/Press-Releases/CES-Press-Release.aspx?NodeID=c7f1e0ca-b638-4293-8fd6-281c0e22707a">Daimler Chairman Dr. Dieter Zetsche to Deliver Keynote Address at 2015 CES </a></div>
+</div><div class="row pressReleaseRow">
+  <div class="col-xs-15 col-sm-15 col-md-13 col-lg-11 prDate">Sep 24, 2014<span class="hidden-xs">&nbsp;&nbsp;&ndash;</span></div>
+  <div class="col-xs-45 col-sm-45 col-md-47 col-lg-49 prTitle"><a href="/News/Press-Releases/CES-Press-Release.aspx?NodeID=a8cf1815-ad54-4bfd-9e70-62d7e4a1868a">Unmanned Systems Take Flight at the 2015 International CES</a></div>
+</div><div class="row pressReleaseRow">
+  <div class="col-xs-15 col-sm-15 col-md-13 col-lg-11 prDate">Sep 18, 2014<span class="hidden-xs">&nbsp;&nbsp;&ndash;</span></div>
+  <div class="col-xs-45 col-sm-45 col-md-47 col-lg-49 prTitle"><a href="/News/Press-Releases/CES-Press-Release.aspx?NodeID=b7dbf1d1-5184-4b0c-aa47-a85cb158ed6c">Samsung President and CEO Boo-Keun Yoon to Deliver Keynote Address at the 2015 International CES</a></div>
+</div><div class="row pressReleaseRow">
+  <div class="col-xs-15 col-sm-15 col-md-13 col-lg-11 prDate">Sep 09, 2014<span class="hidden-xs">&nbsp;&nbsp;&ndash;</span></div>
+  <div class="col-xs-45 col-sm-45 col-md-47 col-lg-49 prTitle"><a href="/News/Press-Releases/CES-Press-Release.aspx?NodeID=34e52ff5-ea75-4cf2-bf91-1090a3510dc2">Growth of Smart Home Technologies Leads to New Marketplace  at the Sands Expo at 2015 International CES</a></div>
+</div><div class="row pressReleaseRow">
+  <div class="col-xs-15 col-sm-15 col-md-13 col-lg-11 prDate">Sep 03, 2014<span class="hidden-xs">&nbsp;&nbsp;&ndash;</span></div>
+  <div class="col-xs-45 col-sm-45 col-md-47 col-lg-49 prTitle"><a href="/News/Press-Releases/CES-Press-Release.aspx?NodeID=9722e74d-52fb-438b-bd3d-1fe8dde12a27">Press Day Lineup Announced for 2015 International CES</a></div>
+</div><div class="row pressReleaseRow">
+  <div class="col-xs-15 col-sm-15 col-md-13 col-lg-11 prDate">Aug 26, 2014<span class="hidden-xs">&nbsp;&nbsp;&ndash;</span></div>
+  <div class="col-xs-45 col-sm-45 col-md-47 col-lg-49 prTitle"><a href="/News/Press-Releases/CES-Press-Release.aspx?NodeID=82e67da8-ee07-4654-8f21-3f7d9509b33a">CEA Announces Exhibitors for CES Unveiled Paris</a></div>
+</div><div class="row pressReleaseRow">
+  <div class="col-xs-15 col-sm-15 col-md-13 col-lg-11 prDate">Aug 19, 2014<span class="hidden-xs">&nbsp;&nbsp;&ndash;</span></div>
+  <div class="col-xs-45 col-sm-45 col-md-47 col-lg-49 prTitle"><a href="/News/Press-Releases/CES-Press-Release.aspx?NodeID=1b9e6668-393f-4e2e-8a73-e9ade105bb98">Startup Exhibits Grow by 50 Percent at the 2015 International CES</a></div>
+</div><div class="row pressReleaseRow">
+  <div class="col-xs-15 col-sm-15 col-md-13 col-lg-11 prDate">Aug 12, 2014<span class="hidden-xs">&nbsp;&nbsp;&ndash;</span></div>
+  <div class="col-xs-45 col-sm-45 col-md-47 col-lg-49 prTitle"><a href="/News/Press-Releases/CES-Press-Release.aspx?NodeID=6c2aa498-53c8-4002-a7a2-d826154e8c02">Gaming Exhibits Grow by 30 Percent at the 2015 International CES </a></div>
+</div><div class="row pressReleaseRow">
+  <div class="col-xs-15 col-sm-15 col-md-13 col-lg-11 prDate">Aug 11, 2014<span class="hidden-xs">&nbsp;&nbsp;&ndash;</span></div>
+  <div class="col-xs-45 col-sm-45 col-md-47 col-lg-49 prTitle"><a href="/News/Press-Releases/CES-Press-Release.aspx?NodeID=7d7018e2-3b62-42f0-afaf-71e0b683a2f8">CEA Issues Call for Entries for 2015 CES Innovation Awards </a></div>
+</div><div class="row pressReleaseRow">
+  <div class="col-xs-15 col-sm-15 col-md-13 col-lg-11 prDate">Jul 31, 2014<span class="hidden-xs">&nbsp;&nbsp;&ndash;</span></div>
+  <div class="col-xs-45 col-sm-45 col-md-47 col-lg-49 prTitle"><a href="/News/Press-Releases/CES-Press-Release.aspx?NodeID=127c620c-b87e-4a65-845c-34ddeef76fb0">See Me, Touch Me, Feel Me: 2015 International CES to Feature Latest Innovations in Sensor Technology</a></div>
+</div><div class="row pressReleaseRow">
+  <div class="col-xs-15 col-sm-15 col-md-13 col-lg-11 prDate">Jul 17, 2014<span class="hidden-xs">&nbsp;&nbsp;&ndash;</span></div>
+  <div class="col-xs-45 col-sm-45 col-md-47 col-lg-49 prTitle"><a href="/News/Press-Releases/CES-Press-Release.aspx?NodeID=827e9e78-8715-48da-910e-f1fffe5817d3">CEA Announces International CES Asia to Serve as Premier Asian Event</a></div>
+</div><div class="row pressReleaseRow">
+  <div class="col-xs-15 col-sm-15 col-md-13 col-lg-11 prDate">Jul 15, 2014<span class="hidden-xs">&nbsp;&nbsp;&ndash;</span></div>
+  <div class="col-xs-45 col-sm-45 col-md-47 col-lg-49 prTitle"><a href="/News/Press-Releases/CES-Press-Release.aspx?NodeID=90cd7afa-ddf3-4084-93c8-c0910d0dfed4">Sports Technology Set to Score at New Sports Tech Marketplace  at the 2015 International CES</a></div>
+</div><div class="row pressReleaseRow">
+  <div class="col-xs-15 col-sm-15 col-md-13 col-lg-11 prDate">Jul 10, 2014<span class="hidden-xs">&nbsp;&nbsp;&ndash;</span></div>
+  <div class="col-xs-45 col-sm-45 col-md-47 col-lg-49 prTitle"><a href="/News/Press-Releases/CES-Press-Release.aspx?NodeID=53581898-e377-4bdd-bf9d-6c405ff63062">Registration Now Open for CES Unveiled Paris</a></div>
+</div><div class="row pressReleaseRow">
+  <div class="col-xs-15 col-sm-15 col-md-13 col-lg-11 prDate">Jul 10, 2014<span class="hidden-xs">&nbsp;&nbsp;&ndash;</span></div>
+  <div class="col-xs-45 col-sm-45 col-md-47 col-lg-49 prTitle"><a href="/News/Press-Releases/CES-Press-Release.aspx?NodeID=19ed1604-8a0b-4c62-a6fe-5ddef6b44398">Register Now for the 2015 International CES – the World’s Largest Innovation Playground</a></div>
+</div><div class="row pressReleaseRow">
+  <div class="col-xs-15 col-sm-15 col-md-13 col-lg-11 prDate">Jun 17, 2014<span class="hidden-xs">&nbsp;&nbsp;&ndash;</span></div>
+  <div class="col-xs-45 col-sm-45 col-md-47 col-lg-49 prTitle"><a href="/News/Press-Releases/CES-Press-Release.aspx?NodeID=eba42759-2d4c-4af7-bc9a-d74f4d3c0fec">3D Printing Marketplace Doubles in Size at 2015 International CES</a></div>
+</div><div class="row pressReleaseRow">
+  <div class="col-xs-15 col-sm-15 col-md-13 col-lg-11 prDate">Jun 12, 2014<span class="hidden-xs">&nbsp;&nbsp;&ndash;</span></div>
+  <div class="col-xs-45 col-sm-45 col-md-47 col-lg-49 prTitle"><a href="/News/Press-Releases/CES-Press-Release.aspx?NodeID=e3cbf774-f771-45ab-aa84-8f54d55f5335">Smart Watch Innovations Set to Double at 2015 International CES</a></div>
+</div><div class="row pressReleaseRow">
+  <div class="col-xs-15 col-sm-15 col-md-13 col-lg-11 prDate">Jun 10, 2014<span class="hidden-xs">&nbsp;&nbsp;&ndash;</span></div>
+  <div class="col-xs-45 col-sm-45 col-md-47 col-lg-49 prTitle"><a href="/News/Press-Releases/CES-Press-Release.aspx?NodeID=7972f891-4c3d-4b70-907d-bcda721d7749">C Space to Bring Together Advertising, Content and Marketing Communities at 2015 CES</a></div>
+</div><div class="row pressReleaseRow">
+  <div class="col-xs-15 col-sm-15 col-md-13 col-lg-11 prDate">May 06, 2014<span class="hidden-xs">&nbsp;&nbsp;&ndash;</span></div>
+  <div class="col-xs-45 col-sm-45 col-md-47 col-lg-49 prTitle"><a href="/News/Press-Releases/CES-Press-Release.aspx?NodeID=eef8d1a1-7e49-4eed-9f43-b9e3a6c81f3a">Top Technology Influencers to Provide Key Insights at CES Unveiled Warsaw</a></div>
+</div><div class="row pressReleaseRow">
+  <div class="col-xs-15 col-sm-15 col-md-13 col-lg-11 prDate">May 05, 2014<span class="hidden-xs">&nbsp;&nbsp;&ndash;</span></div>
+  <div class="col-xs-45 col-sm-45 col-md-47 col-lg-49 prTitle"><a href="/News/Press-Releases/CES-Press-Release.aspx?NodeID=8a843db6-e36b-491b-bdc1-e1ef564db77f">2015 International CES Launches Call for Speakers</a></div>
+</div></div></div>
+</div> 
+
+             
+          </div>
+         </div>
+      </div>
+   </div>
+</section></div>
+    </div>
+</div>
+    
+<section>
+    <div id="footer" class="clear-fix">
+        <div class="container">
+            <div class="doubleDashedHR"></div>
+            <div class="text-center-xs col-xs-60 text-left-md col-md-15">
+                <p class="copyright">Copyright &copy; 2003 - 2015 CTA. All rights reserved.</p>
+
+            </div>
+            <div class="text-center-xs col-xs-60 text-left-md col-md-15 doubleDashedVR">
+                <ul>
+	<li>
+		<a href="/about-us">About Us </a></li>
+	<li>
+		<a href="/contact-us">Contact Us</a></li>
+	<li>
+		<a href="/partners">Partners</a></li>
+</ul>
+
+            </div>
+            <div class="text-center-xs col-xs-60 text-left-md col-md-10 doubleDashedVR">
+                <ul>
+	<li>
+		<a href="/privacy">Privacy</a></li>
+	<li>
+		<a href="/sitemap">Sitemap</a></li>
+</ul>
+<br /><div style="font-size: .8em; color: #FFF;"><span id="p_lt_ctl11_whatServer_serverName">WEB-IIS70</span></div>
+            </div>
+            <div class="col-xs-60 text-center-xs text-left-md col-md-20 languages">
+                <script type="text/javascript">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-3975226-4', 'auto');
+
+// Load the plugin.
+ga('require', 'linker');
+// Define which domains to autoLink.
+ga('linker:autoLink', ['itnint.com']);
+  ga('send', 'pageview');
+</script>
+            </div>
+        </div>
+    </div>
+</section>
+<script type="text/javascript" src="/CES/js/HomepageAlerts/alert.js"></script>
+    
+    
+
+<script type="text/javascript">
+//<![CDATA[
+(function() {var fn = function() {$get("manScript_HiddenField").value = '';Sys.Application.remove_init(fn);};Sys.Application.add_init(fn);})();
+WebForm_InitCallback();
+theForm.oldSubmit = theForm.submit;
+theForm.submit = WebForm_SaveScrollPositionSubmit;
+
+theForm.oldOnSubmit = theForm.onsubmit;
+theForm.onsubmit = WebForm_SaveScrollPositionOnSubmit;
+//]]>
+</script>
+  <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTEyMTY0MTExOTEPZBYCAgEPFgIeBmFjdGlvbgUSL25ld3MvcnNzTmV3cy5hc3B4FgICBQ9kFgJmDw8WBB4IQ3NzQ2xhc3MFD1BhZ2VQbGFjZWhvbGRlch4EXyFTQgICZBYCZg9kFgQCCw9kFgICAQ9kFgJmDw8WLh4SVHJhbnNmb3JtYXRpb25OYW1lZR4MWmVyb1Jvd3NUZXh0BQ1ObyBkYXRhIGZvdW5kHg1QYWdlclBvc2l0aW9uCylxQ01TLkNvbnRyb2xzLlBhZ2luZ1BsYWNlVHlwZUVudW0sIENNUy5Db250cm9scywgVmVyc2lvbj04LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPTgzNGIxMmEyNThmMjEzZjkAHhtTZXBhcmF0b3JUcmFuc2Zvcm1hdGlvbk5hbWVlHhBTaG93RGVsZXRlQnV0dG9uaB4SUGFyZW50SURDb2x1bW5OYW1lBQxOb2RlUGFyZW50SUQeF1VzZUhpZXJhcmNoaWNhbE9yZGVyaW5nZx4YSGVhZGVyVHJhbnNmb3JtYXRpb25OYW1lZR4LXyFJdGVtQ291bnQCCR4eSGllcmFyY2hpY2FsVHJhbnNmb3JtYXRpb25OYW1lBSppY2VzLnRyYW5zZm9ybWF0aW9ucy5JY2VzX2Ryb3BfbWVudV9tb2JpbGUeDElEQ29sdW1uTmFtZQUGTm9kZUlEHh1BbHRlcm5hdGluZ1RyYW5zZm9ybWF0aW9uTmFtZWUeDlNob3dFZGl0QnV0dG9uaB4UTG9hZEhpZXJhcmNoaWNhbERhdGFnHg9MZXZlbENvbHVtbk5hbWUFCU5vZGVMZXZlbB4WSGlkZUNvbnRyb2xGb3JaZXJvUm93c2geC18hRGF0YUJvdW5kZx4YRm9vdGVyVHJhbnNmb3JtYXRpb25OYW1lZR4XRmlyc3RUcmFuc2Zvcm1hdGlvbk5hbWVlHhZSZXNvbHZlRHluYW1pY0NvbnRyb2xzZx4YU2luZ2xlVHJhbnNmb3JtYXRpb25OYW1lZR4WTGFzdFRyYW5zZm9ybWF0aW9uTmFtZWUeCUl0ZW1Db3VudAIJZBYCZg8PFg4eCFBhZ2VTaXplAgoeDlF1ZXJ5U3RyaW5nS2V5BQRQYWdlHglQYWdlck1vZGULKWpDTVMuQ29udHJvbHMuVW5pUGFnZXJNb2RlLCBDTVMuQ29udHJvbHMsIFZlcnNpb249OC4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj04MzRiMTJhMjU4ZjIxM2Y5AB4JR3JvdXBTaXplAgoeHURpc3BsYXlGaXJzdExhc3RBdXRvbWF0aWNhbGx5aB4gRGlzcGxheVByZXZpb3VzTmV4dEF1dG9tYXRpY2FsbHloHgdFbmFibGVkaGRkAhEPZBYCZg9kFgICAg9kFgJmDw8WBB8BBQ9QYWdlUGxhY2Vob2xkZXIfAgICZBYCZg9kFgYCAQ9kFgJmD2QWAmYPFgIeBFRleHQF2gQ8dWw+PGxpIGNsYXNzPSJsZWZ0LWN1cnJlbnQiPjxhIGhyZWY9Ii9OZXdzL1ByZXNzLVJlbGVhc2VzIj5QcmVzcyBSZWxlYXNlczwvYT48dWw+PC91bD48bGk+PGEgaHJlZj0iL05ld3MvQ0VTLVRWIj5WaWRlb3M8L2E+PGxpPjxhIGhyZWY9Ii9OZXdzL1Bob3RvLUdhbGxlcnkiPlBob3RvIEdhbGxlcnk8L2E+PGxpPjxhIGhyZWY9Ii9OZXdzL0NFUy1Tb2NpYWwiPlNvY2lhbCBNZWRpYTwvYT48bGk+PGEgaHJlZj0iL05ld3MvQ0VTLVNvY2lhbC0oMSkiPldoYXQncyBUcmVuZGluZzwvYT48bGk+PGEgaHJlZj0iL05ld3MvQ0VTLUluLVRoZS1OZXdzIj5DRVMgSW4gVGhlIE5ld3M8L2E+PGxpPjxhIGhyZWY9Ii9OZXdzL1RyZW5kaW5nLVZpZGVvLUNvdmVyYWdlIj5UcmVuZGluZyBWaWRlbyBDb3ZlcmFnZTwvYT48bGk+PGEgaHJlZj0iL05ld3MvRXhoaWJpdG9yLVByZXNzLVJlbGVhc2VzIj5FeGhpYml0b3IgTmV3czwvYT48bGk+PGEgaHJlZj0iL05ld3MvQ2VsZWJyaXRpZXMtYXQtQ0VTIj5DZWxlYnJpdGllcyBhdCBDRVM8L2E+PGxpPjxhIGhyZWY9Ii9OZXdzL1RlY2gtQ2hhbmdpbmctdGhlLVdvcmxkIj5UZWNoIENoYW5naW5nIHRoZSBXb3JsZDwvYT48L3VsPmQCAw9kFgJmDw8WAh4HVmlzaWJsZWhkZAIND2QWAmYPZBYCZg9kFgJmD2QWAmYPZBYCZg9kFgQCBA8WAh8LAjgWcGYPZBYCZg9kFgJmDxUDDEphbiAyMSwgMjAxNiRiMjlkOGJlMC04ZDdkLTRiNTEtOTQ2Ny02ZDk5YWFlNzczODI2Q0VTIDIwMTYgTGF1bmNoZXMgQnJlYWt0aHJvdWdoIElubm92YXRpb24gdG8gdGhlIFdvcmxkZAIBD2QWAmYPZBYCZg8VAwxKYW4gMDksIDIwMTYkYmIxMGMwMzMtZTQ5ZC00ZmFlLTkyMTAtMTBmNGFlZjQ2ZjQ3PUNFUyAyMDE2IEJyaW5ncyB0aGUgRnV0dXJlIG9mIFRlY2hub2xvZ3kgSW5ub3ZhdGlvbiB0byBNYXJrZXRkAgIPZBYCZg9kFgJmDxUDDEphbiAwOSwgMjAxNiRiZDE3ZjVkZC1iMDk4LTRjMjEtODUxZC1lYzY1MzRmYzdmM2VVVGVjaG5vbG9neSBDb25uZWN0cy4gSW5kdXN0cmllcyBDb2xsYWJvcmF0ZS4gSW5ub3ZhdGlvbiBCZXR0ZXJzIHRoZSBXb3JsZCBhdCBDRVMgMjAxNmQCAw9kFgJmD2QWAmYPFQMMSmFuIDA3LCAyMDE2JGYwZDlhZDA4LTdjNjItNGFjOC04MmM4LWE1NDgzZDQxMTY5OERDVEEgRm91bmRhdGlvbiBBbm5vdW5jZXMgQ29nbml0aXZlIENvbXB1dGluZyBSZXNlYXJjaCBTdHVkeSB3aXRoIElCTWQCBA9kFgJmD2QWAmYPFQMMSmFuIDA3LCAyMDE2JGU4ODlhNzRlLTY5NmEtNDA1ZC04ZDliLTM3NDNiYTE5YTYxODFDRVMgMjAxNiBPcGVucyB3aXRoIFRlY2hub2xvZ3kgQ2hhbmdpbmcgdGhlIFdvcmxkZAIFD2QWAmYPZBYCZg8VAwxKYW4gMDcsIDIwMTYkM2NhY2Q2ODEtZjJhYi00NzQ2LWJjMjMtNjRlODI4Y2FmMDRjS0NUQeKAmXMgR2xlbmRhIE1hY011bGxpbiBSZWNlaXZlcyBXb21lbiBpbiBDb25zdW1lciBUZWNobm9sb2d5IExlZ2FjeSBBd2FyZGQCBg9kFgJmD2QWAmYPFQMMSmFuIDA2LCAyMDE2JDIwMGI1ZTYwLTIxNDMtNDVlZS1iMTgyLWM3OTNkNjgyZGFjOTpOZXh0IEdlbmVyYXRpb24gb2YgSW5ub3ZhdGlvbiBEZWJ1dHMgYXMgQ0VTIDIwMTYgS2lja3MgT2ZmZAIHD2QWAmYPZBYCZg8VAwxKYW4gMDUsIDIwMTYkOTRkZjZmZjctNzdmYy00NTE0LWE3YWYtYjhjMjZhYjY5NGNiKUJlYWNvbiBTY2F2ZW5nZXIgSHVudCBSZXR1cm5zIHRvIENFUyAyMDE2ZAIID2QWAmYPZBYCZg8VAwxEZWMgMzEsIDIwMTUkZDY4ZmFjNDAtMDJmMS00MmE4LWEwZjYtMzVjODAxMjJjYTJjQEV1cmVrYSBQYXJrIEV4aGliaXRvcnMgRnVuZGVkIGF0IG1vcmUgdGhhbiAkMSBCaWxsaW9uIFNpbmNlIDIwMTJkAgkPZBYCZg9kFgJmDxUDDERlYyAzMCwgMjAxNSQ0ZmRmZDQxOS1jNzhjLTQ1NzMtYjFmOS00YzhmNjk4NDY0ZGUdQ0VTIDIwMTY6IEEgU3Rhci1TdHVkZGVkIFNob3dkAgoPZBYCZg9kFgJmDxUDDERlYyAyMywgMjAxNSQ0NDZhZDY0NC0yNzEzLTRlNzMtYWE1Ni1lNmFkNjFjMWJmNmE6TW9yZSB0aGFuIFR3byBEb3plbiBQb2xpY3ltYWtlcnMsIFJlZ3VsYXRvcnMgSm9pbiBDRVMgMjAxNmQCCw9kFgJmD2QWAmYPFQMMRGVjIDE4LCAyMDE1JDg3ZDAzNjk2LTMxNmUtNGNmNC04YmIxLWVlZDAyMzEyZWE5OUZMZWFkaW5nIFRlY2ggQXV0aG9ycyB0byBQYXJ0aWNpcGF0ZSBpbiAgR2FyeeKAmXMgQm9vayBDbHViIGF0IENFUyAyMDE2ZAIMD2QWAmYPZBYCZg8VAwxEZWMgMTcsIDIwMTUkN2UyNzNlMzQtMDBjMi00NjBlLTkzMWItOGY0MTJjNDJhMjQ5U0JyYW5kcywgTWVkaWEgYW5kIFRlY2ggQ29sbGlkZSBBdCBJbmF1Z3VyYWwgQyBTcGFjZSBTdG9yeXRlbGxlcnMgU2VyaWVzIGF0IENFUyAyMDE2ZAIND2QWAmYPZBYCZg8VAwxEZWMgMTcsIDIwMTUkNjZjOWJkYjQtOTI3Zi00YmZiLWIxMWEtYTUxMzk0YTc0MGM1TUNFUyBJbXBsZW1lbnRzIE5ldyBCYWcgUmVzdHJpY3Rpb25zLCBFbmhhbmNlZCBTZWN1cml0eSBNZWFzdXJlcyBmb3IgQ0VTIDIwMTYgZAIOD2QWAmYPZBYCZg8VAwxEZWMgMTYsIDIwMTUkYjU3MmQxOTItYWU1Ny00NjRiLTk0MjMtZjc4MmQ0YjMwNTIzRElCTSBDaGFpcm1hbiwgUHJlc2lkZW50IGFuZCBDRU8gR2lubmkgUm9tZXR0eSB0byBLZXlub3RlIGF0IENFUyAyMDE2ZAIPD2QWAmYPZBYCZg8VAwxEZWMgMTYsIDIwMTUkNGIyYjUxNzAtZjg5MS00MzA3LThkMzItNTI4NWU2MWZjZDk2IVVubWFubmVkIFN5c3RlbXMgU29hciBhdCBDRVMgMjAxNmQCEA9kFgJmD2QWAmYPFQMMRGVjIDE1LCAyMDE1JGI0MDEwOWVjLWQ3NTctNGQwZS04NTQ0LTlmMjc0MDM1Yjg4YnFGQ0MgYW5kIEZUQyBDaGFpcnMsIFUuUy4gQ1RPIGFuZCBDRU9zIFN0ZXZlIENhc2UgYW5kIE5pY2sgV29vZG1hbiB0byBFeHBsb3JlIEZ1dHVyZSBvZiBJbm5vdmF0aW9uIER1cmluZyBDRVMgMjAxNmQCEQ9kFgJmD2QWAmYPFQMMRGVjIDE1LCAyMDE1JGJiZWZjZWRhLTE4OWYtNDE1ZS1hMmVmLWE2MDk1YzU5NTIzMVBOZXcgRW50ZXJwcmlzZSBTb2x1dGlvbnMgTWFya2V0cGxhY2UgdG8gQ29ubmVjdCBDb21wYW5pZXMgIFNlZWtpbmcgQjJCIFNvbHV0aW9uc2QCEg9kFgJmD2QWAmYPFQMMRGVjIDExLCAyMDE1JDdlOGI1MGVmLTdhMmUtNDRmMC04MDY3LTlhYzc0YmNjZTUyNi9XaG9zZSBJZGVhcyBhcmUgU2hhcGluZyB0aGUgRnV0dXJlIGF0IENFUyAyMDE2P2QCEw9kFgJmD2QWAmYPFQMMRGVjIDEwLCAyMDE1JDlkZmZiNmFjLTQ5MjQtNDYwZi1hYzI4LTBjYTY3ODU3N2FkOX9KdXN0IEFubm91bmNlZDogVG9wIEV4ZWN1dGl2ZXMgZnJvbSBFbnRlcnRhaW5tZW50LCBBZHZlcnRpc2luZyBhbmQgVGVjaG5vbG9neSBJbmR1c3RyaWVzIHdpbGwgSGVhZGxpbmUgQ0VTIDIwMTYgQyBTcGFjZSBLZXlub3RlZAIUD2QWAmYPZBYCZg8VAwxEZWMgMTAsIDIwMTUkOTYyYTMzYzctNzlhYS00NDlkLTlmYTctNzEwZjdlZTg1NDEzUkNFUyAyMDE2IHRvIEZlYXR1cmUgVG9wIExlYWRlcnMgU2hhcmluZyBUaGVpciBWaXNpb24gb24gU21hcnQgQ2l0aWVzIGFuZCBNb2JpbGl0eSBkAhUPZBYCZg9kFgJmDxUDDERlYyAwOCwgMjAxNSQwM2E2ZmEwMi0wNTZkLTQ2NmItOTRlMS0yZDE0M2ZmOWRkYzJOVm9sa3N3YWdlbuKAmXMgRHIuIEhlcmJlcnQgRGllc3MgdG8gS2V5bm90ZSBDRVMgMjAxNiwgIExhdW5jaCBOZXcgRWxlY3RyaWMgQ2FyZAIWD2QWAmYPZBYCZg8VAwxEZWMgMDcsIDIwMTUkNjI5MWM1MDktODlhYi00NjExLWIyODAtOTk0ZWRlZWZmZGM2cVNwb3J0cyBhbmQgVGVjaCBDb252ZXJnZSBhdCBDRVMgMjAxNiB0byBSZWRlZmluZSB0aGUgUGxheWluZyBGaWVsZCAgSW5jbHVkaW5nIFNob3djYXNlIFByZXNlbnRlZCBieSBUdXJuZXIgU3BvcnRzZAIXD2QWAmYPZBYCZg8VAwxOb3YgMjQsIDIwMTUkYjNjNWM5ZGMtMTViYS00YzFiLWIyZGYtY2NkNmI3ZjBjZGVhLUNFUyAyMDE2OiBUZWNobm9sb2d5IEd1YXJkaW5nIHRoZSBDeWJlci1HYXRlc2QCGA9kFgJmD2QWAmYPFQMMTm92IDIzLCAyMDE1JDY0NThlMmIzLWU3N2UtNGU5Zi1iMjAwLTc1YzM0MDEwYTllYjJEYXJlIHRvIEVudGVyIEFCQ+KAmXMg4oCcU2hhcmsgVGFua+KAnSBhdCBDRVMgMjAxNmQCGQ9kFgJmD2QWAmYPFQMMTm92IDE4LCAyMDE1JDJkMjFhZWM5LTc3NmEtNDM3MC1iMTFjLWEzYjMzYjBkZjVhYVZGaXRiaXQgQ0VPIGFuZCBDby1Gb3VuZGVyIEphbWVzIFBhcmsgdG8gS2V5bm90ZSBDRVMgMjAxNiAgTGVhZGVycyBpbiBUZWNobm9sb2d5IERpbm5lcmQCGg9kFgJmD2QWAmYPFQMMTm92IDE3LCAyMDE1JGEyY2QxNmU1LTQ1MDktNDdjZi1hOTRkLTQ2ZWJkMGQyYjBiYl1Db25zdW1lciBUZWNobm9sb2d5IEFzc29jaWF0aW9uIEFubm91bmNlcyBBbGwgRkNDIGFuZCBGVEMgQ29tbWlzc2lvbmVycyBXaWxsIEFkZHJlc3MgQ0VTIDIwMTZkAhsPZBYCZg9kFgJmDxUDDE5vdiAxMCwgMjAxNSQ1MjNkODQyYy1jYTVjLTQ0ZGMtOGQ4My0xYWFmNDJhZDIzZWVATkJDVW5pdmVyc2FsIENFTyBTdGV2ZSBCdXJrZSB0byBPcGVuIEMgU3BhY2UgS2V5bm90ZSBhdCBDRVMgMjAxNmQCHA9kFgJmD2QWAmYPFQMMTm92IDEwLCAyMDE1JDQ0ZTc5OWZhLWU3YjctNGMzMS05MWQzLWUwZWNjN2EwNzk3ZDBDRVMgQW5ub3VuY2VzIEJlc3Qgb2YgSW5ub3ZhdGlvbiBBd2FyZHMgSG9ub3JlZXNkAh0PZBYCZg9kFgJmDxUDDE9jdCAyOSwgMjAxNSQ4OTA1ZGE3OC1kN2ZjLTQ5N2QtYWJiYi1kY2E3ODZlYWYzOWJMUmVkZWZpbmluZyBQZXJzb25hbCBNb2JpbGl0eTogR00gQ0VPIE1hcnkgQmFycmEgdG8gRGVsaXZlciBDRVMgMjAxNiBLZXlub3RlIGQCHg9kFgJmD2QWAmYPFQMMT2N0IDI3LCAyMDE1JDU0ZWIxODE2LTczMTktNDRkMS05ODdiLWUxNWUxZGZlYWZlMIABRGlnaXRhbCBNZWRpYSBQZXJzb25hbGl0aWVzIEp1c3RpbmUgRXphcmlrIChha2EgaUp1c3RpbmUpIGFuZCBKb2V5IEdyYWNlZmZhIE5hbWVkIEVudGVydGFpbm1lbnQgTWF0dGVycyBBbWJhc3NhZG9ycyBmb3IgQ0VTIDIwMTZkAh8PZBYCZg9kFgJmDxUDDE9jdCAyNywgMjAxNSRjMmU1MzlmNC0zMThhLTRkZjYtYjdiMi0xNTE2MDlkNTZjZWJdIEJpbmdlLVdhdGNoIENFUyAyMDE2OiBOZXRmbGl4IENFTyBSZWVkIEhhc3RpbmdzIFRvIERlbGl2ZXIgT3BlbmluZyBEYXkgS2V5bm90ZSBhdCBDRVPCriAyMDE2ZAIgD2QWAmYPZBYCZg8VAwxPY3QgMjcsIDIwMTUkNGZkYzVlODEtYmQ5Zi00OGE3LThmNWUtY2VkOTJjNGUyOWRhZllvdVR1YmXigJlzIENoaWVmIEJ1c2luZXNzIE9mZmljZXIgUm9iZXJ0IEt5bmNsICB0byBEZWxpdmVyIEtleW5vdGUgb24gdGhlIEZ1dHVyZSBvZiBNZWRpYSBhdCBDRVMgMjAxNmQCIQ9kFgJmD2QWAmYPFQMMT2N0IDIxLCAyMDE1JGExNTc3NTQyLTMyYTMtNDhkMC05ODk1LTQ3NjgxZTdjYTQwMRtDRVMgMjAxNiBQcmVzcyBEYXkgU2NoZWR1bGVkAiIPZBYCZg9kFgJmDxUDDE9jdCAyMSwgMjAxNSQ1ZDExZTdmYi02ZmIzLTQ1ZTYtOWU5Ny0zNmY0MmYyNmM1NWM+UHJlc2lkZW50LCBTYW1zdW5nIFNEUywgV1AgSG9uZywgUGguRC4sIHRvIEtleW5vdGUgYXQgQ0VTIDIwMTZkAiMPZBYCZg9kFgJmDxUDDE9jdCAxOSwgMjAxNSQ3YWEyNmY0Zi1mMTBkLTQ0MDgtOWM4Ny1mZWNiYmFkOTAxNmNcVGhpcmQgQW5udWFsIENFUyBVbnZlaWxlZCBQYXJpcyBLaWNrcyBvZmYgdGhpcyB3ZWVrIGFzIHRoZSBsYXJnZXN0IENFUyBVbnZlaWxlZCBFdmVudCBBYnJvYWRkAiQPZBYCZg9kFgJmDxUDDE9jdCAxOSwgMjAxNSQ3MDg2MGQ1Ni1lNjcxLTQwMGItODJlNy0xODQ1ZTM0OTEyZjUnTmV3IGF0IENFUyAyMDE2OiBlQ29tbWVyY2UgTWFya2V0cGxhY2UgZAIlD2QWAmYPZBYCZg8VAwxPY3QgMTUsIDIwMTUkYWRmZGRiNjUtNGI1YS00YTBhLWIyZmQtNzQ5Y2E1ZWI4OTU3T0NFUyAyMDE2IFN0YXlzIEdyZWVuIHdpdGggU3VzdGFpbmFiaWxpdHkgUHJvZ3JhbXMgIGFuZCBFY28tZnJpZW5kbHkgSW5pdGlhdGl2ZXNkAiYPZBYCZg9kFgJmDxUDDE9jdCAxNCwgMjAxNSQ5YTk0Yzc5Yy05YzRiLTQxZGEtYmM1MC04MmQ1ZGQzM2Q4YmNQV2lubmVycyBvZiBGaXJzdCBDRUEgRm91bmRhdGlvbiBUZWNoIHRoYXQgSW1wcm92ZXMgTGl2ZXMgVmlkZW8gQ29udGVzdCBBbm5vdW5jZWRkAicPZBYCZg9kFgJmDxUDDE9jdCAxNCwgMjAxNSQwMTkyZTM2Ni0yMDY1LTRiYmItOTRmMy0yMzAxMTJmNzUwYjUrRXhwZXJpZW5jZSB0aGUgUm9ib3QgUmV2b2x1dGlvbiBhdCAjQ0VTMjAxNmQCKA9kFgJmD2QWAmYPFQMMT2N0IDA4LCAyMDE1JDhjNTg0NDQ4LThhNmItNDY4Yy1hN2RiLTE1M2E3MDNkZjFjYYEBQ0VTIE5hbWVkIExhcmdlc3QgQW5udWFsIFNob3csIEZhc3Rlc3QgR3Jvd2luZyBTaG93IGFuZCBTaG93IHdpdGggU3Ryb25nZXN0IEdsb2JhbCBQYXJ0aWNpcGF0aW9uIGJ5IFRyYWRlIFNob3cgRXhlY3V0aXZlIE1hZ2F6aW5lZAIpD2QWAmYPZBYCZg8VAwxPY3QgMDcsIDIwMTUkOTZmNDhhMGUtNDM3Ny00MDdmLTgzMWYtNjYwZWRiNTJlN2U1NEMgU3BhY2UgUmV0dXJucyB0byBDRVMgMjAxNiBUd2ljZSB0aGUgU2l6ZSBhbmQgU2NvcGVkAioPZBYCZg9kFgJmDxUDDE9jdCAwNSwgMjAxNSRkNjU1YWI4YS0xYjIzLTQ1MGEtYWM2My02Y2IzMTFiZWE3ODY5Q0VBIEFubm91bmNlcyBQcm9ncmFtbWluZyBmb3IgU29sZC1PdXQgQ0VTIFVudmVpbGVkIFBhcmlzZAIrD2QWAmYPZBYCZg8VAwxPY3QgMDEsIDIwMTUkYWNmNGQyNDItM2JhNi00Yzk4LWE0MGItMDQ3N2I5YmI1NzY4L0ludGVsIENFTyBCcmlhbiBLcnphbmljaCB0byBLZXlub3RlIGF0IENFUyAyMDE2ZAIsD2QWAmYPZBYCZg8VAwxTZXAgMjgsIDIwMTUkZGI3ZmRlMzEtYzZkMi00NGRiLWFjODMtNTkwMTY5ODRiMjVlI1ZpcnR1YWwgQmVjb21lcyBSZWFsaXR5IGF0ICNDRVMyMDE2ZAItD2QWAmYPZBYCZg8VAwxTZXAgMTYsIDIwMTUkYTBkNTJmMWYtNzI2OS00MjY5LTgxZTgtZjJiZWJjYjhhMGMyN1NvbGQgb3V0IEV4aGliaXRpb24gZm9yIFRoaXJkIEFubnVhbCBDRVMgVW52ZWlsZWQgUGFyaXNkAi4PZBYCZg9kFgJmDxUDDFNlcCAxNSwgMjAxNSQ4MjA1ZDAxNy1mYWQwLTRhMTEtOTk5ZS1jNjdjMmU1ZWFjNzcnQ0VTIDIwMTY6IFRlY2hub2xvZ3kgQ2hhbmdpbmcgdGhlIFdvcmxkZAIvD2QWAmYPZBYCZg8VAwxTZXAgMDksIDIwMTUkZjRkMTExMGUtZDU4NC00YTcyLWExMmMtOWYzOWIxNDkwYjExMSNDRVMyMDE2OiBDYWxsIGZvciBUZWNobm9sb2d5IHRoYXQgSW1wcm92ZXMgTGl2ZXNkAjAPZBYCZg9kFgJmDxUDDEF1ZyAxMCwgMjAxNSQ1YThlNzI0MS01YzM2LTRmOWYtOTliZC1lNzA5Y2Y5MzEzNmI6Q0VBIElzc3VlcyBDYWxsIGZvciBFbnRyaWVzIGZvciBDRVMgMjAxNiBJbm5vdmF0aW9uIEF3YXJkc2QCMQ9kFgJmD2QWAmYPFQMMQXVnIDA0LCAyMDE1JGU2NGFhOGI0LTA4MGQtNGJhOC05NjU1LTg2YjczOGViN2RhOEZDRUEgQnJpbmdzIFNlcmllcyBvZiBJbm5vdmF0aW9uIEV2ZW50cyB0byBOZXcgWW9yayBOb3ZlbWJlciA4LTEwLCAyMDE1ZAIyD2QWAmYPZBYCZg8VAwxKdWwgMDgsIDIwMTUkM2RlNGU5ZDQtOWY1Yi00MGExLTllNjYtMWIyYTc1MTBjNzVjP0NFUyAyMDE2IFJlZ2lzdHJhdGlvbiBOb3cgT3BlbiBBZnRlciBSZWNvcmQtQnJlYWtpbmcgMjAxNSBFdmVudGQCMw9kFgJmD2QWAmYPFQMMSnVuIDMwLCAyMDE1JGYwZGVkNWI5LTJjYzQtNDc1ZC1iMDU3LWRiNDA5OWFmYmI5Yz9JbmRlcGVuZGVudCBBdWRpdCBDb25maXJtcyBSZWNvcmQgMTc2LDY3NiBBdHRlbmRlZXMgYXQgMjAxNSBDRVNkAjQPZBYCZg9kFgJmDxUDDEp1biAyMywgMjAxNSQ1N2VhNDFiMy05MDc5LTRmMzktOWMwMS1hN2E1MjUyYzRjNmQgQW4gRW5jb3JlIGZvciBDRVMgVW52ZWlsZWQgUGFyaXNkAjUPZBYCZg9kFgJmDxUDDEp1biAwNCwgMjAxNSQ0NDdlNDllNC04ZWYzLTRlZTItODRlYy1kMGQwYjU5ZmU0NjMkQ2FsbCBmb3IgU3BlYWtlcnMgT3BlbnMgZm9yIDIwMTYgQ0VTZAI2D2QWAmYPZBYCZg8VAwxNYXkgMTMsIDIwMTUkZTI3NWRlMDUtZTM0ZC00YTY3LWEyNzEtNjRkNTEyNGQ5ZjE5QENFQSBBbm5vdW5jZXMgUmVjb3JkIDE3Niw2NzYgQXR0ZW5kZWVzIGF0IDIwMTUgSW50ZXJuYXRpb25hbCBDRVNkAjcPZBYCZg9kFgJmDxUDDE1hciAyMywgMjAxNSQ2NThmZTdiYS1iNjQ3LTQ3YWMtODVmNy0zNGIxMWVlY2RiNWZHMjAxNiBJbnRlcm5hdGlvbmFsIENFUyBMYXVuY2hlcyBDYWxsIGZvciBBdXRob3JzIGZvciBHYXJ54oCZcyBCb29rIENsdWJkAgsPFgIfCwI/Fn5mD2QWAmYPZBYCZg8VAwxKdW4gMDQsIDIwMTUkNDQ3ZTQ5ZTQtOGVmMy00ZWUyLTg0ZWMtZDBkMGI1OWZlNDYzJENhbGwgZm9yIFNwZWFrZXJzIE9wZW5zIGZvciAyMDE2IENFU2QCAQ9kFgJmD2QWAmYPFQMMTWF5IDEzLCAyMDE1JGUyNzVkZTA1LWUzNGQtNGE2Ny1hMjcxLTY0ZDUxMjRkOWYxOUBDRUEgQW5ub3VuY2VzIFJlY29yZCAxNzYsNjc2IEF0dGVuZGVlcyBhdCAyMDE1IEludGVybmF0aW9uYWwgQ0VTZAICD2QWAmYPZBYCZg8VAwxGZWIgMTEsIDIwMTUkZGRiZDMzM2ItY2NiNC00ZGZiLWFjMjMtOWM3YThkNjM0NmJmMEV4cGVydCBUZWNoIFBhbmVsIHRvIEhlYWRsaW5lIENFUyBVbnZlaWxlZCBUb2t5b2QCAw9kFgJmD2QWAmYPFQMMSmFuIDI3LCAyMDE1JDk1MWM2YTQxLWU1OTctNDlmYS1hMDdiLTI4NzhmNTQ5YTA1NEFJbm5vdmF0aXZlIFRlY2hub2xvZ2llcyB0byBIZWFkbGluZSAgSW5hdWd1cmFsIENFUyBVbnZlaWxlZCBUb2t5b2QCBA9kFgJmD2QWAmYPFQMMSmFuIDIyLCAyMDE1JGE2ZWZmMjliLWUyNDYtNGMyOS04MDE5LWZlMTYyYmExMmY4NYcBQyBTcGFjZSBhdCBDRVMgU3VjY2Vzc2Z1bGx5IERyYXdzIEJyYW5kIE1hcmtldGVycyBhbmQgQ3JlYXRpdmVzIHRvIE5ldHdvcmsgYW5kIExlYXJuIEFib3V0IExhdGVzdCBUcmVuZHMgaW4gRGlnaXRhbCBhbmQgQnJhbmQgTWFya2V0aW5nZAIFD2QWAmYPZBYCZg8VAwxKYW4gMTQsIDIwMTUkZGRhZmJkY2YtZWNkNC00ODU3LThjZGMtNzM4M2ZiMGVhODk0N1JlZ2lzdHJhdGlvbiBPcGVucyBmb3IgSW5hdWd1cmFsIEludGVybmF0aW9uYWwgQ0VTIEFzaWFkAgYPZBYCZg9kFgJmDxUDDEphbiAwOSwgMjAxNSQ1YmUxNDlhMy01MmEyLTQ5NzAtYjJlZS0wODZhZDIwYjkzMjThAUxlYWRlcnMgZnJvbSBDQlMsIENpc2NvLCBDb21jYXN0LCBDb25kw6kgTmFzdCwgRm94LCBHb29nbGUsIE1jRG9uYWxk4oCZcywgTWVkaWFMaW5rIGFuZCBUaGUgV2FsdCBEaXNuZXkgQ28uIERhenpsZSBDRVMgS2V5bm90ZSBTdGFnZTsgTW9iaWxlIEFwcHMgU2hvd2Rvd24gYW5kIExhc3QgR2FkZ2V0IFN0YW5kaW5nIFdpbm5lcnMgVGFrZSBUb3AgVGVjaCBBY2NvbGFkZXMgYXQgMjAxNSBDRVMgIGQCBw9kFgJmD2QWAmYPFQMMSmFuIDA5LCAyMDE1JDViMTMzMDgzLTRlYmYtNDY4YS1hMTA3LWM2NWRjYTNiOTdlMS1DRVMgMjAxNTogSW5ub3ZhdGlvbiBhdCB0aGUgU3BlZWQgb2YgQXdlc29tZSFkAggPZBYCZg9kFgJmDxUDDEphbiAwNywgMjAxNSQxMWQxZDhmNi0zOWVmLTQ1ZjktYWRmMy1lODkzNzM1MGFmZGSaAU1ham9yIEtleW5vdGUgQW5ub3VuY2VtZW50cyBmcm9tIEZvcmQgYW5kIEludGVsLCBEeW5hbWljIFN1cGVyU2Vzc2lvbnMgYW5kIHRoZSBOZXh0IEdlbmVyYXRpb24gb2YgVGVjaG5vbG9neSBJbm5vdmF0aW9uIE9wZW5zICB0aGUgMjAxNSBJbnRlcm5hdGlvbmFsIENFUyBkAgkPZBYCZg9kFgJmDxUDDEphbiAwNiwgMjAxNSQxMTQ0M2FmZC02ZmFjLTQzYjMtYjAyZC1jMTVkY2Y2MzQwNGVESW5ub3ZhdGlvbiBUYWtlcyBDZW50ZXIgU3RhZ2UgYXMgMjAxNSBJbnRlcm5hdGlvbmFsIENFUyBPcGVucyBUb2RheSBkAgoPZBYCZg9kFgJmDxUDDEphbiAwNSwgMjAxNSRmNjg4MjhiYy02OGZiLTQxMWEtOTFmZi1mY2JmOTc5MWY2ZDNgSW50ZXJuYXRpb25hbCBDRVMgUGFydG5lcnMgd2l0aCBSYWRpdXMgTmV0d29ya3Mgb24gRmlyc3QgV2lkZSBTY2FsZSBJbmRvb3IgQkxFIE5hdmlnYXRpb24gU3lzdGVtZAILD2QWAmYPZBYCZg8VAwxEZWMgMzEsIDIwMTQkZGJhZTUwZTItYjExNS00ZTY3LTk3OGItN2MwOTJiMWJlMGM4eUhvbGx5d29vZCBTdGFycywgVFYgUGVyc29uYWxpdGllcywgUHJvZmVzc2lvbmFsIEF0aGxldGVzIGFuZCBNdXNpY2FsIEljb25zIHRvIFNwb3RsaWdodCBUcmVuZHMgYXQgMjAxNSBJbnRlcm5hdGlvbmFsIENFUyBkAgwPZBYCZg9kFgJmDxUDDERlYyAyOSwgMjAxNCRiYzJjNmUxNy0zOTkxLTQ4OTctODhhYi0xMTRmMTE1ZGM4YjlNMjAxNSBJbnRlcm5hdGlvbmFsIENFUyB0byBIb3N0IExhcmdlc3QgRXZlciDigJxJbnRlcm5ldCBvZiBUaGluZ3PigJ0gU2hvd2Nhc2VkAg0PZBYCZg9kFgJmDxUDDERlYyAyMiwgMjAxNCQ0OTRmNDZhNi1hMmRiLTQ4ODktYTM5Yy1lODcwOGFlMWNhNDg6SW50ZXJuYXRpb25hbCBDRVMgVGFrZXMgVG9wIEhvbm9ycyBmb3IgQ3JlYXRpdmUgQ2FtcGFpZ25zIGQCDg9kFgJmD2QWAmYPFQMMRGVjIDE4LCAyMDE0JDY0NzU5MDljLTY3YzYtNGY0ZC1iOGM2LTJmZGI0ZDgzYzEzOEFTdGFydHVwcyBTZXQgVG8gU2hpZnQgdG8gdGhlIE5leHQgR2VhciAgYXQgMjAxNSBJbnRlcm5hdGlvbmFsIENFU2QCDw9kFgJmD2QWAmYPFQMMRGVjIDE4LCAyMDE0JDVkMWRmNTRkLTYxMGMtNDVhNC05Y2ZlLTE4NDhiNjRjZmM5ZklFeHRyZW1lIFRlY2ggQ2hhbGxlbmdlIFNlbWktRmluYWxzIHRvIGJlIEhlbGQgYXQgMjAxNSBJbnRlcm5hdGlvbmFsIENFU8KuZAIQD2QWAmYPZBYCZg8VAwxEZWMgMTgsIDIwMTQkMTdiNjgwNTctNWJjYy00MjQ4LWFmOTgtZTU1NzVhYzU5MWY3YU5vcnRoZWFzdGVybiBVLlMuIFRlY2hub2xvZ3kgQ29tcGFuaWVzIERlYnV0IEN1dHRpbmctRWRnZSBUZWNobm9sb2dpZXMgYXQgIDIwMTUgSW50ZXJuYXRpb25hbCBDRVNkAhEPZBYCZg9kFgJmDxUDDERlYyAxNiwgMjAxNCQ5YWY0ZmFjYy1hMGZjLTRjZTgtYTVhNi05YzM3ZWI5MTI0ZTdoMjAxNSBDRVMgTW9iaWxlIEtleW5vdGUgVG8gRmVhdHVyZSBUb3AgRXhlY3V0aXZlcyBmcm9tIEVsZWN0cm9sdXgsIEdlbmVyYWwgTW90b3JzLCBQaGlsaXBzIGFuZCBRdWFsY29tbSBkAhIPZBYCZg9kFgJmDxUDDERlYyAxNSwgMjAxNCQwZGZjZTU2OS00MjQ2LTQyMGEtYWQ4Zi1kZTU4YTIzNjExY2U6VG9wIFRlY2ggQXV0aG9ycyB0byBCZSBGZWF0dXJlZCBhdCAyMDE1IEludGVybmF0aW9uYWwgQ0VTIGQCEw9kFgJmD2QWAmYPFQMMRGVjIDExLCAyMDE0JGM4OGQ0NmUxLTBmMDItNDM3ZC1hOTEwLTE4ZjA5YTY0MDE5ZY8BQm9zY2jigJlzIFdlcm5lciBTdHJ1dGgsIENpc2Nv4oCZcyBKb2huIENoYW1iZXJzIGFuZCBDb21jYXN04oCZcyBOZWlsIFNtaXQgdG8gRGlzY3VzcyBGYXN0IElubm92YXRpb24gYXMgcGFydCBvZiAyMDE1IEludGVybmF0aW9uYWwgQ0VTIEtleW5vdGVkAhQPZBYCZg9kFgJmDxUDDERlYyAwOSwgMjAxNCQ0MDcxZGM2MS01NWQwLTRhODUtODg2ZS1mODAxNDIwZDRjNjRXTWlkd2VzdGVybiBVLlMuIFRlY2hub2xvZ3kgQ29tcGFuaWVzIERlYnV0IEZyZXNoIElubm92YXRpb25zIGF0ICAyMDE1IEludGVybmF0aW9uYWwgQ0VTZAIVD2QWAmYPZBYCZg8VAwxEZWMgMDgsIDIwMTQkMzQ5MTRlOTktN2IyNi00NmVhLTllZDMtZTYwZmNhMDMyNTZhZlR3aXR0ZXLigJlzIENocmlzIE1vb2R5IGFuZCBJQk3igJlzIEhvd2FyZCBQeWxlIHRvIEhlYWRsaW5lICBDIFNwYWNlIGF0IEFSSUEgYXQgMjAxNSBJbnRlcm5hdGlvbmFsIENFU2QCFg9kFgJmD2QWAmYPFQMMRGVjIDAzLCAyMDE0JDI2YTNiZWM3LTI2NDQtNDkxNy1iM2VhLWY3YjcyNjBjM2Q1YoUBVG9wIEV4ZWN1dGl2ZXMgZnJvbSBDb25kw6kgTmFzdCwgRGlzbmV5LCBGb3gsIEdvb2dsZSBhbmQgTWNEb25hbGTigJlzIHRvIEpvaW4gQnJhbmQgTWF0dGVycyBLZXlub3RlIFBhbmVsIGF0IDIwMTUgSW50ZXJuYXRpb25hbCBDRVPCrmQCFw9kFgJmD2QWAmYPFQMMRGVjIDAzLCAyMDE0JDNkZDg5Zjc0LTk2OTktNGY0Ny1hYmUyLWVkOTk0MjBhMzNmZV5Tb3V0aGVybiBVLlMuIFRlY2hub2xvZ3kgQ29tcGFuaWVzIERlYnV0IEdhbWUtQ2hhbmdpbmcgVGVjaG5vbG9naWVzIGF0ICAyMDE1IEludGVybmF0aW9uYWwgQ0VTZAIYD2QWAmYPZBYCZg8VAwxEZWMgMDEsIDIwMTQkMzUyYjU5YzUtNWNjOS00OTBhLTk2OTktYzdlYWEwNDVlYTQ1PkNFQSBBbm5vdW5jZXMgTmV3IEF3YXJkcyBhbmQgRXZlbnRzIGZvciAyMDE1IEludGVybmF0aW9uYWwgQ0VTZAIZD2QWAmYPZBYCZg8VAwxOb3YgMjQsIDIwMTQkNjI3MTNiMGItNjc0Mi00NjliLTkzNWUtOTI2NjI5YTExNDEzQlJvYm90aWNzIEV4aGliaXRzIEdyb3cgYnkgMjUgUGVyY2VudCBhdCB0aGUgMjAxNSBJbnRlcm5hdGlvbmFsIENFU2QCGg9kFgJmD2QWAmYPFQMMTm92IDE5LCAyMDE0JDlmYTZhNWZkLTEwMGYtNGNlYi1hY2VkLWFhM2NiZjdmZWY4ZV1pSGVhcnRNZWRpYeKAmXMgQm9iIFBpdHRtYW4gd2l0aCBSeWFuIFNlYWNyZXN0IGFzIEMgU3BhY2UgSGVhZGxpbmVyIGF0IDIwMTUgSW50ZXJuYXRpb25hbCBDRVNkAhsPZBYCZg9kFgJmDxUDDE5vdiAxOSwgMjAxNCQ4OTU2MGY2YS1jN2M3LTQ1MjItYTdkNC01NTJhZTExYzc0MjJWV2VzdGVybiBVLlMuIFRlY2hub2xvZ3kgQ29tcGFuaWVzIFVudmVpbCBMYXRlc3QgSW5ub3ZhdGlvbnMgYXQgIDIwMTUgSW50ZXJuYXRpb25hbCBDRVNkAhwPZBYCZg9kFgJmDxUDDE5vdiAxMSwgMjAxNCRmMWZjZjkxNC1iMzQxLTRlOGEtOGY5Mi1jNzBkMGVmYmNhZDBrQ0JTIENvcnBvcmF0aW9uIFByZXNpZGVudCBhbmQgQ0VPIExlc2xpZSBNb29udmVzIHRvIEtleW5vdGUgQnJhbmQgTWF0dGVycyBQYW5lbCBhdCAyMDE1IEludGVybmF0aW9uYWwgQ0VTwq5kAh0PZBYCZg9kFgJmDxUDDE5vdiAxMSwgMjAxNCQ5ODI1NTZiMS1hNzFmLTQwN2UtYmNjZS05N2QwOTEzN2UwMWVqSW5ub3ZhdG9yIGFuZCBHb1BybyBDRU8gTmljaG9sYXMgV29vZG1hbiB0byBLZXlub3RlICAyMDE1IEludGVybmF0aW9uYWwgQ0VTwq4gTGVhZGVycyBpbiBUZWNobm9sb2d5IERpbm5lcmQCHg9kFgJmD2QWAmYPFQMMTm92IDExLCAyMDE0JDRjNjg0NjlmLWU4ZTEtNDI5ZS04YTkyLWNhMjY3Yzg5ODVjZGpDRUEgQW5ub3VuY2VzIEZpcnN0LUV2ZXIgRnVsbCBTbGF0ZSBvZiBGQ0MsIEZUQyBDb21taXNzaW9uZXJzIHRvICBKb2luIElubm92YXRpb24gUG9saWN5IFJvdW5kdGFibGUgYXQgQ0VTZAIfD2QWAmYPZBYCZg8VAwxOb3YgMTEsIDIwMTQkMGEzZGUyMGQtZGVjYy00YWZmLWI4MDktNWExMGYwNzk4ZDcxM0NFQSBBbm5vdW5jZXMgMjAxNSBDRVMgQmVzdCBvZiBJbm5vdmF0aW9uICBIb25vcmVlc2QCIA9kFgJmD2QWAmYPFQMMTm92IDExLCAyMDE0JGYyZDBmMWFkLWNjMjItNDYzZS04Y2YzLTZiNDM4Njg1OTlkOT1BQkPigJlzIOKAnFNoYXJrIFRhbmvigJ0gQ29taW5nIHRvIHRoZSAyMDE1IEludGVybmF0aW9uYWwgQ0VTZAIhD2QWAmYPZBYCZg8VAwxOb3YgMDcsIDIwMTQkYzJhNTAyMDgtYmIyMy00MzNjLWJhNmItOTYwOWRjODhjMzg5S0ZvcmQgUHJlc2lkZW50IGFuZCBDRU8gTWFyayBGaWVsZHMgdG8gRGVidXQgb24gMjAxNSBJbnRlcm5hdGlvbmFsIENFUyBTdGFnZWQCIg9kFgJmD2QWAmYPFQMMTm92IDA3LCAyMDE0JGViY2VjOTg0LTJjZjUtNDlhZC1iN2RjLWYxODFjYmY0OTkzMkZBdXRvbW90aXZlIFRlY2hub2xvZ2llcyBEcml2ZSBJbm5vdmF0aW9uIGF0IHRoZSAyMDE1IEludGVybmF0aW9uYWwgQ0VTZAIjD2QWAmYPZBYCZg8VAwxOb3YgMDMsIDIwMTQkOWI1MjFkYjUtZjk1Yi00YTVjLTlmYmQtNGRjYjZmYzUwNDg5YUdvb2dsZSBhbmQgWWFob28gVlBzIHRvIERlbGl2ZXIgSGVhZGxpbmUgQWRkcmVzc2VzIGF0ICBDIFNwYWNlIGF0IEFSSUEgYXQgMjAxNSBJbnRlcm5hdGlvbmFsIENFUyBkAiQPZBYCZg9kFgJmDxUDDE5vdiAwMywgMjAxNCQwYzFjZDZmZi1lNzBkLTRiOGQtOGIxMy1jYmRkOGU4ODRlODGLAUZhbWVkIEVudHJlcHJlbmV1ciwgTXVzaWMgUHJvZHVjZXIsIFRWIEhvc3QsIGFuZCBBY3RvciBOaWNrIENhbm5vbiBOYW1lZCBFbnRlcnRhaW5tZW50IE1hdHRlcnMgQW1iYXNzYWRvciBmb3IgdGhlICAyMDE1IEludGVybmF0aW9uYWwgQ0VTwq5kAiUPZBYCZg9kFgJmDxUDDE9jdCAzMCwgMjAxNCQyZTVhMmQ1MC0yMjYzLTQ3ZWMtOWJkZS1hMTczZTdmMmU3NmJkaVBob25lIDYgYW5kIGlQYWQgQWlyIDIgQWNjZXNzb3JpZXMgdG8gRGVidXQgYXQgaUxvdW5nZeKAmXMgaVByb2R1Y3RzICBNYXJrZXRwbGFjZSBhdCB0aGUgMjAxNSBDRVMgIGQCJg9kFgJmD2QWAmYPFQMMT2N0IDI5LCAyMDE0JGNjMDE0ZjdiLWI4YzAtNGM5NS1iYTRlLTc3OTA1ZjU5YWZlNUNBdWRp4oCZcyBSdXBlcnQgU3RhZGxlciB0byBLZXlub3RlIEluYXVndXJhbCBJbnRlcm5hdGlvbmFsIENFUyBBc2lhZAInD2QWAmYPZBYCZg8VAwxPY3QgMjIsIDIwMTQkODBlMTRmZjktN2ViMi00NTdjLTkxZjItZjU5YjhkNDFjYzE2PUludGVsIENFTyBCcmlhbiBLcnphbmljaCB0byBLZXlub3RlIGF0IDIwMTUgSW50ZXJuYXRpb25hbCBDRVNkAigPZBYCZg9kFgJmDxUDDE9jdCAyMiwgMjAxNCRjNDUxODUzZC03ZjJlLTQwMGEtYmIyZC1jNDIyMjUzNGI2ODBOMjAxNSBJbnRlcm5hdGlvbmFsIENFUyB0byBGZWF0dXJlIExhdGVzdCBJbm5vdmF0aW9ucyBpbiBMaWZlc3R5bGUgVGVjaG5vbG9naWVzZAIpD2QWAmYPZBYCZg8VAwxPY3QgMjEsIDIwMTQkZmY0M2VlYzItMTRkYi00MDUzLWI3OGEtMzFiYjY4OGNkNmQ5RU5ldyBhdCB0aGUgMjAxNSBDRVM6IFBlcnNvbmFsIFByaXZhY3kgYW5kIEN5YmVyIFNlY3VyaXR5IE1hcmtldHBsYWNlc2QCKg9kFgJmD2QWAmYPFQMMT2N0IDE2LCAyMDE0JDI0NjY1OWVmLWY0ODQtNDlmZC1hNGI0LTc5ZWM2ZmFmMzBiOUdDRUEgQW5ub3VuY2VzIEludGVybmF0aW9uYWwgQ0VTIFVudmVpbGVkIENvbWluZyB0byBUb2t5byBvbiBGZWJydWFyeSAxOGQCKw9kFgJmD2QWAmYPFQMMT2N0IDA5LCAyMDE0JDhmYzYxZTMwLTU0ZmItNGU0YS05NjYwLTk4OGEyNjdiMDQ0ZEFDRUEgQW5ub3VuY2VzIFBhbmVsaXN0cyBhbmQgTmV3IEV4aGliaXRvcnMgZm9yIENFUyBVbnZlaWxlZCBQYXJpc2QCLA9kFgJmD2QWAmYPFQMMT2N0IDA2LCAyMDE0JGM3ZjFlMGNhLWI2MzgtNDI5My04ZmQ2LTI4MWMwZTIyNzA3YUtEYWltbGVyIENoYWlybWFuIERyLiBEaWV0ZXIgWmV0c2NoZSB0byBEZWxpdmVyIEtleW5vdGUgQWRkcmVzcyBhdCAyMDE1IENFUyBkAi0PZBYCZg9kFgJmDxUDDFNlcCAyNCwgMjAxNCRhOGNmMTgxNS1hZDU0LTRiZmQtOWU3MC02MmQ3ZTRhMTg2OGE6VW5tYW5uZWQgU3lzdGVtcyBUYWtlIEZsaWdodCBhdCB0aGUgMjAxNSBJbnRlcm5hdGlvbmFsIENFU2QCLg9kFgJmD2QWAmYPFQMMU2VwIDE4LCAyMDE0JGI3ZGJmMWQxLTUxODQtNGIwYy1hYTQ3LWE4NWNiMTU4ZWQ2Y2BTYW1zdW5nIFByZXNpZGVudCBhbmQgQ0VPIEJvby1LZXVuIFlvb24gdG8gRGVsaXZlciBLZXlub3RlIEFkZHJlc3MgYXQgdGhlIDIwMTUgSW50ZXJuYXRpb25hbCBDRVNkAi8PZBYCZg9kFgJmDxUDDFNlcCAwOSwgMjAxNCQzNGU1MmZmNS1lYTc1LTRjZjItYmY5MS0xMDkwYTM1MTBkYzJnR3Jvd3RoIG9mIFNtYXJ0IEhvbWUgVGVjaG5vbG9naWVzIExlYWRzIHRvIE5ldyBNYXJrZXRwbGFjZSAgYXQgdGhlIFNhbmRzIEV4cG8gYXQgMjAxNSBJbnRlcm5hdGlvbmFsIENFU2QCMA9kFgJmD2QWAmYPFQMMU2VwIDAzLCAyMDE0JDk3MjJlNzRkLTUyZmItNDM4Yi1iZDNkLTFmZThkZGUxMmEyNzVQcmVzcyBEYXkgTGluZXVwIEFubm91bmNlZCBmb3IgMjAxNSBJbnRlcm5hdGlvbmFsIENFU2QCMQ9kFgJmD2QWAmYPFQMMQXVnIDI2LCAyMDE0JDgyZTY3ZGE4LWVlMDctNDY1NC04ZjIxLTNmN2Q5NTA5YjMzYS9DRUEgQW5ub3VuY2VzIEV4aGliaXRvcnMgZm9yIENFUyBVbnZlaWxlZCBQYXJpc2QCMg9kFgJmD2QWAmYPFQMMQXVnIDE5LCAyMDE0JDFiOWU2NjY4LTM5M2YtNGUyZS04YTczLWU5YWRlMTA1YmI5OEFTdGFydHVwIEV4aGliaXRzIEdyb3cgYnkgNTAgUGVyY2VudCBhdCB0aGUgMjAxNSBJbnRlcm5hdGlvbmFsIENFU2QCMw9kFgJmD2QWAmYPFQMMQXVnIDEyLCAyMDE0JDZjMmFhNDk4LTUzYzgtNDAwMi1hN2EyLWQ4MjYxNTRlOGMwMkFHYW1pbmcgRXhoaWJpdHMgR3JvdyBieSAzMCBQZXJjZW50IGF0IHRoZSAyMDE1IEludGVybmF0aW9uYWwgQ0VTIGQCNA9kFgJmD2QWAmYPFQMMQXVnIDExLCAyMDE0JDdkNzAxOGUyLTNiNjItNDJmMC1hZmFmLTcxZTBiNjgzYTJmODtDRUEgSXNzdWVzIENhbGwgZm9yIEVudHJpZXMgZm9yIDIwMTUgQ0VTIElubm92YXRpb24gQXdhcmRzIGQCNQ9kFgJmD2QWAmYPFQMMSnVsIDMxLCAyMDE0JDEyN2M2MjBjLWI4N2UtNGE2NS04NDVjLTM0ZGRlZWY3NmZiMGRTZWUgTWUsIFRvdWNoIE1lLCBGZWVsIE1lOiAyMDE1IEludGVybmF0aW9uYWwgQ0VTIHRvIEZlYXR1cmUgTGF0ZXN0IElubm92YXRpb25zIGluIFNlbnNvciBUZWNobm9sb2d5ZAI2D2QWAmYPZBYCZg8VAwxKdWwgMTcsIDIwMTQkODI3ZTllNzgtODcxNS00OGRhLTkxMGUtZjFmZmZlNTgxN2QzRENFQSBBbm5vdW5jZXMgSW50ZXJuYXRpb25hbCBDRVMgQXNpYSB0byBTZXJ2ZSBhcyBQcmVtaWVyIEFzaWFuIEV2ZW50ZAI3D2QWAmYPZBYCZg8VAwxKdWwgMTUsIDIwMTQkOTBjZDdhZmEtZGRmMy00MDg0LTkzYzgtYzA5MTBkMGRmZWQ0XFNwb3J0cyBUZWNobm9sb2d5IFNldCB0byBTY29yZSBhdCBOZXcgU3BvcnRzIFRlY2ggTWFya2V0cGxhY2UgIGF0IHRoZSAyMDE1IEludGVybmF0aW9uYWwgQ0VTZAI4D2QWAmYPZBYCZg8VAwxKdWwgMTAsIDIwMTQkNTM1ODE4OTgtZTM3Ny00YmRkLWJmOWQtNmM0MDVmZjYzMDYyLFJlZ2lzdHJhdGlvbiBOb3cgT3BlbiBmb3IgQ0VTIFVudmVpbGVkIFBhcmlzZAI5D2QWAmYPZBYCZg8VAwxKdWwgMTAsIDIwMTQkMTllZDE2MDQtOGEwYi00YzYyLWE2ZmUtNWRkZWY2YjQ0Mzk4W1JlZ2lzdGVyIE5vdyBmb3IgdGhlIDIwMTUgSW50ZXJuYXRpb25hbCBDRVMg4oCTIHRoZSBXb3JsZOKAmXMgTGFyZ2VzdCBJbm5vdmF0aW9uIFBsYXlncm91bmRkAjoPZBYCZg9kFgJmDxUDDEp1biAxNywgMjAxNCRlYmE0Mjc1OS0yZDRjLTRhZjctYmM5YS1kNzRmNGQzYzBmZWNBM0QgUHJpbnRpbmcgTWFya2V0cGxhY2UgRG91YmxlcyBpbiBTaXplIGF0IDIwMTUgSW50ZXJuYXRpb25hbCBDRVNkAjsPZBYCZg9kFgJmDxUDDEp1biAxMiwgMjAxNCRlM2NiZjc3NC1mNzcxLTQ1YWItYWE4NC04ZjU0ZDU1ZjUzMzU/U21hcnQgV2F0Y2ggSW5ub3ZhdGlvbnMgU2V0IHRvIERvdWJsZSBhdCAyMDE1IEludGVybmF0aW9uYWwgQ0VTZAI8D2QWAmYPZBYCZg8VAwxKdW4gMTAsIDIwMTQkNzk3MmY4OTEtNGMzZC00YjcwLTkwN2QtYmNkYTcyMWQ3NzQ5VEMgU3BhY2UgdG8gQnJpbmcgVG9nZXRoZXIgQWR2ZXJ0aXNpbmcsIENvbnRlbnQgYW5kIE1hcmtldGluZyBDb21tdW5pdGllcyBhdCAyMDE1IENFU2QCPQ9kFgJmD2QWAmYPFQMMTWF5IDA2LCAyMDE0JGVlZjhkMWExLTdlNDktNGVlZC05ZjQzLWI5ZTNhNmM4MWYzYUlUb3AgVGVjaG5vbG9neSBJbmZsdWVuY2VycyB0byBQcm92aWRlIEtleSBJbnNpZ2h0cyBhdCBDRVMgVW52ZWlsZWQgV2Fyc2F3ZAI+D2QWAmYPZBYCZg8VAwxNYXkgMDUsIDIwMTQkOGE4NDNkYjYtZTM2Yi00OTFiLWJkYzEtZTFlZjU2NGRiNzdmMTIwMTUgSW50ZXJuYXRpb25hbCBDRVMgTGF1bmNoZXMgQ2FsbCBmb3IgU3BlYWtlcnNkZODLOGq40rfEoKz/8ONVxB7YnaFRmxnVfUXMAARJOqBc" />
+  <script type="text/javascript"> 
+      //<![CDATA[
+      if (window.WebForm_InitCallback) { 
+        __theFormPostData = '';
+        __theFormPostCollection = new Array();
+        window.WebForm_InitCallback(); 
+      }
+      //]]>
+    </script>
+  </form>
+</body>
+</html>

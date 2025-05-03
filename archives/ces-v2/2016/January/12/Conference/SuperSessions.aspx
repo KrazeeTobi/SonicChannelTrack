@@ -1,0 +1,862 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head id="head"><title>
+	SuperSessions - CES 2017
+</title><meta name="description" content="Covering what’s next and what’s big, SuperSessions offer a spotlight for showcasing out-of-the-box ideas. These free sessions feature the voices shaping our industry, from C-level executives and CE industry leaders to futurists and innovators. " /> 
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" /> 
+<meta http-equiv="pragma" content="no-cache" /> 
+<meta http-equiv="content-style-type" content="text/css" /> 
+<meta http-equiv="content-script-type" content="text/javascript" /> 
+<meta name="keywords" content="International CES, CES, CES 2010, CES 2011, CES 2012, CES 2013, CES 2014, CES 2015, CES 2016, CES 2017, CES 2018, Consumer Electronics Show, Consumer Technology, Consumer Electronics, Consumer Electronics Association, CES Las Vegas, ces show, ces vegas, CES Unveiled, ces tradeshow, ces conference, ces registration, ces exhibitor, ces innovation awards, innovation awards, best of ces, ces keynote, ces show floor, technology, silicon valley, technology innovation, disruptive technology, start-ups,International CES, CES, CES 2010, CES 2011, CES 2012, CES 2013, CES 2014, CES 2015, CES 2016, CES 2017, CES 2018, Consumer Electronics Show, Consumer Technology, Consumer Electronics, Consumer Electronics Association, CES Las Vegas, ces show, ces vegas, CES Unveiled, ces tradeshow, ces conference, ces registration, ces exhibitor, ces innovation awards, innovation awards, best of ces, ces keynote, ces show floor, technology, silicon valley, technology innovation, disruptive technology, start-ups" /> 
+<link href="/CMSPages/GetResource.ashx?stylesheetname=Blank_1" type="text/css" rel="stylesheet"/> 
+<meta http-equiv="X-UA-Compatible" content="IE=edge"> <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- open graph -->
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="International CES" />
+<meta property="og:url" content="http://www.cesweb.org/Conference/SuperSessions.aspx" />
+<meta property="og:title" content="SuperSessions" />
+<meta property="og:description" content="Covering what’s next and what’s big, SuperSessions offer a spotlight for showcasing out-of-the-box ideas. These free sessions feature the voices shaping our industry, from C-level executives and CE industry leaders to futurists and innovators. ">
+<meta property="og:image" content="http://www.cesweb.org/CES/media/2014/landing pages/conference/conf_super-sessions.png?width=380&height=215&ext=.png">
+<!-- open graph -->
+
+<meta property="twitter:account_id" content="10668202" />
+<!-- Twitter Summary Card -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@IntlCES">
+<meta name="twitter:creator" content="@IntlCES">
+<meta name="twitter:title" content="SuperSessions">
+<meta name="twitter:description" content="Covering what’s next and what’s big, SuperSessions offer a spotlight for showcasing out-of-the-box ideas. These free sessions feature the voices shaping our industry, from C-level executives and CE industry leaders to futurists and innovators. ">
+<meta name="twitter:image" content="http://www.cesweb.org/CES/media/2014/landing pages/conference/conf_super-sessions.png?width=380&height=215&ext=.png">
+<!-- End of Twitter Summary Card -->
+
+<link rel="apple-touch-icon-precomposed" sizes="57x57" href="/CES/media/favicons/apple-touch-icon-57x57.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/CES/media/favicons/apple-touch-icon-114x114.png" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/CES/media/favicons/apple-touch-icon-72x72.png" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/CES/media/favicons/apple-touch-icon-144x144.png" />
+<link rel="apple-touch-icon-precomposed" sizes="60x60" href="/CES/media/favicons/apple-touch-icon-60x60.png" />
+<link rel="apple-touch-icon-precomposed" sizes="120x120" href="/CES/media/favicons/apple-touch-icon-120x120.png" />
+<link rel="apple-touch-icon-precomposed" sizes="76x76" href="/CES/media/favicons/apple-touch-icon-76x76.png" />
+<link rel="apple-touch-icon-precomposed" sizes="152x152" href="/CES/media/favicons/apple-touch-icon-152x152.png" />
+<link rel="icon" type="image/png" href="/CES/media/favicons/favicon-196x196.png" sizes="196x196" />
+<link rel="icon" type="image/png" href="/CES/media/favicons/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/png" href="/CES/media/favicons/favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="/CES/media/favicons/favicon-16x16.png" sizes="16x16" />
+<link rel="icon" type="image/png" href="/CES/media/favicons/favicon-128.png" sizes="128x128" />
+<meta name="application-name" content="&nbsp;"/>
+<meta name="msapplication-TileColor" content="#FFFFFF" />
+<meta name="msapplication-TileImage" content="/CES/media/favicons/mstile-144x144.png" />
+<meta name="msapplication-square70x70logo" content="/CES/media/favicons/mstile-70x70.png" />
+<meta name="msapplication-square150x150logo" content="/CES/media/favicons/mstile-150x150.png" />
+<meta name="msapplication-wide310x150logo" content="/CES/media/favicons/mstile-310x150.png" />
+<meta name="msapplication-square310x310logo" content="/CES/media/favicons/mstile-310x310.png" />
+
+
+<!-- Added by Jay - 4/15/2015 -->
+<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css"> -->
+<link rel="stylesheet" href="/Content/theme.min.css">
+<!-- <link href="/CMSPages/GetResource.ashx?stylesheetname=ices-main-style" type="text/css" rel="stylesheet"/> -->
+<!-- END Added by Jay - 4/15/2015 -->
+
+<link href="/CMSPages/GetResource.ashx?stylesheetname=ices-captions" type="text/css" rel="stylesheet"  />
+<link href="/CMSPages/GetResource.ashx?stylesheetname=ices-slider-style" type="text/css" rel="stylesheet" media="screen" />
+<link href="/CMSPages/GetResource.ashx?stylesheetname=ices-flexslider" type="text/css" rel="stylesheet" />
+<link href="/CMSPages/GetResource.ashx?stylesheetname=ices-prettyphoto" type="text/css" rel="stylesheet" />
+<link href="/CMSPages/GetResource.ashx?stylesheetname=ices-settings" type="text/css" rel="stylesheet" media="screen" />
+<link href="/CMSPages/GetResource.ashx?stylesheetname=ices-fonts" type="text/css" rel="stylesheet" media="screen" />
+<link href="/CMSPages/GetResource.ashx?stylesheetname=ices-print" type="text/css" rel="stylesheet" media="print" />
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<!-- Bootstrap causes conflicts with CMSDesk so we only include this reference if we aren't in Edit mode -->
+
+<!-- Added by Jay - 4/15/2015 -->
+
+<script type="text/javascript" src="/CES/bootstrap/js/bootstrap.min.js"></script>
+<!-- END Added by Jay - 4/15/2015 -->
+
+
+<script type="text/javascript" src="//maps.google.com/maps/api/js?sensor=false"></script>
+<script type="text/javascript" src="/ces/js/itn/jquery.cookie.js"></script>
+<!-- Added by BH - 4/22/2015 for something in script.js-->
+<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<!-- END Added by BH - 4/22/2015 -->
+<script type="text/javascript" src="/ces/js/scripts.js"></script>
+<!--<script type="text/javascript" src="/ces/js/jquery.themepunch.revolution.min.js"></script>-->
+<script type="text/javascript" src="/ces/js/custom.js"></script>
+
+<script type="text/javascript">
+  <!--
+    function toggle_visibility(id) {
+      var e = document.getElementById(id);
+      if (e.style.display == 'block')
+        e.style.display = 'none';
+      else
+        e.style.display = 'block';
+    }
+      //-->
+</script>
+<script type="text/javascript">
+  function EnterEvent(e) {
+    if (e.keyCode == 13) {
+      var val = document.getElementById('searchTxt').value;
+      var sURL = '/search-results?searchtext=' + val + '&searchmode=anyword';
+      window.location.href = sURL;
+      return false;
+    }
+  }
+  
+jQuery(document).ready(function ($) {
+  var mainMenu = $(".main-menu>li") 
+  jQuery.each(mainMenu,function()
+    {
+      var firstLevelItem = $(this).children('ul');// $('#'+ count +' > ul');
+      var dropdownCSSClass = "";
+      var secondLevelItems = firstLevelItem.children('li');//$('#'+ count +' ul > li');
+      var secondLevelItemsCount = secondLevelItems.length;
+       
+      if(secondLevelItemsCount>10)
+        dropdownCSSClass = "nav-3cols";
+      else if(secondLevelItemsCount<=10 && secondLevelItemsCount>6)
+        dropdownCSSClass = "nav-2cols";
+      
+      firstLevelItem.addClass(dropdownCSSClass);
+      
+        for (var i = 0; i < secondLevelItemsCount; i += 5) {
+          secondLevelItems.slice(i, i + 5).wrapAll('<div class="nav-col"></div>');
+        }
+       
+      
+    });
+    
+    
+  });
+</script>
+<script type="text/javascript">var switchTo5x=false;</script>
+<script type="text/javascript" src="//w.sharethis.com/button/buttons.js"></script>
+<script type="text/javascript">stLight.options({publisher: "a17beaa8-5eee-4df7-8629-9947a3e965e3",  offsetLeft:'-270', doNotHash: true, doNotCopy: false, hashAddressBar: false, exclusive_services:true, services:"facebook,twitter,linkedin,googleplus,email,sharethis", minorServices:false});</script>
+
+
+
+<script type="text/javascript" src="/ces/js/cmsedit/WidgetSecurity_non_Admin.js"></script><script type="text/javascript" src="/CES/js/ITN/underscore.js"></script>
+<script type="text/javascript">
+  jQuery(document).ready(function ($) {
+    $(".superSessionSpeakers").each(function(index, value) { 
+      $(_.first($(this).find('.Moderator'))).show();
+      $(_.first($(this).find('.Panelist'))).show();
+      $(_.first($(this).find('.Presenter'))).show();
+    });
+  });
+</script>
+<script type="text/javascript" src="https://addthisevent.com/libs/1.6.0/ate.min.js"></script><script type="text/javascript">
+                addthisevent.settings({
+                    license   : "aq03vn2pjzphb78x1my4487",
+                    mouse     : false,
+                    css       : true,
+                    outlook   : {show:true, text:"Outlook Calendar"},
+                    google    : {show:true, text:"Google Calendar"},
+                    yahoo     : {show:true, text:"Yahoo Calendar"},
+                    hotmail   : {show:true, text:"Hotmail Calendar"},
+                    ical      : {show:true, text:"iCal Calendar"},
+                    facebook  : {show:true, text:"Facebook Event"},
+                    dropdown  : {order:"outlook,google,ical"},
+                    callback  : ""
+                });
+                </script> 
+<style type="text/css" rel="stylesheet"> 
+                   
+                        .languages {
+                        display: none !important;
+                        
+                        }
+
+                    </style>
+                    <link href="/CMSPages/GetResource.ashx?_templates=1085;1083&amp;_transformations=4414&amp;_webparts=1067;136" type="text/css" rel="stylesheet"/> 
+</head>
+<body class="LTR ENUS ContentBody" >
+    <form method="post" action="/Conference/SuperSessions.aspx" id="form">
+<div class="aspNetHidden">
+<input type="hidden" name="manScript_HiddenField" id="manScript_HiddenField" value="" />
+
+</div>
+
+<input type="hidden" name="lng" id="lng" value="en-US" />
+<script type="text/javascript">
+	//<![CDATA[
+
+function PM_Postback(param) { if (window.top.HideScreenLockWarningAndSync) { window.top.HideScreenLockWarningAndSync(1080); } if(window.CMSContentManager) { CMSContentManager.allowSubmit = true; }; __doPostBack('m$am',param); }
+function PM_Callback(param, callback, ctx) { if (window.top.HideScreenLockWarningAndSync) { window.top.HideScreenLockWarningAndSync(1080); }if (window.CMSContentManager) { CMSContentManager.storeContentChangedStatus(); };WebForm_DoCallback('m$am',param,callback,ctx,null,true); }
+//]]>
+</script>
+<script src="/ScriptResource.axd?d=3hdha27SAHByUKq-4Hx6D7eXBA_sf1w0noXZScXx-Ze4hnH0bOpNHZ1dxbYxKLYOUrRTiiSOZXYZrf4AAzuWkbgxC0O56uBVj8XZjgf7SIKw-eXKUEhGRbVWNHT9bsJq0&amp;t=7c776dc1" type="text/javascript"></script>
+<script type="text/javascript">
+	//<![CDATA[
+
+var CMS = CMS || {};
+CMS.Application = {
+  "isRTL": "false",
+  "applicationUrl": "/",
+  "imagesUrl": "/CMSPages/GetResource.ashx?image=%5bImages.zip%5d%2f",
+  "isDialog": false
+};
+
+//]]>
+</script>
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="A5343185" />
+</div>
+    
+    <div id="ctxM">
+
+</div>
+    
+
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-KSBFDB"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KSBFDB');</script>
+<!-- End Google Tag Manager -->
+<!--[if lt IE 9]>
+  <div style="display: block; width: 97%; background-color: #FF99CC; padding: 10px 30px 10px 30px; text-align: center; color: black; font-size:20px;">
+    We noticed you are using an older version of IE that isn't fully supported on this site. Please click <a  href="#">here</a> for more information and options.
+</div>
+<![endif]--> 
+<!-- TOP NAV -->
+<section>
+  <div id="__homepageAlerts" style="display: none;"></div>
+</section>
+<section>
+  <nav class="navbar navbar-default">
+    <div class="container">
+           <ul class="connect-title"><li>Connect With Us</li></ul>
+      <ul class="social_icons">
+	<li class="twitter"><a href="https://twitter.com/ces" title="Twitter">&nbsp;</a></li>
+	<li class="facebook"><a href="https://www.facebook.com/CES" title="facebook">&nbsp;</a></li>
+	<li class="googleplus"><a href="https://plus.google.com/+CES" title="googleplus">&nbsp;</a></li>
+	<li class="instagram"><a href="http://instagram.com/cesofficial" title="instagram">&nbsp;</a></li>
+	<li class="youtube"><a href="http://www.youtube.com/user/cesonthetube" title="youtube">&nbsp;</a></li>
+</ul>
+
+      <ul class="open-ad hidden-xs hidden-sm"><li id="clasp_1"><a href="javascript:lunchboxOpen('1');">OPEN ADVERTISEMENT</a></li></ul>
+      <ul class="drop" id="nav">
+	<li>Other CTA Sites
+	<ul>
+		<li><a href="http://www.cta.tech" target="_blank">CTA - CTA.tech</a></li>
+		<li><a href="http://www.declareinnovation.com/" target="_blank">Innovation Movement</a></li>
+		<li><a href="http://www.cta.tech/blog" target="_blank">CTA Blog</a></li>
+		<li><a href="http://www.cta.tech/i3" target="_blank">i3 Magazine</a></li>
+		<li><a href="http://www.greenergadgets.org/" target="_blank">Greener Gadgets</a></li>
+		<li><a href="http://www.cta.tech/research" target="_blank">CTA Market Research</a></li>
+		<li><a href="http://www.cta.tech/foundation" target="_blank">CTA Foundation</a></li>
+		<li><a href="http://www.cesasia.com" target="_blank">CES Asia</a></li>
+	</ul>
+	</li>
+</ul>
+
+    </div>
+  </nav>
+</section>
+
+<section>
+  <div class="billboard-ad hidden-xs hidden-sm">
+    <div class="container bill-ad lunchbox" id="lunch_1" style="display: none">
+      <div class="container bill-ad"><a id="p_lt_ctl02_BannerRotator_lnkBanner" class="CMSBanner Banner" href="/CMSPages/www.cesasia.com/register" onclick="this.href=&#39;/CMSModules/BannerManagement/CMSPages/BannerRedirect.ashx?bannerID=541&#39;;" onmouseup="this.href=&#39;/CMSModules/BannerManagement/CMSPages/BannerRedirect.ashx?bannerID=541&#39;;" target="_blank"><img id="p_lt_ctl02_BannerRotator_imgBanner" src="/CES/media/2014/advertisements/7673_CESWeb-CESAsia_970x250banner2.jpg" style="" /></a></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div id="epiBackground" class="bk_white">
+    <div class="container">
+      <ul class="audience-nav">
+	<li>
+		<a href="/exhibitor">Exhibitors</a></li>
+	<li>
+		<a href="/press">Press</a></li>
+	<li>
+		<a href="/international">International</a></li>
+</ul>
+
+    </div>
+  </div>
+</section>
+
+<section>
+  
+  <div id="sticky_navigation" class="bk_white">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-60 col-sm-60 col-md-18 mainlogo">
+          <a href="/" id="logo" ><img class="img-responsive" src="/CES/media/2014/CESweblogo.jpg" /></a>
+        </div>
+        <div class="hidden-xs hidden-sm col-md-42 maintitle">
+          <div class="search-container">
+            <div class="search">
+              <input type="search" id="searchTxt" onkeypress="return EnterEvent(event);" />
+            </div>
+            <div class="date">
+              <h2>Las Vegas, NV</h2>
+
+<h3>JANUARY 5-8, 2017</h3>
+
+            </div>
+          </div>
+        </div>
+        <div id="main-navigation" class="col-xs-60 col-lg-42 mainnav">
+              
+<ul class="main-menu sf-js-enabled sf-shadow main_nav_wrapper">
+ 
+    <li class=""
+id="2">
+<a href=" /Register-Plan"> Register &amp; Plan</a> 
+<ul><p style ="display:none;">&nbsp;</p><li><a href=" /Register-Plan/Register-Now"> Register Now</a>
+
+<li><a href=" /Register-Plan/New-CES-Security-Procedures"> New Bag Restrictions for CES 2016</a>
+
+<li><a href=" /Register-Plan/Full-Schedule"> Full Schedule </a>
+
+<li><a href=" /Register-Plan/Hotel"> Hotel</a>
+
+<li><a href=" /Register-Plan/Transportation"> Transportation</a>
+
+<li><a href=" /Register-Plan/Travel-Tips"> Travel Tips</a>
+
+<li><a href=" /Register-Plan/On-Site-Logistics"> On-Site Logistics</a>
+
+<li><a href=" /Register-Plan/CES-App"> CES App</a>
+
+<li><a href=" /Register-Plan/Badge-Pick-Up-and-Registration-Locations"> Badge Pickup and Registration Locations</a>
+
+<li><a href=" /Register-Plan/Personal-Show-Plan"> Personal Show Plan</a>
+
+
+</ul></li><li class=""
+id="4">
+<a href=" /Show-Floor"> Show Floor</a> 
+<ul><p style ="display:none;">&nbsp;</p><li><a href=" /Show-Floor/Exhibit-or-Sponsor"> Exhibit or Sponsor</a>
+
+<li><a href=" /Show-Floor/What-to-See-at-Tech-East"> What to See at Tech East</a>
+
+<li><a href=" /Show-Floor/What-to-See-at-Tech-West"> What to See at Tech West</a>
+
+<li><a href=" /Show-Floor/What-to-See-at-Tech-South"> What to See at Tech South</a>
+
+<li><a href=" /Show-Floor/Exhibit-Hours"> Exhibit Hours</a>
+
+<li><a href=" /Show-Floor/Maps"> Maps</a>
+
+<li><a href=" /Show-Floor/Exhibit-Directory"> Exhibitor Directory</a>
+
+<li><a href=" /Show-Floor/Show-Floor-Tours"> Show Floor Tours</a>
+
+<li><a href=" /Show-Floor/Marketplaces"> Marketplaces</a>
+
+
+</ul></li><li class="current"
+id="5">
+<a href=" /Conference"> Conference</a> 
+<ul><p style ="display:none;">&nbsp;</p><li><a href=" /Conference/Keynotes"> Keynote Addresses</a>
+
+<li><a href=" /Conference/Shopping-Cart"> Shopping Cart</a>
+
+<li><a href=" /Conference/Purchase-Passes"> Conference Pricing</a>
+
+<li><a href=" /Conference/Session-Schedule-Brochure"> Conference Session Schedule &amp; Search</a>
+
+<li><a href=" /Conference/Speaker-Resources"> Speaker Resources</a>
+
+<li><a href=" /Conference/SuperSessions"> SuperSessions</a>
+
+<li><a href=" /Conference/Speaker-Search"> Speaker Search</a>
+
+<li><a href=" /Conference/Conference-Tracks"> Conference Tracks</a>
+
+
+</ul></li><li class=""
+id="6">
+<a href=" /Events-Programs"> Events &amp; Experiences</a> 
+<ul><p style ="display:none;">&nbsp;</p><li><a href=" /Events-Programs/Events"> Events</a>
+
+<li><a href=" /Events-Programs/Innovation"> CES Innovation Awards</a>
+
+<li><a href=" /Events-Programs/Entertainment-Matters"> Entertainment &amp; Content</a>
+
+<li><a href=" /Events-Programs/Advertising-Marketing"> Advertising &amp; Marketing</a>
+
+<li><a href=" /Events-Programs/Startups"> Startups</a>
+
+<li><a href=" /Events-Programs/CES-Unveiled"> CES Unveiled</a>
+
+<li><a href=" /Events-Programs/Executive-Club"> Executive Club</a>
+
+<li><a href=" /Events-Programs/CES-Asia"> CES Asia</a>
+
+<li><a href=" /Events-Programs/Garys-Book-Club"> Gary&#39;s Book Club</a>
+
+
+</ul></li><li class=""
+id="7">
+<a href=" /News"> News</a> 
+<ul><p style ="display:none;">&nbsp;</p><li><a href=" /News/Press-Releases"> Press Releases</a>
+
+<li><a href=" /News/CES-TV"> Videos</a>
+
+<li><a href=" /News/Photo-Gallery"> Photo Gallery</a>
+
+<li><a href=" /News/CES-Social"> Social Media</a>
+
+<li><a href=" /News/CES-Social-(1)"> What&#39;s Trending</a>
+
+<li><a href=" /News/CES-In-The-News"> CES In The News</a>
+
+<li><a href=" /News/Exhibitor-Press-Releases"> Exhibitor News</a>
+
+<li><a href=" /News/Celebrities-at-CES"> Celebrities at CES</a>
+
+<li><a href=" /News/Tech-Changing-the-World"> Tech Changing the World</a>
+
+
+</ul></li><li class=""
+id="8">
+<a href=" /Why-CES"> Why CES?</a> 
+<ul><p style ="display:none;">&nbsp;</p><li><a href=" /Why-CES/Experience-the-International-CES"> Experience Innovation at CES</a>
+
+<li><a href=" /Why-CES/CES-by-the-Numbers"> CES By the Numbers</a>
+
+<li><a href=" /Why-CES/CEA-Member-Benefits"> CTA Member Benefits</a>
+
+<li><a href=" /Why-CES/What-Kind-of-CES-Attendee-Are-You"> What Type of CES Attendee Are You?</a>
+
+
+</ul>  </li>
+</ul>
+
+ <div id="main-navigation" style="display: none">
+
+  <select id="navSecondary" onChange="top.location.href=this.options[this.selectedIndex].value;">
+<option selected="selected" value="">Site Main Navigation</option><option style="font-family:open_sansbold;" value="/Register-Plan">Register & Plan</option><option style="font-family:open_sansbold;" value="/Show-Floor">Show Floor</option><option style="font-family:open_sansbold;" value="/Conference">Conference</option><option style="font-family:open_sansbold;" value="/Events-Programs">Events & Experiences</option><option style="font-family:open_sansbold;" value="/News">News</option><option style="font-family:open_sansbold;" value="/Why-CES">Why CES?</option><option style="font-family:open_sansbold;" value="/International">International</option><option style="font-family:open_sansbold;" value="/Exhibitor">Exhibitors</option><option style="font-family:open_sansbold;" value="/Press">Press</option>
+</select>
+</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div id="main-area" class="container">
+  <div class="hanger side-ads ads-left"><a id="p_lt_ctl06_BannerRotatorLeftHanger_lnkBanner" class="CMSBanner Banner" href="http://www.cesweb.org" onclick="this.href=&#39;/CMSModules/BannerManagement/CMSPages/BannerRedirect.ashx?bannerID=35&#39;;" onmouseup="this.href=&#39;/CMSModules/BannerManagement/CMSPages/BannerRedirect.ashx?bannerID=35&#39;;"><img id="p_lt_ctl06_BannerRotatorLeftHanger_imgBanner" src="/CES/media/2014/backgrounds/algorithm-hanger2.png" style="" /></a></div>
+  <div class="hanger side-ads ads-right"><a id="p_lt_ctl07_BannerRotatorRightHanger_lnkBanner" class="CMSBanner Banner" href="http://www.cesweb.org" onclick="this.href=&#39;/CMSModules/BannerManagement/CMSPages/BannerRedirect.ashx?bannerID=36&#39;;" onmouseup="this.href=&#39;/CMSModules/BannerManagement/CMSPages/BannerRedirect.ashx?bannerID=36&#39;;"><img id="p_lt_ctl07_BannerRotatorRightHanger_imgBanner" src="/CES/media/2014/backgrounds/algorithm-hanger2.png" style="" /></a></div>
+    <div class="row">
+      <div id="main-content-area" class="col-lg-60 page-area">
+
+<section>
+   <div class="page-area">
+      <div class="col-md-12 hidden-xs hidden-sm">
+        <div class="leftnav">
+          <ul><li><a href="/Conference/Keynotes">Keynote Addresses</a><li><a href="/Conference/Purchase-Passes">Conference Pricing</a><li><a href="/Conference/Shopping-Cart">Shopping Cart</a><li><a href="/Conference/Session-Schedule-Brochure">Conference Session Schedule & Search</a><li><a href="/Conference/Speaker-Resources">Speaker Resources</a><li class="left-current"><a href="/Conference/SuperSessions">SuperSessions</a><ul><li><a href="/Conference/SuperSessions/SUPER01_FCC-and-FTC-One-on-One">Insights with the FCC and FTC</a><li><a href="/Conference/SuperSessions/SUPER03_The-Next-Big-Thing-Is-Typing-Dead">The Next Big Thing: Is Typing Dead?</a><li><a href="/Conference/SuperSessions/SUPER06_Global-Innovation">Global Innovation</a><li><a href="/Conference/SuperSessions/IoT-Business-Strategies-Partnerships-for-the-Shar">IoT Business Strategies: Partnerships for the Sharing Economy</a><li><a href="/Conference/SuperSessions/An-Inside-Look-Industry-Innovators-and-Government">An Inside Look: Industry Innovators and Government Join Forces</a><li><a href="/Conference/SuperSessions/Connecting-Digital-and-Physical-Disney-Creates-Ma">Making Disney Magic: Connecting Digital and Physical Worlds</a><li><a href="/Conference/SuperSessions/Forecasting-the-Future-of-Entrepreneurship">Forecasting the Future of Entrepreneurship</a></ul><li><a href="/Conference/Speaker-Search">Speaker Search</a><li><a href="/Conference/Conference-Tracks">Conference Tracks</a></ul>
+
+         </div>
+         
+      </div>
+      <div class="col-sm-60 col-md-offset-2 col-md-46">
+        <div class="body-content">
+          <h1>SuperSessions</h1>
+          <div class="breadcrumbs">
+            <div class="row">
+              <div class="col-sm-40">
+                <ul>
+                  <li><a href="/Home.aspx">Home</a></li>
+                  <li class="bread-div">|</li><li><a href="/Conference.aspx" class="CMSBreadCrumbsLink">Conference</a> </li><li class="bread-div">|</li><li> <span  class="CMSBreadCrumbsCurrentItem">SuperSessions</span>
+</li>
+                </ul>
+              </div>
+              <div class="col-sm-20 text-center-xs text-right-sm right-breadcrumb">
+                <span  class="st_sharethis_custom" displayText="ShareThis"><a class="right-breadcrumb-item">Share This</a></span>
+                <a class="right-breadcrumb-item hidden-sm hidden-xs" href="javascript:window.print()">Print This Page</a>
+              </div>
+            </div>
+          </div>
+          <p class="intro-innov">  </p>
+          <div class="row article-content-area">
+             
+             <div>
+  <img class="sessionLogo" src="/CES/media/2014/Conference/Logos/CTA-101-CTA_Logo_Stacked_CMYK.jpg?ext=.jpg">
+  <h1>Insights with the FCC and FTC</h1>
+  <span id='TrackSubhead' class='presentedBy'>presented by Consumer Technology Association</span> 
+  <p>11:30 AM&#45;12:30 PM January 6<br/>
+     LVCC, North Hall, Room N257</p>
+   <a href="#" title="Add to Calendar" class="addthisevent" data-track="_gaq.push(['_trackEvent','AddThisEvent','click','ate-calendar'])">
+                                            Add to Calendar 
+                                            <span class="start">01-06-2016 11:30:00 AM</span> 
+                                            <span class="end">01-06-2016 12:30:00 PM</span> 
+                                            <span class="timezone"></span>
+                                            <span class="title">Insights with the FCC and FTC</span> 
+                                            <span class="description">Join FCC Chairman Wheeler, FTC Chairwoman Ramirez and Consumer Technology Association (CTA)&trade; President and CEO Gary Shapiro for two candid, thirty-minute conversations about the enormous and exciting challenges they face as their agencies navigate the rapidly changing technological landscape.</span>
+                                            <span class="location">LVCC, North Hall, Room N257</span> 
+                                            <span class="organizer">CES</span>
+                                            <span class="organizer_email">CES@CE.org</span>
+                                            <span class="all_day_event">false</span>
+                                            <span class="date_format">MM/DD/YYYY</span> 
+                                        </a>
+  <p>Join FCC Chairman Wheeler, FTC Chairwoman Ramirez and Consumer Technology Association (CTA)&trade; President and CEO Gary Shapiro for two candid, thirty-minute conversations about the enormous and exciting challenges they face as their agencies navigate the rapidly changing technological landscape.</p>
+</div>
+  <p>
+  Moderator
+  <a class="bio-link" href="/Conference/SuperSessions/SUPER01_FCC-and-FTC-One-on-One/Gary-Shapiro.aspx">
+  <strong>Gary Shapiro</strong></a>,&nbsp;President and CEO, Consumer Technology Association
+</p><p>
+  Speaker
+  <a class="bio-link" href="/Conference/SuperSessions/SUPER01_FCC-and-FTC-One-on-One/Edith-Ramirez.aspx">
+  <strong>The Honorable Edith Ramirez</strong></a>,&nbsp;Chairwoman, Federal Trade Commission
+</p><p>
+  Speaker
+  <a class="bio-link" href="/Conference/SuperSessions/SUPER01_FCC-and-FTC-One-on-One/Tom-Wheeler.aspx">
+  <strong>The Honorable Tom Wheeler</strong></a>,&nbsp;Chairman, Federal Communications Commission
+</p><div>
+  <img class="sessionLogo" src="/CES/media/2014/Conference/Logos/CTA-101-CTA_Logo_Stacked_CMYK.jpg?ext=.jpg">
+  <h1>An Inside Look: Industry Innovators and Government Join Forces</h1>
+  <span id='TrackSubhead' class='presentedBy'>presented by Consumer Technology Association</span> 
+  <p>1&#45;2 PM January 6<br/>
+     LVCC, North Hall, Room N257</p>
+   <a href="#" title="Add to Calendar" class="addthisevent" data-track="_gaq.push(['_trackEvent','AddThisEvent','click','ate-calendar'])">
+                                            Add to Calendar 
+                                            <span class="start">01-06-2016 01:00:00 PM</span> 
+                                            <span class="end">01-06-2016 02:00:00 PM</span> 
+                                            <span class="timezone"></span>
+                                            <span class="title">An Inside Look: Industry Innovators and Government Join Forces</span> 
+                                            <span class="description">U.S. Chief Technology Officer Megan Smith and Deputy Director for Technology and Innovation Tom Kalil lead a provocative discussion among global industry trendsetters and provide an inside look at collaborations that are moving the needle on key topics including entrepreneurship, smart cities, and inclusion. This conversation will delve into the critical issues forging new opportunities in technology.</span>
+                                            <span class="location">LVCC, North Hall, Room N257</span> 
+                                            <span class="organizer">CES</span>
+                                            <span class="organizer_email">CES@CE.org</span>
+                                            <span class="all_day_event">false</span>
+                                            <span class="date_format">MM/DD/YYYY</span> 
+                                        </a>
+  <p>U.S. Chief Technology Officer Megan Smith and Deputy Director for Technology and Innovation Tom Kalil lead a provocative discussion among global industry trendsetters and provide an inside look at collaborations that are moving the needle on key topics including entrepreneurship, smart cities, and inclusion. This conversation will delve into the critical issues forging new opportunities in technology.</p>
+</div>
+  <p>
+  Speaker
+  <a class="bio-link" href="/Conference/SuperSessions/An-Inside-Look-Industry-Innovators-and-Government/Carl-Bass.aspx">
+  <strong>Carl Bass</strong></a>,&nbsp;CEO, Autodesk
+</p><p>
+  Speaker
+  <a class="bio-link" href="/Conference/SuperSessions/An-Inside-Look-Industry-Innovators-and-Government/Albrey-Brown.aspx">
+  <strong>Albrey Brown</strong></a>,&nbsp;Co-Founder, Telegraph Academy
+</p><p>
+  Speaker
+  <a class="bio-link" href="/Conference/SuperSessions/An-Inside-Look-Industry-Innovators-and-Government/Tracy-Chou.aspx">
+  <strong>Tracy Chou</strong></a>,&nbsp;Software engineer, Pinterest
+</p><p>
+  Speaker
+  <a class="bio-link" href="/Conference/SuperSessions/An-Inside-Look-Industry-Innovators-and-Government/Tom-Kalil.aspx">
+  <strong>Tom Kalil</strong></a>,&nbsp;Deputy Director for Technology and Innovation, White House Office of Science and Technology Policy
+</p><p>
+  Speaker
+  <a class="bio-link" href="/Conference/SuperSessions/An-Inside-Look-Industry-Innovators-and-Government/Michael-Mattmiller.aspx">
+  <strong>Michael Mattmiller</strong></a>,&nbsp;CTO, City of Seattle
+</p><p>
+  Speaker
+  <a class="bio-link" href="/Conference/SuperSessions/An-Inside-Look-Industry-Innovators-and-Government/Megan-Smith.aspx">
+  <strong>Megan Smith</strong></a>,&nbsp;U.S. CTO, White House Office of Science and Technology Policy
+</p><div>
+  <img class="sessionLogo" src="/CES/media/2014/Conference/Logos/CES-224-CNET.jpg?ext=.jpg">
+  <h1>The Next Big Thing: Is Typing Dead?</h1>
+  <span id='TrackSubhead' class='presentedBy'>presented by CNET</span> 
+  <p>3:30&#45;4:30 PM January 6<br/>
+     LVCC, North Hall, Room N257</p>
+   <a href="#" title="Add to Calendar" class="addthisevent" data-track="_gaq.push(['_trackEvent','AddThisEvent','click','ate-calendar'])">
+                                            Add to Calendar 
+                                            <span class="start">01-06-2016 03:30:00 PM</span> 
+                                            <span class="end">01-06-2016 04:30:00 PM</span> 
+                                            <span class="timezone"></span>
+                                            <span class="title">The Next Big Thing: Is Typing Dead?</span> 
+                                            <span class="description">The future of how we interact with machines and computers may completely change. CNET stars Tim Stevens and Brian Cooley explore the relationship between devices and people with a panel of linguists, artificial intelligence specialists and big-name industry experts.</span>
+                                            <span class="location">LVCC, North Hall, Room N257</span> 
+                                            <span class="organizer">CES</span>
+                                            <span class="organizer_email">CES@CE.org</span>
+                                            <span class="all_day_event">false</span>
+                                            <span class="date_format">MM/DD/YYYY</span> 
+                                        </a>
+  <p>The future of how we interact with machines and computers may completely change. CNET stars Tim Stevens and Brian Cooley explore the relationship between devices and people with a panel of linguists, artificial intelligence specialists and big-name industry experts.</p>
+</div>
+  <p>
+  Moderator
+  <a class="bio-link" href="/Conference/SuperSessions/SUPER03_The-Next-Big-Thing-Is-Typing-Dead/Brian-Cooley.aspx">
+  <strong>Brian Cooley</strong></a>,&nbsp;Editor-at-Large, CNET
+</p><p>
+  Moderator
+  <a class="bio-link" href="/Conference/SuperSessions/SUPER03_The-Next-Big-Thing-Is-Typing-Dead/Tim-Stevens.aspx">
+  <strong>Tim Stevens</strong></a>,&nbsp;Editor-at-Large, CNET
+</p><p>
+  Speaker
+  <a class="bio-link" href="/Conference/SuperSessions/SUPER03_The-Next-Big-Thing-Is-Typing-Dead/Marcus-Behrendt.aspx">
+  <strong>Marcus Behrendt</strong></a>,&nbsp;Head of User Experience Department, BMW Group
+</p><p>
+  Speaker
+  <a class="bio-link" href="/Conference/SuperSessions/SUPER03_The-Next-Big-Thing-Is-Typing-Dead/Susan-Bennett.aspx">
+  <strong>Susan Bennett</strong></a>,&nbsp;Voice, Siri
+</p><p>
+  Speaker
+  <a class="bio-link" href="/Conference/SuperSessions/SUPER03_The-Next-Big-Thing-Is-Typing-Dead/Wendy-Ju.aspx">
+  <strong>Wendy Ju</strong></a>,&nbsp;Executive Director, Interaction Design Research, Stanford University (CDR)
+</p><p>
+  Speaker
+  <a class="bio-link" href="/Conference/SuperSessions/SUPER03_The-Next-Big-Thing-Is-Typing-Dead/Pattie-Maes.aspx">
+  <strong>Dr. Pattie Maes</strong></a>,&nbsp;Professor, MIT Media Laboratory, MIT
+</p><p>
+  Speaker
+  <a class="bio-link" href="/Conference/SuperSessions/SUPER03_The-Next-Big-Thing-Is-Typing-Dead/Vlad-Sejnoha.aspx">
+  <strong>Vlad Sejnoha</strong></a>,&nbsp;CTO, Nuance
+</p><div>
+  <img class="sessionLogo" src="/CES/media/2014/Conference/Logos/rsz_ces_1371_final_iot_logo-(1).jpg?ext=.jpg">
+  <h1>IoT Business Strategies: Partnerships for the Sharing Economy</h1>
+  <span id='TrackSubhead' class='presentedBy'>presented by Internet of Things World</span> 
+  <p>9&#45;10 AM January 7<br/>
+     LVCC, North Hall, Room N257</p>
+   <a href="#" title="Add to Calendar" class="addthisevent" data-track="_gaq.push(['_trackEvent','AddThisEvent','click','ate-calendar'])">
+                                            Add to Calendar 
+                                            <span class="start">01-07-2016 09:00:00 AM</span> 
+                                            <span class="end">01-07-2016 10:00:00 AM</span> 
+                                            <span class="timezone"></span>
+                                            <span class="title">IoT Business Strategies: Partnerships for the Sharing Economy</span> 
+                                            <span class="description">How will IoT help improve efficiency, enable innovation and drive real business transformation through real-world customer experiences?&nbsp; A global panel of experts and innovators will share insights into maximizing effective marketing channels, debate the best strategies to create true value from IoT, and highlight partnership models for the future shared economy.</span>
+                                            <span class="location">LVCC, North Hall, Room N257</span> 
+                                            <span class="organizer">CES</span>
+                                            <span class="organizer_email">CES@CE.org</span>
+                                            <span class="all_day_event">false</span>
+                                            <span class="date_format">MM/DD/YYYY</span> 
+                                        </a>
+  <p>How will IoT help improve efficiency, enable innovation and drive real business transformation through real-world customer experiences?&nbsp; A global panel of experts and innovators will share insights into maximizing effective marketing channels, debate the best strategies to create true value from IoT, and highlight partnership models for the future shared economy.</p>
+</div>
+  <p>
+  Moderator
+  <a class="bio-link" href="/Conference/SuperSessions/IoT-Business-Strategies-Partnerships-for-the-Shar/Mike-Sapien.aspx">
+  <strong>Mike Sapien</strong></a>,&nbsp;Principal Analyst, Ovum
+</p><p>
+  Speaker
+  <a class="bio-link" href="/Conference/SuperSessions/IoT-Business-Strategies-Partnerships-for-the-Shar/Carla-Archambault.aspx">
+  <strong>Carla Archambault</strong></a>,&nbsp;Director of Strategic Initiatives, Product and Experience, Zipcar
+</p><p>
+  Speaker
+  <a class="bio-link" href="/Conference/SuperSessions/IoT-Business-Strategies-Partnerships-for-the-Shar/Muriel-Barneoud.aspx">
+  <strong>Muriel Barneoud</strong></a>,&nbsp;CEO, Docapost-Groupe La Poste
+</p><p>
+  Speaker
+  <a class="bio-link" href="/Conference/SuperSessions/IoT-Business-Strategies-Partnerships-for-the-Shar/Jason-Johnson.aspx">
+  <strong>Jason Johnson</strong></a>,&nbsp;CEO, August Home, Inc.
+</p><p>
+  Speaker
+  
+  <strong>Sandhya Rao		</strong>,&nbsp;Sr. Director, SaaS and Mobile App Product Marketing, Honeywell Connected Home
+</p><p>
+  Speaker
+  <a class="bio-link" href="/Conference/SuperSessions/IoT-Business-Strategies-Partnerships-for-the-Shar/Mike-Soucie.aspx">
+  <strong>Mike Soucie		</strong></a>,&nbsp;Product Strategy Lead, Nest
+</p><p>
+  Speaker
+  <a class="bio-link" href="/Conference/SuperSessions/IoT-Business-Strategies-Partnerships-for-the-Shar/Mike-Troiano.aspx">
+  <strong>Mike Troiano</strong></a>,&nbsp;VP, Internet of Things, AT&T
+</p><p>
+  Speaker
+  <a class="bio-link" href="/Conference/SuperSessions/IoT-Business-Strategies-Partnerships-for-the-Shar/Gavin-Whitechurch.aspx">
+  <strong>Gavin Whitechurch</strong></a>,&nbsp;Founder, Internet of Things World, Informa
+</p><div>
+  <img class="sessionLogo" src="/CES/media/2014/Conference/Logos/rsz_cta_101_cta_logo_stacked_cmyk.jpg?ext=.jpg">
+  <h1>Forecasting the Future of Entrepreneurship</h1>
+  <span id='TrackSubhead' class='presentedBy'>presented by Consumer Technology Association</span> 
+  <p>11:30&#45;12:30 AM January 7<br/>
+     LVCC, North Hall, Room N257</p>
+   <a href="#" title="Add to Calendar" class="addthisevent" data-track="_gaq.push(['_trackEvent','AddThisEvent','click','ate-calendar'])">
+                                            Add to Calendar 
+                                            <span class="start">01-07-2016 11:30:00 AM</span> 
+                                            <span class="end">01-07-2016 12:30:00 AM</span> 
+                                            <span class="timezone"></span>
+                                            <span class="title">Forecasting the Future of Entrepreneurship</span> 
+                                            <span class="description">Join powerful innovators as they share their candid views on the future of entrepreneurship. These disruptive visionaries will predict the next big categories in tech and the opportunities and risks ahead for future leaders.</span>
+                                            <span class="location">LVCC, North Hall, Room N257</span> 
+                                            <span class="organizer">CES</span>
+                                            <span class="organizer_email">CES@CE.org</span>
+                                            <span class="all_day_event">false</span>
+                                            <span class="date_format">MM/DD/YYYY</span> 
+                                        </a>
+  <p>Join powerful innovators as they share their candid views on the future of entrepreneurship. These disruptive visionaries will predict the next big categories in tech and the opportunities and risks ahead for future leaders.</p>
+</div>
+  <p>
+  Moderator
+  <a class="bio-link" href="/Conference/SuperSessions/Forecasting-the-Future-of-Entrepreneurship/Rebecca-Jarvis.aspx">
+  <strong>Rebecca Jarvis</strong></a>,&nbsp;Chief Business and Economics Correspondent, ABC News
+</p><p>
+  Speaker
+  <a class="bio-link" href="/Conference/SuperSessions/Forecasting-the-Future-of-Entrepreneurship/Stewart-Butterfield.aspx">
+  <strong>Stewart Butterfield</strong></a>,&nbsp;CEO and Co-Founder, Slack
+</p><p>
+  Speaker
+  <a class="bio-link" href="/Conference/SuperSessions/Forecasting-the-Future-of-Entrepreneurship/Steve-Case.aspx">
+  <strong>Steve Case</strong></a>,&nbsp;Chairman and CEO, Revolution
+</p><p>
+  Speaker
+  <a class="bio-link" href="/Conference/SuperSessions/Forecasting-the-Future-of-Entrepreneurship/Nick-Woodman.aspx">
+  <strong>Nicholas Woodman</strong></a>,&nbsp;Founder and CEO, GoPro
+</p><div>
+  <img class="sessionLogo" src="/CES/media/2014/Conference/Logos/CTA-101-CTA_Logo_Stacked_CMYK.jpg?ext=.jpg">
+  <h1>Making Disney Magic: Connecting Digital and Physical Worlds</h1>
+  <span id='TrackSubhead' class='presentedBy'>presented by Consumer Technology Association</span> 
+  <p>1&#45;2 PM January 7<br/>
+     LVCC, North Hall, Room N257</p>
+   <a href="#" title="Add to Calendar" class="addthisevent" data-track="_gaq.push(['_trackEvent','AddThisEvent','click','ate-calendar'])">
+                                            Add to Calendar 
+                                            <span class="start">01-07-2016 01:00:00 PM</span> 
+                                            <span class="end">01-07-2016 02:00:00 PM</span> 
+                                            <span class="timezone"></span>
+                                            <span class="title">Making Disney Magic: Connecting Digital and Physical Worlds</span> 
+                                            <span class="description">The Walt Disney Company has been a pioneer in connecting the physical and digital, bringing Disney stories and characters to life like never before. Join leaders from Walt Disney Parks and Resorts, ESPN, ABC Television Group and Disney Consumer Products and Interactive Media as they explore the evolution of physical experiences in a digital world.</span>
+                                            <span class="location">LVCC, North Hall, Room N257</span> 
+                                            <span class="organizer">CES</span>
+                                            <span class="organizer_email">CES@CE.org</span>
+                                            <span class="all_day_event">false</span>
+                                            <span class="date_format">MM/DD/YYYY</span> 
+                                        </a>
+  <p>The Walt Disney Company has been a pioneer in connecting the physical and digital, bringing Disney stories and characters to life like never before. Join leaders from Walt Disney Parks and Resorts, ESPN, ABC Television Group and Disney Consumer Products and Interactive Media as they explore the evolution of physical experiences in a digital world.</p>
+</div>
+  <p>
+  Moderator
+  <a class="bio-link" href="/Conference/SuperSessions/Connecting-Digital-and-Physical-Disney-Creates-Ma/Daymond-John.aspx">
+  <strong>Daymond John</strong></a>,&nbsp;CEO and TV Personality on ABC's Shark Tank, FUBU and Shark Branding
+</p><p>
+  Speaker
+  <a class="bio-link" href="/Conference/SuperSessions/Connecting-Digital-and-Physical-Disney-Creates-Ma/John-Frelinghuysen.aspx">
+  <strong>John Frelinghuysen</strong></a>,&nbsp;EVP, Digital Media, Strategy and Business Development, ABC Television Group
+</p><p>
+  Speaker
+  <a class="bio-link" href="/Conference/SuperSessions/Connecting-Digital-and-Physical-Disney-Creates-Ma/Susan-O-Day.aspx">
+  <strong>Susan O'Day</strong></a>,&nbsp;EVP, Enterprise Technology and CIO, The Walt Disney Company
+</p><p>
+  Speaker
+  
+  <strong>Jon Snoddy</strong>,&nbsp;EVP, Walt Disney Imagineering
+</p><p>
+  Speaker
+  <a class="bio-link" href="/Conference/SuperSessions/Connecting-Digital-and-Physical-Disney-Creates-Ma/Mike-White.aspx">
+  <strong>Michael White</strong></a>,&nbsp;SVP and Chief Technology Officer, Disney Consumer Products and Interactive Media
+</p><div>
+  <img class="sessionLogo" src="/CES/media/2014/Conference/Logos/CTA-101-CTA_Logo_Stacked_CMYK.jpg?ext=.jpg">
+  <h1>Global Innovation</h1>
+  <span id='TrackSubhead' class='presentedBy'>presented by Consumer Technology Association</span> 
+  <p>2:30&#45;3:30 PM January 7<br/>
+     LVCC, North Hall, Room N257</p>
+   <a href="#" title="Add to Calendar" class="addthisevent" data-track="_gaq.push(['_trackEvent','AddThisEvent','click','ate-calendar'])">
+                                            Add to Calendar 
+                                            <span class="start">01-07-2016 02:30:00 PM</span> 
+                                            <span class="end">01-07-2016 03:30:00 PM</span> 
+                                            <span class="timezone"></span>
+                                            <span class="title">Global Innovation</span> 
+                                            <span class="description">Economic growth and prosperity are most vibrant where policies and political climates foster innovation and the entrepreneurial spirit.&nbsp; Learn where companies find the innovation-friendly environments they need to succeed and whether governments compete to attract innovators or protect those they have.&nbsp; Global business leaders and policy operators weigh in on the digital economy.</span>
+                                            <span class="location">LVCC, North Hall, Room N257</span> 
+                                            <span class="organizer">CES</span>
+                                            <span class="organizer_email">CES@CE.org</span>
+                                            <span class="all_day_event">false</span>
+                                            <span class="date_format">MM/DD/YYYY</span> 
+                                        </a>
+  <p>Economic growth and prosperity are most vibrant where policies and political climates foster innovation and the entrepreneurial spirit.&nbsp; Learn where companies find the innovation-friendly environments they need to succeed and whether governments compete to attract innovators or protect those they have.&nbsp; Global business leaders and policy operators weigh in on the digital economy.</p>
+</div>
+  <p>
+  Moderator
+  <a class="bio-link" href="/Conference/SuperSessions/SUPER06_Global-Innovation/Alan-Murray.aspx">
+  <strong>Alan Murray</strong></a>,&nbsp;Editor, Fortune Magazine
+</p><p>
+  Speaker
+  <a class="bio-link" href="/Conference/SuperSessions/SUPER06_Global-Innovation/Neelie-Kroes.aspx">
+  <strong>Neelie Kroes</strong></a>,&nbsp;Special Envoy, StartupDelta
+</p><p>
+  Speaker
+  <a class="bio-link" href="/Conference/SuperSessions/SUPER06_Global-Innovation/Emmanuel-Macron.aspx">
+  <strong>Emmanuel Macron</strong></a>,&nbsp;Minister, French Ministry of Economy, Industry and Digital Affairs
+</p><p>
+  Speaker
+  <a class="bio-link" href="/Conference/SuperSessions/SUPER06_Global-Innovation/Jeannine-Sargent.aspx">
+  <strong>Jeannine Sargent</strong></a>,&nbsp;President, Innovation & New Ventures, Flex
+</p><p>
+  Speaker
+  <a class="bio-link" href="/Conference/SuperSessions/SUPER06_Global-Innovation/Mark-Warner.aspx">
+  <strong>U.S. Senator Mark Warner</strong></a>,&nbsp;Senator , U.S. Senate
+</p>
+
+             
+          </div>
+         </div>
+      </div>
+   </div>
+</section></div>
+    </div>
+</div>
+    
+<section>
+    <div id="footer" class="clear-fix">
+        <div class="container">
+            <div class="doubleDashedHR"></div>
+            <div class="text-center-xs col-xs-60 text-left-md col-md-15">
+                <p class="copyright">Copyright &copy; 2003 - 2015 CTA. All rights reserved.</p>
+
+            </div>
+            <div class="text-center-xs col-xs-60 text-left-md col-md-15 doubleDashedVR">
+                <ul>
+	<li>
+		<a href="/about-us">About Us </a></li>
+	<li>
+		<a href="/contact-us">Contact Us</a></li>
+	<li>
+		<a href="/partners">Partners</a></li>
+</ul>
+
+            </div>
+            <div class="text-center-xs col-xs-60 text-left-md col-md-10 doubleDashedVR">
+                <ul>
+	<li>
+		<a href="/privacy">Privacy</a></li>
+	<li>
+		<a href="/sitemap">Sitemap</a></li>
+</ul>
+<br /><div style="font-size: .8em; color: #FFF;"><span id="p_lt_ctl11_whatServer_serverName">WEB-IIS60</span></div>
+            </div>
+            <div class="col-xs-60 text-center-xs text-left-md col-md-20 languages">
+                <script type="text/javascript">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-3975226-4', 'auto');
+
+// Load the plugin.
+ga('require', 'linker');
+// Define which domains to autoLink.
+ga('linker:autoLink', ['itnint.com']);
+  ga('send', 'pageview');
+</script>
+            </div>
+        </div>
+    </div>
+</section>
+<script type="text/javascript" src="/CES/js/HomepageAlerts/alert.js"></script>
+    
+    
+
+<script type="text/javascript">
+//<![CDATA[
+(function() {var fn = function() {$get("manScript_HiddenField").value = '';Sys.Application.remove_init(fn);};Sys.Application.add_init(fn);})();//]]>
+</script>
+  <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTEyMTY0MTExOTEPZBYCAgEPFgIeBmFjdGlvbgUeL0NvbmZlcmVuY2UvU3VwZXJTZXNzaW9ucy5hc3B4FgICBQ9kFgJmDw8WBB4IQ3NzQ2xhc3MFD1BhZ2VQbGFjZWhvbGRlch4EXyFTQgICZBYCZg9kFgQCCw9kFgICAQ9kFgJmDw8WLh4SVHJhbnNmb3JtYXRpb25OYW1lZR4MWmVyb1Jvd3NUZXh0BQ1ObyBkYXRhIGZvdW5kHg1QYWdlclBvc2l0aW9uCylxQ01TLkNvbnRyb2xzLlBhZ2luZ1BsYWNlVHlwZUVudW0sIENNUy5Db250cm9scywgVmVyc2lvbj04LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPTgzNGIxMmEyNThmMjEzZjkAHhtTZXBhcmF0b3JUcmFuc2Zvcm1hdGlvbk5hbWVlHhBTaG93RGVsZXRlQnV0dG9uaB4SUGFyZW50SURDb2x1bW5OYW1lBQxOb2RlUGFyZW50SUQeF1VzZUhpZXJhcmNoaWNhbE9yZGVyaW5nZx4YSGVhZGVyVHJhbnNmb3JtYXRpb25OYW1lZR4LXyFJdGVtQ291bnQCCR4eSGllcmFyY2hpY2FsVHJhbnNmb3JtYXRpb25OYW1lBSppY2VzLnRyYW5zZm9ybWF0aW9ucy5JY2VzX2Ryb3BfbWVudV9tb2JpbGUeDElEQ29sdW1uTmFtZQUGTm9kZUlEHh1BbHRlcm5hdGluZ1RyYW5zZm9ybWF0aW9uTmFtZWUeDlNob3dFZGl0QnV0dG9uaB4UTG9hZEhpZXJhcmNoaWNhbERhdGFnHg9MZXZlbENvbHVtbk5hbWUFCU5vZGVMZXZlbB4WSGlkZUNvbnRyb2xGb3JaZXJvUm93c2geC18hRGF0YUJvdW5kZx4YRm9vdGVyVHJhbnNmb3JtYXRpb25OYW1lZR4XRmlyc3RUcmFuc2Zvcm1hdGlvbk5hbWVlHhZSZXNvbHZlRHluYW1pY0NvbnRyb2xzZx4YU2luZ2xlVHJhbnNmb3JtYXRpb25OYW1lZR4WTGFzdFRyYW5zZm9ybWF0aW9uTmFtZWUeCUl0ZW1Db3VudAIJZBYCZg8PFg4eCFBhZ2VTaXplAgoeDlF1ZXJ5U3RyaW5nS2V5BQRQYWdlHglQYWdlck1vZGULKWpDTVMuQ29udHJvbHMuVW5pUGFnZXJNb2RlLCBDTVMuQ29udHJvbHMsIFZlcnNpb249OC4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj04MzRiMTJhMjU4ZjIxM2Y5AB4JR3JvdXBTaXplAgoeHURpc3BsYXlGaXJzdExhc3RBdXRvbWF0aWNhbGx5aB4gRGlzcGxheVByZXZpb3VzTmV4dEF1dG9tYXRpY2FsbHloHgdFbmFibGVkaGRkAhEPZBYCZg9kFgICAg9kFgJmDw8WBB8BBQ9QYWdlUGxhY2Vob2xkZXIfAgICZBYCZg9kFgYCAQ9kFgJmD2QWAmYPFgIeBFRleHQFsws8dWw+PGxpPjxhIGhyZWY9Ii9Db25mZXJlbmNlL0tleW5vdGVzIj5LZXlub3RlIEFkZHJlc3NlczwvYT48bGk+PGEgaHJlZj0iL0NvbmZlcmVuY2UvUHVyY2hhc2UtUGFzc2VzIj5Db25mZXJlbmNlIFByaWNpbmc8L2E+PGxpPjxhIGhyZWY9Ii9Db25mZXJlbmNlL1Nob3BwaW5nLUNhcnQiPlNob3BwaW5nIENhcnQ8L2E+PGxpPjxhIGhyZWY9Ii9Db25mZXJlbmNlL1Nlc3Npb24tU2NoZWR1bGUtQnJvY2h1cmUiPkNvbmZlcmVuY2UgU2Vzc2lvbiBTY2hlZHVsZSAmIFNlYXJjaDwvYT48bGk+PGEgaHJlZj0iL0NvbmZlcmVuY2UvU3BlYWtlci1SZXNvdXJjZXMiPlNwZWFrZXIgUmVzb3VyY2VzPC9hPjxsaSBjbGFzcz0ibGVmdC1jdXJyZW50Ij48YSBocmVmPSIvQ29uZmVyZW5jZS9TdXBlclNlc3Npb25zIj5TdXBlclNlc3Npb25zPC9hPjx1bD48bGk+PGEgaHJlZj0iL0NvbmZlcmVuY2UvU3VwZXJTZXNzaW9ucy9TVVBFUjAxX0ZDQy1hbmQtRlRDLU9uZS1vbi1PbmUiPkluc2lnaHRzIHdpdGggdGhlIEZDQyBhbmQgRlRDPC9hPjxsaT48YSBocmVmPSIvQ29uZmVyZW5jZS9TdXBlclNlc3Npb25zL1NVUEVSMDNfVGhlLU5leHQtQmlnLVRoaW5nLUlzLVR5cGluZy1EZWFkIj5UaGUgTmV4dCBCaWcgVGhpbmc6IElzIFR5cGluZyBEZWFkPzwvYT48bGk+PGEgaHJlZj0iL0NvbmZlcmVuY2UvU3VwZXJTZXNzaW9ucy9TVVBFUjA2X0dsb2JhbC1Jbm5vdmF0aW9uIj5HbG9iYWwgSW5ub3ZhdGlvbjwvYT48bGk+PGEgaHJlZj0iL0NvbmZlcmVuY2UvU3VwZXJTZXNzaW9ucy9Jb1QtQnVzaW5lc3MtU3RyYXRlZ2llcy1QYXJ0bmVyc2hpcHMtZm9yLXRoZS1TaGFyIj5Jb1QgQnVzaW5lc3MgU3RyYXRlZ2llczogUGFydG5lcnNoaXBzIGZvciB0aGUgU2hhcmluZyBFY29ub215PC9hPjxsaT48YSBocmVmPSIvQ29uZmVyZW5jZS9TdXBlclNlc3Npb25zL0FuLUluc2lkZS1Mb29rLUluZHVzdHJ5LUlubm92YXRvcnMtYW5kLUdvdmVybm1lbnQiPkFuIEluc2lkZSBMb29rOiBJbmR1c3RyeSBJbm5vdmF0b3JzIGFuZCBHb3Zlcm5tZW50IEpvaW4gRm9yY2VzPC9hPjxsaT48YSBocmVmPSIvQ29uZmVyZW5jZS9TdXBlclNlc3Npb25zL0Nvbm5lY3RpbmctRGlnaXRhbC1hbmQtUGh5c2ljYWwtRGlzbmV5LUNyZWF0ZXMtTWEiPk1ha2luZyBEaXNuZXkgTWFnaWM6IENvbm5lY3RpbmcgRGlnaXRhbCBhbmQgUGh5c2ljYWwgV29ybGRzPC9hPjxsaT48YSBocmVmPSIvQ29uZmVyZW5jZS9TdXBlclNlc3Npb25zL0ZvcmVjYXN0aW5nLXRoZS1GdXR1cmUtb2YtRW50cmVwcmVuZXVyc2hpcCI+Rm9yZWNhc3RpbmcgdGhlIEZ1dHVyZSBvZiBFbnRyZXByZW5ldXJzaGlwPC9hPjwvdWw+PGxpPjxhIGhyZWY9Ii9Db25mZXJlbmNlL1NwZWFrZXItU2VhcmNoIj5TcGVha2VyIFNlYXJjaDwvYT48bGk+PGEgaHJlZj0iL0NvbmZlcmVuY2UvQ29uZmVyZW5jZS1UcmFja3MiPkNvbmZlcmVuY2UgVHJhY2tzPC9hPjwvdWw+ZAIDD2QWAmYPDxYCHgdWaXNpYmxlaGRkAg0PZBYCZg9kFgJmDw8WLh8DZR8EBQ1ObyBkYXRhIGZvdW5kHwULKwQAHwZlHwdoHwgFDE5vZGVQYXJlbnRJRB8JZx8KZR8LAi0fDAUaZXZlbnQuU2Vzc2lvbi5TdXBlclNlc3Npb24fDQUGTm9kZUlEHw5lHw9oHxBnHxEFCU5vZGVMZXZlbB8SaB8TZx8UZR8VZR8WZx8XZR8YZR8ZAi1kFlxmDw8WDh8aAgofGwUEUGFnZR8cCysFAB8dAgofHmgfH2gfIGhkZAIBD2QWAmYPZBYCZg8VDmw8aW1nIGNsYXNzPSJzZXNzaW9uTG9nbyIgc3JjPSJ+L0NFUy9tZWRpYS8yMDE0L0NvbmZlcmVuY2UvTG9nb3MvQ1RBLTEwMS1DVEFfTG9nb19TdGFja2VkX0NNWUsuanBnP2V4dD0uanBnIj4dSW5zaWdodHMgd2l0aCB0aGUgRkNDIGFuZCBGVEMscHJlc2VudGVkIGJ5IENvbnN1bWVyIFRlY2hub2xvZ3kgQXNzb2NpYXRpb24fMTE6MzAgQU0mIzQ1OzEyOjMwIFBNIEphbnVhcnkgNgZMVkNDLCAVTm9ydGggSGFsbCwgUm9vbSBOMjU3FjAxLTA2LTIwMTYgMTE6MzA6MDAgQU0WMDEtMDYtMjAxNiAxMjozMDowMCBQTQAdSW5zaWdodHMgd2l0aCB0aGUgRkNDIGFuZCBGVEOrAkpvaW4gRkNDIENoYWlybWFuIFdoZWVsZXIsIEZUQyBDaGFpcndvbWFuIFJhbWlyZXogYW5kIENvbnN1bWVyIFRlY2hub2xvZ3kgQXNzb2NpYXRpb24gKENUQSkmdHJhZGU7IFByZXNpZGVudCBhbmQgQ0VPIEdhcnkgU2hhcGlybyBmb3IgdHdvIGNhbmRpZCwgdGhpcnR5LW1pbnV0ZSBjb252ZXJzYXRpb25zIGFib3V0IHRoZSBlbm9ybW91cyBhbmQgZXhjaXRpbmcgY2hhbGxlbmdlcyB0aGV5IGZhY2UgYXMgdGhlaXIgYWdlbmNpZXMgbmF2aWdhdGUgdGhlIHJhcGlkbHkgY2hhbmdpbmcgdGVjaG5vbG9naWNhbCBsYW5kc2NhcGUuBkxWQ0MsIBVOb3J0aCBIYWxsLCBSb29tIE4yNTerAkpvaW4gRkNDIENoYWlybWFuIFdoZWVsZXIsIEZUQyBDaGFpcndvbWFuIFJhbWlyZXogYW5kIENvbnN1bWVyIFRlY2hub2xvZ3kgQXNzb2NpYXRpb24gKENUQSkmdHJhZGU7IFByZXNpZGVudCBhbmQgQ0VPIEdhcnkgU2hhcGlybyBmb3IgdHdvIGNhbmRpZCwgdGhpcnR5LW1pbnV0ZSBjb252ZXJzYXRpb25zIGFib3V0IHRoZSBlbm9ybW91cyBhbmQgZXhjaXRpbmcgY2hhbGxlbmdlcyB0aGV5IGZhY2UgYXMgdGhlaXIgYWdlbmNpZXMgbmF2aWdhdGUgdGhlIHJhcGlkbHkgY2hhbmdpbmcgdGVjaG5vbG9naWNhbCBsYW5kc2NhcGUuZAICD2QWAmYPZBYCZg8VBglNb2RlcmF0b3JmPGEgY2xhc3M9ImJpby1saW5rIiBocmVmPSIvQ29uZmVyZW5jZS9TdXBlclNlc3Npb25zL1NVUEVSMDFfRkNDLWFuZC1GVEMtT25lLW9uLU9uZS9HYXJ5LVNoYXBpcm8uYXNweCI+DEdhcnkgU2hhcGlybwQ8L2E+EVByZXNpZGVudCBhbmQgQ0VPH0NvbnN1bWVyIFRlY2hub2xvZ3kgQXNzb2NpYXRpb25kAgMPZBYCZg9kFgJmDxUGB1NwZWFrZXJnPGEgY2xhc3M9ImJpby1saW5rIiBocmVmPSIvQ29uZmVyZW5jZS9TdXBlclNlc3Npb25zL1NVUEVSMDFfRkNDLWFuZC1GVEMtT25lLW9uLU9uZS9FZGl0aC1SYW1pcmV6LmFzcHgiPhtUaGUgSG9ub3JhYmxlIEVkaXRoIFJhbWlyZXoEPC9hPgpDaGFpcndvbWFuGEZlZGVyYWwgVHJhZGUgQ29tbWlzc2lvbmQCBA9kFgJmD2QWAmYPFQYHU3BlYWtlcmU8YSBjbGFzcz0iYmlvLWxpbmsiIGhyZWY9Ii9Db25mZXJlbmNlL1N1cGVyU2Vzc2lvbnMvU1VQRVIwMV9GQ0MtYW5kLUZUQy1PbmUtb24tT25lL1RvbS1XaGVlbGVyLmFzcHgiPhlUaGUgSG9ub3JhYmxlIFRvbSBXaGVlbGVyBDwvYT4IQ2hhaXJtYW4hRmVkZXJhbCBDb21tdW5pY2F0aW9ucyBDb21taXNzaW9uZAIFD2QWAmYPZBYCZg8VDmw8aW1nIGNsYXNzPSJzZXNzaW9uTG9nbyIgc3JjPSJ+L0NFUy9tZWRpYS8yMDE0L0NvbmZlcmVuY2UvTG9nb3MvQ1RBLTEwMS1DVEFfTG9nb19TdGFja2VkX0NNWUsuanBnP2V4dD0uanBnIj4+QW4gSW5zaWRlIExvb2s6IEluZHVzdHJ5IElubm92YXRvcnMgYW5kIEdvdmVybm1lbnQgSm9pbiBGb3JjZXMscHJlc2VudGVkIGJ5IENvbnN1bWVyIFRlY2hub2xvZ3kgQXNzb2NpYXRpb24UMSYjNDU7MiBQTSBKYW51YXJ5IDYGTFZDQywgFU5vcnRoIEhhbGwsIFJvb20gTjI1NxYwMS0wNi0yMDE2IDAxOjAwOjAwIFBNFjAxLTA2LTIwMTYgMDI6MDA6MDAgUE0APkFuIEluc2lkZSBMb29rOiBJbmR1c3RyeSBJbm5vdmF0b3JzIGFuZCBHb3Zlcm5tZW50IEpvaW4gRm9yY2VzlANVLlMuIENoaWVmIFRlY2hub2xvZ3kgT2ZmaWNlciBNZWdhbiBTbWl0aCBhbmQgRGVwdXR5IERpcmVjdG9yIGZvciBUZWNobm9sb2d5IGFuZCBJbm5vdmF0aW9uIFRvbSBLYWxpbCBsZWFkIGEgcHJvdm9jYXRpdmUgZGlzY3Vzc2lvbiBhbW9uZyBnbG9iYWwgaW5kdXN0cnkgdHJlbmRzZXR0ZXJzIGFuZCBwcm92aWRlIGFuIGluc2lkZSBsb29rIGF0IGNvbGxhYm9yYXRpb25zIHRoYXQgYXJlIG1vdmluZyB0aGUgbmVlZGxlIG9uIGtleSB0b3BpY3MgaW5jbHVkaW5nIGVudHJlcHJlbmV1cnNoaXAsIHNtYXJ0IGNpdGllcywgYW5kIGluY2x1c2lvbi4gVGhpcyBjb252ZXJzYXRpb24gd2lsbCBkZWx2ZSBpbnRvIHRoZSBjcml0aWNhbCBpc3N1ZXMgZm9yZ2luZyBuZXcgb3Bwb3J0dW5pdGllcyBpbiB0ZWNobm9sb2d5LgZMVkNDLCAVTm9ydGggSGFsbCwgUm9vbSBOMjU3lANVLlMuIENoaWVmIFRlY2hub2xvZ3kgT2ZmaWNlciBNZWdhbiBTbWl0aCBhbmQgRGVwdXR5IERpcmVjdG9yIGZvciBUZWNobm9sb2d5IGFuZCBJbm5vdmF0aW9uIFRvbSBLYWxpbCBsZWFkIGEgcHJvdm9jYXRpdmUgZGlzY3Vzc2lvbiBhbW9uZyBnbG9iYWwgaW5kdXN0cnkgdHJlbmRzZXR0ZXJzIGFuZCBwcm92aWRlIGFuIGluc2lkZSBsb29rIGF0IGNvbGxhYm9yYXRpb25zIHRoYXQgYXJlIG1vdmluZyB0aGUgbmVlZGxlIG9uIGtleSB0b3BpY3MgaW5jbHVkaW5nIGVudHJlcHJlbmV1cnNoaXAsIHNtYXJ0IGNpdGllcywgYW5kIGluY2x1c2lvbi4gVGhpcyBjb252ZXJzYXRpb24gd2lsbCBkZWx2ZSBpbnRvIHRoZSBjcml0aWNhbCBpc3N1ZXMgZm9yZ2luZyBuZXcgb3Bwb3J0dW5pdGllcyBpbiB0ZWNobm9sb2d5LmQCBg9kFgJmD2QWAmYPFQYHU3BlYWtlcnY8YSBjbGFzcz0iYmlvLWxpbmsiIGhyZWY9Ii9Db25mZXJlbmNlL1N1cGVyU2Vzc2lvbnMvQW4tSW5zaWRlLUxvb2stSW5kdXN0cnktSW5ub3ZhdG9ycy1hbmQtR292ZXJubWVudC9DYXJsLUJhc3MuYXNweCI+CUNhcmwgQmFzcwQ8L2E+A0NFTwhBdXRvZGVza2QCBw9kFgJmD2QWAmYPFQYHU3BlYWtlcnk8YSBjbGFzcz0iYmlvLWxpbmsiIGhyZWY9Ii9Db25mZXJlbmNlL1N1cGVyU2Vzc2lvbnMvQW4tSW5zaWRlLUxvb2stSW5kdXN0cnktSW5ub3ZhdG9ycy1hbmQtR292ZXJubWVudC9BbGJyZXktQnJvd24uYXNweCI+DEFsYnJleSBCcm93bgQ8L2E+CkNvLUZvdW5kZXIRVGVsZWdyYXBoIEFjYWRlbXlkAggPZBYCZg9kFgJmDxUGB1NwZWFrZXJ3PGEgY2xhc3M9ImJpby1saW5rIiBocmVmPSIvQ29uZmVyZW5jZS9TdXBlclNlc3Npb25zL0FuLUluc2lkZS1Mb29rLUluZHVzdHJ5LUlubm92YXRvcnMtYW5kLUdvdmVybm1lbnQvVHJhY3ktQ2hvdS5hc3B4Ij4KVHJhY3kgQ2hvdQQ8L2E+EVNvZnR3YXJlIGVuZ2luZWVyCVBpbnRlcmVzdGQCCQ9kFgJmD2QWAmYPFQYHU3BlYWtlcnY8YSBjbGFzcz0iYmlvLWxpbmsiIGhyZWY9Ii9Db25mZXJlbmNlL1N1cGVyU2Vzc2lvbnMvQW4tSW5zaWRlLUxvb2stSW5kdXN0cnktSW5ub3ZhdG9ycy1hbmQtR292ZXJubWVudC9Ub20tS2FsaWwuYXNweCI+CVRvbSBLYWxpbAQ8L2E+LURlcHV0eSBEaXJlY3RvciBmb3IgVGVjaG5vbG9neSBhbmQgSW5ub3ZhdGlvbjNXaGl0ZSBIb3VzZSBPZmZpY2Ugb2YgU2NpZW5jZSBhbmQgVGVjaG5vbG9neSBQb2xpY3lkAgoPZBYCZg9kFgJmDxUGB1NwZWFrZXJ/PGEgY2xhc3M9ImJpby1saW5rIiBocmVmPSIvQ29uZmVyZW5jZS9TdXBlclNlc3Npb25zL0FuLUluc2lkZS1Mb29rLUluZHVzdHJ5LUlubm92YXRvcnMtYW5kLUdvdmVybm1lbnQvTWljaGFlbC1NYXR0bWlsbGVyLmFzcHgiPhJNaWNoYWVsIE1hdHRtaWxsZXIEPC9hPgNDVE8PQ2l0eSBvZiBTZWF0dGxlZAILD2QWAmYPZBYCZg8VBgdTcGVha2VyeDxhIGNsYXNzPSJiaW8tbGluayIgaHJlZj0iL0NvbmZlcmVuY2UvU3VwZXJTZXNzaW9ucy9Bbi1JbnNpZGUtTG9vay1JbmR1c3RyeS1Jbm5vdmF0b3JzLWFuZC1Hb3Zlcm5tZW50L01lZ2FuLVNtaXRoLmFzcHgiPgtNZWdhbiBTbWl0aAQ8L2E+CFUuUy4gQ1RPM1doaXRlIEhvdXNlIE9mZmljZSBvZiBTY2llbmNlIGFuZCBUZWNobm9sb2d5IFBvbGljeWQCDA9kFgJmD2QWAmYPFQ5bPGltZyBjbGFzcz0ic2Vzc2lvbkxvZ28iIHNyYz0ifi9DRVMvbWVkaWEvMjAxNC9Db25mZXJlbmNlL0xvZ29zL0NFUy0yMjQtQ05FVC5qcGc/ZXh0PS5qcGciPiNUaGUgTmV4dCBCaWcgVGhpbmc6IElzIFR5cGluZyBEZWFkPxFwcmVzZW50ZWQgYnkgQ05FVBozOjMwJiM0NTs0OjMwIFBNIEphbnVhcnkgNgZMVkNDLCAVTm9ydGggSGFsbCwgUm9vbSBOMjU3FjAxLTA2LTIwMTYgMDM6MzA6MDAgUE0WMDEtMDYtMjAxNiAwNDozMDowMCBQTQAjVGhlIE5leHQgQmlnIFRoaW5nOiBJcyBUeXBpbmcgRGVhZD+KAlRoZSBmdXR1cmUgb2YgaG93IHdlIGludGVyYWN0IHdpdGggbWFjaGluZXMgYW5kIGNvbXB1dGVycyBtYXkgY29tcGxldGVseSBjaGFuZ2UuIENORVQgc3RhcnMgVGltIFN0ZXZlbnMgYW5kIEJyaWFuIENvb2xleSBleHBsb3JlIHRoZSByZWxhdGlvbnNoaXAgYmV0d2VlbiBkZXZpY2VzIGFuZCBwZW9wbGUgd2l0aCBhIHBhbmVsIG9mIGxpbmd1aXN0cywgYXJ0aWZpY2lhbCBpbnRlbGxpZ2VuY2Ugc3BlY2lhbGlzdHMgYW5kIGJpZy1uYW1lIGluZHVzdHJ5IGV4cGVydHMuBkxWQ0MsIBVOb3J0aCBIYWxsLCBSb29tIE4yNTeKAlRoZSBmdXR1cmUgb2YgaG93IHdlIGludGVyYWN0IHdpdGggbWFjaGluZXMgYW5kIGNvbXB1dGVycyBtYXkgY29tcGxldGVseSBjaGFuZ2UuIENORVQgc3RhcnMgVGltIFN0ZXZlbnMgYW5kIEJyaWFuIENvb2xleSBleHBsb3JlIHRoZSByZWxhdGlvbnNoaXAgYmV0d2VlbiBkZXZpY2VzIGFuZCBwZW9wbGUgd2l0aCBhIHBhbmVsIG9mIGxpbmd1aXN0cywgYXJ0aWZpY2lhbCBpbnRlbGxpZ2VuY2Ugc3BlY2lhbGlzdHMgYW5kIGJpZy1uYW1lIGluZHVzdHJ5IGV4cGVydHMuZAIND2QWAmYPZBYCZg8VBglNb2RlcmF0b3JxPGEgY2xhc3M9ImJpby1saW5rIiBocmVmPSIvQ29uZmVyZW5jZS9TdXBlclNlc3Npb25zL1NVUEVSMDNfVGhlLU5leHQtQmlnLVRoaW5nLUlzLVR5cGluZy1EZWFkL0JyaWFuLUNvb2xleS5hc3B4Ij4MQnJpYW4gQ29vbGV5BDwvYT4PRWRpdG9yLWF0LUxhcmdlBENORVRkAg4PZBYCZg9kFgJmDxUGCU1vZGVyYXRvcnA8YSBjbGFzcz0iYmlvLWxpbmsiIGhyZWY9Ii9Db25mZXJlbmNlL1N1cGVyU2Vzc2lvbnMvU1VQRVIwM19UaGUtTmV4dC1CaWctVGhpbmctSXMtVHlwaW5nLURlYWQvVGltLVN0ZXZlbnMuYXNweCI+C1RpbSBTdGV2ZW5zBDwvYT4PRWRpdG9yLWF0LUxhcmdlBENORVRkAg8PZBYCZg9kFgJmDxUGB1NwZWFrZXJ0PGEgY2xhc3M9ImJpby1saW5rIiBocmVmPSIvQ29uZmVyZW5jZS9TdXBlclNlc3Npb25zL1NVUEVSMDNfVGhlLU5leHQtQmlnLVRoaW5nLUlzLVR5cGluZy1EZWFkL01hcmN1cy1CZWhyZW5kdC5hc3B4Ij4PTWFyY3VzIEJlaHJlbmR0BDwvYT4iSGVhZCBvZiBVc2VyIEV4cGVyaWVuY2UgRGVwYXJ0bWVudAlCTVcgR3JvdXBkAhAPZBYCZg9kFgJmDxUGB1NwZWFrZXJyPGEgY2xhc3M9ImJpby1saW5rIiBocmVmPSIvQ29uZmVyZW5jZS9TdXBlclNlc3Npb25zL1NVUEVSMDNfVGhlLU5leHQtQmlnLVRoaW5nLUlzLVR5cGluZy1EZWFkL1N1c2FuLUJlbm5ldHQuYXNweCI+DVN1c2FuIEJlbm5ldHQEPC9hPgVWb2ljZQRTaXJpZAIRD2QWAmYPZBYCZg8VBgdTcGVha2VybTxhIGNsYXNzPSJiaW8tbGluayIgaHJlZj0iL0NvbmZlcmVuY2UvU3VwZXJTZXNzaW9ucy9TVVBFUjAzX1RoZS1OZXh0LUJpZy1UaGluZy1Jcy1UeXBpbmctRGVhZC9XZW5keS1KdS5hc3B4Ij4IV2VuZHkgSnUEPC9hPi9FeGVjdXRpdmUgRGlyZWN0b3IsIEludGVyYWN0aW9uIERlc2lnbiBSZXNlYXJjaBlTdGFuZm9yZCBVbml2ZXJzaXR5IChDRFIpZAISD2QWAmYPZBYCZg8VBgdTcGVha2VycDxhIGNsYXNzPSJiaW8tbGluayIgaHJlZj0iL0NvbmZlcmVuY2UvU3VwZXJTZXNzaW9ucy9TVVBFUjAzX1RoZS1OZXh0LUJpZy1UaGluZy1Jcy1UeXBpbmctRGVhZC9QYXR0aWUtTWFlcy5hc3B4Ij4PRHIuIFBhdHRpZSBNYWVzBDwvYT4fUHJvZmVzc29yLCBNSVQgTWVkaWEgTGFib3JhdG9yeQNNSVRkAhMPZBYCZg9kFgJmDxUGB1NwZWFrZXJxPGEgY2xhc3M9ImJpby1saW5rIiBocmVmPSIvQ29uZmVyZW5jZS9TdXBlclNlc3Npb25zL1NVUEVSMDNfVGhlLU5leHQtQmlnLVRoaW5nLUlzLVR5cGluZy1EZWFkL1ZsYWQtU2Vqbm9oYS5hc3B4Ij4MVmxhZCBTZWpub2hhBDwvYT4DQ1RPBk51YW5jZWQCFA9kFgJmD2QWAmYPFQ5uPGltZyBjbGFzcz0ic2Vzc2lvbkxvZ28iIHNyYz0ifi9DRVMvbWVkaWEvMjAxNC9Db25mZXJlbmNlL0xvZ29zL3Jzel9jZXNfMTM3MV9maW5hbF9pb3RfbG9nby0oMSkuanBnP2V4dD0uanBnIj49SW9UIEJ1c2luZXNzIFN0cmF0ZWdpZXM6IFBhcnRuZXJzaGlwcyBmb3IgdGhlIFNoYXJpbmcgRWNvbm9teSVwcmVzZW50ZWQgYnkgSW50ZXJuZXQgb2YgVGhpbmdzIFdvcmxkFTkmIzQ1OzEwIEFNIEphbnVhcnkgNwZMVkNDLCAVTm9ydGggSGFsbCwgUm9vbSBOMjU3FjAxLTA3LTIwMTYgMDk6MDA6MDAgQU0WMDEtMDctMjAxNiAxMDowMDowMCBBTQA9SW9UIEJ1c2luZXNzIFN0cmF0ZWdpZXM6IFBhcnRuZXJzaGlwcyBmb3IgdGhlIFNoYXJpbmcgRWNvbm9tefICSG93IHdpbGwgSW9UIGhlbHAgaW1wcm92ZSBlZmZpY2llbmN5LCBlbmFibGUgaW5ub3ZhdGlvbiBhbmQgZHJpdmUgcmVhbCBidXNpbmVzcyB0cmFuc2Zvcm1hdGlvbiB0aHJvdWdoIHJlYWwtd29ybGQgY3VzdG9tZXIgZXhwZXJpZW5jZXM/Jm5ic3A7IEEgZ2xvYmFsIHBhbmVsIG9mIGV4cGVydHMgYW5kIGlubm92YXRvcnMgd2lsbCBzaGFyZSBpbnNpZ2h0cyBpbnRvIG1heGltaXppbmcgZWZmZWN0aXZlIG1hcmtldGluZyBjaGFubmVscywgZGViYXRlIHRoZSBiZXN0IHN0cmF0ZWdpZXMgdG8gY3JlYXRlIHRydWUgdmFsdWUgZnJvbSBJb1QsIGFuZCBoaWdobGlnaHQgcGFydG5lcnNoaXAgbW9kZWxzIGZvciB0aGUgZnV0dXJlIHNoYXJlZCBlY29ub215LgZMVkNDLCAVTm9ydGggSGFsbCwgUm9vbSBOMjU38gJIb3cgd2lsbCBJb1QgaGVscCBpbXByb3ZlIGVmZmljaWVuY3ksIGVuYWJsZSBpbm5vdmF0aW9uIGFuZCBkcml2ZSByZWFsIGJ1c2luZXNzIHRyYW5zZm9ybWF0aW9uIHRocm91Z2ggcmVhbC13b3JsZCBjdXN0b21lciBleHBlcmllbmNlcz8mbmJzcDsgQSBnbG9iYWwgcGFuZWwgb2YgZXhwZXJ0cyBhbmQgaW5ub3ZhdG9ycyB3aWxsIHNoYXJlIGluc2lnaHRzIGludG8gbWF4aW1pemluZyBlZmZlY3RpdmUgbWFya2V0aW5nIGNoYW5uZWxzLCBkZWJhdGUgdGhlIGJlc3Qgc3RyYXRlZ2llcyB0byBjcmVhdGUgdHJ1ZSB2YWx1ZSBmcm9tIElvVCwgYW5kIGhpZ2hsaWdodCBwYXJ0bmVyc2hpcCBtb2RlbHMgZm9yIHRoZSBmdXR1cmUgc2hhcmVkIGVjb25vbXkuZAIVD2QWAmYPZBYCZg8VBglNb2RlcmF0b3J4PGEgY2xhc3M9ImJpby1saW5rIiBocmVmPSIvQ29uZmVyZW5jZS9TdXBlclNlc3Npb25zL0lvVC1CdXNpbmVzcy1TdHJhdGVnaWVzLVBhcnRuZXJzaGlwcy1mb3ItdGhlLVNoYXIvTWlrZS1TYXBpZW4uYXNweCI+C01pa2UgU2FwaWVuBDwvYT4RUHJpbmNpcGFsIEFuYWx5c3QET3Z1bWQCFg9kFgJmD2QWAmYPFQYHU3BlYWtlcn48YSBjbGFzcz0iYmlvLWxpbmsiIGhyZWY9Ii9Db25mZXJlbmNlL1N1cGVyU2Vzc2lvbnMvSW9ULUJ1c2luZXNzLVN0cmF0ZWdpZXMtUGFydG5lcnNoaXBzLWZvci10aGUtU2hhci9DYXJsYS1BcmNoYW1iYXVsdC5hc3B4Ij4RQ2FybGEgQXJjaGFtYmF1bHQEPC9hPjlEaXJlY3RvciBvZiBTdHJhdGVnaWMgSW5pdGlhdGl2ZXMsIFByb2R1Y3QgYW5kIEV4cGVyaWVuY2UGWmlwY2FyZAIXD2QWAmYPZBYCZg8VBgdTcGVha2VyfDxhIGNsYXNzPSJiaW8tbGluayIgaHJlZj0iL0NvbmZlcmVuY2UvU3VwZXJTZXNzaW9ucy9Jb1QtQnVzaW5lc3MtU3RyYXRlZ2llcy1QYXJ0bmVyc2hpcHMtZm9yLXRoZS1TaGFyL011cmllbC1CYXJuZW91ZC5hc3B4Ij4PTXVyaWVsIEJhcm5lb3VkBDwvYT4DQ0VPGERvY2Fwb3N0LUdyb3VwZSBMYSBQb3N0ZWQCGA9kFgJmD2QWAmYPFQYHU3BlYWtlcno8YSBjbGFzcz0iYmlvLWxpbmsiIGhyZWY9Ii9Db25mZXJlbmNlL1N1cGVyU2Vzc2lvbnMvSW9ULUJ1c2luZXNzLVN0cmF0ZWdpZXMtUGFydG5lcnNoaXBzLWZvci10aGUtU2hhci9KYXNvbi1Kb2huc29uLmFzcHgiPg1KYXNvbiBKb2huc29uBDwvYT4DQ0VPEUF1Z3VzdCBIb21lLCBJbmMuZAIZD2QWAmYPZBYCZg8VBgdTcGVha2VyAA1TYW5kaHlhIFJhbwkJADNTci4gRGlyZWN0b3IsIFNhYVMgYW5kIE1vYmlsZSBBcHAgUHJvZHVjdCBNYXJrZXRpbmcYSG9uZXl3ZWxsIENvbm5lY3RlZCBIb21lZAIaD2QWAmYPZBYCZg8VBgdTcGVha2VyeDxhIGNsYXNzPSJiaW8tbGluayIgaHJlZj0iL0NvbmZlcmVuY2UvU3VwZXJTZXNzaW9ucy9Jb1QtQnVzaW5lc3MtU3RyYXRlZ2llcy1QYXJ0bmVyc2hpcHMtZm9yLXRoZS1TaGFyL01pa2UtU291Y2llLmFzcHgiPg1NaWtlIFNvdWNpZQkJBDwvYT4VUHJvZHVjdCBTdHJhdGVneSBMZWFkBE5lc3RkAhsPZBYCZg9kFgJmDxUGB1NwZWFrZXJ5PGEgY2xhc3M9ImJpby1saW5rIiBocmVmPSIvQ29uZmVyZW5jZS9TdXBlclNlc3Npb25zL0lvVC1CdXNpbmVzcy1TdHJhdGVnaWVzLVBhcnRuZXJzaGlwcy1mb3ItdGhlLVNoYXIvTWlrZS1Ucm9pYW5vLmFzcHgiPgxNaWtlIFRyb2lhbm8EPC9hPhZWUCwgSW50ZXJuZXQgb2YgVGhpbmdzBEFUJlRkAhwPZBYCZg9kFgJmDxUGB1NwZWFrZXJ+PGEgY2xhc3M9ImJpby1saW5rIiBocmVmPSIvQ29uZmVyZW5jZS9TdXBlclNlc3Npb25zL0lvVC1CdXNpbmVzcy1TdHJhdGVnaWVzLVBhcnRuZXJzaGlwcy1mb3ItdGhlLVNoYXIvR2F2aW4tV2hpdGVjaHVyY2guYXNweCI+EUdhdmluIFdoaXRlY2h1cmNoBDwvYT4hRm91bmRlciwgSW50ZXJuZXQgb2YgVGhpbmdzIFdvcmxkB0luZm9ybWFkAh0PZBYCZg9kFgJmDxUOcDxpbWcgY2xhc3M9InNlc3Npb25Mb2dvIiBzcmM9In4vQ0VTL21lZGlhLzIwMTQvQ29uZmVyZW5jZS9Mb2dvcy9yc3pfY3RhXzEwMV9jdGFfbG9nb19zdGFja2VkX2NteWsuanBnP2V4dD0uanBnIj4qRm9yZWNhc3RpbmcgdGhlIEZ1dHVyZSBvZiBFbnRyZXByZW5ldXJzaGlwLHByZXNlbnRlZCBieSBDb25zdW1lciBUZWNobm9sb2d5IEFzc29jaWF0aW9uHDExOjMwJiM0NTsxMjozMCBBTSBKYW51YXJ5IDcGTFZDQywgFU5vcnRoIEhhbGwsIFJvb20gTjI1NxYwMS0wNy0yMDE2IDExOjMwOjAwIEFNFjAxLTA3LTIwMTYgMTI6MzA6MDAgQU0AKkZvcmVjYXN0aW5nIHRoZSBGdXR1cmUgb2YgRW50cmVwcmVuZXVyc2hpcOABSm9pbiBwb3dlcmZ1bCBpbm5vdmF0b3JzIGFzIHRoZXkgc2hhcmUgdGhlaXIgY2FuZGlkIHZpZXdzIG9uIHRoZSBmdXR1cmUgb2YgZW50cmVwcmVuZXVyc2hpcC4gVGhlc2UgZGlzcnVwdGl2ZSB2aXNpb25hcmllcyB3aWxsIHByZWRpY3QgdGhlIG5leHQgYmlnIGNhdGVnb3JpZXMgaW4gdGVjaCBhbmQgdGhlIG9wcG9ydHVuaXRpZXMgYW5kIHJpc2tzIGFoZWFkIGZvciBmdXR1cmUgbGVhZGVycy4GTFZDQywgFU5vcnRoIEhhbGwsIFJvb20gTjI1N+ABSm9pbiBwb3dlcmZ1bCBpbm5vdmF0b3JzIGFzIHRoZXkgc2hhcmUgdGhlaXIgY2FuZGlkIHZpZXdzIG9uIHRoZSBmdXR1cmUgb2YgZW50cmVwcmVuZXVyc2hpcC4gVGhlc2UgZGlzcnVwdGl2ZSB2aXNpb25hcmllcyB3aWxsIHByZWRpY3QgdGhlIG5leHQgYmlnIGNhdGVnb3JpZXMgaW4gdGVjaCBhbmQgdGhlIG9wcG9ydHVuaXRpZXMgYW5kIHJpc2tzIGFoZWFkIGZvciBmdXR1cmUgbGVhZGVycy5kAh4PZBYCZg9kFgJmDxUGCU1vZGVyYXRvcnQ8YSBjbGFzcz0iYmlvLWxpbmsiIGhyZWY9Ii9Db25mZXJlbmNlL1N1cGVyU2Vzc2lvbnMvRm9yZWNhc3RpbmctdGhlLUZ1dHVyZS1vZi1FbnRyZXByZW5ldXJzaGlwL1JlYmVjY2EtSmFydmlzLmFzcHgiPg5SZWJlY2NhIEphcnZpcwQ8L2E+KkNoaWVmIEJ1c2luZXNzIGFuZCBFY29ub21pY3MgQ29ycmVzcG9uZGVudAhBQkMgTmV3c2QCHw9kFgJmD2QWAmYPFQYHU3BlYWtlcnk8YSBjbGFzcz0iYmlvLWxpbmsiIGhyZWY9Ii9Db25mZXJlbmNlL1N1cGVyU2Vzc2lvbnMvRm9yZWNhc3RpbmctdGhlLUZ1dHVyZS1vZi1FbnRyZXByZW5ldXJzaGlwL1N0ZXdhcnQtQnV0dGVyZmllbGQuYXNweCI+E1N0ZXdhcnQgQnV0dGVyZmllbGQEPC9hPhJDRU8gYW5kIENvLUZvdW5kZXIFU2xhY2tkAiAPZBYCZg9kFgJmDxUGB1NwZWFrZXJwPGEgY2xhc3M9ImJpby1saW5rIiBocmVmPSIvQ29uZmVyZW5jZS9TdXBlclNlc3Npb25zL0ZvcmVjYXN0aW5nLXRoZS1GdXR1cmUtb2YtRW50cmVwcmVuZXVyc2hpcC9TdGV2ZS1DYXNlLmFzcHgiPgpTdGV2ZSBDYXNlBDwvYT4QQ2hhaXJtYW4gYW5kIENFTwpSZXZvbHV0aW9uZAIhD2QWAmYPZBYCZg8VBgdTcGVha2VycjxhIGNsYXNzPSJiaW8tbGluayIgaHJlZj0iL0NvbmZlcmVuY2UvU3VwZXJTZXNzaW9ucy9Gb3JlY2FzdGluZy10aGUtRnV0dXJlLW9mLUVudHJlcHJlbmV1cnNoaXAvTmljay1Xb29kbWFuLmFzcHgiPhBOaWNob2xhcyBXb29kbWFuBDwvYT4PRm91bmRlciBhbmQgQ0VPBUdvUHJvZAIiD2QWAmYPZBYCZg8VDmw8aW1nIGNsYXNzPSJzZXNzaW9uTG9nbyIgc3JjPSJ+L0NFUy9tZWRpYS8yMDE0L0NvbmZlcmVuY2UvTG9nb3MvQ1RBLTEwMS1DVEFfTG9nb19TdGFja2VkX0NNWUsuanBnP2V4dD0uanBnIj47TWFraW5nIERpc25leSBNYWdpYzogQ29ubmVjdGluZyBEaWdpdGFsIGFuZCBQaHlzaWNhbCBXb3JsZHMscHJlc2VudGVkIGJ5IENvbnN1bWVyIFRlY2hub2xvZ3kgQXNzb2NpYXRpb24UMSYjNDU7MiBQTSBKYW51YXJ5IDcGTFZDQywgFU5vcnRoIEhhbGwsIFJvb20gTjI1NxYwMS0wNy0yMDE2IDAxOjAwOjAwIFBNFjAxLTA3LTIwMTYgMDI6MDA6MDAgUE0AO01ha2luZyBEaXNuZXkgTWFnaWM6IENvbm5lY3RpbmcgRGlnaXRhbCBhbmQgUGh5c2ljYWwgV29ybGRz3QJUaGUgV2FsdCBEaXNuZXkgQ29tcGFueSBoYXMgYmVlbiBhIHBpb25lZXIgaW4gY29ubmVjdGluZyB0aGUgcGh5c2ljYWwgYW5kIGRpZ2l0YWwsIGJyaW5naW5nIERpc25leSBzdG9yaWVzIGFuZCBjaGFyYWN0ZXJzIHRvIGxpZmUgbGlrZSBuZXZlciBiZWZvcmUuIEpvaW4gbGVhZGVycyBmcm9tIFdhbHQgRGlzbmV5IFBhcmtzIGFuZCBSZXNvcnRzLCBFU1BOLCBBQkMgVGVsZXZpc2lvbiBHcm91cCBhbmQgRGlzbmV5IENvbnN1bWVyIFByb2R1Y3RzIGFuZCBJbnRlcmFjdGl2ZSBNZWRpYSBhcyB0aGV5IGV4cGxvcmUgdGhlIGV2b2x1dGlvbiBvZiBwaHlzaWNhbCBleHBlcmllbmNlcyBpbiBhIGRpZ2l0YWwgd29ybGQuBkxWQ0MsIBVOb3J0aCBIYWxsLCBSb29tIE4yNTfdAlRoZSBXYWx0IERpc25leSBDb21wYW55IGhhcyBiZWVuIGEgcGlvbmVlciBpbiBjb25uZWN0aW5nIHRoZSBwaHlzaWNhbCBhbmQgZGlnaXRhbCwgYnJpbmdpbmcgRGlzbmV5IHN0b3JpZXMgYW5kIGNoYXJhY3RlcnMgdG8gbGlmZSBsaWtlIG5ldmVyIGJlZm9yZS4gSm9pbiBsZWFkZXJzIGZyb20gV2FsdCBEaXNuZXkgUGFya3MgYW5kIFJlc29ydHMsIEVTUE4sIEFCQyBUZWxldmlzaW9uIEdyb3VwIGFuZCBEaXNuZXkgQ29uc3VtZXIgUHJvZHVjdHMgYW5kIEludGVyYWN0aXZlIE1lZGlhIGFzIHRoZXkgZXhwbG9yZSB0aGUgZXZvbHV0aW9uIG9mIHBoeXNpY2FsIGV4cGVyaWVuY2VzIGluIGEgZGlnaXRhbCB3b3JsZC5kAiMPZBYCZg9kFgJmDxUGCU1vZGVyYXRvcnk8YSBjbGFzcz0iYmlvLWxpbmsiIGhyZWY9Ii9Db25mZXJlbmNlL1N1cGVyU2Vzc2lvbnMvQ29ubmVjdGluZy1EaWdpdGFsLWFuZC1QaHlzaWNhbC1EaXNuZXktQ3JlYXRlcy1NYS9EYXltb25kLUpvaG4uYXNweCI+DERheW1vbmQgSm9obgQ8L2E+KkNFTyBhbmQgVFYgUGVyc29uYWxpdHkgb24gQUJDJ3MgU2hhcmsgVGFuaxdGVUJVIGFuZCBTaGFyayBCcmFuZGluZ2QCJA9kFgJmD2QWAmYPFQYHU3BlYWtlcn88YSBjbGFzcz0iYmlvLWxpbmsiIGhyZWY9Ii9Db25mZXJlbmNlL1N1cGVyU2Vzc2lvbnMvQ29ubmVjdGluZy1EaWdpdGFsLWFuZC1QaHlzaWNhbC1EaXNuZXktQ3JlYXRlcy1NYS9Kb2huLUZyZWxpbmdodXlzZW4uYXNweCI+EkpvaG4gRnJlbGluZ2h1eXNlbgQ8L2E+NUVWUCwgRGlnaXRhbCBNZWRpYSwgU3RyYXRlZ3kgYW5kIEJ1c2luZXNzIERldmVsb3BtZW50FEFCQyBUZWxldmlzaW9uIEdyb3VwZAIlD2QWAmYPZBYCZg8VBgdTcGVha2VyeDxhIGNsYXNzPSJiaW8tbGluayIgaHJlZj0iL0NvbmZlcmVuY2UvU3VwZXJTZXNzaW9ucy9Db25uZWN0aW5nLURpZ2l0YWwtYW5kLVBoeXNpY2FsLURpc25leS1DcmVhdGVzLU1hL1N1c2FuLU8tRGF5LmFzcHgiPgtTdXNhbiBPJ0RheQQ8L2E+IkVWUCwgRW50ZXJwcmlzZSBUZWNobm9sb2d5IGFuZCBDSU8XVGhlIFdhbHQgRGlzbmV5IENvbXBhbnlkAiYPZBYCZg9kFgJmDxUGB1NwZWFrZXIACkpvbiBTbm9kZHkAA0VWUBhXYWx0IERpc25leSBJbWFnaW5lZXJpbmdkAicPZBYCZg9kFgJmDxUGB1NwZWFrZXJ3PGEgY2xhc3M9ImJpby1saW5rIiBocmVmPSIvQ29uZmVyZW5jZS9TdXBlclNlc3Npb25zL0Nvbm5lY3RpbmctRGlnaXRhbC1hbmQtUGh5c2ljYWwtRGlzbmV5LUNyZWF0ZXMtTWEvTWlrZS1XaGl0ZS5hc3B4Ij4NTWljaGFlbCBXaGl0ZQQ8L2E+IFNWUCBhbmQgQ2hpZWYgVGVjaG5vbG9neSBPZmZpY2VyLkRpc25leSBDb25zdW1lciBQcm9kdWN0cyBhbmQgSW50ZXJhY3RpdmUgTWVkaWFkAigPZBYCZg9kFgJmDxUObDxpbWcgY2xhc3M9InNlc3Npb25Mb2dvIiBzcmM9In4vQ0VTL21lZGlhLzIwMTQvQ29uZmVyZW5jZS9Mb2dvcy9DVEEtMTAxLUNUQV9Mb2dvX1N0YWNrZWRfQ01ZSy5qcGc/ZXh0PS5qcGciPhFHbG9iYWwgSW5ub3ZhdGlvbixwcmVzZW50ZWQgYnkgQ29uc3VtZXIgVGVjaG5vbG9neSBBc3NvY2lhdGlvbhoyOjMwJiM0NTszOjMwIFBNIEphbnVhcnkgNwZMVkNDLCAVTm9ydGggSGFsbCwgUm9vbSBOMjU3FjAxLTA3LTIwMTYgMDI6MzA6MDAgUE0WMDEtMDctMjAxNiAwMzozMDowMCBQTQARR2xvYmFsIElubm92YXRpb26IA0Vjb25vbWljIGdyb3d0aCBhbmQgcHJvc3Blcml0eSBhcmUgbW9zdCB2aWJyYW50IHdoZXJlIHBvbGljaWVzIGFuZCBwb2xpdGljYWwgY2xpbWF0ZXMgZm9zdGVyIGlubm92YXRpb24gYW5kIHRoZSBlbnRyZXByZW5ldXJpYWwgc3Bpcml0LiZuYnNwOyBMZWFybiB3aGVyZSBjb21wYW5pZXMgZmluZCB0aGUgaW5ub3ZhdGlvbi1mcmllbmRseSBlbnZpcm9ubWVudHMgdGhleSBuZWVkIHRvIHN1Y2NlZWQgYW5kIHdoZXRoZXIgZ292ZXJubWVudHMgY29tcGV0ZSB0byBhdHRyYWN0IGlubm92YXRvcnMgb3IgcHJvdGVjdCB0aG9zZSB0aGV5IGhhdmUuJm5ic3A7IEdsb2JhbCBidXNpbmVzcyBsZWFkZXJzIGFuZCBwb2xpY3kgb3BlcmF0b3JzIHdlaWdoIGluIG9uIHRoZSBkaWdpdGFsIGVjb25vbXkuBkxWQ0MsIBVOb3J0aCBIYWxsLCBSb29tIE4yNTeIA0Vjb25vbWljIGdyb3d0aCBhbmQgcHJvc3Blcml0eSBhcmUgbW9zdCB2aWJyYW50IHdoZXJlIHBvbGljaWVzIGFuZCBwb2xpdGljYWwgY2xpbWF0ZXMgZm9zdGVyIGlubm92YXRpb24gYW5kIHRoZSBlbnRyZXByZW5ldXJpYWwgc3Bpcml0LiZuYnNwOyBMZWFybiB3aGVyZSBjb21wYW5pZXMgZmluZCB0aGUgaW5ub3ZhdGlvbi1mcmllbmRseSBlbnZpcm9ubWVudHMgdGhleSBuZWVkIHRvIHN1Y2NlZWQgYW5kIHdoZXRoZXIgZ292ZXJubWVudHMgY29tcGV0ZSB0byBhdHRyYWN0IGlubm92YXRvcnMgb3IgcHJvdGVjdCB0aG9zZSB0aGV5IGhhdmUuJm5ic3A7IEdsb2JhbCBidXNpbmVzcyBsZWFkZXJzIGFuZCBwb2xpY3kgb3BlcmF0b3JzIHdlaWdoIGluIG9uIHRoZSBkaWdpdGFsIGVjb25vbXkuZAIpD2QWAmYPZBYCZg8VBglNb2RlcmF0b3JgPGEgY2xhc3M9ImJpby1saW5rIiBocmVmPSIvQ29uZmVyZW5jZS9TdXBlclNlc3Npb25zL1NVUEVSMDZfR2xvYmFsLUlubm92YXRpb24vQWxhbi1NdXJyYXkuYXNweCI+C0FsYW4gTXVycmF5BDwvYT4GRWRpdG9yEEZvcnR1bmUgTWFnYXppbmVkAioPZBYCZg9kFgJmDxUGB1NwZWFrZXJhPGEgY2xhc3M9ImJpby1saW5rIiBocmVmPSIvQ29uZmVyZW5jZS9TdXBlclNlc3Npb25zL1NVUEVSMDZfR2xvYmFsLUlubm92YXRpb24vTmVlbGllLUtyb2VzLmFzcHgiPgxOZWVsaWUgS3JvZXMEPC9hPg1TcGVjaWFsIEVudm95DFN0YXJ0dXBEZWx0YWQCKw9kFgJmD2QWAmYPFQYHU3BlYWtlcmQ8YSBjbGFzcz0iYmlvLWxpbmsiIGhyZWY9Ii9Db25mZXJlbmNlL1N1cGVyU2Vzc2lvbnMvU1VQRVIwNl9HbG9iYWwtSW5ub3ZhdGlvbi9FbW1hbnVlbC1NYWNyb24uYXNweCI+D0VtbWFudWVsIE1hY3JvbgQ8L2E+CE1pbmlzdGVyOEZyZW5jaCBNaW5pc3RyeSBvZiBFY29ub215LCBJbmR1c3RyeSBhbmQgRGlnaXRhbCBBZmZhaXJzZAIsD2QWAmYPZBYCZg8VBgdTcGVha2VyZTxhIGNsYXNzPSJiaW8tbGluayIgaHJlZj0iL0NvbmZlcmVuY2UvU3VwZXJTZXNzaW9ucy9TVVBFUjA2X0dsb2JhbC1Jbm5vdmF0aW9uL0plYW5uaW5lLVNhcmdlbnQuYXNweCI+EEplYW5uaW5lIFNhcmdlbnQEPC9hPiRQcmVzaWRlbnQsIElubm92YXRpb24gJiBOZXcgVmVudHVyZXMERmxleGQCLQ9kFgJmD2QWAmYPFQYHU3BlYWtlcmA8YSBjbGFzcz0iYmlvLWxpbmsiIGhyZWY9Ii9Db25mZXJlbmNlL1N1cGVyU2Vzc2lvbnMvU1VQRVIwNl9HbG9iYWwtSW5ub3ZhdGlvbi9NYXJrLVdhcm5lci5hc3B4Ij4YVS5TLiBTZW5hdG9yIE1hcmsgV2FybmVyBDwvYT4IU2VuYXRvciALVS5TLiBTZW5hdGVkZFR5G1vEZZWWKKy/4BUK4jUP4q22kJeO9qPF+sS3kh6t" />
+  <script type="text/javascript"> 
+      //<![CDATA[
+      if (window.WebForm_InitCallback) { 
+        __theFormPostData = '';
+        __theFormPostCollection = new Array();
+        window.WebForm_InitCallback(); 
+      }
+      //]]>
+    </script>
+  </form>
+</body>
+</html>
