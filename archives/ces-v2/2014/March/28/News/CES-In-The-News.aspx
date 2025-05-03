@@ -1,0 +1,805 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head id="head"><title>
+	CES In The News - 2015 International CES, January 6-9
+</title><meta name="description" content="Check out what people are saying about this year’s show. We’ve compiled a list of CES news from all over. " /> 
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" /> 
+<meta http-equiv="pragma" content="no-cache" /> 
+<meta http-equiv="content-style-type" content="text/css" /> 
+<meta http-equiv="content-script-type" content="text/javascript" /> 
+<meta name="keywords" content="International CES, CES, CES 2010, CES 2011, CES 2012, CES 2013, CES 2014, CES 2015, CES 2016, CES 2017, CES 2018, Consumer Electronics Show, Consumer Technology, Consumer Electronics, Consumer Electronics Association, CES Las Vegas, ces show, ces vegas, CES Unveiled, ces tradeshow, ces conference, ces registration, ces exhibitor, ces innovation awards, innovation awards, best of ces, ces keynote, ces show floor, technology, silicon valley, technology innovation, disruptive technology, start-ups,International CES, CES, CES 2010, CES 2011, CES 2012, CES 2013, CES 2014, CES 2015, CES 2016, CES 2017, CES 2018, Consumer Electronics Show, Consumer Technology, Consumer Electronics, Consumer Electronics Association, CES Las Vegas, ces show, ces vegas, CES Unveiled, ces tradeshow, ces conference, ces registration, ces exhibitor, ces innovation awards, innovation awards, best of ces, ces keynote, ces show floor, technology, silicon valley, technology innovation, disruptive technology, start-ups" /> 
+
+<meta name="viewport" content="initial-scale=1">
+
+<!-- open graph -->
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="International CES" />
+<meta property="og:url" content="http://www.cesweb.org/News/CES-In-The-News" />
+<meta property="og:title" content="CES In The News" />
+<meta property="og:description" content="Check out what people are saying about this year’s show. We’ve compiled a list of CES news from all over. ">
+<meta property="og:image" content="http://www.cesweb.org/CES/media/2014/landing%20pages/News/car_CES.jpg?width=380&height=215&ext=.jpg">
+<!-- open graph -->
+
+<meta property="twitter:account_id" content="10668202" />
+<!-- Twitter Summary Card -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@IntlCES">
+<meta name="twitter:creator" content="@IntlCES">
+<meta name="twitter:title" content="CES In The News">
+<meta name="twitter:description" content="Check out what people are saying about this year’s show. We’ve compiled a list of CES news from all over. ">
+<meta name="twitter:image" content="http://content.ce.org/2013ces/images/hpimages/header/cesweb_headerlogo.png">
+<!-- End of Twitter Summary Card -->
+
+
+<link rel="shortcut icon" href="/ces/favicon.ico" />
+<link rel="icon" href="/ces/favicon.ico" />
+
+<!--[if !IE]><!-->
+<link href="/CMSPages/GetResource.ashx?stylesheetname=ices-main-style" type="text/css" rel="stylesheet" media="screen" />
+<!--<![endif]-->
+<!--[if lte IE 9]>
+<link href="/CMSPages/GetResource.ashx?stylesheetname=ices-IE8" type="text/css" rel="stylesheet" media="screen" />
+<![endif]-->  
+<link href="/CMSPages/GetResource.ashx?stylesheetname=ices-mediaelementplayer.min	" type="text/css" rel="stylesheet" media="screen" />
+<link href="/CMSPages/GetResource.ashx?stylesheetname=ices-captions" type="text/css" rel="stylesheet"  />
+<link href="/CMSPages/GetResource.ashx?stylesheetname=ices-slider-style" type="text/css" rel="stylesheet" media="screen" />
+<link href="/CMSPages/GetResource.ashx?stylesheetname=ices-flexslider" type="text/css" rel="stylesheet" />
+<link href="/CMSPages/GetResource.ashx?stylesheetname=ices-prettyphoto" type="text/css" rel="stylesheet" />
+<link href="/CMSPages/GetResource.ashx?stylesheetname=ices-settings" type="text/css" rel="stylesheet" media="screen" />
+<link href="/CMSPages/GetResource.ashx?stylesheetname=ices-fonts" type="text/css" rel="stylesheet" media="screen" />
+<link href="/CMSPages/GetResource.ashx?stylesheetname=ices-print" type="text/css" rel="stylesheet" media="print" />
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+<script type="text/javascript" src="/ces/js/itn/jquery.cookie.js"></script>
+<script type="text/javascript" src="/ces/js/scripts.js"></script>
+<!--<script type="text/javascript" src="/ces/js/jquery.themepunch.revolution.min.js"></script>-->
+<script type="text/javascript" src="/ces/js/custom.js"></script>
+
+
+<script type="text/javascript">
+  <!--
+    function toggle_visibility(id) {
+      var e = document.getElementById(id);
+      if (e.style.display == 'block')
+        e.style.display = 'none';
+      else
+        e.style.display = 'block';
+    }
+      //-->
+</script>
+<script type="text/javascript">
+  function EnterEvent(e) {
+    if (e.keyCode == 13) {
+      var val = document.getElementById('searchTxt').value;
+      var sURL = '/search-results?searchtext=' + val + '&searchmode=anyword';
+      window.location.href = sURL;
+      return false;
+    }
+  }
+  
+  jQuery(document).ready(function ($) {
+    for (var count = 2 ;count <= 7; count ++)
+    {
+      var a = $('#'+ count +' ul.nav-3cols > li');
+      for (var i = 0; i < a.length; i += 5) {
+        a.slice(i, i + 5).wrapAll('<div class="nav-col"></div>');
+      }
+      var a = $('#'+ count +' ul.nav-2cols > li');
+      for (var i = 0; i < a.length; i += 5) {
+        a.slice(i, i + 5).wrapAll('<div class="nav-col"></div>');
+      }
+    }
+    
+    
+  });
+</script>
+<script type="text/javascript">var switchTo5x=false;</script>
+<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+<script type="text/javascript">stLight.options({publisher: "a17beaa8-5eee-4df7-8629-9947a3e965e3",  offsetLeft:'-270', doNotHash: true, doNotCopy: false, hashAddressBar: false, exclusive_services:true, services:"facebook,twitter,linkedin,googleplus,email,sharethis", minorServices:false});</script>
+
+
+
+<script type="text/javascript" src="/ces/js/cmsedit/WidgetSecurity_non_Admin.js"></script> 
+<style type="text/css" rel="stylesheet"> 
+                   
+                        .languages {
+                        display: none !important;
+                        
+                        }
+
+                    </style>
+                    <link href="/CMSPages/GetResource.ashx?_webparts=1067" type="text/css" rel="stylesheet"/> 
+</head>
+<body class="LTR ENUS ContentBody" >
+    <form method="post" action="/News/CES-In-The-News.aspx" id="form">
+<div class="aspNetHidden">
+<input type="hidden" name="manScript_HiddenField" id="manScript_HiddenField" value="" />
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJODc3OTc4NjAwD2QWAgIBEGRkFgICBQ9kFgJmD2QWAmYPZBYCAg0PZBYCZg9kFgICAg9kFgJmD2QWAmYPZBYEAgMPZBYCZg8PFgIeCEJhbm5lcklEAhFkFgJmDw8WBh4IQ3NzQ2xhc3MFEENNU0Jhbm5lciBCYW5uZXIeBF8hU0ICAh4HVmlzaWJsZWcWBh4EaHJlZgUqaHR0cDovL3d3dy5jZS5vcmcvTWVtYmVyc2hpcC9Kb2luLUNFQS5hc3B4HgdvbmNsaWNrBZMBdGhpcy5ocmVmPScvQ01TTW9kdWxlcy9CYW5uZXJNYW5hZ2VtZW50L0NNU1BhZ2VzL0Jhbm5lclJlZGlyZWN0LmFzaHg/YmFubmVySUQ9MTcmcmVkaXJlY3RVUkw9aHR0cCUzYSUyZiUyZnd3dy5jZS5vcmclMmZNZW1iZXJzaGlwJTJmSm9pbi1DRUEuYXNweCc7Hglvbm1vdXNldXAFkwF0aGlzLmhyZWY9Jy9DTVNNb2R1bGVzL0Jhbm5lck1hbmFnZW1lbnQvQ01TUGFnZXMvQmFubmVyUmVkaXJlY3QuYXNoeD9iYW5uZXJJRD0xNyZyZWRpcmVjdFVSTD1odHRwJTNhJTJmJTJmd3d3LmNlLm9yZyUyZk1lbWJlcnNoaXAlMmZKb2luLUNFQS5hc3B4JzsWAgIBDw8WDB4NQWx0ZXJuYXRlVGV4dGUeB1Rvb2xUaXBlHwFlHghJbWFnZVVybAU3L0NFUy9tZWRpYS8yMDE0L2FkdmVydGlzZW1lbnRzLzEzMzUyX0pvaW5DRUFfQ0VTd2ViLmpwZx8CAgIfA2cWAh4Fc3R5bGVlZAIPD2QWAmYPZBYCZg9kFgJmD2QWAmYPZBYCZg8PFgYeC18hRGF0YUJvdW5kZx4JSXRlbUNvdW50AgEeC18hSXRlbUNvdW50AgFkFgJmD2QWAmYPZBYCZg8VAwAAbkNoZWNrIG91dCB3aGF0IHBlb3BsZSBhcmUgc2F5aW5nIGFib3V0IHRoaXMgeWVhcuKAmXMgc2hvdyEgV2XigJl2ZSBjb21waWxlZCBhIGxpc3Qgb2YgQ0VTIG5ld3MgZnJvbSBhbGwgb3Zlci4gZGROocyShRSQy7cBOiE2Qmf8+Jjil1MkVpMoSmsqp0fxRg==" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form'];
+if (!theForm) {
+    theForm = document.form;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=vRn7bcvXj7RiUi6aDY86m0fArV_YrRbrmM8WxszQNvUuQ853KICR6I-6vwDrP20GBoG3yftetC6CwA8T96GKqY1btnps2s7G-KDfDNtUaug1&amp;t=635173932204766092" type="text/javascript"></script>
+
+<input type="hidden" name="lng" id="lng" value="en-US" />
+<script type="text/javascript">
+	//<![CDATA[
+
+function PM_Postback(param) { if (window.top.HideScreenLockWarningAndSync) { window.top.HideScreenLockWarningAndSync(1080); }__doPostBack('m',param); }
+function PM_Callback(param, callback, ctx) { if (window.top.HideScreenLockWarningAndSync) { window.top.HideScreenLockWarningAndSync(1080); }WebForm_DoCallback('m',param,callback,ctx,null,true); }
+//]]>
+</script>
+<script src="/ScriptResource.axd?d=xGXUM7jMGQNtTD_Hy-q13lC7eiHkBJMfSvtaYsyexSYM-SWvP5goZQD-aGZeZPbJt7J2chgdVBECY9kRfiR4U38NZWRG5vD2j2rSqrR83P_cLrT7Ww68m4lt3GVwfv3d0&amp;t=ffffffff8dea9fe4" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=HvYVb4mu5g1uO91VTV9XgOq08lLZi730oNKBpKC-JaAtc4Rcq8nD54y-Tezt4vha63dGmqmyLgdL5WfUKedZUz9Rb5JUSJElAI9OyGuKQJs2tZb-t888b71Gd1C5RuVAHUttQWdXt4LTCuLkQ-uYXA2&amp;t=ffffffff8dea9fe4" type="text/javascript"></script>
+    <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('manScript', 'form', ['tctxM',''], [], [], 90, '');
+//]]>
+</script>
+<div id="CMSHeaderDiv">
+	<!-- -->
+</div>
+    <div id="ctxM">
+
+</div>
+    
+<!--[if lte IE 9]>
+  <div style="display: block; width: 97%; background-color: #FF99CC; padding: 10px 30px 10px 30px; text-align: center; color: black; font-size:20px;">
+    We noticed you are using an older version of IE that isn't fully supported on this site. Please click <a  href="#">here</a> for more information and options.
+</div>
+<![endif]-->  
+
+<div id="wrapper">
+	<div id="center_top">
+    <div id="container">
+        	<!--TOP PANEL-->
+			<section>
+            <div id="top_panel">
+                <div class="container">
+                    <ul class="connect-title">
+                        <li>Connect with Us</li>
+                    </ul>
+                    <ul class="social_icons">
+	<li class="twitter">
+		<a href="https://twitter.com/intlces" title="Twitter">&nbsp;</a></li>
+	<li class="facebook">
+		<a href="https://www.facebook.com/InternationalCES" title="facebook">&nbsp;</a></li>
+	<li class="googleplus">
+		<a href="https://google.com/+InternationalCES" title="googleplus">&nbsp;</a></li>
+	<li class="instagram">
+		<a href="http://instagram.com/intlces" title="instagram">&nbsp;</a></li>
+	<li class="youtube">
+		<a href="http://www.youtube.com/user/cesonthetube" title="youtube">&nbsp;</a></li>
+</ul>
+
+                    <ul class="open-ad"><li id="clasp_1"><a href="javascript:lunchboxOpen('1');">OPEN ADVERTISEMENT</a></li></ul>
+                    <ul class="drop" id="nav">
+	<li>
+		Other CEA Sites
+		<ul>
+			<li>
+				<a href="http://www.ce.org" target="_blank">CEA - CE.org</a></li>
+			<li>
+				<a href="http://www.declareinnovation.com/" target="_blank">Innovation Movement</a></li>
+			<li>
+				<a href="http://www.ce.org/blog" target="_blank">Digital Dialogue Blog</a></li>
+			<li>
+				<a href="http://www.ce.org/i3" target="_blank">i3 Magazine</a></li>
+			<li>
+				<a href="http://www.greenergadgets.org/" target="_blank">Greener Gadgets</a></li>
+			<li>
+				<a href="http://www.ce.org/research" target="_blank">CEA Market Research</a></li>
+			<li>
+				<a href="http://www.ce.org/foundation" target="_blank">CEA Foundation</a></li>
+		</ul>
+	</li>
+</ul>
+
+                </div>
+            </div>
+            </section> 
+            <!--END TOP PANEL-->
+            <!--AD AREA-->
+           <section>
+           		<div style="background:#000;" class="billboard-ad" >
+                <div class="container bill-ad lunchbox" id="lunch_1"  style="display: none;">
+                  <div class="container bill-ad"><a id="p_lt_ctl02_BannerRotator_lnkBanner" class="CMSBanner Banner" href="http://www.cesweb.org/register" onclick="this.href=&#39;/CMSModules/BannerManagement/CMSPages/BannerRedirect.ashx?bannerID=127&amp;redirectURL=http%3a%2f%2fwww.cesweb.org%2fregister&#39;;" onmouseup="this.href=&#39;/CMSModules/BannerManagement/CMSPages/BannerRedirect.ashx?bannerID=127&amp;redirectURL=http%3a%2f%2fwww.cesweb.org%2fregister&#39;;"><img id="p_lt_ctl02_BannerRotator_imgBanner" src="/CES/media/2014/advertisements/2K15STD_CESwebAD.jpg" style="" /></a></div>
+                </div>
+                </div>
+           	</section>
+             <!--ENS AD AREA-->
+           
+           <!--AUDIENCEL-->
+           <section>
+           <div class="container">
+           	<ul class="audience-nav">
+	<li>
+		<a href="/exhibitor">Exhibitors</a></li>
+	<li>
+		<a href="/press">Press</a></li>
+	<li>
+		<a href="/international">International</a></li>
+</ul>
+
+            </div>
+           </section>
+           <!--END AUDIENCEL-->
+           <!--HEADER-->
+          <section>
+            <div class="container">
+				<header id="header">
+					<div id="sticky_navigation">
+						<div class="container">
+							<a href="/home" id="logo"></a>
+                   		   
+                           <div class="search-container">
+                              <div class="search">
+                                <input type="search" id="searchTxt" onkeypress="return EnterEvent(event);" >
+                                  
+                              </div>
+                              <div class="date">
+                                <h2>
+	Las Vegas, NV</h2>
+<h3>
+	JANUARY 6-9, 2015</h3>
+
+                              </div>
+                          </div>
+                       </div>
+                       <div id="navigation-wrapper">
+                            <nav id="main-navigation">
+                              
+<ul class="main-menu sf-js-enabled sf-shadow">
+ 
+    <li class=""
+id="2">
+<a href=" /Register-Plan"> Register &amp; Plan</a> 
+<ul 
+    
+   class='nav-2cols'
+  style="display: none; visibility: hidden;">
+    
+  <p style ="display:none;">&nbsp;</p><li><a href=" /Register-Plan/Register-Now"> Register Now</a>
+
+<li><a href=" /Register-Plan/Full-Schedule"> Full Schedule </a>
+
+<li><a href=" /Register-Plan/How-to-Register-for-CES"> How to Register for CES</a>
+
+<li><a href=" /Register-Plan/Hotel"> Hotel</a>
+
+<ul><li><a href="/Register-Plan/Hotel/Reserve-a-Room-Block" class="no-display">Reserve a Room Block </a></li></ul>
+</li><li><a href=" /Register-Plan/Transportation"> Transportation</a>
+
+<ul></ul>
+</li><li><a href=" /Register-Plan/Las-Vegas-Travel-Tips"> Las Vegas Travel Tips</a>
+
+<li><a href=" /Register-Plan/On-Site-Logistics"> On-Site Logistics</a>
+
+<li><a href=" /Register-Plan/My-CES-Planner"> MyCES Planner</a>
+
+<li><a href=" /Register-Plan/First-Timers-Resources"> First-Timer Resources</a>
+
+
+</ul></li><li class=""
+id="3">
+<a href=" /Show-Floor"> Show Floor</a> 
+<ul 
+    
+   class='nav-2cols'
+  style="display: none; visibility: hidden;">
+    
+  <p style ="display:none;">&nbsp;</p><li><a href=" /Show-Floor/Exhibit-or-Sponsor"> Exhibit or Sponsor</a>
+
+<li><a href=" /Show-Floor/Exhibit-Directory"> Exhibitor Directory</a>
+
+<li><a href=" /Show-Floor/TechZones"> TechZones</a>
+
+<ul></ul>
+</li><li><a href=" /Show-Floor/Maps"> Maps</a>
+
+<li><a href=" /Show-Floor/MyCES-Planner"> MyCES Planner</a>
+
+<li><a href=" /Show-Floor/CES-Mobile-App"> CES Mobile App</a>
+
+
+</ul></li><li class=""
+id="4">
+<a href=" /Conference"> Conference</a> 
+<ul 
+    class='nav-3cols'
+   
+  style="display: none; visibility: hidden;">
+    
+  <p style ="display:none;">&nbsp;</p><li><a href=" /Conference/Keynotes"> Keynote Addresses</a>
+
+<li><a href=" /Conference/Speaker-Search"> Speaker Search</a>
+
+<li><a href=" /Conference/SuperSessions"> SuperSessions</a>
+
+<li><a href=" /Conference/Conference-Tracks"> Conference Tracks</a>
+
+<li><a href=" /Conference/Become-a-Speaker"> Become a Speaker</a>
+
+<li><a href=" /Conference/Speaker-Guidelines"> Speaker Guidelines</a>
+
+<li><a href=" /Conference/Virtual-Conference-Brochure"> Virtual Conference Brochure</a>
+
+
+</ul></li><li class=""
+id="5">
+<a href=" /Events-Awards"> Events &amp; Awards</a> 
+<ul 
+    
+   
+  style="display: none; visibility: hidden;">
+    
+  <p style ="display:none;">&nbsp;</p><li><a href=" /Events-Awards/Innovations"> CES Innovations Awards</a>
+
+<li><a href=" /Events-Awards/Call-for-Authors-Gary-s-Book-Club"> Join Gary&#39;s Book Club</a>
+
+<li><a href=" /Events-Awards/CES-Unveiled"> CES Unveiled</a>
+
+<ul></ul>
+</li>
+</ul></li><li class="current"
+id="6">
+<a href=" /News"> News</a> 
+<ul 
+    
+   class='nav-2cols'
+  style="display: none; visibility: hidden;">
+    
+  <p style ="display:none;">&nbsp;</p><li><a href=" /News/Press-Releases"> Press Releases</a>
+
+<li><a href=" /News/CES-TV"> Videos</a>
+
+<ul></ul>
+</li><li><a href=" /News/Blog"> Blog</a>
+
+<li><a href=" /News/Photo-Gallery"> Photo Gallery</a>
+
+<li><a href=" /News/CES-Social"> Social Media</a>
+
+<li><a href=" /News/CES-In-The-News"> CES In The News</a>
+
+<li><a href=" /News/Exhibitor-Press-Releases"> Exhibitor Press Releases </a>
+
+
+</ul></li><li class=""
+id="7">
+<a href=" /Why-attend-CES"> Why Attend CES?</a> 
+<ul 
+    
+   
+  style="display: none; visibility: hidden;">
+    
+  <p style ="display:none;">&nbsp;</p><li><a href=" /Why-attend-CES/What-Youre-Missing-CES"> See What You&#39;re Missing at CES</a>
+
+<li><a href=" /Why-attend-CES/2013-Attendee-Audit"> 2013 Attendee Audit</a>
+
+<li><a href=" /Why-attend-CES/CEA-Member-Benefits"> CEA Member Benefits</a>
+
+
+</ul>  </li>
+</ul>
+
+ <div id="main-navigation">
+  <select id="navSecondary" onChange="top.location.href=this.options[this.selectedIndex].value;">
+<option selected="selected" value="">Site Main Navigation</option>
+<option style="font-family:open_sansbold;" value="/Register-Plan">Register & Plan</option><option style="font-family:open_sansbold;" value="/Show-Floor">Show Floor</option><option style="font-family:open_sansbold;" value="/Conference">Conference</option><option style="font-family:open_sansbold;" value="/Events-Awards">Events & Awards</option><option style="font-family:open_sansbold;" value="/News">News</option><option style="font-family:open_sansbold;" value="/Why-attend-CES">Why Attend CES?</option><option style="font-family:open_sansbold;" value="/Exhibitor">Exhibitors</option><option style="font-family:open_sansbold;" value="/International">International</option><option style="font-family:open_sansbold;" value="/Press">Press</option>
+</select>
+</div>
+                            </nav>
+                        </div>
+				    </div>
+	          </header>
+           </div> 
+        </section>
+        </div>
+      
+
+<section>
+        
+
+        <div class="container clearfix above">
+            <div class="one-sixth-leftnav">
+                <div class="leftnav">
+                    <ul><li><a href="/News/Press-Releases">Press Releases</a><li><a href="/News/CES-TV">Videos</a><li><a href="/News/Blog">Blog</a><li><a href="/News/Photo-Gallery">Photo Gallery</a><li><a href="/News/CES-Social">Social Media</a><li class="left-current"><a href="/News/CES-In-The-News">CES In The News</a><ul></ul><li><a href="/News/Exhibitor-Press-Releases">Exhibitor Press Releases </a></ul>
+
+                </div>
+                <a id="p_lt_ctl06_pageplaceholder_p_lt_ctl01_BannerRotator_lnkBanner" class="CMSBanner Banner" href="http://www.ce.org/Membership/Join-CEA.aspx" onclick="this.href=&#39;/CMSModules/BannerManagement/CMSPages/BannerRedirect.ashx?bannerID=17&amp;redirectURL=http%3a%2f%2fwww.ce.org%2fMembership%2fJoin-CEA.aspx&#39;;" onmouseup="this.href=&#39;/CMSModules/BannerManagement/CMSPages/BannerRedirect.ashx?bannerID=17&amp;redirectURL=http%3a%2f%2fwww.ce.org%2fMembership%2fJoin-CEA.aspx&#39;;"><img id="p_lt_ctl06_pageplaceholder_p_lt_ctl01_BannerRotator_imgBanner" src="/CES/media/2014/advertisements/13352_JoinCEA_CESweb.jpg" style="" /></a>
+
+            </div>
+            <div class="three-fourth">
+                <div class="body-content">
+                    <h1>CES In The News</h1>
+
+                    <div class="breadcrumbs-article">
+                        <ul class="breadcrumbs-left">
+                            <li>
+                                <a id="p_lt_ctl06_pageplaceholder_p_lt_hypBChome" href="../">Home</a></li>
+                             <li class="bread-div">|</li><li><a href="/News.aspx" class="CMSBreadCrumbsLink">News</a> </li><li class="bread-div">|</li><li> <span  class="CMSBreadCrumbsCurrentItem">CES In The News</span>
+</li>
+                            
+                        </ul>
+                        <ul class="breadcrumbs-right">
+                            <li><span  class="st_sharethis_custom" displayText="ShareThis"><a >Share This</a></span></li>
+                            <li><a href="javascript:window.print()">Print This Page</a></li>
+                        </ul>
+                    </div>
+
+                    <p class="intro-innov">  </p>
+
+                    <div class="article-content-area">
+                      
+                       
+
+<p class="intro">Check out what people are saying about this year’s show! We’ve compiled a list of CES news from all over. </p>  
+
+<h3>
+	U.S. Media Coverage</h3>
+<p>
+	From <em><strong>Forbes</strong></em>, January 17, 2014<br />
+	<a href="http://www.forbes.com/sites/toddhixon/2014/01/17/ces-looking-back-25-years/" target="_blank">CES: Looking Back 25 Years</a></p>
+<p>
+	From <em><strong>NPR,</strong></em> January 12, 2014<br />
+	<a href="http://www.npr.org/templates/story/story.php?storyId=261910763" target="_blank">The Hottest Gadgets of CES: 3-D Printers to 4K TVs</a><br />
+	<br />
+	From <em><strong>Engadget</strong></em>, January 11, 2014<br />
+	<a href="http://www.engadget.com/2014/01/11/ces-roundup-hdtv/" target="_blank">CES 2014: HDTV &amp; home theater roundup</a></p>
+<p>
+	From <em><strong>Forbes</strong></em>, January 10, 2014<br />
+	<a href="http://www.forbes.com/sites/bigbangdisruption/2014/01/10/the-five-most-disruptive-innovations-at-ces-2014/" target="_blank">The Five Most Disruptive Innovations at CES 2014</a></p>
+<p>
+	From <em><strong>CNET</strong></em>, January 10, 2014<br />
+	<a href="http://ces.cnet.com/8301-35301_1-57617051/ces-2014-startups-steal-the-show/" target="_blank">CES 2014: Startups steal the show</a><br />
+	<br />
+	From <em><strong>Stuff</strong></em>, January 9, 2014<br />
+	<a href="http://www.stuff.tv/ces-2014/2014-ces-hot-stuff-awards/feature" target="_blank">2014 CES Hot Stuff Awards winners: meet the 10 best launches of the show</a></p>
+<p>
+	From <em><strong>CBS NEWS</strong></em>, January 9, 2014<br />
+	<a href="http://www.cbsnews.com/news/wearable-tech-highlighted-at-ces-2014/" target="_blank">Wearable tech highlighted at CES 2014</a><br />
+	<br />
+	From <em><strong>CNET</strong></em>, January 9, 2014<br />
+	<a href="http://ces.cnet.com/8301-35289_1-57617004/at-ces-2014-the-cars-drive-you/" target="_blank">At CES 2014, the cars drive you</a></p>
+<p>
+	From<em><strong> CNN Money</strong></em>, January 9, 2014<br />
+	<a href="http://money.cnn.com/video/technology/2014/01/09/t-best-of-ces-2014.cnnmoney" target="_blank">The Best of CES 2014</a><br />
+	&nbsp;<br />
+	From <em><strong>Entrepreneur Magazine</strong></em>, January 9, 2014<br />
+	<a href="http://www.entrepreneur.com/article/230743" target="_blank">CES Announcements Pave Road for Tomorrow&#39;s Tech</a><br />
+	<br />
+	From<em><strong> Mashable</strong></em>, January 9, 2014<br />
+	<a href="http://www.mashable.com/2014/01/09/4k-critical-mass-ces-2014/?utm_cid=mash-com-Tw-main-link" target="_blank">4K Reaches Critical Mass at CES 2014</a><br />
+	<br />
+	From&nbsp;<em><strong>USA Today</strong></em>, January 9, 2014<br />
+	<a href="http://www.usatoday.com/story/tech/2014/01/09/ces-five-trends/4389943/" target="_blank">Five Trends from CES 2014</a><br />
+	<br />
+	From <em><strong>The Wall Street Journal</strong></em>, January 8, 2014<br />
+	<a href="http://online.wsj.com/news/articles/SB10001424052702303393804579308642134683098" target="_blank">Seeing the Internet of Things in Action: A Look at Some of the Connected Gear at CES</a></p>
+<p>
+	From <em><strong>PC Magazine</strong></em>, January 8, 2014<br />
+	<a href="http://www.pcmag.com/article2/0,2817,2429234,00.asp" target="_blank">The Top Trends at CES 2014</a><br />
+	&nbsp;<br />
+	From <em><strong>USA Today</strong></em>, January 8, 2014<br />
+	<a href="http://www.usatoday.com/story/tech/personal/2014/01/06/ces-day-one/4348987/" target="_blank">CES 2014: Five Things We Learned on Day One</a><br />
+	<br />
+	From <em><strong>Mashable</strong></em>, January 7, 2014<br />
+	<a href="http://mashable.com/2014/01/07/best-tech-of-ces-2014/" target="_blank">Best Tech of CES 2014</a><br />
+	<br />
+	From <em><strong>CNBC</strong></em>, January 7, 2014<br />
+	<a href="http://www.cnbc.com/id/101317867" target="_blank">CES 2014: Wearable Tech Dominates</a><br />
+	&nbsp;<br />
+	From <em><strong>NPR</strong></em>, January 6, 2014<br />
+	<a href="http://www.npr.org/2014/01/06/260118977/wearable-technology-generates-buzz-before-ces-opens" target="_blank">Wearable Technology Generates Buzz Before CES Opens</a><br />
+	<br />
+	From <em><strong>The Los Angeles Times</strong></em>, January 4, 2014<br />
+	<a href="http://www.latimes.com/business/la-fi-ces-internet-things-20140105,0,3796601.story#axzz2plQtjNZg" target="_blank">CES 2014: Consumer electronics show to feature &#39;Internet of things&#39;</a><br />
+	<br />
+	From <em><strong>Information Week</strong></em>, January 2, 2014<br />
+	<a href="http://www.informationweek.com/healthcare/mobile-and-wireless/ces-showcasing-the-future-of-healthcare/d/d-id/1113196" target="_blank">CES: Showcasing the Future of Healthcare</a><br />
+	<br />
+	From <em><strong>Entrepreneur</strong></em>, January 2, 2014<br />
+	<a href="http://www.reuters.com/article/2014/01/02/idUS346520271520140102" target="_blank">Wearable Tech, Marissa Mayer, Entrepreneurs and Innovation: A CES 2014 Preview</a><br />
+	<br />
+	From<em><strong>&nbsp;Mashable</strong></em>, January 2, 2014<br />
+	<a href="http://mashable.com/2014/01/02/ces-2014-tech-trends/">CES 2014: 5 Tech Trends to Watch</a><br />
+	<br />
+	From<em><strong> CNET</strong></em>, December 31, 2013<br />
+	<a href="http://ces.cnet.com/8301-35284_1-57616379/ces-2014-what-to-expect/" target="_blank">CES 2014: What to Expect</a></p>
+<p>
+	From <em><strong>TIME Tech</strong></em>, December 30, 2013<br />
+	<a href="http://techland.time.com/2013/12/30/the-2014-consumer-electronics-show-8-trends-to-watch/" target="_blank">The 2014 Consumer Electronics Show: 8 Trends to Watch</a></p>
+<p>
+	From <em><strong>The Wall Street Journal</strong></em>, December 29, 2013<br />
+	<a href="http://online.wsj.com/news/articles/SB10001424052702304591604579288670734733740" target="_blank">Consumer Electronics Show to Spotlight In-Car Digital Race</a><br />
+	<br />
+	From <em><strong>Telehealth &amp; Telecare Aware</strong></em>, November 15, 2013<br />
+	<a href="http://telecareaware.com/international-ces-unveils-nyc/" target="_blank">International CES unveils in NYC</a></p>
+<p>
+	From<em><strong> VentureBeat</strong></em>, November 13, 2013<br />
+	<a href="http://venturebeat.com/2013/11/13/cool-and-crazy-gadgets-from-ces-unveiled-a-flexible-solar-charger-a-powerful-299-phone-concept-more/" target="_blank">Cool and crazy gadgets from CES Unveiled: A flexible solar charger, a powerful $299 phone concept, &amp; more</a><br />
+	<br />
+	From <em><strong>Popular Mechanics</strong></em>, November 13, 203<br />
+	<a href="http://www.popularmechanics.com/technology/gadgets/tech-news/three-pretty-cool-things-from-ces-unveiled-16151682" target="_blank">Three Pretty Cool Things from CES Unveiled</a><br />
+	<br />
+	From <em><strong>Las Vegas Review-Journal</strong></em>, July 24, 2013<br />
+	<a href="http://www.reviewjournal.com/business/3-d-printing-getting-spotlight-2014-international-ces" target="_blank">&quot;3-D printing getting spotlight at 2014 International CES&quot;</a></p>
+<h3>
+	International Media Coverage</h3>
+<p>
+	From <em><strong>T3 Middle East,</strong></em> January 28, 2014<br />
+	<a href="http://www.t3me.com/en/features/events-expos/ces-2014/best-tech-and-gadgets-ces-2014" target="_blank">The best tech and gadgets from CES 2014</a><br />
+	<br />
+	From <em><strong>Olivier Ezratty</strong></em>, January 27, 2014<br />
+	<a href="http://www.oezratty.net/wordpress/2014/rapport-ces-2014/" target="_blank">Report CES 2014</a></p>
+<p>
+	From <em><strong>CCTV China</strong></em>, January 12, 2014<br />
+	<a href="http://news.cntv.cn/2014/01/12/VIDE1389495429886188.shtml" target="_blank">2014 CES Video: Electric smart cars make life simple</a></p>
+<p>
+	From <em><strong>The Times of India</strong></em>, January 11, 2014<br />
+	<a href="http://articles.timesofindia.indiatimes.com/2014-01-11/computing/46089707_1_wearable-technology-ces-computing-power" target="_blank">10 hottest tech trends at CES 2014</a><br />
+	<br />
+	From <em><strong>Tecent Digital News China</strong></em>, January 9, 2014<br />
+	<a href="http://digi.tech.qq.com/a/20140109/001385.htm" target="_blank">Automotive at CES: new market for car networking technology</a><br />
+	<br />
+	From <em><strong>Gulf News UA</strong></em>E, January 9, 2014<br />
+	<a href="http://gulfnews.com/business/technology/consumer-electronics-show-2014-highlights-from-las-vegas-1.1274567" target="_blank">Consumer Electronics Show 2014: Highlights from Las Vegas</a><br />
+	<br />
+	From <em><strong>BBC</strong></em>, January 8, 2014<br />
+	<a href="http://www.bbc.co.uk/news/technology-25647918" target="_blank">CES 2014: 3D food printers create sweets and chocolates</a><br />
+	<br />
+	From <em><strong>Hificlube.net</strong></em>, January 8, 2014<br />
+	<a href="http://www.hificlube.net/pt/artigos/noticias/ces-2014-myhiend.aspx" target="_blank">CES 2014: Photo Report</a></p>
+<p>
+	From <em><strong>Bangkok Post</strong></em>, January 7, 2014<br />
+	<a href="http://www.bangkokpost.com/tech/computer/388403/ces-stage-in-vegas-set-for-new-wave-of-gadgets" target="_blank">CES stage in Vegas set for new wave of gadgets</a></p>
+<p itemprop="headline" style="padding: 0px; margin: 0px 0px 10px; outline: none; list-style-type: none; border: 0px; vertical-align: baseline;">
+	From<em><strong>&nbsp;iXBT Russia</strong></em>, December 30, 2013<br />
+	<a href="http://www.ixbt.com/news/hard/index.shtml?17/51/35" target="_blank">&quot;Samsung Unveils a New Generation of Exynos at CES&quot;</a><br />
+	<br />
+	From <em><strong>Chosun Biz Korea</strong></em>, December 30, 2013<br />
+	<a href="http://biz.chosun.com/site/data/html_dir/2013/12/29/2013122902615.html" target="_blank">&quot;CES is Most Influential IT Show including car software, internet and CE products&quot;</a></p>
+<p>
+	From <em><strong>Chosun Biz Korea</strong></em>, December 27, 2013<br />
+	<a href="http://biz.chosun.com/site/data/html_dir/2013/12/26/2013122604038.html" target="_blank">&quot;Mobile Devices are a Driving Force of 2014 CES&quot;</a><br />
+	<br />
+	From&nbsp;<em><strong>Money Today Korea</strong></em>, December 23, 2013&nbsp;<br />
+	<a href="http://www.mt.co.kr/view/mtview.php?type=1&amp;no=2013122212353465748&amp;outlink=1" target="_blank">&quot;Both Samsung and LG to introduce new smart TVs at 2014 CES&quot;</a></p>
+<p>
+	From <em><strong>HiFi News Russia</strong></em>, December 20, 2013<br />
+	<a href="http://www.hifinews.ru/article/details/2013-12-20/23161.htm" target="_blank">&quot;LG and Samsung to Demonstrate Curved Screen TVs at CES&quot;</a><br />
+	<br />
+	From <em><b>3D News Russia</b></em>, December 12, 2013<br />
+	<a href="http://www.3dnews.ru/788703" target="_blank">&quot;Wearable Technology - What to Expect at CES 2014&quot;</a><br />
+	<br />
+	From <em><strong>Yesky.com China</strong></em>, December 12, 2013<br />
+	<a href="http://mobile.yesky.com/498/35481998.shtml" target="_blank">&quot;CES2014 Preview&quot;</a><br />
+	<br />
+	From <em><strong>163.com China</strong></em>, December 5, 2013<br />
+	<a href="http://digi.163.com/13/1205/13/9FB7VQBE00161MGJ.html" target="_blank">&quot;CES2014: Tablets Will Shine at the Show&quot;</a><br />
+	<br />
+	From <em><strong>MSN China</strong></em>, December 5, 2013<br />
+	<a href="http://digital.msn.com.cn/tv/523474/553609101053b-1.shtml" target="_blank">&quot;CES2014: Looking Forward&quot;</a><br />
+	<br />
+	From <em><strong>Yesky.com China</strong></em>, December 4, 2013<br />
+	<a href="http://net.yesky.com/wireless/147/35456647.shtml" target="_blank">&quot;CES 2014: Hot Networking Products are Ready&quot;</a><br />
+	<br />
+	From <em><strong>Tech Huanqiu</strong></em>, December 4, 2013<br />
+	<a href="http://tech.huanqiu.com/it/2013-12/4628154.html" target="_blank">&quot;2014 CES Preview: Digital Health Products&quot;</a></p>
+<p>
+	From <em><strong>CXNews China</strong></em>, December 2, 2013<br />
+	<a href="http://it.cxnews.cn/534783/554271686481b.shtml" target="_blank">&quot;In Focus: 2014 CES in Las Vegas&quot;</a></p>
+<p>
+	From <em><strong>Financial News Korea</strong></em>, November 19, 2013<br />
+	&quot;<a href="http://www.fnnews.com/view?ra=Sent0601m_View&amp;corp=fnnews&amp;arcid=201311200100212060011022&amp;cDateYear=2013&amp;cDateMonth=11&amp;cDateDay=19" target="_blank">Car companies including Kia Motors, BMW, and Audi will join for 2014 CES</a>&quot;</p>
+<p>
+	From <em><strong>ZDnet Korea,</strong></em> November 17, 2013<br />
+	<a href="http://www.zdnet.co.kr/news/news_view.asp?artice_id=20131117103527&amp;type=xml" target="_blank">&quot;Logitech and IRiver receive 2014 CES Innovations Design and Engineering Award&quot;</a><br />
+	<br />
+	From <em><strong>CNET China</strong></em>, November 14, 2013<br />
+	<a href="http://www.cnetnews.com.cn/2013/1114/2995544.shtml" target="_blank">&quot;2014 CES Yahoo CEO to Deliver Keynote&quot;</a><br />
+	<br />
+	<span style="color: rgb(34, 34, 34);">From </span><em style="color: rgb(34, 34, 34);"><strong>Digital Daily Korea</strong></em><span style="color: rgb(34, 34, 34);">, November 13, 2013</span><br />
+	<a href="http://www.ddaily.co.kr/news/news_view.php?uid=110939" target="_blank">&quot;Yahoo Joins 2014 CES Keynote Speeches&quot;</a></p>
+<p>
+	From <em><strong>MSN China</strong></em>, November 11, 2013<br />
+	<a href="http://it.msn.com.cn/599322/736938699984b.shtml" target="_blank">&quot;CES 2014: Sony President Kazuo Hirai to Speak&quot;</a></p>
+<p>
+	From <em><strong>Yesky</strong></em>, November 1, 2013<br />
+	<a href="http://dh.yesky.com/96/35398096.shtml" target="_blank">&quot;CES 2014: Will Focus on New Smart Watches and Smart Wear&quot;</a><br />
+	<br />
+	From&nbsp;<em><strong>Maeil Economic Daily</strong></em>, October 30, 2013<br />
+	<a href="http://news.mk.co.kr/newsRead.php?year=2013&amp;no=1059266">&quot;Samsung to introduce strategic CE products at 2014 CES&quot;</a></p>
+<p>
+	From <em><strong>OuatchTV</strong></em>, October 29, 2013<br />
+	<a href="http://www.dailymotion.com/video/x16kk1p_gen-tek-s01e03-en-direct-du-ces-unveiled-paris-2013_tech">&quot;Live from CES Unveiled PARIS 2013&quot;</a></p>
+<p>
+	From <em><strong>I24 News France,</strong></em> October 17, 2013<br />
+	<a href="http://www.youtube.com/watch?v=i_ZclLJIsac&amp;feature=youtu.be">&quot;CES TEL AVIV 2013&quot;</a></p>
+<p>
+	From <em><strong>Aving News Korea</strong></em>, October 14, 2013<br />
+	<a href="http://kr.aving.net/news/view.php?articleId=722580&amp;Branch_ID=kr&amp;rssid=naver&amp;mn_name=news">&quot;CEL-Robox will launch an upgraded 3D printer at 2014 CES&quot;</a></p>
+<p>
+	From <em><strong>News Channel 9 Russia</strong></em>, October 12, 2013<br />
+	<a href="http://9tv.co.il/video/2013/10/12/44121.html">&quot;Useful Technology at CES Unveiled TEL AVIV&quot;</a><br />
+	<br />
+	From <em><strong>LatestGadgets,</strong></em> October 11, 2013<br />
+	<a href="http://www.latestgadgets.co.uk/event-reviews/10514-quick-look-ces-unveiled-london-2013">&quot;Quick Look: CES Unveiled, London 2013&quot;</a><br />
+	<br />
+	From <em><strong>The Times of Israel,</strong></em> October 11, 2013<br />
+	<a href="http://www.timesofisrael.com/a-tech-taste-of-vegas-comes-to-tel-aviv/">&quot;A tech taste of Vegas comes to Tel Aviv&quot;</a></p>
+<p>
+	From&nbsp;<em><strong>Electronic Times</strong></em>, October 10, 2013<br />
+	<a href="http://www.etnews.com/news/device/device/2842286_1479.html">&quot;iM-Electronics to unveil micro PICO projector with full HD display at 2014 CES&quot;&nbsp;</a></p>
+<p>
+	From <em><strong>ITnumeric,</strong></em> October 8, 2013<br />
+	<a href="http://www.youtube.com/watch?v=mJxZm6bYzU4&amp;feature=c4-overview&amp;list=UU4NaASeeNeZE7ufV4AgH6Cg">&quot;Interview Gary Shapiro, President and CEO, CEA - CES Unveiled PARIS&quot;</a><br />
+	<br />
+	From <em><strong>Geektime,</strong></em> October 7, 2013<br />
+	<a href="http://www.geektime.co.il/ces-unveiled-tel-aviv-2013-review/">&quot;CES Unveiled was held today for the first time in Tel Aviv&quot;</a><br />
+	<br />
+	From <em><strong>TheMarker,</strong></em> October 7, 2013<br />
+	<a href="http://www.themarker.com/technation/1.2134662">&quot;Penetration rate of smartphones in Israel: 86%, 46% tablets&quot;</a><br />
+	<br />
+	From<em><strong> DTown,</strong></em> October 7, 2013<br />
+	<a href="http://www.dtown.co.il/articles/2963.html">&quot;Entertainment, electronics, innovation - first CES Conference in Israel&quot;</a><br />
+	<br />
+	From <em><strong>Globes,</strong></em> October 7, 2013<br />
+	<a href="http://www.globes.co.il/news/article.aspx?did=1000883727">&quot;CES Unveiled comes to Tel Aviv&quot;</a><br />
+	<br />
+	From <em><strong>La Chaine Techno / 01net,</strong></em> October 4, 2013<br />
+	<a href="http://www.lachainetechno.tv/videos/grand-talk-special-ces-unveiled-paris-2013/">&quot;Grand Talk Special - CES Unveiled Paris 2013&quot;</a><br />
+	<br />
+	From<em><strong> ZDNet,</strong></em> October 4, 2013<br />
+	<a href="http://www.zdnet.com/ces-research-shows-uk-market-driven-by-smartphonestablets-but-people-still-plan-to-buy-laptops-7000021586/">&quot;CES research shows UK market driven by smartphones/tablets&quot;</a><br />
+	<br />
+	From <em><strong>BBC,</strong></em> October 2, 2013<br />
+	<a href="http://www.bbc.co.uk/news/technology-24364985">&quot;Microsoft returns to CES Las Vegas tech show&quot;</a><br />
+	<br />
+	From <em><strong>PC Pro</strong></em>, October 2, 2013<br />
+	<a href="http://www.pcpro.co.uk/news/384520/microsoft-returning-to-ces">&quot;Microsoft returning to CES&quot;</a><br />
+	<br />
+	From <em><strong>CNET, </strong></em>October 1, 2013<br />
+	<a href="http://news.cnet.com/8301-11386_3-57605458-76/3d-printing-to-star-at-ces-2014-alongside-20000-products/">&quot;3D printing to star at CES 2014, alongside 20,000 products&quot;</a></p>
+
+                      
+                    </div>
+                </div>
+            </div>
+        </div>
+      
+    </section>
+      
+      <div class="interior-body-bk">
+          <div class="int-bk-right"><a id="p_lt_ctl07_BannerRotatorRightHanger_lnkBanner" class="CMSBanner Banner" href="http://www.cesweb.org" onclick="this.href=&#39;/CMSModules/BannerManagement/CMSPages/BannerRedirect.ashx?bannerID=36&amp;redirectURL=http%3a%2f%2fwww.cesweb.org&#39;;" onmouseup="this.href=&#39;/CMSModules/BannerManagement/CMSPages/BannerRedirect.ashx?bannerID=36&amp;redirectURL=http%3a%2f%2fwww.cesweb.org&#39;;"><img id="p_lt_ctl07_BannerRotatorRightHanger_imgBanner" src="/CES/media/2014/backgrounds/audi_CES3.jpg" style="" /></a></div>
+          <div class="int-bk-left"><a id="p_lt_ctl08_BannerRotatorLeftHanger_lnkBanner" class="CMSBanner Banner" href="http://www.cesweb.org" onclick="this.href=&#39;/CMSModules/BannerManagement/CMSPages/BannerRedirect.ashx?bannerID=35&amp;redirectURL=http%3a%2f%2fwww.cesweb.org&#39;;" onmouseup="this.href=&#39;/CMSModules/BannerManagement/CMSPages/BannerRedirect.ashx?bannerID=35&amp;redirectURL=http%3a%2f%2fwww.cesweb.org&#39;;"><img id="p_lt_ctl08_BannerRotatorLeftHanger_imgBanner" src="/CES/media/2014/backgrounds/guitars_CES.jpg" style="" /></a></div>
+      </div>  
+      
+      <section>
+    <div id="footer">
+			<div class="container">
+            	<div class="footer-line"></div>
+				<div class="one-fifth">
+                  <p class="copyright">
+	Copyright &copy; 2003 - 2014 CEA. All rights reserved.</p>
+
+			    </div>
+			    <div class="one-sixth footer-div">
+                  <ul>
+	<li>
+		<a href="/about-us">About Us </a></li>
+	<li>
+		<a href="/contact-us">Contact Us</a></li>
+	<li>
+		<a href="/partners">Partners</a></li>
+</ul>
+
+				 </div>
+                 <div class="one-sixth footer-div">
+                  <ul>
+	<li>
+		<a href="/privacy">Privacy</a></li>
+	<li>
+		<a href="/sitemap">Sitemap</a></li>
+</ul>
+<br /><div style="font-size: .8em; color: #FFF;"><span id="p_lt_ctl11_whatServer_serverName">WEB-IIS30</span></div>
+				 </div>
+				 <div class="one-third languages">
+                    	
+                     <script type="text/javascript">
+
+
+
+  var _gaq = _gaq || [];
+
+  _gaq.push(['_setAccount', 'UA-3975226-4']);
+
+  _gaq.push(['_trackPageview']);
+
+
+
+  (function() {
+
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+
+  })();
+
+
+
+</script>​
+                </div>
+			</div>
+    </div>
+    </section>
+    </div>
+    </div>
+<!-- Start of Google Analytics script -->
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-3975226-4']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+<!-- End of Google Analytics script -->
+
+<!-- Start Pardot tracking script -->
+<script type="text/javascript"> 
+piAId = '27962'; 
+piCId = '2690'; 
+
+(function() { 
+function async_load(){ 
+var s = document.createElement('script'); s.type = 'text/javascript';
+s.src = ('https:' == document.location.protocol ? 'https://pi' : 'http://cdn') + '.pardot.com/pd.js'; 
+var c = document.getElementsByTagName('script')[0]; c.parentNode.insertBefore(s, c); 
+} 
+if(window.attachEvent) { window.attachEvent('onload', async_load); } 
+else { window.addEventListener('load', async_load, false); } 
+})(); 
+</script> 
+<!-- End Pardot tracking script -->
+<script type="text/javascript">
+setTimeout(function(){var a=document.createElement("script");
+var b=document.getElementsByTagName("script")[0];
+a.src=document.location.protocol+"//dnn506yrbagrg.cloudfront.net/pages/scripts/0013/2569.js?"+Math.floor(new Date().getTime()/3600000);
+a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
+</script>
+
+    
+    
+
+<script type="text/javascript">
+//<![CDATA[
+(function() {var fn = function() {$get("manScript_HiddenField").value = '';Sys.Application.remove_init(fn);};Sys.Application.add_init(fn);})();
+WebForm_InitCallback();//]]>
+</script>
+</form>
+</body>
+</html>
