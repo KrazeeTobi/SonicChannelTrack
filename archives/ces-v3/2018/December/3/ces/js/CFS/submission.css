@@ -1,0 +1,151 @@
+﻿            div#form-wrapper {
+                width: 40%;
+                border: 1px solid #CCC;
+                margin: 20px auto;
+                position: relative;
+                overflow: hidden;
+                border-radius: 5px;
+            }
+            
+            div.pagetitle-wrapper {
+                background-color: #f5f5f5;   
+            }
+            
+            div.page-wrapper {
+                width: 90%;  
+                margin: 0 auto;
+            }
+            
+            input.btn-topic {
+                position: relative;
+                /*float: right;*/
+                margin-top: 0 !important;
+            }
+            
+            .icesFont 
+            {
+                font-size: 16px;
+                line-height: 24px;
+                font-family: 'open_sansregular', Arial, Verdana, Serif;
+                font-weight: regular;
+                color: #000;
+            }
+            
+            .panel {
+                clear: right;
+                overflow: hidden;
+                /*margin: 20px auto; */
+            }
+            
+            div.topic {
+                border: 1px solid #CCC;
+                border-radius: 5px;
+                margin: 20px;
+                padding: 10px 20px;
+                cursor: pointer;
+            }
+                div.topic:hover {
+                    background-color: #f5f5f5;
+                }
+            
+            div.selectedtopic {
+                background-color: red;   
+            }
+            
+            div.well {
+                /*width: 80%; */
+                /*float: left;*/
+            }
+            
+            div.form-actions {
+                border-top: 1px solid #CCC;
+                background-color: #f5f5f5;
+                bottom: 0;
+                width: 100%;
+            }
+            
+            div#form-wrapper h3 {
+                font-size: 24px;
+                margin: 0px;
+                padding: 10px 20px;
+                border-bottom: 1px solid #CCC;
+            }
+            div#form-wrapper h4 {
+                text-align: center;   
+            }
+            
+            form input[type="button"] {
+                margin: 10px 20px;   
+            }
+               <!-- form input[name="next"] {
+                    position: relative;
+                    /*float: right; */
+                } -->
+                form input[name="submit"] {
+                    position: relative;
+                    /*float: right;*/
+                } 
+                form input[name="add-another"] {
+                    margin: 0 0 10px 0;   
+                }
+                form input[name="delete-cred"] {
+                    margin: 0 0 10px 0;
+                /*float: right; */
+                }
+                form input[name="add-cred"] {
+                    margin: 0;
+                }
+                form input[name"addanother"] {
+                    position: relative;
+                    /*float: right;*/
+                }
+                form input[name"complete"] {
+                    position: relative;
+                    /*float: right;*/
+                }
+            
+                .floatright {
+                    position: relative;
+                    /*float: right;    */
+                }
+            
+            textarea {
+                resize: none;   
+            }
+            
+            .wizard  {margin: 20px auto; width: 1050px;}
+            .wizard li  {padding: 11px 11px 9px 11px; margin-right:5px; background:#f5f5f5; position:relative; display:inline-block; }
+            .wizard li:before  {width:0px; height:0px; border-top: 20px inset transparent; border-bottom: 20px inset transparent; border-left: 20px solid #fff; position: absolute; content: ""; top: 0; left: 0;}
+            .wizard li:after  {width:0px; height:0px; border-top: 20px inset transparent; border-bottom: 20px inset transparent; border-left: 20px solid #f5f5f5; position: absolute; content: ""; top: 0; right: -20px; z-index:2;}
+            .wizard li:first-child:before  {border:none;}
+            .wizard li:last-child:after  {border:none;}
+            .wizard li:hover  {underline: none;}
+
+            .wizard li:first-child  {-moz-border-radius: 4px 0 0 4px; -webkit-border-radius: 4px 0 0 4px; border-radius:   4px 0 0 4px;}
+            .wizard li:last-child  {-moz-border-radius: 0 4px 4px 0; -webkit-border-radius: 0 4px 4px 0; border-radius:   0 4px 4px 0;}
+
+            .wizard .badge  {margin:0 5px 0 18px; position:relative; top:-1px;}
+            .wizard li:first-child .badge  {margin-left:0;}
+
+            .wizard .current  {background:#428bca; color:#fff;}
+            .wizard .current:after  {border-left-color:#428bca;}
+            
+            @media (max-width: 1024px)  {
+                div.wizard  {
+                    display: none;
+                }
+                div#wrapper  {
+                    width: 100%;   
+                }
+                div#sidepreview
+                 {
+                    display: none;   
+                }
+            }
+            
+            div#sidepreview {
+                position: absolute;
+                right: 80px;
+                width: 20%;
+                /*float: right;*/
+            }
