@@ -1,0 +1,652 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head id="head"><title>
+	IPS05 - Battling for the Best and Brightest: Immigration Reform and the I - 2014 International CES, January 7-10
+</title><meta name="description" content="Hear top Washington policymakers, entrepreneurs and technology leaders discuss what we must do to maintain our innovation leadership in the 21st century." /> 
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" /> 
+<meta http-equiv="pragma" content="no-cache" /> 
+<meta http-equiv="content-style-type" content="text/css" /> 
+<meta http-equiv="content-script-type" content="text/javascript" /> 
+<meta name="keywords" content="International CES, CES, CES 2010, CES 2011, CES 2012, CES 2013, CES 2014, CES 2015, CES 2016, CES 2017, CES 2018, Consumer Electronics Show, Consumer Technology, Consumer Electronics, Consumer Electronics Association, CES Las Vegas, ces show, ces vegas, CES Unveiled, ces tradeshow, ces conference, ces registration, ces exhibitor, ces innovation awards, innovation awards, best of ces, ces keynote, ces show floor, technology, silicon valley, technology innovation, disruptive technology, start-ups,International CES, CES, CES 2010, CES 2011, CES 2012, CES 2013, CES 2014, CES 2015, CES 2016, CES 2017, CES 2018, Consumer Electronics Show, Consumer Technology, Consumer Electronics, Consumer Electronics Association, CES Las Vegas, ces show, ces vegas, CES Unveiled, ces tradeshow, ces conference, ces registration, ces exhibitor, ces innovation awards, innovation awards, best of ces, ces keynote, ces show floor, technology, silicon valley, technology innovation, disruptive technology, start-ups" /> 
+
+<meta name="viewport" content="initial-scale=1">
+<meta property="twitter:account_id" content="10668202" />
+<!-- Twitter Summary Card -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@IntlCES">
+<meta name="twitter:creator" content="@IntlCES">
+<meta name="twitter:title" content="IPS05 - Battling for the Best and Brightest: Immigration Reform and the I">
+<meta name="twitter:description" content="">
+<meta name="twitter:image" content="http://content.ce.org/2013ces/images/hpimages/header/cesweb_headerlogo.png">
+<!-- End of Twitter Summary Card -->
+
+<link rel="shortcut icon" href="/ces/favicon.ico" />
+<link rel="icon" href="/ces/favicon.ico" />
+
+<!--[if !IE]><!-->
+  <link href="/CMSPages/GetResource.ashx?stylesheetname=ices-main-style" type="text/css" rel="stylesheet" media="screen" />
+<!--<![endif]-->
+<!--[if lte IE 9]>
+  <link href="/CMSPages/GetResource.ashx?stylesheetname=ices-IE8" type="text/css" rel="stylesheet" media="screen" />
+<![endif]-->  
+    <link href="/CMSPages/GetResource.ashx?stylesheetname=ices-mediaelementplayer.min	" type="text/css" rel="stylesheet" media="screen" />
+    <link href="/CMSPages/GetResource.ashx?stylesheetname=ices-captions" type="text/css" rel="stylesheet"  />
+    <link href="/CMSPages/GetResource.ashx?stylesheetname=ices-slider-style" type="text/css" rel="stylesheet" media="screen" />
+    <link href="/CMSPages/GetResource.ashx?stylesheetname=ices-flexslider" type="text/css" rel="stylesheet" />
+    <link href="/CMSPages/GetResource.ashx?stylesheetname=ices-prettyphoto" type="text/css" rel="stylesheet" />
+    <link href="/CMSPages/GetResource.ashx?stylesheetname=ices-settings" type="text/css" rel="stylesheet" media="screen" />
+    <link href="/CMSPages/GetResource.ashx?stylesheetname=ices-fonts" type="text/css" rel="stylesheet" media="screen" />
+<link href="/CMSPages/GetResource.ashx?stylesheetname=ices-print" type="text/css" rel="stylesheet" media="print" />
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+<script type="text/javascript" src="/ces/js/scripts.js"></script>
+<script type="text/javascript" src="/ces/js/jquery.themepunch.revolution.min.js"></script>
+<script type="text/javascript" src="/ces/js/custom.js?date=20131219"></script>
+<script type="text/javascript" src="/ces/js/itn/jquery.cookie.js"></script>
+
+ <script type="text/javascript">
+    <!--
+    function toggle_visibility(id) {
+        var e = document.getElementById(id);
+        if (e.style.display == 'block')
+            e.style.display = 'none';
+        else
+            e.style.display = 'block';
+    }
+    //-->
+    </script>
+    <script type="text/javascript">
+        function EnterEvent(e) {
+            if (e.keyCode == 13) {
+              var val = document.getElementById('searchTxt').value;
+              var sURL = '/search-results?searchtext=' + val + '&searchmode=anyword';
+              window.location.href = sURL;
+              return false;
+                }
+            }
+      
+      jQuery(document).ready(function ($) {
+      for (var count = 2 ;count <= 7; count ++)
+        {
+            var a = $('#'+ count +' ul.nav-3cols > li');
+            for (var i = 0; i < a.length; i += 5) {
+                a.slice(i, i + 5).wrapAll('<div class="nav-col"></div>');
+            }
+            var a = $('#'+ count +' ul.nav-2cols > li');
+            for (var i = 0; i < a.length; i += 5) {
+                a.slice(i, i + 5).wrapAll('<div class="nav-col"></div>');
+            }
+        }
+  
+   
+    });
+    </script>
+<script type="text/javascript">var switchTo5x=false;</script>
+<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+<script type="text/javascript">stLight.options({publisher: "a17beaa8-5eee-4df7-8629-9947a3e965e3",  offsetLeft:'-270', doNotHash: true, doNotCopy: false, hashAddressBar: false, exclusive_services:true, services:"facebook,twitter,linkedin,googleplus,email,sharethis", minorServices:false});</script>
+
+
+
+<script type="text/javascript" src="/ces/js/cmsedit/WidgetSecurity_non_Admin.js"></script>
+<!-- end head --><link rel="stylesheet" type="text/css" href="/CES/JS/ITN/cart.css" />
+<style>
+  #leftTrackColumn { float: left; border: none; margin: 0 25px 10px 0; width: 172px; }
+  .trackImage { border: none; margin: 0 25px 10px 0; }
+  #waysToBuy { }
+  .waysToBuyHeader { background-color: darkslategrey; color: white; text-align: center; padding: 2px 0 2px 0; font-weight: bold; }
+  #sessionList { margin-left: 225px; width: 80%; }
+  div.sessionList p { display: inline-block; min-height: 20px; vertical-align: top; }
+  .left { width: 35%; text-align: right; padding-right: 15px; }
+  .right { width: 60%; }
+  
+  @media (min-width : 886px) {
+    #sessionList { margin-left: 200px; width: 80%; }
+    div.sessionList p { display: inline-block; min-height: 20px; vertical-align: top; }
+    .left { width: 20%; text-align: right; padding-right: 15px; }
+    .right { width: 75%; }
+  }
+  
+  @media (max-width : 885px) {
+    #sessionList { width: 70%; }
+    div.sessionList p { display: inline-block; min-height: 20px; vertical-align: top; }    
+  }
+
+  @media only screen and (max-width: 820px) {
+    #leftTrackColumn { float: none; }
+    #sessionList { margin-left: 5px; width: 90%; }
+  }
+
+  @media (max-width: 479px) {
+    #leftTrackColumn { float: none; }
+    #sessionList { margin-left: 5px; width: 90%; }
+    .sessionList { margin-top: -25px; }
+    .left { float: none; width: 100%; text-align: left; }
+    .right { float: none; width: 100%; margin-top: -25px; }
+  }
+
+  @media (max-width: 320px) {
+    
+  }
+</style>
+<!-- JavaScript -->
+<script type="text/javascript" src="/CES/js/ITN/underscore.js"></script>
+<script type="text/javascript" src="/CES/js/ITN/mustache.js"></script>
+<script type="text/javascript" src="/CES/js/ITN/addToCartTemplates.js"></script>
+<script type="text/javascript" src="/CES/js/ITN/sessionTemplates.js"></script>
+<script type="text/javascript" src="/CES/js/ITN/cart.js"></script>
+
+<script type="text/javascript">
+        jQuery(document).ready(function ($) {
+          Cart.render();
+        });
+</script> 
+<style type="text/css" rel="stylesheet"> 
+                   
+                        .languages {
+                        display: none !important;
+                        
+                        }
+
+                    </style>
+                    <link href="/CMSPages/GetResource.ashx?_transformations=4125;4210" type="text/css" rel="stylesheet"/> 
+<link href="/CMSPages/GetResource.ashx?_webparts=1067" type="text/css" rel="stylesheet"/> 
+</head>
+<body class="LTR ENUS ContentBody" >
+    <form method="post" action="/Conference/Conference-Tracks/CEA-Innovation-Policy-Summit/IPS05-Battling-for-the-Best-and-Brightest-–-Immigr.aspx" id="form">
+<div class="aspNetHidden">
+<input type="hidden" name="manScript_HiddenField" id="manScript_HiddenField" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJODc3OTc4NjAwD2QWAgIBEGRkFgICBQ9kFgJmD2QWAmYPZBYEAgUPZBYCZg8PFgIeCEJhbm5lcklEAk5kFgJmDw8WCB4IQ3NzQ2xhc3MFEENNU0Jhbm5lciBCYW5uZXIeBlRhcmdldAUGX2JsYW5rHgRfIVNCAgIeB1Zpc2libGVnFgYeBGhyZWYFM2h0dHBzOi8vY2VzLml0bmludC5jb20vMjAxNC9yZWdvbmxpbmUvUmVnTG9naW4uYXNweB4Hb25jbGljawWeAXRoaXMuaHJlZj0nL0NNU01vZHVsZXMvQmFubmVyTWFuYWdlbWVudC9DTVNQYWdlcy9CYW5uZXJSZWRpcmVjdC5hc2h4P2Jhbm5lcklEPTc4JnJlZGlyZWN0VVJMPWh0dHBzJTNhJTJmJTJmY2VzLml0bmludC5jb20lMmYyMDE0JTJmcmVnb25saW5lJTJmUmVnTG9naW4uYXNweCc7Hglvbm1vdXNldXAFngF0aGlzLmhyZWY9Jy9DTVNNb2R1bGVzL0Jhbm5lck1hbmFnZW1lbnQvQ01TUGFnZXMvQmFubmVyUmVkaXJlY3QuYXNoeD9iYW5uZXJJRD03OCZyZWRpcmVjdFVSTD1odHRwcyUzYSUyZiUyZmNlcy5pdG5pbnQuY29tJTJmMjAxNCUyZnJlZ29ubGluZSUyZlJlZ0xvZ2luLmFzcHgnOxYCAgEPDxYMHg1BbHRlcm5hdGVUZXh0ZR4HVG9vbFRpcGUfAWUeCEltYWdlVXJsBTQvQ0VTL21lZGlhLzIwMTQvYWR2ZXJ0aXNlbWVudHMvUmVnaXN0ZXJBRF9ub2RhdGUuanBnHwMCAh8EZxYCHgVzdHlsZWVkAg0PZBYCZg9kFgICAg9kFgJmD2QWAmYPZBYEAgMPZBYCZg8PFgIfAAJeZBYCZg8PFggfAQUQQ01TQmFubmVyIEJhbm5lch8CBQZfYmxhbmsfAwICHwRnFgYfBQVjaHR0cDovL3d3dy5jZS5vcmcvQmxvZy9BcnRpY2xlcy8yMDE0L0phbnVhcnkvVklERU8tQ0VTLUJyaW5ncy1Zb3UtM0QtUHJpbnRpbmctQW5vdGhlci1EaXNydXB0aS5hc3B4HwYF0gF0aGlzLmhyZWY9Jy9DTVNNb2R1bGVzL0Jhbm5lck1hbmFnZW1lbnQvQ01TUGFnZXMvQmFubmVyUmVkaXJlY3QuYXNoeD9iYW5uZXJJRD05NCZyZWRpcmVjdFVSTD1odHRwJTNhJTJmJTJmd3d3LmNlLm9yZyUyZkJsb2clMmZBcnRpY2xlcyUyZjIwMTQlMmZKYW51YXJ5JTJmVklERU8tQ0VTLUJyaW5ncy1Zb3UtM0QtUHJpbnRpbmctQW5vdGhlci1EaXNydXB0aS5hc3B4JzsfBwXSAXRoaXMuaHJlZj0nL0NNU01vZHVsZXMvQmFubmVyTWFuYWdlbWVudC9DTVNQYWdlcy9CYW5uZXJSZWRpcmVjdC5hc2h4P2Jhbm5lcklEPTk0JnJlZGlyZWN0VVJMPWh0dHAlM2ElMmYlMmZ3d3cuY2Uub3JnJTJmQmxvZyUyZkFydGljbGVzJTJmMjAxNCUyZkphbnVhcnklMmZWSURFTy1DRVMtQnJpbmdzLVlvdS0zRC1QcmludGluZy1Bbm90aGVyLURpc3J1cHRpLmFzcHgnOxYCAgEPDxYMHwhlHwllHwFlHwoFLS9DRVMvbWVkaWEvMjAxNC9hZHZlcnRpc2VtZW50cy9DRVNWaWRlb0FELmpwZx8DAgIfBGcWAh8LZWQCDw9kFgoCAQ8PFgIfBGhkZAIED2QWAgICDw8WBB4JSXRlbUNvdW50Zh4LXyFJdGVtQ291bnRmZGQCBQ9kFgICAg9kFgJmD2QWAmYPZBYCZg8VB1JCYXR0bGluZyBmb3IgdGhlIEJlc3QgYW5kIEJyaWdodGVzdDogSW1taWdyYXRpb24gUmVmb3JtIGFuZCB0aGUgSW5ub3ZhdGl2ZSBFY29ub215AARJUFM1JEphbnVhcnkgOCwgMjAxNCwgOTozMCYjNDU7MTA6MzAgYS5tLhBMVkNDLCBOb3J0aCBIYWxsBE4yNTTTAzxwPkFzIHRoZSBwb2xpY3kgYmF0dGxlIGZvciBpbW1pZ3JhdGlvbiByZWZvcm0gcmFnZXMsIG91ciBnbG9iYWwgY29tcGV0aXRvcnMgYXJlIHJlYXBpbmcgdGhlIGJlbmVmaXRzLiBGb3JlaWduLWJvcm4gU1RFTSBncmFkdWF0ZXMgYW5kIGlubm92YXRpdmUgZW50cmVwcmVuZXVycyB3YW50IHRvIHdvcmsgYW5kIGJ1aWxkIGJ1c2luZXNzZXMgaW4gdGhlIFUuUy4gT3VyIG91dGRhdGVkIGltbWlncmF0aW9uIHN5c3RlbSBsaW1pdHMgaW5ub3ZhdGlvbiBhbmQgY29zdGluZyBBbWVyaWNhbiBqb2JzLiBMZWFybiBob3cgdGhlIHRlY2hub2xvZ3kgY29tbXVuaXR5IGNhbWUgdG9nZXRoZXIgdG8gcHVzaCBmb3IgcGFzc2FnZSBvZiBpbW1pZ3JhdGlvbiByZWZvcm0gYW5kIGhlYXIgYWJvdXQgaW1taWdyYW50IGVudHJlcHJlbmV1cnMnIGV4cGVyaWVuY2VzIHdvcmtpbmcgdGhyb3VnaCB0aGUgaW50cmljYXRlIHN5c3RlbS48L3A+ZAIGD2QWAmYPZBYEAgQPZBYCZg9kFgJmD2QWAmYPFQYAB0NlY2lsaWEES2FuZwAMU3RhZmYgV3JpdGVyE1RoZSBXYXNoaW5ndG9uIFBvc3RkAgsPZBYKZg9kFgJmD2QWAmYPFQYABFRyb3kFU3RvY2sAB0NvdW5zZWwoT2ZmaWNlIG9mIFJlcHJlc2VuYXRhdGl2ZSBKYXNvbiBDaGFmZmV0emQCAQ9kFgJmD2QWAmYPFQYABk15cmlhaAZKb3JkYW4AFk1hbmFnZXIsIFB1YmxpYyBQb2xpY3kIRmFjZWJvb2tkAgIPZBYCZg9kFgJmDxUGAAZYaW1lbmEISGFydHNvY2sAB0ZvdW5kZXIMUGhvbmUyQWN0aW9uZAIDD2QWAmYPZBYCZg8VBgAGU3R1YXJ0BkJhcmJlcgAMU3IuIERpcmVjdG9yD0NvbXBldGUgQW1lcmljYWQCBA9kFgJmD2QWAmYPFQYAA0FsaQdOb29yYW5pABJFeGVjdXRpdmUgRGlyZWN0b3IaTmF0aW9uYWwgSW1taWdyYXRpb24gRm9ydW1kAgcPDxYCHwRoZGRk4NWEEsS4sK34XVXEKH0XU7RnxVB64Pqw66xe3LXBQjI=" />
+</div>
+
+<input type="hidden" name="lng" id="lng" value="en-US" />
+<script type="text/javascript">
+	//<![CDATA[
+
+function PM_Postback(param) { if (window.top.HideScreenLockWarningAndSync) { window.top.HideScreenLockWarningAndSync(1080); }__doPostBack('m',param); }
+function PM_Callback(param, callback, ctx) { if (window.top.HideScreenLockWarningAndSync) { window.top.HideScreenLockWarningAndSync(1080); }WebForm_DoCallback('m',param,callback,ctx,null,true); }
+//]]>
+</script>
+<script src="/ScriptResource.axd?d=_5JCocmpF5FO20nczb37dnUYvUFGaqwbMHXRfQR_cHXC7tKVJKYGD45DONBLAEsM6_ftHTGhOdwnbAiMC8b1g9Dch-5ZHC0ZXLS713NRUY5vQwEQzCUa97LNyNeze6Nn0&amp;t=ffffffff8dea9fe4" type="text/javascript"></script>
+    <div id="CMSHeaderDiv">
+	<!-- -->
+</div>
+    <div id="ctxM">
+
+</div>
+    
+<!--[if lte IE 9]>
+  <div style="display: block; width: 97%; background-color: #FF99CC; padding: 10px 30px 10px 30px; text-align: center; color: black; font-size:20px;">
+    We noticed you are using an older version of IE that isn't fully supported on this site. Please click <a  href="http://www.cesweb.org/browsers">here</a> for more information and options.
+</div>
+<![endif]-->  
+<div id="wrapper">
+	<div id="center_top">
+    <div id="container">
+        	<!--TOP PANEL-->
+			<section>
+            <div id="top_panel">
+                <div class="container">
+                    <ul class="connect-title">
+                        <li>Connect with Us</li>
+                    </ul>
+                    <ul class="social_icons">
+	<li class="twitter">
+		<a href="https://twitter.com/intlces" title="Twitter">&nbsp;</a></li>
+	<li class="facebook">
+		<a href="https://www.facebook.com/InternationalCES" title="facebook">&nbsp;</a></li>
+	<li class="googleplus">
+		<a href="https://google.com/+InternationalCES" title="googleplus">&nbsp;</a></li>
+	<li class="instagram">
+		<a href="http://instagram.com/intlces" title="instagram">&nbsp;</a></li>
+	<li class="youtube">
+		<a href="http://www.youtube.com/user/cesonthetube" title="youtube">&nbsp;</a></li>
+</ul>
+
+                    <ul class="open-ad"><li id="clasp_1"><a href="javascript:lunchboxOpen('1');">OPEN ADVERTISEMENT </a></li></ul>
+                    <ul class="drop" id="nav">
+	<li>
+		Other CEA Sites
+		<ul>
+			<li>
+				<a href="http://www.ce.org" target="_blank">CEA - CE.org</a></li>
+			<li>
+				<a href="http://www.declareinnovation.com/" target="_blank">Innovation Movement</a></li>
+			<li>
+				<a href="http://www.ce.org/blog" target="_blank">Digital Dialogue Blog</a></li>
+			<li>
+				<a href="http://www.ce.org/i3" target="_blank">i3 Magazine</a></li>
+			<li>
+				<a href="http://www.greenergadgets.org/" target="_blank">Greener Gadgets</a></li>
+			<li>
+				<a href="http://www.ce.org/research" target="_blank">CEA Market Research</a></li>
+			<li>
+				<a href="http://www.ce.org/foundation" target="_blank">CEA Foundation</a></li>
+		</ul>
+	</li>
+</ul>
+
+                </div>
+            </div>
+            </section> 
+            <!--END TOP PANEL-->
+            <!--AD AREA-->
+           <section>
+           		<div style="background:#000;" class="billboard-ad" >
+                <div class="container bill-ad lunchbox" id="lunch_1"  style="display: none;">
+                  <div class="container bill-ad"><a id="p_lt_ctl02_BannerRotator_lnkBanner" class="CMSBanner Banner" href="https://ces.itnint.com/2014/regonline/RegLogin.aspx" onclick="this.href=&#39;/CMSModules/BannerManagement/CMSPages/BannerRedirect.ashx?bannerID=78&amp;redirectURL=https%3a%2f%2fces.itnint.com%2f2014%2fregonline%2fRegLogin.aspx&#39;;" onmouseup="this.href=&#39;/CMSModules/BannerManagement/CMSPages/BannerRedirect.ashx?bannerID=78&amp;redirectURL=https%3a%2f%2fces.itnint.com%2f2014%2fregonline%2fRegLogin.aspx&#39;;" target="_blank"><img id="p_lt_ctl02_BannerRotator_imgBanner" src="/CES/media/2014/advertisements/RegisterAD_nodate.jpg" style="" /></a></div>
+                </div>
+                </div>
+           	</section>
+             <!--ENS AD AREA-->
+           
+           <!--AUDIENCEL-->
+           <section>
+           <div class="container">
+           	<ul class="audience-nav">
+	<li>
+		<a href="/exhibitor">Exhibitors</a></li>
+	<li>
+		<a href="/press">Press</a></li>
+	<li>
+		<a href="/international">International</a></li>
+</ul>
+
+            </div>
+           </section>
+           <!--END AUDIENCEL-->
+           <!--HEADER-->
+          <section>
+            <div class="container">
+				<header id="header">
+					<div id="sticky_navigation">
+						<div class="container">
+							<a href="/home" id="logo"></a>
+                   		   
+                           <div class="search-container">
+                              <div class="search">
+                                <input type="search" id="searchTxt" onkeypress="return EnterEvent(event);" >
+                                  
+                              </div>
+                              <div class="date">
+                                <h2>
+	Las Vegas, NV</h2>
+<h3>
+	JANUARY 7-10, 2014</h3>
+
+                              </div>
+                          </div>
+                       </div>
+                       <div id="navigation-wrapper">
+                            <nav id="main-navigation">
+                              
+<ul class="main-menu sf-js-enabled sf-shadow">
+ 
+    <li class=""
+id="2">
+<a href=" /Register-Plan"> Register &amp; Plan</a> 
+<ul 
+    
+   class='nav-2cols'
+  style="display: none; visibility: hidden;">
+    
+  <p style ="display:none;">&nbsp;</p><li><a href=" /Register-Plan/Register-Now"> Register Now</a>
+
+<li><a href=" /Register-Plan/Full-Schedule"> Full Schedule </a>
+
+<li><a href=" /Register-Plan/How-to-Register-for-CES"> How to Register for CES</a>
+
+<li><a href=" /Register-Plan/Badges"> Badges: A New Process for 2014</a>
+
+<ul></ul>
+</li><li><a href=" /Register-Plan/Hotel"> Hotel</a>
+
+<ul><li><a href="/Register-Plan/Hotel/Reserve-a-Room-Block" class="no-display">Reserve a Room Block </a></li></ul>
+</li><li><a href=" /Register-Plan/Transportation"> Transportation</a>
+
+<ul></ul>
+</li><li><a href=" /Register-Plan/Las-Vegas-Travel-Tips"> Las Vegas Travel Tips</a>
+
+<li><a href=" /Register-Plan/On-Site-Logistics"> On-Site Logistics</a>
+
+<li><a href=" /Register-Plan/My-CES-Planner"> MyCES Planner</a>
+
+<li><a href=" /Register-Plan/First-Timers-Resources"> First-Timer Resources</a>
+
+
+</ul></li><li class=""
+id="3">
+<a href=" /Show-Floor"> Show Floor</a> 
+<ul 
+    class='nav-3cols'
+   
+  style="display: none; visibility: hidden;">
+    
+  <p style ="display:none;">&nbsp;</p><li><a href=" /Show-Floor/Exhibit-or-Sponsor"> Exhibit or Sponsor</a>
+
+<li><a href=" /Show-Floor/Exhibit-Hours"> Exhibit Hours</a>
+
+<li><a href=" /Show-Floor/TechZones"> TechZones</a>
+
+<ul></ul>
+</li><li><a href=" /Show-Floor/Exhibit-Directory"> Exhibitor Directory</a>
+
+<li><a href=" /Show-Floor/Maps"> Maps</a>
+
+<li><a href=" /Show-Floor/Show-Floor-Tours"> Show Floor Tours</a>
+
+<li><a href=" /Show-Floor/CES-Mobile-App"> CES Mobile App</a>
+
+<li><a href=" /Show-Floor/MyCES-Planner"> MyCES Planner</a>
+
+<li><a href=" /Show-Floor/Official-Show-Guide"> Official Show Guide</a>
+
+<li><a href=" /Show-Floor/Official-Show-Directory"> Official Show Directory</a>
+
+
+</ul></li><li class="current"
+id="4">
+<a href=" /Conference"> Conference</a> 
+<ul 
+    
+   class='nav-2cols'
+  style="display: none; visibility: hidden;">
+    
+  <p style ="display:none;">&nbsp;</p><li><a href=" /Conference/Keynotes"> Keynote Addresses</a>
+
+<li><a href=" /Conference/Purchase-Passes"> Purchase Passes</a>
+
+<li><a href=" /Conference/Shopping-Cart"> Shopping Cart</a>
+
+<li><a href=" /Conference/Session-Schedule-Brochure"> Conference Program Schedule </a>
+
+<li><a href=" /Conference/Speaker-Search"> Speaker Search</a>
+
+<li><a href=" /Conference/SuperSessions"> SuperSessions</a>
+
+<li><a href=" /Conference/Conference-Tracks"> Conference Tracks</a>
+
+<li><a href=" /Conference/Become-a-Speaker"> Become a Speaker</a>
+
+<li><a href=" /Conference/Speaker-Services"> Speaker Services</a>
+
+<ul></ul>
+</li><li><a href=" /Conference/Virtual-Conference-Brochure"> Virtual Conference Brochure</a>
+
+
+</ul></li><li class=""
+id="5">
+<a href=" /Events-Awards"> Events &amp; Awards</a> 
+<ul 
+    
+   
+  style="display: none; visibility: hidden;">
+    
+  <p style ="display:none;">&nbsp;</p><li><a href=" /Events-Awards/Events"> Events</a>
+
+<ul></ul>
+</li><li><a href=" /Events-Awards/Awards"> Awards</a>
+
+<li><a href=" /Events-Awards/Innovations"> CES Innovations Awards</a>
+
+<li><a href=" /Events-Awards/Download-the-Events-and-Awards-Schedule-Flyer-(PDF"> Download the Events and Awards Schedule Flyer (PDF)</a>
+
+<li><a href=" /Events-Awards/Press-Events"> Press Events</a>
+
+
+</ul></li><li class=""
+id="6">
+<a href=" /News"> News</a> 
+<ul 
+    
+   class='nav-2cols'
+  style="display: none; visibility: hidden;">
+    
+  <p style ="display:none;">&nbsp;</p><li><a href=" /News/Press-Releases"> Press Releases</a>
+
+<li><a href=" /News/CES-TV"> Videos</a>
+
+<ul></ul>
+</li><li><a href=" /News/Photo-Gallery"> Photo Gallery</a>
+
+<li><a href=" /News/CES-Social"> Social Media</a>
+
+<li><a href=" /News/CES-In-The-News"> CES In The News</a>
+
+<li><a href=" /News/Exhibitor-Press-Releases"> Exhibitor Press Releases </a>
+
+<li><a href=" /News/Press-Services"> Press Services</a>
+
+<li><a href=" /News/Celebrities-at-CES"> Celebrities at CES</a>
+
+
+</ul></li><li class=""
+id="7">
+<a href=" /Why-attend-CES"> Why Attend CES?</a> 
+<ul 
+    
+   
+  style="display: none; visibility: hidden;">
+    
+  <p style ="display:none;">&nbsp;</p><li><a href=" /Why-attend-CES/What-Youre-Missing-CES"> See What You&#39;re Missing at CES</a>
+
+<li><a href=" /Why-attend-CES/2013-Attendee-Audit"> 2013 Attendee Audit</a>
+
+<li><a href=" /Why-attend-CES/CEA-Member-Benefits"> CEA Member Benefits</a>
+
+
+</ul>  </li>
+</ul>
+
+ <div id="main-navigation">
+  <select id="navSecondary" onChange="top.location.href=this.options[this.selectedIndex].value;">
+<option selected="selected" value="">Site Main Navigation</option>
+<option style="font-family:open_sansbold;" value="/Register-Plan">Register & Plan</option><option style="font-family:open_sansbold;" value="/Show-Floor">Show Floor</option><option style="font-family:open_sansbold;" value="/Conference">Conference</option><option style="font-family:open_sansbold;" value="/Events-Awards">Events & Awards</option><option style="font-family:open_sansbold;" value="/News">News</option><option style="font-family:open_sansbold;" value="/Why-attend-CES">Why Attend CES?</option><option style="font-family:open_sansbold;" value="/Exhibitor">Exhibitors</option><option style="font-family:open_sansbold;" value="/International">International</option><option style="font-family:open_sansbold;" value="/Press">Press</option>
+</select>
+</div>
+                            </nav>
+                        </div>
+				    </div>
+	          </header>
+           </div> 
+        </section>
+        </div>
+    
+      
+
+<section>
+    <div class="container clearfix above">
+      <div class="one-sixth-leftnav">
+        <div class="leftnav">
+            <ul><li><a href="/Conference/Keynotes">Keynote Addresses</a><li><a href="/Conference/Purchase-Passes">Purchase Passes</a><li><a href="/Conference/Shopping-Cart">Shopping Cart</a><li><a href="/Conference/Session-Schedule-Brochure">Conference Program Schedule </a><li><a href="/Conference/Speaker-Search">Speaker Search</a><li><a href="/Conference/SuperSessions">SuperSessions</a><li><a href="/Conference/Conference-Tracks">Conference Tracks</a><ul><li><a href="/Conference/Conference-Tracks/2nd-Screen-Summit-at-CES">2nd Screen Summit at CES</a><li><a href="/Conference/Conference-Tracks/Automotive-Electronics-Technology">Automotive Electronics</a><li><a href="/Conference/Conference-Tracks/Broadband-Unlimited">Broadband Unlimited</a><li><a href="/Conference/Conference-Tracks/Business-of-Innovation">Business of Innovation</a><li><a href="/Conference/Conference-Tracks/Cable-Conference-at-CES">Cable Conference at CES</a><li class="left-up"><a href="/Conference/Conference-Tracks/CEA-Innovation-Policy-Summit">CEA Innovation Policy Summit</a><ul class="main-menu sf-js-enabled sf-shadow"><ul class="main-menu sf-js-enabled sf-shadow"><li><a href="/Conference/Conference-Tracks/CEA-Innovation-Policy-Summit/IPS02-Stop-Fighting-and-Fix-It-Making-Music-Licens">Stop Fighting and Fix It: Making Music Licensing Work for Innovators, Artists and Consumers</a><li><a href="/Conference/Conference-Tracks/CEA-Innovation-Policy-Summit/IPS03-Start-Ups-and-Public-Policy-Obstacles-and-Op">Start-Ups and Public Policy: Obstacles and Opportunities</a><li><a href="/Conference/Conference-Tracks/CEA-Innovation-Policy-Summit/IPS04-Driving-Towards-the-Future-Pro-Innovation-Po">Driving Towards the Future:  Pro-Innovation Policies and the Connected Car</a><li class="left-current"><a href="/Conference/Conference-Tracks/CEA-Innovation-Policy-Summit/IPS05-Battling-for-the-Best-and-Brightest-–-Immigr">Battling for the Best and Brightest: Immigration Reform and the Innovative Economy</a><li><a href="/Conference/Conference-Tracks/CEA-Innovation-Policy-Summit/IPS06-The-Internet-of-Things-and-the-Home-of-the-F">The Internet of Things and the Home of the Future</a><li><a href="/Conference/Conference-Tracks/CEA-Innovation-Policy-Summit/IPS07-Patent-Litigation-Reform-Who-are-you-Calling">Patent Litigation Reform: Who are You Calling a Troll?</a><li><a href="/Conference/Conference-Tracks/CEA-Innovation-Policy-Summit/IPS08-Spectrum-Spectacular-Slicing-the-Nation-s-Ai">Spectrum Spectacular:  Slicing the Nation's Airwaves</a><li><a href="/Conference/Conference-Tracks/CEA-Innovation-Policy-Summit/IPS09-The-FCC-s-Regulatory-Agenda-for-2014">The FCC's Regulatory Agenda for 2014</a><li><a href="/Conference/Conference-Tracks/CEA-Innovation-Policy-Summit/IPS10-Change-is-in-the-Air-New-Policies-for-Us">Change is in the Air: New Policies for Using Consumer Electronics on Airplanes</a><li><a href="/Conference/Conference-Tracks/CEA-Innovation-Policy-Summit/IPS11-e-Waste-When-Will-it-End">E-Waste: When Will it End?</a><li><a href="/Conference/Conference-Tracks/CEA-Innovation-Policy-Summit/IPS12-Energy-Efficiency-Initiatives-for-Electronic">Energy Efficiency Initiatives for Electronics: What's Working and What's Not</a></ul></ul><li><a href="/Conference/Conference-Tracks/CEA-Research-Summit">CEA Research Summit</a><li><a href="/Conference/Conference-Tracks/CES-Government-2014">CES Government 2014</a><li><a href="/Conference/Conference-Tracks/Connecting-to-the-Cloud">Connecting to the Cloud</a><li><a href="/Conference/Conference-Tracks/CONNECTIONS-Summit">CONNECTIONS Summit</a><li><a href="/Conference/Conference-Tracks/Robotics-Business-Review-Presents-The-Next-Trillio">Consumer Robotics: The Next Trillion Dollar Market</a><li><a href="/Conference/Conference-Tracks/Content-and-Disruptive-Technology">Content and Disruptive Technology</a><li><a href="/Conference/Conference-Tracks/Digital-Health-Summit">Digital Health Summit</a><li><a href="/Conference/Conference-Tracks/Digital-Hollywood">Digital Hollywood</a><li><a href="/Conference/Conference-Tracks/Digital-Music-at-CES">Digital Music at CES</a><li><a href="/Conference/Conference-Tracks/Don-t-Believe-the-Hype-3D-Printing-Uncovered">Don't Believe the Hype? 3D Printing Uncovered</a><li><a href="/Conference/Conference-Tracks/Fitness-Tech">Fitness Tech</a><li><a href="/Conference/Conference-Tracks/High-Resolution-Audio-Experience">Hi-Res Audio Experience</a><li><a href="/Conference/Conference-Tracks/IEEE-International-Conference-on-Consumer-Electron">IEEE: International Conference on Consumer Electronics (ICCE) </a><li><a href="/Conference/Conference-Tracks/Internet-of-Everything">Internet of Everything</a><li><a href="/Conference/Conference-Tracks/Kids@Play-and-MommyTech">Kids@Play and MommyTech</a><li><a href="/Conference/Conference-Tracks/Marketing-and-Engagement">Marketing and Engagement</a><li><a href="/Conference/Conference-Tracks/Memory-Goes-Mobile">Memory Goes Mobile</a><li><a href="/Conference/Conference-Tracks/MEMS-Sensor-Fusion-–-Revolutionizing-the-Internet">MEMS Sensor Fusion: Revolutionizing the Internet of Things</a><li><a href="/Conference/Conference-Tracks/PMA@CES-Conference-Sessions">PMA@CES: Photography and Digital Imaging Conference</a><li><a href="/Conference/Conference-Tracks/Seeing-Is-Believing-3D,-4K-and-UHD">Seeing Is Believing: 3D, 4K and UHD</a><li><a href="/Conference/Conference-Tracks/Silvers-Summit">Silvers Summit</a><li><a href="/Conference/Conference-Tracks/Smartphones-and-Tablets-Conference">Smartphones and Tablets Conference</a><li><a href="/Conference/Conference-Tracks/Software-Developer-Tools-Aspire-to-Inspire">Software Developer Tools: Aspire to Inspire</a><li><a href="/Conference/Conference-Tracks/Storage-Visions-2014">Storage Visions 2014</a><li><a href="/Conference/Conference-Tracks/StoryTech-Impact!-Conference">StoryTech Impact! Conference</a><li><a href="/Conference/Conference-Tracks/Technology-Trends">Technology Trends</a><li><a href="/Conference/Conference-Tracks/The-Wireless-Symposium-WiExpo">The Wireless Symposium & WiExpo</a><li><a href="/Conference/Conference-Tracks/THX-Certified-Professional-Home-Theater-Level-1">THX Certified Professional Home Theater Level 1</a><li><a href="/Conference/Conference-Tracks/TransformingEDU">TransformingEDU</a><li><a href="/Conference/Conference-Tracks/Variety-s-Entertainment-Summit">Variety's Entertainment Summit</a><li><a href="/Conference/Conference-Tracks/Wireless-and-Mobile-Technology">Wireless and Mobile Technology</a></ul><li><a href="/Conference/Become-a-Speaker">Become a Speaker</a><li><a href="/Conference/Speaker-Services">Speaker Services</a><li><a href="/Conference/Virtual-Conference-Brochure">Virtual Conference Brochure</a></ul>
+
+        </div>
+        <a id="p_lt_ctl06_pageplaceholder_p_lt_ctl01_BannerRotator_lnkBanner" class="CMSBanner Banner" href="http://www.ce.org/Blog/Articles/2014/January/VIDEO-CES-Brings-You-3D-Printing-Another-Disrupti.aspx" onclick="this.href=&#39;/CMSModules/BannerManagement/CMSPages/BannerRedirect.ashx?bannerID=94&amp;redirectURL=http%3a%2f%2fwww.ce.org%2fBlog%2fArticles%2f2014%2fJanuary%2fVIDEO-CES-Brings-You-3D-Printing-Another-Disrupti.aspx&#39;;" onmouseup="this.href=&#39;/CMSModules/BannerManagement/CMSPages/BannerRedirect.ashx?bannerID=94&amp;redirectURL=http%3a%2f%2fwww.ce.org%2fBlog%2fArticles%2f2014%2fJanuary%2fVIDEO-CES-Brings-You-3D-Printing-Another-Disrupti.aspx&#39;;" target="_blank"><img id="p_lt_ctl06_pageplaceholder_p_lt_ctl01_BannerRotator_imgBanner" src="/CES/media/2014/advertisements/CESVideoAD.jpg" style="" /></a>
+      </div>
+      <div class="three-fourth">
+        <div class="body-content">
+            <h1>Conference Tracks</h1>
+
+            <div class="breadcrumbs-article">
+                <ul class="breadcrumbs-left">
+                  <li><a id="p_lt_ctl06_pageplaceholder_p_lt_hypBChome" href="../../../">Home</a></li>
+                   <li class="bread-div">|</li><li><a href="/Conference.aspx" class="CMSBreadCrumbsLink">Conference</a> </li><li class="bread-div">|</li><li> <a href="/Conference/Conference-Tracks.aspx" class="CMSBreadCrumbsLink">Conference Tracks</a> 
+</li>                    
+                </ul>
+                <ul class="breadcrumbs-right">
+                  <li><span  class="st_sharethis_custom" displayText="ShareThis"><a >Share This</a></span></li>
+                  <li><a href="javascript:window.print()">Print This Page</a></li>
+                </ul>
+            </div>
+
+            
+
+            <div class="article-content-area">
+              
+               
+
+
+<div>
+    <h2>Battling for the Best and Brightest: Immigration Reform and the Innovative Economy</h2>
+    <div class="leftTrackColumn">
+      
+      <div class="waysToBuy">
+        <div id="addToCartIPS5" class="cartItem"></div>
+      </div>
+    </div>
+    <h3>January 8, 2014, 9:30&#45;10:30 a.m.<br />
+    LVCC, North Hall&nbsp;N254</h3>
+    <div><p>As the policy battle for immigration reform rages, our global competitors are reaping the benefits. Foreign-born STEM graduates and innovative entrepreneurs want to work and build businesses in the U.S. Our outdated immigration system limits innovation and costing American jobs. Learn how the technology community came together to push for passage of immigration reform and hear about immigrant entrepreneurs' experiences working through the intricate system.</p></div>
+    <div style="clear: both;"></div>
+  </div>
+<ul class="sessionSpeaker"><div id="p_lt_ctl06_pageplaceholder_p_lt_ctl05_SpeakersGroupedDataRepeater_Panel1">
+	  
+<div class=""><strong>Moderator:</strong><div class=""><li>
+  
+  <strong>Cecilia &nbsp;Kang</strong>,&nbsp;Staff Writer, The Washington Post
+</li></div></div><div class=""><strong>Panelist:</strong><div class=""><li>
+  
+  <strong>Troy &nbsp;Stock</strong>,&nbsp;Counsel, Office of Represenatative Jason Chaffetz
+</li><li>
+  
+  <strong>Myriah &nbsp;Jordan</strong>,&nbsp;Manager, Public Policy, Facebook
+</li><li>
+  
+  <strong>Ximena &nbsp;Hartsock</strong>,&nbsp;Founder, Phone2Action
+</li><li>
+  
+  <strong>Stuart &nbsp;Barber</strong>,&nbsp;Sr. Director, Compete America
+</li><li>
+  
+  <strong>Ali &nbsp;Noorani</strong>,&nbsp;Executive Director, National Immigration Forum
+</li></div></div>
+</div> 
+</ul>
+              
+            </div>
+        </div>
+      </div>
+    </div>
+</section>
+       <div class="interior-body-bk">
+          <div class="int-bk-right"><a id="p_lt_ctl07_BannerRotatorRightHanger_lnkBanner" class="CMSBanner Banner" href="/conference" onclick="this.href=&#39;/CMSModules/BannerManagement/CMSPages/BannerRedirect.ashx?bannerID=36&amp;redirectURL=%2fconference&#39;;" onmouseup="this.href=&#39;/CMSModules/BannerManagement/CMSPages/BannerRedirect.ashx?bannerID=36&amp;redirectURL=%2fconference&#39;;"><img id="p_lt_ctl07_BannerRotatorRightHanger_imgBanner" src="/CES/media/2014/backgrounds/GibsonGuitars.jpg" style="" /></a></div>
+          <div class="int-bk-left"><a id="p_lt_ctl08_BannerRotatorLeftHanger_lnkBanner" class="CMSBanner Banner" href="/show-floor" onclick="this.href=&#39;/CMSModules/BannerManagement/CMSPages/BannerRedirect.ashx?bannerID=35&amp;redirectURL=%2fshow-floor&#39;;" onmouseup="this.href=&#39;/CMSModules/BannerManagement/CMSPages/BannerRedirect.ashx?bannerID=35&amp;redirectURL=%2fshow-floor&#39;;"><img id="p_lt_ctl08_BannerRotatorLeftHanger_imgBanner" src="/CES/media/2014/backgrounds/home-bk-01.jpg" style="" /></a></div>
+      </div> 
+      <section>
+    <div id="footer">
+			<div class="container">
+            	<div class="footer-line"></div>
+				<div class="one-fifth">
+                  <p class="copyright">
+	Copyright &copy; 2003 - 2014 CEA. All rights reserved.</p>
+
+			    </div>
+			    <div class="one-sixth footer-div">
+                  <ul>
+	<li>
+		<a href="/about-us">About Us </a></li>
+	<li>
+		<a href="/contact-us">Contact Us</a></li>
+	<li>
+		<a href="/partners">Partners</a></li>
+</ul>
+
+				 </div>
+                 <div class="one-sixth footer-div">
+                  <ul>
+	<li>
+		<a href="/privacy">Privacy</a></li>
+	<li>
+		<a href="/sitemap">Sitemap</a></li>
+</ul>
+<br /><div style="font-size: .8em; color: #FFF;"><span id="p_lt_ctl11_whatServer_serverName">WEB-IIS10</span></div><div style="color: #fff;">billboardConference</div>
+				 </div>
+				 <div class="one-third languages">
+                    	
+                     <script type="text/javascript">
+
+
+
+  var _gaq = _gaq || [];
+
+  _gaq.push(['_setAccount', 'UA-3975226-4']);
+
+  _gaq.push(['_trackPageview']);
+
+
+
+  (function() {
+
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+
+  })();
+
+
+
+</script>​
+                </div>
+			</div>
+    </div>
+    </section>
+    </div>
+    </div>
+<!-- Start of Google Analytics script -->
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-3975226-4']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+<!-- End of Google Analytics script -->
+
+<!-- Start Pardot tracking script -->
+<script type="text/javascript"> 
+piAId = '27962'; 
+piCId = '2690'; 
+
+(function() { 
+function async_load(){ 
+var s = document.createElement('script'); s.type = 'text/javascript';
+s.src = ('https:' == document.location.protocol ? 'https://pi' : 'http://cdn') + '.pardot.com/pd.js'; 
+var c = document.getElementsByTagName('script')[0]; c.parentNode.insertBefore(s, c); 
+} 
+if(window.attachEvent) { window.attachEvent('onload', async_load); } 
+else { window.addEventListener('load', async_load, false); } 
+})(); 
+</script> 
+<!-- End Pardot tracking script -->
+<script type="text/javascript">
+setTimeout(function(){var a=document.createElement("script");
+var b=document.getElementsByTagName("script")[0];
+a.src=document.location.protocol+"//dnn506yrbagrg.cloudfront.net/pages/scripts/0013/2569.js?"+Math.floor(new Date().getTime()/3600000);
+a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
+</script>
+
+<div itemscope itemtype="http://schema.org/BusinessEvent">
+  <div><meta itemprop="url" href="http://www.cesweb.org"></div>
+  <div><meta itemprop="name" content="2014 International CES"></div>
+  <div><meta itemprop="description" content="The International CES is a global consumer electronics and consumer technology tradeshow that takes place every January in Las Vegas, Nevada."></div>
+  <div><meta itemprop="startDate" content="2014-01-07T09:00"></div>
+  <div><meta itemprop="endDate" content="2014-01-10:00.000"></div>
+<div itemprop="location" itemscope itemtype="http://schema.org/PostalAddress">
+  <div><meta itemprop="addressLocality" content="Las Vegas"><meta itemprop="addressRegion" content="NV"></div>
+</div>
+
+    
+    
+
+<script type="text/javascript">
+//<![CDATA[
+(function() {var fn = function() {$get("manScript_HiddenField").value = '';Sys.Application.remove_init(fn);};Sys.Application.add_init(fn);})();//]]>
+</script>
+</form>
+</body>
+</html>

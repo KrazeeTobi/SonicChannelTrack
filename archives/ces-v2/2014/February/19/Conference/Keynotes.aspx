@@ -1,0 +1,1397 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head id="head"><title>
+	Keynote Addresses - 2015 International CES, January 6-9
+</title><meta name="description" content="The 2014 CES keynote lineup promises a comprehensive snapshot of the consumer technology industry. " /> 
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" /> 
+<meta http-equiv="pragma" content="no-cache" /> 
+<meta http-equiv="content-style-type" content="text/css" /> 
+<meta http-equiv="content-script-type" content="text/javascript" /> 
+<meta name="keywords" content="International CES, CES, CES 2010, CES 2011, CES 2012, CES 2013, CES 2014, CES 2015, CES 2016, CES 2017, CES 2018, Consumer Electronics Show, Consumer Technology, Consumer Electronics, Consumer Electronics Association, CES Las Vegas, ces show, ces vegas, CES Unveiled, ces tradeshow, ces conference, ces registration, ces exhibitor, ces innovation awards, innovation awards, best of ces, ces keynote, ces show floor, technology, silicon valley, technology innovation, disruptive technology, start-ups,International CES, CES, CES 2010, CES 2011, CES 2012, CES 2013, CES 2014, CES 2015, CES 2016, CES 2017, CES 2018, Consumer Electronics Show, Consumer Technology, Consumer Electronics, Consumer Electronics Association, CES Las Vegas, ces show, ces vegas, CES Unveiled, ces tradeshow, ces conference, ces registration, ces exhibitor, ces innovation awards, innovation awards, best of ces, ces keynote, ces show floor, technology, silicon valley, technology innovation, disruptive technology, start-ups" /> 
+
+<meta name="viewport" content="initial-scale=1">
+<meta property="twitter:account_id" content="10668202" />
+<!-- Twitter Summary Card -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@IntlCES">
+<meta name="twitter:creator" content="@IntlCES">
+<meta name="twitter:title" content="Keynote Addresses">
+<meta name="twitter:description" content="The 2014 CES keynote lineup promises a comprehensive snapshot of the consumer technology industry. ">
+<meta name="twitter:image" content="http://content.ce.org/2013ces/images/hpimages/header/cesweb_headerlogo.png">
+<!-- End of Twitter Summary Card -->
+
+<link rel="shortcut icon" href="/ces/favicon.ico" />
+<link rel="icon" href="/ces/favicon.ico" />
+
+<!--[if !IE]><!-->
+  <link href="/CMSPages/GetResource.ashx?stylesheetname=ices-main-style" type="text/css" rel="stylesheet" media="screen" />
+<!--<![endif]-->
+<!--[if lte IE 9]>
+  <link href="/CMSPages/GetResource.ashx?stylesheetname=ices-IE8" type="text/css" rel="stylesheet" media="screen" />
+<![endif]-->  
+    <link href="/CMSPages/GetResource.ashx?stylesheetname=ices-mediaelementplayer.min	" type="text/css" rel="stylesheet" media="screen" />
+    <link href="/CMSPages/GetResource.ashx?stylesheetname=ices-captions" type="text/css" rel="stylesheet"  />
+    <link href="/CMSPages/GetResource.ashx?stylesheetname=ices-slider-style" type="text/css" rel="stylesheet" media="screen" />
+    <link href="/CMSPages/GetResource.ashx?stylesheetname=ices-flexslider" type="text/css" rel="stylesheet" />
+    <link href="/CMSPages/GetResource.ashx?stylesheetname=ices-prettyphoto" type="text/css" rel="stylesheet" />
+    <link href="/CMSPages/GetResource.ashx?stylesheetname=ices-settings" type="text/css" rel="stylesheet" media="screen" />
+    <link href="/CMSPages/GetResource.ashx?stylesheetname=ices-fonts" type="text/css" rel="stylesheet" media="screen" />
+<link href="/CMSPages/GetResource.ashx?stylesheetname=ices-print" type="text/css" rel="stylesheet" media="print" />
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+<script type="text/javascript" src="/ces/js/itn/jquery.cookie.js"></script>
+<script type="text/javascript" src="/ces/js/scripts.js"></script>
+<!--<script type="text/javascript" src="/ces/js/jquery.themepunch.revolution.min.js"></script>-->
+<script type="text/javascript" src="/ces/js/custom.js"></script>
+
+
+ <script type="text/javascript">
+    <!--
+    function toggle_visibility(id) {
+        var e = document.getElementById(id);
+        if (e.style.display == 'block')
+            e.style.display = 'none';
+        else
+            e.style.display = 'block';
+    }
+    //-->
+    </script>
+    <script type="text/javascript">
+        function EnterEvent(e) {
+            if (e.keyCode == 13) {
+              var val = document.getElementById('searchTxt').value;
+              var sURL = '/search-results?searchtext=' + val + '&searchmode=anyword';
+              window.location.href = sURL;
+              return false;
+                }
+            }
+      
+      jQuery(document).ready(function ($) {
+      for (var count = 2 ;count <= 7; count ++)
+        {
+            var a = $('#'+ count +' ul.nav-3cols > li');
+            for (var i = 0; i < a.length; i += 5) {
+                a.slice(i, i + 5).wrapAll('<div class="nav-col"></div>');
+            }
+            var a = $('#'+ count +' ul.nav-2cols > li');
+            for (var i = 0; i < a.length; i += 5) {
+                a.slice(i, i + 5).wrapAll('<div class="nav-col"></div>');
+            }
+        }
+  
+   
+    });
+    </script>
+<script type="text/javascript">var switchTo5x=false;</script>
+<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+<script type="text/javascript">stLight.options({publisher: "a17beaa8-5eee-4df7-8629-9947a3e965e3",  offsetLeft:'-270', doNotHash: true, doNotCopy: false, hashAddressBar: false, exclusive_services:true, services:"facebook,twitter,linkedin,googleplus,email,sharethis", minorServices:false});</script>
+
+
+
+<script type="text/javascript" src="/ces/js/cmsedit/WidgetSecurity_non_Admin.js"></script> 
+<style type="text/css" rel="stylesheet"> 
+                   
+                        .languages {
+                        display: none !important;
+                        
+                        }
+
+                    </style>
+                    <link href="/CMSPages/GetResource.ashx?_webparts=1067" type="text/css" rel="stylesheet"/> 
+</head>
+<body class="LTR ENUS ContentBody" >
+    <form method="post" action="/Conference/Keynotes.aspx" id="form">
+<div class="aspNetHidden">
+<input type="hidden" name="manScript_HiddenField" id="manScript_HiddenField" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJODc3OTc4NjAwD2QWAgIBEGRkFgICBQ9kFgJmD2QWAmYPZBYCAg0PZBYCZg9kFgICAg9kFgJmD2QWAmYPZBYEAgMPZBYCZg8PFgIeCEJhbm5lcklEAl5kFgJmDw8WCB4IQ3NzQ2xhc3MFEENNU0Jhbm5lciBCYW5uZXIeBlRhcmdldAUGX2JsYW5rHgRfIVNCAgIeB1Zpc2libGVnFgYeBGhyZWYFY2h0dHA6Ly93d3cuY2Uub3JnL0Jsb2cvQXJ0aWNsZXMvMjAxNC9KYW51YXJ5L1ZJREVPLUNFUy1CcmluZ3MtWW91LTNELVByaW50aW5nLUFub3RoZXItRGlzcnVwdGkuYXNweB4Hb25jbGljawXSAXRoaXMuaHJlZj0nL0NNU01vZHVsZXMvQmFubmVyTWFuYWdlbWVudC9DTVNQYWdlcy9CYW5uZXJSZWRpcmVjdC5hc2h4P2Jhbm5lcklEPTk0JnJlZGlyZWN0VVJMPWh0dHAlM2ElMmYlMmZ3d3cuY2Uub3JnJTJmQmxvZyUyZkFydGljbGVzJTJmMjAxNCUyZkphbnVhcnklMmZWSURFTy1DRVMtQnJpbmdzLVlvdS0zRC1QcmludGluZy1Bbm90aGVyLURpc3J1cHRpLmFzcHgnOx4Jb25tb3VzZXVwBdIBdGhpcy5ocmVmPScvQ01TTW9kdWxlcy9CYW5uZXJNYW5hZ2VtZW50L0NNU1BhZ2VzL0Jhbm5lclJlZGlyZWN0LmFzaHg/YmFubmVySUQ9OTQmcmVkaXJlY3RVUkw9aHR0cCUzYSUyZiUyZnd3dy5jZS5vcmclMmZCbG9nJTJmQXJ0aWNsZXMlMmYyMDE0JTJmSmFudWFyeSUyZlZJREVPLUNFUy1CcmluZ3MtWW91LTNELVByaW50aW5nLUFub3RoZXItRGlzcnVwdGkuYXNweCc7FgICAQ8PFgweDUFsdGVybmF0ZVRleHRlHgdUb29sVGlwZR8BZR4ISW1hZ2VVcmwFLS9DRVMvbWVkaWEvMjAxNC9hZHZlcnRpc2VtZW50cy9DRVNWaWRlb0FELmpwZx8DAgIfBGcWAh4Fc3R5bGVlZAIPD2QWAmYPZBYCZg9kFgJmD2QWBGYPZBYCZg8PFgYeC18hRGF0YUJvdW5kZx4JSXRlbUNvdW50AgEeC18hSXRlbUNvdW50AgFkFgJmD2QWAmYPZBYCZg8VAwBMPGgyPkNFUyBzdGFuZHMgZm9yIGlubm92YXRvcnMgYW5kIHRoZSBwcm9taXNlIGFuZCBwb3dlciBvZiB0ZWNobm9sb2d5LiA8L2gyPqADV2Ugb3JnYW5pemUgQ0VTIHRvIHNob3djYXNlIHRoZSBpbmR1c3RyeSZyc3F1bztzIGxhdGVzdCBkZXZlbG9wbWVudHMgYW5kIGRpc2NvdmVyaWVzLiBUaGUgMjAxNCBDRVMga2V5bm90ZSBsaW5ldXAgcHJvbWlzZXMgYSBjb21wcmVoZW5zaXZlIHNuYXBzaG90IG9mIHRoZSBjb25zdW1lciB0ZWNobm9sb2d5IGluZHVzdHJ5LiBUaGlzIGlzIHRoZSBwbGFjZSB3aGVyZSB5b3UgYXJlIGNlcnRhaW4gdG8gZmluZCB0aGUgbmV4dCBiaWcgdGhpbmcuJm5ic3A7PGJyIC8+DQo8YnIgLz4NClZpc2l0IG91ciA8YSBocmVmPSJ+L05ld3MvQ0VTLVRWL0tleW5vdGUtVmlkZW9zLmFzcHgiPktleW5vdGUgVmlkZW88L2E+IHBhZ2UgdG8gc2VlIGFsbCBvZiB0aGUga2V5bm90ZXMgZnJvbSB0aGUgMjAxNCBJbnRlcm5hdGlvbmFsIENFUy4mbmJzcDtkAgIPZBYCAgEPZBYCZg9kFggCAQ9kFgQCAQ8WBh4FdGl0bGUFF1Nob3cgQWxsIFdvcmxkIFByZW1pZXJlHg9kYXRhLWNhdGVnb3JpZXMFC3RlY2gtdGl0YW5zHwVkFgICAQ8PFgIeBFRleHQFC1RlY2ggVGl0YW5zZGQCAw8WBB8QBRV0ZWNobm9sb2d5LWlubm92YXRvcnMfBWQWAgIBDw8WAh8RBRVUZWNobm9sb2d5IElubm92YXRvcnNkZAIDDxYCHw4CAxYGZg9kFgJmD2QWAmYPFQMGTW9uZGF5Bm1vbmRheQZNb25kYXlkAgEPZBYCZg9kFgJmDxUDB1R1ZXNkYXkHdHVlc2RheQdUdWVzZGF5ZAICD2QWAmYPZBYCZg8VAwlXZWRuZXNkYXkJd2VkbmVzZGF5CVdlZG5lc2RheWQCBQ9kFgICAQ8WAh8OAgYWDGYPZBYCZg9kFgJmDxUQBm1vbmRheQUyOTc5M0QvQ29uZmVyZW5jZS9LZXlub3Rlcy9UZWNoLVRpdGFucy9UZWNoLVRpdGFucy02LTMwLXAtbS9Ccmlhbi1LcnphbmljaCxUZWNoIFRpdGFucyBLZXlub3RlIC0gQnJpYW4gS3J6YW5pY2gsIEludGVsICdUaGUgVmVuZXRpYW4gTGV2ZWwgNSwgUGFsYXp6byBCYWxscm9vbSAAF0phbnVhcnkgMDYsIDIwMTQsIDA2OjMwCDA3OjMwIFBNDkJyaWFuIEtyemFuaWNoBUludGVsF0NoaWVmIEV4ZWN1dGl2ZSBPZmZpY2VyfjxpbWcgc3JjPSJ+L0NFUy9tZWRpYS8yMDE0L2xhbmRpbmclMjBwYWdlcy9jb25mZXJlbmNlL2JyaWFuLWtyemFuaWNoX0ludGVsLWNlc3dlYi5qcGc/d2lkdGg9MTcwJmhlaWdodD0xNzAmZXh0PS5qcGciIGFsdD0iIiBcPn48aW1nIHNyYz0ifi9DRVMvbWVkaWEvMjAxNC9sYW5kaW5nJTIwcGFnZXMvY29uZmVyZW5jZS9icmlhbi1rcnphbmljaF9JbnRlbC1jZXN3ZWIuanBnP3dpZHRoPTE3MCZoZWlnaHQ9MTcwJmV4dD0uanBnIiBhbHQ9IiIgXD4OQnJpYW4gS3J6YW5pY2gFSW50ZWwXQ2hpZWYgRXhlY3V0aXZlIE9mZmljZXJkAgEPZBYCZg9kFgJmDxUQBm1vbmRheQUyOTc5MkQvQ29uZmVyZW5jZS9LZXlub3Rlcy9UZWNoLVRpdGFucy9UZWNoLVRpdGFucy04LTMwLXAtbS9SdXBlcnQtU3RhZGxlci5UZWNoIFRpdGFucyBLZXlub3RlIC0gUnVwZXJ0IFN0YWRsZXIsIEF1ZGkgQUcgIVRoZSBDb3Ntb3BvbGl0YW4gIENoZWxzZWEgVGhlYXRlcgAXSmFudWFyeSAwNiwgMjAxNCwgMDg6MzAIMDk6MzAgUE0OUnVwZXJ0IFN0YWRsZXIHQXVkaSBBRyRDaGFpcm1hbiBvZiB0aGUgQm9hcmQgb2YgTWFuYWdlbWVudCB9PGltZyBzcmM9In4vQ0VTL21lZGlhLzIwMTQvbGFuZGluZyUyMHBhZ2VzL2NvbmZlcmVuY2UvUnVwZXJ0LVN0YWRsZXJfQXVkaS1jZXN3ZWIuanBnP3dpZHRoPTE3MCZoZWlnaHQ9MTcwJmV4dD0uanBnIiBhbHQ9IiIgXD59PGltZyBzcmM9In4vQ0VTL21lZGlhLzIwMTQvbGFuZGluZyUyMHBhZ2VzL2NvbmZlcmVuY2UvUnVwZXJ0LVN0YWRsZXJfQXVkaS1jZXN3ZWIuanBnP3dpZHRoPTE3MCZoZWlnaHQ9MTcwJmV4dD0uanBnIiBhbHQ9IiIgXD4OUnVwZXJ0IFN0YWRsZXIHQXVkaSBBRyRDaGFpcm1hbiBvZiB0aGUgQm9hcmQgb2YgTWFuYWdlbWVudCBkAgIPZBYCZg9kFgJmDxUQB3R1ZXNkYXkFMjk4MzlCL0NvbmZlcmVuY2UvS2V5bm90ZXMvVGVjaC1UaXRhbnMvVGVjaC1UaXRhbnMtOC0zMC1hLW0vR2FyeS1TaGFwaXJvJ1RlY2ggVGl0YW5zIEtleW5vdGUgLSBHYXJ5IFNoYXBpcm8sIENFQSZUaGUgVmVuZXRpYW4gTGV2ZWwgNSwgUGFsYXp6byBCYWxscm9vbQAXSmFudWFyeSAwNywgMjAxNCwgMDg6MzAIMTA6MDAgQU0MR2FyeSBTaGFwaXJvIENvbnN1bWVyIEVsZWN0cm9uaWNzIEFzc29jaWF0aW9uEVByZXNpZGVudCBhbmQgQ0VPejxpbWcgc3JjPSJ+L0NFUy9tZWRpYS8yMDE0L2xhbmRpbmclMjBwYWdlcy9jb25mZXJlbmNlL0dhcnlfU2hhcGlyb19DRUFfY2Vzd2ViLmpwZz93aWR0aD0xNzAmaGVpZ2h0PTE3MCZleHQ9LmpwZyIgYWx0PSIiIFw+ejxpbWcgc3JjPSJ+L0NFUy9tZWRpYS8yMDE0L2xhbmRpbmclMjBwYWdlcy9jb25mZXJlbmNlL0dhcnlfU2hhcGlyb19DRUFfY2Vzd2ViLmpwZz93aWR0aD0xNzAmaGVpZ2h0PTE3MCZleHQ9LmpwZyIgYWx0PSIiIFw+DEdhcnkgU2hhcGlybyBDb25zdW1lciBFbGVjdHJvbmljcyBBc3NvY2lhdGlvbhFQcmVzaWRlbnQgYW5kIENFT2QCAw9kFgJmD2QWAmYPFRAHdHVlc2RheQUyOTg0MEEvQ29uZmVyZW5jZS9LZXlub3Rlcy9UZWNoLVRpdGFucy9UZWNoLVRpdGFucy05LTAwLWEtbS9LYXp1by1IaXJhaSdUZWNoIFRpdGFucyBLZXlub3RlIC0gS2F6dW8gSGlyYWksIFNvbnkmVGhlIFZlbmV0aWFuIExldmVsIDUsIFBhbGF6em8gQmFsbHJvb20AF0phbnVhcnkgMDcsIDIwMTQsIDA4OjMwCDEwOjAwIEFNDEthenVvICBIaXJhaRFTb255IENvcnBvcmF0aW9uIBFQcmVzaWRlbnQgYW5kIENFT3o8aW1nIHNyYz0ifi9DRVMvbWVkaWEvMjAxNC9sYW5kaW5nJTIwcGFnZXMvY29uZmVyZW5jZS9LYXp1by1IaXJhaV9Tb255X2Nlc3dlYi5qcGc/d2lkdGg9MTcwJmhlaWdodD0xNzAmZXh0PS5qcGciIGFsdD0iIiBcPno8aW1nIHNyYz0ifi9DRVMvbWVkaWEvMjAxNC9sYW5kaW5nJTIwcGFnZXMvY29uZmVyZW5jZS9LYXp1by1IaXJhaV9Tb255X2Nlc3dlYi5qcGc/d2lkdGg9MTcwJmhlaWdodD0xNzAmZXh0PS5qcGciIGFsdD0iIiBcPgxLYXp1byAgSGlyYWkRU29ueSBDb3Jwb3JhdGlvbiARUHJlc2lkZW50IGFuZCBDRU9kAgQPZBYCZg9kFgJmDxUQB3R1ZXNkYXkFMzEzMThAL0NvbmZlcmVuY2UvS2V5bm90ZXMvVGVjaC1UaXRhbnMvVGVjaC1UaXRhbnMtMS1wLW0vTWFyaXNzYS1NYXllcitUZWNoIFRpdGFucyBLZXlub3RlIC0gTWFyaXNzYSBNYXllciwgWWFob28hDExWSCBUaGVhdGVyIAAXSmFudWFyeSAwNywgMjAxNCwgMDE6MDAIMDI6MDAgUE0OTWFyaXNzYSAgTWF5ZXIGWWFob28hG0NFTywgUHJlc2lkZW50IGFuZCBEaXJlY3RvcnQ8aW1nIHNyYz0ifi9DRVMvbWVkaWEvMjAxNC9sYW5kaW5nJTIwcGFnZXMvY29uZmVyZW5jZS9NYXJpc3NhX01heWVyXzE4OC5qcGc/d2lkdGg9MTg4JmhlaWdodD0xODgmZXh0PS5qcGciIGFsdD0iIiBcPnQ8aW1nIHNyYz0ifi9DRVMvbWVkaWEvMjAxNC9sYW5kaW5nJTIwcGFnZXMvY29uZmVyZW5jZS9NYXJpc3NhX01heWVyXzE4OC5qcGc/d2lkdGg9MTg4JmhlaWdodD0xODgmZXh0PS5qcGciIGFsdD0iIiBcPg5NYXJpc3NhICBNYXllcgZZYWhvbyEbQ0VPLCBQcmVzaWRlbnQgYW5kIERpcmVjdG9yZAIFD2QWAmYPZBYCZg8VEAd0dWVzZGF5BTMxMzE5Qy9Db25mZXJlbmNlL0tleW5vdGVzL1RlY2gtVGl0YW5zL1RlY2gtVGl0YW5zLTQtMzAtcC1tL0pvaG4tQ2hhbWJlcnMqVGVjaCBUaXRhbnMgS2V5bm90ZSAtIEpvaG4gQ2hhbWJlcnMsIENpc2NvHVRoZSBWZW5ldGlhbiBQYWxhenpvIEJhbGxyb29tABdKYW51YXJ5IDA3LCAyMDE0LCAwNDozMAgwNTozMCBQTQ5Kb2huICBDaGFtYmVycwVDaXNjbyRDaGFpcm1hbiBhbmQgQ2hpZWYgRXhlY3V0aXZlIE9mZmljZXJ2PGltZyBzcmM9In4vQ0VTL21lZGlhLzIwMTQvbGFuZGluZyUyMHBhZ2VzL2NvbmZlcmVuY2UvSm9obi1DaGFtYmVyc19DaXNjby5qcGc/d2lkdGg9MTg4JmhlaWdodD0xODgmZXh0PS5qcGciIGFsdD0iIiBcPnY8aW1nIHNyYz0ifi9DRVMvbWVkaWEvMjAxNC9sYW5kaW5nJTIwcGFnZXMvY29uZmVyZW5jZS9Kb2huLUNoYW1iZXJzX0Npc2NvLmpwZz93aWR0aD0xODgmaGVpZ2h0PTE4OCZleHQ9LmpwZyIgYWx0PSIiIFw+DkpvaG4gIENoYW1iZXJzBUNpc2NvJENoYWlybWFuIGFuZCBDaGllZiBFeGVjdXRpdmUgT2ZmaWNlcmQCBw9kFgICAQ9kFgQCAg9kFghmD2QWAmYPZBYCZg8VDwd0dWVzZGF5BTMyMjIxSi9Db25mZXJlbmNlL0tleW5vdGVzL1RlY2hub2xvZ3ktSW5ub3ZhdG9ycy9GdXR1cmVDYXN0LUtleW5vdGUvSm9obi1Eb25vdmFuJkZ1dHVyZUNhc3Q6R2xvYmFsIElubm92YXRpb24gb2YgTW9iaWxlFUxWQ0MgTm9ydGggSGFsbCwgTjI1NRdKYW51YXJ5IDA3LCAyMDE0LCAxMTozMAgxMjozMCBQTQxKb2huIERvbm92YW4EQVQmVBxTci4gRXhlY3V0aXZlIFZpY2UgUHJlc2lkZW50czxpbWcgc3JjPSJ+L0NFUy9tZWRpYS8yMDE0L2xhbmRpbmclMjBwYWdlcy9jb25mZXJlbmNlL0pvaG4tRG9ub3Zhbl9BVFQuanBnP3dpZHRoPTE1MCZoZWlnaHQ9MTUwJmV4dD0uanBnIiBhbHQ9IiIgXD5zPGltZyBzcmM9In4vQ0VTL21lZGlhLzIwMTQvbGFuZGluZyUyMHBhZ2VzL2NvbmZlcmVuY2UvSm9obi1Eb25vdmFuX0FUVC5qcGc/d2lkdGg9MTUwJmhlaWdodD0xNTAmZXh0PS5qcGciIGFsdD0iIiBcPgxKb2huIERvbm92YW4EQVQmVBxTci4gRXhlY3V0aXZlIFZpY2UgUHJlc2lkZW50ZAIBD2QWAmYPZBYCZg8VDwd0dWVzZGF5BTMyMjIzTi9Db25mZXJlbmNlL0tleW5vdGVzL1RlY2hub2xvZ3ktSW5ub3ZhdG9ycy9GdXR1cmVDYXN0LUtleW5vdGUvRHItUGF1bC1FLUphY29icyZGdXR1cmVDYXN0Okdsb2JhbCBJbm5vdmF0aW9uIG9mIE1vYmlsZRVMVkNDIE5vcnRoIEhhbGwsIE4yNTUXSmFudWFyeSAwNywgMjAxNCwgMTE6MzAIMTI6MzAgUE0OUGF1bCBFLiBKYWNvYnMIUXVhbGNvbW0QQ2hhaXJtYW4gYW5kIENFT3c8aW1nIHNyYz0ifi9DRVMvbWVkaWEvMjAxNC9sYW5kaW5nJTIwcGFnZXMvY29uZmVyZW5jZS9QYXVsLUphY29ic19RdWFsY29tbS5qcGc/d2lkdGg9MTUwJmhlaWdodD0xNTAmZXh0PS5qcGciIGFsdD0iIiBcPnc8aW1nIHNyYz0ifi9DRVMvbWVkaWEvMjAxNC9sYW5kaW5nJTIwcGFnZXMvY29uZmVyZW5jZS9QYXVsLUphY29ic19RdWFsY29tbS5qcGc/d2lkdGg9MTUwJmhlaWdodD0xNTAmZXh0PS5qcGciIGFsdD0iIiBcPg5QYXVsIEUuIEphY29icwhRdWFsY29tbRBDaGFpcm1hbiBhbmQgQ0VPZAICD2QWAmYPZBYCZg8VDwd0dWVzZGF5BTMyMjI0SS9Db25mZXJlbmNlL0tleW5vdGVzL1RlY2hub2xvZ3ktSW5ub3ZhdG9ycy9GdXR1cmVDYXN0LUtleW5vdGUvQW5kcmV3LUtlZW4mRnV0dXJlQ2FzdDpHbG9iYWwgSW5ub3ZhdGlvbiBvZiBNb2JpbGUVTFZDQyBOb3J0aCBIYWxsLCBOMjU1F0phbnVhcnkgMDcsIDIwMTQsIDExOjMwCDEyOjMwIFBNC0FuZHJldyBLZWVuDVRlY2hDcnVuY2ggVFYWSG9zdCBvZiDigJxLZWVuIE9u4oCdIHk8aW1nIHNyYz0ifi9DRVMvbWVkaWEvMjAxNC9sYW5kaW5nJTIwcGFnZXMvY29uZmVyZW5jZS9BbmRyZXctS2Vlbl9UZWNoQ3J1bmNoLmpwZz93aWR0aD0xNTAmaGVpZ2h0PTE1MCZleHQ9LmpwZyIgYWx0PSIiIFw+eTxpbWcgc3JjPSJ+L0NFUy9tZWRpYS8yMDE0L2xhbmRpbmclMjBwYWdlcy9jb25mZXJlbmNlL0FuZHJldy1LZWVuX1RlY2hDcnVuY2guanBnP3dpZHRoPTE1MCZoZWlnaHQ9MTUwJmV4dD0uanBnIiBhbHQ9IiIgXD4LQW5kcmV3IEtlZW4NVGVjaENydW5jaCBUVhZIb3N0IG9mIOKAnEtlZW4gT27igJ0gZAIDD2QWAmYPZBYCZg8VDwd0dWVzZGF5BTMyMjIySy9Db25mZXJlbmNlL0tleW5vdGVzL1RlY2hub2xvZ3ktSW5ub3ZhdG9ycy9GdXR1cmVDYXN0LUtleW5vdGUvSGFucy1WZXN0YmVyZyZGdXR1cmVDYXN0Okdsb2JhbCBJbm5vdmF0aW9uIG9mIE1vYmlsZRVMVkNDIE5vcnRoIEhhbGwsIE4yNTUXSmFudWFyeSAwNywgMjAxNCwgMTE6MzAIMTI6MzAgUE0NSGFucyBWZXN0YmVyZw5Fcmljc3NvbiBHcm91cBFQcmVzaWRlbnQgYW5kIENFT3Q8aW1nIHNyYz0ifi9DRVMvbWVkaWEvMjAxNC9sYW5kaW5nJTIwcGFnZXMvY29uZmVyZW5jZS9WZXN0YmVyZ19Fcmljc3Nlbi5qcGc/d2lkdGg9MTUwJmhlaWdodD0xNTAmZXh0PS5qcGciIGFsdD0iIiBcPnQ8aW1nIHNyYz0ifi9DRVMvbWVkaWEvMjAxNC9sYW5kaW5nJTIwcGFnZXMvY29uZmVyZW5jZS9WZXN0YmVyZ19Fcmljc3Nlbi5qcGc/d2lkdGg9MTUwJmhlaWdodD0xNTAmZXh0PS5qcGciIGFsdD0iIiBcPg1IYW5zIFZlc3RiZXJnDkVyaWNzc29uIEdyb3VwEVByZXNpZGVudCBhbmQgQ0VPZAIGD2QWDmYPZBYCZg9kFgJmDxUPCXdlZG5lc2RheQUzMjE3OE0vQ29uZmVyZW5jZS9LZXlub3Rlcy9UZWNobm9sb2d5LUlubm92YXRvcnMvQnJhbmQtTWF0dGVycy1LZXlub3RlL0RpY2stQ29zdG9sbxVCcmFuZCBNYXR0ZXJzIEtleW5vdGUPTFZIIExWSCBUaGVhdGVyF0phbnVhcnkgMDgsIDIwMTQsIDExOjAwCDEyOjE1IFBNDERpY2sgQ29zdG9sbwdUd2l0dGVyA0NFT3k8aW1nIHNyYz0ifi9DRVMvbWVkaWEvMjAxNC9sYW5kaW5nJTIwcGFnZXMvY29uZmVyZW5jZS9EaWNrLUNvc3RvbG9fVHdpdHRlcl8xLmpwZz93aWR0aD0xNTAmaGVpZ2h0PTE1MCZleHQ9LmpwZyIgYWx0PSIiIFw+eTxpbWcgc3JjPSJ+L0NFUy9tZWRpYS8yMDE0L2xhbmRpbmclMjBwYWdlcy9jb25mZXJlbmNlL0RpY2stQ29zdG9sb19Ud2l0dGVyXzEuanBnP3dpZHRoPTE1MCZoZWlnaHQ9MTUwJmV4dD0uanBnIiBhbHQ9IiIgXD4MRGljayBDb3N0b2xvB1R3aXR0ZXIDQ0VPZAIBD2QWAmYPZBYCZg8VDwl3ZWRuZXNkYXkFMzIxODBNL0NvbmZlcmVuY2UvS2V5bm90ZXMvVGVjaG5vbG9neS1Jbm5vdmF0b3JzL0JyYW5kLU1hdHRlcnMtS2V5bm90ZS9TY290dC1Eb3JzZXkVQnJhbmQgTWF0dGVycyBLZXlub3RlD0xWSCBMVkggVGhlYXRlchdKYW51YXJ5IDA4LCAyMDE0LCAxMTowMAgxMjoxNSBQTQxTY290dCBEb3JzZXkXU2FsZXNmb3JjZSwgRXhhY3RUYXJnZXQDQ0VPfDxpbWcgc3JjPSJ+L0NFUy9tZWRpYS8yMDE0L2xhbmRpbmclMjBwYWdlcy9jb25mZXJlbmNlL1Njb3R0LURvcnNleV9TYWxlc2ZvcmNlXzEuanBnP3dpZHRoPTE1MCZoZWlnaHQ9MTUwJmV4dD0uanBnIiBhbHQ9IiIgXD58PGltZyBzcmM9In4vQ0VTL21lZGlhLzIwMTQvbGFuZGluZyUyMHBhZ2VzL2NvbmZlcmVuY2UvU2NvdHQtRG9yc2V5X1NhbGVzZm9yY2VfMS5qcGc/d2lkdGg9MTUwJmhlaWdodD0xNTAmZXh0PS5qcGciIGFsdD0iIiBcPgxTY290dCBEb3JzZXkXU2FsZXNmb3JjZSwgRXhhY3RUYXJnZXQDQ0VPZAICD2QWAmYPZBYCZg8VDwl3ZWRuZXNkYXkFMzIxODFNL0NvbmZlcmVuY2UvS2V5bm90ZXMvVGVjaG5vbG9neS1Jbm5vdmF0b3JzL0JyYW5kLU1hdHRlcnMtS2V5bm90ZS9BbmR5LUVuZ2xhbmQVQnJhbmQgTWF0dGVycyBLZXlub3RlD0xWSCBMVkggVGhlYXRlchdKYW51YXJ5IDA4LCAyMDE0LCAxMTowMAgxMjoxNSBQTQxBbmR5IEVuZ2xhbmQLTWlsbGVyQ29vcnMaRXhlYy4gVmljZSBQcmVzaWRlbnQgJiBDTU99PGltZyBzcmM9In4vQ0VTL21lZGlhLzIwMTQvbGFuZGluZyUyMHBhZ2VzL2NvbmZlcmVuY2UvQW5keS1FbmdsYW5kX01pbGxlckNvb3JzXzEuanBnP3dpZHRoPTE1MCZoZWlnaHQ9MTUwJmV4dD0uanBnIiBhbHQ9IiIgXD59PGltZyBzcmM9In4vQ0VTL21lZGlhLzIwMTQvbGFuZGluZyUyMHBhZ2VzL2NvbmZlcmVuY2UvQW5keS1FbmdsYW5kX01pbGxlckNvb3JzXzEuanBnP3dpZHRoPTE1MCZoZWlnaHQ9MTUwJmV4dD0uanBnIiBhbHQ9IiIgXD4MQW5keSBFbmdsYW5kC01pbGxlckNvb3JzGkV4ZWMuIFZpY2UgUHJlc2lkZW50ICYgQ01PZAIDD2QWAmYPZBYCZg8VDwl3ZWRuZXNkYXkFMzIxODNQL0NvbmZlcmVuY2UvS2V5bm90ZXMvVGVjaG5vbG9neS1Jbm5vdmF0b3JzL0JyYW5kLU1hdHRlcnMtS2V5bm90ZS9DYXJvbHluLUV2ZXJzb24VQnJhbmQgTWF0dGVycyBLZXlub3RlD0xWSCBMVkggVGhlYXRlchdKYW51YXJ5IDA4LCAyMDE0LCAxMTowMAgxMjoxNSBQTQ9DYXJvbHluIEV2ZXJzb24IRmFjZWJvb2sOVmljZSBQcmVzaWRlbnR9PGltZyBzcmM9In4vQ0VTL21lZGlhLzIwMTQvbGFuZGluZyUyMHBhZ2VzL2NvbmZlcmVuY2UvQ2Fyb2x5bi1FdmVyc29uX0ZhY2Vib29rXzEuanBnP3dpZHRoPTE1MCZoZWlnaHQ9MTUwJmV4dD0uanBnIiBhbHQ9IiIgXD59PGltZyBzcmM9In4vQ0VTL21lZGlhLzIwMTQvbGFuZGluZyUyMHBhZ2VzL2NvbmZlcmVuY2UvQ2Fyb2x5bi1FdmVyc29uX0ZhY2Vib29rXzEuanBnP3dpZHRoPTE1MCZoZWlnaHQ9MTUwJmV4dD0uanBnIiBhbHQ9IiIgXD4PQ2Fyb2x5biBFdmVyc29uCEZhY2Vib29rDlZpY2UgUHJlc2lkZW50ZAIED2QWAmYPZBYCZg8VDwl3ZWRuZXNkYXkFMzIxODJTL0NvbmZlcmVuY2UvS2V5bm90ZXMvVGVjaG5vbG9neS1Jbm5vdmF0b3JzL0JyYW5kLU1hdHRlcnMtS2V5bm90ZS9KYW1lcy1ELUZhcmxleSwtSnIVQnJhbmQgTWF0dGVycyBLZXlub3RlD0xWSCBMVkggVGhlYXRlchdKYW51YXJ5IDA4LCAyMDE0LCAxMTowMAgxMjoxNSBQTRBKYW1lcyBELiAgRmFybGV5DkZvcmQgTW90b3IgQ28uGEV4ZWN1dGl2ZSBWaWNlIFByZXNpZGVudHM8aW1nIHNyYz0ifi9DRVMvbWVkaWEvMjAxNC9sYW5kaW5nJTIwcGFnZXMvY29uZmVyZW5jZS9KaW1GYXJsZXlfRm9yZF8xLmpwZz93aWR0aD0xNTAmaGVpZ2h0PTE1MCZleHQ9LmpwZyIgYWx0PSIiIFw+czxpbWcgc3JjPSJ+L0NFUy9tZWRpYS8yMDE0L2xhbmRpbmclMjBwYWdlcy9jb25mZXJlbmNlL0ppbUZhcmxleV9Gb3JkXzEuanBnP3dpZHRoPTE1MCZoZWlnaHQ9MTUwJmV4dD0uanBnIiBhbHQ9IiIgXD4QSmFtZXMgRC4gIEZhcmxleQ5Gb3JkIE1vdG9yIENvLhhFeGVjdXRpdmUgVmljZSBQcmVzaWRlbnRkAgUPZBYCZg9kFgJmDxUPCXdlZG5lc2RheQUzMjE4NFEvQ29uZmVyZW5jZS9LZXlub3Rlcy9UZWNobm9sb2d5LUlubm92YXRvcnMvQnJhbmQtTWF0dGVycy1LZXlub3RlL01pY2hhZWwtRS1LYXNzYW4VQnJhbmQgTWF0dGVycyBLZXlub3RlD0xWSCBMVkggVGhlYXRlchdKYW51YXJ5IDA4LCAyMDE0LCAxMTowMAgxMjoxNSBQTRFNaWNoYWVsIEUuIEthc3NhbglNZWRpYUxpbmsOQ2hhaXJtYW4gJiBDRU99PGltZyBzcmM9In4vQ0VTL21lZGlhLzIwMTQvbGFuZGluZyUyMHBhZ2VzL2NvbmZlcmVuY2UvTWljaGFlbC1LYXNzYW5fTWVkaWFMaW5rXzEuanBnP3dpZHRoPTE1MCZoZWlnaHQ9MTUwJmV4dD0uanBnIiBhbHQ9IiIgXD59PGltZyBzcmM9In4vQ0VTL21lZGlhLzIwMTQvbGFuZGluZyUyMHBhZ2VzL2NvbmZlcmVuY2UvTWljaGFlbC1LYXNzYW5fTWVkaWFMaW5rXzEuanBnP3dpZHRoPTE1MCZoZWlnaHQ9MTUwJmV4dD0uanBnIiBhbHQ9IiIgXD4RTWljaGFlbCBFLiBLYXNzYW4JTWVkaWFMaW5rDkNoYWlybWFuICYgQ0VPZAIGD2QWAmYPZBYCZg8VDwl3ZWRuZXNkYXkFMzIxNzlNL0NvbmZlcmVuY2UvS2V5bm90ZXMvVGVjaG5vbG9neS1Jbm5vdmF0b3JzL0JyYW5kLU1hdHRlcnMtS2V5bm90ZS9NYXVyaWNlLUxldnkVQnJhbmQgTWF0dGVycyBLZXlub3RlD0xWSCBMVkggVGhlYXRlchdKYW51YXJ5IDA4LCAyMDE0LCAxMTowMAgxMjoxNSBQTQ1NYXVyaWNlIEzDqXZ5D1B1YmxpY2lzIEdyb3VwZQ5DaGFpcm1hbiAmIENFT3o8aW1nIHNyYz0ifi9DRVMvbWVkaWEvMjAxNC9sYW5kaW5nJTIwcGFnZXMvY29uZmVyZW5jZS9NYXVyaWNlLUxldnlfUHVibGljaXNfMS5qcGc/d2lkdGg9MTUwJmhlaWdodD0xNTAmZXh0PS5qcGciIGFsdD0iIiBcPno8aW1nIHNyYz0ifi9DRVMvbWVkaWEvMjAxNC9sYW5kaW5nJTIwcGFnZXMvY29uZmVyZW5jZS9NYXVyaWNlLUxldnlfUHVibGljaXNfMS5qcGc/d2lkdGg9MTUwJmhlaWdodD0xNTAmZXh0PS5qcGciIGFsdD0iIiBcPg1NYXVyaWNlIEzDqXZ5D1B1YmxpY2lzIEdyb3VwZQ5DaGFpcm1hbiAmIENFT2RkYTPk5jheyzVnj7UKHPyGs2Scrl7Si6xu2S5zgZYj9+Q=" />
+</div>
+
+<input type="hidden" name="lng" id="lng" value="en-US" />
+<script type="text/javascript">
+	//<![CDATA[
+
+function PM_Postback(param) { if (window.top.HideScreenLockWarningAndSync) { window.top.HideScreenLockWarningAndSync(1080); }__doPostBack('m',param); }
+function PM_Callback(param, callback, ctx) { if (window.top.HideScreenLockWarningAndSync) { window.top.HideScreenLockWarningAndSync(1080); }WebForm_DoCallback('m',param,callback,ctx,null,true); }
+//]]>
+</script>
+<script src="/ScriptResource.axd?d=xGXUM7jMGQNtTD_Hy-q13lC7eiHkBJMfSvtaYsyexSYM-SWvP5goZQD-aGZeZPbJt7J2chgdVBECY9kRfiR4U38NZWRG5vD2j2rSqrR83P_cLrT7Ww68m4lt3GVwfv3d0&amp;t=ffffffff8dea9fe4" type="text/javascript"></script>
+    <div id="CMSHeaderDiv">
+	<!-- -->
+</div>
+    <div id="ctxM">
+
+</div>
+    
+<!--[if lte IE 9]>
+  <div style="display: block; width: 97%; background-color: #FF99CC; padding: 10px 30px 10px 30px; text-align: center; color: black; font-size:20px;">
+    We noticed you are using an older version of IE that isn't fully supported on this site. Please click <a  href="#">here</a> for more information and options.
+</div>
+<![endif]-->  
+
+<div id="wrapper">
+	<div id="center_top">
+    <div id="container">
+        	<!--TOP PANEL-->
+			<section>
+            <div id="top_panel">
+                <div class="container">
+                    <ul class="connect-title">
+                        <li>Connect with Us</li>
+                    </ul>
+                    <ul class="social_icons">
+	<li class="twitter">
+		<a href="https://twitter.com/intlces" title="Twitter">&nbsp;</a></li>
+	<li class="facebook">
+		<a href="https://www.facebook.com/InternationalCES" title="facebook">&nbsp;</a></li>
+	<li class="googleplus">
+		<a href="https://google.com/+InternationalCES" title="googleplus">&nbsp;</a></li>
+	<li class="instagram">
+		<a href="http://instagram.com/intlces" title="instagram">&nbsp;</a></li>
+	<li class="youtube">
+		<a href="http://www.youtube.com/user/cesonthetube" title="youtube">&nbsp;</a></li>
+</ul>
+
+                    <ul class="open-ad"><li id="clasp_1"><a href="javascript:lunchboxOpen('1');">OPEN ADVERTISEMENT</a></li></ul>
+                    <ul class="drop" id="nav">
+	<li>
+		Other CEA Sites
+		<ul>
+			<li>
+				<a href="http://www.ce.org" target="_blank">CEA - CE.org</a></li>
+			<li>
+				<a href="http://www.declareinnovation.com/" target="_blank">Innovation Movement</a></li>
+			<li>
+				<a href="http://www.ce.org/blog" target="_blank">Digital Dialogue Blog</a></li>
+			<li>
+				<a href="http://www.ce.org/i3" target="_blank">i3 Magazine</a></li>
+			<li>
+				<a href="http://www.greenergadgets.org/" target="_blank">Greener Gadgets</a></li>
+			<li>
+				<a href="http://www.ce.org/research" target="_blank">CEA Market Research</a></li>
+			<li>
+				<a href="http://www.ce.org/foundation" target="_blank">CEA Foundation</a></li>
+		</ul>
+	</li>
+</ul>
+
+                </div>
+            </div>
+            </section> 
+            <!--END TOP PANEL-->
+            <!--AD AREA-->
+           <section>
+           		<div style="background:#000;" class="billboard-ad" >
+                <div class="container bill-ad lunchbox" id="lunch_1"  style="display: none;">
+                  <div class="container bill-ad"><a id="p_lt_ctl02_BannerRotator_lnkBanner" class="CMSBanner Banner" href="http://www.cesweb.org/register" onclick="this.href=&#39;/CMSModules/BannerManagement/CMSPages/BannerRedirect.ashx?bannerID=120&amp;redirectURL=http%3a%2f%2fwww.cesweb.org%2fregister&#39;;" onmouseup="this.href=&#39;/CMSModules/BannerManagement/CMSPages/BannerRedirect.ashx?bannerID=120&amp;redirectURL=http%3a%2f%2fwww.cesweb.org%2fregister&#39;;"><img id="p_lt_ctl02_BannerRotator_imgBanner" src="/CES/media/2014/advertisements/2K15STD_CESwebAD.jpg" style="" /></a></div>
+                </div>
+                </div>
+           	</section>
+             <!--ENS AD AREA-->
+           
+           <!--AUDIENCEL-->
+           <section>
+           <div class="container">
+           	<ul class="audience-nav">
+	<li>
+		<a href="/exhibitor">Exhibitors</a></li>
+	<li>
+		<a href="/press">Press</a></li>
+	<li>
+		<a href="/international">International</a></li>
+</ul>
+
+            </div>
+           </section>
+           <!--END AUDIENCEL-->
+           <!--HEADER-->
+          <section>
+            <div class="container">
+				<header id="header">
+					<div id="sticky_navigation">
+						<div class="container">
+							<a href="/home" id="logo"></a>
+                   		   
+                           <div class="search-container">
+                              <div class="search">
+                                <input type="search" id="searchTxt" onkeypress="return EnterEvent(event);" >
+                                  
+                              </div>
+                              <div class="date">
+                                <h2>
+	Las Vegas, NV</h2>
+<h3>
+	JANUARY 6-9, 2015</h3>
+
+                              </div>
+                          </div>
+                       </div>
+                       <div id="navigation-wrapper">
+                            <nav id="main-navigation">
+                              
+<ul class="main-menu sf-js-enabled sf-shadow">
+ 
+    <li class=""
+id="2">
+<a href=" /Register-Plan"> Register &amp; Plan</a> 
+<ul 
+    
+   class='nav-2cols'
+  style="display: none; visibility: hidden;">
+    
+  <p style ="display:none;">&nbsp;</p><li><a href=" /Register-Plan/Register-Now"> Register Now</a>
+
+<li><a href=" /Register-Plan/Full-Schedule"> Full Schedule </a>
+
+<li><a href=" /Register-Plan/How-to-Register-for-CES"> How to Register for CES</a>
+
+<li><a href=" /Register-Plan/Hotel"> Hotel</a>
+
+<ul><li><a href="/Register-Plan/Hotel/Reserve-a-Room-Block" class="no-display">Reserve a Room Block </a></li></ul>
+</li><li><a href=" /Register-Plan/Las-Vegas-Travel-Tips"> Las Vegas Travel Tips</a>
+
+<li><a href=" /Register-Plan/Transportation"> Transportation</a>
+
+<ul></ul>
+</li><li><a href=" /Register-Plan/On-Site-Logistics"> On-Site Logistics</a>
+
+<li><a href=" /Register-Plan/My-CES-Planner"> MyCES Planner</a>
+
+<li><a href=" /Register-Plan/First-Timers-Resources"> First-Timer Resources</a>
+
+
+</ul></li><li class=""
+id="3">
+<a href=" /Show-Floor"> Show Floor</a> 
+<ul 
+    
+   class='nav-2cols'
+  style="display: none; visibility: hidden;">
+    
+  <p style ="display:none;">&nbsp;</p><li><a href=" /Show-Floor/Exhibit-or-Sponsor"> Exhibit or Sponsor</a>
+
+<li><a href=" /Show-Floor/Exhibit-Directory"> Exhibitor Directory</a>
+
+<li><a href=" /Show-Floor/TechZones"> TechZones</a>
+
+<ul></ul>
+</li><li><a href=" /Show-Floor/Maps"> Maps</a>
+
+<li><a href=" /Show-Floor/MyCES-Planner"> MyCES Planner</a>
+
+<li><a href=" /Show-Floor/CES-Mobile-App"> CES Mobile App</a>
+
+
+</ul></li><li class="current"
+id="4">
+<a href=" /Conference"> Conference</a> 
+<ul 
+    class='nav-3cols'
+   
+  style="display: none; visibility: hidden;">
+    
+  <p style ="display:none;">&nbsp;</p><li><a href=" /Conference/Keynotes"> Keynote Addresses</a>
+
+<li><a href=" /Conference/Speaker-Search"> Speaker Search</a>
+
+<li><a href=" /Conference/SuperSessions"> SuperSessions</a>
+
+<li><a href=" /Conference/Conference-Tracks"> Conference Tracks</a>
+
+<li><a href=" /Conference/Become-a-Speaker"> Become a Speaker</a>
+
+<li><a href=" /Conference/Speaker-Guidelines"> Speaker Guidelines</a>
+
+<li><a href=" /Conference/Virtual-Conference-Brochure"> Virtual Conference Brochure</a>
+
+
+</ul></li><li class=""
+id="5">
+<a href=" /Events-Awards"> Events &amp; Awards</a> 
+<ul 
+    
+   
+  style="display: none; visibility: hidden;">
+    
+  <p style ="display:none;">&nbsp;</p><li><a href=" /Events-Awards/Events"> Events</a>
+
+<ul></ul>
+</li><li><a href=" /Events-Awards/Awards"> Awards</a>
+
+<li><a href=" /Events-Awards/Innovations"> CES Innovations Awards</a>
+
+<li><a href=" /Events-Awards/CES-Unveiled"> CES Unveiled</a>
+
+<ul></ul>
+</li>
+</ul></li><li class=""
+id="6">
+<a href=" /News"> News</a> 
+<ul 
+    
+   class='nav-2cols'
+  style="display: none; visibility: hidden;">
+    
+  <p style ="display:none;">&nbsp;</p><li><a href=" /News/Press-Releases"> Press Releases</a>
+
+<li><a href=" /News/CES-TV"> Videos</a>
+
+<ul></ul>
+</li><li><a href=" /News/Photo-Gallery"> Photo Gallery</a>
+
+<li><a href=" /News/CES-Social"> Social Media</a>
+
+<li><a href=" /News/CES-In-The-News"> CES In The News</a>
+
+<li><a href=" /News/Exhibitor-Press-Releases"> Exhibitor Press Releases </a>
+
+
+</ul></li><li class=""
+id="7">
+<a href=" /Why-attend-CES"> Why Attend CES?</a> 
+<ul 
+    
+   
+  style="display: none; visibility: hidden;">
+    
+  <p style ="display:none;">&nbsp;</p><li><a href=" /Why-attend-CES/What-Youre-Missing-CES"> See What You&#39;re Missing at CES</a>
+
+<li><a href=" /Why-attend-CES/2013-Attendee-Audit"> 2013 Attendee Audit</a>
+
+<li><a href=" /Why-attend-CES/CEA-Member-Benefits"> CEA Member Benefits</a>
+
+
+</ul>  </li>
+</ul>
+
+ <div id="main-navigation">
+  <select id="navSecondary" onChange="top.location.href=this.options[this.selectedIndex].value;">
+<option selected="selected" value="">Site Main Navigation</option>
+<option style="font-family:open_sansbold;" value="/Register-Plan">Register & Plan</option><option style="font-family:open_sansbold;" value="/Show-Floor">Show Floor</option><option style="font-family:open_sansbold;" value="/Conference">Conference</option><option style="font-family:open_sansbold;" value="/Events-Awards">Events & Awards</option><option style="font-family:open_sansbold;" value="/News">News</option><option style="font-family:open_sansbold;" value="/Why-attend-CES">Why Attend CES?</option><option style="font-family:open_sansbold;" value="/Exhibitor">Exhibitors</option><option style="font-family:open_sansbold;" value="/International">International</option><option style="font-family:open_sansbold;" value="/Press">Press</option>
+</select>
+</div>
+                            </nav>
+                        </div>
+				    </div>
+	          </header>
+           </div> 
+        </section>
+        </div>
+      
+
+<section>
+        
+
+        <div class="container clearfix above">
+            <div class="one-sixth-leftnav">
+                <div class="leftnav">
+                    <ul><li class="left-current"><a href="/Conference/Keynotes">Keynote Addresses</a><ul></ul><li><a href="/Conference/Speaker-Search">Speaker Search</a><li><a href="/Conference/SuperSessions">SuperSessions</a><li><a href="/Conference/Conference-Tracks">Conference Tracks</a><li><a href="/Conference/Become-a-Speaker">Become a Speaker</a><li><a href="/Conference/Speaker-Guidelines">Speaker Guidelines</a><li><a href="/Conference/Virtual-Conference-Brochure">Virtual Conference Brochure</a></ul>
+
+                </div>
+                <a id="p_lt_ctl06_pageplaceholder_p_lt_ctl01_BannerRotator_lnkBanner" class="CMSBanner Banner" href="http://www.ce.org/Blog/Articles/2014/January/VIDEO-CES-Brings-You-3D-Printing-Another-Disrupti.aspx" onclick="this.href=&#39;/CMSModules/BannerManagement/CMSPages/BannerRedirect.ashx?bannerID=94&amp;redirectURL=http%3a%2f%2fwww.ce.org%2fBlog%2fArticles%2f2014%2fJanuary%2fVIDEO-CES-Brings-You-3D-Printing-Another-Disrupti.aspx&#39;;" onmouseup="this.href=&#39;/CMSModules/BannerManagement/CMSPages/BannerRedirect.ashx?bannerID=94&amp;redirectURL=http%3a%2f%2fwww.ce.org%2fBlog%2fArticles%2f2014%2fJanuary%2fVIDEO-CES-Brings-You-3D-Printing-Another-Disrupti.aspx&#39;;" target="_blank"><img id="p_lt_ctl06_pageplaceholder_p_lt_ctl01_BannerRotator_imgBanner" src="/CES/media/2014/advertisements/CESVideoAD.jpg" style="" /></a>
+
+            </div>
+            <div class="three-fourth">
+                <div class="body-content">
+                    <h1>Keynote Addresses</h1>
+
+                    <div class="breadcrumbs-article">
+                        <ul class="breadcrumbs-left">
+                            <li>
+                                <a id="p_lt_ctl06_pageplaceholder_p_lt_hypBChome" href="../">Home</a></li>
+                             <li class="bread-div">|</li><li><a href="/Conference.aspx" class="CMSBreadCrumbsLink">Conference</a> </li><li class="bread-div">|</li><li> <span  class="CMSBreadCrumbsCurrentItem">Keynote Addresses</span>
+</li>
+                            
+                        </ul>
+                        <ul class="breadcrumbs-right">
+                            <li><span  class="st_sharethis_custom" displayText="ShareThis"><a >Share This</a></span></li>
+                            <li><a href="javascript:window.print()">Print This Page</a></li>
+                        </ul>
+                    </div>
+
+                    <p class="intro-innov">  </p>
+
+                    <div class="article-content-area">
+                      
+                       
+<h2>CES stands for innovators and the promise and power of technology. </h2>
+<p class="intro">We organize CES to showcase the industry&rsquo;s latest developments and discoveries. The 2014 CES keynote lineup promises a comprehensive snapshot of the consumer technology industry. This is the place where you are certain to find the next big thing.&nbsp;<br />
+<br />
+Visit our <a href="/News/CES-TV/Keynote-Videos.aspx">Keynote Video</a> page to see all of the keynotes from the 2014 International CES.&nbsp;</p>  
+
+<p>
+	The&nbsp;<strong>Tech Titans</strong>&nbsp;Keynote series is the stage where CEOs from the most powerful companies in technology present their vision for the upcoming revolutions in products, services and networks that will shape the next wave of innovation. Interpreting services in Chinese, Japanese, Korean and Spanish are available on-site.<br />
+	<br />
+	The&nbsp;<strong>Technology Innovators</strong>&nbsp;Keynote series offers insights by innovators, thought leaders and disruptors &ndash; the &rdquo;rock stars&rdquo; of their industries. It is a stage for those with big ideas that are reframing the way technology will impact our interaction with the world today and in years to come.</p>
+
+<style type="text/css">
+    .divfilterable {
+        margin-bottom: 10px;
+    }
+
+        .divfilterable h6 {
+            background: url(/ces/images/key-title-bk1.png);
+            font-family: 'Open_sansextrabold';
+            font-size: 14px;
+            padding: 10px 15px;
+            color: #000;
+        }
+
+    .filter-keynotes li a {
+        list-style: none;
+        margin-left: 0px;
+        background: url(/ces/images/arrow-right.png)1px center no-repeat;
+        color: #000;
+        padding-top: 2px;
+    }
+
+    .keynotes-filter-col1 {
+        width: 250px;
+    }
+
+    .keynotes-filter-col2 {
+        width: 250px;
+    }
+</style>
+  <script type="text/javascript" src="/CES/js/ITN/underscore.js"></script>
+  <script type="text/javascript">
+      jQuery(document).ready(function ($) {
+          var width = screen.width;
+          if (width <= 1024 || jQuery(window).width() <= 1024) {
+              jQuery("div#techTitansPanel a").removeAttr("data-rel");
+              jQuery("div#techInnovatorPanel a").removeAttr("data-rel");
+              $("div#techTitansPanel a").each(function (index, i) {
+                  $(this).removeAttr("href").attr("href", $(this).data("page-link"));
+              });
+              $("div#techInnovatorPanel a").each(function (index, i) {
+                  $(this).removeAttr("href").attr("href", $(this).data("page-link"));
+              });
+          }
+
+
+          $('a[data-categories]').click(function (e) {
+              var _class = $(this).data('categories');
+              var _dayOfWeek = "";
+              switch (_class) {
+                  case "monday":
+                  case "tuesday":
+                  case "wednesday":
+                  case "thursday":
+                  case "friday":
+                  case "saturday":
+                  case "sunday":
+                      _dayOfWeek = _class;
+                      break;
+                  default:
+                      break;
+              }
+
+              var _visible = false;
+              $('#techTitansPanel > ul').children().each(function (index, i) {
+                  if ($(i).hasClass(_class) && $(i).hasClass('isotope-item'))
+                      _visible = true;
+              });
+              if (_visible)
+                  $('h2.tech-titans').show();
+              else
+                  $('h2.tech-titans').hide();
+
+              _visible = false;
+              $('#TechInnovatorsPanel > ul').children().each(function (index, i) {
+                  if ($(i).hasClass(_class) && $(i).hasClass('isotope-item'))
+                      _visible = true;
+              });
+              if (_visible)
+                  $('h2.technology-innovators').show();
+              else
+                  $('h2.technology-innovators').hide();
+
+              $('#TechInnovatorsPanel').children('h3').each(function (index, i) {
+                  if (_class == 'tech-titans') {
+                      $(i).hide();
+                  }  else if (_class == 'technology-innovators') {
+                      $(i).show();
+                  } else if ($(i).hasClass(_dayOfWeek) && _visible) {
+                      $(i).show();
+                  } else {
+                      $(i).hide();
+                  }
+              });
+          });
+
+      });
+  </script>
+
+<!--[if lte IE 9]>
+  <script type="text/javascript">
+  jQuery(document).ready(function ($) {
+      $('.screen-roll').hover(
+          function() {
+            $(this).find('.hover_bg2').show();
+          }, function() {
+            $(this).find('.hover_bg2').hide();
+          }
+      );
+    });
+  </script>
+<![endif]-->  
+
+<section>
+
+    <div id="upBrowse">
+	
+            <div id="filterable">
+                <div class="mobile-title">Sort Keynotes</div>
+
+                <div id="filter" class="keynotes-filter-col1">
+                    <h6>Filter By Type</h6>
+                    <div id="filterable">
+                        <ul class="filter-keynotes">
+                            <li>
+                                <a id="linkTechTitans" title="Show All World Premiere" data-categories="tech-titans">
+                                    <span id="lblTechTitans">Tech Titans</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a id="linkTechInnovators" title="Show All World Premiere" data-categories="technology-innovators">
+                                    <span id="lblTechInnovators">Technology Innovators</span>
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="keynotes-filter-col2">
+                    <h6>Filter By Schedule</h6>
+                    <div id="filterable">
+                        <ul class="filter-keynotes" style="width: 100px; float: left;">
+                            <li><a title="Monday Speakers" data-categories="monday"><span>Monday</span></a></li><li><a title="Tuesday Speakers" data-categories="tuesday"><span>Tuesday</span></a></li><li><a title="Wednesday Speakers" data-categories="wednesday"><span>Wednesday</span></a></li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="keynotes-filter-col2">
+                    <div id="filterable">
+                        <ul class=" filter-keynotes-last">
+                            <li>
+                                <a data-categories="*" title="View All Speakers">> View All Speakers</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="keynotes-grid">
+                <div id="techTitansPanel">
+		
+                <h2 class="keynoteHeader tech-titans">Tech Titans</h2>
+                <ul class="portfolio-items isotope" style="position: relative; overflow: hidden; height: 744px;">
+                    <li class="one-fifth" data-categories="tech-titans monday">
+  <a href="#inline_content29793" data-rel="prettyPhoto" title="" class="screen-roll" data-page-link="/Conference/Keynotes/Tech-Titans/Tech-Titans-6-30-p-m/Brian-Krzanich"> 
+  <span class="hover_bg2">
+    <div class="hover-text">
+      <h1>Tech Titans Keynote - Brian Krzanich, Intel </h1>
+      <p>The Venetian Level 5, Palazzo Ballroom &nbsp;<br>
+      January 06, 2014, 06:30-07:30 PM</p>
+        
+      <h2><strong>Brian Krzanich </strong><br>
+      Intel<br>
+      Chief Executive Officer</h2>
+    </div>
+    <img src="/CES/media/2014/landing%20pages/conference/brian-krzanich_Intel-cesweb.jpg?width=170&height=170&ext=.jpg" alt="" \>
+ </span>
+ <!--END HOVER-->
+ <img src="/CES/media/2014/landing%20pages/conference/brian-krzanich_Intel-cesweb.jpg?width=170&height=170&ext=.jpg" alt="" \>
+ <div class="keynotes-feature-item-wp">
+   <img src="/ces/images/Keynotes/carrot-blue.png">
+   <h1>Brian Krzanich</h1>
+   <h2>Intel</h2>
+   <h3>Chief Executive Officer</h3>
+ </div>
+</a>
+</li><li class="one-fifth" data-categories="tech-titans monday">
+  <a href="#inline_content29792" data-rel="prettyPhoto" title="" class="screen-roll" data-page-link="/Conference/Keynotes/Tech-Titans/Tech-Titans-8-30-p-m/Rupert-Stadler"> 
+  <span class="hover_bg2">
+    <div class="hover-text">
+      <h1>Tech Titans Keynote - Rupert Stadler, Audi AG </h1>
+      <p>The Cosmopolitan  Chelsea Theater&nbsp;<br>
+      January 06, 2014, 08:30-09:30 PM</p>
+        
+      <h2><strong>Rupert Stadler </strong><br>
+      Audi AG<br>
+      Chairman of the Board of Management </h2>
+    </div>
+    <img src="/CES/media/2014/landing%20pages/conference/Rupert-Stadler_Audi-cesweb.jpg?width=170&height=170&ext=.jpg" alt="" \>
+ </span>
+ <!--END HOVER-->
+ <img src="/CES/media/2014/landing%20pages/conference/Rupert-Stadler_Audi-cesweb.jpg?width=170&height=170&ext=.jpg" alt="" \>
+ <div class="keynotes-feature-item-wp">
+   <img src="/ces/images/Keynotes/carrot-blue.png">
+   <h1>Rupert Stadler</h1>
+   <h2>Audi AG</h2>
+   <h3>Chairman of the Board of Management </h3>
+ </div>
+</a>
+</li><li class="one-fifth" data-categories="tech-titans tuesday">
+  <a href="#inline_content29839" data-rel="prettyPhoto" title="" class="screen-roll" data-page-link="/Conference/Keynotes/Tech-Titans/Tech-Titans-8-30-a-m/Gary-Shapiro"> 
+  <span class="hover_bg2">
+    <div class="hover-text">
+      <h1>Tech Titans Keynote - Gary Shapiro, CEA</h1>
+      <p>The Venetian Level 5, Palazzo Ballroom&nbsp;<br>
+      January 07, 2014, 08:30-10:00 AM</p>
+        
+      <h2><strong>Gary Shapiro </strong><br>
+      Consumer Electronics Association<br>
+      President and CEO</h2>
+    </div>
+    <img src="/CES/media/2014/landing%20pages/conference/Gary_Shapiro_CEA_cesweb.jpg?width=170&height=170&ext=.jpg" alt="" \>
+ </span>
+ <!--END HOVER-->
+ <img src="/CES/media/2014/landing%20pages/conference/Gary_Shapiro_CEA_cesweb.jpg?width=170&height=170&ext=.jpg" alt="" \>
+ <div class="keynotes-feature-item-wp">
+   <img src="/ces/images/Keynotes/carrot-blue.png">
+   <h1>Gary Shapiro</h1>
+   <h2>Consumer Electronics Association</h2>
+   <h3>President and CEO</h3>
+ </div>
+</a>
+</li><li class="one-fifth" data-categories="tech-titans tuesday">
+  <a href="#inline_content29840" data-rel="prettyPhoto" title="" class="screen-roll" data-page-link="/Conference/Keynotes/Tech-Titans/Tech-Titans-9-00-a-m/Kazuo-Hirai"> 
+  <span class="hover_bg2">
+    <div class="hover-text">
+      <h1>Tech Titans Keynote - Kazuo Hirai, Sony</h1>
+      <p>The Venetian Level 5, Palazzo Ballroom&nbsp;<br>
+      January 07, 2014, 08:30-10:00 AM</p>
+        
+      <h2><strong>Kazuo  Hirai </strong><br>
+      Sony Corporation <br>
+      President and CEO</h2>
+    </div>
+    <img src="/CES/media/2014/landing%20pages/conference/Kazuo-Hirai_Sony_cesweb.jpg?width=170&height=170&ext=.jpg" alt="" \>
+ </span>
+ <!--END HOVER-->
+ <img src="/CES/media/2014/landing%20pages/conference/Kazuo-Hirai_Sony_cesweb.jpg?width=170&height=170&ext=.jpg" alt="" \>
+ <div class="keynotes-feature-item-wp">
+   <img src="/ces/images/Keynotes/carrot-blue.png">
+   <h1>Kazuo  Hirai</h1>
+   <h2>Sony Corporation </h2>
+   <h3>President and CEO</h3>
+ </div>
+</a>
+</li><li class="one-fifth" data-categories="tech-titans tuesday">
+  <a href="#inline_content31318" data-rel="prettyPhoto" title="" class="screen-roll" data-page-link="/Conference/Keynotes/Tech-Titans/Tech-Titans-1-p-m/Marissa-Mayer"> 
+  <span class="hover_bg2">
+    <div class="hover-text">
+      <h1>Tech Titans Keynote - Marissa Mayer, Yahoo!</h1>
+      <p>LVH Theater &nbsp;<br>
+      January 07, 2014, 01:00-02:00 PM</p>
+        
+      <h2><strong>Marissa  Mayer </strong><br>
+      Yahoo!<br>
+      CEO, President and Director</h2>
+    </div>
+    <img src="/CES/media/2014/landing%20pages/conference/Marissa_Mayer_188.jpg?width=188&height=188&ext=.jpg" alt="" \>
+ </span>
+ <!--END HOVER-->
+ <img src="/CES/media/2014/landing%20pages/conference/Marissa_Mayer_188.jpg?width=188&height=188&ext=.jpg" alt="" \>
+ <div class="keynotes-feature-item-wp">
+   <img src="/ces/images/Keynotes/carrot-blue.png">
+   <h1>Marissa  Mayer</h1>
+   <h2>Yahoo!</h2>
+   <h3>CEO, President and Director</h3>
+ </div>
+</a>
+</li><li class="one-fifth" data-categories="tech-titans tuesday">
+  <a href="#inline_content31319" data-rel="prettyPhoto" title="" class="screen-roll" data-page-link="/Conference/Keynotes/Tech-Titans/Tech-Titans-4-30-p-m/John-Chambers"> 
+  <span class="hover_bg2">
+    <div class="hover-text">
+      <h1>Tech Titans Keynote - John Chambers, Cisco</h1>
+      <p>The Venetian Palazzo Ballroom&nbsp;<br>
+      January 07, 2014, 04:30-05:30 PM</p>
+        
+      <h2><strong>John  Chambers </strong><br>
+      Cisco<br>
+      Chairman and Chief Executive Officer</h2>
+    </div>
+    <img src="/CES/media/2014/landing%20pages/conference/John-Chambers_Cisco.jpg?width=188&height=188&ext=.jpg" alt="" \>
+ </span>
+ <!--END HOVER-->
+ <img src="/CES/media/2014/landing%20pages/conference/John-Chambers_Cisco.jpg?width=188&height=188&ext=.jpg" alt="" \>
+ <div class="keynotes-feature-item-wp">
+   <img src="/ces/images/Keynotes/carrot-blue.png">
+   <h1>John  Chambers</h1>
+   <h2>Cisco</h2>
+   <h3>Chairman and Chief Executive Officer</h3>
+ </div>
+</a>
+</li>
+                </ul>
+                   
+	</div>
+                <div id="techInnovatorPanel">
+		
+                <h2 class="keynoteHeader technology-innovators">Technology Innovators</h2>
+                <div id="TechInnovatorsPanel">
+			<h3 class="techInnovatorHeader tuesday">FutureCast:Global Innovation of Mobile</h3><ul class="portfolio-items" style="position: relative; overflow: hidden; height: 861px;"><li class="one-sixth" data-categories="technology-innovators tuesday">  
+  <a href="#inline_content32221" data-rel="prettyPhoto" title="" class="screen-roll" data-page-link="/Conference/Keynotes/Technology-Innovators/FutureCast-Keynote/John-Donovan">
+  <span class="hover_bg2">
+    <div class="hover-text-sm">
+      <h1>FutureCast:Global Innovation of Mobile</h1>
+      <p>LVCC North Hall, N255<br>
+      January 07, 2014, 11:30-12:30 PM
+        
+      <h2><strong>John Donovan </strong><br>
+      AT&T<br>
+      Sr. Executive Vice President</h2>
+    </div>
+    
+    <img src="/CES/media/2014/landing%20pages/conference/John-Donovan_ATT.jpg?width=150&height=150&ext=.jpg" alt="" \>
+ </span>
+ <!--END HOVER-->
+ <img src="/CES/media/2014/landing%20pages/conference/John-Donovan_ATT.jpg?width=150&height=150&ext=.jpg" alt="" \>
+ <div class="keynotes-feature-item-fl">
+   <img src="/ces/images/Keynotes/carrot-black.png">
+   <h1>John Donovan</h1>
+   <h2>AT&T</h2>
+   <h3>Sr. Executive Vice President</h3>
+ </div>
+</a>
+</li>
+<li class="one-sixth" data-categories="technology-innovators tuesday">  
+  <a href="#inline_content32223" data-rel="prettyPhoto" title="" class="screen-roll" data-page-link="/Conference/Keynotes/Technology-Innovators/FutureCast-Keynote/Dr-Paul-E-Jacobs">
+  <span class="hover_bg2">
+    <div class="hover-text-sm">
+      <h1>FutureCast:Global Innovation of Mobile</h1>
+      <p>LVCC North Hall, N255<br>
+      January 07, 2014, 11:30-12:30 PM
+        
+      <h2><strong>Paul E. Jacobs </strong><br>
+      Qualcomm<br>
+      Chairman and CEO</h2>
+    </div>
+    
+    <img src="/CES/media/2014/landing%20pages/conference/Paul-Jacobs_Qualcomm.jpg?width=150&height=150&ext=.jpg" alt="" \>
+ </span>
+ <!--END HOVER-->
+ <img src="/CES/media/2014/landing%20pages/conference/Paul-Jacobs_Qualcomm.jpg?width=150&height=150&ext=.jpg" alt="" \>
+ <div class="keynotes-feature-item-fl">
+   <img src="/ces/images/Keynotes/carrot-black.png">
+   <h1>Paul E. Jacobs</h1>
+   <h2>Qualcomm</h2>
+   <h3>Chairman and CEO</h3>
+ </div>
+</a>
+</li>
+<li class="one-sixth" data-categories="technology-innovators tuesday">  
+  <a href="#inline_content32224" data-rel="prettyPhoto" title="" class="screen-roll" data-page-link="/Conference/Keynotes/Technology-Innovators/FutureCast-Keynote/Andrew-Keen">
+  <span class="hover_bg2">
+    <div class="hover-text-sm">
+      <h1>FutureCast:Global Innovation of Mobile</h1>
+      <p>LVCC North Hall, N255<br>
+      January 07, 2014, 11:30-12:30 PM
+        
+      <h2><strong>Andrew Keen </strong><br>
+      TechCrunch TV<br>
+      Host of “Keen On” </h2>
+    </div>
+    
+    <img src="/CES/media/2014/landing%20pages/conference/Andrew-Keen_TechCrunch.jpg?width=150&height=150&ext=.jpg" alt="" \>
+ </span>
+ <!--END HOVER-->
+ <img src="/CES/media/2014/landing%20pages/conference/Andrew-Keen_TechCrunch.jpg?width=150&height=150&ext=.jpg" alt="" \>
+ <div class="keynotes-feature-item-fl">
+   <img src="/ces/images/Keynotes/carrot-black.png">
+   <h1>Andrew Keen</h1>
+   <h2>TechCrunch TV</h2>
+   <h3>Host of “Keen On” </h3>
+ </div>
+</a>
+</li>
+<li class="one-sixth" data-categories="technology-innovators tuesday">  
+  <a href="#inline_content32222" data-rel="prettyPhoto" title="" class="screen-roll" data-page-link="/Conference/Keynotes/Technology-Innovators/FutureCast-Keynote/Hans-Vestberg">
+  <span class="hover_bg2">
+    <div class="hover-text-sm">
+      <h1>FutureCast:Global Innovation of Mobile</h1>
+      <p>LVCC North Hall, N255<br>
+      January 07, 2014, 11:30-12:30 PM
+        
+      <h2><strong>Hans Vestberg </strong><br>
+      Ericsson Group<br>
+      President and CEO</h2>
+    </div>
+    
+    <img src="/CES/media/2014/landing%20pages/conference/Vestberg_Ericssen.jpg?width=150&height=150&ext=.jpg" alt="" \>
+ </span>
+ <!--END HOVER-->
+ <img src="/CES/media/2014/landing%20pages/conference/Vestberg_Ericssen.jpg?width=150&height=150&ext=.jpg" alt="" \>
+ <div class="keynotes-feature-item-fl">
+   <img src="/ces/images/Keynotes/carrot-black.png">
+   <h1>Hans Vestberg</h1>
+   <h2>Ericsson Group</h2>
+   <h3>President and CEO</h3>
+ </div>
+</a>
+</li>
+</ul><h3 class="techInnovatorHeader wednesday">Brand Matters Keynote</h3><ul class="portfolio-items" style="position: relative; overflow: hidden; height: 861px;"><li class="one-sixth" data-categories="technology-innovators wednesday">  
+  <a href="#inline_content32178" data-rel="prettyPhoto" title="" class="screen-roll" data-page-link="/Conference/Keynotes/Technology-Innovators/Brand-Matters-Keynote/Dick-Costolo">
+  <span class="hover_bg2">
+    <div class="hover-text-sm">
+      <h1>Brand Matters Keynote</h1>
+      <p>LVH LVH Theater<br>
+      January 08, 2014, 11:00-12:15 PM
+        
+      <h2><strong>Dick Costolo </strong><br>
+      Twitter<br>
+      CEO</h2>
+    </div>
+    
+    <img src="/CES/media/2014/landing%20pages/conference/Dick-Costolo_Twitter_1.jpg?width=150&height=150&ext=.jpg" alt="" \>
+ </span>
+ <!--END HOVER-->
+ <img src="/CES/media/2014/landing%20pages/conference/Dick-Costolo_Twitter_1.jpg?width=150&height=150&ext=.jpg" alt="" \>
+ <div class="keynotes-feature-item-fl">
+   <img src="/ces/images/Keynotes/carrot-black.png">
+   <h1>Dick Costolo</h1>
+   <h2>Twitter</h2>
+   <h3>CEO</h3>
+ </div>
+</a>
+</li>
+<li class="one-sixth" data-categories="technology-innovators wednesday">  
+  <a href="#inline_content32180" data-rel="prettyPhoto" title="" class="screen-roll" data-page-link="/Conference/Keynotes/Technology-Innovators/Brand-Matters-Keynote/Scott-Dorsey">
+  <span class="hover_bg2">
+    <div class="hover-text-sm">
+      <h1>Brand Matters Keynote</h1>
+      <p>LVH LVH Theater<br>
+      January 08, 2014, 11:00-12:15 PM
+        
+      <h2><strong>Scott Dorsey </strong><br>
+      Salesforce, ExactTarget<br>
+      CEO</h2>
+    </div>
+    
+    <img src="/CES/media/2014/landing%20pages/conference/Scott-Dorsey_Salesforce_1.jpg?width=150&height=150&ext=.jpg" alt="" \>
+ </span>
+ <!--END HOVER-->
+ <img src="/CES/media/2014/landing%20pages/conference/Scott-Dorsey_Salesforce_1.jpg?width=150&height=150&ext=.jpg" alt="" \>
+ <div class="keynotes-feature-item-fl">
+   <img src="/ces/images/Keynotes/carrot-black.png">
+   <h1>Scott Dorsey</h1>
+   <h2>Salesforce, ExactTarget</h2>
+   <h3>CEO</h3>
+ </div>
+</a>
+</li>
+<li class="one-sixth" data-categories="technology-innovators wednesday">  
+  <a href="#inline_content32181" data-rel="prettyPhoto" title="" class="screen-roll" data-page-link="/Conference/Keynotes/Technology-Innovators/Brand-Matters-Keynote/Andy-England">
+  <span class="hover_bg2">
+    <div class="hover-text-sm">
+      <h1>Brand Matters Keynote</h1>
+      <p>LVH LVH Theater<br>
+      January 08, 2014, 11:00-12:15 PM
+        
+      <h2><strong>Andy England </strong><br>
+      MillerCoors<br>
+      Exec. Vice President & CMO</h2>
+    </div>
+    
+    <img src="/CES/media/2014/landing%20pages/conference/Andy-England_MillerCoors_1.jpg?width=150&height=150&ext=.jpg" alt="" \>
+ </span>
+ <!--END HOVER-->
+ <img src="/CES/media/2014/landing%20pages/conference/Andy-England_MillerCoors_1.jpg?width=150&height=150&ext=.jpg" alt="" \>
+ <div class="keynotes-feature-item-fl">
+   <img src="/ces/images/Keynotes/carrot-black.png">
+   <h1>Andy England</h1>
+   <h2>MillerCoors</h2>
+   <h3>Exec. Vice President & CMO</h3>
+ </div>
+</a>
+</li>
+<li class="one-sixth" data-categories="technology-innovators wednesday">  
+  <a href="#inline_content32183" data-rel="prettyPhoto" title="" class="screen-roll" data-page-link="/Conference/Keynotes/Technology-Innovators/Brand-Matters-Keynote/Carolyn-Everson">
+  <span class="hover_bg2">
+    <div class="hover-text-sm">
+      <h1>Brand Matters Keynote</h1>
+      <p>LVH LVH Theater<br>
+      January 08, 2014, 11:00-12:15 PM
+        
+      <h2><strong>Carolyn Everson </strong><br>
+      Facebook<br>
+      Vice President</h2>
+    </div>
+    
+    <img src="/CES/media/2014/landing%20pages/conference/Carolyn-Everson_Facebook_1.jpg?width=150&height=150&ext=.jpg" alt="" \>
+ </span>
+ <!--END HOVER-->
+ <img src="/CES/media/2014/landing%20pages/conference/Carolyn-Everson_Facebook_1.jpg?width=150&height=150&ext=.jpg" alt="" \>
+ <div class="keynotes-feature-item-fl">
+   <img src="/ces/images/Keynotes/carrot-black.png">
+   <h1>Carolyn Everson</h1>
+   <h2>Facebook</h2>
+   <h3>Vice President</h3>
+ </div>
+</a>
+</li>
+<li class="one-sixth" data-categories="technology-innovators wednesday">  
+  <a href="#inline_content32182" data-rel="prettyPhoto" title="" class="screen-roll" data-page-link="/Conference/Keynotes/Technology-Innovators/Brand-Matters-Keynote/James-D-Farley,-Jr">
+  <span class="hover_bg2">
+    <div class="hover-text-sm">
+      <h1>Brand Matters Keynote</h1>
+      <p>LVH LVH Theater<br>
+      January 08, 2014, 11:00-12:15 PM
+        
+      <h2><strong>James D.  Farley </strong><br>
+      Ford Motor Co.<br>
+      Executive Vice President</h2>
+    </div>
+    
+    <img src="/CES/media/2014/landing%20pages/conference/JimFarley_Ford_1.jpg?width=150&height=150&ext=.jpg" alt="" \>
+ </span>
+ <!--END HOVER-->
+ <img src="/CES/media/2014/landing%20pages/conference/JimFarley_Ford_1.jpg?width=150&height=150&ext=.jpg" alt="" \>
+ <div class="keynotes-feature-item-fl">
+   <img src="/ces/images/Keynotes/carrot-black.png">
+   <h1>James D.  Farley</h1>
+   <h2>Ford Motor Co.</h2>
+   <h3>Executive Vice President</h3>
+ </div>
+</a>
+</li>
+<li class="one-sixth" data-categories="technology-innovators wednesday">  
+  <a href="#inline_content32184" data-rel="prettyPhoto" title="" class="screen-roll" data-page-link="/Conference/Keynotes/Technology-Innovators/Brand-Matters-Keynote/Michael-E-Kassan">
+  <span class="hover_bg2">
+    <div class="hover-text-sm">
+      <h1>Brand Matters Keynote</h1>
+      <p>LVH LVH Theater<br>
+      January 08, 2014, 11:00-12:15 PM
+        
+      <h2><strong>Michael E. Kassan </strong><br>
+      MediaLink<br>
+      Chairman & CEO</h2>
+    </div>
+    
+    <img src="/CES/media/2014/landing%20pages/conference/Michael-Kassan_MediaLink_1.jpg?width=150&height=150&ext=.jpg" alt="" \>
+ </span>
+ <!--END HOVER-->
+ <img src="/CES/media/2014/landing%20pages/conference/Michael-Kassan_MediaLink_1.jpg?width=150&height=150&ext=.jpg" alt="" \>
+ <div class="keynotes-feature-item-fl">
+   <img src="/ces/images/Keynotes/carrot-black.png">
+   <h1>Michael E. Kassan</h1>
+   <h2>MediaLink</h2>
+   <h3>Chairman & CEO</h3>
+ </div>
+</a>
+</li>
+<li class="one-sixth" data-categories="technology-innovators wednesday">  
+  <a href="#inline_content32179" data-rel="prettyPhoto" title="" class="screen-roll" data-page-link="/Conference/Keynotes/Technology-Innovators/Brand-Matters-Keynote/Maurice-Levy">
+  <span class="hover_bg2">
+    <div class="hover-text-sm">
+      <h1>Brand Matters Keynote</h1>
+      <p>LVH LVH Theater<br>
+      January 08, 2014, 11:00-12:15 PM
+        
+      <h2><strong>Maurice Lévy </strong><br>
+      Publicis Groupe<br>
+      Chairman & CEO</h2>
+    </div>
+    
+    <img src="/CES/media/2014/landing%20pages/conference/Maurice-Levy_Publicis_1.jpg?width=150&height=150&ext=.jpg" alt="" \>
+ </span>
+ <!--END HOVER-->
+ <img src="/CES/media/2014/landing%20pages/conference/Maurice-Levy_Publicis_1.jpg?width=150&height=150&ext=.jpg" alt="" \>
+ <div class="keynotes-feature-item-fl">
+   <img src="/ces/images/Keynotes/carrot-black.png">
+   <h1>Maurice Lévy</h1>
+   <h2>Publicis Groupe</h2>
+   <h3>Chairman & CEO</h3>
+ </div>
+</a>
+</li>
+</ul>
+		</div>
+                
+	</div>
+            </div>
+        
+</div>
+        <div style="display:none">
+  <div id="inline_content29793" class="keynotes-pop-up">
+    <img src="/CES/media/2014/landing%20pages/conference/brian-krzanich_Intel-cesweb.jpg?width=170&height=170&ext=.jpg" alt="" \>
+      <div class="keynotes-pop-up-text">            	
+        <h2>Intel</h2>
+        <h3>Brian Krzanich</h3>
+        <h5>Chief Executive Officer</h5>
+      <p>Intel CEO Brian Krzanich will deliver a preshow keynote address at the 2014 International CES, the world&rsquo;s gathering place for all who thrive on the business of consumer technologies. <a href="/CES/media/2014/Conference/IntelCESCEOKeynote-transcript_FINAL010714doc.pdf">Transcript </a>(pdf)<p>
+      </div>
+    <div class="about-speaker">
+      <h4>About Brian Krzanich</h4>
+      <p>Brian Krzanich was appointed chief executive officer and elected a member of Intel&rsquo;s board of directors on May 16, 2013. Krzanich has held numerous positions within the company, most recently serving as chief operating officer (COO). As COO, his responsibilities included leading more than 50,000 employees spanning Intel&rsquo;s Technology and Manufacturing Group, Intel Custom Foundry, supply chain operations, the NAND Solutions group, human resources, information technology and Intel&rsquo;s China strategy. His open-minded approach to problem solving and listening to customers&#39; needs has extended the company&#39;s product and technology leadership.&nbsp; For decades, Intel&rsquo;s innovative technologies have been at the heart of connecting people around the world and bringing information into the hands of consumers.&nbsp; Under Brian Krzanich&rsquo;s leadership, Intel is defining a new era in which every device and every object connects and computes.<br />
+</p>
+    </div>
+  </div>
+</div><div style="display:none">
+  <div id="inline_content29792" class="keynotes-pop-up">
+    <img src="/CES/media/2014/landing%20pages/conference/Rupert-Stadler_Audi-cesweb.jpg?width=170&height=170&ext=.jpg" alt="" \>
+      <div class="keynotes-pop-up-text">            	
+        <h2>Audi AG</h2>
+        <h3>Rupert Stadler</h3>
+        <h5>Chairman of the Board of Management </h5>
+      <p>Rupert Stadler, chairman of the board of management of AUDI AG, will deliver a Tech Titan keynote address at the 2014 International CES. Stadler will discuss future innovation in the automotive industry and its direct impact on the consumer technology market. <p>
+      </div>
+    <div class="about-speaker">
+      <h4>About Rupert Stadler</h4>
+      <p>Mr. Stadler&rsquo;s keynote address will focus on connectivity technologies and future innovation in the automotive industry and its direct impact on the consumer technology market.&nbsp; Stadler was appointed Chairman of the Board of Management for AUDI AG in January 2007. Since joining AUDI AG in 1990, he has held several positions within the company including Commercial Director for Volkswagen/Audi España SA and Head of the Board of Management&rsquo;s Office for the Volkswagen Group in 1997. He became a member of the AUDI AG Board in 2003 and was responsible for the company&rsquo;s financial and organization division.&nbsp;<br />
+</p>
+    </div>
+  </div>
+</div><div style="display:none">
+  <div id="inline_content29839" class="keynotes-pop-up">
+    <img src="/CES/media/2014/landing%20pages/conference/Gary_Shapiro_CEA_cesweb.jpg?width=170&height=170&ext=.jpg" alt="" \>
+      <div class="keynotes-pop-up-text">            	
+        <h2>Consumer Electronics Association</h2>
+        <h3>Gary Shapiro</h3>
+        <h5>President and CEO</h5>
+      <p>Gary Shapiro is president and CEO of the Consumer Electronics Association. He will speak prior to Kazuo Hirai, president and CEO of Sony. <a href="/CES/media/2014/Conference/GaryShapiroKeynoteFINAL.pdf">Transcript </a>(pdf).<p>
+      </div>
+    <div class="about-speaker">
+      <h4>About Gary Shapiro</h4>
+      <p>Gary Shapiro is president and CEO of the Consumer Electronics Association (CEA), the U.S. trade association representing more than 2,000 consumer electronics companies, and owning and producing the world&rsquo;s largest annual innovation tradeshow, the International CES. Shapiro led the industry in its successful transition to HDTV. He co-founded and chaired the HDTV Model Station and served as a leader of the Advanced Television Test Center (ATTC). He is a charter inductee to the Academy of Digital Television Pioneers, and received its highest award as the industry leader most influential in advancing HDTV. He focused on the need for and led the effort to obtain the 2009 cut-off date of analog broadcasting. Shapiro authored CEA&rsquo;s <em>New York Times</em> bestsellers &ldquo;Ninja Innovation: The Ten Killer Strategies of the World&rsquo;s Most Successful Businesses&rdquo; (Harper Collins, 2013) and &ldquo;The Comeback: How Innovation will Restore the American Dream&rdquo; (Beaufort, 2011).&nbsp;Through these books and television appearances, and as a columnist whose writing appears in publications such as <em>The Wall Street Journal</em>, <em>The New York Times </em>and <em>The Washington Post</em>, Shapiro has helped direct policymakers and business leaders on the importance of innovation in the U.S. economy.</p>
+    </div>
+  </div>
+</div><div style="display:none">
+  <div id="inline_content29840" class="keynotes-pop-up">
+    <img src="/CES/media/2014/landing%20pages/conference/Kazuo-Hirai_Sony_cesweb.jpg?width=170&height=170&ext=.jpg" alt="" \>
+      <div class="keynotes-pop-up-text">            	
+        <h2>Sony Corporation </h2>
+        <h3>Kazuo  Hirai</h3>
+        <h5>President and CEO</h5>
+      <p>President and CEO of Sony Corporation (&ldquo;Sony&rdquo;) Kazuo (&ldquo;Kaz&rdquo;) Hirai will deliver the opening morning Tech Titans keynote address at the 2014 International CES, bringing his unique perspective and insights about the latest innovations occurring at the intersection of content and hardware.<p>
+      </div>
+    <div class="about-speaker">
+      <h4>About Kazuo  Hirai</h4>
+      <p>Since April 2012, Kazuo (Kaz) Hirai has held the position of Representative Corporate Executive Officer, President and CEO, Sony Corporation and in June 2012 was appointed a Director of the Sony Board. Mr. Hirai previously served as Representative Corporate Executive Officer, Executive Deputy President, Sony Corporation and President of the Consumer Products &amp; Services Group, overseeing Sony&rsquo;s entire portfolio of consumer electronics products and digital networked services. From 2006, Mr. Hirai served as President and Group Chief Executive Officer, SCEI during which time he successfully returned the PlayStation business to profit, and drove the growth of the PlayStation Network, which provided users with revolutionary new forms of online entertainment while laying the foundations for Sony&rsquo;s subsequent expansion into various online networked services. &nbsp;<br />
+</p>
+    </div>
+  </div>
+</div><div style="display:none">
+  <div id="inline_content31318" class="keynotes-pop-up">
+    <img src="/CES/media/2014/landing%20pages/conference/Marissa_Mayer_188.jpg?width=188&height=188&ext=.jpg" alt="" \>
+      <div class="keynotes-pop-up-text">            	
+        <h2>Yahoo!</h2>
+        <h3>Marissa  Mayer</h3>
+        <h5>CEO, President and Director</h5>
+      <p>Yahoo! CEO, president and director Marissa Mayer will deliver a keynote address at the 2014 International CES.<p>
+      </div>
+    <div class="about-speaker">
+      <h4>About Marissa  Mayer</h4>
+      <p>Marissa Mayer was named Yahoo! CEO, President and Director in July 2012. Prior to Yahoo!, Marissa was Vice President of Local, Maps, and Location Services at Google where she oversaw product management, engineering, design and strategy for the company&rsquo;s suite of local and geographical products, including Google Maps, Google Earth, Zagat, Street View, and local search, for desktop and mobile. Mayer also held numerous positions including engineer, designer, product manager and executive as well as playing an instrumental role in Google search resulting in a growth of searches from a few hundred thousand to well over a billion searches per day.</p>
+    </div>
+  </div>
+</div><div style="display:none">
+  <div id="inline_content31319" class="keynotes-pop-up">
+    <img src="/CES/media/2014/landing%20pages/conference/John-Chambers_Cisco.jpg?width=188&height=188&ext=.jpg" alt="" \>
+      <div class="keynotes-pop-up-text">            	
+        <h2>Cisco</h2>
+        <h3>John  Chambers</h3>
+        <h5>Chairman and Chief Executive Officer</h5>
+      <p>Cisco Chairman and Chief Executive Officer John Chambers will deliver a keynote address at the 2014 International CES, sharing his company&rsquo;s vision for the &lsquo;Internet of Everything,&rsquo; which is the networked connection of people, processes, data and things.<p>
+      </div>
+    <div class="about-speaker">
+      <h4>About John  Chambers</h4>
+      <p>John Chambers is chairman and CEO of Cisco. He has helped grow the company from $70 million when he joined Cisco in 1991, to $1.2 billion when he assumed the role of CEO, to record revenues of $48.6 billion in FY13. In 2006, Chambers was named chairman of the board, in addition to his CEO role. He has received numerous awards for his leadership during his 18 years at the helm of Cisco. During his tenure as CEO, Cisco has been named to Fortune&rsquo;s &ldquo;America&rsquo;s Most Admired Company&rdquo; list since 1999, ranking number one in the Network Communications category eight times, BusinessWeek&rsquo;s &ldquo;Top 50 Performers&rdquo; list six times, Forbes&rsquo; &ldquo;Leading Companies in the World,&rdquo; and is one of the top 10 places to work in the United States, China, Germany, France, India, UK, Australia, Singapore, and several other countries. </p>
+    </div>
+  </div>
+</div>
+        <div style="display:none">
+  <div id="inline_content32221" class="keynotes-pop-up">
+    <img src="/CES/media/2014/landing%20pages/conference/John-Donovan_ATT.jpg?width=150&height=150&ext=.jpg" alt="" \>
+      <div class="keynotes-pop-up-text">            	
+        <h2>AT&T</h2>
+        <h3>John Donovan</h3>
+        <h5>Sr. Executive Vice President</h5>
+      <p>The <em>FutureCast:Global Innovation of Mobile</em> keynote&nbsp;will feature these top mobile executives sharing their perspectives on the future of mobile technology and the impact it will have on consumers&rsquo; lives. The address will be part of the Technology Innovators keynote series, a stage for those with big ideas that are reframing the way technology will impact our interaction with the world today, and in years to come.<p>
+      </div>
+    <div class="about-speaker">
+      <h4>About John Donovan</h4>
+      <p>John Donovan is the senior executive vice president for AT&amp;T Technology and Network Operations at AT&amp;T Inc., and is responsible for AT&amp;T&#39;s technology and global network including the company&#39;s best-in-class mobile broadband network. He previously served as chief technology officer for AT&amp;T, overseeing the company&#39;s global technology direction and innovation road map. Under Donovan&#39;s leadership, AT&amp;T has turbo-charged its innovation programs and is &nbsp;recognized as an industry leader in working with application developers and others to make AT&amp;T&#39;s network open to collaboration and innovation.<br />
+</p>
+    </div>
+  </div>
+</div><div style="display:none">
+  <div id="inline_content32223" class="keynotes-pop-up">
+    <img src="/CES/media/2014/landing%20pages/conference/Paul-Jacobs_Qualcomm.jpg?width=150&height=150&ext=.jpg" alt="" \>
+      <div class="keynotes-pop-up-text">            	
+        <h2>Qualcomm</h2>
+        <h3>Paul E. Jacobs</h3>
+        <h5>Chairman and CEO</h5>
+      <p>The <em>FutureCast:Global Innovation of Mobile</em> keynote&nbsp;will feature these top mobile executives sharing their perspectives on the future of mobile technology and the impact it will have on consumers&rsquo; lives. The address will be part of the Technology Innovators keynote series, a stage for those with big ideas that are reframing the way technology will impact our interaction with the world today, and in years to come.<p>
+      </div>
+    <div class="about-speaker">
+      <h4>About Paul E. Jacobs</h4>
+      <p>Dr. Paul E. Jacobs is chairman and CEO of Qualcomm and a leader in the field of mobile communications for more than 25 years. He is a key architect of Qualcomm&rsquo;s strategic vision and is responsible for leadership and oversight of all the Company&rsquo;s initiatives and operations. Important developments under Dr. Jacobs include the first smartphone based on Palm OS&reg;; inclusion of GPS capabilities in mobile phones; the Brew&reg; system, enabling over-the-air downloading of applications; QChat, a voice over IP, push-to-talk system; mirasol&reg;, a novel reflective display technology; and the Toq Smartwatch.<br />
+</p>
+    </div>
+  </div>
+</div><div style="display:none">
+  <div id="inline_content32224" class="keynotes-pop-up">
+    <img src="/CES/media/2014/landing%20pages/conference/Andrew-Keen_TechCrunch.jpg?width=150&height=150&ext=.jpg" alt="" \>
+      <div class="keynotes-pop-up-text">            	
+        <h2>TechCrunch TV</h2>
+        <h3>Andrew Keen</h3>
+        <h5>Host of “Keen On” </h5>
+      <p>The <em>FutureCast:Global Innovation of Mobile</em> keynote&nbsp;will feature these top mobile executives sharing their perspectives on the future of mobile technology and the impact it will have on consumers&rsquo; lives. The address will be part of the Technology Innovators keynote series, a stage for those with big ideas that are reframing the way technology will impact our interaction with the world today, and in years to come.<p>
+      </div>
+    <div class="about-speaker">
+      <h4>About Andrew Keen</h4>
+      <p></p>
+    </div>
+  </div>
+</div><div style="display:none">
+  <div id="inline_content32222" class="keynotes-pop-up">
+    <img src="/CES/media/2014/landing%20pages/conference/Vestberg_Ericssen.jpg?width=150&height=150&ext=.jpg" alt="" \>
+      <div class="keynotes-pop-up-text">            	
+        <h2>Ericsson Group</h2>
+        <h3>Hans Vestberg</h3>
+        <h5>President and CEO</h5>
+      <p>The <em>FutureCast:Global Innovation of Mobile</em> keynote&nbsp;will feature these top mobile executives sharing their perspectives on the future of mobile technology and the impact it will have on consumers&rsquo; lives. The address will be part of the Technology Innovators keynote series, a stage for those with big ideas that are reframing the way technology will impact our interaction with the world today, and in years to come.<p>
+      </div>
+    <div class="about-speaker">
+      <h4>About Hans Vestberg</h4>
+      <p>Hans Vestberg is President and CEO of Ericsson Group. Under his direction, Ericsson has become the main driver toward the Networked Society, where connectivity is the fuel of progress. Vestberg is a leading advocate of the United Nations Millennium Development Goals, and for the potential of mobility and broadband to tackle some of the world&rsquo;s most compelling issues such as poverty, health, education and climate change. He is a founding member of the Broadband Commission for Digital Development, where he chairs the task group on the post-2015 development agenda.<br />
+</p>
+    </div>
+  </div>
+</div><div style="display:none">
+  <div id="inline_content32178" class="keynotes-pop-up">
+    <img src="/CES/media/2014/landing%20pages/conference/Dick-Costolo_Twitter_1.jpg?width=150&height=150&ext=.jpg" alt="" \>
+      <div class="keynotes-pop-up-text">            	
+        <h2>Twitter</h2>
+        <h3>Dick Costolo</h3>
+        <h5>CEO</h5>
+      <p>This year&rsquo;s panel will focus on: &ldquo;All for One; and One for All.&rdquo; MediaLink&rsquo;s Michael Kassan will interview Publicis and Twitter CEOs Maurice Lévy and Dick Costolo, exploring the two hottest business stories of 2013 and the marketing&nbsp;trends that surround them: consolidation, data, and the interplay of computation and communication. Following this interview, Kassan will moderate a panel with senior industry executives from Facebook, Ford, MillerCoors and Salesforce.com, discussing how these themes are impacting their interactions with their customers.<br />
+<p>
+      </div>
+    <div class="about-speaker">
+      <h4>About Dick Costolo</h4>
+      <p>Costolo became CEO in 2010 and since then the global active user base has quadrupled to more than 200 million monthly active users; the company has tripled in size, and has opened offices around the world. Under Mr. Costolo&rsquo;s leadership, Twitter introduced &quot;Promoted Tweets&quot; &mdash; contextual advertising based on user interests displayed in Tweets &mdash; to increase revenue for the company. Twitter is today renowned as a real-time platform that enables people and organizations to publicly share brief messages instantly around the world, a vital tool in an increasingly global society. </p>
+    </div>
+  </div>
+</div><div style="display:none">
+  <div id="inline_content32180" class="keynotes-pop-up">
+    <img src="/CES/media/2014/landing%20pages/conference/Scott-Dorsey_Salesforce_1.jpg?width=150&height=150&ext=.jpg" alt="" \>
+      <div class="keynotes-pop-up-text">            	
+        <h2>Salesforce, ExactTarget</h2>
+        <h3>Scott Dorsey</h3>
+        <h5>CEO</h5>
+      <p>This year&rsquo;s panel will focus on: &ldquo;All for One; and One for All.&rdquo; MediaLink&rsquo;s Michael Kassan will interview Publicis and Twitter CEOs Maurice Lévy and Dick Costolo, exploring the two hottest business stories of 2013 and the marketing&nbsp;trends that surround them: consolidation, data, and the interplay of computation and communication. Following this interview, Kassan will moderate a panel with senior industry executives from Facebook, Ford, MillerCoors and Salesforce.com, discussing how these themes are impacting their interactions with their customers.<br />
+<p>
+      </div>
+    <div class="about-speaker">
+      <h4>About Scott Dorsey</h4>
+      <p>Dorsey co-founded ExactTarget in 2000 with a vision to help organizations use the then-emerging medium of email to connect with their customers and drive business results. Since its founding, the company and its technology have grown to power the digital marketing campaigns of many of the world&rsquo;s leading brands across email, mobile, social media, and the Web. Mr. Dorsey has led ExactTarget from startup to one of the largest cloud IPOs on the New York Stock Exchange in March of 2012. Following salesforce.com&rsquo;s $2.5 billion acquisition of ExactTarget in July 2013, Mr. Dorsey was named the CEO of the salesforce.com Marketing Cloud, which now includes Radian6, Buddy Media, social.com, and ExactTarget&rsquo;s suite of digital marketing products.</p>
+    </div>
+  </div>
+</div><div style="display:none">
+  <div id="inline_content32181" class="keynotes-pop-up">
+    <img src="/CES/media/2014/landing%20pages/conference/Andy-England_MillerCoors_1.jpg?width=150&height=150&ext=.jpg" alt="" \>
+      <div class="keynotes-pop-up-text">            	
+        <h2>MillerCoors</h2>
+        <h3>Andy England</h3>
+        <h5>Exec. Vice President & CMO</h5>
+      <p>This year&rsquo;s panel will focus on: &ldquo;All for One; and One for All.&rdquo; MediaLink&rsquo;s Michael Kassan will interview Publicis and Twitter CEOs Maurice Lévy and Dick Costolo, exploring the two hottest business stories of 2013 and the marketing&nbsp;trends that surround them: consolidation, data, and the interplay of computation and communication. Following this interview, Kassan will moderate a panel with senior industry executives from Facebook, Ford, MillerCoors and Salesforce.com, discussing how these themes are impacting their interactions with their customers.<br />
+<p>
+      </div>
+    <div class="about-speaker">
+      <h4>About Andy England</h4>
+      <p>England is responsible for leading the company&rsquo;s efforts in marketing, communications, strategy, planning, and government affairs. Previously, he was chief marketing officer of Coors Brewing Company. Before joining Coors in February 2006, Mr. England spent more than 20 years in marketing and operations, driving profitable growth for some of the world&rsquo;s most recognized brands. Most recently, he was vice president of international marketing and strategy at The Hershey Company.</p>
+    </div>
+  </div>
+</div><div style="display:none">
+  <div id="inline_content32183" class="keynotes-pop-up">
+    <img src="/CES/media/2014/landing%20pages/conference/Carolyn-Everson_Facebook_1.jpg?width=150&height=150&ext=.jpg" alt="" \>
+      <div class="keynotes-pop-up-text">            	
+        <h2>Facebook</h2>
+        <h3>Carolyn Everson</h3>
+        <h5>Vice President</h5>
+      <p>This year&rsquo;s panel will focus on: &ldquo;All for One; and One for All.&rdquo; MediaLink&rsquo;s Michael Kassan will interview Publicis and Twitter CEOs Maurice Lévy and Dick Costolo, exploring the two hottest business stories of 2013 and the marketing&nbsp;trends that surround them: consolidation, data, and the interplay of computation and communication. Following this interview, Kassan will moderate a panel with senior industry executives from Facebook, Ford, MillerCoors and Salesforce.com, discussing how these themes are impacting their interactions with their customers.<br />
+<p>
+      </div>
+    <div class="about-speaker">
+      <h4>About Carolyn Everson</h4>
+      <p><strong>Vice President, Global Marketing Solutions</strong> - Everson leads Facebook&rsquo;s relationships with its top marketers and agencies across the globe. She oversees a team of regional leaders and the teams focused on global partnerships, Global agencies and Facebook&rsquo;s Creative Shop. Prior to Facebook, Ms. Everson was the Corporate Vice President of Microsoft&rsquo;s Global Advertising Sales and Trade Marketing Teams.</p>
+    </div>
+  </div>
+</div><div style="display:none">
+  <div id="inline_content32182" class="keynotes-pop-up">
+    <img src="/CES/media/2014/landing%20pages/conference/JimFarley_Ford_1.jpg?width=150&height=150&ext=.jpg" alt="" \>
+      <div class="keynotes-pop-up-text">            	
+        <h2>Ford Motor Co.</h2>
+        <h3>James D.  Farley</h3>
+        <h5>Executive Vice President</h5>
+      <p>This year&rsquo;s panel will focus on: &ldquo;All for One; and One for All.&rdquo; MediaLink&rsquo;s Michael Kassan will interview Publicis and Twitter CEOs Maurice Lévy and Dick Costolo, exploring the two hottest business stories of 2013 and the marketing&nbsp;trends that surround them: consolidation, data, and the interplay of computation and communication. Following this interview, Kassan will moderate a panel with senior industry executives from Facebook, Ford, MillerCoors and Salesforce.com, discussing how these themes are impacting their interactions with their customers.<br />
+<p>
+      </div>
+    <div class="about-speaker">
+      <h4>About James D.  Farley</h4>
+      <p><strong>Exec. Vice President, Global Marketing, Sales and Service and Lincoln</strong> - Farley leads Ford&rsquo;s drive to connect even more closely with customers through integrated global marketing, advertising, digital communications, brand development and research. In addition to his global marketing role, he leads the company&rsquo;s global sales and service operations. Prior to joining Ford, Farley was group vice president and general manager of Lexus, responsible for all sales, marketing and customer satisfaction activities for Toyota&rsquo;s luxury brand.</p>
+    </div>
+  </div>
+</div><div style="display:none">
+  <div id="inline_content32184" class="keynotes-pop-up">
+    <img src="/CES/media/2014/landing%20pages/conference/Michael-Kassan_MediaLink_1.jpg?width=150&height=150&ext=.jpg" alt="" \>
+      <div class="keynotes-pop-up-text">            	
+        <h2>MediaLink</h2>
+        <h3>Michael E. Kassan</h3>
+        <h5>Chairman & CEO</h5>
+      <p>This year&rsquo;s panel will focus on: &ldquo;All for One; and One for All.&rdquo; MediaLink&rsquo;s Michael Kassan will interview Publicis and Twitter CEOs Maurice Lévy and Dick Costolo, exploring the two hottest business stories of 2013 and the marketing&nbsp;trends that surround them: consolidation, data, and the interplay of computation and communication. Following this interview, Kassan will moderate a panel with senior industry executives from Facebook, Ford, MillerCoors and Salesforce.com, discussing how these themes are impacting their interactions with their customers.<br />
+<p>
+      </div>
+    <div class="about-speaker">
+      <h4>About Michael E. Kassan</h4>
+      <p>Michael E. Kassan is the Chairman and CEO of MediaLink, a leading Los Angeles- and New York City-based advisory and business development firm that provides critical counsel and direction on issues of marketing, advertising, media, entertainment and digital technology.</p>
+    </div>
+  </div>
+</div><div style="display:none">
+  <div id="inline_content32179" class="keynotes-pop-up">
+    <img src="/CES/media/2014/landing%20pages/conference/Maurice-Levy_Publicis_1.jpg?width=150&height=150&ext=.jpg" alt="" \>
+      <div class="keynotes-pop-up-text">            	
+        <h2>Publicis Groupe</h2>
+        <h3>Maurice Lévy</h3>
+        <h5>Chairman & CEO</h5>
+      <p>This year&rsquo;s panel will focus on: &ldquo;All for One; and One for All.&rdquo; MediaLink&rsquo;s Michael Kassan will interview Publicis and Twitter CEOs Maurice Lévy and Dick Costolo, exploring the two hottest business stories of 2013 and the marketing&nbsp;trends that surround them: consolidation, data, and the interplay of computation and communication. Following this interview, Kassan will moderate a panel with senior industry executives from Facebook, Ford, MillerCoors and Salesforce.com, discussing how these themes are impacting their interactions with their customers.<br />
+<p>
+      </div>
+    <div class="about-speaker">
+      <h4>About Maurice Lévy</h4>
+      <p>Lévy joined Publicis in 1971 and was named Chairman and CEO in 1987, thus becoming Publicis Groupe&#39;s second CEO since 1926. Under his stewardship the Groupe has been transformed into a global powerhouse of advertising and marketing agencies, notably via the 2000 acquisition of Saatchi &amp; Saatchi and 2002 merger with Bcom3 (Leo Burnett, Fallon, and StarcomMediaVest). He is also responsible for the Groupe&rsquo;s strategic focus on digital communication, with acquisitions of Digitas in 2007, Razorfish in 2009, Rosetta in 2011 and LBi in 2012 &mdash; leading to the 2013 creation of DigitasLBi. </p>
+    </div>
+  </div>
+</div>
+</section>
+<script>
+jQuery(document).ready(function ($) {
+  $("a.screen-roll").on("click", function () {
+
+  });
+});
+</script>
+                      
+                    </div>
+                </div>
+            </div>
+        </div>
+      
+    </section>
+      
+      <div class="interior-body-bk">
+          <div class="int-bk-right"><a id="p_lt_ctl07_BannerRotatorRightHanger_lnkBanner" class="CMSBanner Banner" href="/conference" onclick="this.href=&#39;/CMSModules/BannerManagement/CMSPages/BannerRedirect.ashx?bannerID=36&amp;redirectURL=%2fconference&#39;;" onmouseup="this.href=&#39;/CMSModules/BannerManagement/CMSPages/BannerRedirect.ashx?bannerID=36&amp;redirectURL=%2fconference&#39;;"><img id="p_lt_ctl07_BannerRotatorRightHanger_imgBanner" src="/CES/media/2014/backgrounds/GibsonGuitars.jpg" style="" /></a></div>
+          <div class="int-bk-left"><a id="p_lt_ctl08_BannerRotatorLeftHanger_lnkBanner" class="CMSBanner Banner" href="/show-floor" onclick="this.href=&#39;/CMSModules/BannerManagement/CMSPages/BannerRedirect.ashx?bannerID=35&amp;redirectURL=%2fshow-floor&#39;;" onmouseup="this.href=&#39;/CMSModules/BannerManagement/CMSPages/BannerRedirect.ashx?bannerID=35&amp;redirectURL=%2fshow-floor&#39;;"><img id="p_lt_ctl08_BannerRotatorLeftHanger_imgBanner" src="/CES/media/2014/backgrounds/home-bk-01.jpg" style="" /></a></div>
+      </div>  
+      
+      <section>
+    <div id="footer">
+			<div class="container">
+            	<div class="footer-line"></div>
+				<div class="one-fifth">
+                  <p class="copyright">
+	Copyright &copy; 2003 - 2014 CEA. All rights reserved.</p>
+
+			    </div>
+			    <div class="one-sixth footer-div">
+                  <ul>
+	<li>
+		<a href="/about-us">About Us </a></li>
+	<li>
+		<a href="/contact-us">Contact Us</a></li>
+	<li>
+		<a href="/partners">Partners</a></li>
+</ul>
+
+				 </div>
+                 <div class="one-sixth footer-div">
+                  <ul>
+	<li>
+		<a href="/privacy">Privacy</a></li>
+	<li>
+		<a href="/sitemap">Sitemap</a></li>
+</ul>
+<br /><div style="font-size: .8em; color: #FFF;"><span id="p_lt_ctl11_whatServer_serverName">WEB-IIS30</span></div>
+				 </div>
+				 <div class="one-third languages">
+                    	
+                     <script type="text/javascript">
+
+
+
+  var _gaq = _gaq || [];
+
+  _gaq.push(['_setAccount', 'UA-3975226-4']);
+
+  _gaq.push(['_trackPageview']);
+
+
+
+  (function() {
+
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+
+  })();
+
+
+
+</script>​
+                </div>
+			</div>
+    </div>
+    </section>
+    </div>
+    </div>
+<!-- Start of Google Analytics script -->
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-3975226-4']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+<!-- End of Google Analytics script -->
+
+<!-- Start Pardot tracking script -->
+<script type="text/javascript"> 
+piAId = '27962'; 
+piCId = '2690'; 
+
+(function() { 
+function async_load(){ 
+var s = document.createElement('script'); s.type = 'text/javascript';
+s.src = ('https:' == document.location.protocol ? 'https://pi' : 'http://cdn') + '.pardot.com/pd.js'; 
+var c = document.getElementsByTagName('script')[0]; c.parentNode.insertBefore(s, c); 
+} 
+if(window.attachEvent) { window.attachEvent('onload', async_load); } 
+else { window.addEventListener('load', async_load, false); } 
+})(); 
+</script> 
+<!-- End Pardot tracking script -->
+<script type="text/javascript">
+setTimeout(function(){var a=document.createElement("script");
+var b=document.getElementsByTagName("script")[0];
+a.src=document.location.protocol+"//dnn506yrbagrg.cloudfront.net/pages/scripts/0013/2569.js?"+Math.floor(new Date().getTime()/3600000);
+a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
+</script>
+
+    
+    
+
+<script type="text/javascript">
+//<![CDATA[
+(function() {var fn = function() {$get("manScript_HiddenField").value = '';Sys.Application.remove_init(fn);};Sys.Application.add_init(fn);})();//]]>
+</script>
+</form>
+</body>
+</html>
