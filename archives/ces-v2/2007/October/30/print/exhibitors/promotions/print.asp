@@ -1,0 +1,315 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head><!-- PageID 567 - published by RedDot 7.5 - 7.5.0.33 - 16244 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<!-- INSERT PAGE TITLE HERE (immediately following gblPAGE_TITLE) -->
+<title>2005 International CES:&nbsp;Print Advertising</title>
+
+
+
+<!-- INSERT SEARCH ZONE HERE -->
+
+
+<link rel="StyleSheet" href="/print/global_includes/css/mainMethod.css" type="text/css">
+<LINK REL="SHORTCUT ICON" HREF="http://www.easymovement.com/ces/favicon.ico">
+
+<!-- Browser detection script -->
+    <script src="/print/global_includes/js/browser_detection.js" type="text/javascript"></script>
+
+<SCRIPT language="javascript1.2">
+    function newWin(urlString,pgNum) {
+        var popupWindow;
+        urlString += "?pageID=" + pgNum;
+ 
+        popupWindow = window.open(urlString,"","toolbar=yes,menubar=no,resizable=no,status=no,scrollbars=yes,location=no,directories=no,copyhistory=no,height=550,width=618,left=50,top=50");
+    }  
+ 
+    function openNewWindow(strURL) {
+        window.name = "main";
+        var newWindow = window.open(strURL,"newWindow", "toolbar=no,menubar=no,resizable=no,status=no,scrollbars=yes,location=no,directories=no,copyhistory=no,height=400,width=450,left=50,top=50");
+    }
+
+    // Script for e-mail this page - gets the url of the page the user is on before the e-mail page tool button is clicked
+    function loadReferrer() {
+        referrerString = opener.document.location.href;
+        document.emailForm.page.value = referrerString;
+    }
+</SCRIPT>
+
+<!-- Rollover script (do we still need these?) --> 
+<script language="javascript1.2"> 
+    /* for graphical rollovers */
+   function rollOver(which,name) 
+    {
+    var on="/global_images/1.0/1.0_" + which + "_r.gif";
+    if(document.images) {document.images[which].src=on;}
+    else if (document.GetElementById){document.GetElementById(name).src=on;}
+    }
+   function rollOff(which) 
+    {
+    var on="/global_images/1.0/1.0_" + which + ".gif";
+    if(document.images){document.images[which].src=on;}
+    else if (document.GetElementById){document.GetElementById(which).src=on;}
+    }
+   function introllOver(which,name) 
+    {
+    var on="/global_images/1.0/1.0_" + which + "_r.gif";
+    if(document.images) {document.images[which].src=on;}
+    else if (document.GetElementById){document.GetElementById(name).src=on;}
+    }
+   function introllOff(which) 
+    {
+    var on="/global_images/1.0/1.0_" + which + ".gif";
+    if(document.images){document.images[which].src=on;}
+    else if (document.GetElementById){document.GetElementById(which).src=on;}
+    }
+   function snrollOver(which,name) 
+    {
+    var on="/global_images/1.0/1.0" + which + "_r.gif";
+    if(document.images) {document.images[which].src=on;}
+    else if (document.GetElementById){document.GetElementById(name).src=on;}
+    }
+   function snrollOff(which) 
+    {
+    var on="/global_images/1.0/1.0" + which + ".gif";
+    if(document.images){document.images[which].src=on;}
+    else if (document.GetElementById){document.GetElementById(which).src=on;}
+    }
+        
+    //do we still need this?   
+    function onLoadHandler() {
+       if( typeof(bodyOnLoadFunction) != 'undefined' ) {
+           return eval(bodyOnLoadFunction);
+       }
+    }
+</script>
+<script language="javascript">
+<!--
+var activeNavId=0;
+var thisPageUrl='/exhibitors/promotions/print.asp';
+
+var parentLinks=new Array('dummy','/print/exhibitors/default.htm','/print/exhibitors/promotions/default.asp');
+
+function checkActiveNav(theUrl) {
+    var linkUrl=theUrl;
+    var returnValue=false;
+    
+    if (linkUrl==thisPageUrl) {
+        returnValue=true;
+    } else if (parentLinks.length>2 && linkUrl==parentLinks[parentLinks.length-1]) {
+        returnValue=true;   
+    } else if (parentLinks.length>3 && linkUrl==parentLinks[parentLinks.length-2]) {
+        returnValue=true;
+    } else if (parentLinks.length>4 && linkUrl==parentLinks[parentLinks.length-3]) {
+        returnValue=true;
+    }
+    return returnValue;
+}
+
+//-->
+</script>
+    <style>
+        <!--
+            UL {
+                MARGIN-TOP: .5em;
+                /*LIST-STYLE-IMAGE: url(/print/global_images2005/bullet.gif);*/
+                MARGIN-BOTTOM: 0em;
+                MARGIN-LEFT: 2em;
+                VERTICAL-ALIGN: top;
+            }
+
+            .exhibitorBGImg {
+                background-image: url('/print/global_images2005/exhibitor_bg.gif');
+            }
+
+            .text_colored, .intro_copy, .section_title, .subhead, .body_title, .intro_dates {
+               color: #2B5492;
+            }
+
+        //-->
+    </style>
+
+</head>
+
+<body leftmargin='0' topmargin='0' rightmargin='0' bottommargin='0' marginwidth='0' onLoad="onLoadHandler();self.focus();"> 
+<div style="position:absolute; top: 15; left: 15" ><a href='javascript:;' onClick='window.print();return false'><img src="/print/global_images2005/print.jpg" width="115" height="20" border="0" alt=""></a></div>
+<IMG SRC="/print/global_images2005/attPrintBanner.jpg" width="601" BORDER="0" vspace=0><br><table width="600" cellspacing="0" cellpadding="0" border="0">
+    <tr>
+<!-- /left column -->
+
+<!-- main body content -->    
+    <td width="10" class="exhibitor7"><img src="/print/global_images2005/spacer.gif" height="1" width="10"></td>
+    <td width="100%" class="exhibitor7" valign="top">
+    <img src="/print/global_images2005/spacer.gif" height="10" width="1"><br>
+<!-- center content -->
+
+
+
+<div class="body_title">Print Advertising Opportunities<br><img src="/print/global_images2005/spacer.gif" height="16" width="1"></div>
+    
+<div class="text">  
+<!-- text for main page -->
+
+Reach tech-savvy CE industry movers who read the leading trade publications and are anxious to plan for the 2008 International CES. Editorial calendars fill quickly, and space runs out.&nbsp;Reserve your space today. <BR>
+<br><br>
+
+
+
+<table class="exhibitor8" width="590" cellspacing="0" cellpadding="0" border="0">
+<tr>
+     <td width="10"><img src="/print/global_images2005/in_page_up_left.gif" alt="" width="10" height="10" hspace="0" vspace="0" border="0"></td>
+     <td width="280"><img src="/print/global_images2005/spacer.gif" alt="" width="280" height="10" hspace="0" vspace="0" border="0"></td>
+     <td width="10"><img src="/print/global_images2005/spacer.gif" alt="" width="10" height="10" hspace="0" vspace="0" border="0"></td>
+     <td width="280"><img src="/print/global_images2005/spacer.gif" alt="" width="280" height="10" hspace="0" vspace="0" border="0"></td>
+     <td width="10"><img src="/print/global_images2005/in_page_up_right.gif" alt="" width="10" height="10" hspace="0" vspace="0" border="0"></td> 
+</tr>
+ 
+<tr>
+    <td>&nbsp;</td>
+    <td><span class="subhead">On this page:</span></td>
+</tr>
+<tr>
+    <td>&nbsp;</td>
+    <td valign="top" class="text">
+
+<span class="nav_fourth_arrow"><b>>&nbsp;&nbsp;</b></span><a href="#656" class="inpagenav">International CES Official Show Directory</a><BR><!--/print/exhibitors/promotions/656.htm-->
+
+<span class="nav_fourth_arrow"><b>>&nbsp;&nbsp;</b></span><a href="#655" class="inpagenav">International CES Pre-Show Planner</a><BR><!--/print/exhibitors/promotions/655.htm-->
+
+    </td>
+    <td>&nbsp;</td>
+    <td valign="top" class="text">
+
+<span class="nav_fourth_arrow"><b>>&nbsp;&nbsp;</b></span><a href="#652" class="inpagenav">International CES Show Daily</a><BR><!--/print/exhibitors/promotions/652.htm-->
+
+<span class="nav_fourth_arrow"><b>>&nbsp;&nbsp;</b></span><a href="#657" class="inpagenav">International CES Show Guide</a><BR><!--/print/exhibitors/promotions/657.htm-->
+
+
+    </td>
+    <td>&nbsp;</td>
+</tr>
+<tr>
+    <td width="10"><img src="/print/global_images2005/in_page_down_left.gif" alt="" width="10" height="10" hspace="0" vspace="0" border="0"></td>
+    <td width="280"><img src="/print/global_images2005/spacer.gif" alt="" width="280" height="10" hspace="0" vspace="0" border="0"></td>
+    <td width="10"><img src="/print/global_images2005/spacer.gif" alt="" width="10" height="10" hspace="0" vspace="0" border="0"></td>
+    <td width="280"><img src="/print/global_images2005/spacer.gif" alt="" width="280" height="10" hspace="0" vspace="0" border="0"></td>
+    <td width="10"><img src="/print/global_images2005/in_page_down_right.gif" alt="" width="10" height="10" hspace="0" vspace="0" border="0"></td>
+</tr>
+</table>
+<br>
+Let us help you identify what International CES sponsorship opportunities ensure you meet—and exceed—your company's marketing goals. <A href="/print/exhibitors/promotions/rd_promo_ops_contact_form.asp">Contact a CES promotions representative today.</A><br><br>
+
+<table width="590" cellspacing=0 cellpadding=1 border=0 ID="Table1">
+<tr><a name="656"></a>
+    <td colspan="5">
+    
+    <img src="/print/global_images2005/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"><br>
+    <img src="/print/global_images2005/2.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"><br>
+    <img src="/print/global_images2005/spacer.gif" alt="" width="1" height="3" hspace="0" vspace="0" border="0"><br>
+</td>
+</tr>
+<tr>
+    <td width="300"><span class="section_title">International CES Official Show Directory</span></td>
+    <td width="290"><span class="section_title">Call for details!</span></td>
+</tr>
+<tr>
+    <td colspan=3>
+    
+    <br><SPAN style="FONT-FAMILY: ">The Official Show Directory is the ultimate reference guide for the International CES.&nbsp;The only year-round reference source, the <EM>Directory</EM> lists complete company profiles, brand listings and important product information. Ads are prominently placed and bring results-even after the show is over. Ask about packages with the <I>CES Show Guide</I>&nbsp;and the&nbsp;<EM>CES Pre-Show Planner</EM>, custom published by the Consumer Technology Publishing Group (CTPG), publisher of <EM><SPAN style="FONT-FAMILY: ">Dealerscope</SPAN></EM>, <EM><SPAN style="FONT-FAMILY: ">Custom Retailer</SPAN></EM>, <EM><SPAN style="FONT-FAMILY: ">Picture Business</SPAN></EM>, <EM><SPAN style="FONT-FAMILY: ">E-Gear and Home Furnishings Business </SPAN></EM>magazines.<BR><BR>Include your company logo in the printed version of the Official International CES Show Directory for $625. Please contact Steve Shive at <A href="mailto:sshive@napco.com">sshive@napco.com</A> or (215) 238-6674 for more information.</SPAN><BR><BR><B><A href="/print/images/promotions/ShowDirectory_600x800.jpg" target=_blank><IMG height=193 hspace=6 src="/print/images/promotions/ShowDirectory_140x87.jpg" width=140 align=left border=1></A>Marketing Investment</B><BR>Call for details!<BR><BR><B>Deadlines</B><BR>Ad closing: November 21<BR>Materials due: November 28<BR>Tab ad closing: November 15<BR>Materials due: November 21<BR>Distributed: On-site<BR>Deadline to include logos in <EM>Directory</EM>: November 14<BR><BR><BR><BR><A href="/print/images/promotions/ShowDirectory_600x800.jpg" target=_blank>Click for larger image.</A><STRONG><BR><BR><IMG height=24 src="/print/images/promotions/CTPG_logo.gif" width=150 align=left><BR><BR>Contacts</STRONG><BR>Eric Schwartz, President, Consumer Technology Publishing Group (CTPG) <SPAN style="FONT-FAMILY: ">Phone: (215) 238-5420<BR>E-mail: <A href="mailto:eschwartz@napco.com">eschwartz@napco.com</A><BR><BR>Bernard Schneyer<BR>Phone: (508) 620-8770<BR>E-mail: <A href="mailto:tmcbride@napcom.com">tmcbride@napcom.com</A> <BR><BR>Vicki Manucci, Production Manager-CTPG<BR>Phone: (215) 238-5432<BR>E-mail: <A href="mailto:vmanucci@napco.com">vmanucci@napco.com</A><BR><SPAN style="FONT-FAMILY: "><BR>To purchase display advertising, please contact:<BR>Rick Albuck</SPAN> <SPAN style="FONT-FAMILY: "><BR>Phone: (215) 238-5215<BR>E-mail: <A href="mailto:rickalbuck@napco.com">rickalbuck@napco.com</A></SPAN>&nbsp;<SPAN style="FONT-FAMILY: "></SPAN>&nbsp;&nbsp;<BR><BR>Steve Shive<BR>Phone: (215) 238-6674<BR>Email: <A href="mailto:sshive@napco.com">sshive@napco.com</A></SPAN>
+    <br><img src="/print/global_images2005/spacer.gif" width="1" height="5" border="0"><br>[<a href="#">back to top</a>]   
+    </td> 
+</tr><tr><a name="655"></a>
+    <td colspan="5">
+    
+    <img src="/print/global_images2005/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"><br>
+    <img src="/print/global_images2005/2.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"><br>
+    <img src="/print/global_images2005/spacer.gif" alt="" width="1" height="3" hspace="0" vspace="0" border="0"><br>
+</td>
+</tr>
+<tr>
+    <td width="300"><span class="section_title">International CES Pre-Show Planner</span></td>
+    <td width="290"><span class="section_title">Call for details!</span></td>
+</tr>
+<tr>
+    <td colspan=3>
+    
+    <br><SPAN style="FONT-FAMILY: ">The Pre-Show Planner is&nbsp;the most complete guide to planning packed days at the International CES. Produced by the Consumer Technology Publishing Group (CTPG), publisher of <EM><SPAN style="FONT-FAMILY: ">Dealerscope</SPAN></EM>, <EM><SPAN style="FONT-FAMILY: ">Custom Retailer</SPAN></EM>, <EM><SPAN style="FONT-FAMILY: ">Picture Business</SPAN></EM>, <EM><SPAN style="FONT-FAMILY: ">E-Gear and Home Furnishings Business </SPAN></EM>magazines, the Pre-Show Planner is mailed to pre-registered CES attendees and is&nbsp;the place to be to get an early start on reaching attendees before they arrive.&nbsp;Call now to reserve ad space. Ask about package ad deals with the&nbsp;Official Show Directory and&nbsp;Show Guide.&nbsp; </SPAN><SPAN style="FONT-FAMILY: "></SPAN>&nbsp; 
+<P><SPAN style="FONT-FAMILY: " ? FONT-FAMILY:><IMG height=193 hspace=6 src="/print/images/promotions/PreShowPlanner_140x193.jpg" width=140 align=left border=1></A>Marketing Investment</B><BR>Call for details!<BR><BR><B>Deadlines</B><BR>Ad closing: October 31<BR>Materials due: November 7<BR>Distributed: Early December<BR><BR><BR><BR><BR><BR><BR><A href="/print/images/promotions/PreShowPlanner_600x800.jpg" target=_blank>Click for larger image.<BR></A><STRONG><BR><IMG height=24 src="/print/images/promotions/CTPG_logo.gif" width=150 align=left><BR><BR>Contacts</STRONG><BR>Eric Schwartz, President, Consumer Technology Publishing Group (CTPG) <SPAN style="FONT-FAMILY: ">Phone: (215) 238-5420<BR>E-mail: <A href="mailto:eschwartz@napco.com">eschwartz@napco.com</A><BR><BR>Bernard Schneyer<BR>Phone: (508) 620-8770<BR>E-mail: <A href="mailto:tmcbride@napco.com">tmcbride@napco.com</A> <BR><BR>Vicki Manucci, Production Manager-CTPG<BR>Phone: (215) 238-5432<BR>E-mail: <A href="mailto:vmanucci@napco.com">vmanucci@napco.com</A> <BR><BR>To purchase&nbsp;display advertising, please contact:<BR>Rick Albuck <BR>Phone: (215) 238-5215<BR>E-mail: <A href="mailto:rickalbuck@napco.com">rickalbuck@napco.com</A><BR><BR>Steve Shive<BR>Phone: (215) 238-6674<BR>Email: <A href="mailto:sshive@napco.com">sshive@napco.com</A></SPAN></SPAN></P>
+    <br><img src="/print/global_images2005/spacer.gif" width="1" height="5" border="0"><br>[<a href="#">back to top</a>]   
+    </td> 
+</tr><tr><a name="652"></a>
+    <td colspan="5">
+    
+    <img src="/print/global_images2005/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"><br>
+    <img src="/print/global_images2005/2.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"><br>
+    <img src="/print/global_images2005/spacer.gif" alt="" width="1" height="3" hspace="0" vspace="0" border="0"><br>
+</td>
+</tr>
+<tr>
+    <td width="300"><span class="section_title">International CES Show Daily</span></td>
+    <td width="290"><span class="section_title">Call for details!</span></td>
+</tr>
+<tr>
+    <td colspan=3>
+    
+    <br><IMG height=45 src="/print/images/promotions/TWICEclr.gif" width=150 align=right vspace=30> 
+<P></P>
+<P>The best possible way to reach thousands at the International CES is to put your ads in the most comprehensive source of daily CES news and events. During the show, the <I>CES Show Daily </I>is distributed room-to-room at major Las Vegas hotels, on buses and all over the Las Vegas Convention Center . The Daily is produced by the editors of <I>TWICE</I> , the industry's publication of record, with contributions from sister Reed publications V<I>ariety, B&amp;C</I>, <I>Multichannel News</I> and <I>Video Business</I>. Call now for Daily details and discounted TWICE/DAILY show packages. 
+<P><BR><A href="/print/images/promotions/Show-Daily_600x800.jpg" target=_blank><IMG height=187 hspace=6 src="/print/images/promotions/Show-Daily_140x187.jpg" width=140 align=left border=1></A><B>Marketing Investment</B><BR>Call for details!<BR><BR><B>Deadlines</B><BR>Ad closing: November 24<BR>Materials due: November 30<BR><BR><BR><BR><BR><BR><BR><A href="/print/images/promotions/Show-Daily_600x800.jpg" target=new>Click for larger image.</A><BR><BR><B>Contacts:</B></P><STRONG>East and Midwest:</STRONG><BR>Toni Ingenito, Account Executive, <I>TWICE</I><BR>Phone: (646) 746-7005<BR>E-mail: <A href="mailto:aingenito@reedbusiness.com">aingenito@reedbusiness.com</A><BR><BR><STRONG>West Coast:</STRONG> Allie Talbott, West Coast Account Executive, <EM>TWICE</EM> Phone: (323) 965-4415 E-mail: <A href="mailto:allie.talbott@reedbusiness.com">allie.talbott@reedbusiness.com</A> &nbsp; Marcia Grand, VP Publisher, <EM>TWICE </EM>Phone: (646) 746-6994 E-mail: <A href="mailto:mgrand@reedbusiness.com">mgrand@reedbusiness.com</A> &nbsp;
+    <br><img src="/print/global_images2005/spacer.gif" width="1" height="5" border="0"><br>[<a href="#">back to top</a>]   
+    </td> 
+</tr><tr><a name="657"></a>
+    <td colspan="5">
+    
+    <img src="/print/global_images2005/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"><br>
+    <img src="/print/global_images2005/2.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"><br>
+    <img src="/print/global_images2005/spacer.gif" alt="" width="1" height="3" hspace="0" vspace="0" border="0"><br>
+</td>
+</tr>
+<tr>
+    <td width="300"><span class="section_title">International CES Show Guide</span></td>
+    <td width="290"><span class="section_title">Call for details!</span></td>
+</tr>
+<tr>
+    <td colspan=3>
+    
+    <br><SPAN style="FONT-FAMILY: ">International CES attendees find the Show Guide to be the most critical tool to navigate the show, conferences and special events.&nbsp;The International CES Show Guide is used throughout the show to provide quick listings, maps and event information for attendees on-the-move. Ask about package ad deals with the CES Official Show Directory and&nbsp;Pre-Show Planner all custom-published by the Consumer Technology Publishing Group (CTPG), publisher of <EM><SPAN style="FONT-FAMILY: ">Dealerscope</SPAN></EM>, <EM><SPAN style="FONT-FAMILY: ">Custom Retailer</SPAN></EM>, <EM><SPAN style="FONT-FAMILY: ">Picture Business</SPAN></EM>, <EM><SPAN style="FONT-FAMILY: ">E-Gear and Home Furnishings Business </SPAN></EM>magazines.</SPAN><BR>&nbsp; <BR><B><A href="/print/images/promotions/ShowGuide_600x800.jpg" target=_blank><IMG height=193 hspace=6 src="/print/images/promotions/ShowGuide_140x193.jpg" width=140 align=left border=1></A>Marketing Investment</B><BR>Call for details!<BR><BR><B>Deadlines</B><BR>Ad closing: November 21 Tab Ad Closing: November 21<BR>Materials due: November 26<BR>Distributed: On-site<BR><BR><BR>&nbsp; <BR>&nbsp; <BR><A href="/print/images/promotions/2k6CES_ShowGuide_lg.jpg" target=_blank><BR><BR>Click for larger image.<BR></A><BR><IMG height=24 src="/print/images/promotions/CTPG_logo.gif" width=150 align=left><BR><BR><STRONG>Contacts</STRONG><BR>Eric Schwartz, President, Consumer Technology Publishing Group (CTPG) <SPAN style="FONT-FAMILY: ">Phone: (215) 238-5420<BR>E-mail: <A href="mailto:eschwartz@napco.com">eschwartz@napco.com</A><BR><BR>Bernard Schneyer<BR>Phone: (508) 620-8770<BR>E-mail: <A href="mailto:tmcbride@napco.com">tmcbride@napco.com</A> <BR><BR>Vicki Manucci, Production Manager-CTPG<BR>Phone: (215) 238-5432<BR>E-mail: <A href="mailto:vmanucci@napco.com">vmanucci@napco.com</A> <A href="mailto:charmon@napco.com"></A><BR><BR>To purchase&nbsp;display advertising, please contact:<BR>Rick Albuck <BR>Phone: (215) 238-5215<BR>E-mail: <A href="mailto:rickalbuck@napco.com">rickalbuck@napco.com</A><BR><BR>Steve Shive<BR>Phone: (215) 238-6674<BR>Email: <A href="mailto:sshive@napco.com">sshive@napco.com</A></SPAN>
+    <br><img src="/print/global_images2005/spacer.gif" width="1" height="5" border="0"><br>[<a href="#">back to top</a>]   
+    </td> 
+</tr>
+</table>
+
+
+<!-- /center content -->
+    <br><br><br>
+    </td>
+    <td width="10" class="exhibitor7"><img src="/print/global_images2005/spacer.gif" height="1" width="10"></td>
+<!-- optional added value -->
+
+<!-- /optional added value -->
+</tr>
+<!-- /main body row -->
+<!--/print/exhibitors/space/default.asp/print/exhibitors/promotions/default.asp/print/exhibitors/resource_center/default.asp/print/exhibitors/pr/default.asp/print/exhibitors/manual/default.asp/print/exhibitors/newsletter/default.asp/print/exhibitors/smartbooth/default.asp-->
+<!--/print/exhibitors/promotions/sponsorships.asp
+
+/print/exhibitors/promotions/onsite.asp
+
+/print/exhibitors/promotions/print.asp
+
+/print/exhibitors/promotions/press.asp
+
+/print/exhibitors/promotions/awards.asp
+
+/print/exhibitors/promotions/mail.asp
+
+/print/exhibitors/promotions/speaking.asp
+
+/print/exhibitors/promotions/events.asp
+
+/print/exhibitors/promotions/free.asp
+
+-->
+</table>
+</body>
+</html>

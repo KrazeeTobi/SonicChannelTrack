@@ -1,0 +1,645 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head><!-- PageID 1661 - published by RedDot 7.5 - 7.5.0.33 - 16244 -->
+
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+
+<!-- INSERT PAGE TITLE HERE (immediately following gblPAGE_TITLE) -->
+<title>2008 International CES:&nbsp;by Speaker</title>
+
+
+
+<META NAME="searchZone" CONTENT="generalCESweb">
+
+<link rel="StyleSheet" href="/global_includes/js/mainMethod.css" type="text/css">
+
+<!-- Browser detection script -->
+    <script src="/global_includes/js/browser_detection.js" type="text/javascript"></script>
+
+<SCRIPT language="javascript1.2">
+    function newWin(urlString,pgNum) {
+        var popupWindow;
+        urlString += "?pageID=" + pgNum;
+        popupWindow = window.open(urlString,"","toolbar=yes,menubar=no,resizable=no,status=no,scrollbars=yes,location=no,directories=no,copyhistory=no,height=550,width=618,left=50,top=50");
+    }  
+ 
+    function openNewWindow(strURL) {
+        window.name = "main";
+        var newWindow = window.open(strURL,"newWindow", "toolbar=no,menubar=no,resizable=no,status=no,scrollbars=yes,location=no,directories=no,copyhistory=no,height=400,width=450,left=50,top=50");
+    }
+
+    // Script for e-mail this page - gets the url of the page the user is on before the e-mail page tool button is clicked
+    function loadReferrer() {
+        referrerString = opener.document.location.href;
+        document.emailForm.page.value = referrerString;
+    }
+</SCRIPT>
+
+<!-- Rollover script (do we still need these?) --> 
+<script language="javascript1.2"> 
+    /* for graphical rollovers */
+   function rollOver(which,name) 
+    {
+    var on="/global_images/1.0/1.0_" + which + "_r.gif";
+    if(document.images) {document.images[which].src=on;}
+    else if (document.GetElementById){document.GetElementById(name).src=on;}
+    }
+   function rollOff(which) 
+    {
+    var on="/global_images/1.0/1.0_" + which + ".gif";
+    if(document.images){document.images[which].src=on;}
+    else if (document.GetElementById){document.GetElementById(which).src=on;}
+    }
+   function introllOver(which,name) 
+    {
+    var on="/global_images/1.0/1.0_" + which + "_r.gif";
+    if(document.images) {document.images[which].src=on;}
+    else if (document.GetElementById){document.GetElementById(name).src=on;}
+    }
+   function introllOff(which) 
+    {
+    var on="/global_images/1.0/1.0_" + which + ".gif";
+    if(document.images){document.images[which].src=on;}
+    else if (document.GetElementById){document.GetElementById(which).src=on;}
+    }
+   function snrollOver(which,name) 
+    {
+    var on="/global_images/1.0/1.0" + which + "_r.gif";
+    if(document.images) {document.images[which].src=on;}
+    else if (document.GetElementById){document.GetElementById(name).src=on;}
+    }
+   function snrollOff(which) 
+    {
+    var on="/global_images/1.0/1.0" + which + ".gif";
+    if(document.images){document.images[which].src=on;}
+    else if (document.GetElementById){document.GetElementById(which).src=on;}
+    }
+        
+    //do we still need this?   
+    function onLoadHandler() {
+       if( typeof(bodyOnLoadFunction) != 'undefined' ) {
+           return eval(bodyOnLoadFunction);
+       }
+    }
+</script>
+
+<script language="javascript">
+    <!--
+    var activeNavId=0;
+    var thisPageUrl='/attendees/conferences/search_by_speaker.asp';
+    
+        var parentLinks=new Array('dummy','/attendees/default.htm','/attendees/conferences/default.asp');
+    
+        function checkActiveNav(theUrl) {
+            var linkUrl=theUrl;
+            var returnValue=false;
+            
+            if (linkUrl==thisPageUrl) {
+                returnValue=true;
+            } else if (parentLinks.length>2 && linkUrl==parentLinks[parentLinks.length-1]) {
+                returnValue=true;   
+            } else if (parentLinks.length>3 && linkUrl==parentLinks[parentLinks.length-2]) {
+                returnValue=true;
+            } else if (parentLinks.length>4 && linkUrl==parentLinks[parentLinks.length-3]) {
+                returnValue=true;
+            }
+        return returnValue;
+    }
+    //-->
+    </script>
+
+    <style>
+        <!--
+            .attendeesBGImg {
+                background-image: url('/global_images2005/attendees_bg.gif');
+            }
+
+            .text_colored, .intro_copy, .section_title, .subhead, .body_title, .intro_dates, .box10 {
+               color: #498429;
+            }
+
+            .search_chars {
+                color: #F0FAE6;
+                font : normal 6px Arial, Helvetica, sans-serif;
+            }
+            
+        //-->
+    </style>
+
+</head>
+
+<body leftmargin='0' topmargin='0' rightmargin='0' bottommargin='0' marginwidth='0' onLoad="onLoadHandler();self.focus();"> 
+
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+    <tr>
+        <td width="50%" valign="top" class="attendeesBGImg">&nbsp;</td>
+        <td valign="top" class="attendeesBGImg">
+            <table width="770" cellspacing="0" cellpadding="0" border="0">
+                <!--RDExecute=asp-->
+<!-- blank 1 pixel row at top of page -->
+<tr>
+     <td width="10"><img src="/global_images2005/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+     <td width="140"><img src="/global_images2005/spacer.gif" alt="" width="140" height="1" hspace="0" vspace="0" border="0"></td>
+     <td width="10"><img src="/global_images2005/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+     <td width="10"><img src="/global_images2005/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+     <td width="380"><img src="/global_images2005/spacer.gif" alt="" width="380" height="1" hspace="0" vspace="0" border="0"></td>
+     <td width="10"><img src="/global_images2005/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+     <td width="10"><img src="/global_images2005/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+     <td width="190"><img src="/global_images2005/spacer.gif" alt="" width="190" height="1" hspace="0" vspace="0" border="0"></td>
+     <td width="10"><img src="/global_images2005/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+</tr>
+<!-- /blank 1 pixel row at top of page -->
+
+<!-- global navigation row - register, about, faqs, contact, and site map -->
+<tr>
+     <td width="10"></td>
+     <td width="140"></td>
+     <td width="10"></td>
+     <td width="10"></td>
+     <td width="600" colspan="5" class="nav_global"><img src="/global_images2005/spacer.gif" width="4" height="20" hspace="0" vspace="0" border="0" align="absmiddle"><img src="/global_images2005/spacer.gif" alt="" width="380" height="1" border="0"> <!-- | <!-- --><a href="/about_ces/default.asp">About CES</a> | <!-- --><a href="/faqs/default.asp">FAQs</a> | <!-- --><a href="/contact_us/default.asp">Contact Us</a> | <!-- --><a href="/sitemap.asp">Site Map</a><!-- --></td>
+</tr>
+<!-- /global navigation row - register, about, faqs, contact, and site map -->
+
+
+<!-- logo and banner image row -->
+
+<tr>
+     <td width="10"></td>
+     <td width="140"><a href="/default.htm"><img src="/global_images2005/logo.gif" alt="International CES" width="140" height="74" hspace="0" vspace="0" border="0"></a></td>
+     <td width="10"></td>
+     <td width="610" colspan="6"><img src="/global_images2005/attTop0.gif" alt="" width="610" height="74" border="0"></td>
+</tr>
+<!-- /logo and banner image row -->  
+
+<!-- primary navigation row -->
+<tr>
+     <td width="10"></td>
+     <td width="140"></td>
+     <td width="10"></td>
+     <td width="610" colspan="6" background="/global_images2005/spacer.gif"><a href="/attendees/default.htm" onmouseover="headerRollOver('tab_attendees', '/global_images2005/1.0_tab_attendees_r.gif');" onmouseout="headerRollOff('tab_attendees', '/global_images2005/1.0_tab_attendees.gif');"><img name="tab_attendees" id="tab_attendees" src="/global_images2005/1.0_tab_attendees.gif" alt="Attendees" width="70" height="27" hspace="0" vspace="0" border="0" ></a><a href="/exhibitors/default.htm" onmouseover="headerRollOver('tab_exhibitor', '/global_images2005/1.0_tab_exhibitor_r.gif');" onmouseout="headerRollOff('tab_exhibitor', '/global_images2005/1.0_tab_exhibitor.gif');"><img name="tab_exhibitor" id="tab_exhibitor" src="/global_images2005/1.0_tab_exhibitor.gif" alt="Exhibitor Services" width="118" height="27" hspace="0" vspace="0" border="0"></a><a href="/press/default.htm" onmouseover="headerRollOver('tab_press', '/global_images2005/1.0_tab_press_r.gif');" onmouseout="headerRollOff('tab_press', '/global_images2005/1.0_tab_press.gif');"><img name="tab_press" id="tab_press" src="/global_images2005/1.0_tab_press.gif" width="78" height="27" alt="Press" border="0"></a><a href="/international/default.htm" onmouseover="headerRollOver('tab_international', '/global_images2005/attIntR0.gif');" onmouseout="headerRollOff('tab_international', '/global_images2005/attInt0.gif');"><img src="/global_images2005/attInt0.gif" width="134" height="27" alt="" border="0" name="tab_international" id="tab_international"></a><img src="/global_images2005/attMiddle4.gif" alt="" width="210" height="27" hspace="0" vspace="0" border="0"></td>
+</tr>
+<!-- /primary navigation row -->
+
+<!-- secondary navigation row -->
+<!-- SEARCH INCLUDE APPEARS HERE -->  
+
+
+<tr>
+    <td width="10"></td>
+    <form name="searchCESWeb" method="GET" action="/search/BDMsearchResults.asp">
+    <td width="760" colspan="10"  background="/global_images2005/spacer.gif"  class="attendees3">
+
+<!-- table for secondary navigation and search box -->
+        <table cellspacing="0" cellpadding="0" border="0" width="760"  background="/global_images2005/spacer.gif" >
+        <tr>
+            <td class="attendees_second_nav" width="560"><!--&nbsp;|&nbsp;&nbsp;<!-- --><span id="secondaryNav14"><a href="/attendees/conferences/default.asp">Conferences</a></span>
+<script>
+<!--
+if (checkActiveNav("/attendees/conferences/default.asp")) {
+    document.getElementById("secondaryNav14").className="attendees_sec_nav_active"
+}
+// -->
+</script>&nbsp;|&nbsp;&nbsp;<!-- --><span id="secondaryNav175"><a href="/attendees/directory/default.asp">Exhibitor Directory</a></span>
+<script>
+<!--
+if (checkActiveNav("/attendees/directory/default.asp")) {
+    document.getElementById("secondaryNav175").className="attendees_sec_nav_active"
+}
+// -->
+</script>&nbsp;|&nbsp;&nbsp;<!-- --><span id="secondaryNav15"><a href="/attendees/show_floor/default.asp">Show Floor</a></span>
+<script>
+<!--
+if (checkActiveNav("/attendees/show_floor/default.asp")) {
+    document.getElementById("secondaryNav15").className="attendees_sec_nav_active"
+}
+// -->
+</script>&nbsp;|&nbsp;&nbsp;<!-- --><span id="secondaryNav1759"><a href="/attendees/special_events/default.asp">Special Events</a></span>
+<script>
+<!--
+if (checkActiveNav("/attendees/special_events/default.asp")) {
+    document.getElementById("secondaryNav1759").className="attendees_sec_nav_active"
+}
+// -->
+</script>&nbsp;|&nbsp;&nbsp;<!-- --><span id="secondaryNav17"><a href="/attendees/awards/default.asp">Awards</a></span>
+<script>
+<!--
+if (checkActiveNav("/attendees/awards/default.asp")) {
+    document.getElementById("secondaryNav17").className="attendees_sec_nav_active"
+}
+// -->
+</script>&nbsp;|&nbsp;&nbsp;<!-- --><span id="secondaryNav18"><a href="/attendees/travel/default.asp">Hotel/Transit</a></span>
+<script>
+<!--
+if (checkActiveNav("/attendees/travel/default.asp")) {
+    document.getElementById("secondaryNav18").className="attendees_sec_nav_active"
+}
+// -->
+</script>&nbsp;|&nbsp;&nbsp;<!-- --><span id="secondaryNav2966"><a href="/attendees/myCES/default.asp">MyCES</a></span>
+<script>
+<!--
+if (checkActiveNav("/attendees/myCES/default.asp")) {
+    document.getElementById("secondaryNav2966").className="attendees_sec_nav_active"
+}
+// -->
+</script><!-- --></td>
+            <td width="173" align="right">
+
+<!-- Script for setting correct search box size -->
+    <script LANGUAGE="JavaScript">
+    <!--
+    if (is_nav4) {
+        document.write("<input size=20 ");
+    } 
+    else if (is_mac) {
+        document.write("<input size=30 ");
+    }
+    else if (is_safari) {
+        document.write("<input size=25 ");
+    }
+    else {
+        document.write("<input size=34 ");
+    }
+    document.write("type=\"text\" name=\"keyword\" value=\" Search CES\" class=\"attendeesform\"  ONFOCUS=\"if(this.value==\' Search CESweb.org\')this.value=\'\'; headerRollOver(\'button_search\', \'/global_images2005/1.0.button_search_r.gif\');\" ONBLUR=\"if(this.value==\'\')this.value=\' Search CESweb.org\'; headerRollOff(\'button_search\', \'/global_images2005/1.0.button_search.gif\');\" >");
+    function checkSearch() {
+        var searchForm = document.searchCESWeb;
+                            
+        if(searchForm.SEARCH_STRING.value.search(/\S/) == -1) {
+            alert("Please enter text to search for.");
+            return;
+        }
+            searchForm.submit();
+        }
+    //-->
+    </script>
+    &nbsp;&nbsp;</td>
+            <td width="27"><img name="button_search"  src="/global_images2005/1.0.button_search.gif" alt="go" width="27" height="33" hspace="0" vspace="0" border="0" onmouseover="headerRollOver('button_search', '/global_images2005/1.0.button_search_r.gif');" onmouseout="headerRollOff('button_search', '/global_images2005/1.0.button_search.gif');" onClick="document.searchCESWeb.submit();"></td>
+        </tr>
+        </table>
+<!-- /table for secondary navigation and search box -->   
+
+    </td>
+                
+        <!--
+        OLD GOOGLE SEARCH VARS
+        <input type="hidden" name="site" value="default_collection"/>
+        <input type="hidden" name="client" value="cesweb_org"/>
+        <input type="hidden" name="proxystylesheet" value="cesweb_org"/>
+        <input type="hidden" name="output" value="xml_no_dtd"/>
+        -->
+
+    </form>
+</tr>
+<!-- /secondary navigation row -->
+
+<script language="JavaScript">
+        <!--
+        function headerRollOver(imgName, imgSrc) {
+            if(document.images) {document.images[imgName].src=imgSrc;}
+            else if (document.getElementById){document.getElementById(imgName).src=imgSrc;}
+        }
+        function headerRollOff(imgName, imgSrc) {
+            if(document.images){document.images[imgName].src=imgSrc;}
+            else if (document.getElementById){document.getElementById(imgName).src=imgSrc;}
+        }
+        //-->
+</script>
+
+<!-- colored row with section color 4 - 5 pixels high --> 
+<tr>
+     <td width="10"></td>
+     <td width="140"></td>
+     <td width="10"></td>
+     <td width="610" colspan="6"  background="/global_images2005/spacer.gif" class="attendees4"><img src="/global_images2005/spacer.gif" alt="" width="610" height="5" hspace="0" vspace="0" border="0"></td>
+</tr>
+<!-- /colored row with section color 4 - 5 pixels high --> 
+  
+<!-- breadcrumb row -->
+<tr>
+    <td width="10"></td>
+    <td width="140"><a href="/register/" onmouseover="headerRollOver('register', '/global_images2005/1.0.register_r.gif');" onmouseout="headerRollOff('register', '/global_images2005/1.0.register.gif');"><img src="/global_images2005/1.0.register.gif" alt="Register" name="register" id="register" width="140" height="40" hspace="0" vspace="0" border="0"></a></td>
+    <td width="10"></td>  
+    <td width="10" background="/global_images2005/spacer.gif" class="attendees6"><img src="/global_images2005/spacer.gif" alt="" width="10" height="40" hspace="0" vspace="0" border="0"></td>
+    <td width="390" colspan="2" background="/global_images2005/spacer.gif" class="attendees6" valign="bottom"><span class="attendees_nav_breadcrumb">
+
+   <a href="/default.htm">Home</a>&nbsp;&gt;&nbsp;<a href="/attendees/default.htm">Attendees</a>&nbsp;&gt;&nbsp;<a href="/attendees/conferences/default.asp">Conferences</a>&nbsp;&gt;&nbsp;by Speaker
+
+    </span><br><img src="/global_images2005/spacer.gif" height="8" width="1"></td>
+    <td width="200" background="/global_images2005/spacer.gif" colspan="2" class="attendees6"><img src="/global_images2005/1.0_print_mail.gif" width="115" height="40" alt="print - email" border="0"><a href="#" id="print_link" onmouseover="headerRollOver('button_print', '/global_images2005/1.0_button_print_r.gif');" onmouseout="headerRollOff('button_print', '/global_images2005/1.0_button_print.gif');" onclick="window.open('/print/attendees/conferences/search_by_speaker.asp?', '_blank', 'status=yes,toolbar=yes,menubar=yes,scrollbars=yes,location=no,width=620');return false;"><img src="/global_images2005/1.0_button_print.gif" alt="Print" name="button_print" id="button_print" width="42" height="40" hspace="0" vspace="0" border="0"></a><a href="javascript:newWin('/global_includes/asp/email.asp');" id="mail_link" onmouseover="headerRollOver('button_mail', '/global_images2005/1.0_button_mail_r.gif');" onmouseout="headerRollOff('button_mail', '/global_images2005/1.0_button_mail.gif');"><img src="/global_images2005/1.0_button_mail.gif" alt="Email" name="button_mail" id="button_mail" width="42" height="40" hspace="0" vspace="0" border="0"></a></td>
+    <td width="10" background="/global_images2005/spacer.gif" class="attendees6">&nbsp;</td>
+</tr>
+<!-- /breadcrumb row --> 
+
+</table>
+<table width="770" cellspacing="0" cellpadding="0" border="0">
+
+<!-- main body row -->
+<tr>
+<!-- left column -->
+    <td width="10" rowspan="2"><img src="/global_images2005/spacer.gif" height="1" width="10"></td>
+    <td width="140" valign="top" rowspan="2"><img src="/global_images2005/spacer.gif" width="140" height="20" alt="" border="0"><br>
+
+<!-- left nav -->    
+    <!-- left nav -->
+        <span class="nav_third">
+
+        <img src="/global_images2005/3nav_bar_gray.gif" alt="--------" width="140" height="1" hspace="0" vspace="0" border="0"><br>
+<img src="/global_images2005/spacer.gif" width="140" height="4" alt="" border="0"><br>
+<a href="/attendees/conferences/keynotes.asp">Keynotes</a><br>
+
+
+
+
+
+    <img src="/global_images2005/spacer.gif" width="140" height="6" alt="" border="0"><br>
+               <script language="JavaScript">
+              <!--
+                  if (checkActiveNav("/attendees/conferences/keynotes.asp") && document.getElementById("fourth_row_container4508")) { document.getElementById("fourth_row_container4508").style.display = "";}
+              //-->
+              </script> <img src="/global_images2005/3nav_bar_gray.gif" alt="--------" width="140" height="1" hspace="0" vspace="0" border="0"><br>
+<img src="/global_images2005/spacer.gif" width="140" height="4" alt="" border="0"><br>
+<a href="/attendees/conferences/insiders.asp">Industry Insider Series</a><br>
+
+
+
+
+
+    <img src="/global_images2005/spacer.gif" width="140" height="6" alt="" border="0"><br>
+               <script language="JavaScript">
+              <!--
+                  if (checkActiveNav("/attendees/conferences/insiders.asp") && document.getElementById("fourth_row_container3627")) { document.getElementById("fourth_row_container3627").style.display = "";}
+              //-->
+              </script> <img src="/global_images2005/3nav_bar_gray.gif" alt="--------" width="140" height="1" hspace="0" vspace="0" border="0"><br>
+<img src="/global_images2005/spacer.gif" width="140" height="4" alt="" border="0"><br>
+<a href="/attendees/conferences/partners.asp">CES Partner Programs</a><br>
+
+
+
+
+
+    <img src="/global_images2005/spacer.gif" width="140" height="6" alt="" border="0"><br>
+               <script language="JavaScript">
+              <!--
+                  if (checkActiveNav("/attendees/conferences/partners.asp") && document.getElementById("fourth_row_container4687")) { document.getElementById("fourth_row_container4687").style.display = "";}
+              //-->
+              </script> <img src="/global_images2005/3nav_bar_gray.gif" alt="--------" width="140" height="1" hspace="0" vspace="0" border="0"><br>
+<img src="/global_images2005/spacer.gif" width="140" height="4" alt="" border="0"><br>
+<a href="/attendees/conferences/knowledge_tracks.asp">CES Knowledge Tracks</a><br>
+
+
+
+
+
+    <img src="/global_images2005/spacer.gif" width="140" height="6" alt="" border="0"><br>
+               <script language="JavaScript">
+              <!--
+                  if (checkActiveNav("/attendees/conferences/knowledge_tracks.asp") && document.getElementById("fourth_row_container4686")) { document.getElementById("fourth_row_container4686").style.display = "";}
+              //-->
+              </script> <img src="/global_images2005/3nav_bar_gray.gif" alt="--------" width="140" height="1" hspace="0" vspace="0" border="0"><br>
+<img src="/global_images2005/spacer.gif" width="140" height="4" alt="" border="0"><br>
+<a href="/attendees/conferences/supersessions.asp">SuperSessions</a><br>
+
+
+
+
+
+    <img src="/global_images2005/spacer.gif" width="140" height="6" alt="" border="0"><br>
+               <script language="JavaScript">
+              <!--
+                  if (checkActiveNav("/attendees/conferences/supersessions.asp") && document.getElementById("fourth_row_container4685")) { document.getElementById("fourth_row_container4685").style.display = "";}
+              //-->
+              </script> <img src="/global_images2005/3nav_bar_gray.gif" alt="--------" width="140" height="1" hspace="0" vspace="0" border="0"><br>
+<img src="/global_images2005/spacer.gif" width="140" height="4" alt="" border="0"><br>
+<a href="/attendees/conferences/search_by_name.asp">Search for Sessions</a><br>
+
+
+    <span class="nav_fourth" id="fourth_row_container4694" style="display: none;">
+    
+        <span class="nav_fourth_arrow"><b>&gt;</b> &nbsp;</span><a href="/attendees/conferences/search_by_track.asp">by Track/Partner Program</a>
+              <script language="JavaScript">
+              <!--
+                  if (checkActiveNav("/attendees/conferences/search_by_track.asp") && document.getElementById("fourth_row_container4694")) { document.getElementById("fourth_row_container4694").style.display = "";}
+              //-->
+              </script><br>
+    
+        <span class="nav_fourth_arrow"><b>&gt;</b> &nbsp;</span><a href="/attendees/conferences/search_by_market.asp">by Market</a>
+              <script language="JavaScript">
+              <!--
+                  if (checkActiveNav("/attendees/conferences/search_by_market.asp") && document.getElementById("fourth_row_container4694")) { document.getElementById("fourth_row_container4694").style.display = "";}
+              //-->
+              </script><br>
+    
+        <span class="nav_fourth_arrow"><b>&gt;</b> &nbsp;</span><a href="/attendees/conferences/search_by_date.asp">by Date</a>
+              <script language="JavaScript">
+              <!--
+                  if (checkActiveNav("/attendees/conferences/search_by_date.asp") && document.getElementById("fourth_row_container4694")) { document.getElementById("fourth_row_container4694").style.display = "";}
+              //-->
+              </script><br>
+    
+        <span class="nav_fourth_arrow"><b>&gt;</b> &nbsp;</span><a href="/attendees/conferences/search_by_time.asp">by Time</a>
+              <script language="JavaScript">
+              <!--
+                  if (checkActiveNav("/attendees/conferences/search_by_time.asp") && document.getElementById("fourth_row_container4694")) { document.getElementById("fourth_row_container4694").style.display = "";}
+              //-->
+              </script><br>
+    
+        <span class="nav_fourth_arrow"><b>&gt;</b> &nbsp;</span><a href="/attendees/conferences/search_by_facility.asp">by Facility</a>
+              <script language="JavaScript">
+              <!--
+                  if (checkActiveNav("/attendees/conferences/search_by_facility.asp") && document.getElementById("fourth_row_container4694")) { document.getElementById("fourth_row_container4694").style.display = "";}
+              //-->
+              </script><br>
+    
+        <span class="nav_fourth_arrow"><b>&gt;</b> &nbsp;</span><script language="JavaScript">
+        <!--
+            document.getElementById("fourth_row_container4694").style.display = "";
+        //-->
+            </script>by Speaker
+        <br>
+    
+    <img src="/global_images2005/spacer.gif" width="140" height="4" alt="" border="0"><br>
+    </span>
+
+
+
+
+    <img src="/global_images2005/spacer.gif" width="140" height="6" alt="" border="0"><br>
+               <script language="JavaScript">
+              <!--
+                  if (checkActiveNav("/attendees/conferences/search_by_name.asp") && document.getElementById("fourth_row_container4694")) { document.getElementById("fourth_row_container4694").style.display = "";}
+              //-->
+              </script> <img src="/global_images2005/3nav_bar_gray.gif" alt="--------" width="140" height="1" hspace="0" vspace="0" border="0"><br>
+<img src="/global_images2005/spacer.gif" width="140" height="4" alt="" border="0"><br>
+<a href="/attendees/conferences/speakers/rd_speaker_form.asp">Call for Speakers</a><br>
+
+
+
+
+
+    <img src="/global_images2005/spacer.gif" width="140" height="6" alt="" border="0"><br>
+               <script language="JavaScript">
+              <!--
+                  if (checkActiveNav("/attendees/conferences/speakers/rd_speaker_form.asp") && document.getElementById("fourth_row_container3188")) { document.getElementById("fourth_row_container3188").style.display = "";}
+              //-->
+              </script> <img src="/global_images2005/3nav_bar_gray.gif" alt="--------" width="140" height="1" hspace="0" vspace="0" border="0"><br>
+<img src="/global_images2005/spacer.gif" width="140" height="4" alt="" border="0"><br>
+<a href="/attendees/conferences/FAQs.asp">Call for Speakers FAQs</a><br>
+
+
+
+
+
+    <img src="/global_images2005/spacer.gif" width="140" height="6" alt="" border="0"><br>
+               <script language="JavaScript">
+              <!--
+                  if (checkActiveNav("/attendees/conferences/FAQs.asp") && document.getElementById("fourth_row_container4325")) { document.getElementById("fourth_row_container4325").style.display = "";}
+              //-->
+              </script> <img src="/global_images2005/3nav_bar_gray.gif" alt="--------" width="140" height="1" hspace="0" vspace="0" border="0"><br>
+<img src="/global_images2005/spacer.gif" width="140" height="4" alt="" border="0"><br>
+<a href="/attendees/conferences/speakers/speaker_services.asp">Speaker Services</a><br>
+
+
+
+
+
+    <img src="/global_images2005/spacer.gif" width="140" height="6" alt="" border="0"><br>
+               <script language="JavaScript">
+              <!--
+                  if (checkActiveNav("/attendees/conferences/speakers/speaker_services.asp") && document.getElementById("fourth_row_container60")) { document.getElementById("fourth_row_container60").style.display = "";}
+              //-->
+              </script> 
+        <img src="/global_images2005/3nav_bar_gray.gif" alt="--------" width="140" height="1" hspace="0" vspace="0" border="0"><br>
+
+        <img src="/global_images2005/spacer.gif" width="140" height="28" alt="" border="0"><br>
+        </span>
+<!-- /left nav -->
+<!-- /left nav --> 
+
+<!-- CEA badge -->
+    <a href="http://www.ce.org" target="new" onmouseover="headerRollOver('leftAddedValue1661', '/global_images2005/1.0_logo_cea_r.gif');" onmouseout="headerRollOff('leftAddedValue1661', '/global_images2005/1.0_logo_cea.gif');"><img src="/global_images2005/1.0_logo_cea.gif" name="leftAddedValue1661" id="leftAddedValue1661" border="0"></a><br><img src="/global_images2005/spacer.gif" height="10" width="1">
+<!-- /CEA badge -->
+
+<!-- myCES banner 
+          <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="140" height="260">
+          <param name="movie" value="/global_includes/flash/myces-banner-att.swf">
+          <param name="quality" value="high">
+          <embed src="/global_includes/flash/myces-banner-att.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="140" height="260"></embed>
+        </object><br><img src="/global_images2005/spacer.gif" height="10" width="1">
+    /myCES banner -->
+
+<!-- left added value -->
+    
+    
+<!-- /left added value -->
+
+    </td>
+    <td width="10" rowspan="2"><img src="/global_images2005/spacer.gif" height="1" width="10"></td>
+<!-- /left column -->
+
+
+
+<!-- main body content -->    
+    <td width="10" class="attendees7"><img src="/global_images2005/spacer.gif" height="1" width="10"></td>
+    <td width="100%" class="attendees7" valign="top">
+    <img src="/global_images2005/spacer.gif" height="10" width="1"><br>
+
+<!-- center content -->
+
+
+<div class="body_title">Search the 2008 International CES Conference Program<br><img src="/global_images2005/spacer.gif" height="16" width="1"></div>
+
+
+<SCRIPT language="javascript1.2">
+function newWin(urlString,pgNum)
+  {
+    var popupWindow;
+	urlString += "?pageID=" + pgNum;
+	
+    popupWindow = window.open(urlString,"","toolbar=yes,menubar=no,resizable=no,status=no,scrollbars=yes,location=no,directories=no,copyhistory=no,height=550,width=610,left=50,top=50");
+  }//  function for opening a new pop-up window for printing a page
+  
+ 
+function openNewWindow(strURL) {
+	window.name = "main";
+	
+	var newWindow = window.open(strURL,"newWindow", "toolbar=no,menubar=no,resizable=no,status=no,scrollbars=yes,location=no,directories=no,copyhistory=no,height=400,width=450,left=50,top=50");
+} //  function for opening a new pop-up window
+
+// javascript for e-mail this page tool - gets the url of the page the user is on before the e-mail page tool button is clicked
+	
+	function loadReferrer() {
+		referrerString = opener.document.location.href;
+		document.emailForm.page.value = referrerString;
+	}
+
+</SCRIPT>
+<div>
+<form action="/attendees/conferences/search/session_by_speaker_list.asp" method=post><table cellpadding=3 cellspacing=1 border=0><tr><td><span class='subhead'>Choose a speaker from the drop-down list.</span></td></tr><tr height=7><td></td></tr><tr><td colspan=1><select class=formdata name=ID_speaker><option value=0>Choose a Speaker&nbsp;&nbsp;<option value=B839153>Ablondi, Bill<option value=R259350>Ackerman, Ralph<option value=J150997>Askin, Jonathan<option value=S367321>Ayers Walker, Susan<option value=B892635>Ayvazian, Berge<option value=S741222>Bahneman, Scott<option value=TIM909962>Bajarin, Tim<option value=S647503>Baker, Stephen<option value=A11532>Bamigboye, Ade<option value=D82561>Baral, Ph.D., Debasis<option value=G71102>Barrall, Geoff<option value=J857036>Barrett, John<option value=C998531>Beales, Char<option value=S370433>Benedetto, Sandra<option value=B864360>Bergeron, Bryan<option value=I881496>Blaine, Ian<option value=R206386>Block, Ryan<option value=H903255>Blount, Harry<option value=P618053>Bocko, Peter L.<option value=J155437>Bottoms, Jim <option value=T807338>Bourquin, Tim <option value=T521557>Bova, Tiffani<option value=H126384>Brelsford, Harry<option value=M395412>Brezette, Michael<option value=W444851>Buckleitner Ph.D, Warren<option value=A623607>Buckner, Allen<option value=J237056>Buczkowski, James<option value=R792583>Bullwinkle, Richard<option value=C230251>Byrne, Chris<option value=A481380>Cahn, Alice<option value=Y981975>Cai, Michael<option value=R670681>Caldiera, Rob<option value=F164562>Cannon, Fred<option value=M734356>Canter, Marc<option value=S717510>Captain, Sean<option value=B207836>Caskey, Brian<option value=P190441>Castellana, Paul<option value=M130260>Cecil, Mark<option value=K859005>Chander, Krishna<option value=H781017>Chiarelli, Henry<option value=C199459>Chinnock, Chris<option value=J991054>Cicconi, Jim<option value=J970775>Cobb, Jonathan<option value=J394802>Collegio, Jonathan<option value=C172161>Cook, Chris<option value=B480541>Cooley, Brian<option value=T222255>Coughlin, Tom<option value=J670894>Coulton, Jonathan<option value=S92296>Cowen, Stephen<option value=C742687>Crotty, Chris <option value=J490444>Dada, Joe<option value=J997829>Dahl, John<option value=R967098>Danese, Robert<option value=SOL726348>Daniels, Solomon<option value=P548183>Dawes, Paul<option value=T380764>Deal, Timothy<option value=A79708>Desai, Amit<option value=D279308>Devlin, Dory <option value=T551647>Doyle, Tracey<option value=S981121>DuBravac, Shawn<option value=R954296>Dueber, Ross E.<option value=B314113>Ekus, Bryan<option value=J954540>Elliot, Jim<option value=B651714>Erez, Ph. D., Beth<option value=G56163>Finley, Guy<option value=K957912>Fisher, Kenneth <option value=C591488>Floch, Claude<option value=A429851>Frame, Andrew<option value=G561031>Frantz, Gene<option value=C401775>Galvin, Cecilia<option value=T355571>Garnett, Terry <option value=B22335>Gates, Bill<option value=S223262>Giordano Sr., Stephen<option value=A453029>Goodstein, Anastasia<option value=D892269>Gosen, David<option value=B142254>Greene, Bob<option value=A490596>Greengart, Avi<option value=B650280>Grimes, Brad<option value=K191188>Grimsrud, Knut<option value=J727138>Grossman, Jerry <option value=L156536>Guernsey, Lisa<option value=K391781>Hamai, Kiyoshi<option value=D142467>Hanchette, Dave<option value=J841137>Handy, Jim<option value=D826091>Hanson, David<option value=JON512681>Healey, Jon<option value=M87658>Heiss, Michael<option value=S850032>Hellmuth, Stephen<option value=J130031>Hirschhorn, Jason<option value=W591228>Hubis, Walt<option value=G107937>Hughes, Gina<option value=B121395>Hurt, Brett<option value=S172527>Hussain, Sajjad<option value=J802089>Iasiuolo, John<option value=D553081>Israelite, David M.<option value=B84896>Jacobs, Brian<option value=X379390>Jardin, Xeni<option value=D123607>Jones, Don<option value=R880748>Jorgensen, Rich<option value=K715740>Kaplan, Katharine<option value=K730999>Kaplowitz, Karen<option value=D869381>Kara, Dan <option value=M59353>Kim, Mia<option value=S533779>King Hoge, Sharon<option value=B260051>Kirkorian, Blake<option value=M420177>Koclanes, Mike<option value=J157299>Kridner, Jason<option value=N107647>Kunkel, Nelson<option value=L170147>Ladid, Latif<option value=M597759>Lafferty, Marty<option value=M439388>Landiak, Mark<option value=D981105>LaPlante, David<option value=D478115>Larson, Don<option value=R837520>Lee, Roger <option value=D625728>Leibowitz, David<option value=P327388>Levensohn, Pascal<option value=D445446>Levitas, Danielle<option value=E405239>Lindsay, Ellis<option value=A31017>Lipton, Andrea<option value=C184734>Macnab, Colin<option value=A142299>Marken, Andy<option value=J785595>Martin, Joshua<option value=W184917>Mattingly, William<option value=G344204>Matuszak, Gary<option value=C743297>Maxwell, Conrad<option value=T642894>McBride, Terry<option value=J133068>McCrea, Jeffery<option value=R80242>McKernan, Rob<option value=J874233>McLellan, Jay<option value=M672512>McRae, Matt<option value=J235393>Miller, Jeb<option value=P978237>Monaghan, Patrick<option value=G172008>Monty, Greg<option value=L441707>Murphy, Liz<option value=G564907>Niven, Greg<option value=C863475>Null, Christopher<option value=J413402>O'Heir, Jeff<option value=B781368>O'Malley, Bob<option value=S502681>Oh, Sang-Rok<option value=P245327>Otellini, Paul S.<option value=J561840>Oxman, Jason<option value=P80028>Palmieri, Paul<option value=N49923>Parker, Nash<option value=J421489>Pastoriza, Jim<option value=B505016>Patterson, Ben<option value=T769603>Patterson, Thomas<option value=R410625>Pegoraro, Rob<option value=M635723>Perenson, Melissa<option value=B876171>Peterson, Boyd<option value=J368023>Peterson, Josh<option value=P756054>Pirjanian, Paolo<option value=G355053>Poilasne, Gregory<option value=J680935>Porter, Jim<option value=J684505>Potter, Jonathan <option value=J63030>Purdy, Ph.D., J. Gerry<option value=K86773>Purmal, Kate<option value=S381099>Rago, Steve<option value=D952480>Rainey, Don<option value=R26500>Raskin, Robin<option value=J35228>Reister, John<option value=R700084>Renjilian, Ron<option value=A476543>Restivo, Andy<option value=B280391>Roberts, Brian L.<option value=A272289>Rosenthal, Avi<option value=W844478>Rothman, Wilson<option value=N311794>Routhier, Nicholas<option value=R226726>Rubin, Ross<option value=J212429>Rydning, John<option value=T510967>Sakamoto, Toshihiro <option value=B428920>Sathianathan, Brian <option value=J851436>Schaeffler, Jimmy<option value=L968914>Schafman, Limor<option value=C948665>Schairbaum, Chris<option value=D304378>Scheinman, Dan<option value=K482341>Scherf, Kurt<option value=G573269>Scherini, Gianfranco<option value=W184810>Schlichting, Wolfgang<option value=S964351>Schoffstall, Stephen<option value=A629131>Schwab, Ambassador Susan C.<option value=B837734>Scolnik, Betsy<option value=M876476>Seamons, Mike<option value=T549083>Sesow, Timothy<option value=G709194>Shapiro, Gary<option value=M464443>Siggins, Michael<option value=J305660>Simpson, Jennifer<option value=J961483>Singer, Jonathan<option value=M737163>Slatalla, Michelle<option value=C321361>Smith, Clyde<option value=D200573>Smith, Douglas<option value=G998333>Sohn, Gigi <option value=Y138988>Solomon, Yoram<option value=A818996>Sorenson, Arlin<option value=S713054>Sreenivasan, Sree<option value=S445202>Srinivas, Singu<option value=R781582>Stear, Rory<option value=L251980>Stevens, Leslie<option value=C819317>Stjernfeldt, Carl<option value=R207927>Stoddard, Rob<option value=E7656>Stromquist, Erik<option value=D26012>Sufer, Davin<option value=J205211>Symons, Jeanette<option value=D762096>Takahashi, Dean<option value=R576900>Tarasoff, Ron<option value=B470195>Taylor, Brian<option value=J189403>Taylor, Jim<option value=R235515>Thibadeau, Robert<option value=R899303>Thomas, Rick <option value=I214016>Trashanski, Iri<option value=T715526>Trower, Tandy<option value=P314129>Turner, Paul<option value=E772030>Van Buskirk, Eliot<option value=R718212>Viswanathan, Sriram<option value=F379924>Von Lohmann, Fred<option value=C941890>Wagner, Chris<option value=R283992>Wagoner, Rick<option value=C5016>Wallace, Charlie<option value=H264721>Wang, Harry<option value=R754528>Waters, Richard<option value=B564235>Weinberger, Ben<option value=M332027>Wexler, Michael<option value=RHO275169>Wickham, Rhonda<option value=S463756>Wienbar, Sharon<option value=K102962>Wiens, Kyle<option value=R284694>Wilcox, Russell J. <option value=T735881>Wilhelm, Tony<option value=S66768>Wilkinson, Scott<option value=M121990>Wood, Maury<option value=S616451>Wood, Stephen<option value=S421184>Wright, Scott<option value=J99254>Yoshida, Junko<option value=A945949>Ziogas, Alexander</select>&nbsp;&nbsp;&nbsp;<input class=formdata type=submit value="Go"></td></tr></table></form>
+<!--
+<br>
+<img src="/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+<img src="/global_images2005/1.0/1.0.line.gif" alt="-----------------------------------------------" width="100%" height="2" hspace="0" vspace="0" border="0"><br>
+<img src="/global_images2005/spacer.gif" alt="" width="1" height="3" hspace="0" vspace="0" border="0"><br>
+<span class="subhead">Conference Schedule At-A-Glance</span><br>
+<a href="/attendees/conferences/2005Conf_ataglance.pdf" target="new">Download and print a comprehensive schedule (pdf)</a> of the 2005 International CES Conference Program.
+<br><br>
+<a href="/attendees/conferences/2005Conf_ataglance.pdf" target="new"><img src="/attendees/conferences/images/2005Conf_ataglance.jpg" border="0"></a>
+</div>
+-->
+
+
+
+<!-- /center content -->
+    <br><br><br>
+    </td>
+    <td width="10" class="attendees7"><img src="/global_images2005/spacer.gif" height="1" width="10"></td>
+
+<!-- optional added value -->
+
+<!-- /optional added value -->
+
+</tr>
+<!-- /main body row -->
+
+<!-- shaded row above footer -->
+<tr>
+<td colspan=3 bgcolor="#CFD7C6"><img src="/global_images2005/spacer.gif" width="1" height="10"></td>
+
+</tr>
+<!-- /shaded row above footer -->
+
+</table>
+<table width="770" cellspacing="0" cellpadding="0" border="0">
+            <tr>
+     <td width="10"></td>
+     <td width="140"></td>
+     <td width="10"></td>
+     <td width="10" class="footer"><img src="/global_images2005/footer_left.gif" alt="(" width="10" height="30" hspace="0" vspace="0" border="0"></td>
+     <td width="380" background="/global_images2005/footer_bg.gif" class="footer"><span class="nav_footer"><a href="/about_ces/default.asp">About CES</a> | <a href="/faqs/default.asp">FAQs</a> | <a href="/contact_us/default.asp">Contact Us</a> | <a href="/sitemap.asp">Site Map</a> | <a href="/privacy_policy.asp">Privacy Policy</a> | <a href="/rd_vendors.asp">Vendors</a></span></td>
+     <td width="210" colspan="3" align="right" background="/global_images2005/footer_bg.gif" class="footer"><span class="nav_footer"> &#169; 2003-2007 CEA, All rights reserved</span></td>
+     <td width="10" class="footer"><img src="/global_images2005/footer_right.gif" alt=")" width="10" height="30" hspace="0" vspace="0" border="0"></td>
+</tr>   
+            </table>
+            <img src="/global_images2005/spacer.gif" alt="" width="1" height="20" hspace="0" vspace="0" border="0"">
+        </td>
+        <td width="50%" valign="top" class="attendeesBGImg">&nbsp;</td>
+    </tr>
+</table>
+
+
+<!-- IndexTools Customization Code -->
+<!-- Remove leading // to activate custom variables -->
+<script language="Javascript">
+var DOCUMENTGROUP='Attendees';
+//var DOCUMENTNAME='';
+//var ACTION='';
+</script>
+<!-- End of Customization Code -->
+<!-- IndexTools Code v4.00 - All rights reserved -->
+<script language="javascript1.1" src="http://www.CESweb.org/indextools.js"></script><noscript>
+<img src="http://stats.indextools.com/p.pl?a=1000217290027&js=no" width="1" height="1"></noscript><!--//-->
+<!-- End of IndexTools Code -->
+
+ 
+</body>
+</html>

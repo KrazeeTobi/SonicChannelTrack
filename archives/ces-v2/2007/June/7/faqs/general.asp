@@ -1,0 +1,1601 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head><!-- PageID 1166 - published by RedDot 7.5 - 7.5.0.33 - 16244 -->
+
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+
+<!-- INSERT PAGE TITLE HERE (immediately following gblPAGE_TITLE) -->
+<title>2008 International CES:&nbsp;General FAQs</title>
+
+
+
+<META NAME="searchZone" CONTENT="generalCESweb">
+
+<link rel="StyleSheet" href="/global_includes/js/mainMethod.css" type="text/css">
+
+<!-- Browser detection script -->
+    <script src="/global_includes/js/browser_detection.js" type="text/javascript"></script>
+
+<SCRIPT language="javascript1.2">
+    function newWin(urlString,pgNum) {
+        var popupWindow;
+        urlString += "?pageID=" + pgNum;
+        popupWindow = window.open(urlString,"","toolbar=yes,menubar=no,resizable=no,status=no,scrollbars=yes,location=no,directories=no,copyhistory=no,height=550,width=618,left=50,top=50");
+    }  
+ 
+    function openNewWindow(strURL) {
+        window.name = "main";
+        var newWindow = window.open(strURL,"newWindow", "toolbar=no,menubar=no,resizable=no,status=no,scrollbars=yes,location=no,directories=no,copyhistory=no,height=400,width=450,left=50,top=50");
+    }
+
+    // Script for e-mail this page - gets the url of the page the user is on before the e-mail page tool button is clicked
+    function loadReferrer() {
+        referrerString = opener.document.location.href;
+        document.emailForm.page.value = referrerString;
+    }
+</SCRIPT>
+
+<!-- Rollover script (do we still need these?) --> 
+<script language="javascript1.2"> 
+    /* for graphical rollovers */
+   function rollOver(which,name) 
+    {
+    var on="/global_images/1.0/1.0_" + which + "_r.gif";
+    if(document.images) {document.images[which].src=on;}
+    else if (document.GetElementById){document.GetElementById(name).src=on;}
+    }
+   function rollOff(which) 
+    {
+    var on="/global_images/1.0/1.0_" + which + ".gif";
+    if(document.images){document.images[which].src=on;}
+    else if (document.GetElementById){document.GetElementById(which).src=on;}
+    }
+   function introllOver(which,name) 
+    {
+    var on="/global_images/1.0/1.0_" + which + "_r.gif";
+    if(document.images) {document.images[which].src=on;}
+    else if (document.GetElementById){document.GetElementById(name).src=on;}
+    }
+   function introllOff(which) 
+    {
+    var on="/global_images/1.0/1.0_" + which + ".gif";
+    if(document.images){document.images[which].src=on;}
+    else if (document.GetElementById){document.GetElementById(which).src=on;}
+    }
+   function snrollOver(which,name) 
+    {
+    var on="/global_images/1.0/1.0" + which + "_r.gif";
+    if(document.images) {document.images[which].src=on;}
+    else if (document.GetElementById){document.GetElementById(name).src=on;}
+    }
+   function snrollOff(which) 
+    {
+    var on="/global_images/1.0/1.0" + which + ".gif";
+    if(document.images){document.images[which].src=on;}
+    else if (document.GetElementById){document.GetElementById(which).src=on;}
+    }
+        
+    //do we still need this?   
+    function onLoadHandler() {
+       if( typeof(bodyOnLoadFunction) != 'undefined' ) {
+           return eval(bodyOnLoadFunction);
+       }
+    }
+</script>
+
+<script language="javascript">
+    <!--
+    var activeNavId=0;
+    var thisPageUrl='/faqs/general.asp';
+    
+        var parentLinks=new Array('dummy','/faqs/default.asp');
+    
+        function checkActiveNav(theUrl) {
+            var linkUrl=theUrl;
+            var returnValue=false;
+            
+            if (linkUrl==thisPageUrl) {
+                returnValue=true;
+            } else if (parentLinks.length>2 && linkUrl==parentLinks[parentLinks.length-1]) {
+                returnValue=true;   
+            } else if (parentLinks.length>3 && linkUrl==parentLinks[parentLinks.length-2]) {
+                returnValue=true;
+            } else if (parentLinks.length>4 && linkUrl==parentLinks[parentLinks.length-3]) {
+                returnValue=true;
+            }
+        return returnValue;
+    }
+    //-->
+    </script>
+
+    <style>
+        <!--
+            .attendeesBGImg {
+                background-image: url('/global_images2005/attendees_bg.gif');
+            }
+
+            .text_colored, .intro_copy, .section_title, .subhead, .body_title, .intro_dates, .box10 {
+               color: #498429;
+            }
+
+            .search_chars {
+                color: #F0FAE6;
+                font : normal 6px Arial, Helvetica, sans-serif;
+            }
+            
+        //-->
+    </style>
+
+</head>
+
+<body leftmargin='0' topmargin='0' rightmargin='0' bottommargin='0' marginwidth='0' onLoad="onLoadHandler();self.focus();"> 
+
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+    <tr>
+        <td width="50%" valign="top" class="attendeesBGImg">&nbsp;</td>
+        <td valign="top" class="attendeesBGImg">
+            <table width="770" cellspacing="0" cellpadding="0" border="0">
+                <!--RDExecute=asp-->
+<!-- blank 1 pixel row at top of page -->
+<tr>
+     <td width="10"><img src="/global_images2005/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+     <td width="140"><img src="/global_images2005/spacer.gif" alt="" width="140" height="1" hspace="0" vspace="0" border="0"></td>
+     <td width="10"><img src="/global_images2005/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+     <td width="10"><img src="/global_images2005/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+     <td width="380"><img src="/global_images2005/spacer.gif" alt="" width="380" height="1" hspace="0" vspace="0" border="0"></td>
+     <td width="10"><img src="/global_images2005/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+     <td width="10"><img src="/global_images2005/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+     <td width="190"><img src="/global_images2005/spacer.gif" alt="" width="190" height="1" hspace="0" vspace="0" border="0"></td>
+     <td width="10"><img src="/global_images2005/spacer.gif" alt="" width="10" height="1" hspace="0" vspace="0" border="0"></td>
+</tr>
+<!-- /blank 1 pixel row at top of page -->
+
+<!-- global navigation row - register, about, faqs, contact, and site map -->
+<tr>
+     <td width="10"></td>
+     <td width="140"></td>
+     <td width="10"></td>
+     <td width="10"></td>
+     <td width="600" colspan="5" class="nav_global"><img src="/global_images2005/spacer.gif" width="4" height="20" hspace="0" vspace="0" border="0" align="absmiddle"><img src="/global_images2005/spacer.gif" alt="" width="380" height="1" border="0"> <!-- | <!-- --><a href="/about_ces/default.asp">About CES</a> | <!-- --><a href="/faqs/default.asp">FAQs</a> | <!-- --><a href="/contact_us/default.asp">Contact Us</a> | <!-- --><a href="/sitemap.asp">Site Map</a><!-- --></td>
+</tr>
+<!-- /global navigation row - register, about, faqs, contact, and site map -->
+
+
+<!-- logo and banner image row -->
+
+<tr>
+     <td width="10"></td>
+     <td width="140"><a href="/default.htm"><img src="/global_images2005/logo.gif" alt="International CES" width="140" height="74" hspace="0" vspace="0" border="0"></a></td>
+     <td width="10"></td>
+     <td width="610" colspan="6"><img src="/global_images2005/attTop1.gif" alt="" width="610" height="74" border="0"></td>
+</tr>
+<!-- /logo and banner image row -->  
+
+<!-- primary navigation row -->
+<tr>
+     <td width="10"></td>
+     <td width="140"></td>
+     <td width="10"></td>
+     <td width="610" colspan="6" background="/global_images2005/spacer.gif"><a href="/attendees/default.htm" onmouseover="headerRollOver('tab_attendees', '/global_images2005/0.0_tab_attendees_r.gif');" onmouseout="headerRollOff('tab_attendees', '/global_images2005/0.0_tab_attendees.gif');"><img name="tab_attendees" id="tab_attendees" src="/global_images2005/0.0_tab_attendees.gif" alt="Attendees" width="70" height="27" hspace="0" vspace="0" border="0" ></a><a href="/exhibitors/default.htm" onmouseover="headerRollOver('tab_exhibitor', '/global_images2005/1.0_tab_exhibitor_r.gif');" onmouseout="headerRollOff('tab_exhibitor', '/global_images2005/1.0_tab_exhibitor.gif');"><img name="tab_exhibitor" id="tab_exhibitor" src="/global_images2005/1.0_tab_exhibitor.gif" alt="Exhibitor Services" width="118" height="27" hspace="0" vspace="0" border="0"></a><a href="/press/default.htm" onmouseover="headerRollOver('tab_press', '/global_images2005/1.0_tab_press_r.gif');" onmouseout="headerRollOff('tab_press', '/global_images2005/1.0_tab_press.gif');"><img name="tab_press" id="tab_press" src="/global_images2005/1.0_tab_press.gif" width="78" height="27" alt="Press" border="0"></a><a href="/international/default.htm" onmouseover="headerRollOver('tab_international', '/global_images2005/attIntR0.gif');" onmouseout="headerRollOff('tab_international', '/global_images2005/attInt0.gif');"><img src="/global_images2005/attInt0.gif" width="134" height="27" alt="" border="0" name="tab_international" id="tab_international"></a><img src="/global_images2005/attMiddle0.gif" alt="" width="210" height="27" hspace="0" vspace="0" border="0"></td>
+</tr>
+<!-- /primary navigation row -->
+
+<!-- secondary navigation row -->
+<!-- SEARCH INCLUDE APPEARS HERE -->  
+
+
+<tr>
+    <td width="10"></td>
+    <form name="searchCESWeb" method="GET" action="http://googlebox.ce.org/search">
+    <td width="760" colspan="10"  background="/global_images2005/spacer.gif"  class="attendees3">
+
+<!-- table for secondary navigation and search box -->
+        <table cellspacing="0" cellpadding="0" border="0" width="760"  background="/global_images2005/spacer.gif" >
+        <tr>
+            <td class="attendees_second_nav" width="560"><!--<!-- --></td>
+            <td width="173" align="right">
+
+<!-- Script for setting correct search box size -->
+    <script LANGUAGE="JavaScript">
+    <!--
+    if (is_nav4) {
+        document.write("<input size=20 ");
+    } 
+    else if (is_mac) {
+        document.write("<input size=30 ");
+    }
+    else if (is_safari) {
+        document.write("<input size=25 ");
+    }
+    else {
+        document.write("<input size=34 ");
+    }
+    document.write("type=\"text\" name=\"q\" value=\" Search CESweb.org\" class=\"attendeesform\"  ONFOCUS=\"if(this.value==\' Search CESweb.org\')this.value=\'\'; headerRollOver(\'button_search\', \'/global_images2005/1.0.button_search_r.gif\');\" ONBLUR=\"if(this.value==\'\')this.value=\' Search CESweb.org\'; headerRollOff(\'button_search\', \'/global_images2005/1.0.button_search.gif\');\" >");
+    function checkSearch() {
+        var searchForm = document.searchCESWeb;
+                            
+        if(searchForm.SEARCH_STRING.value.search(/\S/) == -1) {
+            alert("Please enter text to search for.");
+            return;
+        }
+            searchForm.submit();
+        }
+    //-->
+    </script>
+    &nbsp;&nbsp;</td>
+            <td width="27"><img name="button_search"  src="/global_images2005/1.0.button_search.gif" alt="go" width="27" height="33" hspace="0" vspace="0" border="0" onmouseover="headerRollOver('button_search', '/global_images2005/1.0.button_search_r.gif');" onmouseout="headerRollOff('button_search', '/global_images2005/1.0.button_search.gif');" onClick="document.searchCESWeb.submit();"></td>
+        </tr>
+        </table>
+<!-- /table for secondary navigation and search box -->   
+
+    </td>
+        <input type="hidden" name="site" value="default_collection"/>
+        <input type="hidden" name="client" value="cesweb_org"/>
+        <input type="hidden" name="proxystylesheet" value="cesweb_org"/>
+        <input type="hidden" name="output" value="xml_no_dtd"/>
+    </form>
+</tr>
+<!-- /secondary navigation row -->
+
+<script language="JavaScript">
+        <!--
+        function headerRollOver(imgName, imgSrc) {
+            if(document.images) {document.images[imgName].src=imgSrc;}
+            else if (document.getElementById){document.getElementById(imgName).src=imgSrc;}
+        }
+        function headerRollOff(imgName, imgSrc) {
+            if(document.images){document.images[imgName].src=imgSrc;}
+            else if (document.getElementById){document.getElementById(imgName).src=imgSrc;}
+        }
+        //-->
+</script>
+
+<!-- colored row with section color 4 - 5 pixels high --> 
+<tr>
+     <td width="10"></td>
+     <td width="140"></td>
+     <td width="10"></td>
+     <td width="610" colspan="6"  background="/global_images2005/spacer.gif" class="attendees4"><img src="/global_images2005/spacer.gif" alt="" width="610" height="5" hspace="0" vspace="0" border="0"></td>
+</tr>
+<!-- /colored row with section color 4 - 5 pixels high --> 
+  
+<!-- breadcrumb row -->
+<tr>
+    <td width="10"></td>
+    <td width="140"><a href="/register/" onmouseover="headerRollOver('register', '/global_images2005/1.0.register_r.gif');" onmouseout="headerRollOff('register', '/global_images2005/1.0.register.gif');"><img src="/global_images2005/1.0.register.gif" alt="Register" name="register" id="register" width="140" height="40" hspace="0" vspace="0" border="0"></a></td>
+    <td width="10"></td>  
+    <td width="10" background="/global_images2005/spacer.gif" class="attendees6"><img src="/global_images2005/spacer.gif" alt="" width="10" height="40" hspace="0" vspace="0" border="0"></td>
+    <td width="390" colspan="2" background="/global_images2005/spacer.gif" class="attendees6" valign="bottom"><span class="attendees_nav_breadcrumb">
+
+   <a href="/default.htm">Home</a>&nbsp;&gt;&nbsp;<a href="/faqs/default.asp">FAQs</a>&nbsp;&gt;&nbsp;General FAQs
+
+    </span><br><img src="/global_images2005/spacer.gif" height="8" width="1"></td>
+    <td width="200" background="/global_images2005/spacer.gif" colspan="2" class="attendees6"><img src="/global_images2005/1.0_print_mail.gif" width="115" height="40" alt="print - email" border="0"><a href="#" id="print_link" onmouseover="headerRollOver('button_print', '/global_images2005/1.0_button_print_r.gif');" onmouseout="headerRollOff('button_print', '/global_images2005/1.0_button_print.gif');" onclick="window.open('/print/faqs/general.asp?', '_blank', 'status=yes,toolbar=yes,menubar=yes,scrollbars=yes,location=no,width=620');return false;"><img src="/global_images2005/1.0_button_print.gif" alt="Print" name="button_print" id="button_print" width="42" height="40" hspace="0" vspace="0" border="0"></a><a href="javascript:newWin('/global_includes/asp/email.asp');" id="mail_link" onmouseover="headerRollOver('button_mail', '/global_images2005/1.0_button_mail_r.gif');" onmouseout="headerRollOff('button_mail', '/global_images2005/1.0_button_mail.gif');"><img src="/global_images2005/1.0_button_mail.gif" alt="Email" name="button_mail" id="button_mail" width="42" height="40" hspace="0" vspace="0" border="0"></a></td>
+    <td width="10" background="/global_images2005/spacer.gif" class="attendees6">&nbsp;</td>
+</tr>
+<!-- /breadcrumb row --> 
+
+</table>
+<table width="770" cellspacing="0" cellpadding="0" border="0">
+
+<!-- main body row -->
+<tr>
+<!-- left column -->
+    <td width="10" rowspan="2"><img src="/global_images2005/spacer.gif" height="1" width="10"></td>
+    <td width="140" valign="top" rowspan="2"><img src="/global_images2005/spacer.gif" width="140" height="20" alt="" border="0"><br>
+
+<!-- left nav -->    
+    <!-- left nav -->
+        <span class="nav_third">
+
+        <img src="/global_images2005/3nav_bar_gray.gif" alt="--------" width="140" height="1" hspace="0" vspace="0" border="0"><br>
+<img src="/global_images2005/spacer.gif" width="140" height="4" alt="" border="0"><br>
+General FAQs<br>
+
+
+
+
+    <script language="JavaScript">
+        <!--
+            if (document.getElementById("fourth_row_container1165")) { document.getElementById("fourth_row_container1165").style.display = "";}
+        //-->
+    </script>
+
+
+    <img src="/global_images2005/spacer.gif" width="140" height="6" alt="" border="0"><br>
+               <script language="JavaScript">
+              <!--
+                  if (checkActiveNav("/faqs/general.asp") && document.getElementById("fourth_row_container1165")) { document.getElementById("fourth_row_container1165").style.display = "";}
+              //-->
+              </script> <img src="/global_images2005/3nav_bar_gray.gif" alt="--------" width="140" height="1" hspace="0" vspace="0" border="0"><br>
+<img src="/global_images2005/spacer.gif" width="140" height="4" alt="" border="0"><br>
+<a href="/faqs/press.asp">Press/Analyst FAQs</a><br>
+
+
+
+
+
+    <img src="/global_images2005/spacer.gif" width="140" height="6" alt="" border="0"><br>
+               <script language="JavaScript">
+              <!--
+                  if (checkActiveNav("/faqs/press.asp") && document.getElementById("fourth_row_container1134")) { document.getElementById("fourth_row_container1134").style.display = "";}
+              //-->
+              </script> <img src="/global_images2005/3nav_bar_gray.gif" alt="--------" width="140" height="1" hspace="0" vspace="0" border="0"><br>
+<img src="/global_images2005/spacer.gif" width="140" height="4" alt="" border="0"><br>
+<a href="/faqs/exhibitors.asp">Exhibitor FAQs</a><br>
+
+
+
+
+
+    <img src="/global_images2005/spacer.gif" width="140" height="6" alt="" border="0"><br>
+               <script language="JavaScript">
+              <!--
+                  if (checkActiveNav("/faqs/exhibitors.asp") && document.getElementById("fourth_row_container1150")) { document.getElementById("fourth_row_container1150").style.display = "";}
+              //-->
+              </script> <img src="/global_images2005/3nav_bar_gray.gif" alt="--------" width="140" height="1" hspace="0" vspace="0" border="0"><br>
+<img src="/global_images2005/spacer.gif" width="140" height="4" alt="" border="0"><br>
+<a href="/faqs/speakers.asp">Speaker FAQs</a><br>
+
+
+
+
+
+    <img src="/global_images2005/spacer.gif" width="140" height="6" alt="" border="0"><br>
+               <script language="JavaScript">
+              <!--
+                  if (checkActiveNav("/faqs/speakers.asp") && document.getElementById("fourth_row_container1160")) { document.getElementById("fourth_row_container1160").style.display = "";}
+              //-->
+              </script> 
+        <img src="/global_images2005/3nav_bar_gray.gif" alt="--------" width="140" height="1" hspace="0" vspace="0" border="0"><br>
+
+        <img src="/global_images2005/spacer.gif" width="140" height="28" alt="" border="0"><br>
+        </span>
+<!-- /left nav -->
+<!-- /left nav --> 
+
+<!-- CEA badge -->
+    <a href="http://www.ce.org" target="new" onmouseover="headerRollOver('leftAddedValue1166', '/global_images2005/1.0_logo_cea_r.gif');" onmouseout="headerRollOff('leftAddedValue1166', '/global_images2005/1.0_logo_cea.gif');"><img src="/global_images2005/1.0_logo_cea.gif" name="leftAddedValue1166" id="leftAddedValue1166" border="0"></a><br><img src="/global_images2005/spacer.gif" height="10" width="1">
+<!-- /CEA badge -->
+
+<!-- myCES banner 
+          <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="140" height="260">
+          <param name="movie" value="/global_includes/flash/myces-banner-att.swf">
+          <param name="quality" value="high">
+          <embed src="/global_includes/flash/myces-banner-att.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="140" height="260"></embed>
+        </object><br><img src="/global_images2005/spacer.gif" height="10" width="1">
+    /myCES banner -->
+
+<!-- left added value -->
+    
+    
+<!-- /left added value -->
+
+    </td>
+    <td width="10" rowspan="2"><img src="/global_images2005/spacer.gif" height="1" width="10"></td>
+<!-- /left column -->
+
+
+
+<!-- main body content -->    
+    <td width="10" class="attendees7"><img src="/global_images2005/spacer.gif" height="1" width="10"></td>
+    <td width="100%" class="attendees7" valign="top">
+    <img src="/global_images2005/spacer.gif" height="10" width="1"><br>
+
+<!-- center content -->
+
+
+
+<img src="/global_images2005/spacer.gif" height="10" width="1"><br><div class="body_title">General FAQs<br><img src="/global_images2005/spacer.gif" height="16" width="1"></div>
+<div class="text">
+
+<!-- text for main page -->
+<a name="top"></a> 
+
+<ul>
+
+    <!--/faqs/2288.htm-->
+    <li class="attendees11"><a href="#2288">What is the official name of the show?</a>
+    
+
+    <!--/faqs/1425.htm-->
+    <li><a href="#1425">What are the show hours?</a>
+    
+
+    <!--/faqs/2289.htm-->
+    <li class="attendees11"><a href="#2289">What does CEA represent?</a>
+    
+
+    <!--/faqs/1450.htm-->
+    <li><a href="#1450">Should I wait to book my hotel and airline reservations so that prices will come down?</a>
+    
+
+    <!--/faqs/3338.htm-->
+    <li class="attendees11"><a href="#3338">What if my preferred hotel is sold out?</a>
+    
+
+    <!--/faqs/3339.htm-->
+    <li><a href="#3339">Why are the rates at some hotels so high?</a>
+    
+
+    <!--/faqs/1452.htm-->
+    <li class="attendees11"><a href="#1452">How do I get an International visa letter of invitation?</a>
+    
+
+    <!--/faqs/1451.htm-->
+    <li><a href="#1451">Airline travel is more difficult these days. I cannot afford to spend hours waiting in line. How can I avoid delays?</a>
+    
+
+    <!--/faqs/1426.htm-->
+    <li class="attendees11"><a href="#1426">How do I find my way around?</a>
+    
+
+    <!--/faqs/3085.htm-->
+    <li><a href="#3085">How do I rent a scooter/wheelchair?</a>
+    
+
+    <!--/faqs/1427.htm-->
+    <li class="attendees11"><a href="#1427">Is there a shuttle bus schedule available?</a>
+    
+
+    <!--/faqs/1428.htm-->
+    <li><a href="#1428">Does CES provide shuttle services from the LVCC and Sands Convention Center to McCarran Airport?</a>
+    
+
+    <!--/faqs/1429.htm-->
+    <li class="attendees11"><a href="#1429">What are the requirements for attending International CES?</a>
+    
+
+    <!--/faqs/1430.htm-->
+    <li><a href="#1430">I've heard you have big names at the show. Who is speaking?</a>
+    
+
+    <!--/faqs/3576.htm-->
+    <li class="attendees11"><a href="#3576">How do I gain admittance to any or all of the keynote addresses?</a>
+    
+
+    <!--/faqs/1431.htm-->
+    <li><a href="#1431">What other cool stuff is happening at the International CES?</a>
+    
+
+    <!--/faqs/2973.htm-->
+    <li class="attendees11"><a href="#2973">Can CES help me organize my schedule, find the right exhibitors/products and set up meetings at the show?</a>
+    
+
+    <!--/faqs/1432.htm-->
+    <li><a href="#1432">Are suitcases and strollers allowed on the show floor?</a>
+    
+
+    <!--/faqs/1433.htm-->
+    <li class="attendees11"><a href="#1433">Are cameras allowed on the show floor?</a>
+    
+
+    <!--/faqs/1434.htm-->
+    <li><a href="#1434">Where can I check my bags?</a>
+    
+
+    <!--/faqs/1435.htm-->
+    <li class="attendees11"><a href="#1435">I registered for International CES. Where's my badge?</a>
+    
+
+    <!--/faqs/1436.htm-->
+    <li><a href="#1436">If I have a badge, can I walk right into the show?</a>
+    
+
+    <!--/faqs/1437.htm-->
+    <li class="attendees11"><a href="#1437">Where can I pick up my badge holder?</a>
+    
+
+    <!--/faqs/1438.htm-->
+    <li><a href="#1438">Why isn't my badge holder sent with my badge?</a>
+    
+
+    <!--/faqs/1439.htm-->
+    <li class="attendees11"><a href="#1439">I missed the advance registration deadline. Can I register on-site?</a>
+    
+
+    <!--/faqs/1440.htm-->
+    <li><a href="#1440">What type of identification will I need to pick up a badge and/or badge holder?</a>
+    
+
+    <!--/faqs/1442.htm-->
+    <li class="attendees11"><a href="#1442">How do I find out who is exhibiting?</a>
+    
+
+    <!--/faqs/1443.htm-->
+    <li><a href="#1443">Can I make appointments with exhibitors before getting to the show?</a>
+    
+
+    <!--/faqs/1444.htm-->
+    <li class="attendees11"><a href="#1444">How can I find a conference session that's right for me?</a>
+    
+
+    <!--/faqs/1445.htm-->
+    <li><a href="#1445">Why would I register for conferences in advance?</a>
+    
+
+    <!--/faqs/1446.htm-->
+    <li class="attendees11"><a href="#1446">What does my "satisfaction is guaranteed" mean?</a>
+    
+
+    <!--/faqs/1447.htm-->
+    <li><a href="#1447">What is the cancellation policy for conferences?</a>
+    
+
+    <!--/faqs/1448.htm-->
+    <li class="attendees11"><a href="#1448">What is International CES doing to enhance security at the show?</a>
+    
+
+    <!--/faqs/1449.htm-->
+    <li><a href="#1449">I do not want to wait in long lines to get into the show. What should I do?</a>
+    
+
+    <!--/faqs/3373.htm-->
+    <li class="attendees11"><a href="#3373">Can students attend the International CES?</a>
+    
+
+    <!--/faqs/4415.htm-->
+    <li><a href="#4415">Can children attend the International CES?</a>
+    
+
+    <!--/faqs/4416.htm-->
+    <li class="attendees11"><a href="#4416">Can spouses attend the International CES?</a>
+    
+
+</ul>
+<br>
+<a name="2288"></a>
+<img src="/global_images2005/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"><br>
+
+<img src="/global_images2005/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"><br>
+<img src="/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+
+<span class="subhead">What is the official name of the show?</span><br>
+<br>
+The official name of the show is the 2008 International CES.
+<br><img src="/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+[<a href="#top">return to question list</a>]
+<br><a name="1425"></a>
+<img src="/global_images2005/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"><br>
+
+<img src="/global_images2005/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"><br>
+<img src="/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+
+<span class="subhead">What are the show hours?</span><br>
+<br>
+<STRONG>Sands Expo and Convention Center/The Venetian<BR></STRONG><BR>
+<TABLE cellSpacing=1 cellPadding=1 width="75%" border=0>
+<TBODY>
+<TR>
+<TD width="40%">Monday, January 7, 2008</TD>
+<TD>8 a.m. -&nbsp;5 p.m.</TD></TR>
+<TR>
+<TD>Tuesday, January 8, 2008</TD>
+<TD>8 a.m. - 5 p .m.</TD></TR>
+<TR>
+<TD>Wednesday, January 9, 2008</TD>
+<TD>8 a.m. -&nbsp;5 p.m.</TD></TR>
+<TR>
+<TD>Thursday, January 10, 2008</TD>
+<TD>8 a.m. - 3 p.m.</TD></TR></TBODY></TABLE><BR><STRONG>Las Vegas Convention Center, Las Vegas Hilton<BR></STRONG><BR>
+<TABLE cellSpacing=1 cellPadding=1 width="75%" border=0>
+<TBODY>
+<TR>
+<TD width="40%">Monday, January 7, 2008</TD>
+<TD>10 a.m.* - 6 p.m.</TD></TR>
+<TR>
+<TD>Tuesday, January 8, 2008</TD>
+<TD>9&nbsp;a.m. - 6 p.m.</TD></TR>
+<TR>
+<TD>Wednesday, January 9, 2008</TD>
+<TD>9&nbsp;a.m. - 6 p.m.</TD></TR>
+<TR>
+<TD>Thursday, January 10, 2008</TD>
+<TD>9&nbsp;a.m. - 4 p.m.</TD></TR></TBODY></TABLE><BR>&nbsp;*South Hall opens at 9 a.m.
+<br><img src="/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+[<a href="#top">return to question list</a>]
+<br><a name="2289"></a>
+<img src="/global_images2005/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"><br>
+
+<img src="/global_images2005/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"><br>
+<img src="/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+
+<span class="subhead">What does CEA represent?</span><br>
+<br>
+CEA is the Consumer Electronics Association, the producer of the International CES.&nbsp;All profits from CES are reinvested into industry services, including technical training and education, industry promotion, engineering standards development, market research and legislative advocacy.<BR><BR>CEA is the preeminent trade association promoting growth in the consumer technology industry through technology policy, events, research, promotion and the fostering of business and strategic relationships.&nbsp;CEA represents more than 2,500 corporate members involved in the design, development, manufacturing, distribution and integration of audio, video, mobile electronics, wireless and landline communications, information technology, home networking, multimedia and accessory products, as well as related services that are sold through consumer channels. Combined, CEA's members account for more than $100 billion in annual sales.&nbsp;CEA's resources are available online at <A href="http://www.CE.org/" target=_blank>http://www.CE.org/</A>, the definitive source for information about the consumer electronics industry.<BR>
+<br><img src="/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+[<a href="#top">return to question list</a>]
+<br><a name="1450"></a>
+<img src="/global_images2005/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"><br>
+
+<img src="/global_images2005/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"><br>
+<img src="/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+
+<span class="subhead">Should I wait to book my hotel and airline reservations so that prices will come down?</span><br>
+<br>
+<STRONG>Airfare:</STRONG> Book your airline now; fares may only continue to go up. And a Saturday night stay is not required for the best fares in Las Vegas.<BR><BR><STRONG>Hotel accommodations:</STRONG> International CES has blocked rooms at favorable rates for a limited time at a variety of hotels throughout Las Vegas. We at CES are as interested in keeping hotel costs down as you are.&nbsp; Please note that it is important to book hotels early through our <A href="/attendees/travel/hotel.asp">CES hotel program </A>to get the best rates.<BR><BR>We continue to keep hotel information current so attendees can choose hotel rooms from the most relevant selection possible.&nbsp; Check the <A href="/attendees/travel/hotel.asp">hotel section</A>&nbsp;frequently; additional rooms and hotels are added throughout the year.<BR><BR>Get more <A href="/attendees/travel/default.asp">travel information</A>.
+<br><img src="/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+[<a href="#top">return to question list</a>]
+<br><a name="3338"></a>
+<img src="/global_images2005/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"><br>
+
+<img src="/global_images2005/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"><br>
+<img src="/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+
+<span class="subhead">What if my preferred hotel is sold out?</span><br>
+<br>
+You have two options if your preferred hotel is sold out. You can consult the online CES hotel program, where rates tend to be lower, and look for alternate properties near where you want/need to stay.&nbsp; For example, although the CES block for The Venetian is currently sold out for the 2008 International CES, many other hotels nearby participate in the <A href="/attendees/travel/hotel.asp">CES hotel program</A>, including Treasure Island, Mirage, Harrah’s and Imperial Palace.&nbsp;<BR><BR>You can also contact your preferred hotel(s) directly to book a room, although if their CES block is sold out, you will likely end up paying higher prices.<BR><BR>Get more <A href="/attendees/travel/hotel.asp">hotel information</A>.
+<br><img src="/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+[<a href="#top">return to question list</a>]
+<br><a name="3339"></a>
+<img src="/global_images2005/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"><br>
+
+<img src="/global_images2005/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"><br>
+<img src="/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+
+<span class="subhead">Why are the rates at some hotels so high?</span><br>
+<br>
+CES negotiates the lowest rates possible, but ultimately, hotel rates are based on supply and demand. As you can imagine, demand is incredibly high during our show, and CES rates often reflect that.&nbsp; Please help us by only reserving the number of rooms that you know you will need.&nbsp; We also look to do other things to bring value to our attendees like the complimentary <A href="/attendees/travel/shuttle.asp">shuttle bus service</A> that runs to all official CES hotels.<BR><BR>Get more <A href="/attendees/travel/hotel.asp">hotel information</A>.
+<br><img src="/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+[<a href="#top">return to question list</a>]
+<br><a name="1452"></a>
+<img src="/global_images2005/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"><br>
+
+<img src="/global_images2005/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"><br>
+<img src="/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+
+<span class="subhead">How do I get an International visa letter of invitation?</span><br>
+<br>
+You can request a visa letter of invitation through the badge registration process. Once you complete your registration for the&nbsp;International CES, your visa invitation letter will be automatically generated and ready for you to print out from your own computer. This website has an entire section devoted to assist CES attendees traveling from outside the U.S. <A href="/international/default_flash.asp">Go.</A>
+<br><img src="/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+[<a href="#top">return to question list</a>]
+<br><a name="1451"></a>
+<img src="/global_images2005/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"><br>
+
+<img src="/global_images2005/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"><br>
+<img src="/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+
+<span class="subhead">Airline travel is more difficult these days. I cannot afford to spend hours waiting in line. How can I avoid delays?</span><br>
+<br>
+Yes, airline travel is a little more time consuming, due to increased security. According to most news reports and our own road warriors, the biggest lines are at ticket counters at the largest airports where customers are purchasing tickets, undergoing random baggage checks and checking luggage. <BR><BR>Check with your travel agency, your selected airline or local airport about what to expect. <BR><BR>The <A href="http://129.33.119.130/public/theme_home1.jsp" target=_blank>Transportation Security Administration</A> offers information on air travel security measures. <BR><BR>Purchase tickets ahead of time. You may be able to use e-tickets as long as you have proof of purchase, such as a printed confirmation, receipt or itinerary. Many airports have resumed curbside check-in. If you need to check luggage, allow yourself plenty of time. Carry valid photo identification. Prior to your flight, check with your airline or airport regarding recommended time to arrive at the airport. <BR><BR>Get more <A href="/attendees/travel/default.asp">travel information</A>.
+<br><img src="/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+[<a href="#top">return to question list</a>]
+<br><a name="1426"></a>
+<img src="/global_images2005/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"><br>
+
+<img src="/global_images2005/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"><br>
+<img src="/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+
+<span class="subhead">How do I find my way around?</span><br>
+<br>
+Let the International CES provide the transportation. CES offers complimentary shuttle service to and from all official CES hotels and both the Las Vegas Convention Center and Sands Expo&nbsp;and Convention Center/The Venetian,&nbsp;Monday-Thursday, January 7-10, 2008.&nbsp;Sunday service will be provided from hotels on routes 2 through&nbsp;9 only from 8 a.m. to 6 p.m. Services&nbsp;Monday through&nbsp;Wednesday will run from 7:30 a.m. -&nbsp;6:30 p.m. and&nbsp;Thursday from 7:30 a.m. -&nbsp;4:30 p.m. Look for information signs posted in hotel lobbies for exact times and boarding locations. Visit the <A href="/attendees/travel/shuttle.asp">CES Shuttle section of the website </A>to download the latest shuttle map and schedule. <BR><BR>Take advantage of the complimentary LVCC Shuttle Loop around the Las Vegas Convention Center. The shuttle runs every 10 minutes and stops at five key locations around the building. <BR><BR>The complimentary LVCC Golf Cart Intraconnect is another great asset; use it to travel from the back of Central Hall 5&nbsp;to the back of South Hall 2&nbsp;during show hours.&nbsp;<BR><BR><B>Sands/Venetian Express<BR></B>A complimentary <B>Sands/Venetian Express</B> shuttle runs every 10 minutes between the LVCC and Sands Expo&nbsp;and Convention Center/The Venetian&nbsp;from&nbsp;7:30 a.m. - 6:30 p.m. Sunday-Wednesday, January 6-9, and&nbsp;7:30 a.m. - 4:30 p.m. Thursday, January 10. <BR><BR>There is no on-site parking at the Sands Expo and Convention Center, but a satellite lot&nbsp;will be available for limited parking on show days.&nbsp;Our suggestion? Plan accordingly, leave&nbsp;your car at home or at your hotel and take the complimentary shuttle to the Sands from all official CES hotels. <BR><BR>ADA accessible buses for those with special needs are available during scheduled shuttle hours. Please request service at least 20 minutes in advance of desired pickup time. To arrange for your transportation, please contact&nbsp;Kevin Berube at <A title=mailto:kevinb@CMAC.net href="mailto:kevinb@CMAC.net">kevinb@CMAC.net</A>&nbsp;or call&nbsp;(800)&nbsp;616-2622. Non-motorized and motorized wheel chairs are available, for a fee, to attendees during show days on a first-come, first served basis by contacting Encore at (702) 943-6780.<BR><BR>Get more <A href="/attendees/travel/shuttle.asp">shuttle information</A>.
+<br><img src="/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+[<a href="#top">return to question list</a>]
+<br><a name="3085"></a>
+<img src="/global_images2005/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"><br>
+
+<img src="/global_images2005/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"><br>
+<img src="/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+
+<span class="subhead">How do I rent a scooter/wheelchair?</span><br>
+<br>
+Non-motorized and motorized wheel chairs are available, for a fee, to attendees during show days on a first-come, first served basis by contacting Encore at (702) 943-6780.
+<br><img src="/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+[<a href="#top">return to question list</a>]
+<br><a name="1427"></a>
+<img src="/global_images2005/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"><br>
+
+<img src="/global_images2005/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"><br>
+<img src="/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+
+<span class="subhead">Is there a shuttle bus schedule available?</span><br>
+<br>
+Let the International CES provide the transportation. CES offers complimentary shuttle service to and from all official CES hotels and both the Las Vegas Convention Center and Sands Expo and Convention Center/The Venetian,&nbsp;Sunday&nbsp; through Thursday, January 6-10, 2008.&nbsp;Sunday service will be provided from hotels on routes 2 through&nbsp;9 from 8 a.m. to 6 p.m. Services&nbsp;Monday through Wednesday will run from 7:30 a.m. - 6:30 p.m. and Thursday from 7:30 a.m. - 4:30 p.m. Look for information signs posted in hotel lobbies for exact times and boarding locations.<BR><BR>Get more <A href="/attendees/travel/shuttle.asp">shuttle information</A>.
+<br><img src="/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+[<a href="#top">return to question list</a>]
+<br><a name="1428"></a>
+<img src="/global_images2005/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"><br>
+
+<img src="/global_images2005/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"><br>
+<img src="/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+
+<span class="subhead">Does CES provide shuttle services from the LVCC and Sands Convention Center to McCarran Airport?</span><br>
+<br>
+Shuttle service to McCarran Airport will be available every 30 minutes on Wednesday, January&nbsp;9 from 10 a.m. to 7 p.m.&nbsp;and Thursday, January&nbsp;10 from 10 a.m. to&nbsp;5 p.m. The shuttle service to McCarran is available from the Las Vegas Convention Center (Central Hall front entrance), and the Sands Expo&nbsp;and Convention Center (front entrance). The one-way ticket price for this service is $5. <BR><BR>Many signs will be posted throughout the show to guide you. The printed CES Show Guide, available on-site, offers maps and other valuable information.
+<br><img src="/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+[<a href="#top">return to question list</a>]
+<br><a name="1429"></a>
+<img src="/global_images2005/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"><br>
+
+<img src="/global_images2005/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"><br>
+<img src="/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+
+<span class="subhead">What are the requirements for attending International CES?</span><br>
+<br>
+International CES is not open to the general public. You must be in the consumer electronics industry to be eligible to attend the show. Our attendees are made up of more than 140,000 individuals including manufacturers, retailers, content providers and creators, broadband developers, installers, engineers, corporate buyers, government leaders, financial analysts and the media—representing the United States, Canada, Mexico and more than 130 other countries. All attendees must be at least 16 years of age. Two forms of identification are required on-site (one photo ID and one proof of business affiliation/business card).
+<br><img src="/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+[<a href="#top">return to question list</a>]
+<br><a name="1430"></a>
+<img src="/global_images2005/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"><br>
+
+<img src="/global_images2005/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"><br>
+<img src="/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+
+<span class="subhead">I've heard you have big names at the show. Who is speaking?</span><br>
+<br>
+The International CES hosts industry visionaries—more than 300 of them—and they occasionally bring along Hollywood stars and famous musicians!<BR><BR>Beginning in September, visit the <A href="/attendees/conferences/default.asp">Conferences</A> section for full information about the 2008 lineup. You can also choose the <!--<a href="/attendees/conferences/speakers/">-->Search by Speaker<!--</a>--> option to find information. 
+<br><img src="/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+[<a href="#top">return to question list</a>]
+<br><a name="3576"></a>
+<img src="/global_images2005/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"><br>
+
+<img src="/global_images2005/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"><br>
+<img src="/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+
+<span class="subhead">How do I gain admittance to any or all of the keynote addresses?</span><br>
+<br>
+Again this year, <A href="/attendees/conferences/keynotes.asp">keynotes</A> will be held in the spacious Palazzo Ballroom at The Venetian. This ballroom accommodates 3,500-4,000 attendees, a staggering 2,000 seats over the total capacity of our previous facility. No ticket will be required for admittance. Keynote seating will once again operate on a first-come/first-serve basis. You must have a 2008 International CES&nbsp;badge AND badge holder to enter&nbsp;any keynote address. There are no exceptions to this policy.<BR><BR>The Venetian is conveniently located next to the Sands Expo and Convention Center. To get there, take the complimentary Sands/Venetian Express directly from the Las Vegas Convention Center, or take the <A href="/attendees/travel/shuttle.asp">shuttle buses</A> from any official CES hotels directly to the Sands Expo and Convention Center/The Venetian. Tip: If you are staying at Treasure Island, the Mirage, Harrah’s or the Imperial Palace, you can simply walk from these hotels to The Venetian. Follow the signs to the keynote addresses and exhibit areas.
+<br><img src="/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+[<a href="#top">return to question list</a>]
+<br><a name="1431"></a>
+<img src="/global_images2005/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"><br>
+
+<img src="/global_images2005/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"><br>
+<img src="/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+
+<span class="subhead">What other cool stuff is happening at the International CES?</span><br>
+<br>
+Find out in the <A href="/attendees/special_events/default.asp">Special Events</A> section.<BR><BR>Plus, use <A href="/attendees/myCES/default.asp">MyCES</A> to search for products and vendors, set up meetings and efficiently plan your time at the show.
+<br><img src="/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+[<a href="#top">return to question list</a>]
+<br><a name="2973"></a>
+<img src="/global_images2005/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"><br>
+
+<img src="/global_images2005/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"><br>
+<img src="/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+
+<span class="subhead">Can CES help me organize my schedule, find the right exhibitors/products and set up meetings at the show?</span><br>
+<br>
+When you register to attend CES, you will get access to the MyCES community.&nbsp; This portal enables you to securely and anonymously search for products and vendors, set up meetings and efficiently plan your time at the show.&nbsp; It also enables you to connect with other attendees, like you, so that you can share ideas and network together.&nbsp;<BR><BR>Haven’t registered to attend CES?&nbsp; <A href="/register">Register now.<BR></A><BR>Are you are already registered to attend the conference?&nbsp; <A href="/attendees/myCES/default.asp">Start using MyCES.</A>
+<br><img src="/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+[<a href="#top">return to question list</a>]
+<br><a name="1432"></a>
+<img src="/global_images2005/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"><br>
+
+<img src="/global_images2005/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"><br>
+<img src="/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+
+<span class="subhead">Are suitcases and strollers allowed on the show floor?</span><br>
+<br>
+We want to help make your International CES experience a pleasant and productive one and realize you may have some bags you need to store. Baggage check is available with Encore Productions&nbsp;in the both the LVCC Grand Lobby and Room S221 on a first come, first served basis. At the Sands Expo and Convention Center, coat&nbsp;and bag check is located just inside the lower level entrance, adjacent to the existing Sands security podium. For safety reasons, strollers are not allowed on the show floor. Small, two-wheeled bags are permitted. All attendees must be at least 16 years of age.
+<br><img src="/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+[<a href="#top">return to question list</a>]
+<br><a name="1433"></a>
+<img src="/global_images2005/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"><br>
+
+<img src="/global_images2005/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"><br>
+<img src="/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+
+<span class="subhead">Are cameras allowed on the show floor?</span><br>
+<br>
+Media are required to obtain passes/stickers for their camera equipment. Exhibitors and attendees may take pictures within the show for purposes of company or annual reports, company media pieces, marketing materials, etc. Under no circumstance will anyone be permitted to take pictures of an exhibitor's product without the permission of the exhibitor. Many products on display at CES are unique, innovative, one-of-a-kind or prototype items. Exhibitors have the right to report to security any instance of inappropriate photographing of company products or displays.
+<br><img src="/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+[<a href="#top">return to question list</a>]
+<br><a name="1434"></a>
+<img src="/global_images2005/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"><br>
+
+<img src="/global_images2005/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"><br>
+<img src="/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+
+<span class="subhead">Where can I check my bags?</span><br>
+<br>
+Coat and bag check is available at the Encore Business Center in the Grand Lobby of the Las Vegas Convention Center as well as in one satellite location in Room S221 in the South Hall Connector. Items may not be left overnight. Get more <A href="/attendees/travel/default.asp">travel information</A>.&nbsp; At the Sands Expo and Convention Center/The Venetian venue, coat&nbsp;and bag check is located just inside the Sands lower level entrance, adjacent to the existing Sands security podium.<SPAN style="mso-spacerun: yes">&nbsp; </SPAN>Coat/bag check will be open one hour prior to show opening and one hour after show closing.
+<br><img src="/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+[<a href="#top">return to question list</a>]
+<br><a name="1435"></a>
+<img src="/global_images2005/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"><br>
+
+<img src="/global_images2005/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"><br>
+<img src="/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+
+<span class="subhead">I registered for International CES. Where's my badge?</span><br>
+<br>
+We look forward to welcoming you to the International CES. Registering before December 5, 2007, helps ensure you will receive your badge by mail before the show. If you register after December 5, we will still mail your badge, but cannot guarantee delivery because of holiday mail delays. If you do not receive your badge by mail, please report to one of our registration areas when you get to the show. To receive a copy of your confirmation please contact us at <A href="mailto:CESreg@CE.org">CESreg@CE.org</A>.
+<br><img src="/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+[<a href="#top">return to question list</a>]
+<br><a name="1436"></a>
+<img src="/global_images2005/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"><br>
+
+<img src="/global_images2005/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"><br>
+<img src="/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+
+<span class="subhead">If I have a badge, can I walk right into the show?</span><br>
+<br>
+No, each registrant who receives a badge by mail will need to go to a <A href="/faqs/general.asp#1437">Badge Holder Pickup</A>&nbsp;location to get their official International CES badge holder. Admittance without a badge holder is not permitted. International CES is a trade-only show and is not open to the general public; therefore, we must ensure all attendees are industry affiliates before issuing a badge holder. After the show, CES performs an official attendance audit through an outside auditing firm, and the on-site badge holder pickup process serves as a method for counting attendance. <BR>Two forms of identification are required to pick up your badge holder: 
+<UL>
+<LI>One personal picture ID such as a driver's license or passport </LI>
+<LI>One business ID such as a business card, pay stub or statement on company letterhead indicating that you are representing that company at International CES.</LI></UL>
+<br><img src="/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+[<a href="#top">return to question list</a>]
+<br><a name="1437"></a>
+<img src="/global_images2005/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"><br>
+
+<img src="/global_images2005/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"><br>
+<img src="/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+
+<span class="subhead">Where can I pick up my badge holder?</span><br>
+<br>
+<TABLE cellSpacing=0 cellPadding=2 width="100%" border=0>
+<TBODY>
+<TR class=black>
+<TD width=180><STRONG>Location</STRONG></TD>
+<TD width=130><STRONG>1/5/08 (Sat)</STRONG></TD>
+<TD width=130><STRONG>1/6/08 (Sun)</STRONG></TD>
+<TD width=130><STRONG>1/7/08 (Mon)</STRONG></TD></TR>
+<TR class=attendees11>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD></TR>
+<TR>
+<TD>Las Vegas Hilton</TD>
+<TD>Closed</TD>
+<TD>8 a.m. - 9 p.m.</TD>
+<TD>7:30 a.m. - 6:30 p.m.</TD></TR>
+<TR class=attendees11>
+<TD>LVCC Central Lobby Patio</TD>
+<TD>Closed</TD>
+<TD>12 p.m. -&nbsp;6 p.m.</TD>
+<TD>8&nbsp;a.m. - 6 p.m.</TD></TR>
+<TR>
+<TD>LVCC Central Hall 2 Entrance</TD>
+<TD>Closed</TD>
+<TD>Closed</TD>
+<TD>8&nbsp;a.m. - 6 p.m.</TD></TR>
+<TR class=attendees11>
+<TD>LVCC North Hall 3 Lower Lobby</TD>
+<TD>Closed</TD>
+<TD>7&nbsp;a.m. - 6 p.m.</TD>
+<TD>8&nbsp;a.m. - 6 p.m.</TD></TR>
+<TR>
+<TD>LVCC South Hall 2&nbsp;East Lobby<BR>(Swenson St.)</TD>
+<TD>Closed</TD>
+<TD>8 a.m. - 6 p.m.</TD>
+<TD>7:30 a.m. - 6 p.m.</TD></TR>
+<TR class=attendees11>
+<TD>LVCC South Hall 2 Patio</TD>
+<TD>Closed</TD>
+<TD>Closed</TD>
+<TD>8&nbsp;a.m. - 6 p.m.</TD></TR>
+<TR>
+<TD>LVCC South Hall 1 Front Lobby</TD>
+<TD>Closed</TD>
+<TD>8 a.m. - 6 p.m.</TD>
+<TD>8&nbsp;a.m. - 6 p.m.</TD></TR>
+<TR>
+<TD>Sands Expo and Convention Center</TD>
+<TD>Closed</TD>
+<TD>8:30 a.m. -&nbsp;9 p.m.</TD>
+<TD>7:30 a.m. -&nbsp;7 p.m.</TD></TR>
+<TR class=attendees11>
+<TD>Venetian Level 2 Titian Ballroom Foyer</TD>
+<TD>7:30 a.m. - 6 p.m.</TD>
+<TD>7:30 a.m. - 6 p.m.</TD>
+<TD>7:30 a.m. -&nbsp;7 p.m.</TD></TR>
+<TR>
+<TD>Remote Hotel Locations*</TD>
+<TD>8 a.m.&nbsp;- 7 p.m.</TD>
+<TD>8 a.m. - 7 p.m.</TD>
+<TD>7:30 a.m. - 7 p.m.</TD></TR>
+<TR>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD></TR>
+<TBODY></TBODY></TABLE>*Bally's, Caesars, Circus Circus, Excalibur, Hooters, Imperial Palace,&nbsp;Mirage, Monte Carlo,&nbsp;Treasure Island, Westin Casuarina.<BR><BR>
+<TABLE cellSpacing=0 cellPadding=2 width="100%" border=0>
+<TBODY>
+<TR class=black>
+<TD><STRONG>Location</STRONG></TD>
+<TD><STRONG>1/8/08 (Tue)</STRONG></TD>
+<TD><STRONG>1/9/08 (Wed)</STRONG></TD>
+<TD><STRONG>1/10/08 (Thu)</STRONG></TD></TR>
+<TR class=attendees11>
+<TD width=180></TD>
+<TD width=130></TD>
+<TD width=130></TD>
+<TD width=130></TD></TR>
+<TR>
+<TD>Las Vegas Hilton</TD>
+<TD>7:30 a.m. - 6:30 p.m.</TD>
+<TD>7:30 a.m. - 6:30 p.m.</TD>
+<TD>8 a.m. - 3 p.m.</TD></TR>
+<TR class=attendees11>
+<TD>LVCC Central Lobby Patio</TD>
+<TD>8 a.m. - 6 p.m.</TD>
+<TD>8 a.m. - 6 p.m.</TD>
+<TD>9 a.m. - 3 p.m.</TD></TR>
+<TR>
+<TD>LVCC Central Hall 2 Entrance</TD>
+<TD>8&nbsp;a.m. - 6 p.m.</TD>
+<TD>8&nbsp;a.m. - 6 p.m.</TD>
+<TD>Closed</TD></TR>
+<TR class=attendees11>
+<TD>LVCC North Hall 3 Lower Lobby</TD>
+<TD>8 a.m. - 6 p.m.</TD>
+<TD>8 a.m. - 6 p.m.</TD>
+<TD>9 a.m. - 3 p.m.</TD></TR>
+<TR>
+<TD>LVCC South Hall 2 East Lobby<BR>(Swenson St.)</TD>
+<TD>8 a.m. - 6 p.m.</TD>
+<TD>8 a.m. - 6 p.m.</TD>
+<TD>9 a.m. - 3 p.m.</TD></TR>
+<TR class=attendees11>
+<TD>LVCC South Hall 2 Patio</TD>
+<TD>8 a.m. - 6 p.m.</TD>
+<TD>8 a.m. - 6 p.m.</TD>
+<TD>Closed</TD></TR>
+<TR>
+<TD>LVCC South Hall 1 Front Lobby</TD>
+<TD>8 a.m. - 6 p.m.</TD>
+<TD>8 a.m. - 6 p.m.</TD>
+<TD>9 a.m. - 3 p.m.</TD></TR>
+<TR class=attendees11>
+<TD>McCarran Airport</TD>
+<TD>8 a.m.-midnight</TD>
+<TD>Closed</TD>
+<TD>Closed</TD></TR>
+<TR>
+<TD>Sands Expo and Convention Center</TD>
+<TD>7:30 a.m. - 6 p.m.</TD>
+<TD>7:30 a.m. - 6 p.m.</TD>
+<TD>7:30 a.m. - 3 p.m.</TD></TR>
+<TR class=attendees11>
+<TD>Venetian Level 2 Titian Ballroom Foyer</TD>
+<TD>7:30 a.m. - 6 p.m.</TD>
+<TD>7:30 a.m. - 6 p.m.</TD>
+<TD>7:30 a.m. - 3 p.m.</TD></TR>
+<TR>
+<TD>Remote Hotel Locations*</TD>
+<TD>7:30 a.m. -&nbsp;7 p.m.</TD>
+<TD>Closed</TD>
+<TD>Closed</TD></TR>
+<TR class=attendees11>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD></TR></TBODY></TABLE>*Bally's, Caesars, Circus Circus, Excalibur, Hooters, Imperial Palace,&nbsp;Mirage, Monte Carlo,&nbsp;Treasure Island, Westin Casuarina.<BR>
+<br><img src="/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+[<a href="#top">return to question list</a>]
+<br><a name="1438"></a>
+<img src="/global_images2005/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"><br>
+
+<img src="/global_images2005/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"><br>
+<img src="/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+
+<span class="subhead">Why isn't my badge holder sent with my badge?</span><br>
+<br>
+International CES is a trade-only show and is not open to the general public. We must ensure all attendees are industry affiliates before issuing a badge holder. After the show, CES performs an official attendance audit through an outside auditing firm; the on-site badge holder pickup process serves as a method for counting attendance.
+<br><img src="/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+[<a href="#top">return to question list</a>]
+<br><a name="1439"></a>
+<img src="/global_images2005/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"><br>
+
+<img src="/global_images2005/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"><br>
+<img src="/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+
+<span class="subhead">I missed the advance registration deadline. Can I register on-site?</span><br>
+<br>
+<BLOCKQUOTE>Yes, you may register on-site. The International CES makes it easy. Register at any of the following areas: 
+<UL>
+<LI>Sands Expo and Convention Center </LI>
+<LI>Las Vegas Convention Center - South Hall 2 Registration Area </LI>
+<LI>Las Vegas Hilton - Ballrooms D-G </LI></UL><BR>Exhibitor Registration opens Friday, January 4, 2008.<BR>Press Registration opens Saturday, January 5, 2008.<BR>Paid Conference Registration opens Saturday, January 5, 2008.&nbsp;<BR>International and Domestic Attendee Registration opens Sunday, January 6, 2008.<BR><BR>See the listings below for dates, locations and times. <BR><BR><SPAN class=subhead>Attendee Registration (Domestic and International)</SPAN><BR>
+<TABLE cellSpacing=0 cellPadding=2 width="100%" border=1>
+<TBODY>
+<TR class=black>
+<TD width=120>Date</TD>
+<TD width=210>Location</TD>
+<TD width=150>Time</TD></TR>
+<TR class=attendees11>
+<TD vAlign=top>Sun., Jan. 6, 2008</TD>
+<TD>LVCC South Hall 2 Main Registration (Swenson St.)</TD>
+<TD vAlign=top>12 p.m. - 7:30 p.m.</TD></TR>
+<TR class=attendees11>
+<TD>&nbsp;</TD>
+<TD>LV Hilton Ballrooms D-G</TD>
+<TD>12 p.m. - 7:30 p.m.</TD></TR>
+<TR class=attendees11>
+<TD>&nbsp;</TD>
+<TD>Sands Expo and Convention Center</TD>
+<TD>12 p.m. -&nbsp;9 p.m.</TD></TR>
+<TR>
+<TD vAlign=top>Mon., Jan. 7, 2008</TD>
+<TD>LVCC South Hall 2 Main Registration (Swenson St.)</TD>
+<TD vAlign=top>7:30 a.m. - 6 p.m.</TD></TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>LV Hilton Ballrooms D-G</TD>
+<TD>7:30 a.m. - 6 p.m.</TD></TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>Sands Expo and Convention Center</TD>
+<TD>7:30 a.m.&nbsp;- 6 p.m.</TD></TR>
+<TR class=attendees11>
+<TD vAlign=top>Tue., Jan. 8, 2008</TD>
+<TD>LVCC South Hall 2 Main Registration (Swenson St.)</TD>
+<TD vAlign=top>7:30 a.m. - 6 p.m.</TD></TR>
+<TR class=attendees11>
+<TD>&nbsp;</TD>
+<TD>LV Hilton Ballrooms D-G</TD>
+<TD>7:30 a.m. - 6 p.m.</TD></TR>
+<TR class=attendees11>
+<TD>&nbsp;</TD>
+<TD>Sands Expo and Convention Center</TD>
+<TD>7:30 a.m. - 6 p.m.</TD></TR>
+<TR>
+<TD vAlign=top>Wed., Jan. 9, 2008</TD>
+<TD>LVCC South Hall 2 Main Registration (Swenson St.)</TD>
+<TD vAlign=top>7:30 a.m. - 6 p.m.</TD></TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>LV Hilton Ballrooms D-G</TD>
+<TD>7:30 a.m. - 6 p.m.</TD></TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>Sands Expo and Convention Center</TD>
+<TD>7:30 a.m.&nbsp;- 6 p.m.</TD></TR>
+<TR class=attendees11>
+<TD vAlign=top>Thu., Jan. 10, 2008</TD>
+<TD>LVCC South Hall 2 Main Registration (Swenson St.)</TD>
+<TD vAlign=top>8 a.m. - 3 p.m.</TD></TR>
+<TR class=attendees11>
+<TD>&nbsp;</TD>
+<TD>LV Hilton Ballrooms D-G</TD>
+<TD>8 a.m. - 3 p.m.</TD></TR>
+<TR class=attendees11>
+<TD>&nbsp;</TD>
+<TD>Sands Expo and Convention Center</TD>
+<TD>8 a.m. - 3 p.m.</TD></TR></TBODY></TABLE><BR><SPAN class=subhead>Conference Registration*</SPAN> <BR>
+<TABLE cellSpacing=0 cellPadding=2 width="100%" border=1>
+<TBODY>
+<TR class=black>
+<TD width=120>Date</TD>
+<TD width=210>Location</TD>
+<TD width=150>Time</TD></TR>
+<TR class=attendees11>
+<TD>Sat., Jan. 5, 2008</TD>
+<TD>LVCC North Hall 4 Upper Level Lobby</TD>
+<TD>7 a.m. - 6 p.m.</TD></TR>
+<TR>
+<TD>Sun., Jan. 6, 2008</TD>
+<TD>LVCC North Hall 4 Upper Level Lobby</TD>
+<TD>7:30 a.m. - 6 p.m.</TD></TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>LVCC South Hall 2 Main Registration (Swenson&nbsp;St.)</TD>
+<TD>7:30 a.m. - 7:30 p.m.</TD></TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>Sands Expo and Convention Center</TD>
+<TD>7:30 a.m. -&nbsp;5 p.m.</TD></TR>
+<TR class=attendees11>
+<TD>Mon., Jan. 7, 2008</TD>
+<TD>LVCC North Hall 4 Upper Level Lobby</TD>
+<TD>7:30 a.m. - 6 p.m.</TD></TR>
+<TR class=attendees11>
+<TD>&nbsp;</TD>
+<TD>LVCC South Hall 2 Main Registration (Swenson&nbsp;St.)</TD>
+<TD>7:30 a.m. - 6 p.m.</TD>
+<TR class=attendees11>
+<TD>&nbsp;</TD>
+<TD>Sands Expo and Convention Center</TD>
+<TD>7:30 a.m. -&nbsp;5 p.m.</TD></TR>
+<TR>
+<TD>Tue., Jan. 8, 2008</TD>
+<TD>LVCC North Hall 4 Upper Level Lobby</TD>
+<TD>9 a.m. - 5 p.m.</TD></TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>LVCC South Hall 2 Main Registration (Swenson&nbsp;St.)</TD>
+<TD>9 a.m. - 5 p.m.</TD>
+<TR>
+<TD>&nbsp;</TD>
+<TD>Sands Expo and Convention Center</TD>
+<TD>8 a.m. - 5 p.m.</TD></TR>
+<TR class=attendees11>
+<TD>Wed., Jan. 9, 2008</TD>
+<TD>LVCC North Hall 4 Upper Level Lobby</TD>
+<TD>7:30&nbsp;a.m. - 5 p.m.</TD></TR>
+<TR class=attendees11>
+<TD>&nbsp;</TD>
+<TD>LVCC South Hall 2 Main Registration (Swenson&nbsp;St.)</TD>
+<TD>8 a.m. - 5 p.m.</TD></TR>
+<TR class=attendees11>
+<TD>&nbsp;</TD>
+<TD>Sands Expo and Convention Center</TD>
+<TD>8 a.m. - 5 p.m.</TD></TR></TBODY></TABLE><BR><SPAN class=text_colored>*A dedicated conference registration area will not be open on Wednesday, January 9. However, attendee registration areas will be able to badge conference registrants. </SPAN><A name=exhibreg></A><BR><BR><SPAN class=subhead><SPAN class=subhead>Exhibitor Temp Badges</SPAN> <BR>
+<TABLE cellSpacing=0 cellPadding=2 width="100%" border=1>
+<TBODY>
+<TR class=black>
+<TD width=120>Date</TD>
+<TD width=210>Location</TD>
+<TD width=150>Time</TD></TR>
+<TR class=attendees11>
+<TD>Fri., Dec. 28, 2007</TD>
+<TD>Grand Lobby</TD>
+<TD>7:30 a.m. -&nbsp;5 p.m.</TD></TR>
+<TR>
+<TD>Sat., Dec. 29, 2007</TD>
+<TD>Grand Lobby</TD>
+<TD>7:30 a.m. -&nbsp;5 p.m.</TD></TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>South Hall 1 Lobby</TD>
+<TD>7:30 a.m. -&nbsp;5 p.m.</TD></TR>
+<TR class=attendees11>
+<TD>Sun., Dec. 30, 2007</TD>
+<TD>Grand Lobby</TD>
+<TD>7:30 a.m. -&nbsp;5 p.m.</TD></TR>
+<TR class=attendees11>
+<TD>&nbsp;</TD>
+<TD>South Hall 1 Lobby</TD>
+<TD>7:30 a.m. - 5 p.m.</TD>
+<TR>
+<TD>Mon.,&nbsp;Dec. 31,&nbsp;2007</TD>
+<TD>Grand Lobby</TD>
+<TD>7:30&nbsp;a.m. -&nbsp;noon</TD></TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>South Hall 1 Lobby</TD>
+<TD>7:30&nbsp;a.m. -&nbsp;noon</TD>
+<TR class=attendees11>
+<TD>Tues., Jan. 1, 2008</TD>
+<TD>Grand Lobby</TD>
+<TD>7:30&nbsp;a.m. -&nbsp;6 p.m.</TD></TR>
+<TR class=attendees11>
+<TD>&nbsp;</TD>
+<TD>South Hall 1 Lobby</TD>
+<TD>7:30&nbsp;a.m. -&nbsp;6 p.m.</TD></TR>
+<TR class=attendees11>
+<TD>&nbsp;</TD>
+<TD>South Hall 2 Lobby</TD>
+<TD>7:30&nbsp;a.m. -&nbsp;6 p.m.</TD></TR>
+<TR>
+<TD>Wed., Jan. 2, 2008</TD>
+<TD>Grand Lobby</TD>
+<TD>7:30&nbsp;a.m. -&nbsp;6 p.m.</TD></TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>South Hall 1 Lobby</TD>
+<TD>7:30&nbsp;a.m. -&nbsp;6 p.m.</TD>
+<TR>
+<TD>&nbsp;</TD>
+<TD>South Hall 2 Lobby</TD>
+<TD>
+<P>7:30&nbsp;a.m. -&nbsp;6 p.m.</P></TD></TR>
+<TR>
+<TD>&nbsp;Thurs., Jan. 3, 2008</TD>
+<TD>Sands Hall B</TD>
+<TD>7:30&nbsp;a.m. -&nbsp;6 p.m.</TD></TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>Grand Lobby</TD>
+<TD>7:30&nbsp;a.m. -&nbsp;6 p.m.</TD></TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>South Hall 1 Lobby&nbsp;</TD>
+<TD>7:30&nbsp;a.m. -&nbsp;6 p.m.</TD></TR></TBODY></TABLE><BR><BR>Exhibitor Registration</SPAN> <BR>
+<TABLE cellSpacing=0 cellPadding=2 width="100%" border=1>
+<TBODY>
+<TR class=black>
+<TD width=120>Date</TD>
+<TD width=210>Location</TD>
+<TD width=150>Time</TD></TR>
+<TR class=attendees11>
+<TD>Fri., Jan. 4, 2008</TD>
+<TD>LVCC CES Central Plaza (Silver Lot)</TD>
+<TD>7:30&nbsp;a.m. -&nbsp;6 p.m.</TD></TR>
+<TR class=attendees11>
+<TD>&nbsp;</TD>
+<TD>LVCC South Hall 4 (Swenson St., top of escalators)</TD>
+<TD>7:30&nbsp;a.m. -&nbsp;6 p.m.</TD></TR>
+<TR class=attendees11>
+<TD>&nbsp;</TD>
+<TD>LV Hilton Ballrooms D-G</TD>
+<TD>Closed</TD></TR>
+<TR class=attendees11>
+<TD>&nbsp;</TD>
+<TD>Sands Expo and Convention Center</TD>
+<TD>7:30&nbsp;a.m. -&nbsp;6 p.m.</TD></TR>
+<TR>
+<TD>Sat., Jan. 5, 2008</TD>
+<TD>LVCC CES Central Plaza (Silver Lot)</TD>
+<TD>7:30&nbsp;a.m. -&nbsp;6 p.m.</TD></TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>LVCC South Hall 4 (Swenson St., top of escalators)</TD>
+<TD>7:30&nbsp;a.m. -&nbsp;6 p.m.</TD></TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>LV Hilton Ballrooms D-G</TD>
+<TD>7:30&nbsp;a.m. -&nbsp;6 p.m.</TD></TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>Sands Expo and Convention Center</TD>
+<TD>7:30&nbsp;a.m. -&nbsp;6 p.m.</TD></TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>Venetian Suite 29-209</TD>
+<TD>7:30 a.m. - 7 p.m.</TD></TR>
+<TR class=attendees11>
+<TD>Sun., Jan. 6, 2008</TD>
+<TD>LVCC CES Central Plaza (Silver Lot)</TD>
+<TD>7:30&nbsp;a.m. - 7:30 p.m.</TD></TR>
+<TR class=attendees11>
+<TD>&nbsp;</TD>
+<TD>LVCC South Hall 4 (Swenson St., top of escalators)</TD>
+<TD>7:30&nbsp;a.m. - 7:30 p.m.</TD></TR>
+<TR class=attendees11>
+<TD>&nbsp;</TD>
+<TD>LV Hilton Ballrooms D-G</TD>
+<TD>7:30&nbsp;a.m. -&nbsp;7:30 p.m.</TD></TR>
+<TR class=attendees11>
+<TD>&nbsp;</TD>
+<TD>Sands Expo and Convention Center</TD>
+<TD>7&nbsp;a.m. -&nbsp;9 p.m.</TD></TR>
+<TR class=attendees11>
+<TD>&nbsp;</TD>
+<TD>Venetian Suite 29-209</TD>
+<TD>7:30 a.m. - 7 p.m.</TD></TR>
+<TR>
+<TD>Mon., Jan. 7, 2008</TD>
+<TD>LVCC CES Central Plaza (Silver Lot)</TD>
+<TD>7:30 a.m. -&nbsp;6 p.m.</TD></TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>LVCC South Hall 4 (Swenson St., top of escalators)</TD>
+<TD>7:30 a.m. - 6 p.m.</TD></TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>LV Hilton Ballrooms D-G</TD>
+<TD>7:30 a.m. - 6 p.m.</TD></TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>Sands Expo and Convention Center</TD>
+<TD>7&nbsp;a.m. -&nbsp;5 p.m.&nbsp;</TD></TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>Venetian Suite 29-209</TD>
+<TD>8 a.m. - 5 p.m.</TD></TR>
+<TR class=attendees11>
+<TD>Tue., Jan. 8, 2008</TD>
+<TD>LVCC CES Central Plaza (Silver Lot)</TD>
+<TD>7:30 a.m. - 6 p.m.</TD></TR>
+<TR class=attendees11>
+<TD>&nbsp;</TD>
+<TD>LVCC South Hall 4 (Swenson St., top of escalators)</TD>
+<TD>7:30 a.m. - 6 p.m.</TD></TR>
+<TR class=attendees11>
+<TD>&nbsp;</TD>
+<TD>LV Hilton Ballrooms D-G</TD>
+<TD>7:30 a.m. - 6 p.m.</TD></TR>
+<TR class=attendees11>
+<TD>&nbsp;</TD>
+<TD>Sands Expo and Convention Center</TD>
+<TD>7 a.m. -&nbsp;5 p.m.</TD></TR>
+<TR class=attendees11>
+<TD>&nbsp;</TD>
+<TD>Venetian Suite 29-209</TD>
+<TD>8 a.m. - 5 p.m.</TD></TR>
+<TR>
+<TD>Wed., Jan. 9, 2008</TD>
+<TD>LVCC CES Central Plaza (Silver Lot)</TD>
+<TD>7:30 a.m. -&nbsp;3 p.m.</TD></TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>LVCC South Hall 4 (Swenson St., top of escalators)</TD>
+<TD>7:30 a.m. - 6 p.m.</TD></TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>LV Hilton Ballrooms&nbsp;D-G</TD>
+<TD>7:30 a.m. - 6 p.m.</TD></TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>Sands Expo and Convention Center</TD>
+<TD>7:30 a.m. -&nbsp;5 p.m.&nbsp;</TD></TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>Venetian Suite 29-209</TD>
+<TD>8 a.m. - 5 p.m.</TD></TR>
+<TR class=attendees11>
+<TD>Thu., Jan. 10, 2008</TD>
+<TD>LVCC South Hall 4 (Swenson St., top of escalators)</TD>
+<TD>8 a.m. - 3 p.m.</TD></TR>
+<TR class=attendees11>
+<TD>&nbsp;</TD>
+<TD>LV Hilton Ballrooms D-G</TD>
+<TD>8 a.m. - 3 p.m.</TD></TR>
+<TR class=attendees11>
+<TD>&nbsp;</TD>
+<TD>Sands Expo and Convention Center</TD>
+<TD>7:30&nbsp;a.m. - 3 p.m.</TD></TR>
+<TR class=attendees11>
+<TD>&nbsp;</TD>
+<TD>Venetian Suite 29-209</TD>
+<TD>8 a.m. - 3 p.m.</TD></TR></TBODY></TABLE><BR><SPAN class=subhead>Press Registration</SPAN> <BR>
+<TABLE cellSpacing=0 cellPadding=2 width="100%" border=1>
+<TBODY>
+<TR class=black>
+<TD width=120>Date</TD>
+<TD width=210>Location</TD>
+<TD width=150>Time</TD></TR>
+<TR class=attendees11>
+<TD>Sat., Jan. 5, 2008</TD>
+<TD>LVCC Press Room S229</TD>
+<TD>Noon- 7 p.m.</TD></TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>Sands Expo and Convention Center</TD>
+<TD>Noon-7 p.m.</TD></TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>LVCC Blogger Lounge S201</TD>
+<TD>Noon-7 p.m.</TD></TR>
+<TR>
+<TD>Sun., Jan. 6, 2008</TD>
+<TD>LVCC Press Room S229</TD>
+<TD>7:30 a.m. - 7 p.m.</TD></TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>Sands Expo and Convention Center</TD>
+<TD>7:30 a.m. -&nbsp;9 p.m.</TD></TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>LVCC Blogger Lounge S201</TD>
+<TD>7:30 a.m. -&nbsp;7 p.m.</TD></TR>
+<TR class=attendees11>
+<TD>Mon., Jan. 7, 2008</TD>
+<TD>LVCC Press Room S229</TD>
+<TD>7:30 a.m. - 6:30 p.m.</TD></TR>
+<TR class=attendees11>
+<TD>&nbsp;</TD>
+<TD>Sands Expo and Convention Center</TD>
+<TD>7:30 a.m.&nbsp;-&nbsp;5 p.m.</TD></TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>LVCC Blogger Lounge S201&nbsp;</TD>
+<TD>7:30 a.m.-6 p.m.</TD></TR>
+<TR>
+<TD>Tue., Jan. 8, 2008</TD>
+<TD>LVCC Press Room S229</TD>
+<TD>8&nbsp;a.m. - 6:30 p.m.</TD></TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>Sands Expo and Convention Center</TD>
+<TD>7:30 a.m. -&nbsp;5 p.m.</TD>
+<TR>
+<TD>&nbsp;</TD>
+<TD>LVCC Blogger Lounge S201&nbsp;</TD>
+<TD>8 a.m.-6:30 p.m.</TD></TR>
+<TR class=attendees11>
+<TD>Wed., Jan. 9, 2008</TD>
+<TD>LVCC Press Room S229</TD>
+<TD>8:30 a.m. - 6:30 p.m.</TD></TR>
+<TR class=attendees11>
+<TD>&nbsp;</TD>
+<TD>Sands Expo and Convention Center</TD>
+<TD>7:30 a.m. -&nbsp;5 p.m.</TD></TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>LVCC Blogger Lounge S201</TD>
+<TD>8:30 a.m.-6:30 p.m.</TD></TR>
+<TR>
+<TD>Thu., Jan. 11, 2008</TD>
+<TD>LVCC Press Room S229</TD>
+<TD>8:30 a.m. - 4:30 p.m.</TD></TR></TBODY></TABLE></BLOCKQUOTE>
+<br><img src="/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+[<a href="#top">return to question list</a>]
+<br><a name="1440"></a>
+<img src="/global_images2005/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"><br>
+
+<img src="/global_images2005/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"><br>
+<img src="/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+
+<span class="subhead">What type of identification will I need to pick up a badge and/or badge holder?</span><br>
+<br>
+Due to tightened security, you will need to bring two forms of identification to pick up your badge holder, badge or to register on-site: 
+<UL>
+<LI>One personal picture ID such as a driver's license or passport, </LI>
+<LI>One business ID such as a business card, pay stub or statement on company letterhead indicating that you are representing that company at International CES.</LI></UL>
+<P>You will not be able to pickup your badge holder without both forms of identification.</P>
+<br><img src="/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+[<a href="#top">return to question list</a>]
+<br><a name="1442"></a>
+<img src="/global_images2005/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"><br>
+
+<img src="/global_images2005/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"><br>
+<img src="/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+
+<span class="subhead">How do I find out who is exhibiting?</span><br>
+<br>
+Visit our online <A href="/attendees/directory/default.asp">Exhibitor Directory</A>. You can search the directory in a variety of ways, including company name, brand name and venue.<BR><BR>On-site, pick up a copy of the show guide, and the official International CES Directory with updated exhibitor information.<BR><BR>Plus, use <A href="/attendees/myCES/default.asp">MyCES</A> to securely and anonymously search for products and vendors, set up meetings and efficiently plan your time at the show.
+<br><img src="/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+[<a href="#top">return to question list</a>]
+<br><a name="1443"></a>
+<img src="/global_images2005/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"><br>
+
+<img src="/global_images2005/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"><br>
+<img src="/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+
+<span class="subhead">Can I make appointments with exhibitors before getting to the show?</span><br>
+<br>
+Use the <A href="/attendees/directory/default.asp">Exhibitor Directory</A> to find company contacts and plan your visits. Many exhibitors welcome the opportunity to set up an appointment prior to the show.<BR><BR>Additionally, the International CES offers a personal planning tool to tailor your show experience. <A href="/attendees/myCES/default.asp">Use MyCES</A> to securely and anonymously search for products and vendors, set up meetings and efficiently plan your time at the show.
+<br><img src="/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+[<a href="#top">return to question list</a>]
+<br><a name="1444"></a>
+<img src="/global_images2005/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"><br>
+
+<img src="/global_images2005/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"><br>
+<img src="/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+
+<span class="subhead">How can I find a conference session that's right for me?</span><br>
+<br>
+The <A href="/attendees/conferences/default.asp">Conference Program</A> is divided into the exclusive International CES Knowledge Track and several Partner Programs—strategic master classes brought to you by some of the biggest industry names.<BR><BR>Additionally, the International CES offers a personal planning tool to tailor your show experience. <A href="/attendees/myCES/default.asp">Use MyCES</A> to search for conference sessions, products and exhibitors that match your particular business interests.
+<br><img src="/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+[<a href="#top">return to question list</a>]
+<br><a name="1445"></a>
+<img src="/global_images2005/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"><br>
+
+<img src="/global_images2005/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"><br>
+<img src="/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+
+<span class="subhead">Why would I register for conferences in advance?</span><br>
+<br>
+In one word: SAVINGS. Enjoy big discounts when you <A href="/register">register</A> by January 3, 2008. Plus, you help us plan conference sessions, so we can make the room more inviting and prepare accordingly.
+<br><img src="/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+[<a href="#top">return to question list</a>]
+<br><a name="1446"></a>
+<img src="/global_images2005/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"><br>
+
+<img src="/global_images2005/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"><br>
+<img src="/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+
+<span class="subhead">What does my "satisfaction is guaranteed" mean?</span><br>
+<br>
+We want you to find the <A href="/attendees/conferences/default.asp">CES Conference Program</A> to be a valuable experience. If you attend the International CES Conference Program and do not gain one new insight, tip or piece of information that you can put to use upon returning to your place of business, then we will refund your money. All we ask is that you let us know you were dissatisfied before the show is over. To do this, please visit a conference registration area and speak with a registration representative prior to the close of the show. Unfortunately, we will not be able to honor requests received after the close of the show.
+<br><img src="/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+[<a href="#top">return to question list</a>]
+<br><a name="1447"></a>
+<img src="/global_images2005/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"><br>
+
+<img src="/global_images2005/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"><br>
+<img src="/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+
+<span class="subhead">What is the cancellation policy for conferences?</span><br>
+<br>
+Cancellations for paid conferences received in writing on/before December 28, 2007, are refundable, minus a $50 processing fee. After December 28, 2007, cancellations are subject to the entire seminar fee. If you do not cancel by December 28, 2007, and do not attend International CES conferences, you are still responsible for payment. You may substitute the name of one conference registrant for another at any time. Please submit all cancellations in writing by sending your request to <A href="mailto:CES081.cancel@expoexchange.com">CES081.cancel@expoexchange.com</A> or via fax to (301) 628-5127. Cancellation requests not received in writing will not be honored.
+<br><img src="/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+[<a href="#top">return to question list</a>]
+<br><a name="1448"></a>
+<img src="/global_images2005/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"><br>
+
+<img src="/global_images2005/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"><br>
+<img src="/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+
+<span class="subhead">What is International CES doing to enhance security at the show?</span><br>
+<br>
+Your safety at the show is important to us. International CES show management has stepped up its regular security measures, while still balancing safety concerns with traffic flow challenges. Attendees should allow themselves extra time to arrive at meetings and events, as it may take longer than usual to pass through the show floor. 
+<P>Here are a few measures we're taking this year:</P>
+<UL>
+<LI>Two forms of ID required – one personal (driver's license) and one business (business card) are required to obtain a badge holder. Only exhibitors with proper ID will be permitted to pick up multiple badge holders. </LI>
+<LI>All bags will be subject to search upon entry into CES venues starting noon the day before the show opens. This includes personal items such as purses, laptop cases and luggage. </LI>
+<LI>Bomb dogs will be on-site as a precautionary measure. </LI>
+<LI>There will be an increased presence of Las Vegas Metro Police and LVCVA officers during show days. </LI>
+<LI>Surveillance cameras will be installed at key entrances and freight door areas. </LI>
+<LI>Private vehicles will only be allowed on LVCC or Sands premises to drop off passengers. No standing or unloading will be permitted at any time.</LI></UL>
+<br><img src="/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+[<a href="#top">return to question list</a>]
+<br><a name="1449"></a>
+<img src="/global_images2005/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"><br>
+
+<img src="/global_images2005/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"><br>
+<img src="/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+
+<span class="subhead">I do not want to wait in long lines to get into the show. What should I do?</span><br>
+<br>
+Our best advice is to not carry bags into the show. You will move through show entrances quickly if you have your badge displayed properly in your official CES badge holder and you are not carrying bags, which are subject to search. All bags will be subject to search upon entry into CES venues starting noon Wednesday, January 2. Be sure to allow yourself time before your first appointment or conference session to pickup your badge and/or badge holder.
+<br><img src="/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+[<a href="#top">return to question list</a>]
+<br><a name="3373"></a>
+<img src="/global_images2005/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"><br>
+
+<img src="/global_images2005/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"><br>
+<img src="/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+
+<span class="subhead">Can students attend the International CES?</span><br>
+<br>
+The&nbsp;International CES is a trade-only event.&nbsp;Students are only permitted on Thursday, January 10, 2008.&nbsp; All students will be charges $100 on-site, and students cannot register in advance.&nbsp;Students must show a student ID to qualify for this single-day rate.&nbsp;If the student ID does not have a photo, they will have to show a photo ID in addition to their student ID.&nbsp;Please contact&nbsp;International CES customer service at <A href="mailto:CESreg@CE.org">CESreg@CE.org</A> or (866) 233-7968 with any questions. 
+<br><img src="/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+[<a href="#top">return to question list</a>]
+<br><a name="4415"></a>
+<img src="/global_images2005/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"><br>
+
+<img src="/global_images2005/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"><br>
+<img src="/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+
+<span class="subhead">Can children attend the International CES?</span><br>
+<br>
+No, children may not attend the International CES.&nbsp;The International CES is not open to the general public, and all attendees must be in the consumer electronics industry to be eligible to attend the show. Children who accompany you to Las Vegas will not be granted access to the International CES unless they are over the age of 16 and have proof of industry affiliation.
+<br><img src="/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+[<a href="#top">return to question list</a>]
+<br><a name="4416"></a>
+<img src="/global_images2005/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"><br>
+
+<img src="/global_images2005/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"><br>
+<img src="/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+
+<span class="subhead">Can spouses attend the International CES?</span><br>
+<br>
+No, spouses cannot register to attend the International CES.&nbsp;The International CES is not open to the general public, and all attendees must be in the consumer electronics industry to be eligible to attend the show. Spouses, friends and family who accompany you to Las Vegas will not be granted access to the International CES unless they are over the age of 16 and have proof of industry affiliation.
+<br><img src="/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+[<a href="#top">return to question list</a>]
+<br>
+<!-- /text for main page -->
+</div>
+
+<!-- /center content -->
+    <br><br><br>
+    </td>
+    <td width="10" class="attendees7"><img src="/global_images2005/spacer.gif" height="1" width="10"></td>
+
+<!-- optional added value -->
+
+<!-- /optional added value -->
+
+</tr>
+<!-- /main body row -->
+
+<!-- shaded row above footer -->
+<tr>
+<td colspan=3 bgcolor="#CFD7C6"><img src="/global_images2005/spacer.gif" width="1" height="10"></td>
+
+</tr>
+<!-- /shaded row above footer -->
+
+</table>
+<table width="770" cellspacing="0" cellpadding="0" border="0">
+            <tr>
+     <td width="10"></td>
+     <td width="140"></td>
+     <td width="10"></td>
+     <td width="10" class="footer"><img src="/global_images2005/footer_left.gif" alt="(" width="10" height="30" hspace="0" vspace="0" border="0"></td>
+     <td width="380" background="/global_images2005/footer_bg.gif" class="footer"><span class="nav_footer"><a href="/about_ces/default.asp">About CES</a> | <a href="/faqs/default.asp">FAQs</a> | <a href="/contact_us/default.asp">Contact Us</a> | <a href="/sitemap.asp">Site Map</a> | <a href="/privacy_policy.asp">Privacy Policy</a> | <a href="/rd_vendors.asp">Vendors</a></span></td>
+     <td width="210" colspan="3" align="right" background="/global_images2005/footer_bg.gif" class="footer"><span class="nav_footer"> &#169; 2003-2007 CEA, All rights reserved</span></td>
+     <td width="10" class="footer"><img src="/global_images2005/footer_right.gif" alt=")" width="10" height="30" hspace="0" vspace="0" border="0"></td>
+</tr>   
+            </table>
+            <img src="/global_images2005/spacer.gif" alt="" width="1" height="20" hspace="0" vspace="0" border="0"">
+        </td>
+        <td width="50%" valign="top" class="attendeesBGImg">&nbsp;</td>
+    </tr>
+</table>
+
+
+<!-- IndexTools Customization Code -->
+<!-- Remove leading // to activate custom variables -->
+<script language="Javascript">
+var DOCUMENTGROUP='Attendees';
+//var DOCUMENTNAME='';
+//var ACTION='';
+</script>
+<!-- End of Customization Code -->
+<!-- IndexTools Code v4.00 - All rights reserved -->
+<script language="javascript1.1" src="http://www.CESweb.org/indextools.js"></script><noscript>
+<img src="http://stats.indextools.com/p.pl?a=1000217290027&js=no" width="1" height="1"></noscript><!--//-->
+<!-- End of IndexTools Code -->
+
+ 
+</body>
+</html>

@@ -1,0 +1,410 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head><!-- PageID 1162 - published by RedDot 7.5 - 7.5.0.33 - 16244 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<!-- INSERT PAGE TITLE HERE (immediately following gblPAGE_TITLE) -->
+<title>2005 International CES:&nbsp;</title>
+
+<!-- INSERT SEARCH ZONE HERE -->
+ <META NAME="searchZone" CONTENT="generalCESweb">
+<link rel="StyleSheet" href="/print/global_includes/js/mainMethod.css" type="text/css">
+<LINK REL="SHORTCUT ICON" HREF="http://www.easymovement.com/ces/favicon.ico">
+<!-- Browser detection script -->
+    <script src="/print/global_includes/js/browser_detection.js" type="text/javascript"></script>
+<SCRIPT language="javascript1.2">
+    function newWin(urlString,pgNum) {
+        var popupWindow;
+        urlString += "?pageID=" + pgNum;
+ 
+        popupWindow = window.open(urlString,"","toolbar=yes,menubar=no,resizable=no,status=no,scrollbars=yes,location=no,directories=no,copyhistory=no,height=550,width=618,left=50,top=50");
+    }  
+ 
+    function openNewWindow(strURL) {
+        window.name = "main";
+        var newWindow = window.open(strURL,"newWindow", "toolbar=no,menubar=no,resizable=no,status=no,scrollbars=yes,location=no,directories=no,copyhistory=no,height=400,width=450,left=50,top=50");
+    }
+    // Script for e-mail this page - gets the url of the page the user is on before the e-mail page tool button is clicked
+    function loadReferrer() {
+        referrerString = opener.document.location.href;
+        document.emailForm.page.value = referrerString;
+    }
+</SCRIPT>
+<!-- Rollover script (do we still need these?) --> 
+<script language="javascript1.2"> 
+    /* for graphical rollovers */
+   function rollOver(which,name) 
+    {
+    var on="/global_images/1.0/1.0_" + which + "_r.gif";
+    if(document.images) {document.images[which].src=on;}
+    else if (document.GetElementById){document.GetElementById(name).src=on;}
+    }
+   function rollOff(which) 
+    {
+    var on="/global_images/1.0/1.0_" + which + ".gif";
+    if(document.images){document.images[which].src=on;}
+    else if (document.GetElementById){document.GetElementById(which).src=on;}
+    }
+   function introllOver(which,name) 
+    {
+    var on="/global_images/1.0/1.0_" + which + "_r.gif";
+    if(document.images) {document.images[which].src=on;}
+    else if (document.GetElementById){document.GetElementById(name).src=on;}
+    }
+   function introllOff(which) 
+    {
+    var on="/global_images/1.0/1.0_" + which + ".gif";
+    if(document.images){document.images[which].src=on;}
+    else if (document.GetElementById){document.GetElementById(which).src=on;}
+    }
+   function snrollOver(which,name) 
+    {
+    var on="/global_images/1.0/1.0" + which + "_r.gif";
+    if(document.images) {document.images[which].src=on;}
+    else if (document.GetElementById){document.GetElementById(name).src=on;}
+    }
+   function snrollOff(which) 
+    {
+    var on="/global_images/1.0/1.0" + which + ".gif";
+    if(document.images){document.images[which].src=on;}
+    else if (document.GetElementById){document.GetElementById(which).src=on;}
+    }
+        
+    //do we still need this?   
+    function onLoadHandler() {
+       if( typeof(bodyOnLoadFunction) != 'undefined' ) {
+           return eval(bodyOnLoadFunction);
+       }
+    }
+</script>
+<script language="javascript">
+    <!--
+    var activeNavId=0;
+    var thisPageUrl='/faqs/speakers.asp';
+    
+        var parentLinks=new Array('dummy','/print/faqs/default.asp');
+    
+        function checkActiveNav(theUrl) {
+            var linkUrl=theUrl;
+            var returnValue=false;
+            
+            if (linkUrl==thisPageUrl) {
+                returnValue=true;
+            } else if (parentLinks.length>2 && linkUrl==parentLinks[parentLinks.length-1]) {
+                returnValue=true;   
+            } else if (parentLinks.length>3 && linkUrl==parentLinks[parentLinks.length-2]) {
+                returnValue=true;
+            } else if (parentLinks.length>4 && linkUrl==parentLinks[parentLinks.length-3]) {
+                returnValue=true;
+            }
+        return returnValue;
+    }
+    //-->
+    </script>
+    <style>
+        <!--
+            .attendeesBGImg {
+                background-image: url('/print/global_images2005/attendees_bg.gif');
+            }
+            .text_colored, .intro_copy, .section_title, .subhead, .body_title, .intro_dates, .box10 {
+               color: #498429;
+            }
+            
+        //-->
+    </style>
+</head>
+<body leftmargin='0' topmargin='0' rightmargin='0' bottommargin='0' marginwidth='0' onLoad="onLoadHandler();self.focus();"> 
+<div style="position:absolute; top: 15; left: 15" ><a href='javascript:;' onClick='window.print();return false'><img src="/print/global_images2005/print.jpg" width="115" height="20" border="0" alt=""></a></div>
+<IMG SRC="/print/global_images2005/attPrintBanner.jpg" width="601" BORDER="0" vspace=0><br><table width="600" cellspacing="0" cellpadding="0" border="0">
+    <tr>
+<!-- /left column -->
+
+<!-- main body content -->    
+    <td width="10" class="attendees7"><img src="/print/global_images2005/spacer.gif" height="1" width="10"></td>
+    <td width="100%" class="attendees7" valign="top">
+    <img src="/print/global_images2005/spacer.gif" height="10" width="1"><br>
+<!-- center content -->
+
+
+<img src="/print/global_images2005/spacer.gif" height="10" width="1"><br><div class="body_title">Speaker FAQs<br><img src="/print/global_images2005/spacer.gif" height="16" width="1"></div>
+<div class="text">
+
+<!-- text for main page -->
+<a name="top"></a> 
+
+<ul>
+
+    <!--/print/faqs/1252.htm-->
+    <li class="attendees11"><a href="#1252">Do I register myself for the International CES?</a>
+    
+
+    <!--/print/faqs/1260.htm-->
+    <li><a href="#1260">What date and time is my session? Where is it being held?</a>
+    
+
+    <!--/print/faqs/1259.htm-->
+    <li class="attendees11"><a href="#1259">As an International CES speaker, am I permitted access to your press list?</a>
+    
+
+    <!--/print/faqs/4043.htm-->
+    <li><a href="#4043">Will there be media present?</a>
+    
+
+    <!--/print/faqs/1258.htm-->
+    <li class="attendees11"><a href="#1258">I want to provide handouts to those attending my conference session. Does CES handle production?</a>
+    
+
+    <!--/print/faqs/1257.htm-->
+    <li><a href="#1257">Am I required to use the International CES slide template for the presentation?</a>
+    
+
+    <!--/print/faqs/4076.htm-->
+    <li class="attendees11"><a href="#4076">Can my marketing department distribute handouts and materials during the session?</a>
+    
+
+    <!--/print/faqs/1256.htm-->
+    <li><a href="#1256">I'm eager to hear my panel discussion. Where can I get an audiotape?</a>
+    
+
+    <!--/print/faqs/1255.htm-->
+    <li class="attendees11"><a href="#1255">What A/V equipment will be available in the conference sessions?</a>
+    
+
+    <!--/print/faqs/1254.htm-->
+    <li><a href="#1254">You requested my bio. Will it be published in any show materials?</a>
+    
+
+    <!--/print/faqs/1253.htm-->
+    <li class="attendees11"><a href="#1253">Are there speaker lounges on-site where I can practice my presentation?</a>
+    
+
+    <!--/print/faqs/1251.htm-->
+    <li><a href="#1251">Are panelists required to bring laptops loaded with their multimedia presentations, or will this be handled by the International CES?</a>
+    
+
+    <!--/print/faqs/1250.htm-->
+    <li class="attendees11"><a href="#1250">Does the International CES cover speaker travel and hotel expenses?</a>
+    
+
+    <!--/print/faqs/1249.htm-->
+    <li><a href="#1249">Does the International CES provide speaker honorariums?</a>
+    
+
+    <!--/print/faqs/1248.htm-->
+    <li class="attendees11"><a href="#1248">How are speakers selected?</a>
+    
+
+    <!--/print/faqs/1247.htm-->
+    <li><a href="#1247">I submitted a Call For Speakers form. When will I be notified if I was chosen to speak at the International CES?</a>
+    
+
+</ul>
+<br>
+<a name="1252"></a>
+<img src="/print/global_images2005/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"><br>
+
+<img src="/print/global_images2005/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"><br>
+<img src="/print/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+
+<span class="subhead">Do I register myself for the International CES?</span><br>
+<br>
+No, as an International CES&nbsp;speaker, you automatically will be registered. Your badge will be available for pickup in the Speaker Ready Room (LVCC N263, LVCC&nbsp;S117, and The Venetian <SPAN style="FONT-FAMILY: ">Lando 4301</SPAN>) when you arrive on-site.
+<br><img src="/print/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+[<a href="#top">return to question list</a>]
+<br><a name="1260"></a>
+<img src="/print/global_images2005/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"><br>
+
+<img src="/print/global_images2005/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"><br>
+<img src="/print/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+
+<span class="subhead">What date and time is my session? Where is it being held?</span><br>
+<br>
+All&nbsp;conference session times and locations&nbsp;are listed online in the <A href="/print/attendees/conferences/default.asp">Conferences</A> section. Please note that the schedule is subject to change. Please visit CESweb.org frequently for updates.<BR><BR>Speakers should coordinate rehearsals and arrival times with their session moderators.
+<br><img src="/print/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+[<a href="#top">return to question list</a>]
+<br><a name="1259"></a>
+<img src="/print/global_images2005/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"><br>
+
+<img src="/print/global_images2005/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"><br>
+<img src="/print/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+
+<span class="subhead">As an International CES speaker, am I permitted access to your press list?</span><br>
+<br>
+Unfortunately, we do not distribute that information to International CES Speakers.
+<br><img src="/print/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+[<a href="#top">return to question list</a>]
+<br><a name="4043"></a>
+<img src="/print/global_images2005/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"><br>
+
+<img src="/print/global_images2005/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"><br>
+<img src="/print/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+
+<span class="subhead">Will there be media present?</span><br>
+<br>
+Press and analysts are admitted to conference sessions free of charge.&nbsp;There are no specific press services offered for speakers.&nbsp;If your company is exhibiting at CES, please visit the <A href="http://www.cesweb.org/exhibitors/pr/default.asp">PR Help for Exhibitors </A>page.
+<br><img src="/print/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+[<a href="#top">return to question list</a>]
+<br><a name="1258"></a>
+<img src="/print/global_images2005/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"><br>
+
+<img src="/print/global_images2005/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"><br>
+<img src="/print/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+
+<span class="subhead">I want to provide handouts to those attending my conference session. Does CES handle production?</span><br>
+<br>
+International CES is happy to produce handouts for conference sessions, but we must receive the handout by December 1, 2007. Speakers are responsible for making copies if the handout is not received by CES before December 1, 2007.
+<br><img src="/print/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+[<a href="#top">return to question list</a>]
+<br><a name="1257"></a>
+<img src="/print/global_images2005/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"><br>
+
+<img src="/print/global_images2005/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"><br>
+<img src="/print/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+
+<span class="subhead">Am I required to use the International CES slide template for the presentation?</span><br>
+<br>
+No, you are not required to use the International CES template, but we strongly encourage that you do.
+<br><img src="/print/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+[<a href="#top">return to question list</a>]
+<br><a name="4076"></a>
+<img src="/print/global_images2005/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"><br>
+
+<img src="/print/global_images2005/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"><br>
+<img src="/print/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+
+<span class="subhead">Can my marketing department distribute handouts and materials during the session?</span><br>
+<br>
+No.&nbsp;Promotional materials may&nbsp;not be distributed in session rooms.&nbsp;This is a privilege offered to paying sponsors only.&nbsp;For more information on sponsorship opportunities, please visit the <A href="/print/exhibitors/promotions/default.asp">CES Sponsorhip</A> page.
+<br><img src="/print/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+[<a href="#top">return to question list</a>]
+<br><a name="1256"></a>
+<img src="/print/global_images2005/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"><br>
+
+<img src="/print/global_images2005/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"><br>
+<img src="/print/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+
+<span class="subhead">I'm eager to hear my panel discussion. Where can I get an audiotape?</span><br>
+<br>
+All International CES Speakers will receive a CD of their conference session within a month of the show. If you require additional&nbsp;copies or recordings of additional sessions, you may purchase CDs through our recording vendor at <A href="http://www.mobiltape.com/">http://www.mobiltape.com/</A> or pick up an order form on-site in one of the Speaker Ready Rooms (LVCC N263, LVCC&nbsp;S117, and The Venetian <SPAN style="FONT-FAMILY: ">Lando 4301</SPAN>) .
+<br><img src="/print/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+[<a href="#top">return to question list</a>]
+<br><a name="1255"></a>
+<img src="/print/global_images2005/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"><br>
+
+<img src="/print/global_images2005/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"><br>
+<img src="/print/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+
+<span class="subhead">What A/V equipment will be available in the conference sessions?</span><br>
+<br>
+The standard A/V in each conference session will be:<BR>
+<UL>
+<LI>LCD Data/Data Projector </LI>
+<LI>Podium and podium microphone </LI>
+<LI>Panelist microphone </LI>
+<LI>8 x 8 Screen </LI>
+<LI>VGA Switch Box </LI></UL><BR>All other A/V equipment must be ordered and approved in advance. A/V equipment cannot be ordered on-site.
+<br><img src="/print/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+[<a href="#top">return to question list</a>]
+<br><a name="1254"></a>
+<img src="/print/global_images2005/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"><br>
+
+<img src="/print/global_images2005/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"><br>
+<img src="/print/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+
+<span class="subhead">You requested my bio. Will it be published in any show materials?</span><br>
+<br>
+If you are selected to speak, your biography will be posted on <A href="http://www.CESweb.org">www.CESweb.org</A> and will be used to introduce you at your session.
+<br><img src="/print/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+[<a href="#top">return to question list</a>]
+<br><a name="1253"></a>
+<img src="/print/global_images2005/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"><br>
+
+<img src="/print/global_images2005/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"><br>
+<img src="/print/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+
+<span class="subhead">Are there speaker lounges on-site where I can practice my presentation?</span><br>
+<br>
+Yes, there will be two Speaker Ready Rooms located in the Las Vegas Convention Center, in the North Hall in room N263 and the South Hall in S117/118, and one Speaker Ready Room in The Venetian in Lando 4301. Speaker Ready Rooms will be equipped with a computer, access to the Internet, fax machine, photocopier (for light photocopying only), telephones and light refreshments.
+<br><img src="/print/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+[<a href="#top">return to question list</a>]
+<br><a name="1251"></a>
+<img src="/print/global_images2005/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"><br>
+
+<img src="/print/global_images2005/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"><br>
+<img src="/print/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+
+<span class="subhead">Are panelists required to bring laptops loaded with their multimedia presentations, or will this be handled by the International CES?</span><br>
+<br>
+All panelists who wish to show a computer or multimedia presentation must provide their own laptops.
+<br><img src="/print/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+[<a href="#top">return to question list</a>]
+<br><a name="1250"></a>
+<img src="/print/global_images2005/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"><br>
+
+<img src="/print/global_images2005/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"><br>
+<img src="/print/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+
+<span class="subhead">Does the International CES cover speaker travel and hotel expenses?</span><br>
+<br>
+CES speakers are responsible for their own hotel and travel expenses.
+<br><img src="/print/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+[<a href="#top">return to question list</a>]
+<br><a name="1249"></a>
+<img src="/print/global_images2005/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"><br>
+
+<img src="/print/global_images2005/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"><br>
+<img src="/print/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+
+<span class="subhead">Does the International CES provide speaker honorariums?</span><br>
+<br>
+International CES does not provide speaker honorariums.
+<br><img src="/print/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+[<a href="#top">return to question list</a>]
+<br><a name="1248"></a>
+<img src="/print/global_images2005/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"><br>
+
+<img src="/print/global_images2005/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"><br>
+<img src="/print/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+
+<span class="subhead">How are speakers selected?</span><br>
+<br>
+Once the topics and sessions of the International CES Conference Program have been finalized, we look at the Call For Speakers entries for logical placements. Speakers are then selected based on their topic knowledge and prominence in their field. We also receive moderator recommendations for panelists. <BR><BR>Please know our program is largely comprised in panel format. There are rarely solo presenter opportunities.
+<br><img src="/print/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+[<a href="#top">return to question list</a>]
+<br><a name="1247"></a>
+<img src="/print/global_images2005/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"><br>
+
+<img src="/print/global_images2005/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"><br>
+<img src="/print/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+
+<span class="subhead">I submitted a Call For Speakers form. When will I be notified if I was chosen to speak at the International CES?</span><br>
+<br>
+All Call For Speakers entries will be answered by September 28, 2007. Read the <A href="/print/attendees/conferences/FAQs.asp">Call for Speakers FAQs</A> for more information about the entry process.
+<br><img src="/print/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+[<a href="#top">return to question list</a>]
+<br>
+<!-- /text for main page -->
+</div>
+
+<!-- /center content -->
+    <br><br><br>
+    </td>
+    <td width="10" class="attendees7"><img src="/print/global_images2005/spacer.gif" height="1" width="10"></td>
+<!-- optional added value -->
+
+<!-- /optional added value -->
+</tr>
+<!-- /main body row -->
+<!---->
+<!--/print/faqs/general.asp
+
+/print/faqs/press.asp
+
+/print/faqs/exhibitors.asp
+
+/print/faqs/speakers.asp
+
+-->
+</table>
+</body>
+</html>

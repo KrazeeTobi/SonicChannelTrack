@@ -1,0 +1,465 @@
+<HTML>
+<HEAD>
+
+<LINK REL="stylesheet" TYPE="text/css" HREF="menu.css">
+
+<SCRIPT TYPE="text/javascript" SRC="/ExpoCadVR2/js/menu.js"></SCRIPT>
+
+<SCRIPT TYPE="text/javascript">
+
+var BoothxmlDoc;
+var MenuxmlDoc;
+var ViewerxmlDoc;
+var zoom = "";
+var event = "";
+var status = "";
+var fav = "false";
+var area = "";
+var FavoritesAA = new Array();
+
+function Init()
+{
+   if(navigator.appName.indexOf("Microsoft") == -1)
+      InitNS();
+   else
+      InitIE();
+}
+
+function InitNS()
+{
+   BoothxmlDoc = document.implementation.createDocument("", "doc1", null) 
+   BoothxmlDoc.onload = LoadMenuNS;
+   BoothxmlDoc.load("VR2_files/08ces/booth.xml");
+}
+
+function LoadMenuNS()
+{ 
+   MenuxmlDoc = document.implementation.createDocument("", "doc2", null) 
+   MenuxmlDoc.onload = LoadEventNS; 
+   MenuxmlDoc.load("VR2_files/08ces/menu.xml"); 
+}
+
+function LoadEventNS()
+{
+   ViewerxmlDoc = document.implementation.createDocument("", "doc3", null) 
+   ViewerxmlDoc.onload = DisplayList; 
+   ViewerxmlDoc.load("viewer.xml"); 
+}
+
+function InitIE()
+{
+   BoothxmlDoc = new ActiveXObject("Microsoft.XMLDOM"); 
+   BoothxmlDoc.async = false; 
+   BoothxmlDoc.onreadystatechange = function () { if (BoothxmlDoc.readyState == 4) LoadMenuIE() };
+   BoothxmlDoc.load("VR2_files/08ces/booth.xml");
+}
+
+function LoadMenuIE()
+{
+   MenuxmlDoc = new ActiveXObject("Microsoft.XMLDOM"); 
+   MenuxmlDoc.async = false;
+   MenuxmlDoc.onreadystatechange = function () { if (MenuxmlDoc.readyState == 4) LoadEventIE() };
+   MenuxmlDoc.load("VR2_files/08ces/menu.xml");
+}
+
+function LoadEventIE()
+{
+   ViewerxmlDoc = new ActiveXObject("Microsoft.XMLDOM"); 
+   ViewerxmlDoc.async = false;
+   ViewerxmlDoc.onreadystatechange = function () { if (ViewerxmlDoc.readyState == 4) DisplayList() };
+   ViewerxmlDoc.load("viewer.xml");
+}
+
+function DisplayList()
+{
+   var params = location.search;
+   var AreaBuffer;
+   var rented = true;
+   var avail = true;
+   var availurl = "";
+
+   var checkfav = document.getElementById("favcheck");
+   var checkarea = document.getElementById("areacheck");
+   var valuearea = document.getElementById("areavalue");
+   var logicarea = document.getElementById("arealogic");
+   var buttonarea = document.getElementById("areabutton");
+
+   var blist = BoothxmlDoc.getElementsByTagName("BOOTHLIST");
+   var brec = blist[0].getElementsByTagName("BOOTH");
+   var bid = blist[0].getElementsByTagName("BOOTHID");
+   var barea = blist[0].getElementsByTagName("AREA");
+   var bcustid = blist[0].getElementsByTagName("CUSTID");
+
+   var menu = MenuxmlDoc.getElementsByTagName("MENU");
+   var config = menu[0].getElementsByTagName("CONFIG");
+   var cname = menu[0].getElementsByTagName("NAME");
+   var cavailurl = menu[0].getElementsByTagName("AVAILURL");
+   var cunits = menu[0].getElementsByTagName("UNITS");
+
+   var eevent = ViewerxmlDoc.getElementsByTagName("EVENT");
+   var econfig = eevent[0].getElementsByTagName("CONFIG");
+   var elinks = eevent[0].getElementsByTagName("LINKS");
+
+   var TheList = document.getElementById('list').getElementsByTagName("TBODY")[0];
+
+   event = cname[0].firstChild.nodeValue;
+
+   if(params.indexOf("?") == -1 && getCookie(event + "f") != null && getCookie(event + "f") != "")
+      params = "?" + getCookie(event + "f") + "";
+
+   if(params.indexOf("s=") > 0)
+      status = params.substring(params.indexOf("s=") + 2, params.indexOf("&f="));
+
+   if(params.indexOf("f=") > 0)
+      fav = params.substring(params.indexOf("f=") + 2, params.indexOf("&a="));
+
+   if(params.indexOf("a=") > 0)
+      area = params.substring(params.indexOf("a=") + 2, params.length);
+
+   if(status == "avail")
+      rented = false;
+   else if(status == "rented")
+      avail = false;
+   
+   if(rented && avail)
+      document.form.filter[0].checked = true;
+   else if(avail)
+      document.form.filter[1].checked = true;
+   else
+      document.form.filter[2].checked = true;
+
+   if(fav == "true")
+      checkfav.checked = true;
+   else
+      checkfav.checked = false;
+
+   if(area != "")
+   {
+      AreaBuffer = area.split("&");
+      checkarea.checked = true;
+      AreaFilter();
+      logicarea.selectedIndex = AreaBuffer[0];
+      valuearea.value = AreaBuffer[1];
+   }
+   else
+   {
+      logicarea.disabled = true;
+      valuearea.disabled  = true;
+      buttonarea.disabled  = true;
+   }
+
+   InitFavorites();
+
+   if(cavailurl[0].childNodes.length > 0)
+      availurl = cavailurl[0].firstChild.nodeValue;
+
+   var links = elinks[0].firstChild.nodeValue;
+   var units = cunits[0].firstChild.nodeValue;
+   var buffer = "";
+   var noselection = true;
+
+   var logicswitch = logicarea.selectedIndex + 0;
+   var BoothAreaBuffer = 0;
+   var TheArea = 0;
+   var tempURL = "";
+  
+   if(area != "")
+      TheArea = AreaBuffer[1];
+
+   for(var i = 0; i < brec.length; i++)
+   {
+      buffer = bid[i].firstChild.nodeValue + "";
+      tempURL = "";
+
+      if(checkarea.checked && area != null && area != "")
+      {
+         BoothAreaBuffer = barea[i].firstChild.nodeValue;
+
+         switch(logicswitch)
+         {
+            case 0:
+               if((BoothAreaBuffer * 1) != (TheArea * 1))
+                  continue;
+               break;
+
+            case 1:
+               if((BoothAreaBuffer * 1) <= (TheArea * 1))
+                  continue;
+               break;
+
+            case 2:
+               if((BoothAreaBuffer * 1) >= (TheArea * 1))
+                  continue;
+               break;
+
+            case 3:
+               if((BoothAreaBuffer * 1) < (TheArea * 1))
+                  continue;
+               break;
+
+            case 4:
+               if((BoothAreaBuffer * 1) > (TheArea * 1))
+                  continue;
+               break;
+         }
+      }
+
+      if(checkfav.checked && FavoritesAA[buffer] == null)
+         continue;
+
+      if(bcustid[i].childNodes.length > 0 && !rented)
+         continue;
+      else if(bcustid[i].childNodes.length == 0 && !avail)
+         continue;
+
+      noselection = false;
+
+      var tr = document.createElement("tr");
+      var td1 = document.createElement("td");
+      var td2 = document.createElement("td");
+      var td3 = document.createElement("td");
+      var td4 = document.createElement("td");
+      td1.innerHTML = "<A CLASS='ListValue' HREF=\"javascript:ZoomBooth('" + bid[i].firstChild.nodeValue + "');\">" + bid[i].firstChild.nodeValue + "</A>";      
+      
+      if(bcustid[i].childNodes.length > 0)
+         td2.innerHTML = "<A CLASS='rented' TARGET='_self' HREF='exhibdetail.html?id=" + bcustid[i].firstChild.nodeValue + "'>Rented</A>";
+      else
+      {
+         if(availurl != "" && links == "1")
+         {
+	    tempURL = availurl;
+            tempURL = eval('tempURL.replace("*expobooth*", bid[i].firstChild.nodeValue )')
+            td2.innerHTML = "<A CLASS='available' TARGET='_blank' HREF='" + tempURL + "'>Available</A>";
+         }
+         else
+            td2.innerHTML = "<SPAN CLASS='available'>Available</SPAN>";
+      }
+
+      td3.innerHTML = "<SPAN CLASS='text'>" + barea[i].firstChild.nodeValue + "</SPAN>";       
+
+      if(FavoritesAA[buffer] != null)
+         td4.innerHTML = "<INPUT TYPE='checkbox' ID='" + bid[i].firstChild.nodeValue + "' value='" + bid[i].firstChild.nodeValue + "' onClick='AddBoothToFavorites(\"" + bid[i].firstChild.nodeValue + "\");' CHECKED>";
+      else
+         td4.innerHTML = "<INPUT TYPE='checkbox' ID='" + bid[i].firstChild.nodeValue + "' value='" + bid[i].firstChild.nodeValue + "' onClick='AddBoothToFavorites(\"" + bid[i].firstChild.nodeValue + "\");'>";
+ 
+      td4.align = "center";
+
+      tr.noWrap = true;
+      td1.noWrap = true;
+      td2.noWrap = true;
+      td3.noWrap = true;
+      td4.noWrap = true;
+      td4.width = "10%";
+      tr.appendChild(td1); 
+      tr.appendChild(td2); 
+      tr.appendChild(td3);
+      tr.appendChild(td4); 					  
+      TheList.appendChild(tr); 
+
+      if(zoom == "")
+         zoom = bid[i].firstChild.nodeValue + "";
+      else
+         zoom += ", " + bid[i].firstChild.nodeValue;  	
+   }
+
+   if(noselection)
+   {
+      var tr = document.createElement("tr");
+      var td = document.createElement("td");
+      td.innerHTML = "<SPAN CLASS='text'>No booths found in filter selection</SPAN>";
+      td.colSpan = "4";
+      td.align = "center";
+      tr.noWrap = true;
+      td.noWrap = true;
+      tr.appendChild(td); 				  
+      TheList.appendChild(tr); 
+   }
+
+   var UnitArea = document.getElementById('areatitle');
+   UnitArea.innerHTML = "<SPAN CLASS='title'>Area (sq " + units + ")</SPAN>";
+}
+
+function AddBoothToFavorites(booth)
+{
+     var checkbox = document.getElementById(booth);
+
+     if(checkbox.checked == true)
+        AddToFavorites(booth, 'b', event, false);
+     else
+        DeleteFromFavorites(booth, 'b', event, false);
+}
+
+function DeleteAllBoothFavorites()
+{
+   setCookie(event + 'b', "", 1000);
+
+   TheFilter();
+}
+
+function InitFavorites()
+{
+   var cookie = getCookie(event + 'b');
+
+   if(cookie != null && cookie != "")
+   {
+      var Favorites = cookie.split("|");
+      
+      if(Favorites != null)
+      {
+         for(var k = 0; k < Favorites.length; k++)
+         {
+            if(Favorites[k] != "")
+               FavoritesAA[Favorites[k]] = Favorites[k];
+         }
+      }
+   }   
+}
+
+
+function TheFilter()
+{
+   status = "";
+   area = "";
+   fav = "";
+
+   var checkfav = document.getElementById("favcheck");
+   var checkarea = document.getElementById("areacheck");
+   var valuearea = document.getElementById("areavalue");
+   var logicarea = document.getElementById("arealogic");
+
+   if(document.form.filter[0].checked)
+      status = document.form.filter[0].value;
+   else if(document.form.filter[1].checked)
+      status = document.form.filter[1].value;
+   else
+      status = document.form.filter[2].value;
+
+   if(checkarea.checked && valuearea.value != "" && valuearea.value != null)
+      area = logicarea.selectedIndex + "&" + valuearea.value;
+   else
+      area = "";
+
+   if(checkfav.checked)
+      fav = "true";
+   else
+      fav = "false";
+
+   setCookie(event + "f", "s=" + status + "&f=" + fav + "&a=" + area, 1000);
+   window.open("booth.html?s=" + status + "&f=" + fav + "&a=" + area, "_self");
+
+}
+
+function AreaFilter()
+{
+   var checkarea = document.getElementById("areacheck");
+   var logicarea = document.getElementById("arealogic");
+   var valuearea = document.getElementById("areavalue");
+   var buttonarea = document.getElementById("areabutton");
+
+   if(checkarea.checked)
+   {
+      logicarea.disabled = false;
+      valuearea.disabled  = false;
+      buttonarea.disabled  = false;
+   }
+   else
+   {
+      logicarea.disabled = true;
+      valuearea.disabled  = true;
+      buttonarea.disabled  = true;
+      TheFilter();
+   }
+}
+
+
+
+</SCRIPT>
+
+</HEAD>
+
+<BODY onLoad="Init();">
+
+<form name="form">
+
+<TABLE CLASS="tb_brdrcolor" BORDER="1" CELLPADDING="0" CELLSPACING="0" NOWRAP="true">
+<TR>
+<TD>
+   <TABLE CLASS="tb_bgcolor" WIDTH="100%" BORDER="0" CELLPADDING="8" CELLSPACING="0">
+   <TR>
+      <TD><A CLASS="toolbar" HREF="javascript:ListByName();">Exhibitors</A></TD>
+      <TD><A CLASS="toolbar" HREF="javascript:ListByGroup();">Groups</A></TD>
+      <TD><A CLASS="toolbar" HREF="javascript:ListByPavilion();">Pavilions</A></TD>
+      <TD><A CLASS="seltoolbar" HREF="javascript:ListByBooth();">Booths</A></TD>
+   </TR>
+   <TR>
+      <TD><A CLASS="toolbar" HREF="javascript:ListByFavorites();">Favorites</A></TD>
+      <TD><A CLASS="toolbar" HREF="javascript:PrintList();">Print</A></TD>
+   </TR>
+   </TABLE>
+</TD>
+</TR>
+</TABLE>
+
+<BR>
+
+<TABLE CLASS="tb_brdrcolor" BORDER="1" CELLPADDING="0" CELLSPACING="0" NOWRAP="true">
+<TR>
+<TD>
+   <TABLE CLASS="tb_bgcolor" BORDER="1" CELLPADDING="3" CELLSPACING="0" NOWRAP="true">
+   <TR>
+      <TD CLASS="title_bgcolor" NOWRAP="true" COLSPAN="3"><SPAN CLASS="title">Booth Filter :</SPAN></TD>
+   </TR>
+   <TR>
+   <TD>
+      <TABLE WIDTH="100%" BORDER="0" CELLPADDING="3" CELLSPACING="0" NOWRAP="true">
+      <TR>
+         <TD NOWRAP="true"><INPUT TYPE="radio" VALUE="all" ID="filter" NAME="filter" onClick="TheFilter();"><FONT SIZE=-1 COLOR=#000099><B>All Booths</B></FONT></A></TD>
+         <TD NOWRAP="true"><INPUT TYPE="radio" VALUE="avail" ID="filter" NAME="filter" onClick="TheFilter();"><FONT SIZE=-1 COLOR=#009900><B>Available Only</B></FONT></A></TD>
+         <TD NOWRAP="true"><INPUT TYPE="radio" VALUE="rented" ID="filter" NAME="filter" onClick="TheFilter();"><FONT SIZE=-1 COLOR=#990000><B>Rented Only</B></FONT></A></TD>
+      </TR>
+      </TABLE>
+   </TD>
+   </TR>
+   <TR NOWRAP="true">
+      <TD COLSPAN="3" NOWRAP="true">
+         <TABLE WIDTH="100%" BORDER="0" CELLPADDING="3" CELLSPACING="0" NOWRAP="true">
+         <TR>
+            <TD><INPUT TYPE="checkbox" ID="areacheck" onClick="AreaFilter();"><FONT SIZE=-1 COLOR=#000099><B>Area</B></FONT></TD>
+            <TD><SELECT ID="arealogic"><OPTION>=</OPTION><OPTION>&gt;</OPTION><OPTION>&lt;</OPTION><OPTION>&gt;=</OPTION><OPTION>&lt;=</OPTION></SELECT></TD>
+            <TD><INPUT TYPE="text" size="5" ID="areavalue" onFocus="this.select();"></TD>
+            <TD ID="areaunit"></TD>
+            <TD><INPUT TYPE="button" ID="areabutton" VALUE="Filter Area" onClick="TheFilter();"></TD>
+         </TR>
+         </TABLE>
+      </TD>
+   </TR>
+   <TR>
+      <TD COLSPAN="3">&nbsp;<INPUT TYPE="checkbox" ID="favcheck" onClick="TheFilter();"><FONT SIZE=-1 COLOR=#000099><B>Favorite Booths Only</B></FONT></TD>
+   </TR>
+   <TR>
+   <TD>
+   <TABLE CLASS="tb_bgcolor" BORDER="0" CELLPADDING="3" CELLSPACING="0" NOWRAP="true">
+   <TR>
+      <TD NOWRAP="true"><INPUT TYPE="button" onClick="DeleteAllBoothFavorites();" VALUE="Clear All Favorites"></TD>
+      <TD NOWRAP="true">&nbsp;</TD>
+      <TD NOWRAP="true"><INPUT TYPE="button" onClick="TheFilter();" VALUE="Refresh Booth List"></TD>
+   </TR>
+   </TABLE>
+   </TD>
+   </TR>
+   </TABLE>
+</TD>
+</TR>
+</TABLE>
+
+<BR>
+
+<TABLE CLASS="list_bgcolor" ID="list" BORDER="1" CELLPADDING="5" CELLSPACING="0" NOWRAP="true">
+<TR><TD ALIGN="center" COLSPAN="4"><A CLASS="ListValue" HREF="javascript:ZoomBooth(zoom);">Highlight Booth Filter Selection</A></TD></TR>
+<TR><TD CLASS="title_bgcolor"><SPAN CLASS="title">Booth</SPAN></TD><TD CLASS="title_bgcolor"><SPAN CLASS="title">Status</SPAN></TD><TD ID="areatitle" CLASS="title_bgcolor"></TD><TD CLASS="title_bgcolor"><SPAN CLASS="title">Favorite</SPAN></TD></TR>
+</TABLE>
+
+</form>
+
+</BODY>
+</HTML>

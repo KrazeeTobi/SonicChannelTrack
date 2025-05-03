@@ -1,0 +1,220 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head><!-- PageID 1927 - published by RedDot 7.5 - 7.5.0.33 - 16244 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<!-- INSERT PAGE TITLE HERE (immediately following gblPAGE_TITLE) -->
+<title>2005 International CES:&nbsp;</title>
+
+<!-- INSERT SEARCH ZONE HERE -->
+ <META NAME="searchZone" CONTENT="generalCESweb">
+<link rel="StyleSheet" href="/print/global_includes/js/mainMethod.css" type="text/css">
+<LINK REL="SHORTCUT ICON" HREF="http://www.easymovement.com/ces/favicon.ico">
+<!-- Browser detection script -->
+    <script src="/print/global_includes/js/browser_detection.js" type="text/javascript"></script>
+<SCRIPT language="javascript1.2">
+    function newWin(urlString,pgNum) {
+        var popupWindow;
+        urlString += "?pageID=" + pgNum;
+ 
+        popupWindow = window.open(urlString,"","toolbar=yes,menubar=no,resizable=no,status=no,scrollbars=yes,location=no,directories=no,copyhistory=no,height=550,width=618,left=50,top=50");
+    }  
+ 
+    function openNewWindow(strURL) {
+        window.name = "main";
+        var newWindow = window.open(strURL,"newWindow", "toolbar=no,menubar=no,resizable=no,status=no,scrollbars=yes,location=no,directories=no,copyhistory=no,height=400,width=450,left=50,top=50");
+    }
+    // Script for e-mail this page - gets the url of the page the user is on before the e-mail page tool button is clicked
+    function loadReferrer() {
+        referrerString = opener.document.location.href;
+        document.emailForm.page.value = referrerString;
+    }
+</SCRIPT>
+<!-- Rollover script (do we still need these?) --> 
+<script language="javascript1.2"> 
+    /* for graphical rollovers */
+   function rollOver(which,name) 
+    {
+    var on="/global_images/1.0/1.0_" + which + "_r.gif";
+    if(document.images) {document.images[which].src=on;}
+    else if (document.GetElementById){document.GetElementById(name).src=on;}
+    }
+   function rollOff(which) 
+    {
+    var on="/global_images/1.0/1.0_" + which + ".gif";
+    if(document.images){document.images[which].src=on;}
+    else if (document.GetElementById){document.GetElementById(which).src=on;}
+    }
+   function introllOver(which,name) 
+    {
+    var on="/global_images/1.0/1.0_" + which + "_r.gif";
+    if(document.images) {document.images[which].src=on;}
+    else if (document.GetElementById){document.GetElementById(name).src=on;}
+    }
+   function introllOff(which) 
+    {
+    var on="/global_images/1.0/1.0_" + which + ".gif";
+    if(document.images){document.images[which].src=on;}
+    else if (document.GetElementById){document.GetElementById(which).src=on;}
+    }
+   function snrollOver(which,name) 
+    {
+    var on="/global_images/1.0/1.0" + which + "_r.gif";
+    if(document.images) {document.images[which].src=on;}
+    else if (document.GetElementById){document.GetElementById(name).src=on;}
+    }
+   function snrollOff(which) 
+    {
+    var on="/global_images/1.0/1.0" + which + ".gif";
+    if(document.images){document.images[which].src=on;}
+    else if (document.GetElementById){document.GetElementById(which).src=on;}
+    }
+        
+    //do we still need this?   
+    function onLoadHandler() {
+       if( typeof(bodyOnLoadFunction) != 'undefined' ) {
+           return eval(bodyOnLoadFunction);
+       }
+    }
+</script>
+<script language="javascript">
+    <!--
+    var activeNavId=0;
+    var thisPageUrl='/attendees/show_floor/areas/south34.asp';
+    
+        var parentLinks=new Array('dummy');
+    
+        function checkActiveNav(theUrl) {
+            var linkUrl=theUrl;
+            var returnValue=false;
+            
+            if (linkUrl==thisPageUrl) {
+                returnValue=true;
+            } else if (parentLinks.length>2 && linkUrl==parentLinks[parentLinks.length-1]) {
+                returnValue=true;   
+            } else if (parentLinks.length>3 && linkUrl==parentLinks[parentLinks.length-2]) {
+                returnValue=true;
+            } else if (parentLinks.length>4 && linkUrl==parentLinks[parentLinks.length-3]) {
+                returnValue=true;
+            }
+        return returnValue;
+    }
+    //-->
+    </script>
+    <style>
+        <!--
+            .attendeesBGImg {
+                background-image: url('/print/global_images2005/attendees_bg.gif');
+            }
+            .text_colored, .intro_copy, .section_title, .subhead, .body_title, .intro_dates, .box10 {
+               color: #498429;
+            }
+            
+        //-->
+    </style>
+</head>
+<body leftmargin='0' topmargin='0' rightmargin='0' bottommargin='0' marginwidth='0' onLoad="onLoadHandler();self.focus();"> 
+<div style="position:absolute; top: 15; left: 15" ><a href='javascript:;' onClick='window.print();return false'><img src="/print/global_images2005/print.jpg" width="115" height="20" border="0" alt=""></a></div>
+<IMG SRC="/print/global_images2005/attPrintBanner.jpg" width="601" BORDER="0" vspace=0><br><table width="600" cellspacing="0" cellpadding="0" border="0">
+    <tr>
+<!-- /left column -->
+
+<!-- main body content -->    
+    <td width="10" class="attendees7"><img src="/print/global_images2005/spacer.gif" height="1" width="10"></td>
+    <td width="100%" class="attendees7" valign="top">
+    <img src="/print/global_images2005/spacer.gif" height="10" width="1"><br>
+<!-- center content -->
+
+
+<div class="body_title">Las Vegas Convention Center, South Halls 3-4, Upper Level<br><img src="/print/global_images2005/spacer.gif" height="16" width="1"></div>
+<div class="text"> 
+<!-- text for main page -->
+
+<span class="text">
+<IMG src="/print/images/general/icons_south34_lg.gif"><BR><BR>The upper level of the Las Vegas Convention Center’s South Halls boasts the latest in digital imaging, emerging technology, gaming, home&nbsp;networking&nbsp;and wireless products. You miss these halls, and you miss it all.<BR><BR>South Halls open at 9 a.m.&nbsp;Monday, January 8&nbsp;(one hour early). Here you'll find:</span>
+
+
+
+<a name="1975"></a>
+<img src="/print/global_images2005/spacer.gif" alt="" width="100%" height="30" hspace="0" vspace="0" border="0"><br>
+
+<img src="/print/global_images2005/1.0.line.gif" alt="-----------------------------------------------" width="100%" height="2" hspace="0" vspace="0" border="0"><br>
+
+<div class="section_title">South Halls Upper Level 3-4</div>
+<span class="text">
+<UL>
+<LI>South Hall 3 - Booth #s 30000-32999 </LI>
+<LI>South Hall 4 - Booth #s 35000-37999 </LI>
+<LI>South Hall 4 -&nbsp;Meeting rooms S201-S218 </LI>
+<LI>South Hall 4 - Exhibitor registration<BR><BR></LI>
+<LI><STRONG>Exhibits featuring:</STRONG> <BR>- Audio/video<BR>- Computer hardware and software <BR>- Gaming <BR>- Home networking<BR>- Information technology<BR>- Internet infrastructure and content<BR>- Wireless technology<BR><BR></LI>
+<LI><STRONG><IMG height=30 src="/print/images/general/Key_Att_Dig_Imaging_150.gif" width=150 align=right>Digital Imaging Showcase - New Key Attraction!<BR></STRONG>Come see more than 30 companies, including ATP, Delkin, Fidelity, KIS, Lucidiom, Noritsu and Wacom on 7,000 square feet of exhibit space as they provide solutions to digital imaging and CE retailers. <BR><BR></LI>
+<LI><STRONG><IMG height=57 src="/print/images/partners/USB-print-7-19.gif" width=125 align=right>USB TechZone</STRONG><BR>USB technology makes “plug and play” a reality and accommodates our busy workstyles and lifestyles. The impact of USB connectivity on small office/home office, our PCs, printers, scanners, PDAs and digital cameras is huge. <A href="/print/attendees/show_floor/techzones/default.asp">More about TechZones.</A><BR><BR></LI>
+<LI><STRONG><IMG height=45 src="/print/images/partners/Wimedia-7-19-print.gif" width=138 align=right>WiMedia TechZone<BR></STRONG>The WiMedia TechZone promotes the rapid adoption, regulation, standardization and multi-vendor interoperability of ultra-wideband (UWB) worldwide. <A href="/print/attendees/show_floor/techzones/default.asp">More about TechZones.</A><BR><BR></LI>
+<LI><STRONG>Wireless Distribution TechZone<BR></STRONG>If you represent any facet of the indirect wireless retail channel, this TechZone is a dream come true for you. Meet distributors who represent all major wireless carriers and manufacturers of handsets and accessories who provide the products, services and applications to positively impact your business. <A href="/print/attendees/show_floor/techzones/default.asp">More about TechZones.</A><BR><BR></LI>
+<LI><STRONG><IMG height=43 src="/print/images/general/KeyAtt_Wireless_World_150.gif" width=150 align=right>Wireless World - New Key Attraction!<BR></STRONG>Wireless World at CES is a key attraction featuring prominent industry leaders like Nokia, Qualcomm, Blackberry and more with the latest in handsets and accessories. Within Wireless World you will find the <A href="/print/attendees/show_floor/techzones/default.asp">Discovering Wireless Mobility TechZone</A>, brought to you by Qualcomm, and the entire value chain from manufacturers to distribution to content and accessories. <BR><BR></LI>
+<LI><STRONG>CES Meeting Place: Hospitality Suites</STRONG><BR>Located right on the show floor, <A href="/print/exhibitors/space/suites.asp">CES Meeting Place hospitality suites</A> offer exhibitors a place to meet with attendees in a private, comfortable, professional environment.</LI></UL>
+</span>
+<a name="1976"></a>
+<img src="/print/global_images2005/spacer.gif" alt="" width="100%" height="30" hspace="0" vspace="0" border="0"><br>
+
+<img src="/print/global_images2005/1.0.line.gif" alt="-----------------------------------------------" width="100%" height="2" hspace="0" vspace="0" border="0"><br>
+
+<div class="section_title">South Hall, Upper Level Lobby</div>
+<span class="text">
+<STRONG><IMG height=67 src="/print/images/partners/redball_cnet.gif" width=200 align=right>The CNET Stage</STRONG><BR>Make your way to the CNET Stage to see hot products, editor’s picks, product demos, lively commentary from CNET editors and the <A href="/print/attendees/awards/3227.asp">Best of CES Awards</A> winners.<BR><BR><STRONG><BR><IMG height=122 src="/print/images/partners/cnetbestofces08_60.gif" width=60 align=left>CNET's Best of CES Awards: Finalists Announced</STRONG><BR>10 a.m. Tuesday, January 8
+
+<P><STRONG>CNET's Best of CES Awards: Winners Announced<BR></STRONG>2 p.m. Wednesday, January 9</P>
+</span>
+<a name="1978"></a>
+<img src="/print/global_images2005/spacer.gif" alt="" width="100%" height="30" hspace="0" vspace="0" border="0"><br>
+
+<img src="/print/global_images2005/1.0.line.gif" alt="-----------------------------------------------" width="100%" height="2" hspace="0" vspace="0" border="0"><br>
+
+<div class="section_title">South Hall Meeting Room Connector</div>
+<span class="text">
+<UL>
+<LI><STRONG>2008 International CES Exhibit Space Selection <BR></STRONG>The Exhibit Space Selection (Room S223) is an exhibitor’s first opportunity to confirm their participation in the following year's International CES. Exhibitors choose future booth space, based on product categories and past years' participation in the International CES.<BR><BR></LI>
+<LI><STRONG>International Commerce Center<BR></STRONG>Available to all international attendees and exhibitors, the International Commerce Center (Room S224) is a great meeting ground and place to check e-mail, enjoy light refreshments and have questions about the show answered by the multilingual staff.<BR><BR></LI>
+<LI><STRONG>International Reception<BR></STRONG>Enjoy the first evening of the show networking with exhibitors and attendees from around the world. All international attendees, exhibitors and press are invited to this networking event. 6-7:30 p.m. Monday, January 7, 2008,&nbsp;LVCC, Room S222. <A href="/print/international/english/services.asp">See more international services.<BR><BR></A></LI>
+<LI><STRONG>Press Room and Press Registration</STRONG><BR>The CES Press Room (Room S229) is reserved for journalists and analysts to provide them with assistance as they cover the International CES.<BR><BR></LI>
+<LI>CEA Member Lounge and Allied Associations Lounge </LI>
+<LI>Meeting Rooms S219-S233 </LI>
+<LI>Press Conference Rooms </LI>
+<LI>Show Office</LI></UL>
+</span>
+<!-- text for main page -->
+</div>
+
+<!-- /center content -->
+    <br><br><br>
+    </td>
+    <td width="10" class="attendees7"><img src="/print/global_images2005/spacer.gif" height="1" width="10"></td>
+<!-- optional added value -->
+
+<!-- /optional added value -->
+</tr>
+<!-- /main body row -->
+<!--/print/attendees/conferences/default.asp/print/attendees/directory/default.asp/print/attendees/show_floor/default.asp/print/attendees/special_events/default.asp/print/attendees/awards/default.asp/print/attendees/travel/default.asp/print/attendees/myCES/default.asp-->
+<!--/print/attendees/show_floor/areas.asp
+
+/print/attendees/show_floor/grand_lobby.asp
+/print/attendees/show_floor/north.asp
+/print/attendees/show_floor/central.asp
+/print/attendees/show_floor/south12.asp
+/print/attendees/show_floor/south34.asp
+/print/attendees/show_floor/central_plaza.asp
+/print/attendees/show_floor/sands.asp
+/print/attendees/show_floor/hilton.asp
+/print/attendees/show_floor/maps/default.asp
+
+/print/attendees/show_floor/displays.asp
+
+/print/attendees/show_floor/techzones/default.asp
+
+/print/attendees/show_floor/floor_plans/default.asp
+
+-->
+</table>
+</body>
+</html>

@@ -1,0 +1,257 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head><!-- PageID 1629 - published by RedDot 7.5 - 7.5.0.33 - 16244 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<!-- INSERT PAGE TITLE HERE (immediately following gblPAGE_TITLE) -->
+<title>2005 International CES:&nbsp;</title>
+
+<!-- INSERT SEARCH ZONE HERE -->
+ <META NAME="searchZone" CONTENT="generalCESweb">
+<link rel="StyleSheet" href="/print/global_includes/js/mainMethod.css" type="text/css">
+<LINK REL="SHORTCUT ICON" HREF="http://www.easymovement.com/ces/favicon.ico">
+<!-- Browser detection script -->
+    <script src="/print/global_includes/js/browser_detection.js" type="text/javascript"></script>
+<SCRIPT language="javascript1.2">
+    function newWin(urlString,pgNum) {
+        var popupWindow;
+        urlString += "?pageID=" + pgNum;
+ 
+        popupWindow = window.open(urlString,"","toolbar=yes,menubar=no,resizable=no,status=no,scrollbars=yes,location=no,directories=no,copyhistory=no,height=550,width=618,left=50,top=50");
+    }  
+ 
+    function openNewWindow(strURL) {
+        window.name = "main";
+        var newWindow = window.open(strURL,"newWindow", "toolbar=no,menubar=no,resizable=no,status=no,scrollbars=yes,location=no,directories=no,copyhistory=no,height=400,width=450,left=50,top=50");
+    }
+    // Script for e-mail this page - gets the url of the page the user is on before the e-mail page tool button is clicked
+    function loadReferrer() {
+        referrerString = opener.document.location.href;
+        document.emailForm.page.value = referrerString;
+    }
+</SCRIPT>
+<!-- Rollover script (do we still need these?) --> 
+<script language="javascript1.2"> 
+    /* for graphical rollovers */
+   function rollOver(which,name) 
+    {
+    var on="/global_images/1.0/1.0_" + which + "_r.gif";
+    if(document.images) {document.images[which].src=on;}
+    else if (document.GetElementById){document.GetElementById(name).src=on;}
+    }
+   function rollOff(which) 
+    {
+    var on="/global_images/1.0/1.0_" + which + ".gif";
+    if(document.images){document.images[which].src=on;}
+    else if (document.GetElementById){document.GetElementById(which).src=on;}
+    }
+   function introllOver(which,name) 
+    {
+    var on="/global_images/1.0/1.0_" + which + "_r.gif";
+    if(document.images) {document.images[which].src=on;}
+    else if (document.GetElementById){document.GetElementById(name).src=on;}
+    }
+   function introllOff(which) 
+    {
+    var on="/global_images/1.0/1.0_" + which + ".gif";
+    if(document.images){document.images[which].src=on;}
+    else if (document.GetElementById){document.GetElementById(which).src=on;}
+    }
+   function snrollOver(which,name) 
+    {
+    var on="/global_images/1.0/1.0" + which + "_r.gif";
+    if(document.images) {document.images[which].src=on;}
+    else if (document.GetElementById){document.GetElementById(name).src=on;}
+    }
+   function snrollOff(which) 
+    {
+    var on="/global_images/1.0/1.0" + which + ".gif";
+    if(document.images){document.images[which].src=on;}
+    else if (document.GetElementById){document.GetElementById(which).src=on;}
+    }
+        
+    //do we still need this?   
+    function onLoadHandler() {
+       if( typeof(bodyOnLoadFunction) != 'undefined' ) {
+           return eval(bodyOnLoadFunction);
+       }
+    }
+</script>
+<script language="javascript">
+    <!--
+    var activeNavId=0;
+    var thisPageUrl='/attendees/conferences/insiders.asp';
+    
+        var parentLinks=new Array('dummy','/print/attendees/default.htm','/print/attendees/conferences/default.asp');
+    
+        function checkActiveNav(theUrl) {
+            var linkUrl=theUrl;
+            var returnValue=false;
+            
+            if (linkUrl==thisPageUrl) {
+                returnValue=true;
+            } else if (parentLinks.length>2 && linkUrl==parentLinks[parentLinks.length-1]) {
+                returnValue=true;   
+            } else if (parentLinks.length>3 && linkUrl==parentLinks[parentLinks.length-2]) {
+                returnValue=true;
+            } else if (parentLinks.length>4 && linkUrl==parentLinks[parentLinks.length-3]) {
+                returnValue=true;
+            }
+        return returnValue;
+    }
+    //-->
+    </script>
+    <style>
+        <!--
+            .attendeesBGImg {
+                background-image: url('/print/global_images2005/attendees_bg.gif');
+            }
+            .text_colored, .intro_copy, .section_title, .subhead, .body_title, .intro_dates, .box10 {
+               color: #498429;
+            }
+            
+        //-->
+    </style>
+</head>
+<body leftmargin='0' topmargin='0' rightmargin='0' bottommargin='0' marginwidth='0' onLoad="onLoadHandler();self.focus();"> 
+<div style="position:absolute; top: 15; left: 15" ><a href='javascript:;' onClick='window.print();return false'><img src="/print/global_images2005/print.jpg" width="115" height="20" border="0" alt=""></a></div>
+<IMG SRC="/print/global_images2005/attPrintBanner.jpg" width="601" BORDER="0" vspace=0><br><table width="600" cellspacing="0" cellpadding="0" border="0">
+    <tr>
+<!-- /left column -->
+
+<!-- main body content -->    
+    <td width="10" class="attendees7"><img src="/print/global_images2005/spacer.gif" height="1" width="10"></td>
+    <td width="100%" class="attendees7" valign="top">
+    <img src="/print/global_images2005/spacer.gif" height="10" width="1"><br>
+<!-- center content -->
+
+
+<div class="body_title">Industry Insider Series<br><img src="/print/global_images2005/spacer.gif" height="16" width="1"></div>
+<div class="text"> 
+<!-- text for main page -->
+
+<span class="text">
+<SPAN class=section_title>The Inside Track</SPAN><BR><BR>The best of both worlds, the Industry Insider Series offers a keynote-style lineup&nbsp;with what many may call a more personal approach.&nbsp;Prepare to get to the heart of&nbsp;critical consumer electronics issues quickly thanks to the candid&nbsp;style of the insiders.<BR><BR>All&nbsp;Industry Insider&nbsp;sessions are&nbsp;held in the&nbsp;spacious Las Vegas Hilton Theater.</span>
+
+
+<a name="4839"></a>
+<img src="/print/global_images2005/spacer.gif" alt="" width="100%" height="30" hspace="0" vspace="0" border="0"><br>
+
+<img src="/print/global_images2005/1.0.line.gif" alt="-----------------------------------------------" width="100%" height="2" hspace="0" vspace="0" border="0"><br>
+<img src="/print/global_images2005/spacer.gif" alt="" width="100%" height="4" hspace="0" vspace="0" border="0"><br>
+
+<span class="subhead">Yahoo! CEO and Chief Yahoo! Jerry Yang <!-- --></a><br>
+<span class="text_colored">11 a.m.-Noon Monday, January 7, 2008, Las Vegas Hilton Theater</span><br><br>
+<img src="/print/images/partners/Yang_Yahoo_rdax_88x110.jpg" alt="Yang_Yahoo" border="0" align="right">
+
+<span class="text">
+
+<P>Jerry Yang&nbsp;kicks off the 2008 International CES Industry Insider Series&nbsp;the first day of the show&nbsp;at the Las Vegas Hilton Theater.&nbsp;Yang co-created the Yahoo! Internet navigational guide in 1994 and co-founded Yahoo! Inc. in April 1995. He was appointed&nbsp;CEO in June 2007. Yang has been instrumental in building Yahoo! into the world’s most trafficked web site, and one of the Internet’s most recognized brands.&nbsp;<BR><BR>Prepare to hear Yang’s views on the evolution of Internet technology and its impact on consumer technology products.<BR></P>
+</span><a name="3863"></a>
+<img src="/print/global_images2005/spacer.gif" alt="" width="100%" height="30" hspace="0" vspace="0" border="0"><br>
+
+<img src="/print/global_images2005/1.0.line.gif" alt="-----------------------------------------------" width="100%" height="2" hspace="0" vspace="0" border="0"><br>
+<img src="/print/global_images2005/spacer.gif" alt="" width="100%" height="4" hspace="0" vspace="0" border="0"><br>
+
+<span class="subhead">TECHNOLOGY IMPACT: The Shaping of Hollywood Decision Making<!-- --></a><br>
+<span class="text_colored">2:30-3:30 p.m. Monday, January 7, 2008, Las Vegas Hilton Theater</span><br><br>
+<img src="/print/images/partners/Variety_rdax_150x42.gif" alt="Variety" border="0" align="right">
+
+<span class="text">
+Top Digital Media studio executives discuss how technology advances impact the day-to-day and global strategic decisions within the studio environment.<BR><BR><SPAN class=subhead>Moderator:</SPAN><BR>Publisher &amp; CEO Variety Entertainment Group Charlie Koones<BR><BR><SPAN class=subhead>Confirmed panelists:</SPAN>&nbsp; <BR>Parmount Pictures Digital Entertainment President Tom Lesinski <BR>Fox Entertainment Group's Digital Media President Dan Fawcett&nbsp;<BR>&nbsp;
+</span><a name="3936"></a>
+<img src="/print/global_images2005/spacer.gif" alt="" width="100%" height="30" hspace="0" vspace="0" border="0"><br>
+
+<img src="/print/global_images2005/1.0.line.gif" alt="-----------------------------------------------" width="100%" height="2" hspace="0" vspace="0" border="0"><br>
+<img src="/print/global_images2005/spacer.gif" alt="" width="100%" height="4" hspace="0" vspace="0" border="0"><br>
+
+<span class="subhead">International Retail Power Panel<!-- --></a><br>
+<span class="text_colored">2:30-3:30 p.m. Tuesday, January 8, 2008, Las Vegas Hilton Theater</span><br><br>
+
+
+<span class="text">
+The industry’s leading retail giants join Gary Shapiro for a frank discussion about&nbsp;the recent holiday selling season, the hottest selling technologies and what they expect in the coming year.&nbsp;Some of&nbsp;the biggest names in the business&nbsp;can answer your questions. Don’t miss this panel of news makers!<BR><BR>
+<TABLE cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD align=center width="25%"><IMG src="/print/images/speakers/GShapiro88-110.jpg"></TD>
+<TD width="2%"></TD>
+<TD align=center width="25%"><IMG src="/print/images/speakers/anderson_IIS06.jpg"></TD>
+<TD width="2%"></TD>
+<TD align=center width="25%"><IMG src="/print/images/speakers/Philf.jpg"></TD></TR>
+<TR>
+<TD vAlign=top align=center width="25%">Moderator:<BR><STRONG>Gary Shapiro</STRONG><BR>President and CEO<BR>Consumer Electronics Association (CEA)</TD>
+<TD width="2%"></TD>
+<TD vAlign=top align=center width="25%">Panelist:<BR><STRONG>Bradbury H. Anderson</STRONG><BR>Vice Chairman and CEO<BR>Best Buy Co. Inc.<BR></TD>
+<TD width="2%"></TD>
+<TD vAlign=top align=center width="25%">Panelist:<BR><STRONG>Phil Schoonover<BR></STRONG>Chairman, President and CEO<BR>Circuit City Stores, Inc.</TD></TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>
+<P align=center>&nbsp;<IMG src="/print/images/speakers/s_eastman.gif"></P></TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD></TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>
+<P align=center>Panelist:<BR><STRONG>Steve Eastman</STRONG><BR>Vice President and GMM, Consumer Electronics<BR>Target Corporation</P></TD>
+<TD>
+<P align=center>&nbsp;</P></TD>
+<TD>
+<P align=center>&nbsp;Panelist:<BR><STRONG>Vishesh L. Bhatia<BR></STRONG>Group Director, Electronics, Engineering &amp; Technologies Division<BR>Al Futtaim</P></TD></TR></TBODY></TABLE>
+</span><a name="2135"></a>
+<img src="/print/global_images2005/spacer.gif" alt="" width="100%" height="30" hspace="0" vspace="0" border="0"><br>
+
+<img src="/print/global_images2005/1.0.line.gif" alt="-----------------------------------------------" width="100%" height="2" hspace="0" vspace="0" border="0"><br>
+<img src="/print/global_images2005/spacer.gif" alt="" width="100%" height="4" hspace="0" vspace="0" border="0"><br>
+
+<span class="subhead">Technology and Emerging Countries: Advancing Development Through Technology Investments<!-- --></a><br>
+<span class="text_colored">9 a.m.-1:30 p.m. Wednesday, January 9, 2008, Las Vegas Hilton Theater</span><br><br>
+<img src="/print/images/partners/TAEC_logo_150wotag_rdax_150x53.gif" alt="TAEC_logo_150wotag" border="0" align="right">
+
+<span class="text">
+This new Industry Insider event is a high-profile program focusing on technology partnerships and investments that support successful development projects in emerging countries. <BR><BR><SPAN class=subhead>9-9:30 a.m. - Opening Keynote</SPAN><BR>Hear how governments and the private sector are partnering to leverage technology to combat poverty and illiteracy and promote environmental preservation.<BR><SPAN class=subhead><BR>9:30-11 a.m. - Session I: Technology’s Role in Long-Term Development</SPAN><BR>This panel of global leaders will discuss how technology and innovation are overcoming barriers and expanding opportunities for individuals and communities in emerging economies, and how those changes can be sustained long term. <SPAN class=subhead><BR><BR>11-11:30 a.m. - Session II: Technology in Practice</SPAN><BR>Five companies will demonstrate innovative solutions and products for developing markets. <BR><SPAN class=subhead><BR>11:30 a.m.-1 p.m.&nbsp;- Session III: Building a Better Tomorrow with Technology</SPAN><BR>Private companies, governments and non-governmental organizations will explore how technology can be used to improve daily life.&nbsp; This panel will touch on healthcare, education and environment.<BR><SPAN class=subhead><BR>1-1:30 p.m. - Closing&nbsp;Keynote: Nicholas Negroponte, Founder of the MIT Media Lab and One Laptop Per Child&nbsp;Project</SPAN>&nbsp;<BR>Nicholas Negroponte, founder of the One Laptop Per Child project and the MIT Media Lab&nbsp;will deliver the closing keynote address of the program. <IMG height=110 src="/print/images/speakers/Negroponte.jpg" width=88 align=right><BR><BR>“Nicholas Negroponte is the perfect person to deliver this address and help us launch this important new emerging markets and technology program at the International CES,” said Gary Shapiro, president and CEO, CEA. “As the International CES expands it reach globally and draws government leaders from across the globe, it creates an important forum for discussion on how best to leverage technology to foster long term growth and development in emerging countries.&nbsp; Nicholas’ One Laptop Per Child project is a terrific example of how technology can help educate and empower children in the developing world.”<BR>
+</span>
+<!-- text for main page -->
+</div>
+
+<!-- /center content -->
+    <br><br><br>
+    </td>
+    <td width="10" class="attendees7"><img src="/print/global_images2005/spacer.gif" height="1" width="10"></td>
+<!-- optional added value -->
+
+<!-- /optional added value -->
+</tr>
+<!-- /main body row -->
+<!--/print/attendees/conferences/default.asp/print/attendees/directory/default.asp/print/attendees/show_floor/default.asp/print/attendees/special_events/default.asp/print/attendees/awards/default.asp/print/attendees/travel/default.asp/print/attendees/myCES/default.asp-->
+<!--/print/attendees/conferences/keynotes.asp
+
+/print/attendees/conferences/insiders.asp
+
+/print/attendees/conferences/partners.asp
+
+/print/attendees/conferences/knowledge_tracks.asp
+
+/print/attendees/conferences/supersessions.asp
+
+/print/attendees/conferences/search_by_name.asp
+
+/print/attendees/conferences/search_by_track.asp
+/print/attendees/conferences/search_by_market.asp
+/print/attendees/conferences/search_by_date.asp
+/print/attendees/conferences/search_by_time.asp
+/print/attendees/conferences/search_by_facility.asp
+/print/attendees/conferences/search_by_speaker.asp
+/print/attendees/conferences/speakers/rd_speaker_form.asp
+
+/print/attendees/conferences/FAQs.asp
+
+/print/attendees/conferences/speakers/speaker_services.asp
+
+-->
+</table>
+</body>
+</html>

@@ -1,0 +1,204 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head><!-- PageID 2139 - published by RedDot 7.5 - 7.5.0.33 - 16244 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<!-- INSERT PAGE TITLE HERE (immediately following gblPAGE_TITLE) -->
+<title>2005 International CES:&nbsp;CEA Affinity Program</title>
+
+
+
+<!-- INSERT SEARCH ZONE HERE -->
+
+
+<link rel="StyleSheet" href="/print/global_includes/css/mainMethod.css" type="text/css">
+<LINK REL="SHORTCUT ICON" HREF="http://www.easymovement.com/ces/favicon.ico">
+
+<!-- Browser detection script -->
+    <script src="/print/global_includes/js/browser_detection.js" type="text/javascript"></script>
+
+<SCRIPT language="javascript1.2">
+    function newWin(urlString,pgNum) {
+        var popupWindow;
+        urlString += "?pageID=" + pgNum;
+ 
+        popupWindow = window.open(urlString,"","toolbar=yes,menubar=no,resizable=no,status=no,scrollbars=yes,location=no,directories=no,copyhistory=no,height=550,width=618,left=50,top=50");
+    }  
+ 
+    function openNewWindow(strURL) {
+        window.name = "main";
+        var newWindow = window.open(strURL,"newWindow", "toolbar=no,menubar=no,resizable=no,status=no,scrollbars=yes,location=no,directories=no,copyhistory=no,height=400,width=450,left=50,top=50");
+    }
+
+    // Script for e-mail this page - gets the url of the page the user is on before the e-mail page tool button is clicked
+    function loadReferrer() {
+        referrerString = opener.document.location.href;
+        document.emailForm.page.value = referrerString;
+    }
+</SCRIPT>
+
+<!-- Rollover script (do we still need these?) --> 
+<script language="javascript1.2"> 
+    /* for graphical rollovers */
+   function rollOver(which,name) 
+    {
+    var on="/global_images/1.0/1.0_" + which + "_r.gif";
+    if(document.images) {document.images[which].src=on;}
+    else if (document.GetElementById){document.GetElementById(name).src=on;}
+    }
+   function rollOff(which) 
+    {
+    var on="/global_images/1.0/1.0_" + which + ".gif";
+    if(document.images){document.images[which].src=on;}
+    else if (document.GetElementById){document.GetElementById(which).src=on;}
+    }
+   function introllOver(which,name) 
+    {
+    var on="/global_images/1.0/1.0_" + which + "_r.gif";
+    if(document.images) {document.images[which].src=on;}
+    else if (document.GetElementById){document.GetElementById(name).src=on;}
+    }
+   function introllOff(which) 
+    {
+    var on="/global_images/1.0/1.0_" + which + ".gif";
+    if(document.images){document.images[which].src=on;}
+    else if (document.GetElementById){document.GetElementById(which).src=on;}
+    }
+   function snrollOver(which,name) 
+    {
+    var on="/global_images/1.0/1.0" + which + "_r.gif";
+    if(document.images) {document.images[which].src=on;}
+    else if (document.GetElementById){document.GetElementById(name).src=on;}
+    }
+   function snrollOff(which) 
+    {
+    var on="/global_images/1.0/1.0" + which + ".gif";
+    if(document.images){document.images[which].src=on;}
+    else if (document.GetElementById){document.GetElementById(which).src=on;}
+    }
+        
+    //do we still need this?   
+    function onLoadHandler() {
+       if( typeof(bodyOnLoadFunction) != 'undefined' ) {
+           return eval(bodyOnLoadFunction);
+       }
+    }
+</script>
+<script language="javascript">
+<!--
+var activeNavId=0;
+var thisPageUrl='/exhibitors/resource_center/affinity.asp';
+
+var parentLinks=new Array('dummy','/print/exhibitors/default.htm','/print/exhibitors/resource_center/default.asp');
+
+function checkActiveNav(theUrl) {
+    var linkUrl=theUrl;
+    var returnValue=false;
+    
+    if (linkUrl==thisPageUrl) {
+        returnValue=true;
+    } else if (parentLinks.length>2 && linkUrl==parentLinks[parentLinks.length-1]) {
+        returnValue=true;   
+    } else if (parentLinks.length>3 && linkUrl==parentLinks[parentLinks.length-2]) {
+        returnValue=true;
+    } else if (parentLinks.length>4 && linkUrl==parentLinks[parentLinks.length-3]) {
+        returnValue=true;
+    }
+    return returnValue;
+}
+
+//-->
+</script>
+    <style>
+        <!--
+            UL {
+                MARGIN-TOP: .5em;
+                /*LIST-STYLE-IMAGE: url(/print/global_images2005/bullet.gif);*/
+                MARGIN-BOTTOM: 0em;
+                MARGIN-LEFT: 2em;
+                VERTICAL-ALIGN: top;
+            }
+
+            .exhibitorBGImg {
+                background-image: url('/print/global_images2005/exhibitor_bg.gif');
+            }
+
+            .text_colored, .intro_copy, .section_title, .subhead, .body_title, .intro_dates {
+               color: #2B5492;
+            }
+
+        //-->
+    </style>
+
+</head>
+
+<body leftmargin='0' topmargin='0' rightmargin='0' bottommargin='0' marginwidth='0' onLoad="onLoadHandler();self.focus();"> 
+<div style="position:absolute; top: 15; left: 15" ><a href='javascript:;' onClick='window.print();return false'><img src="/print/global_images2005/print.jpg" width="115" height="20" border="0" alt=""></a></div>
+<IMG SRC="/print/global_images2005/attPrintBanner.jpg" width="601" BORDER="0" vspace=0><br><table width="600" cellspacing="0" cellpadding="0" border="0">
+    <tr>
+<!-- /left column -->
+
+<!-- main body content -->    
+    <td width="10" class="exhibitor7"><img src="/print/global_images2005/spacer.gif" height="1" width="10"></td>
+    <td width="100%" class="exhibitor7" valign="top">
+    <img src="/print/global_images2005/spacer.gif" height="10" width="1"><br>
+<!-- center content -->
+
+
+<div class="body_title">CEA Affinity Program<br><img src="/print/global_images2005/spacer.gif" height="16" width="1"></div>
+<div class="text"> 
+<!-- text for main page -->
+
+<span class="text">
+As a tradeshow exhibitor, you struggle with two primary issues: minimizing hassle and maximizing ROI.&nbsp; In an effort to provide you with hassle-free, cost-effective tradeshow solutions, CES offers a CEA member affinity program in conjunction with GES Exposition Services. <BR><BR>CEA members can take advantage of this program at the International CES and all other tradeshows for which GES Exposition Services has been named official general contractor.&nbsp; In addition to the International CES, some of these other shows include NAB, PMA, E3 and MacWorld. <BR><BR>Each CEA member is automatically designated as a GES VIP Exhibitor and will be eligible for priority pre-show ordering and special pricing on the following select products and services at GES shows. <BR><BR><SPAN class=subhead>Expedited Pre-Show Ordering</SPAN><BR>GES has established a dedicated GES VIP Exhibitor Hotline for CEA members, providing priority routing at the GES National Servicenter to ensure expedited service.&nbsp; The GES VIP Exhibitor hotline is (866) 531-4051.<BR><BR><SPAN class=subhead>GES Logistics (Shipping)</SPAN> 
+<UL>
+<LI>10% discount on round-trip shipping costs for your booth freight and materials in and out of any GES show.&nbsp;&nbsp;This does not include material handling services. </LI>
+<LI>Receive additional discounts when booking round trip shipping needs for multiple shows.&nbsp; Please call the GES hotline for a quote. </LI></UL><BR><SPAN class=subhead>GES Furnishings and Carpet</SPAN> 
+<UL>
+<LI>10% discount on 26 oz. or 50 oz. custom cut carpeting for booth 600 sq. ft. or more on any GES show. </LI>
+<LI>10% discount on all specialty furniture items on any GES show.</LI></UL><BR><SPAN class=subhead>GES Installation &amp; Dismantle (I&amp;D) Services</SPAN> 
+<UL>
+<LI>5% discount on all GES I&amp;D services including labor and equipment. </LI>
+<LI>Receive additional discounts when arranging GES I&amp;D services for multiple shows.&nbsp; Please call the GES hotline for a quote.</LI></UL><BR><SPAN class=subhead>GES Exhibits and Design</SPAN><BR>Receive design and consultation sessions for custom exhibits free of charge and no obligation. <BR><IMG height=30 src="/print/global_images2005/spacer.gif" width=1><BR><IMG height=1 src="/print/global_images2005/line.gif" width=590><BR><IMG height=6 src="/print/global_images2005/spacer.gif" width=1 border=0><BR><STRONG>Contact GES</STRONG><BR>Call the GES VIP Exhibitor hotline today (866) 531-4051 to take advantage of CEA member savings at the International CES. <BR><BR><EM>Terms and Conditions:</EM> 
+<OL type=1>
+<LI>Orders must be received prior to each show’s advance deadline date.&nbsp; Show site orders will not apply. </LI>
+<LI>Benefits may not be combined with other offers and specials. </LI>
+<LI>Benefits are for exhibitors only.&nbsp; EACs are not eligible. </LI>
+<LI>Discounts will be applied to orders received through the GES VIP Hotline only.&nbsp; No Internet or account executive orders apply.</LI></OL></span>
+
+
+
+<!-- text for main page -->
+</div>
+
+<!-- /center content -->
+    <br><br><br>
+    </td>
+    <td width="10" class="exhibitor7"><img src="/print/global_images2005/spacer.gif" height="1" width="10"></td>
+<!-- optional added value -->
+
+<!-- /optional added value -->
+</tr>
+<!-- /main body row -->
+<!--/print/exhibitors/space/default.asp/print/exhibitors/promotions/default.asp/print/exhibitors/resource_center/default.asp/print/exhibitors/pr/default.asp/print/exhibitors/manual/default.asp/print/exhibitors/newsletter/default.asp/print/exhibitors/smartbooth/default.asp-->
+<!--/print/exhibitors/resource_center/badges/default.asp
+
+/print/exhibitors/resource_center/checklist.asp
+
+/print/exhibitors/resource_center/directory/default.asp
+
+/print/exhibitors/resource_center/logos/default.asp
+
+/print/exhibitors/resource_center/downloads.asp
+
+/print/exhibitors/resource_center/affinity.asp
+
+/print/exhibitors/resource_center/EAB.asp
+
+/print/exhibitors/resource_center/workshop/default.asp
+
+/print/exhibitors/resource_center/workshop/agenda.asp
+-->
+</table>
+</body>
+</html>

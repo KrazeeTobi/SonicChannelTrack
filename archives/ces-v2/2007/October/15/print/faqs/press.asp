@@ -1,0 +1,585 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head><!-- PageID 1135 - published by RedDot 7.5 - 7.5.0.33 - 16244 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<!-- INSERT PAGE TITLE HERE (immediately following gblPAGE_TITLE) -->
+<title>2005 International CES:&nbsp;</title>
+
+<!-- INSERT SEARCH ZONE HERE -->
+ <META NAME="searchZone" CONTENT="generalCESweb">
+<link rel="StyleSheet" href="/print/global_includes/js/mainMethod.css" type="text/css">
+<LINK REL="SHORTCUT ICON" HREF="http://www.easymovement.com/ces/favicon.ico">
+<!-- Browser detection script -->
+    <script src="/print/global_includes/js/browser_detection.js" type="text/javascript"></script>
+<SCRIPT language="javascript1.2">
+    function newWin(urlString,pgNum) {
+        var popupWindow;
+        urlString += "?pageID=" + pgNum;
+ 
+        popupWindow = window.open(urlString,"","toolbar=yes,menubar=no,resizable=no,status=no,scrollbars=yes,location=no,directories=no,copyhistory=no,height=550,width=618,left=50,top=50");
+    }  
+ 
+    function openNewWindow(strURL) {
+        window.name = "main";
+        var newWindow = window.open(strURL,"newWindow", "toolbar=no,menubar=no,resizable=no,status=no,scrollbars=yes,location=no,directories=no,copyhistory=no,height=400,width=450,left=50,top=50");
+    }
+    // Script for e-mail this page - gets the url of the page the user is on before the e-mail page tool button is clicked
+    function loadReferrer() {
+        referrerString = opener.document.location.href;
+        document.emailForm.page.value = referrerString;
+    }
+</SCRIPT>
+<!-- Rollover script (do we still need these?) --> 
+<script language="javascript1.2"> 
+    /* for graphical rollovers */
+   function rollOver(which,name) 
+    {
+    var on="/global_images/1.0/1.0_" + which + "_r.gif";
+    if(document.images) {document.images[which].src=on;}
+    else if (document.GetElementById){document.GetElementById(name).src=on;}
+    }
+   function rollOff(which) 
+    {
+    var on="/global_images/1.0/1.0_" + which + ".gif";
+    if(document.images){document.images[which].src=on;}
+    else if (document.GetElementById){document.GetElementById(which).src=on;}
+    }
+   function introllOver(which,name) 
+    {
+    var on="/global_images/1.0/1.0_" + which + "_r.gif";
+    if(document.images) {document.images[which].src=on;}
+    else if (document.GetElementById){document.GetElementById(name).src=on;}
+    }
+   function introllOff(which) 
+    {
+    var on="/global_images/1.0/1.0_" + which + ".gif";
+    if(document.images){document.images[which].src=on;}
+    else if (document.GetElementById){document.GetElementById(which).src=on;}
+    }
+   function snrollOver(which,name) 
+    {
+    var on="/global_images/1.0/1.0" + which + "_r.gif";
+    if(document.images) {document.images[which].src=on;}
+    else if (document.GetElementById){document.GetElementById(name).src=on;}
+    }
+   function snrollOff(which) 
+    {
+    var on="/global_images/1.0/1.0" + which + ".gif";
+    if(document.images){document.images[which].src=on;}
+    else if (document.GetElementById){document.GetElementById(which).src=on;}
+    }
+        
+    //do we still need this?   
+    function onLoadHandler() {
+       if( typeof(bodyOnLoadFunction) != 'undefined' ) {
+           return eval(bodyOnLoadFunction);
+       }
+    }
+</script>
+<script language="javascript">
+    <!--
+    var activeNavId=0;
+    var thisPageUrl='/faqs/press.asp';
+    
+        var parentLinks=new Array('dummy','/print/faqs/default.asp');
+    
+        function checkActiveNav(theUrl) {
+            var linkUrl=theUrl;
+            var returnValue=false;
+            
+            if (linkUrl==thisPageUrl) {
+                returnValue=true;
+            } else if (parentLinks.length>2 && linkUrl==parentLinks[parentLinks.length-1]) {
+                returnValue=true;   
+            } else if (parentLinks.length>3 && linkUrl==parentLinks[parentLinks.length-2]) {
+                returnValue=true;
+            } else if (parentLinks.length>4 && linkUrl==parentLinks[parentLinks.length-3]) {
+                returnValue=true;
+            }
+        return returnValue;
+    }
+    //-->
+    </script>
+    <style>
+        <!--
+            .attendeesBGImg {
+                background-image: url('/print/global_images2005/attendees_bg.gif');
+            }
+            .text_colored, .intro_copy, .section_title, .subhead, .body_title, .intro_dates, .box10 {
+               color: #498429;
+            }
+            
+        //-->
+    </style>
+</head>
+<body leftmargin='0' topmargin='0' rightmargin='0' bottommargin='0' marginwidth='0' onLoad="onLoadHandler();self.focus();"> 
+<div style="position:absolute; top: 15; left: 15" ><a href='javascript:;' onClick='window.print();return false'><img src="/print/global_images2005/print.jpg" width="115" height="20" border="0" alt=""></a></div>
+<IMG SRC="/print/global_images2005/attPrintBanner.jpg" width="601" BORDER="0" vspace=0><br><table width="600" cellspacing="0" cellpadding="0" border="0">
+    <tr>
+<!-- /left column -->
+
+<!-- main body content -->    
+    <td width="10" class="attendees7"><img src="/print/global_images2005/spacer.gif" height="1" width="10"></td>
+    <td width="100%" class="attendees7" valign="top">
+    <img src="/print/global_images2005/spacer.gif" height="10" width="1"><br>
+<!-- center content -->
+
+
+<img src="/print/global_images2005/spacer.gif" height="10" width="1"><br><div class="body_title">Press/Analyst FAQs<br><img src="/print/global_images2005/spacer.gif" height="16" width="1"></div>
+<div class="text">
+
+<!-- text for main page -->
+<a name="top"></a> 
+
+<ul>
+
+    <!--/print/faqs/4417.htm-->
+    <li class="attendees11"><a href="#4417">Are there special press registration times and locations?</a>
+    
+
+    <!--/print/faqs/1239.htm-->
+    <li><a href="#1239">Will there be food available for press/analysts?</a>
+    
+
+    <!--/print/faqs/1238.htm-->
+    <li class="attendees11"><a href="#1238">Who can I contact for interviews and other related information?</a>
+    
+
+    <!--/print/faqs/1237.htm-->
+    <li><a href="#1237">Are there special rooms available for the use of editorial press/analysts?</a>
+    
+
+    <!--/print/faqs/1236.htm-->
+    <li class="attendees11"><a href="#1236">Is there broadcast media assistance available for the use of editorial press?</a>
+    
+
+    <!--/print/faqs/1235.htm-->
+    <li><a href="#1235">Can exhibitors have a list of the pre-registered media and analysts?</a>
+    
+
+    <!--/print/faqs/1234.htm-->
+    <li class="attendees11"><a href="#1234">Can press and analysts attend conference sessions?</a>
+    
+
+    <!--/print/faqs/1233.htm-->
+    <li><a href="#1233">What special events are available to editorial press/analysts?</a>
+    
+
+    <!--/print/faqs/1232.htm-->
+    <li class="attendees11"><a href="#1232">What services are provided to editorial press/analysts?</a>
+    
+
+    <!--/print/faqs/1231.htm-->
+    <li><a href="#1231">What are the press room hours?</a>
+    
+
+    <!--/print/faqs/1230.htm-->
+    <li class="attendees11"><a href="#1230">Where is the press room located this year?</a>
+    
+
+    <!--/print/faqs/1229.htm-->
+    <li><a href="#1229">When will I receive my press/analyst badge?</a>
+    
+
+    <!--/print/faqs/1228.htm-->
+    <li class="attendees11"><a href="#1228">Can children attend International CES?</a>
+    
+
+    <!--/print/faqs/1227.htm-->
+    <li><a href="#1227">Can spouses attend International CES?</a>
+    
+
+    <!--/print/faqs/1226.htm-->
+    <li class="attendees11"><a href="#1226">Do you accept registrations for user groups?</a>
+    
+
+    <!--/print/faqs/1147.htm-->
+    <li><a href="#1147">What are valid types of credentials for analyst registration?</a>
+    
+
+    <!--/print/faqs/1143.htm-->
+    <li class="attendees11"><a href="#1143">What are valid types of credentials for editorial press registration?</a>
+    
+
+    <!--/print/faqs/1140.htm-->
+    <li><a href="#1140">Where can press and analysts register for the International CES, and what will I need in order to register?</a>
+    
+
+</ul>
+<br>
+<a name="4417"></a>
+<img src="/print/global_images2005/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"><br>
+
+<img src="/print/global_images2005/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"><br>
+<img src="/print/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+
+<span class="subhead">Are there special press registration times and locations?</span><br>
+<br>
+<P style="LINE-HEIGHT: 12pt"><SPAN style="FONT-FAMILY: ">Yes, members of the press who wish to register on-site must do so according to the schedule below.</SPAN></P><SPAN class=subhead>Press Registration</SPAN> <BR>
+<TABLE cellSpacing=0 cellPadding=2 width="100%" border=1>
+<TBODY>
+<TR class=black>
+<TD width=120>Date</TD>
+<TD width=210>Location</TD>
+<TD width=150>Time</TD></TR>
+<TR class=attendees11>
+<TD>Sat., Jan. 5, 2008</TD>
+<TD>LVCC Press Room S229</TD>
+<TD>Noon- 7 p.m.</TD></TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>Sands Expo and Convention Center</TD>
+<TD>Noon-7 p.m.</TD></TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>LVCC Blogger Lounge S201</TD>
+<TD>Noon-7 p.m.</TD></TR>
+<TR>
+<TD>Sun., Jan. 6, 2008</TD>
+<TD>LVCC Press Room S229</TD>
+<TD>7:30 a.m. - 7 p.m.</TD></TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>Sands Expo and Convention Center</TD>
+<TD>7:30 a.m. -&nbsp;9 p.m.</TD></TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>LVCC Blogger Lounge S201</TD>
+<TD>7:30 a.m. -&nbsp;7 p.m.</TD></TR>
+<TR class=attendees11>
+<TD>Mon., Jan. 7, 2008</TD>
+<TD>LVCC Press Room S229</TD>
+<TD>7:30 a.m. - 6:30 p.m.</TD></TR>
+<TR class=attendees11>
+<TD>&nbsp;</TD>
+<TD>Sands Expo and Convention Center</TD>
+<TD>7:30 a.m.&nbsp;-&nbsp;5 p.m.</TD></TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>LVCC Blogger Lounge S201&nbsp;</TD>
+<TD>7:30 a.m.-6 p.m.</TD></TR>
+<TR>
+<TD>Tue., Jan. 8, 2008</TD>
+<TD>LVCC Press Room S229</TD>
+<TD>8&nbsp;a.m. - 6:30 p.m.</TD></TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>Sands Expo and Convention Center</TD>
+<TD>7:30 a.m. -&nbsp;5 p.m.</TD>
+<TR>
+<TD>&nbsp;</TD>
+<TD>LVCC Blogger Lounge S201&nbsp;</TD>
+<TD>8 a.m.-6:30 p.m.</TD></TR>
+<TR class=attendees11>
+<TD>Wed., Jan. 9, 2008</TD>
+<TD>LVCC Press Room S229</TD>
+<TD>8:30 a.m. - 6:30 p.m.</TD></TR>
+<TR class=attendees11>
+<TD>&nbsp;</TD>
+<TD>Sands Expo and Convention Center</TD>
+<TD>7:30 a.m. -&nbsp;5 p.m.</TD></TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>LVCC Blogger Lounge S201</TD>
+<TD>8:30 a.m.-6:30 p.m.</TD></TR>
+<TR>
+<TD>Thu., Jan. 11, 2008</TD>
+<TD>LVCC Press Room S229</TD>
+<TD>8:30 a.m. - 4:30 p.m.</TD></TR></TBODY></TABLE>
+<BLOCKQUOTE></BLOCKQUOTE>
+<br><img src="/print/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+[<a href="#top">return to question list</a>]
+<br><a name="1239"></a>
+<img src="/print/global_images2005/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"><br>
+
+<img src="/print/global_images2005/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"><br>
+<img src="/print/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+
+<span class="subhead">Will there be food available for press/analysts?</span><br>
+<br>
+<STRONG>International CES Press Lunch Coupons</STRONG><BR>To accommodate your busy schedule during the show, all press and analysts will be given coupons for one boxed lunch each day of the show (the coupons will be attached to your press/analyst badge). You will need your press/analyst badge and lunch coupon to pick up your boxed lunch between 11:30 a.m.-1:30 p.m. at either the LVCC press room or the Sands press room.
+<br><img src="/print/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+[<a href="#top">return to question list</a>]
+<br><a name="1238"></a>
+<img src="/print/global_images2005/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"><br>
+
+<img src="/print/global_images2005/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"><br>
+<img src="/print/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+
+<span class="subhead">Who can I contact for interviews and other related information?</span><br>
+<br>
+In addition to visiting <A href="/default.htm">CESweb.org</A>, you can call Tara Dunion at&nbsp;<SPAN class=820395413-11082004>(703) 907-7419 or e-mail <A href="mailto:tdunion@CE.org">tdunion@CE.org</A>.&nbsp;</SPAN>Once registered, you also will receive a monthly "e-Briefing" via e-mail to keep you up-to-date on the latest news and press events for International CES.<BR><BR>Additionally, the International CES offers a personal planning tool to tailor your show experience. <A href="/print/attendees/myCES/default.asp">Use MyCES</A> to search for products and exhibitors that match your particular interests.
+<br><img src="/print/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+[<a href="#top">return to question list</a>]
+<br><a name="1237"></a>
+<img src="/print/global_images2005/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"><br>
+
+<img src="/print/global_images2005/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"><br>
+<img src="/print/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+
+<span class="subhead">Are there special rooms available for the use of editorial press/analysts?</span><br>
+<br>
+<STRONG>Interview Room</STRONG><BR>An interview room, located in the Sands press room or the Las Vegas Convention Center press room, may be reserved by journalists and analysts for up to two hours for on-site interviews. For reservations or any other press room services, contact <A href="mailto:jlilly@ce.org">Jamie Lilly</A> or <A href="mailto:press@CE.org">press@CE.org</A>, or 703-907-4365.<BR><BR><STRONG>On-Site Press Room and Lounge<BR></STRONG>The International CES Press Room is reserved for journalists and analysts to provide you with all the tools you need before, during and after the show.
+<br><img src="/print/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+[<a href="#top">return to question list</a>]
+<br><a name="1236"></a>
+<img src="/print/global_images2005/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"><br>
+
+<img src="/print/global_images2005/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"><br>
+<img src="/print/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+
+<span class="subhead">Is there broadcast media assistance available for the use of editorial press?</span><br>
+<br>
+International CES provides Web, radio, TV broadcast media with state-of-the-art technology to help you cover the show. We can tailor a small reporting studio for you or help you find an exciting spot on the show floor and provide the equipment for a 5-minute stand-up for anchors. Whatever your needs, International CES <A href="/print/press/contacts/ces_contacts.asp">helps you get your story</A>. 
+<br><img src="/print/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+[<a href="#top">return to question list</a>]
+<br><a name="1235"></a>
+<img src="/print/global_images2005/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"><br>
+
+<img src="/print/global_images2005/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"><br>
+<img src="/print/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+
+<span class="subhead">Can exhibitors have a list of the pre-registered media and analysts?</span><br>
+<br>
+Yes, beginning in November, all registered exhibitors can access a list of pre-registered media and analysts in the <A href="/print/exhibitors/resource_center/default.asp">Exhibitor Resource Center</A> of CESweb.org.
+<br><img src="/print/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+[<a href="#top">return to question list</a>]
+<br><a name="1234"></a>
+<img src="/print/global_images2005/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"><br>
+
+<img src="/print/global_images2005/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"><br>
+<img src="/print/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+
+<span class="subhead">Can press and analysts attend conference sessions?</span><br>
+<br>
+Yes. All editorial press and analysts can attend conference sessions free of charge. You must bring your editorial press/analyst badge for admittance. This includes Knowledge Track and Partner Program sessions. <BR><STRONG></STRONG><STRONG>Note:</STRONG> Non-editorial press cannot attend conference sessions without registering for them and paying&nbsp;applicable fees.
+<br><img src="/print/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+[<a href="#top">return to question list</a>]
+<br><a name="1233"></a>
+<img src="/print/global_images2005/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"><br>
+
+<img src="/print/global_images2005/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"><br>
+<img src="/print/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+
+<span class="subhead">What special events are available to editorial press/analysts?</span><br>
+<br>
+<SPAN class=subhead>New York Press Preview<BR></SPAN><SPAN class=text_colored>Wednesday, November 8, 2006<BR></SPAN><SPAN class=text_colored>Metropolitan Pavilion<BR></SPAN><SPAN class=text_colored>125 West 18th Street <BR></SPAN>Kick off the CES season and catch all the latest show news, plus the&nbsp;announcement of the CES Innovations Design and Engineering Showcase honorees at the 2007 International CES New York Press Preview. Learn more about this and <A href="/print/press/events/default.asp">other press events.</A>
+<br><img src="/print/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+[<a href="#top">return to question list</a>]
+<br><a name="1232"></a>
+<img src="/print/global_images2005/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"><br>
+
+<img src="/print/global_images2005/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"><br>
+<img src="/print/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+
+<span class="subhead">What services are provided to editorial press/analysts?</span><br>
+<br>
+In the Las Vegas Convention Center (LVCC) press room and the Sands press room, you will find the tools and assistance you need to gather notes, write stories and quench your thirst at International CES.<BR>
+<UL>
+<LI>Computers, Internet, and Wi-Fi Access </LI>
+<LI>Phones/Fax Machines </LI>
+<LI>Schedule of Press Conference and Events </LI>
+<LI>Copiers </LI>
+<LI>Show Videos and B-Roll for broadcasters </LI>
+<LI>Message Boards </LI>
+<LI>International CES and Exhibitor Press Kits </LI>
+<LI>Keynote Speeches </LI>
+<LI>Show Photos </LI>
+<LI>Exhibitor-sponsored Gifts </LI></UL><BR>Additionally, the International CES offers a personal planning tool to tailor your show experience. <A href="/print/attendees/myCES/default.asp">Use MyCES</A> to securely and anonymously search for products, exhibitors and conference sessions that match your particular interests.
+<br><img src="/print/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+[<a href="#top">return to question list</a>]
+<br><a name="1231"></a>
+<img src="/print/global_images2005/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"><br>
+
+<img src="/print/global_images2005/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"><br>
+<img src="/print/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+
+<span class="subhead">What are the press room hours?</span><br>
+<br>
+<SPAN class=subhead>Las Vegas Convention Center Press Room (S229) Hours of Operation:</SPAN> <BR>
+<TABLE cellSpacing=0 cellPadding=2 width=400 border=0>
+<TBODY>
+<TR class=black>
+<TD width=180>Day</TD>
+<TD width=110>Open</TD>
+<TD width=110>Close</TD></TR>
+<TR class=attendees11>
+<TD>Saturday, January 5, 2008</TD>
+<TD>12 p.m.</TD>
+<TD>7 p.m.</TD></TR>
+<TR>
+<TD>Sunday, January 6, 2008</TD>
+<TD>7 a.m.</TD>
+<TD>7&nbsp;p.m.</TD></TR>
+<TR class=attendees11>
+<TD>Monday, January 7, 2008</TD>
+<TD>7:30 a.m.</TD>
+<TD>6:30 p.m.</TD></TR>
+<TR>
+<TD>Tuesday, January 8, 2008</TD>
+<TD>8 a.m.</TD>
+<TD>6:30 p.m.</TD></TR>
+<TR class=attendees11>
+<TD>Wednesday, January 9, 2008</TD>
+<TD>8:30 a.m.</TD>
+<TD>6:30 p.m.</TD></TR>
+<TR>
+<TD>Thursday, January 10, 2008</TD>
+<TD>8:30 a.m.</TD>
+<TD>4:30 p.m.</TD></TR></TBODY></TABLE><BR><SPAN class=subhead>Innovations Plus at the Sands (Room 105)&nbsp;Hours of Operation:</SPAN> 
+<TABLE cellSpacing=0 cellPadding=2 width=400 border=0>
+<TBODY>
+<TR class=black>
+<TD width=180>Day</TD>
+<TD width=110>Open</TD>
+<TD width=110>Close</TD></TR>
+<TR class=attendees11>
+<TD>Saturday, January 5, 20087</TD>
+<TD>12 p.m.</TD>
+<TD>7&nbsp;p.m.</TD></TR>
+<TR>
+<TD>Sunday, January 6, 2008</TD>
+<TD>7:30&nbsp;a.m.</TD>
+<TD>9&nbsp;p.m.</TD></TR>
+<TR class=attendees11>
+<TD>Monday, January 7, 2008</TD>
+<TD>7:30 a.m.</TD>
+<TD>6 p.m.</TD></TR>
+<TR>
+<TD>Tuesday, January 8, 2008</TD>
+<TD>7:30 a.m.</TD>
+<TD>6 p.m.</TD></TR>
+<TR class=attendees11>
+<TD>Wednesday, January 9, 2008</TD>
+<TD>7:30 a.m.</TD>
+<TD>6 p.m.</TD></TR>
+<TR>
+<TD>Thursday, January 10, 2008</TD>
+<TD>8 a.m.</TD>
+<TD>3&nbsp;p.m.</TD></TR></TBODY></TABLE>
+<br><img src="/print/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+[<a href="#top">return to question list</a>]
+<br><a name="1230"></a>
+<img src="/print/global_images2005/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"><br>
+
+<img src="/print/global_images2005/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"><br>
+<img src="/print/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+
+<span class="subhead">Where is the press room located this year?</span><br>
+<br>
+We have two press rooms. One is at&nbsp;Innovations Plus at the Sands Expo and Convention Center, Room 105. The second&nbsp;is located&nbsp;in the LVCC South Hall Connector, Room S229, where it has been for the past several years.
+<br><img src="/print/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+[<a href="#top">return to question list</a>]
+<br><a name="1229"></a>
+<img src="/print/global_images2005/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"><br>
+
+<img src="/print/global_images2005/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"><br>
+<img src="/print/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+
+<span class="subhead">When will I receive my press/analyst badge?</span><br>
+<br>
+Once registered, you will receive a confirmation via e-mail. Badges will begin mailing in September. If you have not received your badge by mid-December, please contact International CES press registration at <A href="mailto:press@CE.org">press@CE.org</A> or (703) 907-4365.
+<br><img src="/print/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+[<a href="#top">return to question list</a>]
+<br><a name="1228"></a>
+<img src="/print/global_images2005/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"><br>
+
+<img src="/print/global_images2005/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"><br>
+<img src="/print/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+
+<span class="subhead">Can children attend International CES?</span><br>
+<br>
+No, children may not attend the International CES.&nbsp;The International CES is not open to the general public, and all attendees must be in the consumer electronics industry to be eligible to attend the show. Children, who accompany you to Las Vegas will not be granted access to the International CES unless they are over the age of 16 and have proof of industry affiliation.
+<br><img src="/print/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+[<a href="#top">return to question list</a>]
+<br><a name="1227"></a>
+<img src="/print/global_images2005/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"><br>
+
+<img src="/print/global_images2005/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"><br>
+<img src="/print/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+
+<span class="subhead">Can spouses attend International CES?</span><br>
+<br>
+No, spouses cannot register to attend the International CES.&nbsp;The International CES is not open to the general public, and all attendees must be in the consumer electronics industry to be eligible to attend the show. Spouses, friends and family who accompany you to Las Vegas will not be granted access to the International CES unless they are over the age of 16 and have proof of industry affiliation.
+<br><img src="/print/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+[<a href="#top">return to question list</a>]
+<br><a name="1226"></a>
+<img src="/print/global_images2005/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"><br>
+
+<img src="/print/global_images2005/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"><br>
+<img src="/print/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+
+<span class="subhead">Do you accept registrations for user groups?</span><br>
+<br>
+Currently, we are not accepting user groups for media credentials. User group members who are affiliated with the CE industry may <A href="http://www.cesweb.org/register">register for the International CES</A> through general attendee registration.&nbsp; The International CES is not open to the general public, and all attendees must be in the consumer electronics industry to be eligible to attend the show.
+<br><img src="/print/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+[<a href="#top">return to question list</a>]
+<br><a name="1147"></a>
+<img src="/print/global_images2005/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"><br>
+
+<img src="/print/global_images2005/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"><br>
+<img src="/print/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+
+<span class="subhead">What are valid types of credentials for analyst registration?</span><br>
+<br>
+<STRONG>One </STRONG>of the following:<BR>
+<UL>
+<LI>Copy of or an Internet link to a published industry-related financial report from the last six months; 
+<LI>Copy of a financial article quoting you as a financial or market analyst; or 
+<LI>A letter from your company executive on official stationary describing your financial or market analyst or research role at CES.</LI></UL>
+<br><img src="/print/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+[<a href="#top">return to question list</a>]
+<br><a name="1143"></a>
+<img src="/print/global_images2005/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"><br>
+
+<img src="/print/global_images2005/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"><br>
+<img src="/print/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+
+<span class="subhead">What are valid types of credentials for editorial press registration?</span><br>
+<br>
+<STRONG>One</STRONG> of the following:<BR>
+<UL>
+<LI>Copy of or an Internet link to a published industry-related article from the last six months; </LI>
+<LI>Copy of publication masthead listing you as an editorial contributor; </LI>
+<LI>A letter from your publisher or broadcast producer on official stationary describing your editorial press role at CES; or </LI>
+<LI>A current photo press ID from an official media outlet.</LI></UL>
+<br><img src="/print/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+[<a href="#top">return to question list</a>]
+<br><a name="1140"></a>
+<img src="/print/global_images2005/spacer.gif" alt="" width="1" height="30" hspace="0" vspace="0" border="0"><br>
+
+<img src="/print/global_images2005/1.0.line.gif" alt="-----------------------------------------------" width="590" height="2" hspace="0" vspace="0" border="0"><br>
+<img src="/print/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+
+<span class="subhead">Where can press and analysts register for the International CES, and what will I need in order to register?</span><br>
+<br>
+Members of the press and analyst community can <A href="http://www.cesweb.org/prequalreg">register online</A>. To qualify for a press badge, press and analysts need to submit their valid credentials and be approved by the CES Media/Analyst Center. If you have any questions, please contact the CES Media/Analyst Center at <A href="mailto:press@ce.org">press@CE.org</A> or 703-907-4365.
+<br><img src="/print/global_images2005/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br>
+[<a href="#top">return to question list</a>]
+<br>
+<!-- /text for main page -->
+</div>
+
+<!-- /center content -->
+    <br><br><br>
+    </td>
+    <td width="10" class="attendees7"><img src="/print/global_images2005/spacer.gif" height="1" width="10"></td>
+<!-- optional added value -->
+
+<!-- /optional added value -->
+</tr>
+<!-- /main body row -->
+<!---->
+<!--/print/faqs/general.asp
+
+/print/faqs/press.asp
+
+/print/faqs/exhibitors.asp
+
+/print/faqs/speakers.asp
+
+-->
+</table>
+</body>
+</html>
