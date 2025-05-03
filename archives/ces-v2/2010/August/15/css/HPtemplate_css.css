@@ -1,0 +1,346 @@
+﻿
+/* Main */
+html {
+    height: 100%;
+    background: #000;
+    margin-bottom: 1px;
+}
+body.home {
+    width: 991px;
+    height: 100%;
+    margin: 0px auto;
+    padding: 0px;
+    font: normal 12px/17px Arial, Helvetica, Sans-Serif;
+    color: #000000;
+    background: #FFF; 
+}
+body#home {
+ text-align: left;
+}
+.clr {
+    clear: both;
+}
+.clr_left {
+    clear: left;
+}
+.clr_right {
+    clear: right;
+}
+a:link, a:visited, a:active
+{
+    text-decoration:underline;
+    color:#3e5aa6;
+}
+a:hover, a:visited:hover
+{
+    text-decoration:underline;
+    color:#00B9D4;
+}
+a.main, a.main:link, a.main:visited, a.main:active {
+    text-decoration: none;
+    border: 0px;
+    outline: none;
+}
+a.main:hover {
+}
+#container-home
+{
+    width: 991px;
+    margin: 0 auto;
+    background-color: #FFF;
+    position: relative;
+}
+/* Search Bar */
+#searchbar-HP {
+    width: 970px;
+    height: 45px;
+    background: url(/images/framework/searchbar_bg.jpg) 0 0 repeat-x;
+    margin: 2px auto 5px auto;
+}
+#searchbar-HP .padding {
+    padding: 0px 10px;
+}
+#myces-HP {
+    width: 110px;
+    padding: 5px 0px 0px;
+    float: right;
+    text-align: left;
+}
+#myces-HP ul {
+    padding-left: 8px;
+    margin: 0px;
+}
+#myces-HP ul li {
+    list-style: none;
+    padding: 0px 0px 0px 0px;
+    background: url(/images/framework/search-arrow.gif) 0px 7px no-repeat;
+}
+#myces-HP ul li a:link,
+#myces-HP ul li a:visited {
+    padding-left: 8px;
+    font-size: 10px;
+    color:#263e7e;
+    text-decoration: none;
+}
+#myces-HP ul li a:hover {
+    text-decoration: underline;
+}
+#planner-HP {
+    width: 119px;
+    height: 45px;
+    float: right;
+    padding-right: 20px;
+}
+#followme-HP {
+    width: 154px;
+    height: 40px;
+    float: right;
+    padding: 3px 14px 1px 0px;
+}
+#searchfield-HP {
+    padding: 11px 0px 8px 0px;
+    position: absolute;
+    left: 20px;
+    top: 0px;
+}
+#searchfield-HP form {
+    height: 26px;
+    width: 350px;
+    padding: 0px;
+    margin: 0px;
+    vertical-align: top;
+}
+#searchfield-HP input.searchbox {
+    margin: 0px;
+    background: url(/images/framework/searchbox_bg.jpg) 0 0 no-repeat;
+    font-size: 12px;
+    font-family: Tahoma, Geneva, sans-serif;
+    color: #666;
+    border: 0px;
+    height: 14px;
+    width: 197px;
+    padding: 6px 5px;
+}
+#searchfield-HP input.searchbutton {
+    background: url(/images/framework/go_button.gif) no-repeat;
+    border: 0px;
+    height: 26px;
+    width: 24px;
+    margin-left: 8px;
+}
+
+/* Mid Content */
+#mid_content {
+    width: 716px;
+    height: 344px;
+    background: #FFF;
+    margin: 5px 5px 0px 11px;
+    border: 2px solid #131A37;
+    padding: 4px;
+    position:absolute;
+    top: 45px;
+}
+#player {
+    width: 204px;
+    height: 334px;
+    background: #1E357A;
+    border: 1px solid #000;
+    float: left;
+    color: #FFF;
+    padding: 4px;
+}
+#player h3 {
+    font-size: 15px;
+    color: #E51E68;
+    margin: 5px 0px;
+    padding: 0px;
+}
+#player hr {
+    height: 1px;
+    border: 0px;
+    border-bottom: 1px dotted #FFF;
+    margin: 0px 0px 15px;
+}
+    
+#stories {
+    margin-left: 4px;
+    width: 497px;
+    height: 344px;
+    background: url() 0 0 repeat-x;
+    float: left;
+}
+#stories .padding {
+    padding: 0px 28px 0px 29px;
+}
+#stories .section {
+    height: 124px;
+    padding: 28px 0px 12px;
+}
+#stories .section .info {
+    text-align: right;
+    padding-right: 5px;
+    color: #FFF;
+    font-size: 11px;
+    margin-bottom: 10px;
+}
+#stories .section .info a:link,
+#stories .section .info a:visited {
+    color: #D7DF21;
+    font-size: 10px;
+    text-decoration: none;
+    border:0px;
+    outline: none;
+}
+#stories .section .info a:hover {
+    color: #FFF;
+}
+#stories .section ul {
+    padding: 0px;
+    margin: 0px;
+}
+#stories .section ul li {
+    list-style: none;
+    background: url() 8px 5px no-repeat;
+    display: inline;
+    width: 116px;
+    height: 75px;
+    border-right: 1px dotted #132664;
+    float: left;
+    padding: 0px 10px 0px 20px;
+    line-height: 16px;    
+}
+#stories .section ul li.last {
+    border-right: 0px;
+}
+#stories a {
+    text-decoration: none;
+    color: #192440;
+}
+#stories a:hover
+{
+    color:#00B9D4;
+}
+/* Icons */
+#icons {
+    width: 170px;
+    margin: 4px auto 0px;
+    position: relative;
+    z-index: 10;
+}
+/* Boxes */
+#boxes {
+    width: 970px;
+    margin: 4px auto 0px auto;
+    padding: 0px 10px 0px 11px;
+    position:absolute;
+    top:406px;
+    background: #FFF;
+}
+.box, 
+.box.right {
+    width: 220px;
+    height: 209px;
+    background: url() 0 0 no-repeat;
+    float: right;
+    margin: 0px 3px 0px 0px;
+    padding: 10px 10px 10px 10px;
+    position: relative;
+}
+.box.right {
+    margin-right: 0px;
+}
+.box img.title {
+    margin-bottom: 15px;
+}
+.box .more {
+    font-size: 10px;
+    float: right;
+    margin-top: 0px;
+}
+.box .more a:link,
+.box .more a:visited {
+    font-size: 11px;
+    color: #00b7d1;
+    text-decoration: none;
+}
+.box .more a:hover {
+    color: #fff;
+}
+.box h5 {
+    font-size: 11px;
+    margin: 0px;
+    padding: 0px;
+    color: #15286a;
+}
+.box .subscribe {
+    border-top: 1px dotted #131A37;
+    text-align: right;
+    padding-top: 5px;
+    position: absolute;
+    bottom: 5px;
+    width: 220px;
+}
+.box ul {
+    padding: 0px;
+    margin: 0px;
+}
+.box ul li {
+    list-style: none;
+    padding: 0px 0px 5px 10px;
+    background: url() 0px 5px no-repeat;
+}
+.box a:link,
+.box a:visited {
+    font-size: 11px;
+    color: #15286a;
+    text-decoration: none;
+}
+.box a:hover {
+    color: #00b7d1;
+}
+.box table {
+    height: 120px;
+}
+.box td {
+    width: 105px;
+}
+/* Footer */
+#footer-home {
+    width: 960px;
+    margin: 0px auto 0px auto;
+    padding: 0px 15px 0px 16px;
+    position:absolute;
+    top:639px;
+    background: #FFF; 
+}
+#footer-home img {  
+  margin-top: 10px;
+}
+#copyright-home {
+    font: normal 9px/12px verdana, geneva, san-serif;
+    float: right;
+    clear: both;
+    margin-top: 5px;
+    color: #333;
+}
+#cnet-home {
+    float: right;
+    clear: both;
+    margin-top: -10px;
+}
+#footer_nav-home {
+    font: normal 9px/12px verdana, geneva, san-serif;
+    margin: 10px 0px 0px 0px;   
+    float: right;
+    clear: both;
+}
+#footer_nav-home span {
+    padding: 0px 3px 0px 3px;
+}    
+#footer_nav-home a {
+    color: #002A4F;
+    text-decoration: underline;
+}
+#footer_nav-home a:hover {
+    text-decoration: none;
+}

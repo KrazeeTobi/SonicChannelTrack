@@ -1,0 +1,124 @@
+
+
+<SCRIPT language="javascript1.2">
+function newWin(urlString,pgNum)
+  {
+    var popupWindow;
+	urlString += "?pageID=" + pgNum;
+	
+    popupWindow = window.open(urlString,"","toolbar=yes,menubar=no,resizable=no,status=no,scrollbars=yes,location=no,directories=no,copyhistory=no,height=550,width=610,left=50,top=50");
+  }//  function for opening a new pop-up window for printing a page
+  
+ 
+function openNewWindow(strURL) {
+	window.name = "main";
+	
+	var newWindow = window.open(strURL,"newWindow", "toolbar=no,menubar=no,resizable=no,status=no,scrollbars=yes,location=no,directories=no,copyhistory=no,height=400,width=450,left=50,top=50");
+} //  function for opening a new pop-up window
+
+// javascript for e-mail this page tool - gets the url of the page the user is on before the e-mail page tool button is clicked
+	
+	function loadReferrer() {
+		referrerString = opener.document.location.href;
+		document.emailForm.page.value = referrerString;
+	}
+
+</SCRIPT>
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+	<title>2010 International CES:&nbsp;Locate Exhibitor</title>
+	
+	<script language="Javascript">
+		function setExhibitorInfo(exhibitorName, exhibitorID, exhibitorBooths){
+		if(opener){			
+			window.opener.document.forms["form_login"].ExhibitorNameText.value = exhibitorName;	
+			window.opener.document.forms["form_login"].ExhibitorName.value = exhibitorName;
+			window.opener.document.forms["form_login"].ExhibitorID.value = exhibitorID;
+			window.opener.document.forms["form_login"].TIMMS_ID.disabled=false;
+			window.opener.document.forms["form_login"].submit1.disabled=false;
+			window.opener.document.forms["form_login"].forgot_password_button.disabled=false;
+			window.opener.document.forms["form_login"].TIMMS_ID.focus();
+											
+			window.close();		
+		}
+	}
+	</script>
+	<style type="text/css">
+	BODY
+	{
+    margin:0px 0px 0px 0px;
+	}
+	td
+	{
+    font-family:Arial, Helvetica, Sans-Serif;
+    font-size:9pt;
+    line-height:16px;
+    color:#3a3a3a;    
+	}
+	</style>
+</head>
+
+<BODY>
+
+<IMG SRC="../../images/eims_banner.jpg" width="439" BORDER="0">
+
+<table cellpadding="10" width="100%">
+<tr><td>
+
+<table cellspacing="2" cellpadding="0" border="0" width="100%">
+<tr>
+<table width='100%' cellspacing='0' cellpadding='0' border='0'><tr><td colspan='2'><b>Records 1 - 15 of 142</b></td></tr><tr><td colspan='2' height='10'></td></tr><tr><td colspan='2'>
+<table width='100%' border='0' cellspacing='0' cellpadding='0'><tr><td><font class='resultPageNumbers'>
+&nbsp;1&nbsp;
+|&nbsp;<a href="eims_exhibitor_find.asp?ClauseType=1&SearchString=t&page=2">2</a>&nbsp;
+|&nbsp;<a href="eims_exhibitor_find.asp?ClauseType=1&SearchString=t&page=3">3</a>&nbsp;
+|&nbsp;<a href="eims_exhibitor_find.asp?ClauseType=1&SearchString=t&page=4">4</a>&nbsp;
+|&nbsp;<a href="eims_exhibitor_find.asp?ClauseType=1&SearchString=t&page=5">5</a>&nbsp;
+|&nbsp;<a href="eims_exhibitor_find.asp?ClauseType=1&SearchString=t&page=6">6</a>&nbsp;
+|&nbsp;<a href="eims_exhibitor_find.asp?ClauseType=1&SearchString=t&page=7">7</a>&nbsp;
+|&nbsp;<a href="eims_exhibitor_find.asp?ClauseType=1&SearchString=t&page=8">8</a>&nbsp;
+|&nbsp;<a href="eims_exhibitor_find.asp?ClauseType=1&SearchString=t&page=9">9</a>&nbsp;
+|&nbsp;<a href="eims_exhibitor_find.asp?ClauseType=1&SearchString=t&page=10">10</a>&nbsp;
+</font></td><td align='right'><font class='resultPageNumbers'><a href="eims_exhibitor_find.asp?ClauseType=1&SearchString=t&page=2">Next</a>&nbsp;&nbsp;&nbsp;</font></td></tr></table>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       </td></tr>
+<tr><td colspan='2' height='10'></td></tr>
+<tr><td width='20%' class='tablehead'><font class='subhead'>&nbsp;#</font></td><td width='80%' class='tablehead'><font class='subhead'>Exhibitor Name</font></td></tr><TR><TD colSpan=2 height=10></TD></TR>
+<tr class='shadow'><td height='20'>&nbsp;&nbsp;1.</td><td><a href="javascript:setExhibitorInfo('T-Mobile                                          ', '11775', '')">T-Mobile                                          </a></td></tr><tr>
+<tr><td height='20'>&nbsp;&nbsp;2.</td><td><a href="javascript:setExhibitorInfo('T-Mobile M2M                                      ', '13971', '')">T-Mobile M2M                                      </a></td></tr><tr>
+<tr class='shadow'><td height='20'>&nbsp;&nbsp;3.</td><td><a href="javascript:setExhibitorInfo('T. S. MicroTech Inc.                              ', '7731', '')">T. S. MicroTech Inc.                              </a></td></tr><tr>
+<tr><td height='20'>&nbsp;&nbsp;4.</td><td><a href="javascript:setExhibitorInfo('T.I.T Eng                                         ', '13514', '')">T.I.T Eng                                         </a></td></tr><tr>
+<tr class='shadow'><td height='20'>&nbsp;&nbsp;5.</td><td><a href="javascript:setExhibitorInfo('Tabsafe Medical Services, Inc.                    ', '13712', '')">Tabsafe Medical Services, Inc.                    </a></td></tr><tr>
+<tr><td height='20'>&nbsp;&nbsp;6.</td><td><a href="javascript:setExhibitorInfo('Tai Holly Ltd.                                    ', '12429', '')">Tai Holly Ltd.                                    </a></td></tr><tr>
+<tr class='shadow'><td height='20'>&nbsp;&nbsp;7.</td><td><a href="javascript:setExhibitorInfo('Taiwan Audio Association - Usher Audio Technology ', '8591', '')">Taiwan Audio Association - Usher Audio Technology </a></td></tr><tr>
+<tr><td height='20'>&nbsp;&nbsp;8.</td><td><a href="javascript:setExhibitorInfo('Taiwan Electrets Electronics Co., Ltd.            ', '13236', '')">Taiwan Electrets Electronics Co., Ltd.            </a></td></tr><tr>
+<tr class='shadow'><td height='20'>&nbsp;&nbsp;9.</td><td><a href="javascript:setExhibitorInfo('Taiwan Electrical & Electronic Manufacturers      ', '6849', '')">Taiwan Electrical &amp; Electronic Manufacturers      </a></td></tr><tr>
+<tr><td height='20'>&nbsp;&nbsp;10.</td><td><a href="javascript:setExhibitorInfo('Taiwan External Trade Development Council         ', '4970', '')">Taiwan External Trade Development Council         </a></td></tr><tr>
+<tr class='shadow'><td height='20'>&nbsp;&nbsp;11.</td><td><a href="javascript:setExhibitorInfo('Taiwan San Tyau Co. Ltd.                          ', '11471', '')">Taiwan San Tyau Co. Ltd.                          </a></td></tr><tr>
+<tr><td height='20'>&nbsp;&nbsp;12.</td><td><a href="javascript:setExhibitorInfo('Tangent                                           ', '10233', '')">Tangent                                           </a></td></tr><tr>
+<tr class='shadow'><td height='20'>&nbsp;&nbsp;13.</td><td><a href="javascript:setExhibitorInfo('Tangram Audio                                     ', '10802', '')">Tangram Audio                                     </a></td></tr><tr>
+<tr><td height='20'>&nbsp;&nbsp;14.</td><td><a href="javascript:setExhibitorInfo('Tap \'n Tap, Inc.                                  ', '13371', '')">Tap 'n Tap, Inc.                                  </a></td></tr><tr>
+<tr class='shadow'><td height='20'>&nbsp;&nbsp;15.</td><td><a href="javascript:setExhibitorInfo('Taperwire                                         ', '5612', '')">Taperwire                                         </a></td></tr><tr>
+<tr><td colspan='2' height='20'></td></tr>
+<tr><td colspan='2' align='middle'></td></tr><tr><td colspan='2'><table width='100%' border='0' cellspacing='0' cellpadding='0'><tr><td><font class='resultPageNumbers'>
+&nbsp;1&nbsp;
+|&nbsp;<a href="eims_exhibitor_find.asp?ClauseType=1&SearchString=t&page=2">2</a>&nbsp;
+|&nbsp;<a href="eims_exhibitor_find.asp?ClauseType=1&SearchString=t&page=3">3</a>&nbsp;
+|&nbsp;<a href="eims_exhibitor_find.asp?ClauseType=1&SearchString=t&page=4">4</a>&nbsp;
+|&nbsp;<a href="eims_exhibitor_find.asp?ClauseType=1&SearchString=t&page=5">5</a>&nbsp;
+|&nbsp;<a href="eims_exhibitor_find.asp?ClauseType=1&SearchString=t&page=6">6</a>&nbsp;
+|&nbsp;<a href="eims_exhibitor_find.asp?ClauseType=1&SearchString=t&page=7">7</a>&nbsp;
+|&nbsp;<a href="eims_exhibitor_find.asp?ClauseType=1&SearchString=t&page=8">8</a>&nbsp;
+|&nbsp;<a href="eims_exhibitor_find.asp?ClauseType=1&SearchString=t&page=9">9</a>&nbsp;
+|&nbsp;<a href="eims_exhibitor_find.asp?ClauseType=1&SearchString=t&page=10">10</a>&nbsp;
+</font></td><td align='right'><font class='resultPageNumbers'><a href="eims_exhibitor_find.asp?ClauseType=1&SearchString=t&page=2">Next</a>&nbsp;&nbsp;&nbsp;</font></td></tr></table>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       </td></tr>
+<tr><td colspan='2' height='20'></td></tr>
+<form><tr><td colspan='2' align='middle'><input type='button' class='formData' name='btnNewSearch' value='New Search' onClick="window.location='default.asp';"></td></tr></form>
+</table>
+</tr>
+</table>
+
+</td></tr>
+</table>
+</body>
+</html>

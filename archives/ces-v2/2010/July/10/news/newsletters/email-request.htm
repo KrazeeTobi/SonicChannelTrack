@@ -1,0 +1,221 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>CES Up to the Minute Request Form</title>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript"></script>
+    <script src="http://apps.ce.org/scripts/jMsAjax.js" type="text/javascript"></script>
+    <script src="http://apps.ce.org/scripts/WS.js" type="text/javascript"></script>
+    <script src="http://apps.ce.org/scripts/json2.js" type="text/javascript"></script>
+    <script src="http://apps.ce.org/scripts/timer.js" type="text/javascript"></script>
+    <script src="http://apps.ce.org/scripts/jqModal.js" type="text/javascript"></script>
+    <link href="http://apps.ce.org/scripts/jqModal.css" rel="stylesheet" type="text/css" />
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $("#createUser").live("click", function(ev) {
+                var invalidEmailAddressMessage = "That isn't a valid email address.";
+                var userSuccessfullyAddedMessage = "Congrats! You've been added to our CES Up to the Minute mailing list.";
+                var userAlreadyExistsMessage = "Looks like you're already on our mailing list!";
+                var genericErrorMessage = "Something fishy happened. Did you enter everything correctly?";
+                
+                // check for a valid email address
+                var regEmail = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
+                if(regEmail.test($("#email").val()) == false) {
+                    // invalid email address. Show error and let user retry.
+                    ev.preventDefault();
+                    $('#lyrisReturnStatus').jqmShow().oneTime(3500, "soon", function() {
+                        $('#lyrisReturnStatus').jqmHide();
+				    });
+				    $("#output").html(invalidEmailAddressMessage);
+				    $("#email").select();
+				    return;
+                }
+                
+                // Call the proxy to add the user
+                var service = new WS("http://apps.ce.org/WebServices/LyrisProxy/Services/Lyris/JSONP/Lyris.asmx", WSDataType.jsonp);
+                service.call("AddUser", { lyrisInstance:$("#lyrisInstance").val(), email:$("#email").val(), fullName:$("#fullName").val(), lyrisList:$("#lyrisList").val() }, function(AddUser) {
+                    var lyrisReturn = JSON.parse(AddUser);
+                    var goBack;
+                    var timeout;
+                    
+                    // See if the JSON returned is an error message and handle.
+                    if(typeof(lyrisReturn.ErrorMessage) !== 'undefined' && lyrisReturn.ErrorMessage != null) {
+                        var pos=lyrisReturn.ErrorMessage.indexOf("member already exists");
+                        if (pos>=0)
+                        {
+                            // Member already exists.
+                            $("#output").html(userAlreadyExistsMessage);
+                            goBack = true;
+                        } else {
+                            // Generic error.
+                            $("#output").html(genericErrorMessage);
+                            goBack = false;
+                        }
+                        timeout = 3500;
+                    }
+                    // See if the JSON returned the expected MemberID
+                    if(typeof(lyrisReturn.MemberID) !== 'undefined' && lyrisReturn.MemberID != null) {
+                        $("#output").html(userSuccessfullyAddedMessage);
+                        goBack = true;
+                        timeout = 2000;
+                    }
+                    
+                    //Show the modal display with the appropriate messaging and redirect.
+                    // ev.preventDefault();
+                    $('#lyrisReturnStatus').jqmShow().oneTime(timeout, "soon", function() {
+                        $('#lyrisReturnStatus').jqmHide();
+                        if(goBack) {
+					        history.go(-1);
+					    }
+				});
+
+                });
+            });
+            $('#lyrisReturnStatus').
+              jqm({ overlay: 50, modal: true, trigger: false });
+        });
+    </script>
+
+    <style type="text/css">
+        body
+        {
+            background: #000000;
+            width: 960px;
+            font-size: 11px;
+            font-family: Verdana, Arial, Helvetica, Geneva, Sans-serif;
+            line-height: 12px;
+            color: #333333;
+            margin: 0px auto 0px;
+            padding: 0px;
+        }
+        table.main tr td
+        {
+            padding-top: 25px;
+            padding-bottom: 10px;
+            padding-left: 20px;
+            padding-right: 12px;
+            font-size: 12px;
+            line-height: 16px;
+            background: #FFFFFF;
+        }
+        table.form tr td
+        {
+            padding-top: 2px;
+            padding-bottom: 2px;
+            padding-left: 4px;
+            font-size: 12px;
+            line-height: 16px;
+        }
+        h2
+        {
+            color: #1a627f;
+            font-size: 16px;
+            font-family: verdana, Arial, Tahoma, Verdana;
+            font-weight: bold;
+            margin: 0px 0px 10px 0px;
+            padding: 10px 0px 0px 0px;
+            line-height: 20px;
+        }
+        h3
+        {
+            color: #202020;
+            font-size: 14px;
+            font-family: Verdana, Arial, Tahoma, Verdana;
+            font-weight: normal;
+            margin: 0px 0px 10px 0px;
+            padding: 0px 0px 0px 0px;
+        }
+        span.required
+        {
+            font-size: 14px;
+            color: #cc0000;
+            font-weight: bold;
+        }
+        span.text_small
+        {
+            font-size: 11px;
+            color: #1f3776;
+        }
+        span.title
+        {
+            font-size: 12px;
+            color: #295c99;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div align="center">
+        <table width="990" border="0" style="border: double #1a7fab" cellpadding="0" cellspacing="0">
+            <tr valign="top">
+                <td>
+                    <a href="http://www.cesweb.org/register"><img width="990" src="/news/newsletters/request_header.jpg" alt="2011 International CES" border="0" /></a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table class="main" width="990">
+                        <tr>
+                            <td>
+                                <h2>Sign Up for CES Up to the Minute</h2>
+                                Get the latest news for the 2011 International CES.
+                                <table class="form" id="Table1">
+                                    <tr>
+                                        <td>
+                                            <img src="http://www.cesweb.org/images/framework/spacer.gif" height="1" width="100" border="0" alt="spacer" />
+                                        </td>
+                                        <td>
+                                            <img src="http://www.cesweb.org/images/framework/spacer.gif" height="1" width="555" border="0" alt="spacer" />
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td align="right">
+                                            <span class="required">*&nbsp;</span>Name&nbsp;&nbsp;
+                                        </td>
+                                        <td>
+                                            <input type="text" name="txt_name" size="25" id="fullName" />
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td align="right" valign="top">
+                                            <span class="required">*&nbsp;</span>E-mail&nbsp;&nbsp;
+                                        </td>
+                                        <td>
+                                            <input type="text" name="txt_email" size="25" id="email" /><br />
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            &nbsp;
+                                        </td>
+                                        <td>
+                                            <input type="button" name="createUser" id="createUser" value="Add" />&nbsp;&nbsp;
+                                            <input type="button" name="reset" value="Cancel" id="reset" onclick="history.go(-1)" />
+                                        </td>
+                                    </tr>
+                                </table>
+                               <tr>
+                                <td>You can visit <a href="http://www.cesweb.org/listremove">www.CESweb.org/listremove</a> to remove your e-mail address from the CES Up to the Minute mailing list at any time.
+                                        </td>
+                               </tr>          
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        <a href="http://www.cesweb.org">www.CESweb.org</a>
+        <!-- lyrisIstance values: lyris3=0, lyris4=1 //-->
+        <input type="hidden" id="lyrisInstance" value="0" />
+        <!-- this value must match a list name on the corresponding lyris instance //-->
+        <input type="hidden" id="lyrisList" value="ces-newsletters" />
+
+        <div id="lyrisReturnStatus" class="jqmPopup" style="padding: 10px;">
+            <h2 id="output"></h2><a href="#" class="jqmClose" title="close"><em>Close</em></a>
+            <div id="showMe"></div>
+        </div>
+
+    </div>
+</body>
+</html>
