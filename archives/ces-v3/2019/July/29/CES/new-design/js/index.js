@@ -1,0 +1,118 @@
+﻿$(document).ready(function () {
+    (function () {
+        var width = window.innerWidth;
+        var breakpoint;
+        getBreakpoint(width);
+
+        $(window).resize(function () {
+            width = window.innerWidth;
+            getBreakpoint(width);
+        });
+
+        function getBreakpoint(width) {
+            var prevBreakpoint = breakpoint;
+
+            if (width < 577)
+                breakpoint = "mobile";
+            else if (width < 992)
+                breakpoint = "tablet";
+            else
+                breakpoint = "desktop";
+
+            if (prevBreakpoint !== breakpoint)
+                getImagesForScreenSize(breakpoint);
+        }
+
+        function getImagesForScreenSize(screenSize) {
+            var heroArr;
+            var heroObj;
+
+            if (screenSize === "mobile") {
+                var mobileImage = document.querySelector('.home-hero__image--small');
+
+                var mobileBgImg1 = $("#mobileImageUrl").attr("value");
+                var mobileBgImg2 = $("#mobileImageUrl2").attr("value");
+                var mobileBgImg3 = $("#mobileImageUrl3").attr("value");
+
+                heroArr = [
+                    {
+                        "mobileImage": "" + mobileBgImg1 + ""
+                    },
+                    {
+                        "mobileImage": "" + mobileBgImg2 + ""
+                    },
+                    {
+                        "mobileImage": "" + mobileBgImg3 + ""
+                    }
+                ];
+
+                heroObj = heroArr[Math.floor(Math.random() * heroArr.length)];
+                mobileImage.style.backgroundImage = "url('" + heroObj.mobileImage + "')";
+            }
+            else if (screenSize === "tablet") {
+                var mediumImage = document.querySelector('.home-hero__image--medium');
+
+                var tabletBgImg1 = $("#tabletImageUrl").attr("value");
+                var tabletBgImg2 = $("#tabletImageUrl2").attr("value");
+                var tabletBgImg3 = $("#tabletImageUrl3").attr("value");
+
+                heroArr = [
+                    {
+                        "mediumImage": "" + tabletBgImg1 + ""
+                    },
+                    {
+                        "mediumImage": "" + tabletBgImg2 + ""
+                    },
+                    {
+                        "mediumImage": "" + tabletBgImg3 + ""
+                    }
+                ];
+
+                heroObj = heroArr[Math.floor(Math.random() * heroArr.length)];
+                mediumImage.style.backgroundImage = "url('" + heroObj.mediumImage + "')";
+            }
+            else if (screenSize === "desktop") {
+                var video = document.querySelector('.home-hero__video');
+
+                var videoBgUrl1 = $("#videoUrl").attr("value");
+                var videoBgUrl2 = $("#videoUrl2").attr("value");
+                var videoBgUrl3 = $("#videoUrl3").attr("value");
+
+                var desktopBgImg1 = $("#desktopImageUrl").attr("value");
+                var desktopBgImg2 = $("#desktopImageUrl2").attr("value");
+                var desktopBgImg3 = $("#desktopImageUrl3").attr("value");
+
+                heroArr = [
+                    {
+                        "image": "" + desktopBgImg1 + "",
+                        "video": "" + videoBgUrl1 + ""
+                    },
+                    {
+                        "image": "" + desktopBgImg2 + "",
+                        "video": "" + videoBgUrl2 + ""
+                    },
+                    {
+                        "image": "" + desktopBgImg3 + "",
+                        "video": "" + videoBgUrl3 + ""
+                    }
+                ];
+
+                heroObj = heroArr[Math.floor(Math.random() * heroArr.length)];
+
+                setAttributes(video, {
+                    'src': heroObj.video,
+                    'poster': heroObj.image
+                });
+
+                video.play();
+            }
+        }
+
+        function setAttributes(el, attrs) {
+            for (var key in attrs) {
+                el.setAttribute(key, attrs[key]);
+            }
+        }
+
+    })();
+});
