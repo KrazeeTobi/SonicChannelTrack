@@ -1,0 +1,567 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head id="head"><title>
+	Partners - 2016 International CES, January 6-9
+</title><meta name="description" content="International CES partners. " /> 
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" /> 
+<meta http-equiv="pragma" content="no-cache" /> 
+<meta http-equiv="content-style-type" content="text/css" /> 
+<meta http-equiv="content-script-type" content="text/javascript" /> 
+<meta name="keywords" content="International CES, CES, CES 2010, CES 2011, CES 2012, CES 2013, CES 2014, CES 2015, CES 2016, CES 2017, CES 2018, Consumer Electronics Show, Consumer Technology, Consumer Electronics, Consumer Electronics Association, CES Las Vegas, ces show, ces vegas, CES Unveiled, ces tradeshow, ces conference, ces registration, ces exhibitor, ces innovation awards, innovation awards, best of ces, ces keynote, ces show floor, technology, silicon valley, technology innovation, disruptive technology, start-ups,International CES, CES, CES 2010, CES 2011, CES 2012, CES 2013, CES 2014, CES 2015, CES 2016, CES 2017, CES 2018, Consumer Electronics Show, Consumer Technology, Consumer Electronics, Consumer Electronics Association, CES Las Vegas, ces show, ces vegas, CES Unveiled, ces tradeshow, ces conference, ces registration, ces exhibitor, ces innovation awards, innovation awards, best of ces, ces keynote, ces show floor, technology, silicon valley, technology innovation, disruptive technology, start-ups, partners" /> 
+<link href="/CMSPages/GetResource.ashx?stylesheetname=ices-main-style" type="text/css" rel="stylesheet"/> 
+<meta http-equiv="X-UA-Compatible" content="IE=edge"> <meta name="viewport" content="initial-scale=1">
+
+<!-- open graph -->
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="International CES" />
+<meta property="og:url" content="http://www.cesweb.org/Partners.aspx" />
+<meta property="og:title" content="Partners" />
+<meta property="og:description" content="International CES partners. ">
+<meta property="og:image" content="http://www.cesweb.org">
+<!-- open graph -->
+
+<meta property="twitter:account_id" content="10668202" />
+<!-- Twitter Summary Card -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@IntlCES">
+<meta name="twitter:creator" content="@IntlCES">
+<meta name="twitter:title" content="Partners">
+<meta name="twitter:description" content="International CES partners. ">
+<meta name="twitter:image" content="http://www.cesweb.org">
+<!-- End of Twitter Summary Card -->
+
+<link rel="shortcut icon" href="/ces/favicon.ico" />
+<link rel="icon" href="/ces/favicon.ico" />
+
+<!--[if !IE]><!-->
+<link href="/CMSPages/GetResource.ashx?stylesheetname=ices-main-style" type="text/css" rel="stylesheet" media="screen" />
+<!--<![endif]-->
+<!--[if lte IE 9]>
+<link href="/CMSPages/GetResource.ashx?stylesheetname=ices-IE8" type="text/css" rel="stylesheet" media="screen" />
+<![endif]-->  
+<link href="/CMSPages/GetResource.ashx?stylesheetname=ices-mediaelementplayer.min	" type="text/css" rel="stylesheet" media="screen" />
+<link href="/CMSPages/GetResource.ashx?stylesheetname=ices-captions" type="text/css" rel="stylesheet"  />
+<link href="/CMSPages/GetResource.ashx?stylesheetname=ices-slider-style" type="text/css" rel="stylesheet" media="screen" />
+<link href="/CMSPages/GetResource.ashx?stylesheetname=ices-flexslider" type="text/css" rel="stylesheet" />
+<link href="/CMSPages/GetResource.ashx?stylesheetname=ices-prettyphoto" type="text/css" rel="stylesheet" />
+<link href="/CMSPages/GetResource.ashx?stylesheetname=ices-settings" type="text/css" rel="stylesheet" media="screen" />
+<link href="/CMSPages/GetResource.ashx?stylesheetname=ices-fonts" type="text/css" rel="stylesheet" media="screen" />
+<link href="/CMSPages/GetResource.ashx?stylesheetname=ices-print" type="text/css" rel="stylesheet" media="print" />
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+<script type="text/javascript" src="/ces/js/itn/jquery.cookie.js"></script>
+<script type="text/javascript" src="/ces/js/scripts.js"></script>
+<!--<script type="text/javascript" src="/ces/js/jquery.themepunch.revolution.min.js"></script>-->
+<script type="text/javascript" src="/ces/js/custom.js"></script>
+
+
+<script type="text/javascript">
+  <!--
+    function toggle_visibility(id) {
+      var e = document.getElementById(id);
+      if (e.style.display == 'block')
+        e.style.display = 'none';
+      else
+        e.style.display = 'block';
+    }
+      //-->
+</script>
+<script type="text/javascript">
+  function EnterEvent(e) {
+    if (e.keyCode == 13) {
+      var val = document.getElementById('searchTxt').value;
+      var sURL = '/search-results?searchtext=' + val + '&searchmode=anyword';
+      window.location.href = sURL;
+      return false;
+    }
+  }
+  
+  jQuery(document).ready(function ($) {
+    for (var count = 2 ;count <= 7; count ++)
+    {
+      var a = $('#'+ count +' ul.nav-3cols > li');
+      for (var i = 0; i < a.length; i += 5) {
+        a.slice(i, i + 5).wrapAll('<div class="nav-col"></div>');
+      }
+      var a = $('#'+ count +' ul.nav-2cols > li');
+      for (var i = 0; i < a.length; i += 5) {
+        a.slice(i, i + 5).wrapAll('<div class="nav-col"></div>');
+      }
+    }
+    
+    
+  });
+</script>
+<script type="text/javascript">var switchTo5x=false;</script>
+<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+<script type="text/javascript">stLight.options({publisher: "a17beaa8-5eee-4df7-8629-9947a3e965e3",  offsetLeft:'-270', doNotHash: true, doNotCopy: false, hashAddressBar: false, exclusive_services:true, services:"facebook,twitter,linkedin,googleplus,email,sharethis", minorServices:false});</script>
+
+
+
+<script type="text/javascript" src="/ces/js/cmsedit/WidgetSecurity_non_Admin.js"></script> 
+<style type="text/css" rel="stylesheet"> 
+                   
+                        .languages {
+                        display: none !important;
+                        
+                        }
+
+                    </style>
+                    <link href="/CMSPages/GetResource.ashx?_webparts=1067" type="text/css" rel="stylesheet"/> 
+</head>
+<body class="LTR ENUS ContentBody" >
+    <form method="post" action="/Partners.aspx" id="form">
+<div class="aspNetHidden">
+<input type="hidden" name="manScript_HiddenField" id="manScript_HiddenField" value="" />
+
+</div>
+
+<input type="hidden" name="lng" id="lng" value="en-US" />
+<script type="text/javascript">
+	//<![CDATA[
+
+function PM_Postback(param) { if (window.top.HideScreenLockWarningAndSync) { window.top.HideScreenLockWarningAndSync(1080); }__doPostBack('m',param); }
+function PM_Callback(param, callback, ctx) { if (window.top.HideScreenLockWarningAndSync) { window.top.HideScreenLockWarningAndSync(1080); }WebForm_DoCallback('m',param,callback,ctx,null,true); }
+//]]>
+</script>
+<script src="/ScriptResource.axd?d=3hdha27SAHByUKq-4Hx6D7eXBA_sf1w0noXZScXx-Ze4hnH0bOpNHZ1dxbYxKLYOUrRTiiSOZXYZrf4AAzuWkbgxC0O56uBVj8XZjgf7SIKw-eXKUEhGRbVWNHT9bsJq0&amp;t=ffffffff8dea9fe4" type="text/javascript"></script>
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="A5343185" />
+</div>
+    <div id="CMSHeaderDiv">
+	<!-- -->
+</div>
+    <div id="ctxM">
+
+</div>
+    
+<!--[if lt IE 9]>
+  <div style="display: block; width: 97%; background-color: #FF99CC; padding: 10px 30px 10px 30px; text-align: center; color: black; font-size:20px;">
+    We noticed you are using an older version of IE that isn't fully supported on this site. Please click <a  href="#">here</a> for more information and options.
+</div>
+<![endif]-->  
+
+<div id="wrapper">
+	<div id="center_top">
+    <div id="container">
+        	<!--TOP PANEL-->
+			<section>
+            <div id="top_panel">
+                <div class="container">
+                    <ul class="connect-title">
+                        <li>Connect with Us</li>
+                    </ul>
+                    <ul class="social_icons">
+	<li class="twitter">
+		<a href="https://twitter.com/intlces" title="Twitter">&nbsp;</a></li>
+	<li class="facebook">
+		<a href="https://www.facebook.com/InternationalCES" title="facebook">&nbsp;</a></li>
+	<li class="googleplus">
+		<a href="https://google.com/+InternationalCES" title="googleplus">&nbsp;</a></li>
+	<li class="instagram">
+		<a href="http://instagram.com/intlces" title="instagram">&nbsp;</a></li>
+	<li class="youtube">
+		<a href="http://www.youtube.com/user/cesonthetube" title="youtube">&nbsp;</a></li>
+</ul>
+
+                    <ul class="open-ad"><li id="clasp_1"><a href="javascript:lunchboxOpen('1');">OPEN ADVERTISEMENT</a></li></ul>
+                    <ul class="drop" id="nav">
+	<li>
+		Other CEA Sites
+		<ul>
+			<li>
+				<a href="http://www.ce.org" target="_blank">CEA - CE.org</a></li>
+			<li>
+				<a href="http://www.declareinnovation.com/" target="_blank">Innovation Movement</a></li>
+			<li>
+				<a href="http://www.ce.org/blog" target="_blank">CEA Blog</a></li>
+			<li>
+				<a href="http://www.ce.org/i3" target="_blank">i3 Magazine</a></li>
+			<li>
+				<a href="http://www.greenergadgets.org/" target="_blank">Greener Gadgets</a></li>
+			<li>
+				<a href="http://www.ce.org/research" target="_blank">CEA Market Research</a></li>
+			<li>
+				<a href="http://www.ce.org/foundation" target="_blank">CEA Foundation</a></li>
+			<li>
+				<a href="http://www.cesasia.com" target="_blank">CES Asia</a></li>
+		</ul>
+	</li>
+</ul>
+
+                </div>
+            </div>
+            </section> 
+            <!--END TOP PANEL-->
+            <!--AD AREA-->
+           <section>
+           		<div style="background:#000;" class="billboard-ad" >
+                <div class="container bill-ad lunchbox" id="lunch_1"  style="display: none;">
+                  
+                </div>
+                </div>
+           	</section>
+             <!--ENS AD AREA-->
+           
+           <!--AUDIENCEL-->
+           <section>
+           <div class="container">
+           	<ul class="audience-nav">
+	<li>
+		<a href="/exhibitor">Exhibitors</a></li>
+	<li>
+		<a href="/press">Press</a></li>
+	<li>
+		<a href="/international">International</a></li>
+</ul>
+
+            </div>
+           </section>
+           <!--END AUDIENCEL-->
+           <!--HEADER-->
+          <section>
+            <div class="container">
+				<header id="header">
+					<div id="sticky_navigation">
+						<div class="container">
+							<a href="/home" id="logo"></a>
+                   		   
+                           <div class="search-container">
+                              <div class="search">
+                                <input type="search" id="searchTxt" onkeypress="return EnterEvent(event);" >
+                                  
+                              </div>
+                              <div class="date">
+                                <h2>
+	Las Vegas, NV</h2>
+<h3>
+	JANUARY 6-9, 2016</h3>
+
+                              </div>
+                          </div>
+                       </div>
+                       <div id="navigation-wrapper">
+                            <nav id="main-navigation">
+                              
+<ul class="main-menu sf-js-enabled sf-shadow">
+ 
+    <li class=""
+id="2">
+<a href=" /Register-Plan"> Register &amp; Plan</a> 
+<ul 
+    class='nav-3cols'
+   
+  style="display: none; visibility: hidden;">
+    
+  <p style ="display:none;">&nbsp;</p><li><a href=" /Register-Plan/Register-Now"> Register Now</a>
+
+<li><a href=" /Register-Plan/Full-Schedule"> Full Schedule </a>
+
+<li><a href=" /Register-Plan/Hotel"> Hotel</a>
+
+<ul><li><a href="/Register-Plan/Hotel/Reserve-a-Room-Block" class="no-display">Reserve a Room Block </a></li></ul>
+</li><li><a href=" /Register-Plan/Transportation"> Transportation</a>
+
+<ul></ul>
+</li><li><a href=" /Register-Plan/Travel-Tips"> Travel Tips</a>
+
+
+</ul></li><li class=""
+id="3">
+<a href=" /Show-Floor"> Show Floor</a> 
+<ul 
+    
+   class='nav-2cols'
+  style="display: none; visibility: hidden;">
+    
+  <p style ="display:none;">&nbsp;</p><li><a href=" /Show-Floor/Exhibit-or-Sponsor"> Exhibit or Sponsor</a>
+
+<li><a href=" /Show-Floor/Exhibit-Hours"> Exhibit Hours</a>
+
+<li><a href=" /Show-Floor/Exhibit-Directory"> Exhibitor Directory</a>
+
+<li><a href=" /Show-Floor/Marketplaces"> Marketplaces</a>
+
+<ul></ul>
+</li>
+</ul></li><li class=""
+id="4">
+<a href=" /Conference"> Conference</a> 
+<ul 
+    class='nav-3cols'
+   
+  style="display: none; visibility: hidden;">
+    
+  <p style ="display:none;">&nbsp;</p><li><a href=" /Conference/Become-a-Speaker"> Become a CES Speaker</a>
+
+
+</ul></li><li class=""
+id="6">
+<a href=" /Events-Programs"> Events &amp; Experiences</a> 
+<ul 
+    class='nav-3cols'
+   
+  style="display: none; visibility: hidden;">
+    
+  <p style ="display:none;">&nbsp;</p><li><a href=" /Events-Programs/Innovation"> CES Innovation Awards</a>
+
+<li><a href=" /Events-Programs/CES-Unveiled"> CES Unveiled</a>
+
+<ul></ul>
+</li><li><a href=" /Events-Programs/Call-for-Authors-Gary-s-Book-Club"> Join Gary&#39;s Book Club</a>
+
+<li><a href=" /Events-Programs/Entertainment-Matters"> Entertainment Matters</a>
+
+<ul></ul>
+</li><li><a href=" /Events-Programs/CES-Asia"> CES Asia</a>
+
+<li><a href=" /Events-Programs/2016-CES-Music-Contest"> 2016 CES Music Contest</a>
+
+<li><a href=" /Events-Programs/Garys-Book-Club"> Gary&#39;s Book Club</a>
+
+
+</ul></li><li class=""
+id="7">
+<a href=" /News"> News</a> 
+<ul 
+    
+   class='nav-2cols'
+  style="display: none; visibility: hidden;">
+    
+  <p style ="display:none;">&nbsp;</p><li><a href=" /News/Press-Releases"> Press Releases</a>
+
+<li><a href=" /News/CES-TV"> Videos</a>
+
+<ul></ul>
+</li><li><a href=" /News/Blog"> Blog</a>
+
+<li><a href=" /News/Photo-Gallery"> Photo Gallery</a>
+
+<li><a href=" /News/CES-Social"> Social Media</a>
+
+<li><a href=" /News/CES-In-The-News"> CES In The News</a>
+
+<li><a href=" /News/Exhibitor-Press-Releases"> Exhibitor News</a>
+
+
+</ul></li><li class=""
+id="7">
+<a href=" /Why-CES"> Why CES?</a> 
+<ul 
+    
+   
+  style="display: none; visibility: hidden;">
+    
+  <p style ="display:none;">&nbsp;</p><li><a href=" /Why-CES/Experience-the-International-CES"> Experience Innovation at CES</a>
+
+<li><a href=" /Why-CES/2014-Attendee-Audit"> CES By the Numbers</a>
+
+<li><a href=" /Why-CES/CEA-Member-Benefits"> CEA Member Benefits</a>
+
+
+</ul>  </li>
+</ul>
+
+ <div id="main-navigation">
+  <select id="navSecondary" onChange="top.location.href=this.options[this.selectedIndex].value;">
+<option selected="selected" value="">Site Main Navigation</option>
+<option style="font-family:open_sansbold;" value="/Register-Plan">Register & Plan</option><option style="font-family:open_sansbold;" value="/Show-Floor">Show Floor</option><option style="font-family:open_sansbold;" value="/Conference">Conference</option><option style="font-family:open_sansbold;" value="/Events-Programs">Events & Experiences</option><option style="font-family:open_sansbold;" value="/News">News</option><option style="font-family:open_sansbold;" value="/Why-CES">Why CES?</option><option style="font-family:open_sansbold;" value="/Exhibitor">Exhibitors</option><option style="font-family:open_sansbold;" value="/International">International</option><option style="font-family:open_sansbold;" value="/Press">Press</option>
+</select>
+</div>
+                            </nav>
+                        </div>
+				    </div>
+	          </header>
+           </div> 
+        </section>
+        </div>
+      
+
+<section>
+        <div class="container clearfix above">
+            
+           
+                <div class="one-land">
+                  <div class="body-content">
+                    
+
+                    <div class="breadcrumbs">
+                       <ul>
+                            <li>
+                                <a id="p_lt_ctl06_pageplaceholder_p_lt_hypBChome" href="./">Home</a></li>
+                             <li class="bread-div">|</li><li><span  class="CMSBreadCrumbsCurrentItem">Partners</span>
+</li>
+                            
+                       
+                            <li><span  class="st_sharethis_custom" displayText="ShareThis"><a >Share This</a></span></li>
+                        </ul>       
+                    </div>
+
+                    <p class="intro-innov">  </p>
+
+                    
+                       
+<h2>The perfect union...</h2>
+<p class="intro">It takes a diverse range of&nbsp;partners, sponsors and participants&nbsp;to create an amazing show like the International CES, and we&nbsp;would like to extend our utmost gratitude.&nbsp;&nbsp;<br />
+<br />
+So to our partners, sponsors and participants,&nbsp;<strong>thank you! </strong></p>  
+
+<div style="text-align: center;">
+	<img border="0" height="1800" src="/CES/media/2014/Partners/1719_CESAttendee_800x1800_Partners_1.jpg" usemap="#Map" width="800" /><map id="Map" name="Map"><area coords="240,147,504,247" href="http://www.allantgroup.com/" shape="rect" target="_blank" /> <area coords="520,137,784,247" href="http://www.amazon.com/b?node=3055328011" shape="rect" target="_blank" /> <area coords="27,271,215,391" href="http://www.ana.net/" shape="rect" target="_blank" /> <area coords="-1,424,272,484" href="http://brightline.tv/" shape="rect" target="_blank" /> <area coords="28,557,256,634" href="http://www.factual.com/" shape="rect" target="_blank" /> <area coords="579,560,773,632" href="http://www.groupm.com/" shape="rect" target="_blank" /> <area coords="291,653,536,753" href="http://www.hulu.com" shape="rect" target="_blank" /> <area coords="258,957,523,1026" href="http://www.medialink.com/" shape="rect" target="_blank" /> <area coords="5,1229,250,1283" href="http://www.neustar.biz/" shape="rect" target="_blank" /> <area coords="549,1190,785,1298" href="http://www.usatoday.com" shape="rect" target="_blank" /> <area coords="288,1344,521,1437" href="http://www.rubiconproject.com/" shape="rect" target="_blank" /> <area coords="282,1468,508,1540" href="http://www.taboola.com" shape="rect" target="_blank" /> <area coords="544,296,775,381" href="http://www.bhg.com/smart-home/" shape="rect" target="_blank" /> <area coords="14,1465,259,1544" href="http://www.Shellypalmer.com" shape="rect" target="_blank" /> <area coords="23,667,287,745" href="http://www.hooklogic.com/retail" shape="rect" target="_blank" /> <area coords="300,809,542,885" href="http://www.maxusglobal.com" shape="rect" target="_blank" /> <area coords="553,757,777,915" href="http://www.mecglobal.com" shape="rect" target="_blank" /> <area coords="8,949,253,1051" href="http://www.mediacomusa.com" shape="rect" target="_blank" /> <area coords="24,1093,248,1151" href="http://www.mindshareworld.com" shape="rect" target="_blank" /> <area coords="524,943,786,1030" href="http://www.mediaocean.com" shape="rect" target="_blank" /> <area coords="306,1060,498,1179" href="http://groupm.com/our-agencies/regional#modi-media" shape="rect" target="_blank" /> <area coords="527,1357,799,1420" href="https://www.samba.tv/" shape="rect" target="_blank" /> <area coords="52,1683,206,1797" href="http://www.xaxis.com/" shape="rect" target="_blank" /> <area coords="5,145,233,239" href="http://www.adweek.com/" shape="rect" target="_blank" /> <area coords="11,1326,277,1434" href="http://www.radiumone.com/" shape="rect" target="_blank" /> <area coords="281,1561,489,1678" href="http://www.twitter.com" shape="rect" target="_blank" /> <area coords="270,1706,513,1791" href="http://www.yahoo.com" shape="rect" target="_blank" /> <area coords="274,1219,526,1289" href="http://www.theonion.com" shape="rect" target="_blank" /> <area coords="291,553,538,633" href="http://www.google.com" shape="rect" target="_blank" /> <area coords="234,297,519,383" href="http://www.audiencepartners.com/" shape="rect" target="_blank" /> <area coords="494,1575,809,1664" href="http://www.watchwith.com" shape="rect" target="_blank" /> <area coords="556,430,780,513" href="http://www.exelate.com/" shape="rect" target="_blank" /> <area coords="2,1574,273,1663" href="http://www.tubemogul.com" shape="rect" target="_blank" /> <area coords="287,425,533,515" href="http://www.ensequence.com" shape="rect" target="_blank" /> <area coords="523,1456,794,1543" href="http://www.tubefilter.com" shape="rect" target="_blank" /></map></div>
+<h2 style="text-align: center;">
+	<br />
+	<br />
+	&nbsp;</h2>
+<h2 style="text-align: center;">
+	Official Partners</h2>
+<br />
+<br />
+<br />
+<br />
+<br />
+<div style="text-align: center;">
+	<img alt="" src="/CES/media/2014/Partners/Group_1-2-2014.jpg" /></div>
+<br />
+<h2 style="text-align: center;">
+	<br />
+	<br />
+	Allied Associations</h2>
+<div style="text-align: center;">
+	<br />
+	<br />
+	<br />
+	<img alt="" src="/CES/media/2014/Partners/1920_AlliedLogos_1.jpg" /></div>
+
+                    
+                </div>
+          </div>
+           
+    
+
+    </section>
+      
+      <div class="interior-body-bk">
+          <div class="int-bk-right"><a id="p_lt_ctl07_BannerRotatorRightHanger_lnkBanner" class="CMSBanner Banner" href="http://www.cesweb.org" onclick="this.href=&#39;/CMSModules/BannerManagement/CMSPages/BannerRedirect.ashx?bannerID=36&#39;;" onmouseup="this.href=&#39;/CMSModules/BannerManagement/CMSPages/BannerRedirect.ashx?bannerID=36&#39;;"><img id="p_lt_ctl07_BannerRotatorRightHanger_imgBanner" src="/CES/media/2014/backgrounds/hanger_1.jpg" style="" /></a></div>
+          <div class="int-bk-left"><a id="p_lt_ctl08_BannerRotatorLeftHanger_lnkBanner" class="CMSBanner Banner" href="http://www.cesweb.org" onclick="this.href=&#39;/CMSModules/BannerManagement/CMSPages/BannerRedirect.ashx?bannerID=35&#39;;" onmouseup="this.href=&#39;/CMSModules/BannerManagement/CMSPages/BannerRedirect.ashx?bannerID=35&#39;;"><img id="p_lt_ctl08_BannerRotatorLeftHanger_imgBanner" src="/CES/media/2014/backgrounds/hanger_left.jpg" style="" /></a></div>
+      </div>  
+      
+      <section>
+    <div id="footer">
+			<div class="container">
+            	<div class="footer-line"></div>
+				<div class="one-fifth">
+                  <p class="copyright">
+	Copyright &copy; 2003 - 2015 CEA. All rights reserved.</p>
+
+			    </div>
+			    <div class="one-sixth footer-div">
+                  <ul>
+	<li>
+		<a href="/about-us">About Us </a></li>
+	<li>
+		<a href="/contact-us">Contact Us</a></li>
+	<li>
+		<a href="/partners">Partners</a></li>
+</ul>
+
+				 </div>
+                 <div class="one-sixth footer-div">
+                  <ul>
+	<li>
+		<a href="/privacy">Privacy</a></li>
+	<li>
+		<a href="/sitemap">Sitemap</a></li>
+</ul>
+<br /><div style="font-size: .8em; color: #FFF;"><span id="p_lt_ctl11_whatServer_serverName">WEB-IIS20</span></div>
+				 </div>
+				 <div class="one-third languages">
+                    	
+                     <script type="text/javascript">
+
+
+
+  var _gaq = _gaq || [];
+
+  _gaq.push(['_setAccount', 'UA-3975226-4']);
+
+  _gaq.push(['_trackPageview']);
+
+
+
+  (function() {
+
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+
+  })();
+
+
+
+</script>​
+                </div>
+			</div>
+    </div>
+    </section>
+    </div>
+    </div>
+<!-- Start of Google Analytics script -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-3975226-4', 'cesweb.org');
+  ga('send', 'pageview');
+
+</script>
+<!-- End of Google Analytics script -->
+
+<!-- Start Pardot tracking script -->
+<script type="text/javascript"> 
+piAId = '27962'; 
+piCId = '2690'; 
+
+(function() { 
+function async_load(){ 
+var s = document.createElement('script'); s.type = 'text/javascript';
+s.src = ('https:' == document.location.protocol ? 'https://pi' : 'http://cdn') + '.pardot.com/pd.js'; 
+var c = document.getElementsByTagName('script')[0]; c.parentNode.insertBefore(s, c); 
+} 
+if(window.attachEvent) { window.attachEvent('onload', async_load); } 
+else { window.addEventListener('load', async_load, false); } 
+})(); 
+</script> 
+<!-- End Pardot tracking script -->
+<script type="text/javascript">
+setTimeout(function(){var a=document.createElement("script");
+var b=document.getElementsByTagName("script")[0];
+a.src=document.location.protocol+"//dnn506yrbagrg.cloudfront.net/pages/scripts/0013/2569.js?"+Math.floor(new Date().getTime()/3600000);
+a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
+</script>
+
+    
+    
+
+<script type="text/javascript">
+//<![CDATA[
+(function() {var fn = function() {$get("manScript_HiddenField").value = '';Sys.Application.remove_init(fn);};Sys.Application.add_init(fn);})();//]]>
+</script>
+  <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJODc3OTc4NjAwD2QWAgIBEGRkFgICBQ9kFgJmD2QWAmYPZBYCAg0PZBYCZg9kFgICAg9kFgJmD2QWAmYPZBYCAgsPZBYCZg9kFgJmD2QWAmYPZBYCZg9kFgJmDw8WBh4LXyFEYXRhQm91bmRnHglJdGVtQ291bnQCAR4LXyFJdGVtQ291bnQCAWQWAmYPZBYCZg9kFgJmDxUDAB08aDI+VGhlIHBlcmZlY3QgdW5pb24uLi48L2gyPqICSXQgdGFrZXMgYSBkaXZlcnNlIHJhbmdlIG9mJm5ic3A7cGFydG5lcnMsIHNwb25zb3JzIGFuZCBwYXJ0aWNpcGFudHMmbmJzcDt0byBjcmVhdGUgYW4gYW1hemluZyBzaG93IGxpa2UgdGhlIEludGVybmF0aW9uYWwgQ0VTLCBhbmQgd2UmbmJzcDt3b3VsZCBsaWtlIHRvIGV4dGVuZCBvdXIgdXRtb3N0IGdyYXRpdHVkZS4mbmJzcDsmbmJzcDs8YnIgLz4NCjxiciAvPg0KU28gdG8gb3VyIHBhcnRuZXJzLCBzcG9uc29ycyBhbmQgcGFydGljaXBhbnRzLCZuYnNwOzxzdHJvbmc+dGhhbmsgeW91ISA8L3N0cm9uZz5kZPIu7o/euSrs0fmZ2+bTh3jG4rFSkmBjdghQmrj86ud5" />
+    <script type="text/javascript"> 
+      //<![CDATA[
+      if (window.WebForm_InitCallback) { 
+        __theFormPostData = '';
+        __theFormPostCollection = new Array();
+        window.WebForm_InitCallback(); 
+      }
+      //]]>
+    </script>
+  </form>
+</body>
+</html>

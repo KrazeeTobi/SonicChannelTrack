@@ -1,0 +1,611 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head id="head"><title>
+	Gary&#39;s Book Club - CES 2016
+</title><meta name="description" content="Gary's Book Club showcases the works of prominent authors in the tech industry at CES." /> 
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" /> 
+<meta http-equiv="pragma" content="no-cache" /> 
+<meta http-equiv="content-style-type" content="text/css" /> 
+<meta http-equiv="content-script-type" content="text/javascript" /> 
+<meta name="keywords" content="International CES, CES, CES 2010, CES 2011, CES 2012, CES 2013, CES 2014, CES 2015, CES 2016, CES 2017, CES 2018, Consumer Electronics Show, Consumer Technology, Consumer Electronics, Consumer Electronics Association, CES Las Vegas, ces show, ces vegas, CES Unveiled, ces tradeshow, ces conference, ces registration, ces exhibitor, ces innovation awards, innovation awards, best of ces, ces keynote, ces show floor, technology, silicon valley, technology innovation, disruptive technology, start-ups,International CES, CES, CES 2010, CES 2011, CES 2012, CES 2013, CES 2014, CES 2015, CES 2016, CES 2017, CES 2018, Consumer Electronics Show, Consumer Technology, Consumer Electronics, Consumer Electronics Association, CES Las Vegas, ces show, ces vegas, CES Unveiled, ces tradeshow, ces conference, ces registration, ces exhibitor, ces innovation awards, innovation awards, best of ces, ces keynote, ces show floor, technology, silicon valley, technology innovation, disruptive technology, start-ups" /> 
+<link href="/CMSPages/GetResource.ashx?stylesheetname=Blank_1" type="text/css" rel="stylesheet"/> 
+<meta http-equiv="X-UA-Compatible" content="IE=edge"> <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- open graph -->
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="International CES" />
+<meta property="og:url" content="http://www.cesweb.org/Events-Programs/Garys-Book-Club.aspx" />
+<meta property="og:title" content="Gary's Book Club" />
+<meta property="og:description" content="Gary's Book Club showcases the works of prominent authors in the tech industry at CES.">
+<meta property="og:image" content="http://www.cesweb.org/CES/media/2014/landing%20pages/events-awards/book%20club/bookclub2_1.jpg?width=380&height=215&ext=.jpg">
+<!-- open graph -->
+
+<meta property="twitter:account_id" content="10668202" />
+<!-- Twitter Summary Card -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@IntlCES">
+<meta name="twitter:creator" content="@IntlCES">
+<meta name="twitter:title" content="Gary's Book Club">
+<meta name="twitter:description" content="Gary's Book Club showcases the works of prominent authors in the tech industry at CES.">
+<meta name="twitter:image" content="http://www.cesweb.org/CES/media/2014/landing%20pages/events-awards/book%20club/bookclub2_1.jpg?width=380&height=215&ext=.jpg">
+<!-- End of Twitter Summary Card -->
+
+<link rel="shortcut icon" href="/ces/favicon.ico" />
+<link rel="icon" href="/ces/favicon.ico" />
+
+<!-- Added by Jay - 4/15/2015 -->
+<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css"> -->
+<link rel="stylesheet" href="/Content/theme.min.css">
+<!-- <link href="/CMSPages/GetResource.ashx?stylesheetname=ices-main-style" type="text/css" rel="stylesheet"/> -->
+<!-- END Added by Jay - 4/15/2015 -->
+
+<link href="/CMSPages/GetResource.ashx?stylesheetname=ices-captions" type="text/css" rel="stylesheet"  />
+<link href="/CMSPages/GetResource.ashx?stylesheetname=ices-slider-style" type="text/css" rel="stylesheet" media="screen" />
+<link href="/CMSPages/GetResource.ashx?stylesheetname=ices-flexslider" type="text/css" rel="stylesheet" />
+<link href="/CMSPages/GetResource.ashx?stylesheetname=ices-prettyphoto" type="text/css" rel="stylesheet" />
+<link href="/CMSPages/GetResource.ashx?stylesheetname=ices-settings" type="text/css" rel="stylesheet" media="screen" />
+<link href="/CMSPages/GetResource.ashx?stylesheetname=ices-fonts" type="text/css" rel="stylesheet" media="screen" />
+<link href="/CMSPages/GetResource.ashx?stylesheetname=ices-print" type="text/css" rel="stylesheet" media="print" />
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<!-- Bootstrap causes conflicts with CMSDesk so we only include this reference if we aren't in Edit mode -->
+
+<!-- Added by Jay - 4/15/2015 -->
+
+<script type="text/javascript" src="/CES/bootstrap/js/bootstrap.min.js"></script>
+<!-- END Added by Jay - 4/15/2015 -->
+
+
+<script type="text/javascript" src="//maps.google.com/maps/api/js?sensor=false"></script>
+<script type="text/javascript" src="/ces/js/itn/jquery.cookie.js"></script>
+<!-- Added by BH - 4/22/2015 for something in script.js-->
+<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<!-- END Added by BH - 4/22/2015 -->
+<script type="text/javascript" src="/ces/js/scripts.js"></script>
+<!--<script type="text/javascript" src="/ces/js/jquery.themepunch.revolution.min.js"></script>-->
+<script type="text/javascript" src="/ces/js/custom.js"></script>
+
+<script type="text/javascript">
+  <!--
+    function toggle_visibility(id) {
+      var e = document.getElementById(id);
+      if (e.style.display == 'block')
+        e.style.display = 'none';
+      else
+        e.style.display = 'block';
+    }
+      //-->
+</script>
+<script type="text/javascript">
+  function EnterEvent(e) {
+    if (e.keyCode == 13) {
+      var val = document.getElementById('searchTxt').value;
+      var sURL = '/search-results?searchtext=' + val + '&searchmode=anyword';
+      window.location.href = sURL;
+      return false;
+    }
+  }
+  
+jQuery(document).ready(function ($) {
+  var mainMenu = $(".main-menu>li") 
+  jQuery.each(mainMenu,function()
+    {
+      var firstLevelItem = $(this).children('ul');// $('#'+ count +' > ul');
+      var dropdownCSSClass = "";
+      var secondLevelItems = firstLevelItem.children('li');//$('#'+ count +' ul > li');
+      var secondLevelItemsCount = secondLevelItems.length;
+       
+      if(secondLevelItemsCount>10)
+        dropdownCSSClass = "nav-3cols";
+      else if(secondLevelItemsCount<=10 && secondLevelItemsCount>6)
+        dropdownCSSClass = "nav-2cols";
+      
+      firstLevelItem.addClass(dropdownCSSClass);
+      
+        for (var i = 0; i < secondLevelItemsCount; i += 5) {
+          secondLevelItems.slice(i, i + 5).wrapAll('<div class="nav-col"></div>');
+        }
+       
+      
+    });
+    
+    
+  });
+</script>
+<script type="text/javascript">var switchTo5x=false;</script>
+<script type="text/javascript" src="//w.sharethis.com/button/buttons.js"></script>
+<script type="text/javascript">stLight.options({publisher: "a17beaa8-5eee-4df7-8629-9947a3e965e3",  offsetLeft:'-270', doNotHash: true, doNotCopy: false, hashAddressBar: false, exclusive_services:true, services:"facebook,twitter,linkedin,googleplus,email,sharethis", minorServices:false});</script>
+
+
+
+<script type="text/javascript" src="/ces/js/cmsedit/WidgetSecurity_non_Admin.js"></script><meta name="viewport" content="initial-scale=1.0, width=device-width, user-scalable=no" /> 
+<style type="text/css" rel="stylesheet"> 
+                   
+                        .languages {
+                        display: none !important;
+                        
+                        }
+
+                    </style>
+                    <link href="/CMSPages/GetResource.ashx?_containers=34&amp;_templates=1085;1225&amp;_transformations=4189&amp;_webparts=136;1067&amp;_webpartlayouts=279" type="text/css" rel="stylesheet"/> 
+</head>
+<body class="LTR ENUS ContentBody" >
+    <form method="post" action="/Events-Programs/Garys-Book-Club.aspx" id="form">
+<div class="aspNetHidden">
+<input type="hidden" name="manScript_HiddenField" id="manScript_HiddenField" value="" />
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form'];
+if (!theForm) {
+    theForm = document.form;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=mk_1_Kt1zUK-bQLOebRCzkQBWKV4iajCIXKxCMLeEUfSNx3O4ZvnZ12gil0lxpA4KKRW1nrSaOsV1E79S4d66NGa_xhgGqnrbCaTK7A5Sgc1&amp;t=635589255571259667" type="text/javascript"></script>
+
+<input type="hidden" name="lng" id="lng" value="en-US" />
+<script type="text/javascript">
+	//<![CDATA[
+
+function PM_Postback(param) { if (window.top.HideScreenLockWarningAndSync) { window.top.HideScreenLockWarningAndSync(1080); } if(window.CMSContentManager) { CMSContentManager.allowSubmit = true; }; __doPostBack('m$am',param); }
+function PM_Callback(param, callback, ctx) { if (window.top.HideScreenLockWarningAndSync) { window.top.HideScreenLockWarningAndSync(1080); }if (window.CMSContentManager) { CMSContentManager.storeContentChangedStatus(); };WebForm_DoCallback('m$am',param,callback,ctx,null,true); }
+//]]>
+</script>
+<script src="/ScriptResource.axd?d=3hdha27SAHByUKq-4Hx6D7eXBA_sf1w0noXZScXx-Ze4hnH0bOpNHZ1dxbYxKLYOUrRTiiSOZXYZrf4AAzuWkbgxC0O56uBVj8XZjgf7SIKw-eXKUEhGRbVWNHT9bsJq0&amp;t=7c776dc1" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=CxruAHKds2NQAh3L2tjKhiOGZhw8kDeR_wxV1bauTO-Qyq-TMtKcRVRAX6AwlbJsG0zGj0BWcyUhQRQJJ-p2cmABzQfdeXl6yehAmhI1IErkBB_KGlcylUI4Yb9aEoWIuQ_LbUiEiWY4kfX0fIBefA2&amp;t=7c776dc1" type="text/javascript"></script>
+<script type="text/javascript">
+	//<![CDATA[
+
+var CMS = CMS || {};
+CMS.Application = {
+  "isRTL": "false",
+  "applicationUrl": "/",
+  "imagesUrl": "/CMSPages/GetResource.ashx?image=%5bImages.zip%5d%2f",
+  "isDialog": false
+};
+
+//]]>
+</script>
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="A5343185" />
+	<input type="hidden" name="__SCROLLPOSITIONX" id="__SCROLLPOSITIONX" value="0" />
+	<input type="hidden" name="__SCROLLPOSITIONY" id="__SCROLLPOSITIONY" value="0" />
+</div>
+    <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('manScript', 'form', ['tctxM',''], [], [], 90, '');
+//]]>
+</script>
+
+    <div id="ctxM">
+
+</div>
+    
+
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-KSBFDB"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KSBFDB');</script>
+<!-- End Google Tag Manager -->
+<!--[if lt IE 9]>
+  <div style="display: block; width: 97%; background-color: #FF99CC; padding: 10px 30px 10px 30px; text-align: center; color: black; font-size:20px;">
+    We noticed you are using an older version of IE that isn't fully supported on this site. Please click <a  href="#">here</a> for more information and options.
+</div>
+<![endif]--> 
+<!-- TOP NAV -->
+<section>
+  <nav class="navbar navbar-default">
+    <div class="container">
+      <ul class="connect-title"><li>Connect With Us</li></ul>
+      <ul class="social_icons">
+	<li class="twitter"><a href="https://twitter.com/ces" title="Twitter">&nbsp;</a></li>
+	<li class="facebook"><a href="https://www.facebook.com/CES" title="facebook">&nbsp;</a></li>
+	<li class="googleplus"><a href="https://plus.google.com/+CES" title="googleplus">&nbsp;</a></li>
+	<li class="instagram"><a href="http://instagram.com/cesofficial" title="instagram">&nbsp;</a></li>
+	<li class="youtube"><a href="http://www.youtube.com/user/cesonthetube" title="youtube">&nbsp;</a></li>
+</ul>
+
+      <ul class="open-ad hidden-xs hidden-sm"><li id="clasp_1"><a href="javascript:lunchboxOpen('1');">OPEN ADVERTISEMENT</a></li></ul>
+      <ul class="drop" id="nav">
+	<li>
+		Other CEA Sites
+		<ul>
+			<li>
+				<a href="http://www.ce.org" target="_blank">CEA - CE.org</a></li>
+			<li>
+				<a href="http://www.declareinnovation.com/" target="_blank">Innovation Movement</a></li>
+			<li>
+				<a href="http://www.ce.org/blog" target="_blank">CEA Blog</a></li>
+			<li>
+				<a href="http://www.ce.org/i3" target="_blank">i3 Magazine</a></li>
+			<li>
+				<a href="http://www.greenergadgets.org/" target="_blank">Greener Gadgets</a></li>
+			<li>
+				<a href="http://www.ce.org/research" target="_blank">CEA Market Research</a></li>
+			<li>
+				<a href="http://www.ce.org/foundation" target="_blank">CEA Foundation</a></li>
+			<li>
+				<a href="http://www.cesasia.com" target="_blank">CES Asia</a></li>
+		</ul>
+	</li>
+</ul>
+
+    </div>
+  </nav>
+</section>
+
+<section>
+  <div class="billboard-ad hidden-xs hidden-sm">
+    <div class="container bill-ad lunchbox" id="lunch_1" style="display: none">
+      <div class="container bill-ad"><a id="p_lt_ctl02_BannerRotator_lnkBanner" class="CMSBanner Banner" href="https://ces.itnint.com/ces16/regonline/RegLogin.aspx?pcode=D1" onclick="this.href=&#39;/CMSModules/BannerManagement/CMSPages/BannerRedirect.ashx?bannerID=374&#39;;" onmouseup="this.href=&#39;/CMSModules/BannerManagement/CMSPages/BannerRedirect.ashx?bannerID=374&#39;;" target="_blank"><img id="p_lt_ctl02_BannerRotator_imgBanner" src="/CES/media/2014/advertisements/3462_CES-Register_banner970x250.jpg" style="" /></a></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div id="epiBackground" class="bk_white">
+    <div class="container">
+      <ul class="audience-nav">
+	<li>
+		<a href="/exhibitor">Exhibitors</a></li>
+	<li>
+		<a href="/press">Press</a></li>
+	<li>
+		<a href="/international">International</a></li>
+</ul>
+
+    </div>
+  </div>
+</section>
+
+<section>
+  
+  <div id="sticky_navigation" class="bk_white">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-60 col-sm-60 col-md-18 mainlogo">
+          <a href="/" id="logo" ><img class="img-responsive" src="/ces/images/logo.png" /></a>
+        </div>
+        <div class="hidden-xs hidden-sm col-md-42 maintitle">
+          <div class="search-container">
+            <div class="search">
+              <input type="search" id="searchTxt" onkeypress="return EnterEvent(event);" />
+            </div>
+            <div class="date">
+              <h2>
+	Las Vegas, NV</h2>
+<h3>
+	JANUARY 6-9, 2016</h3>
+
+            </div>
+          </div>
+        </div>
+        <div id="main-navigation" class="col-xs-60 col-lg-42 mainnav">
+              
+<ul class="main-menu sf-js-enabled sf-shadow main_nav_wrapper">
+ 
+    <li class=""
+id="2">
+<a href=" /Register-Plan"> Register &amp; Plan</a> 
+<ul><p style ="display:none;">&nbsp;</p><li><a href=" /Register-Plan/Register-Now"> Register Now</a>
+
+<li><a href=" /Register-Plan/Full-Schedule"> Full Schedule </a>
+
+<li><a href=" /Register-Plan/Hotel"> Hotel</a>
+
+<li><a href=" /Register-Plan/Travel-Tips"> Travel Tips</a>
+
+<li><a href=" /Register-Plan/On-Site-Logistics"> On-Site Logistics</a>
+
+<li><a href=" /Register-Plan/Transportation"> Transportation</a>
+
+<li><a href=" /Register-Plan/CES-App"> CES App</a>
+
+<li><a href=" /Register-Plan/Personal-Show-Plan"> Personal Show Plan</a>
+
+<li><a href=" /Register-Plan/Badge-Pick-Up-and-Registration-Locations"> Badge Pickup and Registration Locations</a>
+
+
+</ul></li><li class=""
+id="4">
+<a href=" /Show-Floor"> Show Floor</a> 
+<ul><p style ="display:none;">&nbsp;</p><li><a href=" /Show-Floor/Exhibit-or-Sponsor"> Exhibit or Sponsor</a>
+
+<li><a href=" /Show-Floor/What-to-See-at-Tech-East"> What to See at Tech East</a>
+
+<li><a href=" /Show-Floor/What-to-See-at-Tech-West"> What to See at Tech West</a>
+
+<li><a href=" /Show-Floor/What-to-See-at-Tech-South"> What to See at Tech South</a>
+
+<li><a href=" /Show-Floor/Exhibit-Hours"> Exhibit Hours</a>
+
+<li><a href=" /Show-Floor/Maps"> Maps</a>
+
+<li><a href=" /Show-Floor/Exhibit-Directory"> Exhibitor Directory</a>
+
+<li><a href=" /Show-Floor/Show-Floor-Tours"> Show Floor Tours</a>
+
+<li><a href=" /Show-Floor/Marketplaces"> Marketplaces</a>
+
+
+</ul></li><li class="current"
+id="5">
+<a href=" /Events-Programs"> Events &amp; Experiences</a> 
+<ul><p style ="display:none;">&nbsp;</p><li><a href=" /Events-Programs/Innovation"> CES Innovation Awards</a>
+
+<li><a href=" /Events-Programs/Entertainment-Matters"> Entertainment &amp; Content</a>
+
+<li><a href=" /Events-Programs/Advertising-Marketing"> Advertising &amp; Marketing</a>
+
+<li><a href=" /Events-Programs/Startups"> Startups</a>
+
+<li><a href=" /Events-Programs/CES-Unveiled"> CES Unveiled</a>
+
+<li><a href=" /Events-Programs/Executive-Club"> Executive Club</a>
+
+<li><a href=" /Events-Programs/CES-Asia"> CES Asia</a>
+
+<li><a href=" /Events-Programs/Garys-Book-Club"> Gary&#39;s Book Club</a>
+
+
+</ul></li><li class=""
+id="5">
+<a href=" /Conference"> Conference</a> 
+<ul><p style ="display:none;">&nbsp;</p><li><a href=" /Conference/Keynotes"> Keynote Addresses</a>
+
+<li><a href=" /Conference/Purchase-Passes"> Purchase Conference Passes</a>
+
+<li><a href=" /Conference/Session-Schedule-Brochure"> Conference Session Schedule &amp; Search</a>
+
+<li><a href=" /Conference/Conference-Tracks"> Conference Program</a>
+
+<li><a href=" /Conference/Speaker-Resources"> Speaker Resources</a>
+
+
+</ul></li><li class=""
+id="7">
+<a href=" /News"> News</a> 
+<ul><p style ="display:none;">&nbsp;</p><li><a href=" /News/Press-Releases"> Press Releases</a>
+
+<li><a href=" /News/CES-TV"> Videos</a>
+
+<li><a href=" /News/Photo-Gallery"> Photo Gallery</a>
+
+<li><a href=" /News/CES-Social"> Social Media</a>
+
+<li><a href=" /News/CES-In-The-News"> CES In The News</a>
+
+<li><a href=" /News/Exhibitor-Press-Releases"> Exhibitor News</a>
+
+<li><a href=" /News/Tech-Changing-the-World"> Tech Changing the World</a>
+
+
+</ul></li><li class=""
+id="8">
+<a href=" /Why-CES"> Why CES?</a> 
+<ul><p style ="display:none;">&nbsp;</p><li><a href=" /Why-CES/Experience-the-International-CES"> Experience Innovation at CES</a>
+
+<li><a href=" /Why-CES/CES-by-the-Numbers"> CES By the Numbers</a>
+
+<li><a href=" /Why-CES/CEA-Member-Benefits"> CEA Member Benefits</a>
+
+<li><a href=" /Why-CES/What-Kind-of-CES-Attendee-Are-You"> What Type of CES Attendee Are You?</a>
+
+
+</ul>  </li>
+</ul>
+
+ <div id="main-navigation" style="display: none">
+
+  <select id="navSecondary" onChange="top.location.href=this.options[this.selectedIndex].value;">
+<option selected="selected" value="">Site Main Navigation</option><option style="font-family:open_sansbold;" value="/Register-Plan">Register & Plan</option><option style="font-family:open_sansbold;" value="/Show-Floor">Show Floor</option><option style="font-family:open_sansbold;" value="/Events-Programs">Events & Experiences</option><option style="font-family:open_sansbold;" value="/Conference">Conference</option><option style="font-family:open_sansbold;" value="/News">News</option><option style="font-family:open_sansbold;" value="/Why-CES">Why CES?</option><option style="font-family:open_sansbold;" value="/International">International</option><option style="font-family:open_sansbold;" value="/Exhibitor">Exhibitors</option><option style="font-family:open_sansbold;" value="/Press">Press</option>
+</select>
+</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div id="main-area" class="container">
+  <div class="hanger side-ads ads-left"><a id="p_lt_ctl06_BannerRotatorLeftHanger_lnkBanner" class="CMSBanner Banner" href="http://www.cesweb.org" onclick="this.href=&#39;/CMSModules/BannerManagement/CMSPages/BannerRedirect.ashx?bannerID=35&#39;;" onmouseup="this.href=&#39;/CMSModules/BannerManagement/CMSPages/BannerRedirect.ashx?bannerID=35&#39;;"><img id="p_lt_ctl06_BannerRotatorLeftHanger_imgBanner" src="/CES/media/2014/backgrounds/algorithm-hanger.jpg" style="" /></a></div>
+  <div class="hanger side-ads ads-right"><a id="p_lt_ctl07_BannerRotatorRightHanger_lnkBanner" class="CMSBanner Banner" href="http://www.cesweb.org" onclick="this.href=&#39;/CMSModules/BannerManagement/CMSPages/BannerRedirect.ashx?bannerID=36&#39;;" onmouseup="this.href=&#39;/CMSModules/BannerManagement/CMSPages/BannerRedirect.ashx?bannerID=36&#39;;"><img id="p_lt_ctl07_BannerRotatorRightHanger_imgBanner" src="/CES/media/2014/backgrounds/algorithm-hanger.jpg" style="" /></a></div>
+    <div class="row">
+      <div id="main-content-area" class="col-lg-60 page-area">
+
+<section>
+   <div class="page-area">
+      <div class="col-md-12 hidden-xs hidden-sm">
+        <div class="leftnav">
+          <ul><li><a href="/Events-Programs/Innovation">CES Innovation Awards</a><li><a href="/Events-Programs/Entertainment-Matters">Entertainment & Content</a><li><a href="/Events-Programs/Advertising-Marketing">Advertising & Marketing</a><li><a href="/Events-Programs/Startups">Startups</a><li><a href="/Events-Programs/CES-Unveiled">CES Unveiled</a><li><a href="/Events-Programs/Executive-Club">Executive Club</a><li><a href="/Events-Programs/CES-Asia">CES Asia</a><li class="left-current"><a href="/Events-Programs/Garys-Book-Club">Gary's Book Club</a><ul></ul></ul>
+
+         </div>
+         <a id="p_lt_ctl08_pageplaceholder_p_lt_ctl01_BannerRotator_lnkBanner" class="CMSBanner Banner" href="https://ces.itnint.com/ces16/regonline/RegLogin.aspx?pcode=D1" onclick="this.href=&#39;/CMSModules/BannerManagement/CMSPages/BannerRedirect.ashx?bannerID=365&#39;;" onmouseup="this.href=&#39;/CMSModules/BannerManagement/CMSPages/BannerRedirect.ashx?bannerID=365&#39;;"><img id="p_lt_ctl08_pageplaceholder_p_lt_ctl01_BannerRotator_imgBanner" class="img-responsive" src="/CES/media/2014/advertisements/Shows_300x250.jpg" style="" /></a>
+      </div>
+      <div class="col-sm-60 col-md-offset-2 col-md-46">
+        <div class="body-content">
+          <h1>Gary's Book Club</h1>
+          <span style="font-family: archer-book; font-size: 36px; color: #8d9a93; margin-top: -10px; position: relative; top: -15px; left: 2px;">presented by Barnes &amp; Noble
+
+
+
+</span>
+          <div class="breadcrumbs">
+            <div class="row">
+              <div class="col-sm-40">
+                <ul>
+                  <li><a href="/Home.aspx">Home</a></li>
+                  <li class="bread-div">|</li>
+                  <li><a href="/Events-Experiences.aspx" class="CMSBreadCrumbsLink">Events & Experiences</a> </li><li class="bread-div">|</li><li> <span  class="CMSBreadCrumbsCurrentItem">Gary's Book Club</span>
+</li>
+
+                </ul>
+              </div>
+              <div class="col-sm-20 text-center-xs text-right-sm right-breadcrumb">
+                <span  class="st_sharethis_custom" displayText="ShareThis"><a class="right-breadcrumb-item">Share This</a></span>
+                <a class="right-breadcrumb-item hidden-sm hidden-xs" href="javascript:window.print()">Print This Page</a>
+              </div>
+            </div>
+          </div>
+          <p class="intro-innov">  </p>
+          <div class="row article-content-area">
+             
+             
+
+<p class="intro">Gary&#39;s Book Club showcases the works of prominent authors<span style="line-height: 1.6;">&nbsp;i</span><span style="line-height: 1.6;">n the&nbsp;t</span><span style="line-height: 1.6;">ech industry.&nbsp;</span><span style="line-height: 1.6;">Attendees have the&nbsp;</span><span style="line-height: 1.6;">opportunity to meet the authors, purchase books through Barnes &amp; Noble and have your copies signed.&nbsp;Book signings will follow lively discussions by the authors on the CEA Stage, all in the LVCC, Grand Lobby.</span>
+<div>
+<div>
+<div>
+<div>&nbsp;<br />
+<strong>Authors to-date include:</strong><br />
+&nbsp;
+<p><img alt="Open in full size" id="m_c_widgetProperties_formCustom_image_mediaSelector_imgPreview" src="http://staging.cesweb.org/CES/media/2014/landing%20pages/events-awards/book%20club/MegaMinds-Cover.jpg?maxsidesize=100" style="cursor: pointer; float: left; margin: 10px;" title="Open in full size" /><strong>Larry Kilham</strong><img alt="Open in full size" id="m_c_widgetProperties_formCustom_image_mediaSelector_imgPreview" src="http://staging.cesweb.org/CES/media/2014/landing%20pages/events-awards/book%20club/MegaMindsHeadShot.jpg?maxsidesize=100" style="cursor: pointer; float: right; margin: 10px;" title="Open in full size" /><strong>&nbsp;&nbsp;</strong><br />
+<em>MegaMinds: Creativity and Invention</em><br />
+&nbsp;<br />
+<em>MegaMinds: Creativity and Invention</em> explores how people think creatively and motivates the reader to be creative and inventive. Larry Kilham reviews the major creative epochs and thinkers such as Leonardo da Vinci, Thomas Edison, and Steve Jobs and then moves on to the latest in computer-aided thinking. Noting that we are entering an era where the lone genius may no longer be equal to solving complex problems such as climate change and pharmacology, Kilham proposes new approaches combining the best of imagination, creative thinking, collective intelligence, and the Internet.<br />
+&nbsp;</p>
+
+<p><img alt="Open in full size" id="m_c_widgetProperties_formCustom_image_mediaSelector_imgPreview" src="http://staging.cesweb.org/CES/media/2014/landing%20pages/events-awards/book%20club/OnlineBrandIdentity_Cover.jpg?maxsidesize=100" style="cursor: pointer; float: left; margin: 10px;" title="Open in full size" /><strong>Joris Merks-Benjaminsen &nbsp;</strong><img alt="Open in full size" id="m_c_widgetProperties_formCustom_image_mediaSelector_imgPreview" src="http://staging.cesweb.org/CES/media/2014/landing%20pages/events-awards/book%20club/OnlineBrandIdentityHeadShot.jpg?maxsidesize=100" style="cursor: pointer; float: right; margin: 10px;" title="Open in full size" /><br />
+<em>Online Brand Identity: The Ultimate Guide to Designing Your (Digital) Branding Strategy</em><br />
+&nbsp;<br />
+Five to ten years from now the majority of all advertising, including TV, radio an print, will be bought through digital automated trading systems. Imagine a world where people only watch ads they want to watch at a moments that suit them, rather than ads we want them to watch on moments that suit us. How would your brand and advertising strategy change? Are you running the right experiments to be ready for this change?<em> Online Brand Identity</em> offers a future ready brand framework illustrated with forty successful cases and supported by exercises to define experiments you can start running tomorrow.</p>
+&nbsp;
+
+<p><img alt="Open in full size" id="m_c_widgetProperties_formCustom_image_mediaSelector_imgPreview" src="http://staging.cesweb.org/CES/media/2014/landing%20pages/events-awards/book%20club/StartupCity_Cover.jpg?maxsidesize=100" style="cursor: pointer; float: left; margin: 10px;" title="Open in full size" /><strong>Gabe Klein </strong>&nbsp;<img alt="Open in full size" id="m_c_widgetProperties_formCustom_image_mediaSelector_imgPreview" src="http://staging.cesweb.org/CES/media/2014/landing%20pages/events-awards/book%20club/StartUpCityHeadShot.jpg?maxsidesize=100" style="cursor: pointer; float: right; margin: 10px;" title="Open in full size" /><br />
+<em>Start-Up City: Inspiring Private &amp; Public Entrepreneurship, Getting Projects Done and Having Fun</em><br />
+&nbsp;<br />
+In <em>Start-Up City</em>, Gabe Klein, with David Vega-Barachowitz, offers inspiration that we can improve the way that we live in cities without waiting for the glacial pace of change in government or corporate settings. He argues that the public-private partnerships of the future will need to embody a triple bottom line approach that focuses on the new P3: people&ndash;planet&ndash; profit. If you are willing to go against the tide and follow basic lessons in goal setting, experimentation, change management, financial innovation, and communication, real change in cities is possible.<br />
+<br />
+<br />
+<img alt="Open in full size" id="m_c_widgetProperties_formCustom_image_mediaSelector_imgPreview" src="/getmedia/51c95199-69d4-4566-bb4c-8b23211c6409/Surviving-Techstrom_bookcover.aspx?width=130&amp;height=182" style="cursor: pointer; width: 130px; height: 182px; float: left; margin: 10px;" title="Open in full size" />&nbsp;<strong>Nicklas Bergman&nbsp;</strong><img alt="Open in full size" id="m_c_widgetProperties_formCustom_image_mediaSelector_imgPreview" src="/getmedia/b077ce34-2bc8-432f-ace1-6529491d07e0/Bergman_headshot.aspx?width=130&amp;height=130" style="cursor: pointer; line-height: 20.8px; width: 130px; height: 130px; float: right;" title="Open in full size" /><br />
+<em>Surviving the Techstorm &ndash; Strategy in Times of Technological Uncertainty</em></p>
+
+<div>Are we living in a time that is more exciting, more dangerous and more encouraging than any previous era in world history? It&rsquo;s impossible to say. But what we do know, is that each new era and technological paradigm shift, present particular challenges and opportunities. Knowing which path to take, when to embrace new technologies and when to leave old ones behind, make up some of the greatest challenges facing business today.&nbsp;This groundbreaking and highly visual new book presents a framework on how to relate to these times of enormous technological uncertainties. Nicklas Bergman is a serial entrepreneur, leading futurist, successful tech investor and advisor to the TechCast Global think tank in Washington, DC. He argues that by combining a process approach with a curiosity and understanding of technology, we can gain significant insight into how to take advantage of the opportunities that will come from emerging technologies.<br />
+<br />
+<br />
+<img alt="Open in full size" id="m_c_widgetProperties_formCustom_image_mediaSelector_imgPreview" src="/getmedia/b9dc59b8-ed7d-411b-9cfe-5878f75689f5/TechInflectionPoint_Book-Cover.aspx?width=110&amp;height=164" style="cursor: pointer; width: 110px; height: 164px; float: left; margin: 10px;" title="Open in full size" />&nbsp;<strong>Scott Stawski&nbsp;</strong><img alt="Open in full size" id="m_c_widgetProperties_formCustom_image_mediaSelector_imgPreview" src="/getmedia/a675f0e3-874d-4145-a076-5fbacb6d3e77/Stawski_Headshot.aspx?width=110&amp;height=145" style="cursor: pointer; width: 110px; height: 145px; float: right; margin: 10px;" title="Open in full size" /><br />
+<em>Inflection Point: How the Convergence of Cloud, Mobility, Apps, and Data Will Shape the Future of Business</em><br />
+<br />
+Today, hurricanes are forming, and businesses are headed straight into it. This hurricane is arising from the convergence of enormous trends in information technology, including cloud, mobility, Software as a Service and Big Data. Scott Stawski shows how to harness these fierce winds of change and sail towards greater competitiveness and customer value.&nbsp;Stawski explains the strategic implications of today&rsquo;s new technology paradigms, helping you reshape strategy to embrace and profit from them. You&rsquo;ll discover how technology and other factors are driving a radical new round of disintermediation, reintermediation and disruption&ndash;and what that means to you and your company.<br />
+<br />
+<br />
+<img alt="Open in full size" id="m_c_widgetProperties_formCustom_image_mediaSelector_imgPreview" src="/getmedia/84f1a11a-1d90-444b-9e90-fc9201b7e02d/Parr_Captivology-Cover.aspx?width=110&amp;height=163" style="cursor: pointer; width: 110px; height: 163px; float: left; margin: 10px;" title="Open in full size" />&nbsp;<strong>Ben Parr&nbsp;</strong><img alt="Open in full size" id="m_c_widgetProperties_formCustom_image_mediaSelector_imgPreview" src="/getmedia/12a31f01-f99a-4fe0-bf14-52a1853efdf3/Parr_headshot.aspx?width=120&amp;height=179" style="cursor: pointer; width: 120px; height: 179px; float: right; margin: 10px;" title="Open in full size" /><br />
+<em>Captivology: The Science of Capturing People&rsquo;s Attention</em><br />
+<br />
+In <em>Captivology</em>, award-winning journalist, author, entrepreneur and investor Ben Parr presents a new understanding of attention -- how it works, why it matters and how we leverage psychological triggers to draw and retain attention for our passions, projects and ideas.&nbsp;Parr combines the latest research on attention with interviews with more than fifty scientists and visionaries--Facebook&#39;s Sheryl Sandberg, film director Steven Soderbergh, LinkedIn CEO Jeff Weiner, magician David Copperfield, New York Times bestselling author Susan Cain, Nintendo&#39;s Shigeru Miyamoto and more--who have successfully brought their ideas, projects, companies and products to the forefront of cultural consciousness.<br />
+<br />
+<img alt="Open in full size" id="m_c_widgetProperties_formCustom_image_mediaSelector_imgPreview" src="http://staging.cesweb.org/CES/media/2014/landing%20pages/events-awards/book%20club/NI-Book_Transparent_Cut-Out_resized.jpg?maxsidesize=100" style="cursor: pointer; float: left; margin: 10px;" title="Open in full size" /><strong>Mick Ebeling</strong><img alt="Open in full size" id="m_c_widgetProperties_formCustom_image_mediaSelector_imgPreview" src="/getmedia/8e5da610-cee5-40b6-8481-e4fcc3483fa4/Ebeling_headshot.aspx?width=165&amp;height=117" style="cursor: pointer; width: 165px; height: 117px; float: right; margin: 10px;" title="Open in full size" /><br />
+<em>Not Impossible</em><br />
+<br />
+Honored as one of the Top 50 Most Creative People and the Muhammad Ali Humanitarian of the Year, Mick&nbsp;Ebeling is an innovator in the Maker movement.&nbsp;His book chronicles two of his most fabled achievements: The Eyewriter, a device that allowed a paralyzed artist to paint again (and was&nbsp;named one of the Top 50 Inventions of 2010 and is part of the permanent collection at the Museum of Modern Art); and &ldquo;Project Daniel,&rdquo; in which&nbsp;Mick&nbsp;travelled to war-torn Sudan with a 3D printer to create the world&#39;s first 3D printed prosthetic lab and print arms for bombing victims.&nbsp;<em>Not Impossible</em> is imbued&nbsp;with&nbsp;Mick&rsquo;s philosophy - that all problems can be solved, and that you have the ability to change the world around you, as long as you believe that Nothing Is Impossible.<br />
+&nbsp;</div>
+</div>
+</div>
+</div>
+</div>
+</p>  
+
+
+             
+          </div>
+         </div>
+      </div>
+   </div>
+</section></div>
+    </div>
+</div>
+    
+<section>
+    <div id="footer" class="clear-fix">
+        <div class="container">
+            <div class="doubleDashedHR"></div>
+            <div class="text-center-xs col-xs-60 text-left-md col-md-15">
+                <p class="copyright">
+	Copyright &copy; 2003 - 2015 CEA. All rights reserved.</p>
+
+            </div>
+            <div class="text-center-xs col-xs-60 text-left-md col-md-15 doubleDashedVR">
+                <ul>
+	<li>
+		<a href="/about-us">About Us </a></li>
+	<li>
+		<a href="/contact-us">Contact Us</a></li>
+	<li>
+		<a href="/partners">Partners</a></li>
+</ul>
+
+            </div>
+            <div class="text-center-xs col-xs-60 text-left-md col-md-10 doubleDashedVR">
+                <ul>
+	<li>
+		<a href="/privacy">Privacy</a></li>
+	<li>
+		<a href="/sitemap">Sitemap</a></li>
+</ul>
+<br /><div style="font-size: .8em; color: #FFF;"><span id="p_lt_ctl11_whatServer_serverName">WEB-IIS60</span></div>
+            </div>
+            <div class="col-xs-60 text-center-xs text-left-md col-md-20 languages">
+                <script type="text/javascript">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-3975226-4', 'auto');
+
+// Load the plugin.
+ga('require', 'linker');
+// Define which domains to autoLink.
+ga('linker:autoLink', ['itnint.com']);
+  ga('send', 'pageview');
+</script>
+            </div>
+        </div>
+    </div>
+</section>
+ 
+    
+    
+
+<script type="text/javascript">
+//<![CDATA[
+(function() {var fn = function() {$get("manScript_HiddenField").value = '';Sys.Application.remove_init(fn);};Sys.Application.add_init(fn);})();
+WebForm_InitCallback();
+theForm.oldSubmit = theForm.submit;
+theForm.submit = WebForm_SaveScrollPositionSubmit;
+
+theForm.oldOnSubmit = theForm.onsubmit;
+theForm.onsubmit = WebForm_SaveScrollPositionOnSubmit;
+//]]>
+</script>
+  <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTEyMTY0MTExOTEPZBYCAgEPFgIeBmFjdGlvbgUlL0V2ZW50cy1Qcm9ncmFtcy9HYXJ5cy1Cb29rLUNsdWIuYXNweBYCAgUPZBYCZg8PFgQeCENzc0NsYXNzBQ9QYWdlUGxhY2Vob2xkZXIeBF8hU0ICAmQWAmYPZBYEAgsPZBYCAgEPZBYCZg8PFi4eElRyYW5zZm9ybWF0aW9uTmFtZWUeDFplcm9Sb3dzVGV4dAUNTm8gZGF0YSBmb3VuZB4NUGFnZXJQb3NpdGlvbgspcUNNUy5Db250cm9scy5QYWdpbmdQbGFjZVR5cGVFbnVtLCBDTVMuQ29udHJvbHMsIFZlcnNpb249OC4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj04MzRiMTJhMjU4ZjIxM2Y5AB4bU2VwYXJhdG9yVHJhbnNmb3JtYXRpb25OYW1lZR4QU2hvd0RlbGV0ZUJ1dHRvbmgeElBhcmVudElEQ29sdW1uTmFtZQUMTm9kZVBhcmVudElEHhdVc2VIaWVyYXJjaGljYWxPcmRlcmluZ2ceGEhlYWRlclRyYW5zZm9ybWF0aW9uTmFtZWUeC18hSXRlbUNvdW50AgkeHkhpZXJhcmNoaWNhbFRyYW5zZm9ybWF0aW9uTmFtZQUqaWNlcy50cmFuc2Zvcm1hdGlvbnMuSWNlc19kcm9wX21lbnVfbW9iaWxlHgxJRENvbHVtbk5hbWUFBk5vZGVJRB4dQWx0ZXJuYXRpbmdUcmFuc2Zvcm1hdGlvbk5hbWVlHg5TaG93RWRpdEJ1dHRvbmgeFExvYWRIaWVyYXJjaGljYWxEYXRhZx4PTGV2ZWxDb2x1bW5OYW1lBQlOb2RlTGV2ZWweFkhpZGVDb250cm9sRm9yWmVyb1Jvd3NoHgtfIURhdGFCb3VuZGceGEZvb3RlclRyYW5zZm9ybWF0aW9uTmFtZWUeF0ZpcnN0VHJhbnNmb3JtYXRpb25OYW1lZR4WUmVzb2x2ZUR5bmFtaWNDb250cm9sc2ceGFNpbmdsZVRyYW5zZm9ybWF0aW9uTmFtZWUeFkxhc3RUcmFuc2Zvcm1hdGlvbk5hbWVlHglJdGVtQ291bnQCCWQWAmYPDxYOHghQYWdlU2l6ZQIKHg5RdWVyeVN0cmluZ0tleQUEUGFnZR4JUGFnZXJNb2RlCylqQ01TLkNvbnRyb2xzLlVuaVBhZ2VyTW9kZSwgQ01TLkNvbnRyb2xzLCBWZXJzaW9uPTguMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49ODM0YjEyYTI1OGYyMTNmOQAeCUdyb3VwU2l6ZQIKHh1EaXNwbGF5Rmlyc3RMYXN0QXV0b21hdGljYWxseWgeIERpc3BsYXlQcmV2aW91c05leHRBdXRvbWF0aWNhbGx5aB4HRW5hYmxlZGhkZAIRD2QWAmYPZBYCAgIPZBYCZg8PFgQfAQUPUGFnZVBsYWNlaG9sZGVyHwICAmQWAmYPZBYGAgEPZBYCZg9kFgJmDxYCHgRUZXh0BbEEPHVsPjxsaT48YSBocmVmPSIvRXZlbnRzLVByb2dyYW1zL0lubm92YXRpb24iPkNFUyBJbm5vdmF0aW9uIEF3YXJkczwvYT48bGk+PGEgaHJlZj0iL0V2ZW50cy1Qcm9ncmFtcy9FbnRlcnRhaW5tZW50LU1hdHRlcnMiPkVudGVydGFpbm1lbnQgJiBDb250ZW50PC9hPjxsaT48YSBocmVmPSIvRXZlbnRzLVByb2dyYW1zL0FkdmVydGlzaW5nLU1hcmtldGluZyI+QWR2ZXJ0aXNpbmcgJiBNYXJrZXRpbmc8L2E+PGxpPjxhIGhyZWY9Ii9FdmVudHMtUHJvZ3JhbXMvU3RhcnR1cHMiPlN0YXJ0dXBzPC9hPjxsaT48YSBocmVmPSIvRXZlbnRzLVByb2dyYW1zL0NFUy1VbnZlaWxlZCI+Q0VTIFVudmVpbGVkPC9hPjxsaT48YSBocmVmPSIvRXZlbnRzLVByb2dyYW1zL0V4ZWN1dGl2ZS1DbHViIj5FeGVjdXRpdmUgQ2x1YjwvYT48bGk+PGEgaHJlZj0iL0V2ZW50cy1Qcm9ncmFtcy9DRVMtQXNpYSI+Q0VTIEFzaWE8L2E+PGxpIGNsYXNzPSJsZWZ0LWN1cnJlbnQiPjxhIGhyZWY9Ii9FdmVudHMtUHJvZ3JhbXMvR2FyeXMtQm9vay1DbHViIj5HYXJ5J3MgQm9vayBDbHViPC9hPjx1bD48L3VsPjwvdWw+ZAIDD2QWAmYPDxYCHghCYW5uZXJJRALtAmQWAmYPDxYGHwEFEENNU0Jhbm5lciBCYW5uZXIfAgICHgdWaXNpYmxlZxYGHgRocmVmBT1odHRwczovL2Nlcy5pdG5pbnQuY29tL2NlczE2L3JlZ29ubGluZS9SZWdMb2dpbi5hc3B4P3Bjb2RlPUQxHgdvbmNsaWNrBVN0aGlzLmhyZWY9Jy9DTVNNb2R1bGVzL0Jhbm5lck1hbmFnZW1lbnQvQ01TUGFnZXMvQmFubmVyUmVkaXJlY3QuYXNoeD9iYW5uZXJJRD0zNjUnOx4Jb25tb3VzZXVwBVN0aGlzLmhyZWY9Jy9DTVNNb2R1bGVzL0Jhbm5lck1hbmFnZW1lbnQvQ01TUGFnZXMvQmFubmVyUmVkaXJlY3QuYXNoeD9iYW5uZXJJRD0zNjUnOxYCAgEPDxYMHg1BbHRlcm5hdGVUZXh0ZR4HVG9vbFRpcGUfAWUeCEltYWdlVXJsBTAvQ0VTL21lZGlhLzIwMTQvYWR2ZXJ0aXNlbWVudHMvU2hvd3NfMzAweDI1MC5qcGcfAgICHyNnFgIeBXN0eWxlZWQCDw9kFgJmD2QWAmYPZBYCZg9kFgJmD2QWAmYPDxYGHxNnHxkCAR8LAgFkFgJmD2QWAmYPZBYCZg8VAwAAw1dHYXJ5JiMzOTtzIEJvb2sgQ2x1YiBzaG93Y2FzZXMgdGhlIHdvcmtzIG9mIHByb21pbmVudCBhdXRob3JzPHNwYW4gc3R5bGU9ImxpbmUtaGVpZ2h0OiAxLjY7Ij4mbmJzcDtpPC9zcGFuPjxzcGFuIHN0eWxlPSJsaW5lLWhlaWdodDogMS42OyI+biB0aGUmbmJzcDt0PC9zcGFuPjxzcGFuIHN0eWxlPSJsaW5lLWhlaWdodDogMS42OyI+ZWNoIGluZHVzdHJ5LiZuYnNwOzwvc3Bhbj48c3BhbiBzdHlsZT0ibGluZS1oZWlnaHQ6IDEuNjsiPkF0dGVuZGVlcyBoYXZlIHRoZSZuYnNwOzwvc3Bhbj48c3BhbiBzdHlsZT0ibGluZS1oZWlnaHQ6IDEuNjsiPm9wcG9ydHVuaXR5IHRvIG1lZXQgdGhlIGF1dGhvcnMsIHB1cmNoYXNlIGJvb2tzIHRocm91Z2ggQmFybmVzICZhbXA7IE5vYmxlIGFuZCBoYXZlIHlvdXIgY29waWVzIHNpZ25lZC4mbmJzcDtCb29rIHNpZ25pbmdzIHdpbGwgZm9sbG93IGxpdmVseSBkaXNjdXNzaW9ucyBieSB0aGUgYXV0aG9ycyBvbiB0aGUgQ0VBIFN0YWdlLCBhbGwgaW4gdGhlIExWQ0MsIEdyYW5kIExvYmJ5Ljwvc3Bhbj4NCjxkaXY+DQo8ZGl2Pg0KPGRpdj4NCjxkaXY+Jm5ic3A7PGJyIC8+DQo8c3Ryb25nPkF1dGhvcnMgdG8tZGF0ZSBpbmNsdWRlOjwvc3Ryb25nPjxiciAvPg0KJm5ic3A7DQo8cD48aW1nIGFsdD0iT3BlbiBpbiBmdWxsIHNpemUiIGlkPSJtX2Nfd2lkZ2V0UHJvcGVydGllc19mb3JtQ3VzdG9tX2ltYWdlX21lZGlhU2VsZWN0b3JfaW1nUHJldmlldyIgc3JjPSJodHRwOi8vc3RhZ2luZy5jZXN3ZWIub3JnL0NFUy9tZWRpYS8yMDE0L2xhbmRpbmclMjBwYWdlcy9ldmVudHMtYXdhcmRzL2Jvb2slMjBjbHViL01lZ2FNaW5kcy1Db3Zlci5qcGc/bWF4c2lkZXNpemU9MTAwIiBzdHlsZT0iY3Vyc29yOiBwb2ludGVyOyBmbG9hdDogbGVmdDsgbWFyZ2luOiAxMHB4OyIgdGl0bGU9Ik9wZW4gaW4gZnVsbCBzaXplIiAvPjxzdHJvbmc+TGFycnkgS2lsaGFtPC9zdHJvbmc+PGltZyBhbHQ9Ik9wZW4gaW4gZnVsbCBzaXplIiBpZD0ibV9jX3dpZGdldFByb3BlcnRpZXNfZm9ybUN1c3RvbV9pbWFnZV9tZWRpYVNlbGVjdG9yX2ltZ1ByZXZpZXciIHNyYz0iaHR0cDovL3N0YWdpbmcuY2Vzd2ViLm9yZy9DRVMvbWVkaWEvMjAxNC9sYW5kaW5nJTIwcGFnZXMvZXZlbnRzLWF3YXJkcy9ib29rJTIwY2x1Yi9NZWdhTWluZHNIZWFkU2hvdC5qcGc/bWF4c2lkZXNpemU9MTAwIiBzdHlsZT0iY3Vyc29yOiBwb2ludGVyOyBmbG9hdDogcmlnaHQ7IG1hcmdpbjogMTBweDsiIHRpdGxlPSJPcGVuIGluIGZ1bGwgc2l6ZSIgLz48c3Ryb25nPiZuYnNwOyZuYnNwOzwvc3Ryb25nPjxiciAvPg0KPGVtPk1lZ2FNaW5kczogQ3JlYXRpdml0eSBhbmQgSW52ZW50aW9uPC9lbT48YnIgLz4NCiZuYnNwOzxiciAvPg0KPGVtPk1lZ2FNaW5kczogQ3JlYXRpdml0eSBhbmQgSW52ZW50aW9uPC9lbT4gZXhwbG9yZXMgaG93IHBlb3BsZSB0aGluayBjcmVhdGl2ZWx5IGFuZCBtb3RpdmF0ZXMgdGhlIHJlYWRlciB0byBiZSBjcmVhdGl2ZSBhbmQgaW52ZW50aXZlLiBMYXJyeSBLaWxoYW0gcmV2aWV3cyB0aGUgbWFqb3IgY3JlYXRpdmUgZXBvY2hzIGFuZCB0aGlua2VycyBzdWNoIGFzIExlb25hcmRvIGRhIFZpbmNpLCBUaG9tYXMgRWRpc29uLCBhbmQgU3RldmUgSm9icyBhbmQgdGhlbiBtb3ZlcyBvbiB0byB0aGUgbGF0ZXN0IGluIGNvbXB1dGVyLWFpZGVkIHRoaW5raW5nLiBOb3RpbmcgdGhhdCB3ZSBhcmUgZW50ZXJpbmcgYW4gZXJhIHdoZXJlIHRoZSBsb25lIGdlbml1cyBtYXkgbm8gbG9uZ2VyIGJlIGVxdWFsIHRvIHNvbHZpbmcgY29tcGxleCBwcm9ibGVtcyBzdWNoIGFzIGNsaW1hdGUgY2hhbmdlIGFuZCBwaGFybWFjb2xvZ3ksIEtpbGhhbSBwcm9wb3NlcyBuZXcgYXBwcm9hY2hlcyBjb21iaW5pbmcgdGhlIGJlc3Qgb2YgaW1hZ2luYXRpb24sIGNyZWF0aXZlIHRoaW5raW5nLCBjb2xsZWN0aXZlIGludGVsbGlnZW5jZSwgYW5kIHRoZSBJbnRlcm5ldC48YnIgLz4NCiZuYnNwOzwvcD4NCg0KPHA+PGltZyBhbHQ9Ik9wZW4gaW4gZnVsbCBzaXplIiBpZD0ibV9jX3dpZGdldFByb3BlcnRpZXNfZm9ybUN1c3RvbV9pbWFnZV9tZWRpYVNlbGVjdG9yX2ltZ1ByZXZpZXciIHNyYz0iaHR0cDovL3N0YWdpbmcuY2Vzd2ViLm9yZy9DRVMvbWVkaWEvMjAxNC9sYW5kaW5nJTIwcGFnZXMvZXZlbnRzLWF3YXJkcy9ib29rJTIwY2x1Yi9PbmxpbmVCcmFuZElkZW50aXR5X0NvdmVyLmpwZz9tYXhzaWRlc2l6ZT0xMDAiIHN0eWxlPSJjdXJzb3I6IHBvaW50ZXI7IGZsb2F0OiBsZWZ0OyBtYXJnaW46IDEwcHg7IiB0aXRsZT0iT3BlbiBpbiBmdWxsIHNpemUiIC8+PHN0cm9uZz5Kb3JpcyBNZXJrcy1CZW5qYW1pbnNlbiAmbmJzcDs8L3N0cm9uZz48aW1nIGFsdD0iT3BlbiBpbiBmdWxsIHNpemUiIGlkPSJtX2Nfd2lkZ2V0UHJvcGVydGllc19mb3JtQ3VzdG9tX2ltYWdlX21lZGlhU2VsZWN0b3JfaW1nUHJldmlldyIgc3JjPSJodHRwOi8vc3RhZ2luZy5jZXN3ZWIub3JnL0NFUy9tZWRpYS8yMDE0L2xhbmRpbmclMjBwYWdlcy9ldmVudHMtYXdhcmRzL2Jvb2slMjBjbHViL09ubGluZUJyYW5kSWRlbnRpdHlIZWFkU2hvdC5qcGc/bWF4c2lkZXNpemU9MTAwIiBzdHlsZT0iY3Vyc29yOiBwb2ludGVyOyBmbG9hdDogcmlnaHQ7IG1hcmdpbjogMTBweDsiIHRpdGxlPSJPcGVuIGluIGZ1bGwgc2l6ZSIgLz48YnIgLz4NCjxlbT5PbmxpbmUgQnJhbmQgSWRlbnRpdHk6IFRoZSBVbHRpbWF0ZSBHdWlkZSB0byBEZXNpZ25pbmcgWW91ciAoRGlnaXRhbCkgQnJhbmRpbmcgU3RyYXRlZ3k8L2VtPjxiciAvPg0KJm5ic3A7PGJyIC8+DQpGaXZlIHRvIHRlbiB5ZWFycyBmcm9tIG5vdyB0aGUgbWFqb3JpdHkgb2YgYWxsIGFkdmVydGlzaW5nLCBpbmNsdWRpbmcgVFYsIHJhZGlvIGFuIHByaW50LCB3aWxsIGJlIGJvdWdodCB0aHJvdWdoIGRpZ2l0YWwgYXV0b21hdGVkIHRyYWRpbmcgc3lzdGVtcy4gSW1hZ2luZSBhIHdvcmxkIHdoZXJlIHBlb3BsZSBvbmx5IHdhdGNoIGFkcyB0aGV5IHdhbnQgdG8gd2F0Y2ggYXQgYSBtb21lbnRzIHRoYXQgc3VpdCB0aGVtLCByYXRoZXIgdGhhbiBhZHMgd2Ugd2FudCB0aGVtIHRvIHdhdGNoIG9uIG1vbWVudHMgdGhhdCBzdWl0IHVzLiBIb3cgd291bGQgeW91ciBicmFuZCBhbmQgYWR2ZXJ0aXNpbmcgc3RyYXRlZ3kgY2hhbmdlPyBBcmUgeW91IHJ1bm5pbmcgdGhlIHJpZ2h0IGV4cGVyaW1lbnRzIHRvIGJlIHJlYWR5IGZvciB0aGlzIGNoYW5nZT88ZW0+IE9ubGluZSBCcmFuZCBJZGVudGl0eTwvZW0+IG9mZmVycyBhIGZ1dHVyZSByZWFkeSBicmFuZCBmcmFtZXdvcmsgaWxsdXN0cmF0ZWQgd2l0aCBmb3J0eSBzdWNjZXNzZnVsIGNhc2VzIGFuZCBzdXBwb3J0ZWQgYnkgZXhlcmNpc2VzIHRvIGRlZmluZSBleHBlcmltZW50cyB5b3UgY2FuIHN0YXJ0IHJ1bm5pbmcgdG9tb3Jyb3cuPC9wPg0KJm5ic3A7DQoNCjxwPjxpbWcgYWx0PSJPcGVuIGluIGZ1bGwgc2l6ZSIgaWQ9Im1fY193aWRnZXRQcm9wZXJ0aWVzX2Zvcm1DdXN0b21faW1hZ2VfbWVkaWFTZWxlY3Rvcl9pbWdQcmV2aWV3IiBzcmM9Imh0dHA6Ly9zdGFnaW5nLmNlc3dlYi5vcmcvQ0VTL21lZGlhLzIwMTQvbGFuZGluZyUyMHBhZ2VzL2V2ZW50cy1hd2FyZHMvYm9vayUyMGNsdWIvU3RhcnR1cENpdHlfQ292ZXIuanBnP21heHNpZGVzaXplPTEwMCIgc3R5bGU9ImN1cnNvcjogcG9pbnRlcjsgZmxvYXQ6IGxlZnQ7IG1hcmdpbjogMTBweDsiIHRpdGxlPSJPcGVuIGluIGZ1bGwgc2l6ZSIgLz48c3Ryb25nPkdhYmUgS2xlaW4gPC9zdHJvbmc+Jm5ic3A7PGltZyBhbHQ9Ik9wZW4gaW4gZnVsbCBzaXplIiBpZD0ibV9jX3dpZGdldFByb3BlcnRpZXNfZm9ybUN1c3RvbV9pbWFnZV9tZWRpYVNlbGVjdG9yX2ltZ1ByZXZpZXciIHNyYz0iaHR0cDovL3N0YWdpbmcuY2Vzd2ViLm9yZy9DRVMvbWVkaWEvMjAxNC9sYW5kaW5nJTIwcGFnZXMvZXZlbnRzLWF3YXJkcy9ib29rJTIwY2x1Yi9TdGFydFVwQ2l0eUhlYWRTaG90LmpwZz9tYXhzaWRlc2l6ZT0xMDAiIHN0eWxlPSJjdXJzb3I6IHBvaW50ZXI7IGZsb2F0OiByaWdodDsgbWFyZ2luOiAxMHB4OyIgdGl0bGU9Ik9wZW4gaW4gZnVsbCBzaXplIiAvPjxiciAvPg0KPGVtPlN0YXJ0LVVwIENpdHk6IEluc3BpcmluZyBQcml2YXRlICZhbXA7IFB1YmxpYyBFbnRyZXByZW5ldXJzaGlwLCBHZXR0aW5nIFByb2plY3RzIERvbmUgYW5kIEhhdmluZyBGdW48L2VtPjxiciAvPg0KJm5ic3A7PGJyIC8+DQpJbiA8ZW0+U3RhcnQtVXAgQ2l0eTwvZW0+LCBHYWJlIEtsZWluLCB3aXRoIERhdmlkIFZlZ2EtQmFyYWNob3dpdHosIG9mZmVycyBpbnNwaXJhdGlvbiB0aGF0IHdlIGNhbiBpbXByb3ZlIHRoZSB3YXkgdGhhdCB3ZSBsaXZlIGluIGNpdGllcyB3aXRob3V0IHdhaXRpbmcgZm9yIHRoZSBnbGFjaWFsIHBhY2Ugb2YgY2hhbmdlIGluIGdvdmVybm1lbnQgb3IgY29ycG9yYXRlIHNldHRpbmdzLiBIZSBhcmd1ZXMgdGhhdCB0aGUgcHVibGljLXByaXZhdGUgcGFydG5lcnNoaXBzIG9mIHRoZSBmdXR1cmUgd2lsbCBuZWVkIHRvIGVtYm9keSBhIHRyaXBsZSBib3R0b20gbGluZSBhcHByb2FjaCB0aGF0IGZvY3VzZXMgb24gdGhlIG5ldyBQMzogcGVvcGxlJm5kYXNoO3BsYW5ldCZuZGFzaDsgcHJvZml0LiBJZiB5b3UgYXJlIHdpbGxpbmcgdG8gZ28gYWdhaW5zdCB0aGUgdGlkZSBhbmQgZm9sbG93IGJhc2ljIGxlc3NvbnMgaW4gZ29hbCBzZXR0aW5nLCBleHBlcmltZW50YXRpb24sIGNoYW5nZSBtYW5hZ2VtZW50LCBmaW5hbmNpYWwgaW5ub3ZhdGlvbiwgYW5kIGNvbW11bmljYXRpb24sIHJlYWwgY2hhbmdlIGluIGNpdGllcyBpcyBwb3NzaWJsZS48YnIgLz4NCjxiciAvPg0KPGJyIC8+DQo8aW1nIGFsdD0iT3BlbiBpbiBmdWxsIHNpemUiIGlkPSJtX2Nfd2lkZ2V0UHJvcGVydGllc19mb3JtQ3VzdG9tX2ltYWdlX21lZGlhU2VsZWN0b3JfaW1nUHJldmlldyIgc3JjPSJ+L2dldG1lZGlhLzUxYzk1MTk5LTY5ZDQtNDU2Ni1iYjRjLThiMjMyMTFjNjQwOS9TdXJ2aXZpbmctVGVjaHN0cm9tX2Jvb2tjb3Zlci5hc3B4P3dpZHRoPTEzMCZhbXA7aGVpZ2h0PTE4MiIgc3R5bGU9ImN1cnNvcjogcG9pbnRlcjsgd2lkdGg6IDEzMHB4OyBoZWlnaHQ6IDE4MnB4OyBmbG9hdDogbGVmdDsgbWFyZ2luOiAxMHB4OyIgdGl0bGU9Ik9wZW4gaW4gZnVsbCBzaXplIiAvPiZuYnNwOzxzdHJvbmc+Tmlja2xhcyBCZXJnbWFuJm5ic3A7PC9zdHJvbmc+PGltZyBhbHQ9Ik9wZW4gaW4gZnVsbCBzaXplIiBpZD0ibV9jX3dpZGdldFByb3BlcnRpZXNfZm9ybUN1c3RvbV9pbWFnZV9tZWRpYVNlbGVjdG9yX2ltZ1ByZXZpZXciIHNyYz0ifi9nZXRtZWRpYS9iMDc3Y2UzNC0yYmM4LTQzMmYtYWNlMS02NTI5NDkxZDA3ZTAvQmVyZ21hbl9oZWFkc2hvdC5hc3B4P3dpZHRoPTEzMCZhbXA7aGVpZ2h0PTEzMCIgc3R5bGU9ImN1cnNvcjogcG9pbnRlcjsgbGluZS1oZWlnaHQ6IDIwLjhweDsgd2lkdGg6IDEzMHB4OyBoZWlnaHQ6IDEzMHB4OyBmbG9hdDogcmlnaHQ7IiB0aXRsZT0iT3BlbiBpbiBmdWxsIHNpemUiIC8+PGJyIC8+DQo8ZW0+U3Vydml2aW5nIHRoZSBUZWNoc3Rvcm0gJm5kYXNoOyBTdHJhdGVneSBpbiBUaW1lcyBvZiBUZWNobm9sb2dpY2FsIFVuY2VydGFpbnR5PC9lbT48L3A+DQoNCjxkaXY+QXJlIHdlIGxpdmluZyBpbiBhIHRpbWUgdGhhdCBpcyBtb3JlIGV4Y2l0aW5nLCBtb3JlIGRhbmdlcm91cyBhbmQgbW9yZSBlbmNvdXJhZ2luZyB0aGFuIGFueSBwcmV2aW91cyBlcmEgaW4gd29ybGQgaGlzdG9yeT8gSXQmcnNxdW87cyBpbXBvc3NpYmxlIHRvIHNheS4gQnV0IHdoYXQgd2UgZG8ga25vdywgaXMgdGhhdCBlYWNoIG5ldyBlcmEgYW5kIHRlY2hub2xvZ2ljYWwgcGFyYWRpZ20gc2hpZnQsIHByZXNlbnQgcGFydGljdWxhciBjaGFsbGVuZ2VzIGFuZCBvcHBvcnR1bml0aWVzLiBLbm93aW5nIHdoaWNoIHBhdGggdG8gdGFrZSwgd2hlbiB0byBlbWJyYWNlIG5ldyB0ZWNobm9sb2dpZXMgYW5kIHdoZW4gdG8gbGVhdmUgb2xkIG9uZXMgYmVoaW5kLCBtYWtlIHVwIHNvbWUgb2YgdGhlIGdyZWF0ZXN0IGNoYWxsZW5nZXMgZmFjaW5nIGJ1c2luZXNzIHRvZGF5LiZuYnNwO1RoaXMgZ3JvdW5kYnJlYWtpbmcgYW5kIGhpZ2hseSB2aXN1YWwgbmV3IGJvb2sgcHJlc2VudHMgYSBmcmFtZXdvcmsgb24gaG93IHRvIHJlbGF0ZSB0byB0aGVzZSB0aW1lcyBvZiBlbm9ybW91cyB0ZWNobm9sb2dpY2FsIHVuY2VydGFpbnRpZXMuIE5pY2tsYXMgQmVyZ21hbiBpcyBhIHNlcmlhbCBlbnRyZXByZW5ldXIsIGxlYWRpbmcgZnV0dXJpc3QsIHN1Y2Nlc3NmdWwgdGVjaCBpbnZlc3RvciBhbmQgYWR2aXNvciB0byB0aGUgVGVjaENhc3QgR2xvYmFsIHRoaW5rIHRhbmsgaW4gV2FzaGluZ3RvbiwgREMuIEhlIGFyZ3VlcyB0aGF0IGJ5IGNvbWJpbmluZyBhIHByb2Nlc3MgYXBwcm9hY2ggd2l0aCBhIGN1cmlvc2l0eSBhbmQgdW5kZXJzdGFuZGluZyBvZiB0ZWNobm9sb2d5LCB3ZSBjYW4gZ2FpbiBzaWduaWZpY2FudCBpbnNpZ2h0IGludG8gaG93IHRvIHRha2UgYWR2YW50YWdlIG9mIHRoZSBvcHBvcnR1bml0aWVzIHRoYXQgd2lsbCBjb21lIGZyb20gZW1lcmdpbmcgdGVjaG5vbG9naWVzLjxiciAvPg0KPGJyIC8+DQo8YnIgLz4NCjxpbWcgYWx0PSJPcGVuIGluIGZ1bGwgc2l6ZSIgaWQ9Im1fY193aWRnZXRQcm9wZXJ0aWVzX2Zvcm1DdXN0b21faW1hZ2VfbWVkaWFTZWxlY3Rvcl9pbWdQcmV2aWV3IiBzcmM9In4vZ2V0bWVkaWEvYjlkYzU5YjgtZWQ3ZC00MTFiLTljZmUtNTg3OGY3NTY4OWY1L1RlY2hJbmZsZWN0aW9uUG9pbnRfQm9vay1Db3Zlci5hc3B4P3dpZHRoPTExMCZhbXA7aGVpZ2h0PTE2NCIgc3R5bGU9ImN1cnNvcjogcG9pbnRlcjsgd2lkdGg6IDExMHB4OyBoZWlnaHQ6IDE2NHB4OyBmbG9hdDogbGVmdDsgbWFyZ2luOiAxMHB4OyIgdGl0bGU9Ik9wZW4gaW4gZnVsbCBzaXplIiAvPiZuYnNwOzxzdHJvbmc+U2NvdHQgU3Rhd3NraSZuYnNwOzwvc3Ryb25nPjxpbWcgYWx0PSJPcGVuIGluIGZ1bGwgc2l6ZSIgaWQ9Im1fY193aWRnZXRQcm9wZXJ0aWVzX2Zvcm1DdXN0b21faW1hZ2VfbWVkaWFTZWxlY3Rvcl9pbWdQcmV2aWV3IiBzcmM9In4vZ2V0bWVkaWEvYTY3NWYwZTMtODc0ZC00MTQ1LWEwNzYtNWZiYWNiNmQzZTc3L1N0YXdza2lfSGVhZHNob3QuYXNweD93aWR0aD0xMTAmYW1wO2hlaWdodD0xNDUiIHN0eWxlPSJjdXJzb3I6IHBvaW50ZXI7IHdpZHRoOiAxMTBweDsgaGVpZ2h0OiAxNDVweDsgZmxvYXQ6IHJpZ2h0OyBtYXJnaW46IDEwcHg7IiB0aXRsZT0iT3BlbiBpbiBmdWxsIHNpemUiIC8+PGJyIC8+DQo8ZW0+SW5mbGVjdGlvbiBQb2ludDogSG93IHRoZSBDb252ZXJnZW5jZSBvZiBDbG91ZCwgTW9iaWxpdHksIEFwcHMsIGFuZCBEYXRhIFdpbGwgU2hhcGUgdGhlIEZ1dHVyZSBvZiBCdXNpbmVzczwvZW0+PGJyIC8+DQo8YnIgLz4NClRvZGF5LCBodXJyaWNhbmVzIGFyZSBmb3JtaW5nLCBhbmQgYnVzaW5lc3NlcyBhcmUgaGVhZGVkIHN0cmFpZ2h0IGludG8gaXQuIFRoaXMgaHVycmljYW5lIGlzIGFyaXNpbmcgZnJvbSB0aGUgY29udmVyZ2VuY2Ugb2YgZW5vcm1vdXMgdHJlbmRzIGluIGluZm9ybWF0aW9uIHRlY2hub2xvZ3ksIGluY2x1ZGluZyBjbG91ZCwgbW9iaWxpdHksIFNvZnR3YXJlIGFzIGEgU2VydmljZSBhbmQgQmlnIERhdGEuIFNjb3R0IFN0YXdza2kgc2hvd3MgaG93IHRvIGhhcm5lc3MgdGhlc2UgZmllcmNlIHdpbmRzIG9mIGNoYW5nZSBhbmQgc2FpbCB0b3dhcmRzIGdyZWF0ZXIgY29tcGV0aXRpdmVuZXNzIGFuZCBjdXN0b21lciB2YWx1ZS4mbmJzcDtTdGF3c2tpIGV4cGxhaW5zIHRoZSBzdHJhdGVnaWMgaW1wbGljYXRpb25zIG9mIHRvZGF5JnJzcXVvO3MgbmV3IHRlY2hub2xvZ3kgcGFyYWRpZ21zLCBoZWxwaW5nIHlvdSByZXNoYXBlIHN0cmF0ZWd5IHRvIGVtYnJhY2UgYW5kIHByb2ZpdCBmcm9tIHRoZW0uIFlvdSZyc3F1bztsbCBkaXNjb3ZlciBob3cgdGVjaG5vbG9neSBhbmQgb3RoZXIgZmFjdG9ycyBhcmUgZHJpdmluZyBhIHJhZGljYWwgbmV3IHJvdW5kIG9mIGRpc2ludGVybWVkaWF0aW9uLCByZWludGVybWVkaWF0aW9uIGFuZCBkaXNydXB0aW9uJm5kYXNoO2FuZCB3aGF0IHRoYXQgbWVhbnMgdG8geW91IGFuZCB5b3VyIGNvbXBhbnkuPGJyIC8+DQo8YnIgLz4NCjxiciAvPg0KPGltZyBhbHQ9Ik9wZW4gaW4gZnVsbCBzaXplIiBpZD0ibV9jX3dpZGdldFByb3BlcnRpZXNfZm9ybUN1c3RvbV9pbWFnZV9tZWRpYVNlbGVjdG9yX2ltZ1ByZXZpZXciIHNyYz0ifi9nZXRtZWRpYS84NGYxYTExYS0xZDkwLTQ0NGItOWU5MC1mYzkyMDFiN2UwMmQvUGFycl9DYXB0aXZvbG9neS1Db3Zlci5hc3B4P3dpZHRoPTExMCZhbXA7aGVpZ2h0PTE2MyIgc3R5bGU9ImN1cnNvcjogcG9pbnRlcjsgd2lkdGg6IDExMHB4OyBoZWlnaHQ6IDE2M3B4OyBmbG9hdDogbGVmdDsgbWFyZ2luOiAxMHB4OyIgdGl0bGU9Ik9wZW4gaW4gZnVsbCBzaXplIiAvPiZuYnNwOzxzdHJvbmc+QmVuIFBhcnImbmJzcDs8L3N0cm9uZz48aW1nIGFsdD0iT3BlbiBpbiBmdWxsIHNpemUiIGlkPSJtX2Nfd2lkZ2V0UHJvcGVydGllc19mb3JtQ3VzdG9tX2ltYWdlX21lZGlhU2VsZWN0b3JfaW1nUHJldmlldyIgc3JjPSJ+L2dldG1lZGlhLzEyYTMxZjAxLWY5OWEtNGZlMC1iZjE0LTUyYTE4NTNlZmRmMy9QYXJyX2hlYWRzaG90LmFzcHg/d2lkdGg9MTIwJmFtcDtoZWlnaHQ9MTc5IiBzdHlsZT0iY3Vyc29yOiBwb2ludGVyOyB3aWR0aDogMTIwcHg7IGhlaWdodDogMTc5cHg7IGZsb2F0OiByaWdodDsgbWFyZ2luOiAxMHB4OyIgdGl0bGU9Ik9wZW4gaW4gZnVsbCBzaXplIiAvPjxiciAvPg0KPGVtPkNhcHRpdm9sb2d5OiBUaGUgU2NpZW5jZSBvZiBDYXB0dXJpbmcgUGVvcGxlJnJzcXVvO3MgQXR0ZW50aW9uPC9lbT48YnIgLz4NCjxiciAvPg0KSW4gPGVtPkNhcHRpdm9sb2d5PC9lbT4sIGF3YXJkLXdpbm5pbmcgam91cm5hbGlzdCwgYXV0aG9yLCBlbnRyZXByZW5ldXIgYW5kIGludmVzdG9yIEJlbiBQYXJyIHByZXNlbnRzIGEgbmV3IHVuZGVyc3RhbmRpbmcgb2YgYXR0ZW50aW9uIC0tIGhvdyBpdCB3b3Jrcywgd2h5IGl0IG1hdHRlcnMgYW5kIGhvdyB3ZSBsZXZlcmFnZSBwc3ljaG9sb2dpY2FsIHRyaWdnZXJzIHRvIGRyYXcgYW5kIHJldGFpbiBhdHRlbnRpb24gZm9yIG91ciBwYXNzaW9ucywgcHJvamVjdHMgYW5kIGlkZWFzLiZuYnNwO1BhcnIgY29tYmluZXMgdGhlIGxhdGVzdCByZXNlYXJjaCBvbiBhdHRlbnRpb24gd2l0aCBpbnRlcnZpZXdzIHdpdGggbW9yZSB0aGFuIGZpZnR5IHNjaWVudGlzdHMgYW5kIHZpc2lvbmFyaWVzLS1GYWNlYm9vayYjMzk7cyBTaGVyeWwgU2FuZGJlcmcsIGZpbG0gZGlyZWN0b3IgU3RldmVuIFNvZGVyYmVyZ2gsIExpbmtlZEluIENFTyBKZWZmIFdlaW5lciwgbWFnaWNpYW4gRGF2aWQgQ29wcGVyZmllbGQsIE5ldyBZb3JrIFRpbWVzIGJlc3RzZWxsaW5nIGF1dGhvciBTdXNhbiBDYWluLCBOaW50ZW5kbyYjMzk7cyBTaGlnZXJ1IE1peWFtb3RvIGFuZCBtb3JlLS13aG8gaGF2ZSBzdWNjZXNzZnVsbHkgYnJvdWdodCB0aGVpciBpZGVhcywgcHJvamVjdHMsIGNvbXBhbmllcyBhbmQgcHJvZHVjdHMgdG8gdGhlIGZvcmVmcm9udCBvZiBjdWx0dXJhbCBjb25zY2lvdXNuZXNzLjxiciAvPg0KPGJyIC8+DQo8aW1nIGFsdD0iT3BlbiBpbiBmdWxsIHNpemUiIGlkPSJtX2Nfd2lkZ2V0UHJvcGVydGllc19mb3JtQ3VzdG9tX2ltYWdlX21lZGlhU2VsZWN0b3JfaW1nUHJldmlldyIgc3JjPSJodHRwOi8vc3RhZ2luZy5jZXN3ZWIub3JnL0NFUy9tZWRpYS8yMDE0L2xhbmRpbmclMjBwYWdlcy9ldmVudHMtYXdhcmRzL2Jvb2slMjBjbHViL05JLUJvb2tfVHJhbnNwYXJlbnRfQ3V0LU91dF9yZXNpemVkLmpwZz9tYXhzaWRlc2l6ZT0xMDAiIHN0eWxlPSJjdXJzb3I6IHBvaW50ZXI7IGZsb2F0OiBsZWZ0OyBtYXJnaW46IDEwcHg7IiB0aXRsZT0iT3BlbiBpbiBmdWxsIHNpemUiIC8+PHN0cm9uZz5NaWNrIEViZWxpbmc8L3N0cm9uZz48aW1nIGFsdD0iT3BlbiBpbiBmdWxsIHNpemUiIGlkPSJtX2Nfd2lkZ2V0UHJvcGVydGllc19mb3JtQ3VzdG9tX2ltYWdlX21lZGlhU2VsZWN0b3JfaW1nUHJldmlldyIgc3JjPSJ+L2dldG1lZGlhLzhlNWRhNjEwLWNlZTUtNDBiNi04NDgxLWU0ZmNjMzQ4M2ZhNC9FYmVsaW5nX2hlYWRzaG90LmFzcHg/d2lkdGg9MTY1JmFtcDtoZWlnaHQ9MTE3IiBzdHlsZT0iY3Vyc29yOiBwb2ludGVyOyB3aWR0aDogMTY1cHg7IGhlaWdodDogMTE3cHg7IGZsb2F0OiByaWdodDsgbWFyZ2luOiAxMHB4OyIgdGl0bGU9Ik9wZW4gaW4gZnVsbCBzaXplIiAvPjxiciAvPg0KPGVtPk5vdCBJbXBvc3NpYmxlPC9lbT48YnIgLz4NCjxiciAvPg0KSG9ub3JlZCBhcyBvbmUgb2YgdGhlIFRvcCA1MCBNb3N0IENyZWF0aXZlIFBlb3BsZSBhbmQgdGhlIE11aGFtbWFkIEFsaSBIdW1hbml0YXJpYW4gb2YgdGhlIFllYXIsIE1pY2smbmJzcDtFYmVsaW5nIGlzIGFuIGlubm92YXRvciBpbiB0aGUgTWFrZXIgbW92ZW1lbnQuJm5ic3A7SGlzIGJvb2sgY2hyb25pY2xlcyB0d28gb2YgaGlzIG1vc3QgZmFibGVkIGFjaGlldmVtZW50czogVGhlIEV5ZXdyaXRlciwgYSBkZXZpY2UgdGhhdCBhbGxvd2VkIGEgcGFyYWx5emVkIGFydGlzdCB0byBwYWludCBhZ2FpbiAoYW5kIHdhcyZuYnNwO25hbWVkIG9uZSBvZiB0aGUgVG9wIDUwIEludmVudGlvbnMgb2YgMjAxMCBhbmQgaXMgcGFydCBvZiB0aGUgcGVybWFuZW50IGNvbGxlY3Rpb24gYXQgdGhlIE11c2V1bSBvZiBNb2Rlcm4gQXJ0KTsgYW5kICZsZHF1bztQcm9qZWN0IERhbmllbCwmcmRxdW87IGluIHdoaWNoJm5ic3A7TWljayZuYnNwO3RyYXZlbGxlZCB0byB3YXItdG9ybiBTdWRhbiB3aXRoIGEgM0QgcHJpbnRlciB0byBjcmVhdGUgdGhlIHdvcmxkJiMzOTtzIGZpcnN0IDNEIHByaW50ZWQgcHJvc3RoZXRpYyBsYWIgYW5kIHByaW50IGFybXMgZm9yIGJvbWJpbmcgdmljdGltcy4mbmJzcDs8ZW0+Tm90IEltcG9zc2libGU8L2VtPiBpcyBpbWJ1ZWQmbmJzcDt3aXRoJm5ic3A7TWljayZyc3F1bztzIHBoaWxvc29waHkgLSB0aGF0IGFsbCBwcm9ibGVtcyBjYW4gYmUgc29sdmVkLCBhbmQgdGhhdCB5b3UgaGF2ZSB0aGUgYWJpbGl0eSB0byBjaGFuZ2UgdGhlIHdvcmxkIGFyb3VuZCB5b3UsIGFzIGxvbmcgYXMgeW91IGJlbGlldmUgdGhhdCBOb3RoaW5nIElzIEltcG9zc2libGUuPGJyIC8+DQombmJzcDs8L2Rpdj4NCjwvZGl2Pg0KPC9kaXY+DQo8L2Rpdj4NCjwvZGl2Pg0KZGTdxL1RLnx2cuiLzxDvtKml0HStGKD9n9XFHhCrD3kV9Q==" />
+  <script type="text/javascript"> 
+      //<![CDATA[
+      if (window.WebForm_InitCallback) { 
+        __theFormPostData = '';
+        __theFormPostCollection = new Array();
+        window.WebForm_InitCallback(); 
+      }
+      //]]>
+    </script>
+  </form>
+</body>
+</html>

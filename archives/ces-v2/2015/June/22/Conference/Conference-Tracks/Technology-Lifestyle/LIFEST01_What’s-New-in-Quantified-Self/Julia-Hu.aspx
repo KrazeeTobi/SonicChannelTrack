@@ -1,0 +1,543 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head id="head"><title>
+	Julia  Hu - 2016 International CES, January 6-9
+</title><meta name="description" content="Conference programming at CES offers the opportunity to engage with experts in fields as diverse as 3D printing, digital content and connected health." /> 
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" /> 
+<meta http-equiv="pragma" content="no-cache" /> 
+<meta http-equiv="content-style-type" content="text/css" /> 
+<meta http-equiv="content-script-type" content="text/javascript" /> 
+<meta name="keywords" content="International CES, CES, CES 2010, CES 2011, CES 2012, CES 2013, CES 2014, CES 2015, CES 2016, CES 2017, CES 2018, Consumer Electronics Show, Consumer Technology, Consumer Electronics, Consumer Electronics Association, CES Las Vegas, ces show, ces vegas, CES Unveiled, ces tradeshow, ces conference, ces registration, ces exhibitor, ces innovation awards, innovation awards, best of ces, ces keynote, ces show floor, technology, silicon valley, technology innovation, disruptive technology, start-ups,International CES, CES, CES 2010, CES 2011, CES 2012, CES 2013, CES 2014, CES 2015, CES 2016, CES 2017, CES 2018, Consumer Electronics Show, Consumer Technology, Consumer Electronics, Consumer Electronics Association, CES Las Vegas, ces show, ces vegas, CES Unveiled, ces tradeshow, ces conference, ces registration, ces exhibitor, ces innovation awards, innovation awards, best of ces, ces keynote, ces show floor, technology, silicon valley, technology innovation, disruptive technology, start-ups" /> 
+<link href="/CMSPages/GetResource.ashx?stylesheetname=Blank_1" type="text/css" rel="stylesheet"/> 
+<meta http-equiv="X-UA-Compatible" content="IE=edge"> <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- open graph -->
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="International CES" />
+<meta property="og:url" content="http://www.cesweb.org/Conference/Conference-Tracks/Technology-Lifestyle/LIFEST01_What’s-New-in-Quantified-Self/Julia-Hu.aspx" />
+<meta property="og:title" content="Julia  Hu" />
+<meta property="og:description" content="">
+<meta property="og:image" content="http://www.cesweb.org">
+<!-- open graph -->
+
+<meta property="twitter:account_id" content="10668202" />
+<!-- Twitter Summary Card -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@IntlCES">
+<meta name="twitter:creator" content="@IntlCES">
+<meta name="twitter:title" content="Julia  Hu">
+<meta name="twitter:description" content="">
+<meta name="twitter:image" content="http://www.cesweb.org">
+<!-- End of Twitter Summary Card -->
+
+<link rel="shortcut icon" href="/ces/favicon.ico" />
+<link rel="icon" href="/ces/favicon.ico" />
+
+<!-- Added by Jay - 4/15/2015 -->
+<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css"> -->
+<link rel="stylesheet" href="/CES/bootstrap/CSS/bootstrap.min.css">
+<!-- <link href="/CMSPages/GetResource.ashx?stylesheetname=ices-main-style" type="text/css" rel="stylesheet"/> -->
+<!-- END Added by Jay - 4/15/2015 -->
+
+<link href="/CMSPages/GetResource.ashx?stylesheetname=ices-captions" type="text/css" rel="stylesheet"  />
+<link href="/CMSPages/GetResource.ashx?stylesheetname=ices-slider-style" type="text/css" rel="stylesheet" media="screen" />
+<link href="/CMSPages/GetResource.ashx?stylesheetname=ices-flexslider" type="text/css" rel="stylesheet" />
+<link href="/CMSPages/GetResource.ashx?stylesheetname=ices-prettyphoto" type="text/css" rel="stylesheet" />
+<link href="/CMSPages/GetResource.ashx?stylesheetname=ices-settings" type="text/css" rel="stylesheet" media="screen" />
+<link href="/CMSPages/GetResource.ashx?stylesheetname=ices-fonts" type="text/css" rel="stylesheet" media="screen" />
+<link href="/CMSPages/GetResource.ashx?stylesheetname=ices-print" type="text/css" rel="stylesheet" media="print" />
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<!-- Bootstrap causes conflicts with CMSDesk so we only include this reference if we aren't in Edit mode -->
+
+<!-- Added by Jay - 4/15/2015 -->
+
+<script type="text/javascript" src="/CES/bootstrap/js/bootstrap.min.js"></script>
+<!-- END Added by Jay - 4/15/2015 -->
+
+
+<script type="text/javascript" src="//maps.google.com/maps/api/js?sensor=false"></script>
+<script type="text/javascript" src="/ces/js/itn/jquery.cookie.js"></script>
+<!-- Added by BH - 4/22/2015 for something in script.js-->
+<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<!-- END Added by BH - 4/22/2015 -->
+<script type="text/javascript" src="/ces/js/scripts.js"></script>
+<!--<script type="text/javascript" src="/ces/js/jquery.themepunch.revolution.min.js"></script>-->
+<script type="text/javascript" src="/ces/js/custom.js"></script>
+
+<script type="text/javascript">
+  <!--
+    function toggle_visibility(id) {
+      var e = document.getElementById(id);
+      if (e.style.display == 'block')
+        e.style.display = 'none';
+      else
+        e.style.display = 'block';
+    }
+      //-->
+</script>
+<script type="text/javascript">
+  function EnterEvent(e) {
+    if (e.keyCode == 13) {
+      var val = document.getElementById('searchTxt').value;
+      var sURL = '/search-results?searchtext=' + val + '&searchmode=anyword';
+      window.location.href = sURL;
+      return false;
+    }
+  }
+  
+jQuery(document).ready(function ($) {
+    for (var count = 2 ;count <= 7; count ++)
+    {
+      var firstLevelItem = $('#'+ count +' > ul');
+      var dropdownCSSClass = "";
+      var secondLevelItems = firstLevelItem.children('li');//$('#'+ count +' ul > li');
+      var secondLevelItemsCount = secondLevelItems.length;
+       
+      if(secondLevelItemsCount>10)
+        dropdownCSSClass = "nav-3cols";
+      else if(secondLevelItemsCount<=10 && secondLevelItemsCount>6)
+        dropdownCSSClass = "nav-2cols";
+      
+      firstLevelItem.addClass(dropdownCSSClass);
+      if(secondLevelItemsCount>5)
+       {
+        for (var i = 0; i < secondLevelItemsCount; i += 5) {
+          secondLevelItems.slice(i, i + 5).wrapAll('<div class="nav-col"></div>');
+        }
+       }
+      
+    }
+    
+    
+  });
+</script>
+<script type="text/javascript">var switchTo5x=false;</script>
+<script type="text/javascript" src="//w.sharethis.com/button/buttons.js"></script>
+<script type="text/javascript">stLight.options({publisher: "a17beaa8-5eee-4df7-8629-9947a3e965e3",  offsetLeft:'-270', doNotHash: true, doNotCopy: false, hashAddressBar: false, exclusive_services:true, services:"facebook,twitter,linkedin,googleplus,email,sharethis", minorServices:false});</script>
+
+
+
+<script type="text/javascript" src="/ces/js/cmsedit/WidgetSecurity_non_Admin.js"></script><link rel="stylesheet" type="text/css" href="/CES/JS/ITN/cart.css" />
+<style>
+  #leftTrackColumn { float: left; border: none; margin: 0 25px 10px 0; width: 172px; }
+  .trackImage { border: none; margin: 0 25px 10px 0; }
+  #waysToBuy { }
+  .waysToBuyHeader { background-color: darkslategrey; color: white; text-align: center; padding: 2px 0 2px 0; font-weight: bold; }
+  #sessionList { margin-left: 225px; width: 80%; }
+  div.sessionList p { display: inline-block; min-height: 20px; vertical-align: top; }
+  .left { width: 35%; text-align: right; padding-right: 15px; }
+  .right { width: 60%; }
+  
+  @media (min-width : 886px) {
+    #sessionList { margin-left: 200px; width: 80%; }
+    div.sessionList p { display: inline-block; min-height: 20px; vertical-align: top; }
+    .left { width: 20%; text-align: right; padding-right: 15px; }
+    .right { width: 75%; }
+  }
+  
+  @media (max-width : 885px) {
+    #sessionList { width: 70%; }
+    div.sessionList p { display: inline-block; min-height: 20px; vertical-align: top; }    
+  }
+
+  @media only screen and (max-width: 820px) {
+    #leftTrackColumn { float: none; }
+    #sessionList { margin-left: 5px; width: 90%; }
+  }
+
+  @media (max-width: 479px) {
+    #leftTrackColumn { float: none; }
+    #sessionList { margin-left: 5px; width: 90%; }
+    .sessionList { margin-top: -25px; }
+    .left { float: none; width: 100%; text-align: left; }
+    .right { float: none; width: 100%; margin-top: -25px; }
+  }
+
+  @media (max-width: 320px) {
+    
+  }
+</style>
+<!-- JavaScript -->
+<script type="text/javascript" src="/CES/js/ITN/underscore.js"></script>
+<script type="text/javascript" src="/CES/js/ITN/mustache.js"></script>
+<script type="text/javascript" src="/CES/js/ITN/addToCartTemplates.js"></script>
+<script type="text/javascript" src="/CES/js/ITN/sessionTemplates.js"></script>
+<script type="text/javascript" src="/CES/js/ITN/cart.js"></script>
+
+<script type="text/javascript">
+        jQuery(document).ready(function ($) {
+          Cart.render();
+        });
+</script> 
+<style type="text/css" rel="stylesheet"> 
+                   
+                        .languages {
+                        display: none !important;
+                        
+                        }
+
+                    </style>
+                    <link href="/CMSPages/GetResource.ashx?_templates=1085&amp;_transformations=4379&amp;_webparts=1067;136" type="text/css" rel="stylesheet"/> 
+</head>
+<body class="LTR ENUS ContentBody" >
+    <form method="post" action="/Conference/Conference-Tracks/Technology-Lifestyle/LIFEST01_What’s-New-in-Quantified-Self/Julia-Hu.aspx" id="form">
+<div class="aspNetHidden">
+<input type="hidden" name="manScript_HiddenField" id="manScript_HiddenField" value="" />
+
+</div>
+
+<input type="hidden" name="lng" id="lng" value="en-US" />
+<script type="text/javascript">
+	//<![CDATA[
+
+function PM_Postback(param) { if (window.top.HideScreenLockWarningAndSync) { window.top.HideScreenLockWarningAndSync(1080); } if(window.CMSContentManager) { CMSContentManager.allowSubmit = true; }; __doPostBack('m$am',param); }
+function PM_Callback(param, callback, ctx) { if (window.top.HideScreenLockWarningAndSync) { window.top.HideScreenLockWarningAndSync(1080); }if (window.CMSContentManager) { CMSContentManager.storeContentChangedStatus(); };WebForm_DoCallback('m$am',param,callback,ctx,null,true); }
+//]]>
+</script>
+<script src="/ScriptResource.axd?d=3hdha27SAHByUKq-4Hx6D7eXBA_sf1w0noXZScXx-Ze4hnH0bOpNHZ1dxbYxKLYOUrRTiiSOZXYZrf4AAzuWkbgxC0O56uBVj8XZjgf7SIKw-eXKUEhGRbVWNHT9bsJq0&amp;t=7c776dc1" type="text/javascript"></script>
+<script type="text/javascript">
+	//<![CDATA[
+
+var CMS = CMS || {};
+CMS.Application = {
+  "isDialog": false,
+  "applicationUrl": "/",
+  "isRTL": "false",
+  "imagesUrl": "/CMSPages/GetResource.ashx?image=%5bImages.zip%5d%2f"
+};
+
+//]]>
+</script>
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="A5343185" />
+</div>
+    
+    <div id="ctxM">
+
+</div>
+    
+<!--[if lt IE 9]>
+  <div style="display: block; width: 97%; background-color: #FF99CC; padding: 10px 30px 10px 30px; text-align: center; color: black; font-size:20px;">
+    We noticed you are using an older version of IE that isn't fully supported on this site. Please click <a  href="#">here</a> for more information and options.
+</div>
+<![endif]--> 
+<!-- TOP NAV -->
+<section>
+  <nav class="navbar navbar-default">
+    <div class="container">
+      <ul class="connect-title"><li>Connect With Us</li></ul>
+      <ul class="social_icons">
+	<li class="twitter"><a href="https://twitter.com/intlces" title="Twitter">&nbsp;</a></li>
+	<li class="facebook"><a href="https://www.facebook.com/CES" title="facebook">&nbsp;</a></li>
+	<li class="googleplus"><a href="https://plus.google.com/+CES" title="googleplus">&nbsp;</a></li>
+	<li class="instagram"><a href="http://instagram.com/cesofficial" title="instagram">&nbsp;</a></li>
+	<li class="youtube"><a href="http://www.youtube.com/user/cesonthetube" title="youtube">&nbsp;</a></li>
+</ul>
+
+      <ul class="open-ad hidden-xs hidden-sm"><li id="clasp_1"><a href="javascript:lunchboxOpen('1');">OPEN ADVERTISEMENT</a></li></ul>
+      <ul class="drop" id="nav">
+	<li>
+		Other CEA Sites
+		<ul>
+			<li>
+				<a href="http://www.ce.org" target="_blank">CEA - CE.org</a></li>
+			<li>
+				<a href="http://www.declareinnovation.com/" target="_blank">Innovation Movement</a></li>
+			<li>
+				<a href="http://www.ce.org/blog" target="_blank">CEA Blog</a></li>
+			<li>
+				<a href="http://www.ce.org/i3" target="_blank">i3 Magazine</a></li>
+			<li>
+				<a href="http://www.greenergadgets.org/" target="_blank">Greener Gadgets</a></li>
+			<li>
+				<a href="http://www.ce.org/research" target="_blank">CEA Market Research</a></li>
+			<li>
+				<a href="http://www.ce.org/foundation" target="_blank">CEA Foundation</a></li>
+			<li>
+				<a href="http://www.cesasia.com" target="_blank">CES Asia</a></li>
+		</ul>
+	</li>
+</ul>
+
+    </div>
+  </nav>
+</section>
+
+<section>
+  <div class="billboard-ad hidden-xs hidden-sm">
+    <div class="container bill-ad lunchbox" id="lunch_1" style="display: none">
+      <div class="container bill-ad"><a id="p_lt_ctl02_BannerRotator_lnkBanner" class="CMSBanner Banner" href="http://www.cesweb.org/video" onclick="this.href=&#39;/CMSModules/BannerManagement/CMSPages/BannerRedirect.ashx?bannerID=304&#39;;" onmouseup="this.href=&#39;/CMSModules/BannerManagement/CMSPages/BannerRedirect.ashx?bannerID=304&#39;;"><img id="p_lt_ctl02_BannerRotator_imgBanner" src="/CES/media/2014/advertisements/CESVideo_970x250.jpg" style="" /></a></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div id="epiBackground" class="bk_white">
+    <div class="container">
+      <ul class="audience-nav">
+	<li>
+		<a href="/exhibitor">Exhibitors</a></li>
+	<li>
+		<a href="/press">Press</a></li>
+	<li>
+		<a href="/international">International</a></li>
+</ul>
+
+    </div>
+  </div>
+</section>
+
+<section>
+  
+  <div id="sticky_navigation" class="bk_white">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-60 col-sm-60 col-md-18 mainlogo">
+          <a href="/" id="logo" ><img class="img-responsive" src="/ces/images/logo.png" /></a>
+        </div>
+        <div class="hidden-xs hidden-sm col-md-42 maintitle">
+          <div class="search-container">
+            <div class="search">
+              <input type="search" id="searchTxt" onkeypress="return EnterEvent(event);" />
+            </div>
+            <div class="date">
+              <h2>
+	Las Vegas, NV</h2>
+<h3>
+	JANUARY 6-9, 2016</h3>
+
+            </div>
+          </div>
+        </div>
+        <div id="main-navigation" class="col-xs-60 col-lg-42 mainnav">
+              
+<ul class="main-menu sf-js-enabled sf-shadow main_nav_wrapper">
+ 
+    <li class=""
+id="2">
+<a href=" /Register-Plan"> Register &amp; Plan</a> 
+<ul><p style ="display:none;">&nbsp;</p><li><a href=" /Register-Plan/Register-Now"> Register Now</a>
+
+<li><a href=" /Register-Plan/Full-Schedule"> Full Schedule </a>
+
+<li><a href=" /Register-Plan/Hotel"> Hotel</a>
+
+<li><a href=" /Register-Plan/Transportation"> Transportation</a>
+
+<li><a href=" /Register-Plan/Travel-Tips"> Travel Tips</a>
+
+<li><a href=" /Register-Plan/Badge-Pick-Up-and-Registration-Locations"> Badge Pickup and Registration Locations</a>
+
+
+</ul></li><li class=""
+id="3">
+<a href=" /Show-Floor"> Show Floor</a> 
+<ul><p style ="display:none;">&nbsp;</p><li><a href=" /Show-Floor/Exhibit-or-Sponsor"> Exhibit or Sponsor</a>
+
+<li><a href=" /Show-Floor/Exhibit-Hours"> Exhibit Hours</a>
+
+<li><a href=" /Show-Floor/Marketplaces"> Marketplaces</a>
+
+
+</ul></li><li class="current"
+id="4">
+<a href=" /Conference"> Conference</a> 
+<ul><p style ="display:none;">&nbsp;</p><li><a href=" /Conference/Become-a-Speaker"> Become a CES Speaker</a>
+
+
+</ul></li><li class=""
+id="6">
+<a href=" /Events-Programs"> Events &amp; Experiences</a> 
+<ul><p style ="display:none;">&nbsp;</p><li><a href=" /Events-Programs/Innovation"> CES Innovation Awards</a>
+
+<li><a href=" /Events-Programs/Entertainment-Matters"> Entertainment &amp; Content</a>
+
+<li><a href=" /Events-Programs/CES-Unveiled"> CES Unveiled</a>
+
+<li><a href=" /Events-Programs/Executive-Club"> Executive Club</a>
+
+<li><a href=" /Events-Programs/2016-CES-Music-Contest"> CES 2016 Music Contest</a>
+
+<li><a href=" /Events-Programs/Garys-Book-Club"> Gary&#39;s Book Club</a>
+
+
+</ul></li><li class=""
+id="7">
+<a href=" /News"> News</a> 
+<ul><p style ="display:none;">&nbsp;</p><li><a href=" /News/Press-Releases"> Press Releases</a>
+
+<li><a href=" /News/CES-TV"> Videos</a>
+
+<li><a href=" /News/Blog"> Blog</a>
+
+<li><a href=" /News/Photo-Gallery"> Photo Gallery</a>
+
+<li><a href=" /News/CES-Social"> Social Media</a>
+
+<li><a href=" /News/CES-In-The-News"> CES In The News</a>
+
+<li><a href=" /News/Exhibitor-Press-Releases"> Exhibitor News</a>
+
+
+</ul></li><li class=""
+id="8">
+<a href=" /Why-CES"> Why CES?</a> 
+<ul><p style ="display:none;">&nbsp;</p><li><a href=" /Why-CES/Experience-the-International-CES"> Experience Innovation at CES</a>
+
+<li><a href=" /Why-CES/2014-Attendee-Audit"> CES By the Numbers</a>
+
+<li><a href=" /Why-CES/CEA-Member-Benefits"> CEA Member Benefits</a>
+
+
+</ul>  </li>
+</ul>
+
+ <div id="main-navigation" style="display: none">
+
+  <select id="navSecondary" onChange="top.location.href=this.options[this.selectedIndex].value;">
+<option selected="selected" value="">Site Main Navigation</option><option style="font-family:open_sansbold;" value="/Register-Plan">Register & Plan</option><option style="font-family:open_sansbold;" value="/Show-Floor">Show Floor</option><option style="font-family:open_sansbold;" value="/Conference">Conference</option><option style="font-family:open_sansbold;" value="/Events-Programs">Events & Experiences</option><option style="font-family:open_sansbold;" value="/News">News</option><option style="font-family:open_sansbold;" value="/Why-CES">Why CES?</option><option style="font-family:open_sansbold;" value="/Exhibitor">Exhibitors</option><option style="font-family:open_sansbold;" value="/International">International</option><option style="font-family:open_sansbold;" value="/Press">Press</option>
+</select>
+</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div id="main-area" class="container">
+  <div class="hanger side-ads ads-left"><a id="p_lt_ctl06_BannerRotatorLeftHanger_lnkBanner" class="CMSBanner Banner" href="http://www.cesweb.org" onclick="this.href=&#39;/CMSModules/BannerManagement/CMSPages/BannerRedirect.ashx?bannerID=35&#39;;" onmouseup="this.href=&#39;/CMSModules/BannerManagement/CMSPages/BannerRedirect.ashx?bannerID=35&#39;;"><img id="p_lt_ctl06_BannerRotatorLeftHanger_imgBanner" src="/CES/media/2014/backgrounds/hanger_left.jpg" style="" /></a></div>
+  <div class="hanger side-ads ads-right"><a id="p_lt_ctl07_BannerRotatorRightHanger_lnkBanner" class="CMSBanner Banner" href="http://www.cesweb.org" onclick="this.href=&#39;/CMSModules/BannerManagement/CMSPages/BannerRedirect.ashx?bannerID=36&#39;;" onmouseup="this.href=&#39;/CMSModules/BannerManagement/CMSPages/BannerRedirect.ashx?bannerID=36&#39;;"><img id="p_lt_ctl07_BannerRotatorRightHanger_imgBanner" src="/CES/media/2014/backgrounds/hanger_1.jpg" style="" /></a></div>
+    <div class="row">
+      <div id="main-content-area" class="col-lg-60 page-area">
+
+<section>
+    <div class="container clearfix above">
+      <div class="one-sixth-leftnav">
+        <div class="leftnav">
+            <ul><li><a href="/Conference/Become-a-Speaker">Become a CES Speaker</a></ul>
+
+        </div>
+        <a id="p_lt_ctl08_pageplaceholder_p_lt_ctl01_BannerRotator_lnkBanner" class="CMSBanner Banner" href="http://www.cesweb.org/register" onclick="this.href=&#39;/CMSModules/BannerManagement/CMSPages/BannerRedirect.ashx?bannerID=362&#39;;" onmouseup="this.href=&#39;/CMSModules/BannerManagement/CMSPages/BannerRedirect.ashx?bannerID=362&#39;;"><img id="p_lt_ctl08_pageplaceholder_p_lt_ctl01_BannerRotator_imgBanner" src="/CES/media/2014/advertisements/CESSTD_300x250.jpg" style="" /></a>
+      </div>
+      <div class="three-fourth">
+        <div class="body-content">
+            <h1>Julia Hu</h1>
+
+            <div class="breadcrumbs-article">
+                <ul class="breadcrumbs-left">
+                  <li><a id="p_lt_ctl08_pageplaceholder_p_lt_hypBChome" href="../../../../">Home</a></li>
+                   <li class="bread-div">|</li><li><a href="/Conference.aspx" class="CMSBreadCrumbsLink">Conference</a> 
+</li>                    
+                </ul>
+                <ul class="breadcrumbs-right">
+                  <li><span  class="st_sharethis_custom" displayText="ShareThis"><a >Share This</a></span></li>
+                  <li><a href="javascript:window.print()">Print This Page</a></li>
+                </ul>
+            </div>
+
+            
+
+            <div class="article-content-area">
+              
+               
+<h2>Julia Hu</h2>
+<h3>CEO and Founder<br />Lark Technologies</h3>
+<div style="float: left;">
+  <img src="/CES/media/2014/Conference/SpeakerHeadshots/Julia_Hu_Lark-Technologies.png?ext=.png" style="margin: 0px 15px 10px 0px; max-width: 275px;" alt="Julia Hu">
+</div>
+<div style="margin: 10px;">
+  Having been too often sleep deprived and dropping off exercise and diet regimens, Julia's goal is to make people happier and healthier as the CEO of Lark Technologies. She received her master's and bachelor's degrees at Stanford University and half of an MBA from the MIT Sloan (a dropout, but they were kind enough to make lark a case study). She was an entrepreneur in residence at Stanford's StartX incubator, and named Top Woman Entrepreneur Under 40 by Marie Claire Magazine.<br><br>Named Top 10 Most Innovative CE Companies in the World by Fast Company, Lark is a mobile and wireless technology company that uses behavior change to personally coach people to feel great.<br><br>Lark's latest product is a chat buddy that talks to you about your fitness, sleep, and nutrition goals. It's a friendly AI that understands your activity levels and offers helpful tips. Macworld named Lark their favorite HealthKit app, and many have called Lark their "friend", "buddy", and even "boyfriend/girlfriend".<br><a href="http://lark.com/"><br>Download lark >></a><br>
+</div>
+
+
+
+              
+            </div>
+        </div>
+      </div>
+    </div>
+</section></div>
+    </div>
+</div>
+    
+<section>
+    <div id="footer" class="clear-fix">
+        <div class="container">
+            <div class="doubleDashedHR"></div>
+            <div class="col-xs-60 col-xs-center col-sm-20">
+                <p class="copyright">
+	Copyright &copy; 2003 - 2015 CEA. All rights reserved.</p>
+
+            </div>
+            <div class="col-xs-60 col-xs-center col-sm-20 doubleDashedVR">
+                <ul>
+	<li>
+		<a href="/about-us">About Us </a></li>
+	<li>
+		<a href="/contact-us">Contact Us</a></li>
+	<li>
+		<a href="/partners">Partners</a></li>
+</ul>
+
+            </div>
+            <div class="col-xs-60 col-xs-center col-sm-20 doubleDashedVR">
+                <ul>
+	<li>
+		<a href="/privacy">Privacy</a></li>
+	<li>
+		<a href="/sitemap">Sitemap</a></li>
+</ul>
+<br /><div style="font-size: .8em; color: #FFF;"><span id="p_lt_ctl11_whatServer_serverName">WEB-IIS50</span></div>
+            </div>
+            <div class="col-xs-60 col-xs-center">
+                <script type="text/javascript">
+
+
+
+  var _gaq = _gaq || [];
+
+  _gaq.push(['_setAccount', 'UA-3975226-4']);
+
+  _gaq.push(['_trackPageview']);
+
+
+
+  (function() {
+
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+
+  })();
+
+
+
+</script>​
+            </div>
+        </div>
+    </div>
+</section>
+ 
+    
+    
+
+<script type="text/javascript">
+//<![CDATA[
+(function() {var fn = function() {$get("manScript_HiddenField").value = '';Sys.Application.remove_init(fn);};Sys.Application.add_init(fn);})();//]]>
+</script>
+  <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTEyMTY0MTExOTEPZBYCAgEPFgIeBmFjdGlvbgVpL0NvbmZlcmVuY2UvQ29uZmVyZW5jZS1UcmFja3MvVGVjaG5vbG9neS1MaWZlc3R5bGUvTElGRVNUMDFfV2hhdOKAmXMtTmV3LWluLVF1YW50aWZpZWQtU2VsZi9KdWxpYS1IdS5hc3B4FgICBQ9kFgJmDw8WBB4IQ3NzQ2xhc3MFD1BhZ2VQbGFjZWhvbGRlch4EXyFTQgICZBYCZg9kFgQCCw9kFgICAQ9kFgJmDw8WLh4bU2VwYXJhdG9yVHJhbnNmb3JtYXRpb25OYW1lZR4PTGV2ZWxDb2x1bW5OYW1lBQlOb2RlTGV2ZWweElRyYW5zZm9ybWF0aW9uTmFtZWUeDlNob3dFZGl0QnV0dG9uaB4WSGlkZUNvbnRyb2xGb3JaZXJvUm93c2geCUl0ZW1Db3VudAIJHhhGb290ZXJUcmFuc2Zvcm1hdGlvbk5hbWVlHhhIZWFkZXJUcmFuc2Zvcm1hdGlvbk5hbWVlHh1BbHRlcm5hdGluZ1RyYW5zZm9ybWF0aW9uTmFtZWUeEFNob3dEZWxldGVCdXR0b25oHgtfIUl0ZW1Db3VudAIJHh5IaWVyYXJjaGljYWxUcmFuc2Zvcm1hdGlvbk5hbWUFKmljZXMudHJhbnNmb3JtYXRpb25zLkljZXNfZHJvcF9tZW51X21vYmlsZR4NUGFnZXJQb3NpdGlvbgspcUNNUy5Db250cm9scy5QYWdpbmdQbGFjZVR5cGVFbnVtLCBDTVMuQ29udHJvbHMsIFZlcnNpb249OC4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj04MzRiMTJhMjU4ZjIxM2Y5AB4WTGFzdFRyYW5zZm9ybWF0aW9uTmFtZWUeC18hRGF0YUJvdW5kZx4SUGFyZW50SURDb2x1bW5OYW1lBQxOb2RlUGFyZW50SUQeFExvYWRIaWVyYXJjaGljYWxEYXRhZx4XRmlyc3RUcmFuc2Zvcm1hdGlvbk5hbWVlHgxaZXJvUm93c1RleHQFDU5vIGRhdGEgZm91bmQeFlJlc29sdmVEeW5hbWljQ29udHJvbHNnHhhTaW5nbGVUcmFuc2Zvcm1hdGlvbk5hbWVlHhdVc2VIaWVyYXJjaGljYWxPcmRlcmluZ2ceDElEQ29sdW1uTmFtZQUGTm9kZUlEZBYCZg8PFg4eCFBhZ2VTaXplAgoeDlF1ZXJ5U3RyaW5nS2V5BQRQYWdlHglQYWdlck1vZGULKWpDTVMuQ29udHJvbHMuVW5pUGFnZXJNb2RlLCBDTVMuQ29udHJvbHMsIFZlcnNpb249OC4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj04MzRiMTJhMjU4ZjIxM2Y5AB4JR3JvdXBTaXplAgoeHURpc3BsYXlGaXJzdExhc3RBdXRvbWF0aWNhbGx5aB4gRGlzcGxheVByZXZpb3VzTmV4dEF1dG9tYXRpY2FsbHloHgdFbmFibGVkaGRkAhEPZBYCZg9kFgICAg9kFgJmDw8WBB8BBQ9QYWdlUGxhY2Vob2xkZXIfAgICZBYCZg9kFgoCAQ9kFgJmD2QWAmYPFgIeBFRleHQFTDx1bD48bGk+PGEgaHJlZj0iL0NvbmZlcmVuY2UvQmVjb21lLWEtU3BlYWtlciI+QmVjb21lIGEgQ0VTIFNwZWFrZXI8L2E+PC91bD5kAgMPZBYCZg8PFgIeCEJhbm5lcklEAuoCZBYCZg8PFgYfAQUQQ01TQmFubmVyIEJhbm5lch8CAgIeB1Zpc2libGVnFgYeBGhyZWYFHmh0dHA6Ly93d3cuY2Vzd2ViLm9yZy9yZWdpc3Rlch4Hb25jbGljawVTdGhpcy5ocmVmPScvQ01TTW9kdWxlcy9CYW5uZXJNYW5hZ2VtZW50L0NNU1BhZ2VzL0Jhbm5lclJlZGlyZWN0LmFzaHg/YmFubmVySUQ9MzYyJzseCW9ubW91c2V1cAVTdGhpcy5ocmVmPScvQ01TTW9kdWxlcy9CYW5uZXJNYW5hZ2VtZW50L0NNU1BhZ2VzL0Jhbm5lclJlZGlyZWN0LmFzaHg/YmFubmVySUQ9MzYyJzsWAgIBDw8WDB4NQWx0ZXJuYXRlVGV4dGUeB1Rvb2xUaXBlHwFlHghJbWFnZVVybAUxL0NFUy9tZWRpYS8yMDE0L2FkdmVydGlzZW1lbnRzL0NFU1NURF8zMDB4MjUwLmpwZx8CAgIfI2cWAh4Fc3R5bGVlZAIFD2QWBGYPDxYCHyNoZGQCAQ9kFgJmDxYCHyEFETxoMT5KdWxpYSBIdTwvaDE+ZAILD2QWBGYPDxYCHyNoZGQCAQ8PFgIfI2hkZAIPD2QWDgIBDw8WAh8jaGQWAgICDxYUHhBOZXN0ZWRDb250cm9sc0lEZR8FBR9ldmVudC5jb25mZXJlbmNldHJhY2suaWNlc3RyYWNrHwZoHw1mHwxoHwdnHg5EYXRhU291cmNlTmFtZWUfFQUNTm8gZGF0YSBmb3VuZB8LZR4MRW5hYmxlUGFnaW5naGQCAg8PFgIfI2hkZAIDDw8WAh8jaGRkAgQPDxYCHyNoZGQCBQ8PFgIfI2hkZAIGDw8WAh8jaGRkAgcPZBYCAgIPFhQfK2UfBQUic2Vzc2lvbi5zcGVha2VyLmljZXNpbnZpdGVkc3BlYWtlch8GaB8NAgEfDGgfB2cfLGUfFQUNTm8gZGF0YSBmb3VuZB8LZR8taBYCZg9kFgJmD2QWAmYPFQYISnVsaWEgSHUPQ0VPIGFuZCBGb3VuZGVyEUxhcmsgVGVjaG5vbG9naWVzUy9DRVMvbWVkaWEvMjAxNC9Db25mZXJlbmNlL1NwZWFrZXJIZWFkc2hvdHMvSnVsaWFfSHVfTGFyay1UZWNobm9sb2dpZXMucG5nP2V4dD0ucG5nCEp1bGlhIEh1pghIYXZpbmcgYmVlbiB0b28gb2Z0ZW4gc2xlZXAgZGVwcml2ZWQgYW5kIGRyb3BwaW5nIG9mZiBleGVyY2lzZSBhbmQgZGlldCByZWdpbWVucywgSnVsaWEncyBnb2FsIGlzIHRvIG1ha2UgcGVvcGxlIGhhcHBpZXIgYW5kIGhlYWx0aGllciBhcyB0aGUgQ0VPIG9mIExhcmsgVGVjaG5vbG9naWVzLiBTaGUgcmVjZWl2ZWQgaGVyIG1hc3RlcidzIGFuZCBiYWNoZWxvcidzIGRlZ3JlZXMgYXQgU3RhbmZvcmQgVW5pdmVyc2l0eSBhbmQgaGFsZiBvZiBhbiBNQkEgZnJvbSB0aGUgTUlUIFNsb2FuIChhIGRyb3BvdXQsIGJ1dCB0aGV5IHdlcmUga2luZCBlbm91Z2ggdG8gbWFrZSBsYXJrIGEgY2FzZSBzdHVkeSkuIFNoZSB3YXMgYW4gZW50cmVwcmVuZXVyIGluIHJlc2lkZW5jZSBhdCBTdGFuZm9yZCdzIFN0YXJ0WCBpbmN1YmF0b3IsIGFuZCBuYW1lZCBUb3AgV29tYW4gRW50cmVwcmVuZXVyIFVuZGVyIDQwIGJ5IE1hcmllIENsYWlyZSBNYWdhemluZS48YnI+PGJyPk5hbWVkIFRvcCAxMCBNb3N0IElubm92YXRpdmUgQ0UgQ29tcGFuaWVzIGluIHRoZSBXb3JsZCBieSBGYXN0IENvbXBhbnksIExhcmsgaXMgYSBtb2JpbGUgYW5kIHdpcmVsZXNzIHRlY2hub2xvZ3kgY29tcGFueSB0aGF0IHVzZXMgYmVoYXZpb3IgY2hhbmdlIHRvIHBlcnNvbmFsbHkgY29hY2ggcGVvcGxlIHRvIGZlZWwgZ3JlYXQuPGJyPjxicj5MYXJrJ3MgbGF0ZXN0IHByb2R1Y3QgaXMgYSBjaGF0IGJ1ZGR5IHRoYXQgdGFsa3MgdG8geW91IGFib3V0IHlvdXIgZml0bmVzcywgc2xlZXAsIGFuZCBudXRyaXRpb24gZ29hbHMuIEl0J3MgYSBmcmllbmRseSBBSSB0aGF0IHVuZGVyc3RhbmRzIHlvdXIgYWN0aXZpdHkgbGV2ZWxzIGFuZCBvZmZlcnMgaGVscGZ1bCB0aXBzLiBNYWN3b3JsZCBuYW1lZCBMYXJrIHRoZWlyIGZhdm9yaXRlIEhlYWx0aEtpdCBhcHAsIGFuZCBtYW55IGhhdmUgY2FsbGVkIExhcmsgdGhlaXIgImZyaWVuZCIsICJidWRkeSIsIGFuZCBldmVuICJib3lmcmllbmQvZ2lybGZyaWVuZCIuPGJyPjxhIGhyZWY9Imh0dHA6Ly9sYXJrLmNvbS8iPjxicj5Eb3dubG9hZCBsYXJrID4+PC9hPjxicj5kZCvOGg77lCVT2PNm5gkTAzLLxEXi0slSGO8Ig6pD391Q" />
+  <script type="text/javascript"> 
+      //<![CDATA[
+      if (window.WebForm_InitCallback) { 
+        __theFormPostData = '';
+        __theFormPostCollection = new Array();
+        window.WebForm_InitCallback(); 
+      }
+      //]]>
+    </script>
+  </form>
+</body>
+</html>
