@@ -1,0 +1,124 @@
+
+
+<SCRIPT language="javascript1.2">
+function newWin(urlString,pgNum)
+  {
+    var popupWindow;
+	urlString += "?pageID=" + pgNum;
+	
+    popupWindow = window.open(urlString,"","toolbar=yes,menubar=no,resizable=no,status=no,scrollbars=yes,location=no,directories=no,copyhistory=no,height=550,width=610,left=50,top=50");
+  }//  function for opening a new pop-up window for printing a page
+  
+ 
+function openNewWindow(strURL) {
+	window.name = "main";
+	
+	var newWindow = window.open(strURL,"newWindow", "toolbar=no,menubar=no,resizable=no,status=no,scrollbars=yes,location=no,directories=no,copyhistory=no,height=400,width=450,left=50,top=50");
+} //  function for opening a new pop-up window
+
+// javascript for e-mail this page tool - gets the url of the page the user is on before the e-mail page tool button is clicked
+	
+	function loadReferrer() {
+		referrerString = opener.document.location.href;
+		document.emailForm.page.value = referrerString;
+	}
+
+</SCRIPT>
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+	<title>2012 International CES:&nbsp;Locate Exhibitor</title>
+	
+	<script language="Javascript">
+		function setExhibitorInfo(exhibitorName, exhibitorID, exhibitorBooths){
+		if(opener){			
+			window.opener.document.forms["form_login"].ExhibitorNameText.value = exhibitorName;	
+			window.opener.document.forms["form_login"].ExhibitorName.value = exhibitorName;
+			window.opener.document.forms["form_login"].ExhibitorID.value = exhibitorID;
+			window.opener.document.forms["form_login"].TIMMS_ID.disabled=false;
+			window.opener.document.forms["form_login"].submit1.disabled=false;
+			window.opener.document.forms["form_login"].forgot_password_button.disabled=false;
+			window.opener.document.forms["form_login"].TIMMS_ID.focus();
+											
+			window.close();		
+		}
+	}
+	</script>
+	<style type="text/css">
+	BODY
+	{
+    margin:0px 0px 0px 0px;
+	}
+	td
+	{
+    font-family:Arial, Helvetica, Sans-Serif;
+    font-size:9pt;
+    line-height:16px;
+    color:#3a3a3a;    
+	}
+	</style>
+</head>
+
+<BODY>
+
+<IMG SRC="../../images/eims_banner.jpg" width="439" BORDER="0">
+
+<table cellpadding="10" width="100%">
+<tr><td>
+
+<table cellspacing="2" cellpadding="0" border="0" width="100%">
+<tr>
+<table width='100%' cellspacing='0' cellpadding='0' border='0'><tr><td colspan='2'><b>Records 151 - 165 of 522</b></td></tr><tr><td colspan='2' height='10'></td></tr><tr><td colspan='2'>
+<table width='100%' border='0' cellspacing='0' cellpadding='0'><tr><td><font class='resultPageNumbers'>
+<a href="eims_exhibitor_find.asp?ClauseType=1&SearchString=s&page=10">&lt;&lt;</a>&nbsp;|&nbsp;11&nbsp;
+|&nbsp;<a href="eims_exhibitor_find.asp?ClauseType=1&SearchString=s&page=12">12</a>&nbsp;
+|&nbsp;<a href="eims_exhibitor_find.asp?ClauseType=1&SearchString=s&page=13">13</a>&nbsp;
+|&nbsp;<a href="eims_exhibitor_find.asp?ClauseType=1&SearchString=s&page=14">14</a>&nbsp;
+|&nbsp;<a href="eims_exhibitor_find.asp?ClauseType=1&SearchString=s&page=15">15</a>&nbsp;
+|&nbsp;<a href="eims_exhibitor_find.asp?ClauseType=1&SearchString=s&page=16">16</a>&nbsp;
+|&nbsp;<a href="eims_exhibitor_find.asp?ClauseType=1&SearchString=s&page=17">17</a>&nbsp;
+|&nbsp;<a href="eims_exhibitor_find.asp?ClauseType=1&SearchString=s&page=18">18</a>&nbsp;
+|&nbsp;<a href="eims_exhibitor_find.asp?ClauseType=1&SearchString=s&page=19">19</a>&nbsp;
+|&nbsp;<a href="eims_exhibitor_find.asp?ClauseType=1&SearchString=s&page=20">20</a>&nbsp;
+|&nbsp;<a href="eims_exhibitor_find.asp?ClauseType=1&SearchString=s&page=21">&gt;&gt;&nbsp;</a></font></td><td align='right'><font class='resultPageNumbers'><a href="eims_exhibitor_find.asp?ClauseType=1&SearchString=s&page=10">Previous</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="eims_exhibitor_find.asp?ClauseType=1&SearchString=s&page=12">Next</a>&nbsp;&nbsp;&nbsp;</font></td></tr></table>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  </td></tr>
+<tr><td colspan='2' height='10'></td></tr>
+<tr><td width='20%' class='tablehead'><font class='subhead'>&nbsp;#</font></td><td width='80%' class='tablehead'><font class='subhead'>Exhibitor Name</font></td></tr><TR><TD colSpan=2 height=10></TD></TR>
+<tr class='shadow'><td height='20'>&nbsp;&nbsp;151.</td><td><a href="javascript:setExhibitorInfo('Shenzhen Dong Xi Industry Co., Ltd                ', '14798', '')">Shenzhen Dong Xi Industry Co., Ltd                </a></td></tr><tr>
+<tr><td height='20'>&nbsp;&nbsp;152.</td><td><a href="javascript:setExhibitorInfo('Shenzhen Dynamic8 Technology Co., Ltd             ', '15355', '')">Shenzhen Dynamic8 Technology Co., Ltd             </a></td></tr><tr>
+<tr class='shadow'><td height='20'>&nbsp;&nbsp;153.</td><td><a href="javascript:setExhibitorInfo('Shenzhen E-Tek Co., Ltd.                          ', '14538', '')">Shenzhen E-Tek Co., Ltd.                          </a></td></tr><tr>
+<tr><td height='20'>&nbsp;&nbsp;154.</td><td><a href="javascript:setExhibitorInfo('Shenzhen East-Toptech Electronic Tech. Co. Ltd.   ', '10988', '')">Shenzhen East-Toptech Electronic Tech. Co. Ltd.   </a></td></tr><tr>
+<tr class='shadow'><td height='20'>&nbsp;&nbsp;155.</td><td><a href="javascript:setExhibitorInfo('Shenzhen Elite Electronic Co. Ltd.                ', '7064', '')">Shenzhen Elite Electronic Co. Ltd.                </a></td></tr><tr>
+<tr><td height='20'>&nbsp;&nbsp;156.</td><td><a href="javascript:setExhibitorInfo('Shenzhen Ereiter Electronics Technology Co.,Ltd   ', '14221', '')">Shenzhen Ereiter Electronics Technology Co.,Ltd   </a></td></tr><tr>
+<tr class='shadow'><td height='20'>&nbsp;&nbsp;157.</td><td><a href="javascript:setExhibitorInfo('Shenzhen Etek R&D Co., Ltd                        ', '14983', '')">Shenzhen Etek R&amp;D Co., Ltd                        </a></td></tr><tr>
+<tr><td height='20'>&nbsp;&nbsp;158.</td><td><a href="javascript:setExhibitorInfo('Shenzhen Everbest Machinery Industry Co., Ltd     ', '15567', '')">Shenzhen Everbest Machinery Industry Co., Ltd     </a></td></tr><tr>
+<tr class='shadow'><td height='20'>&nbsp;&nbsp;159.</td><td><a href="javascript:setExhibitorInfo('Shenzhen Evik Electronic Co., Ltd                 ', '15490', '')">Shenzhen Evik Electronic Co., Ltd                 </a></td></tr><tr>
+<tr><td height='20'>&nbsp;&nbsp;160.</td><td><a href="javascript:setExhibitorInfo('Shenzhen Fancy Package & Manufactory Co., Ltd.    ', '16612', '')">Shenzhen Fancy Package &amp; Manufactory Co., Ltd.    </a></td></tr><tr>
+<tr class='shadow'><td height='20'>&nbsp;&nbsp;161.</td><td><a href="javascript:setExhibitorInfo('Shenzhen Fekko Industrial Co., Ltd.               ', '15617', '')">Shenzhen Fekko Industrial Co., Ltd.               </a></td></tr><tr>
+<tr><td height='20'>&nbsp;&nbsp;162.</td><td><a href="javascript:setExhibitorInfo('Shenzhen Fenda Technology Co., Ltd                ', '15158', '')">Shenzhen Fenda Technology Co., Ltd                </a></td></tr><tr>
+<tr class='shadow'><td height='20'>&nbsp;&nbsp;163.</td><td><a href="javascript:setExhibitorInfo('Shenzhen First Union Technology Co.,Ltd           ', '14436', '')">Shenzhen First Union Technology Co.,Ltd           </a></td></tr><tr>
+<tr><td height='20'>&nbsp;&nbsp;164.</td><td><a href="javascript:setExhibitorInfo('Shenzhen Firstview Electronic Co.,Ltd             ', '11017', '')">Shenzhen Firstview Electronic Co.,Ltd             </a></td></tr><tr>
+<tr class='shadow'><td height='20'>&nbsp;&nbsp;165.</td><td><a href="javascript:setExhibitorInfo('Shenzhen Flastar Technology Co., Ltd              ', '15297', '')">Shenzhen Flastar Technology Co., Ltd              </a></td></tr><tr>
+<tr><td colspan='2' height='20'></td></tr>
+<tr><td colspan='2' align='middle'></td></tr><tr><td colspan='2'><table width='100%' border='0' cellspacing='0' cellpadding='0'><tr><td><font class='resultPageNumbers'>
+<a href="eims_exhibitor_find.asp?ClauseType=1&SearchString=s&page=10">&lt;&lt;</a>&nbsp;|&nbsp;11&nbsp;
+|&nbsp;<a href="eims_exhibitor_find.asp?ClauseType=1&SearchString=s&page=12">12</a>&nbsp;
+|&nbsp;<a href="eims_exhibitor_find.asp?ClauseType=1&SearchString=s&page=13">13</a>&nbsp;
+|&nbsp;<a href="eims_exhibitor_find.asp?ClauseType=1&SearchString=s&page=14">14</a>&nbsp;
+|&nbsp;<a href="eims_exhibitor_find.asp?ClauseType=1&SearchString=s&page=15">15</a>&nbsp;
+|&nbsp;<a href="eims_exhibitor_find.asp?ClauseType=1&SearchString=s&page=16">16</a>&nbsp;
+|&nbsp;<a href="eims_exhibitor_find.asp?ClauseType=1&SearchString=s&page=17">17</a>&nbsp;
+|&nbsp;<a href="eims_exhibitor_find.asp?ClauseType=1&SearchString=s&page=18">18</a>&nbsp;
+|&nbsp;<a href="eims_exhibitor_find.asp?ClauseType=1&SearchString=s&page=19">19</a>&nbsp;
+|&nbsp;<a href="eims_exhibitor_find.asp?ClauseType=1&SearchString=s&page=20">20</a>&nbsp;
+|&nbsp;<a href="eims_exhibitor_find.asp?ClauseType=1&SearchString=s&page=21">&gt;&gt;&nbsp;</a></font></td><td align='right'><font class='resultPageNumbers'><a href="eims_exhibitor_find.asp?ClauseType=1&SearchString=s&page=10">Previous</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="eims_exhibitor_find.asp?ClauseType=1&SearchString=s&page=12">Next</a>&nbsp;&nbsp;&nbsp;</font></td></tr></table>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  </td></tr>
+<tr><td colspan='2' height='20'></td></tr>
+<form><tr><td colspan='2' align='middle'><input type='button' class='formData' name='btnNewSearch' value='New Search' onClick="window.location='default.asp';"></td></tr></form>
+</table>
+</tr>
+</table>
+
+</td></tr>
+</table>
+</body>
+</html>

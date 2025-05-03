@@ -1,0 +1,1556 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><!-- PageID 1338 - published by Open Text Web Solutions 10.1 - 10.1.1.334 - 29635 -->
+    <!-- force IE7 compatibility mode -->
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+    <title>2012 CES: News Feed</title>
+
+    
+<link type="text/css" rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" />
+
+
+
+<link type="text/css" rel="stylesheet" href="/css/styles.css" />
+
+<link type="text/css" rel="stylesheet" href="/css/HPtemplate_css.css" />
+
+<link type="text/css" rel="stylesheet" href="/css/pyxl_home.css" />
+
+<link type="text/css" rel="stylesheet" href="/css/sub_page.css" />
+
+
+
+
+<!--[if IE 6]>
+<link href="http://www.cesweb.org/css/ie6only_css-int.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+
+
+
+<script type="text/javascript" src="/utilities/mainNav.js"></script>
+
+<script type="text/javascript" src="/utilities/rollOver.js"></script>
+
+<script type="text/javascript" src="/utilities/sub_page.js"></script>
+
+
+
+
+
+    <script type="text/javascript" src="/conferenceProgram/resources/displayCart.js"></script>
+
+    <script language="javascript" src="/utilities/flashDetect.js" type="text/javascript"></script>
+    <script language="javascript" src="/utilities/emailPage.js" type="text/javascript"></script>
+
+    <script>
+        function initMenu() {
+          $('#menu ul').hide();
+          $('#menu li a').hover(
+            function() {
+              var checkElement = $(this).next();
+              if((checkElement.is('ul')) && (checkElement.is(':visible'))) {
+                return false;
+                }
+              if((checkElement.is('ul')) && (!checkElement.is(':visible'))) {
+                $('#menu ul:visible').slideUp('normal');
+                checkElement.slideDown('normal');
+                return false;
+                }
+              }
+            );
+          }
+        $(document).ready(function() {initMenu();});
+    </script>
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-3975226-4']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+</head>
+<body class="home" id="home">
+    
+    
+    <div id="newwrap">
+        <div id="container">
+            <div id="content-container">
+                <div id="header">
+    <div id="logo">
+        <a href="/default.htm"><img src="http://content.ce.org/2012CES/framework/cesweb_headerlogo.png" border=0></a>
+    </div>
+    <div id="headTop">
+<div id="topsearch"> 
+                <!-- Pyxl ADD search from below-->
+        <form action="http://googlebox.ce.org/search?" method="GET" name="searchCES">
+            <input type="hidden" id="Hidden1" value="default_collection" name="site">
+            <input type="hidden" id="Hidden2" value="2011CESweb" name="client">
+            <input type="hidden" id="Hidden3" value="2011CESweb" name="proxystylesheet">
+            <input type="hidden" id="Hidden4" value="xml_no_dtd" name="output">
+            <!-- Pyxl Alter Search value to "Search"  -->    
+<input type="text" onfocus="if(this.value=='Search') this.value='';" onblur="if(this.value=='') this.value='Search';" value="Search" class="searchbox" name="q"><input type="submit" onclick="document.searchCES.submit();" class="searchbutton" value="">
+        </form>
+<!--<A href="http://www.cesweb.org/cesgreening.asp"><img src="http://www.cesweb.org/hp/images/ces-green.jpg" border="0" valign=top ></A>-->
+</div>
+   <!-- <div id="topimages">
+        <img src="http://www.cesweb.org/hp/images/divider.jpg" class="divider"/>
+         <a href=http://www.cesweb.org/socialcircle target="_blank"><img src="http://www.cesweb.org/hp/images/socialcircle.png" alt="Social Circle" /></a>
+&nbsp;&nbsp;&nbsp;&nbsp;
+            </div>-->
+                
+</div>
+  
+    <div class="clr"></div>
+
+    <div id="ctacontainer">
+        <div id="showdate"><img src="http://content.ce.org/2012CES/framework/CESweb_headerdate.png" border=0></div>
+        <div id="register"><a href="/register" title="Register for CES" target=_blank><img src="http://content.ce.org/2012CES/framework/cesweb_register1.png" border=0 alt="Register" name="cesweb_register" onMouseOver="over(8)" onMouseOut="out(8)" /></a></div>
+        <div id="exhibit"> <a href="/exhibitors/space/default.asp" title="Exhibit at CES"><img src="http://content.ce.org/2012CES/framework/cesweb_exhibit1.png" border=0 alt="Exhibit at CES" name="cesweb_exhibit" onMouseOver="over(9)" onMouseOut="out(9)" /></a></div>
+    </div>
+</div>
+                <div id="nav-bar">
+                    
+    <ul>
+        <li class="dd-exhibitor"><a onmouseover="showDropDown('exhibitor','show')" onmouseout="setMenuTimer()" href="http://ces12.mapyourshow.com/"><img src="/images/framework/cesweb_menu_exhibitor1.png" alt="Exhibitor Directory" name="cesweb_menu_exhibitor" onMouseOver="over(0)" onMouseOut="out(0)" /></a></li>
+        <li class="dd-sessions"><a onmouseover="showDropDown('sessions','show')" onmouseout="setMenuTimer()" href="/conferenceProgram/default.asp"><img src="/images/framework/cesweb_menu_conference1.png" alt="Conference Programs" name="cesweb_menu_conference" onMouseOver="over(1)" onMouseOut="out(1)"/></a></li>
+        <li class="dd-events"><a onmouseover="showDropDown('events','show')" onmouseout="setMenuTimer()" href="/events/default.asp"><img src="/images/framework/cesweb_menu_events1.png" alt="Events" name="cesweb_menu_events" onMouseOver="over(2)" onMouseOut="out(2)"/></a></li>
+        <li class="dd-awards"><a onmouseover="showDropDown('awards','show')" onmouseout="setMenuTimer()" href="/awards/default.asp"><img src="/images/framework/cesweb_menu_awards1.png" alt="Awards" name="cesweb_menu_awards" onMouseOver="over(3)" onMouseOut="out(3)"/></a></li>
+        <li class="dd-exhibits"><a onmouseover="showDropDown('exhibits','show')" onmouseout="setMenuTimer()" href="/showFloor/default.asp"><img src="/images/framework/cesweb_menu_showfloor1.png" alt="Exhibits" name="cesweb_menu_showfloor" onMouseOver="over(4)" onMouseOut="out(4)"/></a></li>
+        <li class="dd-hotel"><a onmouseover="showDropDown('hotel','show')" onmouseout="setMenuTimer()" href="/hotelTravel/default.asp"><img src="/images/framework/cesweb_menu_hoteltravel1.png" alt="Hotel Info" name="cesweb_menu_hoteltravel" onMouseOver="over(5)" onMouseOut="out(5)"/></a></li>
+        <li class="dd-news"><a onmouseover="showDropDown('news','show')" onmouseout="setMenuTimer()" href="/news/default.asp"> <img src="/images/framework/cesweb_menu_news1.png" alt="News" name="cesweb_menu_news" onMouseOver="over(6)" onMouseOut="out(6)"/></a></li>
+        <!-- <li class="dd-international"><a onmouseover="showDropDown('international','show')" onmouseout="setMenuTimer()" href=""><img src="/images/framework/mainnav_international.gif" /></a></li> -->
+        <li class="dd-faqs"><a onmouseover="showDropDown('faqs','show')" onmouseout="setMenuTimer()" href="/faq/default.asp"><img src="/images/framework/cesweb_menu_faq1.png" alt="FAQs" name="cesweb_menu_faq" onMouseOver="over(7)" onMouseOut="out(7)" /></a></li>
+    </ul>
+    <ul id="sub-exhibitor" class="subnav" style="display: none;" onmouseout="setMenuTimer()">
+        <li onmouseover="showDropDown('exhibitor','show')" class="top"><a href="http://ces12.mapyourshow.com/" class="sublink"><!--<img src="/images/framework/secondarynav_exhibitor.gif" />--></a></li>
+
+    <li class="bottom"></li>
+</ul>
+<ul id="sub-sessions" class="subnav" style="display: none;" onmouseout="setMenuTimer()">
+    <li onmouseover="showDropDown('sessions','show')" class="top"><a href="/conferenceProgram/default.asp" class="sublink"><!--<img src="/images/framework/secondarynav_sessions.gif" />--></a></li>
+
+                    <li onmouseover="showDropDown('sessions','show')" class="first_link"><a href="/conferenceProgram/conference-tracks.asp">Conference Tracks</a></li>
+                
+                    <li onmouseover="showDropDown('sessions','show')" class="link"><a href="/conferenceProgram/sessions.htm">Session Schedule</a></li>
+                
+                    <li onmouseover="showDropDown('sessions','show')" class="link"><a href="/conferenceProgram/SuperSessions.asp">SuperSessions</a></li>
+                
+                    <li onmouseover="showDropDown('sessions','show')" class="link"><a href="/conferenceProgram/conference-pricing.asp">Conference Pricing</a></li>
+                
+                    <li onmouseover="showDropDown('sessions','show')" class="link"><a href="/conferenceProgram/speaker-directory.htm">Speaker Directory</a></li>
+                
+                    <li onmouseover="showDropDown('sessions','show')" class="link"><a href="/conferenceProgram/speakers/speakerServices.asp">Speaker Services</a></li>
+                
+                    <li onmouseover="showDropDown('sessions','show'); showSubMenu('sessions317','show')" class="link_with_children"><a href="/conferenceProgram/speakers/default.asp">Call for Speakers</a>
+                
+            <ul id="sub-sub-sessions317" style="display: none;" onmouseout="setSubMenuTimer()">
+        
+                    <li onmouseover="showSubMenu('sessions317','show')"><a href="/conferenceProgram/speakers/cfsFAQ.asp">Submission FAQs</a></li>
+                
+            </ul></li>
+        
+    <li class="bottom">&nbsp;</li>
+</ul>
+<ul id="sub-events" class="subnav" style="display: none;" onmouseout="setMenuTimer()">
+    <li onmouseover="showDropDown('events','show')" class="top"><a href="/events/default.asp" class="sublink"><!-- <img src="/images/framework/secondarynav_events.gif" />--></a></li>
+
+                    <li onmouseover="showDropDown('events','show')" class="first_link"><a href="/events/keynotes.asp">Keynotes</a></li>
+                
+                    <li onmouseover="showDropDown('events','show')" class="link"><a href="/events/last-gadget-standing.asp">Last Gadget Standing</a></li>
+                
+                    <li onmouseover="showDropDown('events','show')" class="link"><a href="/events/mobile-apps.asp">Mobile Apps Showdown</a></li>
+                
+                    <li onmouseover="showDropDown('events','show')" class="link"><a href="/events/mark-of-excellence.htm">Mark of Excellence Awards Reception</a></li>
+                
+                    <li onmouseover="showDropDown('events','show')" class="link"><a href="/events/devu.asp">Developer University</a></li>
+                
+                    <li onmouseover="showDropDown('events','show')" class="link"><a href="/events/ESPN-events.htm">ESPN 3D Events</a></li>
+                
+                    <li onmouseover="showDropDown('events','show')" class="link"><a href="/events/mashable-awards.asp">MashBash</a></li>
+                
+                    <li onmouseover="showDropDown('events','show')" class="link"><a href="/events/tao-htm.htm">TAO : The Official CES Closing Party</a></li>
+                
+                    <li onmouseover="showDropDown('events','show')" class="link"><a href="/events/CES-Tweetup.asp">CES Tweetup </a></li>
+                
+                    <li onmouseover="showDropDown('events','show')" class="link"><a href="/events/celebrities.htm">Celebrities at 2012 CES</a></li>
+                
+                    <li onmouseover="showDropDown('events','show')" class="link"><a href="/events/CEA-events.asp">CEA Events</a></li>
+                
+    <li class="bottom"></li>
+</ul>
+<ul id="sub-awards" class="subnav" style="display: none;" onmouseout="setMenuTimer()">
+    <li onmouseover="showDropDown('awards','show')" class="top"><a href="/awards/default.asp" class="sublink"><!-- <img src="/images/framework/secondarynav_awards.gif" />--></a></li>
+
+                    <li onmouseover="showDropDown('awards','show'); showSubMenu('awards308','show')" class="first_link_with_children"><a href="/awards/innovations/default.asp">CES Innovations Awards</a>
+                
+            <ul id="sub-sub-awards308" style="display: none;" onmouseout="setSubMenuTimer()">
+        
+                    <li onmouseover="showSubMenu('awards308','show')"><a href="/awards/innovations/2012-innovations-honorees.htm">2012 Innovations Honorees</a></li>
+                
+                    <li onmouseover="showSubMenu('awards308','show')"><a href="/awards/innovations/2012-judges.htm">2012 Innovations Judges</a></li>
+                
+                    <li onmouseover="showSubMenu('awards308','show')"><a href="/awards/innovations/about.asp">About Innovations</a></li>
+                
+                    <li onmouseover="showSubMenu('awards308','show')"><a href="/awards/innovations/categories.asp">Awards Categories</a></li>
+                
+                    <li onmouseover="showSubMenu('awards308','show')"><a href="/awards/innovations/callForEntries.asp">Call for Entries</a></li>
+                
+                    <li onmouseover="showSubMenu('awards308','show')"><a href="/awards/innovations/callForJudges.asp">Call for Judges</a></li>
+                
+            </ul></li>
+        
+                    <li onmouseover="showDropDown('awards','show')" class="link"><a href="/awards/bestOfCES.asp">CNET Best of CES</a></li>
+                
+                    <li onmouseover="showDropDown('awards','show')" class="link"><a href="/awards/techEmmys.asp">Tech & Engineering Emmy Awards</a></li>
+                
+                    <li onmouseover="showDropDown('awards','show')" class="link"><a href="/awards/iawtv.asp">IAWTV Awards</a></li>
+                
+                    <li onmouseover="showDropDown('awards','show')" class="link"><a href="/awards/pmda-awards.asp">PMDA Awards</a></li>
+                
+                    <li onmouseover="showDropDown('awards','show')" class="link"><a href="/awards/hot-stuff.htm">CES Hot Stuff Awards</a></li>
+                
+                    <li onmouseover="showDropDown('awards','show')" class="link"><a href="/awards/CES-stars.htm">Stars of CES</a></li>
+                
+    <li class="bottom"></li>
+</ul>
+<ul id="sub-exhibits" class="subnav" style="display: none;" onmouseout="setMenuTimer()">
+    <li onmouseover="showDropDown('exhibits','show')" class="top"><a href="/showFloor/default.asp" class="sublink"><!-- <img src="/images/framework/secondarynav_exhibits.gif" /> --></a></li>
+
+                    <li onmouseover="showDropDown('exhibits','show')" class="first_link"><a href="/showFloor/by-hall.asp">By Exhibit Hall</a></li>
+                
+                    <li onmouseover="showDropDown('exhibits','show')" class="link"><a href="/showFloor/by-product.asp">By Product Category</a></li>
+                
+                    <li onmouseover="showDropDown('exhibits','show')" class="link"><a href="/showFloor/techzones.asp">CES TechZones</a></li>
+                
+                    <li onmouseover="showDropDown('exhibits','show')" class="link"><a href="/floor-plans/">Floor Plans</a></li>
+                
+                    <li onmouseover="showDropDown('exhibits','show')" class="link"><a href="http://www.cesweb.org/followme">CES Mobile App - Follow Me</a></li>
+                
+    <li onmouseover="showDropDown('exhibits','show')" class="bottom"></li>
+</ul>
+<ul id="sub-hotel" class="subnav" style="display: none;" onmouseout="setMenuTimer()">
+    <li onmouseover="showDropDown('hotel','show')" class="top"><a href="/hotelTravel/default.asp" class="sublink"><!-- <img src="/images/framework/secondarynav_hotel.gif" /> --></a></li>
+
+                    <li onmouseover="showDropDown('hotel','show'); showSubMenu('hotel2942','show')" class="first_link_with_children"><a href="/hotelTravel/hotel.asp">Hotel Reservations</a>
+                
+            <ul id="sub-sub-hotel2942" style="display: none;" onmouseout="setSubMenuTimer()">
+        
+                    <li onmouseover="showSubMenu('hotel2942','show')"><a href="/hotelTravel/blockRequest.asp">2012 CES Block Request Form</a></li>
+                
+            </ul></li>
+        
+                    <li onmouseover="showDropDown('hotel','show')" class="link"><a href="/hotelTravel/airlines.asp">Airline Discounts</a></li>
+                
+                    <li onmouseover="showDropDown('hotel','show')" class="link"><a href="/hotelTravel/shuttle.asp">CES Shuttle Service</a></li>
+                
+                    <li onmouseover="showDropDown('hotel','show')" class="link"><a href="/hotelTravel/monorail.asp">Las Vegas Monorail</a></li>
+                
+                    <li onmouseover="showDropDown('hotel','show')" class="link"><a href="/hotelTravel/cars.asp">Transportation, Parking and Car Rental</a></li>
+                
+                    <li onmouseover="showDropDown('hotel','show')" class="link"><a href="/hotelTravel/lasVegas.asp">Las Vegas Travel Tips</a></li>
+                
+    <li class="bottom"></li>
+</ul>
+<ul id="sub-news" class="subnav" style="display: none;" onmouseout="setMenuTimer()">
+    <li onmouseover="showDropDown('news','show')" class="top"><a href="/news/default.asp" class="sublink"><!-- <img src="/images/framework/secondarynav_news.gif" /> --></a></li>
+
+                    <li onmouseover="showDropDown('news','show')" class="first_link"><a href="/news/rssNews.asp">News Feed</a></li>
+                
+                    <li onmouseover="showDropDown('news','show')" class="link"><a href="/news/exhibitorNews.asp">Exhibitor Releases</a></li>
+                
+                    <li onmouseover="showDropDown('news','show')" class="link"><a href="/news/releases.asp">CES Press Releases</a></li>
+                
+                    <li onmouseover="showDropDown('news','show')" class="link"><a href="/news/coverage.asp">Media Coverage</a></li>
+                
+                    <li onmouseover="showDropDown('news','show')" class="link"><a href="/news/multimedia-gallery.asp">Multimedia Gallery</a></li>
+                
+                    <li onmouseover="showDropDown('news','show'); showSubMenu('news3990','show')" class="link_with_children"><a href="/news/newsletters.asp">Newsletters</a>
+                
+            <ul id="sub-sub-news3990" style="display: none;" onmouseout="setSubMenuTimer()">
+        
+                    <li onmouseover="showSubMenu('news3990','show')"><a href="/news/up-to-minute-default.asp">CES Up to the Minute</a></li>
+                
+                    <li onmouseover="showSubMenu('news3990','show')"><a href="http://www.cesweb.org/exhibitors/newsletter/default.asp">Exhibitor's Source Newsletter</a></li>
+                
+                    <li onmouseover="showSubMenu('news3990','show')"><a href="/news/exhibitorPRnl-Oct11.asp">Exhibitor PR Newsletter</a></li>
+                
+            </ul></li>
+        
+                    <li onmouseover="showDropDown('news','show')" class="link"><a href="http://www.cesweb.org/press/default.asp">Press Services</a></li>
+                
+    <li class="bottom"></li>
+</ul>
+<ul id="sub-faqs" class="subnav" style="display: none;" onmouseout="setMenuTimer()">
+    <li onmouseover="showDropDown('faqs','show')" class="top"><a href="/faq/default.asp" class="sublink"><!-- <img src="/images/framework/secondarynav_faqs.gif" /> --></a></li>
+
+                    <li onmouseover="showDropDown('faqs','show')" class="first_link"><a href="/faq/generalFAQs.asp">General</a></li>
+                
+                    <li onmouseover="showDropDown('faqs','show')" class="link"><a href="/faq/pressFAQs.asp">Press</a></li>
+                
+                    <li onmouseover="showDropDown('faqs','show')" class="link"><a href="/faq/exhibitorFAQs.asp">Exhibitor</a></li>
+                
+                    <li onmouseover="showDropDown('faqs','show')" class="link"><a href="/faq/speakerFAQs.asp">Speaker</a></li>
+                
+                    <li onmouseover="showDropDown('faqs','show'); showSubMenu('faqs2120','show')" class="link_with_children"><a href="/faq/venueFAQs.asp">FAQs by Venue</a>
+                
+            <ul id="sub-sub-faqs2120" style="display: none;" onmouseout="setSubMenuTimer()">
+        
+                    <li onmouseover="showSubMenu('faqs2120','show')"><a href="/exhibitors/LVCC-FAQs.asp">Las Vegas Convention Center</a></li>
+                
+                    <li onmouseover="showSubMenu('faqs2120','show')"><a href="/exhibitors/Venetian-FAQs.asp">The Venetian</a></li>
+                
+                    <li onmouseover="showSubMenu('faqs2120','show')"><a href="/exhibitors/Hilton-FAQs.asp">Las Vegas Hilton</a></li>
+                
+                    <li onmouseover="showSubMenu('faqs2120','show')"><a href="/exhibitors/Rennaissance-FAQs.asp">Renaissance Hotel</a></li>
+                
+            </ul></li>
+        
+                    <li onmouseover="showDropDown('faqs','show')" class="link"><a href="/faq/first-timer.htm">First-Timer ResourCES</a></li>
+                
+    <li class="bottom"></li>
+</ul>
+
+                </div>
+            </div>
+        </div>
+        <div id="container-home">
+            <div id="page-bottom">
+                <div id="main-content">
+                    
+                    <div id="main-content-header">
+                        <img src="/images/content/header_news.png">
+                    </div>
+                    
+                    <div class="left">
+                        <div class="greenbox-bg">
+                            <a href="/news/default.asp"><img src="/images/framework/Subnav_News.jpg"></a>
+                            <a href="/news/default.asp"><!-- <img src="/images/framework/sidebar-header-news.gif" alt="News"> --><ul>
+            <li class="selected"><a href="/news/rssNews.asp">News Feed</a></li>
+        
+            <li ><a href="/news/exhibitorNews.asp">Exhibitor Releases</a></li>
+        
+            <li ><a href="/news/releases.asp">CES Press Releases</a></li>
+        
+            <li ><a href="/news/coverage.asp">Media Coverage</a></li>
+        
+            <li ><a href="/news/multimedia-gallery.asp">Multimedia Gallery</a></li>
+        
+            <li ><a href="/news/newsletters.asp">Newsletters</a>
+        
+            </li>
+        
+            <li ><a href="http://www.cesweb.org/press/default.asp">Press Services</a></li>
+        </ul>
+                            <br />
+                        </div>
+                        <div style="display: none;">
+                            
+                        </div>
+                        <ul id="menu">
+    <li>
+    <a class="exhibits" href="/exhibitors/default.asp"></a>
+    <ul>
+        
+        <li><a href="/exhibitors/space/default.asp">Exhibit at CES</a></li>
+        
+        <li><a href="/exhibitors/cesSmartBooth/default.asp">Directory Listing</a></li>
+        
+        <li><a href="/exhibitors/sponsorships/default.asp">Promotional Opportunities</a></li>
+        
+        <li><a href="/exhibitors/showPlanning/default.asp">Show Planning/Exhibitor Manual</a></li>
+        
+        <li><a href="/exhibitors/deadlines.asp">Deadline Checklist</a></li>
+        
+        <li><a href="/exhibitors/register/default.asp">Register Staff/Buyers</a></li>
+        
+        <li><a href="/exhibitors/resources/default.asp">Resources</a></li>
+        
+        <li><a href="/exhibitors/pr/default.asp">PR Help</a></li>
+        
+        <li><a href="/exhibitors/newsletter/default.asp">Exhibitor's Source Newsletter</a></li>
+        
+    </ul>
+</li>
+    <li>
+    <a class="press" href="/press/default.asp"></a>
+    <ul>
+        
+        <li><a href="/press/events/default.asp">Press Events</a></li>
+        
+        <li><a href="/press/contacts/default.asp">Press Contacts</a></li>
+        
+        <li><a href="/press/services/default.asp">Press Services</a></li>
+        
+        <li><a href="/press/imageGallery/default.asp">Image Gallery</a></li>
+        
+        <li><a href="/news/default.asp">News</a></li>
+        
+    </ul>
+</li>
+    <li>
+    <a class="international" href="/international/default.asp"></a>
+    <ul>
+        
+        <li><a href="/international/travel.asp">Travel &amp; Visas</a></li>
+        
+        <li><a href="/international/delegations.asp">Delegation Group Program</a></li>
+        
+        <li><a href="/international/services.asp">International Services</a></li>
+        
+        <li><a href="/international/spanish.asp">Español</a></li>
+        
+        <li><a href="/international/french.asp">Français</a></li>
+        
+        <li><a href="/international/chinese.asp">汉语</a></li>
+        
+        <li><a href="/international/japanese.asp">日本語</a></li>
+        
+        <li><a href="/international/korean.asp">한국어 </a></li>
+        
+    </ul>
+</li>
+</ul>
+     
+                                                               
+                        <div id="connect-with-us">
+    <img src="/images/framework/cesweb_socialmediatab.png">
+    <div class="icon-wrap">
+        <a target="_blank" href="http://www.CESweb.org/twitter"><img src="/images/framework/sub_twitter.png" alt="Twitter"></a>
+        <a target="_blank" href="http://www.CESweb.org/Facebook"><img src="/images/framework/sub_facebook.png" alt="facebook"></a> 
+        <a target="_blank" href="http://www.cesweb.org/stumbleupon"><img src="/images/framework/sub_stumbleupon.png" alt="stumbleupon"></a> 
+        <a target="_blank" href="http://www.CESweb.org/flickr"><img src="/images/framework/sub_flickr.png" alt="flickr"></a> 
+        <a target="_blank" href="http://www.CESweb.org/youtube"><img src="/images/framework/sub_youtube.png" alt="youtube"></a> 
+        <a target="_blank" href="http://www.cesweb.org/linkedin"><img src="/images/framework/sub_linkedin.png" alt="linkedin"></a>
+        <a target="_blank" href="http://www.cesweb.org/news/rssNews.asp"><img src="/images/framework/sub_rss.png" alt="rss"></a>
+    </div>
+</div>
+                    </div>
+                    <div class="right">
+                        <div id="breadcrumb">
+                            <div><a href="/default.htm" class="footer">Home</a>&nbsp;&gt;&nbsp;<a href="/news/default.asp" class="footer">News</a>&nbsp;&gt;&nbsp;News Feed</div>
+                        </div>
+                         <div class="headerbox">
+                            <h1>News Feed</h1>
+                        </div><br />
+                        <div id="inner-content-long">
+                                                                   
+                            
+
+Receive late-breaking news from the International CES in your favorite RSS reader.
+<br>
+<br>
+<img src="/images/framework/rss.jpg" valign=middle>&nbsp;&nbsp;
+<!--/rssNews.xml-->
+<a href="http://feeds.cesweb.org/CESrss">Subscribe to the RSS feed.</a><br>
+
+<div id="pagination-area">
+    <div class="article">
+    
+    
+    <a name="6224"></a>
+    <img src="/images/photos/the_comeback.jpg">
+    <div class="article-content">
+        <div class="sub-content-header">Best-Selling Blueprint for Economic Recovery: The Comeback Now Available as Audio Book</div>
+        <span class="smallText">Jan 10, 2012 04:45:31</span>
+        
+        
+        <p>On the first day of the <a  href="http://www.cesweb.org">2012 International CES</a>, Consumer Electronics Association (CEA) President and CEO Gary Shapiro announced that his New York Times best-selling book, The Comeback: How Innovation Will Restore the American Dream, is now available in audio book format. The unabridged recording of The Comeback, narrated by Jack Roberts, is available for download immediately from major audio book retailers <a  href="http://www.audible.com/pd/ref=sr_1_15?asin=B006VI2HB0&qid=1326211887&sr=1-15">Audible</a>, <a  href="http://amblingbooks.com/books/view/the_comeback_2">Ambling Books </a>and <a  href="https://securemail.ce.org/owa/redir.aspx?C=c1f0f42caafb43cca23c00784d62d701&URL=http%3a%2f%2fwww.learnoutloud.com%2fAudio-Books%2fPolitics%2fPolitical-Philosophy%2fThe-Comeback%2f43064">Learn Out Loud</a>. It is coming soon to iTunes.</p>
+        <p>The Comeback lays out a clear path to economic recovery built on an innovation agenda. It was released in print at the 2011 International CES, debuted at No. 7 on the New York Times best-seller list, and became a best-seller at Barnes &amp; Noble, Amazon.com, Publishers Weekly, The Wall Street Journal and The Washington Post. Shapiro’s no-nonsense, nonpartisan, comprehensive innovation agenda earned praise from all corners, including businessmen, elected officials and activists.</p>
+        <p>“The International CES illustrates the incredibly influential role America’s innovators and entrepreneurs play in driving our country’s economic success,” Shapiro said. “Innovation allows us to invent entirely new industries, creates good jobs and opens up new markets to American goods. It’s time our federal government pursued a comprehensive agenda to promote innovation, as laid out in The Comeback.</p>
+        <p>“Since we released The Comeback at the 2011 International CES, people have been asking for an audio book version.” Shapiro added. “CES is all about empowering people to utilize technology however they want, so this was a perfect time to finally make the audio book available. Americans are still hungry for decisive action to fix our economy, and the national strategic plan laid out in The Comeback is still meeting that need.”</p>
+        <p>By returning innovation to its rightful place at the center of America’s economic policy, Shapiro shows that there is hope for America’s economic future, but it will require sacrifice and strategic thinking. In particular, some of the tough policy choices Shapiro says U.S. lawmakers must pursue include:</p>
+        <ul>
+            <li>Reforming immigration laws to ensure the world’s best and brightest come to and stay in America.</li>
+            <li>Opening American products to world markets by finalizing, expanding, and creating free-trade agreements.</li>
+            <li>Releasing more spectrum for wireless broadband.</li>
+            <li>Reducing litigation, encouraging investment rather than debt, improving education and supporting America’s best companies.</li>
+            <li>Drastically reducing the deficit through triage, smarter tax collection, and economic growth.</li>
+        </ul>
+        <p><strong>High Praise for The Comeback:</strong></p>
+        <ul>
+            <li>“Informative, sobering, and at times frustrating, The Comeback is that rare breed of book that actually delivers on what it promises: A way forward.” <br />
+            – Steve Forbes, President and CEO of Forbes and Editor-in-Chief of Forbes magazine</li>
+            <li>“By working together in public/private partnerships, we all can deliver on the compelling vision Gary Shapiro details for innovation and economic growth based on creating the products people really want and value.” <br />
+            – Alan Mulally, CEO, Ford Motor Company</li>
+            <li>“Our nation is facing a major crossroad and we need a new strategy to excite our people. Throughout his career, Shapiro has always understood the role of innovation in business; he is right that we can only preserve the American Dream by doing what we do best – doing things better.” <br />
+            – Ivan Seidenberg, Chairman and CEO, Verizon Communications</li>
+            <li>“We cannot afford to allow our nation to fall further behind in the race to create innovation and save our American Dream. Gary offers a gripping story that is a road map to American success.” <br />
+            – Rep. Darrell Issa (R-Calif.), Chairman, House Government Oversight and Reform Committee</li>
+            <li>“The Comeback is exactly the kind of forward-thinking economic strategy that America lacks right now. This should be required reading for everyone in Washington. What Shapiro has done is deliver an honest, tough assessment of the nation’s precarious economic situation. You won’t agree with every solution he offers, but we ignore his advice to our peril.” <br />
+            – Grover Norquist, President, Americans for Tax Reform</li>
+        </ul>
+        <p><strong>About Gary Shapiro:</strong> <br />
+        Gary Shapiro is the president and CEO of the Consumer Electronics Association (CEA), the U.S. trade association for more than 2,000 consumer electronics companies. CEA owns and produces the International CES, the world’s largest annual technology trade show. Shapiro has led the technology industry through seismic shifts, including the transition from analog to digital television, and the move to wireless, personal computers and the Internet. He has received many awards including the Pinnacle Award, the exhibition industry’s highest award, and was recognized repeatedly as one of the 100 most influential people in Washington by Washington Life magazine. A graduate of the Georgetown University Law Center, he is married to Dr. Susan Malinowski, and commutes each week between Virginia and Michigan.</p>
+        <p><strong>About CEA:</strong> <br />
+        <a  href="http://www.ce.org">The Consumer Electronics Association (CEA</a>) is the preeminent trade association promoting growth in the $190 billion U.S. consumer electronics industry. More than 2,000 companies enjoy the benefits of CEA membership, including legislative advocacy, market research, technical training and education, industry promotion, standards development and the fostering of business and strategic relationships. CEA also owns and produces the International CES – The Global Stage for Innovation. All profits from CES are reinvested into CEA’s industry services. Find CEA online: www.CE.org and www.DeclareInnovation.com.</p>
+    
+    
+        <!-- AddThis Button BEGIN -->
+        <script type="text/javascript">
+            addthis_pub = 'ceit2008';
+            addthis_brand = 'www.CESweb.org';
+            addthis_options = 'email, facebook, digg, delicious, favorites, linkedin, technorati, more';
+        </script>
+        <a href="http://www.addthis.com/bookmark.php" onmouseover="return addthis_open(this, '', 'http://www.CESweb.org/news/rssNews.asp#6224', '2012 International CES News')" onmouseout="addthis_close()" onclick="return addthis_sendto()"><img src="http://s7.addthis.com/static/btn/lg-share-en.gif" width="125" height="16" border="0" alt="" /></a><script type="text/javascript" src="http://s7.addthis.com/js/152/addthis_widget.js"></script>
+        <!-- AddThis Button END -->
+    </div>
+</div><div class="article">
+    
+    
+    <a name="6223"></a>
+    <img src="/images/photos/Dir_SGuide.gif">
+    <div class="article-content">
+        <div class="sub-content-header">Get Your Copy: Official On-Site Publications</div>
+        <span class="smallText">Jan 10, 2012 02:44:50</span>
+        
+        
+        <p><strong><img alt="" style="float: left;"  src="/images/content/Dir_SGuide.gif" />The Official Show Directory</strong> is the ultimate reference guide for the International CES. The only year-round reference source, the directory lists complete exhibitor company profiles, brand listings and important product information. Flash drives with the pre-loaded Directory are available for your convenience in the Consumer Technology Publishing Group booth in the LVCC, Grand Lobby, GL-1 near Starbucks.</p>
+        <p><strong><img alt="" style="float: left;"  src="/images/content/Maps.gif" />The Official Show Guide and Conference Brochure</strong> contains listings of all events and awards, TechZones, show services, international services, hotel/travel/transportation information, the most up-to-date exhibitor listing and a full conference brochure for attendees on-the-move.</p>
+        <p>On-site, look for our compact, lightweight, fold-out <strong>Official Show Venue Maps</strong> to help guide you around CES. Each map features exhibitor listings and locations of conference session rooms, press rooms, <img alt="" style="float: left;"  src="/images/content/CESdaily.gif" />shuttle stops, restaurants on the show floor and more.</p>
+        <p><strong>Official Show Dailies</strong> <br />
+        By industry and delivered daily, these Official Show Dailies will keep you up to date. </p>
+        <p><strong>The Official CES Daily</strong>, produced by TWICE, cover news, new products, general show information — and more.</p>
+        <strong>
+        <p><img alt="" style="float: left;"  src="/images/content/diDaily.gif" /></p>
+        <p>The Official Entertainment Matters Daily, produced by Variety, is dedicated to the Entertainment Matters program and set to deliver news, events, announcements and special features for Hollywood professionals.</p>
+        </strong>, produced by Variety, is dedicated to the Entertainment Matters program and set to deliver news, events, announcements and special features for Hollywood professionals.<strong>
+        <p>The new Official CES Digital Imaging/Photography Daily, produced by Photo Industry Reporter, focuses specifically on imaging, and feature show information, the latest breaking news and industry i</p>
+        </strong>, produced by Photo Industry Reporter, focuses specifically on imaging, and feature show information, the latest breaking news and industry i
+        <p>&nbsp;</p>
+        <p>nformation.</p>
+        <p>&nbsp;</p>
+    
+    
+        <!-- AddThis Button BEGIN -->
+        <script type="text/javascript">
+            addthis_pub = 'ceit2008';
+            addthis_brand = 'www.CESweb.org';
+            addthis_options = 'email, facebook, digg, delicious, favorites, linkedin, technorati, more';
+        </script>
+        <a href="http://www.addthis.com/bookmark.php" onmouseover="return addthis_open(this, '', 'http://www.CESweb.org/news/rssNews.asp#6223', '2012 International CES News')" onmouseout="addthis_close()" onclick="return addthis_sendto()"><img src="http://s7.addthis.com/static/btn/lg-share-en.gif" width="125" height="16" border="0" alt="" /></a><script type="text/javascript" src="http://s7.addthis.com/js/152/addthis_widget.js"></script>
+        <!-- AddThis Button END -->
+    </div>
+</div><div class="article">
+    
+    
+    <a name="6212"></a>
+    <img src="/images/photos/internationalCES.jpg">
+    <div class="article-content">
+        <div class="sub-content-header">Where to Go, What to Do: CES Day One (Tuesday, January 10)</div>
+        <span class="smallText">Jan 10, 2012 01:15:29</span>
+        
+        
+        <p>Seventeen of the industry’s innovation leaders will take to the stage in the Las Vegas Hilton Theater and The Venetian Palazzo Ballroom to deliver 2012 CES Keynote Addresses. Grab a seat early — the ideas and trends you'll hear are as big as the names of the people delivering them.</p>
+        <h3>Where to Go, What to Do: Tuesday, January 10</h3>
+        <p><strong><a  href="http://www.cesweb.org/events/keynotes.asp"><strong>State of the CE Industry Address and Opening Technology and Evolving Countries (TEC) Keynote </strong></a><br />
+        </strong>Dr. Paul E. Jacobs, Chairman and CEO, Qualcomm; and Gary Shapiro, President and CEO, Consumer Electronics Association (CEA®)<br />
+        8:30 a.m. The Venetian, Level 5, Palazzo Ballroom</p>
+        <p><a  href="http://www.cesweb.org/events/keynotes.asp"><strong>Keynote: Dr. Dieter Zetsche, Chairman of the Board of Management of Daimler AG and Head of Mercedes-Benz Cars</strong> </a><br />
+        11 a.m., Las Vegas Hilton Theater</p>
+        <p><a  href="http://www.cesweb.org/events/keynotes.asp"><strong>Keynote: Paul OtelliniPresident and CEO, Intel Corporation</strong></a><br />
+        4:30 p.m., Las Vegas Hilton Theater</p>
+        <p><strong><a  href="http://www.cesweb.org/awards/hot-stuff.htm"><strong>2012 CES Hot Stuff Awards </strong></a><br />
+        </strong>5 p.m. Winners Announced via Press Release and Online at www.Stuff.tv</p>
+        <p><strong><a  href="http://www.cesweb.org/events/mark-of-excellence.htm"><strong>Mark of Excellence Awards Reception</strong></a> <br />
+        </strong>5-6 p.m., LVCC, South Hall 1, CEPro@CES, Booth #21664</p>
+        <p><strong>The Conference Program <br />
+        </strong>Here’s what hot in the world of trends and technology for the first day of the 2012 CES: <br />
+        <a  href="http://www.cesweb.org/conferenceProgram/conference-track.htm?track=dh">Digital Hollywood</a> <br />
+        <a  href="http://www.cesweb.org/conferenceProgram/conference-track.htm?track=CC">Cable Conference </a><br />
+        <a  href="http://www.cesweb.org/conferenceProgram/conference-track.htm?track=STC">Smartphone and Tablet Conference <br />
+        </a><a  href="http://www.cesweb.org/conferenceProgram/conference-track.htm?track=PMA"></a><a  href="mailto:PMA@CES">PMA@CES</a> <br />
+        <a  href="http://www.cesweb.org/conferenceProgram/conference-track.htm?track=CITC">Content in the Cloud</a></p>
+    
+    
+        <!-- AddThis Button BEGIN -->
+        <script type="text/javascript">
+            addthis_pub = 'ceit2008';
+            addthis_brand = 'www.CESweb.org';
+            addthis_options = 'email, facebook, digg, delicious, favorites, linkedin, technorati, more';
+        </script>
+        <a href="http://www.addthis.com/bookmark.php" onmouseover="return addthis_open(this, '', 'http://www.CESweb.org/news/rssNews.asp#6212', '2012 International CES News')" onmouseout="addthis_close()" onclick="return addthis_sendto()"><img src="http://s7.addthis.com/static/btn/lg-share-en.gif" width="125" height="16" border="0" alt="" /></a><script type="text/javascript" src="http://s7.addthis.com/js/152/addthis_widget.js"></script>
+        <!-- AddThis Button END -->
+    </div>
+</div><div class="article">
+    
+    
+    <a name="6207"></a>
+    <img src="/images/photos/internationalCES.jpg">
+    <div class="article-content">
+        <div class="sub-content-header">2012 International CES Opens with Record Number of Exhibitors</div>
+        <span class="smallText">Jan 10, 2012 12:42:36</span>
+        
+        
+        <p><a  href="http://www.cesweb.org">The 2012 International CES</a> opened its doors today featuring a record number of exhibitors, more than 3,100 companies on a show floor that will exceed 1.85 million net square feet of <a  href="http://www.cesweb.org/showFloor/default.asp">exhibit space</a>. Pre-show media events with innovative product launches kicked off the 2012 CES, with cutting-edge products including ultrabooks, voice and gesture-based technologies, smartphones and OLED TVs. Owned and produced by the <a  href="http://www.ce.org">Consumer Electronics Association</a>, the 2012 International CES, the world’s largest tradeshow for consumer technology, opens today and runs through Friday, January 13 in Las Vegas, Nevada.</p>
+        <p>“With more than 3,100 companies showcasing more than 20,000 new products, the 2012 International CES is the world’s largest hub for consumer technology innovation,” said Gary Shapiro, president and CEO, CEA. “The pre-show media events, which drew record numbers, created tremendous buzz as the world awaits the next generation of technology that is launching here at CES this week. From ultrabooks to digital health products to connected TVs, the innovation at the 2012 CES will be nothing short of amazing, as attendees witness ground-breaking products spanning one of the largest show floors in CES history.”</p>
+        <p>The 2012 CES show floor covers 1.851 million net square feet of <a  href="http://www.cesweb.org/showFloor/default.asp">exhibit space</a> – more than 37 football fields filled with consumer technology innovation. The 2011 CES featured 2,865 exhibitors across 1.65 million net square feet.</p>
+    
+    
+        <!-- AddThis Button BEGIN -->
+        <script type="text/javascript">
+            addthis_pub = 'ceit2008';
+            addthis_brand = 'www.CESweb.org';
+            addthis_options = 'email, facebook, digg, delicious, favorites, linkedin, technorati, more';
+        </script>
+        <a href="http://www.addthis.com/bookmark.php" onmouseover="return addthis_open(this, '', 'http://www.CESweb.org/news/rssNews.asp#6207', '2012 International CES News')" onmouseout="addthis_close()" onclick="return addthis_sendto()"><img src="http://s7.addthis.com/static/btn/lg-share-en.gif" width="125" height="16" border="0" alt="" /></a><script type="text/javascript" src="http://s7.addthis.com/js/152/addthis_widget.js"></script>
+        <!-- AddThis Button END -->
+    </div>
+</div><div class="article">
+    
+    
+    <a name="6205"></a>
+    <img src="/images/photos/internationalCES.jpg">
+    <div class="article-content">
+        <div class="sub-content-header">Major Trends at CES Unveiled: Tablets, Smartphones, Solar Charging Devices and Digital Health Products </div>
+        <span class="smallText">Jan 10, 2012 12:29:49</span>
+        
+        
+        <p>Pre-CES media events, including CES Unveiled: The Official Press Event of CES, revealed innovation at every turn. At the sold-out CES Unveiled event, a record number of 78 exhibiting companies drew the highest media attendance in Unveiled history. With companies including Cobra Electronics, DISH Network, Lenovo, LG and Onstar, major trends at CES Unveiled included the latest in tablets, smartphones, solar charging devices and digital health products.</p>
+        <p>Product announcements continued on Monday, January 9 with CES Press Day, featuring 25 exhibitor press conferences, the largest number of Press Day events in CES history. Major Press Day product launches included: </p>
+        <ul class="text">
+            <li class="text">Dish Network – The Hopper Whole Home DVR Entertainment System </li>
+            <li class="text">Ford/NPR – NPR smartphone App for Ford SYNC </li>
+            <li class="text">Fujifilm – X-Pro 1 Interchangeable Lens Camera </li>
+            <li class="text">Huawei – Ascend P1 smartphone with dual-core processors. </li>
+            <li class="text">Intel – Lenovo Ultrabook with ArcSoft Quick Photo </li>
+            <li class="text">Klipsh – G42 Sound System </li>
+            <li class="text">LG Electronics –55inch 3D OLED TV </li>
+            <li class="text">Livio Radio – Livio Connect </li>
+            <li class="text">Monster Cable – NCredible N-ERGY earbuds </li>
+            <li class="text">Netgear – Universal Dual Band Wi-Fi Range Extender </li>
+            <li class="text">Nokia – Lumina 900 </li>
+            <li class="text">Panasonic – MySpace TV </li>
+            <li class="text">Pioneer – App Radio 2 </li>
+            <li class="text">Samsung – ES8000 LED SmartTV </li>
+            <li class="text">Sharp – Aquos 80-inch display/board </li>
+            <li class="text">Sony – Android-powered Walkman Z </li>
+            <li class="text">Stream TV – Ultra-D, glasses-free 3D TV </li>
+            <li class="text">Voxx Electronics – Insite personal property tracking system</li>
+        </ul>
+        <p class="text"><a  href="http://www.cesweb.org/news/exhibitorNews.asp">See more CES exhibitor announcements.</a></p>
+    
+    
+        <!-- AddThis Button BEGIN -->
+        <script type="text/javascript">
+            addthis_pub = 'ceit2008';
+            addthis_brand = 'www.CESweb.org';
+            addthis_options = 'email, facebook, digg, delicious, favorites, linkedin, technorati, more';
+        </script>
+        <a href="http://www.addthis.com/bookmark.php" onmouseover="return addthis_open(this, '', 'http://www.CESweb.org/news/rssNews.asp#6205', '2012 International CES News')" onmouseout="addthis_close()" onclick="return addthis_sendto()"><img src="http://s7.addthis.com/static/btn/lg-share-en.gif" width="125" height="16" border="0" alt="" /></a><script type="text/javascript" src="http://s7.addthis.com/js/152/addthis_widget.js"></script>
+        <!-- AddThis Button END -->
+    </div>
+</div><div class="article">
+    
+    
+    <a name="6204"></a>
+    <img src="/images/photos/ballmer_132.jpg">
+    <div class="article-content">
+        <div class="sub-content-header">Microsoft’s Ballmer Delivers Pre-CES Keynote</div>
+        <span class="smallText">Jan 10, 2012 12:25:40</span>
+        
+        
+        <p>Microsoft President and CEO Steve Ballmer delivered a pre-CES keynote address Monday evening, featuring Ryan Seacrest as the celebrity host. During the address, Ballmer announced that Microsoft Kinect will come to Windows on February 1, 2012. Microsoft also demoed the Windows phone, showcasing new models launched at CES including the Nokia Lumia 900 and HTC Titan 2, and provided a demonstration of Windows 8. The new Xbox experience with Kinect was demonstrated to the audience, which will provide an entertainment hub with a new personalized viewer experience.</p>
+        <p>Missed it or want to see it again? <a  href="http://www.cesweb.org/events/keynotes.asp#Steve-Ballmer">Watch it now.</a></p>
+    
+    
+        <!-- AddThis Button BEGIN -->
+        <script type="text/javascript">
+            addthis_pub = 'ceit2008';
+            addthis_brand = 'www.CESweb.org';
+            addthis_options = 'email, facebook, digg, delicious, favorites, linkedin, technorati, more';
+        </script>
+        <a href="http://www.addthis.com/bookmark.php" onmouseover="return addthis_open(this, '', 'http://www.CESweb.org/news/rssNews.asp#6204', '2012 International CES News')" onmouseout="addthis_close()" onclick="return addthis_sendto()"><img src="http://s7.addthis.com/static/btn/lg-share-en.gif" width="125" height="16" border="0" alt="" /></a><script type="text/javascript" src="http://s7.addthis.com/js/152/addthis_widget.js"></script>
+        <!-- AddThis Button END -->
+    </div>
+</div><div class="article">
+    
+    
+    <a name="6203"></a>
+    <img src="/images/photos/internationalCES.jpg">
+    <div class="article-content">
+        <div class="sub-content-header">2012 International CES Opens Show Floor Doors 10 a.m. PST Tuesday, January 10</div>
+        <span class="smallText">Jan 09, 2012 09:23:25</span>
+        
+        
+        <p><a  href="http://www.cesweb.org">The 2012 International CES</a> opens its show floor doors at 10 a.m. PST on Tuesday, January 10 in Las Vegas, Nevada.</p>
+        <p><strong>Exhibit Hours:<br />
+        </strong>Tuesday, January 10: 10 a.m. – 6 p.m. <br />
+        Wednesday, January 11: 9 a.m. – 6 p.m. <br />
+        Thursday, January 12: 9 a.m. – 6 p.m. <br />
+        Friday, January 13: 9 a.m. – 4 p.m.</p>
+        <p><strong>Official CES Venues:<br />
+        </strong>Las Vegas Convention and World Trade Center (LVCC)/ the Las Vegas Hilton* <br />
+        The Venetian <br />
+        <br />
+        Spread across <a  href="http://www.cesweb.org/showFloor/by-hall.asp">1.8 million net square feet of exhibit space</a>, you’ll see technology come to life throughout the LVCC, Hilton and The Venetian. <a  href="http://www.cesweb.org/showFloor/techzones.asp">TechZones</a> are uniquely themed areas that group new technology markets together and feature up-and-coming products, services and companies for the industry. With 15 <a  href="http://www.cesweb.org/showFloor/by-product.asp">product categories</a> represented at CES, you’ll find more options than anywhere else.</p>
+        <p >*The Las Vegas Hilton has recently changed its name to LVH (Las Vegas Hotel &amp; Casino). For purposes of the 2012 International CES, we will continue to refer to it as the Las Vegas Hilton.</p>
+        <p>&nbsp;</p>
+    
+    
+        <!-- AddThis Button BEGIN -->
+        <script type="text/javascript">
+            addthis_pub = 'ceit2008';
+            addthis_brand = 'www.CESweb.org';
+            addthis_options = 'email, facebook, digg, delicious, favorites, linkedin, technorati, more';
+        </script>
+        <a href="http://www.addthis.com/bookmark.php" onmouseover="return addthis_open(this, '', 'http://www.CESweb.org/news/rssNews.asp#6203', '2012 International CES News')" onmouseout="addthis_close()" onclick="return addthis_sendto()"><img src="http://s7.addthis.com/static/btn/lg-share-en.gif" width="125" height="16" border="0" alt="" /></a><script type="text/javascript" src="http://s7.addthis.com/js/152/addthis_widget.js"></script>
+        <!-- AddThis Button END -->
+    </div>
+</div><div class="article">
+    
+    
+    <a name="6202"></a>
+    <img src="/images/photos/CEA-logo.gif">
+    <div class="article-content">
+        <div class="sub-content-header">CEA Donates $75,000 to Local Las Vegas Sustainability Organizations</div>
+        <span class="smallText">Jan 09, 2012 08:21:11</span>
+        
+        
+        <p><a  target="_blank" href="http://www.ce.org">The Consumer Electronics Association (CEA)</a>, owner and producer of the <a  href="http://www.cesweb.org">International CES</a>, today announced a total of $75,000 in donations to Green Chips and Repurpose AMERICA, local Las Vegas nonprofit organizations advancing clean energy and minimizing waste.</p>
+        <p>“CES is committed to sustainability, and we are extremely proud that these donations will help the environment and the Las Vegas community through the efforts of Green Chips and Repurpose AMERICA,” said Gary Shapiro, president and CEO of CEA. “CES is a tremendously successful event thanks to the great people and facilities of Las Vegas, and we’re pleased to make this investment in sustainability to demonstrate our commitment to this great city.”</p>
+        <p><a  target="_blank" href="http://www.greenchips.org">Green Chips</a>, a local charity supporting sustainable initiatives including solar panel installations, plans to use its $50,000 donation to help retrofit the Las Vegas Rescue Mission for solar panels. With more than 300 days of sunshine per year in Las Vegas, the Rescue Mission’s solar panels will significantly reduce its energy bills while using clean energy. Last year, with the assistance of a CEA donation, Green Chips helped with a solar panel installation at a local Salvation Army, leading to $7,000 in projected annual energy savings.</p>
+        <p>“CEA’s generosity in making this award to Green Chips will make a lasting impact on the Las Vegas community for years to come,” said Green Chips Chair Cindy Ortega. “The promotion of social, economic and environmental sustainability efforts in Southern Nevada is the primary mission of Green Chips, and it aligns with CEA’s commitment to sustainability. We are honored to again be the recipient of this award, and to help ensure that its positive benefits on the community are maximized.”</p>
+        <p>In an unprecedented effort to minimize waste from the 2011 International CES, the world’s largest consumer technology show, CEA, Global Experience Specialists (GES) and <a  target="_blank" href="http://www.repurposeamerica.org">Repurpose AMERICA</a> collaborated to capture and reuse about 18,000 pounds of magnetic signs, nearly 15,000 square feet of banner signs and more than 150 foam boards (three feet by eight feet).</p>
+        <p>This year at CES, CEA will issue second life badge holders made from repurposed signs from last year’s CES, plus signs from other shows. The badge holders used nearly 24,000 square feet of repurposed vinyl signs.</p>
+        <p>CEA will be working again with Repurpose AMERICA and GES this year to maximize the reuse of show materials. As part of that effort, CEA has granted Repurpose AMERICA $25,000 to take signs and other materials from CES to build shade structures at two local community centers.</p>
+        <p>“Repurposing signs from the biggest tradeshow in the Americas to help create much-needed shade structures at community institutions is a innovative sustainability solution that CEA and Repurpose AMERICA have pioneered,” said Zach Delbex, CEO of Repurpose AMERICA. “We are proud to continue working with CEA and are honored to accept this donation. It will make a difference in Las Vegas.”</p>
+        <p>For more information on the sustainability practices of the 2012 International CES please go to <a  href="http://www.cesweb.org/green">CESweb.org/green</a>.</p>
+    
+    
+        <!-- AddThis Button BEGIN -->
+        <script type="text/javascript">
+            addthis_pub = 'ceit2008';
+            addthis_brand = 'www.CESweb.org';
+            addthis_options = 'email, facebook, digg, delicious, favorites, linkedin, technorati, more';
+        </script>
+        <a href="http://www.addthis.com/bookmark.php" onmouseover="return addthis_open(this, '', 'http://www.CESweb.org/news/rssNews.asp#6202', '2012 International CES News')" onmouseout="addthis_close()" onclick="return addthis_sendto()"><img src="http://s7.addthis.com/static/btn/lg-share-en.gif" width="125" height="16" border="0" alt="" /></a><script type="text/javascript" src="http://s7.addthis.com/js/152/addthis_widget.js"></script>
+        <!-- AddThis Button END -->
+    </div>
+</div><div class="article">
+    
+    
+    <a name="6201"></a>
+    <img src="/images/photos/CES_DevUnLogo_200.jpg">
+    <div class="article-content">
+        <div class="sub-content-header">Free Registration Available for Developer University at CES</div>
+        <span class="smallText">Jan 09, 2012 05:15:13</span>
+        
+        
+        <p>In the world of apps, everything is evolving at an exponential pace, with new systems being opened up every day for third-party developers and existing systems releasing new versions of SDKs, tools and APIs. How do you stay up-to-date and at the top of the class with all these changes? Attending Developer University at CES keeps you in the loop with the latest and greatest in the app development world. This is a unique event brought to you by the Consumer Electronics Association (CEA) where developers can go to one place to learn about the latest developer programs directly from multiple company representatives.<br />
+        <br />
+        The event will be held 9 a.m.-6 p.m. Thursday, January 12, 2012, in the South Hall Connector at the Las Vegas Convention and World Trade Center. Sessions will be 30 minutes long and broken down topically by TV apps, device APIs, third-party API, Web apps, desktop apps, mobile apps and more. Now is your chance to hear everything about app development straight out of the mouths of companies like AT&amp;T, Google, LG, Sony and more!<br />
+        <br />
+        <a  href="http://www.cesweb.org/register">CES registration is required to attend this event.</a> <a  href="http://devu.eventbrite.com/">RSVP to Developer University</a> to register and get updates on the sessions.<br />
+        <br />
+        For more information, please visit <a  href="http://www.CESweb.org/events/devU.asp">CESweb.org/events/devU.asp</a>.</p>
+    
+    
+        <!-- AddThis Button BEGIN -->
+        <script type="text/javascript">
+            addthis_pub = 'ceit2008';
+            addthis_brand = 'www.CESweb.org';
+            addthis_options = 'email, facebook, digg, delicious, favorites, linkedin, technorati, more';
+        </script>
+        <a href="http://www.addthis.com/bookmark.php" onmouseover="return addthis_open(this, '', 'http://www.CESweb.org/news/rssNews.asp#6201', '2012 International CES News')" onmouseout="addthis_close()" onclick="return addthis_sendto()"><img src="http://s7.addthis.com/static/btn/lg-share-en.gif" width="125" height="16" border="0" alt="" /></a><script type="text/javascript" src="http://s7.addthis.com/js/152/addthis_widget.js"></script>
+        <!-- AddThis Button END -->
+    </div>
+</div><div class="article">
+    
+    
+    <a name="6200"></a>
+    <img src="/images/photos/CESshuttle190X136.jpg">
+    <div class="article-content">
+        <div class="sub-content-header">Getting Around Vegas: Free and Discounted Options for CES Goers</div>
+        <span class="smallText">Jan 09, 2012 05:04:23</span>
+        
+        
+        <p>Make the best use of your time and money in Vegas by knowing the best and most affordable ways to get around Las Vegas.</p>
+        <p><a  href="/hotelTravel/shuttle.asp"><strong>CES Shuttle Service</strong> <br />
+        </a>CES offers complimentary shuttle service on all four days of the International CES. We'll even help you get to the airport as you head home after several successful days of networking and deal making.</p>
+        <p><a  href="/hotelTravel/monorail.asp"><strong><img alt="" style="float: right;"  src="/images/content/monorail_logo.gif" />Monorail e-tickets Start December 27<br />
+        </strong></a>The Las Vegas Monorail is extending its exclusive fare discounts for the 2012 International CES! Starting Dec. 27, buy your discounted Monorail tickets online using the eTICKET shipping option at: <a  href="https://tickets.lvmonorail.com/ces2012clbasdsfhewc">https://tickets.lvmonorail.com/ces2012clbasdsfhewc</a>. </p>
+        <p>Redeem your eTICKETs at any monorail station using your printed barcode, PIN code or mobile device. In 15 minutes or less, monorail riders can travel to and from the Las Vegas Convention Center and the Las Vegas Strip in a safe, clean, and climate-controlled environment. Let the Monorail be your transportation solution. Note: The monorail does not service The Venetian; please use The Venetian Express.</p>
+        <p><a  href="http://www.cesweb.org/hotelTravel/cars.asp#Car-Rental-Discounts"><strong><img alt="" style="float: right;"  src="/images/content/CES-554_dollar_rent_car.jpg" />Save with Dollar Rent a Car<br />
+        </strong></a>CEA has partnered with Dollar Rent a Car to be the official car rental company of CES. What does that mean for you? Savings! The 10 percent discount is valid through May 31, 2012. All rentals made through our <a  href="http://www.dollar.com/default.aspx?corpdiscnbr=CM2355">corporate promotion</a> will receive a 10% discount. So that means anytime you travel to Las Vegas, you can take advantage of this great deal.</p>
+        <p><strong><a  href="http://www.cesweb.org/hotelTravel/cars.asp#Designated-Passenger-Pick-up/Drop-off-"><strong>Designated Passenger Pickup/Drop-off Areas at LVCC</strong></a><br />
+        </strong>Are you picking up or dropping off a friend or colleague at the LVCC? To alleviate traffic congestion and increase safety, we have designated portions of the LVCC, Silver 3 Lot and Gold Lot for privately owned vehicles to pick up and drop off passengers. Curbside access will no longer be permitted.<br />
+        <br />
+        For access closest to South Halls, plan to use the Silver 3 Lot by entering off of Paradise Road. For access to North and Central Halls, plan to use the Gold Lot at the corner of Paradise and Convention Center Drive by entering off of Convention Center Drive. Note: Drivers must remain with their cars; no parking allowed.</p>
+    
+    
+        <!-- AddThis Button BEGIN -->
+        <script type="text/javascript">
+            addthis_pub = 'ceit2008';
+            addthis_brand = 'www.CESweb.org';
+            addthis_options = 'email, facebook, digg, delicious, favorites, linkedin, technorati, more';
+        </script>
+        <a href="http://www.addthis.com/bookmark.php" onmouseover="return addthis_open(this, '', 'http://www.CESweb.org/news/rssNews.asp#6200', '2012 International CES News')" onmouseout="addthis_close()" onclick="return addthis_sendto()"><img src="http://s7.addthis.com/static/btn/lg-share-en.gif" width="125" height="16" border="0" alt="" /></a><script type="text/javascript" src="http://s7.addthis.com/js/152/addthis_widget.js"></script>
+        <!-- AddThis Button END -->
+    </div>
+</div><div class="article">
+    
+    
+    <a name="6199"></a>
+    <img src="/images/photos/internationalCES.jpg">
+    <div class="article-content">
+        <div class="sub-content-header">CES Registration and Badge Holder Pickup Information</div>
+        <span class="smallText">Jan 09, 2012 05:01:33</span>
+        
+        
+        <p>If you missed the advance registration deadline, don’t worry – you can register on-site at the Las Vegas Convention and World Trade Center (LVCC). <a  href="http://www.cesweb.org/faq/generalFAQs.asp#regbadges">See on-site registration dates, locations and times.</a> <br />
+        <br />
+        Already received your badge in the mail? That’s great. In addition, each registrant who receives a badge by mail will need to go to a badge holder pickup location on-site to get their official 2012 International CES badge holder. Admittance without a badge holder is not permitted. International CES is a trade-only show and is not open to the general public. Therefore, we must ensure all attendees are industry affiliates before issuing a badge holder. After the show, CES performs an official attendance audit through an outside auditing firm, and the on-site badge holder pickup process serves as a method for counting attendance.</p>
+        <p>Two forms of identification are required to pick up your badge holder: <br />
+        One personal picture ID such as a driver's license or passport. <br />
+        One business ID such as a business card, pay stub or statement on company letterhead indicating that you are representing that company at International CES.</p>
+        <p><a  href="http://www.cesweb.org/faq/generalFAQs.asp#1823">See badge holder pickup locations.</a></p>
+    
+    
+        <!-- AddThis Button BEGIN -->
+        <script type="text/javascript">
+            addthis_pub = 'ceit2008';
+            addthis_brand = 'www.CESweb.org';
+            addthis_options = 'email, facebook, digg, delicious, favorites, linkedin, technorati, more';
+        </script>
+        <a href="http://www.addthis.com/bookmark.php" onmouseover="return addthis_open(this, '', 'http://www.CESweb.org/news/rssNews.asp#6199', '2012 International CES News')" onmouseout="addthis_close()" onclick="return addthis_sendto()"><img src="http://s7.addthis.com/static/btn/lg-share-en.gif" width="125" height="16" border="0" alt="" /></a><script type="text/javascript" src="http://s7.addthis.com/js/152/addthis_widget.js"></script>
+        <!-- AddThis Button END -->
+    </div>
+</div><div class="article">
+    
+    
+    <a name="6198"></a>
+    <img src="/images/photos/internationalCES.jpg">
+    <div class="article-content">
+        <div class="sub-content-header">Live the Digital Life</div>
+        <span class="smallText">Jan 09, 2012 04:38:17</span>
+        
+        
+        <p>If your company markets to people who are learning to walk, balancing work life with home life, heading to college, breaking a sweat, enjoying retirement or working to stay healthy through any station of life, then you won’t want to miss these <a  href="http://www.cesweb.org/showFloor/techzones.asp#CES-TechZones">TechZones</a>, all located in the North Hall of the Las Vegas Convention and World Trade Center (LVCC), produced by Living in Digital Times:</p>
+        <ul>
+            <li><a  href="http://cesweb.org/showFloor/techzones.asp#5157">Digital Health Summit</a></li>
+            <li><a  href="http://cesweb.org/showFloor/techzones.asp#5164">HigherEdTECH</a> </li>
+            <li><a  href="http://cesweb.org/showFloor/techzones.asp#5169">Kids@Play</a> </li>
+            <li><a  href="http://cesweb.org/showFloor/techzones.asp#5172">Mommy Tech</a> </li>
+            <li><a  href="http://cesweb.org/showFloor/techzones.asp#5175">Silvers Summit</a> </li>
+            <li><a  href="http://cesweb.org/showFloor/techzones.asp#5177">Sports and Fitness Tech</a></li>
+        </ul>
+    
+    
+        <!-- AddThis Button BEGIN -->
+        <script type="text/javascript">
+            addthis_pub = 'ceit2008';
+            addthis_brand = 'www.CESweb.org';
+            addthis_options = 'email, facebook, digg, delicious, favorites, linkedin, technorati, more';
+        </script>
+        <a href="http://www.addthis.com/bookmark.php" onmouseover="return addthis_open(this, '', 'http://www.CESweb.org/news/rssNews.asp#6198', '2012 International CES News')" onmouseout="addthis_close()" onclick="return addthis_sendto()"><img src="http://s7.addthis.com/static/btn/lg-share-en.gif" width="125" height="16" border="0" alt="" /></a><script type="text/javascript" src="http://s7.addthis.com/js/152/addthis_widget.js"></script>
+        <!-- AddThis Button END -->
+    </div>
+</div><div class="article">
+    
+    
+    <a name="6197"></a>
+    <img src="/images/photos/internationalCES.jpg">
+    <div class="article-content">
+        <div class="sub-content-header">2012 International CES on Track to be Best in CES History</div>
+        <span class="smallText">Jan 09, 2012 04:07:10</span>
+        
+        <P>With more than 100 products introduced at the CES Unveiled event last night and press day opening today, the Consumer Electronics Association (CEA)® announces that the 2012 International CES will be the association's second largest show in history when show floor opens on Tuesday. For a sneak peek at the show floor before it opens, visit CES's YouTube channel and for a look at the innovation from CES Unveiled, click here. </P>
+<P>The 1.851 million net square feet of show floor will open tomorrow, as more than 2,700 companies debut the next generation of innovative products across all sectors of the consumer electronics industry. The 2011 show welcomed 149,529 technology attendees and spanned more than 1.6 million net square feet of exhibit space. The largest CES was in 2008, with a record-breaking 1.857 million net square feet of exhibit space. </P>
+<P>CES is the global stage for innovation," said Gary Shapiro, president and CEO, CEA. "Every major technology company across the globe is participating in force at this year's CES. While many exhibit on the show floor, others send key executives to conduct meetings, participate in keynote panels, or hold their own events in Las Vegas this week to take advantage of the braintrust of technology professionals gathered here." In addition to the 2,700 exhibitors at this year's show, every major tech company, including Apple, Facebook, Twitter, HP and Dell, is sending significant delegations to CES, the world's largest consumer technology tradeshow. <BR>CEA expects this year's CES will be the most innovative show on record, with more than 20,000 new products slated to be announced this week. While the doors to the 2012 CES show floor officially open on Tuesday, news has already started to leak highlighting new innovations and products before many of these companies have even held their press conferences: </P>
+<UL>
+<LI>TV manufacturer Vizio is introducing a line-up of laptops and desktops, including two Ultrabooks.&nbsp;</LI>
+<LI>Nokia will debut the Lumia 900 smartphone, a Windows Phone with LTE support, to be sold at AT&amp;T this spring.&nbsp;</LI>
+<LI>Lenovo enters the television market by unveiling the K91Smart TV running Google's Android 4.0.&nbsp;</LI>
+<LI>LG Electronics announced a variety of LED-based TVs with bezels under 5mm in width for a nearly all-picture look, as well as a 55-inch OLED TV.&nbsp;</LI>
+<LI>Specialty glass producer Corning plans to introduce Gorilla Glass 2, a harder, thinner and more scratch resistant glass that could pave the way for the production of thinner and sturdier tablets and smartphones.&nbsp;</LI>
+<LI>Intel plans to offer a slew of affordable Ultrabooks in partnership with HP, Asus, LG and others.&nbsp;</LI>
+<LI>OLPC announced the XO 3.0 tablet, a tablet for the world's poorest children.&nbsp;</LI>
+<LI>Tobii Technology showed new eye-tracking technology that allows users to scroll, play and navigate using their eyes and without touching a mouse.&nbsp;&nbsp;</LI>
+<LI>Parrot AR Drone 2.0, which was first launched at CES 2010, once again wowed attendees at CESUnveiled last night with better location and orientation sensors.&nbsp;</LI>
+<LI>SolarFocus' Kindle e-reader case provides 50 hours of onboard reading light powered by a solar panel on the front of the case.&nbsp;</LI>
+<LI>3M Touch Systems, a multi-user, widescreen touch table, allows for an impressive maximum 60 touch points and up to four split screens.</LI></UL>
+<P>With more than 5,000 members of the press covering the International CES, this week is slated to be packed with new announcements from CE companies of all sizes. According to CNET, "this is the most preshow news we've seen in years, both in terms of formal announcements and flat-out leaks." Breaking coverage of all the latest CES news can also be found at <A href="http://CESweb.org/news/">CESweb.org/news</A>, and B-roll HD footage can be found at <A href="http://CESweb.org/press/CES-B-roll.htm">CESweb.org/press/CES-B-roll.htm</A>.&nbsp; Since 1967, CES has been the launch pad for several major technology innovations.&nbsp; <BR></P>
+    
+        <!-- AddThis Button BEGIN -->
+        <script type="text/javascript">
+            addthis_pub = 'ceit2008';
+            addthis_brand = 'www.CESweb.org';
+            addthis_options = 'email, facebook, digg, delicious, favorites, linkedin, technorati, more';
+        </script>
+        <a href="http://www.addthis.com/bookmark.php" onmouseover="return addthis_open(this, '', 'http://www.CESweb.org/news/rssNews.asp#6197', '2012 International CES News')" onmouseout="addthis_close()" onclick="return addthis_sendto()"><img src="http://s7.addthis.com/static/btn/lg-share-en.gif" width="125" height="16" border="0" alt="" /></a><script type="text/javascript" src="http://s7.addthis.com/js/152/addthis_widget.js"></script>
+        <!-- AddThis Button END -->
+    </div>
+</div><div class="article">
+    
+    
+    <a name="6183"></a>
+    <img src="/images/photos/Jillian_Michaels_CORE.jpg">
+    <div class="article-content">
+        <div class="sub-content-header">2012 International CES to Feature Hollywood Stars, Sports Legends and Musical Icons</div>
+        <span class="smallText">Jan 05, 2012 12:13:33</span>
+        
+        
+        <p><a  href="http://www.cesweb.org/events/celebrities.htm">Hollywood stars, sports legends, musical icons</a> and entertainers will attend the 2012 International CES to showcase and promote the innovative products and technologies shaping consumer technology. <a  href="http://www.cesweb.org">The 2012 International CES</a>, the world’s largest consumer technology tradeshow, is scheduled January 10-13, 2012, in Las Vegas, Nevada.</p>
+        <p>Actress Eliza Dushku will represent the <a  href="http://www.cesweb.org/EM/entertainment-matters.htm">Entertainment Matters at CES program</a> as the Entertainment Matters Ambassador. Back for its second year, the Entertainment Matters program is designed by and for Hollywood’s film, television and digital communities.</p>
+        <p>As part of her ambassadorship, Dushku will contribute to Spike TV’s “CES All Access Live” broadcast coverage from 12:30-1:45 p.m. on Tuesday, January 10, and she will also host the network’s exclusive VIP CES party that evening at Tryst Nightclub in the Wynn Las Vegas. Dushku rose to fame with her role in Buffy the Vampire Slayer and its spinoff series Angel. She is also known for her starring role in the network series, Tru Calling and Dollhouse, as well as roles in True Lies, Bring it On, This Boy’s Life, Wrong Turn and Jay and Silent Bob Strike Back.</p>
+        <p>Jillian Michaels, inspirational television personality and fitness guru, will highlight the marriage of tech and fitness at the CES TechZone FitnessTech. From 10:30-11 a.m. on Tuesday, January 10, Michaels will discuss the impact of digital innovation and her recent partnership with BodyMedia, an on-body monitor company, in N256, North Hall. She will also be available for interviews on Tuesday upon request.</p>
+        <p>Acclaimed rapper 50 Cent will sign autographs from 3-4 p.m. on Tuesday, January 10, Wednesday, January 11 and Thursday, January 12 for his new audio company, SMS Audio, which combines technology, function and style to bring the highest caliber of sound, comfort and fashion to every product, at their booth (LVCC, South Hall, #20818). He’ll also be on hand to discuss his new line of wireless headphones with the editors of TechCrunch at the AOL Studio (LVCC, Grand Lobby) on Wednesday, January 11 from 12-12:30 p.m. He is also scheduled to interview with CNET at 2 p.m. on Wednesday, January 11.</p>
+        <p>Grammy-nominated platinum pop megastar, Justin Bieber, will be appearing with TOSY Robotics at this year's CES. Justin Bieber is helping TOSY unveil their new innovative entertainment robot at the their booth which is located in the Robotics TechZone of the LVCC South Hall ground level (#21964, 21968, 22064, 22066 and 22068) on Wednesday, January 11 from 1-3 p.m.</p>
+        <p>Dennis Rodman, NBA Hall of Fame player, will be at the 2012 CES representing Paltalk, a service that allows users to explore the online world of chat sites with community chat rooms and cool webcam technology that lets you see and be seen. Dennis will make an appearance at Paltalk’s booth (LVCC, South Hall, #26915) from 2-3:30 p.m. on Thursday, January 12.</p>
+        <p>Miss America 2011, Teresa Scanlan, will walk the CES show floor from 10-11 a.m. on Tuesday, January 10. Teresa competed in the 2011 Miss America pageant as Miss Nebraska. The Miss America 2012 pageant is scheduled January 14 at Planet Hollywood Resort and Casino in Las Vegas, Nevada and will be televised on ABC.</p>
+        <p>Haier America will host NBA legends Robert Horry and John Salley, and celebrity chef Allison Fishman. Seven-time NBA Champion and current sports commentator Robert Horry will make an appearance at Haier’s booth (LVCC, Central Hall, #9826) from 11 a.m.-2 p.m. on Tuesday, January 10. Horry is one of only two players to have won NBA championships with three different teams. John Salley, the first NBA player to win four championships with three different teams, will make an appearance at the booth from 11 a.m.-2 p.m. on Wednesday, January 11. Allison Fishman, cookbook author and creator of The Wooden Spoon cooking school, will give a cooking demo and make daily appearances at Haier’s booth from 10 a.m.-5 p.m. on Tuesday, January 10 and 9 a.m.-5 p.m. on both Wednesday, January 11 and Thursday, January 12.</p>
+        <p>Star of the hit CBS drama NCIS: LOS ANGELES, LL COOL J will introduce exciting new technology from Boomdizzle on the CNET stage (LVCC, South Hall Lobby) on Tuesday, January 10 at approximately 2 p.m.</p>
+        <p>Television actor Greg Grunberg, best known for his starring role on the NBC television series Heroes, and Emmy winner and Grammy nominated actor, singer, Wayne Brady, known for his work as a regular on the American version of comedy television series Whose Line Is It Anyway?, will join OnStar for their Tweet House sessions, the official social media track for CES, on Wednesday, January 11 from 1-5 p.m. in N254, North Hall. Greg and Wayne will also attend OnStar’s “It Won’t Stay in Vegas” party on Wednesday from 6-8 p.m. at the Stirling Club.</p>
+        <p>Zeikos USA, Inc.’s trademark iHip will introduce an all star lineup at CES, including Nicole “Snooki” Polizzi, best known for her role on the most talked about reality TV show Jersey Shore, Former NFL linebacker Carl Banks and urban music pioneer Jose “Hyde” Cotto.</p>
+        <p>Snooki will make a guest appearance and sign autographs at iHip’s booth (LVCC, South Hall, #21920) from 2-4 p.m. on Tuesday, January 10 and will also host iHip’s new line and 2012 collaboration celebration on Tuesday evening from 9:30 p.m.-1:30 a.m. at the Gallery at Planet Hollywood Resort and Casino. Carl Banks, New York Giants legend and Superbowl champion, will make an appearance at iHip’s celebration on Tuesday evening and will launch his new NFL line at iHip’s booth on Wednesday, January 11. Jose “Hyde” Cotto, along with Mas Flow, “El Verdadero Quimico,” Luny Tunes and DJ Nelson will perform at iHip’s celebration on Tuesday evening and will be signing autographs at the booth on Thursday, January 12.</p>
+        <p>Panasonic will host Twentieth Century Fox Home Entertainment’s second annual Directors’ Panel. This year’s panel discussion will kick off the 50th anniversary of MGM’s James Bond on Tuesday, January 10 at 1:30 p.m. at Panasonic’s booth (LVCC, Central Hall, #9806). Critically acclaimed directors John Glen (For Your Eyes Only, Octopussy, A View to a Kill, The Living Daylights, License to Kill), Martin Campbell (GoldenEye, Casino Royale) and Michael Apted (The World Is Not Enough) will take a look back at the legacy of the iconic character and have a candid discussion about how technology has changed their approach to filmmaking. Additionally, former Bond girls Olga Kurylenko (Quantum of Solace) and Caterina Murino (Casino Royale) will be on hand for a special presentation that will include props from the legendary film franchise.</p>
+        <p>Jabbawockeez, the all-male, hip-hop dance crew best known for winning season one of MTV’s “America’s Best Dance Crew” and headliner at the Monte Carlo Resort and Casino, making them the first and only dance crew to headline their own show in Las Vegas will perform at CES, opening Qualcomm’s keynote address, scheduled for 8:30 a.m. on Tuesday, January 10 in the Venetian’s Palazzo Ballroom. <br />
+        <br />
+        Monster, Inc. will host their annual Retailer Awards and Concert, featuring real music from the legendary Chicago, on Wednesday, January 11 at the Paris Hotel. Awards will begin at approximately 8:45 p.m.</p>
+        <p>Jamie Michelle, one of southern California’s most requested models, will be at CES representing automotive audio company Powerbass USA, Inc. Michelle has been modeling for the past nine years for online and commercial print work, calendars and swimsuit fashion shows, and has worked with famous photographers such as Ladi Van Jansky and Mike Prado. She will be in the Powerbass booth (LVCC, North Hall, #920) from 10 a.m.-12 p.m. on Tuesday, January 10, and 1:30-4 p.m. on Wednesday, January 11. <br />
+        <br />
+        Alistair Overeem, three-time World Champion Mixed Martial Arts (MMA) fighter and winner of the recent Ultimate Fighting Championship (UFC) Heavyweight bout, will battle against Qualcomm executives and media in mobile MMA fight games, including “Fight Game Heroes” at Qualcomm’s booth (LVCC, South Hall, #30313) at 2 p.m. on Tuesday, January 10, 2 p.m. on Wednesday, January 11 and 12 p.m. on Thursday, January 12. Overeem will be available for interviews and autographs following the in-booth battles.</p>
+        <p>Jordan Rudess, recording artist, composer, producer and performer, will be representing iConnectivity at CES, demonstrating software applications from Wizdom Music including their innovative Sample Wiz and Geo Synth applications, and connecting his iPad to his musical gear with iConnectMIDI, the ultimate MIDI interface. Rudess will make appearances at iConnectivity’s booth (LVCC, North Hall, #3922) at 11 a.m., 2 p.m and 4 p.m. on Tuesday, January 10, 10 a.m., 1 p.m. and 4 p.m. on Wednesday, January 11and Thursday, January 12, and 10 a.m. and 2 p.m. on Friday, January 13.</p>
+        <p>A band comprised of top Australian musicians including drummer Andy Fisenden, bass, guitarist and vocalist Simon Fisenden and monster bass player Dane Alderton will be playing at Audiofly’s booth ( LVCC, South Hall, #26728) at 11 a.m., 2 p.m. and 4 p.m. each day. World renowned graffiti artist “The Yok” will also be at the booth throughout the show creating some of his artwork.</p>
+        <p>Note to Journalists: Please note the correct event reference is 2012 International CES. Media information is available in the “For the Press” section of <a  href="http://www.cesweb.org">CESweb.org</a>. Media are encouraged to arrive in Las Vegas by Sunday, January 8, 2012 to take advantage of all the preshow press events, including CES Unveiled: The Official Press Event of the 2012 International CES. CES Press Day will be held on Monday, January 9 at The Venetian.</p>
+    
+    
+        <!-- AddThis Button BEGIN -->
+        <script type="text/javascript">
+            addthis_pub = 'ceit2008';
+            addthis_brand = 'www.CESweb.org';
+            addthis_options = 'email, facebook, digg, delicious, favorites, linkedin, technorati, more';
+        </script>
+        <a href="http://www.addthis.com/bookmark.php" onmouseover="return addthis_open(this, '', 'http://www.CESweb.org/news/rssNews.asp#6183', '2012 International CES News')" onmouseout="addthis_close()" onclick="return addthis_sendto()"><img src="http://s7.addthis.com/static/btn/lg-share-en.gif" width="125" height="16" border="0" alt="" /></a><script type="text/javascript" src="http://s7.addthis.com/js/152/addthis_widget.js"></script>
+        <!-- AddThis Button END -->
+    </div>
+</div><div class="article">
+    
+    
+    <a name="6182"></a>
+    <img src="/images/photos/internationalCES.jpg">
+    <div class="article-content">
+        <div class="sub-content-header">Forbes: Want Innovation? Go to a Tradeshow</div>
+        <span class="smallText">Jan 05, 2012 10:50:00</span>
+        
+        
+        <p>Reprinted from January 4, 2012, issue of Forbes Magazine. Written by Forbes contributor and CEA President and CEO Gary Shapiro. Find the original article here: <a href="http://www.forbes.com/sites/garyshapiro/2012/01/04/want-innovation-go-to-a-tradeshow">http://www.forbes.com/sites/garyshapiro/2012/01/04/want-innovation-go-to-a-tradeshow</a></p>
+        <p>Next week, as it does early each year, the world epicenter of innovation becomes Las Vegas in the form of International CES, the world’s largest consumer technology tradeshow. More than 2,700 companies display their best ideas to more than 140,000 visitors – reporters, buyers, investors and potential business partners – in several cavernous exhibit halls and hotels. No matter the reason, everyone who attends International CES has chosen to invest precious time and money. Their return is more than entertainment; it is business – and an awesome and inspiring display of the future.</p>
+        <p>They travel great distances to meet like-minded individuals and discuss the vibrancy, hope and promise of innovation. They come because in no other venue can a company make a profoundly physical statement to 5,000 reporters and analysts, and some 30,000 international business visitors. Yet the distances any one attendee travels to CES pales in comparison to what they would have to travel otherwise to accomplish the same business meetings: the average CES attendee has 12 meetings at the show, which means CES attendees save more than 700 million miles of flight in business trips that they otherwise would have to take.</p>
+        <p>They come to test the mettle of the people with whom they are doing business, to shake their hands, look in their eyes, and assess whether a company’s product matches a company’s hype. Perhaps most important, they come because relationships matter in business and, despite the worldwide reach of the Internet, a relationship cannot only be electronic. It must be personal.</p>
+        <p>This personal component to International CES – or any tradeshow, for that matter – is what makes it a living, breathing entity. It’s an experience that requires five senses. Some may scoff and wonder why in the age of technology and the Internet live face-to-face events even exist. Yet they not only persist, they also prosper because people, relationships and first-hand impressions matter. Five-sense interaction beats the Internet for creating a big picture view, allowing serendipitous discovery, developing trust, and evaluating people and products.</p>
+        <p>Bill Gates once told me that Microsoft was made by trade shows like CES. Indeed, every large company started as a small company that needed to attract investors, partners and customers quickly and efficiently. The best place to accomplish all three? At a tradeshow. Indeed, the entire CES is run with a basic principle: that anyone with an idea should be able to present it inexpensively. Companies and careers have been made at trade shows – and our world has been changed by them as well.</p>
+        <p>The Consumer Electronics Association (CEA)®, which owns and produces CES, has a long line of volunteer chairmen whose companies got their big break at CES. Kathy Gornik, the co-founder of Thiel Audio, packed four days of food before driving to her first CES in 1976. Darrell Issa, now a member of Congress, built his car security company by attending CES shows, as did Loyd Ivey, who started MTX Audio in 1976 at the age of 26, and now operates the mega-company MTI. These giants of industry began as CES presenters who shared a passion for innovation and entrepreneurship and the belief that anyone with an idea should be able to expose it easily. Their leadership helped protect a sacred trust that CES must always serve as a platform for new innovators and entrepreneurs.</p>
+        <p>So we keep the flame lit. This year, CES added <a  href="http://www.cesweb.org/showFloor/techzones.asp#Eureka-Park">Eureka Park</a>, which will provide almost 100 start-ups a special exhibition at the show. Since 2010 we have tripled the iLounge Pavilion space for third-party accessories and software for Apple’s iPod, iPhone and iPad products to 300 exhibitors.</p>
+        <p>Of course, CES isn’t the only event around. We also see tremendous innovation at other major U.S. trade shows, including AAPEX, BIO, CEDIA, CTIA, IMTS, InfoComm, ISC, NAB, NAMM, Pack Expo and SEMA. While these may seem to be indecipherable acronyms, each represents an event attracting thousands of businesses coming to see hundreds of cutting edge innovative exhibitors. These and other events are carrying our economy, creating jobs, making news, driving marketing and pushing us rapidly into the future.</p>
+        <p>Marketing executives at businesses across industry sectors understand the value of tradeshows. In a recent study conducted by the nonprofit organization Center for Exhibition Industry Research Foundation (CEIR), 99 percent of surveyed executives said exhibiting offers unique value not offered by other marketing channels. Business executives understand tradeshows’ importance, because exhibitions drive business. In another CEIR study conducted by Oxford Economics in 2010, findings uncover that each of the top exhibitions in the United States created, on average, $82 million in business-to-business sales among exhibitors and attendees.</p>
+        <p>The U.S. business-to-business exhibition industry is alive and well, and it offers companies a gateway to reaching their markets. The 2010 CEIR Census documents that there are approximately 9,000 business-to-business exhibitions in the United States. The CEIR Index estimates that approximately 1.5 million companies exhibited in 2011 and roughly 60 million people attended.</p>
+        <p>The power and purpose of tradeshows in our rapidly connected world continue to grow with each year. Far from being a relic of a bygone age, today’s trade show remains the premier event to learn, interact and maybe even strike a deal with America’s next generation of innovators. So get on a plane. Go to a tradeshow. Think outside the box. Be open to new ideas. And have a bit of fun along the way.</p>
+        <p><em>Gary Shapiro is president and CEO of the Consumer Electronics Association (CEA), the U.S. trade association representing more than 2,000 consumer electronics companies, and author of the New York Times bestselling book, “<a  target="_blank" href="http://www.amazon.com/Comeback-Innovation-Restore-American-Dream/dp/0825305624">The Comeback: How Innovation Will Restore the American Dream.”</a></em></p>
+    
+    
+        <!-- AddThis Button BEGIN -->
+        <script type="text/javascript">
+            addthis_pub = 'ceit2008';
+            addthis_brand = 'www.CESweb.org';
+            addthis_options = 'email, facebook, digg, delicious, favorites, linkedin, technorati, more';
+        </script>
+        <a href="http://www.addthis.com/bookmark.php" onmouseover="return addthis_open(this, '', 'http://www.CESweb.org/news/rssNews.asp#6182', '2012 International CES News')" onmouseout="addthis_close()" onclick="return addthis_sendto()"><img src="http://s7.addthis.com/static/btn/lg-share-en.gif" width="125" height="16" border="0" alt="" /></a><script type="text/javascript" src="http://s7.addthis.com/js/152/addthis_widget.js"></script>
+        <!-- AddThis Button END -->
+    </div>
+</div><div class="article">
+    
+    
+    <a name="6130"></a>
+    <img src="/images/photos/Dunn_Brian_m.jpg">
+    <div class="article-content">
+        <div class="sub-content-header">CES SuperSession: A Global Perspective on Retail Features Best Buy CEO Brian Dunn</div>
+        <span class="smallText">Dec 23, 2011 01:09:53</span>
+        
+        
+        <p>Join Best Buy's Brian Dunn and CEA's Gary Shapiro for a candid one-on-one about the current state of retail and what new strategic areas retailers are examining. We'll take a look at how 2011 holiday sales turned out, discuss Internet sales tax, leadership, international expansion and more. Find out what retailers are doing to stay on top in this unpredictable climate and what products and services are giving Best Buy a competitive edge. <br />
+        <br />
+        Mark your calendar and plan to attend this free session!<br />
+        <br />
+        A Global Perspective on Retail<br />
+        3-4 p.m. January 11, 2012<br />
+        LVCC, North Hall N255-257<br />
+        <br />
+        <a  href="http://www.cesweb.org/conferenceProgram/SuperSessions.asp">See this and other CES SuperSessions.</a></p>
+    
+    
+        <!-- AddThis Button BEGIN -->
+        <script type="text/javascript">
+            addthis_pub = 'ceit2008';
+            addthis_brand = 'www.CESweb.org';
+            addthis_options = 'email, facebook, digg, delicious, favorites, linkedin, technorati, more';
+        </script>
+        <a href="http://www.addthis.com/bookmark.php" onmouseover="return addthis_open(this, '', 'http://www.CESweb.org/news/rssNews.asp#6130', '2012 International CES News')" onmouseout="addthis_close()" onclick="return addthis_sendto()"><img src="http://s7.addthis.com/static/btn/lg-share-en.gif" width="125" height="16" border="0" alt="" /></a><script type="text/javascript" src="http://s7.addthis.com/js/152/addthis_widget.js"></script>
+        <!-- AddThis Button END -->
+    </div>
+</div><div class="article">
+    
+    
+    <a name="6113"></a>
+    <img src="/images/photos/Eureka_Park_Update_web.jpg">
+    <div class="article-content">
+        <div class="sub-content-header">Eureka Park TechZone Triples Since Launch</div>
+        <span class="smallText">Dec 21, 2011 10:33:50</span>
+        
+        
+        Ninety-four companies will exhibit in the new Eureka Park TechZone at the 2012 International CES, a dedicated area in partnership with the National Science Foundation, Startup America Partnership, CNET and UK Trade &amp; Investment (UKTI), showcasing innovative start-ups and entrepreneurs. Owned and produced by the Consumer Electronics Association (CEA)®, the 2012 International CES®, the world’s largest tradeshow for consumer technology, is scheduled January 10-13, 2012 in Las Vegas, Nevada.<br />
+        <br />
+        “Entrepreneurship is a driving force in today’s economy, and exhibiting at CES is a great way for growing companies to gain recognition in the CE industry,” said Karen Chupka, senior vice president, events and conferences, CEA. “We are thrilled to see the overwhelming response from companies interested in exhibiting within the Eureka Park TechZone since its initial launch in June. This new area at the 2012 CES will be a must-see for CES attendees.”<br />
+        <br />
+        The Eureka Park TechZone, located in <a  href="http://www.cesweb.org/showFloor/by-hall.asp">The Venetian</a>, launched in June 2011 with 28 companies signed on to exhibit. The area has since grown to include 94 companies, spanning more than 9,000 net square feet of exhibit space.<br />
+        <br />
+        <a  href="http://www.cesweb.org/showFloor/techzones.asp#Eureka-Park">The Eureka Park TechZone</a> is designed to benefit budding entrepreneurs, fledgling start-ups, home grown innovation and small companies looking to gain footing in the consumer electronics industry. The Venetian will also feature CES keynotes and the Innovations Design and Engineering Showcase, as well as Eureka Park, a hot spot for venture capitalists, investors, media and more than 140,000 industry professionals looking for the next big thing in technology.<br />
+        <br />
+        In November, UKTI hosted a competition at its event, TechWorld, with the top three innovative companies awarded space within the Eureka Park TechZone at the 2012 CES. Winners included UK-based Blippar, Stereo Grafix and Yoskhi, which will be among the 94 companies exhibiting within Eureka Park.<br />
+        <br />
+        CEA recently announced its collaboration with the Startup America Partnership, an independent nonprofit entity launched at the White House in 2011 to help young companies succeed in order to accelerate job growth in America. Several Startup America Firms will exhibit in Eureka Park.<br />
+        <br />
+        The 2012 CES will feature <a  href="/showFloor/techzones.asp">more than 25 market-specific TechZones</a> covering product categories such as broadband services, safe driving and sustainable technologies. Companies interested in exhibiting in the Eureka Park TechZone should contact Kristen Nafziger at knafzgier@CE.org or 703-907-7648.
+    
+    
+        <!-- AddThis Button BEGIN -->
+        <script type="text/javascript">
+            addthis_pub = 'ceit2008';
+            addthis_brand = 'www.CESweb.org';
+            addthis_options = 'email, facebook, digg, delicious, favorites, linkedin, technorati, more';
+        </script>
+        <a href="http://www.addthis.com/bookmark.php" onmouseover="return addthis_open(this, '', 'http://www.CESweb.org/news/rssNews.asp#6113', '2012 International CES News')" onmouseout="addthis_close()" onclick="return addthis_sendto()"><img src="http://s7.addthis.com/static/btn/lg-share-en.gif" width="125" height="16" border="0" alt="" /></a><script type="text/javascript" src="http://s7.addthis.com/js/152/addthis_widget.js"></script>
+        <!-- AddThis Button END -->
+    </div>
+</div><div class="article">
+    
+    
+    <a name="6081"></a>
+    <img src="/images/photos/internationalCES.jpg">
+    <div class="article-content">
+        <div class="sub-content-header">Sustainability Efforts Ramp Up for 2012 International CES</div>
+        <span class="smallText">Dec 19, 2011 01:53:33</span>
+        
+        
+        <p>The Consumer Electronics Association (CEA), owner and producer of the 2012 International CES, announced the adoption of several new sustainability practices at the 2012 CES, the world’s largest technology tradeshow, to be held in Las Vegas January 10-13.<br />
+        <br />
+        New this year, attendee badge holders are made from repurposed vinyl show banners from last year’s show, and CEA will collect those badge holders at the end of the 2012 CES to recycle them again. Furthermore, CES general services contractor Global Experience Specialists (GES) will produce signs using a reusable, recyclable kraft paper honeycomb material. CEA will also seek to collect even more magnetic, vinyl and cardboard show signs for repurposing through a partnership with Repurpose America, a local nonprofit focusing on tradeshow recycling.<br />
+        <br />
+        Last year, Repurpose America collected roughly 18,000 pounds of magnetic signs from the 2011 CES, nearly 15,000 square feet of vinyl banners and more than 150 foam boards. In addition, CEA worked with contractors to recycle 289.6 tons of the solid waste generated at CES and increased the event’s recycle rate from 68 percent to 77 percent, several points higher than the average recycle rate of trade shows held at the Las Vegas Convention Center.<br />
+        <br />
+        “Our green and recycling efforts at the 2012 International CES are unprecedented for the largest annual event in the western hemisphere, covering more than 1.8 million square feet and welcoming more than140,000 attendees,” said Gary Shapiro, CEA president and CEO. “We’ve worked hard to ensure that we are using the latest and greatest sustainability practices in producing CES.”<br />
+        <br />
+        Along with the greening of the International CES, CEA also supports local green nonprofits. Last year, CEA gave $75,000 to Green Chips, a local Las Vegas charity supporting solar power installations. That money was used to install solar panels at a Las Vegas non-profit facility, resulting in substantial savings that allowed the organization to devote more money to serve those in need. CEA plans to make another donation benefiting Las Vegas and the environment at the 2012 International CES.<br />
+        <br />
+        The International CES also allows attendees to reduce their carbon footprint by gathering in one location. With each attendee reporting an average of 12 business meetings per CES, CES participants collectively avoid more than 960 million miles in business trips that they otherwise would have to take. As a result of attending CES and consolidating trips, the estimated net savings in travel is more than 549 million miles.<br />
+        <br />
+        For more information on sustainable materials used at the 2012 International CES and other information on the greening of CES, please go to: <a href="http://www.CESweb.org/green">www.CESweb.org/green</a>.</p>
+    
+    
+        <!-- AddThis Button BEGIN -->
+        <script type="text/javascript">
+            addthis_pub = 'ceit2008';
+            addthis_brand = 'www.CESweb.org';
+            addthis_options = 'email, facebook, digg, delicious, favorites, linkedin, technorati, more';
+        </script>
+        <a href="http://www.addthis.com/bookmark.php" onmouseover="return addthis_open(this, '', 'http://www.CESweb.org/news/rssNews.asp#6081', '2012 International CES News')" onmouseout="addthis_close()" onclick="return addthis_sendto()"><img src="http://s7.addthis.com/static/btn/lg-share-en.gif" width="125" height="16" border="0" alt="" /></a><script type="text/javascript" src="http://s7.addthis.com/js/152/addthis_widget.js"></script>
+        <!-- AddThis Button END -->
+    </div>
+</div><div class="article">
+    
+    
+    <a name="6045"></a>
+    <img src="/images/photos/MIG-150-pw.jpg">
+    <div class="article-content">
+        <div class="sub-content-header">MEMS at CES</div>
+        <span class="smallText">Dec 15, 2011 03:19:26</span>
+        
+        
+        <p>MEMS devices — tiny micro-electromechanical systems that provide intelligent sensing and actuation — let us interact with the digital world in ways we could only imagine in years past. <a  href="http://www.cesweb.org/conferenceProgram/conference-track.htm?track=et">Discover MEMS's amazing capabilities</a> and fire questions about motion sensing, user-interface control and multiband mobile-phone design with our panel of MEMS industry executives.</p>
+        <p>Mark your calendar: January 11, 10:30am in LVCC, North Hall, N254. <a  href="http://www.cesweb.org/conferenceProgram/conference-track.htm?track=et">Learn more.</a></p>
+    
+    
+        <!-- AddThis Button BEGIN -->
+        <script type="text/javascript">
+            addthis_pub = 'ceit2008';
+            addthis_brand = 'www.CESweb.org';
+            addthis_options = 'email, facebook, digg, delicious, favorites, linkedin, technorati, more';
+        </script>
+        <a href="http://www.addthis.com/bookmark.php" onmouseover="return addthis_open(this, '', 'http://www.CESweb.org/news/rssNews.asp#6045', '2012 International CES News')" onmouseout="addthis_close()" onclick="return addthis_sendto()"><img src="http://s7.addthis.com/static/btn/lg-share-en.gif" width="125" height="16" border="0" alt="" /></a><script type="text/javascript" src="http://s7.addthis.com/js/152/addthis_widget.js"></script>
+        <!-- AddThis Button END -->
+    </div>
+</div><div class="article">
+    
+    
+    <a name="6042"></a>
+    <img src="/images/photos/CES_DevUnLogo_200.jpg">
+    <div class="article-content">
+        <div class="sub-content-header">CES to Feature First-Ever Applications Developer University</div>
+        <span class="smallText">Dec 14, 2011 02:44:13</span>
+        
+        <P><A href="/events/devu.asp">Developer University at CES</A> is a unique event brought to you by the Consumer Electronics Association (CEA) where developers can go to one place to learn about the latest developer programs directly from multiple company representatives.</P>
+<P>&nbsp;</P>
+    
+        <!-- AddThis Button BEGIN -->
+        <script type="text/javascript">
+            addthis_pub = 'ceit2008';
+            addthis_brand = 'www.CESweb.org';
+            addthis_options = 'email, facebook, digg, delicious, favorites, linkedin, technorati, more';
+        </script>
+        <a href="http://www.addthis.com/bookmark.php" onmouseover="return addthis_open(this, '', 'http://www.CESweb.org/news/rssNews.asp#6042', '2012 International CES News')" onmouseout="addthis_close()" onclick="return addthis_sendto()"><img src="http://s7.addthis.com/static/btn/lg-share-en.gif" width="125" height="16" border="0" alt="" /></a><script type="text/javascript" src="http://s7.addthis.com/js/152/addthis_widget.js"></script>
+        <!-- AddThis Button END -->
+    </div>
+</div><div class="article">
+    
+    
+    <a name="6009"></a>
+    <img src="/images/photos/internationalCES.jpg">
+    <div class="article-content">
+        <div class="sub-content-header">Visit Me at CES! Exhibitor Video Contest Winners Announced</div>
+        <span class="smallText">Dec 06, 2011 08:21:02</span>
+        
+        
+        The votes are in for the “Visit Me at CES!” Exhibitor Video Contest! With so many great videos demonstrating the exciting technologies at the 2012 International CES we know it was hard for you to decide your favorites. Congratulations to the following exhibitors who received the most votes: Cherple, Dotz, Sonomax Technologies Inc., Urban Green Energy Inc., and Wilson Electronics Inc.! <a  href="http://www.cesweb.org/exhibitors/resources/video-contest.htm">Check out these winning video on our website</a>. Thank you to all the exhibitors who participated in the contest and congratulations again to our winners!
+    
+    
+        <!-- AddThis Button BEGIN -->
+        <script type="text/javascript">
+            addthis_pub = 'ceit2008';
+            addthis_brand = 'www.CESweb.org';
+            addthis_options = 'email, facebook, digg, delicious, favorites, linkedin, technorati, more';
+        </script>
+        <a href="http://www.addthis.com/bookmark.php" onmouseover="return addthis_open(this, '', 'http://www.CESweb.org/news/rssNews.asp#6009', '2012 International CES News')" onmouseout="addthis_close()" onclick="return addthis_sendto()"><img src="http://s7.addthis.com/static/btn/lg-share-en.gif" width="125" height="16" border="0" alt="" /></a><script type="text/javascript" src="http://s7.addthis.com/js/152/addthis_widget.js"></script>
+        <!-- AddThis Button END -->
+    </div>
+</div><div class="article">
+    
+    
+    <a name="6008"></a>
+    <img src="/images/photos/CES_EntertainmentMatters_200pw2.jpg">
+    <div class="article-content">
+        <div class="sub-content-header">YouTube’s Robert Kyncl to Deliver Entertainment Matters Keynote Address at the 2012 International CES </div>
+        <span class="smallText">Dec 06, 2011 08:16:02</span>
+        
+        
+        <p>Robert Kyncl, vice president of global content partnerships at YouTube, will deliver the <a  href="http://www.cesweb.org/EM/entertainment-matters.htm">Entertainment Matters </a>keynote address at the 2012 International CES. Owned and produced by CEA, the 2012 International CES, the world’s largest consumer technology tradeshow, is scheduled Tuesday, January 10-Friday, January 13 in Las Vegas, Nevada.</p>
+        <p>“Since its founding in 2005, YouTube has come to define the convergence of entertainment and technology, which has changed the entertainment marketplace as dramatically as the advent of cable television,” said Karen Chupka, senior vice president, events and conferences, CEA. “We are thrilled to have Robert Kyncl deliver the 2012 Entertainment Matters keynote and look forward to hearing his outlook on the future of YouTube and consumer technology.”</p>
+        <p>Kyncl has been a driving force in bringing even more original entertainment to YouTube's existing channel lineup. At the Entertainment Matters keynote, Kyncl and friends will discuss the tremendous opportunity for the web as a distribution vehicle, and how we envision the entertainment ecosystem evolving over time. The keynote is slated for 10 am PT on Thursday, January 12, in the Las Vegas Hilton Theater.</p>
+        <p>Entertainment Matters at CES is sponsored by Variety and Ericsson, with the Screen Actors Guild as an associate sponsor. Back for a second year, Entertainment Matters at CES is designed by and for Hollywood’s film, television and digital communities and will feature exhibits, events and conference programs for entertainment professionals interested in the convergence of content and technology.</p>
+        <p>Kyncl joins other confirmed <a  href="http://cesweb.org/events/keynotes.asp">2012 CES keynote speakers</a> including Microsoft’s Steve Ballmer, Ericsson's Hans Vestberg, Daimler’s Dr. Dieter Zetsche, Qualcomm's Dr. Paul Jacobs, Intel’s Paul Otellini, Xerox’s Ursula Burns, Verizon’s Lowell McAdam and Ford’s Alan Mulally. Keynotes at the 2012 CES will be held at The Venetian, Level 5, Palazzo Ballroom and the Las Vegas Hilton Theater.</p>
+    
+    
+        <!-- AddThis Button BEGIN -->
+        <script type="text/javascript">
+            addthis_pub = 'ceit2008';
+            addthis_brand = 'www.CESweb.org';
+            addthis_options = 'email, facebook, digg, delicious, favorites, linkedin, technorati, more';
+        </script>
+        <a href="http://www.addthis.com/bookmark.php" onmouseover="return addthis_open(this, '', 'http://www.CESweb.org/news/rssNews.asp#6008', '2012 International CES News')" onmouseout="addthis_close()" onclick="return addthis_sendto()"><img src="http://s7.addthis.com/static/btn/lg-share-en.gif" width="125" height="16" border="0" alt="" /></a><script type="text/javascript" src="http://s7.addthis.com/js/152/addthis_widget.js"></script>
+        <!-- AddThis Button END -->
+    </div>
+</div><div class="article">
+    
+    
+    <a name="5892"></a>
+    <img src="/images/photos/2k12CES_InnovPan.jpg">
+    <div class="article-content">
+        <div class="sub-content-header">2012 CES Innovation Power Panel Keynote to Feature CEOs of Ford, Verizon and Xerox</div>
+        <span class="smallText">Nov 17, 2011 11:29:42</span>
+        
+        
+        <p>Xerox Chairman and CEO Ursula Burns, Verizon President and CEO Lowell McAdam and Ford Motor Company President and CEO Alan Mulally will join the <a  href="http://cesweb.org/events/keynotes.asp">2012 International CES keynote lineup</a> as participants in the CES Innovation Power Panel. <br />
+        <br />
+        "This unique keynote panel, one of our most popular events at the 2011 CES where it debuted, will bring together business leaders whose ingenuity helps to fuel the global economy," said Gary Shapiro, president and CEO, CEA. "The technology industry is powering the global marketplace, and the chief executives of these marquee companies will give CES attendees a unique perspective on the power of innovation."<br />
+        <br />
+        The CES Innovation Power Panel will take place at 9 a.m. Wednesday, January 11 in the Las Vegas Hilton Theater. In a lively and informative discussion moderated by Shapiro, these visionary executives will discuss how a spirit of innovation and entrepreneurship has made them global leaders in their industries. <br />
+        <br />
+        Ursula Burns, chairman and CEO of Xerox Corporation, has been with Xerox since 1980. She began her career with the company as a mechanical engineering summer intern before working her way up to lead various organizations including Xerox's global research as well as product development, marketing and delivery. She was named CEO in July 2009 and has since been instrumental in driving the acquisition of Affiliated Computer Services, which has transformed Xerox into the world’s leading enterprise for business process and document management. Burns has been recognized for her leadership by both Fortune and Forbes magazine’s "Most Powerful Women" lists. Also, under Ursula’s watch Xerox has been named to Bloomberg Businessweek's "The World's 25 Most Inventive Companies."</p>
+        <p>Lowell McAdam was named president and CEO of Verizon Communications in August 2011, having previously served as the company's president and COO. He also held key executive positions at Verizon Wireless since its inception in 2000, and built the company into the industry’s leading wireless provider, with the nation's largest, most reliable wireless voice and 3G broadband data network. Additionally, he has served as vice president of international operations for AirTouch Communications. McAdam currently serves as chairman of the Verizon Wireless Board of Representatives, and on the board of directors of Verizon Communications.</p>
+        <p>Alan Mulally, president and CEO of Ford Motor Company, joined Ford in 2006, after serving as executive vice president of The Boeing Company and president and chief executive officer of Boeing Commercial Airplanes. He is known for his innovative and focused industry leadership, while working to transform Ford into a lean, global enterprise. He has served as a past president of the American Institute of Aeronautics and Astronautics (AIAA) and is a former president of its Foundation. Mulally was named Chief Executive Magazine’s "CEO of the Year" in 2011, "Businessperson of the Year" by the readers of Fortune Magazine in 2010, one of Time Magazine's 100 Most Influential People in 2009 and "Person of the Year" in 2006 by Aviation Week magazine.</p>
+    
+    
+        <!-- AddThis Button BEGIN -->
+        <script type="text/javascript">
+            addthis_pub = 'ceit2008';
+            addthis_brand = 'www.CESweb.org';
+            addthis_options = 'email, facebook, digg, delicious, favorites, linkedin, technorati, more';
+        </script>
+        <a href="http://www.addthis.com/bookmark.php" onmouseover="return addthis_open(this, '', 'http://www.CESweb.org/news/rssNews.asp#5892', '2012 International CES News')" onmouseout="addthis_close()" onclick="return addthis_sendto()"><img src="http://s7.addthis.com/static/btn/lg-share-en.gif" width="125" height="16" border="0" alt="" /></a><script type="text/javascript" src="http://s7.addthis.com/js/152/addthis_widget.js"></script>
+        <!-- AddThis Button END -->
+    </div>
+</div><div class="article">
+    
+    
+    <a name="5847"></a>
+    <img src="/images/photos/internationalCES.jpg">
+    <div class="article-content">
+        <div class="sub-content-header">eBay Inc.'s John Donahoe to Keynote the 2012 CES Leaders in Technology Dinner</div>
+        <span class="smallText">Nov 08, 2011 05:44:45</span>
+        
+        
+        <p>The Consumer Electronics Association (CEA)® announced that <a  href="http://cesweb.org/news/releaseDetail.asp?id=12207">John Donahoe, president and CEO of eBay Inc., will deliver a keynote address at the Leaders in Technology Dinner (LIT)</a>, to be held at the 2012 International CES®. Owned and produced by CEA, the 2012 International CES, the world's largest consumer technology tradeshow, is scheduled January 10-13, 2012 in Las Vegas, Nevada. <br />
+        <br />
+        The Leaders in Technology Dinner will take place at 6:30 p.m. Wednesday, January 11, 2012, in the Lafite Ballroom at The Wynn. This invitation-only event honors the top technologists, entrepreneurs and policymakers instrumental in furthering technology innovation.<br />
+        <br />
+        "John Donahoe is an innovative leader whose admirable drive and entrepreneurship has contributed to eBay’s global business success," said Gary Shapiro, president and CEO, CEA. "We are thrilled to have John keynote the 2012 CES LIT dinner and look forward to hearing his vision for how technology is changing the future of global commerce."<br />
+        <br />
+        As President and CEO since 2008, John Donahoe leads eBay Inc., a global ecommerce and payments leader with revenues of $9.2 billion in 2010 and hundreds of millions of users in nearly every country on Earth. John has driven a strong focus on innovation and customers across eBay Inc.’s core businesses, which include eBay, PayPal, GSI Commerce and X.commerce, the company’s platform division. Under his watch, the company has aggressively grown payments, made major strides in reinvigorating its core marketplace business, and established an early lead in mobile commerce.<br />
+        <br />
+        Previous Leaders in Technology speakers include Netflix Co-Founder and CEO Reed Hastings, co-founder and editor-in-chief of The Huffington Post, Arianna Huffington and Josh Silverman, CEO of Skype.<br />
+        <br />
+        The Leaders in Technology Program at CES allows high-level public policymakers and technologists to learn from the more than 2,700 exhibitors and thousands of new products that contribute to a dynamic industry that supports $936 billion in retail sales worldwide. The program also provides information and insight to assist officials in evaluating federal policies that affect the consumer technology industry. For more information on the Leaders in Technology Program please contact Laura Hudson at lhudson@CE.org or 703-907-7604.</p>
+    
+    
+        <!-- AddThis Button BEGIN -->
+        <script type="text/javascript">
+            addthis_pub = 'ceit2008';
+            addthis_brand = 'www.CESweb.org';
+            addthis_options = 'email, facebook, digg, delicious, favorites, linkedin, technorati, more';
+        </script>
+        <a href="http://www.addthis.com/bookmark.php" onmouseover="return addthis_open(this, '', 'http://www.CESweb.org/news/rssNews.asp#5847', '2012 International CES News')" onmouseout="addthis_close()" onclick="return addthis_sendto()"><img src="http://s7.addthis.com/static/btn/lg-share-en.gif" width="125" height="16" border="0" alt="" /></a><script type="text/javascript" src="http://s7.addthis.com/js/152/addthis_widget.js"></script>
+        <!-- AddThis Button END -->
+    </div>
+</div><div class="article">
+    
+    
+    <a name="5846"></a>
+    <img src="/images/photos/2k12_Innovations_SAMPLE_PC.jpg">
+    <div class="article-content">
+        <div class="sub-content-header">CEA Announces Best Of Innovations Design And Engineering Honorees</div>
+        <span class="smallText">Nov 08, 2011 05:35:54</span>
+        
+        
+        <p>The Consumer Electronics Association (CEA)® has announced its 2012 International CES Best of Innovations Design and Engineering Award Honorees. The International CES Innovations Awards honor outstanding design and engineering advancements across 32 consumer electronics product categories, including two new trend-focused categories: Tablets, e-Readers and Netbooks, and Software and Mobile Apps. <br />
+        <br />
+        "We saw a 10 percent increase in Innovations Award entries this year, which highlights the honor and prestige associated with these awards and the robust innovation within the CE industry," said Karen Chupka, senior vice president, events and conferences, CEA. "We congratulate all finalists for their design and engineering expertise."</p>
+        <p>The Best of Innovations honor is awarded to the products with the highest judges' scores and will be featured in the Innovations Design and Engineering Showcase at the 2012 International CES. Honorees will also be displayed at CES Unveiled: the Official Press Event of the International CES from 4-7 p.m. on Sunday, January 8 in the Venetian Ballroom of the Venetian. The 2012 International CES, the world's largest consumer technology tradeshow is scheduled to run January 10-13, 2012.</p>
+        <p>Entries for The Best of Innovations are judged on overall engineering qualities related to technical specifications and materials, aesthetics and design qualities, the product's intended use and function, unique features and how the design and innovation of the product compares to others in the marketplace.</p>
+        <p><a  href="/awards/innovations/2012-innovations-honorees.htm">The 2012 CES Innovations Design and Engineering Award Honorees for 2012 are...</a></p>
+    
+    
+        <!-- AddThis Button BEGIN -->
+        <script type="text/javascript">
+            addthis_pub = 'ceit2008';
+            addthis_brand = 'www.CESweb.org';
+            addthis_options = 'email, facebook, digg, delicious, favorites, linkedin, technorati, more';
+        </script>
+        <a href="http://www.addthis.com/bookmark.php" onmouseover="return addthis_open(this, '', 'http://www.CESweb.org/news/rssNews.asp#5846', '2012 International CES News')" onmouseout="addthis_close()" onclick="return addthis_sendto()"><img src="http://s7.addthis.com/static/btn/lg-share-en.gif" width="125" height="16" border="0" alt="" /></a><script type="text/javascript" src="http://s7.addthis.com/js/152/addthis_widget.js"></script>
+        <!-- AddThis Button END -->
+    </div>
+</div><div class="article">
+    
+    
+    <a name="5760"></a>
+    <img src="/images/photos/CEA-logo.gif">
+    <div class="article-content">
+        <div class="sub-content-header">CEA Wins Show Photography Award from IAEE</div>
+        <span class="smallText">Oct 24, 2011 03:05:05</span>
+        
+        
+        <p><a  target="_blank" href="http://ce.org">The Consumer Electronics Association (CEA)</a> recently won the "Show Photography" award in the International Association of Exhibitions and Events' (IAEE) 2011 Art of the Show Competition. The award recognizes promotional images used to market the International CES, CEA's flagship event and the world's largest consumer technology tradeshow. CEA also received honorable mention awards in the Attendance Promotion Brochure category and the Show Daily category for its promotion of the International CES. <br />
+        <br />
+        "CEA is honored to receive these IAEE awards, recognizing the innovative photography and promotional marketing that makes the International CES a success," said Karen Chupka, senior vice president, events and conferences, CEA. "We are thrilled to receive recognition the tradeshow industry for the creative promotions that help the International CES distinguish itself from other shows."<br />
+        <br />
+        Owned and produced by CEA, the <a  href="http://cesweb.org">2012 International CES</a>, the world's largest tradeshow for consumer technology, is scheduled January 10-13, 2012, in Las Vegas, Nevada. The 2012 CES will feature more than 2,700 global technology companies unveiling the latest consumer technology products and services across 15 major product categories including the latest in audio, automotive electronics, connected home technologies, digital imaging, electronic gaming, entertainment/content and more. For more information on the 2012 International CES, visit CESweb.org.</p>
+    
+    
+        <!-- AddThis Button BEGIN -->
+        <script type="text/javascript">
+            addthis_pub = 'ceit2008';
+            addthis_brand = 'www.CESweb.org';
+            addthis_options = 'email, facebook, digg, delicious, favorites, linkedin, technorati, more';
+        </script>
+        <a href="http://www.addthis.com/bookmark.php" onmouseover="return addthis_open(this, '', 'http://www.CESweb.org/news/rssNews.asp#5760', '2012 International CES News')" onmouseout="addthis_close()" onclick="return addthis_sendto()"><img src="http://s7.addthis.com/static/btn/lg-share-en.gif" width="125" height="16" border="0" alt="" /></a><script type="text/javascript" src="http://s7.addthis.com/js/152/addthis_widget.js"></script>
+        <!-- AddThis Button END -->
+    </div>
+</div><div class="article">
+    
+    
+    <a name="5759"></a>
+    <img src="/images/photos/internationalCES.jpg">
+    <div class="article-content">
+        <div class="sub-content-header">CES Expands Wireless Exhibits</div>
+        <span class="smallText">Oct 24, 2011 03:00:10</span>
+        
+        
+        <p>You’ve heard all about the new connected consumer – the ones who don’t miss a thing thanks to wireless mobile and portable devices. This January, see what keeps these consumers thriving at a variety of wireless exhibitors, conference sessions and dedicated <a  href="/showFloor/techzones.asp">TechZones</a>.<br />
+        <br />
+        <img width="130" height="23" alt="" style="float: left; margin-left: 5px; margin-right: 5px;"  width="130" height="23" src="/images/content/AccessTZ_100px.jpg" />CES’ <a  href="http://www.cesweb.org/showFloor/techzones.asp#5152">Access on the Go TechZone </a>highlights mobile devices that deliver on-the-go content such as music, movies, television, books and magazines. Devices like the e-Reader and the tablet as well as products that blur the line between the two are flooding the marketplace.<br />
+        <br />
+        <img width="116" height="67" alt="" style="float: right;"  width="116" height="67" src="/images/content/8789-MEMS-TechZone_200.jpg" />For the first time at CES, MEMS Industry Group (MIG) will host the <a  href="http://www.cesweb.org/showFloor/techzones.asp#5320">MEMS TechZone</a> and a conference session. This new area of the show floor showcases companies that are driving the adoption of this exciting technology in mobile phones, game consoles, tablet PCs and other hot consumer electronics devices.<br />
+        <br />
+        The 2012 International CES will also highlight wireless technology in <a  href="/conferenceProgram/default.asp">various conference sessions</a> including:</p>
+        <ul>
+            <li>Mobile Payment Basics: How the Technology Works and How the Business Works </li>
+            <li>To 4G or Not to 4G </li>
+            <li>Smartphones: Hot Features and Trends </li>
+            <li>Planet of the Apps </li>
+        </ul>
+        <p>Major wireless <a  href="http://ces12.mapyourshow.com/5_0/search.cfm?">exhibitors at the 2012 International CES </a>include: Alcatel-Lucent, Audiovox, Blackberry, Ericsson, LG, Motorola, Nokia, Qualcomm, Samsung, Sprint, T-Mobile and Verizon. See more exhibitors now.</p>
+    
+    
+        <!-- AddThis Button BEGIN -->
+        <script type="text/javascript">
+            addthis_pub = 'ceit2008';
+            addthis_brand = 'www.CESweb.org';
+            addthis_options = 'email, facebook, digg, delicious, favorites, linkedin, technorati, more';
+        </script>
+        <a href="http://www.addthis.com/bookmark.php" onmouseover="return addthis_open(this, '', 'http://www.CESweb.org/news/rssNews.asp#5759', '2012 International CES News')" onmouseout="addthis_close()" onclick="return addthis_sendto()"><img src="http://s7.addthis.com/static/btn/lg-share-en.gif" width="125" height="16" border="0" alt="" /></a><script type="text/javascript" src="http://s7.addthis.com/js/152/addthis_widget.js"></script>
+        <!-- AddThis Button END -->
+    </div>
+</div><div class="article">
+    
+    
+    <a name="5758"></a>
+    <img src="/images/photos/Paul-Jacobs_Qualcomm_130x15.gif">
+    <div class="article-content">
+        <div class="sub-content-header">Qualcomm's Dr. Paul E. Jacobs to Deliver Opening Keynote Address at the 2012 International CES</div>
+        <span class="smallText">Oct 24, 2011 02:53:31</span>
+        
+        
+        <p>Dr. Paul E. Jacobs, chairman and CEO of Qualcomm Incorporated, will deliver the opening <a  href="http://cesweb.org/events/keynotes.asp">keynote address</a> at the 2012 International CES®. Jacobs' keynote will be part of the Technology and Evolving Countries (TEC) Program at the 2012 CES, focused on the role mobile technology plays in global innovation and economic growth in consumer electronics. Owned and produced by CEA, the 2012 International CES, the world's largest consumer technology tradeshow, is scheduled January 10-13, 2012 in Las Vegas, Nevada. <br />
+        <br />
+        Dr. Jacobs' keynote is slated for 8:30 a.m. Tuesday, January 10, in the Venetian, following a State of the CE Industry keynote address delivered by Gary Shapiro, president and CEO, CEA. To hear Dr. Paul Jacobs' thoughts on the significance of this keynote and what he will cover, please visit his new post on Qualcomm's OnQ blog.<br />
+        <br />
+        "Qualcomm's more than 25 years of wireless innovation is driving growth of next-generation mobile technologies that connect people around the world," said Shapiro. "We look forward to hearing Dr. Jacobs' latest plans for Qualcomm and his strategic vision for the future of mobile technology."<br />
+        <br />
+        Dr. Paul E. Jacobs was named CEO of Qualcomm in 2005 and was appointed chairman of the Company’s board of directors in 2009. Since joining Qualcomm in 1990, he has spearheaded Qualcomm's efforts to develop and commercialize mobile technology breakthroughs that have contributed significantly to the growth of both the Company and the industry. Noteworthy developments that began under Dr. Jacobs include the first smartphone, the inclusion of GPS capabilities in mobile phones and the creation of the Snapdragon™ processor.<br />
+        <br />
+        "The dramatic growth of smartphones and tablets, and Microsoft’s support of Windows on ARM-based processors, firmly establishes mobile as the computing platform of today," said Jacobs. "Emerging countries are now adopting mobile technologies on a huge scale. This creates tremendous growth opportunities in the consumer electronics and computing industries around the world. Qualcomm is helping drive these opportunities through our Snapdragon processors and other mobile innovations."<br />
+        <br />
+        The TEC Program at CES shines a spotlight on technology's critical role in enabling economic, social and political empowerment opportunities for evolving countries and their citizens. Additional TEC sessions will be announced later this fall.<br />
+        <br />
+        Jacobs joins other confirmed <a  href="http://cesweb.org/events/keynotes.asp">2012 CES keynoters</a> including Microsoft's Steve Ballmer, Ericsson's Hans Vestberg and Daimler's Dr. Dieter Zetsche. Additional CES keynotes will be announced later this fall.</p>
+    
+    
+        <!-- AddThis Button BEGIN -->
+        <script type="text/javascript">
+            addthis_pub = 'ceit2008';
+            addthis_brand = 'www.CESweb.org';
+            addthis_options = 'email, facebook, digg, delicious, favorites, linkedin, technorati, more';
+        </script>
+        <a href="http://www.addthis.com/bookmark.php" onmouseover="return addthis_open(this, '', 'http://www.CESweb.org/news/rssNews.asp#5758', '2012 International CES News')" onmouseout="addthis_close()" onclick="return addthis_sendto()"><img src="http://s7.addthis.com/static/btn/lg-share-en.gif" width="125" height="16" border="0" alt="" /></a><script type="text/javascript" src="http://s7.addthis.com/js/152/addthis_widget.js"></script>
+        <!-- AddThis Button END -->
+    </div>
+</div><div class="article">
+    
+    
+    <a name="5645"></a>
+    <img src="/images/photos/Emmys_200.gif">
+    <div class="article-content">
+        <div class="sub-content-header">Tech and Engineering Emmy Award Winners Announced, CEA Among the Honored</div>
+        <span class="smallText">Oct 06, 2011 11:04:03</span>
+        
+        
+        Launched in 1948, <a  href="/awards/techEmmys.asp">The Technology and Engineering Emmy® Awards</a> honor development and innovation in broadcast technology and recognize companies, organizations and individuals for breakthroughs in technology that have a significant effect on television engineering.
+        <p>Companies and people in the consumer technology and digital entertainment fields are honored each year. The individuals and companies to be honored at the 2012 event include:</p>
+        <h3>Local Cable Ad Insertion Technology - Cable Digital Standards for Local Cable Advertising</h3>
+        <ul class="text">
+            <li class="text">SMPTE </li>
+            <li class="text">SCTE</li>
+        </ul>
+        <h3>The System for Automated Migration of Media Assets </h3>
+        <ul class="text">
+            <li class="text">Samma</li>
+        </ul>
+        <h3>Pioneering Development of Large-Venue, Large-Screen Direct View Color Video Displays </h3>
+        <ul class="text">
+            <li class="text">Mitsubishi Electric Power Products, Inc. - Diamond Vision Systems </li>
+            <li class="text">Shuji Nakamura, Professor, University of California - Santa Barbara Nichia Corporation</li>
+        </ul>
+        <h3>Pioneering Development and Deployment of Active Format Description Technology and System </h3>
+        <ul class="text">
+            <li class="text">ATSC</li>
+            <li class="text">SMPTE </li>
+            <li class="text">DTG - Digital TV Group </li>
+            <li class="text">DVB</li>
+            <li class="text">NBC Universal </li>
+            <li class="text">Ericsson </li>
+            <li class="text">Miranda Technologies </li>
+            <li class="text">CEA</li>
+        </ul>
+        <h3>Development of Integrated, Deployable Systems for Live Reporting from Remote Environments </h3>
+        <ul class="text">
+            <li class="text">David Bloom </li>
+            <li class="text">NBC</li>
+            <li class="text">MTN Satellite Communications</li>
+        </ul>
+        <h3>Standardization of Loudness Metering for Use in Broadcast Audio </h3>
+        <ul class="text">
+            <li class="text">ITU-R Study Group 6, International Telecommunication Union (ITU) </li>
+            <li class="text">Dolby Laboratories, Inc. </li>
+            <li class="text">Communications Research Centre</li>
+            <li class="text">Dr. Gilbert Soulodre</li>
+            <li class="text">Craig Todd</li>
+        </ul>
+        <h3>Development of Professional Tapeless Portable Acquisition Systems Using Affordable Media </h3>
+        <ul class="text">
+            <li class="text">Sony Professional Solutions of America</li>
+        </ul>
+        <h3>Pioneering Development of Removable Solid State Media for Video Camera/Recorders (Camcorders) </h3>
+        <ul class="text">
+            <li class="text">Panasonic</li>
+        </ul>
+        <p>CES is proud to host the Tech@ Engineering Emmy Awards on Thursday, January 12, 2012, at The Venetian, Delfino 4101, Level 2. For ticket and sponsorship information, contact Lauren Saverine at 212-484-9440 or by email at <a  href="lsaverine@emmyonline.tv.mailto:lsaverine@emmyonline.tv">lsaverine@emmyonline.tv</a>.</p>
+        <p>Awards are presented to an individual, company, or to a scientific or technical organization for developments and/or standardization involved in engineering technologies which either represent an extensive improvement on existing methods or are so innovative in nature that they materially have affected the transmission, recording, or reception of television. See more events.</p>
+        <ul></ul>
+            <ul></ul>
+            
+    
+        <!-- AddThis Button BEGIN -->
+        <script type="text/javascript">
+            addthis_pub = 'ceit2008';
+            addthis_brand = 'www.CESweb.org';
+            addthis_options = 'email, facebook, digg, delicious, favorites, linkedin, technorati, more';
+        </script>
+        <a href="http://www.addthis.com/bookmark.php" onmouseover="return addthis_open(this, '', 'http://www.CESweb.org/news/rssNews.asp#5645', '2012 International CES News')" onmouseout="addthis_close()" onclick="return addthis_sendto()"><img src="http://s7.addthis.com/static/btn/lg-share-en.gif" width="125" height="16" border="0" alt="" /></a><script type="text/javascript" src="http://s7.addthis.com/js/152/addthis_widget.js"></script>
+        <!-- AddThis Button END -->
+    </div>
+</div><div class="article">
+    
+    
+    <a name="5507"></a>
+    <img src="/images/photos/2k12_Innovations_SAMPLE_PC.jpg">
+    <div class="article-content">
+        <div class="sub-content-header">Innovations Entry Deadline Extended to Wednesday, Sept. 21</div>
+        <span class="smallText">Sep 14, 2011 04:12:36</span>
+        
+        
+        <p>You asked for it, and we listened. We're extending the <a  href="http://CESweb.org/Innovations">Innovations Awards entry </a>deadline to 11:59 p.m. EST Wednesday, September 21, 2011, giving you five additional days to finalize your applications.<br />
+        <br />
+        You know your product is the best. Does the rest of world? Make your mark in the consumer electronics industry with your creative ideas, innovative designs and accomplished engineering. <a  href="http://CESweb.org/Innovations">Enter the Innovations 2012 Awards program to boost your products into the limelight.</a><br />
+        <br />
+        <a  href="http://cesweb.org/Awards/InnovationAwards/2011honorees.htm">Past Innovations Honorees </a>are celebrated as some of the best products in consumer technology with unbeatable press coverage, high visibility and admiration.<br />
+        <br />
+        Enjoy the rewards! <a  href="http://cesweb.org/awards/innovations/about.asp#728">Check out our Honoree Benefits.</a><br />
+        <br />
+        Don't miss the opportunity to be a part of consumer technology's most impressive awards program. Give your brilliant innovations the recognition they deserve: Apply now.</p>
+        <p>Visit <a  href="http://CESweb.org/Innovations">CESweb.org/Innovations</a> or email <a href="mailto:Innovations@CE.org">Innovations@CE.org</a>.</p>
+        <p>&nbsp;</p>
+    
+    
+        <!-- AddThis Button BEGIN -->
+        <script type="text/javascript">
+            addthis_pub = 'ceit2008';
+            addthis_brand = 'www.CESweb.org';
+            addthis_options = 'email, facebook, digg, delicious, favorites, linkedin, technorati, more';
+        </script>
+        <a href="http://www.addthis.com/bookmark.php" onmouseover="return addthis_open(this, '', 'http://www.CESweb.org/news/rssNews.asp#5507', '2012 International CES News')" onmouseout="addthis_close()" onclick="return addthis_sendto()"><img src="http://s7.addthis.com/static/btn/lg-share-en.gif" width="125" height="16" border="0" alt="" /></a><script type="text/javascript" src="http://s7.addthis.com/js/152/addthis_widget.js"></script>
+        <!-- AddThis Button END -->
+    </div>
+</div>
+</div>
+<div id="page_navigation"></div>
+<input type="hidden" id="current_page" />
+<input type="hidden" id="show_per_page" />
+                            <script type="text/javascript">
+                                $(".grid-box, .promo-box, .sideimage").each(function(index){
+                                    var remainder = (index + 1) % 3;
+                                    if(remainder == 0)
+                                    {
+                                        $(this).addClass("end");
+                                    }
+                                });
+                            </script>
+                        </div>
+                        
+                        <script type="text/javascript">
+                            if($("#inner-content-left").length > 0)
+                            {
+                                $(".divider-line-long").remove();
+                            }
+                            else
+                            {
+                                $(".divider-line").remove();
+                            }
+                        </script>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="sitelinks">
+    
+    <div>
+        <img src="/images/framework/footer_cesnews.png" alt="CES NEWS">
+        <ul>
+            <li><a href="/news/rssNews.asp">Sign up for RSS news feeds</a></li>
+            <li><a href="http://www.CESweb.org/Facebook">Follow CES on Facebook</a></li>
+            <li><a href="/news/rssNews.asp">See all the latest CES news</a></li>
+        </ul>
+    </div>
+    <div>
+        <img src="/images/framework/footer_confprog.png" alt="SESSION HIGHLIGHTS">
+        <ul>
+            <li><a href="http://cesweb.org/conferenceProgram/default.asp">Conference program revealed Oct. 1</li>
+            <li><a href="/conferenceProgram/speakers/speakerServices.asp">See services CES provides its speakers</li>
+            <li><a href="/news/multimedia-gallery.asp">Watch session videos from the most recent CES</li>
+        </ul>
+    </div>
+    <div>
+        <img src="/images/framework/footer_eventsawards.png" alt="EVENTS & AWARDS">
+        <ul>
+            <li><a href="http://cesweb.org/events/keynotes.asp">See developing keynote lineup</li>
+            <li><a href="/events/CEA-events.asp">See CEA's calendar of events</li>
+            <li><a href="/awards/innovations/default.asp">Innovations honorees on cutting-edge of engineering</li>
+        </ul>
+    </div>
+    <div class="importantend">
+        <img src="/images/framework/footer_hoteltravel.png" alt="HOTEL & TRAVEL">
+        <ul>
+            <li><a href="/hotelTravel/hotel.asp">Vegas hotels offer discounts for CES attendees</li>
+            <li><a href="/hotelTravel/shuttle.asp">CES offers free shuttle service all four days of show</li>
+            <li><a href="/hotelTravel/lasVegas.asp">CES offers travel trips</li>
+        </ul>
+    </div>
+</div>
+    </div>
+    
+    <div id="footer-home">
+    <div id="footer_nav-home">
+        <a href="http://www.cesweb.org/aboutces.asp"><a href="/aboutces.asp">About CES</a></a><span>|</span>
+        <a href="http://www.cesweb.org/aboutcea.asp"><a href="/aboutcea.asp">About CEA</a></a><span>|</span>
+        <a href="http://www.cesweb.org/rssNews.asp"><a href="/news/rssNews.asp">RSS News</a></a><span>|</span>
+        <a href="http://www.cesweb.org/myCES.asp"><a href="/myCES.asp">MyCES</a></a><span>|</span>
+        <a href="http://www.cesweb.org/contactus.asp"><a href="/contactus.asp">Contact Us</a></a><span>|</span>
+        <a href="http://www.cesweb.org/sitemap.asp"><a href="/sitemap.asp">Site Map</a></a><span>|</span>
+        <a href="http://www.cesweb.org/privacyPolicy.asp"><a href="/privacyPolicy.asp">Privacy Policy</a></a><span>|</span>
+        <a href="http://www.cesweb.org/partners.asp"><a href="/partners.asp">Partners</a></a>&nbsp;
+    </div>
+    <div id="copyright-home">Copyright &copy; 2003 - 2011 CEA. All rights reserved.</div>
+    <a target="_blank" href="http://www.CE.org"><img src="http://content.ce.org/2012CES/framework/cesweb_footerlogo.png" border=0></a>
+</div>
+
+
+<!-- Yahoo! Web Analytics - All rights reserved -->
+<script type="text/javascript" src="http://d.yimg.com/mi/eu/ywa.js"></script>
+<script type="text/javascript">
+/*globals YWA*/
+var YWATracker = YWA.getTracker("1000217290027");
+//YWATracker.setDocumentName("");
+//YWATracker.setDocumentGroup("");
+//YMATracker.setAction("");
+YWATracker.submit();
+</script>
+<noscript>
+<div><img src="http://s.analytics.yahoo.com/p.pl?a=1000217290027&amp;js=no" width="1" height="1" alt="" /></div>
+</noscript>
+<!-- /Yahoo! Web Analytics - All rights reserved -->
+
+
+</body>
+</html>
