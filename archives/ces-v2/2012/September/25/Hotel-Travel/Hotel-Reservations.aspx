@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head id="head"><title>
+	2013 International CES, January 8 - 11 - Hotel Reservations
+</title><meta charset="UTF-8" /> 
+<link href="/CMSPages/GetResource.ashx?stylesheetname=cesweb" type="text/css" rel="stylesheet"/> 
+<link rel="icon" href="/cesweb/media/CESWeb/favicon.ico" type="image/x-icon"> 
+<link rel="shortcut icon" href="/cesweb/media/CESWeb/favicon.ico" type="image/x-icon"> 
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-3975226-4']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+<!--[if lt IE 9]>
+<style>
+#topnav>li>a { font-family: Arial !important; font-size: 14px !important; letter-spacing: -1px; font-weight: bold;}
+/* #topnav>li{ padding-left:28px !important; } */
+.greenbox-bg ul a.lefttopnavhead { font-family: Arial !important; font-size: 14px !important; font-weight: bold; }
+</style>
+<![endif]-->
+<!--[if IE 8]>
+<style>
+#topnav > li { filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=/hIEfix.png,sizingMethod=crop); zoom: 1; }
+.greenbox-bg ul a.lefttopnavhead { filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=/hIEfix.png,sizingMethod=crop); zoom: 1; }
+</style>
+<![endif]-->
+<!-- Yahoo! Web Analytics - All rights reserved -->
+<script type="text/javascript" src="http://d.yimg.com/mi/eu/ywa.js"></script>
+<script type="text/javascript">
+/*globals YWA*/
+var YWATracker = YWA.getTracker("1000217290027");
+//YWATracker.setDocumentName("");
+//YWATracker.setDocumentGroup("");
+//YMATracker.setAction("");
+YWATracker.submit();
+</script>
+<noscript>
+<div><img src="http://s.analytics.yahoo.com/p.pl?a=1000217290027&amp;js=no" width="1" height="1" alt="" /></div>
+</noscript>
+<!-- /Yahoo! Web Analytics - All rights reserved -->
+
+<script src="/cesweb/media/CESWeb/assets/js/custom/jquery-feed-rotator-min.js" type="text/javascript"></script>
+<script type="text/javascript">
+(function($){
+    $(document).ready(function(){
+	topNewsFeed = $('#header-feed').feedRotator();
+	setTimeout(function(){
+		$('#topnav').show();
+	}, 2000);
+    });
+})(jQuery);
+</script> 
+</head>
+<body class="LTR ENUS ContentBody"  class="home" id="home">
+    <form method="post" action="/Hotel-Travel/Hotel-Reservations.aspx" id="form">
+<div class="aspNetHidden">
+<input type="hidden" name="manScript_HiddenField" id="manScript_HiddenField" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTYwODg0MzQ2Ng9kFgICARBkZBYCAgMPZBYCZg9kFgJmD2QWBAICD2QWAmYPZBYCZg9kFgJmDxYCHgtfIUl0ZW1Db3VudAIHFg5mD2QWAmYPZBYCZg8VAhFodHRwOi8vd3d3LmNlLm9yZwxDRUEgLSBDRS5vcmdkAgEPZBYCZg9kFgJmDxUCFWh0dHA6Ly93d3cuY2Vzd2ViLm9yZxFJbnRlcm5hdGlvbmFsIENFU2QCAg9kFgJmD2QWAmYPFQIgaHR0cDovL3d3dy5kZWNsYXJlaW5ub3ZhdGlvbi5jb20TSW5ub3ZhdGlvbiBNb3ZlbWVudGQCAw9kFgJmD2QWAmYPFQISaHR0cDovL2Jsb2cuY2Uub3JnEERpZ2l0YWwgRGlhbG9ndWVkAgQPZBYCZg9kFgJmDxUCF2h0dHA6Ly93d3cuY2V2aXNpb24ub3JnD1Zpc2lvbiBNYWdhemluZWQCBQ9kFgJmD2QWAmYPFQIdaHR0cDovL3d3dy5ncmVlbmVyZ2FkZ2V0cy5vcmcPR3JlZW5lciBHYWRnZXRzZAIGD2QWAmYPZBYCZg8VAhZodHRwOi8vcmVzZWFyY2guY2Uub3JnD01hcmtldCBSZXNlYXJjaGQCDg9kFgICAQ8PFgIeB1Zpc2libGVoZGRkiduv0PRc7ueNaQ8RneervjDhiSXrLPryXYlIcM13uzg=" />
+</div>
+
+<input type="hidden" name="lng" id="lng" value="en-US" />
+<script src="/ScriptResource.axd?d=N6Jl9XMQzDo-M2VzrTGsHPZJGE_S0b4WAFqG2dSX7CkNtipRz9-bk6m1eCad7PfvRzztBSdjlldijvTkzJwz-B7gytD2o4JDVsEtYwIA_if0EqaKmLOMsnSmleNoFWfh0&amp;t=34d147fd" type="text/javascript"></script>
+    <div id="CMSHeaderDiv">
+	<!-- -->
+</div>
+    <script type="text/javascript" src="/cesweb/media/CESWeb/assets/js/custom/subpage.js"></script>
+<!-- start black bar -->
+            <div id="header-wrapper">
+		<div id="header-top-wrapper">
+			<div id="header-top">
+				<div id="header-more-sites">
+					<div id="header-more-expander">
+						<ul>
+                                                	<li><a href="http://www.ce.org">CEA - CE.org</a></li><li><a href="http://www.cesweb.org">International CES</a></li><li><a href="http://www.declareinnovation.com">Innovation Movement</a></li><li><a href="http://blog.ce.org">Digital Dialogue</a></li><li><a href="http://www.cevision.org">Vision Magazine</a></li><li><a href="http://www.greenergadgets.org">Greener Gadgets</a></li><li><a href="http://research.ce.org">Market Research</a></li>
+
+
+						</ul>
+						<a id="the-expander" href="#">More CEA sites</a>
+					</div>
+				</div>
+				<div id="header-feed">
+				</div>
+			</div>
+		</div>
+            </div>
+<!-- end black bar -->
+<div id="newwrap">
+    <div id="container">
+        <div id="content-container">
+            <div id="header">
+                <div id="logo">
+                    <a href="/Home.aspx"><img id="p_lt_zoneLogo_EditableImage_imgImage" src="/cesweb/media/CESWeb/assets/images/header/cesweb_headerlogo.png" alt="" /></a>
+                </div>
+                <div id="headTop">
+                    <div id="topsearch">
+                                    <input type="hidden" id="Hidden1" value="default_collection" name="site" />
+            <input type="hidden" id="Hidden2" value="2011CESweb" name="client" />
+            <input type="hidden" id="Hidden3" value="2011CESweb" name="proxystylesheet" />
+            <input type="hidden" id="Hidden4" value="xml_no_dtd" name="output" />
+<input class="searchbox" id="searchbox" name="q" onblur="if(this.value=='') this.value='Search';" onfocus="if(this.value=='Search') this.value='';" type="text" value="Search" />
+                		<!-- Pyxl ADD search from below-->
+						<!--        <form action="http://googlebox.ce.org/search?" method="GET" name="searchCES">
+						            <input type="hidden" id="Hidden1" value="default_collection" name="site">
+						            <input type="hidden" id="Hidden2" value="2011CESweb" name="client">
+						            <input type="hidden" id="Hidden3" value="2011CESweb" name="proxystylesheet">
+						            <input type="hidden" id="Hidden4" value="xml_no_dtd" name="output">
+						            <input type="text" onfocus="if(this.value=='Search') this.value='';" onblur="if(this.value=='') this.value='Search';" value="Search" class="searchbox" name="q"><input type="submit" onclick="document.searchCES.submit();" class="searchbutton" value="">
+						            </form> 
+						<A href="http://www.cesweb.org/cesgreening.asp"><img src="http://www.cesweb.org/hp/images/ces-green.jpg" border="0" valign=top ></A>
+					</div>
+						    <div id="topimages">
+						        <img src="http://www.cesweb.org/hp/images/divider.jpg" class="divider"/>
+						         <a href=http://www.cesweb.org/socialcircle target="_blank"><img src="http://www.cesweb.org/hp/images/socialcircle.aspx" alt="Social Circle" /></a>
+						&nbsp;&nbsp;&nbsp;&nbsp;-->
+	             </div>
+                </div>
+                <div class="clr"></div>
+                <div id="ctacontainer">
+                    <div id="showdate"> <img id="p_lt_zoneShowDate_EditableImage1_imgImage" src="/cesweb/media/CESWeb/assets/images/header/CESweb_headerdate.png" alt="" /> </div>
+                    <div id="register">
+	<a href="/Register.aspx" target="_blank" title="Register for CES"><img alt="Register" border="0" name="cesweb_register" onmouseout="out(8)" onmouseover="over(8)" src="/cesweb/media/CESWeb/assets/images/nav/cesweb_register1.png" /></a></div>
+<div id="exhibit">
+	<a href="/For-Exhibitors/Exhibit-at-CES.aspx" title="Exhibit at CES"><img alt="Exhibit at CES" border="0" name="cesweb_exhibit" onmouseout="out(9)" onmouseover="over(9)" src="/cesweb/media/CESWeb/assets/images/nav/cesweb_exhibit1.png" /></a></div>
+
+                </div>
+            </div>
+            <div style="display: none;">/followme.asp/exhibitor-directory.asp/cesgreening.asp/registration.asp/searchResults.asp/error404.asp/partners.asp/contactus.asp/sitemap.asp/privacyPolicy.asp/aboutces.asp/myCES.asp/aboutcea.asp</div>
+			<div id="nav-bar">
+                
+	<ul class="level1CMSListMenuUL" id="topnav">
+		<li class="level1CMSListMenuLI ExhibitorDirectory" style=""><a href="http://ces13.mapyourshow.com/5_0/search.cfm?" class="level1CMSListMenuLink" style="">Exhibitor Directory</a></li>
+		<li class="level1CMSListMenuLI ConferenceProgram"><a href="/Conference-Program.aspx" class="level1CMSListMenuLink">Conference Program</a>
+		<ul class="subnav">
+			<li class="level2CMSListMenuLI"><a href="/Conference-Program/SuperSessions.aspx" class="level2CMSListMenuLink">SuperSessions</a></li>
+			<li class="level2CMSListMenuLI"><a href="/Conference-Program/Speaker-Services.aspx" class="level2CMSListMenuLink">Speaker Services</a></li>
+			<li class="level2CMSListMenuLI last "><a href="/Conference-Program/Call-for-Speakers.aspx" class="level2CMSListMenuLink">Call for Speakers</a>
+			<ul class="subsubnav">
+				<li class="level3CMSListMenuLI last "><a href="/Conference-Program/Call-for-Speakers/Submission-FAQs.aspx" class="level3CMSListMenuLink">Submission FAQs</a></li>
+			</ul>
+			</li>
+		</ul>
+		</li>
+		<li class="level1CMSListMenuLI Events"><a href="/Events.aspx" class="level1CMSListMenuLink">Events</a>
+		<ul class="subnav">
+			<li class="level2CMSListMenuLI"><a href="/Events/Cea-Events.aspx" class="level2CMSListMenuLink">CEA Events</a></li>
+			<li class="hassub"><a href="/Events/Brand-Matters.aspx" class="level2CMSListMenuLink">Brand Matters</a>
+			<ul class="subsubnav">
+				<li class="level3CMSListMenuLI last "><a href="/Events/Brand-Matters/CMO-Club.aspx" class="level3CMSListMenuLink">CMO Club</a></li>
+			</ul>
+			</li>
+			<li class="level2CMSListMenuLI"><a href="/Events/SINOCES.aspx" class="level2CMSListMenuLink">SINOCES</a></li>
+			<li class="level2CMSListMenuLI"><a href="/Events/Keynotes.aspx" class="level2CMSListMenuLink">Keynotes</a></li>
+			<li class="level2CMSListMenuLI"><a href="/Events/Last-Gadget-Standing.aspx" class="level2CMSListMenuLink">Last Gadget Standing</a></li>
+			<li class="level2CMSListMenuLI last "><a href="/Events/Mobile-Apps-Showdown.aspx" class="level2CMSListMenuLink">Mobile Apps Showdown</a></li>
+		</ul>
+		</li>
+		<li class="level1CMSListMenuLI Awards"><a href="/Awards.aspx" class="level1CMSListMenuLink">Awards</a>
+		<ul class="subnav">
+			<li class="level2CMSListMenuLI"><a href="/Awards/CNET-Best-Of.aspx" class="level2CMSListMenuLink">CNET Best Of CES</a></li>
+			<li class="hassub"><a href="/Awards/CES-Innovations-Awards.aspx" class="level2CMSListMenuLink">CES Innovations Awards</a>
+			<ul class="subsubnav">
+				<li class="level3CMSListMenuLI"><a href="/Awards/CES-Innovations-Awards/About-Innovations.aspx" class="level3CMSListMenuLink">About Innovations</a></li>
+				<li class="level3CMSListMenuLI"><a href="/Awards/CES-Innovations-Awards/Awards-Categories.aspx" class="level3CMSListMenuLink">Awards Categories</a></li>
+				<li class="level3CMSListMenuLI"><a href="/Awards/CES-Innovations-Awards/Call-for-Entries.aspx" class="level3CMSListMenuLink">Call for Entries</a></li>
+				<li class="level3CMSListMenuLI last "><a href="/Awards/CES-Innovations-Awards/Call-for-Judges.aspx" class="level3CMSListMenuLink">Call for Judges</a></li>
+			</ul>
+			</li>
+			<li class="level2CMSListMenuLI"><a href="/Awards/IAWTV-Awards.aspx" class="level2CMSListMenuLink">IAWTV Awards</a></li>
+			<li class="level2CMSListMenuLI last "><a href="/Awards/Tech-Engineering-Emmy-Awards.aspx" class="level2CMSListMenuLink">Tech &amp; Engineering Emmy Awards</a></li>
+		</ul>
+		</li>
+		<li class="level1CMSListMenuHighlightedLI"><a href="/Show-Floor.aspx" class="level1CMSListMenuLinkHighlighted">Show Floor</a>
+		<ul class="subnav">
+			<li class="level2CMSListMenuLI"><a href="/Show-Floor/By-Exhibit-Halls.aspx" class="level2CMSListMenuLink">By Exhibit Hall</a></li>
+			<li class="level2CMSListMenuLI"><a href="/Show-Floor/By-Product-Category.aspx" class="level2CMSListMenuLink">By Product Category</a></li>
+			<li class="level2CMSListMenuLI"><a href="/Show-Floor/CES-TechZones.aspx" class="level2CMSListMenuLink">CES TechZones</a></li>
+			<li class="level2CMSListMenuLI last "><a href="/Show-Floor/CES-Mobile-App.aspx" class="level2CMSListMenuLink">CES Mobile App</a></li>
+		</ul>
+		</li>
+		<li class="level1CMSListMenuLI HotelTravel"><a href="/Hotel-Travel.aspx" class="level1CMSListMenuLink">Hotel/Travel</a>
+		<ul class="subnav">
+			<li class="level2CMSListMenuLI"><a href="/Hotel-Travel/Hotel-Reservations.aspx" class="level2CMSListMenuLink">Hotel Reservations</a></li>
+			<li class="level2CMSListMenuLI"><a href="/Hotel-Travel/CES-Block-Request-Form.aspx" class="level2CMSListMenuLink">CES Block Request Form</a></li>
+			<li class="level2CMSListMenuLI"><a href="/Hotel-Travel/Airline-Discounts.aspx" class="level2CMSListMenuLink">Airline Discounts</a></li>
+			<li class="level2CMSListMenuLI"><a href="/Hotel-Travel/CES-Shuttle-Service.aspx" class="level2CMSListMenuLink">CES Shuttle Service</a></li>
+			<li class="level2CMSListMenuLI"><a href="/Hotel-Travel/Las-Vegas-Monorail.aspx" class="level2CMSListMenuLink">Las Vegas Monorail</a></li>
+			<li class="level2CMSListMenuLI"><a href="/Hotel-Travel/Transportation,-Parking,-and-Car-Rental.aspx" class="level2CMSListMenuLink">Transportation, Parking, and Car Rental</a></li>
+			<li class="level2CMSListMenuLI last "><a href="/Hotel-Travel/Las-Vegas-Travel-Tips.aspx" class="level2CMSListMenuLink">Las Vegas Travel Tips</a></li>
+		</ul>
+		</li>
+		<li class="level1CMSListMenuLI News"><a href="/News.aspx" class="level1CMSListMenuLink">News</a>
+		<ul class="subnav">
+			<li class="level2CMSListMenuLI"><a href="/News/News-Feed.aspx" class="level2CMSListMenuLink">News Feed</a></li>
+			<li class="level2CMSListMenuLI"><a href="/News/Exhibitor-Releases.aspx" class="level2CMSListMenuLink">Exhibitor Releases</a></li>
+			<li class="level2CMSListMenuLI"><a href="/News/CES-Press-Releases.aspx" class="level2CMSListMenuLink">CES Press Releases</a></li>
+			<li class="level2CMSListMenuLI"><a href="/News/Media-Coverage.aspx" class="level2CMSListMenuLink">Media Coverage</a></li>
+			<li class="level2CMSListMenuLI"><a href="/News/Multimedia-Gallery.aspx" class="level2CMSListMenuLink">Multimedia Gallery</a></li>
+			<li class="hassub"><a href="/News/Newsletters.aspx" class="level2CMSListMenuLink">Newsletters</a>
+			<ul class="subsubnav">
+				<li class="level3CMSListMenuLI"><a href="/News/Newsletters/CES-Up-to-the-Minute.aspx" class="level3CMSListMenuLink">CES Up to the Minute</a></li>
+				<li class="level3CMSListMenuLI" style=""><a href="/For-Exhibitors/Exhibitor-Source-Newsletter.aspx" class="level3CMSListMenuLink" style="">Exhibitor&#39;s Source Newsletter</a></li>
+				<li class="level3CMSListMenuLI"><a href="/News/Newsletters/Exhibitor-PR-Newsletter.aspx" class="level3CMSListMenuLink">Exhibitor PR Newsletter</a></li>
+				<li class="level3CMSListMenuLI last "><a href="/News/Newsletters/CES-Partner-Connection.aspx" class="level3CMSListMenuLink">CES Partner Connection</a></li>
+			</ul>
+			</li>
+			<li class="level2CMSListMenuLI last " style=""><a href="/For-the-Press.aspx" class="level2CMSListMenuLink" style="">Press Services</a></li>
+		</ul>
+		</li>
+		<li class="level1CMSListMenuLI last "><a href="/FAQ.aspx" class="level1CMSListMenuLink">FAQ</a>
+		<ul class="subnav">
+			<li class="level2CMSListMenuLI"><a href="/FAQ/General.aspx" class="level2CMSListMenuLink">General</a></li>
+			<li class="level2CMSListMenuLI"><a href="/FAQ/Press.aspx" class="level2CMSListMenuLink">Press</a></li>
+			<li class="level2CMSListMenuLI"><a href="/FAQ/Exhibitor.aspx" class="level2CMSListMenuLink">Exhibitor</a></li>
+			<li class="hassub"><a href="/FAQ/FAQs-by-Venue.aspx" class="level2CMSListMenuLink">FAQs by Venue</a>
+			<ul class="subsubnav">
+				<li class="level3CMSListMenuLI"><a href="/FAQ/FAQs-by-Venue/Las-Vegas-Convention-Center.aspx" class="level3CMSListMenuLink">Las Vegas Convention Center</a></li>
+				<li class="level3CMSListMenuLI"><a href="/FAQ/FAQs-by-Venue/The-Venetian.aspx" class="level3CMSListMenuLink">The Venetian</a></li>
+				<li class="level3CMSListMenuLI"><a href="/FAQ/FAQs-by-Venue/Las-Vegas-Hilton.aspx" class="level3CMSListMenuLink">Las Vegas Hotel (LVH)</a></li>
+				<li class="level3CMSListMenuLI last "><a href="/FAQ/FAQs-by-Venue/Renaissance-Hotel.aspx" class="level3CMSListMenuLink">Renaissance Hotel</a></li>
+			</ul>
+			</li>
+			<li class="level2CMSListMenuLI"><a href="/FAQ/Speaker.aspx" class="level2CMSListMenuLink">Speaker</a></li>
+			<li class="level2CMSListMenuLI last "><a href="/FAQ/First-Timer-ResourCES.aspx" class="level2CMSListMenuLink">First-Timer ResourCES</a></li>
+		</ul>
+		</li>
+	</ul>
+        
+			    
+			</div>
+		</div>
+	</div>
+    <div class="container-home">
+    	<div id="main-content"><div class="left">
+<div class='greenbox-bg'><ul><a class='lefttopnavhead' href="/Hotel-Travel">Hotel/Travel</a><li class="active"><a href="/Hotel-Travel/Hotel-Reservations.aspx">Hotel Reservations</a></li><li class=""><a href="/Hotel-Travel/CES-Block-Request-Form.aspx">CES Block Request Form</a></li><li class=""><a href="/Hotel-Travel/Airline-Discounts.aspx">Airline Discounts</a></li><li class=""><a href="/Hotel-Travel/CES-Shuttle-Service.aspx">CES Shuttle Service</a></li><li class=""><a href="/Hotel-Travel/Las-Vegas-Monorail.aspx">Las Vegas Monorail</a></li><li class=""><a href="/Hotel-Travel/Transportation,-Parking,-and-Car-Rental.aspx">Transportation, Parking, and Car Rental</a></li><li class=" last"><a href="/Hotel-Travel/Las-Vegas-Travel-Tips.aspx">Las Vegas Travel Tips</a></li></ul></div><ul id='menu'><li><a class='exhibits' href='/For-Exhibitors.aspx'></a><ul style='display: none; '><li class=""><a href="/For-Exhibitors/Contact-Sales-Rep.aspx">Contact Sales Rep</a></li><li class=""><a href="/For-Exhibitors/Exhibit-at-CES.aspx">Exhibit at CES</a></li><li class=""><a href="/For-Exhibitors/Directory-Listing.aspx">Directory Listing</a></li><li class=""><a href="/For-Exhibitors/Promotional-Opportunities.aspx">Promotional Opportunities</a></li><li class=""><a href="/For-Exhibitors/Show-Planning-Exhibitor-Manual.aspx">Show Planning/Exhibitor Manual</a></li><li class=""><a href="/For-Exhibitors/Deadline-Checklist.aspx">Deadline Checklist</a></li><li class=""><a href="/For-Exhibitors/Resources.aspx">Resources</a></li><li class=""><a href="/For-Exhibitors/PR-Help.aspx">PR Help</a></li><li class=" last"><a href="/For-Exhibitors/Exhibitor-Source-Newsletter.aspx">Exhibitor's Source Newsletter</a></li></ul></li><li><a class='press' href='/For-The-Press.aspx'></a><ul style='display: none; '><li class=""><a href="/For-The-Press/Exhibitor-Press-Events-Schedule.aspx">Exhibitor Press Events Schedule</a></li><li class=""><a href="/For-The-Press/Press-Events.aspx">Press Events</a></li><li class=""><a href="/For-The-Press/Press-Contacts.aspx">Press Contacts</a></li><li class=""><a href="/For-The-Press/Press-Services.aspx">Press Services</a></li><li class=""><a href="/For-The-Press/Image-Gallery.aspx">Image Gallery</a></li><li class=""><a href="/News.aspx" >News</a></li><li class=" last"><a href="/For-The-Press/CES-B-roll.aspx">CES B-roll</a></li></ul></li><li><a class='international' href='/For-International-Visitors.aspx'></a><ul style='display: none; '><li class=""><a href="/For-International-Visitors/Travel-Visa.aspx">Travel & Visa</a></li><li class=""><a href="/For-International-Visitors/Hotel-Reservations.aspx">Hotel Reservations</a></li><li class=""><a href="/For-International-Visitors/Delegation-Group-Program.aspx">Delegation Group Program</a></li><li class=""><a href="/For-International-Visitors/International-Services.aspx">International Services</a></li><li class=""><a href="/For-International-Visitors/CES-Shuttle-Service.aspx">CES Shuttle Service</a></li><li class=""><a href="/For-International-Visitors/Spanish.aspx">Español</a></li><li class=""><a href="/For-International-Visitors/French.aspx">Français</a></li><li class=""><a href="/For-International-Visitors/chinese.aspx">汉语</a></li><li class=""><a href="/For-International-Visitors/japanese.aspx">日本語</a></li><li class=" last"><a href="/For-International-Visitors/Korean.aspx">한국어</a></li></ul></li></ul>
+
+<div id="connect-with-us">
+	<img src="/cesweb/media/CESWeb/assets/images/tabs/cesweb_socialmediatab.png" />
+	<div class="icon-wrap">
+		<a href="/Twitter.aspx" target="_blank"><img alt="Twitter" src="/cesweb/media/CESWeb/assets/images/social/sub_twitter.png" /></a> <a href="/Facebook.aspx" target="_blank"><img alt="facebook" src="/cesweb/media/CESWeb/assets/images/social/sub_facebook.png" /></a> <a href="/StumbleUpon.aspx" target="_blank"><img alt="stumbleupon" src="/cesweb/media/CESWeb/assets/images/social/sub_stumbleupon.png" /></a> <a href="/Flickr.aspx" target="_blank"><img alt="flickr" src="/cesweb/media/CESWeb/assets/images/social/sub_flickr.png" /></a> <a href="/YouTube.aspx" target="_blank"><img alt="youtube" src="/cesweb/media/CESWeb/assets/images/social/sub_youtube.png" /></a> <a href="/LinkedIn.aspx" target="_blank"><img alt="linkedin" src="/cesweb/media/CESWeb/assets/images/social/sub_linkedin.png" /></a> <a href="/News/News-Feed.aspx" target="_blank"><img alt="rss" src="/cesweb/media/CESWeb/assets/images/social/sub_rss.png" /></a></div>
+</div>
+<br />
+</div><div class="right">
+        <div id="breadcrumb">
+<ul id="breadcrumbs"><li class='home'><a href='/'>Home</a></li><li class='hotel-travel first'><a href='/Hotel-Travel.aspx'>Hotel/Travel</a></li><li class='hotel-reservations end'><a href='/Hotel-Travel/Hotel-Reservations.aspx'>Hotel Reservations</a></li></ul>
+
+</div>
+<div id="inner-content-long">
+<h1>
+	Hotel Reservations</h1>
+CES hotels are now accepting reservations for groups of 20 or more and individual reservations.<a href="/Hotel-Travel/CES-Block-Request-Form.aspx"> Submit your request now for a group</a>, or click the hotel names to book individual reservations. Please check directly with the hotel for rates outside those listed below. Rates and hotels are updated as of September 20, 2012. Please note, every effort is made to keep this information up-to-date. However, rates are subject to change, as CES rates sell out.&nbsp;<br />
+<br />
+<strong>Official CES Hotels<a href="/Hotel-Travel/CES-Shuttle-Service.aspx"><img alt="" src="/getmedia/bb23a6a6-4722-4f12-bf22-1937835c2cf6/2013CESShuttleMap.aspx?width=200&amp;height=311" style="width: 200px; height: 311px; float: right; " /></a></strong><br />
+The hotels below are the official 2013 International CES hotels. Complimentary shuttle service will be offered to/from these properties only. <a href="/Hotel-Travel/CES-Shuttle-Service.aspx">Visit the shuttle page to download a shuttle map and flyer. </a>Request your <a href="/Hotel-Travel/CES-Block-Request-Form.aspx">group block of 20 or more rooms now</a> or click the hotel names below to book indvidual reservations.&nbsp;<br />
+<br />
+For more information on cancellation fees and amenities at a particular hotel, click the hotel&#39;s name to be directed to their website.&nbsp;<table width="100%" cellspacing="0" cellpadding="4" border="0">
+	<tr>
+		<th width="20%">Hotel Name</th><th width="10%">Mon Jan 7</th><th width="10%">Tue Jan 8</th><th width="10%">Wed Jan 9</th><th width="10%">Thu Jan 10</th><th width="10%">Fri Jan 11</th> 		<th width="30%">Hotel Notes/Information</th>
+	</tr>
+</table><table width="100%" cellspacing="0" cellpadding="4" borders="0">
+	<tr>
+<tr class="alternateRows"><td width="20%"><a href='http://www.alexispark.com' target="_blank"><span class="smallText">Alexis Park</span></a></td><td>
+<td><span class="smallText">$89</span></td><td><span class="smallText">$89</span></td><td><span class="smallText">$89</span></td><td><span class="smallText">$89</span></td><td><span class="smallText">$89</span></td>
+
+</td><td width="30%">On-line reservations not available. Call 800-582-2228/702-796-3300 and ask for reservations</td>
+</tr><tr><td width="20%"><a href='https://resweb.passkey.com/go/CESM13 ' target="_blank"><span class="smallText">ARIA Resort and Casino*</span></a></td><td>
+<td><span class="smallText">$224*</span></td><td><span class="smallText">CES Rate($395*) No longer available, prevailing rate applies</span></td><td><span class="smallText">CES Rate($395*) No longer available, prevailing rate applies</span></td><td><span class="smallText">$224*</span></td><td><span class="smallText">$194*</span></td>
+
+</td><td width="30%">*Rates shown include resort fee</td>
+</tr><tr class="alternateRows"><td width="20%"><a href='https://resweb.passkey.com/go/2013CES' target="_blank"><span class="smallText">Bellagio*</span></a></td><td>
+<td><span class="smallText">$325*</span></td><td><span class="smallText">CES Rate($390*) No longer available, prevailing rate applies</span></td><td><span class="smallText">CES Rate($390*) No longer available, prevailing rate applies</span></td><td><span class="smallText">$285*</span></td><td><span class="smallText">$271*</span></td>
+
+</td><td width="30%">*Rates shown include resort fee</td>
+</tr><tr><td width="20%"><a href='http://book.bestwestern.com/bestwestern/priceAvail.do?propertyCode=29042&disablenav=true&promoCode=CONVENTION' target="_blank"><span class="smallText">Best Western Mardi Gras</span></a></td><td>
+<td><span class="smallText">$49</span></td><td><span class="smallText">$109</span></td><td><span class="smallText">$109</span></td><td><span class="smallText">$109</span></td><td><span class="smallText">$109</span></td>
+
+</td><td width="30%"></td>
+</tr><tr class="alternateRows"><td width="20%"><a href='https://reservations.mgmmirage.com/bookingengine.aspx?pid=CCC&host=offer&code=CN01CEA' target="_blank"><span class="smallText">Circus Circus*</span></a></td><td>
+<td><span class="smallText">$58.95*</span></td><td><span class="smallText">$118.95*</span></td><td><span class="smallText">$118.95*</span></td><td><span class="smallText">$68.95*</span></td><td><span class="smallText">$68.95*</span></td>
+
+</td><td width="30%">*Rates shown include resort fee</td>
+</tr><tr><td width="20%"><a href='https://reservations.mgmmirage.com/bookingengine.aspx?pid=CCC&host=offer&code=CN01CEA' target="_blank"><span class="smallText">Circus Circus West Tower*</span></a></td><td>
+<td><span class="smallText">$68.95*</span></td><td><span class="smallText">$113.95*</span></td><td><span class="smallText">$113.95</span></td><td><span class="smallText">$73.95*</span></td><td><span class="smallText">$73.95*</span></td>
+
+</td><td width="30%">*Rates shown include resort fee</td>
+</tr><tr class="alternateRows"><td width="20%"><a href='https://resweb.passkey.com/go/13CES' target="_blank"><span class="smallText">The Cosmopolitan of Las Vegas- City Room</span></a></td><td>
+<td><span class="smallText">$319</span></td><td><span class="smallText">$319</span></td><td><span class="smallText">$319</span></td><td><span class="smallText">CES Rate($319) No longer available, prevailing rate applies</span></td><td><span class="smallText">CES Rate($239) No longer available, prevailing rate applies</span></td>
+
+</td><td width="30%"></td>
+</tr><tr><td width="20%"><a href='https://resweb.passkey.com/go/13CES' target="_blank"><span class="smallText">The Cosmopolitan of Las Vegas- Terrace Studio</span></a></td><td>
+<td><span class="smallText">$339</span></td><td><span class="smallText">$339</span></td><td><span class="smallText">$339</span></td><td><span class="smallText">CES Rate($339) No longer available, prevailing rate applies</span></td><td><span class="smallText">CES Rate($239) No longer available, prevailing rate applies</span></td>
+
+</td><td width="30%"></td>
+</tr><tr class="alternateRows"><td width="20%"><a href='https://resweb.passkey.com/go/2013CESWynnEncore' target="_blank"><span class="smallText">Encore at Wynn</span></a></td><td>
+<td><span class="smallText">$279, Sold Out</span></td><td><span class="smallText">$279, Sold Out</span></td><td><span class="smallText">$279, Sold Out</span></td><td><span class="smallText">$279, Sold Out</span></td><td><span class="smallText">$279, Sold Out</span></td>
+
+</td><td width="30%"></td>
+</tr><tr><td width="20%"><a href='https://resweb.passkey.com/go/EXCES13P  ' target="_blank"><span class="smallText">Excalibur*</span></a></td><td>
+<td><span class="smallText">$80*</span></td><td><span class="smallText">$137*</span></td><td><span class="smallText">$137*</span></td><td><span class="smallText">$80</span></td><td><span class="smallText">$80*</span></td>
+
+</td><td width="30%">*Rates shown include resort fee</td>
+</tr><tr class="alternateRows"><td width="20%"><a href='http://www.hilton.com/en/hi/groups/personalized/L/LASLVGV-CESH13-20130103/index.jhtml?WT.mc_id=POG' target="_blank"><span class="smallText">Hilton Grand Vacations Suites Las Vegas- studio</span></a></td><td>
+<td><span class="smallText">$342</span></td><td><span class="smallText">$342</span></td><td><span class="smallText">$342</span></td><td><span class="smallText">$342</span></td><td><span class="smallText">$105</span></td>
+
+</td><td width="30%"></td>
+</tr><tr><td width="20%"><a href='http://www.hilton.com/en/hi/groups/personalized/L/LASLVGV-CESH13-20130103/index.jhtml?WT.mc_id=POG' target="_blank"><span class="smallText">Hilton Grand Vacations Suites Las Vegas- 1 BR</span></a></td><td>
+<td><span class="smallText">CES Rate($355) No longer available, prevailing rate applies</span></td><td><span class="smallText">CES Rate($355) No longer available, prevailing rate applies</span></td><td><span class="smallText">$355</span></td><td><span class="smallText">$355</span></td><td><span class="smallText">$135</span></td>
+
+</td><td width="30%"></td>
+</tr><tr class="alternateRows"><td width="20%"><a href='http://www.hilton.com/en/hi/groups/personalized/L/LASVSGV-CESB13-20130103/index.jhtml' target="_blank"><span class="smallText">Hilton Grand Vacations Suites on the LV Strip- studio</span></a></td><td>
+<td><span class="smallText">$229</span></td><td><span class="smallText">$229</span></td><td><span class="smallText">$229</span></td><td><span class="smallText">$229</span></td><td><span class="smallText">$95</span></td>
+
+</td><td width="30%"></td>
+</tr><tr><td width="20%"><a href='http://www3.hilton.com/en/hotels/nevada/hilton-grand-vacations-suites-on-the-las-vegas-strip-LASVSGV/index.html' target="_blank"><span class="smallText">Hilton Grand Vacations Suites on the LV Strip- 1 BR</span></a></td><td>
+<td><span class="smallText">$286</span></td><td><span class="smallText">$286</span></td><td><span class="smallText">$286</span></td><td><span class="smallText">$286</span></td><td><span class="smallText">$125</span></td>
+
+</td><td width="30%">Group Code CESB13</td>
+</tr><tr class="alternateRows"><td width="20%"><a href='http://www.thelvh.com/' target="_blank"><span class="smallText">LVH (formerly LV Hilton)</span></a></td><td>
+<td><span class="smallText">CES Rate($245) No longer available, prevailing rate applies</span></td><td><span class="smallText">CES Rate($245) No longer available, prevailing rate applies</span></td><td><span class="smallText">CES Rate($245) No longer available, prevailing rate applies</span></td><td><span class="smallText">CES Rate($245) No longer available, prevailing rate applies</span></td><td><span class="smallText">CES Rate($109) No longer available, prevailing rate applies</span></td>
+
+</td><td width="30%"></td>
+</tr><tr><td width="20%"><a href='https://resweb.passkey.com/go/CES13P' target="_blank"><span class="smallText">Luxor*</span></a></td><td>
+<td><span class="smallText">$113*</span></td><td><span class="smallText">$192*</span></td><td><span class="smallText">$192*</span></td><td><span class="smallText">$113*</span></td><td><span class="smallText">$113*</span></td>
+
+</td><td width="30%">*Rates shown include resort fee</td>
+</tr><tr class="alternateRows"><td width="20%"><a href='https://resweb.passkey.com/Resweb.do?mode=welcome_ei_new&eventID=9569203 ' target="_blank"><span class="smallText">Mandalay Bay*</span></a></td><td>
+<td><span class="smallText">$152*</span></td><td><span class="smallText">$278*</span></td><td><span class="smallText">$278*</span></td><td><span class="smallText">$152*</span></td><td><span class="smallText">$165*</span></td>
+
+</td><td width="30%">*Rates shown include resort fee</td>
+</tr><tr><td width="20%"><a href='https://resweb.passkey.com/go/CES2013oa' target="_blank"><span class="smallText">Mirage*</span></a></td><td>
+<td><span class="smallText">$204*</span></td><td><span class="smallText">CES Rate($374*) No longer available, prevailing rate applies</span></td><td><span class="smallText">CES Rate($374*) No longer available, prevailing rate applies</span></td><td><span class="smallText">$204*</span></td><td><span class="smallText">$165*</span></td>
+
+</td><td width="30%">*Rates shown include resort fee</td>
+</tr><tr class="alternateRows"><td width="20%"><a href='https://resweb.passkey.com/Resweb.do?mode=welcome_ei_new&eventID=9645711 ' target="_blank"><span class="smallText">MGM Grand*</span></a></td><td>
+<td><span class="smallText">$180*</span></td><td><span class="smallText">$290*</span></td><td><span class="smallText">$290*</span></td><td><span class="smallText">$180*</span></td><td><span class="smallText">$145*</span></td>
+
+</td><td width="30%">*Rates shown include resort fee</td>
+</tr><tr><td width="20%"><a href='https://resweb.passkey.com/go/XCES13' target="_blank"><span class="smallText">Monte Carlo*</span></a></td><td>
+<td><span class="smallText">$125*</span></td><td><span class="smallText">$216*</span></td><td><span class="smallText">$216*</span></td><td><span class="smallText">$137*</span></td><td><span class="smallText">$115*</span></td>
+
+</td><td width="30%">*Rates shown include resort fee</td>
+</tr><tr class="alternateRows"><td width="20%"><a href='https://resweb.passkey.com/Resweb.do?mode=welcome_ei_new&eventID=9452644&utm_source=2113&utm_medium=email&utm_campaign=12198073' target="_blank"><span class="smallText">New York New York*</span></a></td><td>
+<td><span class="smallText">$139*</span></td><td><span class="smallText">$249*</span></td><td><span class="smallText">$249*</span></td><td><span class="smallText">$149*</span></td><td><span class="smallText">$123*</span></td>
+
+</td><td width="30%">*Rates shown include resort fee</td>
+</tr><tr><td width="20%"><a href='https://booking.ihotelier.com/istay/istay.jsp?hotelid=15019&rateplanid=1184283' target="_blank"><span class="smallText">Platinum Hotel & Spa</span></a></td><td>
+<td><span class="smallText">$195</span></td><td><span class="smallText">$195</span></td><td><span class="smallText">$195</span></td><td><span class="smallText">$195</span></td><td><span class="smallText">$195</span></td>
+
+</td><td width="30%"></td>
+</tr><tr class="alternateRows"><td width="20%"><a href='http://www.renaissancelasvegas.com/' target="_blank"><span class="smallText">Renaissance</span></a></td><td>
+<td><span class="smallText">CES Rate($309) No longer available, prevailing rate applies</span></td><td><span class="smallText">CES Rate($309) No longer available, prevailing rate applies</span></td><td><span class="smallText">CES Rate($309) No longer available, prevailing rate applies</span></td><td><span class="smallText">CES Rate($309) No longer available, prevailing rate applies</span></td><td><span class="smallText">CES Rate($139) No longer available, prevailing rate applies</span></td>
+
+</td><td width="30%">Hotel only accepts requests for 10 or more rooms</td>
+</tr><tr><td width="20%"><a href='https://gc.synxis.com/rez.aspx?Hotel=17104&Chain=6946&arrive=1/4/2013&depart=1/5/2013&adult=1&child=0&group=SCES1IB' target="_blank"><span class="smallText">Riviera*</span></a></td><td>
+<td><span class="smallText">$140*</span></td><td><span class="smallText">$140*</span></td><td><span class="smallText">$140*</span></td><td><span class="smallText">$140*</span></td><td><span class="smallText">$140*</span></td>
+
+</td><td width="30%">*Rates shown include resort fee</td>
+</tr><tr class="alternateRows"><td width="20%"><a href='https://resweb.passkey.com/Resweb.do?mode=welcome_ei_new&eventID=9645711 ' target="_blank"><span class="smallText">Signature at MGM*</span></a></td><td>
+<td><span class="smallText">$185*</span></td><td><span class="smallText">$300*</span></td><td><span class="smallText">$300*</span></td><td><span class="smallText">$185*</span></td><td><span class="smallText">$155*</span></td>
+
+</td><td width="30%">*Rates shown include resort fee</td>
+</tr><tr><td width="20%"><a href='https://resweb.passkey.com/Resweb.do?mode=welcome_ei_new&eventID=9569203 ' target="_blank"><span class="smallText">THEhotel at Mandalay*</span></a></td><td>
+<td><span class="smallText">$200*</span></td><td><span class="smallText">$330*</span></td><td><span class="smallText">$330*</span></td><td><span class="smallText">$200*</span></td><td><span class="smallText">$186*</span></td>
+
+</td><td width="30%">*Rates shown include resort fee</td>
+</tr><tr class="alternateRows"><td width="20%"><a href='http://www.treasureisland.com' target="_blank"><span class="smallText">Treasure Island</span></a></td><td>
+<td><span class="smallText">$249</span></td><td><span class="smallText">$299</span></td><td><span class="smallText">$299</span></td><td><span class="smallText">$249</span></td><td><span class="smallText">$149</span></td>
+
+</td><td width="30%">Special Offer code: CES2013</td>
+</tr><tr><td width="20%"><a href='https://res.tropicanalv.com/cgi-bin/lansaweb?procfun+rn+resnet+r15+funcparms+UP(A2560):;SCES13;?' target="_blank"><span class="smallText">The NEW Tropicana Las Vegas</span></a></td><td>
+<td><span class="smallText">$128</span></td><td><span class="smallText">$158</span></td><td><span class="smallText">$158</span></td><td><span class="smallText">$158</span></td><td><span class="smallText">$128</span></td>
+
+</td><td width="30%"></td>
+</tr><tr class="alternateRows"><td width="20%"><a href='https://gc.synxis.com/rez.aspx?Hotel=51546&Chain=12157&shell=Flex&arrive=1/7/2013&depart=1/8/2013&adult=1&child=0&group=130107CES ' target="_blank"><span class="smallText">Trump International Hotel Las Vegas Studio City View</span></a></td><td>
+<td><span class="smallText">$249</span></td><td><span class="smallText">$249</span></td><td><span class="smallText">CES Rate($249) No longer available, prevailing rate applies</span></td><td><span class="smallText">CES Rate($249) No longer available, prevailing rate applies</span></td><td><span class="smallText">CES Rate($129) No longer available, prevailing rate applies</span></td>
+
+</td><td width="30%"></td>
+</tr><tr><td width="20%"><a href='https://gc.synxis.com/rez.aspx?Hotel=51546&Chain=12157&shell=Flex&arrive=1/7/2013&depart=1/8/2013&adult=1&child=0&group=130107CES ' target="_blank"><span class="smallText">Trump International Hotel Las Vegas One Bedroom Suite</span></a></td><td>
+<td><span class="smallText">$289</span></td><td><span class="smallText">$289</span></td><td><span class="smallText">CES Rate($289) No longer available, prevailing rate applies</span></td><td><span class="smallText">CES Rate($289) No longer available, prevailing rate applies</span></td><td><span class="smallText">CES Rate($169) No longer available, prevailing rate applies</span></td>
+
+</td><td width="30%"></td>
+</tr><tr class="alternateRows"><td width="20%"><a href='https://resweb.passkey.com/Resweb.do?mode=welcome_gi_new&groupID=9616625' target="_blank"><span class="smallText">Vdara Hotel & Spa*</span></a></td><td>
+<td><span class="smallText">$224*</span></td><td><span class="smallText">$399*</span></td><td><span class="smallText">$399*</span></td><td><span class="smallText">$224*</span></td><td><span class="smallText">$174*</span></td>
+
+</td><td width="30%">*Rates shown include resort fee</td>
+</tr><tr><td width="20%"><a href='https://resweb.passkey.com/Resweb.do?mode=welcome_ei_new&eventID=9559344&utm_source=5590&utm_medium=email&utm_campaign=12453221' target="_blank"><span class="smallText">Venetian*</span></a></td><td>
+<td><span class="smallText">CES Rate($342*) No longer available, prevailing rate applies</span></td><td><span class="smallText">CES Rate($342*) No longer available, prevailing rate applies</span></td><td><span class="smallText">CES Rate($342*) No longer available, prevailing rate applies</span></td><td><span class="smallText">CES Rate($362*) No longer available, prevailing rate applies</span></td><td><span class="smallText">CES Rate($342*) No longer available, prevailing rate applies</span></td>
+
+</td><td width="30%">*Rates shown include resort fee</td>
+</tr><tr class="alternateRows"><td width="20%"><a href='https://www.starwoodmeeting.com/StarGroupsWeb/res?id=1204042334&key=D6F8A' target="_blank"><span class="smallText">Westin Las Vegas Hotel, Casino & Spa*</span></a></td><td>
+<td><span class="smallText">$225*</span></td><td><span class="smallText">$225*</span></td><td><span class="smallText">$225*</span></td><td><span class="smallText">$225*</span></td><td><span class="smallText">$144*</span></td>
+
+</td><td width="30%">*Rates shown include resort fee</td>
+</tr><tr><td width="20%"><a href='https://resweb.passkey.com/go/2013CESWynnEncore' target="_blank"><span class="smallText">Wynn Las Vegas</span></a></td><td>
+<td><span class="smallText">CES Rate($269) No longer available, prevailing rate applies</span></td><td><span class="smallText">CES Rate($269) No longer available, prevailing rate applies</span></td><td><span class="smallText">CES Rate($269) No longer available, prevailing rate applies</span></td><td><span class="smallText">CES Rate($269) No longer available, prevailing rate applies</span></td><td><span class="smallText">$269</span></td>
+
+</td><td width="30%"></td>
+</tr>
+	</tr>
+</table><div><h3>
+	*Hotel Resort Fees</h3>
+</div><div>
+<ul>
+	<li>
+		ARIA: $25 resort fee includes:&nbsp;Internet access (in-room and campus wide at City Center), local and toll-free telephone calls, access to Fitness Center, daily newspaper, and airline boarding pass printing</li>
+</ul>
+<ul>
+	<li>
+		Bellagio: $25 resort fee includes: access to Hotel Fitness Center, wireless and high speed internet in guest rooms, boarding pass printing in Hotel&#39;s Business Center, free local calls, and &nbsp;free toll free calls</li>
+</ul>
+<ul>
+	<li>
+		Circus Circus:&nbsp;$8.95 resort fee incluses in-room internet service (daily), 2 free passes to to Fitness room (valid each day of your stay for up to 2 people), Chips and Salsa at the Garden Grill, 2 free drinks at West Casino bar or Slots A Fun bar (or a $5 credit towards other beverage purchase), 2 free ride passes for the Adventure Dome Theme Park, 2 Fitness passes, 2 free Midway games and&nbsp;800/local calls</li>
+</ul>
+<ul>
+	<li>
+		Circus Circus West Tower:&nbsp;$8.95 resort fee incluses in-room internet service (daily), 2 free passes to to Fitness room (valid each day of your stay for up to 2 people), Chips and Salsa at the Garden Grill, 2 free drinks at West Casino bar or Slots A Fun bar (or a $5 credit towards other beverage purchase), 2 free ride passes for the Adventure Dome Theme Park, 2 Fitness passes, 2 free Midway games and&nbsp;800/local calls</li>
+</ul>
+<ul>
+	<li>
+		Excalibur: $15 resort fee includes in-room wired Internet service, daily newspaper, Fitness Center admission, unlimited local, domestic long distance and toll-free telephone calls</li>
+</ul>
+<ul>
+	<li>
+		Luxor: $18 resort fee includes in-room wired Internet service, daily newspaper, Nuture Fitness Center admission, unlimited local, domestic long distance and toll-free telephone calls</li>
+</ul>
+<ul>
+	<li>
+		Mandalay Bay:&nbsp;$25 resort fee includes in-room wireless internet, cardio center admission (does not include Spa access), daily newspaper, local and 800-number calls, outgoing faxes and boarding pass printing at the Hotel Business Center</li>
+</ul>
+<ul>
+	<li>
+		Mirage:&nbsp;$25 resort fee includes daily newspaper at Impulse and Bell Desk, daily, Cardio Center admission (does not include Spa access), in-room robes, notary, copy and fax services &amp; airline boarding pass printing at The Mirage Business Service Center, unlimited local and toll free telephone calls and complimentary high speed internet in the guest sleeping rooms</li>
+</ul>
+<ul>
+	<li>
+		MGM Grand: $25 resort fee includes unlimited internet connection is guest rooms, access to Cardio Room, daily USA Today newspaper available at Front Page newsstand, unlimited local and toll-free telephone calls from guest rooms, printing of boarding passes,limited printing, faxing, and notary servces at Business Center</li>
+</ul>
+<ul>
+	<li>
+		Monte Carlo: $20 resort fee includes in-room wired Internet access, Fitness center access, daily newspaper, complimentary copying and faxing, boarding pass printing, free local and (800) calls</li>
+</ul>
+<ul>
+	<li>
+		New York New York:&nbsp;$18&nbsp;resort fee includes high speed internet, fitness center access, daily newspaper, unlimited local and 800-number calls, domestic long distance call rate of $.10 per minute, boarding pass printing, notary services, and incoming/outgoing faxes - limit 5 pages</li>
+</ul>
+<ul>
+	<li>
+		Riviera:&nbsp;$11 resort fee includes local and 800 phone calls, Access to Fitness Center, Complimentary In-room Wi-Fi, 50% off Drinks (first round) LeBistro, Unlimited use of in-room safe, 2 for 1 show tickets, $5 off Poker Tournament Entry Fee, and $60 in chips for $50 buy in-Poker Room</li>
+</ul>
+<ul>
+	<li>
+		Signature:&nbsp;$25 resort fee includes access to Signature Fitness Centers (2 centers, 24/7 access), two&nbsp;bottles water in suite/day, in-Room coffee &amp; tea, unlimited internet connection throughout towers, unlimited local and toll-free telephone calls from suites, and daily newspaper</li>
+</ul>
+<ul>
+	<li>
+		THEhotel:&nbsp;$25 resort fee includes in-room wireless Internet, cardio center admission (does not include Spa access), daily newspaper, local and 800-number calls, outgoing faxes and boarding pass printing at the Hotel Business Center</li>
+</ul>
+<ul>
+	<li>
+		Vdara: $25 resort fee includes&nbsp;Internet access (in-suite and campus wide at City Center), local and toll-free telephone calls, access to Vdara Fitness Center, daliy newspaper at Front Desk, boarding pass printing, and two (2) bottles of water per room, per day</li>
+</ul>
+<ul>
+	<li>
+		Venetian: $13 resort fee includes unlimited local and toll-free telephone calls, unlimited in-suite Internet access, daily newspaper per suite from Hotel&#39;s designated retail stores, acces tp Canyon Ranch fitness center for two (2) adults, boarding pass printing, one (1) regular coffee or tea at Cafe Presse, and two for one well drinks at any Venetian/Palazzo owned bar (must be 21 or older)</li>
+</ul>
+<ul>
+	<li>
+		Westin:&nbsp;$5 resort fee includes daily newspaper, self-parking, Westin workout facility, sauna &amp; steam rooms at spa, bottled water in guest rooms, incoming faxes, notary public, pool &amp; whirlpool, unlimited local calls, Unwind Ritual and printing of boarding pass</li>
+</ul>
+
+</div><div><p>
+	All fees are subject to change and are taxable at the current rate of 12 percent.</p>
+<h3>
+	Housing Agency/Bureau Policy</h3>
+<p>
+	The Consumer Electronics Association (CEA), producer of the International CES, would like to remind CES attendees and exhibitors that CES does not use or endorse housing agencies or bureaus. CES attendees and exhibitors are to contact the CES hotels directly to receive the contracted CES rate. Claims by housing agencies/bureaus that they are the official CES housing agency are untrue. Please feel free to contact <a href="mailto:CEShotels@CE.org">CEShotels@CE.org</a> for further information.</p>
+</div> &nbsp;</div>
+</div>
+</div>
+
+        
+    </div>
+    <div id="sitelinks">
+        <div>
+	<a href="/News/News-Feed.aspx"><img alt="CES NEWS" src="/cesweb/media/CESWeb/assets/images/footer/footer_cesnews.png" /></a>
+	<ul>
+		<li>
+			<a href="/News/News-Feed.aspx">Sign up for RSS news feeds</a></li>
+		<li>
+			<a href="/Facebook.aspx">Follow CES on Facebook</a></li>
+		<li>
+			<a href="/News/News-Feed.aspx">See all the latest CES news</a></li>
+	</ul>
+</div>
+<div>
+	<a href="/Conference-Program.aspx"><img alt="SESSION HIGHLIGHTS" src="/cesweb/media/CESWeb/assets/images/footer/footer_confprog.png" /></a>
+	<ul>
+		<li>
+			<a href="/Conference-Program.aspx">Conference program revealed Oct. 1</a></li>
+		<li>
+			<a href="/Conference-Program/Speaker-Services.aspx">See services CES provides its speakers</a></li>
+		<li>
+			<a href="/News/Multimedia-Gallery.aspx">Watch session videos from the most recent CES</a></li>
+	</ul>
+</div>
+<div>
+	<a href="/Events/Cea-Events.aspx"><img alt="EVENTS &amp; AWARDS" src="/cesweb/media/CESWeb/assets/images/footer/footer_eventsawards.png" /> </a>
+	<ul>
+		<li>
+			<a href="/Events/Keynotes.aspx">See developing keynote lineup</a></li>
+		<li>
+			<a href="/Events/Cea-Events.aspx">See CEA&#39;s calendar of events</a></li>
+		<li>
+			<a href="/Awards/CES-Innovations-Awards.aspx">Innovations honorees on cutting-edge of engineering</a></li>
+	</ul>
+</div>
+<div class="importantend">
+	<a href="/Hotel-Travel.aspx"><img alt="HOTEL &amp; TRAVEL" src="/cesweb/media/CESWeb/assets/images/footer/footer_hoteltravel.png" /> </a>
+	<ul>
+		<li>
+			<a href="/Hotel-Travel/Hotel-Reservations.aspx">Vegas hotels offer discounts for CES attendees</a></li>
+		<li>
+			<a href="/Hotel-Travel/CES-Shuttle-Service.aspx">CES offers free shuttle service all four days of show</a></li>
+		<li>
+			<a href="/Hotel-Travel/Las-Vegas-Travel-Tips.aspx">CES offers travel trips</a></li>
+	</ul>
+</div>
+<br />
+
+    </div>
+</div> 
+<div id="footer-home">
+    <div id="footer_nav-home">
+        <a href="/About-CES.aspx">About CES</a><span>|</span> <a href="/About-CEA.aspx">About CEA</a><span>|</span> <a href="/News/News-Feed.aspx">RSS News</a><span>|</span> <a href="/MyCES.aspx">MyCES</a><span>|</span> <a href="/Contact-Us.aspx">Contact Us</a><span>|</span> <a href="/Site-Map.aspx">Site Map</a><span>|</span> <a href="/Privacy-Policy.aspx">Privacy Policy</a><span>|</span> <a href="/Partners.aspx">Partners</a>&nbsp;
+       
+    </div>
+    <div id="copyright-home">
+    Copyright &copy; 2003 - 2012 CEA. All rights reserved.
+    </div>
+    
+    <a target="_blank" href="http://www.CE.org"><img id="p_lt_footerLogoZone_EditableImage2_imgImage" src="/cesweb/media/CESWeb/assets/images/footer/cesweb_footerlogo.png" alt="" /></a>
+</div>
+<script type="text/javascript">
+setTimeout(function(){var a=document.createElement("script");
+var b=document.getElementsByTagName("script")[0];
+a.src=document.location.protocol+"//dnn506yrbagrg.cloudfront.net/pages/scripts/0013/2569.js?"+Math.floor(new Date().getTime()/3600000);
+a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
+</script>
+
+    
+    
+
+<script type="text/javascript">
+//<![CDATA[
+(function() {var fn = function() {$get("manScript_HiddenField").value = '';Sys.Application.remove_init(fn);};Sys.Application.add_init(fn);})();//]]>
+</script>
+</form>
+</body>
+</html>
