@@ -1,0 +1,75 @@
+
+
+<SCRIPT language="javascript1.2">
+function newWin(urlString,pgNum)
+  {
+    var popupWindow;
+	urlString += "?pageID=" + pgNum;
+	
+    popupWindow = window.open(urlString,"","toolbar=yes,menubar=no,resizable=no,status=no,scrollbars=yes,location=no,directories=no,copyhistory=no,height=550,width=610,left=50,top=50");
+  }//  function for opening a new pop-up window for printing a page
+  
+ 
+function openNewWindow(strURL) {
+	window.name = "main";
+	
+	var newWindow = window.open(strURL,"newWindow", "toolbar=no,menubar=no,resizable=no,status=no,scrollbars=yes,location=no,directories=no,copyhistory=no,height=400,width=450,left=50,top=50");
+} //  function for opening a new pop-up window
+
+// javascript for e-mail this page tool - gets the url of the page the user is on before the e-mail page tool button is clicked
+	
+	function loadReferrer() {
+		referrerString = opener.document.location.href;
+		document.emailForm.page.value = referrerString;
+	}
+
+</SCRIPT>
+
+
+<div>	
+<!-- text for main page -->
+
+<table width='100%' border='0' cellspacing='0' cellpadding='2'><tr><td colspan='6'>Records 1 - 6 of 6 for High-End Audio</td></tr><tr><td height='8'></tr><tr><td colspan=6>
+</td></tr><tr><td colspan=6><img src='/global_images2005/spacer.gif' width='1' height='5'><br>
+<img src='/global_images2005//.line.gif' alt='-----------------------------------------------' width='580' height='2'><br>
+<tr><td class='tablehead' width='190'><div class='black'>Exhibitor</div></td>
+<td width='20'><img src='/global_images2005/spacer.gif' height='1' width='10'></td>
+<td class='tablehead' width='190'><div class='black'>Product Category</div></td>
+<td width='20'><img src='/global_images2005/spacer.gif' height='1' width='10'></td>
+<td class='tablehead' width='190'><div class='black'>Product Name</div></td></tr>
+<tr><td colspan='4' height='4'><img src='/global_images2005/spacer.gif' height='4' width='1'></td></tr>
+<tr >
+<td valign='top'>1.&nbsp;Eventus Audio                                     
+</td><td>&nbsp;</td><td valign='top'>High-End Audio
+</td><td>&nbsp;</td><td valign='top'><a href='?prodid=3666'>- METIS</a></td></tr>
+<tr class=11>
+<td valign='top'>2.&nbsp;Magnan Cables, Inc.                               
+</td><td>&nbsp;</td><td valign='top'>High-End Audio
+</td><td>&nbsp;</td><td valign='top'><a href='?prodid=3687'>Signature Digital</a></td></tr>
+<tr >
+<td valign='top'>3.&nbsp;Eventus Audio                                     
+</td><td>&nbsp;</td><td valign='top'>High-End Audio - Speakers
+</td><td>&nbsp;</td><td valign='top'><a href='?prodid=3668'>- NEBULA</a></td></tr>
+<tr class=11>
+<td valign='top'>4.&nbsp;Eventus Audio                                     
+</td><td>&nbsp;</td><td valign='top'>High-End Audio - Speakers
+</td><td>&nbsp;</td><td valign='top'><a href='?prodid=3669'>- PHOBOS</a></td></tr>
+<tr >
+<td valign='top'>5.&nbsp;Eventus Audio                                     
+</td><td>&nbsp;</td><td valign='top'>High-End Audio - Speakers
+</td><td>&nbsp;</td><td valign='top'><a href='?prodid=3667'>- SOPHIS</a></td></tr>
+<tr class=11>
+<td valign='top'>6.&nbsp;Trian Electronics, Inc.                           
+</td><td>&nbsp;</td><td valign='top'>High-End Audio - Other High End Audio Products
+</td><td>&nbsp;</td><td valign='top'><a href='?prodid=3649'>TD 2030</a></td></tr>
+<tr><td colspan=6><img src='/global_images2005/spacer.gif' width='1' height='10'><br>
+<img src='/global_images2005//.line.gif' alt='-----------------------------------------------' width='580' height='2'><br>
+</td></tr>
+<tr>
+<td colspan="6">
+
+</td>
+</tr>
+</table><br>[<a href=>perform another search</a>]
+<!-- /text for main page -->
+</div>
