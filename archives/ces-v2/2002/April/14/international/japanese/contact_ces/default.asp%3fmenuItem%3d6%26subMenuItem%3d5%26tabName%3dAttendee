@@ -1,0 +1,1423 @@
+
+<html>
+<META Content-Type: text/html; charset=shift-jis>
+<head>
+<title>2002 International CES: 連絡先</title>
+<script language="javascript1.2">
+	var ns=(document.layers);var ie=(document.all);
+	var temp='';
+	var thePath=location.pathname;
+</script>
+<script language="javascript1.2">
+/* This variable must be set correctly and manually for each page on the site for various aspects of the site (including the navigation) to function properly. Please note that this variable is a STRING, not an INTEGER. A listing of Page IDs can be referenced in the CESWeb Information Architecture Specification document (Section 9: Page Inventory and Content Mapping Matrix). */
+var pageID = "0.2";
+</script>
+
+
+<script language="javascript1.2" src="/global_include/js/nav_menu.js"></script>
+<script language="javascript1.2" src="/global_include/js/global.js"></script>
+<script language="javascript1.2" src="/global_include/js/validate_contact.js"></script>
+<script language="javascript1.2">
+	function setSubject() {
+		var queryStr = location.search.substring(1,location.search.length);
+		var emailMenuParams = queryStr.split("&");
+		var emailSubjectIndex = new Number(0);
+		var emailSubject = new String("");
+		var temp;
+		var obj = document.emailContactForm.subject;
+		
+		if(queryStr != ""){
+			for(i=0;i<emailMenuParams.length;i++) {
+				temp = emailMenuParams[i].split("=");
+				if (temp[0] == "emailSubject") {
+					emailSubject = temp[1];
+				} 
+			}
+		
+			for(var i=0; i<obj.options.length; i++) {
+			  if(obj.options[i].value == emailSubject) {
+			    obj.selectedIndex = i;
+			    break;
+			  }
+			}
+		}	
+	}
+</script>
+<link rel="stylesheet" href="/global_include/css/nav_menu.css" type="text/css">
+<link rel="stylesheet" href="/global_include/css/global_style.css" type="text/css">
+<META NAME="searchZone" CONTENT="generalCESweb"></head>
+
+<BODY marginheight="0" marginwidth="0" leftmargin="0" topmargin="0" onLoad="setBannerAd('B'); init();">
+
+<script language="JavaScript">addedValue=false;</script>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+	<tr bgcolor="#CCE20A"> 
+		<td align="center"><font size="1" face="verdana" color="#003366"><b>International CES<IMG SRC="/global_images/header_images/dot.gif" WIDTH="17" HEIGHT="13" valign="bottom">January 9-12, 2003<IMG SRC="/global_images/header_images/dot.gif" WIDTH="17" HEIGHT="13" valign="bottom">Las Vegas, Nevada<IMG SRC="/global_images/header_images/dot.gif" WIDTH="17" HEIGHT="13" valign="bottom">Las Vegas Convention Center<IMG SRC="/global_images/header_images/dot.gif" WIDTH="17" HEIGHT="13" valign="bottom">Alexis Park<IMG SRC="/global_images/header_images/dot.gif" WIDTH="17" HEIGHT="13" valign="bottom">Las Vegas Hilton</b></font></td> 
+	</tr>
+	<tr bgcolor="#CCE20A">
+		<td align="center" nowrap><IMG SRC="/global_images/trans.gif" WIDTH=750 HEIGHT=3></td> 
+	</tr>
+	<tr>
+		<td>
+			<table border="0" cellpadding="0" cellspacing="0" width="100%"> 
+				<tr> 
+					<td valign="top" bgcolor="#003366"><a href="../default.asp"><IMG SRC="/global_images/ceslogo_top.gif" border="none" alt="home"></a></td> 
+					<td valign="center" align="right" bgcolor="#003366"><a href="bannerAd"><img name="bannerAdGif" src="/global_images/banner_ads/ad_blank.gif" width="468" height="60" alt="Banner Ad" border="0"></a>&nbsp;</td>
+				</tr> 
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td align="left" valign="top">
+			<table cellpadding="0" cellspacing="0" border="0" width="100%">
+				<colgroup cols=3>
+					<col width=200>
+					<col width=*>
+					<col width=5>
+					<col width=185>
+					<col width=5>
+				</colgroup>
+				<tbody>
+				<tr>
+					<td valign="right" rowspan="2"><IMG SRC="/global_images/ceslogo_bottom.gif"></td> 
+					<td valign="bottom" align="right" colspan="2"><IMG SRC="/global_images/header_images/icestext.gif" WIDTH=311 HEIGHT=18>&nbsp;</td>
+					<td bgcolor="#5670B1" valign="center" align="center" nowrap colspan="2">
+						<table cellpadding="0" cellspacing="0" border="0">
+						<tr>
+						<td><script language="JavaScript">
+						var headerNavItem = headerNavConstant();
+						if (headerNavItem == "home") {
+							document.write("<font class='homenavhl'>home</font>");
+						} else {
+							document.write("<a href='/default.asp'><font class='homenav'>home</font></a>");
+						}
+						</script></td>
+						<td><font class="homenav">&nbsp;|&nbsp;</font></td>
+						<td><script language="JavaScript">
+						if (headerNavItem == "about") {
+							document.write("<font class='homenavhl'>about ces</font>");
+						} else {
+							document.write("<a href='/about_ces/default.asp'><font class='homenav'>about ces</font></a>");
+						}
+						</script></td>
+						<td><font class="homenav">&nbsp;|&nbsp;</font></td>
+						<td><script language="JavaScript">
+						if (headerNavItem == "help") {
+							document.write("<font class='homenavhl'>help</font>");
+						} else {
+							document.write("<a href='/help/'><font class='homenav'>help</font></a>");
+						}
+						</script></td>
+						<td><font class="homenav">&nbsp;|&nbsp;</font></td>
+ 						<td><script language="JavaScript">
+						if (headerNavItem == "contact") {
+							document.write("<font class='homenavhl'>contact ces</font>");
+						} else {
+							document.write("<a href='/contact_ces/default.asp'><font class='homenav'>contact ces</font></a>");
+						}
+						</script></td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+ 					<td colspan="4">
+						<table cellpadding="0" cellspacing="0" border="0">
+							<tr>
+								<td class="sp"><script>s1(10,1)</script>
+								</td>
+							</tr>
+						</table>
+					</td> 
+				</tr>
+				<tr>
+					<td rowspan="5" valign="top">
+						<table cellpadding="0" cellspacing="0" border="0">
+							<tr>
+								<td class="sp"><script>s1(1,213)</script></td>
+							</tr>
+						</table>
+						<table cellspacing="0" cellpadding="0" border="0">
+<tr><td rowspan=3>&nbsp;</td><td>
+
+<script language="javascript1.2">
+	function checkSearch() {
+			var searchForm = document.searchCESWeb;
+			
+			if(searchForm.SEARCH_STRING.value.search(/\S/) == -1) {
+				alert("Please enter text to search for.");
+				return;
+			}
+			
+			searchForm.submit();
+	}
+	
+</script>
+<table cellspacing="0" cellpadding="0" border="0">
+	<tr><td colspan=2><img src="/global_images/nav_menu/searchCESWeb.gif"></td></tr>
+	<form name="searchCESWeb" method="POST" action="/search/searchResult.asp?menuItem=6&subMenuItem=5&tabName=Attendee">
+	<tr><td align="left" valign="bottom"><input type="text" name="SEARCH_STRING" size="20" class="formData" value=""></td><td align="left" valign="bottom"><a href="javascript:checkSearch();"><img border=0 src="/global_images/nav_menu/searchButton.gif"></a></td></tr>
+	<!--<tr><td align="left" colspan=2><a href="/search/advanced.asp">advanced search</a></td></tr>-->
+	<!-- Component Fields -->
+	<input type="hidden" name="ExhibitorSearchField" value="on">
+	<input type="hidden" name="EventSearchField" value="on">
+	<input type="hidden" name="PressSearchField" value="on">
+	<input type="hidden" name="ConferenceSearchField" value="on">
+	<input type="hidden" name="GeneralCESwebSearchField" value="on">
+	</form>
+</table>
+</td></tr>
+<!-- <tr><td><img src="/global_images/nav_menu/navigateCESWeb.gif"></tr> -->
+<tr><td valign="top"><div id="navDiv"></div></td></tr>
+<!-- <tr><td><img src="/global_images/nav_menu/textonlyNavigation.gif"></td></tr> -->
+</table>
+					</td>
+					<td valign="top">
+						<table cellpadding="0" cellspacing="0" border="0">
+							<tr>
+								<td>
+									<table cellpadding="0" cellspacing="0" border="0">
+									<tr>
+										<td class="sp"><script>s1(1,355)</script></td>
+									</tr>
+									</table>
+								</td>
+							</tr>
+						</table>
+					</td>
+					<td valign="top">
+						<table cellpadding="0" cellspacing="0" border="0">
+							<tr>
+								<td>
+									<table cellpadding="0" cellspacing="0" border="0">
+									<tr>
+										<td class="sp"><script>s1(1,5)</script></td>
+									</tr>
+									</table>
+								</td>
+							</tr>
+						</table>
+					</td>
+					<td valign="top">
+						<table cellpadding="0" cellspacing="0" border="0">
+							<tr>
+								<td>
+									<table cellpadding="0" cellspacing="0" border="0">
+									<tr>
+										<td class="sp"><script>s1(1,185)</script></td>
+									</tr>
+									</table>
+								</td>
+							</tr>
+						</table>
+					</td>
+					<td valign="top">
+						<table cellpadding="0" cellspacing="0" border="0">
+							<tr>
+								<td>
+									<table cellpadding="0" cellspacing="0" border="0">
+									<tr>
+										<td class="sp"><script>s1(1,5)</script></td>
+									</tr>
+									</table>
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<script language="JavaScript">
+					if (addedValue == true) {
+						document.write("<td valign=top>");
+					} else {
+						document.write("<td valign=top colspan=4>");
+					}
+					</script>
+						<table cellpadding="0" cellspacing="0" border="0" width="100%">
+							<tr>
+								<td><br><font class="breadcrumb">
+								<!-- breadcrumb starts here -->
+								<script language="JavaScript">
+
+	var breadcrumb = "";
+	var pageTitle = "";
+	var breadcrumbURLs = new Array();
+	var breadcrumbTitles = new Array();
+
+	switch (pageID) {
+		case "0.1":
+			pageTitle = "about ces";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "0.1.1": case "0.1.2":
+			if (pageID == "0.1.1") {
+				pageTitle = "ces logos";
+			} else if (pageID == "0.1.2") {
+				pageTitle = "partners &amp; sponsors";
+			}
+
+			breadcrumbTitles = new Array("about ces");
+			breadcrumbURLs = new Array("/about.asp");
+			
+			break
+		
+		case "0.2":
+			pageTitle = "contact ces";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "0.2.1":
+			pageTitle = "thanks for contacting us";
+			breadcrumbTitles = new Array("contact ces");
+			breadcrumbURLs = new Array("/contact.asp");
+			break
+		
+		case "0.3":
+			pageTitle = "cesweb help";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "0.3.1": case "0.3.2": case "0.3.3": case "0.3.4":
+			if (pageID == "0.3.1") {
+				pageTitle = "keyword details";
+			} else if (pageID == "0.3.2") {
+				pageTitle = "cesweb faq";
+			} else if (pageID == "0.3.3") {
+				pageTitle = "show glossary";
+			} else if (pageID == "0.3.4") {
+				pageTitle = "help by audience";
+			}
+
+			breadcrumbTitles = new Array("cesweb help");
+			breadcrumbURLs = new Array("/help/");
+			
+			break
+
+		case "0.4":
+			pageTitle = "privacy policy";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+		
+		case "0.5.1":
+			pageTitle = "advanced search of cesweb";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "0.5.1.1":
+			pageTitle = "search results";
+			breadcrumbTitles = new Array("advanced search of cesweb");
+			breadcrumbURLs = new Array("/search/");
+			break
+
+		case "1.1":
+			pageTitle = "registration";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+
+		case "1.2":
+			pageTitle = "conferences &amp; keynotes";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "1.2.1":
+			pageTitle = "conference overview";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "1.2.2":
+			pageTitle = "keynotes";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "1.2.3":
+			pageTitle = "supersessions";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "1.2.4.A": case "1.2.4.B": case "1.2.4.C": case "1.2.4.D": case "1.2.4.E": case "1.2.4.F": case "1.2.4.G":
+			if (pageID == "1.2.4.A") {
+				pageTitle = "search for session";
+			} else if (pageID == "1.2.4.B") {
+				pageTitle = "search for session";
+			} else if (pageID == "1.2.4.C") {
+				pageTitle = "search for session";
+			} else if (pageID == "1.2.4.D") {
+				pageTitle = "search for session";
+			} else if (pageID == "1.2.4.E") {
+				pageTitle = "search for session";
+			} else if (pageID == "1.2.4.F") {
+				pageTitle = "search for session";
+			} else if (pageID == "1.2.4.G") {
+				pageTitle = "search for session";
+			}
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "1.2.4.1":
+			pageTitle = "search results";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "1.2.4.1.1":
+			pageTitle = "session details";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "1.3.1.A": case "1.3.1.B": case "1.3.1.C": case "1.3.1.D": case "1.3.1.E": case "1.3.1.F": case "1.3.1.G":
+			if (pageID == "1.3.1.A") {
+				pageTitle = "search for exhibitor by name";
+			} else if (pageID == "1.3.1.B") {
+				pageTitle = "search for exhibitor by brand name";
+			} else if (pageID == "1.3.1.C") {
+				pageTitle = "search for public traded exhibitors";
+			} else if (pageID == "1.3.1.D") {
+				pageTitle = "search for exhibitor by product category";
+			} else if (pageID == "1.3.1.E") {
+				pageTitle = "search for exporting exhibitors";
+			} else if (pageID == "1.3.1.F") {
+				pageTitle = "search for exhibitor by geographic location";
+			} else if (pageID == "1.3.1.G") {
+				pageTitle = "search for exhibitor";
+			}
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "1.3.1.1":
+			pageTitle = "search results";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "1.3.1.1.1":
+			pageTitle = "exhibitor details";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "1.3.1.1.1.1":
+			pageTitle = "booth details";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "1.3.2":
+			pageTitle = "exhibitor new products";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "1.4.1": case "1.4.2": case "1.4.3": case "1.4.3.1": case "1.4.3.1.1": case "1.4.4":
+			if (pageID == "1.4.1") {
+				pageTitle = "show floor locations";
+			} else if (pageID == "1.4.2") {
+				pageTitle = "maps";
+			} else if (pageID == "1.4.3") {
+				pageTitle = "las vegas convention center expansion";
+			} else if (pageID == "1.4.3.1") {
+				pageTitle = "lvcc expansion photos";
+			} else if (pageID == "1.4.3.1.1") {
+				pageTitle = "photo details";
+			} else if (pageID == "1.4.4") {
+				pageTitle = "las vegas information";
+			}
+
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+
+			break
+
+
+		case "1.5":
+			pageTitle = "news highlights";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "1.5.1":
+			pageTitle = "ces news ";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "1.5.2":
+			pageTitle = "cea news";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "1.5.3":
+			pageTitle = "media reports on ces";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "1.6.1 a-g":
+			pageTitle = "international visitor information";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "1.7.1":
+			pageTitle = "innovations awards";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "1.7.1.3":
+			pageTitle = "past innovations";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "1.7.1.3.2 a-c":
+			pageTitle = "judges";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "1.7.1.3.1 a-c":
+			pageTitle = "honorees";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "1.7.1.3.1.1 a-c":
+			pageTitle = "detailed honoree information";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "1.7.1.2":
+			pageTitle = "judges";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "1.7.1.1":
+			pageTitle = "honorees";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "1.7.1.1.1":
+			pageTitle = "detailed honoree information";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "1.7.2":
+			pageTitle = "hall of fame";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "1.7.3":
+			pageTitle = "best of ces";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "1.7.3.2":
+			pageTitle = "past best of ces";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "1.7.3.2.1 a-c":
+			pageTitle = "best of ces overview";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "1.8.1":
+			pageTitle = "hotel reservations";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "1.8.2":
+			pageTitle = "airlines &amp; rental cars";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "1.8.3":
+			pageTitle = "ces shuttle";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "1.8.4":
+			pageTitle = "taxi &amp; parking";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "1.9":
+			pageTitle = "ces photos";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "1.10.1.A": case "1.10.1.B": case "1.10.1.C": case "1.10.1.D": case "1.10.1.E": case "1.10.1.F": case "1.10.1.G": case "1.10.1.H": case "1.10.1.I": case "1.10.1.J": case "1.10.1.K": case "1.10.1.L": case "1.10.1.M": case "1.10.1.N": case "1.10.1.O": 
+			if (pageID == "1.10.1.A") {
+				pageTitle = "technologies to watch at ces: accessories & blank media";
+			} else if (pageID == "1.10.1.B") {
+				pageTitle = "technologies to watch at ces: audio hardware & software";
+			} else if (pageID == "1.10.1.C") {
+				pageTitle = "technologies to watch at ces: business management";
+			} else if (pageID == "1.10.1.D") {
+				pageTitle = "technologies to watch at ces: digital hollywood & content";
+			} else if (pageID == "1.10.1.E") {
+				pageTitle = "technologies to watch at ces: digital imaging";
+			} else if (pageID == "1.10.1.F") {
+				pageTitle = "technologies to watch at ces: electronic gaming";
+			} else if (pageID == "1.10.1.G") {
+				pageTitle = "technologies to watch at ces: home networking";
+			} else if (pageID == "1.10.1.H") {
+				pageTitle = "technologies to watch at ces: home theater";
+			} else if (pageID == "1.10.1.I") {
+				pageTitle = "technologies to watch at ces: mobile & in-car electronics";
+			} else if (pageID == "1.10.1.J") {
+				pageTitle = "technologies to watch at ces: personal electronics";
+			} else if (pageID == "1.10.1.K") {
+				pageTitle = "technologies to watch at ces: satellite systems";
+			} else if (pageID == "1.10.1.L") {
+				pageTitle = "technologies to watch at ces: small office & home office";
+			} else if (pageID == "1.10.1.M") {
+				pageTitle = "technologies to watch at ces: telecommunications";
+			} else if (pageID == "1.10.1.N") {
+				pageTitle = "technologies to watch at ces: video hardware & software";
+			} else if (pageID == "1.10.1.O") {
+				pageTitle = "technologies to watch at ces: wireless communications";
+			}
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "1.10.2":
+			pageTitle = "ces product categories";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "1.10.3":
+			pageTitle = "consumer electronics products";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "1.10.4":
+			pageTitle = "technology pavilions";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "1.11":
+			pageTitle = "other ce events";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "1.12":
+			pageTitle = "special events @ ces";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "1.12.1 a-z":
+			pageTitle = "booth &amp; celebrity event details";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "1.13":
+			pageTitle = "interested in exhibiting";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "2.1":
+			pageTitle = "general information for exhibitors";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "2.2":
+			pageTitle = "reserving exhibitor space";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "2.2.1":
+			pageTitle = "general information &amp; deadlines";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "2.2.2":
+			pageTitle = "ces sales representatives";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "2.2.3":
+			pageTitle = "contact a sales rep";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "2.2.3.1":
+			pageTitle = "thanks for contacting us";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "2.3":
+			pageTitle = "exhibitor advantage newsletter";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "2.4":
+			pageTitle = "exhibitor deadline checklist";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "2.5":
+			pageTitle = "reserving a meeting room";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "2.6":
+			pageTitle = "promotional opportunities";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "2.6.1":
+			pageTitle = "key contacts";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "2.6.2":
+			pageTitle = "deadline checklist";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "2.6.3 a-x":
+			pageTitle = "detailed opportunity information";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "2.7":
+			pageTitle = "technology pavilions";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "2.8":
+			pageTitle = "exhibitor registration";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "2.9":
+			pageTitle = "attendee statistics";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "2.10":
+			pageTitle = "exhibitor manual";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "2.11":
+			pageTitle = "hotel information for exhibitors";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "2.12":
+			pageTitle = "ces press &amp; analyst list";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "3.1":
+			pageTitle = "press services";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "3.1.1":
+			pageTitle = "on-site press room";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "3.2":
+			pageTitle = "news highlights";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "3.3":
+			pageTitle = "ces press releases";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "3.3.1 a-z":
+			pageTitle = "individual press release";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "3.4":
+			pageTitle = "contacts for press";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "3.5":
+			pageTitle = "ces logos";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "3.6":
+			pageTitle = "new products at ces";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "3.6.1 a-z":
+			pageTitle = "product details";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "3.7":
+			pageTitle = "exhibitor press releases";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "3.7.1 a-z":
+			pageTitle = "individual press release";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "3.8":
+			pageTitle = "press registration";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "3.9":
+			pageTitle = "press events";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "3.9.1.1 a-z":
+			pageTitle = "press conference details";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "3.10":
+			pageTitle = "exhibitor PR contacts";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "3.11":
+			pageTitle = "housing information for press";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "4.1":
+			pageTitle = "call for ces speakers";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "4.2":
+			pageTitle = "ces speaker submission";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "4.2.1":
+			pageTitle = "thanks for answering our call for speakers";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "4.3":
+			pageTitle = "speaker services";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+
+		case "4.4":
+			pageTitle = "speak @ other cea events";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+			break
+		
+
+		default:
+			pageTitle = "none";
+			breadcrumbTitles = new Array();
+			breadcrumbURLs = new Array();
+	}
+
+
+	if (pageID != "0") {
+
+		breadcrumb = "<a href='/default.asp' class='breadcrumb'>home</a> > ";
+		
+		for (var i=0; i < breadcrumbURLs.length; i++) {
+			breadcrumb += "<a href='";
+			breadcrumb += breadcrumbURLs[i];
+			breadcrumb += "' class='breadcrumb'>";
+			breadcrumb += breadcrumbTitles[i];
+			breadcrumb += "</a> > ";
+		}
+		
+		breadcrumb += pageTitle;
+
+		if (pageTitle != "none") {
+			document.write(breadcrumb);
+		}
+
+	} else {
+		;
+	}
+
+</script>
+								<!-- breadcrumb ends here -->
+								</font></td>
+							</tr>
+							<tr>
+								<td><br></td>
+							</tr>
+							<tr>
+								<td valign="top">
+
+
+<font class="head">CES への連絡先</font><br>
+<br>
+<font class="body">
+
+<!-- content starts here --> 
+
+ヘルプが必要ですか? 質問がおありですか?
+<p>
+消費者センターにご連絡いただければ、よろこんでお手伝いしたします。
+<p>
+
+<form name="emailContactForm" action="contact_confirmation.asp" method="post" onSubmit="return validate_contact_form();">
+<table cellpadding="0" cellspacing="0" border="0" width="100%">
+<tr>
+<td colspan=3><font class="body">
+送信していただく電子メール メッセージに直接、早急に返信を配信するには、以下の質問にお答えください。
+
+ (<font class="required">*</font>は記入必須項目です)。</font></td>
+</tr>
+<tr>
+<td colspan=3>&nbsp;</td>
+</tr>
+<tr>
+<td align=right><font class="required">*</font> <font class="formIdentifier">件名:</font></td>
+<td>&nbsp;</td>
+<td align=left><select name="subject" class="formData">
+		<option value="unselected" selected>件名を選択してください</option>
+		<option value="Badge - Attendee">バッジ - 参加者</option>
+		<option value="Badge - Exhibitor">バッジ - 展示会出展者</option>
+		<option value="Conferences">会議</option>
+		<option value="Booth Space">ブース スペース</option>
+		<option value="Housing/Transportation">宿泊施設/交通手段</option>
+		<option value="Future CES Dates">これからの CES の日程</option>
+		<option value="CES Directory">CES ディレクトリ</option>
+		<option value="Remove">メーリング リストおよび展示会出展者のプロモーションを削除</option>
+		<option value="Correction">出席者情報の訂正</option>
+		<option value="Help">登録ヘルプ</option>
+		<option value="Problem">CESWeb についての問題レポート</option>
+		<option value="Feedback">CESWeb についてのフィードバックを送信</option>
+		<option value="Other">その他</option>
+		</select>
+</td>
+</tr>
+<tr>
+<td colspan=3>&nbsp;</td>
+</tr>
+<tr>
+<td align=right><font class="required">*</font> <font class="formIdentifier">姓:</font></td>
+<td>&nbsp;</td>
+<td align=left><input type="text" name="FName" class="formData" size="25"></td>
+</tr>
+<tr>
+<td align=right><font class="required">*</font> <font class="formIdentifier">名:</font></td>
+<td>&nbsp;</td>
+<td align=left><input type="text" name="LName" class="formData" size="25"></td>
+</tr>
+<tr>
+<td align=right><font class="formIdentifier">電子メール:</font></td>
+<td>&nbsp;</td>
+<td align=left><input type="text" name="email" class="formData" size="25"></td>
+</tr>
+<tr>
+<td colspan=3>&nbsp;</td>
+</tr>
+<tr>
+<td align=right valign=top><font class="required">*</font> <font class="formIdentifier">メッセージ</font></td>
+<td>&nbsp;</td>
+<td align=left><textarea name="message" cols="30" rows="5"></textarea></td>
+</tr>
+<tr>
+<td colspan=3>&nbsp;</td>
+</tr>
+<tr>
+<td align=right valign=top><font class="formIdentifier">電話:</font> </td>
+<td>&nbsp;</td>
+<td align=left valign=top><input type="text" size="20" name="phone" class="formData"></td>
+</tr>
+<tr>
+<td align=right valign=top><font class="formIdentifier">ファックス:</font></td>
+<td>&nbsp;</td>
+<td align=left valign=top><input type="text" size="20" name="fax" class="formData"><br><font class="formInstruction">(国番号、市外局番も含めてご記入ください)<br>(例、+1 111 111 1111)<br>(+1 は、米国の国番号です)</font></td>
+</tr>
+<tr>
+<td colspan=3>&nbsp;</td>
+</tr>
+<tr>
+<td align=right><font class="formIdentifier">住所:</font> </td>
+<td>&nbsp;</td>
+<td align=left><input type="text" size="25" name="addressLine1" class="formData"></td>
+</tr>
+<tr>
+<td align=right>&nbsp;</td>
+<td>&nbsp;</td>
+<td align=left><input type="text" size="25" name="addressLine2" class="formData"></td>
+</tr>
+<tr>
+<td align=right><font class="formIdentifier">City:</font> </td>
+<td>&nbsp;</td>
+<td align=left><input type="text" size="25" name="city" class="formData"></td>
+</tr>
+<tr>
+<td align=right><font class="formIdentifier">州:</font> </td>
+<td>&nbsp;</td>
+<td align=left><select name="state" class="formData">
+		<option value="unselected">州を選択してください</option>
+		<option value="Alabama">Alabama</option>
+		<option value="Alaska">Alaska</option>
+		<option value="Arizona">Arizona</option>
+		<option value="Arkansas">Arkansas</option>
+		<option value="California">California</option>
+		<option value="Colorado">Colorado</option>
+		<option value="Connecticut">Connecticut</option>
+		<option value="Delaware">Delaware</option>
+		<option value="District of Columbia">District of Columbia</option>
+		<option value="Florida">Florida</option>
+		<option value="Georgia">Georgia</option>
+		<option value="Hawaii">Hawaii</option>
+		<option value="Idaho">Idaho</option>
+		<option value="Illinois">Illinois</option>
+		<option value="Indiana">Indiana</option>
+		<option value="Iowa">Iowa</option>
+		<option value="Kansas">Kansas</option>
+		<option value="Kentucky">Kentucky</option>
+		<option value="Louisiana">Louisiana</option>
+		<option value="Maine">Maine</option> 
+		<option value="Maryland">Maryland</option>
+		<option value="Massachusetts">Massachusetts</option>
+		<option value="Michigan">Michigan</option>
+		<option value="Minnesota">Minnesota</option>
+		<option value="Mississippi">Mississippi</option>
+		<option value="Missouri">Missouri</option>
+		<option value="Montana">Montana</option>
+		<option value="Nebraska">Nebraska</option>
+		<option value="Nevada">Nevada</option>
+		<option value="New Hampshire">New Hampshire</option>
+		<option value="New Jersey">New Jersey</option>
+		<option value="New Mexico">New Mexico</option>
+		<option value="New York">New York</option>
+		<option value="North Carolina">North Carolina</option>
+		<option value="North Dakata">North Dakata</option>
+		<option value="Ohio">Ohio</option>
+		<option value="Oklahoma">Oklahoma</option>
+		<option value="Oregon">Oregon</option>
+		<option value="Pennsylvania">Pennsylvania</option>
+		<option value="Rhode Island">Rhode Island</option>
+		<option value="South Carolina">South Carolina</option>
+		<option value="South Dakota">South Dakota</option>
+		<option value="Tennessee">Tennessee</option>
+		<option value="Texas">Texas</option>
+		<option value="Utah">Utah</option> 
+		<option value="Vermont">Vermont</option>
+		<option value="Virginia">Virginia</option> 
+		<option value="Virgin Islands">Virgin Islands</option>
+		<option value="Washington">Washington</option>
+		<option value="West Virginia">West Virginia</option>
+		<option value="Wisconsin">Wisconsin</option>
+		<option value="Wyoming">Wyoming</option>
+		</select> <font class="formInstruction">(米国内)</font></td>
+</tr>
+<tr>
+<td align=right><font class="formIdentifier">都道府県:</font> </td>
+<td>&nbsp;</td>
+<td align=left><input type="text" size="25" name="province" class="formData"> <font class="formInstruction">(米国以外)</font></td>
+</tr>
+<tr>
+<td align=right><font class="formIdentifier">国:</font></td>
+<td>&nbsp;</td>
+<td align=left><select name="country" class="formData">
+		<option value="unselected">国を選択してください</option>
+		<option value="Afghanistan">アフガニスタン</option>
+		<option value="Albania">アルバニア</option>
+		<option value="Algeria">アルジェリア</option>
+		<option value="American Samoa">アメリカン サモア</option>
+		<option value="Andorra">アンドラ</option>
+		<option value="Angola">アンゴラ</option>
+		<option value="Anguila">アングイラ</option>
+		<option value="Antarctica">南極大陸</option>
+		<option value="Antigua and Barbuda">アンティグアーバーブーダ</option>
+		<option value="Argentina">アルゼンチン</option>
+		<option value="Armenia">アルメニア</option>
+		<option value="Australia">オーストラリア</option>
+		<option value="Austria">オーストリア</option>
+		<option value="Aruba">アルーバ</option>
+		<option value="Azerbaijan">アゼルバイジャン</option>
+		<option value="Bahamas">バハマ</option>
+		<option value="Bahrain">バーレーン</option>
+		<option value="Barbados">バルバドス</option>
+		<option value="Bangladesh">バングラディッシュ</option>
+		<option value="Belarus">ベラルーシ</option>
+		<option value="Belgium">ベルギー</option>
+		<option value="Belize">ベリーズ</option>
+		<option value="Benin">ベニン</option>
+		<option value="Bermuda">バミューダ島</option>
+		<option value="Bhutan">ブータン</option>
+		<option value="Bolivia">ボリビア</option>
+		<option value="Bosnia and Herzegovina">ボスニア ヘルチェゴビナ</option>
+		<option value="Botswana">ボツワナ</option>
+		<option value="Bouvet Island">ブーヴェ島</option>
+		<option value="Brazil">ブラジル</option>
+		<option value="Brunei Darussalam">ブルネイ-ダルサラーム</option>
+		<option value="Burkina Faso">ブルキナファソ</option>
+		<option value="Bulgaria">ブルガリア</option>
+		<option value="Burundi">ブルンディ</option>
+		<option value="Cambodia">カンボジア</option>
+		<option value="Cameroon">カメルーン</option>
+		<option value="Canada">カナダ</option>
+		<option value="Cape Verde">カボ ヴェルデ</option>
+		<option value="Cayman Islands">ケイマン諸島</option>
+		<option value="Central African Republic">中央アフリカ共和国</option>
+		<option value="Chad">チャド</option>
+		<option value="Chile">チリ</option>
+		<option value="China">中華人民共和国</option>
+		<option value="Christmas Island">クリスマス島</option>
+		<option value="Cocos (Keeling) Islands">ココス(キーリング)諸島</option>
+		<option value="Colombia">コロンビア</option>
+		<option value="Comoros">Comoros</option>
+		<option value="Congo">コンゴ</option>
+		<option value="Cook Islands">クック諸島</option>
+		<option value="Costa Rica">コスタリカ</option>
+		<option value="Cote dIvoire">コートジボワール</option>
+		<option value="Croatia">クロアチア</option>
+		<option value="Cuba">キューバ</option>
+		<option value="Cyprus">キプロス</option>
+		<option value="Czech Republic">チェコ共和国</option>
+		<option value="Denmark">デンマーク</option>
+		<option value="Djibouti">ジブティ</option>
+		<option value="Dominica">ドミニカ</option>
+		<option value="Dominican Republic">ドミニカ共和国</option>
+		<option value="East Timor">東ティモール</option>
+		<option value="Ecuador">エクアドル</option>
+		<option value="Egypt">エジプト</option>
+		<option value="El Salvador">エル サルバドル</option>
+		<option value="Eritrea">エリトリア</option>
+		<option value="Estonia">エストニア</option>
+		<option value="Ethiopia">エチオピア</option>
+		<option value="Equatorial Guinea">赤道ギニア</option>
+		<option value="Falkland Islands (Malvinas)">フォークランド(マルビナス)諸島</option>
+		<option value="Faroe Islands">フェロー諸島</option>
+		<option value="Finland">フィンランド</option>
+		<option value="Fiji">フィジー</option>
+		<option value="France">フランス</option>
+		<option value="French Guiana">仏領ギアナ</option>
+		<option value="French Polynesia">仏領ポリネシア</option>
+		<option value="Gabon">ガボン</option>
+		<option value="Gambia">ガンビア</option>
+		<option value="Georgia">ジョージア</option>
+		<option value="Germany">ドイツ</option>
+		<option value="Ghana">ガーナ</option>
+		<option value="Gibratar">ジブラルタル</option>
+		<option value="Greece">ギリシャ</option>
+		<option value="Greenland">グリーンランド</option>
+		<option value="Grenada">グレナダ</option>
+		<option value="Guadeloupe">グアドループ</option>
+		<option value="Guam">グアム</option>
+		<option value="Guatemala">グアテマラ</option>
+		<option value="Guinea">ギニア</option>
+		<option value="Guinea Bissau">ギニア-ビサウ</option>
+		<option value="Guyana">ガイアナ</option>
+		<option value="Haiti">ハイチ</option>
+		<option value="Honduras">ホンデュラス</option>
+		<option value="Hong Kong">香港</option>
+		<option value="Holy See (Vatican City State)">バチカン市国</option>
+		<option value="Hungary">ハンガリー</option>
+		<option value="Iceland">アイスランド</option>
+		<option value="India">インディア</option>
+		<option value="Indonesia">インドネシア</option>
+		<option value="Iran">イラン</option>
+		<option value="Iraq">イラク</option>
+		<option value="Ireland">アイルランド</option>
+		<option value="Israel">イスラエル</option>
+		<option value="Italy">イタリア</option>
+		<option value="Jamaica">ジャマイカ</option>
+		<option value="Japan">日本</option>
+		<option value="Jordan">ヨルダン</option>
+		<option value="Kazakhstan">カザフスタン</option>
+		<option value="Kenya">ケニア</option>
+		<option value="Kiribati">キリバス</option>
+		<option value="Korea, Democratic Peoples Republic of">北朝鮮</option>
+		<option value="Korea, Republic of">南朝鮮</option>
+		<option value="Kuwait">クウェート</option>
+		<option value="Kyrgyzstan">キルギスタン</option>
+		<option value="Lao Peoples Democratic Republic">ラオス</option>
+		<option value="Latvia">ラトビア</option>
+		<option value="Lebanon">レバノン</option>
+		<option value="Lesotho">レソト</option>
+		<option value="Liberia">リベリア</option>
+		<option value="Libyan Arab Jamahiriya">リビア</option>
+		<option value="Liechtenstein">リヒテンシュタイン</option>
+		<option value="Lithuania">リトアニア</option>
+		<option value="Luxembourg">ルクセンブルク</option>
+		<option value="Macau">マカオ</option>
+		<option value="Madagascar">マダガスカル</option>
+		<option value="Malawi">Malawi</option>
+		<option value="Malaysia">マレーシア</option>
+		<option value="Maldives">モルジブ</option>
+		<option value="Mali">マリ</option>
+		<option value="Malta">マルタ</option>
+		<option value="Marshall Islands">マーシャル諸島</option>
+		<option value="Martinique">Martinique</option>
+		<option value="Mauritania">Mauritania</option>
+		<option value="Mauritius">Mauritius</option>
+		<option value="Mayotte">Mayotte</option>
+		<option value="Mexico">メキシコ</option>
+		<option value="Monaco">モナコ</option>
+		<option value="Mongolia">モンゴリア</option>
+		<option value="Montserrat">モントセラト</option>
+		<option value="Morocco">モロッコ</option>
+		<option value="Mozambique">モザンビーク</option>
+		<option value="Myanmar">ミャンマー</option>
+		<option value="Namibia">ナミビア</option>
+		<option value="Nauru">ナウル</option>
+		<option value="Nepal">ネパール</option>
+		<option value="Netherlands">オランダ</option>
+		<option value="Netherlands Antilles">オランダ領アンティル</option>
+		<option value="New Caledonia">ニューカレドニア</option>
+		<option value="Nicaragua">ニカラグア</option>
+		<option value="Niger">ニジェール</option>
+		<option value="Nigeria">ナイジェリア</option>
+		<option value="Niue">ニウエ</option>
+		<option value="Norfold Island">ノルフォールド島</option>
+		<option value="Northern Mariana Islands">北マリアナ諸島</option>
+		<option value="Norway">ノルウェー</option>
+		<option value="New Zealand">ニュージーランド</option>
+		<option value="Oman">オマーン</option>
+		<option value="Pakistan">パキスタン</option>
+		<option value="Palau">パラウ</option>
+		<option value="Panama">パナマ</option>
+		<option value="Papua New Guinea">パプア ニューギニア</option>
+		<option value="Paraguay">パラグアイ</option>
+		<option value="Peru">ペルー</option>
+		<option value="Philippines">フィリピン</option>
+		<option value="Pitcairn">ピトケルン</option>
+		<option value="Poland">ポーランド</option>
+		<option value="Portugal">ポルトガル</option>
+		<option value="Puerto Rico">プエルトリコ</option>
+		<option value="Qatar">カタール</option>
+		<option value="Reunion">レユニオン</option>
+		<option value="Romania">ルーマニア</option>
+		<option value="Russian Federation">ロシア</option>
+		<option value="Rwanda">ルワンダ</option>
+		<option value="Samoa">サモア</option>
+		<option value="San Marino">サンマリノ</option>
+		<option value="Saudi Arabia">サウジアラビア</option>
+		<option value="Saint Helena">セントへレナ</option>
+		<option value="Saint Lucia">セントルシア</option>
+		<option value="Saint Pierre and Miquelon">サンピエール エ ミクロン</option>
+		<option value="Saint Vincent and the Grenadines">セントヴィンセント-グレナディン</option>
+		<option value="Sao Tome and Principe">サントーメ-プリンシペ</option>
+		<option value="Sengal">セネガル</option>
+		<option value="Sierra Leone">シエラレオーネ</option>
+		<option value="Singapore">シンガポール</option>
+		<option value="Slovakia">スロバキア</option>
+		<option value="Slovenia">スロベニア</option>
+		<option value="Solomon Islands">ソロモン諸島</option>
+		<option value="Somalia">ソマリア</option>
+		<option value="South Georgia">サウスジョージア</option>
+		<option value="South Africa">南アフリカ</option>
+		<option value="Spain">スペイン</option>
+		<option value="Sri Lanka">スリランカ</option>
+		<option value="Sudan">スーダン</option>
+		<option value="Suriname">スリナム</option>
+		<option value="Svalbard and Jan Mayen"> スヴァールバル、ヤンマイエン</option>
+		<option value="Swaziland">スワジランド</option>
+		<option value="Sweden">スウェーデン</option>
+		<option value="Switzerland">スイス</option>
+		<option value="Syrian Arab Republic">シリア</option>
+		<option value="Taiwan, Province of China">台湾</option>
+		<option value="Tajikistan">タジキスタン</option>
+		<option value="Thailand">タイ</option>
+		<option value="Tokelau">トケラウ</option>
+		<option value="Tonga">トンガ</option>
+		<option value="Trinidad and Tobago">トリニダードトバゴ</option>
+		<option value="Tunisia">チュニジア</option>
+		<option value="Turkey">トルコ</option>
+		<option value="Turkmenistan">トルクメニスタン</option>
+		<option value="Turks and Caicos Islands">タークス アンド ケーコス諸島</option>
+		<option value="Tuvalu">トゥヴァル</option>
+		<option value="Tanzania, United Republic of">タンザニア</option>
+		<option value="Uganda">ウガンダ</option>
+		<option value="Ukraine">ウクライナ</option>
+		<option value="United Arab Emirates">アラブ首長国連邦</option>
+		<option value="United Kingdom">イギリス</option>
+		<option value="United States">アメリカ</option>
+		<option value="United States Minor Outlying Islands">合衆国マイナーアウトレイイング諸島</option>
+		<option value="Uruguay">ウルグアイ</option>
+		<option value="Uzbekistan">ウズベキスタン</option>
+		<option value="Venezuela">ベネズエラ</option>
+		<option value="Virgin Islands, British">バージン諸島、イギリス</option>
+		<option value="Virgin Islands, US">バージン諸島、米国</option>
+		<option value="Vietnam">ベトナム</option>
+		<option value="Vanuatu">バァヌアトゥ</option>
+		<option value="Wallis and Futuna Islands">ワリー エ フトゥーナ諸島</option>
+		<option value="Western Sahara">西サハラ</option>
+		<option value="Yemen">イエメン</option>
+		<option value="Yugoslavia">ユーゴスラビア</option>
+		<option value="Zaire">ザイール</option>
+		<option value="Zimbabwe">ジンバブエ</option>
+		<option value="Zambia">ザンビア</option>
+		</select></td>
+</tr>
+<tr>
+<td align=right><font class="formIdentifier">郵便番号:</font> </td>
+<td>&nbsp;</td>
+<td align=left><input type="text" size="20" name="zip" class="formData"></td>
+</tr>
+<tr>
+<td colspan=3>&nbsp;</td>
+</tr>
+<tr>
+<td colspan=3><font class="formQuestion">このサイトを良くするためのアイデアをお持ちですか? このサイトをより価値あるものとするための追加・拡張の提案はありますか?
+
+</font><br><br></td>
+</tr>
+<tr>
+<td colspan=3><textarea name="comments" cols="45" rows="5"></textarea></td>
+</tr>
+<tr>
+<td colspan=3 align=center><br><br>
+<hr noshade size="1" width="30%">
+<input type="submit" name="submit" value="送信" class="formData">&nbsp;<input type="reset" name="reset" value="クリア" class="formData">
+<hr noshade size="1" width="30%">
+</td>
+</tr>
+</table>
+</form>
+</font>
+
+<!-- content ends here --> 
+
+<br><br>
+<a href="javascript:openEmailPage();"><img src="/global_images/emailPage.gif" border=0 alt="Email This Page to a Colleague"></a><p>
+<hr noshade size="1" color="#78A5AB">
+<font class="foot"><a href="#top" class="footer">Back to the top</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="/default.asp" class="footer">Home</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="/contact_ces/default.asp" class="footer">Contact Us</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="/about_ces/default.asp" class="footer">About CES</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="/help/" class="footer">Help</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="/privacy/default.asp" class="footer">Privacy Policy</a></font><br>
+<!--<hr noshade size="1" color="#78A5AB">--><br>
+<table cellpadding="0" cellspacing="0" border="0" width="100%">
+<tr>
+<td align=left><br><a href="http://www.ce.org" class="generalrightnav">Consumer Electronics Association (CEA)</a><font class="foot"><br>
+2500 Wilson Boulevard, Arlington, VA 22201-3834 USA<br>
+703 907 7605 tel&nbsp;&nbsp;|&nbsp;&nbsp;703 907 7675 fax<br>
+<a href="mailto:CESinfo@CE.org" class="footer">CESinfo@CE.org</a>
+</font></td>
+<td align=left><a href="javascript:setTextNavOption()" class="bodylink">Can't see the
+<br>left-hand navigation?
+<br>Click here.</a></td>
+</tr>
+</table><br>
+<!--<hr noshade size="1" color="#78A5AB">-->
+<font class="foot">Questions or comments about our site? Contact the <a href="mailto:webmaster@cesweb.org" class="footer">Webmaster</a>.<br>
+ｩ2000 <a href="http://www.ce.org" class="footer">Consumer Electronics Association</a>. All Rights Reserved.</font>
+<br><br>
+
+</td>
+</tr>
+</tbody>
+</table>
+
+</td>
+<script language="JavaScript">
+	if (addedValue == true) {
+		document.write("<td></td><td valign='top' width='185'><font class='date'>");
+		document.write("April 14, 2002");
+		document.write("</font>");
+	}
+</script>
+
+<!-- if there is right based navigation on this page, place it here - cannot place right navigation if the content is spanning the full page (see variable addedValue) -->
+<!-- none  -->
+
+<!-- if there is added value content on this page, place it here - cannot place added value if the content is spanning the full page (see variable addedValue) -->
+<!-- none -->
+
+<script language="JavaScript">
+	if (addedValue == true) {
+		document.write("</td><td></td>");
+	}
+</script>
+
+</tr>
+</table>
+
+</td>
+</tr>
+</table>
+
+<script language="javascript1.2">setSubject();</script>
+</BODY>
+</HTML>
