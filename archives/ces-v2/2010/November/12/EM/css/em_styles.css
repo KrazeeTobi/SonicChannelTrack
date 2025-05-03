@@ -1,0 +1,429 @@
+
+/* ENTERTAINMENT MATTERS STYLESHEET */
+/************************************/
+
+/* CSS RESET */
+
+div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin:0;
+	padding:3;
+	border:0;
+	outline:0;
+	font-size:100%;
+	vertical-align:baseline;
+	background:transparent;
+	}
+	
+img {
+	border:0;
+	}
+
+/* EM COLORS 
+
+	color:#AFDFE4; /*light blue
+	color:#D6DE23; /*lime green
+	color:#B3B3B3; /*light grey
+
+*/
+
+
+/* MAIN BODY STYLES */
+
+
+/*html {
+    background-image:url(../images/cesweb_bg.jpg);
+    background-repeat:no-repeat;
+	}*/
+
+body.home {
+	margin:0 auto;
+    padding:0;
+    /*background:#FFF;*/
+    /*width:991px;*/
+    /*height:auto;*/
+	font-family:Helvetica, Arial, sans-serif;
+	font-size:12px;
+    color:#000; 
+	}
+
+#container-home {
+	margin:0 auto;
+	padding:0px 0px 5px;
+	background:#FFF url(../images/bg_gradient.jpg) no-repeat 0 0;
+	width:991px;
+	height:auto;
+	float:left;
+	display:block;
+	/*border:1px solid #ccc;*/
+	}
+
+#em_main-content { /* CONTAINER TO CES SPECS WIDTH - 971px */
+	margin:0 25px 0 26px;
+	padding:0;
+    /*width:971px;*/
+	width:940px; /* MARGIN INCLUDED MAKES 971px WIDE */
+    height:auto;
+	/*border:1px solid #000;*/
+    }
+
+#em_header {
+	margin:0 auto;
+	width:940px;
+	}
+    
+/* LEFT SIDEBAR */
+
+#em_main-content .left {
+    margin:0;
+	padding:0;
+    width:240px;
+    height:auto;
+    float:left;
+	clear:none;
+	/*border:1px solid #000;*/
+    }
+	
+#main_nav {
+	margin:0;
+	padding:0;
+	}
+
+ul#menu {
+		margin:0;
+		padding:0;
+		width:220px;
+		height:100%;
+		}
+	
+	ul#menu li {
+		margin:11px 0 0 0;
+		padding:0;
+		list-style:none;
+		list-style-type:none;
+		float:left;
+		}
+	
+	ul#menu li a {
+		width:220px;
+		height:31px;
+		text-decoration:none;
+		display:block;
+		}
+	
+	ul#menu li a.floor {
+		background:url(../images/menu_onTheFloor.jpg) no-repeat 0 0;
+		}
+	
+	ul#menu li a.floor:hover {
+		background-position:0 -31px;
+		}
+		
+	ul#menu li a.key {
+		background:url(../images/menu_keySpeakers.jpg) no-repeat 0 0;
+		}
+	
+	ul#menu li a.key:hover {
+		background-position:0 -31px;
+		}
+	
+	ul#menu li a.events {
+		background:url(../images/menu_events.jpg) no-repeat 0 0;
+		}
+	
+	ul#menu li a.events:hover {
+		background-position:0 -31px;
+		}
+	
+	ul#menu li a.conference {
+		background:url(../images/menu_conferencePrograms.jpg) no-repeat 0 0;
+		}
+	
+	ul#menu li a.conference:hover {
+		background-position:0 -31px;
+		}
+	
+	ul#menu li a.multimedia {
+		background:url(../images/menu_multimedia.jpg) no-repeat 0 0;
+		}
+	
+	ul#menu li a.multimedia:hover {
+		background-position:0 -31px;
+		}
+	
+	ul#menu li a.inside {
+		background:url(../images/menu_insideAccess.jpg) no-repeat 0 0;
+		}
+	
+	ul#menu li a.inside:hover {
+		background-position:0 -31px;
+		}
+	
+	ul#menu li a.red {
+		background:url(../images/menu_redCarpet.jpg) no-repeat 0 0;
+		}
+	
+	ul#menu li a.red:hover {
+		background-position:0 -31px;
+		}
+	
+	ul#menu li a.hollywood {
+		background:url(../images/menu_hollywood.jpg) no-repeat 0 0;
+		}
+	
+	ul#menu li a.hollywood:hover {
+		background-position:0 -31px;
+		}
+		
+			ul#menu li ul li {
+				margin:1px 0 0 0;
+				padding:6px 0 3px 10px;
+				background-color:#AFDFE4; /*light blue*/
+				/*width:220px;*/
+				width:210px;
+				height:15px;
+				/*float:left;*/
+				/*border:1px solid #000;*/
+				}
+			
+			ul#menu li ul li a {
+				color:#000;
+				}
+			
+			ul#menu li ul li:hover {
+				background-color:#D6DE23; /*lime green*/
+				}
+	
+	#home_registerNow {
+		margin:11px 0 125px 0;
+		/*margin:11px 0 34px 0;*/
+		padding:0;
+		width:240px;
+		height:32px;
+		display:block;
+		float:left;
+		clear:both;
+		}
+	
+	#home_registerNow a {
+		width:220px;
+		height:32px;
+		background:url(../images/btn_registerNow.png) no-repeat 0 0;
+		display:block;
+		float:left;
+		}
+	
+	#home_registerNow a:hover {
+		background-position:0 -32px;
+		}
+			
+	#sidebar_CTA {
+		margin:8px 0 68px 0;
+		padding:0 20px;
+		background:url(../images/bg_leftsidebar_CTA.png) no-repeat 0 0;
+		width:200px;
+		height:285px;
+		float:left;
+		clear:both;
+		}
+	
+	#sidebar_CTA img {
+		padding:23px 0 7px 0;
+		}
+	
+	#sidebar_CTA p {
+		margin:0;
+		padding:0 4px;
+		font-family:Helvetica, Arial, sans-serif;
+		font-size:11px;
+		color:#FFF;
+		line-height:13px;
+		}
+	
+	ul#sidebar_list {
+		margin:0 0 0 12px;
+		padding:0;
+		font-family:Helvetica, Arial, sans-serif;
+		color:#FFF;
+		}
+	
+	ul#sidebar_list li {
+		margin:0;
+		padding:0;
+		font-size:12px;
+		line-height:25px;
+		}
+	
+	#sidebar_social {
+		margin:0;
+		padding:0;
+		width:220px;
+		/*border:1px solid #000;*/
+		}
+	
+	#sidebar_social a {
+		margin:0;
+		padding:0;
+		text-decoration:none;
+		}
+	
+	#sidebar_social img {
+		margin:0;
+		padding:0;
+		float:left;
+		clear:none;
+		border:none;
+		}
+    
+
+  
+/* BEGIN RIGHT SIDEBAR */      
+        
+#em_main-content .right {
+	margin:0;
+	padding:10px 0;
+    /*background:#FFF;*/
+    width:700px;
+    height:auto;
+    float:right;
+	clear:none;
+	/*border:1px solid red;*/
+	}
+
+
+/* ---------------------------------- Start Slideshow style editing */
+
+#em_slideshow {
+	width:690px;
+	float:right;
+	clear:both;
+	/*border:1px solid #000;*/
+	}
+
+.em_anythingSlider {
+	position:relative;
+	margin:0 auto;
+	background:url(../images/slideshow_border.png) no-repeat 0 0;
+	/*width:680px;*/
+	/*width:692px;*/
+	width:690px; /* NEW 09.08.10 */
+	/*height:317px;*/
+	/*height:195px;*/
+	height:216px; /* NEW 09.07.10 */
+	float:right;
+	}
+	
+.em_anythingSlider .wrapper {
+	position:absolute;
+	top:12px;
+	left:10px;
+	margin:0;
+	padding:0;
+	/*width:680px;*/
+	width:678px; /* NEW 09.08.10 */
+	overflow:auto;
+	/*height:317px;*/
+	height:193px;
+	border:1px solid #B3B3B3; /*light grey*/
+	}
+                                       /* Width below is max for Opera */
+.em_anythingSlider .wrapper ul {
+	position:absolute; 
+	top:0; 
+	left:0; 
+	/*margin:0 0 0 -40px;*/
+	margin:0;
+	/*width:32700px;*/
+	width:32700px;
+	list-style:none;
+	background:#EEE;
+	}
+	
+.em_anythingSlider ul li {
+	display:block;
+	float:left;
+	padding:0;
+	/*height:317px;*/
+	height:195pxpx;
+	width:680px;
+	}
+	
+.em_anythingSlider .arrow {
+	display:block;
+	height:22px;
+	width:13px;
+	background:transparent no-repeat 0 0;
+	text-indent:-9999px;
+	position:absolute;
+	/*top:65px;*/
+	top:180px;
+	cursor:pointer;
+	/*border:1px solid #000;*/
+	}
+	
+.em_anythingSlider .forward {
+	position:absolute; 
+	/*right:28px;*/
+	right:0; /*NEW 09.07.10 */ 
+	/*top: 285px;*/
+	top:180px; 
+	padding:0 5px;
+	background:url(../images/next.png) no-repeat; 
+	width:13px; 
+	text-align:center; 
+	z-index:60;  
+	 }
+	 
+.em_anythingSlider .back {
+	position:absolute; 
+	/*right:85px; */
+	right:31px; /* NEW 09.07.10 */
+	/*top: 285px;*/
+	top:180px;
+	padding:0 5px; 
+	background:url(../images/prev.png) no-repeat; 
+	width:13px; 
+	text-align:center; 
+	}
+
+#start-stop { /* PAUSE */
+	position:absolute; 
+	/*right:45px;*/
+	right:5px; /* NEW 09.07.10 */
+	/*top:285px; */
+	top:180px;
+	padding:0 7px; 
+	background:url(../images/cesweb_slides_pause.png) no-repeat;
+	width:20px; 
+	height:22px; 
+	/*color: white;*/
+	text-align:center; 
+	}
+	
+#start-stop.playing { 
+	background-color:transparent; 
+	height: 22px;
+	}
+
+#start-stop:hover { 
+	background-color:transparent; 
+	height: 22px;
+	}
+
+/*
+  Prevents
+*/
+.em_anythingSlider .wrapper ul ul          { position: static; margin: 0; background: none; overflow: visible; width: auto; border: 0; }
+.em_anythingSlider .wrapper ul ul li       { float: none; height: auto; width: auto; background: none; }
+/* ---------------------------------- End Slideshow style editing */
+
+#newwrap {
+height="100%"
+}
