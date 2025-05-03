@@ -1,0 +1,405 @@
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><!-- PageID 1444 - published by Open Text Web Solutions 10 - 10.0.0.57 - 29635 -->
+    <title>International CES - January 8-11, 2009 - Exhibitor PR Newsletter</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+
+    
+<link type="text/css" rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" />
+
+
+
+<link type="text/css" rel="stylesheet" href="/print/css/styles.css" />
+
+<link type="text/css" rel="stylesheet" href="/print/css/HPtemplate_css.css" />
+
+<link type="text/css" rel="stylesheet" href="/print/css/pyxl_home.css" />
+
+<link type="text/css" rel="stylesheet" href="/print/css/sub_page.css" />
+
+
+
+
+<!--[if IE 6]>
+<link href="http://www.cesweb.org/css/ie6only_css-int.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+
+
+
+<script type="text/javascript" src="/print/utilities/interest.js"></script>
+
+<script type="text/javascript" src="/print/utilities/mainNav.js"></script>
+
+<script type="text/javascript" src="/print/utilities/rollOver.js"></script>
+
+<script type="text/javascript" src="/print/utilities/jquery.flow.1.2.auto.js"></script>
+
+<script type="text/javascript" src="/print/utilities/jquery.colorbox-min.js"></script>
+
+<script type="text/javascript" src="/print/utilities/jflickrfeed.min.js"></script>
+
+<script type="text/javascript" src="/print/utilities/jquery.easing.1.2.js"></script>
+
+<script type="text/javascript" src="/print/utilities/jquery.anythingslider.js"></script>
+
+<script type="text/javascript" src="/print/utilities/jquery.countdown.js"></script>
+
+<script type="text/javascript" src="/print/utilities/jquery.jfeed.js"></script>
+
+<script type="text/javascript" src="/print/utilities/jquery.jgfeed.js"></script>
+
+ 
+<script>
+    $(document).ready(function() {
+        $("#tabs").tabs();
+    });
+</script>
+
+
+<script type="text/javascript">
+    function formatText(index, panel) {
+      return index + "";
+    }
+    $(function () {
+    
+        $('.anythingSlider').anythingSlider({
+            easing: "easeInOutExpo",        // Anything other than "linear" or "swing" requires the easing plugin
+            autoPlay: true,                 // This turns off the entire FUNCTIONALY, not just if it starts running or not.
+            delay: 6000,                    // How long between slide transitions in AutoPlay mode
+            startStopped: false,            // If autoPlay is on, this can force it to start stopped
+            animationTime: 1200,             // How long the slide transition takes
+            hashTags: false,                 // Should links change the hashtag in the URL?
+            buildNavigation: true,          // If true, builds and list of anchor links to link to each slide
+            pauseOnHover: true,             // If true, and autoPlay is enabled, the show will pause on hover
+            startText: " ",                // Start text
+            stopText: " ",                 // Stop text
+            navigationFormatter: formatText       // Details at the top of the file on this use (advanced use)
+        });
+        
+        $("#slide-jump").click(function(){
+            $('.anythingSlider').anythingSlider(3);
+        });
+        
+    });
+</script>
+
+<script type="text/javascript">
+    var revert = new Array();
+    var inames = new Array('cesweb_menu_exhibitor', 'cesweb_menu_conference', 'cesweb_menu_events', 'cesweb_menu_awards', 'cesweb_menu_showfloor', 'cesweb_menu_hoteltravel', 'cesweb_menu_news', 'cesweb_menu_faq', 'cesweb_register', 'cesweb_exhibit', 'cesweb_exhibitors', 'cesweb_press', 'cesweb_visitors', 'entertainment_matters'  );
+    // Preload
+    if (document.images) {
+        var flipped = new Array();
+        for(i=0; i< inames.length; i++) {
+            flipped[i] = new Image();
+            switch (i)
+            {
+                case 0:
+                    flipped[i].src = '/print/images/framework/cesweb_menu_exhibitor2.png';
+                    break;
+                case 1:
+                    flipped[i].src = '/print/images/framework/cesweb_menu_conference2.png';
+                    break;
+                case 2:
+                    flipped[i].src = '/print/images/framework/cesweb_menu_events2.png';
+                    break;
+                case 3:
+                    flipped[i].src = '/print/images/framework/cesweb_menu_awards2.png';
+                    break;
+                case 4:
+                    flipped[i].src = '/print/images/framework/cesweb_menu_showfloor2.png';
+                    break;
+                case 5:
+                    flipped[i].src = '/print/images/framework/cesweb_menu_hoteltravel2.png';
+                    break;
+                case 6:
+                    flipped[i].src = '/print/images/framework/cesweb_menu_news2.png';
+                    break;
+                case 7:
+                    flipped[i].src = '/print/images/framework/cesweb_menu_faq2.png';
+                    break;
+                case 8:
+                    flipped[i].src = '/print/images/framework/cesweb_register2.png';
+                    break;
+                case 9:
+                    flipped[i].src = '/print/images/framework/cesweb_exhibit2.png';
+                    break;
+                case 10:
+                    flipped[i].src = '/print/images/framework/cesweb_exhibitors2.png'
+                    break;
+                case 11:
+                    flipped[i].src = '/print/images/framework/cesweb_press2.png';
+                    break;
+                case 12:
+                    flipped[i].src = '/print/images/framework/cesweb_visitors2.png';
+                    break;
+                case 13:
+                    flipped[i].src = '/print/images/framework/EMatCES2.jpg';
+                    break;
+                default:
+            }
+        }
+    }
+    function over(num) {
+      if(document.images) {
+        revert[num] = document.images[inames[num]].src;
+        document.images[inames[num]].src = flipped[num].src;
+      }          
+    }
+    function out(num) {
+      if(document.images) document.images[inames[num]].src = revert[num];
+    }
+</script>
+<script type="text/javascript">
+    $(function () {
+        var austDay = new Date();
+        austDay = new Date(austDay.getFullYear(), 13 - 1, 6, 8);
+        $('#countdown').countdown({until: austDay, format: 'dHMS' });
+    });
+</script>
+<script type="text/javascript">
+    //News Script
+    jQuery(function() {
+        jQuery.getFeed({
+            url: 'rssNews.xml',
+            success: function(feed) {
+                  
+                var html = '';      
+                for(var i = 0; i < feed.items.length && i < 15; i++) {
+        if(i==0){html += '<div id="news_1">'}        
+                    var item = feed.items[i];
+                    
+                    html += '<div id="news-date"><p>'
+                    + item.updated
+                    + '</p></div>'
+                    +'<h3>'
+                    + item.title
+                    + '</h3>'
+                    +'<div id="news-content"><p>'
+                    + item.description
+                       + ' [...]</p><div id="read-more"><a href="'
+                    + item.link
+                    + '">Read More'
+                    +'</a></div>'
+                    + '</div>';
+    if(i==3){html += '</div><div id="news_2" style="display:none">'}
+    if(i==7){html += '</div><div id="news_3" style="display:none">'}
+    if(i==11){html += '</div><div id="news_4" style="display:none">'}
+    if(i==15){html += '</div>'}
+    
+    
+                }
+                
+                jQuery('#news').append(html);
+            }    
+        });
+    });
+    //Blog Script
+    $('#blog').ready(function()
+    {
+        var pipe_url = 'http://pipes.yahoo.com/pipes/pipe.run?_id=187123ad3fceeea54c3eed8a5fc33ff4&_render=json&_callback=?';
+        
+        $.getJSON(pipe_url,function(data)
+        {
+            counter = 1;
+    
+            $(data.value.items).each(function(index,item)
+            {
+            if (counter == 1) var item_html = '<div id="blog-1"><div id="blog-date"><p>'+item.pubDate+'</p></div><h3>'+item.title+'</h3><div id="blog-content"><p>'+item.description+'</div><div id="read-more"><a href="'+item.link+'"> Read More</a></p></div>';
+            if (counter == 2) var item_html = '<div id="blog-date"><p>'+item.pubDate+'</p></div><h3>'+item.title+'</h3><div id="blog-content"><p>'+item.description+'</div><div id="read-more"><a href="'+item.link+'"> Read More</a></p></div>';
+            if (counter == 3) var item_html = '<div id="blog-date"><p>'+item.pubDate+'</p></div><h3>'+item.title+'</h3><div id="blog-content"><p>'+item.description+'</div><div id="read-more"><a href="'+item.link+'"> Read More</a></p></div>';
+            if (counter == 4) var item2_html = '<div id="blog-1"><div id="blog-date"><p>'+item.pubDate+'</p></div><h3>'+item.title+'</h3><div id="blog-content"><p>'+item.description+'</div><div id="read-more"><a href="'+item.link+'"> Read More</a></p></div>';
+            if (counter == 5) var item2_html = '<div id="blog-date"><p>'+item.pubDate+'</p></div><h3>'+item.title+'</h3><div id="blog-content"><p>'+item.description+'</div><div id="read-more"><a href="'+item.link+'"> Read More</a></p></div>';
+            if (counter == 6) var item2_html = '<div id="blog-date"><p>'+item.pubDate+'</p></div><h3>'+item.title+'</h3><div id="blog-content"><p>'+item.description+'</div><div id="read-more"><a href="'+item.link+'"> Read More</a></p></div>';
+            if (counter == 7) var item3_html = '<div id="blog-1"><div id="blog-date"><p>'+item.pubDate+'</p></div><h3>'+item.title+'</h3><div id="blog-content"><p>'+item.description+'</div><div id="read-more"><a href="'+item.link+'"> Read More</a></p></div>';
+            if (counter == 8) var item3_html = '<div id="blog-date"><p>'+item.pubDate+'</p></div><h3>'+item.title+'</h3><div id="blog-content"><p>'+item.description+'</div><div id="read-more"><a href="'+item.link+'"> Read More</a></p></div>';
+            if (counter == 9) var item3_html = '<div id="blog-date"><p>'+item.pubDate+'</p></div><h3>'+item.title+'</h3><div id="blog-content"><p>'+item.description+'</div><div id="read-more"><a href="'+item.link+'"> Read More</a></p></div>';
+            if (counter == 10) var item4_html = '<div id="blog-1"><div id="blog-date"><p>'+item.pubDate+'</p></div><h3>'+item.title+'</h3><div id="blog-content"><p>'+item.description+'</div><div id="read-more"><a href="'+item.link+'"> Read More</a></p></div>';
+            if (counter == 11) var item4_html = '<div id="blog-date"><p>'+item.pubDate+'</p></div><h3>'+item.title+'</h3><div id="blog-content"><p>'+item.description+'</div><div id="read-more"><a href="'+item.link+'"> Read More</a></p></div>';
+            if (counter == 12) var item4_html = '<div id="blog-date"><p>'+item.pubDate+'</p></div><h3>'+item.title+'</h3><div id="blog-content"><p>'+item.description+'</div><div id="read-more"><a href="'+item.link+'"> Read More</a></p></div>';
+                $('#blog_1').append(item_html);
+                $('#blog_2').append(item2_html);
+                $('#blog_3').append(item_html);
+                $('#blog_4').append(item2_html);
+                counter++;
+            });
+            
+            
+        });
+        
+    });
+    $('.ui-tabs .ui-tabs-nav ').ready(function(){
+        if (jQuery.browser.safari) {
+            $('.ui-tabs .ui-tabs-nav').css({"margin-top":"4px" });
+            $('.ui-tabs .ui-tabs-nav li.news.ui-tabs-selected').css({"padding-right":"18px", "margin-left":"-21px" });
+            $('.ui-tabs .ui-tabs-nav li.news').css({"padding-right":"18px" });
+            
+            
+        }    
+    });
+    //News Nav
+    function newsActive (id) {      
+        var node = document.getElementById(id);
+        var contentNode = document.getElementById("news");
+        var childCount = contentNode.childNodes.length;
+        for (var i = 0; i < childCount; ++i)
+        {
+            child = contentNode.childNodes[i];
+            if( child.nodeName.toLowerCase() == "div" )
+            {
+                child.style.display = "none";
+            }
+        }
+        node.style.display = "block";
+        
+        var buttonNode = document.getElementById(id + "_button");
+        var ulNode = document.getElementById("news_nav_buttons");
+        var childCount = ulNode.childNodes.length;
+        for (var i = 0; i < childCount; ++i)
+        {
+            child = ulNode.childNodes[i];
+            if( child.nodeName.toLowerCase() == "li" )
+            {
+                child.className = "";
+            }
+        }
+        buttonNode.className = "on_page";
+        
+        return false;
+    }
+    //Blog Nav
+    function blogActive (id) {      
+        var node = document.getElementById(id);
+        var contentNode = document.getElementById("blog");
+        var childCount = contentNode.childNodes.length;
+        for (var i = 0; i < childCount; ++i)
+        {
+            child = contentNode.childNodes[i];
+            if( child.nodeName.toLowerCase() == "div" )
+            {
+                child.style.display = "none";
+            }
+        }
+        node.style.display = "block";
+        
+        var buttonNode = document.getElementById(id + "_button");
+        var ulNode = document.getElementById("blog_nav_buttons");
+        var childCount = ulNode.childNodes.length;
+        for (var i = 0; i < childCount; ++i)
+        {
+            child = ulNode.childNodes[i];
+            if( child.nodeName.toLowerCase() == "li" )
+            {
+                child.className = "";
+            }
+        }
+        buttonNode.className = "on_page";
+        
+        return false;
+    }
+</script>
+
+    <script language="javascript" src="/print/utilities/flashDetect.js" type="text/javascript"></script>
+    <script language="javascript" src="/print/utilities/emailPage.js" type="text/javascript"></script>
+</head>
+<body>
+    <div id="container">
+        <div id="content-container">
+            <div id="header">
+    <div id="logo">
+        <a href="/print/default.asp"><img src="/print/images/framework/cesweb_headerlogo.png" alt="International CES"></a>
+    </div>
+    <div id="headTop">
+        <!-- Pyxl ADD search from below-->
+        <form action="http://googlebox.ce.org/search?" method="GET" name="searchCES">
+            <input type="hidden" id="Hidden1" value="default_collection" name="site">
+            <input type="hidden" id="Hidden2" value="2011CESweb" name="client">
+            <input type="hidden" id="Hidden3" value="2011CESweb" name="proxystylesheet">
+            <input type="hidden" id="Hidden4" value="xml_no_dtd" name="output">
+            <!-- Pyxl Alter Search value to "Search"  -->    <input type="text" onfocus="if(this.value=='Search') this.value='';" onblur="if(this.value=='') this.value='Search';" value="Search" class="searchbox" name="q"><input type="submit" onclick="document.searchCES.submit();" class="searchbutton" value="">
+        </form>
+        <a href="/print/aboutces.asp">About CES</a> | 
+        <a href="http://www.cesweb.org/blog" target="_blank">CES Blog</a> |  
+        <a href="/print/contactus.asp">Contact Us</a>
+    </div>
+  
+    <div class="clr"></div>
+
+    <div id="ctacontainer">
+        <div id="showdate"><img src="/print/images/framework/CESweb_headerdate.png" alt="2011 International CES January 6-9, 2011"></div>
+        <div id="countdown"></div>
+        <div id="register"><a href="/register" title="Register for CES" target=_blank><img src="/print/images/framework/cesweb_register1.png" alt="Register" name="cesweb_register" onMouseOver="over(8)" onMouseOut="out(8)" /></a></div>
+        <div id="exhibit"> <a href="/exhibitors/space/default.asp" title="Exhibit at CES"><img src="/print/images/framework/cesweb_exhibit1.png" alt="Exhibit at CES" name="cesweb_exhibit" onMouseOver="over(9)" onMouseOut="out(9)" /></a></div>
+    </div>
+</div>
+
+            <div id="main-content">
+                <div>
+                    <br />
+                    <br />
+                    <br />
+                </div>
+                <div id="">
+                    
+                    
+                    <div id="inner-content-long">
+                        <h1>Exhibitor PR Newsletter</h1>                                  
+                        <h2>September 2010</h2>
+As summer comes to an end, there is no better time to fall into planning for the 2011 International CES. We have just four months left before the big show, so don’t miss out on the opportunities below.<BR><BR>The 2011 Exhibitor PR Newsletter is distributed on the first Wednesday of every month to all CES Exhibitor PR Contacts. We also host our past editions online. 
+<H4>Exhibitor PR Kit Now Available Online</H4>
+<P>The <A href="/print/exhibitors/pr/prKit.asp">2011 International CES Exhibitor PR Kit </A>is now available online. Maximize your company's media exposure and get the most of your CES experience by using the CES Exhibitor PR Kit. The kit includes valuable ideas on preliminary promotion, comprehensive communications strategies, press conference and publicity tips, press kit information and much more. Download it in its entirety, or simply select the sections you need.<BR></P>
+<H4>Entries for Innovations Awards Accepted Through September 24</H4>
+<P>Entries for the <A href="/print/awards/innovations/default.asp">2011 International CES Innovations Design and Engineering Awards </A>will be accepted through September 24, 2010. This annual competition honors outstanding design and engineering in more than 30 consumer electronics product categories. Honorees will be announced at the New York Press Preview on November 9, 2010 at the Metropolitan Pavilion and showcased at the 2011 International CES. The Innovations Awards program gives product developers and manufacturers an opportunity to be critiqued by a preeminent panel of engineers, independent designers and journalists. The Innovations 2011 Design and Engineering Awards program is open to all companies, regardless of CES exhibitor status.<BR><BR></P>
+<H4>Update PR Contact listing</H4>
+<P>Leverage CES PR tools and resources for the 2011 International CES by sending us your PR contact information. <BR><BR>To ensure that the media can find you at CES, please take a moment to list your company’s PR contact. We will direct any media inquiries we receive regarding your company or products to the individual you indicate. The contact information will be available to all registered CES media.&nbsp; Please update your <A href="http://www.cesweb.org/exhibitors/cesSmartBooth/default.asp">Exhibitor Profile</A>, to include your company’s exhibitor PR contact information.<BR><BR>Questions? Contact Allison Fried at <A href="mailto:afried@CE.org">afried@CE.org</A>.<BR><BR></P>
+<H4>Online Media Center</H4>
+<P>Business Wire will host the 2011 CES Online Media Center to provide exhibitors with options for distributing event related <A href="http://www.businesswire.com/portal/site/home/pr/" target=_blank>news releases</A> and <A href="http://www.businesswire.com/portal/site/home/pr/multimedia/" target=_blank>multimedia</A>, setting up an <A href="http://mms.businesswire.com/bwapps/mediaserver/ViewMedia?mgid=226380&vid=1" target=_blank>Online Press Kit</A> and <A href="http://mms.businesswire.com/bwapps/mediaserver/ViewMedia?mgid=232376&vid=1" target=_blank>analyzing</A> the media who cover the show.<BR><BR><A href="http://www.businesswire.com/portal/site/2011-international-ces/" target=_blank>Business Wire's 2011 International CES Online Media Center </A>makes exhibitor news instantly available to not only attendees, but also relevant trade media, industry analysts, bloggers, online media and consumers worldwide. In addition, all news releases distributed via Business Wire automatically receive NewsTrak posting and tracking reports.<BR>&nbsp;<BR><A href="http://mms.businesswire.com/bwapps/mediaserver/ViewMedia?mgid=226380&vid=1" target=_blank>The Online Press Kit</A> will enable exhibitors to create an effective and customizable electronic press kit accessible directly from the <A href="http://www.businesswire.com/portal/site/2011-international-ces/" target=_blank>2011 International CES Online Media Center</A>. Each Online Press Kit also includes its own advisory via Business Wire promoting the Online Press Kit, social media sharing links and more. <BR><BR>Formulate an effective tradeshow PR strategy with a detailed intelligence report. EventTrak provides exhibitors with pre and post-show media and blogger coverage with direct access to contact information and articles published. Free with an Online Press Kit purchase or $150 alone. Business Wire also offers exhibitors free distribution of a 100-word profile.&nbsp;<BR><BR>For additional information on news release distribution, the Online Press Kit, EventTrak and/or to receive the template for the free 100-word profile, please email <A href="mailto:tradeshow@businesswire.com">tradeshow@businesswire.com</A>.<BR><BR></P>
+<H4>CES Exhibitor Workshop</H4>
+<P>Join us on September 9 for the first of our four-part webcast series, <A href="/print/exhibitors/resources/workshop.asp">2010 Exhibitor Workshop: Tips, Tricks and Savings to Maximize Your Tradeshow Experience</A>. <BR><BR><STRONG>Using MyCES to Gain that Competitive Edge</STRONG><BR>2 p.m. (EDT) September 9, 2010 <BR>MyCES, the interactive, online floor plan and directory, powered by Map Your Show, offers dozens of opportunities for you to share and connect with your potential customers. Increase exposure, showcase your products and services and generate sales leads before the show opens. <BR><BR>During the webcast we’ll walk through how an attendee uses MyCES, we’ll discuss research and take a look at the digital marketing packages available.<BR><BR>You don’t have to wait until the show to give attendees a glimpse into your product line. Join us September 9 to learn how you can start making an impact now! <A href="/print/exhibitors/resources/workshop.asp">Register today.</A><BR><BR>You also won’t want to miss: <A href="/print/exhibitors/resources/workshop.asp">Optimize Your Marketing Resources and Get the Most Press Coverage, 2 p.m. (EDT) September 28, 2010 – Register. <BR></A><BR></P>
+<H4>CES Unveiled@NY</H4>
+<P>Featured at the CES New York Press Preview&nbsp; <BR>Tuesday, November 9, 2010<BR>Metropolitan Pavilion<BR>New York, NY<BR><BR>Jumpstart your CES success early at the annual New York CES Press Preview - a kick-off to the 2011 International CES promotion season. Debut your company’s new products to more than 300 top-tier media, alongside market and financial analysts at the CES Unveiled tabletop event. Don’t miss your chance to stand out above the crowd and network with the hottest media in the key weeks leading up to the 2011 CES.&nbsp;<A href="/print/exhibitors/sponsorships/pressOpportunitites.asp">View this and all other press-specific promotional ideas.</A><BR><BR>Tabletop exhibitors at CES Unveiled@NY receive: </P>
+<UL class=text>
+<LI class=text>Promotion of all event exhibitors and sponsors to CES’ worldwide media list </LI>
+<LI class=text>150-word product/company description in the CES Unveiled Program Guide, subject to print deadline </LI>
+<LI class=text>One six-foot draped exhibit table </LI>
+<LI class=text>Six exhibitor passes to the event </LI>
+<LI class=text>One 22” x 26” pole sign </LI>
+<LI class=text>500 watts of electrical service </LI>
+<LI class=text>Free high-speed Internet service </LI>
+<LI class=text>Use of pre-registered CES Unveiled@NY press list</LI></UL><BR>
+<H4>Scheduling Exhibitor Press Conferences</H4>
+<P>Press conference scheduling for the 2011 International CES is underway. A press conference at CES is an excellent way to debut new products and make major company announcements. All CES exhibitors are eligible to hold a newsworthy press conference and have their event included on the official CES press event list. Exhibitor press conferences will run on Thursday, January 6 and Friday, January 7, 2011. </P>
+<P>Events can be held in a CES-provided press conference room, the exhibitor’s booth or in an exhibitor’s paid meeting room. Room reservations run in two-hour increments and come with a standard room set including theater-style seating for up to 200; three draped tables; a stage riser, a podium with a light and a wired microphone and two easels for signage. </P>
+<P>To schedule a press event, please fill out the <A href="http://www.cesweb.org/docs/Press_Conf_Reservation_Form__-_2011_PR_Kit.pdf" target=_blank>Press Conference Agreement Form</A> and submit to Allison Fried at <A href="mailto:afried@CE.org">afried@CE.org</A>.</P><BR>
+<H4>CES Media Tour Involvement</H4>
+<P>The CES communications team will be making the rounds to visit CES media in select target cities throughout the year to promote the excitement and buzz surrounding the 2011 International CES. During the month of September we will be visiting Chicago, Denver and San Diego. If your company is headquartered in any of the mentioned cities and you want more information on how to be involved with the tour and have direct contact with media in your area, contact Allison Fried at <A href="mailto:afried@CE.org">afried@CE.org</A>.</P><BR>
+<H4>Link to CESWEB for NEWS ~&nbsp;Living in Digital Times</H4>
+<P>Make sure you bookmark www.CESweb.org for up to the minute breaking news on the latest stories surrounding the 2011 International CES. <A href="/print/news/default.asp">We have a news section</A> dedicated to CES and exhibitor news as well as exhibitor news. Living in Digital Times will be returning to the CES show floor, with added features. For 2011, Living in Digital Times will feature the Digital Health TechZone, HigherEd Tech, Kids@Play, Mommy Tech, Silvers Summit and Sports and Fitness</P>
+<P><STRONG>Upcoming Deadlines<BR></STRONG><BR>September 8: Early-bird deadline for 2011 Innovations Design and Engineering Awards<BR>September 9: 2 p.m. EST Exhibitor Workshop – Introduction to “Map Your Show”<BR>September 24: Advertising deadline for CE Vision’s November/December issue with bonus distribution at the Pre-CES New York Press Preview<BR>September 28: 2 p.m. EST Exhibitor Workshop – Marketing and PR Overview<BR>September 29: 2011 Innovations Design and Engineering Awards Call for Entries Closes</P>
+<P>October 11: CES Unveiled in Las Vegas Sponsorship deadline to get your company mentioned in all pre-event media promotions<BR>October 11: Deadline for CES Unveiled@NY exhibitor listing for the NY program guide<BR>October 14: 2 p.m. EST Exhibitor Workshop – Operations Overview<BR>October 15: 2011 International CES Official Show Directory Updates/Company Logos deadline (print edition)<BR>October 28: 2 p.m. EST Exhibitor Workshop – GES Overview<BR>October 29: 2011 International CES Preshow Planner ad close<BR>October 31: CES Unveiled@NY Exhibitor Tabletop reservation deadline</P>
+<P><STRONG>Past Issues:</STRONG></P>
+<P><A href="/print/exhibitors/pr/exhibitorPRnl-Sept.asp">August, 2010</A></P>
+    
+                    </div>
+                    
+    
+                    
+                    <div id="inner-content-right">
+                        <br />
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!---->
+</body>
+</html>
