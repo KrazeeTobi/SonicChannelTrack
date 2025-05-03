@@ -1,0 +1,1492 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head id="head"><title>
+	Hotel - CES 2016
+</title><meta name="description" content="Find out what hotels are available and what rooms cost in Las Vegas during CES." /> 
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" /> 
+<meta http-equiv="pragma" content="no-cache" /> 
+<meta http-equiv="content-style-type" content="text/css" /> 
+<meta http-equiv="content-script-type" content="text/javascript" /> 
+<meta name="keywords" content="International CES, CES, CES 2010, CES 2011, CES 2012, CES 2013, CES 2014, CES 2015, CES 2016, CES 2017, CES 2018, Consumer Electronics Show, Consumer Technology, Consumer Electronics, Consumer Electronics Association, CES Las Vegas, ces show, ces vegas, CES Unveiled, ces tradeshow, ces conference, ces registration, ces exhibitor, ces innovation awards, innovation awards, best of ces, ces keynote, ces show floor, technology, silicon valley, technology innovation, disruptive technology, start-ups,International CES, CES, CES 2010, CES 2011, CES 2012, CES 2013, CES 2014, CES 2015, CES 2016, CES 2017, CES 2018, Consumer Electronics Show, Consumer Technology, Consumer Electronics, Consumer Electronics Association, CES Las Vegas, ces show, ces vegas, CES Unveiled, ces tradeshow, ces conference, ces registration, ces exhibitor, ces innovation awards, innovation awards, best of ces, ces keynote, ces show floor, technology, silicon valley, technology innovation, disruptive technology, start-ups, travel, hotel, register" /> 
+<link href="/CMSPages/GetResource.ashx?stylesheetname=Blank_1" type="text/css" rel="stylesheet"/> 
+<meta http-equiv="X-UA-Compatible" content="IE=edge"> <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- open graph -->
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="International CES" />
+<meta property="og:url" content="http://www.cesweb.org/Register-Plan/Hotel.aspx" />
+<meta property="og:title" content="Hotel" />
+<meta property="og:description" content="Find out what hotels are available and what rooms cost in Las Vegas during CES.">
+<meta property="og:image" content="http://www.cesweb.org/CES/media/2014/landing pages/register-plan/reg_hotel.png?width=410&height=232&ext=.png">
+<!-- open graph -->
+
+<meta property="twitter:account_id" content="10668202" />
+<!-- Twitter Summary Card -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@IntlCES">
+<meta name="twitter:creator" content="@IntlCES">
+<meta name="twitter:title" content="Hotel">
+<meta name="twitter:description" content="Find out what hotels are available and what rooms cost in Las Vegas during CES.">
+<meta name="twitter:image" content="http://www.cesweb.org/CES/media/2014/landing pages/register-plan/reg_hotel.png?width=410&height=232&ext=.png">
+<!-- End of Twitter Summary Card -->
+
+<link rel="shortcut icon" href="/ces/favicon.ico" />
+<link rel="icon" href="/ces/favicon.ico" />
+
+<!-- Added by Jay - 4/15/2015 -->
+<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css"> -->
+<link rel="stylesheet" href="/Content/theme.min.css">
+<!-- <link href="/CMSPages/GetResource.ashx?stylesheetname=ices-main-style" type="text/css" rel="stylesheet"/> -->
+<!-- END Added by Jay - 4/15/2015 -->
+
+<link href="/CMSPages/GetResource.ashx?stylesheetname=ices-captions" type="text/css" rel="stylesheet"  />
+<link href="/CMSPages/GetResource.ashx?stylesheetname=ices-slider-style" type="text/css" rel="stylesheet" media="screen" />
+<link href="/CMSPages/GetResource.ashx?stylesheetname=ices-flexslider" type="text/css" rel="stylesheet" />
+<link href="/CMSPages/GetResource.ashx?stylesheetname=ices-prettyphoto" type="text/css" rel="stylesheet" />
+<link href="/CMSPages/GetResource.ashx?stylesheetname=ices-settings" type="text/css" rel="stylesheet" media="screen" />
+<link href="/CMSPages/GetResource.ashx?stylesheetname=ices-fonts" type="text/css" rel="stylesheet" media="screen" />
+<link href="/CMSPages/GetResource.ashx?stylesheetname=ices-print" type="text/css" rel="stylesheet" media="print" />
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<!-- Bootstrap causes conflicts with CMSDesk so we only include this reference if we aren't in Edit mode -->
+
+<!-- Added by Jay - 4/15/2015 -->
+
+<script type="text/javascript" src="/CES/bootstrap/js/bootstrap.min.js"></script>
+<!-- END Added by Jay - 4/15/2015 -->
+
+
+<script type="text/javascript" src="//maps.google.com/maps/api/js?sensor=false"></script>
+<script type="text/javascript" src="/ces/js/itn/jquery.cookie.js"></script>
+<!-- Added by BH - 4/22/2015 for something in script.js-->
+<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<!-- END Added by BH - 4/22/2015 -->
+<script type="text/javascript" src="/ces/js/scripts.js"></script>
+<!--<script type="text/javascript" src="/ces/js/jquery.themepunch.revolution.min.js"></script>-->
+<script type="text/javascript" src="/ces/js/custom.js"></script>
+
+<script type="text/javascript">
+  <!--
+    function toggle_visibility(id) {
+      var e = document.getElementById(id);
+      if (e.style.display == 'block')
+        e.style.display = 'none';
+      else
+        e.style.display = 'block';
+    }
+      //-->
+</script>
+<script type="text/javascript">
+  function EnterEvent(e) {
+    if (e.keyCode == 13) {
+      var val = document.getElementById('searchTxt').value;
+      var sURL = '/search-results?searchtext=' + val + '&searchmode=anyword';
+      window.location.href = sURL;
+      return false;
+    }
+  }
+  
+jQuery(document).ready(function ($) {
+  var mainMenu = $(".main-menu>li") 
+  jQuery.each(mainMenu,function()
+    {
+      var firstLevelItem = $(this).children('ul');// $('#'+ count +' > ul');
+      var dropdownCSSClass = "";
+      var secondLevelItems = firstLevelItem.children('li');//$('#'+ count +' ul > li');
+      var secondLevelItemsCount = secondLevelItems.length;
+       
+      if(secondLevelItemsCount>10)
+        dropdownCSSClass = "nav-3cols";
+      else if(secondLevelItemsCount<=10 && secondLevelItemsCount>6)
+        dropdownCSSClass = "nav-2cols";
+      
+      firstLevelItem.addClass(dropdownCSSClass);
+      
+        for (var i = 0; i < secondLevelItemsCount; i += 5) {
+          secondLevelItems.slice(i, i + 5).wrapAll('<div class="nav-col"></div>');
+        }
+       
+      
+    });
+    
+    
+  });
+</script>
+<script type="text/javascript">var switchTo5x=false;</script>
+<script type="text/javascript" src="//w.sharethis.com/button/buttons.js"></script>
+<script type="text/javascript">stLight.options({publisher: "a17beaa8-5eee-4df7-8629-9947a3e965e3",  offsetLeft:'-270', doNotHash: true, doNotCopy: false, hashAddressBar: false, exclusive_services:true, services:"facebook,twitter,linkedin,googleplus,email,sharethis", minorServices:false});</script>
+
+
+
+<script type="text/javascript" src="/ces/js/cmsedit/WidgetSecurity_non_Admin.js"></script><meta name="viewport" content="initial-scale=1.0, width=device-width, user-scalable=no" /> 
+<style type="text/css" rel="stylesheet"> 
+                   
+                        .languages {
+                        display: none !important;
+                        
+                        }
+
+                    </style>
+                    <link href="/CMSPages/GetResource.ashx?_containers=34&amp;_templates=1085;1072&amp;_webparts=1067;136&amp;_webpartlayouts=279" type="text/css" rel="stylesheet"/> 
+</head>
+<body class="LTR ENUS ContentBody" >
+    <form method="post" action="/Register-Plan/Hotel.aspx" id="form">
+<div class="aspNetHidden">
+<input type="hidden" name="manScript_HiddenField" id="manScript_HiddenField" value="" />
+
+</div>
+
+<input type="hidden" name="lng" id="lng" value="en-US" />
+<script type="text/javascript">
+	//<![CDATA[
+
+function PM_Postback(param) { if (window.top.HideScreenLockWarningAndSync) { window.top.HideScreenLockWarningAndSync(1080); } if(window.CMSContentManager) { CMSContentManager.allowSubmit = true; }; __doPostBack('m$am',param); }
+function PM_Callback(param, callback, ctx) { if (window.top.HideScreenLockWarningAndSync) { window.top.HideScreenLockWarningAndSync(1080); }if (window.CMSContentManager) { CMSContentManager.storeContentChangedStatus(); };WebForm_DoCallback('m$am',param,callback,ctx,null,true); }
+//]]>
+</script>
+<script src="/ScriptResource.axd?d=3hdha27SAHByUKq-4Hx6D7eXBA_sf1w0noXZScXx-Ze4hnH0bOpNHZ1dxbYxKLYOUrRTiiSOZXYZrf4AAzuWkbgxC0O56uBVj8XZjgf7SIKw-eXKUEhGRbVWNHT9bsJq0&amp;t=7c776dc1" type="text/javascript"></script>
+<script type="text/javascript">
+	//<![CDATA[
+
+var CMS = CMS || {};
+CMS.Application = {
+  "isDialog": false,
+  "applicationUrl": "/",
+  "isRTL": "false",
+  "imagesUrl": "/CMSPages/GetResource.ashx?image=%5bImages.zip%5d%2f"
+};
+
+//]]>
+</script>
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="A5343185" />
+</div>
+    
+    <div id="ctxM">
+
+</div>
+    
+
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-KSBFDB"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KSBFDB');</script>
+<!-- End Google Tag Manager -->
+<!--[if lt IE 9]>
+  <div style="display: block; width: 97%; background-color: #FF99CC; padding: 10px 30px 10px 30px; text-align: center; color: black; font-size:20px;">
+    We noticed you are using an older version of IE that isn't fully supported on this site. Please click <a  href="#">here</a> for more information and options.
+</div>
+<![endif]--> 
+<!-- TOP NAV -->
+<section>
+  <nav class="navbar navbar-default">
+    <div class="container">
+      <ul class="connect-title"><li>Connect With Us</li></ul>
+      <ul class="social_icons">
+	<li class="twitter"><a href="https://twitter.com/intlces" title="Twitter">&nbsp;</a></li>
+	<li class="facebook"><a href="https://www.facebook.com/CES" title="facebook">&nbsp;</a></li>
+	<li class="googleplus"><a href="https://plus.google.com/+CES" title="googleplus">&nbsp;</a></li>
+	<li class="instagram"><a href="http://instagram.com/cesofficial" title="instagram">&nbsp;</a></li>
+	<li class="youtube"><a href="http://www.youtube.com/user/cesonthetube" title="youtube">&nbsp;</a></li>
+</ul>
+
+      <ul class="open-ad hidden-xs hidden-sm"><li id="clasp_1"><a href="javascript:lunchboxOpen('1');">OPEN ADVERTISEMENT</a></li></ul>
+      <ul class="drop" id="nav">
+	<li>
+		Other CEA Sites
+		<ul>
+			<li>
+				<a href="http://www.ce.org" target="_blank">CEA - CE.org</a></li>
+			<li>
+				<a href="http://www.declareinnovation.com/" target="_blank">Innovation Movement</a></li>
+			<li>
+				<a href="http://www.ce.org/blog" target="_blank">CEA Blog</a></li>
+			<li>
+				<a href="http://www.ce.org/i3" target="_blank">i3 Magazine</a></li>
+			<li>
+				<a href="http://www.greenergadgets.org/" target="_blank">Greener Gadgets</a></li>
+			<li>
+				<a href="http://www.ce.org/research" target="_blank">CEA Market Research</a></li>
+			<li>
+				<a href="http://www.ce.org/foundation" target="_blank">CEA Foundation</a></li>
+			<li>
+				<a href="http://www.cesasia.com" target="_blank">CES Asia</a></li>
+		</ul>
+	</li>
+</ul>
+
+    </div>
+  </nav>
+</section>
+
+<section>
+  <div class="billboard-ad hidden-xs hidden-sm">
+    <div class="container bill-ad lunchbox" id="lunch_1" style="display: none">
+      <div class="container bill-ad"><a id="p_lt_ctl02_BannerRotator_lnkBanner" class="CMSBanner Banner" href="https://ces.itnint.com/ces16/regonline/RegLogin.aspx?pcode=D1" onclick="this.href=&#39;/CMSModules/BannerManagement/CMSPages/BannerRedirect.ashx?bannerID=379&#39;;" onmouseup="this.href=&#39;/CMSModules/BannerManagement/CMSPages/BannerRedirect.ashx?bannerID=379&#39;;" target="_blank"><img id="p_lt_ctl02_BannerRotator_imgBanner" src="/CES/media/2014/advertisements/3462_CES-Register_banner970x250.jpg" style="" /></a></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div id="epiBackground" class="bk_white">
+    <div class="container">
+      <ul class="audience-nav">
+	<li>
+		<a href="/exhibitor">Exhibitors</a></li>
+	<li>
+		<a href="/press">Press</a></li>
+	<li>
+		<a href="/international">International</a></li>
+</ul>
+
+    </div>
+  </div>
+</section>
+
+<section>
+  
+  <div id="sticky_navigation" class="bk_white">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-60 col-sm-60 col-md-18 mainlogo">
+          <a href="/" id="logo" ><img class="img-responsive" src="/ces/images/logo.png" /></a>
+        </div>
+        <div class="hidden-xs hidden-sm col-md-42 maintitle">
+          <div class="search-container">
+            <div class="search">
+              <input type="search" id="searchTxt" onkeypress="return EnterEvent(event);" />
+            </div>
+            <div class="date">
+              <h2>
+	Las Vegas, NV</h2>
+<h3>
+	JANUARY 6-9, 2016</h3>
+
+            </div>
+          </div>
+        </div>
+        <div id="main-navigation" class="col-xs-60 col-lg-42 mainnav">
+              
+<ul class="main-menu sf-js-enabled sf-shadow main_nav_wrapper">
+ 
+    <li class="current"
+id="2">
+<a href=" /Register-Plan"> Register &amp; Plan</a> 
+<ul><p style ="display:none;">&nbsp;</p><li><a href=" /Register-Plan/Register-Now"> Register Now</a>
+
+<li><a href=" /Register-Plan/Full-Schedule"> Full Schedule </a>
+
+<li><a href=" /Register-Plan/Hotel"> Hotel</a>
+
+<li><a href=" /Register-Plan/Transportation"> Transportation</a>
+
+<li><a href=" /Register-Plan/Travel-Tips"> Travel Tips</a>
+
+<li><a href=" /Register-Plan/Badge-Pick-Up-and-Registration-Locations"> Badge Pickup and Registration Locations</a>
+
+
+</ul></li><li class=""
+id="4">
+<a href=" /Show-Floor"> Show Floor</a> 
+<ul><p style ="display:none;">&nbsp;</p><li><a href=" /Show-Floor/Exhibit-or-Sponsor"> Exhibit or Sponsor</a>
+
+<li><a href=" /Show-Floor/What-to-See-at-Tech-East"> What to See at Tech East</a>
+
+<li><a href=" /Show-Floor/What-to-See-at-Tech-West"> What to See at Tech West</a>
+
+<li><a href=" /Show-Floor/What-to-See-at-Tech-South"> What to See at Tech South</a>
+
+<li><a href=" /Show-Floor/Exhibit-Hours"> Exhibit Hours</a>
+
+<li><a href=" /Show-Floor/Maps"> Maps</a>
+
+<li><a href=" /Show-Floor/Exhibit-Directory"> Exhibitor Directory</a>
+
+<li><a href=" /Show-Floor/Show-Floor-Tours"> Show Floor Tours</a>
+
+<li><a href=" /Show-Floor/Marketplaces"> Marketplaces</a>
+
+
+</ul></li><li class=""
+id="5">
+<a href=" /Conference"> Conference</a> 
+<ul><p style ="display:none;">&nbsp;</p><li><a href=" /Conference/What-to-Expect"> What to Expect</a>
+
+<li><a href=" /Conference/Speaker-Resources"> Speaker Resources</a>
+
+
+</ul></li><li class=""
+id="6">
+<a href=" /Events-Programs"> Events &amp; Experiences</a> 
+<ul><p style ="display:none;">&nbsp;</p><li><a href=" /Events-Programs/Innovation"> CES Innovation Awards</a>
+
+<li><a href=" /Events-Programs/Entertainment-Matters"> Entertainment &amp; Content</a>
+
+<li><a href=" /Events-Programs/Advertising-Marketing"> Advertising &amp; Marketing</a>
+
+<li><a href=" /Events-Programs/Startups"> Startups</a>
+
+<li><a href=" /Events-Programs/CES-Unveiled"> CES Unveiled</a>
+
+<li><a href=" /Events-Programs/Executive-Club"> Executive Club</a>
+
+<li><a href=" /Events-Programs/2016-CES-Music-Contest"> CES 2016 Music Contest</a>
+
+<li><a href=" /Events-Programs/Garys-Book-Club"> Gary&#39;s Book Club</a>
+
+
+</ul></li><li class=""
+id="7">
+<a href=" /News"> News</a> 
+<ul><p style ="display:none;">&nbsp;</p><li><a href=" /News/Press-Releases"> Press Releases</a>
+
+<li><a href=" /News/CES-TV"> Videos</a>
+
+<li><a href=" /News/Photo-Gallery"> Photo Gallery</a>
+
+<li><a href=" /News/CES-Social"> Social Media</a>
+
+<li><a href=" /News/CES-In-The-News"> CES In The News</a>
+
+<li><a href=" /News/Exhibitor-Press-Releases"> Exhibitor News</a>
+
+<li><a href=" /News/Tech-Changing-the-World"> Tech Changing the World</a>
+
+
+</ul></li><li class=""
+id="8">
+<a href=" /Why-CES"> Why CES?</a> 
+<ul><p style ="display:none;">&nbsp;</p><li><a href=" /Why-CES/Experience-the-International-CES"> Experience Innovation at CES</a>
+
+<li><a href=" /Why-CES/CES-by-the-Numbers"> CES By the Numbers</a>
+
+<li><a href=" /Why-CES/CEA-Member-Benefits"> CEA Member Benefits</a>
+
+<li><a href=" /Why-CES/What-Kind-of-CES-Attendee-Are-You"> What Type of CES Attendee Are You?</a>
+
+
+</ul>  </li>
+</ul>
+
+ <div id="main-navigation" style="display: none">
+
+  <select id="navSecondary" onChange="top.location.href=this.options[this.selectedIndex].value;">
+<option selected="selected" value="">Site Main Navigation</option><option style="font-family:open_sansbold;" value="/Register-Plan">Register & Plan</option><option style="font-family:open_sansbold;" value="/Show-Floor">Show Floor</option><option style="font-family:open_sansbold;" value="/Conference">Conference</option><option style="font-family:open_sansbold;" value="/Events-Programs">Events & Experiences</option><option style="font-family:open_sansbold;" value="/News">News</option><option style="font-family:open_sansbold;" value="/Why-CES">Why CES?</option><option style="font-family:open_sansbold;" value="/International">International</option><option style="font-family:open_sansbold;" value="/Exhibitor">Exhibitors</option><option style="font-family:open_sansbold;" value="/Press">Press</option>
+</select>
+</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div id="main-area" class="container">
+  <div class="hanger side-ads ads-left"><a id="p_lt_ctl06_BannerRotatorLeftHanger_lnkBanner" class="CMSBanner Banner" href="http://www.cesweb.org" onclick="this.href=&#39;/CMSModules/BannerManagement/CMSPages/BannerRedirect.ashx?bannerID=35&#39;;" onmouseup="this.href=&#39;/CMSModules/BannerManagement/CMSPages/BannerRedirect.ashx?bannerID=35&#39;;"><img id="p_lt_ctl06_BannerRotatorLeftHanger_imgBanner" src="/CES/media/2014/backgrounds/algorithm-hanger.jpg" style="" /></a></div>
+  <div class="hanger side-ads ads-right"><a id="p_lt_ctl07_BannerRotatorRightHanger_lnkBanner" class="CMSBanner Banner" href="http://www.cesweb.org" onclick="this.href=&#39;/CMSModules/BannerManagement/CMSPages/BannerRedirect.ashx?bannerID=36&#39;;" onmouseup="this.href=&#39;/CMSModules/BannerManagement/CMSPages/BannerRedirect.ashx?bannerID=36&#39;;"><img id="p_lt_ctl07_BannerRotatorRightHanger_imgBanner" src="/CES/media/2014/backgrounds/algorithm-hanger.jpg" style="" /></a></div>
+    <div class="row">
+      <div id="main-content-area" class="col-lg-60 page-area">
+
+<section>
+   <div class="page-area">
+      <div class="col-md-12 hidden-xs hidden-sm">
+        <div class="leftnav">
+          <ul><li><a href="/Register-Plan/Register-Now">Register Now</a><li><a href="/Register-Plan/Full-Schedule">Full Schedule </a><li class="left-current"><a href="/Register-Plan/Hotel">Hotel</a><ul><li><a href="/Register-Plan/Hotel/Reserve-a-Room-Block">Reserve a Room Block</a></ul><li><a href="/Register-Plan/Transportation">Transportation</a><li><a href="/Register-Plan/Travel-Tips">Travel Tips</a><li><a href="/Register-Plan/Badge-Pick-Up-and-Registration-Locations">Badge Pickup and Registration Locations</a></ul>
+
+         </div>
+         <a id="p_lt_ctl08_pageplaceholder_p_lt_ctl01_BannerRotator_lnkBanner" class="CMSBanner Banner" href="http://www.cesweb.org/changetheworld" onclick="this.href=&#39;/CMSModules/BannerManagement/CMSPages/BannerRedirect.ashx?bannerID=388&#39;;" onmouseup="this.href=&#39;/CMSModules/BannerManagement/CMSPages/BannerRedirect.ashx?bannerID=388&#39;;"><img id="p_lt_ctl08_pageplaceholder_p_lt_ctl01_BannerRotator_imgBanner" class="img-responsive" src="/CES/media/2014/advertisements/3533_300x250-purple.jpg" style="" /></a>
+      </div>
+      <div class="col-sm-60 col-md-offset-2 col-md-46">
+        <div class="body-content">
+          <h1>Hotel</h1>
+          <div class="breadcrumbs">
+            <div class="row">
+              <div class="col-sm-40">
+                <ul>
+                  <li><a href="/Home.aspx">Home</a></li>
+                  <li class="bread-div">|</li>
+                  <li><a href="/Register-Plan.aspx" class="CMSBreadCrumbsLink">Register & Plan</a> </li><li class="bread-div">|</li><li> <span  class="CMSBreadCrumbsCurrentItem">Hotel</span>
+</li>
+
+                </ul>
+              </div>
+              <div class="col-sm-20 text-center-xs text-right-sm right-breadcrumb">
+                <span  class="st_sharethis_custom" displayText="ShareThis"><a class="right-breadcrumb-item">Share This</a></span>
+                <a class="right-breadcrumb-item hidden-sm hidden-xs" href="javascript:window.print()">Print This Page</a>
+              </div>
+            </div>
+          </div>
+          <p class="intro-innov">  </p>
+          <div class="row article-content-area">
+             
+             <p>To make individual reservations, select your hotel choice below. To submit a group reservation request, complete the group block <a href="/Register-Plan/Hotel/Reserve-a-Room-Block.aspx">request form</a>.<br />
+<br />
+Rates will increase as January approaches and some CES hotels sell out quickly. Book today to secure the best rates at your first choice.&nbsp;This list will be updated periodically.&nbsp;<br />
+<br />
+CES does not use a housing bureau or third party agency for hotel accommodations or any other travel arrangements. Any claims by any company stating otherwise are not true. Please be sure you are booking directly through the links on this page&nbsp;or direct with a specific property. If you have any questions or concerns please contact&nbsp;<a href="mailto:CEShotels@ce.org?subject=2016%20CES%20Hotel%20Reservations">CEShotels@CE.org</a>.</p>
+
+<link href="/CMSPages/GetResource.ashx?stylesheetname=ices-hotel" type="text/css" rel="stylesheet" media="screen" />
+<script>
+    jQuery(function () {
+        jQuery('[data-toggle="tooltip"]').tooltip()
+    })
+</script>
+<div class="hotel-table">
+<table>
+  <thead>
+  <tr>
+  <th>Hotel Name</th> 
+  <th>Tue Jan 5</th>
+  <th>Wed Jan 6</th>
+  <th>Thur Jan 7</th>
+  <th>Fri Jan 8</th>
+  <th>Sat Jan 9</th>
+  <th>Notes</th>
+  </tr>
+  </thead>
+   <tbody><tr>	
+  <td><a href="https://bookings.ihotelier.com/bookings.jsp?hotelid=85179&identifier=CES2016" target="_blank">Alexis Park </a></td>
+  <td>$129</td>
+  <td>$129</td>
+  <td>$129</td>
+  <td>$69</td>
+  <td>$69</td>
+  <td valign="top">
+    <div class="row">
+      <div class="col-sm-60 col-md-50" style="padding-right:0;">&nbsp;</div>
+        <div style="display:none;">
+        <div class="hidden-xs hidden-sm col-md-10" style="padding-left:0;">
+          <a href="#" class="pull-right" data-toggle="tooltip" data-placement="left" title="">
+            <img src="/ces/images/list-icons/list-info.png" class="info-icon">
+          </a>
+        </div>
+        <div class="hidden-md hidden-lg col-xs-60"><br /></div>
+        </div>
+    </div>
+  </td>
+</tr><tr>	
+  <td><a href="https://resweb.passkey.com/Resweb.do?mode=welcome_ei_new&eventID=13887602" target="_blank">ARIA</a></td>
+  <td>Select hotel to view prevailing rate</td>
+  <td>Select hotel to view prevailing rate</td>
+  <td>Select hotel to view prevailing rate</td>
+  <td>$367*</td>
+  <td>$207*</td>
+  <td valign="top">
+    <div class="row">
+      <div class="col-sm-60 col-md-50" style="padding-right:0;">*Rates shown include resort fee.&nbsp;</div>
+        
+        <div class="hidden-xs hidden-sm col-md-10" style="padding-left:0;">
+          <a href="#" class="pull-right" data-toggle="tooltip" data-placement="left" title="ARIA: $29 resort fee includes:&nbsp;Internet access (in-room and campus wide at City Center), local and toll-free telephone calls, access to the Spa at&nbsp;ARIA Fitness Center, daily newspaper, and airline boarding pass printing.">
+            <img src="/ces/images/list-icons/list-info.png" class="info-icon">
+          </a>
+        </div>
+        <div class="hidden-md hidden-lg col-xs-60"><br />ARIA: $29 resort fee includes:&nbsp;Internet access (in-room and campus wide at City Center), local and toll-free telephone calls, access to the Spa at&nbsp;ARIA Fitness Center, daily newspaper, and airline boarding pass printing.</div>
+        
+    </div>
+  </td>
+</tr><tr>	
+  <td><a href="http://www.totalrewards.com/hotel-reservations?propCode=BLV&groupCode=DBCES6 " target="_blank">Bally's Las Vegas</a></td>
+  <td>Select hotel for exclusive CES rate</td>
+  <td>Select hotel for exclusive CES rate</td>
+  <td>Select hotel for exclusive CES rate</td>
+  <td>Select hotel for exclusive CES rate</td>
+  <td>Select hotel for exclusive CES rate</td>
+  <td valign="top">
+    <div class="row">
+      <div class="col-sm-60 col-md-50" style="padding-right:0;">CES shuttle service not provided. Las Vegas Monorail accessible to/from the LVCC.&nbsp;</div>
+        
+        <div class="hidden-xs hidden-sm col-md-10" style="padding-left:0;">
+          <a href="#" class="pull-right" data-toggle="tooltip" data-placement="left" title="Bally&#39;s: $22 resort fee includes daily Fitness Center admission for two guests; daily in-room Internet access for two devices; all local calls.&nbsp;">
+            <img src="/ces/images/list-icons/list-info.png" class="info-icon">
+          </a>
+        </div>
+        <div class="hidden-md hidden-lg col-xs-60"><br />Bally&#39;s: $22 resort fee includes daily Fitness Center admission for two guests; daily in-room Internet access for two devices; all local calls.&nbsp;</div>
+        
+    </div>
+  </td>
+</tr><tr>	
+  <td><a href="https://resweb.passkey.com/Resweb.do?mode=welcome_ei_new&eventID=13890507 " target="_blank">Bellagio</a></td>
+  <td>$477*</td>
+  <td>Select hotel for exclusive CES rate</td>
+  <td>Select hotel for exclusive CES rate</td>
+  <td>$407*</td>
+  <td>$227*</td>
+  <td valign="top">
+    <div class="row">
+      <div class="col-sm-60 col-md-50" style="padding-right:0;">*Rates shown include resort fee.&nbsp;</div>
+        
+        <div class="hidden-xs hidden-sm col-md-10" style="padding-left:0;">
+          <a href="#" class="pull-right" data-toggle="tooltip" data-placement="left" title="Bellagio: $29 resort fee includes: access to Hotel Fitness Center, wireless internet in guest rooms, boarding pass printing in Hotel&#39;s Business Center, free local calls, and free toll free calls.">
+            <img src="/ces/images/list-icons/list-info.png" class="info-icon">
+          </a>
+        </div>
+        <div class="hidden-md hidden-lg col-xs-60"><br />Bellagio: $29 resort fee includes: access to Hotel Fitness Center, wireless internet in guest rooms, boarding pass printing in Hotel&#39;s Business Center, free local calls, and free toll free calls.</div>
+        
+    </div>
+  </td>
+</tr><tr>	
+  <td><a href="http://www.totalrewards.com/hotel-reservations?propCode=CLV&groupCode=DCCES6 " target="_blank">Caesars Palace Las Vegas</a></td>
+  <td>Select hotel for exclusive CES rate</td>
+  <td>Select hotel for exclusive CES rate</td>
+  <td>Select hotel for exclusive CES rate</td>
+  <td>Select hotel for exclusive CES rate</td>
+  <td>Select hotel for exclusive CES rate</td>
+  <td valign="top">
+    <div class="row">
+      <div class="col-sm-60 col-md-50" style="padding-right:0;">CES shuttle service not provided.&nbsp;</div>
+        
+        <div class="hidden-xs hidden-sm col-md-10" style="padding-left:0;">
+          <a href="#" class="pull-right" data-toggle="tooltip" data-placement="left" title="Caesars: $25 resort fee includes daily Fitness Center admission for two guests; daily in-room Internet access for two devices; all local calls.">
+            <img src="/ces/images/list-icons/list-info.png" class="info-icon">
+          </a>
+        </div>
+        <div class="hidden-md hidden-lg col-xs-60"><br />Caesars: $25 resort fee includes daily Fitness Center admission for two guests; daily in-room Internet access for two devices; all local calls.</div>
+        
+    </div>
+  </td>
+</tr><tr>	
+  <td><a href="https://resweb.passkey.com/Resweb.do?mode=welcome_ei_new&eventID=13890575 " target="_blank">Circus Circus</a></td>
+  <td>$63*</td>
+  <td>$165*</td>
+  <td>$165*</td>
+  <td>$99*</td>
+  <td>$53*</td>
+  <td valign="top">
+    <div class="row">
+      <div class="col-sm-60 col-md-50" style="padding-right:0;">*Rates shown include resort fee.&nbsp;</div>
+        
+        <div class="hidden-xs hidden-sm col-md-10" style="padding-left:0;">
+          <a href="#" class="pull-right" data-toggle="tooltip" data-placement="left" title="Circus Circus:&nbsp;$15 resort fee includes in-room wireless internet service (daily), one (1) free premium ride at Adventuredome, two (2) fitness passes (daily), buy 1, get 1 drink at Slots A Fun or West Bar, two (2) free Midway games, 800/local calls up to 30 minutes maximum per call (daily), resort funbook valued at approximately $100.">
+            <img src="/ces/images/list-icons/list-info.png" class="info-icon">
+          </a>
+        </div>
+        <div class="hidden-md hidden-lg col-xs-60"><br />Circus Circus:&nbsp;$15 resort fee includes in-room wireless internet service (daily), one (1) free premium ride at Adventuredome, two (2) fitness passes (daily), buy 1, get 1 drink at Slots A Fun or West Bar, two (2) free Midway games, 800/local calls up to 30 minutes maximum per call (daily), resort funbook valued at approximately $100.</div>
+        
+    </div>
+  </td>
+</tr><tr>	
+  <td><a href="https://resweb.passkey.com/Resweb.do?mode=welcome_ei_new&eventID=13890575 " target="_blank">Circus Circus Casino Tower</a></td>
+  <td>$79*</td>
+  <td>$224*</td>
+  <td>$224*</td>
+  <td>$119*</td>
+  <td>$63*</td>
+  <td valign="top">
+    <div class="row">
+      <div class="col-sm-60 col-md-50" style="padding-right:0;">*Rates shown include resort fee.&nbsp;</div>
+        
+        <div class="hidden-xs hidden-sm col-md-10" style="padding-left:0;">
+          <a href="#" class="pull-right" data-toggle="tooltip" data-placement="left" title="Circus Circus:&nbsp;$15 resort fee includes in-room wireless internet service (daily), one (1) free premium ride at Adventuredome, two (2) fitness passes (daily), buy 1, get 1 drink at Slots A Fun or West Bar, two (2) free Midway games, 800/local calls up to 30 minutes maximum per call (daily), resort funbook valued at approximately $100.">
+            <img src="/ces/images/list-icons/list-info.png" class="info-icon">
+          </a>
+        </div>
+        <div class="hidden-md hidden-lg col-xs-60"><br />Circus Circus:&nbsp;$15 resort fee includes in-room wireless internet service (daily), one (1) free premium ride at Adventuredome, two (2) fitness passes (daily), buy 1, get 1 drink at Slots A Fun or West Bar, two (2) free Midway games, 800/local calls up to 30 minutes maximum per call (daily), resort funbook valued at approximately $100.</div>
+        
+    </div>
+  </td>
+</tr><tr>	
+  <td><a href="https://resweb.passkey.com/Resweb.do?mode=welcome_ei_new&eventID=13890575 " target="_blank">Circus Circus West Tower</a></td>
+  <td>$74*</td>
+  <td>$214*</td>
+  <td>$214*</td>
+  <td>$114*</td>
+  <td>$58*</td>
+  <td valign="top">
+    <div class="row">
+      <div class="col-sm-60 col-md-50" style="padding-right:0;">*Rates shown include resort fee.&nbsp;</div>
+        
+        <div class="hidden-xs hidden-sm col-md-10" style="padding-left:0;">
+          <a href="#" class="pull-right" data-toggle="tooltip" data-placement="left" title="Circus Circus:&nbsp;$15 resort fee includes in-room wireless internet service (daily), one (1) free premium ride at Adventuredome, two (2) fitness passes (daily), buy 1, get 1 drink at Slots A Fun or West Bar, two (2) free Midway games, 800/local calls up to 30 minutes maximum per call (daily), resort funbook valued at approximately $100.">
+            <img src="/ces/images/list-icons/list-info.png" class="info-icon">
+          </a>
+        </div>
+        <div class="hidden-md hidden-lg col-xs-60"><br />Circus Circus:&nbsp;$15 resort fee includes in-room wireless internet service (daily), one (1) free premium ride at Adventuredome, two (2) fitness passes (daily), buy 1, get 1 drink at Slots A Fun or West Bar, two (2) free Midway games, 800/local calls up to 30 minutes maximum per call (daily), resort funbook valued at approximately $100.</div>
+        
+    </div>
+  </td>
+</tr><tr>	
+  <td><a href="https://resweb.passkey.com/go/SCESS6" target="_blank">The Cosmopolitan of Las Vegas- City Room</a></td>
+  <td>Select hotel to view prevailing rate</td>
+  <td>Select hotel to view prevailing rate</td>
+  <td>Select hotel to view prevailing rate</td>
+  <td>Select hotel to view prevailing rate</td>
+  <td>Select hotel to view prevailing rate</td>
+  <td valign="top">
+    <div class="row">
+      <div class="col-sm-60 col-md-50" style="padding-right:0;">*Rates shown include resort fee.&nbsp;</div>
+        
+        <div class="hidden-xs hidden-sm col-md-10" style="padding-left:0;">
+          <a href="#" class="pull-right" data-toggle="tooltip" data-placement="left" title="Cosmopolitan: $30 resort fee includes high-speed Internet access (in-room and on campus); 24 hour fitness center access; unlimited local, toll free and domestic long distance calls; tennis court access (based on availability).">
+            <img src="/ces/images/list-icons/list-info.png" class="info-icon">
+          </a>
+        </div>
+        <div class="hidden-md hidden-lg col-xs-60"><br />Cosmopolitan: $30 resort fee includes high-speed Internet access (in-room and on campus); 24 hour fitness center access; unlimited local, toll free and domestic long distance calls; tennis court access (based on availability).</div>
+        
+    </div>
+  </td>
+</tr><tr>	
+  <td><a href="https://resweb.passkey.com/go/SCESS6" target="_blank">The Cosmopolitan of Las Vegas- Terrace Studio</a></td>
+  <td>Select hotel to view prevailing rate</td>
+  <td>Select hotel to view prevailing rate</td>
+  <td>Select hotel to view prevailing rate</td>
+  <td>Select hotel to view prevailing rate</td>
+  <td>Select hotel to view prevailing rate</td>
+  <td valign="top">
+    <div class="row">
+      <div class="col-sm-60 col-md-50" style="padding-right:0;">*Rates shown include resort fee.&nbsp;</div>
+        
+        <div class="hidden-xs hidden-sm col-md-10" style="padding-left:0;">
+          <a href="#" class="pull-right" data-toggle="tooltip" data-placement="left" title="Cosmopolitan: $30 resort fee includes high-speed Internet access (in-room and on campus); 24 hour fitness center access; unlimited local, toll free and domestic long distance calls; tennis court access (based on availability).">
+            <img src="/ces/images/list-icons/list-info.png" class="info-icon">
+          </a>
+        </div>
+        <div class="hidden-md hidden-lg col-xs-60"><br />Cosmopolitan: $30 resort fee includes high-speed Internet access (in-room and on campus); 24 hour fitness center access; unlimited local, toll free and domestic long distance calls; tennis court access (based on availability).</div>
+        
+    </div>
+  </td>
+</tr><tr>	
+  <td><a href="http://www.thed.com" target="_blank">The D Las Vegas</a></td>
+  <td>$99*</td>
+  <td>$99*</td>
+  <td>$99*</td>
+  <td>$109*</td>
+  <td>$109*</td>
+  <td valign="top">
+    <div class="row">
+      <div class="col-sm-60 col-md-50" style="padding-right:0;">*Rates shown include resort fee. Booking code - DCES16.&nbsp;</div>
+        
+        <div class="hidden-xs hidden-sm col-md-10" style="padding-left:0;">
+          <a href="#" class="pull-right" data-toggle="tooltip" data-placement="left" title="The D: $20 resort fee includes: in-room wi-fi,&nbsp;discounted show&nbsp;tickets, and free local and toll free phone calls.">
+            <img src="/ces/images/list-icons/list-info.png" class="info-icon">
+          </a>
+        </div>
+        <div class="hidden-md hidden-lg col-xs-60"><br />The D: $20 resort fee includes: in-room wi-fi,&nbsp;discounted show&nbsp;tickets, and free local and toll free phone calls.</div>
+        
+    </div>
+  </td>
+</tr><tr>	
+  <td><a href="https://resweb.passkey.com/go/sces6" target="_blank">Delano Las Vegas (formerly THEhotel)</a></td>
+  <td>$227*</td>
+  <td>Select hotel for exclusive CES rate</td>
+  <td>Select hotel for exclusive CES rate</td>
+  <td>$287*</td>
+  <td>$207*</td>
+  <td valign="top">
+    <div class="row">
+      <div class="col-sm-60 col-md-50" style="padding-right:0;">*Rates shown include resort fee.&nbsp;</div>
+        
+        <div class="hidden-xs hidden-sm col-md-10" style="padding-left:0;">
+          <a href="#" class="pull-right" data-toggle="tooltip" data-placement="left" title="Delano Las Vegas: $29 resort fee includes in-room wireless Internet, cardio center admission (does not include Spa access), daily newspaper, local and 800-number calls, outgoing faxes and boarding pass printing at the Hotel Business Center.">
+            <img src="/ces/images/list-icons/list-info.png" class="info-icon">
+          </a>
+        </div>
+        <div class="hidden-md hidden-lg col-xs-60"><br />Delano Las Vegas: $29 resort fee includes in-room wireless Internet, cardio center admission (does not include Spa access), daily newspaper, local and 800-number calls, outgoing faxes and boarding pass printing at the Hotel Business Center.</div>
+        
+    </div>
+  </td>
+</tr><tr>	
+  <td><a href="https://bookings.ihotelier.com/bookings.jsp?hotelId=97332&identifier=2016InternationalCES" target="_blank">Downtown Grand</a></td>
+  <td>$80*</td>
+  <td>$80*</td>
+  <td>$153*</td>
+  <td>$153*</td>
+  <td>$80*</td>
+  <td valign="top">
+    <div class="row">
+      <div class="col-sm-60 col-md-50" style="padding-right:0;">*Rates shown include resort fee.&nbsp;</div>
+        
+        <div class="hidden-xs hidden-sm col-md-10" style="padding-left:0;">
+          <a href="#" class="pull-right" data-toggle="tooltip" data-placement="left" title="Downtown Grand: $18 resort fee includes complimentary parking, free guest room Wi Fi, complimentary bottled water upon arrival, &ldquo;Grand Experience&rdquo; book filled with discounts at hotel outlets, complimentary coffee each morning, free local and toll free calls, access to the fitness room and outdoor pool (seasonal), and complimentary shuttle service to downtown area attractions.">
+            <img src="/ces/images/list-icons/list-info.png" class="info-icon">
+          </a>
+        </div>
+        <div class="hidden-md hidden-lg col-xs-60"><br />Downtown Grand: $18 resort fee includes complimentary parking, free guest room Wi Fi, complimentary bottled water upon arrival, &ldquo;Grand Experience&rdquo; book filled with discounts at hotel outlets, complimentary coffee each morning, free local and toll free calls, access to the fitness room and outdoor pool (seasonal), and complimentary shuttle service to downtown area attractions.</div>
+        
+    </div>
+  </td>
+</tr><tr>	
+  <td><a href="http://www.hilton.com/en/hi/groups/personalized/L/LASCSGV-CESE16-20160101/index.jhtml?WT.mc_id=POG" target="_blank">Elara- a Hilton Grand Vacations Hotel- Junior Suite</a></td>
+  <td>$355</td>
+  <td>$355</td>
+  <td>$355</td>
+  <td>$355</td>
+  <td>$149</td>
+  <td valign="top">
+    <div class="row">
+      <div class="col-sm-60 col-md-50" style="padding-right:0;">&nbsp;</div>
+        <div style="display:none;">
+        <div class="hidden-xs hidden-sm col-md-10" style="padding-left:0;">
+          <a href="#" class="pull-right" data-toggle="tooltip" data-placement="left" title="">
+            <img src="/ces/images/list-icons/list-info.png" class="info-icon">
+          </a>
+        </div>
+        <div class="hidden-md hidden-lg col-xs-60"><br /></div>
+        </div>
+    </div>
+  </td>
+</tr><tr>	
+  <td><a href="http://www.hilton.com/en/hi/groups/personalized/L/LASCSGV-CESE16-20160101/index.jhtml?WT.mc_id=POG" target="_blank">Elara- a Hilton Grand Vacations Hotel- One bedroom suite</a></td>
+  <td>$385</td>
+  <td>$385</td>
+  <td>$385</td>
+  <td>$385</td>
+  <td>$169</td>
+  <td valign="top">
+    <div class="row">
+      <div class="col-sm-60 col-md-50" style="padding-right:0;">&nbsp;</div>
+        <div style="display:none;">
+        <div class="hidden-xs hidden-sm col-md-10" style="padding-left:0;">
+          <a href="#" class="pull-right" data-toggle="tooltip" data-placement="left" title="">
+            <img src="/ces/images/list-icons/list-info.png" class="info-icon">
+          </a>
+        </div>
+        <div class="hidden-md hidden-lg col-xs-60"><br /></div>
+        </div>
+    </div>
+  </td>
+</tr><tr>	
+  <td><a href="http://www.hilton.com/en/hi/groups/personalized/L/LASCSGV-CESE16-20160101/index.jhtml?WT.mc_id=POG" target="_blank">Elara- a Hilton Grand Vacations Hotel- Studio Room</a></td>
+  <td>$320</td>
+  <td>$320</td>
+  <td>$320</td>
+  <td>$320</td>
+  <td>$119</td>
+  <td valign="top">
+    <div class="row">
+      <div class="col-sm-60 col-md-50" style="padding-right:0;">&nbsp;</div>
+        <div style="display:none;">
+        <div class="hidden-xs hidden-sm col-md-10" style="padding-left:0;">
+          <a href="#" class="pull-right" data-toggle="tooltip" data-placement="left" title="">
+            <img src="/ces/images/list-icons/list-info.png" class="info-icon">
+          </a>
+        </div>
+        <div class="hidden-md hidden-lg col-xs-60"><br /></div>
+        </div>
+    </div>
+  </td>
+</tr><tr>	
+  <td><a href="https://resweb.passkey.com/Resweb.do?mode=welcome_gi_new&groupID=50703622 " target="_blank">Encore at Wynn</a></td>
+  <td>Select hotel for exclusive CES rate</td>
+  <td>Select hotel for exclusive CES rate</td>
+  <td>Select hotel for exclusive CES rate</td>
+  <td>Select hotel for exclusive CES rate</td>
+  <td>Select hotel for exclusive CES rate</td>
+  <td valign="top">
+    <div class="row">
+      <div class="col-sm-60 col-md-50" style="padding-right:0;">&nbsp;</div>
+        <div style="display:none;">
+        <div class="hidden-xs hidden-sm col-md-10" style="padding-left:0;">
+          <a href="#" class="pull-right" data-toggle="tooltip" data-placement="left" title="">
+            <img src="/ces/images/list-icons/list-info.png" class="info-icon">
+          </a>
+        </div>
+        <div class="hidden-md hidden-lg col-xs-60"><br /></div>
+        </div>
+    </div>
+  </td>
+</tr><tr>	
+  <td><a href="https://resweb.passkey.com/Resweb.do?mode=welcome_ei_new&eventID=13890579" target="_blank">Excalibur</a></td>
+  <td>$73*</td>
+  <td>$163*</td>
+  <td>$163*</td>
+  <td>$106*</td>
+  <td>$66*</td>
+  <td valign="top">
+    <div class="row">
+      <div class="col-sm-60 col-md-50" style="padding-right:0;">*Rates shown include resort fee.&nbsp;</div>
+        
+        <div class="hidden-xs hidden-sm col-md-10" style="padding-left:0;">
+          <a href="#" class="pull-right" data-toggle="tooltip" data-placement="left" title="Excalibur: $18 resort fee includes in-room wired Internet service, Wi-Fi available in meeting space and public areas, access to&nbsp;Excalibur Spa Fitness Center, daily newspaper available for pick-up, unlimited local, toll-free and domestic long distance telephone calls.">
+            <img src="/ces/images/list-icons/list-info.png" class="info-icon">
+          </a>
+        </div>
+        <div class="hidden-md hidden-lg col-xs-60"><br />Excalibur: $18 resort fee includes in-room wired Internet service, Wi-Fi available in meeting space and public areas, access to&nbsp;Excalibur Spa Fitness Center, daily newspaper available for pick-up, unlimited local, toll-free and domestic long distance telephone calls.</div>
+        
+    </div>
+  </td>
+</tr><tr>	
+  <td><a href="http://www.totalrewards.com/hotel-reservations?propCode=FLV&groupCode=DFCES6 " target="_blank">Flamingo Las Vegas</a></td>
+  <td>Select hotel for exclusive CES rate</td>
+  <td>Select hotel for exclusive CES rate</td>
+  <td>Select hotel for exclusive CES rate</td>
+  <td>Select hotel for exclusive CES rate</td>
+  <td>Select hotel for exclusive CES rate</td>
+  <td valign="top">
+    <div class="row">
+      <div class="col-sm-60 col-md-50" style="padding-right:0;">CES shuttle service not provided. Las Vegas Monorail accessible to/from the LVCC.&nbsp;</div>
+        
+        <div class="hidden-xs hidden-sm col-md-10" style="padding-left:0;">
+          <a href="#" class="pull-right" data-toggle="tooltip" data-placement="left" title="Flamingo: $20 resort fee includes daily Fitness Center admission for two guests; daily in-room Internet access for one device; all local calls.">
+            <img src="/ces/images/list-icons/list-info.png" class="info-icon">
+          </a>
+        </div>
+        <div class="hidden-md hidden-lg col-xs-60"><br />Flamingo: $20 resort fee includes daily Fitness Center admission for two guests; daily in-room Internet access for one device; all local calls.</div>
+        
+    </div>
+  </td>
+</tr><tr>	
+  <td><a href="https://bookgnlv.goldennugget.com/cgi-bin/lansaweb?PROCFUN+RN+RESNET+RES+funcparms+UP(A2560):;ZGSCES16;1;1;;010;?/" target="_blank">Golden Nugget</a></td>
+  <td>$99*</td>
+  <td>$139*</td>
+  <td>$139*</td>
+  <td>$139*</td>
+  <td>$139*</td>
+  <td valign="top">
+    <div class="row">
+      <div class="col-sm-60 col-md-50" style="padding-right:0;">*Rates shown include resort fee.&nbsp;</div>
+        
+        <div class="hidden-xs hidden-sm col-md-10" style="padding-left:0;">
+          <a href="#" class="pull-right" data-toggle="tooltip" data-placement="left" title="Golden Nugget: $20 resort fee includes access for two (2) to the Fitness Center daily (does not include the wet areas), basic, in-room daily Internet access for two (2) devices daily, two (2) bottled waters, daily (waters will be located in the guest rooms), complimentary parking, complimentary airline boarding passes printing via the Front Desk or Box Office 24/7, complimentary newspapers available in respective tower lobby from 6am to 10am daily and downtown destination coupons.">
+            <img src="/ces/images/list-icons/list-info.png" class="info-icon">
+          </a>
+        </div>
+        <div class="hidden-md hidden-lg col-xs-60"><br />Golden Nugget: $20 resort fee includes access for two (2) to the Fitness Center daily (does not include the wet areas), basic, in-room daily Internet access for two (2) devices daily, two (2) bottled waters, daily (waters will be located in the guest rooms), complimentary parking, complimentary airline boarding passes printing via the Front Desk or Box Office 24/7, complimentary newspapers available in respective tower lobby from 6am to 10am daily and downtown destination coupons.</div>
+        
+    </div>
+  </td>
+</tr><tr>	
+  <td><a href="http://www.totalrewards.com/hotel-reservations?propCode=LAS&groupCode=DHCES6 " target="_blank">Harrah's Las Vegas</a></td>
+  <td>Select hotel for exclusive CES rate</td>
+  <td>Select hotel for exclusive CES rate</td>
+  <td>Select hotel for exclusive CES rate</td>
+  <td>Select hotel for exclusive CES rate</td>
+  <td>Select hotel for exclusive CES rate</td>
+  <td valign="top">
+    <div class="row">
+      <div class="col-sm-60 col-md-50" style="padding-right:0;">CES shuttle service not provided. Las Vegas Monorail accessible to/from the LVCC.&nbsp;</div>
+        
+        <div class="hidden-xs hidden-sm col-md-10" style="padding-left:0;">
+          <a href="#" class="pull-right" data-toggle="tooltip" data-placement="left" title="Harrah&#39;s: $22 resort fee includes daily Fitness Center admission for two guests; daily in-room Internet access for two devices; all local calls.">
+            <img src="/ces/images/list-icons/list-info.png" class="info-icon">
+          </a>
+        </div>
+        <div class="hidden-md hidden-lg col-xs-60"><br />Harrah&#39;s: $22 resort fee includes daily Fitness Center admission for two guests; daily in-room Internet access for two devices; all local calls.</div>
+        
+    </div>
+  </td>
+</tr><tr>	
+  <td><a href="http://www.hilton.com/en/hi/groups/personalized/L/LASLVGV-CESH16-20160101/index.jhtml?WT.mc_id=POG" target="_blank">Hilton Grand Vacations Suites Las Vegas- 1 BR</a></td>
+  <td>$424</td>
+  <td>$424</td>
+  <td>$424</td>
+  <td>$424</td>
+  <td>$139</td>
+  <td valign="top">
+    <div class="row">
+      <div class="col-sm-60 col-md-50" style="padding-right:0;">&nbsp;</div>
+        <div style="display:none;">
+        <div class="hidden-xs hidden-sm col-md-10" style="padding-left:0;">
+          <a href="#" class="pull-right" data-toggle="tooltip" data-placement="left" title="">
+            <img src="/ces/images/list-icons/list-info.png" class="info-icon">
+          </a>
+        </div>
+        <div class="hidden-md hidden-lg col-xs-60"><br /></div>
+        </div>
+    </div>
+  </td>
+</tr><tr>	
+  <td><a href="http://www.hilton.com/en/hi/groups/personalized/L/LASLVGV-CESH16-20160101/index.jhtml?WT.mc_id=POG" target="_blank">Hilton Grand Vacations Suites Las Vegas- studio</a></td>
+  <td>$367</td>
+  <td>$367</td>
+  <td>$367</td>
+  <td>$367</td>
+  <td>$109</td>
+  <td valign="top">
+    <div class="row">
+      <div class="col-sm-60 col-md-50" style="padding-right:0;">&nbsp;</div>
+        <div style="display:none;">
+        <div class="hidden-xs hidden-sm col-md-10" style="padding-left:0;">
+          <a href="#" class="pull-right" data-toggle="tooltip" data-placement="left" title="">
+            <img src="/ces/images/list-icons/list-info.png" class="info-icon">
+          </a>
+        </div>
+        <div class="hidden-md hidden-lg col-xs-60"><br /></div>
+        </div>
+    </div>
+  </td>
+</tr><tr>	
+  <td><a href="http://www.hilton.com/en/hi/groups/personalized/L/LASVSGV-CESB16-20160101/index.jhtml?WT.mc_id=POG" target="_blank">Hilton Grand Vacations Suites on the LV Strip- 1 BR</a></td>
+  <td>$439</td>
+  <td>$439</td>
+  <td>$439</td>
+  <td>$439</td>
+  <td>$135</td>
+  <td valign="top">
+    <div class="row">
+      <div class="col-sm-60 col-md-50" style="padding-right:0;">&nbsp;</div>
+        <div style="display:none;">
+        <div class="hidden-xs hidden-sm col-md-10" style="padding-left:0;">
+          <a href="#" class="pull-right" data-toggle="tooltip" data-placement="left" title="">
+            <img src="/ces/images/list-icons/list-info.png" class="info-icon">
+          </a>
+        </div>
+        <div class="hidden-md hidden-lg col-xs-60"><br /></div>
+        </div>
+    </div>
+  </td>
+</tr><tr>	
+  <td><a href="http://www.hilton.com/en/hi/groups/personalized/L/LASVSGV-CESB16-20160101/index.jhtml?WT.mc_id=POG" target="_blank">Hilton Grand Vacations Suites on the LV Strip- studio</a></td>
+  <td>$353</td>
+  <td>$353</td>
+  <td>$353</td>
+  <td>$353</td>
+  <td>$105</td>
+  <td valign="top">
+    <div class="row">
+      <div class="col-sm-60 col-md-50" style="padding-right:0;">&nbsp;</div>
+        <div style="display:none;">
+        <div class="hidden-xs hidden-sm col-md-10" style="padding-left:0;">
+          <a href="#" class="pull-right" data-toggle="tooltip" data-placement="left" title="">
+            <img src="/ces/images/list-icons/list-info.png" class="info-icon">
+          </a>
+        </div>
+        <div class="hidden-md hidden-lg col-xs-60"><br /></div>
+        </div>
+    </div>
+  </td>
+</tr><tr>	
+  <td><a href="http://www.totalrewards.com/hotel-reservations?propCode=ILV&groupCode=DQCES6 " target="_blank">The LINQ Hotel & Casino Las Vegas</a></td>
+  <td>Select hotel for exclusive CES rate</td>
+  <td>Select hotel for exclusive CES rate</td>
+  <td>Select hotel for exclusive CES rate</td>
+  <td>Select hotel for exclusive CES rate</td>
+  <td>Select hotel for exclusive CES rate</td>
+  <td valign="top">
+    <div class="row">
+      <div class="col-sm-60 col-md-50" style="padding-right:0;">CES shuttle service not provided. Las Vegas Monorail accessible to/from the LVCC.&nbsp;</div>
+        
+        <div class="hidden-xs hidden-sm col-md-10" style="padding-left:0;">
+          <a href="#" class="pull-right" data-toggle="tooltip" data-placement="left" title="LINQ: $20 resort fee includes daily Fitness Center admission for two guests; daily in-room Internet access for one device; all local calls.">
+            <img src="/ces/images/list-icons/list-info.png" class="info-icon">
+          </a>
+        </div>
+        <div class="hidden-md hidden-lg col-xs-60"><br />LINQ: $20 resort fee includes daily Fitness Center admission for two guests; daily in-room Internet access for one device; all local calls.</div>
+        
+    </div>
+  </td>
+</tr><tr>	
+  <td><a href="https://resweb.passkey.com/go/CES2016P" target="_blank">Luxor</a></td>
+  <td>$103*</td>
+  <td>$210*</td>
+  <td>$210*</td>
+  <td>$123*</td>
+  <td>$83*</td>
+  <td valign="top">
+    <div class="row">
+      <div class="col-sm-60 col-md-50" style="padding-right:0;">*Rates shown include resort fee.&nbsp;</div>
+        
+        <div class="hidden-xs hidden-sm col-md-10" style="padding-left:0;">
+          <a href="#" class="pull-right" data-toggle="tooltip" data-placement="left" title="Luxor: $25 resort fee includes in-room wired Internet service, Wi-Fi available in meeting space and public areas, access to&nbsp;Nurture Fitness Center, daily newspaper available for pick-up, unlimited local, toll-free and domestic long distance telephone calls.">
+            <img src="/ces/images/list-icons/list-info.png" class="info-icon">
+          </a>
+        </div>
+        <div class="hidden-md hidden-lg col-xs-60"><br />Luxor: $25 resort fee includes in-room wired Internet service, Wi-Fi available in meeting space and public areas, access to&nbsp;Nurture Fitness Center, daily newspaper available for pick-up, unlimited local, toll-free and domestic long distance telephone calls.</div>
+        
+    </div>
+  </td>
+</tr><tr>	
+  <td><a href="https://resweb.passkey.com/go/sces6" target="_blank">Mandalay Bay</a></td>
+  <td>$217*</td>
+  <td>$497*</td>
+  <td>$497*</td>
+  <td>$207*</td>
+  <td>$137*</td>
+  <td valign="top">
+    <div class="row">
+      <div class="col-sm-60 col-md-50" style="padding-right:0;">*Rates shown include resort fee.&nbsp;</div>
+        
+        <div class="hidden-xs hidden-sm col-md-10" style="padding-left:0;">
+          <a href="#" class="pull-right" data-toggle="tooltip" data-placement="left" title="Mandalay Bay:&nbsp;$29 resort fee includes in-room wireless internet, cardio center admission (does not include Spa access), daily newspaper,&nbsp;local and 800-number calls, outgoing faxes and boarding pass printing at the Hotel Business Center.">
+            <img src="/ces/images/list-icons/list-info.png" class="info-icon">
+          </a>
+        </div>
+        <div class="hidden-md hidden-lg col-xs-60"><br />Mandalay Bay:&nbsp;$29 resort fee includes in-room wireless internet, cardio center admission (does not include Spa access), daily newspaper,&nbsp;local and 800-number calls, outgoing faxes and boarding pass printing at the Hotel Business Center.</div>
+        
+    </div>
+  </td>
+</tr><tr>	
+  <td><a href="https://resweb.passkey.com/Resweb.do?mode=welcome_ei_new&eventID=13891910" target="_blank">MGM Grand</a></td>
+  <td>$277*</td>
+  <td>Select hotel for exclusive CES rate</td>
+  <td>Select hotel for exclusive CES rate</td>
+  <td>$277*</td>
+  <td>$157*</td>
+  <td valign="top">
+    <div class="row">
+      <div class="col-sm-60 col-md-50" style="padding-right:0;">*Rates shown include resort fee.&nbsp;</div>
+        
+        <div class="hidden-xs hidden-sm col-md-10" style="padding-left:0;">
+          <a href="#" class="pull-right" data-toggle="tooltip" data-placement="left" title="MGM Grand: $29 resort fee includes in-room high speed internet access (in-room), daily newspaper available for pick up, printing of boarding passes, copies, and faxes up to 5 pages (excluding color), notary services at the Business Center, unlimited local and toll free calls, access to the Cardio Room.">
+            <img src="/ces/images/list-icons/list-info.png" class="info-icon">
+          </a>
+        </div>
+        <div class="hidden-md hidden-lg col-xs-60"><br />MGM Grand: $29 resort fee includes in-room high speed internet access (in-room), daily newspaper available for pick up, printing of boarding passes, copies, and faxes up to 5 pages (excluding color), notary services at the Business Center, unlimited local and toll free calls, access to the Cardio Room.</div>
+        
+    </div>
+  </td>
+</tr><tr>	
+  <td><a href="https://resweb.passkey.com/Resweb.do?mode=welcome_ei_new&eventID=13891644" target="_blank">Mirage</a></td>
+  <td>$287*</td>
+  <td>Select hotel for exclusive CES rate</td>
+  <td>Select hotel for exclusive CES rate</td>
+  <td>$287*</td>
+  <td>$177*</td>
+  <td valign="top">
+    <div class="row">
+      <div class="col-sm-60 col-md-50" style="padding-right:0;">*Rates shown include resort fee.&nbsp;</div>
+        
+        <div class="hidden-xs hidden-sm col-md-10" style="padding-left:0;">
+          <a href="#" class="pull-right" data-toggle="tooltip" data-placement="left" title="Mirage:&nbsp;$29 resort fee includes in-room high-speed wired and wireless internet access,&nbsp;property-wide wireless internet access, access to the Fitness Center at the Mirage Spa (additional fees may apply for Spa Facilities), daily newspaper (available at Impulse Store and at the Bell Desk), notary services at the Business Service Center, printing of boarding passes at the Business Service Center, lobby Internet Kiosks and Concierge, copies and faxes at the Business Service Center (up to 10 copies or faxes in black &amp; white only), unlimited local and toll-free calls.">
+            <img src="/ces/images/list-icons/list-info.png" class="info-icon">
+          </a>
+        </div>
+        <div class="hidden-md hidden-lg col-xs-60"><br />Mirage:&nbsp;$29 resort fee includes in-room high-speed wired and wireless internet access,&nbsp;property-wide wireless internet access, access to the Fitness Center at the Mirage Spa (additional fees may apply for Spa Facilities), daily newspaper (available at Impulse Store and at the Bell Desk), notary services at the Business Service Center, printing of boarding passes at the Business Service Center, lobby Internet Kiosks and Concierge, copies and faxes at the Business Service Center (up to 10 copies or faxes in black &amp; white only), unlimited local and toll-free calls.</div>
+        
+    </div>
+  </td>
+</tr><tr>	
+  <td><a href="https://resweb.passkey.com/go/XCES2016" target="_blank">Monte Carlo</a></td>
+  <td>$123*</td>
+  <td>$333*</td>
+  <td>$333*</td>
+  <td>$153*</td>
+  <td>$103*</td>
+  <td valign="top">
+    <div class="row">
+      <div class="col-sm-60 col-md-50" style="padding-right:0;">*Rates shown include resort fee.&nbsp;</div>
+        
+        <div class="hidden-xs hidden-sm col-md-10" style="padding-left:0;">
+          <a href="#" class="pull-right" data-toggle="tooltip" data-placement="left" title="Monte Carlo: $25 resort fee includes in-room internet, Fitness Center access, two (2) daily in-room KEURIG&reg; coffee pods, two (2) daily bottles of Monte Carlo water, daily newspaper, local and toll-free calls, copying, faxing, boarding pass printing.">
+            <img src="/ces/images/list-icons/list-info.png" class="info-icon">
+          </a>
+        </div>
+        <div class="hidden-md hidden-lg col-xs-60"><br />Monte Carlo: $25 resort fee includes in-room internet, Fitness Center access, two (2) daily in-room KEURIG&reg; coffee pods, two (2) daily bottles of Monte Carlo water, daily newspaper, local and toll-free calls, copying, faxing, boarding pass printing.</div>
+        
+    </div>
+  </td>
+</tr><tr>	
+  <td><a href="https://resweb.passkey.com/go/cesmain16" target="_blank">New York New York</a></td>
+  <td>$153*</td>
+  <td>$369*</td>
+  <td>$369*</td>
+  <td>$183*</td>
+  <td>$123*</td>
+  <td valign="top">
+    <div class="row">
+      <div class="col-sm-60 col-md-50" style="padding-right:0;">*Rates shown include resort fee.&nbsp;</div>
+        
+        <div class="hidden-xs hidden-sm col-md-10" style="padding-left:0;">
+          <a href="#" class="pull-right" data-toggle="tooltip" data-placement="left" title="New York New York:&nbsp;$25 resort fee includes&nbsp; Wi-Fi available in guest room, meeting space and public areas, fitness center access - excludes usage of spa facilities, unlimited local and toll free calls, use of calling cards, and collect calls from guest room; domestic long distance calls at $.10 per minute, free boarding pass printing, notary services, incoming and outgoing faxes (limit of 5 pages total), daily newspaper will be available for pickup at our Essentials store.">
+            <img src="/ces/images/list-icons/list-info.png" class="info-icon">
+          </a>
+        </div>
+        <div class="hidden-md hidden-lg col-xs-60"><br />New York New York:&nbsp;$25 resort fee includes&nbsp; Wi-Fi available in guest room, meeting space and public areas, fitness center access - excludes usage of spa facilities, unlimited local and toll free calls, use of calling cards, and collect calls from guest room; domestic long distance calls at $.10 per minute, free boarding pass printing, notary services, incoming and outgoing faxes (limit of 5 pages total), daily newspaper will be available for pickup at our Essentials store.</div>
+        
+    </div>
+  </td>
+</tr><tr>	
+  <td><a href="http://www.totalrewards.com/hotel-reservations?propCode=PLV&groupCode=DPCES6" target="_blank">Paris Las Vegas</a></td>
+  <td>Select hotel for exclusive CES rate</td>
+  <td>Select hotel for exclusive CES rate</td>
+  <td>Select hotel for exclusive CES rate</td>
+  <td>Select hotel for exclusive CES rate</td>
+  <td>Select hotel for exclusive CES rate</td>
+  <td valign="top">
+    <div class="row">
+      <div class="col-sm-60 col-md-50" style="padding-right:0;">CES shuttle service not provided. Las Vegas Monorail accessible to/from the LVCC.&nbsp;</div>
+        
+        <div class="hidden-xs hidden-sm col-md-10" style="padding-left:0;">
+          <a href="#" class="pull-right" data-toggle="tooltip" data-placement="left" title="Paris: $22 resort fee includes daily Fitness Center admission for two guests; daily in-room Internet access for two devices; all local calls.">
+            <img src="/ces/images/list-icons/list-info.png" class="info-icon">
+          </a>
+        </div>
+        <div class="hidden-md hidden-lg col-xs-60"><br />Paris: $22 resort fee includes daily Fitness Center admission for two guests; daily in-room Internet access for two devices; all local calls.</div>
+        
+    </div>
+  </td>
+</tr><tr>	
+  <td><a href="http://www.totalrewards.com/hotel-reservations?propCode=PHV&groupCode=DMCES6 " target="_blank">Planet Hollywood Las Vegas</a></td>
+  <td>Select hotel for exclusive CES rate</td>
+  <td>Select hotel for exclusive CES rate</td>
+  <td>Select hotel for exclusive CES rate</td>
+  <td>Select hotel for exclusive CES rate</td>
+  <td>Select hotel for exclusive CES rate</td>
+  <td valign="top">
+    <div class="row">
+      <div class="col-sm-60 col-md-50" style="padding-right:0;">Walking distance to Elara/CES Hotel Shuttle Route 10.&nbsp;</div>
+        
+        <div class="hidden-xs hidden-sm col-md-10" style="padding-left:0;">
+          <a href="#" class="pull-right" data-toggle="tooltip" data-placement="left" title="Planet Hollywood: $22 resort fee includes daily Fitness Center admission for two guests; daily in-room Internet access for two devices; all local calls.">
+            <img src="/ces/images/list-icons/list-info.png" class="info-icon">
+          </a>
+        </div>
+        <div class="hidden-md hidden-lg col-xs-60"><br />Planet Hollywood: $22 resort fee includes daily Fitness Center admission for two guests; daily in-room Internet access for two devices; all local calls.</div>
+        
+    </div>
+  </td>
+</tr><tr>	
+  <td><a href="https://www.plazahotelcasino.com/reservations/ " target="_blank">Plaza Hotel & Casino Las Vegas</a></td>
+  <td>$75*</td>
+  <td>$90*</td>
+  <td>$90*</td>
+  <td>$75*</td>
+  <td>$75*</td>
+  <td valign="top">
+    <div class="row">
+      <div class="col-sm-60 col-md-50" style="padding-right:0;">*Rates shown include resort fee. Booking code - SPCES16.&nbsp;</div>
+        
+        <div class="hidden-xs hidden-sm col-md-10" style="padding-left:0;">
+          <a href="#" class="pull-right" data-toggle="tooltip" data-placement="left" title="Plaza: $15 resort fee includes: self/valet parking, access to the newly remodeled fitness room, two bottles of water, in-room internet access, local/800 number phone calls from guestroom and Plaza Perks (a fun book of coupons valued at over $300.00).">
+            <img src="/ces/images/list-icons/list-info.png" class="info-icon">
+          </a>
+        </div>
+        <div class="hidden-md hidden-lg col-xs-60"><br />Plaza: $15 resort fee includes: self/valet parking, access to the newly remodeled fitness room, two bottles of water, in-room internet access, local/800 number phone calls from guestroom and Plaza Perks (a fun book of coupons valued at over $300.00).</div>
+        
+    </div>
+  </td>
+</tr><tr>	
+  <td><a href="http://www.renaissancelasvegas.com/" target="_blank">Renaissance</a></td>
+  <td><br />Sold Out</td>
+  <td><br />Sold Out</td>
+  <td><br />Sold Out</td>
+  <td><br />Sold Out</td>
+  <td><br />Sold Out</td>
+  <td valign="top">
+    <div class="row">
+      <div class="col-sm-60 col-md-50" style="padding-right:0;">Hotel only accepts groups of 10 or more.&nbsp;</div>
+        <div style="display:none;">
+        <div class="hidden-xs hidden-sm col-md-10" style="padding-left:0;">
+          <a href="#" class="pull-right" data-toggle="tooltip" data-placement="left" title="">
+            <img src="/ces/images/list-icons/list-info.png" class="info-icon">
+          </a>
+        </div>
+        <div class="hidden-md hidden-lg col-xs-60"><br /></div>
+        </div>
+    </div>
+  </td>
+</tr><tr>	
+  <td><a href="http://www.totalrewards.com/hotel-reservations?propCode=RLV&groupCode=DRCES6 " target="_blank">Rio All-Suite Hotel & Casino Las Vegas</a></td>
+  <td>Select hotel for exclusive CES rate</td>
+  <td>Select hotel for exclusive CES rate</td>
+  <td>Select hotel for exclusive CES rate</td>
+  <td>Select hotel for exclusive CES rate</td>
+  <td>Select hotel for exclusive CES rate</td>
+  <td valign="top">
+    <div class="row">
+      <div class="col-sm-60 col-md-50" style="padding-right:0;">CES shuttle service not provided. Rio runs a shuttle every 30 minutes to LINQ Hotel and Monorail station.&nbsp;</div>
+        
+        <div class="hidden-xs hidden-sm col-md-10" style="padding-left:0;">
+          <a href="#" class="pull-right" data-toggle="tooltip" data-placement="left" title="Rio: $22 resort fee includes daily Fitness Center admission for two guests; daily in-room Internet access for two devices; all local calls.">
+            <img src="/ces/images/list-icons/list-info.png" class="info-icon">
+          </a>
+        </div>
+        <div class="hidden-md hidden-lg col-xs-60"><br />Rio: $22 resort fee includes daily Fitness Center admission for two guests; daily in-room Internet access for two devices; all local calls.</div>
+        
+    </div>
+  </td>
+</tr><tr>	
+  <td><a href="https://resweb.passkey.com/Resweb.do?mode=welcome_ei_new&eventID=13891910" target="_blank">Signature at MGM</a></td>
+  <td>$257*</td>
+  <td>$457*</td>
+  <td>$417*</td>
+  <td>$237*</td>
+  <td>$157*</td>
+  <td valign="top">
+    <div class="row">
+      <div class="col-sm-60 col-md-50" style="padding-right:0;">*Rates shown include resort fee.&nbsp;</div>
+        
+        <div class="hidden-xs hidden-sm col-md-10" style="padding-left:0;">
+          <a href="#" class="pull-right" data-toggle="tooltip" data-placement="left" title="Signature:&nbsp;$29 resort fee includes access to internet access (in-suite and public areas), local and 800 number phone calls, two (2) bottles of water daily, access to The Signature Fitness Center, in-suite private label coffee, valet parking.">
+            <img src="/ces/images/list-icons/list-info.png" class="info-icon">
+          </a>
+        </div>
+        <div class="hidden-md hidden-lg col-xs-60"><br />Signature:&nbsp;$29 resort fee includes access to internet access (in-suite and public areas), local and 800 number phone calls, two (2) bottles of water daily, access to The Signature Fitness Center, in-suite private label coffee, valet parking.</div>
+        
+    </div>
+  </td>
+</tr><tr>	
+  <td><a href="https://resweb.passkey.com/Resweb.do?mode=welcome_ei_new&eventID=13890054 " target="_blank">SLS Las Vegas</a></td>
+  <td>$175*</td>
+  <td>$325*</td>
+  <td>$414*</td>
+  <td>$414*</td>
+  <td>$315*</td>
+  <td valign="top">
+    <div class="row">
+      <div class="col-sm-60 col-md-50" style="padding-right:0;">*Rates shown include resort fee. CES shuttle service not provided. Las Vegas Monorail accessible to/from the LVCC.&nbsp;</div>
+        
+        <div class="hidden-xs hidden-sm col-md-10" style="padding-left:0;">
+          <a href="#" class="pull-right" data-toggle="tooltip" data-placement="left" title="SLS: $25 resort fee includes access to the fitness center, local/800 calls, WiFi in the guest room and self/valet parking.&nbsp;">
+            <img src="/ces/images/list-icons/list-info.png" class="info-icon">
+          </a>
+        </div>
+        <div class="hidden-md hidden-lg col-xs-60"><br />SLS: $25 resort fee includes access to the fitness center, local/800 calls, WiFi in the guest room and self/valet parking.&nbsp;</div>
+        
+    </div>
+  </td>
+</tr><tr>	
+  <td><a href="https://resweb.passkey.com/go/16CES" target="_blank">Treasure Island</a></td>
+  <td>$279*</td>
+  <td>$419*</td>
+  <td>$419*</td>
+  <td>$279*</td>
+  <td>$149*</td>
+  <td valign="top">
+    <div class="row">
+      <div class="col-sm-60 col-md-50" style="padding-right:0;">*Rates shown do not include optional resort fee
+early booking rate ends September 1, 2015.&nbsp;</div>
+        
+        <div class="hidden-xs hidden-sm col-md-10" style="padding-left:0;">
+          <a href="#" class="pull-right" data-toggle="tooltip" data-placement="left" title="$29 resort fee is optional: In room high speed internet access $25/day, Access to fitness center, Daily newspaper at Guest Services $1-$2/day, In room local and toll free phone calls $1/call, Printed airline boarding passes $5/each, Copies and faxes (up to 10 pages) $1/each.">
+            <img src="/ces/images/list-icons/list-info.png" class="info-icon">
+          </a>
+        </div>
+        <div class="hidden-md hidden-lg col-xs-60"><br />$29 resort fee is optional: In room high speed internet access $25/day, Access to fitness center, Daily newspaper at Guest Services $1-$2/day, In room local and toll free phone calls $1/call, Printed airline boarding passes $5/each, Copies and faxes (up to 10 pages) $1/each.</div>
+        
+    </div>
+  </td>
+</tr><tr>	
+  <td><a href="https://resweb.passkey.com/Resweb.do?mode=welcome_ei_new&eventID=13945264 " target="_blank">Tropicana Las Vegas – a DoubleTree by Hilton</a></td>
+  <td>$244*</td>
+  <td>$244*</td>
+  <td>$244*</td>
+  <td>$244*</td>
+  <td>$214*</td>
+  <td valign="top">
+    <div class="row">
+      <div class="col-sm-60 col-md-50" style="padding-right:0;">*Rates shown include resort fee. Guests can earn HHonors points.&nbsp;</div>
+        
+        <div class="hidden-xs hidden-sm col-md-10" style="padding-left:0;">
+          <a href="#" class="pull-right" data-toggle="tooltip" data-placement="left" title="Tropicana Las Vegas &ndash; a DoubleTree by Hilton: $15 resort fee includes in-room high-speed wireless internet access, daily fitness center access, 2 for 1 signature cocktails in Baclo or Biscayne with dinner, 2 for 1 cocktails during Happy Hour in the Tropicana Lounge from 4:00 pm &ndash; 6:00 pm, local calls, domestic long distance calls, 800 calls, incoming faxes (up to 10 per day), outgoing faxes (up to 10 per day), photo copies (up to 10 per day), and printing of boarding pass.&nbsp;">
+            <img src="/ces/images/list-icons/list-info.png" class="info-icon">
+          </a>
+        </div>
+        <div class="hidden-md hidden-lg col-xs-60"><br />Tropicana Las Vegas &ndash; a DoubleTree by Hilton: $15 resort fee includes in-room high-speed wireless internet access, daily fitness center access, 2 for 1 signature cocktails in Baclo or Biscayne with dinner, 2 for 1 cocktails during Happy Hour in the Tropicana Lounge from 4:00 pm &ndash; 6:00 pm, local calls, domestic long distance calls, 800 calls, incoming faxes (up to 10 per day), outgoing faxes (up to 10 per day), photo copies (up to 10 per day), and printing of boarding pass.&nbsp;</div>
+        
+    </div>
+  </td>
+</tr><tr>	
+  <td><a href="https://gc.synxis.com/rez.aspx?Chain=12157&Dest=LAS&arrive=1/1/2016&depart=1/13/2016&adult=1&child=0&group=160101CESS" target="_blank">Trump International Hotel Las Vegas One Bedroom Suite</a></td>
+  <td>$499</td>
+  <td>$499</td>
+  <td>$499</td>
+  <td>$429</td>
+  <td>$279</td>
+  <td valign="top">
+    <div class="row">
+      <div class="col-sm-60 col-md-50" style="padding-right:0;">*Resort fee is waived for CES attendees.&nbsp;</div>
+        
+        <div class="hidden-xs hidden-sm col-md-10" style="padding-left:0;">
+          <a href="#" class="pull-right" data-toggle="tooltip" data-placement="left" title="Trump resort fee: $25 includes 2 bottles of water daily, daily newspaper, wireless internet access, in-room coffee, local and toll free phone calls, fitness center access.">
+            <img src="/ces/images/list-icons/list-info.png" class="info-icon">
+          </a>
+        </div>
+        <div class="hidden-md hidden-lg col-xs-60"><br />Trump resort fee: $25 includes 2 bottles of water daily, daily newspaper, wireless internet access, in-room coffee, local and toll free phone calls, fitness center access.</div>
+        
+    </div>
+  </td>
+</tr><tr>	
+  <td><a href="https://gc.synxis.com/rez.aspx?Chain=12157&Dest=LAS&arrive=1/1/2016&depart=1/13/2016&adult=1&child=0&group=160101CESS" target="_blank">Trump International Hotel Las Vegas Studio City View</a></td>
+  <td><br />Sold Out</td>
+  <td><br />Sold Out</td>
+  <td><br />Sold Out</td>
+  <td><br />Sold Out</td>
+  <td>$134</td>
+  <td valign="top">
+    <div class="row">
+      <div class="col-sm-60 col-md-50" style="padding-right:0;">*Resort fee is waived for CES attendees.&nbsp;</div>
+        
+        <div class="hidden-xs hidden-sm col-md-10" style="padding-left:0;">
+          <a href="#" class="pull-right" data-toggle="tooltip" data-placement="left" title="Trump resort fee: $25 includes 2 bottles of water daily, daily newspaper, wireless internet access, in-room coffee, local and toll free phone calls, fitness center access.">
+            <img src="/ces/images/list-icons/list-info.png" class="info-icon">
+          </a>
+        </div>
+        <div class="hidden-md hidden-lg col-xs-60"><br />Trump resort fee: $25 includes 2 bottles of water daily, daily newspaper, wireless internet access, in-room coffee, local and toll free phone calls, fitness center access.</div>
+        
+    </div>
+  </td>
+</tr><tr>	
+  <td><a href="https://resweb.passkey.com/go/CES2016" target="_blank">Vdara Hotel & Spa</a></td>
+  <td>$347*</td>
+  <td>Select hotel to view prevailing rate</td>
+  <td>Select hotel to view prevailing rate</td>
+  <td>$347*</td>
+  <td>$177*</td>
+  <td valign="top">
+    <div class="row">
+      <div class="col-sm-60 col-md-50" style="padding-right:0;">*Rates shown include resort fee.&nbsp;</div>
+        
+        <div class="hidden-xs hidden-sm col-md-10" style="padding-left:0;">
+          <a href="#" class="pull-right" data-toggle="tooltip" data-placement="left" title="Vdara: $29 resort fee includes&nbsp;Internet access (in-suite and campus wide at City Center), local and toll-free telephone calls, access to Fitness Center, daily newspaper, airline boarding pass printing.">
+            <img src="/ces/images/list-icons/list-info.png" class="info-icon">
+          </a>
+        </div>
+        <div class="hidden-md hidden-lg col-xs-60"><br />Vdara: $29 resort fee includes&nbsp;Internet access (in-suite and campus wide at City Center), local and toll-free telephone calls, access to Fitness Center, daily newspaper, airline boarding pass printing.</div>
+        
+    </div>
+  </td>
+</tr><tr>	
+  <td><a href="https://resweb.passkey.com/go/ATTENDEE2016CES" target="_blank">Venetian</a></td>
+  <td>Select hotel to view prevailing rate</td>
+  <td>Select hotel to view prevailing rate</td>
+  <td>Select hotel to view prevailing rate</td>
+  <td>Select hotel to view prevailing rate</td>
+  <td>Select hotel to view prevailing rate</td>
+  <td valign="top">
+    <div class="row">
+      <div class="col-sm-60 col-md-50" style="padding-right:0;">*Rates shown include resort fee.&nbsp;</div>
+        
+        <div class="hidden-xs hidden-sm col-md-10" style="padding-left:0;">
+          <a href="#" class="pull-right" data-toggle="tooltip" data-placement="left" title="Venetian: $25 resort fee includes unlimited local and toll-free telephone calls, unlimited in-suite Internet access, daily newspaper per suite, access to Canyon Ranch fitness center for two (2) adults, boarding pass printing, one (1) regular coffee or tea at Cafe Presse, and two for one well drinks at any Venetian/Palazzo owned bar (must be 21 or older).">
+            <img src="/ces/images/list-icons/list-info.png" class="info-icon">
+          </a>
+        </div>
+        <div class="hidden-md hidden-lg col-xs-60"><br />Venetian: $25 resort fee includes unlimited local and toll-free telephone calls, unlimited in-suite Internet access, daily newspaper per suite, access to Canyon Ranch fitness center for two (2) adults, boarding pass printing, one (1) regular coffee or tea at Cafe Presse, and two for one well drinks at any Venetian/Palazzo owned bar (must be 21 or older).</div>
+        
+    </div>
+  </td>
+</tr><tr>	
+  <td><a href="https://resweb.passkey.com/go/SCES6R" target="_blank">Westgate Las Vegas (formerly LVH)</a></td>
+  <td>$291*</td>
+  <td>$291*</td>
+  <td>$291*</td>
+  <td>$291*</td>
+  <td>$291*</td>
+  <td valign="top">
+    <div class="row">
+      <div class="col-sm-60 col-md-50" style="padding-right:0;">*Rates shown include resort fee.&nbsp;</div>
+        
+        <div class="hidden-xs hidden-sm col-md-10" style="padding-left:0;">
+          <a href="#" class="pull-right" data-toggle="tooltip" data-placement="left" title="$22 Resort Fee is optional. Amenities include: wireless internet access for two (2)&nbsp;devices (excludes convention area); fitness center acccess for two (2) guests; local and toll-free calls; use of in-room safe.">
+            <img src="/ces/images/list-icons/list-info.png" class="info-icon">
+          </a>
+        </div>
+        <div class="hidden-md hidden-lg col-xs-60"><br />$22 Resort Fee is optional. Amenities include: wireless internet access for two (2)&nbsp;devices (excludes convention area); fitness center acccess for two (2) guests; local and toll-free calls; use of in-room safe.</div>
+        
+    </div>
+  </td>
+</tr><tr>	
+  <td><a href="https://www.starwoodmeeting.com/StarGroupsWeb/res?id=1504282325&key=F1EDBDA" target="_blank">Westin Las Vegas</a></td>
+  <td>$265*</td>
+  <td>$265*</td>
+  <td>$265*</td>
+  <td>$265*</td>
+  <td>$265*</td>
+  <td valign="top">
+    <div class="row">
+      <div class="col-sm-60 col-md-50" style="padding-right:0;">*Rates shown include resort fee.&nbsp;</div>
+        
+        <div class="hidden-xs hidden-sm col-md-10" style="padding-left:0;">
+          <a href="#" class="pull-right" data-toggle="tooltip" data-placement="left" title="Westin:&nbsp;$15 resort fee includes high speed Wifi Internet access, unlimited local, toll free &amp; domestic long distance calls, &nbsp;24 hour Westin WORKOUT facility, complimentary Valet &amp; Self Parking, Sauna &amp; Steam room&nbsp; access at Hibiscus Spa, bottled in room water, incoming faxes, daily newspaper delivery, notary public services, 24 hr. pool &amp; whirlpool access, boarding pass printing, foreign currency exchange, and daily Westin Happy Hour with complimentary alcoholic beverages &amp; hot and cold hors d&rsquo; oeuvres.">
+            <img src="/ces/images/list-icons/list-info.png" class="info-icon">
+          </a>
+        </div>
+        <div class="hidden-md hidden-lg col-xs-60"><br />Westin:&nbsp;$15 resort fee includes high speed Wifi Internet access, unlimited local, toll free &amp; domestic long distance calls, &nbsp;24 hour Westin WORKOUT facility, complimentary Valet &amp; Self Parking, Sauna &amp; Steam room&nbsp; access at Hibiscus Spa, bottled in room water, incoming faxes, daily newspaper delivery, notary public services, 24 hr. pool &amp; whirlpool access, boarding pass printing, foreign currency exchange, and daily Westin Happy Hour with complimentary alcoholic beverages &amp; hot and cold hors d&rsquo; oeuvres.</div>
+        
+    </div>
+  </td>
+</tr><tr>	
+  <td><a href="https://resweb.passkey.com/Resweb.do?mode=welcome_gi_new&groupID=50703622 " target="_blank">Wynn Las Vegas</a></td>
+  <td>Select hotel for exclusive CES rate</td>
+  <td>Select hotel for exclusive CES rate</td>
+  <td>Select hotel for exclusive CES rate</td>
+  <td>Select hotel for exclusive CES rate</td>
+  <td>Select hotel for exclusive CES rate</td>
+  <td valign="top">
+    <div class="row">
+      <div class="col-sm-60 col-md-50" style="padding-right:0;">&nbsp;</div>
+        <div style="display:none;">
+        <div class="hidden-xs hidden-sm col-md-10" style="padding-left:0;">
+          <a href="#" class="pull-right" data-toggle="tooltip" data-placement="left" title="">
+            <img src="/ces/images/list-icons/list-info.png" class="info-icon">
+          </a>
+        </div>
+        <div class="hidden-md hidden-lg col-xs-60"><br /></div>
+        </div>
+    </div>
+  </td>
+</tr>  </tbody>
+  </table>
+ </div>
+
+             
+          </div>
+         </div>
+      </div>
+   </div>
+</section></div>
+    </div>
+</div>
+    
+<section>
+    <div id="footer" class="clear-fix">
+        <div class="container">
+            <div class="doubleDashedHR"></div>
+            <div class="text-center-xs col-xs-60 text-left-md col-md-15">
+                <p class="copyright">
+	Copyright &copy; 2003 - 2015 CEA. All rights reserved.</p>
+
+            </div>
+            <div class="text-center-xs col-xs-60 text-left-md col-md-15 doubleDashedVR">
+                <ul>
+	<li>
+		<a href="/about-us">About Us </a></li>
+	<li>
+		<a href="/contact-us">Contact Us</a></li>
+	<li>
+		<a href="/partners">Partners</a></li>
+</ul>
+
+            </div>
+            <div class="text-center-xs col-xs-60 text-left-md col-md-10 doubleDashedVR">
+                <ul>
+	<li>
+		<a href="/privacy">Privacy</a></li>
+	<li>
+		<a href="/sitemap">Sitemap</a></li>
+</ul>
+<br /><div style="font-size: .8em; color: #FFF;"><span id="p_lt_ctl11_whatServer_serverName">WEB-IIS50</span></div>
+            </div>
+            <div class="col-xs-60 text-center-xs text-left-md col-md-20 languages">
+                <script type="text/javascript">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-3975226-4', 'auto');
+
+// Load the plugin.
+ga('require', 'linker');
+// Define which domains to autoLink.
+ga('linker:autoLink', ['itnint.com']);
+  ga('send', 'pageview');
+</script>
+            </div>
+        </div>
+    </div>
+</section>
+ 
+    
+    
+
+<script type="text/javascript">
+//<![CDATA[
+(function() {var fn = function() {$get("manScript_HiddenField").value = '';Sys.Application.remove_init(fn);};Sys.Application.add_init(fn);})();//]]>
+</script>
+  <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTEyMTY0MTExOTEPZBYCAgEPFgIeBmFjdGlvbgUZL1JlZ2lzdGVyLVBsYW4vSG90ZWwuYXNweBYCAgUPZBYCZg8PFgQeCENzc0NsYXNzBQ9QYWdlUGxhY2Vob2xkZXIeBF8hU0ICAmQWAmYPZBYEAgsPZBYCAgEPZBYCZg8PFi4eG1NlcGFyYXRvclRyYW5zZm9ybWF0aW9uTmFtZWUeD0xldmVsQ29sdW1uTmFtZQUJTm9kZUxldmVsHhJUcmFuc2Zvcm1hdGlvbk5hbWVlHg5TaG93RWRpdEJ1dHRvbmgeFkhpZGVDb250cm9sRm9yWmVyb1Jvd3NoHglJdGVtQ291bnQCCR4YRm9vdGVyVHJhbnNmb3JtYXRpb25OYW1lZR4YSGVhZGVyVHJhbnNmb3JtYXRpb25OYW1lZR4dQWx0ZXJuYXRpbmdUcmFuc2Zvcm1hdGlvbk5hbWVlHhBTaG93RGVsZXRlQnV0dG9uaB4LXyFJdGVtQ291bnQCCR4eSGllcmFyY2hpY2FsVHJhbnNmb3JtYXRpb25OYW1lBSppY2VzLnRyYW5zZm9ybWF0aW9ucy5JY2VzX2Ryb3BfbWVudV9tb2JpbGUeDVBhZ2VyUG9zaXRpb24LKXFDTVMuQ29udHJvbHMuUGFnaW5nUGxhY2VUeXBlRW51bSwgQ01TLkNvbnRyb2xzLCBWZXJzaW9uPTguMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49ODM0YjEyYTI1OGYyMTNmOQAeFkxhc3RUcmFuc2Zvcm1hdGlvbk5hbWVlHgtfIURhdGFCb3VuZGceElBhcmVudElEQ29sdW1uTmFtZQUMTm9kZVBhcmVudElEHhRMb2FkSGllcmFyY2hpY2FsRGF0YWceF0ZpcnN0VHJhbnNmb3JtYXRpb25OYW1lZR4MWmVyb1Jvd3NUZXh0BQ1ObyBkYXRhIGZvdW5kHhZSZXNvbHZlRHluYW1pY0NvbnRyb2xzZx4YU2luZ2xlVHJhbnNmb3JtYXRpb25OYW1lZR4XVXNlSGllcmFyY2hpY2FsT3JkZXJpbmdnHgxJRENvbHVtbk5hbWUFBk5vZGVJRGQWAmYPDxYOHghQYWdlU2l6ZQIKHg5RdWVyeVN0cmluZ0tleQUEUGFnZR4JUGFnZXJNb2RlCylqQ01TLkNvbnRyb2xzLlVuaVBhZ2VyTW9kZSwgQ01TLkNvbnRyb2xzLCBWZXJzaW9uPTguMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49ODM0YjEyYTI1OGYyMTNmOQAeCUdyb3VwU2l6ZQIKHh1EaXNwbGF5Rmlyc3RMYXN0QXV0b21hdGljYWxseWgeIERpc3BsYXlQcmV2aW91c05leHRBdXRvbWF0aWNhbGx5aB4HRW5hYmxlZGhkZAIRD2QWAmYPZBYCAgIPZBYCZg8PFgQfAQUPUGFnZVBsYWNlaG9sZGVyHwICAmQWAmYPZBYGAgEPZBYCZg9kFgJmDxYCHgRUZXh0BYEEPHVsPjxsaT48YSBocmVmPSIvUmVnaXN0ZXItUGxhbi9SZWdpc3Rlci1Ob3ciPlJlZ2lzdGVyIE5vdzwvYT48bGk+PGEgaHJlZj0iL1JlZ2lzdGVyLVBsYW4vRnVsbC1TY2hlZHVsZSI+RnVsbCBTY2hlZHVsZSA8L2E+PGxpIGNsYXNzPSJsZWZ0LWN1cnJlbnQiPjxhIGhyZWY9Ii9SZWdpc3Rlci1QbGFuL0hvdGVsIj5Ib3RlbDwvYT48dWw+PGxpPjxhIGhyZWY9Ii9SZWdpc3Rlci1QbGFuL0hvdGVsL1Jlc2VydmUtYS1Sb29tLUJsb2NrIj5SZXNlcnZlIGEgUm9vbSBCbG9jazwvYT48L3VsPjxsaT48YSBocmVmPSIvUmVnaXN0ZXItUGxhbi9UcmFuc3BvcnRhdGlvbiI+VHJhbnNwb3J0YXRpb248L2E+PGxpPjxhIGhyZWY9Ii9SZWdpc3Rlci1QbGFuL1RyYXZlbC1UaXBzIj5UcmF2ZWwgVGlwczwvYT48bGk+PGEgaHJlZj0iL1JlZ2lzdGVyLVBsYW4vQmFkZ2UtUGljay1VcC1hbmQtUmVnaXN0cmF0aW9uLUxvY2F0aW9ucyI+QmFkZ2UgUGlja3VwIGFuZCBSZWdpc3RyYXRpb24gTG9jYXRpb25zPC9hPjwvdWw+ZAIDD2QWAmYPDxYCHghCYW5uZXJJRAKEA2QWAmYPDxYGHwEFEENNU0Jhbm5lciBCYW5uZXIfAgICHgdWaXNpYmxlZxYGHgRocmVmBSRodHRwOi8vd3d3LmNlc3dlYi5vcmcvY2hhbmdldGhld29ybGQeB29uY2xpY2sFU3RoaXMuaHJlZj0nL0NNU01vZHVsZXMvQmFubmVyTWFuYWdlbWVudC9DTVNQYWdlcy9CYW5uZXJSZWRpcmVjdC5hc2h4P2Jhbm5lcklEPTM4OCc7Hglvbm1vdXNldXAFU3RoaXMuaHJlZj0nL0NNU01vZHVsZXMvQmFubmVyTWFuYWdlbWVudC9DTVNQYWdlcy9CYW5uZXJSZWRpcmVjdC5hc2h4P2Jhbm5lcklEPTM4OCc7FgICAQ8PFgweDUFsdGVybmF0ZVRleHRlHgdUb29sVGlwZR8BZR4ISW1hZ2VVcmwFNi9DRVMvbWVkaWEvMjAxNC9hZHZlcnRpc2VtZW50cy8zNTMzXzMwMHgyNTAtcHVycGxlLmpwZx8CAgIfI2cWAh4Fc3R5bGVlZAIND2QWAmYPZBYCZg9kFgJmD2QWAgIBD2QWAgIBDw8WBh8RZx8IAjAfDQIwZBZgAgIPZBYCZg9kFgJmDxUMTGh0dHBzOi8vYm9va2luZ3MuaWhvdGVsaWVyLmNvbS9ib29raW5ncy5qc3A/aG90ZWxpZD04NTE3OSZpZGVudGlmaWVyPUNFUzIwMTYMQWxleGlzIFBhcmsgBCQxMjkEJDEyOQQkMTI5AyQ2OQMkNjkAGzxkaXYgc3R5bGU9ImRpc3BsYXk6bm9uZTsiPgAABjwvZGl2PmQCAw9kFgJmD2QWAmYPFQxJaHR0cHM6Ly9yZXN3ZWIucGFzc2tleS5jb20vUmVzd2ViLmRvP21vZGU9d2VsY29tZV9laV9uZXcmZXZlbnRJRD0xMzg4NzYwMgRBUklBJFNlbGVjdCBob3RlbCB0byB2aWV3IHByZXZhaWxpbmcgcmF0ZSRTZWxlY3QgaG90ZWwgdG8gdmlldyBwcmV2YWlsaW5nIHJhdGUkU2VsZWN0IGhvdGVsIHRvIHZpZXcgcHJldmFpbGluZyByYXRlBSQzNjcqBSQyMDcqICpSYXRlcyBzaG93biBpbmNsdWRlIHJlc29ydCBmZWUuAOYBQVJJQTogJDI5IHJlc29ydCBmZWUgaW5jbHVkZXM6Jm5ic3A7SW50ZXJuZXQgYWNjZXNzIChpbi1yb29tIGFuZCBjYW1wdXMgd2lkZSBhdCBDaXR5IENlbnRlciksIGxvY2FsIGFuZCB0b2xsLWZyZWUgdGVsZXBob25lIGNhbGxzLCBhY2Nlc3MgdG8gdGhlIFNwYSBhdCZuYnNwO0FSSUEgRml0bmVzcyBDZW50ZXIsIGRhaWx5IG5ld3NwYXBlciwgYW5kIGFpcmxpbmUgYm9hcmRpbmcgcGFzcyBwcmludGluZy7mAUFSSUE6ICQyOSByZXNvcnQgZmVlIGluY2x1ZGVzOiZuYnNwO0ludGVybmV0IGFjY2VzcyAoaW4tcm9vbSBhbmQgY2FtcHVzIHdpZGUgYXQgQ2l0eSBDZW50ZXIpLCBsb2NhbCBhbmQgdG9sbC1mcmVlIHRlbGVwaG9uZSBjYWxscywgYWNjZXNzIHRvIHRoZSBTcGEgYXQmbmJzcDtBUklBIEZpdG5lc3MgQ2VudGVyLCBkYWlseSBuZXdzcGFwZXIsIGFuZCBhaXJsaW5lIGJvYXJkaW5nIHBhc3MgcHJpbnRpbmcuAGQCBA9kFgJmD2QWAmYPFQxNaHR0cDovL3d3dy50b3RhbHJld2FyZHMuY29tL2hvdGVsLXJlc2VydmF0aW9ucz9wcm9wQ29kZT1CTFYmZ3JvdXBDb2RlPURCQ0VTNiARQmFsbHkncyBMYXMgVmVnYXMjU2VsZWN0IGhvdGVsIGZvciBleGNsdXNpdmUgQ0VTIHJhdGUjU2VsZWN0IGhvdGVsIGZvciBleGNsdXNpdmUgQ0VTIHJhdGUjU2VsZWN0IGhvdGVsIGZvciBleGNsdXNpdmUgQ0VTIHJhdGUjU2VsZWN0IGhvdGVsIGZvciBleGNsdXNpdmUgQ0VTIHJhdGUjU2VsZWN0IGhvdGVsIGZvciBleGNsdXNpdmUgQ0VTIHJhdGVRQ0VTIHNodXR0bGUgc2VydmljZSBub3QgcHJvdmlkZWQuIExhcyBWZWdhcyBNb25vcmFpbCBhY2Nlc3NpYmxlIHRvL2Zyb20gdGhlIExWQ0MuAJkBQmFsbHkmIzM5O3M6ICQyMiByZXNvcnQgZmVlIGluY2x1ZGVzIGRhaWx5IEZpdG5lc3MgQ2VudGVyIGFkbWlzc2lvbiBmb3IgdHdvIGd1ZXN0czsgZGFpbHkgaW4tcm9vbSBJbnRlcm5ldCBhY2Nlc3MgZm9yIHR3byBkZXZpY2VzOyBhbGwgbG9jYWwgY2FsbHMuJm5ic3A7mQFCYWxseSYjMzk7czogJDIyIHJlc29ydCBmZWUgaW5jbHVkZXMgZGFpbHkgRml0bmVzcyBDZW50ZXIgYWRtaXNzaW9uIGZvciB0d28gZ3Vlc3RzOyBkYWlseSBpbi1yb29tIEludGVybmV0IGFjY2VzcyBmb3IgdHdvIGRldmljZXM7IGFsbCBsb2NhbCBjYWxscy4mbmJzcDsAZAIFD2QWAmYPZBYCZg8VDEpodHRwczovL3Jlc3dlYi5wYXNza2V5LmNvbS9SZXN3ZWIuZG8/bW9kZT13ZWxjb21lX2VpX25ldyZldmVudElEPTEzODkwNTA3IAhCZWxsYWdpbwUkNDc3KiNTZWxlY3QgaG90ZWwgZm9yIGV4Y2x1c2l2ZSBDRVMgcmF0ZSNTZWxlY3QgaG90ZWwgZm9yIGV4Y2x1c2l2ZSBDRVMgcmF0ZQUkNDA3KgUkMjI3KiAqUmF0ZXMgc2hvd24gaW5jbHVkZSByZXNvcnQgZmVlLgDHAUJlbGxhZ2lvOiAkMjkgcmVzb3J0IGZlZSBpbmNsdWRlczogYWNjZXNzIHRvIEhvdGVsIEZpdG5lc3MgQ2VudGVyLCB3aXJlbGVzcyBpbnRlcm5ldCBpbiBndWVzdCByb29tcywgYm9hcmRpbmcgcGFzcyBwcmludGluZyBpbiBIb3RlbCYjMzk7cyBCdXNpbmVzcyBDZW50ZXIsIGZyZWUgbG9jYWwgY2FsbHMsIGFuZCBmcmVlIHRvbGwgZnJlZSBjYWxscy7HAUJlbGxhZ2lvOiAkMjkgcmVzb3J0IGZlZSBpbmNsdWRlczogYWNjZXNzIHRvIEhvdGVsIEZpdG5lc3MgQ2VudGVyLCB3aXJlbGVzcyBpbnRlcm5ldCBpbiBndWVzdCByb29tcywgYm9hcmRpbmcgcGFzcyBwcmludGluZyBpbiBIb3RlbCYjMzk7cyBCdXNpbmVzcyBDZW50ZXIsIGZyZWUgbG9jYWwgY2FsbHMsIGFuZCBmcmVlIHRvbGwgZnJlZSBjYWxscy4AZAIGD2QWAmYPZBYCZg8VDE1odHRwOi8vd3d3LnRvdGFscmV3YXJkcy5jb20vaG90ZWwtcmVzZXJ2YXRpb25zP3Byb3BDb2RlPUNMViZncm91cENvZGU9RENDRVM2IBhDYWVzYXJzIFBhbGFjZSBMYXMgVmVnYXMjU2VsZWN0IGhvdGVsIGZvciBleGNsdXNpdmUgQ0VTIHJhdGUjU2VsZWN0IGhvdGVsIGZvciBleGNsdXNpdmUgQ0VTIHJhdGUjU2VsZWN0IGhvdGVsIGZvciBleGNsdXNpdmUgQ0VTIHJhdGUjU2VsZWN0IGhvdGVsIGZvciBleGNsdXNpdmUgQ0VTIHJhdGUjU2VsZWN0IGhvdGVsIGZvciBleGNsdXNpdmUgQ0VTIHJhdGUhQ0VTIHNodXR0bGUgc2VydmljZSBub3QgcHJvdmlkZWQuAI8BQ2Flc2FyczogJDI1IHJlc29ydCBmZWUgaW5jbHVkZXMgZGFpbHkgRml0bmVzcyBDZW50ZXIgYWRtaXNzaW9uIGZvciB0d28gZ3Vlc3RzOyBkYWlseSBpbi1yb29tIEludGVybmV0IGFjY2VzcyBmb3IgdHdvIGRldmljZXM7IGFsbCBsb2NhbCBjYWxscy6PAUNhZXNhcnM6ICQyNSByZXNvcnQgZmVlIGluY2x1ZGVzIGRhaWx5IEZpdG5lc3MgQ2VudGVyIGFkbWlzc2lvbiBmb3IgdHdvIGd1ZXN0czsgZGFpbHkgaW4tcm9vbSBJbnRlcm5ldCBhY2Nlc3MgZm9yIHR3byBkZXZpY2VzOyBhbGwgbG9jYWwgY2FsbHMuAGQCBw9kFgJmD2QWAmYPFQxKaHR0cHM6Ly9yZXN3ZWIucGFzc2tleS5jb20vUmVzd2ViLmRvP21vZGU9d2VsY29tZV9laV9uZXcmZXZlbnRJRD0xMzg5MDU3NSANQ2lyY3VzIENpcmN1cwQkNjMqBSQxNjUqBSQxNjUqBCQ5OSoEJDUzKiAqUmF0ZXMgc2hvd24gaW5jbHVkZSByZXNvcnQgZmVlLgDUAkNpcmN1cyBDaXJjdXM6Jm5ic3A7JDE1IHJlc29ydCBmZWUgaW5jbHVkZXMgaW4tcm9vbSB3aXJlbGVzcyBpbnRlcm5ldCBzZXJ2aWNlIChkYWlseSksIG9uZSAoMSkgZnJlZSBwcmVtaXVtIHJpZGUgYXQgQWR2ZW50dXJlZG9tZSwgdHdvICgyKSBmaXRuZXNzIHBhc3NlcyAoZGFpbHkpLCBidXkgMSwgZ2V0IDEgZHJpbmsgYXQgU2xvdHMgQSBGdW4gb3IgV2VzdCBCYXIsIHR3byAoMikgZnJlZSBNaWR3YXkgZ2FtZXMsIDgwMC9sb2NhbCBjYWxscyB1cCB0byAzMCBtaW51dGVzIG1heGltdW0gcGVyIGNhbGwgKGRhaWx5KSwgcmVzb3J0IGZ1bmJvb2sgdmFsdWVkIGF0IGFwcHJveGltYXRlbHkgJDEwMC7UAkNpcmN1cyBDaXJjdXM6Jm5ic3A7JDE1IHJlc29ydCBmZWUgaW5jbHVkZXMgaW4tcm9vbSB3aXJlbGVzcyBpbnRlcm5ldCBzZXJ2aWNlIChkYWlseSksIG9uZSAoMSkgZnJlZSBwcmVtaXVtIHJpZGUgYXQgQWR2ZW50dXJlZG9tZSwgdHdvICgyKSBmaXRuZXNzIHBhc3NlcyAoZGFpbHkpLCBidXkgMSwgZ2V0IDEgZHJpbmsgYXQgU2xvdHMgQSBGdW4gb3IgV2VzdCBCYXIsIHR3byAoMikgZnJlZSBNaWR3YXkgZ2FtZXMsIDgwMC9sb2NhbCBjYWxscyB1cCB0byAzMCBtaW51dGVzIG1heGltdW0gcGVyIGNhbGwgKGRhaWx5KSwgcmVzb3J0IGZ1bmJvb2sgdmFsdWVkIGF0IGFwcHJveGltYXRlbHkgJDEwMC4AZAIID2QWAmYPZBYCZg8VDEpodHRwczovL3Jlc3dlYi5wYXNza2V5LmNvbS9SZXN3ZWIuZG8/bW9kZT13ZWxjb21lX2VpX25ldyZldmVudElEPTEzODkwNTc1IBpDaXJjdXMgQ2lyY3VzIENhc2lubyBUb3dlcgQkNzkqBSQyMjQqBSQyMjQqBSQxMTkqBCQ2MyogKlJhdGVzIHNob3duIGluY2x1ZGUgcmVzb3J0IGZlZS4A1AJDaXJjdXMgQ2lyY3VzOiZuYnNwOyQxNSByZXNvcnQgZmVlIGluY2x1ZGVzIGluLXJvb20gd2lyZWxlc3MgaW50ZXJuZXQgc2VydmljZSAoZGFpbHkpLCBvbmUgKDEpIGZyZWUgcHJlbWl1bSByaWRlIGF0IEFkdmVudHVyZWRvbWUsIHR3byAoMikgZml0bmVzcyBwYXNzZXMgKGRhaWx5KSwgYnV5IDEsIGdldCAxIGRyaW5rIGF0IFNsb3RzIEEgRnVuIG9yIFdlc3QgQmFyLCB0d28gKDIpIGZyZWUgTWlkd2F5IGdhbWVzLCA4MDAvbG9jYWwgY2FsbHMgdXAgdG8gMzAgbWludXRlcyBtYXhpbXVtIHBlciBjYWxsIChkYWlseSksIHJlc29ydCBmdW5ib29rIHZhbHVlZCBhdCBhcHByb3hpbWF0ZWx5ICQxMDAu1AJDaXJjdXMgQ2lyY3VzOiZuYnNwOyQxNSByZXNvcnQgZmVlIGluY2x1ZGVzIGluLXJvb20gd2lyZWxlc3MgaW50ZXJuZXQgc2VydmljZSAoZGFpbHkpLCBvbmUgKDEpIGZyZWUgcHJlbWl1bSByaWRlIGF0IEFkdmVudHVyZWRvbWUsIHR3byAoMikgZml0bmVzcyBwYXNzZXMgKGRhaWx5KSwgYnV5IDEsIGdldCAxIGRyaW5rIGF0IFNsb3RzIEEgRnVuIG9yIFdlc3QgQmFyLCB0d28gKDIpIGZyZWUgTWlkd2F5IGdhbWVzLCA4MDAvbG9jYWwgY2FsbHMgdXAgdG8gMzAgbWludXRlcyBtYXhpbXVtIHBlciBjYWxsIChkYWlseSksIHJlc29ydCBmdW5ib29rIHZhbHVlZCBhdCBhcHByb3hpbWF0ZWx5ICQxMDAuAGQCCQ9kFgJmD2QWAmYPFQxKaHR0cHM6Ly9yZXN3ZWIucGFzc2tleS5jb20vUmVzd2ViLmRvP21vZGU9d2VsY29tZV9laV9uZXcmZXZlbnRJRD0xMzg5MDU3NSAYQ2lyY3VzIENpcmN1cyBXZXN0IFRvd2VyBCQ3NCoFJDIxNCoFJDIxNCoFJDExNCoEJDU4KiAqUmF0ZXMgc2hvd24gaW5jbHVkZSByZXNvcnQgZmVlLgDUAkNpcmN1cyBDaXJjdXM6Jm5ic3A7JDE1IHJlc29ydCBmZWUgaW5jbHVkZXMgaW4tcm9vbSB3aXJlbGVzcyBpbnRlcm5ldCBzZXJ2aWNlIChkYWlseSksIG9uZSAoMSkgZnJlZSBwcmVtaXVtIHJpZGUgYXQgQWR2ZW50dXJlZG9tZSwgdHdvICgyKSBmaXRuZXNzIHBhc3NlcyAoZGFpbHkpLCBidXkgMSwgZ2V0IDEgZHJpbmsgYXQgU2xvdHMgQSBGdW4gb3IgV2VzdCBCYXIsIHR3byAoMikgZnJlZSBNaWR3YXkgZ2FtZXMsIDgwMC9sb2NhbCBjYWxscyB1cCB0byAzMCBtaW51dGVzIG1heGltdW0gcGVyIGNhbGwgKGRhaWx5KSwgcmVzb3J0IGZ1bmJvb2sgdmFsdWVkIGF0IGFwcHJveGltYXRlbHkgJDEwMC7UAkNpcmN1cyBDaXJjdXM6Jm5ic3A7JDE1IHJlc29ydCBmZWUgaW5jbHVkZXMgaW4tcm9vbSB3aXJlbGVzcyBpbnRlcm5ldCBzZXJ2aWNlIChkYWlseSksIG9uZSAoMSkgZnJlZSBwcmVtaXVtIHJpZGUgYXQgQWR2ZW50dXJlZG9tZSwgdHdvICgyKSBmaXRuZXNzIHBhc3NlcyAoZGFpbHkpLCBidXkgMSwgZ2V0IDEgZHJpbmsgYXQgU2xvdHMgQSBGdW4gb3IgV2VzdCBCYXIsIHR3byAoMikgZnJlZSBNaWR3YXkgZ2FtZXMsIDgwMC9sb2NhbCBjYWxscyB1cCB0byAzMCBtaW51dGVzIG1heGltdW0gcGVyIGNhbGwgKGRhaWx5KSwgcmVzb3J0IGZ1bmJvb2sgdmFsdWVkIGF0IGFwcHJveGltYXRlbHkgJDEwMC4AZAIKD2QWAmYPZBYCZg8VDCRodHRwczovL3Jlc3dlYi5wYXNza2V5LmNvbS9nby9TQ0VTUzYoVGhlIENvc21vcG9saXRhbiBvZiBMYXMgVmVnYXMtIENpdHkgUm9vbSRTZWxlY3QgaG90ZWwgdG8gdmlldyBwcmV2YWlsaW5nIHJhdGUkU2VsZWN0IGhvdGVsIHRvIHZpZXcgcHJldmFpbGluZyByYXRlJFNlbGVjdCBob3RlbCB0byB2aWV3IHByZXZhaWxpbmcgcmF0ZSRTZWxlY3QgaG90ZWwgdG8gdmlldyBwcmV2YWlsaW5nIHJhdGUkU2VsZWN0IGhvdGVsIHRvIHZpZXcgcHJldmFpbGluZyByYXRlICpSYXRlcyBzaG93biBpbmNsdWRlIHJlc29ydCBmZWUuAOIBQ29zbW9wb2xpdGFuOiAkMzAgcmVzb3J0IGZlZSBpbmNsdWRlcyBoaWdoLXNwZWVkIEludGVybmV0IGFjY2VzcyAoaW4tcm9vbSBhbmQgb24gY2FtcHVzKTsgMjQgaG91ciBmaXRuZXNzIGNlbnRlciBhY2Nlc3M7IHVubGltaXRlZCBsb2NhbCwgdG9sbCBmcmVlIGFuZCBkb21lc3RpYyBsb25nIGRpc3RhbmNlIGNhbGxzOyB0ZW5uaXMgY291cnQgYWNjZXNzIChiYXNlZCBvbiBhdmFpbGFiaWxpdHkpLuIBQ29zbW9wb2xpdGFuOiAkMzAgcmVzb3J0IGZlZSBpbmNsdWRlcyBoaWdoLXNwZWVkIEludGVybmV0IGFjY2VzcyAoaW4tcm9vbSBhbmQgb24gY2FtcHVzKTsgMjQgaG91ciBmaXRuZXNzIGNlbnRlciBhY2Nlc3M7IHVubGltaXRlZCBsb2NhbCwgdG9sbCBmcmVlIGFuZCBkb21lc3RpYyBsb25nIGRpc3RhbmNlIGNhbGxzOyB0ZW5uaXMgY291cnQgYWNjZXNzIChiYXNlZCBvbiBhdmFpbGFiaWxpdHkpLgBkAgsPZBYCZg9kFgJmDxUMJGh0dHBzOi8vcmVzd2ViLnBhc3NrZXkuY29tL2dvL1NDRVNTNi1UaGUgQ29zbW9wb2xpdGFuIG9mIExhcyBWZWdhcy0gVGVycmFjZSBTdHVkaW8kU2VsZWN0IGhvdGVsIHRvIHZpZXcgcHJldmFpbGluZyByYXRlJFNlbGVjdCBob3RlbCB0byB2aWV3IHByZXZhaWxpbmcgcmF0ZSRTZWxlY3QgaG90ZWwgdG8gdmlldyBwcmV2YWlsaW5nIHJhdGUkU2VsZWN0IGhvdGVsIHRvIHZpZXcgcHJldmFpbGluZyByYXRlJFNlbGVjdCBob3RlbCB0byB2aWV3IHByZXZhaWxpbmcgcmF0ZSAqUmF0ZXMgc2hvd24gaW5jbHVkZSByZXNvcnQgZmVlLgDiAUNvc21vcG9saXRhbjogJDMwIHJlc29ydCBmZWUgaW5jbHVkZXMgaGlnaC1zcGVlZCBJbnRlcm5ldCBhY2Nlc3MgKGluLXJvb20gYW5kIG9uIGNhbXB1cyk7IDI0IGhvdXIgZml0bmVzcyBjZW50ZXIgYWNjZXNzOyB1bmxpbWl0ZWQgbG9jYWwsIHRvbGwgZnJlZSBhbmQgZG9tZXN0aWMgbG9uZyBkaXN0YW5jZSBjYWxsczsgdGVubmlzIGNvdXJ0IGFjY2VzcyAoYmFzZWQgb24gYXZhaWxhYmlsaXR5KS7iAUNvc21vcG9saXRhbjogJDMwIHJlc29ydCBmZWUgaW5jbHVkZXMgaGlnaC1zcGVlZCBJbnRlcm5ldCBhY2Nlc3MgKGluLXJvb20gYW5kIG9uIGNhbXB1cyk7IDI0IGhvdXIgZml0bmVzcyBjZW50ZXIgYWNjZXNzOyB1bmxpbWl0ZWQgbG9jYWwsIHRvbGwgZnJlZSBhbmQgZG9tZXN0aWMgbG9uZyBkaXN0YW5jZSBjYWxsczsgdGVubmlzIGNvdXJ0IGFjY2VzcyAoYmFzZWQgb24gYXZhaWxhYmlsaXR5KS4AZAIMD2QWAmYPZBYCZg8VDBNodHRwOi8vd3d3LnRoZWQuY29tD1RoZSBEIExhcyBWZWdhcwQkOTkqBCQ5OSoEJDk5KgUkMTA5KgUkMTA5KjcqUmF0ZXMgc2hvd24gaW5jbHVkZSByZXNvcnQgZmVlLiBCb29raW5nIGNvZGUgLSBEQ0VTMTYuAHtUaGUgRDogJDIwIHJlc29ydCBmZWUgaW5jbHVkZXM6IGluLXJvb20gd2ktZmksJm5ic3A7ZGlzY291bnRlZCBzaG93Jm5ic3A7dGlja2V0cywgYW5kIGZyZWUgbG9jYWwgYW5kIHRvbGwgZnJlZSBwaG9uZSBjYWxscy57VGhlIEQ6ICQyMCByZXNvcnQgZmVlIGluY2x1ZGVzOiBpbi1yb29tIHdpLWZpLCZuYnNwO2Rpc2NvdW50ZWQgc2hvdyZuYnNwO3RpY2tldHMsIGFuZCBmcmVlIGxvY2FsIGFuZCB0b2xsIGZyZWUgcGhvbmUgY2FsbHMuAGQCDQ9kFgJmD2QWAmYPFQwjaHR0cHM6Ly9yZXN3ZWIucGFzc2tleS5jb20vZ28vc2NlczYkRGVsYW5vIExhcyBWZWdhcyAoZm9ybWVybHkgVEhFaG90ZWwpBSQyMjcqI1NlbGVjdCBob3RlbCBmb3IgZXhjbHVzaXZlIENFUyByYXRlI1NlbGVjdCBob3RlbCBmb3IgZXhjbHVzaXZlIENFUyByYXRlBSQyODcqBSQyMDcqICpSYXRlcyBzaG93biBpbmNsdWRlIHJlc29ydCBmZWUuAPABRGVsYW5vIExhcyBWZWdhczogJDI5IHJlc29ydCBmZWUgaW5jbHVkZXMgaW4tcm9vbSB3aXJlbGVzcyBJbnRlcm5ldCwgY2FyZGlvIGNlbnRlciBhZG1pc3Npb24gKGRvZXMgbm90IGluY2x1ZGUgU3BhIGFjY2VzcyksIGRhaWx5IG5ld3NwYXBlciwgbG9jYWwgYW5kIDgwMC1udW1iZXIgY2FsbHMsIG91dGdvaW5nIGZheGVzIGFuZCBib2FyZGluZyBwYXNzIHByaW50aW5nIGF0IHRoZSBIb3RlbCBCdXNpbmVzcyBDZW50ZXIu8AFEZWxhbm8gTGFzIFZlZ2FzOiAkMjkgcmVzb3J0IGZlZSBpbmNsdWRlcyBpbi1yb29tIHdpcmVsZXNzIEludGVybmV0LCBjYXJkaW8gY2VudGVyIGFkbWlzc2lvbiAoZG9lcyBub3QgaW5jbHVkZSBTcGEgYWNjZXNzKSwgZGFpbHkgbmV3c3BhcGVyLCBsb2NhbCBhbmQgODAwLW51bWJlciBjYWxscywgb3V0Z29pbmcgZmF4ZXMgYW5kIGJvYXJkaW5nIHBhc3MgcHJpbnRpbmcgYXQgdGhlIEhvdGVsIEJ1c2luZXNzIENlbnRlci4AZAIOD2QWAmYPZBYCZg8VDFlodHRwczovL2Jvb2tpbmdzLmlob3RlbGllci5jb20vYm9va2luZ3MuanNwP2hvdGVsSWQ9OTczMzImaWRlbnRpZmllcj0yMDE2SW50ZXJuYXRpb25hbENFUw5Eb3dudG93biBHcmFuZAQkODAqBCQ4MCoFJDE1MyoFJDE1MyoEJDgwKiAqUmF0ZXMgc2hvd24gaW5jbHVkZSByZXNvcnQgZmVlLgCGA0Rvd250b3duIEdyYW5kOiAkMTggcmVzb3J0IGZlZSBpbmNsdWRlcyBjb21wbGltZW50YXJ5IHBhcmtpbmcsIGZyZWUgZ3Vlc3Qgcm9vbSBXaSBGaSwgY29tcGxpbWVudGFyeSBib3R0bGVkIHdhdGVyIHVwb24gYXJyaXZhbCwgJmxkcXVvO0dyYW5kIEV4cGVyaWVuY2UmcmRxdW87IGJvb2sgZmlsbGVkIHdpdGggZGlzY291bnRzIGF0IGhvdGVsIG91dGxldHMsIGNvbXBsaW1lbnRhcnkgY29mZmVlIGVhY2ggbW9ybmluZywgZnJlZSBsb2NhbCBhbmQgdG9sbCBmcmVlIGNhbGxzLCBhY2Nlc3MgdG8gdGhlIGZpdG5lc3Mgcm9vbSBhbmQgb3V0ZG9vciBwb29sIChzZWFzb25hbCksIGFuZCBjb21wbGltZW50YXJ5IHNodXR0bGUgc2VydmljZSB0byBkb3dudG93biBhcmVhIGF0dHJhY3Rpb25zLoYDRG93bnRvd24gR3JhbmQ6ICQxOCByZXNvcnQgZmVlIGluY2x1ZGVzIGNvbXBsaW1lbnRhcnkgcGFya2luZywgZnJlZSBndWVzdCByb29tIFdpIEZpLCBjb21wbGltZW50YXJ5IGJvdHRsZWQgd2F0ZXIgdXBvbiBhcnJpdmFsLCAmbGRxdW87R3JhbmQgRXhwZXJpZW5jZSZyZHF1bzsgYm9vayBmaWxsZWQgd2l0aCBkaXNjb3VudHMgYXQgaG90ZWwgb3V0bGV0cywgY29tcGxpbWVudGFyeSBjb2ZmZWUgZWFjaCBtb3JuaW5nLCBmcmVlIGxvY2FsIGFuZCB0b2xsIGZyZWUgY2FsbHMsIGFjY2VzcyB0byB0aGUgZml0bmVzcyByb29tIGFuZCBvdXRkb29yIHBvb2wgKHNlYXNvbmFsKSwgYW5kIGNvbXBsaW1lbnRhcnkgc2h1dHRsZSBzZXJ2aWNlIHRvIGRvd250b3duIGFyZWEgYXR0cmFjdGlvbnMuAGQCDw9kFgJmD2QWAmYPFQxiaHR0cDovL3d3dy5oaWx0b24uY29tL2VuL2hpL2dyb3Vwcy9wZXJzb25hbGl6ZWQvTC9MQVNDU0dWLUNFU0UxNi0yMDE2MDEwMS9pbmRleC5qaHRtbD9XVC5tY19pZD1QT0czRWxhcmEtIGEgSGlsdG9uIEdyYW5kIFZhY2F0aW9ucyBIb3RlbC0gSnVuaW9yIFN1aXRlBCQzNTUEJDM1NQQkMzU1BCQzNTUEJDE0OQAbPGRpdiBzdHlsZT0iZGlzcGxheTpub25lOyI+AAAGPC9kaXY+ZAIQD2QWAmYPZBYCZg8VDGJodHRwOi8vd3d3LmhpbHRvbi5jb20vZW4vaGkvZ3JvdXBzL3BlcnNvbmFsaXplZC9ML0xBU0NTR1YtQ0VTRTE2LTIwMTYwMTAxL2luZGV4LmpodG1sP1dULm1jX2lkPVBPRzhFbGFyYS0gYSBIaWx0b24gR3JhbmQgVmFjYXRpb25zIEhvdGVsLSBPbmUgYmVkcm9vbSBzdWl0ZQQkMzg1BCQzODUEJDM4NQQkMzg1BCQxNjkAGzxkaXYgc3R5bGU9ImRpc3BsYXk6bm9uZTsiPgAABjwvZGl2PmQCEQ9kFgJmD2QWAmYPFQxiaHR0cDovL3d3dy5oaWx0b24uY29tL2VuL2hpL2dyb3Vwcy9wZXJzb25hbGl6ZWQvTC9MQVNDU0dWLUNFU0UxNi0yMDE2MDEwMS9pbmRleC5qaHRtbD9XVC5tY19pZD1QT0cyRWxhcmEtIGEgSGlsdG9uIEdyYW5kIFZhY2F0aW9ucyBIb3RlbC0gU3R1ZGlvIFJvb20EJDMyMAQkMzIwBCQzMjAEJDMyMAQkMTE5ABs8ZGl2IHN0eWxlPSJkaXNwbGF5Om5vbmU7Ij4AAAY8L2Rpdj5kAhIPZBYCZg9kFgJmDxUMSmh0dHBzOi8vcmVzd2ViLnBhc3NrZXkuY29tL1Jlc3dlYi5kbz9tb2RlPXdlbGNvbWVfZ2lfbmV3Jmdyb3VwSUQ9NTA3MDM2MjIgDkVuY29yZSBhdCBXeW5uI1NlbGVjdCBob3RlbCBmb3IgZXhjbHVzaXZlIENFUyByYXRlI1NlbGVjdCBob3RlbCBmb3IgZXhjbHVzaXZlIENFUyByYXRlI1NlbGVjdCBob3RlbCBmb3IgZXhjbHVzaXZlIENFUyByYXRlI1NlbGVjdCBob3RlbCBmb3IgZXhjbHVzaXZlIENFUyByYXRlI1NlbGVjdCBob3RlbCBmb3IgZXhjbHVzaXZlIENFUyByYXRlABs8ZGl2IHN0eWxlPSJkaXNwbGF5Om5vbmU7Ij4AAAY8L2Rpdj5kAhMPZBYCZg9kFgJmDxUMSWh0dHBzOi8vcmVzd2ViLnBhc3NrZXkuY29tL1Jlc3dlYi5kbz9tb2RlPXdlbGNvbWVfZWlfbmV3JmV2ZW50SUQ9MTM4OTA1NzkJRXhjYWxpYnVyBCQ3MyoFJDE2MyoFJDE2MyoFJDEwNioEJDY2KiAqUmF0ZXMgc2hvd24gaW5jbHVkZSByZXNvcnQgZmVlLgCQAkV4Y2FsaWJ1cjogJDE4IHJlc29ydCBmZWUgaW5jbHVkZXMgaW4tcm9vbSB3aXJlZCBJbnRlcm5ldCBzZXJ2aWNlLCBXaS1GaSBhdmFpbGFibGUgaW4gbWVldGluZyBzcGFjZSBhbmQgcHVibGljIGFyZWFzLCBhY2Nlc3MgdG8mbmJzcDtFeGNhbGlidXIgU3BhIEZpdG5lc3MgQ2VudGVyLCBkYWlseSBuZXdzcGFwZXIgYXZhaWxhYmxlIGZvciBwaWNrLXVwLCB1bmxpbWl0ZWQgbG9jYWwsIHRvbGwtZnJlZSBhbmQgZG9tZXN0aWMgbG9uZyBkaXN0YW5jZSB0ZWxlcGhvbmUgY2FsbHMukAJFeGNhbGlidXI6ICQxOCByZXNvcnQgZmVlIGluY2x1ZGVzIGluLXJvb20gd2lyZWQgSW50ZXJuZXQgc2VydmljZSwgV2ktRmkgYXZhaWxhYmxlIGluIG1lZXRpbmcgc3BhY2UgYW5kIHB1YmxpYyBhcmVhcywgYWNjZXNzIHRvJm5ic3A7RXhjYWxpYnVyIFNwYSBGaXRuZXNzIENlbnRlciwgZGFpbHkgbmV3c3BhcGVyIGF2YWlsYWJsZSBmb3IgcGljay11cCwgdW5saW1pdGVkIGxvY2FsLCB0b2xsLWZyZWUgYW5kIGRvbWVzdGljIGxvbmcgZGlzdGFuY2UgdGVsZXBob25lIGNhbGxzLgBkAhQPZBYCZg9kFgJmDxUMTWh0dHA6Ly93d3cudG90YWxyZXdhcmRzLmNvbS9ob3RlbC1yZXNlcnZhdGlvbnM/cHJvcENvZGU9RkxWJmdyb3VwQ29kZT1ERkNFUzYgEkZsYW1pbmdvIExhcyBWZWdhcyNTZWxlY3QgaG90ZWwgZm9yIGV4Y2x1c2l2ZSBDRVMgcmF0ZSNTZWxlY3QgaG90ZWwgZm9yIGV4Y2x1c2l2ZSBDRVMgcmF0ZSNTZWxlY3QgaG90ZWwgZm9yIGV4Y2x1c2l2ZSBDRVMgcmF0ZSNTZWxlY3QgaG90ZWwgZm9yIGV4Y2x1c2l2ZSBDRVMgcmF0ZSNTZWxlY3QgaG90ZWwgZm9yIGV4Y2x1c2l2ZSBDRVMgcmF0ZVFDRVMgc2h1dHRsZSBzZXJ2aWNlIG5vdCBwcm92aWRlZC4gTGFzIFZlZ2FzIE1vbm9yYWlsIGFjY2Vzc2libGUgdG8vZnJvbSB0aGUgTFZDQy4AjwFGbGFtaW5nbzogJDIwIHJlc29ydCBmZWUgaW5jbHVkZXMgZGFpbHkgRml0bmVzcyBDZW50ZXIgYWRtaXNzaW9uIGZvciB0d28gZ3Vlc3RzOyBkYWlseSBpbi1yb29tIEludGVybmV0IGFjY2VzcyBmb3Igb25lIGRldmljZTsgYWxsIGxvY2FsIGNhbGxzLo8BRmxhbWluZ286ICQyMCByZXNvcnQgZmVlIGluY2x1ZGVzIGRhaWx5IEZpdG5lc3MgQ2VudGVyIGFkbWlzc2lvbiBmb3IgdHdvIGd1ZXN0czsgZGFpbHkgaW4tcm9vbSBJbnRlcm5ldCBhY2Nlc3MgZm9yIG9uZSBkZXZpY2U7IGFsbCBsb2NhbCBjYWxscy4AZAIVD2QWAmYPZBYCZg8VDHJodHRwczovL2Jvb2tnbmx2LmdvbGRlbm51Z2dldC5jb20vY2dpLWJpbi9sYW5zYXdlYj9QUk9DRlVOK1JOK1JFU05FVCtSRVMrZnVuY3Bhcm1zK1VQKEEyNTYwKTo7WkdTQ0VTMTY7MTsxOzswMTA7Py8NR29sZGVuIE51Z2dldAQkOTkqBSQxMzkqBSQxMzkqBSQxMzkqBSQxMzkqICpSYXRlcyBzaG93biBpbmNsdWRlIHJlc29ydCBmZWUuAOUDR29sZGVuIE51Z2dldDogJDIwIHJlc29ydCBmZWUgaW5jbHVkZXMgYWNjZXNzIGZvciB0d28gKDIpIHRvIHRoZSBGaXRuZXNzIENlbnRlciBkYWlseSAoZG9lcyBub3QgaW5jbHVkZSB0aGUgd2V0IGFyZWFzKSwgYmFzaWMsIGluLXJvb20gZGFpbHkgSW50ZXJuZXQgYWNjZXNzIGZvciB0d28gKDIpIGRldmljZXMgZGFpbHksIHR3byAoMikgYm90dGxlZCB3YXRlcnMsIGRhaWx5ICh3YXRlcnMgd2lsbCBiZSBsb2NhdGVkIGluIHRoZSBndWVzdCByb29tcyksIGNvbXBsaW1lbnRhcnkgcGFya2luZywgY29tcGxpbWVudGFyeSBhaXJsaW5lIGJvYXJkaW5nIHBhc3NlcyBwcmludGluZyB2aWEgdGhlIEZyb250IERlc2sgb3IgQm94IE9mZmljZSAyNC83LCBjb21wbGltZW50YXJ5IG5ld3NwYXBlcnMgYXZhaWxhYmxlIGluIHJlc3BlY3RpdmUgdG93ZXIgbG9iYnkgZnJvbSA2YW0gdG8gMTBhbSBkYWlseSBhbmQgZG93bnRvd24gZGVzdGluYXRpb24gY291cG9ucy7lA0dvbGRlbiBOdWdnZXQ6ICQyMCByZXNvcnQgZmVlIGluY2x1ZGVzIGFjY2VzcyBmb3IgdHdvICgyKSB0byB0aGUgRml0bmVzcyBDZW50ZXIgZGFpbHkgKGRvZXMgbm90IGluY2x1ZGUgdGhlIHdldCBhcmVhcyksIGJhc2ljLCBpbi1yb29tIGRhaWx5IEludGVybmV0IGFjY2VzcyBmb3IgdHdvICgyKSBkZXZpY2VzIGRhaWx5LCB0d28gKDIpIGJvdHRsZWQgd2F0ZXJzLCBkYWlseSAod2F0ZXJzIHdpbGwgYmUgbG9jYXRlZCBpbiB0aGUgZ3Vlc3Qgcm9vbXMpLCBjb21wbGltZW50YXJ5IHBhcmtpbmcsIGNvbXBsaW1lbnRhcnkgYWlybGluZSBib2FyZGluZyBwYXNzZXMgcHJpbnRpbmcgdmlhIHRoZSBGcm9udCBEZXNrIG9yIEJveCBPZmZpY2UgMjQvNywgY29tcGxpbWVudGFyeSBuZXdzcGFwZXJzIGF2YWlsYWJsZSBpbiByZXNwZWN0aXZlIHRvd2VyIGxvYmJ5IGZyb20gNmFtIHRvIDEwYW0gZGFpbHkgYW5kIGRvd250b3duIGRlc3RpbmF0aW9uIGNvdXBvbnMuAGQCFg9kFgJmD2QWAmYPFQxNaHR0cDovL3d3dy50b3RhbHJld2FyZHMuY29tL2hvdGVsLXJlc2VydmF0aW9ucz9wcm9wQ29kZT1MQVMmZ3JvdXBDb2RlPURIQ0VTNiASSGFycmFoJ3MgTGFzIFZlZ2FzI1NlbGVjdCBob3RlbCBmb3IgZXhjbHVzaXZlIENFUyByYXRlI1NlbGVjdCBob3RlbCBmb3IgZXhjbHVzaXZlIENFUyByYXRlI1NlbGVjdCBob3RlbCBmb3IgZXhjbHVzaXZlIENFUyByYXRlI1NlbGVjdCBob3RlbCBmb3IgZXhjbHVzaXZlIENFUyByYXRlI1NlbGVjdCBob3RlbCBmb3IgZXhjbHVzaXZlIENFUyByYXRlUUNFUyBzaHV0dGxlIHNlcnZpY2Ugbm90IHByb3ZpZGVkLiBMYXMgVmVnYXMgTW9ub3JhaWwgYWNjZXNzaWJsZSB0by9mcm9tIHRoZSBMVkNDLgCUAUhhcnJhaCYjMzk7czogJDIyIHJlc29ydCBmZWUgaW5jbHVkZXMgZGFpbHkgRml0bmVzcyBDZW50ZXIgYWRtaXNzaW9uIGZvciB0d28gZ3Vlc3RzOyBkYWlseSBpbi1yb29tIEludGVybmV0IGFjY2VzcyBmb3IgdHdvIGRldmljZXM7IGFsbCBsb2NhbCBjYWxscy6UAUhhcnJhaCYjMzk7czogJDIyIHJlc29ydCBmZWUgaW5jbHVkZXMgZGFpbHkgRml0bmVzcyBDZW50ZXIgYWRtaXNzaW9uIGZvciB0d28gZ3Vlc3RzOyBkYWlseSBpbi1yb29tIEludGVybmV0IGFjY2VzcyBmb3IgdHdvIGRldmljZXM7IGFsbCBsb2NhbCBjYWxscy4AZAIXD2QWAmYPZBYCZg8VDGJodHRwOi8vd3d3LmhpbHRvbi5jb20vZW4vaGkvZ3JvdXBzL3BlcnNvbmFsaXplZC9ML0xBU0xWR1YtQ0VTSDE2LTIwMTYwMTAxL2luZGV4LmpodG1sP1dULm1jX2lkPVBPRy1IaWx0b24gR3JhbmQgVmFjYXRpb25zIFN1aXRlcyBMYXMgVmVnYXMtIDEgQlIEJDQyNAQkNDI0BCQ0MjQEJDQyNAQkMTM5ABs8ZGl2IHN0eWxlPSJkaXNwbGF5Om5vbmU7Ij4AAAY8L2Rpdj5kAhgPZBYCZg9kFgJmDxUMYmh0dHA6Ly93d3cuaGlsdG9uLmNvbS9lbi9oaS9ncm91cHMvcGVyc29uYWxpemVkL0wvTEFTTFZHVi1DRVNIMTYtMjAxNjAxMDEvaW5kZXguamh0bWw/V1QubWNfaWQ9UE9HL0hpbHRvbiBHcmFuZCBWYWNhdGlvbnMgU3VpdGVzIExhcyBWZWdhcy0gc3R1ZGlvBCQzNjcEJDM2NwQkMzY3BCQzNjcEJDEwOQAbPGRpdiBzdHlsZT0iZGlzcGxheTpub25lOyI+AAAGPC9kaXY+ZAIZD2QWAmYPZBYCZg8VDGJodHRwOi8vd3d3LmhpbHRvbi5jb20vZW4vaGkvZ3JvdXBzL3BlcnNvbmFsaXplZC9ML0xBU1ZTR1YtQ0VTQjE2LTIwMTYwMTAxL2luZGV4LmpodG1sP1dULm1jX2lkPVBPRzNIaWx0b24gR3JhbmQgVmFjYXRpb25zIFN1aXRlcyBvbiB0aGUgTFYgU3RyaXAtIDEgQlIEJDQzOQQkNDM5BCQ0MzkEJDQzOQQkMTM1ABs8ZGl2IHN0eWxlPSJkaXNwbGF5Om5vbmU7Ij4AAAY8L2Rpdj5kAhoPZBYCZg9kFgJmDxUMYmh0dHA6Ly93d3cuaGlsdG9uLmNvbS9lbi9oaS9ncm91cHMvcGVyc29uYWxpemVkL0wvTEFTVlNHVi1DRVNCMTYtMjAxNjAxMDEvaW5kZXguamh0bWw/V1QubWNfaWQ9UE9HNUhpbHRvbiBHcmFuZCBWYWNhdGlvbnMgU3VpdGVzIG9uIHRoZSBMViBTdHJpcC0gc3R1ZGlvBCQzNTMEJDM1MwQkMzUzBCQzNTMEJDEwNQAbPGRpdiBzdHlsZT0iZGlzcGxheTpub25lOyI+AAAGPC9kaXY+ZAIbD2QWAmYPZBYCZg8VDE1odHRwOi8vd3d3LnRvdGFscmV3YXJkcy5jb20vaG90ZWwtcmVzZXJ2YXRpb25zP3Byb3BDb2RlPUlMViZncm91cENvZGU9RFFDRVM2ICFUaGUgTElOUSBIb3RlbCAmIENhc2lubyBMYXMgVmVnYXMjU2VsZWN0IGhvdGVsIGZvciBleGNsdXNpdmUgQ0VTIHJhdGUjU2VsZWN0IGhvdGVsIGZvciBleGNsdXNpdmUgQ0VTIHJhdGUjU2VsZWN0IGhvdGVsIGZvciBleGNsdXNpdmUgQ0VTIHJhdGUjU2VsZWN0IGhvdGVsIGZvciBleGNsdXNpdmUgQ0VTIHJhdGUjU2VsZWN0IGhvdGVsIGZvciBleGNsdXNpdmUgQ0VTIHJhdGVRQ0VTIHNodXR0bGUgc2VydmljZSBub3QgcHJvdmlkZWQuIExhcyBWZWdhcyBNb25vcmFpbCBhY2Nlc3NpYmxlIHRvL2Zyb20gdGhlIExWQ0MuAIsBTElOUTogJDIwIHJlc29ydCBmZWUgaW5jbHVkZXMgZGFpbHkgRml0bmVzcyBDZW50ZXIgYWRtaXNzaW9uIGZvciB0d28gZ3Vlc3RzOyBkYWlseSBpbi1yb29tIEludGVybmV0IGFjY2VzcyBmb3Igb25lIGRldmljZTsgYWxsIGxvY2FsIGNhbGxzLosBTElOUTogJDIwIHJlc29ydCBmZWUgaW5jbHVkZXMgZGFpbHkgRml0bmVzcyBDZW50ZXIgYWRtaXNzaW9uIGZvciB0d28gZ3Vlc3RzOyBkYWlseSBpbi1yb29tIEludGVybmV0IGFjY2VzcyBmb3Igb25lIGRldmljZTsgYWxsIGxvY2FsIGNhbGxzLgBkAhwPZBYCZg9kFgJmDxUMJmh0dHBzOi8vcmVzd2ViLnBhc3NrZXkuY29tL2dvL0NFUzIwMTZQBUx1eG9yBSQxMDMqBSQyMTAqBSQyMTAqBSQxMjMqBCQ4MyogKlJhdGVzIHNob3duIGluY2x1ZGUgcmVzb3J0IGZlZS4AhgJMdXhvcjogJDI1IHJlc29ydCBmZWUgaW5jbHVkZXMgaW4tcm9vbSB3aXJlZCBJbnRlcm5ldCBzZXJ2aWNlLCBXaS1GaSBhdmFpbGFibGUgaW4gbWVldGluZyBzcGFjZSBhbmQgcHVibGljIGFyZWFzLCBhY2Nlc3MgdG8mbmJzcDtOdXJ0dXJlIEZpdG5lc3MgQ2VudGVyLCBkYWlseSBuZXdzcGFwZXIgYXZhaWxhYmxlIGZvciBwaWNrLXVwLCB1bmxpbWl0ZWQgbG9jYWwsIHRvbGwtZnJlZSBhbmQgZG9tZXN0aWMgbG9uZyBkaXN0YW5jZSB0ZWxlcGhvbmUgY2FsbHMuhgJMdXhvcjogJDI1IHJlc29ydCBmZWUgaW5jbHVkZXMgaW4tcm9vbSB3aXJlZCBJbnRlcm5ldCBzZXJ2aWNlLCBXaS1GaSBhdmFpbGFibGUgaW4gbWVldGluZyBzcGFjZSBhbmQgcHVibGljIGFyZWFzLCBhY2Nlc3MgdG8mbmJzcDtOdXJ0dXJlIEZpdG5lc3MgQ2VudGVyLCBkYWlseSBuZXdzcGFwZXIgYXZhaWxhYmxlIGZvciBwaWNrLXVwLCB1bmxpbWl0ZWQgbG9jYWwsIHRvbGwtZnJlZSBhbmQgZG9tZXN0aWMgbG9uZyBkaXN0YW5jZSB0ZWxlcGhvbmUgY2FsbHMuAGQCHQ9kFgJmD2QWAmYPFQwjaHR0cHM6Ly9yZXN3ZWIucGFzc2tleS5jb20vZ28vc2NlczYMTWFuZGFsYXkgQmF5BSQyMTcqBSQ0OTcqBSQ0OTcqBSQyMDcqBSQxMzcqICpSYXRlcyBzaG93biBpbmNsdWRlIHJlc29ydCBmZWUuAPYBTWFuZGFsYXkgQmF5OiZuYnNwOyQyOSByZXNvcnQgZmVlIGluY2x1ZGVzIGluLXJvb20gd2lyZWxlc3MgaW50ZXJuZXQsIGNhcmRpbyBjZW50ZXIgYWRtaXNzaW9uIChkb2VzIG5vdCBpbmNsdWRlIFNwYSBhY2Nlc3MpLCBkYWlseSBuZXdzcGFwZXIsJm5ic3A7bG9jYWwgYW5kIDgwMC1udW1iZXIgY2FsbHMsIG91dGdvaW5nIGZheGVzIGFuZCBib2FyZGluZyBwYXNzIHByaW50aW5nIGF0IHRoZSBIb3RlbCBCdXNpbmVzcyBDZW50ZXIu9gFNYW5kYWxheSBCYXk6Jm5ic3A7JDI5IHJlc29ydCBmZWUgaW5jbHVkZXMgaW4tcm9vbSB3aXJlbGVzcyBpbnRlcm5ldCwgY2FyZGlvIGNlbnRlciBhZG1pc3Npb24gKGRvZXMgbm90IGluY2x1ZGUgU3BhIGFjY2VzcyksIGRhaWx5IG5ld3NwYXBlciwmbmJzcDtsb2NhbCBhbmQgODAwLW51bWJlciBjYWxscywgb3V0Z29pbmcgZmF4ZXMgYW5kIGJvYXJkaW5nIHBhc3MgcHJpbnRpbmcgYXQgdGhlIEhvdGVsIEJ1c2luZXNzIENlbnRlci4AZAIeD2QWAmYPZBYCZg8VDElodHRwczovL3Jlc3dlYi5wYXNza2V5LmNvbS9SZXN3ZWIuZG8/bW9kZT13ZWxjb21lX2VpX25ldyZldmVudElEPTEzODkxOTEwCU1HTSBHcmFuZAUkMjc3KiNTZWxlY3QgaG90ZWwgZm9yIGV4Y2x1c2l2ZSBDRVMgcmF0ZSNTZWxlY3QgaG90ZWwgZm9yIGV4Y2x1c2l2ZSBDRVMgcmF0ZQUkMjc3KgUkMTU3KiAqUmF0ZXMgc2hvd24gaW5jbHVkZSByZXNvcnQgZmVlLgCvAk1HTSBHcmFuZDogJDI5IHJlc29ydCBmZWUgaW5jbHVkZXMgaW4tcm9vbSBoaWdoIHNwZWVkIGludGVybmV0IGFjY2VzcyAoaW4tcm9vbSksIGRhaWx5IG5ld3NwYXBlciBhdmFpbGFibGUgZm9yIHBpY2sgdXAsIHByaW50aW5nIG9mIGJvYXJkaW5nIHBhc3NlcywgY29waWVzLCBhbmQgZmF4ZXMgdXAgdG8gNSBwYWdlcyAoZXhjbHVkaW5nIGNvbG9yKSwgbm90YXJ5IHNlcnZpY2VzIGF0IHRoZSBCdXNpbmVzcyBDZW50ZXIsIHVubGltaXRlZCBsb2NhbCBhbmQgdG9sbCBmcmVlIGNhbGxzLCBhY2Nlc3MgdG8gdGhlIENhcmRpbyBSb29tLq8CTUdNIEdyYW5kOiAkMjkgcmVzb3J0IGZlZSBpbmNsdWRlcyBpbi1yb29tIGhpZ2ggc3BlZWQgaW50ZXJuZXQgYWNjZXNzIChpbi1yb29tKSwgZGFpbHkgbmV3c3BhcGVyIGF2YWlsYWJsZSBmb3IgcGljayB1cCwgcHJpbnRpbmcgb2YgYm9hcmRpbmcgcGFzc2VzLCBjb3BpZXMsIGFuZCBmYXhlcyB1cCB0byA1IHBhZ2VzIChleGNsdWRpbmcgY29sb3IpLCBub3Rhcnkgc2VydmljZXMgYXQgdGhlIEJ1c2luZXNzIENlbnRlciwgdW5saW1pdGVkIGxvY2FsIGFuZCB0b2xsIGZyZWUgY2FsbHMsIGFjY2VzcyB0byB0aGUgQ2FyZGlvIFJvb20uAGQCHw9kFgJmD2QWAmYPFQxJaHR0cHM6Ly9yZXN3ZWIucGFzc2tleS5jb20vUmVzd2ViLmRvP21vZGU9d2VsY29tZV9laV9uZXcmZXZlbnRJRD0xMzg5MTY0NAZNaXJhZ2UFJDI4NyojU2VsZWN0IGhvdGVsIGZvciBleGNsdXNpdmUgQ0VTIHJhdGUjU2VsZWN0IGhvdGVsIGZvciBleGNsdXNpdmUgQ0VTIHJhdGUFJDI4NyoFJDE3NyogKlJhdGVzIHNob3duIGluY2x1ZGUgcmVzb3J0IGZlZS4AxgRNaXJhZ2U6Jm5ic3A7JDI5IHJlc29ydCBmZWUgaW5jbHVkZXMgaW4tcm9vbSBoaWdoLXNwZWVkIHdpcmVkIGFuZCB3aXJlbGVzcyBpbnRlcm5ldCBhY2Nlc3MsJm5ic3A7cHJvcGVydHktd2lkZSB3aXJlbGVzcyBpbnRlcm5ldCBhY2Nlc3MsIGFjY2VzcyB0byB0aGUgRml0bmVzcyBDZW50ZXIgYXQgdGhlIE1pcmFnZSBTcGEgKGFkZGl0aW9uYWwgZmVlcyBtYXkgYXBwbHkgZm9yIFNwYSBGYWNpbGl0aWVzKSwgZGFpbHkgbmV3c3BhcGVyIChhdmFpbGFibGUgYXQgSW1wdWxzZSBTdG9yZSBhbmQgYXQgdGhlIEJlbGwgRGVzayksIG5vdGFyeSBzZXJ2aWNlcyBhdCB0aGUgQnVzaW5lc3MgU2VydmljZSBDZW50ZXIsIHByaW50aW5nIG9mIGJvYXJkaW5nIHBhc3NlcyBhdCB0aGUgQnVzaW5lc3MgU2VydmljZSBDZW50ZXIsIGxvYmJ5IEludGVybmV0IEtpb3NrcyBhbmQgQ29uY2llcmdlLCBjb3BpZXMgYW5kIGZheGVzIGF0IHRoZSBCdXNpbmVzcyBTZXJ2aWNlIENlbnRlciAodXAgdG8gMTAgY29waWVzIG9yIGZheGVzIGluIGJsYWNrICZhbXA7IHdoaXRlIG9ubHkpLCB1bmxpbWl0ZWQgbG9jYWwgYW5kIHRvbGwtZnJlZSBjYWxscy7GBE1pcmFnZTombmJzcDskMjkgcmVzb3J0IGZlZSBpbmNsdWRlcyBpbi1yb29tIGhpZ2gtc3BlZWQgd2lyZWQgYW5kIHdpcmVsZXNzIGludGVybmV0IGFjY2VzcywmbmJzcDtwcm9wZXJ0eS13aWRlIHdpcmVsZXNzIGludGVybmV0IGFjY2VzcywgYWNjZXNzIHRvIHRoZSBGaXRuZXNzIENlbnRlciBhdCB0aGUgTWlyYWdlIFNwYSAoYWRkaXRpb25hbCBmZWVzIG1heSBhcHBseSBmb3IgU3BhIEZhY2lsaXRpZXMpLCBkYWlseSBuZXdzcGFwZXIgKGF2YWlsYWJsZSBhdCBJbXB1bHNlIFN0b3JlIGFuZCBhdCB0aGUgQmVsbCBEZXNrKSwgbm90YXJ5IHNlcnZpY2VzIGF0IHRoZSBCdXNpbmVzcyBTZXJ2aWNlIENlbnRlciwgcHJpbnRpbmcgb2YgYm9hcmRpbmcgcGFzc2VzIGF0IHRoZSBCdXNpbmVzcyBTZXJ2aWNlIENlbnRlciwgbG9iYnkgSW50ZXJuZXQgS2lvc2tzIGFuZCBDb25jaWVyZ2UsIGNvcGllcyBhbmQgZmF4ZXMgYXQgdGhlIEJ1c2luZXNzIFNlcnZpY2UgQ2VudGVyICh1cCB0byAxMCBjb3BpZXMgb3IgZmF4ZXMgaW4gYmxhY2sgJmFtcDsgd2hpdGUgb25seSksIHVubGltaXRlZCBsb2NhbCBhbmQgdG9sbC1mcmVlIGNhbGxzLgBkAiAPZBYCZg9kFgJmDxUMJmh0dHBzOi8vcmVzd2ViLnBhc3NrZXkuY29tL2dvL1hDRVMyMDE2C01vbnRlIENhcmxvBSQxMjMqBSQzMzMqBSQzMzMqBSQxNTMqBSQxMDMqICpSYXRlcyBzaG93biBpbmNsdWRlIHJlc29ydCBmZWUuAP0BTW9udGUgQ2FybG86ICQyNSByZXNvcnQgZmVlIGluY2x1ZGVzIGluLXJvb20gaW50ZXJuZXQsIEZpdG5lc3MgQ2VudGVyIGFjY2VzcywgdHdvICgyKSBkYWlseSBpbi1yb29tIEtFVVJJRyZyZWc7IGNvZmZlZSBwb2RzLCB0d28gKDIpIGRhaWx5IGJvdHRsZXMgb2YgTW9udGUgQ2FybG8gd2F0ZXIsIGRhaWx5IG5ld3NwYXBlciwgbG9jYWwgYW5kIHRvbGwtZnJlZSBjYWxscywgY29weWluZywgZmF4aW5nLCBib2FyZGluZyBwYXNzIHByaW50aW5nLv0BTW9udGUgQ2FybG86ICQyNSByZXNvcnQgZmVlIGluY2x1ZGVzIGluLXJvb20gaW50ZXJuZXQsIEZpdG5lc3MgQ2VudGVyIGFjY2VzcywgdHdvICgyKSBkYWlseSBpbi1yb29tIEtFVVJJRyZyZWc7IGNvZmZlZSBwb2RzLCB0d28gKDIpIGRhaWx5IGJvdHRsZXMgb2YgTW9udGUgQ2FybG8gd2F0ZXIsIGRhaWx5IG5ld3NwYXBlciwgbG9jYWwgYW5kIHRvbGwtZnJlZSBjYWxscywgY29weWluZywgZmF4aW5nLCBib2FyZGluZyBwYXNzIHByaW50aW5nLgBkAiEPZBYCZg9kFgJmDxUMJ2h0dHBzOi8vcmVzd2ViLnBhc3NrZXkuY29tL2dvL2Nlc21haW4xNhFOZXcgWW9yayBOZXcgWW9yawUkMTUzKgUkMzY5KgUkMzY5KgUkMTgzKgUkMTIzKiAqUmF0ZXMgc2hvd24gaW5jbHVkZSByZXNvcnQgZmVlLgDnA05ldyBZb3JrIE5ldyBZb3JrOiZuYnNwOyQyNSByZXNvcnQgZmVlIGluY2x1ZGVzJm5ic3A7IFdpLUZpIGF2YWlsYWJsZSBpbiBndWVzdCByb29tLCBtZWV0aW5nIHNwYWNlIGFuZCBwdWJsaWMgYXJlYXMsIGZpdG5lc3MgY2VudGVyIGFjY2VzcyAtIGV4Y2x1ZGVzIHVzYWdlIG9mIHNwYSBmYWNpbGl0aWVzLCB1bmxpbWl0ZWQgbG9jYWwgYW5kIHRvbGwgZnJlZSBjYWxscywgdXNlIG9mIGNhbGxpbmcgY2FyZHMsIGFuZCBjb2xsZWN0IGNhbGxzIGZyb20gZ3Vlc3Qgcm9vbTsgZG9tZXN0aWMgbG9uZyBkaXN0YW5jZSBjYWxscyBhdCAkLjEwIHBlciBtaW51dGUsIGZyZWUgYm9hcmRpbmcgcGFzcyBwcmludGluZywgbm90YXJ5IHNlcnZpY2VzLCBpbmNvbWluZyBhbmQgb3V0Z29pbmcgZmF4ZXMgKGxpbWl0IG9mIDUgcGFnZXMgdG90YWwpLCBkYWlseSBuZXdzcGFwZXIgd2lsbCBiZSBhdmFpbGFibGUgZm9yIHBpY2t1cCBhdCBvdXIgRXNzZW50aWFscyBzdG9yZS7nA05ldyBZb3JrIE5ldyBZb3JrOiZuYnNwOyQyNSByZXNvcnQgZmVlIGluY2x1ZGVzJm5ic3A7IFdpLUZpIGF2YWlsYWJsZSBpbiBndWVzdCByb29tLCBtZWV0aW5nIHNwYWNlIGFuZCBwdWJsaWMgYXJlYXMsIGZpdG5lc3MgY2VudGVyIGFjY2VzcyAtIGV4Y2x1ZGVzIHVzYWdlIG9mIHNwYSBmYWNpbGl0aWVzLCB1bmxpbWl0ZWQgbG9jYWwgYW5kIHRvbGwgZnJlZSBjYWxscywgdXNlIG9mIGNhbGxpbmcgY2FyZHMsIGFuZCBjb2xsZWN0IGNhbGxzIGZyb20gZ3Vlc3Qgcm9vbTsgZG9tZXN0aWMgbG9uZyBkaXN0YW5jZSBjYWxscyBhdCAkLjEwIHBlciBtaW51dGUsIGZyZWUgYm9hcmRpbmcgcGFzcyBwcmludGluZywgbm90YXJ5IHNlcnZpY2VzLCBpbmNvbWluZyBhbmQgb3V0Z29pbmcgZmF4ZXMgKGxpbWl0IG9mIDUgcGFnZXMgdG90YWwpLCBkYWlseSBuZXdzcGFwZXIgd2lsbCBiZSBhdmFpbGFibGUgZm9yIHBpY2t1cCBhdCBvdXIgRXNzZW50aWFscyBzdG9yZS4AZAIiD2QWAmYPZBYCZg8VDExodHRwOi8vd3d3LnRvdGFscmV3YXJkcy5jb20vaG90ZWwtcmVzZXJ2YXRpb25zP3Byb3BDb2RlPVBMViZncm91cENvZGU9RFBDRVM2D1BhcmlzIExhcyBWZWdhcyNTZWxlY3QgaG90ZWwgZm9yIGV4Y2x1c2l2ZSBDRVMgcmF0ZSNTZWxlY3QgaG90ZWwgZm9yIGV4Y2x1c2l2ZSBDRVMgcmF0ZSNTZWxlY3QgaG90ZWwgZm9yIGV4Y2x1c2l2ZSBDRVMgcmF0ZSNTZWxlY3QgaG90ZWwgZm9yIGV4Y2x1c2l2ZSBDRVMgcmF0ZSNTZWxlY3QgaG90ZWwgZm9yIGV4Y2x1c2l2ZSBDRVMgcmF0ZVFDRVMgc2h1dHRsZSBzZXJ2aWNlIG5vdCBwcm92aWRlZC4gTGFzIFZlZ2FzIE1vbm9yYWlsIGFjY2Vzc2libGUgdG8vZnJvbSB0aGUgTFZDQy4AjQFQYXJpczogJDIyIHJlc29ydCBmZWUgaW5jbHVkZXMgZGFpbHkgRml0bmVzcyBDZW50ZXIgYWRtaXNzaW9uIGZvciB0d28gZ3Vlc3RzOyBkYWlseSBpbi1yb29tIEludGVybmV0IGFjY2VzcyBmb3IgdHdvIGRldmljZXM7IGFsbCBsb2NhbCBjYWxscy6NAVBhcmlzOiAkMjIgcmVzb3J0IGZlZSBpbmNsdWRlcyBkYWlseSBGaXRuZXNzIENlbnRlciBhZG1pc3Npb24gZm9yIHR3byBndWVzdHM7IGRhaWx5IGluLXJvb20gSW50ZXJuZXQgYWNjZXNzIGZvciB0d28gZGV2aWNlczsgYWxsIGxvY2FsIGNhbGxzLgBkAiMPZBYCZg9kFgJmDxUMTWh0dHA6Ly93d3cudG90YWxyZXdhcmRzLmNvbS9ob3RlbC1yZXNlcnZhdGlvbnM/cHJvcENvZGU9UEhWJmdyb3VwQ29kZT1ETUNFUzYgGlBsYW5ldCBIb2xseXdvb2QgTGFzIFZlZ2FzI1NlbGVjdCBob3RlbCBmb3IgZXhjbHVzaXZlIENFUyByYXRlI1NlbGVjdCBob3RlbCBmb3IgZXhjbHVzaXZlIENFUyByYXRlI1NlbGVjdCBob3RlbCBmb3IgZXhjbHVzaXZlIENFUyByYXRlI1NlbGVjdCBob3RlbCBmb3IgZXhjbHVzaXZlIENFUyByYXRlI1NlbGVjdCBob3RlbCBmb3IgZXhjbHVzaXZlIENFUyByYXRlNVdhbGtpbmcgZGlzdGFuY2UgdG8gRWxhcmEvQ0VTIEhvdGVsIFNodXR0bGUgUm91dGUgMTAuAJgBUGxhbmV0IEhvbGx5d29vZDogJDIyIHJlc29ydCBmZWUgaW5jbHVkZXMgZGFpbHkgRml0bmVzcyBDZW50ZXIgYWRtaXNzaW9uIGZvciB0d28gZ3Vlc3RzOyBkYWlseSBpbi1yb29tIEludGVybmV0IGFjY2VzcyBmb3IgdHdvIGRldmljZXM7IGFsbCBsb2NhbCBjYWxscy6YAVBsYW5ldCBIb2xseXdvb2Q6ICQyMiByZXNvcnQgZmVlIGluY2x1ZGVzIGRhaWx5IEZpdG5lc3MgQ2VudGVyIGFkbWlzc2lvbiBmb3IgdHdvIGd1ZXN0czsgZGFpbHkgaW4tcm9vbSBJbnRlcm5ldCBhY2Nlc3MgZm9yIHR3byBkZXZpY2VzOyBhbGwgbG9jYWwgY2FsbHMuAGQCJA9kFgJmD2QWAmYPFQwvaHR0cHM6Ly93d3cucGxhemFob3RlbGNhc2luby5jb20vcmVzZXJ2YXRpb25zLyAeUGxhemEgSG90ZWwgJiBDYXNpbm8gTGFzIFZlZ2FzBCQ3NSoEJDkwKgQkOTAqBCQ3NSoEJDc1KjgqUmF0ZXMgc2hvd24gaW5jbHVkZSByZXNvcnQgZmVlLiBCb29raW5nIGNvZGUgLSBTUENFUzE2LgD6AVBsYXphOiAkMTUgcmVzb3J0IGZlZSBpbmNsdWRlczogc2VsZi92YWxldCBwYXJraW5nLCBhY2Nlc3MgdG8gdGhlIG5ld2x5IHJlbW9kZWxlZCBmaXRuZXNzIHJvb20sIHR3byBib3R0bGVzIG9mIHdhdGVyLCBpbi1yb29tIGludGVybmV0IGFjY2VzcywgbG9jYWwvODAwIG51bWJlciBwaG9uZSBjYWxscyBmcm9tIGd1ZXN0cm9vbSBhbmQgUGxhemEgUGVya3MgKGEgZnVuIGJvb2sgb2YgY291cG9ucyB2YWx1ZWQgYXQgb3ZlciAkMzAwLjAwKS76AVBsYXphOiAkMTUgcmVzb3J0IGZlZSBpbmNsdWRlczogc2VsZi92YWxldCBwYXJraW5nLCBhY2Nlc3MgdG8gdGhlIG5ld2x5IHJlbW9kZWxlZCBmaXRuZXNzIHJvb20sIHR3byBib3R0bGVzIG9mIHdhdGVyLCBpbi1yb29tIGludGVybmV0IGFjY2VzcywgbG9jYWwvODAwIG51bWJlciBwaG9uZSBjYWxscyBmcm9tIGd1ZXN0cm9vbSBhbmQgUGxhemEgUGVya3MgKGEgZnVuIGJvb2sgb2YgY291cG9ucyB2YWx1ZWQgYXQgb3ZlciAkMzAwLjAwKS4AZAIlD2QWAmYPZBYCZg8VDCNodHRwOi8vd3d3LnJlbmFpc3NhbmNlbGFzdmVnYXMuY29tLwtSZW5haXNzYW5jZQ48YnIgLz5Tb2xkIE91dA48YnIgLz5Tb2xkIE91dA48YnIgLz5Tb2xkIE91dA48YnIgLz5Tb2xkIE91dA48YnIgLz5Tb2xkIE91dChIb3RlbCBvbmx5IGFjY2VwdHMgZ3JvdXBzIG9mIDEwIG9yIG1vcmUuGzxkaXYgc3R5bGU9ImRpc3BsYXk6bm9uZTsiPgAABjwvZGl2PmQCJg9kFgJmD2QWAmYPFQxNaHR0cDovL3d3dy50b3RhbHJld2FyZHMuY29tL2hvdGVsLXJlc2VydmF0aW9ucz9wcm9wQ29kZT1STFYmZ3JvdXBDb2RlPURSQ0VTNiAmUmlvIEFsbC1TdWl0ZSBIb3RlbCAmIENhc2lubyBMYXMgVmVnYXMjU2VsZWN0IGhvdGVsIGZvciBleGNsdXNpdmUgQ0VTIHJhdGUjU2VsZWN0IGhvdGVsIGZvciBleGNsdXNpdmUgQ0VTIHJhdGUjU2VsZWN0IGhvdGVsIGZvciBleGNsdXNpdmUgQ0VTIHJhdGUjU2VsZWN0IGhvdGVsIGZvciBleGNsdXNpdmUgQ0VTIHJhdGUjU2VsZWN0IGhvdGVsIGZvciBleGNsdXNpdmUgQ0VTIHJhdGVpQ0VTIHNodXR0bGUgc2VydmljZSBub3QgcHJvdmlkZWQuIFJpbyBydW5zIGEgc2h1dHRsZSBldmVyeSAzMCBtaW51dGVzIHRvIExJTlEgSG90ZWwgYW5kIE1vbm9yYWlsIHN0YXRpb24uAIsBUmlvOiAkMjIgcmVzb3J0IGZlZSBpbmNsdWRlcyBkYWlseSBGaXRuZXNzIENlbnRlciBhZG1pc3Npb24gZm9yIHR3byBndWVzdHM7IGRhaWx5IGluLXJvb20gSW50ZXJuZXQgYWNjZXNzIGZvciB0d28gZGV2aWNlczsgYWxsIGxvY2FsIGNhbGxzLosBUmlvOiAkMjIgcmVzb3J0IGZlZSBpbmNsdWRlcyBkYWlseSBGaXRuZXNzIENlbnRlciBhZG1pc3Npb24gZm9yIHR3byBndWVzdHM7IGRhaWx5IGluLXJvb20gSW50ZXJuZXQgYWNjZXNzIGZvciB0d28gZGV2aWNlczsgYWxsIGxvY2FsIGNhbGxzLgBkAicPZBYCZg9kFgJmDxUMSWh0dHBzOi8vcmVzd2ViLnBhc3NrZXkuY29tL1Jlc3dlYi5kbz9tb2RlPXdlbGNvbWVfZWlfbmV3JmV2ZW50SUQ9MTM4OTE5MTAQU2lnbmF0dXJlIGF0IE1HTQUkMjU3KgUkNDU3KgUkNDE3KgUkMjM3KgUkMTU3KiAqUmF0ZXMgc2hvd24gaW5jbHVkZSByZXNvcnQgZmVlLgD2AVNpZ25hdHVyZTombmJzcDskMjkgcmVzb3J0IGZlZSBpbmNsdWRlcyBhY2Nlc3MgdG8gaW50ZXJuZXQgYWNjZXNzIChpbi1zdWl0ZSBhbmQgcHVibGljIGFyZWFzKSwgbG9jYWwgYW5kIDgwMCBudW1iZXIgcGhvbmUgY2FsbHMsIHR3byAoMikgYm90dGxlcyBvZiB3YXRlciBkYWlseSwgYWNjZXNzIHRvIFRoZSBTaWduYXR1cmUgRml0bmVzcyBDZW50ZXIsIGluLXN1aXRlIHByaXZhdGUgbGFiZWwgY29mZmVlLCB2YWxldCBwYXJraW5nLvYBU2lnbmF0dXJlOiZuYnNwOyQyOSByZXNvcnQgZmVlIGluY2x1ZGVzIGFjY2VzcyB0byBpbnRlcm5ldCBhY2Nlc3MgKGluLXN1aXRlIGFuZCBwdWJsaWMgYXJlYXMpLCBsb2NhbCBhbmQgODAwIG51bWJlciBwaG9uZSBjYWxscywgdHdvICgyKSBib3R0bGVzIG9mIHdhdGVyIGRhaWx5LCBhY2Nlc3MgdG8gVGhlIFNpZ25hdHVyZSBGaXRuZXNzIENlbnRlciwgaW4tc3VpdGUgcHJpdmF0ZSBsYWJlbCBjb2ZmZWUsIHZhbGV0IHBhcmtpbmcuAGQCKA9kFgJmD2QWAmYPFQxKaHR0cHM6Ly9yZXN3ZWIucGFzc2tleS5jb20vUmVzd2ViLmRvP21vZGU9d2VsY29tZV9laV9uZXcmZXZlbnRJRD0xMzg5MDA1NCANU0xTIExhcyBWZWdhcwUkMTc1KgUkMzI1KgUkNDE0KgUkNDE0KgUkMzE1KnIqUmF0ZXMgc2hvd24gaW5jbHVkZSByZXNvcnQgZmVlLiBDRVMgc2h1dHRsZSBzZXJ2aWNlIG5vdCBwcm92aWRlZC4gTGFzIFZlZ2FzIE1vbm9yYWlsIGFjY2Vzc2libGUgdG8vZnJvbSB0aGUgTFZDQy4AgAFTTFM6ICQyNSByZXNvcnQgZmVlIGluY2x1ZGVzIGFjY2VzcyB0byB0aGUgZml0bmVzcyBjZW50ZXIsIGxvY2FsLzgwMCBjYWxscywgV2lGaSBpbiB0aGUgZ3Vlc3Qgcm9vbSBhbmQgc2VsZi92YWxldCBwYXJraW5nLiZuYnNwO4ABU0xTOiAkMjUgcmVzb3J0IGZlZSBpbmNsdWRlcyBhY2Nlc3MgdG8gdGhlIGZpdG5lc3MgY2VudGVyLCBsb2NhbC84MDAgY2FsbHMsIFdpRmkgaW4gdGhlIGd1ZXN0IHJvb20gYW5kIHNlbGYvdmFsZXQgcGFya2luZy4mbmJzcDsAZAIpD2QWAmYPZBYCZg8VDCNodHRwczovL3Jlc3dlYi5wYXNza2V5LmNvbS9nby8xNkNFUw9UcmVhc3VyZSBJc2xhbmQFJDI3OSoFJDQxOSoFJDQxOSoFJDI3OSoFJDE0OSpbKlJhdGVzIHNob3duIGRvIG5vdCBpbmNsdWRlIG9wdGlvbmFsIHJlc29ydCBmZWUNCmVhcmx5IGJvb2tpbmcgcmF0ZSBlbmRzIFNlcHRlbWJlciAxLCAyMDE1LgCTAiQyOSByZXNvcnQgZmVlIGlzIG9wdGlvbmFsOiBJbiByb29tIGhpZ2ggc3BlZWQgaW50ZXJuZXQgYWNjZXNzICQyNS9kYXksIEFjY2VzcyB0byBmaXRuZXNzIGNlbnRlciwgRGFpbHkgbmV3c3BhcGVyIGF0IEd1ZXN0IFNlcnZpY2VzICQxLSQyL2RheSwgSW4gcm9vbSBsb2NhbCBhbmQgdG9sbCBmcmVlIHBob25lIGNhbGxzICQxL2NhbGwsIFByaW50ZWQgYWlybGluZSBib2FyZGluZyBwYXNzZXMgJDUvZWFjaCwgQ29waWVzIGFuZCBmYXhlcyAodXAgdG8gMTAgcGFnZXMpICQxL2VhY2gukwIkMjkgcmVzb3J0IGZlZSBpcyBvcHRpb25hbDogSW4gcm9vbSBoaWdoIHNwZWVkIGludGVybmV0IGFjY2VzcyAkMjUvZGF5LCBBY2Nlc3MgdG8gZml0bmVzcyBjZW50ZXIsIERhaWx5IG5ld3NwYXBlciBhdCBHdWVzdCBTZXJ2aWNlcyAkMS0kMi9kYXksIEluIHJvb20gbG9jYWwgYW5kIHRvbGwgZnJlZSBwaG9uZSBjYWxscyAkMS9jYWxsLCBQcmludGVkIGFpcmxpbmUgYm9hcmRpbmcgcGFzc2VzICQ1L2VhY2gsIENvcGllcyBhbmQgZmF4ZXMgKHVwIHRvIDEwIHBhZ2VzKSAkMS9lYWNoLgBkAioPZBYCZg9kFgJmDxUMSmh0dHBzOi8vcmVzd2ViLnBhc3NrZXkuY29tL1Jlc3dlYi5kbz9tb2RlPXdlbGNvbWVfZWlfbmV3JmV2ZW50SUQ9MTM5NDUyNjQgLlRyb3BpY2FuYSBMYXMgVmVnYXMg4oCTIGEgRG91YmxlVHJlZSBieSBIaWx0b24FJDI0NCoFJDI0NCoFJDI0NCoFJDI0NCoFJDIxNCpAKlJhdGVzIHNob3duIGluY2x1ZGUgcmVzb3J0IGZlZS4gR3Vlc3RzIGNhbiBlYXJuIEhIb25vcnMgcG9pbnRzLgDvA1Ryb3BpY2FuYSBMYXMgVmVnYXMgJm5kYXNoOyBhIERvdWJsZVRyZWUgYnkgSGlsdG9uOiAkMTUgcmVzb3J0IGZlZSBpbmNsdWRlcyBpbi1yb29tIGhpZ2gtc3BlZWQgd2lyZWxlc3MgaW50ZXJuZXQgYWNjZXNzLCBkYWlseSBmaXRuZXNzIGNlbnRlciBhY2Nlc3MsIDIgZm9yIDEgc2lnbmF0dXJlIGNvY2t0YWlscyBpbiBCYWNsbyBvciBCaXNjYXluZSB3aXRoIGRpbm5lciwgMiBmb3IgMSBjb2NrdGFpbHMgZHVyaW5nIEhhcHB5IEhvdXIgaW4gdGhlIFRyb3BpY2FuYSBMb3VuZ2UgZnJvbSA0OjAwIHBtICZuZGFzaDsgNjowMCBwbSwgbG9jYWwgY2FsbHMsIGRvbWVzdGljIGxvbmcgZGlzdGFuY2UgY2FsbHMsIDgwMCBjYWxscywgaW5jb21pbmcgZmF4ZXMgKHVwIHRvIDEwIHBlciBkYXkpLCBvdXRnb2luZyBmYXhlcyAodXAgdG8gMTAgcGVyIGRheSksIHBob3RvIGNvcGllcyAodXAgdG8gMTAgcGVyIGRheSksIGFuZCBwcmludGluZyBvZiBib2FyZGluZyBwYXNzLiZuYnNwO+8DVHJvcGljYW5hIExhcyBWZWdhcyAmbmRhc2g7IGEgRG91YmxlVHJlZSBieSBIaWx0b246ICQxNSByZXNvcnQgZmVlIGluY2x1ZGVzIGluLXJvb20gaGlnaC1zcGVlZCB3aXJlbGVzcyBpbnRlcm5ldCBhY2Nlc3MsIGRhaWx5IGZpdG5lc3MgY2VudGVyIGFjY2VzcywgMiBmb3IgMSBzaWduYXR1cmUgY29ja3RhaWxzIGluIEJhY2xvIG9yIEJpc2NheW5lIHdpdGggZGlubmVyLCAyIGZvciAxIGNvY2t0YWlscyBkdXJpbmcgSGFwcHkgSG91ciBpbiB0aGUgVHJvcGljYW5hIExvdW5nZSBmcm9tIDQ6MDAgcG0gJm5kYXNoOyA2OjAwIHBtLCBsb2NhbCBjYWxscywgZG9tZXN0aWMgbG9uZyBkaXN0YW5jZSBjYWxscywgODAwIGNhbGxzLCBpbmNvbWluZyBmYXhlcyAodXAgdG8gMTAgcGVyIGRheSksIG91dGdvaW5nIGZheGVzICh1cCB0byAxMCBwZXIgZGF5KSwgcGhvdG8gY29waWVzICh1cCB0byAxMCBwZXIgZGF5KSwgYW5kIHByaW50aW5nIG9mIGJvYXJkaW5nIHBhc3MuJm5ic3A7AGQCKw9kFgJmD2QWAmYPFQx1aHR0cHM6Ly9nYy5zeW54aXMuY29tL3Jlei5hc3B4P0NoYWluPTEyMTU3JkRlc3Q9TEFTJmFycml2ZT0xLzEvMjAxNiZkZXBhcnQ9MS8xMy8yMDE2JmFkdWx0PTEmY2hpbGQ9MCZncm91cD0xNjAxMDFDRVNTNVRydW1wIEludGVybmF0aW9uYWwgSG90ZWwgTGFzIFZlZ2FzIE9uZSBCZWRyb29tIFN1aXRlBCQ0OTkEJDQ5OQQkNDk5BCQ0MjkEJDI3OSgqUmVzb3J0IGZlZSBpcyB3YWl2ZWQgZm9yIENFUyBhdHRlbmRlZXMuAKsBVHJ1bXAgcmVzb3J0IGZlZTogJDI1IGluY2x1ZGVzIDIgYm90dGxlcyBvZiB3YXRlciBkYWlseSwgZGFpbHkgbmV3c3BhcGVyLCB3aXJlbGVzcyBpbnRlcm5ldCBhY2Nlc3MsIGluLXJvb20gY29mZmVlLCBsb2NhbCBhbmQgdG9sbCBmcmVlIHBob25lIGNhbGxzLCBmaXRuZXNzIGNlbnRlciBhY2Nlc3MuqwFUcnVtcCByZXNvcnQgZmVlOiAkMjUgaW5jbHVkZXMgMiBib3R0bGVzIG9mIHdhdGVyIGRhaWx5LCBkYWlseSBuZXdzcGFwZXIsIHdpcmVsZXNzIGludGVybmV0IGFjY2VzcywgaW4tcm9vbSBjb2ZmZWUsIGxvY2FsIGFuZCB0b2xsIGZyZWUgcGhvbmUgY2FsbHMsIGZpdG5lc3MgY2VudGVyIGFjY2Vzcy4AZAIsD2QWAmYPZBYCZg8VDHVodHRwczovL2djLnN5bnhpcy5jb20vcmV6LmFzcHg/Q2hhaW49MTIxNTcmRGVzdD1MQVMmYXJyaXZlPTEvMS8yMDE2JmRlcGFydD0xLzEzLzIwMTYmYWR1bHQ9MSZjaGlsZD0wJmdyb3VwPTE2MDEwMUNFU1M0VHJ1bXAgSW50ZXJuYXRpb25hbCBIb3RlbCBMYXMgVmVnYXMgU3R1ZGlvIENpdHkgVmlldw48YnIgLz5Tb2xkIE91dA48YnIgLz5Tb2xkIE91dA48YnIgLz5Tb2xkIE91dA48YnIgLz5Tb2xkIE91dAQkMTM0KCpSZXNvcnQgZmVlIGlzIHdhaXZlZCBmb3IgQ0VTIGF0dGVuZGVlcy4AqwFUcnVtcCByZXNvcnQgZmVlOiAkMjUgaW5jbHVkZXMgMiBib3R0bGVzIG9mIHdhdGVyIGRhaWx5LCBkYWlseSBuZXdzcGFwZXIsIHdpcmVsZXNzIGludGVybmV0IGFjY2VzcywgaW4tcm9vbSBjb2ZmZWUsIGxvY2FsIGFuZCB0b2xsIGZyZWUgcGhvbmUgY2FsbHMsIGZpdG5lc3MgY2VudGVyIGFjY2Vzcy6rAVRydW1wIHJlc29ydCBmZWU6ICQyNSBpbmNsdWRlcyAyIGJvdHRsZXMgb2Ygd2F0ZXIgZGFpbHksIGRhaWx5IG5ld3NwYXBlciwgd2lyZWxlc3MgaW50ZXJuZXQgYWNjZXNzLCBpbi1yb29tIGNvZmZlZSwgbG9jYWwgYW5kIHRvbGwgZnJlZSBwaG9uZSBjYWxscywgZml0bmVzcyBjZW50ZXIgYWNjZXNzLgBkAi0PZBYCZg9kFgJmDxUMJWh0dHBzOi8vcmVzd2ViLnBhc3NrZXkuY29tL2dvL0NFUzIwMTYRVmRhcmEgSG90ZWwgJiBTcGEFJDM0NyokU2VsZWN0IGhvdGVsIHRvIHZpZXcgcHJldmFpbGluZyByYXRlJFNlbGVjdCBob3RlbCB0byB2aWV3IHByZXZhaWxpbmcgcmF0ZQUkMzQ3KgUkMTc3KiAqUmF0ZXMgc2hvd24gaW5jbHVkZSByZXNvcnQgZmVlLgDOAVZkYXJhOiAkMjkgcmVzb3J0IGZlZSBpbmNsdWRlcyZuYnNwO0ludGVybmV0IGFjY2VzcyAoaW4tc3VpdGUgYW5kIGNhbXB1cyB3aWRlIGF0IENpdHkgQ2VudGVyKSwgbG9jYWwgYW5kIHRvbGwtZnJlZSB0ZWxlcGhvbmUgY2FsbHMsIGFjY2VzcyB0byBGaXRuZXNzIENlbnRlciwgZGFpbHkgbmV3c3BhcGVyLCBhaXJsaW5lIGJvYXJkaW5nIHBhc3MgcHJpbnRpbmcuzgFWZGFyYTogJDI5IHJlc29ydCBmZWUgaW5jbHVkZXMmbmJzcDtJbnRlcm5ldCBhY2Nlc3MgKGluLXN1aXRlIGFuZCBjYW1wdXMgd2lkZSBhdCBDaXR5IENlbnRlciksIGxvY2FsIGFuZCB0b2xsLWZyZWUgdGVsZXBob25lIGNhbGxzLCBhY2Nlc3MgdG8gRml0bmVzcyBDZW50ZXIsIGRhaWx5IG5ld3NwYXBlciwgYWlybGluZSBib2FyZGluZyBwYXNzIHByaW50aW5nLgBkAi4PZBYCZg9kFgJmDxUMLWh0dHBzOi8vcmVzd2ViLnBhc3NrZXkuY29tL2dvL0FUVEVOREVFMjAxNkNFUwhWZW5ldGlhbiRTZWxlY3QgaG90ZWwgdG8gdmlldyBwcmV2YWlsaW5nIHJhdGUkU2VsZWN0IGhvdGVsIHRvIHZpZXcgcHJldmFpbGluZyByYXRlJFNlbGVjdCBob3RlbCB0byB2aWV3IHByZXZhaWxpbmcgcmF0ZSRTZWxlY3QgaG90ZWwgdG8gdmlldyBwcmV2YWlsaW5nIHJhdGUkU2VsZWN0IGhvdGVsIHRvIHZpZXcgcHJldmFpbGluZyByYXRlICpSYXRlcyBzaG93biBpbmNsdWRlIHJlc29ydCBmZWUuAOQCVmVuZXRpYW46ICQyNSByZXNvcnQgZmVlIGluY2x1ZGVzIHVubGltaXRlZCBsb2NhbCBhbmQgdG9sbC1mcmVlIHRlbGVwaG9uZSBjYWxscywgdW5saW1pdGVkIGluLXN1aXRlIEludGVybmV0IGFjY2VzcywgZGFpbHkgbmV3c3BhcGVyIHBlciBzdWl0ZSwgYWNjZXNzIHRvIENhbnlvbiBSYW5jaCBmaXRuZXNzIGNlbnRlciBmb3IgdHdvICgyKSBhZHVsdHMsIGJvYXJkaW5nIHBhc3MgcHJpbnRpbmcsIG9uZSAoMSkgcmVndWxhciBjb2ZmZWUgb3IgdGVhIGF0IENhZmUgUHJlc3NlLCBhbmQgdHdvIGZvciBvbmUgd2VsbCBkcmlua3MgYXQgYW55IFZlbmV0aWFuL1BhbGF6em8gb3duZWQgYmFyIChtdXN0IGJlIDIxIG9yIG9sZGVyKS7kAlZlbmV0aWFuOiAkMjUgcmVzb3J0IGZlZSBpbmNsdWRlcyB1bmxpbWl0ZWQgbG9jYWwgYW5kIHRvbGwtZnJlZSB0ZWxlcGhvbmUgY2FsbHMsIHVubGltaXRlZCBpbi1zdWl0ZSBJbnRlcm5ldCBhY2Nlc3MsIGRhaWx5IG5ld3NwYXBlciBwZXIgc3VpdGUsIGFjY2VzcyB0byBDYW55b24gUmFuY2ggZml0bmVzcyBjZW50ZXIgZm9yIHR3byAoMikgYWR1bHRzLCBib2FyZGluZyBwYXNzIHByaW50aW5nLCBvbmUgKDEpIHJlZ3VsYXIgY29mZmVlIG9yIHRlYSBhdCBDYWZlIFByZXNzZSwgYW5kIHR3byBmb3Igb25lIHdlbGwgZHJpbmtzIGF0IGFueSBWZW5ldGlhbi9QYWxhenpvIG93bmVkIGJhciAobXVzdCBiZSAyMSBvciBvbGRlcikuAGQCLw9kFgJmD2QWAmYPFQwkaHR0cHM6Ly9yZXN3ZWIucGFzc2tleS5jb20vZ28vU0NFUzZSIVdlc3RnYXRlIExhcyBWZWdhcyAoZm9ybWVybHkgTFZIKQUkMjkxKgUkMjkxKgUkMjkxKgUkMjkxKgUkMjkxKiAqUmF0ZXMgc2hvd24gaW5jbHVkZSByZXNvcnQgZmVlLgDXASQyMiBSZXNvcnQgRmVlIGlzIG9wdGlvbmFsLiBBbWVuaXRpZXMgaW5jbHVkZTogd2lyZWxlc3MgaW50ZXJuZXQgYWNjZXNzIGZvciB0d28gKDIpJm5ic3A7ZGV2aWNlcyAoZXhjbHVkZXMgY29udmVudGlvbiBhcmVhKTsgZml0bmVzcyBjZW50ZXIgYWNjY2VzcyBmb3IgdHdvICgyKSBndWVzdHM7IGxvY2FsIGFuZCB0b2xsLWZyZWUgY2FsbHM7IHVzZSBvZiBpbi1yb29tIHNhZmUu1wEkMjIgUmVzb3J0IEZlZSBpcyBvcHRpb25hbC4gQW1lbml0aWVzIGluY2x1ZGU6IHdpcmVsZXNzIGludGVybmV0IGFjY2VzcyBmb3IgdHdvICgyKSZuYnNwO2RldmljZXMgKGV4Y2x1ZGVzIGNvbnZlbnRpb24gYXJlYSk7IGZpdG5lc3MgY2VudGVyIGFjY2Nlc3MgZm9yIHR3byAoMikgZ3Vlc3RzOyBsb2NhbCBhbmQgdG9sbC1mcmVlIGNhbGxzOyB1c2Ugb2YgaW4tcm9vbSBzYWZlLgBkAjAPZBYCZg9kFgJmDxUMS2h0dHBzOi8vd3d3LnN0YXJ3b29kbWVldGluZy5jb20vU3Rhckdyb3Vwc1dlYi9yZXM/aWQ9MTUwNDI4MjMyNSZrZXk9RjFFREJEQRBXZXN0aW4gTGFzIFZlZ2FzBSQyNjUqBSQyNjUqBSQyNjUqBSQyNjUqBSQyNjUqICpSYXRlcyBzaG93biBpbmNsdWRlIHJlc29ydCBmZWUuAKUEV2VzdGluOiZuYnNwOyQxNSByZXNvcnQgZmVlIGluY2x1ZGVzIGhpZ2ggc3BlZWQgV2lmaSBJbnRlcm5ldCBhY2Nlc3MsIHVubGltaXRlZCBsb2NhbCwgdG9sbCBmcmVlICZhbXA7IGRvbWVzdGljIGxvbmcgZGlzdGFuY2UgY2FsbHMsICZuYnNwOzI0IGhvdXIgV2VzdGluIFdPUktPVVQgZmFjaWxpdHksIGNvbXBsaW1lbnRhcnkgVmFsZXQgJmFtcDsgU2VsZiBQYXJraW5nLCBTYXVuYSAmYW1wOyBTdGVhbSByb29tJm5ic3A7IGFjY2VzcyBhdCBIaWJpc2N1cyBTcGEsIGJvdHRsZWQgaW4gcm9vbSB3YXRlciwgaW5jb21pbmcgZmF4ZXMsIGRhaWx5IG5ld3NwYXBlciBkZWxpdmVyeSwgbm90YXJ5IHB1YmxpYyBzZXJ2aWNlcywgMjQgaHIuIHBvb2wgJmFtcDsgd2hpcmxwb29sIGFjY2VzcywgYm9hcmRpbmcgcGFzcyBwcmludGluZywgZm9yZWlnbiBjdXJyZW5jeSBleGNoYW5nZSwgYW5kIGRhaWx5IFdlc3RpbiBIYXBweSBIb3VyIHdpdGggY29tcGxpbWVudGFyeSBhbGNvaG9saWMgYmV2ZXJhZ2VzICZhbXA7IGhvdCBhbmQgY29sZCBob3JzIGQmcnNxdW87IG9ldXZyZXMupQRXZXN0aW46Jm5ic3A7JDE1IHJlc29ydCBmZWUgaW5jbHVkZXMgaGlnaCBzcGVlZCBXaWZpIEludGVybmV0IGFjY2VzcywgdW5saW1pdGVkIGxvY2FsLCB0b2xsIGZyZWUgJmFtcDsgZG9tZXN0aWMgbG9uZyBkaXN0YW5jZSBjYWxscywgJm5ic3A7MjQgaG91ciBXZXN0aW4gV09SS09VVCBmYWNpbGl0eSwgY29tcGxpbWVudGFyeSBWYWxldCAmYW1wOyBTZWxmIFBhcmtpbmcsIFNhdW5hICZhbXA7IFN0ZWFtIHJvb20mbmJzcDsgYWNjZXNzIGF0IEhpYmlzY3VzIFNwYSwgYm90dGxlZCBpbiByb29tIHdhdGVyLCBpbmNvbWluZyBmYXhlcywgZGFpbHkgbmV3c3BhcGVyIGRlbGl2ZXJ5LCBub3RhcnkgcHVibGljIHNlcnZpY2VzLCAyNCBoci4gcG9vbCAmYW1wOyB3aGlybHBvb2wgYWNjZXNzLCBib2FyZGluZyBwYXNzIHByaW50aW5nLCBmb3JlaWduIGN1cnJlbmN5IGV4Y2hhbmdlLCBhbmQgZGFpbHkgV2VzdGluIEhhcHB5IEhvdXIgd2l0aCBjb21wbGltZW50YXJ5IGFsY29ob2xpYyBiZXZlcmFnZXMgJmFtcDsgaG90IGFuZCBjb2xkIGhvcnMgZCZyc3F1bzsgb2V1dnJlcy4AZAIxD2QWAmYPZBYCZg8VDEpodHRwczovL3Jlc3dlYi5wYXNza2V5LmNvbS9SZXN3ZWIuZG8/bW9kZT13ZWxjb21lX2dpX25ldyZncm91cElEPTUwNzAzNjIyIA5XeW5uIExhcyBWZWdhcyNTZWxlY3QgaG90ZWwgZm9yIGV4Y2x1c2l2ZSBDRVMgcmF0ZSNTZWxlY3QgaG90ZWwgZm9yIGV4Y2x1c2l2ZSBDRVMgcmF0ZSNTZWxlY3QgaG90ZWwgZm9yIGV4Y2x1c2l2ZSBDRVMgcmF0ZSNTZWxlY3QgaG90ZWwgZm9yIGV4Y2x1c2l2ZSBDRVMgcmF0ZSNTZWxlY3QgaG90ZWwgZm9yIGV4Y2x1c2l2ZSBDRVMgcmF0ZQAbPGRpdiBzdHlsZT0iZGlzcGxheTpub25lOyI+AAAGPC9kaXY+ZGT7KoS5BVir6yIwqIZykX4RiXqObvCu0++0xK8cb5KQZA==" />
+  <script type="text/javascript"> 
+      //<![CDATA[
+      if (window.WebForm_InitCallback) { 
+        __theFormPostData = '';
+        __theFormPostCollection = new Array();
+        window.WebForm_InitCallback(); 
+      }
+      //]]>
+    </script>
+  </form>
+</body>
+</html>

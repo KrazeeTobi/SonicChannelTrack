@@ -1,0 +1,8 @@
+{{#.}}
+	<li style="list-style-type: none;"><b style="font-size: 1.2em;">&#36;{{EffectivePrice}} - {{Title}}</b><br />
+	{{#IncludedSessions.length}}
+		<br /><i><b>With the purchase of this conference track you also have access to the following sessions:</b></i><ul>{{#IncludedSessions}}<li>{{Title}}</li>{{/IncludedSessions}}</ul>
+	{{/IncludedSessions.length}}
+		</li>
+<hr style="height:1px; color: #333; background-color: #333;" />
+{{/.}}
