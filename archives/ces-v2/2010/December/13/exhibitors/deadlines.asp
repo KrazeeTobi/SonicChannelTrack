@@ -1,0 +1,1585 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><!-- PageID 644 - published by Open Text Web Solutions 10 - 10.0.0.57 - 29635 -->
+    <!-- force IE7 compatability mode -->
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+    <title>2011 CES: Deadline Checklist</title>
+
+    
+<link type="text/css" rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" />
+
+
+
+<link type="text/css" rel="stylesheet" href="/css/styles.css" />
+
+<link type="text/css" rel="stylesheet" href="/css/HPtemplate_css.css" />
+
+<link type="text/css" rel="stylesheet" href="/css/pyxl_home.css" />
+
+<link type="text/css" rel="stylesheet" href="/css/sub_page.css" />
+
+
+
+
+<!--[if IE 6]>
+<link href="http://www.cesweb.org/css/ie6only_css-int.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+
+
+
+<script type="text/javascript" src="/utilities/interest.js"></script>
+
+<script type="text/javascript" src="/utilities/mainNav.js"></script>
+
+<script type="text/javascript" src="/utilities/rollOver.js"></script>
+
+<script type="text/javascript" src="/utilities/jquery.flow.1.2.auto.js"></script>
+
+<script type="text/javascript" src="/utilities/jquery.colorbox-min.js"></script>
+
+<script type="text/javascript" src="/utilities/jflickrfeed.min.js"></script>
+
+<script type="text/javascript" src="/utilities/jquery.easing.1.2.js"></script>
+
+<script type="text/javascript" src="/utilities/jquery.anythingslider.js"></script>
+
+<script type="text/javascript" src="/utilities/jquery.countdown.js"></script>
+
+<script type="text/javascript" src="/utilities/jquery.jfeed.js"></script>
+
+<script type="text/javascript" src="/utilities/jquery.jgfeed.js"></script>
+
+<script>
+    $(document).ready(function() {
+        if($('#tabs').length != 0){
+            $("#tabs").tabs();
+        }
+if($('#twitter').length != 0){
+$("#twitter").getTwitter({
+userName: "intlces",
+numTweets: 20,
+loaderText: "Loading tweets...",
+slideIn: false,
+showHeading: false,
+headingText: "Latest Tweets",
+showProfileLink: true
+});
+}
+        $(document).bind('cbox_complete', function(){
+        setTimeout($('#colorbox').show(), 1500);
+        });
+    });
+</script>
+
+
+<script type="text/javascript">
+    function formatText(index, panel) {
+      return index + "";
+    }
+    $(function () {
+    
+        $('.anythingSlider').anythingSlider({
+            easing: "easeInOutExpo",        // Anything other than "linear" or "swing" requires the easing plugin
+            autoPlay: true,                 // This turns off the entire FUNCTIONALY, not just if it starts running or not.
+            delay: 6000,                    // How long between slide transitions in AutoPlay mode
+            startStopped: false,            // If autoPlay is on, this can force it to start stopped
+            animationTime: 1200,             // How long the slide transition takes
+            hashTags: false,                 // Should links change the hashtag in the URL?
+            buildNavigation: true,          // If true, builds and list of anchor links to link to each slide
+            pauseOnHover: true,             // If true, and autoPlay is enabled, the show will pause on hover
+            startText: " ",                // Start text
+            stopText: " ",                 // Stop text
+            navigationFormatter: formatText       // Details at the top of the file on this use (advanced use)
+        });
+        
+        $("#slide-jump").click(function(){
+            $('.anythingSlider').anythingSlider(3);
+        });
+        
+    });
+</script>
+
+<script type="text/javascript">
+    var revert = new Array();
+    var inames = new Array('cesweb_menu_exhibitor', 'cesweb_menu_conference', 'cesweb_menu_events', 'cesweb_menu_awards', 'cesweb_menu_showfloor', 'cesweb_menu_hoteltravel', 'cesweb_menu_news', 'cesweb_menu_faq', 'cesweb_register', 'cesweb_exhibit', 'cesweb_exhibitors', 'cesweb_press', 'cesweb_visitors', 'entertainment_matters'  );
+    // Preload
+    if (document.images) {
+        var flipped = new Array();
+        for(i=0; i< inames.length; i++) {
+            flipped[i] = new Image();
+            switch (i)
+            {
+                case 0:
+                    flipped[i].src = '/images/framework/cesweb_menu_exhibitor2.png';
+                    break;
+                case 1:
+                    flipped[i].src = '/images/framework/cesweb_menu_conference2.png';
+                    break;
+                case 2:
+                    flipped[i].src = '/images/framework/cesweb_menu_events2.png';
+                    break;
+                case 3:
+                    flipped[i].src = '/images/framework/cesweb_menu_awards2.png';
+                    break;
+                case 4:
+                    flipped[i].src = '/images/framework/cesweb_menu_showfloor2.png';
+                    break;
+                case 5:
+                    flipped[i].src = '/images/framework/cesweb_menu_hoteltravel2.png';
+                    break;
+                case 6:
+                    flipped[i].src = '/images/framework/cesweb_menu_news2.png';
+                    break;
+                case 7:
+                    flipped[i].src = '/images/framework/cesweb_menu_faq2.png';
+                    break;
+                case 8:
+                    flipped[i].src = '/images/framework/cesweb_register2.png';
+                    break;
+                case 9:
+                    flipped[i].src = '/images/framework/cesweb_exhibit2.png';
+                    break;
+                case 10:
+                    flipped[i].src = '/images/framework/cesweb_exhibitors2.png'
+                    break;
+                case 11:
+                    flipped[i].src = '/images/framework/cesweb_press2.png';
+                    break;
+                case 12:
+                    flipped[i].src = '/images/framework/cesweb_visitors2.png';
+                    break;
+                case 13:
+                    flipped[i].src = '/images/framework/EMatCES2.jpg';
+                    break;
+                default:
+            }
+        }
+    }
+    function over(num) {
+      if(document.images) {
+        revert[num] = document.images[inames[num]].src;
+        document.images[inames[num]].src = flipped[num].src;
+      }          
+    }
+    function out(num) {
+      if(document.images) document.images[inames[num]].src = revert[num];
+    }
+</script>
+<script type="text/javascript">
+    $(function () {
+        var austDay = new Date();
+        austDay = new Date(austDay.getFullYear(), 13 - 1, 6, 8);
+        $('#countdown').countdown({until: austDay, format: 'dHMS' });
+    });
+</script>
+<script type="text/javascript">
+    //News Script
+    jQuery(function() {
+        jQuery.getFeed({
+            url: 'rssNews.xml',
+            success: function(feed) {
+                  
+                var html = '';      
+                for(var i = 0; i < feed.items.length && i < 15; i++) {
+        if(i==0){html += '<div id="news_1">'}        
+                    var item = feed.items[i];
+                    
+                    html += '<div id="news-date"><p>'
+                    + item.updated
+                    + '</p></div>'
+                    +'<h3>'
+                    + item.title
+                    + '</h3>'
+                    +'<div id="news-content"><p>'
+                    + item.description
+                       + ' [...]</p><div id="read-more"><a href="'
+                    + item.link
+                    + '">Read More'
+                    +'</a></div>'
+                    + '</div>';
+    if(i==3){html += '</div><div id="news_2" style="display:none">'}
+    if(i==7){html += '</div><div id="news_3" style="display:none">'}
+    if(i==11){html += '</div><div id="news_4" style="display:none">'}
+    if(i==15){html += '</div>'}
+    
+    
+                }
+                
+                jQuery('#news').append(html);
+            }    
+        });
+    });
+//Innovation Script
+$('#innovation').ready(function()
+{
+    $.jGFeed('http://www.cnet.com/8300-32254_1-283.xml?categoryId=10457991',
+    function(feeds){
+     // Check for errors
+     if(!feeds){
+        // there was an error
+        return false;
+     }
+      var item_html=new Array();
+     //item_html[0]="";
+     item_html[1]="";
+     //item_html[2]="";
+     for(var i=0; i<feeds.entries.length; i++){
+          var item = feeds.entries[i];
+         var j=Math.ceil((i+1) / 4);
+         if(!item_html[j]) item_html[j]="";
+         if ((i+1) % 4 ==1) item_html[j] += "<div id='innovation_" + j + "' style='display:none;'><div id='innovation-1'><div id='innovation-date'><p>"+item.publishedDate.substring(0, 25)+"</p></div><h3>"+item.title+"</h3><div id='innovation-content'><p>"+item.contentSnippet+"</div><div id='read-more'><a href='"+item.link+"'> Read More</a></p></div>";
+         else item_html[j] += '<div id="innovation-date"><p>'+item.publishedDate.substring(0, 25)+'</p></div><h3>'+item.title+'</h3><div id="innovation-content"><p>'+item.contentSnippet+'</div><div id="read-more"><a href="'+item.link+'"> Read More</a></p></div>';
+          if((i+1) % 4 == 0) item_html[j] += "</div>";         
+      }
+     for(var k=1; k<item_html.length; k++){
+        $('#innovation').append(item_html[k]);
+     }
+     var nav;
+     nav = "<ul id='innovation_nav_buttons'><li class='up'> Pages:</li>";
+     for(var k=1; k<item_html.length; k++)
+     {
+            nav += "<li id='innovation_" + k + "_button' class='up'> <a href='' onclick=\"return innovationActive(\'innovation_" + k + "\');\">"+ k + "</a></li>";          
+     }
+     nav += "</ul>";
+     $('#innovation-nav').append(nav);
+     
+     $('#innovation_1_button').removeClass('up');
+     $('#innovation_1_button').addClass('on_page');
+     
+     $('#innovation_1').show();            
+}, 60);
+//END Innovation
+}); 
+
+//Blog Script
+$('#blog').ready(function()
+{
+$.jGFeed('http://blog.ce.org/?feed=rss2',
+function(feeds){
+  // Check for errors
+  if(!feeds){
+    // there was an error
+    return false;
+  }
+    var item_html = '';
+    var item2_html = '';
+    var item3_html = '';
+    var item4_html = '';
+  for(var i=0; i<feeds.entries.length; i++){
+    var item = feeds.entries[i];
+if (i == 1) item_html += '<div id="blog-1"><div id="blog-date"><p>'+item.publishedDate.substring(0, 25)+'</p></div><h3>'+item.title+'</h3><div id="blog-content"><p>'+item.contentSnippet+'</div><div id="read-more"><a href="'+item.link+'"> Read More</a></p></div>';
+if (i == 2) item_html += '<div id="blog-date"><p>'+item.publishedDate.substring(0, 25)+'</p></div><h3>'+item.title+'</h3><div id="blog-content"><p>'+item.contentSnippet+'</div><div id="read-more"><a href="'+item.link+'"> Read More</a></p></div>';
+if (i == 3) item_html += '<div id="blog-date"><p>'+item.publishedDate.substring(0, 25)+'</p></div><h3>'+item.title+'</h3><div id="blog-content"><p>'+item.contentSnippet+'</div><div id="read-more"><a href="'+item.link+'"> Read More</a></p></div>';
+if (i == 4) item_html += '<div id="blog-date"><p>'+item.publishedDate.substring(0, 25)+'</p></div><h3>'+item.title+'</h3><div id="blog-content"><p>'+item.contentSnippet+'</div><div id="read-more"><a href="'+item.link+'"> Read More</a></p></div>';
+if (i == 5) item2_html += '<div id="blog-1"><div id="blog-date"><p>'+item.publishedDate.substring(0, 25)+'</p></div><h3>'+item.title+'</h3><div id="blog-content"><p>'+item.contentSnippet+'</div><div id="read-more"><a href="'+item.link+'"> Read More</a></p></div>';
+if (i == 6) item2_html += '<div id="blog-date"><p>'+item.publishedDate.substring(0, 25)+'</p></div><h3>'+item.title+'</h3><div id="blog-content"><p>'+item.contentSnippet+'</div><div id="read-more"><a href="'+item.link+'"> Read More</a></p></div>';
+if (i == 7) item2_html += '<div id="blog-date"><p>'+item.publishedDate.substring(0, 25)+'</p></div><h3>'+item.title+'</h3><div id="blog-content"><p>'+item.contentSnippet+'</div><div id="read-more"><a href="'+item.link+'"> Read More</a></p></div>';
+if (i == 8) item2_html += '<div id="blog-date"><p>'+item.publishedDate.substring(0, 25)+'</p></div><h3>'+item.title+'</h3><div id="blog-content"><p>'+item.contentSnippet+'</div><div id="read-more"><a href="'+item.link+'"> Read More</a></p></div>';
+if (i == 9) item3_html += '<div id="blog-1"><div id="blog-date"><p>'+item.publishedDate.substring(0, 25)+'</p></div><h3>'+item.title+'</h3><div id="blog-content"><p>'+item.contentSnippet+'</div><div id="read-more"><a href="'+item.link+'"> Read More</a></p></div>';
+if (i == 10) item3_html += '<div id="blog-date"><p>'+item.publishedDate.substring(0, 25)+'</p></div><h3>'+item.title+'</h3><div id="blog-content"><p>'+item.contentSnippet+'</div><div id="read-more"><a href="'+item.link+'"> Read More</a></p></div>';
+if (i == 11) item3_html += '<div id="blog-date"><p>'+item.publishedDate.substring(0, 25)+'</p></div><h3>'+item.title+'</h3><div id="blog-content"><p>'+item.contentSnippet+'</div><div id="read-more"><a href="'+item.link+'"> Read More</a></p></div>';
+if (i == 12) item3_html += '<div id="blog-date"><p>'+item.publishedDate.substring(0, 25)+'</p></div><h3>'+item.title+'</h3><div id="blog-content"><p>'+item.contentSnippet+'</div><div id="read-more"><a href="'+item.link+'"> Read More</a></p></div>';
+if (i == 13) item4_html += '<div id="blog-1"><div id="blog-date"><p>'+item.publishedDate.substring(0, 25)+'</p></div><h3>'+item.title+'</h3><div id="blog-content"><p>'+item.contentSnippet+'</div><div id="read-more"><a href="'+item.link+'"> Read More</a></p></div>';
+if (i == 14) item4_html += '<div id="blog-date"><p>'+item.publishedDate.substring(0, 25)+'</p></div><h3>'+item.title+'</h3><div id="blog-content"><p>'+item.contentSnippet+'</div><div id="read-more"><a href="'+item.link+'"> Read More</a></p></div>';
+if (i == 15) item4_html += '<div id="blog-date"><p>'+item.publishedDate.substring(0, 25)+'</p></div><h3>'+item.title+'</h3><div id="blog-content"><p>'+item.contentSnippet+'</div><div id="read-more"><a href="'+item.link+'"> Read More</a></p></div>';
+if (i == 16) item4_html += '<div id="blog-date"><p>'+item.publishedDate.substring(0, 25)+'</p></div><h3>'+item.title+'</h3><div id="blog-content"><p>'+item.contentSnippet+'</div><div id="read-more"><a href="'+item.link+'"> Read More</a></p></div>';
+                 
+  }
+                $('#blog_1').append(item_html);
+                $('#blog_2').append(item2_html);
+                $('#blog_3').append(item_html);
+                $('#blog_4').append(item2_html);
+}, 16);
+
+//END BLOG     
+});    $('.ui-tabs .ui-tabs-nav ').ready(function(){
+        if (jQuery.browser.safari) {
+            $('.ui-tabs .ui-tabs-nav').css({"margin-top":"4px" });
+            $('.ui-tabs .ui-tabs-nav li.news.ui-tabs-selected').css({"padding-right":"18px", "margin-left":"-21px" });
+            $('.ui-tabs .ui-tabs-nav li.news').css({"padding-right":"18px" });
+            
+            
+        }    
+    });
+    //News Nav
+    function newsActive (id) {      
+        var node = document.getElementById(id);
+        var contentNode = document.getElementById("news");
+        var childCount = contentNode.childNodes.length;
+        for (var i = 0; i < childCount; ++i)
+        {
+            child = contentNode.childNodes[i];
+            if( child.nodeName.toLowerCase() == "div" )
+            {
+                child.style.display = "none";
+            }
+        }
+        node.style.display = "block";
+        
+        var buttonNode = document.getElementById(id + "_button");
+        var ulNode = document.getElementById("news_nav_buttons");
+        var childCount = ulNode.childNodes.length;
+        for (var i = 0; i < childCount; ++i)
+        {
+            child = ulNode.childNodes[i];
+            if( child.nodeName.toLowerCase() == "li" )
+            {
+                child.className = "";
+            }
+        }
+        buttonNode.className = "on_page";
+        
+        return false;
+    }
+function innovationActive (id) {      
+    var node = document.getElementById(id);
+    var contentNode = document.getElementById("innovation");
+    var childCount = contentNode.childNodes.length;
+    for (var i = 0; i < childCount; ++i)
+    {
+        child = contentNode.childNodes[i];
+        if( child.nodeName.toLowerCase() == "div" )
+        {
+            child.style.display = "none";
+        }
+    }
+    node.style.display = "block";
+    
+    var buttonNode = document.getElementById(id + "_button");
+    var ulNode = document.getElementById("innovation_nav_buttons");
+    var childCount = ulNode.childNodes.length;
+    for (var i = 0; i < childCount; ++i)
+    {
+        child = ulNode.childNodes[i];
+        if( child.nodeName.toLowerCase() == "li" )
+        {
+            child.className = "";
+        }
+    }
+    buttonNode.className = "on_page";
+    
+    return false;
+}
+
+    //Blog Nav
+    function blogActive (id) {      
+        var node = document.getElementById(id);
+        var contentNode = document.getElementById("blog");
+        var childCount = contentNode.childNodes.length;
+        for (var i = 0; i < childCount; ++i)
+        {
+            child = contentNode.childNodes[i];
+            if( child.nodeName.toLowerCase() == "div" )
+            {
+                child.style.display = "none";
+            }
+        }
+        node.style.display = "block";
+        
+        var buttonNode = document.getElementById(id + "_button");
+        var ulNode = document.getElementById("blog_nav_buttons");
+        var childCount = ulNode.childNodes.length;
+        for (var i = 0; i < childCount; ++i)
+        {
+            child = ulNode.childNodes[i];
+            if( child.nodeName.toLowerCase() == "li" )
+            {
+                child.className = "";
+            }
+        }
+        buttonNode.className = "on_page";
+        
+        return false;
+    }
+</script>
+
+    <script language="javascript" src="/utilities/flashDetect.js" type="text/javascript"></script>
+    <script language="javascript" src="/utilities/emailPage.js" type="text/javascript"></script>
+
+    <script>
+        function initMenu() {
+          $('#menu ul').hide();
+          $('#menu li a').hover(
+            function() {
+              var checkElement = $(this).next();
+              if((checkElement.is('ul')) && (checkElement.is(':visible'))) {
+                return false;
+                }
+              if((checkElement.is('ul')) && (!checkElement.is(':visible'))) {
+                $('#menu ul:visible').slideUp('normal');
+                checkElement.slideDown('normal');
+                return false;
+                }
+              }
+            );
+          }
+        $(document).ready(function() {initMenu();});
+    </script>
+</head>
+<body class="home" id="home">
+    
+    
+    <div id="newwrap">
+        <div id="container">
+            <div id="content-container">
+                <div id="header">
+    <div id="logo">
+        <a href="/default.asp"><img src="/images/framework/cesweb_headerlogo.png" alt="International CES"></a>
+    </div>
+    <div id="headTop">
+<div id="topsearch"> 
+                <!-- Pyxl ADD search from below-->
+        <form action="http://googlebox.ce.org/search?" method="GET" name="searchCES">
+            <input type="hidden" id="Hidden1" value="default_collection" name="site">
+            <input type="hidden" id="Hidden2" value="2011CESweb" name="client">
+            <input type="hidden" id="Hidden3" value="2011CESweb" name="proxystylesheet">
+            <input type="hidden" id="Hidden4" value="xml_no_dtd" name="output">
+            <!-- Pyxl Alter Search value to "Search"  -->    
+<input type="text" onfocus="if(this.value=='Search') this.value='';" onblur="if(this.value=='') this.value='Search';" value="Search" class="searchbox" name="q"><input type="submit" onclick="document.searchCES.submit();" class="searchbutton" value="">
+        </form>
+<A href="http://www.cesweb.org/cesgreening.asp"><img src="http://www.cesweb.org/hp/images/ces-green.jpg" border="0" valign=top ></A>
+</div>
+    <div id="topimages">
+        <img src="http://www.cesweb.org/hp/images/divider.jpg" class="divider"/>
+        <a href="http://www.cesweb.org/followme" ><img src="http://www.cesweb.org/hp/images/follow-me.png" alt="Follow Me" /></a>
+    </div>
+                
+</div>
+  
+    <div class="clr"></div>
+
+    <div id="ctacontainer">
+        <div id="showdate"><img src="/images/framework/CESweb_headerdate.png" alt="2011 International CES January 6-9, 2011"></div>
+        <div id="countdown"></div>
+        <div id="register"><a href="/register" title="Register for CES" target=_blank><img src="/images/framework/cesweb_register1.png" alt="Register" name="cesweb_register" onMouseOver="over(8)" onMouseOut="out(8)" /></a></div>
+        <div id="exhibit"> <a href="/exhibitors/space/default.asp" title="Exhibit at CES"><img src="/images/framework/cesweb_exhibit1.png" alt="Exhibit at CES" name="cesweb_exhibit" onMouseOver="over(9)" onMouseOut="out(9)" /></a></div>
+    </div>
+</div>
+                <div id="nav-bar">
+                    
+    <ul>
+        <li class="dd-exhibitor"><a onmouseover="showDropDown('exhibitor','show')" onmouseout="setMenuTimer()" href="http://ces11.mapyourshow.com"><img src="/images/framework/cesweb_menu_exhibitor1.png" alt="Exhibitor Directory" name="cesweb_menu_exhibitor" onMouseOver="over(0)" onMouseOut="out(0)" /></a></li>
+        <li class="dd-sessions"><a onmouseover="showDropDown('sessions','show')" onmouseout="setMenuTimer()" href="/conferenceProgram/default.asp"><img src="/images/framework/cesweb_menu_conference1.png" alt="Conference Programs" name="cesweb_menu_conference" onMouseOver="over(1)" onMouseOut="out(1)"/></a></li>
+        <li class="dd-events"><a onmouseover="showDropDown('events','show')" onmouseout="setMenuTimer()" href="/events/default.asp"><img src="/images/framework/cesweb_menu_events1.png" alt="Events" name="cesweb_menu_events" onMouseOver="over(2)" onMouseOut="out(2)"/></a></li>
+        <li class="dd-awards"><a onmouseover="showDropDown('awards','show')" onmouseout="setMenuTimer()" href="/awards/default.asp"><img src="/images/framework/cesweb_menu_awards1.png" alt="Awards" name="cesweb_menu_awards" onMouseOver="over(3)" onMouseOut="out(3)"/></a></li>
+        <li class="dd-exhibits"><a onmouseover="showDropDown('exhibits','show')" onmouseout="setMenuTimer()" href="/showFloor/default.asp"><img src="/images/framework/cesweb_menu_showfloor1.png" alt="Exhibits" name="cesweb_menu_showfloor" onMouseOver="over(4)" onMouseOut="out(4)"/></a></li>
+        <li class="dd-hotel"><a onmouseover="showDropDown('hotel','show')" onmouseout="setMenuTimer()" href="/hotelTravel/default.asp"><img src="/images/framework/cesweb_menu_hoteltravel1.png" alt="Hotel Info" name="cesweb_menu_hoteltravel" onMouseOver="over(5)" onMouseOut="out(5)"/></a></li>
+        <li class="dd-news"><a onmouseover="showDropDown('news','show')" onmouseout="setMenuTimer()" href="/news/default.asp"> <img src="/images/framework/cesweb_menu_news1.png" alt="News" name="cesweb_menu_news" onMouseOver="over(6)" onMouseOut="out(6)"/></a></li>
+        <!-- <li class="dd-international"><a onmouseover="showDropDown('international','show')" onmouseout="setMenuTimer()" href=""><img src="/images/framework/mainnav_international.gif" /></a></li> -->
+        <li class="dd-faqs"><a onmouseover="showDropDown('faqs','show')" onmouseout="setMenuTimer()" href="/faq/default.asp"><img src="/images/framework/cesweb_menu_faq1.png" alt="FAQs" name="cesweb_menu_faq" onMouseOver="over(7)" onMouseOut="out(7)" /></a></li>
+    </ul>
+    <ul id="sub-exhibitor" class="subnav" style="display: none;" onmouseout="setMenuTimer()">
+        <li onmouseover="showDropDown('exhibitor','show')" class="top"><a href="http://ces11.mapyourshow.com" class="sublink"><!--<img src="/images/framework/secondarynav_exhibitor.gif" />--></a></li>
+
+    <li class="bottom"></li>
+</ul>
+<ul id="sub-sessions" class="subnav" style="display: none;" onmouseout="setMenuTimer()">
+    <li onmouseover="showDropDown('sessions','show')" class="top"><a href="/conferenceProgram/default.asp" class="sublink"><!--<img src="/images/framework/secondarynav_sessions.gif" />--></a></li>
+
+                    <li onmouseover="showDropDown('sessions','show')" class="first_link"><a href="/conferenceProgram/conference-tracks.asp">Conference Tracks</a></li>
+                
+                    <li onmouseover="showDropDown('sessions','show')" class="link"><a href="/conferenceProgram/SuperSessions.asp">SuperSessions</a></li>
+                
+                    <li onmouseover="showDropDown('sessions','show')" class="link"><a href="/conferenceProgram/search/default.asp">Search for Sessions</a></li>
+                
+                    <li onmouseover="showDropDown('sessions','show')" class="link"><a href="/conferenceProgram/pricing.asp">Conference Program Pricing</a></li>
+                
+                    <li onmouseover="showDropDown('sessions','show')" class="link"><a href="/conferenceProgram/speakers/speakerServices.asp">Speaker Services</a></li>
+                
+                    <li onmouseover="showDropDown('sessions','show'); showSubMenu('sessions317','show')" class="link_with_children"><a href="/conferenceProgram/speakers/default.asp">Call for Speakers</a>
+                
+            <ul id="sub-sub-sessions317" style="display: none;" onmouseout="setSubMenuTimer()">
+        
+                    <li onmouseover="showSubMenu('sessions317','show')"><a href="/conferenceProgram/speakers/cfsFAQ.asp">Submission FAQs</a></li>
+                
+            </ul></li>
+        
+    <li class="bottom">&nbsp;</li>
+</ul>
+<ul id="sub-events" class="subnav" style="display: none;" onmouseout="setMenuTimer()">
+    <li onmouseover="showDropDown('events','show')" class="top"><a href="/events/default.asp" class="sublink"><!-- <img src="/images/framework/secondarynav_events.gif" />--></a></li>
+
+                    <li onmouseover="showDropDown('events','show')" class="first_link"><a href="/events/keynotes.asp">Keynotes</a></li>
+                
+                    <li onmouseover="showDropDown('events','show'); showSubMenu('events3926','show')" class="link_with_children"><a href="/events/press-events.asp">Press Events</a>
+                
+            <ul id="sub-sub-events3926" style="display: none;" onmouseout="setSubMenuTimer()">
+        
+                    <li onmouseover="showSubMenu('events3926','show')"><a href="/press/events/exhibitorPressEvents.asp">Exhibitor Press Event Schedule</a></li>
+                
+            </ul></li>
+        
+                    <li onmouseover="showDropDown('events','show')" class="link"><a href="/events/tweetup.asp">CES Tweetup</a></li>
+                
+                    <li onmouseover="showDropDown('events','show')" class="link"><a href="/events/last-gadget-standing.asp">Last Gadget Standing</a></li>
+                
+                    <li onmouseover="showDropDown('events','show')" class="link"><a href="/events/digital-ces.asp">D: All Things Digital at CES</a></li>
+                
+                    <li onmouseover="showDropDown('events','show')" class="link"><a href="/events/LIT-dinner.asp">LIT Dinner</a></li>
+                
+                    <li onmouseover="showDropDown('events','show')" class="link"><a href="/events/CEA-events.asp">CEA Events</a></li>
+                
+    <li class="bottom"></li>
+</ul>
+<ul id="sub-awards" class="subnav" style="display: none;" onmouseout="setMenuTimer()">
+    <li onmouseover="showDropDown('awards','show')" class="top"><a href="/awards/default.asp" class="sublink"><!-- <img src="/images/framework/secondarynav_awards.gif" />--></a></li>
+
+                    <li onmouseover="showDropDown('awards','show'); showSubMenu('awards308','show')" class="first_link_with_children"><a href="/awards/innovations/default.asp">CES Innovations Awards</a>
+                
+            <ul id="sub-sub-awards308" style="display: none;" onmouseout="setSubMenuTimer()">
+        
+                    <li onmouseover="showSubMenu('awards308','show')"><a href="http://cesweb.org/Awards/InnovationAwards/2011honorees.htm">2011 Innovations Honorees</a></li>
+                
+                    <li onmouseover="showSubMenu('awards308','show')"><a href="/awards/innovations/about.asp">About Innovations</a></li>
+                
+                    <li onmouseover="showSubMenu('awards308','show')"><a href="/awards/innovations/categories.asp">Awards Categories</a></li>
+                
+                    <li onmouseover="showSubMenu('awards308','show')"><a href="/awards/innovations/callForEntries.asp">Call for Entries</a></li>
+                
+                    <li onmouseover="showSubMenu('awards308','show')"><a href="/awards/innovations/callForJudges.asp">Call for Judges</a></li>
+                
+            </ul></li>
+        
+                    <li onmouseover="showDropDown('awards','show')" class="link"><a href="/awards/bestOfCES.asp">CNET Best of CES</a></li>
+                
+                    <li onmouseover="showDropDown('awards','show')" class="link"><a href="/awards/techEmmys.asp">Tech & Engineering Emmy Awards</a></li>
+                
+                    <li onmouseover="showDropDown('awards','show')" class="link"><a href="/awards/mobile-apps-showdown.asp">Mobile Apps Showdown</a></li>
+                
+                    <li onmouseover="showDropDown('awards','show')" class="link"><a href="/awards/hot-stuff.asp">Hot Stuff Awards</a></li>
+                
+                    <li onmouseover="showDropDown('awards','show')" class="link"><a href="/awards/mashable-awards.asp">Mashable Awards</a></li>
+                
+    <li class="bottom"></li>
+</ul>
+<ul id="sub-exhibits" class="subnav" style="display: none;" onmouseout="setMenuTimer()">
+    <li onmouseover="showDropDown('exhibits','show')" class="top"><a href="/showFloor/default.asp" class="sublink"><!-- <img src="/images/framework/secondarynav_exhibits.gif" /> --></a></li>
+
+                    <li onmouseover="showDropDown('exhibits','show')" class="first_link"><a href="/showFloor/by-hall.asp">By Exhibit Hall</a></li>
+                
+                    <li onmouseover="showDropDown('exhibits','show')" class="link"><a href="/showFloor/by-product.asp">By Product Category</a></li>
+                
+                    <li onmouseover="showDropDown('exhibits','show')" class="link"><a href="/showFloor/Floor-Plans.asp">Floor Plans</a></li>
+                
+                    <li onmouseover="showDropDown('exhibits','show')" class="link"><a href="/showFloor/techzones.asp">CES TechZones</a></li>
+                
+                    <li onmouseover="showDropDown('exhibits','show')" class="link"><a href="/showFloor/followme.asp">Follow Me</a></li>
+                
+    <li onmouseover="showDropDown('exhibits','show')" class="bottom"></li>
+</ul>
+<ul id="sub-hotel" class="subnav" style="display: none;" onmouseout="setMenuTimer()">
+    <li onmouseover="showDropDown('hotel','show')" class="top"><a href="/hotelTravel/default.asp" class="sublink"><!-- <img src="/images/framework/secondarynav_hotel.gif" /> --></a></li>
+
+                    <li onmouseover="showDropDown('hotel','show'); showSubMenu('hotel2942','show')" class="first_link_with_children"><a href="/hotelTravel/hotel.asp">Hotel Reservations</a>
+                
+            <ul id="sub-sub-hotel2942" style="display: none;" onmouseout="setSubMenuTimer()">
+        
+                    <li onmouseover="showSubMenu('hotel2942','show')"><a href="/hotelTravel/blockRequest.asp">2011 CES Block Request Form</a></li>
+                
+            </ul></li>
+        
+                    <li onmouseover="showDropDown('hotel','show')" class="link"><a href="/hotelTravel/airlines.asp">Airline Discounts</a></li>
+                
+                    <li onmouseover="showDropDown('hotel','show')" class="link"><a href="/hotelTravel/shuttle.asp">CES Shuttle Service</a></li>
+                
+                    <li onmouseover="showDropDown('hotel','show')" class="link"><a href="/hotelTravel/monorail.asp">Las Vegas Monorail</a></li>
+                
+                    <li onmouseover="showDropDown('hotel','show')" class="link"><a href="/hotelTravel/cars.asp">Transportation, Parking and Car Rental</a></li>
+                
+                    <li onmouseover="showDropDown('hotel','show')" class="link"><a href="/hotelTravel/lasVegas.asp">Las Vegas Travel Tips</a></li>
+                
+    <li class="bottom"></li>
+</ul>
+<ul id="sub-news" class="subnav" style="display: none;" onmouseout="setMenuTimer()">
+    <li onmouseover="showDropDown('news','show')" class="top"><a href="/news/default.asp" class="sublink"><!-- <img src="/images/framework/secondarynav_news.gif" /> --></a></li>
+
+                    <li onmouseover="showDropDown('news','show')" class="first_link"><a href="/news/rssNews.asp">News Feed</a></li>
+                
+                    <li onmouseover="showDropDown('news','show')" class="link"><a href="/news/exhibitorNews.asp">Exhibitor Releases</a></li>
+                
+                    <li onmouseover="showDropDown('news','show')" class="link"><a href="/news/releases.asp">CES Press Releases</a></li>
+                
+                    <li onmouseover="showDropDown('news','show')" class="link"><a href="/news/CES-trends.asp">CES Trends</a></li>
+                
+                    <li onmouseover="showDropDown('news','show')" class="link"><a href="/news/coverage.asp">Media Coverage</a></li>
+                
+                    <li onmouseover="showDropDown('news','show')" class="link"><a href="/news/multimedia-gallery.asp">Multimedia Gallery</a></li>
+                
+                    <li onmouseover="showDropDown('news','show'); showSubMenu('news3990','show')" class="link_with_children"><a href="/news/newsletters.asp">Newsletters</a>
+                
+            <ul id="sub-sub-news3990" style="display: none;" onmouseout="setSubMenuTimer()">
+        
+                    <li onmouseover="showSubMenu('news3990','show')"><a href="/news/up-to-minute-default.asp">CES Up to the Minute</a></li>
+                
+                    <li onmouseover="showSubMenu('news3990','show')"><a href="http://www.cesweb.org/exhibitors/newsletter/default.asp">Exhibitor's Source Newsletter</a></li>
+                
+                    <li onmouseover="showSubMenu('news3990','show')"><a href="/news/exhibitorPRnl-Nov.asp">Exhibitor PR Newsletter</a></li>
+                
+            </ul></li>
+        
+                    <li onmouseover="showDropDown('news','show')" class="link"><a href="http://www.cesweb.org/press/default.asp">Press Services</a></li>
+                
+    <li class="bottom"></li>
+</ul>
+<ul id="sub-faqs" class="subnav" style="display: none;" onmouseout="setMenuTimer()">
+    <li onmouseover="showDropDown('faqs','show')" class="top"><a href="/faq/default.asp" class="sublink"><!-- <img src="/images/framework/secondarynav_faqs.gif" /> --></a></li>
+
+                    <li onmouseover="showDropDown('faqs','show')" class="first_link"><a href="/faq/generalFAQs.asp">General</a></li>
+                
+                    <li onmouseover="showDropDown('faqs','show')" class="link"><a href="/faq/pressFAQs.asp">Press</a></li>
+                
+                    <li onmouseover="showDropDown('faqs','show')" class="link"><a href="/faq/exhibitorFAQs.asp">Exhibitor</a></li>
+                
+                    <li onmouseover="showDropDown('faqs','show')" class="link"><a href="/faq/speakerFAQs.asp">Speaker</a></li>
+                
+                    <li onmouseover="showDropDown('faqs','show')" class="link"><a href="/faq/hotel-transit-FAQs.asp">Hotel/Transit</a></li>
+                
+                    <li onmouseover="showDropDown('faqs','show')" class="link"><a href="/faq/other-FAQs.asp">Other Inquiries</a></li>
+                
+                    <li onmouseover="showDropDown('faqs','show'); showSubMenu('faqs2120','show')" class="link_with_children"><a href="/faq/venueFAQs.asp">FAQs by Venue</a>
+                
+            <ul id="sub-sub-faqs2120" style="display: none;" onmouseout="setSubMenuTimer()">
+        
+                    <li onmouseover="showSubMenu('faqs2120','show')"><a href="/exhibitors/LVCC-FAQs.asp">Las Vegas Convention Center</a></li>
+                
+                    <li onmouseover="showSubMenu('faqs2120','show')"><a href="/exhibitors/Venetian-FAQs.asp">The Venetian</a></li>
+                
+                    <li onmouseover="showSubMenu('faqs2120','show')"><a href="/exhibitors/Hilton-FAQs.asp">Las Vegas Hilton</a></li>
+                
+                    <li onmouseover="showSubMenu('faqs2120','show')"><a href="/exhibitors/Rennaissance-FAQs.asp">Renaissance Hotel</a></li>
+                
+            </ul></li>
+        
+    <li class="bottom"></li>
+</ul>
+
+                </div>
+            </div>
+        </div>
+        <div id="container-home">
+            <div id="page-bottom">
+                <div id="main-content">
+                    <div class="left">
+                        <div class="greenbox-bg">
+                            
+                            
+    <a href="/exhibitors/default.asp"><img src="/images/framework/cesweb_exhibitors2.png"></a>
+    <ul>
+    
+    <!--/exhibitors/default.asp-->
+    
+            <li ><a href="/exhibitors/space/default.asp">Exhibit at CES</a>
+        
+            </li>
+        
+            <li ><a href="/exhibitors/cesSmartBooth/default.asp">Directory Listing</a></li>
+        
+            <li ><a href="/exhibitors/sponsorships/default.asp">Promotional Opportunities</a>
+        
+            </li>
+        
+            <li ><a href="/exhibitors/showPlanning/default.asp">Show Planning</a>
+        
+            </li>
+        
+            <li class="selected"><a href="/exhibitors/deadlines.asp">Deadline Checklist</a></li>
+        
+            <li ><a href="/exhibitors/register/default.asp">Register Staff/Buyers</a></li>
+        
+            <li ><a href="/exhibitors/resources/default.asp">Resources</a>
+        
+            </li>
+        
+            <li ><a href="/exhibitors/pr/default.asp">PR Help</a>
+        
+            </li>
+        
+            <li ><a href="/exhibitors/newsletter/default.asp">Exhibitor's Source Newsletter</a>
+        
+            </li>
+        
+    
+    </ul>
+
+                            <br />
+                        </div>
+                        <div style="display: none;">
+                            
+                        </div>
+                        <ul id="menu">
+    
+    <li>
+    <a class="press" href="/press/default.asp"></a>
+    <ul>
+        
+        <li><a href="/press/events/default.asp">Press Events</a></li>
+        
+        <li><a href="/press/contacts/default.asp">Press Contacts</a></li>
+        
+        <li><a href="/press/services/default.asp">Press Services</a></li>
+        
+        <li><a href="/press/imageGallery/default.asp">Image Gallery</a></li>
+        
+        <li><a href="/news/default.asp">News</a></li>
+        
+    </ul>
+</li>
+    <li>
+    <a class="international" href="/international/default.asp"></a>
+    <ul>
+        
+        <li><a href="/international/travel.asp">Travel &amp; Visas</a></li>
+        
+        <li><a href="/international/delegations.asp">Delegation Group Program</a></li>
+        
+        <li><a href="/international/services.asp">International Services</a></li>
+        
+        <li><a href="/international/spanish.asp">Español</a></li>
+        
+        <li><a href="/international/french.asp">Français</a></li>
+        
+        <li><a href="/international/chinese.asp">汉语</a></li>
+        
+        <li><a href="/international/japanese.asp">日本語</a></li>
+        
+        <li><a href="/international/korean.asp">한국어 </a></li>
+        
+    </ul>
+</li>
+</ul>
+                        
+     
+                                                               
+                        
+                    </div>
+                    <div class="right">
+                        <div id="breadcrumb">
+                            <div><a href="/default.asp" class="footer">Home</a>&nbsp;&gt;&nbsp;<a href="/exhibitors/default.asp" class="footer">For Exhibitors</a>&nbsp;&gt;&nbsp;Deadline Checklist</div>
+                        </div>
+                        <div class="headerbox">
+                       <h1>Deadline Checklist</h1>
+                            <div class="icon_wrap">
+    <a href="http://www.CESweb.org/twitter" target="_blank"><img height="25" border="0" width="25" alt="Twitter" src="/images/framework/twitter.png"></a> 
+    <a href="http://www.CESweb.org/Facebook" target="_blank"><img height="25" border="0" width="25" alt="facebook" src="/images/framework/facebook.png"></a> 
+    <a href="http://www.cesweb.org/stumbleupon" target="_blank"><img height="25" border="0" width="25" alt="stumbleupon" src="/images/framework/stumbleupon.gif"></a> 
+    <a href="http://www.CESweb.org/flickr" target="_blank"><img height="25" border="0" width="25" alt="flickr" src="/images/framework/flickr.png"></a> 
+    <a href="http://www.CESweb.org/youtube" target="_blank"><img height="25" border="0" width="25" alt="youtube" src="/images/framework/youtube.png"></a> 
+    <a href="http://www.cesweb.org/linkedin" target="_blank"><img height="25" border="0" width="25" alt="linkedin" src="/images/framework/linkedin.png"></a>
+    <a href="http://www.cesweb.org/news/rssNews.asp" target="_blank"><img height="25" border="0" width="25" alt="rss" src="/images/framework/rss.png"></a>
+</div>
+                        </div><BR>
+                        <div id="inner-content-long">
+                         
+                                                                   
+                            
+<br />
+
+<ul id="event_date_list">
+    
+    <li><a href="#939">ASAP</a><!----></li>
+    
+    <li><a href="#955">October</a><!----></li>
+    
+    <li><a href="#956">November</a><!----></li>
+    
+    <li><a href="#957">December</a><!----></li>
+    
+    <li><a href="#958">January</a><!----></li>
+    
+</ul>
+
+
+<a name="939" /></a>
+<div class="keynote-divider"></div>
+<br />
+
+<div class="date-header">ASAP</div>
+
+<table width=100% cellpadding=2 cellspacing=0 border=0 align="center">
+<tr> 
+  <td width="55%"><strong>To Do</strong></td>
+  <td></td>
+  <td width="8%"><strong>Date</strong></td>
+  <td width="25%"><strong>Contact</strong></td>
+  <td width="12%"><strong>Add to<br>Outlook</strong></td>
+</tr>
+
+    <!--Deadline Checklist Todo 953-->
+
+<tr class="alternateRows"> 
+  <td>
+  <span class="smallText">Consider whether your company or brand qualifies to exhibit in an <A href="/exhibitors/techZones.asp">International CES TechZone</A></span></td>
+  <td></td>
+  <td><span class="smallText">ASAP</span></td>
+  <td><span class="smallText"><A href="mailto:Exhibit@CESweb.org">CES Exhibitor Services <BR></A>703-907-7661</span></td>
+  <td nowrap><span class="smallText"></span></td>
+</tr><!--Deadline Checklist Todo 948-->
+
+<tr class=""> 
+  <td>
+  <span class="smallText"><A href="/exhibitors/sponsorships/sponsorships.asp">International Commerce Center &amp; Reception</A> sponsorship*</span></td>
+  <td></td>
+  <td><span class="smallText">ASAP</span></td>
+  <td><span class="smallText"><A href="mailto:byb@ce.org">CES Promotions<BR></A>703-907-7688</span></td>
+  <td nowrap><span class="smallText"></span></td>
+</tr><!--Deadline Checklist Todo 946-->
+
+<tr class="alternateRows"> 
+  <td>
+  <span class="smallText"><A href="/exhibitors/sponsorships/pressOpportunitites.asp">Official International CES newswire</A> reservations</span></td>
+  <td></td>
+  <td><span class="smallText">ASAP</span></td>
+  <td><span class="smallText">Reservations ASAP Business Wire - 888-381-9473 or <A href="mailto:tradeshow@businesswire.com">tradeshow@businesswire.com</A></span></td>
+  <td nowrap><span class="smallText"></span></td>
+</tr><!--Deadline Checklist Todo 945-->
+
+<tr class=""> 
+  <td>
+  <span class="smallText"><A href="/exhibitors/sponsorships/onsiteAdvertising.asp">On-site advertising</A> (banners, kiosks, etc.)*</span></td>
+  <td></td>
+  <td><span class="smallText">ASAP</span></td>
+  <td><span class="smallText"><A href="mailto:liztardif@ce.org">Liz Tardif</A><BR>401-849-9300</span></td>
+  <td nowrap><span class="smallText"></span></td>
+</tr><!--Deadline Checklist Todo 944-->
+
+<tr class="alternateRows"> 
+  <td>
+  <span class="smallText"><A href="/exhibitors/sponsorships/freeOpps.asp">Press conference room</A> reservations*</span></td>
+  <td></td>
+  <td><span class="smallText">ASAP</span></td>
+  <td><span class="smallText"><A href="mailto:PRContact@CE.org">PR Liaison<BR></A>703-907-7603</span></td>
+  <td nowrap><span class="smallText"></span></td>
+</tr><!--Deadline Checklist Todo 943-->
+
+<tr class=""> 
+  <td>
+  <span class="smallText"><A href="/exhibitors/sponsorships/pressOpportunitites.asp">Press Room sponsorship and press lunches</A> reservations*</span></td>
+  <td></td>
+  <td><span class="smallText">ASAP</span></td>
+  <td><span class="smallText"><SPAN class=smallText><A href="mailto:liztardif@ce.org">Liz Tardif</A><BR>401-849-9300</SPAN></span></td>
+  <td nowrap><span class="smallText"></span></td>
+</tr><!--Immedite Todo 2-->
+
+<tr class="alternateRows"> 
+  <td>
+  <span class="smallText"><A href="/exhibitors/sponsorships/sponsorships.asp">VIP Lunch</A> sponsorship*<BR></span></td>
+  <td></td>
+  <td><span class="smallText">ASAP</span></td>
+  <td><span class="smallText"><A href="mailto:byb@ce.org">CES Promotions<BR></A>703-907-7688</span></td>
+  <td nowrap><span class="smallText"></span></td>
+</tr><!--Immediately To Do 1-->
+
+<tr class=""> 
+  <td>
+  <span class="smallText">*First come, first serve</span></td>
+  <td></td>
+  <td><span class="smallText">         </span></td>
+  <td><span class="smallText"></span></td>
+  <td nowrap><span class="smallText"></span></td>
+</tr>
+<tr><td colspan="5"><img src="/images/framework/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br><a class="back_to_top" href="#top">[back to top]</a></td></tr>
+</table><a name="955" /></a>
+<div class="keynote-divider"></div>
+<br />
+
+<div class="date-header">October</div>
+
+<table width=100% cellpadding=2 cellspacing=0 border=0 align="center">
+<tr> 
+  <td width="55%"><strong>To Do</strong></td>
+  <td></td>
+  <td width="8%"><strong>Date</strong></td>
+  <td width="25%"><strong>Contact</strong></td>
+  <td width="12%"><strong>Add to<br>Outlook</strong></td>
+</tr>
+
+    <!--Deadline Checklist Todo 983-->
+
+<tr class="alternateRows"> 
+  <td>
+  <span class="smallText">100% booth space payment due: All exhibit booth space contracted after October 1 must be accompanied by a non-refundable 100% payment</span></td>
+  <td></td>
+  <td><span class="smallText">Oct 1</span></td>
+  <td><span class="smallText"><A href="mailto:soneill@ce.org">Sean O'Neill<BR></A>703-907-4314</span></td>
+  <td nowrap><span class="smallText"><a href="/global_includes/asp/addToCalendar.asp?date=10/1/2010&description=100% booth space payment due: All exhibit booth space contracted after October 1 must be accompanied by a non-refundable 100% payment">Remind me</a></span></td>
+</tr><!--Deadline Checklist Todo 982-->
+
+<tr class=""> 
+  <td>
+  <span class="smallText">The Pre-show mailing list is available</span></td>
+  <td></td>
+  <td><span class="smallText">Oct 15</span></td>
+  <td><span class="smallText"><A href="mailto:byb@ce.org">CES Promotions<BR></A>703-907-7688</span></td>
+  <td nowrap><span class="smallText"><a href="/global_includes/asp/addToCalendar.asp?date=10/15/2010&description=The Pre-show mailing list is available">Remind me</a></span></td>
+</tr><!--Deadline Checklist Todo 981-->
+
+<tr class="alternateRows"> 
+  <td>
+  <span class="smallText">Last day to update your listing in the Official International CES Directory (print edition)</span></td>
+  <td></td>
+  <td><span class="smallText">Oct 15</span></td>
+  <td><span class="smallText"><FONT face=Arial color=#333333><A href="mailto:cesdirectory@ce.org">CES Sales</A><BR></FONT></span></td>
+  <td nowrap><span class="smallText"><a href="/global_includes/asp/addToCalendar.asp?date=10/15/2010&description=Last day to update your listing in the Official International CES Directory (print edition)">Remind me</a></span></td>
+</tr><!--Deadline Checklist Todo 979-->
+
+<tr class=""> 
+  <td>
+  <span class="smallText"><A href="/exhibitors/sponsorships/printAdvertising.asp"><EM>International CES Pre-Show Planner</EM></A> ad reservations due</span></td>
+  <td></td>
+  <td><span class="smallText">Oct 30</span></td>
+  <td><span class="smallText"><A href="mailto:rickalbuck@napco.com">Rick Albuck</A><BR>215-238-5215</span></td>
+  <td nowrap><span class="smallText"><a href="/global_includes/asp/addToCalendar.asp?date=10/30/2010&description=International CES Pre-Show Planner ad reservations due">Remind me</a></span></td>
+</tr>
+<tr><td colspan="5"><img src="/images/framework/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br><a class="back_to_top" href="#top">[back to top]</a></td></tr>
+</table><a name="956" /></a>
+<div class="keynote-divider"></div>
+<br />
+
+<div class="date-header">November</div>
+
+<table width=100% cellpadding=2 cellspacing=0 border=0 align="center">
+<tr> 
+  <td width="55%"><strong>To Do</strong></td>
+  <td></td>
+  <td width="8%"><strong>Date</strong></td>
+  <td width="25%"><strong>Contact</strong></td>
+  <td width="12%"><strong>Add to<br>Outlook</strong></td>
+</tr>
+
+    <!--Deadline Checklist Todo 1052-->
+
+<tr class="alternateRows"> 
+  <td>
+  <span class="smallText">Venetian suite exhibitors: Multiple guest authorization form due</span></td>
+  <td></td>
+  <td><span class="smallText">Nov 1</span></td>
+  <td><span class="smallText"><A href="mailto:gberube@ce.org">Gaiya Berube<BR></A>703-907-7685</span></td>
+  <td nowrap><span class="smallText"><a href="/global_includes/asp/addToCalendar.asp?date=11/1/2010&description=Venetian suite exhibitors: Multiple guest authorization form due">Remind me</a></span></td>
+</tr><!--Deadline Checklist Todo 1051-->
+
+<tr class=""> 
+  <td>
+  <span class="smallText">Venetian suite exhibitors: Cleaning request form due</span></td>
+  <td></td>
+  <td><span class="smallText">Nov 1</span></td>
+  <td><span class="smallText"><A href="mailto:gberube@ce.org">Gaiya Berube<BR></A>703-907-7685</span></td>
+  <td nowrap><span class="smallText"><a href="/global_includes/asp/addToCalendar.asp?date=11/1/2010&description=Venetian suite exhibitors: Cleaning and catering request forms due">Remind me</a></span></td>
+</tr><!--Deadline Checklist Todo 1002-->
+
+<tr class="alternateRows"> 
+  <td>
+  <span class="smallText">Venetian suite exhibitors: Credit card authorization/bed removal notification form is due</span></td>
+  <td></td>
+  <td><span class="smallText">Nov 1</span></td>
+  <td><span class="smallText"><A href="mailto:gberube@ce.org">Gaiya Berube<BR></A>703-907-7685</span></td>
+  <td nowrap><span class="smallText"><a href="/global_includes/asp/addToCalendar.asp?date=11/1/2010&description=Venetian suite exhibitors: Credit card authorization/bed removal notification form is due">Remind me</a></span></td>
+</tr><!--Deadline Checklist Todo 1001-->
+
+<tr class=""> 
+  <td>
+  <span class="smallText">Venetian suite exhibitors:&nbsp;Deadline to submit your desired suite floorplan and&nbsp;furniture movement</span></td>
+  <td></td>
+  <td><span class="smallText">Nov 1</span></td>
+  <td><span class="smallText"><A href="mailto:gberube@ce.org">Gaiya Berube<BR></A>703-907-7685</span></td>
+  <td nowrap><span class="smallText"><a href="/global_includes/asp/addToCalendar.asp?date=11/1/2010&description=Venetian suite exhibitors: Deadline to submit your desired suite floorplan and furniture movement">Remind me</a></span></td>
+</tr><!--Deadline Checklist Todo 1000-->
+
+<tr class="alternateRows"> 
+  <td>
+  <span class="smallText">Last day to include your new product information in the <EM></EM></span></td>
+  <td></td>
+  <td><span class="smallText">Nov 15</span></td>
+  <td><span class="smallText"><A href="mailto:twicecesdaily@nbmedia.com">CES Daily<BR></A>917-281-4754</span></td>
+  <td nowrap><span class="smallText"><a href="/global_includes/asp/addToCalendar.asp?date=11/15/2010&description=Last day to include your new product information in the CES Show Daily">Remind me</a></span></td>
+</tr><!--Deadline Checklist Todo 4075-->
+
+<tr class=""> 
+  <td>
+  <span class="smallText">Deadline for GES "Sure Price" Electrical Billing Request Form</span></td>
+  <td></td>
+  <td><span class="smallText">November 12</span></td>
+  <td><span class="smallText"><A href="mailto: kswearingen@ce.org">Katie Swearingen<BR></A>703-907-7637</span></td>
+  <td nowrap><span class="smallText"><a href="/global_includes/asp/addToCalendar.asp?date=11/12/2010&description=Deadline for GES "Sure Price" Electrical Billing Request Form">Remind me</a></span></td>
+</tr><!--Deadline Checklist Todo 993-->
+
+<tr class="alternateRows"> 
+  <td>
+  <span class="smallText">Last day to include your company logo in the <EM>Official International CES Directory </EM>(print edition)</span></td>
+  <td></td>
+  <td><span class="smallText">Nov 17</span></td>
+  <td><span class="smallText"><A href="mailto:rickalbuck@napco.com">Rick Albuck </A><BR>215-238-5215</span></td>
+  <td nowrap><span class="smallText"><a href="/global_includes/asp/addToCalendar.asp?date=11/17/2010&description=Last day to include your company logo in the Official International CES Directory (print edition)">Remind me</a></span></td>
+</tr><!--Deadline Checklist Todo 992-->
+
+<tr class=""> 
+  <td>
+  <span class="smallText"><A href="/exhibitors/sponsorships/printAdvertising.asp"><EM>Official Show Directory</EM></A> ad reservations due</span></td>
+  <td></td>
+  <td><span class="smallText">Nov 17</span></td>
+  <td><span class="smallText"><A href="mailto:rickalbuck@napco.com">Rick Albuck</A><BR>215-238-5215</span></td>
+  <td nowrap><span class="smallText"><a href="/global_includes/asp/addToCalendar.asp?date=11/17/2010&description=Official Show Directory ad reservations due">Remind me</a></span></td>
+</tr><!--Show Guide and Conference Brochure ad reservations due-->
+
+<tr class="alternateRows"> 
+  <td>
+  <span class="smallText"><EM><A href="/exhibitors/sponsorships/printAdvertising.asp">Show Guide and Conference Brochure</A></EM> ad reservations due</span></td>
+  <td></td>
+  <td><span class="smallText">Nov 17</span></td>
+  <td><span class="smallText"><A href="mailto:rickalbuck@napco.com">Rick Albuck</A><BR>215-238-5215</span></td>
+  <td nowrap><span class="smallText"><a href="/global_includes/asp/addToCalendar.asp?date=11/17/2010&description=Show Guide ad reservations due">Remind me</a></span></td>
+</tr><!--Deadline Checklist Todo 997-->
+
+<tr class=""> 
+  <td>
+  <span class="smallText">Last day to secure advertising on <A href="/exhibitors/sponsorships/onsiteAdvertising.asp">CES shuttle buses</A></span></td>
+  <td></td>
+  <td><span class="smallText">Nov 20</span></td>
+  <td><span class="smallText"><A href="mailto:jeffl@rp-ms.com">Jeff LoGioco</A><BR>401-965-7761</span></td>
+  <td nowrap><span class="smallText"><a href="/global_includes/asp/addToCalendar.asp?date=11/20/2010&description=Last day to secure advertising on CES shuttle buses">Remind me</a></span></td>
+</tr><!--Deadline Checklist Todo 996-->
+
+<tr class="alternateRows"> 
+  <td>
+  <span class="smallText">Regional media outreach campaign requests due</span></td>
+  <td></td>
+  <td><span class="smallText">Nov 20</span></td>
+  <td><span class="smallText"><A href="mailto:PRContact@CE.org">PR Liaison</A><BR>703-907-7603</span></td>
+  <td nowrap><span class="smallText"><a href="/global_includes/asp/addToCalendar.asp?date=11/20/2010&description=Regional media outreach campaign requests due">Remind me</a></span></td>
+</tr><!--Deadline Checklist Todo 987-->
+
+<tr class=""> 
+  <td>
+  <span class="smallText"> ad reservations due</span></td>
+  <td></td>
+  <td><span class="smallText">Nov 23</span></td>
+  <td><span class="smallText"><A href="mailto:aingenito@reedbusiness.com">Toni Ingenito</A><BR>646-746-7005</span></td>
+  <td nowrap><span class="smallText"><a href="/global_includes/asp/addToCalendar.asp?date=11/23/2010&description=CES Show Daily ad reservations due">Remind me</a></span></td>
+</tr><!--Deadline Checklist Todo 986-->
+
+<tr class="alternateRows"> 
+  <td>
+  <span class="smallText">Advance shipments may begin arriving at the GES warehouse</span></td>
+  <td></td>
+  <td><span class="smallText">Nov 29</span></td>
+  <td><span class="smallText"><A href="mailto:lasvegas@gesexpo.com">GES Exposition Services </A><BR>800-475-2098</span></td>
+  <td nowrap><span class="smallText"><a href="/global_includes/asp/addToCalendar.asp?date=11/29/2010&description=Advance shipments may begin arriving at the GES warehouse">Remind me</a></span></td>
+</tr><!--Deadline Checklist Todo 4076-->
+
+<tr class=""> 
+  <td>
+  <span class="smallText">Deadline for Security Service Order</span></td>
+  <td></td>
+  <td><span class="smallText">November 29</span></td>
+  <td><span class="smallText"><A href="mailto: kswearingen@ce.org">Katie Swearingen<BR></A>703-907-7637</span></td>
+  <td nowrap><span class="smallText"><a href="/global_includes/asp/addToCalendar.asp?date=11/29/2010&description=Deadline for Security ">Remind me</a></span></td>
+</tr><!--Deadline Checklist Todo 1009-->
+
+<tr class="alternateRows"> 
+  <td>
+  <span class="smallText">COP security service orders due</span></td>
+  <td></td>
+  <td><span class="smallText">Nov 30</span></td>
+  <td><span class="smallText"><A href="mailto:copsecurity@earthlink.net">COP Security</A><BR>702-361-7998</span></td>
+  <td nowrap><span class="smallText"><a href="/global_includes/asp/addToCalendar.asp?date=11/30/2010&description=COP security service orders due">Remind me</a></span></td>
+</tr>
+<tr><td colspan="5"><img src="/images/framework/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br><a class="back_to_top" href="#top">[back to top]</a></td></tr>
+</table><a name="957" /></a>
+<div class="keynote-divider"></div>
+<br />
+
+<div class="date-header">December</div>
+
+<table width=100% cellpadding=2 cellspacing=0 border=0 align="center">
+<tr> 
+  <td width="55%"><strong>To Do</strong></td>
+  <td></td>
+  <td width="8%"><strong>Date</strong></td>
+  <td width="25%"><strong>Contact</strong></td>
+  <td width="12%"><strong>Add to<br>Outlook</strong></td>
+</tr>
+
+    <!--Deadline Checklist Todo 1050-->
+
+<tr class="alternateRows"> 
+  <td>
+  <span class="smallText"><A href="http://www.ce.org/Membership/JoinCEA/default.aspx">Join CEA</A> to receive International CES VIP lunch and parking tickets and priority booth space selection for the 2010 International CES</span></td>
+  <td></td>
+  <td><span class="smallText">Dec 1</span></td>
+  <td><span class="smallText"><A href="mailto:boleary@ce.org">Brianne O'Leary</A><BR>703-907-7562</span></td>
+  <td nowrap><span class="smallText"><a href="/global_includes/asp/addToCalendar.asp?date=12/1/2010&description=Join CEA to receive International CES VIP lunch and parking tickets and priority booth space selection for the 2011 International CES">Remind me</a></span></td>
+</tr><!--Deadline Checklist Todo 1049-->
+
+<tr class=""> 
+  <td>
+  <span class="smallText">Last day to secure electronic message boards sponsorship</span></td>
+  <td></td>
+  <td><span class="smallText">Dec 1</span></td>
+  <td><span class="smallText">ESCN/Alaris Media Networks</span></td>
+  <td nowrap><span class="smallText"><a href="/global_includes/asp/addToCalendar.asp?date=12/1/2010&description=Last day to secure electronic message boards sponsorship">Remind me</a></span></td>
+</tr><!--Deadline Checklist Todo 1041-->
+
+<tr class="alternateRows"> 
+  <td>
+  <span class="smallText">Venetian <STRONG>meeting room </STRONG>exhibitors: Deadline to order complimentary hotel furnishings from Venetian Facility Services</span></td>
+  <td></td>
+  <td><span class="smallText">Dec 3</span></td>
+  <td><span class="smallText"><A href="mailto:michael.huettner@venetian.com">The Venetian<BR></A>702-414-1347</SPAN></span></td>
+  <td nowrap><span class="smallText"><a href="/global_includes/asp/addToCalendar.asp?date=12/3/2010&description=Venetian meeting room exhibitors: Deadline to order complimentary hotel furnishings from Venetian Facility Services">Remind me</a></span></td>
+</tr><!--LVCC exhibitors: Smart City telephone/internet orders due-->
+
+<tr class=""> 
+  <td>
+  <span class="smallText">LVCC exhibitors: Smart City telephone/internet orders due</span></td>
+  <td></td>
+  <td><span class="smallText">Dec 6</span></td>
+  <td><span class="smallText">Smart City Networks<BR>888-446-6911</span></td>
+  <td nowrap><span class="smallText"><a href="/global_includes/asp/addToCalendar.asp?date=12/6/2010&description=LVCC exhibitors: Smart City telephone/internet orders due">Remind me</a></span></td>
+</tr><!--Deadline Checklist Todo 1039-->
+
+<tr class="alternateRows"> 
+  <td>
+  <span class="smallText">Registration deadline to receive exhibitor badges in the mail prior to CES</span></td>
+  <td></td>
+  <td><span class="smallText">Dec 6</span></td>
+  <td><span class="smallText"><A href="mailto:exhreg@ce.org">Customer Service Center <BR></A>866-233-7968</span></td>
+  <td nowrap><span class="smallText"><a href="/global_includes/asp/addToCalendar.asp?date=12/6/2010&description=Registration deadline to receive exhibitor badges in the mail prior to CES">Remind me</a></span></td>
+</tr><!--Deadline Checklist Todo 984-->
+
+<tr class=""> 
+  <td>
+  <span class="smallText"><A href="/awards/bestOfCES.asp">CNET Best of CES Awards</A> product submissions due</span></td>
+  <td></td>
+  <td><span class="smallText">Dec 8</span></td>
+  <td><span class="smallText"><A href="mailto:liz.darby@cnet.com">Liz Darby</A><BR>415-344-2485</span></td>
+  <td nowrap><span class="smallText"><a href="/global_includes/asp/addToCalendar.asp?date=12/8/2010&description=CNET Best of CES Awards product submissions due">Remind me</a></span></td>
+</tr><!--Deadline Checklist Todo 1046-->
+
+<tr class="alternateRows"> 
+  <td>
+  <span class="smallText">GES&nbsp;electrical orders due</span></td>
+  <td></td>
+  <td><span class="smallText">Dec 8</span></td>
+  <td><span class="smallText"><A href="mailto:lasvegas@gesexpo.com">GES Exposition Services </A><BR>800-475-2098</span></td>
+  <td nowrap><span class="smallText"><a href="/global_includes/asp/addToCalendar.asp?date=12/8/2010&description=GES electrical orders due">Remind me</a></span></td>
+</tr><!--Deadline Checklist Todo 1045-->
+
+<tr class=""> 
+  <td>
+  <span class="smallText">Hanging sign requests due</span></td>
+  <td></td>
+  <td><span class="smallText">Dec 8</span></td>
+  <td><span class="smallText"><A href="mailto:lasvegas@gesexpo.com">GES Exposition Services </A><BR>800-475-2098</span></td>
+  <td nowrap><span class="smallText"><a href="/global_includes/asp/addToCalendar.asp?date=12/8/2010&description=Hanging sign requests due">Remind me</a></span></td>
+</tr><!--Deadline Checklist Todo 1040-->
+
+<tr class="alternateRows"> 
+  <td>
+  <span class="smallText"><A href="/exhibitors/sponsorships/directMail.asp">Pre-show mailing list</A> orders due</span></td>
+  <td></td>
+  <td><span class="smallText">Dec 8</span></td>
+  <td><span class="smallText"><A href="mailto:byb@ce.org">CES Promotions<BR></A>703-907-7688</span></td>
+  <td nowrap><span class="smallText"><a href="/global_includes/asp/addToCalendar.asp?date=12/8/2010&description=Pre-show mailing list orders due">Remind me</a></span></td>
+</tr><!--Deadline Checklist Todo 1011-->
+
+<tr class=""> 
+  <td>
+  <span class="smallText">Experient lead retrieval equipment orders due</span></td>
+  <td></td>
+  <td><span class="smallText">Dec 9</span></td>
+  <td><span class="smallText">Experient<BR>800-787-0475</span></td>
+  <td nowrap><span class="smallText"><a href="/global_includes/asp/addToCalendar.asp?date=12/9/2010&description=Deadline to receive discounted pricing for Experient lead retrieval equipment">Remind me</a></span></td>
+</tr><!--Deadline Checklist Todo 1022-->
+
+<tr class="alternateRows"> 
+  <td>
+  <span class="smallText">Exhibitor appointed contractor paperwork due (Notification of Intent, EAC Agreement, Worker Button Order Form, Certificate of Insurance)</span></td>
+  <td></td>
+  <td><span class="smallText">Dec 10</span></td>
+  <td><span class="smallText"><A href="mailto:CESops@CE.org">CES Operations <BR></A>703-907-7786</span></td>
+  <td nowrap><span class="smallText"><a href="/global_includes/asp/addToCalendar.asp?date=12/10/2010&description=Exhibitor appointed contractor paperwork due (Notification of Intent, EAC Agreement, Worker Button Order Form, Certificate of Insurance)">Remind me</a></span></td>
+</tr><!--Deadline Checklist Todo 1038-->
+
+<tr class=""> 
+  <td>
+  <span class="smallText">Exhibitor press conference and event signage orders due</span></td>
+  <td></td>
+  <td><span class="smallText">Dec 13</span></td>
+  <td><span class="smallText"><A href="mailto:lasvegas@gesexpo.com">GES Exposition Services </A><BR>800-475-2098</span></td>
+  <td nowrap><span class="smallText"><a href="/global_includes/asp/addToCalendar.asp?date=12/13/2010&description=Exhibitor press conference and event signage orders due">Remind me</a></span></td>
+</tr><!--Deadline Checklist Todo 1018-->
+
+<tr class="alternateRows"> 
+  <td>
+  <span class="smallText">Venetian exhibitors: SES advance orders due for Internet, phone, electrical, rigging, and plumbing</span></td>
+  <td></td>
+  <td><span class="smallText">Dec 16</span></td>
+  <td><span class="smallText"><A href="http://www.SandsExpo.com" target=_blank>Specialized Event Services</A><BR>702-733-5070</span></td>
+  <td nowrap><span class="smallText"><a href="/global_includes/asp/addToCalendar.asp?date=12/16/2010&description=Venetian meeting room exhibitors: SES advance orders due for Internet, phone, electrical, rigging, and plumbing">Remind me</a></span></td>
+</tr><!--Venetian meeting room exhibitors-->
+
+<tr class=""> 
+  <td>
+  <span class="smallText">Venetian <STRONG>meeting room</STRONG> exhibitors: Advance rate deadline for catering orders</span></td>
+  <td></td>
+  <td><span class="smallText">Dec 16</span></td>
+  <td><span class="smallText"><A href="mailto:jerry.davidson@venetian.com">The Venetian<BR></A>702-414-1347</span></td>
+  <td nowrap><span class="smallText"><a href="/global_includes/asp/addToCalendar.asp?date=12/16/2010&description=Venetian meeting room exhibitors: Advance rate deadline for catering orders">Remind me</a></span></td>
+</tr><!--Deadline Checklist Todo 1037-->
+
+<tr class="alternateRows"> 
+  <td>
+  <span class="smallText">GES standard and specialty furnishings orders due</span></td>
+  <td></td>
+  <td><span class="smallText">Dec 17</span></td>
+  <td><span class="smallText"><A href="mailto:lasvegas@gesexpo.com">GES Exposition Services </A><BR>800-475-2098</span></td>
+  <td nowrap><span class="smallText"><a href="/global_includes/asp/addToCalendar.asp?date=12/17/2010&description=GES standard and specialty furnishings orders due">Remind me</a></span></td>
+</tr><!--Deadline Checklist Todo 1036-->
+
+<tr class=""> 
+  <td>
+  <span class="smallText">GES/GEM system rentals due</span></td>
+  <td></td>
+  <td><span class="smallText">Dec 17</span></td>
+  <td><span class="smallText"><A href="mailto:lasvegas@gesexpo.com">GES Exposition Services </A><BR>800-475-2098</span></td>
+  <td nowrap><span class="smallText"><a href="/global_includes/asp/addToCalendar.asp?date=12/17/2010&description=GES/GEM system rentals due">Remind me</a></span></td>
+</tr><!--Deadline Checklist Todo 1034-->
+
+<tr class="alternateRows"> 
+  <td>
+  <span class="smallText">GES hardwall package orders due</span></td>
+  <td></td>
+  <td><span class="smallText">Dec 17</span></td>
+  <td><span class="smallText"><A href="mailto:lasvegas@gesexpo.com">GES Exposition Services </A><BR>800-475-2098</span></td>
+  <td nowrap><span class="smallText"><a href="/global_includes/asp/addToCalendar.asp?date=12/17/2010&description=GES hardwall package orders due">Remind me</a></span></td>
+</tr><!--Deadline Checklist Todo 1030-->
+
+<tr class=""> 
+  <td>
+  <span class="smallText">GES booth carpet orders due</span></td>
+  <td></td>
+  <td><span class="smallText">Dec 17</span></td>
+  <td><span class="smallText"><A href="mailto:lasvegas@gesexpo.com">GES Exposition Services </A><BR>800-475-2098</span></td>
+  <td nowrap><span class="smallText"><a href="/global_includes/asp/addToCalendar.asp?date=12/17/2010&description=GES booth carpet orders due">Remind me</a></span></td>
+</tr><!--Deadline Checklist Todo 1028-->
+
+<tr class="alternateRows"> 
+  <td>
+  <span class="smallText">GES custom sign orders due</span></td>
+  <td></td>
+  <td><span class="smallText">Dec 17</span></td>
+  <td><span class="smallText"><A href="mailto:lasvegas@gesexpo.com">GES Exposition Services </A><BR>800-475-2098</span></td>
+  <td nowrap><span class="smallText"><a href="/global_includes/asp/addToCalendar.asp?date=12/17/2010&description=GES custom sign orders due">Remind me</a></span></td>
+</tr><!--Deadline Checklist Todo 1027-->
+
+<tr class=""> 
+  <td>
+  <span class="smallText">GES special draping orders due</span></td>
+  <td></td>
+  <td><span class="smallText">Dec 17</span></td>
+  <td><span class="smallText"><A href="mailto:lasvegas@gesexpo.com">GES Exposition Services </A><BR>800-475-2098</span></td>
+  <td nowrap><span class="smallText"><a href="/global_includes/asp/addToCalendar.asp?date=12/17/2010&description=GES special draping orders due">Remind me</a></span></td>
+</tr><!--Deadline Checklist Todo 1026-->
+
+<tr class="alternateRows"> 
+  <td>
+  <span class="smallText">GES installation/dismantle labor orders due</span></td>
+  <td></td>
+  <td><span class="smallText">Dec 17</span></td>
+  <td><span class="smallText"><A href="mailto:lasvegas@gesexpo.com">GES Exposition Services </A><BR>800-475-2098</span></td>
+  <td nowrap><span class="smallText"><a href="/global_includes/asp/addToCalendar.asp?date=12/17/2010&description=GES installation/dismantle labor orders due">Remind me</a></span></td>
+</tr><!--Deadline Checklist Todo 1025-->
+
+<tr class=""> 
+  <td>
+  <span class="smallText">GES third-party billing deadline</span></td>
+  <td></td>
+  <td><span class="smallText">Dec 17</span></td>
+  <td><span class="smallText"><A href="mailto:lasvegas@gesexpo.com">GES Exposition Services </A><BR>800-475-2098</span></td>
+  <td nowrap><span class="smallText"><a href="/global_includes/asp/addToCalendar.asp?date=12/17/2010&description=GES third-party billing deadline">Remind me</a></span></td>
+</tr><!--Deadline Checklist Todo 1024-->
+
+<tr class="alternateRows"> 
+  <td>
+  <span class="smallText">GES booth carpet cleaning orders due</span></td>
+  <td></td>
+  <td><span class="smallText">Dec 17</span></td>
+  <td><span class="smallText"><A href="mailto:lasvegas@gesexpo.com">GES Exposition Services </A><BR>800-475-2098</span></td>
+  <td nowrap><span class="smallText"><a href="/global_includes/asp/addToCalendar.asp?date=12/17/2010&description=GES booth carpet cleaning orders due">Remind me</a></span></td>
+</tr><!--Deadline Checklist Todo 1021-->
+
+<tr class=""> 
+  <td>
+  <span class="smallText">LVCC/Hilton exhibitors: Last day for advance shipments to arrive at the warehouse without surcharges</span></td>
+  <td></td>
+  <td><span class="smallText">Dec 17</span></td>
+  <td><span class="smallText"><A href="mailto:lasvegas@gesexpo.com">GES Exposition Services </A><BR>800-475-2098</span></td>
+  <td nowrap><span class="smallText"><a href="/global_includes/asp/addToCalendar.asp?date=12/18/2010&description=LVCC/Hilton exhibitors: Last day for advance shipments to arrive at the warehouse without surcharges">Remind me</a></span></td>
+</tr><!--Deadline Checklist Todo 1012-->
+
+<tr class="alternateRows"> 
+  <td>
+  <span class="smallText">Freeman&nbsp;Audio Visual equipment/labor orders due</span></td>
+  <td></td>
+  <td><span class="smallText">Dec 17</span></td>
+  <td><span class="smallText"><A href="mailto: dorian.metoyer@freemanco.com">Freeman&nbsp;Audio Visual</A> <BR>702-263-1484</span></td>
+  <td nowrap><span class="smallText"><a href="/global_includes/asp/addToCalendar.asp?date=12/17/2010&description=Freeman Audio Visual equipment/labor orders due">Remind me</a></span></td>
+</tr><!--Deadline Checklist Todo 1016-->
+
+<tr class=""> 
+  <td>
+  <span class="smallText">Hilton exhibitors: Priority Networks telephone/internet orders due</span></td>
+  <td></td>
+  <td><span class="smallText">Dec 20</span></td>
+  <td><span class="smallText"><A href="mailto:order@prioritynetworks.net">Priority Networks <BR></A>702-967-9300</span></td>
+  <td nowrap><span class="smallText"><a href="/global_includes/asp/addToCalendar.asp?date=12/20/2010&description=Hilton exhibitors: Priority Networks telephone/Internet orders due">Remind me</a></span></td>
+</tr><!--Deadline Checklist Todo 1013-->
+
+<tr class="alternateRows"> 
+  <td>
+  <span class="smallText">GES warehouse closed in observance of Christmas</span></td>
+  <td></td>
+  <td><span class="smallText">Dec 24-25</span></td>
+  <td><span class="smallText"><A href="mailto:lasvegas@gesexpo.com">GES Exposition Services </A><BR>800-475-2098</span></td>
+  <td nowrap><span class="smallText"><a href="/global_includes/asp/addToCalendar.asp?date=12/24/2010&description=GES warehouse closed in observance of Christmas">Remind me</a></span></td>
+</tr><!--Deadline Checklist Todo 4127-->
+
+<tr class=""> 
+  <td>
+  <span class="smallText">Venetian exhibitors: Deadline for your freight to arrive at the GES advance warehouse and receive the discounted material handling rate!</span></td>
+  <td></td>
+  <td><span class="smallText">Dec 27</span></td>
+  <td><span class="smallText"><A href="mailto: itrevino@ges.com">GES<BR></A>702-263-1584
+<P>&nbsp;</P></span></td>
+  <td nowrap><span class="smallText"><a href="/global_includes/asp/addToCalendar.asp?date=12/27/2010&description=Remind me">Remind me</a></span></td>
+</tr><!--Deadline Checklist Todo 1010-->
+
+<tr class="alternateRows"> 
+  <td>
+  <span class="smallText">Exhibitor Temp Badges/Badge holder pickup starts at 7:30 a.m. in <A href="/showFloor/by-hall.asp">LVCC Grand Lobby</A></span></td>
+  <td></td>
+  <td><span class="smallText">Dec 28</span></td>
+  <td><span class="smallText"></span></td>
+  <td nowrap><span class="smallText"><a href="/global_includes/asp/addToCalendar.asp?date=12/28/2010&description=Exhibitor Temp Badges/Badge holder pickup starts at 7:30 a.m. in LVCC Grand Lobby">Remind me</a></span></td>
+</tr><!--Deadline Checklist Todo 1008-->
+
+<tr class=""> 
+  <td>
+  <span class="smallText">Exhibitor Press Kit delivery begins</span></td>
+  <td></td>
+  <td><span class="smallText">Dec 31</span></td>
+  <td><span class="smallText"><A href="mailto:PRContact@CE.org">PR Liaison</A><BR>703-907-7603</span></td>
+  <td nowrap><span class="smallText"><a href="/global_includes/asp/addToCalendar.asp?date=12/31/2010&description=Exhibitor Press Kit delivery begins">Remind me</a></span></td>
+</tr>
+<tr><td colspan="5"><img src="/images/framework/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br><a class="back_to_top" href="#top">[back to top]</a></td></tr>
+</table><a name="958" /></a>
+<div class="keynote-divider"></div>
+<br />
+
+<div class="date-header">January</div>
+
+<table width=100% cellpadding=2 cellspacing=0 border=0 align="center">
+<tr> 
+  <td width="55%"><strong>To Do</strong></td>
+  <td></td>
+  <td width="8%"><strong>Date</strong></td>
+  <td width="25%"><strong>Contact</strong></td>
+  <td width="12%"><strong>Add to<br>Outlook</strong></td>
+</tr>
+
+    <!--Deadline Checklist Todo 1067-->
+
+<tr class="alternateRows"> 
+  <td>
+  <span class="smallText">GES warehouse and all exhibit halls/facilities closed in observance of New Years Day; no exhibitor activity is permitted</span></td>
+  <td></td>
+  <td><span class="smallText">Jan 1</span></td>
+  <td><span class="smallText"><A href="mailto:lasvegas@gesexpo.com">GES Exposition Services </A><BR>800-475-2098</span></td>
+  <td nowrap><span class="smallText"><a href="/global_includes/asp/addToCalendar.asp?date=1/1/2011&description=GES warehouse and all exhibit halls/facilities closed in observance of New Years Day; no exhibitor activity is permitted">Remind me</a></span></td>
+</tr><!--Deadline Checklist Todo 1066-->
+
+<tr class=""> 
+  <td>
+  <span class="smallText"><A href="/exhibitors/sponsorships/freeOpps.asp">BusinessWire</A> exhibitor profiles due (FREE)</span></td>
+  <td></td>
+  <td><span class="smallText">Jan 2</span></td>
+  <td><span class="smallText"><A href="mailto:lharbar@bizwire.com">BusinessWire </A><BR>800-237-8212</span></td>
+  <td nowrap><span class="smallText"><a href="/global_includes/asp/addToCalendar.asp?date=1/2/2011&description=BusinessWire exhibitor profiles due (FREE)">Remind me</a></span></td>
+</tr><!--Deadline Checklist Todo 1065-->
+
+<tr class="alternateRows"> 
+  <td>
+  <span class="smallText">Exhibitor registration open at 7:30 a.m.</span></td>
+  <td></td>
+  <td><span class="smallText">Jan 3</span></td>
+  <td><span class="smallText"></span></td>
+  <td nowrap><span class="smallText"><a href="/global_includes/asp/addToCalendar.asp?date=1/3/2011&description=Exhibitor registration open at 7:30 a.m.">Remind me</a></span></td>
+</tr><!--Deadline Checklist Todo 1062-->
+
+<tr class=""> 
+  <td>
+  <span class="smallText"><A href="/exhibitors/sponsorships/pressOpportunitites.asp">Online Media Center</A> materials due</span></td>
+  <td></td>
+  <td><span class="smallText">Jan 5</span></td>
+  <td><span class="smallText">Business Wire: 888-381-9473<BR>or tradeshow@businesswire.com</span></td>
+  <td nowrap><span class="smallText"><a href="/global_includes/asp/addToCalendar.asp?date=1/5/2011&description=Online Media Center materials due">Remind me</a></span></td>
+</tr><!--Deadline Checklist Todo 1059-->
+
+<tr class="alternateRows"> 
+  <td>
+  <span class="smallText">Last day to ship press/analyst kits to the press room.&nbsp; Can hand deliver anytime afterward during Press Room hours.</span></td>
+  <td></td>
+  <td><span class="smallText">Jan 5</span></td>
+  <td><span class="smallText"><A href="mailto:PRContact@CE.org">PR Liaison</A><BR>703-907-7603</span></td>
+  <td nowrap><span class="smallText"><a href="/global_includes/asp/addToCalendar.asp?date=1/5/2011&description=Last day to ship press/analyst kits to the press room.  Can hand deliver anytime afterward during Press Room hours.">Remind me</a></span></td>
+</tr><!--Deadline Checklist Todo 1063-->
+
+<tr class=""> 
+  <td>
+  <span class="smallText">Recommended date for product deliveries only</span></td>
+  <td></td>
+  <td><span class="smallText">Jan 3</span></td>
+  <td><span class="smallText"><A href="mailto:lasvegas@gesexpo.com">GES Exposition Services </A><BR>800-475-2098</span></td>
+  <td nowrap><span class="smallText"><a href="/global_includes/asp/addToCalendar.asp?date=1/3/2011&description=Recommended date for product deliveries only">Remind me</a></span></td>
+</tr><!--Deadline Checklist Todo 1061-->
+
+<tr class="alternateRows"> 
+  <td>
+  <span class="smallText">Venetian suite exhibitors may check in to their suites at 8 a.m.</span></td>
+  <td></td>
+  <td><span class="smallText">Jan 4</span></td>
+  <td><span class="smallText"><A href="mailto:gberube@ce.org">Gaiya Berube</A><BR>703-907-7685</span></td>
+  <td nowrap><span class="smallText"><a href="/global_includes/asp/addToCalendar.asp?date=1/4/2011&description=Venetian suite exhibitors may check in to their suites at 8 a.m.">Remind me</a></span></td>
+</tr><!--Deadline Checklist Todo 1060-->
+
+<tr class=""> 
+  <td>
+  <span class="smallText">Venetian meeting room exhibitors may access their meeting room at 1 p.m.</span></td>
+  <td></td>
+  <td><span class="smallText">Jan 4</span></td>
+  <td><span class="smallText"><A href="mailto:gberube@ce.org">Gaiya Berube</A><BR>703-907-7685</span></td>
+  <td nowrap><span class="smallText"><a href="/global_includes/asp/addToCalendar.asp?date=1/4/2011&description=Venetian meeting room exhibitors may access their meeting room at 1 p.m.">Remind me</a></span></td>
+</tr><!--Deadline Checklist Todo 1058-->
+
+<tr class="alternateRows"> 
+  <td>
+  <span class="smallText">All booths must be set up by 3 p.m.; refer to your <A href="/exhibitors/showPlanning/default.asp">Exhibitor Manual </A>for a detailed installation schedule</span></td>
+  <td></td>
+  <td><span class="smallText">Jan 4</span></td>
+  <td><span class="smallText"><A href="mailto:lasvegas@gesexpo.com">GES Exposition Services </A><BR>800-475-2098</span></td>
+  <td nowrap><span class="smallText"><a href="/global_includes/asp/addToCalendar.asp?date=1/4/2011&description=All booths must be set up by 3 p.m.; refer to your Exhibitor Manual for a detailed installation schedule">Remind me</a></span></td>
+</tr><!--Deadline Checklist Todo 1056-->
+
+<tr class=""> 
+  <td>
+  <span class="smallText">Order after-hours electrical power if needed, and confirm your labor order for dismantling; refer to your <A href="/exhibitors/showPlanning/default.asp">Exhibitor Manual</A> for a detailed dismantling schedule</span></td>
+  <td></td>
+  <td><span class="smallText">Jan 5</span></td>
+  <td><span class="smallText"><A href="mailto:lasvegas@gesexpo.com">GES Exposition Services </A><BR>800-475-2098</span></td>
+  <td nowrap><span class="smallText"><a href="/global_includes/asp/addToCalendar.asp?date=1/5/2011&description=Order after-hours electrical power if needed, and confirm your labor order for dismantling; refer to your Exhibitor Manual for a detailed dismantling schedule">Remind me</a></span></td>
+</tr><!--Deadline Checklist Todo 1057-->
+
+<tr class="alternateRows"> 
+  <td>
+  <span class="smallText">2012 CES Space Selection: Ensure you've received your space selection packet</span></td>
+  <td></td>
+  <td><span class="smallText">Jan 6-9</span></td>
+  <td><span class="smallText"><FONT face=Arial color=#333333><A href="mailto:cesdirectory@ce.org">CES Sales</A><BR>703-907-7645</FONT></span></td>
+  <td nowrap><span class="smallText"><a href="/global_includes/asp/addToCalendar.asp?date=1/6/2011&description=2012 CES Space Selection: Ensure you've received your space selection packet">Remind me</a></span></td>
+</tr>
+<tr><td colspan="5"><img src="/images/framework/spacer.gif" alt="" width="1" height="5" hspace="0" vspace="0" border="0"><br><a class="back_to_top" href="#top">[back to top]</a></td></tr>
+</table>    
+                        
+                            <br /><br /><br />
+                            <img align="middle" src="/images/framework/printThis.gif">&nbsp;<a href="#" onclick="window.open('/print/exhibitors/deadlines.asp?', '_blank', 'status=yes,toolbar=yes,menubar=yes,scrollbars=yes,location=no,width=1024');return false;" class="printEmail">PRINT THIS</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img align="middle" src="/images/framework/emailThis.gif">&nbsp;<a href="javascript:openNew('/utilities/emailPage.asp');" class="printEmail">E-MAIL THIS</a>
+    
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div id="sitelinks">
+
+    
+    <div>
+        <img src="/images/framework/footer_cesnews.png" alt="CES NEWS">
+        <ul>
+            <li><a href="http://cesweb.org/register">Registration now open for 2011 show</li>
+            <li><a href="http://www.CESweb.org/Facebook">Follow CES on Facebook</li>
+            <li><a href="/news/rssNews.asp">See all the latest CES news</li>
+        </ul>
+    </div>
+    <div>
+        <img src="/images/framework/footer_confprog.png" alt="SESSION HIGHLIGHTS">
+        <ul>
+            <li><a href="/conferenceProgram/speakers/default.asp">Want to speak at CES? Submit your application now</li>
+            <li><a href="/conferenceProgram/conference-tracks.asp">2011 conference program lineup announced October 1</li>
+            <li><a href="/conferenceProgram/speakers/speakerServices.asp">See services available to CES speakers</li>
+        </ul>
+    </div>
+    <div>
+        <img src="/images/framework/footer_eventsawards.png" alt="EVENTS & AWARDS">
+        <ul>
+            <li><a href="/events/CEA-events.asp">CEA offers events beyond CES</li>
+            <li><a href="/istage.asp">Innovators: It's time to enter i-stage competition</li>
+            <li><a href="/awards/innovations/default.asp">Best of CES, Innovations return to CES</li>
+        </ul>
+    </div>
+    <div>
+        <img src="/images/framework/footer_hoteltravel.png" alt="HOTEL & TRAVEL">
+        <ul>
+            <li><a href="/hotelTravel/hotel.asp">Dozens of Vegas hotels offer discounts for CES goers</li>
+            <li><a href="/hotelTravel/shuttle.asp">CES offers free shuttle service all four days of show</li>
+            <li><a href="/hotelTravel/cars.asp">Car rental discounts available for CES goers</li>
+        </ul>
+    </div>
+</div>
+        </div>
+    </div>
+    
+    <div id="footer-home">
+    <div id="footer_nav-home">
+        <a href="http://www.cesweb.org/aboutces.asp"><a href="/aboutces.asp">About CES</a></a><span>|</span>
+        <a href="http://www.cesweb.org/aboutcea.asp"><a href="/aboutcea.asp">About CEA</a></a><span>|</span>
+        <a href="http://www.cesweb.org/rssNews.asp"><a href="/news/rssNews.asp">RSS News</a></a><span>|</span>
+        <a href="http://www.cesweb.org/myCES.asp"><a href="/myCES.asp">MyCES</a></a><span>|</span>
+        <a href="http://www.cesweb.org/contactus.asp"><a href="/contactus.asp">Contact Us</a></a><span>|</span>
+        <a href="http://www.cesweb.org/sitemap.asp"><a href="/sitemap.asp">Site Map</a></a><span>|</span>
+        <a href="http://www.cesweb.org/privacyPolicy.asp"><a href="/privacyPolicy.asp">Privacy Policy</a></a><span>|</span>
+        <a href="http://www.cesweb.org/partners.asp"><a href="/partners.asp">Partners</a></a>&nbsp;
+    </div>
+    <div id="copyright-home">Copyright &copy; 2003 - 2010 CEA. All rights reserved.</div>
+    <a target="_blank" href="http://www.CE.org"><img src="/images/framework/cesweb_footerlogo.png" border="0"></a>
+</div>
+
+
+<!-- Yahoo! Web Analytics - All rights reserved -->
+<script type="text/javascript" src="http://d.yimg.com/mi/eu/ywa.js"></script>
+<script type="text/javascript">
+/*globals YWA*/
+var YWATracker = YWA.getTracker("1000217290027");
+//YWATracker.setDocumentName("");
+//YWATracker.setDocumentGroup("");
+//YMATracker.setAction("");
+YWATracker.submit();
+</script>
+<noscript>
+<div><img src="http://s.analytics.yahoo.com/p.pl?a=1000217290027&amp;js=no" width="1" height="1" alt="" /></div>
+</noscript>
+<!-- /Yahoo! Web Analytics - All rights reserved -->
+
+
+</body>
+</html>
