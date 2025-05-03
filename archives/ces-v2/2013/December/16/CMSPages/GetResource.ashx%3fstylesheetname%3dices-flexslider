@@ -1,0 +1,131 @@
+/*
+ * jQuery FlexSlider v1.8
+ * http://flex.madebymufffin.com
+ *
+ * Copyright 2011, Tyler Smith
+ * Free to use under the MIT license.
+ * http://www.opensource.org/licenses/mit-license.php 
+ */
+/* Browser Resets */
+.flex-container a:active,
+.flexslider a:active {outline: none;}
+.slides,
+.flex-control-nav,
+.flex-direction-nav {margin: 0; padding: 0; list-style: none;} 
+/* FlexSlider Necessary Styles
+*********************************/ 
+.flexslider {width: 100%; height:auto; padding-bottom:20px;  margin: 20px 0;float:left;  }
+.flexslider.alternative {border-bottom:none}
+.flexslider.blog-post,.flexslider.portfolio-item  {padding-bottom:0px;  margin: 0px 0 10px 0; border-bottom:none;}
+.flexslider.blog-post .flex-control-nav,.flexslider.portfolio-item .flex-control-nav {display:none}
+ 
+.flexslider .slides > li {display: none;} /* Hide the slides before the JS is loaded. Avoids image jumping */
+.flexslider .slides img {max-width: 100%; display: block;}
+.flex-pauseplay span {text-transform: capitalize;}
+/* Clearfix for the .slides element */
+.slides:after {content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0;} 
+html[xmlns] .slides {display: block;} 
+* html .slides {height: 1%;}
+
+/* No JavaScript Fallback */
+/* If you are not using another script, such as Modernizr, make sure you
+ * include js that eliminates this class on page load */
+.no-js .slides > li:first-child {display: block;}
+/* FlexSlider Default Theme
+*********************************/
+.flexslider {position: relative;zoom: 1;float:left; }
+ 
+.flexslider .slides {zoom: 1;}
+.flexslider .slides > li {position: relative;}
+/* Suggested container for "Slide" animation setups. Can replace this with your own, if you wish */
+.flex-container {zoom: 1; position: relative;}
+/* Caption style */
+/* IE rgba() hack */
+.flex-caption {zoom: 1;}
+.flex-caption {   width:100%;height:100%; }
+.flex-caption h2{ margin:0;background:#007bc3;color:#FFF;font-size:16px;font-weight:bold;text-transform:uppercase;padding:10px;font-family:Arial, Verdana;float:left;}
+.flex-caption h3{ background:#191e28;color:#FFF;font-size:12px;font-weight:normal;text-transform:uppercase;padding:10px;font-family:Arial, Verdana;float:left;  }
+ .flex-caption  .text {position: absolute; left: 0x; bottom: 30px; }
+ .flex-caption  .text .flex_title{float:left;width:100%; }
+ .flex-caption  .text .flex_subtitle{float:left;width:100%; }
+ 
+ .loading {min-height:350px;margin:0 auto; background: url("http://cesweb.org/ces/images/loading.gif") no-repeat center center;}
+ .fade {opacity:0.5:}
+ 
+.flexslider .slides > li   { z-index: 1 ;}
+ 
+.flexslider .slides > li  { display: none;-webkit-backface-visibility: hidden;}
+.flex-direction-nav    { z-index: 3 }
+.flex-direction-nav li a { z-index:3;color: #fff;font-size: 20px;display: block;background-color: rgba(0,0,0,0.7);  }
+
+.flex-direction-nav li a.flex-next,
+.flex-direction-nav li a.flex-prev { width:40px;height:45px;text-indent:-9999px;display:block;position:absolute;top:45%; }
+.flex-direction-nav li .flex-next  {background:#2d3032 url("http://cesweb.org/ces/images/slider-next.png") 0 50% no-repeat;right:0px;border-radius:4px 0 0 4px;}
+.flex-direction-nav li .flex-prev  { background:#2d3032  url("http://cesweb.org/ces/images/slider-prev.png") 0 50% no-repeat;left:0px;border-radius:0px 4px 4px 0px;}
+.flex-direction-nav li .flex-next:hover  {background:#007bc3  url("http://cesweb.org/ces/images/slider-next.png") 0 50% no-repeat;}
+.flex-direction-nav li .flex-prev:hover  { background:#007bc3  url("http://cesweb.org/ces/images/slider-prev.png") 0 50% no-repeat;}
+.flex-direction-nav{display: none;}
+ 
+.flex-control-nav {width: 100%;position: absolute;text-align:center;display:block;z-index:250;}
+.flex-control-nav li {margin: 20px 0 0 5px; display: inline-block; zoom: 1; *display: inline;text-indent:-9999px;}
+.flex-control-nav li:first-child {margin: 0;}
+.flex-control-nav li a {-webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;width: 30px; height: 10px;display: block; background:#eaeaea;cursor:pointer; text-indent: -999em;}
+.flex-control-nav li a:hover {background:#007bc3;}
+.flex-control-nav li a.flex-active {background:#007bc3;}
+ 
+
+ 
+ .flex-container a:active,
+.portfolio-flexslider a:active {outline: none;}
+.slides,
+.flex-control-nav,
+.flex-direction-nav {margin: 0; padding: 0; list-style: none;} 
+ 
+
+.portfolio-flexslider {width: 100%;  margin: 0; padding: 0;}
+.portfolio-flexslider .slides > li {display: none;} 
+.portfolio-flexslider .slides img {max-width: 100%; display: block;}
+.flex-pauseplay span {text-transform: capitalize;}
+
+.slides:after {content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0;} 
+html[xmlns] .slides {display: block;} 
+* html .slides {height: 1%;}
+
+
+.no-js .slides > li:first-child {display: block;}
+
+ 
+.portfolio-flexslider .slides {zoom: 1;}
+.portfolio-flexslider .slides > li {position: relative;}
+
+.flex-container {zoom: 1; position: relative;width:100%;  }
+
+
+
+
+ 
+ 
+@media only screen and (max-width: 767px) {
+	.flex-caption{display:none}
+	.loading {min-height:250px;margin:0 auto; background: url("http://cesweb.org/ces/images/loading.gif") no-repeat center center;}
+	 
+	}
+ 
+ @media only screen and (min-width: 480px) and (max-width: 767px) {
+	.flex-direction-nav li a.flex-next,.flex-direction-nav li a.flex-prev {top:30%; }
+	 .flexslider.portfolio-item .flex-direction-nav li a.flex-next, .flexslider.portfolio-item .flex-direction-nav li a.flex-prev {top:45%; }
+	.loading {min-height:200px;margin:0 auto; background: url("http://cesweb.org/ces/images/loading.gif") no-repeat center center;}
+	}
+	
+@media only screen and (min-width: 320px) and (max-width: 479px)  {
+.flex-direction-nav li a.flex-next,.flex-direction-nav li a.flex-prev {top:30%; }
+.loading {min-height:140px;margin:0 auto; background: url("http://cesweb.org/ces/images/loading.gif") no-repeat center center;}
+ .flexslider.portfolio-item .flex-direction-nav li a.flex-next, .flexslider.portfolio-item .flex-direction-nav li a.flex-prev {top:40%; }
+
+}
+
+/* Minification failed (line 70, error number 1049): Browser hack generates invalid CSS */

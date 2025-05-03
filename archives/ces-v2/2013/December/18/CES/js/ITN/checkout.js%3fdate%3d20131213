@@ -1,0 +1,155 @@
+var computedCart; var m_codeLookup;
+var m_tmplBestPrice; var m_tmplSelectedItems; var m_tmplOptions; var m_tmplAvailableItems;
+var m_tmplAllAccessCompare; var m_tmplIncludedSessions; var m_tmplItemsFromCart; var m_tmplItems;
+
+jQuery.noConflict();
+(function ($) {
+  $(document).ready(function(){
+
+	$('body').addClass("loading");
+	var p = $("div.article-content-area");
+	var offset = p.offset();
+	//set
+	$(".modal").offset({ top: offset.top, left: offset.left});
+	$(".modal").width($('#inner-content-long').width());
+	$(".modal").height(500);
+	jQuery('.removeCartItem').live('click', function(event) {
+		var id = jQuery(this).parent().attr('id').replace('cartItem', '');
+		Cart.removeFromCart(id, buildCart);
+	});
+
+	jQuery('.checkout').live('mouseover mouseout mousedown', function(event) {
+	 if (event.type == 'mouseover') {
+	  jQuery(this).css("background-color", "#000000").css("cursor", "pointer");
+	 } else if (event.type == 'mouseout') {
+	  jQuery(this).css("background-color", "#2ca7c2").css("cursor", "arrow");
+	 } else { 
+		link = "https://ces.itnint.com/2014/RegOnline/RegLogin.aspx?ccid=" + Cart.checkout.Identifier;
+	   window.location = link;
+//	  jQuery.when(
+//		  'checkout',
+//		  jQuery.ajax("/cesweb/serviceCalls/ConferenceSessions/createCustomer.ashx")
+//	  ).then(checkoutExperient, failureFunc);
+	 } //end if
+	}); //end event
+
+	jQuery('#allAccessLink').live('click', function(event) {
+	jQuery.when(
+		'checkout',
+		jQuery.ajax("/ces/serviceCalls/ConferenceSessions/createCustomer.ashx")
+	).then(checkoutExperient, failureFunc);
+	}); //end event
+   
+//	Cart.getCart();
+	Cart.Load();
+	$.when(Template.ready, Cart.ready).then(function() {
+		buildCart();
+	});
+	
+	$.when(Template.ready, Cart.checkoutReady).then(function() {
+		buildCart();
+	});
+  }); // end document.ready
+ 
+ }(jQuery));
+
+  function calcAllAccessGoodness() {
+		var o = new Object(); var pd = 1300 - computedCart.CheckOutPrice; var a= []; var t;
+		o.Display = true;
+		for (var i=0;i<=computedCart.CheckOutItems.length-1;i++) {
+			if (computedCart.CheckOutItems[i].CartItem == 'ALL') {o.Display = false;}
+			for (var j=0;j<=computedCart.CheckOutItems[i].IncludedSessions.length-1;j++) {
+				a.push(computedCart.CheckOutItems[i].IncludedSessions[j]);
+			}
+		}
+		t = a.length;
+		o.PriceDifference = '&#36;' + pd;
+		o.SessionDifference = 350 - t;
+		return o;
+	}
+
+	function getUnavailableItems() {
+		var a = [];
+		// nothing to do. Unavailable items aren't returned.
+		return a; 
+	}
+	  
+	function dedupeIncludeList(list) {
+		var a = getSelectedItems();
+		jQuery.each(a, function(i, item) {
+			var p = jQuery.inArray(item.Code, list);
+			if (p >=0) {
+				list.splice(p, 1);
+			}
+		});
+		jQuery.each(computedCart.CheckOutItems, function(i, item) {
+			var p = jQuery.inArray(item.CartItem, list);
+			if (p >=0) {
+				list.splice(p, 1);
+			}
+		});
+		return list.slice(0,15);
+	}
+
+	function buildCart() {
+		var _checkout = Cart.checkout;
+		jQuery('#price').text('');
+		jQuery('#selectedItems').text('');
+		jQuery('#cart').text('');
+
+		jQuery('#price').append(Mustache.render(Template.get("bestPrice"), _checkout));
+	
+		if (_checkout !== null && !_.isUndefined(Cart.checkout.ItemsToPurchase) && Cart.checkout.SaleItems.length > 0) {
+			jQuery('#cartContainer').show();
+			jQuery('#emptyCart').hide();
+			var u = getUnavailableItems();
+
+			jQuery('#selectedItems').append(Mustache.render(Template.get("selectedItems"), Cart.checkout.SelectedItems));
+			jQuery('#cart').append(Mustache.render(Template.get("options"), null));
+			
+//			jQuery('#checkoutItems').append(Mustache.render(Template.get("free"), Cart.checkout.FreeItems));
+			jQuery('#checkoutItems').append(Mustache.render(Template.get("free"), Cart.checkout));
+			jQuery('#checkoutItems').append(Mustache.render(Template.get("items"), jQuery.grep(Cart.checkout.ItemsToPurchase, function(e){ return e.EffectivePrice > 0; }))); // this grep gets non-free purchase items
+			if (u.length > 0) {
+				jQuery('#unavailableItems' + cartItem.CartItem).append(Mustache.render(Template.get("unavailable"), _checkout));
+				jQuery('#unavailableItems').show();
+			}
+			// we are hiding this for now
+			if (1==2 && jQuery.inArray("ALL", _.pluck(Cart.checkout.ItemsToPurchase, "Code")) < 0 && !_.isUndefined(Cart.pricing["ALL"]))
+			{
+				try {
+					var o = new Object();
+					o.Display = !_.contains(_.pluck(Cart.checkout.ItemsToPurchase, "Code"), "ALL");
+					o.AllAccessPrice = '&#36;' + (Cart.pricing["ALL"].UnitPrice).toString();
+					o.PriceDifference = '&#36;' + (Cart.pricing["ALL"].UnitPrice - Cart.checkout.Total).toString();
+					o.SessionDifference = Cart.pricing["ALL"].Includes.length - Cart.checkout.AllItems.length;
+					jQuery('#cart').append(Mustache.render(Template.get("allAccess"), o));
+				} catch (ex) {
+				
+				}
+			}
+		} else {
+			jQuery('#cartContainer').hide();
+			jQuery('#emptyCart').show();
+		}
+		jQuery('body').removeClass("loading");
+	}
+
+//	function checkoutExperient(type, customer) {
+//		   var link;
+//		   customer = _.first(customer);
+//			switch(type)
+//			{
+//			case 'checkout':
+//				link = "https://test8.itnint.com/CES14/RegOnline/RegLogin.aspx?ccid=" + Cart.checkout.Identifier;
+//				break;
+//			case 'allaccess':
+//				link = "http://registration3.experientevent.com/showCES131/Default_ConferenceCart.aspx?SessionID=" + customer.SessionID + "&CheckOutPrice=1200&CartItem[0]=ALL&CartItemPrice[0]=1200&CartItemType[0]=Pass&CartSessionItems[0]=ALL";
+//				break;
+//			default:
+//			  //code to be executed if n is different from case 1 and 2
+//			}
+//		   window.location = link;
+//	}
+
+	function failureFunc() { alert('there was a problem'); }

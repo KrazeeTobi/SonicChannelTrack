@@ -1,0 +1,8236 @@
+
+/*_____________________________________________________________
+
+					 01 - Reset CSS
+_____________________________________________________________*/
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,and,address,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video,input,textarea,select{background:transparent;border:0;font-size:100%;margin:0;outline:0;padding:0;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}del{text-decoration:line-through}hr{background:transparent;border:0;clear:both;color:transparent;height:1px;margin:0;padding:0}mark{background-color:#ffffb3;font-style:italic}input,select{vertical-align:middle}ins{background-color:red;color:white;text-decoration:none}ol,ul{list-style:none}table{border-collapse:collapse;border-spacing:0}
+/* Clearfix */
+.clear{clear:both;display:block;height:0;overflow:hidden;visibility:hidden;width:0}.clearfix:after{clear:both;content:' ';display:block;font-size:0;height:0;line-height:0;visibility:hidden;width:0}* html .clearfix,:first-child+html .clearfix{zoom:1}
+
+
+ /*_______________________________________________________________________________________
+ 
+					 02 - Main CSS (Body, Typography, top panel, Grid, Navigation)
+_________________________________________________________________________________________*/
+body {
+    color: #898989;
+    font-family: 'open_sansregular', 'Lucida Grande', sans-serif;
+    -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
+    overflow-x: hidden;
+    line-height: 20px;
+    font-size: 12px;
+	font-weight:normal;
+}
+blockquote {
+    background: #FFF url(http://www.cesweb.org/ces/images/quote.png) no-repeat 17px 26px;
+    border: 1px solid #d0d0d0;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) inset, -5px -5px 0 0 #F7F7F4, 5px 5px 0 0 #F7F7F4, 5px 0 0 0 #F7F7F4, 0 5px 0 0 #F7F7F4, 5px -5px 0 0 #F7F7F4, -5px 5px 0 0 #F7F7F4;
+    font: italic 15px/1.6 'PT Serif', Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif;
+    padding: 20px 20px 20px 55px;
+    margin: 0 0 20px 0;
+    color: #898989;
+}
+.colored-text { color: #007bc3 }
+a.colored-text:hover {
+    color: #007bc3;
+    text-decoration: underline;
+}
+::-moz-selection {
+    color: #fff;
+    background: #3254aa;
+}
+::selection {
+    color: #fff;
+    background: #3254aa;
+}
+::-webkit-scrollbar {
+    width: 7px;
+    background: #ccc;
+}
+::-webkit-scrollbar-thumb {
+    background: #007bc3;
+    border-radius: 100px;
+}
+.highlight_txt_01,.highlight_txt_02,.highlight_txt_03,.highlight_txt_04 {padding:2px 5px;color:#FFF;margin:0px 2px;}
+.highlight_txt_01{background:#007bc3;	}
+.highlight_txt_02{background:#b9d955;}
+.highlight_txt_03{background:#00aeef;}
+.highlight_txt_04{background:#e64135;}
+.subheader{color:#777;font-weight:300;margin-bottom:0px;}
+.subheader a{font-weight:300;color:#007bc3;}
+.light{font-weight:200 !important}
+.center-txt {text-align:center;margin-bottom:30px; border-bottom: 1px solid #e1e1e1; padding:0px 0 30px;float:left;} 
+.center-text{text-align:center;}
+.post-title-text{font-size:16px;margin-bottom:30px;line-height:24px;}
+.with-borders{
+	width:100%;
+	padding:15px 0;
+	border-top:1pt solid #ececec;
+	border-bottom:1pt solid #ececec;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+a,
+a > * {
+    color: #00b7d8;
+    text-decoration: none;
+}
+a:hover { text-decoration: none;color:#5676b2; }
+pre,
+code {
+    border: 1px solid #e1e1e1;
+    border-left: 5px solid #e1e1e1;
+    width: 96%;
+    margin: 20px 0;
+    padding: 10px  2%;
+    font-size: 11px;
+    display: inline-block;
+    background-color: #f5f5f5;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+	color:#0068ab;
+}
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+    margin-bottom: 20px;
+    border: 1px solid #efefef;
+    width: 99.9%;
+}
+table.alternative th {
+    background: #324160;
+    border-left: 1px solid #233355;
+    border-right: 1px solid #4b5a78;
+}
+table.alternative td:hover {
+    background: #324160;
+    cursor: pointer;
+    color: #FFF;
+}
+th {
+    padding: 10px 15px;
+    text-transform: none;
+    background: #eeeeee;
+    border-left: 1px solid #036ca9;
+    border-right: 1px solid #2a93d0;
+	 font-size: 14px;
+	font-family: 'open_sanssemibold',Arial,Verdana, serif;
+	color:#5575b4;
+}
+  
+tr:nth-child(odd) {
+   background-color: #f3fcfd;
+  color: #0068ab;
+}
+
+th:first-child { border-left: none }
+th:last-child { border-right: none }
+td:first-child { border-left: none }
+td:last-child { border-right: none }
+td {
+    padding: 5px 10px;
+    position: relative;
+    border-top: 1px solid #efefef;
+    border-left: 1px solid #efefef;
+}
+th:hover {
+    background: #CCC;
+    cursor: pointer;
+}
+td:hover {
+    background: #f9f9f9;
+    cursor: pointer;
+}
+h1 a:hover,
+h2 a:hover,
+h3 a:hover,
+h4 a:hover,
+h5 a:hover,
+h6 a:hover { color: #007bc3 }
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a { text-decoration: underline }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: normal;
+    font-variant: normal;
+    white-space: normal;
+    color: #707070;
+    margin-bottom: 15px;
+    font-family: 'open_sansregular',Arial,Verdana, serif;
+}
+h1 {
+    font-size: 70px;
+    line-height: 72px;
+	font-family: 'open_sanssemibold',Arial,Verdana, serif;
+	font-weight: bold;
+	color:#000;
+}
+h2 {
+    font-size: 36px;
+    line-height: 42px;
+	font-family: 'open_sansregular',Arial,Verdana, serif;
+	font-weight: normal;
+	color:#5575b4;
+}
+h3 {
+     font-size: 24px;
+    line-height: 30px;
+	font-family: 'open_sanssemibold',Arial,Verdana, serif;
+	font-weight: bold;
+	color:#000;
+}
+h4 {
+    font-size: 16px;
+    line-height: 22px;
+	font-family: 'open_sanssemibold',Arial,Verdana, serif;
+	font-weight: bold;
+	color:#5575b4;
+}
+h5 {
+    font-size: 14px;
+    line-height: 18px;
+}
+h6 {
+    font-size: 14px;
+    line-height: 18px;
+}
+	
+	
+p {
+	font-size: 16px;
+    line-height: 24px;
+	font-family: 'open_sansregular', Arial, Verdana, serif;
+	font-weight: regular;
+	color:#000;
+	margin-bottom:25px;
+	}
+
+.float-left {float:left;list-style:none;}
+.float-right {float:right;list-style:none;}
+
+.black {color:#000;}
+
+.no-display {display:none !important;}
+
+.nav-2cols {margin-left:-150px !important;}
+.nav-3cols {margin-left:-250px !important;}
+
+/*--------------------------------------------------------------------------*/
+/*					ESSENTIALS			 		
+/*--------------------------------------------------------------------------*/
+#wrapper{width:100%;float:left;}
+#header {
+    float: left;
+    width: 100%;
+    margin-bottom: 30px;
+}
+#logo {
+	float:left;
+	background:url("http://www.cesweb.org/ces/images/logo.png") no-repeat;
+	width:370px;
+	height:160px;
+	margin-top:-30px;
+	margin-left:-25px;
+}
+.title-div{
+	float:left;
+	text-align:center;
+	padding:30px 0 40px 0;
+	font-weight:200;
+	margin-bottom:30px;
+	width:100%;
+	border-bottom:1px solid #ececec;	
+}
+ .title-div h2{font-weight:300;font-size: 26px;line-height: 32px;}
+/*--------------------------------------------------------------------------*/
+/*									TOP PANEL						 		*/
+/*--------------------------------------------------------------------------*/
+#top_panel {
+    width: 100%;
+    height: auto;
+    float: left;
+    background: #8f8f8f;
+    position: relative;
+    z-index: 9999;
+    margin: 0;
+    padding: 0;
+}
+
+#top_panel .connect-title {
+     float: left;
+    width: auto;
+    padding: 0;
+	font-size:14px;
+	font-weight:700;
+	color:#FFF;
+	padding-top:10px;
+	padding-right:10px;
+	padding-left:10px;
+	text-transform:uppercase;
+	height: 30px;
+}
+
+#top_panel .open-ad{
+    float: left;
+    width: auto;
+    padding: 0;
+	font-size:13px;
+	font-weight:500;
+	color:#FFF;
+	padding-top:10px;
+	padding-right:15px;
+	padding-left:15px;
+	text-transform:uppercase;
+	height: 30px;
+	background:#333;
+}
+
+#top_panel .social_icons {
+    float: left;
+    width: auto;
+    padding: 0;
+}
+#top_panel  .social_icons li {
+    display: inline
+}
+#top_panel  .social_icons li a {
+    float: left;
+    width: 34px;
+    height: 40px;
+    position: relative;
+}
+#top_panel  .social_icons li a {
+    -webkit-transition: all 0.30s ease-out;
+    -moz-transition: all 0.30s ease-out;
+    -o-transition: all 0.30s ease-out;
+    -ms-transition: all 0.30s ease-out;
+    transition: all 0.30s ease-out;
+    background: url("http://www.cesweb.org/ces/images/social-icons/social_icons2.png") no-repeat;
+}
+#top_panel  .social_icons li.facebook a {
+    background-position: 0 top;
+	border-right:solid thin #9c9c9c;
+}
+#top_panel  .social_icons li.facebook a:hover {
+    background-color: #3b5998;
+    background-position: -0 bottom;
+}
+#top_panel  .social_icons li.twitter a {
+    background-position: -34px top;
+	border-right:solid thin #9c9c9c;
+}
+#top_panel  .social_icons li.twitter a:hover {
+    background-color: #33ccff;
+    background-position: -34px bottom;
+}
+#top_panel  .social_icons li.vimeo a {
+    background-position: -68px top;
+	border-right:solid thin #9c9c9c;
+}
+#top_panel  .social_icons li.vimeo a:hover {
+    background-color: #41b0ff;
+    background-position: -68px bottom;
+}
+#top_panel  .social_icons li.googleplus a {
+    background-position: -102px top;
+	border-right:solid thin #9c9c9c;
+}
+#top_panel  .social_icons li.googleplus a:hover {
+    background-color: #d94a39;
+    background-position: -102px bottom;
+}
+#top_panel  .social_icons li.pinterest a {
+    background-position: -136px top;
+	border-right:solid thin #9c9c9c;
+}
+#top_panel  .social_icons li.pinterest a:hover {
+    background-color: #cb2027;
+    background-position: -136px bottom;
+}
+#top_panel  .social_icons li.linkedin a {
+    background-position: -170px top;
+	border-right:solid thin #9c9c9c;
+}
+#top_panel  .social_icons li.linkedin a:hover {
+    background-color: #71b2d0;
+    background-position: -170px bottom;
+}
+#top_panel  .social_icons li.dribbble a {
+    background-position: -204px top;
+	border-right:solid thin #9c9c9c;
+}
+#top_panel  .social_icons li.dribbble a:hover {
+    background-color: #ef5b92;
+    background-position: -204px bottom;
+}
+#top_panel  .social_icons li.instagram a {
+    background-position: -238px top;
+	border-right:solid thin #9c9c9c;
+}
+#top_panel  .social_icons li.instagram a:hover {
+    background-color: #3c87fc;
+    background-position: -238px bottom;
+}
+#top_panel  .social_icons li.youtube a {
+    background-position: -272px top;
+	border-right:solid thin #9c9c9c;
+}
+#top_panel  .social_icons li.youtube a:hover {
+    background-color: #18b7f1;
+    background-position: -272px bottom;
+}
+#top_panel  .social_icons li.rss a {
+    background-position: -306px top;
+	border-right:solid thin #CCC;
+}
+#top_panel  .social_icons li.rss a:hover {
+    background-color: #fe9900;
+    background-position: -306px bottom;
+}
+
+/*--------------------------------------------------------------------------*/
+/*								MAIN GRID					 
+/*--------------------------------------------------------------------------*/
+.container {
+    margin: 0 auto;
+    background:#FFF;
+    width: 1455px;
+	padding-right:40px;
+	padding-left:40px;
+}
+
+#home-grid-bk {
+	width:100%;
+	background:#000 !important;
+	}
+
+.home-body-content {
+	margin-top:40px !important;
+	text-align:left;
+	}
+	
+
+.home-body-content h1{
+	text-transform:uppercase;
+	color:#000;
+	font-size:30px;
+	line-height:33px;
+	font-family:'open_sansregular' !important;
+	padding-bottom:20px;
+	padding-top:0;
+	
+	}
+	
+.home-section {
+  margin-bottom:40px;
+  height:260px;
+  overflow:hidden;
+}
+	
+.home-section h2 {
+	color:#3d76b9;
+	font-size:18px;
+	font-family:'open_sanssemibold';
+	line-height:22px;
+	margin-top:-25px;
+	padding-top:0;
+	}
+	
+.home-section h2 a{
+	color:#3d76b9;
+	text-decoration:none;
+	}
+
+.home-section h2 a:visited {
+	color:#3d76b9;
+	}
+	
+.home-section h2 a:hover{
+	color:#00b7d1;
+	}
+
+.caption {
+	text-transform:uppercase;
+	color:#000;
+	font-size:12px;
+	font-family:'open_sansbold';
+	padding:5px 0px;
+	}
+	
+.caption a {
+	color:#cc1e4c;
+	text-decoration:underline;
+	}
+	
+.caption a:visited {
+	color:#999;
+	}
+	
+.caption a:Hover {
+	color:#00b7d1;
+	}
+	
+.home-press-release {
+	margin-bottom:40px;
+	background:#f0fbfd;
+	border-bottom:solid 5px #00b7d1;
+	min-height:210px;
+	width:30% !important;
+	margin-right:4.33% !important;
+	text-align:left;
+	}
+	
+.home-press-release .caption {
+	background:#00b7d1;
+	color:#FFF;
+	padding-left:10px;
+	}
+
+.home-press-release h2 {
+	color:#3d76b9;
+	font-size:18px;
+	font-family:'open_sanssemibold';
+	line-height:22px;
+	padding-left:20px;
+	padding-top:10px;
+	padding-right:20px;
+	}
+	
+.home-press-release h2 a{
+	color:#3d76b9;
+	text-decoration:none;
+	}
+
+.home-press-release h2 a:visited {
+	color:#3d76b9;
+	}
+	
+.home-press-release h2 a:hover{
+	color:#00b7d1;
+	}
+	
+.home-feature {
+	background:url(http://www.cesweb.org/ces/images/home-feature-bk.png) repeat;
+	margin-top:16px;
+	text-align:left;
+	}
+	
+.home-feature img {
+	width:100% !important;
+}
+	
+.home-feature h1 {
+	text-transform:uppercase;
+	color:#000;
+	font-size:30px;
+	font-family:'open_sansregular';
+	padding:10px 25px 0px 25px !important;
+}
+
+.home-feature h2 {
+	color:#3d76b9;
+	font-size:18px;
+	font-family:'open_sanssemibold';
+	line-height:22px;
+	padding-top:25px !important;
+	padding-left:25px;
+	padding-right:25px;
+	}
+	
+.home-feature h2 a{
+	color:#3d76b9;
+	text-decoration:none;
+	}
+
+.home-feature h2 a:visited {
+	color:#3d76b9;
+	}
+	
+.home-feature h2 a:hover{
+	color:#00b7d1;
+	}
+	
+.home-feature p {
+	color:#000;
+	font-size:14px;
+	padding-bottom:25px !important;
+	padding-left:25px;
+	padding-right:25px;
+	font-family:'open_sanssemibold';
+  line-height:18px;
+	}
+	
+.home-ad {
+	margin-top:25px;
+	text-align:center;
+	}
+
+.one,.one-half,.two-third,.one-third,.one-fourth ,.one-fifth,.one-sixth,.three-fourth{ float:left;position:relative;margin-right:3%; }
+.one { width: 100%; margin-right: 0; }
+.one-half {	width: 48.5%; }
+.two-third { width: 65.67%; }
+.one-third  { width: 31.33%; }
+.one-fourth { width: 22.75%; }
+.three-fourth { width: 72.25%; }
+.one-fifth { width: 17.6%; }
+.one-sixth { width: 14.1%; }
+.one-half.last, .one-third.last, .two-third.last, .one-fourth.last, .three-fourth.last,.one-fifth.last,.one-sixth.last{margin-right: 0!important;}
+.horizontal-line {
+    width: 100%;
+    margin: 30px 0;
+    float: left;
+    border-top: 1px solid #ececec;
+}
+
+.CMSBanner .Banner {z-index:99991 !important;display:block;position:absolute;}
+.CMSBanner .Banner img {z-index:99992 !important;display:block;position:absolute;}
+.CMSBanner{overflow:visible !important;display:block}
+
+.bill-ad {
+  margin:0 auto;
+  background:#000;
+  text-align:center !important;
+  padding:0px;
+  height:290px;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.billboard-ad .bill-ad img {
+  position:relative;
+  text-align:center !important;
+  margin-left:auto;
+  margin-right:auto;
+}
+.banner {
+  z-index:9993;
+  position:relative;
+  text-align:center !important;
+}
+
+/*--------------------------------------------------------------------------*/
+/*								OTHER SITES DROPDOWN					 
+/*--------------------------------------------------------------------------*/
+
+
+#nav {
+	margin: 0px 0 0 100px;
+	}
+.drop a { 
+	display:block; 
+	color: #fff; 
+	font-family: 'open_sansregular', 'Lucida Grande', sans-serif; 
+	font-size: 13px; 
+	text-decoration: none;
+	text-transform:uppercase !important;
+	}
+.drop, 
+.drop li, 
+.drop ul { 
+	list-style: none; 
+	margin: 0; 
+	background: #5575b4; 
+	color: #fff;
+	}
+.drop { 
+	z-index: 3596; 
+	float: RIGHT; 
+	MARGIN-left:0;
+	margin-right:0;
+	}
+.drop li { 
+	float: left; 
+	line-height: 1.3em; 
+	vertical-align: middle; 
+	zoom: 1; 
+	padding: 12px 40px 12px 25px; 
+	background:url(http://www.cesweb.org/ces/images/arrow-white-down.png) 130px 14px no-repeat;
+	text-transform:uppercase !important;
+	}
+	
+.drop li li { 
+	float: left; 
+	line-height: 1.3em; 
+	vertical-align: middle; 
+	zoom: 1; 
+	padding: 12px 20px; 
+	background-image:none !important;
+	}
+.drop li.hover, 
+.drop li:hover { 
+	position: relative; 
+	z-index: 3597; 
+	background:#adc2ea url(http://www.cesweb.org/ces/images/arrow-white-down.png) 130px 14px no-repeat;
+	}
+.drop ul { 
+	visibility: hidden; 
+	position: absolute; 
+	top: 100%; 
+	left: 0; 
+	z-index: 3598; 
+	width: 195px; 
+	background: #5575b4;
+	}
+.drop ul li { 
+	float: none;
+	border-top:dotted thin #fff;
+	padding:5px; 
+	}
+.drop ul ul { 
+	top: -2px; 
+	left: 100%; 
+	}
+.drop li:hover > ul { visibility: visible }
+
+/*--------------------------------------------------------------------------*/
+/*						     SEARCH				 							*/
+/*--------------------------------------------------------------------------*/
+.search-container {
+	width:880px;
+	float:right;
+	margin-top:10px;
+	margin-bottom:10px;
+	z-index:1 !important;
+	}
+
+.date {
+	float:right;
+	width:500px;
+}
+
+.date h2 { 
+	font-family: 'open_sanslight', 'Lucida Grande', sans-serif;
+	font-weight:normal;
+	font-size:42px;
+	text-transform:uppercase;
+	color:#000;
+	text-align:right;
+	line-height:15px;
+	}
+	
+.date h3 { 
+	font-family: 'open_sansregular', 'Lucida Grande', sans-serif;
+	font-size:14px;
+	font-weight:normal;
+	text-transform:uppercase;
+	color:#00b7d1;
+	text-align:right;
+	line-height:15px;
+	letter-spacing:2px;
+	}
+	
+.date2 {
+	display:none;
+	text-align:center;
+	text-transform:uppercase;
+	font-size:16px;
+	color:#000;
+	font-weight:300;
+	}
+
+.search {float:right;margin-right:30px;}
+
+/* reset webkit search input browser style */
+.search input {
+	outline: none;
+	font-size:15px;
+}
+.search input[type=search] {
+	-webkit-appearance: textfield;
+	-webkit-box-sizing: content-box;
+	font-family: inherit;
+	
+}
+.search input::-webkit-search-decoration,
+.search input::-webkit-search-cancel-button {
+	display: none; /* remove the search and cancel icon */
+}
+
+/* search input field */
+.search input[type=search] {
+	background: #fff url(http://www.cesweb.org/ces/images/glass.png) no-repeat 9px center;
+	margin-top:-10px;
+	margin-left:10px;
+	margin-right:20px;
+	padding: 10px 10px 10px 55px;
+	width: 0px;
+	-webkit-border-radius: 2em;
+	-moz-border-radius: 2em;
+	border-radius: 2em;
+	-webkit-transition: all .5s;
+	-moz-transition: all .5s;
+	transition: all .5s;
+  color:#fff !important;
+}
+.search input[type=search]:focus {
+	width: 190px;
+	padding: 10px 10px 10px 45px;
+	background-color: #fff;
+	border-color: #6dcff6;
+	border:solid thin #eeeeee;
+	-webkit-box-shadow: 0 0 5px rgba(109,207,246,.5);
+	-moz-box-shadow: 0 0 5px rgba(109,207,246,.5);
+	box-shadow: 0 0 5px rgba(109,207,246,.5);
+  color:#000 !important;
+}
+
+/* placeholder */
+.search input:-moz-placeholder {
+	color: #999;
+}
+.search input::-webkit-input-placeholder {
+	color: #999;
+}
+
+/* SEARCH RESULTS PaGe */
+.search-link {
+	font-size:14px;
+	font-family:'open_sanssemibold';
+}
+
+.search-results {
+	background:url(http://www.cesweb.org/ces/images/breadcrumb-bk.png) bottom repeat-x;
+	padding-bottom:10px;
+	padding-top:10px;
+	margin-bottom:10px;
+	}
+
+
+/*--------------------------------------------------------------------------*/
+/*								AUDIENCE NAV					 
+/*--------------------------------------------------------------------------*/
+	
+.audience-nav {
+	width:400px;
+	text-align:right;
+	margin-top:10px;
+	margin-bottom:40px;
+	clear:both;
+	float:right;
+	color:#000 !important;
+	font-size:13px;
+	text-transform:uppercase;
+  position:relative;
+  z-index:130;
+	}
+.audience-nav ul {list-style:none;}
+.audience-nav li {display:inline-block;}
+.audience-nav li a{
+	color:#000 !important;
+	padding:10px 15px 10px 20px;
+	background:#eee url(http://www.cesweb.org/ces/images/arrow-right.png) 8px center no-repeat;
+	}
+	
+.audience-nav li a:hover{
+	background:#eefdff url(http://www.cesweb.org/ces/images/arrow-right.png) 8px center no-repeat;
+	}
+
+/*--------------------------------------------------------------------------*/
+/*						MAIN NAVIGATION					 	
+/*--------------------------------------------------------------------------*/
+#main-navigation select {
+    display: none;
+}
+#main-navigation select {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #eee;
+    cursor: pointer;
+    width: 320px;
+    padding: 10px 5px;
+    margin: 30px 0;
+    box-shadow: 0 0 0 rgba();
+    color: #676767;
+    float: left;
+}
+#navigation-wrapper {
+    float: right;
+	background:url(http://www.cesweb.org/ces/images/nav-bk2.png) repeat-x;
+	background: #000\8; /* IE8 only */  
+	width:980px;
+	text-align:left;
+	font-family:'open_sanslight';
+	margin-right:40px;
+	/*border:solid thin #F03;*/
+}
+#main-navigation ul {
+    margin: 0;
+    padding: 0px 0;
+    list-style-type: none;
+    float: left;
+}
+#main-navigation ul li:hover {
+    visibility: inherit
+}
+#main-navigation ul li {
+    position: relative;
+    display: inline;
+    float: left;
+}
+#main-navigation ul li:last-child {
+    background: none
+}
+#main-navigation ul li a {
+    color: #000;
+    line-height: 20px;
+    text-transform: uppercase;
+    display: block;
+    overflow: hidden;
+    padding: 15px 22px 15px 22px;
+    margin: 0px 5px px 0px;
+    font-size: 17px;
+    
+	background:url(http://www.cesweb.org/ces/images/arrow-right.png) 9px center no-repeat;
+}
+
+.current a {
+   font-family:'open_sansbold';
+    border-top: 4px solid #00b7d1;
+	border-bottom: 1px dotted #00b7d1;
+    color: #000;
+	background:url(http://www.cesweb.org/ces/images/arrow-down.png) 9px center no-repeat !important;
+	padding: 11px 22px 14px 22px !important;
+}
+
+#main-navigation ul li:hover {
+    background: #eefdff;
+}
+#main-navigation ul li:hover a {
+    border-top: 4px solid #00b7d1;
+	border-bottom: 1px dotted #00b7d1;
+    color: #000;
+	background:url(http://www.cesweb.org/ces/images/arrow-down.png) 9px center no-repeat;
+	padding: 11px 22px 14px 22px;
+}
+#main-navigation ul li a:focus {
+    
+}
+
+#main-navigation ul li a.active {
+    background: #2d3032;
+    color: #000;
+    border-bottom: 4px solid #eefdff;
+    box-shadow: none;
+}
+#main-navigation ul ul {
+    position: absolute;
+    top: -9999em;
+    width: 200px;
+    z-index: 2999;
+    background: #eefdff;
+    border-bottom: none;
+}
+#main-navigation ul ul li a {
+    text-transform: capitalize;
+	background:none !important;
+	border-bottom: none;
+	border-top: none !important;
+	color:#000;
+}
+#main-navigation ul ul li:hover a {
+    border-top: 4px solid #00b7d1;
+	color:#000;
+}
+
+#main-navigation ul ul li {
+    width: 100%
+}
+#main-navigation ul li:hover ul {
+    left: 0;
+    top: 50px;
+}
+#main-navigation ul li:hover li ul {
+    top: -9999em
+}
+#main-navigation ul li li:hover ul {
+    left: 200px;
+    top: 0;
+}
+#main-navigation ul ul {
+    padding: 0;
+    margin: 0;
+}
+#main-navigation ul ul li {
+    margin: 0;
+    background: none;
+    text-transform: capitalize;
+    line-height: 20px;
+    font-size: 11px;
+	
+}
+#main-navigation ul li li:hover ul li a {
+    border-bottom: none;
+}
+#main-navigation ul li li:hover ul li a:hover {
+    border-bottom: none;
+}
+#main-navigation ul ul li a {
+    font-size: 12px;
+    padding: 7px 15px 7px 16px;
+    margin: 0px;
+    border-bottom: none;
+    color: #000!important;
+    box-shadow: 0 0 0px rgba(0, 0, 0, 0);
+}
+#main-navigation ul ul li:last-child a {
+    border-bottom: none
+}
+#main-navigation ul ul li a:hover {
+    background: #00b7d1 !important;
+    color: #fff !important;
+    border-bottom: none;
+	font-family:open_sansregular;
+}
+
+#main-navigation ul ul li:last-child a {
+    border-bottom: none!important
+}
+
+.nav-3cols {
+	width:703px !important;
+	}
+
+.nav-3cols .nav-col:nth-of-type(3) { border-right:solid 0px #fff; } 
+
+
+.nav-2cols .nav-col:nth-of-type(2) { border-right:solid 0px #fff; } 
+
+.nav-2cols {
+	width:472px !important;
+	}
+
+.nav-col {
+	float:left !important;width:230px !important;border-right:solid 1px #00b7d1;
+	}
+	
+.last-col {
+	border-right:none !important;
+	}
+
+
+
+/*--------------------------------------------------------------------------*/
+/*							STICKY NAVI				 		
+/*--------------------------------------------------------------------------*/
+#sticky_navigation {
+    width: 100%;
+    float: left;
+    height: 150px;
+    background: #FFF;
+    z-index: 999;
+	
+}
+#sticky_navigation.shadow {
+    background-color: #fff;
+   
+    -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, .15);
+    -moz-box-shadow: 0 0 15px rgba(0, 0, 0, .15);
+    box-shadow: 0 0 15px rgba(0, 0, 0, .15);
+	border-bottom:solid 4px #00b7d1;
+}
+
+#sticky_navigation #navigation-wrapper.small-wrapper {height:30px;}
+
+
+#sticky_navigation #logo.small-logo {
+    float: left;
+	
+    display: block;
+    margin: 20px 0 12px 0;
+    background: url("http://www.cesweb.org/ces/images/logo_sm.png") no-repeat;
+}
+
+
+
+#sticky_navigation .search-container.small-search-container {margin-top:30px;}
+#sticky_navigation .date.small-date h2 {font-size:24px;}
+
+/*--------------------------------------------------------------------------*/
+/*						Feature GRID				 					*/
+/*--------------------------------------------------------------------------*/
+.feature-grid {
+    width: 1455px;
+	background:#FFF;
+	margin:auto;
+	padding-right:40px;
+	padding-left:40px;
+	text-align:left;
+  padding-bottom:57px;
+   
+}
+.feature-grid ul.portfolio-items li.one-fourth {
+    width: 217px;
+    float: left;
+    margin: 0 30px 30px 0px;
+}
+.feature-grid ul.portfolio-items li.one-half {
+    width: 597px;
+    float: left;
+    margin: 0 45px 45px 0px;
+}
+.feature-grid ul.portfolio-items li.one-third {
+    width: 420px;
+    float: left;
+    margin: 0 45px 45px 0px;
+}
+
+.feature-grid ul.portfolio-items li.one-third last {
+    margin: 0 0px 45px 0px;
+} 
+.feature-grid ul.portfolio-items li.one-fifth {
+    width: 168px;
+    float: left;
+    margin: 0 30px 30px 0px;
+}
+
+.feature-grid-bk {
+/*	background-image: url(http://www.cesweb.org/ces/images/background/home-bk-01-b.jpg), url(http://www.cesweb.org/ces/images/background/home-bk-02-b.jpg);
+*/
+  background-position: left 290px, right 290px;
+background-repeat: no-repeat;
+background-color:#FFF;
+	width:100%;
+	text-align:center !important;
+	margin-left:auto !important;
+	margin-right:auto !important;
+	}
+
+/*--------------------------------------------------------------------------*/
+/*						INNOVATIONS FILTER				 					*/
+/*--------------------------------------------------------------------------*/
+
+.mobile-title {display:none !important;}
+
+#filterable {
+ 
+    margin-bottom: 10px;
+}
+
+#filterable select {
+    display: none;
+}
+
+#filterable ul{
+	margin-right: 0px !important;
+}
+
+#filterable li {
+    list-style: none;
+    margin-left: 0px;
+	color:#000;
+	padding-top:2px;
+}
+
+#filterable li a {
+   cursor: pointer;
+    display: block;
+    color: #000;
+    text-decoration: none;
+    text-align: left;
+    height: auto;
+    padding: 3px 15px;
+	line-height:14px;
+}
+
+.filter-innovations li {
+	width:100% !important; 
+	height:38px;
+	}
+
+.filter-innovations li a {font-size:12px !important;}
+
+.filter-innovations a { 
+	display:block !important; 
+	color: #fff !important; 
+	font-family: 'open_sansregular', 'Lucida Grande', sans-serif; 
+	font-size: 13px; 
+	text-decoration: none;
+	text-transform:uppercase !important;
+	}
+	 
+
+.filter-innovations { 
+	z-index: 8696; 
+	float: left; 
+	margin-right:0;
+	background: url(http://www.cesweb.org/ces/images/dropdown-bk.png)15px 0px repeat; 
+	color: #000 !important;
+	-webkit-border-radius: 12px;
+-moz-border-radius: 12px;
+padding:10px 20px 10px 20px;
+border-radius: 12px;
+width:360px; 
+    border: solid 1px #e3ebf5;
+    font-family: open_sanssemibold;
+    font-size:14px;
+  margin-bottom:20px;
+  margin-top:-20px;
+	}
+
+.filter-innovations li { 
+	float: left; 
+	vertical-align: middle; 
+	zoom: 1; 
+	background:url(http://www.cesweb.org/ces/images/arrow-white-down.png) 340px 10px no-repeat;
+	text-transform:uppercase !important;
+	color: #fff !important;
+	width:400px;
+	}
+
+.filter-innovations li.hover, 
+.filter-innovations li:hover { 
+	position: relative; 
+	z-index: 999997; 
+	background:#000 url(http://www.cesweb.org/ces/images/arrow-white-down.png) 340px 10px no-repeat;
+	color:#666 !important;
+	}
+.filter-innovations ul { 
+	visibility: hidden; 
+	position: absolute; 
+	top: 100%; 
+	left: 0; 
+	z-index: 999998; 
+	background: #000;
+	}
+	
+.filter-innovations li ul {padding-top:10px !important;width:1350px}
+
+.filter-innovations ul li a { 
+	float: none;
+	}
+	
+.filter-innovations li ul li a { 
+	float: left; 
+	vertical-align: middle; 
+	zoom: 1; 
+	background-image:none !important;
+display:block;
+padding:10px 50px 10px 10px!important;
+	}
+	
+.filter-innovations li ul li a.active {	
+	padding-left:10px !important;
+	height:23px;
+	font-family:'open_sansextrabold';
+	color:#6FF !important;	
+	}
+	
+.filter-innovations li:hover > ul { visibility: visible }
+
+.innov-filter-col1 {float:left;width:30%;margin-bottom:20px;margin-left:20px;}
+
+
+/*--------------------------------------------------------------------------*/
+/*						INNOVATION GRID				 					*/
+/*--------------------------------------------------------------------------*/
+
+.innov-year {
+	padding:0px 0px 10px 0px;
+	float:right;
+	margin-right:20px;
+	height:25px;
+	width:1375px;
+	}
+	
+.innov-year p {
+	color:#000;
+	float:right;
+	font-size:12px;
+	font-family:"Open_SansBold";
+	margin-right:15px;}
+	
+.innov-year select {
+   background:#eee;
+   width: 80px;
+   padding: 5px 12px;
+   font-size: 12px;
+   line-height: 1;
+   border: 0;
+   height: 25px;
+   -webkit-appearance: none;
+	-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;
+margin-top:10px;
+text-align:left;
+color:#01a6bd;
+text-transform:uppercase;
+float:left;
+margin-top:-2px;
+float:right;
+}
+
+.innov-year option {
+	padding:5px 15px;
+	color:#555;
+	text-transform:none;
+	border-bottom:solid 1px #FFF;
+	}
+
+.innov-grid {
+    width: 1375px;
+    float: left;  
+}
+.innov-grid ul.portfolio-items li.one-fourth {
+    width: 217px;
+    float: left;
+    margin: 0 35px 35px 0px;
+   list-style:none !important;
+}
+.innov-grid ul.portfolio-items li.one-half {
+    width: 465px;
+    float: left;
+    margin: 0 30px 30px 0px;
+   list-style:none !important;
+  padding-left:0px !important;
+}
+.innov-grid ul.portfolio-items li.one-third {
+    width: 300px;
+    float: left;
+    margin: 0 30px 30px 0px;
+  padding-left:0px !important;
+   list-style:none !important;
+}
+.innov-grid ul.portfolio-items li.one-sixth {
+    width: 175px;
+    float: left;
+    margin: 0 30px 30px 0px;
+	border:solid 1px #CCC;
+  list-style:none !important;
+  padding-left:0px !important;
+}
+
+
+/*--------------------------------------------------------------------------*/
+/*							ISOTOPE			 								*/
+/*--------------------------------------------------------------------------*/
+.isotope-hidden.isotope-item {
+    pointer-events: none;
+    z-index: 1;
+}
+.isotope,
+.isotope .isotope-item {
+    -webkit-transition-duration: 0.6s;
+    -moz-transition-duration: 0.6s;
+    -ms-transition-duration: 0.6s;
+    -o-transition-duration: 0.6s;
+    transition-duration: 0.6s;
+    z-index: 2;
+}
+.isotope {
+    -webkit-transition-property: height, width;
+    -moz-transition-property: height, width;
+    -ms-transition-property: height, width;
+    -o-transition-property: height, width;
+    transition-property: height, width;
+}
+.isotope .isotope-item {
+    -webkit-transition-property: -webkit-transform, opacity;
+    -moz-transition-property: -moz-transform, opacity;
+    -ms-transition-property: top, left, opacity;
+    -o-transition-property: top, left, opacity;
+    transition-property: transform, opacity;
+}
+
+
+
+/*--------------------------------------------------------------------------*/
+/*						INNOVATIONS THUMBS HOVER EFFECT				 					*/
+/*--------------------------------------------------------------------------*/
+.innov-item-hover {
+    margin: 0;
+    padding: 0;
+    height: 180px;
+    width: 175px;
+    float: left;
+    line-height: 10px;
+	overflow:hidden !important;
+}
+.innov-thumbnail h4 {
+    color: #000;
+    text-transform: capitalize;
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: 300;
+}
+.innov-thumbnail .divider {
+    width: 100%;
+    float: left;
+    height: 1px;
+    margin: 15px 0;
+}
+.innov-thumbnail a {
+    color: #F03;
+    text-align: center;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    line-height: 1px;
+	text-decoration:none;
+}
+.innov-thumbnail a:hover {
+    text-decoration:none;
+}
+.innov-thumbnail {
+    
+    display: none;
+    text-align: left;
+    cursor: pointer;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+	z-index:9012;
+}
+.innov-thumb-text {
+    padding: 20px;
+    margin: 0;
+    float: left;
+	color:#fff;
+	text-align:left;
+  width:140px;
+}
+
+.innov-thumb-text h4 {
+    font-size: 13px;
+	color:#fff;
+	margin:0 0 10px 0;
+	padding:0;
+	text-align:left;
+	font-family:"Open_Sanssemibold" !important;
+  line-height:18px;
+}
+
+
+
+.innov-thumb-text p {
+	list-style:none;
+	font-size: 12px;
+	color:#fff;
+	margin:0 0 10px 0;
+	padding:0;
+	text-align:left;
+	line-height:15px;
+}
+
+
+
+.innov-thumb img {
+    width: 100%
+}
+.innov-thumb h3 {
+    margin-top: 30px;
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 100;
+    display: inline-block;
+    margin-bottom: 0px;
+}
+
+.innov-screen-roll {
+    display: block;
+    position: relative;
+}
+a.innov-screen-roll {
+    line-height: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.innov-thumbnail {
+    float: left;
+    border-radius: 2px;
+    position: relative;
+    background: #00b7d1;
+    margin-bottom: 25px;
+    width: 100%;
+    height: 100%;
+	z-index:9012;
+}
+a.innov-thumbnail-roll {
+    display: block;
+    position: relative;
+}
+a.innov-thumbnail-roll {
+    line-height: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.one-fourth a.innov-thumbnail-roll span {
+    line-height: 120px
+}
+.one-third a.innov-thumbnail-roll span {
+    line-height: 175px
+}
+
+.innov-feature-item {
+	position:relative;
+	top:100px;
+	z-index:9011;
+	background:url(http://www.cesweb.org/ces/images/black-opacity.png);
+	padding:10px;
+  height:80px;
+	}
+	
+.innov-feature-item p {
+	font-size:13px;
+	color:#fff;
+	text-align:left;
+	text-transform:capitalize;
+	font-family:'open_sanssemibold';
+  line-height:17px;
+padding-bottom:5px;
+}
+.innov-feature {
+	position:absolute;
+	margin-top:0px;
+	top:0px;
+	z-index:9010;
+    height: 180px;
+    width: 175px;
+  overflow:hidden;
+	}
+.innov-feature img {width:180px;}
+	
+/*--------------------------------------------------------------------------*/
+/*						Keynotes GRID				 					*/
+/*--------------------------------------------------------------------------*/
+
+.keynotes-grid {
+    width: 1200px;
+    float: left;
+  	margin-left:-15px;
+}
+
+
+
+.keynotes-grid ul.portfolio-items li img {
+    padding:0 !important;
+	background:none !important;
+	border:none;
+}
+
+
+.keynotes-grid ul.portfolio-items li.one-sixth {
+    width: 155px;
+    float: left;
+    margin: 0 30px 30px 0px;
+	border:solid 1px #CCC;
+	list-style:none;
+}
+.keynotes-grid ul.portfolio-items li.one-fifth {
+    width: 185px;
+    float: left;
+    margin: 0 40px 30px 0px;
+	border:solid 1px #CCC;
+	list-style:none;
+}
+
+/*--------------------------------------------------------------------------*/
+/*						Keynotes FILTER				 					*/
+/*--------------------------------------------------------------------------*/
+
+
+
+ .article-content-area ul.filter-keynotes li.filterable ul {list-style: none !important;}
+
+
+.keynotes-filter-col1 {
+  float:left;
+  margin-right:20px;
+  border:none !important;
+  font-size:13px !important;
+}
+
+.keynotes-filter-col2 {float:left;margin-right:20px;border:none !important;font-size:13px !important;}
+.keynotes-filter-col3 {float:right;border:none !important;font-size:13px !important;}
+
+
+.keynotes-filter-col1 h6 {
+	background:url(http://www.cesweb.org/ces/images/key-title-bk1.png)!important;
+	font-family:'Open_sansextrabold';
+	font-size:14px;
+	padding:10px 15px;
+	color:#000;
+	}
+
+.keynotes-filter-col2 h6 {
+	background:url(http://www.cesweb.org/ces/images/key-title-bk1.png)!important;
+	font-family:'Open_sansextrabold';
+	font-size:14px;
+	padding:10px 15px;
+	color:#000;
+	}
+
+.filter-keynotes {
+    display:list-item;
+    float: left;
+    margin-bottom: 20px;
+	margin-right: 20px;
+	list-style: none !important; 
+    font-size:13px !important;
+  margin-left:-15px;
+}
+
+
+.filter-keynotes li {
+    list-style: none !important;
+	height:10px;
+	background: url(http://www.cesweb.org/ces/images/breadcrumb-bk.png)0px 23px repeat-x;
+  padding-bottom:20px !Important;
+	color:#000;
+  list-style:none;
+  width:220px;
+  font-size:13px !important;
+  margin:0px 0px !Important;
+
+}
+
+.filter-keynotes li a {
+  padding-left:15px;
+   background-image: url(http://www.cesweb.org/ces/images/arrow-right.png)!important;
+  
+}
+
+.filter-keynotes-last {
+	background:url(http://www.cesweb.org/ces/images/blue-dark-dots.png) !important;
+  padding:5px 0px 0px 0px;
+  height:30px;
+  list-style:none;
+  margin:0px !important;
+  width:150px;
+	}
+
+.filter-keynotes-last li a{
+	font-family:'Open_sansextrabold';
+	font-size:14px;
+	color:#fff !important;
+	background:none !important;
+  padding:5px 0px !important;
+	}
+	
+.filter-keynotes-last li {
+	font-size:14px;
+	color:#fff !important;
+	list-style:none !important;
+	}
+
+
+.mobile-title {font-size:15px;padding:10px 20px 0px 20px;}
+
+/*--------------------------------------------------------------------------*/
+/*						Keynotes HOVER EFFECT				 					*/
+/*--------------------------------------------------------------------------*/
+
+.keynotes-feature-item-wp {
+	z-index:9011;
+	background:#3d76b9;
+	padding:20px 10px 0px 15px;
+	height:115px;
+	margin-top:-30px;
+	}
+	
+.keynotes-feature-item-wp img {
+	border:none !important;
+	margin-top:-9px;
+	margin-bottom:20px;
+	}
+	
+.keynotes-feature-item-wp p {
+	font-size:12px;
+	color:#fff;
+	text-align:left;
+	text-transform:capitalize;
+	font-family:'open_sansregular';
+	}
+	
+.keynotes-feature-item-wp h1 {
+	font-size:13px !important;
+	color:#fff !important;
+  line-height:15px;
+	text-transform:uppercase;
+	font-family:'open_sansbold';
+	line-height:14px;
+  margin-top:-10px !important;   
+  margin-bottom:-15px !important; 
+  padding:0px !important;
+	}
+	
+.keynotes-feature-item-wp h2 {
+	font-size:12px !important;
+	color:#d6d6d6;
+  
+  line-height:15px;
+	text-transform:uppercase;
+	font-family:'open_sansregular';
+	line-height:14px;
+	 margin-top:-10px !important;   
+  margin-bottom:-15px !important; 
+  padding:0px !important;
+	}
+	
+.keynotes-feature-item-wp h3 {
+	font-size:12px !important;
+	color:#ccc;
+	text-align:left;
+	text-transform:uppercase;
+	font-family:'open_sanslight';
+	line-height:14px;
+  padding:0px !important;
+	}
+
+.keynotes-grid .screen-roll img {width:100%;}
+.keynotes-grid .screen-roll .keynotes-feature-item-wp img {width:35px;}
+.keynotes-grid .screen-roll .keynotes-feature-item-fl img {width:25px;}
+ 
+
+.keynotes-feature-fl {
+	position:relative;
+	margin-top:-120px;
+	top:0px;
+	z-index:9010;
+	}
+	
+
+.keynotes-feature-item-fl {
+	z-index:9011;
+	background:#000;
+	padding:20px 10px 0px 15px;
+	height:115px;
+	margin-top:-25px;
+	}
+	
+.keynotes-feature-item-fl img {
+	border:none !important;
+	margin-top:-9px;
+	margin-bottom:15px;
+	}
+	
+.keynotes-feature-item-fl p {
+	font-size:12px;
+	color:#fff;
+	text-align:left;
+	text-transform:capitalize;
+	font-family:'open_sansregular';
+	}
+	
+.keynotes-feature-item-fl h1 {
+	font-size:13px !important;
+	color:#fff !important;
+	text-transform:uppercase;
+	font-family:'open_sansbold';
+	line-height:14px;
+	padding:1px !important;
+	margin-bottom:-20px;
+	}
+	
+.keynotes-feature-item-fl h2 {
+	font-size:12px !important;
+	color:#d6d6d6;
+	text-transform:uppercase;
+	font-family:'open_sansregular';
+	line-height:14px;
+	padding:0 !important;
+	margin-bottom:5px;
+	}
+	
+.keynotes-feature-item-fl h3 {
+	font-size:12px !important;
+	color:#ccc;
+	text-align:left;
+	text-transform:uppercase;
+	font-family:'open_sanslight';
+	line-height:14px;
+	padding:0 !important;
+	margin:0 !important;
+	}
+
+.keynotes-feature-fl {
+	position:relative;
+	margin-top:-120px;
+	top:0px;
+	z-index:9010;
+	}
+	
+.screen-roll span.hover_bg2 {
+    position: absolute;
+    width: 115%;
+    height: 110%;
+    background: #000; /* IE8 */
+    background: rgba(0,0,0,1);
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; /* IE 8 */
+    filter: alpha(opacity=0);
+   /* transform: scale(1.2,1.0);
+	-ms-transform: scale(1.2,1.0); /* IE 9 */
+	/*-webkit-transform: scale(1.2,1.0); /* Safari and Chrome */
+	top:0;
+	left:0;
+	margin-left:-10px;
+}
+
+
+span.hover_bg2 img {
+	position:absolute;
+	opacity:0.4;
+filter:alpha(opacity=40); /* For IE8 and earlier */
+margin-top:0px;
+z-index:9030;
+background:#000;
+	}
+	
+
+	
+.hover-text {
+	z-index:9031;
+	position:absolute;
+	padding:15px;
+	margin-top:65px;
+	vertical-align:bottom;
+	}
+	
+.hover-text-sm {
+	z-index:9031;
+	position:absolute;
+	padding:15px;
+	margin-top:0px;
+	vertical-align:bottom;
+	}
+
+.hover-text h1, .hover-text-sm h1 {
+	font-size:15px !important;
+	font-family:open_sansbold;
+	color:#00b7d1 !important;
+	text-transform:uppercase;
+	line-height:18px;
+	margin:0px !important;
+	}
+
+.hover-text h2, .hover-text-sm h2 {
+	font-size:13px;
+	font-family:open_sansregular;
+	color:#FFF;
+	text-transform:uppercase;
+	line-height:17px;
+	}
+.hover-text h3, .hover-text-sm h3 {
+	font-size:13px;
+	font-family:open_sansregular;
+	color:#FFF;
+	text-transform:uppercase;
+	}	
+	
+	
+.hover-text p, .hover-text-sm p {
+	font-size:13px;
+	font-family:open_sansregular;
+	color:#FFF;
+	word-spacing:normal;
+	line-height:17px;
+	}
+	
+.wid-1200 {width:1200px;}
+
+/*--------------------------------------------------------------------------*/
+/*						INNOVATIONS POP UP			 					*/
+/*--------------------------------------------------------------------------*/
+
+.innov-pop-up {
+		width:500px !important;
+		height:760px;
+		padding:10px;
+		background:#fff;
+		-webkit-border-radius: 12px;
+-moz-border-radius: 12px;
+border-radius: 12px;
+border:solid 1px #F03;
+	}
+	
+.innov-pop-up-text {
+	padding:30px;
+}
+	
+.innov-pop-up img {border:solid 1px #eee;padding:8px;background:#fff;}
+
+/*--------------------------------------------------------------------------*/
+/*						Keynotes POP UP			 					*/
+/*--------------------------------------------------------------------------*/
+
+.keynotes-pop-up {
+		width:800px !important;
+		height:630px;
+		padding:10px;
+		background:#fff;
+		-webkit-border-radius: 12px;
+-moz-border-radius: 12px;
+border-radius: 12px;
+border:solid 1px #F03;
+	}
+	
+.keynotes-pop-up-text {
+	padding:40px 40px 30px 0px;
+	float:right;
+	width:420px !important;
+}
+
+.keynotes-pop-up-text h2 {
+	font-size:40px;
+	font-family:'open_sansbold';
+	margin-bottom:20px;
+	}
+.keynotes-pop-up-text h3 {
+	font-size:18px;
+	font-family:'open_sanssemibold';
+	margin-bottom:10px;
+	}
+	
+.keynotes-pop-up-text h5 {
+	font-size:14px;
+	font-family:'open_sanssemibold';
+	color:#000;
+	}
+	
+.keynotes-pop-up-text p {
+	font-size:14px;
+	line-height:20px;
+	}
+
+	
+.keynotes-pop-up img {
+	border:solid 1px #eee;
+	padding:8px;
+	background:#fff;
+	float:left;
+	width:300px !important;
+	}
+	
+/*--------------------------------------------------------------------------*/
+/*						Keynotes POP UP	Influencers		 					*/
+/*--------------------------------------------------------------------------*/
+
+.keynotes-pop-up-fl {
+		width:800px !important;
+		height:620px;
+		padding:10px;
+		background:#fff;
+		-webkit-border-radius: 12px;
+-moz-border-radius: 12px;
+border-radius: 12px;
+	}
+	
+.keynotes-pop-up-text-fl {
+	padding:40px 40px 30px 0px;
+	float:right;
+	width:420px !important;
+}
+
+.keynotes-pop-up-text-fl h2 {
+	font-size:40px;
+	font-family:'open_sansbold';
+	margin-bottom:20px;
+	}
+.keynotes-pop-up-text-fl h3 {
+	font-size:18px;
+	font-family:'open_sanssemibold';
+	margin-bottom:10px;
+	}
+	
+.keynotes-pop-up-text-fl h5 {
+	font-size:14px;
+	font-family:'open_sanssemibold';
+	color:#000;
+	}
+	
+.keynotes-pop-up-text-fl p {
+	font-size:14px;
+	line-height:20px;
+	}
+	
+.keynotes-pop-up-text li a {
+	padding-bottom:5px !important;
+	line-height:20px;
+	font-size:14px;
+	}
+
+	
+.keynotes-pop-up-fl img {
+	border:solid 1px #eee;
+	padding:8px;
+	background:#fff;
+	float:left;
+	width:300px !important;
+	}
+	
+.about-speaker {
+	clear:both;
+	width:710px;
+	padding:30px;
+	margin:15px;
+	background:#eee;
+	
+	background:url(http://www.cesweb.org/ces/images/key-title-bk1.png);
+}
+
+.about-speaker p {
+	font-size:14px;
+	line-height:20px;
+	}
+
+
+/*--------------------------------------------------------------------------*/
+/*						THUMBS HOVER EFFECT				 					*/
+/*--------------------------------------------------------------------------*/
+.item-hover {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    float: left;
+    line-height: 10px;
+}
+
+.thumb-text {
+    padding: 20px;
+    margin: 0;
+    float: left;
+}
+
+.thumb img {
+    width: 100%
+}
+.thumb {
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    -ms-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
+.thumb h3 {
+    margin-top: 30px;
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 100;
+    display: inline-block;
+    margin-bottom: 0px;
+}
+.thumb {
+    margin-bottom: 10px;
+    border-bottom: none;
+    padding-bottom: 30px;
+}
+.thumb:hover {
+    border-bottom: none;
+}
+.thumb a h3:hover {
+    text-decoration: underline;
+    color: #556074;
+}
+.thumb a h3 {
+    color: #707070
+}
+.screen-roll {
+    display: block;
+    position: relative;
+}
+a.screen-roll {
+    line-height: 0;
+    padding: 0;
+    margin: 0;
+}
+.screen-roll span.hover_bg {
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+    height: 106%;
+    background: #00b7d1; /* IE8 */
+    background: rgba(0,183,209,0.90);
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; /* IE 8 */
+    filter: alpha(opacity=0);
+    top: 0;
+    left: 0;
+}
+
+span.hover_bg h3 {
+	font-size:14px;
+	font-family:open_sansbold;
+	color:#FFF;
+	background:#cc1e4c;
+	text-transform:uppercase;
+	padding:0px 15px 0px 15px;
+	}
+
+span.hover_bg h2 {
+	font-size:18px;
+	font-family:open_sansbold;
+	color:#FFF;
+	text-transform:uppercase;
+	line-height:17px;
+	padding:15px 15px 0px 15px;
+	}
+	
+span.hover_bg p {
+	font-size:14px;
+	font-family:open_sanssemibold;
+	color:#FFF;
+	word-spacing:normal;
+	line-height:17px;
+	padding:0px 15px 0px 15px;
+	}
+
+.screen-roll span.hover_bg_video {
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    background: #00b7d1 url('http://www.cesweb.org/ces/images/thumb-hover-video.png') no-repeat center center; /* IE8 */
+    background: rgba(0,183,209,0.85) url('http://www.cesweb.org/ces/images/thumb-hover-video.png') no-repeat center center;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; /* IE 8 */
+    filter: alpha(opacity=0);
+    top: 0;
+    left: 0;
+}
+
+.feature-item-title img {
+	z-index:8999px;
+	 }
+	 
+.feature-item-title ul {
+	z-index:9000px;
+	position:relative;
+	text-transform:uppercase;
+	top:-5px;
+	margin-top:-100px !important;
+	color:#fff !important;
+	}
+	
+.feature-item-title h2 {
+	font-size:15px;
+	font-family:open_sansbold;
+	color:#FFF;
+	text-transform:uppercase;
+	line-height:17px;
+	padding:5px 15px 5px 15px;
+	margin-top:10px;
+	background: #000; /* IE8 */
+    background: rgba(0,0,0,0.25);
+	}
+	
+.feature-item-title h3 {
+	font-size:12px;
+	font-family:open_sansbold;
+	color:#FFF !important;
+	background:#;
+	background: #cc1e4c; /* IE8 */
+    background: rgba(204,30,76,0.65);
+	text-transform:uppercase;
+	padding:0px 15px 0px 15px;
+	}
+
+
+.thumbnail {
+    float: left;
+    border-radius: 2px;
+    position: relative;
+    background: #ffffff;
+    box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.15), 0px 1px 3px 0px rgba(0, 0, 0, 0.15);
+    margin-bottom: 25px;
+    width: 100%;
+    height: 100%;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    -ms-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
+a.thumbnail-roll {
+    display: block;
+    position: relative;
+}
+a.thumbnail-roll {
+    line-height: 0;
+    padding: 0;
+    margin: 0;
+}
+a.thumbnail-roll span {
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    background: #191e28; /* IE8 */
+    background: rgba(25,30,40,0.90);
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; /* IE 8 */
+    filter: alpha(opacity=0);
+    top: 0;
+    left: 0;
+    text-align: center;
+    line-height: 100px;
+    border-radius: 2px;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.one-fourth a.thumbnail-roll span {
+    line-height: 120px
+}
+.one-third a.thumbnail-roll span {
+    line-height: 175px
+}
+
+
+
+
+
+/*________________________________________________________________________________________________________________________________
+ 
+Landing Page Styles
+__________________________________________________________________________________________________________________________________*/	
+
+.body-content {
+	width: 1375px;
+	margin: 0px auto 0px auto;
+	padding-right:40px;
+	padding-left:40px;
+	padding-top:20px;
+	text-align:left;
+	min-height:941px;
+	}
+
+.three-fourth .body-content {
+	width: 1075px;
+	}
+	
+
+.body-content h1{
+	color:#000;
+	font-size:70px;
+	font-family:'open_sansbold';
+	padding-bottom:20px !important;
+	}
+
+.breadcrumbs {
+	width:100%;
+	font-family:'open_sansregular';
+	text-transform:uppercase;
+	color:#000;
+	}	
+	
+.breadcrumbs ul {
+	list-style:none;
+	display:inline-block;
+	width:1375px;
+	padding-bottom:10px;
+	margin-bottom:40px;
+	background:url(http://www.cesweb.org/ces/images/breadcrumb-bk.png) bottom repeat-x;	
+	}
+	
+.breadcrumbs li {
+	display:inline-block;
+	padding-right:0px;
+	
+	}
+	
+.breadcrumbs li:last-child {
+	float:right !important;
+	padding-right:0px !important;
+	font-family:'open_sansbold';
+	color:#00b7d1;
+	font-size:12px;
+	background:none;
+	padding-left:10px;
+	}
+	
+.breadcrumbs li:last-child a {
+	color:#00b7d1;
+	}
+	
+.breadcrumbs li a {
+	color:#000;
+	font-size:11px !important;
+	}
+	
+.breadcrumbs li a:hover {
+	color:#00b7d1;
+	}	
+	
+
+.landing-section {
+	margin-bottom:40px;
+	background:url(http://www.cesweb.org/ces/images/home-feature-bk.png) repeat;
+ height:330px;
+  overflow:hidden;
+	}
+	
+.landing-section h2 {
+	color:#3d76b9;
+	font-size:22px;
+	font-family:'open_sanssemibold';
+	line-height:28px;
+	}
+	
+.landing-section h2 a{
+	color:#3d76b9;
+	text-decoration:none;
+	}
+
+.landing-sectionn h2 a:visited {
+	color:#3d76b9;
+	}
+	
+.landing-section h2 a:hover{
+	color:#00b7d1;
+	}
+	
+.landing-section p {
+	color:#000;
+	font-size:14px;
+	font-family:'open_sansregular';
+	line-height:18px;
+	}
+	
+.landing-section p:after {
+    content: url('http://www.cesweb.org/ces/images/double-arrow-right1.png');
+	}
+.landing-section img {width:390px;max-height:220px;}
+
+.padding20 {padding:20px 20px 20px 20px;}
+	
+.one-land,.one-half-land,.two-third-land,.one-third-land,.one-fourth-land ,.one-fifth-land,.one-sixth-land,.three-fourth-land{ float:left;position:relative;margin-right:5%; }
+.one-land { width: 100%; margin-right: 0; }
+.one-half-land {	width: 45.5%; }
+.two-third-land{ width: 63.67%; }
+.one-third-land  { width: 28.33%; }
+.one-fourth-land { width: 17.75%; }
+.three-fourth-land { width: 69.25%; }
+.one-fifth-land { width: 12.6%; }
+.one-sixth-land { width: 9.1%; }
+.one-half-land.last, .one-third-land.last, .two-third-land.last, .one-fourth-land.last, .three-fourth-land.last,.one-fifth-land.last,.one-sixth-land.last{margin-right: 0!important;}
+.horizontal-line {
+    width: 100%;
+    margin: 30px 0;
+    float: left;
+    border-top: 1px solid #ececec;
+}
+
+.one-land .body-content {padding-left:50px !important;}
+
+.interior-body-bk {
+	width:100%;
+	position:absolute;
+	z-index:0;
+	/*opacity: 0.4;
+    filter: alpha(opacity = 40);*/ /* For IE */
+    top:290px;
+	}
+
+.above {position:relative;z-index:120 !important;}
+	
+.int-bk-left {
+  float:left;position:absolute;left:0px;
+}
+	
+.int-bk-right {
+  float:right;
+
+}
+.home-body-bk {
+  width: 100%;
+  position: absolute;
+  z-index: 0;
+  top: 290px;
+}
+.white {background:#FFF;}
+
+
+/*________________________________________________________________________________________________________________________________
+ 
+                ARTICLE
+__________________________________________________________________________________________________________________________________*/
+	
+.breadcrumbs-article {
+	font-family:'open_sansregular';
+	font-size:11px;
+	text-transform:uppercase;
+	color:#000;
+	width:1080px !important;
+	background:url(http://www.cesweb.org/ces/images/breadcrumb-bk.png) bottom repeat-x;
+	height:30px;
+	margin-bottom:30px;
+	}	
+	
+	
+.breadcrumbs-left {
+	float:left;
+	width:70% !important;
+	margin-right:10px;
+	}
+
+.breadcrumbs-left li {
+	padding-right:8px !important;
+	}
+.breadcrumbs-right {
+		float:right !important;
+		width:25% !important;
+  text-align:right;
+		}
+		
+.breadcrumbs-right li a:link,
+.breadcrumbs-right li a:visited {
+	font-family:'open_sansbold';
+	color:#00b7d1;
+	font-size:12px;
+	background:url(http://www.cesweb.org/ces/images/arrow-right.png) 0px 3px no-repeat;
+	padding-left:10px;
+		}
+		
+.breadcrumbs-right li a:hover{
+	color:#000 !important;
+		}
+		
+
+	
+.breadcrumbs-article li {
+	display:inline-block;
+	padding-right:20px;
+	}
+	
+	
+.breadcrumbs-article li a {
+	color:#000;
+  font-size:12px;
+	}
+	
+.breadcrumbs-article li a:hover {
+	color:#00b7d1;
+  font-size:12px;
+	}
+
+.article-content-area {
+	width:1140px;
+	}
+	
+.intro {
+	font-family: 'open_sansregular',Arial,Verdana, serif;
+	 font-size: 24px;
+    line-height: 32px;
+	padding-bottom:30px;
+	background:url(http://www.cesweb.org/ces/images/breadcrumb-bk.png) bottom repeat-x;
+	max-width:1375px;
+	margin-right:30px;
+	}
+	
+.intro-innov {
+	font-family: 'open_sansregular',Arial,Verdana, serif;
+	 font-size: 24px;
+    line-height: 32px;
+	padding-bottom:30px;
+	max-width:1375px;
+	margin-right:30px;
+	}
+	
+.article-content-area img {
+	background:#fff;
+	border:solid 1px #eee;
+	padding:5px;
+	}
+	
+.feature-float-right img {
+	float:right;
+	margin-left:30px;
+	margin-bottom:30px;
+	}
+	
+.feature-float-left img {
+	margin-right:30px;
+	margin-bottom:30px;
+	float:left;
+	}
+	
+.article-content-area h2 {margin-bottom:30px;}
+	
+.article-content-area h3 {margin:30px 0;}
+
+.article-content-area span {
+	color:#5575b4;
+	font-family:'open_sanssemibold' !important;
+	font-weight:bold;}
+	
+.article-content-area ul {
+	color:#000;
+	list-style:disc;
+	padding-left:20px;
+	margin-bottom:20px;
+	}
+	
+.article-content-area li {
+	font-size: 16px;
+    line-height: 24px;
+	font-family: 'open_sansregular', Arial, Verdana, serif;
+	font-weight: regular;
+	color:#000;
+	margin-bottom:15px;
+	}
+
+.article-content-area ol {
+	color:#000;
+	list-style:decimal;
+	padding-left:20px;
+	margin-bottom:20px;
+	}
+	
+.one-sixth-leftnav { float:left;position:relative;margin-right:3%; }
+.one-sixth-leftnav { width: 17.1%; }
+/*________________________________________________________________________________________________________________________________
+ 
+        Leftnav
+__________________________________________________________________________________________________________________________________*/
+
+.leftnav {
+	font-size:14px;
+	text-transform:uppercase;
+	}
+	
+.leftnav li {
+	border:solid 1px #eee;
+	padding:7px 15px;
+	margin-bottom:10px;
+	}
+
+.leftnav li ul {
+	margin-top:10px;
+	}
+	
+.leftnav ul li ul li {
+	border:none;
+	padding:0px;
+	margin-bottom:7px;
+	background:url(http://www.cesweb.org/ces/images/arrow-right.png) 0px 5px no-repeat;
+	padding-left:15px;
+	text-transform:none;
+	font-size:12px;
+	}
+	
+
+.leftnav ul li ul li:visited {
+	border:none;
+	padding:0px;
+	margin-bottom:7px;
+	background:url(http://www.cesweb.org/ces/images/arrow-right.png) 0px 5px no-repeat;
+	padding-left:15px;
+	text-transform:none;
+	font-size:12px;
+	}
+
+.leftnav ul li ul li:hover {
+	border:none;
+	padding:0px;
+	margin-bottom:7px;
+	background:url(http://www.cesweb.org/ces/images/arrow-right-bk.png) 0px 5px no-repeat;
+	padding-left:15px;
+	text-transform:none;
+	font-size:12px;
+  font-family:open_sanssemibold;
+	}
+.leftnav ul li ul li a:link {color:#000 !important;}
+.leftnav ul li ul li a:visited {color:#000 !important;}
+.leftnav ul li ul li a:hover {color:#10bad3 !important;}
+.leftnav ul li ul li a:active {color:#10bad3 !important;}
+
+.leftnav a,
+.leftnav a:visited {color:#000;}
+
+.leftnav a:hover {color:#00b7d8;}
+
+.leftnav li:hover {background:#d7f9ff;}
+
+.leftnav ul li ul li ul li
+{
+  border-top:1px solid #eee;
+  padding-top:5px;
+  background-image:none;
+  background:url(http://www.cesweb.org/ces/images/arrow-right-gray.png) 0px 10px no-repeat;
+}
+
+.leftnav ul li ul li ul li:visited
+{
+  border-top:1px solid #eee;
+  padding-top:5px;
+  background-image:none;
+  background:url(http://www.cesweb.org/ces/images/arrow-right-gray.png) 0px 10px no-repeat;
+}
+
+.leftnav ul li ul li ul li:hover
+{
+  border-top:1px solid #10bad3;
+  padding-top:5px;
+  background-image:none;
+  background:url(http://www.cesweb.org/ces/images/arrow-right.png) 0px 10px no-repeat;
+  color:#10bad3 !important;
+}
+
+.left-current {
+	color:#000 !important;
+	font-family:'open_sansbold' !important;
+	}
+
+/*.left-current .left-current ul li a,
+.left-current .left-current ul li a:link,
+.left-current .left-current ul li a:visited{
+	color:#5676b2 !important;
+	font-family:'open_sansbold';
+  font-size:25px !important;
+	}*/
+
+.left-current ul li {
+	color:#5676b2 !important;
+	font-family:'open_sansregular' !important;
+	}
+	
+.left-current a:hover {
+	color:#000 !important;
+	}
+	
+
+.left-ad {
+	padding:10px;
+	font-size:11px;
+	text-transform:uppercase;
+	text-align:center;
+	}
+.left-ad img {width:180px;height:150px;}
+
+
+/*--------------------------------------------------------------------------*/
+/* News Feed ---------------------- */
+/*--------------------------------------------------------------------------*/
+
+.news-story {
+	background:url(http://www.cesweb.org/ces/images/breadcrumb-bk.png) bottom repeat-x;
+	padding-bottom:10px;
+	padding-top:10px;
+	margin-bottom:10px;
+	}
+	
+.news-story h4 {
+	font-size:16px;
+	font-family:'open_sanssemibold';
+	margin-bottom:10px;
+	}
+	
+.news-story h4 a{
+	text-decoration:none;
+	}
+
+.news-story img {
+	padding:5px;
+	background:#FFF;
+	border:#CCC;
+	margin-right:15px !important;
+	margin-bottom:15px !important;
+	float:left;
+	}
+	
+.press-date {
+	font-size:13px;
+	color:#777;	
+	font-family:'open_sanssemibold';
+	text-transform:uppercase;
+  
+  margin-bottom:5px;
+	}
+	
+
+/*--------------------------------------------------------------------------*/
+/*              					PRESS ROOM  		   					*/
+/*--------------------------------------------------------------------------*/	
+
+.pressroom-col1 {
+		width:45%;
+		float:left;
+		margin-right:50px;
+		margin-top:40px;
+		}
+
+.pressroom-col2 {
+		width:50%;
+		float:left;
+		margin-right:0px !important;
+		margin-top:40px;
+		}
+		
+.pressroom-col2 ul {
+		margin-left:-15px !important;
+		}
+		
+.pressroom-col2 li {
+		float:left;
+		margin-right:15px;
+		margin-left:0px;
+		padding-bottom:5px;
+  list-style:none;
+		}
+		
+.pressroom-col2 li:last-child {
+		margin-right:0px;
+		}
+		
+.pressroom-col1 img{
+		border:none;
+		padding:0px !important;
+		}
+		
+.pressroom-col2 img{
+		border:none;
+		padding:0px !important;
+		}
+		
+.pressroom-col2 p:after {
+    content: url('http://www.cesweb.org/ces/images/double-arrow-right1.png');
+	}
+		
+.press-contacts {
+	background:#def6f9;
+	padding:25px;
+	margin-top:40px;
+	}
+	
+.press-contacts li{
+    list-style:none;
+	border:none;
+	padding:0px;
+	margin-bottom:7px;
+	background:url(http://www.cesweb.org/ces/images/arrow-right.png) 0px 5px no-repeat;
+	padding-left:15px;
+	text-transform:none;
+	font-size:14px;
+	font-family:'Open_sansbold'
+	}
+
+.endlink{
+	border:none;
+	padding:0px;
+	margin-bottom:7px;
+	background:url(http://www.cesweb.org/ces/images/arrow-right.png) 0px 5px no-repeat;
+	padding-left:15px;
+	text-transform:none;
+	font-size:14px;
+	font-family:'Open_sansbold'
+	}
+
+.gallery img {width:175px;}
+
+.pressroom-col2 h2:nth-of-type(2) {
+    margin-top:30px;
+    padding-top:30px;
+   background: url(http://www.cesweb.org/ces/images/breadcrumb-bk.png) 0px 0px repeat-x;
+  }
+
+/*--------------------------------------------------------------------------*/
+/*              					Photo Gallery 		   					*/
+/*--------------------------------------------------------------------------*/
+.article-content-area li.one-third-gallery {
+list-style: none !important;
+}
+
+.one-third-gallery {
+	float:left;
+	width:30%;
+	margin-right:2%;
+	}
+	
+.one-third-gallery p {
+	padding:10px;
+    width:85%;
+	}
+
+.one-third-gallery li {
+	list-style:none !important;
+	}
+	
+.minus-20 {margin-left:-20px;}
+
+.article-content-area li.full-gallery {
+list-style: none !important;
+}
+
+
+.gallerysquare{
+   height: 330px; 
+}
+
+.pictureframe{
+   overflow: hidden; 
+}
+
+.pictureframe img{
+   width: 94%; 
+   margin: 0 auto;
+}
+
+@media (max-width: 1455px){
+   .gallerysquare{
+      height: 300px;
+   }
+}
+
+@media (max-width: 820px){
+   .gallerysquare{
+      height: 290px;
+    }
+}
+
+@media (max-width: 480px){
+   .gallerysquare{
+      height: 270px;
+    }
+}
+
+@media (max-width: 320px){
+   .gallerysquare{
+      height: 250px;
+    }
+}
+
+/*________________________________________________________________________________________________________________________________
+ 
+       Sitemap
+__________________________________________________________________________________________________________________________________*/
+
+.one-fifth-sitemap { float:left;position:relative;margin-right:1%;border:solid 1px #eee; }
+.one-fifth-sitemap { width: 15.0%; }
+
+.one-fifth-sitemap h4 {
+  padding-left:15px;
+  padding-top:15px;
+  color:#000;
+  font-size:18px;
+}
+.sitemap {
+	font-size:14px;
+	text-transform:uppercase;
+  font-family:'open_sanssemibold' !important;
+	}
+	
+.sitemap ul.CMSSiteMapList {
+  border:none;
+	margin-bottom:10px;
+  padding:15px;
+  }
+.sitemap li.CMSSiteMapListItem {
+  border:none;
+	margin-bottom:7px;
+	background:url(http://www.cesweb.org/ces/images/arrow-right.png) 0px 4px no-repeat;
+	padding-left:15px;
+	padding-top:0px !important;
+	padding-right:0px;
+	padding-bottom:0px !important;
+	text-transform:none;
+	font-size:12px;
+  line-height:17px;
+   font-family:'open_sansregular' !important;
+  }
+.sitemap li.CMSSiteMapListItem ul.CMSSiteMapList {
+    margin-top:10px;
+	padding:0px !important;
+  }
+
+.sitemap li ul, .CMSSiteMapListItem li ul, .CMSSiteMapList li ul {
+	margin-top:10px;
+	padding:0px !important;
+  border:none !important;
+	}
+	
+.sitemap li ul li.CMSSiteMapListItem ul.CMSSiteMapList {
+	border:none;
+	margin-bottom:7px;
+	background:url(http://www.cesweb.org/ces/images/arrow-right.png) 0px 5px no-repeat;
+	padding-left:15px;
+	padding-top:0px;
+	padding-right:0px;
+	padding-bottom:0px;
+	text-transform:none;
+	font-size:12px;
+	}
+	
+.sitemap li ul li.CMSSiteMapListItem ul.CMSSiteMapList:hover {
+	border:none;
+	padding:0px;
+	margin-bottom:7px;
+	background:url(http://www.cesweb.org/ces/images/arrow-right.png) 0px 5px no-repeat;
+	padding-left:15px;
+	text-transform:none;
+	font-size:12px;
+	color:#000;
+	}
+
+/*
+
+.sitemap li {
+	border:solid 1px #eee;
+	padding:20px;
+	margin-bottom:10px;
+	}
+
+.sitemap li ul {
+	margin-top:10px;
+	padding:0px !important;
+	}
+	
+.sitemap li ul li {
+	border:none;
+	margin-bottom:7px;
+	background:url(http://www.cesweb.org/ces/images/arrow-right.png) 0px 5px no-repeat;
+	padding-left:15px;
+	padding-top:0px;
+	padding-right:0px;
+	padding-bottom:0px;
+	text-transform:none;
+	font-size:12px;
+	}
+	
+.sitemap li ul li:hover {
+	border:none;
+	padding:0px;
+	margin-bottom:7px;
+	background:url(http://www.cesweb.org/ces/images/arrow-right.png) 0px 5px no-repeat;
+	padding-left:15px;
+	text-transform:none;
+	font-size:12px;
+	color:#000;
+	}
+*/
+.sitemap a,
+.sitemap a:visited {color:#000;}
+.sitemap a:hover {color:#00b7d8;}
+.sitemap h4 {text-decoration:none;}
+.sitemap h4 a {text-decoration:none;}
+
+
+/*--------------------------------------------------------------------------*/
+/*              					TABS   		   							 */
+/*--------------------------------------------------------------------------*/		
+.tabs-nav {
+    list-style: none;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    width: 1375px;
+	background:url(http://www.cesweb.org/ces/images/tabs-bk.png);
+	margin-right:70px;
+	font-family:"Open_SansSemibold";
+	font-size:16px;
+	text-transform:uppercase;
+	color:#000;
+	height:41px;
+}
+.tabs-nav li {
+    float: left;
+    line-height: 32px;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+}
+.tabs-nav li.active {
+    line-height: 31px
+}
+.tabs-nav li a {
+
+    border-right: 1px solid #7ad2e4;
+    border-left: none;
+    color: #000;
+    display: block;
+    letter-spacing: 0;
+    outline: none;
+    padding: 5px 25px;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #fff;
+	background:url(http://www.cesweb.org/ces/images/arrow-right.png) 12px 15px no-repeat;
+}
+.tabs-nav li:first-child a {
+    border-left: 1px solid #eaeaea
+}
+.tabs-nav li a:hover {
+	background:#8bdeea url(http://www.cesweb.org/ces/images/arrow-right.png) 12px 15px no-repeat;
+	height:31px;
+}
+.tabs-nav li.active a {
+    background: #fff;
+    border-bottom: 0px solid #fff;
+    border-top: 4px solid #36c3d9;
+}
+.tabs-container {
+    margin: -1px 0 0px;
+    overflow: hidden;
+    width: 94%;
+}
+.tab-content {
+    padding: 20px 0px 20px 0px;
+}
+
+#tab2 {margin-top:20px;}
+#tab3 {margin-top:20px;}
+#tab4 {margin-top:20px;}
+#tab5 {margin-top:20px;}
+
+/*________________________________________________________________________________________________________________________________
+ 
+ OUT OF BOX TABS
+__________________________________________________________________________________________________________________________________*/
+
+.ajax__tab_container {
+padding:0px !important;
+  margin-left:0px !important;
+}
+
+.ajax__tab_xp .ajax__tab_header {
+font-size: 11px;
+background-image:none !important;
+  font-family:'Open_sanssemibold' !important;
+}
+
+.ajax__tab_outer {
+  padding:0px;
+  background-image:none !important;
+}
+
+/*.ajax__tab_inner {
+    padding:10px 25px 20px 25px;
+  background-image:none !important;
+    background-repeat:repeat !important;
+    font-size:16px;
+    text-transform:uppercase;
+    font-family:'open_sansbold';
+    color:#000;
+   overflow:visible;
+}*/
+
+
+.ajax__tab_inner span {
+  color:#000 !important;
+}
+
+.ajax__tab_xp .ajax__tab_header .ajax__tab_active .ajax__tab_inner {
+background-image: none !important;
+  background-color:#fff !important;
+  border-top:solid 1px #ccc;
+  border-left:solid 1px #ccc;
+  border-right:solid 1px #ccc;
+}
+
+.ajax__tab_xp .ajax__tab_header .ajax__tab_inner {padding-left:0px;}
+
+.ajax__tab_xp .ajax__tab_header .ajax__tab_inner {
+  border-right: 1px solid #7ad2e4;
+  border-left: none;
+  color: #000;
+  display: block;
+  letter-spacing: 0;
+  outline: none;
+ padding:5px 15px;
+  font-size:16px;
+  text-transform:uppercase;
+  font-family:'open_sansbold';
+  text-decoration: none;
+  text-shadow: 0 1px 0 #fff;
+  background-image:url(http://www.cesweb.org/ces/images/tabs-bk.png)!important;
+  background-repeat:repeat !important;
+  height:40px;
+  margin-top:5px;
+  font-family:'Open_sanssemibold' !important;
+}
+
+
+.ajax__tab_tab {
+  background-image:none !important;
+}
+
+
+.ajax__tab_tab a {
+  color:#00b7d1;
+}
+
+.ajax__tab_body, .ajax__scroll_auto {
+  
+  font-family:'Open_sansregular'; 
+  border:solid 1px #ccc !important;
+  overflow-y:hidden !important;
+  overflow-x:hidden !important;
+  margin-top:23px !important;
+  width:95%;
+}
+
+.ajax__tab_body .ajax__scroll_vert {overflow-y:hidden !important;overflow-x:hidden !important;}
+
+.ajax__tab_panel {
+  padding:53px 35px 35px 35px;
+  font-family:'Open_sansregular';
+  list-style:inside disc !important; 
+}
+
+.ajax__tab_panel h2 {margin-bottom:30px;}
+
+.ajax__tab_panel img {margin:0px !important;padding-right:20px;padding-bottom:20px;}
+
+.ajax__tab_xp {font-family:'Open_sansregular';}
+
+.ajax__tab_panel li {
+  list-style-type:disc !important;
+  list-style-position:outside;
+  margin-left:30px;
+}
+
+.ContentLabel {}
+
+/*________________________________________________________________________________________________________________________________
+ 
+Tool Tips
+__________________________________________________________________________________________________________________________________*/
+
+ 
+a.tooltip {outline:none; }
+a.tooltip strong {font-family:open_sansbold;}
+a.tooltip:hover {text-decoration:none;} 
+a.tooltip span {
+    z-index:999910;
+	display:none; 
+	padding:14px 20px;
+    
+	margin-left:-250px;
+    width:240px; 
+	line-height:16px;
+	color:#FFF;
+	font-family:open_sansregular;
+}
+a.tooltip:hover span{
+    display:inline; 
+	position:absolute; 
+	color:#fff;
+    border:1px solid #fff; 
+	background:#000 url(http://www.cesweb.org/ces/images/black-opacity-80.png);
+	font-family:open_sansregular;
+	}
+.callout {
+	z-index:999920;
+	position:absolute;
+	top:0px;
+	border:0;
+	left:-12px;
+	font-family:open_sansregular;
+	}
+    
+/*CSS3 extras*/
+a.tooltip span
+{
+    border-radius:4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+        
+    -moz-box-shadow: 5px 5px 8px #CCC;
+    -webkit-box-shadow: 5px 5px 8px #CCC;
+    box-shadow: 5px 5px 8px #CCC;
+}
+				
+.no-background {
+	background:none !important;
+	border:none !important;
+	}
+
+/*________________________________________________________________________________________________________________________________
+ 
+ Footer
+__________________________________________________________________________________________________________________________________*/
+#footer {
+    float: left;
+    width: 100%;
+    margin-top: 40px;
+    padding: 40px 0;
+	font-family: 'open_sansregular';
+	 color: #000;
+}
+#footer h4 {
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #000;
+    margin-bottom: 10px;
+	font-family: 'open_sansregular';
+}
+
+#footer ul {
+	
+	list-style:none;
+	font-size:12px;
+	}
+
+.footer-line {
+	background:url(http://www.cesweb.org/ces/images/footer-line.png) repeat-x;
+	height:15px;
+	margin-bottom:20px;
+	}
+	
+.footer-div {
+	background:url(http://www.cesweb.org/ces/images/footer-div.png) repeat-y;
+	padding-left:25px;
+	min-height:120px;
+	}
+	
+.footer-div a {
+	background:url(http://www.cesweb.org/ces/images/arrow-right.png) left 2px no-repeat;
+	color:#000;
+	padding-left:15px;
+	}
+	
+.footer-div a:hover {
+	color:#00b7d1;
+	}
+
+.copyright {
+    height: auto;
+    padding: 0 0 15px 0;
+    width: 100%;
+    color: #000;
+    font-size: 12px;
+	font-family: 'open_sanssemibold';
+}
+
+.languages {
+	background:#f3f3f3;
+	padding:25px;
+}
+
+.languages .columns {
+	float:left;
+	width:28%;
+	margin-right:20px;
+}
+
+.languages .columns li {
+	border-bottom:dashed 1px #666;
+	padding:6px;
+}
+
+.languages .columns a {
+	padding:15px;
+	color:#5575b4;
+}
+
+.languages .columns li:hover {
+	background:#FFF;
+}
+
+.selected-language {
+	background:#FFF;
+	}
+
+/*--------------------------------------------------------------------------*/
+/*              MINIMALIST BUTTONS CSS        		      	              */
+/*--------------------------------------------------------------------------*/
+.btn {
+   cursor: pointer;
+   font-family: "Droid Sans",Arial,Helvetica,sans-serif;
+   font-size: 12px;
+   color: #ffffff;
+   text-decoration: none!important;
+   border: none;
+   position: relative;
+   font-weight: bold;
+   text-transform:uppercase;
+   background:#595959;
+	-webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    -ms-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
+.btn.round{border-radius: 4px;}
+.btn.circle{border-radius: 100px;}
+.btn.small {padding: 5px 15px;line-height:30px; }
+.btn.big {padding: 12px 18px;line-height:48px;}
+.btn.orange:hover{background:#f56026;}
+.btn.green:hover{background:#b9d955;}
+.btn.red:hover{background:#e64135;}
+.btn.blue:hover{background:#00aeef;}
+
+
+
+
+/*--------------------------------------------------------------------------*/
+/*          	    		BOX MESSAGES   		   							 */
+/*--------------------------------------------------------------------------*/	
+.simple-error,.simple-notice,.simple-success,.simple-info {
+	padding:15px 20px 15px 40px;
+	margin-bottom:1em;
+	border:1px solid #ddd;	
+}
+.simple-error{
+	background:#fbe3e4 url(http://www.cesweb.org/ces/images/icons/bg-msg.png) 5px -3% no-repeat;
+	border-color:#fbc2c4;
+	border-left:4px solid #fbc2c4;
+	color:#e64135;
+}
+.simple-notice {
+	background:#fff6bf  url(http://www.cesweb.org/ces/images/icons/bg-msg.png) 5px 70% no-repeat;
+	color:#514721;
+	border-color:#ffd324;
+	border-left:4px solid #ffd324;
+}
+.simple-success {
+	background:#e6efc2 url(http://www.cesweb.org/ces/images/icons/bg-msg.png) 5px 105% no-repeat;
+	color:#264409;
+	border-color:#c6d880;
+	border-left:4px solid #c6d880;
+}
+.simple-info {
+	background:#d5edf8 url(http://www.cesweb.org/ces/images/icons/bg-msg.png) 5px 32% no-repeat;
+	color:#205791;
+	border-color:#92cae4;
+	border-left:4px solid #92cae4;
+}
+.simple-error a,.simple-alert a {color:#8a1f11;}
+.simple-notice a {color:#514721;}
+.simple-success a {color:#264409;}
+.simple-info a {color:#205791;}
+.required {color:#e64135;}
+.required {color:#ed1c24;}
+.error {
+	color:#e64135;
+	text-align:left;
+	font-size:11px;
+	font-style:italic;
+	font-family:"Georgia", Verdana;
+}
+.success {
+	color:#acd373;
+	text-align:left;
+	font-size:11px;
+	font-style:italic;
+	font-family:"Georgia", Verdana;
+}	
+
+/*--------------------------------------------------------------------------*/
+/*          	   		 SCROLL TO TOP  & PDF ICON 		   							 */
+/*--------------------------------------------------------------------------*/	
+
+ #scrolltotop {
+    width: 48px;
+    height: 48px;
+    background: url("http://www.cesweb.org/ces/images/top.png") top no-repeat;
+    margin: 0px 15px 10px 0;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    -ms-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+    border-radius: 3px;
+}
+#scrolltotop:hover { background: url("http://www.cesweb.org/ces/images/top.png") bottom no-repeat }
+.pdf {
+   background: url(http://www.cesweb.org/ces/images/icons/pdf-icon.png) no-repeat 5px 12px;
+   padding: 15px 10px 10px 65px;
+   width: 125px;
+   min-height: 48px;
+}
+.pdf a:hover{text-decoration:underline;}
+
+.st_sharethis_custom{
+	width:200px;
+	height:40px;
+}
+.st_sharethis_custom a{
+	color:#10bad3 !important;
+  font-family:open_sansbold;
+  padding-left:10px;
+  background: url("http://www.cesweb.org/ces/images/arrow-right.png")0px 3px no-repeat}
+}
+
+/*--------------------------------------------------------------------------*/
+/*							PAGINATION					 				*/
+/*--------------------------------------------------------------------------*/
+.pagination {
+    margin: 0;
+	float:left;
+	width:70%;
+	background:url(http://www.cesweb.org/ces/images/pagination-bk.jpg) repeat-x !important;
+	height:40px;
+	padding-top:3px;
+  font-size:13px;
+	
+}
+.pagination li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 5px 0 0;
+	border-right:solid 1px #eee;
+	
+}
+.pagination li:first-child {
+    margin-right: 0;
+	border-right:none;
+	font-family:'open_sansbold';
+}
+
+.pagination li:last-child {
+    margin-right: 0;
+	border-right:none;
+}
+.pagination .current {
+    background: #00b7d1;
+    color: #FFF!important;
+    border: 1px solid transparent;
+    color: #9c9c9c;
+    display: inline-block;
+    padding: 5px 8px 2px 8px;
+}
+.pagination a,
+.pagination .current {
+    border: 1px solid transparent;
+    color: #000;
+    display: inline-block;
+    padding: 5px 8px 2px 8px;
+    border-radius: 2px;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    -ms-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+	font-size:13px !important;
+	font-family:'open_sansbold';
+}
+.pagination a:hover {
+    background: #000;
+    color: #FFF!important;
+    border: 1px solid transparent;
+    color: #fff;
+    display: inline-block;
+    padding: 5px 8px 2px 8px;
+}
+.pagination .next a,
+.pagination .prev a {
+    border: none
+}
+.search-results ul.pagination {width:100% !important;}
+
+.search-link {
+	font-size:14px;
+	font-family:'open_sanssemibold';
+}
+
+.search-results {
+	background:url(http://www.cesweb.org/ces/images/breadcrumb-bk.png) bottom repeat-x;
+	padding-bottom:10px;
+	padding-top:10px;
+	margin-bottom:10px;
+	}
+	
+.search-results h4 {
+	font-size:15px;
+	font-family:'open_sanssemibold';
+	margin-bottom:0px;
+	}
+	
+.search-results h4 a{
+	text-decoration:none;
+	}
+.display-pages {
+	 margin: 0;
+	float:right;
+	width:25%;
+	height:40px;
+	padding-top:3px;
+	}
+	
+.display-pages li {
+	display: inline-block;
+    list-style: none;
+    margin: 0 5px 0 0;
+	border-right:solid 1px #eee;
+	font-size:13px !important;
+	font-family:'open_sansbold';
+	}
+	
+.display-pages li:first-child {
+    margin-right: 0;
+	border-right:none;
+	font-family:'open_sansbold';
+	padding-right:10px;
+  color:#999;
+}
+
+.display-pages li:last-child {
+    margin-right: 0;
+	border-right:none;
+}
+.display-pages .display-current {
+    background: #00b7d1;
+    color: #FFF!important;
+    border: 1px solid transparent;
+    color: #9c9c9c;
+    display: inline-block;
+}
+.display-pages a {
+    border: 1px solid transparent;
+    color: #000;
+    display: inline-block;
+    padding: 5px 8px 2px 8px;
+    border-radius: 2px;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    -ms-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+	font-size:13px !important;
+	font-family:'open_sansbold';
+}
+
+
+.display-pages a:hover {
+    background: #000;
+    color: #FFF!important;
+    border: 1px solid transparent;
+    color: #fff;
+    display: inline-block;
+    padding: 5px 8px 2px 8px;
+}
+
+.display-dropdown {display:none;}
+
+.display-dropdown select {
+   background:url(http://www.cesweb.org/ces/images/dropdown-bk.png) -2di00px 0px repeat-x;
+   width:100px;
+   padding: 8px 15px 6px 15px;
+   font-size: 14px;
+   line-height: 1;
+   border: 0;
+   height: 35px;
+   -webkit-appearance: none;
+	margin-top:10px;
+	text-align:left;
+	color:#000;
+	font-family:open_sansbold;
+}
+
+	.display-dropdown  option {
+	padding:5px 15px;
+	color:#555;
+	text-transform:none;
+	border-bottom:solid 1px #FFF;
+	}
+
+.blockquote {
+    background: #f0fbfd url(http://www.cesweb.org/ces/images/quote.png) no-repeat 17px 26px;
+    
+    font-family: 'open_sansregular', Arial, Verdana, serif;
+	font-size:18px;
+    padding: 20px 20px 20px 55px;
+    margin: 0 20px 20px 0;
+    color: #3d76b9;
+	line-height:24px;
+}
+
+.display-dropdown-left {display:none;}
+
+.display-dropdown-inlinenav {
+ /* width:95%;
+  text-align:right;
+  margin-bottom:-40px;
+  margin-top:40px;*/
+  display:none;
+
+}
+
+.display-dropdown-inlinenav select {
+   background:url(http://www.cesweb.org/ces/images/dropdown-bk.png) -60px 0px repeat-x;
+   width:280px;
+   padding: 8px 15px 6px 15px;
+   font-size: 14px;
+   line-height: 1;
+   border: 0;
+   height: 35px;
+   -webkit-appearance: none;
+	margin-top:0px;
+	margin-right:20px;
+	text-align:left;
+	color:#000;
+	font-family:open_sanssemibold;*/
+}
+
+/*--------------------------------------------------------------------------*/
+/*          	   		Speaker Search		   					*/
+/*--------------------------------------------------------------------------*/
+
+.speaker-search-area {
+	background: #000 url(http://www.cesweb.org/ces/images/home-feature-bk.png) repeat;
+	display:block;
+	padding:25px;
+	display:block !important;height:180px;
+	margin-bottom:30px;
+}
+
+.speaker-search-area h3 {
+	font-size: 14px;
+text-transform: uppercase;
+margin: 0px 0 20px 0 !important;
+padding: 0 0 0 0 !important;
+
+}
+
+.speaker-search-area input {
+	width:320px;
+	background:#FFF;
+	height:20px;
+	border:solid 1px #e9e9e9;
+	padding:8px;
+	margin-bottom:10px;
+	}
+	
+.speaker-keyword {
+	float:left;width:37%;
+	}
+	
+
+.speaker-filter {
+	border-left:solid 1px #c3e6ee;
+	padding-left:40px;
+	float:left;width:40%;
+	}
+	
+
+.btn {
+	background:url(http://www.cesweb.org/ces/images/menu-bk2-no-arrow.jpg);
+	font-size:13px !important;
+	padding:5px 5px 5px 5px;
+	width:60px !important;
+	margin-top:10px;
+	font-family:'open_sanssemibold' !important;
+	color:#000 !important;
+	text-transform:uppercase;
+	text-align:center;
+	}	
+	
+.btn a:link{
+	color:#000 !important;
+	}
+	
+.btn a:visited{
+	color:#000 !important;
+	}
+	
+.btn a:hover{
+	color:#33bfcf !important;
+	}
+	
+.speaker-sort {
+    margin: 0;
+	float:left;
+	width:100%;
+	background:#fff url(http://www.cesweb.org/ces/images/speak-sort-dots.png) repeat-x;
+	height:60px;
+	padding-top:3px;
+	float:left;	
+}
+
+.speaker-sort h3 {
+	float:left;
+	font-size: 14px;
+	text-transform: uppercase;
+	padding:14px 20px 14px 0px;
+	margin:0;
+	}
+
+.speaker-sort select {
+   background:url(http://www.cesweb.org/ces/images/dropdown-bk.png) -140px 0px repeat-x;
+   width:200px;
+   padding: 8px 15px 6px 15px;
+   font-size: 13px;
+   line-height: 1;
+   border: 0;
+   height: 35px;
+   -webkit-appearance: none;
+	margin-top:10px;
+	text-align:left;
+	color:#000;
+	font-family:open_sansbold;
+	border:solid 1px #e3ebf5;
+	-webkit-border-radius: 0px;
+-moz-border-radius: 0px;
+border-radius: 0px;
+}
+
+.speaker-sort option {
+	padding:2px 15px;
+	color:#555;
+	text-transform:none;
+	border-bottom:solid 1px #FFF;
+	
+	}
+	
+
+.display-speakers {float:right;}
+
+.display-speakers .btn {
+	width:180px !important;
+	margin-top:-50px;
+	}
+	
+.speaker-body {
+	width:1000px;
+	clear:both;
+	padding:45px 0px 25px 0px;
+	}
+	
+
+.speaker-body div {
+	clear:both;
+	display:block;
+	height:120px;
+	}
+	
+.speaker-body h1 {
+	font-size:24px;
+	font-family:open_sansbold;
+	padding:0px 0px 0px 0px;
+	margin:-20px 0px 0px 0px;
+	text-decoration:none;
+	height:30px;
+	}
+.speaker-body h1 a {
+	text-decoration:none;
+	}
+.speaker-body h2{
+	font-size:16px;
+	font-family:open_sansbold;
+	color:#000;
+	padding:0px 0px 0px 0px;
+	margin:-10px 0px 5px 0px;
+	}
+.speaker-body p{
+	padding:0;
+	margin:0;
+	font-size:14px;
+	}
+	
+.speaker-body span {
+	font-family:open_sansbold;
+	}
+
+.speaker-body img {
+	float:left;
+	width:110px;
+	height:110px;
+	padding-right:15px;
+	padding-bottom:15px;
+	padding-top:20px;
+	}
+
+/*_________________________________________________________________________________________________________________________________________________*/
+
+/*------------------------------------------------------MEDIA QUERIES-------------------------------------------------------------------------------*/
+/*_________________________________________________________________________________________________________________________________________________*/
+
+
+@media (max-width : 1455px) {
+.container {
+    width: 97%;
+	padding:0 20px !important;
+}
+  
+.interior-body-bk {display:none;}
+.home-body-bk {display:none;}
+
+#navigation-wrapper {
+    float: right;
+	width:880px;
+	margin-right:0px !important;
+	/*border:solid thin #F03;*/
+}
+
+#main-navigation ul {
+    margin: 0;
+    padding: 0px 0;
+    list-style-type: none;
+    float: left;
+}
+#main-navigation ul li:hover {
+    visibility: inherit
+}
+#main-navigation ul li {
+    position: relative;
+    display: inline;
+    float: left;
+}
+
+#main-navigation ul li a {
+    color: #000;
+    line-height: 20px;
+    text-transform: uppercase;
+    display: block;
+    overflow: hidden;
+    padding: 15px 22px 15px 22px;
+    margin: 0px 5px px 0px;
+    font-size: 17px;
+    
+	background:url(http://www.cesweb.org/ces/images/arrow-right.png) 9px center no-repeat;
+}
+
+.current a {
+   font-family:'open_sansbold';
+    border-top: 4px solid #00b7d1;
+	border-bottom: 1px dotted #00b7d1;
+    color: #000;
+	background:url(http://www.cesweb.org/ces/images/arrow-down.png) 9px center no-repeat !important;
+	padding: 11px 22px 14px 22px !important;
+}
+
+
+#main-navigation ul ul li a {
+    text-transform: capitalize;
+	background:none !important;
+	border-bottom: none;
+	border-top: none !important;
+	color:#000;
+	font-size:12px !important;
+}
+
+
+.current a {
+	background:url(http://www.cesweb.org/ces/images/arrow-down.png) 5px center no-repeat !important;
+	padding: 11px 10px 14px 20px !important;
+}
+
+#sticky_navigation #navigation-wrapper.small-wrapper {width:900px;}
+
+#sticky_navigation #main-navigation ul li a {
+    padding: 15px 20px 15px 20px;
+    margin: 0px 2px px 0px;
+    font-size: 15px;
+    
+	background:url(http://www.cesweb.org/ces/images/arrow-right.png) 5px center no-repeat;
+}
+
+#sticky_navigation #main-navigation ul li:hover a {
+    color: #505050;
+	background:url(http://www.cesweb.org/ces/images/arrow-down.png) 5px center no-repeat;
+	padding: 11px 20px 14px 20px;
+}
+  
+  #sticky_navigation #main-navigation ul ul li a:hover {
+    padding-bottom:16px !important;
+}
+
+
+.feature-grid {
+    width: 97%;
+   padding:0 !important;
+   float:none;
+   margin-left:auto !important;
+   margin-right:auto !important;
+   text-align:left;
+   padding:0 20px !important;
+}
+
+
+.feature-item-title ul {
+	top:-15px;
+	margin-top:-100px !important;
+	}
+
+.copyright {padding-left:20px;}
+
+.thumb {
+    margin-bottom: 10px;
+    border-bottom: none;
+    padding-bottom: 10px;
+}
+
+.button-block {margin-bottom:25px !important;}
+
+/* search input field */
+
+.search {float:right;margin-right:0px;}
+
+.search input[type=search] {
+	background: #fff url(http://www.cesweb.org/ces/images/glass.png) no-repeat 9px center;
+	margin-right:-20px;
+}
+.search input[type=search]:focus {
+	width: 190px;
+	padding: 10px 10px 10px 55px;
+	background-color: #fff;
+	border-color: #6dcff6;
+	border:solid thin #eeeeee;
+	-webkit-box-shadow: 0 0 5px rgba(109,207,246,.5);
+	-moz-box-shadow: 0 0 5px rgba(109,207,246,.5);
+	box-shadow: 0 0 5px rgba(109,207,246,.5);
+}
+  
+
+.breadcrumbs ul {
+	width:95%;
+
+}
+
+.body-content {
+	width: 98% !important;
+	padding:0px 0px 0px 0px;
+	}
+	
+.breadcrumbs-article {
+	width:100% !important;
+	float:none;
+	}
+	
+.breadcrumbs-left {
+	width:75% !important;
+}
+
+.breadcrumbs-right {
+	width:230px !important;
+}
+
+.article-content-area {
+	width:100%;
+	}
+	
+.innov-grid {
+    width: 100%;
+    float: left;
+    margin-right: -30px;
+}
+
+.tabs-nav {
+    width: 95%;
+}
+
+.intro-innov {
+	max-width:90%;
+	margin-right:30px;
+	}
+	
+.wid-1200 {width:100%;}
+
+.keynotes-grid {
+    width: 105%;
+    float: left;
+    margin-left: -20px;
+	margin-right: 0px !important;
+	/*border:solid 1px #fcc;*/
+}
+
+.filter-keynotes {width: 100%;}
+/*--------------------------------------------------------------------------*/
+/*              					PRESS ROOM  		   					*/
+/*--------------------------------------------------------------------------*/	
+
+.pressroom-col1 {
+		width:55%;
+		float:left;
+		margin-right:50px;
+		margin-top:40px;
+		}
+
+.pressroom-col2 {
+		width:35%;
+		float:left;
+		margin-right:0px !important;
+		margin-top:40px;
+		}
+  
+
+  
+.pressroom-col2 .news-story img {width:230px;float:none;}
+  
+  
+.pressroom-col2 h2:nth-of-type(2) {
+    margin-top:30px;
+    padding-top:30px;
+   background: url(http://www.cesweb.org/ces/images/breadcrumb-bk.png) 0px 0px repeat-x;
+  }
+		
+		
+.press-contacts {
+	background:#def6f9;
+	padding:25px;
+	margin-top:40px;
+	}
+
+  .press-contacts li{
+	list-style:none;
+    border:none;
+	padding:0px;
+	margin-bottom:7px;
+	padding-left:15px;
+	text-transform:none;
+	font-size:14px;
+	font-family:'Open_sansbold'
+	}
+
+.endlink{
+    list-style:none;
+	border:none;
+	padding:0px;
+	margin-bottom:7px;
+	padding-left:15px;
+	text-transform:none;
+	font-size:14px;
+	font-family:'Open_sansbold'
+	}
+	
+.pressroom-col2 li:last-child {
+		margin-right:15px;
+		}
+		
+.gallery img {width:150px;}
+
+.ajax__tab_panel {
+    padding:35px 35px 25px 35px;
+    margin-top:0px;
+  }
+  
+  .pagination {
+    margin: 0;
+	float:left;
+	width:60%;
+	background:url(http://www.cesweb.org/ces/images/pagination-bk.jpg) repeat-x;
+	height:40px;
+	padding-top:3px;
+	
+}
+
+.display-pages {
+	 margin: 0;
+	float:right;
+	width:30%;
+	height:40px;
+	padding-top:3px;
+	}
+  
+}
+
+/* --------------------------------------1360px-----------------------------------------*/
+
+
+@media (max-width : 1360px) {
+  
+.landing-section {
+ height: 320px;
+}
+  
+}
+
+/* --------------------------------------1330px-----------------------------------------*/
+
+
+@media (max-width : 1330px) {
+
+
+#navigation-wrapper {
+	float: right;
+	width:830px;
+	margin-right:0px !important;
+}
+
+.search-container {width:800px;float:right;margin-top:0px;}
+
+
+.date {
+	float:right;
+	width:400px;
+}
+
+.date h2 { 
+	font-size:36px;
+	}
+	
+#sticky_navigation #navigation-wrapper.small-wrapper {width:840px;}
+
+#sticky_navigation #main-navigation ul li a {
+    padding: 15px 14px 15px 14px;
+    margin: 0px 2px px 0px;
+    font-size: 15px;
+    
+	background:url(http://www.cesweb.org/ces/images/arrow-right.png) 5px center no-repeat;
+}
+
+#sticky_navigation #main-navigation ul li:hover a{
+    color: #505050;
+	background:none;
+	padding: 10px 14px 15px 14px;
+}
+  
+  #sticky_navigation #main-navigation ul ul li a:hover {
+    padding-bottom:16px !important;
+}
+
+
+.screen-roll span.hover_bg {
+    height: 100%;
+}
+
+.feature-item-title ul {
+	top:-15px;
+	margin-top:-100px !important;
+	}
+	
+.breadcrumbs-left {
+	width:65% !important;
+}
+
+	
+.filter-keynotes-last {width:180px;}
+
+  .interior-body-bk {display:none;}
+  .home-body-bk {display:none;}
+  
+}
+
+
+/* --------------------------------------1275px-----------------------------------------*/
+
+
+@media (max-width : 1275px) {
+  
+.interior-body-bk {display:none;}
+  .home-body-bk {display:none;}
+	
+#header {
+    margin-bottom: 10px;
+}
+
+
+#navigation-wrapper {
+	width:750px;
+	/*border:solid thin #F03;*/
+}
+
+.search-container {width:700px;float:right;margin-top:0px;}
+
+#sticky_navigation {height:160px;} 
+
+#sticky_navigation #navigation-wrapper.small-wrapper {width:790px;}
+
+#sticky_navigation #main-navigation ul li a {
+    padding: 15px 14px 15px 14px;
+    margin: 0px 2px px 0px;
+    font-size: 14px;
+    
+	background:url(http://www.cesweb.org/ces/images/arrow-right.png) 5px center no-repeat;
+}
+  
+#sticky_navigation #main-navigation ul ul li a:hover {
+    padding-bottom:16px !important;
+}
+
+
+.feature-item-title ul {
+	top:-15px;
+	margin-top:-100px !important;
+	}
+	
+#logo {
+	margin-top:-50px;
+}
+
+.filter-innovations li ul {padding-top:10px !important;width:1050px !important;}
+
+.filter-innovations li {width:100%;height:50px;}
+.innov-filter-col1 {float:left;width:30%;margin-bottom:20px;margin-left:20px;}
+  
+.one-fifth-sitemap { width: 30.0%; }
+  
+.pagination {width:100%;}
+
+.display-pages {
+  float:left;
+    width:100%;
+    margin-top:-27px;
+  }
+  
+/*.display-dropdown-inlinenav {
+  width:100%;
+  text-align:right;
+  margin-bottom:-40px;
+  margin-top:40px;
+  display:block;
+}
+
+.display-dropdown-inlinenav select {
+   background:url(http://www.cesweb.org/ces/images/dropdown-bk.png) -140px 0px repeat-x;
+   width:210px;
+   font-size: 14px;
+   height: 35px;
+	color:#000;
+	font-family:open_sanssemibold;
+}
+*/
+  
+/*.display-dropdown {float:right;display:block;}
+
+.display-dropdown select {
+   background:url(http://www.cesweb.org/ces/images/dropdown-bk.png) -180px 0px repeat-x;
+   width:160px;
+   padding: 8px 15px 6px 15px;
+   font-size: 14px;
+   line-height: 1;
+   border: 0;
+   height: 35px;
+   -webkit-appearance: none;
+	margin-top:0px;
+	margin-right:20px;
+	text-align:left;
+	color:#000;
+	font-family:open_sansbold;
+}
+
+.display-dropdown  option {
+	padding:5px 15px;
+	color:#555;
+	text-transform:none;
+	border-bottom:solid 1px #FFF;
+	}  
+  */
+}
+
+/* --------------------------------------1190px-----------------------------------------*/
+
+@media (max-width : 1190px) {
+		
+#logo {
+	float:left;
+	background:url("http://www.cesweb.org/ces/images/logo_md.png") no-repeat;
+	width:320px;
+	height:130px;
+	margin-top:-50px;
+	margin-bottom:20px;
+}
+	
+#navigation-wrapper {
+	float:none;
+	clear:both;
+	width:100%;
+	position:relative;
+	height:50px;
+	text-align:center;
+	margin-left:-10px;
+	padding-right:20px;
+}
+
+#sticky_navigation #logo.small-logo {
+    float: left;
+	height:80px;
+	width:240px;
+    display: block;
+    margin: 20px 0 12px 30px;
+    background: url("http://www.cesweb.org/ces/images/logo_sm2.png") no-repeat;
+}
+
+#sticky_navigation #navigation-wrapper.small-wrapper {width:100%;}
+
+#sticky_navigation #main-navigation ul {
+   margin:auto;
+    float: none !important;
+	padding-left:20px;
+}
+  
+#sticky_navigation #main-navigation ul ul {
+	padding-left:0px;
+}
+
+#sticky_navigation #main-navigation ul li a {
+    padding: 15px 20px 15px 20px;
+    margin: 0px 2px 0px 0px;
+    font-size: 16px;
+    
+	background:url(http://www.cesweb.org/ces/images/arrow-right.png) 5px center no-repeat;
+}
+
+#sticky_navigation #main-navigation ul li:hover a {
+    color: #505050;
+	background:url(http://www.cesweb.org/ces/images/arrow-down.png) 5px center no-repeat;
+	padding: 11px 20px 14px 20px;
+}
+  
+#sticky_navigation #main-navigation ul ul li a {
+    padding-bottom: 15px !important;
+}
+
+
+#sticky_navigation .search-container.small-search-container {
+	margin-top:30px;
+	width:680px;
+    margin-top:20px;
+	}
+
+
+
+.search-container {width:580px;float:right;margin-top:10px !important;}
+
+
+.date {
+	float:right;
+	width:300px !important;
+	/*border:solid thin #F03;*/
+}
+
+.date h2 { 
+	font-size:30px !important;
+	}
+	
+#sticky_navigation #logo.small-logo {
+    float: left;
+	height:80px;
+	width:240px;
+    display: block;
+    margin: 20px 0 12px 30px;
+    background: url("http://www.cesweb.org/ces/images/logo_sm2.png") no-repeat;
+}
+
+#sticky_navigation #navigation-wrapper.small-wrapper {width:100%;}
+
+#sticky_navigation #main-navigation ul {
+   margin:auto;
+    float: none !important;
+	padding-left:20px;
+}
+
+#sticky_navigation #main-navigation ul li a {
+    padding: 15px 16px 15px 16px;
+    margin: 0px 2px 0px 0px;
+    font-size: 14px;
+    
+	background:url(http://www.cesweb.org/ces/images/arrow-right.png) 5px center no-repeat;
+}
+
+#sticky_navigation #main-navigation ul li:hover a {
+    color: #505050;
+	background:url(http://www.cesweb.org/ces/images/arrow-down.png) 5px center no-repeat;
+	padding: 11px 16px 14px 16px;
+}
+
+#sticky_navigation .search-container.small-search-container {
+	margin-top:30px;
+	width:680px;
+	}
+	
+.keynotes-grid {margin-left:-20px;}
+	
+	
+.filter-keynotes li ul li {
+	width:250px;
+	font-size:13px !important;
+	color:#000;
+	padding-left:10px;
+	}
+	
+.filter-keynotes-last {width:150px;}
+.keynotes-filter-col1 {float:left;width:180px !important;margin-right:20px;}
+.keynotes-filter-col1 li {width:180px !important;}
+.keynotes-filter-col2 {float:left;width:180px !important;margin-right:20px;}
+  .keynotes-filter-col2 li {width:180px !important;}
+.keynotes-filter-col3 {float:right;}
+.body-content {margin-top:40px;}
+.nav-3cols {margin-left:0px !important;}
+  
+.nav-2cols {
+margin-left: 0px !important;
+}
+  
+  .landing-section {
+ height: 290px !important;
+}
+  
+}
+
+/*----------------------------------------max-width : 1100px----------------------------*/
+
+@media (max-width : 1100px) {
+  
+.ajax__tab_container {
+padding:0px !important;
+  margin-left:-50px !important;
+}
+  
+  }
+
+/*----------------------------------------max-width : 1050px----------------------------*/
+
+@media (max-width : 1050px) {
+
+
+.search-container {
+	width:580px;float:right;
+	margin-top:0px;
+	/*border:solid thin #F03;*/}
+	
+
+#logo {
+	margin-top:-50px;
+}
+
+#sticky_navigation #logo.small-logo {
+    float: left;
+	height:80px;
+	width:240px;
+    display: block;
+    margin: 20px 0 12px 30px;
+    background: url("http://www.cesweb.org/ces/images/logo_sm2.png") no-repeat;
+}
+
+#sticky_navigation #navigation-wrapper.small-wrapper {width:100%;}
+
+
+#sticky_navigation #main-navigation ul li a {
+    padding: 15px 16px 15px 16px;
+    margin: 0px 2px 0px 0px;
+    font-size: 14px;
+    
+	background:url(http://www.cesweb.org/ces/images/arrow-right.png) 5px center no-repeat;
+}
+
+#sticky_navigation #main-navigation ul li:hover a {
+    color: #505050;
+	background:url(http://www.cesweb.org/ces/images/arrow-down.png) 5px center no-repeat;
+	padding: 11px 16px 14px 16px;
+}
+
+#sticky_navigation .search-container.small-search-container {
+	margin-top:30px;
+	width:680px;
+	}
+
+.thumb {
+    margin-bottom: 0px;
+    border-bottom: none;
+    padding-bottom: 30px;
+}
+.thumb:hover {
+    border-bottom: none;
+}
+
+.button-block {margin-bottom:15px !important;}
+
+.search-container {width:520px;float:right;margin-top:20px !important;}
+
+.date {
+	float:right;
+	width:290px !important;
+	/*border:solid thin #F03;*/
+}
+
+.date h2 { 
+	font-size:30px !important;
+	}
+	
+.one-land,.one-half-land,.two-third-land,.one-third-land,.one-fourth-land ,.one-fifth-land,.one-sixth-land,.three-fourth-land{ float:left;position:relative;margin-right:5%; }
+.one-third-land  { width: 43%; }
+.one-half-land.last, .one-third-land.last, .two-third-land.last, .one-fourth-land.last, .three-fourth-land.last,.one-fifth-land.last,.one-sixth-land.last{margin-right: 5%!important;}
+
+#filterable ul{
+	margin-right: 5px !important;
+}
+
+.intro-innov {
+	max-width:90%;
+	margin-right:10px;
+	}
+  
+.landing-section {
+  height: 330px !important;
+}
+.landing-section img {width:420px !important;}
+  
+}
+
+/* --------------------------------------1024px-----------------------------------------*/
+
+@media (max-width : 1024px) {
+	
+.body-content {padding-left:50px;}
+
+/* search input field */
+.search input[type=search] {
+	background: #fff url(http://www.cesweb.org/ces/images/glass.png) no-repeat 9px center;
+	margin-right:-20px;
+}
+.search input[type=search]:focus {
+	width: 170px;
+	padding: 10px 10px 10px 55px;
+	background-color: #fff;
+	border-color: #6dcff6;
+	border:solid thin #eeeeee;
+	-webkit-box-shadow: 0 0 5px rgba(109,207,246,.5);
+	-moz-box-shadow: 0 0 5px rgba(109,207,246,.5);
+	box-shadow: 0 0 5px rgba(109,207,246,.5);
+}
+
+.one-sixth-leftnav {display:none;}
+
+.three-fourth {width:90%;}
+
+.tabs-container {
+	margin-left:-20px;
+	width:95%;
+	}
+	
+.tabs-nav {
+	font-size:13px !important;
+	margin-left:-20px;
+	width:95%;
+}
+
+.filter-innovations li ul {padding-top:10px !important;width:890px !important;}
+
+.filter-innovations li {width:100%;height:50px;}
+.innov-filter-col1 {float:left;width:30%;margin-bottom:20px;margin-left:20px;}
+.filter-keynotes-last li a{
+	padding-top:10px !important;
+	}
+.pressroom-col1 {
+		width:100%;
+		margin-right:0px;
+		float:none;
+		margin-top:60px;
+		}
+
+.pressroom-col2 {
+		width:100%;
+		float:none;
+		margin-right:0px !important;
+		margin-top:40px;
+		}
+		
+.gallery img {width:170px;}
+  
+  /*TABS*/
+  
+.ajax__tab_xp .ajax__tab_header .ajax__tab_inner {
+ padding:5px 5px;
+  font-size:14px;
+}
+
+.filter-keynotes-last {width:200px;text-align:center;padding-left:0px !important;padding-right:0px !important;} 
+ 
+.display-dropdown-left {float:left;display:block;margin-bottom:20px;}
+
+.display-dropdown-left  select {
+   background:url(http://www.cesweb.org/ces/images/dropdown-bk.png) -180px 0px repeat-x;
+   width:160px;
+   padding: 8px 15px 6px 15px;
+   font-size: 14px;
+   line-height: 1;
+   border: 0;
+   height: 35px;
+   -webkit-appearance: none;
+	margin-top:0px;
+	margin-right:20px;
+	text-align:left;
+	color:#000;
+	font-family:open_sansbold;
+}
+
+.display-dropdown-left option {
+	padding:5px 15px;
+	color:#555;
+	text-transform:none;
+	border-bottom:solid 1px #FFF;
+	}
+ 
+ .display-dropdown-inlinenav {
+  width:100%;
+  text-align:right;
+  margin-bottom:-40px;
+  margin-top:40px;
+ display:block !important;
+}
+
+.display-dropdown-inlinenav select {
+   background:url(http://www.cesweb.org/ces/images/dropdown-bk.png) -160px 0px repeat-x;
+   width:200px;
+   padding: 8px 15px 6px 15px;
+   font-size: 14px;
+   line-height: 1;
+   border: 0;
+   height: 35px;
+   -webkit-appearance: none;
+	margin-top:0px;
+	margin-right:20px;
+	text-align:left;
+	color:#000;
+	font-family:open_sanssemibold;
+}  
+  
+}
+
+/* --------------------------------------980px-----------------------------------------*/
+
+@media (max-width : 980px) {
+	
+
+#sticky_navigation .search-container.small-search-container {
+	margin-top:30px;
+	width:600px;
+	}
+
+
+
+/*--------------------------------------------------------------------------*/
+/*              					TABS   		   							 */
+/*--------------------------------------------------------------------------*/	
+
+.tabs-container {
+	margin-left:-20px;
+	}
+	
+.tabs-nav {
+	font-size:13px !important;
+	margin-left:-20px;
+}
+
+.tabs-nav li a {
+    padding: 5px 18px;
+	background:url(http://www.cesweb.org/ces/images/arrow-right.png) 5px 15px no-repeat;
+}
+
+.tab-content {
+    padding: 20px 0px 20px 0px;
+}
+
+#tab2 {margin-top:20px;}
+#tab3 {margin-top:20px;}
+#tab4 {margin-top:20px;}
+#tab5 {margin-top:20px;}
+
+.ajax__tab_panel {
+    padding:25px;
+    margin-top:0px;
+  }
+}
+
+/* --------------------------------------885px-----------------------------------------*/
+
+@media (max-width : 885px) {
+
+.search-container {
+	width:440px !important;
+	float:right;
+	margin-top:0px;
+	/*border:solid thin #F03;*/
+	}
+	
+.date {
+	float:right;
+	width:230px !important;
+	/*border:solid thin #F03;*/
+}
+
+.date h2 { 
+	font-size:23px !important;
+	}
+	
+#header {
+    margin-bottom: 10px;
+}
+
+span.hover_bg h3 {
+	font-size:14px;
+	font-family:open_sansbold;
+	color:#FFF;
+	background:#cc1e4c;
+	text-transform:uppercase;
+	padding:0px 15px 0px 15px;
+	}
+
+span.hover_bg h2 {
+	font-size:18px;
+	font-family:open_sansbold;
+	color:#FFF;
+	text-transform:uppercase;
+	line-height:17px;
+	padding:5px 15px 0px 15px;
+	}
+	
+.copyright {padding-left:20px;}
+
+.feature-float-right img {
+	float:none;
+	width:90%;
+	margin-left:0px;
+	}
+	
+.feature-float-left img {
+	float:none;
+	width:90%;
+	margin-left:0px;
+	}
+	
+.home-section h2 {margin-top:-15px !important;}
+
+.filter-innovations li a {font-size:11px !important;}
+
+	
+.filter-keynotes-last li a{
+	font-size:14px !important;
+    padding-left:5px;
+    margin-left:20px;
+	}
+	
+.filter-keynotes-last li a.active {
+	
+	}
+	
+	/*--------------------------------------------------------------------------*/
+/*						Keynotes POP UP	Influencers		 					*/
+/*--------------------------------------------------------------------------*/
+
+.keynotes-pop-up {
+		width:650px !important;
+		height:550px;
+		padding:10px;
+		background:#fff;
+		-webkit-border-radius: 12px;
+-moz-border-radius: 12px;
+border-radius: 12px;
+border:solid 1px #F03;
+	}
+
+.keynotes-pop-up-fl {
+		width:650px !important;
+		height:620px;
+		padding:10px;
+		background:#fff;
+		-webkit-border-radius: 12px;
+-moz-border-radius: 12px;
+border-radius: 12px;
+	}
+	
+.keynotes-pop-up-text {
+	padding:40px 20px 30px 20px;
+	float:right;
+	width:300px !important;
+}
+
+.keynotes-pop-up-text h2 {
+	font-size:24px !important;
+	font-family:'open_sansbold';
+	margin-bottom:20px;
+	line-height:26px;
+	}
+.keynotes-pop-up-text h3 {
+	font-size:18px;
+	font-family:'open_sanssemibold';
+	margin-bottom:10px;
+	}
+	
+.keynotes-pop-up-text h5 {
+	font-size:14px;
+	font-family:'open_sanssemibold';
+	color:#000;
+	}
+	
+.keynotes-pop-up-text p {
+	font-size:13px;
+	line-height:18px;
+	}
+	
+.keynotes-pop-up-text li a {
+	padding-bottom:5px !important;
+	line-height:20px;
+	font-size:13px;
+	}
+
+	
+.keynotes-pop-up-fl img {
+	border:solid 1px #eee;
+	padding:8px;
+	background:#fff;
+	float:left;
+	width:300px !important;
+	}
+	
+.about-speaker {
+	width:570px;
+	padding:20px;
+	margin:8px;
+}
+
+.about-speaker p {
+	font-size:12px;
+	line-height:18px;
+	}
+	
+.filter-keynotes-last li a{
+	padding-top:5px !important;
+	}
+  
+  
+  .ajax__tab_xp .ajax__tab_header .ajax__tab_inner {
+ padding:3px 2px;
+  font-size:13px;
+}
+  
+.ajax__tab_body, .ajax__scroll_auto {
+  
+  margin-top:29px !important;
+}
+.ajax__tab_panel {
+    padding:25px;
+    margin-top:0px;
+  }
+.display-dropdown-inlinenav {
+  width:100%;
+  text-align:right;
+  margin-bottom:-40px;
+  margin-top:40px;
+}
+
+.display-dropdown-inlinenav select {
+   background:url(http://www.cesweb.org/ces/images/dropdown-bk.png) -180px 0px repeat-x;
+   width:160px;
+   font-size: 14px;
+   height: 35px;
+	color:#000;
+	font-family:open_sanssemibold;
+}
+  
+}
+
+
+
+/*___________________________________________________________________*/
+
+/*---------------iPad & Samsung Galaxy Tablets portrait---------------*/
+/*___________________________________________________________________*/
+
+
+
+@media only screen and (min-width: 820px) and (max-width: 959px) {
+	
+.search-container {
+	width:520px;float:right;
+	margin-top:0px;
+	}
+	
+.date {
+	float:right;
+	width:270px;
+}
+
+
+.date h2 { 
+	font-size:27px;
+	}
+	
+#main-navigation ul li a {
+    padding: 15px 16px 15px 16px;
+    margin: 0px 2px px 0px;
+    font-size: 15px;
+    font-weight: 300; 
+	background:url(http://www.cesweb.org/ces/images/arrow-right.png) 5px center no-repeat;
+}
+
+#main-navigation ul li:hover a {
+    color: #505050;
+	background:url(http://www.cesweb.org/ces/images/arrow-down.png) 5px center no-repeat;
+	padding: 11px 16px 14px 16px;
+}
+
+/* search input field */
+
+.search input[type=search]:focus {
+	width: 130px;
+	padding: 10px 10px 10px 50px;
+	background-color: #fff;
+	border-color: #6dcff6;
+	border:solid thin #eeeeee;
+	-webkit-box-shadow: 0 0 5px rgba(109,207,246,.5);
+	-moz-box-shadow: 0 0 5px rgba(109,207,246,.5);
+	box-shadow: 0 0 5px rgba(109,207,246,.5);
+}
+
+.portfolio-grid {
+    width: 744px;
+    margin: 0 -30px 0 0px;
+}
+.input-holder {
+    width: 154px;
+    margin-right: 30px;
+    float: left;
+}
+.team-member {
+    width: 154px
+}
+.grey-img {
+    width: 154px;
+    height: auto;
+    float: left;
+    margin: 0 0  30px 0px;
+}
+
+a.thumbnail-roll span {
+    line-height: 70px
+}
+.one-fourth a.thumbnail-roll span {
+    line-height: 95px
+}
+.one-third a.thumbnail-roll span {
+    line-height: 135px
+}
+
+.comment .sub-comment .comment-text,
+.comment .sub-comment .comment-meta {
+    width: 89%
+}
+.comment .sub-comment .sub-comment .comment-meta {
+    width: 87.5%
+}
+.comment .sub-comment .sub-comment .comment-text {
+    width: 100%
+}
+.comment-list {
+    width: 530px
+}
+
+#sticky_navigation #logo.small-logo {
+    float: left;
+	height:80px;
+	width:240px;
+    display: block;
+    margin: 20px 0 12px 30px;
+    background: url("http://www.cesweb.org/ces/images/logo_sm2.png") no-repeat;
+}
+
+#sticky_navigation #navigation-wrapper.small-wrapper {width:100%;}
+
+#sticky_navigation #main-navigation ul li a {
+    padding: 15px 16px 15px 16px;
+    margin: 0px 2px 0px 0px;
+    font-size: 14px;
+    
+	background:url(http://www.cesweb.org/ces/images/arrow-right.png) 5px center no-repeat;
+}
+
+#sticky_navigation #main-navigation ul li:hover a {
+    color: #505050;
+	background:url(http://www.cesweb.org/ces/images/arrow-down.png) 5px center no-repeat;
+	padding: 11px 16px 14px 16px;
+}
+
+#sticky_navigation .search-container.small-search-container {margin-top:30px;width:500px;}
+#sticky_navigation .date.small-date {width:250px;}
+
+.thumb {
+    margin-bottom: 0px;
+    border-bottom: none;
+    padding-bottom: 0px;
+}
+
+span.hover_bg {
+	display:none;
+	}
+
+span.hover_bg h2 {
+	font-size:14px;
+	line-height:17px;
+	padding:5px 15px 0px 15px;
+	}
+
+#footer {margin-top:120px;}
+	
+.footer-div {width:100px;}
+
+.copyright {padding-left:20px;}
+
+.leftnav {
+	display:none;
+	}
+  
+  
+  
+  .pressroom-col1 {
+		margin-top:400px !important;
+		}
+  
+}
+
+
+/*-------------------------------------------------------640px;-------------------------------------------------------*/
+
+@media (max-width: 640px) {
+.search {display:none !important;}
+#logo {
+    height:150px;
+  }
+}
+
+
+/*----------------------------------------------480PX and (max-width: 820px)----------------------------------------------*/
+
+
+@media only screen and (min-width: 481px) and (max-width: 820px) {
+ 
+.container {
+    max-width: 470px;
+	text-align:center;
+	/*border:solid thin #F00;*/
+}
+
+#header {
+    margin-bottom: 30px;
+	margin-left:-20px;
+}
+
+.search-container {
+	width:100%;
+	float:none;
+	margin-top:-30px !important;
+	margin-bottom:20px;
+	/*border:solid thin #F00;*/
+	}
+
+.search {float:right;margin-bottom:20px;}
+
+/* reset webkit search input browser style */
+.search input {
+	outline: none;
+	font-size:13px;
+}
+.search input{
+	-webkit-appearance: textfield;
+	-webkit-box-sizing: content-box;
+	font-family: inherit;
+	
+}
+.search input::-webkit-search-decoration,
+.search input::-webkit-search-cancel-button {
+	display:block; /* remove the search and cancel icon */
+}
+
+/* search input field */
+.search input {
+	background: #fff url(http://www.cesweb.org/ces/images/glass-sm.png) no-repeat 9px center !important;
+
+	margin-left:10px;
+	padding: 8px 10px 8px 30px !important;
+	width: 95px !important;
+	-webkit-border-radius: 3px !important;
+	-moz-border-radius: 3px !important;
+	border-radius: 3px !important;
+	border:solid thin #ccc;
+}
+.search input:focus {
+	width: 110px;
+	padding: 8px 10px 8px 30px !important;
+	background-color: #eee;
+	border-color: #6dcff6;
+	border:solid thin #eeeeee;
+	-webkit-box-shadow: 0 0 5px rgba(109,207,246,.5);
+	-moz-box-shadow: 0 0 5px rgba(109,207,246,.5);
+	box-shadow: 0 0 5px rgba(109,207,246,.5);
+}
+
+/* placeholder */
+.search input:-moz-placeholder {
+	color: #999;
+}
+.search input::-webkit-input-placeholder {
+	color: #999;
+}
+
+.audience-nav {
+	width:100%;
+	float:none;
+	text-align:center;
+	padding-top:10px;
+	}
+.audience-nav ul {display:none;}
+.audience-nav li {display:none;}
+.audience-nav li a{
+	color:#000 !important;
+	padding:10px 25px 10px 25px;
+	background:#eee url(http://www.cesweb.org/ces/images/arrow-right.png) 8px center no-repeat;
+	}
+	
+.audience-nav li a:hover{
+	background:#eefdff url(http://www.cesweb.org/ces/images/arrow-right.png) 8px center no-repeat;
+	}
+	
+.date2 {
+	display:block;
+	text-align:center;
+	text-transform:uppercase;
+	font-size:15px;
+	color:#777;
+	font-weight:500;
+	float:left;
+	padding-top:20px;
+	padding-left:20px;
+	}
+	
+.date {
+	display:none;
+	float:none;
+	width:100%;
+}
+
+.date h2 { 
+	font-size:20px;
+	}
+	
+#logo {
+	    margin: 0px !important;
+		width:100%;
+		background:url("http://www.cesweb.org/ces/images/logo_sm.png") no-repeat;
+		background-position:center top;
+}
+
+
+.home-body-content {
+	text-align:center;
+	}
+
+.open-ad {display:none;}
+	
+.one-half,
+.one-third,
+.two-third,
+.one-fourth,
+.three-fourth,
+.one-fifth,
+.one-third-big {
+    float: left;
+    margin-right: 0px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+.one-half.last,
+.one-third.last,
+.two-third.last,
+.one-fourth.last,
+.three-fourth.last,
+.one-fifth.last,
+.one-third-big.last {
+    margin-right: 0px
+}
+
+.three-fourth {padding-left:0;margin-left:0px;margin-top:-70px;}
+  
+.body-content {padding-left:0px !important;}
+  
+  
+#main-navigation select {
+    display: block;
+}
+
+
+#main-navigation {
+	width:100%;
+	overflow:hidden;
+	
+	}
+
+#main-navigation select {
+   background:url(http://www.cesweb.org/ces/images/menu-bk2-no-arrow.png) repeat;
+   width: 110%;
+   padding: 8px 15px 6px 15px;
+   font-size: 14px;
+   line-height: 1;
+   border: 0;
+   height: 35px;
+   -webkit-appearance: none;
+	-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;
+margin-top:10px;
+text-align:left;
+color:#01a6bd;
+text-transform:uppercase;
+}
+
+#main-navigation option {
+	padding:5px 15px;
+	color:#555;
+	text-transform:none;
+	border-bottom:solid 1px #FFF;
+	}
+
+#navigation-wrapper {
+    float: left;
+	text-align:center;
+	width:100%;
+	background:url(http://www.cesweb.org/ces/images/nav-bk4.png) no-repeat;
+	height:60px;
+	margin-left:20px!important;
+}
+#main-navigation ul {
+    display: none
+}
+#logo {
+    display: block;
+    margin: 0px auto 40px auto;
+    float: none;
+    text-align: center;
+}
+
+#sticky_navigation {  
+    height: 60px;
+}
+
+#sticky_navigation #logo.small-logo {
+   display:none !important;
+}
+
+#sticky_navigation .date2.small-date2 {   
+    display: none;
+}
+
+#sticky_navigation .search-container.small-search-container { 
+    display: none;
+}
+
+#sticky_navigation #navigation-wrapper.small-wrapper {margin-left:20px;width:95%;}
+
+#top_panel {
+    text-align: center
+}
+#top_panel .open-ad{
+    float: left;
+    width: auto;
+    padding: 0;
+	font-size:12px;
+	font-weight:500;
+	color:#FFF;
+	padding-top:10px;
+	padding-right:8px;
+	padding-left:8px;
+	text-transform:uppercase;
+	height: 30px;
+	background:#333;
+}
+
+#top_panel  .social_icons {
+    display: block;
+    width: 42%;
+}
+
+.drop li { 
+	float: left; 
+	zoom: 1; 
+	padding: 12px 10px 12px 10px; 
+	}
+	
+
+.connect-title {display:none;}
+
+#top_panel .links {
+    float: none;
+    text-align: center;
+}
+#top_panel .links li {
+    display: inline;
+    float: none;
+}
+
+
+.billboard-ad {
+	background:#000;
+	width:100%;
+	margin-left:auto !important;
+	margin-right:auto !important;
+	margin-top:10px;
+	margin-bottom:10px;
+	text-align:center;
+    z-index:9993;
+    position:relative;
+	}
+  
+  .bill-ad img {
+position: relative;
+text-align: center !important;
+z-index: 9996;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+.feature-grid-bk {background:none !important;}
+
+.feature-grid{
+    width: 470px;
+	margin-top:210px !important;
+    float: none;
+	/*border:solid thin #0C6;*/
+}
+.input-holder {
+    width: 420px;
+    margin-right: 0px;
+    float: left;
+}
+.feature-grid ul.feature-items li.one-fourth {
+    width: 420px;
+    float: left;
+    margin: 0 0px 30px 0px;
+}
+.feature-grid ul.portfolio-items li.one-half {
+    width: 420px;
+    float: left;
+    margin: 0 0px 30px 0px;
+}
+.feature-grid ul.feature-items li.one-third {
+    width: 470px;
+    float: left;
+    margin: 0 0px 10px 0px;
+}
+.feature-grid ul.feature-items li.one-fifth {
+    width: 420px;
+    float: left;
+    margin: 0 0px 30px 0px;
+}
+
+.home-section h2 {
+	margin-top:-25px !important;}
+
+a.thumbnail-roll span {
+    line-height: 235px
+}
+.one-fourth a.thumbnail-roll span {
+    line-height: 235px
+}
+.one-third a.thumbnail-roll span {
+    line-height: 235px
+}
+
+
+.screen-roll span.hover_bg {
+    height: 104%;
+	text-align:left;
+}
+
+
+span.hover_bg h3 {
+margin-bottom:10px !important;
+}
+
+span.hover_bg p {font-size:13px;}
+
+.feature-item-title ul {
+	z-index:9000px;
+	position:relative;
+	text-transform:uppercase;
+	top:-15px;
+	margin-top:-95px !important;
+	color:#fff !important;
+	text-align:left;
+	}
+	
+.button-block {margin-bottom:0px !important;}
+	
+#footer {
+	text-align:center;
+	padding:0 !important;
+	margin-top:120px;
+  }
+  
+.footer-div {
+	width:88%;
+	background:none;
+	margin-left:-10px;
+	float:none;
+	min-height:60px;
+}
+	
+.copyright {
+	text-align:center;
+	margin:0;
+	float:none !important;
+	width:95%;
+	}
+
+.languages {
+	width:88%;
+}
+
+.languages .columns {
+	float:none !important;
+	width:100%;
+	margin:0px;
+	text-align:center;
+}
+
+.home-press-release {
+	
+	width:100% !important;
+	margin-right:0% !important;
+	}
+	
+.billboard-ad {display:none;}
+
+
+.one-land,.one-half-land,.two-third-land,.one-third-land,.one-fourth-land ,.one-fifth-land,.one-sixth-land,.three-fourth-land{ 
+	float:none;
+	position:relative;
+	margin-right:0%; 
+	padding-left:-30px !important;
+	}
+.one-third-land  { 
+	width: 83%; 
+	}
+.one-half-land.last, .one-third-land.last, .two-third-land.last, .one-fourth-land.last, .three-fourth-land.last,.one-fifth-land.last,.one-sixth-land.last{
+	margin-right: 0%!important;
+	}
+	
+.interior-body-bk {display:none;}
+
+
+.body-content {
+	position:relative;
+	top:180px;
+	margin-bottom:140px;
+	}
+	
+.body-content h1 {
+	font-size:50px;
+	line-height:50px;
+	}
+  
+
+	
+.breadcrumbs ul {
+	width:85%;
+}
+
+.breadcrumbs ul li {
+	padding-right:2px;
+}
+  
+.breadcrumbs-article {
+	
+	height:50px;
+	margin-bottom:30px;
+	}
+  
+.breadcrumbs-article ul {
+	width:85%;
+}
+
+.breadcrumbs-article li {
+	display:inline-block;
+	padding-right:5px;
+	}
+
+.leftnav {
+	display:none;
+	}
+
+.breadcrumbs-right {
+	width:130px !important;
+}
+
+.breadcrumbs-right li:last-child{
+	display:none;
+}
+  
+  /*-----TABS------*/
+  
+.ajax__tab_container {
+    padding:0px !important; 
+    margin-left:-50px !important;
+}
+   
+.ajax__tab_body, .ajax__scroll_auto {
+ 
+  margin-top:0px !important;
+}
+  
+ 
+.ajax__tab_xp .ajax__tab_header .ajax__tab_inner {
+    border-right: 1px solid #7ad2e4;
+    border-left: 1px solid #7ad2e4;
+    border-top: 1px solid #7ad2e4;
+    color: #000;
+    display: block;
+    letter-spacing: 0;
+    outline: none;
+    padding: 5px 0px !important;
+    font-size: 13px;
+    background-image: url(http://staging.ces.org/ces/images/tabs-bk.png)!important;
+    background-repeat: repeat !important;
+    height: 40px;
+    margin-top: 5px;
+    font-family: 'Open_sanssemibold' !important;
+}
+  
+.ajax__tab_xp .ajax__tab_header .ajax__tab_outer {
+  background:none;
+  height: 40px !important;
+
+}
+  
+.ajax__tab_panel {
+    padding:25px;
+    margin-top:40px;
+  }
+
+.ajax__tab_body {margin-top:-26px !important;}
+  
+  /*----END-TABS------*/
+  
+  
+.tabs-nav {margin-left:-40px;width:470px;}
+
+.tabs-nav li:nth-child(4){
+    border:none !important;
+}
+
+.tabs-nav li:last-child {
+    display:none;
+}
+
+.tabs-nav li a {
+    border-right: 1px solid #7ad2e4;
+    border-left: none;
+    color: #000;
+    display: block;
+    letter-spacing: 0;
+    outline: none;
+    padding: 6px 10px;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #fff;
+	background:none;
+}
+
+.intro-innov {display:none;}
+
+.innov-year {display:none;}
+
+#filterable select {
+    display: none;
+}
+
+
+
+.mobile-title {display:block !important;color:#fff;font-family:'open_sansbold';}
+	
+.innov-grid {text-align:center;margin-bottom:100px !important;margin-left:20px;}
+	
+.innov-grid ul.portfolio-items li.one-sixth {
+    width: 175px;
+    float: left;
+    margin: 0 30px 50px 0px;
+	border:solid 1px #CCC;
+}
+  
+  .keynotes-filter-col1 {
+  float:left;
+  margin-right:20px;
+  border:none !important;
+  font-size:13px !important;
+    width:180px !important;
+}
+
+.keynotes-filter-col2 {
+    float:left;
+    margin-right:20px;
+    border:none !important;
+    font-size:13px !important;
+     width:180px !important;
+
+}
+.keynotes-filter-col1 h6 {
+	background:url(http://www.cesweb.org/ces/images/key-title-bk1.png)!important;
+	font-family:'Open_sansextrabold';
+	font-size:14px;
+	padding:10px 15px;
+	color:#000;
+	}
+
+.keynotes-filter-col2 h6 {
+	background:url(http://www.cesweb.org/ces/images/key-title-bk1.png)!important;
+	font-family:'Open_sansextrabold';
+	font-size:14px;
+	padding:10px 15px;
+	color:#000;
+	}
+
+.filter-keynotes {
+    display:list-item;
+    float: left;
+    margin-bottom: 20px;
+	margin-right: 20px;
+	list-style: none !important; 
+    font-size:13px !important;
+  margin-left:-15px;
+}
+
+
+.filter-keynotes li {
+  width:160px;
+
+}
+
+  .filter-keynotes-last {
+  margin-bottom:20px !important;
+    width:180px;
+
+}
+
+.keynotes-feature-item-wp h1 {
+ margin-top:-30px !important;   
+  padding:0px !important;
+	}
+	
+.keynotes-feature-item-wp h2 {
+  margin-top:-10px !important;   
+  margin-bottom:-15px !important; 
+  padding:0px !important;
+	}
+
+.keynotes-feature-item-wp h3 {
+  padding:0px !important;
+	}
+
+.keynotes-feature-item-fl {
+	margin-top:-25px !important;
+	}
+	
+	
+.keynotes-feature-item-fl h1 {
+	line-height:18px;
+	margin-top:-10px;
+	margin-bottom:0px;
+	}
+	
+.keynotes-feature-item-fl h2 {
+
+	margin-bottom:5px;
+	}
+	
+.keynotes-feature-item-fl h3 {
+
+	line-height:14px;
+	padding:0 !important;
+	margin:0 !important;
+	}
+
+.hover-text h1, .hover-text-sm h1 {
+	line-height:18px !important;
+	margin:0px !important;
+	}
+	
+.innov-pop-up {
+		width:350px !important;
+		height:790px;
+	}
+	
+.keynotes-pop-up {
+		width:470px !important;
+		height:800px;
+		padding:10px;
+		background:#fff;
+		-webkit-border-radius: 12px;
+-moz-border-radius: 12px;
+border-radius: 12px;
+border:solid 1px #F03;
+	}
+	
+
+.keynotes-img {width:200px;}
+
+.keynotes-pop-up-fl {
+		width:470px !important;
+		height:850px;
+		padding:10px;
+		background:#fff;
+		-webkit-border-radius: 12px;
+-moz-border-radius: 12px;
+border-radius: 12px;
+	}
+	
+.keynotes-pop-up-text {
+	padding:40px 20px 30px 20px;
+	float:none;
+	width:400px !important;
+}
+
+.about-speaker {
+	width:400px;
+	padding:20px;
+}
+
+/* INNOVATIONS FILTER */
+
+.innov-filter-col1 {float:none;width:100%;}
+
+.filter-innovations a { 
+	display:block !important; 
+	color: #fff !important; 
+	font-family: 'open_sansregular', 'Lucida Grande', sans-serif; 
+	font-size: 13px; 
+	text-decoration: none;
+	text-transform:uppercase !important;
+	}
+	 
+
+.filter-innovations { 
+	z-index: 8696; 
+	float: left; 
+	margin-right:0;
+	background: url(http://www.cesweb.org/ces/images/dropdown-bk.png)15px 0px repeat; 
+	color: #000 !important;
+	-webkit-border-radius: 12px;
+-moz-border-radius: 12px;
+padding:10px 20px 10px 20px;
+border-radius: 12px;
+width:360px; 
+    border: solid 1px #e3ebf5;
+    font-family: open_sanssemibold;
+    font-size:14px;
+	}
+  
+  
+
+.filter-innovations li { 
+	float: left; 
+	vertical-align: middle; 
+	zoom: 1; 
+	background:url(http://www.cesweb.org/ces/images/arrow-white-down.png) 320px 5px no-repeat;
+	text-transform:uppercase !important;
+	color: #fff !important;
+	width:400px;
+	}
+
+.filter-innovations li.hover, 
+.filter-innovations li:hover { 
+	position: relative; 
+	z-index: 8697; 
+	background:#000 url(http://www.cesweb.org/ces/images/arrow-white-down.png) 320px 5px no-repeat;
+	color:#666 !important;
+	}
+.filter-innovations ul { 
+	visibility: hidden; 
+	position: absolute; 
+	top: 100%; 
+	left: 0; 
+	z-index: 8698; 
+	background: #000;
+	}
+	
+.filter-innovations li ul {padding-top:10px !important;}
+
+.filter-innovations ul li a { 
+	float: none;
+	}
+	
+.filter-innovations li ul li a { 
+	float: left; 
+	vertical-align: middle; 
+	zoom: 1; 
+	width:350px;
+	background-image:none !important;
+display:block;
+padding:10px 50px 10px 10px!important;
+	}
+	
+.filter-innovations li ul li a.active {
+	width:400px;	
+	padding-left:10px !important;
+	height:23px;
+	font-family:'open_sansextrabold';
+	color:#6FF !important;	
+	}
+	
+.filter-innovations li:hover > ul { visibility: visible }*/
+
+.keynotes-grid {margin-bottom:100px !important;}
+  
+  .one-fifth-sitemap { width: 90.0%; }
+  
+  /*--------------------------------------------------------------------------*/
+/*              					Photo Gallery 		   					*/
+/*--------------------------------------------------------------------------*/
+
+.one-third-gallery {
+	float:left;
+	width:45%;
+	margin-right:2%;
+	}
+	
+.one-third-gallery p {
+	padding:10px;
+    width:85%
+	}
+	
+.minus-20 {margin-left:-20px;}	
+
+.pressroom-col1 {
+		margin-top:300px !important;
+		}
+ 
+.display-dropdown-inlinenav {
+  width:100%;
+  text-align:right;
+  margin-bottom:20px !important;
+  margin-top:10px;
+}
+
+.display-dropdown-inlinenav select {
+   background:url(http://www.cesweb.org/ces/images/dropdown-bk.png) -180px 0px repeat-x;
+   width:160px;
+   padding: 8px 15px 6px 15px;
+   font-size: 14px;
+   line-height: 1;
+   border: 0;
+   height: 35px;
+   -webkit-appearance: none;
+	margin-top:0px;
+	margin-right:20px;
+	text-align:left;
+	color:#000;
+	font-family:open_sanssemibold;
+}
+  
+
+ .display-dropdown-inlinenav {
+  width:100%;
+  text-align:LEFT !IMPORTANT;
+  margin-bottom:-40px;
+  margin-top:40px;
+ display:block !important;
+}
+
+.display-dropdown-inlinenav select {
+   background:url(http://www.cesweb.org/ces/images/dropdown-bk.png) -120px 0px repeat-x;
+   width:230px;
+   padding: 8px 15px 6px 15px;
+   font-size: 14px;
+   line-height: 1;
+   border: 0;
+   height: 35px;
+   -webkit-appearance: none;
+	margin-top:0px;
+	margin-right:20px;
+	text-align:left;
+	color:#000;
+	font-family:open_sanssemibold;
+}
+  
+/*--------------------------------------------------------------------------*/
+/*          	   		Speaker Search		   					*/
+/*--------------------------------------------------------------------------*/
+
+
+.speaker-search-area input {
+	width:80%;
+	}
+	
+.speaker-keyword {
+	float:left;
+	width:48% !important;
+	}
+	
+
+.speaker-filter {
+	width:35% !important;
+	}
+	
+	
+.speaker-sort {
+  
+	width:100%;
+	height:60px;
+}
+
+.speaker-sort h3 {
+	float:left;
+	font-size: 14px;
+	}
+
+.speaker-sort select {
+   width:130px;
+}
+
+.speaker-sort option {
+	
+	}
+	
+
+.display-speakers {}
+
+.display-speakers .btn {
+	width:180px !important;
+	margin-top:-50px;
+	}
+	
+.speaker-body {
+	width:100%;
+	clear:both;
+	padding:45px 0px 25px 0px;
+	}
+	
+
+.speaker-body div {
+	clear:both;
+	display:block;
+	height:120px;
+	}
+	
+.speaker-body h1 {
+	font-size:18px;
+	height:20px;
+	}
+
+.speaker-body h2{
+	font-size:14px;
+	padding:0px 0px 0px 0px;
+	margin:-10px 0px 0px 0px;
+	}
+.speaker-body p{
+	padding:0;
+	margin:0;
+	font-size:12px;
+	}
+	
+
+.speaker-body img {
+	padding-top:10px;
+	}
+  
+  
+}
+
+/*___________________________________________________________________*/
+
+/*-----------------------------min-width: 321px) and (max-width: 480px-----------------------------*/
+/*___________________________________________________________________*/
+
+
+@media (min-width: 321px) and (max-width: 480px) {
+	
+.one-fifth-sitemap { width: 90.0%; }	
+.banner,
+.bannercontainer {
+    width: 100%;
+    height: 155px;
+}
+
+.container {
+    width: 100%;
+	text-align:center;
+}
+
+#header {
+    margin-bottom: 10px;
+	margin-left:-10px;
+    margin-top:-10px;
+}
+
+
+h1 {
+    font-size: 30px;
+    line-height: 32px;
+	
+}
+
+h2 {
+    font-size: 24px;
+    line-height: 28px;
+	font-family: 'open_sansregular',Arial,Verdana, serif;
+	font-weight: normal;
+	color:#5575b4;
+}
+h3 {
+     font-size: 20px;
+    line-height: 22px;
+	font-family: 'open_sanssemibold',Arial,Verdana, serif;
+	font-weight: bold;
+	color:#000;
+}
+h4 {
+    font-size: 18px;
+    line-height: 20px;
+	font-family: 'open_sanssemibold',Arial,Verdana, serif;
+	font-weight: bold;
+	color:#5575b4;
+}
+h5 {
+    font-size: 16px;
+    line-height: 18px;
+}
+h6 {
+    font-size: 16px;
+    line-height: 18px;
+}
+	
+	
+p {
+	font-size: 14px;
+    line-height: 20px;
+	font-family: 'open_sansregular', Arial, Verdana, serif;
+	font-weight: regular;
+	color:#000;
+	margin-bottom:25px;
+	}
+	
+.intro {font-size: 18px;line-height: 24px;}
+.intro-innov {font-size: 18px;line-height: 24px;}
+	
+.billboard-ad {display:none;}
+
+.search-container {
+	width:100%;
+	float:none;
+	margin-top:0px !important;
+	margin-bottom:10px;
+	}
+
+.search {display:none;}
+
+/* reset webkit search input browser style */
+.search input {
+	outline: none;
+	font-size:13px;
+}
+.search input{
+	-webkit-appearance: textfield;
+	-webkit-box-sizing: content-box;
+	font-family: inherit;
+	
+}
+.search input::-webkit-search-decoration,
+.search input::-webkit-search-cancel-button {
+	display:block; /* remove the search and cancel icon */
+}
+
+/* search input field */
+.search input {
+	background: #fff url(http://www.cesweb.org/ces/images/glass-sm.png) no-repeat 9px center !important;
+
+	margin-left:10px;
+	padding: 8px 0px 8px 0px !important;
+	width: 5px;
+	-webkit-border-radius: 3px !important;
+	-moz-border-radius: 3px !important;
+	border-radius: 3px !important;
+	border:solid thin #ccc;
+}
+.search input:focus {
+	width: 90px !important;
+	background-color: #eee;
+	border-color: #6dcff6;
+	border:solid thin #eeeeee;
+	padding: 8px 3px 8px 33px !important;
+	-webkit-box-shadow: 0 0 5px rgba(109,207,246,.5);
+	-moz-box-shadow: 0 0 5px rgba(109,207,246,.5);
+	box-shadow: 0 0 5px rgba(109,207,246,.5);
+}
+
+/* placeholder */
+.search input:-moz-placeholder {
+	color: #999;
+}
+.search input::-webkit-input-placeholder {
+	color: #999;
+}
+
+
+	
+.date2 {
+	display:block;
+	text-align:center;
+	text-transform:uppercase;
+	font-size:13px;
+	color:#000;
+	float:none;
+	width:100%;
+	line-height:16px;
+	}
+	
+.date {
+	display:none;
+	float:none;
+	width:100%;
+}
+
+.date h2 { 
+	font-size:20px;
+	}
+	
+#logo {
+	    margin:20px 0px 0px 0px!important;
+		width:100%;
+		background:url("http://www.cesweb.org/ces/images/logo_sm2.png") no-repeat;
+		background-position:center top;
+		height:100px;
+}
+
+.open-ad {display:none;}
+
+#main-navigation {width:100%;}
+
+#main-navigation select {
+   background:url(http://www.cesweb.org/ces/images/menu-bk.png) 340px center repeat;
+   width: 360px;
+   padding: 8px 15px 6px 15px;
+   font-size: 14px;
+   line-height: 1;
+   border: 0;
+   height: 35px;
+   -webkit-appearance: none;
+	-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;
+margin-top:10px;
+text-align:left;
+color:#01a6bd;
+text-transform:uppercase;
+margin-left:0px;
+}
+
+#navigation-wrapper {
+    float: left;
+	 width: 340px;
+	background:url(http://www.cesweb.org/ces/images/nav-bk3.png) repeat;
+	height:60px;
+	margin-left:-20px;
+}
+
+.audience-nav {display:none;}
+.audience-nav li {display:none;}
+  .audience-nav li a {padding:0px;font-size:1px;color:#fff;}
+
+
+.feature-grid-bk {background:none !important;}
+
+.feature-grid{
+    width: 300px;
+	margin-top:10px !important;
+    float: none;
+	/*border:solid thin #0C6;*/
+}
+.input-holder {
+    width: 420px;
+    margin-right: 0px;
+    float: left;
+}
+
+.feature-grid ul.feature-items li.one-third {
+    width: 300px;
+    float: left;
+    margin: -10px 0px 0px 0px;
+}
+
+	
+.home-feature img {
+	width:100%;
+    display:block !important;
+}
+	
+.home-feature h1 {
+	color:#000;
+	font-size:18px;
+}
+
+.home-feature h2 {
+	font-size:16px;
+    margin-top:0px !important;
+    padding-top:0px !important;
+	}
+	
+	
+.home-feature p {
+	color:#000;
+	font-size:13px;
+    padding-left:25px;
+	}
+  
+.container,
+.one-column {
+    width: 300px
+}
+.one-half {
+    width: 300px
+}
+.one-third {
+    width: 300px
+}
+.two-third {
+    width: 300px
+}
+.one-fourth {
+    width: 300px
+}
+.one-fifth {
+    width: 300px
+}
+.three-fourth {
+    width: 300px
+}
+.one-half,
+.one-third,
+.two-third,
+.one-fourth,
+.one-fifth,
+.one-third-big {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.one-half.last,
+.one-third.last,
+.two-third.last,
+.one-fourth.last,
+.three-fourth.last,
+.one-fifth.last,
+.one-third-big.last {
+    margin-right: 0px
+}
+
+.three-fourth {
+	padding-left:0;
+	margin-left:0px;
+	float:none;
+	width:280px;
+	}
+
+#main-navigation select {
+    display: block
+}
+
+#main-navigation option {
+	padding:5px 15px;
+	color:#555;
+	text-transform:none;
+	border-bottom:solid 1px #FFF;
+	}
+	
+.input-holder {
+    width: 300px;
+    margin-right: 0px;
+    float: left;
+}
+
+#main-navigation ul {
+    display: none
+}
+#logo {
+    display: block;
+    margin: 30px auto;
+    float: none;
+    text-align: center;
+}
+#sticky_navigation {  
+    height: 60px;
+}
+
+#sticky_navigation #logo.small-logo {
+   display:none !important;
+}
+
+#sticky_navigation .date2.small-date2 {   
+    display: none;
+}
+
+#sticky_navigation .search-container.small-search-container { 
+    display: none;
+}
+
+#sticky_navigation #navigation-wrapper.small-wrapper {margin-left:20px;width:490px;}
+
+#top_panel {
+    display:none;
+}
+#top_panel  .social_icons {
+    display: none
+}
+
+a.thumbnail-roll span {
+    line-height: 175px
+}
+.one-fourth a.thumbnail-roll span {
+    line-height: 175px
+}
+.one-third a.thumbnail-roll span {
+    line-height: 175px
+}
+
+.news-block {
+	margin-bottom:20px !important;
+}
+.feature-grid ul.feature-items li.one-third {
+    width: 300px;
+    float: none;
+    margin: 30px 0px 10px 0px;
+}
+  
+  
+.feature-grid ul.feature-items li.one-third div:nth-of-type(1){
+    margin-bottom:0px;
+}
+  .feature-grid ul.feature-items li.one-third div:nth-of-type(2){
+    margin-bottom:0px;
+    
+}
+  .feature-grid ul.feature-items li.one-third div:nth-of-type(3){
+    margin-bottom:120px;
+}
+  
+
+span.hover_bg h2 {
+	font-size:15px;
+	padding:5px 15px 0px 15px;
+	}
+	
+span.hover_bg p {
+	font-size:13px;
+	padding:0px 15px 0px 15px;
+	}
+  
+.filter-innovations { 
+width:260px; 
+	}
+  
+.thumb {
+    margin-bottom: 0px;
+    border-bottom: none;
+    padding-bottom: 0px;
+}
+  
+
+
+#footer {
+    clear:both;
+	text-align:center;
+    margin-top:120px;
+	}
+	
+.footer-div {
+	width:88%;
+	background:none;
+	margin-left:-10px;
+	float:none;
+	min-height:50px;
+}
+	
+.copyright {
+	text-align:center;
+	margin-left:-10px;
+	margin-bottom:0;
+	float:none !important;
+	width:90%;
+	}
+
+.languages {
+	width:88%;
+	margin-top:20px;
+}
+
+.languages .columns {
+	float:none !important;
+	width:100%;
+	margin:0px 0px;
+	text-align:center;
+}
+
+.home-press-release {
+	
+	width:100% !important;
+	margin-right:0% !important;
+	}
+
+.one-land,.one-half-land,.two-third-land,.one-third-land,.one-fourth-land ,.one-fifth-land,.one-sixth-land,.three-fourth-land{ 
+	float:none;
+	position:relative;
+	margin-right:0%;
+	}
+.one-third-land  { 
+	width: 100%; 
+	min-height:90px;
+	margin-bottom:10px !important;
+	}
+.one-half-land.last, .one-third-land.last, .two-third-land.last, .one-fourth-land.last, .three-fourth-land.last,.one-fifth-land.last,.one-sixth-land.last{
+	margin-right: 0%!important;
+	}
+.landing-section {
+	height:120px !important;
+	}
+.landing-section img {
+	display:none !important;
+	}
+.interior-body-bk {
+	background-image:none !important;
+	
+	}
+	
+.body-content {
+	position:relative;
+	top:140px;
+    padding:0px 0px 0px 0px;
+	}
+
+.one-land .body-content {padding-left:0px !important;}
+  
+.body-content h1 {
+	font-size:40px;
+	line-height:40px;
+	margin-bottom:0px !important;
+	padding-bottom:0px !important;
+	text-align:center;
+	}
+	
+.feature-items {padding-top:170px !important;}
+  
+
+.breadcrumbs ul {
+	list-style: none;
+    margin-top:10px;
+padding-bottom: 10px;
+margin-bottom: 20px;
+background: url(http://www.cesweb.org/ces/images/breadcrumb-bk.png)0px 70px repeat-x;
+
+}
+
+.breadcrumbs ul li {
+	float:none !important;
+	display:list-item;
+	text-align:center;
+    width:100%;
+}
+
+.breadcrumbs-article {
+	width:100%;
+	/*border:solid thin #F06;*/
+	height:100%;
+	padding: 10px 0px;
+	}
+
+.breadcrumbs-left {
+	float:none !important;
+	text-align:center;
+	width:100% !important;
+}
+
+.breadcrumbs-left ul {
+	display:list-item !important;
+	text-align:center;
+}
+
+.breadcrumbs-left li {
+	display:list-item !important;
+}
+
+.breadcrumbs-left .bread-div {
+	display:none !important;
+}
+
+.breadcrumbs-right {
+	float:none !important;
+	display:list-item;
+	text-align:center;
+	width:100% !important;
+}
+
+.breadcrumbs-right ul {
+	display:list-item;
+}
+
+.breadcrumbs-right li:last-child {
+	display:none !important;
+}
+
+.breadcrumbs ul li:last-child {
+	background:none;
+    margin-bottom:10px;
+    padding-bottom:10px;display:block;
+	}
+.breadcrumbs ul li:last-child a{ 
+     background-image:none !important;
+  }
+
+.bread-div {display:none !important;}
+
+.button-block {margin-bottom:20px !important;}
+.news-block {margin-bottom:20px !important;}
+  
+.interior-body-bk {display:none;}
+
+.leftnav {
+	display:none;
+	}
+	
+.article-content-area img {
+	display:none;
+	}
+	
+.feature-float-right img {
+	display:none;
+	}
+	
+.feature-float-left img {
+	display:none;
+	}
+.interior-body-bk {display:none;}
+
+.tabs-nav {margin-left:-30px;width:360px;}
+
+.tabs-nav li.active {
+    line-height: 51px
+}
+
+.tabs-nav li:nth-child(4){
+    border:none !important;
+}
+
+.tabs-nav li:last-child {
+    display:none;
+}
+
+.tabs-nav li {width:90px;}
+
+.tabs-nav li a {
+
+    border-right: 1px solid #7ad2e4;
+    border-left: none;
+    color: #000;
+    display: block;
+    letter-spacing: 0;
+    outline: none;
+    padding: 10px 5px 10px 10px;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #fff;
+	background:none;
+	line-height:14px;
+	height:30px;
+}
+
+.tabs-nav li.active a {
+    background: #fff;
+    border-bottom: 0px solid #fff;
+    border-top: 4px solid #36c3d9;
+	height:30px;
+}
+
+.intro-innov {display:none;}
+
+.innov-year {display:none;}
+
+	
+
+.innov-grid {
+    text-align:center;
+  }
+	
+.innov-grid ul.portfolio-items li.one-sixth {
+    width: 175px;
+    float: left;
+    margin-bottom:20px;
+    margin-left:15%;
+    margin-right:15%;
+	border:solid 1px #CCC;
+}
+
+.innov-pop-up {
+		width:350px !important;
+		height:790px;
+	}
+	
+	.keynotes-pop-up {
+		width:320px !important;
+		height:820px;
+		padding:10px;
+		background:#fff;
+		-webkit-border-radius: 12px;
+-moz-border-radius: 12px;
+border-radius: 12px;
+border:solid 1px #F03;
+	}
+	
+
+.keynotes-img {display:none;}
+
+.keynotes-pop-up-fl {
+		width:320px !important;
+		height:750px;
+		padding:10px;
+		background:#fff;
+		-webkit-border-radius: 12px;
+-moz-border-radius: 12px;
+border-radius: 12px;
+	}
+	
+.keynotes-pop-up-text {
+	padding:40px 20px 30px 20px;
+	float:none;
+	width:250px !important;
+}
+
+.about-speaker {
+	width:250px;
+	padding:20px;
+}
+
+/*--------------------------------------------------------------------------*/
+/*						Keynotes HOVER EFFECT				 					*/
+/*--------------------------------------------------------------------------*/
+ .keynotes-filter-col1 {
+  width:270px;
+}
+ .keynotes-filter-col1 h6 {
+  width:250px;
+}
+  
+  
+   .keynotes-filter-col2 h6 {
+  width:250px;
+}
+.keynotes-filter-col2 {margin-right:0px;width:270px;} 
+.filter-keynotes-last {width:230px;text-align:center;padding-left:40px !important;padding-right:0px !important;margin-bottom:20px !important;}  
+.filter-keynotes li {width:270px;}
+
+.keynotes-grid {
+	margin-left:20px;
+	padding-bottom:40px;
+	}
+
+.keynotes-feature-item-wp {
+	z-index:9011;
+	background:#3d76b9;
+	padding:20px 10px 0px 15px;
+	height:115px;
+	margin-top:-30px;
+	}
+	
+.keynotes-feature-item-wp img {
+	border:none !important;
+	margin-top:-9px;
+	margin-bottom:20px;
+	display:block !important;
+	}
+	
+.keynotes-feature-item-wp p {
+	font-size:12px;
+	color:#fff;
+	text-align:left;
+	text-transform:capitalize;
+	font-family:'open_sansregular';
+	}
+	
+.keynotes-feature-item-wp h1 {
+	text-align:left;
+	margin-bottom:10px;
+    margin-top:-20px !important;
+	}
+	
+.keynotes-feature-item-wp h2 {
+	padding:0 !important;
+	margin-bottom:10px !important;
+	}
+	
+.keynotes-feature-item-wp h3 {
+	font-size:12px !important;
+	color:#ccc;
+	text-align:left;
+	text-transform:uppercase;
+	font-family:'open_sanslight';
+	line-height:14px;
+	padding:0 !important;
+	margin:0 !important;
+	}
+
+.keynotes-feature-fl {
+	position:relative;
+	margin-top:-120px;
+	top:0px;
+	z-index:9010;
+	}
+	
+
+.keynotes-feature-item-fl {
+	z-index:9011;
+	background:#000;
+	padding:20px 10px 0px 15px;
+	height:115px;
+	margin-top:-25px;
+	}
+	
+.keynotes-feature-item-fl img {
+	border:none !important;
+	margin-top:-9px;
+	margin-bottom:15px;
+	display:block !important;
+	}
+	
+.keynotes-feature-item-fl p {
+	font-size:12px;
+	color:#fff;
+	text-align:left;
+	text-transform:capitalize;
+	font-family:'open_sansregular';
+	}
+	
+.keynotes-feature-item-fl h1 {
+	font-size:13px !important;
+	color:#fff !important;
+	text-transform:uppercase;
+	font-family:'open_sansbold';
+	line-height:14px;
+	padding:1px !important;
+	margin-bottom:-20px;
+    text-align:left;
+	}
+	
+.keynotes-feature-item-fl h2 {
+	font-size:12px !important;
+	color:#d6d6d6;
+	text-transform:uppercase;
+	font-family:'open_sansregular';
+	line-height:14px;
+	padding:0 !important;
+	margin-bottom:5px;
+	}
+	
+.keynotes-feature-item-fl h3 {
+	font-size:12px !important;
+	color:#ccc;
+	text-align:left;
+	text-transform:uppercase;
+	font-family:'open_sanslight';
+	line-height:14px;
+	padding:0 !important;
+	margin:0 !important;
+	}
+
+.keynotes-feature-fl {
+	position:relative;
+	margin-top:-120px;
+	top:0px;
+	z-index:9010;
+	}
+	
+.screen-roll span.hover_bg2 {
+    position: absolute;
+    width: 115%;
+    height: 110%;
+    background: #000; /* IE8 */
+    background: rgba(0,0,0,1);
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; /* IE 8 */
+    filter: alpha(opacity=0);
+   /* transform: scale(1.2,1.0);
+	-ms-transform: scale(1.2,1.0); /* IE 9 */
+	/*-webkit-transform: scale(1.2,1.0); /* Safari and Chrome */
+	top:0;
+	left:0;
+	margin-left:-10px;
+}
+
+.portfolio-items .one-fifth img {
+	display:block !important;
+	}
+	
+.portfolio-items .one-sixth img {
+	display:block !important;
+	}
+
+
+span.hover_bg2 img {
+	position:absolute;
+	opacity:0.4;
+filter:alpha(opacity=40); /* For IE8 and earlier */
+margin-top:0px;
+z-index:9030;
+background:#000;
+display:block  !important;
+	}
+	
+.hover-text {
+	z-index:9031;
+	position:absolute;
+	padding:15px;
+	margin-top:120px;
+	vertical-align:bottom;
+	}
+	
+.hover-text-sm {
+	z-index:9031;
+	position:absolute;
+	padding:15px;
+	margin-top:0px;
+	vertical-align:bottom;
+	}
+
+.hover-text h1, .hover-text-sm h1 {
+	font-size:15px !important;
+	font-family:open_sansbold;
+	color:#00b7d1 !important;
+	text-transform:uppercase;
+	line-height:18px;
+	margin:0px !important;
+	}
+
+.hover-text h2, .hover-text-sm h2 {
+	font-size:13px;
+	font-family:open_sansregular;
+	color:#FFF;
+	text-transform:uppercase;
+	line-height:17px;
+	}
+.hover-text h3, .hover-text-sm h3 {
+	font-size:13px;
+	font-family:open_sansregular;
+	color:#FFF;
+	text-transform:uppercase;
+	}	
+	
+	
+.hover-text p, .hover-text-sm p {
+	font-size:13px;
+	font-family:open_sansregular;
+	color:#FFF;
+	word-spacing:normal;
+	line-height:17px;
+	}
+/*--------------------------------------------------------------------------*/
+/*              					Photo Gallery 		   					*/
+/*--------------------------------------------------------------------------*/
+
+.one-third-gallery {
+	width:100%;
+	float:none;
+	}
+
+.one-third-gallery img {
+	display:block !important;
+	}
+	
+.one-third-gallery p {
+	padding:10px;
+	}
+  
+  .full-gallery img {
+display: block;
+} 
+
+  
+  /*-----TABS------*/
+  
+.ajax__tab_container {
+    padding:0px !important; 
+    margin-left:-20px !important;
+    width:370px;
+}
+   
+.ajax__tab_body {
+ 
+  margin-top:0px !important;
+    width:87%;
+}
+  
+ 
+.ajax__tab_xp .ajax__tab_header .ajax__tab_inner {
+    border-right: 1px solid #7ad2e4;
+    border-left: 1px solid #7ad2e4;
+    border-top: 1px solid #7ad2e4;
+    text-transform:none;
+    color: #000;
+    display: block;
+    letter-spacing: 0;
+    outline: none;
+    padding: 5px 0px !important;
+    font-size: 12px;
+    background-image: url(http://staging.ces.org/ces/images/tabs-bk.png)!important;
+    background-repeat: repeat !important;
+    height: 40px;
+    margin-top: 5px;
+    font-family: 'Open_sanssemibold' !important;
+}
+  
+.ajax__tab_xp .ajax__tab_header .ajax__tab_outer {
+  background:none;
+  height: 40px !important;
+
+}
+  
+.ajax__tab_panel {
+    padding:25px;
+    margin-top:40px;
+  }
+
+.ajax__tab_body {margin-top:-26px !important;}
+  
+::-webkit-scrollbar {
+width: 5px;
+background: #222425;}
+  
+  /*----END-TABS------*/
+  
+.display-dropdown-left {margin-left:50px;}
+  
+.display-dropdown-inlinenav {
+  width:100%;
+  text-align:center;
+  margin-bottom:20px !important;
+  margin-top:10px;
+}
+
+.display-dropdown-inlinenav select {
+   background:url(http://www.cesweb.org/ces/images/dropdown-bk.png) -180px 0px repeat-x;
+   width:160px;
+    padding-top:2px !important;
+    padding-bottom:2px !important;
+   font-size: 14px;
+   height: 35px;
+	color:#000;
+	font-family:open_sanssemibold;
+}
+  
+/*--------------------------------------------------------------------------*/
+/*          	   		Speaker Search		   					*/
+/*--------------------------------------------------------------------------*/
+
+.speaker-search-area {
+	padding: 15px;
+display: block !important;
+height: 380px;
+margin-bottom: 30px;
+}
+
+.speaker-search-area input {
+	width:90%;
+	}
+	
+.speaker-keyword {
+	float:none;
+	width:90% !important;
+	clear:both;
+	margin-bottom:20px;
+	}
+	
+
+.speaker-filter {
+	width:90% !important;
+	float:none !important;
+	border-left:none;
+padding-left:0px;
+clear:both;
+margin-top:0px !important;
+padding-top:20px!important;
+border-top:solid 1px #eee !important;
+	}
+	
+	
+.speaker-sort {
+  
+	width:100%;
+	height:60px;
+	margin-top:10px;
+}
+
+.speaker-sort h3 {
+	float:left;
+	font-size: 14px;
+	}
+
+.speaker-sort select {
+   width:130px;
+   background:url(http://www.cesweb.org/ces/images/dropdown-bk.png) -210px 0px repeat-x;
+}
+.speaker-sort option {
+	
+	}
+	
+.display-speakers {
+	float:none !important;
+}
+	
+.display-speakers .btn {
+	width:180px !important;
+		top:-10px;
+	}
+	
+.speaker-body {
+	width:100%;
+	clear:both;
+	padding:45px 0px 25px 0px;
+	}
+	
+
+.speaker-body div {
+	clear:both;
+	display:block;
+	margin-bottom:20px;
+	}
+	
+.speaker-body h1 {
+	font-size:16px;
+	height:auto;
+	line-height:20px;
+	text-align:left;
+	padding:0px 0px 5px 0px;
+	margin:0px 0px 0px 0px;
+	}
+
+.speaker-body h2{
+	font-size:14px;
+	padding:0px 0px 5px 0px;
+	margin:0px 0px 0px 0px;
+	line-height:16px;
+	}
+.speaker-body p{
+	padding:0;
+	margin:0;
+	font-size:12px;
+	line-height:16px;
+	}
+	
+
+.speaker-body img {
+	padding-top:0px;
+	padding-bottom:30px;
+	width:90px;
+	height:90px;
+	}
+  
+}
+
+
+@media (max-width: 320px) {
+  
+.display-dropdown-left {margin-left:30px;} 
+::-webkit-scrollbar {
+    width: 1px;
+    background: #222425;
+}
+.banner,
+.bannercontainer {
+    width: 100%;
+    height: 155px;
+}
+
+.container {
+    width: 100%;
+	text-align:center;
+}
+  
+.container .one-land {
+    margin-top:-50px !important;
+  }
+.container .three-fourth {
+    margin-top:-50px !important;
+  }
+  
+#header {
+    margin-bottom: 50px;
+	/*border:solid thin #F06;*/
+	width:100%;
+	margin-left:-20px;
+	height:30px;
+    margin-top:-20px;
+}
+
+h1 {
+    font-size: 30px;
+    line-height: 32px;
+}
+
+h2 {
+    font-size: 24px;
+    line-height: 28px;
+	font-family: 'open_sansregular',Arial,Verdana, serif;
+	font-weight: normal;
+	color:#5575b4;
+}
+h3 {
+     font-size: 18px;
+    line-height: 22px;
+	font-family: 'open_sanssemibold',Arial,Verdana, serif;
+	font-weight: bold;
+	color:#000;
+}
+h4 {
+    font-size: 15px;
+    line-height: 20px;
+	font-family: 'open_sanssemibold',Arial,Verdana, serif;
+	font-weight: bold;
+	color:#5575b4;
+}
+h5 {
+    font-size: 15px;
+    line-height: 18px;
+}
+h6 {
+    font-size: 15px;
+    line-height: 18px;
+}
+	
+	
+p {
+	font-size: 13px;
+    line-height: 17px;
+	font-family: 'open_sansregular', Arial, Verdana, serif;
+	font-weight: regular;
+	color:#000;
+	margin-bottom:25px;
+	}
+
+.article-content-area li {
+	font-size: 12px;
+    line-height: 18px;
+	}
+
+.intro {
+	 font-size: 18px;
+    line-height: 22px;
+	}
+
+.billboard-ad {display:none;}
+
+.search-container {
+	width:100%;
+	float:none;
+	margin-top:0px !important;
+	margin-bottom:10px;
+	}
+
+.search {display:none;}
+
+/* reset webkit search input browser style */
+.search input {
+	outline: none;
+	font-size:13px;
+}
+.search input{
+	-webkit-appearance: textfield;
+	-webkit-box-sizing: content-box;
+	font-family: inherit;
+	
+}
+.search input::-webkit-search-decoration,
+.search input::-webkit-search-cancel-button {
+	display:block; /* remove the search and cancel icon */
+}
+
+/* search input field */
+.search input {
+	background: #fff url(http://www.cesweb.org/ces/images/glass-sm.png) no-repeat 9px center !important;
+
+	margin-left:10px;
+	padding: 8px 0px 8px 0px !important;
+	width: 5px;
+	-webkit-border-radius: 3px !important;
+	-moz-border-radius: 3px !important;
+	border-radius: 3px !important;
+	border:solid thin #ccc;
+}
+.search input:focus {
+	width: 90px !important;
+	background-color: #eee;
+	border-color: #6dcff6;
+	border:solid thin #eeeeee;
+	padding: 8px 3px 8px 33px !important;
+	-webkit-box-shadow: 0 0 5px rgba(109,207,246,.5);
+	-moz-box-shadow: 0 0 5px rgba(109,207,246,.5);
+	box-shadow: 0 0 5px rgba(109,207,246,.5);
+}
+
+/* placeholder */
+.search input:-moz-placeholder {
+	color: #999;
+}
+.search input::-webkit-input-placeholder {
+	color: #999;
+}
+
+
+	
+.date2 {
+	display:block;
+	text-align:center;
+	text-transform:uppercase;
+	font-size:13px;
+	color:#000;
+	float:none;
+	width:250px;
+	line-height:16px;
+	margin-left:-20px;
+	}
+	
+.date {
+	display:none;
+	float:none;
+	width:100%;
+}
+
+.date h2 { 
+	font-size:20px;
+	}
+	
+#logo {
+	    margin:20px 0px 0px 0px!important;
+		width:100%;
+		background:url("http://www.cesweb.org/ces/images/logo_sm2.png") no-repeat;
+		background-position:center top;
+		height:100px;
+}
+
+.open-ad {display:none;}
+
+#main-navigation {width:90%;}
+
+#main-navigation select {
+   background:url(http://www.cesweb.org/ces/images/menu-bk.png) 290px center repeat;
+   width: 280px;
+   padding: 8px 15px 6px 15px;
+   font-size: 14px;
+   line-height: 1;
+   border: 0;
+   height: 35px;
+   -webkit-appearance: none;
+	-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;
+margin-top:10px;
+text-align:left;
+color:#01a6bd;
+text-transform:uppercase;
+margin-left:0px;
+}
+
+#navigation-wrapper {
+    float: left;
+	
+	background:url(http://www.cesweb.org/ces/images/nav-bk-sm.png) no-repeat;
+	height:60px;
+	margin-left:-20px;
+	width:270px;
+}
+
+.audience-nav {
+   
+	}
+.audience-nav li {display:none;
+  }
+.audience-nav li a {
+    PADDING:0px;
+    background-image:none;
+    background-color:#fff;
+    font-size:1px;
+    color:#fff;
+  }
+  
+.audience-nav li a:Hover {
+    PADDING:0px;
+    background-image:none;
+    background-color:#fff;
+    font-size:1px;
+    color:#fff;
+  }
+
+.feature-grid-bk {background:none !important;}
+
+.feature-grid{
+    width: 300px;
+	margin-top:10px !important;
+    float: none;
+	/*border:solid thin #0C6;*/
+}
+
+.input-holder {
+    width: 420px;
+    margin-right: 0px;
+    float: left;
+}
+
+.container,
+.one-column {
+    width: 200px
+}
+.one-half {
+    width: 200px
+}
+.one-third {
+    width: 250px
+}
+.two-third {
+    width: 200px
+}
+.one-fourth {
+    width: 200px
+}
+.one-fifth {
+    width: 200px
+}
+
+.one-half,
+.one-third,
+.two-third,
+.one-fourth,
+.one-fifth,
+.one-third-big {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.one-half.last,
+.one-third.last,
+.two-third.last,
+.one-fourth.last,
+.three-fourth.last,
+.one-fifth.last,
+.one-third-big.last {
+    margin-right: 0px
+}
+
+.three-fourth {
+	padding-left:0;
+	margin-left:-20px;
+	float:none;
+	width:250px;
+    padding-left:0px;
+	}
+
+#main-navigation select {
+    display: block
+}
+
+#main-navigation option {
+	padding:5px 15px;
+	color:#555;
+	text-transform:none;
+	border-bottom:solid 1px #FFF;
+	}
+	
+.input-holder {
+    width: 300px;
+    margin-right: 0px;
+    float: left;
+}
+
+#main-navigation ul {
+    display: none
+}
+#logo {
+    display: block;
+    margin: 30px auto;
+    float: none;
+    text-align: center;
+}
+#sticky_navigation {  
+    height: 60px;
+}
+
+#sticky_navigation #logo.small-logo {
+   display:none !important;
+}
+
+#sticky_navigation .date2.small-date2 {   
+    display: none;
+}
+
+#sticky_navigation .search-container.small-search-container { 
+    display: none;
+}
+
+#sticky_navigation #navigation-wrapper.small-wrapper {margin-left:20px;}
+
+#top_panel {
+    display:none;
+}
+#top_panel  .social_icons {
+    display: none
+}
+#copyrights {
+    text-align: center
+}
+
+a.thumbnail-roll span {
+    line-height: 175px
+}
+.one-fourth a.thumbnail-roll span {
+    line-height: 175px
+}
+.one-third a.thumbnail-roll span {
+    line-height: 175px
+}
+  
+span.hover_bg {display:none;}
+
+  .filter-innovations { 
+width:200px;
+    margin-top:10px;
+	}
+  
+.home-feature {
+    margin-left:-20px;
+    width:250px;
+    margin-bottom:-120px;
+  }
+  
+.home-feature img {
+	width:100%;
+    display:block !important;
+}
+	
+.home-feature h1 {
+	color:#000;
+	font-size:18px;
+}
+
+.home-feature h2 {
+	font-size:16px;
+    margin-top:0px !important;
+    padding-top:0px !important;
+	}
+	
+	
+.home-feature p {
+	color:#000;
+	font-size:13px;
+    padding-left:25px;
+	}
+
+.thumb {
+    margin-bottom: 0px;
+    border-bottom: none;
+    padding-bottom: 0px;
+}
+
+.home-body-content {
+	margin-left:-20px;
+	width:290px;
+	}
+  
+
+#footer {
+	text-align:center;
+	width:98%;
+	margin-top:120px;
+	}
+	
+.footer-div {
+	width:98%;
+	background:none;
+	margin-left:-20px;
+	float:none;
+	min-height:50px;
+}
+
+.footer-line {width:200px;}
+	
+.copyright {
+	text-align:center;
+	margin:auto !important;
+	float:none !important;
+	width:80%;
+	}
+
+.languages {
+	width:78%;
+	margin-top:20px;
+}
+
+.languages .columns {
+	float:none !important;
+	width:100%;
+	margin-left:0px;
+	text-align:center;
+}
+
+.home-press-release {
+	
+	width:250px !important;
+	margin-right:0% !important;
+	max-height:130px;
+	}
+	
+.home-ad {display:none;}
+
+.one-land,.one-half-land,.two-third-land,.one-third-land,.one-fourth-land ,.one-fifth-land,.one-sixth-land,.three-fourth-land{ 
+	float:none;
+	margin-right:0%; 
+	}
+.one-third-land  { 
+	width: 100%; 
+	min-height:90px;
+	margin-bottom:10px !important;
+	margin-bottom:10px !important;
+	margin-right: 0%!important;
+	}
+.landing-section {
+	height:120px !important;
+	}
+.landing-section img {
+	display:none !important;
+	}
+.interior-body-bk {
+	background-image:none !important;
+	
+	}
+.one-land .body-content {padding-left:0px !important;}	
+.body-content {
+	position:relative;
+	top:140px;
+	top:140px;
+    padding:0px 0px 0px 0px;
+
+	}
+	
+.body-content h1 {
+	font-size:32px;
+	line-height:34px;
+	margin-bottom:0px !important;
+	padding-bottom:0px !important;
+	text-align:center;
+	margin-top:20px;
+	margin-bottom:10px;
+	}
+.breadcrumbs ul {
+	width:100%;
+	display:list-item;
+	text-align:center;
+}
+
+.breadcrumbs ul li {
+	float:none !important;
+	display:list-item;
+	text-align:center;
+}
+
+.breadcrumbs-article {
+	width:100%;
+	/*border:solid thin #F06;*/
+	height:100%;
+	padding: 10px 0px;
+	}
+
+.breadcrumbs-left {
+	float:none !important;
+	text-align:center;
+	width:100% !important;
+}
+
+.breadcrumbs-left ul {
+	display:list-item !important;
+	text-align:center;
+}
+
+.breadcrumbs-left li {
+	display:list-item !important;
+}
+
+.breadcrumbs-left .bread-div {
+	display:none !important;
+}
+  
+  .breadcrumbs .bread-div {
+	display:none !important;
+}
+
+.breadcrumbs-right {
+	float:none !important;
+	display:list-item;
+	text-align:center;
+	width:100% !important;
+}
+
+.breadcrumbs-right ul {
+	display:list-item;
+}
+
+.breadcrumbs-right li:last-child {
+	display:none !important;
+}
+
+.breadcrumbs ul li:last-child {
+	float:none !important;
+	padding-right:0px !important;
+	font-size:11px;
+	background:none !important;
+	margin-left:-40px !important;
+	}
+
+.bread-div {display:none !important;}
+
+.feature-items {padding-top:220px !important;}
+	
+
+/*.feature-grid ul.feature-items li.one-third {
+    width: 260px;
+    float: none;
+    margin: -10px 0px 0px 0px !important;
+}*/
+  
+  
+.feature-items li:first-child {
+    margin-bottom:-10px !important;
+    margin-top:20px;
+}
+.feature-items li {
+    margin-bottom:10px;
+}
+.feature-items li:last-child {
+   margin-top:-10px;
+}  
+  
+.button-block {margin-bottom:20px !important;}
+.news-block {margin-bottom:40px !important;}
+.button-block img {width:260px;}
+  
+  
+.interior-body-bk {display:none;}
+
+.leftnav {
+	display:none;
+	}
+	
+.article-content-area img {
+	display:none;
+	}
+	
+.feature-float-right img {
+	display:none;
+	}
+	
+.feature-float-left img {
+	display:none;
+	}
+	
+.landing-section {margin-left:-20px;width:240px;}
+
+.interior-body-bk {display:none;}
+
+.tabs-nav {margin-left:-70px;width:360px;}
+
+.tabs-nav li.active {
+    line-height: 51px
+}
+
+.tabs-nav li:nth-child(4){
+    border:none !important;
+}
+
+.tabs-nav li:last-child {
+    display:none;
+}
+
+.tabs-nav li {width:90px;}
+
+.tabs-nav li a {
+
+    border-right: 1px solid #7ad2e4;
+    border-left: none;
+    color: #000;
+    display: block;
+    letter-spacing: 0;
+    outline: none;
+    padding: 10px 5px 10px 5px;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #fff;
+	background:none;
+	line-height:14px;
+	height:30px;
+}
+
+.tabs-nav li.active a {
+    background: #fff;
+    border-bottom: 0px solid #fff;
+    border-top: 4px solid #36c3d9;
+	height:30px;
+}
+
+.intro-innov {display:none;}
+  
+.innov-grid ul.portfolio-items li.one-sixth {
+    width: 175px;
+    float: left;
+    margin-bottom:20px;
+    margin-left:7%;
+    margin-right:7%;
+	border:solid 1px #CCC;
+}
+
+.innov-year {display:none;}
+
+.innov-pop-up {
+		width:250px !important;
+		height:590px;
+	}
+	
+	.keynotes-pop-up {
+		width:230px !important;
+		min-height:950px;
+		padding:10px;
+		background:#fff;
+		-webkit-border-radius: 12px;
+-moz-border-radius: 12px;
+border-radius: 12px;
+border:solid 1px #F03;
+	}
+
+	
+.keynotes-pop-up-text {
+	padding:20px 40px 0px 0px;
+	float:right;
+	width:200px !important;
+}	
+
+.keynotes-img {display:none;}
+
+.keynotes-pop-up-fl {
+		width:230px !important;
+		min-height:900px;
+		padding:10px;
+		background:#fff;
+		-webkit-border-radius: 12px;
+-moz-border-radius: 12px;
+border-radius: 12px;
+border:solid 1px #F03;
+	}
+	
+
+.about-speaker {
+	width:180px;
+	padding:0px;
+    background-color:#fff;
+    background-image:none;
+}
+
+.keynotes-grid {
+	margin-left:0px;
+	padding-bottom:40px;
+	}
+  
+   .keynotes-filter-col1 {
+  float:left;
+  margin-right:0px;
+  border:none !important;
+  font-size:13px !important;
+    width:230px !important;
+    backkground:#ccc;
+}
+
+.keynotes-filter-col2 {
+    float:left;
+    margin-right:0px;
+    border:none !important;
+    font-size:13px !important;
+     width:230px !important;
+
+}
+.keynotes-filter-col1 h6 {
+	background:url(http://www.cesweb.org/ces/images/key-title-bk1.png)!important;
+	font-family:'Open_sansextrabold';
+	font-size:14px;
+	padding:10px 15px;
+	color:#000;
+	}
+
+.keynotes-filter-col2 h6 {
+	background:url(http://www.cesweb.org/ces/images/key-title-bk1.png)!important;
+	font-family:'Open_sansextrabold';
+	font-size:14px;
+	padding:10px 15px;
+	color:#000;
+	}
+
+.filter-keynotes {
+    display:list-item;
+    float: left;
+    margin-bottom: 20px;
+	margin-right: 20px;
+	list-style: none !important; 
+    font-size:13px !important;
+  margin-left:-15px;
+}
+.filter-keynotes-last {width:210px;padding-left:50px important!;}
+
+
+.filter-keynotes li {
+  width:230px;
+
+}
+
+.keynotes-feature-item-wp {
+	z-index:9011;
+	background:#3d76b9;
+	padding:20px 10px 0px 15px;
+	height:115px;
+	margin-top:-30px;
+	}
+	
+.keynotes-feature-item-wp img {
+	border:none !important;
+	margin-top:-9px;
+	margin-bottom:20px;
+	display:block !important;
+	}
+	
+.keynotes-feature-item-wp p {
+	font-size:12px;
+	color:#fff;
+	text-align:left;
+	text-transform:capitalize;
+	font-family:'open_sansregular';
+	}
+	
+.keynotes-feature-item-wp h1 {
+	text-align:left;
+	margin-bottom:10px;
+    margin-top:-20px !important;
+	}
+	
+.keynotes-feature-item-wp h2 {
+	padding:0 !important;
+	margin-bottom:10px !important;
+	}
+	
+.keynotes-feature-item-wp h3 {
+	font-size:12px !important;
+	color:#ccc;
+	text-align:left;
+	text-transform:uppercase;
+	font-family:'open_sanslight';
+	line-height:14px;
+	padding:0 !important;
+	margin:0 !important;
+	}
+
+.keynotes-feature-fl {
+	position:relative;
+	margin-top:-120px;
+	top:0px;
+	z-index:9010;
+	}
+	
+
+.keynotes-feature-item-fl {
+	z-index:9011;
+	background:#000;
+	padding:20px 10px 0px 15px;
+	height:115px;
+	margin-top:-25px;
+	}
+	
+.keynotes-feature-item-fl img {
+	border:none !important;
+	margin-top:-9px;
+	margin-bottom:15px;
+	display:block !important;
+	}
+	
+.keynotes-feature-item-fl p {
+	font-size:12px;
+	color:#fff;
+	text-align:left;
+	text-transform:capitalize;
+	font-family:'open_sansregular';
+	}
+	
+.keynotes-feature-item-fl h1 {
+	font-size:13px !important;
+	color:#fff !important;
+	text-transform:uppercase;
+	font-family:'open_sansbold';
+	line-height:14px;
+	padding:1px !important;
+	margin-bottom:-20px;
+    text-align:left;
+	}
+	
+.keynotes-feature-item-fl h2 {
+	font-size:12px !important;
+	color:#d6d6d6;
+	text-transform:uppercase;
+	font-family:'open_sansregular';
+	line-height:14px;
+	padding:0 !important;
+	margin-bottom:5px;
+	}
+	
+.keynotes-feature-item-fl h3 {
+	font-size:12px !important;
+	color:#ccc;
+	text-align:left;
+	text-transform:uppercase;
+	font-family:'open_sanslight';
+	line-height:14px;
+	padding:0 !important;
+	margin:0 !important;
+	}
+
+.keynotes-feature-fl {
+	position:relative;
+	margin-top:-120px;
+	top:0px;
+	z-index:9010;
+	}
+	
+.screen-roll span.hover_bg2 {
+    position: absolute;
+    width: 115%;
+    height: 110%;
+    background: #000; /* IE8 */
+    background: rgba(0,0,0,1);
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; /* IE 8 */
+    filter: alpha(opacity=0);
+   /* transform: scale(1.2,1.0);
+	-ms-transform: scale(1.2,1.0); /* IE 9 */
+	/*-webkit-transform: scale(1.2,1.0); /* Safari and Chrome */
+	top:0;
+	left:0;
+	margin-left:-10px;
+    
+}
+
+.keynotes-grid .portfolio-items .one-fifth img {
+	display:block !important;
+	}
+	
+.keynotes-grid .portfolio-items .one-sixth img {
+	display:block !important;
+	}
+
+
+span.hover_bg2 img {
+	position:absolute;
+	opacity:0.4;
+filter:alpha(opacity=40); /* For IE8 and earlier */
+margin-top:0px;
+z-index:9030;
+background:#000;
+display:block  !important;
+	}
+	
+.hover-text {
+	z-index:9031;
+	position:absolute;
+	padding:15px;
+	margin-top:120px;
+	vertical-align:bottom;
+	}
+	
+.hover-text-sm {
+	z-index:9031;
+	position:absolute;
+	padding:15px;
+	margin-top:0px;
+	vertical-align:bottom;
+	}
+
+.hover-text h1, .hover-text-sm h1 {
+	font-size:15px !important;
+	font-family:open_sansbold;
+	color:#00b7d1 !important;
+	text-transform:uppercase;
+	line-height:18px;
+	margin:0px !important;
+	}
+
+.hover-text h2, .hover-text-sm h2 {
+	font-size:13px;
+	font-family:open_sansregular;
+	color:#FFF;
+	text-transform:uppercase;
+	line-height:17px;
+	}
+.hover-text h3, .hover-text-sm h3 {
+	font-size:13px;
+	font-family:open_sansregular;
+	color:#FFF;
+	text-transform:uppercase;
+	}	
+	
+	
+.hover-text p, .hover-text-sm p {
+	font-size:13px;
+	font-family:open_sansregular;
+	color:#FFF;
+	word-spacing:normal;
+	line-height:17px;
+	}
+/* TOP ADVERTISEMENT ---------------------- */
+.lunchbox {
+display:none;
+}
+  
+/* News Feed ---------------------- */
+.news-story {
+	background:url(http://www.cesweb.org/ces/images/breadcrumb-bk.png) bottom repeat-x;
+	padding-bottom:10px;
+	padding-top:10px;
+	margin-bottom:10px;
+	}
+	
+.news-story h4 {
+	font-size:15px;
+	font-family:'open_sanssemibold';
+	margin-bottom:0px;
+	}
+	
+.news-story h4 a{
+	text-decoration:none;
+	}
+
+.news-story img {
+	padding:5px;
+	background:#FFF;
+	border:#CCC;
+	margin-right:15px !important;
+	margin-bottom:15px !important;
+	float:left;
+	}
+	
+.press-date {
+	font-size:13px;
+	color:#777;	
+	font-family:'open_sanssemibold';
+	text-transform:uppercase;
+	}  
+  
+.keynotes-grid {margin-bottom:100px !important;}
+  .one-fifth-sitemap { width: 90.0%; }
+ /*--------------------------------------------------------------------------*/
+/*              					Photo Gallery 		   					*/
+/*--------------------------------------------------------------------------*/
+
+.one-third-gallery {
+	width:100%;
+	float:none;
+	}
+
+.one-third-gallery img {
+	display:block !important;
+	}
+	
+.one-third-gallery p {
+	padding:10px;
+	}
+	
+.minus-20 {margin-left:-20px;}
+ 
+.full-gallery img {
+    display: block;
+} 
+  
+/*-----TABS------*/
+  
+.ajax__tab_container {
+    padding:0px !important; 
+    margin-left:-45px !important;
+    width:300px;
+}
+   
+.ajax__tab_body {
+ 
+  margin-top:0px !important;
+    width:87%;
+}
+  
+ 
+.ajax__tab_xp .ajax__tab_header .ajax__tab_inner {
+    border-right: 1px solid #7ad2e4;
+    border-left: 1px solid #7ad2e4;
+    border-top: 1px solid #7ad2e4;
+    text-transform:none;
+    color: #000;
+    display: block;
+    letter-spacing: 0;
+    outline: none;
+    padding: 5px 0px !important;
+    font-size: 12px;
+    background-image: url(http://staging.ces.org/ces/images/tabs-bk.png)!important;
+    background-repeat: repeat !important;
+    height: 40px;
+    margin-top: 5px;
+    font-family: 'Open_sanssemibold' !important;
+}
+  
+.ajax__tab_xp .ajax__tab_header .ajax__tab_outer {
+  background:none;
+  height: 40px !important;
+
+}
+  
+.ajax__tab_panel {
+    padding:25px;
+    margin-top:60px;
+  }
+
+.ajax__tab_body {margin-top:-65px !important;}
+  
+.display-pages {
+	display:block;
+    height:60px;
+    font-size:12px;
+	}
+  
+.display-pages li {
+
+    font-size:12px  !important;
+	}
+  
+.display-pages a {
+border: 1px solid transparent;
+color: #000;
+display: inline-block;
+padding: 2px 3px 2px 3px;
+border-radius: 2px;
+font-size: 12px !important;
+font-family: 'open_sanssemibold';
+}
+  
+.display-pages a:hover {
+padding: 2px 3px 2px 3px;
+}
+ 
+.itemsPerPage {}
+
+::-webkit-scrollbar {
+width: 5px;
+background: #222425;}
+  
+  /*----END-TABS------*/
+.display-dropdown-inlinenav {
+  width:100%;
+  text-align:center;
+  margin-bottom:20px !important;
+  margin-top:10px;
+}
+
+.display-dropdown-inlinenav select {
+   background:url(http://www.cesweb.org/ces/images/dropdown-bk.png) -180px 0px repeat-x;
+   width:160px;
+    padding-top:2px !important;
+    padding-bottom:2px !important;
+   font-size: 14px;
+   height: 35px;
+	color:#000;
+	font-family:open_sanssemibold;
+}
+  
+.speaker-search-area {
+	padding: 15px;
+display: block !important;
+height: 380px;
+margin-bottom: 30px;
+}
+
+.speaker-search-area input {
+	width:90%;
+	}
+	
+.speaker-keyword {
+	float:none;
+	width:90% !important;
+	clear:both;
+	margin-bottom:20px;
+	}
+	
+
+.speaker-filter {
+	width:90% !important;
+	float:none !important;
+	border-left:none;
+padding-left:0px;
+clear:both;
+margin-top:0px !important;
+padding-top:20px!important;
+border-top:solid 1px #eee !important;
+	}
+	
+	
+.speaker-sort {
+  
+	width:100%;
+	height:60px;
+	margin-top:10px;
+}
+
+.speaker-sort h3 {
+	float:left;
+	font-size: 14px;
+	}
+
+.speaker-sort select {
+   width:130px;
+   background:url(http://www.cesweb.org/ces/images/dropdown-bk.png) -210px 0px repeat-x;
+}
+.speaker-sort option {
+	
+	}
+	
+.display-speakers {
+	float:none !important;
+}
+	
+.display-speakers .btn {
+	width:180px !important;
+		top:-10px;
+	}
+	
+.speaker-body {
+	width:100%;
+	clear:both;
+	padding:45px 0px 25px 0px;
+	}
+	
+
+.speaker-body div {
+	clear:both;
+	display:block;
+	margin-bottom:20px;
+	height:auto;
+	}
+	
+.speaker-body h1 {
+	font-size:16px;
+	height:auto;
+	line-height:20px;
+	text-align:left;
+	padding:0px 0px 5px 0px;
+	margin:0px 0px 0px 0px;
+	}
+
+.speaker-body h2{
+	font-size:14px;
+	padding:0px 0px 5px 0px;
+	margin:0px 0px 0px 0px;
+	line-height:16px;
+	}
+.speaker-body p{
+	padding:0;
+	margin:0;
+	font-size:12px;
+	line-height:16px;
+	}
+	
+
+.speaker-body img {
+	float:none;
+	padding:0px 0px 0px 0px !important;
+	width:160px;
+	height:160px;
+	}
+  
+  
+ }
+
+
+/* Minification failed (line 7761, error number 1030): Expected identifier, found ';' */

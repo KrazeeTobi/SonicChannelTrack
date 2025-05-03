@@ -1,0 +1,672 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head id="head"><title>
+	CES バッジについて - 2014 International CES, January 7-10
+</title><meta name="description" content="Find out everything you need to know about registering and traveling to the International CES." /> 
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" /> 
+<meta http-equiv="pragma" content="no-cache" /> 
+<meta http-equiv="content-style-type" content="text/css" /> 
+<meta http-equiv="content-script-type" content="text/javascript" /> 
+<meta name="keywords" content="International CES, CES, CES 2010, CES 2011, CES 2012, CES 2013, CES 2014, CES 2015, CES 2016, CES 2017, CES 2018, Consumer Electronics Show, Consumer Technology, Consumer Electronics, Consumer Electronics Association, CES Las Vegas, ces show, ces vegas, CES Unveiled, ces tradeshow, ces conference, ces registration, ces exhibitor, ces innovation awards, innovation awards, best of ces, ces keynote, ces show floor, technology, silicon valley, technology innovation, disruptive technology, start-ups,International CES, CES, CES 2010, CES 2011, CES 2012, CES 2013, CES 2014, CES 2015, CES 2016, CES 2017, CES 2018, Consumer Electronics Show, Consumer Technology, Consumer Electronics, Consumer Electronics Association, CES Las Vegas, ces show, ces vegas, CES Unveiled, ces tradeshow, ces conference, ces registration, ces exhibitor, ces innovation awards, innovation awards, best of ces, ces keynote, ces show floor, technology, silicon valley, technology innovation, disruptive technology, start-ups, travel, hotel, register" /> 
+
+<meta name="viewport" content="initial-scale=1">
+<meta property="twitter:account_id" content="10668202" />
+<!-- Twitter Summary Card -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@IntlCES">
+<meta name="twitter:creator" content="@IntlCES">
+<meta name="twitter:title" content="CES バッジについて">
+<meta name="twitter:description" content="">
+<meta name="twitter:image" content="http://content.ce.org/2013ces/images/hpimages/header/cesweb_headerlogo.png">
+<!-- End of Twitter Summary Card -->
+
+<link rel="shortcut icon" href="/ces/favicon.ico" />
+<link rel="icon" href="/ces/favicon.ico" />
+
+<!--[if !IE]><!-->
+  <link href="/CMSPages/GetResource.ashx?stylesheetname=ices-main-style" type="text/css" rel="stylesheet" media="screen" />
+<!--<![endif]-->
+<!--[if lte IE 9]>
+  <link href="/CMSPages/GetResource.ashx?stylesheetname=ices-IE8" type="text/css" rel="stylesheet" media="screen" />
+<![endif]-->  
+    <link href="/CMSPages/GetResource.ashx?stylesheetname=ices-mediaelementplayer.min	" type="text/css" rel="stylesheet" media="screen" />
+    <link href="/CMSPages/GetResource.ashx?stylesheetname=ices-captions" type="text/css" rel="stylesheet"  />
+    <link href="/CMSPages/GetResource.ashx?stylesheetname=ices-slider-style" type="text/css" rel="stylesheet" media="screen" />
+    <link href="/CMSPages/GetResource.ashx?stylesheetname=ices-flexslider" type="text/css" rel="stylesheet" />
+    <link href="/CMSPages/GetResource.ashx?stylesheetname=ices-prettyphoto" type="text/css" rel="stylesheet" />
+    <link href="/CMSPages/GetResource.ashx?stylesheetname=ices-settings" type="text/css" rel="stylesheet" media="screen" />
+    <link href="/CMSPages/GetResource.ashx?stylesheetname=ices-fonts" type="text/css" rel="stylesheet" media="screen" />
+<link href="/CMSPages/GetResource.ashx?stylesheetname=ices-print" type="text/css" rel="stylesheet" media="print" />
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+<script type="text/javascript" src="/ces/js/scripts.js"></script>
+<script type="text/javascript" src="/ces/js/jquery.themepunch.revolution.min.js"></script>
+<script type="text/javascript" src="/ces/js/custom.js?date=20131219"></script>
+<script type="text/javascript" src="/ces/js/itn/jquery.cookie.js"></script>
+
+ <script type="text/javascript">
+    <!--
+    function toggle_visibility(id) {
+        var e = document.getElementById(id);
+        if (e.style.display == 'block')
+            e.style.display = 'none';
+        else
+            e.style.display = 'block';
+    }
+    //-->
+    </script>
+    <script type="text/javascript">
+        function EnterEvent(e) {
+            if (e.keyCode == 13) {
+              var val = document.getElementById('searchTxt').value;
+              var sURL = '/search-results?searchtext=' + val + '&searchmode=anyword';
+              window.location.href = sURL;
+              return false;
+                }
+            }
+      
+      jQuery(document).ready(function ($) {
+      for (var count = 2 ;count <= 7; count ++)
+        {
+            var a = $('#'+ count +' ul.nav-3cols > li');
+            for (var i = 0; i < a.length; i += 5) {
+                a.slice(i, i + 5).wrapAll('<div class="nav-col"></div>');
+            }
+            var a = $('#'+ count +' ul.nav-2cols > li');
+            for (var i = 0; i < a.length; i += 5) {
+                a.slice(i, i + 5).wrapAll('<div class="nav-col"></div>');
+            }
+        }
+  
+   
+    });
+    </script>
+<script type="text/javascript">var switchTo5x=false;</script>
+<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+<script type="text/javascript">stLight.options({publisher: "a17beaa8-5eee-4df7-8629-9947a3e965e3",  offsetLeft:'-270', doNotHash: true, doNotCopy: false, hashAddressBar: false, exclusive_services:true, services:"facebook,twitter,linkedin,googleplus,email,sharethis", minorServices:false});</script>
+
+
+
+<script type="text/javascript" src="/ces/js/cmsedit/WidgetSecurity_non_Admin.js"></script>
+<!-- end head --> 
+<link href="/CMSPages/GetResource.ashx?_webparts=1067" type="text/css" rel="stylesheet"/> 
+</head>
+<body class="LTR JAJP ContentBody" >
+    <form method="post" action="/Register-Plan/Badges-A-New-Process-for-ja.aspx" id="form">
+<div class="aspNetHidden">
+<input type="hidden" name="manScript_HiddenField" id="manScript_HiddenField" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJODc3OTc4NjAwD2QWAgIBEGRkFgICBQ9kFgJmD2QWAmYPZBYEAgUPZBYCZg8PFgIeCEJhbm5lcklEAlpkFgJmDw8WBh4IQ3NzQ2xhc3MFEENNU0Jhbm5lciBCYW5uZXIeBF8hU0ICAh4HVmlzaWJsZWcWBh4EaHJlZgVKaHR0cDovL3d3dy5jZXN3ZWIub3JnL0V2ZW50cy1Bd2FyZHMvRXZlbnRzL01BUlFVRUUtV2VsY29tZXMtQ0VTLVBhcnR5LmFzcHgeB29uY2xpY2sFtQF0aGlzLmhyZWY9Jy9DTVNNb2R1bGVzL0Jhbm5lck1hbmFnZW1lbnQvQ01TUGFnZXMvQmFubmVyUmVkaXJlY3QuYXNoeD9iYW5uZXJJRD05MCZyZWRpcmVjdFVSTD1odHRwJTNhJTJmJTJmd3d3LmNlc3dlYi5vcmclMmZFdmVudHMtQXdhcmRzJTJmRXZlbnRzJTJmTUFSUVVFRS1XZWxjb21lcy1DRVMtUGFydHkuYXNweCc7Hglvbm1vdXNldXAFtQF0aGlzLmhyZWY9Jy9DTVNNb2R1bGVzL0Jhbm5lck1hbmFnZW1lbnQvQ01TUGFnZXMvQmFubmVyUmVkaXJlY3QuYXNoeD9iYW5uZXJJRD05MCZyZWRpcmVjdFVSTD1odHRwJTNhJTJmJTJmd3d3LmNlc3dlYi5vcmclMmZFdmVudHMtQXdhcmRzJTJmRXZlbnRzJTJmTUFSUVVFRS1XZWxjb21lcy1DRVMtUGFydHkuYXNweCc7FgICAQ8PFgweDUFsdGVybmF0ZVRleHRlHgdUb29sVGlwZR8BZR4ISW1hZ2VVcmwFMi9DRVMvbWVkaWEvMjAxNC9hZHZlcnRpc2VtZW50cy8xMzc1Ml9NYXJxdWVlQUQuanBnHwICAh8DZxYCHgVzdHlsZWVkAg0PZBYCZg9kFgICAg9kFgJmD2QWAmYPZBYEAgMPZBYCZg8PFgIfAAITZBYCZg8PFgYfAQUQQ01TQmFubmVyIEJhbm5lch8CAgIfA2cWBh8EBSpodHRwOi8vd3d3LmNlLm9yZy9NZW1iZXJzaGlwL0pvaW4tQ0VBLmFzcHgfBQWTAXRoaXMuaHJlZj0nL0NNU01vZHVsZXMvQmFubmVyTWFuYWdlbWVudC9DTVNQYWdlcy9CYW5uZXJSZWRpcmVjdC5hc2h4P2Jhbm5lcklEPTE5JnJlZGlyZWN0VVJMPWh0dHAlM2ElMmYlMmZ3d3cuY2Uub3JnJTJmTWVtYmVyc2hpcCUyZkpvaW4tQ0VBLmFzcHgnOx8GBZMBdGhpcy5ocmVmPScvQ01TTW9kdWxlcy9CYW5uZXJNYW5hZ2VtZW50L0NNU1BhZ2VzL0Jhbm5lclJlZGlyZWN0LmFzaHg/YmFubmVySUQ9MTkmcmVkaXJlY3RVUkw9aHR0cCUzYSUyZiUyZnd3dy5jZS5vcmclMmZNZW1iZXJzaGlwJTJmSm9pbi1DRUEuYXNweCc7FgICAQ8PFgwfB2UfCGUfAWUfCQU3L0NFUy9tZWRpYS8yMDE0L2FkdmVydGlzZW1lbnRzLzEzMzUyX0pvaW5DRUFfQ0VTd2ViLmpwZx8CAgIfA2cWAh8KZWQCDw9kFgJmD2QWAmYPZBYCZg9kFgJmD2QWAmYPDxYGHgtfIURhdGFCb3VuZGceCUl0ZW1Db3VudAIBHgtfIUl0ZW1Db3VudAIBZBYCZg9kFgJmD2QWAmYPFQMAIjxoMj5DRVMg44OQ44OD44K444Gr44Gk44GE44GmPC9oMj7iBTxpbWcgYWx0PSIiIHNyYz0ifi9DRVMvbWVkaWEvMjAxNC9sYW5kaW5nJTIwcGFnZXMvcmVnaXN0ZXItcGxhbi9iYWRnZS1wYWdlLkpQRyIgc3R5bGU9IndpZHRoOiAyMzBweDsgaGVpZ2h0OiAyMzBweDsgZmxvYXQ6IHJpZ2h0OyBtYXJnaW46IDEwcHg7IiAvPuS4lueVjOODiOODg+ODl+ODrOODmeODq+OBruOCpOODmeODs+ODiOOBqOOBl+OBpuOAgeOCpOODs+OCv+ODvOODiuOCt+ODp+ODiuODq0NFU+OBp+OBr+WPguWKoOiAheOBrueahuanmOOBq+OCiOOCiuWEquOCjOOBn+e1jOmok+OCkuOBl+OBpuOBhOOBn+OBoOOBj+OBn+OCgeOBq+OAgeODhuOCr+ODjuODreOCuOODvOOBrua0u+eUqOOBq+WKquOCgeOBpuOBhOOBvuOBmeOAguW+heOBoeaZgumWk+OCkuOCiOOCiuefreOBj+OBl+OAgeODkOODg+OCuOOBruapn+iDveaAp+OBqOS9v+OBhOOChOOBmeOBleOCkumrmOOCgeOCi+OBn+OCgeOAgeS7iuW5tOW6puOCiOOCiuaWsOOBl+OBhOODkOODg+OCuOOCkuWwjuWFpeOBmeOCi+OBk+OBqOOBq+OBquOCiuOBvuOBl+OBn+OAguaWsOODkOODg+OCuOOBq+OBr+OAgei/kei3nemboueEoee3mumAmuS/oe+8iE5GQ++8ieODhuOCr+ODjuODreOCuOODvOOBjOaQrei8ieOBleOCjOOBpuOBhOOBvuOBmeOBruOBp+OAgee0oOaXqeOBj+WKueeOh+eahOOBquODkOODg+OCuOOBuOOBruOCouOCr+OCu+OCueOBqOaDheWgseOBruOCouODg+ODl+ODh+ODvOODiOOBjOWPr+iDveOBq+OBquOCiuOBvuOBmeOAgmRkPtndEH2GUat+A3dTn2tnz5ROWXjHh0JxBmIR9EevcnM=" />
+</div>
+
+<input type="hidden" name="lng" id="lng" value="ja-JP" />
+<script type="text/javascript">
+	//<![CDATA[
+
+function PM_Postback(param) { if (window.top.HideScreenLockWarningAndSync) { window.top.HideScreenLockWarningAndSync(1080); }__doPostBack('m',param); }
+function PM_Callback(param, callback, ctx) { if (window.top.HideScreenLockWarningAndSync) { window.top.HideScreenLockWarningAndSync(1080); }WebForm_DoCallback('m',param,callback,ctx,null,true); }
+//]]>
+</script>
+<script src="/ScriptResource.axd?d=bZ8Ml8IJIicjRnK9UItL1u7FqXpr_mPZr1pI4jRGd8lGJG4T6SlHSj_AMUl4I-Vc3N_AKrMpb3eBSk9PNEcN0JIaVdMYeSeLKoWKY7XRO5TbUuMKPVWDnHEIqlaBoQCm0&amp;t=ffffffff8dea9fe4" type="text/javascript"></script>
+    <div id="CMSHeaderDiv">
+	<!-- -->
+</div>
+    <div id="ctxM">
+
+</div>
+    
+<!--[if lte IE 9]>
+  <div style="display: block; width: 97%; background-color: #FF99CC; padding: 10px 30px 10px 30px; text-align: center; color: black; font-size:20px;">
+    We noticed you are using an older version of IE that isn't fully supported on this site. Please click <a  href="http://www.cesweb.org/browsers">here</a> for more information and options.
+</div>
+<![endif]-->  
+<div id="wrapper">
+	<div id="center_top">
+    <div id="container">
+        	<!--TOP PANEL-->
+			<section>
+            <div id="top_panel">
+                <div class="container">
+                    <ul class="connect-title">
+                        <li>Connect with Us</li>
+                    </ul>
+                    <ul class="social_icons">
+	<li class="twitter">
+		<a href="https://twitter.com/intlces" title="Twitter">&nbsp;</a></li>
+	<li class="facebook">
+		<a href="https://www.facebook.com/InternationalCES" title="facebook">&nbsp;</a></li>
+	<li class="googleplus">
+		<a href="https://google.com/+InternationalCES" title="googleplus">&nbsp;</a></li>
+	<li class="instagram">
+		<a href="http://instagram.com/intlces" title="instagram">&nbsp;</a></li>
+	<li class="youtube">
+		<a href="http://www.youtube.com/user/cesonthetube" title="youtube">&nbsp;</a></li>
+</ul>
+
+                    <ul class="open-ad"><li id="clasp_1"><a href="javascript:lunchboxOpen('1');">OPEN ADVERTISEMENT </a></li></ul>
+                    <ul class="drop" id="nav">
+	<li>
+		Other CEA Sites
+		<ul>
+			<li>
+				<a href="http://www.ce.org" target="_blank">CEA - CE.org</a></li>
+			<li>
+				<a href="http://www.declareinnovation.com/" target="_blank">Innovation Movement</a></li>
+			<li>
+				<a href="http://www.ce.org/blog" target="_blank">Digital Dialogue Blog</a></li>
+			<li>
+				<a href="http://www.ce.org/i3" target="_blank">i3 Magazine</a></li>
+			<li>
+				<a href="http://www.greenergadgets.org/" target="_blank">Greener Gadgets</a></li>
+			<li>
+				<a href="http://www.ce.org/research" target="_blank">CEA Market Research</a></li>
+			<li>
+				<a href="http://www.ce.org/foundation" target="_blank">CEA Foundation</a></li>
+		</ul>
+	</li>
+</ul>
+
+                </div>
+            </div>
+            </section> 
+            <!--END TOP PANEL-->
+            <!--AD AREA-->
+           <section>
+           		<div style="background:#000;" class="billboard-ad" >
+                <div class="container bill-ad lunchbox" id="lunch_1"  style="display: none;">
+                  <div class="container bill-ad"><a id="p_lt_ctl02_BannerRotator_lnkBanner" class="CMSBanner Banner" href="http://www.cesweb.org/Events-Awards/Events/MARQUEE-Welcomes-CES-Party.aspx" onclick="this.href=&#39;/CMSModules/BannerManagement/CMSPages/BannerRedirect.ashx?bannerID=90&amp;redirectURL=http%3a%2f%2fwww.cesweb.org%2fEvents-Awards%2fEvents%2fMARQUEE-Welcomes-CES-Party.aspx&#39;;" onmouseup="this.href=&#39;/CMSModules/BannerManagement/CMSPages/BannerRedirect.ashx?bannerID=90&amp;redirectURL=http%3a%2f%2fwww.cesweb.org%2fEvents-Awards%2fEvents%2fMARQUEE-Welcomes-CES-Party.aspx&#39;;"><img id="p_lt_ctl02_BannerRotator_imgBanner" src="/CES/media/2014/advertisements/13752_MarqueeAD.jpg" style="" /></a></div>
+                </div>
+                </div>
+           	</section>
+             <!--ENS AD AREA-->
+           
+           <!--AUDIENCEL-->
+           <section>
+           <div class="container">
+           	<ul class="audience-nav">
+	<li>
+		<a href="/exhibitor">Exhibitors</a></li>
+	<li>
+		<a href="/press">Press</a></li>
+	<li>
+		<a href="/international">International</a></li>
+</ul>
+
+            </div>
+           </section>
+           <!--END AUDIENCEL-->
+           <!--HEADER-->
+          <section>
+            <div class="container">
+				<header id="header">
+					<div id="sticky_navigation">
+						<div class="container">
+							<a href="/home" id="logo"></a>
+                   		   
+                           <div class="search-container">
+                              <div class="search">
+                                <input type="search" id="searchTxt" onkeypress="return EnterEvent(event);" >
+                                  
+                              </div>
+                              <div class="date">
+                                <h2>
+	Las Vegas, NV</h2>
+<h3>
+	JANUARY 7-10, 2014</h3>
+
+                              </div>
+                          </div>
+                       </div>
+                       <div id="navigation-wrapper">
+                            <nav id="main-navigation">
+                              
+<ul class="main-menu sf-js-enabled sf-shadow">
+ 
+    <li class="current"
+id="2">
+<a href=" /Register-Plan"> Register &amp; Plan</a> 
+<ul 
+    
+   class='nav-2cols'
+  style="display: none; visibility: hidden;">
+    
+  <p style ="display:none;">&nbsp;</p><li><a href=" /Register-Plan/Register-Now"> Register Now</a>
+
+<li><a href=" /Register-Plan/Full-Schedule"> Full Schedule </a>
+
+<li><a href=" /Register-Plan/How-to-Register-for-CES"> CESへのご登録方法</a>
+
+<li><a href=" /Register-Plan/Badges"> CES バッジについて</a>
+
+<ul></ul>
+</li><li><a href=" /Register-Plan/Hotel"> Hotel</a>
+
+<ul><li><a href="/Register-Plan/Hotel/Reserve-a-Room-Block" class="no-display">Reserve a Room Block </a></li></ul>
+</li><li><a href=" /Register-Plan/Las-Vegas-Travel-Tips"> Las Vegas Travel Tips</a>
+
+<li><a href=" /Register-Plan/Transportation"> Transportation</a>
+
+<ul></ul>
+</li><li><a href=" /Register-Plan/On-Site-Logistics"> On-Site Logistics</a>
+
+<li><a href=" /Register-Plan/My-CES-Planner"> MyCES Planner</a>
+
+<li><a href=" /Register-Plan/First-Timers-Resources"> 初めてご参加の方のための情報</a>
+
+
+</ul></li><li class=""
+id="3">
+<a href=" /Show-Floor"> Show Floor</a> 
+<ul 
+    
+   class='nav-2cols'
+  style="display: none; visibility: hidden;">
+    
+  <p style ="display:none;">&nbsp;</p><li><a href=" /Show-Floor/Exhibit-or-Sponsor"> Exhibit or Sponsor</a>
+
+<li><a href=" /Show-Floor/Exhibit-Hours"> Exhibit Hours</a>
+
+<li><a href=" /Show-Floor/TechZones"> TechZones</a>
+
+<ul></ul>
+</li><li><a href=" /Show-Floor/Exhibit-Directory"> Exhibitor Directory</a>
+
+<li><a href=" /Show-Floor/Maps"> Maps</a>
+
+<li><a href=" /Show-Floor/Show-Floor-Tours"> Show Floor Tours</a>
+
+<li><a href=" /Show-Floor/CES-Mobile-App"> CES Mobile App</a>
+
+<li><a href=" /Show-Floor/MyCES-Planner"> MyCES Planner</a>
+
+
+</ul></li><li class=""
+id="4">
+<a href=" /Conference"> Conference</a> 
+<ul 
+    
+   class='nav-2cols'
+  style="display: none; visibility: hidden;">
+    
+  <p style ="display:none;">&nbsp;</p><li><a href=" /Conference/Keynotes"> Keynote Addresses</a>
+
+<li><a href=" /Conference/Purchase-Passes"> Purchase Passes</a>
+
+<li><a href=" /Conference/Shopping-Cart"> Shopping Cart</a>
+
+<li><a href=" /Conference/Session-Schedule-Brochure"> Conference Program Schedule </a>
+
+<li><a href=" /Conference/Speaker-Search"> Speaker Search</a>
+
+<li><a href=" /Conference/SuperSessions"> SuperSessions</a>
+
+<li><a href=" /Conference/Conference-Tracks"> Conference Tracks</a>
+
+<li><a href=" /Conference/Become-a-Speaker"> Become a Speaker</a>
+
+<li><a href=" /Conference/Speaker-Services"> Speaker Services</a>
+
+<ul></ul>
+</li><li><a href=" /Conference/Virtual-Conference-Brochure"> Virtual Conference Brochure</a>
+
+
+</ul></li><li class=""
+id="5">
+<a href=" /Events-Awards"> Events &amp; Awards</a> 
+<ul 
+    
+   
+  style="display: none; visibility: hidden;">
+    
+  <p style ="display:none;">&nbsp;</p><li><a href=" /Events-Awards/Events"> Events</a>
+
+<ul></ul>
+</li><li><a href=" /Events-Awards/Awards"> Awards</a>
+
+<li><a href=" /Events-Awards/Innovations"> CES Innovations Awards</a>
+
+<li><a href=" /Events-Awards/Download-the-Events-and-Awards-Schedule-Flyer-(PDF"> Download the Events and Awards Schedule Flyer (PDF)</a>
+
+<li><a href=" /Events-Awards/Press-Events"> Press Events</a>
+
+
+</ul></li><li class=""
+id="6">
+<a href=" /News"> News</a> 
+<ul 
+    
+   class='nav-2cols'
+  style="display: none; visibility: hidden;">
+    
+  <p style ="display:none;">&nbsp;</p><li><a href=" /News/Press-Releases"> Press Releases</a>
+
+<li><a href=" /News/CES-TV"> CES TV</a>
+
+<li><a href=" /News/Photo-Gallery"> Photo Gallery</a>
+
+<li><a href=" /News/CES-Social"> Social Media</a>
+
+<li><a href=" /News/CES-In-The-News"> CES In The News</a>
+
+<li><a href=" /News/Exhibitor-Press-Releases"> Exhibitor Press Releases </a>
+
+<li><a href=" /News/Press-Services"> Press Services</a>
+
+
+</ul></li><li class=""
+id="7">
+<a href=" /Why-attend-CES"> Why Attend CES?</a> 
+<ul 
+    
+   
+  style="display: none; visibility: hidden;">
+    
+  <p style ="display:none;">&nbsp;</p><li><a href=" /Why-attend-CES/What-Youre-Missing-CES"> See What You&#39;re Missing at CES</a>
+
+<li><a href=" /Why-attend-CES/2013-Attendee-Audit"> 2013 Attendee Audit</a>
+
+<li><a href=" /Why-attend-CES/CEA-Member-Benefits"> CEA Member Benefits</a>
+
+
+</ul>  </li>
+</ul>
+
+ <div id="main-navigation">
+  <select id="navSecondary" onChange="top.location.href=this.options[this.selectedIndex].value;">
+<option selected="selected" value="">Site Main Navigation</option>
+<option style="font-family:open_sansbold;" value="/Register-Plan">Register & Plan</option><option style="font-family:open_sansbold;" value="/Show-Floor">Show Floor</option><option style="font-family:open_sansbold;" value="/Conference">Conference</option><option style="font-family:open_sansbold;" value="/Events-Awards">Events & Awards</option><option style="font-family:open_sansbold;" value="/News">News</option><option style="font-family:open_sansbold;" value="/Why-attend-CES">Why Attend CES?</option><option style="font-family:open_sansbold;" value="/Exhibitor">Exhibitors</option><option style="font-family:open_sansbold;" value="/International">International</option><option style="font-family:open_sansbold;" value="/Press">Press</option>
+</select>
+</div>
+                            </nav>
+                        </div>
+				    </div>
+	          </header>
+           </div> 
+        </section>
+        </div>
+    
+      
+
+<section>
+        
+
+        <div class="container clearfix above">
+            <div class="one-sixth-leftnav">
+                <div class="leftnav">
+                    <ul><li><a href="/Register-Plan/Register-Now">Register Now</a><li><a href="/Register-Plan/Full-Schedule">Full Schedule </a><li><a href="/Register-Plan/How-to-Register-for-CES">How to Register for CES</a><li><a href="/Register-Plan/Hotel">Hotel</a><li class="left-current"><a href="/Register-Plan/Badges">Badges: A New Process for 2014</a><ul><li><a href="/Register-Plan/Badges/on-site-badge-pickup-and-registration">On-Site Badge Pickup and Registration </a></ul><li><a href="/Register-Plan/Transportation">Transportation</a><li><a href="/Register-Plan/Las-Vegas-Travel-Tips">Las Vegas Travel Tips</a><li><a href="/Register-Plan/On-Site-Logistics">On-Site Logistics</a><li><a href="/Register-Plan/First-Timers-Resources">First-Timer Resources</a><li><a href="/Register-Plan/My-CES-Planner">MyCES Planner</a></ul>
+
+                </div>
+                <a id="p_lt_ctl06_pageplaceholder_p_lt_ctl01_BannerRotator_lnkBanner" class="CMSBanner Banner" href="http://www.ce.org/Membership/Join-CEA.aspx" onclick="this.href=&#39;/CMSModules/BannerManagement/CMSPages/BannerRedirect.ashx?bannerID=19&amp;redirectURL=http%3a%2f%2fwww.ce.org%2fMembership%2fJoin-CEA.aspx&#39;;" onmouseup="this.href=&#39;/CMSModules/BannerManagement/CMSPages/BannerRedirect.ashx?bannerID=19&amp;redirectURL=http%3a%2f%2fwww.ce.org%2fMembership%2fJoin-CEA.aspx&#39;;"><img id="p_lt_ctl06_pageplaceholder_p_lt_ctl01_BannerRotator_imgBanner" src="/CES/media/2014/advertisements/13352_JoinCEA_CESweb.jpg" style="" /></a>
+
+            </div>
+            <div class="three-fourth">
+                <div class="body-content">
+                    <h1>CES バッジについて</h1>
+
+                    <div class="breadcrumbs-article">
+                        <ul class="breadcrumbs-left">
+                            <li>
+                                <a id="p_lt_ctl06_pageplaceholder_p_lt_hypBChome" href="../">Home</a></li>
+                             <li class="bread-div">|</li><li><a href="/Register-Plan.aspx" class="CMSBreadCrumbsLink">Register & Plan</a> </li><li class="bread-div">|</li><li> <span  class="CMSBreadCrumbsCurrentItem">CES バッジについて</span>
+</li>
+                            
+                        </ul>
+                        <ul class="breadcrumbs-right">
+                            <li><span  class="st_sharethis_custom" displayText="ShareThis"><a >Share This</a></span></li>
+                            <li><a href="javascript:window.print()">Print This Page</a></li>
+                        </ul>
+                    </div>
+
+                    <p class="intro-innov">  </p>
+
+                    <div class="article-content-area">
+                      
+                       
+<h2>CES バッジについて</h2>
+<p class="intro"><img alt="" src="/CES/media/2014/landing%20pages/register-plan/badge-page.JPG" style="width: 230px; height: 230px; float: right; margin: 10px;" />世界トップレベルのイベントとして、インターナショナルCESでは参加者の皆様により優れた経験をしていただくために、テクノロジーの活用に努めています。待ち時間をより短くし、バッジの機能性と使いやすさを高めるため、今年度より新しいバッジを導入することになりました。新バッジには、近距離無線通信（NFC）テクノロジーが搭載されていますので、素早く効率的なバッジへのアクセスと情報のアップデートが可能になります。</p>  
+
+<p>
+	<strong>2014 CESの重要な変更点の1つとして</strong>、バッジの事前郵送は<strong><u>行いません</u></strong>。その代わり、参加手続きが済み確認通知を受け取られた方は、ラスベガス到着時にバッジを受け取っていただきます。バッジの受け取り場所はすべて、以下に記載しています。ただし、より迅速で効率的にチェックインしていただくには、バッジの受け取りをCESの開催場所までお待ちいただく必要はありません。McCarran空港で手荷物を待っている間にバッジをお受け取りになるか、または、4つのCES認定ホテルでチェックインした後にお受け取りください。<br />
+	<br />
+	<strong>現地以外のバッジ受け取り場所：</strong></p>
+<div>
+	<ul>
+		<li>
+			<p>
+				McCarran Airport, Terminal 1 Baggage Claim</p>
+		</li>
+		<li>
+			<p>
+				McCarran Airport, Terminal 3 Baggage Claim</p>
+		</li>
+		<li>
+			<p>
+				ARIA</p>
+		</li>
+		<li>
+			<p>
+				Circus Circus</p>
+		</li>
+		<li>
+			<p>
+				Excalibur</p>
+		</li>
+		<li>
+			<p>
+				Mandalay Bay</p>
+		</li>
+		<li>
+			<p>
+				MGM Grand</p>
+		</li>
+		<li>
+			<p>
+				Mirage</p>
+		</li>
+		<li>
+			<p>
+				Riviera</p>
+		</li>
+		<li>
+			<p>
+				Westin</p>
+		</li>
+		<li>
+			<p>
+				Wynn</p>
+		</li>
+	</ul>
+	<p>
+		<br />
+		<strong>現地でのバッジ受け取り場所：</strong></p>
+	<ul>
+		<li>
+			<p>
+				LVH, Ballroom Foyer</p>
+		</li>
+		<li>
+			<p>
+				LVCC, North Hall 3 Lobby</p>
+		</li>
+		<li>
+			<p>
+				LVCC, Central Lobby, Patio</p>
+		</li>
+		<li>
+			<p>
+				LVCC, Central Hall 2, Entrance</p>
+		</li>
+		<li>
+			<p>
+				LVCC, South Hall 1, Patio</p>
+		</li>
+		<li>
+			<p>
+				LVCC, South Hall 1, Front Lobby</p>
+		</li>
+		<li>
+			<p>
+				LVCC, South Hall 2, Lobby</p>
+		</li>
+		<li>
+			<p>
+				LVCC, South Hall Connector, Outside S229 (Press Only)</p>
+		</li>
+		<li>
+			<p>
+				Venetian, Level 1, Meeting Space</p>
+		</li>
+		<li>
+			<p>
+				Venetian, Level 2, Foyer</p>
+		</li>
+		<li>
+			<p>
+				Venetian, Tower Elevator Bank Entrance</p>
+		</li>
+	</ul>
+	<p>
+		今年度の現地での身元確認とバッジの受け取りに必要なものは、政府発行のID（運転免許証やパスポート）、および確認通知のページ（プリントアウト、携帯、タブレット、ノートパソコン上）に記載のQRコードを提示していただくだけです。イベントに参加する<u>全ての方</u>は、参加タイプに関わらず、どの受け取り場所においてもバッジをお受け取りになれます。</p>
+</div>
+<br />
+
+                      
+                    </div>
+                </div>
+            </div>
+        </div>
+      
+    </section>
+       <div class="interior-body-bk">
+          <div class="int-bk-right"><a id="p_lt_ctl07_BannerRotatorRightHanger_lnkBanner" class="CMSBanner Banner" href="/conference" onclick="this.href=&#39;/CMSModules/BannerManagement/CMSPages/BannerRedirect.ashx?bannerID=36&amp;redirectURL=%2fconference&#39;;" onmouseup="this.href=&#39;/CMSModules/BannerManagement/CMSPages/BannerRedirect.ashx?bannerID=36&amp;redirectURL=%2fconference&#39;;"><img id="p_lt_ctl07_BannerRotatorRightHanger_imgBanner" src="/CES/media/2014/backgrounds/GibsonGuitars.jpg" style="" /></a></div>
+          <div class="int-bk-left"><a id="p_lt_ctl08_BannerRotatorLeftHanger_lnkBanner" class="CMSBanner Banner" href="/show-floor" onclick="this.href=&#39;/CMSModules/BannerManagement/CMSPages/BannerRedirect.ashx?bannerID=35&amp;redirectURL=%2fshow-floor&#39;;" onmouseup="this.href=&#39;/CMSModules/BannerManagement/CMSPages/BannerRedirect.ashx?bannerID=35&amp;redirectURL=%2fshow-floor&#39;;"><img id="p_lt_ctl08_BannerRotatorLeftHanger_imgBanner" src="/CES/media/2014/backgrounds/home-bk-01.jpg" style="" /></a></div>
+      </div> 
+      <section>
+    <div id="footer">
+			<div class="container">
+            	<div class="footer-line"></div>
+				<div class="one-fifth">
+                  <p class="copyright">
+	Copyright &copy; 2003 - 2014 CEA. All rights reserved.</p>
+
+			    </div>
+			    <div class="one-sixth footer-div">
+                  <ul>
+	<li>
+		<a href="/about-us">About Us </a></li>
+	<li>
+		<a href="/contact-us">Contact Us</a></li>
+	<li>
+		<a href="/partners">Partners</a></li>
+</ul>
+
+				 </div>
+                 <div class="one-sixth footer-div">
+                  <ul>
+	<li>
+		<a href="/privacy">Privacy</a></li>
+	<li>
+		<a href="/sitemap">Sitemap</a></li>
+</ul>
+<br /><div style="font-size: .8em; color: #FFF;"><span id="p_lt_ctl11_whatServer_serverName">WEB-IIS20</span></div><div style="color: #fff;">billboardRegisterPlan</div>
+				 </div>
+				 <div class="one-third languages">
+                    	
+                     <h4> LANGUAGES </h4>
+<div class="lang">
+ <li><a href="/Register-Plan/如何领取CES入场证.aspx">汉语</a></li><li><a href="/Register-Plan/Badges-A-New-Process-for-2014.aspx">English</a></li><li><a href="/Register-Plan/Informations-concernant-les-badges-pour-CES.aspx">Fran&#231;ais</a></li><li class="selected-language"><a href="#">日本語</a></li><li><a href="/Register-Plan/CES(소비자-가전-박람회)-명찰-정보.aspx">한국어</a></li><li><a href="/Register-Plan/Badges.aspx?lang=es-ES">Espa&#241;ol</a></li>
+<script type="text/javascript" charset="utf-8">
+    jQuery(document).ready(function ($) 
+        {
+            var a = $('div.lang > li');
+            for( var i = 0; i < a.length; i+=3 ) {
+                a.slice(i, i+3).wrapAll('<ul class="columns"></ul>');
+            }
+    });
+ </script><div><script type="text/javascript">
+
+
+
+  var _gaq = _gaq || [];
+
+  _gaq.push(['_setAccount', 'UA-3975226-4']);
+
+  _gaq.push(['_trackPageview']);
+
+
+
+  (function() {
+
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+
+  })();
+
+
+
+</script>​
+                </div>
+			</div>
+    </div>
+    </section>
+    </div>
+    </div>
+<!-- Start of Google Analytics script -->
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-3975226-4']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+<!-- End of Google Analytics script -->
+
+<!-- Start Pardot tracking script -->
+<script type="text/javascript"> 
+piAId = '27962'; 
+piCId = '2690'; 
+
+(function() { 
+function async_load(){ 
+var s = document.createElement('script'); s.type = 'text/javascript';
+s.src = ('https:' == document.location.protocol ? 'https://pi' : 'http://cdn') + '.pardot.com/pd.js'; 
+var c = document.getElementsByTagName('script')[0]; c.parentNode.insertBefore(s, c); 
+} 
+if(window.attachEvent) { window.attachEvent('onload', async_load); } 
+else { window.addEventListener('load', async_load, false); } 
+})(); 
+</script> 
+<!-- End Pardot tracking script -->
+<script type="text/javascript">
+setTimeout(function(){var a=document.createElement("script");
+var b=document.getElementsByTagName("script")[0];
+a.src=document.location.protocol+"//dnn506yrbagrg.cloudfront.net/pages/scripts/0013/2569.js?"+Math.floor(new Date().getTime()/3600000);
+a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
+</script>
+
+<div itemscope itemtype="http://schema.org/BusinessEvent">
+  <div><meta itemprop="url" href="http://www.cesweb.org"></div>
+  <div><meta itemprop="name" content="2014 International CES"></div>
+  <div><meta itemprop="description" content="The International CES is a global consumer electronics and consumer technology tradeshow that takes place every January in Las Vegas, Nevada."></div>
+  <div><meta itemprop="startDate" content="2014-01-07T09:00"></div>
+  <div><meta itemprop="endDate" content="2014-01-10:00.000"></div>
+<div itemprop="location" itemscope itemtype="http://schema.org/PostalAddress">
+  <div><meta itemprop="addressLocality" content="Las Vegas"><meta itemprop="addressRegion" content="NV"></div>
+</div>
+
+    
+    
+
+<script type="text/javascript">
+//<![CDATA[
+(function() {var fn = function() {$get("manScript_HiddenField").value = '';Sys.Application.remove_init(fn);};Sys.Application.add_init(fn);})();//]]>
+</script>
+</form>
+</body>
+</html>
