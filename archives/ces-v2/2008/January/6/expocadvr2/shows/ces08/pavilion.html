@@ -1,0 +1,179 @@
+<HTML>
+<HEAD>
+
+<LINK REL="stylesheet" TYPE="text/css" HREF="menu.css">
+
+<SCRIPT TYPE="text/javascript" SRC="/ExpoCadVR2/js/menu.js"></SCRIPT>
+
+<SCRIPT TYPE="text/javascript">
+
+var PavilxmlDoc;
+var BoothxmlDoc;
+var zoom ="";
+
+function Init()
+{
+   if(navigator.appName.indexOf("Microsoft") == -1)
+      InitNS();
+   else
+      InitIE();
+}
+
+function InitNS()
+{
+   PavilxmlDoc = document.implementation.createDocument("", "doc1", null);
+   PavilxmlDoc.load("VR2_files/08ces/pavilion.xml"); 
+   PavilxmlDoc.onload = LoadBoothsNS; 
+}
+
+function LoadBoothsNS()
+{
+   BoothxmlDoc = document.implementation.createDocument("", "doc2", null) 
+   BoothxmlDoc.onload = DisplayList; 
+   BoothxmlDoc.load("VR2_files/08ces/booth.xml"); 
+}
+
+function InitIE()
+{
+   PavilxmlDoc = new ActiveXObject("Microsoft.XMLDOM"); 
+   PavilxmlDoc.async = false; 
+   PavilxmlDoc.onreadystatechange = function(){ if (PavilxmlDoc.readyState == 4) LoadBoothsIE() };
+   PavilxmlDoc.load("VR2_files/08ces/pavilion.xml");
+}
+
+function LoadBoothsIE()
+{
+   BoothxmlDoc = new ActiveXObject("Microsoft.XMLDOM"); 
+   BoothxmlDoc.async = false;
+   BoothxmlDoc.onreadystatechange = function () { if (BoothxmlDoc.readyState == 4) DisplayList() };
+   BoothxmlDoc.load("VR2_files/08ces/booth.xml");
+}
+
+
+function DisplayList()
+{
+   var TheList = document.getElementById('list');
+
+   var plist = PavilxmlDoc.getElementsByTagName("PAVILIONLIST");
+   var prec = plist[0].getElementsByTagName("PAVILION");
+   var pname = plist[0].getElementsByTagName("NAME");
+
+   var blist = BoothxmlDoc.getElementsByTagName("BOOTHLIST");
+   var brec = blist[0].getElementsByTagName("BOOTH");
+   var bid = blist[0].getElementsByTagName("BOOTHID");
+   var bpavil = blist[0].getElementsByTagName("PAVILION");
+
+   if(plist[0].childNodes.length > 0)
+   {
+      for(var i = 0; i < prec.length; i++)
+      {
+         for(var k = 0; k < brec.length; k++)
+         {
+            if (bpavil[k].childNodes.length > 0)
+            {
+               var paviltemp = bpavil[k].firstChild.nodeValue + "";
+
+               if(paviltemp == pname[i].firstChild.nodeValue)
+               {
+                  if(zoom == "")
+                     zoom = bid[k].firstChild.nodeValue + "";
+                  else
+                     zoom += ", " + bid[k].firstChild.nodeValue;
+               }	
+            }
+         }
+
+         var t = document.createElement("table");
+         var tb = document.createElement("tbody");
+         var tr = document.createElement("tr");
+         var td = document.createElement("td");
+         t.noWrap = true;
+         tr.noWrap = true;
+         td.noWrap = true;
+         td.innerHTML = "<A CLASS='ListValue' HREF=\"javascript:ZoomBooth(\'" + zoom + "\');\">" + pname[i].firstChild.nodeValue + "</A>";
+         tr.appendChild(td); 					
+         tb.appendChild(tr); 					
+         t.appendChild(tb);  
+         TheList.appendChild(t); 
+
+         zoom = "";	
+      }
+   }
+   else
+   {
+      var t = document.createElement("table");
+      var tb = document.createElement("tbody");
+      var tr = document.createElement("tr");
+      var td = document.createElement("td");
+      td.innerHTML = "<SPAN CLASS='text'>No pavilions available.</SPAN>";
+      t.noWrap = true;
+      tr.noWrap = true;
+      td.noWrap = true;				
+      tr.appendChild(td); 					
+      tb.appendChild(tr); 					
+      t.appendChild(tb);  
+      TheList.appendChild(t); 
+   }
+}
+
+</SCRIPT>
+
+</HEAD>
+
+<BODY onLoad="Init();">
+
+<TABLE class="list_bgcolor" style="border: 1px #cccccc solid" WIDTH="100%" CELLPADDING="4">
+   <TR>
+      <TD>
+		<TABLE CLASS="tb_bgcolor" style="border: 1px #cccccc solid" WIDTH="100%" CELLPADDING="6" CELLSPACING="0">
+		  <tr>
+				<td align=right class=text>
+					View:&nbsp&nbsp;
+					<A class="toolbar" href="exhib.html">All</a> | 
+					<A CLASS="toolbar" HREF="javascript:ListByFavorites();">Favorites</A>									
+				</td>
+			</tr>						
+			
+		   <TR>
+		      <TD class=text><span class="text"><strong>Search exhibitors by:&nbsp;&nbsp;</strong></span>
+		      <br>
+		      <a href="exhib.html" class="toolbar">Name</a>&nbsp;|&nbsp; 
+		      <a href="exhib_booth.html" class="toolbar">Booth Number</a>&nbsp;|&nbsp;
+  		      <a href="pavilion.html" class="toolbar">TechZone</a>
+		      
+		      </TD>
+		      
+		      <!--<TD><A CLASS="seltoolbar" HREF="javascript:ListByName();">Exhibitors</A></TD>-->
+		      <!--<TD><A CLASS="toolbar" HREF="javascript:ListByGroup();">Groups</A></TD>
+		      <TD><A CLASS="toolbar" HREF="javascript:ListByPavilion();">TechZones</A></TD>-->
+		      <!--<TD><A CLASS="toolbar" HREF="javascript:ListByFavorites();">Favorites</A></TD>-->
+		      <!--<TD><A CLASS="toolbar" HREF="javascript:ListByBooth();">Booths</A></TD>-->
+		   </TR>
+		   
+		   <!--
+		   	<form name="myForm" onSubmit="javascript:DisplayList()">
+				<tr><td class=text>
+					<strong>Search by Name: &nbsp;</strong><input name=searchString class="text" size=15>
+					&nbsp;&nbsp;
+					<input type=submit value=Go id=submit1 name=submit1 class="text">
+				</td></tr>							
+			</form>	
+		   -->
+			<form name="tb"><input type=hidden name="isLocationSearch" value="0"></form>
+		   <!--<TR>
+		      <TD><A CLASS="toolbar" HREF="javascript:PrintList();">Print</A></TD>
+		   </TR>-->
+		</TABLE>			
+		<BR>
+		<DIV ID="list"></DIV>
+		<br>
+	</td>
+	</tr>
+</table>
+
+<BR>
+
+<DIV ID="list"></DIV>
+
+</BODY>
+</HTML>

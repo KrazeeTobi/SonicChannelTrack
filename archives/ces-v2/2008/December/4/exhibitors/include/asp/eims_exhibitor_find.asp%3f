@@ -1,0 +1,82 @@
+
+
+<SCRIPT language="javascript1.2">
+function newWin(urlString,pgNum)
+  {
+    var popupWindow;
+	urlString += "?pageID=" + pgNum;
+	
+    popupWindow = window.open(urlString,"","toolbar=yes,menubar=no,resizable=no,status=no,scrollbars=yes,location=no,directories=no,copyhistory=no,height=550,width=610,left=50,top=50");
+  }//  function for opening a new pop-up window for printing a page
+  
+ 
+function openNewWindow(strURL) {
+	window.name = "main";
+	
+	var newWindow = window.open(strURL,"newWindow", "toolbar=no,menubar=no,resizable=no,status=no,scrollbars=yes,location=no,directories=no,copyhistory=no,height=400,width=450,left=50,top=50");
+} //  function for opening a new pop-up window
+
+// javascript for e-mail this page tool - gets the url of the page the user is on before the e-mail page tool button is clicked
+	
+	function loadReferrer() {
+		referrerString = opener.document.location.href;
+		document.emailForm.page.value = referrerString;
+	}
+
+</SCRIPT>
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+	<title>2009 International CES:&nbsp;Locate Exhibitor</title>
+	
+	<script language="Javascript">
+		function setExhibitorInfo(exhibitorName, exhibitorID, exhibitorBooths){
+		if(opener){			
+			window.opener.document.forms["form_login"].ExhibitorNameText.value = exhibitorName;	
+			window.opener.document.forms["form_login"].ExhibitorName.value = exhibitorName;
+			window.opener.document.forms["form_login"].ExhibitorID.value = exhibitorID;
+			window.opener.document.forms["form_login"].TIMMS_ID.disabled=false;
+			window.opener.document.forms["form_login"].submit1.disabled=false;
+			window.opener.document.forms["form_login"].forgot_password_button.disabled=false;
+			window.opener.document.forms["form_login"].TIMMS_ID.focus();
+											
+			window.close();		
+		}
+	}
+	</script>
+	<style type="text/css">
+	BODY
+	{
+    margin:0px 0px 0px 0px;
+	}
+	td
+	{
+    font-family:Arial, Helvetica, Sans-Serif;
+    font-size:9pt;
+    line-height:16px;
+    color:#3a3a3a;    
+	}
+	</style>
+</head>
+
+<BODY>
+
+<IMG SRC="../../images/eims_banner.jpg" width="439" BORDER="0">
+
+<table cellpadding="10" width="100%">
+<tr><td>
+
+<table cellspacing="2" cellpadding="0" border="0" width="100%">
+<tr>
+<table width='100%' cellspacing='0' cellpadding='0' border='0'><tr><td colspan='2' align='middle'><hr noshade width='80%'></td></tr>
+<tr><td colspan='2' align='middle' height='60'><font class='formIdentifier'>No exhibitor names .</font></td></tr><tr><td colspan='2' align='middle'><hr noshade width='80%'></td></tr><tr><td colspan='2' height='20'></td></tr>
+<form><tr><td colspan='2' align='middle'><input type='button' class='formData' name='btnNewSearch' value='New Search' onClick="window.location='default.asp';"></td></tr></form>
+</table>
+</tr>
+</table>
+
+</td></tr>
+</table>
+</body>
+</html>

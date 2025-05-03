@@ -1,0 +1,510 @@
+<HTML>
+<HEAD>
+
+<LINK REL="stylesheet" TYPE="text/css" HREF="menu.css">
+
+<SCRIPT TYPE="text/javascript" SRC="/ExpoCadVR2/js/menu.js"></SCRIPT>
+
+<SCRIPT TYPE="text/javascript">
+
+var ExhibxmlDoc;
+var BoothxmlDoc;
+var GroupxmlDoc;
+var GroupAssignxmlDoc;
+var PavilxmlDoc;
+var MenuxmlDoc;
+var ViewerxmlDoc;
+var custid = "";
+var eventname = "";
+
+function Init()
+{
+   if(navigator.appName.indexOf("Microsoft") == -1)
+      InitNS();
+   else
+      InitIE();
+}
+
+function InitNS()
+{
+   ExhibxmlDoc = document.implementation.createDocument("", "doc1", null) 
+   ExhibxmlDoc.onload = LoadBoothsNS;
+   ExhibxmlDoc.load("VR2_files/08ces/exhib.xml");
+}
+
+function LoadBoothsNS()
+{ 
+   BoothxmlDoc = document.implementation.createDocument("", "doc2", null) 
+   BoothxmlDoc.onload = LoadGroupsNS; 
+   BoothxmlDoc.load("VR2_files/08ces/booth.xml"); 
+}
+
+function LoadGroupsNS()
+{ 
+   GroupxmlDoc = document.implementation.createDocument("", "doc3", null) 
+   GroupxmlDoc.onload = LoadGroupAssignNS; 
+   GroupxmlDoc.load("VR2_files/08ces/group.xml"); 
+}
+
+function LoadGroupAssignNS()
+{
+   GroupAssignxmlDoc = document.implementation.createDocument("", "doc4", null) 
+   GroupAssignxmlDoc.onload = LoadMenuNS; 
+   GroupAssignxmlDoc.load("VR2_files/08ces/grpass.xml"); 
+}
+
+function LoadMenuNS()
+{ 
+   MenuxmlDoc = document.implementation.createDocument("", "doc5", null) 
+   MenuxmlDoc.onload = LoadViewerNS; 
+   MenuxmlDoc.load("VR2_files/08ces/menu.xml"); 
+}
+
+function LoadViewerNS()
+{
+   ViewerxmlDoc = document.implementation.createDocument("", "doc6", null) 
+   ViewerxmlDoc.onload = DisplayList; 
+   ViewerxmlDoc.load("viewer.xml"); 
+}
+
+function InitIE()
+{
+   ExhibxmlDoc = new ActiveXObject("Microsoft.XMLDOM"); 
+   ExhibxmlDoc.async = false; 
+   ExhibxmlDoc.onreadystatechange = function () { if (ExhibxmlDoc.readyState == 4) LoadBoothsIE() };
+   ExhibxmlDoc.load("VR2_files/08ces/exhib.xml");
+}
+
+function LoadBoothsIE()
+{
+   BoothxmlDoc = new ActiveXObject("Microsoft.XMLDOM"); 
+   BoothxmlDoc.async = false;
+   BoothxmlDoc.onreadystatechange = function () { if (BoothxmlDoc.readyState == 4) LoadGroupsIE() };
+   BoothxmlDoc.load("VR2_files/08ces/booth.xml");
+}
+
+function LoadGroupsIE()
+{
+   GroupxmlDoc = new ActiveXObject("Microsoft.XMLDOM"); 
+   GroupxmlDoc.async = false;
+   GroupxmlDoc.onreadystatechange = function () { if (GroupxmlDoc.readyState == 4) LoadGroupAssignIE() };
+   GroupxmlDoc.load("VR2_files/08ces/group.xml");
+}
+
+function LoadGroupAssignIE()
+{
+   GroupAssignxmlDoc = new ActiveXObject("Microsoft.XMLDOM"); 
+   GroupAssignxmlDoc.async = false;
+   GroupAssignxmlDoc.onreadystatechange = function () { if (GroupAssignxmlDoc.readyState == 4) LoadMenuIE() };
+   GroupAssignxmlDoc.load("VR2_files/08ces/grpass.xml");
+}
+
+function LoadMenuIE()
+{
+   MenuxmlDoc = new ActiveXObject("Microsoft.XMLDOM"); 
+   MenuxmlDoc.async = false;
+   MenuxmlDoc.onreadystatechange = function () { if (MenuxmlDoc.readyState == 4) LoadViewerIE() };
+   MenuxmlDoc.load("VR2_files/08ces/menu.xml");
+}
+
+function LoadViewerIE()
+{
+   ViewerxmlDoc = new ActiveXObject("Microsoft.XMLDOM"); 
+   ViewerxmlDoc.async = false;
+   ViewerxmlDoc.onreadystatechange = function () { if (ViewerxmlDoc.readyState == 4) DisplayList() };
+   ViewerxmlDoc.load("viewer.xml");
+}
+
+function DisplayList()
+{
+   var elist = ExhibxmlDoc.getElementsByTagName("EXHIBITORLIST");
+   var erec = elist[0].getElementsByTagName("EXHIBITOR");
+   var ename = elist[0].getElementsByTagName("NAME");
+   var ecustid = elist[0].getElementsByTagName("CUSTID");
+   var ebooth = elist[0].getElementsByTagName("BOOTHID");
+   var eweb = elist[0].getElementsByTagName("WEB");
+   var eproduct = elist[0].getElementsByTagName("PRODUCT");
+   var econtact = elist[0].getElementsByTagName("CONTACT");
+   var eaddress1 = elist[0].getElementsByTagName("ADDRESS1");
+   var eaddress2 = elist[0].getElementsByTagName("ADDRESS2");
+   var ecity = elist[0].getElementsByTagName("CITY");
+   var estate = elist[0].getElementsByTagName("STATE");
+   var ezip = elist[0].getElementsByTagName("ZIP");
+   var ecountry = elist[0].getElementsByTagName("COUNTRY");
+   var ephone = elist[0].getElementsByTagName("PHONE");
+   var efax = elist[0].getElementsByTagName("FAX");
+   var eemail = elist[0].getElementsByTagName("EMAIL");
+   var egroup = elist[0].getElementsByTagName("GROUP");
+
+   var blist = BoothxmlDoc.getElementsByTagName("BOOTHLIST");
+   var brec = blist[0].getElementsByTagName("BOOTH");
+   var bcustid = blist[0].getElementsByTagName("CUSTID");
+   var bpavil = blist[0].getElementsByTagName("PAVILION");
+
+   var GAlist = GroupAssignxmlDoc.getElementsByTagName("GROUPASSIGNMENT");
+   var GArec = GAlist[0].getElementsByTagName("ASSIGNMENT");
+   var GAcustid = GAlist[0].getElementsByTagName("CUSTID");
+   var GAgroup = GAlist[0].getElementsByTagName("GROUP");
+
+   var glist = GroupxmlDoc.getElementsByTagName("GROUPLIST");
+   var grec = glist[0].getElementsByTagName("GROUP");
+   var gname = glist[0].getElementsByTagName("NAME");
+
+   var menu = MenuxmlDoc.getElementsByTagName("MENU"); 
+   var config = menu[0].getElementsByTagName("CONFIG");
+   var cname = menu[0].getElementsByTagName("NAME");
+   var cavailurl = menu[0].getElementsByTagName("AVAILURL");
+   var cexhibproduct = menu[0].getElementsByTagName("EXHIBPRODUCT");
+   var cexhibcontact = menu[0].getElementsByTagName("EXHIBCONTACT");
+
+   var ccount = menu[0].getElementsByTagName("BOOTHCOUNT");
+
+   var event = ViewerxmlDoc.getElementsByTagName("EVENT");
+   var eversion = event[0].getElementsByTagName("VER");
+   var evconfig = event[0].getElementsByTagName("CONFIG");
+   var evlinks = event[0].getElementsByTagName("LINKS");
+   var evcompany = event[0].getElementsByTagName("COMPANY");
+   var evbooth = event[0].getElementsByTagName("BOOTH");
+   var evgroup = event[0].getElementsByTagName("GROUP");
+   var evproduct = event[0].getElementsByTagName("PRODUCT");
+   var evcontact = event[0].getElementsByTagName("CONTACT");
+   
+   var Pre22 = 1;
+
+   if(ccount && ccount.length > 0)
+      Pre22 = 0;
+
+   var id = location.search;
+   id = id.substring(id.indexOf("=") + 1, id.length);
+
+   eventname = cname[0].firstChild.nodeValue;
+
+   var exhibproduct = cexhibproduct[0].firstChild.nodeValue + "";
+   var exhibcontact = cexhibcontact[0].firstChild.nodeValue + "";
+
+   var exhibID = "-1";
+   var pavilID = "-1";
+   var groupID = "-1";
+   var buffer = "";
+   var links = "";
+   var name = "";
+   var booth = "";
+   var web = "";
+   var group = "";
+   var pavilion = "";
+   var product = "";
+   var contact = "";
+   var address1 = "";
+   var address2 = "";
+   var city = "";
+   var state = "";
+   var zip = "";
+   var country = "";
+   var phone = "";
+   var fax = "";
+   var email = "";
+   var configcompany = "";
+   var configbooth = "";
+   var configgroup = "";
+   var configproduct = "";
+   var configcontact = "";
+   var td = "";
+   var count = 0;
+
+   for(var i = 0; i < erec.length; i++)
+   {
+      if(ecustid[i].childNodes.length > 0)
+         buffer = ecustid[i].firstChild.nodeValue;
+
+      if(buffer == id)
+      {
+         exhibID = i;
+         break;
+      }
+   }
+
+   if(Pre22 == 1)
+   {
+      if(egroup[exhibID].childNodes.length > 0)
+      {
+         for(var i = 0; i < grec.length; i++)
+         {
+            buffer = gname[i].firstChild.nodeValue;
+
+            if(egroup[exhibID].firstChild.nodeValue == buffer)
+            {
+               groupID = i;
+               break;
+            }
+         }
+      }
+   }
+
+   if(evcompany[0].childNodes.length > 0) configcompany = evcompany[0].firstChild.nodeValue;
+   if(evbooth[0].childNodes.length > 0) configbooth = evbooth[0].firstChild.nodeValue;
+   if(evgroup[0].childNodes.length > 0) configgroup = evgroup[0].firstChild.nodeValue;
+   if(evproduct[0].childNodes.length > 0) configproduct = evproduct[0].firstChild.nodeValue;
+   if(evcontact[0].childNodes.length > 0) configcontact = evcontact[0].firstChild.nodeValue;
+   if(evlinks[0].childNodes.length > 0) links = evlinks[0].firstChild.nodeValue;
+   if(ename[exhibID].childNodes.length > 0) name = ename[exhibID].firstChild.nodeValue;
+   if(ecustid[exhibID].childNodes.length > 0) custid = ecustid[exhibID].firstChild.nodeValue;
+   if(ebooth[exhibID].childNodes.length > 0) booth = ebooth[exhibID].firstChild.nodeValue;
+   if(eweb[exhibID].childNodes.length > 0) web = eweb[exhibID].firstChild.nodeValue;
+   if(eproduct[exhibID].childNodes.length > 0) product = eproduct[exhibID].firstChild.nodeValue;
+   if(econtact[exhibID].childNodes.length > 0) contact = econtact[exhibID].firstChild.nodeValue;
+   if(eaddress1[exhibID].childNodes.length > 0) address1 = eaddress1[exhibID].firstChild.nodeValue;
+   if(eaddress2[exhibID].childNodes.length > 0) address2 = eaddress2[exhibID].firstChild.nodeValue;
+   if(ecity[exhibID].childNodes.length > 0) city = ecity[exhibID].firstChild.nodeValue;
+   if(estate[exhibID].childNodes.length > 0) state = estate[exhibID].firstChild.nodeValue;
+   if(ezip[exhibID].childNodes.length > 0) zip = ezip[exhibID].firstChild.nodeValue;
+   if(ecountry[exhibID].childNodes.length > 0) country = ecountry[exhibID].firstChild.nodeValue;
+   if(ephone[exhibID].childNodes.length > 0) phone = ephone[exhibID].firstChild.nodeValue;
+   if(efax[exhibID].childNodes.length > 0) fax = efax[exhibID].firstChild.nodeValue;
+   if(eemail[exhibID].childNodes.length > 0) email = eemail[exhibID].firstChild.nodeValue;
+   if(egroup[exhibID].childNodes.length > 0) group = egroup[exhibID].firstChild.nodeValue;
+
+   if(ccount && ccount.length > 0)
+   {
+   	if(ccount[0].childNodes.length > 0) 
+		count = ccount[0].firstChild.nodeValue;
+   }
+
+   var TheList = document.getElementById('list');
+   var t = document.createElement("table");
+   var tb = document.createElement("tbody");
+   t.noWrap = true;
+   t.border = "1";
+   t.cellPadding = "5";
+   t.cellSpacing = "0";
+
+   if(configcompany == "1")
+   {
+      var tr = document.createElement("tr");
+      var td1 = document.createElement("td");
+      var td2 = document.createElement("td");
+      td1.className = "title_bgcolor";
+      td1.noWrap = true;
+      td1.innerHTML = "<SPAN CLASS='title'>Company:</SPAN>";
+      tr.appendChild(td1); 
+      tr.noWrap = true;
+      td2.noWrap = true;
+
+      if(count != "0")
+	web = SaveCookie(web, count);
+         
+      if(web != "" && links == "1")
+         td2.innerHTML = "<A CLASS='ListValue' TARGET='_blank' HREF='" + web + "'>" + name  + "</A>";
+      else
+         td2.innerHTML = "<SPAN CLASS='exhibname'>" + name  + "</SPAN>";
+
+      tr.appendChild(td2); 					
+      tb.appendChild(tr); 	
+   }
+
+   if(configbooth == "1")
+   {
+      var tr = document.createElement("tr");
+      var td1 = document.createElement("td");
+      var td2 = document.createElement("td");
+      td1.className = "title_bgcolor";
+      td1.noWrap = true;
+      td1.innerHTML = "<SPAN CLASS='title'>ZOOM TO BOOTH:</SPAN>";
+      tr.appendChild(td1); 
+      tr.noWrap = true;
+      td2.noWrap = true;
+
+      booth += "";
+      buffer = new Array();
+      buffer = booth.split(", ");
+      var bHTML = "";
+
+      for(var i = 0; i < buffer.length; i++)
+      {
+         bHTML += "<A CLASS='ListValue' HREF=\"javascript:ZoomBooth('" + buffer[i] + "');\">" + buffer[i]  + "</A>";
+
+         if(i != (buffer.length - 1))
+            bHTML += ", ";
+      }
+   
+      if(buffer.length > 1)
+         bHTML += ", <A CLASS='ListValue' HREF=\"javascript:ZoomBooth('" + booth + "');\">ALL</A>";
+
+      td2.innerHTML = bHTML;
+
+      tr.appendChild(td2); 					
+      tb.appendChild(tr); 
+   }
+
+
+   if(configproduct == "1" && exhibproduct == "1")
+   {
+      var tr = document.createElement("tr");
+      var td1 = document.createElement("td");
+      var td2 = document.createElement("td");
+      td1.className = "title_bgcolor";
+      td1.noWrap = true;
+      td1.innerHTML = "<SPAN CLASS='title'>URL:</SPAN>";
+      tr.appendChild(td1); 
+
+      if(product != "")
+         td2.innerHTML = "<SPAN CLASS='product'>" + product  + "</SPAN>";
+      else
+         td2.innerHTML = "<SPAN CLASS='text'>None</SPAN>";
+
+      tr.appendChild(td2);					
+      tb.appendChild(tr); 
+   }
+
+   if(configcontact == "1" && exhibcontact == "1")
+   {
+      var tr = document.createElement("tr");
+      var td1 = document.createElement("td");
+      var td2 = document.createElement("td");
+      td1.className = "title_bgcolor";
+      td1.noWrap = true;
+      td1.innerHTML = "<SPAN CLASS='title'>Contact:</SPAN>";
+      tr.appendChild(td1); 
+      tr.noWrap = true;
+      td2.noWrap = true;
+
+      td2.innerHTML = "";
+
+      if(count != "0")
+      {
+         contact = SaveCookie(contact, count);
+         address1 = SaveCookie(address1, count);
+         address2 = SaveCookie(address2, count);
+         city = SaveCookie(city, count);
+         state = SaveCookie(state, count);
+         zip = SaveCookie(zip, count);
+         country = SaveCookie(country, count);
+         phone = SaveCookie(phone, count);
+         fax = SaveCookie(fax, count);
+         email = SaveCookie(email, count);
+      }
+
+	  //if(contact != "") td2.innerHTML += contact;
+      if(address1 != "") td2.innerHTML += address1 + "<BR>";
+      if(address2 != "") td2.innerHTML += address2 + "<BR>";
+      if(city != "") td2.innerHTML += city;
+      if(city != "" && state != "") td2.innerHTML += ", " + state; else if(city == "" && state != "") td.innerHTML += state;
+      if(zip != "") td2.innerHTML += " " + zip + "<BR>";
+      if(country != "") td2.innerHTML += country;
+      //if(phone != "") td2.innerHTML += "<BR>phone: " + phone;
+      //if(fax != "") td2.innerHTML += "<BR>fax: " + fax;
+      //if(email != "" && links == "1") td2.innerHTML += "<BR><A CLASS='Email' HREF='mailto:" + email + "'>" + email + "</A>";
+
+      if(td2.innerHTML == "")
+         td2.innerHTML = "<SPAN CLASS='text'>None</SPAN>";
+      else
+      {
+         buffer = "<SPAN CLASS='contact'>" + td2.innerHTML + "</SPAN>";
+         td2.innerHTML = buffer;
+      }
+
+      tr.appendChild(td2); 					
+      tb.appendChild(tr); 	
+   }
+
+   t.appendChild(tb);  
+   t.className = "list_bgcolor";
+   TheList.appendChild(t); 
+}
+
+  function PP_preloadImages()
+  {
+    if( document.images )
+    {
+      var preLoadArg = PP_preloadImages.arguments;
+
+      var arrayImages = new Array();
+
+      for( var i = 0; i < preLoadArg.length; i++ )
+      {
+        arrayImages[i] = new Image();
+        arrayImages[i].src = preLoadArg[i];
+      }
+    }
+  }
+
+  function locateObject(name, d)
+  {
+    var i,x;
+    if( !d ) d = document;
+  	 x = d[name];
+    for(i=0; !x && d.layers && i< d.layers.length; i++)
+      x=locateObject(name, d.layers[i].document);
+    return x;
+  }
+
+  function ImageSwap( Name, URL)  {
+    var img;
+    img = locateObject(Name);
+    img.src = URL;
+  }
+
+</SCRIPT>
+
+</HEAD>
+
+<body background="tback.JPG" bgcolor="#FFFFFF" onLoad="Init(); PP_preloadImages('../../images/gold02/SideR2C2_Normal.JPG','../../images/gold02/SideR2C2_Down.JPG','../../images/gold02/SideR2C2_Over.JPG','../../images/gold02/SideR4C2_Normal.JPG','../../images/gold02/SideR4C2_Down.JPG','../../images/gold02/SideR4C2_Over.JPG','../../images/gold02/SideR2C4_Normal.JPG','../../images/gold02/SideR2C4_Down.JPG','../../images/gold02/SideR2C4_Over.JPG','../../images/gold02/SideR4C4_Normal.JPG','../../images/gold02/SideR4C4_Down.JPG','../../images/gold02/SideR4C4_Over.JPG','../../images/gold02/SideR2C6_Normal.JPG','../../images/gold02/SideR2C6_Down.JPG','../../images/gold02/SideR2C6_Over.JPG','../../images/gold02/SideR4C6_Normal.JPG','../../images/gold02/SideR4C6_Down.JPG','../../images/gold02/SideR4C6_Over.JPG','../../images/gold02/AddFavR1C1_Normal.JPG','../../images/gold02/AddFavR1C1_Down.JPG','../../images/gold02/AddFavR1C1_Over.JPG')" >
+
+<body bgcolor="#D2EFD1" onLoad="Init();">
+
+<TABLE class="list_bgcolor" style="BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #cccccc 1px solid; BORDER-LEFT: #cccccc 1px solid; BORDER-BOTTOM: #cccccc 1px solid" WIDTH="100%" CELLPADDING="4">
+   <TR>
+      <TD>
+		<TABLE CLASS="tb_bgcolor" style="BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #cccccc 1px solid; BORDER-LEFT: #cccccc 1px solid; BORDER-BOTTOM: #cccccc 1px solid" WIDTH="100%" CELLPADDING="8" CELLSPACING="0">
+		 <tr>
+				<td align=right class=text>
+					View:&nbsp&nbsp;
+					<A class="toolbar" href="exhib.html">All</a> | 
+					<A CLASS="toolbar" HREF="javascript:ListByFavorites();">Favorites</A>									
+				</td>
+			</tr>						
+			
+		   <TR>
+		      <TD class=text><span class="text"><strong>Search exhibitors by:&nbsp;&nbsp;</strong></span>
+		      <br>
+		      <a href="exhib.html" class="toolbar">Name</a> | 
+		      <a href="exhib_booth.html" class="toolbar">Booth Number</a>
+		      
+		      </TD>
+		      
+		      <!--<TD><A CLASS="seltoolbar" HREF="javascript:ListByName();">Exhibitors</A></TD>--><!--<TD><A CLASS="toolbar" HREF="javascript:ListByGroup();">Groups</A></TD>
+		      <TD><A CLASS="toolbar" HREF="javascript:ListByPavilion();">TechZones</A></TD>--><!--<TD><A CLASS="toolbar" HREF="javascript:ListByFavorites();">Favorites</A></TD>-->
+		   </TR>
+		   
+		  <!--
+		   <TR>
+		      <TD><A CLASS="toolbar" HREF="javascript:ListByFavorites();">Favorites</A></TD>
+		      <TD><A CLASS="toolbar" HREF="javascript:PrintList();">Print</A></TD>
+		   </TR>
+		   -->
+		</TABLE>
+
+	<BR>
+
+
+	<TABLE CLASS="list_bgcolor" BORDER="0" CELLPADDING="5" CELLSPACING="0" NOWRAP="true">
+	   <TR NOWRAP="true">
+	      <TD NOWRAP><A class=favzoom href="javaScript:AddToFavorites(custid, 'e', eventname, true);">Add this Exhibitor to Favorites</A></TD>
+	   </TR>
+	</TABLE>
+
+
+	<BR>
+
+	<DIV ID="list"></DIV>
+	<br><br>
+	</TD>
+	</TR>
+<form name="tb"><input type=hidden name="isLocationSearch" value="0"></form>
+</TABLE>
+
+<BR>
+
+<DIV ID="list"></DIV>
+
+</BODY>
+</HTML>
