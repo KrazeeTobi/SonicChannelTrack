@@ -1,1 +1,0 @@
-document.write('<script type="text/javascript" src="http://ad.doubleclick.net/adj/e3expo.'+dart.dartSite+'/'+dart.dartZone+';tile=1;sz=300x250;ord=' + dart.dartTimestamp + '?" type="text/javascript"></script>');

@@ -1,1 +1,0 @@
-jQuery.fn.dropkick=function(){var n=Array.prototype.slice.call(arguments);return jQuery(this).each(function(){n[0]&&typeof n[0]!="object"?typeof n[0]=="string"&&Dropkick.prototype[n[0]].apply(new Dropkick(this),n.slice(1)):new Dropkick(this,n[0]||{})})}
