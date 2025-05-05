@@ -1,0 +1,116 @@
+/*
+
+E3 EXPO | SUB-PAGES | ATTENDEES
+
+*/
+
+/***************************************************
+
+MAIN CONTENT AREA:
+
+***************************************************/
+
+#mainContent h2 {
+  color: #71ADF8; /* BLUE */
+  font-size: larger;
+}
+
+/*
+DISPLAY HOVER STATE
+*/
+
+#mainNav ul#nav li.active a#attendees {
+  background-position: 0 -29px;
+}
+
+#mainNav li.active #attendees-hover {
+  display: block;
+  position: absolute;
+  top: 29px;
+  left: 0;
+  z-index: 1;
+}
+
+#box1
+{
+    border: 2px solid #71ADF8; /*attendee blue */
+    padding-left: 10px;
+}
+
+#box1 ul 
+{
+    margin-left: 0px;
+    list-style-type: none;
+}
+
+#box1 li 
+{
+    background-image: url(../_styles/images/attendee-link-arrow.gif);
+    background-position: 0 10px;
+    background-repeat: no-repeat;
+    padding: 15px;
+}
+    
+
+#box1 a 
+{
+    text-decoration: none;
+    display: block;
+    margin-left: 25px;
+}
+
+#box2
+{
+    border: 2px solid #71ADF8; /*attendee blue */
+    padding-left: 10px;
+}
+
+#box2 ul 
+{
+    margin-left: 0px;
+    list-style-type: none;
+}
+
+#box2 li 
+{
+    background-image: url(../_styles/images/attendee-link-arrow.gif);
+    background-position: 0 2px;
+    background-repeat: no-repeat;
+    padding: 15px;
+}
+    
+
+#box2 a 
+{
+    text-decoration: none;
+    display: block;
+    margin-left: 25px;
+}
+
+#blue-list
+{
+    float: right;
+}
+
+#blue-list ul
+{
+    list-style-type: none;
+    margin-left: 10px;
+    border: 2px solid #71ADF8; /*attendee blue */
+    padding: 7px;
+}
+
+#blue-list ul li a
+{
+    color: #71ADF8; /*attendee blue */
+    text-decoration: none;
+    list-style-type: none;
+    font-weight: bold;
+
+}
+
+#blue-list ul li a:hover
+{
+    
+    list-style-type: none;
+}

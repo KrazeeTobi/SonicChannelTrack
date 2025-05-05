@@ -1,0 +1,283 @@
+/***************************************************
+
+HTML ELEMENTS
+
+***************************************************/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #fff;
+  margin: 0;
+  padding: 0;
+  font: 0.8125em Arial, Helvetica, sans-serif;
+  color: #3E3E3E;
+}
+
+abbr, acronym, dfn {
+  border-bottom: dotted 1px #999;
+  cursor: help;
+}
+
+table {
+  border-collapse: collapse;
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+a img {
+  border: none;
+}
+
+a {
+  outline: none;
+}
+
+strong {
+  font-weight: bold;
+}
+
+em {
+  font-style: italic;
+}
+
+sup {
+  font-size: 70%;
+}
+
+/***************************************************
+
+COMMON CLASSES
+
+***************************************************/
+
+.center {
+  text-align: center;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.hide {
+  display: none;
+}
+
+
+/***************************************************
+
+HEADER
+
+***************************************************/
+#header {
+  margin-top: -17px;
+  -margin-top: 0;
+  background: #000000;
+  height: 260px;
+  background: #000000 url(images/header.jpg) no-repeat;
+  height: 260px;
+  width: 100%
+}
+
+#header h1 {
+  margin: 17px 51px 20px 52px;
+}
+
+#header h1 a {
+  background: url(images/E3-logo.gif) no-repeat;
+  display: block;
+  width: 175px;
+  height: 94px;
+  text-indent: -5000em;
+  text-decoration: none;
+}
+
+#header p{
+  text-indent: -5000em;
+}
+
+/***************************************************
+
+MAIN
+
+***************************************************/
+
+#main {
+  clear: both;
+  width: 900px;
+  padding: 25px;
+  background: #fff;
+  font-size: 110%;
+}
+
+#main a {
+  color: #3E3E3E;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+#main h1{
+  font-size: 130%;
+  color: #D25B43;
+  padding-bottom: 10px;
+}
+
+#main p{
+  padding-bottom: 15px;
+}
+
+#main ul
+{
+	margin-left: 30px
+	}
+
+#main .submit{
+  background: url(images/submit-button1.gif) no-repeat;
+  outline: none;
+  border: none;
+  width: 55px;
+  height: 25px;
+}
+
+#main .submit:hover{
+  background: url(images/submit-button1-over.gif) no-repeat;
+}
+
+span {
+  display: block;
+  width: 150px;
+  font-size: 90%;
+}
+
+#main textarea{
+  width:35em;
+  height: 4em;
+}
+
+.formTextBox{
+  width: 12em;
+  height: 1.5em;
+  margin-bottom: 10px;
+}
+
+#city, #state, #zip{
+  float: left;
+  margin-right: 20px;
+}
+
+#country{
+  clear: left;
+}
+
+#ctl00_cphMain_stateText, #state span{
+  width: 4em;
+}
+
+#ctl00_cphMain_zipText, #zip span{
+  width: 7em;
+}
+
+#goals span, #main-description span{
+  width:35em;
+}
+
+#sales-kit span, #contact span{
+  width:35em;
+  display: inline
+}
+
+.submit{
+  margin-top: 25px;
+}
+
+
+/* pod */
+
+#pod1 {
+  width:575px;
+  background: url(images/pod-bottom-left.gif) bottom left no-repeat;
+  float:left;
+}
+
+#pod2 {
+  width:280px;
+  background: url(images/pod-bottom-left.gif) bottom left no-repeat;
+  margin-left: 600px;
+}
+
+.pod-outer {
+  background: url(images/pod-bottom-right.gif) bottom right no-repeat;
+  padding-bottom: 10px;
+}
+
+.pod-inner {
+  background: url(images/pod-top-left.gif) left top no-repeat;
+}
+
+#pod1 h2, #pod2 h2 {
+  background: url(images/pod-top-right.gif) top right no-repeat;
+  height: 28px;
+}
+
+#pod1 h2{
+  text-indent: 292px;
+  padding-top: 15px;
+  font-size: 140%;
+  color: #D25B43;
+}
+
+#pod1 p, #pod2 p{
+  padding: 0 15px 10px 15px;
+}
+
+#pod1 h1, #pod2 img{
+  margin-top: -10px;
+}
+
+#pod1 img{
+  float: left;
+  margin-right: 15px;
+  margin-top: -20px;
+  background: #fff;
+  padding: 5px;
+  border: 1px solid #D9D9D9;
+}
+
+
+
+/***************************************************
+
+FOOTER
+
+***************************************************/
+
+#footer{
+  color:#999999;
+  margin-top: 15px;
+  clear: both;
+  font-size: 85%;
+}
+
+#footer p{
+  width: 1000px;
+  text-align: center;
+}
+
+#footer a:link, #footer a:visited{
+  font-weight: normal;
+  text-decoration: none;
+  letter-spacing: 1px;
+  padding: 0 4px 0 4px;
+}
+
+#footer a:hover{
+  text-decoration: underline;
+}

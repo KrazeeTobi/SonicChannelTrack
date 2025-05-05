@@ -1,0 +1,216 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+	<title>E3 - Conference Program - List of Speakers</title>    
+	<script language="JavaScript1.2" src="/includes/js/global.js" type="text/javascript"></script>
+	<script language="JavaScript1.2" src="/includes/js/flash.js" type="text/javascript"></script>
+	<link rel="stylesheet" type="text/css" href="/includes/css/styles.css">
+</head>
+
+<body onload="preloadNavImages();" background="/images/background.gif" leftmargin="0" topmargin="0" rightmargin="0" bottommargin="0" marginwidth="0" marginheight="0">
+
+<!------------------ Main Navigation ------------------------------>
+
+<table width="619" border="0" cellspacing="0" cellpadding="0" bgcolor="#0B2ABB">
+	<tr>
+		<td rowspan="4"><a href="/e3expo/"><img src="/images/e3Logo.gif" alt="e3 tenth anniversary" width="161" height="151" border="0"></a></td>
+		<td><script language="JavaScript1.2" src="/includes/js/orangeFlash.js" type="text/javascript"></script></td>
+		<td><a href="http://www.e3insider.com/" target="_blank"><img src="/images/e3insider.gif" alt="e3insider" width="214" height="53" border="0"></a></td>
+	</tr>
+	<tr>
+		<td colspan="2"><script language="JavaScript1.2" src="/includes/js/blueFlashSecondary.js" type="text/javascript"></script></td>	
+	</tr>
+	<tr>
+		<td colspan="2">
+			<table border="0" cellspacing="0" cellpadding="0" bgcolor="#0B2ABB">
+				<tr>	
+					<td><a href="/e3expo/"
+						onmouseover="changeImages('nav_1', '/images/nav/top/expo_on.gif'); return true;"
+						onmouseout="changeImages('nav_1', '/images/nav/top/expo.gif'); return true;">
+						<img src="/images/nav/top/expo.gif" alt="E3 2004" name="nav_1" id="nav_1" width="117" height="29" border="0"></a></td>
+					<td><img src="/images/spacer.gif" width="2" height="1" border="0"></td>
+					<td><a href="/conference_programs/">
+						<img src="/images/nav/top/conference_on.gif" alt="Conference Program" name="nav_2" id="nav_2" width="117" height="29" border="0"></a></td>
+					<td><img src="/images/spacer.gif" width="2" height="1" border="0"></td>
+					<td><a href="/media_center/"
+						onmouseover="changeImages('nav_3', '/images/nav/top/media_on.gif'); return true;"
+						onmouseout="changeImages('nav_3', '/images/nav/top/media.gif'); return true;">
+						<img src="/images/nav/top/media.gif" alt="Media Center" name="nav_3" id="nav_3" width="117" height="29" border="0"></a></td>
+					<td><img src="/images/spacer.gif" width="2" height="1" border="0"></td>
+					<td><a href="/exhibiting_info/"
+						onmouseover="changeImages('nav_4', '/images/nav/top/exhibitor_on.gif'); return true;"
+						onmouseout="changeImages('nav_4', '/images/nav/top/exhibitor.gif'); return true;">
+						<img src="/images/nav/top/exhibitor.gif" alt="Exhibitor Information" name="nav_4" id="nav_4" width="117" height="29" border="0"></a></td>
+					<td><img src="/images/spacer.gif" width="2" height="1" border="0"></td>
+					<td><a href="/vip_retailers/"
+						onmouseover="changeImages('nav_5', '/images/nav/top/vip_on.gif'); return true;"
+						onmouseout="changeImages('nav_5', '/images/nav/top/vip.gif'); return true;">
+						<img src="/images/nav/top/vip.gif" alt="VIP Retailers" name="nav_5" id="nav_5" width="117" height="29" border="0"></a></td>								
+				</tr>
+				<tr>
+					<td colspan="9" bgcolor="#FEBF31"><img src="/images/spacer.gif" width="1" height="4" border="0"></td>
+				</tr>
+			</table></td>
+	</tr>
+	<tr>
+		<td colspan="2" bgcolor="#ffffff"><img src="/images/spacer.gif" width="1" height="3" border="0"></td>
+	</tr>
+</table>
+
+<table border="0" cellspacing="0" cellpadding="0">
+	<tr>
+	
+		<!------------------ Search ------------------------------>
+		<form action="/e3expo/search.asp" method="post"><td><table border="0" cellspacing="0" cellpadding="0" bgcolor="#D4D4D4">
+	<tr>
+		<td colspan="4" bgcolor="#FFFFFF"><img src="/images/search/top.gif" width="150" height="3" border="0"></td>
+		<td rowspan="3" valign="top" bgcolor="#FFFFFF"><img src="/images/search/right.gif" alt="" width="21" height="26" border="0"></td>
+		<td rowspan="3" valign="top" bgcolor="#FFFFFF"><img src="/images/spacer.gif" alt="" width="19" height="1" border="0"></td>
+	</tr>
+	<tr>	
+		<td><img src="/images/spacer.gif" width="22" height="1" border="0"></td>
+		<td valign="top"><input type="text" name="search" value="" size="11" maxlength="40" class="search"></td>
+		<td><img src="/images/spacer.gif" width="4" height="1" border="0"></td>
+		<td valign="top"><input type="image" src="/images/nav/arrows/red.gif" width="18" height="18" border="0" alt="search"></td>
+	</tr>
+	<tr>
+		<td colspan="4"><img src="/images/spacer.gif" width="1" height="3" border="0"></td>
+	</tr>	
+</table>
+
+</td></form>
+		
+		<!------------------ Breadcrumb------------------------------->
+		<td valign="middle">
+			<a href="/conference_programs/" class="breadcrumbPrimary">Conference Program</a>
+			<span class="breadcrumbSecondary"> / List of Speakers</span></td>
+	</tr>
+</table>
+
+<img src="/images/spacer.gif" width="1" height="12" border="0"><br>
+
+<table border="0" cellspacing="0" cellpadding="0">
+	<tr>
+
+		<!------------------------ Side Navigation Include------------------------------->	
+		<td valign="top"><table border="0" cellspacing="0" cellpadding="0">
+	<tr>
+		<td width="18"><img src="/images/spacer.gif" name="sec_1" id="sec_1" width="18" height="1" hspace="2" border="0"></td>
+		<td width="5"><img src="/images/spacer.gif" width="5" height="1" border="0"></td>
+		<td width="164"></td>  
+	</tr>
+	<tr>
+		
+		<td><a href="/conference_programs/list_of_speakers/">
+			<img src="/images/nav/arrows/blue.gif" name="sec_2" id="sec_2" width="18" height="18" hspace="2" border="0"></a></td>
+		<td><img src="/images/spacer.gif" width="5" height="1" border="0"></td>
+		<td><a href="/conference_programs/list_of_speakers/" class="sidenavigationPrimary">List of Speakers</a></td>
+		
+	</tr>
+	<tr>
+		<td colspan="3"><img src="/images/spacer.gif" width="1" height="12" border="0"></td>
+	</tr>  
+	<tr>
+		
+		<td><a href="/conference_programs/conference_at_a_glance/"
+			onmouseover="changeImages('sec_3', '/images/nav/arrows/red.gif'); return true;"
+			onmouseout="changeImages('sec_3', '/images/nav/arrows/yellow.gif'); return true;" class="sidenavigationPrimary">
+			<img src="/images/nav/arrows/yellow.gif" name="sec_3" id="sec_3" width="18" height="18" hspace="2" border="0"></a></td>
+		<td><img src="/images/spacer.gif" width="5" height="1" border="0"></td>
+		<td><a href="/conference_programs/conference_at_a_glance/"
+			onmouseover="changeImages('sec_3', '/images/nav/arrows/red.gif'); return true;"
+			onmouseout="changeImages('sec_3', '/images/nav/arrows/yellow.gif'); return true;" class="sidenavigationPrimary">
+			Conference at a Glance</a></td>
+		
+	</tr>
+	<tr>
+		<td colspan="3"><img src="/images/spacer.gif" width="1" height="12" border="0"></td>
+	</tr>  
+	<tr>
+		
+		<td valign="top"><a href="/conference_programs/mit/"
+			onmouseover="changeImages('sec_4', '/images/nav/arrows/red.gif'); return true;"
+			onmouseout="changeImages('sec_4', '/images/nav/arrows/yellow.gif'); return true;" class="sidenavigationPrimary">
+			<img src="/images/nav/arrows/yellow.gif" name="sec_4" id="sec_4" width="18" height="18" hspace="2" border="0"></a></td>
+		<td><img src="/images/spacer.gif" width="5" height="1" border="0"></td>
+		<td><a href="/conference_programs/mit/"
+			onmouseover="changeImages('sec_4', '/images/nav/arrows/red.gif'); return true;"
+			onmouseout="changeImages('sec_4', '/images/nav/arrows/yellow.gif'); return true;" class="sidenavigationPrimary">
+		 MIT's Education <br>Arcade Conference</a></td>
+         
+	</tr>  	
+	<tr>
+		<td colspan="3"><img src="/images/spacer.gif" width="1" height="12" border="0"></td>
+	</tr>  
+	<tr>
+		
+		<td><a href="/conference_programs/speakers_only/"
+			onmouseover="changeImages('sec_5', '/images/nav/arrows/red.gif'); return true;"
+			onmouseout="changeImages('sec_5', '/images/nav/arrows/yellow.gif'); return true;" class="sidenavigationPrimary">
+			<img src="/images/nav/arrows/yellow.gif" name="sec_5" id="sec_5" width="18" height="18" hspace="2" border="0"></a></td>
+		<td><img src="/images/spacer.gif" width="5" height="1" border="0"></td>
+		<td><a href="/conference_programs/speakers_only/"
+			onmouseover="changeImages('sec_5', '/images/nav/arrows/red.gif'); return true;"
+			onmouseout="changeImages('sec_5', '/images/nav/arrows/yellow.gif'); return true;" class="sidenavigationPrimary">
+		Speakers Only Login</a></td>
+         
+	</tr>    
+</table>  </td>
+		
+		<td valign="top" width="563">
+			<table border="0" cellspacing="0" cellpadding="0" align="right" bgcolor="#ffffff">			
+				<tr>
+					<td><img src="/images/spacer.gif" width="20" height="1" border="0"></td>
+					<td>
+					</td>
+				</tr>								
+			</table>
+		
+		<!------------------------ Title Graphic ---------------------------------------->			
+		<img src="/images/headers/conference_programs/conference_programs_speaker.gif" alt="Conference Program Speaker List" width="329" height="15" border="0"><br>
+		
+		<!------------------------ Main Content Section ---------------------------------->
+			
+			<p class="bodyText">
+				The following industry professionals are already committed to participating in the 2004 program:
+			</p>
+			
+			<p class="bodyText">
+				<table width="100%" border="1" cellspacing="0" cellpadding="0" bgcolor="#DEDEDE">			
+					<tr>
+						<td width="15%" class="tableRow1Cell"><a href="index.asp?OrderBy=speakerFirst&OrderDir=desc"><span class="tableRow1">First</span></a></td>
+						<td width="15%" class="tableRow1Cell"><a href="index.asp?OrderBy=speakerLast&OrderDir=desc"><span class="tableRow1">Last</span></a></td>
+						<td width="30%" class="tableRow1Cell"><a href="index.asp?OrderBy=speakerTitle&OrderDir=desc"><span class="tableRow1">Title</span></a></td>
+						<td width="30%" class="tableRow1Cell"><a href="index.asp?OrderBy=speakerCompany&OrderDir=desc"><span class="tableRow1">Company</span></a></td>
+						<td width="10%" class="tableRow1Cell"><span class="tableRow1">Session/<br>Workshop</span></td>
+					</tr>
+					<tr><td class=tableRowEven>Liz&nbsp;</td><td class=tableRowEven>Allen&nbsp;</td><td class=tableRowEven>Director of Marketing&nbsp;</td><td class=tableRowEven>LucasArts Entertainment&nbsp;</td><td class=tableRowEven align=center><a href=javascript:MM_openBrWindow('/conference_programs/conference_at_a_glance/session_details.asp?sessionID=3','win','width=550,height=300,scrollbars=1');>1.3</a>&nbsp;</td></tr><tr><td class=tableRowOdd>Steve&nbsp;</td><td class=tableRowOdd>Allison&nbsp;</td><td class=tableRowOdd>Chief Marketing Officer&nbsp;</td><td class=tableRowOdd>Midway Games&nbsp;</td><td class=tableRowOdd align=center><a href=javascript:MM_openBrWindow('/conference_programs/conference_at_a_glance/session_details.asp?sessionID=2','win','width=550,height=300,scrollbars=1');>1.2</a>&nbsp;</td></tr><tr><td class=tableRowEven>Jeff&nbsp;</td><td class=tableRowEven>Anderson&nbsp;</td><td class=tableRowEven>President and CEO&nbsp;</td><td class=tableRowEven>Turbine Entertainment&nbsp;</td><td class=tableRowEven align=center>&nbsp;</td></tr><tr><td class=tableRowOdd>Bill&nbsp;</td><td class=tableRowOdd>Anker&nbsp;</td><td class=tableRowOdd>Vice President of Acquisitions&nbsp;</td><td class=tableRowOdd>Activision&nbsp;</td><td class=tableRowOdd align=center><a href=javascript:MM_openBrWindow('/conference_programs/conference_at_a_glance/workshop_details.asp?ID=1','win','width=550,height=300,scrollbars=1');>W1</a>&nbsp;</td></tr><tr><td class=tableRowEven>Tim&nbsp;</td><td class=tableRowEven>Ansell&nbsp;</td><td class=tableRowEven>&nbsp;</td><td class=tableRowEven>The Creative Assembly&nbsp;</td><td class=tableRowEven align=center><a href=javascript:MM_openBrWindow('/conference_programs/conference_at_a_glance/session_details.asp?sessionID=6','win','width=550,height=300,scrollbars=1');>1.6</a>&nbsp;</td></tr><tr><td class=tableRowOdd>Karthik&nbsp;</td><td class=tableRowOdd>Bala&nbsp;</td><td class=tableRowOdd>CEO&nbsp;</td><td class=tableRowOdd>Vicarious Visions, Inc.&nbsp;</td><td class=tableRowOdd align=center><a href=javascript:MM_openBrWindow('/conference_programs/conference_at_a_glance/workshop_details.asp?ID=1','win','width=550,height=300,scrollbars=1');>W1</a>&nbsp;</td></tr><tr><td class=tableRowEven>Matthew&nbsp;</td><td class=tableRowEven>Bellows&nbsp;</td><td class=tableRowEven>President&nbsp;</td><td class=tableRowEven>Wireless Gaming Review (WGR) Media, Inc.&nbsp;</td><td class=tableRowEven align=center>&nbsp;</td></tr><tr><td class=tableRowOdd>Amy&nbsp;</td><td class=tableRowOdd>Bendotti&nbsp;</td><td class=tableRowOdd>Head of Staffing&nbsp;</td><td class=tableRowOdd>Nintendo of America&nbsp;</td><td class=tableRowOdd align=center><a href=javascript:MM_openBrWindow('/conference_programs/conference_at_a_glance/session_details.asp?sessionID=8','win','width=550,height=300,scrollbars=1');>1.8</a>&nbsp;</td></tr><tr><td class=tableRowEven>Seamus&nbsp;</td><td class=tableRowEven>Blackley&nbsp;</td><td class=tableRowEven>&nbsp;</td><td class=tableRowEven>Creative Artists Agency&nbsp;</td><td class=tableRowEven align=center>&nbsp;</td></tr><tr><td class=tableRowOdd>Keith&nbsp;</td><td class=tableRowOdd>Boesky&nbsp;</td><td class=tableRowOdd>Head, Video Games Division&nbsp;</td><td class=tableRowOdd>International Creative Management&nbsp;</td><td class=tableRowOdd align=center><a href=javascript:MM_openBrWindow('/conference_programs/conference_at_a_glance/workshop_details.asp?ID=10','win','width=550,height=300,scrollbars=1');>W10</a>&nbsp;</td></tr><tr><td class=tableRowEven>Jane&nbsp;</td><td class=tableRowEven>Buckingham&nbsp;</td><td class=tableRowEven>President&nbsp;</td><td class=tableRowEven>Youth Intelligence&nbsp;</td><td class=tableRowEven align=center><a href=javascript:MM_openBrWindow('/conference_programs/conference_at_a_glance/session_details.asp?sessionID=3','win','width=550,height=300,scrollbars=1');>1.3</a>&nbsp;</td></tr><tr><td class=tableRowOdd>Dwight&nbsp;</td><td class=tableRowOdd>Cheu&nbsp;</td><td class=tableRowOdd>VP of Business Development&nbsp;</td><td class=tableRowOdd>Vicarious Visions, Inc.&nbsp;</td><td class=tableRowOdd align=center><a href=javascript:MM_openBrWindow('/conference_programs/conference_at_a_glance/workshop_details.asp?ID=3','win','width=550,height=300,scrollbars=1');>W3</a>&nbsp;</td></tr><tr><td class=tableRowEven>Jay&nbsp;</td><td class=tableRowEven>Cohen&nbsp;</td><td class=tableRowEven>Vice President Development, North America&nbsp;</td><td class=tableRowEven>Ubisoft&nbsp;</td><td class=tableRowEven align=center><a href=javascript:MM_openBrWindow('/conference_programs/conference_at_a_glance/session_details.asp?sessionID=7','win','width=550,height=300,scrollbars=1');>1.7</a>&nbsp;</td></tr><tr><td class=tableRowOdd>N'Gai&nbsp;</td><td class=tableRowOdd>Croal&nbsp;</td><td class=tableRowOdd>General Editor&nbsp;</td><td class=tableRowOdd>Newsweek&nbsp;</td><td class=tableRowOdd align=center>&nbsp;</td></tr><tr><td class=tableRowEven>Scott&nbsp;</td><td class=tableRowEven>Cronce&nbsp;</td><td class=tableRowEven>Chief Technology Officer&nbsp;</td><td class=tableRowEven>Electronic Arts&nbsp;</td><td class=tableRowEven align=center><a href=javascript:MM_openBrWindow('/conference_programs/conference_at_a_glance/session_details.asp?sessionID=10','win','width=550,height=300,scrollbars=1');>2.2</a>&nbsp;</td></tr><tr><td class=tableRowOdd>Don&nbsp;</td><td class=tableRowOdd>Daglow&nbsp;</td><td class=tableRowOdd>President and CEO&nbsp;</td><td class=tableRowOdd>Stormfront Studios&nbsp;</td><td class=tableRowOdd align=center><a href=javascript:MM_openBrWindow('/conference_programs/conference_at_a_glance/session_details.asp?sessionID=2','win','width=550,height=300,scrollbars=1');>1.2</a>&nbsp;</td></tr><tr><td class=tableRowEven>Jason&nbsp;</td><td class=tableRowEven>Della Rocca&nbsp;</td><td class=tableRowEven>Program Director&nbsp;</td><td class=tableRowEven>International Game Developers Association&nbsp;</td><td class=tableRowEven align=center>&nbsp;</td></tr><tr><td class=tableRowOdd>Mark&nbsp;</td><td class=tableRowOdd>DeLoura&nbsp;</td><td class=tableRowOdd>Manager of Developer Relations&nbsp;</td><td class=tableRowOdd>Sony Computer Entertainment America&nbsp;</td><td class=tableRowOdd align=center>&nbsp;</td></tr><tr><td class=tableRowEven>Gerhard&nbsp;</td><td class=tableRowEven>Floren&nbsp;</td><td class=tableRowEven>Senior Vice President and Managing Director, European Publishing&nbsp;</td><td class=tableRowEven>Electronic Arts&nbsp;</td><td class=tableRowEven align=center><a href=javascript:MM_openBrWindow('/conference_programs/conference_at_a_glance/session_details.asp?sessionID=7','win','width=550,height=300,scrollbars=1');>1.7</a>&nbsp;</td></tr><tr><td class=tableRowOdd>Jason&nbsp;</td><td class=tableRowOdd>Ford&nbsp;</td><td class=tableRowOdd>General Manager of Games and Entertainment&nbsp;</td><td class=tableRowOdd>Sprint Consumer Solutions&nbsp;</td><td class=tableRowOdd align=center><a href=javascript:MM_openBrWindow('/conference_programs/conference_at_a_glance/workshop_details.asp?ID=3','win','width=550,height=300,scrollbars=1');>W3</a>&nbsp;</td></tr><tr><td class=tableRowEven>Bill&nbsp;</td><td class=tableRowEven>Fulton&nbsp;</td><td class=tableRowEven>User Testing Manager&nbsp;</td><td class=tableRowEven>Microsoft&nbsp;</td><td class=tableRowEven align=center><a href=javascript:MM_openBrWindow('/conference_programs/conference_at_a_glance/workshop_details.asp?ID=8','win','width=550,height=300,scrollbars=1');>W8</a>&nbsp;</td></tr><tr><td class=tableRowOdd>Richard&nbsp;</td><td class=tableRowOdd>Garriott&nbsp;</td><td class=tableRowOdd>Executive Producer&nbsp;</td><td class=tableRowOdd>NCsoft&nbsp;</td><td class=tableRowOdd align=center>&nbsp;</td></tr><tr><td class=tableRowEven>Eric&nbsp;</td><td class=tableRowEven>Goldberg&nbsp;</td><td class=tableRowEven>Managing Director&nbsp;</td><td class=tableRowEven>Crossover Technologies&nbsp;</td><td class=tableRowEven align=center>&nbsp;</td></tr><tr><td class=tableRowOdd>Bing&nbsp;</td><td class=tableRowOdd>Gordon&nbsp;</td><td class=tableRowOdd>EVP and Chief Creative Officer&nbsp;</td><td class=tableRowOdd>Electronic Arts&nbsp;</td><td class=tableRowOdd align=center><a href=javascript:MM_openBrWindow('/conference_programs/conference_at_a_glance/session_details.asp?sessionID=9','win','width=550,height=300,scrollbars=1');>2.1</a>&nbsp;</td></tr><tr><td class=tableRowEven>Joshua&nbsp;</td><td class=tableRowEven>Grode&nbsp;</td><td class=tableRowEven>Partner&nbsp;</td><td class=tableRowEven>Liner Yankelevitz Sunshine & Regenstreif LLP&nbsp;</td><td class=tableRowEven align=center>&nbsp;</td></tr><tr><td class=tableRowOdd>Jason&nbsp;</td><td class=tableRowOdd>Hall&nbsp;</td><td class=tableRowOdd>Senior Vice President&nbsp;</td><td class=tableRowOdd>Warner Bros. Interactive Entertainment&nbsp;</td><td class=tableRowOdd align=center><a href=javascript:MM_openBrWindow('/conference_programs/conference_at_a_glance/session_details.asp?sessionID=2','win','width=550,height=300,scrollbars=1');>1.2</a>&nbsp;</td></tr><tr><td class=tableRowEven>Todd&nbsp;</td><td class=tableRowEven>Hollenshead&nbsp;</td><td class=tableRowEven>CEO, Co-Owner&nbsp;</td><td class=tableRowEven>id Software&nbsp;</td><td class=tableRowEven align=center><a href=javascript:MM_openBrWindow('/conference_programs/conference_at_a_glance/session_details.asp?sessionID=6','win','width=550,height=300,scrollbars=1');>1.6</a>&nbsp;</td></tr><tr><td class=tableRowOdd>Mark&nbsp;</td><td class=tableRowOdd>Jacobs&nbsp;</td><td class=tableRowOdd>President and CEO&nbsp;</td><td class=tableRowOdd>Mythic Entertainment&nbsp;</td><td class=tableRowOdd align=center><a href=javascript:MM_openBrWindow('/conference_programs/conference_at_a_glance/session_details.asp?sessionID=22','win','width=550,height=300,scrollbars=1');>3.6</a>&nbsp;</td></tr><tr><td class=tableRowEven>Eric&nbsp;</td><td class=tableRowEven>Johnson&nbsp;</td><td class=tableRowEven>CEO&nbsp;</td><td class=tableRowEven>Ignited Minds&nbsp;</td><td class=tableRowEven align=center><a href=javascript:MM_openBrWindow('/conference_programs/conference_at_a_glance/session_details.asp?sessionID=3','win','width=550,height=300,scrollbars=1');>1.3</a>&nbsp;</td></tr><tr><td class=tableRowOdd>Jeff&nbsp;</td><td class=tableRowOdd>Karp&nbsp;</td><td class=tableRowOdd>Vice President of Marketing&nbsp;</td><td class=tableRowOdd>Electronic Arts&nbsp;</td><td class=tableRowOdd align=center><a href=javascript:MM_openBrWindow('/conference_programs/conference_at_a_glance/session_details.asp?sessionID=4','win','width=550,height=300,scrollbars=1');>1.4</a>&nbsp;</td></tr><tr><td class=tableRowEven>Tony&nbsp;</td><td class=tableRowEven>Kee&nbsp;</td><td class=tableRowEven>Vice President of Acquisitions&nbsp;</td><td class=tableRowEven>Ubisoft&nbsp;</td><td class=tableRowEven align=center><a href=javascript:MM_openBrWindow('/conference_programs/conference_at_a_glance/session_details.asp?sessionID=4','win','width=550,height=300,scrollbars=1');>1.4</a>&nbsp;</td></tr><tr><td class=tableRowOdd>Geoff&nbsp;</td><td class=tableRowOdd>Keighley&nbsp;</td><td class=tableRowOdd>Editor in Chief&nbsp;</td><td class=tableRowOdd>GameSlice&nbsp;</td><td class=tableRowOdd align=center>&nbsp;</td></tr><tr><td class=tableRowEven>Brad&nbsp;</td><td class=tableRowEven>King&nbsp;</td><td class=tableRowEven>co-author of Dungeons and Dreamers: The Rise of Computer Game Culture from Geek to Chic&nbsp;</td><td class=tableRowEven>&nbsp;</td><td class=tableRowEven align=center>&nbsp;</td></tr><tr><td class=tableRowOdd>Lorne&nbsp;</td><td class=tableRowOdd>Lanning&nbsp;</td><td class=tableRowOdd>President and Creative Director&nbsp;</td><td class=tableRowOdd>Oddworld Inhabitants&nbsp;</td><td class=tableRowOdd align=center><a href=javascript:MM_openBrWindow('/conference_programs/conference_at_a_glance/session_details.asp?sessionID=5','win','width=550,height=300,scrollbars=1');>1.5</a>&nbsp;</td></tr><tr><td class=tableRowEven>Mitch&nbsp;</td><td class=tableRowEven>Lasky&nbsp;</td><td class=tableRowEven>CEO&nbsp;</td><td class=tableRowEven>JAMDAT&nbsp;</td><td class=tableRowEven align=center>&nbsp;</td></tr><tr><td class=tableRowOdd>Mark&nbsp;</td><td class=tableRowOdd>Lasoff&nbsp;</td><td class=tableRowOdd>&nbsp;</td><td class=tableRowOdd>Electronic Arts&nbsp;</td><td class=tableRowOdd align=center><a href=javascript:MM_openBrWindow('/conference_programs/conference_at_a_glance/session_details.asp?sessionID=15','win','width=550,height=300,scrollbars=1');>2.7</a>&nbsp;</td></tr><tr><td class=tableRowEven>David&nbsp;</td><td class=tableRowEven>Lawee&nbsp;</td><td class=tableRowEven>COO/CFO&nbsp;</td><td class=tableRowEven>Ultimate Arena&nbsp;</td><td class=tableRowEven align=center><a href=javascript:MM_openBrWindow('/conference_programs/conference_at_a_glance/session_details.asp?sessionID=6','win','width=550,height=300,scrollbars=1');>1.6</a>&nbsp;</td></tr><tr><td class=tableRowOdd>Rob&nbsp;</td><td class=tableRowOdd>Levine&nbsp;</td><td class=tableRowOdd>&nbsp;</td><td class=tableRowOdd>Wired Magazine&nbsp;</td><td class=tableRowOdd align=center>&nbsp;</td></tr><tr><td class=tableRowEven>Aaron&nbsp;</td><td class=tableRowEven>Loeb&nbsp;</td><td class=tableRowEven>Producer&nbsp;</td><td class=tableRowEven>Planet Moon Studios&nbsp;</td><td class=tableRowEven align=center>&nbsp;</td></tr><tr><td class=tableRowOdd>Starr&nbsp;</td><td class=tableRowOdd>Long&nbsp;</td><td class=tableRowOdd>Producer&nbsp;</td><td class=tableRowOdd>NCsoft&nbsp;</td><td class=tableRowOdd align=center>&nbsp;</td></tr><tr><td class=tableRowEven>Richard&nbsp;</td><td class=tableRowEven>Marks&nbsp;</td><td class=tableRowEven>Manager, Special Projects, Research & Development&nbsp;</td><td class=tableRowEven>Sony Computer Entertainment America&nbsp;</td><td class=tableRowEven align=center><a href=javascript:MM_openBrWindow('/conference_programs/conference_at_a_glance/session_details.asp?sessionID=12','win','width=550,height=300,scrollbars=1');>2.4</a>&nbsp;</td></tr><tr><td class=tableRowOdd>Jordan&nbsp;</td><td class=tableRowOdd>Mechner &nbsp;</td><td class=tableRowOdd>&nbsp;</td><td class=tableRowOdd>Independent Game Designer&nbsp;</td><td class=tableRowOdd align=center><a href=javascript:MM_openBrWindow('/conference_programs/conference_at_a_glance/session_details.asp?sessionID=14','win','width=550,height=300,scrollbars=1');>2.6</a>&nbsp;</td></tr><tr><td class=tableRowEven>Marc&nbsp;</td><td class=tableRowEven>Mencher&nbsp;</td><td class=tableRowEven>President&nbsp;</td><td class=tableRowEven>GameRecruiter.com&nbsp;</td><td class=tableRowEven align=center>&nbsp;</td></tr><tr><td class=tableRowOdd>Peter&nbsp;</td><td class=tableRowOdd>Molyneux&nbsp;</td><td class=tableRowOdd>Managing Director&nbsp;</td><td class=tableRowOdd>Lionhead Studios&nbsp;</td><td class=tableRowOdd align=center><a href=javascript:MM_openBrWindow('/conference_programs/conference_at_a_glance/workshop_details.asp?ID=12','win','width=550,height=300,scrollbars=1');>W12</a>&nbsp;</td></tr><tr><td class=tableRowEven>Tim&nbsp;</td><td class=tableRowEven>Morten&nbsp;</td><td class=tableRowEven>CEO&nbsp;</td><td class=tableRowEven>Savage Entertainment&nbsp;</td><td class=tableRowEven align=center><a href=javascript:MM_openBrWindow('/conference_programs/conference_at_a_glance/session_details.asp?sessionID=16','win','width=550,height=300,scrollbars=1');>2.8</a>&nbsp;</td></tr><tr><td class=tableRowOdd>Jessica&nbsp;</td><td class=tableRowOdd>Mulligan&nbsp;</td><td class=tableRowOdd>Executive Producer&nbsp;</td><td class=tableRowOdd>Turbine Entertainment&nbsp;</td><td class=tableRowOdd align=center>&nbsp;</td></tr><tr><td class=tableRowEven>Ray&nbsp;</td><td class=tableRowEven>Muzyka&nbsp;</td><td class=tableRowEven>Joint CEO&nbsp;</td><td class=tableRowEven>BioWare&nbsp;</td><td class=tableRowEven align=center>&nbsp;</td></tr><tr><td class=tableRowOdd>Ichiro&nbsp;</td><td class=tableRowOdd>Otobe&nbsp;</td><td class=tableRowOdd>General Manager, Global Business&nbsp;</td><td class=tableRowOdd>Square-Enix&nbsp;</td><td class=tableRowOdd align=center><a href=javascript:MM_openBrWindow('/conference_programs/conference_at_a_glance/workshop_details.asp?ID=11','win','width=550,height=300,scrollbars=1');>W11</a>&nbsp;</td></tr><tr><td class=tableRowEven>Richard&nbsp;</td><td class=tableRowEven>Ow&nbsp;</td><td class=tableRowEven>Senior Manager&nbsp;</td><td class=tableRowEven>NPD Funworld Video Games&nbsp;</td><td class=tableRowEven align=center><a href=javascript:MM_openBrWindow('/conference_programs/conference_at_a_glance/session_details.asp?sessionID=3','win','width=550,height=300,scrollbars=1');>1.3</a>&nbsp;</td></tr><tr><td class=tableRowOdd>Michael&nbsp;</td><td class=tableRowOdd>Pachter&nbsp;</td><td class=tableRowOdd>Vice President, Research Entert. Software Publishing/Retail&nbsp;</td><td class=tableRowOdd>Wedbush Morgan Securities&nbsp;</td><td class=tableRowOdd align=center>&nbsp;</td></tr><tr><td class=tableRowEven>David&nbsp;</td><td class=tableRowEven>Perry&nbsp;</td><td class=tableRowEven>President&nbsp;</td><td class=tableRowEven>Shiny Entertainment&nbsp;</td><td class=tableRowEven align=center><a href=javascript:MM_openBrWindow('/conference_programs/conference_at_a_glance/session_details.asp?sessionID=15','win','width=550,height=300,scrollbars=1');>2.7</a>&nbsp;</td></tr><tr><td class=tableRowOdd>Billy&nbsp;</td><td class=tableRowOdd>Pidgeon&nbsp;</td><td class=tableRowOdd>Senior Analyst&nbsp;</td><td class=tableRowOdd>Zelos Group&nbsp;</td><td class=tableRowOdd align=center><a href=javascript:MM_openBrWindow('/conference_programs/conference_at_a_glance/session_details.asp?sessionID=20','win','width=550,height=300,scrollbars=1');>3.4</a>&nbsp;</td></tr><tr><td class=tableRowEven>Lori&nbsp;</td><td class=tableRowEven>Plager&nbsp;</td><td class=tableRowEven>Senior Director of Licensing&nbsp;</td><td class=tableRowEven>Activision&nbsp;</td><td class=tableRowEven align=center><a href=javascript:MM_openBrWindow('/conference_programs/conference_at_a_glance/workshop_details.asp?ID=10','win','width=550,height=300,scrollbars=1');>W10</a>&nbsp;</td></tr><tr><td class=tableRowOdd>Michael&nbsp;</td><td class=tableRowOdd>Pole&nbsp;</td><td class=tableRowOdd>Senior Vice President, Worldwide Development&nbsp;</td><td class=tableRowOdd>Vivendi Universal Games&nbsp;</td><td class=tableRowOdd align=center><a href=javascript:MM_openBrWindow('/conference_programs/conference_at_a_glance/workshop_details.asp?ID=7','win','width=550,height=300,scrollbars=1');>W7</a>&nbsp;</td></tr><tr><td class=tableRowEven>Ted&nbsp;</td><td class=tableRowEven>Price&nbsp;</td><td class=tableRowEven>President and CEO&nbsp;</td><td class=tableRowEven>Insomniac Games&nbsp;</td><td class=tableRowEven align=center><a href=javascript:MM_openBrWindow('/conference_programs/conference_at_a_glance/session_details.asp?sessionID=9','win','width=550,height=300,scrollbars=1');>2.1</a>&nbsp;</td></tr><tr><td class=tableRowOdd>Josh&nbsp;</td><td class=tableRowOdd>Resnick&nbsp;</td><td class=tableRowOdd>President&nbsp;</td><td class=tableRowOdd>Pandemic Studios&nbsp;</td><td class=tableRowOdd align=center><a href=javascript:MM_openBrWindow('/conference_programs/conference_at_a_glance/session_details.asp?sessionID=6','win','width=550,height=300,scrollbars=1');>1.6</a>&nbsp;</td></tr><tr><td class=tableRowEven>Greg&nbsp;</td><td class=tableRowEven>Richardson&nbsp;</td><td class=tableRowEven>&nbsp;</td><td class=tableRowEven>Electronic Arts&nbsp;</td><td class=tableRowEven align=center><a href=javascript:MM_openBrWindow('/conference_programs/conference_at_a_glance/workshop_details.asp?ID=1','win','width=550,height=300,scrollbars=1');>W1</a>&nbsp;</td></tr><tr><td class=tableRowOdd>Bill&nbsp;</td><td class=tableRowOdd>Roper&nbsp;</td><td class=tableRowOdd>&nbsp;</td><td class=tableRowOdd>Flagship Studios&nbsp;</td><td class=tableRowOdd align=center><a href=javascript:MM_openBrWindow('/conference_programs/conference_at_a_glance/workshop_details.asp?ID=1','win','width=550,height=300,scrollbars=1');>W1</a>&nbsp;</td></tr><tr><td class=tableRowEven>Philip&nbsp;</td><td class=tableRowEven>Rosedale&nbsp;</td><td class=tableRowEven>President and CEO&nbsp;</td><td class=tableRowEven>Linden Lab&nbsp;</td><td class=tableRowEven align=center><a href=javascript:MM_openBrWindow('/conference_programs/conference_at_a_glance/session_details.asp?sessionID=19','win','width=550,height=300,scrollbars=1');>3.3</a>&nbsp;</td></tr><tr><td class=tableRowOdd>Adrian&nbsp;</td><td class=tableRowOdd>Sack&nbsp;</td><td class=tableRowOdd>CEO&nbsp;</td><td class=tableRowOdd>ideaworks 3D&nbsp;</td><td class=tableRowOdd align=center><a href=javascript:MM_openBrWindow('/conference_programs/conference_at_a_glance/workshop_details.asp?ID=3','win','width=550,height=300,scrollbars=1');>W3</a>&nbsp;</td></tr><tr><td class=tableRowEven>John&nbsp;</td><td class=tableRowEven>Schappert&nbsp;</td><td class=tableRowEven>Sr. VP & General Manager&nbsp;</td><td class=tableRowEven>Electronic Arts&nbsp;</td><td class=tableRowEven align=center><a href=javascript:MM_openBrWindow('/conference_programs/conference_at_a_glance/session_details.asp?sessionID=14','win','width=550,height=300,scrollbars=1');>2.6</a>&nbsp;</td></tr><tr><td class=tableRowOdd>Dan&nbsp;</td><td class=tableRowOdd>Scherlis&nbsp;</td><td class=tableRowOdd>&nbsp;</td><td class=tableRowOdd>&nbsp;</td><td class=tableRowOdd align=center>&nbsp;</td></tr><tr><td class=tableRowEven>Larry&nbsp;</td><td class=tableRowEven>Shapiro&nbsp;</td><td class=tableRowEven>&nbsp;</td><td class=tableRowEven>Creative Artists Agency&nbsp;</td><td class=tableRowEven align=center><a href=javascript:MM_openBrWindow('/conference_programs/conference_at_a_glance/session_details.asp?sessionID=2','win','width=550,height=300,scrollbars=1');>1.2</a>&nbsp;</td></tr><tr><td class=tableRowOdd>Patrick&nbsp;</td><td class=tableRowOdd>Soderlund&nbsp;</td><td class=tableRowOdd>CEO&nbsp;</td><td class=tableRowOdd>Digital Illusions&nbsp;</td><td class=tableRowOdd align=center><a href=javascript:MM_openBrWindow('/conference_programs/conference_at_a_glance/session_details.asp?sessionID=16','win','width=550,height=300,scrollbars=1');>2.8</a>&nbsp;</td></tr><tr><td class=tableRowEven>Carly&nbsp;</td><td class=tableRowEven>Staehlin&nbsp;</td><td class=tableRowEven>Design Manager&nbsp;</td><td class=tableRowEven>NCsoft&nbsp;</td><td class=tableRowEven align=center>&nbsp;</td></tr><tr><td class=tableRowOdd>Bob&nbsp;</td><td class=tableRowOdd>Stevenson&nbsp;</td><td class=tableRowOdd>Co-owner/CEO&nbsp;</td><td class=tableRowOdd>Planet Moon Studios&nbsp;</td><td class=tableRowOdd align=center><a href=javascript:MM_openBrWindow('/conference_programs/conference_at_a_glance/workshop_details.asp?ID=12','win','width=550,height=300,scrollbars=1');>W12</a>&nbsp;</td></tr><tr><td class=tableRowEven>Chris&nbsp;</td><td class=tableRowEven>Taylor&nbsp;</td><td class=tableRowEven>President and Designer&nbsp;</td><td class=tableRowEven>Gas Powered Games&nbsp;</td><td class=tableRowEven align=center><a href=javascript:MM_openBrWindow('/conference_programs/conference_at_a_glance/session_details.asp?sessionID=5','win','width=550,height=300,scrollbars=1');>1.5</a>&nbsp;</td></tr><tr><td class=tableRowOdd>Greg&nbsp;</td><td class=tableRowOdd>Thomas&nbsp;</td><td class=tableRowOdd>President&nbsp;</td><td class=tableRowOdd>Visual Concepts&nbsp;</td><td class=tableRowOdd align=center><a href=javascript:MM_openBrWindow('/conference_programs/conference_at_a_glance/session_details.asp?sessionID=21','win','width=550,height=300,scrollbars=1');>3.5</a>&nbsp;</td></tr><tr><td class=tableRowEven>Jeffrey&nbsp;</td><td class=tableRowEven>Tseng&nbsp;</td><td class=tableRowEven>Creative Director&nbsp;</td><td class=tableRowEven>Secret Level&nbsp;</td><td class=tableRowEven align=center><a href=javascript:MM_openBrWindow('/conference_programs/conference_at_a_glance/session_details.asp?sessionID=16','win','width=550,height=300,scrollbars=1');>2.8</a>&nbsp;</td></tr><tr><td class=tableRowOdd>Tim&nbsp;</td><td class=tableRowOdd>Twerdahl&nbsp;</td><td class=tableRowOdd>&nbsp;</td><td class=tableRowOdd>Tapwave&nbsp;</td><td class=tableRowOdd align=center><a href=javascript:MM_openBrWindow('/conference_programs/conference_at_a_glance/session_details.asp?sessionID=20','win','width=550,height=300,scrollbars=1');>3.4</a>&nbsp;</td></tr><tr><td class=tableRowEven>Feargus&nbsp;</td><td class=tableRowEven>Urquhart&nbsp;</td><td class=tableRowEven>CEO&nbsp;</td><td class=tableRowEven>Obsidian Entertainment&nbsp;</td><td class=tableRowEven align=center><a href=javascript:MM_openBrWindow('/conference_programs/conference_at_a_glance/session_details.asp?sessionID=5','win','width=550,height=300,scrollbars=1');>1.5</a>&nbsp;</td></tr><tr><td class=tableRowOdd>Trent&nbsp;</td><td class=tableRowOdd>Ward&nbsp;</td><td class=tableRowOdd>Creative Director (Canada)&nbsp;</td><td class=tableRowOdd>Digital Eclipse&nbsp;</td><td class=tableRowOdd align=center>&nbsp;</td></tr><tr><td class=tableRowEven>Tim&nbsp;</td><td class=tableRowEven>Willits&nbsp;</td><td class=tableRowEven>Co-Owner, Lead Designer&nbsp;</td><td class=tableRowEven>id Software&nbsp;</td><td class=tableRowEven align=center><a href=javascript:MM_openBrWindow('/conference_programs/conference_at_a_glance/session_details.asp?sessionID=14','win','width=550,height=300,scrollbars=1');>2.6</a>&nbsp;</td></tr><tr><td class=tableRowOdd>Will&nbsp;</td><td class=tableRowOdd>Wright&nbsp;</td><td class=tableRowOdd>VP, Chief Designer&nbsp;</td><td class=tableRowOdd>Maxis&nbsp;</td><td class=tableRowOdd align=center>&nbsp;</td></tr><tr><td class=tableRowEven>Neil&nbsp;</td><td class=tableRowEven>Young&nbsp;</td><td class=tableRowEven>Vice President/Executive in Charge of Production&nbsp;</td><td class=tableRowEven>Electronic Arts&nbsp;</td><td class=tableRowEven align=center><a href=javascript:MM_openBrWindow('/conference_programs/conference_at_a_glance/workshop_details.asp?ID=12','win','width=550,height=300,scrollbars=1');>W12</a>&nbsp;</td></tr><tr><td class=tableRowOdd>Greg&nbsp;</td><td class=tableRowOdd>Zeschuk&nbsp;</td><td class=tableRowOdd>Joint CEO&nbsp;</td><td class=tableRowOdd>BioWare&nbsp;</td><td class=tableRowOdd align=center><a href=javascript:MM_openBrWindow('/conference_programs/conference_at_a_glance/workshop_details.asp?ID=8','win','width=550,height=300,scrollbars=1');>W8</a>&nbsp;</td></tr>	
+				</table>
+							
+			</p>
+		</td>
+	</tr>
+</table>
+
+<!------------------------ Footer ---------------------------------->	
+<img src="/images/spacer.gif" width="1" height="63" border="0"><br>
+<table width="760" border="0" cellspacing="0" cellpadding="0" bgcolor="#D4D4D4">
+	<tr>	
+		<td align="center">
+			<span class="footer">
+			<br>
+				E<sup>3</sup> is a trade event and is not open to the general public. No one 
+				under the age of 18 will be admitted, including infants. 
+				<br>&copy; 2004 Electronic Entertainment Expo 
+				<a href="/e3expo/privacy_policy.asp" class="footerLink">Privacy Policy</a>
+			<br><br>
+			</span>
+		</td>								
+	</tr>
+</table>
+
+</body>
+</html>
+

@@ -1,0 +1,83 @@
+/* Front door CSS for e3 expo */
+
+
+div#updates {
+position: relative;
+}
+
+div#updates span.awning {
+background: url(/lib/img/awning.png) no-repeat;
+height: 98px;
+width: 660px;
+display: block;
+position: absolute;
+top: 0;
+left: 0;
+}
+
+div#updates span.overlay {
+background: url(/lib/img/updates_bg.png) repeat-x;
+height: 112px;
+width: 660px;
+position: absolute;
+top: 150px;
+left: 0;
+}
+
+div#updates div.content {
+position: relative;
+background: #323A40;
+padding: 05px 20px 0;
+border-width: 0 1px;
+}
+
+div#updates div.content h2.title {
+color: #18a0c8;
+font-size: 1.9em;
+}
+
+div#updates div.content a {
+color: #18a0c8;
+}
+
+div#updates div.content p {
+padding: 0 0 10px 0;
+}
+
+div#updates div.content a:hover {
+text-decoration: underline;
+}
+
+h3.headline.updates {
+background: url(/lib/img/h3_updates.png) no-repeat;
+position: absolute;
+top: 210px;
+width: 121px;
+height: 22px;
+left: 20px;	
+}
+
+div#press_releases ul {
+margin: 0 0 10px;	
+}
+
+div#press_releases li {
+list-style-image: url(/lib/img/bullet.jpg);
+margin: 0 0 0 10px;	
+}
+
+div#press_releases a:hover {
+text-decoration: underline;
+}
+
+div#press_releases p.more {
+text-align: left;
+background: url(/lib/img/more.jpg) no-repeat right center;
+width: 205px;	
+}
+
+div#press_releases p.more a {
+color: #18a0c8;
+padding: 0 30px 0 0;
+}
+

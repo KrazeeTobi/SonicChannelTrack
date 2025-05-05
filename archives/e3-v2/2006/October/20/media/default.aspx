@@ -1,0 +1,422 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" >
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="robots" content="all" />
+  <title>E&sup3; 2006</title>
+  <style type="text/css" media="screen">
+    @import "/_styles/global.css";
+    @import "/_styles/sub.css";
+    @import "/_styles/media.css";
+  </style>
+  <link rel="stylesheet" type="text/css" media="print" href="/_styles/print.css" />
+  <script src="/_js/global.js" type="text/javascript"></script>
+  <script src="/_js/__utm.js" type="text/javascript"></script>
+  
+  <!-- compliance patch for microsoft browsers -->
+  <!--[if lt IE 7]>
+    <script src="/_js/ie7/ie7-standard-p.js" type="text/javascript">
+    </script>
+  <![endif]-->
+</head>
+<body>
+<form name="aspnetForm" method="post" action="/media/default.aspx" id="aspnetForm">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTEwMDUyNjYzMjgPZBYCZg9kFgJmD2QWAgICD2QWBgIBDw9kFgIeCW9ua2V5ZG93bgW3AWlmKGV2ZW50LndoaWNoIHx8IGV2ZW50LmtleUNvZGUpe2lmICgoZXZlbnQud2hpY2ggPT0gMTMpIHx8IChldmVudC5rZXlDb2RlID09IDEzKSkge2RvY3VtZW50LmdldEVsZW1lbnRCeUlkKCdjdGwwMF9Mb2dpbkFwcGxldDFfYnRuTG9naW4nKS5jbGljaygpO3JldHVybiBmYWxzZTt9fSBlbHNlIHtyZXR1cm4gdHJ1ZX07IGQCAg8PZBYCHwAFtwFpZihldmVudC53aGljaCB8fCBldmVudC5rZXlDb2RlKXtpZiAoKGV2ZW50LndoaWNoID09IDEzKSB8fCAoZXZlbnQua2V5Q29kZSA9PSAxMykpIHtkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgnY3RsMDBfTG9naW5BcHBsZXQxX2J0bkxvZ2luJykuY2xpY2soKTtyZXR1cm4gZmFsc2U7fX0gZWxzZSB7cmV0dXJuIHRydWV9OyBkAgQPDxYEHghDc3NDbGFzcwUMc3VibWl0QnV0dG9uHgRfIVNCAgJkZGQXfBCiMD8tb/HZc65c/aa+fvFCDg==" />
+
+
+  <div id="container">
+    <div id="header">
+      <h1><b>E<sup>3</sup> 2006 | Where business gets fun</b></h1>
+
+      
+
+      <div id="mainNav">
+        <ul id="nav">
+
+        <!--
+         Place class="active" on <li> to activate nav on sub-pages
+        -->
+          <li class=""><a id="conference" href="/conference-program/default.aspx" title="Conference Program"><b>Conference Program</b></a>
+            <div id="conferenceProgram-hover">
+              <div class="home-link"><h2><a href="/default.aspx" title="E&sup3; Home"><b>E<sup>3</sup> Home</b></a></h2></div>
+              <ul class="left">
+                <li><a id="ctl00_MainNav1_HyperLink15" href="../conference-program/default.aspx">Conference Program Overview</a></li> 
+            
+                <li><a href="../conference-program/workshop-description-overview.aspx">Workshop Descriptions</a></li>              
+                <li><a id="ctl00_MainNav1_HyperLink2" href="../conference-program/session-description-overview.aspx">Track &amp; Session Descriptions</a></li>             
+                <li><a id="ctl00_MainNav1_HyperLink3" href="../conference-program/at-a-glance.aspx">Conference at a Glance</a></li>              
+                <li><a id="ctl00_MainNav1_HyperLink4" href="../conference-program/view-by-day.aspx">View by Day</a></li>              
+              </ul>
+              <ul class="right"> 
+              <!--Speaker List link removed until Speakers are determined  -->          
+                <li><a href="../conference-program/speaker-list.aspx">Speaker List</a></li>
+               
+                <li><a href="../conference-program/floorplan.aspx">Floor Plans</a></li>
+                <li><a href="../conference-program/exhibitor-list.aspx">Exhibitor List</a></li>
+                <li><a class="member" href="../conference-program/speakers-only.aspx">Speakers Only</a></li>
+              </ul>
+              <div class="feature-container">
+                <div class="feature-top"></div>
+                <div class="feature">
+                  <ul class="featureNav">
+                    <li><a href="/conference-program/session-description-overview.aspx">TRACK AND SESSION DESCRIPTIONS
+                    <br />Learn more about this year’s conference sessions and workshops.</a>
+                    </li>
+                    <li class="spacer"></li>
+                    <li><a href="/conference-program/workshop-description-overview.aspx">WORKSHOP OVERVIEW
+                    <br />Learn more about the workshops at this year's show.</a>
+                    </li>
+                    <li class="spacer"></li>
+                    <li><a href="/conference-program/at-a-glance.aspx">CONFERENCE AT A GLANCE
+                    <br />See all the sessions and workshops for the three day program.</a>
+                    </li>
+                  </ul>
+                </div> <!-- /feature -->
+                <div class="feature-bottom"></div>
+              </div> <!-- /feature-container -->
+
+            </div> <!-- /conferenceProgram-hover -->
+          </li>
+          <li class=""><a id="exhibitors" href="/exhibitors/default.aspx" title="Exhibitors"><b>Exhibitors</b></a>
+            <div id="exhibitors-hover">
+              <div class="home-link"><h2><a href="/default.aspx" title="E&sup3; Home"><b>E<sup>3</sup> Home</b></a></h2></div>
+              <ul class="left">
+                <li><a id="ctl00_MainNav1_HyperLink16" href="../exhibitors/default.aspx">Exhibitor Overview</a></li>              
+                <li><a href="http://www.e3expo.com/exhibitors/prospectus/index.html" target="_blank">Exhibitor Prospectus</a></li>
+                <li><a href="../exhibitors/exhibitor-list.aspx">Exhibitor List</a></li>
+                <li><a href="../exhibitors/request-info.aspx">Request Info</a></li>
+                <li><a href="../exhibitors/floorplans.aspx">Floor Plans</a></li>    
+                <li><a id="ctl00_MainNav1_HyperLink5" href="../exhibitors/e3insider.aspx">E3Insider.com</a></li>
+                <li><a id="ctl00_MainNav1_HyperLink6" href="show-news.aspx">E<sup>3</sup> Show News</a></li>
+            
+                                                       
+              </ul>
+              <ul class="right">
+                <li><a id="ctl00_MainNav1_HyperLink14" rel="external" href="http://www.virtualpressoffice.com/media/show/display.jsp?showId=1122945241594">Exhibitor News</a></li>               
+                <li><a id="ctl00_MainNav1_HyperLink8" class="member" href="../exhibitors/registration.aspx">Registration</a></li>                   
+                <li><a class="member" href="../exhibitors/information/Default.aspx">Exhibitor Information</a></li>
+
+                <li><a class="member" href="../exhibitors/show-management-contacts.aspx">Show Management Contacts</a></li>
+                <li><a class="member" href="../exhibitors/housing-and-travel.aspx">Housing &amp; Travel</a></li>
+                <li><a class="member" href="../exhibitors/faq.aspx">Exhibitor FAQ</a></li>
+                <li><a class="member" href="../exhibitors/booth-space-sharing-form.aspx">Booth Space Sharing Form</a></li>
+                <li><a class="member" href="../exhibitors/reciprocal-link-request-form.aspx">Reciprocal Link Request Form</a></li>
+                 <li><a id="ctl00_MainNav1_HyperLink7" class="member" href="../exhibitors/event-marketing.aspx">Event Marketing</a></li>                  
+                <li><a class="member" href="../exhibitors/media-relations/Default.aspx">Promotional &amp; Media Relations</a></li>
+
+              </ul>
+              <div class="feature-container">
+                <div class="feature-top"></div>
+                <div class="feature">
+                  <ul class="featureNav">
+                    <li><a href="/exhibitors/registration.aspx">REGISTRATION
+                    <br />Registration begins in January. Click here for all information.</a>
+                    </li>
+                    <li class="spacer"></li>
+                    <li><a href="/exhibitors/information/Default.aspx">EXHIBITOR INFORMATION
+                    <br />Check deadlines, download forms, view the schedule and read the latest bulletins.</a>
+                    </li>
+                    <li class="spacer"></li>
+                    <li><a href="/exhibitors/housing-and-travel.aspx">HOUSING &amp; TRAVEL
+                    <br />Make all of your travel arrangements with Convention Management Resources.</a>
+                    </li>
+                  </ul>
+                </div> <!-- /feature -->
+                <div class="feature-bottom"></div>
+              </div> <!-- /feature-container -->
+            </div> <!-- /exhibitors-hover -->
+          </li>
+          <li class=""><a id="attendees" href="/attendees/default.aspx" title="Attendees"><b>Attendees</b></a>
+            <div id="attendees-hover">
+              <div class="home-link"><h2><a href="/default.aspx" title="E&sup3; Home"><b>E<sup>3</sup> Home</b></a></h2></div>
+              <ul class="left">
+                <li><a id="ctl00_MainNav1_HyperLink17" href="../attendees/default.aspx">Attendee Overview</a></li>              
+                <li><a href="../attendees/floorplans.aspx">Floor Plans</a></li>
+                <li><a href="../attendees/exhibitor-list.aspx">Exhibitor List</a></li>
+                <li><a href="../attendees/registration.aspx">Registration</a></li>
+                <li><a href="../attendees/pricing.aspx">Pricing</a></li>
+                <li><a href="../attendees/industry-identification.aspx">Industry Identification</a></li>
+                <li><a id="ctl00_MainNav1_HyperLink1" href="../attendees/faq.aspx">Attendee FAQ</a></li>                
+              </ul>
+              <ul class="right">
+                <li><a href="../attendees/housing-and-travel.aspx">Housing &amp; Travel</a></li>
+                <li><a href="../attendees/international-visitors.aspx">International Visitors</a></li>
+                <li><a href="show-news.aspx">E<sup>3</sup> Show News</a></li>          
+                <li><a rel="external" href="http://www.virtualpressoffice.com/media/show/display.jsp?showId=1122945241594">Exhibitor News</a></li>   
+                <li><a rel="external" href="http://e3expo.leveragesoftware.com/">E365</a></li>                                     
+                <li><a class="member" href="../attendees/vip-retailers.aspx">VIP Retailers</a></li>
+              </ul>
+              <div class="feature-container">
+                <div class="feature-top"></div>
+                <div class="feature">
+                  <ul class="featureNav">
+                    <li><a href="/attendees/registration.aspx">REGISTRATION
+                    <br />Choose a package and register for this year's show.</a>
+                    </li>
+                    <li class="spacer"></li>
+                    <li><a href="/attendees/housing-and-travel.aspx">HOUSING &amp; TRAVEL
+                    <br />Make all of your travel arrangements with Convention Management Resources.</a>
+                    </li>
+                    <li class="spacer"></li>
+                    <li><a href="/attendees/faq.aspx">FAQs
+                    <br />Find answers to some of our most commonly asked questions.</a>
+                    </li>
+                  </ul>
+                </div> <!-- /feature -->
+                <div class="feature-bottom"></div>
+              </div> <!-- /feature-container -->
+              <div class="home-link"><h2><a href="/default.aspx" title="E&sup3; Home"><b>E<sup>3</sup> Home</b></a></h2></div>
+            </div> <!-- /attendees-hover -->
+          </li>
+          <li class="active"><a id="media" href="/media/default.aspx" title="Media"><b>Media</b></a>
+            <div id="media-hover">
+              <div class="home-link"><h2><a href="/default.aspx" title="E&sup3; Home"><b>E<sup>3</sup> Home</b></a></h2></div>
+              <ul class="left">
+              <li><a id="ctl00_MainNav1_HyperLink18" href="default.aspx">Media Overview</a></li>
+                <li><a id="ctl00_MainNav1_HyperLink9" href="show-news.aspx">E<sup>3</sup> Show News</a></li>
+                <li><a id="ctl00_MainNav1_HyperLink10" rel="external" href="http://www.virtualpressoffice.com/media/show/display.jsp?showId=1122945241594">Exhibitor News</a></li>              
+                <li><a href="floorplans.aspx">Floor Plans</a></li>
+                <li><a href="exhibitor-list.aspx">Exhibitor List</a></li>
+                <li><a href="registration.aspx">Registration</a></li>
+                <li><a href="housing-and-travel.aspx">Housing &amp; Travel</a></li>
+
+              </ul>
+              <ul class="right">
+                <li><a id="ctl00_MainNav1_HyperLink11" href="factsheet.aspx">E<sup>3</sup> Factsheet</a></li>              
+                <li><a href="media-faq.aspx">Media FAQ</a></li>
+                <li><a href="about-the-esa.aspx">About the ESA</a></li>
+
+                <li><a href="photos-and-logos.aspx">E<sup>3</sup> Photos &amp; Logos</a></li>
+                <li><a href="onsite-services.aspx">On-Site Services</a></li>
+              </ul>
+              <div class="feature-container">
+                <div class="feature-top"></div>
+                <div class="feature">
+                  <ul class="featureNav">
+                    <li><a href="/media/registration.aspx">REGISTRATION
+                    <br />Register for access to the exhibit floor, media center and media hospitality suite.</a>
+                    </li>
+                    <li class="spacer"></li>
+                    <li><a href="/media/housing-and-travel.aspx">HOUSING &amp; TRAVEL
+                    <br />Make all of your travel arrangements with Convention Management Resources.</a>
+                    </li>
+                    <li class="spacer"></li>
+                    <li><a href="/media/media-faq.aspx">FAQs
+                    <br />Find answers to some of our most frequently asked questions.</a>
+                    </li>
+                  </ul>
+                </div> <!-- /feature -->
+                <div class="feature-bottom"></div>
+              </div> <!-- /feature-container -->
+              <div class="home-link"><h2><a href="/default.aspx" title="E&sup3; Home"><b>E<sup>3</sup> Home</b></a></h2></div>
+            </div> <!-- /media-hover -->
+          </li>
+        </ul>
+        <div id="search">
+            <div>
+              <p>Search
+                <input name="ctl00$MainNav1$txtSearchText" type="text" id="ctl00_MainNav1_txtSearchText" class="formField" />
+                <input type="submit" name="ctl00$MainNav1$btnSearch" value="" id="ctl00_MainNav1_btnSearch" class="submitButton" />
+              </p>
+            </div>
+        </div> <!-- /search -->
+      </div> <!-- /mainNav -->
+  
+
+
+      <div id="banner">
+      </div> <!-- /banner -->
+      <div id="subNav">
+        <ul>
+          
+          <li><a class="japanese" href="http://biz.knt.co.jp/pm/e3/" target="_blank"><b>Japanese</b></a></li>
+
+          <li><a href="/media/show-news.aspx"><b>E<sup>3</sup> Show News</b></a></li>
+          <li><a href="/utilities/sitemap.aspx"><b>Sitemap</b></a></li>
+          <li><a href="http://www.e3insider.com" target="_blank"><b>E3Insider</b></a></li>
+        </ul>
+      <div id="navTab"></div>
+      </div> <!-- /subNav -->
+    </div> <!-- /header -->
+    <div id="mainContent-container">
+      <table>
+        <tr>
+          <td id="main">
+            <div id="mainContent">
+              
+
+    <h2>Media Center</h2>
+        <h4>E<sup>3</sup> Online media Center</h4>
+        <p> Welcome to E<sup>3</sup> 2006 – "Where Business Gets Fun."  This online Media Center allows you to submit your request for media registration and provides the latest E<sup>3</sup> 2006 news and information for covering the show, May 10 – 12, 2006, at the Los Angeles Convention Center.</p>
+            <table width="100%">
+                <tr>
+                    <td><span class="strong">Exhibit Hours</span></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="grey">Wednesday, May 10</td>
+                    <td class="grey">9 a.m. to 11 a.m.</td>
+                    <td><span class="strong">(pre-registered media only)</span></td>
+                </tr>
+                <tr>
+                    <td class="grey">Wednesday, May 10</td>
+                    <td class="grey">11 a.m. to 6 p.m. </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="grey">Thursday, May 11</td>
+                    <td class="grey">9 a.m. to 6 p.m.</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="grey">Friday, May 12</td>
+                    <td class="grey">9 a.m. to 4 p.m.</td>
+                    <td></td>
+                </tr>
+            </table>
+        <h4>Workshops &amp; Conferences<br />
+            May 9 - 11, 2006</h4>
+        <p> The Conference Department encourages Media to attend sessions however the 2006 individual complimentary passes will be eliminated.  New this year - qualified Media can purchase a "Pick Six" Session Pass for just $120. This allows you to attend 6 sessions from the 12 workshops and 22 session programs.  Be one of 50 to pre-register for this special offer by April 7th and receive an E<sup>3</sup> gift, great for the media-on-the-go. Also new this year will be a dedicated area of 20 seats reserved just for Media in each session and workshop at no cost on a first-come, first-served basis.  Other than the option of purchasing the Pick Six or be one of 20 to occupy the Media seats, all media will be asked to wait until the session has been filled with paid attendees.  The Conference Department hopes that these two new options will serve the Media's needs more efficiently and make it a more enjoyable educational experience.</p>
+        <h4>Contact Us</h4><a name="1"></a>
+        <p> For additional E<sup>3</sup> 2006 information, please contact the E<sup>3</sup> Media Relations Team at <a href="mailto:media@e3expo.com">media@e3expo.com</a>.</p> 
+        <h4>Additional Resources</h4>
+            <ul>
+                <li>Entertainment Software Association (<a href="http://www.theesa.com" rel="external">www.theesa.com</a>)</li>
+                <li>E<sup>3</sup> Insider (<a href="http://www.e3insider.com" rel="external">www.e3insider.com</a>)</li>
+                <li>Entertainment Software Rating Board (<a href="http://www.esrb.org" rel="external">www.esrb.org</a>)</li>
+                <li>Into the Pixel (<a href="http://www.intothepixel.com" rel="external">www.intothepixel.com</a>)</li>
+                <li>Los Angeles Convention Center (<a href="http://www.lacclink.com" rel="external">www.lacclink.com</a>)</li>
+                <li>Business Wire (<a href="http://www.businesswire.com" rel="external">www.businesswire.com</a>)</li>
+                <li>Virtual Press Office (<a href="http://www.virtualpressoffice.com/event/e3expo" rel="external">www.virtualpressoffice.com/event/e3expo</a>)</li>
+            </ul>
+        <p> E<sup>3</sup> 2006 is a trade event and not open to the general public. No one under 18 will be admitted including infants.</p>
+
+            </div> <!-- /mainContent -->
+          </td>
+          <td>
+            <div id="sidebar">
+              <div id="pretertiaryNav">
+                <div id="pretertiary-top"></div>
+                  <ul>
+                  <!--not necessary anymore
+                    <li><a class="login" href="#"><b>Login</b></a></li>
+                    <li class="spacer"></li>
+                    -->
+                    <li><a class="email" href="/utilities/email.aspx?URL=media%2fdefault.aspx"><b>Email</b></a></li>
+                    <li class="spacer"></li>
+                    <li><a class="print" href="javascript:window.print()"><b>Print</b></a></li>
+                  </ul>
+                <div id="pretertiary-bottom"></div>
+              </div> <!-- /pretertiaryNav -->
+
+              
+
+              <div id="regForm-top"></div>
+              <div class="" id="registrationForm">
+                <div>
+
+                  <p class="input_label">Username</p>
+                  <p><input name="ctl00$LoginApplet1$txtUserName" type="text" id="ctl00_LoginApplet1_txtUserName" class="formField" onkeydown="if(event.which || event.keyCode){if ((event.which == 13) || (event.keyCode == 13)) {document.getElementById('ctl00_LoginApplet1_btnLogin').click();return false;}} else {return true}; " /></p>
+                  <p class="input_label">Password</p>
+                  <p><input name="ctl00$LoginApplet1$txtPassword" type="text" id="ctl00_LoginApplet1_txtPassword" class="formField" onkeydown="if(event.which || event.keyCode){if ((event.which == 13) || (event.keyCode == 13)) {document.getElementById('ctl00_LoginApplet1_btnLogin').click();return false;}} else {return true}; " /></p>
+
+                <p><input type="submit" name="ctl00$LoginApplet1$btnLogin" value="" id="ctl00_LoginApplet1_btnLogin" class="submitButton" /></p>
+                </div>
+              </div> <!-- /registrationForm -->
+              <div id="regForm-bottom"></div>
+
+
+
+
+
+
+              <div id="tertiaryNav">
+                <div id="tertiary-top"></div>
+                <ul>
+                
+                
+                  <li><a href="exhibitor-list.aspx"><b>Exhibitor List</b></a></li>
+                  <li class="spacer"></li>
+                  <li><a href="http://e3expo.leveragesoftware.com/" target=_blank><b>E365</b></a></li>
+                  <li class="spacer"></li>                  
+                  <li><a href="http://www.intothepixel.com" target="_blank"><b>Into The Pixel</b></a></li>
+                 
+                 
+                </ul>
+                <div id="tertiary-bottom"></div>
+              </div> <!-- /tertiaryNav -->
+            
+            
+              <div class="adSpace">
+                <div class="adContainer"><a href="/redirect.aspx?URL=http%3a%2f%2fwww.game-face.de%2f" target="_blank"><img src="/_assets/advertisements/gameface.jpg" border="0" /></a></div>
+                <div class="adContainer"><a href="/redirect.aspx?URL=http%3a%2f%2fwww.fiercedeveloper.com%2f" target="_blank"><img src="/_assets/advertisements/fierce_developer.gif" border="0" /></a></div>
+              </div> 
+
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+             
+                             
+            </div> <!-- /sidebar -->
+          </td>
+        </tr>
+      </table>
+    </div> <!-- /mainContent-container -->
+  </div> <!-- /container -->
+    <div id="unevenTab-container-bottom">
+      <div class="black"></div>
+      <div class="gray"></div>
+    </div> <!-- /unevenTab-container-bottom -->
+
+  
+
+    <!--[if IE]>
+    <div id="unevenTab-container-bottom">
+      <div class="black"></div>
+      <div class="gray"></div>
+    </div>
+    <![endif]-->
+
+  <div id="footer">
+    <div id="footer-center">
+      <div class="adSpace">
+        <div class="adContainer"><a href="/redirect.aspx?URL=http%3a%2f%2fwww.ecompanystuff.com%2fcart.php%3ftarget%3dcategory%26category_id%3d248" target="_blank"><img src="/_assets/advertisements/Merch_Store.gif" border="0" /></a></div>
+        <div class="adContainer"><a href="/redirect.aspx?URL=http%3a%2f%2fwww.mcvuk.com%2f" target="_blank"><img src="/_assets/advertisements/MCV.gif" border="0" /></a></div>
+        <div class="adContainer"><object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,0,0" width="234" height="60" align="middle"><param name="allowScriptAccess" value="sameDomain" /><param name="movie" value="/_assets/advertisements/gi_e3_234_60.swf" /><param name="quality" value="high" /><embed src="/_assets/advertisements/gi_e3_234_60.swf" quality="high" bgcolor="#ffffff" width="234" height="60" align="middle" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" /></object></div>
+      </div>
+        <br />
+        <br />
+      <div id="fineprint">
+        <p>The Electronic Entertainment Expo (E<sup>3</sup>) is not sponsored by or affiliated with E3 Corporation.
+        </p>
+        <p>If you would like to visit the E3 Corporation homepage, <a href="http://www.e3corp.com/" target="_blank">click here</a> &copy;2006 Electronic Entertainment Expo
+        </p>
+        <p>E<sup>3</sup> is a trade event and is not open to the general public. No one under the age of 18 will be admitted, including infants.
+        </p>
+        <br />
+        <center>
+        &copy;2006 Electronic Entertainment Expo<br /><br />
+         <a href="https://www.esrb.org/confirm/esa-confirmation.jsp" target="_blank"><img src="/_images/footer/ectppsesal.gif" /></a></center>
+        
+        <br />
+        <br />
+      </div>
+    </div> <!-- /footer-center -->
+  </div> <!-- /footer -->
+  <div id="unevenTab-container-top">
+    <div class="gray"></div>
+    <div class="black"></div>
+  </div> <!-- /unevenTab-container-top -->
+
+
+</form>
+</body>
+</html>

@@ -1,0 +1,32 @@
+/*
+
+E3 EXPO | SUB-PAGES | CONFERENCE PROGRAM
+
+*/
+
+/***************************************************
+
+MAIN CONTENT AREA:
+
+***************************************************/
+
+#mainContent h2 {
+  color: #CFDA4B; /* GREEN */
+  font-size: larger;
+}
+
+/*
+DISPLAY HOVER STATE
+*/
+
+#mainNav ul#nav li.active a#conference {
+  background-position: 0 -29px;
+}
+
+#mainNav li.active #conferenceProgram-hover {
+  display: block;
+  position: absolute;
+  top: 29px;
+  left: 0;
+  z-index: 1;
+}

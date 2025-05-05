@@ -1,0 +1,223 @@
+body{
+background:#000;
+color:#FFFFFF;
+font-family:Arial, Helvetica, sans-serif;
+}
+strong{
+font-weight:bold;
+}
+#outer-wrapper-splash {
+
+}
+#wrapper-splash {
+width: 960px;
+margin: 0 auto;	
+border-right:2px solid #181717;
+border-left:2px solid #181717;
+}
+#header-splash{
+overflow:hidden;
+}
+#logo{
+float:left;
+display:block;
+width:480px;
+height:271px;
+background:url(/lib/img/splash/e3-logo-lrg_01.jpg) no-repeat;
+}
+#logo h1{
+text-indent:-999em;
+}
+#date-location{
+float:left;
+display:block;
+width:480px;
+height:271px;
+background:url(/lib/img/splash/e3-logo-lrg_02.jpg) no-repeat;
+}
+#date-location h2{
+text-indent:-999em;
+}
+#tagline{
+clear:both;
+display:block;
+margin:0;
+padding:0;
+width:960px;
+height:67px;
+background:url(/lib/img/splash/e3-logo-lrg_03.jpg) no-repeat;
+}
+#tagline p{
+text-indent:-999em;
+}
+#content-splash{
+overflow:hidden;
+}
+#attendees,
+#exhibitors{
+margin-top:30px;
+float:left;
+width:435px;
+margin-left:30px;
+}
+#attendees .content-top,
+#exhibitors .content-top{
+width:435px;
+height:12px;
+background:url(../img/splash/content-container-top.gif) no-repeat left top;
+}
+#attendees .content-bottom,
+#exhibitors .content-bottom{
+width:435px;
+height:12px;
+background:url(../img/splash/content-container-bottom.gif) no-repeat left top;
+}
+#attendees .container,
+#exhibitors .container{
+padding:0 20px;
+background:#010124;
+border-left:3px solid #020b33;
+border-right:3px solid #020b33;
+}
+#attendees h3,
+#exhibitors h3{
+margin-bottom:20px;
+font-weight:bold;
+color:#ffd949;
+font-size:18px;
+}
+#attendees p,
+#exhibitors p{
+color:#fff;
+line-height:18px;
+font-size:12px;
+padding-bottom:12px;
+}
+#attendees a,
+#exhibitors a{
+color:#ffd949;
+font-weight:bold;
+text-decoration:none;
+}
+#attendees a:hover,
+#exhibitors a:hover{
+color:#993399;
+}
+#form{
+overflow:hidden;
+margin-bottom:15px;
+}
+#form input[type=text]{
+float:left;
+clear:both;
+margin-right:10px;
+margin-bottom:12px;
+border:2px solid #e5e5e5;
+color:#666;
+padding:6px;
+width:225px;
+}
+#form button.submit{
+border:none;
+padding:0;
+margin:0;
+background: url(/lib/img/splash/form-submit-btn.png) no-repeat 0 0;
+width:99px;
+height:77px;
+line-height:normal;
+}
+#form button.submit:hover{
+background: url(/lib/img/splash/form-submit-btn.png) no-repeat 0 -77px;
+}
+#form button span{
+display:none;
+}
+#share{
+overflow:hidden;
+padding-bottom:10px;
+}
+#share li{
+float:left;
+display:inline-block;
+margin-right:10px;
+}
+#expo-button a.visit{
+margin:25px auto;
+text-align:center;
+}
+
+#expo-button{
+text-align:center;
+margin:20px auto;
+overflow:hidden;
+}
+#expo-button a{
+border:none;
+padding:0;
+margin:0 28px 0 0;
+float:right;
+background: url(/lib/img/splash/visit-e3expo-site-btn.png) no-repeat 0 0;
+display:block;
+line-height:normal;
+width:233px;
+height:50px;
+}
+#expo-button a:hover{
+background: url(/lib/img/splash/visit-e3expo-site-btn.png) no-repeat 0 -50px;
+}
+#expo-button a span{
+display:none;
+}
+
+/* @group Footer */
+#footer {
+background: url(/lib/img/splash/footer-bg.gif) repeat-x;
+height: 87px;
+font-size: .7em;	
+position: relative;
+}
+#footer p {
+text-align: right;
+padding: 28px 100px 0 0;
+}
+#footer a {
+color: #ffea53;	
+}
+#footer a:hover {
+text-decoration: underline;
+}
+#footer span.esa {
+position: absolute;
+width: 128px;
+height: 50px;
+top: 20px;
+left: 20px;
+display: block;
+text-indent: -999em;
+background: url(/lib/img/splash/ui-e3-elements.png) no-repeat -200px -409px;
+}
+#footer span.idg {
+position: absolute;
+width:70px;
+height: 50px;
+top: 20px;
+right: 20px;
+display: block;
+text-indent: -999em;
+background: url(/lib/img/splash/ui-e3-elements.png) no-repeat -367px -409px;
+}
+#footer .copyright {
+font-size: 14px;
+font-weight: bold;
+}
+#footer .privacy {
+background: url(/lib/img/splash/esrb-privacy-certified-logo.gif) no-repeat 0 0;
+height: 53px;
+width: 144px;
+display: block;
+position: absolute;
+right: 420px;
+top: 20px;
+text-indent: -999em;
+}
+/* @end */

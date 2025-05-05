@@ -1,0 +1,1652 @@
+<!--- crash
+<cfparam name="cssclass" default="evenrow">
+<cfparam name="order" default="last_name">
+
+<cfif IsDefined("URL.order") AND (URL.order EQ "organization" OR URL.order EQ "session_code")>
+	<cfset variables.order = URL.order>
+	
+	<cfquery datasource="#application.confplan_database#" name="get_speakers">
+	select s.speaker_id, s.prefix, s.first_name, s.middle_initial, s.last_name, s.organization, s.biography,
+	s.title, t.s_speaker_type_id, t.name as type_name, ss.session_name, ss.session_code, ss.s_session_id
+	from speakers s, s_speaker_types t, session_speakers a, s_sessions ss
+	where a.s_speaker_type_id=t.s_speaker_type_id
+	and a.speaker_id=s.speaker_id
+	and a.s_session_id = ss.s_session_id
+	order by #variables.order#, last_name
+	</cfquery>
+<cfelse>
+	<cfquery datasource="#application.confplan_database#" name="get_speakers">
+	usp_speakers_sessions_selall
+	</cfquery>
+</cfif>
+--->
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!-- --------------------------------------------------------
+--  This site was designed and implemented by Miller Systems.
+--  (c) Copyright 2002.  All rights reserved.
+--  http://www.millersystems.com
+--  Miller Systems, Inc. Boston MA 02116
+--------------------------------------------------------- -->
+
+<html>
+<head>
+
+
+<title>Electronic Entertainment Expo 2003 -- Conference Program -- Complete Speaker List</title>
+
+	<link rel="stylesheet" type="text/css" href="/common/css/secondary.css" />
+	<script language="JavaScript" type="text/javascript" src="/common/js/secondary.js" /></script>
+	<script language="JavaScript" type="text/javascript" src="/common/js/setCookie.js" /></script>
+	<script language="JavaScript" type="text/javascript" src="/common/js/detectFlash.js"></script>
+	<script language="JavaScript" type="text/javascript" src="/common/js/popup.js"></script>
+	<script language="JavaScript"><!--
+	<!--- BANNER AD RANDOMIZER START --->
+	
+	var aBannerAdName	= new Array();
+	var aBannerAdHref 	= new Array();
+	var aBannerAdSrc 	= new Array();
+	var aBannerAdType	= new Array();
+	
+	aBannerAdName[0] = "Merchandise Store";
+	aBannerAdHref[0] = "http://www.companystuffonline.com/cgi-bin/webc.cgi/st_main.html?p_catid=1";
+	aBannerAdSrc[0] = "banner_merch_store.gif";
+	aBannerAdType[0] = "image";
+	
+	aBannerAdName[1] = "GigNews.com";
+	aBannerAdHref[1] = "http://www.gignews.com";
+	aBannerAdSrc[1] = "banner_gig.gif";
+	aBannerAdType[1] = "image";
+	
+	aBannerAdName[2] = "Animation World Network";
+	aBannerAdHref[2] = "http://www.awn.com/";
+	aBannerAdSrc[2] = "banner_awn.gif";
+	aBannerAdType[2] = "image";
+	
+	aBannerAdName[3] = "gi Recruitment";
+	aBannerAdHref[3] = "http://www.gamesindustry.biz/recruitment_page.php";
+	aBannerAdSrc[3] = "banner_giRecruitment.swf";
+	aBannerAdType[3] = "flash";
+	
+	aBannerAdName[4] = "GameDAILY";
+	aBannerAdHref[4] = "http://guava.futuris.net/gamedaily/sub.html";
+	aBannerAdSrc[4] = "banner_gameDaily.gif";
+	aBannerAdType[4] = "image";
+	
+	aBannerAdName[5] = "Mobile Entertainment";
+	aBannerAdHref[5] = "http://www.mobenta.com";
+	aBannerAdSrc[5] = "banner_mealogo.gif";
+	aBannerAdType[5] = "image";
+	
+	aBannerAdName[6] = "NextGenVideos";
+	aBannerAdHref[6] = "http://www.nextgenvideos.com";
+	aBannerAdSrc[6] = "banner_ngv.swf";
+	aBannerAdType[6] = "flash";
+	
+	var iBannerAdOne = Math.floor(Math.random() * aBannerAdName.length);
+	var iBannerAdTwo = Math.floor(Math.random() * aBannerAdName.length);
+	
+	while (iBannerAdTwo == iBannerAdOne) {
+		iBannerAdTwo = Math.floor(Math.random() * aBannerAdName.length);
+	}
+	
+	<!--- BANNER AD RANDOMIZER END --->
+	// --></script>
+</head>
+
+<body leftmargin="0" topmargin="0" marginheight="0" marginwidth="0">
+<a name="top"></a>
+<table cellpadding="0" cellspacing="0" border="0" width="100%" background="/bin/images/secondary/bgpattern_top.gif">
+	<tr>
+		<td>
+			<table cellpadding="0" cellspacing="0" border="0" width="752">
+				<tr>
+					<td><a href="/"><img src="/bin/images/secondary/top_exhibitspace.jpg" width="505" height="175" border="0" alt="Call 508-875-EXPO for Exhibit Space" /></a></td>	
+					<td><img src="/bin/images/spacer.gif" width="12" height="55" border="0" alt="" /></td>
+					<td valign="top">
+						<img src="/bin/images/spacer.gif" width="1" height="10" border="0" alt="" /><br />
+						<table border="0" cellspacing="0" cellpadding="0">
+							<tr>
+								<script language="JavaScript"><!--
+								var sHTML = "";
+								
+								if (aBannerAdType[iBannerAdOne]=="image") {
+									sHTML += '<td><a href="'+aBannerAdHref[iBannerAdOne]+'" target="_blank"><img src="/bin/images/banner_ads/'+aBannerAdSrc[iBannerAdOne]+'" width="234" height="60" border="0" alt="'+aBannerAdName[iBannerAdOne]+'" /></a></td>';
+								} else if (aBannerAdType[iBannerAdOne]=="flash") {
+									if (detectFlash(5)) {
+										sHTML += '<td><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=5,0,0,0" width="234" height="60">';
+										sHTML += '	<param name="movie" value="/bin/flash/banner_ads/'+aBannerAdSrc[iBannerAdOne]+'">';
+										sHTML += '	<param name="loop" value="false">';
+										sHTML += '	<param name="quality" value="high">';
+										sHTML += '	<param name="bgcolor" value="#FFFFFF">';
+										sHTML += '	<embed src="/bin/flash/banner_ads/'+aBannerAdSrc[iBannerAdOne]+'" loop="false" quality="high" bgcolor="#FFFFFF" width="234" height="60" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash"></embed>';
+										sHTML += '</object></td>';
+									} else {
+										sHTML += '<td><a href="'+aBannerAdHref[1]+'" target="_blank"><img src="/bin/images/banner_ads/'+aBannerAdSrc[1]+'" width="234" height="60" border="0" alt="'+aBannerAdName[1]+'" /></a></td>';
+									}
+								}
+								
+								document.write(sHTML);
+								// --></script>
+								<td align="left"><img src="/bin/images/secondary/ad_shadow_right.gif" width="6" height="60" border="0" alt="" /></td>
+							</tr>
+							<tr>
+								<td colspan="2"><img src="/bin/images/secondary/ad_shadow_bot.gif" width="240" height="10" border="0" alt="" /></td>
+							</tr>
+							<tr>
+								<script language="JavaScript"><!--
+								var sHTML = "";
+								
+								if (aBannerAdType[iBannerAdTwo]=="image") {
+									sHTML += '<td><a href="'+aBannerAdHref[iBannerAdTwo]+'" target="_blank"><img src="/bin/images/banner_ads/'+aBannerAdSrc[iBannerAdTwo]+'" width="234" height="60" border="0" alt="'+aBannerAdName[iBannerAdTwo]+'" /></a></td>';
+								} else if (aBannerAdType[iBannerAdTwo]=="flash") {
+									if (detectFlash(5)) {
+										sHTML += '<td><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=5,0,0,0" width="234" height="60">';
+										sHTML += '	<param name="movie" value="/bin/flash/banner_ads/'+aBannerAdSrc[iBannerAdTwo]+'">';
+										sHTML += '	<param name="loop" value="false">';
+										sHTML += '	<param name="quality" value="high">';
+										sHTML += '	<param name="bgcolor" value="#FFFFFF">';
+										sHTML += '	<embed src="/bin/flash/banner_ads/'+aBannerAdSrc[iBannerAdTwo]+'" loop="false" quality="high" bgcolor="#FFFFFF" width="234" height="60" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash"></embed>';
+										sHTML += '</object></td>';
+									} else {
+										sHTML += '<td><a href="'+aBannerAdHref[1]+'" target="_blank"><img src="/bin/images/banner_ads/'+aBannerAdSrc[1]+'" width="234" height="60" border="0" alt="'+aBannerAdName[1]+'" /></a></td>';
+									}
+								}
+								
+								document.write(sHTML);
+								// --></script>
+								<td><img src="/bin/images/secondary/ad_shadow_right.gif" width="6" height="60" border="0" alt="" /></td>
+							</tr>
+							<tr>
+								<td colspan="2"><img src="/bin/images/secondary/ad_shadow_bot.gif" width="240" height="10" border="0" alt="" /></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+
+<table cellpadding="0" cellspacing="0" border="0" width="675">
+	<tr>
+		<td valign="top">
+
+
+<!--- NAV INCLUDE --->
+<a href="/registration/" onmouseover="swapImage('btn_registration',arPreloadedImg['btn_registration_hl'].src);" onmouseout="swapImage('btn_registration',arPreloadedImg['btn_registration'].src);"><img src="/bin/images/secondary/btn_registration.gif" width="167" height="23" border="0" alt="Registration" name="btn_registration" /></a><br />
+<a href="/show_highlights/" onmouseover="swapImage('btn_show',arPreloadedImg['btn_show_hl'].src);" onmouseout="swapImage('btn_show',arPreloadedImg['btn_show'].src);"><img src="/bin/images/secondary/btn_show.gif" width="167" height="23" border="0" alt="Show Highlights" name="btn_show" /></a><br />
+
+<a href="/conference_program/"><img src="/bin/images/secondary/btn_conference_hl.gif" width="167" height="23" border="0" alt="Conference Program" name="btn_conference" /></a><br />
+
+<script language="JavaScript"><!--
+var sHTML = "";
+var sDocumentTitle = document.title;
+
+sHTML += '<table cellpadding="0" cellspacing="0" border="0" width="167">';
+sHTML += '	<tr>';
+if (sDocumentTitle.indexOf("Speakers")!=-1) {
+sHTML += '		<td align="right"><a href="/conference_program/speakers_only/" class="navActive">Speakers Only</a></td>';
+sHTML += '		<td align="right" valign="top"><span class="navActive">&gt;</span></td>';
+} else {
+sHTML += '		<td align="right"><a href="/conference_program/speakers_only/" class="navInactive">Speakers Only</a></td>';
+sHTML += '		<td align="right" valign="top"><span class="navInactive">&gt;</span></td>';
+}
+sHTML += '	</tr>';
+sHTML += '	<tr>';
+sHTML += '		<td><img src="/bin/images/spacer.gif" width="155" height="5" border="0" alt="" /></td>';
+sHTML += '		<td><img src="/bin/images/spacer.gif" width="12" height="5" border="0" alt="" /></td>';
+sHTML += '	</tr>';
+sHTML += '	<tr>';
+if (sDocumentTitle.indexOf("Glance")!=-1) {
+sHTML += '		<td align="right"><a href="/conference_program/conference_at_a_glance.shtml" class="navActive">Conference-at-a-Glance</a></td>';
+sHTML += '		<td align="right" valign="top"><span class="navActive">&gt;</span></td>';
+} else {
+sHTML += '		<td align="right"><a href="/conference_program/conference_at_a_glance.shtml" class="navInactive">Conference-at-a-Glance</a></td>';
+sHTML += '		<td align="right" valign="top"><span class="navInactive">&gt;</span></td>';
+}
+sHTML += '	</tr>';
+sHTML += '	<tr>';
+sHTML += '		<td><img src="/bin/images/spacer.gif" width="155" height="5" border="0" alt="" /></td>';
+sHTML += '		<td><img src="/bin/images/spacer.gif" width="12" height="5" border="0" alt="" /></td>';
+sHTML += '	</tr>';
+sHTML += '	<tr>';
+if (sDocumentTitle.indexOf("Tracks")!=-1) {
+sHTML += '		<td align="right"><a href="/conference_program/tracks_workshops/" class="navActive">Conference Tracks<br />and Workshops</a></td>';
+sHTML += '		<td align="right" valign="top"><span class="navActive">&gt;</span></td>';
+} else {
+sHTML += '		<td align="right"><a href="/conference_program/tracks_workshops/" class="navInactive">Conference Tracks<br />and Workshops</a></td>';
+sHTML += '		<td align="right" valign="top"><span class="navInactive">&gt;</span></td>';
+}
+sHTML += '	</tr>';
+sHTML += '	<tr>';
+sHTML += '		<td><img src="/bin/images/spacer.gif" width="155" height="5" border="0" alt="" /></td>';
+sHTML += '		<td><img src="/bin/images/spacer.gif" width="12" height="5" border="0" alt="" /></td>';
+sHTML += '	</tr>';
+sHTML += '</table>';
+
+document.write(sHTML);
+// --></script>
+
+<noscript>
+<table cellpadding="0" cellspacing="0" border="0" width="167">
+	<tr>
+		<td align="right"><a href="/conference_program/speakers_only/" class="navInactive">Speakers Only</a></td>
+		<td align="right" valign="top"><span class="navInactive">&gt;</span></td>
+	</tr>
+	<tr>
+		<td><img src="/bin/images/spacer.gif" width="155" height="5" border="0" alt="" /></td>
+		<td><img src="/bin/images/spacer.gif" width="12" height="5" border="0" alt="" /></td>
+	</tr>
+	<tr>
+		<td align="right"><a href="/conference_program/conference_at_a_glance.shtml" class="navInactive">Conference-at-a-Glance</a></td>
+		<td align="right" valign="top"><span class="navInactive">&gt;</span></td>
+	</tr>
+	<tr>
+		<td><img src="/bin/images/spacer.gif" width="155" height="5" border="0" alt="" /></td>
+		<td><img src="/bin/images/spacer.gif" width="12" height="5" border="0" alt="" /></td>
+	</tr>
+	<tr>
+		<td align="right"><a href="/conference_program/tracks_workshops/" class="navInactive">Conference Tracks<br />and Workshops</a></td>
+		<td align="right" valign="top"><span class="navInactive">&gt;</span></td>
+	</tr>
+	<tr>
+		<td><img src="/bin/images/spacer.gif" width="155" height="5" border="0" alt="" /></td>
+		<td><img src="/bin/images/spacer.gif" width="12" height="5" border="0" alt="" /></td>
+	</tr>
+</table>
+</noscript>
+
+<a href="/current_exhibitors/" onmouseover="swapImage('btn_current',arPreloadedImg['btn_current_hl'].src);" onmouseout="swapImage('btn_current',arPreloadedImg['btn_current'].src);"><img src="/bin/images/secondary/btn_current.gif" width="167" height="23" border="0" alt="Current Exhibitors" name="btn_current" /></a><br />
+<a href="/sponsors/" onmouseover="swapImage('btn_sponsors',arPreloadedImg['btn_sponsors_hl'].src);" onmouseout="swapImage('btn_sponsors',arPreloadedImg['btn_sponsors'].src);"><img src="/bin/images/secondary/btn_sponsors.gif" width="167" height="23" border="0" alt="Sponsors" name="btn_sponsors" /></a><br />
+<a href="/media_center/" onmouseover="swapImage('btn_media',arPreloadedImg['btn_media_hl'].src);" onmouseout="swapImage('btn_media',arPreloadedImg['btn_media'].src);"><img src="/bin/images/secondary/btn_media.gif" width="167" height="23" border="0" alt="Media Center" name="btn_media" /></a><br />
+<a href="/exhibitors_only/" onmouseover="swapImage('btn_exhibitors',arPreloadedImg['btn_exhibitors_hl'].src);" onmouseout="swapImage('btn_exhibitors',arPreloadedImg['btn_exhibitors'].src);"><img src="/bin/images/secondary/btn_exhibitors.gif" width="167" height="23" border="0" alt="Exhibitors Only" name="btn_exhibitors" /></a><br />
+<a href="/vip_retailers/" onmouseover="swapImage('btn_vip',arPreloadedImg['btn_vip_hl'].src);" onmouseout="swapImage('btn_vip',arPreloadedImg['btn_vip'].src);"><img src="/bin/images/secondary/btn_vip.gif" width="167" height="23" border="0" alt="VIP Retailers" name="btn_vip" /></a><br />
+<a href="/travel/" onmouseover="swapImage('btn_travel',arPreloadedImg['btn_travel_hl'].src);" onmouseout="swapImage('btn_travel',arPreloadedImg['btn_travel'].src);"><img src="/bin/images/secondary/btn_travel.gif" width="167" height="23" border="0" alt="Travel" name="btn_travel" /></a><br />
+<a href="/international_visitors/" onmouseover="swapImage('btn_international',arPreloadedImg['btn_international_hl'].src);" onmouseout="swapImage('btn_international',arPreloadedImg['btn_international'].src);"><img src="/bin/images/secondary/btn_international.gif" width="167" height="23" border="0" alt="International Visitors" name="btn_international" /></a><br />
+
+
+			<img src="/bin/images/spacer.gif" width="1" height="15" border="0" alt="" /><br />
+			<table cellpadding="0" cellspacing="0" border="0" width="167">
+				<tr>
+					<td colspan="2"><form name="frmSearch" action="/search_e3/index.cfm" method="post"><input type="hidden" name="command" value="search" /><input type="hidden" name="maxrows" value="10" /><input type="hidden" name="startrow" value="1" /></td>
+				</tr>
+				<tr>
+					<td><img src="/bin/images/spacer.gif" width="132" height="1" border="0" alt="" /></td>
+					<td><img src="/bin/images/spacer.gif" width="35" height="1" border="0" alt="" /></td>
+				</tr>
+				<tr>
+					<td align="right"><input type="text" name="criteria" value="Search" size="10" maxlength="100" class="text" style="width:107px;" onclick="this.value='';" /></td>
+					<td><img src="/bin/images/spacer.gif" width="5" height="1" border="0" alt="" /><input type="image" src="/bin/images/secondary/btn_search.gif" width="18" height="18" border="0" alt="Search" /><img src="/bin/images/spacer.gif" width="12" height="1" border="0" alt="" /></td>
+				</tr>
+				<tr>
+					<td colspan="2"></form></td>
+				</tr>
+			</table>
+			<img src="/bin/images/spacer.gif" width="1" height="35" border="0" alt="" /><br />
+			<table cellpadding="0" cellspacing="0" border="0" width="167">
+				<tr>
+					<td><img src="/bin/images/spacer.gif" width="38" height="1" border="0" alt="" /></td>
+					<td align="center" style="color:#CC0000;">E<sup>3</sup> is a trade event<br />
+					and is not open to the<br />
+					general public.<br />
+					&nbsp;<br />
+					No one under the age<br />
+					of 18 will be admitted,<br />
+					including infants.<br />
+					&nbsp;<br />
+					&lt; <a href="/about/privacy_policy.shtml">Privacy Policy</a> &gt;</td>
+					<td><img src="/bin/images/spacer.gif" width="24" height="1" border="0" alt="" /></td>
+				</tr>
+			</table>
+		</td>
+		<td><img src="/bin/images/spacer.gif" width="38" height="1" border="0" alt="" /></td>
+		<td valign="top">
+
+<!--- CONTENT START (max printable width is 470px) --->
+
+<a href="/conference_program/"><img src="/bin/images/secondary/conference_program/header_conferenceprogram.gif" width="470" height="33" border="0" alt="Conference Program" /></a><br />
+
+<p><a href="/conference_program/tracks_workshops/"><img src="/bin/images/secondary/conference_program/subhead_conferencetracks.gif" width="470" height="16" border="0" alt="Conference Tracks and Workshops" /></a></p>
+
+<p>
+	<a href="/conference_program/tracks_workshops/conference_at_a_glance.shtml" onclick="openWindow('/conference_program/tracks_workshops/popup_conference_at_a_glance.shtml',800,800,'resizable,scrollbars'); return false;">At-A-Glance</a>
+	&nbsp;&#8226;&nbsp;
+	<a href="/conference_program/tracks_workshops/">View By Track</a>
+	&nbsp;&#8226;&nbsp;
+	<a href="/conference_program/tracks_workshops/days1.shtml">View By Day</a>
+	&nbsp;&#8226;&nbsp;
+	<a href="/conference_program/tracks_workshops/complete_speaker_list.shtml">Complete Speaker List</a>
+</p>
+
+
+
+<p><img src="/bin/images/secondary/conference_program/subhead_completespeaker.gif" width="470" height="16" border="0" alt="Complete Speaker List" /></p>
+
+<!--- crash
+<table cellpadding="3" cellspacing="0" border="0" width="470">
+	<cfoutput>
+	<tr>
+		<th>#IIf(order EQ "last_name",DE("&gt; "),DE(""))#<a href="#CGI.SCRIPT_NAME#" class="th">Name</a></th>
+		<th>#IIf(order EQ "organization",DE("&gt; "),DE(""))#<a href="#CGI.SCRIPT_NAME#?order=organization" class="th">Organization</a></th>
+		<th>#IIf(order EQ "session_code",DE("&gt; "),DE(""))#<a href="#CGI.SCRIPT_NAME#?order=session_code" class="th">Session</a></th>
+	</tr>
+	</cfoutput>
+			
+		<cfoutput query="get_speakers" group="speaker_id">
+			<cfset ct = 0>
+			<cfquery datasource=#application.confplan_database# name="getTrackId2">
+			SELECT s_session_category_id
+			FROM s_sessions
+			WHERE s_session_id=#s_session_id#
+			</cfquery>
+			
+			
+			<cfif cssclass EQ "evenrow">
+				<cfset cssclass = "oddrow">
+			<cfelse>
+				<cfset cssclass = "evenrow">
+			</cfif>
+			
+			<tr>
+				<td valign="top" class="#cssclass#">#last_name#, #first_name#</td>
+				<td valign="top" class="#cssclass#">#organization#</td>
+				<td valign="top" class="#cssclass#">
+				<cfoutput>
+					<cfset ct = ct+1>
+					<cfif ct GT 1><br /></cfif>
+					<cfquery datasource=#application.confplan_database# name="getTrackId2">
+					SELECT s_session_category_id
+					FROM s_sessions
+					WHERE s_session_id=#s_session_id#
+					</cfquery>
+					<a href="/conference_program/tracks_workshops/tracks.shtml?track_id=#getTrackId2.s_session_category_id####s_session_id#">#session_code#</a>
+				</cfoutput>
+				</td>
+			</tr>
+		</cfoutput>
+</table>
+--->
+
+
+
+<table border="1" cellpadding="3" cellspacing="0">
+ <tr>
+  <th>First</th>
+  <th>Last</th>
+  <th>Title</th>
+  <th>Company</th>
+  <th>Session/Workshop</th>
+ </tr>
+ <tr>
+  <td valign="top">Liz</td>
+  <td valign="top">Allen</td>
+  <td valign="top">Director of Marketing</td>
+  <td valign="top">LucasArts Entertainment</td>
+  <td valign="top" align="center"><a href="track3.shtml#2">3.2</a></td>
+  
+ </tr>
+ <tr>
+  <td valign="top">Steve</td>
+  <td valign="top">Allison</td>
+  <td valign="top">Vice President, Marketing, Los Angeles Studio</td>
+  <td valign="top">Infogrames</td>
+  <td valign="top">&nbsp;</td>
+ </tr>
+ <tr>
+  <td valign="top">Jeff</td>
+  <td valign="top">Anderson</td>
+  <td valign="top">President and CEO</td>
+  <td valign="top">Turbine Entertainment Software</td>
+  
+  <td valign="top" align="center"><a href="workshops.shtml#7">W7</a></td>
+ </tr>
+ <tr>
+  <td valign="top">Randy </td>
+  <td valign="top">Angle</td>
+  <td valign="top">President/Creative Director</td>
+  <td valign="top">Pronto Games, Inc.</td>
+  
+  <td valign="top" align="center"><a href="workshops.shtml#2">W2</a></td>
+ </tr>
+ <tr>
+  <td valign="top">Isaac</td>
+  <td valign="top">Babbs</td>
+  <td valign="top">President, Worldwide Distribution and Marketing</td>
+  <td valign="top">Sorrent</td>
+  
+  <td valign="top" align="center"><a href="workshops.shtml#8">W8</a></td>
+ </tr>
+ <tr>
+  <td valign="top">Brian</td>
+  <td valign="top">Baglow</td>
+  <td valign="top">Founder, CEO</td>
+  <td valign="top">Indoctrimat P.R.</td>
+  <td valign="top" align="center"><a href="track3.shtml#2">3.2</a></td>
+  
+ </tr>
+ <tr>
+  <td valign="top">Karthik</td>
+  <td valign="top">Bala</td>
+  <td valign="top">CEO</td>
+  <td valign="top">Vicarious Visions, Inc.</td>
+  <td valign="top" align="center"><a href="track3.shtml#6">3.6</a></td>
+  
+ </tr>
+ <tr>
+  <td valign="top">Jonty</td>
+  <td valign="top">Barnes</td>
+  <td valign="top">Head of Studio</td>
+  <td valign="top">Black &amp; White Studios</td>
+  <td valign="top" align="center"><a href="track4.shtml#4">4.4</a></td>
+  
+ </tr>
+ <tr>
+  <td valign="top">Charles </td>
+  <td valign="top">Bellfield</td>
+  <td valign="top">V.P. of Strategic
+  Planning</td>
+  <td valign="top">SEGA of America</td>
+  <td valign="top" align="center"><a href="track1.shtml#3">1.3</a></td>
+  
+ </tr>
+ <tr>
+  <td valign="top">Matthew</td>
+  <td valign="top">Bellows</td>
+  <td valign="top">President</td>
+  <td valign="top">Wireless Gaming Review (WGR) Media, Inc.</td>
+  
+  <td valign="top" align="center"><a href="workshops.shtml#9">W9</a></td>
+ </tr>
+ <tr>
+  <td valign="top">Amy </td>
+  <td valign="top">Bernstein</td>
+  <td valign="top">Senior Editor</td>
+  <td valign="top">Business 2.0</td>
+  <td valign="top" align="center"><a href="track2.shtml#1">2.1</a></td>
+  
+ </tr>
+ <tr>
+  <td valign="top">Seamus</td>
+  <td valign="top">Blackley</td>
+  <td valign="top">&nbsp;</td>
+  <td valign="top">Capital Entertainment Group</td>
+  <td valign="top" align="center"><a href="workshops.shtml#6">W6</a></td>
+ </tr>
+ <tr>
+  <td valign="top">Haden</td>
+  <td valign="top">Blackman</td>
+  <td valign="top">Producer</td>
+  <td valign="top">LucasArts Entertainment</td>
+  
+  <td valign="top" align="center"><a href="workshops.shtml#2">W2</a></td>
+ </tr>
+ <tr>
+  <td valign="top">Keith </td>
+  <td valign="top">Boesky</td>
+  <td valign="top">Head, Video Games Division</td>
+  <td valign="top">ICM</td>
+  <td valign="top" align="center"><a href="track4.shtml#1">4.1</a></td>
+  
+ </tr>
+ <tr>
+  <td valign="top">Vince</td>
+  <td valign="top">Broady</td>
+  <td valign="top">Founder and SVP</td>
+  <td valign="top">GameSpot</td>
+  <td valign="top" align="center"><a href="track3.shtml#1">3.1</a></td>
+  
+ </tr>
+ <tr>
+  <td valign="top">John</td>
+  <td valign="top">Buchanan</td>
+  <td valign="top">Director, Advanced Technology</td>
+  <td valign="top">Electronic Arts</td>
+  <td valign="top" align="center"><a href="track3.shtml#6">3.6</a></td>
+  
+ </tr>
+ <tr>
+  <td valign="top">Jeff</td>
+  <td valign="top">Butler</td>
+  <td valign="top">Vice President</td>
+  <td valign="top">Sigil Games Online, Inc.</td>
+  <td valign="top" align="center"><a href="track3.shtml#4">3.4</a></td>
+  
+ </tr>
+ <tr>
+  <td valign="top">Rio</td>
+  <td valign="top">Caraeff</td>
+  <td valign="top">Vice President of Wireless Services</td>
+  <td valign="top">Sony Pictures Mobile</td>
+  <td valign="top" align="center"><a href="track1.shtml#5">1.5</a></td>
+  
+ </tr>
+ <tr>
+  <td valign="top">John</td>
+  <td valign="top">Carmack</td>
+  <td valign="top">Co-founder and Chief Technical Engineer</td>
+  <td valign="top">id Software</td>
+  <td valign="top" align="center"><a href="track2.shtml#3">2.3</a></td>
+  
+ </tr>
+ <tr>
+  <td valign="top">Anita</td>
+  <td valign="top">Chabria</td>
+  <td valign="top">Los Angeles Bureau Chief</td>
+  <td valign="top">PRWeek Magazine</td>
+  <td valign="top" align="center"><a href="track2.shtml#6">2.6</a></td>
+  
+ </tr>
+ <tr>
+  <td valign="top">Simon</td>
+  <td valign="top">Chang</td>
+  <td valign="top">Director of Publishing</td>
+  <td valign="top">Greater China, En-Tranz</td>
+  <td valign="top" align="center"><a href="track2.shtml#4">2.4</a></td>
+  
+ </tr>
+ <tr>
+  <td valign="top">Doug</td>
+  <td valign="top">Church</td>
+  <td valign="top">Game Designer</td>
+  <td valign="top">ION Storm/Austin</td>
+  <td valign="top" align="center"><a href="track4.shtml#4">4.4</a></td>
+  
+ </tr>
+ <tr>
+  <td valign="top">David</td>
+  <td valign="top">Cohen Corval</td>
+  <td valign="top">President, Producer, Editorial Director</td>
+  <td valign="top">NEVRAX</td>
+  
+  <td valign="top" align="center"><a href="workshops.shtml#7">W7</a></td>
+ </tr>
+ <tr>
+  <td valign="top">Greg</td>
+  <td valign="top">Costikyan</td>
+  <td valign="top">Co-founder and Chief Creative Officer</td>
+  <td valign="top">Unplugged, Inc.</td>
+  <td valign="top" align="center"><a href="track1.shtml#5">1.5</a></td>
+  
+ </tr>
+ <tr>
+  <td valign="top">N'Gai</td>
+  <td valign="top">Croal</td>
+  <td valign="top">General Editor </td>
+  <td valign="top">Newsweek</td>
+  <td valign="top" align="center"><a href="track2.shtml#3">2.3</a></td>
+  
+ </tr>
+ <tr>
+  <td valign="top">Joe</td>
+  <td valign="top">D'Angelo</td>
+  <td valign="top">Writer</td>
+  <td valign="top">MTV News</td>
+  <td valign="top" align="center"><a href="track4.shtml#2">4.2</a></td>
+  
+ </tr>
+ <tr>
+  <td valign="top">Don</td>
+  <td valign="top">Daglow</td>
+  <td valign="top">President and CEO</td>
+  <td valign="top">Stormfront Studios</td>
+  <td valign="top" align="center"><a href="track3.shtml#6">3.6</a></td>
+  
+ </tr>
+ <tr>
+  <td valign="top">Gonzague </td>
+  <td valign="top">de Vallois</td>
+  <td valign="top">Vice President Publishing</td>
+  <td valign="top">Gameloft</td>
+  
+  <td valign="top" align="center"><a href="workshops.shtml#9">W9</a></td>
+ </tr>
+ <tr>
+  <td valign="top">Jason</td>
+  <td valign="top">Della Rocca</td>
+  <td valign="top">Program Director</td>
+  <td valign="top">International Game Developers Association</td>
+  <td valign="top" align="center"><a href="track3.shtml#6">3.6</a></td>
+  
+ </tr>
+ <tr>
+  <td valign="top">Mark</td>
+  <td valign="top">DeLoura</td>
+  <td valign="top">Manager of Developer Relations</td>
+  <td valign="top">Sony Computer Entertainment America</td>
+  <td valign="top" align="center"><a href="track1.shtml#4">1.4</a></td>
+  
+ </tr>
+ <tr>
+  <td valign="top">Nick</td>
+  <td valign="top">deSemov</td>
+  <td valign="top">Art Director</td>
+  <td valign="top">B-Awake Productions</td>
+  <td valign="top" align="center"><a href="track4.shtml#1">4.1</a></td>
+  
+ </tr>
+ <tr>
+  <td valign="top">Larry</td>
+  <td valign="top">Dunlap</td>
+  <td valign="top">Founder and Creative Director</td>
+  <td valign="top">Intelligent Life Games</td>
+  <td valign="top" align="center"><a href="track1.shtml#1">1.1</a></td>
+  
+ </tr>
+ <tr>
+  <td valign="top">Doug</td>
+  <td valign="top">Dyer</td>
+  <td valign="top">General Manager</td>
+  <td valign="top">THQ Wireless</td>
+  <td valign="top" align="center"><a href="track1.shtml#5">1.5</a></td>
+  
+ </tr>
+ <tr>
+  <td valign="top">Philippe</td>
+  <td valign="top">Erwin</td>
+  <td valign="top">Vice President, Interactive Entertainment,</td>
+  <td valign="top">Warner Bros.</td>
+  <td valign="top" align="center"><a href="track2.shtml#1">2.1</a></td>
+  
+ </tr>
+ <tr>
+  <td valign="top">Noah</td>
+  <td valign="top">Falstein</td>
+  <td valign="top">President</td>
+  <td valign="top">The Inspiracy</td>
+  <td valign="top" align="center"><a href="track4.shtml#1">4.1</a></td>
+  
+ </tr>
+ <tr>
+  <td valign="top">Carolyn</td>
+  <td valign="top">Feinstein</td>
+  <td valign="top">Vice
+  President of Marketing Communications </td>
+  <td valign="top">Electronic Arts</td>
+  
+  <td valign="top" align="center"><a href="workshops.shtml#1">W1</a></td>
+ </tr>
+ <tr>
+  <td valign="top">Mathieu</td>
+  <td valign="top">Ferland</td>
+  <td valign="top">Senior Producer</td>
+  <td valign="top">Ubi Soft Entertainment</td>
+  <td valign="top" align="center"><a href="track2.shtml#5">2.5</a></td>
+  
+ </tr>
+ <tr>
+  <td valign="top">Cameron</td>
+  <td valign="top">Ferroni</td>
+  <td valign="top">Director, Xbox Content Services</td>
+  <td valign="top">Microsoft </td>
+  <td valign="top" align="center"><a href="track1.shtml#3">1.3</a></td>
+  
+ </tr>
+ <tr>
+  <td valign="top">Matt</td>
+  <td valign="top">Firor</td>
+  <td valign="top">Executive Producer</td>
+  <td valign="top">Mythic Entertainment (Dark Age of Camelot team)</td>
+  <td valign="top" align="center"><a href="track1.shtml#4">1.4</a></td>
+  
+ </tr>
+ <tr>
+  <td valign="top">Tom</td>
+  <td valign="top">Frisina</td>
+  <td valign="top">Vice President &amp; General Manager</td>
+  <td valign="top">Electronic Arts</td>
+  
+  <td valign="top" align="center"><a href="workshops.shtml#6">W6</a></td>
+ </tr>
+ <tr>
+  <td valign="top">Bill</td>
+  <td valign="top">Fulton</td>
+  <td valign="top">User Testing Manager</td>
+  <td valign="top">Microsoft</td>
+  
+  <td valign="top" align="center"><a href="workshops.shtml#1">W1</a></td>
+ </tr>
+ <tr>
+  <td valign="top">Alex </td>
+  <td valign="top">Garden</td>
+  <td valign="top">Chief Executive Officer</td>
+  <td valign="top">Relic Entertainment, Inc.</td>
+  
+  <td valign="top" align="center"><a href="workshops.shtml#6">W6</a></td>
+ </tr>
+ <tr>
+  <td valign="top">Richard</td>
+  <td valign="top">Garriott</td>
+  <td valign="top">Executive Producer</td>
+  <td valign="top">NCsoft </td>
+  <td valign="top" align="center"><a href="track1.shtml#2">1.2</a></td>
+  
+ </tr>
+ <tr>
+  <td valign="top">Michael</td>
+  <td valign="top">Gartenberg</td>
+  <td valign="top">Vice President and Research Director</td>
+  <td valign="top">Jupiter Research</td>
+  
+  <td valign="top" align="center"><a href="workshops.shtml#1">W1</a></td>
+ </tr>
+ <tr>
+  <td valign="top">Frank</td>
+  <td valign="top">Gibeau</td>
+  <td valign="top">Senior Vice President, North America Marketing</td>
+  <td valign="top">Electronic Arts</td>
+  
+  <td valign="top" align="center"><a href="workshops.shtml#4">W4</a></td>
+ </tr>
+ <tr>
+  <td valign="top">Germaine</td>
+  <td valign="top">Gioia</td>
+  <td valign="top">Vice President
+  Licensing</td>
+  <td valign="top">THQ, Inc.</td>
+  <td valign="top" align="center"><a href="track4.shtml#2">4.2</a></td>
+  
+ </tr>
+ <tr>
+  <td valign="top">Mitch</td>
+  <td valign="top">Gitelman</td>
+  <td valign="top">Executive Producer,
+  FASA Studios </td>
+  <td valign="top">Microsoft (MechAssault team)</td>
+  <td valign="top" align="center"><a href="track1.shtml#4">1.4</a></td>
+  
+ </tr>
+ <tr>
+  <td valign="top">Eric</td>
+  <td valign="top">Goldberg</td>
+  <td valign="top">Principal</td>
+  <td valign="top">Crossover</td>
+  <td valign="top" align="center"><a href="track1.shtml#6">1.6</a></td>
+  
+ </tr>
+ <tr>
+  <td valign="top">Ken</td>
+  <td valign="top">Goldstein</td>
+  <td valign="top">Executive VP and Managing Director</td>
+  <td valign="top">Disney Online</td>
+  <td valign="top" align="center"><a href="track4.shtml#1">4.1</a></td>
+  
+ </tr>
+ <tr>
+  <td valign="top">Paul</td>
+  <td valign="top">Goode</td>
+  <td valign="top">Developer Services Director</td>
+  <td valign="top">Metrowerks EMEA</td>
+  <td valign="top" align="center"><a href="track1.shtml#6">1.6</a></td>
+  
+ </tr>
+ <tr>
+  <td valign="top">Bing</td>
+  <td valign="top">Gordon</td>
+  <td valign="top">EVP and Chief Creative Officer</td>
+  <td valign="top">Electronic Arts</td>
+  <td valign="top" align="center"><a href="track3.shtml#1">3.1</a></td>
+  
+ </tr>
+ <tr>
+  <td valign="top">Rob</td>
+  <td valign="top">Gordon</td>
+  <td valign="top">&nbsp;</td>
+  <td valign="top">Capital/EMI</td>
+  <td valign="top" align="center"><a href="track4.shtml#2">4.2</a></td>
+  
+ </tr>
+ <tr>
+  <td valign="top">Ray</td>
+  <td valign="top">Gresko</td>
+   <td valign="top">&nbsp;</td>
+  <td valign="top">Blizzard Entertainment</td>
+  <td valign="top" align="center"><a href="track4.shtml#3">4.3</a></td>
+  
+ </tr>
+ <tr>
+  <td valign="top">Justin</td>
+  <td valign="top">Hall</td>
+  <td valign="top">Game Culture Correspondent</td>
+  <td valign="top">Links.net</td>
+  <td valign="top" align="center"><a href="track2.shtml#4">2.4</a></td>
+  
+ </tr>
+ <tr>
+  <td valign="top">Trip</td>
+  <td valign="top">Hawkins</td>
+  <td valign="top">Founder, Chairman &amp; CEO</td>
+  <td valign="top">The 3DO Company</td>
+  <td valign="top" align="center"><a href="track3.shtml#5">3.5</a></td>
+  
+ </tr>
+ <tr>
+  <td valign="top">Barbara</td>
+  <td valign="top">Hayes-Roth</td>
+  <td valign="top">CEO</td>
+  <td valign="top">Extempo Systems, Inc.</td>
+  
+  <td valign="top" align="center"><a href="workshops.shtml#3">W3</a></td>
+ </tr>
+ <tr>
+  <td valign="top">John</td>
+  <td valign="top">Heinecke</td>
+  <td valign="top">Director of Global Brand Management</td>
+  <td valign="top">Activision</td>
+  <td valign="top" align="center"><a href="track3.shtml#2">3.2</a></td>
+  
+ </tr>
+ <tr>
+  <td valign="top">Randy</td>
+  <td valign="top">Hinrichs</td>
+  <td valign="top">Group Program Mgr. for Learning Science and Tech</td>
+  <td valign="top">Microsoft</td>
+  
+  <td valign="top" align="center"><a href="workshops.shtml#3">W3</a></td>
+ </tr>
+ <tr>
+  <td valign="top">Charles</td>
+  <td valign="top">Hirschhorn</td>
+  <td valign="top">CEO &amp; Founder</td>
+  <td valign="top">G4 </td>
+  <td valign="top" align="center"><a href="track2.shtml#1">2.1</a></td>
+  
+ </tr>
+ <tr>
+  <td valign="top">Todd</td>
+  <td valign="top">Hollenshead</td>
+  <td valign="top">CEO</td>
+  <td valign="top">id Software</td>
+  <td valign="top" align="center"><a href="track3.shtml#1">3.1</a></td>
+  
+ </tr>
+ <tr>
+  <td valign="top">Courtney</td>
+  <td valign="top">Holt</td>
+  <td valign="top">Executive Vice
+  President - Marketing</td>
+  <td valign="top">Interscope Geffen A&amp;M Records</td>
+  <td valign="top" align="center"><a href="track4.shtml#2">4.2</a></td>
+  
+ </tr>
+ <tr>
+  <td valign="top">Todd</td>
+  <td valign="top">Howard</td>
+  <td valign="top">Executive Producer</td>
+  <td valign="top">Bethesda Softworks</td>
+  
+  <td valign="top" align="center"><a href="workshops.shtml#2">W2</a></td>
+ </tr>
+ <tr>
+  <td valign="top">Robert E.</td>
+  <td valign="top">Huntley</td>
+  <td valign="top">Chairman &amp; CEO</td>
+  <td valign="top">DWANGO, North America </td>
+  <td valign="top" align="center"><a href="track1.shtml#6">1.6</a></td>
+  
+ </tr>
+ <tr>
+  <td valign="top">Mark</td>
+  <td valign="top">Jacobs</td>
+  <td valign="top">President and CEO</td>
+  <td valign="top">Mythic Entertainment</td>
+  <td valign="top" align="center"><a href="track1.shtml#1">1.1</a></td>
+  
+ </tr>
+ <tr>
+  <td valign="top">David</td>
+  <td valign="top">Jones</td>
+  <td valign="top">Director</td>
+  <td valign="top">Real Time Worlds</td>
+  <td valign="top" align="center"><a href="track4.shtml#6">4.6</a></td>
+  
+ </tr>
+ <tr>
+  <td valign="top">Chris</td>
+  <td valign="top">Kantrowitz</td>
+  <td valign="top">Executive Producer</td>
+  <td valign="top">7ate9</td>
+  
+  <td valign="top" align="center"><a href="workshops.shtml#5">W5</a></td>
+ </tr>
+ <tr>
+  <td valign="top">Don</td>
+  <td valign="top">Karl</td>
+  <td valign="top">Partner</td>
+  <td valign="top">Perkins Coie LLP</td>
+  
+  <td valign="top" align="center"><a href="workshops.shtml#8">W8</a></td>
+ </tr>
+ <tr>
+  <td valign="top">Greg</td>
+  <td valign="top">Kasavin</td>
+  <td valign="top">Executive Editor</td>
+  <td valign="top">GameSpot</td>
+  <td valign="top" align="center"><a href="track2.shtml#5">2.5</a></td>
+  
+ </tr>
+ <tr>
+  <td valign="top">Geoff</td>
+  <td valign="top">Keighley</td>
+  <td valign="top">Editor in Chief</td>
+  <td valign="top">GameSlice.com</td>
+  <td valign="top" align="center"><a href="track4.shtml#3">4.3</a></td>
+  
+ </tr>
+ <tr>
+  <td valign="top">Chong-Heon (Jay)</td>
+  <td valign="top">Kim</td>
+  <td valign="top">Vice President of Interesting &amp; Creative</td>
+  <td valign="top">I&amp;C Inc. (KOREA: Demiurges team)</td>
+  
+  <td valign="top" align="center"><a href="workshops.shtml#3">W3</a></td>
+ </tr>
+ <tr>
+  <td valign="top">Raph</td>
+  <td valign="top">Koster</td>
+  <td valign="top">Creative Director</td>
+  <td valign="top">Sony
+  Online Entertainment (Star Wars Galaxies) </td>
+  <td valign="top" align="center"><a href="track1.shtml#2">1.2</a></td>
+  
+ </tr>
+ <tr>
+  <td valign="top">David</td>
+  <td valign="top">Kushner</td>
+  <td valign="top">Author</td>
+  <td valign="top">Author</td>
+  <td valign="top" align="center"><a href="track4.shtml#6">4.6</a></td>
+  
+ </tr>
+ <tr>
+  <td valign="top">Yong-Joo</td>
+  <td valign="top">Kwun</td>
+  <td valign="top">USA &amp; Europe Team Manager</td>
+  <td valign="top">Actoz Soft Co., Ltd. (KOREA: A3, Legend of Mir2)</td>
+  <td valign="top" align="center"><a href="track2.shtml#4">2.4</a></td>
+  
+ </tr>
+ <tr>
+  <td valign="top">Lorne</td>
+  <td valign="top">Lanning</td>
+  <td valign="top">President and Creative Director</td>
+  <td valign="top">Oddworld Inhabitants</td>
+  
+  <td valign="top" align="center"><a href="workshops.shtml#4">W4</a></td>
+ </tr>
+ <tr>
+  <td valign="top">Mitch</td>
+  <td valign="top">Lasky</td>
+  <td valign="top">CEO</td>
+  <td valign="top">JAMDAT Mobile, Inc.</td>
+  <td valign="top" align="center"><a href="track1.shtml#6">1.6</a></td>
+  
+ </tr>
+ <tr>
+  <td valign="top">Marc</td>
+  <td valign="top">LeBlanc</td>
+  <td valign="top">Software Engineer</td>
+  <td valign="top">Visual Concepts</td>
+  
+  <td valign="top" align="center"><a href="workshops.shtml#2">W2</a></td>
+ </tr>
+ <tr>
+  <td valign="top">Rob</td>
+  <td valign="top">Levine</td>
+  <td valign="top">Senior Editor</td>
+  <td valign="top">Wired Magazine</td>
+  <td valign="top" align="center"><a href="track1.shtml#2">1.2</a></td>
+  
+ </tr>
+ <tr>
+  <td valign="top">Dejian</td>
+  <td valign="top">Liu</td>
+  <td valign="top">Founder and CEO </td>
+  <td valign="top">NetDragon Websoft Inc.</td>
+  <td valign="top" align="center"><a href="track2.shtml#2">2.2</a></td>
+  
+ </tr>
+ <tr>
+  <td valign="top">Alison</td>
+  <td valign="top">Locke</td>
+  <td valign="top">Executive Vice President of North American Publishing</td>
+  <td valign="top">THQ</td>
+  <td valign="top" align="center"><a href="track3.shtml#3">3.3</a></td>
+  
+ </tr>
+ <tr>
+  <td valign="top">Aaron</td>
+  <td valign="top">Loeb</td>
+  <td valign="top">Producer</td>
+  <td valign="top">Planet Moon Studios</td>
+  <td valign="top" align="center"><a href="track3.shtml#4">3.4</a></td>
+  
+ </tr>
+ <tr>
+  <td valign="top">Mark</td>
+  <td valign="top">Long</td>
+  <td valign="top">Co-founder and Co-CEO</td>
+  <td valign="top">Zombie Inc.</td>
+  
+  <td valign="top" align="center"><a href="workshops.shtml#8">W8</a></td>
+ </tr>
+ <tr>
+  <td valign="top">Starr </td>
+  <td valign="top">Long</td>
+  <td valign="top">Producer</td>
+  <td valign="top">NCsoft</td>
+  <td valign="top" align="center"><a href="track2.shtml#2">2.2</a></td>
+  
+ </tr>
+ <tr>
+  <td valign="top">Michael</td>
+  <td valign="top">Macedonia</td>
+  <td valign="top">CTO</td>
+  <td>U.S. Army Program
+  Executive Office for Simulation, Training and Instrumentation
+  (PEO STRI).</td>
+  
+  <td valign="top" align="center"><a href="workshops.shtml#3">W3</a></td>
+ </tr>
+ <tr>
+  <td valign="top">David</td>
+  <td valign="top">Mandelbrot</td>
+  <td valign="top">General Manager/Vice President, Media and Entertainment</td>
+  <td valign="top">Yahoo! Inc.</td>
+  <td valign="top" align="center"><a href="track2.shtml#1">2.1</a></td>
+  
+ </tr>
+ <tr>
+  <td valign="top">Eugene </td>
+  <td valign="top">Mauro</td>
+  <td valign="top">CEO</td>
+  <td valign="top">Capital Entertainment Group, Inc.</td>
+  
+  <td valign="top" align="center"><a href="workshops.shtml#8">W8</a></td>
+ </tr>
+ <tr>
+  <td valign="top">Scott</td>
+  <td valign="top">McDaniel</td>
+  <td valign="top">Vice President Marketing &amp; PR</td>
+  <td valign="top">Sony Online Entertainment</td>
+  
+  <td valign="top" align="center"><a href="workshops.shtml#1">W1</a></td>
+ </tr>
+ <tr>
+  <td valign="top">American</td>
+  <td valign="top">McGee</td>
+  <td valign="top">Chief Creative Officer</td>
+  <td valign="top">Carbon6 Entertainment</td>
+  <td valign="top" align="center"><a href="track4.shtml#1">4.1</a></td>
+  
+ </tr>
+ <tr>
+  <td valign="top">Brad </td>
+  <td valign="top">McQuaid</td>
+  <td valign="top">President &amp; CEO</td>
+  <td valign="top">Sigil Games Online, Inc.</td>
+  <td valign="top" align="center"><a href="track1.shtml#1">1.1</a></td>
+  
+ </tr>
+ <tr>
+  <td valign="top">Rand </td>
+  <td valign="top">Miller</td>
+  <td valign="top">CEO</td>
+  <td valign="top">Cyan Worlds</td>
+  <td valign="top">&nbsp;</td>
+ </tr>
+ <tr>
+  <td valign="top">Peter</td>
+  <td valign="top">Molyneux</td>
+  <td valign="top">Managing Director</td>
+  <td valign="top">Lionhead Studios</td>
+  <td valign="top" align="center"><a href="track4.shtml#6">4.6</a></td>
+  
+ </tr>
+ <tr>
+  <td valign="top">Tim</td>
+  <td valign="top">Morten</td>
+  <td valign="top">CEO</td>
+  <td valign="top">Savage Entertainment</td>
+  <td valign="top" align="center"><a href="track3.shtml#4">3.4</a></td>
+  
+ </tr>
+ <tr>
+  <td valign="top">Stuart</td>
+  <td valign="top">Moulder</td>
+  <td valign="top">General Manager, PC Games</td>
+  <td valign="top">Microsoft</td>
+  <td valign="top" align="center"><a href="track3.shtml#1">3.1</a></td>
+  
+ </tr>
+ <tr>
+  <td valign="top">Jessica</td>
+  <td valign="top">Mulligan</td>
+  <td valign="top">Executive Producer</td>
+  <td valign="top">Turbine Entertainment Software</td>
+  <td valign="top" align="center"><a href="track1.shtml#1">1.1</a></td>
+  
+ </tr>
+ <tr>
+  <td valign="top">Ray</td>
+  <td valign="top">Muzyka</td>
+  <td valign="top">Joint CEO </td>
+  <td valign="top">BioWare Corp.</td>
+  
+  <td valign="top" align="center"><a href="workshops.shtml#4">W4</a></td>
+ </tr>
+ <tr>
+  <td valign="top">Yasuaki</td>
+  <td valign="top">Nagoshi</td>
+  <td valign="top">President</td>
+  <td valign="top">Red Entertainment Co. (JAPAN: Project N.U.D.E.)</td>
+  <td valign="top" align="center"><a href="track2.shtml#4">2.4</a></td>
+  
+ </tr>
+ <tr>
+  <td valign="top">Zack</td>
+  <td valign="top">Norman</td>
+  <td valign="top">Senior Vice President of Publishing</td>
+  <td valign="top">JAMDAT Studios</td>
+  
+  <td valign="top" align="center"><a href="workshops.shtml#9">W9</a></td>
+ </tr>
+ <tr>
+  <td valign="top">Joon S.</td>
+  <td valign="top">Oh</td>
+  <td valign="top">Global Business Manager</td>
+  <td valign="top">CCR Inc. (KOREA: Fortress 2 Blue)</td>
+  <td valign="top" align="center"><a href="track2.shtml#4">2.4</a></td>
+  
+ </tr>
+ <tr>
+  <td valign="top">Richard</td>
+  <td valign="top">Ow</td>
+  <td valign="top">Senior Account Manager, Video Games</td>
+  <td valign="top">The NPD Group, Inc.</td>
+  <td valign="top" align="center"><a href="track3.shtml#3">3.3</a></td>
+  
+ </tr>
+ <tr>
+  <td valign="top">Michael</td>
+  <td valign="top">Pachter</td>
+  <td valign="top">Vice President, Research Entertainment Software Publishing/Retail</td>
+  <td valign="top">Wedbush Morgan Securities</td>
+  <td valign="top" align="center"><a href="track3.shtml#3">3.3</a></td>
+  
+ </tr>
+ <tr>
+  <td valign="top">Kim</td>
+  <td valign="top">Pallister</td>
+  <td valign="top">Technical Marketing Strategist</td>
+  <td valign="top">Intel</td>
+  <td valign="top" align="center"><a href="track4.shtml#5">4.5</a></td>
+  
+ </tr>
+ <tr>
+  <td valign="top">Seul-Ki </td>
+  <td valign="top">Park</td>
+  <td valign="top">Project Manager</td>
+  <td valign="top">Daekyo (KOREA: Demiurges team) </td>
+  
+  <td valign="top" align="center"><a href="workshops.shtml#3">W3</a></td>
+ </tr>
+ <tr>
+  <td valign="top">Peter</td>
+  <td valign="top">Parsons</td>
+  <td valign="top">Bungie Studio Manager</td>
+  <td valign="top">Microsoft Corporation</td>
+  <td valign="top" align="center"><a href="track4.shtml#3">4.3</a></td>
+  
+ </tr>
+ <tr>
+  <td valign="top">Dave</td>
+  <td valign="top">Perry</td>
+  <td valign="top">President</td>
+  <td valign="top">Shiny Entertainment</td>
+  <td valign="top" align="center"><a href="track3.shtml#6">3.6</a>, <a href="track4.shtml#5">4.5</a></td>
+  
+ </tr>
+ <tr>
+  <td valign="top">Alex</td>
+  <td valign="top">Pham</td>
+  <td valign="top">Technology Reporter</td>
+  <td valign="top">Los Angeles Times</td>
+  <td valign="top" align="center"><a href="track3.shtml#3">3.3</a></td>
+  
+ </tr>
+ <tr>
+  <td valign="top">Ted</td>
+  <td valign="top">Price</td>
+  <td valign="top">President/CEO</td>
+  <td valign="top">Insomniac Games</td>
+  <td valign="top" align="center"><a href="track2.shtml#5">2.5</a></td>
+  
+ </tr>
+ <tr>
+  <td valign="top">Simon</td>
+  <td valign="top">Price</td>
+  <td valign="top">Analyst</td>
+  <td valign="top">International Data Group</td>
+  <td valign="top" align="center"><a href="track3.shtml#3">3.3</a></td>
+  
+ </tr>
+ <tr>
+  <td valign="top">Ilkka</td>
+  <td valign="top">Raiskinen</td>
+  <td valign="top">Senior VP Entertainment and Media</td>
+  <td valign="top">Nokia</td>
+  <td valign="top" align="center"><a href="track2.shtml#1">2.1</a></td>
+  
+ </tr>
+ <tr>
+  <td valign="top">James</td>
+  <td valign="top">Regan</td>
+  <td valign="top">Director - Business Development</td>
+  <td valign="top">Ubi Soft Entertainment</td>
+  
+  <td valign="top" align="center"><a href="workshops.shtml#6">W6</a></td>
+ </tr>
+ <tr>
+  <td valign="top">Brian</td>
+  <td valign="top">Reynolds</td>
+  <td valign="top">President</td>
+  <td valign="top">Big Huge Games</td>
+  <td valign="top" align="center"><a href="track4.shtml#4">4.4</a></td>
+  
+ </tr>
+ <tr>
+  <td valign="top">John</td>
+  <td valign="top">Romero</td>
+  <td valign="top">CTO</td>
+  <td valign="top">Monkeystone Games</td>
+  
+  <td valign="top" align="center"><a href="workshops.shtml#9">W9</a></td>
+ </tr>
+ <tr>
+  <td valign="top">Bill</td>
+  <td valign="top">Roper</td>
+  <td valign="top">Sr Manager, Global PR</td>
+  <td valign="top">Blizzard Entertainment</td>
+  <td valign="top" align="center"><a href="track4.shtml#3">4.3</a></td>
+  
+ </tr>
+ <tr>
+  <td valign="top">Philip</td>
+  <td valign="top">Rosedale</td>
+  <td valign="top">President &amp; CEO</td>
+  <td valign="top">Linden Lab</td>
+  <td valign="top" align="center"><a href="track1.shtml#1">1.1</a></td>
+  
+ </tr>
+ <tr>
+  <td valign="top">Richard</td>
+  <td valign="top">Rouse III</td>
+  <td valign="top">Lead Designer</td>
+  <td valign="top">Surreal Software</td>
+  <td valign="top" align="center"><a href="track4.shtml#4">4.4</a></td>
+  
+ </tr>
+ <tr>
+  <td valign="top">Jason</td>
+  <td valign="top">Rubin</td>
+  <td valign="top">Co-President </td>
+  <td valign="top">Naughty Dog, Inc.</td>
+  <td valign="top" align="center"><a href="track3.shtml#1">3.1</a></td>
+  
+ </tr>
+ <tr>
+  <td valign="top">Samantha</td>
+  <td valign="top">Ryan</td>
+  <td valign="top">President</td>
+  <td valign="top">Monolith  Productions, Inc.(No One Lives Forever franchise)</td>
+  <td valign="top" align="center"><a href="track2.shtml#6">2.6</a></td>
+  
+ </tr>
+ <tr>
+  <td valign="top">Don</td>
+  <td valign="top">Ryan</td>
+  <td valign="top">Studio Manager, Zone.com </td>
+  <td valign="top">Microsoft</td>
+  
+  <td valign="top" align="center"><a href="workshops.shtml#5">W5</a></td>
+ </tr>
+ <tr>
+  <td valign="top">Adrian</td>
+  <td valign="top">Sack</td>
+  <td valign="top">Founder and CEO</td>
+  <td valign="top">Ideaworks3D</td>
+  <td valign="top" align="center"><a href="track1.shtml#5">1.5</a></td>
+  
+ </tr>
+ <tr>
+  <td valign="top">Marc</td>
+  <td valign="top">Saltzman</td>
+  <td valign="top">Freelance Journalist</td>
+  <td valign="top">Journalist</td>
+  <td valign="top" align="center"><a href="track2.shtml#6">2.6</a></td>
+  
+ </tr>
+ <tr>
+  <td valign="top">Tom</td>
+  <td valign="top">Sarris</td>
+  <td valign="top">Director of Public Relations</td>
+  <td valign="top">LucasArts Entertainment</td>
+  <td valign="top" align="center"><a href="track2.shtml#6">2.6</a></td>
+  
+ </tr>
+ <tr>
+  <td valign="top">Emilie &quot;Tobi&quot;</td>
+  <td valign="top">Saulnier</td>
+  <td valign="top">VP, Product Development</td>
+  <td valign="top">Vicarious Visions</td>
+  
+  <td valign="top" align="center"><a href="workshops.shtml#1">W1</a></td>
+ </tr>
+ <tr>
+  <td valign="top">John</td>
+  <td valign="top">Schappert</td>
+  <td valign="top">Sr. VP &amp; General Manager</td>
+  <td valign="top">Electronic Arts - Canada, Inc.</td>
+  <td valign="top" align="center"><a href="track3.shtml#5">3.5</a></td>
+  
+ </tr>
+ <tr>
+  <td valign="top">Jesse</td>
+  <td valign="top">Schell</td>
+  <td valign="top">Professor of Entertainment Technology</td>
+  <td valign="top">Carnegie Mellon University</td>
+  
+  <td valign="top" align="center"><a href="workshops.shtml#3">W3</a></td>
+ </tr>
+ <tr>
+  <td valign="top">Dan</td>
+  <td valign="top">Scherlis</td>
+  <td valign="top">CEO</td>
+  <td valign="top">Etherplay</td>
+  <td valign="top" align="center"><a href="track1.shtml#5">1.5</a></td>
+  
+ </tr>
+ <tr>
+  <td valign="top">Elizabeth</td>
+  <td valign="top">Schimel</td>
+  <td valign="top">Vice President, Business Development</td>
+  <td valign="top">AT&amp;T Wireless</td>
+  <td valign="top" align="center"><a href="track1.shtml#6">1.6</a></td>
+  
+ </tr>
+ <tr>
+  <td valign="top">James</td>
+  <td valign="top">Schmalz</td>
+  <td valign="top">Founder and Creative Director</td>
+  <td valign="top">Digital Extremes</td>
+  <td valign="top" align="center"><a href="track3.shtml#4">3.4</a></td>
+  
+ </tr>
+ <tr>
+  <td valign="top">Steve</td>
+  <td valign="top">Schnur</td>
+  <td valign="top">WW Executive of Music, Creative VP</td>
+  <td valign="top">Electronic Arts</td>
+  <td valign="top" align="center"><a href="track4.shtml#2">4.2</a></td>
+  
+ </tr>
+ <tr>
+  <td valign="top">Rob</td>
+  <td valign="top">Sebastian</td>
+  <td valign="top">&nbsp;</td>
+  <td valign="top">The Endeavor Agency</td>
+  <td valign="top" align="center"><a href="track2.shtml#2">2.2</a></td>
+  
+ </tr>
+ <tr>
+  <td valign="top">Min</td>
+  <td valign="top">Seo</td>
+  <td valign="top">C.T.O.</td>
+  <td valign="top">Nexon (KOREA: Kingdom of the Winds)</td>
+  <td valign="top" align="center"><a href="track1.shtml#2">1.2</a></td>
+  
+ </tr>
+ <tr>
+  <td valign="top">Alexander </td>
+  <td valign="top">Seropian</td>
+  <td valign="top">Founder and former CEO </td>
+  <td valign="top">Bungie Software</td>
+  <td valign="top" align="center"><a href="track3.shtml#4">3.4</a></td>
+  
+ </tr>
+ <tr>
+  <td valign="top">Junji</td>
+  <td valign="top">Shoda</td>
+  <td valign="top">Vice President, Online Publishing</td>
+  <td valign="top">Electronic Arts/Japan</td>
+  
+  <td valign="top" align="center"><a href="workshops.shtml#7">W7</a></td>
+ </tr>
+ <tr>
+  <td valign="top">Daniel</td>
+  <td valign="top">Sieberg</td>
+  <td valign="top">Technology Reporter</td>
+  <td valign="top">CNN Headline News</td>
+  <td valign="top" align="center"><a href="track1.shtml#3">1.3</a></td>
+  
+ </tr>
+ <tr>
+  <td valign="top">John</td>
+  <td valign="top">Smedley</td>
+  <td valign="top">President</td>
+  <td valign="top">Sony Online Entertainment</td>
+  <td valign="top" align="center"><a href="track1.shtml#3">1.3</a></td>
+  
+ </tr>
+ <tr>
+  <td valign="top">Harvey</td>
+  <td valign="top">Smith</td>
+  <td valign="top">Project Director</td>
+  <td valign="top">ION Storm</td>
+  <td valign="top" align="center"><a href="track2.shtml#5">2.5</a></td>
+  
+ </tr>
+ <tr>
+  <td valign="top">Brian</td>
+  <td valign="top">Soderberg</td>
+  <td valign="top">Chief Technical Officer</td>
+  <td valign="top">Zipper Interactive (SOCOM: U.S. Navy Seals team)</td>
+  <td valign="top" align="center"><a href="track1.shtml#4">1.4</a></td>
+  
+ </tr>
+ <tr>
+  <td valign="top">Patrick</td>
+  <td valign="top">Soderlund</td>
+  <td valign="top">CEO</td>
+  <td valign="top">Digital Illusions (Battlefield 1942 team)</td>
+  <td valign="top" align="center"><a href="track1.shtml#4">1.4</a></td>
+  
+ </tr>
+ <tr>
+  <td valign="top">Alex</td>
+  <td valign="top">St. John</td>
+  <td valign="top">CEO &amp; Co-founder</td>
+  <td valign="top">WildTangent, Inc.</td>
+  
+  <td valign="top" align="center"><a href="workshops.shtml#5">W5</a></td>
+ </tr>
+ <tr>
+  <td valign="top">Carly</td>
+  <td valign="top">Staehlin</td>
+  <td valign="top">Design Manager</td>
+  <td valign="top">NCsoft</td>
+  
+  <td valign="top" align="center"><a href="workshops.shtml#2">W2</a></td>
+ </tr>
+ <tr>
+  <td valign="top">Brent</td>
+  <td valign="top">Stafford</td>
+  <td valign="top">Development Director, Entertainment</td>
+  <td valign="top">Alliance</td>
+  <td valign="top" align="center"><a href="track3.shtml#2">3.2</a></td>
+  
+ </tr>
+ <tr>
+  <td valign="top">Fred </td>
+  <td valign="top">Swan</td>
+  <td valign="top">Director, Marketing</td>
+  <td valign="top">Logitech, Inc.</td>
+  <td valign="top" align="center"><a href="track4.shtml#5">4.5</a></td>
+  
+ </tr>
+ <tr>
+  <td valign="top">Chris</td>
+  <td valign="top">Taylor</td>
+  <td valign="top">San Francisco Bureau Chief
+  </td>
+  <td valign="top">Time magazine</td>
+  <td valign="top" align="center"><a href="track4.shtml#5">4.5</a></td>
+  
+ </tr>
+ <tr>
+  <td valign="top">Robert</td>
+  <td valign="top">Tercek</td>
+  <td valign="top">Partner</td>
+  <td valign="top">Machines That Go Ping</td>
+  <td valign="top" align="center"><a href="track2.shtml#2">2.2</a></td>
+  
+ </tr>
+ <tr>
+  <td valign="top">Greg</td>
+  <td valign="top">Thomas</td>
+  <td valign="top">President</td>
+  <td valign="top">Visual Concepts Entertainment</td>
+  <td valign="top" align="center"><a href="track3.shtml#5">3.5</a></td>
+  
+ </tr>
+ <tr>
+  <td valign="top">Paul</td>
+  <td valign="top">Tremblay</td>
+  <td valign="top">COO</td>
+  <td valign="top">EA Black Box</td>
+  
+  <td valign="top" align="center"><a href="workshops.shtml#8">W8</a></td>
+ </tr>
+ <tr>
+  <td valign="top">Jeff</td>
+  <td valign="top">Tunnell</td>
+  <td valign="top">President</td>
+  <td valign="top">Garage Games</td>
+  
+  <td valign="top" align="center"><a href="workshops.shtml#5">W5</a></td>
+ </tr>
+ <tr>
+  <td valign="top">Shin</td>
+  <td valign="top">Unozawa</td>
+  <td valign="top">Director &amp; General Manger</td>
+  <td valign="top">Bandai</td>
+  <td valign="top">&nbsp;</td>
+ </tr>
+ <tr>
+  <td valign="top">Tina</td>
+  <td valign="top">Vennegaard</td>
+  <td valign="top">Senior Vice President</td>
+  <td valign="top">Golin/Harris International</td>
+  <td valign="top" align="center"><a href="track2.shtml#6">2.6</a></td>
+  
+ </tr>
+ <tr>
+  <td valign="top">Stephane</td>
+  <td valign="top">Vergneres</td>
+  <td valign="top">Games Product Manager</td>
+  <td valign="top">In-Fusio</td>
+  
+  <td valign="top" align="center"><a href="workshops.shtml#9">W9</a></td>
+ </tr>
+ <tr>
+  <td valign="top">Richard</td>
+  <td valign="top">Vogel</td>
+  <td valign="top">Director of Development</td>
+  <td valign="top">Sony Online Entertainment</td>
+  
+  <td valign="top" align="center"><a href="workshops.shtml#7">W7</a></td>
+ </tr>
+ <tr>
+  <td valign="top">Gordon</td>
+  <td valign="top">Walton</td>
+  <td valign="top">former Exec Producer Ultima Online, The Sims Online</td>
+  <td valign="top">&nbsp;</td>
+  <td valign="top" align="center"><a href="workshops.shtml#7">W7</a></td>
+ </tr>
+ <tr>
+  <td valign="top">Trent</td>
+  <td valign="top">Ward</td>
+  <td valign="top">Senior Producer</td>
+  <td valign="top">Digital Eclipse</td>
+  
+  <td valign="top" align="center"><a href="workshops.shtml#6">W6</a></td>
+ </tr>
+ <tr>
+  <td valign="top">Col. Casey</td>
+  <td valign="top">Wardynski</td>
+  <td valign="top">Project Originator/Project Director, America's Army</td>
+  <td valign="top">U.S. Army</td>
+  
+  <td valign="top" align="center"><a href="workshops.shtml#5">W5</a></td>
+ </tr>
+ <tr>
+  <td valign="top">Edward</td>
+  <td valign="top">Williams</td>
+  <td valign="top">Senior Vice President</td>
+  <td valign="top">Gerard Klauer Mattison</td>
+  <td valign="top" align="center"><a href="track3.shtml#3">3.3</a></td>
+  
+ </tr>
+ <tr>
+  <td valign="top">Will</td>
+  <td valign="top">Wright</td>
+  <td valign="top">VP, Chief Designer</td>
+  <td valign="top">Maxis</td>
+  <td valign="top" align="center"><a href="track4.shtml#6">4.6</a></td>
+  
+ </tr>
+ <tr>
+  <td valign="top">Neil</td>
+  <td valign="top">Young</td>
+  <td valign="top">Vice President/Executive in Charge of Production</td>
+  <td valign="top">Electronic Arts</td>
+  <td valign="top" align="center"><a href="track4.shtml#3">4.3</a></td>
+  
+ </tr>
+ <tr>
+  <td valign="top">Greg</td>
+  <td valign="top">Zeschuk</td>
+  <td valign="top">Joint CEO</td>
+  <td valign="top">BioWare Corp.</td>
+  <td valign="top" align="center"><a href="track3.shtml#2">3.2</a></td>
+  
+ </tr>
+ <tr>
+  <td valign="top">Todd</td>
+  <td valign="top">Zuniga</td>
+  <td valign="top">Associate Editor</td>
+  <td valign="top">Ziff-Davis Media</td>
+  <td valign="top" align="center"><a href="track3.shtml#5">3.5</a></td>
+  
+ </tr>
+</table>
+
+<!--- CONTENT END --->
+		<br clear="all" />
+		<img src="/bin/images/spacer.gif" width="470" height="1" border="0" alt="" /></td>
+	</tr>
+</table>
+
+<table cellpadding="0" cellspacing="0" border="0" width="675">
+	<tr>
+		<td><img src="/bin/images/spacer.gif" width="205" height="1" border="0" alt="" /></td>
+		<td>		
+			<img src="/bin/images/spacer.gif" width="1" height="20" border="0" alt="" /><br />
+			&copy; 2003 Electronic Entertainment Expo<br /><img src="/bin/images/spacer.gif" width="470" height="30" border="0" alt="" />
+		</td>
+	</tr>
+</table>
+
+</body>
+</html>

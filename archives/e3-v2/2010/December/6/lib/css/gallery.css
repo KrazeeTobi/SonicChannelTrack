@@ -1,0 +1,79 @@
+
+div.main-viewer img {
+max-width: 590px;
+display: block;
+margin: 0 auto;
+}
+div.nav-screens {
+width: 590px;
+position: relative;
+margin: 0 0 20px 0;
+}
+div.thumb-container {
+width: 485px;
+overflow: hidden;
+margin: 0 0 0 60px;
+position: relative;
+}
+div.main-body ul.arrows {
+position: relative;
+padding: 0;
+margin: 0;
+}
+div.main-body ul.arrows li {
+width: 17px;
+height: 25px;
+position: absolute;
+top: 23px;
+list-style: none;
+}
+ul.arrows li a {
+display: block;
+width: 17px;
+height: 25px;
+}
+div.main-body ul.arrows li.forward a {
+background: url(/lib/img/arrows.gif) no-repeat -17px 0;
+}
+div.main-body ul.arrows li.forward a:hover {
+background-position: -17px -25px;
+}
+
+div.main-body ul.arrows li.backward a {
+background: url(/lib/img/arrows.gif) no-repeat 0 0;
+}
+div.main-body ul.arrows li.backward a:hover {
+background-position: 0 -25px;
+}
+
+ul.arrows li a span {
+text-indent: -9999px;
+display: block;
+}
+ul.arrows li.backward {
+left: 0;
+}
+ul.arrows li.forward {
+right: 0;
+}
+div.main-body ul.thumbnails {
+width: 100000px;
+margin: 0;
+padding: 0;
+overflow: hidden;
+position: relative;
+}
+div.main-body ul.thumbnails li {
+float: left;
+width: 100px;
+height: 70px;
+overflow: hidden;
+margin: 0 23px 0 0;
+list-style: none;
+}
+div.main-body ul.thumbnails li.highlight {
+border: 2px solid #666;
+}
+ul.thumbnails li img {
+width: 120px;
+}

@@ -1,0 +1,189 @@
+/* apply form */
+div.categories{
+overflow:hidden;
+background:#1f3161;
+padding:10px;
+}
+div.categories h3{
+color:#ffcc33;
+display:block;
+text-align:center;
+font-weight:bold;
+margin-bottom:15px;
+font-size:18px;
+padding:10px 0;
+}
+div.categories p{
+text-align:center;
+margin-bottom:15px;
+color:#fff;
+}
+div.categories div.group{
+float:left;
+width:50%;
+}
+div.categories ul{
+list-style-position: outside;
+list-style-image: none;
+list-style-type: disc;
+line-height:normal;
+font-size:12px;
+margin: 0 0 0 5px;
+color:#fff;
+}
+div.categories ul li{
+padding:0;
+margin-bottom:10px;
+}
+
+#applyForm {
+
+}
+#applyForm strong{
+font-weight:bold;
+}
+#applyForm fieldset{
+position:relative;
+}
+#applyForm fieldset .container{
+border:1px solid #e1e1e1;
+background:#e1f3ff;
+overflow:hidden;
+padding:10px;
+}
+#applyForm .line-up{
+clear:both;
+}
+#applyForm legend{
+font-size:18px;
+font-weight:bold;
+color:#330033;
+}
+
+#applyForm input[type=checkbox]{
+float:left;
+width:20px;
+height:20px;
+display:block;
+padding:0;
+margin:0 5px 0 0;
+line-height:normal;
+}
+#applyForm label{
+line-height:20px;
+}
+#applyForm label span.req{
+color:#f00;
+}
+
+#applyForm .radio-group{
+float:left;
+clear:both;
+}
+#applyForm .radio{
+float:left;
+margin-right: 15px;
+}
+#applyForm .radio input[type=radio]{
+float:left;
+margin-right: 5px;
+}
+#applyForm .info .group{
+float:left;
+width:50%;
+}
+#applyForm .info label{
+float:left;
+clear:left;
+width:180px;
+display:block;
+}
+#applyForm .info label .example{
+font-size:11px;
+margin-top:-3px;
+color:#999999;
+display:block;
+}
+#applyForm p{
+clear:both;
+padding:10px 0;
+margin:0;
+}
+
+#applyForm .company-info .row{
+clear:both;
+margin-bottom:15px;
+overflow:hidden;
+}
+#applyForm .company-info .group{
+float:left;
+margin-right:20px;
+width:278px;
+margin-bottom:20px;
+}
+#applyForm .company-info .group p{
+border:1px solid #b5c6d2;
+background:#fcfcfc;
+margin-bottom:5px;
+padding:5px;
+overflow:hidden;
+}
+#applyForm .company-info .group.last{
+margin-right:0;
+}
+#applyForm .company-info .group label{
+float:left;
+display:block;
+width:240px;
+height:40px;
+cursor:pointer;
+}
+#applyForm .company-info .row label{
+float:left;
+display:block;
+margin-bottom:5px;
+clear:both;
+
+}
+#applyForm .company-info .radio label{
+clear:none;
+}
+#applyForm .company-info .row select{
+float:left;
+clear:both;
+}
+#applyForm .company-info .row textarea{
+clear:both;
+height:10em;
+width:40em;
+}
+#applyForm button.submit{
+border:none;
+padding:0;
+margin:0;
+background: url(/lib/img/splash/submit-reg-btn.png) no-repeat 0 0;
+display:block;
+margin:0 auto 20px auto;
+line-height:normal;
+width:233px;
+height:50px;
+}
+#applyForm button.submit:hover{
+background: url(/lib/img/splash/submit-reg-btn.png) no-repeat 0 -50px;
+}
+#applyForm button span{
+display:none;
+}
+
+div.main-body object{
+display: block;
+padding: 10px 0 0 0;
+}
+
+div.main-body a object {
+text-decoration: none;	
+}
+
+div.main-body a:hover object{
+cursor: pointer;
+}

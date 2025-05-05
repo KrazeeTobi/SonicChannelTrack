@@ -1,0 +1,81 @@
+#VRML V2.0 utf8
+
+EXTERNPROTO Vista [
+   exposedField   SFString  type
+   exposedField   MFNode    texture
+   exposedField   MFVec2f   vFov
+   exposedField   MFVec2f   hFov
+   exposedField   SFVec2f   pitchRange
+   exposedField   SFVec2f   yawRange
+   exposedField   SFVec2f   zoomRange
+   exposedField   MFColor   groundColor
+   exposedField   MFFloat   groundRange
+   exposedField   MFColor   skyColor
+   exposedField   MFFloat   skyRange
+
+   exposedField   MFNode    children
+
+   eventOut   SFVec2f  clickPt
+   eventOut   SFVec2f  overPt
+   eventOut   SFBool   isBound
+   eventIn    SFBool   set_bind
+] "http://www.livepicture.com/proto/vistaproto15.wrl#Vista"
+
+NavigationInfo {
+   type "EXAMINE"
+   avatarSize [ 0, 0, 0 ]
+   headlight TRUE
+}
+
+Cursor { name "CURS_LINK" clickPoint [7, 1] texture ImageTexture { url "curs_link.gif"  chromaKey 1 0 0 } }
+Cursor { name "CURS_URL" clickPoint [4, 1] texture ImageTexture { url "curs_url.gif"  chromaKey 1 0 0 } }
+
+Cursor { name "PANIMAGE" clickPoint [3,0] texture ImageTexture { url "<UIFolder>:FPX Viewer:pancursor.gif"  chromaKey 1 0 0 } }
+Cursor { name "PANDOWN" clickPoint [3,0] texture ImageTexture { url "<UIFolder>:FPX Viewer:pancursordown.gif"  chromaKey 1 0 0 } }
+Cursor { name "ZOOMIN" clickPoint [6,6] texture ImageTexture { url "<UIFolder>:FPX Viewer:zoomincursor.gif"  chromaKey 1 0 0 } }
+Cursor { name "ZOOMOUT" clickPoint [6,6] texture ImageTexture { url "<UIFolder>:FPX Viewer:zoomoutcursor.gif"  chromaKey 1 0 0 } }
+
+Script {
+	field SFFloat startZoom 0.486000
+	field SFVec3f startView -0.004381 3.917601 0
+	url "vrmlscript:
+		function initialize()
+		{
+			browser.setFOV(startZoom);
+			browser.setOrientation(startView);
+		}
+	"
+}
+DEF manag1 Vista {
+	type "CYLINDER"
+	texture ImageTexture { url "manag1.jpg" }
+	vFov -0.496 0.496
+	pitchRange -0.496 0.496
+	hFov 0.000 0.000
+	yawRange 0.000 0.000
+	zoomRange 0.000 1.571
+	children [
+	]
+}
+
+DEF manag1_switch Switch { whichChoice 1 choice [ Group {}, Group { children [
+
+
+] } ] }
+
+DEF manag1_activator Script {
+  eventIn SFBool activate
+  eventOut SFInt32 switchControl
+  url "vrmlscript:
+    function activate(value, timestamp)
+    {
+      if (value)
+        switchControl = 1;
+      else
+        switchControl = 0;
+    }
+  "
+  ROUTE manag1.isBound TO manag1_activator.activate
+  ROUTE manag1_activator.switchControl TO manag1_switch.set_whichChoice
+}
+

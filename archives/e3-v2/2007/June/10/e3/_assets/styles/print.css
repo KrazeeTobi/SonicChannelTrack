@@ -1,0 +1,22 @@
+body {
+  background: #fff;
+  font-size: 12pt;
+   }
+
+#subcontent, #toolbar, #secondary-content, .banner-container, #footer{
+  display: none !important;
+}
+
+#main-content{
+  float: none !important;
+  width: auto;
+  margin: 0 5%;
+  padding: 0;
+  border: 0;
+  color: black;
+}
+
+#main-content a:link:after, #bodytext a:visited:after {
+   content: " (" attr(href) ") ";
+   font-size: 90%;
+}

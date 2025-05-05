@@ -1,0 +1,89 @@
+#wrapper {
+width: 998px;
+margin: 0 auto;	
+}
+
+#main-header {
+height: 240px;
+width: 998px;
+overflow: hidden;
+z-index: 2147483647;
+}
+
+#nav-bar {
+padding:4px 10px;
+overflow:hidden;
+background:#380f3e url(/lib/img/nav-bar-bg.gif) repeat-x;
+}
+
+#nav-bar a {
+float: right;
+color: #FFF;
+font-size: 12px;
+height:33px;
+width:164px;
+text-align:center;
+line-height:33px;
+background: url(/lib/img/back-btn-bg.gif) no-repeat 0 0;
+}
+
+#nav-bar a:hover {
+background: url(/lib/img/back-btn-bg.gif) no-repeat -164px 0;
+}
+
+#header {
+height: 189px;
+background: url(/lib/img/header_e3insider.gif) no-repeat top center;
+position: relative;	
+}
+
+div.cont-left {
+width: 998px;
+padding: 0;
+min-height: 2630px;
+float: none;
+}
+
+#content {
+background: #050505 url(/lib/img/content-bg-e3insider.jpg) no-repeat top center;	
+overflow: auto;
+width: 998px;
+}
+
+
+/* Main Navigation */
+.mast-nav {
+height: 50px;
+position: absolute;
+background: url(/lib/img/nav-bg-e3insider.gif) no-repeat;
+width: 998px;
+}
+
+#main-header .mast-nav ul li.drop ul li {
+height: inherit;
+font-size: .8em;
+float: none;
+width: 209px;	
+}
+#main-header .mast-nav ul li.drop ul li a {
+background: none;
+padding: 5px 20px;
+display: block;
+width: 167px;
+color: #000;
+height: auto;
+}
+#main-header .mast-nav ul li.drop ul li a:hover {
+color: #842492;
+}
+
+#footer .privacy {
+background: url(/lib/img/esrb-privacy-certified-logo.gif) no-repeat 0 0;
+height: 53px;
+width: 144px;
+display: block;
+position: absolute;
+right: 560px;
+top: 20px;
+text-indent: -999em;
+}

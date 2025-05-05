@@ -1,0 +1,188 @@
+/* @override 
+	http://local.gamepro.com:8888/http://devhost:8888/global/css/network.css
+	http://devhost/global/css/network.css
+*/
+
+/* @group resets */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+margin: 0;
+padding: 0;
+border: 0;
+outline: 0;
+font-weight: inherit;
+font-style: inherit;
+font-size: 100%;
+font-family: inherit;
+vertical-align: baseline;
+}
+
+
+em {
+font-style: italic;
+}
+strong {
+font-weight: bold;
+}
+:focus {
+outline: 0;
+}
+body {
+line-height: 1.5;
+color: black;
+background: white;
+}
+ol, ul {
+list-style: none;
+}
+table {
+border-collapse: separate;
+border-spacing: 0;
+}
+caption, th, td {
+text-align: left;
+font-weight: normal;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+content: "";
+}
+blockquote, q {
+quotes: "" "";
+}
+
+/* @end */
+
+/* @group network header */
+
+ul#global_header {
+background: #001960;
+color: #FFF;
+padding: 2px;
+font-size: .8em;
+}
+
+ul#global_header li {
+display: inline;
+border-right: solid 1px #FFF;
+padding: 0 5px;
+}
+
+ul#global_header li a {
+	color: #FFF;
+	text-decoration: none;
+}
+
+ul#global_header li a:hover {
+	text-decoration: underline;
+}
+
+/* @end */
+
+
+
+/* @group network footer */
+
+
+#footer {
+padding: 0;
+font-size: .9em;
+width: 1000px;
+margin: 0px auto;
+background: #404040 url(/lib/img/footer_bg.jpg) top left repeat-x;
+}
+
+#footer ul li {
+display: inline;
+padding: 0 5px;
+border-right: solid 1px #FFF;
+line-height: 1.5;
+}
+
+#footer ul li.last {
+border: none;
+}
+
+#footer ul li a,
+#footer ul li {
+color: #FFF;
+text-decoration: none;
+}
+
+#footer ul li a:hover {
+text-decoration: underline;
+}
+
+#footer ul.international {
+background: url(/lib/img/idg_expo.png) 20px 15px no-repeat;
+padding: 30px 30px 30px 130px;
+position: relative;
+height:30px;
+z-index: 4;
+border-top: 1px solid #888;
+
+}
+
+#footer ul.international li.more {
+background: #000;
+position: relative;
+border: none;
+
+}
+
+#footer ul.international li.more:hover ul {
+left: 0;
+}
+
+#footer ul.international ul.idgnet {
+position: absolute;
+top: -360px;
+width: 150px;
+left: -999em;
+background: #404040;
+border: solid 1px #b2b2b2;
+border-bottom-width: 0;
+}
+
+
+#footer ul.international ul.idgnet li {
+display: block;
+border: none;
+border-bottom: solid 1px #b2b2b2;
+}
+
+#footer ul.international ul.idgnet li {
+padding: 2px 4px;
+}
+
+#footer ul.legal {
+margin: 0;
+padding: 10px 30px 10px 100px;
+background: #000;
+border-top: 1px solid #888;
+}
+/* @end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
