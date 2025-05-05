@@ -1,0 +1,254 @@
+.title2,
+.title {
+  font-weight: 500; }
+
+.faq {
+  margin: 25px auto; }
+  .faq dt p {
+    font-size: 21px;
+    color: #00557F; }
+    .faq dt p::before {
+      content: "Q.";
+      background: #6EA1DB;
+      display: inline-block;
+      color: #fff;
+      padding: 0px 3px 2px 5px;
+      margin-right: 10px; }
+  .faq dd {
+    border-top: #6EA1DB 1px solid;
+    margin-top: 5px;
+    padding-top: 7px; }
+    .faq ddp {
+      font-size: 13px; }
+  .faq a {
+    background: url("../images/arrow.svg") no-repeat scroll 5px center/auto 70% !important;
+    padding-left: 22px;
+    color: #E74388;
+    text-decoration: underline; }
+    .faq a.b_link {
+      background: url("../images/blank_b.svg") no-repeat scroll 5px center/auto 70%;
+      color: #E74388; }
+
+#form .grd-box .title {
+  font-size: 24px;
+  display: inline-block;
+  line-height: 1.4;
+  border-bottom: 3px solid #00557f; }
+
+#form .grd-box p {
+  margin-top: 15px; }
+
+#form .normal-box {
+  padding-top: 20px; }
+
+#form .white-box div {
+  padding: 20px 0 20px 0;
+  width: 450px;
+  margin: 0 auto; }
+
+#form .white-box .link-btn {
+  font-size: 18px;
+  padding-top: 14px;
+  background: url(../images/g_arrow.svg) no-repeat 10px center;
+  background-size: auto 50%;
+  background-color: #e0f501;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  height: 50px; }
+
+#form .n_link {
+  padding: 2px 4px 2px 17px;
+  background: url(../images/gray_arrow.svg) no-repeat 0px center;
+  background-size: auto 50%;
+  color: #E74388; }
+
+#form .b_link {
+  padding: 2px 4px 2px 17px;
+  background: url(../images/gray_blank.svg) no-repeat 0px center;
+  background-size: auto 50%;
+  color: #E74388; }
+
+.dead_link {
+  display: none; }
+
+.navi {
+  padding: 24px 0; }
+  .navi dl {
+    width: 100%;
+    display: block;
+    overflow: hidden; }
+    .navi dl dt {
+      float: left;
+      width: 49.3%; }
+      .navi dl dt img {
+        display: block;
+        width: 5%;
+        margin: 10px auto 0 auto; }
+      .navi dl dt a {
+        display: block;
+        height: 50px;
+        padding: 15px 4px 2px 24px;
+        background-size: 15px; }
+        @media only screen and (max-width: 640px) {
+          .navi dl dt a {
+            height: 65px; } }
+      .navi dl dt a:nth-of-type(2) {
+        margin-top: 10px; }
+      @media only screen and (max-width: 640px) {
+        .navi dl dt {
+          float: none;
+          width: 100%; } }
+    .navi dl dd {
+      float: left;
+      width: 49.3%;
+      margin-left: 5px; }
+      .navi dl dd img {
+        display: block;
+        width: 5%;
+        margin: 10px auto 0 auto; }
+      .navi dl dd a {
+        display: block;
+        height: 50px;
+        padding: 15px 4px 2px 24px;
+        background-size: 15px; }
+        @media only screen and (max-width: 640px) {
+          .navi dl dd a {
+            height: 65px; } }
+      .navi dl dd a:nth-of-type(2) {
+        margin-top: 10px; }
+      @media only screen and (max-width: 640px) {
+        .navi dl dd {
+          float: none;
+          width: 100%;
+          margin-left: 0;
+          margin-top: 10px; } }
+  .navi p {
+    margin-top: 10px; }
+
+.grd-box h3 {
+  text-align: center;
+  font-size: 26px;
+  font-weight: 500; }
+  @media only screen and (max-width: 640px) {
+    .grd-box h3 {
+      font-size: 20px;
+      font-weight: 500; } }
+
+.navi-dl {
+  width: 100%;
+  display: block;
+  overflow: hidden;
+  margin-top: 20px; }
+  .navi-dl dt {
+    font-size: 21px; }
+    @media only screen and (max-width: 640px) {
+      .navi-dl dt {
+        font-size: 18px; } }
+  .navi-dl dd {
+    border-top: 1px solid #6ea1db;
+    margin-top: 5px;
+    padding-top: 7px; }
+    .navi-dl dd > p {
+      margin-top: 20px; }
+      .navi-dl dd > p span {
+        color: #ff0000; }
+    .navi-dl dd > p:nth-of-type(1) {
+      margin-top: 0; }
+
+.navi-ul3 {
+  width: 100%;
+  display: block;
+  overflow: hidden;
+  margin-top: 20px; }
+  .navi-ul3 li {
+    float: left;
+    margin-left: 5px;
+    width: 32.7%; }
+    @media only screen and (max-width: 640px) {
+      .navi-ul3 li {
+        float: none;
+        margin-left: 0;
+        margin-top: 5px;
+        width: 100%; } }
+    .navi-ul3 li img {
+      width: 100%; }
+  .navi-ul3 li:nth-of-type(1) {
+    margin-left: 0; }
+    @media only screen and (max-width: 640px) {
+      .navi-ul3 li:nth-of-type(1) {
+        margin-top: 0; } }
+
+.navi-ul2 {
+  width: 100%;
+  display: block;
+  overflow: hidden;
+  margin-top: 20px; }
+  .navi-ul2 li {
+    float: left;
+    margin-left: 5px;
+    width: 49.5%; }
+    @media only screen and (max-width: 640px) {
+      .navi-ul2 li {
+        float: none;
+        margin-left: 0;
+        margin-top: 5px;
+        width: 100%; } }
+    .navi-ul2 li.imgbox {
+      text-align: center; }
+    .navi-ul2 li img {
+      width: 100%; }
+  .navi-ul2 li:nth-of-type(1) {
+    margin-left: 0; }
+    @media only screen and (max-width: 640px) {
+      .navi-ul2 li:nth-of-type(1) {
+        margin-top: 0; } }
+
+.navi-ulp {
+  width: 100%;
+  display: block;
+  overflow: hidden;
+  margin-top: 20px; }
+  .navi-ulp li {
+    float: left;
+    width: 49.5%; }
+    @media only screen and (max-width: 640px) {
+      .navi-ulp li {
+        float: none; } }
+    .navi-ulp li img {
+      width: 100%; }
+  @media only screen and (max-width: 640px) {
+    .navi-ulp li:nth-of-type(1) {
+      width: 100%; } }
+  .navi-ulp li:nth-of-type(1) p span {
+    color: #ff0000; }
+  .navi-ulp li:nth-of-type(2) {
+    margin-left: 5px; }
+    @media only screen and (max-width: 640px) {
+      .navi-ulp li:nth-of-type(2) {
+        margin-left: 0;
+        margin-top: 5px;
+        width: 100%; } }
+
+.n_link {
+  padding: 2px 4px 2px 17px;
+  background: url(../images/gray_arrow.svg) no-repeat 0px center;
+  background-size: auto 50%;
+  color: #E74388; }
+
+.b_link {
+  padding: 2px 4px 2px 17px;
+  background: url(../images/gray_blank.svg) no-repeat 0px center;
+  background-size: auto 50%;
+  color: #E74388; }
+
+#mainarea h2 + img {
+  width: 100%; }
+
+@media only screen and (max-width: 640px) {
+  html[lang="en"] .navi dl dt a, html[lang="ko"] .navi dl dt a, html[lang="zh-TW"] .navi dl dt a, html[lang="zh-CN"] .navi dl dt a {
+    padding-top: 22px; } }
+
+@media only screen and (max-width: 640px) {
+  html[lang="en"] .navi dl dd a, html[lang="ko"] .navi dl dd a, html[lang="zh-TW"] .navi dl dd a, html[lang="zh-CN"] .navi dl dd a {
+    padding-top: 22px; } }

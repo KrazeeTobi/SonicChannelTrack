@@ -1,0 +1,129 @@
+@charset "utf-8";
+/* ****************************************************************** 
+
+	@This stylesheet Information{
+		ファイル：base.css
+		最終更新：2010年02月23日
+		主な内容：共通要素
+			1: リセット
+			2: アクセシビリティ
+			3: 浮動ボックス用コンテナ
+	}
+
+****************************************************************** */
+
+/*===================================================================
+	1: リセット
+===================================================================*/
+
+* {
+	margin: 0; padding: 0;
+}
+
+body {
+	color: #222;
+	background: url(/tgs/2010/common/img/head-bg.jpg) no-repeat top center #FFF;
+	font-family: Century Gothic, Futura, "ヒラギノ丸ゴ Pro W4", Hiragino Maru Gothic Pro, "ＭＳ Ｐゴシック", sans-serif;
+	margin: 0;
+	padding: 0;
+	overflow-y: scroll;
+}
+
+* html body {  　　　　　/*IE6だけに適用*/
+	font-family: 'MS PGothic';
+	overflow-y:auto;
+}
+
+*+html body {　　　　　/*IE7だけに適用*/
+   overflow-y:auto;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+	font-size:100%;
+}
+
+body, x:-moz-any-link { font-size: 14px; }
+
+a:link {
+	color: #036; text-decoration: underline;
+}
+a:visited {
+	color: #036; 
+}
+a:hover {
+	color: #09C; text-decoration: underline;
+}
+a:active {
+	color: #06c; text-decoration: underline;
+} 
+.pdf {
+	text-decoration: none;
+	background: url(../common/img/pdf_small.gif) no-repeat;
+	padding-left: 20px;
+}
+
+.pdf a:hover {
+	text-decoration: underline;
+}
+
+
+a img {
+	border: 0;
+}
+
+strong, em {
+	font-weight: bold; font-style: normal;
+}
+
+hr {
+	display: none;
+}
+
+.clear {
+	clear: both;
+}
+
+.rightalign {
+	text-align: right;
+}
+
+.debug {
+	outline: 1px solid red;
+}
+
+.cn {
+	font-family: STHeiti, 'MS UI Gothic', SimSun, sans-serif;
+}
+.kr {
+	font-family: 'Apple Gothic', Gulim, sans-serif;
+}
+
+/*===================================================================
+	2: アクセシビリティ
+===================================================================*/
+
+.reader {
+	display: none;
+}
+
+
+/*===================================================================
+	3: 浮動ボックス用コンテナ
+===================================================================*/
+
+.pkg:after {
+	content: "."; 
+	display: block; 
+	height: 0; 
+	clear: both; 
+	visibility: hidden;
+}
+
+.pkg { min-height: 1px; }
+
+/* Hides from IE-mac \*/
+* html .pkg { height: 1%; }
+.pkg { display: block; }
+/* End hide from IE-mac */
+

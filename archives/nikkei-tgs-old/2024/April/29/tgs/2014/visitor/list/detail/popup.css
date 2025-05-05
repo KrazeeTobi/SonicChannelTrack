@@ -1,0 +1,273 @@
+@charset "utf-8";
+/*
+===========================================================================
+
+	Title : popup.css
+
+===========================================================================
+*/
+
+
+/* *********************************************
+*
+*	PC view
+*	
+********************************************* */
+
+body {
+	background-image: none;
+}
+
+#wrapper {
+	background-color:#e4dada;
+	padding: 20px 10px 10px 10px;
+	background-image: none;
+}
+
+#wrapper #popup {
+	width: 100%;
+}
+
+
+#wrapper #popup h1,
+#wrapper #popup h2 {
+	text-align: center;
+}
+
+#wrapper #popup h1 {
+	margin-bottom: 20px;
+}
+
+#wrapper #popup .number { 
+	padding: 6px 4px;
+	color: #fff;
+	width: 100px;
+	float: right;
+	font-weight: bold;
+	font-size: 12px;
+	display: block;
+	height: 18px;
+}
+
+#wrapper #popup #BtnGeneral .number { background-color:#e94959;}
+#wrapper #popup #BtnSmartSocial .number { background-color:#9d9a99;}
+#wrapper #popup #BtnCloudGameing .number { background-color:#4ac1f1;}
+#wrapper #popup #BtnGameDevice .number { background-color:#19b4a6;}
+
+#wrapper #popup #BtnGameSchool .number { background-color:#63b73f;}
+#wrapper #popup #BtnRomanceGame .number { background-color:#e95b95;}
+#wrapper #popup #BtnMerchandiseSales .number { background-color:#ef7a00;}
+#wrapper #popup #BtnFamily .number { background-color:#8ca6d6;}
+
+#wrapper #popup #BtnCosplay .number { background-color:#ca7229;}
+#wrapper #popup #BtnIndies .number { background-color:#acae4c;}
+#wrapper #popup #BtnBusinessSolution .number { background-color:#6b57a3;}
+#wrapper #popup #BtnCloud-Data .number { background-color:#6b57a3;}
+
+#wrapper #popup #BtnAsiaNewStars .number { background-color:#6b57a3;}
+#wrapper #popup #BtnStartup .number { background-color:#6b57a3;}
+#wrapper #popup #BtnMeeting .number { background-color:#6b57a3;}
+#wrapper #popup #BtnSmartAccessories .number { background-color:#046ab7;}
+
+
+#wrapper #popup .dbox {
+	background-color:#f7f4f4;
+	padding: 12px;
+	margin-top: 31px;
+}
+
+
+#wrapper #popup .dbox h3 {
+	padding: 7px 0 0 11px;
+	height: 23px;
+	line-height: 1.0;
+	margin-bottom: 18px;
+}
+
+#wrapper #popup #BtnGeneral .dbox h3 {	border-left: solid 12px #e94959; border-bottom: solid 1px #e94959;}
+#wrapper #popup #BtnSmartSocial .dbox h3 {	border-left: solid 12px #9d9a99; border-bottom: solid 1px #9d9a99;}
+#wrapper #popup #BtnCloudGameing .dbox h3 {	border-left: solid 12px #4ac1f1; border-bottom: solid 1px #4ac1f1;}
+#wrapper #popup #BtnGameDevice .dbox h3 {	border-left: solid 12px #19b4a6; border-bottom: solid 1px #19b4a6;}
+
+#wrapper #popup #BtnGameSchool .dbox h3 {	border-left: solid 12px #e94959; border-bottom: solid 1px #e94959;}
+#wrapper #popup #BtnRomanceGame .dbox h3 {	border-left: solid 12px #e95b95; border-bottom: solid 1px #e95b95;}
+#wrapper #popup #BtnMerchandiseSales .dbox h3 {	border-left: solid 12px #e94959; border-bottom: solid 1px #e94959;}
+#wrapper #popup #BtnFamily .dbox h3 {	border-left: solid 12px #8ca6d6; border-bottom: solid 1px #8ca6d6;}
+
+#wrapper #popup #BtnCosplay .dbox h3 {	border-left: solid 12px #63b73f; border-bottom: solid 1px #63b73f;}
+#wrapper #popup #BtnIndies .dbox h3 {	border-left: solid 12px #acae4c; border-bottom: solid 1px #acae4c;}
+#wrapper #popup #BtnBusinessSolution .dbox h3 {	border-left: solid 12px #ef7a00; border-bottom: solid 1px #ef7a00;}
+#wrapper #popup #BtnCloud-Data .dbox h3 {	border-left: solid 12px #6b57a3; border-bottom: solid 1px #6b57a3;}
+
+#wrapper #popup #BtnAsiaNewStars .dbox h3 {	border-left: solid 12px #6b57a3; border-bottom: solid 1px #6b57a3;}
+#wrapper #popup #BtnStartup .dbox h3 {	border-left: solid 12px #6b57a3; border-bottom: solid 1px #6b57a3;}
+#wrapper #popup #BtnMeeting .dbox h3 {	border-left: solid 12px #6b57a3; border-bottom: solid 1px #6b57a3;}
+#wrapper #popup #BtnSmartAccessories .dbox h3 {	border-left: solid 12px #046ab7; border-bottom: solid 1px #046ab7;}
+
+
+#wrapper #popup .dbox h4 {
+	text-align: left;
+	font-size:14px;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+
+#wrapper #popup .dbox p{
+	font-size: 14px;
+	line-height: 20x;
+	margin-bottom: 14px;
+
+}
+
+/* -------------------
+	table
+------------------- */
+#wrapper #popup .dbox table {
+	width: 100%;
+}
+
+
+#wrapper #popup .dbox table,
+#wrapper #popup .dbox table th,
+#wrapper #popup .dbox table td  {
+	border: 1px solid #dddddd;
+}
+
+#wrapper #popup .dbox table th {
+	padding:  16px;
+	background: #efefef;
+	text-align: left;
+	font-weight: bold;
+	max-width: 10px;
+}
+
+
+
+#wrapper #popup .dbox table td {
+	padding:  16px;
+}
+
+#wrapper #popup .dbox table td a {
+	font-weight: bold;
+	margin-right: 10px;
+}
+
+#wrapper .footer {
+	display: block;	
+}
+
+
+/* -------------------
+	footer
+------------------- */
+
+#wrapper .footer .fbox {
+	width: auto;
+	padding: 8px 10px 8px 10px !important;
+}
+
+
+#wrapper .footer .fi {
+	width: auto;
+}
+
+#wrapper .footer .fi ul {
+	float: left;
+	width: 400px;
+	background: #FFF;
+	padding: 7px 10px;
+	border-radius: 5px; /* 角丸 */
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+#wrapper .footer .fi .clsBtn {
+	float: right;
+	margin-top: 7px;
+	
+}
+
+
+/* *********************************************
+*
+*	SP view
+*	
+********************************************* */
+
+@media screen and (max-width:769px){
+
+	
+#wrapper #popup .dbox h4 {
+	font-size:14px;
+}
+
+#wrapper #popup .dbox p{
+	font-size: 14px;
+	line-height: 20x;
+
+}
+	
+	
+/* table */
+#wrapper #popup .dbox table {
+	width: 100%;
+}
+
+#wrapper #popup .dbox table,
+#wrapper #popup .dbox table th,
+#wrapper #popup .dbox table td  {
+	border: none;
+}
+
+
+#wrapper #popup .dbox table th {
+	display: block;
+	padding: 10px 5px 10px 10px;
+	font-size: 14px;
+	background-color:#cccccc;
+	max-width: none;
+}
+
+
+#wrapper #popup .dbox table td {
+	padding:  10px 16px 16px 16px;
+	font-size: 14px;
+	line-height: 20px;
+	display: block;
+}
+
+
+/* -------------------
+	footer
+------------------- */
+
+#wrapper .footer .fbox {
+	padding: 8px 0 0 0 !important;
+}
+
+
+#wrapper .footer .fi ul {
+	float: none;
+	width: auto;
+	background: #FFF;
+	padding: 7px 10px;
+	border-radius: 5px; /* 角丸 */
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	text-align: center;
+	margin: 0 auto;
+	display: block;
+}
+
+#wrapper .footer .fi .clsBtn {
+	float: none;
+	margin: 15px auto 0;
+	
+}
+
+
+
+	
+}
