@@ -1,0 +1,137 @@
+@charset "utf-8";
+/*
+===========================================================================
+
+	Title : visitor.css
+
+===========================================================================
+*/
+
+
+/* *********************************************
+*
+*	PC view
+*	
+********************************************* */
+
+
+/* -------------------------------------------------------------
+
+	visitor/index.html
+
+------------------------------------------------------------- */
+
+/* 開催概要 table */
+#wrapper .cntBox .boxInner .about {
+	margin-bottom: 10px;
+}
+#wrapper .cntBox .boxInner .about th {
+	min-width: 85px;
+	text-align: center;
+}
+#wrapper .cntBox .boxInner .about td dl {
+	margin-bottom: 15px;
+}
+#wrapper .cntBox .boxInner .about td dl dt {
+	width: 105px;
+	text-align: center;
+	padding: 4px;
+	color: #FFF;
+	line-height: 1.0;
+	margin-bottom: 7px;
+}
+#wrapper .cntBox .boxInner .about td dl .bd {
+	background-color: #006aaf;
+	display: inline-block;
+}
+#wrapper .cntBox .boxInner .about td dl .cd {
+	background-color: #f78e1a;
+	display: inline-block;
+}
+#wrapper .cntBox .boxInner .about td dl .note {
+	font-size: 11px;
+	font-weight: normal;
+}
+.j-lop{
+	margin:20px auto 0;
+	padding:0 10px;
+	}
+	
+
+/*****ご注意*****/
+
+#wrapper .cntBox .boxInner #supporter .att h4 {
+	margin: 0 10px;
+}
+
+/* -------------------------------------------------------------
+
+	visitor/attention.html
+
+------------------------------------------------------------- */
+
+#wrapper .cntBox .boxInner .dtl {
+	margin: 0 0 15px 15px;
+}
+#wrapper .cntBox .boxInner .dtl dt {
+	font-weight: bold;
+}
+#wrapper .cntBox .boxInner .dtl dd {
+	margin-left: 13px;
+}
+/* 持ち込み禁止一覧 */
+#wrapper .cntBox .boxInner .atDtl {
+	padding: 15px;
+	background-color: #eeeeee;
+}
+#wrapper .cntBox .boxInner .atDtl dt {
+	font-weight: bold;
+}
+#wrapper .cntBox .boxInner .atDtl dd {
+	text-indent: -10px;
+	margin-left: 10px;
+	font-size: 12px;
+	line-height: 1.8;
+}
+#wrapper .cntBox .boxInner .atDtl dd span {
+	margin-top: 10px;
+	display: block;
+}
+
+/* -------------------------------------------------------------
+
+	visitor/greeting.html
+
+------------------------------------------------------------- */
+
+.greeting .photo{
+	margin-right: 20px;	
+}
+
+
+
+
+
+
+/* *********************************************
+*
+*	SP view
+*	
+********************************************* */
+
+
+@media screen and (max-width:769px) {
+
+/* -------------------------------------------------------------
+
+	visitor/greeting.html
+
+------------------------------------------------------------- */
+
+.greeting .photo{
+	margin-right: 0;
+	margin-bottom: 20px;	
+}
+
+
+}
