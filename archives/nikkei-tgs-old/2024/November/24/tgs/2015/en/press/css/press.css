@@ -1,0 +1,245 @@
+@charset "utf-8";
+/*
+===========================================================================
+
+	Title : press.css
+
+===========================================================================
+*/
+
+
+/* *********************************************
+*
+*	PC view
+*	
+********************************************* */
+/* -------------------------------------------------------------
+
+	press/index.html
+
+------------------------------------------------------------- */
+.linkBtn a {
+	padding: 10px 20px 10px;
+}
+#wrapper .cntBox .boxInner .preBox ul li dl dd {
+	float: right;
+	width: 84%;
+}
+#wrapper .cntBox .boxInner .dlc {
+	text-align: center;
+	margin-bottom: 20px;
+}
+#wrapper .cntBox .boxInner .dlc dt {
+	font-weight: bold;
+	margin-bottom: 16px;
+}
+#wrapper .cntBox .boxInner .cntct {
+	margin-bottom: 35px;
+}
+#wrapper .cntBox .boxInner .cntct td span a {
+	background: none !important;
+	padding-left: 0px !important;
+}
+#wrapper .cntBox .boxInner ol {
+	margin-bottom: 10px;
+}
+#wrapper .cntBox .boxInner .note {
+	margin-left: 10px;
+	font-size: 12px;
+}
+#wrapper .cntBox .boxInner h5 {
+	font-size: 14px;
+}
+.pressTop .regulation{
+	padding:15px;
+	background:#eee;
+	margin-bottom:20px;
+	}
+.pressTop .regulation .number li{
+	margin-left:20px!important;
+	}
+.pressTop .regulation dt{
+	font-weight:bold;
+	}
+.pressTop .rTxt{
+	font-weight:bold;
+	}
+.pressTop .inbox{
+	padding:10px;
+	border:1px solid #555;
+	}
+.pressTop .inbox p{
+	width:400px;
+	margin:0 auto 0!important;
+	}
+
+/* -------------------------------------------------------------
+
+	press/news.html
+
+------------------------------------------------------------- */
+
+#wrapper .cntBox .boxInner .newsInner {
+	padding: 1em;
+	margin-bottom: 10px;
+	background: #FFF;
+	/*border-radius: 3px; 
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-webkit-box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.2);
+	box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.2);*/
+}
+#wrapper .cntBox .boxInner .newsInner ul {
+	overflow: auto; 
+}
+#wrapper .cntBox .boxInner .newsInner ul li {
+	margin-bottom: 1em;
+}
+#wrapper .cntBox .boxInner .newsInner ul li dl {
+	overflow: hidden;
+}
+#wrapper .cntBox .boxInner .newsInner ul li dl dt {
+	float: left;
+	margin-right: 20px;
+	width: 12%;
+	min-height: 30px;
+}
+#wrapper .cntBox .boxInner .newsInner ul li dl {
+	overflow: hidden;
+	padding-bottom: 1em;
+	border-bottom: 1px solid #eee;
+}
+#wrapper .cntBox .boxInner .newsInner ul li:last-child dl{
+	border:none;
+	}
+
+#wrapper .cntBox .boxInner #news_list ul li dl dd {
+	float: left;
+	width: 68%;
+}
+#wrapper .cntBox .boxInner #news_list ul li dl dd.pic {
+	width: 100px!important;
+	float: right!important;
+}
+#wrapper .cntBox .boxInner .newsInner ul li dl dd.pic img {
+	width: 100px;
+}
+#wrapper .cntBox .boxInner .preBox {
+	padding-bottom: 0;
+	margin-bottom: 0px;
+	overflow: auto; /* スクロールバーの表示 */
+	height: 20em;
+}
+
+/* -------------------------------------------------------------
+
+	press/registration.html
+
+------------------------------------------------------------- */
+#wrapper .cntBox .boxInner .txt16 {
+	font-size: 16px;
+	font-weight: bold;
+}
+#wrapper .cntBox .boxInner .txt16 span {
+	color: #cf1f03;
+}
+#wrapper .cntBox .boxInner .stpDl{
+	padding-top:15px;
+	border-top: 1px solid #eee;
+	}
+#wrapper .cntBox .boxInner .stpDl dt {
+	margin-bottom:10px;
+	font-weight: bold;
+	color: #1e51a2;
+	font-size: 16px;
+}
+#wrapper .cntBox .boxInner .stpDl dd {
+	margin-bottom: 15px;
+}
+#wrapper .cntBox .boxInner .dtl {
+	padding: 15px 15px 10px 25px;
+	text-indent:-1em;
+	background-color: #eeeeee;
+	margin: 0px 0 20px 0;
+}
+#wrapper .cntBox .boxInner .dtl ul {
+	margin-bottom: 15px;
+}
+#wrapper .cntBox .boxInner .dtl span {
+	color: #cf1f03;
+}
+#wrapper .cntBox .boxInner .dtl p {
+	margin-bottom: 0;
+}
+
+/* *********************************************
+*
+*	SP view
+*	
+********************************************* */
+
+@media screen and (max-width:769px) {
+/* -------------------------------------------------------------
+
+	press/index.html
+
+------------------------------------------------------------- */
+#wrapper .cntBox .boxInner .preBox ul li dl dd {
+	float: none;
+	width: 100%;
+}
+#wrapper .cntBox .boxInner .preBox ul li dl dt{
+	width:100%;
+	}
+#wrapper .cntBox .boxInner #news_list ul li dl dt {
+	width: 100%;
+}
+#wrapper .cntBox .boxInner .cntct td {
+	border: 1px solid #EFEFEF;
+}
+#wrapper .cntBox .boxInner .cntct td span {
+	display: block;
+}
+.pressTop .inbox p{
+	width:auto;
+}
+/* -------------------------------------------------------------
+
+	press/news.html
+
+------------------------------------------------------------- */
+
+#wrapper .cntBox .boxInner .newsInner {
+	padding: 0;
+	background: rgba(255, 255, 255, 0); /* 背景色のみ透過 */
+	border-radius: 0px; /* 角丸 */
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	-webkit-box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.0);/* シャドウ */
+	-moz-box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.0);
+	box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.0);
+}
+#wrapper .cntBox .boxInner .newsInner ul {
+	overflow: auto; /* スクロールバーの表示 */
+	/*height: 280px;*/
+}
+#wrapper .cntBox .boxInner .newsInner ul li {
+	margin-bottom: 10px;
+}
+#wrapper .cntBox .boxInner .newsInner ul li dl dt {
+	height: 20px;
+	float:none;
+}
+#wrapper .cntBox .boxInner #news_list ul li dl dd {
+	float: none;
+	width: 100%;
+}
+#wrapper .cntBox .boxInner #news_list ul li dl dd.pic {
+	width: 100px!important;
+	float: right!important;
+	margin-left:1em;
+	margin-bottom:10px;
+}
+
+}

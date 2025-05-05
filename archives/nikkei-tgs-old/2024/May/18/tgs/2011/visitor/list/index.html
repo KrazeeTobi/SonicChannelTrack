@@ -1,0 +1,533 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<title>出展社一覧｜来場者の方へ｜東京ゲームショウ2011</title>
+<link href="../../common/css/common.css" rel="stylesheet" type="text/css" />
+<link href="style.css" rel="stylesheet" type="text/css" />
+<script src="/js/bpcommon/jquery.min.js"></script>
+<script type="text/javascript" src="../../common/js/jquery.tooltip.js"></script>
+<script type="text/javascript" src="../../common/js/mainmenu.js"></script>
+<script type="text/javascript" src="../../common/js/floatingNavi.js"></script>
+<script type="text/javascript" src="../../common/js/detail.js"></script>
+<script type="text/javascript">
+// <![CDATA[
+
+function callback(ret) {
+    for (var i = 0; i < ret.length; i++) {
+        var t = $("#t" + ret[i].category_id);
+        if (t.length == 0 ) { continue; }
+        var item;
+        for (var j = 0; j < ret[i].list.length; j++) {
+            item = ret[i].list[j];
+            // for IE
+            if (item === undefined) { continue; }
+            if (item.guidebook) {
+                t.append("<tr>" +
+                         "<td class=\"no\">" + item.booth_number + "</td>" +
+                         "<td>" + "<a href=\"javascript:void(0);\" onclick=\"openDetail('" + item.url + "');\"" + "\">" + item.company_name + "</td>" +
+                         "<td class=\"corner\">" + item.category + "</td>" +
+                         "</tr>");
+            }
+            else {
+                t.append("<tr>" +
+                         "<td class=\"no\">" + item.booth_number + "</td>" +
+                         "<td>" + item.company_name + "</td>" +
+                         "<td class=\"corner\">" + item.category + "</td>" +
+                         "</tr>");
+            }
+        }
+    }
+	$(".searchArea table tr:last-child td").css("border", "0");
+	$("table.list").each(function() {
+		$("tr:last-child td").css("border-bottom", "0");
+	});
+}
+// ]]>
+</script>
+</head>
+<body id="bodyTop">
+<div id="headCont">
+		<div id="headArea">
+				<h1><span class="alt">TOKYO GAME SHOW 2011</span></h1>
+
+				<div id="lngMenu">
+						<ul>
+								<li class="jp"><a href="../../index.html" class="focus"><span class="alt">日本語</span></a></li>
+								<li class="en"><a href="../../en/index.html" class="on"><span class="alt">English</span></a></li>
+								<li class="ko"><a href="../../ko/index.html" class="on"><span class="alt">???</span></a></li>
+								<li class="cn"><a href="../../zh-CN/index.html" class="on"><span class="alt">簡体中文</span></a></li>
+								<li class="tw"><a href="../../zh-TW/index.html" class="on"><span class="alt">繁體中文</span></a></li>
+						</ul>
+				</div>
+				<div id="snsMenu">
+						<ul>
+								<li class="t"><a href="http://twitter.com/#!/tokyo_game_show" target="_blank"><span class="alt">Twitter</span></a></li>
+								<li class="fb"><a href="http://www.facebook.com/tokyogameshow2011" target="_blank"><span class="alt">facebook</span></a></li>
+								<li class="rss"><a href="http://twitter.com/statuses/user_timeline/94486399.rss" target="_blank"><span class="alt">RSS</span></a></li>
+						</ul>
+				</div>
+		</div>
+</div>
+<div id="mainCont">
+		<div id="mainArea">
+				<!--メインメニュー-->
+				<div id="mainMenu"></div>
+				<!--/メインメニュー-->
+				<div id="mainCts" class="catVisitor">
+						<div id="mainL">
+								<h2 class="pageTitle"><img src="img/title_list.gif" alt="出展者一覧" width="720" height="30" /></h2>
+								<!--/コーナーブロック END-->
+
+
+
+
+                <div class="listSection">
+                										<h3>一般展示</h3>
+                										<table id="t11" class="list" width="720" cellspacing="0" cellpadding="0" border="0">
+                												<tbody><tr>
+                														<th class="no">小間番号</th>
+                														<th>出展社名</th>
+                														<th class="corner">コーナー</th>
+                												</tr>
+
+<tr><td class="no">2-S1</td><td>アークシステムワークス</td><td class="corner">一般展示</td></tr>
+
+
+<tr><td class="no">4-N3</td><td>アクワイア</td><td class="corner">一般展示</td></tr>
+
+<tr><td class="no">2-C7</td><td>アスキー・メディアワークス</td><td class="corner">一般展示</td></tr>
+
+<tr><td class="no">3-N2</td><td>Injoy Motion Corp.</td><td class="corner">一般展示</td></tr>
+
+<tr><td class="no">3-N2</td><td>International Games System Co., Ltd.</td><td class="corner">一般展示</td></tr>
+
+<tr><td class="no">4-N7</td><td>Wizards of the Coast LLC</td><td class="corner">一般展示</td></tr>
+
+<tr><td class="no">2-C5</td><td>ウェブテクノロジ・コム</td><td class="corner">一般展示</td></tr>
+
+<tr><td class="no">3-N2</td><td>XPEC Entertainment Inc.</td><td class="corner">一般展示</td></tr>
+
+<tr><td class="no">3-N2</td><td>X-LEGEND Entertainment Co., Ltd.</td><td class="corner">一般展示</td></tr>
+
+<tr><td class="no">2-C3</td><td>NHKエンタープライズ</td><td class="corner">一般展示</td></tr>
+
+<tr><td class="no">3-N6</td><td>FX</td><td class="corner">一般展示</td></tr>
+
+<tr><td class="no">4-N2</td><td>エフエルシープロモーション</td><td class="corner">一般展示</td></tr>
+
+<tr><td class="no">6-S2</td><td>エンターブレイン</td><td class="corner">一般展示</td></tr>
+
+<tr><td class="no">3-C1</td><td>カプコン</td><td class="corner">一般展示</td></tr>
+
+<tr><td class="no">3-N5</td><td>KOCCA(Korea Creative Content Agency)</td><td class="corner">一般展示</td></tr>
+
+<tr><td class="no">3-N8</td><td>KINGSOFT CORPORATION LIMITED</td><td class="corner">一般展示</td></tr>
+
+<tr><td class="no">3-N8</td><td>KINGWORLD BEIJING TECHNOLOGY CO., LTD.</td><td class="corner">一般展示</td></tr>
+
+<tr><td class="no">5-S1</td><td>グリー</td><td class="corner">一般展示</td></tr>
+
+<tr><td class="no">2-S2</td><td>クリエイティブインテリジェンスアーツ</td><td class="corner">一般展示</td></tr>
+
+<tr><td class="no">4-N6</td><td>計測技術サービス</td><td class="corner">一般展示</td></tr>
+
+<tr><td class="no">3-N6</td><td>GAMES FROM SPAIN</td><td class="corner">一般展示</td></tr>
+
+<tr><td class="no">6-S1</td><td>コーエーテクモゲームス ［一般展示］</td><td class="corner">一般展示</td></tr>
+
+<tr><td class="no">2-C1</td><td>コナミデジタルエンタテインメント</td><td class="corner">一般展示</td></tr>
+
+<tr><td class="no">3-N3</td><td>SIGGRAPH Asia 2011</td><td class="corner">一般展示</td></tr>
+
+<tr><td class="no">3-N7</td><td>GDC China</td><td class="corner">一般展示</td></tr>
+
+<tr><td class="no">3-N6</td><td>Gigigo</td><td class="corner">一般展示</td></tr>
+
+<tr><td class="no">6-C1</td><td>スクウェア・エニックス</td><td class="corner">一般展示</td></tr>
+
+<tr><td class="no">4-N1</td><td>スパークス</td><td class="corner">一般展示</td></tr>
+
+<tr><td class="no">4-C1</td><td>セガ ［一般展示］</td><td class="corner">一般展示</td></tr>
+
+<tr><td class="no">3-N6</td><td>Sepomo </td><td class="corner">一般展示</td></tr>
+
+<tr><td class="no">3-N2</td><td>Zeroplus Technology Co., Ltd.</td><td class="corner">一般展示</td></tr>
+
+<tr><td class="no">4-S1</td><td>ソニー・コンピュータエンタテインメント</td><td class="corner">一般展示</td></tr>
+
+<tr><td class="no">3-N2</td><td>台湾ゲーム館</td><td class="corner">一般展示</td></tr>
+
+<tr><td class="no">3-N2</td><td>台湾ゲーム産業振興会</td><td class="corner">一般展示</td></tr>
+
+<tr><td class="no">3-N2</td><td>台湾貿易センター</td><td class="corner">一般展示</td></tr>
+
+<tr><td class="no">3-N2</td><td>Chinese Gamer International Corp.</td><td class="corner">一般展示</td></tr>
+
+<tr><td class="no">3-N6</td><td>Digital Legends Entertainment</td><td class="corner">一般展示</td></tr>
+
+<tr><td class="no">3-N6</td><td>Delirium Studios</td><td class="corner">一般展示</td></tr>
+
+<tr><td class="no">4-N10</td><td>電撃オンライン</td><td class="corner">一般展示</td></tr>
+
+<tr><td class="no">3-S2</td><td>電撃PlayStation</td><td class="corner">一般展示</td></tr>
+
+<tr><td class="no">2-N1</td><td>日本マイクロソフト</td><td class="corner">一般展示</td></tr>
+
+<tr><td class="no">3-N6</td><td>Virtual Toys</td><td class="corner">一般展示</td></tr>
+
+<tr><td class="no">3-N6</td><td>Pyro Studios</td><td class="corner">一般展示</td></tr>
+
+<tr><td class="no">3-S1</td><td>バンダイナムコゲームス</td><td class="corner">一般展示</td></tr>
+
+<tr><td class="no">3-N6</td><td>Pyxel Arts Digital Entertainment</td><td class="corner">一般展示</td></tr>
+
+<tr><td class="no">3-N6</td><td>Bitoon Games</td><td class="corner">一般展示</td></tr>
+
+<tr><td class="no">2-C6</td><td>VUZIX Corporation</td><td class="corner">一般展示</td></tr>
+
+<tr><td class="no">3-N2</td><td>Fun Yours Technology Co., Ltd.</td><td class="corner">一般展示</td></tr>
+
+<tr><td class="no">5-N59</td><td>4Gamer.net</td><td class="corner">一般展示</td></tr>
+
+<tr><td class="no">2-C4</td><td>ブシロード</td><td class="corner">一般展示</td></tr>
+
+<tr><td class="no">6-N28</td><td>文化庁メディア芸術祭国内巡回事業</td><td class="corner">一般展示</td></tr>
+
+<tr><td class="no">3-N8</td><td>BEIJING BAIYOU HUITONG NETWORK TECHNOLOGY CO., LTD.</td><td class="corner">一般展示</td></tr>
+
+<tr><td class="no">3-N8</td><td>Beijing Changyou Network Technology Co., Ltd.</td><td class="corner">一般展示</td></tr>
+
+<tr><td class="no">3-N8</td><td>北京パビリオン</td><td class="corner">一般展示</td></tr>
+
+<tr><td class="no">2-C2</td><td>The Behemoth</td><td class="corner">一般展示</td></tr>
+
+<tr><td class="no">4-N4</td><td>モリゲームズ</td><td class="corner">一般展示</td></tr>
+
+<tr><td class="no">3-N2</td><td>Lager Network Technologies Inc.</td><td class="corner">一般展示</td></tr><tr><td class="no" style="border-bottom: 0px none;">3-N6</td><td style="border-bottom: 0px none;">Wordlab Translation &amp; Localisation Services</td><td class="corner" style="border-bottom: 0px none;">一般展示</td></tr></tbody></table>
+                								</div>
+                								<div class="pagetop"><a href="#bodyTop">ページTOP</a></div>
+                								<!--/コーナーブロック END-->
+
+                								<!--コーナーブロック START-->
+                								<div class="listSection">
+                										<h3>物販コーナー</h3>
+                										<table id="t15" class="list" width="720" cellspacing="0" cellpadding="0" border="0">
+                												<tbody><tr>
+                														<th class="no">小間番号</th>
+                														<th>出展社名</th>
+                														<th class="corner">コーナー</th>
+                												</tr>
+
+
+<tr><td class="no">1-S6</td><td>アルケミスト</td><td class="corner">物販コーナー</td></tr>
+
+<tr><td class="no">1-S8</td><td>インターネットラジオステーション＜音泉＞</td><td class="corner">物販コーナー</td></tr>
+
+<tr><td class="no">1-S1</td><td>カプコン</td><td class="corner">物販コーナー</td></tr>
+<tr><td class="no">1-S17</td><td>カプコン 音楽・書籍</td><td class="corner">物販コーナー</td></tr>
+<tr><td class="no">1-S18</td><td>ゲームセンターＣＸ</td><td class="corner">物販コーナー</td></tr>
+<tr><td class="no">1-S16</td><td>ゲームテック</td><td class="corner">物販コーナー</td></tr>
+<tr><td class="no">1-S2</td><td>コスパ</td><td class="corner">物販コーナー</td></tr>
+<tr><td class="no">1-S10</td><td>コナミデジタルエンタテインメント</td><td class="corner">物販コーナー</td></tr>
+<tr><td class="no">1-S13</td><td>三英貿易</td><td class="corner">物販コーナー</td></tr>
+<tr><td class="no">1-S4</td><td>三和電子</td><td class="corner">物販コーナー</td></tr>
+<tr><td class="no">1-S3</td><td>スクウェア・エニックス</td><td class="corner">物販コーナー</td></tr>
+<tr><td class="no">1-S15</td><td>スクウェア・エニックス ミュージック</td><td class="corner">物販コーナー</td></tr>
+<tr><td class="no">1-S7</td><td>セガ</td><td class="corner">物販コーナー</td></tr>
+<tr><td class="no">1-S12</td><td>トイズ・プランニング</td><td class="corner">物販コーナー</td></tr>
+<tr><td class="no">1-S5</td><td>日経ＢＰ</td><td class="corner">物販コーナー</td></tr>
+<tr><td class="no">1-S11</td><td>バンダイナムコゲームス</td><td class="corner">物販コーナー</td></tr>
+<tr><td class="no">1-S9</td><td>5pb. </td><td class="corner">物販コーナー</td></tr><tr><td class="no" style="border-bottom: 0px none;">1-S14</td><td style="border-bottom: 0px none;">ブシロード</td><td class="corner" style="border-bottom: 0px none;">物販コーナー</td></tr></tbody></table>
+                								</div>
+                								<div class="pagetop"><a href="#bodyTop">ページTOP</a></div>
+                								<!--/コーナーブロック END-->
+
+                								<!--コーナーブロック START-->
+                								<div class="listSection">
+                										<h3>ファミリーコーナー</h3>
+                										<table id="t13" class="list" width="720" cellspacing="0" cellpadding="0" border="0">
+                												<tbody><tr>
+                														<th class="no">小間番号</th>
+                														<th>出展社名</th>
+                														<th class="corner">コーナー</th>
+                												</tr>
+
+<tr><td class="no">8-N1</td><td>アルケミスト</td><td class="corner">ファミリーコーナー</td></tr>
+<tr><td class="no">8-C5</td><td>カプコン ［ファミリーコーナー］</td><td class="corner">ファミリーコーナー</td></tr>
+<tr><td class="no">8-C3</td><td>コナミデジタルエンタテインメント</td><td class="corner">ファミリーコーナー</td></tr>
+<tr><td class="no">8-N2</td><td>スクウェア・エニックス</td><td class="corner">ファミリーコーナー</td></tr>
+<tr><td class="no">8-C4</td><td>セガ ［ファミリーコーナー］</td><td class="corner">ファミリーコーナー</td></tr>
+<tr><td class="no">8-C1</td><td>日本マイクロソフト</td><td class="corner">ファミリーコーナー</td></tr><tr><td class="no" style="border-bottom: 0px none;">8-N3</td><td style="border-bottom: 0px none;">バンダイナムコゲームス</td><td class="corner" style="border-bottom: 0px none;">ファミリーコーナー</td></tr></tbody></table>
+                								</div>
+                								<div class="pagetop"><a href="#bodyTop">ページTOP</a></div>
+                								<!--/コーナーブロック END-->
+
+                                                 <!--コーナーブロック START-->
+                                                 <div class="listSection">
+                                                         <h3>ゲームスクールコーナー</h3>
+                                                         <table id="t12" class="list" width="720" cellspacing="0" cellpadding="0" border="0">
+                                                                 <tbody><tr>
+                                                                         <th class="no">小間番号</th>
+                                                                         <th>出展社名</th>
+                                                                         <th class="corner">コーナー</th>
+                                                                 </tr>
+
+<tr><td class="no">6-N7</td><td>アーツカレッジヨコハマ</td><td class="corner">ゲームスクールコーナー</td></tr>
+<tr><td class="no">6-N23</td><td>麻生情報ビジネス専門学校</td><td class="corner">ゲームスクールコーナー</td></tr>
+<tr><td class="no">6-N26</td><td>穴吹カレッジグループ</td><td class="corner">ゲームスクールコーナー</td></tr>
+<tr><td class="no">6-N8</td><td>ＥＣＣコンピュータ専門学校</td><td class="corner">ゲームスクールコーナー</td></tr>
+<tr><td class="no">6-N9</td><td>岩崎学園　横浜デジタルアーツ専門学校</td><td class="corner">ゲームスクールコーナー</td></tr>
+<tr><td class="no">6-N25</td><td>WiZ 専門学校 国際情報工科大学校</td><td class="corner">ゲームスクールコーナー</td></tr>
+<tr><td class="no">6-N16</td><td>大阪電気通信大学　デジタルゲーム学科</td><td class="corner">ゲームスクールコーナー</td></tr>
+<tr><td class="no">6-N14</td><td>太田情報商科専門学校</td><td class="corner">ゲームスクールコーナー</td></tr>
+<tr><td class="no">6-N27</td><td>神奈川工科大学</td><td class="corner">ゲームスクールコーナー</td></tr>
+<tr><td class="no">6-N12</td><td>学校法人コンピュータ総合学園　神戸電子専門学校</td><td class="corner">ゲームスクールコーナー</td></tr>
+<tr><td class="no">6-N3</td><td>尚美学園大学</td><td class="corner">ゲームスクールコーナー</td></tr>
+<tr><td class="no">6-N21</td><td>専門学校　九州デザイナー学院</td><td class="corner">ゲームスクールコーナー</td></tr>
+<tr><td class="no">6-N22</td><td>専門学校　東京デザイナー学院 &amp; 東京ネットウエイブ</td><td class="corner">ゲームスクールコーナー</td></tr>
+<tr><td class="no">6-N22</td><td>専門学校 東京ネットウエイブ</td><td class="corner">ゲームスクールコーナー</td></tr>
+<tr><td class="no">6-N15</td><td>総合学園ヒューマンアカデミー</td><td class="corner">ゲームスクールコーナー</td></tr>
+<tr><td class="no">6-N11</td><td>東京コミュニケーションアート専門学校</td><td class="corner">ゲームスクールコーナー</td></tr>
+<tr><td class="no">6-N2</td><td>上野塾　東京実業高等学校</td><td class="corner">ゲームスクールコーナー</td></tr>
+<tr><td class="no">6-N13</td><td>東京デザインテクノロジーセンター専門学校</td><td class="corner">ゲームスクールコーナー</td></tr>
+<tr><td class="no">6-N19</td><td>東北電子専門学校</td><td class="corner">ゲームスクールコーナー</td></tr>
+<tr><td class="no">6-N17</td><td>トライデントコンピュータ専門学校</td><td class="corner">ゲームスクールコーナー</td></tr>
+<tr><td class="no">6-N1</td><td>新潟高度情報専門学校</td><td class="corner">ゲームスクールコーナー</td></tr>
+<tr><td class="no">6-N25</td><td>新潟総合学院　新潟コンピュータ専門学校</td><td class="corner">ゲームスクールコーナー</td></tr>
+<tr><td class="no">6-N6</td><td>日本工学院/東京工科大学</td><td class="corner">ゲームスクールコーナー</td></tr>
+<tr><td class="no">6-N20</td><td>日本電子専門学校</td><td class="corner">ゲームスクールコーナー</td></tr>
+<tr><td class="no">6-N18</td><td>沼津情報・ビジネス専門学校</td><td class="corner">ゲームスクールコーナー</td></tr>
+<tr><td class="no">6-N10</td><td>電子開発学園　北海道情報大学</td><td class="corner">ゲームスクールコーナー</td></tr><tr><td class="no" style="border-bottom: 0px none;">6-N24</td><td style="border-bottom: 0px none;">山崎学園　東日本デザイン＆コンピュータ専門学校</td><td class="corner" style="border-bottom: 0px none;">ゲームスクールコーナー</td></tr></tbody></table>
+                                                 </div>
+                                                 <div class="pagetop"><a href="#bodyTop">ページTOP</a></div>
+                                                 <!--/コーナーブロック END-->
+
+                                                 <!--コーナーブロック START-->
+                                                 <div class="listSection">
+                                                         <h3>モバイル＆ソーシャルゲームコーナー</h3>
+                                                         <table id="t18" class="list" width="720" cellspacing="0" cellpadding="0" border="0">
+                                                                 <tbody><tr>
+                                                                         <th class="no">小間番号</th>
+                                                                         <th>出展社名</th>
+                                                                         <th class="corner">コーナー</th>
+                                                                 </tr>
+
+<tr><td class="no">5-C4</td><td>アールフォース・エンターテインメント</td><td class="corner">モバイル＆ソーシャルゲームコーナー</td></tr>
+<tr><td class="no">5-C19</td><td>アイディアファクトリー</td><td class="corner">モバイル＆ソーシャルゲームコーナー</td></tr>
+<tr><td class="no">5-C10</td><td>アジェンダ</td><td class="corner">モバイル＆ソーシャルゲームコーナー</td></tr>
+<tr><td class="no">5-C22</td><td>アルケミスト</td><td class="corner">モバイル＆ソーシャルゲームコーナー</td></tr>
+<tr><td class="no">5-C18</td><td>ANKAMA</td><td class="corner">モバイル＆ソーシャルゲームコーナー</td></tr>
+<tr><td class="no">5-C17</td><td>インコム・ジャパン</td><td class="corner">モバイル＆ソーシャルゲームコーナー</td></tr>
+<tr><td class="no">5-C13</td><td>ウィアー・エンジニアリング</td><td class="corner">モバイル＆ソーシャルゲームコーナー</td></tr>
+<tr><td class="no">5-C18</td><td>WIZARBOX</td><td class="corner">モバイル＆ソーシャルゲームコーナー</td></tr>
+<tr><td class="no">5-C19</td><td>ウインライト</td><td class="corner">モバイル＆ソーシャルゲームコーナー</td></tr>
+<tr><td class="no">5-N57</td><td>エディア</td><td class="corner">モバイル＆ソーシャルゲームコーナー</td></tr>
+<tr><td class="no">5-C11</td><td>岡田貿易株式会社</td><td class="corner">モバイル＆ソーシャルゲームコーナー</td></tr>
+<tr><td class="no">5-C5</td><td>クエリーアイ</td><td class="corner">モバイル＆ソーシャルゲームコーナー</td></tr>
+<tr><td class="no">5-C12</td><td>gloops</td><td class="corner">モバイル＆ソーシャルゲームコーナー</td></tr>
+<tr><td class="no">5-C16</td><td>芸者東京エンターテインメント</td><td class="corner">モバイル＆ソーシャルゲームコーナー</td></tr>
+<tr><td class="no">5-C18</td><td>在日フランス大使館　企業振興部-ユビフランス</td><td class="corner">モバイル＆ソーシャルゲームコーナー</td></tr>
+<tr><td class="no">5-C9</td><td>札幌市</td><td class="corner">モバイル＆ソーシャルゲームコーナー</td></tr>
+<tr><td class="no">5-N53</td><td>Cie Games Japan</td><td class="corner">モバイル＆ソーシャルゲームコーナー</td></tr>
+<tr><td class="no">5-C10</td><td>ジースタイル</td><td class="corner">モバイル＆ソーシャルゲームコーナー</td></tr>
+<tr><td class="no">5-C24</td><td>SILICON SISTERS INTERACTIVE</td><td class="corner">モバイル＆ソーシャルゲームコーナー</td></tr>
+<tr><td class="no">5-C10</td><td>スマイルブーム</td><td class="corner">モバイル＆ソーシャルゲームコーナー</td></tr>
+<tr><td class="no">5-C20</td><td>ダイスステーション</td><td class="corner">モバイル＆ソーシャルゲームコーナー</td></tr>
+<tr><td class="no">5-C18</td><td>TAKEOFF</td><td class="corner">モバイル＆ソーシャルゲームコーナー</td></tr>
+<tr><td class="no">5-C10</td><td>データハウスビーグル</td><td class="corner">モバイル＆ソーシャルゲームコーナー</td></tr>
+<tr><td class="no">5-C6</td><td>デジクラフト社</td><td class="corner">モバイル＆ソーシャルゲームコーナー</td></tr>
+<tr><td class="no">5-C3</td><td>Dept. of Multimedia and Game Science, Lunghwa University of Science and Technology</td><td class="corner">モバイル＆ソーシャルゲームコーナー</td></tr>
+<tr><td class="no">5-C23</td><td>電撃ジャパンコミックス</td><td class="corner">モバイル＆ソーシャルゲームコーナー</td></tr>
+<tr><td class="no">5-C18</td><td>DOTEMU</td><td class="corner">モバイル＆ソーシャルゲームコーナー</td></tr>
+<tr><td class="no">5-C18</td><td>Neko Entertainment</td><td class="corner">モバイル＆ソーシャルゲームコーナー</td></tr>
+<tr><td class="no">5-C15</td><td>NEGGI STUDIO</td><td class="corner">モバイル＆ソーシャルゲームコーナー</td></tr>
+<tr><td class="no">5-C10</td><td>ハートビット</td><td class="corner">モバイル＆ソーシャルゲームコーナー</td></tr>
+<tr><td class="no">5-N54</td><td>Bayer MaterialScience</td><td class="corner">モバイル＆ソーシャルゲームコーナー</td></tr>
+<tr><td class="no">5-C10</td><td>ハ・ン・ド</td><td class="corner">モバイル＆ソーシャルゲームコーナー</td></tr>
+<tr><td class="no">5-C18</td><td>bigben Interactive</td><td class="corner">モバイル＆ソーシャルゲームコーナー</td></tr>
+<tr><td class="no">5-N54</td><td>ViviTouch (Artificial Muscle, Inc.)</td><td class="corner">モバイル＆ソーシャルゲームコーナー</td></tr>
+<tr><td class="no">5-C18</td><td>FEERIK</td><td class="corner">モバイル＆ソーシャルゲームコーナー</td></tr>
+<tr><td class="no">5-C8</td><td>北京動力創想科技有限公司</td><td class="corner">モバイル＆ソーシャルゲームコーナー</td></tr>
+<tr><td class="no">5-N58</td><td>ベネフィットジャパン</td><td class="corner">モバイル＆ソーシャルゲームコーナー</td></tr>
+<tr><td class="no">5-C10</td><td>北海道IT推進協会</td><td class="corner">モバイル＆ソーシャルゲームコーナー</td></tr>
+<tr><td class="no">5-C2</td><td>MOONGA TRADING CARD GAME</td><td class="corner">モバイル＆ソーシャルゲームコーナー</td></tr>
+<tr><td class="no">5-C10</td><td>メディア・マジック</td><td class="corner">モバイル＆ソーシャルゲームコーナー</td></tr>
+<tr><td class="no">5-C10</td><td>メディアリュウム</td><td class="corner">モバイル＆ソーシャルゲームコーナー</td></tr>
+<tr><td class="no">5-C7</td><td>redream</td><td class="corner">モバイル＆ソーシャルゲームコーナー</td></tr>
+<tr><td class="no">5-C25</td><td>ワーカービー</td><td class="corner">モバイル＆ソーシャルゲームコーナー</td></tr><tr><td class="no" style="border-bottom: 0px none;">5-C14</td><td style="border-bottom: 0px none;">ワンナップゲームズ</td><td class="corner" style="border-bottom: 0px none;">モバイル＆ソーシャルゲームコーナー</td></tr></tbody></table>
+                                                 </div>
+                                                 <div class="pagetop"><a href="#bodyTop">ページTOP</a></div>
+                                                 <!--/コーナーブロック END-->
+
+                                                 <!--コーナーブロック START-->
+                                                 <div class="listSection">
+                                                         <h3>ゲームPC＆ネットワークゲームコーナー</h3>
+                                                         <table id="t19" class="list" width="720" cellspacing="0" cellpadding="0" border="0">
+                                                                 <tbody><tr>
+                                                                         <th class="no">小間番号</th>
+                                                                         <th>出展社名</th>
+                                                                         <th class="corner">コーナー</th>
+                                                                 </tr>
+
+<tr><td class="no">4-N8</td><td>アクティブゲーミングメディア</td><td class="corner">ゲームPC＆ネットワークゲームコーナー</td></tr>
+<tr><td class="no">4-N8</td><td>アスク</td><td class="corner">ゲームPC＆ネットワークゲームコーナー</td></tr>
+<tr><td class="no">4-N9</td><td>HPCテック</td><td class="corner">ゲームPC＆ネットワークゲームコーナー</td></tr>
+<tr><td class="no">4-N8</td><td>NHN Japan</td><td class="corner">ゲームPC＆ネットワークゲームコーナー</td></tr>
+<tr><td class="no">4-N8</td><td>エムゲームジャパン</td><td class="corner">ゲームPC＆ネットワークゲームコーナー</td></tr>
+<tr><td class="no">4-N8</td><td>崑崙日本</td><td class="corner">ゲームPC＆ネットワークゲームコーナー</td></tr>
+<tr><td class="no">5-N1</td><td>CyAC</td><td class="corner">ゲームPC＆ネットワークゲームコーナー</td></tr><tr><td class="no" style="border-bottom: 0px none;">4-N8</td><td style="border-bottom: 0px none;">サイバーフロント</td><td class="corner" style="border-bottom: 0px none;">ゲームPC＆ネットワークゲームコーナー</td></tr></tbody></table>
+                                                 </div>
+                                                 <div class="pagetop"><a href="#bodyTop">ページTOP</a></div>
+                                                 <!--/コーナーブロック END-->
+
+                                                 <!--コーナーブロック START-->
+                                                 <div class="listSection">
+                                                         <h3>ゲームデバイスコーナー</h3>
+                                                         <table id="t25" class="list" width="720" cellspacing="0" cellpadding="0" border="0">
+                                                                 <tbody><tr>
+                                                                         <th class="no">小間番号</th>
+                                                                         <th>出展社名</th>
+                                                                         <th class="corner">コーナー</th>
+                                                                 </tr>
+
+<tr><td class="no">2-N9</td><td>アンサー</td><td class="corner">ゲームデバイスコーナー</td></tr>
+<tr><td class="no">2-N6</td><td>エクセレンス</td><td class="corner">ゲームデバイスコーナー</td></tr>
+<tr><td class="no">2-N3</td><td>CALIBUR11</td><td class="corner">ゲームデバイスコーナー</td></tr>
+<tr><td class="no">2-N11</td><td>ゲームテック</td><td class="corner">ゲームデバイスコーナー</td></tr>
+<tr><td class="no">2-N2</td><td>Thket</td><td class="corner">ゲームデバイスコーナー</td></tr>
+<tr><td class="no">2-N5</td><td>Turtle Beach </td><td class="corner">ゲームデバイスコーナー</td></tr>
+<tr><td class="no">2-N4</td><td>TANOSeY研究所</td><td class="corner">ゲームデバイスコーナー</td></tr>
+<tr><td class="no">2-N7</td><td>データメート</td><td class="corner">ゲームデバイスコーナー</td></tr>
+<tr><td class="no">2-N2</td><td>B-Bridge International, Inc.</td><td class="corner">ゲームデバイスコーナー</td></tr>
+<tr><td class="no">2-N2</td><td>MyndPlay Ltd.</td><td class="corner">ゲームデバイスコーナー</td></tr>
+<tr><td class="no">2-N8</td><td>マグレックス</td><td class="corner">ゲームデバイスコーナー</td></tr><tr><td class="no" style="border-bottom: 0px none;">3-N1</td><td style="border-bottom: 0px none;">RAZER USA LTD</td><td class="corner" style="border-bottom: 0px none;">ゲームデバイスコーナー</td></tr></tbody></table>
+                                                 </div>
+                                                 <div class="pagetop"><a href="#bodyTop">ページTOP</a></div>
+                                                 <!--/コーナーブロック END-->
+
+                                                 <!--コーナーブロック START-->
+                                                 <div class="listSection">
+                                                         <h3>ビジネスソリューションコーナー</h3>
+                                                         <table id="t16" class="list" width="720" cellspacing="0" cellpadding="0" border="0">
+                                                                 <tbody><tr>
+                                                                         <th class="no">小間番号</th>
+                                                                         <th>出展社名</th>
+                                                                         <th class="corner">コーナー</th>
+                                                                 </tr>
+
+<tr><td class="no">5-N2</td><td>アーキテクト</td><td class="corner">ビジネスソリューションコーナー</td></tr>
+<tr><td class="no">5-N22</td><td>iFun4all Sp.z o.o.</td><td class="corner">ビジネスソリューションコーナー</td></tr>
+<tr><td class="no">5-Ｎ9</td><td>アリーバエンタテインメント</td><td class="corner">ビジネスソリューションコーナー</td></tr>
+<tr><td class="no">5-N17</td><td>Ｅｎｚｙｍｅ</td><td class="corner">ビジネスソリューションコーナー</td></tr>
+<tr><td class="no">5-N21</td><td>OZHILL Studio</td><td class="corner">ビジネスソリューションコーナー</td></tr>
+<tr><td class="no">5-N52</td><td>カーネギーメロン大学エンターテイメント・テクノロジー・センター</td><td class="corner">ビジネスソリューションコーナー</td></tr>
+<tr><td class="no">5-N11</td><td>Keywords International Limited</td><td class="corner">ビジネスソリューションコーナー</td></tr>
+<tr><td class="no">5-N8</td><td>ケイビーエムジェイ</td><td class="corner">ビジネスソリューションコーナー</td></tr>
+<tr><td class="no">5-N12</td><td>ＣＲＩ・ミドルウェア</td><td class="corner">ビジネスソリューションコーナー</td></tr>
+<tr><td class="no">5-N50</td><td>GMOインターネット</td><td class="corner">ビジネスソリューションコーナー</td></tr>
+<tr><td class="no">5-N4</td><td>JSC Communications [Business Solution Area]</td><td class="corner">ビジネスソリューションコーナー</td></tr>
+<tr><td class="no">5-N6</td><td>Scanavo Manufacturing Hong Kong Ltd.</td><td class="corner">ビジネスソリューションコーナー</td></tr>
+<tr><td class="no">5-N3</td><td>ダグミュージック</td><td class="corner">ビジネスソリューションコーナー</td></tr>
+<tr><td class="no">5-N16</td><td>ディー・エヌ・エー</td><td class="corner">ビジネスソリューションコーナー</td></tr>
+<tr><td class="no">5-N19</td><td>ナカバヤシ</td><td class="corner">ビジネスソリューションコーナー</td></tr>
+<tr><td class="no">5-N20</td><td>日本システムウエア</td><td class="corner">ビジネスソリューションコーナー</td></tr>
+<tr><td class="no">5-N13</td><td>ネットディメンション</td><td class="corner">ビジネスソリューションコーナー</td></tr>
+<tr><td class="no">5-N14</td><td>VASCO DATA SECURITY</td><td class="corner">ビジネスソリューションコーナー</td></tr>
+<tr><td class="no">5-N18</td><td>ビーイング</td><td class="corner">ビジネスソリューションコーナー</td></tr>
+<tr><td class="no">5-N55</td><td>フォーラムエイト</td><td class="corner">ビジネスソリューションコーナー</td></tr>
+<tr><td class="no">5-N5</td><td>フォントワークス</td><td class="corner">ビジネスソリューションコーナー</td></tr>
+<tr><td class="no">5-N10</td><td>MOTION TECHNOLOGIES, Inc</td><td class="corner">ビジネスソリューションコーナー</td></tr>
+<tr><td class="no">5-N7</td><td>ユビキタスエンターテインメント</td><td class="corner">ビジネスソリューションコーナー</td></tr>
+<tr><td class="no">5-N15</td><td>横須賀テレコムリサーチパーク</td><td class="corner">ビジネスソリューションコーナー</td></tr><tr><td class="no" style="border-bottom: 0px none;">5-N51</td><td style="border-bottom: 0px none;">WORLDPAY</td><td class="corner" style="border-bottom: 0px none;">ビジネスソリューションコーナー</td></tr></tbody></table>
+                                                 </div>
+                                                 <div class="pagetop"><a href="#bodyTop">ページTOP</a></div>
+                                                 <!--/コーナーブロック END-->
+
+                                                 <!--コーナーブロック START-->
+                                                 <div class="listSection">
+                                                         <h3>クラウド／データセンターパビリオン</h3>
+                                                         <table id="t17" class="list" width="720" cellspacing="0" cellpadding="0" border="0">
+                                                                 <tbody><tr>
+                                                                         <th class="no">小間番号</th>
+                                                                         <th>出展社名</th>
+                                                                         <th class="corner">コーナー</th>
+                                                                 </tr>
+
+<tr><td class="no">5-N31</td><td>IDCフロンティア</td><td class="corner">クラウド/データセンターパビリオン</td></tr>
+<tr><td class="no">5-N35</td><td>インターネットイニシアティブ</td><td class="corner">クラウド/データセンターパビリオン</td></tr>
+<tr><td class="no">5-N34</td><td>エクシード</td><td class="corner">クラウド/データセンターパビリオン</td></tr>
+<tr><td class="no">5-N36</td><td>NECビッグローブ</td><td class="corner">クラウド/データセンターパビリオン</td></tr>
+<tr><td class="no">5-N33</td><td>NTTコミュニケーションズ</td><td class="corner">クラウド/データセンターパビリオン</td></tr>
+<tr><td class="no">5-N56</td><td>クララオンライン</td><td class="corner">クラウド/データセンターパビリオン</td></tr>
+<tr><td class="no">5-N40</td><td>KVH</td><td class="corner">クラウド/データセンターパビリオン</td></tr>
+<tr><td class="no">5-N56</td><td>コミュニティファクトリー</td><td class="corner">クラウド/データセンターパビリオン</td></tr>
+<tr><td class="no">5-N37</td><td>シーイーシー</td><td class="corner">クラウド/データセンターパビリオン</td></tr>
+<tr><td class="no">5-N30</td><td>ライトスケール・ジャパン</td><td class="corner">クラウド/データセンターパビリオン</td></tr><tr><td class="no" style="border-bottom: 0px none;">5-N39</td><td style="border-bottom: 0px none;">リンク</td><td class="corner" style="border-bottom: 0px none;">クラウド/データセンターパビリオン</td></tr></tbody></table>
+                                                 </div>
+                                                 <div class="pagetop"><a href="#bodyTop">ページTOP</a></div>
+                                                 <!--/コーナーブロック END-->
+
+                                                 <!--コーナーブロック START-->
+                                                 <div class="listSection">
+                                                         <h3>ビジネスミーティングコーナー</h3>
+                                                         <table id="t38" class="list" width="720" cellspacing="0" cellpadding="0" border="0">
+                                                                 <tbody><tr>
+                                                                         <th class="no">小間番号</th>
+                                                                         <th>出展社名</th>
+                                                                         <th class="corner">コーナー</th>
+                                                                 </tr>
+
+<tr><td class="no">BM-3</td><td>カプコン ［ビジネスミーティングコーナー］</td><td class="corner">ビジネスミーティングコーナー</td></tr>
+<tr><td class="no">BM-7</td><td>QUALCOMM INC</td><td class="corner">ビジネスミーティングコーナー</td></tr>
+<tr><td class="no">BM-4</td><td>コーエーテクモゲームス ［ビジネスミーティングコーナー］</td><td class="corner">ビジネスミーティングコーナー</td></tr>
+<tr><td class="no">BM-8</td><td>JSC Communications [Business Meeting Area]</td><td class="corner">ビジネスミーティングコーナー</td></tr>
+<tr><td class="no">BM-2</td><td>VIRTUOS</td><td class="corner">ビジネスミーティングコーナー</td></tr>
+<tr><td class="no">BM-9</td><td>METAFORIC</td><td class="corner">ビジネスミーティングコーナー</td></tr><tr><td class="no" style="border-bottom: 0px none;">BM-6</td><td style="border-bottom: 0px none;">レベルファイブ</td><td class="corner" style="border-bottom: 0px none;">ビジネスミーティングコーナー</td></tr></tbody></table>
+                                                 </div>
+                                                 <div class="pagetop"><a href="#bodyTop">ページTOP</a></div>
+                                                 <!--/コーナーブロック END-->
+
+
+
+
+
+
+
+						</div>
+						<div id="side">
+								<div id="sideNavi">
+										<div id="sideTitle"><span class="alt">来場者の方へ</span></div>
+										<ul>
+												<li><a href="../index.html">開催概要</a></li>
+												<li><a href="../ticket.html">入場券</a></li>
+												<li><a href="../numbered_ticket.html">整理券の配布について</a></li>
+												<li><a href="index.html">出展社一覧</a></li>
+												<li><a href="../map.html">展示コーナー/ホールマップ<br />
+														(フロアマップ)</a></li>
+												<li><a href="../charity.html">東日本大震災復興支援<br />ゲームで日本を元気に</a></li>
+												<li><a href="../goods.html">公式グッズ</a></li>
+												<li><a href="../food.html">飲食&amp;ドリンクコーナー</a></li>
+												<li><a href="../attention.html">お願いとご注意</a></li>
+												<li><a href="../cosplayers.html">コスプレイヤーの方へ</a></li>
+												<li><a href="../access.html">アクセス／<br />
+														オフィシャルツアー</a></li>
+										</ul>
+								</div>
+						</div>
+						<!--/side-->
+				</div>
+				<div id="footerArea">
+						<div id="footMenu"><span><a href="../../transaction.html">「特定商取引に関する法律」に基づく表示</a></span>|<span><a href="../../sitemap.html">サイトマップ</a></span>|<span><a href="../../contact/index.html">お問い合わせ</a></span></div>
+						<div id="copyArea">
+								<div id="copyL"> <img src="../../common/img/f_copy.gif" alt="2002-2011 CESA / Nikkei Business Publications, Inc. All rights reserved." width="418" height="17" /> <a href="http://www.cesa.or.jp/" target="_blank"><img src="../../common/img/f_cesa.gif" alt="CESA" width="56" height="23" /></a> <a href="http://corporate.nikkeibp.co.jp/" target="_blank"><img src="../../common/img/f_nikkei.gif" alt="日経BP社" width="70" height="23" /></a> </div>
+								<div id="copyR"> <img src="../../common/img/f_CoFesta.gif" alt="An 0fficial event of CoFesta" width="276" height="23" /> </div>
+						</div>
+				</div>
+		</div>
+</div>
+</body>
+</html>
