@@ -1,0 +1,26 @@
+/* exhibit一覧タグ装飾 */
+#maplist > li .rankFlex dt, #maplist > li .rankFlex dd {
+    padding: 0.2rem;
+    background: #F0F0F0;
+    color: #666;
+}
+
+/* モーダル位置調整 */
+.fancybox-is-sliding .fancybox-slide, .fancybox-slide--current, .fancybox-slide--next, .fancybox-slide--previous {
+    display: block !important;
+}
+
+/* exhibit一覧デザイン調整 */
+li.exhibit-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    margin-bottom: 2em;
+    border: solid 1px #999;
+        padding: 1em;
+    box-shadow: 0px 10px 10px #ddd;
+}
+li.exhibit-card .imgbox_s {
+    margin-top: auto;
+    margin-bottom: auto;
+}
