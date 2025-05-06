@@ -19,16 +19,16 @@ new function(){
 //	}
 
 // Library
-	include( 'http://expo.nikkeibp.co.jp/tgs/2012/exhibition/common/js/jquery.js' );
+	include( '/js/bpcommon/jquery.min.js' );
 //	include( 'http://wc-system.com/nikei_bp/TGS2012_pre/www/common/js/ui.core.js' );
 //	include( 'http://wc-system.com/nikei_bp/TGS2012_pre/www/common/js/jquery.easing.1.3.js' );
 //	include( 'http://wc-system.com/nikei_bp/TGS2012_pre/www/common/js/jquery.cookie.js' );
 //	include( 'http://wc-system.com/nikei_bp/TGS2012_pre/www/common/js/jquery.scrollfollow.js' );
-	include( 'http://expo.nikkeibp.co.jp/tgs/2012/exhibition/common/js/menu.js' );
+	include( 'https://expo.nikkeibp.co.jp/tgs/2012/exhibition/common/js/menu.js' );
 
 // Basic Script
-	include( 'http://expo.nikkeibp.co.jp/tgs/2012/exhibition/common/js/common.js' );
-	include( 'http://expo.nikkeibp.co.jp/tgs/2012/exhibition/common/js/offspring.min.js' );
+	include( 'https://expo.nikkeibp.co.jp/tgs/2012/exhibition/common/js/common.js' );
+	include( 'https://expo.nikkeibp.co.jp/tgs/2012/exhibition/common/js/offspring.min.js' );
 
 /*@cc_on
 // Include IE

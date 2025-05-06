@@ -1,6 +1,30 @@
 $(document).ready(function () {
   $.getJSON("/tgs/2021/ems_data/news.json", function(data){
+		function sanitize_decode (str) {
+			return String(str)
+				.replace(/&amp;/g, '&')
+				.replace(/&quot;/g, '"')
+				.replace(/&#039;/g, '\'')
+				.replace(/&#x60;/g, '`')
+				.replace(/&lt;/g, '<')
+				.replace(/&gt;/g, '>')
+		}
+		
+		function sanitize(str) {
+			return sanitize_decode(String(str))
+				.replace(/&/g, '&amp;')
+				.replace(/"/g, '&quot;')
+				.replace(/'/g, '&#039;')
+				.replace(/`/g, '&#x60;')
+				.replace(/</g, '&lt;')
+				.replace(/>/g, '&gt;');
+		}
+
 	for(var j in data.docs){
+		Object.keys(data.docs[j].doc).forEach(function(key) {
+			data.docs[j].doc[key] = sanitize(data.docs[j].doc[key]);
+		});
+
 		$(".newsList").append("<li></li>");
 		$(".newsList li:nth-of-type("+(Number(j)+1)+")").append("<figure><img src='/tgs/2021/ems_data/"+ data.docs[j].doc.image+"'>"+ "</figure>");
 		$(".newsList li:nth-of-type("+(Number(j)+1)+")").append("<div class='newsListBox'></div>");

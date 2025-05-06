@@ -3,5 +3,4 @@ var spaf_sub = [];
 document.write('<a  href=\"mailto:');
 cnt = spaf_eml.length; for (i=0; i<cnt; i++) { document.write(String.fromCharCode(spaf_eml[i]-i)); }
 document.write('\" id="side_b_mail">');
-document.write('<img src="http://expo.nikkeibp.co.jp/tgs/2007/images/side_info_press.gif" width="148" height="44" alt="お問い合わせ先：東京ゲームショウインフォメーション" id="side_info" /></a>');
-
+document.write('<img src="https://expo.nikkeibp.co.jp/tgs/2007/images/side_info_press.gif" width="148" height="44" alt="お問い合わせ先：東京ゲームショウインフォメーション" id="side_info" /></a>');

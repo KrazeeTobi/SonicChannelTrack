@@ -269,14 +269,18 @@
 					if (tabBodyList) {
 						tabBodyList = tabBodyList.add(selecter);
 					} else {
-						tabBodyList = $(selecter);
+						if (/^[#.a-zA-Z0-9_-]*$/.test(selecter)) {
+							tabBodyList = $(selecter);
+						}
 					}
 					$(this).unbind('click');
 					$(this).click(function(){
 						tabNavList.removeClass(c.activeTabClass);
 						$(this).addClass(c.activeTabClass);
 						tabBodyList.hide();
-						$(selecter).show();
+						if (/^[#.a-zA-Z0-9_-]*$/.test(selecter)) {
+							$(selecter).show();
+						}
 						return false;
 					});
 				});

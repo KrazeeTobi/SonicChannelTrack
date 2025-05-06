@@ -129,7 +129,7 @@ function commonClass(){
 		var e = 0;
 		if (UA.Browser == "NN"){
 			s = appVer.indexOf(" ",0);
-			UA.Version = eval(appVer.substring(0,s));
+			UA.Version = appVer.substring(0,s);
 		}
 		if (version >= 5){
 			UA.Version++;
@@ -138,7 +138,7 @@ function commonClass(){
 			appVer = uAgent;
 			s = appVer.indexOf("MSIE ",0) + 5;
 			e = appVer.indexOf(";",s);
-			UA.Version = eval(appVer.substring(s,e));
+			UA.Version = appVer.substring(s,e);
 		}
 		return UA;
 	}

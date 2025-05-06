@@ -20,11 +20,11 @@ $(".press_en").html(data);
 
 
 setTimeout(function(){
-  Ts.loadFont()
+  /*Ts.loadFont()*/
 },1000);
 setTimeout(function(){
-  Ts.loadFont()
+  /*Ts.loadFont()*/
 },5000);
 setTimeout(function(){
-  Ts.loadFont()
+  /*Ts.loadFont()*/
 },10000);

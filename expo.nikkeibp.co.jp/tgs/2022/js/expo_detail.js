@@ -389,15 +389,15 @@ $(function(){
 	
 	
 	function get_query(clm){
-		var strs = [];
+		const strs = {};
 		if(document.location.search.length > 1) {
-			var q = document.location.search.substring(1);
-			var params = q.split('&');
-			for (var i=0; i<params.length; i++) {
-				var elem = params[i].split('=');
-				strs[decodeURIComponent(elem[0])] = decodeURIComponent(elem[1]).replace(/"/g, '&quot;').replace(/'/g,'&#039;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+			const q = document.location.search.substring(1);
+			const params = new URLSearchParams(q);
+			for (const p of params) {
+				strs[p[0]] = p[1];
 			}
 		}
+		let str = '';
 		if(clm){
 			str=strs[clm];
 		}else{

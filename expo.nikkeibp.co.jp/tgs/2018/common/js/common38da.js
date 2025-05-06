@@ -52,13 +52,13 @@ $(function(){
         $('.check').toggleClass('on');
         $('#menu').toggleClass('on');
         $('#nav').toggleClass('on');
-        Ts.loadFont()
+        /*Ts.loadFont()*/
     });
   $('.menu_wrap').click(function(){
       $('.check').removeClass('on');
       $('#menu').removeClass('on');
       $('#nav').toggleClass('on');
-      Ts.loadFont()
+      /*Ts.loadFont()*/
     });
   });
 
@@ -91,12 +91,12 @@ jQuery(document).ready(function(){
 });
 $(function(){
 setTimeout(function(){
-  Ts.loadFont()
+  /*Ts.loadFont()*/
 },1000);
 setTimeout(function(){
-  Ts.loadFont()
+  /*Ts.loadFont()*/
 },5000);
 setTimeout(function(){
-  Ts.loadFont()
+  /*Ts.loadFont()*/
 },10000);
 });

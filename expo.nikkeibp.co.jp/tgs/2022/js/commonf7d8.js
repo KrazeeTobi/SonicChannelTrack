@@ -24,7 +24,7 @@ $(function(){
   var headerHeight = $('header').outerHeight();
   //-console.log(headerHeight)
   var urlHash = location.hash;
-  if(urlHash) {
+  if(urlHash && (/^[#a-zA-Z0-9_-]*$/.test(urlHash))){
       $('body,html').stop().scrollTop(0);
       setTimeout(function(){
           var target = $(urlHash);

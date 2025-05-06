@@ -1,7 +1,7 @@
 //対Safari用テキスト表示
 $(function() {
     var useragent = window.navigator.userAgent.toLowerCase();
-    var pathname = $(location).attr('pathname');
+    var pathname = window.location.pathname;
     if ( pathname.indexOf('\/en\/') != -1 || pathname.indexOf('\/cn\/') != -1 ){ //英・中の場合
         if (useragent.indexOf('msie') != -1 || useragent.indexOf('trident') != -1) {
         } else if(useragent.indexOf('edge') != -1) {

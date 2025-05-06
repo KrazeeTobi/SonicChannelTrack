@@ -19,16 +19,16 @@ new function(){
 //	}
 
 // Library
-	include( 'http://wc-system.com/nikei_bp/TGS2012_pre/www/common/js/jquery.js' );
+	// include( 'http://wc-system.com/nikei_bp/TGS2012_pre/www/common/js/jquery.js' );
 //	include( 'http://wc-system.com/nikei_bp/TGS2012_pre/www/common/js/ui.core.js' );
 //	include( 'http://wc-system.com/nikei_bp/TGS2012_pre/www/common/js/jquery.easing.1.3.js' );
 //	include( 'http://wc-system.com/nikei_bp/TGS2012_pre/www/common/js/jquery.cookie.js' );
 //	include( 'http://wc-system.com/nikei_bp/TGS2012_pre/www/common/js/jquery.scrollfollow.js' );
-	include( 'http://wc-system.com/nikei_bp/TGS2012_pre/www/common/js/menu.js' );
+	// include( 'http://wc-system.com/nikei_bp/TGS2012_pre/www/common/js/menu.js' );
 
 // Basic Script
-	include( 'http://wc-system.com/nikei_bp/TGS2012_pre/www/common/js/common.js' );
-	include( 'http://wc-system.com/nikei_bp/TGS2012_pre/www/common/js/offspring.min.js' );
+	// include( 'http://wc-system.com/nikei_bp/TGS2012_pre/www/common/js/common.js' );
+	// include( 'http://wc-system.com/nikei_bp/TGS2012_pre/www/common/js/offspring.min.js' );
 
 /*@cc_on
 // Include IE

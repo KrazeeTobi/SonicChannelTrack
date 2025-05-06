@@ -191,7 +191,7 @@ function menuWrite(){
 	document.write('<p><img src="images/main_noscript.jpg" border="0" usemap="#Map" /></p>');
 	document.write('<map name="Map" id="Map">');
 	document.write('<area shape="rect" coords="236,255,289,310" href="/tgs/2008/visitor/access.html" />');
-	document.write('<area shape="rect" coords="398,257,452,307" href="http://expo.nikkeibp.co.jp/tgs/2007/" target="_blank" />');
+	document.write('<area shape="rect" coords="398,257,452,307" href="https://expo.nikkeibp.co.jp/tgs/2007/" target="_blank" />');
 	document.write('</map>');
 	document.write('</p>');
 

@@ -1,6 +1,6 @@
 ﻿$(function() {
     $("#globalMenu").load("/tgs/2019/menu_ko.html");
-    FONTPLUS.reload(true);
+    // FONTPLUS.reload(true);
 });
 $(function() {
     $(".menuBtn").click(function(){
