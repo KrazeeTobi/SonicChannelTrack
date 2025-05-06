@@ -1,0 +1,144 @@
+/* CSS Document */
+/* ----------------------------------------
+    Index
+---------------------------------------- */
+section div {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+section a {
+  color: #FF9600;
+}
+section a:hover {
+  color: #FF9600;
+}
+
+/* ----------------------------------------
+    #category_list
+---------------------------------------- */
+#category_list {
+  margin-bottom: 0;
+}
+
+#category {
+  margin: 3.2% 0 0;
+}
+#category ul {
+  margin-top: 0;
+}
+#category li {
+  float: left;
+  width: 31%;
+  background: #ff9600;
+  padding: 5px 0;
+  margin-right: 3.3%;
+  text-align: center;
+  font-size: 13px;
+  font-weight: bold;
+  border-radius: 5px 5px 0 0;
+  border: none;
+}
+#category li.on {
+  padding: 5px 0;
+  background: #fff;
+  color: #ff9600;
+  font-size: 13px;
+}
+#category li:last-child {
+  margin-right: 0;
+}
+#category li img {
+  display: block;
+  margin: 0;
+  width: 100%;
+}
+#category li a {
+  color: #fff;
+  font-size: 13px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#name_list {
+  margin-bottom: 4%;
+  padding: 0;
+  background: #fff;
+}
+#name_list ul {
+  padding: 3% 0;
+  border-top: 1px solid #ff9600;
+  border-bottom: 1px solid #ff9600;
+  text-align: center;
+}
+#name_list li {
+  padding: 0 8px;
+  margin: 1% 0;
+  line-height: 1;
+  border-right: 1px solid #969696;
+  border-top: none;
+  display: inline-block;
+  font-size: 12px;
+}
+#name_list li.edge {
+  padding: 0 10px;
+  line-height: 21px;
+  border-right: none;
+}
+
+.company-list > ul {
+  padding: 2% 0 0;
+  background: #fff;
+}
+
+.list-area {
+  position: relative;
+  margin-top: 15%;
+  border-radius: 0 0 8px 8px;
+}
+
+#category_list {
+  width: 100%;
+}
+
+#category {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  margin-top: 0;
+  width: 100%;
+}
+
+.id, .name, .category {
+  float: left;
+}
+
+.id {
+  margin-top: -60px;
+  padding-top: 60px;
+  width: 16%;
+  font-weight: bold;
+}
+
+.name {
+  width: 84%;
+}
+.name a {
+  color: #ff9600;
+  text-decoration: none;
+}
+
+.category {
+  padding-bottom: 2%;
+  clear: left;
+  width: 100%;
+  color: #969696;
+  border-bottom: 1px solid #e6e6e6;
+}
+.category img {
+  width: 47%;
+}
+.category a:nth-child(2) img {
+  margin-left: 2%;
+}
+/*# sourceMappingURL=company.css.map */
