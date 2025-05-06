@@ -29,18 +29,18 @@
         #cboxError{padding:50px; border:1px solid #ccc;}
         #cboxLoadedContent{border:5px solid #000; background:#000;}
         #cboxTitle{
-			position:absolute;
+			xposition:absolute;
 			width: 100%;
 			box-sizing: border-box;
 			padding: 10px 10px;
-			bottom:0px;
-			left:0;
+			xbottom:0px;
+			xleft:0;
 			color:#FFF;
-			background: rgba(0, 0, 0, .6);
+			background: rgba(0, 0, 0, 1);
 			font-size: 1.8rem;
         }
         #cboxCurrent{position:absolute; top:-20px; right:0px; color:#ccc;}
-        #cboxLoadingGraphic{background:url(../images/colorbox/loading.gif) no-repeat center center;}
+        #cboxLoadingGraphic{background:url(../../assets/images/colorbox/loading.gif) no-repeat center center;}
 
         /* these elements are buttons, and may need to have additional styles reset to avoid unwanted base styles */
         #cboxPrevious, #cboxNext, #cboxSlideshow, #cboxClose {border:0; padding:0; margin:0; overflow:visible; width:auto; background:none; }
@@ -57,7 +57,7 @@
 			margin-top:-25px;
 			width:32px;
 			height:50px;
-			background:url(../images/colorbox/prev.png) no-repeat top left;
+			background:url(../img/colorbox/prev.png) no-repeat top left;
 			-webkit-transition: .3s;
             transition: .3s;
 			opacity:0.5;
@@ -72,7 +72,7 @@
 			margin-top:-25px;
 			width:32px;
 			height:50px;
-			background:url(../images/colorbox/next.png) no-repeat top right;
+			background:url(../img/colorbox/next.png) no-repeat top right;
 			-webkit-transition: .3s;
             transition: .3s;
 			opacity:0.5;
@@ -85,7 +85,7 @@
   position: absolute;
   top: 0;
   right: 0;
-  background: url(../images/colorbox/close.png) no-repeat;
+  background: url(../../assets/images/colorbox/cbox-close.png) no-repeat;
   width: 25px;
   margin-top: -30px;
   padding-top: 30px;

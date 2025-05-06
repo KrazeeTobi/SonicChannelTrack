@@ -62,8 +62,8 @@ figure figcaption {
   opacity: 0;
   color: #FFF;
 }
-figure figcaption h3,
-figure figcaption p {
+body.sub main figure figcaption h3,
+body.sub main figure figcaption p {
   xposition: absolute;
   line-height: 1.4;
   display: block;
@@ -74,12 +74,12 @@ figure figcaption p {
   -webkit-transition: .3s;
   transition: .3s;
 }
-figure figcaption h3 {
-  margin-top: 30px;
+body.sub main figure figcaption h3 {
+  margin-top: 20px;
   font-weight: bold;
   font-size: 2.0rem;
 }
-figure figcaption p {
+body.sub main figure figcaption p {
   margin-top: 10px;
   font-size: 1.8rem;
 }
@@ -91,15 +91,15 @@ figure:hover figcaption {
   opacity: 1;
   left: 0%;
 }
-figure:hover figcaption h3,
-figure:hover figcaption p {
+body.sub main figure:hover figcaption h3,
+body.sub main figure:hover figcaption p {
   left: 5%;
 }
-figure:hover figcaption h3 {
+body.sub main figure:hover figcaption h3 {
   -webkit-transition-delay: .2s;
   transition-delay: .2s;
 }
-figure:hover figcaption p {
+body.sub main figure:hover figcaption p {
   -webkit-transition-delay: .5s;
   transition-delay: .5s;
 }
@@ -123,10 +123,10 @@ figure:hover figcaption p {
 .grid-item.big {
 	width:66%;
 }
-figure figcaption h3 {
+body.sub main figure figcaption h3 {
   font-size: 2.0rem;
 }
-figure figcaption p {
+body.sub main figure figcaption p {
   font-size: 1.8rem;
 }
 
@@ -150,52 +150,3 @@ figure figcaption p {
 }
 
 
-/*==================================
-comingsoon
-===================================*/
-#comingsoon_box {
-	height: auto;
-	width: 100%;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 50px;
-}
-p.comingsoon_b {
-  font-size: 5.0rem;
-	font-weight: bold;
-	color: #fd5dff;
-	text-align: center;
-	margin-bottom: 20px;
-}
-p.comingsoon {
-  font-size: 2.6rem;
-	font-weight: bold;
-	color: #022e47;
-	text-align: center;
-}
-.pc-tb {
-	display: inline;
-}
-
-@media screen and (max-width:980px) {
-#comingsoon_box {
-	width: 96%;
-}
-.pc-tb {
-	display: inline;
-}
-}
-
-@media screen and (max-width:640px) {
-p.comingsoon_b {
-  font-size: 5.9rem;
-}
-p.comingsoon {
-  font-size: 3.9rem;
-  text-align: left;
-}
-.pc-tb {
-	display: none;
-}
-	
-}
