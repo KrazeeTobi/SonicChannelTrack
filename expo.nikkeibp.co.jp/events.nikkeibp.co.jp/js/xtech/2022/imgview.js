@@ -1,1 +1,0 @@
-document.addEventListener("DOMContentLoaded",function(){const a=document.querySelector(".js-windowClose");a.addEventListener("click",function(b){b.preventDefault();window.close()})});
