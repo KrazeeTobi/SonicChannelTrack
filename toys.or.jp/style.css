@@ -1,10 +1,11 @@
 body {
-	font: 100%/1.4 "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS P Gothic", sans-serif;
 	background: url(images/bg.gif);
-/*	background:#FF9966; */
+	/*	background:#FF9966; */
 	margin: 0;
 	padding: 0;
 	color: #000;
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS P Gothic", sans-serif;
+	line-height: 1.4;
 }
 
 /* ~~ エレメント / タグセレクター ~~ */
@@ -40,8 +41,7 @@ a:hover, a:active, a:focus { /* このセレクターグループは、キーボ
 	width: 80%;
 	max-width: 1000px;/* レイアウトが大型モニターで広がりすぎないように、最大幅を指定することをお勧めします。これにより、読みやすい行の長さを保つことができます。IE6 ではこの宣言は無視されます。 */
 	min-width: 1000px;/* レイアウトが狭くなりすぎないように、最小幅を指定することをお勧めします。これにより、サイドカラムで読みやすい行の長さを保つことができます。IE6 ではこの宣言は無視されます。 */
-	
-/* メインのバックグランド*/
+	/* メインのバックグランド*/
 /*	background: #FFFFD2; */
     background: #FFFFCC;
 	margin: 0 auto; /* 幅に加え、両側を自動値とすることで、レイアウトが中央に揃います。.container の幅を 100% に設定した場合、これは必要ありません。 */
@@ -118,6 +118,14 @@ a:hover, a:active, a:focus { /* このセレクターグループは、キーボ
 	 background: url(images/Texture0102.jpg);
 }
 
+.contentslider {
+	padding: 10px 0;
+	width: 80%;
+  margin: 0 auto;
+  	float: left;
+  text-align: left;
+}
+
 /* ~~ このセレクターグループは、.content 内のリストに領域間隔を指定します。~~ */
 .content ul, .content ol { 
 	padding: 0 15px 15px 100px; /* この余白は、上述の見出しと段落ルールの右の余白を表します。下の余白はリスト内の他のエレメントとの間隔用に配置され、左の余白はインデント作成用に配置されています。これは必要に応じて調整できます。 */
@@ -171,11 +179,11 @@ ul.nav a:hover, ul.nav a:active, ul.nav a:focus { /* マウスを使用する場
 	padding: 1px 0;
 	width:100%;
 	height:10%;
-	background: #FF99CC; 
-
+	background: #FF99CC;
 	position: relative;/* IE6 に、適切にクリアするための hasLayout を指定します。 */
 	clear: both; /* この clear プロパティにより .container は、カラムの範囲がどこまでかを認識してその範囲を含めるようになります。 */
 }
+
 
 /* ~~ その他の float/clear クラス ~~ */
 .fltrt {  /* このクラスを使用すると、ページ内でエレメントを右にフローティングさせることができます。フローティングさせるエレメントは、ページ内で横に並べて表示するエレメントの前に指定する必要があります。 */
@@ -329,6 +337,19 @@ f10 {
  border:none;
  }
  .rollover-image3:hover{
+ width:190px;
+ height:60px;
+ background-position:bottom;
+ }
+
+  /* toyshow2024  */
+.rollover-image4{
+ width:190px;
+ height:60px;
+ background-image:url("images/typhoonbn.jpg");
+ border:none;
+ }
+ .rollover-image4:hover{
  width:190px;
  height:60px;
  background-position:bottom;
@@ -660,7 +681,66 @@ f10 {
  background-position:bottom;
  }
 
+.sm-jg-st_08{
+ width:150px;
+ height:30px;
+ background-image:url("images/smenu_kyokaijigyou_st8.png");
+ border:none;
+ }
+ .sm-jg-st_08:hover{
+ width:150px;
+ height:30px;
+ background-position:bottom;
+ }
  
+.sm-jg-st_09{
+ width:150px;
+ height:30px;
+ background-image:url("images/smenu_kyokaijigyou_st9.png");
+ border:none;
+ }
+ .sm-jg-st_09:hover{
+ width:150px;
+ height:30px;
+ background-position:bottom;
+ }
+
+.sm-jg-st_10{
+ width:150px;
+ height:30px;
+ background-image:url("images/smenu_kyokaijigyou_st10.png");
+ border:none;
+ }
+ .sm-jg-st_10:hover{
+ width:150px;
+ height:30px;
+ background-position:bottom;
+ }
+
+.sm-jg-st_11{
+ width:150px;
+ height:30px;
+ background-image:url("images/smenu_kyokaijigyou_st11.png");
+ border:none;
+ }
+ .sm-jg-st_11:hover{
+ width:150px;
+ height:30px;
+ background-position:bottom;
+ }
+
+.sm-jg-st_12{
+ width:150px;
+ height:30px;
+ background-image:url("images/smenu_kyokaijigyou_st12.png");
+ border:none;
+ }
+ .sm-jg-st_12:hover{
+ width:150px;
+ height:30px;
+ background-position:bottom;
+ }
+
  .sm-jg_03{
  width:150px;
  height:30px;
@@ -792,7 +872,31 @@ f10 {
  height:30px;
  background-position:bottom;
  }
- 
+
+ .sm-jg_10{
+ width:150px;
+ height:30px;
+ background-image:url(images/smenu_kyokaijigyou_10.png);
+ border:none;
+ }
+ .sm-jg_10:hover{
+ width:150px;
+ height:30px;
+ background-position:bottom;
+ }
+
+ .sm-jg_11{
+ width:150px;
+ height:30px;
+ background-image:url(images/smenu_kyokaijigyou_11.png);
+ border:none;
+ }
+ .sm-jg_11:hover{
+ width:150px;
+ height:30px;
+ background-position:bottom;
+ }
+
   .sm-ts_01{
  width:150px;
  height:30px;

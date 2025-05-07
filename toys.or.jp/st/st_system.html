@@ -1,5 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
+
+<!-- Mirrored from toys.or.jp/st/st_system.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 07 May 2025 00:50:10 GMT -->
 <head>
 <LINK REL="SHORTCUT ICON" href="image/st.ico">
 <meta http-equiv="Content-Type" content="text/html; charset=shift_jis" />
@@ -133,13 +135,54 @@ function jump(){
 
 </script>
 
-	
+<script src="jquery.html" type="text/javascript"></script>
+<script type="text/javascript" src="jquery.cycle.all.html"></script>
+
+<script>
+
+
+
+ <!--
+ jQuery( function() {
+     jQuery( '#jquery-cycle' ) .cycle();
+ } );
+ // -->
+ </script>
 
 </head>
 
 <!-- http://www.studiobrain.net -->
 
 <body>
+
+<script type="text/javascript">
+$(document).ready(function() {
+  $(".view_timer").each(function(index, target) {
+    var startDate = $(this).attr("data-start-date");
+    var endDate = $(this).attr("data-end-date");
+    var nowDate = new Date();
+
+    if (startDate) {
+      startDate = new Date(startDate);
+    }
+    else {
+      startDate = nowDate;
+    }
+    if (endDate) {
+      endDate = new Date(endDate);
+    }
+
+    if (startDate <= nowDate && (!endDate || nowDate <= endDate)) {
+      $(this).show();
+    }
+    else {
+      $(this).hide();
+    }
+  });
+});
+
+</script>
+
 <div id="container">
 
 <div id="header">
@@ -157,20 +200,8 @@ function jump(){
   <tr>
     <td width="40">&nbsp;</td>
     <td width="838" valign="top"><table width="814" border="0" cellspacing="0" cellpadding="0">
-       
-        <tr>
-          <td colspan="2"><p><span class="after"><strong><span class="styleRED16"><span class="style27"><br />
-          </span>【年末年始休業のお知らせ】</span></strong><span class="style27"><br />
-                  <br />
-                  <strong>平素は大変お世話になっております。</strong><br />
-                  <span class="style45">下記の期間、日本玩具協会　事務局は冬季休暇をいただきます。<br />
-                  なお、ST申請システムは下記の期間中も稼働しております。</span><span class="style56"><br />
-                  <span class="style45">トラブル・お問合せ等ございましたら休暇明けでの対応となりますので、大変申し訳ございませんがご了承ください。<br />
-                  </span>                  <span class="style45"><br />
-                  </span>                  </span><span class="styleRED18">2023年12月29日（金）～2024年1月4日（月）</span><span class="style111"><br />
-                  </span><span class="style56"><br />
-                  </span></span></span></p></td>
-          </tr>
+       <td>&nbsp;</td>
+    
         <tr>
           <td>&nbsp;</td>
           <td class="style111">&nbsp;</td>
@@ -259,4 +290,6 @@ function jump(){
 
 </body>
 
+
+<!-- Mirrored from toys.or.jp/st/st_system.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 07 May 2025 00:50:15 GMT -->
 </html>
