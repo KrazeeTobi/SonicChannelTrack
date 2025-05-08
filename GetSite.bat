@@ -32,6 +32,7 @@
 ::v2.3.0 - 2023-06-13: SonicSuperStars on sonic.sega.jp has gone live
 ::v3.0.0 - 2024-01-31: Sonic X Shadow Generations what the fuck is this segger
 ::v4.0.0 - 2025-03-21: should have done this long ago but SonicRacingCrossWorlds has been added
+::v4.1.0 - 2025-05-02: reordered newest additions
 ::--------------------------------------------------------------
 ::Script
 ::--------------------------------------------------------------
@@ -46,7 +47,6 @@ wget -r --no-parent --no-check-certificate -p http://sonic.sega.jp/advance3/
 wget -r --no-parent --no-check-certificate -p http://sonic.sega.jp/ankokunokishi/
 wget -r --no-parent --no-check-certificate -p http://sonic.sega.jp/battle/
 wget -r --no-parent --no-check-certificate -p http://sonic.sega.jp/gems/
-wget -r --no-parent --no-check-certificate -p http://sonic.sega.jp/images/
 wget -r --no-parent --no-check-certificate -p http://sonic.sega.jp/megacolle/
 wget -r --no-parent --no-check-certificate -p http://sonic.sega.jp/megacolleplus/
 wget -r --no-parent --no-check-certificate -p http://sonic.sega.jp/NightOfTheWerehog/
@@ -62,7 +62,9 @@ wget -r --no-parent --no-check-certificate -p http://sonic.sega.jp/sonic3d/
 wget -r --no-parent --no-check-certificate -p http://sonic.sega.jp/sonicadv/
 wget -r --no-parent --no-check-certificate -p http://sonic.sega.jp/sonicadv_int/
 wget -r --no-parent --no-check-certificate -p http://sonic.sega.jp/sonicadv2/
+wget -r --no-parent --no-check-certificate -p http://sonic.sega.jp/sonicadvdx/
 wget -r --no-parent --no-check-certificate -p http://sonic.sega.jp/SonicAllStarRacing/
+wget -r --no-parent --no-check-certificate -p http://sonic.sega.jp/sonic-birthday2024/
 wget -r --no-parent --no-check-certificate -p http://sonic.sega.jp/SonicChannel/
 wget -r --no-parent --no-check-certificate -p http://sonic.sega.jp/SonicChannelOld/
 wget -r --no-parent --no-check-certificate -p http://sonic.sega.jp/SonicChronicles/
@@ -74,16 +76,16 @@ wget -r --no-parent --no-check-certificate -p http://sonic.sega.jp/SonicGenerati
 wget -r --no-parent --no-check-certificate -p http://sonic.sega.jp/sonicjam/
 wget -r --no-parent --no-check-certificate -p http://sonic.sega.jp/SonicLostWorld/
 wget -r --no-parent --no-check-certificate -p http://sonic.sega.jp/SonicMania/
+wget -r --no-parent --no-check-certificate -p http://sonic.sega.jp/SonicOrigins/
 wget -r --no-parent --no-check-certificate -p http://sonic.sega.jp/sonicr/
+wget -r --no-parent --no-check-certificate -p http://sonic.sega.jp/SonicRacingCrossWorlds/
+wget -r --no-parent --no-check-certificate -p http://sonic.sega.jp/SonicSuperStars/
 wget -r --no-parent --no-check-certificate -p http://sonic.sega.jp/SonicTheHedgehog4/
 wget -r --no-parent --no-check-certificate -p http://sonic.sega.jp/SonicToon/
 wget -r --no-parent --no-check-certificate -p http://sonic.sega.jp/SonicWorldAdventure/
+wget -r --no-parent --no-check-certificate -p http://sonic.sega.jp/SonicXShadowGenerations/
 wget -r --no-parent --no-check-certificate -p http://sonic.sega.jp/TeamSonicRacing/
 wget -r --no-parent --no-check-certificate -p http://sonic.sega.jp/wpack/
-wget -r --no-parent --no-check-certificate -p http://sonic.sega.jp/SonicOrigins/
-wget -r --no-parent --no-check-certificate -p http://sonic.sega.jp/SonicSuperStars/
-wget -r --no-parent --no-check-certificate -p http://sonic.sega.jp/SonicXShadowGenerations/
-wget -r --no-parent --no-check-certificate -p http://sonic.sega.jp/SonicRacingCrossWorlds/
 wget -r --no-parent --no-check-certificate -p http://blog.sonic-channel.jp/
 wget -r --no-parent --no-check-certificate -p http://sonicteam.com/
 wget -r --no-parent --no-check-certificate -p http://sonicteam.com/sonicx/
@@ -164,5 +166,7 @@ git add "sonicteam.com/*.*"
 git add "www.nintendo.co.jp/*.*"
 git add "www.olympicvideogames.com/*.*"
 git add "log/*.*"
+git add "GetSite.bat"
+git add "initTobi.bat"
 git commit -m "files from %date:~-4,4%-%date:~3,2%-%date:~-10,2%, %time:~0,2%:%time:~3,2%:%time:~6,2%"
 git push
