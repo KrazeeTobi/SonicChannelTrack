@@ -134,7 +134,7 @@ window.addEventListener('DOMContentLoaded', () => {
 							$(".navWrap").removeClass(isOn);
 						}
 					}
-					if (scrollPosition > 0) {
+					if (scrollPosition > 50) {
 						$(".navSpBtn").addClass("is-fixed")
 					} else {
 						$(".navSpBtn").removeClass("is-fixed")
