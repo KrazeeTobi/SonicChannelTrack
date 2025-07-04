@@ -3,24 +3,31 @@
 window.addEventListener('DOMContentLoaded', () => {
 	const lang = document.documentElement.getAttribute('lang');
 	let include = "";
+	let officialSiteName = "";
 	if (lang === 'ja') {
 		$(".langFonts.is-jp").hide()
 		include = `/SonicRacingCrossWorlds/components.html`;
+		officialSiteName = "『ソニックレーシング クロスワールド』公式サイト|SEGA"
 	} else if (lang === 'en') {
 		$(".langFonts.is-en").hide()
 		include = `/SonicRacingCrossWorlds/en/components.html`;
+		officialSiteName = "Sonic Racing: CrossWorlds Official Site|SEGA"
 	} else if (lang === 'ko') {
 		$(".langFonts.is-kr").hide()
 		include = `/SonicRacingCrossWorlds/kr/components.html`;
+		officialSiteName = "『소닉 레이싱 크로스월드』공식 웹사이트|SEGA"
 	} else if (lang === 'zh-Hant') {
 		$(".langFonts.is-cht").hide()
 		include = `/SonicRacingCrossWorlds/cht/components.html`;
+		officialSiteName = "《索尼克賽車 交叉世界》官方網站|SEGA"
 	} else if (lang === 'zh-Hans') {
 		$(".langFonts.is-cn").hide()
 		include = `/SonicRacingCrossWorlds/cn/components.html`;
+		officialSiteName = "《索尼克赛车 交叉世界》官方网站|SEGA"
 	} else if (lang === 'th') {
 		$(".langFonts.is-th").hide()
 		include = `/SonicRacingCrossWorlds/th/components.html`;
+		officialSiteName = "เว็บไซต์อย่างเป็นทางการของ โซนิคเรซซิง ซิ่งทะยานข้ามโลก|SEGA"
 	}
 
 
@@ -40,6 +47,27 @@ window.addEventListener('DOMContentLoaded', () => {
 			navElement.innerHTML = navInc;
 			document.querySelector('footer').innerHTML = footerInc;
 			$(".headerSegaAccount").remove()
+
+
+
+			const title = $("title").text();;
+			const url = window.location.href;
+			const xUrl = "https://x.com/intent/tweet?text=";
+			const lineUrl = "https://line.me/R/msg/text/?";
+			let combinedText = title + " " + url;
+
+			// 117文字以上かチェック
+			if (title.length >= 117) {
+				combinedText = officialSiteName + " " + url;
+			}
+			if (lang === 'zh-Hans') {
+				$("#at-headerWheibo a").attr("href", `http://service.weibo.com/share/share.php?url=${url}&title=${title};`);
+			} else {
+				$("#at-headerX a").attr("href", xUrl + encodeURIComponent(combinedText));
+				if (lang === 'ja') {
+					$("#at-headerLine a").attr("href", lineUrl + encodeURIComponent(combinedText));
+				}
+			}
 
 
 			/*======
