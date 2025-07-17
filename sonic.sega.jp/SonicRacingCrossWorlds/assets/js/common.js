@@ -46,7 +46,6 @@ window.addEventListener('DOMContentLoaded', () => {
 			document.querySelector('header').innerHTML = headerInc;
 			navElement.innerHTML = navInc;
 			document.querySelector('footer').innerHTML = footerInc;
-			$(".headerSegaAccount").remove()
 
 
 
