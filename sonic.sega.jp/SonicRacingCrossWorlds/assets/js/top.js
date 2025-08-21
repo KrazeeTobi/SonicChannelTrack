@@ -13,6 +13,7 @@ $(function () {
 			$(".topMovieBox").addClass(on);
 			$(".topPf").addClass(on);
 			$(".topNote").addClass(on);
+			$(".otnBnr").addClass(on);
 		}, 500);
 	}, 300);
 	/*======
