@@ -123,12 +123,12 @@ $(function () {
 						navigation: false,
 
 						pagination: {
-							el: '.swiper-pagination',
+							el: '.swiper-pagination.is-news',
 							clickable: true, // ページネーションをクリック可能にする
 						},
 						navigation: {
-							nextEl: '.swiper-button-next',
-							prevEl: '.swiper-button-prev',
+							nextEl: '.swiper-button-next.is-news',
+							prevEl: '.swiper-button-prev.is-news',
 						},
 
 
@@ -150,6 +150,40 @@ $(function () {
 
 
 
+
+					});
+
+
+					const swiperBnr = new Swiper(".swiperBnr", {
+						spaceBetween: 10,
+						loop: false,
+						pagination: {
+							el: '.swiper-pagination.is-bnr',
+							clickable: true, // ページネーションをクリック可能にする
+						},
+						navigation: {
+							nextEl: ".swiper-button-next.is-bnr",
+							prevEl: ".swiper-button-prev.is-bnr",
+						},
+						breakpoints: {
+
+							769: {
+								slidesPerView: 1, // 640px以下のときのスライド数
+
+							},
+							980: {
+								slidesPerView: 4.5, // 980px以異常のときのスライド数
+							},
+
+							1920: {
+								slidesPerView: 5, // 980px以下のときのスライド数
+							},
+						},
+						on: {
+							init: function () {
+								$(".topBnrBox").addClass("is-on")
+							}
+						}
 
 					});
 
