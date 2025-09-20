@@ -1,3 +1,5 @@
+#!/bin/bash
+
 #-------------------------------------------------------------
 #Changelog
 #-------------------------------------------------------------
@@ -34,6 +36,7 @@
 #v4.0.0 - 2025-03-21: should have done this long ago but SonicRacingCrossWorlds has been added
 #v4.1.0 - 2025-05-02: reordered newest additions
 #v4.2.0 - 2025-09-20: Moved to linux host. Converted everything as necessary.
+#v4.2.1 - 2025-09-20: it's 23:19 and i forgot to indicate which shell to use... i'm a fucking dumbass.
 #-------------------------------------------------------------
 #Downloader
 #-------------------------------------------------------------
