@@ -1,7 +1,12 @@
 #!/bin/bash
 
 #-------------------------------------------------------------
-#Changelog
+# GetSite for SonicChannelTracker by KrazeeTobi
+# Eliza and Willow greet you with a warm smile!
+#-------------------------------------------------------------
+#Section 1: Changelog
+# You need an explanation for this? It's a goddamn changelog,
+# and you're reading this, expecting an explanation???
 #-------------------------------------------------------------
 #Alpha - 2022-01-07: Initial version. Can download files, commit, and push them.
 #Beta - 2022-01-07: Replaced copy-pasted code. Commits now actually work (somewhat).
@@ -38,7 +43,9 @@
 #v4.2.0 - 2025-09-20: Moved to linux host. Converted everything as necessary.
 #v4.2.1 - 2025-09-20: it's 23:19 and i forgot to indicate which shell to use... i'm a fucking dumbass.
 #-------------------------------------------------------------
-#Downloader
+#Section 2: Downloader
+# This first pulls the latest changes (if any), and then
+# runs all these wget downloads. This will take a while.
 #-------------------------------------------------------------
 git pull
 wget -r --no-parent --no-check-certificate -p http://sonic.sega.jp/
@@ -113,7 +120,9 @@ wget -r --no-parent --no-check-certificate -p http://sonic-movie.jp/
 wget -r --no-parent --no-check-certificate -p http://paramount.jp/sonic-movie/
 wget -r --no-parent --no-check-certificate -p http://sonicrunners.sega-net.com/
 #-------------------------------------------------------------
-#Delete Temporary Files
+#Section 3: Delete Temporary Files
+# As you can guess, this section deletes temporary files that
+# wget leaves behind. It also deletes .wget-hsts.
 #-------------------------------------------------------------
 cd sonic.sega.jp
 find . -name "*.1" -exec rm {} \;
@@ -162,7 +171,9 @@ find . -name "*.10" -exec rm {} \;
 cd ..
 del .wget-hsts
 #-------------------------------------------------------------
-#Commit to Git
+#Section 4: Commit to Git
+# Add the files and the master script, then commit with the
+# timestamp, and then push to origin.
 #-------------------------------------------------------------
 git add "blog.sonic-channel.jp/*.*"
 git add "paramount.jp/*.*"
