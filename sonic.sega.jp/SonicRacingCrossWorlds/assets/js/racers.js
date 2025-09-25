@@ -16,13 +16,19 @@ $(function () {
 			let breakAdded = ``;
 			for (let i = 0; i < collaboNum; i++) {
 				const collaboJsonData = result[i]
-				const collaboImg = collaboJsonData.img;
+				let collaboImg = collaboJsonData.img;
 				if (collaboImg) {
 					let collaboName = "";
 					if (lang === 'ja') {
 						collaboName = collaboJsonData.jp;
 					} else if (lang === 'en') {
 						collaboName = collaboJsonData.en;
+						if (collaboImg === "rcm01") {
+							collaboImg = "mgm01"
+						}
+						if (collaboImg === "rcm02") {
+							collaboImg = "mgm02"
+						}
 					} else if (lang === 'ko') {
 						collaboName = collaboJsonData.kr;
 					} else if (lang === 'zh-Hant') {
@@ -31,6 +37,12 @@ $(function () {
 						collaboName = collaboJsonData.cn;
 					} else if (lang === 'th') {
 						collaboName = collaboJsonData.th;
+						if (collaboImg === "rcm01") {
+							collaboImg = "mgm01"
+						}
+						if (collaboImg === "rcm02") {
+							collaboImg = "mgm02"
+						}
 					}
 					collaboAppendItem += `<li class="racerItem"><div class="racerName is-yellow">${collaboName}</div>
 						<picture>
