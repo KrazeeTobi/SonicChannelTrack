@@ -83,28 +83,56 @@ $(function () {
 
 
 	var deferred = new $.Deferred;
+	let componentsUrl;
+
+	const lang = document.documentElement.lang;
+
+	switch (lang) {
+		case 'ja':
+			componentsUrl = "/SonicRacingCrossWorlds/components.html";
+			break;
+		case 'zh-Hant':
+			componentsUrl = "/SonicRacingCrossWorlds/cht/components.html";
+			break;
+		case 'zh-Hans':
+			componentsUrl = "/SonicRacingCrossWorlds/cn/components.html";
+			break;
+		case 'en':
+			componentsUrl = "/SonicRacingCrossWorlds/en/components.html";
+			break;
+		case 'ko':
+			componentsUrl = "/SonicRacingCrossWorlds/kr/components.html";
+			break;
+		case 'th':
+			componentsUrl = "/SonicRacingCrossWorlds/th/components.html";
+			break;
+		default:
+			componentsUrl = "/SonicRacingCrossWorlds/assets_teaser/component.html";
+			break;
+	}
+
 	$.ajax({
-		url: '/SonicRacingCrossWorlds/assets_teaser/component.html',
+		url: componentsUrl,
 		cache: false,
 		datatype: 'html'
 	}).done(function (html) {
 		var html = $($.parseHTML(html));
 
-		$('#footer-JP01').prepend(html.filter('.footer-JP01'));
+		$('#footer-JP01').prepend(html.filter('#callFooterItem'));
 		$('#footer-JP02').prepend(html.filter('.footer-JP02'));
-		$('#footer-CHT01').prepend(html.filter('.footer-CHT01'));
+		$('#footer-CHT01').prepend(html.filter('#callFooterItem'));
 		$('#footer-CHT02').prepend(html.filter('.footer-CHT02'));
-		$('#footer-CN01').prepend(html.filter('.footer-CN01'));
+		$('#footer-CN01').prepend(html.filter('#callFooterItem'));
 		$('#footer-CN02').prepend(html.filter('.footer-CN02'));
-		$('#footer-EN01').prepend(html.filter('.footer-EN01'));
+		$('#footer-EN01').prepend(html.filter('#callFooterItem'));
 		$('#footer-EN02').prepend(html.filter('.footer-EN02'));
-		$('#footer-KR01').prepend(html.filter('.footer-KR01'));
+		$('#footer-KR01').prepend(html.filter('#callFooterItem'));
 		$('#footer-KR02').prepend(html.filter('.footer-KR02'));
-		$('#footer-TH01').prepend(html.filter('.footer-TH01'));
+		$('#footer-TH01').prepend(html.filter('#callFooterItem'));
 		$('#footer-TH02').prepend(html.filter('.footer-TH02'));
 
 		deferred.resolve(html);
-
+		$(".footerLangWrap").hide()
 	}).fail(function (html) {
 		deferred.reject(html);
 	});

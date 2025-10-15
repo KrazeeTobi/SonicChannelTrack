@@ -52,16 +52,20 @@ $(function () {
 			let topnewsAppendItem = ``;
 			for (let i = 0; i < topnewsNum; i++) {
 				const topnewsJsonData = result[i]
-
+				const linkBlank = topnewsJsonData.linkBlank;
 				const tumbnailImg = topnewsJsonData.tumbnailImg;
 				const title = topnewsJsonData.title;
 				const year = topnewsJsonData.year;
 				const month = topnewsJsonData.month;
 				const day = topnewsJsonData.day;
 				const link = topnewsJsonData.link;
+				let tagetBlank = "";
+				if (linkBlank) {
+					tagetBlank = `target="_blank"`
+				}
 
 				topnewsAppendItem += `<div class="topNewsListItem swiper-slide">
-												<a href="${link}" class="topNewsItem" role="link">
+												<a href="${link}" class="topNewsItem" role="link" ${tagetBlank}>
 													<div class="topNewsItemInner">
 														<div class="topNewsItemBox">
 															<div class="newIcon is-news" data-date="${year}-${month}-${day}"></div>
@@ -155,7 +159,7 @@ $(function () {
 
 
 					const swiperBnr = new Swiper(".swiperBnr", {
-						spaceBetween: 10,
+						spaceBetween: 0,
 						loop: false,
 						pagination: {
 							el: '.swiper-pagination.is-bnr',
@@ -172,7 +176,7 @@ $(function () {
 
 							},
 							980: {
-								slidesPerView: 4.5, // 980px以異常のときのスライド数
+								slidesPerView: 5, // 980px以異常のときのスライド数
 							},
 
 							1920: {
