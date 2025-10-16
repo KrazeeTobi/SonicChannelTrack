@@ -97,16 +97,8 @@ $(function () {
 
 							storeList.innerHTML = storeAppendItem;
 
-							//Lenis 慣性スクロール
-							const lenis = new Lenis();
 
-							function raf(time) {
-								lenis.raf(time);
-								requestAnimationFrame(raf);
-							}
 
-							requestAnimationFrame(raf);
-							const lang = document.documentElement.getAttribute('lang');
 
 
 
@@ -240,16 +232,7 @@ $(function () {
 
 							storeList.innerHTML = storeAppendItem;
 
-							//Lenis 慣性スクロール
-							const lenis = new Lenis();
 
-							function raf(time) {
-								lenis.raf(time);
-								requestAnimationFrame(raf);
-							}
-
-							requestAnimationFrame(raf);
-							const lang = document.documentElement.getAttribute('lang');
 
 							if (/Mobi|Android/i.test(navigator.userAgent)) {
 								if (window.location.hash) {
@@ -390,16 +373,7 @@ $(function () {
 
 							storeList.innerHTML = storeAppendItem;
 
-							//Lenis 慣性スクロール
-							const lenis = new Lenis();
 
-							function raf(time) {
-								lenis.raf(time);
-								requestAnimationFrame(raf);
-							}
-
-							requestAnimationFrame(raf);
-							const lang = document.documentElement.getAttribute('lang');
 
 
 
@@ -534,16 +508,6 @@ $(function () {
 
 							storeList.innerHTML = storeAppendItem;
 
-							//Lenis 慣性スクロール
-							const lenis = new Lenis();
-
-							function raf(time) {
-								lenis.raf(time);
-								requestAnimationFrame(raf);
-							}
-
-							requestAnimationFrame(raf);
-							const lang = document.documentElement.getAttribute('lang');
 
 
 
@@ -675,16 +639,6 @@ $(function () {
 
 							storeList.innerHTML = storeAppendItem;
 
-							//Lenis 慣性スクロール
-							const lenis = new Lenis();
-
-							function raf(time) {
-								lenis.raf(time);
-								requestAnimationFrame(raf);
-							}
-
-							requestAnimationFrame(raf);
-							const lang = document.documentElement.getAttribute('lang');
 
 
 
@@ -817,16 +771,6 @@ $(function () {
 
 							storeList.innerHTML = storeAppendItem;
 
-							//Lenis 慣性スクロール
-							const lenis = new Lenis();
-
-							function raf(time) {
-								lenis.raf(time);
-								requestAnimationFrame(raf);
-							}
-
-							requestAnimationFrame(raf);
-							const lang = document.documentElement.getAttribute('lang');
 
 
 
@@ -839,5 +783,6 @@ $(function () {
 				});
 		}
 	}
+
 
 });
