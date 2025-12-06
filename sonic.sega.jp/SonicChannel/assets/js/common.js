@@ -59,8 +59,17 @@ $(function () {
 
 
 			function twitterShare(event) {
-				var _twitterUrl = encodeURI("http://twitter.com/share?url=" + event.data.url + "&text=" + event.data.title + "&hashtags=SonicChannel");
-				window.open(_twitterUrl, "_blank")
+				//var _twitterUrl = encodeURI("http://twitter.com/share?url=" + event.data.url + "&text=" + event.data.title + "&hashtags=SonicChannel");
+				const twTitle = (event && event.data && event.data.title) ? event.data.title : "";
+				const twUrl = (event && event.data && event.data.url) ? event.data.url : "";
+
+				// テキスト → ハッシュタグ → URL を本文にすべて含める
+				const twText = twTitle + "\n#SonicChannel\n";
+				const twShareUrl =
+					"https://twitter.com/intent/tweet" +
+					"?text=" + encodeURIComponent(twText) +
+					"&url=" + encodeURIComponent(twUrl);
+				window.open(twShareUrl, "_blank")
 			}
 
 			function facebookShare(event) {
