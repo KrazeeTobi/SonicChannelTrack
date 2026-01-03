@@ -42,6 +42,7 @@
 #v4.1.0 - 2025-05-02: reordered newest additions
 #v4.2.0 - 2025-09-20: Moved to linux host. Converted everything as necessary.
 #v4.2.1 - 2025-09-20: it's 23:19 and i forgot to indicate which shell to use... i'm a fucking dumbass.
+#v5.0.0 - 2026-01-03: Added Sonic Rumble and Sonic & Friends sites.
 #-------------------------------------------------------------
 #Section 2: Downloader
 # This first pulls the latest changes (if any), and then
@@ -119,6 +120,8 @@ wget -r --no-parent --no-check-certificate -p http://www.olympicvideogames.com/m
 wget -r --no-parent --no-check-certificate -p http://sonic-movie.jp/
 wget -r --no-parent --no-check-certificate -p http://paramount.jp/sonic-movie/
 wget -r --no-parent --no-check-certificate -p http://sonicrunners.sega-net.com/
+wget -r --no-parent --no-check-certificate -p http://sonicandfriends.com/jp/
+wget -r --no-parent --no-check-certificate -p http://sonicrumble.sega.com/ja/
 #-------------------------------------------------------------
 #Section 3: Delete Temporary Files
 # As you can guess, this section deletes temporary files that
