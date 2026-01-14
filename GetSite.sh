@@ -43,6 +43,7 @@
 #v4.2.0 - 2025-09-20: Moved to linux host. Converted everything as necessary.
 #v4.2.1 - 2025-09-20: it's 23:19 and i forgot to indicate which shell to use... i'm a fucking dumbass.
 #v5.0.0 - 2026-01-03: Added Sonic Rumble and Sonic & Friends sites.
+#v5.0.1 - 2026-01-14: annual refresh; remove sonicrunners.sega-net.com as it's pretty much pointless now
 #-------------------------------------------------------------
 #Section 2: Downloader
 # This first pulls the latest changes (if any), and then
@@ -119,7 +120,6 @@ wget -r --no-parent --no-check-certificate -p http://www.olympicvideogames.com/m
 wget -r --no-parent --no-check-certificate -p http://www.olympicvideogames.com/marioandsonic/
 wget -r --no-parent --no-check-certificate -p http://sonic-movie.jp/
 wget -r --no-parent --no-check-certificate -p http://paramount.jp/sonic-movie/
-wget -r --no-parent --no-check-certificate -p http://sonicrunners.sega-net.com/
 wget -r --no-parent --no-check-certificate -p http://sonicandfriends.com/jp/
 wget -r --no-parent --no-check-certificate -p http://sonicrumble.sega.com/ja/
 #-------------------------------------------------------------
@@ -178,14 +178,6 @@ del .wget-hsts
 # Add the files and the master script, then commit with the
 # timestamp, and then push to origin.
 #-------------------------------------------------------------
-git add "blog.sonic-channel.jp/*.*"
-git add "paramount.jp/*.*"
-git add "sonic.sega.jp/*.*"
-git add "sonic-movie.jp/*.*"
-git add "sonicrunners.sega-net.com/*.*"
-git add "sonicteam.com/*.*"
-git add "www.nintendo.co.jp/*.*"
-git add "www.olympicvideogames.com/*.*"
-git add "GetSite.sh"
+git add -A
 git commit -m "files from $(date '+%Y-%m-%d, %H:%M:%S')"
 git push
