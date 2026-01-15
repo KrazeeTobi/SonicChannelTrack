@@ -10,7 +10,7 @@ if ( plugin ) {
     document.write(' <PARAM name="menu" value="false">  '); 
 	document.write(' <EMBED src="swf/movie.swf" quality="high" wmode="transparent" menu="false"');
 	document.write(' swLiveConnect=FALSE WIDTH=730 HEIGHT=485');
-	document.write(' TYPE="application/x-shockwave-flash" PLUGINSPAGE="http://www.adobe.com/shockwave/download/index.cgi?Lang=Japanese&P1_Prod_Version=ShockwaveFlash">');
+	document.write(' TYPE="application/x-shockwave-flash" PLUGINSPAGE="http://www.adobe.com/shockwave/download/index.cgi?Lang=Japanese&amp;P1_Prod_Version=ShockwaveFlash">');
 	document.write(' </EMBED>');
 	document.write(' </OBJECT>');
 } else {
