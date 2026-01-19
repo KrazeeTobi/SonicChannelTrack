@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 
-<!-- Mirrored from toys.or.jp/toyshow/2007/list/booth/booth_list.php?id=nisi_4 by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 07 May 2025 00:50:56 GMT -->
+<!-- Mirrored from toys.or.jp/toyshow/2007/list/booth/booth_list.php?id=nisi_4 by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 19 Jan 2026 15:42:09 GMT -->
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=shift_jis" />
 <meta http-equiv="keywords" content="おもちゃショー2007, おもちゃ, おもちゃしょー, オモチャショー, おもちゃショー, 2007" />
@@ -145,7 +145,7 @@ if($id=="nisi_1"){
 			$url = $Record[3][7];
 
 			if(empty($url)!=TRUE){
-				$aname = "<a href=../../../../_%24url/_.html target=\"_blank\"><b>";
+				$aname = "<a href=https://toys.or.jp/"$url/" target=\"_blank\"><b>";
 				$bname = "</b></a>";
 			}
 			else{
@@ -158,7 +158,7 @@ if($id=="nisi_1"){
 				if($evnetflg=="1"){
 					$temp = $Record[3][2];
 					$temp2 = ereg_replace("-", "_", $temp); 
-					$event = "<span class=\"event_btn\"><a href=../../../../event/event.html#$temp2\">イベントページへ</a></span>";
+					$event = "<span class=\"event_btn\"><a href=https://toys.or.jp/event/event.html#$temp2\">イベントページへ</a></span>";
 				}
 				else{
 					$event = "";
@@ -191,7 +191,7 @@ EOF;
 			$url = $Record[0][7];
 
 			if(empty($url)!=TRUE){
-				$aname = "<a href=../../../../_%24url/_.html target=\"_blank\"><b>";
+				$aname = "<a href=https://toys.or.jp/"$url/" target=\"_blank\"><b>";
 				$bname = "</b></a>";
 			}
 			else{
@@ -204,7 +204,7 @@ EOF;
 				if($evnetflg=="1"){
 					$temp = $Record[0][2];
 					$temp2 = ereg_replace("-", "_", $temp); 
-					$event = "<span class=\"event_btn\"><a href=../../../../event/event.html#$temp2\">イベントページへ</a></span>";
+					$event = "<span class=\"event_btn\"><a href=https://toys.or.jp/event/event.html#$temp2\">イベントページへ</a></span>";
 				}
 				else{
 					$event = "";
@@ -237,7 +237,7 @@ EOF;
 			$url = $Record[1][7];
 
 			if(empty($url)!=TRUE){
-				$aname = "<a href=../../../../_%24url/_.html target=\"_blank\"><b>";
+				$aname = "<a href=https://toys.or.jp/"$url/" target=\"_blank\"><b>";
 				$bname = "</b></a>";
 			}
 			else{
@@ -250,7 +250,7 @@ EOF;
 				if($evnetflg=="1"){
 					$temp = $Record[1][2];
 					$temp2 = ereg_replace("-", "_", $temp); 
-					$event = "<span class=\"event_btn\"><a href=../../../../event/event.html#$temp2\">イベントページへ</a></span>";
+					$event = "<span class=\"event_btn\"><a href=https://toys.or.jp/event/event.html#$temp2\">イベントページへ</a></span>";
 				}
 				else{
 					$event = "";
@@ -283,7 +283,7 @@ EOF;
 			$url = $Record[2][7];
 
 			if(empty($url)!=TRUE){
-				$aname = "<a href=../../../../_%24url/_.html target=\"_blank\"><b>";
+				$aname = "<a href=https://toys.or.jp/"$url/" target=\"_blank\"><b>";
 				$bname = "</b></a>";
 			}
 			else{
@@ -297,7 +297,7 @@ EOF;
 				if($evnetflg=="1"){
 					$temp = $Record[2][2];
 					$temp2 = ereg_replace("-", "_", $temp); 
-					$event = "<span class=\"event_btn\"><a href=../../../../event/event.html#$temp2\">イベントページへ</a></span>";
+					$event = "<span class=\"event_btn\"><a href=https://toys.or.jp/event/event.html#$temp2\">イベントページへ</a></span>";
 				}
 				else{
 					$event = "";
@@ -353,7 +353,7 @@ else{
 			$url = $Record[$j][7];
 
 			if(empty($url)!=TRUE){
-				$aname = "<a href=../../../../_%24url/_.html target=\"_blank\"><b>";
+				$aname = "<a href=https://toys.or.jp/"$url/" target=\"_blank\"><b>";
 				$bname = "</b></a>";
 			}
 			else{
@@ -366,7 +366,7 @@ else{
 				if($evnetflg=="1"){
 					$temp = $Record[$j][2];
 					$temp2 = ereg_replace("-", "_", $temp); 
-					$event = "<span class=\"event_btn\"><a href=../../../../event/event.html#$temp2\">イベントページへ</a></span>";
+					$event = "<span class=\"event_btn\"><a href=https://toys.or.jp/event/event.html#$temp2\">イベントページへ</a></span>";
 				}
 				else{
 					$event = "";
@@ -418,7 +418,7 @@ if($viewflg2=="on"){
 			$catename = substr($catename, 0, $max);
 			$url = $Record[$j][7];
 			if(empty($url)!=TRUE){
-				$aname = "<a href=../../../../_%24url/_.html target=\"_blank\"><b>";
+				$aname = "<a href=https://toys.or.jp/"$url/" target=\"_blank\"><b>";
 				$bname = "</b></a>";
 			}
 			else{
@@ -432,7 +432,7 @@ if($viewflg2=="on"){
 				if($evnetflg=="1"){
 					$temp = $Record[$j][2];
 					$temp2 = ereg_replace("-", "_", $temp); 
-					$event = "<span class=\"event_btn\"><a href=../../../../event/event.html#$temp2\">イベントページへ</a></span>";
+					$event = "<span class=\"event_btn\"><a href=https://toys.or.jp/event/event.html#$temp2\">イベントページへ</a></span>";
 				}
 				else{
 					$event = "";
@@ -469,7 +469,7 @@ EOF;
 				 </ul>
 	</div><br  class="clear" />
 <div id="footer">
-	<p class="kyoukai"><a href="../../../../index.html" target="_blank">社団法人 日本玩具協会</a></p>
+	<p class="kyoukai"><a href="http://www.toys.or.jp/" target="_blank">社団法人 日本玩具協会</a></p>
 	<p class="address"><img src="../../shared/images/t_copy_right.gif" alt="www.toys.or.jp copyright the japan toy association all rights reserved" width="477" height="12" /></p><br  class="clear" />
 </div>
 </div>
@@ -477,5 +477,5 @@ EOF;
 
 </body>
 
-<!-- Mirrored from toys.or.jp/toyshow/2007/list/booth/booth_list.php?id=nisi_4 by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 07 May 2025 00:50:56 GMT -->
+<!-- Mirrored from toys.or.jp/toyshow/2007/list/booth/booth_list.php?id=nisi_4 by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 19 Jan 2026 15:42:09 GMT -->
 </html>
