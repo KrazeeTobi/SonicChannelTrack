@@ -1,0 +1,291 @@
+/* topバナーの削除 */
+.header__wrap.event__header {
+  display: none;
+}
+#app > div > section > section.widget__wrap.event__layout > div:nth-child(1) > p {
+  display: none;
+}
+/* TOPページのバナー上部の余白調節 */
+.banner__wrap {
+  margin-top: 0px!important;
+}
+.html__wrap {
+  margin-top: 0px!important;
+}
+/* topページのヘッダー色の変更 */
+.header-tab__active__event {
+  color: #00b4dc !important;
+  border-bottom: 2px solid #00b4dc !important;
+}
+/* Topページの下部　「ポータルトップに戻る」ボタンの削除 */
+/*ブース内タイトルの下線*/
+#app > div > section > section.widget__wrap.event__layout > div.portal-top-button {
+  display: none;
+}
+.base-background-color {
+  background-color: #00b4dc !important;
+}
+/* TOPページ下部のpadding削除 */
+.widget__wrap {
+  padding: 0 !important;
+}
+/* 【TOPページ】右下の画面最上部に戻るボタンの削除 */
+.top-button__wrap {
+  display: none;
+}
+
+/* ブースのタイトルのボーダー色変更 */
+.booth-list-title__text {
+  border-left: 8px solid #00b4dc !important;
+}
+
+/** ブースのリセットCSS **/
+section.contents__wrap.detail__contents >.booth__wrap {
+  padding: 0 !important;
+  max-width: none !important;
+  width: 100%;
+}
+section.detail-title__wrap.detail__title {
+  display: none;
+}
+p.portal-event-top {
+  display: none !important;
+}
+.detail__wrap {
+  padding: 0 !important;
+}
+
+/*受付中のテキスト色変更*/
+.card-status__selling {
+  color: #00b4dc !important;
+}
+
+/*チケット内*/
+/*チケット選択画面・マイチケット画面選択時の下線*/
+.page-selector__border {
+  border-color: #00b4dc !important;
+}
+
+/*チケットポップアップ内無料のテキスト色変更*/
+.ticket-price__value {
+  color: #00b4dc !important;
+}
+
+/*チケットポップアップ内の+-ボタン色変更*/
+.breadcrumbs {
+  background-color: #00b4dc !important;
+}
+
+/* アンケートの送信ボタン色変更 */
+.questionnaire-form__submit-button.v-btn.v-btn--contained.theme--light.v-size--default {
+  background-color: #00b4dc !important;
+}
+
+/* 絞り込みボタンの色変更 */
+.booth-cross-search-bar__button.v-btn.v-btn--contained.theme--dark.v-size--default {
+  background-color: rgb(0, 180, 220) !important;
+  border-color: rgb(0, 180, 220) !important;
+}
+
+.booth-cross-search-bar__button.v-btn.v-btn--depressed.v-btn--flat.v-btn--outlined.theme--light.v-size--default {
+  color: #00b4dc !important;
+  caret-color: #00b4dc !important;
+}
+
+/* 絞込みボタンの右上のアイコン２つの色変更 */
+.v-icon.notranslate.mdi.mdi-format-list-bulleted.theme--light {
+  color: rgb(0, 180, 220) !important;
+  caret-color: rgb(0, 180, 220) !important;
+}
+.v-icon.notranslate.mdi.mdi-view-grid.theme--light{
+  color: rgb(0, 180, 220) !important;
+  caret-color: rgb(0, 180, 220) !important;
+}
+
+/* ページ数の表示アイコンの色変更 */
+.v-pagination__item.v-pagination__item--active {
+  background-color: #00b4dc !important;
+}
+/** WebページのリセットCSS **/
+.web-page__title {
+  display: none;
+}
+section.detail-title__wrap.detail__title {
+  display: none;
+}
+p.portal-event-top {
+  display: none !important;
+}
+.detail__wrap {
+  padding: 0 !important;
+}
+/**#__layout, #__nuxt, body, html {
+  height: auto;
+}**/
+section.contents__wrap.detail__contents >.web-page__wrap {
+  padding: 0 !important;
+  max-width: none !important;
+  width: 100%;
+}
+.web-page__html {
+  max-width: none !important;
+  width: 100%;
+}
+.html__wrap .container {
+  max-width: none !important;
+}
+.v-btn--round .v-btn__content .v-icon {
+  color: #f4f2f2;
+}
+/* .theme--dark.v-btn:not(.v-btn--flat):not(.v-btn--text):not(.v-btn--outlined) {
+  background:#00b4dc !important;
+}
+button.widget__header.v-btn.v-btn--flat.v-btn--text.v-btn--tile.theme--light.v-size--default.widget__header__event {
+  color:#00b4dc !important;
+}
+.widget-header__border {
+  border-color:#00b4dc !important;
+}
+.widget-title__border {
+  background-color:#00b4dc !important;
+}
+span.information-date__text.base-color {
+  color: #00b4dc!important;
+}
+.header-tab__name {
+  color: #00b4dc;
+}
+.header-tab__v-tab.v-tab.v-tab--active.header-tab__active__event {
+  border-color: #00b4dc;
+}
+.detail-title__border {
+  background-color: #00b4dc!important;
+} */
+
+/* フロートボタンのimg調整 */
+/* .pc_click img {
+margin-bottom: 0;
+}
+
+@media screen and (max-width:768px) {
+  .sp_click img {
+      margin-bottom: 0;
+  }
+} */
+
+/** 会員登録画面書き換え **/
+#form_8682 > h1 {
+  font-size: 0 !important;
+}
+#form_8682 > h1:before {
+  content: "新規登録";
+  font-size: 32px;
+}
+#form_8682 > h3 {
+  font-size: 0;
+}
+#form_8682 > h3:before {
+  content: "新規登録をお願いします。";
+  font-size: 1.17rem;
+}
+.my-scan-product-detail-layout__pc-title__title[data-v-e3f95ae4] {
+    font-size:0;
+    }
+    
+.my-scan-product-detail-layout__pc-title__title[data-v-e3f95ae4]:before {
+    font-size:18px;
+    content:"企業情報";
+}
+@media screen and (max-width:600px) {
+    #app > div > section > section.mypage-layout__wrap.mypage__layout > div.mypage-contents__wrap > div > section > section.my-scan-product-detail-layout > div.mypage-sp-title > div > span.mypage-sp-title__content__text {
+        font-size: 0;
+    }
+    #app > div > section > section.mypage-layout__wrap.mypage__layout > div.mypage-contents__wrap > div > section > section.my-scan-product-detail-layout > div.mypage-sp-title > div > span.mypage-sp-title__content__text::before {
+        font-size: 18px;
+        content:"企業情報";
+    }
+}
+
+div.flex.mypage-contents__contents > section > section > section > div > div > div > div > section > div > div > div.pa-2.col-lg-6.col-xl-4.col-12 {
+    display: none;
+}
+#app > div > section > section.mypage-layout__wrap.mypage__layout > div.mypage-contents__wrap > div.flex.mypage-contents__contents > section > section.my-scan-product-detail-layout > div.my-scan-product-detail-card.v-card.v-card--flat.v-sheet.theme--light > div.my-scan-product-detail-card__content > div > div.mt-2 > div.my-scan-exhibitor-administrator-detail-product-card.v-card.v-card--flat.v-card--link.v-sheet.theme--light {
+    display: none;
+}
+.my-scan-exhibitor-administrator-card[data-v-6f2b3f16] {
+    display: none;
+}
+#app > div > section > section.mypage-layout__wrap.mypage__layout > div.mypage-contents__wrap > div.flex.mypage-contents__contents > section > section.my-scan-product-detail-layout > div.my-scan-product-detail-card.v-card.v-card--flat.v-sheet.theme--light > div.my-scan-product-detail-card__content > div > div.row.mt-12.no-gutters.row.mt-12.no-gutters {
+    display: none;
+}
+
+/* ヘッダー非活性 */
+.header_opacity {
+	pointer-events: none;
+    background-color: rgba(109, 109, 109, 0.4) !important;
+    filter: brightness(0.7);
+}
+.dateImg_buyer a {
+    pointer-events: none !important;
+    filter: brightness(0.5) !important;
+}
+@media screen and (max-width:768px) {
+    .dateImg_buyer a {
+        display: none !important;
+    }
+}
+
+/* 終了に伴ったcssの修正 */
+.dateInner_img_link {
+    display: none;
+}
+
+.pc_click,
+.sp_click {
+    display: none;
+}
+
+.dateImg_up {
+    padding: 20px 0 !important;
+}
+
+.dateInner {
+    padding-bottom: 0;
+}
+
+@media only screen and (min-width: 769px) {
+    .dateImg_buyer {
+        padding-left: 0 !important;
+        margin-left: 20px !important;
+    }
+
+    .dateImg_public {
+        padding-right: 0 !important;
+        margin-right: 20px !important;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #datePc {
+        padding: 20px !important;
+    }
+
+    .dateImg {
+        width: 100% !important;
+    }
+
+    .dateImg_up {
+        padding: 0 !important;
+    }
+
+    .datePc {
+        max-width: 760px;
+        display: flex !important;
+        flex-direction: column;
+        gap: 20px !important;
+    }
+
+    .dateInner {
+        width: 100% !important;
+    }
+}
