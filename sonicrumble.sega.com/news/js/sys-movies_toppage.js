@@ -108,6 +108,9 @@ var langary = ['en', 'ja', 'es-mx', 'pt-br', 'zh-hant', 'zh-cn', 'fr', 'de', 'es
    *　ピックアップ枠と最大10件のリスト枠の表示
    */
   function insertDataPopularVideos(entries) {
+    $('div.list ul.inner').empty();
+    $('div.pickup').empty();
+
     entries = entryFilterEmptyVideos(entries);
     checkActiveTabMovie(entries);
     entries = entryFilterVideos(entries);
