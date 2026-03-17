@@ -1,6 +1,6 @@
 var cookieinfo='SameSite=none;Secure',
     filter='',
-    langary = ['en', 'ja', 'es-mx', 'pt-br', 'zh-hant', 'zh-cn', 'fr', 'de', 'es', 'it', 'ko'],
+    langary = ['en', 'en-uk', 'ja', 'es-mx', 'pt-br', 'zh-hant', 'zh-cn', 'fr', 'de', 'es', 'it', 'ko'],
     tagary = ['information', 'update', 'event', 'campaigns'],
     limit=10,
     limittop=5,

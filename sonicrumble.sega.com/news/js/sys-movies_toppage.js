@@ -1,4 +1,4 @@
-var langary = ['en', 'ja', 'es-mx', 'pt-br', 'zh-hant', 'zh-cn', 'fr', 'de', 'es', 'it', 'ko', 'zh-cn'],
+var langary = ['en', 'en-uk', 'ja', 'es-mx', 'pt-br', 'zh-hant', 'zh-cn', 'fr', 'de', 'es', 'it', 'ko', 'zh-cn'],
       m_classary = ['popularvideos', 'walkthrough', 'tournament', 'other'],
       m_filter='',
       m_limit=6,

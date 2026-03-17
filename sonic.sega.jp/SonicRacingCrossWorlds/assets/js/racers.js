@@ -1,33 +1,32 @@
 $(function () {
-
 	/*======
 	collabo
 	======*/
 	const lang = document.documentElement.getAttribute('lang');
-	const jsonCollabo = "/SonicRacingCrossWorlds/assets/data/racersCollabo.json"
+	const jsonCollabo = '/SonicRacingCrossWorlds/assets/data/racersCollabo.json';
 	fetch(jsonCollabo)
-		.then(response => response.json())
-		.then(result => {
-			const collaboNum = result.length
+		.then((response) => response.json())
+		.then((result) => {
+			const collaboNum = result.length;
 
 			const collaboList = document.getElementById('collabo');
 			const collaboCSList = document.getElementById('collaboCS');
 			let collaboAppendItem = ``;
 			let breakAdded = ``;
 			for (let i = 0; i < collaboNum; i++) {
-				const collaboJsonData = result[i]
+				const collaboJsonData = result[i];
 				let collaboImg = collaboJsonData.img;
 				if (collaboImg) {
-					let collaboName = "";
+					let collaboName = '';
 					if (lang === 'ja') {
 						collaboName = collaboJsonData.jp;
 					} else if (lang === 'en') {
 						collaboName = collaboJsonData.en;
-						if (collaboImg === "rcm01") {
-							collaboImg = "mgm01"
+						if (collaboImg === 'rcm01') {
+							collaboImg = 'mgm01';
 						}
-						if (collaboImg === "rcm02") {
-							collaboImg = "mgm02"
+						if (collaboImg === 'rcm02') {
+							collaboImg = 'mgm02';
 						}
 					} else if (lang === 'ko') {
 						collaboName = collaboJsonData.kr;
@@ -37,23 +36,22 @@ $(function () {
 						collaboName = collaboJsonData.cn;
 					} else if (lang === 'th') {
 						collaboName = collaboJsonData.th;
-						if (collaboImg === "rcm01") {
-							collaboImg = "mgm01"
+						if (collaboImg === 'rcm01') {
+							collaboImg = 'mgm01';
 						}
-						if (collaboImg === "rcm02") {
-							collaboImg = "mgm02"
+						if (collaboImg === 'rcm02') {
+							collaboImg = 'mgm02';
 						}
 					}
 					collaboAppendItem += `<li class="racerItem"><div class="racerName is-yellow">${collaboName}</div>
 						<picture>
-							<source media="(max-width: 980px)" srcset="/SonicRacingCrossWorlds/assets/images/common/racers/sp/${collaboImg}.png" width="980" height="491">
-							<img loading="lazy"src="/SonicRacingCrossWorlds/assets/images/common/racers/pc/${collaboImg}.png" alt="" width="742" height="522">
+							<source media="(max-width: 980px)" srcset="/SonicRacingCrossWorlds/assets/images/common/racers/sp/${collaboImg}" width="980" height="491">
+							<img loading="lazy"src="/SonicRacingCrossWorlds/assets/images/common/racers/pc/${collaboImg}" alt="" width="742" height="522">
 						</picture>
-					</li>`
-
+					</li>`;
 				} else {
 					if (!breakAdded) {
-						collaboAppendItem += "<li class='breakItem'></li>"
+						collaboAppendItem += "<li class='breakItem'></li>";
 						breakAdded = true;
 					}
 
@@ -62,52 +60,49 @@ $(function () {
 							<source media="(max-width: 980px)" srcset="/SonicRacingCrossWorlds/assets/images/common/racers/sp/cs-y.png" width="980" height="491">
 							<img loading="lazy"src="/SonicRacingCrossWorlds/assets/images/common/racers/pc/cs-y.png" alt="ComingSoon" width="742" height="522">
 						</picture>
-					</li>`
+					</li>`;
 				}
-
-
-
-
-
 
 				if (!(i != collaboNum - 1)) {
 					/*======
 					for文終了
 					======*/
 
-
 					collaboList.innerHTML = collaboAppendItem;
-
-
 				}
-
 			}
 		})
-		.catch(error => {
+		.catch((error) => {
 			console.error('Error:', error);
 		});
 	/*======
 	update
 	======*/
-	const jsonUpdate = "/SonicRacingCrossWorlds/assets/data/racersUpdate.json"
+	const jsonUpdate = '/SonicRacingCrossWorlds/assets/data/racersUpdate.json';
 	fetch(jsonUpdate)
-		.then(response => response.json())
-		.then(result => {
-			const updateNum = result.length
+		.then((response) => response.json())
+		.then((result) => {
+			const updateNum = result.length;
 
 			const updateList = document.getElementById('update');
 			const updateCSList = document.getElementById('updateCS');
 			let updateAppendItem = ``;
 			let breakAdded = ``;
 			for (let i = 0; i < updateNum; i++) {
-				const updateJsonData = result[i]
+				const updateJsonData = result[i];
 				const updateImg = updateJsonData.img;
 				if (updateImg) {
-					let updateName = "";
+					let updateName = '';
+					let classIS = '';
 					if (lang === 'ja') {
 						updateName = updateJsonData.jp;
 					} else if (lang === 'en') {
 						updateName = updateJsonData.en;
+						console.log(updateImg);
+
+						if (updateImg === 'majima.webp') {
+							classIS = 'is-majima';
+						}
 					} else if (lang === 'ko') {
 						updateName = updateJsonData.kr;
 					} else if (lang === 'zh-Hant') {
@@ -117,16 +112,15 @@ $(function () {
 					} else if (lang === 'th') {
 						updateName = updateJsonData.th;
 					}
-					updateAppendItem += `<li class="racerItem"><div class="racerName">${updateName}</div>
+					updateAppendItem += `<li class="racerItem"><div class="racerName ${classIS}">${updateName}</div>
 						<picture>
-							<source media="(max-width: 980px)" srcset="/SonicRacingCrossWorlds/assets/images/common/racers/sp/${updateImg}.png" width="980" height="491">
-							<img loading="lazy"src="/SonicRacingCrossWorlds/assets/images/common/racers/pc/${updateImg}.png" width="742" height="522" alt="">
+							<source media="(max-width: 980px)" srcset="/SonicRacingCrossWorlds/assets/images/common/racers/sp/${updateImg}" width="980" height="491">
+							<img loading="lazy"src="/SonicRacingCrossWorlds/assets/images/common/racers/pc/${updateImg}" width="742" height="522" alt="">
 						</picture>
-					</li>`
-
+					</li>`;
 				} else {
 					if (!breakAdded) {
-						updateAppendItem += "<li class='breakItem'></li>"
+						updateAppendItem += "<li class='breakItem'></li>";
 						breakAdded = true;
 					}
 
@@ -135,48 +129,39 @@ $(function () {
 							<source media="(max-width: 980px)" srcset="/SonicRacingCrossWorlds/assets/images/common/racers/sp/cs-b.png" width="980" height="491">
 							<img loading="lazy"src="/SonicRacingCrossWorlds/assets/images/common/racers/pc/cs-b.png"  alt="ComingSoon"  width="742" height="522">
 						</picture>
-					</li>`
+					</li>`;
 				}
-
-
-
-
-
 
 				if (!(i != updateNum - 1)) {
 					/*======
 					for文終了
 					======*/
 
-
 					updateList.innerHTML = updateAppendItem;
-
-
 				}
-
 			}
 		})
-		.catch(error => {
+		.catch((error) => {
 			console.error('Error:', error);
 		});
 	/*======
 	main
 	======*/
-	const jsonMain = "/SonicRacingCrossWorlds/assets/data/racersMain.json"
+	const jsonMain = '/SonicRacingCrossWorlds/assets/data/racersMain.json';
 	fetch(jsonMain)
-		.then(response => response.json())
-		.then(result => {
-			const mainNum = result.length
+		.then((response) => response.json())
+		.then((result) => {
+			const mainNum = result.length;
 
 			const mainList = document.getElementById('main');
 			const mainCSList = document.getElementById('mainCS');
 			let mainAppendItem = ``;
 			let breakAdded = ``;
 			for (let i = 0; i < mainNum; i++) {
-				const mainJsonData = result[i]
+				const mainJsonData = result[i];
 				const mainImg = mainJsonData.img;
 				if (mainImg) {
-					let mainName = "";
+					let mainName = '';
 					if (lang === 'ja') {
 						mainName = mainJsonData.jp;
 					} else if (lang === 'en') {
@@ -192,14 +177,13 @@ $(function () {
 					}
 					mainAppendItem += `<li class="racerItem"><div class="racerName">${mainName}</div>
 						<picture>
-							<source media="(max-width: 980px)" srcset="/SonicRacingCrossWorlds/assets/images/common/racers/sp/${mainImg}.png" width="980" height="491">
-							<img loading="lazy"src="/SonicRacingCrossWorlds/assets/images/common/racers/pc/${mainImg}.png" alt="" width="742" height="522">
+							<source media="(max-width: 980px)" srcset="/SonicRacingCrossWorlds/assets/images/common/racers/sp/${mainImg}" width="980" height="491">
+							<img loading="lazy"src="/SonicRacingCrossWorlds/assets/images/common/racers/pc/${mainImg}" alt="" width="742" height="522">
 						</picture>
-					</li>`
-
+					</li>`;
 				} else {
 					if (!breakAdded) {
-						mainAppendItem += "<li class='breakItem'></li>"
+						mainAppendItem += "<li class='breakItem'></li>";
 						breakAdded = true;
 					}
 
@@ -208,13 +192,8 @@ $(function () {
 							<source media="(max-width: 980px)" srcset="/SonicRacingCrossWorlds/assets/images/common/racers/sp/cs-b.png" width="980" height="491">
 							<img loading="lazy"src="/SonicRacingCrossWorlds/assets/images/common/racers/pc/cs-b.png" alt="ComingSoon" width="742" height="522">
 						</picture>
-					</li>`
+					</li>`;
 				}
-
-
-
-
-
 
 				if (!(i != mainNum - 1)) {
 					/*======
@@ -222,33 +201,30 @@ $(function () {
 					======*/
 
 					mainList.innerHTML = mainAppendItem;
-
-
 				}
-
 			}
 		})
-		.catch(error => {
+		.catch((error) => {
 			console.error('Error:', error);
 		});
 	/*======
 	prime
 	======*/
-	const jsonPrime = "/SonicRacingCrossWorlds/assets/data/racersPrime.json"
+	const jsonPrime = '/SonicRacingCrossWorlds/assets/data/racersPrime.json';
 	fetch(jsonPrime)
-		.then(response => response.json())
-		.then(result => {
-			const primeNum = result.length
+		.then((response) => response.json())
+		.then((result) => {
+			const primeNum = result.length;
 
 			const primeList = document.getElementById('prime');
 			const primeCSList = document.getElementById('primeCS');
 			let primeAppendItem = ``;
 			let breakAdded = ``;
 			for (let i = 0; i < primeNum; i++) {
-				const primeJsonData = result[i]
+				const primeJsonData = result[i];
 				const primeImg = primeJsonData.img;
 				if (primeImg) {
-					let primeName = "";
+					let primeName = '';
 					if (lang === 'ja') {
 						primeName = primeJsonData.jp;
 					} else if (lang === 'en') {
@@ -264,14 +240,13 @@ $(function () {
 					}
 					primeAppendItem += `<li class="racerItem"><div class="racerName">${primeName}</div>
 						<picture>
-							<source media="(max-width: 980px)" srcset="/SonicRacingCrossWorlds/assets/images/common/racers/sp/${primeImg}.png" width="980" height="491">
-							<img loading="lazy"src="/SonicRacingCrossWorlds/assets/images/common/racers/pc/${primeImg}.png" alt="" width="742" height="522">
+							<source media="(max-width: 980px)" srcset="/SonicRacingCrossWorlds/assets/images/common/racers/sp/${primeImg}" width="980" height="491">
+							<img loading="lazy"src="/SonicRacingCrossWorlds/assets/images/common/racers/pc/${primeImg}" alt="" width="742" height="522">
 						</picture>
-					</li>`
-
+					</li>`;
 				} else {
 					if (!breakAdded) {
-						primeAppendItem += "<li class='breakItem'></li>"
+						primeAppendItem += "<li class='breakItem'></li>";
 						breakAdded = true;
 					}
 
@@ -280,48 +255,39 @@ $(function () {
 							<source media="(max-width: 980px)" srcset="/SonicRacingCrossWorlds/assets/images/common/racers/sp/cs-b.png" width="980" height="491">
 							<img loading="lazy"src="/SonicRacingCrossWorlds/assets/images/common/racers/pc/cs-b.png" alt="ComingSoon" width="742" height="522">
 						</picture>
-					</li>`
+					</li>`;
 				}
-
-
-
-
-
 
 				if (!(i != primeNum - 1)) {
 					/*======
 					for文終了
 					======*/
 
-
 					primeList.innerHTML = primeAppendItem;
-
-
 				}
-
 			}
 		})
-		.catch(error => {
+		.catch((error) => {
 			console.error('Error:', error);
 		});
 	/*======
 	bonus
 	======*/
-	const jsonBonus = "/SonicRacingCrossWorlds/assets/data/racersBonus.json"
+	const jsonBonus = '/SonicRacingCrossWorlds/assets/data/racersBonus.json';
 	fetch(jsonBonus)
-		.then(response => response.json())
-		.then(result => {
-			const bonusNum = result.length
+		.then((response) => response.json())
+		.then((result) => {
+			const bonusNum = result.length;
 
 			const bonusList = document.getElementById('bonus');
 			const bonusCSList = document.getElementById('bonusCS');
 			let bonusAppendItem = ``;
 			let breakAdded = ``;
 			for (let i = 0; i < bonusNum; i++) {
-				const bonusJsonData = result[i]
+				const bonusJsonData = result[i];
 				const bonusImg = bonusJsonData.img;
 				if (bonusImg) {
-					let bonusName = "";
+					let bonusName = '';
 					if (lang === 'ja') {
 						bonusName = bonusJsonData.jp;
 					} else if (lang === 'en') {
@@ -337,14 +303,13 @@ $(function () {
 					}
 					bonusAppendItem += `<li class="racerItem"><div class="racerName">${bonusName}</div>
 						<picture>
-							<source media="(max-width: 980px)" srcset="/SonicRacingCrossWorlds/assets/images/common/racers/sp/${bonusImg}.png" width="980" height="491">
-							<img loading="lazy"src="/SonicRacingCrossWorlds/assets/images/common/racers/pc/${bonusImg}.png" alt="" width="742" height="522">
+							<source media="(max-width: 980px)" srcset="/SonicRacingCrossWorlds/assets/images/common/racers/sp/${bonusImg}" width="980" height="491">
+							<img loading="lazy"src="/SonicRacingCrossWorlds/assets/images/common/racers/pc/${bonusImg}" alt="" width="742" height="522">
 						</picture>
-					</li>`
-
+					</li>`;
 				} else {
 					if (!breakAdded) {
-						bonusAppendItem += "<li class='breakItem'></li>"
+						bonusAppendItem += "<li class='breakItem'></li>";
 						breakAdded = true;
 					}
 
@@ -353,13 +318,8 @@ $(function () {
 							<source media="(max-width: 980px)" srcset="/SonicRacingCrossWorlds/assets/images/common/racers/sp/cs-b.png" width="980" height="491">
 							<img loading="lazy"src="/SonicRacingCrossWorlds/assets/images/common/racers/pc/cs-b.png" alt="ComingSoon" width="742" height="522">
 						</picture>
-					</li>`
+					</li>`;
 				}
-
-
-
-
-
 
 				if (!(i != bonusNum - 1)) {
 					/*======
@@ -369,9 +329,8 @@ $(function () {
 					bonusList.innerHTML = bonusAppendItem;
 
 					setTimeout(() => {
-						$(".racerItem").on("inview", function () {
+						$('.racerItem').on('inview', function () {
 							$(this).addClass('is-on');
-
 						});
 						//Lenis 慣性スクロール
 						const lenis = new Lenis();
@@ -383,13 +342,10 @@ $(function () {
 
 						requestAnimationFrame(raf);
 					}, 500);
-
-
 				}
-
 			}
 		})
-		.catch(error => {
+		.catch((error) => {
 			console.error('Error:', error);
 		});
 });
