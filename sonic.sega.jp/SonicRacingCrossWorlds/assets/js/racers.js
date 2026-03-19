@@ -22,11 +22,13 @@ $(function () {
 						collaboName = collaboJsonData.jp;
 					} else if (lang === 'en') {
 						collaboName = collaboJsonData.en;
-						if (collaboImg === 'rcm01') {
-							collaboImg = 'mgm01';
+						console.log(collaboImg);
+
+						if (collaboImg === 'rcm01.png') {
+							collaboImg = 'mgm01.png';
 						}
-						if (collaboImg === 'rcm02') {
-							collaboImg = 'mgm02';
+						if (collaboImg === 'rcm02.png') {
+							collaboImg = 'mgm02.png';
 						}
 					} else if (lang === 'ko') {
 						collaboName = collaboJsonData.kr;
@@ -36,11 +38,12 @@ $(function () {
 						collaboName = collaboJsonData.cn;
 					} else if (lang === 'th') {
 						collaboName = collaboJsonData.th;
-						if (collaboImg === 'rcm01') {
-							collaboImg = 'mgm01';
+
+						if (collaboImg === 'rcm01.png') {
+							collaboImg = 'mgm01.png';
 						}
-						if (collaboImg === 'rcm02') {
-							collaboImg = 'mgm02';
+						if (collaboImg === 'rcm02.png') {
+							collaboImg = 'mgm02.png';
 						}
 					}
 					collaboAppendItem += `<li class="racerItem"><div class="racerName is-yellow">${collaboName}</div>
