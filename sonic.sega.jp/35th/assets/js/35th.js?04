@@ -1,0 +1,362 @@
+$(window).on('load', function () {
+
+  $('.loadWrap').fadeOut(function () {
+    $('.kvAreaInner').addClass('is-inview');
+
+  });
+  $('.videosListWrap').on('init', function () {
+    setTimeout(() => {
+      $(this).slick('setPosition');
+    }, 100);
+  });
+  // slick slider
+  $('.videosListWrap').slick({
+    infinite: true,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+
+    /*autoplay: true,*/
+    autoplaySpeed: 8000,
+    dots: true,
+    arrows: true,
+    prevArrow: '<img class="arrow arrow01" src="assets/images/slider-arrow01.png" alt="前へ">',
+    nextArrow: '<img class="arrow arrow02" src="assets/images/slider-arrow02.png" alt="次へ">',
+    // asNavFor: '.sliderNavWrap',
+
+    responsive: [{
+      breakpoint: 980,
+      settings: {
+        slidesToShow: 1,
+        centerPadding: '0%',
+      }
+    }],
+  });
+
+  ScrollTrigger.refresh();
+
+
+  /*======
+  GSAP
+  ======*/
+  gsap.registerPlugin(ScrollTrigger);
+
+  gsap.utils.toArray(".js-fadeIn").forEach((el) => {
+    gsap.to(el, {
+      scrollTrigger: {
+        trigger: el,
+        start: "top 80%",
+        toggleActions: "play none none none",
+      },
+      opacity: 1,
+      duration: .8,
+      ease: "power2.out",
+      onComplete: function () {
+        el.classList.add('is-active');
+      }
+    });
+  });
+
+
+  gsap.utils.toArray(".js-fadeSlideUpIn").forEach((el) => {
+    gsap.to(el, {
+      scrollTrigger: {
+        trigger: el,
+        start: "top 80%",
+        toggleActions: "play none none none",
+      },
+      opacity: 1,
+      y: 0,
+      duration: .8,
+      ease: "power2.out",
+      onComplete: function () {
+        el.classList.add('is-active');
+      }
+    });
+  });
+
+  gsap.utils.toArray(".js-fadeSlideUpSectionIn").forEach((el) => {
+    gsap.to(el, {
+      scrollTrigger: {
+        trigger: el,
+        start: "top 98%",
+        toggleActions: "play none none none",
+      },
+      opacity: 1,
+      y: 0,
+      duration: .8,
+      ease: "power2.out",
+      onComplete: function () {
+        el.classList.add('is-active');
+      }
+    });
+  });
+
+
+  gsap.utils.toArray(".js-fadeSlideUpInTopics").forEach((el) => {
+    gsap.to(el, {
+      scrollTrigger: {
+        trigger: el,
+        start: "top 80%",
+        toggleActions: "play none none none",
+      },
+      // opacity: 1,
+      // y: 0,
+      // duration: .8,
+      ease: "power2.out",
+      onComplete: function () {
+        el.classList.add('is-active');
+      }
+    });
+  });
+
+  gsap.utils.toArray(".js-addClassOnly").forEach((el) => {
+    gsap.to(el, {
+      scrollTrigger: {
+        trigger: el,
+        start: "top 80%",
+        toggleActions: "play none none none",
+      },
+      onComplete: function () {
+        el.classList.add('is-active');
+      }
+    });
+  });
+
+  // gsap.utils.toArray(".js-upperLineText").forEach((el) => {
+  //   gsap.to(el, {
+  //     scrollTrigger: {
+  //       trigger: el,
+  //       start: "top 95%",
+  //       toggleActions: "play none none none",
+  //     },
+  //     onComplete: function () {
+  //       el.classList.add('is-active');
+  //     }
+  //   });
+  // });
+
+
+
+  // slider
+  if (1 < $('.bannerArea .banner').length) {
+
+    // slick slider
+    $('.bannerArea .bannerSliderWrap').slick({
+      infinite: true,
+      slidesToShow: 1,
+      centerMode: true,
+      autoplay: true,
+      centerPadding: '33.5%',
+      autoplaySpeed: 8000,
+      dots: true,
+      arrows: true,
+      prevArrow: '<img class="arrow arrow01" src="assets/images/slider-arrow01.png" alt="前へ">',
+      nextArrow: '<img class="arrow arrow02" src="assets/images/slider-arrow02.png" alt="次へ">',
+      // asNavFor: '.sliderNavWrap',
+
+      responsive: [{
+        breakpoint: 980,
+        settings: {
+          slidesToShow: 1,
+          centerPadding: '0%',
+        }
+      }],
+    });
+
+    ScrollTrigger.refresh();
+
+  } else if (1 == $('.bannerArea .banner').length) {
+    $('.bannerArea').addClass('-only');
+  }
+
+
+
+});
+
+
+
+$(function () {
+  //colorboxGA4対応
+  const colorboxMovie = ".colorboxMovie";
+  if ($(colorboxMovie).length > 0) {
+    colorboxSet(colorboxMovie);
+  }
+
+  function colorboxSet(setClassName) {
+    const setName = setClassName;
+    let setNameItem = document.querySelectorAll(setName);
+    setNameItem.forEach((e) => {
+      let href = e.getAttribute('href');
+      e.setAttribute('data-href', href);
+      e.removeAttribute('href');
+    });
+    $(setName).on('click', function () {
+      let modal_href = $(this).attr('data-href');
+      const setNameItemDOM = $(this);
+
+      if (0 < setNameItemDOM.length) {
+        if (setClassName === ".colorboxMovie") {
+          const aspectRatio = 16 / 9;
+          // const width = $(window).width() * 0.9; // 90%の幅
+          const width = 760; // 90%の幅
+          const height = width / aspectRatio;
+          setNameItemDOM.colorbox({
+            transition: "fade",
+            href: modal_href,
+            iframe: true,
+            innerWidth: width,
+            innerHeight: height,
+            maxWidth: "90%",
+            maxHeight: '90%',
+            opacity: 0.7,
+
+          });
+        } else {
+          setNameItemDOM.colorbox({
+            transition: "fade",
+            href: modal_href,
+            maxWidth: '90%',
+            maxHeight: '90%',
+            opacity: 0.7,
+          });
+        }
+
+      }
+    });
+  }
+
+
+
+  $('#animation-toggle-btn').on('click', function () {
+    $('#animation-toggle-btn, body').toggleClass('animation-pause');
+    if ($(this).hasClass('animation-pause')) {
+      $(this).attr('aria-label', 'アニメーションをオンにする');
+    } else {
+      $(this).attr('aria-label', 'アニメーションをオフにする');
+    }
+  });
+
+
+
+  function restartByClass() {
+
+    const $targets = $('.upperLineText .item');
+    $targets.addClass('is-restarting');
+
+    if ($targets.length) {
+      void $targets[0].offsetHeight;
+    }
+
+    $targets.removeClass('is-restarting');
+  }
+
+
+
+  var timer = 0;
+  var lastW = window.innerWidth;
+  $(window).on('resize', function () {
+    // iOSのスクロール中resize(高さだけ変化)は無視する
+    if (window.innerWidth === lastW) return;
+    lastW = window.innerWidth;
+
+    if (timer > 0) {
+      clearTimeout(timer);
+    }
+    timer = setTimeout(function () {
+      restartByClass();
+    }, 200);
+  });
+
+
+
+  // 背景動画
+  var ua = navigator.userAgent;
+  if (ua.indexOf('iPhone') !== -1 || ua.indexOf('iPad') !== -1 ||
+    ua.indexOf('iPod') !== -1 || ua.indexOf('Android') !== -1 ||
+    (ua.indexOf('Macintosh') !== -1 && 'ontouchend' in document)) {
+
+    // スマホの場合は静止画
+
+  } else {
+
+    if (document.getElementById("bgYoutube") != null) {
+      videoId = document.getElementById("bgYoutube").dataset.url;
+
+      var tag = document.createElement('script');
+      tag.src = "https://www.youtube.com/iframe_api";
+      var firstScriptTag = document.getElementsByTagName('script')[0];
+      firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+    }
+  }
+
+});
+
+
+
+
+
+
+
+var player, videoId;
+
+function onYouTubeIframeAPIReady() {
+  player = new YT.Player('bgYoutube', {
+    videoId: videoId,
+    host: 'https://www.youtube-nocookie.com',
+    events: {
+      'onReady': onPlayerReady,
+      'onStateChange': onPlayerStateChange
+    },
+    playerVars: {
+      showinfo: 0,
+      disablekb: 1,
+      playsinline: 1,
+      autoplay: 1,
+      fs: 0,
+      rel: 0,
+      controls: 0,
+      modestbranding: 1,
+      iv_load_policy: 3,
+    }
+  });
+}
+
+function onPlayerReady(event) {
+  event.target.mute();
+  event.target.playVideo();
+
+  window.addEventListener("focus", () => {
+    // アクティブ
+    event.target.playVideo();
+  });
+  window.addEventListener("blur", () => {
+    // 非アクティブ
+    event.target.pauseVideo();
+  });
+}
+
+
+var timer;
+
+function onPlayerStateChange(event) {
+  if (event.data == YT.PlayerState.PLAYING) { // 再生中の場合
+    timer = setInterval(repeatVideo, 1000); // 再生時間の監視開始
+  } else {
+    clearInterval(timer); // 再生時間の監視停止
+    timer = null;
+  }
+  if (event.data == YT.PlayerState.ENDED) { //動画が停止したら
+    console.log('YT.PlayerState.ENDED');
+    clearInterval(timer); // 再生時間の監視停止
+    timer = null;
+    event.target.seekTo(0, true); //動画の初めにシーク
+    event.target.playVideo(); //動画を再生
+  }
+}
+
+function repeatVideo() {
+  if (player.getCurrentTime() >= 14) { // 14秒超えたら
+    player.seekTo(0, true); // 0秒後から開始
+  }
+}
+// /ループ時間指定バージョン ////////////////
