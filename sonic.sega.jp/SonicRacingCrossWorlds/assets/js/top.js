@@ -2,66 +2,63 @@ $(function () {
 	/*======
 		top
 		======*/
-	const on = "is-on";
+	const on = 'is-on';
 
-	$(".topKvItem").addClass(on);
+	$('.topKvItem').addClass(on);
 	setTimeout(() => {
-		$(".topCatch").addClass(on);
+		$('.topCatch').addClass(on);
 		setTimeout(() => {
-			$(".spTopLogo").addClass(on);
-			$(".spTopCS").addClass(on);
-			$(".topMovieBox").addClass(on);
-			$(".topPf").addClass(on);
-			$(".topNote").addClass(on);
-			$(".otnBnr").addClass(on);
+			$('.spTopLogo').addClass(on);
+			$('.spTopCS').addClass(on);
+			$('.topMovieBox').addClass(on);
+			$('.topPf').addClass(on);
+			$('.topNote').addClass(on);
+			$('.otnBnr').addClass(on);
 		}, 500);
 	}, 300);
 	/*======
 	inview
 	======*/
 
-
-
-	$(".topSSSlideStop").on("click", function () {
-
-		$(".topSSSlide").toggleClass("is-stop")
-		$(".topSSSlideStop").toggleClass("is-stop")
+	$('.topSSSlideStop').on('click', function () {
+		$('.topSSSlide').toggleClass('is-stop');
+		$('.topSSSlideStop').toggleClass('is-stop');
 	});
 	const lang = document.documentElement.getAttribute('lang');
-	let jsonTopNews = "";
+	let jsonTopNews = '';
 
 	if (lang === 'ja') {
-		jsonTopNews = "/SonicRacingCrossWorlds/assets/data/jp/news.json"
+		jsonTopNews = '/SonicRacingCrossWorlds/assets/data/jp/news.json';
 	} else if (lang === 'en') {
-		jsonTopNews = "/SonicRacingCrossWorlds/assets/data/en/news.json"
+		jsonTopNews = '/SonicRacingCrossWorlds/assets/data/en/news.json';
 	} else if (lang === 'ko') {
-		jsonTopNews = "/SonicRacingCrossWorlds/assets/data/kr/news.json"
+		jsonTopNews = '/SonicRacingCrossWorlds/assets/data/kr/news.json';
 	} else if (lang === 'zh-Hant') {
-		jsonTopNews = "/SonicRacingCrossWorlds/assets/data/cht/news.json"
+		jsonTopNews = '/SonicRacingCrossWorlds/assets/data/cht/news.json';
 	} else if (lang === 'zh-Hans') {
-		jsonTopNews = "/SonicRacingCrossWorlds/assets/data/cn/news.json"
+		jsonTopNews = '/SonicRacingCrossWorlds/assets/data/cn/news.json';
 	} else if (lang === 'th') {
-		jsonTopNews = "/SonicRacingCrossWorlds/assets/data/th/news.json"
+		jsonTopNews = '/SonicRacingCrossWorlds/assets/data/th/news.json';
 	}
 
 	fetch(jsonTopNews)
-		.then(response => response.json())
-		.then(result => {
-			const topnewsNum = result.length
+		.then((response) => response.json())
+		.then((result) => {
+			const topnewsNum = result.length;
 			const topnewsList = document.getElementById('topNewsList');
 			let topnewsAppendItem = ``;
 			for (let i = 0; i < topnewsNum; i++) {
-				const topnewsJsonData = result[i]
+				const topnewsJsonData = result[i];
 				const linkBlank = topnewsJsonData.linkBlank;
-				const tumbnailImg = topnewsJsonData.tumbnailImg;
+				const thumbnailImg = topnewsJsonData.thumbnailImg;
 				const title = topnewsJsonData.title;
 				const year = topnewsJsonData.year;
 				const month = topnewsJsonData.month;
 				const day = topnewsJsonData.day;
 				const link = topnewsJsonData.link;
-				let tagetBlank = "";
+				let tagetBlank = '';
 				if (linkBlank) {
-					tagetBlank = `target="_blank"`
+					tagetBlank = `target="_blank"`;
 				}
 
 				topnewsAppendItem += `<div class="topNewsListItem swiper-slide">
@@ -71,7 +68,7 @@ $(function () {
 															<div class="newIcon is-news" data-date="${year}-${month}-${day}"></div>
 
 															<div class="topNewsThumb">
-																<img loading="lazy"src="${tumbnailImg}" alt="${title}">
+																<img loading="lazy"src="${thumbnailImg}" alt="${title}">
 															</div><!-- .topNewsThumb -->
 															<div class="topNewsText">
 															<p>${title}</p>
@@ -84,21 +81,12 @@ $(function () {
 												</a>
 											</div>`;
 
-
-
-
-
-
-
 				if (!(i != topnewsNum - 1)) {
 					/*======
 					for文終了
 					======*/
 
-
 					topnewsList.innerHTML = topnewsAppendItem;
-
-
 
 					$('.newIcon.is-news').each(function () {
 						const newsIcon = $(this);
@@ -114,7 +102,6 @@ $(function () {
 							newsIcon.hide();
 						}
 					});
-
 
 					/*======
 					news
@@ -135,12 +122,9 @@ $(function () {
 							prevEl: '.swiper-button-prev.is-news',
 						},
 
-
 						breakpoints: {
-
 							769: {
 								slidesPerView: 1, // 640px以下のときのスライド数
-
 							},
 							980: {
 								slidesPerView: 3, // 980px以異常のときのスライド数
@@ -150,15 +134,9 @@ $(function () {
 								slidesPerView: 4, // 980px以下のときのスライド数
 							},
 						},
-
-
-
-
-
 					});
 
-
-					const swiperBnr = new Swiper(".swiperBnr", {
+					const swiperBnr = new Swiper('.swiperBnr', {
 						spaceBetween: 0,
 						loop: false,
 						pagination: {
@@ -166,14 +144,12 @@ $(function () {
 							clickable: true, // ページネーションをクリック可能にする
 						},
 						navigation: {
-							nextEl: ".swiper-button-next.is-bnr",
-							prevEl: ".swiper-button-prev.is-bnr",
+							nextEl: '.swiper-button-next.is-bnr',
+							prevEl: '.swiper-button-prev.is-bnr',
 						},
 						breakpoints: {
-
 							769: {
 								slidesPerView: 1, // 640px以下のときのスライド数
-
 							},
 							980: {
 								slidesPerView: 5, // 980px以異常のときのスライド数
@@ -185,10 +161,9 @@ $(function () {
 						},
 						on: {
 							init: function () {
-								$(".topBnrBox").addClass("is-on")
-							}
-						}
-
+								$('.topBnrBox').addClass('is-on');
+							},
+						},
 					});
 
 					//Lenis 慣性スクロール
@@ -201,18 +176,13 @@ $(function () {
 
 					requestAnimationFrame(raf);
 					const lang = document.documentElement.getAttribute('lang');
-
 				}
-
 			}
 		})
-		.catch(error => {
+		.catch((error) => {
 			console.error('Error:', error);
 		});
 });
-
-
-
 
 const canvas = document.getElementById('canvas');
 const ctx = canvas.getContext('2d');
@@ -220,10 +190,7 @@ const ctx = canvas.getContext('2d');
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 
-const colors = [
-
-	'rgba(255, 214, 0, 0.2)', ,
-];
+const colors = ['rgba(255, 214, 0, 0.2)', ,];
 
 const numCircles = 3; // ここで丸の個数を指定
 
@@ -236,7 +203,7 @@ for (let i = 0; i < numCircles; i++) {
 		radius: Math.random() * 100 + 300, // 大きさを調整
 		color: colors[Math.floor(Math.random() * colors.length)], // 指定した色からランダムに選択
 		dx: (Math.random() - 0.5) * 2,
-		dy: (Math.random() - 0.5) * 2
+		dy: (Math.random() - 0.5) * 2,
 	});
 }
 
@@ -262,7 +229,7 @@ function updateCircle(circle) {
 
 function animate() {
 	ctx.clearRect(0, 0, canvas.width, canvas.height);
-	circles.forEach(circle => {
+	circles.forEach((circle) => {
 		drawCircle(circle);
 		updateCircle(circle);
 	});
