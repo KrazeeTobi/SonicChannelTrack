@@ -25,37 +25,93 @@ $(function () {
 		$('.topSSSlideStop').toggleClass('is-stop');
 	});
 	const lang = document.documentElement.getAttribute('lang');
-	let jsonTopNews = '';
+	const localNewsMap = {
+		ja: '/SonicRacingCrossWorlds/assets/data/jp/news.json',
+		en: '/SonicRacingCrossWorlds/assets/data/en/news.json',
+		ko: '/SonicRacingCrossWorlds/assets/data/kr/news.json',
+		'zh-Hant': '/SonicRacingCrossWorlds/assets/data/cht/news.json',
+		'zh-Hans': '/SonicRacingCrossWorlds/assets/data/cn/news.json',
+		th: '/SonicRacingCrossWorlds/assets/data/th/news.json',
+	};
+	const getNewsHost = () => {
+		const host = location.hostname;
+		if (host.endsWith('sonic.sega.jp')) {
+			return host.replace('sonic.sega.jp', 'sonicracing.sega.com');
+		}
+		if (host.endsWith('asia.sega.com')) {
+			return host.replace('asia.sega.com', 'sonicracing.sega.com');
+		}
+		return 'sonicracing.sega.com';
+	};
+	const getNewsLangPath = (newsLang) => {
+		const langMap = {
+			ja: 'jp',
+			en: 'en',
+			ko: 'kr',
+			'zh-Hant': 'cht',
+			'zh-Hans': 'cn',
+			th: 'th',
+		};
+		return langMap[newsLang] || newsLang;
+	};
+	const resolveNewsLink = (link, newsLang) => {
+		// 絶対URLはそのまま、相対パスだけ news ドメインに寄せる
+		if (/^https?:\/\//.test(link)) {
+			return link;
+		}
 
-	if (lang === 'ja') {
-		jsonTopNews = '/SonicRacingCrossWorlds/assets/data/jp/news.json';
-	} else if (lang === 'en') {
-		jsonTopNews = '/SonicRacingCrossWorlds/assets/data/en/news.json';
-	} else if (lang === 'ko') {
-		jsonTopNews = '/SonicRacingCrossWorlds/assets/data/kr/news.json';
-	} else if (lang === 'zh-Hant') {
-		jsonTopNews = '/SonicRacingCrossWorlds/assets/data/cht/news.json';
-	} else if (lang === 'zh-Hans') {
-		jsonTopNews = '/SonicRacingCrossWorlds/assets/data/cn/news.json';
-	} else if (lang === 'th') {
-		jsonTopNews = '/SonicRacingCrossWorlds/assets/data/th/news.json';
+		const langPath = getNewsLangPath(newsLang);
+		const normalizedLink = link.replace(/^\/(jp|en|kr|cht|cn|th)(?=\/)/, '');
+		return `https://${getNewsHost()}/${langPath}${normalizedLink}`;
+	};
+	const newsHost = getNewsHost();
+	const externalNewsCacheKey = Date.now();
+	const externalNewsMap = {
+		ja: `https://${newsHost}/jp/data/news.json?t=${externalNewsCacheKey}`,
+		en: `https://${newsHost}/en/data/news.json?t=${externalNewsCacheKey}`,
+		ko: `https://${newsHost}/kr/data/news.json?t=${externalNewsCacheKey}`,
+		'zh-Hant': `https://${newsHost}/cht/data/news.json?t=${externalNewsCacheKey}`,
+		'zh-Hans': `https://${newsHost}/cn/data/news.json?t=${externalNewsCacheKey}`,
+		th: `https://${newsHost}/th/data/news.json?t=${externalNewsCacheKey}`,
+	};
+	const localNewsUrl = localNewsMap[lang];
+
+	if (!localNewsUrl) {
+		console.warn(`Unsupported lang for top news: ${lang}`);
+		return;
 	}
 
-	fetch(jsonTopNews)
-		.then((response) => response.json())
-		.then((result) => {
-			const topnewsNum = result.length;
+	const newsSources = [externalNewsMap[lang], localNewsUrl].filter(Boolean);
+	const fetchNewsData = (url) =>
+		fetch(url)
+			.then((response) => response.json())
+			.catch((error) => {
+				console.warn(`Failed to fetch news json: ${url}`, error);
+				return [];
+			});
+
+	Promise.all(newsSources.map((url) => fetchNewsData(url)))
+		.then((results) => {
+			// 外部JSONだけリンクを正規化し、local JSON は元の相対パスを維持する
+			const getNewsDateValue = (news) => Number(`${news.year}${String(news.month).padStart(2, '0')}${String(news.day).padStart(2, '0')}`);
+			const topnewsResult = results
+				.flatMap((items, index) => items.map((news) => ({...news, isExternalNews: index === 0})))
+				.slice()
+				.sort((a, b) => getNewsDateValue(b) - getNewsDateValue(a))
+				.slice(0, 9);
+			const topnewsNum = topnewsResult.length;
 			const topnewsList = document.getElementById('topNewsList');
 			let topnewsAppendItem = ``;
 			for (let i = 0; i < topnewsNum; i++) {
-				const topnewsJsonData = result[i];
+				const topnewsJsonData = topnewsResult[i];
 				const linkBlank = topnewsJsonData.linkBlank;
 				const thumbnailImg = topnewsJsonData.thumbnailImg;
 				const title = topnewsJsonData.title;
 				const year = topnewsJsonData.year;
 				const month = topnewsJsonData.month;
 				const day = topnewsJsonData.day;
-				const link = topnewsJsonData.link;
+				// 外部取得分だけ絶対URL化する
+				const link = topnewsJsonData.isExternalNews ? resolveNewsLink(topnewsJsonData.link, lang) : topnewsJsonData.link;
 				let tagetBlank = '';
 				if (linkBlank) {
 					tagetBlank = `target="_blank"`;
@@ -126,7 +182,7 @@ $(function () {
 							769: {
 								slidesPerView: 1, // 640px以下のときのスライド数
 							},
-							980: {
+							981: {
 								slidesPerView: 3, // 980px以異常のときのスライド数
 							},
 
@@ -151,7 +207,7 @@ $(function () {
 							769: {
 								slidesPerView: 1, // 640px以下のときのスライド数
 							},
-							980: {
+							981: {
 								slidesPerView: 5, // 980px以異常のときのスライド数
 							},
 
