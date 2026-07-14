@@ -51,11 +51,31 @@
 	<script>
 		(function (d) {
 			var config = {
-				kitId: 'nrz8sso',
-				scriptTimeout: 3000,
-				async: true
-			},
-				h = d.documentElement, t = setTimeout(function () { h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive"; }, config.scriptTimeout), tk = d.createElement("script"), f = false, s = d.getElementsByTagName("script")[0], a; h.className += " wf-loading"; tk.src = 'https://use.typekit.net/' + config.kitId + '.js'; tk.async = true; tk.onload = tk.onreadystatechange = function () { a = this.readyState; if (f || a && a != "complete" && a != "loaded") return; f = true; clearTimeout(t); try { Typekit.load(config) } catch (e) { } }; s.parentNode.insertBefore(tk, s)
+					kitId: 'nrz8sso',
+					scriptTimeout: 3000,
+					async: true
+				},
+				h = d.documentElement,
+				t = setTimeout(function () {
+					h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";
+				}, config.scriptTimeout),
+				tk = d.createElement("script"),
+				f = false,
+				s = d.getElementsByTagName("script")[0],
+				a;
+			h.className += " wf-loading";
+			tk.src = 'https://use.typekit.net/' + config.kitId + '.js';
+			tk.async = true;
+			tk.onload = tk.onreadystatechange = function () {
+				a = this.readyState;
+				if (f || a && a != "complete" && a != "loaded") return;
+				f = true;
+				clearTimeout(t);
+				try {
+					Typekit.load(config)
+				} catch (e) {}
+			};
+			s.parentNode.insertBefore(tk, s)
 		})(document);
 	</script>
 	<!--====== CSS ======-->
@@ -483,9 +503,88 @@
 														<div class="packageHeadline">
 															<h4>通常版（店舗一覧）</h4>
 														</div>
-														<p class="comingText">
+
+														<div class="storeBtnBox js-fadeIn">
+															<div class="storeBtnItem">
+																<div class="skew-btnArea">
+																	<a href="https://www.amazon.co.jp/dp/B0H69X3Q6K" target="_blank" rel="noopener" class="skew-btn is-storeList">
+																		<span><img src="/SonicFrontiers/assets-sw2/images/jp/store/Amazon.jpg" alt="Amazon.co.jp"></span>
+																	</a>
+																</div>
+																<small>特典なし</small>
+															</div><!-- .storeBtnItem -->
+															<div class="storeBtnItem">
+																<div class="skew-btnArea">
+																	<a href="https://www.amazon.co.jp/dp/B0H69V34QZ" target="_blank" rel="noopener" class="skew-btn is-storeList">
+																		<span><img src="/SonicFrontiers/assets-sw2/images/jp/store/Amazon.jpg" alt="Amazon.co.jp"></span>
+																	</a>
+																</div>
+																<small>特典あり</small>
+															</div><!-- .storeBtnItem -->
+
+															<div class="storeBtnItem">
+																<div class="skew-btnArea"><a href="https://www.amiami.jp/top/detail/detail?gcode=GAME-0034591" target="_blank" rel="noopener" class="skew-btn is-storeList"><span><img src="/SonicFrontiers/assets-sw2/images/jp/store/Amiami.jpg" alt="あみあみ"></span></a></div>
+															</div><!-- .storeBtnItem -->
+															<div class="storeBtnItem">
+																<div class="skew-btnArea"><a href="https://www.animate-onlineshop.jp/pd/3519697/" target="_blank" rel="noopener" class="skew-btn is-storeList"><span><img src="/SonicFrontiers/assets-sw2/images/jp/store/Animate.jpg" alt="アニメイト"></span></a></div>
+															</div><!-- .storeBtnItem -->
+															<div class="storeBtnItem">
+																<div class="skew-btnArea"><a href="https://www.biccamera.com/bc/item/15220085/" target="_blank" rel="noopener" class="skew-btn is-storeList"><span><img src="/SonicFrontiers/assets-sw2/images/jp/store/Bic.jpg" alt="ビックカメラ.com"></span></a></div>
+															</div><!-- .storeBtnItem -->
+															<div class="storeBtnItem">
+																<div class="skew-btnArea"><a href="https://www.edion.com/detail.html?p_cd=00086264150" target="_blank" rel="noopener" class="skew-btn is-storeList"><span><img src="/SonicFrontiers/assets-sw2/images/jp/store/Edion.jpg" alt="エディオンネットショップ"></span></a></div>
+															</div><!-- .storeBtnItem -->
+															<div class="storeBtnItem">
+																<div class="skew-btnArea"><a href="https://www.furu1.net/shop.html" target="_blank" rel="noopener" class="skew-btn is-storeList"><span><img src="/SonicFrontiers/assets-sw2/images/jp/store/Furuichi.jpg" alt="古本市場"></span></a></div>
+															</div><!-- .storeBtnItem -->
+															<div class="storeBtnItem">
+																<div class="skew-btnArea"><a href="https://www.gamers.co.jp/pd/10910181/" target="_blank" rel="noopener" class="skew-btn is-storeList"><span><img src="/SonicFrontiers/assets-sw2/images/jp/store/GAMERS.jpg" alt="ゲーマーズ"></span></a></div>
+															</div><!-- .storeBtnItem -->
+															<div class="storeBtnItem">
+																<div class="skew-btnArea"><a href="https://ec.geo-online.co.jp/shop/g/g517150501/" target="_blank" rel="noopener" class="skew-btn is-storeList"><span><img src="/SonicFrontiers/assets-sw2/images/jp/store/GEO.jpg" alt="GEO"></span></a></div>
+															</div><!-- .storeBtnItem -->
+															<div class="storeBtnItem">
+																<div class="skew-btnArea"><a href="https://joshinweb.jp/game/73632/4974365870980.html" target="_blank" rel="noopener" class="skew-btn is-storeList"><span><img src="/SonicFrontiers/assets-sw2/images/jp/store/Joshin.jpg" alt="Joshin / Joshin webショップ（TVゲーム取扱店）"></span></a></div>
+															</div><!-- .storeBtnItem -->
+															<div class="storeBtnItem">
+																<div class="skew-btnArea"><a href="https://online.nojima.co.jp/commodity/1/4974365870980/" target="_blank" rel="noopener" class="skew-btn is-storeList"><span><img src="/SonicFrontiers/assets-sw2/images/jp/store/Nojima.jpg" alt="ノジマオンライン"></span></a></div>
+															</div><!-- .storeBtnItem -->
+															<div class="storeBtnItem">
+																<div class="skew-btnArea"><a href="https://www.ec.otakarasouko.com/shop/shopdetail.html?brandcode=000000808834" target="_blank" rel="noopener" class="skew-btn is-storeList"><span><img src="/SonicFrontiers/assets-sw2/images/jp/store/Otakara.jpg" alt="お宝創庫"></span></a></div>
+															</div><!-- .storeBtnItem -->
+															<div class="storeBtnItem">
+																<div class="skew-btnArea"><a href="https://books.rakuten.co.jp/rb/18683667/?l-id=search-c-item-text-01" target="_blank" rel="noopener" class="skew-btn is-storeList"><span><img src="/SonicFrontiers/assets-sw2/images/jp/store/Rakuten.jpg" alt="楽天ブックス"></span></a></div>
+															</div><!-- .storeBtnItem -->
+															<div class="storeBtnItem">
+																<div class="skew-btnArea"><a href="https://7net.omni7.jp/detail/2110694103" target="_blank" rel="noopener" class="skew-btn is-storeList"><span><img src="/SonicFrontiers/assets-sw2/images/jp/store/Seven net.jpg" alt="セブンネットショッピング"></span></a></div>
+															</div><!-- .storeBtnItem -->
+															<div class="storeBtnItem">
+																<div class="skew-btnArea"><a href="https://a.sofmap.com/product_detail.aspx?sku=102088200" target="_blank" rel="noopener" class="skew-btn is-storeList"><span><img src="/SonicFrontiers/assets-sw2/images/jp/store/Sofmap.jpg" alt="アキバ☆ソフマップ"></span></a></div>
+															</div><!-- .storeBtnItem -->
+															<div class="storeBtnItem">
+																<div class="skew-btnArea"><a href="https://store-tsutaya.tsite.jp/?sheader_store-search" target="_blank" rel="noopener" class="skew-btn is-storeList"><span><img src="/SonicFrontiers/assets-sw2/images/jp/store/Tsutaya.jpg" alt="Game TSUTAYA加盟店"></span></a></div>
+															</div><!-- .storeBtnItem -->
+															<div class="storeBtnItem">
+																<div class="skew-btnArea"><a href="https://shinseidowondergoo.com/products/4974365870980?_pos=5&_sid=3ba7949d0&_ss=r" target="_blank" rel="noopener" class="skew-btn is-storeList"><span><img src="/SonicFrontiers/assets-sw2/images/jp/store/Wonder.jpg" alt="WonderGOO"></span></a></div>
+															</div><!-- .storeBtnItem -->
+															<div class="storeBtnItem">
+																<div class="skew-btnArea"><a href="https://www.yamada-denkiweb.com/2821724011/" target="_blank" rel="noopener" class="skew-btn is-storeList"><span><img src="/SonicFrontiers/assets-sw2/images/jp/store/Yamada.jpg" alt="ヤマダウェブコム"></span></a></div>
+															</div><!-- .storeBtnItem -->
+															<div class="storeBtnItem">
+																<div class="skew-btnArea"><a href="https://www.yodobashi.com/product/100000001009949467/" target="_blank" rel="noopener" class="skew-btn is-storeList"><span><img src="/SonicFrontiers/assets-sw2/images/jp/store/Yodobashi.jpg" alt="ヨドバシ.com"></span></a></div>
+															</div><!-- .storeBtnItem -->
+															<div class="storeBtnItem">
+
+															</div><!-- .storeBtnItem -->
+
+														</div><!-- .storeBtnBox -->
+
+
+
+														<!-- <p class="comingText">
 															COMING SOON
-														</p><!-- .comingText -->
+														</p> -->
+														<!-- .comingText -->
 													</div>
 												</section>
 
