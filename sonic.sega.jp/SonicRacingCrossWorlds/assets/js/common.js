@@ -238,14 +238,16 @@ window.addEventListener('DOMContentLoaded', () => {
 			});
 
 			//Lenis 慣性スクロール
-			const lenis = new Lenis();
+			if (!location.pathname.endsWith('/guide.html')) {
+				const lenis = new Lenis();
 
-			function raf(time) {
-				lenis.raf(time);
+				function raf(time) {
+					lenis.raf(time);
+					requestAnimationFrame(raf);
+				}
+
 				requestAnimationFrame(raf);
 			}
-
-			requestAnimationFrame(raf);
 
 
 
