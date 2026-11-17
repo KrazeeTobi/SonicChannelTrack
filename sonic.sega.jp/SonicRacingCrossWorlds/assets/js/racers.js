@@ -78,6 +78,50 @@ $(function () {
 		.catch((error) => {
 			console.error('Error:', error);
 		});
+	const jsonCollabo2 = '/SonicRacingCrossWorlds/assets/data/racersCollabo2.json';
+	fetch(jsonCollabo2)
+		.then((response) => response.json())
+		.then((result) => {
+			const collabo2List = document.getElementById('collabo2');
+			let collabo2AppendItem = ``;
+			for (let i = 0; i < result.length; i++) {
+				const collaboJsonData = result[i];
+				let collaboImg = collaboJsonData.img;
+				if (collaboImg) {
+					let collaboName = '';
+					if (lang === 'ja') {
+						collaboName = collaboJsonData.jp;
+					} else if (lang === 'en') {
+						collaboName = collaboJsonData.en;
+					} else if (lang === 'ko') {
+						collaboName = collaboJsonData.kr;
+					} else if (lang === 'zh-Hant') {
+						collaboName = collaboJsonData.cht;
+					} else if (lang === 'zh-Hans') {
+						collaboName = collaboJsonData.cn;
+					} else if (lang === 'th') {
+						collaboName = collaboJsonData.th;
+					}
+					collabo2AppendItem += `<li class="racerItem"><div class="racerName is-yellow">${collaboName}</div>
+						<picture>
+							<source media="(max-width: 980px)" srcset="/SonicRacingCrossWorlds/assets/images/common/racers/sp/${collaboImg}" width="980" height="491">
+							<img loading="lazy"src="/SonicRacingCrossWorlds/assets/images/common/racers/pc/${collaboImg}" alt="" width="742" height="522">
+						</picture>
+					</li>`;
+				} else {
+					collabo2AppendItem += `<li class="racerItem is-cs">
+						<picture>
+							<source media="(max-width: 980px)" srcset="/SonicRacingCrossWorlds/assets/images/common/racers/sp/cs-y.png" width="980" height="491">
+							<img loading="lazy"src="/SonicRacingCrossWorlds/assets/images/common/racers/pc/cs-y.png" alt="ComingSoon" width="742" height="522">
+						</picture>
+					</li>`;
+				}
+			}
+			collabo2List.innerHTML = collabo2AppendItem;
+		})
+		.catch((error) => {
+			console.error('Error:', error);
+		});
 	/*======
 	update
 	======*/
@@ -143,6 +187,51 @@ $(function () {
 					updateList.innerHTML = updateAppendItem;
 				}
 			}
+		})
+		.catch((error) => {
+			console.error('Error:', error);
+		});
+	const jsonUpdate2 = '/SonicRacingCrossWorlds/assets/data/racersUpdate2.json';
+	fetch(jsonUpdate2)
+		.then((response) => response.json())
+		.then((result) => {
+			const update2List = document.getElementById('update2');
+			let update2AppendItem = ``;
+			for (let i = 0; i < result.length; i++) {
+				const updateJsonData = result[i];
+				const updateImg = updateJsonData.img;
+				if (updateImg) {
+					let updateName = '';
+					let classIS = '';
+					if (lang === 'ja') {
+						updateName = updateJsonData.jp;
+					} else if (lang === 'en') {
+						updateName = updateJsonData.en;
+					} else if (lang === 'ko') {
+						updateName = updateJsonData.kr;
+					} else if (lang === 'zh-Hant') {
+						updateName = updateJsonData.cht;
+					} else if (lang === 'zh-Hans') {
+						updateName = updateJsonData.cn;
+					} else if (lang === 'th') {
+						updateName = updateJsonData.th;
+					}
+					update2AppendItem += `<li class="racerItem"><div class="racerName ${classIS}">${updateName}</div>
+						<picture>
+							<source media="(max-width: 980px)" srcset="/SonicRacingCrossWorlds/assets/images/common/racers/sp/${updateImg}" width="980" height="491">
+							<img loading="lazy"src="/SonicRacingCrossWorlds/assets/images/common/racers/pc/${updateImg}" width="742" height="522" alt="">
+						</picture>
+					</li>`;
+				} else {
+					update2AppendItem += `<li class="racerItem is-cs">
+						<picture>
+							<source media="(max-width: 980px)" srcset="/SonicRacingCrossWorlds/assets/images/common/racers/sp/cs-b.png" width="980" height="491">
+							<img loading="lazy"src="/SonicRacingCrossWorlds/assets/images/common/racers/pc/cs-b.png" alt="ComingSoon" width="742" height="522">
+						</picture>
+					</li>`;
+				}
+			}
+			update2List.innerHTML = update2AppendItem;
 		})
 		.catch((error) => {
 			console.error('Error:', error);
