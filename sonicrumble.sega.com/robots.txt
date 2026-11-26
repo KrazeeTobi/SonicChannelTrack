@@ -1,16 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
 <head prefix="og: https://ogp.me/ns# fb: https://ogp.me/ns/fb# article: https://ogp.me/ns/article#">
+<!-- STRIGHT ONE Google Consent Mode Tag Start for Prod https://sega.com/ -->
+<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag() {dataLayer.push(arguments);}
+	gtag('set' , 'developer_id.dZTE2OD', true);
+
+/* IMPORTANT : Please change to the target site domain.*/
+	const cmd = "sega.com"
+	const matches = document.cookie.match(new RegExp(
+		"(?:^|; )" + "cookie_consent_gcm_data".replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g, '\\$1') + "=([^;]*)"
+	));
+	let val = null;
+	if (matches) {
+		cData = JSON.parse(decodeURIComponent(matches[1]));
+		if (cmd === cData.cmd) {
+			val = cData.gGcType
+		}
+	}
+	if (!val) {
+		const lData = localStorage.getItem('cookie_consent_gcm_data')
+		if (lData) {
+			const lCmdData = JSON.parse(decodeURIComponent(lData))[cmd]
+			if (lCmdData) {
+				val = lCmdData.gGcType
+			}
+		}
+	}
+
+	if (val) {
+		gtag('consent', 'default', {
+			'ad_storage': 'denied',
+			'ad_user_data': 'denied',
+			'ad_personalization': 'denied',
+			'analytics_storage': 'denied',
+			'functionality_storage': 'denied',
+			'personalization_storage': 'denied',
+			'security_storage': 'denied',
+			'wait_for_update': 500
+		});
+		let updateVal = {};
+		for (let i = 0; i < val.length; i++) {
+			updateVal[val[i]] = 'granted';
+		}
+		if (Object.keys(updateVal).length !== 0) {
+			gtag('consent', 'update', updateVal);
+		}
+	} else {
+/* IMPORTANT : gtag.js(default)    --- START --- */
+		gtag('consent', 'default', {
+			'ad_storage': 'denied',
+			'ad_user_data': 'denied',
+			'ad_personalization': 'denied',
+			'analytics_storage': 'denied',
+			'functionality_storage': 'denied',
+			'personalization_storage': 'denied',
+			'security_storage': 'granted',
+			'wait_for_update': 500,
+			'region': ['at','be','bg','hr','cy','cz','dk','ee','fi','fr','de','gr','hu','is','ie','it','lv','li','lt','lu','mt','nl','no','pl','pt','ro','sk','si','es','se','gb']
+		});
+		gtag('consent', 'default', {
+			'ad_storage': 'granted',
+			'ad_user_data': 'granted',
+			'ad_personalization': 'granted',
+			'analytics_storage': 'granted',
+			'functionality_storage': 'granted',
+			'personalization_storage': 'granted',
+			'security_storage': 'granted',
+			'wait_for_update': 500
+		});
+/* --- END --- */
+	}
+</script>
+<!-- STRIGHT ONE Google Consent Mode Tag End -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-5NR2SS4N');</script>
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-TJVGZXM4');</script>
 <meta charset="utf-8">
 <script id="toolbarAnalyticsHead"></script>
 <title>Page Not Found | Sonic Rumble Party | SEGA</title>
@@ -42,8 +110,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </head>
 <body class="errors noAppFix">
 <noscript id="toolbarAnalyticsBody"></noscript>
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5NR2SS4N" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TJVGZXM4" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <noscript class="alert"><p>Please enable JavaScript in your browser to view all content on this site.</p></noscript>
 <aside id="newsletterInc" class="io-menu"></aside>
 <div id="container">
